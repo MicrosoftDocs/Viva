@@ -1,18 +1,18 @@
 
 
-#Chart types in Workplace Analytics 
+# Chart types in Workplace Analytics 
 
 
-##Chart types
+## Chart types
 Workplace Analytics has several different chart types to help visualize your data in a variety of ways.
 
 
-##About chart data
+## About chart data
 
 
-  *By default, Workplace Analytics groups data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any beyond the top nine) 
-  *Your administrator can set a minimum group size threshold required for data to show in the chart. If the group size is less than the minimum, the group will be disabled. You can see the name of the group, but not the values. When the size of a group equals zero, that group is not shown 
-  *To see different organizations, or other organizational attributes, use the filters in Chart Settings 
+  * By default, Workplace Analytics groups data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any beyond the top nine) 
+  * Your administrator can set a minimum group size threshold required for data to show in the chart. If the group size is less than the minimum, the group will be disabled. You can see the name of the group, but not the values. When the size of a group equals zero, that group is not shown 
+  * To see different organizations, or other organizational attributes, use the filters in Chart Settings 
 
 
 
