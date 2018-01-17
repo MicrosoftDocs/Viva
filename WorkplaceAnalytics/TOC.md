@@ -17,7 +17,7 @@
 ### [Meeting Overview](http://fasttrack.microsoft.com/office)
 ### [Management and Coaching](http://fasttrack.microsoft.com/office)
 ### [Networks and collaboration ](http://fasttrack.microsoft.com/office)
-## [Chart Types](/use/deployment-guide-for-office-365-proplus.md)
+## [Chart Types](/use/workplace-analytics-chart-types.md)
 ## [Create Queries](http://fasttrack.microsoft.com/office)
 ## [Data Sources](http://fasttrack.microsoft.com/office)
 ### [Summary](http://fasttrack.microsoft.com/office)
