@@ -10,3 +10,4 @@
 ### [Solutions](http://fasttrack.microsoft.com/office)
 ## [Architecture](http://fasttrack.microsoft.com/office)
 ## [Privacy Principles](http://fasttrack.microsoft.com/office)
+## [Getting Support](http://fasttrack.microsoft.com/office)
