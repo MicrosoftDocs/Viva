@@ -29,7 +29,7 @@
   - name: Create Queries
     href: ./conceptual/index.md
   - name: Data Sources
-  href: ./conceptual/index.md
+    href: ./conceptual/index.md
     items:
     - name: Summary
       href: ./conceptual/index.md
@@ -45,7 +45,7 @@
     href: ./conceptual/index.md
 - name: Getting Started  
   href: index.md
-items:
+  items:
   - name: Checklist
     href: ./conceptual/index.md
   - name: Step One - Population Scope and Licence Assignment 
