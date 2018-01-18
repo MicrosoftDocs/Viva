@@ -12,7 +12,7 @@
       href: ./conceptual/index.md
 - name: Use/ Analyze  
   href: index.md
-items: 
+  items: 
   - name: Explore Metrics
     href: ./conceptual/index.md
     items:
@@ -60,4 +60,3 @@ items:
     href: ./conceptual/index.md
   - name: Step Six - Begin to Analyze Data 
     href: ./conceptual/index.md
-
