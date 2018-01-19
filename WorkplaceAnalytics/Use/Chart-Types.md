@@ -1,6 +1,12 @@
+title: Workplace Analytics Getting Started Checklist
+description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+author: rodonahu
+ms.author: rodonahu
+ms.date: 1/19/2018
+ms.topic: get-started-article
+ms.prod: wpa
 
-
-# Chart types in Workplace Analytics 
+# Chart types in Workplace Analytics
 
 
 ## Chart types
@@ -10,9 +16,9 @@ Workplace Analytics has several different chart types to help visualize your dat
 ## About chart data
 
 
-  * By default, Workplace Analytics groups data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any beyond the top nine) 
-  * Your administrator can set a minimum group size threshold required for data to show in the chart. If the group size is less than the minimum, the group will be disabled. You can see the name of the group, but not the values. When the size of a group equals zero, that group is not shown 
-  * To see different organizations, or other organizational attributes, use the filters in Chart Settings 
+  * By default, Workplace Analytics groups data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any beyond the top nine)
+  * Your administrator can set a minimum group size threshold required for data to show in the chart. If the group size is less than the minimum, the group will be disabled. You can see the name of the group, but not the values. When the size of a group equals zero, that group is not shown
+  * To see different organizations, or other organizational attributes, use the filters in Chart Settings
 
 
 
