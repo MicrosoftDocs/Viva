@@ -62,11 +62,11 @@
         href: ./conceptual/index.md
       - name: Step Six - Begin to Analyze Data
         href: ./conceptual/index.md
-  - name: Grow
-    href: ./conceptual/index.md
-    items:
-      - name: FT Content would go here
-        href: ./conceptual/index.md
+    - name: Grow
+      href: ./conceptual/index.md
+      items:
+        - name: FT Content would go here
+          href: ./conceptual/index.md
 - name: MyAnalytics
   href: ./conceptual/index.md
   items:
@@ -114,8 +114,8 @@
         href: ./conceptual/index.md
       - name: Step Six -
         href: ./conceptual/index.md
-  - name: Grow
-    href: ./conceptual/index.md
-    items:
-      - name: FT Content would go here
-        href: ./conceptual/index.md
+    - name: Grow
+      href: ./conceptual/index.md
+      items:
+        - name: FT Content would go here
+          href: ./conceptual/index.md
