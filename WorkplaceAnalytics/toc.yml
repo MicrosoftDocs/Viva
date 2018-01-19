@@ -5,13 +5,13 @@
       href: ./conceptual/index.md
       items:
         - name: Environment Requirements
-          href: ./conceptual/index.md
+          href: ~/Overview/Environment-Requirements.md
         - name: Architecture
-          href: ./conceptual/index.md
+          href: ~/Overview/Architecture.md
         - name: Privacy Principles
-          href: ./conceptual/index.md
+          href: ~/Overview/Privacy-Principles.md
         - name: Getting Support
-          href: ./conceptual/index.md
+          href: ~/Overview/Getting-Support.md
     - name: Use/ Analyze
       href: ./conceptual/index.md
       items:
@@ -19,22 +19,22 @@
         href: ./conceptual/index.md
         items:
           - name: Week in the Life
-            href: ./conceptual/index.md
+            href: ~/Use/Explore-Metrics-Week-in-the-Life.md
           - name: Meeting Overview
-            href: ./conceptual/index.md
+            href: ~/Use/Explore-Metrics-Meeting-Overview.md
           - name: Management and Coaching
-            href: ./conceptual/index.md
+            href: ~/Use/Explore-Metrics-Management-and-Coaching.md
           - name: Networks and Collaboration
-            href: ./conceptual/index.md
+            href: ~/Use/Explore-Metrics-Networks-and-Collaboration.md
       - name: Chart Types
-        href: ./conceptual/index.md
+        href: ~/Use/Chart-Types.md
       - name: Create Queries
-        href: ./conceptual/index.md
+        href: ~/Use/Create-Queries.md
       - name: Data Sources
         href: ./conceptual/index.md
         items:
         - name: Summary
-          href: ./conceptual/index.md
+          href: ~/Use/Data-Sources-Summary.md
         - name: o365 Data Summary
           href: ./conceptual/index.md
         - name: Organizational Summary
