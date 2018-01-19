@@ -1,62 +1,132 @@
-- name: Workplace Analytics Overview 
+- name: Workplace Analytics 
   href: index.md
   expanded: true
-  items: 
-    - name: Environment Requirements
-      href: ./conceptual/index.md
-    - name: Architecture
-      href: ./conceptual/index.md
-    - name: Privacy Principles
-      href: ./conceptual/index.md
-    - name: Getting Support
-      href: ./conceptual/index.md
-- name: Use/ Analyze  
+    items: 
+    - name: Workplace Analytics Overview 
+      href: index.md
+      expanded: true
+      items: 
+        - name: Environment Requirements
+          href: ./conceptual/index.md
+        - name: Architecture
+          href: ./conceptual/index.md
+        - name: Privacy Principles
+          href: ./conceptual/index.md
+        - name: Getting Support
+          href: ./conceptual/index.md
+    - name: Use/ Analyze  
+      href: index.md
+      items: 
+      - name: Explore Metrics
+        href: ./conceptual/index.md
+        items:
+          - name: Week in the Life
+            href: ./conceptual/index.md
+          - name: Meeting Overview 
+            href: ./conceptual/index.md
+          - name: Management and Coaching 
+            href: ./conceptual/index.md
+          - name: Networks and Collaboration 
+            href: ./conceptual/index.md
+      - name: Chart Types
+        href: ./conceptual/index.md
+      - name: Create Queries
+        href: ./conceptual/index.md
+      - name: Data Sources
+        href: ./conceptual/index.md
+        items:
+        - name: Summary
+          href: ./conceptual/index.md
+        - name: o365 Data Summary
+          href: ./conceptual/index.md
+        - name: Organizational Summary
+          href: ./conceptual/index.md
+        - name: Networks and Collaboration 
+          href: ./conceptual/index.md
+      - name: Workplace Analytics Settings 
+        href: ./conceptual/index.md
+      - name: Solutions 
+        href: ./conceptual/index.md
+    - name: Getting Started  
+      href: index.md
+      items:
+      - name: Checklist
+        href: ./conceptual/index.md
+      - name: Step One - Population Scope and Licence Assignment 
+        href: ./conceptual/index.md
+      - name: Step Two - Role Assignment 
+        href: ./conceptual/index.md
+      - name: Step Three - Configure Settings 
+        href: ./conceptual/index.md
+      - name: Step Four - Prepare and upload Organizational Data 
+        href: ./conceptual/index.md
+      - name: Step Five - Configure Meeting Classifier 
+        href: ./conceptual/index.md
+      - name: Step Six - Begin to Analyze Data 
+        href: ./conceptual/index.md
+- name: MyAnalytucs
   href: index.md
-  items: 
-  - name: Explore Metrics
-    href: ./conceptual/index.md
-    items:
-      - name: Week in the Life
+  expanded: true
+   items: 
+    - name: MyAnalytics Overview 
+      href: index.md
+      expanded: true
+      items: 
+        - name: Environment Requirements
+          href: ./conceptual/index.md
+        - name: Architecture
+          href: ./conceptual/index.md
+        - name: Privacy Principles
+          href: ./conceptual/index.md
+        - name: Getting Support
+          href: ./conceptual/index.md
+    - name: Use/ Analyze  
+      href: index.md
+      items: 
+      - name: Explore Metrics
         href: ./conceptual/index.md
-      - name: Meeting Overview 
+        items:
+          - name: Week in the Life
+            href: ./conceptual/index.md
+          - name: Meeting Overview 
+            href: ./conceptual/index.md
+          - name: Management and Coaching 
+            href: ./conceptual/index.md
+          - name: Networks and Collaboration 
+            href: ./conceptual/index.md
+      - name: Chart Types
         href: ./conceptual/index.md
-      - name: Management and Coaching 
+      - name: Create Queries
         href: ./conceptual/index.md
-      - name: Networks and Collaboration 
+      - name: Data Sources
         href: ./conceptual/index.md
-  - name: Chart Types
-    href: ./conceptual/index.md
-  - name: Create Queries
-    href: ./conceptual/index.md
-  - name: Data Sources
-    href: ./conceptual/index.md
-    items:
-    - name: Summary
-      href: ./conceptual/index.md
-    - name: o365 Data Summary
-      href: ./conceptual/index.md
-    - name: Organizational Summary
-      href: ./conceptual/index.md
-    - name: Networks and Collaboration 
-      href: ./conceptual/index.md
-  - name: Workplace Analytics Settings 
-    href: ./conceptual/index.md
-  - name: Solutions 
-    href: ./conceptual/index.md
-- name: Getting Started  
-  href: index.md
-  items:
-  - name: Checklist
-    href: ./conceptual/index.md
-  - name: Step One - Population Scope and Licence Assignment 
-    href: ./conceptual/index.md
-  - name: Step Two - Role Assignment 
-    href: ./conceptual/index.md
-  - name: Step Three - Configure Settings 
-    href: ./conceptual/index.md
-  - name: Step Four - Prepare and upload Organizational Data 
-    href: ./conceptual/index.md
-  - name: Step Five - Configure Meeting Classifier 
-    href: ./conceptual/index.md
-  - name: Step Six - Begin to Analyze Data 
-    href: ./conceptual/index.md
+        items:
+        - name: Summary
+          href: ./conceptual/index.md
+        - name: o365 Data Summary
+          href: ./conceptual/index.md
+        - name: Organizational Summary
+          href: ./conceptual/index.md
+        - name: Networks and Collaboration 
+          href: ./conceptual/index.md
+      - name: MyAnalytucs Settings 
+        href: ./conceptual/index.md
+      - name: Solutions 
+        href: ./conceptual/index.md
+    - name: Getting Started  
+      href: index.md
+      items:
+      - name: Checklist
+        href: ./conceptual/index.md
+      - name: Step One - Population Scope and Licence Assignment 
+        href: ./conceptual/index.md
+      - name: Step Two - Role Assignment 
+        href: ./conceptual/index.md
+      - name: Step Three - Configure Settings 
+        href: ./conceptual/index.md
+      - name: Step Four - Prepare and upload Organizational Data 
+        href: ./conceptual/index.md
+      - name: Step Five - Configure Meeting Classifier 
+        href: ./conceptual/index.md
+      - name: Step Six - Begin to Analyze Data 
+        href: ./conceptual/index.md
