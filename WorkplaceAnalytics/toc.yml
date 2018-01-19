@@ -90,12 +90,6 @@
             href: ./conceptual/index.md
           - name: Email Digests
             href: ./conceptual/index.md
-      - name: Chart Types
-        href: ./conceptual/index.md
-      - name: Create Queries
-        href: ./conceptual/index.md
-      - name: Data Sources
-        href: ./conceptual/index.md
       - name: MyAnalytics Settings 
         href: ./conceptual/index.md
     - name: Getting Started  
