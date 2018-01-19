@@ -1,10 +1,8 @@
 - name: Workplace Analytics 
   href: index.md
-  expanded: true
   items: 
     - name: Workplace Analytics Overview 
       href: index.md
-      expanded: true
       items: 
         - name: Environment Requirements
           href: ./conceptual/index.md
@@ -66,11 +64,9 @@
         href: ./conceptual/index.md
 - name: MyAnalytucs
   href: index.md
-  expanded: true
   items: 
     - name: MyAnalytics Overview 
       href: index.md
-      expanded: true
       items: 
         - name: Environment Requirements
           href: ./conceptual/index.md
