@@ -1,9 +1,9 @@
-- name: Workplace Analytics 
+- name: Workplace Analytics
   href: ./conceptual/index.md
-  items: 
-    - name: Workplace Analytics Overview 
+  items:
+    - name: Workplace Analytics Overview
       href: ./conceptual/index.md
-      items: 
+      items:
         - name: Environment Requirements
           href: ./conceptual/index.md
         - name: Architecture
@@ -12,19 +12,19 @@
           href: ./conceptual/index.md
         - name: Getting Support
           href: ./conceptual/index.md
-    - name: Use/ Analyze  
+    - name: Use/ Analyze
       href: ./conceptual/index.md
-      items: 
+      items:
       - name: Explore Metrics
         href: ./conceptual/index.md
         items:
           - name: Week in the Life
             href: ./conceptual/index.md
-          - name: Meeting Overview 
+          - name: Meeting Overview
             href: ./conceptual/index.md
-          - name: Management and Coaching 
+          - name: Management and Coaching
             href: ./conceptual/index.md
-          - name: Networks and Collaboration 
+          - name: Networks and Collaboration
             href: ./conceptual/index.md
       - name: Chart Types
         href: ./conceptual/index.md
@@ -39,35 +39,40 @@
           href: ./conceptual/index.md
         - name: Organizational Summary
           href: ./conceptual/index.md
-        - name: Networks and Collaboration 
+        - name: Networks and Collaboration
           href: ./conceptual/index.md
-      - name: Workplace Analytics Settings 
+      - name: Workplace Analytics Settings
         href: ./conceptual/index.md
-      - name: Solutions 
+      - name: Solutions
         href: ./conceptual/index.md
-    - name: Getting Started  
+    - name: Getting Started
       href: ./conceptual/index.md
       items:
       - name: Checklist
         href: ./conceptual/index.md
-      - name: Step One - Population Scope and Licence Assignment 
+      - name: Step One - Population Scope and Licence Assignment
         href: ./conceptual/index.md
-      - name: Step Two - Role Assignment 
+      - name: Step Two - Role Assignment
         href: ./conceptual/index.md
-      - name: Step Three - Configure Settings 
+      - name: Step Three - Configure Settings
         href: ./conceptual/index.md
-      - name: Step Four - Prepare and upload Organizational Data 
+      - name: Step Four - Prepare and upload Organizational Data
         href: ./conceptual/index.md
-      - name: Step Five - Configure Meeting Classifier 
+      - name: Step Five - Configure Meeting Classifier
         href: ./conceptual/index.md
-      - name: Step Six - Begin to Analyze Data 
+      - name: Step Six - Begin to Analyze Data
+        href: ./conceptual/index.md
+  - name: Grow
+    href: ./conceptual/index.md
+    items:
+      - name: FT Content would go here
         href: ./conceptual/index.md
 - name: MyAnalytics
   href: ./conceptual/index.md
-  items: 
-    - name: MyAnalytics Overview 
+  items:
+    - name: MyAnalytics Overview
       href: ./conceptual/index.md
-      items: 
+      items:
         - name: Environment Requirements
           href: ./conceptual/index.md
         - name: Architecture
@@ -76,9 +81,9 @@
           href: ./conceptual/index.md
         - name: Getting Support
           href: ./conceptual/index.md
-    - name: Use/ Analyze  
+    - name: Use/ Analyze
       href: ./conceptual/index.md
-      items: 
+      items:
       - name: Components
         href: ./conceptual/index.md
         items:
@@ -86,26 +91,31 @@
             href: ./conceptual/index.md
           - name: Add-in
             href: ./conceptual/index.md
-          - name: Management and Coaching 
+          - name: Management and Coaching
             href: ./conceptual/index.md
           - name: Email Digests
             href: ./conceptual/index.md
-      - name: MyAnalytics Settings 
+      - name: MyAnalytics Settings
         href: ./conceptual/index.md
-    - name: Getting Started  
+    - name: Getting Started
       href: ./conceptual/index.md
       items:
       - name: Checklist
         href: ./conceptual/index.md
-      - name: Step One - 
+      - name: Step One -
         href: ./conceptual/index.md
-      - name: Step Two - 
+      - name: Step Two -
         href: ./conceptual/index.md
-      - name: Step Three - 
+      - name: Step Three -
         href: ./conceptual/index.md
-      - name: Step Four - a 
+      - name: Step Four - a
         href: ./conceptual/index.md
-      - name: Step Five - 
+      - name: Step Five -
         href: ./conceptual/index.md
-      - name: Step Six - 
+      - name: Step Six -
+        href: ./conceptual/index.md
+  - name: Grow
+    href: ./conceptual/index.md
+    items:
+      - name: FT Content would go here
         href: ./conceptual/index.md
