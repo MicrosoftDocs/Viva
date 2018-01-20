@@ -1,4 +1,5 @@
-d# Metadata Sample
+---
+# Metadata Sample
 # required metadata
 
 title: Workplace Analytics Getting Started Checklist
@@ -8,3 +9,4 @@ ms.author: rodonahu
 ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
+---

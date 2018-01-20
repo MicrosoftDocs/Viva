@@ -1,3 +1,4 @@
+---
 # Metadata Sample
 # required metadata
 
@@ -7,9 +8,8 @@ author: rodonahu
 ms.author: rodonahu
 ms.date: 1/19/2018
 ms.topic: get-started-article
-ms.prod: .net
-ms.service: active-directory
-ms.technology: devlang-fsharp
+ms.prod: wpa
+---
 
 
 |Task #	|Task	Owner|	Description	|Link for more	|Roberts Comments

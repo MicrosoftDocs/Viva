@@ -1,3 +1,4 @@
+---
 # Metadata Sample
 # required metadata
 
@@ -8,6 +9,7 @@ ms.author: rodonahu
 ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
+---
 
 
 
