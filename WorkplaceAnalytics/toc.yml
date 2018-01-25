@@ -17,15 +17,6 @@
       items:
       - name: Explore Metrics
         href: ./conceptual/index.md
-        items:
-          - name: Week in the Life
-            href: ~/Use/Explore-Metrics-Week-in-the-Life.md
-          - name: Meeting Overview
-            href: ~/Use/Explore-Metrics-Meeting-Overview.md
-          - name: Management and Coaching
-            href: ~/Use/Explore-Metrics-Management-and-Coaching.md
-          - name: Networks and Collaboration
-            href: ~/Use/Explore-Metrics-Networks-and-Collaboration.md
       - name: Chart Types
         href: ~/Use/Chart-Types.md
       - name: Create Queries
@@ -35,12 +26,6 @@
         items:
         - name: Summary
           href: ~/Use/Data-Sources-Summary.md
-        - name: o365 Data Summary
-          href: ./conceptual/index.md
-        - name: Organizational Summary
-          href: ./conceptual/index.md
-        - name: Networks and Collaboration
-          href: ./conceptual/index.md
       - name: Workplace Analytics Settings
         href: ./conceptual/index.md
       - name: Solutions
