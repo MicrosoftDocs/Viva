@@ -22,8 +22,8 @@ author: rodonahu
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Microsoft Language Portal</h3>
-                        <p>Terminology and Style Guide</p>
+                        <h3>Title #1</h3>
+                        <p>This is where dummy text goes</p>
                     </div>
                 </div>
             </div>
@@ -41,8 +41,8 @@ author: rodonahu
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Windows Internationalization</h3>
-                        <p>Build apps for the global audience</p>
+                        <h3>Title #2</h3>
+                        <p>This is where text would go</p>
                     </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@ author: rodonahu
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Downloads</h3>
-                        <p>Tools and resources for globalization</p>
+                        <h3>Text #3</h3>
+                        <p>This is where dummy text would go</p>
                     </div>
                 </div>
             </div>
@@ -73,6 +73,15 @@ author: rodonahu
 ## Workplace Abalytics Product Lines
 
 Workplace Analytics has Three facets:
+
+
+- **Workplace Analytics**  provides a rich set of objective data to make better business decisions. Guided exploration dashboards highlight potential problem areas, while flexible queries answer targeted business questions about hiring strategies, new organizational structures, and business programs. Augment Office 365 data with business outcome information to establish best practices, predictive models, and benchmarks. Introduce change initiatives based on behavioral data and measure the success of programs over time. Specialized consulting services are available to help you quantify business challenges and implement change.
+
+
+- **Solutions** FIller text
+
+- **MyAnalytics** An organization’s productivity is defined  by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to  spend their time. MyAnalytics gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with.
+Through
 
 - **World-readiness:** This covers the generic coding and design issues and comprises two major areas: **Globalization** is the process to develop a program core whose features and code design are not solely based on a single language or locale. **Localizability** is the process to enable a program to be localized into different languages without any changes to the source code.
 - **Localization:** This involves translating and customizing a product for a specific market.
