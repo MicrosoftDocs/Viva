@@ -70,7 +70,7 @@ author: rodonahu
     </li>
 </ul>
 
-## Workplace Abalytics Product Lines
+## Workplace Analytics Product Lines
 
 Workplace Analytics has Three facets:
 
@@ -82,9 +82,6 @@ Workplace Analytics has Three facets:
 
 - **MyAnalytics** An organization’s productivity is defined  by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to  spend their time. MyAnalytics gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with.
 Through
-
-- **World-readiness:** This covers the generic coding and design issues and comprises two major areas: **Globalization** is the process to develop a program core whose features and code design are not solely based on a single language or locale. **Localizability** is the process to enable a program to be localized into different languages without any changes to the source code.
-- **Localization:** This involves translating and customizing a product for a specific market.
 
 <ul class="panelContent cardsA cols cols4">
     <li>
