@@ -1,5 +1,6 @@
 - name: Workplace Analytics
   href: ./conceptual/index.md
+  expanded: true
   items:
     - name: Overview
       href: ./conceptual/index.md
@@ -69,6 +70,7 @@
 
 - name: MyAnalytics
   href: ./conceptual/index.md
+  expanded: true
   items:
     - name: MyAnalytics Overview
       href: ./conceptual/index.md
