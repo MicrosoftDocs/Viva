@@ -14,10 +14,16 @@ ms.prod: wpa
 
 ## Introduction
 Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with, by combining organizational data that your company chooses to provide with email and calendar metadata from Office 365. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
-Go to Get started with Workplace Analytics to see what Workplace Analytics can do for you. As of July 1, 2017, Workplace Analytics is in category A of the Office 365 Compliance Framework. It will be included in category C of the Office 365 Compliance Framework at a later date.
+
+Go to Get started with Workplace Analytics to see what Workplace Analytics can do for you. As of July 1, 2017, Workplace Analytics is in category A of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657). It will be included in category C of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) at a later date.
+
 Being aware of employees’ rights is a key component to ensuring a successful program using Workplace Analytics. It is important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics.
+
 Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in Workplace Analytics.
-Please consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
+
+>[!IMPORTANT]
+>Please consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
+
 This document introduces the privacy controls available to Workplace Analytics administrators. You control both the data and access to the data in Workplace Analytics.
 
 ## You control the data Workplace Analytics uses
@@ -25,12 +31,13 @@ You retain full control over what data is used and how it is used within Workpla
 
 ## Data from Office 365
 Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user’s mailbox and calendar:
-###Header information from emails
+### Header information from emails
 - Who the sender is
 - Who the recipient is
 - When was the email sent
 - What the subject line is
-###Header information from meetings
+
+### Header information from meetings
 - Who organized the meeting
 - Who the invitees are and what their attendee status is
 - When the was meeting scheduled for
@@ -39,9 +46,11 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 
 Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, you have the option of excluding rights-managed emails and meetings are excluded altogether.
 
-##Organizational data
+## Organizational data
 Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions. Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line of business data stores. For more information about organizational data, go to Prepare and export organizational data.
+
 The organizational data set is combined with the Office 365 email and calendar metadata to produce the complete data set that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Workplace Analytics through dashboards or query results.
+
 Please note that other information provided in the organizational data set is exposed in Workplace Analytics dashboards and reports. Care must be taken to ensure the data set does not include personal data (such as employee ID).
 
 ## Privacy settings
@@ -50,6 +59,7 @@ Workplace Analytics has three types of administrator controls, User Inclusion, U
 You decide which users to include by only assigning Workplace Analytics licenses to those people.
 ### User data exclusion
 For the users that you choose to include, you can decide to exclude data based upon the following:
+
 - Keywords in subject line. You can exclude emails and meetings that contain in their subject lines specific keywords that you define.
 Email address and domain. You can exclude emails and meetings from, or to, specific users, or all users from a domain.
 Level of detail displayed
