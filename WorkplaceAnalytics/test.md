@@ -13,14 +13,14 @@ ms.lasthandoff: 01/23/2018
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Documentación de Enterprise Mobility + Security</h1>
+        <h1>Workplace Analytics</h1>
         <ul class="pivots">
             <li>
-                <a href="#products">Productos</a>
-                <ul id="products">
+                <a href="#getstarted">Get-Started</a>
+                <ul id="getstarted">
                     <li>
-                        <a href="#products-all"></a>
-                        <ul id="products-all" class="cardsC">
+                        <a href="#getstarted-all"></a>
+                        <ul id="getstarted-all" class="cardsC">
                             <li>
                                 <a href="/azure/active-directory/index">
                                     <div class="cardSize">
@@ -32,8 +32,8 @@ ms.lasthandoff: 01/23/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Azure Active Directory</h3>
-                                                    <p>Sincronización de directorios locales y habilitación del inicio de sesión único</p>
+                                                    <h3>Workplace Analytics</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -51,8 +51,8 @@ ms.lasthandoff: 01/23/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Intune</h3>
-                                                    <p>Administración de dispositivos móviles, aplicaciones y equipos desde la nube</p>
+                                                    <h3>Solutions</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -70,8 +70,38 @@ ms.lasthandoff: 01/23/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>System Center Configuration Manager</h3>
-                                                    <p>Administración de equipos, servidores y dispositivos móviles, como iPhone y Android, con una infraestructura local o basada en la nube </p>
+                                                    <h3>MyAnalytics</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+<li>
+                <a href="#setup">Setup</a>
+                <ul id="setup">
+                    <li>
+                        <a href="#setup-all"></a>
+                        <ul id="setup-all" class="cardsC">
+                            <li>
+                                <a href="/azure/active-directory/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Workplace Analytics</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -79,18 +109,18 @@ ms.lasthandoff: 01/23/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="/cloud-app-security/">
+                                <a href="/intune/index">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_info-protection-security-3.svg" alt="" />
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Cloud App Security</h3>
-                                                    <p>Obtención de una visibilidad profunda, controles integrales y una seguridad de SaaS mejorada</p>
+                                                    <h3>Solutions</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -98,75 +128,18 @@ ms.lasthandoff: 01/23/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="/information-protection/">
+                                <a href="/sccm/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_info-protection-security-1.svg" alt="" />
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Azure Information Protection</h3>
-                                                    <p>Clasificación de los datos en el momento de crearlos o actualizarlos según el origen, el contexto y el contenido</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/azure/multi-factor-authentication/index">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-2.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Multi-Factor Authentication,</h3>
-                                                    <p>Protección del acceso a los datos y aplicaciones con un nivel adicional de autenticación</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/advanced-threat-analytics/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_info-protection-security-2.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Advanced Threat Analytics</h3>
-                                                    <p>Identificación de brechas y amenazas mediante los análisis del comportamiento y la creación de informes en una escala de tiempo de ataques</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/microsoft-identity-manager/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft Identity Manager</h3>
-                                                    <p>Administración de identidades con flujos de trabajo automatizados, autoservicios y mucho más</p>
+                                                    <h3>MyAnalytics</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
                                                 </div>
                                             </div>
                                         </div>
