@@ -151,6 +151,143 @@ ms.lasthandoff: 01/23/2018
                 </ul>
             </li>
             <li>
+<li>
+                <a href="#use">Use/Analyze</a>
+                <ul id="use">
+                    <li>
+                        <a href="#use-all"></a>
+                        <ul id="use-all" class="cardsC">
+                            <li>
+                                <a href="/azure/active-directory/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Workplace Analytics-use</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/intune/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Solutions-use</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/sccm/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-2.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>MyAnalytics-use</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+
+<li>
+                <a href="#succeed">Succeed</a>
+                <ul id="succeed">
+                    <li>
+                        <a href="#succeed-all"></a>
+                        <ul id="succeed-all" class="cardsC">
+                            <li>
+                                <a href="/azure/active-directory/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Workplace Analytics-succeed</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/intune/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Solutions-succeed</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/sccm/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-2.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>MyAnalytics-succeed</h3>
+                                                    <p>Link#1<br>link#2<br>link#3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
 <!--                <a href="#solutions">Solutions</a>
                 <ul id="solutions">
                     <li>
