@@ -16,7 +16,7 @@ ms.prod: wpa
 
 ## Chart types
 Workplace Analytics has several different chart types to help visualize your data in a variety of ways.
-
+test
 
 ## About chart data
 
