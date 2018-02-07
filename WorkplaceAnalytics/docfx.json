@@ -36,7 +36,8 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/WorkplaceAnalytics/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "titleSuffix": "Workplace Analytics Office 365 "
     },
     "fileMetadata": {},
     "template": [],
