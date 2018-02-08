@@ -27,3 +27,4 @@ About dashboard
 
 Weekly summary
  
+ new line
