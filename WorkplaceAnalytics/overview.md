@@ -14,9 +14,9 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 ---
-# Skype for Business Online Admin
+# Microsoft Workplace Analytics 
 
-Learn how to manage Skype for Business Online for your organization.
+Learn how to start using Microsoft Workplace Analytics in your organizatoin 
 
 <ul class="panelContent cardsFTitle">
     <li>
