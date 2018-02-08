@@ -19,7 +19,7 @@ Meeting hours consist of any meetings that you’ve organized or accepted that h
 Meeting hours do not include any time outside your working hours, as you’ve defined working hours in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). After-hours meeting time shows up in your after-hours stats.  
 
 The following meeting types are also excluded from Meeting hours: 
-* Meetings with no other participants than yourself, such as when you block time in your calendar or set reminders. 
+* Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders. 
 * All-day meetings. 
 * Meetings that are marked as Private. 
 

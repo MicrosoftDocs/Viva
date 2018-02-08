@@ -11,30 +11,31 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-# Meetings
 
-## How we calculate Meeting hours 
-Meeting hours consist of any meetings that you’ve organized or accepted that have at least one other person attending.  
 
-Meeting hours do not include any time outside your working hours, as you’ve defined working hours in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). After-hours meeting time shows up in your after-hours stats.  
+# Email read statistics 
 
-The following meeting types are also excluded from Meeting hours: 
-* Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders. 
-* All-day meetings. 
-* Meetings that are marked as Private. 
+MyAnalytics can tell you how many people have opened your emails and how long they spent reading them. It shows statistics only about email messages that you sent to five or more Office 365 cloud users who are internal to your company.  
 
-# Meeting habits  
+To give you this information, MyAnalytics displays informational "cards." This is an example card:  
 
-## How we categorize meetings
+Image in github: 
 
-The Meeting habits section categorizes the meetings you’ve accepted and shows how much time you spent in each type of meeting. Meetings are categorized as follows: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Not enough recipients")
 
-* **Conflicting meetings:** Meetings that overlap with other meetings that you've accepted, and where your status is set to Busy.
-* **Longer meetings:** Meetings that last longer than an hour. 
-* **Recurring meetings:** Meetings that are part of a series or have recurrence. 
-* **After hours meetings:** Meetings that occur outside your working hours, as you’ve defined working hours in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).   
-* **Multitasking in meetings:** Meetings in which you've sent more than two emails or read more than four emails per hour. 
+Local image:
 
-Click **View details** to view the specific meetings in each category. 
+![alt text](C:\Users\v-pascha\OfficeDocs-WorkplaceAnalytics-pr\WorkplaceAnalytics\Images/Not_enough_recips.PNG "Not enough recipients")
 
-See [meetings tips](https://support.office.com/en-us/article/microsoft-myanalytics-tips-bbe5903a-1ef1-495d-938f-a9afa2ec1e97?ui=en-US&rs=en-US&ad=US#bkmk_meetings) for suggestions on how to make your meetings more efficient. 
+Same image, after commit: 
+
+![alt text](https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics-pr/tree/master/WorkplaceAnalytics/Use/Not_enough_recips.PNG "Not enough recipients")   
+
+After you send an email message, it takes between five and fifteen minutes before you can see the statistics about it. MyAnalytics groups cards of similar topics into a single summary card that you can select and expand to see a more detailed view. 
+
+To see statistics about a specific email message 
+
+1. In Outlook, in your Sent Items folder, click the email message.  
+2. In the Home tab of the ribbon, click MyAnalytics. 
+
+The email stats appear at the top of the MyAnalytics panel. For example, the following card describes the status of the message entitled "Document for review": 
