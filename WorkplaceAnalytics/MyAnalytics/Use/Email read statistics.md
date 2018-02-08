@@ -29,7 +29,7 @@ Local image:
 
 Same image, after commit: 
 
-![alt text](https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics-pr/tree/master/WorkplaceAnalytics/Use/Not_enough_recips.PNG "Not enough recipients")   
+![alt text](https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics-pr/tree/master/WorkplaceAnalytics/Images/Not_enough_recips.PNG "Not enough recipients")   
 
 After you send an email message, it takes between five and fifteen minutes before you can see the statistics about it. MyAnalytics groups cards of similar topics into a single summary card that you can select and expand to see a more detailed view. 
 
