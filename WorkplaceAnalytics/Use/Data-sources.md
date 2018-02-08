@@ -10,7 +10,7 @@ ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
-
+# Data sources
 
 Data sources contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
 
