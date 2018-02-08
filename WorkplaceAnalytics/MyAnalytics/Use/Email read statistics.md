@@ -17,19 +17,9 @@ ms.prod: mya
 
 MyAnalytics can tell you how many people have opened your emails and how long they spent reading them. It shows statistics only about email messages that you sent to five or more Office 365 cloud users who are internal to your company.  
 
-To give you this information, MyAnalytics displays informational "cards." This is an example card:  
+To give you this information, MyAnalytics displays informational "cards," such as this one:   
 
-Image in github: 
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Not enough recipients")
-
-Local image:
-
-![alt text](C:\Users\v-pascha\OfficeDocs-WorkplaceAnalytics-pr\WorkplaceAnalytics\Images/Not_enough_recips.PNG "Not enough recipients")
-
-Same image, after commit: 
-
-![alt text](https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics-pr/tree/master/WorkplaceAnalytics/Images/Not_enough_recips.PNG "Not enough recipients")   
+![alt text](../../Images/Not_enough_recips.PNG "Not enough recipients")   
 
 After you send an email message, it takes between five and fifteen minutes before you can see the statistics about it. MyAnalytics groups cards of similar topics into a single summary card that you can select and expand to see a more detailed view. 
 
