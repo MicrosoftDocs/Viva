@@ -55,17 +55,20 @@ Please note that other information provided in the organizational data set is ex
 
 ## Privacy settings
 Workplace Analytics has three types of administrator controls, User Inclusion, User Data Exclusion and Level of Detail Displayed to enable you to define specific criteria that will exclude meetings and emails from analysis.
-### User inclusion
+#### User inclusion
 You decide which users to include by only assigning Workplace Analytics licenses to those people.
-### User data exclusion
+#### User data exclusion
 For the users that you choose to include, you can decide to exclude data based upon the following:
 
 - Keywords in subject line. You can exclude emails and meetings that contain in their subject lines specific keywords that you define.
-Email address and domain. You can exclude emails and meetings from, or to, specific users, or all users from a domain.
-Level of detail displayed
+
+- Email address and domain. You can exclude emails and meetings from, or to, specific users, or all users from a domain.
+
+#### Level of detail displayed
 
 - Subject lines displayed. In meeting query results, you can control whether subject lines will be included for viewing or not. By default, subject lines are not shown in query results.
-Minimum aggregation size. In Explore Metrics, you can set the minimum group size required to display data. By default, the minimum group size is set to five.
+
+ - Minimum aggregation size. In Explore Metrics, you can set the minimum group size required to display data. By default, the minimum group size is set to five.
 
 ### You decide who gets to see what data
 Organizations decide who can have access to seeing the data in Workplace Analytics. You should ensure that primary users receive suitable training in privacy, your company’s policies, and other applicable subject areas before being granted access to the data. There are three distinct levels of permission to the data:
