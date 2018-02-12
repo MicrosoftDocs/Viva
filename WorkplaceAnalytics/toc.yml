@@ -7,9 +7,9 @@
         - name: Environment Requirements
           href: ~/Overview/Environment-Requirements.md
         - name: Engagement Framework
-          href: ~/Overview/Stakeholder-Map.md
+          href: ~/Overview/Engagement-Framework.md
         - name: Working with Strategy Partners
-          href: ~/Overview/Suggested-Checklist.md
+          href: ~/Overview/Strategy-Partners.md
         - name: Features
           href: ~/Overview/Components.md
         - name: Architecture and How it Works
@@ -43,7 +43,7 @@
       - name: Create Queries
         href: ~/Use/Create-Queries.md
       - name: Data Sources
-        href: ~/Use/Datasources.md
+        href: ~/Use/Data-Sources.md
       - name: Workplace Analytics Settings
         href: ~/Use/Administrative-Settings.md
       - name: User Roles
