@@ -94,17 +94,14 @@
     - name: Use/ Analyze
       href: ./conceptual/index.md
       items:
-      - name: Components
+      - name: Dashboard
         href: ./conceptual/index.md
-        items:
-          - name: Dashboard
-            href: ./conceptual/index.md
-          - name: Add-in
-            href: ./conceptual/index.md
-          - name: Management and Coaching
-            href: ./conceptual/index.md
-          - name: Email Digests
-            href: ./conceptual/index.md
+      - name: Add-in
+        href: ./conceptual/index.md
+      - name: Management and Coaching
+        href: ./conceptual/index.md
+      - name: Email Digests
+        href: ./conceptual/index.md
       - name: MyAnalytics Settings
         href: ./conceptual/index.md
     - name: Getting Started
@@ -124,8 +121,3 @@
         href: ./conceptual/index.md
       - name: Step Six -
         href: ./conceptual/index.md
-    - name: Grow
-      href: ./conceptual/index.md
-      items:
-        - name: FT Content would go here
-          href: ./conceptual/index.md
