@@ -1,45 +1,71 @@
 - name: Workplace Analytics
-  href: ./conceptual/index.md
+  href: ~/index.md
   expanded: true
   items:
     - name: Overview
-      href: ./conceptual/index.md
       items:
         - name: Environment Requirements
           href: ~/Overview/Environment-Requirements.md
-        - name: Engagement Quickstart - Stakeholder Map
-          href: ~/Overview/Stakeholder-Map.md
-        - name: Engagement Quickstart - Suggested Checklist
-          href: ~/Overview/Suggested-Checklist.md
-        - name: Strategy Partners
-          href: ~/Overview/Suggested-Checklist.md
-        - name: Components
+        - name: Engagement Framework
+          href: ~/Overview/Engagement-Framework.md
+        - name: Working with Strategy Partners
+          href: ~/Overview/Strategy-Partners.md
+        - name: Features
           href: ~/Overview/Components.md
         - name: Architecture and How it Works
           href: ~/Overview/Architecture.md
-        - name: Privacy Principles
-          href: ~/Overview/Privacy-Principles.md
+        - name: Privacy and Data Access
+          href: ~/Overview/Privacy-and-Data-Access.md
         - name: Getting Support
           href: ~/Overview/Getting-Support.md
-    - name: Getting Started
-      href: ./conceptual/index.md
+    - name: Setup
       items:
       - name: Checklist
-        href: ./conceptual/index.md
+        href: ~/Setup/Checklist.md
       - name: Step One - Population Scope and Licence Assignment
-        href: ./conceptual/index.md
+        href: ~/Setup/Step-One-Assign-Licences.md
       - name: Step Two - Role Assignment
-        href: ./conceptual/index.md
+        href: ~/Setup/Step-Two-Assign-Roles.md
       - name: Step Three - Configure Settings
-        href: ./conceptual/index.md
+        href: ~/Setup/Step-Three-Configure-Settings.md
       - name: Step Four - Prepare and upload Organizational Data
-        href: ./conceptual/index.md
+        href: ~/Setup/Step-Four-Upload-Organizational-Data.md
       - name: Step Five - Configure Meeting Classifier
-        href: ./conceptual/index.md
+        href: ~/Setup/Step-Five-Classify-Meetings.md
       - name: Step Six - Begin to Analyze Data
+        href: ~/Setup/Step-Six-Begin-To-Analyze-Data.md
+    - name: Use and Analyze
+      items:
+      - name: Explore Metrics
+        href: ~/Use/Explore-Metrics.md
+      - name: Chart Types
+        href: ~/Use/Chart-Types.md
+      - name: Create Queries
+        href: ~/Use/Create-Queries.md
+      - name: Data Sources
+        href: ~/Use/Data-Sources.md
+      - name: Workplace Analytics Settings
+        href: ~/Use/Administrative-Settings.md
+      - name: User Roles
+        href: ~/Use/User-Roles.md
+      - name: Meeting Classifier
+        href: ~/Use/Meeting-Classifier.md
+      - name: Metrics Definition
+        href: ~/Use/Metrics-Definition.md
+      - name: Metrics Glossary
+        href: ~/Use/Metrics-Glossary.md
+      - name: Solutions
         href: ./conceptual/index.md
-    - name: Grow
-      href: ./conceptual/index.md
+        items:
+          - name: Solutions Overview
+            href: ~/Use/Solutions/Overview.md
+          - name: Identify
+            href: ~/Use/Solutions/Identify.md
+          - name: Manage
+            href: ~/Use/Solutions/Manage.md
+          - name: Track
+            href: ~/Use/Solutions/Track.md
+    - name: Adoption
       items:
         - name: Finding a Business Scenario
           href: ./conceptual/index.md
@@ -49,24 +75,6 @@
           href: ./conceptual/index.md
         - name: FT Content would go here
           href: ./conceptual/index.md
-    - name: Use and Analyze
-      href: ./conceptual/index.md
-      items:
-      - name: Explore Metrics
-        href: ./conceptual/index.md
-      - name: Chart Types
-        href: ~/Use/Chart-Types.md
-      - name: Create Queries
-        href: ~/Use/Create-Queries.md
-      - name: Data Sources
-        href: ./conceptual/index.md
-        items:
-        - name: Summary
-          href: ~/Use/Data-Sources-Summary.md
-      - name: Workplace Analytics Settings
-        href: ./conceptual/index.md
-      - name: Solutions
-        href: ./conceptual/index.md
 
 - name: MyAnalytics
   href: ./conceptual/index.md
@@ -86,17 +94,14 @@
     - name: Use/ Analyze
       href: ./conceptual/index.md
       items:
-      - name: Components
+      - name: Dashboard
         href: ./conceptual/index.md
-        items:
-          - name: Dashboard
-            href: ./conceptual/index.md
-          - name: Add-in
-            href: ./conceptual/index.md
-          - name: Management and Coaching
-            href: ./conceptual/index.md
-          - name: Email Digests
-            href: ./conceptual/index.md
+      - name: Add-in
+        href: ./conceptual/index.md
+      - name: Management and Coaching
+        href: ./conceptual/index.md
+      - name: Email Digests
+        href: ./conceptual/index.md
       - name: MyAnalytics Settings
         href: ./conceptual/index.md
     - name: Getting Started
@@ -116,8 +121,3 @@
         href: ./conceptual/index.md
       - name: Step Six -
         href: ./conceptual/index.md
-    - name: Grow
-      href: ./conceptual/index.md
-      items:
-        - name: FT Content would go here
-          href: ./conceptual/index.md
