@@ -129,6 +129,13 @@ Note: The maximum number of total attributes allowed in the system is 65 (includ
 Attribute description and data coverage requirements
 Note: All dates should be in the MM/DD/YYYY format.
 
+
+Column A | Column B | Column C
+---------|----------|---------
+ A1 | B1 | C1
+ A2 | B2 | C2
+ A3 | B3 | C3
+
 Attribute (column header)
 Description of data / data validity
 Data coverage requirements
@@ -171,8 +178,12 @@ Additional columns can represent any data that you want to use in queries to gro
 No coverage requirements.
 
 ### Supplying data over a time period
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as mentioned above.
+By default, Workplace Analytics includes meeting and email data for measured employees for one year. 
+
+Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as mentioned above.
+
 If you do a point in time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the 12 months in the past year. This can be supplied in a single file or in a sequence of files.
+
 This means that for each measured employee you would have 12 separate rows for each employee, with an effective date for each month that data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in June 2017 the effective date for all rows should be set to 6/1/2016.
 
 ### Example .csv export file
@@ -186,15 +197,17 @@ Emp2@contoso.com,7/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sal
 Emp2@contoso.com,8/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
 ### Allowed time zones
-The default time zone for Workplace Analytics is Pacific Standard Time. Visit Time zones in Workplace Analytics for a complete list of times zones you can use.
+The default time zone for Workplace Analytics is Pacific Standard Time. Visit [[Time zones in Workplace Analytics]] for a complete list of times zones you can use.
 
 ## Step four - Upload data
 Once the .csv file has been created, the Workplace Analytics administrator can upload it into the service.
 
 ### To upload your organizational data to Workplace Analytics 
-On the Settings page, click Organizational data.
-Browse to, and then upload your file.
-The upload process will verify that the file contains the required column headers.
-If your upload succeeds, you see an Upload successful message.
-If the file does not contain the required column headers, you will receive an error message.
+1. On the **Settings** page, click **Organizational data**.
+2. Browse to, and then upload your file.
+
+The upload process will verify that the file contains the required column headers. 
+
+If your upload succeeds, you see an Upload successful message.If the file does not contain the required column headers, you will receive an error message.
+
 Once your data has been successfully uploaded, Workplace Analytics will perform additional validation and processing to complete provisioning. The Workplace Analytics team will contact your Workplace Analytics administrator if any problems arise.
