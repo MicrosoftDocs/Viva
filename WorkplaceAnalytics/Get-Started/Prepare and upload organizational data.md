@@ -5,13 +5,13 @@ Organizational data is the information about employees that your company provide
 
 This topic introduces key concepts about compiling and uploading organizational data in Workplace Analytics. After reading this topic you will know what kind of organizational data you can provide, how to determine the data you want to provide, what that data can help you discover, and how to upload the data.
 
-With organizational data you can:
+### With organizational data you can:
 
 * Know how people communicate across job functions, management hierarchy, etc. by enabling grouping and filtering on organizational data attributes.
 * Enable metrics customization that allow you to quantify group relationships (like collaboration time between marketing and sales).
 * Enable specific metrics calculations such as insularity and redundancy.
 
-Organizational data for employees in your organization can come from the following sources:
+### Organizational data for employees in your organization can come from the following sources:
 * Human resources (HR) information systems.
 * Other line of business (LOB) data stores encompassing business outcome data, such as:
   * Performance review data from specific work groups.
@@ -21,7 +21,7 @@ Organizational data for employees in your organization can come from the followi
 
 Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports and manager. This data is supplied to Workplace Analytics at the individual level, meaning these attributes are used to give context to each person that makes up the dataset.
 
-To supply Workplace Analytics with organizational data, you will have to work with the following internal teams:
+### To supply Workplace Analytics with organizational data, you will need to work with the following internal teams:
 * Team that manages your organization’s HR information system to provide a data export of HR attributes for individual employees.
 * Line of business owners who have data that is of interest to analysts for inclusion.
 
@@ -130,52 +130,19 @@ Attribute description and data coverage requirements
 Note: All dates should be in the MM/DD/YYYY format.
 
 
-Column A | Column B | Column C
+Attribute (column header) | Description of data / data validity | Data coverage requirements
 ---------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
-
-Attribute (column header)
-Description of data / data validity
-Data coverage requirements
-PersonId
-Unique identifier for the employee record. Can be email address, alias, or UPN for the employee, and must be in a simplified format (such as: person.name@xyz.com, not <Name, Person> (person.name@xyz.com)).
-Each row must contain a valid PersonId.
-Each upload file can have only ONE record with the same PersonID / EffectiveDate pair.
-HireDate
-Date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), we recommend using the most recent hire date.
-Each row should ideally contain a valid HireDate.
-If not included, metrics will be calculated from the start date of the data collection period.
-EffectiveDate
-Date for which the given attribute value applies for the employee. The attribute will apply until another record for the same attribute with a different effective date is specified.
-Each row must contain a valid EffectiveDate.
-Each upload file can have only one record with the same PersonID / EffectiveDate pair.
-ManagerId
-Unique identifier for the employee’s manager. Can be email address, alias, or UPN, and must be in simplified format (see PersonId for examples.) This data is needed to correctly calculate metrics for time spent with managers and their direct reports.
-Each row must contain a valid ManagerId.
-TimeZone
-Time zone in which the employee performs work. This must be one of the time zones in Time zones in Workplace Analytics. If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. 
-This attribute column is not required. If not included, the default will be used.
-LevelDesignation
-The employee’s level, represented as a string. The level will be specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.
-Each row must contain a LevelDesignation value.
-Organization
-The internal organization the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or other naming convention. This data is needed to correctly calculate metrics for redundancy and insularity.
-Each row must contain an organization value.
-FunctionType
-The job function the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore the metrics features.
-This attribute column is not required. If it is included, then each row must contain a function value.
-Layer
-The place within the organizational hierarchy where the employee belongs. The layer is represented as an integer and expressed as distance from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in Explore the metrics features.
-This attribute column is not required. If it is included, then each row must contain an integer value.
-HourlyRate
-The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). Note: The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters such as a dollar sign.
-The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees. This is not yet used in calculations but can be used to filter and group employees. Note that the Explore the metrics feature uses a fixed default HourlyRate of $75.
-This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).
-Any user-defined columns
-Additional columns can represent any data that you want to use in queries to group and filter employee records.
-No coverage requirements.
+PersonId |Unique identifier for the employee record. Can be email address, alias, or UPN for the employee, and must be in a simplified format (such as: _person.name@xyz.com_, not _<Name, Person>_ _(person.name@xyz.com)_). | Each row must contain a valid PersonId. Each upload file can have only ONE record with the same PersonID / EffectiveDate pair.
+ HireDate| Date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), we recommend using the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.
+EffectiveDate |Date for which the given attribute value applies for the employee. The attribute will apply until another record for the same attribute with a different effective date is specified. | Each row must contain a valid EffectiveDate. Each upload file can have only one record with the same PersonID / EffectiveDate pair.
+ManagerId | Unique identifier for the employee’s manager. Can be email address, alias, or UPN, and must be in simplified format (see PersonId for examples.) This data is needed to correctly calculate metrics for time spent with managers and their direct reports. | Each row must contain a valid ManagerId.
+ TimeZone |Time zone in which the employee performs work. This must be one of the time zones in Time zones in Workplace Analytics. If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.
+LevelDesignation | The employee’s level, represented as a string. The level will be specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain a LevelDesignation value.
+Organization| The internal organization the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or other naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value.
+FunctionType | The job function the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore the metrics features. | This attribute column is not required. If it is included, then each row must contain a function value.
+ Layer | The place within the organizational hierarchy where the employee belongs. The layer is represented as an integer and expressed as distance from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in Explore the metrics features. | This attribute column is not required. If it is included, then each row must contain an integer value.
+HourlyRate | The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). Note: The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters such as a dollar sign. The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees. This is not yet used in calculations but can be used to filter and group employees. Note that the Explore the metrics feature uses a fixed default HourlyRate of $75. | This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).
+Any user-defined columns | Additional columns can represent any data that you want to use in queries to group and filter employee records. | No coverage requirements.
 
 ### Supplying data over a time period
 By default, Workplace Analytics includes meeting and email data for measured employees for one year. 
