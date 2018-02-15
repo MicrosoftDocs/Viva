@@ -1,0 +1,35 @@
+---
+# Metadata Sample
+# required metadata
+
+title: Opt out
+description: How to keep your data from being aggregated.
+author: v-pascha
+ms.author: v-pascha
+ms.date: 2/14/2018
+ms.topic: get-started-article
+ms.prod: mya
+---
+
+# Can I opt out of MyAnalytics? 
+
+You can opt out of your data being used to calculate aggregate statistics for your organization. For example, if you opt out, your data will not be used to calculate statistics on the average time people in your organization spend in meetings or in email. 
+
+**Note:** If you opt out, you will no longer be able to access your personal dashboard. 
+
+**To opt out of MyAnalytics**
+
+1. In Delve, click the gear icon to open the Settings pane.
+
+    <img src="../../../Images/Gear_icon_Delve.png" width="55%" height="55%" alt="Delve settings">
+     
+2. Click **Feature settings**.
+3. Under MyAnalytics, set the control to **Off**.
+
+    <img src="../../../Images/Slider_off.png" width="25%" height="25%" alt="Slider in off position">
+  
+4. At the top of the Feature settings panel, click **OK** to save your changes. 
+ 
+## If I opt out, can I opt back in? 
+
+Yes, you can opt back in any time. This will give you access to your personal dashboard. 
