@@ -21,54 +21,13 @@ ms.prod: wpa
 
 [!INCLUDE [Test](Test_text.md)]
 
-
-[!INCLUDE (Test_text.md)]
-
-[!INCLUDE (~Test_text.md)]
-
-[!INCLUDE (~/Test_text.md)]
-
-[!INCLUDE (~../Test_text.md)]
-
-[!INCLUDE (~../Use/Test_text.md)]
-
-[!INCLUDE (~/../Use/Test_text.md)]
-
 [!INCLUDE [Test](Test_text.md)]
 
-With tilde
-
-[!INCLUDE [Test](~Test_text.md)]
-
-[!INCLUDE [Test](~/Test_text.md)]
-
-[!INCLUDE [Test](~../Test_text.md)]
-
-[!INCLUDE [Test](~../Use/Test_text.md)]
-
-[!INCLUDE [Test](~/../Use/Test_text.md)]
-
-Without tilde
-
-[!INCLUDE [Test](Test_text.md)]
-
-[!INCLUDE [Test](/Test_text.md)]
-
-[!INCLUDE [Test](../Test_text.md)]
-
-[!INCLUDE [Test](../Use/Test_text.md)]
-
-[!INCLUDE [Test](/../Use/Test_text.md)]
 
 Link: 
 [Test](Test_text.md)
 
-Includes: 
-[!INCLUDE [Test](Test_text.md)]
 
-[!INCLUDE [Test](../test_text.md)]
-
-[!INCLUDE [Test](../Use/test_text.md)]
 
 # Test links, first images and then text files
 
@@ -96,35 +55,6 @@ This link also works (original casing):
 
 This link also works (all lower case):
 [Test](../Use/test_text.md)
-
-### Same path usage
-
-**None of these work:**
-
-original casing
-
-[!INCLUDE [Test](../Use/Test_text.md)]
-
-all lower case
-
-[!INCLUDE [Test](../Use/test_text.md)]
-
-original casing, with tilde
-
-[!INCLUDE [Test](~../Use/Test_text.md)]
-
-all lower case, with tilde
-
-[!INCLUDE [Test](~../Use/test_text.md)]
-
-original casing, with tilde and slash
-
-[!INCLUDE [Test](~/../Use/Test_text.md)]
-
-all lower case, with tilde and slash
-
-[!INCLUDE [Test](~/../Use/test_text.md)]
-
 
 
 
