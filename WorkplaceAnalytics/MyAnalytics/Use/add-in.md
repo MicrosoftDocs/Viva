@@ -10,6 +10,7 @@ ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
+<<<<<<< HEAD
 [!INCLUDE [Top Collaborators](~/Includes/mya/collab.md)]
 
 
@@ -56,6 +57,14 @@ This link also works (original casing):
 This link also works (all lower case):
 [Test](../Use/test_text.md)
 
+=======
+>>>>>>> b25d883a2d7f817ca2f9a32f50dcc37e41cb702c
 
+## To Do
+[!INCLUDE [Top Collaborators](MyA_Outlook_add-in/MyA_Add-in_To-do.md)]
 
+## Top Collaborators
+[!INCLUDE [To - Do](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
 
+## Unread emails
+[!INCLUDE [To - Do](MyA_Outlook_add-in/MyA_Add-in_Unread_emails.md)]

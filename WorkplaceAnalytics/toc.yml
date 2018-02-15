@@ -91,19 +91,18 @@
           href: ./conceptual/index.md
         - name: Getting Support
           href: ./conceptual/index.md
-    - name: Use/ Analyze
-      href: ./conceptual/index.md
+    - name: Use
       items:
       - name: Dashboard
-        href: ./conceptual/index.md
+        href: MyAnalytics/Use/dashboard.md
       - name: Add-in
-        href: ~/MyAnalytics/Use/add-in.md
+        href: MyAnalytics/Use/add-in.md
       - name: Management and Coaching
         href: ./conceptual/index.md
       - name: Email Digests
-        href: ./conceptual/index.md
+        href: MyAnalytics/Use/email-digests.md
       - name: MyAnalytics Settings
-        href: ./conceptual/index.md
+        href: MyAnalytics/Use/settings.md
     - name: Getting Started
       href: ./conceptual/index.md
       items:
