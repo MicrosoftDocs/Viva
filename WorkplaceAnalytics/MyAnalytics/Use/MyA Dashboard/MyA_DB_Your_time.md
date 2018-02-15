@@ -24,10 +24,10 @@ For each category, MyAnalytics compares your actual number of hours with a time 
 
 **To change your weekly goals**
 
-1.	For the category (such as Email hours or Focus hours), click Edit goal.
-2.	In the dialog box that appears, type a number for your new goal, and click Save. Your new goal is displayed in the overview. When you change a goal, the goals for previous weeks are also changed. 
+1.	For the category (such as Email hours or Focus hours), click **Edit goal**.
+2.	In the dialog box that appears, type a number for your new goal, and click **Save**. Your new goal is displayed in the overview. When you change a goal, the goals for previous weeks are also changed. 
 
-See MyAnalytics Tips for suggestions on how you can spend your time more efficiently. 
+See [MyAnalytics Tips](../../Overview/Tips.md#tips-for-after-hours) for suggestions on how you can spend your time more efficiently. 
 
 ### Network section
 In the Network section of the MyAnalytics Dashboard you see the Your time investments chart. This chart provides you with an overview of your recent collaboration with individuals and groups in your network. For more information, see [Network](MyA_DB_Network.md).
