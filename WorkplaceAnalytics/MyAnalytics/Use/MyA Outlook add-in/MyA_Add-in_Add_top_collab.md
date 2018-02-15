@@ -26,4 +26,5 @@ You use the Add top collaborator card to add the contact named on the card to yo
     <img src="../../../Images/Add_top_collaborator.png" width="60%" height="60%" alt="Add top collaborator card">
 
     The contact is added to your list of important people. 
+    
 2. (Optional) You can view the updated list in your MyAnalytics dashboard.  

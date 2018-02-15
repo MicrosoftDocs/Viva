@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Emails
+title: Email hours
 description: How the time you spend in email affects your stats. 
 author: v-pascha
 ms.author: v-pascha
@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-# Emails
+# Email hours
 
 ## How we calculate Email hours
 Each email you send is assigned 5 minutes. Each email you open is assigned 2.5 minutes. However, shorter times are assigned in these cases:

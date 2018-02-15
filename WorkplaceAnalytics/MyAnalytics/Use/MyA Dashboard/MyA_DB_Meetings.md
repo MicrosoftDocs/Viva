@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Meetings
+title: Meeting hours
 description: How we arrive at the facts that we display about meeting behavior. 
 author: v-pascha
 ms.author: v-pascha
@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-# Meetings
+# Meeting hours
 
 ## How we calculate Meeting hours 
 Meeting hours consist of any meetings that you’ve organized or accepted that have at least one other person attending.  
