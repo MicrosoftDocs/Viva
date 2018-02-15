@@ -16,31 +16,31 @@ ms.prod: wpa
 
 [!INCLUDE [To - Do](~/Includes/mya/todo.md)]
 
-[!INCLUDE [Add top collaborators](~MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
-
-[!INCLUDE [Test](~Test_text.md)]
+[!INCLUDE [Add top collaborators](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
 
 [!INCLUDE [Test](Test_text.md)]
 
 [!INCLUDE [Test](Test_text.md)]
 
+[!INCLUDE [Test](Test_text.md)]
 
-Link: 
+
+Link:
 [Test](Test_text.md)
 
 
 
 # Test links, first images and then text files
 
-This one works (HTML): 
+This one works (HTML):
 
 <img src="../../Images/Add_top_collaborator_ed.png" width="50%" height="50%" alt="Add top collaborator card">
 
-This one works (md relative path): 
+This one works (md relative path):
 
 ![test image](../../Images/Add_top_collaborator_ed.png)
 
-This one works: 
+This one works:
 
 ![test image](../../Images/Slider_off.png)
 
