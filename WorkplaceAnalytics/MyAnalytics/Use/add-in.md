@@ -12,7 +12,7 @@ ms.prod: wpa
 ---
 
 ## To Do
-[!INCLUDE [Top Collaborators](MyA_Outlook_add-in/mya/MyA_Add-in_To-do.md)]
+[!INCLUDE [Top Collaborators](MyA_Outlook_add-in/MyA_Add-in_To-do.md)]
 
 ## Top Collaborators
 [!INCLUDE [To - Do](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
