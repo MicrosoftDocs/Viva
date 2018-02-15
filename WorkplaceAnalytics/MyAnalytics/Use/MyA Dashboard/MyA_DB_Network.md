@@ -21,7 +21,7 @@ The Your time investments chart shows how much time you’ve spent with the indi
 
 **To change views or filter contacts**
 
-You can view the Your time investments data in a map view or a list view. To switch between views, click Map or List, under Your time investments. In either view, you can filter your contacts by selecting “Important people” or “Work groups.” 
+You can view the Your time investments data in a map view or a list view. To switch between views, click **Map** or **List**, under Your time investments. In either view, you can filter your contacts by selecting “Important people” or “Work groups.” 
 
 “Total time” represents the sum of the meeting time you’ve had with the contact and the time you’ve spent in email with that contact. 
 

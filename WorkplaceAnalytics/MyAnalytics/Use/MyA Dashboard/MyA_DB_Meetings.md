@@ -37,4 +37,4 @@ The Meeting habits section categorizes the meetings you’ve accepted and shows 
 
 Click **View details** to view the specific meetings in each category. 
 
-See [meetings tips](https://support.office.com/en-us/article/microsoft-myanalytics-tips-bbe5903a-1ef1-495d-938f-a9afa2ec1e97?ui=en-US&rs=en-US&ad=US#bkmk_meetings) for suggestions on how to make your meetings more efficient. 
+See [Meetings tips](https://support.office.com/en-us/article/microsoft-myanalytics-tips-bbe5903a-1ef1-495d-938f-a9afa2ec1e97?ui=en-US&rs=en-US&ad=US#bkmk_meetings) for suggestions on how to make your meetings more efficient. 

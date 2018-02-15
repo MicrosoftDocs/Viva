@@ -22,7 +22,9 @@ Whether to celebrate achieving a goal, show progress to your manager, or ask for
 **To share statistics**
 
 1. Open the MyAnalytics dashboard. 
-2. Click Share. 
+2. Click **Share**. 
+
+    <img src="../../../Images/Share_dashboard.png" width="65%" height="65%" alt="Share link">
 
     The Dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
 
@@ -35,6 +37,7 @@ Two indicators show which sections are selected for sharing:
 
     In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
  
+    <img src="../../../Images/Selected_for_sharing.png" width="85%" height="85%" alt="Items selected for sharing">
 
     To select (or deselect) all sections at once, check or clear the Select All checkbox at the top of the dashboard. 
 
@@ -42,7 +45,7 @@ Two indicators show which sections are selected for sharing:
 
 4. After you've chosen all the statistics that you want to share, click Confirm at the top of your dashboard. This displays a dialog box in which you can choose recipients, type a subject line, and compose a note to your recipients. All three fields (recipients, subject line, and message) are required.  
 
-5. When you're ready to send the message and share your statistics, click Share. A dialog box confirms that “Your statistics are on the way.”  
+5. When you're ready to send the message and share your statistics, click **Share**. A dialog box confirms that “Your statistics are on the way.”  
 
 ### Where do I find the statistics that I’ve shared? 
 
