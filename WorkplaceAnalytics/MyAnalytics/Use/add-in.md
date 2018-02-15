@@ -10,7 +10,7 @@ ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
-[!INCLUDE [Test Topic Title](MyA%20/Outlook add-in/MyA_Add-in_Add_top_collab.md)]
+[!INCLUDE [Top Collaborators](MyA%20/Outlook add-in/MyA_Add-in_Add_top_collab.md)]
 
 
-[!INCLUDE [Test Topic Title2](MyA Outlook add-in/MyA_Add-in_To-do.md)]
+[!INCLUDE [To - Do](MyA Outlook add-in/MyA_Add-in_To-do.md)]
