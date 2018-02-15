@@ -10,10 +10,12 @@ ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
-[!INCLUDE [Top Collaborators](~/Includes/mya/collab.md)]
 
+## To Do
+[!INCLUDE [Top Collaborators](/MyA_Outlook_add-in/Includes/mya/MyA_Add-in_To-do.md)]
 
-[!INCLUDE [To - Do](~/Includes/mya/todo.md)]
+## Top Collaborators
+[!INCLUDE [To - Do](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
 
-## test
-[!INCLUDE (Test_text.md)]
+## Unread emails
+[!INCLUDE [To - Do](MyA_Outlook_add-in/MyA_Add-in_Unread_emails.md)]
