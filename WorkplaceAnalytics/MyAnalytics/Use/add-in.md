@@ -15,8 +15,5 @@ ms.prod: wpa
 
 [!INCLUDE [To - Do](~/Includes/mya/todo.md)]
 
-[!INCLUDE [Add top collaborators](~MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
-
-[!INCLUDE [Test](~Test_text.md)]
 ## test
 [!INCLUDE (Test_text.md)]
