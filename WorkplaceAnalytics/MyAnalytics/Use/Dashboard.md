@@ -34,11 +34,7 @@ This report shows summaries of the four main ways that MyAnalytics categorizes y
 1.	For the category (such as Email hours or Focus hours), click **Edit goal**.
 2.	In the dialog box that appears, type a number for your new goal, and click **Save**. Your new goal is displayed in the overview. When you change a goal, the goals for previous weeks are also changed. 
 
-<<<<<<< HEAD
 See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
-=======
-See [MyAnalytics Tips](../../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
->>>>>>> b992e936fe61ada911b371b5e7ab697512dfff0f
 
 ### Drill down: The detailed subsections
 
