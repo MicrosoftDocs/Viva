@@ -34,6 +34,8 @@ Our [Privacy and data access document](Privacy-And-Data-Access.md) describes the
 ![Workplace Analytics Data Flow](~/Images/WpA/Overview/Flow.png)
 </CENTER>
 ## Data Inputs
+
+# I DO NOT LIKE THIS FORMATTING
 **Collaboration Data**|**Organizational Data**
 :-----:|:-----:
 Header information from emails|PersonId,Organization,ManagerId, Layer,Timezone,Level,Location, EffectiveDate|
