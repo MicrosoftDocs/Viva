@@ -11,10 +11,6 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 <<<<<<< HEAD
-[!INCLUDE [Top Collaborators](~/Includes/mya/collab.md)]
-
-
-[!INCLUDE [To - Do](~/Includes/mya/todo.md)]
 
 [!INCLUDE [Add top collaborators](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
 
