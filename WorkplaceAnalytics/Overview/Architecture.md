@@ -12,9 +12,8 @@ ms.prod: mya
 ---
 
 # Architecture / How it Works
-
-
-[<img src="~/Images/WpA/Overview/FLOW.png" height="80%" width ="80%">](~/Images/WpA/Overview/Architecture.png)  
+<CENTER>
+[<img src="~/Images/WpA/Overview/FLOW.png" height="80%" width ="80%">](~/Images/WpA/Overview/Architecture.png) </CENTER>
 Workplace Analytics leverages Office 365 collaboration data to deliver powerful new insights for enterprise productivity. It provides a way for companies to understand the communication behaviors and collaboration patterns across their organization and how they influence productivity and corporate performance.
 
 Workplace analytics analyzes header level metadata [see privacy page for more information around the data accessed](Privacy-And-Data-Access.md) from exchange online mailboxes and combines it with organizational data from line of business applications. Message Body and Attachment contents are never accessed. By combining these datasets, analysts are able to analyze a [Variety of organizational challenges](http://insights.office.com). Workplace Analytics provides a workbench to run custom analysis and pre developed aggregated dashboards.  All data is owned by the customer and stored within the O365 Compliance Boundary pursuant to the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
@@ -27,8 +26,9 @@ Workplace Analytics provide organizations with choice:
 Our [Privacy and data access document](Privacy-And-Data-Access.md) describes these considerations in greater detail.
 
 
-
+<CENTER>
 [<img src="~/Images/WpA/Overview/FLOW.png" height="80%" width ="80%">](~/Images/WpA/Overview/FLOW.png)  
+</CENTER>
 ## Data Inputs
 **Collaboration Data**|**Organizational Data**
 :-----:|:-----:
@@ -52,10 +52,10 @@ All exclusion occurs before metadata is processed within the Workplace Analytics
 >[!Note]
 >Private and meetings / Mails with Digital Rights Management are automatically excluded.
 
-Customers can exclude any meeting or mail metadata based on the following parameters, which may have impact on analysis –
-Subject lines – provide keywords to exclude from analysis
-Domains – exclude involving specific domains from the dataset
-Email addresses - exclude content involving specific email addresses from the dataset
+Customers can exclude any meeting or mail metadata based on the following parameters, (which may have impact on analysis):
+* Subject lines – provide keywords to exclude from analysis
+* Domains – exclude involving specific domains from the dataset
+* mail addresses - exclude content involving specific email addresses from the dataset
 
 For More information see our Configuring Settings Page
 
