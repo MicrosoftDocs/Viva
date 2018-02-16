@@ -32,9 +32,15 @@ Our [Privacy and data access document](Privacy-And-Data-Access.md) describes the
 ## Data Inputs
 **Collaboration Data**|**Organizational Data**
 :-----:|:-----:
-Header information from emails|PersonId,Organization,ManagerId,Layer,Timezone,Level,Location, EffectiveDate|
-Header information from Meetings|At a minimum, the above data fields are required to be loaded for the population that are in scope for analysis. Most organizations provide this data for the entire company so analysts can understand what organizations the population in scope for analysis are For more information see our Organizational Data Documentation collaborating with.
-Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
+Header information from emails|PersonId,Organization,ManagerId, Layer,Timezone,Level,Location, EffectiveDate|
+Header information from Meetings|At a minimum, the above data fields are required for the population scope that you are analyzing.
+
+Most organizations provide this data for the entire company to understand how the mailboxes being analyzed collaborate across the entire organization
+
+For more information see our Organizational Data Documentation
+
+>[Note]
+>Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 
 ## Data outputs
 
