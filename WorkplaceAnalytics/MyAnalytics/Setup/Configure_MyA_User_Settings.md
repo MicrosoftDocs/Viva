@@ -17,11 +17,11 @@ You can use the following options to configure MyAnalytics for each user in your
 
 You can decide to change these default behaviors for any user by setting the *PrivacyMode* parameter:
 
-PrivacyMode   | Licensed user   | Unlicensed user
-------------- | -------------   | ---------------
-Opt-in (This is the default setting)        | * Office 365 data is used for aggregated information shown to licensed users * Personal dashboard is available * User cannot opt-out. Only the admin can opt the user out.  | * Office 365 data is used for aggregated information shown to licensed users * User can opt-out through the Feature settings menu                         
-Opt-out    | * Office 365 data is not used for aggregated information shown to licensed users * Personal dashboard is not available * User can opt-in through the Feature settings menu   | * Office 365 data is not used for aggregated information shown to licensed users
-Excluded   | * Office 365 data is not used for aggregated information shown to licensed users * Dashboard is available * User can not opt-in through the Feature settings menu  | * Office 365 data is not used for aggregated information shown to licensed users
+PrivacyMode   | Licensed user  | Unlicensed user
+------------- | -------------  | ---------------
+Opt-in (This is the default setting)        | <ul><li>Office 365 data is used for aggregated information shown to licensed users.</li><li>Personal dashboard is available.</li><li>User cannot opt-out. Only the admin can opt the user out.</li></ul>  | <ul><li>Office 365 data is used for aggregated information shown to licensed users.</li><li>User can opt-out through the Feature settings menu.</li></ul>  
+Opt-out    | <ul><li>Office 365 data is not used for aggregated information shown to licensed users.</li><li> Personal dashboard is not available.</li><li>User can opt-in through the Feature settings menu.</li></ul>   |  <ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul>
+Excluded   |<ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li><li>Dashboard is available.</li><li>User cannot opt-in through the Feature settings menu.</li></ul>  |<ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul>
 
 **Notes:** The following applies when you use the default settings :
 
@@ -43,7 +43,7 @@ Set-UserAnalyticsConfig –Identity <<string>string> [PrivacyMode <string[]>]
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD).   |   -
-PrivacyMode   |   Yes   | * Excluded: MyAnalytics will not use the current user’s data to compute derived statistics for other users. The current user will not be able to change this from the Feature settings menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboards. * Opt-out: MyAnalytics will not use the current user’s data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in. * Opt-in: MyAnalytics will use the current user’s data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.  |  Opt-in
+PrivacyMode   |   Yes   | <ul><li>Excluded: MyAnalytics will not use the current user’s data to compute derived statistics for other users. The current user will not be able to change this from the Feature settings menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboards.</li><li>Opt-out: MyAnalytics will not use the current user’s data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>Opt-in: MyAnalytics will use the current user’s data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
 
 Get MyAnalytics settings for a user with the following cmdlet:
 
