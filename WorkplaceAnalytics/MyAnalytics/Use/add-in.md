@@ -11,6 +11,8 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
 [!INCLUDE [Add top collaborators](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
 
@@ -55,6 +57,7 @@ This link also works (all lower case):
 
 =======
 >>>>>>> b25d883a2d7f817ca2f9a32f50dcc37e41cb702c
+>>>>>>> 7bc56330210c1aa2b604cd4a5a8fe2d587ebb7da
 
 ## To Do
 [!INCLUDE [Top Collaborators](MyA_Outlook_add-in/MyA_Add-in_To-do.md)]
