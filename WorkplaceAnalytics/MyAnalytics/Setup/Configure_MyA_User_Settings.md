@@ -19,7 +19,7 @@ You can decide to change these default behaviors for any user by setting the *Pr
 
 PrivacyMode   | Licensed user   | Unlicensed user
 ------------- | -------------   | ---------------
-Opt-in (This is the default setting)        | * Office 365 data is used for aggregated information shown to licensed users * Personal dashboard is available * User cannot opt-out. Only the admin can opt the user out.  | * Office 365 data is used for aggregated information shown to licensed users * User can opt-out through the Feature settings menu
+Opt-in (This is the default setting)        | * Office 365 data is used for aggregated information shown to licensed users * Personal dashboard is available * User cannot opt-out. Only the admin can opt the user out.  | * Office 365 data is used for aggregated information shown to licensed users * User can opt-out through the Feature settings menu                         
 Opt-out    | * Office 365 data is not used for aggregated information shown to licensed users * Personal dashboard is not available * User can opt-in through the Feature settings menu   | * Office 365 data is not used for aggregated information shown to licensed users
 Excluded   | * Office 365 data is not used for aggregated information shown to licensed users * Dashboard is available * User can not opt-in through the Feature settings menu  | * Office 365 data is not used for aggregated information shown to licensed users
 
