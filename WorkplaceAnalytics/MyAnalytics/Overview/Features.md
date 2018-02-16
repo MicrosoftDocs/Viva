@@ -30,6 +30,6 @@ MyAnalytics helps you understand how you collaborate with colleagues and spend y
 
 Only you have access to your MyAnalytics dashboard. MyAnalytics does notprovide your manager or anyone else in your organization access to your dashboard. To see your personal dashboard, in Office 365, open Delve and then click **MyAnalytics** in the left pane.
 
-## Weekly email report 
+## Weekly email digest 
 
-MyAnalytics also generates and sends you a weekly email that summarizes the information that your dashboard presents. To see more details about the summarized patterns (how you spent your time, who you communicated with), click the body of this email to open your dashboard.
+MyAnalytics also generates and sends you a weekly email that summarizes the information that your dashboard presents. To see more details about the summarized patterns (how you spent your time, who you communicated with), click the body of this email digest to open your dashboard.
