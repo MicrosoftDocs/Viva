@@ -74,7 +74,7 @@ For More information see our Configuring Settings Page and Our [Privacy and data
 
 ## FAQ
 
-### How does your Service handle data?
+### How does the Workplace Analytics Service handle data?
 As part of the Office 365 offering, we are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy) and [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) for more information about our data handling standards.
 
 ### Can you describe the de-identification process?
