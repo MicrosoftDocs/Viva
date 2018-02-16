@@ -38,21 +38,21 @@ Attachments and text in the body of emails and meetings are never used by Workpl
 
 ## Data outputs
 
-**Output type**|**SAMPLE**|**Role that has Access **
+**Output type**|**SAMPLE**|**Role that has Access**
 :-----:|:-----:|:-----:
 De-Identified Row Level Data| |Analyst
 Meeting Query Output| |Analyst
 Meeting Query output with subject lines encrypted| |Analyst
-Visual Dashboards with Minimum Aggregation Threshold | |Analyst
 
 ## Privacy Options
-Privacy
-Include Subject lines – Subject lines
-Minimum group size
+Include Subject lines – As part of a meeting query, an administrator can choose to have all meeting subject lines encrypted
+Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased
 Exclusion
-Private and meetings / Mails with Digital Rights Management are automatically excluded.
+All exclusion occurs before metadata is processed within the Workplace Analytics Data Engine
+>[!Note]
+>Private and meetings / Mails with Digital Rights Management are automatically excluded.
 
-Customers can exclude specific metadata based on the following parameters –
+Customers can exclude any meeting or mail metadata based on the following parameters, which may have impact on analysis –
 Subject lines – provide keywords to exclude from analysis
 Domains – exclude involving specific domains from the dataset
 Email addresses - exclude content involving specific email addresses from the dataset
