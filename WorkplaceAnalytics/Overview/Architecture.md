@@ -21,7 +21,7 @@ Workplace Analytics analyzes Office 365 Email and Calendar header level metadata
 ##Core Considerations
 By design, Workplace Analytics provide organizations with choice:
 *	Our Customers Decide the Scope of mailboxes to analyze.
-* Our Customers Decide who within their organzization has access to de-identified datasets and aggregated visual dashboards
+* Our Customers Decide who within their organization has access to de-identified datasets and aggregated visual dashboards
 * Our Customers Configure options to exclude specific meeting and email metadata from analysis as directed by their Legal and HR teams
 
 Our [Privacy and data access document](Privacy-And-Data-Access.md) describes these considerations in greater detail.
@@ -70,7 +70,7 @@ For More information see our Configuring Settings Page and Our [Privacy and data
 ## FAQ
 
 ### How does your Service handle data?
-As part of the Office 365 offering, we are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy) and [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) for more information about data handling standards. 
+As part of the Office 365 offering, we are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy) and [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) for more information about data handling standards.
 
 ### Can you describe the de-identification process?
 Workplace Analytics processes metadata from o365 email and calendar. Email addresses are never shown in Workplace Analytics through dashboards or query results. The Workplace Data Engine de-identifies leveraging a symmetric hashing to ensure that supplemental organizational data can be added when needed. Encryption keys are securely maintained by Microsoft only allowing programmatic access.
