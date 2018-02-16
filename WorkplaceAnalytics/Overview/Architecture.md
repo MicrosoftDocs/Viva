@@ -47,9 +47,10 @@ For more information see our Organizational Data Documentation
 
 **Output type**|**SAMPLE**|**Role that has Access**
 :-----:|:-----:|:-----:
-De-Identified Row Level Data| |Analyst
-Meeting Query Output| |Analyst
-Meeting Query output with subject lines encrypted| |Analyst
+De-Identified Row Level Data|[Sample.csv](~/ExamplePersonQuery.csv)|Analyst
+Meeting Query Output|[Sample.csv](~/ExampleMeetingQuery.csv)|Analyst
+Meeting Query output with subject lines encrypted|[Sample.csv](~/ExampleMeetingHASHQuery.csv) |Analyst
+Group Query|[Sample.csv](~/ExampleGroupQuery.csv) |Analyst
 Visual Dashboards with Minimum Aggregation Threshold ||Analyst, Analyst (Limited)
 Data Sources | | Administrator
 ## Privacy Options
