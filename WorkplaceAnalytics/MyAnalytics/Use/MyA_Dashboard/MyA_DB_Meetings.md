@@ -39,4 +39,4 @@ Click **View details** to view the specific meetings in each category.
 
 See [Tips for meetings](#tips_for_meetings) for suggestions on how to make your meetings more efficient. 
 
-See [Tips for meetings(../../Overview/Tips.md#tips_for_meetings) for suggestions on how to make your meetings more efficient. 
+See [Tips for meetings](../../Overview/Tips.md#tips_for_meetings) for suggestions on how to make your meetings more efficient. 
