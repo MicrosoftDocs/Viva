@@ -52,3 +52,17 @@ Domains – exclude involving specific domains from the dataset
 Email addresses - exclude content involving specific email addresses from the dataset
 
 For More information see our Configuring Settings Page
+
+## FAQ
+
+### How does your Service handle data?
+We are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy)
+
+###Can you describe the de-identification process?
+Data processed from o365 datasets will omit personal data and de-identify them when in a stored state. This process leverages a symmetric key process to ensure that supplemental organizational data can be added when needed. Keys are securely maintained by Microsoft only allowing programmatic access.
+
+###Does Workplace Analytics Support GDPR?
+Microsoft has made the commitment to be GDPR compliant. As such, Workplace Analytics has plans to implement GDPR protections in alignment with its worldwide introduction date of May 25th, 2018.
+
+###Is WpA Compliant with Workers Councils?
+There is no compliance certification for such workers councils.  Customers often have to work directly within each of their company's to ensure that Workers Councils are comfortable with the product and its use within the company.  We strongly suggest you work with your internal legal and HR teams to respectfully engage with your Workers Councils.
