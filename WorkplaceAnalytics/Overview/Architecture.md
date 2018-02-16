@@ -24,7 +24,6 @@ By design, Workplace Analytics provide organizations with choice:
 * Our Customers Decide who within their organization has access to de-identified datasets and aggregated visual dashboards
 * Our Customers Configure options to exclude specific meeting and email metadata from analysis as directed by their Legal and HR teams
 
-As Some
 
 Our [Privacy and data access document](Privacy-And-Data-Access.md) describes these considerations in greater detail.
 
@@ -35,18 +34,17 @@ Our [Privacy and data access document](Privacy-And-Data-Access.md) describes the
 </CENTER>
 ## Data Inputs
 
-# I DO NOT LIKE THIS FORMATTING
+
+>[!Important]
+>Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 **Collaboration Data**|**Organizational Data**
 :-----:|:-----:
 Header information from emails|PersonId,Organization,ManagerId, Layer,Timezone,Level,Location, EffectiveDate|
 Header information from Meetings|At a minimum, the above data fields are required for the population scope that you are analyzing.
 
-Most organizations provide this data for the entire company to understand how the mailboxes being analyzed collaborate across the entire organization
+Most organizations provide this data for the entire company to understand how the mailboxes being analyzed collaborate across the entire organization. Others, due to privacy concerns decide to exclude specific populations from the org data provided. See our  Organizational Data Documentation for details on how this could impact analysis.
+# I DO NOT LIKE THIS FORMATTING NEED TO CHANGE ABOVE 
 
-For more information see our Organizational Data Documentation
-
->[!Important]
->Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 
 ## Data outputs
 
