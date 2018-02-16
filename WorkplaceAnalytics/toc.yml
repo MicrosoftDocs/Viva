@@ -95,12 +95,8 @@
         href: MyAnalytics/Use/dashboard.md
       - name: Add-in
         href: MyAnalytics/Use/add-in.md
-      - name: Management and Coaching
-        href: ./conceptual/index.md
       - name: Email Digests
         href: MyAnalytics/Use/email-digests.md
-      - name: MyAnalytics Settings
-        href: MyAnalytics/Use/settings.md
     - name: Getting Started      
       items:
       - name: Step One - Review MyAnalytics privacy guide
