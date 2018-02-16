@@ -16,7 +16,7 @@ ms.prod: mya
 ![Architecture Diagram](~/Images/WpA/Overview/Architecture.png) </CENTER>
 Workplace Analytics leverages Office 365 collaboration data to deliver powerful new insights for enterprise productivity. It provides a way for companies to understand the communication behaviors and collaboration patterns across their organization and how they influence productivity and corporate performance.
 
-Workplace Analytics analyzes Office 365 Email and Calendar header level metadata [see privacy page for more information around the data accessed](Privacy-And-Data-Access.md) and combines it with organizational data from line of business applications.  By combining these datasets, analysts are able to provide a [Variety of organizational insights](http://insights.office.com). Workplace Analytics provides a workbench to run custom analysis and pre developed aggregated dashboards.  All data is owned by the customer and stored within the O365 Compliance Boundary pursuant to the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
+Workplace Analytics analyzes Office 365 [Email and Calendar header level metadata](Privacy-And-Data-Access.md) and combines it with organizational data from line of business applications.  By combining these datasets, analysts are able to provide a [Variety of organizational insights](http://insights.office.com). Workplace Analytics provides a workbench to run custom analysis and pre developed aggregated dashboards.  All data is owned by the customer and stored within the O365 Compliance Boundary pursuant to the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
 
 ##Core Considerations
 By design, Workplace Analytics provide organizations with choice:
