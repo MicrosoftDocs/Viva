@@ -2,68 +2,56 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
-author: rodonahu
-ms.author: rodonahu
-ms.date: 1/19/2018
+title: MyAnalytics dashboard
+description: All the individual dashboard topics, displayed as one.
+author: v-pascha
+ms.author: v-pascha
+ms.date: 2/15/2018
 ms.topic: get-started-article
-ms.prod: wpa
+ms.prod: mya
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-[!INCLUDE [Add top collaborators](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
+# MyAnalytics personal dashboard
 
-[!INCLUDE [Test](Test_text.md)]
+MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is the MyAnalytics _personal dashboard_.
 
-[!INCLUDE [Test](Test_text.md)]
+Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.
 
-[!INCLUDE [Test](Test_text.md)]
+## Dashboard elements
 
+The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools:
 
-Link:
-[Test](Test_text.md)
+### Overview: The Your time section
 
+Near the top of the MyAnalytics dashboard is the “Your time” area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your goals.
 
+<img src="../../../Images/Your_time_dashboard.png" width="100%" height="100%" alt="The Your time area of the MyAnalytics dashboard">
 
-# Test links, first images and then text files
+This report shows summaries of the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals.
 
-This one works (HTML):
+**To change your weekly goals**
 
-<img src="../../Images/Add_top_collaborator_ed.png" width="50%" height="50%" alt="Add top collaborator card">
+1.	For the category (such as Email hours or Focus hours), click **Edit goal**.
+2.	In the dialog box that appears, type a number for your new goal, and click **Save**. Your new goal is displayed in the overview. When you change a goal, the goals for previous weeks are also changed.
 
-This one works (md relative path):
+See [MyAnalytics Tips](../../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
 
-![test image](../../Images/Add_top_collaborator_ed.png)
+### Drill down: The detailed subsections
 
-This one works:
+Scroll down the dashboard page and you see sections that give you more detail about the ways you spend your time and the people you contact while you work.
 
-![test image](../../Images/Slider_off.png)
+[!INCLUDE [Meetings](MyA_Dashboard/MyA_DB_Meetings.md)]
 
-This one works -- in same folder:  
+[!INCLUDE [Emails](MyA_Dashboard/MyA_DB_Emails.md)]
 
-![test image](../Use/Slider_off.png)
+[!INCLUDE [Focus hours](MyA_Dashboard/MyA_DB_Focus_hours.md)]
 
-Link that works:
-[Test](Test_text.md)
+[!INCLUDE [After hours](MyA_Dashboard/MyA_DB_After_hours.md)]
 
-This link also works (original casing):
-[Test](../Use/Test_text.md)
+[!INCLUDE [Network](MyA_Dashboard/MyA_DB_Network.md)]
 
-This link also works (all lower case):
-[Test](../Use/test_text.md)
+## Dashboard options
 
-=======
->>>>>>> b25d883a2d7f817ca2f9a32f50dcc37e41cb702c
->>>>>>> 7bc56330210c1aa2b604cd4a5a8fe2d587ebb7da
+[!INCLUDE [Sharing](MyA_Dashboard/MyA_DB_Sharing.md)]
 
-## To Do
-[!INCLUDE [Top Collaborators](MyA_Outlook_add-in/MyA_Add-in_To-do.md)]
-
-## Top Collaborators
-[!INCLUDE [To - Do](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
-
-## Unread emails
-[!INCLUDE [To - Do](MyA_Outlook_add-in/MyA_Add-in_Unread_emails.md)]
+[!INCLUDE [Opt out](MyA_Dashboard/MyA_DB_Opt_out.md)]
