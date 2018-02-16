@@ -13,17 +13,14 @@ ms.prod: wpa
 
 # What you should do after you have MyAnalytics
 
-After you've purchased an E5 plan or a MyAnalytics add-on, you have to configure MyAnalytics for your organization. We recommend that you take the following steps:
-
-## To-do: Make links out of all these!:
-
+After you've purchased an E5 plan or a MyAnalytics add-on, you have to configure MyAnalytics for your organization. To do this, complete the following steps:
 
 Review the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md).
 
-Configure MyAnalytics user settings.
+[Configure MyAnalytics user settings](../Setup/Configure-MyAnalytics-User-Settings.md)
 
 [Check that access to the Office Graph is enabled](../Setup/Check_Office_Graph.md).
 
 [Assign MyAnalytics license to users](../Setup/Assign-Licenses.md).
 
-Verify that the MyAnalytics Outlook add-in is installed.
+[Verify that the MyAnalytics Outlook add-in is installed](../Setup/Verify-Add-in.md).
