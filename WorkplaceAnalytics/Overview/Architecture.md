@@ -12,9 +12,8 @@ ms.prod: mya
 ---
 
 # Architecture / How it Works
-
-
-[<img src=""~/Images/WpA/Overview/FLOW.png" height="50%" width ="50%"](~/Images/WpA/Overview/Architecture.png)  
+<CENTER>
+[<img src="~/Images/WpA/Overview/Architecture.png" height="80%" width ="80%">](~/Images/WpA/Overview/Architecture.png) </CENTER>
 Workplace Analytics leverages Office 365 collaboration data to deliver powerful new insights for enterprise productivity. It provides a way for companies to understand the communication behaviors and collaboration patterns across their organization and how they influence productivity and corporate performance.
 
 Workplace analytics analyzes header level metadata [see privacy page for more information around the data accessed](Privacy-And-Data-Access.md) from exchange online mailboxes and combines it with organizational data from line of business applications. Message Body and Attachment contents are never accessed. By combining these datasets, analysts are able to analyze a [Variety of organizational challenges](http://insights.office.com). Workplace Analytics provides a workbench to run custom analysis and pre developed aggregated dashboards.  All data is owned by the customer and stored within the O365 Compliance Boundary pursuant to the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
@@ -27,35 +26,42 @@ Workplace Analytics provide organizations with choice:
 Our [Privacy and data access document](Privacy-And-Data-Access.md) describes these considerations in greater detail.
 
 
-
-[<img src=""~/Images/WpA/Overview/FLOW.png" height="50%" width ="50%"](~/Images/WpA/Overview/FLOW.png)  
+<CENTER>
+[<img src="~/Images/WpA/Overview/FLOW.png" height="80%" width ="80%">](~/Images/WpA/Overview/FLOW.png)  
+</CENTER>
 ## Data Inputs
 **Collaboration Data**|**Organizational Data**
 :-----:|:-----:
-Header information from emails|PersonId,Organization,ManagerId,Layer,Timezone,Level,Location, EffectiveDate|
-Header information from Meetings|At a minimum, the above data fields are required to be loaded for the population that are in scope for analysis. Most organizations provide this data for the entire company so analysts can understand what organizations the population in scope for analysis are For more information see our Organizational Data Documentation collaborating with.
-Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
+Header information from emails|PersonId,Organization,ManagerId, Layer,Timezone,Level,Location, EffectiveDate|
+Header information from Meetings|At a minimum, the above data fields are required for the population scope that you are analyzing.
+
+Most organizations provide this data for the entire company to understand how the mailboxes being analyzed collaborate across the entire organization
+
+For more information see our Organizational Data Documentation
+
+>[Note]
+>Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 
 ## Data outputs
 
-**Output type**|**SAMPLE**|**Role that has Access **
+**Output type**|**SAMPLE**|**Role that has Access**
 :-----:|:-----:|:-----:
 De-Identified Row Level Data| |Analyst
 Meeting Query Output| |Analyst
 Meeting Query output with subject lines encrypted| |Analyst
-Visual Dashboards with Minimum Aggregation Threshold | |Analyst
 
 ## Privacy Options
-Privacy
-Include Subject lines – Subject lines
-Minimum group size
+Include Subject lines – As part of a meeting query, an administrator can choose to have all meeting subject lines encrypted
+Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased
 Exclusion
-Private and meetings / Mails with Digital Rights Management are automatically excluded.
+All exclusion occurs before metadata is processed within the Workplace Analytics Data Engine
+>[!Note]
+>Private and meetings / Mails with Digital Rights Management are automatically excluded.
 
-Customers can exclude specific metadata based on the following parameters –
-Subject lines – provide keywords to exclude from analysis
-Domains – exclude involving specific domains from the dataset
-Email addresses - exclude content involving specific email addresses from the dataset
+Customers can exclude any meeting or mail metadata based on the following parameters, (which may have impact on analysis):
+* Subject lines – provide keywords to exclude from analysis
+* Domains – exclude involving specific domains from the dataset
+* mail addresses - exclude content involving specific email addresses from the dataset
 
 For More information see our Configuring Settings Page
 
