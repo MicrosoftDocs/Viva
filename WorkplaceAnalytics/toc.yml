@@ -106,17 +106,14 @@
     - name: Getting Started
       href: ./conceptual/index.md
       items:
-      - name: Checklist
-        href: ./conceptual/index.md
-      - name: Step One -
-        href: ./conceptual/index.md
-      - name: Step Two -
-        href: ./conceptual/index.md
-      - name: Step Three -
-        href: ./conceptual/index.md
-      - name: Step Four - a
-        href: ./conceptual/index.md
-      - name: Step Five -
-        href: ./conceptual/index.md
-      - name: Step Six -
-        href: ./conceptual/index.md
+      - name: Step One - Review MyAnalytics privacy guide
+        href: MyAnalytics/Overview/Privacy-Guide.md
+      - name: Step Two - Configure user settings
+        href: MyAnalytics/Setup/Configure_MyA_User_Settings.md
+      - name: Step Three - Check access to Office Graph
+        href: MyAnalytics/Setup/Check_Office_Graph.md
+      - name: Step Four - Assign MyAnalytics license to users
+        href: MyAnalytics/Setup/Assign_Licenses.md
+      - name: Step Five - Verify that Outlook add-in is installed
+        href: MyAnalytics/Overview/Privacy-Guide.md
+
