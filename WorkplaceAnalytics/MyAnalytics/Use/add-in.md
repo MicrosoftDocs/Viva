@@ -17,16 +17,16 @@ MyAnalytics helps you understand how you collaborate with colleagues and spend y
 
 MyAnalytics draws email and meeting data from Outlook, notices patterns, and then the MyAnalytics Outlook add-in displays information in cards. Each card reports on an aspect of your behavior and suggests an action you can take. The following sections describe the cards that the add-in uses to communicate with you:  
 
-[!INCLUDE [Add top collaborators](MyA_Outlook_add_in/MyA_Add-in_Add_top_collab.md)]
+[!INCLUDE [Add top collaborators](MyA_Outlook_add-in/MyA_Add-in_Add_top_collab.md)]
 
-[!INCLUDE [To do](MyA_Outlook_add_in/MyA_Add-in_To-do.md)]
+[!INCLUDE [To do](MyA_Outlook_add-in/MyA_Add-in_To-do.md)]
 
-[!INCLUDE [Unread emails](MyA_Outlook_add_in/MyA_Add-in_Unread_emails.md)]
+[!INCLUDE [Unread emails](MyA_Outlook_add-in/MyA_Add-in_Unread_emails.md)]
 
-[!INCLUDE [Email read statistics](MyA_Outlook_add_in/MyA_Add-in_Email_read_stats.md)]
+[!INCLUDE [Email read statistics](MyA_Outlook_add-in/MyA_Add-in_Email_read_stats.md)]
 
 ## Further information
 
-[!INCLUDE [Important people](../Overview/Important_people.md)]
+[!INCLUDE [Important people](../Overview/Important people.md)]
 
-See [MyAnalytics Tips](../../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
+See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
