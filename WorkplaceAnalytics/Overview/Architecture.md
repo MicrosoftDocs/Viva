@@ -23,6 +23,8 @@ Workplace Analytics provide organizations with choice:
 1.	Scope of mailboxes that are part of analysis.
 2.	Who has access to de-identified datasets and aggregated visual dashboards
 3.	Configurable options to exclude specific meeting and email metadata from analysis
+
+
 Our [Privacy and data access document](Privacy-And-Data-Access.md) describes these considerations in greater detail.
 
 
@@ -39,7 +41,7 @@ Most organizations provide this data for the entire company to understand how th
 
 For more information see our Organizational Data Documentation
 
->[Note]
+>[!Note]
 >Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 
 ## Data outputs
@@ -68,10 +70,10 @@ For More information see our Configuring Settings Page
 ## FAQ
 
 ### How does your Service handle data?
-We are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy)
+We are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy) and [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
 
 ###Can you describe the de-identification process?
-Data processed from o365 datasets will omit personal data and de-identify them when in a stored state. This process leverages a symmetric key process to ensure that supplemental organizational data can be added when needed. Keys are securely maintained by Microsoft only allowing programmatic access.
+Workplace Analytics processes metadata from o365 email and calendar. Email addresses are never shown in Workplace Analytics through dashboards or query results. The Workplace Data Engine de-identifies them when in a stored state. This process leverages a symmetric key process to ensure that supplemental organizational data can be added when needed. Keys are securely maintained by Microsoft only allowing programmatic access.
 
 ###Does Workplace Analytics Support GDPR?
 Microsoft has made the commitment to be GDPR compliant. As such, Workplace Analytics has plans to implement GDPR protections in alignment with its worldwide introduction date of May 25th, 2018.
