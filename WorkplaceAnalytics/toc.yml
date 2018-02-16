@@ -77,11 +77,9 @@
           href: ./conceptual/index.md
 
 - name: MyAnalytics
-  href: ./conceptual/index.md
   expanded: true
   items:
     - name: MyAnalytics Overview
-      href: ./conceptual/index.md
       items:
         - name: Environment Requirements
           href: ./conceptual/index.md
@@ -103,8 +101,7 @@
         href: MyAnalytics/Use/email-digests.md
       - name: MyAnalytics Settings
         href: MyAnalytics/Use/settings.md
-    - name: Getting Started
-      href: ./conceptual/index.md
+    - name: Getting Started      
       items:
       - name: Step One - Review MyAnalytics privacy guide
         href: MyAnalytics/Overview/Privacy-Guide.md
