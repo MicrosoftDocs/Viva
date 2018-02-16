@@ -50,7 +50,8 @@ For more information see our Organizational Data Documentation
 De-Identified Row Level Data| |Analyst
 Meeting Query Output| |Analyst
 Meeting Query output with subject lines encrypted| |Analyst
-
+Visual Dashboards with Minimum Aggregation Threshold ||Analyst, Analyst (Limited)
+Data Sources | | Administrator
 ## Privacy Options
 * Include Subject lines – As part of a meeting query, an administrator can choose to have meeting subject lines encrypted
 * Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased to a larger number as needed
@@ -62,14 +63,14 @@ All exclusion occurs before metadata is processed within the Workplace Analytics
 Customers can exclude any meeting or mail metadata based on the following parameters, (which may have impact on analysis):
 * Subject lines – provide keywords to exclude from analysis
 * Domains – exclude involving specific domains from the dataset
-* mail addresses - exclude content involving specific email addresses from the dataset
+* Email addresses - exclude content involving specific email addresses from the dataset
 
-For More information see our Configuring Settings Page
+For More information see our Configuring Settings Page and Our [Privacy and data access document](Privacy-And-Data-Access.md)
 
 ## FAQ
 
 ### How does your Service handle data?
-We are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy) and [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
+As part of the Office 365 offering, we are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy) and [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) for more information about data handling standards. 
 
 ### Can you describe the de-identification process?
 Workplace Analytics processes metadata from o365 email and calendar. Email addresses are never shown in Workplace Analytics through dashboards or query results. The Workplace Data Engine de-identifies leveraging a symmetric hashing to ensure that supplemental organizational data can be added when needed. Encryption keys are securely maintained by Microsoft only allowing programmatic access.
