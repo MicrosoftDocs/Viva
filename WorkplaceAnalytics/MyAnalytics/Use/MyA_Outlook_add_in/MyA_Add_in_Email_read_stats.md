@@ -15,7 +15,7 @@ ms.prod: mya
 
 MyAnalytics can tell you how many people have opened your emails and how long they spent reading them. It informs you about emails that you sent to five or more Office 365 users who are internal to your company. It displays this information in "cards," such as this one:
 
-<img src="../../../Images/Still_updating.png" width="70%" height="70%" alt="Still updating">
+<img src="../../../Images/Still_updating.png" width="65%" height="65%" alt="Still updating">
 
 After you send an email message, it takes up to fifteen minutes before MyAnalytics can inform you about it. MyAnalytics groups similar information into a single summary card that you can select and expand to see a more detailed view.
 
@@ -26,11 +26,11 @@ To see information about a specific email message
 
     At the top of the panel, a card displays information about the message that you selected. For example, the following card describes the status of the message with the subject line "Document for review":
   
-    <img src="../../../Images/Ready_for_review.png" width="75%" height="75%" alt="Ready for review">
+    <img src="../../../Images/Ready_for_review.png" width="65%" height="65%" alt="Ready for review">
 
 3. To see more information about this message, click the card. For the selected message, you see a chart that shows the proportion of recipients who have opened your email, and the number of times people replied to it or forwarded it. 
 
-    <img src="../../../Images/50_percent_opened_ed.png" width="60%" height="60%" alt="Proportion of recipients who opened your email">
+    <img src="../../../Images/50_percent_opened_ed.png" width="50%" height="50%" alt="Proportion of recipients who opened your email">
 
     Based on the length of the message, MyAnalytics estimates how long a person needs to read it. It uses that number to decide whether people glanced, skimmed, or read the email, and informs you of this in a card. 
 

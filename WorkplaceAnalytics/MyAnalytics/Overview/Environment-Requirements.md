@@ -5,12 +5,11 @@
 title: Workplace Analytics Getting Started Checklist
 description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
 author: rodonahu
-ms.author: rodonahu
+ms.author: rodonahu, v-pascha
 ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
-<<<<<<< HEAD
 
 # MyAnalytics environment requirements
 
@@ -37,5 +36,3 @@ ms.prod: wpa
 * BlackForest
 * Other sovereign clouds
 
-=======
->>>>>>> 7bc56330210c1aa2b604cd4a5a8fe2d587ebb7da

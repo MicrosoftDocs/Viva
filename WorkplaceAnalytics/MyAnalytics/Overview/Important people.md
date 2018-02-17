@@ -13,8 +13,6 @@ ms.prod: mya
 
 # Important people 
 
-Important people  
-
 Use the Important people card to manage relationships and keep in touch with priority members of your network. By using this card, you can add or remove people from your Important people list. This lets you receive notifications when you've missed an email from someone on your list or not followed up on a to-do task for that person.  
 
 When you open the MyAnalytics Outlook Add-in for the first time, MyAnalytics suggests five people, based on your most frequent email interactions. Over time, as you communicate with different people, MyAnalytics shows “Add top collaborator” cards that you can use to add new contacts to your Important people list.   

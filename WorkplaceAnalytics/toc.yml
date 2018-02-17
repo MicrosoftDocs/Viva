@@ -82,13 +82,13 @@
     - name: MyAnalytics Overview
       items:
         - name: Environment Requirements
-          href: ./conceptual/index.md
-        - name: Architecture
-          href: ./conceptual/index.md
+          href: MyAnalytics/Overview/Environment-Requirements.md
+   #     - name: Architecture
+   #       href: ./conceptual/index.md
         - name: Privacy Principles
-          href: ./conceptual/index.md
-        - name: Getting Support
-          href: ./conceptual/index.md
+          href: MyAnalytics/Overview/Privacy-Guide.md
+   #     - name: Getting Support
+   #       href: ./conceptual/index.md
     - name: Use
       items:
       - name: Dashboard
