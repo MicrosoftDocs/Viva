@@ -23,8 +23,8 @@ Excluded   |<ul><li> Office 365 data is not used for aggregated information show
 
 **Notes:** The following applies when you use the default settings:
 
-* All users in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in.
-* Licensed users will have MyAnalytics automatically enabled for them after a license is assigned to them. If you want your licensed users to instead have the choice to opt-in, you must change the default settings.
+* _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in.
+* _Licensed users_ will have MyAnalytics automatically enabled for them after a license is assigned to them. If you want your licensed users to instead have the choice to opt-in, you must change the default settings.
 
 ### Use Exchange Online PowerShell to run cmdlets to set or get MyAnalytics user settings
 
@@ -36,9 +36,9 @@ PrivacyMode has three different settings: Excluded, Opt-in, and Opt-out, as desc
 
 Configure MyAnalytics settings for a user with the following cmdlet:
 
-***
-Set-UserAnalyticsConfig –Identity <<string>string> [PrivacyMode <string[]>]
-***
+```
+Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
+```
 
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
@@ -47,9 +47,9 @@ PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the cur
 
 Get MyAnalytics settings for a user with the following cmdlet:
 
-***
-Get-UserAnalyticsConfig –Identity <<string>string>
-***
+```
+Get-UserAnalyticsConfig –Identity <string>
+```
 
 Parameter   |   Required   |    Description    |   Default value
 ----------- | ------------ |  ---------------  | ---------------

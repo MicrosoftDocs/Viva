@@ -13,11 +13,11 @@ ms.prod: wpa
 
 # MyAnalytics email digests
 
-If you are a MyAnalytics participant, it will send you weekly digest emails that give you key highlights about your previous week. This digest email contains links that you can click to open your MyAnalytics dashboard. 
+As a MyAnalytics user, you will receive weekly digest emails that give you key highlights about your previous week. This digest email contains links that you can click to open your MyAnalytics dashboard. 
 
 The following illustration shows some of the contents of this email: 
 
-<img src="../../Images/digest_email.png" width="70%" height="70%" alt="Weekly email digest">
+<img src="../../Images/digest_email.png" width="75%" height="75%" alt="Weekly email digest">
 
 <!---
 If you do not want to receive digest emails from MyAnalytics, you can opt out of the emails using the following steps:
