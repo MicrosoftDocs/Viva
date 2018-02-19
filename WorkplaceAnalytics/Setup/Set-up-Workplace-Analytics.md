@@ -14,12 +14,24 @@ To successfully set up and implement Workplace Analytics, you will need to coord
 
 Use this checklist to help assemble the people and obtain the data and configuration information that you will need to set up and provision Workplace Analytics. 
 
-
 > [!TIP]
 > This checklist outlines recommended steps and a high-level list of items to consider and is not intended to be exhaustive. You may want to copy this checklist into a spreadsheet and then customize it for your organization.
 
 # Checklist 
-[[placeholder -  In this article, internal links]]
+
+| Task | Owners | Outcome |
+|------|--------|---------|
+|  [1 - Determine key personas and assign roles for set up](#2-Step-one-Determine-key-personas-and-assign-roles-for-set-up)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified      |
+| [2 - Determine the population to analyze](#2-Step-two-Determine-the-population-to-analyze)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator       |
+|   [3 - Assign users and population](#2-Step-three-Assign-users-and-population)   |    Office 365 global administrator   |     Administrator can use Workplace Analytics to set system defaults, privacy settings, upload and verify organizational data; data analysts can log into and use Workplace Analytics once data is provisioned    |
+|  [4 - Configure privacy and time zone options](#2-Step-four-Configure-privacy-and-time-zone-options)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
+|  [5 - Prepare organizational data for upload](#2-Step-five-Prepare-organizational-data-for-upload)    |   placeholder     |      placeholder   |
+|  [6 - Upload your organizational data](#2-Step-six-Upload-your-organizational-data)    |    Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst    |    CSV file of organizational data is generated and uploaded to Workplace Analytics for final provisioning     |
+|  [7 - Validate and verify data](#2-Step-seven-Validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
+|    [8 - Set up meeting exclusions](#2-Step-eight-Set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
+    
+
+[[When you have finished all the steps, you are ready to -- Link to Explore data]]
 
 # Step one: Determine key personas and assign roles for set up
 
@@ -68,9 +80,9 @@ If your organization has not fully migrated to Office 365 Exchange Online, you m
 To allow administrators to set system defaults, privacy settings, upload and verify organizational data, and to allow data analysts to be able to use Workplace Analytics, you must assign users to the Workplace Analytics service.
 
 ### Workplace Analytics roles and the level of access
-* **Analyst role**: Full access to all service features, except Admin. This role is used for the analyst who requires the most complete access to the data.
-* **Analyst (Limited Access) role**: Access to Home page, Explore metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore the metrics dashboards
-* **Administrator role**: Access to Admin and Data Sources features. This role is used for the Workplace Analytics administrator to set system defaults, privacy settings, upload, and verify organizational data. 
+* **Analyst role** - Full access to all service features, except Admin. This role is used for the analyst who requires the most complete access to the data.
+* **Analyst (Limited Access) role** - Access to Home page, Explore metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore the metrics dashboards
+* **Administrator role** - Access to Admin and Data Sources features. This role is used for the Workplace Analytics administrator to set system defaults, privacy settings, upload, and verify organizational data. 
 
 ### To assign users to Workplace Analytics 
 * Follow the instructions in this support article. [[get document from teams - link]]
@@ -112,9 +124,8 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
 * **Task** - Provide default time zone values the system will use in metric calculations if the data is not available for a measured employee or other internal collaborator
 * **Outcome** - Default time zone values are defined in Workplace Analytics 
 
+The default time zone is used to compute after-hours metrics when a time zone is not provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone. 
 
-
-This is the default time zone used to compute after-hours metrics when a time zone is not provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone. 
 The default time zone for Workplace Analytics is Pacific Standard Time. Visit Time zones in Workplace Analytics for a complete list of times zones you can use.
 
 ### To change the default time zone
@@ -164,7 +175,7 @@ Office 365 meeting and email data is refreshed monthly. This is a good time for 
 
 * **Owner** - Workplace Analytics administrator, data analysts with full access
 * **Task** - Ensure Office 365 data is available and ready for analysis, ensure the correct organizational data has been uploaded and is ready for analysis.
-* **Results** - Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.
+* **Outcome** - Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.
 
 Once final provisioning is complete, Workplace Analytics administrators and data analysts can use the Data sources section to verify that Office 365 and organizational data is loaded and ready for use.
 
@@ -180,15 +191,14 @@ Data sources metrics help Workplace Analytics data analysts:
 ### To view the Data sources metrics
 * On the navigation bar, click **Sources**.
 
-# Step seven: Set up meeting exclusions 
+# Step eight: Set up meeting exclusions 
 * **Owner** - Workplace Analytics administrator, data analysts with full access
 * **Task** - Set meeting exclusion rules to reflect your company's meeting norms and exclude meetings that are not relevant for analysis.  
-* **Results** - Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
+* **Outcome** - Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
 
 [[Link to current topic]]
 
-# Step eight: Analyze data 
-[[Link to Explore data]]
+
 
 
 
