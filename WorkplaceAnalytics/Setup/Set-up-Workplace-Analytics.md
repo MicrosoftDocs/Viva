@@ -10,6 +10,7 @@ ms.date: 2/16/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
+# Workplace Analytics Getting Started Checklist
 To successfully set up and implement Workplace Analytics, you will need to coordinate and obtain information and buy-in from a wide variety of stakeholders.
 
 Use this checklist to help assemble the people and obtain the data and configuration information that you will need to set up and provision Workplace Analytics.
@@ -191,7 +192,7 @@ Data sources metrics help Workplace Analytics data analysts:
 ### To view the Data sources metrics
 * On the navigation bar, click **Sources**.
 
-## Step eight: Set up meeting exclusions 
+## Step eight: Set up meeting exclusions
 * **Owner** - Workplace Analytics administrator, data analysts with full access
 * **Task** - Set meeting exclusion rules to reflect your company's meeting norms and exclude meetings that are not relevant for analysis.  
 * **Outcome** - Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
