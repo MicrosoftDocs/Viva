@@ -3,7 +3,7 @@
 # required metadata
 
 title: Get started with Workplace Analytics
-description: This topic explains how to use the meeting exlusions feature in Workplace Analytics. 
+description: This topic provides and overview of the primary features in Workplace Analytics. 
 author: v-leash
 ms.author: v-leash
 ms.date: 2/14/2018
