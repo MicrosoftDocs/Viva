@@ -19,7 +19,7 @@ The default time zone in Workplace Analytics is Pacific Standard. The following 
 When preparing organizational data for Workplace Analytics, use the time zone names exactly as written.
 
 
-Time zone
+Timezone
 Afghanistan Standard Time
 Alaskan Standard Time
 Aleutian Standard Time

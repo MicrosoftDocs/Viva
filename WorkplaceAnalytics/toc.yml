@@ -6,12 +6,6 @@
       items:
         - name: Environment Requirements
           href: ~/Overview/Environment-Requirements.md
-        - name: Engagement Framework
-          href: ~/Overview/Engagement-Framework.md
-        - name: Working with Strategy Partners
-          href: ~/Overview/Strategy-Partners.md
-        - name: Features
-          href: ~/Overview/Components.md
         - name: Architecture and How it Works
           href: ~/Overview/Architecture.md
         - name: Privacy and Data Access
@@ -21,7 +15,7 @@
     - name: Setup
       items:
       - name: Checklist
-        href: ~/Setup/Checklist.md
+        href: ~/Setup/Set-up-Workplace-Analytics.md
       - name: Step One - Population Scope and Licence Assignment
         href: ~/Setup/Step-One-Assign-Licences.md
       - name: Step Two - Role Assignment
@@ -97,7 +91,7 @@
         href: MyAnalytics/Use/add-in.md
       - name: Email Digests
         href: MyAnalytics/Use/email-digests.md
-    - name: Getting Started      
+    - name: Getting Started
       items:
       - name: Step One - Review MyAnalytics privacy guide
         href: MyAnalytics/Overview/Privacy-Guide.md
@@ -109,4 +103,3 @@
         href: MyAnalytics/Setup/Assign_Licenses.md
       - name: Step Five - Verify that Outlook add-in is installed
         href: MyAnalytics/Overview/Privacy-Guide.md
-
