@@ -11,12 +11,17 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 # Week in the life
-**Week in the Life** provides a summary of weekly collaboration in the organization. You can use this section as a starting point to explore more in-depth metrics and reports.
+**Week in the life** provides a summary of weekly collaboration in the organization. You can use this section as a starting point to explore more in-depth metrics and reports.
+
+![Week in the life](../images//WpA/Use/week-in-the-life-explore.png)
 
 # All collaboration hours
 All collaboration hours are the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s configured business hours. 
 
 **Meeting hours** is the number of hours the person spent in meetings with at least one other person. **Email hours** is the number of hours the person spent sending and reading email.
+
+![Week in the life](../images//WpA/Use/all-collaboration-hours-explore.png)
+
 ### Why it's important
 Meeting and email hours are the most basic components of collaboration. They help quantify the collaboration volume and patterns within a company, potentially highlighting an under or overly collaborative culture.
 
@@ -37,6 +42,8 @@ Workplace Analytics helps analysts identify high and low collaboration and its c
 # After-hours collaboration hours
 After-hours meeting and email hours are the number of hours that a person spent in meetings and sending mails outside of business hours. (Workplace Analytics uses 9AM-5PM, Monday – Friday for business hours.)
 
+![After-hours collaboration hours](../images//WpA/Use/after-hours-collaboration-hours-explore.png)
+
 ### Why it's important
 Different roles will require different schedules, but monitoring after-hours activity can help identify employees who are at risk of getting burnt out or have an unsustainable workload.
 * Emails sent after-hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
@@ -49,6 +56,8 @@ Different roles will require different schedules, but monitoring after-hours act
 
 **External collaboration hours** are the number of hours a person spent in meetings and emails with at least one external person.
 
+![Internal only and external collaboration hours](../images//WpA/Use/internal-and-external-collaboration-hours-explore.png)
+
 ### Why it's important
 Who employees spend their time with is key to understanding if they are performing as expected in their role.
 * Internal collaboration can be an indicator of the complexity of the processes employees must navigate to complete their work.
@@ -60,6 +69,8 @@ Who employees spend their time with is key to understanding if they are performi
 
 **Fragmented hours** are non-scheduled business hours less than two hours in length.
 
+![Focus hours and fragmented hours](../images//WpA/Use/focus-hours-and-fragmented-hours-explore.png)
+
 ### Why it's important
 * Two-hour blocks of uninterrupted time are critical for a person to be able to focus and complete critical individual work.
 * Short blocks of free time less than two hours may not provide enough time for an employee to focus on complex tasks.
@@ -69,6 +80,8 @@ Who employees spend their time with is key to understanding if they are performi
 
 # Workweek span
 Workweek span is the time between the person's first email or meeting and the last email or meeting in a day. (Counted Monday – Friday, with a minimum of 4 hours and a maximum of 16 hours per day.) If reported for the week, the metric is a sum for the week. If reported for the month, the metric is the weekly average.
+
+![Workweek span](../images//WpA/Use/workweek-span-explore.png)
 
 ### Why it's important
 Workweek span captures the span of time an employee spends in work-related activity during the work week. It provides an estimate for how many hours each week employees are engaged in work, whether they are in the office or not.
