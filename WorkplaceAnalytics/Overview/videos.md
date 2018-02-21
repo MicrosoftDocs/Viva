@@ -18,7 +18,6 @@ A look at Workplace Analytics, a tool that uses the power of Office 365 to provi
 > [!VIDEO https://www.youtube.com/embed/xiRb8T4ohFc]
 
 
-
 ## Macy's Video
 Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in their organization
 > [!VIDEO https://www.youtube.com/embed/eZeTkK65RQM]
