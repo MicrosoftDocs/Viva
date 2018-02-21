@@ -48,22 +48,34 @@
         href: ~/Use/Settings.md
       - name: User Roles
         href: ~/Use/User-Roles.md
-      - name: Create Custom Meeting Exclusion Rules
-        href: ~/Use/Create-custom-meeting-exclusions-rules.md
+      - name: Meeting Classifier
+        href: ~/Use/Meeting-Classifier.md
       - name: Metrics Definition
         href: ~/Use/Metrics-Definition.md
       - name: Metrics Glossary
         href: ~/Use/Glossary.md
-      - name: Group based Licence Assignment
-        href: ~/Use/Group-Based-Licencing.md
-      - name: Prepare and upload organizational data
-        href: ~/Use/Prepare-and-upload-organizational-data.md
-      - name: Timezones for Workplace analytics
-        href: ~/Use/Timezones-for-Workplace-analytics.md
-      - name: Percentage and average calculations
-        href: ~/Use/Percentage-and-average-calculations.md
-      - name: Understand meeting exclusions
-        href: ~/Use/Understand-meeting-exclusions.md          
+      - name: Solutions
+        href: ./conceptual/index.md
+        items:
+          - name: Solutions Overview
+            href: ~/Use/Solutions/Overview.md
+          - name: Identify
+            href: ~/Use/Solutions/Identify.md
+          - name: Manage
+            href: ~/Use/Solutions/Manage.md
+          - name: Track
+            href: ~/Use/Solutions/Track.md
+    - name: Adoption
+      items:
+        - name: Finding a Business Scenario
+          href: ./conceptual/index.md
+        - name: Communicating Analysis to population scope
+          href: ./conceptual/index.md
+        - name: Percentage and Average Calculation
+          href: ./conceptual/index.md
+        - name: FT Content would go here
+          href: ./conceptual/index.md
+
 - name: MyAnalytics
   expanded: true
   items:
@@ -85,7 +97,7 @@
         href: MyAnalytics/Use/add-in.md
       - name: Email Digests
         href: MyAnalytics/Use/email-digests.md
-    - name: Setup
+    - name: Getting Started
       items:
       - name: Step One - Review MyAnalytics privacy guide
         href: MyAnalytics/Overview/Privacy-Guide.md
