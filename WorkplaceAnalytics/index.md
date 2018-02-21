@@ -23,7 +23,7 @@ author: rodonahu
                     </div>
                     <div class="cardText">
                         <h3>Insights</h3>
-                        <p>See How Workplace Analytics is changing the business landscape through our thought leadership</p>
+                        <p>Read our thought leadership</p>
                     </div>
                 </div>
             </div>
