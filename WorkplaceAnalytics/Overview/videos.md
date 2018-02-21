@@ -10,6 +10,15 @@ ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---
-> [!VIDEO https://www.youtube.com/embed/p82hS0K32fA]
+# Workplace Analytics Videos
 
+## Office Mechanics video
+A look at Workplace Analytics, a tool that uses the power of Office 365 to provide rich actionable insights into how your organization spends its time. Workplace Analytics shows ways that people network internally and externally and the effectiveness of collaboration across teams. We'll also share how it works, including how you can correlate Workplace Analytics data with other business information to generate powerful models and best practices to drive positive business outcomes.
+
+> [!VIDEO https://www.youtube.com/embed/xiRb8T4ohFc]
+
+
+
+## Macy's Video
+Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in their organization
 > [!VIDEO https://www.youtube.com/embed/eZeTkK65RQM]
