@@ -14,18 +14,12 @@ ms.prod: wpa
 # Queries overview
 You can create three types of queries in Workplace Analytics: **Person**, **Group**, and **Meeting**.
 
+![Three types of queries](../Images/WpA/Use/Three-ways-to-query-data-Create-queries.png)
+
 Each query type can help answer specific questions you may be investigating. The different query types give you flexibility to look at data from multiple perspectives to generate insights. You can also use the query types together to gain even more powerful insights.
-
-![Three types of queries](../images/placeholder Introduction.png)
-
-### Three ways to create queries
-* Use and edit pre-defined query templates
-* Create custom queries from scratch
-* Open and edit a previously run query
 
 ## Meeting exclusions
 You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can choose between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
-The following examples contain the steps to create custom Person, Meeting, and Group queries, as well as the steps to select and edit a query template.
 
 **Related topics**
 
@@ -41,8 +35,17 @@ If the metrics show indications of poor meeting behavior, such as too many long 
 
 Additionally, the analyst could create a [**Group query**](#2-group-query)  to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
 
+There are three ways to create queries:
+* Use and edit pre-defined query templates
+* Create custom queries from scratch
+* Open and edit a previously run query
+
 When you create or edit a query, you will select the metrics that you want to include (many can be customized), and you can use filters to narrow the results and drill down on specific data of interest.
 
+![Customize attributes and metrics](../Images/WpA/Use/Customize-attributes-and-metrics-Create-queries.png)
+
+
+The following examples contain the steps to create custom **Person**, **Meeting**, and **Group** queries, as well as the steps to select and edit a query template.
 
 # Person query
 Use a Person query when you want to find broader trends in the organization by looking at aggregated metrics for a group of people.
