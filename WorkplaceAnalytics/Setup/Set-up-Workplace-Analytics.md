@@ -150,6 +150,45 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
 
 Organizational data is the information about employees that your company provides to use in Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
 
+### What is Organizational data (“Org data”)?
+- Individual-level metadata that provides descriptive information of a company’s employees
+- Sourced from multiple sources
+    - Human Resources Information Systems (HRIS) Ex: Workday, PeopleSoft
+    - Payroll Systems
+    - Employee Surveys (Engagement, Manager Feedback, Culture)
+    - Performance Management Systems or Quota Attainment Systems
+    - CRM Systems
+- Workplace Analytics Org Data is structured as a flat file with each row representing one person with columns representing attribute fields
+
+### How is it used?
+- Provides context for the mailboxes that enables Workplace Analytics to calculate metrics based on the relationship of the Org Data attributes
+- Enables the user to filter and group data in meaningful ways and generate custom metrics
+
+### How often should it be refreshed?
+To account for organization changes, it is recommended to refresh the data monthly
+When loading your data the first time, Workplace Analytics loads 13 months of data.  Ideally, you would load 13 dated rows of organizational data for each employee.
+
+#### Who should be included in the Org Data file?
+- HR Data:
+    - It is recommended HR data is collected for all employees in your company, even if they are not part of the measured population
+    - At a minimum, you must have data for all employees in your measured population
+- Line of Business Data:
+    - Scenario-Dependent: You should have line of business data for all employees of interest in the scenario you are analyzing
+> [!NOTE]
+>  You can include up to 65 data attributes in your Org data file
+
+>[!Important]
+>We recommend not including employee names as any additional attribute to ensure privacy
+
+
+
+### What are common pitfalls to avoid?
+- Too many or too few unique values
+- Redundant values
+- Attributes that only exist for a subset of your employees
+- Dirty data
+
+
 ### To prepare your organizational data for upload to Workplace Analytics
 * Follow the instructions in the topic [[Prepare and upload organizational data - link]].
 
