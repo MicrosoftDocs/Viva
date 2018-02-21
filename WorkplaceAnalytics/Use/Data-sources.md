@@ -39,7 +39,15 @@ The Data sources summary provides the following information about your data:
 
 * The date range of the Office 365 data. Use this range to verify if you have data for the period you want to analyze.
 
-* The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly. See Prepare and upload organizational data and Metric descriptions and glossary for more information about what data is needed to compute metrics.
+* The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly. 
+
+For more information about what data is needed to compute metrics, see these topics:
+
+[Prepare and upload organizational data](../use/Prepare-and-upload-organizational-data.md)
+
+[Metric definitions](../Use/Metric-definitions.md)
+
+[Glossary](../Use/Glossary.md)
 
 ## Office 365 data summary
 Office 365 data summary provides a view that you can use to evaluate meeting and email collaboration data levels over a given time period. It provides a view of average weekly meeting and mail hours, sent mails, and meetings attended over time. The Last refreshed date shows when data was most recently processed.
@@ -59,7 +67,7 @@ These are some examples of scenarios where you might encounter inconsistency in 
 Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute). The **Last refreshed** date shows when data was last processed.
 
 ### Values
-This is a list of the attributes supplied by your organization. When creating queries, you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
+This is a list of the attributes supplied by your organization. When you [create queries](../Use/Create-queries.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
 
 ### Measured employees
 This is the number of measured employees who had a value for the attribute.
