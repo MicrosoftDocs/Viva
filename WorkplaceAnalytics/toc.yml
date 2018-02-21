@@ -16,22 +16,28 @@
       items:
       - name: Checklist
         href: ~/Setup/Set-up-Workplace-Analytics.md
-      - name: Step One - Population Scope and Licence Assignment
-        href: ~/Setup/Step-One-Assign-Licences.md
-      - name: Step Two - Role Assignment
-        href: ~/Setup/Step-Two-Assign-Roles.md
-      - name: Step Three - Configure Settings
-        href: ~/Setup/Step-Three-Configure-Settings.md
-      - name: Step Four - Prepare and upload Organizational Data
-        href: ~/Setup/Step-Four-Upload-Organizational-Data.md
-      - name: Step Five - Configure Meeting Classifier
-        href: ~/Setup/Step-Five-Classify-Meetings.md
-      - name: Step Six - Begin to Analyze Data
-        href: ~/Setup/Step-Six-Begin-To-Analyze-Data.md
-    - name: Use and Analyze
+      - name: Step One - Determine key personas and roles for implementation
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-one-determine-key-personas-and-roles-for-implementation
+      - name: Step Two - Assign licenses to population in scope for analysis
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-two-assign-licenses-to-population-in-scope-for-analysis
+      - name: Step Three - Assign roles to WpA Admin and Analysts
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-three-assign-roles-to-wpa-admin-and-analysts
+      - name: Step Four - Configure Workplace Analytics Settings
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-four-configure-workplace-analytics-settings
+      - name: Step Five - Prepare and upload organizational data
+        href: https://review.docs.microsoft.com/en-us/workplaceanalytics/setup/set-up-workplace-analytics?branch=master#step-eight-set-up-meeting-exclusions
+      - name: Step Six - Configure Meeting Classifier
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-seven-validate-and-verify-data
+      - name: Step Seven - Configure Meeting Classifier
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-eight-set-up-meeting-exclusions
+    - name: Use
       items:
-      - name: Explore Metrics
-        href: ~/Use/Explore-Metrics.md
+      - name: Explore Metrics - Management and Coaching
+        href: ~/Use/Explore-Metrics-management-and-coaching.md
+      - name: Explore Metrics - Meetings overview.md
+        href: ~/Use/Explore-Metrics-meetings-overview.md
+      - name: Explore Metrics - Week-in-the-
+        href: ~/Use/Explore-Metrics-week-in-the-life.md
       - name: Chart Types
         href: ~/Use/Chart-Types.md
       - name: Create Queries
@@ -39,37 +45,25 @@
       - name: Data Sources
         href: ~/Use/Data-Sources.md
       - name: Workplace Analytics Settings
-        href: ~/Use/Administrative-Settings.md
+        href: ~/Use/Settings.md
       - name: User Roles
         href: ~/Use/User-Roles.md
-      - name: Meeting Classifier
-        href: ~/Use/Meeting-Classifier.md
+      - name: Create Custom Meeting Exclusion Rules
+        href: ~/Use/Create-custom-meeting-exclusions-rules.md
       - name: Metrics Definition
         href: ~/Use/Metrics-Definition.md
       - name: Metrics Glossary
-        href: ~/Use/Metrics-Glossary.md
-      - name: Solutions
-        href: ./conceptual/index.md
-        items:
-          - name: Solutions Overview
-            href: ~/Use/Solutions/Overview.md
-          - name: Identify
-            href: ~/Use/Solutions/Identify.md
-          - name: Manage
-            href: ~/Use/Solutions/Manage.md
-          - name: Track
-            href: ~/Use/Solutions/Track.md
-    - name: Adoption
-      items:
-        - name: Finding a Business Scenario
-          href: ./conceptual/index.md
-        - name: Communicating Analysis to population scope
-          href: ./conceptual/index.md
-        - name: Percentage and Average Calculation
-          href: ./conceptual/index.md
-        - name: FT Content would go here
-          href: ./conceptual/index.md
-
+        href: ~/Use/Glossary.md
+      - name: Group based Licence Assignment
+        href: ~/Use/Group-Based-Licencing.md
+      - name: Prepare and upload organizational data
+        href: ~/Use/Prepare-and-upload-organizational-data.md
+      - name: Timezones for Workplace analytics
+        href: ~/Use/Timezones-for-Workplace-analytics.md
+      - name: Percentage and average calculations
+        href: ~/Use/Percentage-and-average-calculations.md
+      - name: Understand meeting exclusions
+        href: ~/Use/Understand-meeting-exclusions.md
 - name: MyAnalytics
   expanded: true
   items:
@@ -91,7 +85,7 @@
         href: MyAnalytics/Use/add-in.md
       - name: Email Digests
         href: MyAnalytics/Use/email-digests.md
-    - name: Getting Started
+    - name: Setup
       items:
       - name: Step One - Review MyAnalytics privacy guide
         href: MyAnalytics/Overview/Privacy-Guide.md
