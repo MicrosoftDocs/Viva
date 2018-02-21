@@ -52,14 +52,17 @@ Trend line charts compare metric values over time. The default trend line is the
  * Click the text or menu above the chart.
 
 ## Distribuition Charts 
+Distribution charts compare the distribution of metric values within a group. Each box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected.
+
+Each individual value within a group represents the average value for a person (for example: the person with the highest average is represented by the maximum point on the box plot).
+
+### To view the distribution statistics for a group 
+* Hover over the box plots for that group.
+
+### To switch between the metrics (such as **Emails** or **Meetings**) 
+* Click the text above the chart.
 
 ## Chart Settings
 
+[[Lorem imp sum placeholder - UI change, awaiting new text]]
 
-
-
-
-
-Distribution charts compare the distribution of metric values within a group. Each box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected.Each individual value within a group represents the average value for a person (for example: the person with the highest average is represented by the maximum point on the box plot).To view the distribution statistics for a group Hover over the box plots for that group.To switch between the metrics (such as Emails or Meetings) Click the text above the chart.
-
-Use Chart Settings to change the time range of the data, change the attribute you want to see grouped in charts, and apply filters. When you change chart settings, your changes will apply to all the charts on all the tabs of Explore Metrics.For example: When you set chart settings to group by level, all charts in all sections will be grouped by level.To change the date range Click the Chart Settings menu.Click Avg for last, and then select the period you want from the drop-down menu, and then click Update charts.Notes: The date range window selected encompasses the most recent data loaded. The following logic is applied:A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.For a week which starts in one month and ends in the following month, the data is associated with the month in which the week begins.To change how you want the bar charts, box plots, and other visuals grouped on the page Click the Chart Settings menu.Click Group by, and then select the organizational attribute that you want from the drop-down menu, and then click Update charts.To add, edit, or delete filters Click the Chart Settings menu.Click Filters.On the Filters screen, add, edit, or delete the filters that you want.Click Confirm, and then click Update charts.
