@@ -22,9 +22,9 @@ Use this checklist to help assemble the people and obtain the data and configura
 
 | Task | Owners | Outcome |
 |------|--------|---------|
-|  [1 - Determine key personas and assign roles for set up](#Step-one-Determine-key-personas-and-assign-roles-for-set-up)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified      |
+|  [1 - Determine key personas and assign roles for implementation](#step-one-determine-key-personas-and-roles-for-implementation)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified      |
 | [2 - Determine the population to analyze](#Step-two-Determine-the-population-to-analyze)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator       |
-|   [3 - Assign users and population](#Step-three-Assign-users-and-population)   |    Office 365 global administrator   |     Administrator can use Workplace Analytics to set system defaults, privacy settings, upload and verify organizational data; data analysts can log into and use Workplace Analytics once data is provisioned    |
+|   [3 - Assign user roles to WpA Admin and Analysts](#Step-three-Assign-users-and-population)   |    Office 365 global administrator   |     Administrator can use Workplace Analytics to set system defaults, privacy settings, upload and verify organizational data; data analysts can log into and use Workplace Analytics once data is provisioned    |
 |  [4 - Configure privacy and time zone options](#Step-four-Configure-privacy-and-time-zone-options)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
 |  [5 - Prepare organizational data for upload](#Step-five-Prepare-organizational-data-for-upload)    |   placeholder     |      placeholder   |
 |  [6 - Upload your organizational data](#Step-six-Upload-your-organizational-data)    |    Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst    |    CSV file of organizational data is generated and uploaded to Workplace Analytics for final provisioning     |
@@ -34,7 +34,7 @@ Use this checklist to help assemble the people and obtain the data and configura
 
 [[When you have finished all the steps, you are ready to -- Link to Explore data]]
 
-## Step one: Determine key personas and assign roles for set up
+## Step one: Determine key personas and roles for implementation
 
  * **Owner** - Workplace Analytics sponsor (the initial point-person for the engagement)
  * **Task** - Identify people in the organization to fill key roles in setting up Workplace Analytics
@@ -51,7 +51,7 @@ Use these personas to help  identify the people you will need to help gather dat
 * Human resources (HR) information system administrator
 * Line of business (LOB) system administrators, or data analyst
 
-## Step two: Determine the population to analyze
+## Step two: Assign licenses to population in scope for analysis
 
 * **Owner** -	Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator
 * **Task** - Determine population in scope for analysis and assign licenses via Office 365
@@ -61,7 +61,7 @@ The Workplace Analytics sponsor will work with the Workplace Analytics administr
 
 Some organizations will analyze the entire population, while others will use sub-populations for specific analysis scenarios and sections of the organization.
 
-Once you have identified the population in scope, the Office 365 Global administrator will assign Workplace Analytics licenses to all cloud users in this population. Learn more about [[how to assign Office 365 licenses - link]].
+Once you have identified the population in scope, the Office 365 Global administrator will assign Workplace Analytics licenses to users in this population. Learn more about [[how to assign Office 365 licenses - link]].
 
 You can use Office 365 PowerShell to do a bulk assignment of Workplace Analytics licenses to users. Learn more about [[how to assign bulk licenses - link]].
 
