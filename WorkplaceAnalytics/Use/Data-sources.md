@@ -43,6 +43,8 @@ The Data sources summary provides the following information about your data:
 
 * The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly. 
 
+![Data sources summary](../images//WpA/Use/Data-sources-summary.png)
+
 For more information about what data is needed to compute metrics, see these topics:
 
 [Prepare and upload organizational data](../use/Prepare-and-upload-organizational-data.md)
@@ -56,6 +58,8 @@ Office 365 data summary provides a view that you can use to evaluate meeting and
 
 Analysts can use these views to look for time periods that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
+![Data sources summary](../images//WpA/Use/o365-data.png)
+
 These are some examples of scenarios where you might encounter inconsistency in email or meeting volume: 
 
 * **Major holidays**: It is typical to see drops in email and meeting activity around major holidays, which could potentially impact analysis. You can remove these weeks from your outputs if desired.
@@ -66,7 +70,11 @@ These are some examples of scenarios where you might encounter inconsistency in 
 
 ## Organizational data summary
 
-Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute). The **Last refreshed** date shows when data was last processed.
+Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute). 
+
+![Data sources summary](../images//WpA/Use/organizational-data-summary.png)
+
+The **Last refreshed** date shows when data was last processed.
 
 ### Values
 This is a list of the attributes supplied by your organization. When you [create queries](../Use/Create-queries.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
