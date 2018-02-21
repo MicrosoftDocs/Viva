@@ -1,4 +1,18 @@
-Prepare and upload organizational data.md
+---
+# Metadata Sample
+# required metadata
+
+title: Percentage and average calculations in Workplace Analytics
+description: This topic contains information and best practices to help ensure that analysts accurately calculate percentages and averages within Workplace Analytics. 
+author: v-leash
+ms.author: v-leash
+ms.date: 2/14/2018
+ms.topic: get-started-article
+ms.prod: wpa
+---
+
+# Prepare and upload organizational data
+This article describes what organizational data is, and gives the steps to help your prepare and upload your organizational data to Workplace Analytics.
 
 # About organizational data
 Organizational data is the information about employees that your company provides to use in Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
