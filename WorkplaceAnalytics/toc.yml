@@ -26,7 +26,7 @@
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-four-configure-workplace-analytics-settings
       - name: Step Five - Prepare and upload organizational data
         href: https://review.docs.microsoft.com/en-us/workplaceanalytics/setup/set-up-workplace-analytics?branch=master#step-eight-set-up-meeting-exclusions
-      - name: Step Six - Configure Meeting Classifier
+      - name: Step Six - Validate and verify data
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-seven-validate-and-verify-data
       - name: Step Seven - Configure Meeting Classifier
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-eight-set-up-meeting-exclusions
