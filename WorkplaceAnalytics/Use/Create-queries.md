@@ -16,6 +16,8 @@ You can create three types of queries in Workplace Analytics: **Person**, **Grou
 
 Each query type can help answer specific questions you may be investigating. The different query types give you flexibility to look at data from multiple perspectives to generate insights. You can also use the query types together to gain even more powerful insights.
 
+![Three types of queries](../images/placeholder Introduction.png)
+
 ### Three ways to create queries
 * Use and edit pre-defined query templates
 * Create custom queries from scratch
