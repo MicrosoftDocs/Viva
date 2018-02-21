@@ -25,18 +25,18 @@
       - name: Step Four - Configure Workplace Analytics Settings
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-four-configure-workplace-analytics-settings
       - name: Step Five - Prepare and upload organizational data
-        href: https://review.docs.microsoft.com/en-us/workplaceanalytics/setup/set-up-workplace-analytics?branch=master#step-eight-set-up-meeting-exclusions
+        href: ~/setup/set-up-workplace-analytics.md#step-six-validate-and-upload-organizational-data
       - name: Step Six - Validate and verify data
-        href: ~/Setup/Set-up-Workplace-Analytics.md#step-seven-validate-and-verify-data
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-six-validate-and-verify-data
       - name: Step Seven - Configure Meeting Classifier
-        href: ~/Setup/Set-up-Workplace-Analytics.md#step-eight-set-up-meeting-exclusions
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-seven-set-up-meeting-exclusions
     - name: Use
       items:
       - name: Explore Metrics - Management and Coaching
         href: ~/Use/Explore-Metrics-management-and-coaching.md
-      - name: Explore Metrics - Meetings overview.md
+      - name: Explore Metrics - Meetings overview
         href: ~/Use/Explore-Metrics-meetings-overview.md
-      - name: Explore Metrics - Week-in-the-
+      - name: Explore Metrics - Week in the life
         href: ~/Use/Explore-Metrics-week-in-the-life.md
       - name: Chart Types
         href: ~/Use/Chart-Types.md
