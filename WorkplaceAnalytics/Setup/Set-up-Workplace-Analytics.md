@@ -93,7 +93,17 @@ Inlcude a link to the document that FT currently uses]].
 
 ## Step four: Configure Workplace Analytics Settings
 
-### Privacy
+### Time zone
+* **Owner** - Workplace Analytics administrator
+* **Task** - Provide default time zone values the system will use in metric calculations if the data is not available for a measured employee or other internal collaborator
+* **Outcome** - Default time zone values are defined in Workplace Analytics
+
+The default time zone is used to compute after-hours metrics when a time zone is not provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone.
+
+The default time zone for Workplace Analytics is Pacific Standard Time. Visit Time zones in Workplace Analytics for a complete list of times zones you can use.
+
+
+### Privacy Settings
 * **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator
 * **Task** - Use company-specific legal and privacy guidelines to define settings to use in Workplace Analytics
 * **Outcome** - Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules
@@ -108,33 +118,26 @@ Workplace Analytics does not encode any specific policy, instead it provides con
 
 Once you have examined your privacy needs, you will use the Settings area in Workplace Analytics to define the privacy settings for your data.
 
+### Detail Display:
+- **Minimum Aggregation Size**: Set the minimum group size required to display data in Explore Metrics. By default, the minimum group size is set to five. 
+- Decide to show or hide subject lines in meeting reports
+
+### User Data Exclusion:
+- Exclude emails/meetings to, or from, specific users, or all users from a domain using “;” as the delimiter
+- Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter.   Terms can be any combination of letters, numbers and special characters, e.g. client attorney privilege; D&I
+
+> [!NOTE]
+> If you exclude email addresses, you should not assign licenses to them.  You also should consider all aliases for an individual.
+
+![Workplace Analytics Settings Screenshot](~/Images/Setup/Settings.png)
+
+
+[[LINK TO SETTINGS PAGE. - link]]
 [[explain privacy settings considerations and implications - -fast track docs and robert’s doc. - link]]
 
-### To configure your privacy settings
-1.	On the **Settings** page, click **Settings**.
-2.	Under **Privacy settings**, configure the settings to meet your company's needs.
-> [!NOTE]
-> You may click **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you click the **I confirm that all privacy settings are complete** checkbox. When you click the checkbox, it begins the processing of Office 365 data.
-3.	Click **Save**.
-> [!NOTE]
-> Carefully validate that your privacy settings are correct, before you click the **I confirm that all privacy settings are complete** checkbox, You can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
-4.	To begin the processing of Office 365 data, click the **I confirm that all privacy settings are complete checkbox**, and then click **Save**.
 
-### Time zone
-* **Owner** - Workplace Analytics administrator
-* **Task** - Provide default time zone values the system will use in metric calculations if the data is not available for a measured employee or other internal collaborator
-* **Outcome** - Default time zone values are defined in Workplace Analytics
 
-The default time zone is used to compute after-hours metrics when a time zone is not provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone.
 
-The default time zone for Workplace Analytics is Pacific Standard Time. Visit Time zones in Workplace Analytics for a complete list of times zones you can use.
-
-### To change the default time zone
-1.	On the **Settings** page, click **Settings**.
-2.	Under **System defaults**, select the time zone you want from the **Default time zone** menu.
-3.	Click **Save**.
-
-This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
 
 ### Related topic
 [[Settings in Workplace Analytics - link]]

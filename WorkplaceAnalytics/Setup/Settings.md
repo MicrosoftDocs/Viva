@@ -15,7 +15,23 @@ ms.prod: wpa
 On the Settings page, administrators can customize system defaults and privacy settings, and upload organizational data to Workplace Analytics. There are two tabs, **Settings** and **Organizational data**.
 
 # Settings
-In the **System defaults** section, you can customize the **Default time zone**. This is used to compute after hours metrics for employees who don’t have a time zone already populated.
+## Timezone
+In the **System defaults** section, you can customize the **Default time zone**. This is used to compute after hours metrics for employees who don’t have a time zone already populated. The default time zone is used to compute after-hours metrics when a time zone is not provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone.
+
+The default time zone for Workplace Analytics is Pacific Standard Time. Visit Time zones in Workplace Analytics for a complete list of times zones you can use.
+
+
+### To change the default time zone
+1.	On the **Settings** page, click **Settings**.
+2.	Under **System defaults**, select the time zone you want from the **Default time zone** menu.
+3.	Click **Save**.
+
+This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
+
+
+
+
+
 In the **Privacy settings** section, you customize and configure what data is accessible for analysis.
 
 > [!NOTE]
@@ -31,7 +47,18 @@ Learn more about [Workplace Analytics privacy and data access](../overview/priva
 
 When you are satisfied with your privacy settings, your data can be processed.
 
-### To begin processing your data in Workplace Analytics 
+
+### To configure your privacy settings
+1.	On the **Settings** page, click **Settings**.
+2.	Under **Privacy settings**, configure the settings to meet your company's needs.
+> [!NOTE]
+> You may click **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you click the **I confirm that all privacy settings are complete** checkbox. When you click the checkbox, it begins the processing of Office 365 data.
+3.	Click **Save**.
+> [!NOTE]
+> Carefully validate that your privacy settings are correct, before you click the **I confirm that all privacy settings are complete** checkbox, You can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
+4.	To begin the processing of Office 365 data, click the **I confirm that all privacy settings are complete checkbox**, and then click **Save**.
+
+### To begin processing your data in Workplace Analytics
 * Check the **I confirm all privacy settings are complete** checkbox, and then click **Save**.
 
 # Organizational data
