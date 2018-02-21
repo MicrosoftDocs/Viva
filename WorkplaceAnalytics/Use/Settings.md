@@ -29,9 +29,6 @@ The default time zone for Workplace Analytics is Pacific Standard Time. Visit Ti
 This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
 
 
-
-
-
 In the **Privacy settings** section, you customize and configure what data is accessible for analysis.
 
 > [!NOTE]
