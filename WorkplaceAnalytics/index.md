@@ -82,7 +82,7 @@ Through
 
 <ul class="panelContent cardsA cols cols4">
     <li>
-        <a href="/globalization/software-internationalization">
+
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -93,21 +93,19 @@ Through
                     </div>
                     <div class="cardText">
                         <h3>Workplace Analytics</h3>
-                        <p>With the growing software demands all over the world, it would be a good idea to plan supporting to design and implement the software to support various languages and data formats.</p>
+                        <p></p>
                         <ul>
-                            <li>Setup</li>
-                            <li>Privacy and Data Access</li>
-                            <li>How it Works</li>
-                            <li>Getting Support</li>
+<a href="~/setup/set-up-workplace-analytics.md">                          <li>Setup</li></a>
+<a href="~/overview/privacy-and-data-access.md">                                 <li>Privacy and Data Access</li></a>
+<a href="~/overview/Architecture.md">                                 <li>How it Works</li></a>
+<a href="~/use/getting-support.md">                                 <li>Getting Support</li></a>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/library/dd317708(vs.85).aspx">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -118,17 +116,17 @@ Through
                     </div>
                     <div class="cardText">
                         <h3>MyAnalytics</h3>
-                        <p>The National Language Support (NLS) functions permit applications to:</p>
+                        <p></p>
                         <ul>
-                            <li>Find out About the Dashboard</li>
-                            <li>Privacy Guide</li>
-                            <li>Outlook Add-in</li>
-                            <li>Getting Support</li>
+<a href="~/myanalytics/use/dashboard.md">                                 <li>Dashboard</li></a>
+<a href="~/myanalytics/use/add-in.md">                                <li>Outlook Add-in</li>
+<a href="~/myanalytics/use/email-digests.md">                                <li>Email Digests</li></a>
+<a href="~/myanalytics/overview/Privacy-Guide.md">                                <li>Privacy Guide</li></a>
+<a href="~/myanalytics/overview/Privacy-Guide.md">                                    <li>Getting Support</li></a>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        </a>
     </li>
 </ul>
