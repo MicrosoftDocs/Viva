@@ -82,7 +82,7 @@ Through
 
 <ul class="panelContent cardsA cols cols4">
     <li>
-        <a href="/globalization/software-internationalization">
+
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -95,7 +95,7 @@ Through
                         <h3>Workplace Analytics</h3>
                         <p>With the growing software demands all over the world, it would be a good idea to plan supporting to design and implement the software to support various languages and data formats.</p>
                         <ul>
-                            <li>Setup</li>
+<a href="~/use/set-up-work-place-analytics.md">                          <li>Setup</li><a>
                             <li>Privacy and Data Access</li>
                             <li>How it Works</li>
                             <li>Getting Support</li>
@@ -104,10 +104,8 @@ Through
                 </div>
             </div>
         </div>
-        </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/library/dd317708(vs.85).aspx">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -129,6 +127,5 @@ Through
                 </div>
             </div>
         </div>
-        </a>
     </li>
 </ul>
