@@ -23,12 +23,12 @@ Use this checklist to help assemble the people and obtain the data and configura
 | Task | Owners | Outcome |
 |------|--------|---------|
 |  [1 - Determine key personas and assign roles for implementation](#step-one-determine-key-personas-and-assign-roles-for-set-up)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified      |
-| [2 - Determine the population to analyze](#Step-two-Determine-the-population-to-analyze)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator       |
-|   [3 - Assign roles to WpA Admin and Analysts](#Step-three-Assign-users-and-population)   |    Office 365 global administrator   |     Administrator can use Workplace Analytics to set system defaults, privacy settings, upload and verify organizational data; data analysts can log into and use Workplace Analytics once data is provisioned    |
-|  [4 - Configure privacy and time zone options](#Step-four-Configure-privacy-and-time-zone-options)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
+| [2 - Assign licenses to population in scope for analysis](#step-two-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator       |
+|   [3 - Assign roles to WpA Admin and Analysts](#step-three-assign-roles-to-wpa-admin-and-analysts)   |    Office 365 global administrator   |     Administrator can use Workplace Analytics to set system defaults, privacy settings, upload and verify organizational data; data analysts can log into and use Workplace Analytics once data is provisioned    |
+|  [4 - Configure Workplace Analytics settings](#step-four-configure-workplace-analytics-settings)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
 |  [5 - Prepare organizational data for upload](#Step-five-Prepare-organizational-data-for-upload)    |   placeholder     |      placeholder   |
-|  [6 - Upload your organizational data](#Step-six-Upload-your-organizational-data)    |    Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst    |    CSV file of organizational data is generated and uploaded to Workplace Analytics for final provisioning     |
-|  [7 - Validate and verify data](#Step-seven-Validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
+|  [6 - Upload your organizational data](#step-six-upload-your-organizational-data)    |    Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst    |    CSV file of organizational data is generated and uploaded to Workplace Analytics for final provisioning     |
+|  [7 - Validate and verify data](#step-seven-validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
 |    [8 - Set up meeting exclusions](#Step-eight-Set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
 
 
@@ -165,7 +165,7 @@ The upload process will check that you have the correct headers in the file for 
 
 Once your upload has been submitted successfully, there is additional validation and processing of your data to complete provisioning. If any problems arise, the Workplace Analytics team will contact your Workplace Analytics administrator.
 
-## After provisioning
+### After provisioning
 Once data is completely provisioned, Workplace Analytics users will be able to access full product features.
 Office 365 meeting and email data is refreshed monthly. This is a good time for the Workplace Analytics administrator to also generate and upload updated organizational data.
 
