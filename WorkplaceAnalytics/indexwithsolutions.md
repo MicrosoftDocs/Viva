@@ -72,10 +72,13 @@ author: rodonahu
 
 ## Workplace Analytics Product Lines
 
-Workplace Analytics has Two Product Lines:
+Workplace Analytics has Three facets:
 
 
 - **Workplace Analytics**  provides a rich set of objective data to make better business decisions. Guided exploration dashboards highlight potential problem areas, while flexible queries answer targeted business questions about hiring strategies, new organizational structures, and business programs. Augment Office 365 data with business outcome information to establish best practices, predictive models, and benchmarks. Introduce change initiatives based on behavioral data and measure the success of programs over time. Specialized consulting services are available to help you quantify business challenges and implement change.
+
+
+- **Solutions** FIller text
 
 - **MyAnalytics** An organization’s productivity is defined  by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to  spend their time. MyAnalytics gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with.
 Through
