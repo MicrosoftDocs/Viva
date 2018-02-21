@@ -32,6 +32,10 @@
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-seven-set-up-meeting-exclusions
     - name: Use
       items:
+      - name: Metrics Definition
+        href: ~/Use/Metrics-Definition.md
+      - name: Metrics Glossary
+        href: ~/Use/Glossary.md
       - name: Explore Metrics - Management and Coaching
         href: ~/Use/Explore-Metrics-management-and-coaching.md
       - name: Explore Metrics - Meetings overview
@@ -42,28 +46,26 @@
         href: ~/Use/Chart-Types.md
       - name: Create Queries
         href: ~/Use/Create-Queries.md
-      - name: Data Sources
-        href: ~/Use/Data-Sources.md
-      - name: Workplace Analytics Settings
-        href: ~/Use/Settings.md
-      - name: User Roles
-        href: ~/Use/User-Roles.md
-      - name: Create Custom Meeting Exclusion Rules
-        href: ~/Use/Create-custom-meeting-exclusions-rules.md
-      - name: Metrics Definition
-        href: ~/Use/Metrics-Definition.md
-      - name: Metrics Glossary
-        href: ~/Use/Glossary.md
-      - name: Group based Licence Assignment
-        href: ~/Use/Group-Based-Licencing.md
-      - name: Prepare and upload organizational data
-        href: ~/Use/Prepare-and-upload-organizational-data.md
-      - name: Timezones for Workplace analytics
-        href: ~/Use/Timezones-for-Workplace-analytics.md
-      - name: Percentage and average calculations
-        href: ~/Use/Percentage-and-average-calculations.md
+      - name: Administration
+        items:
+          - name: Workplace Analytics Settings
+            href: ~/Use/Settings.md
+          - name: Prepare and upload organizational data
+            href: ~/Use/Prepare-and-upload-organizational-data.md
+          - name: Data Sources
+            href: ~/Use/Data-Sources.md
+          - name: User Roles
+            href: ~/Use/User-Roles.md
+          - name: Group based Licence Assignment
+            href: ~/Use/Group-Based-Licencing.md
+          - name: Timezones for Workplace analytics
+            href: ~/Use/Timezones-for-Workplace-analytics.md
       - name: Understand meeting exclusions
         href: ~/Use/Understand-meeting-exclusions.md
+      - name: Create Custom Meeting Exclusion Rules
+        href: ~/Use/Create-custom-meeting-exclusions-rules.md
+      - name: Percentage and average calculations
+        href: ~/Use/Percentage-and-average-calculations.md
 - name: MyAnalytics
   expanded: true
   items:
