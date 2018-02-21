@@ -25,7 +25,7 @@
       - name: Step Four - Configure Workplace Analytics Settings
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-four-configure-workplace-analytics-settings
       - name: Step Five - Prepare and upload organizational data
-        href: ~/setup/set-up-workplace-analytics.md#step-six-validate-and-upload-organizational-data
+        href: ~/setup/set-up-workplace-analytics.md#step-five-validate-and-upload-organizational-data
       - name: Step Six - Validate and verify data
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-six-validate-and-verify-data
       - name: Step Seven - Configure Meeting Classifier
@@ -94,12 +94,12 @@
     - name: Setup
       items:
       - name: Step One - Review MyAnalytics privacy guide
-        href: MyAnalytics/Overview/Privacy-Guide.md
+        href: MyAnalytics/Overview/Privacy-Guide.md#turning-data
       - name: Step Two - Configure user settings
         href: MyAnalytics/Setup/Configure_MyA_User_Settings.md
       - name: Step Three - Check access to Office Graph
         href: MyAnalytics/Setup/Check_Office_Graph.md
       - name: Step Four - Assign MyAnalytics license to users
         href: MyAnalytics/Setup/Assign_Licenses.md
-      - name: Step Five - Verify that Outlook add-in is installed
-        href: MyAnalytics/Overview/Privacy-Guide.md
+    #  - name: Step Five - Verify that Outlook add-in is installed
+      #  href: MyAnalytics/Overview/Privacy-Guide.md
