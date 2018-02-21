@@ -3,7 +3,7 @@
 # required metadata
 
 title: Privacy guide for Microsoft MyAnalytics
-description: Overview of MyA features, note about de-identification, info about private access of dashboard, minimum group size for reporting, admin choices and default settings, users in sensitive roles. 
+description: Overview of MyA features, note about de-identification, info about private access of dashboard, minimum group size for reporting, admin choices and default settings, users in sensitive roles.
 author: rodonahu
 ms.author: rodonahu, v-pascha
 ms.date: 1/19/2018
@@ -15,7 +15,7 @@ ms.prod: wpa
 
 MyAnalytics helps users better understand how they collaborate with colleagues and how they spend their time at work. It provides useful information that can help users prioritize and spend their time effectively. The goal of this guide is to provide a high level overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.
 
-## Turning data...
+## Turning data
 
 MyAnalytics provides insights using three types of data:
 1.	Email and calendar activity that is available in the user’s Office 365 mailbox, such as time spent in meetings, emails sent to a specific person, or statements that a user makes in emails.
@@ -30,7 +30,7 @@ MyAnalytics surfaces Mailbox Data in entirely new ways. For example, MyAnalytics
 
 Using Incremental Data, MyAnalytics provides organization-wide benchmarks so users can effectively compare their work habits with others across their organization. Incremental Data is also used by the MyAnalytics Outlook add-in, which provides statistics on the activity surrounding the user’s email. When using Incremental Data, MyAnalytics does not identify users by name in an effort to protect individual privacy.
 
-## ...Into insights
+## Into insights
 
 To understand how Mailbox Data serves as the basis for many MyAnalytics insights, consider the following scenarios. If a user wanted to discover who sent them the most email over the last week, they could manually count the total number of emails received from all of the different people they work with, and then rank them from the person who has sent the most to the person who has sent the least. Similarly, using simple math, a user could determine the average response time to their emails using timestamp information readily available in their mailbox. Furthermore, a user could review their emails to create a list of each person to whom the user has made a commitment. There are a wide variety of metrics and quick views that can be developed from a user’s own Mailbox Data:
 
@@ -44,7 +44,7 @@ To understand how Mailbox Data serves as the basis for many MyAnalytics insights
 For example, the image below shows a user’s MyAnalytics personal dashboard. It shows how much time the user spent on emails and meetings, the time they have to themselves (Focus hours) and time they spend outside of work (After hours).
 
 <img src="../../Images/your_time_this_week.png" width="100%" height="100%" alt="Your time this week">
- 
+
 All of the statistics below are computed based on information that is already available to the user from their mailbox, and is part of Mailbox Data.
 
 See MyAnalytics Dashboard for information about how these and other metrics are computed.
@@ -58,11 +58,11 @@ In addition to insights based on Mailbox Data, MyAnalytics surfaces statistics b
 For example, MyAnalytics lets the user view what the organizational averages are for time spent in meetings as part of their dashboard view. No one is identifiable from this view.
 
 <img src="../../Images/email_habits.png" width="35%" height="35%" alt="Email habits">
- 
+
 Another example of Incremental Data that MyAnalytics surfaces to a user are insights into what percentage of their emails are being read. The image below shows what percentage of emails are read when the recipient is directly addressed, and what percentage is read when the recipient is part of a group.
 
 <img src="../../Images/meeting_hours.png" width="35%" height="35%" alt="Meeting hours">
- 
+
 This information is not available to the user from their mailbox. Therefore, it is Incremental Data, but it is presented in a way that is intended to avoid identifying any individual or their activity.
 
 ## Privacy from the ground up
@@ -91,5 +91,4 @@ When enabling MyAnalytics for the organization, admins can make the following ch
       **Note:** Licensed users need to be in the opted-in state in order to contribute to Incremental Data and access their MyAnalytics experience. If a user opts out, they lose access to their MyAnalytics experience.
 
 3.	Which users in sensitive roles who should not ever contribute to Incremental Data.
-    * Some organizations may have users in roles that may be deemed unsuitable for contributing to Incremental Data. To support this, MyAnalytics provides admins the ability to mark such users as “excluded.” Excluded users will not be able to opt-in to contribute to Incremental Data. However, the MyAnalytics experience will still be available to such users provided they are licensed. 
-
+    * Some organizations may have users in roles that may be deemed unsuitable for contributing to Incremental Data. To support this, MyAnalytics provides admins the ability to mark such users as “excluded.” Excluded users will not be able to opt-in to contribute to Incremental Data. However, the MyAnalytics experience will still be available to such users provided they are licensed.

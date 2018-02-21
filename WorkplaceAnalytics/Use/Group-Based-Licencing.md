@@ -1,7 +1,7 @@
 How to manage licenses for products with prerequisites?
 Some Microsoft Online products that you acquire are "add-ons" - they require a prerequisite service plan to be enabled for a user, or a group, before they can be assigned. With group-based licensing, the system requires that both the prerequisite and add-on service plans be present on the group, to ensure that any users who are added to the group can received a valid service plan assignment. Let's consider the following example:
 
-[!Admin Center]{~/Images/WPA/use/aad_group1.png}
+![Admin Center](~/Images/WPA/use/aad_group1.png)
 
 Microsoft Workplace Analytics is an add-on product. It contains a single service plan with the same name and Id of WORKPLACE_ANALYTICS. This service plan can only be assigned to a user, or group, when one of the following prerequisites are also assigned:
 - Exchange Online (Plan 1) (Id: EXCHANGE_S_STANDARD) or,
@@ -9,7 +9,7 @@ Microsoft Workplace Analytics is an add-on product. It contains a single service
 
 If we try to assign this product on its own to a group, the portal will return an error - clicking on the error notification shows the following details:
 
-[!Admin Center]{~/Images/WPA/use/aad_group2.png}
+![Admin Center](~/Images/WPA/use/aad_group2.png)
 
 Clicking on the details shows the following error message:
 > _License operation failed. Make sure that the group has necessary services before adding or removing a dependent service. **The service Microsoft Workplace Analytics requires Exchange Online (Plan 2) to be enabled as well.**_

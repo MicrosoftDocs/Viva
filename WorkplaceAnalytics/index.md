@@ -98,7 +98,7 @@ Through
 <a href="~/setup/set-up-workplace-analytics.md">                          <li>Setup</li></a>
 <a href="~/overview/privacy-and-data-access.md">                                 <li>Privacy and Data Access</li></a>
 <a href="~/overview/Architecture.md">                                 <li>How it Works</li></a>
-<a href="~/use/getting-support.md">                                 <li>Getting Support</li></a>
+<a href="~/overview/getting-support.md">                                 <li>Getting Support</li></a>
                         </ul>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ Through
 <a href="~/myanalytics/use/add-in.md">                                <li>Outlook Add-in</li>
 <a href="~/myanalytics/use/email-digests.md">                                <li>Email Digests</li></a>
 <a href="~/myanalytics/overview/Privacy-Guide.md">                                <li>Privacy Guide</li></a>
-<a href="~/myanalytics/overview/Privacy-Guide.md">                                    <li>Getting Support</li></a>
+<a href="~/myanalytics/overview/Enviornment-Requirements.md">                                    <li>Environment Requirements</li></a>
                         </ul>
                     </div>
                 </div>
