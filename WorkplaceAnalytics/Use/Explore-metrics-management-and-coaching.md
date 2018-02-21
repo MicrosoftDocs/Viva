@@ -11,7 +11,10 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 # Management and Coaching
-**Management and coaching **provides a summary of collaboration between leaders, managers and employees. You can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached.
+**Management and coaching** provides a summary of collaboration between leaders, managers and employees. You can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached.
+
+![Management and coaching](../images/Introduction.png)
+
 # Time with manager
 The **Time with manager** histogram compares how much time employees spend in meetings with their manager on average each week.
 
