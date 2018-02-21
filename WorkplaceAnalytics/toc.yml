@@ -16,9 +16,9 @@
       items:
       - name: Checklist
         href: ~/Setup/Set-up-Workplace-Analytics.md
-      - name: Step One: Determine key personas and roles for implementation
+      - name: Step One - Determine key personas and roles for implementation
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-one-determine-key-personas-and-roles-for-implementation
-      - name: Step Two: Assign licenses to population in scope for analysis
+      - name: Step Two - Assign licenses to population in scope for analysis
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-two-assign-licenses-to-population-in-scope-for-analysis
       - name: Step Three - Assign roles to WpA Admin and Analysts
         href: ~/Setup/Set-up-Workplace-Analytics.md#step-three-assign-roles-to-wpa-admin-and-analysts
@@ -63,7 +63,7 @@
       - name: Percentage and average calculations
         href: ~/Use/Percentage-and-average-calculations.md
       - name: Understand meeting exclusions
-        href: ~/Use/Understand-meeting-exclusions.md          
+        href: ~/Use/Understand-meeting-exclusions.md
 - name: MyAnalytics
   expanded: true
   items:
