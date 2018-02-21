@@ -24,7 +24,7 @@ Use this checklist to help assemble the people and obtain the data and configura
 |------|--------|---------|
 |  [1 - Determine key personas and assign roles for implementation](#step-one-determine-key-personas-and-roles-for-implementation)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified      |
 | [2 - Determine the population to analyze](#Step-two-Determine-the-population-to-analyze)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator       |
-|   [3 - Assign user roles to WpA Admin and Analysts](#Step-three-Assign-users-and-population)   |    Office 365 global administrator   |     Administrator can use Workplace Analytics to set system defaults, privacy settings, upload and verify organizational data; data analysts can log into and use Workplace Analytics once data is provisioned    |
+|   [3 - Assign roles to WpA Admin and Analysts](#Step-three-Assign-users-and-population)   |    Office 365 global administrator   |     Administrator can use Workplace Analytics to set system defaults, privacy settings, upload and verify organizational data; data analysts can log into and use Workplace Analytics once data is provisioned    |
 |  [4 - Configure privacy and time zone options](#Step-four-Configure-privacy-and-time-zone-options)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
 |  [5 - Prepare organizational data for upload](#Step-five-Prepare-organizational-data-for-upload)    |   placeholder     |      placeholder   |
 |  [6 - Upload your organizational data](#Step-six-Upload-your-organizational-data)    |    Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst    |    CSV file of organizational data is generated and uploaded to Workplace Analytics for final provisioning     |
@@ -72,7 +72,7 @@ If your organization has not fully migrated to Office 365 Exchange Online, you m
 * Contact the FastTrack team to understand the process for analyzing these mailboxes (this requires additional work streams within your organization).
 
 
-## Step three: Assign users and population
+## Step three: Assign roles to WpA Admin and Analysts
 
 * **Owner** - Office 365 global administrator
 * **Task** - Assign users for administrators and data analysts to Workplace Analytics service
@@ -91,11 +91,11 @@ To allow administrators to set system defaults, privacy settings, upload and ver
 Inlcude a link to the document that FT currently uses]].
 
 
-## Step four: Configure privacy and time zone options
+## Step four: Configure Workplace Analytics Settings
 
 ### Privacy
 * **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator
-* **Task** - Use company-specific legal and privacy guidelines to define privacy settings to use
+* **Task** - Use company-specific legal and privacy guidelines to define settings to use in Workplace Analytics
 * **Outcome** - Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules
 
 
