@@ -50,18 +50,18 @@ author: rodonahu
         </a>
     </li>
     <li>
-        <a href="/globalization/downloads">
+        <a href="~/overview/videos.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_download-install.svg" alt="" />
+                            <img src="/media/common/i_video.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Text #3</h3>
-                        <p>This is where dummy text would go</p>
+                        <h3>Watch our Videos</h3>
+                        <p>Watch videos about Workplace Analytics</p>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ Through
 <a href="~/myanalytics/use/add-in.md">                                <li>Outlook Add-in</li>
 <a href="~/myanalytics/use/email-digests.md">                                <li>Email Digests</li></a>
 <a href="~/myanalytics/overview/Privacy-Guide.md">                                <li>Privacy Guide</li></a>
-<a href="~/myanalytics/overview/Enviornment-Requirements.md">                                    <li>Environment Requirements</li></a>
+<a href="~/myanalytics/overview/Environment-Requirements.md">                                    <li>Environment Requirements</li></a>
                         </ul>
                     </div>
                 </div>
