@@ -180,8 +180,6 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 >[!Important]
 >We recommend not including employee names as any additional attribute to ensure privacy
 
-
-
 ### What are common pitfalls to avoid?
 - Too many or too few unique values
 - Redundant values

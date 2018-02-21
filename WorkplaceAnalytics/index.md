@@ -12,18 +12,18 @@ author: rodonahu
 
 <ul class="panelContent cardsY">
     <li>
-        <a href="https://www.microsoft.com/Language">
+        <a href="http://insights.office.com">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_benefits.svg" alt="" />
+                            <img src="/media/common/i_progressive.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Title #1</h3>
-                        <p>This is where dummy text goes</p>
+                        <h3>Insights</h3>
+                        <p>See How Workplace Analytics is changing the business landscape through our thought leadership</p>
                     </div>
                 </div>
             </div>
@@ -31,18 +31,18 @@ author: rodonahu
         </a>
     </li>
     <li>
-        <a href="https://dev.windows.com/en-us/internationalization">
+        <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWaEMx">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_guide.svg" alt="" />
+                            <img src="/media/common/i_library.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Title #2</h3>
-                        <p>This is where text would go</p>
+                        <h3>Read our HBR Article</h3>
+                        <p>Three Behaviors That Drive Successful Sales People </p>
                     </div>
                 </div>
             </div>
@@ -94,25 +94,12 @@ Through
                     <div class="cardText">
                         <h3>Workplace Analytics</h3>
                         <p>With the growing software demands all over the world, it would be a good idea to plan supporting to design and implement the software to support various languages and data formats.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://msdn.microsoft.com/library/dd318661(vs.85).aspx">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img alt="Internationalization for Windows Applications" src="/media/common/i_advanced.svg">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Solutions</h3>
-                        <p>The development of world-ready applications requires the use of many services and tools. Windows contains features that enable you to develop solutions that will support the different language-specific and locale-specific needs of users around the world (including specialized text enablement, sorting behavior, date and time formatting, and keyboard layouts).</p>
+                        <ul>
+                            <li>Setup</li>
+                            <li>Privacy and Data Access</li>
+                            <li>How it Works</li>
+                            <li>Getting Support</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -133,9 +120,10 @@ Through
                         <h3>MyAnalytics</h3>
                         <p>The National Language Support (NLS) functions permit applications to:</p>
                         <ul>
-                            <li>Set the locale for the user</li>
-                            <li>Identify the language in which the user works</li>
-                            <li>Retrieve strings representing times, dates, and other information formatted correctly for the specified language and locale</li>
+                            <li>Find out About the Dashboard</li>
+                            <li>Privacy Guide</li>
+                            <li>Outlook Add-in</li>
+                            <li>Getting Support</li>
                         </ul>
                     </div>
                 </div>
