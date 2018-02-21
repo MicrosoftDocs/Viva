@@ -91,7 +91,9 @@
         href: MyAnalytics/Use/add-in.md
       - name: Email Digests
         href: MyAnalytics/Use/email-digests.md
-    - name: Setup
+      - name: Tips
+        href: MyAnalytics/Overview/Tips.md
+    - name: Administrator's Setup
       items:
       - name: Step One - Review MyAnalytics privacy guide
         href: MyAnalytics/Overview/Privacy-Guide.md#turning-data
