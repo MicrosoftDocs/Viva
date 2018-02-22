@@ -10,6 +10,7 @@ ms.date: 2/14/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
+[[CONTENT NOTE: This is a placeholder topic. Update with new process from FastTrack.]]
 
 This topic contains step-by-step examples detailing how to work with meeting exclusions.
 # How to create and run an “All meetings default” query using default meeting exclusions
