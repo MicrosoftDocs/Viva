@@ -66,8 +66,8 @@
             href: ~/Use/Create-custom-meeting-exclusions-rules.md
       - name: Metrics
         items:
-          - name: Metrics Definition
-            href: ~/Use/Metrics-Definitions.md
+          - name: Metric Definition
+            href: ~/Use/metric-definitions.md
           - name: Metrics Glossary
             href: ~/Use/Glossary.md
           - name: Percentage and average calculations
