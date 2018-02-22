@@ -12,7 +12,7 @@ ms.prod: wpa
 ---
 
 
-Time zones for Workplace Analytics
+# Time zones for Workplace Analytics
 
 The default time zone in Workplace Analytics is Pacific Standard. The following is a list of other time zones that can be used.
 

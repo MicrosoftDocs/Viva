@@ -10,7 +10,7 @@ ms.date: 1/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
-# Using PS to assign users to AAD App
+# Using Powershell to assign users to Azure Active Directory
 
 ## Installing AzureAD PowerShell module
 
