@@ -21,7 +21,7 @@ Would you like to know how many people read a specific email message that you se
 
 **Tip:** In Outlook, open a message that you've sent or received. Then, in the Message tab of the ribbon, click MyAnalytics to see information about this message and general insights into your use of time. 
 
-### Tips for meetings 
+## Tips for meetings 
 
 Fewer meetings, shorter meetings, more focused meetings. These are options you can choose to save time spent in meetings. 
 
