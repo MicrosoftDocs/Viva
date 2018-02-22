@@ -45,7 +45,7 @@ You might notice that some participants aren’t fully engaged during big status
 
 The term "business tourists" has been used for people in a corporation who “make a point of attending all the meetings they can, just so they feel they are in the loop.” Successful meetings require dynamic input and focus from all participants. Disengaged attendees can significantly detract from meeting effectiveness. When you organize a meeting, try to limit participation to a more focused group so that you can reduce distraction and ensure adequate contribution. 
 
-### Tips for email 
+## Tips for email 
 
 If you see that you spend too much time in email, try these alternatives: Pick up the phone, don't "reply all", or unsubscribe from email lists that aren't useful to you.   
 
@@ -65,7 +65,7 @@ Consider removing yourself from groups you don't really need to be part of. If y
 
 Consider introducing the following company discipline around Cc’d e-mails: When you respond to an email, move everyone you can to Bcc with a note that states, “moving Joe, Sally, and Eileen to Bcc to spare their inbox.” This gives these colleagues a chance to object if they want to stay on the thread, but it also gives them an easy out from emails that will just clutter their inbox and waste their time. This simple recognition of the value of people’s time also helps spread good behavior every time someone sees it. Pass it on. 
 
-### Tips for After hours 
+## Tips for After hours 
 Be a thoughtful coworker! 
 
 * For “inform”-type emails, condense the emails and status updates into daily or weekly digests. This reduces the overall noise and randomization caused by email overload. 
@@ -79,7 +79,7 @@ As a team, be respectful of people’s time. For example:
 * Try to limit meeting overruns. 
 * Consider starting a policy of no-meetings Wednesdays. 
 
-### Focus time 
+## Focus time 
 
 We define focus time as at least two consecutive hours of time without meetings. Focus time is meant to represent enough time so that you can focus on deliverables or complete other important tasks. 
 
