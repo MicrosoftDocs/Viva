@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
+title: Workplace Analytics Administrator Settings
 description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
 author: rodonahu
 ms.author: rodonahu
