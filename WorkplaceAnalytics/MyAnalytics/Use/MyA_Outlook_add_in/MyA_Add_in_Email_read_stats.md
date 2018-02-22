@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-# Email read statistics 
+## Email read statistics 
 
 MyAnalytics can tell you how many people have opened your emails and how long they spent reading them. It informs you about emails that you sent to five or more Office 365 users who are internal to your company. It displays this information in "cards," such as this one:
 

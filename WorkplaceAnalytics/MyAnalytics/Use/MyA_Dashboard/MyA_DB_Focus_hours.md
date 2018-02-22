@@ -13,7 +13,7 @@ ms.prod: mya
 
 # Focus hours
 
-## How we calculate Focus Hours
+## How we calculate focus hours
 
 Focus hours consist of at least two consecutive hours in your calendar without a meeting. Appointments or meetings that are scheduled with only yourself—which meet the two-hour minimum—are also counted as focus hours. We only count focus time during your set work hours.
 
