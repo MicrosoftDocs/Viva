@@ -1,4 +1,17 @@
-How to manage licenses for products with prerequisites?
+---
+# Metadata Sample
+# required metadata
+
+title: Group Based Licensing for Workplace Analytics
+description: This article introduces the timezone formats required for Workplace Analytics
+author: rodonahu
+ms.author: rodonahu
+ms.date: 1/19/2018
+ms.topic: get-started-article
+ms.prod: wpa
+---
+
+# How to manage licenses for products with prerequisites?
 Some Microsoft Online products that you acquire are "add-ons" - they require a prerequisite service plan to be enabled for a user, or a group, before they can be assigned. With group-based licensing, the system requires that both the prerequisite and add-on service plans be present on the group, to ensure that any users who are added to the group can received a valid service plan assignment. Let's consider the following example:
 
 ![Admin Center](~/Images/WPA/use/aad_group1.png)
