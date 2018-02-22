@@ -79,7 +79,7 @@ As a team, be respectful of people’s time. For example:
 * Try to limit meeting overruns. 
 * Consider starting a policy of no-meetings Wednesdays. 
 
-## Focus time 
+## Tips for focus time 
 
 We define focus time as at least two consecutive hours of time without meetings. Focus time is meant to represent enough time so that you can focus on deliverables or complete other important tasks. 
 
