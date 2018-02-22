@@ -57,9 +57,12 @@ When you are satisfied with your privacy settings, your data can be processed.
 
 > [!NOTE]
 > You may click **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you click the **I confirm that all privacy settings are complete** checkbox. When you click the checkbox, it begins the processing of Office 365 data.
+
 3.	Click **Save**.
+
 > [!NOTE]
 > Carefully validate that your privacy settings are correct, before you click the **I confirm that all privacy settings are complete** checkbox, You can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
+
 4.	To begin the processing of Office 365 data, click the **I confirm that all privacy settings are complete checkbox**, and then click **Save**.
 
 ### To begin processing your data in Workplace Analytics
