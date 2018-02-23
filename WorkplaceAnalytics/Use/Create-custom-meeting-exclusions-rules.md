@@ -10,10 +10,12 @@ ms.date: 2/14/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
+# Create custom meeting exclusions rules in Workplace Analytics
+
 [[CONTENT NOTE: This is a placeholder topic. Update with new process from FastTrack.]]
 
 This topic contains step-by-step examples detailing how to work with meeting exclusions.
-# How to create and run an “All meetings default” query using default meeting exclusions
+## How to create and run an “All meetings default” query using default meeting exclusions
 In this step, you will create a query that lists all meetings not excluded by the default exclusions.
 By default, Workplace Analytics excludes the following types of meetings from query results, as they are not likely to represent relevant workplace meetings:
 * Meetings with only one attendee
@@ -28,7 +30,7 @@ If you not yet created any meeting queries, review the Meeting queries section i
 3. Under **Metrics**, click **Add metric**, and then add all the available metrics (Attendees, Attendee multitasking and so on) to the query.
 4. Run the query.
 
-# How to create and run a “Meetings excluded default” query
+## How to create and run a “Meetings excluded default” query
 In order to evaluate the relevance of the default meeting exclusions for your company, you will need a list of those meetings that are excluded. To get that list, you will create and run a _Meetings excluded default_ query.
 
 ### To create a "Meeting excluded default" query

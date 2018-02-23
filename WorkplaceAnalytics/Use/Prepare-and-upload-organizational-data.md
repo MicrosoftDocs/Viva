@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Percentage and average calculations in Workplace Analytics
-description: This topic contains information and best practices to help ensure that analysts accurately calculate percentages and averages within Workplace Analytics. 
+title: Prepare and upload organizational data in Workplace Analytics
+description: This article describes how to prepare and upload organizational data from your organization into Workplace Analytics. 
 author: v-leash
 ms.author: v-leash
 ms.date: 2/14/2018
