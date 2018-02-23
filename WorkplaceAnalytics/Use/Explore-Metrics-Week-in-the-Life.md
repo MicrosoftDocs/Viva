@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+title: Explore the overview of popular metrics in Workplace Analytics
+description: This topic gives an overview the popular metrics in the week in the life dashboards in Workplace Analytics.
 author: rodonahu
 ms.author: rodonahu
 ms.date: 1/19/2018
@@ -15,7 +15,7 @@ ms.prod: wpa
 
 ![Week in the life](../images//WpA/Use/week-in-the-life-explore.png)
 
-# All collaboration hours
+## All collaboration hours
 All collaboration hours are the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s configured business hours. 
 
 **Meeting hours** is the number of hours the person spent in meetings with at least one other person. **Email hours** is the number of hours the person spent sending and reading email.
@@ -39,7 +39,7 @@ Workplace Analytics helps analysts identify high and low collaboration and its c
 * Teams or organizations that operate in silos and don’t collaborate across the company.
 * A company culture that does not promote collaborative behaviors and open working styles.
 
-# After-hours collaboration hours
+## After-hours collaboration hours
 After-hours meeting and email hours are the number of hours that a person spent in meetings and sending mails outside of business hours. (Workplace Analytics uses 9AM-5PM, Monday – Friday for business hours.)
 
 ![After-hours collaboration hours](../images//WpA/Use/after-hours-collaboration-hours-explore.png)
@@ -51,7 +51,7 @@ Different roles will require different schedules, but monitoring after-hours act
 * If consistent over time, overtime meeting and email hours can be an indicator of under-capacity in a group.
 * Requiring a consistently high number of after-hours work from employees due to collaboration with other time zones creates a work-life imbalance and may lower employee satisfaction and productivity.
 
-# Internal only and external collaboration hours
+## Internal only and external collaboration hours
 **Internal only collaboration hours** are the number hours a person spent in meetings and emails only with people inside of the organization.
 
 **External collaboration hours** are the number of hours a person spent in meetings and emails with at least one external person.
@@ -64,7 +64,7 @@ Who employees spend their time with is key to understanding if they are performi
 * External collaboration can be an indicator of external activity and relationships associated with various organizations in the company.
 * Too much time spent with either an internal or external customer, partner, or vendor may indicate a problematic relationship, particularly if it extends over a long period.
 
-# Focus hours and fragmented hours
+## Focus hours and fragmented hours
 **Focus hours** are two or more consecutive hours in a person’s calendar that don’t contain a meeting within the company’s set business hours. 
 
 **Fragmented hours** are non-scheduled business hours less than two hours in length.
@@ -78,7 +78,7 @@ Who employees spend their time with is key to understanding if they are performi
 * Performance can suffer as employees work longer hours to complete work, ultimately leading to potential for stress, burnout, and employee turnover.
 * Low focus hours can also lead to poor collaboration behaviors such as multitasking during meetings.
 
-# Workweek span
+## Workweek span
 Workweek span is the time between the person's first email or meeting and the last email or meeting in a day. (Counted Monday – Friday, with a minimum of 4 hours and a maximum of 16 hours per day.) If reported for the week, the metric is a sum for the week. If reported for the month, the metric is the weekly average.
 
 ![Workweek span](../images//WpA/Use/workweek-span-explore.png)

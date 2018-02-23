@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
-description: This checklist introduces you to the information and steps required to implement Workplace Analytics for your Organization
+title: Explore network and collaboration metrics in Workplace Analytics
+description: This topic gives an overview of the network and collaboration dashboards in Workplace Analytics.
 author: v-leash
 ms.author: v-leash
 ms.date: 2/15/2018
@@ -15,7 +15,7 @@ ms.prod: wpa
 
 ![Networks and collaboration](../images//WpA/Use/networks-and-collaboration-explore.png)
 
-# Employee connections and networks across the company
+## Employee connections and networks across the company
 The **Network diversity** bubble graph shows how each organization in the company compares to the company median for network size and breadth.
 
 ![Network diversity](../images//WpA/Use/network-diversity-explore.png)
@@ -24,7 +24,7 @@ The **Network diversity** bubble graph shows how each organization in the compan
 * Bubbles represent organizations, the size of each bubble indicates the number of distinct measured employees in the corresponding organization.
 * Placement on the chart is determined by the average network size and network breadth of people in each organization.
 
-# Internal network size
+## Internal network size
 **Internal network size** is the average number of people with whom a person has least two meaningful interactions (a meeting or email between five or fewer people). Network connections are measured on a rolling four-week basis.
 
 ![Internal network size](../images//WpA/Use/internal-network-size-explore.png)
@@ -38,7 +38,7 @@ Network size can indicate:
 * The success of onboarding programs for new employees.
 * The success and speed at which acquisitions are integrated into a company.
 
-# Internal network breadth
+## Internal network breadth
 Internal network breadth is the average number of organizations an employee connected with (based on meaningful interactions) during the period selected.
 
 ![Internal network breadth](../images//WpA/Use/internal-network-breadth.png)

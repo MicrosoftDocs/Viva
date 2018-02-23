@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Create queries in Workplace Analytics
-description: This topic explains how to create custom queries in Workplace Analytics. 
+title: Explore meetings overview metrics in Workplace Analytics
+description: This topic gives an overview of the meetings overview dashboards in Workplace Analytics.
 author: v-leash
 ms.author: v-leash
 ms.date: 2/14/2018
@@ -15,7 +15,7 @@ ms.prod: wpa
 
 ![Meetings overview](../images/WpA/Use/Meetings-overview-explore-metrics.png)
 
-# Low-quality meeting hours
+## Low-quality meeting hours
 The low-quality meeting hours overview summarizes the number of low-quality meeting hours for the organization and shows the percentage of meetings with any of the three components of low-quality meetings.
 
 **Low-quality meetings hours** are the number of hours a person spent in meetings where they are either redundant, scheduled to be in conflicting meetings, or multitasking. If a person meets any of these conditions during a meeting, the meeting is counted as low-quality.
@@ -27,7 +27,7 @@ Low-quality meeting hours are a good indicator of meeting culture and can help i
 * Email multitasking in a meeting means attendees are not contributing at their full potential, hearing only part of the communication and/or failing to contribute their know-how to the task at hand.
 * Redundancy is an indication of underlying lack of role clarity, poor delegation, and/or a risk averse culture. Lower level employees attending a high proportion of redundant meetings could potentially feel less empowered . Senior levels may be better off by appropriately delegating meeting attendance. As a sign of career development, redundancy should diminish with tenure.
 
-# Meetings hours by number of attendees
+## Meetings hours by number of attendees
 Each duration segment in the chart reflects time a person spent in meetings of that size.
 
 ![Meeting numbers by number of attendees](../images/WpA/Use/meeting-hours-by-attendees-explore-metrics.png)
@@ -37,7 +37,7 @@ Large meetings aren’t always bad, but having more attendees can make it more d
 * Large meetings leave all but a small minority of actively participating attendees disengaged. An overly collaborative and inclusive culture, which may stem from associating meeting attendance with employee importance, or be the outcome of a consensus-driven culture, may lead to a ‘safe’ invite-all (and accept-all) attitude, creating overly large meetings.
 * A high percentage of meeting hours with a large number of people can suggest poor meeting accountability and a lack of empowerment. Applying what is known as the 8-18-1800 rule can help ensure the meeting size matches the goal. Decision-making: up to 8 attendees, Brainstorming/Updates: up to 18 attendees, Informational: 1800 or more
 
-# Meetings hours by duration
+## Meetings hours by duration
 Each duration segment in the chart reflects the total time a person spent in meetings of that length.
 
 ![Meetings hours by duration](../images//WpA/Use/meeting-hours-by-duration-explore-data.png
@@ -48,7 +48,7 @@ Like large meetings, long meeting aren’t necessarily bad, but consistently hav
 * Meetings that regularly run over one hour can make it difficult to retain the focus of attendees, unless they are well designed small brain-storming/problem solving sessions.
 * A high percentage of meetings greater than an hour in duration suggests poor meeting planning and potential for disengagement.
 
-# Redundant meeting hours
+## Redundant meeting hours
 **Redundant meeting hours** is the time a person spent in meetings where at least three distinct levels in the person's organization attended.
 
 ![Redundant meeting hours](../images/WpA/Use/redundant-meeting-hours-explore.png)
@@ -60,7 +60,7 @@ Redundant meetings are an opportunity to downsize meetings by removing non-criti
 * Senior-level managers may be better off by appropriately delegating meeting attendance.
 * As a sign of career development, redundancy should diminish with tenure.
 
-# Multitasking meeting hours
+## Multitasking meeting hours
 **Multitasking meeting hours** is the number of meeting hours where the person sent two or more emails per meeting hour, or two or more emails per meeting for meetings less than an hour.
 
 ![Multitasking meeting hours](../images/WpA/Use/multitasking-meeting-hours-explore.png)
@@ -71,7 +71,7 @@ Multitasking indicates that employees may be overloaded and are using meeting ti
 * Managers who multi-task send a clear signal that the meeting is not important, leading others to follow.
 * Multi-tasking can become a cultural norm in organizations exhibiting collaboration overload. Insight can come from investigating norms of managers with high multitasking rates.
 
-# Conflicting meeting hours
+## Conflicting meeting hours
 **Conflicting meeting hours** is the number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meetings).
 
 ![Conflicting meeting hours](../images/WpA/Use/conflicting-meeting-hours-explore.png)
