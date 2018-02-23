@@ -50,7 +50,7 @@ Scroll down the dashboard page and you see sections that give you more detail ab
 
 [!INCLUDE [Network](MyA_Dashboard/MyA_DB_Network.md)]
 
-## Dashboard options
+### Dashboard options
 
 [!INCLUDE [Sharing](MyA_Dashboard/MyA_DB_Sharing.md)]
 
