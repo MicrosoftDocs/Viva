@@ -27,7 +27,6 @@ You can use Meeting exclusions to exclude meetings that fall outside relevant no
 
 [Create custom meeting exclusions rule](../Use/Create-custom-meeting-exclusions-rules.md)
 
-
 ## Business scenario
 An analyst may start by looking at a [**Person query**](#2-person-query)  to see trends of employees across the company related to meeting collaboration. 
 
@@ -47,7 +46,7 @@ When you create or edit a query, you will select the metrics that you want to in
 
 The following examples contain the steps to create custom **Person**, **Meeting**, and **Group** queries, as well as the steps to select and edit a query template.
 
-# Person query
+## Person query
 Use a Person query when you want to find broader trends in the organization by looking at aggregated metrics for a group of people.
 
 Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person, and you can choose to aggregate the results by day, week, or month.
@@ -113,7 +112,7 @@ A|3/1/2017|HR|Administrator|5|11
 B|3/1/2017|Marketing|Executive|4|14
 
 
-# Meeting query
+## Meeting query
 Meeting query results show a list of all the meetings that meet the criteria you select when creating the query. Each row of data represents a single meeting. Use a Meeting query when you want to analyze individual meetings to find the broader meeting patterns within your company or organization.
 
 ### How to create a Meeting query
@@ -169,7 +168,7 @@ Each row of data represents a single meeting, and Meeting query results always c
 2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
 
 
-# Groups query
+## Groups query
 Group query results show the collaboration between two groups quantified by the productivity metrics (such as time spent in meetings and email) that you select. Each row shows the metrics that quantify the interactions of the two groups. You can aggregate group query results by day, week, or month.
 Use a group query if you want to analyze how different groups are collaborating.
 There are two types of metrics:

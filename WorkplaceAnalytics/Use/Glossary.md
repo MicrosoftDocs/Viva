@@ -15,7 +15,6 @@ ms.prod: wpa
 
 The glossary defines concepts and other terms (excluding [metric definitions](../use/Metric-definitions.md)) used for working with Workplace Analytics.
 
-# Glossary for Workplace Analytics
 |Term|Definition|
 |----|----------|
 |Adjusted meeting hours|An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours.<br>For example: A person with non-declined meeting requests from 2:00 -3:00 PM and 2:30 - 3:30 PM would yield 1.5 adjusted meeting hour.|

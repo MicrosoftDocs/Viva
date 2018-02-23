@@ -12,13 +12,15 @@ ms.prod: mya
 ---
 
 # Architecture / How it Works
+[[PLACEHOLDER CONTENT - UPDATE TOPIC]]
+
 <CENTER>
 ![Architecture Diagram](~/Images/WpA/Overview/Architecture.png) </CENTER>
 Workplace Analytics leverages Office 365 collaboration data to deliver powerful new insights for enterprise productivity. It provides a way for companies to understand the communication behaviors and collaboration patterns across their organization and how they influence productivity and corporate performance.
 
 Workplace Analytics analyzes Office 365 [Email and Calendar header level metadata](Privacy-And-Data-Access.md) and combines it with organizational data from line of business applications.  By combining these datasets, analysts are able to provide a [Variety of organizational insights](http://insights.office.com). Workplace Analytics provides a workbench to run custom analysis and pre developed aggregated dashboards.  All data is owned by the customer and stored within the O365 Compliance Boundary pursuant to the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
 
-##Core Considerations
+## Core Considerations
 By design, Workplace Analytics provide organizations with choice:
 *	Our Customers Decide the Scope of mailboxes to analyze.
 * Our Customers Decide who within their organization has access to de-identified datasets and aggregated visual dashboards
@@ -43,7 +45,8 @@ Header information from emails|PersonId,Organization,ManagerId, Layer,Timezone,L
 Header information from Meetings|At a minimum, the above data fields are required for the population scope that you are analyzing.
 
 Most organizations provide this data for the entire company to understand how the mailboxes being analyzed collaborate across the entire organization. Others, due to privacy concerns decide to exclude specific populations from the org data provided. See our  Organizational Data Documentation for details on how this could impact analysis.
-# I DO NOT LIKE THIS FORMATTING NEED TO CHANGE ABOVE 
+
+[[CONTENT NOTE - I DO NOT LIKE THIS FORMATTING NEED TO CHANGE ABOVE]]
 
 
 ## Data outputs

@@ -23,7 +23,7 @@ The following meeting types are also excluded from Meeting hours:
 * All-day meetings. 
 * Meetings that are marked as Private. 
 
-# Meeting habits  
+## Meeting habits  
 
 ## How we categorize meetings
 

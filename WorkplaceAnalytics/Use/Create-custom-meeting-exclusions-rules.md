@@ -52,7 +52,7 @@ In order to evaluate the relevance of the default meeting exclusions for your co
 7. To run the query, click **Run**.
 8. On the **Queries** page, on the **Results** tab, hover over the line for your report, and once the status is Succeeded, click **View** or **Download**.
 
-# How to create custom meeting exclusions
+## How to create custom meeting exclusions
 After a review of the all meetings and default excluded meetings, you may decide to create custom meeting exclusion rules to more closely reflect your company’s meeting norms and culture.
 ### To create custom meeting exclusions rules (generic)
 1. On the **Queries** page, click the** Meeting exclusion**s tab.
@@ -63,7 +63,7 @@ After a review of the all meetings and default excluded meetings, you may decide
 6. Optional: To save the new exclusion rules as the default, in the meeting exclusions list, hover on the line with the new rules, and then click **Set as preferred**.
 7. To use the new exclusion rules, on a query page, before you run your query, in the **Meeting exclusions** menu, select your custom exclusions from the list.
 
-# Business scenario - Include large meetings, exclude keywords
+## Business scenario - Include large meetings, exclude keywords
 Company A has a flat organization, and 260-person meetings are the norm, but those meetings were excluded by the default meeting exclusions. Additionally, there is a culture of creating meetings with no other attendees to make time for focused work and prevent others from over-booking their calendar. After reviewing the meeting query results, the analyst noticed a theme that “No meeting block time” and “PTO time” were common subject lines of non-relevant meetings.
 
 In this scenario, the analyst has decided to create custom meeting exclusion rules for her company with the following criteria:

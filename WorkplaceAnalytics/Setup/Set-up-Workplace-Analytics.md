@@ -18,7 +18,7 @@ Use this checklist to help assemble the people and obtain the data and configura
 > [!TIP]
 > This checklist outlines recommended steps and a high-level list of items to consider and is not intended to be exhaustive. You may want to copy this checklist into a spreadsheet and then customize it for your organization.
 
-# Checklist
+## Checklist
 
 | Task | Owners | Outcome |
 |------|--------|---------|
