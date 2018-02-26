@@ -20,12 +20,12 @@ ms.prod: mya
 <p></p>
 
 <img src="../../Images/Share_dashboard.png" width="50%" height="50%" alt="Share link">
+
+<p></p>
     
 The dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
 
-<li>Click a section to select (or deselect) it for sharing.</li>
-
-Two indicators show which sections are selected for sharing: 
+<li>Click a section to select (or deselect) it for sharing. Two indicators show which sections are selected for sharing:</li> 
 
 <ul>
 <li>The box at the top of the section is selected.</li>
@@ -37,6 +37,8 @@ In the following illustration, the Meeting hours section is selected, while Meet
 <br/>
 
 <img src="../../Images/Selected_for_sharing.png" width="70%" height="70%" alt="Items selected for sharing">
+
+<br/>
 
 To select (or deselect) all sections at once, check or clear the Select All checkbox at the top of the dashboard. 
 
