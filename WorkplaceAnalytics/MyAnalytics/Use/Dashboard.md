@@ -21,7 +21,7 @@ Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide
 
 The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools:
 
-## Your time section
+### Your time section
 
 Near the top of the MyAnalytics dashboard is the “Your time” area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your goals.
 
