@@ -28,11 +28,11 @@ Whether to celebrate achieving a goal, show progress to your manager, or ask for
 
 Two indicators show which sections are selected for sharing: 
 
-    * The box at the top of the section is selected.
-    * The outline of the section is blue, not gray.  
+* The box at the top of the section is selected.
+* The outline of the section is blue, not gray.  
 
     In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
- 
+
     <img src="../../../Images/Selected_for_sharing.png" width="70%" height="70%" alt="Items selected for sharing">
 
     To select (or deselect) all sections at once, check or clear the Select All checkbox at the top of the dashboard. 
