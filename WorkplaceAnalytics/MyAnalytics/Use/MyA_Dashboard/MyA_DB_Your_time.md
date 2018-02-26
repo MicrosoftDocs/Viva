@@ -22,7 +22,7 @@ This report shows summaries of the four main ways that MyAnalytics categorizes y
 
 For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals. 
 
-[!INCLUDE [Share your statistics](../../Includes/to_change_your_weekly_goals.md)]
+[!INCLUDE [Change your weekly goals](../../Includes/to_change_your_weekly_goals.md)]
 
 See [MyAnalytics Tips](../../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
 
