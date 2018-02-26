@@ -17,7 +17,7 @@ ms.prod: mya
 <li>Open the MyAnalytics dashboard.</li>
 <li>Click **Share**.</li> 
 
-    <img src="../../../Images/Share_dashboard.png" width="50%" height="50%" alt="Share link">
+    <img src="../../Images/Share_dashboard.png" width="50%" height="50%" alt="Share link">
 
     
     The Dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
@@ -32,7 +32,7 @@ Two indicators show which sections are selected for sharing:
     
     In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
 
-    <img src="../../../Images/Selected_for_sharing.png" width="70%" height="70%" alt="Items selected for sharing">
+    <img src="../../Images/Selected_for_sharing.png" width="70%" height="70%" alt="Items selected for sharing">
 
     
     To select (or deselect) all sections at once, check or clear the Select All checkbox at the top of the dashboard. 
