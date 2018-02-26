@@ -17,9 +17,9 @@ Use these tips to learn how to spend your time better and focus on what's import
 
 ## Use MyAnalytics in Outlook 
 
-Would you like to know how many people read a specific email message that you sent? Check out the MyAnalytics Outlook add-in to see how many people have read, replied to, or forwarded your email. 
+Would you like to know how many people read a specific email message that you sent? Check out the MyAnalytics Outlook add-in to see how many people have read, replied to, or forwarded your email.
 
-**Tip:** In Outlook, open a message that you've sent or received. Then, in the Message tab of the ribbon, click MyAnalytics to see information about this message and general insights into your use of time. 
+[!INCLUDE [See email info and insights](../Includes/to_see_email_info_and_insights.md)]
 
 ## Tips for meetings 
 
