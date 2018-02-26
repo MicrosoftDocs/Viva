@@ -3,7 +3,7 @@
 # required metadata
 
 title: Sharing
-description: How to share your stats with others. 
+description: How to share your stats with others
 author: v-pascha
 ms.author: v-pascha
 ms.date: 2/14/2018
@@ -15,34 +15,23 @@ ms.prod: mya
 
 Whether to celebrate achieving a goal, show progress to your manager, or ask for help, you can share selected statistics from your dashboard with people in your organization. By sharing statistics, you create more opportunities to receive support in the areas that matter most to you. So, share your statistics and get the conversation started. 
 
-**To share statistics**
+1x dot dot
+[!INCLUDE [Share your statistics](../Includes/to_share_statistics.md)]
 
-<ol start="1">
-<li>Open the MyAnalytics dashboard.</li>
-<li>Click **Share**.</li> 
+1x dot dot & Mya
+[!INCLUDE [Share your statistics](../MyAnalytics/Includes/to_share_statistics.md)]
 
-    <img src="../../../Images/Share_dashboard.png" width="50%" height="50%" alt="Share link">
+2x dot dot
+[!INCLUDE [Share your statistics](../../Includes/to_share_statistics.md)]
 
-    The Dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
+2x dot dot & Mya
+[!INCLUDE [Share your statistics](../../MyAnalytics/Includes/to_share_statistics.md)]
 
-<li>Click a section to select (or deselect) it for sharing.</li>
+3x dot dot
+[!INCLUDE [Share your statistics](../../../Includes/to_share_statistics.md)]
 
-Two indicators show which sections are selected for sharing: 
-
-* The box at the top of the section is selected.
-* The outline of the section is blue, not gray.  
-
-    In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
-
-    <img src="../../../Images/Selected_for_sharing.png" width="70%" height="70%" alt="Items selected for sharing">
-
-    To select (or deselect) all sections at once, check or clear the Select All checkbox at the top of the dashboard. 
-
-    You can choose not to share one or more statistics by deselecting the cards of a section. 
-
-<li>After you've chosen all the statistics that you want to share, click Confirm at the top of your dashboard. This displays a dialog box in which you can choose recipients, type a subject line, and compose a note to your recipients. All three fields (recipients, subject line, and message) are required.</li>
-<li>When you're ready to send the message and share your statistics, click **Share**. A dialog box confirms that “Your statistics are on the way.”</li>
-</ol>  
+3x dot dot & Mya
+[!INCLUDE [Share your statistics](../../../MyAnalytics/Includes/to_share_statistics.md)]
 
 ### Where do I find the statistics that I’ve shared? 
 
