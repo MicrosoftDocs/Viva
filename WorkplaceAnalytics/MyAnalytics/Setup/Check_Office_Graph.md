@@ -3,7 +3,7 @@
 # required metadata
 
 title: Check that access to the Office Graph is enabled
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+description: Check that Office Graph (required to show MyAnalytics statistics in Delve) is enabled.
 author: v-pascha
 ms.author: v-pascha
 ms.date: 2/15/2018
