@@ -18,18 +18,18 @@ ms.prod: mya
 <li>Click **Share**.</li> 
 
     <img src="../../Images/Share_dashboard.png" width="50%" height="50%" alt="Share link">
-
     
-    The Dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
+<br>The Dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
 
 <li>Click a section to select (or deselect) it for sharing.</li>
 
 Two indicators show which sections are selected for sharing: 
 
-    * The box at the top of the section is selected.
-    * The outline of the section is blue, not gray.  
+<ul>
+<li>The box at the top of the section is selected.</li>
+<li>The outline of the section is blue, not gray.</li>
+</ul> 
 
-    
     In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
 
     <img src="../../Images/Selected_for_sharing.png" width="70%" height="70%" alt="Items selected for sharing">
