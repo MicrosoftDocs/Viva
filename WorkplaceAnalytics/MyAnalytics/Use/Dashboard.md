@@ -17,7 +17,7 @@ MyAnalytics helps you understand how you collaborate with colleagues and spend y
 
 Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.
 
-### Dashboard elements overview
+## Dashboard elements overview
 
 The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools:
 
