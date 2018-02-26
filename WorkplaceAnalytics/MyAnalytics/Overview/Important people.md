@@ -19,7 +19,7 @@ When you open the MyAnalytics Outlook Add-in for the first time, MyAnalytics sug
 
 <img src="../../Images/Important_people_Add-in_pane.png" width="50%" height="50%" alt="Add to your Important people list">
 
-[!INCLUDE [View your Important people list](../Includes/to_check_your_outlook_settings.md)]
+[!INCLUDE [View your Important people list](../Includes/to_view_important_people.md)]
 
 [!INCLUDE [Add a person to your Important people list](../Includes/to_add_person_to_important_people.md)]
 
