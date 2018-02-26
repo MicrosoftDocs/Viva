@@ -20,5 +20,3 @@ MyAnalytics can tell you how many people have opened your emails and how long th
 After you send an email message, it takes up to fifteen minutes before MyAnalytics can inform you about it. MyAnalytics groups similar information into a single summary card that you can select and expand to see a more detailed view.
 
 [!INCLUDE [See info about a specific email message](../../Includes/to_see_info_about_email_message.md)]
-
-

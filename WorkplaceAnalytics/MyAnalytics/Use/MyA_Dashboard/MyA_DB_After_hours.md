@@ -20,4 +20,4 @@ After-hours time consists of any accepted meeting time or email activity that yo
 
 **Note:** After hours is an estimate only and is not meant to reflect actual hours worked. You can compare how we calculate the times for [Meetings](MyA_DB_Meetings.md) and for [Email](MyA_DB_Emails.md). 
 
-See [After hours tips](../../Overview/Tips.md#tips-for-after-hours) for suggestions related to work-life balance.
+See [Tips for after hours](../../Overview/Tips.md#tips-for-after-hours) for suggestions related to work-life balance.
