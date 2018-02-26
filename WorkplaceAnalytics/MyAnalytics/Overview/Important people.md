@@ -19,24 +19,9 @@ When you open the MyAnalytics Outlook Add-in for the first time, MyAnalytics sug
 
 <img src="../../Images/Important_people_Add-in_pane.png" width="50%" height="50%" alt="Add to your Important people list">
 
-**To view your Important people list**
+[!INCLUDE [View your Important people list](../Includes/to_check_your_outlook_settings.md)]
 
-1. In Microsoft Delve, open your MyAnalytics dashboard.  
-2. Under Network, in the Your time investments area, click **Important**. The Your time investments area shows the people in your Important people list.  
+[!INCLUDE [Add a person to your Important people list](../Includes/to_add_person_to_important_people.md)]
 
-**To add a person to your Important people list**
-
-1. In Microsoft Delve, open your MyAnalytics dashboard.  
-2. Under Network, in the Your time investments area, click **All**.  
-3. Switch to map view.  
-4. In the map, click the picture of the person you want to add to the list. This person’s card appears to the right of the map. 
-5. In the person’s card, click **Add to important**. In the map, a star appears by the person’s picture. This indicates that the person has been added to the list.  
-
-**To remove a person from your Important people list**
-1. In Microsoft Delve, open your MyAnalytics dashboard.  
-2. Under Network, in the Your time investments area, click **All**.  
-3. Switch to map view.  
-4. In the map, click the picture of the person you want to remove from the list. This person’s card appears to the right of the map. 
-5. In the person’s card, click **Remove from important**. In the map, the star is removed from the person’s picture. This indicates that the person is no longer on the list.  
-
+[!INCLUDE [Remove a person from your Important people list](../Includes/to_remove_person_from_important_people.md)]
   
