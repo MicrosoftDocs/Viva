@@ -61,7 +61,7 @@ For example, MyAnalytics lets the user view what the organizational averages are
 
 Another example of Incremental Data that MyAnalytics surfaces to a user are insights into what percentage of their emails are being read. The image below shows what percentage of emails are read when the recipient is directly addressed, and what percentage is read when the recipient is part of a group.
 
-<img src="../../Images/meeting_hours.png" width="35%" height="35%" alt="Meeting hours">
+<img src="../../Images/meeting_hours.png" width="30%" height="30%" alt="Meeting hours">
 
 This information is not available to the user from their mailbox. Therefore, it is Incremental Data, but it is presented in a way that is intended to avoid identifying any individual or their activity.
 
