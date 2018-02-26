@@ -3,13 +3,15 @@
 # required metadata
 
 title: Get started with Workplace Analytics
-description: This topic provides and overview of the primary features in Workplace Analytics. 
+description: This topic gives a high-level overview of the primary features in Workplace Analytics. 
 author: v-leash
 ms.author: v-leash
 ms.date: 2/14/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
+# Get started with Workplace Analytics
+
 Microsoft Workplace Analytics is a cloud-based service that provides rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
 
 Combining the organizational data that your company chooses to provide with email and calendar metadata from Office 365, Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.

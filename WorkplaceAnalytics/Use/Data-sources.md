@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics Data Sources
-description: placeholder text -- placceholder text This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+description: This article gives an overview of the Data sources feature in Workplace Analytics. 
 author: rodonahu
 ms.author: rodonahu
 ms.date: 1/19/2018

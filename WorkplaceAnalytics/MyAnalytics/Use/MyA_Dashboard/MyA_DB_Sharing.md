@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-## Sharing your statistics 
+# Sharing your statistics 
 
 Whether to celebrate achieving a goal, show progress to your manager, or ask for help, you can share selected statistics from your dashboard with people in your organization. By sharing statistics, you create more opportunities to receive support in the areas that matter most to you. So, share your statistics and get the conversation started. 
 
@@ -20,7 +20,7 @@ Whether to celebrate achieving a goal, show progress to your manager, or ask for
 1. Open the MyAnalytics dashboard. 
 2. Click **Share**. 
 
-    <img src="../../../Images/Share_dashboard.png" width="65%" height="65%" alt="Share link">
+    <img src="../../../Images/Share_dashboard.png" width="50%" height="50%" alt="Share link">
 
     The Dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
 
@@ -28,12 +28,12 @@ Whether to celebrate achieving a goal, show progress to your manager, or ask for
 
 Two indicators show which sections are selected for sharing: 
 
-* The box at the top of the section is selected. 
-* The outline of the section is blue, not gray.  
+    * The box at the top of the section is selected.
+    * The outline of the section is blue, not gray.  
 
     In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
  
-    <img src="../../../Images/Selected_for_sharing.png" width="85%" height="85%" alt="Items selected for sharing">
+    <img src="../../../Images/Selected_for_sharing.png" width="70%" height="70%" alt="Items selected for sharing">
 
     To select (or deselect) all sections at once, check or clear the Select All checkbox at the top of the dashboard. 
 

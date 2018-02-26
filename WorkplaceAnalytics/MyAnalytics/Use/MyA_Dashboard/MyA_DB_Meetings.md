@@ -13,7 +13,7 @@ ms.prod: mya
 
 # Meeting hours
 
-## How we calculate Meeting hours 
+## How we calculate meeting hours 
 Meeting hours consist of any meetings that you’ve organized or accepted that have at least one other person attending.  
 
 Meeting hours do not include any time outside your working hours, as you’ve defined working hours in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). After-hours meeting time shows up in your after-hours stats.  
@@ -23,7 +23,7 @@ The following meeting types are also excluded from Meeting hours:
 * All-day meetings. 
 * Meetings that are marked as Private. 
 
-# Meeting habits  
+## Meeting habits  
 
 ## How we categorize meetings
 
@@ -36,7 +36,5 @@ The Meeting habits section categorizes the meetings you’ve accepted and shows 
 * **Multitasking in meetings:** Meetings in which you've sent more than two emails or read more than four emails per hour. 
 
 Click **View details** to view the specific meetings in each category. 
-
-See [Tips for meetings](#tips_for_meetings) for suggestions on how to make your meetings more efficient. 
 
 See [Tips for meetings](../../Overview/Tips.md#tips_for_meetings) for suggestions on how to make your meetings more efficient. 

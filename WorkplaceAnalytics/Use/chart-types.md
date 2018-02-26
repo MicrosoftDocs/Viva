@@ -2,8 +2,9 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+title: Chart types in Workplace Analytics
+description: This article describes the different chart types and how to use the chart features in Workplace Analytics dashboards.
+
 author: rodonahu
 ms.author: rodonahu
 ms.date: 1/19/2018
@@ -12,6 +13,7 @@ ms.prod: wpa
 ---
 
 # Chart types in Workplace Analytics
+This article describes the different chart types and how to use the chart features in Workplace Analytics dashboards.
 
 ## Chart types
 Workplace Analytics has several different chart types to help visualize your data in a variety of ways.
