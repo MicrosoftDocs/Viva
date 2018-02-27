@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics Getting Started Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+description: This list states what's needed to implement MyAnalytics in your organization
 author: rodonahu
 ms.author: rodonahu, v-pascha
 ms.date: 01/19/2018
