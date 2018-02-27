@@ -90,15 +90,15 @@
     - name: Setup
       items:
       - name: Checklist
-        href: MyAnalytics/Setup/Mya_setup_checklist.md
+        href: MyAnalytics/Setup/Mya-setup-checklist.md
       - name: Step One - Review the MyAnalytics privacy guide
         href: MyAnalytics/Overview/Privacy-Guide.md
       - name: Step Two - Configure user settings
-        href: MyAnalytics/Setup/Configure_MyA_User_Settings.md
+        href: MyAnalytics/Setup/Configure-MyA-User-Settings.md
       - name: Step Three - Check access to Office Graph
-        href: MyAnalytics/Setup/Check_Office_Graph.md
+        href: MyAnalytics/Setup/Check-Office-Graph.md
       - name: Step Four - Assign MyAnalytics licenses to users
-        href: MyAnalytics/Setup/Assign_Licenses.md
+        href: MyAnalytics/Setup/Assign-Licenses.md
       - name: Step Five - Verify that the Outlook add-in is installed
         href: MyAnalytics/Setup/Verify-Add-in.md
     - name: Use
