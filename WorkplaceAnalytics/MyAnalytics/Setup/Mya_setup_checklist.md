@@ -6,7 +6,7 @@ title: MyAnalytics Setup Checklist
 description: Complete the steps in this checklist to implement MyAnalytics in your organization
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.topic: get-started-article
 ms.prod: mpa
 ---
