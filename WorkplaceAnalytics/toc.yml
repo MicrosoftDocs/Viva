@@ -87,6 +87,18 @@
           href: MyAnalytics/Overview/Privacy-Guide.md
    #     - name: Getting Support
    #       href: ./conceptual/index.md
+    - name: Administrator's Setup
+      items:
+      - name: Step One - Review the MyAnalytics privacy guide
+        href: MyAnalytics/Overview/Privacy-Guide.md
+      - name: Step Two - Configure user settings
+        href: MyAnalytics/Setup/Configure_MyA_User_Settings.md
+      - name: Step Three - Check access to Office Graph
+        href: MyAnalytics/Setup/Check_Office_Graph.md
+      - name: Step Four - Assign MyAnalytics licenses to users
+        href: MyAnalytics/Setup/Assign_Licenses.md
+      - name: Step Five - Verify that the Outlook add-in is installed
+        href: MyAnalytics/Setup/Verify-Add-in.md
     - name: Use
       items:
       - name: Dashboard
@@ -97,15 +109,3 @@
         href: MyAnalytics/Use/email-digests.md
       - name: Tips
         href: MyAnalytics/Overview/Tips.md
-    - name: Administrator's Setup
-      items:
-      - name: Step One - Review MyAnalytics privacy guide
-        href: MyAnalytics/Overview/Privacy-Guide.md#turning-data
-      - name: Step Two - Configure user settings
-        href: MyAnalytics/Setup/Configure_MyA_User_Settings.md
-      - name: Step Three - Check access to Office Graph
-        href: MyAnalytics/Setup/Check_Office_Graph.md
-      - name: Step Four - Assign MyAnalytics license to users
-        href: MyAnalytics/Setup/Assign_Licenses.md
-    #  - name: Step Five - Verify that Outlook add-in is installed
-      #  href: MyAnalytics/Overview/Privacy-Guide.md
