@@ -47,6 +47,7 @@ Most organizations provide this data for the entire company to understand how th
 
 [[CONTENT NOTE - I DO NOT LIKE THIS FORMATTING NEED TO CHANGE ABOVE]]
 
+<!--
 ## Test image path TEST ONLY
 
 **Test image:**
@@ -62,18 +63,35 @@ Row Level Data [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)
 Include: 
 
 [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)]
-
+-->
 
 ## Data outputs
 
-**Output type**|**Role that has Access**|**Example**
+**Output type**|**Role that has access**
+-----|-----
+De-Identified Row Level Data|Analyst
+**Example:** [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)]
+
+**Output type**|**Role that has access**
+-----|-----
+Meeting Query Output|Analyst
+**Example:** [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleMeetingQuery.csv)]
+
+**Output type**|**Role that has access**
+-----|-----
+Meeting Query output with subject lines encrypted|Analyst
+**Example:** [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleMeetingHASHQuery.csv)]
+
+**Output type**|**Role that has access**
+-----|-----
+Group Query|Analyst
+**Example:** [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleGroupQuery.csv)] 
+
+**Output type**|**Role that has access**
 -----|-----|-----
-De-Identified Row Level Data|Analyst|[!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)]
-Meeting Query Output|Analyst|[!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleMeetingQuery.csv)]
-Meeting Query output with subject lines encrypted|Analyst|[!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleMeetingHASHQuery.csv)]
-Group Query|Analyst|[!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleGroupQuery.csv)] 
-Visual Dashboards with Minimum Aggregation Threshold|Analyst, Analyst (Limited)|
-Data Sources | Administrator |  
+Visual Dashboards with Minimum Aggregation Threshold|Analyst, Analyst (Limited)
+Data Sources | Administrator 
+
 ## Privacy Options
 * Include Subject lines – As part of a meeting query, an administrator can choose to have meeting subject lines encrypted
 * Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased to a larger number as needed
