@@ -17,18 +17,7 @@ You can opt out of your data being used to calculate aggregate statistics for yo
 
 **Note:** If you opt out, you will no longer be able to access your personal dashboard. 
 
-**To opt out of MyAnalytics**
-
-1. In Delve, click the gear icon to open the Settings pane.
-
-    <img src="../../../Images/Gear_icon_Delve.png" width="55%" height="55%" alt="Delve settings">
-     
-2. Click **Feature settings**.
-3. Under MyAnalytics, set the control to **Off**.
-
-    <img src="../../../Images/Slider_off.png" width="25%" height="25%" alt="Slider in off position">
-  
-4. At the top of the Feature settings panel, click **OK** to save your changes. 
+[!INCLUDE [Opt out of MyAnalytics](../../Includes/to_opt_out_of_mya.md)]
  
 ## If I opt out, can I opt back in? 
 

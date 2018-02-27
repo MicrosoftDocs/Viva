@@ -8,10 +8,10 @@ author: rodonahu
 ms.author: rodonahu, v-pascha
 ms.date: 1/19/2018
 ms.topic: get-started-article
-ms.prod: wpa
+ms.prod: mya
 ---
 
-# Privacy guide for Microsoft MyAnalytics personal dashboard and Outlook add-in
+# Privacy guide for Microsoft MyAnalytics
 
 MyAnalytics helps users better understand how they collaborate with colleagues and how they spend their time at work. It provides useful information that can help users prioritize and spend their time effectively. The goal of this guide is to provide a high level overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.
 
@@ -30,7 +30,7 @@ MyAnalytics surfaces Mailbox Data in entirely new ways. For example, MyAnalytics
 
 Using Incremental Data, MyAnalytics provides organization-wide benchmarks so users can effectively compare their work habits with others across their organization. Incremental Data is also used by the MyAnalytics Outlook add-in, which provides statistics on the activity surrounding the user’s email. When using Incremental Data, MyAnalytics does not identify users by name in an effort to protect individual privacy.
 
-## Into insights
+## ... into insights
 
 To understand how Mailbox Data serves as the basis for many MyAnalytics insights, consider the following scenarios. If a user wanted to discover who sent them the most email over the last week, they could manually count the total number of emails received from all of the different people they work with, and then rank them from the person who has sent the most to the person who has sent the least. Similarly, using simple math, a user could determine the average response time to their emails using timestamp information readily available in their mailbox. Furthermore, a user could review their emails to create a list of each person to whom the user has made a commitment. There are a wide variety of metrics and quick views that can be developed from a user’s own Mailbox Data:
 
@@ -61,7 +61,7 @@ For example, MyAnalytics lets the user view what the organizational averages are
 
 Another example of Incremental Data that MyAnalytics surfaces to a user are insights into what percentage of their emails are being read. The image below shows what percentage of emails are read when the recipient is directly addressed, and what percentage is read when the recipient is part of a group.
 
-<img src="../../Images/meeting_hours.png" width="35%" height="35%" alt="Meeting hours">
+<img src="../../Images/meeting_hours.png" width="30%" height="30%" alt="Meeting hours">
 
 This information is not available to the user from their mailbox. Therefore, it is Incremental Data, but it is presented in a way that is intended to avoid identifying any individual or their activity.
 

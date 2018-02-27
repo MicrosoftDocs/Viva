@@ -32,4 +32,4 @@ Explore contains a set of analytical dashboards that are the starting point to g
 
 [**Queries**](../use/create-queries.md) give you flexibility to dive deeper into your organization’s behavioral metrics to generate insights. You can create three types of queries in Workplace Analytics: Person, Group, and Meeting. Each query type can help answer specific questions you may be investigating.
 
-[**Settings**](../setup/settings.md) contains options for you to customize system defaults and privacy settings.
+[**Settings**](../use/settings.md) contains options for you to customize system defaults and privacy settings.

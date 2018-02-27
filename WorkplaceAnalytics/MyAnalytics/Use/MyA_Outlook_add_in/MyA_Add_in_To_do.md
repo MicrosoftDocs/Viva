@@ -22,14 +22,7 @@ If you have one or more of these automatically generated tasks, a summary card i
 
 <img src="../../../Images/To-do_page_1.PNG" width="40%" height="40%" alt="To-do card">
 
-**To get more details**
-
-You can obtain more details about your to-do items.  
-1. In the MyAnalytics pane, click the summary card. This displays an individual card for each task. Each card shows the name of the email recipient, the subject line of the message that triggered the card, and the sentence in the message that promises something.  
-
-   <img src="../../../Images/To-do_1_ed_3.png" width="40%" height="40%" alt="To-do card">
-  
-2. To open the message, click the message subject line. In this example, that line starts “RE: Updated invitation.” The email thread opens to the message that contains the triggering statement.  
+[!INCLUDE [Get more details about to-do items](../../Includes/to_get_more_details.md)]
 
 To mark a to-do item as done, click **Mark as done**. To-do cards disappear after two weeks or after you mark them as done.  
 

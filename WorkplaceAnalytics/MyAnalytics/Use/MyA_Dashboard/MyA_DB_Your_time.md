@@ -22,10 +22,7 @@ This report shows summaries of the four main ways that MyAnalytics categorizes y
 
 For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals. 
 
-**To change your weekly goals**
-
-1.	For the category (such as Email hours or Focus hours), click **Edit goal**.
-2.	In the dialog box that appears, type a number for your new goal, and click **Save**. Your new goal is displayed in the overview. When you change a goal, the goals for previous weeks are also changed. 
+[!INCLUDE [Change your weekly goals](../../Includes/to_change_your_weekly_goals.md)]
 
 See [MyAnalytics Tips](../../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
 

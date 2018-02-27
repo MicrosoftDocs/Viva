@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+title: Verify that the MyAnalytics add-in for Outlook is installed
+description: Verify that the MyAnalytics add-in for Outlook is installed
 author: rodonahu
 ms.author: rodonahu, v-pascha
 ms.date: 1/19/2018
