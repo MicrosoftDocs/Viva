@@ -45,12 +45,15 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 - Where the meeting was scheduled to be held
 - What the subject line is
 
-Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, you have the option of excluding rights-managed emails and meetings are excluded altogether.
+Attachments and text in the body of emails and meetings are never used by Workplace Analytics. *Furthermore, rights-managed and private emails and meetings are excluded altogether*.
 
 ## Organizational data
-Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions. Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line of business data stores. For more information about organizational data, go to Prepare and export organizational data.
+Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions. Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line of business data stores. For more information about organizational data, go to [Prepare and export organizational data](~/use/prepare-and-upload-organizational-data.md).
 
-The organizational data set is combined with the Office 365 email and calendar metadata to produce the complete data set that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Workplace Analytics through dashboards or query results.
+The organizational data set is combined with the Office 365 email and calendar metadata to produce the complete data set that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Workplace Analytics through dashboards or query results. *By providing organizational data for your entire organization, you can understand the internal collaboration points of the population you are analyzing. If you decide not to provide organizational data for parts of the organization, any collaboration that we see with that part of the organization will appear as N/A.*
+![Org Data Example](~/images/wpa/overview/orgexample.png)
+
+
 
 Please note that other information provided in the organizational data set is exposed in Workplace Analytics dashboards and reports. Care must be taken to ensure the data set does not include personal data (such as employee ID).
 
