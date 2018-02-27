@@ -6,7 +6,7 @@ title: Workplace Analytics Getting Started Checklist
 description: This checklist introduces what's required to implement MyAnalytics in your organization
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
