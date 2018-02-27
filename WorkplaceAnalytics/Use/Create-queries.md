@@ -28,11 +28,11 @@ You can use Meeting exclusions to exclude meetings that fall outside relevant no
 [Create custom meeting exclusions rule](../Use/Create-custom-meeting-exclusions-rules.md)
 
 ## Business scenario
-An analyst may start by looking at a [Person query](#2-person-query) to see trends of employees across the company related to meeting collaboration. 
+An analyst may start by looking at a [Person query](#person-query) to see trends of employees across the company related to meeting collaboration. 
 
-If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [**Meeting query** ](#2-meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior. 
+If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [**Meeting query** ](#meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior. 
 
-Additionally, the analyst could create a [**Groups query**](#2-groups-query)  to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
+Additionally, the analyst could create a [**Groups query**](#groups-query)  to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
 
 There are three ways to create queries:
 * Use and edit pre-defined query templates
