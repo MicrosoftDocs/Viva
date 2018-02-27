@@ -26,9 +26,9 @@ Use this checklist to help assemble the people and obtain the data and configura
 | [2 - Assign licenses to population in scope for analysis](#step-two-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator       |
 |   [3 - Assign roles to WpA Admin and Analysts](#step-three-assign-roles-to-wpa-admin-and-analysts)   |    Office 365 global administrator   |     Administrator can use Workplace Analytics to set system defaults, privacy settings, upload and verify organizational data; data analysts can log into and use Workplace Analytics once data is provisioned    |
 |  [4 - Configure Workplace Analytics settings](#step-four-configure-workplace-analytics-settings)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
-|  [5 - Prepare and upload organizational data](#Step-five-Prepare-organizational-data-for-upload)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |      placeholder   |
-|  [6 - Validate and verify data](#step-seven-validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
-|    [7 - Set up meeting exclusions](#Step-eight-Set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
+|  [5 - Prepare and upload organizational data](#Step-five-Prepare-and-upload-organizational-data)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |     [[CONTENT PLACEHOLDER]]    |
+|  [6 - Validate and verify data](#step-six-validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
+|    [7 - Set up meeting exclusions](#Step-seven-Set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
 
 
 When you have finished all the steps, you are ready to [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md).
@@ -64,11 +64,11 @@ Once you have identified the population in scope, the Office 365 Global administ
 
 You can use Office 365 PowerShell to do a bulk assignment of Workplace Analytics licenses to users. 
 
-**Related topics**
+#### Related topics
 
 [How to assign Office 365 licenses](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
 
-[How to assign bulk licenses](office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+[How to assign bulk licenses](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 
 
 ### Mailboxes not fully migrated to Office 365 Exchange Online
@@ -78,7 +78,7 @@ If your organization has not fully migrated to Office 365 Exchange Online, you m
 * Contact the FastTrack team to understand the process for analyzing these mailboxes (this requires additional work streams within your organization).
 
 
-## Step three: Assign roles to WpA Admin and Analysts
+## Step three: Assign roles to Workplace Analytics Admins and Analysts
 
 * **Owner** - Office 365 global administrator
 * **Task** - Assign users for administrators and data analysts to Workplace Analytics service
@@ -94,8 +94,8 @@ To allow administrators to set system defaults, privacy settings, upload and ver
 ### To assign users to Workplace Analytics
 * Follow the instructions in this [support article](/active-directory/active-directory-coreapps-assign-user-azure-portal).
 
-> [!NOTE]
-> Workplace Analytics does not support assigning licenses to groups. 
+### Related topics
+[Group-based licenses in Workplace Analytics](../Use/Group-Based-Licensing.md)
 
 
 ## Step four: Configure Workplace Analytics Settings
@@ -110,6 +110,14 @@ The default time zone is used to compute after-hours metrics when a time zone is
 The default time zone for Workplace Analytics is Pacific Standard Time. 
 
 For a complete list of valid times zones, visit [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md)  
+
+### To change the default time zone 
+1. On the **Settings** page, click **Settings**.
+2. Under **System defaults**, select the time zone you want from the **Default time zone** list.
+3. Click **Save**.
+
+> [!IMPORTANT]
+> This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
 
 ### Privacy Settings
 * **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator
@@ -135,6 +143,16 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
 
 > [!NOTE]
 > If you exclude email addresses, you should not assign licenses to them.  You also should consider all aliases for an individual.
+
+### To set your privacy settings 
+1. On the **Settings** page, click **Settings**.
+2. Under **Privacy settings**, configure the settings to meet your company's needs.
+> [!NOTE]
+> You may click **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you click the **I confirm that all privacy settings are complete** checkbox. When you click the checkbox, it begins the processing of Office 365 data.
+3. Click **Save**.
+> [!IMPORTANT]
+>  Carefully validate that your privacy settings are correct, before you click the I confirm that all privacy settings are complete checkbox, You can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
+4. To begin the processing of Office 365 data, click **I confirm that all privacy settings are complete**, and then click **Save**.
 
 ### Related topic
 [Settings in Workplace Analytics](../Use/Settings.md) 
@@ -204,8 +222,10 @@ Once your upload has been submitted successfully, there is additional validation
 Once data is completely provisioned, Workplace Analytics users will be able to access full product features.
 Office 365 meeting and email data is refreshed monthly. This is a good time for the Workplace Analytics administrator to also generate and upload updated organizational data.
 
-### Related topic
+### Related topics
 [Data sources in Workplace Analytics](../Use/Data-sources.md)
+
+[Prepare and upload organizational data](../Use/Prepare-and-upload-organizational-data.md) 
 
 ## Step six: Validate and verify data
 
@@ -231,6 +251,11 @@ Data sources metrics help Workplace Analytics data analysts:
 * **Owner** - Workplace Analytics administrator, data analysts with full access
 * **Task** - Set meeting exclusion rules to reflect your company's meeting norms and exclude meetings that are not relevant for analysis.  
 * **Outcome** - Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
+
+Workplace Analytics uses activities stored in a person’s Office 365 email and calendar to reveal internal and external collaboration trends. However, a person’s calendar and email can contain a diverse set of activities (such as personal meetings, work-related social activities, all-day training meetings, and so forth) that are not relevant to work-related collaboration, and if included in the metrics, can skew query results.
+
+Analysts can use the Meeting exclusions feature to create custom meeting exclusions that help ensure query results accurately represent relevant meeting norms within their company. Or, analysts may choose to use the default meeting exclusions that exclude a set of meetings that would commonly fall outside relevant collaboration for analysis.
+
 
 ### Related topics
 
