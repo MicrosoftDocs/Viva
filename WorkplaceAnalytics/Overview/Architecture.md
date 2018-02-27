@@ -51,6 +51,14 @@ Most organizations provide this data for the entire company to understand how th
 
 **Test CSV file:**
 
+Link to:
+
+Row Level Data [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)
+
+Include: 
+
+[!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)]
+
 Row Level Data [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)
 
 **Test image:**
