@@ -6,8 +6,8 @@
       items:
         - name: Environment Requirements
           href: ~/Overview/Environment-Requirements.md
-        - name: Architecture and How it Works
-          href: ~/Overview/Architecture.md
+       # - name: Architecture and How it Works
+       #   href: ~/Overview/Architecture.md
         - name: Privacy and Data Access
           href: ~/Overview/Privacy-and-Data-Access.md
         - name: Getting Support
