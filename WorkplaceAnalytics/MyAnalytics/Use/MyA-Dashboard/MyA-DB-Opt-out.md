@@ -17,7 +17,7 @@ You can opt out of your data being used to calculate aggregate statistics for yo
 
 **Note:** If you opt out, you will no longer be able to access your personal dashboard. 
 
-[!INCLUDE [Opt out of MyAnalytics](../../Includes/to_opt_out_of_mya.md)]
+[!INCLUDE [Opt out of MyAnalytics](../../Includes/to-opt-out-of-mya.md)]
  
 ## If I opt out, can I opt back in? 
 

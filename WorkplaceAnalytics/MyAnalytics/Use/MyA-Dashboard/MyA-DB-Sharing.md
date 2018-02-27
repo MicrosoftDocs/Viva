@@ -15,7 +15,7 @@ ms.prod: mya
 
 Whether to celebrate achieving a goal, show progress to your manager, or ask for help, you can share selected statistics from your dashboard with people in your organization. By sharing statistics, you create more opportunities to receive support in the areas that matter most to you. So, share your statistics and get the conversation started. 
 
-[!INCLUDE [Share your statistics](../../Includes/to_share_statistics.md)]
+[!INCLUDE [Share your statistics](../../Includes/to-share-statistics.md)]
 
 ### Where do I find the statistics that I’ve shared? 
 

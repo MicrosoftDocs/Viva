@@ -25,7 +25,7 @@ The MyAnalytics dashboard gives you the tools you need to help you prioritize wo
 
 Near the top of the MyAnalytics dashboard is the “Your time” area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your goals.
 
-<img src="../../Images/Your_time_dashboard.PNG" width="100%" height="100%" alt="The Your time area of the MyAnalytics dashboard">
+<img src="../../Images/Your-time-dashboard.PNG" width="100%" height="100%" alt="The Your time area of the MyAnalytics dashboard">
 
 This report shows summaries of the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals.
 
@@ -40,18 +40,18 @@ See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend
 
 Scroll down the dashboard page and you see sections that give you more detail about the ways you spend your time and the people you contact while you work.
 
-[!INCLUDE [Meetings](MyA_Dashboard/MyA_DB_Meetings.md)]
+[!INCLUDE [Meetings](MyA-Dashboard/MyA-DB-Meetings.md)]
 
-[!INCLUDE [Emails](MyA_Dashboard/MyA_DB_Emails.md)]
+[!INCLUDE [Emails](MyA-Dashboard/MyA-DB-Emails.md)]
 
-[!INCLUDE [Focus hours](MyA_Dashboard/MyA_DB_Focus_hours.md)]
+[!INCLUDE [Focus hours](MyA-Dashboard/MyA-DB-Focus-hours.md)]
 
-[!INCLUDE [After hours](MyA_Dashboard/MyA_DB_After_hours.md)]
+[!INCLUDE [After hours](MyA-Dashboard/MyA-DB-After-hours.md)]
 
-[!INCLUDE [Network](MyA_Dashboard/MyA_DB_Network.md)]
+[!INCLUDE [Network](MyA-Dashboard/MyA-DB-Network.md)]
 
 ### Dashboard options
 
-[!INCLUDE [Sharing](MyA_Dashboard/MyA_DB_Sharing.md)]
+[!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
 
-[!INCLUDE [Opt out](MyA_Dashboard/MyA_DB_Opt_out.md)]
+[!INCLUDE [Opt out](MyA-Dashboard/MyA-DB-Opt-out.md)]

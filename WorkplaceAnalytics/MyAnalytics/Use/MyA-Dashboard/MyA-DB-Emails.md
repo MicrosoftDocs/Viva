@@ -26,4 +26,4 @@ The Email hours area shows an estimate of how much time you spent sending and re
 We include only emails that have your name, or a group you’re a member of, on the To: line or on the Cc: line. We don’t count emails that you delete without opening. 
 
 Also, any time that you spend reading or writing email outside your set work hours (as defined by your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance)) is included in
-[After hours](MyA_DB_After_hours.md), but not included in Email hours. 
+[After hours](MyA-DB-After-hours.md), but not included in Email hours. 

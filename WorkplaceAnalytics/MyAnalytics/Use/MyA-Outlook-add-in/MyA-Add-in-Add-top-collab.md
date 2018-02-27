@@ -17,4 +17,4 @@ Based on your communication pattern over the past few weeks, MyAnalytics automat
 
 MyAnalytics also maintains a list of “Important people” for you, which you can view in the MyAnalytics Dashboard. MyAnalytics can notify you, for example, if you’ve missed an email message from someone on this list, or if they might be expecting you to complete one or more to-do items. You can add people to and remove people from this list. For more information see, “Important people” under Microsoft MyAnalytics Outlook add-in.  
 
-[!INCLUDE [Add a top collaborator](../../Includes/to_add_a_top_collaborator.md)]
+[!INCLUDE [Add a top collaborator](../../Includes/to-add-a-top-collaborator.md)]
