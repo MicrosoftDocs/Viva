@@ -6,7 +6,7 @@ title: Add top collaborators
 description: Use this card to add a "top collaborator" to your Important people list. 
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/07/2018
+ms.date: 02/07/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

@@ -6,7 +6,7 @@ title: MyAnalytics Add-in
 description: All the individual Outlook Add-in topics, displayed as one.
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

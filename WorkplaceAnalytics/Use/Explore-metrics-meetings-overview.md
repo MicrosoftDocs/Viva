@@ -6,7 +6,7 @@ title: Explore meetings overview metrics in Workplace Analytics
 description: This topic gives an overview of the meetings overview dashboards in Workplace Analytics.
 author: v-leash
 ms.author: v-leash
-ms.date: 2/14/2018
+ms.date: 02/14/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---

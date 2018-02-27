@@ -6,7 +6,7 @@ title: Your time
 description: How you spent your time among your contacts. 
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/14/2018
+ms.date: 02/14/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

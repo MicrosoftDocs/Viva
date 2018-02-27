@@ -6,7 +6,7 @@ title: MyAnalytics email digests
 description: MyAnalytics users receive email digests weekly that describe key highlights. 
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---

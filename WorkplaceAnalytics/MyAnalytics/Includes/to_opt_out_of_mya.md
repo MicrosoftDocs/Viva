@@ -6,7 +6,7 @@ title: To opt out of MyA
 description: How-to steps -- Opt out of MyAnalytics. 
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

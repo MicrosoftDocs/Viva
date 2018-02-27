@@ -6,7 +6,7 @@ title: After hours
 description: How we estimate the time you spend working during your official time off.
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/14/2018
+ms.date: 02/14/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

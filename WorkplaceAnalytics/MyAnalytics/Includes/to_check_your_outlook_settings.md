@@ -6,7 +6,7 @@ title: To check your Outlook settings
 description: How-to steps -- Check your Outlook settings. 
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

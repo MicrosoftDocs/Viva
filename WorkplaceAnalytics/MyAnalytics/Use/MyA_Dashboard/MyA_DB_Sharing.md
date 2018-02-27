@@ -6,7 +6,7 @@ title: Sharing
 description: How to share your stats with others
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/14/2018
+ms.date: 02/14/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

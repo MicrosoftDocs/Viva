@@ -6,7 +6,7 @@ title: Email read statistics
 description: What proportion of recipients opened your messages? 
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/07/2018
+ms.date: 02/07/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

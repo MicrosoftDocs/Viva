@@ -6,7 +6,7 @@ title: Meeting hours
 description: How we arrive at the facts that we display about meeting behavior. 
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/07/2018
+ms.date: 02/07/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---

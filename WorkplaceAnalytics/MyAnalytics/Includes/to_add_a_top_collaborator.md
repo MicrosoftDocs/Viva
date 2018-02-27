@@ -6,7 +6,7 @@ title: To add a top collaborator
 description: How-to steps -- Add a top collaborator. 
 author: v-pascha
 ms.author: v-pascha
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---
