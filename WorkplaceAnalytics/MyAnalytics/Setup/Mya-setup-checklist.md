@@ -17,8 +17,8 @@ Complete the tasks in this checklist to set up MyAnalytics for users in your org
 | Task | Owner | Outcome |
 |------|-------|---------|
 |  [1 - Review the MyAnalytics privacy guide](../Overview/Privacy-Guide.md) | MyAnalytics administrator | Review this overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.  |
-|  [2 - Configure user settings](../Setup/Configure_MyA_User_Settings.md)  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
-|  [3 - Check access to Office Graph](../Setup/Check_Office_Graph.md) | MyAnalytics administrator |  Verify that Office Graph, which Microsoft Delve requires to display statistics, is enabled.   |
-|  [4 - Assign MyAnalytics licenses to users](../Setup/Assign_Licenses.md)  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
+|  [2 - Configure user settings](../Setup/Configure-MyA-User-Settings.md)  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
+|  [3 - Check access to Office Graph](../Setup/Check-Office-Graph.md) | MyAnalytics administrator |  Verify that Office Graph, which Microsoft Delve requires to display statistics, is enabled.   |
+|  [4 - Assign MyAnalytics licenses to users](../Setup/Assign-Licenses.md)  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
 |  [5 - Verify that the Outlook add-in is installed](../Setup/Verify-Add-in.md)  | MyAnalytics administrator | Check the Office 365 admin center to verify that the Outlook add-in is installed for your organization. 
 

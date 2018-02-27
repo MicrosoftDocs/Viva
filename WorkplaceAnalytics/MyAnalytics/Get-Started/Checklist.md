@@ -17,10 +17,10 @@ After you've purchased an E5 plan or a MyAnalytics add-on, you have to configure
 
 Review the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md).
 
-[Configure MyAnalytics user settings](../Setup/Configure_MyA_User_Settings.md)
+[Configure MyAnalytics user settings](../Setup/Configure-MyA-User-Settings.md)
 
-[Check that access to Office Graph is enabled](../Setup/Check_Office_Graph.md).
+[Check that access to Office Graph is enabled](../Setup/Check-Office-Graph.md).
 
-[Assign MyAnalytics licenses to users](../Setup/Assign_Licenses.md).
+[Assign MyAnalytics licenses to users](../Setup/Assign-Licenses.md).
 
 [Verify that the MyAnalytics Outlook add-in is installed](../Setup/Verify-Add-in.md).
