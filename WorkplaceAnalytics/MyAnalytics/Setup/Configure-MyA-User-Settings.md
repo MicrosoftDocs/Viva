@@ -36,7 +36,7 @@ PrivacyMode has three different settings: Excluded, Opt-in, and Opt-out, as desc
 
 Configure MyAnalytics settings for a user with the following cmdlet:
 
-```
+```powershell
 Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
 ```
 
@@ -47,7 +47,7 @@ PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the cur
 
 Get MyAnalytics settings for a user with the following cmdlet:
 
-```
+```powershell
 Get-UserAnalyticsConfig –Identity <string>
 ```
 
