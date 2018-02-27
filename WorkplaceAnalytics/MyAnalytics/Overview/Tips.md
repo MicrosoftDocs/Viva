@@ -19,7 +19,7 @@ Use these tips to learn how to spend your time better and focus on what's import
 
 Would you like to know how many people read a specific email message that you sent? Check out the MyAnalytics Outlook add-in to see how many people have read, replied to, or forwarded your email.
 
-[!INCLUDE [See email info and insights](../Includes/to_see_email_info_and_insights.md)]
+[!INCLUDE [See email info and insights](../Includes/to-see-email-info-and-insights.md)]
 
 ## Tips for meetings 
 

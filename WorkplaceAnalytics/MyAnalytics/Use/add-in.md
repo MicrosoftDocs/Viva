@@ -27,6 +27,6 @@ MyAnalytics draws email and meeting data from Outlook, notices patterns, and the
 
 ## Further information
 
-[!INCLUDE [Important people](../Overview/Important people.md)]
+[!INCLUDE [Important people](../Overview/Important-people.md)]
 
 See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
