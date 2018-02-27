@@ -6,7 +6,7 @@ title: Explore the overview of popular metrics in Workplace Analytics
 description: This topic gives an overview the popular metrics in the week in the life dashboards in Workplace Analytics.
 author: rodonahu
 ms.author: rodonahu
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---

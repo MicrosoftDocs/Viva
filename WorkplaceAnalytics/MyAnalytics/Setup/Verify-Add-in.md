@@ -6,7 +6,7 @@ title: Verify that the MyAnalytics add-in for Outlook is installed
 description: Verify that the MyAnalytics add-in for Outlook is installed
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 1/19/2018
+ms.date:01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---

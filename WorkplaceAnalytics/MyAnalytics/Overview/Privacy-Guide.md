@@ -6,7 +6,7 @@ title: Privacy guide for Microsoft MyAnalytics
 description: Overview of MyA features, note about de-identification, info about private access of dashboard, minimum group size for reporting, admin choices and default settings, users in sensitive roles.
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 1/19/2018
+ms.date:01/19/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---
