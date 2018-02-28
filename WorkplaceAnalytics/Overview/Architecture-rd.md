@@ -64,7 +64,7 @@ Data Sources | |Administrator
 * Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased to a larger number as needed
 
 ### Exclusion
-All exclusion occurs before metadata is processed within the Workplace Analytics data engine
+All 
 >[!Important]
 >By default, Private meetings and email with digital rights management enabled are automatically excluded.
 
@@ -87,8 +87,7 @@ As part of the Office 365 offering, we are currently a Category A Office 365 ser
 ### Can you describe the de-identification process?
 Workplace Analytics processes metadata from Office 365 email and calendar. Email addresses are never shown in Workplace Analytics through dashboards or query results. The Workplace Data Engine de-identifies by using a symmetric hashing to ensure that supplemental organizational data can be added when needed. Encryption keys are securely maintained by Microsoft only allowing programmatic access.
 
-### Does Workplace Analytics support GDPR?
-Microsoft has made the commitment to be GDPR compliant. As such, Workplace Analytics has plans to implement GDPR protections in alignment with its worldwide introduction date of May 25th, 2018.
+
 
 ### Is Workplace Analytics compliant with workers councils?
-There is no compliance certification for such workers councils.  Customers often have to work directly within each of their company's to ensure that Workers Councils are comfortable with the product and its use within the company.  We strongly suggest you work with your internal legal and HR teams to respectfully engage with your Workers Councils.
+
