@@ -21,39 +21,30 @@ Workplace Analytics analyzes Office 365 [email and calendar header level metadat
 
 
 By design, Workplace Analytics provide organizations with choice:
-* Our Customers Decide the Scope of mailboxes to analyze.
-* Our Customers Decide who within their organization has access to de-identified datasets and aggregated visual dashboards
-* Our Customers Configure options to exclude specific meeting and email metadata from analysis as directed by their Legal and HR teams
-
+* Our customers decide the scope of mailboxes to analyze.
+* Our customers decide who within their organization has access to de-identified datasets and aggregated visual dashboards
+* Our customers configure options to exclude specific meeting and email metadata from analysis as directed by their legal and HR teams
 
 Our [Privacy and data access document](Privacy-And-Data-Access.md) describes these considerations in greater detail.
 
 
+
+
+
+## Data Inputs
+It is important to understand the data that is required to run the system, and the form that is generated that is accessed by analysts who can utilize the service.  The image below provides context into this. 
+
 <CENTER>
 ![Workplace Analytics Data Flow](../Images/WpA/Overview/Flow.png)
 </CENTER>
-## Data Inputs
-
-
->[!Important]
->Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
-
-
-
 
 **Collaboration Data**|**Organizational Data**
 :-----:|:-----:
 Header information from emails|PersonId,Organization,ManagerId, Layer,Timezone,Level,Location, EffectiveDate|
-Header information from Meetings|At a minimum, the above data fields are required for the population scope that you are analyzing.
+Header information from Meetings|*At a minimum, the above data fields are required for the population scope that you are analyzing.*
 
-Most organizations provide this data for the entire company to understand how the mailboxes being analyzed collaborate across the entire organization. Others, due to privacy concerns decide to exclude specific populations from the org data provided. See our  Organizational Data Documentation for details on how this could impact analysis.
-
-
-
-
-Include: 
-
-[!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.md)]
+>[!Important]
+>Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 
 
 ## Data outputs
@@ -73,9 +64,9 @@ Data Sources | |Administrator
 * Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased to a larger number as needed
 
 ### Exclusion
-All exclusion occurs before metadata is processed within the Workplace Analytics Data Engine
+All exclusion occurs before metadata is processed within the Workplace Analytics data engine
 >[!Important]
->Private and meetings and email with digital rights management enabled are automatically excluded.
+>By default, Private meetings and email with digital rights management enabled are automatically excluded.
 
 Customers can exclude any meeting or mail metadata based on the following parameters, (which may have impact on analysis):
 * Subject lines – provide keywords to exclude from analysis
