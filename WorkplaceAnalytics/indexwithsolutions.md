@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Workplace Analytics
 description: Learn and Explore the resource for the internationalization (globalization + localizability + localization) related topics.
-ms.date: 02/6/2018
+ms.date: 02/06/2018
 ms.prod: wpa
 ms.author: rodonahu
 author: rodonahu
