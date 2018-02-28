@@ -47,7 +47,7 @@ Most organizations provide this data for the entire company to understand how th
 
 [[CONTENT NOTE - I DO NOT LIKE THIS FORMATTING NEED TO CHANGE ABOVE]]
 
-<!--
+
 ## Test image path TEST ONLY
 
 **Test image:**
@@ -58,34 +58,34 @@ Architecture.png [Architecture.png](../Images/WpA/Overview/Architecture.png)
 
 Link to:
 
-Row Level Data [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)
+Row Level Data [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.md)
 
 Include: 
 
-[!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)]
--->
+[!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.md)]
+
 
 ## Data outputs
 
 **Output type**|**Role that has access**
 -----|-----
 De-Identified Row Level Data|Analyst
-**Example:** [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.csv)]
+**Example:** [!INCLUDE [ExamplePersonQuery.csv](../Images/WpA/Overview/ExamplePersonQuery.md)]
 
 **Output type**|**Role that has access**
 -----|-----
 Meeting Query Output|Analyst
-**Example:** [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleMeetingQuery.csv)]
+**Example:** [!INCLUDE [ExampleMeetingQuery.csv](../Images/WpA/Overview/ExampleMeetingQuery.md)]
 
 **Output type**|**Role that has access**
 -----|-----
 Meeting Query output with subject lines encrypted|Analyst
-**Example:** [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleMeetingHASHQuery.csv)]
+**Example:** [!INCLUDE [ExampleMeetingHASHQuery.csv](../Images/WpA/Overview/ExampleMeetingHASHQuery.md)]
 
 **Output type**|**Role that has access**
 -----|-----
 Group Query|Analyst
-**Example:** [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExampleGroupQuery.csv)] 
+**Example:** [!INCLUDE [ExampleGroupQuery.csv](../Images/WpA/Overview/ExampleGroupQuery.md)] 
 
 **Output type**|**Role that has access**
 -----|-----|-----
