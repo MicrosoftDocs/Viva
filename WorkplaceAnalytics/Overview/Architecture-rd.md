@@ -58,15 +58,15 @@ Include:
 
 ## Data outputs
 
-**Output type**|**Role that has access**
------|-----
+**Output type**|**Example**|**Role that has access**
+-----|-----|-----
 De-Identified Row Level Data|[Sample.csv](../ExamplePersonQuery.csv)|Analyst
 Meeting Query Output|[Sample.csv](../ExampleMeetingQuery.csv)|Analyst
 Meeting Query output with subject lines encrypted|[Sample.csv](../ExampleMeetingHASHQuery.csv) |Analyst
 Group Query|[Sample.csv](../ExampleGroupQuery.csv) |Analyst
 -----|-----|-----
-Visual Dashboards with Minimum Aggregation Threshold|Analyst, Analyst (Limited)
-Data Sources | Administrator 
+Visual Dashboards with Minimum Aggregation Threshold||Analyst, Analyst (Limited)
+Data Sources | |Administrator 
 
 ## Privacy Options
 * Include Subject lines – As part of a meeting query, an administrator can choose to have meeting subject lines encrypted
