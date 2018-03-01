@@ -10,10 +10,10 @@ author: v-pascha
 ---
 # MyAnalytics
 
-MyAnalytics gives you insight into two of the key factors in personal productivity: how you spend your time and who you spend it with.
+MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. Users obtain these benefits after an administrator sets up MyAnalytics within the organization. 
 
 <ul>
-  <li><a href="~/myanalytics/setup/Mya-setup-checklist.md">Setup</a>: An administrator can follow the steps in this section to set up MyAnalytics for users in their organization.</li>
+  <li><a href="~/myanalytics/setup/Mya-setup-checklist.md">Setup</a>: Administrators follow the steps in this section to set up MyAnalytics for users in their organization.</li>
   <li><a href="~/myanalytics/overview/Privacy-Guide.md">Privacy guide</a>: Learn about the ways MyAnalytics gathers, uses, and protects user data, and how administrators can configure policy choices.</li> 
   <li>Use MyAnalytics: The ways that MyAnalytics presents users with insights and how they can use these insights to make good decisions.
   <ul>

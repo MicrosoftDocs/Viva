@@ -92,10 +92,10 @@ Workplace Analytics has two offerings:
                         <h3>Workplace Analytics</h3>
                         <p></p>
                         <ul>
-<a href="~/setup/set-up-workplace-analytics.md">  <li>Setup</li></a>
-<a href="~/overview/privacy-and-data-access.md">  <li>Privacy and data access</li></a>
-<a href="~/overview/Architecture.md">             <li>How it works</li></a>
-<a href="~/overview/getting-support.md">          <li>Get support</li></a>
+<a href="~/setup/set-up-workplace-analytics.md"><li>Setup</li></a>
+<a href="~/overview/privacy-and-data-access.md"><li>Privacy and data access</li></a>
+<a href="~/overview/Architecture.md"><li>How it works</li></a>
+<a href="~/overview/getting-support.md"><li>Get support</li></a>
                         </ul>
                     </div>
                 </div>
