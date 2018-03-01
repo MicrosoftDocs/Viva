@@ -76,7 +76,7 @@ De-Identified Row Level Data|Analyst
 **Output type**|**Role that has access**
 -----|-----
 Meeting Query Output|Analyst
-**Example:** [!INCLUDE [ExampleMeetingQuery.csv](../Images/WpA/Overview/ExampleMeetingQuery.md)]
+**Example:** [ExampleMeetingQuery.csv](../Images/WpA/Overview/ExampleMeetingQuery.md)
 
 **Output type**|**Role that has access**
 -----|-----

@@ -11,9 +11,9 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-# Email hours
+## Email hours
 
-## How we calculate email hours
+### How we calculate email hours
 Each email you send is assigned 5 minutes. Each email you open is assigned 2.5 minutes. However, shorter times are assigned in these cases:
 
 * If you send one email and then open or send another one within 5 minutes, the time between the two actions gets assigned to the first email. 

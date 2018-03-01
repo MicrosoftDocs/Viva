@@ -17,11 +17,11 @@ MyAnalytics helps you understand how you collaborate with colleagues and spend y
 
 Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.
 
-## Dashboard elements overview
+# Dashboard elements overview
 
 The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools:
 
-### Your time section
+## The Your time section
 
 Near the top of the MyAnalytics dashboard is the “Your time” area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your goals.
 
@@ -29,14 +29,11 @@ Near the top of the MyAnalytics dashboard is the “Your time” area. This area
 
 This report shows summaries of the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals.
 
-**To change your weekly goals**
-
-1.	For the category (such as Email hours or Focus hours), click **Edit goal**.
-2.	In the dialog box that appears, type a number for your new goal, and click **Save**. Your new goal is displayed in the overview. When you change a goal, the goals for previous weeks are also changed. 
+[!INCLUDE [To change your weekly goals](../Includes/to-change-your-weekly-goals.md)]
 
 See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
 
-### Drill down: The detailed subsections
+# Drill down: Detailed subsections
 
 Scroll down the dashboard page and you see sections that give you more detail about the ways you spend your time and the people you contact while you work.
 
@@ -49,8 +46,6 @@ Scroll down the dashboard page and you see sections that give you more detail ab
 [!INCLUDE [After hours](MyA-Dashboard/MyA-DB-After-hours.md)]
 
 [!INCLUDE [Network](MyA-Dashboard/MyA-DB-Network.md)]
-
-### Dashboard options
 
 [!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
 

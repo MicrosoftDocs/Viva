@@ -11,11 +11,11 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-# Network 
+## Network 
 
 The Network area of the MyAnalytics Dashboard shows how you spent your time with the people you interact with in meetings or in email.  
 
-## Your time investments 
+### Your time investments 
 
 The Your time investments chart shows how much time you’ve spent with the individuals and groups in your network. By default, this chart displays all of your collaborators. A blue star next to a contact indicates that this person is on your list of Important people. 
 

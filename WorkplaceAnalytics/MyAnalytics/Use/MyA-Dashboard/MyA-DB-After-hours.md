@@ -11,9 +11,9 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-# After hours 
+## After hours 
 
-## How we calculate after hours
+### How we calculate after hours
 After-hours time consists of any accepted meeting time or email activity that you have done outside your work hours, as defined by your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). (For example, the time you spend reading or sending email messages on weekends counts as After-hours time.) 
 
 [!INCLUDE [Check your Outlook settings](../../Includes/to-check-your-outlook-settings.md)]
