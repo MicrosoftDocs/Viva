@@ -117,8 +117,8 @@ Workplace Analytics has two offerings:
                         <ul>
 <a href="~/myanalytics/setup/Mya-setup-checklist.md">  <li>Setup</li></a>
 <a href="~/myanalytics/overview/Privacy-Guide.md">     <li>Privacy guide</li></a>
-<li><a href="~/myanalytics/use/dashboard.md">Dashboard</a> | <a href="~/myanalytics/use/add-in.md">Outlook add-in</a> | <a href="~/myanalytics/use/email-digests.md">Email digests</a></li>
-<a href="~/overview/getting-support.md">               <li>Get support</li></a>
+<li><a href="~/myanalytics/use/dashboard.md">Dashboard</a> | <a href="~/myanalytics/use/add-in.md">Outlook add-in</a> | <a href="~/myanalytics/use/email-digests.md">Email digests</a>
+</li>
                         </ul>
                     </div>
                 </div>
