@@ -47,7 +47,7 @@ Most organizations provide this data for the entire company to understand how th
 
 [[CONTENT NOTE - I DO NOT LIKE THIS FORMATTING NEED TO CHANGE ABOVE]]
 
-
+<!--
 ## Test image path TEST ONLY
 
 **Test image:**
@@ -64,6 +64,7 @@ Include:
 
 [!INCLUDE [Sample.csv](../Images/WpA/Overview/ExamplePersonQuery.md)]
 
+-->
 
 ## Data outputs
 
