@@ -93,6 +93,17 @@ Group Query|Analyst
 Visual Dashboards with Minimum Aggregation Threshold|Analyst, Analyst (Limited)
 Data Sources | Administrator 
 
+## Data outputs 2
+
+**Output type**|**Example**|**Role that has access**
+-----|-----|-----
+De-Identified Row Level Data|[ExamplePersonQuery.csv](../Images/WpA/Overview/ExamplePersonQuery.md)|Analyst
+Meeting Query Output|[ExampleMeetingQuery.csv](../Images/WpA/Overview/ExampleMeetingQuery.md)|Analyst
+Meeting Query output with subject lines encrypted|[ExampleMeetingHASHQuery.csv](../Images/WpA/Overview/ExampleMeetingHASHQuery.md) |Analyst
+Group Query|[ExampleGroupQuery.csv](../Images/WpA/Overview/ExampleGroupQuery.md) |Analyst
+Visual Dashboards with Minimum Aggregation Threshold|-----|Analyst, Analyst (Limited)
+Data Sources |----- |Administrator 
+
 ## Privacy Options
 * Include Subject lines – As part of a meeting query, an administrator can choose to have meeting subject lines encrypted
 * Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased to a larger number as needed
