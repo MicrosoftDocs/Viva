@@ -75,6 +75,7 @@
           - name: Percentage and average calculations
             href: ~/Use/Percentage-and-average-calculations.md
 - name: MyAnalytics
+  href: MyAnalytics/MyA-landing-page.md
   expanded: true
   items:
     - name: Overview
