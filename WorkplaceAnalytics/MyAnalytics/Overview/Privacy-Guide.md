@@ -6,7 +6,7 @@ title: Privacy guide for Microsoft MyAnalytics
 description: Overview of MyA features, note about de-identification, info about private access of dashboard, minimum group size for reporting, admin choices and default settings, users in sensitive roles.
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---
@@ -43,7 +43,7 @@ To understand how Mailbox Data serves as the basis for many MyAnalytics insights
 
 For example, the image below shows a user’s MyAnalytics personal dashboard. It shows how much time the user spent on emails and meetings, the time they have to themselves (Focus hours) and time they spend outside of work (After hours).
 
-<img src="../../Images/your_time_this_week.png" width="100%" height="100%" alt="Your time this week">
+<img src="../../Images/your-time-this-week.png" width="100%" height="100%" alt="Your time this week">
 
 All of the statistics below are computed based on information that is already available to the user from their mailbox, and is part of Mailbox Data.
 
@@ -57,11 +57,11 @@ In addition to insights based on Mailbox Data, MyAnalytics surfaces statistics b
 
 For example, MyAnalytics lets the user view what the organizational averages are for time spent in meetings as part of their dashboard view. No one is identifiable from this view.
 
-<img src="../../Images/email_habits.png" width="35%" height="35%" alt="Email habits">
+<img src="../../Images/email-habits.png" width="35%" height="35%" alt="Email habits">
 
 Another example of Incremental Data that MyAnalytics surfaces to a user are insights into what percentage of their emails are being read. The image below shows what percentage of emails are read when the recipient is directly addressed, and what percentage is read when the recipient is part of a group.
 
-<img src="../../Images/meeting_hours.png" width="30%" height="30%" alt="Meeting hours">
+<img src="../../Images/meeting-hours.png" width="30%" height="30%" alt="Meeting hours">
 
 This information is not available to the user from their mailbox. Therefore, it is Incremental Data, but it is presented in a way that is intended to avoid identifying any individual or their activity.
 

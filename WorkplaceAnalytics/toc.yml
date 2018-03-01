@@ -6,8 +6,8 @@
       items:
         - name: Environment Requirements
           href: ~/Overview/Environment-Requirements.md
-        - name: Architecture and How it Works
-          href: ~/Overview/Architecture.md
+       # - name: Architecture and How it Works
+       #   href: ~/Overview/Architecture.md
         - name: Privacy and Data Access
           href: ~/Overview/Privacy-and-Data-Access.md
         - name: Getting Support
@@ -43,7 +43,7 @@
           - name: User roles
             href: ~/Use/User-Roles.md
           - name: Assign group-based licenses
-            href: ~/Use/Group-Based-Licencing.md
+            href: ~/Use/Group-Based-Licensing.md
           - name: Role assignment using Powershell
             href: ~/use/using-powershell-to-assign-roles.md
           - name: Timezones for Workplace Analytics
@@ -75,6 +75,7 @@
           - name: Percentage and average calculations
             href: ~/Use/Percentage-and-average-calculations.md
 - name: MyAnalytics
+  href: MyAnalytics/MyA-landing-page.md
   expanded: true
   items:
     - name: Overview
@@ -90,15 +91,15 @@
     - name: Setup
       items:
       - name: Checklist
-        href: MyAnalytics/Setup/Mya_setup_checklist.md
+        href: MyAnalytics/Setup/Mya-setup-checklist.md
       - name: Step One - Review the MyAnalytics privacy guide
         href: MyAnalytics/Overview/Privacy-Guide.md
       - name: Step Two - Configure user settings
-        href: MyAnalytics/Setup/Configure_MyA_User_Settings.md
+        href: MyAnalytics/Setup/Configure-MyA-User-Settings.md
       - name: Step Three - Check access to Office Graph
-        href: MyAnalytics/Setup/Check_Office_Graph.md
+        href: MyAnalytics/Setup/Check-Office-Graph.md
       - name: Step Four - Assign MyAnalytics licenses to users
-        href: MyAnalytics/Setup/Assign_Licenses.md
+        href: MyAnalytics/Setup/Assign-Licenses.md
       - name: Step Five - Verify that the Outlook add-in is installed
         href: MyAnalytics/Setup/Verify-Add-in.md
     - name: Use

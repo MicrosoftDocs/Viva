@@ -6,7 +6,7 @@ title: Using PS to assign users to AAD App
 description: This describes how to use powershell to assign Workplace Analytics Roles in AAD for your Organization
 author: rodonahu
 ms.author: rodonahu
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---

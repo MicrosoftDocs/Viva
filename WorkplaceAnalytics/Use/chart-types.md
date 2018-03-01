@@ -7,7 +7,7 @@ description: This article describes the different chart types and how to use the
 
 author: rodonahu
 ms.author: rodonahu
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---

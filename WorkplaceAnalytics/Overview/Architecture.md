@@ -6,7 +6,7 @@ title: Workplace Analytics - How it Works
 description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
 author: rodonahu
 ms.author: rodonahu
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: mya
 ---
@@ -47,17 +47,17 @@ Most organizations provide this data for the entire company to understand how th
 
 [[CONTENT NOTE - I DO NOT LIKE THIS FORMATTING NEED TO CHANGE ABOVE]]
 
+## Data outputs 
 
-## Data outputs
+**Output type**|**Example**|**Role that has access**
+-----|-----|-----
+De-Identified Row Level Data|[ExamplePersonQuery.csv](../Images/WpA/Overview/ExamplePersonQuery.md)|Analyst
+Meeting Query Output|[ExampleMeetingQuery.csv](../Images/WpA/Overview/ExampleMeetingQuery.md)|Analyst
+Meeting Query output with subject lines encrypted|[ExampleMeetingHASHQuery.csv](../Images/WpA/Overview/ExampleMeetingHASHQuery.md) |Analyst
+Group Query|[ExampleGroupQuery.csv](../Images/WpA/Overview/ExampleGroupQuery.md) |Analyst
+Visual Dashboards with Minimum Aggregation Threshold|-----|Analyst, Analyst (Limited)
+Data Sources |----- |Administrator 
 
-**Output type**|**SAMPLE**|**Role that has Access**
-:-----:|:-----:|:-----:
-De-Identified Row Level Data|[Sample.csv](../ExamplePersonQuery.csv)|Analyst
-Meeting Query Output|[Sample.csv](../ExampleMeetingQuery.csv)|Analyst
-Meeting Query output with subject lines encrypted|[Sample.csv](../ExampleMeetingHASHQuery.csv) |Analyst
-Group Query|[Sample.csv](../ExampleGroupQuery.csv) |Analyst
-Visual Dashboards with Minimum Aggregation Threshold ||Analyst, Analyst (Limited)
-Data Sources | | Administrator
 ## Privacy Options
 * Include Subject lines – As part of a meeting query, an administrator can choose to have meeting subject lines encrypted
 * Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased to a larger number as needed

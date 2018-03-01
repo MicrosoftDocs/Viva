@@ -6,7 +6,7 @@ title: MyAnalytics email digests
 description: MyAnalytics users receive email digests weekly that describe key highlights. 
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
@@ -17,7 +17,7 @@ As a MyAnalytics user, you will receive weekly digest emails that give you key h
 
 The following illustration shows some of the contents of this email: 
 
-<img src="../../Images/digest_email.png" width="75%" height="75%" alt="Weekly email digest">
+<img src="../../Images/digest-email.png" width="75%" height="75%" alt="Weekly email digest">
 
 <!---
 If you do not want to receive digest emails from MyAnalytics, you can opt out of the emails using the following steps:

@@ -6,7 +6,7 @@ title: Verify that the MyAnalytics add-in for Outlook is installed
 description: Verify that the MyAnalytics add-in for Outlook is installed
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
@@ -19,7 +19,7 @@ You can validate that the add-in is installed by looking in the Add-Ins list for
 
 1. [Sign in to Office 365](https://support.office.com/en-us/article/where-to-sign-in-to-office-365-for-business-e9eb7d51-5430-4929-91ab-6157c5a050b4?ui=en-US&rs=en-US&ad=US) with your work or school account.
 
-2. Select the app launcher icon (<img src="../../Images/app_launcher_icon.png" width="3%" height="3%" alt="Office 365 app launcher icon">) in the upper left and choose **Admin**.
+2. Select the app launcher icon (<img src="../../Images/app-launcher-icon.png" width="3%" height="3%" alt="Office 365 app launcher icon">) in the upper left and choose **Admin**.
 
     **Note:** The Admin tile appears only to Office 365 administrators.
 

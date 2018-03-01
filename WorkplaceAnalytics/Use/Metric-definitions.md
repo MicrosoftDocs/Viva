@@ -6,7 +6,7 @@ title: Workplace Analytics metric definitions
 description: This articles describes and defines each of the metrics available within Workplace Analytics.
 author: v-leash
 ms.author: v-leash
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---

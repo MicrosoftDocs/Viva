@@ -3,10 +3,10 @@
 # required metadata
 
 title: Workplace Analytics Getting Started Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+description: This list states what's needed to implement MyAnalytics in your organization
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
@@ -17,10 +17,10 @@ After you've purchased an E5 plan or a MyAnalytics add-on, you have to configure
 
 Review the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md).
 
-[Configure MyAnalytics user settings](../Setup/Configure-MyAnalytics-User-Settings.md)
+[Configure MyAnalytics user settings](../Setup/Configure-MyA-User-Settings.md)
 
-[Check that access to the Office Graph is enabled](../Setup/Check_Office_Graph.md).
+[Check that access to Office Graph is enabled](../Setup/Check-Office-Graph.md).
 
-[Assign MyAnalytics license to users](../Setup/Assign-Licenses.md).
+[Assign MyAnalytics licenses to users](../Setup/Assign-Licenses.md).
 
 [Verify that the MyAnalytics Outlook add-in is installed](../Setup/Verify-Add-in.md).

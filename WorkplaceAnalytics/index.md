@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Workplace Analytics
 description: Learn and Explore the resource for the internationalization (globalization + localizability + localization) related topics.
-ms.date: 2/6/2018
+ms.date: 02/6/2018
 ms.prod: wpa
 ms.author: rodonahu
 author: rodonahu
@@ -74,9 +74,9 @@ author: rodonahu
 
 Workplace Analytics has two offerings:
 
-- **Workplace Analytics**  provides a rich set of objective data to make better business decisions. Guided exploration dashboards highlight potential problem areas, while flexible queries answer targeted business questions about hiring strategies, new organizational structures, and business programs. Augment Office 365 data with business outcome information to establish best practices, predictive models, and benchmarks. Introduce change initiatives based on behavioral data and measure the success of programs over time. Specialized consulting services are available to help you quantify business challenges and implement change.
+- **Workplace Analytics**  provides a rich set of objective data to make better business decisions. Guided exploration dashboards highlight potential problem areas, while flexible queries answer targeted business questions about hiring strategies, new organizational structures, and business programs. Augment Office 365 data with business-outcome information to establish best practices, predictive models, and benchmarks. Introduce change initiatives based on behavioral data and measure the success of programs over time. Specialized consulting services are available to help you quantify business challenges and implement change.
 
-- **MyAnalytics** An organization’s productivity is defined by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to spend their time. MyAnalytics gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with.
+- **MyAnalytics**. An organization’s productivity is defined by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to spend their time. MyAnalytics gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with.
 
 <ul class="panelContent cardsA cols cols4">
     <li>
@@ -92,10 +92,10 @@ Workplace Analytics has two offerings:
                         <h3>Workplace Analytics</h3>
                         <p></p>
                         <ul>
-<a href="~/setup/set-up-workplace-analytics.md">  <li>Setup</li></a>
-<a href="~/overview/privacy-and-data-access.md">  <li>Privacy and data access</li></a>
-<a href="~/overview/Architecture.md">             <li>How it works</li></a>
-<a href="~/overview/getting-support.md">          <li>Get support</li></a>
+<a href="~/setup/set-up-workplace-analytics.md"><li>Setup</li></a>
+<a href="~/overview/privacy-and-data-access.md"><li>Privacy and data access</li></a>
+<a href="~/overview/Architecture.md"><li>How it works</li></a>
+<a href="~/overview/getting-support.md"><li>Get support</li></a>
                         </ul>
                     </div>
                 </div>
@@ -115,10 +115,10 @@ Workplace Analytics has two offerings:
                         <h3>MyAnalytics</h3>
                         <p></p>
                         <ul>
-<a href="~/myanalytics/setup/Mya_setup_checklist.md">  <li>Administrator's setup</li></a>
+<a href="~/myanalytics/setup/Mya-setup-checklist.md">  <li>Setup</li></a>
 <a href="~/myanalytics/overview/Privacy-Guide.md">     <li>Privacy guide</li></a>
-<li><a href="~/myanalytics/use/dashboard.md">Dashboard</a> | <a href="~/myanalytics/use/add-in.md">Outlook add-in</a> | <a href="~/myanalytics/use/email-digests.md">Email digests</a></li>
-<a href="~/overview/getting-support.md">               <li>Get support</li></a>
+<li><a href="~/myanalytics/use/dashboard.md">Dashboard</a> | <a href="~/myanalytics/use/add-in.md">Outlook add-in</a> | <a href="~/myanalytics/use/email-digests.md">Email digests</a>
+</li>
                         </ul>
                     </div>
                 </div>

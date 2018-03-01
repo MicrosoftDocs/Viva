@@ -6,7 +6,7 @@ title: MyAnalytics features
 description: High level 1000 foot view of the components to a prospective buyer content re-use from the Use section. Be at this level -- There's Add-in, there's Dashboard, there's weekly email report. Then, link to deeper content.
 author: rodonahu
 ms.author: rodonahu, v-pascha
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
