@@ -40,16 +40,8 @@ In this phase, you will run two meeting queries: an "all meetings" query that li
 In this step, generate a list of both included and excluded meetings that you will use to determine if the default exclusions are representative of your company’s meeting culture. It is not necessary or advisable to attempt 100% accuracy in your review. In this case, identifying general relevance is the goal.
 
 **Related topics**
-<!-- broken links: 
-[[How to create and run an “All meetings default” query using default meeting exclusions]]
-[[How to create and run a “Meetings excluded default” query]]
--->
-
-<!-- attempts to fix these broken links: -->
 
 [To create and run an “All meetings default” query using default exclusions](Create-custom-meeting-exclusions-rules.md#to-create-and-run-an-all-meetings-default-query-using-default-exclusions) 
-
-[How to create and run a “Meetings excluded default” query](../../WorkplaceAnalytics\Use\Create-custom-meeting-exclusions-rules.md#to-create-a-Meeting-excluded-default-query) 
 
 [How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-Meeting-excluded-default-query) 
 
@@ -139,7 +131,5 @@ Using the same process that you used to create the “default meetings excluded�
 Run and review meeting queries using your custom meeting exclusion rules, and then, as you did for the default exclusions, review the results for trends and relevancy.
 
 **Related topic**
-<!-- Fixing broken link 2 March 2018. Verify that this was the intended destination.
-[[How to create custom meeting exclusions]]
--->
+
 [Create custom meeting exclusions](../Use/Create-custom-meeting-exclusions-rules.md)
