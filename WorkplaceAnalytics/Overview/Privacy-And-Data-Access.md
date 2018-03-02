@@ -13,9 +13,12 @@ ms.prod: wpa
 # Workplace Analytics privacy and data access
 
 ## Introduction
+<!-- Removed per Jessalynn's review comment on 01 March 2018: 
 Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with, by combining organizational data that your company chooses to provide with email and calendar metadata from Office 365. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
-Go to [Get started with Workplace Analytics](../Get-Started/Get-started.md) to see what Workplace Analytics can do for you. As of July 1, 2017, Workplace Analytics is in category A of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657). It will be included in category C of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) at a later date. *Microsoft has made the commitment to be GDPR compliant. As such, Workplace Analytics has plans to implement GDPR protections in alignment with its worldwide introduction date of May 25th, 2018. [This blog](https://blogs.office.com/en-us/2017/11/16/microsoft-365-helps-businesses-increase-trust-and-innovation-through-compliance-with-compliance-manager-preview/) post describes how compliance manager empower's organizations to increase trust and innovation.*
+Go to [Get started with Workplace Analytics](../Get-Started/Get-started.md) to see what Workplace Analytics can do for you. 
+-->
+As of July 1, 2017, Workplace Analytics is in category A of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657). It will be included in category C of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) at a later date. *Microsoft has made the commitment to be GDPR compliant. As such, Workplace Analytics has plans to implement GDPR protections in alignment with its worldwide introduction date of May 25th, 2018. [This blog](https://blogs.office.com/en-us/2017/11/16/microsoft-365-helps-businesses-increase-trust-and-innovation-through-compliance-with-compliance-manager-preview/) post describes how compliance manager empower's organizations to increase trust and innovation.*
 
 Being aware of employees’ rights is a key component to ensuring a successful program using Workplace Analytics. It is important to consider ever-changing laws and regulations regarding *Workers Councils*, employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics. 
 
