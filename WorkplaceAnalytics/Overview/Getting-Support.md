@@ -2,15 +2,15 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
-author: rodonahu
-ms.author: rodonahu
+title: Get support for WpA
+description: How to take advantage of support options for Workplace Analytics
+author: rodonahu, v-pascha
+ms.author: rodonahu, v-pascha
 ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
-# Getting support
+# Get support
 
 <!-- Redid table per review comments from Jessalynn
 
