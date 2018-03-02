@@ -25,7 +25,7 @@ ms.prod: wpa
 |Channel|Description|How to access|
 |-------|-----------|---------------|
 |Support Documentation|Self-service information to help with setup and onboarding tasks, and tool-functionality and analysis questions|Through the Workplace Analytics product|
-|Workplace Analytics Fast Track|Personal guidance to help with setup and onboarding tasks, and tool-functionality and analysis questions|mailto:wpaft@Microsoft.com|
+|Workplace Analytics Fast Track|Personal guidance to help with setup and onboarding tasks, and tool-functionality and analysis questions|<mailto:wpaft@Microsoft.com>|
 |MSFT Support|Support on license-assignment and user-access issues|https://support.microsoft.com/en-us|
 |O365 Community|A space to learn and to share through Q & As with experts and engagement with other users|https://techcommunity.microsoft.com/t5/Office-365-Analytics/ct-p/Office365Analytics|
 |Insights|A collection of articles on productivity analytics, analysis inspiration, and education on problems and solutions|http://insights.office.com/|
