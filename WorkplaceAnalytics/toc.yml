@@ -1,0 +1,114 @@
+- name: Workplace Analytics
+  href: ~/index.md
+  expanded: true
+  items:
+    - name: Overview
+      items:
+        - name: Environment requirements
+          href: ~/Overview/Environment-Requirements.md
+       # - name: Architecture and How it Works
+       #   href: ~/Overview/Architecture.md
+        - name: Privacy and data access
+          href: ~/Overview/Privacy-and-Data-Access.md
+        - name: Get support
+          href: ~/Overview/Getting-Support.md
+    - name: Setup
+      items:
+      - name: Checklist
+        href: ~/Setup/Set-up-Workplace-Analytics.md
+      - name: Step One - Determine key personas and roles for implementation
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-one-determine-key-personas-and-roles-for-implementation
+      - name: Step Two - Assign licenses to population in scope for analysis
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-two-assign-licenses-to-population-in-scope-for-analysis
+      - name: Step Three - Assign roles to WpA Admin and Analysts
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-three-assign-roles-to-wpa-admin-and-analysts
+      - name: Step Four - Configure Workplace Analytics Settings
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-four-configure-workplace-analytics-settings
+      - name: Step Five - Prepare and upload organizational data
+        href: ~/setup/set-up-workplace-analytics.md#step-five-prepare-and-upload-organizational-data
+      - name: Step Six - Validate and verify data
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-six-validate-and-verify-data
+      - name: Step Seven - Configure Meeting Classifier
+        href: ~/Setup/Set-up-Workplace-Analytics.md#step-seven-set-up-meeting-exclusions
+    - name: Use
+      items:
+      - name: Administration
+        items:
+          - name: Workplace Analytics settings
+            href: ~/Use/Settings.md
+          - name: Prepare and upload organizational data
+            href: ~/Use/Prepare-and-upload-organizational-data.md
+          - name: Data sources
+            href: ~/Use/Data-Sources.md
+          - name: User roles
+            href: ~/Use/User-Roles.md
+          - name: Assign group-based licenses
+            href: ~/Use/Group-Based-Licensing.md
+          - name: Role assignment using Powershell
+            href: ~/use/using-powershell-to-assign-roles.md
+          - name: Timezones for Workplace Analytics
+            href: ~/Use/Timezones-for-Workplace-analytics.md
+      - name: Features
+        items:
+          - name: Explore metrics - Management and coaching
+            href: ~/Use/Explore-Metrics-management-and-coaching.md
+          - name: Explore metrics - Meetings overview
+            href: ~/Use/Explore-Metrics-meetings-overview.md
+          - name: Explore metrics - Week in the life
+            href: ~/Use/Explore-Metrics-week-in-the-life.md
+          - name: Explore metrics - Networks and collaboration
+            href: ~/Use/Explore-Metrics-Networks-and-Collaboration.md
+          - name: Chart types
+            href: ~/Use/Chart-Types.md
+          - name: Create queries
+            href: ~/Use/Create-Queries.md
+          - name: Understand meeting exclusions
+            href: ~/Use/Understand-meeting-exclusions.md
+          - name: Create custom meeting exclusion rules
+            href: ~/Use/Create-custom-meeting-exclusions-rules.md
+      - name: Metrics
+        items:
+          - name: Metric definition
+            href: ~/Use/metric-definitions.md
+          - name: Metrics glossary
+            href: ~/Use/Glossary.md
+          - name: Percentage and average calculations
+            href: ~/Use/Percentage-and-average-calculations.md
+- name: MyAnalytics
+  href: MyAnalytics/MyA-landing-page.md
+  expanded: true
+  items:
+    - name: Overview
+      items:
+        - name: Environment Requirements
+          href: MyAnalytics/Overview/Environment-Requirements.md
+   #     - name: Architecture
+   #       href: ./conceptual/index.md
+        - name: Privacy Guide
+          href: MyAnalytics/Overview/Privacy-Guide.md
+   #     - name: Getting Support
+   #       href: ./conceptual/index.md
+    - name: Setup
+      items:
+      - name: Checklist
+        href: MyAnalytics/Setup/Mya-setup-checklist.md
+      - name: Step One - Review the MyAnalytics privacy guide
+        href: MyAnalytics/Overview/Privacy-Guide.md
+      - name: Step Two - Configure user settings
+        href: MyAnalytics/Setup/Configure-MyA-User-Settings.md
+      - name: Step Three - Check access to Office Graph
+        href: MyAnalytics/Setup/Check-Office-Graph.md
+      - name: Step Four - Assign MyAnalytics licenses to users
+        href: MyAnalytics/Setup/Assign-Licenses.md
+      - name: Step Five - Verify that the Outlook add-in is installed
+        href: MyAnalytics/Setup/Verify-Add-in.md
+    - name: Use
+      items:
+      - name: Dashboard
+        href: MyAnalytics/Use/dashboard.md
+      - name: Add-in
+        href: MyAnalytics/Use/add-in.md
+      - name: Email Digests
+        href: MyAnalytics/Use/email-digests.md
+      - name: Tips
+        href: MyAnalytics/Overview/Tips.md
