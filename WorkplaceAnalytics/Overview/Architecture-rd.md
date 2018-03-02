@@ -28,9 +28,6 @@ By design, Workplace Analytics provide organizations with choice:
 Our [Privacy and data access document](Privacy-And-Data-Access.md) describes these considerations in greater detail.
 
 
-
-
-
 ## Data Inputs
 It is important to understand the data that is required to run the system, and the form that is generated that is accessed by analysts who can utilize the service.  The image below provides context into this. 
 
@@ -64,7 +61,7 @@ Data Sources | |Administrator
 * Minimum group size - By default our aggregated dashboards default to a minimum group size of 5, this can be increased to a larger number as needed
 
 ### Exclusion
-All 
+All exclusion occurs before metadata is processed within the Workplace Analytics data engine
 >[!Important]
 >By default, Private meetings and email with digital rights management enabled are automatically excluded.
 
