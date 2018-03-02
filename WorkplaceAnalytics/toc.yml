@@ -4,13 +4,13 @@
   items:
     - name: Overview
       items:
-        - name: Environment Requirements
+        - name: Environment requirements
           href: ~/Overview/Environment-Requirements.md
        # - name: Architecture and How it Works
        #   href: ~/Overview/Architecture.md
-        - name: Privacy and Data Access
+        - name: Privacy and data access
           href: ~/Overview/Privacy-and-Data-Access.md
-        - name: Get Support
+        - name: Get support
           href: ~/Overview/Getting-Support.md
     - name: Setup
       items:
