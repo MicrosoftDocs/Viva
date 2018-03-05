@@ -58,7 +58,7 @@ Trend line charts compare metric values over time. The default trend line is the
  ### To switch between the metrics (such as Emails or Meetings) 
  * Click the text or menu above the chart.
 
-## Distribuition charts 
+## Distribution charts 
 Distribution charts compare the distribution of metric values within a group. Each box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected.
 
 Each individual value within a group represents the average value for a person (for example: the person with the highest average is represented by the maximum point on the box plot).

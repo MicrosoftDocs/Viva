@@ -41,8 +41,8 @@ author: rodonahu
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Read our HBR Article</h3>
-                        <p>Three Behaviors That Drive Successful Sales People </p>
+                        <h3>HBR article</h3>
+                        <p>Three Behaviors That Drive Successful Salespeople </p>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ author: rodonahu
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Watch our Videos</h3>
+                        <h3>Videos</h3>
                         <p>Watch videos about Workplace Analytics</p>
                     </div>
                 </div>
@@ -70,13 +70,11 @@ author: rodonahu
     </li>
 </ul>
 
-## Workplace Analytics 
-
 Workplace Analytics has two offerings:
 
-- **Workplace Analytics**  provides a rich set of objective data to make better business decisions. Guided exploration dashboards highlight potential problem areas, while flexible queries answer targeted business questions about hiring strategies, new organizational structures, and business programs. Augment Office 365 data with business-outcome information to establish best practices, predictive models, and benchmarks. Introduce change initiatives based on behavioral data and measure the success of programs over time. Specialized consulting services are available to help you quantify business challenges and implement change.
+- **Workplace Analytics.** To understand how knowledge workers invest their time, you need insight into how they collaborate across the organization. Workplace Analytics quantifies Office 365 collaboration to give business decision-makers a powerful tool for evidence-based cultural transformation. Dashboards highlight potential problem areas through guided exploration, while custom queries offer flexible data access to create bespoke analyses. By augmenting Office 365 data with business outcome data, practitioners can identify best practices, develop predictive models, and establish organizational benchmarks. With add-on consulting services, Workplace Analytics solutions experts will help you use this data to identify business opportunities, implement change, and measure success.
 
-- **MyAnalytics**. An organization’s productivity is defined by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to spend their time. MyAnalytics gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with.
+- **MyAnalytics.** An organization’s productivity is defined by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to spend their time. MyAnalytics gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with.
 
 <ul class="panelContent cardsA cols cols4">
     <li>

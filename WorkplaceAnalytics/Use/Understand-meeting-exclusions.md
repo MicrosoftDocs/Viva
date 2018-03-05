@@ -40,8 +40,10 @@ In this phase, you will run two meeting queries: an "all meetings" query that li
 In this step, generate a list of both included and excluded meetings that you will use to determine if the default exclusions are representative of your company’s meeting culture. It is not necessary or advisable to attempt 100% accuracy in your review. In this case, identifying general relevance is the goal.
 
 **Related topics**
-[[How to create and run an “All meetings default” query using default meeting exclusions]]
-[[How to create and run a “Meetings excluded default” query]]
+
+[To create and run an “All meetings default” query using default exclusions](Create-custom-meeting-exclusions-rules.md#to-create-and-run-an-all-meetings-default-query-using-default-exclusions) 
+
+[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-Meeting-excluded-default-query) 
 
 ### Step two: Review query results for trends and relevance
 In this step, review the included and excluded meeting results for relevance and company collaboration trends. Reviewing for trends can be a subjective exercise, more art than science. Here again, it’s best to focus on relevance in general trends, rather than strive for 100% accuracy.
@@ -84,7 +86,9 @@ Bob’s Workout at Gym
 * Meeting 2000 was excluded by default due to only having 1 attendee, and based on the meeting subject and should continue to be excluded.
 
 **Related topic** 
-[[How to create and run a “Meetings excluded default” query]]
+
+[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-Meeting-excluded-default-query) 
+
 ### Review included meetings
 Our analyst is now reviewing the results of the **All meetings default settings** query, and notices the following:
 
@@ -129,4 +133,5 @@ Using the same process that you used to create the “default meetings excluded�
 Run and review meeting queries using your custom meeting exclusion rules, and then, as you did for the default exclusions, review the results for trends and relevancy.
 
 **Related topic**
-[[How to create custom meeting exclusions]]
+
+[Create custom meeting exclusions](../Use/Create-custom-meeting-exclusions-rules.md)
