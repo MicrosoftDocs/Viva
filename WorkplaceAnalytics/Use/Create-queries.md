@@ -215,3 +215,7 @@ Query criteria
 :-----:|:-----:|:-----:|:-----:
 Operations|Engineering|3/5/2017|12
 Operations|Engineering|3/12/2017|20
+
+### Related topic
+[View, download, and export query results](../Use/View-download-and-export-query-results.md)
+
