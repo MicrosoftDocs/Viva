@@ -43,7 +43,9 @@
       "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
       "searchScope": ["Workplace Analytics"]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "searchScope": { "MyAnalytics/**.md": ["Workplace Analytics","MyAnalytics"] }
+    },
     "template": [],
     "dest": "OfficeDocs-WorkplaceAnalytics"
   }
