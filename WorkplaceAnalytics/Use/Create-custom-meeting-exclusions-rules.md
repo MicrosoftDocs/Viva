@@ -55,7 +55,7 @@ In order to evaluate the relevance of the default meeting exclusions for your co
 ## How to create custom meeting exclusions
 After a review of the all meetings and default excluded meetings, you may decide to create custom meeting exclusion rules to more closely reflect your company’s meeting norms and culture.
 ### To create custom meeting exclusions rules (generic)
-1. On the **Queries** page, click the** Meeting exclusion**s tab.
+1. On the **Queries** page, click the **Meeting exclusions** tab.
 2. At the bottom of the page, click **Add exclusion**.
 3. In the line above the filters, enter a name for the exclusion rule.
 4. Under E**xcluded meetings where**, add the filters for the metrics you want to exclude.
