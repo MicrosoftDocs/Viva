@@ -193,7 +193,7 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 - Line of Business Data:
     - Scenario-Dependent: You should have line of business data for all employees of interest in the scenario you are analyzing
 > [!NOTE]
->  You can include up to 65 data attributes in your Org data file
+>  You can include up to 65 data attributes in your Org data file.
 
 >[!Important]
 >To help ensure privacy, we recommend not including employee names as any additional attribute. 
@@ -206,7 +206,7 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 
 
 ### To prepare your organizational data for upload to Workplace Analytics
-* Follow the instructions in the topic [[Prepare and upload organizational data - link]].
+* Follow the instructions in the topic [Prepare and upload organizational data](../use/Prepare-and-upload-organizational-data.md).
 
 Once the .csv file has been created, the Workplace Analytics administrator can upload it into the service.
 
