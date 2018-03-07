@@ -40,9 +40,12 @@
       "titleSuffix": "Workplace Analytics Office 365 ",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
-      "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues"
+      "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
+      "searchScope": ["Workplace Analytics"]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "searchScope": { "MyAnalytics/**.md": ["Workplace Analytics","MyAnalytics"] }
+    },
     "template": [],
     "dest": "OfficeDocs-WorkplaceAnalytics"
   }
