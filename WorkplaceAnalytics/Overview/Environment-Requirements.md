@@ -13,7 +13,7 @@ ms.prod: wpa
 # Environment Requirements
 
 ## Office 365 tenant requirements 
-Workplace Analytics requires an Office 365 tenant with Exchange Online.  [[CONTENT PLACEHOLDER - Mailboxes must have exchange online 1, 2 or 3 licenses assigned – awaiting content language from RD]]
+Workplace Analytics requires an Office 365 tenant with Exchange Online.  Mailboxes must have [Exchange Online Plan 1 or Plan 2 licenses assigned](https://products.office.com/en-us/exchange/compare-microsoft-exchange-online-plans).
 
 Currently, Workplace Analytics supports multi-tenant and vNext environments. Each mailbox that you want to license must have its data stored in Exchange Online. 
 
