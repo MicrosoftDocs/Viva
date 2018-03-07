@@ -1,4 +1,4 @@
---
+---
 # Metadata Sample
 # required metadata
 
