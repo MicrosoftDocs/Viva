@@ -23,12 +23,12 @@ Use this checklist to help assemble the people and obtain the data and configura
 | Task | Owners | Outcome |
 |------|--------|---------|
 |  [1 - Determine key personas and assign roles for implementation](#step-one-determine-key-personas-and-roles-for-implementation)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified      |
-| [2 - Assign licenses to population in scope for analysis](#step-two-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed     |
-|   [3 - Assign roles to WpA Admin and Analysts](#step-three-assign-roles-to-Workplace-Analytics-Admins-and-Analysts)   |    Office 365 global administrator   |     Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.   |
+|  [2 - Assign licenses to population in scope for analysis](#step-two-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed     |
+|  [3 - Assign roles to Workplace Analytics Admins and Analysts](#step-three-assign-roles-to-workplace-analytics-admins-and-analysts)   |    Office 365 global administrator   |     Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.   |
 |  [4 - Configure Workplace Analytics settings](#step-four-configure-workplace-analytics-settings)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
-|  [5 - Prepare and upload organizational data](#Step-five-Prepare-and-upload-organizational-data)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |     [[CONTENT PLACEHOLDER]]    |
+|  [5 - Prepare and upload organizational data](#step-five-prepare-and-upload-organizational-data)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |     [[CONTENT PLACEHOLDER]]    |
 |  [6 - Validate and verify data](#step-six-validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
-|    [7 - Set up meeting exclusions](#Step-seven-Set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
+|    [7 - Set up meeting exclusions](#step-seven-set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
 
 
 When you have finished all these steps, you are ready to [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md).
@@ -193,7 +193,7 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 - Line of Business Data:
     - Scenario-Dependent: You should have line of business data for all employees of interest in the scenario you are analyzing
 > [!NOTE]
->  You can include up to 65 data attributes in your Org data file
+>  You can include up to 65 data attributes in your Org data file.
 
 >[!Important]
 >To help ensure privacy, we recommend not including employee names as any additional attribute. 
@@ -206,7 +206,7 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 
 
 ### To prepare your organizational data for upload to Workplace Analytics
-* Follow the instructions in the topic [[Prepare and upload organizational data - link]].
+* Follow the instructions in the topic [Prepare and upload organizational data](../use/Prepare-and-upload-organizational-data.md).
 
 Once the .csv file has been created, the Workplace Analytics administrator can upload it into the service.
 

@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Get support for WpA
+title: Get support for Workplace Analytics
 description: How to take advantage of support options for Workplace Analytics
 author: rodonahu, v-pascha
 ms.author: rodonahu, v-pascha
@@ -16,7 +16,7 @@ ms.prod: wpa
 
 |Channel|What|Why|Email/Website|
 |-------|----|---|-------------|
-|Support Documentation|Onboarding and customer success self-service|<ul><li>Setup / Onboarding</li><li>Tool Functionality</li><li>Analysis</li></ul>|Accessed via Workplace Analytics product|
+|Support documentation|Onboarding and customer success self-service|<ul><li>Setup / Onboarding</li><li>Tool Functionality</li><li>Analysis</li></ul>|Accessed via Workplace Analytics product|
 |Workplace Analytics Fast Track|Onboarding and customer success guidance|<ul><li>Setup / Onboarding</li><li>Tool Functionality</li><li>Analysis</li></ul>|wpaft@Microsoft.com|
 |MSFT Support|Support on License Assignment and User Access issues|<ul><li>Ongoing product technical help</li></ul>|https://support.microsoft.com/en-us|
 |O365 Community|Space to share experiences, engage and learn from experts|<ul><li>Q&As with experts</li><li>Engage with other users</li><li>Discover helpful content</li></ul>|https://techcommunity.microsoft.com/t5/Office-365-Analytics/ct-p/Office365Analytics|
@@ -25,8 +25,8 @@ ms.prod: wpa
 
 |Channel|Description|How to access|
 |-------|-----------|---------------|
-|Support Documentation|Self-service information to help with setup and onboarding tasks, and tool-functionality and analysis questions.|Through the Workplace Analytics product|
-|Workplace Analytics Fast Track|Personal guidance to help with setup and onboarding tasks, and tool-functionality and analysis questions.|<mailto:wpaft@Microsoft.com>|
-|MSFT Support|Support on license-assignment and user-access issues.|https://support.microsoft.com/en-us|
-|O365 Community|A space to learn and to share through Q & As with experts and through engagement with other users.|https://techcommunity.microsoft.com/t5/Office-365-Analytics/ct-p/Office365Analytics|
-|Insights|A collection of articles on productivity analytics, analysis inspiration, and education on problems and solutions.|http://insights.office.com/|
+|Support documentation|Self-service information to help with setup, onboarding, features and functionality, and analysis.|In Workplace Analytics, click Help.|
+|Workplace Analytics Fast Track|Personal guidance to help with setup, onboarding, features and functionality, and analysis.|<mailto:wpaft@Microsoft.com>|
+|MSFT Support|Support for assigning licenses and issues with user access.|https://support.microsoft.com/en-us|
+|Office 365 Analytics Community| The space to share experiences, engage and learn from experts.|https://techcommunity.microsoft.com/t5/Office-365-Analytics/ct-p/Office365Analytics|
+|Insights|A collection of articles from the leading edge of productivity analytics. Resources to examine new technologies that are helping people and organizations create more time—and ultimately work smarter.|http://insights.office.com/|
