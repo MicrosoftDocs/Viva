@@ -87,7 +87,7 @@ Bob’s Workout at Gym
 
 **Related topic** 
 
-[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-Meeting-excluded-default-query) 
+[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-meeting-excluded-default-query) 
 
 ### Review included meetings
 Our analyst is now reviewing the results of the **All meetings default settings** query, and notices the following:
