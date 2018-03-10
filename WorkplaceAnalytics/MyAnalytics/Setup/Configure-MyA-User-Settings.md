@@ -5,7 +5,7 @@
 title: Configure MyAnalytics user settings
 description: Set up user settings. These are part of the MyA setup checklist. 
 author: rodonahu
-ms.author: rodonahu, v-pascha
+ms.author: v-pascha
 ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
