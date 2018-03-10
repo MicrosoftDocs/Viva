@@ -4,7 +4,7 @@
 
 title: Percentage and average calculations in Workplace Analytics
 description: This topic contains information and best practices to help ensure that analysts accurately calculate percentages and averages within Workplace Analytics. 
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
 ms.topic: get-started-article
