@@ -34,6 +34,12 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "workplace-analytics/common",
+      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
+      "branch": "live",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
@@ -42,5 +48,11 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true
+  "need_generate_pdf_url_template": true,
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
+  "need_generate_pdf": false
 }
