@@ -4,7 +4,7 @@
 
 title: To see info about an email message, and insights
 description: How-to steps -- See information about a specific email message, and general insights. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
 ms.topic: get-started-article

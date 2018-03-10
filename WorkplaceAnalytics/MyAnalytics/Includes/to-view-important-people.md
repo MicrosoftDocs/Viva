@@ -4,7 +4,7 @@
 
 title: To view your Important people list
 description: How-to steps -- View your Important people list. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
 ms.topic: get-started-article

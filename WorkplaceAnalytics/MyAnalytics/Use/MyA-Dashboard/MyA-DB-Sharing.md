@@ -4,7 +4,7 @@
 
 title: Sharing
 description: How to share your stats with others
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
 ms.topic: get-started-article

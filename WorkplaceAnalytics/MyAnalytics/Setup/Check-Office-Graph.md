@@ -4,7 +4,7 @@
 
 title: Check that access to the Office Graph is enabled
 description: Check that Office Graph (required to show MyAnalytics statistics in Delve) is enabled.
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/15/2018
 ms.topic: get-started-article

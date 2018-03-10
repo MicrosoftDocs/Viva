@@ -4,7 +4,7 @@
 
 title: Email read statistics
 description: What proportion of recipients opened your messages? 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/07/2018
 ms.topic: get-started-article

@@ -4,7 +4,7 @@
 
 title: Unread emails
 description: What to do with MyA cards about unread emails. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
 ms.topic: get-started-article

@@ -4,7 +4,7 @@
 
 title: MyAnalytics dashboard
 description: All the individual dashboard topics, displayed as one.
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/15/2018
 ms.topic: get-started-article

@@ -4,7 +4,7 @@
 
 title: To do card
 description: Purpose of to-do cards and how they come about.  
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
 ms.topic: get-started-article

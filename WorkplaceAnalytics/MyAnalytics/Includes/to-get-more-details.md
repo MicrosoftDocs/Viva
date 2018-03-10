@@ -4,7 +4,7 @@
 
 title: To get more details about to-do items
 description: How-to steps -- Get more details about to-do items. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
 ms.topic: get-started-article

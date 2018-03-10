@@ -4,7 +4,7 @@
 
 title: To change your weekly goals
 description: How-to steps -- Edit your goals. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
 ms.topic: get-started-article

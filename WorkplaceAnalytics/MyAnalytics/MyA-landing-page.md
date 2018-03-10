@@ -5,7 +5,7 @@ description: Brief introduction to MyAnalytics, with links to further informatio
 ms.date: 03/01/2018
 ms.prod: mya
 ms.author: v-pascha
-author: v-pascha
+author: paul9955
 
 ---
 # MyAnalytics
