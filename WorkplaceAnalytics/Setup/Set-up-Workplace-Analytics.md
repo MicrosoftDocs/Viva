@@ -22,8 +22,8 @@ Use this checklist to help assemble the people and obtain the data and configura
 
 | Task | Owners | Outcome |
 |------|--------|---------|
-|  [1 - Determine key personas and assign roles for implementation](#step-one-determine-key-personas-and-roles-for-implementation)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified.     |
-|  [2 - Assign licenses to population in scope for analysis](#step-two-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed     |
+|  [1 - Determine key personas and assign roles for implementation](#step-one-determine-key-personas-and-roles-for-implementation)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified     |
+|  [2 - Assign licenses to population in scope for analysis](#step-two-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed   |
 |  [3 - Assign roles to Workplace Analytics Admins and Analysts](#step-three-assign-roles-to-workplace-analytics-admins-and-analysts)   |    Office 365 global administrator   |     Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.   |
 |  [4 - Configure Workplace Analytics settings](#step-four-configure-workplace-analytics-settings)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
 |  [5 - Prepare and upload organizational data](#step-five-prepare-and-upload-organizational-data)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |     [[CONTENT PLACEHOLDER]]    |
@@ -69,25 +69,23 @@ You can use Office 365 PowerShell to do a bulk assignment of Workplace Analytics
 
 [How to assign bulk licenses](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 
-
 ### Mailboxes not fully migrated to Office 365 Exchange Online
 If your organization has not fully migrated to Office 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Office 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with the following options.
 ### Options for mailboxes hosted using Exchange on-premises
 * Migrate these mailboxes to Office 365 Exchange Online
 * Contact the FastTrack team to understand the process for analyzing these mailboxes (this requires additional work streams within your organization).
 
-
 ## Step three: Assign roles to Workplace Analytics admins and analysts
 
 * **Owner** - Office 365 global administrator
-* **Task** - Assign users for administrators and data analysts to Workplace Analytics service
+* **Task** - Assign users for administrators and data analysts to Workplace Analytics service.
 * **Outcome** - Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.
 
 To allow administrators to set system defaults, privacy settings, upload and verify organizational data, and to allow data analysts to be able to use Workplace Analytics, you must assign users to the Workplace Analytics service.
 
 ### Workplace Analytics roles and the level of access
 * **Analyst role** - Full access to all service features, except Admin. This role is used for the analyst who requires the most complete access to the data.
-* **Analyst (Limited Access) role** - Access to Home page, Explore metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore the metrics dashboards
+* **Analyst (Limited Access) role** - Access to Home page, Explore metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore the metrics dashboards.
 * **Administrator role** - Access to Admin and Data Sources features. This role is used for the Workplace Analytics administrator to set system defaults, privacy settings, upload, and verify organizational data.
 
 ### To assign users to Workplace Analytics
@@ -176,14 +174,14 @@ Organizational data is the information about employees that your company provide
     - Employee Surveys (Engagement, Manager Feedback, Culture)
     - Performance Management Systems or Quota Attainment Systems
     - CRM Systems
-- Workplace Analytics Org Data is structured as a flat file with each row representing one person with columns representing attribute fields
+- Workplace Analytics org dData is structured as a flat file with each row representing one person with columns representing attribute fields.
 
 ### How is it used?
-- Provides context for the mailboxes that enables Workplace Analytics to calculate metrics based on the relationship of the Org Data attributes
-- Enables the user to filter and group data in meaningful ways and generate custom metrics
+- Provides context for the mailboxes that enables Workplace Analytics to calculate metrics based on the relationship of the Org Data attributes.
+- Enables the user to filter and group data in meaningful ways and generate custom metrics.
 
 ### How often should it be refreshed?
-To account for organization changes, it is recommended to refresh the data monthly
+To account for organization changes, it is recommended to refresh the data monthly.
 When loading your data the first time, Workplace Analytics loads 13 months of data.  Ideally, you would load 13 dated rows of organizational data for each employee.
 
 #### Who should be included in the org data file?
