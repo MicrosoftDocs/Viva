@@ -12,7 +12,7 @@ ms.prod: wpa
 ---
 # Privacy settings considerations for Workplace Analytics 
 
-[[INTRO CONTENT PLACEHOLDER]]
+This topic discusses various considerations that Workplace Analytics admins should explore when deciding on privacy settings. 
 
 ## Minimum group size
 A minimum group size helps maintain employee privacy by ensuring that specific people are not easily identified by the attributes of the group. 
@@ -67,22 +67,17 @@ If you wanted to exclude all emails with the terms “confidential,” “ACP,�
 #### Keyword exclusion logic examples
 
 
-Column A | Column B | Column C
+Term from subject line to exclude | Actual subject line	 | Excluded
 ---------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
-
-Term from subject line to exclude	Actual subject line	Excluded
-legal;acquisition	Verify this is LEGAL 	Yes - Case is ignored
-legal;acquisition	Is this illegal	No – Does not match partial words, and did not exclude illegal
-legal;acquisition	Acquisitions are finalized	No - Does not match partial words, and did not exclude acquisitions
- legal;acquisition	 Is this a legal acquisition	 Yes  - Excluded both legal and aquisition
+ legal;acquisition | Verify this is LEGAL | Yes - Case is ignored
+ legal;acquisition | Is this illegal | No – Does not match partial words, and did not exclude illegal
+ legal;acquisition | Acquisitions are finalized | No - Does not match partial words, and did not exclude acquisitions
+ legal;acquisition |Is this a legal acquisition | Yes  - Excluded both legal and aquisition
 
  > [!NOTE]
 >When adding the subject line terms to exclude from analysis, Workplace Analytics may not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ### Related topics 
-[[settings]]
+[Configure settings for Workplace Analytics](../Use/Settings.md)
 
-[[Privacy]]
+[Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md)
