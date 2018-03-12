@@ -12,8 +12,6 @@ ms.prod: wpa
 ---
 # Meeting exclusions in Workplace Analytics
 
-[[CONTENT NOTE - This is a placeholder topic. Update content with new process from FastTrack]]
-
 Workplace Analytics uses activities stored in a person’s Office 365 email and calendar to reveal internal and external collaboration trends. However, a person’s calendar and email can contain a diverse set of activities (such as personal meetings, work-related social activities, all-day training meetings, and so forth) that are not relevant to work-related collaboration, and if included in the metrics, can skew query results.
 
 Analysts can use the **Meeting exclusions** feature to create custom meeting exclusions that help ensure query results accurately represent relevant meeting norms within their company. Or, analysts may choose to use the default meeting exclusions that exclude a set of meetings that would commonly fall outside relevant collaboration for analysis.
@@ -62,25 +60,12 @@ In this step, review the included and excluded meeting results for relevance and
 ### Review excluded meetings
 An analyst at Company A is reviewing results of the **Default meetings excluded** query and notices the following:
 
-Column A | Column B | Column C
----------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
+Meeting ID | Subject | Attendees | Duration
+---------|---------- |---------|---------
+ 1000 | Quarterly Client Budget Review | 251 attendees |6 hours
+ 2000 | Bob’s Workout at Gym | 1 attendee | 1.5 hours
 
 **Default meetings excluded**
-Meeting ID
-Subject
-Attendees
-Duration
-1000
-Quarterly Client Budget Review
-251 attendees
-6 hours
-2000
-Bob’s Workout at Gym
-1 attendee
-1.5 hours
 
 * Meeting 1000 was excluded based on the default settings for number of attendees. However, based on the meeting subject and the potential for high person-hours impact, the analyst may conclude that this meeting is work-relevant and should be included. Also, if there are other, similar meetings, the analyst could decide to create custom meeting exclusion rules with a higher attendee threshold.
 * Meeting 2000 was excluded by default due to only having 1 attendee, and based on the meeting subject and should continue to be excluded.
@@ -94,25 +79,12 @@ Our analyst is now reviewing the results of the **All meetings default settings*
 
 **All meetings default settings**
 
-Column A | Column B | Column C
----------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
+Meeting ID | Subject | Attendees | Duration
+---------|----------|--------- |---------
+ 3000 | Bob’s Surprise Party | 249 attendees | 7.5 hours
+ 4000 | FY17 Sales Strategy Meeting | 8 attendees | 2 hours
 
 
-Meeting ID
-Subject
-Attendees
-Duration
-3000
-Bob’s Surprise Party
-249 attendees
-7.5 hours
-4000
-FY17 Sales Strategy Meeting
-8 attendees
-2 hours
 * Meeting 3000 was included by default based on the default settings for number of attendees. However, based on the meeting subject, the analyst may conclude that this meeting is not work-relevant and should be excluded. This meeting could be excluded using relevant keywords in the subject line such as "Party".
 * Meeting 4000 was included, and based on the meeting subject should continue to be included.
 
