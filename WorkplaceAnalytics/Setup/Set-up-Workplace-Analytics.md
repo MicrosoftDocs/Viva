@@ -4,7 +4,7 @@
 
 title: Workplace Analytics Setup Checklist
 description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/16/2018
 ms.topic: get-started-article

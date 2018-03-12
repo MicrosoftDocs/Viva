@@ -4,7 +4,7 @@
 
 title: Important people
 description: How to manage the Important people list and how this list is used (such as alerting you about missed emails).
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
 ms.topic: get-started-article

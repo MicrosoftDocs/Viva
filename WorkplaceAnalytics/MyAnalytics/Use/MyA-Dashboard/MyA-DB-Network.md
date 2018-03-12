@@ -4,7 +4,7 @@
 
 title: Network
 description: How you spent your time with the people you interact with in meetings or in email. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
 ms.topic: get-started-article

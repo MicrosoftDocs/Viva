@@ -4,7 +4,7 @@
 
 title: ExampleMeetingQuery
 description: ExampleMeetingQuery file to hold example ExampleMeetingQuery.csv
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/27/2018
 ms.topic: get-started-article

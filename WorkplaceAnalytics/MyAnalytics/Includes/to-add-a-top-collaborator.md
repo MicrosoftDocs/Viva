@@ -4,7 +4,7 @@
 
 title: To add a top collaborator
 description: How-to steps -- Add a top collaborator. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
 ms.topic: get-started-article

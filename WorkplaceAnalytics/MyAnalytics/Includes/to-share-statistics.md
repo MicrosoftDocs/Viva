@@ -4,7 +4,7 @@
 
 title: To share statistics
 description: How-to steps -- Share your stats with others. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
 ms.topic: get-started-article
