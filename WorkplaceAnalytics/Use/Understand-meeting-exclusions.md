@@ -24,7 +24,7 @@ By default, Workplace Analytics excludes the following types of meetings from qu
 * Meetings with 250 or more attendees
 * Cancelled Meetings
 
-> [!NOTE]
+> [!Note]
  To respect user privacy, meetings marked as private and/or confidential are always excluded from meeting query calculations.
 
 ## Before in-depth analysis, validate default meeting exclusions

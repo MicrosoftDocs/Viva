@@ -24,7 +24,7 @@ Being aware of employees’ rights is a key component to ensuring a successful p
 
 Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in Workplace Analytics. 
 
->[!IMPORTANT]
+>[!Important]
 >Please consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
 
 This document introduces the privacy controls available to Workplace Analytics administrators. You control both the data and access to the data in Workplace Analytics.

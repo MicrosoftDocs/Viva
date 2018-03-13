@@ -18,7 +18,7 @@ After-hours time consists of any accepted meeting time or email activity that yo
 
 [!INCLUDE [Check your Outlook settings](../../Includes/to-check-your-outlook-settings.md)]
 
-> [!NOTE]  
+> [!Note]  
 > After hours is an estimate only and is not meant to reflect actual hours worked. You can compare how we calculate the times for [Meetings](MyA-DB-Meetings.md) and for [Email](MyA-DB-Emails.md). 
 
 See [Tips for after hours](../../Overview/Tips.md#tips-for-after-hours) for suggestions related to work-life balance.

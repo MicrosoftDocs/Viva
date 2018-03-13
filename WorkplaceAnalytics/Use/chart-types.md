@@ -82,7 +82,7 @@ For example: When you set chart display to group by _level_, all charts in all s
 1. If needed, click **Settings and filters**. 
 2. Under **Chart display**, in the **Time range** menu, select the period you want and then click **Apply**. 
 
-> [!NOTE]
+> [!Note]
 > The time range options encompass the most recent data loaded and uses the following logic.<ul><li>A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.</li><li>For a week which starts in one month and ends in the following month, the data is associated with the month in which the week begins.</li></ul>
 
 ### To change how the visuals grouped on the page 
