@@ -1,6 +1,7 @@
 ---
 # Metadata Sample
 # required metadata
+ROBOTS: NOINDEX,FOLLOW
 
 title: Workplace Analytics - How it Works
 description: This topic describes the roles and responsibilites for a Workplace Analytics data science service project. 
