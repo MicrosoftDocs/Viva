@@ -15,7 +15,8 @@ ms.prod: mya
 
 You can opt out of your data being used to calculate aggregate statistics for your organization. For example, if you opt out, your data will not be used to calculate statistics on the average time people in your organization spend in meetings or in email. 
 
-**Note:** If you opt out, you will no longer be able to access your personal dashboard. 
+> [!NOTE] 
+> If you opt out, you will no longer be able to access your personal dashboard. 
 
 [!INCLUDE [Opt out of MyAnalytics](../../Includes/to-opt-out-of-mya.md)]
  

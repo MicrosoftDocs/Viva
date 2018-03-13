@@ -15,11 +15,17 @@ ms.prod: wpa
 
 ## MyAnalytics licensing requirements
 
-* Office 365 Enterprise E3 cloud-hosted mailbox + MyAnalytics add-on license
-    
+* Office 365 Enterprise E1 cloud-hosted mailbox + MyAnalytics add-on license
     or
-
+* Office 365 Enterprise E3 cloud-hosted mailbox + MyAnalytics add-on license
+    or
+* Office 365 Education E3 cloud-hosted mailbox + MyAnalytics add-on license
+    or
 * Office 365 Enterprise E5 cloud-hosted mailbox
+    or
+* Office 365 Education E5 cloud-hosted mailbox
+    or
+* Office 365 Nonprofit E5 cloud-hosted mailbox
 
 ## Support of environments 
  

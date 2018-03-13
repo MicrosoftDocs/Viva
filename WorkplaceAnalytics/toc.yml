@@ -40,8 +40,8 @@
             href: ~/Use/Prepare-and-upload-organizational-data.md
           - name: Data sources
             href: ~/Use/Data-Sources.md
-          - name: User roles
-            href: ~/Use/User-Roles.md
+        #  - name: User roles
+        #    href: ~/Use/User-Roles.md
           - name: Assign group-based licenses
             href: ~/Use/Group-Based-Licensing.md
           - name: Role assignment using Powershell

@@ -93,8 +93,7 @@ For the users that you choose to include, you can decide to exclude data based u
 - Email address and domain. You can exclude emails and meetings from, or to, specific users, or all users from a domain.
 
 >[!Note]
->Exclusion occurs before metadata is processed within Workplace Analytics
-
+>Exclusion occurs before metadata is processed within Workplace Analytics. 
 
 ### Level of detail displayed
 

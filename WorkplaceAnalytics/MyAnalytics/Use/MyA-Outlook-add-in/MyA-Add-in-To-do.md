@@ -22,6 +22,11 @@ If you have one or more of these automatically generated tasks, a summary card i
 
 <img src="../../../Images/To-do-page-1.PNG" width="40%" height="40%" alt="To-do card">
 
+
+> [!NOTE] 
+> The To-do card is available only in English. 
+
+
 [!INCLUDE [Get more details about to-do items](../../Includes/to-get-more-details.md)]
 
 To mark a to-do item as done, click **Mark as done**. To-do cards disappear after two weeks or after you mark them as done.  
