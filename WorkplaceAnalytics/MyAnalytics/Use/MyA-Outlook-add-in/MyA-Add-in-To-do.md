@@ -22,8 +22,10 @@ If you have one or more of these automatically generated tasks, a summary card i
 
 <img src="../../../Images/To-do-page-1.PNG" width="40%" height="40%" alt="To-do card">
 
-> [!NOTE]
+
+> [!NOTE] 
 > The To-do card is available only in English. 
+
 
 [!INCLUDE [Get more details about to-do items](../../Includes/to-get-more-details.md)]
 
