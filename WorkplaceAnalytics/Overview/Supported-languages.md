@@ -22,6 +22,7 @@ Workplace Analytics user interface is currently available in English only. Howev
 
 > [!TIP]
 > Content within the organizational data may be in languages other than English.
+
 ## Privacy settings
 
 In [Privacy settings](../use/settings#privacy-settings), when adding the subject line terms to exclude from analysis, Workplace Analytics may not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
