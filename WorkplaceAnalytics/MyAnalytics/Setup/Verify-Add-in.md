@@ -21,11 +21,13 @@ You can validate that the add-in is installed by looking in the Add-Ins list for
 
 2. Select the app launcher icon (<img src="../../Images/app-launcher-icon.png" width="3%" height="3%" alt="Office 365 app launcher icon">) in the upper left and choose **Admin**.
 
-    **Note:** The Admin tile appears only to Office 365 administrators.
+    > [!Note] 
+    > The Admin tile appears only to Office 365 administrators. 
 
 3. Click the link to the new admin center that is shown in a banner on the top of the page.
 
-    **Note:** You can see the old admin center by clicking the “Go to old admin center” button on the top right corner of the new admin center.
+    > [!Note] 
+    > You can see the old admin center by clicking the “Go to old admin center” button on the top right corner of the new admin center. 
 
 4. In the admin center preview, click **Menu**, click **Settings**, and then click **Services & add-ins**.
 
