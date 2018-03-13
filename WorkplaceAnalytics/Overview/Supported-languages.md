@@ -20,8 +20,6 @@ Workplace Analytics user interface is currently available in English only. Howev
 ![Query name and description](../Images/WpA/Overview/query-name-description.png)
 * The organizational data column headers when [preparing and uploading organizational data](../Use/Prepare-and-upload-organizational-data.md)
 
-> [!TIP]
-> Content within the organizational data may be in languages other than English.
 
 ## Privacy settings
 
