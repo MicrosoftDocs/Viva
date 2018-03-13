@@ -91,7 +91,8 @@ When enabling MyAnalytics for the organization, admins can make the following ch
 2.	What the licensed user’s initial default setting is for contributing to Incremental Data.
     * Admins can configure MyAnalytics to be default off, meaning that licensed users must individually opt-in to MyAnalytics in order to contribute to Incremental Data and have access to their dashboard and Outlook add-in. Alternatively, MyAnalytics can be configured to be default on, meaning that licensed users will automatically contribute to Incremental Data and have access to their dashboard and Outlook add-in, but can subsequently opt out through the Settings menu.
 
-      **Note:** Licensed users need to be in the opted-in state in order to contribute to Incremental Data and access their MyAnalytics experience. If a user opts out, they lose access to their MyAnalytics experience.
+    > [!NOTE] 
+    > Licensed users need to be in the opted-in state in order to contribute to Incremental Data and access their MyAnalytics experience. If a user opts out, they lose access to their MyAnalytics experience. 
 
 3.	Which users in sensitive roles who should not ever contribute to Incremental Data.
     * Some organizations may have users in roles that may be deemed unsuitable for contributing to Incremental Data. To support this, MyAnalytics provides admins the ability to mark such users as “excluded.” Excluded users will not be able to opt-in to contribute to Incremental Data. However, the MyAnalytics experience will still be available to such users provided they are licensed.
