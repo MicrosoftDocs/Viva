@@ -67,7 +67,6 @@ The organizational data set is combined with the Office 365 email and calendar m
 
 Please note that other information provided in the organizational data set is exposed in Workplace Analytics dashboards and reports. Care must be taken to ensure the data set does not include personal data (such as employee ID).
 
-
 ## *Data Outputs*
 
 **Output type**|**Example**|**Role that has access**
@@ -83,8 +82,10 @@ Data Sources | |Administrator
 
 ## Privacy settings
 Workplace Analytics has three types of administrator controls, User Inclusion, User Data Exclusion, and Level of Detail Displayed to enable you to define specific criteria that will exclude meetings and emails from analysis.
+
 ### User inclusion
 You decide which users to include by only assigning Workplace Analytics licenses to those people.
+
 ### User data exclusion
 For the users that you choose to include, you can decide to exclude data based upon the following:
 
