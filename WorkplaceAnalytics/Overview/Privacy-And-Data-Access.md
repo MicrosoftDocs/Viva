@@ -72,17 +72,17 @@ Please note that other information provided in the organizational data set is ex
 
 **Output type**|**Example**|**Role that has access**
 -----|-----|-----
-De-Identified Row Level Data|[Sample.csv](~/images/WpA/Overview/ExamplePersonQuery.md)|Analyst
-Meeting Query Output|[Sample.csv](../ExampleMeetingQuery.csv)|Analyst
-Meeting Query output with subject lines encrypted|[Sample.csv](../ExampleMeetingHASHQuery.csv) |Analyst
-Group Query|[Sample.csv](../ExampleGroupQuery.csv) |Analyst
+De-Identified Row Level Data|[ExamplePersonQuery.csv](~/images/WpA/Overview/ExamplePersonQuery.md)|Analyst
+Meeting Query Output|[ExampleMeetingQuery.csv](~/images/WpA/Overview/ExampleMeetingQuery.md)|Analyst
+Meeting Query output with subject lines encrypted|[ExampleMeetingHASHQuery.csv](~/images/WpA/Overview/ExampleMeetingHASHQuery.md) |Analyst
+Group Query|[ExampleGroupQuery.csv](~/images/WpA/Overview/ExampleGroupQuery.md) |Analyst
 -----|-----|-----
 Visual Dashboards with Minimum Aggregation Threshold||Analyst, Analyst (Limited)
 Data Sources | |Administrator
 
 
 ## Privacy settings
-Workplace Analytics has three types of administrator controls, User Inclusion, User Data Exclusion and Level of Detail Displayed to enable you to define specific criteria that will exclude meetings and emails from analysis.
+Workplace Analytics has three types of administrator controls, User Inclusion, User Data Exclusion, and Level of Detail Displayed to enable you to define specific criteria that will exclude meetings and emails from analysis.
 ### User inclusion
 You decide which users to include by only assigning Workplace Analytics licenses to those people.
 ### User data exclusion

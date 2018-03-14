@@ -46,6 +46,19 @@ Header information from Meetings|*At a minimum, the above data fields are requir
 >[!Important]
 >Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 
+## Data Outputs DEBUG
+
+**Output type**|**Example**|**Role that has access**
+-----|-----|-----
+De-Identified Row Level Data|[ExamplePersonQuery.csv](~/images/WpA/Overview/ExamplePersonQuery.md)|Analyst
+Meeting Query Output|[ExampleMeetingQuery.csv](~/images/WpA/Overview/ExampleMeetingQuery.md)|Analyst
+Meeting Query output with subject lines encrypted|[ExampleMeetingHASHQuery.csv](~/images/WpA/Overview/ExampleMeetingHASHQuery.md) |Analyst
+Group Query|[ExampleGroupQuery.csv](~/images/WpA/Overview/ExampleGroupQuery.md) |Analyst
+-----|-----|-----
+Visual Dashboards with Minimum Aggregation Threshold||Analyst, Analyst (Limited)
+Data Sources | |Administrator
+
+<!--  If these links work, keep above table and delete below table  -->
 
 ## Data outputs
 
