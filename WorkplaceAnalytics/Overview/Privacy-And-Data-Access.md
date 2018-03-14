@@ -72,7 +72,7 @@ Please note that other information provided in the organizational data set is ex
 
 **Output type**|**Example**|**Role that has access**
 -----|-----|-----
-De-Identified Row Level Data|[Sample.csv](../ExamplePersonQuery.csv)|Analyst
+De-Identified Row Level Data|[Sample.csv](~/images/WpA/Overview/ExamplePersonQuery.md)|Analyst
 Meeting Query Output|[Sample.csv](../ExampleMeetingQuery.csv)|Analyst
 Meeting Query output with subject lines encrypted|[Sample.csv](../ExampleMeetingHASHQuery.csv) |Analyst
 Group Query|[Sample.csv](../ExampleGroupQuery.csv) |Analyst
