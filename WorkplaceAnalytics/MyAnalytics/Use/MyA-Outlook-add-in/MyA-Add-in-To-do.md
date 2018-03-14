@@ -20,7 +20,7 @@ MyAnalytics can remind you to do tasks that are called out in email messages. In
 
 If you have one or more of these automatically generated tasks, a summary card is displayed in the MyAnalytics pane:  
 
-<img src="../../../Images/To-do-page-1.PNG" width="40%" height="40%" alt="To-do card">
+<img src="../../../Images/To-do-page-1.PNG" alt="To-do card">
 
 
 > [!Note] 

@@ -46,18 +46,17 @@ Header information from Meetings|*At a minimum, the above data fields are requir
 >[!Important]
 >Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 
-
-## Data outputs
+## *Data Outputs* 
 
 **Output type**|**Example**|**Role that has access**
 -----|-----|-----
-De-Identified Row Level Data|[Sample.csv](../ExamplePersonQuery.csv)|Analyst
-Meeting Query Output|[Sample.csv](../ExampleMeetingQuery.csv)|Analyst
-Meeting Query output with subject lines encrypted|[Sample.csv](../ExampleMeetingHASHQuery.csv) |Analyst
-Group Query|[Sample.csv](../ExampleGroupQuery.csv) |Analyst
+De-Identified Row Level Data|[ExamplePersonQuery.csv](~/images/WpA/Overview/ExamplePersonQuery.md)|Analyst
+Meeting Query Output|[ExampleMeetingQuery.csv](~/images/WpA/Overview/ExampleMeetingQuery.md)|Analyst
+Meeting Query output with subject lines encrypted|[ExampleMeetingHASHQuery.csv](~/images/WpA/Overview/ExampleMeetingHASHQuery.md) |Analyst
+Group Query|[ExampleGroupQuery.csv](~/images/WpA/Overview/ExampleGroupQuery.md) |Analyst
 -----|-----|-----
 Visual Dashboards with Minimum Aggregation Threshold||Analyst, Analyst (Limited)
-Data Sources | |Administrator 
+Data Sources | |Administrator
 
 ## Privacy Options
 * Include Subject lines – As part of a meeting query, an administrator can choose to have meeting subject lines encrypted
