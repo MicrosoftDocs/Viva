@@ -21,10 +21,11 @@ Opt-in (This is the default setting)        | <ul><li>Office 365 data is used fo
 Opt-out    | <ul><li>Office 365 data is not used for aggregated information shown to licensed users.</li><li> Personal dashboard is not available.</li><li>User can opt-in through the Feature settings menu.</li></ul>   |  <ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul>
 Excluded   |<ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li><li>Dashboard is available.</li><li>User cannot opt-in through the Feature settings menu.</li></ul>  |<ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul>
 
-**Notes:** The following applies when you use the default settings:
-
-* _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in.
-* _Licensed users_ will have MyAnalytics automatically enabled for them after a license is assigned to them. If you want your licensed users to instead have the choice to opt-in, you must change the default settings.
+> [!Note] 
+> The following applies when you use the default settings: 
+>  
+> * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in.
+> * _Licensed users_ will have MyAnalytics automatically enabled for them after a license is assigned to them. If you want your licensed users to instead have the choice to opt-in, you must change the default settings. 
 
 ### Use Exchange Online PowerShell to run cmdlets to set or get MyAnalytics user settings
 

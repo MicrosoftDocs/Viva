@@ -46,7 +46,7 @@ When you create reports in Power BI, you can share those reports with co-workers
 3. When prompted in Power BI, sign in your Workplace Analytics organizational account. You must have the Analyst role in Workplace Analytics.
 ![Sign in to Workplace Analytics organizational account](../images/wpa/Use/OData-feed-sign-in.png)
  
-> [!IMPORTANT]
+> [!Important]
 > * The data in the OData feed is static, so if you want new or different data, you will need to run a new query and get a new corresponding URL.
 > * The OData link is not available for query results created prior to the implementation of this feature [[insert date]].  
  

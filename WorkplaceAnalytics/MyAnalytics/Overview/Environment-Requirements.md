@@ -15,17 +15,14 @@ ms.prod: wpa
 
 ## MyAnalytics licensing requirements
 
-* Office 365 Enterprise E1 cloud-hosted mailbox + MyAnalytics add-on license
-    or
-* Office 365 Enterprise E3 cloud-hosted mailbox + MyAnalytics add-on license
-    or
-* Office 365 Education E3 cloud-hosted mailbox + MyAnalytics add-on license
-    or
-* Office 365 Enterprise E5 cloud-hosted mailbox
-    or
-* Office 365 Education E5 cloud-hosted mailbox
-    or
-* Office 365 Nonprofit E5 cloud-hosted mailbox
+MyAnalytics is available in the following plans:
+* Office 365 Enterprise E5 plan
+* Office 365 Education E5 plan 
+* Office 365 Nonprofit E5 plan 
+
+You can also purchase a MyAnalytics add-on if you have one of the following plans: 
+* Office 365 Enterprise E1 or E3 plan 
+* Office 365 Education E1 or E3 plan  
 
 ## Support of environments 
  

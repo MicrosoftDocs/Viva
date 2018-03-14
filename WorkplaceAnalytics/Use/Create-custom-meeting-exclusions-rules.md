@@ -39,7 +39,10 @@ In order to evaluate the relevance of the default meeting exclusions for your co
 
     a. At the bottom of the page, click **Add exclusion**
 
-    b. Under **Excluded meetings where**, in the filter menu, select **Total attendees > 1**, and then hover over that filter and click **AND**. Note: Use AND clauses only. Do not use OR clauses.
+    b. Under **Excluded meetings where**, in the filter menu, select **Total attendees > 1**, and then hover over that filter and click **AND**. 
+    
+    > [!Note] 
+    > Use AND clauses only. Do not use OR clauses. 
 
     c. In the next filter, select **Total attendees < 250**, and then hover over that filter and click AND.
 

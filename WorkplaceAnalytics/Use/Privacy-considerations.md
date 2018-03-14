@@ -41,7 +41,7 @@ The following information can help you determine what privacy settings best matc
 ### Domains
 You can enter a list of domains that you want to exclude. All email and meetings from domains listed here will excluded from analysis. 
 
-> [!NOTE]
+> [!Note]
 > Currently, there is only the option to exclude (black list) specific domains, not to include (white list) specific domains.
 
 ### Email addresses
@@ -50,7 +50,7 @@ You can enter list of email addresses that you want to exclude. _Any and all_ em
 ### Exclude email address example
 If you excluded the email address of the CEO (ceo@company.com), all meetings and emails in which the CEO is included would be removed from analysis. Meaning, for all meeting and emails that include the CEO, the metadata for all other recipients and attendees included in those same emails and meetings would be excluded.  
 
-> [!NOTE]
+> [!Note]
 > If a user has multiple aliases, you must enter each email address that you want to exclude.  
 
 ### Terms from subject line
@@ -74,7 +74,7 @@ Term from subject line to exclude | Actual subject line	 | Excluded
  legal;acquisition | Acquisitions are finalized | No - Does not match partial words, and did not exclude acquisitions
  legal;acquisition |Is this a legal acquisition | Yes  - Excluded both legal and aquisition
 
- > [!NOTE]
+ > [!Note]
 >When adding the subject line terms to exclude from analysis, Workplace Analytics may not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ### Related topics 

@@ -139,12 +139,12 @@ The data must be supplied in a .csv file and contain a set of required attribute
 
 **Custom attributes**. You may also define any additional attributes to use in filtering and grouping data.  
 
-> [!NOTE] 
+> [!Note] 
 > The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above). 
 
 Attribute description and data coverage requirements
 
-> [!NOTE] 
+> [!Note] 
 > All dates should be in the MM/DD/YYYY format. 
 
 
