@@ -4,15 +4,13 @@
 
 title: Understand meeting exclusions in Workplace Analytics
 description: This topic explains how to use the meeting exlusions feature in Workplace Analytics. 
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
 # Meeting exclusions in Workplace Analytics
-
-[[CONTENT NOTE - This is a placeholder topic. Update content with new process from FastTrack]]
 
 Workplace Analytics uses activities stored in a person’s Office 365 email and calendar to reveal internal and external collaboration trends. However, a person’s calendar and email can contain a diverse set of activities (such as personal meetings, work-related social activities, all-day training meetings, and so forth) that are not relevant to work-related collaboration, and if included in the metrics, can skew query results.
 
@@ -26,7 +24,7 @@ By default, Workplace Analytics excludes the following types of meetings from qu
 * Meetings with 250 or more attendees
 * Cancelled Meetings
 
-> [!NOTE]
+> [!Note]
  To respect user privacy, meetings marked as private and/or confidential are always excluded from meeting query calculations.
 
 ## Before in-depth analysis, validate default meeting exclusions
@@ -43,7 +41,7 @@ In this step, generate a list of both included and excluded meetings that you wi
 
 [To create and run an “All meetings default” query using default exclusions](Create-custom-meeting-exclusions-rules.md#to-create-and-run-an-all-meetings-default-query-using-default-exclusions) 
 
-[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-Meeting-excluded-default-query) 
+[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-meeting-excluded-default-query) 
 
 ### Step two: Review query results for trends and relevance
 In this step, review the included and excluded meeting results for relevance and company collaboration trends. Reviewing for trends can be a subjective exercise, more art than science. Here again, it’s best to focus on relevance in general trends, rather than strive for 100% accuracy.
@@ -62,57 +60,31 @@ In this step, review the included and excluded meeting results for relevance and
 ### Review excluded meetings
 An analyst at Company A is reviewing results of the **Default meetings excluded** query and notices the following:
 
-Column A | Column B | Column C
----------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
+Meeting ID | Subject | Attendees | Duration
+---------|---------- |---------|---------
+ 1000 | Quarterly Client Budget Review | 251 attendees |6 hours
+ 2000 | Bob’s Workout at Gym | 1 attendee | 1.5 hours
 
 **Default meetings excluded**
-Meeting ID
-Subject
-Attendees
-Duration
-1000
-Quarterly Client Budget Review
-251 attendees
-6 hours
-2000
-Bob’s Workout at Gym
-1 attendee
-1.5 hours
 
 * Meeting 1000 was excluded based on the default settings for number of attendees. However, based on the meeting subject and the potential for high person-hours impact, the analyst may conclude that this meeting is work-relevant and should be included. Also, if there are other, similar meetings, the analyst could decide to create custom meeting exclusion rules with a higher attendee threshold.
 * Meeting 2000 was excluded by default due to only having 1 attendee, and based on the meeting subject and should continue to be excluded.
 
 **Related topic** 
 
-[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-Meeting-excluded-default-query) 
+[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-meeting-excluded-default-query) 
 
 ### Review included meetings
 Our analyst is now reviewing the results of the **All meetings default settings** query, and notices the following:
 
 **All meetings default settings**
 
-Column A | Column B | Column C
----------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
+Meeting ID | Subject | Attendees | Duration
+---------|----------|--------- |---------
+ 3000 | Bob’s Surprise Party | 249 attendees | 7.5 hours
+ 4000 | FY17 Sales Strategy Meeting | 8 attendees | 2 hours
 
 
-Meeting ID
-Subject
-Attendees
-Duration
-3000
-Bob’s Surprise Party
-249 attendees
-7.5 hours
-4000
-FY17 Sales Strategy Meeting
-8 attendees
-2 hours
 * Meeting 3000 was included by default based on the default settings for number of attendees. However, based on the meeting subject, the analyst may conclude that this meeting is not work-relevant and should be excluded. This meeting could be excluded using relevant keywords in the subject line such as "Party".
 * Meeting 4000 was included, and based on the meeting subject should continue to be included.
 

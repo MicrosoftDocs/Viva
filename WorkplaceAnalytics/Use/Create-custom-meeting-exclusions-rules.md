@@ -4,7 +4,7 @@
 
 title: Create custom meeting exclusions rules in Workplace Analytics
 description: This topic contains step-by-step instructions to create meeting exclusions rules and run meeting exclusions queries in Workplace Analytics.
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
 ms.topic: get-started-article
@@ -39,7 +39,10 @@ In order to evaluate the relevance of the default meeting exclusions for your co
 
     a. At the bottom of the page, click **Add exclusion**
 
-    b. Under **Excluded meetings where**, in the filter menu, select **Total attendees > 1**, and then hover over that filter and click **AND**. Note: Use AND clauses only. Do not use OR clauses.
+    b. Under **Excluded meetings where**, in the filter menu, select **Total attendees > 1**, and then hover over that filter and click **AND**. 
+    
+    > [!Note] 
+    > Use AND clauses only. Do not use OR clauses. 
 
     c. In the next filter, select **Total attendees < 250**, and then hover over that filter and click AND.
 
@@ -55,7 +58,7 @@ In order to evaluate the relevance of the default meeting exclusions for your co
 ## How to create custom meeting exclusions
 After a review of the all meetings and default excluded meetings, you may decide to create custom meeting exclusion rules to more closely reflect your company’s meeting norms and culture.
 ### To create custom meeting exclusions rules (generic)
-1. On the **Queries** page, click the** Meeting exclusion**s tab.
+1. On the **Queries** page, click the **Meeting exclusions** tab.
 2. At the bottom of the page, click **Add exclusion**.
 3. In the line above the filters, enter a name for the exclusion rule.
 4. Under E**xcluded meetings where**, add the filters for the metrics you want to exclude.

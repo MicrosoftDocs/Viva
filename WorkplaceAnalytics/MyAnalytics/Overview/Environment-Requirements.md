@@ -5,7 +5,7 @@
 title: Workplace Analytics Getting Started Checklist
 description: This checklist introduces what's required to implement MyAnalytics in your organization
 author: rodonahu
-ms.author: rodonahu, v-pascha
+ms.author: v-pascha
 ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
@@ -15,11 +15,14 @@ ms.prod: wpa
 
 ## MyAnalytics licensing requirements
 
-* Office 365 Enterprise E3 cloud-hosted mailbox + MyAnalytics add-on license
-    
-    or
+MyAnalytics is available in the following plans:
+* Office 365 Enterprise E5 plan
+* Office 365 Education E5 plan 
+* Office 365 Nonprofit E5 plan 
 
-* Office 365 Enterprise E5 cloud-hosted mailbox
+You can also purchase a MyAnalytics add-on if you have one of the following plans: 
+* Office 365 Enterprise E1 or E3 plan 
+* Office 365 Education E1 or E3 plan  
 
 ## Support of environments 
  

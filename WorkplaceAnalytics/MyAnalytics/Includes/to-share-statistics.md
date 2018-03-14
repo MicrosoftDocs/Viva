@@ -4,7 +4,7 @@
 
 title: To share statistics
 description: How-to steps -- Share your stats with others. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
 ms.topic: get-started-article
@@ -19,7 +19,7 @@ ms.prod: mya
 
 <p></p>
 
-<img src="../../Images/Share-dashboard.png" width="50%" height="50%" alt="Share link">
+<img src="../../Images/Share-dashboard.png" alt="Share link">
 
 <p></p>
     
@@ -38,7 +38,7 @@ In the following illustration, the Meeting hours section is selected, while Meet
 
 <br/>
 
-<img src="../../Images/Selected-for-sharing.png" width="70%" height="70%" alt="Items selected for sharing">
+<img src="../../Images/Selected-for-sharing.png" alt="Items selected for sharing">
 
 <br/>
 

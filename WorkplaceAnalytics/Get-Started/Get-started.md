@@ -4,7 +4,7 @@
 
 title: Get started with Workplace Analytics
 description: This topic gives a high-level overview of the primary features in Workplace Analytics. 
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
 ms.topic: get-started-article

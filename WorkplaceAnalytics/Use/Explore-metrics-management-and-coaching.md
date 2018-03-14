@@ -4,7 +4,7 @@
 
 title: Explore management and coaching metrics in Workplace Analytics
 description: This topic gives an overview of the management and coaching dashboards in Workplace Analytics.
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
 ms.prod: wpa

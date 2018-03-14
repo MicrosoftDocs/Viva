@@ -4,7 +4,7 @@
 
 title: Prepare and upload organizational data in Workplace Analytics
 description: This article describes how to prepare and upload organizational data from your organization into Workplace Analytics. 
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
 ms.topic: get-started-article
@@ -138,10 +138,14 @@ The data must be supplied in a .csv file and contain a set of required attribute
 * HourlyRate
 
 **Custom attributes**. You may also define any additional attributes to use in filtering and grouping data.  
-Note: The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above).
+
+> [!Note] 
+> The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above). 
 
 Attribute description and data coverage requirements
-Note: All dates should be in the MM/DD/YYYY format.
+
+> [!Note] 
+> All dates should be in the MM/DD/YYYY format. 
 
 
 Attribute (column header) | Description of data / data validity | Data coverage requirements

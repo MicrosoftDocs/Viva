@@ -18,13 +18,13 @@ Workplace Analytics enables analysts to provide business leaders with unpreceden
 
 Go to [Get started with Workplace Analytics](../Get-Started/Get-started.md) to see what Workplace Analytics can do for you. 
 -->
-As of July 1, 2017, Workplace Analytics is in category A of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657). It will be included in category C of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) at a later date. *Microsoft has made the commitment to be GDPR compliant. As such, Workplace Analytics has plans to implement GDPR protections in alignment with its worldwide introduction date of May 25th, 2018. [This blog](https://blogs.office.com/en-us/2017/11/16/microsoft-365-helps-businesses-increase-trust-and-innovation-through-compliance-with-compliance-manager-preview/) post describes how compliance manager empower's organizations to increase trust and innovation.*
+As of July 1, 2017, Workplace Analytics is in category A of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657). It will be included in category C of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) at a later date. *Microsoft has made the commitment to be GDPR compliant. As such, Workplace Analytics has plans to implement GDPR protections in alignment with its worldwide introduction date of May 25th, 2018. This [blog post](https://blogs.office.com/en-us/2017/11/16/microsoft-365-helps-businesses-increase-trust-and-innovation-through-compliance-with-compliance-manager-preview/) describes how compliance manager empower's organizations to increase trust and innovation.*
 
 Being aware of employees’ rights is a key component to ensuring a successful program using Workplace Analytics. It is important to consider ever-changing laws and regulations regarding *Workers Councils*, employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics. 
 
 Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in Workplace Analytics. 
 
->[!IMPORTANT]
+>[!Important]
 >Please consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
 
 This document introduces the privacy controls available to Workplace Analytics administrators. You control both the data and access to the data in Workplace Analytics.
@@ -67,24 +67,25 @@ The organizational data set is combined with the Office 365 email and calendar m
 
 Please note that other information provided in the organizational data set is exposed in Workplace Analytics dashboards and reports. Care must be taken to ensure the data set does not include personal data (such as employee ID).
 
-
 ## *Data Outputs*
 
 **Output type**|**Example**|**Role that has access**
 -----|-----|-----
-De-Identified Row Level Data|[Sample.csv](../ExamplePersonQuery.csv)|Analyst
-Meeting Query Output|[Sample.csv](../ExampleMeetingQuery.csv)|Analyst
-Meeting Query output with subject lines encrypted|[Sample.csv](../ExampleMeetingHASHQuery.csv) |Analyst
-Group Query|[Sample.csv](../ExampleGroupQuery.csv) |Analyst
+De-Identified Row Level Data|[ExamplePersonQuery.csv](~/images/WpA/Overview/ExamplePersonQuery.md)|Analyst
+Meeting Query Output|[ExampleMeetingQuery.csv](~/images/WpA/Overview/ExampleMeetingQuery.md)|Analyst
+Meeting Query output with subject lines encrypted|[ExampleMeetingHASHQuery.csv](~/images/WpA/Overview/ExampleMeetingHASHQuery.md) |Analyst
+Group Query|[ExampleGroupQuery.csv](~/images/WpA/Overview/ExampleGroupQuery.md) |Analyst
 -----|-----|-----
 Visual Dashboards with Minimum Aggregation Threshold||Analyst, Analyst (Limited)
 Data Sources | |Administrator
 
 
 ## Privacy settings
-Workplace Analytics has three types of administrator controls, User Inclusion, User Data Exclusion and Level of Detail Displayed to enable you to define specific criteria that will exclude meetings and emails from analysis.
+Workplace Analytics has three types of administrator controls, User Inclusion, User Data Exclusion, and Level of Detail Displayed to enable you to define specific criteria that will exclude meetings and emails from analysis.
+
 ### User inclusion
 You decide which users to include by only assigning Workplace Analytics licenses to those people.
+
 ### User data exclusion
 For the users that you choose to include, you can decide to exclude data based upon the following:
 
@@ -93,8 +94,7 @@ For the users that you choose to include, you can decide to exclude data based u
 - Email address and domain. You can exclude emails and meetings from, or to, specific users, or all users from a domain.
 
 >[!Note]
->Exclusion occurs before metadata is processed within Workplace Analytics
-
+>Exclusion occurs before metadata is processed within Workplace Analytics. 
 
 ### Level of detail displayed
 

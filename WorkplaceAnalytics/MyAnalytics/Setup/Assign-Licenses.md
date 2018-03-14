@@ -5,7 +5,7 @@
 title: Assign MyAnalytics license to users
 description: Assign licenses so that users can experience MyA
 author: rodonahu
-ms.author: rodonahu, v-pascha
+ms.author: rodonahu
 ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa

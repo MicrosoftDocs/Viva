@@ -4,7 +4,7 @@
 
 title: Workplace Analytics Setup Checklist
 description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 2/16/2018
 ms.topic: get-started-article
@@ -12,7 +12,7 @@ ms.prod: wpa
 ---
 # Privacy settings considerations for Workplace Analytics 
 
-[[INTRO CONTENT PLACEHOLDER]]
+This topic discusses various considerations that Workplace Analytics admins should explore when deciding on privacy settings. 
 
 ## Minimum group size
 A minimum group size helps maintain employee privacy by ensuring that specific people are not easily identified by the attributes of the group. 
@@ -41,7 +41,7 @@ The following information can help you determine what privacy settings best matc
 ### Domains
 You can enter a list of domains that you want to exclude. All email and meetings from domains listed here will excluded from analysis. 
 
-> [!NOTE]
+> [!Note]
 > Currently, there is only the option to exclude (black list) specific domains, not to include (white list) specific domains.
 
 ### Email addresses
@@ -50,7 +50,7 @@ You can enter list of email addresses that you want to exclude. _Any and all_ em
 ### Exclude email address example
 If you excluded the email address of the CEO (ceo@company.com), all meetings and emails in which the CEO is included would be removed from analysis. Meaning, for all meeting and emails that include the CEO, the metadata for all other recipients and attendees included in those same emails and meetings would be excluded.  
 
-> [!NOTE]
+> [!Note]
 > If a user has multiple aliases, you must enter each email address that you want to exclude.  
 
 ### Terms from subject line
@@ -67,22 +67,17 @@ If you wanted to exclude all emails with the terms “confidential,” “ACP,�
 #### Keyword exclusion logic examples
 
 
-Column A | Column B | Column C
+Term from subject line to exclude | Actual subject line	 | Excluded
 ---------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
+ legal;acquisition | Verify this is LEGAL | Yes - Case is ignored
+ legal;acquisition | Is this illegal | No – Does not match partial words, and did not exclude illegal
+ legal;acquisition | Acquisitions are finalized | No - Does not match partial words, and did not exclude acquisitions
+ legal;acquisition |Is this a legal acquisition | Yes  - Excluded both legal and aquisition
 
-Term from subject line to exclude	Actual subject line	Excluded
-legal;acquisition	Verify this is LEGAL 	Yes - Case is ignored
-legal;acquisition	Is this illegal	No – Does not match partial words, and did not exclude illegal
-legal;acquisition	Acquisitions are finalized	No - Does not match partial words, and did not exclude acquisitions
- legal;acquisition	 Is this a legal acquisition	 Yes  - Excluded both legal and aquisition
-
- > [!NOTE]
+ > [!Note]
 >When adding the subject line terms to exclude from analysis, Workplace Analytics may not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ### Related topics 
-[[settings]]
+[Configure settings for Workplace Analytics](../Use/Settings.md)
 
-[[Privacy]]
+[Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md)

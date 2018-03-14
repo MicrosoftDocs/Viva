@@ -4,7 +4,7 @@
 
 title: To do card
 description: Purpose of to-do cards and how they come about.  
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
 ms.topic: get-started-article
@@ -20,7 +20,12 @@ MyAnalytics can remind you to do tasks that are called out in email messages. In
 
 If you have one or more of these automatically generated tasks, a summary card is displayed in the MyAnalytics pane:  
 
-<img src="../../../Images/To-do-page-1.PNG" width="40%" height="40%" alt="To-do card">
+<img src="../../../Images/To-do-page-1.PNG" alt="To-do card">
+
+
+> [!Note] 
+> The To-do card is available only in English. 
+
 
 [!INCLUDE [Get more details about to-do items](../../Includes/to-get-more-details.md)]
 

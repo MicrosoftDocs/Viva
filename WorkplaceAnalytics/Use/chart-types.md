@@ -33,7 +33,7 @@ Bar charts compare data across groups. Each bar shows the average value for the 
 * Hover over the bar for the group you want.
 
 ### To hide or unhide a metric from the bar chart 
-* In the legend below the chart, click the name of the metric to hide it. Click again to unhide the metric.
+* In the legend below the chart, click the name of the metric to hide it. Click again to show the metric.
 
 ## Trend line charts
 Trend line charts compare metric values over time. The default trend line is the company average. Each line shows the weekly average for the month for the Group by attribute value you have selected, over a rolling 13-month period. 
@@ -71,7 +71,27 @@ Each individual value within a group represents the average value for a person (
 ### To switch between the metrics (such as **Emails** or **Meetings**) 
 * Click the text above the chart.
 
-## Chart Settings
+## Chart Settings and filters
 
-[[Lorem imp sum placeholder - UI change, awaiting new text]]
+Use the **Settings and filters** to change the time range of the data, change the attribute you want to see grouped in charts, and apply filters.
+
+When you change chart display settings, your changes will apply to all the charts on all the tabs of **Explore Metrics**. 
+For example: When you set chart display to group by _level_, all charts in all sections will be grouped by level.
+
+### To change the date range 
+1. If needed, click **Settings and filters**. 
+2. Under **Chart display**, in the **Time range** menu, select the period you want and then click **Apply**. 
+
+> [!Note]
+> The time range options encompass the most recent data loaded and uses the following logic.<ul><li>A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.</li><li>For a week which starts in one month and ends in the following month, the data is associated with the month in which the week begins.</li></ul>
+
+### To change how the visuals grouped on the page 
+1. If needed, click **Settings and filters**. 
+2. Under **Chart display**, in the **Group by** menu, select the organizational attribute that you want and then click **Apply**.
+
+### To add filters 
+1. If needed, click **Settings and filters**.
+2. Under **Filter summary**, click **Add filter**, 
+3. Add the filters that you want, and then click **Apply**.
+
 

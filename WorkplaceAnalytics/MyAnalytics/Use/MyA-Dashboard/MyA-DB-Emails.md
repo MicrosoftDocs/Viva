@@ -4,7 +4,7 @@
 
 title: Email hours
 description: How the time you spend in email affects your stats. 
-author: v-pascha
+author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
 ms.topic: get-started-article

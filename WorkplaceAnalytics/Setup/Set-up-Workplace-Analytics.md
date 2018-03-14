@@ -4,7 +4,7 @@
 
 title: Workplace Analytics Setup Checklist
 description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
-author: v-leash
+author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/16/2018
 ms.topic: get-started-article
@@ -22,14 +22,13 @@ Use this checklist to help assemble the people and obtain the data and configura
 
 | Task | Owners | Outcome |
 |------|--------|---------|
-|  [1 - Determine key personas and assign roles for implementation](#step-one-determine-key-personas-and-roles-for-implementation)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified      |
-|  [2 - Assign licenses to population in scope for analysis](#step-two-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed     |
+|  [1 - Determine key personas and assign roles for implementation](#step-one-determine-key-personas-and-roles-for-implementation)    |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified     |
+|  [2 - Assign licenses to population in scope for analysis](#step-two-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed   |
 |  [3 - Assign roles to Workplace Analytics Admins and Analysts](#step-three-assign-roles-to-workplace-analytics-admins-and-analysts)   |    Office 365 global administrator   |     Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.   |
 |  [4 - Configure Workplace Analytics settings](#step-four-configure-workplace-analytics-settings)    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
-|  [5 - Prepare and upload organizational data](#step-five-prepare-and-upload-organizational-data)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |     [[CONTENT PLACEHOLDER]]    |
+|  [5 - Prepare and upload organizational data](#step-five-prepare-and-upload-organizational-data)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |    Workplace Analytics administrators have determined what kind of organizational data to provide and how to upload the data. **Go to**: [ Prepare and upload organizational data](../Use/Prepare-and-upload-organizational-data.md)    |
 |  [6 - Validate and verify data](#step-six-validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
 |    [7 - Set up meeting exclusions](#step-seven-set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
-
 
 When you have finished all these steps, you are ready to [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md).
 
@@ -70,25 +69,23 @@ You can use Office 365 PowerShell to do a bulk assignment of Workplace Analytics
 
 [How to assign bulk licenses](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 
-
 ### Mailboxes not fully migrated to Office 365 Exchange Online
 If your organization has not fully migrated to Office 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Office 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with the following options.
 ### Options for mailboxes hosted using Exchange on-premises
 * Migrate these mailboxes to Office 365 Exchange Online
 * Contact the FastTrack team to understand the process for analyzing these mailboxes (this requires additional work streams within your organization).
 
-
 ## Step three: Assign roles to Workplace Analytics admins and analysts
 
 * **Owner** - Office 365 global administrator
-* **Task** - Assign users for administrators and data analysts to Workplace Analytics service
+* **Task** - Assign users for administrators and data analysts to Workplace Analytics service.
 * **Outcome** - Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.
 
 To allow administrators to set system defaults, privacy settings, upload and verify organizational data, and to allow data analysts to be able to use Workplace Analytics, you must assign users to the Workplace Analytics service.
 
 ### Workplace Analytics roles and the level of access
 * **Analyst role** - Full access to all service features, except Admin. This role is used for the analyst who requires the most complete access to the data.
-* **Analyst (Limited Access) role** - Access to Home page, Explore metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore the metrics dashboards
+* **Analyst (Limited Access) role** - Access to Home page, Explore metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore the metrics dashboards.
 * **Administrator role** - Access to Admin and Data Sources features. This role is used for the Workplace Analytics administrator to set system defaults, privacy settings, upload, and verify organizational data.
 
 ### To assign users to Workplace Analytics
@@ -98,8 +95,6 @@ To allow administrators to set system defaults, privacy settings, upload and ver
 [Group-based licenses in Workplace Analytics](../Use/Group-Based-Licensing.md)
 
 [Use PowerShell to assign roles in Workplace Analytics](../Use/Using-PowerShell-to-Assign-Roles.md)
-
-
 
 ## Step four: Configure Workplace Analytics settings
 
@@ -119,7 +114,7 @@ For a complete list of valid times zones, visit [Time zones in Workplace Analyti
 2. Under **System defaults**, select the time zone you want from the **Default time zone** list.
 3. Click **Save**.
 
-> [!IMPORTANT]
+> [!Important]
 > This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
 
 ### Privacy settings
@@ -131,7 +126,7 @@ Being aware of employees’ rights is a key component to ensuring a successful p
 
 Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in Workplace Analytics.
 
-> [!IMPORTANT]
+> [!Important]
 > Please consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
 
 Once you have examined your privacy needs, you will use the Settings area in Workplace Analytics to define the privacy settings for your data.
@@ -144,22 +139,25 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
 - Exclude emails/meetings to, or from, specific users, or all users from a domain using “;” as the delimiter
 - Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter.   Terms can be any combination of letters, numbers and special characters, e.g. client attorney privilege; D&I
 
-> [!NOTE]
+> [!Note] 
 > If you exclude email addresses, you should not assign licenses to them.  You also should consider all aliases for an individual.
 
 ### To set your privacy settings 
 1. On the **Settings** page, click **Settings**.
 2. Under **Privacy settings**, configure the settings to meet your company's needs.
-> [!NOTE]
+
+> [!Note]
 > You may click **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you click the **I confirm that all privacy settings are complete** checkbox. When you click the checkbox, it begins the processing of Office 365 data.
+
 3. Click **Save**.
-> [!IMPORTANT]
->  Carefully validate that your privacy settings are correct, before you click the I confirm that all privacy settings are complete checkbox, You can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
+
+> [!Important]
+> Carefully validate that your privacy settings are correct, before you click the I confirm that all privacy settings are complete checkbox, You can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
+
 4. To begin the processing of Office 365 data, click **I confirm that all privacy settings are complete**, and then click **Save**.
 
 ### Related topic
 [Settings in Workplace Analytics](../Use/Settings.md) 
-
 ## Step five: Prepare and upload organizational data
 
 * **Owner** - Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst
@@ -176,27 +174,28 @@ Organizational data is the information about employees that your company provide
     - Employee Surveys (Engagement, Manager Feedback, Culture)
     - Performance Management Systems or Quota Attainment Systems
     - CRM Systems
-- Workplace Analytics Org Data is structured as a flat file with each row representing one person with columns representing attribute fields
+- Workplace Analytics org dData is structured as a flat file with each row representing one person with columns representing attribute fields.
 
 ### How is it used?
-- Provides context for the mailboxes that enables Workplace Analytics to calculate metrics based on the relationship of the Org Data attributes
-- Enables the user to filter and group data in meaningful ways and generate custom metrics
+- Provides context for the mailboxes that enables Workplace Analytics to calculate metrics based on the relationship of the Org Data attributes.
+- Enables the user to filter and group data in meaningful ways and generate custom metrics.
 
 ### How often should it be refreshed?
-To account for organization changes, it is recommended to refresh the data monthly
+To account for organization changes, it is recommended to refresh the data monthly.
 When loading your data the first time, Workplace Analytics loads 13 months of data.  Ideally, you would load 13 dated rows of organizational data for each employee.
 
 #### Who should be included in the org data file?
 - HR Data:
-    - It is recommended HR data is collected for all employees in your company, even if they are not part of the measured population
-    - At a minimum, you must have data for all employees in your measured population
+    - It is recommended HR data is collected for all employees in your company, even if they are not part of the measured population.
+    - At a minimum, you must have data for all employees in your measured population.
 - Line of Business Data:
-    - Scenario-Dependent: You should have line of business data for all employees of interest in the scenario you are analyzing
-> [!NOTE]
->  You can include up to 65 data attributes in your Org data file.
+    - Scenario-Dependent: You should have line-of-business data for all employees of interest in the scenario you are analyzing.
 
->[!Important]
->To help ensure privacy, we recommend not including employee names as any additional attribute. 
+> [!Note]
+> You can include up to 65 data attributes in your Org data file.
+
+> [!Important]
+> To help ensure privacy, we recommend not including employee names as any additional attribute. 
 
 ### What are common pitfalls to avoid?
 - Too many or too few unique values
@@ -204,8 +203,8 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 - Attributes that only exist for a subset of your employees
 - Dirty data
 
-
 ### To prepare your organizational data for upload to Workplace Analytics
+
 * Follow the instructions in the topic [Prepare and upload organizational data](../use/Prepare-and-upload-organizational-data.md).
 
 Once the .csv file has been created, the Workplace Analytics administrator can upload it into the service.
@@ -258,7 +257,6 @@ Data sources metrics help Workplace Analytics data analysts:
 Workplace Analytics uses activities stored in a person’s Office 365 email and calendar to reveal internal and external collaboration trends. However, a person’s calendar and email can contain a diverse set of activities (such as personal meetings, work-related social activities, all-day training meetings, and so forth) that are not relevant to work-related collaboration, and if included in the metrics, can skew query results.
 
 Analysts can use the Meeting exclusions feature to create custom meeting exclusions that help ensure query results accurately represent relevant meeting norms within their company. Or, analysts may choose to use the default meeting exclusions that exclude a set of meetings that would commonly fall outside relevant collaboration for analysis.
-
 
 ### Related topics
 
