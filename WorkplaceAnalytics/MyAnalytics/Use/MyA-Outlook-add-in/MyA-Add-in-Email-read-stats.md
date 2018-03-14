@@ -15,7 +15,7 @@ ms.prod: mya
 
 MyAnalytics can tell you how many people have opened your emails and how long they spent reading them. It informs you about emails that you sent to five or more Office 365 users who are internal to your company. It displays this information in "cards," such as this one:
 
-<img src="../../../Images/Still-updating.png" width="65%" height="65%" alt="Still updating">
+<img src="../../../Images/Still-updating.png" alt="Still updating">
 
 After you send an email message, it takes up to fifteen minutes before MyAnalytics can inform you about it. MyAnalytics groups similar information into a single summary card that you can select and expand to see a more detailed view.
 
