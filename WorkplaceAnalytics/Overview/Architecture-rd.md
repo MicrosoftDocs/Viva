@@ -46,7 +46,7 @@ Header information from Meetings|*At a minimum, the above data fields are requir
 >[!Important]
 >Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
 
-## Data Outputs DEBUG
+## *Data Outputs* 
 
 **Output type**|**Example**|**Role that has access**
 -----|-----|-----
@@ -58,7 +58,7 @@ Group Query|[ExampleGroupQuery.csv](~/images/WpA/Overview/ExampleGroupQuery.md) 
 Visual Dashboards with Minimum Aggregation Threshold||Analyst, Analyst (Limited)
 Data Sources | |Administrator
 
-<!--  If these links work, keep above table and delete below table  -->
+<!--  If these links work, keep above table and delete below table 
 
 ## Data outputs
 
@@ -71,6 +71,8 @@ Group Query|[Sample.csv](../ExampleGroupQuery.csv) |Analyst
 -----|-----|-----
 Visual Dashboards with Minimum Aggregation Threshold||Analyst, Analyst (Limited)
 Data Sources | |Administrator 
+
+-->
 
 ## Privacy Options
 * Include Subject lines – As part of a meeting query, an administrator can choose to have meeting subject lines encrypted
