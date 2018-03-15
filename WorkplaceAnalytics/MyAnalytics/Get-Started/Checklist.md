@@ -11,9 +11,11 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
+<!-- It seems that this topic does not appear in the docset. Compare with MyA-setup-checklist.md. 15 March 2019 -->
+
 # What you should do after you have MyAnalytics
 
-After you've purchased an E5 plan or another plan and a MyAnalytics add-on (for more information, see  [MyAnalytics licensing requirements](../Overview/Environment-Requirements.md#myanalytics-licensing-requirement)), you have to configure MyAnalytics for your organization. To do this, complete the following steps:
+After you've purchased an E5 plan or another plan and a MyAnalytics add-on (for more information, see [MyAnalytics licensing requirements](../Overview/Environment-Requirements.md#myanalytics-licensing-requirements)), you have to configure MyAnalytics for your organization. To do this, complete the following steps:
 
 Review the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md).
 
