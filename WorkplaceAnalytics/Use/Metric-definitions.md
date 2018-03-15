@@ -40,7 +40,8 @@ These terms describe the metrics calculated by Workplace Analytics that you can 
 |Meetings with manager 1:1|Number of meetings involving only the person and their manager.|Person|Count|Yes|
 |Meetings with skip level|Number of meetings where the manager of the person's manager is an attendee.|Person|Count|Yes|
 |Multitasking meeting hours|Number of meeting hours where the person sent:<ul><li>Two emails or more per meeting hour</li><li>Two emails or more per meeting for meetings less than an hour</li></ul>|Person|Hour|Yes|
-|Networking outside department|Number of departments outside their own that the person had connections with, within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes|
+|Networking outside company|Number of companies outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes|
+|Networking outside department|Number of departments outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes|
 |Open 1 hr blocks|Number of one-hour blocks in the person’s calendar during the work day where there are no meetings.|Person|Count|Yes|
 |Open 2 hr blocks|Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Redundant meeting hours|Number of meeting hours where at least three distinct levels in the person's organization attended.|Person|Hour|Yes|
