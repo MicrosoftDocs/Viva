@@ -100,11 +100,11 @@
         href: MyAnalytics/Overview/Privacy-Guide.md
       - name: Step Two - Configure user settings
         href: MyAnalytics/Setup/Configure-MyA-User-Settings.md
-      - name: Step Three - Check access to Office Graph
-        href: MyAnalytics/Setup/Check-Office-Graph.md
-      - name: Step Four - Assign MyAnalytics licenses to users
+    #  - name: Step Three - Check access to Office Graph
+    #    href: MyAnalytics/Setup/Check-Office-Graph.md
+      - name: Step Three - Assign MyAnalytics licenses to users
         href: MyAnalytics/Setup/Assign-Licenses.md
-      - name: Step Five - Verify that the Outlook add-in is installed
+      - name: Step Four - Verify that the Outlook add-in is installed
         href: MyAnalytics/Setup/Verify-Add-in.md
     - name: Use
       items:
