@@ -11,6 +11,8 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
+<!-- Note that this topic is no longer needed for MyA setup and was removed from the TOC on 15 March 2018.-->
+
 # Check that access to the Office Graph is enabled
 
 [Learn how](https://support.office.com/en-us/article/office-delve-for-office-365-admins-54f87a42-15a4-44b4-9df0-d36287d9531b?ui=en-US&rs=en-US&ad=US#bkmk_delveonoff) to check that the Office Graph is enabled.
