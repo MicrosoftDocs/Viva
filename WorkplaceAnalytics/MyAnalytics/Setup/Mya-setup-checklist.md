@@ -12,7 +12,7 @@ ms.prod: mpa
 ---
 
 # MyAnalytics Setup Checklist
-To set up MyAnalytics for users in your organization, complete the tasks in this checklist:
+To set up MyAnalytics for users in your organization, complete the tasks in this checklist: 
 
 | Task | Owner | Outcome |
 |------|-------|---------|
