@@ -121,7 +121,7 @@ In addition to some attributes only being applicable for certain employees in th
 Once you have identified the data to provide, you will need to export it into a format that can then be uploaded to Workplace Analytics. This section explains how to properly format the data into a comma separated value (.csv) file that will successfully upload into Workplace Analytics.
 
 ### Required attributes and file format
-The data must be supplied in a .csv file and contain a set of required attributes for the population. The following table provides details on the required attributes and the data coverage requirements.
+The data must be supplied in a UTF-8 encoded .csv file and contain a set of required attributes for the population. The following table provides details on the required attributes and the data coverage requirements.
 
 **Required attributes**. These attributes must be supplied with these exact column headers (case sensitive) in the .csv upload:
 * PersonId
