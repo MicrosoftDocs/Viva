@@ -3,7 +3,7 @@
 # required metadata
 
 title: Your time
-description: How you spent your time among your contacts. 
+description: How you spent your time among your contacts
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018

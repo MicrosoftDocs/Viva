@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: To opt out of MyA
+title: To opt out of MyAnalytics
 description: How-to steps -- Opt out of MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
