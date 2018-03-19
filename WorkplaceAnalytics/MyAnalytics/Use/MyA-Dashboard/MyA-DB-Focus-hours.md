@@ -22,7 +22,7 @@ Focus hours consist of at least two consecutive hours in your calendar without a
 
 The following time does not count toward your focus time: 
 * time outside your set work hours
-* time marked as Out-of-Office time
+* time marked as Out-of-Office
 
 The MyAnalytics Dashboard displays a total of your weekly focus hours and meeting hours broken up by day. You can see how these compare to your personal goals. Use the information to help you know which days are typically your busiest so that you can plan your focus time accordingly.
 
