@@ -48,7 +48,7 @@ When you create reports in Power BI, you can share those reports with co-workers
  
 > [!Important]
 > * The data in the OData feed is static, so if you want new or different data, you will need to run a new query and get a new corresponding URL.
-> * The OData link is not available for query results created prior to the implementation of this feature [[insert date]].  
+> * The OData link is not available for query results created prior to 3/22/2018.    
  
  
 ### Related topic
