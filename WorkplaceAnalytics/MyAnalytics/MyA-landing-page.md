@@ -2,10 +2,11 @@
 layout: LandingPage
 title: MyAnalytics
 description: Brief introduction to MyAnalytics, with links to further information. 
-ms.date: 03/01/2018
-ms.prod: mya
-ms.author: v-pascha
 author: paul9955
+ms.author: v-pascha
+ms.date: 03/01/2018
+ms.topic: get-started-article
+ms.prod: mya
 
 ---
 # MyAnalytics

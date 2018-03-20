@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
-description: This checklist introduces what's required to implement MyAnalytics in your organization
+title: MyAnalytics environment requirements
+description: MyAnalytics environment requirements, including valid licensing choices
 author: rodonahu
 ms.author: v-pascha
 ms.date: 01/19/2018
