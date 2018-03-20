@@ -78,6 +78,10 @@
             href: ~/Use/Glossary.md
           - name: Percentage and average calculations
             href: ~/Use/Percentage-and-average-calculations.md
+      - name: Tutorials
+          - name: Person queries
+          - name: Meeting queries
+          - name: Group queries
 - name: MyAnalytics
   href: MyAnalytics/MyA-landing-page.md
   expanded: true
