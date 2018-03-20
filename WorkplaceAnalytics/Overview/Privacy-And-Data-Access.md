@@ -33,9 +33,10 @@ This document introduces the privacy controls available to Workplace Analytics a
 ### You decide who gets to see what data
 Organizations decide who can have access to seeing the data in Workplace Analytics. You should ensure that primary users receive suitable training in privacy, your company’s policies, and other applicable subject areas before being granted access to the data. There are three distinct levels of permission to the data:
 
-- **Analyst (Limited)**: Provides access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
-- **Analyst**: Provides full access to all product features except the administrator features.
-- **Administrator role**: Provides access to administrator features only.
+- **Analyst (Limited):** Provides access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
+- **Analyst:** Provides full access to all product features except the administrator features.
+- **Administrator role:** Provides access to administrator features only.
+- **Program manager:** Provides access to the Workplace Analytics home page and to explore metrics where minimum group size is enforced. Program managers can also access select pages in the Solutions area including management screens on which they can set up programs and view the progress of active and completed programs.
 
 ## You control the data Workplace Analytics uses
 You retain full control over what data is used and how it is used within Workplace Analytics. Workplace Analytics uses Office 365 email and calendar metadata and external data defined by your organization to compute how much time groups within your organization spend on email and in meetings, and with whom.
