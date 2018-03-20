@@ -38,7 +38,7 @@ Organizations decide who can have access to seeing the data in Workplace Analyti
 - **Administrator role:** Provides access to administrator features only.
 - **Program manager:** Provides access to the Workplace Analytics home page and lets PMs explore metrics in cases where minimum group size is enforced. PMs can also have access to the Solutions tab and its Manage page, on which they can set up programs and view the progress of active and completed programs.
 
-## You control the data Workplace Analytics uses
+## You control the data that Workplace Analytics uses
 You retain full control over what data is used and how it is used within Workplace Analytics. Workplace Analytics uses Office 365 email and calendar metadata and external data defined by your organization to compute how much time groups within your organization spend on email and in meetings, and with whom.
 
 ## Data from Office 365
