@@ -17,11 +17,11 @@ The MyAnalyticsOutlook add-in is automatically enabled for all users who have th
 
 *In Microsoft Outlook*
 
- * In the Outlook desktop application's navigation bar, select the MyAnalytics logo. 
+ * In the navigation bar of the Outlook desktop application, select the MyAnalytics logo. 
 
     <img src="../../Images/Open-mya-in-add-in.png" alt="MyAnalytics add-in in Outlook">
 
-    The MyAnalytics add-in pane slides open in the right-hand side of your email window.
+    The MyAnalytics add-in pane slides open in the right side of your email window.
 
 *In Outlook Web App*
 

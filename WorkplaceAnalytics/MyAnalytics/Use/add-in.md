@@ -17,6 +17,8 @@ MyAnalytics helps you understand how you collaborate with colleagues and spend y
 
 [!INCLUDE [Open the Outlook add-in](MyA-Outlook-add-in/MyA-Open-Add-in.md)]
 
+# Informative cards
+
 MyAnalytics draws email and meeting data from Outlook, notices patterns, and then the MyAnalytics Outlook add-in displays information in cards. Each card reports on an aspect of your behavior and suggests an action you can take. The following sections describe the cards that the add-in uses to communicate with you:  
 
 [!INCLUDE [Add top collaborators](MyA-Outlook-add-in/MyA-Add-in-Add-top-collab.md)]
