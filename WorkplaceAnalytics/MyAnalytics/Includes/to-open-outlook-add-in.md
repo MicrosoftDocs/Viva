@@ -13,7 +13,6 @@ ms.prod: mya
 
 **To open the Outlook MyAnalytics add-in**
 
-How can I get the Outlook add-in?
 The MyAnalyticsOutlook add-in is automatically enabled for all users who have the MyAnalytics license. 
 
 *In Microsoft Outlook*
