@@ -3,7 +3,7 @@
 # required metadata
 
 title: Unread emails
-description: What to do with MyA cards about unread emails. 
+description: What to do with MyAnalytics cards about unread emails. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
