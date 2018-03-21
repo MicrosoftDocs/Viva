@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics privacy and data access
-description: This article discusses the privacy and data access controls available in Workplace Analytics and  
+title: Meetin queries in Workplace Analytics
+description: This article describes when to use a meeting query and the kind of information they provide.  
 author: rodonahu
 ms.author: rodonahu
-ms.date: 01/19/2018
+ms.date: 03/21/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
@@ -24,7 +24,6 @@ But for most questions you want to answer, the lines are more clear cut.
 
 ![Meeting query and Person query](../Images/WpA/Tutorials/meeting-or-person-query-2.png)
  
-
 Use a meeting query when you want to understand the relationship between different meeting attributes.
 
 Use a person query when you want to understand the relationship between a person’s organizational attributes – like their team, level, or location – and how they use their time, or when you want to know how one aspect of a person’s time use might influence another aspect of their time use.
