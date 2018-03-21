@@ -65,4 +65,9 @@ Group queries also offer alternative perspectives on collaboration. Rather than 
 
 [Group queries](../Tutorials/group-queries.md)
 
+[Workplace Analytics glossary](../Use/Glossary.md)
+
+[Metric descriptions](../Use/Metric-definitions.md)
+
+
 
