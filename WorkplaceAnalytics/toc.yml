@@ -80,14 +80,14 @@
             href: ~/Use/Percentage-and-average-calculations.md
       - name: Tutorials
         items:
+          - name: Query basics
+            href: ~/Tutorials/Query-basics.md  
           - name: Person queries
             href: ~/Tutorials/Person-queries.md
           - name: Meeting queries
             href: ~/Tutorials/Meeting-queries.md
           - name: Group queries
             href: ~/Tutorials/Group-queries.md
-          - name: Query basics
-            href: ~/Tutorials/Query-basics.md  
 - name: MyAnalytics
   href: MyAnalytics/MyA-landing-page.md
   expanded: true
