@@ -21,7 +21,8 @@ With these tools, you can:
 
  ![What you can do with queries](../Images/WpA/Tutorials/select-customize-transform.png)
 
-## Person
+## Person query
+![Person query](../Images/WpA/Tutorials/person-query-card.png)
  
 Use a person query when you want to understand the relationship between a person’s organizational attributes – like their team, level, or location – and how they use their time, or when you want to know how one aspect of a person’s time use might influence another aspect of their time use.
 
@@ -29,7 +30,9 @@ With a person query you can compare across individual activities and attributes 
 * Time use metrics
 * Organizational attributes
 
-## Meeting  
+## Meeting query  
+
+![Meeting query](../Images/WpA/Tutorials/meeting-query-card.png  )
 
 Use a meeting query when you want to understand the relationship between different meeting attributes.
 
@@ -40,7 +43,9 @@ With a meeting query you can compare across meeting attributes, such as:
 * Double-booked or multitasking rates
 * Meeting organizer attributes
 
-## Group
+## Group query
+![Group query](../Images/WpA/Tutorials/group-query-card.png  )
+
 
 Use a group query when you want to understand how one team invested their collaboration time across other teams within and outside of the organization.
 
