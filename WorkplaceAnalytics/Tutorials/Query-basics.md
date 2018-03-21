@@ -49,7 +49,7 @@ With a meeting query you can compare across meeting attributes, such as:
 
 Use a group query when you want to understand how one team invested their collaboration time across other teams within and outside of the organization.
 
-In a group query, you can define “team” in a variety of ways, using any organizational attribute or email domain. This allows you to answer questions such as:
+In a group query, you can define team in a variety of ways, using any organizational attribute or email domain. This allows you to answer questions such as:
 
 * How did _Sales managers_ allocate their time between all external _customer domains_(companies)? 
 * How much time did _Benefits Analysts_ spend with _individual contributors_ in each _region_?
