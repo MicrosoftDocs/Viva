@@ -10,12 +10,12 @@ ms.date: 3/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
-# Person query
+# Person queries
 
 The person query analyzes collaboration from the point of view of each individual in the organization.
 
 That creates a lot of flexibility to analyze things like:
-* •How does time use vary by different organizational attributes?
+* How does time use vary by different organizational attributes?
 * How do specific subgroups in the organization spend their time?
 * How does one aspect of collaboration influence other time use habits?
 
