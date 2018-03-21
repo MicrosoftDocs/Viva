@@ -62,7 +62,7 @@
             href: ~/Use/Explore-Metrics-Networks-and-Collaboration.md
           - name: Chart types
             href: ~/Use/Chart-Types.md
-          - name: Create queries
+          - name: Create queries test
             href: ~/Use/Create-Queries.md
             name: View, download, and export query results
             href: ~/Use/View-download-and-export-query-results.md
@@ -78,6 +78,16 @@
             href: ~/Use/Glossary.md
           - name: Percentage and average calculations
             href: ~/Use/Percentage-and-average-calculations.md
+      - name: Tutorials
+        items:
+          - name: Person queries
+            href: ~/Tutorials/Person-queries.md
+          - name: Meeting queries
+            href: ~/Tutorials/Meeting-queries.md
+          - name: Group queries
+            href: ~/Tutorials/Group-queries.md
+          - name: Query basics
+            href: ~/Tutorials/Query-basics.md  
 - name: MyAnalytics
   href: MyAnalytics/MyA-landing-page.md
   expanded: true
