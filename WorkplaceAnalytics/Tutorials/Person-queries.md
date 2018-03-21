@@ -15,9 +15,9 @@ ms.prod: wpa
 The person query analyzes collaboration from the point of view of each individual in the organization.
 
 That creates a lot of flexibility to analyze things like:
-•	How does time use vary by different organizational attributes?
-•	How do specific subgroups in the organization spend their time?
-•	How does one aspect of collaboration influence other time use habits?
+* •How does time use vary by different organizational attributes?
+* How do specific subgroups in the organization spend their time?
+* How does one aspect of collaboration influence other time use habits?
 
 ![Person query questions](../Images/WpA/Tutorials/Person1.png)
  
@@ -58,11 +58,20 @@ It’s simple to set up a person query.
 
 You can customize most metrics. 
 
-The options depend on the type of metric, but can include criteria related to: 
+The options depend on the type of metric, but can include criteria related meetings and email. 
+
+Meetings:
 * When the event occurred
 * How many people were involved
 * Subject line keywords
 * Attendee/organizer attributes
+
+Email:
+* When the email was sent
+* How many people were included on the email
+* Subject line keywords
+* Recipient/sender attributes
+
 
 For example, you can easily create a metric that gives you a count of each person’s emails where at least one person from the Sales organization was included.
  
