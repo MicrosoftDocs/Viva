@@ -13,5 +13,5 @@ ms.prod: mya
 
 **To open the MyAnalytics dashboard**
 
- 1. In a web browser, open delve.office.com. Notice the Home, Me, MyAnalytics, and Favorites options in the left navigation pane.
+ 1. In a web browser, open delve.office.com. Notice the Home, Me, MyAnalytics, and Favorites options in the navigation pane.
  2. In the navigation pane, click MyAnalytics. The MyAnalytics personal dashboard opens; it displays your information for the most recent complete week. 
