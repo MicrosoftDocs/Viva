@@ -15,7 +15,7 @@ ms.prod: mya
 
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is the MyAnalytics _personal dashboard_.
 
-Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.
+Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.  
 
 [!INCLUDE [To open the MyAnalytics dashboard](../Includes/to-open-the-dashboard.md)]
 
