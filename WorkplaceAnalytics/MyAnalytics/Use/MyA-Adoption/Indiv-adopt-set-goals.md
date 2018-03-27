@@ -17,7 +17,7 @@ Once you have diagnosed your collaboration problem and clearly defined your “w
 
 You can set your goals in your MyAnalytics dashboard:
 
-<img src="../../Images/Adopt-indiv-6.PNG" alt="Edit your goals on the MyAnalytics dashboard">
+<img src="../../../Images/Adopt-indiv-6.PNG" alt="Edit your goals on the MyAnalytics dashboard">
   
 The dashboard displays the four main MyAnalytics metrics (Meeting hours, Email hours, Focus hours, and After hours), but you aren’t limited to these four metrics for setting goals. To help you set goals, use the following table, which contains both productivity outcomes and corresponding MyAnalytics metrics: 
 

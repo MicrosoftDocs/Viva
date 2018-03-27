@@ -15,9 +15,11 @@ ms.prod: wpa
 
 ## The MyAnalytics Habit Change Program
 
-The MyAnalytics Habit Change Program is a behavior-change program that is built around MyAnalytics. This program aims to help teams reduce burnout and increase productivity by changing bad collaboration habits. (To learn more about collaborative overload, see Collaborative Overload.) In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and develop new habits to change the way the team collaborates.
+The MyAnalytics Habit Change Program is a behavior-change program that is built around MyAnalytics. This program aims to help teams reduce burnout and increase productivity by changing bad collaboration habits. (To learn more about collaborative overload, see [Collaborative Overload](https://hbr.org/2016/01/collaborative-overload).
 
-At its core, the program is a series of MyAnalytics learning modules and habit-change playbooks  that can require as little as 15 minutes per week from team members. The biggest time investment is made upfront by the program manager who is responsible for designing a program that best matches the needs of the team. For example, a short program could encourage teams to experiment with new habits, or a longer program could have an overarching team goal and weekly check-in meetings. 
+In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and develop new habits to change the way the team collaborates.
+
+At its core, the program is a series of MyAnalytics learning modules and habit-change playbooks that can require as little as 15 minutes per week from team members. The biggest time investment is made upfront by the program manager who is responsible for designing a program that best matches the needs of the team. For example, a short program could encourage teams to experiment with new habits, or a longer program could have an overarching team goal and weekly check-in meetings. 
 
 The following content is meant to help program managers design a wide range of custom habit-change programs for teams. 
 
@@ -26,15 +28,13 @@ The following content is meant to help program managers design a wide range of c
 
 ## Choosing a team-based approach to change
 
-We all know that change can be hard. People are hard-wired to stick to the status quo even when it is undesirable. However, behavior change doesn’t have to be overwhelming. The key is to keep change as simple as possible and focus on a few small daily habits. Research led by Rob Cross, Professor of Global Business at Babson College, shows that typically doing just four or five things differently can enable people to reclaim 18 to 24% of their collaborative time (Reclaiming Your Day). 
+We all know that change can be hard. People are hard-wired to stick to the status quo even when it is undesirable. However, behavior change doesn’t have to be overwhelming. The key is to keep change as simple as possible and focus on a few small daily habits. Research led by Rob Cross, Professor of Global Business at Babson College, shows that typically doing just four or five things differently can enable people to reclaim 18 to 24% of their collaborative time (see [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf)).
 
 The results of individual change efforts are magnified when people commit to changing together as a group since people tend to behave as others do. Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, has said that collective intelligence builds when one person shows enthusiasm, recruits others, and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (The Culture Code, by Daniel Coyle Pg __).
 
-In The Power of Habit, Charles Duhigg writes, “The evidence is clear: if you want to change a habit, you must find an alternative routine, and your odds of success go up dramatically when you commit to changing as part of a group.” (The Power of Habit)
+In [The Power of Habit](http://charlesduhigg.com/additional-resources/), Charles Duhigg writes, “The evidence is clear: if you want to change a habit, you must find an alternative routine, and your odds of success go up dramatically when you commit to changing as part of a group.” 
 
 # Conditions for program success
-
-## What's needed to successfully run a MyAnalytics Habit Change Program
 
 Before you get started, it is important to make sure you set yourself up for success. The following program components are critical for the success of any change program:
 
@@ -45,7 +45,7 @@ Before you get started, it is important to make sure you set yourself up for suc
 
 ### An executive sponsor
 
-In multiple large studies conducted over the past two decades, an active and visible executive sponsor is consistently identified as the most important contributor to change-management success (Prosci Best Practices Report). Depending on the scope of the change, an executive sponsor does not have to be a c level executive. Regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see Build the Program Team.
+In multiple large studies conducted over the past two decades, an active and visible executive sponsor is consistently identified as the most important contributor to change-management success ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)). Depending on the scope of the change, an executive sponsor does not have to be a c level executive. Regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see Build the Program Team.
 
 ### A program purpose statement
 
@@ -56,7 +56,7 @@ Program participants need to believe in the purpose behind a change to enthusias
  * What are the employee benefits of the change?
  * What is the risk of not changing?
 
-Keep in mind that what motivates management may not be what motivates employees. Research shows that people frequently overestimate the extent to which others share their own attitudes, beliefs, and opinions, and they find it difficult to imagine that others don’t know something that they themselves do know (The Four Building Blocks of Change). To avoid these biases, spend the time to reflect on what specifically motivates your team and connect your program to things that are known to motivate employees such as their impact on their team and/or customer. (The Irrational Side of Change Management).
+Keep in mind that what motivates management may not be what motivates employees. Research shows that people frequently overestimate the extent to which others share their own attitudes, beliefs, and opinions, and they find it difficult to imagine that others don’t know something that they themselves do know ([The Four Building Blocks of Change](https://www.mckinsey.com/business-functions/organization/our-insights/the-four-building-blocks--of-change)). To avoid these biases, spend the time to reflect on what specifically motivates your team and connect your program to things that are known to motivate employees such as their impact on their team and/or customer. ([The Irrational Side of Change Management](https://www.mckinsey.com/business-functions/organization/our-insights/the-irrational-side-of-change-management)).
 
 Also, seek input from select members of your team as you answer these questions. Your team’s involvement in the development phase helps to cultivate the belief in the change and strengthen their commitment to it. Behavioral science shows that when people choose for themselves, they are far more committed to outcomes. This insight is also important to keep in mind when structuring the details of the program.
 
@@ -72,7 +72,7 @@ Most importantly, individuals participating in the program need to be empowered 
 
 # Program Phases
 
-<img src="../../Images/Adopt-teams-1.png" alt="The four program phases">
+<img src="../../../Images/Adopt-teams-1.png" alt="The four program phases">
  
 The MyAnalytics Habit Change Program has four phases: plan, implement, measure, and reinforce.
 

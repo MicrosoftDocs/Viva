@@ -143,7 +143,7 @@ Comparing the control results with the program metrics can help you gain a clear
 
 ## Communicate the program to the participants effectively
 
-Frequent and open communication is a top contributor to a successful change program. We recommend that consistency and transparency be your overall guiding principles. Important topics to address are expectations, plans, and how the change will affect employees (Prosci Best Practices Report).
+Frequent and open communication is a top contributor to a successful change program. We recommend that consistency and transparency be your overall guiding principles. Important topics to address are expectations, plans, and how the change will affect employees ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)).
 
 Specifically, when communicating with program participants, the general guidelines we recommend are:
 
@@ -186,10 +186,10 @@ We recommend the following template for your program launch email:
    * Expected first program event, such as the kick-off meeting
  * Preferred method to provide feedback and ask questions throughout the program
  * Links to more information on MyAnalytics and privacy
-   * MyAnalytics Overview
-   * MyAnalytics Product Demo Video
-   * MyAnalytics What's New Video
-   * Customer Case Study
+   * [MyAnalytics Overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
+   * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)
+   * [MyAnalytics What's New Video](https://www.youtube.com/watch?v=D808ojB5Dyo&feature=youtu.be)
+   * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
    * Privacy Information
    * Link to terms and definitions on doc site
 
@@ -201,13 +201,15 @@ Our work culture depends increasingly on multiteaming, in which people are assig
 
 Adding a social component to your program will help new habits spread. We recommend that you set up a collaboration channel – for example, a Microsoft Teams channel, to support your program. 
 
-Humans are social animals and we are heavily influenced by what those around us say and do. Social norms, which are the values, actions, and expectations of your group, guide your team’s behaviors (EAST Behavioral Change Method). A collaboration channel enables the members of your team to showcase new habits, share experiences (wins and challenges), support one another, make commitments to change, ask product questions, and provide feedback on the program.
+Humans are social animals and we are heavily influenced by what those around us say and do. Social norms, which are the values, actions, and expectations of your group, guide your team’s behaviors ([EAST Behavioral Change Method](http://38r8om2xjhhl25mw24492dir.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/BIT-Publication-EAST_FA_WEB.pdf)). A collaboration channel enables the members of your team to showcase new habits, share experiences (wins and challenges), support one another, make commitments to change, ask product questions, and provide feedback on the program.
 
 An additional benefit of the collaboration channel is that it serves as a great program-management tool. You can provide updates on the program and links to resources as well as store program materials on the channel to make them easy for program participants to find.
 
 ## Create surveys
 
-In addition to the quantitative data that MyAnalytics provides, we recommend that you collect qualitative data using surveys before, during, and after your program. Surveys help you better diagnose collaboration pain points, identify solutions, and understand the results of your program. When creating a survey, aim to keep it as short as possible and avoid these common survey question mistakes: Where Employee Surveys on Burnout and Engagement Go Wrong. We recommend that you use a survey application such as Microsoft Forms to conduct your surveys. For more information on how to create an effective survey, see Run an Employee Survey.
+In addition to the quantitative data that MyAnalytics provides, we recommend that you collect qualitative data using surveys before, during, and after your program. Surveys help you better diagnose collaboration pain points, identify solutions, and understand the results of your program. When creating a survey, aim to keep it as short as possible and avoid these common survey question mistakes: [Where Employee Surveys on Burnout and Engagement Go Wrong](https://hbr.org/2017/12/where-employee-surveys-on-burnout-and-engagement-go-wrong). 
+
+We recommend that you use a survey application such as Microsoft Forms to conduct your surveys. For more information on how to create an effective survey, see [Run an Employee Survey](https://rework.withgoogle.com/guides/analytics-run-an-employee-survey/steps/introduction/).
 
 The surveys that we recommend are:
 
@@ -215,13 +217,13 @@ The surveys that we recommend are:
 
 The pre-program survey helps you diagnose your team’s collaboration pain points. Perception is often different from reality and this survey helps you better understand your team’s actual needs. You use this understanding, in turn, to define your program goals and recommend new habits that strongly resonate with the group. We recommend that you include a link to your pre-program survey in the program-launch email.
 
-Here are suggested pre-program-survey questions to use, tailor, and/or build on: Pre-Program Survey Questions
+Here are suggested pre-program-survey questions to use, tailor, and/or build on: [Pre-Program Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/ESEHdAO2vOFBiW7AGLTIs80BatzB7h1wFx4JsPMRrWSdKA?e=IDRXHw)
 
 ### Team norms survey
 
-During your program, you will learn many new habits in the Learning Modules, some of which will work for your team and others that will not. After you explore a topic – for example, Meetings – and trying out different habits, we recommend that you conduct a team-norms survey to agree on new norms to adopt as a team. For additional information on how to select group norms and make them stick, see How to Create Executive Team Norms and Make Them Stick.
+During your program, you will learn many new habits in the Learning Modules, some of which will work for your team and others that will not. After you explore a topic – for example, Meetings – and trying out different habits, we recommend that you conduct a team-norms survey to agree on new norms to adopt as a team. For additional information on how to select group norms and make them stick, see [How to Create Executive Team Norms and Make Them Stick](https://hbr.org/2018/01/how-to-create-executive-team-norms-and-make-them-stick).
 
-Here are suggested team-norms survey questions to use, tailor, and/or build on for meetings, emails and focus hours: Norms Survey Questions 
+For suggested team-norms survey questions to use, tailor, and/or build on for meetings, emails, and focus hours, see [Norms Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/Ef9ihOIMwcBKpukfkOoDly0Bq1N1LlFeX5_bN28MlX3q0w?e=1etDbh). 
 
 To avoid fatigue from a long survey,  We recommend that you bundle the team norms survey with a corresponding learning module at the appropriate time in your program schedule. The survey should be completed after the program participants have had time to process the contents of the learning module and experiment with suggested habits.
 
@@ -229,7 +231,7 @@ To avoid fatigue from a long survey,  We recommend that you bundle the team norm
 
 You use the post-program survey to collect additional information on the results of your program. It helps you determine whether your program was successful and what the next steps are in your journey to develop heathier work habits. It can also be the way that you manually collect MyAnalytics data from individuals to measure goal attainment. (See Data Sharing for an alternative way to collect team-level data).
 
-Here are suggested post-program survey questions to use, tailor and/or build on: Post-Program Survey Questions
+For suggested post-program survey questions to use, tailor, and/or build on, see [Post-Program Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/EfkYi9wQ_71Amfg4feMkNPwB4DsGFvn8X0qPuYxJTMrJDQ?e=rxTfIM).
 
 ## Goal-setting survey
 
