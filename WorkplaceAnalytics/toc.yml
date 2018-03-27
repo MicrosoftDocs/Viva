@@ -119,14 +119,15 @@
     - name: Use MyAnalytics
       items:  
       - name: MyAnalytics elements
+        expanded: false
         items:
         - name: Dashboard
           href: MyAnalytics/Use/dashboard.md
         - name: Add-in
           href: MyAnalytics/Use/add-in.md
-        - name: Email Digests
+        - name: Email digests
           href: MyAnalytics/Use/email-digests.md
-      - name: Tips
+      - name: MyAnalytics Tips
         href: MyAnalytics/Overview/Tips.md
       - name: Adopt MyAnalytics
         items:
