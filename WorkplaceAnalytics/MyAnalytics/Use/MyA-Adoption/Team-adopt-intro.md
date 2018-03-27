@@ -71,6 +71,8 @@ Programs are most effective when the team is deliberately comprised of people wo
 Most importantly, individuals participating in the program need to be empowered to change. They need to feel confident that they can experiment with new behaviors. For example, if the team goal is to reduce meeting hours but team members are afraid to decline a meeting invite, the program will fail. It is the job of both the executive sponsor and program manager to empower program participants through clear communications, behavior role-modeling, and rewards and recognition (for more information on rewards and recognition, see Reinforce).
 
 # Program Phases
+
+<img src="../../Images/Adopt-teams-1.png" alt="The four program phases">
  
 The MyAnalytics Habit Change Program has four phases: plan, implement, measure, and reinforce.
 

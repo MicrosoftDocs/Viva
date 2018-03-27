@@ -54,6 +54,8 @@ After reflecting on those questions, does a single collaboration category stand 
 Next, look at your MyAnalytics dashboard to use data to validate your collaboration pain point and dig deeper to help uncover root causes. We recommend that you look at the past three weeks to help identify patterns and trends. Here are questions to ask to help you analyze the data:
 
 ## Meetings
+
+<img src="../../Images/Adopt-indiv-1.PNG" alt="Dashboard Meetings area">
   
  * Is my total number of meetings hours per week as a percentage of my work week very high?
  * Are most of the meetings I attend scheduled by me or by others?
@@ -61,6 +63,8 @@ Next, look at your MyAnalytics dashboard to use data to validate your collaborat
 
 ## Email
  
+<img src="../../Images/Adopt-indiv-2.PNG" alt="Dashboard Email area">
+  
  * Is my total number of email hours per week as a percentage of my work week very high?
  * Am I spending more time writing emails than reading emails?
  * Am I emailing throughout the day or at specific times during the day?
@@ -68,20 +72,27 @@ Next, look at your MyAnalytics dashboard to use data to validate your collaborat
 
 ## Focus Hours
  
+<img src="../../Images/Adopt-indiv-3.PNG" alt="Dashboard Focus hours area">
+  
  * Is my total number of focus hours per week as a percentage of my work week sufficient?
  * Which days during the week do I typically get the most time to focus?
  * Is the amount of time I spend meeting with others versus focusing on my individual work appropriate for my job?
 
 ## After Hours
  
+<img src="../../Images/Adopt-indiv-4.PNG" alt="Dashboard After Hours area">
+  
  * Is my total after-hours number acceptable?
  * Am I collaborating after hours on certain days or every day?
  * Am I spending the majority of my after hours in meetings or on email?
 
 ## Network
  
+<img src="../../Images/Adopt-indiv-5.PNG" alt="Dashboard Network area">
+  
  * Do my time investments in people line up with my top priorities?
  * Are there opportunities for me to meet more with or less with certain individuals?
  * Is anyone missing from my map with whom I should be spending time?
  * Am I acting as a bottleneck for certain people because I am too slow to respond to their emails?
+
 Now that you have analyzed your collaboration problem both qualitatively and quantitatively, you are well positioned to set specific goals. But before you set your goals, we recommend that you spend time thinking about why changing your behaviors is important. This helps to strengthen your motivation.

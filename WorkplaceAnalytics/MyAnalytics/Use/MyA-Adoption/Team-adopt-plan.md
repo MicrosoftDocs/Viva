@@ -124,6 +124,10 @@ While including all these components can help you run a successful program, even
 After you select the components that you want to include in your program, determine the right dates and frequency for each component. After you complete those steps, you can estimate a weekly time commitment for the team members to be included in your program launch communications. Also, consider when you want the executive sponsor to become visible and active during the program. Program-activity options for the executive sponsor include sending an encouraging email or participating in a check-in.
 
 The following are examples of program structures and schedules:  
+
+<img src="../../Images/Adopt-teams-2.png" alt="Program schedule example: Full program">
+
+<img src="../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
  
 ##A complementary outcome metric (optional)
 
