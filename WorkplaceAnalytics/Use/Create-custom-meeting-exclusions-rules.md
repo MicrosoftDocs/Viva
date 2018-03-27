@@ -12,7 +12,11 @@ ms.prod: wpa
 ---
 # Create custom meeting exclusions rules in Workplace Analytics
 
+<!-- 
+TEMPORARILY REMOVING THIS "PLACEHOLDER-TOPIC" NOTE. 26 MARCH 2018. 
+VERIFY AND UPDATE THIS CONTENT. 
 [[CONTENT NOTE: This is a placeholder topic. Update with new process from FastTrack.]]
+-->
 
 This topic contains step-by-step examples detailing how to work with meeting exclusions.
 ## How to create and run an “All meetings default” query using default meeting exclusions
@@ -24,6 +28,7 @@ By default, Workplace Analytics excludes the following types of meetings from qu
 In addition, Workplace Analytics will exclude meetings that are marked as Private, Confidential, or that are rights managed.
 
 If you not yet created any meeting queries, review the Meeting queries section in the topic [Create queries in Workplace Analytics](../Use/Create-queries.md).
+
 ### To create and run an “All meetings default” query using default exclusions 
 1. Create a new meeting query, named _All meetings default_.
 2. In the **Meeting exclusions** menu, select **Default meeting exclusion rule**.
@@ -34,7 +39,7 @@ If you not yet created any meeting queries, review the Meeting queries section i
 In order to evaluate the relevance of the default meeting exclusions for your company, you will need a list of those meetings that are excluded. To get that list, you will create and run a _Meetings excluded default_ query.
 
 ### To create a "Meeting excluded default" query
-1. On the **Queries** page, on the **Queries** tab, click** Meeting exclusions**.
+1. On the **Queries** page, on the **Queries** tab, click **Meeting exclusions**.
 2. Follow these steps to create a meeting exclusions rule set that is the opposite of the default meeting:
 
     a. At the bottom of the page, click **Add exclusion**
@@ -57,22 +62,25 @@ In order to evaluate the relevance of the default meeting exclusions for your co
 
 ## How to create custom meeting exclusions
 After a review of the all meetings and default excluded meetings, you may decide to create custom meeting exclusion rules to more closely reflect your company’s meeting norms and culture.
+
 ### To create custom meeting exclusions rules (generic)
+
 1. On the **Queries** page, click the **Meeting exclusions** tab.
 2. At the bottom of the page, click **Add exclusion**.
 3. In the line above the filters, enter a name for the exclusion rule.
 4. Under E**xcluded meetings where**, add the filters for the metrics you want to exclude.
 5. When you have added the rules that you want, click **Save**.
-6. Optional: To save the new exclusion rules as the default, in the meeting exclusions list, hover on the line with the new rules, and then click **Set as preferred**.
+6. (Optional) To save the new exclusion rules as the default, in the meeting exclusions list, hover on the line with the new rules, and then click **Set as preferred**.
 7. To use the new exclusion rules, on a query page, before you run your query, in the **Meeting exclusions** menu, select your custom exclusions from the list.
 
-## Business scenario - Include large meetings, exclude keywords
+## Business scenario: Include large meetings, exclude keywords
 Company A has a flat organization, and 260-person meetings are the norm, but those meetings were excluded by the default meeting exclusions. Additionally, there is a culture of creating meetings with no other attendees to make time for focused work and prevent others from over-booking their calendar. After reviewing the meeting query results, the analyst noticed a theme that “No meeting block time” and “PTO time” were common subject lines of non-relevant meetings.
 
 In this scenario, the analyst has decided to create custom meeting exclusion rules for her company with the following criteria:
+
 * Keep the default exclusion rules for:
-  * Total attendees: exclude meetings with only one attendee
-  * Duration: exclude meetings with duration greater than, or equal to, eight hours
-* To include meetings of 260 attendees, change Total attendees > 60 (increased from the default of 50)
+  * Total attendees: Exclude meetings with only one attendee.
+  * Duration: Exclude meetings with duration greater than, or equal to, eight hours.
+* To include meetings of 260 attendees, change Total attendees > 60 (increased from the default of 50).
 * To exclude PTO time, create a keyword exclusion where subject = “vacation” or “PTO” or “holiday”
 

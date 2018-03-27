@@ -41,18 +41,22 @@ In this step, generate a list of both included and excluded meetings that you wi
 
 [To create and run an “All meetings default” query using default exclusions](Create-custom-meeting-exclusions-rules.md#to-create-and-run-an-all-meetings-default-query-using-default-exclusions) 
 
-[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-meeting-excluded-default-query) 
+[To create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-meeting-excluded-default-query) 
 
 ### Step two: Review query results for trends and relevance
 In this step, review the included and excluded meeting results for relevance and company collaboration trends. Reviewing for trends can be a subjective exercise, more art than science. Here again, it’s best to focus on relevance in general trends, rather than strive for 100% accuracy.
+
 **Tips for reviewing meeting query results**
-* **Prioritize review based on potential impact** – Depending on the size of your organization and data set, there will likely be too many meetings to review them all, so prioritize to focus your review on meetings that have a large impact. For example: meetings with the longest durations, and meetings with the greatest number of attendees
+
+* **Prioritize review based on potential impact** – Depending on the size of your organization and data set, there will likely be too many meetings to review them all, so prioritize to focus your review on meetings that have a large impact. For example: meetings with the longest duration, and meetings with the greatest number of attendees.
+
 * **Account for company culture** – Examine the default excluded meetings in light of your company’s meeting culture. For example, if your company has weekly “all hands” meetings of 50 attendees or more, or has regular meetings of 8 hours or longer, then using the default exclusions would give non-representative results, and so you would likely decide to use a custom meeting exclusions.
 
   **Some questions to consider**
-  * Are there certain meeting types to always include or exclude based on meeting subject keywords?
-  * Are there certain meeting types to always include or exclude based on number of attendees or duration of meeting?
-  * Are there certain meeting types to always include or exclude based on group or locale?
+  Should you always include or exclude certain meeting types: 
+  * based on meeting subject keywords?
+  * based on number of attendees or duration of meeting?
+  * based on group or locale?
   
 * **Document your observations** – As you review the meetings, document your insights and observations about trends in the data.
 
