@@ -21,7 +21,7 @@ The ideal team is comprised of the following members:
  * Executive sponsor
  * Program manager
  * Change agents
- * Programp participants
+ * Program participants
 
 > [!Note] 
 > If you are a manager of a small team interested in running this program, focus on the roles of program manager and program participant. However, we encourage you to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
@@ -47,7 +47,7 @@ The critical responsibilities for the program manager are:
 
  * Secure support from an executive sponsor if the program is not driven from the top
  * Identify, train, and manage change agents
- * Remove obstacles in the way of the team’s success1
+ * Remove obstacles in the way of the team’s success
  * Lead program communications and regularly reinforce the program purpose
  * Structure the change program and lead activities
  * Facilitate discussions and idea sharing at check-ins and through collaboration channels

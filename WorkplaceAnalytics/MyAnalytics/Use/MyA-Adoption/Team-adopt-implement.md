@@ -69,7 +69,7 @@ After a team goal is defined, you must collect baseline data from everyone in th
 1.	Ask everyone to look at their dashboard and write down the data shown for the particular metric – for example, for focus hours. 
 2.	Repeat this exercise for the two prior weeks by scrolling back in time using the date range found at the top of the dashboard, as pictured here:
 
-<img src="../../../Images/Adopt-teams-4.png" alt="The four program phases">
+  <img src="../../../Images/Adopt-teams-4.png" alt="Date range">
 
 3.	Ask the program participant to average the three data points and send the average to you, the program manager, to compile the results. 
 

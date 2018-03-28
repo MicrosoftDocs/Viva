@@ -28,6 +28,7 @@ We recommend that you start by selecting one or two behaviors to keep things sim
 ## Learning modules
 
 MyAnalytics provides several Learning Modules, collections of materials that are organized by collaboration topic to help you develop new habits and learn how to use MyAnalytics more effectively. 
+
 Learning Modules include healthy behavior suggestions, Habit Change Playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral-science lessons. Below are the four modules: Meetings, Email, Focus Hours, and After Hours. You can find lessons on how to maintain important relationships in your network in these modules.
 
 [CONTENT PLACEHOLDER]
@@ -56,7 +57,7 @@ Even after you have used some new behaviors to meet your collaboration goals, it
 
 Rewards are critical to habit formation. In the lab, researchers use food rewards to motivate rats, dogs and monkeys to learn new behaviors. Human beings are no different from other animals when it comes to habit formation. 
 
-In his book, The Power of Habit, Charles Duhigg describes the habit formation process as a three-step loop. “First there is a cue, a trigger that tells your brain to go into automatic mode and which habit to use. Then there is a routine, which can be physical or mental or emotional. Finally, there is a reward, which helps your brain figure out if this particular loop is worth remembering for the future.”
+In his book _The Power of Habit_, Charles Duhigg describes the habit formation process as a three-step loop. “First there is a cue, a trigger that tells your brain to go into automatic mode and which habit to use. Then there is a routine, which can be physical or mental or emotional. Finally, there is a reward, which helps your brain figure out if this particular loop is worth remembering for the future.”
 
 To sustain your new behaviors, you should consistently reward yourself. Unlike the lab rats, your reward doesn’t have to be a hit of sugar water each time you behave a certain way, and your health will probably thank you if you pick a different treat. Luckily, humans have more options. Here are a few examples using the behavior of “declining a meeting that does not include an agenda”:
 
@@ -64,7 +65,7 @@ To sustain your new behaviors, you should consistently reward yourself. Unlike t
  * Listen to a song from a special, high-energy “I just declined a meeting” playlist.
  * Take the time you save from the meeting and put it towards something you will enjoy, like scheduling a lunch date with a friendly colleague (Can’t find time on their calendar? Refer them to your habit playbook!)
 
-When finding the reward that works best for you, be creative and be flexible. Just like it takes some experimenting to find the right new behaviors that will help you meet your goal, it can also take some experimenting to find the right reward. Sometimes when you are struggling to make a new habit stick, it’s not because the habit is the wrong one for you, but because you haven’t paired it with the right reward.
+As you seek the reward that works best for you, be creative and be flexible. Just as it must experiment to find the right behaviors to help you meet your goal, you might also need to experiment to find the right reward. Sometimes when you are struggling to make a new habit stick, it’s not because the habit is the wrong one for you, but because you haven’t paired it with the right reward.
 
 Often, the best rewards are ones that you look forward to with anticipation. Once you create an association between the behavior and its reward, that anticipation will carry over to the behavior, too. Whenever you engage in your new behavior, take a moment to think about the reward - for example, picture yourself enjoying great food and conversation with a favorite colleague while you decline that meeting. Especially if the reward is not something you will get to enjoy immediately, this practice will reinforce the association between the reward and the behavior.
 
@@ -88,7 +89,7 @@ If you are worried about having these conversations with your colleagues, prepar
 
 Human behaviors are heavily influenced by social norms, which are the values, actions and expectations of a group. If you and a few others on your team adopt a behavior and make it visible, it can spread across your entire team and establish a new norm.
 
-Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, says collective intelligence builds when one person shows enthusiasm, recruits others and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (The Culture Code, by Daniel Coyle Pg __).
+Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, says collective intelligence builds when one person shows enthusiasm, recruits others and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (_The Culture Code_, by Daniel Coyle<!-- Pg __-->).
 
 Here are some suggestions for how to use MyAnalytics to change habits as a team:
 
