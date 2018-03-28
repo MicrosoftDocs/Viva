@@ -77,14 +77,7 @@ After a review of the all meetings and default excluded meetings, you may decide
 6. (Optional) To save the new exclusion rules as the default, in the meeting exclusions list, hover on the line with the new rules, and then click **Set as preferred**.
 7. To use the new exclusion rules, on a query page, before you run your query, in the **Meeting exclusions** menu, select your custom exclusions from the list.
 
-### To designate a meeting-exclusion rule as a favorite
-
-1. On the **Queries** page, find the row of the meeting-exclusion rule that you want to designate as a favorite. 
-2. At the right end of the row, click the star. 
-
-  ![Marking a rule as the favorite](../Images/WpA/Use/exclusion-rule-as-favorite.png) 
-
-After you click the star, it will appear filled-in to indicate the favorite status of this exclusion rule. 
+[!INCLUDE [Designate a meeting-exclusion rule as a favorite](../Includes/to-designate-meeting-exclusion-rule-as-favorite.md)]
 
 Marking a rule as a favorite moves it to the top of the Meeting exclusions drop-down list on the query-creation page. In the following illustration, the "OOF Meetings" rule was marked as a favorite. It therefore appears at the top of the list: 
 
