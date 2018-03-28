@@ -116,13 +116,46 @@
         href: MyAnalytics/Setup/Assign-Licenses.md
       - name: Step Four - Verify that the Outlook add-in is installed
         href: MyAnalytics/Setup/Verify-Add-in.md
-    - name: Use
-      items:
-      - name: Dashboard
-        href: MyAnalytics/Use/dashboard.md
-      - name: Add-in
-        href: MyAnalytics/Use/add-in.md
-      - name: Email Digests
-        href: MyAnalytics/Use/email-digests.md
-      - name: Tips
+    - name: Use MyAnalytics
+      items:  
+      - name: MyAnalytics elements
+        expanded: false
+        items:
+        - name: Dashboard
+          href: MyAnalytics/Use/dashboard.md
+        - name: Add-in
+          href: MyAnalytics/Use/add-in.md
+        - name: Email digests
+          href: MyAnalytics/Use/email-digests.md
+      - name: MyAnalytics Tips
         href: MyAnalytics/Overview/Tips.md
+      - name: Adopt MyAnalytics
+        items:
+        - name: Individual adoption
+          items: 
+          - name: Get started
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md
+          - name: Diagnose problems
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md
+          - name: Define your why
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md
+          - name: Set goals
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
+          - name: Develop new habits
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-develop-habits.md
+          - name: Sustain change
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
+          - name: Resources
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
+        - name: Team adoption
+          items: 
+          - name: MyAnalytics habit change program
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-intro.md
+          - name: Plan
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-plan.md
+          - name: Implement
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-implement.md
+          - name: Measure
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-measure.md
+          - name: Reinforce
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-reinforce.md                        
