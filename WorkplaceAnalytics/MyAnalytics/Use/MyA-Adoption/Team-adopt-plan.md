@@ -18,13 +18,13 @@ ms.prod: wpa
 Who are the members of a MyAnalytics Habit Change program team and what are their roles and responsibilities?
 The ideal team is comprised of the following members:
 
- * Executive Sponsor
- * Program Manager
- * Change Agents
- * Program Participants
+ * Executive sponsor
+ * Program manager
+ * Change agents
+ * Programp participants
 
 > [!Note] 
-> If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, we encourage you to at the very least inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
+> If you are a manager of a small team interested in running this program, focus on the roles of program manager and program participant. However, we encourage you to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
 
 ### Executive sponsor
 
