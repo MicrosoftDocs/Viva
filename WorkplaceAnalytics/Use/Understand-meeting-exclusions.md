@@ -39,9 +39,9 @@ In this step, generate a list of both included and excluded meetings that you wi
 
 **Related topics**
 
-[To create and run an “All meetings default” query using default exclusions](Create-custom-meeting-exclusions-rules.md#to-create-and-run-an-all-meetings-default-query-using-default-exclusions) 
+[To create and run an “All meetings default” query using default exclusions](Create-custom-meeting-exclusions-rules.md#create-and-run-an-all-meetings-default-query-using-default-exclusions) 
 
-[To create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#to-create-a-meeting-excluded-default-query) 
+[To create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#create-and-run-a-meeting-excluded-default-query) 
 
 ### Step two: Review query results for trends and relevance
 In this step, review the included and excluded meeting results for relevance and company collaboration trends. Reviewing for trends can be a subjective exercise, more art than science. Here again, it’s best to focus on relevance in general trends, rather than strive for 100% accuracy.
