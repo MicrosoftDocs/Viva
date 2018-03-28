@@ -71,14 +71,8 @@ After a review of the all meetings and default excluded meetings, you may decide
 
 [!INCLUDE [Designate a meeting-exclusion rule as a favorite](../Includes/to-designate-meeting-exclusion-rule-as-favorite.md)]
 
-Marking a rule as a favorite moves it to the top of the Meeting exclusions drop-down list on the query-creation page. In the following illustration, the "OOF Meetings" rule was marked as a favorite. It therefore appears at the top of the list: 
-
-![Selecting a favorite rule in the drop-down list](../Images/WpA/Use/exclusion-rule-in-query.png) 
-
-> [!Note] 
-> You can designate more than one rule as a favorite. Each subsequent rule you mark as a favorite moves to the top of the list and pushes previously marked favorites down the list. 
-
 ## Business scenario: Include large meetings, exclude keywords
+
 Company A has a flat organization, and 260-person meetings are the norm, but those meetings were excluded by the default meeting exclusions. Additionally, there is a culture of creating meetings with no other attendees to make time for focused work and prevent others from over-booking their calendar. After reviewing the meeting query results, the analyst noticed a theme that “No meeting block time” and “PTO time” were common subject lines of non-relevant meetings.
 
 In this scenario, the analyst has decided to create custom meeting exclusion rules for her company with the following criteria:
