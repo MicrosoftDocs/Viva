@@ -76,7 +76,7 @@ Meeting ID | Subject | Attendees | Duration
 
 **Related topic** 
 
-[How to create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#create-and-run-a-meetings-excluded-default-query) 
+[Create and run a “Meetings excluded default” query](Create-custom-meeting-exclusions-rules.md#create-and-run-a-meetings-excluded-default-query) 
 
 ### Review included meetings
 Our analyst is now reviewing the results of the **All meetings default settings** query, and notices the following:
