@@ -20,7 +20,7 @@ VERIFY AND UPDATE THIS CONTENT.
 
 This topic contains step-by-step examples detailing how to work with meeting exclusions.
 
-## How to create and run an “All meetings default” query using default meeting exclusions
+## Create and run an “All meetings default” query using default meeting exclusions
 
 In this task, you will create a query that lists all meetings not excluded by the default exclusions.
 By default, Workplace Analytics excludes the following types of meetings from query results, as they are not likely to represent relevant workplace meetings:
@@ -33,16 +33,19 @@ In addition, Workplace Analytics will exclude meetings that are marked as Privat
 
 If you not yet created any meeting queries, review the Meeting queries section in the topic [Create queries in Workplace Analytics](../Use/Create-queries.md).
 
-### To create and run an “All meetings default” query using default exclusions 
+**To create and run an “All meetings default” query using default exclusions**
+
 1. Create a new meeting query, named _All meetings default_.
 2. In the **Meeting exclusions** menu, select **Default meeting exclusion rule**.
 3. Under **Metrics**, click **Add metric**, and then add all the available metrics (Attendees, Attendee multitasking and so on) to the query.
 4. Run the query.
 
-## How to create and run a “Meetings excluded default” query
+## Create and run a “Meetings excluded default” query
+
 In order to evaluate the relevance of the default meeting exclusions for your company, you will need a list of those meetings that are excluded. To get that list, you will create and run a _Meetings excluded default_ query.
 
-### To create a "Meeting excluded default" query
+**To create a "Meeting excluded default" query**
+
 1. On the **Queries** page, on the **Queries** tab, click **Meeting exclusions**.
 2. Follow these steps to create a meeting exclusions rule set that is the opposite of the default meeting:
 
@@ -64,7 +67,7 @@ In order to evaluate the relevance of the default meeting exclusions for your co
 7. To run the query, click **Run**.
 8. On the **Queries** page, on the **Results** tab, hover over the line for your report, and once the status is Succeeded, click **View** or **Download**.
 
-## How to create custom meeting exclusions
+## Create custom meeting exclusions
 After a review of the all meetings and default excluded meetings, you may decide to create custom meeting exclusion rules to more closely reflect your company’s meeting norms and culture.
 
 [!INCLUDE [Create a custom meeting-exclusion rule](../Includes/to-create-custom-meeting-exclusion-rule.md)]
