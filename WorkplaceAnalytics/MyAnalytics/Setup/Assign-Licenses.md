@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Assign MyAnalytics license to users
-description: Assign licenses so that users can experience MyA
+title: Assign MyAnalytics licenses to users
+description: Assign licenses so that users can experience MyAnalytics
 author: rodonahu
 ms.author: rodonahu
 ms.date: 01/19/2018

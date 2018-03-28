@@ -2,13 +2,14 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
+title: MyAnalytics setup checklist
 description: This list states what's needed to implement MyAnalytics in your organization
 author: rodonahu
 ms.author: v-pascha
 ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: wpa
+audience: Admin
 ---
 
 <!-- It seems that this topic does not appear in the docset. Compare with MyA-setup-checklist.md. 15 March 2019 -->
