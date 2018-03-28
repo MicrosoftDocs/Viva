@@ -137,8 +137,8 @@
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md
           - name: Diagnose problems
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md
-          - name: Define your why
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md
+    #      - name: Define your why
+    #        href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md
           - name: Set goals
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
           - name: Develop new habits

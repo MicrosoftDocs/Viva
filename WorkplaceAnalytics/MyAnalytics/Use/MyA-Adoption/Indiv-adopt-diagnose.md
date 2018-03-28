@@ -13,9 +13,15 @@ ms.prod: wpa
 
 # Diagnose problems
 
-Your collaboration problem might already be clear to you or you might be like many of us who feel overwhelmed by collaborative demands but don’t know just where to begin. We can help you diagnose your problems. 
+If you are feeling the pain of collaboration overload, but haven’t identified the problem and its cause, start with a diagnosis exercise:
 
-First, ask yourself the following questions grouped by collaboration category:
+Use a list of questions (qualitative diagnosis) and data from your MyAnalytics dashboard (quantitative diagnosis) to better understand your priorities for managing your collaboration load across five categories: Meetings, Email, Focus Hours, After Hours, and Network.
+
+<img src="../../../Images/Adopt-indiv-05.PNG" alt="MyAnalytics change steps">
+
+## Qualitative diagnosis
+
+First, ask yourself the following questions:
 
 ### Meetings
 
@@ -36,7 +42,7 @@ First, ask yourself the following questions grouped by collaboration category:
 ### Focus hours
 
  * Am I able to schedule sufficient time to focus on getting my most important work done?
- * Do I regularly come up with creative and original ideas?
+ * Do I regularly produce creative and original ideas?
  * Am I constantly getting interrupted by others and/or distracted by technology?
  * Do I regularly achieve my important deadlines?
  * Do I have adequate control over my schedule?
@@ -49,16 +55,26 @@ First, ask yourself the following questions grouped by collaboration category:
  * Am I able to get my most important work done during my regular business hours?
  * Do I feel drained and stressed at the end of the day?
 
+### Network
+ * Are the people I spend my time with aligned with my top priorities?
+ * Have I lost touch with people who can help me achieve my goals?
+ * Could I enhance my job performance by interacting more with people outside my team?
+ * Am I not responsive enough to important people or groups?
+ * Could I gain autonomy from or grant it to certain individuals by collaborating less with them? 
+
 After reflecting on those questions, does a single collaboration category stand out as your biggest pain point or are you suffering in more than one category? If more than one category, then we recommend that you prioritize and select one category to focus on to get started.
 
-Next, look at your MyAnalytics dashboard to use data to validate your collaboration pain point and dig deeper to help uncover root causes. We recommend that you look at the past three weeks to help identify patterns and trends. Here are questions to ask to help you analyze the data:
+### Quantitative diagnosis
+
+Look at your MyAnalytics dashboard to use data to validate your collaboration pain point and dig deeper to help uncover root causes. We recommend that you look at the past three weeks to help identify patterns and trends. Here are questions to ask to help you analyze the data:
 
 ## Meetings
 
 <img src="../../../Images/Adopt-indiv-1.PNG" alt="Dashboard Meetings area">
   
  * Is my total number of meetings hours per week as a percentage of my work week very high?
- * Are most of the meetings I attend scheduled by me or by others?
+ * How much time as a percentage of my week should I spend in meetings for my job?
+ * Are most of the meetings that I attend scheduled by me or by others?
  * Which of the low-quality meeting habits appears to be my biggest problem?
 
 ## Email
@@ -95,4 +111,14 @@ Next, look at your MyAnalytics dashboard to use data to validate your collaborat
  * Is anyone missing from my map with whom I should be spending time?
  * Am I acting as a bottleneck for certain people because I am too slow to respond to their emails?
 
-Now that you have analyzed your collaboration problem both qualitatively and quantitatively, you are well positioned to set specific goals. But before you set your goals, we recommend that you spend time thinking about why changing your behaviors is important. This helps to strengthen your motivation.
+After you analyze your collaboration problem both qualitatively and quantitatively, you should have more clarity on what you would like to change about the way you collaborate. Behavior-change objectives include: 
+
+* Reduce the number of hours I spend in ineffective meetings.
+* Schedule more focus hours to boost my productivity, creativity and decision-making.
+* Manage my inbox more effectively.
+* Improve the effectiveness of the emails that I send.
+* Reduce my after-hours collaboration to achieve a better work-life balance.
+* Spend more time with the people in my network who are aligned with my top priorities.
+
+After you have your objective, it's time to convert it into a measurable goal by using a MyAnalytics metric. See [Set goals](../MyA-Adoption/Indiv-adopt-set-goals.md).
+

@@ -19,12 +19,12 @@ For additional support and feedback, email us at change@myanalytics.com.
 ## A selection of our favorite books
 
 Here is a list of some of our favorite books:
- * The Power of Habit, by Charles Duhigg
  * Deep Work, by Cal Newport
  * How to Have A Good Day, by Caroline Webb
  * One Second Ahead, by Rasmus Houggard
- * Time Talent and Energy, by Michael Mankins and Eric Garton
  * Switch, by Dan and Chip Heath
+ * The Power of Habit, by Charles Duhigg
+ * Time Talent and Energy, by Michael Mankins and Eric Garton
 
 ## Articles
 
@@ -92,3 +92,5 @@ Here is a list of some of our favorite books:
  * Work-life balance: Your Boss's Work-Life Balance Matters as Much as Your Own
  * Work-life balance: Help Your Team Achieve Work-Life Balance - Even When You Can't
  * Work-life balance: How Being a Workaholic Differs from Working Long Hours - and Why That Matters for Your Health
+ * Work-life balance: Understanding Speed and Velocity: Saying “NO” to the Non-Essential
+ * Work-life balance: Eight Ways to Say No with Grace and Style
