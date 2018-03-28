@@ -82,16 +82,16 @@ After a review of the all meetings and default excluded meetings, you may decide
 1. On the **Queries** page, find the row of the meeting exclusion that you want to designate as a favorite. 
 2. At the right end of the row, click the star. 
 
-![Marking a rule as the favorite](../Images/WpA/Use/exclusion-rule-as-favorite.png) 
+  ![Marking a rule as the favorite](../Images/WpA/Use/exclusion-rule-as-favorite.png) 
 
-The star now appears filled-in to show that this meeting exclusion is a favorite. 
+After you click the star, it will appear filled-in to indicate the favorite status of this exclusion rule. 
 
-Marking an exclusion rule as a favorite causes it to appear in the top of the Meeting exclusions drop-down list on the query-creation page. In the following illustration, the rule named "OOF Meetings" was most recently marked as the favorite; this causes it to appear at the top of the list: 
+Marking a rule as a favorite moves it to the top of the Meeting exclusions drop-down list on the query-creation page. In the following illustration, the rule named "OOF Meetings" was most recently marked as the favorite; this causes it to appear at the top of the list: 
 
-![Selecting a favorite rule in the drop-down list](../Images/WpA/Use/exclusion-rule-in-query.png) 
+  ![Selecting a favorite rule in the drop-down list](../Images/WpA/Use/exclusion-rule-in-query.png) 
 
 > [!Note] 
-> You can mark more than one exclusion rule as a favorite. As you mark each rule as a favorite, it moves to the top of the drop-down list; this causes older favorites to move down the list. 
+> You can mark more than one exclusion rule as a favorite. If you mark a subsequent rule as a favorite, it moves to the top of the list. This pushes previously marked favorites down the list. 
 
 ## Business scenario: Include large meetings, exclude keywords
 Company A has a flat organization, and 260-person meetings are the norm, but those meetings were excluded by the default meeting exclusions. Additionally, there is a culture of creating meetings with no other attendees to make time for focused work and prevent others from over-booking their calendar. After reviewing the meeting query results, the analyst noticed a theme that “No meeting block time” and “PTO time” were common subject lines of non-relevant meetings.
