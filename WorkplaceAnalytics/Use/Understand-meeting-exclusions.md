@@ -99,6 +99,7 @@ If you decide to create custom meeting exclusion rules, continue to the **Create
 
 ## Create and validate custom exclusions
 In this phase, you will create the custom meeting exclusions that you want, and then review and validate their relevance using the same steps that you used to validate the default meeting exclusions.
+
 ### Step one: Create custom meeting exclusions
 Based on your review, create a set of custom meeting exclusion rules that are relevant for your company. 
 
