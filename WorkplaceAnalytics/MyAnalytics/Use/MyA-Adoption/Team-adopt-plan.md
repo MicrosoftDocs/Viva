@@ -129,7 +129,7 @@ The following are examples of program structures and schedules:
 
 <img src="../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
  
-##A complementary outcome metric (optional)
+## A complementary outcome metric (optional)
 
 We recommend that you define a complementary outcome metric to measure during the program in addition to the MyAnalytics metrics you will be tracking and measuring. Examples of complementary  outcome metrics include engagement and productivity scores that are appropriate for your team and measured outside of MyAnalytics. The outcome metric will help you better determine the outcomes of your MyAnalytics Habit Change Program. For example, “The team reclaimed four hours of focus time each week. This helped them feel less stress and/or receive higher customer satisfaction scores due to higher-quality work/product delivered.”
 
