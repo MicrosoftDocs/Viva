@@ -33,7 +33,7 @@ The executive sponsor is an influential senior-level leader who understands and 
 The critical responsibilities of the executive sponsor are:
 
  * Participate in defining and communicating the program purpose
- * Remove obstacles in the way of the team’s success1
+ * Remove obstacles in the way of the team’s success
  * Build excitement for MyAnalytics and the change program
  * Participate in select program activities
  * Serve as a role model for behaviors that you want to promote
