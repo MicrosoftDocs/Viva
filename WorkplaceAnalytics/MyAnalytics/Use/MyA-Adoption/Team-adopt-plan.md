@@ -125,9 +125,13 @@ After you select the components that you want to include in your program, determ
 
 The following are examples of program structures and schedules:  
 
-<img src="../../Images/Adopt-teams-2.png" alt="Program schedule example: Full program">
+**Full program**
 
-<img src="../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
+<img src="../../../Images/Adopt-teams-2.png" alt="Program schedule example: Full program">
+
+**Modified program**
+
+<img src="../../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
  
 ## A complementary outcome metric (optional)
 
