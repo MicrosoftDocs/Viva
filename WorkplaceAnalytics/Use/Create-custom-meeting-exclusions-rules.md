@@ -78,21 +78,17 @@ After a review of the all meetings and default excluded meetings, you may decide
 7. To use the new exclusion rules, on a query page, before you run your query, in the **Meeting exclusions** menu, select your custom exclusions from the list.
 
 ### To designate a meeting-exclusion rule as a favorite
-**To designate a meeting-exclusion rule as a favorite**
+
 1. On the **Queries** page, find the row of the meeting exclusion that you want to designate as a favorite. 
 2. At the right end of the row, click the star. 
 
 ![Marking a rule as the favorite](../Images/WpA/Use/exclusion-rule-as-favorite.png) 
-
-<img src="../Images/WpA/Use/exclusion-rule-as-favorite.PNG" alt="Marking a rule as the favorite">
 
 The star now appears filled-in to show that this meeting exclusion is a favorite. 
 
 Marking an exclusion rule as a favorite causes it to appear in the top of the Meeting exclusions drop-down list on the query-creation page. In the following illustration, the rule named "OOF Meetings" was most recently marked as the favorite; this causes it to appear at the top of the list: 
 
 ![Selecting a favorite rule in the drop-down list](../Images/WpA/Use/exclusion-rule-in-query.png) 
-
-<img src="../../Images/WpA/Use/exclusion-rule-in-query.PNG" alt="Selecting a favorite rule in the drop-down list">
 
 > [!Note] 
 > You can mark more than one exclusion rule as a favorite. As you mark each rule as a favorite, it moves to the top of the drop-down list; this causes older favorites to move down the list. 
