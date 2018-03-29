@@ -97,3 +97,4 @@ Here are some suggestions for how to use MyAnalytics to change habits as a team:
  * Share the Learning Modules with the full team and carve out time during team meetings to discuss them. These discussions can help you identify habits to experiment with and select new team collaboration norms.
  * Try the “MyAnalytics Team Habit Change Program” (see the Teams section in MyAnalytics Customer Success). 
 
+
