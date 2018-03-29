@@ -25,7 +25,7 @@ In his book _The Power of Habit_, Charles Duhigg describes the habit formation p
 
 To sustain your new behaviors, you should consistently reward yourself. Unlike the lab rats, your reward doesn’t have to be a hit of sugar water each time you behave a certain way, and your health will probably thank you if you pick a different treat. Luckily, humans have more options. Here are a few examples using the behavior of “declining a meeting that does not include an agenda”:
 
- * Raise your arms in victory every time after you say no to a meeting (this is an example of a “self-nudge”, or small tweak to your body language and mind-set that can produce psychological and behavioral improvements in the moment).
+ * Raise your arms in victory every time you say no to a meeting. Do this because the body has a primitive and direct link to the mind. This illustrates what Harvard professor and author Amy Cuddy calls a “body-mind nudge” -- a specific kind of “self-nudge,” a message to your body language and mind-set that can produce psychological and behavioral improvements in the moment.
  * Listen to a song from a special, high-energy “I just declined a meeting” playlist.
  * Take the time you save from the meeting and put it towards something you will enjoy, like scheduling a lunch date with a friendly colleague (Can’t find time on their calendar? Refer them to your habit playbook!)
 
