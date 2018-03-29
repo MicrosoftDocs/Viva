@@ -31,30 +31,4 @@ We recommend that you start by selecting one or two behaviors to keep things sim
 
 [!INCLUDE [Habit Change Method](../../Includes/Adopt-Habit-Change-Method.md)]
 
-<!-->
 
-## Learning modules
-
-MyAnalytics provides several Learning Modules, collections of materials that are organized by collaboration topic to help you develop new habits and learn how to use MyAnalytics more effectively. 
-
-Learning Modules include healthy behavior suggestions, Habit Change Playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral-science lessons. Below are the four modules: Meetings, Email, Focus Hours, and After Hours. You can find lessons on how to maintain important relationships in your network in these modules.
-
-[CONTENT PLACEHOLDER]
-
-## Habit Change Playbooks
-
-Habit Change Playbooks describe how to use MyAnalytics to develop certain specific habits according to our suggested habit-change methodology. The playbooks leverage Microlearning, a method of learning through bite-sized lessons, and behavioral science to maximize their effectiveness.  
-
-Habit formation is especially suited to microlearning, since the key to building new habits is starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, has said that “baby steps” are one of the only things what will change behavior in the long term.
-
-Each Habit Change Playbook provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to try to develop the habit. It is especially effective if you ask a coworker or your team to join you as you work through the playbook, even as a fun and friendly competition. The complete collection of playbooks can be found in the following sections, and they are referenced in the Learning Modules.
-
-[CONTENT PLACEHOLDER]
-
-## Habit Change Method
-
-What follows is the habit-change methodology used to develop the playbooks.  You can create your own custom habit-change playbook using this method and the accompanying playbook template:
-
-[CONTENT PLACEHOLDERS FOR METHOD SLIDE AND PLAYBOOK TEMPLATE]
-
--->
