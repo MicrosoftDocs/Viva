@@ -69,7 +69,7 @@ After a team goal is defined, you must collect baseline data from everyone in th
 1.	Ask everyone to look at their dashboard and write down the data shown for the particular metric – for example, for focus hours. 
 2.	Repeat this exercise for the two prior weeks by scrolling back in time using the date range found at the top of the dashboard, as pictured here:
 
-  <img src="../../../Images/Adopt-teams-4.png" alt="Date range">
+    <img src="../../../Images/Adopt-teams-4.png" alt="Date range">
 
 3.	Ask the program participant to average the three data points and send the average to you, the program manager, to compile the results. 
 
@@ -87,7 +87,7 @@ Test link path for PDF: [Team-adopt-intro](Team-adopt-intro.md)
 
 [CONTENT PLACEHOLDER]
 
-We recommend that you send a Learning Module to your team every other week to program in an order that best matches your team goals and program objectives. We also recommend that you bundle the learning module with a corresponding team-norms survey. The survey should be completed after the program participants have had time to process the contents of the Learning Module and experiment with suggested habits using the Habit Change Method (see “Habit Change Method”)
+We recommend that you send a Learning Module to your team every other week to program in an order that best matches your team goals and program objectives. We also recommend that you bundle the learning module with a corresponding team-norms survey. The survey should be completed after the program participants have had time to process the contents of the Learning Module and experiment with suggested habits using the [Habit Change Method](Team-adopt-implement.md#habit-change-method).
 
 ## Habit Change Playbooks 
 

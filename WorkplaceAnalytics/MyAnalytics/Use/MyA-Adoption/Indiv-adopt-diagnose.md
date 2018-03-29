@@ -64,11 +64,11 @@ First, ask yourself the following questions:
 
 After reflecting on those questions, does a single collaboration category stand out as your biggest pain point or are you suffering in more than one category? If more than one category, then we recommend that you prioritize and select one category to focus on to get started.
 
-### Quantitative diagnosis
+## Quantitative diagnosis
 
 Look at your MyAnalytics dashboard to use data to validate your collaboration pain point and dig deeper to help uncover root causes. We recommend that you look at the past three weeks to help identify patterns and trends. Here are questions to ask to help you analyze the data:
 
-## Meetings
+### Meetings
 
 <img src="../../../Images/Adopt-indiv-1.PNG" alt="Dashboard Meetings area">
   
@@ -77,7 +77,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
  * Are most of the meetings that I attend scheduled by me or by others?
  * Which of the low-quality meeting habits appears to be my biggest problem?
 
-## Email
+### Email
  
 <img src="../../../Images/Adopt-indiv-2.PNG" alt="Dashboard Email area">
   
@@ -86,7 +86,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
  * Am I emailing throughout the day or at specific times during the day?
  * Am I reading and sending a lot of emails outside business hours?
 
-## Focus Hours
+### Focus Hours
  
 <img src="../../../Images/Adopt-indiv-3.PNG" alt="Dashboard Focus hours area">
   
@@ -94,7 +94,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
  * Which days during the week do I typically get the most time to focus?
  * Is the amount of time I spend meeting with others versus focusing on my individual work appropriate for my job?
 
-## After Hours
+### After Hours
  
 <img src="../../../Images/Adopt-indiv-4.PNG" alt="Dashboard After Hours area">
   
@@ -102,7 +102,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
  * Am I collaborating after hours on certain days or every day?
  * Am I spending the majority of my after hours in meetings or on email?
 
-## Network
+### Network
  
 <img src="../../../Images/Adopt-indiv-5.PNG" alt="Dashboard Network area">
   
@@ -110,6 +110,8 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
  * Are there opportunities for me to meet more with or less with certain individuals?
  * Is anyone missing from my map with whom I should be spending time?
  * Am I acting as a bottleneck for certain people because I am too slow to respond to their emails?
+
+## Behavior-change objective 
 
 After you analyze your collaboration problem both qualitatively and quantitatively, you should have more clarity on what you would like to change about the way you collaborate. Behavior-change objectives include: 
 
