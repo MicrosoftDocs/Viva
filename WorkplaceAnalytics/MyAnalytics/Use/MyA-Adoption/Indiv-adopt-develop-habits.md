@@ -25,10 +25,10 @@ Any number of behaviors can support a goal and turn into a habit. For example, i
 
 We recommend that you start by selecting one or two behaviors to keep things simple and to more easily determine which one works best for you. There are no one-size-fits-all solutions to collaboration problems. The next section explains how you can use Learning Modules, Habit-Change Playbooks, and the Habit Change Method to turn new behaviors into solid habits based on behavioral science.
 
-[!INCLUDE [Learning modules](../../Includes/Adopt-Learning-Modules.md)]
+[!INCLUDE [Learning modules](Adopt-Learning-Modules.md)]
 
-[!INCLUDE [Habit Change Playbooks](../../Includes/Adopt-Habit-Change-Playbooks.md)]
+[!INCLUDE [Habit Change Playbooks](Adopt-Habit-Change-Playbooks.md)]
 
-[!INCLUDE [Habit Change Method](../../Includes/Adopt-Habit-Change-Method.md)]
+[!INCLUDE [Habit Change Method](/Adopt-Habit-Change-Method.md)]
 
 
