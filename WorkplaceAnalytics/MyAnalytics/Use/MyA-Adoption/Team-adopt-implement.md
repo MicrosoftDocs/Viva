@@ -81,11 +81,9 @@ At the end of the program, to collect the results, repeat the same process eithe
 
 A Learning Module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning Modules include habit suggestions, Habit Change Playbooks, tips on interpreing MyAnalytics data and using product features, links to articles to learn more about specific topics, productivity lessons, and fun behavioral-science lessons. See the following four modules: Meetings, Email, Focus Hours, and After Hours.
 
+Test link path for PDF: [Team-adopt-intro](Team-adopt-intro.md)
+
 [Focus Hours Learning Module](MyAnalytics-Focus-Time.pdf)
-
-[Focus Hours Learning Module](myanalytics-focus-time.pdf)
-
-Testing the path: See [Team-adopt-intro](Team-adopt-intro.md)
 
 [CONTENT PLACEHOLDER]
 
