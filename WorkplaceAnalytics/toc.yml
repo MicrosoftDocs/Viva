@@ -147,6 +147,14 @@
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
           - name: Resources
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
+        - name: Habit-change resources
+          items: 
+          - name: Learning Modules
+            href: MyAnalytics/Includes/Adopt-Learning-Modules.md
+          - name: Habit Change Playbooks
+            href: MyAnalytics/Includes/Adopt-Habit-Change-Playbooks.md
+          - name: Habit Change Method
+            href: MyAnalytics/Includes/Adopt-Habit-Change-Method.md
         - name: Team adoption
           items: 
           - name: MyAnalytics habit change program
