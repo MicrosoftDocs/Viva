@@ -29,6 +29,6 @@ We recommend that you start by selecting one or two behaviors to keep things sim
 
 [!INCLUDE [Habit Change Playbooks](Adopt-Habit-Change-Playbooks.md)]
 
-[!INCLUDE [Habit Change Method](/Adopt-Habit-Change-Method.md)]
+[!INCLUDE [Habit Change Method](Adopt-Habit-Change-Method.md)]
 
 
