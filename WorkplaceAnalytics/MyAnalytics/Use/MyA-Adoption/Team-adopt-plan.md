@@ -97,8 +97,8 @@ To structure a program that best meets the needs of your team, define the follow
 
  * Program duration and dates
  * Program components
- * An outcome metric (optional)
- * A control group (optional)
+ * Complementary outcome metric (optional)
+ * Control group (optional)
 
 ### Program duration and dates
 
@@ -133,7 +133,7 @@ The following are examples of program structures and schedules:
 
 <img src="../../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
  
-## A complementary outcome metric (optional)
+## Complementary outcome metric (optional)
 
 We recommend that you define a complementary outcome metric to measure during the program in addition to the MyAnalytics metrics you will be tracking and measuring. Examples of complementary  outcome metrics include engagement and productivity scores that are appropriate for your team and measured outside of MyAnalytics. The outcome metric will help you better determine the outcomes of your MyAnalytics Habit Change Program. For example, “The team reclaimed four hours of focus time each week. This helped them feel less stress and/or receive higher customer satisfaction scores due to higher-quality work/product delivered.”
 
@@ -194,7 +194,7 @@ We recommend the following template for your program launch email:
    * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)
    * [MyAnalytics What's New Video](https://www.youtube.com/watch?v=D808ojB5Dyo&feature=youtu.be)
    * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
-   * Privacy Information
+   * [Privacy Information](../../Overview/Privacy-Guide.md)
    * Descriptions of [MyAnalytics elements]()
 
 ## Gain support from other teams
