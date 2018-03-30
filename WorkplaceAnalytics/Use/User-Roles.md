@@ -12,7 +12,9 @@ ms.prod: wpa
 ---
 # User roles in Workplace Analytics 
 
-[[PLACEHOLDER CONTENT]]
+<!-- [[PLACEHOLDER CONTENT]]
+TEMPORARILY REMOVING THIS NOTE. 
+CHANGE THIS! -->
 
 To allow administrators to set system defaults, privacy settings, upload and verify organizational data, and to allow data analysts to be able to use Workplace Analytics, you must assign users to the Workplace Analytics service.
 

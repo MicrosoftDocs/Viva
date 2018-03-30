@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Overview
+# Get started
 
 ## The MyAnalytics Habit Change Program
 

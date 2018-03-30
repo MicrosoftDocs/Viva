@@ -17,6 +17,8 @@ Habit Change Playbooks describe how to use MyAnalytics to develop certain specif
 
 Habit formation is especially suited to microlearning, since the key to building new habits is starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, has said that “baby steps” are one of the only things what will change behavior in the long term.
 
-Each Habit Change Playbook provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to try to develop the habit. It is especially effective if you ask a coworker or your team to join you as you work through the playbook, even as a fun and friendly competition. The complete collection of playbooks can be found in the following sections, and they are referenced in the Learning Modules.
+Each Habit Change Playbook provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to try to develop the habit. It is especially effective if you ask a coworker or your team to join you as you work through the playbook, even as a fun and friendly competition. 
 
-[CONTENT PLACEHOLDER]
+<!--The complete collection of playbooks can be found in the following sections, and they are referenced in the Learning Modules.
+[CONTENT PLACEHOLDER] 
+CHANGE THIS! -->

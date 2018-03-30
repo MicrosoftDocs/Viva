@@ -13,6 +13,6 @@ ms.prod: mya
 
 ## Habit Change Method
 
-What follows is the habit-change methodology used to develop the playbooks.  You can create your own custom habit-change playbook using this method and the accompanying playbook template:
+What follows is a habit-formation methodology based on behavioral science that can be used to help your team turn a selected behavior into a habit, using MyAnalytics.
 
-[CONTENT PLACEHOLDERS FOR METHOD SLIDE AND PLAYBOOK TEMPLATE]
+<img src="../../../Images/how-to-make-it-a-habit.png" alt="How to make it a habit">

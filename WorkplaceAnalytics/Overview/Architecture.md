@@ -12,7 +12,12 @@ ms.prod: mya
 ---
 
 # Architecture / How it Works
+
+<!-- >
 [[PLACEHOLDER CONTENT - UPDATE TOPIC]]
+UPDATE AND PUBLISH THIS TOPIC.
+CHANGE THIS!
+-->
 
 <CENTER>
 ![Architecture Diagram](../Images/WpA/Overview/Architecture.png) </CENTER>
