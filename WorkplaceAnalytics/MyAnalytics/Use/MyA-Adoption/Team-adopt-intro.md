@@ -30,7 +30,7 @@ The following content is meant to help program managers design a wide range of c
 
 We all know that change can be hard. People are hard-wired to stick to the status quo even when it is undesirable. However, behavior change doesn’t have to be overwhelming. The key is to keep change as simple as possible and focus on a few small daily habits. Research led by Rob Cross, Professor of Global Business at Babson College, shows that typically doing just four or five things differently can enable people to reclaim 18 to 24% of their collaborative time (see [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf)).
 
-The results of individual change efforts are magnified when people commit to changing together as a group since people tend to behave as others do. Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, has said that collective intelligence builds when one person shows enthusiasm, recruits others, and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (The Culture Code, by Daniel Coyle Pg __).
+The results of individual change efforts are magnified when people commit to changing together as a group since people tend to behave as others do. Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, has said that collective intelligence builds when one person shows enthusiasm, recruits others, and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (_The Culture Code_, by Daniel Coyle<!-- Pg __-->).
 
 In [The Power of Habit](http://charlesduhigg.com/additional-resources/), Charles Duhigg writes, “The evidence is clear: if you want to change a habit, you must find an alternative routine, and your odds of success go up dramatically when you commit to changing as part of a group.” 
 
@@ -38,10 +38,10 @@ In [The Power of Habit](http://charlesduhigg.com/additional-resources/), Charles
 
 Before you get started, it is important to make sure you set yourself up for success. The following program components are critical for the success of any change program:
 
- * An executive sponsor
- * A program purpose statement
- * A dedicated program manager
- * A well-defined and empowered team
+ * [An executive sponsor](Team-adopt-intro.md#an-executive-sponsor)
+ * [A program purpose statement](Team-adopt-intro.md#a-program-purpose-statement)
+ * [A dedicated program manager](Team-adopt-intro.md#a-dedicated-program-manager)
+ * [A well-defined and empowered team](Team-adopt-intro.md#a-well-defined-and-empowered-team)
 
 ### An executive sponsor
 
@@ -62,13 +62,13 @@ Also, seek input from select members of your team as you answer these questions.
 
 ## A dedicated program manager
 
-A dedicated program manager is the heart of a change program. This person has a deep understanding of the team’s challenges and is invested in realizing positive results. The program manager istypically the team’s direct manager and if not the direct manager, then someone with authority whom the team trusts and knows well. For more information on the role of the program manager, see Build the Program Team.
+A dedicated program manager is the heart of a change program. This person has a deep understanding of the team’s challenges and is invested in realizing positive results. The program manager is typically the team’s direct manager and if not the direct manager, then someone with authority whom the team trusts and knows well. For more information on the role of the program manager, see [Build the Program Team](Team-adopt-plan.md#build-the-program-team).
 
 ## A well-defined and empowered team
 
 Programs are most effective when the team is deliberately comprised of people working under the same conditions and toward the same business objectives. This is important for effective goal setting and program accountability. Collaboration problems as well as the root causes can vary significantly across teams even within the same department. While there is no “one-size fits all” solution to collaboration problems, the odds of defining a team goal and identifying new team norms that most of  the group supports increases when the team is cohesive – for example, an intact marketing team focused on the same product with the same manager. 
 
-Most importantly, individuals participating in the program need to be empowered to change. They need to feel confident that they can experiment with new behaviors. For example, if the team goal is to reduce meeting hours but team members are afraid to decline a meeting invite, the program will fail. It is the job of both the executive sponsor and program manager to empower program participants through clear communications, behavior role-modeling, and rewards and recognition (for more information on rewards and recognition, see Reinforce).
+Most importantly, individuals participating in the program need to be empowered to change. They need to feel confident that they can experiment with new behaviors. For example, if the team goal is to reduce meeting hours but team members are afraid to decline a meeting invite, the program will fail. It is the job of both the executive sponsor and program manager to empower program participants through clear communications, behavior role-modeling, and rewards and recognition (for more information on rewards and recognition, see [Reinforce](Team-adopt-reinforce.md)).
 
 # Program Phases
 
@@ -76,13 +76,13 @@ Most importantly, individuals participating in the program need to be empowered 
  
 The MyAnalytics Habit Change Program has four phases: plan, implement, measure, and reinforce.
 
-**Plan:** In this phase, the program manager collaborates with key stakeholders to create the program plan that best meets the needs of the team. Planning activities include building the team, structuring the program, and developing the communications plan.
+[Plan](Team-adopt-plan.md): In this phase, the program manager collaborates with key stakeholders to create the program plan that best meets the needs of the team. Planning activities include building the team, structuring the program, and developing the communications plan.
 
   > [!Note] 
   > Key stakeholders are people who’ve been chosen by the program manager to help build the program. The stakeholders include the executive sponsor, any managers involved in program implementation, and select team members from whom the program manager solicits feedback. 
 
-**Implement:** In this phase, the program is implemented. Program participants are engaged and supported with regular communications, resources, and check-ins.
+[Implement](Team-adopt-implement.md): In this phase, the program is implemented. Program participants are engaged and supported with regular communications, resources, and check-ins.
 
-**Measure:** In this phase, the program manager collects and analyzes feedback and data from MyAnalytics, surveys, and any additional sources to measure the program results and create the program debrief.
+[Measure](Team-adopt-measure.md): In this phase, the program manager collects and analyzes feedback and data from MyAnalytics, surveys, and any additional sources to measure the program results and create the program debrief.
 
-**Reinforce:** In this phase, the executive sponsor and program manager establish the appropriate rewards and recognition to support sustained change and decide on next steps for the program 
+[Reinforce](Team-adopt-reinforce.md): In this phase, the executive sponsor and program manager establish the appropriate rewards and recognition to support sustained change and decide on next steps for the program 

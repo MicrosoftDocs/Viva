@@ -13,25 +13,22 @@ ms.prod: wpa
 
 # Develop new habits
 
-There are numerous habits you could adopt to achieve a specific goal. For example, if your goal is to reduce your meeting hours by 50%, you could achieve that goal by, for example: 1) saying no to meetings that don’t include an agenda, 2) avoiding meetings during which you multitask and/or 3) dividing and conquering meetings you share with a coworker. 
+After you have completed the Diagnose Your Problem and Set Goals steps, you will have the following elements for your behavior change plan: your purpose for change, your behavior-change objective, and your specific and measurable goal. The missing piece is a deliberate behavior to achieve your goal and turn into a habit. 
 
-There is no one-size-fits-all solution to collaboration problems. Our Learning Modules and Habit-Change Playbooks help you identify new habits to adopt, and change your habits based on behavioral science.
+<img src="../../../Images/Adopt-indiv-35.PNG" alt="Behavior-change steps">
 
-## Learning modules
-A learning module is a collection of materials that are focused on a collaboration topic and are meant to help you develop new habits and better understand how to use MyAnalytics. Learning Modules include habit suggestions, habit-change playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, productivity lessons, and fun behavioral-science lessons. 
+Any number of behaviors can support a goal and turn into a habit. For example, if your goal is to reduce your meeting hours by 50%, you could achieve that goal by doing the following:
 
-Here are the four learning modules: Meetings, Emails, Focus Hours, and After Hours.
+ 1. Say no to meetings that don’t include an agenda.
+ 2. Avoid meetings during which you multitask.
+ 3. Divide and conquer meetings you share with a coworker. 
 
-[CONTENT PLACEHOLDER]
+We recommend that you start by selecting one or two behaviors to keep things simple and to more easily determine which one works best for you. There are no one-size-fits-all solutions to collaboration problems. The next section explains how you can use Learning Modules, Habit-Change Playbooks, and the Habit Change Method to turn new behaviors into solid habits based on behavioral science.
 
-## Habit change playbooks
-Habit change playbooks   let you experiment with developing new habits by using MyAnalytics data. These playbooks are examples of microlearning, a method of learning through bite-sized lessons that leverages science around behavior change and habit formation. 
-Habit formation is compatible with microlearning since the key to building new habits is simplicity and starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, said that “baby steps” are one of the only things what will change behavior in the long term.
+[!INCLUDE [Learning modules](Adopt-Learning-Modules.md)]
 
-Each habit-change challenge provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to experiment with the habit. We recommend that you make your challenge into a competition to make it more fun – ask a coworker or your team to try to change the habit with you. You can find the complete collection of challenges in the following sections and in the learning modules.
+[!INCLUDE [Habit Change Method](Adopt-Habit-Change-Method.md)]
 
-[CONTENT PLACEHOLDER]
+[!INCLUDE [Habit Change Playbooks](Adopt-Habit-Change-Playbooks.md)]
 
-You can create your own custom habit-change challenge by walking through the following steps and using the following template:
 
-[CONTENT PLACEHOLDER]

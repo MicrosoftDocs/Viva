@@ -69,7 +69,7 @@ After a team goal is defined, you must collect baseline data from everyone in th
 1.	Ask everyone to look at their dashboard and write down the data shown for the particular metric – for example, for focus hours. 
 2.	Repeat this exercise for the two prior weeks by scrolling back in time using the date range found at the top of the dashboard, as pictured here:
 
-<img src="../../../Images/Adopt-teams-4.png" alt="The four program phases">
+    <img src="../../../Images/Adopt-teams-4.png" alt="Date range">
 
 3.	Ask the program participant to average the three data points and send the average to you, the program manager, to compile the results. 
 
@@ -77,29 +77,35 @@ During this process, emphasize to participants that their data will be aggregate
 
 At the end of the program, to collect the results, repeat the same process either as a part of your post-program survey or separately.
 
-### Learning modules 
+## Learning Modules 
 
-A learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include habit suggestions, habit-change playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, productivity lessons, and fun behavioral science lessons. See the following four modules: Meetings, Email, Focus Hours, and After Hours.
+A Learning Module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning Modules include habit suggestions, Habit Change Playbooks, tips on interpreing MyAnalytics data and using product features, links to articles to learn more about specific topics, productivity lessons, and fun behavioral-science lessons. See the following four modules: Meetings, Email, Focus Hours, and After Hours.
+
+<!--
+Test link path for PDF: [Team-adopt-intro](Team-adopt-intro.md)
+-->
+
+[Focus Hours Learning Module](MyAnalytics-Focus-Time.pdf)
 
 [CONTENT PLACEHOLDER]
 
-We recommend that you send a learning module to your team every other week to program in an order that best matches your team goals and program objectives. We also recommend that you bundle the learning module with a corresponding team norms survey. The survey should be completed after the program participants have had time to process the contents of the learning module and experiment with suggested habits using the habit-change method (see “Habit-Change Method”)
+We recommend that you send a Learning Module to your team every other week to program in an order that best matches your team goals and program objectives. We also recommend that you bundle the learning module with a corresponding team-norms survey. The survey should be completed after the program participants have had time to process the contents of the Learning Module and experiment with suggested habits using the [Habit Change Method](Team-adopt-implement.md#habit-change-method).
 
-### Habit-change playbooks 
+## Habit Change Method
 
-Habit change playbooks let program participants experiment with developing new habits by using MyAnalytics data. These challenges are examples of microlearning, a method of learning through bite-sized lessons that leverages science around behavior change and habit formation.  
+You can create your own custom Habit Change Playbook by using the following method and playbook template:
+
+[CONTENT PLACEHOLDERS FOR METHOD SLIDE AND PLAYBOOK TEMPLATE]
+
+## Habit Change Playbooks 
+
+Habit Change Playbooks let program participants experiment with developing new habits by using MyAnalytics data. These challenges are examples of microlearning, a method of learning through bite-sized lessons that leverages science around behavior change and habit formation.  
 
 Habit formation is compatible with microlearning since the key to building new habits is simplicity and starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, said that “baby steps” are one of the only things what will change behavior in the long term.
 
-Each habit-change playbook provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to experiment with the habit. We recommend that, every two weeks, you select habit-change challenges that are related to your goals for your team to try. You can make this a competition and recognize team members who achieve the challenge goal to make it even more fun. The experiences and results make for a great topic in your check-in meetings too. You can find the complete collection of challenges in the following sections and in the learning modules.
+Each Habit Change Playbook provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to experiment with the habit. We recommend that, every two weeks, you select habit-change challenges that are related to your goals for your team to try. You can make this a competition and recognize team members who achieve the challenge goal to make it even more fun. The experiences and results make for a great topic in your check-in meetings too. You can find the complete collection of challenges in the following sections and in the learning modules.
 
 [CONTENT PLACEHOLDER]
-
-## Habit-Change Method
-
-You can create your own custom habit-change playbook by using the following method and playbook template:
-
-[CONTENT PLACEHOLDERS FOR METHOD SLIDE AND PLAYBOOK TEMPLATE]
 
 ## Check-ins 
 

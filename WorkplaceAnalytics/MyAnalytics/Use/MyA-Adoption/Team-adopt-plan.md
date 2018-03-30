@@ -21,7 +21,7 @@ The ideal team is comprised of the following members:
  * Executive sponsor
  * Program manager
  * Change agents
- * Programp participants
+ * Program participants
 
 > [!Note] 
 > If you are a manager of a small team interested in running this program, focus on the roles of program manager and program participant. However, we encourage you to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
@@ -47,7 +47,7 @@ The critical responsibilities for the program manager are:
 
  * Secure support from an executive sponsor if the program is not driven from the top
  * Identify, train, and manage change agents
- * Remove obstacles in the way of the team’s success1
+ * Remove obstacles in the way of the team’s success
  * Lead program communications and regularly reinforce the program purpose
  * Structure the change program and lead activities
  * Facilitate discussions and idea sharing at check-ins and through collaboration channels
@@ -55,7 +55,7 @@ The critical responsibilities for the program manager are:
  * Collect, manage and analyze program feedback and data
  * Serve as a role model for behaviors that you want to promote
 
-Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (Nudge, by Richard Thaler and Cass Sunstein, Pgs. 71-72). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time. 
+Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (_Nudge_, by Richard Thaler and Cass Sunstein, pp. 71-72). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time. 
 
 ### Change agents
 
@@ -97,8 +97,8 @@ To structure a program that best meets the needs of your team, define the follow
 
  * Program duration and dates
  * Program components
- * An outcome metric (optional)
- * A control group (optional)
+ * Complementary outcome metric (optional)
+ * Control group (optional)
 
 ### Program duration and dates
 
@@ -133,7 +133,7 @@ The following are examples of program structures and schedules:
 
 <img src="../../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
  
-## A complementary outcome metric (optional)
+## Complementary outcome metric (optional)
 
 We recommend that you define a complementary outcome metric to measure during the program in addition to the MyAnalytics metrics you will be tracking and measuring. Examples of complementary  outcome metrics include engagement and productivity scores that are appropriate for your team and measured outside of MyAnalytics. The outcome metric will help you better determine the outcomes of your MyAnalytics Habit Change Program. For example, “The team reclaimed four hours of focus time each week. This helped them feel less stress and/or receive higher customer satisfaction scores due to higher-quality work/product delivered.”
 
@@ -161,7 +161,7 @@ The following is a template to help you develop your communication plan for the 
 
 | Program milestone	| Audience | Content | Delivery Mechanism | Communicator | Date |
 | -----	| ----- | ----- | ----- | ----- | ----- |
-| Launch |Program participants | <li>Program introduction<li>MyAnalytics description<li>Program purpose to believe in and expected outcomes<li>High-level overview of program structure<li>Expectations<li>Next steps<li>Program contacts for questions and help | Email | Executive sponsor | January 1 |
+| Launch |Program participants | <li>Program introduction<li>MyAnalytics description<li>Program purpose to believe in and expected outcomes<li>High-level overview of program structure<li>Expectations<li>Next steps<li>Program contacts for questions and help | Email | Executive sponsor | Jan. 1 |
 | Milestone 2 |   |   |   |   |   |		
 
 ## Program-launch email
@@ -179,7 +179,7 @@ We recommend the following template for your program launch email:
 
  * Program introduction
  * MyAnalytics product overview
- * Program purpose statement (see Conditions for Program Success)
+ * Program purpose statement (see [Conditions for Program Success](Team-adopt-intro.md#conditions-for-program-success))
  * High-level overview of program structure
    * Start and end dates
    * Main components
@@ -194,8 +194,8 @@ We recommend the following template for your program launch email:
    * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)
    * [MyAnalytics What's New Video](https://www.youtube.com/watch?v=D808ojB5Dyo&feature=youtu.be)
    * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
-   * Privacy Information
-   * Link to terms and definitions on doc site
+   * [Privacy Information](../../Overview/Privacy-Guide.md)
+   * Descriptions of [MyAnalytics elements]()
 
 ## Gain support from other teams
 
@@ -229,17 +229,19 @@ During your program, you will learn many new habits in the Learning Modules, som
 
 For suggested team-norms survey questions to use, tailor, and/or build on for meetings, emails, and focus hours, see [Norms Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/Ef9ihOIMwcBKpukfkOoDly0Bq1N1LlFeX5_bN28MlX3q0w?e=1etDbh). 
 
-To avoid fatigue from a long survey,  We recommend that you bundle the team norms survey with a corresponding learning module at the appropriate time in your program schedule. The survey should be completed after the program participants have had time to process the contents of the learning module and experiment with suggested habits.
+To avoid fatigue from a long survey, bundle the team norms survey with a corresponding learning module at the appropriate time in your program schedule. The survey should be completed after the program participants have had time to process the contents of the learning module and experiment with suggested habits.
 
 ### Post-program survey
 
-You use the post-program survey to collect additional information on the results of your program. It helps you determine whether your program was successful and what the next steps are in your journey to develop heathier work habits. It can also be the way that you manually collect MyAnalytics data from individuals to measure goal attainment. (See Data Sharing for an alternative way to collect team-level data).
+You use the post-program survey to collect additional information on the results of your program. It helps you determine whether your program was successful and what the next steps are in your journey to develop heathier work habits. It can also be the way that you manually collect MyAnalytics data from individuals to measure goal attainment. (See [Data sharing](Team-adopt-implement.md#data-sharing)).
+
+ for an alternative way to collect team-level data).
 
 For suggested post-program survey questions to use, tailor, and/or build on, see [Post-Program Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/EfkYi9wQ_71Amfg4feMkNPwB4DsGFvn8X0qPuYxJTMrJDQ?e=rxTfIM).
 
 ## Goal-setting survey
 
-A survey can be used to help you set your team goals. To learn more about goal setting and using a survey to help you do so, see Goal setting.
+A survey can be used to help you set your team goals. To learn more about goal setting and using a survey to help you do so, see [Goal setting](Team-adopt-implement.md#goal-setting).
 
 ## Prepare for launch
 

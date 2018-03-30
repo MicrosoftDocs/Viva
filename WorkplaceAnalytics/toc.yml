@@ -137,8 +137,8 @@
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md
           - name: Diagnose problems
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md
-          - name: Define your why
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md
+    #      - name: Define your why
+    #        href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md
           - name: Set goals
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
           - name: Develop new habits
@@ -147,6 +147,14 @@
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
           - name: Resources
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
+        - name: Habit-change resources
+          items: 
+          - name: Learning Modules
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-Modules.md
+          - name: Habit Change Method
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-Change-Method.md
+          - name: Habit Change Playbooks
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-Change-Playbooks.md
         - name: Team adoption
           items: 
           - name: MyAnalytics habit change program
@@ -158,4 +166,6 @@
           - name: Measure
             href: MyAnalytics/Use/MyA-Adoption/Team-adopt-measure.md
           - name: Reinforce
-            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-reinforce.md                        
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-reinforce.md
+          - name: Resources
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md                                 

@@ -12,13 +12,28 @@ ms.prod: wpa
 ---
 
 # Get started
-Congratulations on your decision to improve  your collaboration habits! Healthier collaboration habits can help reduce stress, increase productivity, boost creativity and make work more enjoyable.
+Congratulations on your decision to improve your collaboration habits! Healthier collaboration habits can help reduce stress, increase productivity, boost creativity, and make work more enjoyable.
 
-The information and resources found in this document will help you get the most out of MyAnalytics. It provides you with a framework for changing habits and sustaining those changes by using the MyAnalytics product. But before you dive in, please take some time to learn more about MyAnalytics:
+The information and resources in this section will help you get the most out of the MyAnalytics product by providing you with a framework for changing habits and sustaining those changes. 
 
-MyAnalytics overview – Provides you with more background on MyAnalytics: Why it is important and how it can help.
+Specifically, we will lead you through the following phases:
 
-MyAnalytics product demo video – Provides you with a detailed tour of the MyAnalytics dashboard and Outlook add-in.
+<img src="../../../Images/Adopt-indiv-0.PNG" alt="MyAnalytics change steps">
+
+**Diagnose problem:** This section guides you through a qualitative and a quantitative diagnosis using MyAnalytics. It helps you identify your specific behavior-change objective and the root causes of your collaboration problem.
+
+**Set goals:** This section provides guidance on how to properly set a goal to address your problem. It includes defining your purpose and selecting the best metric to support your behavior-change objective.
+
+**Develop new habits:** This step helps you select behaviors to achieve your goal, provides a framework for turning behaviors into habits, and deepens your knowledge of how to use MyAnalytics in the habit-formation process. The key documents you will use in this step are: Learning Modules, Habit-Change Method, and Habit-Change Playbooks. 
+
+**Sustain change:** [NEW TEXT HERE]. 
+
+Before you dive in, please take some time to learn more about MyAnalytics:
+
+[MyAnalytics overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link): This provides you with more background on MyAnalytics, namely, why it is important and how it can help.
+
+MyAnalytics product demo video: This provides you with a detailed tour of the MyAnalytics dashboard and Outlook add-in.
+
 <!-- REVIVE THIS PARAGRAPH AFTER ADDING LINK! 
 Throughout your journey, don’t forget you can visit [add link] to find the definitions of MyAnalytics terms and metrics.
 -->
