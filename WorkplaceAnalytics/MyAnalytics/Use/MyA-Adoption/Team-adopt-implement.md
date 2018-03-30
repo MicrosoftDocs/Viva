@@ -87,6 +87,9 @@ Test link path for PDF: [Team-adopt-intro](Team-adopt-intro.md)
 
 [Focus Hours Learning Module](MyAnalytics-Focus-Time.pdf)
 
+[Focus Hours Learning Module](MyAnalytics-Focus-Time.pdf "Focus Hours PDF")
+
+
 [CONTENT PLACEHOLDER]
 
 We recommend that you send a Learning Module to your team every other week to program in an order that best matches your team goals and program objectives. We also recommend that you bundle the learning module with a corresponding team-norms survey. The survey should be completed after the program participants have had time to process the contents of the Learning Module and experiment with suggested habits using the [Habit Change Method](Team-adopt-implement.md#habit-change-method).
