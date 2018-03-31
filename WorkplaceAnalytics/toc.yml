@@ -149,11 +149,11 @@
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
         - name: Habit-change resources
           items: 
-          - name: Learning Modules
+          - name: Learning modules
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
-          - name: Habit Playbooks
+          - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
-          - name: Habit Building Method
+          - name: Habit building method
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
         - name: Team adoption
           items: 

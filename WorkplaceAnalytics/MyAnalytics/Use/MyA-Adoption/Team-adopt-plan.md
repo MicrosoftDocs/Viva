@@ -139,7 +139,7 @@ We recommend that you define a complementary outcome metric to measure during th
 
 ## Control group (optional)
 
-We recommend that you establish a control group to help determine whether the habit changes that occurred during the program resulted from the program or from other changes in your business. A control group is a group of people who are related to your group but who do not participate in the program – for example, if your department has 50 people, then ask only half of the group to actively participate in program activities. To determine how data changes for the control group during the program, you can ask them to fill out the pre- and post-program surveys and/or to share data, if they use MyAnalytics. 
+We recommend that you establish a control group to help determine whether the habit building that occurred during the program resulted from the program or from other changes in your business. A control group is a group of people who are related to your group but who do not participate in the program – for example, if your department has 50 people, then ask only half of the group to actively participate in program activities. To determine how data changes for the control group during the program, you can ask them to fill out the pre- and post-program surveys and/or to share data, if they use MyAnalytics. 
 
 Comparing the control results with the program metrics can help you gain a clear understanding of the drivers for change, which in turn helps your efforts to sustain new behaviors after the program ends. 
 
