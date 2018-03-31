@@ -97,7 +97,7 @@ To structure a program that best meets the needs of your team, define the follow
 
  * Program duration and dates
  * Program components
- * Complementary outcome metric (optional)
+ * Supplementary outcome metric (optional)
  * Control group (optional)
 
 ### Program duration and dates
@@ -133,9 +133,9 @@ The following are examples of program structures and schedules:
 
 <img src="../../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
  
-## Complementary outcome metric (optional)
+## Supplementary outcome metric (optional)
 
-We recommend that you define a complementary outcome metric to measure during the program in addition to the MyAnalytics metrics you will be tracking and measuring. Examples of complementary  outcome metrics include engagement and productivity scores that are appropriate for your team and measured outside of MyAnalytics. The outcome metric will help you better determine the outcomes of your MyAnalytics Habit Change Program. For example, “The team reclaimed four hours of focus time each week. This helped them feel less stress and/or receive higher customer satisfaction scores due to higher-quality work/product delivered.”
+We recommend that you define a supplementary outcome metric to measure during the program in addition to the MyAnalytics metrics you will be tracking and measuring. Examples of supplementary  outcome metrics include engagement and productivity scores that are appropriate for your team and measured outside of MyAnalytics. The outcome metric will help you better determine the outcomes of your MyAnalytics Habit Change Program. For example, “The team reclaimed four hours of focus time each week. This helped them feel less stress and/or receive higher customer satisfaction scores due to higher-quality work/product delivered.”
 
 ## Control group (optional)
 
