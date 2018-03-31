@@ -32,7 +32,7 @@ MyAnalytics encourages you to set goals directly in your dashboard, which will a
 
 <img src="../../../Images/Adopt-indiv-6.PNG" alt="Edit your goals on the MyAnalytics dashboard">
   
-You can also set your own goal using other MyAnalytics metrics. To start, find the related metric in your dashboard, figure out how much time you usually spend on the thing you want to change, and write it down on a sticky note, along with your desired target. Each week, you can check your dashboard to see how you compare to your goal. For more information on how to create a plan for achieving your goal, see [Habit Change Method](Adopt-Habit-Change-Method.md). 
+You can also set your own goal using other MyAnalytics metrics. To start, find the related metric in your dashboard, figure out how much time you usually spend on the thing you want to change, and write it down on a sticky note, along with your desired target. Each week, you can check your dashboard to see how you compare to your goal. For more information on how to create a plan for achieving your goal, see [Habit building method](Adopt-Habit-building-method.md). 
 
 The following table provides some common examples of behavior change objectives, related metrics in MyAnalytics, and examples of goals that align to those objectives.  
 
