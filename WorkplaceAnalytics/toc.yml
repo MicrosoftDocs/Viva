@@ -150,11 +150,11 @@
         - name: Habit-change resources
           items: 
           - name: Learning Modules
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-Modules.md
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
           - name: Habit Playbooks
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-Change-Playbooks.md
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
           - name: Habit Building Method
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-Change-Method.md
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
         - name: Team adoption
           items: 
           - name: Get started
