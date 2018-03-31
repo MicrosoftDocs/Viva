@@ -20,20 +20,25 @@ Specifically, we will lead you through the following phases:
 
 <img src="../../../Images/Adopt-indiv-0.PNG" alt="MyAnalytics change steps">
 
-**Diagnose problem:** This section guides you through a qualitative and a quantitative diagnosis using MyAnalytics. It helps you identify your specific behavior-change objective and the root causes of your collaboration problem.
+**Diagnose problem:** Guides you through a qualitative and a quantitative diagnosis using MyAnalytics. It helps you identify your specific behavior-change objective and the root causes of your collaboration problem.
 
-**Set goals:** This section provides guidance on how to properly set a goal to address your problem. It includes defining your purpose and selecting the best metric to support your behavior-change objective.
+**Set goals:** Provides guidance on how to properly set a goal to address your problem. It includes defining your purpose and selecting the best metric to support your behavior-change objective.
 
-**Develop new habits:** This step helps you select behaviors to achieve your goal, provides a framework for turning behaviors into habits, and deepens your knowledge of how to use MyAnalytics in the habit-formation process. The key documents you will use in this step are: Learning Modules, Habit-Change Method, and Habit-Change Playbooks. 
+**Develop new habits:** Helps you select behaviors to achieve your goal, provides a framework for turning behaviors into habits, and deepens your knowledge of how to use MyAnalytics in the habit-formation process. The key documents you will use in this step are [Learning modules](Adopt-Learning-modules.md), [Habit playbooks](Adopt-Habit-playbooks.md), and [Habit-change method](Adopt-Habit-change-method.md).
 
-**Sustain change:** [NEW TEXT HERE]. 
+**Sustain change:** Provides additional strategies to help you successfully turn your best behaviors into long-term habits.
 
 Before you dive in, please take some time to learn more about MyAnalytics:
 
-[MyAnalytics overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link): This provides you with more background on MyAnalytics, namely, why it is important and how it can help.
+[MyAnalytics overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link): Provides you with more background on MyAnalytics, namely, why it is important and how it can help.
 
+<!--
+REVIVE THIS AFTER GETTING LINK TO POSTED VIDEO! 
 MyAnalytics product demo video: This provides you with a detailed tour of the MyAnalytics dashboard and Outlook add-in.
+CHANGE THIS!
+-->
 
 <!-- REVIVE THIS PARAGRAPH AFTER ADDING LINK! 
 Throughout your journey, don’t forget you can visit [add link] to find the definitions of MyAnalytics terms and metrics.
+CHANGE THIS!
 -->
