@@ -26,7 +26,7 @@ The biggest time investment is made upfront by the program manager who is respon
 > [!Note] 
 > The following content is meant to help program managers design a wide range of custom habit-change programs for teams. These materials assume that the initiator and leader of the program is a program manager; in the rare cases where no program manager is involved, the executive sponsor is the program leader.
 
-## Choosing a team-based approach to change
+## Choose a team-based approach to change
 
 We all know that change can be hard. People are hard-wired to stick to the status quo even when it hurts. However, behavior change doesn’t have to be overwhelming. Research led by Rob Cross, Professor of Global Business at Babson College, indicates that doing just four or five things differently can enable people to reclaim 18 to 24% of their collaborative time ([Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf)).
 
@@ -74,7 +74,7 @@ Programs are most effective when the team is deliberately defined as people work
 
 Just as important as defining a cohesive team is ensure that the people on that team are empowered to change. They need to feel confident that they can safely experiment with the new behaviors. If the team goal is to reduce meeting hours, but team members are afraid to decline a meeting invite, the program will fail. It is the job of both the executive sponsor and program manager to empower program participants through clear communications, behavior role-modeling, and providing rewards and recognition (for more information on rewards and recognition, see [Reinforce](Team-adopt-reinforce.md)).
 
-# Program Phases
+## Program Phases
 
 <img src="../../../Images/Adopt-teams-1.png" alt="The four program phases">
  
