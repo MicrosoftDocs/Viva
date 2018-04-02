@@ -13,9 +13,8 @@ ms.prod: wpa
 
 # Plan
 
-## Build the program team
+## Roles and responsibilities
 
-Who are the members of a MyAnalytics Habit Change program team and what are their roles and responsibilities?
 The ideal team is comprised of the following members:
 
  * Executive sponsor
@@ -24,11 +23,11 @@ The ideal team is comprised of the following members:
  * Program participants
 
 > [!Note] 
-> If you are a manager of a small team interested in running this program, focus on the roles of program manager and program participant. However, we encourage you to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
+> If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
 
 ### Executive sponsor
 
-The executive sponsor is an influential senior-level leader who understands and actively promotes the value of developing healthier collaboration habits. This person should be committed to endorsing the use of MyAnalytics and serving as a role model for healthy work habits. The program participants must be in this person’s organization.  
+The executive sponsor is an influential senior leader who actively promotes the value of developing healthier collaboration habits. This person should be committed to endorsing MyAnalytics and role modeling healthy work habits. The program participants must be in this person’s organization.  
 
 The critical responsibilities of the executive sponsor are:
 
@@ -47,19 +46,20 @@ The critical responsibilities for the program manager are:
 
  * Secure support from an executive sponsor if the program is not driven from the top
  * Identify, train, and manage change agents
- * Remove obstacles in the way of the team’s success
+ * Remove obstacles in the way of the team’s success (See Note 1.) <!-- CHECK AND CHANGE THIS IF NECESSARY! -->
  * Lead program communications and regularly reinforce the program purpose
  * Structure the change program and lead activities
- * Facilitate discussions and idea sharing at check-ins and through collaboration channels
+ * Lead discussions and idea sharing at check-ins and through collaboration channels
  * Champion the MyAnalytics product and act as an internal product expert
- * Collect, manage and analyze program feedback and data
+ * Collect, manage, and analyze program feedback and data
  * Serve as a role model for behaviors that you want to promote
 
-Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (_Nudge_, by Richard Thaler and Cass Sunstein, pp. 71-72). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time. 
+> [!Note 1] 
+> Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (_Nudge_, by Richard Thaler and Cass Sunstein, pp. 71-72). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time. 
 
 ### Change agents
 
-Change agents are influential team members who help drive program awareness and engagement. They are typically natural people connectors who are great communicators, enthusiastic and forward thinking. In many cases, especially if the number of program participants is large, the change agentsshare responsibilities with the program manager. 
+Change agents are influential team members who help drive program awareness and engagement. They are great communicators, enthusiastic and forward thinking. In many cases, especially if the number of program participants is large, the change agents share responsibilities with the program manager. 
 
 The critical responsibilities for the change agents are:
 
@@ -73,7 +73,9 @@ The critical responsibilities for the change agents are:
 
 ### Program participants
 
-The program participants are the most critical members of the team. Without their active and willing participation, change is impossible. While there is no minimum team size, a team comprised of between 10 and 20 participants is ideal. If a team has more than 20 people, then we recommend thoughtfully breaking the population into subgroups based on common characteristics and assigning change agents to lead each subgroup. If you are looking to select a group from a large population, we recommend that you select a team that is central to your network and could inspire other teams to adopt healthier work habits.
+The program participants are the most critical members of the team. Without their active and willing participation, change is impossible. While there is no minimum team size, a team comprised of between 10 and 20 participants is ideal. If a team has more than 20 people, consider creating subgroups based on common characteristics and assigning change agents to lead each subgroup. 
+
+If you want to select a single subgroup from a larger population, select a team that is central to your network and could inspire other teams to adopt healthier work habits.
 
 The critical responsibilities for the program participants are:
 
@@ -87,30 +89,31 @@ The critical responsibilities for the program participants are:
  * Provide feedback on the program
  * Help hold teammates accountable for change
 
-If a program participant chooses to share personal data to be aggregated at the team level to track and measure goal attainment, they must also share data with the program manager according to given instructions.
-In addition, you should let program participants opt-in or opt-out of the program. If someone wants to opt-out, spend time with that person to understand why and to address his or her concerns. It is best to identify these people early in the program to avoid resistance that could prevent success later in the program.
+The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data, for the participants who choose to opt in to the measurements.
+
+You should also let program participants opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them so that they don’t jeopardize program success down the road.
 
 ## Structure the program
 
-How do I structure a program that works best for my team?
-To structure a program that best meets the needs of your team, define the following:
+The program manager needs to define the following:
 
  * Program duration and dates
  * Program components
- * Supplementary outcome metric (optional)
- * Control group (optional)
+ * A supplementary outcome metric (optional)
+ * A control group (optional)
 
 ### Program duration and dates
 
-We recommend a program duration of 12 weeks to give people adequate time to learn how to use MyAnalytics, process new learnings, and experiment with new habits. Depending on a team’s needs and where they are in the behavior-change journey, programs that are shorter or longer can be successful, too. 
+A program duration of 12 weeks typically gives people adequate time to learn how to use MyAnalytics, process new learnings, and experiment with new habits. Depending on a team’s needs and where they are in the behavior-change journey, programs might be shorter or longer. 
 
-When you select the program’s start and end dates, find a period in which you expect few major disruptions to your team’s calendar. For example, avoid the holiday season and the summer vacation period since data during those periods typically doesn’t reflect your team’s average work week. Also, consider your team’s rhythm of business; avoid running a program during periods in which you have a peak in your workload and collaboration activities, such as around big or unusual project deadlines.
+When you select the program’s start and end dates, find a period in which you expect few major disruptions to your team’s calendar. Avoid the holiday season and the summer vacation period since your team is more likely to experience atypical work weeks. Consider your team’s rhythm of business. Avoid running a program during peak workload periods, such as around big or unusual project deadlines.
 
-If MyAnalytics is new for your team, we recommend that you start the program two weeks after the product is launched to give it time to generate adequate data to reveal its ull features and to give program participants enough data to establish meaningful baselines for tracking and measuring progress.
+If MyAnalytics is new for your team, wait at least two weeks after the product launches before starting a change program. This gives MyAnalytics time to process enough data that all of its features might be used, and this gives program participants enough data to establish meaningful baselines for measuring their progress.
 
 ### Program components
 
-The following are the recommended main program components:
+These materials provide guidance for using the following six program components:
+<!-- CHANGE THIS! ADD LINKS! -->
 
  * Kickoff meeting
  * Surveys
@@ -119,11 +122,15 @@ The following are the recommended main program components:
  * Check-ins
  * Collaboration channel
 
-While including all these components can help you run a successful program, even more important is that you design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components to learn more so that you can select the ones that will work best for your team. For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions. 
+While all of these components can improve your program’s success, it is important to design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components, then select the ones that will work best for your team. 
 
-After you select the components that you want to include in your program, determine the right dates and frequency for each component. After you complete those steps, you can estimate a weekly time commitment for the team members to be included in your program launch communications. Also, consider when you want the executive sponsor to become visible and active during the program. Program-activity options for the executive sponsor include sending an encouraging email or participating in a check-in.
+For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions. 
 
-The following are examples of program structures and schedules:  
+After you select your program components, determine the right dates and frequency for each component. You can then estimate a weekly time commitment for the team members and include that estimate in your program launch communications. 
+
+Consider when you want the executive sponsor to be most visible and active during the program. Include these touchpoints in your schedule. For example, you might ask the executive sponsor to send an encouraging email or participate in one of the weekly check-in meetings.
+
+The following are examples of program structures and schedules:
 
 **Full program**
 
@@ -133,40 +140,45 @@ The following are examples of program structures and schedules:
 
 <img src="../../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
  
-## Supplementary outcome metric (optional)
+## A supplementary outcome metric (optional)
 
-We recommend that you define a supplementary outcome metric to measure during the program in addition to the MyAnalytics metrics you will be tracking and measuring. Examples of supplementary  outcome metrics include engagement and productivity scores that are appropriate for your team and measured outside of MyAnalytics. The outcome metric will help you better determine the outcomes of your MyAnalytics Habit Change Program. For example, “The team reclaimed four hours of focus time each week. This helped them feel less stress and/or receive higher customer satisfaction scores due to higher-quality work/product delivered.”
+In addition to the MyAnalytics metrics you will track during the program, you might choose to define a supplementary outcome metric to measure outside of MyAnalytics. This metric could include engagement or productivity measures. 
 
-## Control group (optional)
+The purpose of this metric is to help you understand and communicate the effects of the overall program. For example, using customer satisfaction scores as a supplementary metric can help describe the program experience as: “The team reclaimed four hours of focus time each week. By the end of the program, they were receiving higher customer satisfaction scores on average due to lower stress and higher-quality work/product delivered.”
 
-We recommend that you establish a control group to help determine whether the habit building that occurred during the program resulted from the program or from other changes in your business. A control group is a group of people who are related to your group but who do not participate in the program – for example, if your department has 50 people, then ask only half of the group to actively participate in program activities. To determine how data changes for the control group during the program, you can ask them to fill out the pre- and post-program surveys and/or to share data, if they use MyAnalytics. 
+## A control group (optional)
 
-Comparing the control results with the program metrics can help you gain a clear understanding of the drivers for change, which in turn helps your efforts to sustain new behaviors after the program ends. 
+Establish a control group to measure whether the habit changes that occurred during the program resulted from the program or from other changes in your business. A control group is a group of people similar to your group but who do not participate in the program. If your department has 50 people and you ask only half of the group to actively participate in program activities, you can use the other half of the group as a control group. 
+
+To compare changes experienced by the control group to changes experienced by the program team, ask both groups to fill out pre- and post-program surveys. You might also ask them to share MyAnalytics data to be aggregated to the group level, if both groups use MyAnalytics. 
+
+Comparing the control results with the program metrics can help you gain a clear understanding of the drivers of change, which in turn helps your efforts to sustain new behaviors after the program ends. 
 
 # Develop a communications plan
 
 ## Communicate the program to the participants effectively
 
-Frequent and open communication is a top contributor to a successful change program. We recommend that consistency and transparency be your overall guiding principles. Important topics to address are expectations, plans, and how the change will affect employees ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)).
+Successful change programs rely on consistent and transparent communication. Use these communications to address set expectations, communicate the plan, and explain how the change will affect employees ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)).
 
-Specifically, when communicating with program participants, the general guidelines we recommend are:
+Use these general guidelines when communicating with program participants:
 
  * Focus on the impact of the change on the employee.
  * Be clear about what you know now and what you do not know now.
  * Let employees know when more information will be available.
  * Be clear how employees can provide feedback about the program.
+
 (Source: Prosci)
 
-The following is a template to help you develop your communication plan for the program (the example shown in italics in the template):
+You can use the following example as a template to develop your program-communication plan. 
 
 | Program milestone	| Audience | Content | Delivery Mechanism | Communicator | Date |
 | -----	| ----- | ----- | ----- | ----- | ----- |
-| Launch |Program participants | <li>Program introduction<li>MyAnalytics description<li>Program purpose to believe in and expected outcomes<li>High-level overview of program structure<li>Expectations<li>Next steps<li>Program contacts for questions and help | Email | Executive sponsor | Jan. 1 |
+| Launch | Program participants | <li>Program introduction<li>MyAnalytics description<li>Program purpose to believe in and expected outcomes<li>High-level overview of program structure<li>Expectations<li>Next steps<li>Program contacts for questions and help | Email | Executive sponsor | Jan. 1 |
 | Milestone 2 |   |   |   |   |   |		
 
 ## Program-launch email
 
-Frequent communication is a cornerstone of your plan. This includes a strong email to launch your program, which is essential for setting your program on the right course. Our top tips for it are:
+Set your program on the right course with a strong launch email:
 
  * Have the executive sponsor send it. 
  * Keep it as short as possible (rely on links to more detailed information when available).
