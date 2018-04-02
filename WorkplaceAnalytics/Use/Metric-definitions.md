@@ -29,8 +29,8 @@ These terms describe the metrics calculated by Workplace Analytics that you can 
 |Generated workload meeting hours|Number of meeting hours the person created for internal attendees by organizing meetings.|Person|Hour|Yes|
 |Generated workload meetings organized|Number of internal meetings organized by the person.|Person|Count|Yes|
 |Internal network size|Number of people within the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes|
-|Low-quality meeting hours|Number of meeting hours where the person multitasked, had a conflicting meeting (any non-declined meeting that overlaps), or is redundant (at least three distinct levels from their organization attended).|Person|Hour|Yes|
-|Manager coaching hours 1:1|The number of hours that a manager spends in one-on-one meetings with their direct reports.|Person|Hour|Yes|
+|Low-quality meeting hours|Number of meeting hours where the person multitasked, had a conflicting meeting (any non-declined meeting that overlaps), or is redundant (at least three distinct levels from their organization attended). The current assumed cost of low-quality meeting hours is $75 per person hour. |Person|Hour|Yes|
+|Manager coaching hours 1:1|The number of hours that a manager spends in one-on-one meetings with their direct reports. |Person|Hour|Yes|
 |Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
 |Meeting hours with manager|Number of meeting hours involving at least the person and their manager.|Person|Hour|Yes|
 |Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
