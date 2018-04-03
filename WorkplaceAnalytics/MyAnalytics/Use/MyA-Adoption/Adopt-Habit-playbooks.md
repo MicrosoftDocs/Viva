@@ -17,11 +17,11 @@ Habit playbooks are examples of how to use MyAnalytics to turn specific behavior
 
 Each Habit playbook provides a suggested behavior to turn into a habit, an explanation of why the habit is important, and a goal-oriented plan using MyAnalytics to build the habit. It is especially effective if you ask a coworker or your team to join you as you use the playbook, even as a fun and friendly competition.
 
-The collection of playbooks to try can be found below, and within the Learning modules. These playbook examples represent only a small sample of the possible playbooks that could exist. Create your own custom playbooks for your team using the template provided.
+ * [Habit Playbook Examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
+   > [Note!] 
+   > These playbooks can also be found in the [Learning modules](Adopt-Learning-Modules.md). 
 
-[Habit Playbook Examples](Habit Playbook Examples.pdf)
-
-[Habit Playbook Template](Habit Playbook Template.pptx)
+ * [Habit Playbook Template](Habit-playbook-template.pptx). Create your own custom playbooks for your team using the template provided.
 
 
 
