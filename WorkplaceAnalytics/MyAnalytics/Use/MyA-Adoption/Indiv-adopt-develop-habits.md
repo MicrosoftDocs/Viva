@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Build your new habit
+# Build your habit
 
 After you have completed the Diagnose your problem and Set your goal steps, you will have the following elements for your behavior change plan: your purpose for change, your behavior-change objective, and your specific and measurable goal. The missing piece is a behavior to achieve your goal and turn into a habit. 
 
