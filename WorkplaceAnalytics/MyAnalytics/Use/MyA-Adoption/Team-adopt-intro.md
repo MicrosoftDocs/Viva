@@ -19,7 +19,7 @@ The MyAnalytics Habit Change Program uses MyAnalytics and behavioral science to 
 
 In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and develop new habits to change the way the team collaborates.
 
-At its core, the program is a series of MyAnalytics learning modules and habit-change playbooks that can require as little as 15 minutes per week from team members. 
+At its core, the program is a series of MyAnalytics learning modules and habit playbooks that can require as little as 15 minutes per week from team members. 
 
 The biggest time investment is made upfront by the program manager who is responsible for designing a program that will meet the team’s needs, including program duration, communications, and action plan. For example, the program manager might design a short program that encourages teams to experiment with new habits, or they might launch a longer, more rigorous program that requires an overarching team goal and weekly check-in meetings. 
 

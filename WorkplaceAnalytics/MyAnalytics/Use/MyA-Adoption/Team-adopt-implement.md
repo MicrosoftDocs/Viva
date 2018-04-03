@@ -89,14 +89,7 @@ At the end of the program, repeat the same process as a part of your post-progra
 
 ## Learning modules 
 
-A learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include habit suggestions, habit-change playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, productivity lessons, and fun behavioral science lessons. See the following four modules: Meetings, Email, Focus Hours, and After Hours.
-
-<!--
-Test link path for PDF: [Team-adopt-intro](Team-adopt-intro.md)
--->
-
-<!--
-PDF LINKS CURRENTLY DO NOT WORK IN THE BUILDS
+A learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include habit suggestions, habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, productivity lessons, and fun behavioral science lessons. See the following four modules: Meetings, Email, Focus Hours, and After Hours.
 
 [Focus Hours Learning Module](MyAnalytics-Focus-Time.pdf)
 
@@ -114,7 +107,7 @@ Habit playbooks let program participants experiment with developing new habits b
 
 Habit formation is compatible with microlearning since the key to building new habits is simplicity and starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, said that “baby steps” are one of the only things what will change behavior in the long term.
 
-Each habit-change playbook provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to experiment with the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the challenge goal. The experiences and results make for a great check-in-meetings topic, too. 
+Each habit playbook provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to experiment with the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the challenge goal. The experiences and results make for a great check-in-meetings topic, too. 
  <!-- You can find the complete collection of challenges in the following sections and in the learning modules. -->
 
 <!-- [CONTENT PLACEHOLDER] -->
