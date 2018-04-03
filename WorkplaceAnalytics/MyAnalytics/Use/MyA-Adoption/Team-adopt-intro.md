@@ -66,7 +66,7 @@ As you answer these questions, seek input from select members of your team. Thei
 
 ## A dedicated program manager
 
-A dedicated program manager is the heart of a change program. This person has a deep understanding of the team’s challenges and is invested in realizing positive results. The program manager is typically the team’s direct manager. If not, then they are someone with authority whom the team trusts and knows well. For more information on the role of program manager, see [Build the Program Team](Team-adopt-plan.md#build-the-program-team).
+A dedicated program manager is the heart of a change program. This person has a deep understanding of the team’s challenges and is invested in realizing positive results. The program manager is typically the team’s direct manager. If not, then they are someone with authority whom the team trusts and knows well. For more information, see [Program manager](Team-adopt-plan.md#program-manager).
 
 ## A well-defined and empowered team
 
