@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-## Habit building method
+## Habit-building method
 
 What follows is a habit-building method based on behavioral science that can be used to help you turn a selected behavior into a habit, using MyAnalytics.
 
