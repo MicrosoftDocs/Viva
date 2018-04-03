@@ -24,7 +24,7 @@ Specifically, we will lead you through the following phases:
 
 **Set your goal:** Provides guidance on how to properly set a goal to address your problem. It includes defining your purpose and selecting the best metric to support your behavior-change objective.
 
-**Develop your habit:** Helps you select a behavior to achieve your goal, provides a framework for turning behaviors into habits, and deepens your knowledge of how to use MyAnalytics in the habit-building process. The key documents you will use in this step are [Learning modules](Adopt-Learning-modules.md), [Habit playbooks](Adopt-Habit-playbooks.md), and [Habit-building method](Adopt-Habit-building-method.md).
+**Build your habit:** Helps you select a behavior to achieve your goal, provides a framework for turning behaviors into habits, and deepens your knowledge of how to use MyAnalytics in the habit-building process. The key documents you will use in this step are [Learning modules](Adopt-Learning-modules.md), [Habit playbooks](Adopt-Habit-playbooks.md), and [Habit-building method](Adopt-Habit-building-method.md).
 
 **Sustain your change:** Provides additional strategies to help you successfully turn your best behaviors into long-term habits.
 
