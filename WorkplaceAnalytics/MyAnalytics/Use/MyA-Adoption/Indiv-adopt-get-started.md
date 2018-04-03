@@ -12,9 +12,9 @@ ms.prod: wpa
 ---
 
 # Get started
-Congratulations on your decision to improve your collaboration habits! Healthier collaboration habits can help reduce stress, increase productivity, boost creativity, and make work more enjoyable.
+Congratulations on your decision to improve your collaboration habits using MyAnalytics! Healthier collaboration habits can help reduce stress, increase productivity, boost creativity, and make work more enjoyable.
 
-The information and resources in this section will help you get the most out of the MyAnalytics product by providing you with a framework for changing habits and sustaining those changes. 
+The information and resources in this section will help you get the most out of the MyAnalytics product by providing you with a framework for building healthier habits and sustaining those changes. 
 
 Specifically, we will lead you through the following phases:
 
