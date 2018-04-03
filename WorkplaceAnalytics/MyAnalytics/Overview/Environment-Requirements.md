@@ -37,5 +37,5 @@ You can also purchase a MyAnalytics add-on if you have one of the following plan
 * DoD
 * Gallatin
 * BlackForest
-* Other sovereign clouds explain soverign
+* Other sovereign clouds 
 
