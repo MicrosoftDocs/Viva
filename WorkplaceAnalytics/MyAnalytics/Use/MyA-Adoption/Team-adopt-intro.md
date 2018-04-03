@@ -13,15 +13,15 @@ ms.prod: wpa
 
 # Get started
 
-## The MyAnalytics Habit Change Program
+## The MyAnalytics Team Behavior Change Program
 
-The MyAnalytics Habit Change Program uses MyAnalytics and behavioral science to help teams reduce burnout and increase productivity by improving their collaboration habits. (See [Collaborative Overload](https://hbr.org/2016/01/collaborative-overload)).
+The MyAnalytics Team Behavior Change Program uses MyAnalytics and behavioral science to help teams reduce burnout and increase productivity by improving their collaboration habits. (See [Collaborative Overload](https://hbr.org/2016/01/collaborative-overload)).
 
-In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and develop new habits to change the way the team collaborates.
+In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and build new habits to change the way the team collaborates.
 
-At its core, the program is a series of MyAnalytics learning modules and habit playbooks that can require as little as 15 minutes per week from team members. 
+At its core, the program is a series of MyAnalytics Learning modules and Habit playbooks that can require as little as 15 minutes per week from team members. 
 
-The biggest time investment is made upfront by the program manager who is responsible for designing a program that will meet the team’s needs, including program duration, communications, and action plan. For example, the program manager might design a short program that encourages teams to experiment with new habits, or they might launch a longer, more rigorous program that requires an overarching team goal and weekly check-in meetings. 
+The biggest time investment is made upfront by the program manager who is responsible for designing a program that will meet the team’s needs. For example, the program manager might design a short program that encourages teams to experiment with new behaviors, or they might launch a longer, more rigorous program that requires an overarching team goal and weekly check-in meetings. 
 
 > [!Note] 
 > The following content is meant to help [program managers](Team-adopt-plan.md#program-manager) design a wide range of custom habit-change programs for teams. 
@@ -48,12 +48,12 @@ The following program components are critical for the success of any change prog
 
 Multiple large studies conducted over the past two decades have consistently identified an active and visible executive sponsor as the most important contributor to change-management success ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)). 
 
-Unless the scope of change is very extensive, an executive sponsor does not have to be a c level executive, but regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see Build the Program Team.
+Unless the scope of change is very extensive, an executive sponsor does not have to be a c-level executive, but regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see Build the program team.
 <!-- MAKE LINK HERE. CHANGE THIS! -->
 
 ### A program purpose statement
 
-To enthusiastically participate in a change program, program participants need to believe in the purpose behind a change. When people are asked to behave in a way that conflicts with their beliefs, they tend to resist change. Therefore, a program’s executive sponsor must partner with the program manager to define a compelling purpose statement for the program. The following questions can help to define the program purpose:
+To enthusiastically participate in a change program, participants need to believe in the purpose behind a change. When people are asked to behave in a way that conflicts with their beliefs, they tend to resist change. Therefore, a program’s executive sponsor must partner with the program manager to define a compelling purpose statement for the program. The following questions can help to define the program purpose:
 
  * What do we want to change about our existing collaboration habits?
  * Why is this change important for the business?
@@ -70,15 +70,15 @@ A dedicated program manager is the heart of a change program. This person has a 
 
 ## A well-defined and empowered team
 
-Programs are most effective when the team is deliberately defined as people working under the same conditions and toward the same business objectives. This shared purpose and environment enables effective goal setting and accountability. Collaboration problems and their root causes can vary significantly across teams even within the same department. While there is no “one-size fits all” solution to collaboration problems, a cohesive team has better odds of defining a shared goal and identifying new team norms to meet that goal. An example of a cohesive team is a marketing team reporting to a single manager all focused on marketing the same product. 
+Programs are most effective when the participating team is deliberately defined as people working under the same conditions and toward the same business objectives. This shared purpose and environment enables effective goal setting and accountability. Collaboration problems and their root causes can vary significantly across teams even within the same department. While there is no “one-size fits all” solution to collaboration problems, a cohesive team has better odds of defining a shared goal and identifying new team norms to meet that goal. An example of a cohesive team is a marketing team reporting to a single manager all focused on marketing the same product. 
 
-Just as important as defining a cohesive team is ensure that the people on that team are empowered to change. They need to feel confident that they can safely experiment with the new behaviors. If the team goal is to reduce meeting hours, but team members are afraid to decline a meeting invite, the program will fail. It is the job of both the executive sponsor and program manager to empower program participants through clear communications, behavior role-modeling, and providing rewards and recognition (for more information on rewards and recognition, see [Reinforce](Team-adopt-reinforce.md)).
+Just as important as defining a cohesive team is to ensure that the people on that team are empowered to change. They need to feel confident that they can safely experiment with new behaviors. For example, if the team goal is to reduce meeting hours, but team members are afraid to decline a meeting invite, the program will fail. It is the job of both the executive sponsor and program manager to empower program participants through clear communications, behavior role-modeling, and providing rewards and recognition (for more information on rewards and recognition, see [Reinforce](Team-adopt-reinforce.md)).
 
 ## Program Phases
 
 <img src="../../../Images/Adopt-teams-1.png" alt="The four program phases">
  
-The MyAnalytics Habit Change Program has four phases: plan, implement, measure, and reinforce.
+The MyAnalytics Team Behavior Change Program has four phases: plan, implement, measure, and reinforce.
 
 [Plan](Team-adopt-plan.md): The program manager collaborates with key stakeholders to create the program plan tailored to the needs of the team. Planning activities include building the team, structuring the program, and developing the communications plan.
 
