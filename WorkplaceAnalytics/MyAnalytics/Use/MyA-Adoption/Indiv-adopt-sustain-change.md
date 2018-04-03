@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Sustain Change
+# Sustain your change
 
 <!--NOTE THAT this content becomes top level content-->
 
@@ -29,7 +29,7 @@ To sustain your new behaviors, you should consistently reward yourself. Unlike t
  * Listen to a song from a special, high-energy “I just declined a meeting” playlist.
  * Take the time you save from the meeting and put it towards something you will enjoy, like scheduling a lunch date with a friendly colleague (Can’t find time on their calendar? Refer them to your habit playbook!)
 
-As you seek the reward that works best for you, be creative and be flexible. Just as it must experiment to find the right behaviors to help you meet your goal, you might also need to experiment to find the right reward. Sometimes when you are struggling to make a new habit stick, it’s not because the habit is the wrong one for you, but because you haven’t paired it with the right reward.
+As you seek the reward that works best for you, be creative and be flexible. Just as you experiment to find the right behaviors to help you meet your goal, you might also need to experiment to find the right reward. Sometimes when you are struggling to make a new habit stick, it’s not because the habit is the wrong one for you, but because you haven’t paired it with the right reward.
 
 Often, the best rewards are ones that you look forward to with anticipation. Once you create an association between the behavior and its reward, that anticipation will carry over to the behavior, too. Whenever you engage in your new behavior, take a moment to think about the reward - for example, picture yourself enjoying great food and conversation with a favorite colleague while you decline that meeting. Especially if the reward is not something you will get to enjoy immediately, this practice will reinforce the association between the reward and the behavior.
 
@@ -57,6 +57,6 @@ Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynam
 
 Here are some suggestions for how to use MyAnalytics to change habits as a team:
 
- * Select a few “Habit Change Playbooks” and do them together. Turn it into a friendly competition. For example, schedule a quick team check-in for the end of the month, and hand out prizes to anyone who can show that they spent zero hours multitasking in meetings during that month.
- * Share the Learning Modules with the full team and carve out time during team meetings to discuss them. These discussions can help you identify habits to experiment with and select new team collaboration norms.
- * Try the “MyAnalytics Team Habit Change Program” (see the Teams section in MyAnalytics Customer Success). 
+ * Select a few “Habit playbooks” and do them together. Turn it into a friendly competition. For example, schedule a quick team check-in for the end of the month, and hand out prizes to anyone who can show that they spent zero hours multitasking in meetings during that month.
+ * Share the Learning modules with the full team and carve out time during team meetings to discuss them. These discussions can help you identify habits to experiment with and select new team collaboration norms.
+ * Try the “MyAnalytics Team Behavior Change Program” (see the Teams section in MyAnalytics Customer Success). 
