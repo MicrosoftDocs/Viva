@@ -17,6 +17,15 @@ MyAnalytics provides several Learning modules. These are collections of material
 
 Learning modules include healthy behavior suggestions, Habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral-science lessons. What follows are the four modules: Meetings, Email, Focus Hours, and After Hours. You can also find lessons on how to maintain important relationships in your network in these modules.
 
+
+
+Focus
+meetings
+email
+after hours 
+
+
+
 <!-- POST LEARNING MODULES HERE 
 [CONTENT PLACEHOLDER]
 CHANGE THIS! 
