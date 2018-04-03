@@ -24,7 +24,7 @@ At its core, the program is a series of MyAnalytics learning modules and habit p
 The biggest time investment is made upfront by the program manager who is responsible for designing a program that will meet the team’s needs, including program duration, communications, and action plan. For example, the program manager might design a short program that encourages teams to experiment with new habits, or they might launch a longer, more rigorous program that requires an overarching team goal and weekly check-in meetings. 
 
 > [!Note] 
-> The following content is meant to help program managers design a wide range of custom habit-change programs for teams. These materials assume that the initiator and leader of the program is a program manager; in the rare cases where no program manager is involved, the executive sponsor is the program leader.
+> The following content is meant to help [program managers](Team-adopt-plan.md#program-manager) design a wide range of custom habit-change programs for teams. 
 
 ## Choose a team-based approach to change
 
