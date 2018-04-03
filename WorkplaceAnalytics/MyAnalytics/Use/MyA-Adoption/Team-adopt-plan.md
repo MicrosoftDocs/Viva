@@ -15,7 +15,7 @@ ms.prod: wpa
 
 ## Roles and responsibilities
 
-The ideal team is comprised of the following members:
+The ideal program team is comprised of the following members:
 
  * Executive sponsor
  * Program manager
@@ -55,7 +55,7 @@ The critical responsibilities for the program manager are:
  * Serve as a role model for behaviors that you want to promote
 
 > [!Note 1] 
-> Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (_Nudge_, by Richard Thaler and Cass Sunstein, pp. 71-72). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time. 
+> Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (_Nudge_, by Richard Thaler and Cass Sunstein). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time. 
 
 ### Change agents
 
@@ -73,7 +73,7 @@ The critical responsibilities for the change agents are:
 
 ### Program participants
 
-The program participants are the most critical members of the team. Without their active and willing participation, change is impossible. While there is no minimum team size, a team comprised of between 10 and 20 participants is ideal. If a team has more than 20 people, consider creating subgroups based on common characteristics and assigning change agents to lead each subgroup. 
+The program participants are also known as the "team". Without their active and willing participation, change is impossible. While there is no minimum team size, a team comprised of between 10 and 20 participants is ideal. If a team has more than 20 people, consider creating subgroups based on common characteristics and assigning change agents to lead each subgroup. 
 
 If you want to select a single subgroup from a larger population, select a team that is central to your network and could inspire other teams to adopt healthier work habits.
 
@@ -89,9 +89,9 @@ The critical responsibilities for the program participants are:
  * Provide feedback on the program
  * Help hold teammates accountable for change
 
-The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data, for the participants who choose to opt in to the measurements.
+The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data, for the participants who choose to opt in to sharing their MyAnalytics data.
 
-You should also let program participants opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them so that they don’t jeopardize program success down the road.
+Program participants shuold also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them so that they don’t jeopardize program success down the road.
 
 ## Structure the program
 
@@ -104,7 +104,7 @@ The program manager needs to define the following:
 
 ### Program duration and dates
 
-A program duration of 12 weeks typically gives people adequate time to learn how to use MyAnalytics, process new learnings, and experiment with new habits. Depending on a team’s needs and where they are in the behavior-change journey, programs might be shorter or longer. 
+A program duration of 12 weeks typically gives people adequate time to learn how to use MyAnalytics, process new learnings, and experiment with new behaviors. Depending on a team’s needs and where they are in the behavior-change journey, programs might be shorter or longer. 
 
 When you select the program’s start and end dates, find a period in which you expect few major disruptions to your team’s calendar. Avoid the holiday season and the summer vacation period since your team is more likely to experience atypical work weeks. Consider your team’s rhythm of business. Avoid running a program during peak workload periods, such as around big or unusual project deadlines.
 
@@ -118,13 +118,11 @@ These materials provide guidance for using the following six program components:
  * Kickoff meeting
  * Surveys
  * Learning modules
- * Habit-change playbooks 
+ * Habit playbooks 
  * Check-ins
  * Collaboration channel
 
-While all of these components can improve your program’s success, it is important to design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components, then select the ones that will work best for your team. 
-
-For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions. 
+While all of these components can improve your program’s success, it is important to design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components, then select the ones that will work best for your team. For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions. 
 
 After you select your program components, determine the right dates and frequency for each component. You can then estimate a weekly time commitment for the team members and include that estimate in your program launch communications. 
 
@@ -150,15 +148,11 @@ The purpose of this metric is to help you understand and communicate the effects
 
 Establish a control group to measure whether the habit changes that occurred during the program resulted from the program or from other changes in your business. A control group is a group of people similar to your group but who do not participate in the program. If your department has 50 people and you ask only half of the group to actively participate in program activities, you can use the other half of the group as a control group. 
 
-To compare changes experienced by the control group to changes experienced by the program team, ask both groups to fill out pre- and post-program surveys. You might also ask them to share MyAnalytics data to be aggregated to the group level, if both groups use MyAnalytics. 
-
-Comparing the control results with the program metrics can help you gain a clear understanding of the drivers of change, which in turn helps your efforts to sustain new behaviors after the program ends. 
+To compare changes experienced by the control group to changes experienced by the program team, ask both groups to fill out pre- and post-program surveys. You might also ask them to share MyAnalytics data to be aggregated to the group level, if both groups use MyAnalytics. Comparing the control results with the program metrics can help you gain a clear understanding of the drivers of change, which in turn helps your efforts to sustain new behaviors after the program ends. 
 
 # Develop a communications plan
 
-## Communicate the program to the participants effectively
-
-Successful change programs rely on consistent and transparent communication. Use these communications to address set expectations, communicate the plan, and explain how the change will affect employees ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)).
+Successful change programs rely on consistent and transparent communication. Use these communications to address expectations, communicate the plans, and explain how the change will affect employees ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)).
 
 Use these general guidelines when communicating with program participants:
 
@@ -237,15 +231,15 @@ Here are suggested pre-program-survey questions to use, tailor, and/or build on:
 
 ### Team norms survey
 
-During your program, you can use Learning Modules to experiment with new habits. Some of these habits will work for your team; others will not. After you try out different habits, conduct a team-norms survey to vote on new norms to adopt as a team. For additional information on how to select group norms and make them stick, see [How to Create Executive Team Norms and Make Them Stick](https://hbr.org/2018/01/how-to-create-executive-team-norms-and-make-them-stick).
+During your program, you can use Learning modules to experiment with new behaviors. Some of these behaviors will work for your team; others will not. After you try out different behaviors, conduct a team-norms survey to vote on new norms to adopt as a team. For additional information on how to select group norms and make them stick, see [How to Create Executive Team Norms and Make Them Stick](https://hbr.org/2018/01/how-to-create-executive-team-norms-and-make-them-stick).
 
 Here are suggested team-norms survey questions to use or adapt: [Norms Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/Ef9ihOIMwcBKpukfkOoDly0Bq1N1LlFeX5_bN28MlX3q0w?e=1etDbh). 
 
-To avoid survey fatigue, bundle the team norms survey with a corresponding learning module <!-- CHANGE THIS! LINK TO LEARNING MODULES! -->at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the learning module and experiment with suggested habits.
+To avoid survey fatigue, bundle the team norms survey with a corresponding Learning module <!-- CHANGE THIS! LINK TO LEARNING MODULES! -->at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors.
 
 ### Post-program survey
 
-Use the post-program survey to collect additional information on the results of your program, determine whether your program was successful and what the next steps should be to develop heathier work habits. You can also use the post-program survey to manually collect MyAnalytics data from participants to measure goal attainment. (See [Data sharing](Team-adopt-implement.md#data-sharing) for an alternative way to collect team-level data).
+Use the post-program survey to collect additional information on the results of your program, determine whether your program was successful and what the next steps should be to develop heathier work habits. You can also use the post-program survey to manually collect MyAnalytics data from participants to measure goal attainment. (See [Data sharing](Team-adopt-implement.md#data-sharing)).
 
 Here are suggested post-program survey questions to use or adapt: [Post-Program Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/EfkYi9wQ_71Amfg4feMkNPwB4DsGFvn8X0qPuYxJTMrJDQ?e=rxTfIM).
 
@@ -255,7 +249,7 @@ A survey can be used to help you set your team goals. To learn more about goal s
 
 ## Prepare for launch
 
-To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Habit Change Program, use the following checklist:
+To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Team Behavior Change Program, use the following checklist:
 
 	Executive sponsor briefed and on board
 
