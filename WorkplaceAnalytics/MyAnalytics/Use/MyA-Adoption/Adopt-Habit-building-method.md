@@ -13,6 +13,6 @@ ms.prod: mya
 
 ## Habit building method
 
-What follows is a habit-formation methodology based on behavioral science that can be used to help your team turn a selected behavior into a habit, using MyAnalytics.
+What follows is a habit-building method based on behavioral science that can be used to help you turn a selected behavior into a habit, using MyAnalytics.
 
 <img src="../../../Images/how-to-make-it-a-habit.png" alt="How to make it a habit">
