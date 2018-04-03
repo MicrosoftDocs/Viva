@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Set goal
+# Set your goal
 
 ## Define your purpose 
 
@@ -24,15 +24,15 @@ People aim to align their actions with their beliefs. If you don’t fully belie
  * How will this change make me a better teammate and/or manager?
  * What are the risks of not changing?
 
-## Define a measurable goal 
+## Define your measurable goal 
 
-After you have clearly defined your purpose for change, diagnosed your collaboration problem, and selected a behavior-change objective, you are ready to set your specific MyAnalytics goal.
+After you have clearly defined your purpose for change, diagnosed your collaboration problem, and selected your behavior-change objective, you are ready to set your specific MyAnalytics goal.
 
 MyAnalytics encourages you to set goals directly in your dashboard, which will allow you to keep track of your progress week over week:
 
 <img src="../../../Images/Adopt-indiv-6.PNG" alt="Edit your goals on the MyAnalytics dashboard">
   
-You can also set your own goal using other MyAnalytics metrics. To start, find the related metric in your dashboard, figure out how much time you usually spend on the thing you want to change, and write it down, along with your desired target. Each week, you can check your dashboard to see how you compare to your goal. For more information on how to create a plan for achieving your goal, see [Habit building method](Adopt-Habit-building-method.md). 
+You can also set your own goal using other MyAnalytics metrics. To start, find the related metric in your dashboard, figure out how much time you usually spend on the thing you want to change, and write it down, along with your desired target. Each week, you can check your dashboard to see how you compare to your goal. For more information on how to create a plan for achieving your goal, see [Habit-building method](Adopt-Habit-building-method.md). 
 
 The following table provides some common examples of behavior-change objectives, related metrics in MyAnalytics, and examples of goals that align to those objectives.  
 
@@ -45,4 +45,4 @@ Improve the effectiveness of the emails I send | <li>Email hours<li>Number of em
 Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours | 
 Spend more time with the people in my network who are aligned with my top priorities | “Your Time Investments” metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from “right to left” in your “Your Time Investments” map in your dashboard) | 
 
-After you have defined your goal, you are ready to select a behavior to achieve that goal. For more information, see [Develop new habit](Indiv-adopt-develop-habits.md).
+After you have defined your goal, you are ready to select a behavior to achieve that goal. For more information, see [Build your new habit](Indiv-adopt-develop-habits.md).
