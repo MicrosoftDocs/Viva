@@ -13,9 +13,10 @@ ms.prod: mya
 
 # Additional resources
 
+<!-->
 ## Contact us
 For additional support and feedback, email us at change@myanalytics.com.
-
+-->
 ## A selection of our favorite books
 
 Here is a list of some of our favorite books:

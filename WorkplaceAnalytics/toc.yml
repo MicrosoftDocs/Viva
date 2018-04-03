@@ -141,20 +141,20 @@
     #        href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md
           - name: Set your goal
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
-          - name: Develop your habit
+          - name: Build your habit
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-develop-habits.md
           - name: Sustain your change
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
           - name: Resources
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
-        - name: Habit-change resources
+        - name: Habit resources
           items: 
           - name: Learning modules
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
-          - name: Habit playbooks
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
           - name: Habit building method
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
+          - name: Habit playbooks
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
         - name: Team adoption
           items: 
           - name: Get started
