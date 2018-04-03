@@ -13,7 +13,7 @@ ms.prod: mya
 
 # Additional resources
 
-<!-->
+<!--
 ## Contact us
 For additional support and feedback, email us at change@myanalytics.com.
 -->
