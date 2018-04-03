@@ -70,8 +70,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### Meetings
 
-<img src="../../../Images/Adopt-indiv-1.PNG" alt="Dashboard Meetings area">
-  
+<img src="../../../Images/Adopt-indiv-1.PNG" alt="Dashboard Meetings area">  
  * Is my total number of meetings hours per week as a percentage of my work week very high?
  * How much time as a percentage of my week should I spend in meetings for my job?
  * Are most of the meetings that I attend scheduled by me or by others?
@@ -122,5 +121,5 @@ After you analyze your collaboration problem both qualitatively and quantitative
 * Reduce my after-hours collaboration to achieve a better work-life balance.
 * Spend more time with the people in my network who are aligned with my top priorities.
 
-After you have your objective, it's time to convert it into a measurable goal by using a MyAnalytics metric. See [Set goals](../MyA-Adoption/Indiv-adopt-set-goals.md).
+After you have your objective, it's time to convert it into a measurable goal using a MyAnalytics metric. See [Set goals](../MyA-Adoption/Indiv-adopt-set-goals.md).
 
