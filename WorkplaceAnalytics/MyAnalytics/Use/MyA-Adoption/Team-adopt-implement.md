@@ -26,17 +26,11 @@ Start with the following (sample) agenda:
  * Goal-setting discussion
  * Schedule and next steps
  * Additional resources
-
-### Resources for kickoff meeting
-
-To create a kickoff meeting presentation, use the following template:
-
- * [MyAnalytics kickoff meeting deck template](https://microsoft-my.sharepoint-df.com/:p:/p/kanowak/EeYDR2xeN55DueGxT80SwaQBMt3sP_VK4tLc4hvTIGIFUw?e=PV6PKz). 
  
 To learn how to demo MyAnalytics, watch the following video: 
- * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g). This video could be especially useful for you and change agents on your team learn how to use the product.
+ * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g).
  
-Post the completed kickoff presentation and the MyAnaltyics Product Demo video on your collaboration channel to allow participants to access them easily.
+Build your kickoff presentation based on the agenda and make sure to include the program purpose statement and team roles and responsibilities in the program overview. Post your kickoff presentation and the MyAnaltyics Product Demo video on your collaboration channel to allow participants to access them easily.
 
 ## Goal setting
 
