@@ -22,9 +22,9 @@ Specifically, we will lead you through the following phases:
 
 **Diagnose problem:** Guides you through a qualitative and a quantitative diagnosis using MyAnalytics. It helps you identify your specific behavior-change objective and the root causes of your collaboration problem.
 
-**Set goals:** Provides guidance on how to properly set a goal to address your problem. It includes defining your purpose and selecting the best metric to support your behavior-change objective.
+**Set goal:** Provides guidance on how to properly set a goal to address your problem. It includes defining your purpose and selecting the best metric to support your behavior-change objective.
 
-**Develop new habits:** Helps you select behaviors to achieve your goal, provides a framework for turning behaviors into habits, and deepens your knowledge of how to use MyAnalytics in the habit-formation process. The key documents you will use in this step are [Learning modules](Adopt-Learning-modules.md), [Habit playbooks](Adopt-Habit-playbooks.md), and [Habit-building method](Adopt-Habit-building-method.md).
+**Develop new habit:** Helps you select a behavior to achieve your goal, provides a framework for turning behaviors into habits, and deepens your knowledge of how to use MyAnalytics in the habit-building process. The key documents you will use in this step are [Learning modules](Adopt-Learning-modules.md), [Habit playbooks](Adopt-Habit-playbooks.md), and [Habit-building method](Adopt-Habit-building-method.md).
 
 **Sustain change:** Provides additional strategies to help you successfully turn your best behaviors into long-term habits.
 
