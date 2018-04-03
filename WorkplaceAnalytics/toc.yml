@@ -135,15 +135,15 @@
           items: 
           - name: Get started
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md
-          - name: Diagnose problems
+          - name: Diagnose your problem
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md
     #      - name: Define your why
     #        href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md
-          - name: Set goals
+          - name: Set your goal
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
-          - name: Develop new habits
+          - name: Develop your habit
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-develop-habits.md
-          - name: Sustain change
+          - name: Sustain your change
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
           - name: Resources
             href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
