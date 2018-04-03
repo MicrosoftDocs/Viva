@@ -38,7 +38,7 @@ When a group of individuals attempt to change habits together, a team goal incre
 
 We use the following methods to set a team-program goal:
  
- * Pre-program survey
+ * [Pre-program survey](xyz)
  * Team discussion
  * Goal-setting survey
 
@@ -47,6 +47,9 @@ The pre-program survey highlights collaboration pain points and productivity imp
 You can add a team discussion to the program kickoff meeting agenda for this purpose. Have the team discuss the pre-program survey results together. Highlight any inconsistencies or points of confusion in the survey results and solicit feedback from the group about them. Focus on the behavior-change objectives from the survey to help you articulate team goals. Even when the pre-program survey results clearly point to a program goal, a team discussion can create transparency and bolster support for the goal. 
 
 To develop a measurable goal, pair a behavior-change objective with a corresponding MyAnalytics metric. Goals phrased in percentage terms are helpful when a group is comprised of individuals with different work behaviors and it is difficult to agree on absolute metrics. The following table provides some examples of specific goals.
+
+<!-- Put here the table that is in indvid section in Set Goals topic -->
+
 
 | Productivity Outcome | MyAnalytics Metric | Goal Example |
 | ----- | ----- | ----- |
@@ -64,7 +67,7 @@ Here is an example of a goal-setting survey:
    * If no, please explain why not.
  * Please select how many hours the team should aim to add: 2, 3, 4, 5, other
 
-Seek additional feedback from team members who do not agree with the team goal.  Make sure these people are heard and think carefully about ways to integrate their feedback into the program (See Managing Resistance).
+Seek additional feedback from team members who do not agree with the team goal. Make sure that these people are heard, and think carefully about ways to integrate their feedback into the program (see [Manage Resistance](xyz)).
 
 ## Data sharing
 
@@ -87,35 +90,43 @@ At the end of the program, repeat the same process as a part of your post-progra
 
 ## Learning modules 
 
-A Learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include healthy behavior suggestions, Habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral science lessons. See the following four modules: Meetings, Email, Focus Hours, and After Hours. You can also find lessons on how to maintain important relationships in these modules.
+A Learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include healthy behavior suggestions, Habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral science lessons. 
 
-[Focus Hours Learning Module](MyAnalytics-Focus-Time.pdf)
+What follows are the four modules: Focus hours, Meetings, Email, and After Hours. You can also find lessons on how to maintain important relationships in your network in these modules.
 
--->
-<!-- [CONTENT PLACEHOLDER]
-ADD THE REST OF LEARNING MODULE PDFs HERE, AFTER WE GET THEM TO WORK! 
-CHANGE THIS!
--->
+[MyAnalytics Focus hours](MyAnalytics-focus-hours-april-2018.pdf)
 
-Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding team norms survey<!-- MAKE LINK! CHANGE THIS! -->. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method (see [Habit-building method](Team-adopt-implement.md#habit-building-method)).
+[MyAnalytics Meetings](MyAnalytics-meetings-april-2018.pdf)
+
+[MyAnalytics Email](MyAnalytics-email-april-2018.pdf)
+
+[MyAnalytics After hours](MyAnalytics-after-hours-april-2018.pdf)
+
+Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](xyz). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method (see [Habit-building method](Team-adopt-implement.md#habit-building-method)).
+
+## Habit-building method
+
+Below is a habit-building method based on behavioral science that can be used to help your team turn a selected behavior into a habit using MyAnalytics.
+
+<img src="../../../Images/how-to-make-it-a-habit.png" alt="How to make it a habit">
+
+For more information about Rob Cross’s research, see: [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf).
+
+For additional tailored behavior change tips, take the: [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
+
+To learn more about _The Power of Habit_, see: [The Power of Habit Resources](http://charlesduhigg.com/resources/).
 
 ## Habit playbooks 
 
 Habit playbooks are examples of how to use MyAnalytics to turn specific behaviors into habits using the Habit-building method. The playbooks leverage [microlearning](https://en.wikipedia.org/wiki/Microlearning), a method of learning through bite-sized lessons. They are compatible with microlearning since the key to building new habits is simplicity and starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, said that “baby steps” are one of the only things what will change behavior in the long term.
 
 Each habit playbook provides a suggested behavior to turn into a habit, an explanation of why the habit is important, and a goal-oriented plan using MyAnalytics to build the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the playbook goals. The experiences and results make for a great check-in-meeting topic, too. 
- <!-- You can find the complete collection of challenges in the following sections and in the learning modules. -->
 
-<!-- [CONTENT PLACEHOLDER] -->
-<!-- CHANGE THIS! -->
+ * [Habit Playbook Examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
+   > [Note!] 
+   > These playbooks can also be found in the [Learning modules](Adopt-Learning-Modules.md). 
 
-## Habit-building method
-
-Below is a habit-building method based on behavioral science that can be used to help your team turn a selected behavior into a habit using MyAnalytics.
-
-<!-- [CONTENT PLACEHOLDERS FOR METHOD SLIDE AND PLAYBOOK TEMPLATE] 
- CHANGE THIS! -->
-
+ * [Habit Playbook Template](Habit-playbook-template.pptx). Create your own custom playbooks for your team using the template provided.
 
 ## Check-ins 
 

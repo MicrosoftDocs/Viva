@@ -89,9 +89,9 @@ The critical responsibilities for the program participants are:
  * Provide feedback on the program
  * Help hold teammates accountable for change
 
-The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data, for the participants who choose to opt in to sharing their MyAnalytics data.
+The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data (see [Sharing data](xyz)), for the participants who choose to opt in to sharing their MyAnalytics data.
 
-Program participants shuold also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them so that they don’t jeopardize program success down the road.
+Program participants shuold also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them (see [Manage resistance](xyz)) so that they don’t jeopardize program success down the road.
 
 ## Structure the program
 
@@ -115,12 +115,12 @@ If MyAnalytics is new for your team, wait at least two weeks after the product l
 These materials provide guidance for using the following six program components:
 <!-- CHANGE THIS! ADD LINKS! -->
 
- * Kickoff meeting
- * Surveys
- * Learning modules
- * Habit playbooks 
- * Check-ins
- * Collaboration channel
+ * [Kickoff meeting](xyz)
+ * [Surveys](xyz)
+ * [Learning modules](xyz)
+ * [Habit playbooks ](xyz)
+ * [Check-ins](xyz)
+ * [Collaboration channel](xyz)
 
 While all of these components can improve your program’s success, it is important to design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components, then select the ones that will work best for your team. For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions. 
 
@@ -138,19 +138,19 @@ The following are examples of program structures and schedules:
 
 <img src="../../../Images/Adopt-teams-3.png" alt="Program schedule example: Modified program">
  
-## A supplementary outcome metric (optional)
+### A supplementary outcome metric (optional)
 
 In addition to the MyAnalytics metrics you will track during the program, you might choose to define a supplementary outcome metric to measure outside of MyAnalytics. This metric could include engagement or productivity measures. 
 
 The purpose of this metric is to help you understand and communicate the effects of the overall program. For example, using customer satisfaction scores as a supplementary metric can help describe the program experience as: “The team reclaimed four hours of focus time each week. By the end of the program, they were receiving higher customer satisfaction scores on average due to lower stress and higher-quality work/product delivered.”
 
-## A control group (optional)
+### A control group (optional)
 
 Establish a control group to measure whether the habit changes that occurred during the program resulted from the program or from other changes in your business. A control group is a group of people similar to your group but who do not participate in the program. If your department has 50 people and you ask only half of the group to actively participate in program activities, you can use the other half of the group as a control group. 
 
 To compare changes experienced by the control group to changes experienced by the program team, ask both groups to fill out pre- and post-program surveys. You might also ask them to share MyAnalytics data to be aggregated to the group level, if both groups use MyAnalytics. Comparing the control results with the program metrics can help you gain a clear understanding of the drivers of change, which in turn helps your efforts to sustain new behaviors after the program ends. 
 
-# Develop a communications plan
+## Develop a communications plan
 
 Successful change programs rely on consistent and transparent communication. Use these communications to address expectations, communicate the plans, and explain how the change will affect employees ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)).
 
@@ -170,7 +170,7 @@ You can use the following example as a template to develop your program-communic
 | Launch | Program participants | <li>Program introduction<li>MyAnalytics description<li>Program purpose to believe in and expected outcomes<li>High-level overview of program structure<li>Expectations<li>Next steps<li>Program contacts for questions and help | Email | Executive sponsor | Jan. 1 |
 | Milestone 2 |   |   |   |   |   |		
 
-## Program-launch email
+### Program-launch email
 
 Set your program on the right course with a strong launch email:
 
@@ -198,10 +198,9 @@ This email can include:
  * Links to more information on MyAnalytics and privacy
    * [MyAnalytics Overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
    * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)<!-- BROKEN! CHANGE THIS! -->
-   * [MyAnalytics What's New Video](https://www.youtube.com/watch?v=D808ojB5Dyo&feature=youtu.be) <!-- VERIFY! CHANGE THIS! -->
    * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
    * [Privacy Information](../../Overview/Privacy-Guide.md)
-   * Descriptions of [MyAnalytics elements]() <!-- TERMS AND DEFS FOR MYA? WHEN THIS TOPIC EXISTS, RECOMMEND LINKING TO IT AS THE NEXT BULLET POINT IN THIS LIST. -->
+   * Descriptions of [MyAnalytics elements](xyz) 
 
 ## Gain support from other teams
 
@@ -235,7 +234,7 @@ During your program, you can use Learning modules to experiment with new behavio
 
 Here are suggested team-norms survey questions to use or adapt: [Norms Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/Ef9ihOIMwcBKpukfkOoDly0Bq1N1LlFeX5_bN28MlX3q0w?e=1etDbh). 
 
-To avoid survey fatigue, bundle the team norms survey with a corresponding Learning module <!-- CHANGE THIS! LINK TO LEARNING MODULES! -->at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors.
+To avoid survey fatigue, bundle the team norms survey with a corresponding [Learning module](xyz) at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors.
 
 ### Post-program survey
 
@@ -243,7 +242,7 @@ Use the post-program survey to collect additional information on the results of 
 
 Here are suggested post-program survey questions to use or adapt: [Post-Program Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/EfkYi9wQ_71Amfg4feMkNPwB4DsGFvn8X0qPuYxJTMrJDQ?e=rxTfIM).
 
-## Goal-setting survey
+### Goal-setting survey
 
 A survey can be used to help you set your team goals. To learn more about goal setting and using a survey to help you do so, see [Goal setting](Team-adopt-implement.md#goal-setting).
 

@@ -19,23 +19,23 @@ The MyAnalytics Team Behavior Change Program uses MyAnalytics and behavioral sci
 
 In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and build new habits to change the way the team collaborates.
 
-At its core, the program is a series of MyAnalytics Learning modules and Habit playbooks that can require as little as 15 minutes per week from team members. 
+At its core, the program is a series of MyAnalytics [Learning modules](xyz) and [Habit playbooks](xyz) that can require as little as 15 minutes per week from team members. 
 
 The biggest time investment is made upfront by the program manager who is responsible for designing a program that will meet the team’s needs. For example, the program manager might design a short program that encourages teams to experiment with new behaviors, or they might launch a longer, more rigorous program that requires an overarching team goal and weekly check-in meetings. 
 
 > [!Note] 
 > The following content is meant to help [program managers](Team-adopt-plan.md#program-manager) design a wide range of custom habit-change programs for teams. 
 
-## Choose a team-based approach to change
+### Benefits of a team-based approach to change
 
 We all know that change can be hard. People are hard-wired to stick to the status quo even when it hurts. However, behavior change doesn’t have to be overwhelming. Research led by Rob Cross, Professor of Global Business at Babson College, indicates that doing just four or five things differently can enable people to reclaim 18 to 24% of their collaborative time ([Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf)).
 
 Team commitment can be a powerful lever for individual behavior change. 
-In [The Power of Habit](http://charlesduhigg.com/additional-resources/), Charles Duhigg writes, “The evidence is clear: if you want to change a habit, you must find an alternative routine, and your odds of success go up dramatically when you commit to changing as part of a group.” 
+In _The Power of Habit_, Charles Duhigg writes, “The evidence is clear: if you want to change a habit, you must find an alternative routine, and your odds of success go up dramatically when you commit to changing as part of a group.” 
 
-Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, has said that collective intelligence builds when one person shows enthusiasm, recruits others, and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (_The Culture Code_, by Daniel Coyle<!-- Pg __-->).
+Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, has said that collective intelligence builds when one person shows enthusiasm, recruits others, and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (_The Culture Code_, by Daniel Coyle<!-- Pg __-->)
 
-# Conditions for program success
+## Conditions for program success
 
 The following program components are critical for the success of any change program:
 
@@ -48,7 +48,7 @@ The following program components are critical for the success of any change prog
 
 Multiple large studies conducted over the past two decades have consistently identified an active and visible executive sponsor as the most important contributor to change-management success ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)). 
 
-Unless the scope of change is very extensive, an executive sponsor does not have to be a c-level executive, but regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see Build the program team.
+Unless the scope of change is very extensive, an executive sponsor does not have to be a c-level executive, but regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see [Build the program team](xyz).
 <!-- MAKE LINK HERE. CHANGE THIS! -->
 
 ### A program purpose statement
@@ -64,11 +64,11 @@ Keep in mind that what motivates management might not be what motivates employee
 
 As you answer these questions, seek input from select members of your team. Their involvement in the development phase helps to cultivate their commitment to the change program. Behavioral science shows that when people choose their direction for themselves, they are far more committed to outcomes. Keep this insight in mind when structuring the details of the program.
 
-## A dedicated program manager
+### A dedicated program manager
 
 A dedicated program manager is the heart of a change program. This person has a deep understanding of the team’s challenges and is invested in realizing positive results. The program manager is typically the team’s direct manager. If not, then they are someone with authority whom the team trusts and knows well. For more information, see [Program manager](Team-adopt-plan.md#program-manager).
 
-## A well-defined and empowered team
+### A well-defined and empowered team
 
 Programs are most effective when the participating team is deliberately defined as people working under the same conditions and toward the same business objectives. This shared purpose and environment enables effective goal setting and accountability. Collaboration problems and their root causes can vary significantly across teams even within the same department. While there is no “one-size fits all” solution to collaboration problems, a cohesive team has better odds of defining a shared goal and identifying new team norms to meet that goal. An example of a cohesive team is a marketing team reporting to a single manager all focused on marketing the same product. 
 
