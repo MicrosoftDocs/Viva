@@ -20,19 +20,23 @@ The kickoff meeting is the first event in your program, following the program la
 Start with the following (sample) agenda:
 
  * MyAnalytics product overview
- * MyAnalytics Habit Change Program overview
+ * MyAnalytics Team Behavior Change Program overview
  * MyAnalytics demo
  * Survey results
  * Goal-setting discussion
  * Schedule and next steps
  * Additional resources
 
-### Resources for product overview and demo
+### Resources for kickoff meeting
 
-Post these resources on your collaboration channel to allow participants to access them easily.
+To create a kickoff meeting presentation, use the following template:
 
- * [MyAnalytics product overview slides](https://microsoft-my.sharepoint-df.com/:p:/p/kanowak/EeYDR2xeN55DueGxT80SwaQBMt3sP_VK4tLc4hvTIGIFUw?e=PV6PKz). 
- * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g). This video could be especially useful for you and change agents on your team learn how to use the product.  
+ * [MyAnalytics kickoff meeting deck template](https://microsoft-my.sharepoint-df.com/:p:/p/kanowak/EeYDR2xeN55DueGxT80SwaQBMt3sP_VK4tLc4hvTIGIFUw?e=PV6PKz). 
+ 
+To learn how to demo MyAnalytics, watch the following video: 
+ * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g). This video could be especially useful for you and change agents on your team learn how to use the product.
+ 
+Post the completed kickoff presentation and the MyAnaltyics Product Demo video on your collaboration channel to allow participants to access them easily.
 
 ## Goal setting
 
@@ -40,15 +44,15 @@ When a group of individuals attempt to change habits together, a team goal incre
 
 We use the following methods to set a team-program goal:
  
- * The pre-program survey
+ * Pre-program survey
  * Team discussion
- * The goal-setting survey
+ * Goal-setting survey
 
-The pre-program survey highlights collaboration pain points and productivity improvements. The survey results might clearly point to a goal, but if the survey results are inconclusive, use a team discussion to gain more context and reactions from program participants to inform the choice of goal. You can use the program kickoff meeting for this purpose. 
+The pre-program survey highlights collaboration pain points and productivity improvements. The survey results might clearly point to a goal, but if the survey results are inconclusive, use a team discussion to gain more context and reactions from program participants to inform the choice of goal. 
 
-Have the team discuss the pre-program survey results together. Highlight any inconsistencies or points of confusion in the survey results and solicit feedback from the group about them. Focus on positive productivity outcomes from the survey to help you articulate team goals. Even when the pre-program survey results clearly point to a program goal, a team discussion can create transparency and bolster support for the goal. 
+You can add a team discussion to the program kickoff meeting agenda for this purpose. Have the team discuss the pre-program survey results together. Highlight any inconsistencies or points of confusion in the survey results and solicit feedback from the group about them. Focus on the behavior-change objectives from the survey to help you articulate team goals. Even when the pre-program survey results clearly point to a program goal, a team discussion can create transparency and bolster support for the goal. 
 
-To develop a measurable goal with a specific example, use the following “productivity outcomes” from the pre-program survey (see Create surveys<!-- LINK TO HERE. CHANGE THIS! -->) and a corresponding MyAnalytics metric. Goals phrased in percentage terms are helpful when a group is comprised of individuals with different work behaviors and it is difficult to agree on absolute metrics.
+To develop a measurable goal, pair a behavior-change objective with a corresponding MyAnalytics metric. Goals phrased in percentage terms are helpful when a group is comprised of individuals with different work behaviors and it is difficult to agree on absolute metrics. The following table provides some examples of specific goals.
 
 | Productivity Outcome | MyAnalytics Metric | Goal Example |
 | ----- | ----- | ----- |
@@ -59,14 +63,14 @@ To develop a measurable goal with a specific example, use the following “produ
 | Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours |
 |Spend more time with the people in my network who are aligned with my top priorities |“Your Time Investments” metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend 2 more hours per week with select important contacts (that is, move a person from “right to left” in your “Your Time Investments” map in your dashboard) |
 
-The team goal discussion should articulate an appropriate goal for the team. If only the goal-focus area is defined by the end of the meeting and not the specifics, send a brief goal-setting survey after the meeting in which you ask a few questions to confirm the goal area and a measurable target. 
-
-If the team discussion could not define a goal because of resistance from a participant, solicit feedback from that person and address their resistance.
+The team goal discussion should result in an appropriate goal for the team. If only the goal-focus area is defined by the end of the meeting and not the specifics though, send a brief goal-setting survey after the meeting in which you ask a few questions to confirm the goal area and a measurable target.
 
 Here is an example of a goal-setting survey:
  * Do you agree with the team goal to add more focus hours every week? Yes/No
    * If no, please explain why not.
  * Please select how many hours the team should aim to add: 2, 3, 4, 5, other
+
+Seek additional feedback from team members who do not agree with the team goal.  Make sure these people are heard and think carefully about ways to integrate their feedback into the program (See Managing Resistance).
 
 ## Data sharing
 
@@ -89,7 +93,7 @@ At the end of the program, repeat the same process as a part of your post-progra
 
 ## Learning modules 
 
-A learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include habit suggestions, habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, productivity lessons, and fun behavioral science lessons. See the following four modules: Meetings, Email, Focus Hours, and After Hours.
+A Learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include healthy behavior suggestions, Habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral science lessons. See the following four modules: Meetings, Email, Focus Hours, and After Hours. You can also find lessons on how to maintain important relationships in these modules.
 
 [Focus Hours Learning Module](MyAnalytics-Focus-Time.pdf)
 
@@ -99,23 +103,21 @@ ADD THE REST OF LEARNING MODULE PDFs HERE, AFTER WE GET THEM TO WORK!
 CHANGE THIS!
 -->
 
-Typically, a program manager sends a learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding team norms survey<!-- MAKE LINK! CHANGE THIS! -->. Program participants should complete the survey after they have had time to process the contents of the learning module and experiment with suggested habits using the habit-change method (see [Habit building method](Team-adopt-implement.md#habit-building-method)).
+Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding team norms survey<!-- MAKE LINK! CHANGE THIS! -->. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method (see [Habit-building method](Team-adopt-implement.md#habit-building-method)).
 
 ## Habit playbooks 
 
-Habit playbooks let program participants experiment with developing new habits by using MyAnalytics data. These challenges are examples of [microlearning](https://en.wikipedia.org/wiki/Microlearning), a method of learning through bite-sized lessons that leverages science around behavior change and habit formation.  
+Habit playbooks are examples of how to use MyAnalytics to turn specific behaviors into habits using the Habit-building method. The playbooks leverage [microlearning](https://en.wikipedia.org/wiki/Microlearning), a method of learning through bite-sized lessons. They are compatible with microlearning since the key to building new habits is simplicity and starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, said that “baby steps” are one of the only things what will change behavior in the long term.
 
-Habit formation is compatible with microlearning since the key to building new habits is simplicity and starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, said that “baby steps” are one of the only things what will change behavior in the long term.
-
-Each habit playbook provides a suggested habit, an explanation of why the habit is important, and a goal-oriented plan to experiment with the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the challenge goal. The experiences and results make for a great check-in-meetings topic, too. 
+Each habit playbook provides a suggested behavior to turn into a habit, an explanation of why the habit is important, and a goal-oriented plan using MyAnalytics to build the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the playbook goals. The experiences and results make for a great check-in-meeting topic, too. 
  <!-- You can find the complete collection of challenges in the following sections and in the learning modules. -->
 
 <!-- [CONTENT PLACEHOLDER] -->
 <!-- CHANGE THIS! -->
 
-## Habit building method
+## Habit-building method
 
-You can create your own custom Habit playbook. <!-- by using the following method and playbook template: -->
+Below is a habit-building method based on behavioral science that can be used to help your team turn a selected behavior into a habit using MyAnalytics.
 
 <!-- [CONTENT PLACEHOLDERS FOR METHOD SLIDE AND PLAYBOOK TEMPLATE] 
  CHANGE THIS! -->
@@ -123,20 +125,20 @@ You can create your own custom Habit playbook. <!-- by using the following metho
 
 ## Check-ins 
 
-In your check-in meetings, you and the program participants can discuss program learnings, MyAnalytics, and the experience in general. Set a frequency that works best for your team. Typically, a bi-weekly cadence is sufficiently frequent. Alternatively, you can dedicate part of the agenda of an existing team meeting for these check-ins. The recommended duration time is 15-30 minutes, depending on the agenda and size of the group. Meetings can be held virtually, in-person, or a mix of both depending on where team members are located.
+In your check-in meetings, you and the program participants can discuss program learnings, MyAnalytics, and the experience in general. Set a frequency that works best for your team. Typically, a bi-weekly cadence is sufficiently frequent. Alternatively, you can dedicate part of the agenda of an existing team meeting for these check-ins. The recommended duration time is 15-30 minutes, depending on the agenda and size of the team. Meetings can be held virtually, in-person, or a mix of both depending on where team members are located.
 
 Start with the following sample check-in meeting agenda:
 
  * What is going well? What could go even better?
  * Product and program questions
- * Habit-change playbook results
- * Agree on takeaways to share on the collaboration channel
+ * Habit playbook results
+ * Agree on takeaways to document and share with the team
 
 Contact program participants a day or two ahead of the scheduled meeting to ask if there are topics that they want to discuss. This gives you time to prepare to ensure that the meeting is efficient and keeps to the allocated meeting time. To prevent questions from dominating the check-in agenda, remind program participants that they can ask product and program questions at any time on the collaboration channel.
 
 If you are running a large program and the program participants are divided into sub-groups that attend separate check-ins, ask each group to post key takeaways from the check-in to the collaboration channel to keep the broader team informed of progress and to support active conversations on the collaboration channel.
 
-## Managing Resistance 
+## Manage Resistance 
 
 In every change program, you can expect some resistance from program participants. This is true even when the whole group initially supports the change. Change is not a linear process. People who experience change but crave the status quo will face setbacks when their motivation wanes or when they stumble upon obstacles. This is another reason to frequently reiterate the purpose of your program to keep it top of mind for participants.
 
