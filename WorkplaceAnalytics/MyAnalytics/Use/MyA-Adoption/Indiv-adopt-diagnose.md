@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Diagnose problem
+# Diagnose your problem
 
 If you are feeling the pain of collaboration overload, but haven’t identified the problem and its cause, start with a diagnosis exercise:
 
