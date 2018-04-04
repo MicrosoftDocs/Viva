@@ -49,6 +49,7 @@ Here is a list of some of our favorite books:
  * [Interruptions: Workplace Distractions: Here is Why You Won't Finish This Article](https://www.wsj.com/articles/SB10001424127887324339204578173252223022388?mg=prod/accounts-wsj#)
  * [Interruptions: Having Your Smartphone Nearby Takes a Toll on Your Thinking](https://hbr.org/2018/03/having-your-smartphone-nearby-takes-a-toll-on-your-thinking#)
  * [Time Blocking: Could Time Blocking Replace Your To-Do List?](https://www.fastcompany.com/3069293/could-time-blocking-replace-your-to-do-list#)
+ * [Time Blocking: How to Be Healthier, Happier and More Productive: It's All in the Timing](https://www-wsj-com.cdn.ampproject.org/c/s/www.wsj.com/amp/articles/how-to-be-healthier-happier-and-more-productive-its-all-in-the-timing-1514560647#)
 
 ### Meetings
 
