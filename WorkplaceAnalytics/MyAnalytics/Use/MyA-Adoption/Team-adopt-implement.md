@@ -38,7 +38,7 @@ When a group of individuals attempt to change habits together, a team goal incre
 
 We use the following methods to set a team-program goal:
  
- * [Pre-program survey](xyz)
+ * [Pre-program survey](Team-adopt-plan.md#pre-program-survey)
  * Team discussion
  * Goal-setting survey
 
@@ -46,19 +46,18 @@ The pre-program survey highlights collaboration pain points and productivity imp
 
 You can add a team discussion to the program kickoff meeting agenda for this purpose. Have the team discuss the pre-program survey results together. Highlight any inconsistencies or points of confusion in the survey results and solicit feedback from the group about them. Focus on the behavior-change objectives from the survey to help you articulate team goals. Even when the pre-program survey results clearly point to a program goal, a team discussion can create transparency and bolster support for the goal. 
 
-To develop a measurable goal, pair a behavior-change objective with a corresponding MyAnalytics metric. Goals phrased in percentage terms are helpful when a group is comprised of individuals with different work behaviors and it is difficult to agree on absolute metrics. The following table provides some examples of specific goals.
+To develop a measurable goal, pair a behavior-change objective with a corresponding MyAnalytics metric. Goals phrased in percentage terms are helpful when a group is comprised of individuals with different work behaviors and it is difficult to agree on absolute metrics. 
 
-<!-- Put here the table that is in indvid section in Set Goals topic -->
+The following table provides some examples of specific goals:
 
-
-| Productivity Outcome | MyAnalytics Metric | Goal Example |
-| ----- | ----- | ----- |
-| Reduce the number of hours I spend in ineffective meetings | <li>Meeting hours<li>Number of hours in conflicting meetings<li>Number of hours in multitasking meetings<li>Number of hours in longer meetings<li>Number of hours in recurring meetings<li>Number of hours in after-hours meetings | Reduce hours in multitasking meetings by 50% |
-| Schedule more focus hours to boost my productivity, creativity, and decision-making | <li>Focus hours<li>Focus hours to meeting hours ratio (use the focus habits chart in your dashboard) | Spend an equal amount of time in meetings and focus sessions |
-| Manage my inbox more effectively | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li>Hours writing emails<li>Hours sending emails | Send zero emails outside of business hours | 
-| Improve the effectiveness of the emails I send | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li>Hours writing emails<li>Hours sending emails | Reduce the number of emails sent by 25% |
-| Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours |
-|Spend more time with the people in my network who are aligned with my top priorities |“Your Time Investments” metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend 2 more hours per week with select important contacts (that is, move a person from “right to left” in your “Your Time Investments” map in your dashboard) |
+| Objective	| MyAnalytics metric  |	Goal example |
+| ------	| -----  |	----- |
+| Reduce the number of hours that I spend in ineffective meetings |	<li>Meeting hours <li>Number of hours in conflicting meetings<li>Number of hours in multitasking meetings<li>Number of hours in longer meetings<li>Number of hours in recurring meetings<li>Number of hours in after-hours meetings | Reduce hours in multitasking meetings by 50% |
+| Schedule more focus hours to boost my productivity, creativity, and decision-making | <li>Focus hours<li>Focus-hours-to-meeting-hours ratio (use the focus habits chart in your dashboard) |	Spend an equal amount of time in meetings and focus sessions |
+Manage my inbox more effectively | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li>Hours writing emails<li>Hours sending emails | Send zero emails outside of business hours |
+Improve the effectiveness of the emails I send | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li>Hours writing emails<li>Hours sending emails | Reduce the number of emails sent by 25% |
+Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours | 
+Spend more time with the people in my network who are aligned with my top priorities | “Your Time Investments” metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from “right to left” in your “Your Time Investments” map in your dashboard) | 
 
 The team goal discussion should result in an appropriate goal for the team. If only the goal-focus area is defined by the end of the meeting and not the specifics though, send a brief goal-setting survey after the meeting in which you ask a few questions to confirm the goal area and a measurable target.
 
@@ -67,7 +66,7 @@ Here is an example of a goal-setting survey:
    * If no, please explain why not.
  * Please select how many hours the team should aim to add: 2, 3, 4, 5, other
 
-Seek additional feedback from team members who do not agree with the team goal. Make sure that these people are heard, and think carefully about ways to integrate their feedback into the program (see [Manage Resistance](xyz)).
+Seek additional feedback from team members who do not agree with the team goal. Make sure that these people are heard, and think carefully about ways to integrate their feedback into the program (see [Manage Resistance](Team-adopt-implement.md#manage-resistance)).
 
 ## Data sharing
 

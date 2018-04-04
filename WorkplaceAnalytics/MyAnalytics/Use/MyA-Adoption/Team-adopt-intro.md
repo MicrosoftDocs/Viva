@@ -19,7 +19,7 @@ The MyAnalytics Team Behavior Change Program uses MyAnalytics and behavioral sci
 
 In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and build new habits to change the way the team collaborates.
 
-At its core, the program is a series of MyAnalytics [Learning modules](xyz) and [Habit playbooks](xyz) that can require as little as 15 minutes per week from team members. 
+At its core, the program is a series of MyAnalytics [Learning modules](Adopt-learning-modules.md) and [Habit playbooks](Adopt-habit-playbooks.md) that can require as little as 15 minutes per week from team members. 
 
 The biggest time investment is made upfront by the program manager who is responsible for designing a program that will meet the team’s needs. For example, the program manager might design a short program that encourages teams to experiment with new behaviors, or they might launch a longer, more rigorous program that requires an overarching team goal and weekly check-in meetings. 
 
@@ -48,8 +48,7 @@ The following program components are critical for the success of any change prog
 
 Multiple large studies conducted over the past two decades have consistently identified an active and visible executive sponsor as the most important contributor to change-management success ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)). 
 
-Unless the scope of change is very extensive, an executive sponsor does not have to be a c-level executive, but regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see [Build the program team](xyz).
-<!-- MAKE LINK HERE. CHANGE THIS! -->
+Unless the scope of change is very extensive, an executive sponsor does not have to be a c-level executive, but regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see [Roles and responsibilities](Team-adopt-plan.md#roles-and-responsibilities).
 
 ### A program purpose statement
 
