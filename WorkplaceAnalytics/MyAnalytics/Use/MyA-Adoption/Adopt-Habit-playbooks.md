@@ -19,7 +19,7 @@ Each Habit playbook provides a suggested behavior to turn into a habit, an expla
 
  * [Habit Playbook Examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
 
-  > [Note!] 
+  > [!Note] 
   > These playbooks can also be found in the [Learning modules](Adopt-Learning-Modules.md). 
 
  * [Habit Playbook Template](Habit-playbook-template.pptx). Create your own custom playbooks for your team using the template provided.
