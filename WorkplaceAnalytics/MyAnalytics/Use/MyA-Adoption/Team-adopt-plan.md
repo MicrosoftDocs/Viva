@@ -46,7 +46,7 @@ The critical responsibilities for the program manager are:
 
  * Secure support from an executive sponsor if the program is not driven from the top
  * Identify, train, and manage change agents
- * Remove obstacles in the way of the team’s success (See Note 1.) <!-- CHECK AND CHANGE THIS IF NECESSARY! -->
+ * Remove obstacles in the way of the team’s success (See the following note.) 
  * Lead program communications and regularly reinforce the program purpose
  * Structure the change program and lead activities
  * Lead discussions and idea sharing at check-ins and through collaboration channels
@@ -54,7 +54,7 @@ The critical responsibilities for the program manager are:
  * Collect, manage, and analyze program feedback and data
  * Serve as a role model for behaviors that you want to promote
 
-> [!Note 1] 
+> [!Note] 
 > Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (_Nudge_, by Richard Thaler and Cass Sunstein). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time. 
 
 ### Change agents
