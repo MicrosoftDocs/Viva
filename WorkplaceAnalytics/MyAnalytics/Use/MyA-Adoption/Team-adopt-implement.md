@@ -101,7 +101,7 @@ What follows are the four modules: Focus hours, Meetings, Email, and After Hours
 
 [MyAnalytics After hours](MyAnalytics-after-hours-april-2018.pdf)
 
-Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](xyz). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method (see [Habit-building method](Team-adopt-implement.md#habit-building-method)).
+Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](Team-adopt-plan.md#team-norms-survey). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method (see [Habit-building method](Team-adopt-implement.md#habit-building-method)).
 
 ## Habit-building method
 
