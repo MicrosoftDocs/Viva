@@ -19,7 +19,7 @@ What follows is a habit-building method based on behavioral science that can be 
 
 For more information about Rob Cross’s research, see: [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf).
 
-For additional tailored behavior change tips, take the: [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
+For additional tailored behavior change tips, take the: [Collaborative Overload Personal Assessment](https://www.networkassessments.org/). 
 
 To learn more about _The Power of Habit_, see: [The Power of Habit Resources](http://charlesduhigg.com/resources/).
 
