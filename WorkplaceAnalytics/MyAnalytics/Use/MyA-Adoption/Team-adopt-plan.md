@@ -89,9 +89,9 @@ The critical responsibilities for the program participants are:
  * Provide feedback on the program
  * Help hold teammates accountable for change
 
-The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data (see [Sharing data](xyz)), for the participants who choose to opt in to sharing their MyAnalytics data.
+The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data (see [Data sharing](Team-adopt-implement.md#data-sharing)), for the participants who choose to opt in to sharing their MyAnalytics data.
 
-Program participants shuold also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them (see [Manage resistance](xyz)) so that they don’t jeopardize program success down the road.
+Program participants shuold also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them (see [Manage resistance](Team-adopt-implement.md#manage-resistance)) so that they don’t jeopardize program success down the road.
 
 ## Structure the program
 
@@ -200,7 +200,7 @@ This email can include:
    * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)<!-- BROKEN! CHANGE THIS! -->
    * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
    * [Privacy Information](../../Overview/Privacy-Guide.md)
-   * Descriptions of [MyAnalytics elements](xyz) 
+   * Descriptions of [MyAnalytics elements](../Dashboard.md) 
 
 ## Gain support from other teams
 
@@ -234,7 +234,7 @@ During your program, you can use Learning modules to experiment with new behavio
 
 Here are suggested team-norms survey questions to use or adapt: [Norms Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/Ef9ihOIMwcBKpukfkOoDly0Bq1N1LlFeX5_bN28MlX3q0w?e=1etDbh). 
 
-To avoid survey fatigue, bundle the team norms survey with a corresponding [Learning module](xyz) at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors.
+To avoid survey fatigue, bundle the team norms survey with a corresponding [Learning module](Adopt-Learning-modules.md) at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors.
 
 ### Post-program survey
 

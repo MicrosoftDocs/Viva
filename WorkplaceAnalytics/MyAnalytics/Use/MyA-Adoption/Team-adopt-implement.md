@@ -142,7 +142,7 @@ Contact program participants a day or two ahead of the scheduled meeting to ask 
 
 If you are running a large program and the program participants are divided into sub-groups that attend separate check-ins, ask each group to post key takeaways from the check-in to the collaboration channel to keep the broader team informed of progress and to support active conversations on the collaboration channel.
 
-## Manage Resistance 
+## Manage resistance 
 
 In every change program, you can expect some resistance from program participants. This is true even when the whole group initially supports the change. Change is not a linear process. People who experience change but crave the status quo will face setbacks when their motivation wanes or when they stumble upon obstacles. This is another reason to frequently reiterate the purpose of your program to keep it top of mind for participants.
 
