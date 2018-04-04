@@ -225,13 +225,13 @@ Consider implementing any of the following: a pre-program survey, a team norms s
 
 The pre-program survey helps you diagnose your team’s collaboration pain points. Perception often differs from reality, and this survey helps you better understand your team’s actual needs, inform your program goals, and recommend new habits that will resonate with the group. We recommend that you include a link to your pre-program survey in the program-launch email.
 
-Here are suggested pre-program-survey questions to use, tailor, and/or build on:  [Pre-Program Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/ESEHdAO2vOFBiW7AGLTIs80BatzB7h1wFx4JsPMRrWSdKA?e=IDRXHw)
+Here are suggested pre-program-survey questions to use, tailor, and/or build on: [Pre-program survey questions](Pre-program-survey-questions.xlsx)
 
 ### Team norms survey
 
 During your program, you can use Learning modules to experiment with new behaviors. Some of these behaviors will work for your team; others will not. After you try out different behaviors, conduct a team-norms survey to vote on new norms to adopt as a team. For additional information on how to select group norms and make them stick, see [How to Create Executive Team Norms and Make Them Stick](https://hbr.org/2018/01/how-to-create-executive-team-norms-and-make-them-stick).
 
-Here are suggested team-norms survey questions to use or adapt: [Norms Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/Ef9ihOIMwcBKpukfkOoDly0Bq1N1LlFeX5_bN28MlX3q0w?e=1etDbh). 
+Here are suggested team-norms survey questions to use or adapt: [Norms survey questions](Norms-survey-questions.xlsx). 
 
 To avoid survey fatigue, bundle the team norms survey with a corresponding [Learning module](Adopt-Learning-modules.md) at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors.
 
@@ -239,7 +239,7 @@ To avoid survey fatigue, bundle the team norms survey with a corresponding [Lear
 
 Use the post-program survey to collect additional information on the results of your program, determine whether your program was successful and what the next steps should be to develop heathier work habits. You can also use the post-program survey to manually collect MyAnalytics data from participants to measure goal attainment. (See [Data sharing](Team-adopt-implement.md#data-sharing)).
 
-Here are suggested post-program survey questions to use or adapt: [Post-Program Survey Questions](https://microsoft-my.sharepoint-df.com/:x:/p/kanowak/EfkYi9wQ_71Amfg4feMkNPwB4DsGFvn8X0qPuYxJTMrJDQ?e=rxTfIM).
+Here are suggested post-program survey questions to use or adapt: [Post-program survey questions](Post-program-survey-questions.xlsx).
 
 ### Goal-setting survey
 
