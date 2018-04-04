@@ -113,7 +113,6 @@ If MyAnalytics is new for your team, wait at least two weeks after the product l
 ### Program components
 
 These materials provide guidance for using the following six program components:
-<!-- CHANGE THIS! ADD LINKS! -->
 
  * [Kickoff meeting](Team-adopt-implement.md#kickoff-meeting)
  * [Surveys](Team-adopt-plan.md#create-surveys)
