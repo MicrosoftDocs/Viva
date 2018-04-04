@@ -28,7 +28,7 @@ Start with the following (sample) agenda:
  * Additional resources
  
 To learn how to demo MyAnalytics, watch the following video: 
- * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g).
+ * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)
  
 Build your kickoff presentation based on the agenda and make sure to include the program purpose statement and team roles and responsibilities in the program overview. Post your kickoff presentation and the MyAnaltyics Product Demo video on your collaboration channel to allow participants to access them easily.
 

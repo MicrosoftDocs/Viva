@@ -115,12 +115,12 @@ If MyAnalytics is new for your team, wait at least two weeks after the product l
 These materials provide guidance for using the following six program components:
 <!-- CHANGE THIS! ADD LINKS! -->
 
- * [Kickoff meeting](xyz)
- * [Surveys](xyz)
- * [Learning modules](xyz)
- * [Habit playbooks ](xyz)
- * [Check-ins](xyz)
- * [Collaboration channel](xyz)
+ * [Kickoff meeting](Team-adopt-implement.md#kickoff-meeting)
+ * [Surveys](Team-adopt-plan.md#create-surveys)
+ * [Learning modules](Adopt-Learning-modules.md)
+ * [Habit playbooks ](Adopt-Habit-playbooks.md)
+ * [Check-ins](Team-adopt-implement.md#check-ins)
+ * [Collaboration channel](Team-adopt-plan.md#establish-a-collaboration-channel)
 
 While all of these components can improve your program’s success, it is important to design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components, then select the ones that will work best for your team. For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions. 
 
