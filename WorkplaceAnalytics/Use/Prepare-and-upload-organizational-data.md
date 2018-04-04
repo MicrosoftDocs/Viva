@@ -50,10 +50,10 @@ For example, if the people in Marketing communicate frequently with the people i
 
 If you can't include every person in your organization, the minimum is to include all people for whom collaboration data is being gathered, which will allow you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
-### Line of business data
-Unlike HR data, for line of business data you may not need to include every person in your company as part of your data upload. Knowing the scenario you want to analyze will help you to decide. 
+### Line-of-business data
+Unlike HR data, for line-of-business data you may not need to include every person in your company as part of your data upload. Knowing the scenario you want to analyze will help you to decide. 
 
-For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement versus those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, as you will be using the score values to group and filter specific report outputs.
+For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement versus those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the sales organization, as you will be using the score values to group and filter specific report outputs.
 
 ## What to include in the upload
 To get full functionality from Workplace Analytics, there are several required attributes that you will need to supply (these are described in the Export data section below). Additionally, you can supply up to 65 total attributes that you can use to group and filter data in interesting custom ways.
