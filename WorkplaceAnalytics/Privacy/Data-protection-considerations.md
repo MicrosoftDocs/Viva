@@ -19,11 +19,19 @@ Microsoft Workplace Analytics produces powerful insights about how your organiza
 
 This section provides a basic overview of roles, responsibilities, types of data, and data-privacy recommendations. The general suggestions offered here are a starting point for planning your data-protection strategy and deployment. They are not intended as a substitute for addressing your organization’s unique needs by engaging with legal, privacy, human-resources, and other subject matter experts within your organization.
 
+The following illustration shows the central position of the data controller (your organization) between the data subject (left) and the data processor, Microsoft (on the right):  
+
+<img src="../Images/data-subject-controller-processor.PNG" alt="Roles in data protection">
+
 ## Roles and responsibilities
 
 ### Data controller, data processor, and data subjects
 
 The concepts of _data controller_, _data processor_, and _data subject_ originate in European privacy law. Regardless of where your organization is located or whether any personal data of European Union citizens is involved, these concepts provide a useful framework for thinking about data protection when using Workplace Analytics.
+
+The following illustration shows the central position of the data controller (your organization) between the data subject (top) and the data processor (Microsoft, at the bottom):  
+
+
 
 <!-- [Image placeholder - relationships “data controller,” “data processor,” and “data subject”] -->
 
