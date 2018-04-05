@@ -97,10 +97,10 @@ Program participants shuold also be allowed to opt-out of the program if they so
 
 The program manager needs to define the following:
 
- * Program duration and dates
- * Program components
- * A supplementary outcome metric (optional)
- * A control group (optional)
+ * [Program duration and dates](Team-adopt-plan.md#Program-duration-and-dates)
+ * [Program components](Team-adopt-plan.md#Program-components)
+ * [A supplementary outcome metric (optional)](Team-adopt-plan.md#A-supplementary-outcome-metric-(optional))
+ * [A control group (optional)](Team-adopt-plan.md#A-control-group-(optional))
 
 ### Program duration and dates
 
