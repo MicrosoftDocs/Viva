@@ -15,7 +15,7 @@ ms.prod: wpa
 
 ## The MyAnalytics Team Behavior Change Program
 
-The MyAnalytics Team Behavior Change Program uses MyAnalytics and behavioral science to help teams reduce burnout and increase productivity by improving their collaboration habits. (See [Collaborative Overload](https://hbr.org/2016/01/collaborative-overload)).
+The MyAnalytics Team Behavior Change Program uses MyAnalytics and behavioral science to help teams reduce burnout and increase productivity by improving their collaboration habits. (See [Collaborative Overload](https://hbr.org/2016/01/collaborative-overload) for more background).
 
 In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and build new habits to change the way the team collaborates.
 
