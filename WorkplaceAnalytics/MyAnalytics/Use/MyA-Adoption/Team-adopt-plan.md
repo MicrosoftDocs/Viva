@@ -17,10 +17,10 @@ ms.prod: wpa
 
 The ideal program team is comprised of the following members:
 
- * [Executive sponsor](Team-adopt-plan.md#Executive sponsor)
- * Program manager
- * Change agents
- * Program participants
+ * [Executive sponsor](Team-adopt-plan.md#Executive-sponsor)
+ * [Program manager](Team-adopt-plan.md#Program-manager)
+ * [Change agents](Team-adopt-plan.md#Change-agents)
+ * [Program participants](Team-adopt-plan.md#Program-participants)
 
 > [!Note] 
 > If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
