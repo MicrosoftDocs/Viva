@@ -22,9 +22,9 @@ Individuals have every right to be concerned about how their data is used. Those
 
 Regardless of where your organization is located, the concepts of data controller, data processor, and data subject provide a useful framework for thinking about data protection when using Workplace Analytics.
 
- * Your organization’s role -- Data controller: The data controller is a party that determines the purposes and means of processing a data subject’s personal data. When using Workplace Analytics, your organization is the data controller because your organization determines if, how, and why Workplace Analytics will process any personal data.
- * Microsoft’s role -- Data processor: The data processor is a party that processes personal data on behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor. 
- * Data subject and personal data: A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
+ * **Your organization’s role -- Data controller:** The data controller is a party that determines the purposes and means of processing a data subject’s personal data. When using Workplace Analytics, your organization is the data controller because your organization determines if, how, and why Workplace Analytics will process any personal data.
+ * **Microsoft’s role -- Data processor:** The data processor is a party that processes personal data on behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor. 
+ * **Data subject and personal data:** A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
 ## Data-privacy recommendations
 
@@ -56,11 +56,11 @@ First, you get to decide which user’s mailboxes to include in your Workplace A
 Workplace Analytics support for handling data subject requests
 Under the GDPR, data subjects may have rights to request exclusion from processing, access, correction, or deletion of their personal data. It is your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. 
 
- * Exclusion from processing: Data subjects have the right to have their personal information excluded from processing.
- * Access: Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data.
- * Correction: Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Office 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.
- * Deletion: Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed.
- * Transparency regarding processing: This document goes over in detail the metrics calculated by Workplace Analytics, and what they mean.  
+ * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing.
+ * **Access:** Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data.
+ * **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Office 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.
+ * **Deletion:** Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed.
+ * **Transparency regarding processing:** This document goes over in detail the metrics calculated by Workplace Analytics, and what they mean.  
 
 
 
