@@ -6,18 +6,18 @@
       items:
         - name: Environment requirements
           href: ~/Overview/Environment-Requirements.md
+        - name: Privacy and data access
+          href: ~/Overview/Privacy-and-Data-Access.md
+        - name: Data-protection considerations
+          href: ~/Privacy/Data-protection-considerations.md
+        - name: Get support
+          href: ~/Overview/Getting-Support.md
        # - name: Architecture and How it Works
        #   href: ~/Overview/Architecture.md
        # - name: Privacy and data access
        #   href: ~/Overview/Privacy-and-Data-Access.md
-        - name: Get support
-          href: ~/Overview/Getting-Support.md 
        #  - name: Data protection
        #   items:
-        - name: Privacy and data access
-          href: ~/Overview/Privacy-and-Data-Access.md
-        - name: Data-protection considerations when using Workplace Analytics
-          href: ~/Overview/Data-protection-considerations.md
     - name: Setup
       items:
       - name: Checklist
