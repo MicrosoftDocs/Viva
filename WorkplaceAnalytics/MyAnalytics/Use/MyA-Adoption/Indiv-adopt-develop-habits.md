@@ -13,7 +13,7 @@ ms.prod: wpa
 
 # Build your habit
 
-After you have completed the Diagnose your problem and Set your goal steps, you will have the following elements for your behavior change plan: your purpose for change, your behavior-change objective, and your specific and measurable goal. The missing piece is a behavior to achieve your goal and turn into a habit. 
+After you have completed the [Diagnose your problem](Indiv-adopt-diagnose.md) and [Set your goal](Indiv-adopt-set-goal.md) steps, you will have the following elements for your behavior change plan: your purpose for change, your behavior-change objective, and your specific and measurable goal. The missing piece is a behavior to achieve your goal and turn into a habit. 
 
 <img src="../../../Images/Adopt-indiv-35.PNG" alt="Behavior-change steps">
 
