@@ -21,7 +21,7 @@ Even after you have used some new behaviors to meet your collaboration goals, it
 
 Rewards are critical to habit formation. In the lab, researchers use food rewards to motivate rats, dogs and monkeys to learn new behaviors. Human beings are no different from other animals when it comes to habit formation. 
 
-In his book _The Power of Habit_, Charles Duhigg describes the habit formation process as a three-step loop. “First there is a cue, a trigger that tells your brain to go into automatic mode and which habit to use. Then there is a routine, which can be physical or mental or emotional. Finally, there is a reward, which helps your brain figure out if this particular loop is worth remembering for the future.”
+In his book _The Power of Habit_, Charles Duhigg describes the habit-formation process as a three-step loop. “First there is a cue, a trigger that tells your brain to go into automatic mode and which habit to use. Then there is a routine, which can be physical or mental or emotional. Finally, there is a reward, which helps your brain figure out if this particular loop is worth remembering for the future.”
 
 To sustain your new behaviors, you should consistently reward yourself. Unlike the lab rats, your reward doesn’t have to be a hit of sugar water each time you behave a certain way, and your health will probably thank you if you pick a different treat. Luckily, humans have more options. Here are a few examples using the behavior of “declining a meeting that does not include an agenda”:
 
@@ -57,7 +57,7 @@ Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynam
 
 Here are some suggestions for how to use MyAnalytics to change habits as a team:
 
- * Select a few “Habit playbooks” and do them together. Turn it into a friendly competition. For example, schedule a quick team check-in for the end of the month, and hand out prizes to anyone who can show that they spent zero hours multitasking in meetings during that month.
- * Share the Learning modules with the full team and carve out time during team meetings to discuss them. These discussions can help you identify habits to experiment with and select new team collaboration norms.
+ * Select a few [Habit playbooks](Adopt-Habit-playbooks.md) and do them together. Turn it into a friendly competition. For example, schedule a quick team check-in for the end of the month, and hand out prizes to anyone who can show that they spent zero hours multitasking in meetings during that month.
+ * Share the [Learning modules](Adopt-Learning-Modules.md) with the full team and carve out time during team meetings to discuss them. These discussions can help you identify habits to experiment with and select new team collaboration norms.
  * Try the [MyAnalytics Team Behavior Change Program](Team-adopt-intro.md). 
 
