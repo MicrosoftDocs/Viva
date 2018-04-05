@@ -84,8 +84,8 @@ The critical responsibilities for the program participants are:
  * Participate in group discussions and share ideas
  * Complete all program surveys
  * Provide input to help set goals
- * Commit time to learning about habit change
- * Experiment with new habits
+ * Commit time to learning about behavior change
+ * Experiment with new behaviors
  * Provide feedback on the program
  * Help hold teammates accountable for change
 
