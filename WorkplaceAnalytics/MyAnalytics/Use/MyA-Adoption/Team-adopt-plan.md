@@ -17,7 +17,7 @@ ms.prod: wpa
 
 The ideal program team is comprised of the following members:
 
- * Executive sponsor
+ * [Executive sponsor](Team-adopt-plan.md#Executive sponsor)
  * Program manager
  * Change agents
  * Program participants
