@@ -199,7 +199,7 @@ This email can include:
    * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)<!-- BROKEN! CHANGE THIS! -->
    * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
    * [Privacy Information](../../Overview/Privacy-Guide.md)
-   * [Individual adoption resources](Indiv-adopt-get-started.md)
+   * [Resources for individual adoption](Indiv-adopt-get-started.md)
    * Descriptions of [MyAnalytics elements](../Dashboard.md) 
 
 ## Gain support from other teams
