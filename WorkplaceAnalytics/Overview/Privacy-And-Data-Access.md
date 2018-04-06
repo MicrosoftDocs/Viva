@@ -13,11 +13,7 @@ ms.prod: wpa
 # Workplace Analytics privacy and data access
 
 ## Introduction
-<!-- Removed per Jessalynn's review comment on 01 March 2018: 
-Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with, by combining organizational data that your company chooses to provide with email and calendar metadata from Office 365. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
-Go to [Get started with Workplace Analytics](../Get-Started/Get-started.md) to see what Workplace Analytics can do for you. 
--->
 As of July 1, 2017, Workplace Analytics is in category A of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657). It will be included in category C of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) at a later date. 
 
 Being aware of employees’ rights is a key component to ensuring a successful program using Workplace Analytics. It is important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics. 
@@ -61,7 +57,7 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 >Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
 
 ## Organizational data
-Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions. Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line of business data stores. For more information about organizational data, go to [Prepare and export organizational data](~/use/prepare-and-upload-organizational-data.md).
+Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions. Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line of business data stores. For more information about organizational data, go to [Prepare organizational data](~/use/prepare-organizational-data.md).
 
 The organizational data set is combined with the Office 365 email and calendar metadata to produce the complete data set that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Workplace Analytics through dashboards or query results. 
 

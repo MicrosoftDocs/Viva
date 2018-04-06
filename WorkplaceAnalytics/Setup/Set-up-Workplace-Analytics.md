@@ -26,7 +26,7 @@ Use this checklist to help assemble the people and obtain the data and configura
 |  2 - Assign licenses to population in scope for analysis     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed   |
 |  3 - Assign roles to Workplace Analytics Admins and Analysts   |    Office 365 global administrator   |     Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.   |
 |  4 - Configure Workplace Analytics settings    |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service using these rules. Default time zone values are defined in Workplace Analytics.        |
-|  5 - Prepare and upload organizational data    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |    Workplace Analytics administrators have determined what kind of organizational data to provide and how to upload the data. See [ Prepare and upload organizational data](../Use/Prepare-and-upload-organizational-data.md).    |
+|  5 - Prepare and upload organizational data    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |    Workplace Analytics administrators have determined what kind of organizational data to provide and how to upload the data. See [Prepare organizational data](../Use/Prepare-organizational-data.md) and [Upload organizational data](../Use/Upload-organizational-data.md).    |
 |  6 - Validate and verify data    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
 |  7 - Set up meeting exclusions](#step-seven-set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
 
@@ -205,18 +205,9 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 
 ### To prepare your organizational data for upload to Workplace Analytics
 
-* Follow the instructions in the topic [Prepare and upload organizational data](../use/Prepare-and-upload-organizational-data.md).
+* Follow the instructions in the topic [Prepare organizational data](../Use/Prepare-organizational-data.md).
 
-Once the .csv file has been created, the Workplace Analytics administrator can upload it into the service.
-
-### To upload your organizational data to Workplace Analytics
-1.	On the **Settings** page, click **Organizational data**.
-2.	Browse to, and then upload your file.
-
-### After upload
-The upload process will check that you have the correct headers in the file for the data that Workplace Analytics requires.
-* If your upload succeeds, you see an Upload successful message.
-* If you do not have the required attribute headers in your file, you will receive an error message.
+Once the .csv file has been created, the Workplace Analytics administrator can upload it into the service. For more information, see [Upload organizational data](../Use/Upload-organizational-data.md).
 
 Once your upload has been submitted successfully, there is additional validation and processing of your data to complete provisioning. If any problems arise, the Workplace Analytics team will contact your Workplace Analytics administrator.
 
@@ -227,7 +218,7 @@ Office 365 meeting and email data is refreshed monthly. This is a good time for 
 ### Related topics
 [Data sources in Workplace Analytics](../Use/Data-sources.md)
 
-[Prepare and upload organizational data](../Use/Prepare-and-upload-organizational-data.md) 
+[Prepare organizational data](../Use/Prepare-organizational-data.md) 
 
 ## Step six: Validate and verify data
 

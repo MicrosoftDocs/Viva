@@ -11,9 +11,8 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 # Configure settings for Workplace Analytics
+
 On the **Settings** page, administrators can customize system defaults and privacy settings, and upload organizational data to Workplace Analytics. There are two tabs, **Settings** and **Organizational data**.
-
-
 
 ## Timezone settings
 
@@ -22,7 +21,6 @@ In the **System defaults** section, you can customize the **Default time zone**.
 The default time zone for Workplace Analytics is Pacific Standard Time. Visit [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md) for a complete list of times zones you can use.
 
 ![Default time zone](../images/Wpa/use/default-timezone-settings.png)
-
 
 ### To change the default time zone
 1.	On the **Settings** page, click **Settings**.
@@ -37,7 +35,6 @@ In the **Privacy settings** section, you customize and configure what data is ac
 
 > [!Note]
 > When adding the subject line words to exclude from analysis, use single words, separated by a semicolon.
-
 
 ### With privacy settings you can
 * Specify the smallest group size to appear in the Explore Metrics section. Larger group sizes reduce the risk of individual group members being personally identified.
@@ -55,7 +52,6 @@ When you are satisfied with your privacy settings, your data can be processed.
 1.	On the **Settings** page, click **Settings**.
 2.	Under **Privacy settings**, configure the settings to meet your company's needs.
 
-
 > [!Note]
 > You may click **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you click the **I confirm that all privacy settings are complete** checkbox. When you click the checkbox, it begins the processing of Office 365 data.
 
@@ -70,10 +66,9 @@ When you are satisfied with your privacy settings, your data can be processed.
 * Check the **I confirm all privacy settings are complete** checkbox, and then click **Save**.
 
 ## Organizational data
-Administrators will use the **Organizational data** tab to upload your data into Workplace Analytics.
+Administrators will use the **Organizational data** tab to upload data into Workplace Analytics.
 
 ![Privacy settings](../images/Wpa/use/organizational-data-settings.png)
 
-
-### To prepare your data for upload
-* Follow the instructions in the topic [Prepare and export organizational data for Workplace Analytics](../use/Prepare-and-upload-organizational-data.md).
+### To prepare your data for upload to Workplace Analytics
+* Follow the instructions in the topic [Prepare organizational data](../use/Prepare-organizational-data.md).
