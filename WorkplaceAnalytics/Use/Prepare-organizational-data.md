@@ -183,10 +183,10 @@ Emp2@contoso.com,7/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sal
 Emp2@contoso.com,8/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
 ### Allowed time zones
-The default time zone for Workplace Analytics is Pacific Standard Time. Visit [[Time zones in Workplace Analytics]] for a complete list of times zones you can use.
+The default time zone for Workplace Analytics is Pacific Standard Time. Visit [Timezones for Workplace Analytics](Timezones-for-workplace-analytics.md) for a complete list of the times zones that you can use.
 
 ## Step four - Upload data
-Once the .csv file has been created, the Workplace Analytics administrator can upload it into the service. See [Upload organizatoinal data](Upload-organizational-data.md). 
+After you have created your source .csv file, you can upload it to the Workplace Analytics service. See [Upload organizatoinal data](Upload-organizational-data.md). 
 
 <!-- OLD CONTENT: 
 
