@@ -17,10 +17,10 @@ ms.prod: wpa
 
 The ideal program team is comprised of the following members:
 
- * [Executive sponsor](Team-adopt-plan.md#Executive-sponsor)
- * [Program manager](Team-adopt-plan.md#Program-manager)
- * [Change agents](Team-adopt-plan.md#Change-agents)
- * [Program participants](Team-adopt-plan.md#Program-participants)
+ * [Executive sponsor](Team-adopt-plan.md#executive-sponsor)
+ * [Program manager](Team-adopt-plan.md#program-manager)
+ * [Change agents](Team-adopt-plan.md#change-agents)
+ * [Program participants](Team-adopt-plan.md#program-participants)
 
 > [!Note] 
 > If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
@@ -97,10 +97,10 @@ Program participants should also be allowed to opt-out of the program if they so
 
 The program manager needs to define the following:
 
- * [Program duration and dates](Team-adopt-plan.md#Program-duration-and-dates)
- * [Program components](Team-adopt-plan.md#Program-components)
- * [A supplementary outcome metric (optional)](Team-adopt-plan.md#A-supplementary-outcome-metric-(optional))
- * [A control group (optional)](Team-adopt-plan.md#A-control-group-(optional))
+ * [Program duration and dates](Team-adopt-plan.md#program-duration-and-dates)
+ * [Program components](Team-adopt-plan.md#program-components)
+ * [A supplementary outcome metric (optional)](Team-adopt-plan.md#a-supplementary-outcome-metric-(optional))
+ * [A control group (optional)](Team-adopt-plan.md#a-control-group-(optional))
 
 ### Program duration and dates
 
