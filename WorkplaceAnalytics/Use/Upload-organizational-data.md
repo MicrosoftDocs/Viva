@@ -66,13 +66,14 @@ The Data Load page displays two tables: System fields and Custom fields. You use
 
 ### System fields table
 
-The system fields are divided into required fields and optional fields. 
+A system field can be either _required_ or _optional_: 
+
  * **Required fields** are identified in two ways: They appear in rows that have dark shading; under the Source column header, they are identified by the word “Required.”) These rows represent data that was found in the file that you uploaded. They are mandatory because the upload would fail if the mapping excluded one or more of these fields. In other words, you must map each of the required fields; you start this by choosing a value from the drop-down list. 
  * **Optional fields** are represented by rows with lighter shading. They appear below the required fields. These rows are commonly encountered system fields that Workplace Analytics suggests for use. For example, a field in this section might be called “Layer”; if “Layer” is not used in your organization, do not map this field. 
 
 ### Custom fields table
 
- * **Custom fields** are displayed on this page below the well-known fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate completeness value, and finally decide whether to hash it. The completeness value depends on the intended use of the custom field: If you intend to use this data in much of your analysis, you should pick a high value. You can pick a lower value if it applies, for example, to only a small subset of people in your organization. 
+ * **Custom fields** are displayed on this page below the optional fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate completeness value, and finally decide whether to hash it. The completeness value depends on the intended use of the custom field: If you intend to use this data in much of your analysis, you should pick a high value. You can pick a lower value if it applies, for example, to only a small subset of people in your organization. 
 
 ### Columns in the System fields and Custom fields tables
 
@@ -90,23 +91,23 @@ After you complete the steps in [File upload](Upload-organizational-data.md#file
 
     <img src="../Images/upload-org-data-02.png" alt="System fields table">
  
-<ol type="a"> 
-<li>Determine which of the columns in your CSV file correspond to the second column in the table (Field name).</li>
-<li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
-<li>Fill in appropriate values for the other columns in the table: Field name, Data type, and so on. 
-For more information, see Columns in the System fields and Custom fields tables. Repeat these mapping steps for the rest of the required fields and for the optional fields that you choose to map.</li>
-</ol>
+  <ol type="a"> 
+  <li>Determine which of the columns in your CSV file correspond to the second column in the table (Field name).</li>
+  <li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
+  <li>Fill in appropriate values for the other columns in the table: Field name, Data type, and so on. 
+  For more information, see Columns in the System fields and Custom fields tables. Repeat these mapping steps for the rest of the required fields and for the optional fields that you choose to map.</li>
+  </ol>
 
 2. <u>Map custom fields:</u> 
 Custom fields are optional: you need not map them all. Select the columns in your source (.csv) file that your organization considers important for the analysis that you want to perform. For example, if StartDate is important and your data contains this field, complete the row for StartDate. 
 
    <img src="../Images/upload-org-data-03.png" alt="Custom fields table">
  
-<ol type="a">
-<li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data – in this example, select **StartDate**.</li>
-<li>Set values for the other columns in the table: Select the data type, set a completeness-required percentage (see Setting “Completeness required” for custom fields), and select whether you want to hash the value in the report.</li>
-<li>Repeat these steps for the rest of the custom fields in your data that are important to your organization.</li>
-</ol>
+  <ol type="a">
+  <li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data – in this example, select **StartDate**.</li>
+  <li>Set values for the other columns in the table: Select the data type, set a completeness-required percentage (see Setting “Completeness required” for custom fields), and select whether you want to hash the value in the report.</li>
+  <li>Repeat these steps for the rest of the custom fields in your data that are important to your organization.</li>
+  </ol>
 
 3. Under Submit for validation, select **I confirm that these customizations are correct** and click **Submit**. This uploads the .csv file and starts the validation process. 
 Go to the next procedure, [Data validation](Upload-organizational-data.md#data-validation).
