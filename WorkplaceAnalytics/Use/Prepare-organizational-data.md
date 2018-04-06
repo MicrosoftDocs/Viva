@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Prepare and upload organizational data in Workplace Analytics
-description: This article describes how to prepare and upload organizational data from your organization into Workplace Analytics. 
+title: Prepare organizational data in Workplace Analytics
+description: How to prepare data from your organization to be uploaded to Workplace Analytics. 
 author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
@@ -11,8 +11,9 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Prepare and upload organizational data
-This article describes what organizational data is, and gives the steps to help your prepare and upload your organizational data to Workplace Analytics.
+# Prepare organizational data
+
+This article describes what organizational data is and gives the steps to help your prepare it for uploading to Workplace Analytics.
 
 ## About organizational data
 Organizational data is the information about employees that your company provides to use in Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
