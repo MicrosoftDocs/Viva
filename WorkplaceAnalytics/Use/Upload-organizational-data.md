@@ -13,9 +13,9 @@ ms.prod: wpa
 
 # Upload organizational data
 
-This article describes what organizational data is, and gives the steps to help your prepare and upload your organizational data to Workplace Analytics.
+This article presents the steps that an administrator would take to upload organizational data to Workplace Analytics.
 
-The procedures in this section are intended for use by an administrator at an organization that uses Workplace Analytics. 
+Complete these steps after you have prepared your data, as described in [Prepare organizational data](Prepare-organizational-data.md).  
 
 ## Import tasks
 
