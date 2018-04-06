@@ -31,8 +31,6 @@ In this procedure, you specify a .csv file to upload to Workplace Analytics.
 
 **To select the file to upload**
 
-Follow these steps to upload organizational data. 
-
 1.	Navigate to the page for Workplace Analytics. 
 
      – or – 
@@ -47,8 +45,8 @@ Follow these steps to upload organizational data.
 6.	(Optional) Click **Add an optional description** and type a description of this workflow. 
 7.	In the Select file area, click **Choose file**. In the dialog box that appears, select the .csv file that you want to import. 
 
-> [!Note] 
-> If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 10, _Replace organizational data_. 
+  > [!Note] 
+  > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 10, _Replace organizational data_. 
 
 8.	<u>Complete new-file upload:</u> Click **Next**. This displays the System fields table. 
 9.	Go to the next procedure, [Field mapping](Upload-organizational-data.md#field-mapping). 
