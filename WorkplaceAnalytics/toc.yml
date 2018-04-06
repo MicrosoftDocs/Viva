@@ -23,7 +23,7 @@
       items:
         - name: Set up Workplace Analytics
           href: ~/Setup/Set-up-Workplace-Analytics.md
-        - name: Privacy considerations
+        - name: Privacy considerations 
           href: ~/Use/Privacy-considerations.md
     - name: Use
       items:
