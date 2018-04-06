@@ -6,12 +6,19 @@
       items:
         - name: Environment requirements
           href: ~/Overview/Environment-Requirements.md
-       # - name: Architecture and How it Works
-       #   href: ~/Overview/Architecture.md
         - name: Privacy and data access
           href: ~/Overview/Privacy-and-Data-Access.md
+        - name: Data-protection considerations
+          href: ~/Privacy/Data-protection-considerations.md
+       #  href: ~/Privacy/Data-protection-summary.md
         - name: Get support
           href: ~/Overview/Getting-Support.md
+       # - name: Architecture and How it Works
+       #   href: ~/Overview/Architecture.md
+       # - name: Privacy and data access
+       #   href: ~/Overview/Privacy-and-Data-Access.md
+       #  - name: Data protection
+       #   items:
     - name: Setup
       items:
       - name: Checklist
@@ -151,7 +158,7 @@
           items: 
           - name: Learning modules
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
-          - name: Habit building method
+          - name: Habit-building method
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
           - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md

@@ -45,4 +45,4 @@ Improve the effectiveness of the emails I send | <li>Email hours<li>Number of em
 Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours | 
 Spend more time with the people in my network who are aligned with my top priorities | “Your Time Investments” metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from “right to left” in your “Your Time Investments” map in your dashboard) | 
 
-After you have defined your goal, you are ready to select a behavior to achieve that goal. For more information, see [Build your new habit](Indiv-adopt-develop-habits.md).
+After you have defined your goal, you are ready to select a behavior to achieve that goal. For more information, see [Build your habit](Indiv-adopt-develop-habits.md).

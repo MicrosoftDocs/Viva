@@ -17,10 +17,10 @@ ms.prod: wpa
 
 The ideal program team is comprised of the following members:
 
- * Executive sponsor
- * Program manager
- * Change agents
- * Program participants
+ * [Executive sponsor](Team-adopt-plan.md#Executive-sponsor)
+ * [Program manager](Team-adopt-plan.md#Program-manager)
+ * [Change agents](Team-adopt-plan.md#Change-agents)
+ * [Program participants](Team-adopt-plan.md#Program-participants)
 
 > [!Note] 
 > If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
@@ -84,23 +84,23 @@ The critical responsibilities for the program participants are:
  * Participate in group discussions and share ideas
  * Complete all program surveys
  * Provide input to help set goals
- * Commit time to learning about habit change
- * Experiment with new habits
+ * Commit time to learning about behavior change
+ * Experiment with new behaviors
  * Provide feedback on the program
  * Help hold teammates accountable for change
 
 The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data (see [Data sharing](Team-adopt-implement.md#data-sharing)), for the participants who choose to opt in to sharing their MyAnalytics data.
 
-Program participants shuold also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them (see [Manage resistance](Team-adopt-implement.md#manage-resistance)) so that they don’t jeopardize program success down the road.
+Program participants should also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them (see [Manage resistance](Team-adopt-implement.md#manage-resistance)) so that they don’t jeopardize program success down the road.
 
 ## Structure the program
 
 The program manager needs to define the following:
 
- * Program duration and dates
- * Program components
- * A supplementary outcome metric (optional)
- * A control group (optional)
+ * [Program duration and dates](Team-adopt-plan.md#Program-duration-and-dates)
+ * [Program components](Team-adopt-plan.md#Program-components)
+ * [A supplementary outcome metric (optional)](Team-adopt-plan.md#A-supplementary-outcome-metric-(optional))
+ * [A control group (optional)](Team-adopt-plan.md#A-control-group-(optional))
 
 ### Program duration and dates
 
@@ -199,6 +199,7 @@ This email can include:
    * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)<!-- BROKEN! CHANGE THIS! -->
    * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
    * [Privacy Information](../../Overview/Privacy-Guide.md)
+   * [Resources for individual adoption](Indiv-adopt-get-started.md)
    * Descriptions of [MyAnalytics elements](../Dashboard.md) 
 
 ## Gain support from other teams
@@ -249,18 +250,18 @@ A survey can be used to help you set your team goals. To learn more about goal s
 
 To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Team Behavior Change Program, use the following checklist:
 
-	Executive sponsor briefed and on board
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Executive sponsor briefed and on board
 
-	Change agents briefed and ready to fulfill responsibilities
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Change agents briefed and ready to fulfill responsibilities
 
-	Program participants scoped
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Program participants scoped
 
-	Communications plan drafted
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Communications plan drafted
 
-	Program structured
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Program structured
 
-	Program-launch email finalized
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Program-launch email finalized
 
-	Collaboration channel established
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Collaboration channel established
 
-	Pre-program survey created
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Pre-program survey created

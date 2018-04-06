@@ -101,7 +101,7 @@ What follows are the four modules: Focus hours, Meetings, Email, and After Hours
 
 [MyAnalytics After hours](MyAnalytics-after-hours-april-2018.pdf)
 
-Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](Team-adopt-plan.md#team-norms-survey). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method (see [Habit-building method](Team-adopt-implement.md#habit-building-method)).
+Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](Team-adopt-plan.md#team-norms-survey). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method.
 
 ## Habit-building method
 
@@ -121,10 +121,7 @@ Habit playbooks are examples of how to use MyAnalytics to turn specific behavior
 
 Each habit playbook provides a suggested behavior to turn into a habit, an explanation of why the habit is important, and a goal-oriented plan using MyAnalytics to build the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the playbook goals. The experiences and results make for a great check-in-meeting topic, too. 
 
- * [Habit Playbook Examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
-   > [Note!] 
-   > These playbooks can also be found in the [Learning modules](Adopt-Learning-Modules.md). 
-
+ * [Habit Playbook Examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist. These playbooks can also be found in the [Learning modules](Adopt-Learning-Modules.md). 
  * [Habit Playbook Template](Habit-playbook-template.pptx). Create your own custom playbooks for your team using the template provided.
 
 ## Check-ins 
