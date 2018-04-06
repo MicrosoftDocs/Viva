@@ -250,8 +250,12 @@ A survey can be used to help you set your team goals. To learn more about goal s
 
 To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Team Behavior Change Program, use the following checklist:
 
+<img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Executive sponsor briefed and on board
+
 	Executive sponsor briefed and on board
 <!-- CHANGE THIS! PUT IMAGE FILES HERE! INSTEAD OF BOXES. THEN TEXT ON EDGE NOT JUST CHROME.  -->
+
+<img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Change agents briefed and ready to fulfill responsibilities
 
 	Change agents briefed and ready to fulfill responsibilities
 
