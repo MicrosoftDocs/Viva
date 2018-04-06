@@ -19,27 +19,14 @@
        #   href: ~/Overview/Privacy-and-Data-Access.md
        #  - name: Data protection
        #   items:
-    - name: Setup
-      items:
-      - name: Checklist
-        href: ~/Setup/Set-up-Workplace-Analytics.md
-      - name: Step one - Determine key personas and roles for implementation
-        href: ~/Setup/Set-up-Workplace-Analytics.md#step-one-determine-key-personas-and-roles-for-implementation
-      - name: Step two - Assign licenses to population in scope for analysis
-        href: ~/Setup/Set-up-Workplace-Analytics.md#step-two-assign-licenses-to-population-in-scope-for-analysis
-      - name: Step three - Assign roles to Workplace Analytics admin and analysts
-        href: ~/Setup/Set-up-Workplace-Analytics.md#step-three-assign-roles-to-workplace-analytics-admins-and-analysts
-      - name: Step four - Configure Workplace Analytics Settings
-        href: ~/Setup/Set-up-Workplace-Analytics.md#step-four-configure-workplace-analytics-settings
-      - name: Step five - Prepare and upload organizational data
-        href: ~/setup/set-up-workplace-analytics.md#step-five-prepare-and-upload-organizational-data
-      - name: Step six - Validate and verify data
-        href: ~/Setup/Set-up-Workplace-Analytics.md#step-six-validate-and-verify-data
-      - name: Step seven - Set up meeting exclusions
-        href: ~/Setup/Set-up-Workplace-Analytics.md#step-seven-set-up-meeting-exclusions
-        name: Privacy considerations
-        href: ~/Use/Privacy-considerations.md
-    - name: Use
+
+     - name: Setup
+       items:
+       - name: Set up Workplace Analytics
+         href: ~/Setup/Set-up-Workplace-Analytics.md
+       - name: Privacy considerations
+         href: ~/Use/Privacy-considerations.md
+       - name: Use
       items:
       - name: Administration
         items:
