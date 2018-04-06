@@ -23,7 +23,7 @@ The task of importing organizational data has three parts:
 2. [Field mapping](Upload-organizational-data.md#field-mapping)
 3. [Data validation](Upload-organizational-data.md#data-validation)
 
-As an administrator, you perform the first two of these tasks. After you map fields, the validation attempt occurs. If the data successfully validates, the overall data-import task is complete. If the data at first does not validate, you can choose from among further options, which are described in Validation fails.
+After you have prepared your source data, you upload your .csv file and map fields. After you map fields, data validation might or might not succeed. If the data successfully validates, the overall data-import task is complete. If the data at first does not validate, you can choose from among further options, which are described in [Validation fails](Upload-organizational-data.md#validation-fails).
 
 ## File upload
 
@@ -37,7 +37,8 @@ Follow these steps to upload organizational data.
 
      – or – 
 
-    In the Office waffle, click **Workplace Analytics**. 
+    Click the Office 365 waffle menu (
+<img src="../Images/upload-org-data-00.png" alt="Data load page">) and then click **Workplace Analytics**. 
 
 2.	In the left navigation pane, click **Settings**.
 3.	Click **Organizational data**. The Upload history area of this page displays the previous data uploads from your organization.
