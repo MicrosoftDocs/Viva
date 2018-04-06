@@ -10,15 +10,15 @@
           href: ~/Overview/Getting-Support.md
        # - name: Architecture and How it Works
        #   href: ~/Overview/Architecture.md
-      - name: Privacy and data protection
-        items:
-          - name: Privacy considerations 
-            href: ~/Use/Privacy-considerations.md 
-          - name: Privacy and data access
-            href: ~/Overview/Privacy-and-Data-Access.md
-          - name: Data-protection considerations
-            href: ~/Privacy/Data-protection-considerations.md                       
-         #  href: ~/Privacy/Data-protection-summary.md
+    - name: Privacy and data protection
+      items:
+        - name: Privacy considerations 
+          href: ~/Use/Privacy-considerations.md 
+        - name: Privacy and data access
+          href: ~/Overview/Privacy-and-Data-Access.md
+        - name: Data-protection considerations
+          href: ~/Privacy/Data-protection-considerations.md                       
+       #  href: ~/Privacy/Data-protection-summary.md
     - name: Setup
       items:
         - name: Set up Workplace Analytics
