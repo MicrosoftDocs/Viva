@@ -19,14 +19,13 @@
        #   href: ~/Overview/Privacy-and-Data-Access.md
        #  - name: Data protection
        #   items:
-
-     - name: Setup
-       items:
-       - name: Set up Workplace Analytics
-         href: ~/Setup/Set-up-Workplace-Analytics.md
-       - name: Privacy considerations
-         href: ~/Use/Privacy-considerations.md
-       - name: Use
+    - name: Setup
+      items:
+        - name: Set up Workplace Analytics
+          href: ~/Setup/Set-up-Workplace-Analytics.md
+        - name: Privacy considerations
+          href: ~/Use/Privacy-considerations.md
+    - name: Use
       items:
       - name: Administration
         items:
