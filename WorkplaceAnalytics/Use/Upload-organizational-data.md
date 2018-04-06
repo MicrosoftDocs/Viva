@@ -13,9 +13,7 @@ ms.prod: wpa
 
 # Upload organizational data
 
-This article presents the steps that an administrator would take to upload organizational data to Workplace Analytics.
-
-Complete these steps after you have prepared your data, as described in [Prepare organizational data](Prepare-organizational-data.md).  
+This article presents the steps that administrators take to upload organizational data to Workplace Analytics. Complete these steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 ## Import tasks
 
@@ -66,27 +64,29 @@ In this procedure, you map the fields (columns) in your source .csv file to fiel
  
 The Data Load page displays two tables: System fields and Custom fields. You use these tables to map the data in your uploaded file. 
 
-## System fields table
+### System fields table
 
 The system fields are divided into required fields and optional fields. 
- * Required fields are identified in two ways: They appear in rows that have dark shading; under the Source column header, they are identified by the word “Required.”) These rows represent data that was found in the file that you uploaded. They are mandatory because the upload would fail if the mapping excluded one or more of these fields. In other words, you must map each of the required fields; you start this by choosing a value from the drop-down list. 
- * Optional fields are represented by rows with lighter shading. They appear below the required fields. These rows are commonly encountered system fields that Workplace Analytics suggests for use. For example, a field in this section might be called “Layer”; if “Layer” is not used in your organization, do not map this field. 
-Custom fields table
- * Custom fields are displayed on this page below the well-known fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate completeness value, and finally decide whether to hash it. The completeness value depends on the intended use of the custom field: If you intend to use this data in much of your analysis, you should pick a high value. You can pick a lower value if it applies, for example, to only a small subset of people in your organization. 
+ * **Required fields** are identified in two ways: They appear in rows that have dark shading; under the Source column header, they are identified by the word “Required.”) These rows represent data that was found in the file that you uploaded. They are mandatory because the upload would fail if the mapping excluded one or more of these fields. In other words, you must map each of the required fields; you start this by choosing a value from the drop-down list. 
+ * **Optional fields** are represented by rows with lighter shading. They appear below the required fields. These rows are commonly encountered system fields that Workplace Analytics suggests for use. For example, a field in this section might be called “Layer”; if “Layer” is not used in your organization, do not map this field. 
 
-## Columns in the System fields and Custom fields tables
+### Custom fields table
 
- * Source column. Each of these fields corresponds to a column in the file that you uploaded.    
- * Field name.  This is the name that will be used in the Workplace Analytics product. 
- * Data type.  This is the data type of the field. 
- * Completeness required.  A source file might still be valid even if some rows have invalid or missing values for some columns. When you set “Completeness required,” you state the percentage of rows in the uploaded file that must be valid for this column so that the file validates. For example, if the data file updates information about people, since every row must be linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%.
- * Hash in report. Use this field to obscure sensitive data. Selecting this option changes the way Workplace Analytics displays data in the report that it generates about the import operation. Instead of displaying the actual value that was taken from the source file, it would show a hashed version of the value – a format that cannot be read. 
+ * **Custom fields** are displayed on this page below the well-known fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate completeness value, and finally decide whether to hash it. The completeness value depends on the intended use of the custom field: If you intend to use this data in much of your analysis, you should pick a high value. You can pick a lower value if it applies, for example, to only a small subset of people in your organization. 
+
+### Columns in the System fields and Custom fields tables
+
+ * **Source column.** Each of these fields corresponds to a column in the file that you uploaded.    
+ * **Field name.**  This is the name that will be used in the Workplace Analytics product. 
+ * **Data type.**  This is the data type of the field. 
+ * **Completeness required.**  A source file might still be valid even if some rows have invalid or missing values for some columns. When you set “Completeness required,” you state the percentage of rows in the uploaded file that must be valid for this column so that the file validates. For example, if the data file updates information about people, since every row must be linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%.
+ * **Hash in report.** Use this field to obscure sensitive data. Selecting this option changes the way Workplace Analytics displays data in the report that it generates about the import operation. Instead of displaying the actual value that was taken from the source file, it would show a hashed version of the value – a format that cannot be read. 
 
 **To map fields**
 
-After you complete the steps in Select the files to upload, you are on the Data load page with the System fields table displayed.
+After you complete the steps in [File upload](Upload-organizational-data.md#file-upload), you are on the Data load page with the System fields table displayed.
 
-1. Map system fields: 
+1. <u>Map system fields:</u>
 
     <img src="../Images/upload-org-data-02.png" alt="System fields table">
  
@@ -97,27 +97,28 @@ After you complete the steps in Select the files to upload, you are on the Data 
 For more information, see Columns in the System fields and Custom fields tables. Repeat these mapping steps for the rest of the required fields and for the optional fields that you choose to map.</li>
 </ol>
 
-2. Map custom fields: 
+2. <u>Map custom fields:</u> 
 Custom fields are optional: you need not map them all. Select the columns in your source (.csv) file that your organization considers important for the analysis that you want to perform. For example, if StartDate is important and your data contains this field, complete the row for StartDate. 
 
    <img src="../Images/upload-org-data-03.png" alt="Custom fields table">
  
 <ol type="a">
-<li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data – in this example, select StartDate.</li>
+<li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data – in this example, select **StartDate**.</li>
 <li>Set values for the other columns in the table: Select the data type, set a completeness-required percentage (see Setting “Completeness required” for custom fields), and select whether you want to hash the value in the report.</li>
 <li>Repeat these steps for the rest of the custom fields in your data that are important to your organization.</li>
 </ol>
 
-3. Under Submit for validation, select I confirm that these customizations are correct and click Submit. This uploads the .csv file and starts the validation process. 
-Go to the next procedure, Validate data.
+3. Under Submit for validation, select **I confirm that these customizations are correct** and click **Submit**. This uploads the .csv file and starts the validation process. 
+Go to the next procedure, [Data validation](Upload-organizational-data.md#data-validation).
 
-## Data Validation
+## Data validation
 
-After you complete the steps in Map fields, the Data load page displays the Upload in progress screen:
+After you complete the steps in [Field mapping](Upload-organizational-data.md#field-mapping), the Data load page displays the _Upload in progress_ screen:
 
 <img src="../Images/upload-org-data-04.png" alt="Upload in progress">
  
-Important: Note the warning “You must stay logged in while the file is uploading or the upload will be cancelled.” This is because the upload takes place via this page in your web browser. Do not close the browser (or this browser page). If you do close it, the upload will fail. 
+> [!Important]  
+> Observe the warning “You must stay logged in while the file is uploading or the upload will be cancelled.” This is because the upload takes place via this page in your web browser. Do not close the browser (or this browser page). If you do close it, the upload will fail. 
 
 ## Validation succeeds
 
@@ -125,7 +126,7 @@ If validation succeeds, the Data load page indicates that validation succeeded, 
  
 <img src="../Images/upload-org-data-05.png" alt="Validation succeeded">
 
-Click [how to get there?] to display the Data upload history page under Organizational data. On this page, click Succeeded to see the workflows that successfully validated (and uploaded). 
+Click **_[how to get there?]_** to display the Data upload history page under Organizational data. On this page, click **Succeeded** to see the workflows that successfully validated (and uploaded). 
 
 On this page, you have the following options:
  * Click view details (the eye icon) to see a summary of the validation results.
@@ -148,7 +149,7 @@ After a failed validation, the Data load page shows the Validation failed notifi
  * <u>Fix:</u> If you decide to fix the errors, you have two options: 
    * <u>Fix the source data.</u> Fixing the data in your source .csv file is recommended, because it will increase the quality of the WPA analysis.
    * <u>Change the mappings.</u> This is the right choice if you originally had chosen the wrong data type. You could also lower the Completeness required threshold, but making that change, while getting you past this step, could negatively affect future WPA analysis. Click Edit mapping to set new mapping values, after which you can retry to validate your data file. 
- * <u>Upload file:</u> The difference between Upload file and Abandon is that your mappings are retained if you click Upload file. After you click Upload file, follow the steps in Select the file to upload. 
+ * <u>Upload file:</u> The difference between Upload file and Abandon is that your mappings are retained if you click Upload file. After you click Upload file, follow the steps in [File upload](Upload-organizational-data.md#file-upload). 
 
 ## Tips
 
@@ -160,7 +161,7 @@ The purpose of a custom field determines whether you should assign it a higher o
 
 Generally, you should set the Completeness required field to a high value. This is especially important if your analysis will focus on that field. 
 
-For example, you might include a ManagerId attribute. You might at first not think that you’re analyzing manager behavior and you might be tempted to omit this attribute. But building the organization hierarchy is used implicitly by many Workplace Analytics analyses – for differentiating different work groups, for determining high and low quality meetings based on how many levels attend, and more.
+For example, you might include a ManagerId attribute. You might at first not think that you’re analyzing manager behavior and you might be tempted to omit this attribute. But building the organization hierarchy is used implicitly by many Workplace Analytics analyses – for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
 
 #### Set a lower value
 
