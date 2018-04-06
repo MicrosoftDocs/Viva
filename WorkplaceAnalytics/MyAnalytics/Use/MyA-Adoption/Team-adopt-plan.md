@@ -91,7 +91,7 @@ The critical responsibilities for the program participants are:
 
 The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data (see [Data sharing](Team-adopt-implement.md#data-sharing)), for the participants who choose to opt in to sharing their MyAnalytics data.
 
-Program participants shuold also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them (see [Manage resistance](Team-adopt-implement.md#manage-resistance)) so that they don’t jeopardize program success down the road.
+Program participants should also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them (see [Manage resistance](Team-adopt-implement.md#manage-resistance)) so that they don’t jeopardize program success down the road.
 
 ## Structure the program
 
@@ -199,6 +199,7 @@ This email can include:
    * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)<!-- BROKEN! CHANGE THIS! -->
    * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
    * [Privacy Information](../../Overview/Privacy-Guide.md)
+   * [Individual adoption resources](Indiv-adopt-get-started.md)
    * Descriptions of [MyAnalytics elements](../Dashboard.md) 
 
 ## Gain support from other teams
@@ -250,6 +251,7 @@ A survey can be used to help you set your team goals. To learn more about goal s
 To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Team Behavior Change Program, use the following checklist:
 
 	Executive sponsor briefed and on board
+<!-- CHANGE THIS! PUT IMAGE FILES HERE! INSTEAD OF BOXES. THEN TEXT ON EDGE NOT JUST CHROME.  -->
 
 	Change agents briefed and ready to fulfill responsibilities
 
