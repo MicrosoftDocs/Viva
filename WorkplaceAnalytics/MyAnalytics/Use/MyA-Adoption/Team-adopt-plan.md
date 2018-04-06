@@ -23,7 +23,7 @@ The ideal program team is comprised of the following members:
  * [Program participants](Team-adopt-plan.md#program-participants)
 
 > [!Note] 
-> If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build heathier collaboration habits. 
+> If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build healthier collaboration habits. 
 
 ### Executive sponsor
 
