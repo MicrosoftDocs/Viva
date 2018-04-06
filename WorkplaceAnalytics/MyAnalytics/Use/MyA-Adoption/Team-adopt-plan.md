@@ -250,23 +250,18 @@ A survey can be used to help you set your team goals. To learn more about goal s
 
 To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Team Behavior Change Program, use the following checklist:
 
-<img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Executive sponsor briefed and on board
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Executive sponsor briefed and on board
 
-	Executive sponsor briefed and on board
-<!-- CHANGE THIS! PUT IMAGE FILES HERE! INSTEAD OF BOXES. THEN TEXT ON EDGE NOT JUST CHROME.  -->
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Change agents briefed and ready to fulfill responsibilities
 
-<img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Change agents briefed and ready to fulfill responsibilities
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Program participants scoped
 
-	Change agents briefed and ready to fulfill responsibilities
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Communications plan drafted
 
-	Program participants scoped
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Program structured
 
-	Communications plan drafted
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Program-launch email finalized
 
-	Program structured
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Collaboration channel established
 
-	Program-launch email finalized
-
-	Collaboration channel established
-
-	Pre-program survey created
+  <img src="../../../Images/Team-adopt-plan-checklist-box.PNG"> Pre-program survey created
