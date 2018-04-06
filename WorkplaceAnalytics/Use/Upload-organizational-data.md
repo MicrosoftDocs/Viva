@@ -140,16 +140,22 @@ On this page, you have the following options:
 
 The following illustration shows an example of a failed validation. 
 
-<img src="../Images/upload-org-data-06.png" alt="Validation succeeded">
+<img src="../Images/upload-org-data-06.png" alt="Validation failed">
  
-After a failed validation, the Data load page shows the Validation failed notification. It also shows some details about the validation attempt and it presents you with several options: 
+After a failed validation, the Data load page shows the Validation failed notification. It also shows details about the validation attempt and it presents you with options.
 
- * <u>Download issues:</u> Click this to see a log file that describes the problems in your data that can cause validation errors. Examine this file to decide what to do next: fix the source data or change your mapping settings. If you have a small number of errors, you’ll probably want to fix them. If you have many errors, you might want to abandon. (See the following choices.) 
- * <u>Abandon:</u> To restart the upload-map-validate process with new data rather than to retry the process with the current data, click Abandon (in the upper right corner of the page). Clicking Abandon does not retain any field mappings that you have made. 
- * <u>Fix:</u> If you decide to fix the errors, you have two options: 
-   * <u>Fix the source data.</u> Fixing the data in your source .csv file is recommended, because it will increase the quality of the WPA analysis.
-   * <u>Change the mappings.</u> This is the right choice if you originally had chosen the wrong data type. You could also lower the Completeness required threshold, but making that change, while getting you past this step, could negatively affect future WPA analysis. Click Edit mapping to set new mapping values, after which you can retry to validate your data file. 
- * <u>Upload file:</u> The difference between Upload file and Abandon is that your mappings are retained if you click Upload file. After you click Upload file, follow the steps in [File upload](Upload-organizational-data.md#file-upload). 
+Before you attempt to address the problem, consider clicking **Download issues**. This displays a log file that describes the problems in your data that can cause validation errors. Examine this file to decide what to do next: fix the source data, change your mapping settings, or abandon the current attempt. 
+
+> [!Tip] 
+> If you have a small number of errors, you’ll probably want to fix them. If you have many errors, you might want to choose **Abandon**. 
+
+### Options upon failed validation
+
+* <u>Abandon:</u> To restart the upload-map-validate process with new data rather than retrying the process with the current data, click **Abandon** (in the upper right corner of the page). Clicking Abandon does not retain any field mappings that you have made. 
+* <u>Fix:</u> If you decide to fix the errors, you have two options: 
+  * <u>Fix the source data.</u> Fixing the data in your source .csv file is recommended, because it will increase the quality of the WPA analysis.
+  * <u>Change the mappings.</u> This is the right option if you originally had chosen an incorrect data type. You could also lower the Completeness required threshold, but making that change, while getting you past this step, could negatively affect future WPA analysis. Click **Edit mapping** to set new mapping values, after which you can retry to validate your data file. 
+* <u>Upload file:</u> The difference between Upload file and Abandon is that your mappings are retained if you click Upload file. After you click **Upload file**, follow the steps in [File upload](Upload-organizational-data.md#file-upload). 
 
 ## Tips
 
