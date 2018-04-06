@@ -99,8 +99,8 @@ The program manager needs to define the following:
 
  * [Program duration and dates](Team-adopt-plan.md#program-duration-and-dates)
  * [Program components](Team-adopt-plan.md#program-components)
- * [A supplementary outcome metric (optional)](Team-adopt-plan.md#a-supplementary-outcome-metric-(optional))
- * [A control group (optional)](Team-adopt-plan.md#a-control-group-(optional))
+ * [A supplementary outcome metric (optional)](Team-adopt-plan.md#a-supplementary-outcome-metric-optional)
+ * [A control group (optional)](Team-adopt-plan.md#a-control-group-optional)
 
 ### Program duration and dates
 
