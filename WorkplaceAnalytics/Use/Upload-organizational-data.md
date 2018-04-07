@@ -85,12 +85,6 @@ System fields represent attributes that are known by Workplace Analytics and tha
  * **Threshold.**  A source file might still be valid even if some rows have invalid or missing values for some columns. When you set Threshold, you state the percentage of rows in the uploaded file that must have a valid, non-null value for this attribute. For example, if the data file updates information about people, since every row must be linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%. The threshold for required attributes is always 100%. If an attribute does not have a 100% threshold for some reason, it cannot be required. For more information, see [Set Threshold for custom fields](Upload-organizational-data.md#set-threshold-for-custom-fields).
  * **Hash in report.** Use this field to obscure sensitive data. Selecting this option changes the way Workplace Analytics displays data in the report that it generates about the import operation. Instead of displaying the actual value that was taken from the source file, it would show a hashed version of the value – a format that cannot be read. 
 
-#### Invalid values
-When any row has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
-
-#### Adding missing data
-Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions. 
-
 **To map fields**
 
 After you complete the steps in [File upload](Upload-organizational-data.md#file-upload), you are on the Data load page with the System fields table displayed.
@@ -166,6 +160,12 @@ Before you attempt to address the problem, consider clicking **Download issues**
   * <u>Fix the source data.</u> Fixing the data in your source .csv file is recommended, because it will increase the quality of the WPA analysis.
   * <u>Change the mappings.</u> This is the right option if you originally had chosen an incorrect data type. You could also lower the Threshold, but making that change, while getting you past this step, could negatively affect future WPA analysis. Click **Edit mapping** to set new mapping values, after which you can retry to validate your data file. 
 * <u>Upload file:</u> The difference between Upload file and Abandon is that your mappings are retained if you click Upload file. After you click **Upload file**, follow the steps in [File upload](Upload-organizational-data.md#file-upload). 
+
+#### Invalid values
+When any row has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
+
+#### Adding missing data
+Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions. 
 
 ## Tips
 
