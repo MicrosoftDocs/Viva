@@ -65,7 +65,7 @@ The Data Load page displays two tables: System fields and Custom fields. You use
 
 ### System fields table
 
-A system field can be either _required_ or _optional_: 
+System fields represent attributes that are known by Workplace Analytics and that are used in specific calculations beyond grouping and filtering. A system field can be either _required_ or _optional_: 
 
  * **Required fields** are identified in two ways: They appear in rows that have dark shading; under the Source column header, they are identified by the word “Required.”) These rows represent data that was found in the file that you uploaded. They are mandatory because the upload would fail if the mapping excluded one or more of these fields. In other words, you must map each of the required fields; you start this by choosing a value from the drop-down list.  
 
@@ -75,7 +75,7 @@ A system field can be either _required_ or _optional_:
 
 ### Custom fields table
 
- * **Custom fields** are displayed on this page below the optional fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate threshold, and finally decide whether to hash it. The threshold depends on the intended use of the custom field: If you intend to use this data in much of your analysis, you should pick a high value. You can pick a lower value if it applies, for example, to only a small subset of people in your organization. 
+ * **Custom fields** are displayed on this page below the optional fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate [threshold](Upload-organizational-data.md#set-threshold-for-custom-fields), and finally decide whether to hash it. 
 
 ### Columns in the System fields and Custom fields tables
 
@@ -170,7 +170,7 @@ Before you attempt to address the problem, consider clicking **Download issues**
 
 ### Set Threshold for custom fields
 
-The purpose of a custom field determines whether you should assign it a higher or a lower value for Threshold:
+The Threshold depends on the intended use of the custom field: If you intend to use this data in much of your analysis, you should pick a high value. You can pick a lower value if it applies, for example, to only a small subset of people in your organization. 
 
 #### Set a high value
 
