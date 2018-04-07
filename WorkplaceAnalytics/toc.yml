@@ -125,22 +125,6 @@
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
         items:
-        - name: Individual adoption
-          items: 
-          - name: Get started
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md
-          - name: Diagnose your problem
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md
-    #      - name: Define your why
-    #        href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md
-          - name: Set your goal
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
-          - name: Build your habit
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-develop-habits.md
-          - name: Sustain your change
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
-          - name: Resources
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
         - name: Habit resources
           items: 
           - name: Learning modules
@@ -149,6 +133,20 @@
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
           - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
+        - name: Individual adoption
+          items: 
+          - name: Get started
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md
+          - name: Diagnose your problem
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md
+          - name: Set your goal
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
+          - name: Build your habit
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-develop-habits.md
+          - name: Sustain your change
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
+          - name: Resources
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
         - name: Team adoption
           items: 
           - name: Get started
@@ -162,4 +160,4 @@
           - name: Reinforce
             href: MyAnalytics/Use/MyA-Adoption/Team-adopt-reinforce.md
           - name: Resources
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md                                 
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md  
