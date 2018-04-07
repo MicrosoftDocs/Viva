@@ -75,14 +75,14 @@ System fields represent attributes that are known by Workplace Analytics and tha
 
 ### Custom fields table
 
- * **Custom fields** are displayed on this page below the optional fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate [threshold](Upload-organizational-data.md#set-threshold-for-custom-fields), and finally decide whether to hash it. 
+ * **Custom fields** are displayed on this page below the optional fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate [threshold](Upload-organizational-data.md#set-threshold-for-custom-fields), and finally decide whether to hash (obscure) the value. 
 
 ### Columns in the System fields and Custom fields tables
 
  * **Source column.** Each of these fields corresponds to a column in the file that you uploaded.    
  * **Field name.**  This is the name that will be used in the Workplace Analytics product. 
  * **Data type.**  This is the data type of the field. 
- * **Threshold.**  A source file might still be valid even if some rows have invalid or missing values for some columns. When you set Threshold, you state the percentage of rows in the uploaded file that must have a valid, non-null value for this attribute. For example, if the data file updates information about people, since every row must be linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%. The threshold for required attributes is always 100%. If an attribute does not have a 100% threshold for some reason, it cannot be required.
+ * **Threshold.**  A source file might still be valid even if some rows have invalid or missing values for some columns. When you set Threshold, you state the percentage of rows in the uploaded file that must have a valid, non-null value for this attribute. For example, if the data file updates information about people, since every row must be linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%. The threshold for required attributes is always 100%. If an attribute does not have a 100% threshold for some reason, it cannot be required. For more information, see [Set Threshold for custom fields](Upload-organizational-data.md#set-threshold-for-custom-fields).
  * **Hash in report.** Use this field to obscure sensitive data. Selecting this option changes the way Workplace Analytics displays data in the report that it generates about the import operation. Instead of displaying the actual value that was taken from the source file, it would show a hashed version of the value – a format that cannot be read. 
 
 #### Invalid values
@@ -118,6 +118,7 @@ Custom fields are optional: you need not map them all. Select the columns in you
   </ol>
 
 3. Under Submit for validation, select **I confirm that these customizations are correct** and click **Submit**. This uploads the .csv file and starts the validation process. 
+
 Go to the next procedure, [Data validation](Upload-organizational-data.md#data-validation).
 
 ## Data validation
