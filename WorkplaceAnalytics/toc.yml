@@ -123,6 +123,7 @@
       - name: MyAnalytics Tips
         href: MyAnalytics/Overview/Tips.md
       - name: Adopt MyAnalytics
+        href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
         items:
         - name: Individual adoption
           items: 
