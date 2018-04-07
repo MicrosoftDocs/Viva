@@ -161,13 +161,13 @@ Before you attempt to address the problem, consider clicking **Download issues**
   * <u>Change the mappings.</u> This is the right option if you originally had chosen an incorrect data type. You could also lower the Threshold, but making that change, while getting you past this step, could negatively affect future WPA analysis. Click **Edit mapping** to set new mapping values, after which you can retry to validate your data file. 
 * <u>Upload file:</u> The difference between Upload file and Abandon is that your mappings are retained if you click Upload file. After you click **Upload file**, follow the steps in [File upload](Upload-organizational-data.md#file-upload). 
 
-#### Invalid values
+## Tips
+
+### Invalid values
 When any row has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
 
-#### Adding missing data
+### Adding missing data
 Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions. 
-
-## Tips
 
 ### Set Threshold for custom fields
 
