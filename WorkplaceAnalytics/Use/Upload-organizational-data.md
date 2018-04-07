@@ -67,20 +67,29 @@ The Data Load page displays two tables: System fields and Custom fields. You use
 
 A system field can be either _required_ or _optional_: 
 
- * **Required fields** are identified in two ways: They appear in rows that have dark shading; under the Source column header, they are identified by the word “Required.”) These rows represent data that was found in the file that you uploaded. They are mandatory because the upload would fail if the mapping excluded one or more of these fields. In other words, you must map each of the required fields; you start this by choosing a value from the drop-down list. 
+ * **Required fields** are identified in two ways: They appear in rows that have dark shading; under the Source column header, they are identified by the word “Required.”) These rows represent data that was found in the file that you uploaded. They are mandatory because the upload would fail if the mapping excluded one or more of these fields. In other words, you must map each of the required fields; you start this by choosing a value from the drop-down list.  
+
+  Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded .csv file, other columns must be present in the .csv file that are mapped to these attributes.
+
  * **Optional fields** are represented by rows with lighter shading. They appear below the required fields. These rows are commonly encountered system fields that Workplace Analytics suggests for use. For example, a field in this section might be called “Layer”; if “Layer” is not used in your organization, do not map this field. 
 
 ### Custom fields table
 
- * **Custom fields** are displayed on this page below the optional fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate completeness value, and finally decide whether to hash it. The completeness value depends on the intended use of the custom field: If you intend to use this data in much of your analysis, you should pick a high value. You can pick a lower value if it applies, for example, to only a small subset of people in your organization. 
+ * **Custom fields** are displayed on this page below the optional fields. Custom fields are not system fields. For the custom fields, you choose a source column from your source.csv, you give the column a name, choose the data type for it, set the appropriate threshold, and finally decide whether to hash it. The threshold depends on the intended use of the custom field: If you intend to use this data in much of your analysis, you should pick a high value. You can pick a lower value if it applies, for example, to only a small subset of people in your organization. 
 
 ### Columns in the System fields and Custom fields tables
 
  * **Source column.** Each of these fields corresponds to a column in the file that you uploaded.    
  * **Field name.**  This is the name that will be used in the Workplace Analytics product. 
  * **Data type.**  This is the data type of the field. 
- * **Completeness required.**  A source file might still be valid even if some rows have invalid or missing values for some columns. When you set “Completeness required,” you state the percentage of rows in the uploaded file that must be valid for this column so that the file validates. For example, if the data file updates information about people, since every row must be linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%.
+ * **Threshold.**  A source file might still be valid even if some rows have invalid or missing values for some columns. When you set Threshold, you state the percentage of rows in the uploaded file that must have a valid, non-null value for this attribute. For example, if the data file updates information about people, since every row must be linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%. The threshold for required attributes is always 100%. If an attribute does not have a 100% threshold for some reason, it cannot be required.
  * **Hash in report.** Use this field to obscure sensitive data. Selecting this option changes the way Workplace Analytics displays data in the report that it generates about the import operation. Instead of displaying the actual value that was taken from the source file, it would show a hashed version of the value – a format that cannot be read. 
+
+#### Invalid values
+When any row has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
+
+#### Adding missing data
+Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions. 
 
 **To map fields**
 
@@ -104,7 +113,7 @@ Custom fields are optional: you need not map them all. Select the columns in you
  
   <ol type="a">
   <li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data – in this example, select **StartDate**.</li>
-  <li>Set values for the other columns in the table: Select the data type, set a completeness-required percentage (see Setting “Completeness required” for custom fields), and select whether you want to hash the value in the report.</li>
+  <li>Set values for the other columns in the table: Select the data type, set a threshold percentage (see [Set Threshold for custom fields](Upload-organizational-data.md#set-threshold-for-custom-fields)), and select whether you want to hash the value in the report.</li>
   <li>Repeat these steps for the rest of the custom fields in your data that are important to your organization.</li>
   </ol>
 
@@ -154,18 +163,18 @@ Before you attempt to address the problem, consider clicking **Download issues**
 * <u>Abandon:</u> To restart the upload-map-validate process with new data rather than retrying the process with the current data, click **Abandon** (in the upper right corner of the page). Clicking Abandon does not retain any field mappings that you have made. 
 * <u>Fix:</u> If you decide to fix the errors, you have two options: 
   * <u>Fix the source data.</u> Fixing the data in your source .csv file is recommended, because it will increase the quality of the WPA analysis.
-  * <u>Change the mappings.</u> This is the right option if you originally had chosen an incorrect data type. You could also lower the Completeness required threshold, but making that change, while getting you past this step, could negatively affect future WPA analysis. Click **Edit mapping** to set new mapping values, after which you can retry to validate your data file. 
+  * <u>Change the mappings.</u> This is the right option if you originally had chosen an incorrect data type. You could also lower the Threshold, but making that change, while getting you past this step, could negatively affect future WPA analysis. Click **Edit mapping** to set new mapping values, after which you can retry to validate your data file. 
 * <u>Upload file:</u> The difference between Upload file and Abandon is that your mappings are retained if you click Upload file. After you click **Upload file**, follow the steps in [File upload](Upload-organizational-data.md#file-upload). 
 
 ## Tips
 
-### Setting “Completeness required” for custom fields
+### Set Threshold for custom fields
 
-The purpose of a custom field determines whether you should assign it a higher or a lower value for Completeness required:
+The purpose of a custom field determines whether you should assign it a higher or a lower value for Threshold:
 
 #### Set a high value
 
-Generally, you should set the Completeness required field to a high value. This is especially important if your analysis will focus on that field. 
+Generally, you should set the Threshold field to a high value. This is especially important if your analysis will focus on that field. 
 
 For example, you might include a ManagerId attribute. You might at first not think that you’re analyzing manager behavior and you might be tempted to omit this attribute. But building the organization hierarchy is used implicitly by many Workplace Analytics analyses – for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
 
