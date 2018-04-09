@@ -18,14 +18,14 @@ MyAnalytics provides insight into two of the key factors in personal productivit
   <li><a href="../myanalytics/overview/Privacy-Guide.md">Privacy guide</a>: Read about the ways MyAnalytics gathers, uses, and protects user data, and how administrators can configure policy choices.</li> 
   <li><b>MyAnalytics resources:</b> As a user, learn about the ways that MyAnalytics presents you with insights and how you can use these insights to make good decisions.
       <ul>
-         <li><a href="..myanalytics/use/dashboard.md">MyAnalytics personal dashboard</a>: In the dashboard, you see statistics on how  you've spent your time over the past week.</li>
+         <li><a href="../myanalytics/use/dashboard.md">MyAnalytics personal dashboard</a>: In the dashboard, you see statistics on how  you've spent your time over the past week.</li>
          <li><a href="../myanalytics/use/add-in.md">Outlook add-in</a>: The Outlook add-in presents you with cards that  report on aspects of your recent work experience and let you respond in various ways.</li>
          <li><a href="../myanalytics/use/email-digests.md">Email digests</a>: You receive a weekly digest in email that gives you highlights about your previous week.</li> 
       </ul>
   </li>
   <li><a href="../myanalytics/use/MyA-Adoption/Adopt-myanalytics.md">MyAnalytics adoption materials</a>: The MyAnalytics adoption materials help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable.
         <ul>
-         <li><a href="..myanalytics/use/MyA-Adoption/Indiv-adopt-get-started.md">Individual adoption</a>: Individual can use MyAnalytics to build and sustain healthier work habits.</li>
+         <li><a href="../myanalytics/use/MyA-Adoption/Indiv-adopt-get-started.md">Individual adoption</a>: Individual can use MyAnalytics to build and sustain healthier work habits.</li>
          <li><a href="../myanalytics/use/MyA-Adoption/Team-adopt-intro.md">Team adoption</a>: Team members learn how to set and track goals and build new habits to change the way the team collaborates.</li>
          <li><a href="../myanalytics/use/MyA-Adoption/Adopt-Learning-Modules.md">Habit resources</a>: The learning modules and habit playbooks in this section help you build positive new habits and show you how to use MyAnalytics more effectively. </li> 
       </ul>  
