@@ -2,13 +2,13 @@
 # Metadata Sample
 # required metadata
 
-title:** Data-protection considerations when using Workplace Analytics (short) 
-description:** Data-protection considerations (GDPR) summary -- shortened version
-author:** paul9955
-ms.author:** v-pascha
-ms.date:** 04/04/2018
-ms.topic:** get-started-article
-ms.prod:** wpa
+title: Data-protection considerations when using Workplace Analytics (short) 
+description: Data-protection considerations (GDPR) summary -- shortened version
+author: paul9955
+ms.author: v-pascha
+ms.date: 04/09/2018
+ms.topic: get-started-article
+ms.prod: wpa
 ---
 
 # Data-protection considerations when using Workplace Analytics 
@@ -44,7 +44,7 @@ To minimize privacy risk, use the minimum data necessary to conduct your researc
 
 You have full control over what data to include in analysis using Workplace Analytics. The primary data source is Office 365, but you supplement it with HR and other data from your organization so that you can group information by job title, location, or other attributes.
  * **Data provided by Microsoft Office 365:** Workplace Analytics uses header information from Office 365 emails and calendar items. This information includes sender and recipient, date and subject lines for emails, and organizer, attendees, duration, and locations for meetings. For more information, see [Data provided by Microsoft Office 365](Data-protection-considerations.md#data-provided-by-microsoft-office-365).
- * **Privacy capabilities in your control:** You decide which users’ mailboxes to include in your Workplace Analytics study. You can apply multiple controls over this data to limit it further. For more information, see [Privacy capabilities in your control](Data-protection-considerations.md#privacy-capabilities-in-your-control), [Workplace Analytics privacy and data access](Privacy-And-Data-Access.md), and [Assign roles to Workplace Analytics admins and analysts](../Setup/set-up-workplace-analytics#step-three-assign-roles-to-workplace-analytics-admins-and-analysts).
+ * **Privacy capabilities in your control:** You decide which users’ mailboxes to include in your Workplace Analytics study. You can apply multiple controls over this data to limit it further. For more information, see [Privacy capabilities in your control](Data-protection-considerations.md#privacy-capabilities-in-your-control), [Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md), and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics#step-three-assign-roles-to-workplace-analytics-admins-and-analysts).
  * **Data provided by your organization:** You control what other information you want to be included in Workplace Analytics analyses. You must balance the benefits of analyzing along organizational lines with the risks of including the data required to make those analyses. For more information, see [Data provided by your organization](Data-protection-considerations.md#data-provided-by-your-organization).
  * **Who can see the data:** You control who gets to see the data and the results of the analysis. Like other products that work with sensitive data, such as HR systems, Workplace Analytics is not meant for the general workforce. Rather, its users are expected to have training regarding how to handle sensitive information. For more information, see [Who can see the data](Data-protection-considerations.md#who-can-see-the-data).
 
@@ -60,7 +60,7 @@ For more information about the following requests and responses to them, see [Wo
 
 ## Additional Resources
 
-Workplace Analytics [privacy documentation](../overview/privacy-and-data-access)
+Workplace Analytics [privacy documentation](../Overview/Privacy-And-Data-Access.md)
 
 Article 29 Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=4563)
 
