@@ -124,15 +124,7 @@
         href: MyAnalytics/Overview/Tips.md
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
-        items:
-        - name: Habit resources
-          items: 
-          - name: Learning modules
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
-          - name: Habit-building method
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
-          - name: Habit playbooks
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
+        items: 
         - name: Individual adoption
           items: 
           - name: Get started
@@ -160,4 +152,12 @@
           - name: Reinforce
             href: MyAnalytics/Use/MyA-Adoption/Team-adopt-reinforce.md
           - name: Resources
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md  
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
+        - name: Habit resources
+          items: 
+          - name: Learning modules
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
+          - name: Habit-building method
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
+          - name: Habit playbooks
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md            
