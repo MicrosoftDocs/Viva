@@ -51,7 +51,7 @@ Workplace Analytics uses header information from Office 365 emails and calendar 
 
 ## Privacy capabilities in your control
 
-First, you get to decide which user’s mailboxes to include in your Workplace Analytics study. Then, there are multiple controls you can use to further limit the data. 
+First, you get to decide which users’ mailboxes to include in your Workplace Analytics study. Then, there are multiple controls you can use to further limit the data. 
 
 Workplace Analytics support for handling data subject requests
 Under the GDPR, data subjects may have rights to request exclusion from processing, access, correction, or deletion of their personal data. It is your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. 
