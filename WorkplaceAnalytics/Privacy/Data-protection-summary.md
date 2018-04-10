@@ -11,11 +11,11 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Data-protection considerations when using Workplace Analytics 
+# Data-protection considerations: summary
 
 ## Workplace Analytics and data protection in your organization
 
-Microsoft Workplace Analytics produces powerful insights about how your organization functions. It does this by analyzing email and meeting data from Office 365 and organizational data that you provide. Individuals have every right to be concerned about how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully consider and plan how to protect it. 
+Microsoft Workplace Analytics produces analyzes email and meeting data from Office 365 and organizational data that you provide. This data pertains to individuals, who have a right to be concerned about how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it. 
 
 > [!Note] 
 > This article is a summary. This subject is handled more thoroughly in [Data-protection considerations when using Workplace Analytics ](Data-protection-considerations.md).
