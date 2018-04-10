@@ -113,6 +113,7 @@
       items:  
       - name: MyAnalytics elements
         expanded: false
+        href: MyAnalytics/Use/MyA-elements.md
         items:
         - name: Dashboard
           href: MyAnalytics/Use/dashboard.md
