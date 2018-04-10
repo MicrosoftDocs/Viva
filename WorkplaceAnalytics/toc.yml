@@ -86,13 +86,13 @@
   items:
     - name: Overview
       items:
-        - name: Environment Requirements
+        - name: Environment requirements
           href: MyAnalytics/Overview/Environment-Requirements.md
    #     - name: Architecture
    #       href: ./conceptual/index.md
-        - name: Privacy Guide
+        - name: Privacy guide
           href: MyAnalytics/Overview/Privacy-Guide.md
-   #     - name: Getting Support
+   #     - name: Getting support
    #       href: ./conceptual/index.md
         - name: Better work habits 
           href: MyAnalytics/Overview/Better-work-habits.md
