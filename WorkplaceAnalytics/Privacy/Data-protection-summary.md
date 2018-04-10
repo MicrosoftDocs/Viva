@@ -23,9 +23,10 @@ Microsoft Workplace Analytics produces powerful insights about how your organiza
 ## Roles and responsibilities
 
 Regardless of the location of your organization, the concepts of data controller, data processor, and data subject provide a useful framework for thinking about data protection when using Workplace Analytics.
- * **Your organization’s role:** Data controller. The data controller determines the purposes and means of processing a data subject’s personal data. When using Workplace Analytics, your organization is the data controller because your organization determines if, how, and why Workplace Analytics will process any personal data. For more information, see [Data controller](Data-protection-considerations.md#your-organizations-role-data-controller). 
- * **Microsoft’s role:** Data processor. The data processor is a party that processes personal data on behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor. For more information, see [Data processor](Data-protection-considerations.md#microsofts-role-data-processor).
- * **Data subject and personal data** A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
+
+ * **Your organization’s role: Data controller.** The data controller determines the purposes and means of processing a data subject’s personal data. When using Workplace Analytics, your organization is the data controller because your organization determines if, how, and why Workplace Analytics will process any personal data. For more information, see [Data controller](Data-protection-considerations.md#your-organizations-role-data-controller). 
+ * **Microsoft’s role: Data processor.** The data processor is a party that processes personal data on behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor. For more information, see [Data processor](Data-protection-considerations.md#microsofts-role-data-processor).
+ * **Data subject and personal data.** A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
 ## Data-privacy recommendations
 
