@@ -34,7 +34,7 @@ MyAnalytics is completely personal and private. Only you (not your manager and n
 MyAnalytics is included with Office 365 Enterprise E5 and is also available as an add-on with select plans. [Learn more](https://products.office.com/en-us/business/myanalytics-personal-analytics?ms.officeurl=MyAnalytics).
 -->
 
-# Additional resources 
+## Additional resources 
  
 [Get to know MyAnalytics from Office 365](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
 
