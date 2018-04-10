@@ -94,6 +94,8 @@
           href: MyAnalytics/Overview/Privacy-Guide.md
    #     - name: Getting Support
    #       href: ./conceptual/index.md
+        - name: Better work habits
+          href: MyAnalytics/Overview/Better-work-habits.md
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md
       items:
