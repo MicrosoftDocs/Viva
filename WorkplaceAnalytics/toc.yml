@@ -16,7 +16,7 @@
           href: ~/Use/Privacy-considerations.md 
         - name: Privacy and data access
           href: ~/Overview/Privacy-and-Data-Access.md
-        - name: Data-protection considerations                   
+        - name: Data-protection considerations (summary)                  
           href: ~/Privacy/Data-protection-summary.md
     - name: Setup
       items:

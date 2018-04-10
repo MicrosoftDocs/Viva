@@ -34,13 +34,11 @@ Consider implementing the following data-privacy recommendations before you begi
  * **Develop a clear analysis plan:** You must understand clearly what you want to analyze and why. After you determine what specific questions about your organization you want to answer, consider how Workplace Analytics might help you find those answers. For more information, see [Develop a clear analysis plan](Data-protection-considerations.md#develop-a-clear-analysis-plan).
  * **Consider a DPIA:** If your proposed use of Workplace Analytics involves processing personal data in a way that could lead to high risks to the rights of employees and other users in your organization, completing a data protection impact assessment (DPIA) might be warranted. If you are unsure whether a DPIA is required, consult your organization’s privacy subject matter experts, such as legal or HR personnel. 
 
-For more information, see [Determine whether to complete a data protection impact assessment (DPIA)](Data-protection-considerations.md#determine-whether-to-complete-a-data-protection-impact-assessment-dpia) and [DPIA: What it is, when is it needed, and why](https://eugdprcompliant.com/dpia-guidelines/). 
+   For more information, see [Determine whether to complete a data protection impact assessment (DPIA)](Data-protection-considerations.md#determine-whether-to-complete-a-data-protection-impact-assessment-dpia) and [DPIA: What it is, when is it needed, and why](https://eugdprcompliant.com/dpia-guidelines/). 
 
-## Use aggregated or anonymized data whenever possible
+* **Use aggregated or anonymized data whenever possible:** To minimize privacy risk, use the minimum data necessary to conduct your research. Note the inherent trade-off: You can, for example, adopt a strict policy that never uses personal data, but this restricts the analyses that Workplace Analytics can perform. Also see [Use aggregated or anonymized data whenever possible](Data-protection-considerations.md#use-aggregated-or-anonymized-data-whenever-possible).
 
-To minimize privacy risk, use the minimum data necessary to conduct your research. Note the inherent trade-off: You can, for example, adopt a strict policy that never uses personal data, but this restricts the analyses that Workplace Analytics can perform. Also see [Use aggregated or anonymized data whenever possible](Data-protection-considerations.md#use-aggregated-or-anonymized-data-whenever-possible).
-
-### Decide what data to use 
+## Decide what data to use 
 
 You have full control over what data to include in analysis using Workplace Analytics. The primary data source is Office 365, but you supplement it with HR and other data from your organization so that you can group information by job title, location, or other attributes.
  * **Data provided by Microsoft Office 365:** Workplace Analytics uses header information from Office 365 emails and calendar items. This information includes sender and recipient, date and subject lines for emails, and organizer, attendees, duration, and locations for meetings. For more information, see [Data provided by Microsoft Office 365](Data-protection-considerations.md#data-provided-by-microsoft-office-365).
@@ -48,7 +46,7 @@ You have full control over what data to include in analysis using Workplace Anal
  * **Data provided by your organization:** You control what other information you want to be included in Workplace Analytics analyses. You must balance the benefits of analyzing along organizational lines with the risks of including the data required to make those analyses. For more information, see [Data provided by your organization](Data-protection-considerations.md#data-provided-by-your-organization).
  * **Who can see the data:** You control who gets to see the data and the results of the analysis. Like other products that work with sensitive data, such as HR systems, Workplace Analytics is not meant for the general workforce. Rather, its users are expected to have training regarding how to handle sensitive information. For more information, see [Who can see the data](Data-protection-considerations.md#who-can-see-the-data).
 
-### Handling data-subject requests
+## Handle data-subject requests
 
 Under the GDPR, data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it. 
 For more information about the following requests and responses to them, see [Workplace Analytics support for handling data subject requests](Data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests). 
