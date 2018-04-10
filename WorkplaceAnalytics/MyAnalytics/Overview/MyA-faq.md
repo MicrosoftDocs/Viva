@@ -13,6 +13,8 @@ ms.prod: mya
 
 # MyAnalytics: Frequently asked questions
 
+The following questions and answers are grouped by role, for [MyAnalytics users](MyA-faq.md#for-myanalytics-users) and for [IT administrators](MyA-faq.md#for-it-administrators).  
+
 <!-- [Pending review from Parama]
 
 ## Privacy  
@@ -49,6 +51,8 @@ Only you can see statistics and insights generated from your data. Your manager 
 For more details, see Privacy [link to privacy docs]  
 
 -->
+
+# For MyAnalytics users
 
 ## Metrics 
 
@@ -101,7 +105,7 @@ If you plan to go on vacation, create a calendar event that includes the days of
 
 A team can implement a multi-week program to change its collaboration habits for the better. During such a program, its statistics, and thus its progress towards its improvement goals, are tracked. For information about starting such a program, see [Get started](../use/mya-adoption/team-adopt-intro.md). For information about tracking your team's progress, see [Measure](../use/mya-adoption/team-adopt-measure.md).
 
-## Add-in / Nudges 
+## Outlook add-in 
 
 #### The Outlook add-in displays To-do cards (commitments). Are they available in all languages, or just in English? 
 
@@ -115,7 +119,7 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients. 
  
-## IT Administrator 
+# For IT administrators
 
 #### Where is user data stored? 
 
