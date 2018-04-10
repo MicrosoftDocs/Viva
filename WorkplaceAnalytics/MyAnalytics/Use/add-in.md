@@ -15,6 +15,9 @@ ms.prod: mya
 
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. The MyAnalytics Outlook add-in appears as a pane in Outlook. It presents you with information about your recent collaboration and communcation patterns and it suggests ways that you can work more effectively.
 
+> [!Note] 
+> To learn about the benefits of using MyAnalytics, see [Better work habits](../Overview/Better-work-habits.md).
+
 [!INCLUDE [Open the Outlook add-in](MyA-Outlook-add-in/MyA-Open-Add-in.md)]
 
 # Informative cards in MyAnalytics

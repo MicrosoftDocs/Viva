@@ -15,7 +15,8 @@ ms.prod: mya
 
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is the MyAnalytics _personal dashboard_.
 
-To learn about the benefits of using MyAnalytics, see [Better work habits](../Overview/Better-work-habits.md).
+> [!Note] 
+> To learn about the benefits of using MyAnalytics, see [Better work habits](../Overview/Better-work-habits.md).
 
 Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.  
 
