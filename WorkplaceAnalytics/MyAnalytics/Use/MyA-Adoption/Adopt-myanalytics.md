@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-## Adopt MyAnalytics
+# Adopt MyAnalytics
 
 The MyAnalytics adoption materials are a set of tools that helps teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable. The following sections provides resources and guide you through phases in which you recognize problems and address them by building healthy work habits. 
 
