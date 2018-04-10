@@ -15,14 +15,14 @@ ms.prod: wpa
 
 ## Workplace Analytics and data protection in your organization
 
-Microsoft Workplace Analytics produces analyzes email and meeting data from Office 365 and organizational data that you provide. This data pertains to individuals, who have a right to be concerned about how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it. 
+Microsoft Workplace Analytics analyzes email and meeting data from Office 365 and organizational data that you provide. This data pertains to individuals, who have a right to be concerned about how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it. 
 
 > [!Note] 
 > This article is a summary. This subject is handled more thoroughly in [Data-protection considerations when using Workplace Analytics ](Data-protection-considerations.md).
 
 ## Roles and responsibilities
 
-Regardless of the location of your organization, the concepts of data controller, data processor, and data subject provide a useful framework for thinking about data protection when using Workplace Analytics.
+The concepts of _data controller_, _data processor_, and _data subject_ provide a useful framework for thinking about data protection when using Workplace Analytics.
 
  * **Your organization’s role: Data controller.** The data controller determines the purposes and means of processing a data subject’s personal data. When using Workplace Analytics, your organization is the data controller because your organization determines if, how, and why Workplace Analytics will process any personal data. For more information, see [Data controller](Data-protection-considerations.md#your-organizations-role-data-controller). 
  * **Microsoft’s role: Data processor.** The data processor is a party that processes personal data on behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor. For more information, see [Data processor](Data-protection-considerations.md#microsofts-role-data-processor).
