@@ -28,9 +28,11 @@ By using MyAnalytics, you and your team can:
 
 MyAnalytics is completely personal and private. Only you (not your manager and not the system administrator) can see your insights. For more information, see [Privacy guide](../overview/privacy-guide.md).
  
+<!--
 # How to obtain MyAnalytics
 
 MyAnalytics is included with Office 365 Enterprise E5 and is also available as an add-on with select plans. [Learn more](https://products.office.com/en-us/business/myanalytics-personal-analytics?ms.officeurl=MyAnalytics).
+-->
 
 # Additional resources 
  
