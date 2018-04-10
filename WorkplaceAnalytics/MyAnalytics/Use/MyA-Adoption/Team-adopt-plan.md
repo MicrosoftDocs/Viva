@@ -196,7 +196,8 @@ This email can include:
  * Preferred method to provide feedback and ask questions throughout the program
  * Links to more information on MyAnalytics and privacy
    * [MyAnalytics Overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
-   * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)<!-- BROKEN! CHANGE THIS! -->
+   <!-- Broken link. Removing for now:
+   * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g) CHANGE THIS! -->
    * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
    * [Privacy Information](../../Overview/Privacy-Guide.md)
    * [Resources for individual adoption](Indiv-adopt-get-started.md)
