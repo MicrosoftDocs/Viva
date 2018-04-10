@@ -103,7 +103,7 @@ If you plan to go on vacation, create a calendar event that includes the days of
  
 #### How do I track my team’s progress? 
 
-A team can implement a multi-week program to change its collaboration habits for the better. During such a program, its statistics, and thus its progress towards its improvement goals, are tracked. For information about starting such a program, see [Get started](../use/mya-adoption/team-adopt-intro.md). For information about tracking your team's progress, see [Measure](../use/mya-adoption/team-adopt-measure.md).
+You can track your teams progress if the team has conducted a program to change its collaboration habits. During such a program, its statistics, and thus its progress towards its improvement goals, are tracked. For information about starting such a program, see [Get started](../use/mya-adoption/team-adopt-intro.md). For information about tracking the progress that your team made, see [Measure](../use/mya-adoption/team-adopt-measure.md).
 
 ## Outlook add-in 
 
@@ -123,10 +123,11 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 #### Where is user data stored? 
 
-All user metrics data is stored in each user’s mailbox. An exception is the signal that an email has been delivered, read, replied to, or forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days. 
+User metrics data is stored in users’ mailboxes. An exception is the signal that an email has been delivered, read, replied to, or forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days. 
  
 #### Why does it take two weeks for the personal dashboard to become available? 
-The personal dashboard is available to a MyAnalytics participant as soon as they receive the welcome email. This happens approximately three days after an administrator assigned the MyAnalytics license to the participant. For more information, see [Assign MyAnalytics licenses to users](../setup/assign-licenses.md).
+
+It doesn't take that long. The personal dashboard is available to a MyAnalytics user as soon as they receive their [welcome email](../use/MyA-Welcome-email.md). This happens about three days after the MyAnalytics license was assigned to the participant. For more information, see [Assign MyAnalytics licenses to users](../setup/assign-licenses.md).
  
 #### When the dashboard is activated, does it show any historical data or does it start ‘from scratch’? 
 
