@@ -103,28 +103,27 @@ A team can implement a multi-week program to change its collaboration habits for
 
 ## Add-in / Nudges 
 
-#### Are commitments available in all languages, or just English? 
+#### The Outlook add-in displays To-do cards (commitments). Are they available in all languages, or just in English? 
 
-Add-in’s Commitment<link to add-in commitment doc> feature only supports English today. 
+The [to-do cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook add-in are available only in English.
  
-#### Can I get email read rates for shared or secondary mailboxes? 
+#### Can I obtain email read rates for shared or secondary mailboxes? 
 
-MyAnalytics does not take shared mailboxes into account. 
+MyAnalytics does not use data from shared or secondary mailboxes. 
  
 #### Why are my email read statistics not available? 
 
-Your email must be sent to at least 5 recipients and less than 14 days old for read statistics to be available. 
+To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients. 
  
 ## IT Administrator 
 
-#### Where is the data stored? 
+#### Where is user data stored? 
 
-All user’s metrics data are stored in each user’s mailbox. An exception is the signal that an email has been delivered/read/replied/forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days. 
+All user metrics data is stored in each user’s mailbox. An exception is the signal that an email has been delivered, read, replied to, or forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days. 
  
-#### Why does it take 2 weeks for the personal dashboard to become available? 
-This question is no longer applicable. It’s now available on-the-fly but takes 3 days for the data to be fully stored.  
+#### Why does it take two weeks for the personal dashboard to become available? 
+The personal dashboard is available to a MyAnalytics participant as soon as they receive the welcome email. This happens approximately three days after an administrator assigned the MyAnalytics license to the participant. For more information, see [Assign MyAnalytics licenses to users](../setup/assign-licenses.md).
  
-#### Will the dashboard show any historic data upon activation, or does it start ‘from scratch’? 
+#### When the dashboard is activated, does it show any historical data or does it start ‘from scratch’? 
 
-Upon activation, MyAnalytics will process historical data for 80 days prior to the date of activation. Data from earlier period will not be available in the dashboard 
-
+Upon activation, MyAnalytics processes historical data for 80 days before the date of activation. No data from before this 80-day limit is displayed in the dashboard. 
