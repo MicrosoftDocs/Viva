@@ -15,7 +15,7 @@ ms.prod: wpa
 
 ## Workplace Analytics and data protection in your organization
 
-Microsoft Workplace Analytics analyzes email and meeting data from Office 365 and organizational data that you provide. This data pertains to individuals, who have a right to be concerned about how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it. 
+Microsoft Workplace Analytics analyzes email and meeting data from Office 365 and organizational data that you provide. This data pertains to individuals, who have a right to understand how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it. 
 
 > [!Note] 
 > This article is a summary. This subject is handled more thoroughly in [Data-protection considerations when using Workplace Analytics ](Data-protection-considerations.md).
@@ -40,7 +40,7 @@ Consider implementing the following data-privacy recommendations before you begi
 
  * **Consider a DPIA:** If your proposed use of Workplace Analytics involves processing personal data in a way that could lead to high risks to the rights of employees and other users in your organization, consider completing a data protection impact assessment (DPIA).
 
-   For more information, see [Determine whether to complete a data protection impact assessment (DPIA)](Data-protection-considerations.md#determine-whether-to-complete-a-data-protection-impact-assessment-dpia) and [DPIA: What it is, when is it needed, and why](https://eugdprcompliant.com/dpia-guidelines/). 
+   For more information, see [Determine whether to complete a data protection impact assessment (DPIA)](Data-protection-considerations.md#determine-whether-to-complete-a-data-protection-impact-assessment-dpia). 
 
 * **Use aggregated or anonymized data:** To minimize privacy risk, use the minimum data necessary to conduct your research. Note the inherent trade-off: You can, for example, adopt a strict policy that never uses personal data, but this restricts the analyses that Workplace Analytics can perform. For more information, see [Use aggregated or anonymized data whenever possible](Data-protection-considerations.md#use-aggregated-or-anonymized-data-whenever-possible).
 
