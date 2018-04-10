@@ -95,9 +95,10 @@
    #     - name: Getting Support
    #       href: ./conceptual/index.md
     - name: Setup
+      href: MyAnalytics/Setup/Mya-setup-checklist.md
       items:
-      - name: Checklist
-        href: MyAnalytics/Setup/Mya-setup-checklist.md
+   #   - name: Checklist
+   #     href: MyAnalytics/Setup/Mya-setup-checklist.md
       - name: Step One - Review the MyAnalytics privacy guide
         href: MyAnalytics/Overview/Privacy-Guide.md
       - name: Step Two - Configure user settings
