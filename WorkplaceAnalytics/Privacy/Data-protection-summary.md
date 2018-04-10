@@ -37,7 +37,7 @@ Consider implementing the following data-privacy recommendations before you begi
 
    For more information, see [Determine whether to complete a data protection impact assessment (DPIA)](Data-protection-considerations.md#determine-whether-to-complete-a-data-protection-impact-assessment-dpia) and [DPIA: What it is, when is it needed, and why](https://eugdprcompliant.com/dpia-guidelines/). 
 
-* **Use aggregated or anonymized data whenever possible:** To minimize privacy risk, use the minimum data necessary to conduct your research. Note the inherent trade-off: You can, for example, adopt a strict policy that never uses personal data, but this restricts the analyses that Workplace Analytics can perform. Also see [Use aggregated or anonymized data whenever possible](Data-protection-considerations.md#use-aggregated-or-anonymized-data-whenever-possible).
+* **Use aggregated or anonymized data:** To minimize privacy risk, use the minimum data necessary to conduct your research. Note the inherent trade-off: You can, for example, adopt a strict policy that never uses personal data, but this restricts the analyses that Workplace Analytics can perform. Also see [Use aggregated or anonymized data whenever possible](Data-protection-considerations.md#use-aggregated-or-anonymized-data-whenever-possible).
 
 ## Decide what data to use 
 
@@ -50,7 +50,7 @@ You have full control over what data to include in analysis using Workplace Anal
 ## Handle data-subject requests
 
 Under the GDPR, data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it. 
-For more information about the following requests and responses to them, see [Workplace Analytics support for handling data subject requests](Data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests). 
+For more information about the following request types and how to fulfill them, see [Workplace Analytics support for handling data subject requests](Data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests). 
  * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing.
  * **Access:** Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data.
  * **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Office 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics. 
