@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics environment requirements
-description: MyAnalytics environment requirements, including valid licensing choices
-author: rodonahu
+title: Build better work habits with personal productivity insights
+description: My organization installed MyAnalytics. Why should I use it? 
+author: paul9955
 ms.author: v-pascha
-ms.date: 01/19/2018
+ms.date: 04/11/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
@@ -26,13 +26,15 @@ By using MyAnalytics, you and your team can:
 
 ## Privacy 
 
-MyAnalytics is completely personal and private. Only you (not your manager and not the system administrator) can see your insights. For more information, see [Privacy guide](../overview/privacy-guide.md).
+MyAnalytics is completely personal and private. Only you (not your manager and not the system administrator) can see your insights. For more information, see the [Privacy guide](../overview/privacy-guide.md).
  
+<!--
 # How to obtain MyAnalytics
 
 MyAnalytics is included with Office 365 Enterprise E5 and is also available as an add-on with select plans. [Learn more](https://products.office.com/en-us/business/myanalytics-personal-analytics?ms.officeurl=MyAnalytics).
+-->
 
-# Additional resources 
+## Additional resources 
  
 [Get to know MyAnalytics from Office 365](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
 

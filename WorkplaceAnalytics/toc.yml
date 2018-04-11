@@ -96,6 +96,8 @@
    #       href: ./conceptual/index.md
         - name: Better work habits 
           href: MyAnalytics/Overview/Better-work-habits.md
+        - name: Frequently asked questions
+          href: MyAnalytics/Overview/MyA-faq.md          
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md
       items:
