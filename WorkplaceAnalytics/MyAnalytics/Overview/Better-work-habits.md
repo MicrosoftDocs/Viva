@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics environment requirements
-description: MyAnalytics environment requirements, including valid licensing choices
+title: Build better work habits with personal productivity insights
+description: My organization installed MyAnalytics. Why should I use it? 
 author: paul9955
 ms.author: v-pascha
-ms.date: 01/19/2018
+ms.date: 04/11/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
