@@ -26,7 +26,7 @@ By using MyAnalytics, you and your team can:
 
 ## Privacy 
 
-MyAnalytics is completely personal and private. Only you (not your manager and not the system administrator) can see your insights. For more information, see [Privacy guide](../overview/privacy-guide.md).
+MyAnalytics is completely personal and private. Only you (not your manager and not the system administrator) can see your insights. For more information, see the [Privacy guide](../overview/privacy-guide.md).
  
 <!--
 # How to obtain MyAnalytics
