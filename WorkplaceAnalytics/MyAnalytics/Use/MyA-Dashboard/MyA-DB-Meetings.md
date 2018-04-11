@@ -20,15 +20,14 @@ Meeting hours do not include any time outside your working hours, as you’ve de
 
 The following meeting types are also excluded from Meeting hours: 
 
- * Meetings that have 20 or more attendees.
  * Meetings that lasts eight or more hours. This includes all-day meetings.
- * Meetings that marked as Private.
+ * Meetings that are marked as Private.
  * Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders. 
  * Meetings for which Show As is set to any of the following values:
     * Free
     * Working Elsewhere
     * Tentative
-    * Out of Office; see the following example
+    * Out of Office; see the following example:
         
      
         
