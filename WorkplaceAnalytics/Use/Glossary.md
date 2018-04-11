@@ -26,7 +26,6 @@ The glossary defines concepts and other terms (excluding [metric definitions](..
 |Connection|Two or more *meaningful interactions*.|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
-|Fragmented hours | |
 |Insularity|When collaboration happens only with people from within a person’s team, function, department, and so on.|
 |Invitee|A person who is invited to a meeting via a meeting request.|
 |Layer|The number of *levels* of reporting in a company, starting from CEO and going down.<br>For example: The CEO equals level 0.|
