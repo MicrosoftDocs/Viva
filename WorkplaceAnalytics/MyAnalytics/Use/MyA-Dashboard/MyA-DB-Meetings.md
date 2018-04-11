@@ -19,9 +19,20 @@ Meeting hours consist of any meetings that you’ve organized or accepted that h
 Meeting hours do not include any time outside your working hours, as you’ve defined working hours in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). After-hours meeting time shows up in your after-hours stats.  
 
 The following meeting types are also excluded from Meeting hours: 
-* Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders. 
-* All-day meetings. 
-* Meetings that are marked as Private. 
+
+ * Meetings that have 20 or more attendees.
+ * Meetings that lasts eight or more hours. This includes all-day meetings.
+ * Meetings that marked as Private.
+ * Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders. 
+ * Meetings for which Show As is set to any of the following values:
+    * Free
+    * Working Elsewhere
+    * Tentative
+    * Out of Office; see the following example:
+![Meeting status Out of Office](../../../Images/meeting-status-oof.png)  
+
+> [!Note] 
+> MyAnalytics does not double-count meeting hours. For example, if you have two meetings, both from 10:00 AM to 11:00 AM, MyAnalytics counts this as only one hour of meeting time. 
 
 ## Meeting habits  
 
