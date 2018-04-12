@@ -158,6 +158,7 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
 
 ### Related topic
 [Settings in Workplace Analytics](../Use/Settings.md) 
+
 ## Step five: Prepare and upload organizational data
 
 * **Owner** - Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst
