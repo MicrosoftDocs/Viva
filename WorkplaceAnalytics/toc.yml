@@ -83,21 +83,7 @@
 - name: MyAnalytics
   href: MyAnalytics/MyA-landing-page.md
   expanded: true
-  items:
-    - name: Overview
-      items:
-        - name: Environment Requirements
-          href: MyAnalytics/Overview/Environment-Requirements.md
-   #     - name: Architecture
-   #       href: ./conceptual/index.md
-        - name: Privacy Guide
-          href: MyAnalytics/Overview/Privacy-Guide.md
-   #     - name: Getting Support
-   #       href: ./conceptual/index.md
-        - name: Better work habits
-          href: MyAnalytics/Overview/Better-work-habits.md
-        - name: Frequently asked questions
-          href: MyAnalytics/Overview/MyA-faq.md          
+  items:      
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md
       items:
@@ -163,4 +149,18 @@
           - name: Habit-building method
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
           - name: Habit playbooks
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md            
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
+    - name: MyAnalytics Reference
+      items:
+        - name: Better work habits
+          href: MyAnalytics/Overview/Better-work-habits.md      
+        - name: Environment Requirements
+          href: MyAnalytics/Overview/Environment-Requirements.md
+        - name: Privacy Guide
+          href: MyAnalytics/Overview/Privacy-Guide.md
+        - name: Frequently asked questions
+          href: MyAnalytics/Overview/MyA-faq.md    
+   #     - name: Architecture
+   #       href: ./conceptual/index.md
+   #     - name: Getting Support
+   #       href: ./conceptual/index.md
