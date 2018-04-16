@@ -1,4 +1,4 @@
- ---
+---
 # Metadata Sample
 # required metadata
 
@@ -11,6 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ROBOTS: NOINDEX, NOFOLLOW
 ---
+
 # Pseudonymized Data and Workplace Analytics
 
 
