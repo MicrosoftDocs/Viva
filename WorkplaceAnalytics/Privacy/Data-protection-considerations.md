@@ -151,7 +151,7 @@ There are two ways that users provisioned as analysts can access information wit
 
 The second kind of access Workplace Analytics provides is the full analyst view. Here the analyst can run queries against the meeting and email information to arrive at new metrics, all of which fall under the category of anonymized data. However, if you choose to provide personal data, then the analyst can discern whose metrics are being computed. Thus, it is important that such analysts are provided the requisite training before they are given access to Workplace Analytics. Additionally, Workplace Analytics logs all queries that such analysts author, therefore allowing you to audit them for consistency with your organizational policies and any DPIA that you completed.
 
-Both of these roles are provisioned by the Workplace Analytics administrator. 
+Both of these roles are provisioned by the tenant administrator. 
 
 
 ### Workplace Analytics support for handling data subject requests
@@ -162,7 +162,6 @@ Under the GDPR, data subjects may have rights to request exclusion from processi
 ADD THIS BACK IN WHEN WE CAN LINK TO KATE'S DOC:
 You can review the details here, but we briefly go over them:
 -->
-
 
  * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing. In Workplace Analytics, you can exclude an employee’s personal information from being processed simply by not assigning a Workplace Analytics license to that employee. <!-- DELETED PER PARAMA 16 APRIL 2018: If you have already included an employee in the scope of some analysis, and that employee requests to be excluded from future analysis, then you can configure Workplace Analytics to discontinue the use of data pertaining to that employee. -->
  * **Access:** Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data. The scope of such information is restricted to what is personally associable, and does not contain aggregate metrics from which no personal information can be gleaned.
@@ -177,3 +176,4 @@ Workplace Analytics [privacy documentation](../Overview/Privacy-And-Data-Access.
 Article 29 Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=4563)
 
 EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)
+
