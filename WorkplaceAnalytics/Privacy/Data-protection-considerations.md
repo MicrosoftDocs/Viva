@@ -153,13 +153,20 @@ The second kind of access Workplace Analytics provides is the full analyst view.
 
 Both of these roles are provisioned by the Workplace Analytics administrator. 
 
+
 ### Workplace Analytics support for handling data subject requests
 
-Under the GDPR, data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. It is your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. As a data processor, Microsoft provides mechanisms for your organization as the data controller to honor data subject rights through controls that are built into Workplace Analytics:
+Under the GDPR, data subjects may have rights to request exclusion from processing, access, correction, or deletion of their personal data. It is your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. As a data processor, Microsoft provides mechanisms for your organization as the data controller to honor data subject rights through controls that are built into Workplace Analytics. 
 
- * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing. In Workplace Analytics, you can exclude an employee’s personal information from being processed simply by not assigning a Workplace Analytics license to that employee. If you have already included an employee in the scope of some analysis, and that employee requests to be excluded from future analysis, then you can configure Workplace Analytics to discontinue the use of data pertaining to that employee. 
+<!--
+ADD THIS BACK IN WHEN WE CAN LINK TO KATE'S DOC:
+You can review the details here, but we briefly go over them:
+-->
+
+
+ * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing. In Workplace Analytics, you can exclude an employee’s personal information from being processed simply by not assigning a Workplace Analytics license to that employee. <!-- DELETED PER PARAMA 16 APRIL 2018: If you have already included an employee in the scope of some analysis, and that employee requests to be excluded from future analysis, then you can configure Workplace Analytics to discontinue the use of data pertaining to that employee. -->
  * **Access:** Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data. The scope of such information is restricted to what is personally associable, and does not contain aggregate metrics from which no personal information can be gleaned.
- * **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Office 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics. If someone requests corrections to Office 365 email and meeting data, then the Office 365 tenant administrator can use the capabilities built into Office 365 to handle these requests. If someone requests corrections to their personal data in the organizational dataset, then as the controller, your organization should provide the means for the data subjects to review and correct such information.
+ * **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Office 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.  <!-- DELETED PER PARAMA 16 APRIL 2018: If someone requests corrections to Office 365 email and meeting data, then the Office 365 tenant administrator can use the capabilities built into Office 365 to handle these requests. If someone requests corrections to their personal data in the organizational dataset, then as the controller, your organization should provide the means for the data subjects to review and correct such information. -->
  * **Deletion:** Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed. You have the option of deciding whether such data needs to be reprocessed without the user’s raw metrics. If you so decide, all reports stored in Workplace Analytics can be deleted and recalculated. 
  * **Transparency regarding processing:** See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Workplace Analytics, and what they mean.  
 
@@ -170,4 +177,3 @@ Workplace Analytics [privacy documentation](../Overview/Privacy-And-Data-Access.
 Article 29 Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=4563)
 
 EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)
-
