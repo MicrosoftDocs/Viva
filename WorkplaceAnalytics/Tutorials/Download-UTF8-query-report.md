@@ -24,7 +24,7 @@ You have run a query to perform an analysis of workplace behavior. When the quer
 At least one of the metrics that you used in this query includes meeting data from Outlook, and that data includes meeting subject lines. At least some of the meeting subject lines contains multibyte characters. This could be because your organization uses a multibyte language (such as Chinese, Japanese, or Korean), or because the data contains characters such as an EM-DASH (—) or letters with diacritical marks (such as the ã in "São Paulo"). 
 
 ### Problem
-These multibyte characters cause the .csv file to malfunction if you try to open it in the default way in Excel. 
+These multibyte characters cause the .csv file to malfunction if you try to open it in Excel in the default way. 
 
 ### Solution
 Import the .csv file into Excel as a UTF-8 file. After you have opened the file in Excel in this way, you can save the file as an Excel file (with the .xlsx extension) or as a .csv file in UTF-9 format, and then work with it in the normal ways. Follow these steps:
