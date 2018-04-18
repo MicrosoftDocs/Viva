@@ -3,20 +3,22 @@
 # required metadata
 
 title: Workplace Analytics Setup Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+description: Complete the steps in this checklist to implement Workplace Analytics in your organization
 author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/16/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
-# Workplace Analytics Setup Checklist
-To successfully set up and implement Workplace Analytics, you will need to coordinate and obtain information and buy-in from a wide variety of stakeholders.
 
-Use this checklist to help assemble the people and obtain the data and configuration information that you will need to set up and provision Workplace Analytics.
+# Workplace Analytics Setup Checklist
+
+To successfully set up and implement Workplace Analytics, you need to coordinate and obtain information and buy-in from a variety of stakeholders.
+
+Use this checklist to help assemble the people and obtain the data and configuration information that you need to set up and provision Workplace Analytics.
 
 > [!TIP]
-> This checklist outlines recommended steps and a high-level list of items to consider and is not intended to be exhaustive. You may want to copy this checklist into a spreadsheet and then customize it for your organization.
+> This checklist outlines recommended steps and a high-level list of items to consider. It is not intended to be exhaustive. You might want to copy this checklist into a spreadsheet and then customize it for your organization.
 
 ## Checklist
 
