@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Assign MyAnalytics licenses to users
+## Step three: Assign MyAnalytics licenses to users
 
 You have to assign a MyAnalytics license to each user who should see statistics from MyAnalytics. For information on how to do this, see [Assign licenses to users in Office 365 for business](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc). If you don’t want a user to see any statistics from MyAnalytics, just remove the MyAnalytics license from the user. 
 

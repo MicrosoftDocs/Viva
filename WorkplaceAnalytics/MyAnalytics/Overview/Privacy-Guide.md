@@ -11,11 +11,11 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-# Privacy guide for Microsoft MyAnalytics
+## Step one: Review the MyAnalytics privacy guide
 
 MyAnalytics helps users better understand how they collaborate with colleagues and how they spend their time at work. It provides useful information that can help users prioritize and spend their time effectively. The goal of this guide is to provide a high level overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.
 
-## Turning data
+### Turning data
 
 MyAnalytics provides insights using three types of data:
 1.	Email and calendar activity that is available in the user’s Office 365 mailbox, such as time spent in meetings, emails sent to a specific person, or statements that a user makes in emails.
@@ -31,7 +31,7 @@ MyAnalytics surfaces Mailbox Data in entirely new ways. For example, MyAnalytics
 
 Using Incremental Data, MyAnalytics provides organization-wide benchmarks so users can effectively compare their work habits with others across their organization. Incremental Data is also used by the MyAnalytics Outlook add-in, which provides statistics on the activity surrounding the user’s email. When using Incremental Data, MyAnalytics does not identify users by name in an effort to protect individual privacy.
 
-## ... into insights
+### ... into insights
 
 To understand how Mailbox Data serves as the basis for many MyAnalytics insights, consider the following scenarios. If a user wanted to discover who sent them the most email over the last week, they could manually count the total number of emails received from all of the different people they work with, and then rank them from the person who has sent the most to the person who has sent the least. Similarly, using simple math, a user could determine the average response time to their emails using timestamp information readily available in their mailbox. Furthermore, a user could review their emails to create a list of each person to whom the user has made a commitment. There are a wide variety of metrics and quick views that can be developed from a user’s own Mailbox Data:
 
@@ -67,7 +67,7 @@ Another example of Incremental Data that MyAnalytics surfaces to a user are insi
 
 This information is not available to the user from their mailbox. Therefore, it is Incremental Data, but it is presented in a way that is intended to avoid identifying any individual or their activity.
 
-## Privacy from the ground up
+### Privacy from the ground up
 
 MyAnalytics makes all of these insights available through a dashboard that is personalized for each user. MyAnalytics has no mechanism or option that allows anyone but the user to access their dashboard. Specifically, MyAnalytics does not give any user’s manager or organization access to the user’s dashboard.
 
@@ -80,7 +80,7 @@ When it comes to using Incremental Data for statistics, MyAnalytics strives to p
 
 When users contribute to Incremental Data, they empower themselves and their colleagues with valuable context and comparisons. However, users who are not comfortable with contributing their data to Incremental Data statistics can opt-out of MyAnalytics at any time. They can also change their minds and opt back in whenever they want.
 
-## Choice and control when enabling MyAnalytics
+### Choice and control when enabling MyAnalytics
 
 Along with these privacy safeguards, MyAnalytics provides flexible and configurable controls which are designed to enable organizations and their users to address varying legal and policy needs regarding privacy and use of employee data.
 

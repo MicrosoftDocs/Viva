@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Configure MyAnalytics user settings
+## Step two: Configure user settings
 
 Use the following options to configure MyAnalytics for each user in your organization. You can change these default behaviors for any user by setting the *PrivacyMode* parameter:
 
