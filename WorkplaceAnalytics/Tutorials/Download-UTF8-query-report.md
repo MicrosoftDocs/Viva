@@ -3,10 +3,10 @@
 # required metadata
 
 title: Download the Query Report from Workplace Analytics in UTF-8 format
-description: This topic discusses how group queries in Workplace Analytics can help you understand how a team has invested their time across the rest of the organization and beyond.  
+description: If your query reports cannot be opened properly in Excel because they contain multibyte characters, follow these steps to work around the problem.   
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/17/2018
+ms.date: 04/18/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
@@ -21,9 +21,9 @@ Your query reports might not open properly if their data contains certain (multi
 
 You have run a query to perform an analysis of workplace behavior. When the query finished, Workplace Analytics wrote the query results to a .csv file, which it then placed in a compressed (zipped) folder. 
 
-At least one of the metrics that you used in this query includes meeting data from Outlook, and that data includes meeting subject lines. At least some of the meeting subject lines contains multibyte characters. This could be because your organization uses a multibyte language (such as Chinese, Japanese, or Korean), or the data contains characters such as an EM-DASH (—) or letters with diacritical marks (such as the ã in "São Paulo"). 
+Now that you have your query results, you want to proceed with your analysis by opening them in Microsoft Excel. 
 
-After the query results have been generated, you want to proceed with your analysis by opening the query results in Microsoft Excel. 
+At least one of the metrics that you used in this query includes meeting data from Outlook, and that data includes meeting subject lines. At least some of the meeting subject lines contains multibyte characters. This could be because your organization uses a multibyte language (such as Chinese, Japanese, or Korean), or because the data contains characters such as an EM-DASH (—) or letters with diacritical marks (such as the ã in "São Paulo"). 
 
 ### Problem
 These multibyte characters cause the .csv file to malfunction if you try to open it in the default way in Excel. 
