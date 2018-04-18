@@ -39,7 +39,7 @@ Import the .csv file into Excel as a UTF-8 file. After you have opened the file 
 5. On the ribbon, click **Get Data**, point to **From File**, and click **From Text/CSV**.
 6. In the Import Data dialog box, select the extracted .csv file and click **Import**. <!-- VERIFY THIS: The Text Import Wizard starts automatically. -->
 7. In the dialog box that appears, change File Origin to **65001: Unicode (UTF-8)**. In the preview pane, examine the characters for correctness. <!-- AND DO WHAT IF THEY'RE BAD? -->
-8. Select the delimiter: 
+8. Select the delimiter:  
 
    * For a .csv file, select **Comma** as the delimiter. 
    * For a fixed-width text file, set Delimiter to **Fixed Width**. Otherwise,<!--  select **Delimited**. "Delimited" is not a choice. What to use?    * For other text files (not fixed-width) But we tell them .csv only. How can they have a text file? --> either select the appropriate delimiter or adjust the fixed column width in the preview pane. 
