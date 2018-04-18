@@ -22,7 +22,7 @@ To set up MyAnalytics for users in your organization, complete the tasks in this
 | 3 - Assign MyAnalytics licenses to users  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
 | 4 - Verify that the Outlook add-in is installed  | MyAnalytics administrator | Check the Office 365 admin center to verify that the Outlook add-in is installed for your organization. 
 
-
+## Step one: Review the 
 [!INCLUDE [1 - Review the MyAnalytics privacy guide](../Overview/Privacy-Guide.md)] 
 
 
