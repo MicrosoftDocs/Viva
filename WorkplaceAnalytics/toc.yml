@@ -156,8 +156,8 @@
           href: MyAnalytics/Overview/Better-work-habits.md      
         - name: Environment Requirements
           href: MyAnalytics/Overview/Environment-Requirements.md
-        - name: Privacy Guide
-          href: MyAnalytics/Overview/Privacy-Guide.md
+   #     - name: Privacy Guide
+   #       href: MyAnalytics/Overview/Privacy-Guide.md
         - name: Frequently asked questions
           href: MyAnalytics/Overview/MyA-faq.md    
    #     - name: Architecture
