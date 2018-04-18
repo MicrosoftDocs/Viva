@@ -27,22 +27,17 @@ At least one of the metrics that you used in this query includes meeting data fr
 These multibyte characters cause the .csv file to malfunction if you try to open it in Excel in the default way. 
 
 ### Solution
-Import the .csv file into Excel as a UTF-8 file. After you have opened the file in Excel in this way, you can save the file as an Excel file (with the .xlsx extension) or as a .csv file in UTF-9 format, and then work with it in the normal ways. Follow these steps:
+Import the .csv file into Excel as a UTF-8 file. After you have opened the file in Excel in this way, you can save the file as an Excel file (with the .xlsx extension) or as a .csv file in UTF-8 format, and then work with it in the normal ways. Follow these steps:
 
 **To import a .csv file as a UTF-8 file** 
 
 1. In Workplace Analytics, download the .zip file that contains the .csv report file. 
 2. Extract the .csv file to a safe location on your computer; take note of this folder.
 3. Open a new workbook in Microsoft Excel, and then select the Data tab.
-5. On the ribbon, click **Get Data**, point to **From File**, and click **From Text/CSV**.
-6. In the Import Data dialog box, select the extracted .csv file and click **Import**. <!-- VERIFY THIS: The Text Import Wizard starts automatically. -->
-7. In the dialog box that appears, change File Origin to **65001: Unicode (UTF-8)**. In the preview pane, examine the characters for correctness. <!-- AND DO WHAT IF THEY'RE BAD? -->
-8. Select the delimiter:  
-
-   * For a .csv file, select **Comma** as the delimiter. 
-   * For a fixed-width text file, set Delimiter to **Fixed Width**. Otherwise,<!--  select **Delimited**. "Delimited" is not a choice. What to use?    * For other text files (not fixed-width) But we tell them .csv only. How can they have a text file? --> either select the appropriate delimiter or adjust the fixed column width in the preview pane. 
-
-9. Click **Load**. <!-- "Next" is not a choice. -->
-<!-- 11. Click **Finish** to complete the import. ALREADY COMPLETED WITH "Load" -->
+4. On the ribbon, click **Get Data**, point to **From File**, and click **From Text/CSV**.
+5. In the Import Data dialog box, select the extracted .csv file and click **Import**. 
+6. In the dialog box that appears, change File Origin to **65001: Unicode (UTF-8)**. In the preview pane, examine the characters for correctness. If data is still incorrect, contact your Workplace Analytics FastTrack representative for further guidance. If the data is correct, go on to the next step. 
+7. Select **Comma** as the delimiter. 
+8. Click **Load**.
 
 The multi-byte characters should now display correctly in Excel. You can save the file as an Excel file or an OpenDocument Spreadsheet file without losing the multi-byte characters.
