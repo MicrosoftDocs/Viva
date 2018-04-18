@@ -38,9 +38,13 @@ Import the .csv file into Excel as a UTF-8 file. After you have opened the file 
 3. Open a new workbook in Microsoft Excel, and then select the Data tab.
 5. On the ribbon, click **Get Data**, point to **From File**, and click **From Text/CSV**.
 6. In the Import Data dialog box, select the extracted .csv file and click **Import**. <!-- VERIFY THIS: The Text Import Wizard starts automatically. -->
-7. Change the File Origin setting to **65001: Unicode (UTF-8)**. In the preview pane, examine the characters for correctness. <!-- AND DO WHAT IF THEY'RE BAD? -->
-8. If you imported a fixed-width text file, set Delimiter to **Fixed Width** as the data type. Otherwise, select **Delimited** as the data type. <!-- "Delimited" is not a choice. What to use? -->
-9. For a .csv file, select **Comma** as the delimiter; for a text file <!-- But we tell them .csv only. How can they have a text file? -->, either select the appropriate delimiter or adjust the fixed column width in the preview pane. Click **Load**. <!-- "Next" is not a choice. -->
+7. In the dialog box that appears, change File Origin to **65001: Unicode (UTF-8)**. In the preview pane, examine the characters for correctness. <!-- AND DO WHAT IF THEY'RE BAD? -->
+8. Select the delimiter: 
+
+   * For a .csv file, select **Comma** as the delimiter. 
+   * For a fixed-width text file, set Delimiter to **Fixed Width**. Otherwise,<!--  select **Delimited**. "Delimited" is not a choice. What to use?    * For other text files (not fixed-width) But we tell them .csv only. How can they have a text file? --> either select the appropriate delimiter or adjust the fixed column width in the preview pane. 
+
+9. Click **Load**. <!-- "Next" is not a choice. -->
 <!-- 11. Click **Finish** to complete the import. ALREADY COMPLETED WITH "Load" -->
 
 The multi-byte characters should now display correctly in Excel. You can save the file as an Excel file or an OpenDocument Spreadsheet file without losing the multi-byte characters.
