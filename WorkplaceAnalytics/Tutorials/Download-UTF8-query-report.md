@@ -19,9 +19,7 @@ Your query reports might not open properly if their data contains certain (multi
 
 ### Background
 
-You have run a query to perform an analysis of workplace behavior. When the query finished, Workplace Analytics wrote the query results to a .csv file, which it then placed in a compressed (zipped) folder. 
-
-Now that you have your query results, you want to proceed with your analysis by opening them in Microsoft Excel. 
+You have run a query to perform an analysis of workplace behavior. When the query finished, Workplace Analytics wrote the query results to a .csv file, which it then placed in a compressed (zipped) folder. Now that you have your query results, you want to proceed with your analysis by opening the results in Microsoft Excel. 
 
 At least one of the metrics that you used in this query includes meeting data from Outlook, and that data includes meeting subject lines. At least some of the meeting subject lines contains multibyte characters. This could be because your organization uses a multibyte language (such as Chinese, Japanese, or Korean), or because the data contains characters such as an EM-DASH (—) or letters with diacritical marks (such as the ã in "São Paulo"). 
 
