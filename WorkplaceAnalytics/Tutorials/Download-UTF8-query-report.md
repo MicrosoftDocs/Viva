@@ -32,7 +32,7 @@ Import the .csv file into Excel as a UTF-8 file. After you have opened the file 
 **To import a .csv file as a UTF-8 file** 
 
 > [!Note] 
-> In some versions of Excel the options you choose are different. The following steps present you with alternatives that your version of Excel might offer.  
+> The options you choose in this procedure differ in different versions of Excel. The following steps present you with alternatives that your version of Excel might offer.  
 
 1. In Workplace Analytics, download the .zip file that contains the .csv report file. 
 2. Extract the .csv file to a safe location on your computer; take note of this folder.
