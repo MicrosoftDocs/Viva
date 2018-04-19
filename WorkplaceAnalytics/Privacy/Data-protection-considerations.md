@@ -135,7 +135,7 @@ First, you get to decide which users’ mailboxes to include in your Workplace A
  * You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
  * You can rule out confidential or private emails, or those that are rights protected using Microsoft's digital rights management technology.
 
-For more information about making privacy settings, see [Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#step-three-assign-roles-to-workplace-analytics-admins-and-analysts).
+For more information about making privacy settings, see [Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#step-4-assign-roles-to-workplace-analytics-admins-and-analysts).
 
 ### Data provided by your organization
 
