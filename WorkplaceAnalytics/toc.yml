@@ -10,19 +10,8 @@
           href: ~/Overview/Privacy-and-Data-Access.md
         - name: Data-protection considerations (summary)                  
           href: ~/Privacy/Data-protection-summary.md
-  #  - name: Set up Workplace Analytics
     - name: Setup    
       href: ~/Setup/Set-up-Workplace-Analytics.md          
-  #  - name: Setup
-  #    items:
-  #      - name: Set up Workplace Analytics
-  #        href: ~/Setup/Set-up-Workplace-Analytics.md  
-  #  - name: Overview
-  #    items:
-      #  - name: Environment requirements
-      #    href: ~/Setup/Environment-Requirements.md
-       # - name: Architecture and How it Works
-       #   href: ~/Overview/Architecture.md
     - name: Use
       items:
       - name: Administration
@@ -35,8 +24,6 @@
             href: ~/Use/Upload-organizational-data.md            
           - name: Data sources
             href: ~/Use/Data-Sources.md
-        #  - name: User roles
-        #    href: ~/Use/User-Roles.md
           - name: Assign group-based licenses
             href: ~/Use/Group-Based-Licensing.md
           - name: Assign roles with Powershell
@@ -81,31 +68,24 @@
             href: ~/Tutorials/Meeting-queries.md
           - name: Group queries
             href: ~/Tutorials/Group-queries.md
-      - name: Known issues
-        items:
-          - name: Download a query report in UTF-8 format
-            href: ~/Tutorials/Download-UTF8-query-report.md
-      - name: Get support
-        href: ~/Overview/Getting-Support.md
+    - name: Known issues
+      items:
+        - name: Download a query report in UTF-8 format
+          href: ~/Tutorials/Download-UTF8-query-report.md
+    - name: Get support
+      href: ~/Overview/Getting-Support.md
 - name: MyAnalytics
   href: MyAnalytics/MyA-landing-page.md
   expanded: true
   items:   
+    - name: Better work habits
+      href: MyAnalytics/Overview/Better-work-habits.md       
     - name: Frequently asked questions
       href: MyAnalytics/Overview/MyA-faq.md       
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md
-    #  items:
-    #  - name: Environment Requirements
-    #    href: MyAnalytics/Overview/Environment-Requirements.md      
-    #  - name: Step One - Review the MyAnalytics privacy guide
-    #    href: MyAnalytics/Overview/Privacy-Guide.md
-    #  - name: Step Two - Configure user settings
-    #    href: MyAnalytics/Setup/Configure-MyA-User-Settings.md
-    #  - name: Step Three - Assign MyAnalytics licenses to users
-    #    href: MyAnalytics/Setup/Assign-Licenses.md
-    #  - name: Step Four - Verify that the Outlook add-in is installed
-    #    href: MyAnalytics/Setup/Verify-Add-in.md
+    - name: MyAnalytics welcome email
+      href: MyAnalytics/Use/MyA-Welcome-email.md          
     - name: Use MyAnalytics
       items:      
       - name: MyAnalytics elements
@@ -118,12 +98,8 @@
           href: MyAnalytics/Use/add-in.md
         - name: Email digests
           href: MyAnalytics/Use/email-digests.md
-      - name: Better work habits
-        href: MyAnalytics/Overview/Better-work-habits.md     
       - name: MyAnalytics tips
-        href: MyAnalytics/Overview/Tips.md
-      - name: MyAnalytics welcome email
-        href: MyAnalytics/Use/MyA-Welcome-email.md        
+        href: MyAnalytics/Overview/Tips.md    
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
         items: 
@@ -163,11 +139,3 @@
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
           - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
-  #  - name: MyAnalytics Reference
-  #    items:
-   #     - name: Privacy Guide
-   #       href: MyAnalytics/Overview/Privacy-Guide.md
-   #     - name: Architecture
-   #       href: ./conceptual/index.md
-   #     - name: Getting Support
-   #       href: ./conceptual/index.md
