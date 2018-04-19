@@ -83,13 +83,21 @@
             href: ~/Tutorials/Meeting-queries.md
           - name: Group queries
             href: ~/Tutorials/Group-queries.md
+      - name: Known issues
+        items:
+          - name: Download a query report in UTF-8 format
+            href: ~/Tutorials/Download-UTF8-query-report.md  
 - name: MyAnalytics
   href: MyAnalytics/MyA-landing-page.md
   expanded: true
-  items:      
+  items:   
+    - name: Frequently asked questions
+      href: MyAnalytics/Overview/MyA-faq.md       
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md
     #  items:
+    #  - name: Environment Requirements
+    #    href: MyAnalytics/Overview/Environment-Requirements.md      
     #  - name: Step One - Review the MyAnalytics privacy guide
     #    href: MyAnalytics/Overview/Privacy-Guide.md
     #  - name: Step Two - Configure user settings
@@ -99,7 +107,7 @@
     #  - name: Step Four - Verify that the Outlook add-in is installed
     #    href: MyAnalytics/Setup/Verify-Add-in.md
     - name: Use MyAnalytics
-      items:  
+      items:      
       - name: MyAnalytics elements
         expanded: false
         href: MyAnalytics/Use/MyA-elements.md
@@ -110,6 +118,8 @@
           href: MyAnalytics/Use/add-in.md
         - name: Email digests
           href: MyAnalytics/Use/email-digests.md
+      - name: Better work habits
+        href: MyAnalytics/Overview/Better-work-habits.md     
       - name: MyAnalytics tips
         href: MyAnalytics/Overview/Tips.md
       - name: MyAnalytics welcome email
@@ -153,16 +163,10 @@
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
           - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
-    - name: MyAnalytics Reference
-      items:
-        - name: Better work habits
-          href: MyAnalytics/Overview/Better-work-habits.md      
-        - name: Environment Requirements
-          href: MyAnalytics/Overview/Environment-Requirements.md
+  #  - name: MyAnalytics Reference
+  #    items:
    #     - name: Privacy Guide
    #       href: MyAnalytics/Overview/Privacy-Guide.md
-        - name: Frequently asked questions
-          href: MyAnalytics/Overview/MyA-faq.md    
    #     - name: Architecture
    #       href: ./conceptual/index.md
    #     - name: Getting Support
