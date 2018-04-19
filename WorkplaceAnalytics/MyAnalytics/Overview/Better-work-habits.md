@@ -11,7 +11,9 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# Build better work habits with personal productivity insights 
+# Why use MyAnalytics?
+
+## Build better work habits through personal productivity insights 
 
 More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
 
@@ -23,6 +25,10 @@ By using MyAnalytics, you and your team can:
  * **Boost meeting quality:** Save four to five hours per week by cutting back on low-quality [meeting time](../use/MyA-Dashboard/MyA-DB-Meetings.md). 
  * **Get more focus time:** Find more time to eliminate distractions, stop multi-tasking, and [focus](../use/MyA-Dashboard/MyA-DB-Focus-hours.md) on your core priorities. 
  * **Improve your work-life balance:** Improve norms around after-hours collaboration and reduce the time you spend working [after hours](../use/MyA-Dashboard/MyA-DB-After-hours.md). 
+
+The following video shows several common ways in which you can benefit from MyAnalytics:
+
+[![Getting to know MyAnalytics](../../images/Video-image-get-to-know-mya.png)](https://www.youtube.com/watch?v=1MQDfzf6CGE&feature=youtu.be)
 
 ## Privacy 
 

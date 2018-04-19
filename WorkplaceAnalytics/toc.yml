@@ -12,7 +12,7 @@
           href: ~/Privacy/Data-protection-summary.md
     - name: Setup    
       href: ~/Setup/Set-up-Workplace-Analytics.md          
-    - name: Use
+    - name: Use Workplace Analytics
       items:
       - name: Administration
         items:
@@ -78,7 +78,7 @@
   href: MyAnalytics/MyA-landing-page.md
   expanded: true
   items:   
-    - name: Better work habits
+    - name: Why use MyAnalytics?
       href: MyAnalytics/Overview/Better-work-habits.md       
     - name: Frequently asked questions
       href: MyAnalytics/Overview/MyA-faq.md       
