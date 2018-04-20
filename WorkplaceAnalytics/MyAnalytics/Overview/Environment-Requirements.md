@@ -11,7 +11,7 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-## MyAnalytics environment requirements
+### MyAnalytics environment requirements
 
 ### MyAnalytics licensing requirements
 
