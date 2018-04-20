@@ -79,13 +79,13 @@
   expanded: true
   items:   
     - name: Why use MyAnalytics?
-      href: MyAnalytics/Overview/Better-work-habits.md       
-    - name: Frequently asked questions
-      href: MyAnalytics/Overview/MyA-faq.md       
+      href: MyAnalytics/Overview/Better-work-habits.md
     - name: Setup
-      href: MyAnalytics/Setup/Mya-setup-checklist.md
-    - name: MyAnalytics welcome email
-      href: MyAnalytics/Use/MyA-Welcome-email.md          
+      href: MyAnalytics/Setup/Mya-setup-checklist.md  
+ #   - name: MyAnalytics welcome email
+ #     href: MyAnalytics/Setup/MyA-Welcome-email.md                  
+    - name: Frequently asked questions
+      href: MyAnalytics/Overview/MyA-faq.md              
     - name: Use MyAnalytics
       items:      
       - name: MyAnalytics elements

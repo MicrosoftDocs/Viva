@@ -17,7 +17,7 @@ You have to assign a MyAnalytics license to each user who should see statistics 
 
 After you assign a user license, the new MyAnalytics participant will gain access to the elements of MyAnalytics over the days that follow, as described here:  
 
-1. **Welcome email is sent.** Three days after you assign licenses, your users will receive a welcome email from MyAnalytics. They do not receive this welcome email outside of their work week. If the third day after license assignment is a Saturday (which for most users is outside the work week), the welcome email arrives on the following Monday. For more information, see [Welcome email](../Use/MyA-Welcome-email.md).
+1. **Welcome email is sent.** Three days after you assign licenses, your users will receive a welcome email from MyAnalytics. They do not receive this welcome email outside of their work week. If the third day after license assignment is a Saturday (which for most users is outside the work week), the welcome email arrives on the following Monday. For more information, see [Welcome email](../Setup/MyA-Welcome-email.md).
 &nbsp;
 
 2. **MyAnalytics elements become available.** After users receive the welcome email, they have access to the elements of MyAnalytics:

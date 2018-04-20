@@ -17,7 +17,7 @@ ms.prod: wpa
 
 More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
 
-MyAnalytics helps you find opportunities to build better habits and get back in control of your time. It uses everyday data from Office 365 to give you insights into how you spend your time. It then provides insights and tips that help you work smarter. 
+MyAnalytics helps you find opportunities to build better habits and get back in control of your time. It uses everyday data from Office 365 to give you insights into how you spend your time. It then provides insights and tips that help you work smarter.  
 
 ## Benefits
 
@@ -26,7 +26,7 @@ By using MyAnalytics, you and your team can:
  * **Get more focus time:** Find more time to eliminate distractions, stop multi-tasking, and [focus](../use/MyA-Dashboard/MyA-DB-Focus-hours.md) on your core priorities. 
  * **Improve your work-life balance:** Improve norms around after-hours collaboration and reduce the time you spend working [after hours](../use/MyA-Dashboard/MyA-DB-After-hours.md). 
 
-The following video shows several common ways in which you can benefit from MyAnalytics:
+The following video shows common ways in which you can benefit from MyAnalytics:
 
 [![Getting to know MyAnalytics](../../images/Video-image-get-to-know-mya.png)](https://www.youtube.com/watch?v=1MQDfzf6CGE&feature=youtu.be)
 
