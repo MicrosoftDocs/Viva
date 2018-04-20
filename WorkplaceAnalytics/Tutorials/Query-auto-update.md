@@ -21,7 +21,7 @@ You can run queries as a one-time event: You set it up, run it once, and obtain 
 
 ## Auto-update shows you trends over time
 
-Query results, especially when viewed in a visualization tool, can uncover dynamic patterns. These patterns evolve over time because the workplace behavior of employees evolves over time. To isolate one instance of workplace behavior over time, use the appropriate query not once but on a regular basis. Do this by using the Auto-update feature of Workplace Analytics. 
+Query results, especially when viewed in a visualization tool, can uncover dynamic patterns. These patterns evolve over time because the workplace behavior of employees evolves over time. To isolate one instance of evolving workplace behavior over time, use the appropriate query not once but on a regular basis. Do this by using the Auto-update feature of Workplace Analytics. 
 
 ## Create an auto-update query
 
@@ -30,12 +30,13 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
 ## Behavior of an auto-update query
 
  * When the query runs for the first time, it uses data from the exact date range that you defined.
- * The query automatically runs again, once per week. These subsequent runs coincide with the date on Workplace Analytics refreshes the mail and calendar data that it obtains from Microsoft Exchange. 
- * The query will run for an indefinite period of time, or until you return to this page and clear the Auto update option. 
+ * The query automatically runs again, once per week. Each of these runs coincides with the date on Workplace Analytics refreshes mail and calendar data from Microsoft Exchange. 
+ * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date becomes one week later.  
+ * Automatic query runs will repeat indefinitely, or until you return to this page and clear the auto-update option or delete the query. 
 
 ## Viewing the results of an auto-update query
 
-When you open the Results page to see your results, you see the results of the latest weekly run of this query. Workplace Analytics displays an icon that indicates that this is an Auto-update query. It also displays the most recent date on which the query ran, so that you know how new the results are. 
+When you open the Results page to see your results, you see the results of the latest weekly run of this query. Workplace Analytics displays an icon that indicates that this is an auto-update query. It also displays the most recent date on which the query ran, so that you know how new the results are. 
 
 ## Visualizing the results of an auto-update query
 
