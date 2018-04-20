@@ -36,12 +36,17 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
 
 ## View the results of an auto-update query
 
-On the Results page, you see the results of the latest weekly run. Workplace Analytics also displays the date on which it ran, so that you know how recently the results were obtained. 
+1. On the Queries page of Workplace Analytics, click **Results**.  
+2. In the table of results, find your query. 
 
-Workplace Analytics also displays an icon that indicates it to be an auto-update query.
+For an auto-update query the Results page shows the following: 
+
+ * The results of the latest weekly run.
+ * The date on which it ran. This lets you know how recently the results were obtained. 
+ * An icon that indicates it to be an auto-update query.
 
 ## Visualize the results of an auto-update query
 
-On the Queries page, you can copy a link by clicking the link icon at the end of the query's row. You can then paste this link into Power BI. 
+On the Results page, you can copy a link by clicking the link icon at the end of the query's row. You can then paste this link into Power BI. 
 
 After you do this, Power BI maintains a connection to this query in Workplace Analytics. In the future, to visualize the query's current results, open the Workplace Analytics project in Power BI and click **Refresh**. 
