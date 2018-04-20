@@ -19,8 +19,8 @@ ms.prod: mya
 3. Name the query and add an optional description.
 4. Select a time range: one, three, six, or twelve months.
 
-> [!Note] 
-> If you select **Custom range** for the Time period, you cannot also select the **Auto-update** option.
+   > [!Note] 
+   > If you select **Custom range** for the Time period, you cannot also select the **Auto-update** option.
 
 5. Select **Auto-update**: 
 <img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
