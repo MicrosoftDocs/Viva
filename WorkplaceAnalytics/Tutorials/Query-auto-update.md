@@ -23,17 +23,9 @@ You can run queries as a one-time event: You set it up, run it once, and obtain 
 
 Query results, especially when viewed in a visualization tool, can uncover dynamic patterns. These patterns evolve over time because the workplace behavior of employees evolves over time. To isolate one instance of workplace behavior over time, use the appropriate query not once but on a regular basis. Do this by using the Auto-update feature of Workplace Analytics. 
 
-## Build an auto-update query
+## Create an auto-update query
 
-**To create an auto-update query**
-
-1. Open the queries page of Workplace Analytics:
-<img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries page of Workplace Analytics">
-2. Select a query type, such as Person query.
-3. Name the query and add an optional description.
-4. Select a time range: one, three, six, or twelve months.
-5. Select Auto-update: 
-<img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
+[!INCLUDE [To create an auto-update query](../../Includes/to-create-auto-update-query.md)]
 
 ## Behavior of an auto-update query
 
