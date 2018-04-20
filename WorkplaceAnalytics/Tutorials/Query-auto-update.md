@@ -25,7 +25,7 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
 
 ## Create an auto-update query
 
-[!INCLUDE [To create an auto-update query](../../Includes/to-create-auto-update-query.md)]
+[!INCLUDE [To create an auto-update query](../Includes/to-create-auto-update-query.md)]
 
 ## Behavior of an auto-update query
 
