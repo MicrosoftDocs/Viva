@@ -60,6 +60,6 @@ On the Results page, you can obtain a link to a query's results and then use thi
    <img src="../Images/WpA/Tutorials/OData-feed.png" alt="OData feed in Power BI">
 
 5. Click **OK**.
-6. Enter your client credentials and then click **Connect**. 
+6. Enter your client credentials and then click **Connect**.
 
 After you do this, Power BI maintains a connection to this query in Workplace Analytics. In the future, to visualize the query's current results, open the Workplace Analytics project in Power BI and click **Refresh**. 
