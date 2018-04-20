@@ -60,6 +60,8 @@
             href: ~/Tutorials/Meeting-queries.md
           - name: Group queries
             href: ~/Tutorials/Group-queries.md
+          - name: Query auto-update option
+            href: ~/Tutorials/Query-auto-update.md            
       - name: Reference
         items:
           - name: Glossary
