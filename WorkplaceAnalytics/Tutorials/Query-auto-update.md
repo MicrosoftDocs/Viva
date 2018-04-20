@@ -30,18 +30,18 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
 ## Behavior of an auto-update query
 
  * When the query runs for the first time, it uses data from the exact date range that you defined.
- * The query automatically runs again, once per week. Each of these runs coincides with the date on Workplace Analytics refreshes mail and calendar data from Microsoft Exchange. 
- * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date becomes one week later.  
+ * The query automatically runs again, once per week. Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange. 
+ * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date also becomes one week later.  
  * Automatic query runs will repeat indefinitely, or until you return to this page and clear the auto-update option or delete the query. 
 
 ## View the results of an auto-update query
 
-When you open the Results page, you see the results of the latest weekly run of the query and the date on which it ran, so that you know how recently the results were obtained. 
+On the Results page, you see the results of the latest weekly run. Workplace Analytics also displays the date on which it ran, so that you know how recently the results were obtained. 
 
 Workplace Analytics also displays an icon that indicates it to be an auto-update query.
 
 ## Visualize the results of an auto-update query
 
-On the Queries page you can copy a link by clicking the link icon at the end of the row for this query. You can then paste this link into Power BI. After you do this, Power BI makes use of a connection to this query in Workplace Analytics.
+On the Queries page, you can copy a link by clicking the link icon at the end of the query's row. You can then paste this link into Power BI. 
 
-Subsequently, to visualize the query's current results, open the Workplace Analytics project in Power BI and click Refresh. 
+After you do this, Power BI maintains a connection to this query in Workplace Analytics. In the future, to visualize the query's current results, open the Workplace Analytics project in Power BI and click **Refresh**. 
