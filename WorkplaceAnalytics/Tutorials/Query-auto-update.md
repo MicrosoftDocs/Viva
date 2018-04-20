@@ -49,7 +49,7 @@ For an auto-update query, the Results page shows the following:
 
 On the Results page, you can obtain a link to a query's results and then use this link in Power BI. 
 
-1. At the end of the query's row, click the link icon:
+1. At the right end of the query's row, click **Copy link**:
 
 <img src="../Images/WpA/Tutorials/Get-results-link.png" alt="Copy a query's results link">
 
