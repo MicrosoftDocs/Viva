@@ -28,11 +28,11 @@ Try this:  [Review the MyAnalytics privacy guide](#review-the-myanalytics-privac
 
 To set up MyAnalytics for users in your organization, complete the tasks in this checklist: 
 
-| Task | Owner | Outcome |
-|------|-------|---------|
-| 1 - Configure user settings  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
-| 2 - Assign MyAnalytics licenses to users  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
-| 3 - Verify that the Outlook add-in is installed  | MyAnalytics administrator | Check the Office 365 admin center to verify that the Outlook add-in is installed for your organization. |
+| | Task | Owner | Outcome |
+|---|------|-------|---------|
+| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | 1 - Configure user settings  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
+| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | 2 - Assign MyAnalytics licenses to users  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
+| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | 3 - Verify that the Outlook add-in is installed  | MyAnalytics administrator | Check the Office 365 admin center to verify that the Outlook add-in is installed for your organization. |
 
 
 ## Step 1: Review the environment requirements for MyAnalytics
