@@ -11,28 +11,42 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# The auto-update option
+# Auto-update option for queries
 
-Analysts can run different kinds of queries, such as person queries. To do this, they start by applying a date filter. They then choose the query type.
+## One-time queries show you a snapshot
 
-Until now, queries were a one-time operation: you ran it, you got your results, and you were done. To visualize workplace patterns uncovered by this query, you could then take these query results, load them into Power BI. The query presented you with a snapshot of workplace behavior. 
+As an analyst, you can run different kinds of queries, including person, meeting, and group queries. You start creating the query by applying a date filter and choosing the query type.
 
-But customers have expressed the need to see more than a snapshot, to see trends over time, to be able to easily reuse a query that they’ve spent time setting up and running. This is because query results, especially when viewed in Power BI, can show analysts patterns that are not static. These patterns evolve over time as the workplace behavior of employees evolves over time. We are therefore introducing the feature called Auto update results.
+You can run queries as a one-time event: You set it up, run it once, and obtain the results. To visualize workplace patterns uncovered by this query, you can load the results into a visualization tool such as Microsoft Power BI. This presents you with views into a snapshot of workplace behavior. 
 
-By using this feature, analysts can check a box to request that their query results get automatically updated on a regular basis. This regular period is defined as one week.
+## Auto-update shows you trends over time
 
-While you are creating your query, you define a time range of one, three, six, or twelve months. In addition to selecting a time range, you can now select Auto update.
-When the query first runs, it uses data from the exact date range that you defined. You know the start and end dates. 
+Query results, especially when viewed in a visualization tool, can uncover dynamic patterns. These patterns evolve over time because the workplace behavior of employees evolves over time. To isolate one instance of workplace behavior over time, use the appropriate query not once but on a regular basis. Do this by using the Auto-update feature of Workplace Analytics. 
 
+## Build an auto-update query
+
+**To create an auto-update query**
+
+1. Open the queries page of Workplace Analytics:
+<img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries page of Workplace Analytics">
+2. Select a query type, such as Person query.
+3. Name the query and add an optional description.
+4. Select a time range: one, three, six, or twelve months.
+5. Select Auto-update: 
 <img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
 
-But this isn’t the end of the story for your query if you picked Auto update.
+## Behavior of an auto-update query
 
-The query will automatically run again without your having to launch it again. Workplace Analytics will continue to re-run it every week. Its run coincides with the time that Workplace Analytics refreshes its mail and calendar data from Microsoft Exchange. 
+ * When the query runs for the first time, it uses data from the exact date range that you defined.
+ * The query automatically runs again, once per week. These subsequent runs coincide with the date on Workplace Analytics refreshes the mail and calendar data that it obtains from Microsoft Exchange. 
+ * The query will run for an indefinite period of time, or until you return to this page and clear the Auto update option. 
 
-It will run for an indefinite period of time, or until you deselect Auto update. 
+## Viewing the results of an auto-update query
 
-When you view the Results page to see your results, you always see the results of the latest run. Workplace Analytics displays the date on which it last ran this query, so you can always see how up to date your results are. 
+When you open the Results page to see your results, you see the results of the latest weekly run of this query. Workplace Analytics displays an icon that indicates that this is an Auto-update query. It also displays the most recent date on which the query ran, so that you know how new the results are. 
 
-When you view the Queries page, you can copy a link by clicking the link icon. You can then paste this link into Power BI. After you do this, Power BI is aware of the connection to Workplace Analytics and to this automatic query. This means that, to visualize this data in Power BI and know that you are seeing the most current information – the results of the most recent automatic query run – all you need to do in Power BI is click update when you have the Workplace Analytics project open. 
+## Visualizing the results of an auto-update query
 
+When you open the Queries page, you can copy a link by clicking the link icon. You can then paste this link into Power BI. After you do this, Power BI makes use of a connection to this query in Workplace Analytics.
+
+Subsequently, to visualize the query's current results, open the Workplace Analytics project in Power BI and click Refresh. 
