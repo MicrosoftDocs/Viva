@@ -25,7 +25,7 @@ By using this feature, analysts can check a box to request that their query resu
 While you are creating your query, you define a time range of one, three, six, or twelve months. In addition to selecting a time range, you can now select Auto update.
 When the query first runs, it uses data from the exact date range that you defined. You know the start and end dates. 
 
-<img src="../../Images/WpA/Tutorials/auto-update.PNG" alt="Setting auto-update for a Workplace Analytics query">
+<img src="../Images/WpA/Tutorials/auto-update.PNG" alt="Setting auto-update for a Workplace Analytics query">
 
 But this isn’t the end of the story for your query if you picked Auto update.
 
