@@ -18,7 +18,11 @@ ms.prod: mya
 2. Select a query type, such as Person query.
 3. Name the query and add an optional description.
 4. Select a time range: one, three, six, or twelve months.
-5. Select Auto-update: 
+
+> [!Note] 
+> If you select **Custom range** for the Time period, you cannot also select the **Auto-update** option.
+
+5. Select **Auto-update**: 
 <img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
 6. Save the query. 
 
