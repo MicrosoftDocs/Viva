@@ -32,9 +32,9 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
  * When the query runs for the first time, it uses data from the exact date range that you defined.
  * The query automatically runs again, once every week. Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange. 
  * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date also becomes one week later.  
- * Automatic query runs will repeat, on a weekly basis, indefinitely.
+ * Workplace Analytics will run the auto-update query on its weekly schedule, indefinitely.
 
-## View the results of an auto-update query
+## Obtain the results of an auto-update query
 
 1. On the Queries page of Workplace Analytics, click **Results**.  
 2. In the table of results, find your query. 
@@ -51,13 +51,13 @@ On the Results page, you can obtain a link to a query's results and then use thi
 
 1. At the right end of the query's row, click **Copy link**:
 
-<img src="../Images/WpA/Tutorials/Get-results-link.png" alt="Copy a query's results link">
+   <img src="../Images/WpA/Tutorials/Get-results-link.png" alt="Copy a query's results link">
 
 2. Click **Copy**. the Get results link displays the word "Copied." 
 3. In Power BI, on the Home tab, click **Get Data** and then click **OData feed**.
 4. In the OData feed dialog box, paste the link that you copied into the URL field:
 
-<img src="../Images/WpA/Tutorials/OData-feed.png" alt="OData feed in Power BI">
+   <img src="../Images/WpA/Tutorials/OData-feed.png" alt="OData feed in Power BI">
 
 5. Click **OK**.
 6. Enter your client credentials and then click **Connect**. 
