@@ -50,14 +50,6 @@
             href: ~/Use/Understand-meeting-exclusions.md
           - name: Create custom meeting exclusion rules
             href: ~/Use/Create-custom-meeting-exclusions-rules.md
-      - name: Metrics
-        items:
-          - name: Metric definitions
-            href: ~/Use/metric-definitions.md
-          - name: Workplace Analytics glossary
-            href: ~/Use/Glossary.md
-          - name: Percentage and average calculations
-            href: ~/Use/Percentage-and-average-calculations.md
       - name: Tutorials
         items:
           - name: Query basics
@@ -68,6 +60,14 @@
             href: ~/Tutorials/Meeting-queries.md
           - name: Group queries
             href: ~/Tutorials/Group-queries.md
+      - name: Reference
+        items:
+          - name: Glossary
+            href: ~/Use/Glossary.md          
+          - name: Workplace Analytics metrics
+            href: ~/Use/metric-definitions.md
+          - name: Percentage and average calculations
+            href: ~/Use/Percentage-and-average-calculations.md
     - name: Known issues
       items:
         - name: Download a query report in UTF-8 format
