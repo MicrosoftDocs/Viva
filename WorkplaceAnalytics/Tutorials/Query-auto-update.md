@@ -17,7 +17,7 @@ ms.prod: wpa
 
 As an analyst, you can run different kinds of queries, including person, meeting, and group queries. You start creating the query by applying a date filter and choosing the query type.
 
-You can run queries as a one-time event: You set it up, run it once, and obtain the results. To visualize workplace patterns uncovered by this query, you can load the results into a visualization tool such as Microsoft Power BI. This presents you with views into a snapshot of workplace behavior. 
+You can run queries as a one-time event: You set it up, run it once, and obtain the results. To visualize workplace patterns uncovered by this query, you can load the results into a data-visualization tool such as Microsoft Power BI. This presents you with views into a snapshot of workplace behavior. 
 
 ## Auto-update shows you trends over time
 
