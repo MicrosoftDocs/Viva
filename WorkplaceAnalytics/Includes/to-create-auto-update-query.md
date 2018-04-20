@@ -17,13 +17,12 @@ ms.prod: mya
 <img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries page of Workplace Analytics">
 2. Select a query type, such as Person query.
 3. Name the query and add an optional description.
-4. Select a time range: one, three, six, or twelve months.
+4. Select a time range: one, three, six, or twelve months:
+
+<img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
 
    > [!Note] 
    > If you select **Custom range** for the Time period, you cannot also select the **Auto-update** option.
 
-5. Select **Auto-update**: 
-<img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
-6. Save the query. 
-
-After you finish creating the query, it runs automatically.
+5. Select **Auto-update**. 
+6. Click **Run**. 
