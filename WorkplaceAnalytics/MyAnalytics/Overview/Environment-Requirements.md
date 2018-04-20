@@ -11,8 +11,6 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-### MyAnalytics environment requirements
-
 ### MyAnalytics licensing requirements
 
 MyAnalytics is available in the following plans:
