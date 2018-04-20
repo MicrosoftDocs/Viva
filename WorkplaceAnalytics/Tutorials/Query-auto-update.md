@@ -34,12 +34,14 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
  * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date becomes one week later.  
  * Automatic query runs will repeat indefinitely, or until you return to this page and clear the auto-update option or delete the query. 
 
-## Viewing the results of an auto-update query
+## View the results of an auto-update query
 
-When you open the Results page to see your results, you see the results of the latest weekly run of this query. Workplace Analytics displays an icon that indicates that this is an auto-update query. It also displays the most recent date on which the query ran, so that you know how new the results are. 
+When you open the Results page, you see the results of the latest weekly run of the query and the date on which it ran, so that you know how recently the results were obtained. 
 
-## Visualizing the results of an auto-update query
+Workplace Analytics also displays an icon that indicates it to be an auto-update query.
 
-When you open the Queries page, you can copy a link by clicking the link icon. You can then paste this link into Power BI. After you do this, Power BI makes use of a connection to this query in Workplace Analytics.
+## Visualize the results of an auto-update query
+
+On the Queries page you can copy a link by clicking the link icon at the end of the row for this query. You can then paste this link into Power BI. After you do this, Power BI makes use of a connection to this query in Workplace Analytics.
 
 Subsequently, to visualize the query's current results, open the Workplace Analytics project in Power BI and click Refresh. 

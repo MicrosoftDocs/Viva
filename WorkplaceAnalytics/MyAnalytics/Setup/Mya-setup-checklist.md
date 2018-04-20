@@ -19,10 +19,8 @@ To prepare for setting up MyAnalytics, review the following articles:
 
 | Task | Owner | Outcome |
 |------|-------|---------|
-| [Review the environment requirements for MyAnalytics](Mya-setup-checklist.md#review-the-environment-requirements-for-myanalytics) | MyAnalytics administrator | Review this list of requirements to determine whether you are ready to set up MyAnalytics. |
-| [Review the MyAnalytics privacy guide](Mya-setup-checklist.md#review-the-myanalytics-privacy-guide)  | MyAnalytics administrator | Review this overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.  |
-
-Try this:  [Review the MyAnalytics privacy guide](#review-the-myanalytics-privacy-guide) 
+| [Review the environment requirements for MyAnalytics](#review-the-environment-requirements-for-myanalytics) | MyAnalytics administrator | Review this list of requirements to determine whether you are ready to set up MyAnalytics. |
+| [Review the MyAnalytics privacy guide](#review-the-myanalytics-privacy-guide)  | MyAnalytics administrator | Review this overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.  |
 
 ## Setup tasks
 
@@ -30,9 +28,9 @@ To set up MyAnalytics for users in your organization, complete the tasks in this
 
 | | Task | Owner | Outcome |
 |---|------|-------|---------|
-| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | 1 - Configure user settings  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
-| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | 2 - Assign MyAnalytics licenses to users  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
-| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | 3 - Verify that the Outlook add-in is installed  | MyAnalytics administrator | Check the Office 365 admin center to verify that the Outlook add-in is installed for your organization. |
+| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | [1 - Configure user settings](#step-1-configure-user-settings)  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
+| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | [2 - Assign MyAnalytics licenses to users](#step-2-assign-myanalytics-licenses-to-users)  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
+| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | [3 - Verify that the Outlook add-in is installed](#step-3-verify-that-the-outlook-add-in-is-installed)  | MyAnalytics administrator | Check the Office 365 admin center to verify that the Outlook add-in is installed for your organization. |
 
 # Preliminary review tasks
 
