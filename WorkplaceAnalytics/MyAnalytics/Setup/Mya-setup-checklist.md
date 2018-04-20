@@ -13,15 +13,27 @@ ms.prod: mpa
 
 # MyAnalytics Setup Checklist
 
+## Preliminary review tasks
+
+To prepare for setting up MyAnalytics, review the following articles:  
+
+| Task | Owner | Outcome |
+|------|-------|---------|
+| [Review the environment requirements for MyAnalytics](Mya-setup-checklist.md#review-the-environment-requirements-for-myanalytics) | MyAnalytics administrator | Review this list of requirements to determine whether you are ready to set up MyAnalytics. |
+| [Review the MyAnalytics privacy guide](Mya-setup-checklist.md#review-the-myanalytics-privacy-guide)  | MyAnalytics administrator | Review this overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.  |
+
+Try this:  [Review the MyAnalytics privacy guide](#review-the-myanalytics-privacy-guide) 
+
+## Setup tasks
+
 To set up MyAnalytics for users in your organization, complete the tasks in this checklist: 
 
 | Task | Owner | Outcome |
 |------|-------|---------|
-| 1 - Review the environment requirements for MyAnalytics | MyAnalytics administrator | Review this list of requirements to determine whether you are ready to set up MyAnalytics. |
-| 2 - Review the MyAnalytics privacy guide | MyAnalytics administrator | Review this overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.  |
-| 3 - Configure user settings  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
-| 4 - Assign MyAnalytics licenses to users  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
-| 5 - Verify that the Outlook add-in is installed  | MyAnalytics administrator | Check the Office 365 admin center to verify that the Outlook add-in is installed for your organization. 
+| 1 - Configure user settings  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
+| 2 - Assign MyAnalytics licenses to users  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
+| 3 - Verify that the Outlook add-in is installed  | MyAnalytics administrator | Check the Office 365 admin center to verify that the Outlook add-in is installed for your organization. |
+
 
 ## Step 1: Review the environment requirements for MyAnalytics
 
