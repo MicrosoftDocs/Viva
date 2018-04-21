@@ -119,7 +119,7 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients. 
  
-# For IT administrators
+## For IT administrators
 
 #### Where is user data stored? 
 
