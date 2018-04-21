@@ -13,7 +13,7 @@ ms.prod: mya
 
 **To create an auto-update query**
 
-1. Open the queries page of Workplace Analytics:
+1. Open the Queries page of Workplace Analytics:
 <img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries page of Workplace Analytics">
 2. Select a query type, such as Person query.
 3. Name the query and add an optional description.
