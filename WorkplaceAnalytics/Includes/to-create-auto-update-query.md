@@ -26,7 +26,7 @@ ms.prod: mya
     <img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
 
    > [!Note] 
-   > Auto-update is available only for the predefined time ranges in the Time period drop-down list. If you select **Custom range**, the **Auto-update** option becomes unavailable.
+   > Auto-update is available only for the predefined time ranges in the Time period drop-down list. If you select **Custom range**, the Auto-update option becomes unavailable.
 
 5. Select **Auto-update**. 
 
