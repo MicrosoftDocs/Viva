@@ -32,7 +32,7 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
  * When the query runs for the first time, it uses data from the exact date range that you defined.
  * The query automatically runs again, once every week. Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange. 
  * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date also becomes one week later.  
- * Workplace Analytics will run the auto-update query on its weekly schedule, indefinitely.
+ * Workplace Analytics runs the auto-update query on this weekly schedule indefinitely.
 
 ## Obtain the results of an auto-update query
 
@@ -41,19 +41,19 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
 
 For an auto-update query, the Results page shows the following: 
 
- * The results of the _latest_ weekly run.
- * The date on which it ran. This shows how recently these results were obtained. 
+ * The results (a .csv file) of the _latest_ weekly run. Click **Download** to download an archived file of the results. 
+ * The date on which the query last ran.  
  * An icon that indicates it to be an auto-update query.
 
 ## Visualize the results in Power BI
 
-On the Results page, you can obtain a link to a query's results and then use this link in Power BI. 
+On the Results page of Workplace Analytics, you can also obtain a link to a query's results and then use this link in Power BI. 
 
 1. At the right end of the query's row, click **Copy link**:
 
    <img src="../Images/WpA/Tutorials/Get-results-link.png" alt="Copy a query's results link">
 
-2. Click **Copy**. the Get results link displays the word "Copied." 
+2. Click **Copy**. The Get results link dialog box displays the word "Copied." 
 3. In Power BI, on the Home tab, click **Get Data** and then click **OData feed**.
 4. In the OData feed dialog box, paste into the URL field the link that you copied:
 
