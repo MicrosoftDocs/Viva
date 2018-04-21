@@ -55,7 +55,7 @@ On the Results page, you can obtain a link to a query's results and then use thi
 
 2. Click **Copy**. the Get results link displays the word "Copied." 
 3. In Power BI, on the Home tab, click **Get Data** and then click **OData feed**.
-4. In the OData feed dialog box, paste the link that you copied into the URL field:
+4. In the OData feed dialog box, paste into the URL field the link that you copied:
 
    <img src="../Images/WpA/Tutorials/OData-feed.png" alt="OData feed in Power BI">
 
