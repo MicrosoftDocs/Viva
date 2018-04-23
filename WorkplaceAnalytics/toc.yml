@@ -105,7 +105,7 @@
         href: MyAnalytics/Overview/Tips.md    
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
-        homepage: /MyAnalytics/Adopt MyAnalytics    
+        homepage: /MyAnalytics/Use MyAnalytics/Adopt MyAnalytics    
         items: 
         - name: Individual adoption
           items: 
@@ -139,10 +139,10 @@
           items: 
           - name: Learning modules
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
-            homepage: /MyAnalytics/Adopt MyAnalytics/Habit resources/Learning modules
+            homepage: /MyAnalytics/Use MyAnalytics/Adopt MyAnalytics/Habit resources/Learning modules
           - name: Habit-building method
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
-            homepage: /MyAnalytics/Adopt MyAnalytics/Habit resources/Habit-building method
+            homepage: /MyAnalytics/Use MyAnalytics/Adopt MyAnalytics/Habit resources/Habit-building method
           - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
-            homepage: /MyAnalytics/Adopt MyAnalytics/Habit resources/Habit playbooks
+            homepage: /MyAnalytics/Use MyAnalytics/Adopt MyAnalytics/Habit resources/Habit playbooks
