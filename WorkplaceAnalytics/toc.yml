@@ -78,13 +78,14 @@
       href: ~/Overview/Getting-Support.md
 - name: MyAnalytics
   href: MyAnalytics/MyA-landing-page.md
+  homepage: /MyAnalytics  
   expanded: true
   items:   
     - name: Why use MyAnalytics?
       href: MyAnalytics/Overview/Better-work-habits.md
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md  
- #   - name: MyAnalytics welcome email
+ #   - name: MyAnalytics welcome email 
  #     href: MyAnalytics/Setup/MyA-Welcome-email.md                  
     - name: Frequently asked questions
       href: MyAnalytics/Overview/MyA-faq.md              
@@ -104,6 +105,7 @@
         href: MyAnalytics/Overview/Tips.md    
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
+        homepage: /MyAnalytics/Adopt MyAnalytics    
         items: 
         - name: Individual adoption
           items: 
@@ -137,8 +139,10 @@
           items: 
           - name: Learning modules
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
-            homepage: /MyAnalytics/Adopt MyAnalytics/Habit resourcess/Learning modules
+            homepage: /MyAnalytics/Adopt MyAnalytics/Habit resources/Learning modules
           - name: Habit-building method
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
+            homepage: /MyAnalytics/Adopt MyAnalytics/Habit resources/Habit-building method
           - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
+            homepage: /MyAnalytics/Adopt MyAnalytics/Habit resources/Habit playbooks
