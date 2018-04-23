@@ -1,3 +1,17 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Workplace Analytics
+  tocHref: /workplace-analytics/
+  topicHref: /workplace-analytics/index
+  items:
+  - name: Privacy and data protection
+    tocHref: /workplace-analytics/privacy-and-data-protection/
+    topicHref: /workplace-analytics/privacy-and-data-protection
+    items:     
+    - name: Privacy considerations 
+      tocHref: /workplace-analytics/use/privacy-considerations/
+      topicHref: /workplace-analytics/use/privacy-considerations
+    - name: Privacy and data access
+      tocHref: /workplace-analytics/use/privacy-and-data-access/
+      topicHref: /workplace-analytics/use/privacy-and-data-acces
+    - name: Data-protection considerations (summary)                  
+      tocHref: /workplace-analytics/use/data-protection-summary/
+      topicHref: /workplace-analytics/use/data-protection-summary
