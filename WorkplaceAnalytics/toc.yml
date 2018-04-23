@@ -137,6 +137,7 @@
           items: 
           - name: Learning modules
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
+            homepage: /MyAnalytics/Adopt MyAnalytics/Habit resourcess/Learning modules
           - name: Habit-building method
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
           - name: Habit playbooks
