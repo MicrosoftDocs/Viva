@@ -14,13 +14,15 @@ ms.prod: wpa
 ### MyAnalytics licensing requirements
 
 MyAnalytics is available in the following plans:
-* Office 365 Enterprise E5 plan
-* Office 365 Education E5 plan 
-* Office 365 Nonprofit E5 plan 
+* Office 365 Enterprise E5 
+* Office 365 A5  
+* Office 365 Nonprofit E5  
 
 You can also purchase a MyAnalytics add-on if you have one of the following plans: 
-* Office 365 Enterprise E1 or E3 plan 
-* Office 365 Education E1 or E3 plan  
+* Office 365 Enterprise E3 
+* Office 365 Enterprise E1
+* Office 365 A3
+* Office 365 A1  
 
 ### Support of environments 
  
