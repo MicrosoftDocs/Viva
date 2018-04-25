@@ -11,7 +11,9 @@ ms.topic: get-started-article
 ms.prod: mya
 ---
 
-### MyAnalytics privacy guide
+## MyAnalytics privacy guide
+
+<!-- ### MyAnalytics privacy guide -->
 
 MyAnalytics helps users better understand how they collaborate with colleagues and how they spend their time at work. It provides useful information that can help users prioritize and spend their time effectively. The goal of this guide is to provide a high level overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.
 
