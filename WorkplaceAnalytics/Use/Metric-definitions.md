@@ -49,10 +49,11 @@ These terms describe the metrics calculated by Workplace Analytics that you can 
 |Time in meetings during working hours|Number of hours the person spent in meetings during working hours.|Person |Hour |Yes|
 |Time spent in mails after hours|Number of hours the person spent sending email outside of working hours.|Person|Hour|No|
 |Time spent in mails working hours|Number of hours the person spent sending email during working hours.|Person|Hour|No|
-|Total emails sent during meeting |[[placeholder – definition lorem ip sum}}|Person|Count|Yes|
+|Total emails sent during meeting | Total emails sent during meeting |Person|Count|Yes|
 |Total focus hours|The total number of hours made up of two-hour or greater blocks of time where the person had no meetings.|Person|Hour|Yes|
 |Working hours collaboration|Number of hours the person spent in meetings and sending email during working hours.|Person|Hour|No|
 |Workweek Span|Time between the person's first email or meeting and the last email or meeting in a day. (Counted Monday – Friday, with a minimum of 4 hours and a maximum of 16 hours per day.) If reported for the week, the metric is a sum for the week. If reported for the month, the metric is the weekly average.|Person|Hour|No|
+
 ## Meeting metrics
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
