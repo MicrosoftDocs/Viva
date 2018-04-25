@@ -53,10 +53,11 @@ The steps you take in this procedure differ in different versions of Excel. The 
 3. Open a new workbook in Microsoft Excel.
 4. On the ribbon, open the Data tab.
 5. In the Get External Data area, click **From Text**.
-6. In the Import Text File dialog box, locate the extracted .csv file and click **Import**. Perform the following steps in the Text Import Wizard: 
-7. Step 1 of 3: Under Original data type, select **Delimited** and then click **Next**. 
-8. Step 2 of 3: In the Delimiters area, select **Comma** and then click **Next**.
-9. Step 3 of 3: Under Column data format, select **Text** and then click **Finish**. 
-8. The Import Data dialog box asks where you want to put the data. Choose any cell in the blank worksheet, and then click **OK**. 
+6. In the Import Text File dialog box, locate the extracted .csv file and click **Import**. 
+7. Perform the following steps in the Text Import Wizard: 
+   * *Step 1 of 3:* Under Original data type, select **Delimited** and then click **Next**. 
+   * *Step 2 of 3:* In the Delimiters area, select **Comma** and then click **Next**.
+   * *Step 3 of 3:* Under Column data format, select **Text** and then click **Finish**. 
+8. The Import Data dialog box asks where you want to put the data. Choose any cell in the blank worksheet and then click **OK**. 
 
 The multibyte characters should now display correctly in Excel. You can save the file as an Excel file or an OpenDocument Spreadsheet file without losing the multibyte characters.
