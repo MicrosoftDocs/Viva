@@ -13,9 +13,9 @@
     - name: Privacy and data protection
       items:
         - name: Privacy considerations 
-          href: ~/Use/Privacy-considerations.md 
+          href: ~/Privacy/Privacy-considerations.md 
         - name: Privacy and data access
-          href: ~/Overview/Privacy-and-Data-Access.md
+          href: ~/Privacy/Privacy-and-Data-Access.md
         - name: Data-protection considerations (summary)                  
           href: ~/Privacy/Data-protection-summary.md
     - name: Set up Workplace Analytics
