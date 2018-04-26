@@ -41,7 +41,7 @@ In the **Privacy settings** section, you customize and configure what data is ac
 * Specify whether subject lines should be shown in query results.
 * Exclude sensitive emails, domains, or subject line keywords.
 
-Learn more about [Workplace Analytics privacy and data access](../overview/privacy-and-data-access.md).
+Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
 
 When you are satisfied with your privacy settings, your data can be processed.
 
