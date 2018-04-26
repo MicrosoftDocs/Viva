@@ -17,7 +17,7 @@ These terms describe the metrics calculated by Workplace Analytics that you can 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
 |After hours collaboration|Number of hours spent in meetings and sending email outside of working hours.|Person|Hour|No|
-|Collaboration hours|Number of hours the person spent in meetings and email with at least one other person.|Person|Hour|Yes|
+|Collaboration hours|Number of hours the person spent in meetings and email with at least one other person. Collaboration hours include both internal and external hours. |Person|Hour|Yes|
 |Collaboration hours external|Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domains).|Person|Hour|No|
 |Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meetings).|Person|Hour|Yes|
 |Email hours|Number of hours the person spent sending and reading email.|Person|Hour|Yes|
