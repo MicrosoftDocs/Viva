@@ -26,9 +26,9 @@ Use this checklist to help assemble the people and obtain the data and configura
 
 To prepare for setting up Workplace Analytics, review the following article:  
 
-| Task | Owner | Outcome |
+| Review this article | Owner | Outcome |
 |------|-------|---------|
-| Consider the environment requirements for Workplace Analytics | Workplace Analytics administrator |  <!-- VERIFY THIS WORDING --> Verify that all requirements are in place for setting up Workplace Analytics     |
+| Environment requirements for Workplace Analytics | Workplace Analytics administrator |  <!-- VERIFY THIS WORDING --> Verify that all requirements are in place for setting up Workplace Analytics     |
 
 ## Setup tasks
 
@@ -48,9 +48,9 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 
 # Preliminary review task
 
-## Consider the environment requirements for Workplace Analytics
+## Environment requirements for Workplace Analytics
 
-[!INCLUDE [Consider the environment requirements](../Setup/Environment-Requirements.md)] 
+[!INCLUDE [Environment requirements](../Setup/Environment-Requirements.md)] 
 
 # Setup tasks
 
