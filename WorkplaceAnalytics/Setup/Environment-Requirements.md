@@ -4,9 +4,9 @@
 
 title: Environment Requirements for Workplace Analytics 
 description: This article describes what's needed to license Workplace Analytics.
-author: rodonahu
+author: paul9955
 ms.author: rodonahu
-ms.date: 01/19/2018
+ms.date: 04/26/2018
 ms.topic: get-started-article
 ms.prod: wpa
 ---
