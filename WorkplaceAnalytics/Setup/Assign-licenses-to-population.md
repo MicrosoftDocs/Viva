@@ -23,7 +23,7 @@ Once you have identified the population in scope, the Office 365 Global administ
 
 #### Related topics
 
-You can use the Office 365 Web UI (recommended) or Office 365 PowerShell to assign Workplace Analytics licenses to users. 
+You can use the Office 365 Web UI or Office 365 PowerShell to assign Workplace Analytics licenses to users. 
 
 [Use the Web UI to assign licenses](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
 
