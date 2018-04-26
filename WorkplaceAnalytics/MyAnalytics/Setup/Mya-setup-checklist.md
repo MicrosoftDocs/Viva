@@ -19,8 +19,8 @@ To prepare for setting up MyAnalytics, review the following articles:
 
 | Review this article | Owner | Outcome |
 |------|-------|---------|
-| [Environment requirements for MyAnalytics](#review-the-environment-requirements-for-myanalytics) | MyAnalytics administrator | Review this list of requirements to determine whether you are ready to set up MyAnalytics. |
-| [MyAnalytics privacy guide](#review-the-myanalytics-privacy-guide)  | MyAnalytics administrator | Review this overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.  |
+| [Environment requirements for MyAnalytics](#preliminary-review-tasks) | MyAnalytics administrator | Review this list of requirements to determine whether you are ready to set up MyAnalytics. |
+| [MyAnalytics privacy guide](#preliminary-review-tasks)  | MyAnalytics administrator | Review this overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.  |
 
 ## Setup tasks
 
