@@ -21,13 +21,13 @@ Some organizations will analyze the entire population, while others will use sub
 
 Once you have identified the population in scope, the Office 365 Global administrator will assign Workplace Analytics licenses to users in this population.  
 
-You can use Office 365 PowerShell to do a bulk assignment of Workplace Analytics licenses to users. 
-
 #### Related topics
 
-[How to assign Office 365 licenses](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
+You can use the Office 365 Web UI (recommended) or Office 365 PowerShell to assign Workplace Analytics licenses to users. 
 
-[How to assign bulk licenses](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+[Use the Web UI to assign licenses](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
+
+[Use PowerShell to assign licenses](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 
 ### Mailboxes not fully migrated to Office 365 Exchange Online
 
