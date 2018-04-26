@@ -27,7 +27,7 @@
           - name: Workplace Analytics settings
             href: ~/Use/Settings.md
           - name: Prepare and upload organizational data
-            href: ~/Use/Prepare-and-upload-organizational-data.md
+            href: ~/Setup/Prepare-and-upload-organizational-data.md
         #  - name: Upload organizational data
         #    href: ~/Use/Upload-organizational-data.md            
           - name: Data sources

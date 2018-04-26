@@ -71,4 +71,4 @@ Administrators will use the **Organizational data** tab to upload data into Work
 ![Privacy settings](../images/Wpa/use/organizational-data-settings.png)
 
 ### To prepare your data for upload to Workplace Analytics
-* Follow the instructions in the topic [Prepare and upload organizational data](../use/Prepare-and-upload-organizational-data.md).
+* Follow the instructions in the topic [Prepare and upload organizational data](../setup/Prepare-and-upload-organizational-data.md).
