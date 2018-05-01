@@ -19,7 +19,7 @@ The Workplace Analytics user interface is currently available in English only. H
 
 ![Query names and descriptions](../Images/WpA/Overview/query-name-description.png)
 
-* Column headers for organizational data when you [prepare organizational data](../Use/Prepare-organizational-data.md)
+* Column headers for organizational data when you [prepare and upload organizational data](../Use/Prepare-and-upload-organizational-data.md)
 
 > [!TIP]
 > For content within organizational data, you can use languages other than English.
@@ -35,4 +35,4 @@ We appreciate all user feedback. To report any language-related bugs, use the **
 ### Related topics
 [Configure settings for Workplace Analytics](../use/settings.md)
 
-[Privacy settings considerations for Workplace Analytics](../use/privacy-considerations.md)
+[Privacy settings considerations for Workplace Analytics](../privacy/privacy-considerations.md)
