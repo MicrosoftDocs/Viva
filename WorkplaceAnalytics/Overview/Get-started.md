@@ -30,6 +30,6 @@ Explore contains a set of analytical dashboards that are the starting point to g
 
 [**Sources**](../use/data-sources.md) gives you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
 
-[**Queries**](../use/create-queries.md) give you flexibility to dive deeper into your organization’s behavioral metrics to generate insights. You can create three types of queries in Workplace Analytics: Person, Group, and Meeting. Each query type can help answer specific questions you may be investigating.
+[**Queries**](../tutorials/create-queries.md) give you flexibility to dive deeper into your organization’s behavioral metrics to generate insights. You can create three types of queries in Workplace Analytics: Person, Group, and Meeting. Each query type can help answer specific questions you may be investigating.
 
 [**Settings**](../use/settings.md) contains options for you to customize system defaults and privacy settings.
