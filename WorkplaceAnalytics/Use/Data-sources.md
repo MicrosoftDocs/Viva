@@ -77,7 +77,7 @@ Organizational data summary provides details about the attributes that have been
 The **Last refreshed** date shows when data was last processed.
 
 ### Values
-This is a list of the attributes supplied by your organization. When you [create queries](../Use/Create-queries.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
+This is a list of the attributes supplied by your organization. When you [create queries](../Tutorials/Create-queries.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
 
 ### Measured employees
 This is the number of measured employees who had a value for the attribute.

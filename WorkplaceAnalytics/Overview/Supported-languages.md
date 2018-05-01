@@ -12,20 +12,21 @@ ms.prod: wpa
 ---
 # Workplace Analytics supported languages and guidelines
 
-Workplace Analytics user interface is currently available in English only. However, you can use Workplace Analytics with data in other languages. For the best experience, use the following guidelines.
+The Workplace Analytics user interface is currently available in English only. However, you can use Workplace Analytics with data in other languages. For the best experience, use the following guidelines:
 
 ## These items must be in English 
-* The query name and description
+* Query names and descriptions
 
-![Query name and description](../Images/WpA/Overview/query-name-description.png)
-* The organizational data column headers when [preparing organizational data](../Use/Prepare-organizational-data.md)
+![Query names and descriptions](../Images/WpA/Overview/query-name-description.png)
+
+* Column headers for organizational data when you [prepare organizational data](../Use/Prepare-organizational-data.md)
 
 > [!TIP]
-> Content within the organizational data may be in languages other than English.
+> For content within organizational data, you can use languages other than English.
 
 ## Privacy settings
 
-In [Privacy settings](../use/Settings.md#privacy-settings), when adding the subject line terms to exclude from analysis, Workplace Analytics may not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
+In [Privacy settings](../use/Settings.md#privacy-settings), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ![Exclude terms from subject line](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
  

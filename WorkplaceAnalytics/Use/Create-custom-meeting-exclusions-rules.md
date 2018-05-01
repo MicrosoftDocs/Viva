@@ -32,7 +32,7 @@ By default, Workplace Analytics excludes the following types of meetings from qu
 
 In addition, Workplace Analytics will exclude meetings that are marked as Private, Confidential, or that are rights managed.
 
-If you not yet created any meeting queries, review the Meeting queries section in the topic [Create queries in Workplace Analytics](../Use/Create-queries.md).
+If you not yet created any meeting queries, review the Meeting queries section in the topic [Create queries in Workplace Analytics](../Tutorials/Create-queries.md).
 
 **To create and run an “All meetings default” query using default exclusions**
 
