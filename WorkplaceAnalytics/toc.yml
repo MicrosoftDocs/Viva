@@ -11,7 +11,9 @@
         - name: Data-protection considerations (summary)                  
           href: ~/Privacy/Data-protection-summary.md
     - name: Setup    
-      href: ~/Setup/Set-up-Workplace-Analytics.md          
+      href: ~/Setup/Set-up-Workplace-Analytics.md  
+    - name: Get started
+      href: ~/Overview/Get-started.md
     - name: Use Workplace Analytics
       items:
       - name: Administration
@@ -52,6 +54,8 @@
             href: ~/Use/Create-custom-meeting-exclusions-rules.md
       - name: Tutorials
         items:
+          - name: Queries overview
+            href: ~/Tutorials/Create-queries.md            
           - name: Query basics
             href: ~/Tutorials/Query-basics.md  
           - name: Person queries
@@ -70,6 +74,10 @@
             href: ~/Use/metric-definitions.md
           - name: Percentage and average calculations
             href: ~/Use/Percentage-and-average-calculations.md
+          - name: User Roles
+            href: ~/Use/User-Roles.md
+          - name: Supported languages and guidelines
+            href: ~/Overview/Supported-languages.md
     - name: Known issues
       items:
         - name: Download a query report in UTF-8 format
