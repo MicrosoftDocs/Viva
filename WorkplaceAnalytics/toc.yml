@@ -96,31 +96,14 @@
   href: MyAnalytics/MyA-landing-page.md
   expanded: true
   items:
-    - name: Overview
-      items:
-        - name: Environment requirements
-          href: MyAnalytics/Overview/Environment-Requirements.md
-   #     - name: Architecture
-   #       href: ./conceptual/index.md
-        - name: Privacy guide
-          href: MyAnalytics/Overview/Privacy-Guide.md
-   #     - name: Getting support
-   #       href: ./conceptual/index.md
-        - name: Better work habits 
-          href: MyAnalytics/Overview/Better-work-habits.md
-        - name: Frequently asked questions
-          href: MyAnalytics/Overview/MyA-faq.md          
+    - name: Why use MyAnalytics?
+      href: MyAnalytics/Overview/Better-work-habits.md
+    - name: Privacy guide
+      href: MyAnalytics/Overview/Privacy-Guide.md
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md
-      items:
-      - name: Step One - Review the MyAnalytics privacy guide
-        href: MyAnalytics/Overview/Privacy-Guide.md
-      - name: Step Two - Configure user settings
-        href: MyAnalytics/Setup/Configure-MyA-User-Settings.md
-      - name: Step Three - Assign MyAnalytics licenses to users
-        href: MyAnalytics/Setup/Assign-Licenses.md
-      - name: Step Four - Verify that the Outlook add-in is installed
-        href: MyAnalytics/Setup/Verify-Add-in.md
+    - name: Frequently asked questions
+      href: MyAnalytics/Overview/MyA-faq.md  
     - name: Use MyAnalytics
       items:  
       - name: MyAnalytics elements
