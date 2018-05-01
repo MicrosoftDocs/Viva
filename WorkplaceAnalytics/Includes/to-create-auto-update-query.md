@@ -15,7 +15,7 @@ ms.prod: mya
 
 1. Open the Queries page of Workplace Analytics:
 
-<img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries page of Workplace Analytics">
+   <img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries page of Workplace Analytics">
 
 2. Select a query type, such as Person query.
 
