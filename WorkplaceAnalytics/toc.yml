@@ -2,14 +2,6 @@
   href: ~/index.md
   expanded: true
   items:
-  #  - name: Overview
-  #    items:
-  #      - name: Environment requirements
-  #        href: ~/Overview/Environment-Requirements.md
-    #    - name: Get support
-    #      href: ~/Overview/Getting-Support.md
-       # - name: Architecture and How it Works
-       #   href: ~/Overview/Architecture.md
     - name: Privacy and data protection
       items:
         - name: Privacy considerations 
@@ -18,7 +10,7 @@
           href: ~/Privacy/Privacy-and-Data-Access.md
         - name: Data-protection considerations (summary)                  
           href: ~/Privacy/Data-protection-summary.md
-    - name: Set up Workplace Analytics
+    - name: Setup
       href: ~/Setup/Set-up-Workplace-Analytics.md
     - name: Use
       items:
