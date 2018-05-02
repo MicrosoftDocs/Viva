@@ -17,7 +17,7 @@ ms.prod: mya
 ![Architecture Diagram](../Images/WpA/Overview/Architecture.png) </CENTER>
 Workplace Analytics leverages Office 365 collaboration data to deliver powerful new insights for enterprise productivity. It provides a way for companies to understand the communication behaviors and collaboration patterns across their organization and how they influence productivity and corporate performance.
 
-Workplace Analytics analyzes Office 365 [email and calendar header level metadata](Privacy-And-Data-Access.md) and combines it with organizational data from line of business applications.  By combining these datasets, analysts are able to provide a [variety of organizational insights](http://insights.office.com). Workplace Analytics provides a workbench to run custom analysis and pre developed aggregated dashboards.  All data is owned by the customer and stored within the O365 Compliance Boundary pursuant to the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
+Workplace Analytics analyzes Office 365 [email and calendar header level metadata](Privacy-And-Data-Access.md) and combines it with organizational data from line of business applications.  By combining these datasets, analysts are able to provide a [variety of organizational insights](http://insights.office.com). All data is owned by the customer and stored within the O365 Compliance Boundary pursuant to the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657).
 
 
 By design, Workplace Analytics provide organizations with choice:
@@ -31,9 +31,6 @@ Our [Privacy and data access document](Privacy-And-Data-Access.md) describes the
 ## Data Inputs
 It is important to understand the data that is required to run the system, and the form that is generated that is accessed by analysts who can utilize the service.  The image below provides context into this. 
 
-<CENTER>
-![Workplace Analytics Data Flow](../Images/WpA/Overview/Flow.png)
-</CENTER>
 
 **Collaboration Data**|**Organizational Data**
 :-----:|:-----:
@@ -47,13 +44,19 @@ Header information from Meetings|*At a minimum, the above data fields are requir
 
 **Output type**|**Example**|**Role that has access**
 -----|-----|-----
-De-Identified Row Level Data|[ExamplePersonQuery.csv](~/images/WpA/Overview/ExamplePersonQuery.md)|Analyst
-Meeting Query Output|[ExampleMeetingQuery.csv](~/images/WpA/Overview/ExampleMeetingQuery.md)|Analyst
-Meeting Query output with subject lines encrypted|[ExampleMeetingHASHQuery.csv](~/images/WpA/Overview/ExampleMeetingHASHQuery.md) |Analyst
-Group Query|[ExampleGroupQuery.csv](~/images/WpA/Overview/ExampleGroupQuery.md) |Analyst
+De-Identified Row Level Data|[ExamplePersonQuery.csv](~/images/WpA/Overview/ExamplePersonQuery.csv)|Analyst
+Meeting Query Output|[ExampleMeetingQuery.csv](~/images/WpA/Overview/ExampleMeetingQuery.csv)|Analyst
+Meeting Query output with subject lines encrypted|[ExampleMeetingHASHQuery.csv](~/images/WpA/Overview/ExampleMeetingHASHQuery.csv) |Analyst
+Group Query|[ExampleGroupQuery.csv](~/images/WpA/Overview/ExampleGroupQuery.csv) |Analyst
 -----|-----|-----
-Visual Dashboards with Minimum Aggregation Threshold||Analyst, Analyst (Limited)
-Data Sources | |Administrator
+Visual Dashboards with Minimum Aggregation Threshold|need to add an image here|Analyst, Analyst (Limited)
+Data Sources |need to add an image here |Administrator
+
+
+<CENTER>
+![Workplace Analytics Data Flow](../Images/WpA/Overview/Flow.png)
+</CENTER>
+The above image outlines the flow of data and how the outputs 
 
 ## Privacy Options
 * Include Subject lines – As part of a meeting query, an administrator can choose to have meeting subject lines encrypted
@@ -69,19 +72,27 @@ Customers can exclude any meeting or mail metadata based on the following parame
 * Domains – exclude involving specific domains from the dataset
 * Email addresses - exclude content involving specific email addresses from the dataset
 
+## Data Handling
+1. How is data de-identified
+Workplace Analytics processes metadata from Office 365 email and calendar. Email addresses are never shown in Workplace Analytics through dashboards or query results. The Workplace Data Engine de-identifies by using a symmetric hashing to ensure that supplemental organizational data can be added when needed. Encryption keys are securely maintained by Microsoft only allowing programmatic access.
+2. How is data Encrypted at rest and in transit
+3. How are the Keys stored/can keys be managed by customer 
+3. Describe data retention and deletion policy
+4. What Certifications are in place for Workplace Analytics
+5. What Region is Data Stored 
+6. 
+
+## Security
+1. What kind of Penetration testing does Microsoft Have in place
+2. What kind of audit logs exist as part of Office 365
+3. How are Security Events handled 
+
 ### Related topics
 
 [Configure settings for Workplace Analytics] (../use/settings.md) 
 
 [Privacy and data access](Privacy-And-Data-Access.md)
 
-## FAQ
-
-### How does the Workplace Analytics Service handle data?
-As part of the Office 365 offering, we are currently a Category A Office 365 service, Moving towards Category C. Please visit the [Office 365 Trust Center Top 10 security and privacy features] (https://products.office.com/en-us/business/office-365-trust-center-top-10-trust-tenets-cloud-security-and-privacy) and [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) for more information about our data handling standards.
-
-### Can you describe the de-identification process?
-Workplace Analytics processes metadata from Office 365 email and calendar. Email addresses are never shown in Workplace Analytics through dashboards or query results. The Workplace Data Engine de-identifies by using a symmetric hashing to ensure that supplemental organizational data can be added when needed. Encryption keys are securely maintained by Microsoft only allowing programmatic access.
 
 
 
