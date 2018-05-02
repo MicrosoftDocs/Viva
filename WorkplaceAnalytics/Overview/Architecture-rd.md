@@ -37,8 +37,14 @@ It is important to understand the data that is required to run the system, and t
 Header information from emails|PersonId,Organization,ManagerId, Layer,Timezone,Level,Location, EffectiveDate|
 Header information from Meetings|*At a minimum, the above data fields are required for the population scope that you are analyzing.*
 
+By providing organizational data for the entire organization, an analyst can understand the internal collaboration points of the population they are analyzing. If an organization decides not to provide organizational data for parts of the organization, any collaboration data caluclated will be allocated to the N/A. group
+![Org Data Example](~/images/wpa/overview/orgexample.png)
+
 >[!Important]
 >Attachments and text in the body of emails and meetings are never used by Workplace Analytics.
+
+
+
 
 ## *Data Outputs* 
 
