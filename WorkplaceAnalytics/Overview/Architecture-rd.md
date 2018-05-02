@@ -98,3 +98,5 @@ Workplace Analytics processes metadata from Office 365 email and calendar. Email
 
 ### Is Workplace Analytics compliant with workers councils?
 
+There is no compliance certification for such workers councils. Customers often have to work directly within each of their company's to ensure that Workers Councils are comfortable with the product and its use within the company. We strongly suggest you work with your internal legal and HR teams to respectfully engage with your Workers Councils.
+
