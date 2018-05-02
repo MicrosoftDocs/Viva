@@ -35,4 +35,4 @@ We appreciate all user feedback. To report any language-related bugs, use the **
 ### Related topics
 [Configure settings for Workplace Analytics](../use/settings.md)
 
-[Privacy settings considerations for Workplace Analytics](../use/privacy-considerations.md)
+[Privacy settings considerations for Workplace Analytics](../Privacy/privacy-considerations.md)
