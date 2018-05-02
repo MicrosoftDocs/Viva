@@ -75,7 +75,7 @@ Consider people in the following personas for the Workplace Analytics user roles
 |  Persona |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | Executive/business leader | | | <img src="../Images/WpA/check-mark.png"> |   |
-| Program manager | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
+| Program manager | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
 | Analyst/data scientist |   | <img src="../Images/WpA/check-mark.png"> | | |
 |  HR data provider / Workplace Analytics tool owner |    <img src="../Images/WpA/check-mark.png"> |   | | |
 
