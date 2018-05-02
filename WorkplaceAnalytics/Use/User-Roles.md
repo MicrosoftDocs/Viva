@@ -19,11 +19,11 @@ Users of Workplace Analytics need the proper level of access to areas of the pro
 
 These are the Workplace Analytics roles and their level of access:
 
-**Workplace Analytics Analyst:** Has full access to all service features, except Administration. This role is used for the analyst who requires the most complete access to the data.
+ * **Workplace Analytics Analyst:** Has full access to all service features, except Administration. This role is used for the analyst who requires the most complete access to the data.
 
-**Workplace Analytics Analyst (Limited Access):** Has access to the Home page, to explore-metrics features, and to flexible queries. This role is used for the analyst who only needs access to insights generated from our curated set of Explore-the-metrics dashboards.
+ * **Workplace Analytics Analyst (Limited Access):** Has access to the Home page, to explore-metrics features, and to flexible queries. This role is used for the analyst who only needs access to insights generated from our curated set of Explore-the-metrics dashboards.
 
-**Workplace Analytics Administrator:** Has access to the Administrator and Data-sources features. The Workplace Analytics administrator has responsibilities to configure privacy settings and system defaults and to prepare, upload, and verify organizational data into Workplace Analytics. 
+ * **Workplace Analytics Administrator:** Has access to the Administrator and Data-sources features. The Workplace Analytics administrator has responsibilities to configure privacy settings and system defaults and to prepare, upload, and verify organizational data into Workplace Analytics. 
 
 ## Details by user role
 
