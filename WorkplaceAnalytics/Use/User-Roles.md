@@ -28,7 +28,7 @@ These are the Workplace Analytics roles and their level of access:
 
  * **Administrator:** Has access to the Administrator and Data-sources features. The Workplace Analytics administrator has responsibilities to configure privacy settings and system defaults and to prepare, upload, and verify organizational data into Workplace Analytics. 
 
- * **Program manager:** Has access to the Home and Explore Metrics pages. They can also access select pages in the Solutions area, including Manage -- for setting up programs, and Track -- for viewing the progress of active and completed programs.
+ * **Program manager:** Has access to the Home and Explore Metrics pages. They also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
 
 ## Details by user role
 
