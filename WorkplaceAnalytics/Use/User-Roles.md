@@ -13,7 +13,7 @@ ms.prod: wpa
 
 # User roles in Workplace Analytics 
 
-People who use Workplace Analytics should be granted the proper access to the various areas of the product. Whether they are administrators -- who set system defaults, privacy settings, and upload data, or data analysts -- who view data about workplace behavior and act on that knowledge in various ways -- users must be granted the correct levels of permissions. This topic describes the user roles, their responsibilities, and the levels of access they need. 
+Users of Workplace Analytics need the proper level of access to areas of the product to be able to perform their required tasks. This topic describes the roles and responsibilities of users and the levels of access each role needs. 
 
 ## Role descriptions and access levels
 
