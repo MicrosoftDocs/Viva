@@ -38,7 +38,7 @@ While setting up a group query differs from setting up meeting or person queries
 But a group requires that you choose a grouping attribute for Group A (the time investors) …
 … and for Group B (the collaborators). 
 
-For example, you could examine how senior leaders allocated time across different organizations by setting Group A to “level” and Group B to “organization”.
+For example, you could examine how senior leaders allocated time across different organizations by setting Group A to “level” and Group B to “organization.”
 
 ![Create group query](../Images/WpA/tutorials/Group-query2.png)
 
