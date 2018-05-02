@@ -39,11 +39,11 @@ Each role has access to the pages in Workplace Analytics as described here:
 |  Page  | Page description |  Administrator |  Analyst |  Analyst (Limited Access) |
 | ---- | ---- | ---- | ---- | ---- |
 | **Home** | View highlights from the latest data; optionally explore metrics of team behavior |   | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
-| **Settings** | Make settings such as: <ol><li>System defaults</li><li>Privacy settings</li></ol> | <img src="../Images/WpA/check-mark.png"> |   |   |
-| **Sources** | Help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |   |
 | **Explore** | View a series of dashboards that provide insights into the way your organization collaborates |   | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
+| **Sources** | Help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |   |
 | **Queries** | Perform deeper exploration of the data through custom querying tools |   | <img src="../Images/WpA/check-mark.png"> |   |
 | **Solutions** | Create programs to help participants improve workplace behaviors. (Note that both analysts and program managers participate in the creation and management of programs.) |   | <img src="../Images/WpA/check-mark.png">  |   |
+| **Settings** | Make settings such as: <ol><li>System defaults</li><li>Privacy settings</li></ol> | <img src="../Images/WpA/check-mark.png"> |   |   |
 
 ### Function
 
