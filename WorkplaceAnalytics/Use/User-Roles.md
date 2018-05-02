@@ -26,3 +26,14 @@ These are the Workplace Analytics roles and the level of access:
 
 **Administrator role:** Access to Admin and Data Sources features. This role is used for the Workplace Analytics administrator to set system defaults, privacy settings, upload, and verify organizational data.
 
+### Has access to the following pages on the tool
+
+| Role | Page | ---- | ---- | ---- | ---- |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| ---- | **Home page** | **Settings:** <ol><li>Set system defaults</li><li>Set privacy settings</li></ol> | **Sources:** Helps to verify that the O365 data and organizational data has been loaded properly and is available for analysis | **Explore:** A series of dashboards designed to give you a quick view into the way your organization collaborates | **Queries:** Deeper exploration of the data through a custom querying tool |
+| WpA Administrator     | | <img src="../Images/WpA/check-mark.png" alt="check mark"> | <img src="../Images/WpA/check-mark.png" alt="check mark"> | | |
+| WpA Analyst	        | <img src="../Images/WpA/check-mark.png" alt="check mark"> | | <img src="../Images/WpA/check-mark.png" alt="check mark"> | <img src="../Images/WpA/check-mark.png" alt="check mark"> | <img src="../Images/WpA/check-mark.png" alt="check mark"> |
+| WpA Limited Analyst	| <img src="../Images/WpA/check-mark.png" alt="check mark"> | | | <img src="../Images/WpA/check-mark.png" alt="check mark"> | |
+	
+
+
