@@ -28,7 +28,7 @@ The minimum-group-size rule can be stated this way: If a chart area (such as a b
 
 In the following illustration (of a column chart), the blue columns on the left represent groups whose size exceeds the minimum group size. For this reason, they display real data.
 
-The gray and white columns on the right represent groups smaller than the minimum-group-size threshold. Therefore, they display no data. 
+The gray and white columns on the right represent groups below the minimum-group-size threshold. Therefore, they display no data. 
 
 <img src="../Images/WpA/group-size-bars.png" alt="Bar chart with bars above and below group size threshold">
 
