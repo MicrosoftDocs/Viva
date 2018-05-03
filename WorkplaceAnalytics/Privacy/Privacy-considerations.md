@@ -16,21 +16,34 @@ This topic discusses various considerations that Workplace Analytics admins shou
 
 ## Minimum group size
 
-A minimum group size helps maintain employee privacy by ensuring that specific people cannot be easily identified by the attributes of the group. 
+A minimum group size helps maintain employee privacy by ensuring that specific people cannot be easily identified by the attributes of the group. The default minimum group size is five. You can change the minimum group size it to a level that you consider more relevant for your organization.
 
-The minimum group size setting determines the minimum group size that you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the Solutions area. The dashboards will not display information about a group that is smaller than the minimum size that is in effect.
+### The rule
 
-The default minimum group size is five. You cannot decrease the default minimum group size, but you can increase it to a level that you consider more relevant for your organization.
+The minimum-group-size setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the Solutions area. The dashboards will not display information about a group that is smaller than the minimum size that is in effect. 
 
-The one exception is in histogram charts. You see histogram charts in the following pages in Workplace Analytics:
+The minimum-group-size rule can be stated this way: If a chart area (such as a bar in a bar chart) corresponds to a group whose size is equal to or less than the minimum group size, that chart area is obfuscated. In the following illustration (of a column chart), the blue bars on the left represent groups whose size exceeds the minimum group size. The gray and white bars on the right represent groups smaller than the minimum-group-size threshold. 
+
+<img src="../Images/WpA/group-size-bars.png" alt="Bar chart with bars above and below group size threshold">
+
+> [!Note] 
+> The minimum group size rule applies to charts that display information derived from HR data. In other words, they display information about arrangements that exist in your organization -- such as managers at a specific level or employees in a particular city.  
+
+### Exception: histogram charts
+
+The minimum-group-size rule does not apply to histogram charts. This is because histogram charts display information that is based on metrics -- on values calculated from observed behavior, _not_ on HR data.   
+
+On histograms, the x-axis consists of bins that are based on average metric values and the y-axis is determined by the number of people whose average metric value puts them in that bin. 
+
+If there is only one person who falls in a specific bin, the histogram displays data for that one person.
+
+However, you cannot single out this individual because you do not know what “group” they belong to. (In some other charts, such as column charts, an individual in a small group might be identifiable but in a histogram, individuals are a part of the larger filter group.) You also will not be able to determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
+
+You see histogram charts in the following pages in Workplace Analytics:
 
  - On the Management and Coaching tab of the Explore page 
  - For goal setting in the Solutions area
  - To track program success on the Track page of the Solutions area
-
-On histograms, the x-axis consists of bins that are based on average metric values and the y-axis is determined by the number of people whose average metric value puts them in that bin. If there is only one person who falls in a specific bin, the histogram displays data for that one person.
-
-However, you cannot single out this individual because you do not know what “group” they belong to. (In some other charts, such as column charts, an individual might be identifiable but in a histogram, individuals are a part of the larger filter group.) You also will not be able to determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
 
 ## Hash subject lines 
 You can help maintain employee privacy by hiding the subject lines of meetings and emails. There are privacy and data analysis trade-offs for each scenario. The following information can help you determine whether or not you want to hide subject lines in your queries.  
