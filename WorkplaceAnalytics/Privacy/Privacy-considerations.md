@@ -35,13 +35,13 @@ The gray and white columns on the right represent groups below the minimum-group
 > [!Note] 
 > The minimum group size rule applies to charts that display information derived from HR data. In other words, they display information about arrangements that exist in your organization -- such as managers at a specific level or employees in a particular city.  
 
-### Exception: histogram charts
+### Exception to the rule: histogram charts
 
 The minimum-group-size rule does not apply to histogram charts. This is because histogram charts display information that is based on metrics -- on values calculated from observed behavior, _not_ on HR data.   
 
-In histograms, the x-axis consists of bins that are based on average metric values and the y-axis is determined by the number of people whose average metric value puts them in that bin. 
+In histograms, the x-axis consists of bins that are based on average metric values and the y-axis is determined by the number of people whose average metric value puts them in that bin. _Neither of these values reflects HR data._
 
-If only one person falls in a specific bin, the histogram would still display data for that one person. (The height of the bin would be 1.)
+If a particular bin contains only one person, the histogram still displays data for that person. 
 
 However, you cannot single out this individual. This is because you do not know what HR “group” they belong to. (In some other charts, such as column charts, an individual in a group below the threshold might be identifiable but in a histogram, the HR group to which individuals belong is the larger filter group.) You also cannot determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
 
