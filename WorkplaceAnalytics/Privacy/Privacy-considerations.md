@@ -22,7 +22,13 @@ A minimum group size helps maintain employee privacy by ensuring that specific p
 
 The minimum-group-size setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the Solutions area. The dashboards will not display information about a group that is smaller than the minimum size that is in effect. 
 
-The minimum-group-size rule can be stated this way: If a chart area (such as a bar in a bar chart) corresponds to a group whose size is equal to or less than the minimum group size, that chart area is obfuscated. In the following illustration (of a column chart), the blue bars on the left represent groups whose size exceeds the minimum group size. The gray and white bars on the right represent groups smaller than the minimum-group-size threshold. 
+The minimum-group-size rule can be stated this way: If a chart area (such as a bar in a bar chart) corresponds to a group whose size is equal to or less than the minimum group size, that chart area is obfuscated. 
+
+#### Example
+
+In the following illustration (of a column chart), the blue columns on the left represent groups whose size exceeds the minimum group size. For this reason, they display real data.
+
+The gray and white columns on the right represent groups smaller than the minimum-group-size threshold. Therefore, they display no data. 
 
 <img src="../Images/WpA/group-size-bars.png" alt="Bar chart with bars above and below group size threshold">
 
@@ -33,11 +39,11 @@ The minimum-group-size rule can be stated this way: If a chart area (such as a b
 
 The minimum-group-size rule does not apply to histogram charts. This is because histogram charts display information that is based on metrics -- on values calculated from observed behavior, _not_ on HR data.   
 
-On histograms, the x-axis consists of bins that are based on average metric values and the y-axis is determined by the number of people whose average metric value puts them in that bin. 
+In histograms, the x-axis consists of bins that are based on average metric values and the y-axis is determined by the number of people whose average metric value puts them in that bin. 
 
-If there is only one person who falls in a specific bin, the histogram does display data for that one person.
+If only one person falls in a specific bin, the histogram would still display data for that one person. (The height of the bin would be 1.)
 
-However, you cannot single out this individual. This is because you do not know what HR “group” they belong to. (In some other charts, such as column charts, an individual in a small group might be identifiable but in a histogram, the HR group to which individuals belong is the larger filter group.) You also will not be able to determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
+However, you cannot single out this individual. This is because you do not know what HR “group” they belong to. (In some other charts, such as column charts, an individual in a group below the threshold might be identifiable but in a histogram, the HR group to which individuals belong is the larger filter group.) You also cannot determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
 
 #### Where to find histogram charts
 
