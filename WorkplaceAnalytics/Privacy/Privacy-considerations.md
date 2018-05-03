@@ -16,7 +16,7 @@ This topic discusses various considerations that Workplace Analytics admins shou
 
 ## Minimum group size
 
-A minimum group size helps maintain employee privacy by ensuring that specific people cannot be easily identified by the attributes of the group. The default minimum group size is five. You can change the minimum group size it to a level that you consider more relevant for your organization.
+A minimum group size helps maintain employee privacy by ensuring that specific people cannot be easily identified by the attributes of the group. The default minimum group size is five. You can change the minimum group size to a level that you consider more relevant for your organization.
 
 ### The rule
 
@@ -26,14 +26,14 @@ The minimum-group-size rule can be stated this way: If a chart area (such as a b
 
 #### Example
 
-In the following illustration (of a column chart), the blue columns on the left represent groups whose size exceeds the minimum group size. For this reason, they display real data.
+In the following illustration (of a column chart), the blue-green columns on the left represent groups whose size exceeds the minimum group size. For this reason, they display real data.
 
 The gray and white columns on the right represent groups below the minimum-group-size threshold. Therefore, they display no data. 
 
 <img src="../Images/WpA/group-size-bars.png" alt="Bar chart with bars above and below group size threshold">
 
 > [!Note] 
-> The minimum group size rule applies to charts that display information derived from HR data. In other words, they display information about arrangements that exist in your organization -- such as managers at a specific level or employees in a particular city.  
+> The minimum group size rule applies to charts that display information derived from HR data. In other words, they display information about circumstances that exist in your organization -- such as managers at a specific level or employees in a particular city.  
 
 ### Exception to the rule: histogram charts
 
