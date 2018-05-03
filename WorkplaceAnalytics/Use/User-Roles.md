@@ -32,11 +32,11 @@ These are the Workplace Analytics roles and their level of access:
 
 ## Details by user role
 
-The following tables provide more details about the three roles of Workplace Analytics user types:
+The following tables provide more details about Workplace Analytics user roles:
 
 ### Access to pages in Workplace Analytics
 
-Each role has access to the pages in Workplace Analytics as described here: 
+Each role has access to pages of Workplace Analytics as described here: 
 
 |  Page  | Page description |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -49,7 +49,7 @@ Each role has access to the pages in Workplace Analytics as described here:
 
 ### Function
 
-People in these user roles performing the following functions in Workplace Analytics:
+People in these roles perform the following functions in Workplace Analytics:
 
 |  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -60,7 +60,7 @@ People in these user roles performing the following functions in Workplace Analy
 
 ### Prerequisite skills for being assigned this role
 
-Users should have the following skills before being assigned one of the roles in Workplace Analytics:
+Users should have the following skills before being assigned one of the Workplace Analytics user roles:
 
 |  Prerequisite skills  |   Administrator |  Analyst |  Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
