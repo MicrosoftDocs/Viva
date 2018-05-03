@@ -35,15 +35,17 @@ The minimum-group-size rule does not apply to histogram charts. This is because 
 
 On histograms, the x-axis consists of bins that are based on average metric values and the y-axis is determined by the number of people whose average metric value puts them in that bin. 
 
-If there is only one person who falls in a specific bin, the histogram displays data for that one person.
+If there is only one person who falls in a specific bin, the histogram does display data for that one person.
 
-However, you cannot single out this individual because you do not know what “group” they belong to. (In some other charts, such as column charts, an individual in a small group might be identifiable but in a histogram, individuals are a part of the larger filter group.) You also will not be able to determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
+However, you cannot single out this individual. This is because you do not know what HR “group” they belong to. (In some other charts, such as column charts, an individual in a small group might be identifiable but in a histogram, the HR group to which individuals belong is the larger filter group.) You also will not be able to determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
+
+#### Where to find histogram charts
 
 You see histogram charts in the following pages in Workplace Analytics:
 
- - On the Management and Coaching tab of the Explore page 
- - For goal setting in the Solutions area
- - To track program success on the Track page of the Solutions area
+ * On the Management and Coaching tab of the Explore page 
+ * For goal setting in the Solutions area
+ * To track program success on the Track page of the Solutions area
 
 ## Hash subject lines 
 You can help maintain employee privacy by hiding the subject lines of meetings and emails. There are privacy and data analysis trade-offs for each scenario. The following information can help you determine whether or not you want to hide subject lines in your queries.  
