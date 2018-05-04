@@ -48,7 +48,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics.png)
 
-6. Answer this question to specify the type of data you want to analyze. Select one of the following three metrics: 
+6. Answer this question to specify the type of data you want to analyze. Unlike with person or meeting queries, group-to-group queries require you to select a single metric of between-group collaboration:
 
     * **Count** gives you the number of interactions that occurred between the two groups. These interactions are not subject to the time-allocation rules.
 
@@ -66,17 +66,11 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    You have now finished specifying the time investors you want to analyze and how you want the query to group them. Now, you make similar determinations about the collaborators. 
 
-   Move on to the Their collaborators section:
+   Move on to the section called Their collaborators:
    ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
    
-9. 
-
-
-
-
-Unlike a person or meeting query, the group query requires you to select a single metric of between-group collaboration.
-
-
-
+9. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization)that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators (the ones in Sales? the ones in R&D?) interacted with the time investors. 
+10. Now, you can group the collaborators. By doing this, you can have the query results inform you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors. 
 ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
+11. Click **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it, or select a link that you can use in a visualization tool such as Power BI. 
 
