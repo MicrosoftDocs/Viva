@@ -59,6 +59,7 @@ While setting up a group query differs markedly from setting up meeting or perso
    In the following sections, you determine other aspects of the character of your query by choosing how to group both the time investors and the collaborators. For example, you could examine how senior leaders allocated time across different organizations by setting the time investors' group to “level” and the collaborators' group to “organization.”
 
    Move on to the Time investors section:
+
    ![Group and filter time investors](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
 
 7. The next question is How do you want to group the time investors? Answer this by selecting an attribute of this group of people; for example, FunctionType, IsInternal, or tenuremonths. 
@@ -67,10 +68,13 @@ While setting up a group query differs markedly from setting up meeting or perso
    You have now finished specifying the time investors you want to analyze and how you want the query to group them. Now, you make similar determinations about the collaborators. 
 
    Move on to the section called Their collaborators:
+
    ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
    
 9. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization)that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators (the ones in Sales? the ones in R&D?) interacted with the time investors. 
 10. Now, you can group the collaborators. By doing this, you can have the query results inform you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors. 
-![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
+
+    ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
+
 11. Click **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it, or select a link that you can use in a visualization tool such as Power BI. 
 
