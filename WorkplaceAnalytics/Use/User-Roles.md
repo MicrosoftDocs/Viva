@@ -40,33 +40,35 @@ Each role has access to pages of Workplace Analytics as described here:
 
 |  Page  | Page description |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| **Home** | View highlights from the latest data; optionally explore metrics of team behavior |   | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
-| **Explore** | View a series of dashboards that provide insights into the way your organization collaborates |   | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
-| **Sources** | Help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |   | |
-| **Queries** | Perform deeper exploration of the data through custom querying tools |   | <img src="../Images/WpA/check-mark.png"> |   | |
-| **Solutions** | Create programs to help participants improve workplace behaviors. |   | <img src="../Images/WpA/check-mark.png">  |   |  <img src="../Images/WpA/check-mark.png"> |
-| **Settings** | Make settings such as: <ol><li>System defaults</li><li>Privacy settings</li></ol> | <img src="../Images/WpA/check-mark.png"> |   |   | |
+| **Home** | View highlights from the latest data; optionally explore metrics of team behavior | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
+| **Explore** | View a series of dashboards that provide insights into the way your organization collaborates | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |<img src="../Images/WpA/check-mark.png"> |
+| **Sources** | Help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | | |
+| **Queries** | Perform deeper exploration of the data through custom querying tools | | <img src="../Images/WpA/check-mark.png"> | | |
+| **Solutions** | Create programs to help participants improve workplace behaviors. | | <img src="../Images/WpA/check-mark.png"> | |  <img src="../Images/WpA/check-mark.png"> |
+| **Settings** | Make settings such as: <ol><li>System defaults</li><li>Privacy settings</li></ol> | <img src="../Images/WpA/check-mark.png"> | | | |
 
-### Function
+### Functions performed
 
 People in these roles perform the following functions in Workplace Analytics:
 
 |  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| Configure privacy and system default settings | <img src="../Images/WpA/check-mark.png">| |  |   |
-| Upload organizational data into the system | <img src="../Images/WpA/check-mark.png"> | |  | |
-| Use the full set of analyst tools (on the Sources, Explore, and Queries pages) to perform analysis |   | <img src="../Images/WpA/check-mark.png"> | | |
-| Serve as HR data provider and Workplace Analytics tool owner |   | |  <img src="../Images/WpA/check-mark.png"> |   |
+| Configure privacy and system default settings | <img src="../Images/WpA/check-mark.png">| | | |
+| Upload organizational data into the system | <img src="../Images/WpA/check-mark.png"> | | | |
+| Use the full set of analyst tools (on the Sources, Explore, and Queries pages) to perform analysis | | <img src="../Images/WpA/check-mark.png"> | | |
+| Serve as HR data provider and Workplace Analytics tool owner | | | <img src="../Images/WpA/check-mark.png"> | |
+| Help coordinate, setup, and manage change programs | | | | <img src="../Images/WpA/check-mark.png"> |
 
-### Prerequisite skills for being assigned this role
+### Levels of trust and responsibility
 
-Users should have the following skills before being assigned one of the Workplace Analytics user roles:
+Users should exhibit the following traits before being assigned one of the Workplace Analytics user roles:
 
-|  Prerequisite skills  |   Administrator |  Analyst |  Analyst (Limited Access) | Program manager |
+| Prerequisite | Administrator |  Analyst | Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-|  Ability to view personally identifiable, individual-level organization data (including email addresses and HR fields such as level and organization) | <img src="../Images/WpA/check-mark.png"> | | | |
-|  Ability to view de-identified, individual-level data:<ol><li>Organization data (HR fields such as level or organization)</li><li>Office 365 data (metrics about collaboration time and relationships)</li></ol>(Optional) Has undergone sensitivity training and screening to handle this type of data.  |   | <img src="../Images/WpA/check-mark.png"> | | |
-|  Ability to view aggregated and de-identified Office 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
+| Ability to view personally identifiable, individual-level organization data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png"> | | | |
+| Ability to view de-identified, individual-level data:<ol><li>Organization data (HR fields such as level or organization)</li><li>Office 365 data (metrics about collaboration time and relationships)</li></ol>(Optional) Has undergone sensitivity training and screening to handle this type of data. | | <img src="../Images/WpA/check-mark.png"> | | |
+| Ability to view aggregated and de-identified Office 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
+| Can create custom programs to be deployed to groups and can influence the pages that users see in MyAnalytics | | | | <img src="../Images/WpA/check-mark.png"> | 
 
 ### Suggested personas
 
