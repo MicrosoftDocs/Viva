@@ -62,7 +62,7 @@
             href: ~/Tutorials/Person-queries.md
           - name: Meeting queries
             href: ~/Tutorials/Meeting-queries.md
-          - name: Grou-to-group queries
+          - name: Group-to-group queries
             href: ~/Tutorials/Group-to-group-queries.md
           - name: Query auto-update option
             href: ~/Tutorials/Query-auto-update.md            
