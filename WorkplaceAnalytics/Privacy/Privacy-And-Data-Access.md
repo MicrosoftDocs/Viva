@@ -73,7 +73,6 @@ You decide which users to include by only assigning Workplace Analytics licenses
 For the users that you choose to include, you can decide to exclude data based upon the following:
 
  * Keywords in subject line. You can exclude emails and meetings that contain in their subject lines specific keywords that you define.
-
  * Email address and domain. You can exclude emails and meetings from, or to, specific users, or all users from a domain.
 
 >[!Note]
