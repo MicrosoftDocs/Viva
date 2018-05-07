@@ -58,11 +58,17 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 
 ### To prepare your organizational data for upload to Workplace Analytics
 
+After you have created your source .csv file, you can upload it to the Workplace Analytics service. After your data has been successfully uploaded, Workplace Analytics will perform additional validation and processing to complete provisioning. The Workplace Analytics team will contact your Workplace Analytics administrator if any problems arise.
+
+<!-- 
+
 * Follow the instructions in the topic [Prepare organizational data](../Use/Prepare-organizational-data.md).
 
 Once the .csv file has been created, the Workplace Analytics administrator can upload it into the service. For more information, see [Upload organizational data](../Use/Upload-organizational-data.md).
 
 Once your upload has been submitted successfully, there is additional validation and processing of your data to complete provisioning. If any problems arise, the Workplace Analytics team will contact your Workplace Analytics administrator.
+
+-->
 
 ### After provisioning
 Once data is completely provisioned, Workplace Analytics users will be able to access full product features.
@@ -71,4 +77,6 @@ Office 365 meeting and email data is refreshed monthly. This is a good time for 
 ### Related topics
 [Data sources in Workplace Analytics](../Use/Data-sources.md)
 
+<!-- 
 [Prepare organizational data](../Use/Prepare-organizational-data.md) 
+-->
