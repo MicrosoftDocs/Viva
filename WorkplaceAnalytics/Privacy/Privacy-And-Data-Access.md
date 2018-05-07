@@ -29,10 +29,10 @@ This document introduces the privacy controls available to Workplace Analytics a
 ### You decide who gets to see what data
 Organizations decide who can have access to seeing the data in Workplace Analytics. You should ensure that primary users receive suitable training in privacy, your company’s policies, and other applicable subject areas before being granted access to the data. The following levels of permission provide access to the data:
 
-- **Analyst (Limited):** Provides access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
-- **Analyst:** Provides full access to all product features except the administrator features.
-- **Administrator role:** Provides access to administrator features only.
-- **Program manager:** Provides access to the Workplace Analytics home page and lets PMs explore metrics in cases where minimum group size is enforced. PMs also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
+ * **Analyst (Limited):** Provides access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
+ * **Analyst:** Provides full access to all product features except the administrator features.
+ * **Administrator role:** Provides access to administrator features only.
+ * **Program manager:** Provides access to the Workplace Analytics home page and lets PMs explore metrics in cases where minimum group size is enforced. PMs also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
 
 ## You control the data that Workplace Analytics uses
 You retain full control over what data is used and how it is used within Workplace Analytics. Workplace Analytics uses Office 365 email and calendar metadata and external data defined by your organization to compute how much time groups within your organization spend on email and in meetings, and with whom.
@@ -41,17 +41,17 @@ You retain full control over what data is used and how it is used within Workpla
 Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user’s mailbox and calendar. 
 
 ### Header information from emails
-- Who the sender is
-- Who the recipient is
-- When was the email sent
-- What the subject line is
+ * Who the sender is
+ * Who the recipient is
+ * When was the email sent
+ * What the subject line is
 
 ### Header information from meetings
-- Who organized the meeting
-- Who the invitees are and what their attendee status is
-- When the was meeting scheduled for
-- Where the meeting was scheduled to be held
-- What the subject line is
+ * Who organized the meeting
+ * Who the invitees are and what their attendee status is
+ * When the was meeting scheduled for
+ * Where the meeting was scheduled to be held
+ * What the subject line is
 
 >[!Important]
 >Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
@@ -72,9 +72,9 @@ You decide which users to include by only assigning Workplace Analytics licenses
 ### User data exclusion
 For the users that you choose to include, you can decide to exclude data based upon the following:
 
-- Keywords in subject line. You can exclude emails and meetings that contain in their subject lines specific keywords that you define.
+ * Keywords in subject line. You can exclude emails and meetings that contain in their subject lines specific keywords that you define.
 
-- Email address and domain. You can exclude emails and meetings from, or to, specific users, or all users from a domain.
+ * Email address and domain. You can exclude emails and meetings from, or to, specific users, or all users from a domain.
 
 >[!Note]
 >Exclusion occurs before metadata is processed within Workplace Analytics. 
