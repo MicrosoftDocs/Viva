@@ -20,10 +20,12 @@
         items:
           - name: Workplace Analytics settings
             href: ~/Use/Settings.md
-          - name: Prepare organizational data
-            href: ~/Use/Prepare-organizational-data.md
-          - name: Upload organizational data
-            href: ~/Use/Upload-organizational-data.md            
+  #        - name: Prepare organizational data
+  #          href: ~/Use/Prepare-organizational-data.md
+  #        - name: Upload organizational data
+  #          href: ~/Use/Upload-organizational-data.md     
+          - name: Prepare and upload organizational data
+            href: ~/Setup/Prepare-and-Upload-organizational-data.md                     
           - name: Data sources
             href: ~/Use/Data-Sources.md
           - name: Assign group-based licenses
