@@ -47,7 +47,7 @@ The Data sources summary provides the following information about your data:
 
 For more information about what data is needed to compute metrics, see these topics:
 
-[Prepare organizational data](../use/Prepare-organizational-data.md)
+[Prepare and upload organizational data](../use/Prepare-and-upload-organizational-data.md)
 
 [Metric definitions](../Use/Metric-definitions.md)
 

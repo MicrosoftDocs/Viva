@@ -26,7 +26,7 @@ Explore contains a set of analytical dashboards that are the starting point to g
 *  [**Week in the life**](../use/explore-metrics-week-in-the-life.md) provides a summary of day-to-day collaboration in the organization.
 *  [**Meetings overview**](../use/explore-metrics-meetings-overview.md) provides a summary of meeting norms within your organization.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) provides a summary of collaboration between leaders, managers and employees.
-* [**Networks and collaboration** ](../use/explore-metrics-networks-and-collaboration.md)provides a summary of the network patterns within the company.
+* [**Networks and collaboration**](../use/explore-metrics-networks-and-collaboration.md)provides a summary of the network patterns within the company.
 
 [**Sources**](../use/data-sources.md) gives you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
 
