@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Meetin queries in Workplace Analytics
+title: Meeting queries in Workplace Analytics
 description: This article describes when to use a meeting query and the kind of information they provide.  
 author: rodonahu
 ms.author: rodonahu
