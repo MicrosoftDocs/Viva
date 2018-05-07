@@ -30,8 +30,9 @@ Organizational data is the information about employees that your company provide
 - Workplace Analytics org dData is structured as a flat file with each row representing one person with columns representing attribute fields.
 
 ### How is it used?
-- Provides context for the mailboxes that enables Workplace Analytics to calculate metrics based on the relationship of the Org Data attributes.
-- Enables the user to filter and group data in meaningful ways and generate custom metrics.
+
+ * Provides context for the mailboxes that enables Workplace Analytics to calculate metrics based on the relationship of the Org Data attributes.
+ * Enables the user to filter and group data in meaningful ways and generate custom metrics.
 
 ### How often should it be refreshed?
 To account for organization changes, it is recommended to refresh the data monthly.
@@ -50,11 +51,11 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 > [!Important]
 > To help ensure privacy, we recommend not including employee names as any additional attribute. 
 
-### What are common pitfalls to avoid?
-- Too many or too few unique values
-- Redundant values
-- Attributes that only exist for a subset of your employees
-- Dirty data
+### What are common pitfalls to avoid? 
+ * Too many or too few unique values
+ * Redundant values
+ * Attributes that only exist for a subset of your employees
+ * Dirty data
 
 ### To prepare your organizational data for upload to Workplace Analytics
 
