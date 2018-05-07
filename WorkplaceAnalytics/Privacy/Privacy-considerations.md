@@ -15,11 +15,47 @@ ms.prod: wpa
 This topic discusses various considerations that Workplace Analytics admins should explore when deciding on privacy settings. 
 
 ## Minimum group size
-A minimum group size helps maintain employee privacy by ensuring that specific people are not easily identified by the attributes of the group. 
 
-The minimum group size setting determines the minimum group size you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md). The dashboards will not display information about a group that is smaller than the minimum you set. 
+A minimum group size helps maintain employee privacy by ensuring that specific people cannot be easily identified by the attributes of the group. The default minimum group size is five. You can change the minimum group size to a level that you consider more relevant for your organization.
 
-The default minimum group size is five. You can increase the minimum to be relevant for your organization. 
+### The rule
+
+The minimum-group-size setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the Solutions area. The dashboards will not display information about a group that is smaller than the minimum size that is in effect. 
+
+The minimum-group-size rule can be stated this way: If a chart area (such as a bar in a bar chart) corresponds to a group whose size less than the minimum group size, that chart area is obfuscated. 
+
+#### Example
+
+In the following illustration (of a column chart), the blue-green columns on the left represent groups whose size exceeds the minimum group size. For this reason, they display real data.
+
+The gray and white columns on the right represent groups below the minimum-group-size threshold. Therefore, they display no data. 
+
+<img src="../Images/WpA/group-size-bars.png" alt="Bar chart with bars above and below group size threshold">
+
+> [!Note] 
+> The minimum group size rule applies to charts that display information derived from HR data. In other words, they display information about circumstances that exist in your organization -- such as managers at a specific level or employees in a particular city.  
+
+### Exception to the rule: histogram charts
+
+For histogram charts, the minimum-group-size rule is applied differently, in the following ways:
+
+1. **Filter group too small: histogram is not displayed**
+
+   If the _filter group_ from which the histogram draws its data is below minimum group size, Workplace Analytics does not display the histogram at all.
+
+2. **Bin population too small: bin is still displayed**
+
+   In histograms, the x-axis consists of rectangles (called "bins") that are based on average metric values, and the y-axis is determined by the number of people whose average metric value puts them in that bin. _Neither of these values reflects HR data._ For this reason, the histogram still displays data for a bin even if it contains fewer people than the minimum group value. Histogram charts can safely display this information because it is based on metrics -- on values calculated from observed behavior, _not_ on HR data. 
+
+   Even if a bin in a histogram contained data for only one individual, the histogram still displays that data. You cannot single out this individual because you do not know what HR “group” they belong to. (In some other charts, such as column charts, an individual in a group below the threshold might be identifiable but in a histogram, the HR group to which individuals belong is the larger filter group.) You also cannot determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
+
+#### Where to find histogram charts
+
+You see histogram charts in the following pages in Workplace Analytics:
+
+ * On the Management and Coaching tab of the Explore page 
+ * For goal setting in the Solutions area
+ * To track program success on the Track page of the Solutions area
 
 ## Hash subject lines 
 You can help maintain employee privacy by hiding the subject lines of meetings and emails. There are privacy and data analysis trade-offs for each scenario. The following information can help you determine whether or not you want to hide subject lines in your queries.  
@@ -39,33 +75,38 @@ You can help maintain employee privacy and focus your analysis by excluding cert
 The following information can help you determine what privacy settings best match your company’s policies and objectives. 
 
 ### Domains
+
 You can enter a list of domains that you want to exclude. All email and meetings from domains listed here will excluded from analysis. 
 
-> [!Note]
-> Currently, there is only the option to exclude (black list) specific domains, not to include (white list) specific domains.
+> [!Note] 
+> There exists only the option to exclude (black list) specific domains, not to include (white list) specific domains.
 
 ### Email addresses
-You can enter list of email addresses that you want to exclude. _Any and all_ email and meetings in which these email addresses are included (as both sender/recipient and attendee/invitee) will excluded from analysis. Therefore, when adding email addresses to exclude, it's important to consider all the sender/recipient and attendee/invitee implications of the exclusion. 
 
-### Exclude email address example
-If you excluded the email address of the CEO (ceo@company.com), all meetings and emails in which the CEO is included would be removed from analysis. Meaning, for all meeting and emails that include the CEO, the metadata for all other recipients and attendees included in those same emails and meetings would be excluded.  
+You can enter list of email addresses that you want to exclude. _Any and all_ emails and meetings in which these email addresses are included (as both sender/recipient and attendee/invitee) will excluded from analysis. Therefore, when adding email addresses to exclude, it's important to consider all the sender/recipient and attendee/invitee implications of the exclusion. 
+
+#### Example: Exclude email addresses
+
+If you excluded the email address of the CEO (ceo@company.com), all meetings and emails in which the CEO is included would be removed from analysis. This means that for all meetings and emails that include the CEO, the metadata for all other recipients and attendees included in those same emails and meetings would be excluded.  
 
 > [!Note]
 > If a user has multiple aliases, you must enter each email address that you want to exclude.  
 
-### Terms from subject line
-You can enter a list of keywords or terms that occur in the subject lines of emails and meetings that you want to exclude. All email and meetings in which contain these keywords will excluded from analysis.
+### Terms in subject line
 
-Exclude terms from subject line example
-If you wanted to exclude all emails with the terms “confidential,” “ACP,” and “privileged,” you would enter: confidential;ACP;privileged 
+You can enter a list of keywords or terms that occur in the subject lines of emails and meetings that you want to exclude. All email and meetings that contain these keywords will be excluded from analysis.
 
-#### Keyword exclusion logic
+#### Example: Exclude terms from subject line
+
+To exclude all emails with the terms “confidential,” “ACP,” and “privileged,” enter: confidential;ACP;privileged 
+
+### Keyword exclusion logic
+
 * Case is ignored, so you may use upper or lower-case terms
 * Does not match multiple word terms, so you need to list each keyword as a separate term
 * Does not match partial words, so you need to list each keyword as a separate term
 
-#### Keyword exclusion logic examples
-
+#### Examples: Keyword exclusion logic
 
 Term from subject line to exclude | Actual subject line	 | Excluded
 ---------|----------|---------
@@ -75,9 +116,10 @@ Term from subject line to exclude | Actual subject line	 | Excluded
  legal;acquisition |Is this a legal acquisition | Yes  - Excluded both legal and aquisition
 
  > [!Note]
->When adding the subject line terms to exclude from analysis, Workplace Analytics may not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
+ > When you add subject-line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
-### Related topics 
+### Related topics
+
 [Configure settings for Workplace Analytics](../Use/Settings.md)
 
-[Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)
+[Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md)

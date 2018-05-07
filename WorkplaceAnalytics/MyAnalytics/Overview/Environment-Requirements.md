@@ -11,9 +11,9 @@ ms.topic: get-started-article
 ms.prod: wpa
 ---
 
-# MyAnalytics environment requirements
+## Environment requirements for MyAnalytics
 
-## MyAnalytics licensing requirements
+### MyAnalytics licensing requirements
 
 MyAnalytics is available in the following plans:
 * Office 365 Enterprise E5 
@@ -26,15 +26,15 @@ You can also purchase a MyAnalytics add-on if you have one of the following plan
 * Office 365 A3
 * Office 365 A1  
 
-## Support of environments 
+### Support of environments 
  
-### Office 365 environments that are supported
+#### Office 365 environments that are supported
 * Worldwide Multi-tenant
 * Dedicated Multi-tenant
 * Go-locals
 * GCC
  
-### Office 365 environments that are not supported
+#### Office 365 environments that are not supported
 * GCC-High
 * DoD
 * Gallatin

@@ -32,7 +32,7 @@ Query results, especially when viewed in a visualization tool, can uncover dynam
  * When you create the query, you run it for the first time. As it runs, it uses data from the exact date range that you defined.
  * The query automatically runs again, once every week. Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange. 
  * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date also becomes one week later.  
- * Workplace Analytics runs the auto-update query on this weekly schedule indefinitely.
+ * Workplace Analytics runs the auto-update query on this weekly schedule for one year.
 
 ## Obtain the results of an auto-update query
 

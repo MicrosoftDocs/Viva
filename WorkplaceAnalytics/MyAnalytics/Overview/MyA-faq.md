@@ -119,7 +119,7 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients. 
  
-# For IT administrators
+## For IT administrators
 
 #### Where is user data stored? 
 
@@ -127,7 +127,7 @@ User metrics data is stored in users’ mailboxes. An exception is the signal th
  
 #### How long does it take for the personal dashboard to become available? 
 
-The personal dashboard is available to a MyAnalytics user as soon as they receive their [welcome email](../use/MyA-Welcome-email.md). This happens about three days after the MyAnalytics license was assigned to the participant. For more information, see [Assign MyAnalytics licenses to users](../setup/assign-licenses.md).
+The personal dashboard is available to a MyAnalytics user as soon as they receive their [welcome email](../setup/MyA-Welcome-email.md). This happens about three days after the MyAnalytics license was assigned to the participant. For more information, see [Assign MyAnalytics licenses to users](../setup/assign-licenses.md).
  
 #### When the dashboard is activated, does it show any historical data or does it start ‘from scratch’? 
 

@@ -44,7 +44,7 @@ As a data controller, your organization should:
    * Determine what information you provide to employees about how your organization will process their personal data in Workplace Analytics; and
    * Take local considerations into account (for example, obtain approval from local works councils, if applicable).
  * Use Workplace Analytics privacy controls to direct what data will be analyzed, how data will appear in results, and who will have access to both raw data and the results of analysis.
- * Review and be familiar with this document and other Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md) provided by Microsoft. 
+ * Review and be familiar with this document and other Workplace Analytics [privacy documentation](../Overview/Privacy-And-Data-Access.md) provided by Microsoft. 
 
 ### Microsoft’s role: Data processor
 
@@ -122,7 +122,7 @@ You have full control over what data to include in analysis using Workplace Anal
 
 ### Data provided by Microsoft Office 365
 
-Workplace Analytics uses header information from Office 365 emails and calendar items. This header information includes sender and recipient, date and subject lines for emails, and organizer, attendee, duration, and location for meetings. Workplace Analytics never includes attachments and content in emails and calendar items. For a full description of what is included and excluded please review [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md).
+Workplace Analytics uses header information from Office 365 emails and calendar items. This header information includes sender and recipient, date and subject lines for emails, and organizer, attendee, duration, and location for meetings. Workplace Analytics never includes attachments and content in emails and calendar items. For a full description of what is included and excluded please review [Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md).
 
 It’s important to note that while Workplace Analytics uses this Office 365 data, most of the header information is never directly available to users within the service. Rather, Workplace Analytics provides computations and metrics based on this information. Furthermore, using the settings within the service, you get to decide and configure what data to use and who can see it. Please review the product privacy features documentation for full details.
 
@@ -135,7 +135,7 @@ First, you get to decide which users’ mailboxes to include in your Workplace A
  * You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
  * You can rule out confidential or private emails, or those that are rights protected using Microsoft's digital rights management technology.
 
-For more information about making privacy settings, see [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
+For more information about making privacy settings, see [Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
 
 ### Data provided by your organization
 
@@ -152,7 +152,6 @@ There are two ways that users provisioned as analysts can access information wit
 The second kind of access Workplace Analytics provides is the full analyst view. Here the analyst can run queries against the meeting and email information to arrive at new metrics, all of which fall under the category of anonymized data. However, if you choose to provide personal data, then the analyst can discern whose metrics are being computed. Thus, it is important that such analysts are provided the requisite training before they are given access to Workplace Analytics. Additionally, Workplace Analytics logs all queries that such analysts author, therefore allowing you to audit them for consistency with your organizational policies and any DPIA that you completed.
 
 Both of these roles are provisioned by the tenant administrator. 
-
 
 ### Workplace Analytics support for handling data subject requests
 
@@ -171,7 +170,7 @@ You can review the details here, but we briefly go over them:
 
 ## Additional Resources
 
-Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md)
+Workplace Analytics [privacy documentation](../Overview/Privacy-And-Data-Access.md)
 
 Article 29 Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=4563)
 
