@@ -12,17 +12,23 @@ ms.prod: wpa
 ---
 
 ### Time zone
+
 * **Owner** - Workplace Analytics administrator
 * **Task** - Provide default time zone values the system will use in metric calculations if the data is not available for a measured employee or other internal collaborator
 * **Outcome** - Default time zone values are defined in Workplace Analytics
 
-The default time zone is used to compute after-hours metrics when a time zone is not provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone.
+The default time zone is used to compute after-hours metrics when a time zone has not been configured by the user or provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone.
 
 The default time zone for Workplace Analytics is Pacific Standard Time. 
 
-For a complete list of valid times zones, visit [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md)  
+For a complete list of valid times zones, see [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md)  
+
+### Working days and working hours
+
+Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours in organizational data, a Workplace Analysis administrator can use the Settings page to set default working days and working hours for the organization. These admin-configured default settings are used for a particular user only if the user has not already configured their working days and hours. 
 
 ### To change the default time zone 
+
 1. On the **Settings** page, click **Settings**.
 2. Under **System defaults**, select the time zone you want from the **Default time zone** list.
 3. Click **Save**.
