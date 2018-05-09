@@ -65,13 +65,13 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
 1. On the **Settings** page, click **Settings**.
 2. Under **Privacy settings**, configure the settings to meet your company's needs.
 
-> [!Note]
-> You may click **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you click the **I confirm that all privacy settings are complete** checkbox. When you click the checkbox, it begins the processing of Office 365 data.
+   > [!Note]
+   > You may click **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you click the **I confirm that all privacy settings are complete** checkbox. When you click the checkbox, it begins the processing of Office 365 data.
 
 3. Click **Save**.
 
-> [!Important]
-> Carefully validate that your privacy settings are correct, before you click the I confirm that all privacy settings are complete checkbox, You can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
+   > [!Important]
+   > Carefully validate that your privacy settings are correct, before you click the I confirm that all privacy settings are complete checkbox, You can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
 
 4. To begin the processing of Office 365 data, click **I confirm that all privacy settings are complete**, and then click **Save**.
 
