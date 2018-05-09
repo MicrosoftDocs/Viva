@@ -23,10 +23,6 @@ The default time zone for Workplace Analytics is Pacific Standard Time.
 
 For a complete list of valid times zones, see [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md)  
 
-### Working days and working hours
-
-Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours in organizational data, a Workplace Analysis administrator can use the Settings page to set default working days and working hours for the organization. These admin-configured default settings are used for a particular user only if the user has not already configured their working days and hours. 
-
 ### To change the default time zone 
 
 1. On the **Settings** page, click **Settings**.
@@ -35,6 +31,10 @@ Users can set their own working days and working hours in their [Outlook setting
 
 > [!Important]
 > This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
+
+### Working days and working hours
+
+Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours in organizational data, a Workplace Analysis administrator can use the Settings page to set default working days and working hours for the organization. These admin-configured default settings are used for a particular user only if the user has not already configured their working days and hours. 
 
 ### Privacy settings
 * **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator
