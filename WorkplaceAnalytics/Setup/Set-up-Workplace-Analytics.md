@@ -62,11 +62,11 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 
 ## Step 3: Assign roles to Workplace Analytics admins and analysts
 
-[!INCLUDE [Assign roles to admins and analysts](../Setup/Configure-wpa-settings.md)] 
+[!INCLUDE [Assign roles to admins and analysts](../Setup/Assign-roles-to-wpa-admins.md)] 
 
 ## Step 4: Configure Workplace Analytics settings
 
-[!INCLUDE [Configure Workplace Analytics settings](../Setup/Configure-wpa-settings.md)] 
+[!INCLUDE [Configure Workplace Analytics settings](../Setup/Configure-wpa-settings.md)]  
 
 ## Step 5: Prepare and upload organizational data
 
@@ -79,7 +79,4 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 ## Step 7: Set up meeting exclusions
 
 [!INCLUDE [Set up meeting exclusions](../Setup/Set-up-mtg-exclusions.md)] 
-
-
-
 
