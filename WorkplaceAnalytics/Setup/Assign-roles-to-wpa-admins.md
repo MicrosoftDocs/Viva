@@ -18,14 +18,14 @@ ms.prod: wpa
 To allow administrators to set system defaults, privacy settings, upload and verify organizational data, and to allow data analysts to be able to use Workplace Analytics, you must assign users to the Workplace Analytics service.
 
 ### Workplace Analytics roles and the level of access
-* **Analyst role** - Full access to all service features, except Admin. This role is used for the analyst who requires the most complete access to the data.
-* **Analyst (Limited Access) role** - Access to Home page, Explore metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore the metrics dashboards.
-* **Administrator role** - Access to Admin and Data Sources features. This role is used for the Workplace Analytics administrator to set system defaults, privacy settings, upload, and verify organizational data.
+
+[!INCLUDE [Workplace Analytics roles](../includes/wpa-roles.md)] 
 
 ### To assign users to Workplace Analytics
-* Follow the instructions in this [support article](/active-directory/active-directory-coreapps-assign-user-azure-portal).
+* Follow the instructions in this [support article](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell).
 
 ### Related topics
 [Group-based licenses in Workplace Analytics](../Use/Group-Based-Licensing.md)
 
 [Use PowerShell to assign roles in Workplace Analytics](../Use/Using-PowerShell-to-Assign-Roles.md)
+
