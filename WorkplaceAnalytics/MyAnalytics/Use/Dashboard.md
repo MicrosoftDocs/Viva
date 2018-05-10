@@ -18,7 +18,6 @@ MyAnalytics helps you understand how you collaborate with colleagues and spend y
 > [!Note] 
 > To learn about the benefits of using MyAnalytics, see [Why use MyAnalytics?](../Overview/Better-work-habits.md) and the following video: 
 
-
    [![Getting to know MyAnalytics](../../images/Video-image-get-to-know-mya.png)](https://www.youtube.com/watch?v=vBij7cqif_Y&feature=youtu.be)
 
 Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.  
