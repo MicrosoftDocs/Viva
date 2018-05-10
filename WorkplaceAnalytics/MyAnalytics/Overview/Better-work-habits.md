@@ -28,7 +28,7 @@ By using MyAnalytics, you and your team can:
 
 The following video shows common ways in which you can benefit from MyAnalytics:
 
-[![Getting to know MyAnalytics](../../images/Video-image-get-to-know-mya.png)](https://www.youtube.com/watch?v=1MQDfzf6CGE&feature=youtu.be)
+[![Getting to know MyAnalytics](../../images/Video-image-get-to-know-mya.png)](https://www.youtube.com/watch?v=vBij7cqif_Y&feature=youtu.be)
 
 ## Privacy 
 
