@@ -93,12 +93,21 @@
   items:   
     - name: Why use MyAnalytics?
       href: MyAnalytics/Overview/Better-work-habits.md    
-    - name: MyAnalytics privacy guide 
-      href: MyAnalytics/Overview/Privacy-Guide.md         
+       
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md
     - name: Frequently asked questions
       href: MyAnalytics/Overview/MyA-faq.md
+
+    - name: MyAnalytics Privacy 
+      items:
+      - name: MyAnalytics privacy guide 
+        href: MyAnalytics/Overview/Privacy-Guide.md  
+      - name: Privacy, security, and compliance
+        href: MyAnalytics/Overview/Privacy-Security-Compliance.md 
+
+
+
     - name: Use MyAnalytics
       items:      
       - name: MyAnalytics elements

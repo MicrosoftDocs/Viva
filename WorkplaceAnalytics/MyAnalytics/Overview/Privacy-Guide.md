@@ -17,9 +17,6 @@ ms.prod: mya
 
 MyAnalytics helps users better understand how they collaborate with colleagues and how they spend their time at work. It provides useful information that can help users prioritize and spend their time effectively. The goal of this guide is to provide a high level overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.
 
-> [!Note] 
-> For a deeper dive into many aspects of MyAnalytics privacy, see the [Privacy, security, and compliance whitepaper](myanalytics-privacy-compliance-white-paper-final.pdf). 
-
 ### Turning data
 
 MyAnalytics provides insights using three types of data:
