@@ -18,7 +18,7 @@ author: rodonahu
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="docs.microsoft.com/media/common/i_progressive.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_progressive.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -37,7 +37,7 @@ author: rodonahu
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="docs.microsoft.com/media/common/i_library.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_library.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -56,7 +56,7 @@ author: rodonahu
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="docs.microsoft.com/media/common/i_video.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -83,7 +83,7 @@ Workplace Analytics has two offerings:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img alt="Get Started with Globalization" src="docs.microsoft.com/media/common/i_get-started.svg">
+                            <img alt="Get Started with Globalization" src="https://docs.microsoft.com/media/common/i_get-started.svg">
                         </div>
                     </div>
                     <div class="cardText">
@@ -108,7 +108,7 @@ Workplace Analytics has two offerings:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img alt="MyAnalytics" src="docs.microsoft.com/media/common/i_api-reference.svg">
+                            <img alt="MyAnalytics" src="https://docs.microsoft.com/media/common/i_api-reference.svg">
                         </div>
                     </div>
                     <div class="cardText">
