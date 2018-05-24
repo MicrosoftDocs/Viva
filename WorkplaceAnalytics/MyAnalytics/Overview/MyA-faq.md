@@ -9,6 +9,7 @@ ms.author: v-pascha
 ms.date: 04/10/2018
 ms.topic: get-started-article
 ms.prod: mya
+localization_priority: Once
 ---
 
 # MyAnalytics: Frequently asked questions
