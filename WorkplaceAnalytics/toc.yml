@@ -20,12 +20,12 @@
         items:
           - name: Workplace Analytics settings
             href: ~/Use/Settings.md
-  #        - name: Prepare organizational data
-  #          href: ~/Use/Prepare-organizational-data.md
-  #        - name: Upload organizational data
-  #          href: ~/Use/Upload-organizational-data.md     
-          - name: Prepare and upload organizational data
-            href: ~/Setup/Prepare-and-Upload-organizational-data.md                     
+          - name: Prepare organizational data
+            href: ~/Use/Prepare-organizational-data.md
+          - name: Upload organizational data
+            href: ~/Use/Upload-organizational-data.md     
+  #        - name: Prepare and upload organizational data
+  #          href: ~/Setup/Prepare-and-Upload-organizational-data.md                     
           - name: Data sources
             href: ~/Use/Data-Sources.md
           - name: Assign group-based licenses
@@ -92,8 +92,7 @@
   expanded: true
   items:   
     - name: Why use MyAnalytics?
-      href: MyAnalytics/Overview/Better-work-habits.md    
-       
+      href: MyAnalytics/Overview/Better-work-habits.md        
     - name: Setup
       href: MyAnalytics/Setup/Mya-setup-checklist.md
     - name: Frequently asked questions
@@ -102,8 +101,6 @@
       items:
       - name: MyAnalytics privacy guide 
         href: MyAnalytics/Overview/Privacy-Guide.md  
-  #    - name: Privacy, security, and compliance
-  #      href: MyAnalytics/Overview/Privacy-Security-Compliance.md 
     - name: Use MyAnalytics
       items:      
       - name: MyAnalytics elements
