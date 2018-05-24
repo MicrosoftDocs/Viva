@@ -14,8 +14,6 @@ ms.prod: wpa
 
 ## Introduction
 
-As of July 1, 2017, Workplace Analytics is in category A of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657). It will be included in category C of the [Office 365 Compliance Framework](http://go.microsoft.com/fwlink/p/?LinkId=615657) at a later date. 
-
 Being aware of employees’ rights is a key component to ensuring a successful program using Workplace Analytics. It is important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics. 
 
 Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in Workplace Analytics. 
