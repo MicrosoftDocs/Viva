@@ -171,6 +171,7 @@ Each row of data represents a single meeting, and Meeting query results always c
 Workplace Analytics offers two kinds of queries that report information about collaboration with groups. See the following topics for more information: 
 
 [Group-to-group queries](Group-to-group-queries.md)
+
 [Person-to-group queries](Person-to-group-queries.md)
 
 
