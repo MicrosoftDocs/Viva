@@ -167,8 +167,15 @@ Each row of data represents a single meeting, and Meeting query results always c
 1|3/1/2017 5:00PM|1|No|No|10|Process Meeting|10
 2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
 
+## Group queries
+Workplace Analytics offers two kinds of queries that report information about collaboration with groups. See the following topics for more information: 
 
-## Groups query
+[Group-to-group queries](Group-to-group-queries.md)
+
+[Person-to-group queries](Person-to-group-queries.md)
+
+
+<!-- OLD CONTENT 
 Group query results show the collaboration between two groups quantified by the productivity metrics (such as time spent in meetings and email) that you select. Each row shows the metrics that quantify the interactions of the two groups. You can aggregate group query results by day, week, or month.
 Use a group query if you want to analyze how different groups are collaborating.
 There are two types of metrics:
@@ -215,7 +222,11 @@ Query criteria
 :-----:|:-----:|:-----:|:-----:
 Operations|Engineering|3/5/2017|12
 Operations|Engineering|3/12/2017|20
+-->
 
 ### Related topic
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
 
+[Group-to-group queries](Group-to-group-queries.md)
+
+[Person-to-group queries](Person-to-group-queries.md)

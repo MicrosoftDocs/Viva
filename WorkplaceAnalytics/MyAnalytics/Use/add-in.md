@@ -9,6 +9,7 @@ ms.author: v-pascha
 ms.date: 02/16/2018
 ms.topic: get-started-article
 ms.prod: mya
+localization_priority: Once
 ---
 
 # MyAnalytics Outlook add-in

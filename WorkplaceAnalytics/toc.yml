@@ -66,6 +66,8 @@
             href: ~/Tutorials/Meeting-queries.md
           - name: Group-to-group queries
             href: ~/Tutorials/Group-to-group-queries.md
+          - name: Person-to-group queries
+            href: ~/Tutorials/Person-to-group-queries.md            
           - name: Query auto-refresh option
             href: ~/Tutorials/Query-auto-refresh.md            
       - name: Reference

@@ -39,12 +39,12 @@ The following illustration depicts these concepts:
 
 While setting up a group query differs markedly from setting up meeting or person queries, some of the options you set, such as for time-period aggregation, time range, and meeting-exclusion rules, are the same as for meeting and person queries. To set up a group-to-group query, follow these steps: 
 
-**To create a group query**
-1. In Workplace Analytics, click **Queries** and click **Group-to-group**.
+**To create a group-to-group query**
+1. In Workplace Analytics, click **Queries** and then click **Group-to-group**.
 2. Type a name for the query, and optionally, type a description. 
 3. For Group by, select a time-grouping option -- day, week, or month. 
 4. Select a date range. The query will analyze only those group-to-group interactions that took place during this date range.
-5. Select a set of meeting exclusions. The query will ignore meetings that are filtered out by the meeting exclusions you choose. Move on to the Select metrics section:
+5. Select a set of meeting exclusions. The query will ignore meetings that are filtered out by the meeting exclusions that you choose. Move on to the Select metrics section:
 
    ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics.png)
 
@@ -65,18 +65,19 @@ While setting up a group query differs markedly from setting up meeting or perso
 7. The next question is How do you want to group the time investors? Answer this by selecting an attribute of this group of people; for example, FunctionType, IsInternal, or tenuremonths. 
 8. Optionally, remove some of the time investors from this analysis. Do this by applying filters in the Do you want to limit the analysis to only certain time investors? area.
 
-   You have now finished specifying the time investors you want to analyze and how you want the query to group them. Now, you make similar determinations about the collaborators. 
+   You have now finished specifying the time investors whose behavior want to analyze and how you want the query to group them. Now, you make similar determinations about the collaborators. 
 
    Move on to the section called Their collaborators:
 
    ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
    
-9. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization)that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators (the ones in Sales? the ones in R&D?) interacted with the time investors.
+9. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization) that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators (the ones in Sales? the ones in R&D?) interacted with the time investors.
 10. Now, you can group the collaborators. By doing this, you can have the query results inform you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors. 
 
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
-11. Click **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it, or select a link that you can use in a visualization tool such as Power BI. 
+11. Click **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it (in .csv file format), or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) that you can use in a visualization tool such as Power BI. 
+
  
 
 

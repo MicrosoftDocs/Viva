@@ -9,6 +9,7 @@ ms.author: v-pascha
 ms.date: 04/11/2018
 ms.topic: get-started-article
 ms.prod: wpa
+localization_priority: Once
 ---
 
 # Why use MyAnalytics?
