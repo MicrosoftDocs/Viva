@@ -82,6 +82,7 @@ For the users that you choose to include, you can decide to exclude data based u
 
 * Minimum aggregation size. In Explore Metrics, you can set the minimum group size required to display data. By default, the minimum group size is set to five.
 
+<!-- The following section is new. Do not publish to live until after it is approved by Niraj: -->
 
 ## Data retention policy
 
