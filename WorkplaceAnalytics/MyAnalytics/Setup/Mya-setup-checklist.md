@@ -11,7 +11,15 @@ ms.topic: get-started-article
 ms.prod: mpa
 ---
 
-# MyAnalytics Setup Checklist
+# MyAnalytics Setup 
+
+<!-- The following is shortened. OK with MyA team like this? -->
+
+The steps in this topic describe how to set up MyAnalytics for the users in your organization. Before you begin setup, please complete the following: 
+ * **Prerequisite software.** Make sure that the [environment requirements for MyAnalytics](../Overview/Environment-Requirements.md) are in place. 
+ * **Data privacy.** Review the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md).
+
+<!-- TRYING THIS OUT
 
 ## Preliminary review tasks
 
@@ -24,24 +32,32 @@ To prepare for setting up MyAnalytics, review the following articles:
 
 ## Setup tasks
 
-To set up MyAnalytics for users in your organization, complete the tasks in this checklist: 
+-->
+
+To set up MyAnalytics<!--for users in your organization-->, complete the tasks in this checklist: 
 
 | | Task | Owner | Outcome |
 |---|------|-------|---------|
 | <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | [Step 1 - Configure user settings](#step-1-configure-user-settings)  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
 | <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | [Step 2 - Assign MyAnalytics licenses to users](#step-2-assign-myanalytics-licenses-to-users)  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
 
+<!-- 
+
 # Preliminary review tasks
 
-<!-- ## Environment requirements for MyAnalytics -->
+<!-- ## Environment requirements for MyAnalytics 
 
 [!INCLUDE [Review the environment requirements for MyAnalytics](../Overview/Environment-Requirements.md)] 
 
-<!-- ## MyAnalytics privacy guide -->
+<!-- ## MyAnalytics privacy guide 
 
 [!INCLUDE [Review the MyAnalytics privacy guide](../Overview/Privacy-Guide.md)] 
 
+-->
+
+
 # Setup tasks
+
 
 ## Step 1: Configure user settings
 
