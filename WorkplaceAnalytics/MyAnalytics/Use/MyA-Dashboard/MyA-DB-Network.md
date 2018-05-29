@@ -19,6 +19,28 @@ The Network area of the MyAnalytics Dashboard shows how you spent your time with
 
 The Your time investments chart shows how much time you’ve spent with the individuals and groups in your network. By default, this chart displays all of your collaborators. A blue star next to a contact indicates that this person is on your list of Important people. 
 
+For each contact, the following metrics are displayed on the side
+
+#### Total time
+
+Total time you spend with the contact over the past week, based on meetings and emails
+
+#### Meeting time
+
+Time you spent in meetings with the contact over the past week
+
+#### Read percent
+
+Percentage of contact's emails that you read
+
+#### Response time
+
+The average time it takes you to response to contact's email
+
+#### 1:1 meetings
+
+Time you spent in one-on-one meetings with the contact over the past week
+
 **To change views or filter contacts**
 
 You can view the Your time investments data in a map view or a list view. To switch between views, click **Map** or **List**, under Your time investments. In either view, you can filter your contacts by selecting “Important people” or “Work groups.” 
