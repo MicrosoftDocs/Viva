@@ -8,6 +8,7 @@ author: LeisaLaDell
 ms.author: v-leash
 ms.date: 3/5/2018
 ms.topic: get-started-article
+localization_priority: normal 
 ms.prod: wpa
 ---
 # View, download, and export query results 

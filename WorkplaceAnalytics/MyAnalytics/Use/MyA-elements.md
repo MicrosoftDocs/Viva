@@ -8,6 +8,7 @@ author: paul9955
 ms.author: rodanahu
 ms.date: 04/10/2018
 ms.topic: get-started-article
+localization_priority: normal 
 ms.prod: wpa
 ---
 

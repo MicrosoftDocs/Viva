@@ -8,6 +8,7 @@ author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
 ms.topic: get-started-article
+localization_priority: normal 
 ms.prod: wpa
 ---
 

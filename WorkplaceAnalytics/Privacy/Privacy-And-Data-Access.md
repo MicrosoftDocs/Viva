@@ -8,6 +8,7 @@ author: paul9955
 ms.author: rodonahu
 ms.date: 05/24/2018
 ms.topic: get-started-article
+localization_priority: normal 
 ms.prod: wpa
 ---
 # Workplace Analytics privacy and data access
