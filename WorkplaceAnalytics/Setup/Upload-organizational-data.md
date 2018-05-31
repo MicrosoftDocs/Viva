@@ -139,7 +139,7 @@ You can now click **Settings** and then click **Organizational data** to display
 On this page, you have the following options:
  * Click view details (the eye icon) to see a summary of the validation results.
  * Click the hierarchy symbol to see the mapping settings for the workflow. 
- * Click the download symbol to download the validated .csv file. 
+ * Click the download symbol to see a list of validation warnings. 
 
 > [!Note] 
 > Each tenant can have only one upload in progress at a time. This means that you must complete the workflow of one data file – either guide it to a successful validation or abandon it – before you begin the workflow of the next data file. By looking at the Start – Mapping – Validation – Complete bar, you can tell whether any data file is in the upload workflow. 
