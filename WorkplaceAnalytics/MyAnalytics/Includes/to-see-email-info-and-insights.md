@@ -8,6 +8,7 @@ author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
 ms.topic: get-started-article
+localization_priority: normal 
 ms.prod: mya
 ---
 

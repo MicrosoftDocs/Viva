@@ -8,6 +8,7 @@ author: rodonahu
 ms.author: rodonahu
 ms.date: 01/19/2018
 ms.topic: get-started-article
+localization_priority: normal 
 ms.prod: wpa
 ---
 # Use Powershell to assign users to Azure Active Directory

@@ -8,6 +8,7 @@ author: rodonahu
 ms.author: v-pascha
 ms.date: 01/19/2018
 ms.topic: get-started-article
+localization_priority: normal 
 ms.prod: mya
 ---
 

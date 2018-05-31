@@ -7,6 +7,7 @@ description: This topic gives an overview of the management and coaching dashboa
 author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018
+localization_priority: normal 
 ms.prod: wpa
 ---
 # Management and Coaching

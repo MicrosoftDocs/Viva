@@ -8,6 +8,7 @@ author: paul9955
 ms.author: v-leash
 ms.date: 05/03/2018
 ms.topic: get-started-article
+localization_priority: normal 
 ms.prod: wpa
 ---
 # Metric descriptions for Workplace Analytics
