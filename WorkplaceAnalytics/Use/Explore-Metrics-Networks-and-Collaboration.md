@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 # Networks and collaboration
-**Networks and collaboration** provides a summary of the network patterns within the company. You can use this section to explore how people are connected, and how they work together. Network size and breadth helps illustrate whether employees are connected to a variety of other people or are more insular and siloed within their immediate work group. A person's network health is also a key indicator of their engagement.
+**Networks and collaboration** provides a summary of the network patterns within the company. You can use this section to explore how people are connected, and how they work together. Network size and breadth helps illustrate whether employees are connected to a variety of other people or are more insular and siloed within their immediate work group. A person's network health is also a key indicator of their engagement. 
 
 ![Networks and collaboration](../images//WpA/Use/networks-and-collaboration-explore.png)
 
