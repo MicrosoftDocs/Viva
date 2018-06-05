@@ -3,10 +3,10 @@
 # required metadata
 
 title: Explore network and collaboration metrics in Workplace Analytics
-description: This topic gives an overview of the network and collaboration dashboards in Workplace Analytics.
-author: LeisaLaDell
-ms.author: v-leash
-ms.date: 02/15/2018
+description: This topic gives an overview of the networks and collaboration dashboards in Workplace Analytics.
+author: MicheleD
+ms.author: v-midehm
+ms.date: 06/05/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -26,7 +26,7 @@ The **Network diversity** bubble graph shows how each organization in the compan
 * Placement on the chart is determined by the average network size and network breadth of people in each organization.
 
 ## Internal network size
-**Internal network size** is the average number of people with whom a person has least two meaningful interactions (a meeting or email between five or fewer people). Network connections are measured on a rolling four-week basis.
+**Internal network size** is the average number of people with whom a person has at least two meaningful interactions (a meeting or email between five or fewer people). Network connections are measured on a rolling four-week basis.
 
 ![Internal network size](../images//WpA/Use/internal-network-size-explore.png)
 
