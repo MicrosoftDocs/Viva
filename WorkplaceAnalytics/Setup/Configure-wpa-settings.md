@@ -20,7 +20,7 @@ ms.prod: wpa
 
 The default time zone is used to compute after-hours metrics when a time zone has not been configured by the user or provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone. 
 
-The default time zone for Workplace Analytics is Pacific Standard Time. 
+The default time zone for Workplace Analytics is Pacific Standard Time.   
 
 For a complete list of valid times zones, see [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md)  
 
