@@ -13,8 +13,7 @@ ms.prod: wpa
 ---
 # Meetings table (CSV)
 
-
-  Contains one row for each meeting and appointment. Recurring meetings will result in a row for each occurrence.
+Contains one row for each meeting and appointment. Recurring meetings will result in a row for each occurrence.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|

@@ -14,8 +14,7 @@ ms.prod: wpa
 
 # MailParticipants table (CSV)
 
-
-  Contains one row for every email sent, and every email received.
+Contains one row for every email sent, and every email received.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|

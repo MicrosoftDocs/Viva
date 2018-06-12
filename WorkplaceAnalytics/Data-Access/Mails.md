@@ -14,8 +14,7 @@ ms.prod: wpa
 
 # Mails table (CSV)
 
-
-  Contains one row for every email sent.
+Contains one row for every email sent.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
