@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,FOLLOW
 title: PersonHistorical table (WPA Data Access)
 description: One row for each person for each HR change
 author: gbowerman

@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,FOLLOW
 title: MeetingParticipants table (WPA Data Access)
 description: One row for each meeting and appointment
 author: gbowerman
