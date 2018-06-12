@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # PersonHistorical table (CSV)
 
-Contains one row for each person for each HR change. A new row is created when a person's HR attributes change.
+This table contains one row for each person for each HR change. A new row is created when a person's HR attributes change.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|

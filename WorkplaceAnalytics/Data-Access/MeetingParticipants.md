@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # MeetingParticipants table (CSV)
 
-Contains one row for each participant in a calendar meeting.
+This table contains one row for each participant in a calendar meeting.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|

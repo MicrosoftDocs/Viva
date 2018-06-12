@@ -13,46 +13,46 @@ ms.prod: wpa
 ---
 
 # Workplace Analytics Data Access
-Customers with unique data analysis requirements may require custom exploration of Workplace Analytics insights data that goes beyond the metrics available through Flexible Queries. This custom data exploration can include combining Workplace Analytics data with other data sets (for example building space allocation, CRM data etc.). Custom data access scenarios include:
+Customers with unique data-analysis requirements might require custom exploration of Workplace Analytics insights data that goes beyond the metrics that are available through flexible queries. This custom data exploration can include combining Workplace Analytics data with other data sets, such as building-space allocation or CRM data. Custom data access scenarios include:
 
-- Which groups are starting long email threads? Associate email data with corporate function.
+- Which groups are starting long email threads? The answer would involve associating email data with corporate function.
 - Do people with the same function who are collocated spend more time together than people with the same function who are not collocated?
 - Optimizing workspace allocation.
-- Sales team effectiveness.
+- Effectiveness of the sales team.
 
-Access to the underlying WPA pre-processed data model can be obtained as part of a CS (Customer Solutions) engagement.
+Access to the underlying Workplace Analytics pre-processed data model can be obtained as part of a Customer Solutions (CS) engagement.
 
-Once an agreement is in place, Microsoft enables Data Access in the customer's O365 tenant. Then, a _Data Access_ panel on the Workplace Analytics _Settings_ page becomes visible to customers with a WPA administrator role. On this panel a [SAS URI](https://go.microsoft.com/fwlink/?linkid=871677), which points to an Azure storage container with write-only permission, can be saved.
+Once a CS agreement is in place, Microsoft enables data access in the customer's Office 365 tenant. Then, a Data Access panel on the Workplace Analytics Settings page becomes visible to customers who have the role of Workplace Analytics administrator. On this panel, an administrator can save a [SAS URI](https://go.microsoft.com/fwlink/?linkid=871677), which points to an Azure storage container with write-only permission.
 
-Saving the SAS URI triggers a workflow which exports the WPA data to the storage container. The data will be re-exported each time it is refreshed, for the agreed duration of the CS engagement.
+Saving the SAS URI triggers a workflow that exports the Workplace Analytics data to the storage container. The data will be re-exported each time it is refreshed, for the agreed duration of the CS engagement.
 
 ## Data access schema for WPA
-The schema below describes the data structure of pre-processed Workplace Analytics data when it is exported to a customer-owned Azure storage account in the form of CSV files with headers. 
+The following schema describes the data structure of pre-processed Workplace Analytics data when it is exported to a customer-owned Azure storage account in the form of .csv files with headers. 
 
 ![Workplace Analytics entity relationship diagram](./images/data-access-schema.png)
 
-Each of the tables are exported as a seperate CSV file in the designated Azure storage container.
+Each of the tables are exported as a seperate .csv file in the designated Azure storage container.
 
 ### Tables
 
 [Meetings](./Meetings.md)
 
-[Mails](./Mails.md)
-
 [MeetingParticipants](./MeetingParticipants.md)
-
-[MailParticipants](./MailParticipants.md)
 
 [PersonHistorical](./PersonHistorical.md)
 
+[MailParticipants](./MailParticipants.md)
 
-## Creating Azure infrastructure for Data Access
+[Mails](./Mails.md)
 
-To prepare for a Workplace Analytics data export, you need a current Azure subscription, and an Azure Storage account containing an Azure storage container. You also need to create a write-only SAS key for the container. 
 
-You can manually create an Azure storage container and associated resources using the [Azure Portal](https://portal.azure.com), and the [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/). Alternatively you can automate the process using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full).
+## Creating Azure infrastructure for data access
 
-Below is an example bash script which uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) to automate creation of the Azure storage infrastructure required to receive the data, and generate a SAS key on the container. The storage account name, resource group name, data center location, and container name are passed as command line arguments. The resources are created if they do not already exist. This script can be run directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/). The _EXPIRY_ variable in the script should be adjusted to match the expiry date of the CS engagement.
+To prepare for a Workplace Analytics data export, you need a current Azure subscription and an Azure storage account that contains an Azure storage container. You also need to create a write-only SAS key for the container. 
+
+You can manually create an Azure storage container and associated resources by using the [Azure Portal](https://portal.azure.com) and the [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/). Alternatively, you can automate the process by using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full).
+
+Following is an example bash script which uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) to automate the creation of the Azure storage infrastructure that is required to receive the data, and to generate an SAS key on the container. The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments. The resources are created if they do not already exist. This script can be run directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/). The _EXPIRY_ variable in the script should be adjusted to match the expiry date of the CS engagement.
 
 ```
 #!/bin/bash
