@@ -3,10 +3,10 @@
 # required metadata
 
 title: Prepare organizational data in Workplace Analytics
-description: How to prepare data from your organization to be uploaded to Workplace Analytics. 
-author: LeisaLaDell
+description: How to prepare data from your organization to upload and use in Workplace Analytics. 
+author: v-midehm
 ms.author: v-leash
-ms.date: 02/14/2018
+ms.date: 06/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -125,21 +125,21 @@ Once you have identified the data to provide, you will need to export it into a 
 ### Required attributes and file format
 The data must be supplied in a UTF-8 encoded .csv file and contain a set of required attributes for the population. The following table provides details on the required attributes and the data coverage requirements.
 
-**Required attributes**. These attributes must be supplied with these exact column headers (case sensitive) in the .csv upload:
+**Required attributes** These attributes must be supplied with these exact column headers (case sensitive) in the .csv upload:
 * PersonId
-* HireDate
 * EffectiveDate
 * ManagerId
-* TimeZone
 * LevelDesignation
 * Organization
 
-**Reserved optional attributes**. These reserved column headers are for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations.  While these attributes are not required, if included, they must meet the coverage requirements (see table below).
+**Reserved optional attributes** These reserved column headers are for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations.  While these attributes are not required, if included, they must meet the coverage requirements (see table below).
 * FunctionType
-* Layer
+* HireDate
 * HourlyRate
+* Layer
+* TimeZone
 
-**Custom attributes**. You may also define any additional attributes to use in filtering and grouping data.  
+**Custom attributes** You may also define any additional attributes to use in filtering and grouping data.  
 
 > [!Note] 
 > The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above). 
@@ -148,7 +148,6 @@ Attribute description and data coverage requirements
 
 > [!Note] 
 > All dates should be in the MM/DD/YYYY format. 
-
 
 Attribute (column header) | Description of data / data validity | Data coverage requirements
 ---------|----------|---------
