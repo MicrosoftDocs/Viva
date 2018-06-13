@@ -3,7 +3,7 @@
 # required metadata
 
 title: To create a custom meeting-exclusion rule
-description: How-to steps -- Create a custom meeting-exclusion rule. 
+description: How-to steps -- Create a custom meeting-exclusion rule with Workplace Analytics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/27/2018

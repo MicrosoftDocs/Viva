@@ -3,10 +3,10 @@
 # required metadata
 
 title: Workplace Analytics Glossary
-description: This  glossary defines concepts and other terms important for working with Workplace Analytics.
-author: LeisaLaDell
+description: This glossary defines concepts and other terms important for working with Workplace Analytics.
+author: v-midehm
 ms.author: v-leash
-ms.date: 02/20/2018
+ms.date: 06/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Glossary for Workplace Analytics
 
-The glossary defines concepts and other terms (excluding [metric definitions](../use/Metric-definitions.md)) used for working with Workplace Analytics.
+This glossary defines concepts and other terms (excluding [query metric definitions](../use/Metric-definitions.md)) used when working with Workplace Analytics.
 
 |Term|Definition|
 |----|----------|
@@ -23,7 +23,8 @@ The glossary defines concepts and other terms (excluding [metric definitions](..
 |Attendee|A person who was invited and *attended* the meeting.|
 |Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
 |Calendar fragmentation|When a person does not have blocks of time sufficient to focus on completing complex tasks. This is typified by having only small blocks of time (15, 30, 60 minutes) between meetings.<br>Anything that is not *focus time* (uninterrupted time blocks of two hours or more with no meetings) is considered calendar fragmentation.|
-|Collaborator|People that *measured employees* interact with by email or in meetings. Collaborators are identified as internal (within the company) or external (outside of the company).|
+|Collaborators|Anyone that *measured employees* or *time investors* interact with by email or in meetings. Collaborators are identified as internal (within the company) or external (outside of the company). |
+|Collaborator group|A group of collaborators that are identified as internal (within the company) or external (outside of the company) that interacts by email or in meetings with a specified *time investor*.|
 |Connection|Two or more *meaningful interactions*.|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
@@ -47,8 +48,9 @@ The glossary defines concepts and other terms (excluding [metric definitions](..
 |Required attribute|Mandatory organizational data attributes that describe the people being analyzed. Required attributes are reserved by Workplace Analytics for calculating metrics and can be used to customize metrics, group in Explore metrics, and filter query results. The two required attributes are LevelDesignation (also referred to as level) and Organization.|
 |Sender|The person who sends an email.|
 |Span|The number of direct reports per manager.|
-|Time zones|Workplace Analytics uses these time zones. Personal metrics (Person query results) are calculated using the person’s time zone. Meeting metrics (Meeting query results) are calculated using the organizer’s time zone.|
-|Working hours|Hours representing the typical work week for the company. Workplace Analytics uses M-F from 8:00 AM – 5:00 PM for working hours calculations.|
+|Time investors|Allocate their time among the other participants in the interaction (the *collaborators*) in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.|
+|Time zones|Workplace Analytics uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (Person query results) are calculated using the person’s time zone. Meeting metrics (Meeting query results) are calculated using the organizer’s time zone.|
+|Working hours|Hours representing the typical work week for the company. Workplace Analytics uses M-F from 8:00 AM to 5:00 PM for working hours calculations.|
  
 
 ### Related topic

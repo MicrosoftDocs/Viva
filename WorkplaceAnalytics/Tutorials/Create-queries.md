@@ -4,22 +4,24 @@
 
 title: Create queries in Workplace Analytics
 description: This topic explains how to create custom queries in Workplace Analytics. 
-author: LeisaLaDell
+author: v-midehm
 ms.author: v-leash
-ms.date: 02/14/2018
+ms.date: 06/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
 # Queries overview
-You can create three types of queries in Workplace Analytics: **Person**, **Group**, and **Meeting**.
 
-![Three types of queries](../Images/WpA/Use/Three-ways-to-query-data-Create-queries.png)
+You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**.
+
+![Ways to query data](../Images/WpA/Use/Ways-to-query-data-Create-queries.png)
 
 Each query type can help answer specific questions you may be investigating. The different query types give you flexibility to look at data from multiple perspectives to generate insights. You can also use the query types together to gain even more powerful insights.
 
 ## Meeting exclusions
+
 You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can choose between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
 ### Related topics
@@ -29,13 +31,15 @@ You can use Meeting exclusions to exclude meetings that fall outside relevant no
 [Create custom meeting exclusions rule](../Use/Create-custom-meeting-exclusions-rules.md)
 
 ## Business scenario
+
 An analyst may start by looking at a [Person query](#person-query) to see trends of employees across the company related to meeting collaboration. 
 
-If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [**Meeting query** ](#meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior. 
+If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [Meeting query](#meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a [**Groups query**](#groups-query)  to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
+Additionally, the analyst could create a [Groups query](#groups-query)  to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
 
 There are three ways to create queries:
+
 * Use and edit pre-defined query templates
 * Create custom queries from scratch
 * Open and edit a previously run query
@@ -44,28 +48,34 @@ When you create or edit a query, you will select the metrics that you want to in
 
 ![Customize attributes and metrics](../Images/WpA/Use/Customize-attributes-and-metrics-Create-queries.png)
 
-
 The following examples contain the steps to create custom **Person**, **Meeting**, and **Group** queries, as well as the steps to select and edit a query template.
 
 ## Person query
+
 Use a Person query when you want to find broader trends in the organization by looking at aggregated metrics for a group of people.
 
 Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person, and you can choose to aggregate the results by day, week, or month.
 
-### How to create a Person query 
+### How to create a Person query
+
 In the basic process to create a Person query, you will answer three questions:
+
 1. Who (what type or group of people) do I want to analyze? (Filters section)
 2. What time frame do I want to analyze? (Group by, Date range section)
 3. What data do I want to know about those people for that period? (Metrics section)
 
 ### Available data
+
 Using a Person query, you can query on the organizational data that was imported to Workplace Analytics by your company. Most organizational data comes from a company’s human resources information system.
 
 Examples include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, manager, and so on.
+
 ### Example: Business scenario – Long meetings
+
 You could create a Person query to investigate if long meetings are a significant factor in the total number of meeting hours for Operations. In this query, you will select your metrics and filters, and customize them to your needs.
 
 **Query criteria**
+
 * Time frame: Show the data aggregated weekly
 * Who: Filter on Operations
 * What data: Metrics
@@ -75,6 +85,7 @@ You could create a Person query to investigate if long meetings are a significan
   * Emails sent
 
 ### To create a custom Person query
+
 1. On the Queries page, click **Person**.
 2. In the **Enter query name here** box, type 'Operations long meetings.'
 3. In the** Group by** menu, select **Week**, and then select the** Date range** you want, and in the **Meeting exclusions** menu, select the exclusion rule set that you want.
@@ -91,42 +102,47 @@ You could create a Person query to investigate if long meetings are a significan
 7. To add a metric for total number of meetings, click **Add metric**, in the menu, select **Meetings**, and then edit the display name for the metric to ‘Total number of meetings'.
 8. To include the Sent mail metric, click **Add metric**, in the menu select **Emails sent**, and then edit the metric name to ‘Number of emails sent.’
 
-    > [!Note] 
-    > * If there is no data for a person/date combination for a metric, there will be no row for that person/date combination in the query results. 
-    > * When aggregating data by the week or the month, there may be instances when you want to include a metric that has a zero value. 
-    > * To make sure that you have a line of data for every person/date combination for the metrics you are using, add Emails sent as one of your metrics. 
-    > * Once you export your results, replace all null values with zeros to ensure that calculations for averages and other statistics includes all person/date combinations. 
+    > [!Note]
+    > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
+    > * When aggregating data by the week or the month, there may be instances when you want to include a metric that has a zero value.
+    > * To make sure you have a line of data for every person/date combination for the metrics, add Emails sent as one of your metrics.
+    > * Once you export your results, replace all null values with zeros to ensure that calculations for averages and other statistics includes all person/date combinations.
 
 9. Click **Run query**.
 10. On the **Results** page, you can see the status of your query, view the query, and, when your query results are complete, you can download the results as a csv file to continue your analysis.
 
 **Person query results include the following columns**
+
 * Person ID: De-identified ID number for the person represented in the metric.
 * Date: The start date of the aggregation (i.e. if the week is 6/3 to 6/10, then it is 6/3. If it is a month, then it is the start of the month your data encompasses).
 * Person Attributes: Each of the person attributes in the data set supplied by the organizational data.
 * Metrics: Any other metrics that you included in the query.
-
 
 **Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Metrics - Mail hrs**|**Metrics Meeting hrs**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 A|3/1/2017|HR|Administrator|5|11
 B|3/1/2017|Marketing|Executive|4|14
 
-
 ## Meeting query
+
 Meeting query results show a list of all the meetings that meet the criteria you select when creating the query. Each row of data represents a single meeting. Use a Meeting query when you want to analyze individual meetings to find the broader meeting patterns within your company or organization.
 
 ### How to create a Meeting query
+
 In the basic process to create a Meeting query, you will answer three questions:
+
 1. What meeting properties do I want to analyze? (Filters section)
 2. What time frame do I want to analyze? (Date range section)
 3. What data do I want to know about those meetings for that period? (Metrics section)
 
 ### Available data
+
 Using a Meeting query, you can query on the calendar metadata available from Office 365 for your company. Examples include: Attendee meeting hours, attendees, invitees, emails sent during meetings and so forth.
 
 ### Example: Business scenario – Long meetings, recurring
+
 Continuing the example from the Person section above, to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a Meeting query using the following criteria:
+
 * Time frame: Show the data aggregated weekly
 * Meeting properties: Filters
   * Meetings include at least one person from Operations as attendee
@@ -137,6 +153,7 @@ Continuing the example from the Person section above, to investigate long meetin
 * Attendee meeting hours
 
 ### To create a custom Meeting query
+
 1. On the Queries page, click **Meeting**.
 2. In the **Enter query name here** box, type “Ops long recurring meetings.”
 3. Enter the **Date range** you want, and then in the **Meeting exclusions** menu, select the exclusion rule set that you want.
@@ -149,7 +166,9 @@ Continuing the example from the Person section above, to investigate long meetin
 10. On the **Results** page, you can see the status of your query, view the query, and, when your query results are complete, you can download the results as a .csv file to continue your analysis.
 
 ### Meeting query results include these columns
+
 Each row of data represents a single meeting, and Meeting query results always contain the following information in columns.
+
 * Meeting ID – Unique ID number of the specific meeting
 * Start Date and Time – When the meeting started
 * Duration Hours – The length of the meeting in hours
@@ -227,7 +246,3 @@ Operations|Engineering|3/12/2017|20
 
 ### Related topic
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
-
-[Group-to-group queries](Group-to-group-queries.md)
-
-[Person-to-group queries](Person-to-group-queries.md)
