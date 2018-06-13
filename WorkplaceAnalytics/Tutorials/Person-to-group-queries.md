@@ -66,9 +66,9 @@ While setting up a person-to-group query differs from setting up meeting or grou
    Move on to the section called Their collaborators:
 
    ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
-
-8. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization) that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators interacted with the time investors. (Those in Sales, in R&D, or in an external domain?)
-9. Now group the collaborators. By doing this, the query results can inform you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
+   
+8. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization) that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators (the ones in Sales? the ones in R&D? the ones in particular external domains?) interacted with the time investors.
+9. Now, you can group the collaborators. By doing this, you can have the query results inform you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors. 
 
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
