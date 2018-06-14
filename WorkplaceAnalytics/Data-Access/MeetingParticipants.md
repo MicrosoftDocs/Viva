@@ -22,8 +22,8 @@ This table contains one row for each participant in a calendar meeting.
 |**PersonHistoricalId**|**string**|Unique value for a participant any time an HR attribute changes. Foreign key matching PersonHistorical table.|  
 |**IsOrganizer**|**boolean**|True if this participant organized the meeting.|
 |**IsDoubleBooked**|**boolean**|True if this person has more than one meeting at this time in their calendar.|
-|**Response**|**enum**|User's response to the meeting, one of: declined/tentative/accepted/noresponse.|
-|**LocalStartTime**|**datetime**|Start time of the meeting in participant's local time.|
+|**Response**|**enum**|Invitee's response to the meeting, one of: declined/tentative/accepted/noresponse.|
+|**LocalStartTime**|**datetime**|Start time of the meeting in the participant's local time.|
 |**DurationMinutesAdjusted**|**double**|Time spent in meeting, adjusted if double booked.|
 |**EmailsSentDuringMeeting**|**int**|The number of meetings sent by this participant in this meeting.|
 

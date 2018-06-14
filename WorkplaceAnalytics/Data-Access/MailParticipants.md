@@ -18,7 +18,7 @@ This table contains one row for every email sent, and every email received.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
-|**MailId**|**string**|Unique identifier for every email sent. Foreign key matching Mails table primary key.|
+|**MailId**|**string**|Unique identifier for every email sent. Foreign key matching primary key of the [Mails table](./mails.md).|
 |**PersonHistoricalId:**|**string**|Unique identifer for every person. Foreign key matching PersonHistorical table primary key.|  
 |**IsSender**|**boolean**|True if this person sent the email.|
 |**PersonTimeSpentInMinutes**|**double**|Time spent reading or writing the email (heuristic estimated value).|

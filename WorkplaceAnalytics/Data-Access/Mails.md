@@ -20,10 +20,8 @@ This table contains one row for every email sent.
 |-----------------|---------------|-----------------|
 |**MailId**|**string**|Unique identifier for each email. Primary key.|
 |**ConversationId**|**string**|Unique thread identifier.|
-|**Subject**|**string**|Meeting subject. Respects tenant privacy settings - see [Workplace Analytics settings](https://docs.microsoft.com/workplace-analytics/setup/set-up-workplace-analytics#step-four-configure-workplace-analytics-settings).|
-|**SentTime**|**datetime**|When the email was sent (sender's local time).|
+|**Subject**|**string**|Meeting subject. Respects tenant privacy settings. See [Workplace Analytics settings](https://docs.microsoft.com/workplace-analytics/setup/set-up-workplace-analytics#step-four-configure-workplace-analytics-settings).|
+|**SentTime**|**datetime**|When the email was sent, in the sender's local time.|
 |**SenderTimeSpentinMinutes**|**double**|How many minutes spent writing the email (heuristic estimated value).|
-|**NumberOfRecipients**|**integer**|Number of email recipients, not including sender.|
-
-
+|**NumberOfRecipients**|**integer**|Number of email recipients, not including the sender.|
   

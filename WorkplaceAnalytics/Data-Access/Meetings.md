@@ -13,13 +13,13 @@ ms.prod: wpa
 ---
 # Meetings table (CSV)
 
-This table contains one row for each meeting and appointment. Recurring meetings will result in a row for each occurrence.
+This table contains one row for each meeting and appointment. Recurring meetings result in a row for each occurrence.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
 |**MeetingId**|**string**|Unique identifier for each meeting (including recurring meetings). Primary key.|
 |**ICalUid**|**string**|Meeting calender ID.|  
-|**Subject**|**string**|Meeting subject. Respects tenant privacy settings - see [Workplace Analytics settings](https://docs.microsoft.com/workplace-analytics/setup/set-up-workplace-analytics#step-four-configure-workplace-analytics-settings).|
+|**Subject**|**string**|Meeting subject. Respects tenant privacy settings. See [Workplace Analytics settings](../setup/set-up-workplace-analytics.md#step-four-configure-workplace-analytics-settings).|
 |**IsRecurring**|**boolean**|True if this is a recurring meeting.|
 |**IsCanceled**|**boolean**|True if the meeting was canceled.|
 |**StartTime**|**datetime**|Meeting start time.|
@@ -28,7 +28,7 @@ This table contains one row for each meeting and appointment. Recurring meetings
 |**TotalDecline**|**int**|Total number of meeting declines.|
 |**TotalNoResponse**|**int**|Total number of invitees who did not respond to the meeting invite.|
 |**TotalAttendees**|**int**|Sum of total accept, total no-response, plus organizer.|
-|**TotalDoubleBooked**|**int**|Number of attendees who had clashing meetings or appointments on their calendar.|
+|**TotalDoubleBooked**|**int**|Number of attendees who had conflicting meetings or appointments on their calendar.|
 |**TotalEmailsDuringMeeting**|**int**|Number of emails sent during the meeting by every attendee who did not decline.|
 
   
