@@ -3,7 +3,7 @@
 # required metadata
 
 title: To create an auto-refresh query
-description: How-to steps -- Create an auto-refresh query. 
+description: How-to steps -- Create an auto-refresh query with Workplace Analytics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 05/18/2018

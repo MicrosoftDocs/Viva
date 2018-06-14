@@ -3,7 +3,7 @@
 # required metadata
 
 title: To create an auto-update query
-description: How-to steps -- Create an auto-update query. 
+description: How-to steps -- Create an auto-update query in Workplace Analytics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 04/20/2018
