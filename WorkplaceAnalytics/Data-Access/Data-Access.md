@@ -31,7 +31,7 @@ The following schema describes the data structure of pre-processed Workplace Ana
 
 ![Workplace Analytics entity relationship diagram](./images/data-access-schema.png)
 
-Each of the tables are exported as a seperate .csv file in the designated Azure storage container.
+Each of the tables are exported as a separate .csv file in the designated Azure storage container.
 
 ### Tables
 
