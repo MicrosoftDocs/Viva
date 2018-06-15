@@ -23,7 +23,7 @@ This table contains one row for each person for each HR change. A new row is cre
 |**StartDate**|**datetime**|Effective start date of last HR change (does not apply for original hire date, or leave date).|
 |**EndDate**|**datetime**|Effective end date of last HR change (does not apply for original hire date, or leave date).|
 |**PopulationType**|**string**|Type of employee. See [PopulationType](#populationtype).|
-|**IsInternal**|**boolean**|True if employee type is either MeasureEmployee or InternalCollaborator.|
+|**IsInternal**|**boolean**|True if PopulationType is either MeasuredEmployee or InternalCollaborator.|
 |**ManagerId**|**string**|Unique value for each person's manager.|
 |**HR Attribute 1**||HR values that have been added to the data set. See [HR Attributes](#hr-attributes).|
 |   ...   |||
@@ -37,7 +37,7 @@ The following table describes the possible values for the **PopulationType** col
 |Value|Description|
 |------|------|
 |MeasuredEmployee|An employee who has a Workplace Analytics license assigned.|
-|InternalCollaborator |A person within the company who does not have a WPA license assigned.|
+|InternalCollaborator |A person within the company who does not have a Workplace Analytics license assigned.|
 |ExternalCollaborator |A person with a domain that does not match the default company domain.|
 |DistributionList |An Active Directory distribution list.|
 |MeetingRoom |A meeting room.|
