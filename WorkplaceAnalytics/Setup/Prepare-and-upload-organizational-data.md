@@ -12,8 +12,6 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-<!-- Keep this topic in place until the new Upload org data topic (from DannyP) is published. Then switch to two topics 1:Prepare and 2:Upload  -->
-
 # Prepare and upload organizational data
 This article describes what organizational data is, and gives the steps to help your prepare and upload your organizational data to Workplace Analytics.
 

@@ -82,6 +82,10 @@ System fields represent attributes that are known by Workplace Analytics and tha
  * **Source column.** Each of these fields corresponds to a column in the file that you uploaded.    
  * **Workplace Analytics name.**  This is the name that will be used in the Workplace Analytics product. 
  * **Data type.**  This is the data type of the field. 
+
+   >[!Note] 
+   >If the data type is Boolean, the value for the Boolean field must be TRUE or FALSE. 
+
  * **Validity threshold.**  A source file might still be valid even if some rows have invalid or missing values for some columns. When you set the Validity threshold, you state the percentage of rows in the uploaded file that must have a valid, non-null value for this attribute. 
 
    <u>Example:</u> Your data file updates information about people. Because every row in it is linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%. 
