@@ -20,7 +20,7 @@ The Network area of the MyAnalytics Dashboard shows how you spent your time with
 
 The Your time investments chart shows how much time you’ve spent with the individuals and groups in your network. By default, this chart displays all of your collaborators. A blue star next to a contact indicates that this person is on your list of Important people. 
 
-For each contact, the following metrics are displayed on the side
+For each contact, the following metrics are displayed to the side of the network diagram, under the label _Last week collaboration_. 
 
 #### Total time
 
