@@ -7,7 +7,7 @@ title: PersonHistorical table (WPA Data Access)
 description: One row for each person for each HR change
 author: gbowerman
 ms.author: guybo
-ms.date: 05/11/2018
+ms.date: 06/14/2018
 ms.topic: language-reference
 ms.prod: wpa
 ---
@@ -28,6 +28,7 @@ This table contains one row for each person for each HR change. A new row is cre
 |**HR Attribute 1**||HR values that have been added to the data set. See [HR Attributes](#hr-attributes).|
 |   ...   |||
 |**HR Attribute n**||HR values that have been added to the data set. See [HR Attributes](#hr-attributes).|
+|**ExternalCollaboratorId**|Email address if PopulationType is ExternalCollaborator and the tenant is configured to include external email IDs in the report.|
 
 ## Remarks
 
