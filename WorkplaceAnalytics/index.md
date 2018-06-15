@@ -2,13 +2,13 @@
 layout: LandingPage
 title: Workplace Analytics
 description: Learn more about, set up, and use Workplace Analytics and MyAnalytics.
-ms.date: 02/6/2018
+ms.date: 06/15/2018
+author: madehmer
+ms.author: rodonahu
 localization_priority: normal 
 ms.prod: wpa
-ms.author: rodonahu
-author: v-midehm
-
 ---
+
 # Workplace Analytics
 
 <ul class="panelContent cardsY">

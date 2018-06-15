@@ -4,7 +4,7 @@
 
 title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics. 
-author: v-midehm
+author: madehmer
 ms.author: v-leash
 ms.date: 06/13/2018
 ms.topic: get-started-article
