@@ -22,15 +22,15 @@ After you get a promotional code from us, use the following steps to add the cod
 
    For example, from your Windows Taskbar or Start menu, right-click the browser application and choose **Start InPrivate Browsing**, **New InPrivate window**, **New incognito window**, or **New private window**.
   
-   <img src="../../../Images/new-inprivate-window.png" alt="new InPrivate window">  
+   ![InPrivate Browsing](../Images/new-inprivate-window.png)  
   
 2. Copy the Promotional Code link, which you got from us, and paste it into the URL section of the private or incognito browser window, and then press ENTER to open the link.
 
-   <img src="../../../Images/promo-code.png" alt="Promotional code link">  
+   ![Promotional code link](../Images/promo-code.png)  
 
 3. To add this promo code to your existing tenant, choose the **Sign In** option next to "Want to add this to an existing subscription?"
 
-   <img src="../../../Images/sign-in.png" alt="Promotional code sign-in">  
+   ![Promotional code sign-in](../Images/sign-in.png)
 
 4. On the **Sign in** page, type in your admin credentials.
 5. On the **Check out** page, choose **Try Now** to confirm the order.
@@ -43,6 +43,6 @@ After you get a promotional code from us, use the following steps to add the cod
 
    For example, the following shows 25 newly available licenses for Microsoft Workplace Analytics.
 
-   <img src="../../../Images/promo-licenses.png" alt="Promotional licenses">  
+   ![Promotional licenses](../Images/promo-licenses.png)  
 
 9. On the Product licenses page, turn on the available trial licenses.
