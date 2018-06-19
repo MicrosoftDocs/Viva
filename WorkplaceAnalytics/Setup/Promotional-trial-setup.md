@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Promotional trial setup (WPA Promotion)
 description: Promotional trial of Workplace Analytics 
 author: madehmer
