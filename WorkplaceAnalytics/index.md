@@ -71,9 +71,9 @@ author: v-midehm
     </li>
 </ul>
 
-- **Workplace Analytics** quantifies Office 365 collaboration to give business decision-makers a powerful tool for evidence-based cultural transformation. Dashboards highlight potential problem areas through guided exploration, while custom queries offer flexible data access to create valueable analyses. By augmenting Office 365 data with business outcome data, practitioners can identify best practices, develop predictive models, and establish organizational benchmarks. To understand how knowledge workers invest their time, you need insight into how they collaborate across the organization. With add-on consulting services, Workplace Analytics solutions experts will help you use this data to identify business opportunities, implement change, and measure success.
+**Workplace Analytics** quantifies Office 365 collaboration to give business decision-makers a powerful tool for evidence-based cultural transformation. Dashboards highlight potential problem areas through guided exploration, while custom queries offer flexible data access to create valuable analyses. By augmenting Office 365 data with business outcome data, practitioners can identify best practices, develop predictive models, and establish organizational benchmarks. To understand how knowledge workers invest their time, you need insight into how they collaborate across the organization. With add-on consulting services, Workplace Analytics solutions experts will help you use this data to identify business opportunities, implement change, and measure success.
 
-- **MyAnalytics** gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with. An organization’s productivity is defined by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to spend their time.
+**MyAnalytics** gives employees insight into two of the key factors in personal productivity—how they spend their time and who they spend it with. An organization’s productivity is defined by the thousands of decisions employees make each day. But without supporting data, it can be challenging for people to make smart decisions about where to spend their time.
 
 <ul class="panelContent cardsA cols cols4">
     <li>
