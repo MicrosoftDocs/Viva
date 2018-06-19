@@ -5,7 +5,7 @@
 title: Create queries in Workplace Analytics
 description: This topic explains how to create custom queries in Workplace Analytics. 
 author: madehmer
-ms.author: v-leash
+ms.author: v-midehm
 ms.date: 06/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
