@@ -6,7 +6,7 @@ ms.date: 02/6/2018
 localization_priority: normal 
 ms.prod: wpa
 ms.author: rodonahu
-author: v-midehm
+author: madehmer
 
 ---
 # Workplace Analytics

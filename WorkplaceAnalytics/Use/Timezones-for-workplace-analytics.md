@@ -4,7 +4,7 @@
 
 title: Time zones For Workplace Analytics
 description: This article introduces the time-zone formats required in Workplace Analytics.
-author: v-midehm
+author: madehmer
 ms.author: rodonahu
 ms.date: 06/15/2018
 ms.topic: get-started-article
