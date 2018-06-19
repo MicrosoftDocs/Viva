@@ -7,7 +7,7 @@ title: Promotional trial setup (WPA Promotion)
 description: Promotional trial of Workplace Analytics 
 author: madehmer
 ms.author: v-dehmem
-ms.date: 06/15/2018
+ms.date: 06/19/2018
 ms.topic: setup
 ms.prod: wpa
 ---
@@ -37,7 +37,8 @@ After you get a promotional code from us, use the following steps to add the cod
 6. When you get the order receipt, save it, and then choose **Continue**.
 7. To confirm the codes were successfully to your environment, go to your organization's **Admin Center** > **Users** > **Active Users**.
 
-   For example,  https://portal.office.com/AdminPortal/Home#/users. 
+   For example,  https://portal.office.com/AdminPortal/Home#/users.
+
 8. Choose a user account, and then choose **Edit** next to Product licenses.
 
    For example, the following shows 25 newly available licenses for Microsoft Workplace Analytics.
