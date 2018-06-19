@@ -23,5 +23,4 @@ ms.prod: mya
 2. In the left navigation pane, click the **Settings** tab. 
 
    >[!Note] 
-   >You must be assigned the Administrator role to access the Settings page.
-
+   >You must be assigned the Administrator role to access the Settings page. For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
