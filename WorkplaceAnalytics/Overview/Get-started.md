@@ -4,9 +4,9 @@
 
 title: Get started with Workplace Analytics
 description: This topic gives a high-level overview of the primary features in Workplace Analytics. 
-author: LeisaLaDell
+author: madehmer
 ms.author: v-leash
-ms.date: 02/14/2018
+ms.date: 06/19/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -19,7 +19,8 @@ Combining the organizational data that your company chooses to provide with emai
 
 You can explore the data with the Workplace Analytics dashboards, and dive deeper into your company’s behavioral metrics by using custom queries and query templates that can be exported to enable offline analysis.
 
-# More about Workplace Analytics
+## More about Workplace Analytics
+
 Workplace Analytics gives you different ways to explore your data.
 
 **Home** gives a high-level overview of collaboration and links to popular features.
