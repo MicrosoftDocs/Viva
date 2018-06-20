@@ -7,7 +7,7 @@ title: Data Access (WPA Data Access)
 description: Overview of Workplace Analytics Data Access
 author: gbowerman
 ms.author: guybo
-ms.date: 05/17/2018
+ms.date: 06/20/2018
 ms.topic: language-reference
 ms.prod: wpa
 ---
@@ -31,7 +31,7 @@ The following schema describes the data structure of pre-processed Workplace Ana
 
 ![Workplace Analytics entity relationship diagram](./images/data-access-schema.png)
 
-Each of the tables are exported as a seperate .csv file in the designated Azure storage container.
+Each of the tables are exported as a separate .csv file in the designated Azure storage container.
 
 ### Tables
 
@@ -103,6 +103,13 @@ SASKEY=${SASKEY:1:-1}
 # return a read-only SAS URI which can be used by an analyst to access data
 echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 ```
+
+## Saving the data export location and field privacy in the WPA Settings
+Once you have a write-only SAS URI that points to an Azure storage container, enter the URI in the Data Access panel of the Workplace Analytics _Settings_ page to set the data-export location. This panel also has a field-privacy section, where you can specify which HR attributes should be included in the export, and which attributes should be masked. You can also use the field-privacy settings to exclude or mask other potentially sensitive attributes such as email subject lines.
+
+![Workplace Analytics data access settings page](./images/data-access-ui.png)
+
+After you select **Save**, the data will be exported to the Azure storage container the next time the Workplace Analytics data is refreshed.
 
 ## Creating a virtual machine to analyze data
 To analyze the pre-processed data once it has been exported, it is recommended to create a virtual machine in the same Azure subscription as the storage account.

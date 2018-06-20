@@ -138,5 +138,3 @@ Grouping to simply doesn't change the allocation of time; it just simplifies the
 For example, the Sales team has met with individuals on six other teams. You care only about how much time they spent with one of those other teams, Product marketing. Use Group to simplify to concentrate on Product marketing. 
 
 Although Sales also met with people in IT, Finance, R&D, Engineering, and Operations, you don't care about the time they spend with those groups. The total amount of time they spent with all those other groups combined might interest you, but the detailed breakdown does not. To clean up the query output in this regard, use the Group to simplify option under Their collaborators. The query results then treat Product Marketing as one group, and all other internal collaborators as a second group, called "other." Note that you cannot specify more than one "other" group; however, WpA automatically groups others into two groups by domain, internal others and external others. 
-
--->
