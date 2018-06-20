@@ -28,14 +28,14 @@ After you get a promotional code from us, use the following steps to add the cod
 
    ![Promotional code link](../Images/promo-code.png)  
 
-3. To add this promo code to your existing tenant, choose the **Sign In** option next to "Want to add this to an existing subscription?"
+3. To add this promo code to your existing environment, choose **Sign In** next to **Want to add this to an existing subscription?**
 
    ![Promotional code sign-in](../Images/sign-in.png)
 
 4. On the **Sign in** page, type in your admin credentials.
 5. On the **Check out** page, choose **Try Now** to confirm the order.
 6. When you get the order receipt, save it, and then choose **Continue**.
-7. To confirm the codes were successfully added to your environment, go to your organization's **Admin Center** > **Users** > **Active Users**.
+7. To confirm the codes were successfully added to your environment, go to the **Admin Center** > **Users** > **Active Users**.
 
    For example,  https://portal.office.com/AdminPortal/Home#/users.
 
