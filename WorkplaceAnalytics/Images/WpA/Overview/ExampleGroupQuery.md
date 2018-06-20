@@ -9,7 +9,6 @@ ms.author: v-pascha
 ms.date: 02/27/2018
 ms.topic: get-started-article
 localization_priority: normal 
-localization_priority: normal 
 ms.prod: wpa
 ---
 
