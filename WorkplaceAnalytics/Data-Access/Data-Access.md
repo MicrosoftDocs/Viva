@@ -105,11 +105,11 @@ echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 ```
 
 ## Saving the data export location and field privacy in the WPA Settings
-Once you have a write-only SAS URI that points to an Azure storage container, enter the URI in the Data Access panel of the Workplace Analytics _Settings_ page to set the data export location. This panel also has a field privacy section, where you can specify which HR attributes should be included in the export, and which attributes should be masked. The field privacy settings also allow you to exclude or mask other potentially sensitive attributes such as email subject lines.
+Once you have a write-only SAS URI that points to an Azure storage container, enter the URI in the Data Access panel of the Workplace Analytics _Settings_ page to set the data-export location. This panel also has a field-privacy section, where you can specify which HR attributes should be included in the export, and which attributes should be masked. You can also use the field-privacy settings to exclude or mask other potentially sensitive attributes such as email subject lines.
 
 ![Workplace Analytics data access settings page](./images/data-access-ui.png)
 
-After clicking _Save_, the data will be exported to the Azure storage container next time the Workplace Analytics data is refreshed.
+After you select **Save**, the data will be exported to the Azure storage container the next time the Workplace Analytics data is refreshed.
 
 ## Creating a virtual machine to analyze data
 To analyze the pre-processed data once it has been exported, it is recommended to create a virtual machine in the same Azure subscription as the storage account.
