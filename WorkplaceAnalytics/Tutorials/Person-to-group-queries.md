@@ -5,7 +5,7 @@
 title: Person-to-group queries in Workplace Analytics
 description: Person-to-group queries uncover how an individual invested their time across the rest of the organization and beyond.  
 author: madehmer
-ms.author: v-pascha
+ms.author: v-midehm
 ms.date: 06/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
@@ -37,9 +37,9 @@ While setting up a person-to-group query differs from setting up meeting or grou
 2. Type a name for the query, and optionally, type a description.
 3. For Group by, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those person-to-group interactions that took place during this date range.
-5. Select a set of meeting exclusions. The query will ignore meetings that are filtered out by the meeting exclusions that you choose.
+5. Select a set of meeting exclusions. The query will ignore meetings that are filtered out by the meeting exclusions that you choose. 
 
-   Move on to the Select metrics section:
+    Move on to the Select metrics section:
 
    ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics.png)
 
@@ -66,10 +66,10 @@ While setting up a person-to-group query differs from setting up meeting or grou
    Move on to the section called Their collaborators:
 
    ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
-   
+
 8. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization) that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators (the ones in Sales? the ones in R&D? the ones in particular external domains?) interacted with the time investors.
 9. Now, you can group the collaborators. By doing this, you can have the query results inform you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors. 
 
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
-10. Click **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it (in .csv file format), or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) that you can use in a visualization tool such as Power BI.
+10. Choose **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it (in .csv file format), or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) that you can use in a visualization tool such as Power BI.

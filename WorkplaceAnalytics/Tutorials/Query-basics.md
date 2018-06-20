@@ -17,16 +17,16 @@ Microsoft Workplace Analytics queries offer a powerful suite of tools to help yo
 
 With these tools, you can:
 
--	Select as many or as few metrics as you need, for any population or time range.
--	Customize metrics using a broad range of interaction details.
--	Get your data in a clean and easy-to-use format that you can use to take your analysis to the next level.
+* Select as many or as few metrics as you need, for any population or time range.
+* Customize metrics using a broad range of interaction details.
+* Get your data in a clean and easy-to-use format that you can use to take your analysis to the next level.
 
  ![What you can do with queries](../Images/WpA/Tutorials/select-customize-transform.png)
 
 ## Person query
 
 ![Person query](../Images/WpA/Tutorials/person-query-card.png)
- 
+
 Use a person query when you want to understand the relationship between a person’s organizational attributes – like their team, level, or location – and how they use their time, or when you want to know how one aspect of a person’s time use might influence another aspect of their time use.
 
 With a person query you can compare across individual activities and attributes such as:
@@ -84,6 +84,3 @@ You can choose to analyze the number of interactions between a time investor and
 [Workplace Analytics glossary](../Use/Glossary.md)
 
 [Metric descriptions](../Use/Metric-definitions.md)
-
-
-

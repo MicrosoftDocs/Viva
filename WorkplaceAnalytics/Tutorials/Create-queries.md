@@ -5,7 +5,7 @@
 title: Create queries in Workplace Analytics
 description: This topic explains how to create custom queries in Workplace Analytics. 
 author: madehmer
-ms.author: v-leash
+ms.author: v-midehm
 ms.date: 06/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
@@ -58,58 +58,58 @@ Person query results show a de-identified list of the productivity metrics (such
 
 ### How to create a Person query
 
-In the basic process to create a Person query, you will answer three questions:
+During the process of creating a Person query, you will answer three questions:
 
-1. Who (what type or group of people) do I want to analyze? (Filters section)
-2. What time frame do I want to analyze? (Group by, Date range section)
-3. What data do I want to know about those people for that period? (Metrics section)
+1. Who (what type or group of people) do I want to analyze? (Filters)
+2. What time frame do I want to analyze? (Group by and Date range)
+3. What data do I want to know about these people for that period? (Metrics)
 
 ### Available data
 
-Using a Person query, you can query on the organizational data that was imported to Workplace Analytics by your company. Most organizational data comes from a company’s human resources information system.
+Using a Person query, you can query the organizational data that was imported to Workplace Analytics by your company. Most organizational data comes from a company’s human resources information system.
 
 Examples include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, manager, and so on.
 
-### Example: Business scenario – Long meetings
+### Business scenario example of long meetings
 
-You could create a Person query to investigate if long meetings are a significant factor in the total number of meeting hours for Operations. In this query, you will select your metrics and filters, and customize them to your needs.
+You can create a Person query to investigate if long meetings are a significant factor in the total number of meeting hours for Operations. The following custom query uses metrics and filters to customize the data.
 
 **Query criteria**
 
-* Time frame: Show the data aggregated weekly
-* Who: Filter on Operations
+* Time frame: Shows the data aggregated weekly
+* Who: Filters on Operations
 * What data: Metrics
-  * Meeting hours – the total of all meeting hours
-  * Long meeting hours - customize to define long meetings as 2 hours or more
-  * Meetings – a count of the total number of meetings
-  * Emails sent
+  * Meeting hours are the total of all meeting hours
+  * Long meeting hours that include long meetings that last 2 or more hours
+  * Meetings is the total number of meetings
+  * Emails sent is the total number of emails sent
 
 ### To create a custom Person query
 
-1. On the Queries page, click **Person**.
-2. In the **Enter query name here** box, type 'Operations long meetings.'
-3. In the** Group by** menu, select **Week**, and then select the** Date range** you want, and in the **Meeting exclusions** menu, select the exclusion rule set that you want.
-4. Under **Filters**, click **Add filter**, and then in the menus, select **Function > Equals > Operations**.
-5. To add a metric for total meeting hours, under **Metrics**, click** Add metric**, in the menu select** Meeting hours**, and then edit the name for the metric to ‘Total meeting hours.’
-6. To add a custom metric for long meeting hours, click **Add metric**, in the menu select **Meeting hours**, and then edit the metric name ‘'Long meeting hours.’
+1. On the Queries page, choose **Person**.
+2. In the **Enter query name here** box, type **Operations long meetings**.
+3. In the **Group by** menu, select **Week**, choose the **Date range** you want, and in the **Meeting exclusions** menu, choose the exclusion rule set that you want.
+4. In the **Filters** section, choose **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
+5. To add a metric for total meeting hours, in the **Metrics** section, choose **Add metric**, and then choose **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
+6. To add a custom metric for long meeting hours, choose **Add metric**, and then choose **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
 
-    a. To customize the Long meeting hours metric, click the Edit icon.
+    a. To customize the Long meeting hours metric, choose the Edit icon.
 
-    b. Click **Add filter**.
+    b. Choose **Add filter**.
 
-    c. Under **Long meeting hours where**, click **Meeting**, select **Duration­Hours > >= >** type 2, and then click **Confirm**.
+    c. In the **Long meeting hours where** section, choose **Meeting**, choose **Duration­Hours > >= > 2**, and then choose **Confirm**.
 
-7. To add a metric for total number of meetings, click **Add metric**, in the menu, select **Meetings**, and then edit the display name for the metric to ‘Total number of meetings'.
-8. To include the Sent mail metric, click **Add metric**, in the menu select **Emails sent**, and then edit the metric name to ‘Number of emails sent.’
+7. To add a metric for total number of meetings, choose **Add metric**, and then choose **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
+8. To add a metric for sent email, choose **Add metric**, and then choose **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
 
     > [!Note]
     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
-    > * When aggregating data by the week or the month, there may be instances when you want to include a metric that has a zero value.
-    > * To make sure you have a line of data for every person/date combination for the metrics, add Emails sent as one of your metrics.
-    > * Once you export your results, replace all null values with zeros to ensure that calculations for averages and other statistics includes all person/date combinations.
+    > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
+    > * To make sure you have a line of data for every person/date combination for the metrics, add **Emails sent** as one of your metrics.
+    > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics includes all person/date combinations.
 
-9. Click **Run query**.
-10. On the **Results** page, you can see the status of your query, view the query, and, when your query results are complete, you can download the results as a csv file to continue your analysis.
+9. Choose **Run query**.
+10. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
 
 **Person query results include the following columns**
 
@@ -118,7 +118,7 @@ You could create a Person query to investigate if long meetings are a significan
 * Person Attributes: Each of the person attributes in the data set supplied by the organizational data.
 * Metrics: Any other metrics that you included in the query.
 
-**Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Metrics - Mail hrs**|**Metrics Meeting hrs**
+**Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Metrics - Email hrs**|**Metrics Meeting hrs**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 A|3/1/2017|HR|Administrator|5|11
 B|3/1/2017|Marketing|Executive|4|14
@@ -154,16 +154,16 @@ Continuing the example from the Person section above, to investigate long meetin
 
 ### To create a custom Meeting query
 
-1. On the Queries page, click **Meeting**.
+1. On the Queries page, choose **Meeting**.
 2. In the **Enter query name here** box, type “Ops long recurring meetings.”
-3. Enter the **Date range** you want, and then in the **Meeting exclusions** menu, select the exclusion rule set that you want.
-4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, click **Add filter**, click **Attendee**, and then select **Function > Equals > Operations**.
-5. To add a custom filter to include only meetings that are two hours or longer, point to the plus sign, click **Meeting**, and then select **DurationHours > >= **>type 2.
-6. To add a custom filter to include only meetings that are recurring, point to the plus sign, click **Meeting**, and then select **IsRecurring > = > True**.
-7. To add a metric for the number of attendees, under Metrics, click **Add metric** and select **Attendees**, and then edit the display name to 'Total attendees'.
-8. To add a metric for the total meeting hours of attendees, click **Add metric** and select** Attendee meeting hours**, and then edit the display name to 'Total attendee meeting hours.'
-9. Click **Run query**.
-10. On the **Results** page, you can see the status of your query, view the query, and, when your query results are complete, you can download the results as a .csv file to continue your analysis.
+3. Enter the **Date range** you want, and then in the **Meeting exclusions** menu, choose the exclusion rule set that you want.
+4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, choose **Add filter**, choose **Attendee**, and then choose **Function** > **Equals** > **Operations**.
+5. To add a custom filter to include only meetings that are two hours or longer, point to the plus sign, choose **Meeting**, and then choose **DurationHours > >= > type 2**.
+6. To add a custom filter to include only meetings that are recurring, point to the plus sign, choose **Meeting**, and then choose **IsRecurring > = > True**.
+7. To add a metric for the number of attendees, under Metrics, choose **Add metric** and select **Attendees**, and then edit the display name to 'Total attendees'.
+8. To add a metric for the total meeting hours of attendees, choose **Add metric** and select** Attendee meeting hours**, and then edit the display name to 'Total attendee meeting hours.'
+9. Choose **Run query**.
+10. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
 
 ### Meeting query results include these columns
 
@@ -188,7 +188,8 @@ Each row of data represents a single meeting, and Meeting query results always c
 2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
 
 ## Group queries
-Workplace Analytics offers two kinds of queries that report information about collaboration with groups. See the following topics for more information: 
+
+Workplace Analytics offers two kinds of queries that report information about collaboration with groups. See the following topics for more information:
 
 [Group-to-group queries](Group-to-group-queries.md)
 
