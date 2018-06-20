@@ -46,3 +46,4 @@ After you get a promotional code from us, use the following steps to add the cod
    ![Promotional licenses](../Images/promo-licenses.png)  
 
 9. On the Product licenses page, turn on the available trial licenses.
+
