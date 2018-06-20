@@ -22,7 +22,7 @@ Each query type can help answer specific questions you may be investigating. The
 
 ## Meeting exclusions
 
-You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can choose between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
+You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
 ### Related topics
 
@@ -32,7 +32,7 @@ You can use Meeting exclusions to exclude meetings that fall outside relevant no
 
 ## Business scenario
 
-An analyst may start by looking at a [Person query](#person-query) to see trends of employees across the company related to meeting collaboration. 
+An analyst may start by looking at a [Person query](#person-query) to see trends of employees across the company related to meeting collaboration.
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [Meeting query](#meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
@@ -54,7 +54,7 @@ The following examples contain the steps to create custom **Person**, **Meeting*
 
 Use a Person query when you want to find broader trends in the organization by looking at aggregated metrics for a group of people.
 
-Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person, and you can choose to aggregate the results by day, week, or month.
+Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person, and you can select to aggregate the results by day, week, or month.
 
 ### How to create a Person query
 
@@ -86,23 +86,23 @@ You can create a Person query to investigate if long meetings are a significant 
 
 ### To create a custom Person query
 
-1. On the Queries page, choose **Person**.
-2. In the **Enter query name here** box, type **Operations long meetings**.
-3. In the **Group by** menu, select **Week**, choose the **Date range** you want, and in the **Meeting exclusions** menu, choose the exclusion rule set that you want.
-4. In the **Filters** section, choose **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
-5. To add a metric for total meeting hours, in the **Metrics** section, choose **Add metric**, and then choose **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
-6. To add a custom metric for long meeting hours, choose **Add metric**, and then choose **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
+1. On the Queries page, select **Person**.
+2. In the **Enter query name here** box, enter **Operations long meetings**.
+3. In the **Group by** menu, select **Week**, select the **Date range** you want, and in the **Meeting exclusions** menu, select the exclusion rule set that you want.
+4. In the **Filters** section, select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
+5. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
+6. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
 
-    a. To customize the Long meeting hours metric, choose the Edit icon.
+    a. To customize the Long meeting hours metric, select the Edit icon.
 
     b. Choose **Add filter**.
 
-    c. In the **Long meeting hours where** section, choose **Meeting**, choose **Duration­Hours > >= > 2**, and then choose **Confirm**.
+    c. In the **Long meeting hours where** section, select **Meeting**, select **Duration­Hours > >= > 2**, and then select **Confirm**.
 
-7. To add a metric for total number of meetings, choose **Add metric**, and then choose **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
-8. To add a metric for sent email, choose **Add metric**, and then choose **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
+7. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
+8. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
 
-    > [!Note]
+    > [!Notes]
     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
     > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
     > * To make sure you have a line of data for every person/date combination for the metrics, add **Emails sent** as one of your metrics.
@@ -154,14 +154,14 @@ Continuing the example from the Person section above, to investigate long meetin
 
 ### To create a custom Meeting query
 
-1. On the Queries page, choose **Meeting**.
-2. In the **Enter query name here** box, type “Ops long recurring meetings.”
-3. Enter the **Date range** you want, and then in the **Meeting exclusions** menu, choose the exclusion rule set that you want.
-4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, choose **Add filter**, choose **Attendee**, and then choose **Function** > **Equals** > **Operations**.
-5. To add a custom filter to include only meetings that are two hours or longer, point to the plus sign, choose **Meeting**, and then choose **DurationHours > >= > type 2**.
-6. To add a custom filter to include only meetings that are recurring, point to the plus sign, choose **Meeting**, and then choose **IsRecurring > = > True**.
-7. To add a metric for the number of attendees, under Metrics, choose **Add metric** and select **Attendees**, and then edit the display name to 'Total attendees'.
-8. To add a metric for the total meeting hours of attendees, choose **Add metric** and select** Attendee meeting hours**, and then edit the display name to 'Total attendee meeting hours.'
+1. On the Queries page, select **Meeting**.
+2. In the **Enter query name here** box, enter “Ops long recurring meetings.”
+3. Enter the **Date range** you want, and then in the **Meeting exclusions** menu, select the exclusion rule set that you want.
+4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > **Equals** > **Operations**.
+5. To add a custom filter to include only meetings that are two hours or longer, point to the plus sign, select **Meeting**, and then select **DurationHours** > **>=** > **2**.
+6. To add a custom filter to include only meetings that are recurring, point to the plus sign, select **Meeting**, and then select **IsRecurring** > **=** > **True**.
+7. To add a metric for the number of attendees, in Metrics, select **Add metric** and select **Attendees**, and then edit the display name to 'Total attendees'.
+8. To add a metric for the total meeting hours of attendees, select **Add metric** and select **Attendee meeting hours**, and then edit the display name to 'Total attendee meeting hours.'
 9. Choose **Run query**.
 10. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
 
