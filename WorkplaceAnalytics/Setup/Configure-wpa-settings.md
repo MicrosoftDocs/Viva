@@ -24,11 +24,11 @@ The default time zone for Workplace Analytics is Pacific Standard Time.
 
 For a complete list of valid times zones, see [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md)  
 
-### To change the default time zone 
+### To change the default time zone
 
-1. On the **Settings** page, choose **Settings**.
-2. Under **System defaults**, choose the time zone you want from the **Default time zone** list.
-3. Choose **Save**.
+1. On the **Settings** page, select **Settings**.
+2. Under **System defaults**, select the time zone you want from the **Default time zone** list.
+3. Select **Save**.
 
 > [!Important]
 > This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
@@ -49,7 +49,7 @@ These admin-configured default settings are used for a particular user only if t
 
 Being aware of employees’ rights is a key component to ensuring a successful program using Workplace Analytics.  It is important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics.
 
-Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in Workplace Analytics.
+Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization selects what data to use in Workplace Analytics.
 
 > [!Important]
 > Please consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
@@ -69,7 +69,7 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
 
 ### To set your privacy settings
 
-1. On the **Settings** page, choose **Settings**.
+1. On the **Settings** page, select **Settings**.
 2. Under **Privacy settings**, configure the settings to meet your company's needs.
 
    > [!Note]
@@ -80,7 +80,7 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
    > [!Important]
    > Carefully validate that your privacy settings are correct, before you check the "I confirm that all privacy settings are complete" box, you can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
 
-4. To begin the processing of Office 365 data, check the **I confirm that all privacy settings are complete** box, and then choose **Save**.
+4. To begin the processing of Office 365 data, check the **I confirm that all privacy settings are complete** box, and then select **Save**.
 
 ### Related topic
 [Settings in Workplace Analytics](../Use/Settings.md) 
