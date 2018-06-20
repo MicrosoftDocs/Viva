@@ -16,9 +16,9 @@ ms.prod: wpa
 
 On the **Settings** page, administrators can customize system defaults and privacy settings, and upload organizational data to Workplace Analytics. There are two tabs, **Settings** and **Organizational data**.
 
-## Time zone settings
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
+## Time zone settings
 In the **System defaults** section, you can customize the **Default time zone**. This is used to compute after-hours metrics for employees whose   time zone was not provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone.
 
 The default time zone for Workplace Analytics is Pacific Standard Time. Visit [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md) for a complete list of times zones you can use.
