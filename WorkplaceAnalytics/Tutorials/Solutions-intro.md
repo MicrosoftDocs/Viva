@@ -22,7 +22,7 @@ For a step-by-step walkthrough that uses the capabilities of Solutions feature t
 
 The Solutions feature of Workplace Analytics combines the power of Workplace Analytics and MyAnalytics to enable you to transform the insights you find in Workplace Analytics into targeted change programs across your organization. The first set of change programs that are supported in Solutions are reducing meeting load, increasing focus time, and maintaining work-life balance. In the future, additional solutions types will become available.
 
-The Solutions feature works like this:
+The Solutions feature offers these things:
 
 1. It helps you identify in Workplace Analytics groups that are experiencing meeting load, lack of focus time, or lack of work-life balance. 
 
@@ -37,8 +37,8 @@ Here are the pre-requisites for using Solutions in Workplace Analytics:
 
  * Obtain licenses to both Workplace Analytics and MyAnalytics for the groups that will experience change programs. 
  * Identify people in your organization to whom to assign the following roles: 
-    * Analyst. Analysts help identify opportunities for change programs.  
-    * Program manager. Program managers help set up and run programs, and measure program ROI. 
+    * <u>Analyst.</u> Analysts help identify opportunities for change programs.  
+    * <u>Program manager.</u> Program managers help set up and run programs, and measure program ROI. 
 
 > [!Note] 
 > One person can be assigned both the Analyst and Program manager roles.
