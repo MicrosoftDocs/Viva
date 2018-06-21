@@ -29,7 +29,7 @@ The Solutions feature offers these things:
 2. It enables you to set up 12-week change programs for the identified groups with goals, recommended habits, and additional context. The members of the group experience the change program through MyAnalytics. 
 
 3. Finally, it helps you measure progress and the ROI of the program. 
-Solutions combines the features of real-world change programs that are run with in Workplace Analytics and MyAnalytics. For more information, see [[Macy`s video]] and [[Helen's video]]. 
+Solutions combines the features of real-world change programs that are run with in Workplace Analytics and MyAnalytics. For more information, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->  
 
 ## Prerequisites for using Solutions
 
