@@ -75,7 +75,7 @@ Additional information about roles and access
 
 **Question 2:** What is the minimum group size?
 
-**Answer 2:** On the Settings page of Workplace Analytics, administrators can set the minimum group size for an organization. They cannot reduce this setting below the absolute limit (five people). For more information, see [Configure settings for Workplace Analytics](). 
+**Answer 2:** On the Settings page of Workplace Analytics, administrators can set the minimum group size for an organization. They cannot reduce this setting below the absolute limit (five people). For more information, see [Configure settings for Workplace Analytics](../use/settings.md). 
 
 **Question 3:** Can I monitor metrics of specific users?
 
