@@ -24,10 +24,10 @@ Work on a solution has the following phases:
 
 | Workflow phase |Activity in this phase | Solutions page | Roles who can perform this activity |
 | ---- | ---- | ---- | ---- |
-| (1) Identify | Identify a group that you want to take part in an improvement program.  | Identify | Both roles can identify users: Analysts can select groups, while program managers can manually upload groups. |
-| (2) Schedule | Define a program and assign it to a group. | Manage | Only program managers can define programs. Analysts have read access to the Manage page. |
-| (3) Track | Track the group's progress in the program over its twelve-week length. | Track | Program managers only. They have both read and write access to the Track page.  |
-| (4) Examine | Compare how well a completed program did against its goals. | Track | The examination of completed programs is done primarily by program managers. |
+| (1) [Identify](#identify-opportunities-for-improvement) | Identify a group that you want to take part in an improvement program.  | Identify | Both roles can identify users: Analysts can select groups, while program managers can manually upload groups. |
+| (2) [Schedule](#schedule-a-program) | Define a program and assign it to a group. | Manage | Only program managers can define programs. Analysts have read access to the Manage page. |
+| (3) [Track](#track-programs) | Track the group's progress in the program over its twelve-week length. | Track | Program managers only. They have both read and write access to the Track page.  |
+| (4) [Examine](#track-programs) | Compare how well a completed program did against its goals. | Track | The examination of completed programs is done primarily by program managers. |
 
 ## Identify opportunities for improvement
 
@@ -47,7 +47,7 @@ The following section presents you with procedures for both ways to identify a g
 
 <u>Prerequisite:</u> Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file to upload a group](solutions-conceptual.md#use-a-csv-file-to-upload-a-group).  
 
-<u>Role: Program manager</u>
+<u>Role:</u> Program manager
 
 1. In Workplace Analytics, select **Solutions**. 
 
