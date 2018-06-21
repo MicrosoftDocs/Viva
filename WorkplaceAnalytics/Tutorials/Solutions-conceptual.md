@@ -209,7 +209,7 @@ Additional information about roles and access
 
 **Question 1:** Can we change the duration of the programs?
 
-**Answer 1:** No. All programs last twelve weeks. 
+**Answer 1:** No. All programs last twelve weeks. Exception: Occasionally, a program must be ended early because of unforseen circumstances. 
 
 **Question 2:** What is the minimum group size?
 
