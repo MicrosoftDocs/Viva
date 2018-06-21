@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics Setup -- Prepare and upload organizational data
-description: Eighth setup step -- Prepare and upload organizational data
+description: Setup steps to prepare and upload organizational data in Workplace Analytics. 
 author: paul9955
 ms.author: v-leash
 ms.date: 04/19/2018
@@ -17,7 +17,7 @@ ms.prod: wpa
 * **Outcome** - CSV file of organizational data is generated and uploaded to Workplace Analytics for final provisioning
 
 Organizational data is the information about employees that your company provides to use in Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
-
+s
 ### What is organizational data?
 - Individual-level metadata that provides descriptive information of a company’s employees
 - Sourced from multiple sources

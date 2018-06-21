@@ -3,7 +3,7 @@
 # required metadata
 
 title: Understand meeting exclusions in Workplace Analytics
-description: This topic explains how to use the meeting exlusions feature in Workplace Analytics. 
+description: How to use the meeting exclusions feature in Workplace Analytics. 
 author: LeisaLaDell
 ms.author: v-leash
 ms.date: 02/14/2018

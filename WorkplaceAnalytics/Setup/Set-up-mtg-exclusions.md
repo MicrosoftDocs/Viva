@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics Setup -- Set up meeting exclusions
-description: Eighth setup step -- set up initial meeting exclusions
+description: Set up initial meeting exclusions for Workplace Analytics. 
 author: paul9955
 ms.author: v-leash
 ms.date: 04/19/2018
