@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Solutions (related concepts)
+title: Workplace Analytics Solutions concepts
 description: Concepts and definitions to help you better work with Solutions in Workplace Analytics. 
 author: paul9955
 ms.author: v-pascha
@@ -12,14 +12,15 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Related concepts
+# Workplace Analytics Solutions: concepts
 
 This section describes several concepts whose understanding could help you complete tasks related to creating and monitoring programs.
 
 ## Executive summary
 
 The Solutions feature of Workplace Analytics combines the power of Workplace Analytics and MyAnalytics to enable you to transform the insights you find in Workplace Analytics into targeted change programs across your organization. The first set of change programs that are supported in Solutions are reducing meeting load, increasing focus time, and maintaining work-life balance. In the future, additional solutions types will become available.
-Solutions works like this:
+
+The Solutions feature works like this:
 
 1. It helps you identify in Workplace Analytics groups that are experiencing meeting load, lack of focus time, or lack of work-life balance. 
 
@@ -122,7 +123,7 @@ If you decide it's not the right time to start the program, you can also revert 
 > [!Note] 
 > Analysts have read-only access to the Solutions > Manage page. Program managers have read and write access to this page. For more information, see [Workflow phases, pages, and roles](solutions-task.md#workflow-phases-pages-and-roles). 
 
-### Available and selected employees
+## Available and selected employees
 
 On the Solutions > Identify > Collaboration Overload page, three sets of employees are displayed below the chart:
 
@@ -171,16 +172,6 @@ Conversely, if you examined a period shorter than twelve weeks ' only four weeks
 
 After the group has been determined, the benchmark is recalculated by using the data for this new group. This means that the benchmark numbers might also change from what you expected when you submitted the group initially. Benchmarks are also calculated for a 12-week window of data. 
 
-## Additional Concepts
-
-### Dated attributes
-
-Workplace Analytics uses the concept of dated attributes. Every time an admin uploads a file of organizational data, the file has an effective date. The attributes in the file can be used from the upload date forward. If people change organizations, are promoted, or make other job changes, those changes are reflected in the next uploaded file. For this reason, we recommend that you upload fresh data at least once a month to keep the data, the attributes, up to date. The term dated attributes applies only to HR data. When you identify a group, you filter the potential group members by their dated HR attributes. (You also filter by selecting a date range.) Few if any attributes (for example, PersonID) are not dated. 
-
-### Solutions and programs
-
-What's the difference between a solution and a program? Solution refers to the area of Workplace Analytics in which you create programs that aim to change work habits. A program is something you create by combining a group of people who will work towards better work habits, a goal that has been chosen for those people, and a period of time (twelve weeks) to work towards that goal.  
-
 ## Frequently asked questions
 
 ### Questions about roles and access
@@ -218,3 +209,13 @@ Additional information about roles and access
 **Question 3:** Can I monitor metrics of specific users?
 
 **Answer 3:** No. Privacy considerations preclude the monitoring of behavior information about specific users.
+
+## Additional Concepts
+
+### Dated attributes
+
+Workplace Analytics uses the concept of dated attributes. Every time an admin uploads a file of organizational data, the file has an effective date. The attributes in the file can be used from the upload date forward. If people change organizations, are promoted, or make other job changes, those changes are reflected in the next uploaded file. For this reason, we recommend that you upload fresh data at least once a month to keep the data, the attributes, up to date. The term dated attributes applies only to HR data. When you identify a group, you filter the potential group members by their dated HR attributes. (You also filter by selecting a date range.) Few if any attributes (for example, PersonID) are not dated. 
+
+### Solutions and programs
+
+What's the difference between a solution and a program? Solution refers to the area of Workplace Analytics in which you create programs that aim to change work habits. A program is something you create by combining a group of people who will work towards better work habits, a goal that has been chosen for those people, and a period of time (twelve weeks) to work towards that goal.  

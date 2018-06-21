@@ -12,13 +12,13 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions
+# Solutions: introduction
 
 Use the Solutions area of Workplace Analytics to attempt to change employees' work habits for the better. On the Solutions pages of Workplace Analytics, you can create a program, track it while it is in progress, and examine it after it completes. 
 
 People in either of two roles can work on solutions: Analysts can help identify groups and opportunities for change. Program managers can design and track programs that are underway and examine programs that have completed. 
 
-###Workflow phases, pages, and roles 
+## Workflow phases, pages, and roles 
 
 Work on a solution has the following phases:
 
@@ -43,7 +43,7 @@ Currently, you can create solutions that address problems of collaboration overl
 
 The following section presents you with procedures for both ways to identify a group, uploading and selecting.
 
-## Upload a file to create a group 
+### Upload a file to create a group 
 
 <u>Prerequisite:</u> Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file to upload a group](solutions-conceptual.md#use-a-csv-file-to-upload-a-group).  
 
@@ -69,7 +69,7 @@ The following section presents you with procedures for both ways to identify a g
 
 Go to [Schedule a program](#schedule-a-program). 
 
-## Identify a group 
+### Identify a group 
 
 <u>Role:</u> Analyst
 
@@ -158,7 +158,7 @@ After you have selected groups in [Identify a group](#identify-a-group), finish 
 
 4. Select _I confirm that these selections are correct_ and select **Submit**. A notification appears in the lower-right area of the page; it lets you know whether your group has been successfully submitted. You can select this notification to open the Solutions > Manage page. 
 
-### Next steps
+## Next steps
 
 After you select **Submit**, Workplace Analytics processes the group. Processing includes these tasks: 
 
