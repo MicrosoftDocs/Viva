@@ -70,8 +70,12 @@
             href: ~/Tutorials/Person-to-group-queries.md            
           - name: Query auto-refresh option
             href: ~/Tutorials/Query-auto-refresh.md  
-          - name: Solutions
-            href: ~/Tutorials/Solutions-task.md      
+          - name: Solutions -- introduction
+            href: ~/Tutorials/Solutions-intro.md 
+          - name: Solutions -- walkthrough
+            href: ~/Tutorials/Solutions-task.md                     
+          - name: Solutions -- concepts
+            href: ~/Tutorials/Solutions-conceptual.md                  
       - name: Reference
         items:
           - name: Glossary
