@@ -1,0 +1,220 @@
+---
+# Metadata Sample
+# required metadata
+
+title: Workplace Analytics Solutions (related concepts)
+description: Concepts and definitions to help you better work with Solutions in Workplace Analytics. 
+author: paul9955
+ms.author: v-pascha
+ms.date: 06/20/2018
+ms.topic: get-started-article
+localization_priority: normal 
+ms.prod: wpa
+---
+
+# Related concepts
+
+This section describes several concepts whose understanding could help you complete tasks related to creating and monitoring programs.
+
+## Executive summary
+
+The Solutions feature of Workplace Analytics combines the power of Workplace Analytics and MyAnalytics to enable you to transform the insights you find in Workplace Analytics into targeted change programs across your organization. The first set of change programs that are supported in Solutions are reducing meeting load, increasing focus time, and maintaining work-life balance. In the future, additional solutions types will become available.
+Solutions works like this:
+
+1. It helps you identify in Workplace Analytics groups that are experiencing meeting load, lack of focus time, or lack of work-life balance. 
+
+2. It enables you to set up 12-week change programs for the identified groups with goals, recommended habits, and additional context. The members of the group experience the change program through MyAnalytics. 
+
+3. Finally, it helps you measure progress and the ROI of the program. 
+Solutions combines the features of real-world change programs that are run with in Workplace Analytics and MyAnalytics. For more information, see [[Macy`s video]] and [[Helen's video]]. 
+
+## Prerequisites for using Solutions
+
+Here are the pre-requisites for using Solutions in Workplace Analytics: 
+
+ * Obtain licenses to both Workplace Analytics and MyAnalytics for the groups that will experience change programs. 
+ * Identify people in your organization to whom to assign the following roles: 
+    * Analyst. Analysts help identify opportunities for change programs.  
+    * Program manager. Program managers help set up and run programs, and measure program ROI. 
+
+> [!Note] 
+> One person can be assigned both the Analyst and Program manager roles.
+
+## Use a .csv file to upload a group
+
+You can obtain a valid .csv file by creating the file (in a text editor or in Microsoft Excel) or by exporting it from an HR tool or service. This .csv file must contain the email addresses of people in your organization. After you obtain and upload the .csv file, the system uses either the email addresses or the PersonIDs to finalize the list of participants in the program that you will create. 
+
+### CSV file: privacy considerations  
+
+#### Separation from org data
+
+After you create and upload a .csv file for use in a program, the information in that .csv file is not added to the organizational data that Workplace Analytics stores. The .csv-file data is available only in the Solutions area of Workplace Analytics, and only for creating programs. 
+
+However, you can choose to append the data in this .csv file to your existing organizational data. To do this, upload the file in a separate step (through the Settings page of Workplace Analytics). This makes its data available in other areas of Workplace Analytics, such as in the Explore dashboards and in flexible queries. 
+
+#### Minimum group size
+
+In the Group Details area of the Upload group page, you can check the number of members shown for the uploaded group. (Workplace Analytics obtains this number from the number of rows in the uploaded .csv file.) If this number is less than the minimum group size that was set by the tenant, you cannot submit this group for processing and use.
+
+> [!Note] 
+> After you submit a group that was manually uploaded, if too many email addresses are invalid and the group drops below minimum group size, you can either delete the group or upload a new file, but you cannot create a program with a group that is smaller than the minimum group size. 
+
+## Persistence of group selections
+
+After you select groups, you can change other settings on this page. Not all of the settings that you can change retain the group selections that you've made: 
+
+### Group selections are retained
+
+ * Change the chart-view question. You can change the data that is displayed by clicking different questions under Select a question to change the view of your chart. As you do this, the group or groups that you've selected remains the same, even though the data shown about the group is shown from different perspectives. 
+
+### Group selections are lost
+
+ * Change the chart display. If you change the selections under Chart display (such as Group by) and then click Apply again, your group selections are lost. 
+
+ * Change the area of focus. If you change the area of focus, your group selections are lost.
+To select groups again after you have changed the Chart display or area of focus, click groups in the chart.  
+
+## Set a value for Max goal (Min goal for focus hours)
+
+In the Group Details area of the Upload group page, you set a goal for the program. You express this goal as a numeric value (in hours) or as a percentage. Both goal types are relative to your group's initial value, the benchmark. 
+
+### Hour-based goal
+
+Set the number of hours by which the participants should increase or decrease the metric you chose for their program. For example, if the program aims to reduce meeting hours, set a goal to reduce meeting time to 10 hours per week from the initial benchmark value of 15 hours per week. 
+
+### Percentage-based goal
+
+Set a percentage by which the participants should increase or decrease the metric you chose for their program. For example, if your program aims to reduce meeting hours, you can set a goal to reduce meeting time by 50% from the initial benchmark value of 15 hours per week.
+
+### Initial setting
+
+In the Group details area of the Upload group page, you can set a value for Max goal. This is not your final opportunity to set this goal. After you submit this group, Workplace Analytics calculates for the group a benchmark value that pertains to the program type. After you see the benchmark value, you can re-adjust the goal.
+
+### Threshold
+
+Over the course of a program, participants receive messages from Workplace Analytics about their progress. Participants who have success in meeting the goal you set receive a message such as 'Keep up the good work!' Those who have not yet met the goal receive a message that encourages them to work towards that goal. 
+
+The dividing line between these two groups of people is the threshold. You can set a threshold in the Group Details area only if the goal you chose was percentage based. The threshold value is relative to the benchmark. 
+
+**Example:** You want to reduce meeting hours from 15 hours to 10 hours, but you express this in the Goal Details area as reducing meeting hours by 50% from the initial benchmark of 15 hours. After you set the threshold to 10 hours, participants who have reduced their weekly meeting time to 10 hours receive a congratulatory email. Those whose meeting time remains above 10 hours receive email in a more compelling tone. 
+
+## The Solutions > Manage page
+
+Groups and programs are displayed on the Solutions > Manage page of Workplace Analytics. You can track groups and programs in the four columns on this page: 
+
+ * Unassigned groups. The cards in this column represent groups of people for whom program details have not yet been defined. These groups have a program type assigned to them that cannot be changed. The employees who constitute an unassigned group are the ones you selected on the Solutions > Identify page, or have manually uploaded. After you submitted your requirements for this group, Workplace Analytics calculated the exact group and its benchmark based on the last twelve weeks. 
+
+   > [!Note] 
+   > Workplace Analytics also determines who met the HR attribute requirements over these last twelve weeks. This means that it's possible that the group size you submitted on the Identify page has diminished by the time you reach this page. People will be excluded from the group if they no longer fit the filter criteria used to initially create the group. For more information, see [Group size and benchmark might differ](#group-size-and-benchmark-might-differ).   
+
+You can delete groups from the unassigned-groups list. 
+
+Groups whose card contains a 'CSV' logo were uploaded as .csv files, not selected through analysis on the Identify page. 
+
+ * Scheduled programs. Programs listed in this column have been set up, but the start date for the program has not passed yet. In other words, the program has not yet started. If you are a program manager, you can edit a scheduled program until the night before the welcome email is sent out. (You cannot change the group, the program type, and the metric, but you can change all other aspects, including the goal, the habits, and the messaging.) 
+
+If you decide it's not the right time to start the program, you can also revert the scheduled program back to the status of 'unassigned group'. 
+
+ * <u>Active programs.</u> After the program start date passes, the program becomes active. It remains active for twelve weeks. 
+
+ * <u>Completed programs.</u> A program ends automatically at the end of its twelfth week. You can also end a program early. You can review the results of all completed programs. You can end a program early either because its participants have reached and held their goals, or because it is not working, in which case you might want to reassess the program and restart it with different settings. 
+
+> [!Note] 
+> Analysts have read-only access to the Solutions > Manage page. Program managers have read and write access to this page. For more information, see [Workflow phases, pages, and roles](solutions-task.md#workflow-phases-pages-and-roles). 
+
+### Available and selected employees
+
+On the Solutions > Identify > Collaboration Overload page, three sets of employees are displayed below the chart:
+
+   ![Available and selected employees](../Images/WpA/Tutorials/solutions-conceptual-01.png)
+ 
+ * <u>Measured employees:</u> The total number of employees in the organization who are available for analysis. 
+ * <u>In filter group:</u> The number of measured employees who remain available for analysis after you applied filters. 
+ * <u>Selected group:</u> The number of employees in the group or groups that you selected (clicked) in the chart. 
+
+## Progress report
+
+The banner on the progress-report page displays the program type, the number of participants, and the program status. A chart shows what week the program is in and the program's progress, week by week, since it started. This progress is expressed in relevant terms for the program's goals; for example, if the goal is to decrease hours, it shows the number of hours decreased (or increased) since the program started. 
+
+   ![Progress report banner](../Images/WpA/Tutorials/solutions-conceptual-02.png)
+ 
+These highlighted numbers show the average value per person per week since the program started, as compared with the program benchmark. The benchmark, in turn, refers to the average value per person per week for the twelve weeks that immediately preceded the start of the program.    
+
+In this example, you can see a nearly 30% decrease in after-hours work since the program started. This means that, on average, a participant in this program is currently spending 28.5% less time emailing and in meetings after their set work hours. The goal for this program was to reduce after-hours work to two hours, average, per person, per week. As you can see, good progress has been made but that goal is still one hour away. 
+
+The middle number shows the aggregate (not weekly) number of after-hours time that was saved since the start of the program, for all participating employees. This number gives a hint of your ROI for implementing the program.  
+The third number shows what proportion of participants are achieving the program goal. It compares the average value per person since the program started with the program goal. 
+
+## Manually upload a .csv file 
+
+After you create and upload a .csv file to create a group, all email addresses that were successfully uploaded now constitute the group. After the upload successfully completes, the group can be processed. During processing, Workplace Analytics matches email address to PersonIDs, which lets it examine data for these people for the metrics that you chose. Now, Workplace Analytics can calculate metrics and a benchmark for the group. It also gives an estimate of the number of people in the group, based on the number of rows in the file. This estimate will change if some of the people turn out to lack valid Workplace Analytics licenses. 
+
+### Privacy note
+
+After you create and upload a file to create a group, Workplace Analytics matches the email addresses in the file to PersonIDs. From this point on, Workplace Analytics uses the PersonIDs and no longer displays email addresses in any of its outputs ' for example, in the results of flexible queries. The email addresses are never again made visible to analysts or program managers. As for admins, they maintain access to the HR data, which includes email addresses, but they cannot match email addresses to PersonIDs. The person who uploads email addresses never sees the associated PersonIDs.
+
+## Use Workplace Analytics to identify a group
+
+If you use the Identify page to select a group, please be aware of the following points: 
+
+### Group size and benchmark might differ
+
+When you analyze behavior on the Workplace Analytics Identify page, you can examine up to one years' worth of data. Then, after you submit the group, Workplace Analytics calculates the benchmark for your area of focus; it does so by averaging 12 weeks of information, the 12 weeks that immediately precede the start date of your program. Consequently, two numbers might differ from your expectations, group size and benchmark:
+
+### The group size might change
+
+If you examined a period longer than twelve weeks ' the past six months, for example ' some people who fit the filter criteria during the six months might not fit the same criteria during the 12 weeks that Workplace Analytics uses. This is because, during that time, they might have changed jobs, left the organization, or made other changes that exclude them from the group you selected by filtering. So the calculated group size is now smaller. 
+
+Conversely, if you examined a period shorter than twelve weeks ' only four weeks, for example ' the final number of group members might go up because more people might meet your filter criteria. 
+
+### The benchmark number might change
+
+After the group has been determined, the benchmark is recalculated by using the data for this new group. This means that the benchmark numbers might also change from what you expected when you submitted the group initially. Benchmarks are also calculated for a 12-week window of data. 
+
+## Additional Concepts
+
+### Dated attributes
+
+Workplace Analytics uses the concept of dated attributes. Every time an admin uploads a file of organizational data, the file has an effective date. The attributes in the file can be used from the upload date forward. If people change organizations, are promoted, or make other job changes, those changes are reflected in the next uploaded file. For this reason, we recommend that you upload fresh data at least once a month to keep the data, the attributes, up to date. The term dated attributes applies only to HR data. When you identify a group, you filter the potential group members by their dated HR attributes. (You also filter by selecting a date range.) Few if any attributes (for example, PersonID) are not dated. 
+
+### Solutions and programs
+
+What's the difference between a solution and a program? Solution refers to the area of Workplace Analytics in which you create programs that aim to change work habits. A program is something you create by combining a group of people who will work towards better work habits, a goal that has been chosen for those people, and a period of time (twelve weeks) to work towards that goal.  
+
+## Frequently asked questions
+
+### Questions about roles and access
+
+**Question 1:** Why don't I see the Solutions area?
+
+**Answer 1:** You can see the Solutions area only if you've been assigned the role of program manager or the role of analyst. 
+
+**Question 2:** Why do I see the Identify page but not the Manage and Track pages?
+
+**Answer 2:** You can see the Manage and Track pages only if you've been assigned the role of program manager. 
+
+**Question 3:** What is the role of a program manager? Why do we need a new role?
+
+**Answer 3:** A program manager understands teams and trends in an organization and can define, track, and understand the value of programs. 
+
+Additional information about roles and access
+
+ * For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
+
+ * For more information about roles in Solutions, see [Workflow phases, pages, and roles](solutions-task.md#workflow-phases-pages-and-roles). 
+
+ * For more information about assigning roles, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
+
+### Questions about program implementation
+
+**Question 1:** Can we change the duration of the programs?
+
+**Answer 1:** No. All programs last twelve weeks. 
+
+**Question 2:** What is the minimum group size?
+
+**Answer 2:** On the Settings page of Workplace Analytics, administrators can set the minimum group size for an organization. They cannot reduce this setting below the absolute limit (five people). For more information, see [Configure settings for Workplace Analytics](). 
+
+**Question 3:** Can I monitor metrics of specific users?
+
+**Answer 3:** No. Privacy considerations preclude the monitoring of behavior information about specific users.

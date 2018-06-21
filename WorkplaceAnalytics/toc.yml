@@ -69,7 +69,9 @@
           - name: Person-to-group queries
             href: ~/Tutorials/Person-to-group-queries.md            
           - name: Query auto-refresh option
-            href: ~/Tutorials/Query-auto-refresh.md            
+            href: ~/Tutorials/Query-auto-refresh.md  
+          - name: Solutions
+            href: ~/Tutorials/Solutions-task.md      
       - name: Reference
         items:
           - name: Glossary
