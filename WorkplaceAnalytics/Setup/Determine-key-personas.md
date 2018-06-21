@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics Setup -- Determine key personas and roles for implementation
-description: Eighth setup step -- Determine key personas and roles for implementation
+description: Setup step to determine key personas and roles for implementation of Workplace Analytics. 
 author: paul9955
 ms.author: v-leash
 ms.date: 04/19/2018

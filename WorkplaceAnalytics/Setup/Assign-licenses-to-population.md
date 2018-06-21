@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Setup -- Set up meeting exclusions
-description: Eighth setup step -- set up initial meeting exclusions
+title: Workplace Analytics setup steps for meeting exclusions
+description: Setup steps for initial meeting exclusions with Workplace Analytics
 author: paul9955
 ms.author: v-leash
 ms.date: 04/19/2018
@@ -12,11 +12,11 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-* **Owner** -	Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator
+* **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator
 * **Task** - Determine population in scope for analysis and assign licenses via Office 365
-* **Outcome** -	Office 365 licenses are assigned for the population that will be analyzed
+* **Outcome** - Office 365 licenses are assigned for the population that will be analyzed
 
-The Workplace Analytics sponsor will work with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you will analyze. These people are referred to as _measured employees_ within Workplace Analytics. Employees in your organization that are not licensed for analysis but may have meeting and email collaboration with measured employees are called _other internal collaborators_.
+The Workplace Analytics sponsor will work with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics. Employees in your organization that are not licensed for analysis but may have meeting and email collaboration with measured employees are called _other internal collaborators_.
 
 Some organizations will analyze the entire population, while others will use sub-populations for specific analysis scenarios and sections of the organization.
 

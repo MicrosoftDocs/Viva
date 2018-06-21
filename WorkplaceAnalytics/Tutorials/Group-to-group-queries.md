@@ -3,7 +3,7 @@
 # required metadata
 
 title: Group-to-group queries in Workplace Analytics
-description: Group-to-group queries uncover how a team invested their time across the rest of the organization and beyond.  
+description: Group-to-group queries uncover how a team invested their time across the rest of the organization and beyond with Workplace Analytics.  
 author: madehmer
 ms.author: rodonahu
 ms.date: 06/20/2018

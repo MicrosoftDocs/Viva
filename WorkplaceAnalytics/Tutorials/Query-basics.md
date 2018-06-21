@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics privacy and data access
-description: This article discusses the privacy and data access controls available in Workplace Analytics and  
+description: This article discusses the privacy and data access controls available in Workplace Analytics.  
 author: madehmer
 ms.author: rodonahu
 ms.date: 06/13/2018
@@ -18,8 +18,8 @@ Microsoft Workplace Analytics queries offer a powerful suite of tools to help yo
 With these tools, you can:
 
 * Select as many or as few metrics as you need, for any population or time range.
-* Customize metrics using a broad range of interaction details.
-* Get your data in a clean and easy-to-use format that you can use to take your analysis to the next level.
+* Customize metrics with a broad range of interaction details.
+* Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
  ![What you can do with queries](../Images/WpA/Tutorials/select-customize-transform.png)
 

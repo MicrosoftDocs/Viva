@@ -31,7 +31,7 @@ To prepare for setting up Workplace Analytics, review the following article:
 
 ## Setup tasks
 
-To set up Workplace Analytics, complete the tasks in this checklist: 
+To set up Workplace Analytics, complete the following tasks: 
 
 | | Task | Owners | Outcome |
 |---|------|-------|---------|
