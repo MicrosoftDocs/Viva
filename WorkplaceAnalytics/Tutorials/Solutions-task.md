@@ -166,7 +166,7 @@ After you select **Submit**, Workplace Analytics processes the group. Processing
 
 2. <u>Calculate the benchmark.</u> Workplace Analytics calculates a new benchmark for this program type and this group. For example, if you chose Reduce meeting hours as the program type, the calculated benchmark reflects the amount of time these people spent in meetings over the most recent 12 weeks of data that Workplace Analytics has for that group. 
 
-3. <u>Display the group card.</u> Workplace Analytics displays the group in a card in the Unassigned groups column on the Solutions > Manage page. This card shows the group's title, program type, and date of submission. At first, the group's card indicates that the group is still being processed. After processing is finished, the displayed card is still just a group of people; it is not yet a program. (For more information about group and program cards, see [Solutions > Manage page](solutions-conceptual.md#solutions-manage-page).)  
+3. <u>Display the group card.</u> Workplace Analytics displays the group in a card in the Unassigned groups column on the Solutions > Manage page. This card shows the group's title, program type, and date of submission. At first, the group's card indicates that the group is still being processed. After processing is finished, the displayed card is still just a group of people; it is not yet a program. (For more information about group and program cards, see [The Solutions > Manage page](solutions-conceptual.md#the-solutions-manage-page).)  
 
 > [!Note] 
 > After processing is finished, both the size of the group and the calculated benchmark might differ from what you expect. For more information, see [Group size and benchmark might differ](#group-size-and-benchmark-might-differ). 
@@ -229,7 +229,7 @@ Go to [Track programs](#track-programs).
 ## Track programs
 <u>Role:</u> Program manager
 
-You track programs on the Solutions > Manage page. Use this page to measure progress on the goal since program started, as well as ROI for the program. For a brief overview of the page, see [Solutions > Manage page](solutions-conceptual.md#solutions-manage-page). 
+You track programs on the Solutions > Manage page. Use this page to measure progress on the goal since program started, as well as ROI for the program. For a brief overview of the page, see [The Solutions > Manage page](solutions-conceptual.md#the-solutions-manage-page).)  
 
 **To track an active program**
 
