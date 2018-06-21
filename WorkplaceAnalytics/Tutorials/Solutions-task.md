@@ -107,7 +107,7 @@ Use this procedure if you don't yet have a list of people (a .csv file) that you
 
    c. In the right box, start typing the name of a manager and then click that name to select this manager's team.
 
-* Optionally, you can add another organization filter. For example, select **Marketing** in the right box. If you do this, the Marketing filter selection is displayed next to your first filter selection (such as Operations) under the selection boxes. 
+   * Optionally, you can add another organization filter. For example, select **Marketing** in the right box. If you do this, the Marketing filter selection is displayed next to your first filter selection (such as Operations) under the selection boxes. 
 
 7. You will soon see the results of this filtering in the form of a chart. Before Workplace Analytics displays the chart, you can, optionally, group the people whose behavior you are analyzing. You can use any of the available HR attributes to group them by. To do this, under Chart display, select **Group by** and then select (for example) **FunctionType**. 
 
@@ -115,27 +115,27 @@ Use this procedure if you don't yet have a list of people (a .csv file) that you
 
    ![Chart display](../Images/WpA/Tutorials/solutions-task-03.png)
  
-Workplace Analytics now displays a chart that shows data about the people that you selected by using filters. It groups these people by the Group by setting you chose -- in this case, FunctionType.  
+   Workplace Analytics now displays a chart that shows data about the people that you selected by using filters. It groups these people by the Group by setting you chose -- in this case, FunctionType.  
 
 9. To select a more precise group of people to include in the program, continue with your analysis. Under Select a question to change the view of your chart, Workplace Analytics displays several questions, such as _Which groups attend the highest number of meetings?_ 
 
-Selecting a question displays the answer to the question in the chart. By selecting a question that is relevant to the collaboration problem that you want to solve, you see groups of employees who are most likely to exhibit symptoms of that problem. Selecting a question also orders the displayed groups by the metric (such as meeting hours, focus hours, or number of meetings) that the question asks about. 
+   Selecting a question displays the answer to the question in the chart. By selecting a question that is relevant to the collaboration problem that you want to solve, you see groups of employees who are most likely to exhibit symptoms of that problem. Selecting a question also orders the displayed groups by the metric (such as meeting hours, focus hours, or number of meetings) that the question asks about. 
 
-The chart displays vertical bars that represent groups of people. It represents each group in one of two ways: 
+   The chart displays vertical bars that represent groups of people. It represents each group in one of two ways: 
 
- * Groups that reach or exceed the minimum group size are colored blue-green. These groups are large enough for you to analyze. 
+   * Groups that reach or exceed the minimum group size are colored blue-green. These groups are large enough for you to analyze. 
 
- * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutions-conceptual.md#minimum-group-size).) For example, in the organization we are analyzing, the minimum group size is five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown grayed out: 
+   * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutions-conceptual.md#minimum-group-size).) For example, in the organization we are analyzing, the minimum group size is five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown grayed out: 
 
    ![Groups below the minimum size](../Images/WpA/Tutorials/solutions-task-04.png)
- 
-For more information, see [Available and selected employees](solutions-conceptual.md#available-and-selected-employees).
+  
+   For more information, see [Available and selected employees](solutions-conceptual.md#available-and-selected-employees).
 
 10. Select one or more groups for analysis. You can also select grayed-out groups. If you select enough of them so that their combined membership exceeds the minimum group size, you can use them in your analysis. 
 
-To select multiple groups, just click or tap them. To unselect a selected group, click or tap it again. For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](solutions-conceptual.md#persistence-of-group-selections).
+    To select multiple groups, just click or tap them. To unselect a selected group, click or tap it again. For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](solutions-conceptual.md#persistence-of-group-selections).
 
-After you have groups selected, go to the procedure To submit a group. 
+After you have groups selected, go to the following procedure, To submit a group. 
 
 **To submit a group**
 
@@ -145,16 +145,16 @@ After you have selected groups in [Identify a group](#identify-a-group), finish 
  
 1. Type a group name and an optional description, and optionally change the program type. 
 
-> [!Note] 
-> The program type that you select here is final; it cannot be changed later.  
+   > [!Note] 
+   > The program type that you select here is final; it cannot be changed later.  
 
 2. Note the histogram under Propose a goal. It displays the baseline state for the selected employees, according to the program type that you chose. For example, if your program is Reduce meeting hours, the columns in this histogram show the distribution of employee behavior regarding meeting hours -- that is, the hours per week that the employees in the selected groups spent in meetings. This baseline state helps you choose a useful and reasonable goal for these employees. 
 
 3. Select a goal. You can pick either a time-based goal or a percentage-based goal: 
 
- * Time-based goal. Select **hrs** and then select a number of hours. Participants will see this as the maximum number of meeting hours per week that they should strive to reach over the course of the program. (For Focus hours, this goal will reflect the minimum number of hours.)
+    * Time-based goal. Select **hrs** and then select a number of hours. Participants will see this as the maximum number of meeting hours per week that they should strive to reach over the course of the program. (For Focus hours, this goal will reflect the minimum number of hours.)
 
- * Percentage-based goal. Select **%** and then select a percentage amount. Participants should reduce their meeting hours by this much (or, for Focus hours, to increase the number by this much). If you choose percentage-based, you can also select a threshold. For more information, see [Threshold](solutions-conceptual.md#threshold). 
+    * Percentage-based goal. Select **%** and then select a percentage amount. Participants should reduce their meeting hours by this much (or, for Focus hours, to increase the number by this much). If you choose percentage-based, you can also select a threshold. For more information, see [Threshold](solutions-conceptual.md#threshold). 
 
 4. Select _I confirm that these selections are correct_ and select **Submit**. A notification appears in the lower-right area of the page; it lets you know whether your group has been successfully submitted. You can select this notification to open the Solutions > Manage page. 
 
