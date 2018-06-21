@@ -205,10 +205,10 @@ date (twelve weeks from the start date) is filled in automatically.
 
  * Start your program at the originally planned date and accept the fact that these six people will not participate. To do this, select the _I understand ..._ checkbox and then select **Continue**. Workplace Analytics recalculates the program benchmark for the final group of participants (the selected employees who are eligible during the entire twelve weeks).
 
-> [!Note] 
-> If excluding these people causes the group to fall below minimum group size, you cannot proceed. You'll need to choose a different start date or a new group of people. 
+   > [!Note] 
+   > If excluding these people causes the group to fall below minimum group size, you cannot proceed. You'll need to choose a different start date or a new group of people. 
 
-Go on to the Messaging step.
+   Go on to the Messaging step.
 
 8. On the Messaging step of the Program setup page, you can change details about the program, such as the goal -- whether to express it as a percentage or as a number, and how high a percentage or number. It makes sense to reset the goal here because the benchmarks might have changed because the group lost ineligible employees. 
 
