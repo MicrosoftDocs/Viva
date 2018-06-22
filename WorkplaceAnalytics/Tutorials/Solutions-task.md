@@ -56,7 +56,7 @@ The following section presents you with procedures for both ways to identify a g
 6. For Choose Program, select the program type. The choice of a program is final; you cannot change it after you submit this group. 
 7. For Max goal (Min goal, if the program is to increase Focus hours), select either a percentage-based or hour-based goal. If you select percentage-based, also set a value for Threshold. The choice of Max (or Min) goal is not final. For more information, see Set a value for Max goal.
 8. (Optional) In the Group description and notes section, type a description of this group and the program. 
-9. Check the box for _I conform that these selections are correct_ and select **Submit**. Workplace Analytics displays that your group has been successfully uploaded and that you can view groups that you've uploaded on the Manage page. 
+9. Check the box for _I confirm that these selections are correct_ and select **Submit**. Workplace Analytics displays that your group has been successfully uploaded and that you can view groups that you've uploaded on the Manage page. 
 
 Go to [Schedule a program](#schedule-a-program). 
 
