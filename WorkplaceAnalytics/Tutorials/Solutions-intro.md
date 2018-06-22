@@ -17,12 +17,12 @@ ms.prod: wpa
 By combining the power of Workplace Analytics and MyAnalytics, solutions help you transform insights from Workplace Analytics into targeted change programs across your organization. Targeted change programs are available for reducing meeting load, increasing focus time, and maintaining work-life balance. By using the solutions feature, you can do the following:
 
 1. Use Workplace Analytics to identify groups that are experiencing meeting load, lack of focus time, or lack of work-life balance. 
-2. Set up 12-week change programs for the identified groups with goals, recommended habits, and additional context. The members of the group experience the change program through MyAnalytics. 
+2. Set up 12-week change programs for the identified groups with goals, recommended habits, and additional context. The members of the group experience the change program through [MyAnalytics](../myanalytics/mya-landing-page.md). 
 3. Measure the progress of the program while it is underway, and the ROI of the program after it has finished. 
 
 For more information about the real-world change programs that solutions enables, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->
 
-For a step-by-step walkthrough that uses the capabilities of the solutions feature to create a program, see [solutions: Walkthrough](solutions-task.md).    
+For a step-by-step walkthrough that uses the capabilities of the solutions feature to create a program, see [Solutions: Walkthrough](solutions-task.md).    
 
 ## Prerequisites for using solutions
 
@@ -62,7 +62,7 @@ Here are the prerequisites for using solutions:
 
 **Question 4:** Can we change the duration of the programs?
 
-**Answer 4:** No. All programs last twelve weeks. Exception: Occasionally, a program must be ended early because of unforseen circumstances. 
+**Answer 4:** No. All programs last twelve weeks. Exception: Occasionally, a program manager must end a program early because of unforseen circumstances. 
 
 **Question 5:** What is the minimum group size?
 
@@ -74,6 +74,6 @@ Here are the prerequisites for using solutions:
 
 ### Related topics
 
-[solutions: Walkthrough](solutions-task.md)
+[Solutions: Walkthrough](solutions-task.md)
 
-[solutions: Concepts](solutions-conceptual.md)  
+[Solutions: Concepts](solutions-conceptual.md)  

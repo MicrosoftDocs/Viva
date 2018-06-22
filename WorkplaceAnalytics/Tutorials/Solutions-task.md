@@ -128,6 +128,8 @@ After you have groups selected, go to the following procedure, [Submit a group](
 
 ### Submit a group
 
+ * **Role** - Analyst
+
 After you have selected groups in [Identify a group](#identify-a-group), finish creating your program in the _Review and submit your group_ area: 
 
    ![Review and submit](../Images/WpA/Tutorials/solutions-task-05.png)
@@ -233,6 +235,8 @@ You track programs on the Solutions > Manage page. Use this page to measure prog
 4. (Optional) If appropriate, you can end the program before its twelve weeks have passed. To do so, click End program on the results page. If you select **End program**, you see a warning dialog box that asks you to confirm that you really want to end the program. 
 
 ## The experience in MyAnalytics 
+
+* **Role** - information worker, any participant in a habit-change program
 
 While analysts and program managers create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a program created. They have the opportunity to change workplace habits for the better. 
 

@@ -16,7 +16,7 @@ ms.prod: wpa
 
 This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs. It also contains a [Frequently Asked Questions](solutions-intro.md#solutions-frequently-asked-questions) section. 
 
-For a step-by-step walkthrough that uses the capabilities of Solutions feature to create a program, see [Solutions: walkthrough](solutions-task.md). 
+For a step-by-step walkthrough that uses the capabilities of Solutions feature to create a program, see [Solutions: Walkthrough](solutions-task.md). 
 
 ## Use a .csv file to upload a group
 
@@ -37,22 +37,9 @@ In the Group Details area of the Upload group page, you can check the number of 
 > [!Note] 
 > After you submit a group that was manually uploaded, if too many email addresses are invalid and the group drops below minimum group size, you can either delete the group or upload a new file, but you cannot create a program with a group that is smaller than the minimum group size. 
 
-Return to [Upload a file to create a group](solutions-task.md#upload-a-file-to-create-a-group).
+(Program managers) Return to [Upload a file to create a group](solutions-task.md#upload-a-file-to-create-a-group).
 
-## Persistence of group selections
-
-After you select groups, you can change other settings on this page. Not all of the settings that you can change retain the group selections that you've made: 
-
-### Group selections are retained
-
- * Change the chart-view question. You can change the data that is displayed by clicking different questions under Select a question to change the view of your chart. As you do this, the group or groups that you've selected remains the same, even though the data shown about the group is shown from different perspectives. 
-
-### Group selections are lost
-
- * Change the chart display. If you change the selections under Chart display (such as Group by) and then click Apply again, your group selections are lost. 
-
- * Change the area of focus. If you change the area of focus, your group selections are lost.
-To select groups again after you have changed the Chart display or area of focus, click groups in the chart.  
+(Analysts) Return to [Identify a group](solutions-task.md#identify-a-group).
 
 ## Set a value for Max goal (Min goal for focus hours)
 
@@ -106,6 +93,8 @@ If you decide it's not the right time to start the program, you can also revert 
 
 Return to [Track programs](solutions-task.md#track-programs).
 
+Return to [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks) 
+
 ## Available and selected employees
 
 On the Solutions > Identify > Collaboration Overload page, three sets of employees are displayed below the chart:
@@ -115,6 +104,25 @@ On the Solutions > Identify > Collaboration Overload page, three sets of employe
  * <u>Measured employees:</u> The total number of employees in the organization who are available for analysis. 
  * <u>In filter group:</u> The number of measured employees who remain available for analysis after you applied filters. 
  * <u>Selected group:</u> The number of employees in the group or groups that you selected (clicked) in the chart. 
+
+Return to [Identify a group](solutions-task.md#identify-a-group).
+
+## Persistence of group selections
+
+After you select groups, you can change other settings on this page. Not all of the settings that you can change retain the group selections that you've made: 
+
+### Group selections are retained
+
+ * Change the chart-view question. You can change the data that is displayed by clicking different questions under Select a question to change the view of your chart. As you do this, the group or groups that you've selected remains the same, even though the data shown about the group is shown from different perspectives. 
+
+### Group selections are lost
+
+ * Change the chart display. If you change the selections under Chart display (such as Group by) and then click Apply again, your group selections are lost. 
+
+ * Change the area of focus. If you change the area of focus, your group selections are lost.
+To select groups again after you have changed the Chart display or area of focus, click groups in the chart.  
+
+Return to [Identify a group](solutions-task.md#identify-a-group).
 
 ## Progress report
 
@@ -146,6 +154,8 @@ If you use the Identify page to select a group, please be aware of the following
 ### Group size and benchmark might differ
 
 When you analyze behavior on the Workplace Analytics Identify page, you can examine up to one years' worth of data. Then, after you submit the group, Workplace Analytics calculates the benchmark for your area of focus; it does so by averaging 12 weeks of information, the 12 weeks that immediately precede the start date of your program. Consequently, two numbers might differ from your expectations, group size and benchmark:
+
+Return to [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks) 
 
 ### The group size might change
 
