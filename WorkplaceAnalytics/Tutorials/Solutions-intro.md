@@ -36,7 +36,7 @@ Here are the prerequisites for using solutions:
    > [!Note] 
    > One person can be assigned both the Analyst and Program manager roles.
 
-## Solultions: Frequently asked questions
+## Solutions: Frequently asked questions
 
 ### Questions about roles and access
 

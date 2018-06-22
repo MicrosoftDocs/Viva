@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Solutions: concepts
 
-This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs. It also contains a [Frequently Asked Questions](solutions-intro.md#frequently-asked-questions) section. 
+This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs. It also contains a [Frequently Asked Questions](solutions-intro.md#solutions-frequently-asked-questions) section. 
 
 For a step-by-step walkthrough that uses the capabilities of Solutions feature to create a program, see [Solutions: walkthrough](solutions-task.md). 
 
