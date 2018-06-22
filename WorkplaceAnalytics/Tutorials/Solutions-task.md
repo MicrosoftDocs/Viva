@@ -12,9 +12,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions: walkthrough
+# Solutions Walkthrough
 
-Use the Solutions area of Workplace Analytics to attempt to change employees' work habits for the better. On the Solutions pages of Workplace Analytics, you can create a program, track it while it is in progress, and examine it after it completes. 
+Use the solutions area of Workplace Analytics to attempt to change employees' work habits for the better. On the Solutions pages of Workplace Analytics, you can create a program, track it while it is in progress, and examine it after it completes. 
 
 People in either of two roles can work on solutions: Analysts can help identify groups and opportunities for change. Program managers can design and track programs that are underway and examine programs that have completed. 
 
@@ -31,47 +31,38 @@ Work on a solution has the following phases:
 
 ## Identify opportunities for improvement
 
-The first step in the solutions workflow is identification of opportunities for improvement. An opportunity consists of a group of people, a problem description, and goal statement. Start by submitting a group of people, or even multiple groups -- you can submit as many as you think would benefit. After a group is submitted, it enters a queue as a candidate for a change program. 
+The goal of the first phase in the solutions workflow is to identify opportunities for improvement. An opportunity combines a group of people, a problem description, and a goal definition. You can create solutions that address problems of in the areas of meeting hours, focus hours, or after hours. 
 
-In the next phase (Schedule a program), a program manager starts with a group and creates a program for it. Both analysts and program managers can submit groups, and both use the Solutions > identify page of Workplace Analytics, but the way each role does it differs, as described here:  
+In this first phase, start by submitting a group of people, or even multiple groups -- you can submit as many groups as you think might benefit. After a group is submitted, it enters a queue as a candidate for a change program. (In the next phase ([Schedule a program](#schedule-a-program)), a program manager starts with a group and creates the change program for it.) 
 
- * <u>Program managers: Upload a file to create a group.</u> Do this if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you or others might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people. 
+Both analysts and program managers can submit groups, and both use the Solutions > identify page of Workplace Analytics, but each role does it differently, as described here:  
 
- * <u>Analysts: Identify a group.</u> On the Solutions > Identify page, first choose an area of behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program.
+ * <u>Program managers: Upload a file to create a group.</u> Do this if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people. For more information, see [Use a .csv file to upload a group](solutions-conceptual.md#use-a-csv-file-to-upload-a-group). 
 
-Currently, you can create solutions that address problems of collaboration overload -- specifically, in the areas of meeting hours, focus hours, or after hours. Future solution types will address other types of workplace problems. 
+ * <u>Analysts: Identify a group.</u> On the Solutions > Identify page, choose an area for behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. 
 
-The following section presents you with procedures for both ways to identify a group, uploading and selecting.
+The following section presents you with procedures for both ways to identify a group, uploading and selecting:
 
 ### Upload a file to create a group 
 
-<u>Prerequisite:</u> Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file to upload a group](solutions-conceptual.md#use-a-csv-file-to-upload-a-group).  
-
-<u>Role:</u> Program manager
+ * **Prerequisite** - Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file to upload a group](solutions-conceptual.md#use-a-csv-file-to-upload-a-group).  
+ * **Role** - Program manager
 
 1. In Workplace Analytics, select **Solutions**. 
-
 2. On the Solutions page, under Identify, select **Go**. This opens the Solutions > Identify page. 
-
 3. In the Custom group card, select **Create**. The Upload group page opens. 
-
 4. Select **Browse**, locate and select a .csv file, and select **Open**. 
-
 5. Identify this group in the Group name field. 
-
 6. For Choose Program, select the program type. The choice of a program is final; you cannot change it after you submit this group. 
-
 7. For Max goal (Min goal, if the program is to increase Focus hours), select either a percentage-based or hour-based goal. If you select percentage-based, also set a value for Threshold. The choice of Max (or Min) goal is not final. For more information, see Set a value for Max goal.
-
 8. (Optional) In the Group description and notes section, type a description of this group and the program. 
-
 9. Check the box for _I conform that these selections are correct_ and select **Submit**. Workplace Analytics displays that your group has been successfully uploaded and that you can view groups that you've uploaded on the Manage page. 
 
 Go to [Schedule a program](#schedule-a-program). 
 
 ### Identify a group 
 
-<u>Role:</u> Analyst
+ * **Role** - Analyst
 
 Use this procedure if you don't yet have a list of people (a .csv file) that you want to register for the program. To obtain this list of participants, you perform an analysis by using the options on the Collaboration Overload page. 
 
@@ -97,27 +88,25 @@ Use this procedure if you don't yet have a list of people (a .csv file) that you
  
 6. In the right column, under Filter summary, select **Edit**. The Edit filters page opens.  
 
-   a. Under Edit filters, select **Add filter**. Here's an example of how to add a filter: 
+7. Under Edit filters, select **Add filter**. Here's an example of how to add a filter: 
    
-   b. In the left box, select **Organization**. 
-   
-   c. In the right box, select a predefined organization, such as **Operations**. 
+   a. In the left box, select **Organization**. 
+   b. In the right box, select a predefined organization, such as **Operations**. 
 
     -- or -- 
 
-   c. In the right box, start typing the name of a manager and then click that name to select this manager's team.
+   b. In the right box, start typing the name of a manager and then click that name to select this manager's team.
+   c. Optionally, you can add another organization filter. For example, select **Marketing** in the right box. If you do this, the Marketing filter selection is displayed next to your first filter selection (such as Operations) under the selection boxes. 
 
-   * Optionally, you can add another organization filter. For example, select **Marketing** in the right box. If you do this, the Marketing filter selection is displayed next to your first filter selection (such as Operations) under the selection boxes. 
+8. You will soon see the results of this filtering in the form of a chart. Before Workplace Analytics displays the chart, you can, optionally, group the people whose behavior you are analyzing. You can use any of the available HR attributes to group them by. To do this, under Chart display, select **Group by** and then select (for example) **FunctionType**. 
 
-7. You will soon see the results of this filtering in the form of a chart. Before Workplace Analytics displays the chart, you can, optionally, group the people whose behavior you are analyzing. You can use any of the available HR attributes to group them by. To do this, under Chart display, select **Group by** and then select (for example) **FunctionType**. 
-
-8. To apply the filters and other changes that you've made, select **Apply**:
+9. To apply the filters and other changes that you've made, select **Apply**:
 
    ![Chart display](../Images/WpA/Tutorials/solutions-task-03.png)
  
    Workplace Analytics now displays a chart that shows data about the people that you selected by using filters. It groups these people by the Group by setting you chose -- in this case, FunctionType.  
 
-9. To select a more precise group of people to include in the program, continue with your analysis. Under Select a question to change the view of your chart, Workplace Analytics displays several questions, such as _Which groups attend the highest number of meetings?_ 
+10. To select a more precise group of people to include in the program, continue with your analysis. Under _Select a question to change the view of your chart_, Workplace Analytics displays several questions, such as _Which groups attend the highest number of meetings?_ 
 
    Selecting a question displays the answer to the question in the chart. By selecting a question that is relevant to the collaboration problem that you want to solve, you see groups of employees who are most likely to exhibit symptoms of that problem. Selecting a question also orders the displayed groups by the metric (such as meeting hours, focus hours, or number of meetings) that the question asks about. 
 
@@ -131,15 +120,15 @@ Use this procedure if you don't yet have a list of people (a .csv file) that you
   
    For more information, see [Available and selected employees](solutions-conceptual.md#available-and-selected-employees).
 
-10. Select one or more groups for analysis. You can also select grayed-out groups. If you select enough of them so that their combined membership exceeds the minimum group size, you can use them in your analysis. 
+11. Select one or more groups for analysis. You can also select grayed-out groups. If you select enough of them so that their combined membership exceeds the minimum group size, you can use them in your analysis. 
 
     To select multiple groups, just click or tap them. To unselect a selected group, click or tap it again. For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](solutions-conceptual.md#persistence-of-group-selections).
 
-After you have groups selected, go to the following procedure, To submit a group. 
+After you have groups selected, go to the following procedure, [Submit a group](#submit-a-group). 
 
-**To submit a group**
+### Submit a group
 
-After you have selected groups in [Identify a group](#identify-a-group), finish creating your program in the Review and submit your group area: 
+After you have selected groups in [Identify a group](#identify-a-group), finish creating your program in the _Review and submit your group_ area: 
 
    ![Review and submit](../Images/WpA/Tutorials/solutions-task-05.png)
  
@@ -158,7 +147,7 @@ After you have selected groups in [Identify a group](#identify-a-group), finish 
 
 4. Select _I confirm that these selections are correct_ and select **Submit**. A notification appears in the lower-right area of the page; it lets you know whether your group has been successfully submitted. You can select this notification to open the Solutions > Manage page. 
 
-## Next steps
+## Next steps: processing tasks
 
 After you select **Submit**, Workplace Analytics processes the group. Processing includes these tasks: 
 
@@ -174,7 +163,8 @@ After you select **Submit**, Workplace Analytics processes the group. Processing
 Go to [Schedule a program](#schedule-a-program). 
 
 ## Schedule a program
-<u>Role:</u> Program manager
+
+ * **Role** - Program manager
 
 In this phase, you work on the Solutions > Manage page of Workplace Analytics. You review submitted opportunities and focus on the ones best suited for a change program. You schedule change programs by specifying the goal, habits, and additional context. While programs are underway, you can review, edit, or cancel them.   
 
@@ -208,8 +198,6 @@ date (twelve weeks from the start date) is filled in automatically.
    > [!Note] 
    > If excluding these people causes the group to fall below minimum group size, you cannot proceed. You'll need to choose a different start date or a new group of people. 
 
-   Go on to the Messaging step.
-
 8. On the Messaging step of the Program setup page, you can change details about the program, such as the goal -- whether to express it as a percentage or as a number, and how high a percentage or number. It makes sense to reset the goal here because the benchmarks might have changed because the group lost ineligible employees. 
 
 9. Type the name of your business sponsor. This can be the name of a person or, for example, of a leadership team. Workplace Analytics suggests a message subject and a welcome message. The name of the business sponsor and the program name are included in the message subject. 
@@ -227,7 +215,8 @@ After Workplace Analytics sends the welcome message to the new participants, the
 Go to [Track programs](#track-programs). 
 
 ## Track programs
-<u>Role:</u> Program manager
+
+ * **Role** - Program manager
 
 You track programs on the Solutions > Manage page. Use this page to measure progress on the goal since program started, as well as ROI for the program. For a brief overview of the page, see [The Solutions > Manage page](solutions-conceptual.md#the-solutions--manage-page).)  
 
@@ -251,6 +240,6 @@ After a program is scheduled, these program participants receive an automaticall
 
 ### Related topics
 
-[Solutions: introduction](solutions-intro.md)  
+[Solutions: Introduction](solutions-intro.md)  
 
-[Solutions: concepts](solutions-conceptual.md)
+[Solutions: Concepts](solutions-conceptual.md)

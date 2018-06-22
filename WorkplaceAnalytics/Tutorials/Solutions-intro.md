@@ -6,7 +6,7 @@ title: Workplace Analytics solutions (introduction)
 description: Introduction and summary of Workplace Analytics solutions
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/20/2018
+ms.date: 06/22/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -22,7 +22,7 @@ By combining the power of Workplace Analytics and MyAnalytics, solutions help yo
 
 For more information about the real-world change programs that solutions enables, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->
 
-For a step-by-step walkthrough that uses the capabilities of solutions feature to create a program, see [solutions: walkthrough](solutions-task.md).    
+For a step-by-step walkthrough that uses the capabilities of the solutions feature to create a program, see [solutions: Walkthrough](solutions-task.md).    
 
 ## Prerequisites for using solutions
 
@@ -36,20 +36,23 @@ Here are the prerequisites for using solutions:
    > [!Note] 
    > One person can be assigned both the Analyst and Program manager roles.
 
-## Frequently asked questions
+## Solultions: Frequently asked questions
 
 ### Questions about roles and access
 
 **Question 1:** Why don't I see the solutions area?
+
 **Answer 1:** You can see the solutions area only if you've been assigned the role of program manager or the role of analyst. 
 
 **Question 2:** Why do I see the Identify page but not the Manage and Track pages?
+
 **Answer 2:** You can see the Manage and Track pages only if you've been assigned the role of program manager. 
 
 **Question 3:** What is the role of a program manager? Why do we need a new role?
+
 **Answer 3:** A program manager understands teams and trends in an organization and can define, track, and understand the value of programs. 
 
-Additional information about roles and access
+#### Additional information about roles and access
 
  * For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
  * For more information about roles in solutions, see [Workflow phases, pages, and roles](solutions-task.md#workflow-phases-pages-and-roles).
@@ -57,14 +60,17 @@ Additional information about roles and access
 
 ### Questions about program implementation
 
-**Question 1:** Can we change the duration of the programs?
-**Answer 1:** No. All programs last twelve weeks. Exception: Occasionally, a program must be ended early because of unforseen circumstances. 
+**Question 4:** Can we change the duration of the programs?
 
-**Question 2:** What is the minimum group size?
-**Answer 2:** On the Settings page of Workplace Analytics, administrators can set the minimum group size for an organization. They cannot reduce this setting below the absolute limit (five people). For more information, see [Configure settings for Workplace Analytics](../use/settings.md). 
+**Answer 4:** No. All programs last twelve weeks. Exception: Occasionally, a program must be ended early because of unforseen circumstances. 
 
-**Question 3:** Can I monitor metrics of specific users?
-**Answer 3:** No. Privacy considerations preclude the monitoring of behavior information about specific users.
+**Question 5:** What is the minimum group size?
+
+**Answer 5:** On the Settings page of Workplace Analytics, administrators can set the minimum group size for an organization. They cannot reduce this setting below the absolute limit (five people). For more information, see [Configure settings for Workplace Analytics](../use/settings.md). 
+
+**Question 6:** Can I monitor metrics of specific users?
+
+**Answer 6:** No. Privacy considerations preclude the monitoring of behavior information about specific users.
 
 ### Related topics
 

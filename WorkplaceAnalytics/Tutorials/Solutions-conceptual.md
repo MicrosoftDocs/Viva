@@ -37,6 +37,8 @@ In the Group Details area of the Upload group page, you can check the number of 
 > [!Note] 
 > After you submit a group that was manually uploaded, if too many email addresses are invalid and the group drops below minimum group size, you can either delete the group or upload a new file, but you cannot create a program with a group that is smaller than the minimum group size. 
 
+Return to [Upload a file to create a group](solutions-task.md#upload-a-file-to-create-a-group).
+
 ## Persistence of group selections
 
 After you select groups, you can change other settings on this page. Not all of the settings that you can change retain the group selections that you've made: 
@@ -76,6 +78,8 @@ The dividing line between these two groups of people is the threshold. You can s
 
 **Example:** You want to reduce meeting hours from 15 hours to 10 hours, but you express this in the Goal Details area as reducing meeting hours by 50% from the initial benchmark of 15 hours. After you set the threshold to 10 hours, participants who have reduced their weekly meeting time to 10 hours receive a congratulatory email. Those whose meeting time remains above 10 hours receive email in a more compelling tone. 
 
+Return to [Submit a group](solutions-task.md#submit-a-group). 
+
 ## The Solutions > Manage page
 
 Groups and programs are displayed on the Solutions > Manage page of Workplace Analytics. You can track groups and programs in the four columns on this page: 
@@ -100,6 +104,8 @@ If you decide it's not the right time to start the program, you can also revert 
 > [!Note] 
 > Analysts have read-only access to the Solutions > Manage page. Program managers have read and write access to this page. For more information, see [Workflow phases, pages, and roles](solutions-task.md#workflow-phases-pages-and-roles). 
 
+Return to [Track programs](solutions-task.md#track-programs).
+
 ## Available and selected employees
 
 On the Solutions > Identify > Collaboration Overload page, three sets of employees are displayed below the chart:
@@ -122,6 +128,8 @@ In this example, you can see a nearly 30% decrease in after-hours work since the
 
 The middle number shows the aggregate (not weekly) number of after-hours time that was saved since the start of the program, for all participating employees. This number gives a hint of your ROI for implementing the program.  
 The third number shows what proportion of participants are achieving the program goal. It compares the average value per person since the program started with the program goal. 
+
+Return to [Track programs](solutions-task.md#track-programs).
 
 ## Manually upload a .csv file 
 
@@ -161,6 +169,6 @@ What's the difference between a solution and a program? Solution refers to the a
 
 ### Related topics
 
-[Solutions: introduction](solutions-intro.md)  
+[Solutions: Introduction](solutions-intro.md)  
 
-[Solutions: walkthrough](solutions-task.md)
+[Solutions: Walkthrough](solutions-task.md)
