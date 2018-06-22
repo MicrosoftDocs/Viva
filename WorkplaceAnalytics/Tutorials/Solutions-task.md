@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions Walkthrough
+# Solutions: Walkthrough
 
 Use the solutions area of Workplace Analytics to attempt to change employees' work habits for the better. On the Solutions pages of Workplace Analytics, you can create a program, track it while it is in progress, and examine it after it completes. 
 
@@ -37,9 +37,9 @@ In this first phase, start by submitting a group of people, or even multiple gro
 
 Both analysts and program managers can submit groups, and both use the Solutions > identify page of Workplace Analytics, but each role does it differently, as described here:  
 
- * <u>Program managers: [Upload a file to create a group](#upload-a-file-to-create-a-group).</u> Do this if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people. For more information, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file). 
+ * **Program managers:** [Upload a file to create a group](#upload-a-file-to-create-a-group). Do this if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people. For more information, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file). 
 
- * <u>Analysts: [Identify a group](#identify-a-group).</u> On the Solutions > Identify page, choose an area for behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. 
+ * **Analysts:** [Identify a group](#identify-a-group). On the Solutions > Identify page, choose an area for behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. 
 
 The following section presents you with procedures for both ways to identify a group, uploading and selecting:
 
