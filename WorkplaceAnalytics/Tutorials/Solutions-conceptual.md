@@ -14,9 +14,7 @@ ms.prod: wpa
 
 # Solutions: Concepts
 
-This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs. It also contains a [Frequently Asked Questions](solutions-intro.md#solutions-frequently-asked-questions) section. 
-
-For a step-by-step walkthrough that uses the capabilities of Solutions feature to create a program, see [Solutions: Walkthrough](solutions-task.md). 
+This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs by using the solutions feature. Those tasks are described in the step-by-step walkthrough for creating a program, [Solutions: Walkthrough](solutions-task.md). 
 
 ## Use a .csv file
 
@@ -147,6 +145,8 @@ After you create and upload a .csv file to create a group, all email addresses t
 
 After you create and upload a file to create a group, Workplace Analytics matches the email addresses in the file to PersonIDs. From this point on, Workplace Analytics uses the PersonIDs and no longer displays email addresses in any of its outputs ' for example, in the results of flexible queries. The email addresses are never again made visible to analysts or program managers. As for admins, they maintain access to the HR data, which includes email addresses, but they cannot match email addresses to PersonIDs. The person who uploads email addresses never sees the associated PersonIDs.
 
+Return to [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks). 
+
 ## Use Workplace Analytics to identify a group
 
 If you use the Identify page to select a group, please be aware of the following points: 
@@ -164,6 +164,8 @@ Conversely, if you examined a period shorter than twelve weeks -- only four week
 #### The benchmark number might change
 
 After the group has been determined, the benchmark is recalculated by using the data for this new group. This means that the benchmark numbers might also change from what you expected when you submitted the group initially. Benchmarks are also calculated for a 12-week window of data. 
+
+Return to [Identify a group](solutions-task.md#identify-a-group) 
 
 Return to [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks) 
 
