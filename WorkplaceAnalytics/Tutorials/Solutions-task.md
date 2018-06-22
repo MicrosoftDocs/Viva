@@ -155,7 +155,7 @@ After you have selected groups in [Identify a group](#identify-a-group), finish 
 
 After you select **Submit**, Workplace Analytics processes the group. Processing includes these tasks: 
 
-1. <u>Create the group.</u> If you manually uploaded the group, Workplace Analytics matches the provided email addresses to PersonIDs in the system. If you selected a group by using the Identify page, the system creates the group based on the measured employees who meet the criteria set by the filters you used and the groups you selected when the group was submitted. For more information about manual upload, see [Manually upload a .csv file](solutions-conceptual#manually-upload-a-csv-file).
+1. <u>Create the group.</u> If you manually uploaded the group, Workplace Analytics matches the provided email addresses to PersonIDs in the system. If you selected a group by using the Identify page, the system creates the group based on the measured employees who meet the criteria set by the filters you used and the groups you selected when the group was submitted. For more information about manual upload, see [Manually upload a .csv file](solutions-conceptual.md#manually-upload-a-csv-file).
 
 2. <u>Calculate the benchmark.</u> Workplace Analytics calculates a new benchmark for this program type and this group. For example, if you chose Reduce meeting hours as the program type, the calculated benchmark reflects the amount of time these people spent in meetings over the most recent 12 weeks of data that Workplace Analytics has for that group. 
 
