@@ -12,13 +12,13 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions: concepts
+# Solutions: Concepts
 
 This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs. It also contains a [Frequently Asked Questions](solutions-intro.md#solutions-frequently-asked-questions) section. 
 
 For a step-by-step walkthrough that uses the capabilities of Solutions feature to create a program, see [Solutions: Walkthrough](solutions-task.md). 
 
-## Use a .csv file to upload a group
+## Use a .csv file
 
 You can obtain a valid .csv file by creating the file (in a text editor or in Microsoft Excel) or by exporting it from an HR tool or service. This .csv file must contain the email addresses of people in your organization. After you obtain and upload the .csv file, the system uses either the email addresses or the PersonIDs to finalize the list of participants in the program that you will create. 
 
@@ -155,17 +155,17 @@ If you use the Identify page to select a group, please be aware of the following
 
 When you analyze behavior on the Workplace Analytics Identify page, you can examine up to one years' worth of data. Then, after you submit the group, Workplace Analytics calculates the benchmark for your area of focus; it does so by averaging 12 weeks of information, the 12 weeks that immediately precede the start date of your program. Consequently, two numbers might differ from your expectations, group size and benchmark:
 
-Return to [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks) 
+#### The group size might change
 
-### The group size might change
+If you examined a period longer than twelve weeks -- the past six months, for example -- some people who fit the filter criteria during the six months might not fit the same criteria during the 12 weeks that Workplace Analytics uses. This is because, during that time, they might have changed jobs, left the organization, or made other changes that exclude them from the group you selected by filtering. So the calculated group size is now smaller. 
 
-If you examined a period longer than twelve weeks ' the past six months, for example ' some people who fit the filter criteria during the six months might not fit the same criteria during the 12 weeks that Workplace Analytics uses. This is because, during that time, they might have changed jobs, left the organization, or made other changes that exclude them from the group you selected by filtering. So the calculated group size is now smaller. 
+Conversely, if you examined a period shorter than twelve weeks -- only four weeks, for example -- the final number of group members might go up because more people might meet your filter criteria. 
 
-Conversely, if you examined a period shorter than twelve weeks ' only four weeks, for example ' the final number of group members might go up because more people might meet your filter criteria. 
-
-### The benchmark number might change
+#### The benchmark number might change
 
 After the group has been determined, the benchmark is recalculated by using the data for this new group. This means that the benchmark numbers might also change from what you expected when you submitted the group initially. Benchmarks are also calculated for a 12-week window of data. 
+
+Return to [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks) 
 
 ## Additional Concepts
 

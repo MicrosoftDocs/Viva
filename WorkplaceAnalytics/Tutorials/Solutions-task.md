@@ -37,15 +37,15 @@ In this first phase, start by submitting a group of people, or even multiple gro
 
 Both analysts and program managers can submit groups, and both use the Solutions > identify page of Workplace Analytics, but each role does it differently, as described here:  
 
- * <u>Program managers: Upload a file to create a group.</u> Do this if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people. For more information, see [Use a .csv file to upload a group](solutions-conceptual.md#use-a-csv-file-to-upload-a-group). 
+ * <u>Program managers: [Upload a file to create a group](#upload-a-file-to-create-a-group).</u> Do this if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people. For more information, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file). 
 
- * <u>Analysts: Identify a group.</u> On the Solutions > Identify page, choose an area for behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. 
+ * <u>Analysts: [Identify a group](#identify-a-group).</u> On the Solutions > Identify page, choose an area for behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. 
 
 The following section presents you with procedures for both ways to identify a group, uploading and selecting:
 
 ### Upload a file to create a group 
 
- * **Prerequisite** - Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file to upload a group](solutions-conceptual.md#use-a-csv-file-to-upload-a-group).  
+ * **Prerequisite** - Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file).  
  * **Role** - Program manager
 
 1. In Workplace Analytics, select **Solutions**. 
@@ -91,11 +91,13 @@ Use this procedure if you don't yet have a list of people (a .csv file) that you
 7. Under Edit filters, select **Add filter**. Here's an example of how to add a filter: 
    
    a. In the left box, select **Organization**. 
+
    b. In the right box, select a predefined organization, such as **Operations**. 
 
     -- or -- 
 
    b. In the right box, start typing the name of a manager and then click that name to select this manager's team.
+   
    c. Optionally, you can add another organization filter. For example, select **Marketing** in the right box. If you do this, the Marketing filter selection is displayed next to your first filter selection (such as Operations) under the selection boxes. 
 
 8. You will soon see the results of this filtering in the form of a chart. Before Workplace Analytics displays the chart, you can, optionally, group the people whose behavior you are analyzing. You can use any of the available HR attributes to group them by. To do this, under Chart display, select **Group by** and then select (for example) **FunctionType**. 
