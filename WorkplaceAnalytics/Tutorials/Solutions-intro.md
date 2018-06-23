@@ -19,6 +19,9 @@ By combining the power of Workplace Analytics and MyAnalytics, solutions help yo
 1. Use Workplace Analytics to identify groups that are experiencing meeting load, lack of focus time, or lack of work-life balance. 
 2. Set up 12-week change programs for the identified groups with goals, recommended habits, and additional context. The members of the group experience the change program through [MyAnalytics](../myanalytics/mya-landing-page.md). 
 3. Measure the progress of the program while it is underway, and the ROI of the program after it has finished. 
+ 
+   > [!Note] 
+   > Solutions are intended for use by analysts and program managers. For general information about roles, see [User roles in Workplace Analytics](../use/user-roles.md). 
 
 For more information about the real-world change programs that solutions enables, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->
 

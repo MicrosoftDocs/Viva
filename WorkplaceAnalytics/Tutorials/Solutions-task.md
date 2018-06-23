@@ -242,7 +242,11 @@ You track programs on the Solutions > Manage page. Use this page to measure prog
 
 While analysts and program managers create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a program created. They have the opportunity to change workplace habits for the better. 
 
-After a program is scheduled, these program participants receive an automatically generated welcome email from Workplace Analytics. It explains the details of the program: its duration and goals, and the habits they're expected to work on. The participants' MyAnalytics dashboards are enhanced with program information that shows recommended habits and their progress against the program goals. They also receive a weekly digest email that summarizes their progress in the program.
+After a program is scheduled, these program participants receive an automatically generated welcome email from Workplace Analytics. It explains the details of the program: its duration and goals, and the habits they're expected to work on. The participants' MyAnalytics dashboards are enhanced with program information that shows recommended habits and their progress against the program goals. They also receive a weekly email digest that summarizes their progress in the program. For more information, see the following: 
+
+ * [MyAnalytics dashboard](../MyAnalytics/Use/Dashboard.md)
+ * [MyAnalytics welcome email](../MyAnalytics/Use/MyA-Welcome-email.md)
+ * [MyAnalytics email digest](../MyAnalytics/Use/email-digests.md)
 
 ### Related topics
 
