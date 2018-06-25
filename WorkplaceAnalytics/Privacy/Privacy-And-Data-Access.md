@@ -87,7 +87,7 @@ For the users that you choose to include, you can decide to exclude data based u
 
 ### For active tenants 
 
-<!-- REMOVED 25 JUNE 2018: doesn't seem to be correct, as a tenant can have 0 or more licenses. 
+<!-- REMOVED 25 JUNE 2018: We're discussing this wording today. 
 
 >[!Note] 
 >An active tenant is a tenant that has a valid user with a valid Workplace Analytics license.   -->
