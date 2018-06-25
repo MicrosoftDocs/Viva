@@ -83,18 +83,19 @@ For the users that you choose to include, you can decide to exclude data based u
 
 * Minimum aggregation size. In Explore Metrics, you can set the minimum group size required to display data. By default, the minimum group size is set to five.
 
-<!-- The following section is new. Do not publish to live until after it is approved by Niraj: -->
-
 ## Data retention policy
 
 ### For active tenants 
 
+<!-- Note as of 25 JUNE 2018: We're discussing this wording today. -->
+
 >[!Note] 
->An active tenant is a tenant that has at least one user with a valid Workplace Analytics license.  
+>An active tenant is a tenant that has one or more valid Workplace Analytics licenses.
 
 By default, Workplace Analytics maintains tenant data for the preceding 24 months only -- that is, a rolling window of 24 months of data. This means that Workplace Analytics will not have any tenant data that is older than 24 months.
 
-Even though the default value is 24 months, the rolling windows are configurable at the tenant level. As a tenant, you can lengthen your data-retention period for analysis purposes, or shorten your data-retention period for other purposes, such as GDPR requirements or company policy. 
+<!-- REMOVED PER NIRAJ 25 JUNE 2018
+Even though the default value is 24 months, the rolling windows are configurable at the tenant level. As a tenant, you can lengthen your data-retention period for analysis purposes, or shorten your data-retention period for other purposes, such as GDPR requirements or company policy.  -->
 
 ### For inactive tenants 
 
@@ -105,7 +106,7 @@ Even though the default value is 24 months, the rolling windows are configurable
 
 Workplace Anslytics will stop extracting user data within seven days after a user license is expired or removed. In other words, the next scheduled data extraction will not take place if it occurs at least seven days after the user license is revoked or expires.
 
-#### Tenant policy
+#### Tenant lifecycle management
 
 If no valid user license is currently allocated to the tenant, the policy depends on the tenant state:
 
@@ -113,5 +114,7 @@ If no valid user license is currently allocated to the tenant, the policy depend
  * **Disabled state:** Data will remain available for the next 90 days, but only in read-only mode. In this mode, no queries can be executed. Customers can download their data during this time. 
  * **Deprovisioned state:** Tenant data is not available to the customer. The data will be deleted within the next 90 days.
 
+<!-- REMOVED PER NIRAJ 25 JUNE 2018
 >[!Note] 
 >The number of days is configurable for different inactive tenant states. Example: A customer uploaded sensitive data by mistake and wants to be explicitly deprovisioned quickly instead of waiting for 210 days [expired state (30 days) + disabled state (90 days) + deprovisioned state (90 days)].
+-->
