@@ -3,7 +3,7 @@
 # required metadata
 
 title: MyAnalytics welcome email
-description: MyAnalytics users receive welcome email after licenses are assigned to them. 
+description: MyAnalytics users receive welcome email after they are assigned licenses. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 04/09/2018

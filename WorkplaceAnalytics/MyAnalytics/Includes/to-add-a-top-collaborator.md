@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: To add a top collaborator
-description: How-to steps -- Add a top collaborator. 
+title: Add a top collaborator in MyAnalytics
+description: How-to steps to add a top collaborator in MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
@@ -16,7 +16,7 @@ ms.prod: mya
 
 You use the Add top collaborator card to add the contact named on the card to your Important people list. 
 
-1. In the MyAnalytics pane, click the Add top collaborator card.
+1. In the MyAnalytics pane, select the Add top collaborator card.
 
     <img src="../../Images/Add-top-collaborator-ed.png" alt="Add top collaborator card">
 

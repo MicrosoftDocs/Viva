@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyA Individual Adoption -- Set goals
-description: MyA Individual Adoption by Kate Nowak -- Set goals section
+title: MyAnalytics Individual Adoption --Set goals
+description: MyAnalytics Individual Adoption by Kate Nowak --Set goals section
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/26/2018

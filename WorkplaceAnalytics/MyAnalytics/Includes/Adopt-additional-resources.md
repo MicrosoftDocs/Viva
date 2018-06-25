@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Additional resources
-description: Links to resources for readers of MyA adoption material. 
+title: Additional resources for MyAnalytics
+description: Links to resources for readers of MyAnalytics adoption material. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/28/2018
@@ -55,7 +55,7 @@ Here is a list of some of our favorite books:
 ### Meetings
 
  * [Meeting design: Master the Team Meeting](https://hbswk.hbs.edu/item/mastering-the-team-meeting?cid=spmailing-19102256-WK%20Newsletter%2002-28-2018%20(1)-February%2028,%202018#)
- * [Meeting design: Plan A Better Meeting with Design Thinking ](https://hbr.org/2018/02/plan-a-better-meeting-with-design-thinking?utm_campaign=hbr&utm_source=linkedin&utm_medium=social#)
+ * [Meeting design: Plan A Better Meeting with Design Thinking](https://hbr.org/2018/02/plan-a-better-meeting-with-design-thinking?utm_campaign=hbr&utm_source=linkedin&utm_medium=social#)
  * [Meeting design: The 7 Imperatives to Keeping Meetings on Track](https://hbr.org/2013/12/the-seven-imperatives-to-keeping-meetings-on-track#)
  * [Meeting design: How to Design an Agenda for an Effective Meeting](https://hbr.org/2015/03/how-to-design-an-agenda-for-an-effective-meeting#)
  * [Meeting design: Decision-Focused Meetings](http://www.bain.com/publications/articles/decision-insights-9-decision-focused-meetings.aspx#)

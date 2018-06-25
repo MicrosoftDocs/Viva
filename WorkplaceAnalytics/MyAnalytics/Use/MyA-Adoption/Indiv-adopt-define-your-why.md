@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyA Individual Adoption -- Define your why
-description: MyA Individual Adoption by Kate Nowak -- Define your why section
+title: MyAnalytics Individual Adoption --Define your why
+description: MyAnalytics Individual Adoption by Kate Nowak --Define your why
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/26/2018

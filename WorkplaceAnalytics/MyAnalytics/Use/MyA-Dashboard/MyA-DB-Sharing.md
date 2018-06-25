@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Sharing
-description: How to share your stats with others
+title: Sharing data with MyAnalytics
+description: How to share your statistics with others that are using MyAnalytics.
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018

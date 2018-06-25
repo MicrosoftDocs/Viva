@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyA Individual Adoption -- Diagnose problems
-description: MyA Individual Adoption by Kate Nowak -- Diagnose problems section
+title: MyAnalytics Individual Adoption --Diagnose problems
+description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose problems section
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/26/2018

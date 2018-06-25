@@ -3,7 +3,7 @@
 # required metadata
 
 title: To opt out of MyAnalytics
-description: How-to steps -- Opt out of MyAnalytics. 
+description: How to turn off the MyAnalytics app. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
@@ -14,13 +14,13 @@ ms.prod: mya
 
 **To opt out of MyAnalytics**
 
-1. In Delve, click the gear icon to open the Settings pane.
+1. In Delve, select the gear icon to open the Settings pane.
 
     <img src="../../Images/Gear-icon-Delve.png" alt="Delve settings">
      
-2. Click **Feature settings**.
+2. Select **Feature settings**.
 3. Under MyAnalytics, set the control to **Off**.
 
     <img src="../../Images/Slider-off.png" alt="Slider in off position">
   
-4. At the top of the Feature settings panel, click **OK** to save your changes. 
+4. At the top of the Feature settings panel, select **OK** to save your changes. 
