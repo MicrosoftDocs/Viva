@@ -87,10 +87,10 @@ For the users that you choose to include, you can decide to exclude data based u
 
 ### For active tenants 
 
-<!-- REMOVED 25 JUNE 2018: We're discussing this wording today. 
+<!-- Note as of 25 JUNE 2018: We're discussing this wording today. -->
 
 >[!Note] 
->An active tenant is a tenant that has a valid user with a valid Workplace Analytics license.   -->
+>An active tenant is a tenant that has one or more valid Workplace Analytics licenses.
 
 By default, Workplace Analytics maintains tenant data for the preceding 24 months only -- that is, a rolling window of 24 months of data. This means that Workplace Analytics will not have any tenant data that is older than 24 months.
 
