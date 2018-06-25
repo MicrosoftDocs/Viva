@@ -236,7 +236,7 @@ You track programs on the Solutions > Manage page. Use this page to measure prog
 
 4. (Optional) If appropriate, you can end the program before its twelve weeks have passed. To do so, click End program on the results page. If you select **End program**, you see a warning dialog box that asks you to confirm that you really want to end the program. 
 
-## The experience in MyAnalytics 
+## The experience in MyAnalytics for program participants 
 
 * **Role** - information worker, any participant in a habit-change program
 
