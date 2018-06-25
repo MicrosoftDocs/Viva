@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Data Access (WPA Data Access)
 description: Overview of Workplace Analytics Data Access
 author: gbowerman

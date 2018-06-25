@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: To share statistics
-description: How-to steps -- Share your stats with others. 
+title: To share your MyAnalytics statistics
+description: How to share your MyAnalytics statistics with others. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
@@ -16,7 +16,7 @@ ms.prod: mya
 
 <ol start="1">
 <li>Open the MyAnalytics dashboard.</li>
-<li>Click **Share**.</li> 
+<li>Select **Share**.</li> 
 
 <p></p>
 
@@ -28,7 +28,7 @@ The dashboard displays sections that are available for sharing. By default, all 
 
 <p></p>
 
-<li>Click a section to select (or deselect) it for sharing. Two indicators show which sections are selected for sharing:</li> 
+<li>Select (or deselect) a section to share it. Two indicators show which sections are selected for sharing:</li> 
 
 <ul>
 <li>The box at the top of the section is selected.</li>
@@ -43,12 +43,12 @@ In the following illustration, the Meeting hours section is selected, while Meet
 
 <br/>
 
-To select (or deselect) all sections at once, check or clear **Select All** at the top of the dashboard. 
+To select (or deselect) all sections at once, select or clear **Select All** at the top of the dashboard. 
 
-You can choose not to share one or more statistics by deselecting the cards of a section. 
+You can choose not to share one or more statistics by deselecting the cards in a section. 
 
 <p></p>
 
-<li>After you've chosen all the statistics that you want to share, click Confirm at the top of your dashboard. This displays a dialog box in which you can choose recipients, type a subject line, and compose a note to your recipients. All three fields (recipients, subject line, and message) are required.</li>
-<li>When you're ready to send the message and share your statistics, click **Share**. A dialog box confirms that “Your statistics are on the way.”</li>
+<li>After you've chosen all the statistics that you want to share, select **Confirm** at the top of your dashboard. This displays a dialog box in which you can choose recipients, type a subject line, and compose a note to your recipients. All three fields (recipients, subject line, and message) are required.</li>
+<li>When you're ready to send the message and share your statistics, select **Share**. A dialog box confirms that “Your statistics are on the way.”</li>
 </ol>  

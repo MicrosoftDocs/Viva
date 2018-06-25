@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Meeting hours
-description: How we arrive at the facts that we display about meeting behavior. 
+title: Meeting hours in MyAnalytics
+description: How MyAnalytics uses meeting hours data for meeting behavior statistics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/07/2018

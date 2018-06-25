@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: To see info about a specific email message
-description: How-to steps -- See information about a specific email message. 
+title: To see MyAnalytics information about a specific email message
+description: How to see NyAnalytics information about a specific email message. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
@@ -14,14 +14,14 @@ ms.prod: mya
 
 **To see information about a specific email message**
 
-1. In your Sent Items folder in Outlook, click the email message.  
-2. In the Home tab of the ribbon, click **MyAnalytics**. If the MyAnalytics panel is not already open, it opens now. 
+1. In your Sent Items folder in Outlook, select the email message.  
+2. In the Home tab of the ribbon, select **MyAnalytics**. If the MyAnalytics panel is not already open, it opens now. 
 
     At the top of the panel, a card displays information about the message that you selected. For example, the following card describes the status of the message with the subject line "Document for review":
   
     <img src="../../Images/Ready-for-review.png" alt="Ready for review">
 
-3. To see more information about this message, click the card. For the selected message, you see a chart that shows the proportion of recipients who have opened your email, and the number of times people replied to it or forwarded it. 
+3. To see more information about this message, select the card. For the selected message, you see a chart that shows the proportion of recipients who have opened your email, and the number of times people replied to it or forwarded it. 
 
     <img src="../../Images/50-percent-opened-ed.png" alt="Proportion of recipients who opened your email">
 

@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Network
-description: How you spent your time with the people you interact with in meetings or in email. 
+title: Network in MyAnalytics
+description: How you spent your time with the people you interact with in meetings or in email shows in the Network section of MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 06/15/2018
@@ -14,7 +14,7 @@ ms.prod: mya
 
 ## Network 
 
-The Network area of the MyAnalytics Dashboard shows how you spent your time with the people you interact with in meetings or in email.  
+The Network section of the MyAnalytics dashboard shows how you spent your time with the people you interact with in meetings or in email.  
 
 ### Your time investments 
 

@@ -4,7 +4,7 @@
 
 title: Explore network and collaboration metrics in Workplace Analytics
 description: An overview of the networks and collaboration dashboards available in Workplace Analytics.
-author: mdehmer
+author: madehmer
 ms.author: v-midehm
 ms.date: 06/05/2018
 ms.topic: get-started-article

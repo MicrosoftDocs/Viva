@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Learning Modules
-description: Learning Modules of MyA adoption material. 
+title: Learning collateral for MyAnalytics adoption
+description: Learning materials that help you understand how to best adopt and use MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 04/06/2018
@@ -15,7 +15,7 @@ localization_priority: Once
 
 # Adopt MyAnalytics
 
-The MyAnalytics adoption materials are a set of tools that helps teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable. The following sections provides resources and guide you through phases in which you recognize problems and address them by building healthy work habits. 
+The following MyAnalytics adoption materials can help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable. The following resources guide you through how to recognize problems and address them by building healthy work habits.
 
   [Individual adoption](Indiv-adopt-get-started.md): This section helps an individual use MyAnalytics to the fullest by providing a framework for building healthier habits and sustaining those changes.
 
