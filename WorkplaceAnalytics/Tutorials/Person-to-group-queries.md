@@ -51,7 +51,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
     * **Meeting count** and **Meeting hours** give you, respectively, the number of meetings in which the time investor and the collaborators participated, and the number of hours the time investor spent in meetings.
 
-    * **Network size** tells you how many unique people the time investor was in contact with in the selected collaboration group over the selected time period.
+    * **Network size** tells you how many unique people the time investor had meaningful interactions with in the selected collaboration group over the selected time period.
 
     In the following sections, you determine other aspects of the character of your query by choosing how to group both the time investors and the collaborators. For example, you could examine how senior leaders allocated time across different organizations by setting the time investors' group to “level” and the collaborators' group to “organization.”
 

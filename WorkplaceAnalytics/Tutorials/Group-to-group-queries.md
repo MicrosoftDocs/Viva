@@ -63,7 +63,7 @@ While setting up a group query differs markedly from setting up meeting or perso
    ![Group and filter time investors](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
 
 8. The next question is How do you want to group the time investors? Answer this by selecting an attribute of this group of people; for example, FunctionType, IsInternal, or tenuremonths.
-9. Optionally, remove some of the time investors from this analysis. Do this by applying filters in the Do you want to limit the analysis to only certain time investors? area.
+9. Optionally, remove some of the time investors from this analysis. Do this by applying filters under the question _Do you want to limit the analysis to only certain time investors?_
 
    You have now finished specifying the time investors whose behavior you want to analyze and how you want the query to group them. Now, you make similar determinations about the collaborators. 
 
