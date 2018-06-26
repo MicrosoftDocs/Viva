@@ -56,6 +56,8 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics_2.png)
 
+   For more information about the metrics that you can use in group-to-group queries, see [Group-to-group metrics](../use/metric-definitions.md#group-to-group-metrics). 
+
    In the following sections, you determine other aspects of the character of your query by choosing how to group both the time investors and the collaborators. For example, you could examine how senior leaders allocated time across different organizations by setting the time investors' group to “level” and the collaborators' group to “organization.”
 
    Move on to the Time investors section:

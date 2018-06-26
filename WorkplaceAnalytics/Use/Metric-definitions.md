@@ -69,7 +69,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Invitees|Number of people invited to the meeting.|Meeting|Count|No|
 |Total emails sent during meeting|Number of emails sent during a meeting by all attendees.|Meetings|Count|No|
 
-## Group-to-Group metrics
+## Group-to-group metrics
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
@@ -81,7 +81,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Collaboration hours |Sum of meeting hours and email hours spent between the time investor and collaborator groups.|Group|Hour|No|
 |Time investors initiated meeting hours | Number of meeting hours the time investors created for collaborators by organizing meetings.|Group|Hour|No|
 
-## Person-to-Group metrics
+## Person-to-group metrics
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|

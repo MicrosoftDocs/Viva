@@ -53,6 +53,8 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
     * **Network size** tells you how many unique people the time investor had meaningful interactions with in the selected collaboration group over the selected time period.
 
+   For more information about these metrics, see [Person-to-group metrics](../use/metric-definitions.md#person-to-group-metrics). 
+
     In the following sections, you determine other aspects of the character of your query by choosing how to group both the time investors and the collaborators. For example, you could examine how senior leaders allocated time across different organizations by setting the time investors' group to “level” and the collaborators' group to “organization.”
 
    Move on to the Time investors section:
