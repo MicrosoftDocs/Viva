@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-## The experience in MyAnalytics for program participants 
+# Solutions: The experience in MyAnalytics for program participants 
 
 * **Role** - information worker, any participant in a habit-change program
 
