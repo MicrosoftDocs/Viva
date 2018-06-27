@@ -179,8 +179,10 @@ Workplace Analytics uses the concept of dated attributes. Every time an admin up
 
 What's the difference between a solution and a program? Solution refers to the area of Workplace Analytics in which you create programs that aim to change work habits. A program is something you create by combining a group of people who will work towards better work habits, a goal that has been chosen for those people, and a period of time (twelve weeks) to work towards that goal.  
 
-### Related topics
+## Related topics
 
 [Solutions: Introduction](solutions-intro.md)  
 
 [Solutions: Walkthrough](solutions-task.md)
+
+[Solutions: Participants](solutions-participants.md)  

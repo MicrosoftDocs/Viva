@@ -75,8 +75,10 @@ Here are the prerequisites for using solutions:
 
 **Answer 6:** No. Privacy considerations preclude the monitoring of behavior information about specific users.
 
-### Related topics
+## Related topics
 
 [Solutions: Walkthrough](solutions-task.md)
 
-[Solutions: Concepts](solutions-conceptual.md)  
+[Solutions: Participants](solutions-participants.md)  
+
+[Solutions: Concepts](solutions-conceptual.md) 
