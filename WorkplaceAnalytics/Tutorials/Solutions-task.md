@@ -227,6 +227,9 @@ In this phase, you work on the Solutions > Manage page of Workplace Analytics. Y
 
    Examine the displayed details. If you need to change anything, select **Back**. If the program is ready to go, select **I confirm that all customizations are correct**, and select **Submit**.
 
+   >[!Note] 
+   >In a few days, Workplace Analytics will send the welcome email to all program participants. For more information about this and other aspects of the participants' experience while in a program, see . 
+
 A message is displayed that tells you on which day the program will start. On the Solutions > Manage page, you'll see that the program's card has moved from Unassigned groups to Scheduled programs. 
 
 After Workplace Analytics sends the welcome message to the new participants, the program is locked for editing. On the first day of the first week of the program, the program's card moves from Scheduled programs into Active programs. 
