@@ -23,9 +23,7 @@
           - name: Prepare organizational data
             href: ~/Setup/Prepare-organizational-data.md
           - name: Upload organizational data
-            href: ~/Setup/Upload-organizational-data.md     
-  #        - name: Prepare and upload organizational data
-  #          href: ~/Setup/Prepare-and-Upload-organizational-data.md                     
+            href: ~/Setup/Upload-organizational-data.md                         
           - name: Data sources
             href: ~/Use/Data-Sources.md
           - name: Assign group-based licenses
@@ -74,7 +72,9 @@
             href: ~/Tutorials/Solutions-intro.md  
             items: 
               - name: Solutions - Walkthrough    
-                href: ~/Tutorials/Solutions-task.md                     
+                href: ~/Tutorials/Solutions-task.md 
+              - name: Solutions - Participants
+                href: ~/Tutorials/Solutions-participants.md                                       
               - name: Solutions - Concepts
                 href: ~/Tutorials/Solutions-conceptual.md                                  
       - name: Reference
