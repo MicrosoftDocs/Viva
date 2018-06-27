@@ -180,8 +180,11 @@ In this phase, you work on the Solutions > Manage page of Workplace Analytics. Y
 
 3. (Optional) Select **Copy summary to clipboard** to copy this information. You can then share it with others, perhaps to verify that program aspects are as expected. 
 
-4. When you're ready to schedule the program, select **Customize**. This displays the Program setup page, open to the Details step. It contains three required fields: Program name, Program contact email, and Start date. The program's end
-date (twelve weeks from the start date) is filled in automatically. 
+4. When you're ready to schedule the program, select **Customize**. This displays the Program setup page, open to the Details step:
+
+   ![Program setup: details](../Images/WpA/Tutorials/program-setup-details.png)
+
+   This page contains three required fields: Program name, Program contact email, and Start date. The program's end date (twelve weeks from the start date) is filled in automatically. 
 
 5. After you complete the three fields, select **Continue**. Workplace Analytics now checks two things: 
 
@@ -202,15 +205,27 @@ date (twelve weeks from the start date) is filled in automatically.
    > [!Note] 
    > If excluding these people causes the group to fall below minimum group size, you cannot proceed. You'll need to choose a different start date or a new group of people. 
 
-8. On the Messaging step of the Program setup page, you can change details about the program, such as the goal -- whether to express it as a percentage or as a number, and how high a percentage or number. It makes sense to reset the goal here because the benchmarks might have changed because the group lost ineligible employees. 
+8. On the Messaging step of the Program setup page, you can change details about the program, such as the goal -- whether to express it as a percentage or as a number, and how high a percentage or number. 
+
+   ![Program Setup: Messaging](../Images/WpA/Tutorials/program-setup-messaging.png)
+
+   It makes sense to reset the goal here because the benchmarks might have changed because the group lost ineligible employees.
 
 9. Type the name of your business sponsor. This can be the name of a person or, for example, of a leadership team. Workplace Analytics suggests a message subject and a welcome message. The name of the business sponsor and the program name are included in the message subject. 
 
 10. (Optional) Edit the message subject and/or the welcome message.  
 
-11. The Habits step of the Program setup page displays behavioral habits that pertain to the program goal. Select three habits on this page. Base this selection on what you've found the team needs, perhaps through an analysis that was performed. Alternatively, you can base it on a prior agreement among the team participants. After you have selected three habits, select **Continue**. 
+11. The Habits step of the Program setup page displays behavioral habits that pertain to the program goal. 
 
-12. The final page summarizes the program. Examine the displayed details. If you need to change anything, select **Back**. If the program is ready to go, select **I confirm that all customizations are correct**, and select **Submit**. 
+   ![Program Setup: Habits](../Images/WpA/Tutorials/program-setup-habits.png)
+
+   Select three habits on this page. Base this selection on what you've found the team needs, perhaps through an analysis that was performed. Alternatively, you can base it on a prior agreement among the team participants. After you have selected three habits, select **Continue**.
+
+12. The final page summarizes the program:
+
+   ![Program Setup: Summary](../Images/WpA/Tutorials/program-setup-summary.png)
+
+   Examine the displayed details. If you need to change anything, select **Back**. If the program is ready to go, select **I confirm that all customizations are correct**, and select **Submit**.
 
 A message is displayed that tells you on which day the program will start. On the Solutions > Manage page, you'll see that the program's card has moved from Unassigned groups to Scheduled programs. 
 
@@ -242,11 +257,11 @@ You track programs on the Solutions > Manage page. Use this page to measure prog
 
 While analysts and program managers create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a program created. They have the opportunity to change workplace habits for the better. 
 
-After a program is scheduled, these program participants receive an automatically generated welcome email from Workplace Analytics. It explains the details of the program: its duration and goals, and the habits they're expected to work on. The participants' MyAnalytics dashboards are enhanced with program information that shows recommended habits and their progress against the program goals. They also receive a weekly email digest that summarizes their progress in the program. For more information, see the following: 
+After a program is scheduled, these program participants receive an automatically generated welcome email from Workplace Analytics. It explains the details of the program: its duration and goals, and the habits they're expected to work on. The participants' MyAnalytics dashboards are enhanced with program information that shows recommended habits and their progress against the program goals. They also receive a weekly email digest that summarizes their progress in the program. 
 
- * [MyAnalytics dashboard](../MyAnalytics/Use/Dashboard.md)
- * [MyAnalytics welcome email](../MyAnalytics/Use/MyA-Welcome-email.md)
- * [MyAnalytics email digest](../MyAnalytics/Use/email-digests.md)
+Select the following to view examples of what program participants are presented with during a program: 
+* **At program start** - [Welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png)
+* **Throughout the program** - [Participant's dashboard](../Images/WpA/Tutorials/weekly-digest-prog-partic.png), [Weekly email digest](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
 
 ### Related topics
 
