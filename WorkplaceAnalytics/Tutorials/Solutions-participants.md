@@ -12,9 +12,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions: The experience in MyAnalytics for program participants 
+# Solutions: The experience of program participants 
 
-* **Role** - information worker, any participant in a habit-change program
+* **Role** - participant in a habit-change program, an information worker who is using MyAnalytics
 
 While analysts and program managers create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a program created. They have the opportunity to change workplace habits for the better. 
 
