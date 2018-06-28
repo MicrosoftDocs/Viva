@@ -6,7 +6,7 @@ title: Workplace Analytics solutions (introduction)
 description: Introduction and summary of Workplace Analytics solutions
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/22/2018
+ms.date: 06/27/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa

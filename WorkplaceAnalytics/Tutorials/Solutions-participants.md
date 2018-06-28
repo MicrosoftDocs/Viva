@@ -20,16 +20,14 @@ While analysts and program managers create and manage programs in Workplace Anal
 
 After a program is scheduled, these program participants receive an automatically generated welcome email from Workplace Analytics. It explains the details of the program: its duration and goals, and the habits they're expected to work on. The participants' MyAnalytics dashboards are enhanced with program information that shows recommended habits and their progress against the program goals. They also receive a weekly email digest that summarizes their progress in the program. 
 
-## Material for participants
+## Material for participants: examples
 
-In this section, you can view examples of information that is made available to program participants during a program: 
+During a program, participants receive or can view the following items: 
 
 ### At program start
 
 #### Welcome email
-The welcome email is sent to participants at the start of the program.  
-
-[Welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png)
+The [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) is sent to participants at the start of the program.  
 
 ### Throughout the program
 

@@ -6,7 +6,7 @@ title: Workplace Analytics Solutions concepts
 description: Concepts and definitions to help you better work with Solutions in Workplace Analytics. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/20/2018
+ms.date: 06/27/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
