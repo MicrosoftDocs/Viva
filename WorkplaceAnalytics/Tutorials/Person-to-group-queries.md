@@ -19,7 +19,7 @@ Person-to-group queries in Workplace Analytics give results that help you unders
 ![Time investors allocate time to various groups](../Images/WpA/tutorials/p2g-query.png)
 
 > [!Note] 
-> Because individuals are assigned a randomly generated PersonID to maintain deidentification, there is no way to identify an individual from the query output.
+> Because individuals are assigned a randomly generated PersonID to maintain deidentification, there is no way to identify an individual in the output of a query.
 
 ## Overview of time allocation
 
