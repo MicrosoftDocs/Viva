@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
-title: MyAnalytics
-description: Brief introduction to MyAnalytics, with links to further information. 
+title: MyAnalytics introduction
+description: Brief introduction to MyAnalytics with links to further information. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/01/2018

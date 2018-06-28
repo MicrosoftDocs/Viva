@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Email read statistics
-description: What proportion of recipients opened your messages? 
+title: Email read statistics in MyAnalytics
+description: See what proportion of recipients opened email from you in MyAnalytics.
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/07/2018

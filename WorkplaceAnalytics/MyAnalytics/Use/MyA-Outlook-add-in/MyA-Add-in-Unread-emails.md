@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Unread emails
-description: What to do with MyAnalytics cards about unread emails. 
+title: Unread emails in MyAnalytics
+description: What to do in MyAnalytics about unread emails. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018

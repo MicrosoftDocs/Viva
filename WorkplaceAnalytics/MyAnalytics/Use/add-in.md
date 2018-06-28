@@ -3,7 +3,7 @@
 # required metadata
 
 title: MyAnalytics Add-in
-description: All the individual Outlook Add-in topics, displayed as one.
+description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics.
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/16/2018

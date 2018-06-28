@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Learning Modules
-description: Learning Modules of MyA adoption material. 
-author: paul9955
+title: Learning modules for MyAnalytics
+description: Learning modules on how to set up and use MyAnalytics data, including focus hours, meetings, email, and after hours data. 
+author: madehmer
 ms.author: v-pascha
-ms.date: 03/29/2018
+ms.date: 06/25/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -14,11 +14,17 @@ ms.prod: mya
 
 ## Learning modules
 
-MyAnalytics provides several Learning modules. These are collections of materials that are organized by collaboration topic to help you build new habits and learn how to use MyAnalytics more effectively. 
+MyAnalytics has a few learning modules to help you set up and use its data. These materials are organized by collaboration topic to help you build new work habits and learn how to use MyAnalytics more effectively. 
 
-Learning modules include healthy behavior suggestions, [Habit playbooks](Adopt-Habit-playbooks.md), tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral-science lessons. 
+Learning modules include:
 
-What follows are the four modules: Focus hours, Meetings, Email, and After Hours. You can also find lessons on how to maintain important relationships in your network in these modules.
+* Healthy behavior suggestions
+* [Habit playbooks](Adopt-Habit-playbooks.md)
+* Tips on how to interpret MyAnalytics data and use its features
+* Links to articles to learn more about specific topics
+* Fun behavioral-science lessons
+
+The following MyAnalytics modules can help you learn more about how to track and analyze your focus hours, meetings, email, and after hours data. You can also find lessons on how to maintain important relationships in your network in these modules.
 
 [MyAnalytics Focus hours](MyAnalytics-focus-hours-april-2018.pdf)
 
@@ -27,4 +33,3 @@ What follows are the four modules: Focus hours, Meetings, Email, and After Hours
 [MyAnalytics Email](MyAnalytics-email-april-2018.pdf)
 
 [MyAnalytics After hours](MyAnalytics-after-hours-april-2018.pdf)
-

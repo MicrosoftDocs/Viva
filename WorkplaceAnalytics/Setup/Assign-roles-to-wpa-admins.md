@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Setup --Assign roles to Workplace Analytics admins and analysts
-description: Eighth setup step -- Assign roles to Workplace Analytics admins and analysts
+title: Workplace Analytics Setup -- Assign roles to Workplace Analytics admins and analysts
+description: How to assign roles in Workplace Analytics for admins and analysts.
 author: paul9955
 ms.author: v-leash
 ms.date: 04/19/2018

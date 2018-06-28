@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyA Individual Adoption -- Additional resources
-description: MyA Individual Adoption by Kate Nowak -- Additional resources section
+title: MyAnalytics Individual Adoption --Additional resources
+description: MyAnaytics Individual Adoption by Kate Nowak --Additional resources section
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/26/2018

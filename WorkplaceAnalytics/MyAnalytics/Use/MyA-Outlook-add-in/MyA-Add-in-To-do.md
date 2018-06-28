@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: To do card
-description: Purpose of to-do cards and how they come about.  
+title: To do card in MyAnalytics
+description: Describes the purpose of To-do cards in MyAnalytics.  
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018

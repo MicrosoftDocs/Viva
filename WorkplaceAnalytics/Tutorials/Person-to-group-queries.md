@@ -3,7 +3,7 @@
 # required metadata
 
 title: Person-to-group queries in Workplace Analytics
-description: Person-to-group queries uncover how an individual invested their time across the rest of the organization and beyond.  
+description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond.
 author: madehmer
 ms.author: v-midehm
 ms.date: 06/13/2018

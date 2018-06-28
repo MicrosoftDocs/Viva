@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyA Teams Adoption -- Implement
-description: MyA Teams Adoption by Kate Nowak -- Implement section
+title: MyAnalytics Team Adoption --Implement
+description: MyAnalytics Team Adoption by Kate Nowak --Implement section
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/27/2018
@@ -21,7 +21,7 @@ The kickoff meeting is the first event in your program, following the program la
 Start with the following (sample) agenda:
 
  * MyAnalytics product overview
- * MyAnalytics Team Behavior Change Program overview
+ * MyAnalytics team behavior change program overview
  * MyAnalytics demo
  * Survey results
  * Goal-setting discussion

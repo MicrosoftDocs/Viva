@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: After hours
-description: How we estimate the time you spend working during your official time off.
+title: How MyAnalytics uses after hours
+description: How MyAnalytics estimates the time you spend working during your official time off.
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018

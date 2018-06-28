@@ -3,7 +3,7 @@
 # required metadata
 
 title: Download the Query Report from Workplace Analytics in UTF-8 format
-description: If your query reports cannot be opened properly in Excel because they contain multibyte characters, follow these steps to work around the problem.   
+description: If your query reports cannot be opened properly in Excel because they contain multi-byte characters, follow these steps to work around the problem.   
 author: paul9955
 ms.author: v-pascha
 ms.date: 04/18/2018

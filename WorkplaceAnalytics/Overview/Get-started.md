@@ -3,7 +3,7 @@
 # required metadata
 
 title: Get started with Workplace Analytics
-description: This topic gives a high-level overview of the primary features in Workplace Analytics. 
+description: Gives a high-level overview of the primary features in Workplace Analytics. 
 author: madehmer
 ms.author: v-leash
 ms.date: 06/19/2018
@@ -36,4 +36,4 @@ Workplace Analytics gives you different ways to explore your data.
 
 [**Queries**](../tutorials/create-queries.md) give you the flexibility to dive deeper into your organization’s behavioral metrics to generate insights. You can create three types of queries in Workplace Analytics: Person, Group, and Meeting. Each query type can help answer specific questions you may be investigating.
 
-[**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings.
+[**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page. 

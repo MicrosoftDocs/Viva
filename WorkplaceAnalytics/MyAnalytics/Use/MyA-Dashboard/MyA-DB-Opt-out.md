@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Opt out
-description: How to keep your data from being aggregated.
+title: Opt out of MyAnalytics
+description: How to turn off or opt out of MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018

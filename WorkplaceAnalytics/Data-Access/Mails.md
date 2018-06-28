@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Mails table (WPA Data Access)
 description: One row for every email sent
 author: gbowerman
