@@ -4,7 +4,7 @@
 
 title: Workplace Analytics tool 500 error
 description: This topic explains why users receive a 500 error when using the Workplace Analytics tool. 
-author: v-johtob
+author: buntus
 ms.author: v-johtob
 ms.date: 06/27/2018
 ms.topic: get-started-article
