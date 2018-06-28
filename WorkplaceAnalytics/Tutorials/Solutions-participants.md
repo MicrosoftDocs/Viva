@@ -32,7 +32,7 @@ The [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) is sent
 ### Throughout the program
 
 #### MyAnalytics dashboard
-The MyAnalytics dashboard is a constantly available resource for MyAnalytics users. During a program, this dashboard also contains the following section:
+The MyAnalytics [dashboard](../MyAnalytics/use/dashboard.md) is a constantly available resource for MyAnalytics users. During a program, this dashboard also contains the following section:
 
 ![Participant's dashboard](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
 
