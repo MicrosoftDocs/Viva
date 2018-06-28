@@ -228,7 +228,7 @@ In this phase, you work on the Solutions > Manage page of Workplace Analytics. Y
    Examine the displayed details. If you need to change anything, select **Back**. If the program is ready to go, select **I confirm that all customizations are correct**, and select **Submit**.
 
    >[!Note] 
-   >A few days after you schedule the program, Workplace Analytics sends the welcome email to all program participants. To view an example of it, see [Welcome email](solutions-participants.md#welcome-email). 
+   >A few days after you schedule the program, Workplace Analytics sends welcome email to all program participants. For an example, see [Welcome email](solutions-participants.md#welcome-email). 
 
 A message is displayed that tells you on which day the program will start. On the Solutions > Manage page, you'll see that the program's card has moved from Unassigned groups to Scheduled programs. 
 

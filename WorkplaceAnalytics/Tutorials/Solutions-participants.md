@@ -37,7 +37,7 @@ The MyAnalytics dashboard is a constantly available resource for MyAnalytics use
 ![Participant's dashboard](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
 
 #### Email digest
-The email digest is received weekly, as always for MyAnalytics users. During a program, this email digest also contains the following section:
+All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digests.md). During a program, the email digest also contains the following section:
 
 ![Weekly email digest](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
 
