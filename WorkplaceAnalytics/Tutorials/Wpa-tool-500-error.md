@@ -28,7 +28,7 @@ ms.prod: wpa
 Users will see this error message when they have just purchased their tenants for Workplace Analytics, and where we have not yet provisioned their tenant. 
 
 > [!Note] 
-> Provisioning typically takes from 24-72 hours after purchasing Workplace Analytics licenses. 
+> Provisioning typically takes from 24 to 72 hours after purchasing Workplace Analytics licenses. 
 
 **Escalation Process** 
 
