@@ -34,7 +34,7 @@ The [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) is sent
 #### MyAnalytics dashboard
 The MyAnalytics [dashboard](../MyAnalytics/use/dashboard.md) is a constantly available resource for MyAnalytics users. During a program, this dashboard also contains the following section:
 
-![Participant's dashboard](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
+![Participant's dashboard](../Images/WpA/Tutorials/dashboard-prog-partic.png)
 
 #### Email digest
 All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digests.md). During a program, the email digest also contains the following section:
