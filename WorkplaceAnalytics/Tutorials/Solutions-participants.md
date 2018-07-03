@@ -20,7 +20,7 @@ While analysts and program managers create and manage programs in Workplace Anal
 
 After a program is scheduled, these program participants receive an automatically generated welcome email from Workplace Analytics. It explains the details of the program: its duration and goals, and the habits they're expected to work on. The participants' MyAnalytics dashboards are enhanced with program information that shows recommended habits and their progress against the program goals. They also receive a weekly email digest that summarizes their progress in the program. 
 
-## Material for participants: examples
+## Material for participants: Examples
 
 During a program, participants receive or can view the following items: 
 
