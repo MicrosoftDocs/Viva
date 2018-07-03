@@ -32,12 +32,12 @@ The [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) is sent
 ### Throughout the program
 
 #### MyAnalytics dashboard
-The MyAnalytics [dashboard](../MyAnalytics/use/dashboard.md) is a constantly available resource for MyAnalytics users. During a program, this dashboard also contains the following section:
+The MyAnalytics [dashboard](../MyAnalytics/use/dashboard.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also contains the following section during a program:
 
 ![Participant's dashboard](../Images/WpA/Tutorials/dashboard-prog-partic.png)
 
 #### Email digest
-All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digests.md). During a program, the email digest also contains the following section:
+All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digests.md). In addition to its standard content, the email digest also contains the following section during a program: 
 
 ![Weekly email digest](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
 
