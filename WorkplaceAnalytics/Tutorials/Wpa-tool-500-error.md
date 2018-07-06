@@ -5,8 +5,8 @@
 title: Workplace Analytics tool 500 error
 description: This topic explains why users receive a 500 error when using the Workplace Analytics tool. 
 author: buntus
-ms.author: v-johtob
-ms.date: 06/27/2018
+ms.author: rodonahu
+ms.date: 07/06/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -22,7 +22,6 @@ ms.prod: wpa
 
  ![Workplace Analytics tool 500 error](../Images/Wpa-tool-500-error.png)
 
-
 **Why is this happening?** 
 
 Users will see this error message when they have just purchased their tenants for Workplace Analytics, and where we have not yet provisioned their tenant. 
@@ -32,4 +31,4 @@ Users will see this error message when they have just purchased their tenants fo
 
 **Escalation Process** 
 
-To escalate this issue, assign it to the Workplace Analytics team by visiting the [Microsoft support](https://docs.microsoft.com/en-us/workplace-analytics/overview/getting-support) page and selecting either the Workplace Analytics Fast Track or MSFT Support links.
+To escalate this issue, assign it to the Workplace Analytics team by visiting the [Microsoft support](https://docs.microsoft.com/en-us/workplace-analytics/overview/getting-support) page and selecting the Workplace Analytics Fast Track or MSFT Support links.
