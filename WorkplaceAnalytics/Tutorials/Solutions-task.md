@@ -31,11 +31,11 @@ Work on a solution has the following phases:
 
 ## Identify opportunities for improvement
 
-The goal of the first phase in the solutions workflow is to identify opportunities for improvement. An opportunity combines a group of people, a problem description, and a goal definition. You can create solutions that address problems of in the areas of meeting hours, focus hours, or after hours. 
+The goal of the first phase in the solutions workflow is to identify opportunities for improvement. An opportunity combines a group of people, a problem description, and a goal definition. You can create solutions that address problems in the areas of meeting hours, focus hours, or after hours. 
 
 In this first phase, start by submitting a group of people, or even multiple groups -- you can submit as many groups as you think might benefit. After a group is submitted, it enters a queue as a candidate for a change program. (In the next phase ([Schedule a program](#schedule-a-program)), a program manager starts with a group and creates the change program for it.) 
 
-Both analysts and program managers can submit groups, and both use the Solutions > identify page of Workplace Analytics, but each role does it differently, as described here:  
+Both analysts and program managers can create groups. There are two pages on which users can create a group: Solutions > Identify and Solutions > Manage. Analysts can use both pages, while program managers can use only the Manage page. Each role does it differently, as described here:  
 
  * **Program managers:** [Upload a file to create a group](#upload-a-file-to-create-a-group). Do this if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people. For more information, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file). 
 
@@ -86,7 +86,7 @@ Use this procedure if you don't yet have a list of people (a .csv file) that you
 
    ![Settings and filters](../Images/WpA/Tutorials/solutions-task-02.png)
  
-6. In the right column, under Filter summary, select **Edit**. The Edit filters page opens.  
+6. In the right column, under Filter summary, select **Edit**. The Edit filters panel opens.  
 
 7. Under Edit filters, select **Add filter**. Here's an example of how to add a filter: 
    
@@ -157,7 +157,7 @@ After you select **Submit**, Workplace Analytics processes the group. Processing
 
 1. <u>Create the group.</u> If you manually uploaded the group, Workplace Analytics matches the provided email addresses to PersonIDs in the system. If you selected a group by using the Identify page, the system creates the group based on the measured employees who meet the criteria set by the filters you used and the groups you selected when the group was submitted. For more information about manual upload, see [Manually upload a .csv file](solutions-conceptual.md#manually-upload-a-csv-file).
 
-2. <u>Calculate the benchmark.</u> Workplace Analytics calculates a new benchmark for this program type and this group. For example, if you chose Reduce meeting hours as the program type, the calculated benchmark reflects the amount of time these people spent in meetings over the most recent 12 weeks of data that Workplace Analytics has for that group. 
+2. <u>Calculate the benchmark.</u> Workplace Analytics calculates a new benchmark for this program type and this group. For example, if you chose Reduce meeting hours as the program type, the calculated benchmark reflects the average amount of time these people spent in meetings over each week of the most recent 12 weeks of data that Workplace Analytics has for that group. 
 
 3. <u>Display the group card.</u> Workplace Analytics displays the group in a card in the Unassigned groups column on the Solutions > Manage page. This card shows the group's title, program type, and date of submission. At first, the group's card indicates that the group is still being processed. After processing is finished, the displayed card is still just a group of people; it is not yet a program. (For more information about group and program cards, see [The Solutions > Manage page](solutions-conceptual.md#the-solutions--manage-page).)  
 
@@ -227,14 +227,15 @@ In this phase, you work on the Solutions > Manage page of Workplace Analytics. Y
 
    Examine the displayed details. If you need to change anything, select **Back**. If the program is ready to go, select **I confirm that all customizations are correct**, and select **Submit**.
 
-   >[!Note] 
-   >A few days after you schedule the program, Workplace Analytics sends welcome email to all program participants. For an example, see [Welcome email](solutions-participants.md#welcome-email). 
+### The program starts
 
-A message is displayed that tells you on which day the program will start. On the Solutions > Manage page, you'll see that the program's card has moved from Unassigned groups to Scheduled programs. 
+The program does not start immediately after you schedule it. After you submit the program, Workplace Analytics displays a message that tells you on which day the program will start. On the Solutions > Manage page, you'll see that the program's card has moved from Unassigned groups to Scheduled programs. 
 
-After Workplace Analytics sends the welcome message to the new participants, the program is locked for editing. On the first day of the first week of the program, the program's card moves from Scheduled programs into Active programs. 
+Programs always start on a Sunday. On the Monday before that first Sunday, Workplace Analytics sends the welcome email to all program participants. (You had the opportunity to edit this welcome email in [Schedule a program](#schedule-a-program). For an example, see [Welcome email](solutions-participants.md#welcome-email).) This means that, for example, if you schedule a program on a Wednesday, the soonest the program can start is two Sundays later. 
 
-Go to [Track programs](#track-programs). 
+After Workplace Analytics sends the welcome message to the new participants, the program is locked for editing. On the first day (the Sunday) of the first week of the program, the program's card moves from Scheduled programs into Active programs. 
+
+Now that the program has started, you can track its progress. Go to [Track programs](#track-programs). 
 
 ## Track programs
 

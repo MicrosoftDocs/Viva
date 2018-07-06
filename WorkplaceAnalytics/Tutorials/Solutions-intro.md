@@ -53,7 +53,7 @@ Here are the prerequisites for using solutions:
 
 **Question 3:** What is the role of a program manager? Why do we need a new role?
 
-**Answer 3:** A program manager understands teams and trends in an organization and can define, track, and understand the value of programs. 
+**Answer 3:** A program manager understands teams and trends in an organization and can define, track, and understand the value of programs. A new role is required to add security and privacy. Only the program manager has "write" access to programs; this means that only program managers can deploy programs. All other roles have "read" access. This ensures that only people who are trusted with this responsibility have the capability to create and deploy programs.
 
 #### Additional information about roles and access
 

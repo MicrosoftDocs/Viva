@@ -26,7 +26,7 @@ You can obtain a valid .csv file by creating the file (in a text editor or in Mi
 
 After you create and upload a .csv file for use in a program, the information in that .csv file is not added to the organizational data that Workplace Analytics stores. The .csv-file data is available only in the Solutions area of Workplace Analytics, and only for creating programs. 
 
-However, you can choose to append the data in this .csv file to your existing organizational data. To do this, upload the file in a separate step (through the Settings page of Workplace Analytics). This makes its data available in other areas of Workplace Analytics, such as in the Explore dashboards and in flexible queries. 
+<!--However, you can choose to append the data in this .csv file to your existing organizational data. To do this, upload the file in a separate step (through the Settings page of Workplace Analytics). This makes its data available in other areas of Workplace Analytics, such as in the Explore dashboards and in flexible queries.--> 
 
 #### Minimum group size
 
