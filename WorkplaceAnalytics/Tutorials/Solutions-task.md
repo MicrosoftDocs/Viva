@@ -229,16 +229,15 @@ In this phase, you work on the Solutions > Manage page of Workplace Analytics. Y
 
 ### The program starts
 
-The program does not start immediately after you schedule it. Here is the sequence of events that leads up to the program start:
+The program does not start immediately after you schedule it. Here is the sequence of events that leads up to the program-start date:
 
 | Event | Notes |
 | ----- | ----- | 
-| Create and [schedule a program](#schedule-a-program) | <ul><li>After you submit the program, Workplace Analytics displays a message that tells you on which day the program will start.</li><li>On the Solutions > Manage page, you'll see that the program's card has moved from Unassigned groups to Scheduled programs.</li></ul> | 
-| The next Monday arrives | <ul><li>Programs always start on a Sunday. On the Monday before that first Sunday, Workplace Analytics sends the welcome email (see an [example](solutions-participants.md#welcome-email)) to all program participants. (You had an opportunity to edit this welcome email in [Schedule a program](#schedule-a-program).)</li><li>After Workplace Analytics sends the welcome message to the new participants, the program is locked for editing.</li> |
-| The next Sunday arrives | This is the first day of the first week (of twelve weeks) of the program. The program's card moves from Scheduled programs into Active programs. |
+| Create and [schedule a program](#schedule-a-program) | <ul><li>After you submit the program, Workplace Analytics displays a message that tells you on which day the program will start.</li><li>On the Solutions > Manage page, the program's card moves from Unassigned groups to Scheduled programs.</li></ul> | 
+| The next Monday arrives | <ul><li>Programs always start on a Sunday. On the Monday before that first Sunday, Workplace Analytics sends the welcome email (see an [example](solutions-participants.md#welcome-email)) to all program participants. (You had an opportunity to edit this welcome email in [Schedule a program](#schedule-a-program).)</li><li>After Workplace Analytics sends the welcome message to the new participants, the program is locked for editing.</li></ul> |
+| The next Sunday arrives | <ul><li>This is the first day of the first week (of twelve weeks) of the program.</li><li>The program's card moves from Scheduled programs into Active programs.</li></ul> |
 
-> [!Note] 
-> In this sequence of events, for example, if you schedule a program on a Wednesday, the soonest the program can start is two Sundays later. 
+In this sequence of events, if you schedule a program on -- for example -- a Wednesday, the soonest the program can start is two Sundays later. 
 
 Now that the program has started, you can track its progress. Go to [Track programs](#track-programs). 
 
