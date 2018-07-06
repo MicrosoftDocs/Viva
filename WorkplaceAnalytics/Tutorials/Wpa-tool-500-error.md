@@ -22,7 +22,6 @@ ms.prod: wpa
 
  ![Workplace Analytics tool 500 error](../Images/Wpa-tool-500-error.png)
 
-
 **Why is this happening?** 
 
 Users will see this error message when they have just purchased their tenants for Workplace Analytics, and where we have not yet provisioned their tenant. 
