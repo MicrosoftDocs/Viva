@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics setup steps for meeting exclusions
-description: Setup steps for initial meeting exclusions with Workplace Analytics
+description: Set up Workplace Analytics licenses for population in scope for Analysis
 author: paul9955
 ms.author: v-leash
 ms.date: 04/19/2018
@@ -24,11 +24,19 @@ Once you have identified the population in scope, the Office 365 Global administ
 
 #### Related topics
 
-You can use the Office 365 Web UI or Office 365 PowerShell to assign Workplace Analytics licenses to users. 
+Workplace Analytics licenses are assigned just like any other Microsoft 365 product license. You can assign licenses by using the following:​
 
-[Use the Web UI to assign licenses](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
+ * <u>The Office 365 Admin Center​</u>
+ * <u>PowerShell​</u>
+ * <u>Group-Based Licensing​:</u> Note theat Group-based licensing is currently available only through teh Azure portal. If you primarily use other management portals for your and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level. 
+
+For more information: 
+
+[Use the the Office 365 Admin Center to assign licenses](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
 
 [Use PowerShell to assign licenses](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+
+[Use Group-based licensing to assign licenses](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 ### Mailboxes not fully migrated to Office 365 Exchange Online
 
