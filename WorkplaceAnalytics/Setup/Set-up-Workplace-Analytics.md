@@ -57,7 +57,7 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 
 [!INCLUDE [Determine key personas and roles](../Setup/Determine-key-personas.md)] 
 
-## Step 2: Assign licenses to population in scope for analysis
+## Step 2: Assign licenses to the population in scope for analysis
 
 [!INCLUDE [Assign licenses to population](../Setup/Assign-licenses-to-population.md)] 
 
