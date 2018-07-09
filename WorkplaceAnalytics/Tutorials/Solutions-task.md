@@ -35,7 +35,7 @@ Work on a solution has the following phases:
 
 The goal of the first phase in the solutions workflow is to identify opportunities for improvement. An opportunity combines a group of people, a problem description, and a goal definition. You can create solutions that address problems in the areas of meeting hours, focus hours, or after hours. 
 
-In this first phase, start by submitting a group of people, or even multiple groups -- you can submit as many groups as you think might benefit. After a group is submitted, it enters a queue as a candidate for a change program. (In the next phase, ([Schedule a program](#schedule-a-program)), a program manager starts with a group and creates the change program for it.) 
+In this first phase, start by submitting a group of people, or even multiple groups -- you can submit as many groups as you think might benefit. After a group is submitted, it enters a queue as a candidate for a change program. (In the next phase, [Schedule a program](#schedule-a-program), a program manager starts with a group and creates the change program for it.) 
 
 Both analysts and program managers can create groups. There are two pages on which you can create a group: Solutions > Identify and Solutions > Manage. Analysts can use both pages, while program managers can use only the Manage page. The roles have different options, as described here:  
 
