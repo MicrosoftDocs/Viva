@@ -28,13 +28,11 @@ Workplace Analytics licenses are assigned just like any other Microsoft 365 prod
 
  * [Office 365 Admin Center​](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
  * [PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
- * [Group-based licensing](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-groups-assign) Note theat Group-based licensing is currently available only through teh Azure portal. If you primarily use other management portals for your and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level. 
+ * [Group-based licensing](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-groups-assign). Note theat Group-based licensing is currently available only through teh Azure portal. If you primarily use other management portals for your and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level. 
 
-#### Mailboxes not fully migrated to Office 365 Exchange Online
+#### If mailboxes are not fully migrated to Office 365 Exchange Online
 
-If your organization has not fully migrated to Office 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Office 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with the following options.
+If your organization has not fully migrated to Office 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Office 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with the following options:
 
-#### Options for mailboxes hosted using Exchange on-premises
-
-* Migrate these mailboxes to Office 365 Exchange Online
-* Contact the FastTrack team to understand the process for analyzing these mailboxes (this requires additional work streams within your organization).
+* Migrate these mailboxes to Office 365 Exchange Online.
+* Contact the FastTrack team to understand the process for analyzing these mailboxes; this will require additional work streams within your organization.
