@@ -20,7 +20,7 @@ You can create four types of queries in Workplace Analytics: **Person**, **Meeti
 
 ![Ways to query data](../Images/WpA/Use/Ways-to-query-data-Create-queries.png)
 
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-queries.md)]
+[!INCLUDE [To open the Workplace Analytics Queries page](../includes/to-open-wpa-queries.md)]
 
 Each query type can help answer specific questions you may be investigating. The different query types give you flexibility to look at data from multiple perspectives to generate insights. You can also use the query types together to gain even more powerful insights.
 

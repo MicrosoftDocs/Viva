@@ -3,7 +3,7 @@
 # required metadata
 
 title: To open Workplace Analytics
-description: How-to steps -- open Workplace Analytics to the Settings page.
+description: How-to steps -- open Workplace Analytics to the Queries page.
 author: buntus
 ms.author: v-johtob
 ms.date: 07/10/2018

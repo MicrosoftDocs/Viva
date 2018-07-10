@@ -14,8 +14,6 @@ ms.prod: wpa
 
 **To open the Workplace Analytics Sources page** 
 
-[!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
-
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
 2. In the left navigation pane, select **Sources**. 
 
