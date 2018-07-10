@@ -86,3 +86,5 @@ This is the percentage of measured employees who have a value specified for the 
 
 ### Unique values
 This is the count of the unique attribute values included in the data. For example, if the attribute Region contains North, South, Central, East, West and Southwest, it’s unique values count is 6.
+
+</br>
