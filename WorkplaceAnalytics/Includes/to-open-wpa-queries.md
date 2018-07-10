@@ -12,10 +12,10 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-**To open the Workplace Analytics Settings page** 
+**To open the Workplace Analytics Queries page** 
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
-2. In the left navigation pane, select **Settings**. 
+2. In the left navigation pane, select **Queries**. 
 
    >[!Note] 
    >You must be assigned the Administrator role to access the Settings page. 

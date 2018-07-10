@@ -17,8 +17,7 @@ ms.prod: wpa
 ![Week in the life](../images//WpA/Use/week-in-the-life-explore.png)
 
 
-
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-explore.md)]
+[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
 
 
 

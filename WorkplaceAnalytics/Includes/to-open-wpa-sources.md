@@ -12,7 +12,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-sources.md)]
+**To open the Workplace Analytics Sources page** 
+
+[!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
 2. In the left navigation pane, select **Sources**. 

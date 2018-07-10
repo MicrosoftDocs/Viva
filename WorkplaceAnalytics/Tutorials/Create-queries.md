@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-queries.md)]
+[!INCLUDE [To open the Workplace Analytics Queries page](../includes/to-open-wpa-queries.md)]
 
 # Queries overview
 
