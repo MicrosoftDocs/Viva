@@ -16,6 +16,12 @@ ms.prod: wpa
 
 ![Week in the life](../images//WpA/Use/week-in-the-life-explore.png)
 
+
+
+[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-explore.md)]
+
+
+
 ## All collaboration hours
 All collaboration hours are the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s configured business hours. 
 

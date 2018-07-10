@@ -17,9 +17,8 @@ Data sources contains high-level dashboard views that Workplace Analytics admini
 
 ![Data sources](../images/WpA/Use/Data-sources.png)
 
-### To view the Data sources metrics
 
-* On the navigation bar, click **Sources**.
+[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-sources.md)]
 
 The Data sources page consists of three sections:
 
