@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Setup -- Validate and verify data
-description: Setup step to validate and verify data for uploading to Workplace Analytics. 
+title: Three ways to assign Office 365 licenses
+description: Links to instructions and to videos that describe how to assign licenses using the Office 365 Admin Center, PowerShell, and Group-based licensing. 
 author: paul9955
-ms.author: v-leash
-ms.date: 04/19/2018
+ms.author: v-pascha
+ms.date: 07/09/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
