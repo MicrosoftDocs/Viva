@@ -41,7 +41,7 @@ Here are the prerequisites for using solutions:
 
 ## Workplace Analytics solution for teamwork playbook 
 
-Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) that will provide tips on how to best use  Workplace Analytics solutions to achieve maximum benefit for your organization.
+Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), which provides tips on how to best use Workplace Analytics solutions to achieve maximum benefit for your organization.
 
 ## Solutions: Frequently asked questions
 
