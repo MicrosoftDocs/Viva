@@ -39,6 +39,10 @@ Here are the prerequisites for using solutions:
    > [!Note] 
    > One person can be assigned both the Analyst and Program manager roles.
 
+## Workplace Analytics solution for teamwork playbook 
+
+Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) to learn more about the ideas behind Workplace Analytics solutions, the benefits they can help your team attain, and the steps involved in creating a program for improvement in workplace collaboration.  
+
 ## Solutions: Frequently asked questions
 
 ### Questions about roles and access
