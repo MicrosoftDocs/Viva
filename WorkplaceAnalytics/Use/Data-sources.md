@@ -4,7 +4,7 @@
 
 title: Workplace Analytics Data Sources
 description: This article gives an overview of the Data sources feature in Workplace Analytics. 
-author: rodonahu
+author: buntus
 ms.author: rodonahu
 ms.date: 01/19/2018
 ms.topic: get-started-article

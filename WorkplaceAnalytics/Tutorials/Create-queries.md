@@ -4,15 +4,13 @@
 
 title: Create queries in Workplace Analytics
 description: How to create custom queries in Workplace Analytics. 
-author: madehmer
+author: buntus
 ms.author: v-midehm
 ms.date: 06/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
-
-[!INCLUDE [To open the Workplace Analytics Queries page](../includes/to-open-wpa-queries.md)]
 
 # Queries overview
 

@@ -4,7 +4,7 @@
 
 title: Explore the overview of popular metrics in Workplace Analytics
 description: This topic gives an overview the popular metrics in the week in the life dashboards in Workplace Analytics.
-author: rodonahu
+author: buntus
 ms.author: rodonahu
 ms.date: 01/19/2018
 ms.topic: get-started-article
@@ -14,15 +14,12 @@ ms.prod: wpa
 # Week in the life
 **Week in the life** provides a summary of weekly collaboration in the organization. You can use this section as a starting point to explore more in-depth metrics and reports.
 
-![Week in the life](../images//WpA/Use/week-in-the-life-explore.png)
-
-
 [!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
-
-
 
 ## All collaboration hours
 All collaboration hours are the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s configured business hours. 
+
+![Week in the life](../images//WpA/Use/week-in-the-life-explore.png)
 
 **Meeting hours** is the number of hours the person spent in meetings with at least one other person. **Email hours** is the number of hours the person spent sending and reading email.
 
