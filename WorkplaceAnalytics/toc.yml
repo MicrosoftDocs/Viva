@@ -23,9 +23,7 @@
           - name: Prepare organizational data
             href: ~/Setup/Prepare-organizational-data.md
           - name: Upload organizational data
-            href: ~/Setup/Upload-organizational-data.md     
-  #        - name: Prepare and upload organizational data
-  #          href: ~/Setup/Prepare-and-Upload-organizational-data.md                     
+            href: ~/Setup/Upload-organizational-data.md                         
           - name: Data sources
             href: ~/Use/Data-Sources.md
           - name: Assign group-based licenses
@@ -69,7 +67,16 @@
           - name: Person-to-group queries
             href: ~/Tutorials/Person-to-group-queries.md            
           - name: Query auto-refresh option
-            href: ~/Tutorials/Query-auto-refresh.md            
+            href: ~/Tutorials/Query-auto-refresh.md  
+          - name: Solutions
+            href: ~/Tutorials/Solutions-intro.md  
+            items: 
+              - name: Solutions - Walkthrough    
+                href: ~/Tutorials/Solutions-task.md 
+              - name: Solutions - Participants
+                href: ~/Tutorials/Solutions-participants.md                                       
+              - name: Solutions - Concepts
+                href: ~/Tutorials/Solutions-conceptual.md                                  
       - name: Reference
         items:
           - name: Glossary
@@ -84,9 +91,6 @@
       items:
         - name: Download a query report in UTF-8 format
           href: ~/Tutorials/Download-UTF8-query-report.md
-        - name: Workplace Analytics tool 500 error
-          href: ~/Tutorials/Wpa-tool-500-error.md
-  
     - name: Get support
       href: ~/Overview/Getting-Support.md
 - name: MyAnalytics
