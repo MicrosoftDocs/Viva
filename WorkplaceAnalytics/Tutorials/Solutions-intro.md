@@ -47,9 +47,9 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 
 ### Questions about roles and access
 
-**Question 1:** Why don't I see the solutions area?
+**Question 1:** Why don't I see the Solutions page?
 
-**Answer 1:** You can see the solutions area only if you've been assigned the role of program manager or the role of analyst. 
+**Answer 1:** You can see the Solutions page only if you've been assigned the role of program manager or the role of analyst. 
 
 **Question 2:** Why do I see the Identify page but not the Manage and Track pages?
 
