@@ -36,7 +36,7 @@ An analyst may start by looking at a [Person query](#person-query) to see trends
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [Meeting query](#meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a [Groups query](#groups-query)  to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
+Additionally, the analyst could create a [Group query](#group-query) to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
 
 There are three ways to create queries:
 
@@ -187,7 +187,7 @@ Each row of data represents a single meeting, and Meeting query results always c
 1|3/1/2017 5:00PM|1|No|No|10|Process Meeting|10
 2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
 
-## Group queries
+## Group query
 
 Workplace Analytics offers two kinds of queries that report information about collaboration with groups. See the following topics for more information:
 
