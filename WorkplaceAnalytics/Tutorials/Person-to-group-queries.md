@@ -3,7 +3,7 @@
 # required metadata
 
 title: Person-to-group queries in Workplace Analytics
-description: Person-to-group queries uncover how an individual invested their time across the rest of the organization and beyond.  
+description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond.
 author: madehmer
 ms.author: v-midehm
 ms.date: 06/13/2018
@@ -17,6 +17,9 @@ ms.prod: wpa
 Person-to-group queries in Workplace Analytics give results that help you understand how an individual invests their time across the rest of the organization and beyond. The query results list individuals (the "time investors") by their PersonIDs, one or more groups that you define in the query ("collaborators"), and the amount of time that the time investor spends with the groups that you define.
 
 ![Time investors allocate time to various groups](../Images/WpA/tutorials/p2g-query.png)
+
+> [!Note] 
+> Because individuals are assigned a randomly generated PersonID to maintain de-identification, there is no way to identify an individual in the output of a query.
 
 ## Overview of time allocation
 

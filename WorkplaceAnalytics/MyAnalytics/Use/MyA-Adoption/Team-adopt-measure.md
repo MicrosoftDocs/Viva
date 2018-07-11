@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyA Teams Adoption -- Measure
-description: MyA Teams Adoption by Kate Nowak -- Measure section
+title: MyAnalytics Team Adoption --Measure
+description: MyAnalytics Team Adoption by Kate Nowak --Measure section
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/27/2018

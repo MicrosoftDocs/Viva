@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics metric definitions 
-description: This article describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group metrics. 
+description: Describes the metrics for queries available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics. 
 author: madehmer
 ms.author: paul9955
 ms.date: 06/13/2018
@@ -61,7 +61,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
-|Attendee meeting hours|Total number of adjusted meeting hours for all attendees.|Meeting|Hour|No|
+|Attendee meeting hours|Total number of adjusted meeting hours for all attendees.<br>A _meeting query_ focuses on the meeting as the main entity and reports on the various meeting attributes; a _person query_ looks from a person's perspective and aggregates multiple meetings for the selected time period. Because the two query types have different purposes, their output also differs. |Meeting|Hour|No|
 |Attendees|Number of people who attended the meeting.|Meeting|Count|No|
 |Attendees multitasking|Number of attendees that sent emails during the meeting.<ul><li>In meetings of one hour or less, two or more emails.</li><li>In meetings longer than one hour, two emails per hour. (Example: Sending four emails during a two-hour meeting would count as multitasking.)</li></ul>|Meeting|Count|No|
 |Attendees with conflicting meeting|Number of attendees with meetings that overlap with the meeting (includes all non-declined meetings).|Meeting|Count|No|
@@ -74,6 +74,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
 |Email hours allocated|Number of hours spent sending emails between the user-defined groups.|Group|Hour|No|
+|Group-generated workload meeting hours|Number of meeting hours the group created for other user-defined groups by organizing meetings.|Group|Hour|No|
 |Meeting hours allocated|Number of meeting hours spent between the user-defined groups.|Group|Hour|No|
 |Meetings attended together|Number of distinct meetings with at least one attendee from each user-defined group.|Group|Count|No|
 |Total attendees|Total number of attendees in all meetings from each user-defined group.|Group|Count|No|

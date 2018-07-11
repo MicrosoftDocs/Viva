@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Email hours
-description: How the time you spend in email affects your stats. 
+title: How MyAnalytics uses email hours 
+description: How the time you spend in email affects your statistics and how MyAnalytics uses this data. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018

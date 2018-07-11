@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Data-protection considerations when using Workplace Analytics (short) 
-description: Data-protection considerations (GDPR) summary -- shortened version
+title: Data-protection considerations summary when using Workplace Analytics 
+description: Data-protection considerations summary for Workplace Analytics
 author: paul9955
 ms.author: v-pascha
 ms.date: 04/09/2018

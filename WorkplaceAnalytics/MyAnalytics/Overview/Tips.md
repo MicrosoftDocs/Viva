@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics Tips
-description: Various ways to spend your time better, and how MyAnalytics can help you in that goal.
+title: Tips on how to use MyAnalytics to reach your work goals
+description: How MyAnalytics can help you with your work goals.
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018
@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-# MyAnalytics Tips  
+# MyAnalytics tips  
 
 Use these tips to learn how to spend your time better and focus on what's important in your work. Not all tips are for everyone. What you can and should do always depends on your role and the organization you work in. 
 

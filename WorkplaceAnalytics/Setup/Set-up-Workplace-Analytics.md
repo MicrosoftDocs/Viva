@@ -5,7 +5,7 @@
 title: Workplace Analytics Setup Checklist
 description: Complete the steps in this checklist to implement Workplace Analytics in your organization
 author: paul9955
-ms.author: v-leash
+ms.author: madehmer
 ms.date: 04/26/2018
 ms.topic: get-started-article
 localization_priority: normal 
@@ -31,7 +31,7 @@ To prepare for setting up Workplace Analytics, review the following article:
 
 ## Setup tasks
 
-To set up Workplace Analytics, complete the tasks in this checklist: 
+To set up Workplace Analytics, complete the following tasks: 
 
 | | Task | Owners | Outcome |
 |---|------|-------|---------|

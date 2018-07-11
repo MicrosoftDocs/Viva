@@ -3,7 +3,7 @@
 # required metadata
 
 title: MyAnalytics FAQ
-description: MyAnalytics FAQ
+description: Frequently asked questions about MyAnalytics
 author: paul9955
 ms.author: v-pascha
 ms.date: 04/10/2018
@@ -13,7 +13,7 @@ ms.prod: mya
 localization_priority: Once
 ---
 
-# MyAnalytics: Frequently asked questions
+# Frequently asked questions for MyAnalytics
 
 The following questions and answers are grouped by role, for [MyAnalytics users](MyA-faq.md#for-myanalytics-users) and for [IT administrators](MyA-faq.md#for-it-administrators).  
 
@@ -60,19 +60,19 @@ For more details, see Privacy [link to privacy docs]
 
 ### Meetings
 
-#### Does “Meeting Hours” include time that I block out for personal work on my calendar? 
+#### Do “Meeting Hours” include time that I block out for personal work on my calendar? 
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting hours. 
 
 ### Email
  
-#### Does “Email Hours” count emails that I read or send on my mobile device, even if it’s the default iPhone app? 
+#### Do “Email Hours” count emails that I read or send on my mobile device, even if it’s the default iPhone app? 
 
 Yes. We calculate email hours based on how many emails you read and send (as well as the time at which they are read and sent). For more information, see [Email hours](../Use/MyA-Dashboard/MyA-DB-Emails.md). 
 
 ### Focus hours
  
-#### Does “Focus hours” exclude time that I block out for personal work on my calendar? 
+#### Do “Focus hours” exclude time that I block out for personal work on my calendar? 
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus hours. For more information, see [Focus hours](../Use/MyA-Dashboard/MyA-DB-Focus-hours.md). To exclude focus hours, right-click the appointment and set Show As to “Out of Office." 
  
@@ -113,7 +113,7 @@ You can track your teams progress if the team has conducted a program to change 
 
 The [to-do cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook add-in are available only in English.
  
-#### Can I obtain email read rates for shared or secondary mailboxes? 
+#### Can I get email read rates for shared or secondary mailboxes? 
 
 MyAnalytics does not use data from shared or secondary mailboxes. 
  
