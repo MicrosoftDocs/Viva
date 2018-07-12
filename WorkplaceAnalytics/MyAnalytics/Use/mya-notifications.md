@@ -5,7 +5,7 @@ title: MyAnalytics nudges in Outlook
 description: This articles describes MyAnalytics nudges in Outlook and how they work.
 author: buntus
 ms.author: patboony
-ms.date: 07/07/2018
+ms.date: 07/12/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -17,22 +17,22 @@ ms.prod: mya
 MyAnalytics nudges in Outlook (or MyAnalytics nudges) are brief, data and AI-driven notifications that appear in Microsoft Outlook while you are either reading or composing an email or a meeting invitation.  
 
 MyAnalytics nudges can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you to reclaim focus hours and build better collaboration habits, in addition to other practical benefits. See the
-[MyAnalytics nudges](#MyAnalytics-nudges) table.
+[MyAnalytics nudges](#myanalytics-nudges) table.
 
 ## How MyAnalytics nudges work 
 MyAnalytics nudges are seamlessly integrated into Outlook for Windows and Outlook on the web. MyAnalytics can display nudges in two ways: 
 
-1.  While composing a meeting invitation or an email:
+1.  While composing a meeting invitation or an email.
 
  ![Nudges meeting image 01](../../Images/nudges-meeting-01.png)
 
- In this example, the nudge is shown at the top of an email, reminding you of the after-hours impact you’ve generated for your colleagues. The nudge suggests that you make clear just how urgent this email is, so that recipients know if it can wait until working hours. Alternatively, you can hide the nudge temporarily by selecting **Dismiss this message**. 
+ In this example, the nudge is shown at the top of an email, reminding you of the after-hours impact you’ve generated for your colleagues. The nudge suggests that you clarify the email's urgency, so that recipients know if it can wait until working hours. Alternatively, you can hide the nudge temporarily by selecting **Dismiss this message**. 
 
-2. While reading an email or a calendar invitation: 
+2. While reading an email or a calendar invitation. 
 
    ![Nudges email image 02](../../Images/nudges-email-02.png)
 
-While reading an email, this nudge reminds you of a potential outstanding to-do for the email sender. Selecting the link takes you to the MyAnalytics Add-in, which shows the list of to-do items. 
+While reading an email, this nudge reminds you of a potential outstanding to-do item for the email sender. Selecting the link takes you to the MyAnalytics Add-in, which shows the list of to-do items. 
  
 ![Nudges meeting image 03](../../Images/nudges-meeting-summary_03.png)
 
@@ -40,21 +40,15 @@ While reading an email, this nudge reminds you of a potential outstanding to-do 
 ## Why don’t I see any MyAnalytics nudges? 
 MyAnalytics nudges will start appearing for licensed MyAnalytics users in summer 2018 in the latest version of Outlook. Talk to your administrator about upgrading your Outlook version.
 
-Nudges are available while reading mail in: 
-   - Outlook on the web for Office 365 
-   - Outlook on Windows: builds later than 8413 
-       - Office 365 ProPlus Monthly Channel 
-       -  Office 365 ProPlus Semi-Annual Channel (Targeted)  
-       -  Office 365 ProPlus Semi-Annual Channel 
+MyAnalytics nudges are available in the latest versions of Outlook for the web with Office 365 licenses this summer 2018. Only nudges while reading email and meetings are available at this time. In the coming months, both nudges while reading and composing email and meetings will begin to roll out to Outlook for Windows. 
 
->[!Note]
->Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android. These will be coming soon. 
-
+>[!Note] 
+> Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
 
 MyAnalytics nudges use a technology called Actionable Messages. For more details on the rollout and availability, including version and build numbers, please see: [Actionable messages](https://docs.microsoft.com/outlook/actionable-messages/)
  
-Nudges are available while composing mails and meetings in: 
- - Outlook for Windows: builds later than 9223 
+Nudges are available while composing email and meetings in: 
+ - Outlook for Windows (builds later than 9223) 
      - Office 365 ProPlus Monthly Channel 
 
 ## Providing feedback 
@@ -74,11 +68,11 @@ You can always provide overall feedback by selecting the smiley face in the uppe
 
      ![Nudges email image 06](../../Images/nudges-reply-all-06.png)
 
-2. Select the gear icon to access **Settings**.
+2. Select the gear icon to access Settings.
 
    ![Nudges email image 7](../../Images/nudges-email-07.png)
 
-3.  Toggle **Outlook notifications** to “Off" and then select **Close Settings**. 
+3.  In **Settings**, turn Outlook notifications to **Off**, and then select **Close Settings**.
 
     ![Nudges email image 8](../../Images/nudges-email-08.png)
 
