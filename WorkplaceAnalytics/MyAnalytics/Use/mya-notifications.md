@@ -20,7 +20,7 @@ MyAnalytics nudges can help boost your productivity and that of your team by dis
 [MyAnalytics nudges](#myanalytics-nudges) table.
 
 ## How MyAnalytics nudges work 
-MyAnalytics nudges are seamlessly integrated into Outlook for Windows and Outlook on the web. MyAnalytics can display nudges in two ways: 
+MyAnalytics can display nudges in two ways: 
 
 1.  While composing a meeting invitation or an email.
 
@@ -38,18 +38,7 @@ While reading an email, this nudge reminds you of a potential outstanding to-do 
 
 
 ## Why don’t I see any MyAnalytics nudges? 
-MyAnalytics nudges will start appearing for licensed MyAnalytics users in summer 2018 in the latest version of Outlook. Talk to your administrator about upgrading your Outlook version.
-
-MyAnalytics nudges are available in the latest versions of Outlook for the web with Office 365 licenses this summer 2018. Only nudges while reading email and meetings are available at this time. In the coming months, both nudges while reading and composing email and meetings will begin to roll out to Outlook for Windows. 
-
->[!Note] 
-> Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
-
-MyAnalytics nudges use a technology called Actionable Messages. For more details on the rollout and availability, including version and build numbers, please see: [Actionable messages](https://docs.microsoft.com/outlook/actionable-messages/)
- 
-Nudges are available while composing email and meetings in: 
- - Outlook for Windows (builds later than 9223) 
-     - Office 365 ProPlus Monthly Channel 
+MyAnalytics nudges are available in the latest versions of Outlook for the web with Office 365 licenses this summer 2018. Only nudges while reading email and meetings are available at this time. In the coming months,both nudges while reading and composing email and meetings will begin to roll out to Outlook for Windows. Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
 
 ## Providing feedback 
 You can provide feedback for each nudge by using the feedback control at the bottom of the MyAnalytics Add-in screen. If you send a thumbs down, we’ll show you less of that nudge. 
