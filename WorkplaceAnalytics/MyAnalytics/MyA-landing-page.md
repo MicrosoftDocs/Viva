@@ -23,6 +23,8 @@ MyAnalytics provides insight into two of the key factors in personal productivit
          <li><a href="../myanalytics/use/dashboard.md">MyAnalytics personal dashboard</a>: In the dashboard, you see statistics on how  you've spent your time over the past week.</li>
          <li><a href="../myanalytics/use/add-in.md">Outlook add-in</a>: The Outlook add-in presents you with cards that  report on aspects of your recent work experience and let you respond in various ways.</li>
          <li><a href="../myanalytics/use/email-digests.md">Email digests</a>: You receive a weekly digest in email that gives you highlights about your previous week.</li> 
+        <li><a 
+        href="../myanalytics/use/mya-notifications.md">Nudges in Outlook</a>: Contextual, data driven recommendations to help you build better work habits. </li>
       </ul>
   </li>
   &nbsp;
