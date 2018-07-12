@@ -120,6 +120,8 @@
           href: MyAnalytics/Use/add-in.md
         - name: Email digests
           href: MyAnalytics/Use/email-digests.md
+          name: MyAnalytics nudges
+          href: MyAnalytics/Use/mya-notifications.md
       - name: MyAnalytics tips
         href: MyAnalytics/Overview/Tips.md    
       - name: Adopt MyAnalytics
