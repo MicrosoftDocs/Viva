@@ -4,7 +4,7 @@
 
 title: Workplace Analytics Data Sources
 description: This article gives an overview of the Data sources feature in Workplace Analytics. 
-author: rodonahu
+author: buntus
 ms.author: rodonahu
 ms.date: 01/19/2018
 ms.topic: get-started-article
@@ -17,9 +17,11 @@ Data sources contains high-level dashboard views that Workplace Analytics admini
 
 ![Data sources](../images/WpA/Use/Data-sources.png)
 
-### To view the Data sources metrics
 
-* On the navigation bar, click **Sources**.
+<br/>
+
+
+[!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
 
 The Data sources page consists of three sections:
 
@@ -88,3 +90,5 @@ This is the percentage of measured employees who have a value specified for the 
 
 ### Unique values
 This is the count of the unique attribute values included in the data. For example, if the attribute Region contains North, South, Central, East, West and Southwest, it’s unique values count is 6.
+
+</br>
