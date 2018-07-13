@@ -4,7 +4,7 @@
 
 title: Person-to-group queries in Workplace Analytics
 description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond.
-author: madehmer
+author: paul9955
 ms.author: v-midehm
 ms.date: 06/13/2018
 ms.topic: get-started-article
@@ -54,7 +54,9 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
     * **Meeting count** and **Meeting hours** give you, respectively, the number of meetings in which the time investor and the collaborators participated, and the number of hours the time investor spent in meetings.
 
-    * **Network size** tells you how many unique people the time investor was in contact with in the selected collaboration group over the selected time period.
+    * **Network size** tells you how many unique people the time investor had meaningful interactions with in the selected collaboration group over the selected time period.
+
+   For more information about these metrics, see [Person-to-group metrics](../use/metric-definitions.md#person-to-group-metrics). 
 
     In the following sections, you determine other aspects of the character of your query by choosing how to group both the time investors and the collaborators. For example, you could examine how senior leaders allocated time across different organizations by setting the time investors' group to “level” and the collaborators' group to “organization.”
 
@@ -76,3 +78,4 @@ While setting up a person-to-group query differs from setting up meeting or grou
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
 10. Choose **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it (in .csv file format), or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) that you can use in a visualization tool such as Power BI.
+
