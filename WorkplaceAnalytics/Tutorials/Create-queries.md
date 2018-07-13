@@ -4,7 +4,7 @@
 
 title: Create queries in Workplace Analytics
 description: How to create custom queries in Workplace Analytics. 
-author: madehmer
+author: buntus
 ms.author: v-midehm
 ms.date: 06/13/2018
 ms.topic: get-started-article
@@ -17,6 +17,8 @@ ms.prod: wpa
 You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**.
 
 ![Ways to query data](../Images/WpA/Use/Ways-to-query-data-Create-queries.png)
+
+[!INCLUDE [To open the Workplace Analytics Queries page](../includes/to-open-wpa-queries.md)]
 
 Each query type can help answer specific questions you may be investigating. The different query types give you flexibility to look at data from multiple perspectives to generate insights. You can also use the query types together to gain even more powerful insights.
 
@@ -247,3 +249,4 @@ Operations|Engineering|3/12/2017|20
 
 ### Related topic
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
+
