@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: To open the Outlook add-in
-description: How-to steps -- Open the Outlook add-in. 
+title: To open the MyAnalytics Outlook add-in 
+description: How to open the MyAnalytics Outlook add-in. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/20/2018
@@ -24,5 +24,5 @@ ms.prod: mya
 
 *In Outlook Web App*
 
- 1. For Outlook Web App (OWA), open an email message.
+ 1. For Outlook Web App, open an email message.
  2. Select the MyAnalytics icon in the top-right corner of your email message, next to the Reply button. 

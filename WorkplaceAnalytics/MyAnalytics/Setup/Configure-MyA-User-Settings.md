@@ -3,7 +3,7 @@
 # required metadata
 
 title: Configure MyAnalytics user settings
-description: Set user settings. These are part of the MyA setup checklist. 
+description: Configure MyAnalytics settings for new users. 
 author: rodonahu
 ms.author: v-pascha
 ms.date: 01/19/2018

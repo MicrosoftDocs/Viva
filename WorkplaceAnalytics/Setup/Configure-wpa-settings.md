@@ -37,7 +37,7 @@ For a complete list of valid times zones, see [Time zones in Workplace Analytics
 
 Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours in organizational data, a Workplace Analysis administrator can set default working days and working hours for the organization on the System defaults area of the Settings page:
 
-![System defaults area of Settings page](../images/wpa/setup/settings-system-defaults.png)
+![System defaults area of Settings page](../images/wpa/setup/settings-system-defaults-a.png)
 
 These admin-configured default settings are used for a particular user only if the user has not already configured their working days and hours.
 

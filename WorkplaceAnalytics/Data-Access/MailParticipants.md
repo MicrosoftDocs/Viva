@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: MailParticipants table (WPA Data Access)
 description: One row for every email sent, and every email received
 author: gbowerman

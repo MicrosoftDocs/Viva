@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Open the Outlook Add-in
-description: Open the Outlook Add-in 
+title: Open the Outlook Add-in for MyAnalytics
+description: Open the Outlook Add-in for MyAnalytics
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/20/2018
@@ -14,7 +14,7 @@ ms.prod: mya
 
 ## Open the MyAnalytics Outlook add-in
 
-The MyAnalyticsOutlook add-in is automatically enabled for all users who have the MyAnalytics license.
+The MyAnalytics Outlook add-in is automatically enabled for all users who have the MyAnalytics license.
 
 [!INCLUDE [Open the Outlook add-in](../../Includes/to-open-outlook-add-in.md)]
 

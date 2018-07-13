@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Focus Hours
-description: How we calculate your focus hours. 
+title: Focus hours in MyAnalytics
+description: How MyAnalytics calculates your focus hours. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/14/2018

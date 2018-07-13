@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics Setup Checklist
-description: Complete the steps in this checklist to implement MyAnalytics in your organization
+title: MyAnalytics setup checklist
+description: Complete the steps in this checklist to implement MyAnalytics in your organization.
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/26/2018
