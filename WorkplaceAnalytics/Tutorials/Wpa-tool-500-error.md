@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-## Workplace analytics 500 error
+## Workplace Analytics 500 error
 
 **I am receiving a 500 Error when I try to access Workplace Analytics**.
 
@@ -32,3 +32,4 @@ Users will see this error message when they have just purchased their tenants fo
 **Escalation Process** 
 
 To escalate this issue, assign it to the Workplace Analytics team by visiting the [Microsoft support](https://docs.microsoft.com/workplace-analytics/overview/getting-support) page and selecting the Workplace Analytics Fast Track or MSFT Support links.
+
