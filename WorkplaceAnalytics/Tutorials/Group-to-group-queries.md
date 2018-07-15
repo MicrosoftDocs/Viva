@@ -2,252 +2,146 @@
 # Metadata Sample
 # required metadata
 
-title: Create queries in Workplace Analytics
-description: How to create custom queries in Workplace Analytics. 
-author: buntus
-ms.author: v-midehm
-ms.date: 06/13/2018
+title: Group-to-group queries in Workplace Analytics
+description: Group-to-group queries uncover how a team invested their time across the rest of the organization and beyond with Workplace Analytics.  
+author: paul9955
+ms.author: rodonahu
+ms.date: 07/15/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Queries overview
+# Group-to-group queries
 
-You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**.
+Group-to-group queries in Workplace Analytics give results that help you understand how a team invested their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by an organizational attribute of your choosing, along with how much time people in the first group (the "time investors") allocated to other groups ("collaborators").
 
-![Ways to query data](../Images/WpA/Use/Ways-to-query-data-Create-queries.png)
+![Group A allocates time to Group B](../Images/WpA/tutorials/Group-query1.png) 
 
-[!INCLUDE [To open the Workplace Analytics Queries page](../includes/to-open-wpa-queries.md)]
+## Overview of time allocation
 
-Each query type can help answer specific questions you may be investigating. The different query types give you flexibility to look at data from multiple perspectives to generate insights. You can also use the query types together to gain even more powerful insights.
+An understanding of time allocation helps you create better group queries. The details of time allocation are complicated. Here is a summary of the basic concepts: 
 
-## Meeting exclusions
+* Time allocation measures how groups spent their time. For each interaction (a meeting attended or an email sent or received), the total time that one group spent on the interaction is divided among the other groups that participated.
+* A time investor allocates their time among the other participants in the interaction (the collaborators) in proportion to how many people are in the collaborator group for that interaction.
+* A group query can analyze time allocation only for employees in the population of measured employees, namely those who are licensed for Workplace Analytics. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.
+* The time-allocation approach assumes that a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email.
 
-You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
+The following illustration depicts these concepts:
 
-### Related topics
+ ![Principles of time allocation](../Images/WpA/Tutorials/principals-of-time-allocation.png)
 
-[Understand meeting exclusions](../Use/Understand-meeting-exclusions.md)
-
-[Create custom meeting exclusions rule](../Use/Create-custom-meeting-exclusions-rules.md)
-
-## Business scenario
-
-An analyst may start by looking at a [Person query](#person-query) to see trends of employees across the company related to meeting collaboration.
-
-If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [Meeting query](#meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
-
-Additionally, the analyst could create a [Groups query](#groups-query)  to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
-
-There are three ways to create queries:
-
-* Use and edit pre-defined query templates
-* Create custom queries from scratch
-* Open and edit a previously run query
-
-When you create or edit a query, you will select the metrics that you want to include (many can be customized), and you can use filters to narrow the results and drill down on specific data of interest.
-
-![Customize attributes and metrics](../Images/WpA/Use/Customize-attributes-and-metrics-Create-queries.png)
-
-The following examples contain the steps to create custom **Person**, **Meeting**, and **Group** queries, as well as the steps to select and edit a query template.
-
-## Person query
-
-Use a Person query when you want to find broader trends in the organization by looking at aggregated metrics for a group of people.
-
-Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person, and you can select to aggregate the results by day, week, or month.
-
-### How to create a Person query
-
-During the process of creating a Person query, you will answer three questions:
-
-1. Who (what type or group of people) do I want to analyze? (Filters)
-2. What time frame do I want to analyze? (Group by and Date range)
-3. What data do I want to know about these people for that period? (Metrics)
-
-### Available data
-
-Using a Person query, you can query the organizational data that was imported to Workplace Analytics by your company. Most organizational data comes from a company’s human resources information system.
-
-Examples include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, manager, and so on.
-
-### Business scenario example of long meetings
-
-You can create a Person query to investigate if long meetings are a significant factor in the total number of meeting hours for Operations. The following custom query uses metrics and filters to customize the data.
-
-**Query criteria**
-
-* Time frame: Shows the data aggregated weekly
-* Who: Filters on Operations
-* What data: Metrics
-  * Meeting hours are the total of all meeting hours
-  * Long meeting hours that include long meetings that last 2 or more hours
-  * Meetings is the total number of meetings
-  * Emails sent is the total number of emails sent
-
-### To create a custom Person query
-
-1. On the Queries page, select **Person**.
-2. In the **Enter query name here** box, enter **Operations long meetings**.
-3. In the **Group by** menu, select **Week**, select the **Date range** you want, and in the **Meeting exclusions** menu, select the exclusion rule set that you want.
-4. In the **Filters** section, select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
-5. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
-6. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
-
-    a. To customize the Long meeting hours metric, select the Edit icon.
-
-    b. Choose **Add filter**.
-
-    c. In the **Long meeting hours where** section, select **Meeting**, select **Duration­Hours > >= > 2**, and then select **Confirm**.
-
-7. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
-8. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
-
-    > [!Notes]
-    > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
-    > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
-    > * To make sure you have a line of data for every person/date combination for the metrics, add **Emails sent** as one of your metrics.
-    > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics includes all person/date combinations.
-
-9. Choose **Run query**.
-10. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
-
-**Person query results include the following columns**
-
-* Person ID: De-identified ID number for the person represented in the metric.
-* Date: The start date of the aggregation (i.e. if the week is 6/3 to 6/10, then it is 6/3. If it is a month, then it is the start of the month your data encompasses).
-* Person Attributes: Each of the person attributes in the data set supplied by the organizational data.
-* Metrics: Any other metrics that you included in the query.
-
-**Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Metrics - Email hrs**|**Metrics Meeting hrs**
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-A|3/1/2017|HR|Administrator|5|11
-B|3/1/2017|Marketing|Executive|4|14
-
-## Meeting query
-
-Meeting query results show a list of all the meetings that meet the criteria you select when creating the query. Each row of data represents a single meeting. Use a Meeting query when you want to analyze individual meetings to find the broader meeting patterns within your company or organization.
-
-### How to create a Meeting query
-
-In the basic process to create a Meeting query, you will answer three questions:
-
-1. What meeting properties do I want to analyze? (Filters section)
-2. What time frame do I want to analyze? (Date range section)
-3. What data do I want to know about those meetings for that period? (Metrics section)
-
-### Available data
-
-Using a Meeting query, you can query on the calendar metadata available from Office 365 for your company. Examples include: Attendee meeting hours, attendees, invitees, emails sent during meetings and so forth.
-
-### Example: Business scenario – Long meetings, recurring
-
-Continuing the example from the Person section above, to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a Meeting query using the following criteria:
-
-* Time frame: Show the data aggregated weekly
-* Meeting properties: Filters
-  * Meetings include at least one person from Operations as attendee
-  * Long meetings are two hours or more
-  * Meeting are recurring
-* What data: Metrics
-* Attendees
-* Attendee meeting hours
-
-### To create a custom Meeting query
-
-1. On the Queries page, select **Meeting**.
-2. In the **Enter query name here** box, enter “Ops long recurring meetings.”
-3. Enter the **Date range** you want, and then in the **Meeting exclusions** menu, select the exclusion rule set that you want.
-4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > **Equals** > **Operations**.
-5. To add a custom filter to include only meetings that are two hours or longer, point to the plus sign, select **Meeting**, and then select **DurationHours** > **>=** > **2**.
-6. To add a custom filter to include only meetings that are recurring, point to the plus sign, select **Meeting**, and then select **IsRecurring** > **=** > **True**.
-7. To add a metric for the number of attendees, in Metrics, select **Add metric** and select **Attendees**, and then edit the display name to 'Total attendees'.
-8. To add a metric for the total meeting hours of attendees, select **Add metric** and select **Attendee meeting hours**, and then edit the display name to 'Total attendee meeting hours.'
-9. Choose **Run query**.
-10. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
-
-### Meeting query results include these columns
-
-Each row of data represents a single meeting, and Meeting query results always contain the following information in columns.
-
-* Meeting ID – Unique ID number of the specific meeting
-* Start Date and Time – When the meeting started
-* Duration Hours – The length of the meeting in hours
-* Is Recurring – Whether the meeting is part of a recurring series, or not
-* Is Cancelled – Whether the meeting was cancelled, or not
-* Total Number of Emails Sent During Meeting – Number of emails sent by attendees during the meeting
-* Subject – Subject line of the meeting
-* Total Accepted – Number of invitees who accepted the meeting
-* Total Declined – Number of invitees who declined the meeting
-* Total Number of No Responses – Number of invitees who did not respond
-* Total Number of Double-Booked – Number of invitees who were double-booked
-* Metrics – Any other metrics that you included in the query
-
-**Meeting ID**|**Start Date**|**Duration Hours**|**Is Recurring**|**Is Cancelled**|**Total # of emails sent during meeting**|**Subject**|**Metrics - Number of Attendees**
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-1|3/1/2017 5:00PM|1|No|No|10|Process Meeting|10
-2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
-
-## Group queries
-
-Workplace Analytics offers two kinds of queries that report information about collaboration with groups. See the following topics for more information:
-
-[Group-to-group queries](Group-to-group-queries.md)
-
-[Person-to-group queries](Person-to-group-queries.md)
-
-
-<!-- OLD CONTENT 
-Group query results show the collaboration between two groups quantified by the productivity metrics (such as time spent in meetings and email) that you select. Each row shows the metrics that quantify the interactions of the two groups. You can aggregate group query results by day, week, or month.
-Use a group query if you want to analyze how different groups are collaborating.
-There are two types of metrics:
-* Count: The total number of instances of the metric.
-* Hour: The total number of hours for the metric (for example, meeting hours)
-## Time allocation
-To ensure that meeting hours in a group query are allocated to each group as an accurate representation of how the groups work together (and are not double-counted), the hours metrics are calculated using a specialized approach called time allocation. Time allocation is the logic used to define how the time of members from one group is distributed among the members of other groups that are in the metric being measured (for example, a meeting).
-
-### How to create a Group query
-In the basic process to create a Group query, you will answer these questions:
-* What time frame do I want to analyze? (Date range section)
-* What group do I want to analyze - Group A? (Groups section)
-* What other group, Group B, do I want to compare with Group A?  (Groups section)
-* Do I want to view metrics based on count or hours? (Metrics)
-* Optional - Do I want to further limit the population included in the results? (Groups section)
-
-### Example: Business scenario – How many meetings did Operations and Engineering attend together
-You can create a Group query to identify how Operations is collaborating with another group, in this example, Engineering. This query will identify how many meetings Operations and Engineering attended together.
-
-Query criteria
-* Time frame: Show the data aggregated weekly
-* Groups to compare: Operations and Engineering
-* Metrics: Count
-
-### To create a custom Group query
-1. On the **Queries** page, click **Group**.
-2. In the **Enter query name here** box, enter Ops Engineering collaboration.
-3. In the **Group by** menu, select **Week**, and then select the **Date range** you want, and in the Meeting exclusions menu, select the exclusion rule set that you want.
-4. Under **Groups**, click **Group A**, and then in the **Attribute** menu, select **Function**.
-5. Under **Filters**, click **Add filter**, then in the filter menus, select **Function > Equals > Operations**.
-6. Click **Group B**, and then in the **Attribute** menu, select **Function**.
-7. Under **Filters**, click **Add filter**, then in the filter menus, select **Function > Equals > Engineering**.
-8. To create a query that shows how many meetings Ops and Engineering attended together, under **Metrics**, make sure the toggle button is set to **Count**. The **Meetings attended together**, **Total attendees**, and the **Total invitees** metrics appear.
-9. Optional: To further limit population included in the results, click **Limit population**, and then select the filter values that you want.
-10. Click **Run query**.
-
-**Group query results include the following columns:**
-* Group A – The group you selected as Group A.
-* Group B – The group you selected as Group B.
-* Date – The start date of the aggregation (i.e. if the week is 6/3 to 6/10, then it is 6/3. If it is a month, then it is the start of the month your data encompasses.)
-* Metrics – Any other metrics that you included in the query such as meetings attended together, total attendees, and so on.
-
-**Group A**|**Group B**|**Date**|**Meetings attended together**
-:-----:|:-----:|:-----:|:-----:
-Operations|Engineering|3/5/2017|12
-Operations|Engineering|3/12/2017|20
+<!-- Per Dheepak, this pptx is not for public consumption 
+> [!Note]  
+> For more information, see the time allocation tutorial, which explains the logic and works through several examples. 
 -->
 
-### Related topic
-[View, download, and export query results](../Use/View-download-and-export-query-results.md)
+## Create a group-to-group query
+
+While setting up a group query differs markedly from setting up meeting or person queries, some of the options you set, such as for time-period aggregation, time range, and meeting-exclusion rules, are the same as for meeting and person queries. To set up a group-to-group query, follow these steps: 
+
+**To create a group-to-group query**
+
+1. In Workplace Analytics, select **Queries** and then select **Group-to-group**.
+2. Type a name for the query, and optionally, type a description.
+3. For Group by, select a time-grouping option -- day, week, or month.
+4. Select a date range. The query will analyze only those group-to-group interactions that took place during this date range.
+5. Select a set of meeting exclusions. The query will ignore meetings that are filtered out by the meeting exclusions that you choose. 
+
+   Move on to the Select metrics section:
+
+   ![Select metrics](../Images/WpA/tutorials/G2G-changes_03.png)
+
+6. Answer the question _What would you like to know about the interactions?_ to specify the types of data that you want to analyze. Note that you can select multiple metrics, as shown here:  
+
+   ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics_2.png)
+
+   For more information about the metrics that you can use in group-to-group queries, see [Group-to-group metrics](../use/metric-definitions.md#group-to-group-metrics). 
+
+   In the following sections, you determine other aspects of the character of your query by choosing how to group both the time investors and the collaborators. For example, you could examine how senior leaders allocated time across different organizations by setting the time investors' group to "level" and the collaborators' group to "organization."
+
+   Move on to the Time investors section:
+
+   ![Group and filter time investors](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
+
+8. The next question is How do you want to group the time investors? Answer this by selecting an attribute of this group of people; for example, FunctionType, IsInternal, or tenuremonths.
+9. Optionally, remove some of the time investors from this analysis. Do this by applying filters under the question _Do you want to limit the analysis to only certain time investors?_
+
+   You have now finished specifying the time investors whose behavior you want to analyze and how you want the query to group them. Now, you make similar determinations about the collaborators. 
+
+   Move on to the section called Their collaborators:
+
+   ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+   
+10. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization) that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators (the ones in Sales? the ones in R&D?) interacted with the time investors.
+11. Now, you can group the collaborators. By doing this, you can have the query results inform you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
+
+    ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
+
+12. Select **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it (in .csv file format), or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) that you can use in a visualization tool such as Power BI.
 
 
+
+<!-- VERIFY THIS CONTENT THEN MAKE A NEW TOPIC OUT OF IT. FOR MORE IN-DEPTH LEARNERS
+
+# Walkthrough
+
+## Group time investors or collaborators
+
+Before you create a query, you need a clear concept of the question that you want the query to answer. Whose time do you want to analyze, and what do you want to know about it. The example we'll use here is that of your Sales team. Specifically, how much time did they spend over a particular six-month period with the Product marketing team. To obtain this information, write a query that uses grouping and filtering, as described in this section. 
+
+Using the Their collaborators section of the Group-to-group query page
+
+### What grouping means
+
+When you use the Group collaborators option, you create groups by finding commonalities between individuals. For example, do you want a group of people who all work in offices in the same time zone? Do you want a group of managers all at the same level? Do you want all people who work in IT to form a group? These are all attributes that are uploaded in the HR data. You can use any HR data attribute for grouping, plus one other attribute: the person's email domain. 
+
+### What grouping accomplishes
+
+When you create a query, you typically find out how much time certain people spent with certain other people. That is, you take the time that the "time investors" spent in the meeting and you allocate that time proportionally among the distinct other groups that were represented in (attended) the interaction. 
+
+## Step-by-step example
+
+In this example, you want to find out how much time the people in Sales spent with marketing people in their interactions over the six-month period. These are the steps you take:
+
+**To create the Sales - Product marketing query**
+
+ 1. Open the Queries page in Workplace Analytics.
+ 2. Click **Group-to-group** query.
+ 3. On the Queries > Group-to-group query page, type the query name.
+ 4. Type a description for the query.
+ 5. Indicate any particular meeting exclusions, or use the default set of meeting exclusions. Now go to the Select metrics section.
+ 6. Select an interaction type to learn more about. In this case, select Hours.
+ 7. Several metrics pertain to this interaction type. Choose the metric that most closely matches the information you want. Now go to the Time investors section.
+ 8. You want to study the people in Sales. Sales is an example of a workplace function, so select FunctionType under How do you want to group the time investors?
+ 9. The next question is Do you want to limit the analysis to only certain time investors? Because you want to limit your current study to people in Sales, the answer is Yes. Create a filter in which FunctionType = Sales. You have just created a group that the query will report about. Move on to the Their collaborators section.
+ 10. The first question in this section is Do you want to exclude any collaborators? The answer to this question depends on the scope of information that you want your query to supply. Your goal is to study the interaction between Sales and Product marketing. If these interactions are all you want to know about, you can now exclude all collaborators other than Product marketing. Do this by setting FunctionType in the left side of the filter builder, and adding all groups other than Product marketing on the right side. 
+  
+     Alternatively, you could exclude no groups. This would still answer your core question -- How much time did Sales spend with Marketing during these six months? But by letting the data from other groups also appear, you would see the Sales-Marketing interactions in the broader context of the overall behavior of your Sales team.
+
+ 13. Move on to the next question: How do you want to group the people who collaborated with the time investors? Because you are interested in the collaborators who are in Product marketing, and Product marketing is a workplace function, you want to group by workplace function, so select FunctionType.
+ 14. Finally, answer the question: Are there any collaborators you'd like to group all together to simplify the results? This question lets you optionally designate as "noise" the query results that you do not want to focus on. 
+
+     Remember that you just selected FunctionType as the grouping mechanism for collaborators. If you do not answer this final question, the query will return discrete data about each group that interacted with your people in Sales. 
+
+     If you do answer this question, you can have the query results treat all groups other than Product marketing as one "other" group, which it appropriately names "Other." To do this, in the filter builder, select FunctionType on the left, Equals in the center, and on the right, select all options other than Product Marketing. Now, when the query returns its results, all these other groups will appear together as one group called "Other." 
+
+When we run this query, the query does this: It considers the time that the time investors spent in share interactions (such as meetings) and allocates it proportionally among the distinct other groups that attended the interaction. Again, note that groups are defined by the organizational (HR) attributes that selected to define them. 
+
+## Group to simplify: more details
+
+You can make your query results easier to interpret by using the Group to simplify option in the Their collaborators section. 
+Grouping to simply doesn't change the allocation of time; it just simplifies the output of your query. In effect, it removes noise so that you can focus more easily on the data that you are seeking, on the answer to your question.
+
+For example, the Sales team has met with individuals on six other teams. You care only about how much time they spent with one of those other teams, Product marketing. Use Group to simplify to concentrate on Product marketing. 
+
+Although Sales also met with people in IT, Finance, R&D, Engineering, and Operations, you don't care about the time they spend with those groups. The total amount of time they spent with all those other groups combined might interest you, but the detailed breakdown does not. To clean up the query output in this regard, use the Group to simplify option under Their collaborators. The query results then treat Product Marketing as one group, and all other internal collaborators as a second group, called "other." Note that you cannot specify more than one "other" group; however, WpA automatically groups others into two groups by domain, internal others and external others. 
+
+DELETED PER HARSHIT 25 JUNE 2018
+7. Unlike with person or meeting queries, group-to-group queries require you to select a single metric of between-group collaboration:
+
+* **Count** gives you the number of interactions that occurred between the two groups. These interactions are not subject to the time-allocation rules.
+
+* **Hours** gives you how much time each time-investor group allocated to collaborators, regardless of who initiated the meeting or email.
+
+* **Organizational load** is similar to hours but is limited to only the time associated with activities initiated by the time-investor group. -->
