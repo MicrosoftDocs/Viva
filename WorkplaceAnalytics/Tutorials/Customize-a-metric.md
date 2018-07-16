@@ -58,12 +58,12 @@ In the following steps, you first customize and then change a base metric.
 
 4. Select a date range and a meeting exclusions rule. 
 
-5. Add the base metric: In the Metrics area, click the (+) sign next to Add metric and then select a metric from the list:
+5. Add the base metric: In the Metrics area, select the (+) sign next to Add metric and then select a metric from the list:
  
    ![select a metric](../Images/WpA/Tutorials/custom-metric-01.png)
 
    > [!Note] 
-   > You can select more than one metric from the list. When you are finished, click elsewhere on the page to close the list. 
+   > You can select more than one metric from the list. When you are finished, select elsewhere on the page to close the list. 
 
    In this example, we will select only one metric, **Conflicting meeting hours**:
 
@@ -81,11 +81,11 @@ In the following steps, you first customize and then change a base metric.
    
    ![selected metric](../Images/WpA/Tutorials/custom-metric-04.png)
 
-   c. Click the filter name -- in this case, **Initiator**. This displays options for defining filters about email initiators. 
+   c. Select the filter name -- in this case, **Initiator**. This displays options for defining filters about email initiators. 
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-05.png)
 
-   d. Define the filter by adding details in the three boxes. Optionally, define other filters (if others are available) by clicking AND or OR and adding details to the additional filters.
+   d. Define the filter by adding details in the three boxes. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters.
 
    e. When you are finished customizing the metric (adding filters), select the **confirm** option at the right side of the page. 
 
