@@ -4,7 +4,7 @@
 
 title: Explore management and coaching metrics in Workplace Analytics
 description: This topic gives an overview of the management and coaching dashboards in Workplace Analytics.
-author: LeisaLaDell
+author: buntus
 ms.author: v-leash
 ms.date: 02/14/2018
 localization_priority: normal 
@@ -14,6 +14,8 @@ ms.prod: wpa
 **Management and coaching** provides a summary of collaboration between leaders, managers and employees. You can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached.
 
 ![Management and coaching](../images/WpA/Use/management-coaching-overview.png)
+
+[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
 
 ## Time with manager
 The **Time with manager** histogram compares how much time employees spend in meetings with their manager on average each week.
