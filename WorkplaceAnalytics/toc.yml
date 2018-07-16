@@ -57,7 +57,9 @@
           - name: Queries overview
             href: ~/Tutorials/Create-queries.md            
           - name: Query basics
-            href: ~/Tutorials/Query-basics.md  
+            href: ~/Tutorials/Query-basics.md
+          - name: Customize a metric
+            href: ~/Tutorials/Customize-a-metric.md  
           - name: Person queries
             href: ~/Tutorials/Person-queries.md
           - name: Meeting queries
