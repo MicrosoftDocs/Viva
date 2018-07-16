@@ -36,7 +36,7 @@ Setting up a meeting query is simple.
 
 Select whether you want the metrics for each meeting summarized by day, week or month, and the time period you’d like to analyze.
 
-If you want to exclude meetings from the calculations using custom criteria, you can select your custom rule set – otherwise, use the default. 
+If you want to exclude meetings from the calculations using custom criteria, you can select your custom rule set – otherwise, use the default.
 
  ![Create meeting query](../Images/WpA/Tutorials/create-meeting-query1.png)
 
@@ -54,4 +54,4 @@ You can also add a base metric to customize what additional meeting data to incl
 
 ![Meeting query filters](../Images/WpA/Tutorials/meeting-filter.png)
 
-To get more details on adding metric filters to further customize a meeting query, see [Customize a metric](../Tutorials/customize-a-metric.md).
+To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
