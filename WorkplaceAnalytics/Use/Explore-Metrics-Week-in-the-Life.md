@@ -3,7 +3,7 @@
 # required metadata
 
 title: Week in the life metrics in Workplace Analytics
-description: Overview of the metrics available for a Week in the life in Workplace Analytics Explore page.
+description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page.
 author: madehmer
 ms.author: rodonahu
 ms.date: 07/13/2018
@@ -14,7 +14,7 @@ ms.prod: wpa
 # Week in the life
 **Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports.
 
-![Week in the life](../images//WpA/Use/week-in-the-life-explore.png)
+[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
 
 ## All collaboration hours
 All collaboration hours shows the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s set business hours.

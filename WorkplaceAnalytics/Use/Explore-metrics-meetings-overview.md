@@ -16,6 +16,8 @@ ms.prod: wpa
 
 ![Meetings overview](../images/WpA/Use/Meetings-overview-explore-metrics.png)
 
+[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
+
 ## Low-quality meeting hours
 The low-quality meeting hours overview summarizes the number of low-quality meeting hours for the organization and shows the percentage of meetings with any of the three components of low-quality meetings.
 

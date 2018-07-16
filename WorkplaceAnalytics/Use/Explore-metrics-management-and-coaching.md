@@ -15,6 +15,8 @@ ms.prod: wpa
 
 ![Management and coaching](../images/WpA/Use/management-coaching-overview.png)
 
+[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
+
 ## Time with manager
 The **Time with manager** histogram compares how much time employees spend in meetings with their manager on average each week.
 
