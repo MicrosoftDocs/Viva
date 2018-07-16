@@ -4,7 +4,7 @@
 
 title: Explore meetings overview metrics in Workplace Analytics
 description: This topic gives an overview of the meetings overview dashboards in Workplace Analytics.
-author: LeisaLaDell
+author: buntus
 ms.author: v-leash
 ms.date: 02/14/2018
 ms.topic: get-started-article
@@ -15,6 +15,8 @@ ms.prod: wpa
 **Meetings Overview** provides a summary of meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking and conflicting meeting hours.
 
 ![Meetings overview](../images/WpA/Use/Meetings-overview-explore-metrics.png)
+
+[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
 
 ## Low-quality meeting hours
 The low-quality meeting hours overview summarizes the number of low-quality meeting hours for the organization and shows the percentage of meetings with any of the three components of low-quality meetings.
