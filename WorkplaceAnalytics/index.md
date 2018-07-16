@@ -91,9 +91,7 @@ author: madehmer
                         <ul>
 <a href="~/setup/set-up-workplace-analytics.md"><li>Setup</li></a>
 <a href="~/privacy/privacy-and-data-access.md"><li>Privacy and data access</li></a>
-<!--
-<a href="~/overview/Architecture.md"><li>How it works</li></a>
--->
+<a href="~/tutorials/Solutions-intro.md"><li>Teamwork solution</li></a>
 <a href="~/overview/getting-support.md"><li>Get support</li></a>
                         </ul>
                     </div>
@@ -114,10 +112,11 @@ author: madehmer
                         <h3>MyAnalytics</h3>
                         <p></p>
                         <ul>
-<li><a href="~/myanalytics/setup/Mya-setup-checklist.md">Setup</a></li>
-<a href="~/myanalytics/overview/Privacy-Guide.md">     <li>Privacy guide</li></a>
-<li><a href="~/myanalytics/use/dashboard.md">Dashboard</a> | <a href="~/myanalytics/use/add-in.md">Outlook add-in</a> | <a href="~/myanalytics/use/email-digests.md">Email digests</a>
-<a href="~/myanalytics/use/mya-adoption/Adopt-myanalytics.md">     <li>MyAnalytics adoption</li></a>
+<li>
+<a href="~/myanalytics/setup/Mya-setup-checklist.md">Setup</a></li>
+<a href="~/myanalytics/overview/Privacy-Guide.md"><li>Privacy guide</li></a><li>
+<a href="~/myanalytics/use/mya-elements.md">MyAnalytics elements</a> 
+<a href="~/myanalytics/use/mya-adoption/Adopt-myanalytics.md"><li>MyAnalytics adoption</li></a>
 </li>
                         </ul>
                     </div>
