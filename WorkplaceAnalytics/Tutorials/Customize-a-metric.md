@@ -24,7 +24,7 @@ You can change metric use within a query in three ways: customize a base metric,
 
 ### Customize the base metric 
 
-After you select a metric you can _customize_ it. A customized metric produces more refined results used in the query. You customize a metric by applying filters to it. Although you do this on the query-builder page, these filters apply only to the metric and function independently from any filters that you apply to the query itself. 
+After you select a metric you can _customize_ it. A customized metric produces more refined results when used in the query. You customize a metric by applying filters to it. Although you do this on the query-builder page, these filters apply only to the metric and function independently from any filters that you apply to the query itself. 
 
 Example: You might start with the base metric "Email hours." You can customize it so that it becomes the more targeted metric: "Email hours where at least all attendee's and/or recipient's FunctionType equals R&D."  
 
