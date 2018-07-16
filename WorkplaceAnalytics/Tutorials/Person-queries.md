@@ -53,15 +53,15 @@ It’s simple to set up a person query.
 
 ## Add filters
 
-To help limit the size of the file you use for analysis, you can use filters to exclude certain rows from the output file based on the person’s organizational attributes.
+To help limit the size of the file you use for analysis, you can use filters to exclude certain rows from the output file based on the person’s organizational attributes, such as size or duration.
 
-For example, the **Organization** filter will limit the query based on the size, duration, or other attributes of the meeting.
+For example, the **Organization** filter can limit the query to those in the R&D and Engineering groups.
 
 ![Person query filter](../Images/WpA/Tutorials/query-filter.png)
 
 ## Add metrics
 
-You can add metrics to customize your queries. The options vary based on the type of metric, but can include criteria related to meetings and email.
+You can add metrics to customize your person query data. The options vary based on the type of metric, but can include criteria related to meetings and email.
 
 Meetings:
 * When the event occurred
@@ -75,7 +75,7 @@ Email:
 * Subject line keywords
 * Recipient/sender attributes
 
-For example, you can create a metric that gives you an email count for each person where at least one person from the Sales organization is included in the email.
+For example, you can add a metric to get an email count for each person where at least one person from the Sales organization is included in email.
  
  ![Person query base metric](../Images/WpA/Tutorials/query-base-metric.png)
 
@@ -83,4 +83,4 @@ Under **Display name**, the custom name for this metric _Emails sent to Sales_ w
 
 ![Person query custom metric](../Images/WpA/Tutorials/query-custom-metric.png)
 
-For more details on metric customization, see [Customize a metric](../Tutorials/customize-a-metric.md).
+To get more details on adding metric filters to further customize a person query, see [Customize a metric](../Tutorials/customize-a-metric.md).
