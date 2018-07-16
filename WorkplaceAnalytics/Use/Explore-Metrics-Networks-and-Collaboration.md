@@ -4,7 +4,7 @@
 
 title: Explore network and collaboration metrics in Workplace Analytics
 description: An overview of the networks and collaboration dashboards available in Workplace Analytics.
-author: madehmer
+author: buntus
 ms.author: v-midehm
 ms.date: 06/05/2018
 ms.topic: get-started-article
@@ -16,6 +16,8 @@ ms.prod: wpa
 **Networks and collaboration** provides a summary of the network patterns within the company. You can use this section to explore how people are connected, and how they work together. Network size and breadth helps illustrate whether employees are connected to a variety of other people or are more insular and siloed within their immediate work group. A person's network health is also a key indicator of their engagement.
 
 ![Networks and collaboration](../images//WpA/Use/networks-and-collaboration-explore.png)
+
+[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
 
 ## Employee connections and networks across the company
 
