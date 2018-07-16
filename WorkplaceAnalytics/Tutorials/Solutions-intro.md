@@ -12,9 +12,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics solutions
+# Workplace Analytics Teamwork solution
 
-By combining the power of Workplace Analytics and MyAnalytics, solutions help you transform insights from Workplace Analytics into targeted change programs across your organization. Targeted change programs are available for reducing meeting load, increasing focus time, and maintaining work-life balance. By using the solutions feature, you can do the following:
+By combining the power of Workplace Analytics and MyAnalytics, the Teamwork solution feature helps you transform insights from Workplace Analytics into targeted change programs across your organization. Targeted change programs are available for reducing meeting load, increasing focus time, and maintaining work-life balance. By using the Teamwork solution feature, you can do the following:
 
 1. Use Workplace Analytics to identify groups that are experiencing meeting load, lack of focus time, or lack of work-life balance. 
 2. Set up 12-week change programs for the identified groups with goals, recommended habits, and additional context. The members of the group experience the change program through [MyAnalytics](../myanalytics/mya-landing-page.md). 
