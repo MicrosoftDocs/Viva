@@ -27,7 +27,7 @@ For more information about the real-world change programs that solutions enables
 
 For a step-by-step walkthrough that uses the capabilities of the solutions feature to create a program, see [Solutions: Walkthrough](solutions-task.md).    
 
-## Prerequisites for using solutions
+## Prerequisites for using Teamwork solution
 
 Here are the prerequisites for using solutions: 
 

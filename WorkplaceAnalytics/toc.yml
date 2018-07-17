@@ -122,9 +122,9 @@
           href: MyAnalytics/Use/dashboard.md
         - name: Add-in
           href: MyAnalytics/Use/add-in.md
-        - name: Email digests
+        - name: Email digest
           href: MyAnalytics/Use/email-digests.md
-          name: MyAnalytics nudges
+        - name: MyAnalytics nudges
           href: MyAnalytics/Use/mya-notifications.md
       - name: MyAnalytics tips
         href: MyAnalytics/Overview/Tips.md    
@@ -171,3 +171,6 @@
           - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
             homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/habit-playbooks
+
+
+            
