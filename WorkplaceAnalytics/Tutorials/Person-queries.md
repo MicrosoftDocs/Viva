@@ -5,7 +5,7 @@
 title: Person queries in Workplace Analytics 
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual.     
 author: madehmer
-ms.author: rodonahu
+ms.author: madehmer
 ms.date: 7/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
@@ -21,7 +21,7 @@ This creates a lot of flexibility in analyzing data. For example, you can learn:
 * How specific subgroups in the organization spend their time?
 * How one aspect of collaboration influences other time-use habits?
 
-![Person query questions](../Images/WpA/Tutorials/Person1.png)
+  ![Person query questions](../Images/WpA/Tutorials/Person1.png)
 
 The person query metrics fall within four broad categories. You can add standard metrics from each category to your query. Depending on the analysis, you can summarize a person’s collaboration metrics by day, week, or month.
 
@@ -54,15 +54,15 @@ It’s simple to set up a person query.
 
 ## Add filters
 
-You can use filters to exclude certain rows from the output file based on the person’s organizational attributes, such as size or duration.
+You can use filters to exclude certain rows from the output file based on the person’s organizational attributes, such as size or function type.
 
-For example, the **Organization** filter can limit the query to those in the R&D and Engineering groups.
+The Organization filter can limit the query to those in the specified groups. For example, the following filter will only list people from the R&D and Engineering groups.
 
 ![Person query filter](../Images/WpA/Tutorials/query-filter.png)
 
 ## Add metrics
 
-You can add metrics to customize your person query data. The options vary based on the type of metric, but can include criteria related to meetings and email.
+You can add metrics to further customize your person query data. The options vary based on the type of metric, but can include criteria related to meetings and email.
 
 Meetings:
 
@@ -82,7 +82,7 @@ For example, you can add a metric to get an email count for each person where at
 
  ![Person query base metric](../Images/WpA/Tutorials/query-base-metric.png)
 
-Under **Display name**, the custom name for this metric _Emails sent to Sales_ will become the column header in the output file.
+You can add a filter to a base metric and edit the display name for the additional filter data. For example the following shows _Emails sent to Sales_, which will list an additional column header in the output file.
 
 ![Person query custom metric](../Images/WpA/Tutorials/query-custom-metric.png)
 

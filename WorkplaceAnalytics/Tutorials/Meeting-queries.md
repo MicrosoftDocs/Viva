@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Meeting queries
 
-The Meeting query in Workplace Analytics gives you a list of any meetings that occurred during a specific period, along with their attributes.
+The Meeting query in Workplace Analytics gives you a list of all meetings that occurred during a specific period, along with their attributes.
 
 ## How to choose between a Meeting or Person query
 
@@ -32,26 +32,28 @@ Use a person query when you want to understand the relationship between a person
 
 ## Create a meeting query
 
-Setting up a meeting query is simple.
+Setting up a meeting query is simple. Select whether you want the metrics for each meeting summarized by day, week, or month, and the time period you’d like to analyze.
 
-Select whether you want the metrics for each meeting summarized by day, week or month, and the time period you’d like to analyze.
-
-If you want to exclude meetings from the calculations using custom criteria, you can select your custom rule set – otherwise, use the default.
+If you want to exclude meetings from the calculations by using custom criteria, you can select your custom rule set or simply use the default.
 
  ![Create meeting query](../Images/WpA/Tutorials/create-meeting-query1.png)
 
-By running this query with no exclusions, you will get a helpful output file that can help you determine the right criteria to separate work-related activities from other calendar items.
+By running this query with no exclusions, you will get an output file that can help you determine the right criteria to separate work-related activities from other calendar items.
 
  ![Meeting query no exclusions](../Images/WpA/Tutorials/meeting-no-exclusions.png)
 
-## Add filters and metrics
+## Add filters
 
-You can add a filter to limit the list of meetings included in the output file. For example, the **Meeting** filter will limit the query based on the size, duration, and other attributes related to the meeting.
+You can add a filter to limit the list of meetings included in the output file. For example, the Meeting filter limits the query based on the size, duration, or other attributes related to meetings.
 
-The other filters will limit the query based on the organizational attributes of the different meeting participants.
+You can also limit the query based on organizer, attendee, and invitee attributes for meetings.
 
-You can also add a base metric to customize what additional meeting data to include in the output file. For example, select the **Attendee meeting hours** metric to include the total number of adjusted meeting hours for all attendees.
+![Meeting query filter](../Images/WpA/Tutorials/meeting-filter.png)
 
-![Meeting query filters](../Images/WpA/Tutorials/meeting-filter.png)
+## Add metrics
+
+You can add a base metric for additional custom meeting data to include in the output file. For example, select the Attendees metric to include the total number of people that attended meetings. And if you select a filter for the metric, you can add a column for the total number of people from the engineering group that attended meetings.
+
+![Meeting query metric](../Images/WpA/Tutorials/meeting-metric.png)
 
 To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
