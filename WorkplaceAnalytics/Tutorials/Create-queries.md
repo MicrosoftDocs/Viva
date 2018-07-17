@@ -4,9 +4,9 @@
 
 title: Create queries in Workplace Analytics
 description: How to create custom queries in Workplace Analytics. 
-author: buntus
+author: madehmer
 ms.author: v-midehm
-ms.date: 06/13/2018
+ms.date: 07/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,8 +17,6 @@ ms.prod: wpa
 You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**.
 
 ![Ways to query data](../Images/WpA/Use/Ways-to-query-data-Create-queries.png)
-
-[!INCLUDE [To open the Workplace Analytics Queries page](../includes/to-open-wpa-queries.md)]
 
 Each query type can help answer specific questions you may be investigating. The different query types give you flexibility to look at data from multiple perspectives to generate insights. You can also use the query types together to gain even more powerful insights.
 
@@ -38,7 +36,7 @@ An analyst may start by looking at a [Person query](#person-query) to see trends
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [Meeting query](#meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a [Groups query](#groups-query)  to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
+Additionally, the analyst could create a [Group query](#group-query) to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
 
 There are three ways to create queries:
 
@@ -189,7 +187,7 @@ Each row of data represents a single meeting, and Meeting query results always c
 1|3/1/2017 5:00PM|1|No|No|10|Process Meeting|10
 2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
 
-## Group queries
+## Group query
 
 Workplace Analytics offers two kinds of queries that report information about collaboration with groups. See the following topics for more information:
 
@@ -249,4 +247,3 @@ Operations|Engineering|3/12/2017|20
 
 ### Related topic
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
-
