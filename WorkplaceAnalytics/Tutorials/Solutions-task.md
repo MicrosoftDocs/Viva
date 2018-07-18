@@ -235,7 +235,7 @@ In this phase, you work on the Solutions > Manage page of Workplace Analytics. Y
 
 ### The program starts
 
-The program does not start immediately after you schedule it. Here is the sequence of events that leads up to the program-start date:
+The program does not start immediately after you schedule it. Here are the events that lead up to the program-start date:
 
 | Event | Notes |
 | ----- | ----- | 
