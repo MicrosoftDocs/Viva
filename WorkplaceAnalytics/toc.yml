@@ -70,14 +70,14 @@
             href: ~/Tutorials/Person-to-group-queries.md            
           - name: Query auto-refresh option
             href: ~/Tutorials/Query-auto-refresh.md  
-          - name: Solutions
+          - name: Teamwork solution
             href: ~/Tutorials/Solutions-intro.md  
             items: 
-              - name: Solutions - Walkthrough    
+              - name: Solution - Walkthrough    
                 href: ~/Tutorials/Solutions-task.md 
-              - name: Solutions - Participants
+              - name: Solution - Participants
                 href: ~/Tutorials/Solutions-participants.md                                       
-              - name: Solutions - Concepts
+              - name: Solution - Concepts
                 href: ~/Tutorials/Solutions-conceptual.md                                  
       - name: Reference
         items:

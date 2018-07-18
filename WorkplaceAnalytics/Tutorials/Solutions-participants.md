@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Solutions (participants)
+title: Workplace Analytics Teamwork solution (participants)
 description: A brief description of what partipants in a Workplace Analytics program (MyAnalytics users) experience during the program. 
 author: paul9955
 ms.author: v-pascha
@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions: The experience of program participants 
+# Teamwork solution: The experience of program participants 
 
 * **Role** - participant in a habit-change program, an information worker who is using MyAnalytics
 
@@ -43,8 +43,8 @@ All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-d
 
 ## Related topics
 
-[Solutions: Introduction](solutions-intro.md)  
+[Solution: Introduction](solutions-intro.md)  
 
-[Solutions: Walkthrough](solutions-task.md)
+[Solution: Walkthrough](solutions-task.md)
 
-[Solutions: Concepts](solutions-conceptual.md)
+[Solution: Concepts](solutions-conceptual.md)
