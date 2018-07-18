@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Solutions (walkthrough)
-description: A walkthrough of the steps for creating a program by using functionality that is made available in the Workplace Analytics Solutions area. 
+title: Workplace Analytics Teamwork solution (walkthrough)
+description: A walkthrough of the steps for creating a program by using functionality that is made available in the Workplace Analytics Teamwork solution area. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 06/27/2018
@@ -12,15 +12,15 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions: Walkthrough
+# Teamwork solution: Walkthrough
 
 Use the solutions area of Workplace Analytics to attempt to change employees' work habits for the better. On the Solutions pages of Workplace Analytics, you can create a program, track it while it is in progress, and examine it after it completes. 
 
-People in either of two roles can work on solutions: Analysts can help identify groups and opportunities for change. Program managers can design and track programs that are underway and examine programs that have completed. 
+People in either of two roles can work on programs: Analysts can help identify groups and opportunities for change. Program managers can design and track programs that are underway and examine programs that have completed. 
 
 ## Workflow phases, pages, and roles 
 
-Work on a solution has the following phases:
+Work on a program has the following phases:
 
 | Workflow phase |Activity in this phase | Solutions page | Roles who can perform this activity |
 | ---- | ---- | ---- | ---- |
@@ -33,7 +33,7 @@ Work on a solution has the following phases:
 
  * **Role** - Analyst or program manager
 
-The goal of the first phase in the solutions workflow is to identify opportunities for improvement. An opportunity combines a group of people, a problem description, and a goal definition. You can create solutions that address problems in the areas of meeting hours, focus hours, or after hours. 
+The goal of the first phase in the solution workflow is to identify opportunities for improvement. An opportunity combines a group of people, a problem description, and a goal definition. You can create solutions that address problems in the areas of meeting hours, focus hours, or after hours. 
 
 In this first phase, start by submitting a group of people, or even multiple groups -- you can submit as many groups as you think might benefit. After a group is submitted, it enters a queue as a candidate for a change program. (In the next phase, [Schedule a program](#schedule-a-program), a program manager starts with a group and creates the change program for it.) 
 
@@ -267,8 +267,8 @@ You track programs on the Solutions > Manage page. Use this page to measure prog
 
 ## Related topics
 
-[Solutions: Introduction](solutions-intro.md)  
+[Solution: Introduction](solutions-intro.md)  
 
-[Solutions: Participants](solutions-participants.md)  
+[Solution: Participants](solutions-participants.md)  
 
-[Solutions: Concepts](solutions-conceptual.md)
+[Solution: Concepts](solutions-conceptual.md)
