@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Teamwork solution: Walkthrough
+# Teamwork solution: Walkthrough 
 
 Use the solutions area of Workplace Analytics to attempt to change employees' work habits for the better. On the Solutions pages of Workplace Analytics, you can create a program, track it while it is in progress, and examine it after it completes. 
 
