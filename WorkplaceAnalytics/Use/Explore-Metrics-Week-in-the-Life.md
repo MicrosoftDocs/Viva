@@ -6,13 +6,15 @@ title: Week in the life metrics in Workplace Analytics
 description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page.
 author: madehmer
 ms.author: rodonahu
-ms.date: 07/13/2018
+ms.date: 07/19/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 # Week in the life
-**Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports.
+**Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+
+![Week in the life](../images//WpA/Use/explore-week-life.png)
 
 [!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
 
@@ -21,7 +23,7 @@ All collaboration hours shows the total number of hours that a person spent in m
 
 **Meeting hours** shows the number of hours the person spent in meetings with at least one other person. **Email hours** shows the number of hours the person spent sending and reading email.
 
-![Week in the life](../images//WpA/Use/all-collaboration-hours-explore.png)
+![Week in the life collaboration hours](../images//WpA/Use/all-collaboration-hours-explore.png)
 
 ### Why it's important
 Meeting and email hours are the most basic components of collaboration. They help quantify the collaboration volume and patterns within a company, potentially highlighting an under or overly collaborative culture.

@@ -31,7 +31,7 @@ Each query returns one row per person, per period.
 
 ![Query results row](../Images/WpA/tutorials/query-results-row.png)
 
-The file will include any standard or customized metrics you specify.
+The file will include any standard or customized metrics you specify. The IsActive column in the output file is True if the employee sent at least one email during the specified time period for the query. 
 
 ![Query results metrics](../Images/WpA/Tutorials/query-results-metrics.png)
 
@@ -82,7 +82,7 @@ For example, you can add a metric to get an email count for each person where at
 
  ![Person query base metric](../Images/WpA/Tutorials/query-base-metric.png)
 
-You can add a filter to a base metric and edit the display name for the additional filter data. For example the following shows _Emails sent to Sales_, which will list an additional column header in the output file.
+You can add a filter to a base metric and edit the metric name with the filter. For example, the following shows _Emails sent to Sales_, which will be the column header in the output file.
 
 ![Person query custom metric](../Images/WpA/Tutorials/query-custom-metric.png)
 
