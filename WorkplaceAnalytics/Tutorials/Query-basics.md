@@ -21,7 +21,7 @@ With these tools, you can:
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
- ![What you can do with queries](../Images/WpA/Tutorials/select-customize-transform.png)
+ ![What you can do with queries](../Images/WpA/Tutorials/select-customize-transform-a.png)
 
 ## Person query
 
@@ -36,7 +36,7 @@ With a person query you can compare across individual activities and attributes 
 
 ## Meeting query  
 
-![Meeting query](../Images/WpA/Tutorials/meeting-query-card.png  )
+![Meeting query](../Images/WpA/Tutorials/meeting-query-card.png)
 
 Use a meeting query when you want to understand the relationship between different meeting attributes.
 
@@ -49,21 +49,21 @@ With a meeting query you can compare across meeting attributes, such as:
 
 ## Group-to-group query
 
-<!--
-![Group query](../Images/WpA/Tutorials/group-query-card.png  )
--->
+![Group-to-group query](../Images/WpA/Tutorials/group-query-card.png)
 
 Use a group-to-group query when you want to understand how one team invested their collaboration time across other teams within and outside of the organization.
 
-In this type of query, you can define team in a variety of ways, using any organizational attribute or email domain. This allows you to answer questions such as:
+In this type of query, you can define team in a variety of ways, using any organizational attribute or email domain. This enables you to answer questions such as:
 
-* How did _Sales managers_ allocate their time between all external _customer domains_ (companies)? 
+* How did _Sales managers_ allocate their time between all external _customer domains_ (companies)?
 * How much time did _Benefits Analysts_ spend with _individual contributors_ in each _region_?
 * How did _Corporate VPs_ allocate their time to _managers_ by _business unit_?
 
 Group-to-group queries also offer alternative perspectives on collaboration. Rather than allocating collaboration hours across other teams, you can analyze the number of interactions between the teams, or analyze only those collaboration activities initiated by the “time giver” team.
 
 ## Person-to-group query
+
+![Person-to-group query](../Images/WpA/Tutorials/ptg-query-card.png)
 
 Use a person-to-group query to help you understand how individuals invested their time with one or more collaborator teams within and outside of the organization.
 
