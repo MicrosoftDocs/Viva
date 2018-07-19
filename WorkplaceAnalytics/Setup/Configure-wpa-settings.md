@@ -3,10 +3,10 @@
 # required metadata
 
 title: Workplace Analytics Setup -- Configure Workplace Analytics settings
-description: Configuring the Workplace Analytics settings.
+description: Describes how to configure the settings for Workplace Analytics.
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/19/2018
+ms.date: 07/19/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -35,7 +35,7 @@ For a complete list of valid times zones, see [Time zones in Workplace Analytics
 
 ### Working days and working hours
 
-Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours in organizational data, a Workplace Analysis administrator can set default working days and working hours for the organization on the System defaults area of the Settings page:
+Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours in organizational data, a Workplace Analysis administrator can set default working days and working hours for the organization in the System defaults section on the Settings page:
 
 ![System defaults area of Settings page](../images/wpa/setup/settings-system-defaults-a.png)
 
@@ -66,7 +66,7 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
 * Exclude emails/meetings to, or from, specific users, or all users from a domain using “;” as the delimiter
 * Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter.   Terms can be any combination of letters, numbers and special characters, e.g. client attorney privilege; D&I
 
-> [!Note] 
+> [!Note]
 > If you exclude email addresses, do not assign licenses to them.  You should also include all email aliases for  individuals.
 
 ### To set your privacy settings
@@ -82,7 +82,7 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
    > [!Important]
    > Carefully validate that your privacy settings are correct, before you check the "I confirm that all privacy settings are complete" box, you can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
 
-1. To begin the processing of Office 365 data, select the **I confirm that all privacy settings are complete** check box, and then select **Save**.
+4. To begin the processing of Office 365 data, select the **I confirm that all privacy settings are complete** check box, and then select **Save**.
 
 ### Related topic
-[Settings in Workplace Analytics](../Use/Settings.md) 
+[Settings in Workplace Analytics](../Use/Settings.md)
