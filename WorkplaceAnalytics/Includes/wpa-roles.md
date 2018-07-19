@@ -4,18 +4,18 @@
 
 title: Workplace Analytics roles
 description: (include file) Workplace Analytics roles 
-author: paul9955
+author: madehmer
 ms.author: v-pascha
-ms.date: 05/08/2018
+ms.date: 07/19/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: wpa
 ---
 
-* **Analyst:** Has full access to all service features except Admin. This role is used for the analyst who requires the most complete access to the data.
+* **Analyst** has full access to all service features except Settings. This role is used for the analyst who requires the most complete access to the data.
 
-* **Analyst (Limited Access):** Has access to the Home and Explore the metrics pages, and to flexible queries. This role is used for the analyst who only needs access to insights generated from our curated set of Explore-the-metrics dashboards.
+* **Analyst (Limited Access)** has access to the Home, Explore, and Solutions pages. This role is for users who need access only to insights generated from our curated set of dashboards.
 
-* **Administrator:** Has access to the Administrator and Data-sources features. The Workplace Analytics administrator has responsibilities to configure privacy settings and system defaults and to prepare, upload, and verify organizational data.
+* **Administrator** has access to the Administrator and Data-sources features. The Workplace Analytics administrator has responsibilities to configure privacy settings and system defaults and to prepare, upload, and verify organizational data.
 
-* **Program manager:** Has access to the Home and Explore the metrics pages. They also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
+* **Program manager** has access to the Home, Explore, and Solutions pages, and the Solutions Manage and Track pages, on which they can set up programs and track the progress of active or ended programs.
