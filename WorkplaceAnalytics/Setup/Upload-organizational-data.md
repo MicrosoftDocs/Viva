@@ -43,15 +43,15 @@ In this procedure, you specify a .csv file to upload to Workplace Analytics.
   > [!Note] 
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Replace organizational data_. 
 
-8. To complete a new-file upload, select **Next**. This displays the System fields table. Go to the next procedure, [Field mapping](#field-mapping).
+8. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
 9. To replace organizational data, in the Select file area, select **Show advanced options**. This opens the Append or replace area.
 10. In the Append or replace section, select **Replace all existing organizational data with this file**. Note the warning that states “This option permanently deletes all previously uploaded organizational data.”
 11. In the warning message that is displayed, select **Continue**. The data in the specified .csv file replaces the previously uploaded data for your organization.
-12. Go to the next procedure, [Field mapping](#field-mapping).
+12. Continue to [Field mapping](#field-mapping).
 
 ## Field Mapping
 
-In this procedure, you map the fields (columns) for the source .csv file to field names that Workplace Analytics recognizes. You do this mapping on the Upload page.
+You need to map the fields (columns) for the source .csv file to field names that Workplace Analytics recognizes. You map these on the Upload page.
 
 <img src="../Images/upload2-map-top.png" alt="Upload page">
 
