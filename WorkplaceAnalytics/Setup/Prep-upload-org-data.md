@@ -17,7 +17,7 @@ ms.prod: wpa
 * **Outcome** - CSV file of organizational data is generated and uploaded to Workplace Analytics for final provisioning
 
 Organizational data is the information about employees that your company provides to use in Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
-s
+
 ### What is organizational data?
 - Individual-level metadata that provides descriptive information of a company’s employees
 - Sourced from multiple sources
@@ -26,7 +26,7 @@ s
     - Employee Surveys (Engagement, Manager Feedback, Culture)
     - Performance Management Systems or Quota Attainment Systems
     - CRM Systems
-- Workplace Analytics org dData is structured as a flat file with each row representing one person with columns representing attribute fields.
+- Workplace Analytics organizational data is structured as a flat file with each row representing one person with columns representing attribute fields.
 
 ### How is it used?
 
