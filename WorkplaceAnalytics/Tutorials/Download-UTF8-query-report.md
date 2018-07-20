@@ -28,7 +28,7 @@ At least one of the metrics that you used in this query includes meeting data fr
 These multibyte characters cause the .csv file to malfunction if you try to open it in Excel in the default way. 
 
 ### Solution
-In the following procedure, you import a .csv file into Excel as a UTF-8 file. After you have opened the file in this way, you can save the file as an Excel file (with the .xlsx extension) or as a .csv file in UTF-8 format, and then work with it in the normal ways. Follow these steps:
+In the following procedure, you open a .csv file by importing it into Microsoft Excel as a UTF-8 file. After you have opened the file in this way, you can save it as an Excel file (with the .xlsx extension) or as a .csv file in UTF-8 format. Follow these steps:
 
 **To import a .csv file and save it in UTF-8 format** 
 
