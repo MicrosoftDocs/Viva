@@ -182,6 +182,9 @@ Emp2@contoso.com,6/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sal
 Emp2@contoso.com,7/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 Emp2@contoso.com,8/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
+> [!Important] 
+> Numerical fields (such as "HourlyRate") must be in "number" format and cannot contain commas​. Also, the .csv file must use UTF-8 encoding​.
+ 
 ### Allowed time zones
 The default time zone for Workplace Analytics is Pacific Standard Time. Visit [[Time zones in Workplace Analytics]] for a complete list of times zones you can use.
 
