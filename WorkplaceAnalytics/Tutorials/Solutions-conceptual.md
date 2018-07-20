@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Solutions concepts
-description: Concepts and definitions to help you better work with Solutions in Workplace Analytics. 
+title: Workplace Analytics Teamwork solution concepts
+description: Concepts and definitions to help you better work with the Teamwork solution feature of Workplace Analytics. 
 author: paul9955
 ms.author: v-pascha
 ms.date: 06/27/2018
@@ -12,9 +12,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions: Concepts
+# Teamwork solution: Concepts
 
-This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs by using the solutions feature. Those tasks are described in the step-by-step walkthrough for creating a program, [Solutions: Walkthrough](solutions-task.md). 
+This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs by using the Teamwork solution feature. Those tasks are described in the step-by-step walkthrough for creating a program, [Solution: Walkthrough](solutions-task.md). 
 
 ## Use a .csv file
 
@@ -177,12 +177,12 @@ Workplace Analytics uses the concept of dated attributes. Every time an admin up
 
 ### Solutions and programs
 
-What's the difference between a solution and a program? Solution refers to the area of Workplace Analytics in which you create programs that aim to change work habits. A program is something you create by combining a group of people who will work towards better work habits, a goal that has been chosen for those people, and a period of time (twelve weeks) to work towards that goal.  
+What's the difference between a solution and a program? "Teamwork solution" refers to the area of Workplace Analytics in which you create programs that aim to change work habits. A program is something you create by combining a group of people who will work towards better work habits, a goal that has been chosen for those people, and a period of time (twelve weeks) to work towards that goal.  
 
 ## Related topics
 
-[Solutions: Introduction](solutions-intro.md)  
+[Solution: Introduction](solutions-intro.md)  
 
-[Solutions: Walkthrough](solutions-task.md)
+[Solution: Walkthrough](solutions-task.md)
 
-[Solutions: Participants](solutions-participants.md)  
+[Solution: Participants](solutions-participants.md)  

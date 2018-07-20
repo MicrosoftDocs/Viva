@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics solutions (introduction)
-description: Introduction and summary of Workplace Analytics solutions
+title: Workplace Analytics teamwork solution (introduction)
+description: Introduction and summary of Workplace Analytics teamwork solution
 author: paul9955
 ms.author: v-pascha
 ms.date: 06/27/2018
@@ -21,15 +21,15 @@ By combining the power of Workplace Analytics and MyAnalytics, the Teamwork solu
 3. Measure the progress of the program while it is underway, and the ROI of the program after it has finished. 
  
    > [!Note] 
-   > Solutions are intended for use by analysts and program managers. For general information about roles, see [User roles in Workplace Analytics](../use/user-roles.md). 
+   > Teamwork solution is intended for use by analysts and program managers. For general information about roles, see [User roles in Workplace Analytics](../use/user-roles.md). 
 
-For more information about the real-world change programs that solutions enables, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->
+For more information about the real-world change programs that Teamwork solution enables, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->
 
-For a step-by-step walkthrough that uses the capabilities of the solutions feature to create a program, see [Solutions: Walkthrough](solutions-task.md).    
+For a step-by-step walkthrough that uses the capabilities of this feature to create a program, see [Solution: Walkthrough](solutions-task.md).    
 
-## Prerequisites for using solutions
+## Prerequisites for using Teamwork solution
 
-Here are the prerequisites for using solutions: 
+Here are the prerequisites for using Teamwork solution: 
 
  * Obtain licenses to both Workplace Analytics and MyAnalytics for the groups that will experience change programs. 
  * Identify people in your organization to whom to assign the following roles: 
@@ -41,9 +41,9 @@ Here are the prerequisites for using solutions:
 
 ## Workplace Analytics solution for teamwork playbook 
 
-Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), which provides tips on how to best use Workplace Analytics solutions to achieve maximum benefit for your organization.
+Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), which provides tips on how to best use Workplace Analytics Teamwork solution to achieve maximum benefit for your organization.
 
-## Solutions: Frequently asked questions
+## Teamwork solution: Frequently asked questions
 
 ### Questions about roles and access
 
@@ -81,8 +81,8 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 
 ## Related topics
 
-[Solutions: Walkthrough](solutions-task.md)
+[Solution: Walkthrough](solutions-task.md)
 
-[Solutions: Participants](solutions-participants.md)  
+[Solution: Participants](solutions-participants.md)  
 
-[Solutions: Concepts](solutions-conceptual.md) 
+[Solution: Concepts](solutions-conceptual.md) 

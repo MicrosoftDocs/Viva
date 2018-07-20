@@ -2,28 +2,28 @@
 # Metadata Sample
 # required metadata
 
-title: Explore the overview of popular metrics in Workplace Analytics
-description: This topic gives an overview the popular metrics in the week in the life dashboards in Workplace Analytics.
-author: buntus
+title: Week in the life metrics in Workplace Analytics
+description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page.
+author: madehmer
 ms.author: rodonahu
-ms.date: 01/19/2018
+ms.date: 07/19/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 # Week in the life
-**Week in the life** provides a summary of weekly collaboration in the organization. You can use this section as a starting point to explore more in-depth metrics and reports.
+**Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+
+![Week in the life](../images//WpA/Use/explore-week-life.png)
 
 [!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
 
 ## All collaboration hours
-All collaboration hours are the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s configured business hours. 
+All collaboration hours shows the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s set business hours.
 
-![Week in the life](../images//WpA/Use/week-in-the-life-explore.png)
+**Meeting hours** shows the number of hours the person spent in meetings with at least one other person. **Email hours** shows the number of hours the person spent sending and reading email.
 
-**Meeting hours** is the number of hours the person spent in meetings with at least one other person. **Email hours** is the number of hours the person spent sending and reading email.
-
-![Week in the life](../images//WpA/Use/all-collaboration-hours-explore.png)
+![Week in the life collaboration hours](../images//WpA/Use/all-collaboration-hours-explore.png)
 
 ### Why it's important
 Meeting and email hours are the most basic components of collaboration. They help quantify the collaboration volume and patterns within a company, potentially highlighting an under or overly collaborative culture.
@@ -34,7 +34,7 @@ Workplace Analytics helps analysts identify high and low collaboration and its c
 
 ### Common causes of high levels of collaboration 
 * Large meetings from an overly inclusive culture typically leaves all but a small minority of people actively engaged.
-* Incorrect attendees in meetings can result in unproductive collaboration time.
+* Unnecessary attendees in meetings can result in unproductive collaboration time.
 * Long meetings can potentially make it difficult to retain the focus of attendees unless they are well-designed small sessions.
 * Recurring meetings may persist long after the value of the collaboration has been gained.
 
@@ -43,15 +43,15 @@ Workplace Analytics helps analysts identify high and low collaboration and its c
 * A company culture that does not promote collaborative behaviors and open working styles.
 
 ## After-hours collaboration hours
-After-hours meeting and email hours are the number of hours that a person spent in meetings and sending mails outside of business hours. (Workplace Analytics uses 9AM-5PM, Monday – Friday for business hours.)
+After-hours meeting and email hours are the number of hours that a person spent in meetings and sending email outside of business hours. (Workplace Analytics uses 9AM to 5PM, Monday through Friday as the default for business hours.)
 
 ![After-hours collaboration hours](../images//WpA/Use/after-hours-collaboration-hours-explore.png)
 
 ### Why it's important
-Different roles will require different schedules, but monitoring after-hours activity can help identify employees who are at risk of getting burnt out or have an unsustainable workload.
-* Emails sent after-hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
-* Too much after-hours activity also hampers productivity; and employees may require down time to recharge in order to produce new ideas and fresh insights.
-* If consistent over time, overtime meeting and email hours can be an indicator of under-capacity in a group.
+Different roles will require different schedules, but monitoring after-hours activity can help identify employees who are at risk of getting overworked or have an unsustainable workload.
+* Email sent after-hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
+* Too much after-hours activity also hampers productivity. Employees need time off to recharge and to produce new ideas and fresh insights.
+* If a person consistently has after-hours collaboration can be an indicator of under-capacity in a group.
 * Requiring a consistently high number of after-hours work from employees due to collaboration with other time zones creates a work-life imbalance and may lower employee satisfaction and productivity.
 
 ## Internal only and external collaboration hours

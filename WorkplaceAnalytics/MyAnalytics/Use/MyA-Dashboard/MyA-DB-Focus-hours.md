@@ -16,7 +16,7 @@ ms.prod: mya
 
 ### How we calculate focus hours
 
-Focus hours consist of at least two consecutive hours in your calendar without a meeting. Focus time consist of any combination of the following, as long as the time is consecutive and adds up to two hours or more: 
+Focus hours consist of at least two consecutive hours in your calendar without a meeting. Focus time consists of any combination of the following, as long as the time is consecutive and adds up to two hours or more: 
 * unscheduled time
 * appointments
 * meetings that are scheduled only with yourself

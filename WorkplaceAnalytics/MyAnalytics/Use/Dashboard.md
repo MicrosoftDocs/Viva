@@ -34,13 +34,11 @@ Near the top of the MyAnalytics dashboard is the “Your time” area. This area
 
 <img src="../../Images/Your-time-dashboard.PNG" alt="The Your time area of the MyAnalytics dashboard">
 
-This report shows summaries of the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals.
+This report summarizes the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals.
 
 [!INCLUDE [To change your weekly goals](../Includes/to-change-your-weekly-goals.md)]
 
 See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
-
-# Drill down: Detailed subsections
 
 Scroll down the dashboard page and you see sections that give you more detail about the ways you spend your time and the people you contact while you work.
 
