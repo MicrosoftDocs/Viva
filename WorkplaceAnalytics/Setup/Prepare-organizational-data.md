@@ -14,13 +14,11 @@ ms.prod: wpa
 
 # Prepare organizational data
 
-This article describes what organizational data is and gives you the steps to help you prepare it for uploading to Workplace Analytics.
+This introduces key concepts about compiling and uploading organizational data in Workplace Analytics. After reading this, you will know what kind of organizational data to provide, what that data can help you discover, and how to upload the data.
 
 ## About organizational data
 
 Organizational data is information about employees that your company provides to Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
-
-This topic introduces key concepts about compiling and uploading organizational data in Workplace Analytics. After reading this topic you will know what kind of organizational data you can provide, how to determine the data you want to provide, what that data can help you discover, and how to upload the data.
 
 ### What you can do with organizational data
 
@@ -165,13 +163,11 @@ The data must be supplied in a UTF-8 encoded .csv file and contain a set of requ
 
 **Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.  
 
-> [!Note]
-> The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above). 
-
-Attribute description and data coverage requirements
-
-> [!Note]
-> All dates should be in the MM/DD/YYYY format.
+> [!Notes]
+> * The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above).
+> * All dates should be in the MM/DD/YYYY format.
+>
+### Attribute description and data coverage requirements
 
 Attribute (column header) | Description of data / data validity | Data coverage requirements
 ---------|----------|---------
@@ -209,7 +205,7 @@ Emp2@contoso.com,6/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sal
 Emp2@contoso.com,7/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 Emp2@contoso.com,8/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
-> [!Important] 
+> [!Important]
 > Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas. Also, the .csv file must use UTF-8 encoding. For more information about saving a file in UTF-8 format, see [Solution](../Tutorials/Download-UTF8-query-report.md#solution).
 
 ### Allowed time zones
@@ -218,16 +214,6 @@ The default time zone for Workplace Analytics is Pacific Standard Time. Visit [T
 
 ## Step four - Upload data
 
-After you have created your source .csv file, you can upload it to the Workplace Analytics service. See [Upload organizational data](Upload-organizational-data.md). 
+After you create your source .csv file, you can upload it to the Workplace Analytics service. See [Upload organizational data](Upload-organizational-data.md).
 
-<!-- OLD CONTENT: 
-
-### To upload your organizational data to Workplace Analytics 
-1. On the **Settings** page, click **Organizational data**.
-2. Browse to, and then upload your file.
-
-The upload process will verify that the file contains the required column headers. 
-
-If your upload succeeds, you see an Upload successful message. If the file does not contain the required column headers, you will receive an error message. -->
-
-After your data has been successfully uploaded, Workplace Analytics will perform additional validation and processing to complete provisioning. The Workplace Analytics team will contact your Workplace Analytics administrator if any problems arise.
+After your data is successfully uploaded, Workplace Analytics will perform additional validation and processing to complete provisioning. The Workplace Analytics team will contact your Workplace Analytics administrator if any problems arise.
