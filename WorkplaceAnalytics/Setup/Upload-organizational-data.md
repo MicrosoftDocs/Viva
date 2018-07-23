@@ -60,7 +60,7 @@ You need to map the fields (columns) for the source .csv file to the field names
 
 The Upload page includes tables for System fields and Custom fields for mapping the data for the upload file.
 
-When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before for previous uploads in addition to the new attributes.
+When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
 ### System default fields table
 
