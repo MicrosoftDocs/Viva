@@ -17,9 +17,9 @@ ms.prod: mya
 ### How we calculate after hours
 
 Your after-hours time is the total time that you spent outside your work hours in any of the following activities: 
- * reading or writing email
- * attending meetings whose invitations you've accepted
- * participating in chats or calls in Skype for Business
+ * Reading or writing email
+ * Attending meetings whose invitations you've accepted
+ * Participating in chats or calls in Skype for Business
 
 For example, the time you spend reading or sending email messages on weekends counts as after-hours time.
 
@@ -28,8 +28,10 @@ Your work hours are defined by your [Outlook settings](https://outlook.office.co
 
 [!INCLUDE [Check your Outlook settings](../../Includes/to-check-your-outlook-settings.md)]
 
-> [!Note]  
-> After hours is an estimate only and is not meant to reflect actual hours worked. You can compare how we calculate the times for [Meetings](MyA-DB-Meetings.md), for [Email](MyA-DB-Emails.md), and for [Chats and calls](MyA-DB-Chats-and-calls.md).  
-Also, after-hours Skype calls that form part of a scheduled meeting on your calendar count towards after-hours meetings vs. after-hours chats/calls
+>[!Note] <ul><li>
+> After hours is an estimate only and is not meant to reflect actual hours worked. You can compare how we calculate the times for [Meetings](MyA-DB-Meetings.md), for [Email](MyA-DB-Emails.md), and for [Chats and calls](MyA-DB-Chats-and-calls.md).
+    <li>
+ After-hours Skype calls that form part of a scheduled meeting on your calendar count towards after-hours meetings. They do not count as after-hours chats or calls.
+ </ul>
 
 See [Tips for after hours](../../Overview/Tips.md#tips-for-after-hours) for suggestions related to work-life balance.
