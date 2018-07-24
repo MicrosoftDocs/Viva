@@ -51,7 +51,3 @@ Occasionally, MyAnalytics uses an insight to announce a change in the way it wor
 
    ![Announcing data from Skype for Business](../../../images/db-insights-05.png)
 
-
-<br>
-
-
