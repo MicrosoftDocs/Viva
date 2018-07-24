@@ -44,4 +44,4 @@ The following table describes the possible values for the **PopulationType** col
 |MeetingRoom |A meeting room.|
 
 ### HR Attributes
-The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a requires set of attributes, optional attributes, and custom attributes. For more information about these attributes refer to [Prepare organizational data](../setup/prepare-organizational-data.md#step-three-export-data).
+The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a required set of attributes, optional attributes, and custom attributes. For more information about these attributes, refer to [Prepare organizational data](../setup/prepare-organizational-data.md).
