@@ -57,3 +57,5 @@ Scroll down the dashboard page and you see sections that give you more detail ab
 [!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
 
 [!INCLUDE [Opt out](MyA-Dashboard/MyA-DB-Opt-out.md)]
+
+<br>
