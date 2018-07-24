@@ -42,6 +42,10 @@ See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend
 
 Scroll down the dashboard page and you see sections that give you more detail about the ways you spend your time and the people you contact while you work.
 
+[!INCLUDE [Insights](MyA-Dashboard/MyA-DB-Insights.md)]
+
+[!INCLUDE [Network](MyA-Dashboard/MyA-DB-Network.md)]
+
 [!INCLUDE [Meetings](MyA-Dashboard/MyA-DB-Meetings.md)]
 
 [!INCLUDE [Emails](MyA-Dashboard/MyA-DB-Emails.md)]
@@ -49,8 +53,6 @@ Scroll down the dashboard page and you see sections that give you more detail ab
 [!INCLUDE [Focus hours](MyA-Dashboard/MyA-DB-Focus-hours.md)]
 
 [!INCLUDE [After hours](MyA-Dashboard/MyA-DB-After-hours.md)]
-
-[!INCLUDE [Network](MyA-Dashboard/MyA-DB-Network.md)]
 
 [!INCLUDE [Chats and calls](MyA-Dashboard/MyA-DB-Chats-and-calls.md)]
 
