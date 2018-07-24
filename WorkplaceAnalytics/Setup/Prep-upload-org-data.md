@@ -45,7 +45,7 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
     - We recommend that HR data be collected for all employees in your company, even if they are not part of the measured population.
     - At a minimum, you need data for all employees in your measured population.
 - Line of Business Data:
-    - Scenario-Dependent: You need line-of-business data for all employees of interest in the scenario you are analyzing.
+    - Scenario-Dependent, because you need line-of-business data for all employees of interest in the scenario you are analyzing.
 
 > [!Note]
 > You can include up to 65 data attributes in your org data file.
