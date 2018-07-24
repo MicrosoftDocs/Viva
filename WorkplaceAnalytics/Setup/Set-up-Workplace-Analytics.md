@@ -5,7 +5,7 @@
 title: Workplace Analytics Setup Checklist
 description: Complete the steps in this checklist to implement Workplace Analytics in your organization
 author: paul9955
-ms.author: madehmer
+ms.author: paul9955
 ms.date: 04/26/2018
 ms.topic: get-started-article
 localization_priority: normal 
@@ -71,12 +71,11 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 
 ## Step 5: Prepare and upload organizational data
 
-[!INCLUDE [Prepare organizational data](../Setup/Prepare-organizational-data.md)]
-[!INCLUDE [Upload organizational data](../Setup/Upload-organizational-data.md)]
+[!INCLUDE [Prepare and upload organizational data](../Setup/Prep-upload-org-data.md)]
 
 ## Step 6: Validate and verify data
 
-[!INCLUDE [Validate and verify data](../Setup/Set-up-mtg-exclusions.md)]
+[!INCLUDE [Validate and verify data](../Setup/Validate-verify-data.md)]
 
 ## Step 7: Set up meeting exclusions
 
