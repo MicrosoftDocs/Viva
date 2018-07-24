@@ -52,7 +52,7 @@ You can also limit the query based on organizer, attendee, and invitee attribute
 
 ## Add metrics
 
-You can add base metrics to customize your meeting data. For example, select the Attendees metric to include the total number of people that attended meetings. You can add a metric filter to further customize the data. For example, the following will only show meetings with attendees from the engineering group.
+You can add base metrics to customize your meeting data. For example, select the Attendees metric to include the total number of people that attended meetings. You can add a metric filter to further customize the data. For example, the following metric filter will only show meetings that included attendees from the engineering group.
 
 ![Meeting query metric](../Images/WpA/Tutorials/meeting-metric.png)
 
