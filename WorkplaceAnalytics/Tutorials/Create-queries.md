@@ -102,7 +102,7 @@ You can create a Person query to investigate if long meetings are a significant 
 7. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
 8. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
 
-    > [!Notes]
+    > [!Note]
     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
     > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
     > * To make sure you have a line of data for every person/date combination for the metrics, add **Emails sent** as one of your metrics.

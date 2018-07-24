@@ -19,9 +19,11 @@ MyAnalytics counts audio calls, video calls, and chats that people make in Skype
 ### Skype for Business chats
 
  * Every Skype for Business chat message that you send counts as 30 seconds.
- * Every Skype for Business chat message that you receive counts as 0 seconds. This is because it has been empirically determined that the sent-messages time is a good predictor of the total Skype session duration.
+ * Every Skype for Business chat message that you receive counts as 0 seconds. This is because it has been empirically determined that the sent-messages time is a good predictor of the total duration of the Skype session.
 
 ### Skype for Business calls
 
  * For every ad hoc call in Skype for Business, MyAnalytics uses the actual duration of the call. An "ad hoc" call is a call that does not appear in the Outlook calendar. 
- * For any Skype for Business call that is also a meeting on the Outlook calendar, the time counts as 0. This is because the time is already being counted as a meeting on the calendar. 
+ * For any Skype for Business call that is also a meeting on the Outlook calendar, the time counts as 0. This is because the time is already being counted as a meeting on the calendar.
+
+
