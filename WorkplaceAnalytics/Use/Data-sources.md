@@ -17,10 +17,6 @@ Data sources contains high-level dashboard views that Workplace Analytics admini
 
 ![Data sources](../images/WpA/Use/Data-sources.png)
 
-
-<br/>
-
-
 [!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
 
 The Data sources page consists of three sections:
@@ -50,7 +46,7 @@ The Data sources summary provides the following information about your data:
 
 For more information about what data is needed to compute metrics, see these topics:
 
-[Prepare and upload organizational data](../setup/Prepare-and-upload-organizational-data.md)
+[Prepare organizational data](../setup/Prepare-organizational-data.md)
 
 [Metric definitions](../Use/Metric-definitions.md)
 
@@ -63,9 +59,9 @@ Analysts can use these views to look for time periods that have unexpected gaps 
 
 ![Data sources summary](../images//WpA/Use/o365-data.png)
 
-These are some examples of scenarios where you might encounter inconsistency in email or meeting volume: 
+These are some examples of scenarios where you might encounter inconsistency in email or meeting volume:
 
-* **Major holidays**: It is typical to see drops in email and meeting activity around major holidays, which could potentially impact analysis. You can remove these weeks from your outputs if desired.
+* **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
 
 * **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it may be due to archiving. Using this view, you can select a time period where the mail volume is stable.
 
@@ -90,5 +86,3 @@ This is the percentage of measured employees who have a value specified for the 
 
 ### Unique values
 This is the count of the unique attribute values included in the data. For example, if the attribute Region contains North, South, Central, East, West and Southwest, it’s unique values count is 6.
-
-</br>

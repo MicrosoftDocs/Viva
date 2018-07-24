@@ -24,7 +24,7 @@ The task of importing organizational data has three parts:
 2. [Field mapping](#field-mapping)
 3. [Data validation](#data-validation)
 
-After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validatation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
+After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
 ## File upload
 
@@ -40,7 +40,7 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 6. Optionally, select **Add an optional description** and type a description of this upload.
 7. In the Select file section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
 
-  > [!Note] 
+  > [!Note]
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
 
 8. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
@@ -136,9 +136,10 @@ If validation succeeds, the Upload page will indicate it and show the size of th
  
 <img src="../Images/upload6-validated.png" alt="Validation succeeded">
 
-You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded). <!--  Note that this will work only if you are on a native tenant. Demo is still on Volo. -->
+You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded).
 
 On this page, you have the following options:
+
  * Select the eye icon to see a summary of the validation results.
  * Select the hierarchy symbol to see the mapping settings for the workflow.
  * Select the download symbol to see a list of validation warnings.
