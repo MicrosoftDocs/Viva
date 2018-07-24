@@ -22,7 +22,7 @@ After you assign a user license, the new MyAnalytics participant will gain acces
 2. **MyAnalytics elements become available.** After users receive the welcome email, they have access to the elements of MyAnalytics:
    * **MyAnalytics personal dashboard.** Users can visit the Myanalytics personal [dashboard](../Use/Dashboard.md).
    * **Outlook add-in.** Users can see the MyAnalytics [add-in](../Use/add-in.md) in Microsoft Outlook. 
-   * **Weekly email digest.** Users will begin to receive the MyAnalytics [email digest](../Use/email-digests.md). It arrives weekly, on Mondays, starting the first week after they receive the welcome email. 
+   * **Weekly email digest.** Users will begin to receive the MyAnalytics [email digest](../Use/email-digest.md). It arrives weekly, on Mondays, starting the first week after they receive the welcome email. 
    
 
 
