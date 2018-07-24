@@ -41,10 +41,13 @@ The Meeting habits section categorizes the meetings you’ve accepted and shows 
 
 * **Conflicting meetings:** Meetings that overlap with other meetings that you've accepted, and where your status is set to Busy.
 * **Longer meetings:** Meetings that last longer than an hour. 
-* **Recurring meetings:** Meetings that are part of a series or have recurrence. 
-* **After hours meetings:** Meetings that occur outside your working hours, as you’ve defined working hours in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).   
-* **Multitasking in meetings:** Meetings in which you've sent more than two emails or read more than four emails per hour. 
+* **Recurring meetings:** Meetings that are part of a series or have recurrence.   
+* **Multitasking in meetings:** Meetings in which you've sent or read more than a minimum number of emails and/or sent more than a minimum number of messages in Skype for Business.
+* **Late-start meetings:** A meeting is considered to have started late if these circumstances apply:
+    * It was an online meeting.
+    * The organizer joined the meeting more than 5 minutes late, for a meeting that was scheduled to last less than or equal to 30 minutes.
+    * The organizer joined the meeting more than 10 minutes late, for a meeting that was scheduled to last more than 30 minutes. 
 
-Click **View details** to view the specific meetings in each category. 
+Select **View details** to view the specific meetings in each category. 
 
 See [Tips for meetings](../../Overview/Tips.md#tips-for-meetings) for suggestions on how to make your meetings more efficient. 
