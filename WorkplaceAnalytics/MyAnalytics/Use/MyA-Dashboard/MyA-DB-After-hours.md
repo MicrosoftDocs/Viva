@@ -17,9 +17,9 @@ ms.prod: mya
 ### How we calculate after hours
 
 Your after-hours time is the total time that you spent outside your work hours in any of the following activities: 
- * reading or writing email
- * attending meetings whose invitations you've accepted
- * participating in chats or calls in Skype for Business
+ * Reading or writing email
+ * Attending meetings whose invitations you've accepted
+ * Participating in chats or calls in Skype for Business
 
 For example, the time you spend reading or sending email messages on weekends counts as after-hours time.
 
