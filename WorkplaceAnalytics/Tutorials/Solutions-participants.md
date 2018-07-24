@@ -37,7 +37,7 @@ The MyAnalytics [dashboard](../MyAnalytics/use/dashboard.md) is a constantly ava
 ![Participant's dashboard](../Images/WpA/Tutorials/dashboard-prog-partic.png)
 
 #### Email digest
-All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digests.md). In addition to its standard content, the email digest also contains the following section during a program: 
+All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digest.md). In addition to its standard content, the email digest also contains the following section during a program: 
 
 ![Weekly email digest](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
 

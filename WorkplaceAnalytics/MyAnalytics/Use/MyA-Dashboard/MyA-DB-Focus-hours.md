@@ -29,4 +29,3 @@ The MyAnalytics Dashboard displays a total of your weekly focus hours and meetin
 
 See [Tips for focus time](../../Overview/Tips.md#tips-for-focus-time).
 
-

@@ -123,7 +123,7 @@
         - name: Add-in
           href: MyAnalytics/Use/add-in.md
         - name: Email digest
-          href: MyAnalytics/Use/email-digests.md
+          href: MyAnalytics/Use/email-digest.md
         - name: MyAnalytics nudges
           href: MyAnalytics/Use/mya-notifications.md
       - name: MyAnalytics tips
