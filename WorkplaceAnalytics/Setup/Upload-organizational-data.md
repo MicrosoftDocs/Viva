@@ -4,9 +4,9 @@
 
 title: Upload organizational data in Workplace Analytics
 description: How to upload data from your organization to Workplace Analytics. 
-author: paul9955
+author: madehmer
 ms.author: v-pascha
-ms.date: 04/06/2018
+ms.date: 07/23/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -18,52 +18,58 @@ This article presents the steps that administrators take to upload organizationa
 
 ## Import tasks
 
-The task of importing organizational data has three parts: 
+The task of importing organizational data has three parts:
 
 1. [File upload](#file-upload)
 2. [Field mapping](#field-mapping)
 3. [Data validation](#data-validation)
 
-After you have prepared your source data, you upload your .csv file and map fields. After you map fields, data validation might or might not succeed. If the data successfully validates, the overall data-import task is complete. If the data at first does not validate, you can choose from among further options, which are described in [Validation fails](#validation-fails).
+After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validatation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
 ## File upload
 
-In this procedure, you specify a .csv file to upload to Workplace Analytics.
+In the following steps, you specify a .csv file to upload to Workplace Analytics.
 
 **To select the file to upload**
 
 1. Go to the Workplace Analytics Home page.
 2. In the left navigation pane, select **Settings**.
 3. Select **Organizational data**. The Upload history area of this page displays the previous data uploads from your organization.
-4. Select **New upload**. This displays the Organizational data > Upload page.
-5. Select **Name your upload**, and then type the name of your new upload file. <!--FORMER: A “workflow” is the action of uploading your organization’s data.-->
+4. Select **New upload**.
+5. On the Upload page, select **Name your upload**, and then type the name of your new upload file.
 6. Optionally, select **Add an optional description** and type a description of this upload.
 7. In the Select file section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
 
   > [!Note] 
-  > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Replace organizational data_. 
+  > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
 
 8. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
-9. To replace organizational data, in the Select file area, select **Show advanced options**. This opens the Append or replace area.
-10. In the Append or replace section, select **Replace all existing organizational data with this file**. Note the warning that states “This option permanently deletes all previously uploaded organizational data.”
-11. In the warning message that is displayed, select **Continue**. The data in the specified .csv file replaces the previously uploaded data for your organization.
-12. Continue to [Field mapping](#field-mapping).
+9. To append or replace organizational data, in the Select file area, select **Show advanced options**.
+10. In the Append or replace section, you can select to:
+    * **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes.
+    * **Replace all existing organizational data with this file** to delete all previous HR data uploads and make this the first new HR data upload.
+      > [!Important]
+      > The replace option permanently deletes all previously uploaded organizational data.
+11. After reviewing the warning message, select **Continue** and then [map your fields](#field-mapping).
 
 ## Field Mapping
 
-You need to map the fields (columns) for the source .csv file to field names that Workplace Analytics recognizes. You map these on the Upload page.
+You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these on the Upload page.
 
 <img src="../Images/upload2-map-top.png" alt="Upload page">
 
-The UpLoad page displays two tables: System fields and Custom fields. You use these tables to map the data in your uploaded file.
+The Upload page includes tables for System fields and Custom fields for mapping the data for the upload file.
+
+When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
 ### System default fields table
 
 System default fields represent attributes that are known by Workplace Analytics and are used in specific calculations beyond grouping and filtering. A system field can be either required or optional.
 
-* **Required fields** are identified in two ways. They appear in rows that have dark shading and under the Source column headers, they are identified by the word “Required.” These rows represent data that was found in the uploaded file. For the upload to succeed, you must map the required fields with a column in your .csv file that is the correct data type and meets the validity threshold. 
+* **Required fields** are identified in two ways. Their rows have dark shading and show as “Required" under the Source column header. These rows represent data that was found in the uploaded file. For the upload to succeed, you must map the required fields with a column in your .csv file that is the correct data type and meets the validity threshold.
 
-Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded .csv file, other columns must be present in the .csv file that are mapped to these attributes.
+   >[!Important]
+   >Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded .csv file, other columns must be present in the .csv file that are mapped to these attributes.
 
 * **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Workplace Analytics suggests for use. You don't need to map these fields if your organization doesn't have data for them.
 
@@ -74,7 +80,7 @@ Every required field must have a valid, non-null value in every row. This means 
 ### Columns in the System fields and Custom fields tables
 
 * **Source column** corresponds to each of the fields in the uploaded file.
-* **Workplace Analytics name** is the name for your organization's Workplace Analytics.
+* **Workplace Analytics name** is the name of your organization's Workplace Analytics.
 * **Data type** is the data type of the fields.
 
    >[!Note]
@@ -113,8 +119,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
   </ol>
 
 3. In the Submit for validation area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the .csv file and starts the validation process.
-
-Go to the next procedure, [Data validation](#data-validation).
+4. Next step is to go to [Data validation](#data-validation).
 
 ## Data validation
 
@@ -123,7 +128,7 @@ After you complete the steps in [Field mapping](#field-mapping), the Upload page
 <img src="../Images/upload4-uploading.png" alt="Upload in progress">
  
 > [!Important]  
-> Observe the warning “You must stay logged in while the file is uploading or the upload will be canceled.” This is because the upload takes place with this page in your web browser. Do not close the browser (or this browser page). If you do close it, the upload will fail.
+> You must stay logged in while the file is uploading or the upload will be canceled. The upload requires this page to be open in your web browser during the upload. If you close the browser (or this browser page), the upload will fail.
 
 ## Validation succeeds
 
@@ -131,7 +136,7 @@ If validation succeeds, the Upload page will indicate it and show the size of th
  
 <img src="../Images/upload6-validated.png" alt="Validation succeeded">
 
-You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded). <!--  Note that this will work only work if you are on a native tenant. Demo is still on Volo. -->
+You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded). <!--  Note that this will work only if you are on a native tenant. Demo is still on Volo. -->
 
 On this page, you have the following options:
  * Select the eye icon to see a summary of the validation results.
@@ -139,28 +144,28 @@ On this page, you have the following options:
  * Select the download symbol to see a list of validation warnings.
 
 > [!Note]
-> Each tenant can have only one upload in progress at a time. This means that you must complete the workflow of one data file – either guide it to a successful validation or abandon it – before you begin the workflow of the next data file. By looking at the Start – Mapping – Validation – Complete bar, you can tell whether any data file is in the upload workflow.
+> Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the Upload page.
 
 ## Validation fails
 
 The following illustration shows a failed validation.
 
 <img src="../Images/upload9-val-failed-upload-flow.png" alt="Validation failed">
- 
-After a failed validation, the Data load page shows the Validation failed notification. It also shows details about the validation attempt and it presents you with options.
 
-Before you attempt to address the problem, consider selecting **Download issues**. This displays a log file that describes the problems in your data that might cause validation errors. Use the log to either fix the source data, change your mapping settings, or abandon the current attempt.
+ If a data validation fails, the Data load page shows a failed notification. It also shows details about the validation attempt and presents you with options.
+
+Before you try to address the problem, you can select **Download issues**. This displays a log file that describes the problems in your data that might cause validation errors. Use the log to either fix the source data, change your mapping settings, or abandon the current upload.
 
 > [!Tip]
 > If you have a small number of errors, you’ll probably want to fix them. If you have many errors, you might want to select **Abandon**.
 
 ### Options upon failed validation
 
-* **Abandon** restarts the upload-map-validate process with new data rather than retrying the process with the current data, click **Abandon** (in the upper right corner of the page). Clicking Abandon does not retain any field mappings that you have made. 
+* **Abandon** restarts the upload-map-validate process with new data rather than retrying the process with the current data. Select **Abandon** (at the upper right of the page). This option does not retain any of the field mappings.
 * **Fix** has two options:
-  * **Fix the source data** is recommended because it fixes the data in your source .csv file and increases the quality of data analysis.
+  * **Fix the source data** is recommended because it fixes the data in your source .csv file and increases the quality of the data.
   * **Change the mappings** enables you to change an incorrect data type, to lower the threshold. However, changing the threshold might negatively affect future data analysis. Select **Edit mapping** to set new mapping values, after which you can retry to validate your data file.
-* **Upload file** is different than Abandon in that your mappings are retained with this option. After you select this option, follow the steps in [File upload](#file-upload).
+* **Upload file** retains your field mappings, which is different than the Abandon option. After you select this option, follow the steps in [File upload](#file-upload).
 
 ## Tips
 
