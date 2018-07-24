@@ -51,5 +51,3 @@ The Meeting habits section categorizes the meetings you’ve accepted and shows 
 Select **View details** to view the specific meetings in each category. 
 
 See [Tips for meetings](../../Overview/Tips.md#tips-for-meetings) for suggestions on how to make your meetings more efficient. 
-
-<br>
