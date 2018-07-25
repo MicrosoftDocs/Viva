@@ -16,7 +16,7 @@ ms.prod: wpa
 * **Task** - Determine population in scope for analysis and assign licenses via Office 365
 * **Outcome** - Office 365 licenses are assigned for the population that will be analyzed
 
-The Workplace Analytics sponsor will work with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics. Employees in your organization who are not licensed for analysis but might have meeting, email, or Skype for Business collaboration with measured employees are called _other internal collaborators_.
+The Workplace Analytics sponsor will work with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics. Employees in your organization who are not licensed for analysis but might have meeting, email, or Skype for Business Online collaboration with measured employees are called _other internal collaborators_.
 
 Some organizations analyze the entire population, while others use sub-populations for specific analysis scenarios. 
 
