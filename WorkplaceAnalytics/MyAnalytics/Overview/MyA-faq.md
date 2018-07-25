@@ -58,9 +58,15 @@ For more details, see Privacy [link to privacy docs]
 
 ## Metrics 
 
+### Data sources
+
+#### Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+
+No. Only Exchange Online and Skype for Business Online are used as sources of MyAnalytics data.  
+
 ### Meetings
 
-#### Do “Meeting Hours” include time that I block out for personal work on my calendar? 
+#### Do "Meeting Hours" include time that I block out for personal work on my calendar? 
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting hours. 
 
@@ -134,3 +140,7 @@ The personal dashboard is available to a MyAnalytics user as soon as they receiv
 #### When the dashboard is activated, does it show any historical data or does it start ‘from scratch’? 
 
 Upon activation, MyAnalytics processes historical data for 80 days before the date of activation. No data from before this 80-day limit is displayed in the dashboard. 
+
+#### Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+
+No. Only Exchange Online and Skype for Business Online are used as sources of MyAnalytics data.  
