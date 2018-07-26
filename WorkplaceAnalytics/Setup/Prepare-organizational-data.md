@@ -163,7 +163,7 @@ The data must be supplied in a UTF-8 encoded .csv file and contain a set of requ
 
 **Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.  
 
-> [!Notes]
+> [!Note]
 > * The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above).
 > * All dates should be in the MM/DD/YYYY format.
 >
