@@ -20,7 +20,7 @@ ms.prod: mya
 
 <p></p>
 
-<img src="../../Images/Share-dashboard.png" alt="Share link">
+<img src="../../Images/mya/use/Share-dashboard.png" alt="Share link">
 
 <p></p>
     
@@ -39,7 +39,7 @@ In the following illustration, the Meeting hours section is selected, while Meet
 
 <br/>
 
-<img src="../../Images/Selected-for-sharing.png" alt="Items selected for sharing">
+<img src="../../Images/mya/use/Selected-for-sharing.png" alt="Items selected for sharing">
 
 <br/>
 
