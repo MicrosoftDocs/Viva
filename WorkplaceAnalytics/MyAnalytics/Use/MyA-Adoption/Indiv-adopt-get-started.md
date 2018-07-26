@@ -19,7 +19,7 @@ The information and resources in this section will help you get the most out of 
 
 Specifically, we will lead you through the following phases:
 
-<img src="../../../Images/Adopt-indiv-0.PNG" alt="MyAnalytics change steps">
+<img src="../../../Images/MyA/Adopt-indiv-0.PNG" alt="MyAnalytics change steps">
 
 [Diagnose your problem](Indiv-adopt-diagnose.md): Guides you through a qualitative and a quantitative diagnosis using MyAnalytics. It helps you identify your specific behavior-change objective and the root causes of your collaboration problem.
 

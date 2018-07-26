@@ -31,7 +31,7 @@ After you have clearly defined your purpose for change, diagnosed your collabora
 
 MyAnalytics encourages you to set goals directly in your dashboard, which will allow you to keep track of your progress week over week:
 
-<img src="../../../Images/Adopt-indiv-6.PNG" alt="Edit your goals on the MyAnalytics dashboard">
+<img src="../../../Images/MyA/Adopt-indiv-6.PNG" alt="Edit your goals on the MyAnalytics dashboard">
   
 You can also set your own goal using other MyAnalytics metrics. To start, find the related metric in your dashboard, figure out how much time you usually spend on the thing you want to change, and write it down, along with your desired target. Each week, you can check your dashboard to see how you compare to your goal. For more information on how to create a plan for achieving your goal, see [Habit-building method](Adopt-Habit-building-method.md). 
 

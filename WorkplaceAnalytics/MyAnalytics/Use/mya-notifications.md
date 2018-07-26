@@ -24,17 +24,17 @@ MyAnalytics can display nudges in two ways:
 
 1.  While composing a meeting invitation or an email.
 
- ![Nudges meeting image 01](../../Images/nudges-meeting-01.png)
+ ![Nudges meeting image 01](../../Images/mya/use/nudges-meeting-01.png)
 
  In this example, the nudge is shown at the top of an email, reminding you of the after-hours impact you’ve generated for your colleagues. The nudge suggests that you clarify the email's urgency, so that recipients know if it can wait until working hours. Alternatively, you can hide the nudge temporarily by selecting **Dismiss this message**. 
 
 2. While reading an email or a calendar invitation. 
 
-   ![Nudges email image 02](../../Images/nudges-email-02.png)
+   ![Nudges email image 02](../../Images/mya/use/nudges-email-02.png)
 
 While reading an email, this nudge reminds you of a potential outstanding to-do item for the email sender. Selecting the link takes you to the MyAnalytics Add-in, which shows the list of to-do items. 
  
-![Nudges meeting image 03](../../Images/nudges-meeting-summary_03.png)
+![Nudges meeting image 03](../../Images/mya/use/nudges-meeting-summary_03.png)
 
 
 ## Why don’t I see any MyAnalytics nudges? 
@@ -43,7 +43,7 @@ MyAnalytics nudges are available in the latest versions of Outlook for the web w
 ## Providing feedback 
 You can provide feedback for each nudge by using the feedback control at the bottom of the MyAnalytics Add-in screen. If you send a thumbs down, we’ll show you less of that nudge. 
 
-   ![Nudges feedback button image 04](../../Images/nudges-feedback-04.png)
+   ![Nudges feedback button image 04](../../Images/mya/use/nudges-feedback-04.png)
 
 You can always provide overall feedback by selecting the smiley face in the upper right hand corner of the MyAnalytics Add-in. 
 
@@ -51,19 +51,19 @@ You can always provide overall feedback by selecting the smiley face in the uppe
 
 1. To opt out of MyAnalytics nudges, navigate to the MyAnalytics Add-in by selecting the MyAnalytics button on the ribbon.  
 
-      ![Nudges email image 05](../../Images/nudges-mya-tab-05.png)
+      ![Nudges email image 05](../../Images/mya/use/nudges-mya-tab-05.png)
 
       If you are using Outlook on the web, the MyAnalytics icon can be found in the top right corner of the reading pane, or in the bottom right corner of the compose form.
 
-     ![Nudges email image 06](../../Images/nudges-reply-all-06.png)
+     ![Nudges email image 06](../../Images/mya/use/nudges-reply-all-06.png)
 
 2. Select the gear icon to access Settings.
 
-   ![Nudges email image 7](../../Images/nudges-email-07.png)
+   ![Nudges email image 7](../../Images/mya/use/nudges-email-07.png)
 
 3.  In **Settings**, turn Outlook notifications to **Off**, and then select **Close Settings**.
 
-    ![Nudges email image 8](../../Images/nudges-email-08.png)
+    ![Nudges email image 8](../../Images/mya/use/nudges-email-08.png)
 
 
 <br>

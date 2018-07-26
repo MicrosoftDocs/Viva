@@ -22,4 +22,4 @@ You can click the subject line of a message to open it, or mark all messages fro
 
 MyAnalytics notifies you of messages from Important people if these messages are in your Inbox or its subfolders.
 
-<img src="../../../Images/Email-from-important-people.png" alt="Email from important people">
+<img src="../../../Images/mya/use/Email-from-important-people.png" alt="Email from important people">

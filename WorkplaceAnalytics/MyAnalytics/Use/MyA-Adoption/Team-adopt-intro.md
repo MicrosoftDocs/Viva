@@ -76,7 +76,7 @@ Just as important as defining a cohesive team is to ensure that the people on th
 
 ## Program Phases
 
-<img src="../../../Images/Adopt-teams-1.png" alt="The four program phases">
+<img src="../../../Images/MyA/Adopt-teams-1.png" alt="The four program phases">
  
 The MyAnalytics Team Behavior Change Program has four phases: plan, implement, measure, and reinforce.
 

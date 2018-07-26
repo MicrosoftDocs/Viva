@@ -84,7 +84,7 @@ Ask program participants to follow these instructions:
 1.	Look at the MyAnalytics dashboard and write down the most recent measure for the specified goal metric – for example, focus hours. 
 2.	Repeat this exercise for each of the two prior weeks. Scroll back in time using the date range found at the top of the dashboard, as pictured. 
 
-    <img src="../../../Images/Adopt-teams-4.png" alt="Date range">
+    <img src="../../../Images/MyA/Adopt-teams-4.png" alt="Date range">
 
 3.	Average the three data points and send the average to the program manager to calculate and share the team average.
 
@@ -112,7 +112,7 @@ Typically, a program manager sends a Learning module to their team every other w
 
 Below is a habit-building method based on behavioral science that can be used to help your team turn a selected behavior into a habit using MyAnalytics.
 
-<img src="../../../Images/how-to-make-it-a-habit.png" alt="How to make it a habit">
+<img src="../../../Images/MyA/how-to-make-it-a-habit.png" alt="How to make it a habit">
 
 For more information about Rob Cross’s research, see: [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf).
 
