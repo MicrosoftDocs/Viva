@@ -71,7 +71,7 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 
 ## Step 5: Prepare and upload organizational data
 
-[!INCLUDE [Prepare and upload organizational data](../Setup/Prep-upload-org-data.md)]
+[!INCLUDE [Prepare and upload organizational data](../Setup/Prepare-organizational-data.md)]
 
 ## Step 6: Validate and verify data
 
