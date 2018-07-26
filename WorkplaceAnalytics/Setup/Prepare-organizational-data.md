@@ -166,7 +166,7 @@ The data must be supplied in a UTF-8 encoded .csv file and contain a set of requ
 > [!Note]
 > * The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above).
 > * All dates should be in the MM/DD/YYYY format.
->
+
 ### Attribute description and data coverage requirements
 
 Attribute (column header) | Description of data / data validity | Data coverage requirements
