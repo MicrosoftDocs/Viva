@@ -16,7 +16,7 @@ ms.prod: mya
 
 You can turn a selected behavior into a habit by using MyAnalytics and the habit-building method, which is based on behavioral science.
 
-<img src="../../../Images/MyA/how-to-make-it-a-habit.png" alt="How to make it a habit">
+<img src="../../../Images/MyA/use/how-to-make-it-a-habit.png" alt="How to make it a habit">
 
 For more information about Rob Cross’s research, see the [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf).
 
