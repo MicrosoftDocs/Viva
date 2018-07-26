@@ -28,5 +28,3 @@ To allow administrators to set system defaults, privacy settings, upload and ver
 ### Related topics
 [Use PowerShell to assign roles in Workplace Analytics](../Use/Using-PowerShell-to-Assign-Roles.md)
 
-<br>
-
