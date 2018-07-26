@@ -56,7 +56,7 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these on the Upload page.
 
-<img src="../Images/upload2-map-top.png" alt="Upload page">
+<img src="../images/wpa/setup/upload2-map-top.png" alt="Upload page">
 
 The Upload page includes tables for System fields and Custom fields for mapping the data for the upload file.
 
@@ -100,7 +100,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
 
 1. Map the required fields.
 
-    <img src="../Images/upload2-map-sys-fields.png" alt="System fields table">
+    <img src="../images/wpa/setup/upload2-map-sys-fields.png" alt="System fields table">
 
   <ol type="a"> 
   <li>Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).</li>
@@ -110,7 +110,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
 
 2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it.
 
-   <img src="../Images/upload3-map-custom2.png" alt="Custom fields table">
+   <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
   <ol type="a">
   <li>Under Source column (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select **StartDate**.</li>
@@ -125,7 +125,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
 
 After you complete the steps in [Field mapping](#field-mapping), the Upload page displays the _File is being uploaded_ screen.
 
-<img src="../Images/upload4-uploading.png" alt="Upload in progress">
+<img src="../images/wpa/setup/upload4-uploading.png" alt="Upload in progress">
  
 > [!Important]  
 > You must stay logged in while the file is uploading or the upload will be canceled. The upload requires this page to be open in your web browser during the upload. If you close the browser (or this browser page), the upload will fail.
@@ -134,7 +134,7 @@ After you complete the steps in [Field mapping](#field-mapping), the Upload page
 
 If validation succeeds, the Upload page will indicate it and show the size of the upload and that the overall process is complete.
  
-<img src="../Images/upload6-validated.png" alt="Validation succeeded">
+<img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
 
 You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded).
 
@@ -151,7 +151,7 @@ On this page, you have the following options:
 
 The following illustration shows a failed validation.
 
-<img src="../Images/upload9-val-failed-upload-flow.png" alt="Validation failed">
+<img src="../images/wpa/setup/upload9-val-failed-upload-flow.png" alt="Validation failed">
 
  If a data validation fails, the Data load page shows a failed notification. It also shows details about the validation attempt and presents you with options.
 
