@@ -26,7 +26,5 @@ To allow administrators to set system defaults, privacy settings, upload and ver
 * Follow the instructions in this [support article](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell).
 
 ### Related topics
-[Group-based licenses in Workplace Analytics](../Use/Group-Based-Licensing.md)
-
 [Use PowerShell to assign roles in Workplace Analytics](../Use/Using-PowerShell-to-Assign-Roles.md)
 
