@@ -6,7 +6,7 @@ title: Workplace Analytics Setup -- Assign roles to Workplace Analytics admins a
 description: How to assign roles in Workplace Analytics for admins and analysts.
 author: paul9955
 ms.author: v-leash
-ms.date: 04/19/2018
+ms.date: 07/25/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
