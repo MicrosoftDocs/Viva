@@ -6,7 +6,7 @@ title: Workplace Analytics Setup -- Assign roles to Workplace Analytics admins a
 description: How to assign roles in Workplace Analytics for admins and analysts.
 author: paul9955
 ms.author: v-leash
-ms.date: 04/19/2018
+ms.date: 07/25/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -26,7 +26,5 @@ To allow administrators to set system defaults, privacy settings, upload and ver
 * Follow the instructions in this [support article](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell).
 
 ### Related topics
-[Group-based licenses in Workplace Analytics](../Use/Group-Based-Licensing.md)
-
 [Use PowerShell to assign roles in Workplace Analytics](../Use/Using-PowerShell-to-Assign-Roles.md)
 
