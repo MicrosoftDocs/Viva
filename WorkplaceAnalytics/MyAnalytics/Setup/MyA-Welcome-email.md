@@ -18,9 +18,9 @@ Three days after an administrator assign licenses to MyAnalytics users, they rec
 
 The welcome email consists of several sections, which are illustrated here:
 
-<img src="../../Images/mya/setup/MyA-welcome-email_01.png" alt="Top sections of MyAnalytics welcome email">
+<img src="../../Images/mya/use/MyA-welcome-email_01.png" alt="Top sections of MyAnalytics welcome email">
 
-<img src="../../Images/mya/setup/MyA-welcome-email_02.png" alt="Middle sections of MyAnalytics welcome email">
+<img src="../../Images/mya/use/MyA-welcome-email_02.png" alt="Middle sections of MyAnalytics welcome email">
 
-<img src="../../Images/mya/setup/MyA-welcome-email_03.png" alt="Bottom sections of MyAnalytics welcome email">
+<img src="../../Images/mya/use/MyA-welcome-email_03.png" alt="Bottom sections of MyAnalytics welcome email">
 
