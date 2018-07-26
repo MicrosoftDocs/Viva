@@ -18,7 +18,7 @@ As a MyAnalytics user, you will receive a weekly email digest that gives you key
 
 The following illustration shows some of the contents of this email: 
 
-<img src="../../Images/digest-email.png" alt="Weekly email digest">
+<img src="../../Images/mya/use/digest-email.png" alt="Weekly email digest">
 
 <!---
 If you do not want to receive digest emails from MyAnalytics, you can opt out of the emails using the following steps:

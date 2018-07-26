@@ -29,19 +29,19 @@ The following are typical insights:
 
 **Decrease in focus hours**
 
-   ![Focus hours insight](../../../images/db-insights-01.png)
+   ![Focus hours insight](../../../images/mya/use/db-insights-01.png)
 
 **One-on-ones with one important person**
 
-   ![One-on-ones insight](../../../images/db-insights-02.png)
+   ![One-on-ones insight](../../../images/mya/use/db-insights-02.png)
 
 **Meeting time spent with one particular person**
 
-   ![Time spent with person -- insight](../../../images/db-insights-03.png)
+   ![Time spent with person -- insight](../../../images/mya/use/db-insights-03.png)
 
 **Email interruptions**
 
-   ![Email interruptions insight](../../../images/db-insights-04.png)
+   ![Email interruptions insight](../../../images/mya/use/db-insights-04.png)
 
 #### Announcement insights
 
@@ -49,5 +49,5 @@ Occasionally, MyAnalytics uses an insight to announce a change in the way it wor
 
 **Announcing a new data source: Skype for Business Online**
 
-   ![Announcing data from Skype for Business Online](../../../images/db-insights-05.png)
+   ![Announcing data from Skype for Business Online](../../../images/mya/use/db-insights-05.png)
 

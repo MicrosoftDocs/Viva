@@ -39,8 +39,8 @@ To set up MyAnalytics<!--for users in your organization-->, complete the tasks i
 
 | | Task | Owner | Outcome |
 |---|------|-------|---------|
-| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | [Step 1 - Configure user settings](#step-1-configure-user-settings)  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
-| <img src="../../Images/Team-adopt-plan-checklist-box.PNG"> | [Step 2 - Assign MyAnalytics licenses to users](#step-2-assign-myanalytics-licenses-to-users)  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
+| <img src="../../Images/mya/use/Team-adopt-plan-checklist-box.PNG"> | [Step 1 - Configure user settings](#step-1-configure-user-settings)  | MyAnalytics administrator | Configure MyAnalytics for each user in your organization.  |
+| <img src="../../Images/mya/use/Team-adopt-plan-checklist-box.PNG"> | [Step 2 - Assign MyAnalytics licenses to users](#step-2-assign-myanalytics-licenses-to-users)  | MyAnalytics administrator | Assign licenses to users, which lets them see the statistics and other information that MyAnalytics presents.   |
 
 <!-- 
 

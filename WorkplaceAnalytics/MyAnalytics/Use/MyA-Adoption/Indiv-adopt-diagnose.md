@@ -18,7 +18,7 @@ If you are feeling the pain of collaboration overload, but haven’t identified 
 
 Use a list of questions (qualitative diagnosis) and data from your MyAnalytics dashboard (quantitative diagnosis) to better understand your priorities for managing your collaboration load across five categories: Meetings, Email, Focus Hours, After Hours, and Network.
 
-<img src="../../../Images/Adopt-indiv-05.PNG" alt="MyAnalytics change steps">
+<img src="../../../images/mya/use/Adopt-indiv-05.PNG" alt="MyAnalytics change steps">
 
 ## Qualitative diagnosis
 
@@ -71,7 +71,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### Meetings
 
-<img src="../../../Images/Adopt-indiv-1.PNG" alt="Dashboard Meetings area">  
+<img src="../../../images/mya/use/Adopt-indiv-1.PNG" alt="Dashboard Meetings area">  
  * Is my total number of meetings hours per week as a percentage of my work week very high?
  * How much time as a percentage of my week should I spend in meetings for my job?
  * Are most of the meetings that I attend scheduled by me or by others?
@@ -79,7 +79,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### Email
  
-<img src="../../../Images/Adopt-indiv-2.PNG" alt="Dashboard Email area">
+<img src="../../../images/mya/use/Adopt-indiv-2.PNG" alt="Dashboard Email area">
   
  * Is my total number of email hours per week as a percentage of my work week very high?
  * Am I spending more time writing emails than reading emails?
@@ -88,7 +88,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### Focus Hours
  
-<img src="../../../Images/Adopt-indiv-3.PNG" alt="Dashboard Focus hours area">
+<img src="../../../images/mya/use/Adopt-indiv-3.PNG" alt="Dashboard Focus hours area">
   
  * Is my total number of focus hours per week as a percentage of my work week sufficient?
  * Which days during the week do I typically get the most time to focus?
@@ -96,7 +96,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### After Hours
  
-<img src="../../../Images/Adopt-indiv-4.PNG" alt="Dashboard After Hours area">
+<img src="../../../images/mya/use/Adopt-indiv-4.PNG" alt="Dashboard After Hours area">
   
  * Is my total after-hours number acceptable?
  * Am I collaborating after hours on certain days or every day?
@@ -104,7 +104,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### Network
  
-<img src="../../../Images/Adopt-indiv-5.PNG" alt="Dashboard Network area">
+<img src="../../../images/mya/use/Adopt-indiv-5.PNG" alt="Dashboard Network area">
   
  * Do my time investments in people line up with my top priorities?
  * Are there opportunities for me to meet more with or less with certain individuals?
