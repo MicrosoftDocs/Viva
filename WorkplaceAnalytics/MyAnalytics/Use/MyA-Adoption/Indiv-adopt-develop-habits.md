@@ -16,7 +16,7 @@ ms.prod: wpa
 
 After you have completed the [Diagnose your problem](Indiv-adopt-diagnose.md) and [Set your goal](Indiv-adopt-set-goals.md) steps, you will have the following elements for your behavior change plan: your purpose for change, your behavior-change objective, and your specific and measurable goal. The missing piece is a behavior to achieve your goal and turn into a habit. 
 
-<img src="../../../Images/Adopt-indiv-35.PNG" alt="Behavior-change steps">
+<img src="../../../Images/MyA/use/Adopt-indiv-35.PNG" alt="Behavior-change steps">
 
 Any number of behaviors can support a goal and turn into a habit. For example, if your goal is to reduce your meeting hours by 50%, you could achieve that goal by doing the following:
 

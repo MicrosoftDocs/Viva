@@ -16,7 +16,7 @@ ms.prod: mya
 
 Near the top of the MyAnalytics dashboard is the “Your time” area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your goals. 
 
-<img src="../../../Images/Your-time-dashboard.png" alt="The Your time area of the MyAnalytics dashboard">
+<img src="../../../Images/mya/use/Your-time-dashboard.png" alt="The Your time area of the MyAnalytics dashboard">
 
 ## The stats that you see
 
