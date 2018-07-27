@@ -6,7 +6,7 @@ title: Chart types in Workplace Analytics
 description: Describes the different chart types and how to use the chart features in Workplace Analytics.
 
 author: madehmer
-ms.author: rodonahu
+ms.author: madehmer
 ms.date: 07/27/2018
 ms.topic: get-started-article
 localization_priority: normal 
@@ -15,11 +15,11 @@ ms.prod: wpa
 
 # Chart types in Workplace Analytics
 
-Workplace Analytics has several different chart types that can present your data in a variety of ways.
+Workplace Analytics uses different chart types to show your data in a variety of ways, including bar charts, trend line charts, and distribution charts.
 
 ## About chart data
 
-* By default, Workplace Analytics groups data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any groups beyond the top nine).
+* By default, Workplace Analytics groups chart data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any groups beyond the top nine).
 * Your administrator can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. You can see the name of the group, but not the values. If the size of a group equals zero, the name won't be in the chart.
 * To see different organizations, or other organizational attributes, use the available filters for the charts.
 
@@ -93,20 +93,20 @@ For example, when you set the chart display to group by _level_, all charts in a
 ### To change the date range
 
 1. If needed, select **Settings and filters**.
-2. Under **Chart display**, in the **Time range** menu, select the period you want and then select **Apply**.
+2. Under Chart display, in the **Time range** menu, select the period you want and then select **Apply**.
 
 > [!Note]
-> * The time range options encompass the most recent data loaded and uses the following logic.
+> The time range options encompass the most recent data loaded and uses the following logic:
 > * A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.
 > * For a week that starts in one month and ends in the following month, the data is associated with the month in which the week begins.
 
 ### To change how the charts are grouped
 
 1. If needed, select **Settings and filters**.
-2. Under **Chart display**, in the **Group by** menu, select the organizational attribute to use, and then select **Apply**.
+2. Under Chart display, in the **Group by** menu, select the organizational attribute to use, and then select **Apply**.
 
 ### To add filters
 
 1. If needed, select **Settings and filters**.
-2. Under **Filter summary**, select **Add filter**.
+2. Under Filter summary, select **Add filter**.
 3. Add the filters you want, and then select **Apply**.
