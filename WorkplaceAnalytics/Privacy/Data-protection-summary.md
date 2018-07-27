@@ -12,14 +12,14 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Data-protection considerations: summary
+# Data-protection considerations
 
 ## Workplace Analytics and data protection in your organization
 
 Microsoft Workplace Analytics analyzes email and meeting data from Office 365 and organizational data that you provide. This data pertains to individuals, who have a right to understand how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it. 
 
 > [!Note] 
-> This article is a summary. This subject is handled more thoroughly in [Data-protection considerations when using Workplace Analytics ](Data-protection-considerations.md).
+> For more in-depth information, see [Data-protection considerations when using Workplace Analytics ](Data-protection-considerations.md).
 
 ## Roles and responsibilities
 
