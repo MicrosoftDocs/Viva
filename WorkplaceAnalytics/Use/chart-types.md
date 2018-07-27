@@ -19,13 +19,13 @@ Workplace Analytics has several different chart types that can present your data
 
 ## About chart data
 
-* By default, Workplace Analytics groups data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any beyond the top nine).
-* Your administrator can set a minimum group size threshold that is required for data to show in the chart. If the group size is less than the minimum, the group's data is excluded. You can see the name of the group, but not the values. When the size of a group equals zero, that group is not shown.
-* To see different organizations, or other organizational attributes, use filters in the Chart display.
+* By default, Workplace Analytics groups data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any groups beyond the top nine).
+* Your administrator can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. You can see the name of the group, but not the values. If the size of a group equals zero, the name won't be in the chart.
+* To see different organizations, or other organizational attributes, use the available filters for the charts.
 
 ## Bar charts
 
-Bar charts compare data across groups. Each bar shows the average value for the metric, such as email or meeting hours per person per week in each group for the period selected.
+Bar charts compare data across groups. Each bar shows the average value for the metric, such as email or meeting hours, per person, per week, in each group, and for the period selected.
 
 ![Bar chart](../Images/WpA/Use/Bar-chart.png)
 
@@ -35,11 +35,11 @@ Bar charts compare data across groups. Each bar shows the average value for the 
 
 ### To hide or show a metric in the bar chart
 
-* In the legend below the chart, select the metric name to hide it. Select the metric name again to show it.
+* In the chart's legend (below the chart), select the metric name to hide it. Select the metric name again to show it.
 
 ## Trend line charts
 
-Trend line charts compare metric values over time. The default trend line is the company average. Each line shows the weekly average for the month for the Group by attribute value you have selected, over a rolling 13-month period.
+Trend line charts compare metric values over time. The default trend line is the company average. Each line shows the weekly average for the month, for the Group by attribute value you have selected, and over a rolling 13-month period.
 
 ![Trend line chart](../Images/WpA/Use/trend-line-chart.png)
 
@@ -49,19 +49,19 @@ Trend line charts compare metric values over time. The default trend line is the
 
 ### To remove a group trend line from the chart, but keep it in the legend
 
-* Select the corresponding text in the legend.
+* Select the corresponding group name in the chart's legend (below the chart).
 
-### To remove a group trend line from the chart completely
+### To remove a group trend line
 
-* Select the corresponding bar in the adjacent bar chart.
+* Select the corresponding group bar in the adjacent bar chart to remove its line from the trend chart.
 
-### To reset all added lines from the chart and return to the default view
+### To reset to the default chart
 
-* Select **Reset**.
+* At the top of the chart, select **Reset**, which removes all added lines from the chart and returns it back to the default chart.
 
-### To view the specific values for a date
+### To view chart value details
 
-* On the chart line, hover the cursor on the date you want to see.
+* On the chart line, hover the cursor on the date or data to see more details.
 
 ### To switch between metrics
 
@@ -71,7 +71,7 @@ Trend line charts compare metric values over time. The default trend line is the
 
 Distribution charts compare the distribution of metric values within a group. Each box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected.
 
-Each individual value within a group represents the average value for a person. For example, the person with the highest average is represented by the maximum point on the box plot.
+Each individual value within a group represents the average value for a person. For example, the person with the highest average is represented by the maximum point on each box plot in the chart.
 
 ![Distribution chart](../Images/WpA/Use/Distribution-chart.png)
 
@@ -103,7 +103,7 @@ For example, when you set the chart display to group by _level_, all charts in a
 ### To change how the charts are grouped
 
 1. If needed, select **Settings and filters**.
-2. Under **Chart display**, in the **Group by** menu, select the organizational attribute that you want and then select **Apply**.
+2. Under **Chart display**, in the **Group by** menu, select the organizational attribute to use, and then select **Apply**.
 
 ### To add filters
 
