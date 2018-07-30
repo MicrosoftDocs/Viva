@@ -26,19 +26,19 @@ Use this checklist to help assemble the people and obtain the data and configura
 To quickly obtain an understanding of how Workplace Analytics works and to see an overview of the initial steps for getting Workplace Analytics up and running, watch the following video:
 
 **link only**
-[Admin overview video](https://vimeo.com/user67681885/review/282383279/a849e732b6)
+[Admin overview video](https://aka.ms/WpAAdminOverview_Video)
 
 **link plus image**
-[<img src="../Images/WpA/setup/Admin-overview.png" alt="Admin overview video">](https://vimeo.com/user67681885/review/282383279/a849e732b6)
+[<img src="../Images/WpA/setup/Admin-overview.png" alt="Admin overview video">](https://aka.ms/WpAAdminOverview_Video)
 
 **Try this** 
 Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in their organization
-> [!VIDEO https://www.youtube.com/embed/eZeTkK65RQM]
+> [!VIDEO https://aka.ms/WpAAdminOverview_Video]
 
 **Try this, too** 
 The following video shows common ways in which you can benefit from MyAnalytics:
 
-> [!VIDEO https://www.youtube.com/embed/vBij7cqif_Y]
+> [!VIDEO https://aka.ms/WpAAdminOverview_Video]
 
 ## Preliminary review task
 
