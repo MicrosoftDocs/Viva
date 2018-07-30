@@ -25,10 +25,8 @@ Use this checklist to help assemble the people and obtain the data and configura
 
 To quickly obtain an understanding of how Workplace Analytics works and to see an overview of the initial steps for getting Workplace Analytics up and running, watch the following video:
 
-**link only**
 [Admin overview video](https://aka.ms/WpAAdminOverview_Video)
 
-**link plus image**
 [<img src="../Images/WpA/setup/Admin-overview-sm.png" alt="Admin overview video">](https://aka.ms/WpAAdminOverview_Video)
 
 ## Preliminary review task
