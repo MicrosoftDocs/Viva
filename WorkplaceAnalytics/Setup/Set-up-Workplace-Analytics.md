@@ -29,16 +29,7 @@ To quickly obtain an understanding of how Workplace Analytics works and to see a
 [Admin overview video](https://aka.ms/WpAAdminOverview_Video)
 
 **link plus image**
-[<img src="../Images/WpA/setup/Admin-overview.png" alt="Admin overview video">](https://aka.ms/WpAAdminOverview_Video)
-
-**Try this** 
-Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in their organization
-> [!VIDEO https://aka.ms/WpAAdminOverview_Video]
-
-**Try this, too** 
-The following video shows common ways in which you can benefit from MyAnalytics:
-
-> [!VIDEO https://aka.ms/WpAAdminOverview_Video]
+[<img src="../Images/WpA/setup/Admin-overview-sm.png" alt="Admin overview video">](https://aka.ms/WpAAdminOverview_Video)
 
 ## Preliminary review task
 
