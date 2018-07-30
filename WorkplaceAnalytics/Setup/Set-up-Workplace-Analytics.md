@@ -25,7 +25,7 @@ Use this checklist to help assemble the people and obtain the data and configura
 
 To quickly obtain an understanding of how Workplace Analytics works and to see an overview of the initial steps for getting Workplace Analytics up and running, watch the following video:
 
-> [!VIDEO https://vimeo.com/user67681885/review/282383279/a849e732b6]
+[Admin overview video](https://vimeo.com/user67681885/review/282383279/a849e732b6)
 
 ## Preliminary review task
 
