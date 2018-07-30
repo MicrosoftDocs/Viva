@@ -21,11 +21,13 @@ Use this checklist to help assemble the people and obtain the data and configura
 > [!TIP]
 > This checklist outlines recommended steps and a high-level list of items to consider. It is not intended to be exhaustive. You might want to copy this checklist into a spreadsheet and then customize it for your organization.
 
-### Overview for admins
+### Video: Overview for admins
 
 To quickly obtain an understanding of how Workplace Analytics works and to see an overview of the initial steps for getting Workplace Analytics up and running, watch the following video:
 
+<!--
 [Admin overview video](https://aka.ms/WpAAdminOverview_Video)
+-->
 
 [<img src="../Images/WpA/setup/Admin-overview-sm.png" alt="Admin overview video">](https://aka.ms/WpAAdminOverview_Video)
 
