@@ -48,8 +48,10 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 10. In the Append or replace section, you can select to:
     * **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes.
     * **Replace all existing organizational data with this file** to delete all previous HR data uploads and make this the first new HR data upload.
+
        > [!Important]
        > The replace option permanently deletes all previously uploaded organizational data.
+       
 11. After reviewing the warning message, select **Continue** and then [map your fields](#field-mapping).
 
 ## Field Mapping
