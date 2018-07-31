@@ -17,12 +17,18 @@ Workplace Analytics requires an Office 365 tenant with Exchange Online.  Mailbox
 
 Currently, Workplace Analytics supports multi-tenant and vNext environments. Each mailbox that you want to license must have its data stored in Exchange Online. 
 
-### Workplace Analytics licenses
+### Workplace Analytics licenses and trials
 Workplace Analytics is licensed as an add-on to existing Office 365 subscriptions and does not change the end-user experience in Office 365. 
 
 Workplace Analytics licenses are applied to the mailboxes that you want to analyze. This can be all the employees in your organization or a specific subset. The population of employees that you license are referred to in Workplace Analytics as _measured employees_. 
 
-For more information about Workplace Analytics and how to purchase it, contact your Microsoft account team. 
+Because Workplace Analytics insights are de-identified and aggregated, measured-employee populations typically benefit the most if they consist of at least several hundred people.
+
+Microsoft does not currently offer trials of Workplace Analytics. For more information about Workplace Analytics and how to purchase it, contact your Microsoft account team. 
 
 ### Supported browsers
 Workplace Analytics works with the latest or immediately previous versions of Microsoft Edge, Google Chrome, Apple Safari, Internet Explorer, and Mozilla Firefox.
+
+### FastTrack qualification
+FastTrack services for Workplace Analytics onboarding and training are available for customers who purchase at least 1,000 licenses.
+

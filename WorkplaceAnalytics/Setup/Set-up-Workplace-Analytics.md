@@ -47,9 +47,9 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 
 # Preliminary review task
 
-## Environment requirements for Workplace Analytics
+## Environment and support
 
-[!INCLUDE [Environment requirements](../Setup/Environment-Requirements.md)]
+[!INCLUDE [Environment and support](../Setup/Environment-Requirements.md)]
 
 # Setup tasks
 
