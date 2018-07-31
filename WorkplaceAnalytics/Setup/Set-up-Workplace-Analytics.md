@@ -27,7 +27,7 @@ To prepare for setting up Workplace Analytics, review the following article:
 
 | Review this article | Owner | Outcome |
 |------|-------|---------|
-| [Environment requirements for Workplace Analytics](#environment-requirements-for-workplace-analytics) | Workplace Analytics administrator |  <!-- VERIFY THIS WORDING --> Confirm that all requirements are in place for setting up Workplace Analytics     |
+| [Environment and support aspects of Workplace Analytics](#environment-and-support) | Workplace Analytics administrator |  <!-- VERIFY THIS WORDING --> Confirm that all requirements are in place for setting up Workplace Analytics. Learn about Workplace Analytics licenses, trials, and FastTrack options.  |
 
 ## Setup tasks
 
@@ -47,9 +47,9 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 
 # Preliminary review task
 
-## Environment requirements for Workplace Analytics
+## Environment and support
 
-[!INCLUDE [Environment requirements](../Setup/Environment-Requirements.md)]
+[!INCLUDE [Environment and support](../Setup/Environment-Requirements.md)]
 
 # Setup tasks
 
