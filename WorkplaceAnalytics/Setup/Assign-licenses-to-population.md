@@ -18,17 +18,19 @@ ms.prod: wpa
 
 The Workplace Analytics sponsor will work with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics. Employees in your organization who are not licensed for analysis but might have meeting, email, or Skype for Business Online collaboration with measured employees are called _other internal collaborators_.
 
-Some organizations analyze the entire population, while others use sub-populations for specific analysis scenarios. 
+Some organizations analyze the entire population, while others use sub-populations for specific analysis scenarios.
 
 Once you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population.  
 
 ### License assignment options
 
-Workplace Analytics licenses are assigned just like any other Microsoft 365 product license. You can assign licenses in the following three ways:​
+Workplace Analytics licenses are assigned just like any other Microsoft 365 product license. You can assign licenses the following ways:​
 
- * [Office 365 Admin Center​](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
- * [PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
- * [Group-based licensing](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-groups-assign). Note that Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for your and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level. 
+* [Office 365 Admin Center​](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?uitarget="_blank")
+* [PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershelltarget="_blank")
+* [Group-based licensing](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-groups-assigntarget="_blank")
+  >[!Note]
+  >Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for your and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
 
 #### If mailboxes are not fully migrated to Office 365 Exchange Online
 

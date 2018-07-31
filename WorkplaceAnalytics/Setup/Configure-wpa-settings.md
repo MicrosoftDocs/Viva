@@ -31,7 +31,7 @@ For a complete list of valid times zones, see [Time zones in Workplace Analytics
 3. Select **Save**.
 
 > [!Important]
-> This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
+> This setting change takes effect at the next collaboration data refresh and will not apply to previously calculated data.
 
 ### Working days and working hours
 
