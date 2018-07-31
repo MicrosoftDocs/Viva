@@ -6,7 +6,7 @@ title: Explore meetings overview metrics in Workplace Analytics
 description: Overview of meetings metrics on the Workplace Analytics Explore page.
 author: madehmer
 ms.author: v-midehm
-ms.date: 07/13/2018
+ms.date: 07/31/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -75,11 +75,11 @@ Multitasking indicates that employees might be overloaded, because their using m
 * Multi-tasking can become a cultural norm in organizations exhibiting collaboration overload. Insight can come from investigating norms of managers with high multitasking rates.
 
 ## Conflicting meeting hours
-**Conflicting meeting hours** shows the number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meetings).
+**Conflicting meeting hours** shows the number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meetings, which includes meetings with an accepted, a tentative, or a no-response meeting invite).
 
 ![Conflicting meeting hours](../images/WpA/Use/conflicting-meeting-hours-explore.png)
 
 ### Why it’s important
 Employees who are double-booked might not be able to fully focus or commit to either meeting.
-* Consistently conflicting meetings can result in employees feeling stressed and over-burdened. This can be especially important for managers who are overloaded with meetings and may unintentionally delay or de-prioritize their 1:1 meetings.
+* Consistently conflicting meetings can result in employees feeling stressed and over-burdened. This can especially be important for managers who are overloaded with meetings and may unintentionally delay or de-prioritize their 1:1 meetings.
 * Manager 1:1 meetings with employees are critical for employee development, and if ignored, may lead to employee disengagement and ultimately attrition.
