@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Environment Requirements for Workplace Analytics 
+title: Environment and support aspects of Workplace Analytics 
 description: This article describes what's needed to license Workplace Analytics.
 author: paul9955
 ms.author: rodonahu
-ms.date: 04/26/2018
+ms.date: 07/31/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
