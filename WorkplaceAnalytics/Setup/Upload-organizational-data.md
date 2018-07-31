@@ -26,12 +26,6 @@ The task of importing organizational data has three parts:
 
 After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
-### Video: Upload organizational data
-
-Watch this video to learn how to upload organizational data to Workplace Analytics.
-
-[<img src="../Images/WpA/setup/Upload-org-data.png" alt="Upload organizational data">](https://aka.ms/https://aka.ms/WpAPrepUploadOrgData_Video)
-
 ## File upload
 
 In the following steps, you specify a .csv file to upload to Workplace Analytics.

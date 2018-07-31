@@ -18,6 +18,12 @@ ms.prod: wpa
 
 Organizational data is the information about employees that your company provides to use in Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
 
+### Video: Upload organizational data
+
+Watch this video to learn how to upload organizational data to Workplace Analytics.
+
+[<img src="../Images/WpA/setup/Upload-org-data.png" alt="Upload organizational data">](https://aka.ms/https://aka.ms/WpAPrepUploadOrgData_Video)
+
 ### What is organizational data?
 
 - Individual-level metadata that provides descriptive information of a company’s employees
