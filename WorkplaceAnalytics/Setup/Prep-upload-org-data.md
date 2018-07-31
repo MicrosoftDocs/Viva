@@ -75,7 +75,7 @@ After the .csv file is created, the Workplace Analytics administrator can upload
 
 Watch this video to learn how to upload organizational data to Workplace Analytics.
 
-[<img src="../Images/WpA/setup/Upload-org-data.png" alt="Upload organizational data">](https://aka.ms/https://aka.ms/WpAPrepUploadOrgData_Video)
+[<img src="../Images/WpA/setup/Upload-org-data.png" alt="Upload organizational data">](https://aka.ms/WpAPrepUploadOrgData_Video)
 
 After your upload is submitted successfully, additional validation and processing of your data occurs to complete provisioning. If any problems arise, the Workplace Analytics team will contact your Workplace Analytics administrator.
 
