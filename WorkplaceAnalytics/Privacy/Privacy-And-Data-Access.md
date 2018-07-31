@@ -24,6 +24,12 @@ Workplace Analytics does not encode any specific policy, instead it provides con
 
 This document introduces the privacy controls available to Workplace Analytics administrators. You control both the data and access to the data in Workplace Analytics.
 
+### Video: Privacy
+
+Watch this video to learn how Workplace Analytics handles employee data privacy, and how the Workplace Analytics admin can configure their privacy settings.
+
+[<img src="../Images/WpA/setup/Privacy.png" alt="Privacy video">](https://aka.ms/WpAPrivacy_Video)
+
 ### You decide who gets to see what data
 
 Organizations decide who can have access to seeing the data in Workplace Analytics. You should ensure that primary users receive suitable training in privacy, your company’s policies, and other applicable subject areas before being granted access to the data. The following levels of permission provide access to the data:
