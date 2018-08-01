@@ -23,7 +23,7 @@ Use this checklist to help assemble the people and obtain the data and configura
 
 ### Video: Overview for admins
 
-To quickly obtain an understanding of how Workplace Analytics works and learn about the initial steps for getting Workplace Analytics up and running, watch the following video:
+<!-- REMOVED PER JESSALYNN: To quickly obtain an understanding of how Workplace Analytics works and learn about the initial steps for getting Workplace Analytics up and running, watch the following video: -->
 
 <!-- previous attempts:
 1. 
@@ -35,7 +35,7 @@ To quickly obtain an understanding of how Workplace Analytics works and learn ab
 Now trying with the aka.ms link, not the direct link: 
 -->
 
-<iframe width="640" height="564" src="https://aka.ms/WpAAdminOverview_Video" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282383279" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Preliminary review task
 
