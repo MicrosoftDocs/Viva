@@ -4,7 +4,7 @@
 
 title: Configure MyAnalytics user settings
 description: Configure MyAnalytics settings for new users. 
-author: rodonahu
+author: buntus
 ms.author: v-pascha
 ms.date: 01/19/2018
 ms.topic: get-started-article
@@ -16,7 +16,7 @@ Use the following options to configure MyAnalytics for each user in your organiz
 
 PrivacyMode   | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
-Opt-in (This is the default setting)        | <ul><li>Office 365 data is used for aggregated information shown to licensed users.</li><li>Personal dashboard is available.</li><li>User can opt-out.</li></ul>  | <ul><li>Office 365 data is used for aggregated information shown to licensed users.</li><li>Admins can opt-out unlicensed users through the admin powershell. <!--Unlicensed users can opt-out through the Feature settings menu. THIS MIGHT BE POSSIBLE THROUGH DELVE. PENDING WORD FROM PATB/MATHEW/PETER BERGEN ABOUT WHETHER THIS IS POSSIBLE IN THE DELVE FEATURE SETTINGS PAGE --></li></ul>  
+Opt-in (This is the default setting)        | <ul><li>Office 365 data is used for aggregated information shown to licensed users.</li><li>Personal dashboard is available.</li><li>User can opt-out.</li></ul>  | <ul><li>Office 365 data is used for aggregated information shown to licensed users.</li><li>Admins can opt-out unlicensed users through the admin PowerShell. <!--Unlicensed users can opt-out through the Feature settings menu. THIS MIGHT BE POSSIBLE THROUGH DELVE. PENDING WORD FROM PATB/MATHEW/PETER BERGEN ABOUT WHETHER THIS IS POSSIBLE IN THE DELVE FEATURE SETTINGS PAGE --></li></ul>  
 Opt-out    | <ul><li>Office 365 data is not used for aggregated information shown to licensed users.</li><li> Personal dashboard is not available.</li><li>User can opt-in through the Feature settings menu.</li></ul>   |  <ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul>
 Excluded   |<ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li><li>Dashboard is available.</li><li>User cannot opt-in through the Feature settings menu.</li></ul>  |<ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul>
 
