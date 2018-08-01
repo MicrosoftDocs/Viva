@@ -27,9 +27,15 @@ To quickly obtain an understanding of how Workplace Analytics works and learn ab
 
 <!--
 [Admin overview video](https://aka.ms/WpAAdminOverview_Video)
--->
 
 [<img src="../Images/WpA/setup/Admin-overview-sm.png" alt="Admin overview video">](https://aka.ms/WpAAdminOverview_Video)
+-->
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282383279" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+**Dummy text**
+
+<iframe width="640" height="564" src="../Images/WpA/setup/Admin-overview-sm.png" alt="Admin overview video" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Preliminary review task
 
