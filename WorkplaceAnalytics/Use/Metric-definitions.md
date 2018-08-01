@@ -22,7 +22,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |After-hours collaboration|Number of hours the person spent in meetings and on email outside of working hours.|Person|Hour|No|
 |Collaboration hours|Number of hours the person spent in meetings and on email with at least one other person. Collaboration hours include both internal and external hours. |Person|Hour|Yes|
 |Collaboration hours external|Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domains).|Person|Hour|No|
-|Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes meetings with an accepted, a tentative, or a no-response meeting invite.)|Person|Hour|Yes|
+|Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invites.)|Person|Hour|Yes|
 |Email hours|Number of hours the person spent sending and receiving emails.|Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
 |External network size|Number of people external to the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|No|
@@ -64,7 +64,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Attendee meeting hours|Total number of adjusted meeting hours for all attendees.<br>A _meeting query_ focuses on the meeting as the main entity and reports on the various meeting attributes; a _person query_ looks from a person's perspective and aggregates multiple meetings for the selected time period. Because the two query types have different purposes, their output also differs. |Meeting|Hour|No|
 |Attendees|Number of people who attended the meeting.|Meeting|Count|No|
 |Attendees multitasking|Number of attendees that sent emails during the meeting.<ul><li>In meetings of one hour or less, two or more emails.</li><li>In meetings longer than one hour, two emails per hour. (Example: Sending four emails during a two-hour meeting would count as multitasking.)</li></ul>|Meeting|Count|No|
-|Attendees with conflicting meeting|Number of attendees with meetings that overlap with the meeting (includes all non-declined meetings, which are meetings with an accepted, a tentative, or a no response meeting invite).|Meeting|Count|No|
+|Attendees with conflicting meeting|Number of attendees with meetings that overlap with the meeting (includes all non-declined meetings, which include accepted, tentative, and no responses to meeting invites).|Meeting|Count|No|
 |Emails sent during meetings|Number of emails the person sent during all meetings.|Meeting|Count|No|
 |Invitees|Number of people invited to the meeting.|Meeting|Count|No|
 |Total emails sent during meeting|Number of emails sent during a meeting by all attendees.|Meetings|Count|No|
