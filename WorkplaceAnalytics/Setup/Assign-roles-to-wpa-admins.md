@@ -32,7 +32,7 @@ Watch this video to learn about the differences between the Workplace Analytics 
 [<img src="../Images/WpA/setup/Assign-roles.png" alt="Assign roles video">](https://aka.ms/AssignWpARoles_Video)
 -->
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282383258" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ### To assign users to Workplace Analytics
 * Follow the instructions in this [support article](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell).

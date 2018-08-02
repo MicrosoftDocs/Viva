@@ -34,7 +34,7 @@ Watch this video to learn how Workplace Analytics handles employee data privacy,
 [<img src="../Images/WpA/setup/Privacy.png" alt="Privacy video">](https://aka.ms/WpAPrivacy_Video)
 -->
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282383532" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ### You decide who gets to see what data
 

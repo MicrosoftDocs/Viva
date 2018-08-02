@@ -37,7 +37,7 @@ Use this checklist to help assemble the people and obtain the data and configura
 5. This works: 
 -->
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282383279" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Preliminary review task
 
