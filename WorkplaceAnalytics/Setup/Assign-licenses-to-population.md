@@ -24,7 +24,9 @@ Once you have identified the population in scope, the Office 365 Global administ
 
 ### Video: Assign licenses
 
+<!-- Intro text out for now:
 Watch this video to learn how Workplace Analytics licenses work and how the Office 365 admin can assign Workplace Analytics licenses.
+-->
 
 <!-- old link, with thumbnail
 [<img src="../Images/WpA/setup/Assign-licenses.png" alt="Assign licenses video">](https://aka.ms/AssignWpALicenses_Video)

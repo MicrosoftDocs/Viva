@@ -26,7 +26,9 @@ This document introduces the privacy controls available to Workplace Analytics a
 
 ### Video: Privacy
 
+<!-- out for now
 Watch this video to learn how Workplace Analytics handles employee data privacy, and how the Workplace Analytics admin can configure their privacy settings.
+-->
 
 <!-- old link, with thumbnail
 [<img src="../Images/WpA/setup/Privacy.png" alt="Privacy video">](https://aka.ms/WpAPrivacy_Video)

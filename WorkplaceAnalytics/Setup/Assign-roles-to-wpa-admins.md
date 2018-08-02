@@ -24,7 +24,9 @@ To allow administrators to set system defaults, privacy settings, upload and ver
 
 ### Video: Assign roles
 
+<!-- out for now
 Watch this video to learn about the differences between the Workplace Analytics user roles and how the Office 365 admin can assign these roles.
+-->
 
 <!-- old link, with thumbnail
 [<img src="../Images/WpA/setup/Assign-roles.png" alt="Assign roles video">](https://aka.ms/AssignWpARoles_Video)

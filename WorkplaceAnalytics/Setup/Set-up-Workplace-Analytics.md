@@ -37,8 +37,6 @@ Use this checklist to help assemble the people and obtain the data and configura
 5. This works: 
 -->
 
-To quickly obtain an understanding of how Workplace Analytics works and learn about the initial steps for getting Workplace Analytics up and running, watch the following video:
-
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282383279" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Preliminary review task
