@@ -4,7 +4,7 @@
 
 title: Workplace Analytics Setup -- Configure Workplace Analytics settings
 description: Describes how to configure the settings for Workplace Analytics.
-author: madehmer
+author: buntus
 ms.author: v-midehm
 ms.date: 07/19/2018
 ms.topic: get-started-article
@@ -83,6 +83,18 @@ Once you have examined your privacy needs, you will use the Settings area in Wor
    > Carefully validate that your privacy settings are correct, before you check the "I confirm that all privacy settings are complete" box, you can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
 
 4. To begin the processing of Office 365 data, select the **I confirm that all privacy settings are complete** check box, and then select **Save**.
+
+### Video: Privacy
+
+<!-- out for now
+Watch this video to learn how Workplace Analytics handles employee data privacy, and how the Workplace Analytics admin can configure their privacy settings.
+-->
+
+<!-- old link, with thumbnail
+[<img src="../Images/WpA/setup/Privacy.png" alt="Privacy video">](https://aka.ms/WpAPrivacy_Video)
+-->
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ### Related topic
 [Settings in Workplace Analytics](../Use/Settings.md)
