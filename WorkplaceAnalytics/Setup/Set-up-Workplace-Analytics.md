@@ -21,6 +21,24 @@ Use this checklist to help assemble the people and obtain the data and configura
 > [!TIP]
 > This checklist outlines recommended steps and a high-level list of items to consider. It is not intended to be exhaustive. You might want to copy this checklist into a spreadsheet and then customize it for your organization.
 
+### Video: Overview for admins
+
+<!-- OLD INTRO TEXT: To quickly obtain an understanding of how Workplace Analytics works and learn about the initial steps for getting Workplace Analytics up and running, watch the following video: -->
+
+<!-- previous attempts:
+1. didn't work:
+[Admin overview video](https://aka.ms/WpAAdminOverview_Video)
+2. didn't work: 
+[<img src="../Images/WpA/setup/Admin-overview-sm.png" alt="Admin overview video">](https://aka.ms/WpAAdminOverview_Video)
+3. didn't work: 
+<iframe width="640" height="564" src="https://aka.ms/WpAAdminOverview_Video" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+4. Didn't show the thumbnail specified under id=""
+<iframe width="640" height="564" id="../Images/WpA/setup/Admin-overview-sm.png" src="https://player.vimeo.com/video/282383279" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+5. This works: 
+-->
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
 ## Preliminary review task
 
 To prepare for setting up Workplace Analytics, review the following article:  

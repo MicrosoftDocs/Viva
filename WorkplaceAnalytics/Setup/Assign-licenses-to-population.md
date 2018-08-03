@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics setup steps for meeting exclusions
+title: Workplace Analytics Setup -- Assign licenses to Workplace Analytics users
 description: Set up Workplace Analytics licenses for population in scope for Analysis
 author: paul9955
 ms.author: v-leash
-ms.date: 04/19/2018
+ms.date: 07/31/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -21,6 +21,18 @@ The Workplace Analytics sponsor will work with the Workplace Analytics administr
 Some organizations analyze the entire population, while others use sub-populations for specific analysis scenarios.
 
 Once you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population.  
+
+### Video: Assign licenses
+
+<!-- Intro text out for now:
+Watch this video to learn how Workplace Analytics licenses work and how the Office 365 admin can assign Workplace Analytics licenses.
+-->
+
+<!-- old link, with thumbnail
+[<img src="../Images/WpA/setup/Assign-licenses.png" alt="Assign licenses video">](https://aka.ms/AssignWpALicenses_Video)
+-->
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ### License assignment options
 
