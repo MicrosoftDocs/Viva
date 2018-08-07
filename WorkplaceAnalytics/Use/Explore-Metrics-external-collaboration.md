@@ -44,8 +44,7 @@ Each graph also contains **Trend** and **Distribution** graphs.
 **Trend** graphs show changes over time, for example, the trend of the group average, month by month.
 **Distribution** graphs show the statistical distribution of metrics, such as the minimum and maximum of the group, the median, and upper and lower percentiles. 
 
-**Distribution graphs** can tell you whether your data is symmetrical, how tightly your data is grouped, or whether there are any outliers, and if so, what their values are.
-For more information, see [Workplace Analytics Chart types](../Use/chart-types).
+**Distribution graphs** can tell you whether your data is symmetrical, how tightly your data is grouped, or whether there are any outliers, and if so, what their values are. For more information, see [Workplace Analytics Chart types](../Use/chart-types).
 
 ## Page settings
 
@@ -74,8 +73,9 @@ The **Collaborators** section allows you to group users by **Collaborators**, wh
 ![Collaborators group](../images//WpA/Use/ext-collab-page-settings-collaborators.png)
 
 
+
 >[!Note]
-> Applying any **Group by** menu settings to the **Collaborators** group currently affects all the collaboration graphs simultaneously, with the exception of those graphs related to domains.
+> Applying any **Group by** menu settings to the **Collaborators** group currently affects all the collaboration graphs simultaneously, with the exception of the domain-related graphs.
 
 ### Filters
 
@@ -135,7 +135,7 @@ Group average = trend of average of averages of external network size = sum of a
 Each bar shows external network size (minimum, maximum, median, upper and lower quartile) for measured employees from each organization.
 
 >[!Note]
-> Collaboration filters are not honoured for this chart.
+> Collaboration filters cannot be applied for this chart.
 
 ## External network breadth
 **External network breadth** refers to the number of distinct domains external to the company with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
@@ -156,7 +156,7 @@ Group average = trend of average of averages of external network size = sum of a
 
 **Distribution chart**
 
-Each bar shows ext network size (minimum, maximum, median, upper and lower quartile) for measured employees from each organization.
+Each bar shows external network size (minimum, maximum, median, upper and lower quartile) for measured employees from each organization.
 
 ## External network breadth compared to external network size
 The **External network breadth compared to external network size** graph shows how each organization in the company compares to the company median for **External network size and breadth**.
@@ -171,7 +171,7 @@ An example illustrates the distinction between external network size and eternal
 
 External network breadth shows how many outside groups or domains you have been talking to. If you had only talked to contoso.com, then your external network breadth would be equal to one. If you had been talking to both contoso.com and adatum.com, your external network breadth would be equal to two.
 
-For example, the following graph poses a question about external network breadth compared to external network size. You could use it to help you determine whether small groups in your company might be making a significant number of external connections. Conversely, the graph could show you whether big groups are making relatively few external connections.
+For example, the previous bubble graph poses a question about external network breadth compared to external network size. You could use it to help you determine whether small groups in your company might be making a significant number of external connections. Conversely, the graph could show you whether big groups are making relatively few external connections.
 
 In the bubble graph, if the bubble for your particular organization is found up towards the top right, this means that your organization has made the most external connections and contacted the greatest number of unique domains.
 
@@ -223,7 +223,7 @@ Each bar represents the average number of collaboration hours that tenant measur
 *Average*
 
 The **Average** line on bar charts represents the average of averages = sum of average of collaboration hours for each organization divided by the number of organizations. Average collaboration hours for each organization = total collaboration hours for an organization divided by the number of measured employees in that organization.
-Bars are sorted on hours (descending)
+Bars are sorted on hours (descending).
  
 *Trend chart*
 
@@ -247,7 +247,7 @@ The next graph allows you to see which groups in your company have made the most
 *External network size*
 
 > [!Note]
-> Right-side collaboration filters are not honoured for this chart.
+> Right-side collaboration filters are not honored for this chart.
 
 This bar represents the average external network size for each organization = the total number of non-distinct external contacts with whom the measured employees from this organization had two meaningful interactions in all selected weeks divided by the number of weeks in the selected date range in the page filters on the right.
  
