@@ -40,8 +40,10 @@
             href: ~/Use/Explore-Metrics-meetings-overview.md
           - name: Explore metrics - Management and coaching
             href: ~/Use/Explore-Metrics-management-and-coaching.md
-          - name: Explore metrics - Networks and collaboration
-            href: ~/Use/Explore-Metrics-Networks-and-Collaboration.md
+          - name: Explore metrics – Internal networks
+            href: ~/Use/Explore-Metrics-internal-networks.md
+         - name: Explore metrics – External collaboration
+            href: ~/Use/Explore-Metrics-external-collaboration.md 
           - name: Chart types
             href: ~/Use/Chart-Types.md
           - name: Create queries test
