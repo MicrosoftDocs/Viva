@@ -73,7 +73,8 @@ The **Collaborators** section allows you to group users by **Collaborators**, wh
 
 ![Collaborators group](../images//WpA/Use/ext-collab-page-settings-collaborators.png)
 
->[! Note] 
+
+>[!Note]
 > Applying any **Group by** menu settings to the **Collaborators** group currently affects all the collaboration graphs simultaneously, with the exception of those graphs related to domains.
 
 ### Filters
