@@ -223,7 +223,7 @@ Each bar represents the average number of collaboration hours that tenant measur
  
 *Average*
 
-The **Average** line on bar charts represents the average of averages, whic is the sum of average of collaboration hours for each organization divided by the number of organizations. Average collaboration hours for each organization represent the total collaboration hours for the organization divided by the number of measured employees in that organization.
+The **Average** line on bar charts represents the average of averages, which is the sum of average of collaboration hours for each organization divided by the number of organizations. Average collaboration hours for each organization represent the total collaboration hours for the organization divided by the number of measured employees in that organization.
 Bars are sorted on hours (descending).
  
 *Trend chart*
