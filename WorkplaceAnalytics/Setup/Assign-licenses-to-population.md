@@ -41,8 +41,9 @@ Workplace Analytics licenses are assigned just like any other Microsoft 365 prod
 * [Office 365 Admin Center​](https://aka.ms/Instructions_AssignLicenseUsingO365AdminCenter)
 * [PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
 * [Group-based licensing](https://aka.ms/Instructions_AssignLicenseUsingGBL)
-  > [!Note]
-  > Group-based licensing is currently only available  through the Azure portal. If you primarily use other management portals for group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
+
+   > [!Note]
+   > Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
 
 #### If mailboxes are not fully migrated to Office 365 Exchange Online
 
