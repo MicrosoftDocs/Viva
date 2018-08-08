@@ -53,4 +53,5 @@ If your organization has not fully migrated to Office 365 Exchange Online, you m
 * Contact the FastTrack team to understand the process for analyzing these mailboxes; this will require additional work streams within your organization.
 
 ### Related topics
+
 [Group-based licenses in Workplace Analytics](../Use/Group-Based-Licensing.md)
