@@ -260,7 +260,7 @@ The average external network size for each organization is total number of non-d
 
 *Group average*
 
-**Group average** is the trend of average of averages of external network size,which is the sum of average external network size for each organization divided by number of organizations, where the average external network size for each organization is the total number of external contacts with whom the measured employees from this organization had at least two meaningful interactions divided by number of measured employees in that organization.
+**Group average** is the trend of average of averages of external network size, which is the sum of average external network size for each organization divided by number of organizations, where the average external network size for each organization is the total number of external contacts with whom the measured employees from this organization had at least two meaningful interactions divided by number of measured employees in that organization.
 
 **Distribution chart**
 
