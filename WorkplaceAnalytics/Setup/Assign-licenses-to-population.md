@@ -4,9 +4,9 @@
 
 title: Workplace Analytics Setup -- Assign licenses to Workplace Analytics users
 description: Set up Workplace Analytics licenses for population in scope for Analysis
-author: paul9955
-ms.author: v-leash
-ms.date: 07/31/2018
+author: madehmer
+ms.author: madehmer
+ms.date: 08/08/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -38,11 +38,12 @@ Watch this video to learn how Workplace Analytics licenses work and how the Offi
 
 Workplace Analytics licenses are assigned just like any other Microsoft 365 product license. You can assign licenses the following ways:​
 
-* [Office 365 Admin Center​](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?uitarget="_blank")
-* [PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershelltarget="_blank")
-* [Group-based licensing](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-groups-assigntarget="_blank")
-  >[!Note]
-  >Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for your and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
+* [Office 365 Admin Center​](https://aka.ms/Instructions_AssignLicenseUsingO365AdminCenter)
+* [PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
+* [Group-based licensing](https://aka.ms/Instructions_AssignLicenseUsingGBL)
+
+   > [!Note]
+   > Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
 
 #### If mailboxes are not fully migrated to Office 365 Exchange Online
 
@@ -52,4 +53,5 @@ If your organization has not fully migrated to Office 365 Exchange Online, you m
 * Contact the FastTrack team to understand the process for analyzing these mailboxes; this will require additional work streams within your organization.
 
 ### Related topics
+
 [Group-based licenses in Workplace Analytics](../Use/Group-Based-Licensing.md)
