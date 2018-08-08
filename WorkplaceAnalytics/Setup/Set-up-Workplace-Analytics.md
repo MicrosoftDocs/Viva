@@ -4,9 +4,9 @@
 
 title: Workplace Analytics Setup Checklist
 description: Complete the steps in this checklist to implement Workplace Analytics in your organization
-author: paul9955
+author: madehmer
 ms.author: paul9955
-ms.date: 04/26/2018
+ms.date: 08/08/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -54,7 +54,7 @@ To set up Workplace Analytics, complete the following tasks:
 | | Task | Owners | Outcome |
 |---|------|-------|---------|
 | <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 1 - Determine key personas and assign roles for implementation](#step-1-determine-key-personas-and-roles-for-implementation) |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified     |
-| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 2 - Assign licenses to population in scope for analysis](#step-2-assign-licenses-to-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed   |
+| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 2 - Assign licenses to population in scope for analysis](#step-2-assign-licenses-to-the-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed   |
 | <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 3 - Assign roles to Workplace Analytics Admins and Analysts](#step-3-assign-roles-to-workplace-analytics-admins-and-analysts) | Office 365 global administrator   |     Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.   |
 | <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 4 - Configure Workplace Analytics settings](#step-4-configure-workplace-analytics-settings) |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service by using these rules. Default time zone values are defined in Workplace Analytics.  |
 | <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 5 - Prepare and upload organizational data](#step-5-prepare-and-upload-organizational-data)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |    Workplace Analytics administrators have determined what kind of organizational data to provide and how to upload the data. See [Prepare organizational data](../Setup/Prepare-organizational-data.md) and then [Upload organizational data](../Setup/Upload-organizational-data.md).    |
