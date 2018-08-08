@@ -25,10 +25,10 @@ ms.prod: wpa
 The numbered sections are explained as follows:  
 1. This section shows a summary of the external collaboration and level of engagement during the selected period. 
 2. **Measured employees** are those employees who have been assigned a Workplace Analytics license. This represents the number of measured employees in the tenant. (This number does not change with any filter applied in **Filters**).
- 
+
 3. The **filter group** represents the number of employees who match the filter applied in [Page settings](#page-settings).
-4. This number represents the estimated total cost of external collaboration with external domains, calculated using the formula: total external collaboration hours x the average hourly wage for that tenant (from tenant's configuration).
-5. This number represents the percentage of measured employees who have had one or more external contacts during the selected period. The percentage = the number of measured employees who had at least one external interaction (that is, external collaboration hours > 0/total measured employees) x 100.
+4. This number represents the estimated total cost of external collaboration with external domains, calculated using the formula: total external collaboration hours multiplied by the average hourly wage for that tenant (from tenant's configuration).
+5. This number represents the percentage of measured employees who have had one or more external contacts during the selected period. The percentage is the number of measured employees who had at least one external interaction (that is, external collaboration hours > 0/total measured employees) x 100.
 6. This number represents external collaboration hours as a percentage of the total collaboration hours spent by measured employees. The percentage = number of external collaboration hours/number of total collaboration hours) x 100.
 7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period. (that is, external collaboration hours > 0). (This number does not change with any filter applied in the filter pane).
 
@@ -42,6 +42,7 @@ Each graph allows you to manipulate data based on settings you can choose and ap
 Each graph also contains **Trend** and **Distribution** graphs.
 
 **Trend** graphs show changes over time, for example, the trend of the group average, month by month.
+
 **Distribution** graphs show the statistical distribution of metrics, such as the minimum and maximum of the group, the median, and upper and lower percentiles. 
 
 **Distribution graphs** can tell you whether your data is symmetrical, how tightly your data is grouped, or whether there are any outliers, and if so, what their values are. For more information, see [Workplace Analytics Chart types](../Use/chart-types).
@@ -88,10 +89,10 @@ In the **Filters** section of **Page settings**, you can apply filters by select
 ![Edit page filters](../images/WpA/Use/edit-page-filters.png)
 
 ## External network size and external network breadth
-External network size and external network breadth help show the extent to which persons within a company interact with people outside the company. For example, a sales person would tend to have a greater external network size and breadth than a person whose company role was purely internal.
+**External network size** and **external network breadth** help show the extent to which persons within a company interact with people outside the company. For example, a sales person would tend to have a greater external network size and breadth than a person whose company role was purely internal.
 
 ## External network size 
-External network size refers to the number of people external to the company with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
+**External network size** refers to the number of people external to the company with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
 
 ![External network size](../images//WpA/Use/most-people-collab.png)
 
@@ -99,14 +100,14 @@ External network size refers to the number of people external to the company wit
 
 *Total employees engaged*
 
-This bar represents the total number of distinct tenant measured employees in an organization who have collaborated with any external domain.
+**Total employees engaged** represents the total number of distinct tenant measured employees in an organization who have collaborated with any external domain.
 There is no **Average** line on bar charts.
 
 **Trend chart**
 
 *Group total*
 
-This represents the total count of distinct measured employees across all organizations who have engaged with any external domains in a week.
+**Group total** represents the total count of distinct measured employees across all organizations who have engaged with any external domains in a week.
  
 **Distribution chart**
 
@@ -120,15 +121,15 @@ The next graph allows you to see which groups in your organization are making th
 
 *External network size*
 
-This bar represents the average external network size for the organization = the total number of external contacts with whom the measured employees from this organization had at least two meaningful interactions in all selected weeks divided by number of weeks in the selected date range in the page filters on the right.
+**External network size** represents the average external network size for the organization, which is the total number of external contacts with whom the measured employees from this organization had at least two meaningful interactions in all selected weeks divided by the number of weeks in the selected date range in the page filters on the right.
 
 *Average*
  
-The Average line on bar charts represents the average of averages external network size = sum of average external network size for each organization divided by the total number of organizations.
+The **Average** line on bar charts represents the average of averages external network size, which is the sum of the average external network size for each organization divided by the total number of organizations.
  
 **Trend chart**
 
-Group average = trend of average of averages of external network size = sum of average external network size for each organization divided by the number of organizations.
+**Group average** is the trend of average of averages of external network size, which is the sum of average external network size for each organization divided by the number of organizations.
 
 **Distribution chart**
 
@@ -144,15 +145,15 @@ Each bar shows external network size (minimum, maximum, median, upper and lower 
 
 **Bar chart**
 
-This bar represents the average external network size for the organization = total number of non-distinct external contacts with whom the measured employees from this organization had two meaningful interactions in all the selected weeks divided by number of weeks in the selected date range in the page filters on the right.
+This bar represents the average external network size for the organization, which is the total number of non-distinct external contacts with whom the measured employees from this organization had two meaningful interactions in all the selected weeks divided by the number of weeks in the selected date range in the page filters on the right.
 
 *Average*
  
-The Average line on bar charts represents the average of averages external network size = sum of average external network size for each organization divided by the total number of organizations.
+The **Average** line on the bar chart represents the average of averages external network size, which is the sum of the average external network size for each organization divided by the total number of organizations.
  
 **Trend chart**
 
-Group average = trend of average of averages of external network size = sum of average external network size for each organization divided by the number of organizations.
+**Group average** is the trend of average of averages of external network size, which is the sum of the average external network size for each organization divided by the number of organizations.
 
 **Distribution chart**
 
@@ -175,7 +176,7 @@ For example, the previous bubble graph poses a question about external network b
 
 In the bubble graph, if the bubble for your particular organization is found up towards the top right, this means that your organization has made the most external connections and has contacted the most unique domains.
 
-## Top external domains
+## External domains
 The following graph allows you to see which domains your people spend most time with. You can choose to pivot the data on various settings, such as total collaboration hours, total collaboration cost, or employee engagement.
 
 ![External domains](../images/WpA/Use/ext-domains-most-time.png)
@@ -201,11 +202,11 @@ This bar represents the total number of distinct tenant measured employees who h
 
 *Group total*
 
-The group total = sum of collaboration hours by measured employees with all external domains in a week multiplied by the average hourly wage for that tenant (from tenant's configuration).
+The group total is the sum of collaboration hours by measured employees with all external domains in a week multiplied by the average hourly wage for that tenant (from tenant's configuration).
 
 **Distribution chart**
 
-Each bar shows how much time (minimum, maximum, median, upper and lower quartile) people from the tenant have spent with contoso.com multiplied by the average hourly wage for that tenant (from tenant's configuration). Minimum, maximum, median, upper and lower quartile are shown. Distribution bars are sorted on maximum values descending.
+Each bar shows how much time (minimum, maximum, median, upper and lower quartile) people from the tenant have spent with contoso.com multiplied by the average hourly wage for that tenant (from tenant's configuration). Distribution bars are sorted on maximum values descending.
 There is no distribution to show for number of employees engaged.
 
 The following graph allows you to see which groups spend most time with external people, in collaboration hours.
@@ -217,26 +218,26 @@ The following graph allows you to see which groups spend most time with external
 
 *Collaboration hours*
 
-Collaboration hours = email plus meeting hours combined.
-Each bar represents the average number of collaboration hours that tenant measured employees in that organization have collaborated with external domains, where average = sum of collaboration hours during all selected weeks divided by the number of weeks in the selected date range in the page filters on the right.
+**Collaboration hours** represent email hours plus meeting hours combined.
+Each bar represents the average number of collaboration hours that tenant measured employees in that organization have collaborated with external domains, where average is the sum of collaboration hours during all selected weeks divided by the number of weeks in the selected date range in the page filters on the right.
  
 *Average*
 
-The **Average** line on bar charts represents the average of averages = sum of average of collaboration hours for each organization divided by the number of organizations. Average collaboration hours for each organization = total collaboration hours for the organization divided by the number of measured employees in that organization.
+The **Average** line on bar charts represents the average of averages, whic is the sum of average of collaboration hours for each organization divided by the number of organizations. Average collaboration hours for each organization represent the total collaboration hours for the organization divided by the number of measured employees in that organization.
 Bars are sorted on hours (descending).
  
 *Trend chart*
 
-Group average = trend of average of averages for a week, where average of averages = sum of average collaboration hours for each organization divided by number of organizations.
+**Group average** is the trend of average of averages for a week, where average of averages is the sum of average collaboration hours for each organization divided by the number of organizations.
  
-The average collaboration hours for each organization = sum of collaboration hours for an organization divided by the number of measured employees in that organization.
+The average collaboration hours for each organization represent sum of collaboration hours for an organization divided by the number of measured employees in that organization.
  
 *Distribution chart*
 
 Each bar shows how many collaboration hours (minimum, maximum, median, upper and lower quartile) measured employees from each organization have spent with external domains.
 Distribution bars are sorted on maximum values descending.
   
-Collaboration cost =  Collaboration hours multiplied by the average hourly wage for that tenant (from tenant's configuration).
+Collaboration cost is Collaboration hours multiplied by the average hourly wage for that tenant (from tenant's configuration).
 
 The next graph allows you to see which groups in your company have made the most connections with external people.
 
@@ -246,11 +247,11 @@ The next graph allows you to see which groups in your company have made the most
 
 *External network size*
 
-This bar represents the average external network size for each organization = the total number of non-distinct external contacts with whom the measured employees from this organization had two meaningful interactions in all selected weeks divided by the number of weeks in the selected date range in the page filters on the right.
+This bar represents the average external network size for each organization, which is the total number of non-distinct external contacts with whom the measured employees from this organization had two meaningful interactions in all selected weeks divided by the number of weeks in the selected date range in the page filters on the right.
  
-The average line on bar charts represents the average of averages external network size = the sum of the average external network size for each organization divided by total number of organizations.
+The average line on bar charts represents the average of averages external network size, which is the sum of the average external network size for each organization divided by the total number of organizations.
  
-The average external network size for each org = total number of non-distinct external contacts with whom the measured employees from this organization had two meaningful interactions divided by the number of measured employees in that organization.
+The average external network size for each org is total number of non-distinct external contacts with whom the measured employees from this organization had two meaningful interactions divided by the number of measured employees in that organization.
 
 > [!Note]
 > Right-side collaboration filters cannot be applied for this chart.
@@ -259,7 +260,7 @@ The average external network size for each org = total number of non-distinct ex
 
 *Group average*
 
-The group average = the trend of average of averages of external network size = sum of average external network size for each organization divided by number of organizations, where the average external network size for each organization = total number of external contacts with whom the measured employees from this organization had at least two meaningful interactions divided by number of measured employees in that organization.
+**Group average** is the trend of average of averages of external network size,which is the sum of average external network size for each organization divided by number of organizations, where the average external network size for each organization is the total number of external contacts with whom the measured employees from this organization had at least two meaningful interactions divided by number of measured employees in that organization.
 
 **Distribution chart**
 
