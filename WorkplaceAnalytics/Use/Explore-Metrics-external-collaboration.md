@@ -28,9 +28,9 @@ The numbered sections are explained as follows:
 
 3. The **filter group** represents the number of employees who match the filter applied in [Page settings](#page-settings).
 4. This number represents the estimated total cost of external collaboration with external domains, calculated using the formula: total external collaboration hours multiplied by the average hourly wage for that tenant (from tenant's configuration).
-5. This number represents the percentage of measured employees who have had one or more external contacts during the selected period. The percentage is the number of measured employees who had at least one external interaction (that is, external collaboration hours > 0/total measured employees) x 100.
-6. This number represents external collaboration hours as a percentage of the total collaboration hours spent by measured employees. The percentage = number of external collaboration hours/number of total collaboration hours) x 100.
-7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period. (that is, external collaboration hours > 0). (This number does not change with any filter applied in the filter pane).
+5. This number represents the percentage of measured employees who have had one or more external contacts during the selected period. The percentage is the number of measured employees who had at least one external interaction (that is, external collaboration hours > 0 divided by total measured employees) x 100.
+6. This number represents external collaboration hours as a percentage of the total collaboration hours spent by measured employees. The percentage represents the number of external collaboration hours divided by number of total collaboration hours) x 100.
+7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period (that is, external collaboration hours > 0). This number does not change with any filter applied in the filter pane.
 
 **External collaboration** features various graphs whose titles suggest different ways to analyze your company's external collaboration activity.
 Each graph allows you to manipulate data based on settings you can choose and apply from a drop-down menu, such as collaboration hours or collaboration cost.  
