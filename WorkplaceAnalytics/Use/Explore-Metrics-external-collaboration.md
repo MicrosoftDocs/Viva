@@ -6,7 +6,7 @@ title: Explore External collaboration metrics in Workplace Analytics
 description: An overview of the External collaboration dashboards available in Workplace Analytics.
 author: buntus
 ms.author: v-johtob
-ms.date: 06/05/2018
+ms.date: 08/08/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
