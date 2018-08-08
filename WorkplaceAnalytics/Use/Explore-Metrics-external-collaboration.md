@@ -254,7 +254,7 @@ The average line on bar charts represents the average of averages external netwo
 The average external network size for each org is total number of non-distinct external contacts with whom the measured employees from this organization had two meaningful interactions divided by the number of measured employees in that organization.
 
 > [!Note]
-> Right-side collaboration filters cannot be applied for this chart.
+> Collaboration filters cannot be applied for this chart.
 
 **Trend chart**
 
