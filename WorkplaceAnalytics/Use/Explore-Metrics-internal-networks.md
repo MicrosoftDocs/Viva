@@ -11,10 +11,10 @@ ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
-# Networks and collaboration
+# Internal networks
 
-**Networks and collaboration** 
-In **Explore**, **Internal networks** shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
+**Internal networks** 
+In **Explore**, shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-explore.md)]
 
