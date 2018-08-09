@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-* **Owner** - Office 365 global administrator
+* **Owner** - Office 365 global administrator.
 * **Task** - Assign users for administrators and data analysts to Workplace Analytics service.
 * **Outcome** - Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And, data analysts can log into and use Workplace Analytics once data is provisioned.
 
