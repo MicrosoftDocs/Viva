@@ -40,7 +40,7 @@ Watch this video to learn how Workplace Analytics handles employee data privacy,
 
 Organizations decide who can have access to seeing the data in Workplace Analytics. You should ensure that primary users receive suitable training in privacy, your company’s policies, and other applicable subject areas before being granted access to the data. The following levels of permission provide access to the data:
 
-* **Analyst (Limited)** gives access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
+* **Analyst (Limited Access)** gives access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
 * **Analyst** gives full access to all product features except the administrator features.
 * **Administrator role** gives access to administrator features only.
 * **Program manager** gives access to the Workplace Analytics Home page and lets program managers explore metrics in cases where the minimum group size is enforced. PMs also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
@@ -99,9 +99,9 @@ For the users that you choose to include, you can decide to exclude data based u
 
 ### Level of detail displayed
 
-* **Subject lines displayed** - In meeting query results, you can control whether subject lines are included or not. By default, subject lines are not shown in query results. Subject lines are useful for analysts that want to set up meeting exclusion rules or query meeting data.
+* **Subject lines displayed** in meeting query results enables you to control whether subject lines are included or not. By default, subject lines are not shown in query results. Subject lines are useful for analysts that want to set up meeting exclusion rules or query meeting data.
 
-* **Minimum aggregation size** - In Explore metrics, you can set the minimum group size required to display data. By default, the minimum group size is set to five.
+* **Minimum aggregation size** in Explore metrics enables you to set the minimum group size required to display data. By default, the minimum group size is set to five.
 
 ## Data retention policy
 
