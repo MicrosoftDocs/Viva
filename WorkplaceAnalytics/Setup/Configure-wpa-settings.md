@@ -45,26 +45,26 @@ These default settings are only used for users who have not already set up their
 
 * **Owner** - Workplace Analytics sponsor or Workplace Analytics administrator
 * **Task** - Use company-specific legal and privacy guidelines to define settings to use in Workplace Analytics
-* **Outcome** - After you define and confirm the privacy settings, you are ready to provision the service using these rules
+* **Outcome** - After you define and confirm the privacy settings, you are ready to provision the service to comply with these rules
 
-Being aware of employees’ rights is a key component to ensuring a successful program using Workplace Analytics.  It is important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics.
+Being aware of employees’ rights is a key component to ensuring a successful program with Workplace Analytics. It's important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before setting up and using Workplace Analytics.
 
 Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization selects what data to use in Workplace Analytics.
 
 > [!Important]
 > Please consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
 
-Once you have examined your privacy needs, you will use the Settings area in Workplace Analytics to define the privacy settings for your data.
+After evaluating your privacy needs, you can use the Settings page in Workplace Analytics to define the privacy settings for your organization's data.
 
 ### Detail display
 
 * **Minimum Aggregation Size** - Set the minimum group size required to display data in Explore Metrics. By default, the minimum group size is set to five.
-* Decide to show or hide subject lines in meeting reports
+* Decide to show or hide subject lines in meeting reports.
 
 ### User data exclusions
 
 * Exclude emails/meetings to, or from, specific users, or all users from a domain using “;” as the delimiter
-* Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter.   Terms can be any combination of letters, numbers and special characters, e.g. client attorney privilege; D&I
+* Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter. Terms can be any combination of letters, numbers and special characters, e.g. client attorney privilege; D&I
 
 > [!Note]
 > If you exclude email addresses, do not assign licenses to them.  You should also include all email aliases for  individuals.
