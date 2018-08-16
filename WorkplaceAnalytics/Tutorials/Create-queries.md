@@ -97,7 +97,9 @@ You can create a Person query to investigate if long meetings are a significant 
 
     b. Choose **Add filter**.
 
-    c. In the **Long meeting hours where** section, select **Meeting**, select **Duration­Hours > >= > 2**, and then select **Confirm**.
+    c. In the **Long meeting hours where** section, select **Meeting**, select **Duration­Hours** > greater than or equal to > **2**
+    
+    d. Select **Confirm**.
 
 7. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
 8. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
@@ -147,23 +149,24 @@ Continuing the example from the Person section above, to investigate long meetin
 * Meeting properties: Filters
   * Meetings include at least one person from Operations as attendee
   * Long meetings are two hours or more
-  * Meeting are recurring
+  * Meetings are recurring
 * What data: Metrics
-* Attendees
-* Attendee meeting hours
+  * Attendees
+  * Attendee meeting hours
 
 ### To create a custom Meeting query
 
 1. On the Queries page, select **Meeting**.
-2. In the **Enter query name here** box, enter “Ops long recurring meetings.”
-3. Enter the **Date range** you want, and then in the **Meeting exclusions** menu, select the exclusion rule set that you want.
-4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > **Equals** > **Operations**.
-5. To add a custom filter to include only meetings that are two hours or longer, point to the plus sign, select **Meeting**, and then select **DurationHours** > **>=** > **2**.
-6. To add a custom filter to include only meetings that are recurring, point to the plus sign, select **Meeting**, and then select **IsRecurring** > **=** > **True**.
-7. To add a metric for the number of attendees, in Metrics, select **Add metric** and select **Attendees**, and then edit the display name to 'Total attendees'.
-8. To add a metric for the total meeting hours of attendees, select **Add metric** and select **Attendee meeting hours**, and then edit the display name to 'Total attendee meeting hours.'
-9. Choose **Run query**.
-10. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
+2. Select and change **Enter query name here** to **Long recurring Ops meetings**.
+3. Enter the **Date range** you want, and then for **Meeting exclusions**, select the exclusion rule set that you want.
+4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > equals > **Operations**.
+5. To add a custom filter to include only meetings that are two hours or longer, select the plus sign to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
+6. To add a custom filter to include only meetings that are recurring, select the plus sign to add another filter, then select **Meeting** > **IsRecurring** > equals > **True**.
+7. To add a metric for the number of attendees, in Metrics, select **Add metric**.
+8. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
+9. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
+10. Choose **Run query**.
+11. On the Results page, you can see the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
 
 ### Meeting query results include these columns
 
@@ -174,6 +177,8 @@ Each row of data represents a single meeting, and Meeting query results always c
 * Duration Hours – The length of the meeting in hours
 * Is Recurring – Whether the meeting is part of a recurring series, or not
 * Is Cancelled – Whether the meeting was cancelled, or not
+* Meeting Resource Ids Count - The number of meeting rooms reserved for each meeting  
+* Meeting Resources - Is the alias portion of the meeting room’s primary SMTP address (a semi-colon delimited list for multiple rooms)
 * Total Number of Emails Sent During Meeting – Number of emails sent by attendees during the meeting
 * Subject – Subject line of the meeting
 * Total Accepted – Number of invitees who accepted the meeting
