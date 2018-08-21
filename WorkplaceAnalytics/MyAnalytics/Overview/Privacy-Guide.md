@@ -162,9 +162,9 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
 
        <li>Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies</li>
 
-      <li> Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as laid out by ISO 27001 and 27018</li>
-    </ul>
-  2. Notify data subjects in the event that a breach is detected. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/office365/enterprise/office365-security-incident-response-overview) standard operating procedures.
+      <li> Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as laid out by ISO 27001 and 27018</li></ul>
+
+2. Notify data subjects in the event that a breach is detected. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/office365/enterprise/office365-security-incident-response-overview) standard operating procedures.
 
 3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor data subject requests in the following ways:<ul><li> Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) Microsoft Office 365 Security and Compliance Center and take screenshots 
          <li>Request to restrict processing: use PowerShell to opt users out of MyAnalytics 
