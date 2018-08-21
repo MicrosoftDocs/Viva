@@ -59,7 +59,7 @@ MyAnalytics and Delve are both first-party Microsoft Graph applications and have
 MyAnalytics presents insights through four different surfaces:
 1. [Personal dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard)
 
-2.	[(Outlook Add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in)
+2.	[Outlook Add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in)
 
 3. [Weekly email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest)
  
@@ -83,7 +83,7 @@ These insights are derived from data that is *already available* to users in the
 For example, if users want to determine which colleagues sent them the most email over the past week, they could technically do so without MyAnalytics by manually counting emails from coworkers in their inbox. Similarly, users could determine their coworkers’ average response time to the emails that they send by using timestamp information readily available in their mailbox. MyAnalytics saves users the trouble of having to perform these tedious calculations.
 
 ## Incremental data
-In a few cases, MyAnalytics provides users with *de-identified* information on other users that would not have otherwise been available to them. Both are described below.
+In a few cases, MyAnalytics provides users with *de-identified* information on other users that would not have otherwise been available to them. Both are described in the following table.
 
 
 |Feature| Details| Screenshot|
@@ -119,16 +119,19 @@ Learn more [here.](https://docs.microsoft.com/workplace-analytics/myanalytics/se
 ### How users can opt-in and opt-out
  End users can opt-in or opt-out of MyAnalytics via the Feature Settings menu in Office 365, as shown here:
 
-![Email read rates](../../Images/mya/use/mya-opt-in-out-3.png)|
+![Email read rates](../../Images/mya/use/mya-opt-in-out-3.png)
 
 
-## MyAnalytics vs. Workplace Analytics, Delve, and the Microsoft Graph 
+## MyAnalytics vs. Workplace Analytics, Delve, and the Microsoft Graph
+
 The following section describes the differences between these Microsoft products:
 
-### MyAnalytics vs. Workplace Analytics 
+### MyAnalytics vs. Workplace Analytics
+
 Although MyAnalytics is an individual productivity tool, [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist) allows organizations to view aggregated, de-identified collaboration data of employees. The applications are purchased and licensed separately. If a user opts out of MyAnalytics, this does not impact the opt-in status for Workplace Analytics (and vice versa).
 
-### MyAnalytics vs. Delve 
+### MyAnalytics vs. Delve
+
 MyAnalytics and Delve are both first-party applications based on the Microsoft Graph, and are independent applications with different use cases. Delve uses intelligence to help users discover relevant content and people across their organization. Each application is licensed separately and settings from one do not impact the settings of the other. 
 
 There may be some confusion about this, because MyAnalytics used to be called “Delve Analytics” but was rebranded in fall 2016. The MyAnalytics personal dashboard still shows up in the Delve user interface. However, MyAnalytics will eventually be decoupled from Delve and have its own unique URL.
@@ -136,26 +139,32 @@ There may be some confusion about this, because MyAnalytics used to be called �
 > [!Note] 
 > Administrators and individual users can disable Delve content-discovery functionality without impacting access to MyAnalytics, and vice-versa. The personal dashboard and all other MyAnalytics surfaces will remain functional. Learn more about [Delve administration](https://docs.microsoft.com/en-us/sharepoint/delve-for-office-365-admins).
 
-### Microsoft Graph 
+### Microsoft Graph
+
 MyAnalytics and Delve are first-party applications built on the Microsoft Graph. The Microsoft Graph consists of a set of REST-based API calls that allow developers to interact with the Microsoft technologies that a given organization uses. In order to use these API calls, developers must have specific permissions to access any data they request. Administrators control both the deployment of any Microsoft Graph application and permissions to access these applications.
 
 The Microsoft Graph cannot be turned on or off globally through the Office 365 Admin Center, but administrators can achieve this effect by blocking users’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
 
 ## Employee experience of MyAnalytics
 
-### Dashboard and Outlook Add-in 
+### Dashboard and Outlook Add-in
+ 
 Within one to three days of the assignment of a MyAnalytics license to a user —either as part of an overall E5 license or as an add-on license —the user’s MyAnalytics [personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
 
 ### Welcome email
+
 To notify users that their dashboard and Outlook Add-in have been enabled, MyAnalytics delivers a welcome email within three days of license assignment. The email introduces users to the application and contains a reminder that MyAnalytics is private and personal.
 
 ### Weekly digest email
+
 The week after the welcome email is delivered, users  begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest).
 
 ## GDPR Compliance 
+
 As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics: 
 
-1.	**Secure and protect personal data of data subjects**. 
+1.	**Secure and protect personal data of data subjects**.
+
     All MyAnalytics data is stored in the end user’s Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
      <ul>
        <li>Microsoft will not mine customer data in Exchange Online for advertising</li>
@@ -164,7 +173,7 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
 
       <li> Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as laid out by ISO 27001 and 27018</li></ul>
 
-2. Notify data subjects in the event that a breach is detected. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/office365/enterprise/office365-security-incident-response-overview) standard operating procedures.
+2. **Notify data subjects in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/office365/enterprise/office365-security-incident-response-overview) standard operating procedures.
 
 3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor data subject requests in the following ways:<ul><li> Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) Microsoft Office 365 Security and Compliance Center and take screenshots 
          <li>Request to restrict processing: use PowerShell to opt users out of MyAnalytics 
