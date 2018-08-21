@@ -52,15 +52,21 @@ MyAnalytics and Delve are both first-party Microsoft Graph applications and have
 <li>
 
 **MyAnalytics reminds users that their data is private and secure**. Three days after a MyAnalytics license is assigned to a user, they receive a welcome email that clearly lays out how MyAnalytics works, with a reminder that all of their data is private. The other MyAnalytics user interfaces, such as the weekly email digest and personal dashboard, reinforce this message.</li>
+</ul>
 
 ## How MyAnalytics works
+
 MyAnalytics presents insights through four different surfaces:
 1. [Personal dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard)
+
 2.	[(Outlook Add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in)
+
 3. [Weekly email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest)
+ 
 4.	[Nudges in Outlook](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications)
 
 MyAnalytics provides insights using two types of data:
+
 1.	**Mailbox data**: Email, calendar, and Skype for Business Online chat or call activity that users generate by using Office 365, such as time spent in meetings and emails sent to a specific person.
 
 2.	**Incremental data**: data that would otherwise be unavailable to the user but is presented in an aggregated form designed to protect individual privacy.
@@ -68,7 +74,9 @@ MyAnalytics provides insights using two types of data:
 ## Mailbox data
 Mailbox data represents information that end users already have access to simply by going about their job, such as sending emails, arranging meetings, or chatting with coworkers. MyAnalytics processes and displays this information in new ways that make it actionable.
 
-For example, MyAnalytics provides views that allow users to quickly understand how much time they spend in meetings, and in email every day, who they collaborate with the most, who they are losing touch with, and to whom they have made commitments and requests. Users can take action on this information —they might decide that they spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
+For example, MyAnalytics provides views that allow users to quickly understand how much time they spend in meetings, and in email every day, who they collaborate with the most, who they are losing touch with, and to whom they have made commitments and requests. 
+
+Users can take action on this information —they might decide that they spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
 
 These insights are derived from data that is *already available* to users in their Exchange Online mailbox and Skype for Business Online chat or call history. MyAnalytics simply applies some basic calculations and rules to make that data more actionable. Mailbox data is stored directly in each end user’s Exchange Online mailbox.
 
@@ -77,6 +85,7 @@ For example, if users want to determine which colleagues sent them the most emai
 ## Incremental data
 In a few cases, MyAnalytics provides users with *de-identified* information on other users that would not have otherwise been available to them. Both are described below.
 
+
 |Feature| Details| Screenshot|
 | ---- | --- | --- |
 |Company averages (displayed in the personal dashboard)|For Meeting hours, Email hours, Focus hours, and After hours metrics, MyAnalytics shows users how they compare with the company average. To protect other users’ privacy, this metric does not show if the user’s organization has fewer than five people. It is available only in aggregated form —there is no “drill-down” to see other individuals’ data. To calculate these averages, de-identified metadata from individual user profiles is extracted to a transient store within the Office 365 environment, where it is then processed to produce an average calculation before being distributed to each user’s mailbox. No personally-identifiable information is extracted or transferred, and the process abides by the same compliance policies as Office 365 overall. Note that data from unlicensed users (for example, Exchange Online mailboxes that do not have a MyAnalytics license assigned to them) also contribute to company average calculations, although companies can choose to exclude them and process data only for licensed users (see next section for more details).| ![Meeting hours](../../Images/mya/use/meeting-hours-1.png)
@@ -84,9 +93,7 @@ In a few cases, MyAnalytics provides users with *de-identified* information on o
 
 
 ## Privacy settings
-MyAnalytics provides flexible and configurable controls that are designed to enable organizations and their users to address varying legal and policy needs regarding privacy and use of employee data.
-
-When enabling MyAnalytics for the organization, admins can make the following choices:
+MyAnalytics provides flexible and configurable controls that are designed to enable organizations and their users to address varying legal and policy needs regarding privacy and use of employee data. When enabling MyAnalytics for the organization, admins can make the following choices:
 
 <ul><li>
 
@@ -99,7 +106,9 @@ Admins can configure MyAnalytics to be "default off", meaning that licensed user
 
 Learn more [here.](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist#step-1-configure-user-settings)</li>
 
-<li>Determine which users in sensitive roles should be excluded from incremental data. Some organizations may have users in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark such users as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to such users provided that they are licensed.</li>
+<li>
+
+**Determine which users in sensitive roles should be excluded from incremental data**. Some organizations may have users in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark such users as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to such users provided that they are licensed.</li>
 </ul>
 
  Note that if default settings are used, the following applies: 
@@ -124,7 +133,7 @@ MyAnalytics and Delve are both first-party applications based on the Microsoft G
 
 There may be some confusion about this, because MyAnalytics used to be called “Delve Analytics” but was rebranded in fall 2016. The MyAnalytics personal dashboard still shows up in the Delve user interface. However, MyAnalytics will eventually be decoupled from Delve and have its own unique URL.
 
-> [!Note:] 
+> [!Note] 
 > Administrators and individual users can disable Delve content-discovery functionality without impacting access to MyAnalytics, and vice-versa. The personal dashboard and all other MyAnalytics surfaces will remain functional. Learn more about [Delve administration](https://docs.microsoft.com/en-us/sharepoint/delve-for-office-365-admins).
 
 ### Microsoft Graph 
@@ -157,12 +166,7 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
     </ul>
   2. Notify data subjects in the event that a breach is detected. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/office365/enterprise/office365-security-incident-response-overview) standard operating procedures.
 
-3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor data subject requests in the following ways: 
-  
-<ul>
-<li> 
-
-   Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) Microsoft Office 365 Security and Compliance Center and take screenshots 
+3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor data subject requests in the following ways:<ul><li> Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) Microsoft Office 365 Security and Compliance Center and take screenshots 
          <li>Request to restrict processing: use PowerShell to opt users out of MyAnalytics 
          <li>Delete user data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com)   and then remove user data through the User Management Portal.
     Learn more about [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
