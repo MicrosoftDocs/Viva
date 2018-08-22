@@ -19,22 +19,23 @@ ms.prod: mya
 MyAnalytics is best thought of as a “fitness tracker for the workplace.” Using data generated from everyday work in Office 365, MyAnalytics helps users understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This page answers key questions on how MyAnalytics processes information in a manner that protects end-user privacy and supports compliance with local regulations like 
-[General Data Protection Regulation (GDPR)](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx)
+[General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
 
 ## Summary of key points
 <ul><li>
 
-**MyAnalytics is not designed to enable employee evaluation, tracking, or monitoring**.
+**MyAnalytics is not designed to enable employee evaluation, tracking, or monitoring**.                    
 MyAnalytics provides insights to individual users through a personalized dashboard, a weekly email digest, an Outlook Add-in, and nudges in Outlook. MyAnalytics has no mechanism or option that allows anyone but the end user to access the personalized information displayed through these surfaces, unless that user purposefully and independently shares that information.</li>
 
 <li>
 
-**MyAnalytics does not give end users access to new personally-identifiable information on other coworkers**. 
+**MyAnalytics does not give end users access to new personally-identifiable information on other coworkers**.    
 MyAnalytics converts data into insights by performing calculations on information that end users generate by virtue of going about their work day. The majority of the data that users see in MyAnalytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.</li>
 
 <li>
 
-**MyAnalytics data is processed and stored in the end user’s Exchange Online mailbox**. MyAnalytics processes data from two sources: Exchange Online email and calendar data, and Skype for Business Online chat and call signals. MyAnalytics stores and processes this data inside each end user’s Exchange Online mailbox.</li>
+**MyAnalytics data is processed and stored in the end user’s Exchange Online mailbox**.             
+MyAnalytics processes data from two sources: Exchange Online email and calendar data, and Skype for Business Online chat and call signals. MyAnalytics stores and processes this data inside each end user’s Exchange Online mailbox.</li>
 
 <li>
 
@@ -42,28 +43,30 @@ MyAnalytics converts data into insights by performing calculations on informatio
 
 <li>
 
-**MyAnalytics can be configured so that users must purposefully opt in**. By default, any time a MyAnalytics license is assigned to a user, that user is automatically opted in. However, administrators can configure MyAnalytics to be "default off", so that users can choose for themselves whether to opt in after the license has been assigned to them.</li>
+**MyAnalytics can be configured so that users must purposefully opt in**.     
+By default, any time a MyAnalytics license is assigned to a user, that user is automatically opted in. However, administrators can configure MyAnalytics to be "default off", so that users can choose for themselves whether to opt in after the license has been assigned to them.</li>
 
 <li>
 
-**MyAnalytics and Delve are separate applications with no interdependencies**. 
+**MyAnalytics and Delve are separate applications with no interdependencies**.            
 MyAnalytics and Delve are both first-party Microsoft Graph applications and have no overlap. These applications can be managed and licensed separately, without settings from one impacting the settings of the other.</li>
 
 <li>
 
-**MyAnalytics reminds users that their data is private and secure**. Three days after a MyAnalytics license is assigned to a user, they receive a welcome email that clearly lays out how MyAnalytics works, with a reminder that all of their data is private. The other MyAnalytics user interfaces, such as the weekly email digest and personal dashboard, reinforce this message.</li>
+**MyAnalytics reminds users that their data is private and secure**.         
+Three days after a MyAnalytics license is assigned to a user, they receive a welcome email that clearly lays out how MyAnalytics works, with a reminder that all of their data is private. The other MyAnalytics user interfaces, such as the weekly email digest and personal dashboard, reinforce this message.</li>
 </ul>
 
 ## How MyAnalytics works
 
 MyAnalytics presents insights through four different surfaces:
-1. [Personal dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard)
+1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard)
 
-2.	[Outlook Add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in)
+2.	[Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
 
-3. [Weekly email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest)
+3. [Weekly email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest)
  
-4.	[Nudges in Outlook](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications)
+4.	[Nudges in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
 
 MyAnalytics provides insights using two types of data:
 
@@ -104,7 +107,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 **Determine default opt-in settings**. 
 Admins can configure MyAnalytics to be "default off", meaning that licensed users must individually opt in to MyAnalytics in order to contribute to incremental data and have access to their dashboard and Outlook Add-in. Alternatively, MyAnalytics can be configured to be "default on", meaning that licensed users automatically contribute to incremental data and have access to their dashboard and Outlook Add-in, but can subsequently opt out through the Settings menu.
-Learn more [here](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist#step-1-configure-user-settings)</li>
+Learn more [here](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist#step-1-configure-user-settings)</li>
 
 <li>
 
@@ -127,7 +130,7 @@ The following section describes the differences between these Microsoft products
 
 ### MyAnalytics vs. Workplace Analytics
 
-Although MyAnalytics is an individual productivity tool, [Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist) allows organizations to view aggregated, de-identified collaboration data of employees. The applications are purchased and licensed separately. If a user opts out of MyAnalytics, this does not impact the opt-in status for Workplace Analytics (and vice versa).
+Although MyAnalytics is an individual productivity tool, [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist) allows organizations to view aggregated, de-identified collaboration data of employees. The applications are purchased and licensed separately. If a user opts out of MyAnalytics, this does not impact the opt-in status for Workplace Analytics (and vice versa).
 
 ### MyAnalytics vs. Delve
 
@@ -136,7 +139,7 @@ MyAnalytics and Delve are both first-party applications based on the Microsoft G
 There may be some confusion about this, because MyAnalytics used to be called “Delve Analytics” but was rebranded in fall 2016. The MyAnalytics personal dashboard still shows up in the Delve user interface. However, MyAnalytics will eventually be decoupled from Delve and have its own unique URL.
 
 > [!Note] 
-> Administrators and individual users can disable Delve content-discovery functionality without impacting access to MyAnalytics, and vice-versa. The personal dashboard and all other MyAnalytics surfaces will remain functional. Learn more about [Delve administration](https://docs.microsoft.com/en-us/sharepoint/delve-for-office-365-admins).
+> Administrators and individual users can disable Delve content-discovery functionality without impacting access to MyAnalytics, and vice-versa. The personal dashboard and all other MyAnalytics surfaces will remain functional. Learn more about [Delve administration](https://docs.microsoft.com/sharepoint/delve-for-office-365-admins).
 
 ### Microsoft Graph
 
@@ -148,16 +151,16 @@ The Microsoft Graph cannot be turned on or off globally through the Office 365 A
 
 ### Dashboard and Outlook Add-in
  
-Within one to three days of the assignment of a MyAnalytics license to a user —either as part of an overall E5 license or as an add-on license —the user’s MyAnalytics [personal dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard) and [Outlook Add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in) become available.
+Within one to three days of the assignment of a MyAnalytics license to a user —either as part of an overall E5 license or as an add-on license —the user’s MyAnalytics [personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
 
 ### Welcome email
 
 To notify users that their dashboard and Outlook Add-in have been enabled, MyAnalytics delivers a 
-[Welcome email](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-welcome-email) within three days of license assignment. The email introduces users to the application and contains a reminder that MyAnalytics is private and personal.
+[Welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-welcome-email) within three days of license assignment. The email introduces users to the application and contains a reminder that MyAnalytics is private and personal.
 
 ### Weekly digest email
 
-The week after the welcome email is delivered, users  begin to receive the [weekly digest email](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest).
+The week after the welcome email is delivered, users  begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest).
 
 ## GDPR Compliance 
 
@@ -173,7 +176,7 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
 
       <li> Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as laid out by ISO 27001 and 27018</li></ul>
 
-2. **Notify data subjects in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/en-us/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+2. **Notify data subjects in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/enoffice365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 
 3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor data subject requests in the following ways:<ul><li> Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR). Separately, users can also take screenshots of their MyAnalytics dashboards.
          <li>Request to restrict processing: use PowerShell to opt users out of MyAnalytics 
