@@ -22,10 +22,10 @@ Workplace Analytics uses different chart types to show your data in a variety of
 * By default, Workplace Analytics groups chart data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any groups beyond the top nine).
 * Your administrator can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. You can see the name of the group, but not the values. If the size of a group equals zero, the name won't be in the chart.
 * To see different organizations, or other organizational attributes, use the available filters for the charts.
-* On any chart in the Explore dashboards, you can print charts, download them as images, or download them as a CSV file. To access these export options, select the ellipses icon (...) at the top right of the chart.
+* On any chart in the Explore dashboards, you can print charts, download them as images, or download them as a CSV file. Select the ellipses icon (...) at the top right of the chart to see these export options.
 
 > [!Note]
-> The CSV download contains only the summarized data shown in the chart. It does not include the query data used to generate the chart, so privacy and minimum aggregation rules are all still in effect.
+> The CSV download option contains only the summarized data shown in the chart. It does not include the query data used to generate the chart, so privacy and minimum aggregation rules are all still in effect.
 
 ## Bar charts
 
