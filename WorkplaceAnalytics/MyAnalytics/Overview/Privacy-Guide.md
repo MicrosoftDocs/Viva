@@ -19,7 +19,7 @@ ms.prod: mya
 MyAnalytics is best thought of as a “fitness tracker for the workplace.” Using data generated from everyday work in Office 365, MyAnalytics helps users understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This page answers key questions on how MyAnalytics processes information in a manner that protects end-user privacy and supports compliance with local regulations like 
-[General Data Protection Regulation (GDPR)](http://ec.europa.eu/justice/data-protection/reform/index_en.htm).
+[General Data Protection Regulation (GDPR)](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx)
 
 ## Summary of key points
 <ul><li>
@@ -72,6 +72,7 @@ MyAnalytics provides insights using two types of data:
 2.	**Incremental data**: data that would otherwise be unavailable to the user but is presented in an aggregated form designed to protect individual privacy.
 
 ## Mailbox data
+
 Mailbox data represents information that end users already have access to simply by going about their job, such as sending emails, arranging meetings, or chatting with coworkers. MyAnalytics processes and displays this information in new ways that make it actionable.
 
 For example, MyAnalytics provides views that allow users to quickly understand how much time they spend in meetings, and in email every day, who they collaborate with the most, who they are losing touch with, and to whom they have made commitments and requests. 
@@ -83,8 +84,8 @@ These insights are derived from data that is *already available* to users in the
 For example, if users want to determine which colleagues sent them the most email over the past week, they could technically do so without MyAnalytics by manually counting emails from coworkers in their inbox. Similarly, users could determine their coworkers’ average response time to the emails that they send by using timestamp information readily available in their mailbox. MyAnalytics saves users the trouble of having to perform these tedious calculations.
 
 ## Incremental data
-In a few cases, MyAnalytics provides users with *de-identified* information on other users that would not have otherwise been available to them. Both are described in the following table.
 
+In a few cases, MyAnalytics provides users with *de-identified* information on other users that would not have otherwise been available to them. Both are described in the following table.
 
 |Feature| Details| Screenshot|
 | ---- | --- | --- |
@@ -102,9 +103,8 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 <li>
 
 **Determine default opt-in settings**. 
-Admins can configure MyAnalytics to be "default off", meaning that licensed users must individually opt in to MyAnalytics in order to contribute to incremental data and have access to their dashboard and Outlook Add-in. Alternatively, MyAnalytics can be configured to be "default on", meaning that licensed users automatically contribute to incremental data and have access to their dashboard and Outlook Add-in, but can subsequently opt out through the Settings menu. 
-
-Learn more [here.](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist#step-1-configure-user-settings)</li>
+Admins can configure MyAnalytics to be "default off", meaning that licensed users must individually opt in to MyAnalytics in order to contribute to incremental data and have access to their dashboard and Outlook Add-in. Alternatively, MyAnalytics can be configured to be "default on", meaning that licensed users automatically contribute to incremental data and have access to their dashboard and Outlook Add-in, but can subsequently opt out through the Settings menu.
+Learn more [here](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist#step-1-configure-user-settings)</li>
 
 <li>
 
@@ -112,8 +112,7 @@ Learn more [here.](https://docs.microsoft.com/workplace-analytics/myanalytics/se
 </ul>
 
  Note that if default settings are used, the following applies: 
-
-1.	All users in your organization contribute to incremental data whether or not they have been issued MyAnalytics licenses. 
+1.	All users in your organization contribute to [incremental data](../Overview/privacy-guide.md#incremental-data) whether or not they have been issued MyAnalytics licenses. 
 2.	MyAnalytics is automatically enabled for users after a license is assigned to them. If, instead, you want licensed users to have the choice to opt in, you must change the default settings.
 
 ### How users can opt-in and opt-out
@@ -128,7 +127,7 @@ The following section describes the differences between these Microsoft products
 
 ### MyAnalytics vs. Workplace Analytics
 
-Although MyAnalytics is an individual productivity tool, [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist) allows organizations to view aggregated, de-identified collaboration data of employees. The applications are purchased and licensed separately. If a user opts out of MyAnalytics, this does not impact the opt-in status for Workplace Analytics (and vice versa).
+Although MyAnalytics is an individual productivity tool, [Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist) allows organizations to view aggregated, de-identified collaboration data of employees. The applications are purchased and licensed separately. If a user opts out of MyAnalytics, this does not impact the opt-in status for Workplace Analytics (and vice versa).
 
 ### MyAnalytics vs. Delve
 
@@ -149,15 +148,16 @@ The Microsoft Graph cannot be turned on or off globally through the Office 365 A
 
 ### Dashboard and Outlook Add-in
  
-Within one to three days of the assignment of a MyAnalytics license to a user —either as part of an overall E5 license or as an add-on license —the user’s MyAnalytics [personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
+Within one to three days of the assignment of a MyAnalytics license to a user —either as part of an overall E5 license or as an add-on license —the user’s MyAnalytics [personal dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard) and [Outlook Add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in) become available.
 
 ### Welcome email
 
-To notify users that their dashboard and Outlook Add-in have been enabled, MyAnalytics delivers a welcome email within three days of license assignment. The email introduces users to the application and contains a reminder that MyAnalytics is private and personal.
+To notify users that their dashboard and Outlook Add-in have been enabled, MyAnalytics delivers a 
+[Welcome email](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-welcome-email) within three days of license assignment. The email introduces users to the application and contains a reminder that MyAnalytics is private and personal.
 
 ### Weekly digest email
 
-The week after the welcome email is delivered, users  begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest).
+The week after the welcome email is delivered, users  begin to receive the [weekly digest email](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest).
 
 ## GDPR Compliance 
 
@@ -173,9 +173,9 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
 
       <li> Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as laid out by ISO 27001 and 27018</li></ul>
 
-2. **Notify data subjects in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/office365/enterprise/office365-security-incident-response-overview) standard operating procedures.
+2. **Notify data subjects in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach using [Office 365 incident response](https://docs.microsoft.com/en-us/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 
-3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor data subject requests in the following ways:<ul><li> Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) Microsoft Office 365 Security and Compliance Center and take screenshots 
+3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor data subject requests in the following ways:<ul><li> Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR). Separately, users can also take screenshots of their MyAnalytics dashboards.
          <li>Request to restrict processing: use PowerShell to opt users out of MyAnalytics 
          <li>Delete user data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com)   and then remove user data through the User Management Portal.
     Learn more about [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
