@@ -103,19 +103,26 @@ For the users that you choose to include, you can decide to exclude data based u
 
 * **Minimum aggregation size** in Explore metrics enables you to set the minimum group size required to display data. By default, the minimum group size is set to five.
 
+<!-- 
+8/23 REMOVING ENTIRE DATA RETENTION POLICY SECTION FOR NOW. TILL NEW TEMPORARY WORDING IS READY.
+
+FIRST SECTION TO REMOVE: 
+
 ## Data retention policy
 
 ### For active tenants
-
-<!-- Note as of 25 JUNE 2018: We're discussing this wording today. -->
 
 >[!Note]
 >An active tenant is a tenant that has one or more valid Workplace Analytics licenses.
 
 By default, Workplace Analytics maintains tenant data for only the preceding 24 months, which is a rolling window of 24 months of data. This means that Workplace Analytics will not have any tenant data that is older than 24 months.
 
+END OF FIRST SECTION REMOVED 8/23 -->
+
 <!-- REMOVED PER NIRAJ 25 JUNE 2018
 Even though the default value is 24 months, the rolling windows are configurable at the tenant level. As a tenant, you can lengthen your data-retention period for analysis purposes, or shorten your data-retention period for other purposes, such as GDPR requirements or company policy.  -->
+
+<!-- 8/23 REMOVE FOR NOW SECOND SECTION:
 
 ### For inactive tenants
 
@@ -133,6 +140,8 @@ If no valid user license is currently allocated to the tenant, the policy depend
 * **Expired state** analysts can run queries for the next 30 days, as if the state were still active.
 * **Disabled state** data will remain available for the next 90 days, but only in read-only mode. In this mode, no queries can be executed. Customers can download their data during this time.
 * **Deprovisioned state** tenant data is not available to view or use. The data will be deleted within the next 90 days.
+
+END OF SECOND SECTION REMOVED 8/23 -->
 
 <!-- REMOVED PER NIRAJ 25 JUNE 2018
 >[!Note] 
