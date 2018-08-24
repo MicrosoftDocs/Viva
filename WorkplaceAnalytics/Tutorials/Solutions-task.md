@@ -116,13 +116,13 @@ Use this procedure if you don't yet have a list of people (a .csv file) that you
 
 10. To select a more precise group of people to include in the program, continue with your analysis. Under _Select a question to change the view of your chart_, Workplace Analytics displays several questions, such as _Which groups attend the highest number of meetings?_ 
 
-   Selecting a question displays the answer to the question in the chart. By selecting a question that is relevant to the collaboration problem that you want to solve, you see groups of employees who are most likely to exhibit symptoms of that problem. Selecting a question also orders the displayed groups by the metric (such as meeting hours, focus hours, or number of meetings) that the question asks about. 
+   Selecting a question displays the answer to the question in the chart. By selecting a question that is relevant to the collaboration problem that you want to solve, you see groups of employees who are most likely to exhibit symptoms of that problem. Selecting a question also orders the displayed groups by the metric (such as meeting hours, focus hours, or number of meetings) that the question asks about.
 
    The chart displays vertical bars that represent groups of people. It represents each group in one of two ways: 
 
-   * Groups that reach or exceed the minimum group size are colored blue-green. These groups are large enough for you to analyze. 
+   * Groups that reach or exceed the minimum group size are colored blue-green. These groups are large enough for you to analyze.
 
-   * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutions-conceptual.md#minimum-group-size).) For example, in the organization we are analyzing, the minimum group size is five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown grayed out: 
+   * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutions-conceptual.md#minimum-group-size).) For example, in the organization we are analyzing, the minimum group size is five. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown grayed out: 
 
    ![Groups below the minimum size](../Images/WpA/Tutorials/solutions-task-04.png)
   
