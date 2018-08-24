@@ -106,9 +106,7 @@ For the users that you choose to include, you can decide to exclude data based u
 
 <!-- 8/24 ADDING NEW SECTION ON DATA RETENTION POLICY. This is temporary until the new policy is announced. -->
 
-## Data retention policy
-
-What happens to data after a customer's Workplace Analytics licenses expire? 
+## Data access after license expiration
 
 If your Workplace Analytics licenses expire, you have a 90-day period to download data, in the form of query results. After this 90-day period has passed, you will no longer have access to the Workplace Analytics site. 
 
