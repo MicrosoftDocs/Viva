@@ -15,11 +15,13 @@ ms.prod: mya
 **To see information about a specific email message**
 
 1. In your Sent Items folder in Outlook, select the email message.  
-2. In the Home tab of the ribbon, select **MyAnalytics**. If the MyAnalytics panel is not already open, it opens now. 
+2. In the Home tab of the ribbon, select **MyAnalytics**. If the MyAnalytics panel is not already open, it opens now. At the top of the panel, a card displays information about the message that you selected. 
 
-    At the top of the panel, a card displays information about the message that you selected. For example, the following card describes the status of the message with the subject line "Document for review":
+    <!-- REMOVED PER NOELLE 24 AUGUST 2018: 
+    For example, the following card describes the status of the message with the subject line "Document for review":
   
     <img src="../../Images/mya/use/Ready-for-review.png" alt="Ready for review">
+    -->
 
 3. To see more information about this message, select the card. For the selected message, you see a chart that shows the proportion of recipients who have opened your email, and the number of times people replied to it or forwarded it. 
 
