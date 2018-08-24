@@ -81,4 +81,4 @@ For the users that you choose to include, you can decide to exclude data based u
 
 * Subject lines displayed. In meeting query results, you can control whether subject lines will be included for viewing or not. By default, subject lines are not shown in query results.
 
-* Minimum aggregation size. In Explore Metrics, you can set the minimum group size required to display data. By default, the minimum group size is set to five.
+* Minimum aggregation size. In Explore Metrics, you can set the minimum group size required to display data. By default, the minimum group size is set to five. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five.
