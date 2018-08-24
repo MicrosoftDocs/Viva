@@ -103,8 +103,26 @@ For the users that you choose to include, you can decide to exclude data based u
 
 * **Minimum aggregation size** in Explore metrics enables you to set the minimum group size required to display data. By default, the minimum group size is set to five.
 
+
+<!-- 8/24 ADDING NEW SECTION ON DATA RETENTION POLICY. This is temporary until the new policy is announced. -->
+
+## Data retention policy
+
+What happens to data after a customer's Workplace Analytics licenses expire? 
+
+If your Workplace Analytics licenses expire, you have a 90-day period to download your data. After this 90-day period has passed, you will no longer have access to the Workplace Analytics site. 
+
+During this 90-day period, you can download the results of any queries that you've already run.
+
+**To download query results**
+
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your Microsoft credentials.
+2. Open the Queries page.
+3. Select **Results**. The Results page displays previously run queries.
+4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file. 
+
 <!-- 
-8/23 REMOVING ENTIRE DATA RETENTION POLICY SECTION FOR NOW. TILL NEW TEMPORARY WORDING IS READY.
+8/23 REMOVING ENTIRE OLD DATA RETENTION POLICY SECTION FOR NOW. TILL NEW TEMPORARY WORDING IS READY.
 
 FIRST SECTION TO REMOVE: 
 
