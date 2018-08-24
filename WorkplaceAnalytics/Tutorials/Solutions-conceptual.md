@@ -30,6 +30,8 @@ After you create and upload a .csv file for use in a program, the information in
 
 #### Minimum group size
 
+You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five.
+
 In the Group Details area of the Upload group page, you can check the number of members shown for the uploaded group. (Workplace Analytics obtains this number from the number of rows in the uploaded .csv file.) If this number is less than the minimum group size that was set by the tenant, you cannot submit this group for processing and use.
 
 > [!Note] 

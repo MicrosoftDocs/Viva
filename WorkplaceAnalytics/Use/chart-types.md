@@ -20,6 +20,7 @@ Workplace Analytics uses different chart types to show your data in a variety of
 ## About chart data
 
 * By default, Workplace Analytics groups chart data by organization, and shows the average metric for the nine largest organizations in the chart, as well as the average for all groups (including any groups beyond the top nine).
+* You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five.
 * Your administrator can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. You can see the name of the group, but not the values. If the size of a group equals zero, the name won't be in the chart.
 * To see different organizations, or other organizational attributes, use the available filters for the charts.
 
