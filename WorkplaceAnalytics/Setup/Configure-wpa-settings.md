@@ -58,7 +58,7 @@ After evaluating your privacy needs, you can use the Settings page in Workplace 
 
 ### Detail display
 
-* **Minimum Aggregation Size** - Set the minimum group size required to display data in Explore Metrics. By default, the minimum group size is set to five.
+* **Minimum Aggregation Size** - Set the minimum group size required to display data in Explore Metrics. By default, the minimum group size is set to five.You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five.
 * Decide to show or hide subject lines in meeting reports.
 
 ### User data exclusions
