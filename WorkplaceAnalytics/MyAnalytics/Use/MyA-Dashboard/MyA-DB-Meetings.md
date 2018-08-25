@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Meeting hours
+## Meetings
 
 ### How we calculate meeting hours 
 Meeting hours consist of any meetings that you’ve organized or accepted that have at least one other person attending. Meeting hours include meetings that take place during your work hours outside your work hours. After-hours meeting time also counts toward your after-hours total. 
