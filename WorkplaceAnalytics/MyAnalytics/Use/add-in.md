@@ -34,8 +34,6 @@ MyAnalytics draws email and meeting data from Outlook, notices patterns, and the
 
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 
-## Further information
-
 [!INCLUDE [Important people](../Overview/Important-people.md)]
 
 See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
