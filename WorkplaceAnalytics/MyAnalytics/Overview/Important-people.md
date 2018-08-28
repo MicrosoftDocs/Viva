@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-# Important people list
+## Important people list
 
 Use the Important people card to manage relationships and keep in touch with priority members of your network. By using this card, you can add or remove people from your Important people list. This lets you receive notifications when you've missed an email from someone on your list or not followed up on a to-do task for that person.  
 
