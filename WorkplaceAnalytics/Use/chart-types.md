@@ -7,7 +7,7 @@ description: Describes the different chart types and how to use the chart featur
 
 author: madehmer
 ms.author: madehmer
-ms.date: 07/27/2018
+ms.date: 08/22/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -23,6 +23,10 @@ Workplace Analytics uses different chart types to show your data in a variety of
 * You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five.
 * Your administrator can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. You can see the name of the group, but not the values. If the size of a group equals zero, the name won't be in the chart.
 * To see different organizations, or other organizational attributes, use the available filters for the charts.
+* On any chart in the Explore dashboards, you can print charts, download them as images, or download them as a CSV file. Select the ellipses icon (...) at the top right of the chart to see these export options.
+
+> [!Note]
+> The CSV download option contains only the summarized data shown in the chart. It does not include the query data used to generate the chart, so privacy and minimum aggregation rules are all still in effect.
 
 ## Bar charts
 
@@ -84,7 +88,7 @@ Each individual value within a group represents the average value for a person. 
 
 * At the top of the chart, select the metric that you want to show in the chart, such as percentages or hours.
 
-## Chart Settings and filters
+## Chart settings and filters
 
 Use **Settings and filters** to change the time range of the data, to change the attribute to group in the charts, and to apply filters.
 
