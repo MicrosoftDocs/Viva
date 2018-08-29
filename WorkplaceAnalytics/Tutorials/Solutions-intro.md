@@ -27,13 +27,9 @@ For more information about the real-world change programs that Teamwork solution
 
 For a step-by-step walkthrough that uses the capabilities of this feature to create a program, see [Solution: Walkthrough](solutions-task.md).    
 
-### Video: Solution overview 1
+### Video: Solution overview
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/67681885" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
-### Video: Solution overview 2
-
-<iframe width="640" height="564" src="https://vimeo.com/user67681885/" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/287139611" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Prerequisites for using Teamwork solution
 
