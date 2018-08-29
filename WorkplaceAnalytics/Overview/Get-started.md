@@ -37,3 +37,8 @@ Workplace Analytics gives you different ways to explore your data.
 [**Queries**](../tutorials/create-queries.md) give you the flexibility to dive deeper into your organization’s behavioral metrics to generate insights. You can create three types of queries in Workplace Analytics: Person, Group, and Meeting. Each query type can help answer specific questions you may be investigating.
 
 [**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page. 
+
+## Workplace Analytics playbooks
+
+* The [Workplace Analytics Collaboration Overload Playbook](https://go.microsoft.com/fwlink/?linkid=2002306&clcid=0x409) explains how to develop informed strategies around changing organizational collaboration behavior and improving business outcomes.
+* The [Workplace Analytics Workspace Planning Playbook](https://go.microsoft.com/fwlink/?linkid=2002305&clcid=0x409) quantifies the working relationships and habits of teams to optimize workspace allocation and improve employee connections and collaboration.
