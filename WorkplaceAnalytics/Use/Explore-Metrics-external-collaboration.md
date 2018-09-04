@@ -29,7 +29,7 @@ External collaboration features various graphs whose titles suggest different wa
 
 ## Trend and Distribution graphs
 
-Most graphs also include Trend and Distribution graphs, with some exceptions.
+Most graphs include Trend and Distribution graphs also, with some exceptions.
 
 **Trend** graphs show changes over time, for example, the trend of the group average, month by month.
 
@@ -55,6 +55,9 @@ Explanation of numbered sections:
 ## Top external domains
 
 The following graph shows the top external domains that people in the company spend most time with. You can choose to pivot the data on various settings, such as total collaboration hours, total collaboration cost, or number of employees engaged.
+
+>[!Note] 
+> Personal email domains such as hotmail.com, live.com and so forth, are included in overall metric calculations but are hidden from the "Top external domains" chart to reduce "noise".  
 
 ![External domains](../images/WpA/Use/ext-domains-most-time.png)
 
