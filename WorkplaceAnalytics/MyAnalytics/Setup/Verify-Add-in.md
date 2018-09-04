@@ -32,4 +32,6 @@ You can confirm that the MyAnalytics Outlook add-in is installed by looking in t
 
 5. Confirm that the MyAnalytics add-in is in the list of installed add-ins that are displayed on the page.
 
+<!-- Deleted 4 Sept. 2018. "dr-ivan" commented on this in GitHub. Noelle verified that this is wrong, so I'm removing it. 
 If the MyAnalytics Outlook add-in is not installed, you can install it manually with these instructions. You can also view the [MyAnalytics manifest](https://agave.o365weve.com/manifest/Delve%20Analytics%20Official%20.xml).
+-->
