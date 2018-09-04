@@ -40,7 +40,7 @@ Workplace Analytics gives you different ways to explore your data.
 
 [**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page.
 
-**Page settings** pane that opens on the right side of both the Explore and Solutions pages, enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query).
+**Page settings** for both the Explore and Solutions pages (open on the right side) enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query or solution).
 
 ![Page settings](../Images/WpA/Overview/page-settings.png)
 
