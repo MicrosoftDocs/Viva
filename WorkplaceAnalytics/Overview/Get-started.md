@@ -32,6 +32,10 @@ Workplace Analytics gives you different ways to explore your data.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers and employees.
 * [**Networks and collaboration**](../use/explore-metrics-networks-and-collaboration.md) gives a summary of the network patterns within the company.
 
+On the Explore page, you can use the Page settings pane (open on the right) to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. Active employees are those who sent at least one email during the set date range.
+
+![Page settings](../Images/WpA/Overview/page-settings.png)
+
 [**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
 
 [**Queries**](../tutorials/create-queries.md) give you the flexibility to dive deeper into your organization’s behavioral metrics to generate insights. You can create three types of queries in Workplace Analytics: Person, Group, and Meeting. Each query type can help answer specific questions you may be investigating.
