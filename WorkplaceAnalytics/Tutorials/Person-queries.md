@@ -48,7 +48,7 @@ You can use organizational attributes to further summarize the person results an
 It’s simple to set up a person query.
 
 * Select whether you want each person’s metrics summarized by day, week or month, and the period you’d like to analyze.
-* Select if you want active, inactive, or all employees included in the query. Active employees are those who sent at least one email during the set data range for the query.
+* Select if you want active, inactive, or all employees included in the query. Active employees are those who sent at least one email during the set time period (the aggregated period set for the query).
 * Select a custom rule set to exclude meetings from the calculations, otherwise it'll use the default.
 
 ![Create person query](../Images/WpA/Tutorials/create-person-query2.png)

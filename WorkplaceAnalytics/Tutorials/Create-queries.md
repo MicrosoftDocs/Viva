@@ -89,7 +89,7 @@ You can create a Person query to investigate if long meetings are a significant 
 1. On the Queries page, select **Person**.
 2. In the **Enter query name here** box, enter **Operations long meetings**.
 3. In the **Group by** menu, select **Week**, select the date range you want, and then in the **Meeting exclusions** menu, select the exclusion rule set.
-4. For **Included employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email during the set date range for this query.
+4. For **Included employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email during the aggregated time period (date range) set for this query.
 5. In the **Filters** section, select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
 6. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
 7. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.

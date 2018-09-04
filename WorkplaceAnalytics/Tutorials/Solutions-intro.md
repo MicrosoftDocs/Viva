@@ -16,8 +16,8 @@ ms.prod: wpa
 
 By combining the power of Workplace Analytics and MyAnalytics, the Teamwork solution feature helps you transform insights from Workplace Analytics into targeted change programs across your organization. Targeted change programs are available for reducing meeting load, increasing focus time, and maintaining work-life balance. By using the Teamwork solution feature, you can do the following:
 
-1. Use Workplace Analytics to identify groups that are experiencing meeting load, lack of focus time, or lack of work-life balance. 
-2. Set up 12-week change programs for the identified groups with goals, recommended habits, and additional context. The members of the group experience the change program through [MyAnalytics](../myanalytics/mya-landing-page.md). 
+1. Use Workplace Analytics to identify groups that are experiencing meeting load, lack of focus time, or lack of work-life balance.
+2. Set up 12-week change programs for the identified groups with goals, recommended habits, and additional context. The members of the group experience the change program through [MyAnalytics](../myanalytics/mya-landing-page.md).
 3. Measure the progress of the program while it is underway, and the ROI of the program after it has finished. 
  
    > [!Note] 
@@ -25,7 +25,7 @@ By combining the power of Workplace Analytics and MyAnalytics, the Teamwork solu
 
 For more information about the real-world change programs that Teamwork solution enables, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->
 
-For a step-by-step walkthrough that uses the capabilities of this feature to create a program, see [Solution: Walkthrough](solutions-task.md).    
+For a step-by-step walkthrough that uses the capabilities of this feature to create a program, see [Solution: Walkthrough](solutions-task.md).
 
 ### Video: Solution overview
 
@@ -33,17 +33,17 @@ For a step-by-step walkthrough that uses the capabilities of this feature to cre
 
 ## Prerequisites for using Teamwork solution
 
-Here are the prerequisites for using Teamwork solution: 
+Here are the prerequisites for using Teamwork solution:
 
- * Obtain licenses to both Workplace Analytics and MyAnalytics for the groups that will experience change programs. 
+ * Obtain licenses to both Workplace Analytics and MyAnalytics for the groups that will experience change programs.
  * Identify people in your organization to whom to assign the following roles: 
     * <u>Analyst.</u> Analysts help identify opportunities for change programs.  
     * <u>Program manager.</u> Program managers help set up and run programs, and measure program ROI. 
 
-   > [!Note] 
+   > [!Note]
    > One person can be assigned both the Analyst and Program manager roles.
 
-## Workplace Analytics solution for teamwork playbook 
+## Workplace Analytics solution for teamwork playbook
 
 Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), which provides tips on how to best use Workplace Analytics Teamwork solution to achieve maximum benefit for your organization.
 
@@ -53,7 +53,7 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 
 **Question 1:** Why don't I see the Solutions page?
 
-**Answer 1:** You can see the Solutions page only if you've been assigned the role of program manager or the role of analyst. 
+**Answer 1:** You can see the Solutions page only if you've been assigned the role of program manager or the role of analyst.
 
 **Question 2:** Why do I see the Identify page but not the Manage and Track pages?
 
@@ -77,7 +77,7 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 
 **Question 5:** What is the minimum group size?
 
-**Answer 5:** On the Settings page of Workplace Analytics, administrators can set the minimum group size for an organization. They cannot reduce this setting below the absolute limit (five people). For more information, see [Configure settings for Workplace Analytics](../use/settings.md). 
+**Answer 5:** On the Settings page of Workplace Analytics, administrators can set the minimum group size for an organization. They cannot reduce this setting below the absolute limit (five people). For more information, see [Configure settings for Workplace Analytics](../use/settings.md).
 
 **Question 6:** Can I monitor metrics of specific users?
 
