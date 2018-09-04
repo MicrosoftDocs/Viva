@@ -123,7 +123,7 @@ You have full control over what data to include in analysis using Workplace Anal
 
 ### Data provided by Microsoft Office 365
 
-Workplace Analytics uses header information from Office 365 emails and calendar items. This header information includes sender and recipient, date and subject lines for emails; and organizer, attendee, and duration of meetings<!-- removed "location" 30Aug18-->. Workplace Analytics never includes attachments and content in emails and calendar items. For a full description of what is included and excluded please review [Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md).
+Workplace Analytics uses header information from Office 365 emails and calendar items. This header information includes sender and recipient, date and subject lines for emails; and organizer, attendee, and duration of meetings<!-- removed "location" 30Aug18-->. Workplace Analytics never includes attachments and content in emails and calendar items. For a full description of what is included and excluded please review [Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md). 
 
 It’s important to note that while Workplace Analytics uses this Office 365 data, most of the header information is never directly available to users within the service. Rather, Workplace Analytics provides computations and metrics based on this information. Furthermore, using the settings within the service, you get to decide and configure what data to use and who can see it. Please review the product privacy features documentation for full details.
 
