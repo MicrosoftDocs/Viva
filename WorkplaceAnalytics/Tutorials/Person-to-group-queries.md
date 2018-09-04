@@ -40,7 +40,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 2. Type a name for the query, and optionally, type a description.
 3. For Group by, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those person-to-group interactions that took place during this date range.
-5. For **Included employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in this query as time investors. Active employees are those who sent at least one email during the set date range for this query.
+5. For **Included employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in this query as time investors. Active employees are those who sent at least one email during the aggregated time period (date range) set for this query.
 6. Select a set of meeting exclusions. The query will ignore meetings that are filtered out by the meeting exclusions that you choose.
 
     Move on to the Select metrics section:
