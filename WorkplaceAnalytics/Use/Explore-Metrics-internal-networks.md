@@ -6,7 +6,7 @@ title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal networks collaboration dashboards available in Workplace Analytics.
 author: buntus
 ms.author: v-johtob
-ms.date: 08/08/2018
+ms.date: 09/05/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -64,3 +64,5 @@ Network breadth can indicate:
 * The levels of cross-function collaboration (high network breadth) or silos within a company (low network breadth).
 * The success of on-boarding programs for new employees by comparing newer employees to longer-tenured employees.
 * The success and speed at which acquisitions are integrated into a company by comparing acquired groups to the rest of the company.
+
+

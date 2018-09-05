@@ -45,19 +45,18 @@ The header at the top of the external collaboration page provides a summary of t
 Explanation of numbered sections:  
 1. This section shows a summary of the external collaboration and the level of engagement during the selected period. 
 2. **Measured employees** are those employees who have been assigned a Workplace Analytics license. (This number does not change with any filter applied in [Page settings](#page-settings).
-3. The filter group represents the number of employees who have had some collaboration during the date range and who match the filter applied in [Page settings](#page-settings).
+3. The filter group represents the number of employees who have had some collaboration during the date range and who match the filter applied in Page settings.
 4. This number represents the estimated cost of external collaboration with external domains, calculated by using the formula: total external collaboration hours multiplied by the average hourly wage for your company, which is configured by your Workplace Analytics administrator).
 5. This number represents the percentage of measured employees in your company who had one or more external interactions during the selected period.
 6. This number represents external collaboration hours as a percentage of the total collaboration hours spent by the measured employees in your company.
-
-7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period. This number does not change with any filter applied in [Page settings](#page-settings).
+7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period. This number does not change with any filter applied in Page settings.
 
 ## Top external domains
 
 The following graph shows the top external domains that people in the company spend most time with. You can choose to pivot the data on various settings, such as total collaboration hours, total collaboration cost, or number of employees engaged.
 
 >[!Note] 
-> Personal email domains, for example, hotmail.com or live.com, are included in overall metric calculations but are hidden from the Top external domains chart to reduce "noise".  
+> Personal email domains, for example, hotmail.com or live.com, are included in overall metric calculations but are hidden from the top external domains chart to reduce "noise".  
 
 ![External domains](../images/WpA/Use/ext-domains-most-time.png)
 
@@ -89,7 +88,7 @@ The Distribution chart is not available when the "employees engaged" menu option
 
 ## Top groups collaborating with external domains
 
-The following graph shows you which groups in your company spend the most time collaborating with external domains, where the group-by criterion is defined in the "Time investors" section in Page settings. By default, for time investors, the group-by criterion is "Organization".
+The following graph shows you which groups in your company spend the most time collaborating with external domains, where the group-by criterion is defined in the Time investors section in Page settings. By default, for time investors, the group-by criterion is "organization".
 
 You can choose to pivot the data on various settings, such as collaboration hours, meeting hours, meeting count, collaboration cost, and so forth.
 
@@ -140,25 +139,9 @@ The group average point for a given week for a selected group is the sum of all 
 
 Each box in this chart represents the five-number summary of the number of hours or cost or count spent by all measured employees with a particular group,  for example, the Services organization. The five-number summary includes minimum, maximum, median, upper and lower quartiles for the dataset. Distribution boxes are sorted by maximum values descending.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Groups with most people collaborating with external domains
 
-The following graph shows you which groups in your company have the most people collaborating with external domains where the group-by criterion is defined in the Time investors section in Page settings. By default, the group-by criterion is ‘organization’ for time investors.  
+The following graph shows you which groups in your company have the most people collaborating with external domains where the group-by criterion is defined in the Time investors section in Page settings. By default, the group-by criterion is "organization" for time investors.  
 
 ![External network size](../images//WpA/Use/most-people-collab.png)
 
@@ -170,9 +153,7 @@ Each bar in the graph represents the total number of distinct measured employees
 
 **Trend chart**
 
-The "group total" in the trend chart represents the total count of distinct measured employees across all groups of your company (grouped by the investor group-by attribute in Page settings) with all external domains over the selected period in Page settings. You can select additional groups in the bar chart to plot their trends over the selected period in the same chart.
-
-
+ In the trend chart, the "group total" represents the total count of distinct measured employees across all groups of your company (grouped by the investor group-by attribute in Page settings) with all external domains over the selected period in Page settings. You can select additional groups in the bar chart to plot their trends over the selected period in the same chart.
 
 ## External network size and external network breadth
 
@@ -187,44 +168,21 @@ External network size refers to the number of people external to the company wit
 
 **Bar chart**
 
-Each bar in the graph represents the average external network size for each group (grouped by the investor group-by attribute in Page settings). Average external network size is defined as the total number of non-distinct external contacts with whom the measured employees from this group had two meaningful interactions in all selected weeks, divided by number of person-week records in the selected date range in Page settings.
+Each bar in the graph represents the average external network size for each group (grouped by the investor group-by attribute in Page settings). Average external network size is defined as the total number of non-distinct external contacts with whom the measured employees from this group had two meaningful interactions in all selected weeks, divided by number of person-week records in the selected date range in Page settings. 
 
 The Average line on bar charts is the sum of external network size during all selected weeks divided by the number of person-week records in the selected period in Page settings.
 
 **Trend chart**
 
 The group average point for a given week is the sum of external network size divided by the number of person-domain records for that week.
-
 The group average point for a given week for a selected group is the sum of external network size for that group divided by the number of person-domain records for that week for that group.
 
-
 **Distribution chart**
 
-Each box in this chart represents the five-number summary of the external network size for a particular group,  for example, the Purchasing organization. The five-number summary includes minimum, maximum, median, and upper and lower quartiles for the dataset. Distribution boxes are sorted on maximum values descending. 
+Each box in this chart represents the five-number summary of the external network size for a particular group, for example, the Purchasing organization. The five-number summary includes minimum, maximum, median, and upper and lower quartiles for the dataset. Distribution boxes are sorted on maximum values descending.
 
 >[!Note] 
-> Collaboration filters cannot be currently applied for this chart.
-
-
-**External network breadth**
-External network breadth refers to the number of distinct external domains with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).  
-
-**Bar chart**
-
-
-
-
- 
-**Trend chart**
-
-Group average is the trend of average of averages of external network size, which is the sum of average external network size for each organization divided by the number of organizations.
-
-**Distribution chart**
-
-Each box shows minimum, maximum, median, upper and lower quartile external network size for measured employees from each organization.
-
->[!Note]
-> Collaboration filters cannot be applied for this chart.
+> Currently, collaboration filters cannot be  applied for this chart.
 
 ### External network breadth
 
@@ -236,27 +194,24 @@ External network breadth refers to the number of distinct external domains with 
 
 Each bar in the graph represents total number of distinct external domains with whom the measured employees from this group had two meaningful interactions in the selected date range in Page settings.
 
-The Average line on bar represents total number of distinct external domains with whom the measured employees in the company had two meaningful interactions in the selected date range divided by the total number of organizations. 
-
+The Average line on bar represents total number of distinct external domains with whom the measured employees in the company had two meaningful interactions in the selected date range divided by the total number of organizations.
  
 **Trend chart**
 
 The "group average" point for a given week in the trend chart represents total number of distinct external domains with whom the measured employees in the company had two meaningful interactions in the selected date range divided by the total number of organizations for that week.
 
-The "group average" point per week for each selected group in the trend chart represents total number of distinct external domains with whom the measured employees in the selected group had two meaningful interactions in that week.
+The "group average" point per week for each selected group in the trend chart represents the total number of distinct external domains with whom the measured employees in the selected group had two meaningful interactions in that week.
 
 **Distribution chart**
 
-Each box in this chart represents the five-number summary for the external network breadth for a particular group,  for example, the Purchasing organization. The five-number summary includes: minimum, maximum, median, and upper and lower quartile for the dataset. Distribution boxes are sorted on maximum values descending. 
-Note: Collaboration filters cannot be currently applied for this chart.
+Each box in this chart represents the five-number summary for the external network breadth for a particular group,  for example, the Purchasing organization. The five-number summary includes: minimum, maximum, median, and upper and lower quartiles for the dataset. Distribution boxes are sorted on maximum values descending.
 
 >[!Note]
-> Collaboration filters cannot be currently applied for this chart.
-
+> Currently, collaboration filters cannot be  applied for this chart.
 
 ### External network breadth compared to external network size
 
-The External network breadth compared to external network size graph shows how each group (grouped by the investor group-by attribute in page settings) in the company compares to the company median for External network size and breadth. The size of the bubble in the graph represents the size of the organization. 
+The External network breadth compared to external network size graph shows how each group in the company (grouped by the investor group-by attribute in page settings) compares to the company median for External network size and breadth. The size of the bubble in the graph represents the size of the organization.
 
 ![External group connections](../images/WpA/Use/ext-collab-groups-ext-conn.png)
 
