@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # External Collaboration
 
-**External collaboration** in **Explore** provides a summary of your employees’ network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
+The External collaboration page in **Explore** provides a summary of your employees’ network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
 
 >[!Note]
 >All metrics are reported at a group level and cannot be traced back to any individual.
@@ -36,7 +36,7 @@ Most graphs include Trend and Distribution graphs also, with some exceptions.
 Distribution graphs show the statistical distribution of metrics, such as the minimum, maximum, median, upper and lower percentiles for the group.  
 
 Distribution graphs can tell you whether your data is symmetrical, or how tightly your data is grouped, or whether any outliers exist, and if so, what their values are.
-For more information, see [Workplace Analytics Chart types](../Use/chart-types).
+For more information, see [Workplace Analytics Chart types](../Use/chart-types.md).
 
 The header at the top of the external collaboration page provides a summary of the results of external collaboration during the selected period, as shown in the image.
 
