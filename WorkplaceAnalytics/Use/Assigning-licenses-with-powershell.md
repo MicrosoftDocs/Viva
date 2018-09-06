@@ -51,7 +51,8 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
    ![Azure Active Directory login](../images/WpA/Use/azure-ad-log-in-1.png)
 
-2. Copy and paste the following variable data into the PowerShell command line, and then run it:
+2. Copy and paste the following variable data into the PowerShell command line, and then run it
+
 
 ``` powershell
         $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
@@ -60,6 +61,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
         $License.SkuId = $LicenseSku.SkuId
         $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
 ``` 
+
 
 3. To assign a license, copy and paste the following code into the PowerShell command line, and then run it:
 
