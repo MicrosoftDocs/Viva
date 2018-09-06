@@ -51,7 +51,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
    ![Azure Active Directory login](../images/WpA/Use/azure-ad-log-in-1.png)
 
-2. Copy and paste the following variable data into the PowerShell command line, and then run it
+2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 
 
 ``` powershell
