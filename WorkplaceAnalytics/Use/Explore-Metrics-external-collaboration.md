@@ -38,6 +38,8 @@ Distribution graphs show the statistical distribution of metrics, such as the mi
 Distribution graphs can tell you whether your data is symmetrical, or how tightly your data is grouped, or whether any outliers exist, and if so, what their values are.
 For more information, see [Workplace Analytics Chart types](../Use/chart-types.md).
 
+## Header
+
 The header at the top of the external collaboration page provides a summary of the results of external collaboration during the selected period, as shown in the image.
 
 ![Collaboration summary](../images/WpA/Use/ext-collab-summary.png)
@@ -181,9 +183,6 @@ The group average point for a given week for a selected group is the sum of exte
 
 Each box in this chart represents the five-number summary of the external network size for a particular group, for example, the Purchasing organization. The five-number summary includes minimum, maximum, median, and upper and lower quartiles for the dataset. Distribution boxes are sorted on maximum values descending.
 
->[!Note] 
-> Currently, collaboration filters cannot be  applied for this chart.
-
 ### External network breadth
 
 External network breadth refers to the number of distinct external domains with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
@@ -205,9 +204,6 @@ The "group average" point per week for each selected group in the trend chart re
 **Distribution chart**
 
 Each box in this chart represents the five-number summary for the external network breadth for a particular group,  for example, the Purchasing organization. The five-number summary includes: minimum, maximum, median, and upper and lower quartiles for the dataset. Distribution boxes are sorted on maximum values descending.
-
->[!Note]
-> Currently, collaboration filters cannot be  applied for this chart.
 
 ### External network breadth compared to external network size
 
