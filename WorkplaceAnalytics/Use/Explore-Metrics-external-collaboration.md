@@ -27,7 +27,7 @@ External collaboration features various graphs whose titles suggest different wa
 ![Explore filters](../images//WpA/Use/groups-most-time-collab-ext-people.png)
 
 
-## Trend and Distribution graphs
+## Trend and Distribution charts
 
 Most graphs include Trend and Distribution charts also, with some exceptions.
 
