@@ -279,7 +279,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
 With the PowerShell environment now prepared, and the input file properly constructed, the script can now execute.
  
-4.	Start Windows PowerShell and run the following command: 
+3.	Start Windows PowerShell and run the following command: 
 
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
 
