@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Email hours
+## Email 
 
 ### How we calculate email hours
 Each email you send is assigned 5 minutes. Each email you open is assigned 2.5 minutes. However, shorter times are assigned in these cases: 
