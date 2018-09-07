@@ -41,7 +41,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
 1. To assign a Workplace Analytics license to a user:
        
-    a) With PowerShell open, start the Import Module, and log in to Azure AD by running the following commands:
+    With PowerShell open, start the Import Module, and log in to Azure AD by running the following commands:
 
       Import-Module *AzureAD*
       
@@ -59,11 +59,9 @@ Workplace Analytics can only extract data from the accounts of users who have va
         $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
         $License.SkuId = $LicenseSku.SkuId
         $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-        ``` 
-
+        ```
 
 3. To assign a license, copy and paste the following code into the PowerShell command line, and then run it:
-
 
         ``` powershell
         $AssignedLicenses.AddLicenses = $License
@@ -77,6 +75,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
         ``` powershell
         Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
         ```
+
 
 After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
 
