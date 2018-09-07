@@ -26,7 +26,7 @@ Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide
 
 # Dashboard elements overview
 
-The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools:
+The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools: 
 
 ## Time summary
 
