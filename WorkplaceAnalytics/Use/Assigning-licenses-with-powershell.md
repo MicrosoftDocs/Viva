@@ -53,32 +53,29 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
 2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 
-
-``` powershell
+        ``` powershell
         $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
         $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
         $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
         $License.SkuId = $LicenseSku.SkuId
         $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-
+        ``` 
 
 
 3. To assign a license, copy and paste the following code into the PowerShell command line, and then run it:
 
 
-``` powershell
-
+        ``` powershell
         $AssignedLicenses.AddLicenses = $License
         Set-AzureADUserLicense -ObjectId $UserToLicense.ObjectId -AssignedLicenses $AssignedLicenses
-```
+        ```
 
 
 4. To verify that the license has been assigned, copy and paste the following code into the PowerShell command line, and then run it:
 
-``` powershell
-
+        ``` powershell
         Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
-``` 
+        ```
 
 After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
 
