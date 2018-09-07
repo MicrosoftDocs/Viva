@@ -14,11 +14,9 @@ ms.prod: mya
 
 ## Network 
 
-The Network section of the MyAnalytics dashboard shows how you spent your time with the people you interact with in meetings or in email.  
+The My network section of the MyAnalytics dashboard shows how you spent your time with the people and groups you interact with in meetings or in email.  
 
-### Your time investments 
-
-The Your time investments chart shows how much time you’ve spent with the individuals and groups in your network. By default, this chart displays all of your collaborators. A blue star next to a contact indicates that this person is on your list of Important people. 
+By default, this chart displays all of your collaborators. A blue star next to a contact indicates that this person is on your list of Important people. 
 
 For each contact, the following metrics are displayed to the side of the network diagram, under the label _Last week collaboration_. 
 
@@ -44,9 +42,9 @@ Time you spent in one-on-one meetings with the contact over the past week
 
 **To change views or filter contacts**
 
-You can view the Your time investments data in a map view or a list view. To switch between views, click **Map** or **List**, under Your time investments. In either view, you can filter your contacts by selecting “Important people” or “Work groups.” 
+You can view your network data in a map view or a list view. To switch between views, select **Map** or **List**. In either view, you can filter your contacts by selecting "Important" or "Groups." 
 
-“Total time” represents the sum of the meeting time you’ve had with the contact and the time you’ve spent in email with that contact. 
+"Total time" represents the sum of the meeting time you’ve had with the contact and the time you’ve spent in email with that contact. 
 
 **To see your time with a specific contact** 
 

@@ -14,7 +14,7 @@ ms.prod: mya
 
 **To opt out of MyAnalytics**
 
-1. In Delve, select the gear icon to open the Settings pane.
+1. In Delve, select the gear icon in the top toolbar to open the Settings pane.
 
     <img src="../../Images/mya/use/Gear-icon-Delve.png" alt="Delve settings">
      

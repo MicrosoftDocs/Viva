@@ -18,7 +18,7 @@ localization_priority: Once
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is the MyAnalytics _personal dashboard_.
 
 > [!Note] 
-> To learn about the benefits of using MyAnalytics, see [Why use MyAnalytics?](../Overview/Better-work-habits.md).
+> To learn about the benefits of using MyAnalytics, see [Why use MyAnalytics?](../Overview/Better-work-habits.md)
 
 Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.  
 
@@ -26,17 +26,22 @@ Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide
 
 # Dashboard elements overview
 
-The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools:
+The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools: 
 
-## The Your time section
+## Time summary
 
-Near the top of the MyAnalytics dashboard is the “Your time” area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your goals.
+Near the top of the MyAnalytics dashboard is the "My time summary" area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your company average.
 
-<img src="../../Images/mya/use/Your-time-dashboard.PNG" alt="The Your time area of the MyAnalytics dashboard">
+<img src="../../Images/mya/use/time-summary.PNG" alt="The My time summary area of the MyAnalytics dashboard">
 
-This report summarizes the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals.
+This report summarizes the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with your company average.
+
+<!-- REMOVED PER NOELLE 24 Aug
+a time goal. You can change these weekly time goals. 
 
 [!INCLUDE [To change your weekly goals](../Includes/to-change-your-weekly-goals.md)]
+
+-->
 
 See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
 

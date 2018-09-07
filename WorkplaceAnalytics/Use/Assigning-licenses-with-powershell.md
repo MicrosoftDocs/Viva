@@ -54,18 +54,22 @@ Workplace Analytics can only extract data from the accounts of users who have va
 2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 
         ``` powershell
+
         $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
         $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
         $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
         $License.SkuId = $LicenseSku.SkuId
         $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+        
         ```
 
 3. To assign a license, copy and paste the following code into the PowerShell command line, and then run it:
 
         ``` powershell
+
         $AssignedLicenses.AddLicenses = $License
         Set-AzureADUserLicense -ObjectId $UserToLicense.ObjectId -AssignedLicenses $AssignedLicenses
+
         ```
 
 
@@ -73,7 +77,9 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
 
         ``` powershell
+
         Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
+
         ```
 
 
@@ -306,3 +312,4 @@ This script works with Multi-Factor Authentication because the Connect-MsolServi
 ## Related links
 
 [Assign group-based licencing](https://docs.microsoft.com/workplace-analytics/use/group-based-licensing)
+

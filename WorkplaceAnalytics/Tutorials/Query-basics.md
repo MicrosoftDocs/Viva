@@ -63,7 +63,7 @@ Group-to-group queries also offer alternative perspectives on collaboration. Rat
 
 ## Person-to-group query
 
-![Person-to-group query](../Images/WpA/Tutorials/ptg-query-card.png)
+![Person-to-group query](../Images/WpA/Tutorials/p2g-query-card.png)
 
 Use a person-to-group query to help you understand how individuals invested their time with one or more collaborator teams within and outside of the organization.
 

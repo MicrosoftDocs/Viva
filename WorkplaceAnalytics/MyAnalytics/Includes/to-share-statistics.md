@@ -16,13 +16,16 @@ ms.prod: mya
 
 <ol start="1">
 <li>Open the MyAnalytics dashboard.</li>
-<li>Select **Share**.</li> 
+<li>Select the **Share** icon in the upper-right corner of the page.</li> 
 
+<!-- REMOVED PER NOELLE 24 AUG 2018
 <p></p>
 
 <img src="../../Images/mya/use/Share-dashboard.png" alt="Share link">
 
 <p></p>
+
+-->
     
 The dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
 

@@ -16,10 +16,12 @@ ms.prod: mya
 
 The personal dashboard of MyAnalytics offers _insights_. An insight is a card that presents you with a statistic that was derived from your recent workplace habits and suggests a way to change this habit for the better. 
 
-Insights appear beneath the Your time section of the dashboard. If MyAnalytics has generated more than one of them for you, you can scroll through them by clicking the arrows on the left and right edges of the insight cards. 
+Insights appear beneath the "My time summary" section of the dashboard. If MyAnalytics has generated more than one of them for you, you can scroll through them by clicking the arrows next to the text that tells you how many insights you have.  
 
 > [!Note] 
 > Insights appear not only in the MyAnalytics dashboard, but also in the MyAnalytics [email digest](../email-digest.md). 
+
+<!-- EXAMPLES REMOVED PER NOELLE 24 AUGUST
 
 ### Example insights
 
@@ -51,3 +53,4 @@ Occasionally, MyAnalytics uses an insight to announce a change in the way it wor
 
    ![Announcing data from Skype for Business Online](../../../images/mya/use/db-insights-05.png)
 
+--> 
