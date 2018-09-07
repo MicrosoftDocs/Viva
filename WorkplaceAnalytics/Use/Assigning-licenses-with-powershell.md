@@ -71,7 +71,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
         Set-AzureADUserLicense -ObjectId $UserToLicense.ObjectId -AssignedLicenses $AssignedLicenses
 ```
 
-4.	To verify that the license has been assigned, copy and paste the following code into the PowerShell command line, and then run it:
+4. To verify that the license has been assigned, copy and paste the following code into the PowerShell command line, and then run it:
 
 ``` powershell
 
