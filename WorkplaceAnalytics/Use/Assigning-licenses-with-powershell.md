@@ -53,35 +53,33 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
 2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 
-        ``` powershell
+      ``` powershell
 
-        $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
-        $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
-        $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
-        $License.SkuId = $LicenseSku.SkuId
-        $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-        
-        ```
+       $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
+       $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
+       $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+       $License.SkuId = $LicenseSku.SkuId
+       $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+
+      ```
 
 3. To assign a license, copy and paste the following code into the PowerShell command line, and then run it:
 
-        ``` powershell
+      ``` powershell
 
-        $AssignedLicenses.AddLicenses = $License
-        Set-AzureADUserLicense -ObjectId $UserToLicense.ObjectId -AssignedLicenses $AssignedLicenses
+       $AssignedLicenses.AddLicenses = $License
+       Set-AzureADUserLicense -ObjectId $UserToLicense.ObjectId -AssignedLicenses $AssignedLicenses
 
-        ```
-
+      ```
 
 4. To verify that the license has been assigned, copy and paste the following code into the PowerShell command line, and then run it:
 
 
-        ``` powershell
+      ``` powershell
 
-        Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
+       Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
 
-        ```
-
+      ```
 
 After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
 
@@ -103,7 +101,7 @@ The Workplace Analytics bulk license script uses the Azure Active Directory Powe
 
 3. Once the execution policy is set correctly on the machine, run the following cmdlet:
 
-      Install-Module -Name MSOnline -Repository PSGallery
+    Install-Module -Name MSOnline -Repository PSGallery
 
 > [!Note]
 > If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these required packages, see
@@ -116,10 +114,10 @@ The Workplace Analytics bulk license script uses a .csv reference file as input.
 
 Each user who is already assigned a license retains all current licensing. New users will receive a Workplace Analytics license. The input .csv must have a single column with the header "Email" that contains all email addresses. The following example shows the correct .csv email format.
 
-   |Email|
-   |---|---|
-   |User1@contoso.com|
-   |User2@contoso.com|
+|Email|
+|---|---|
+|User1@contoso.com|
+|User2@contoso.com|
 
 For further information on formatting the input .csv file, see [example .csv export file](https://docs.microsoft.com/workplace-analytics/setup/prepare-organizational-data#example-csv-export-file)
 
@@ -131,34 +129,31 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 ### Script Execution
 
 1. Create a folder, C:\Scripts, if it does not already exist.
-2. Copy the following script, paste it into a text editor, and then save the script with the filename Add-WpALicense.ps1 in C:\Scripts.
+2. Copy the following script and paste it into a text editor, and then save the script with the filename Add-WpALicense.ps1 in C:\Scripts.
 
-       ``` powershell
-       <#
-       .NOTES
+
+``` powershell
+<#
+.NOTES
 	    Title:			Add-WpALicense.ps1
 	    Date:			August 30th, 2018
 	    Version:		1.0.0
 	
-       .SYNOPSIS
-        This script is designed to allow Workplace Analytics licenses to be added to a CSV list of email addresses that correlates to Office365 identities.
+.SYNOPSIS
+    This script is designed to allow Workplace Analytics licenses to be added to a CSV list of email addresses that correlate to Office365 identities.
+.DESCRIPTION
+    Add-WpALicense is designed to allow assigning Workplace Analytics licenses easily to Office365 identities based on CSV e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and attempt to assign a license to the identity.
+.PARAMETER CSV
 
-       .DESCRIPTION
-        Add-WpALicense is designed to allow assigning Workplace Analytics licenses easily to Office365 identities based on CSV e-mail address input. The e-mail address input is used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and attempt to assign a license to the identity.
+    The CSV input file containing all of the email addresses that will be given the license.
+.PARAMETER LicenseSKU
 
-       .PARAMETER CSV
-        The CSV input file containing all of the email addresses that will be given the license.
+    The LicenseSKU that will be applied to a user if found. An example would be testdomain:WpALicense.
+.EXAMPLE
+    .\Add-WpALicense.ps1 -CSV c:\users\user123\desktop\input.csv -LicenseSku WpATest:WpA
 
-       .PARAMETER LicenseSKU
-        The LicenseSKU that will be applied to a user if found. An example would be testdomain:WpALicense.
+    The above execution would ingest the CSV file from the location above and attempt to apply the MSOL license SKU of WpATest:WpA to all users to be found in the MSOL structure of the tenant.
 
-       .EXAMPLE
-        .\Add-WpALicense.ps1 -CSV c:\users\user123\desktop\input.csv -LicenseSku WpATest:WpA
-
-        The latter code example would ingest the CSV file from the indicated location and attempt to apply the MSOL license SKU of WpATest:WpA to all users to be found in the MSOL structure of the tenant.
-
-
-      
        #>
        param
        (
@@ -199,7 +194,6 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
            }
        }
 
-    ``` 
        #Start-Transcript to keep a simple log of all stream output of the successes and failures of the execution.
 
        Start-Transcript
@@ -207,9 +201,6 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
        #Calling Connect-O365PowerShell function to establish connection before attempting CSV input validation and processing.
 
        Connect-O365PowerShell
-
-
-    ``` powershell
 
        #Simple if block to test the CSV param input and ensure that the path is valid and contains a file.
 
@@ -280,11 +271,11 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
        }
 
        Stop-Transcript
-    ``` 
+
 
 With the PowerShell environment now prepared, and the input file properly constructed, the script can now execute.
  
-3.	Start Windows PowerShell and run the following command: 
+3.	Start Windows PowerShell and run the following command:
 
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
 
@@ -292,7 +283,7 @@ Note that the \<CSVLocation> should contain the full path to the .csv input file
 
 When prompted, enter the Office365 global administrator credentials for the tenant where the licenses are to be added.
 
-If all required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are displayed on the command line.
+If all the required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are displayed on the command line.
 
 ## FAQ
 
@@ -308,8 +299,8 @@ The script logic first attempts to find the MSOL identity through the UserPrinci
 
 This script works with Multi-Factor Authentication because the Connect-MsolService cmdlet supports Azure Active Directory Authentication Library (ADAL).
 
-
 ## Related links
 
 [Assign group-based licencing](https://docs.microsoft.com/workplace-analytics/use/group-based-licensing)
+
 
