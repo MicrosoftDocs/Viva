@@ -302,3 +302,5 @@ This script works with Multi-Factor Authentication because the Connect-MsolServi
 ## Related links
 
 [Assign group-based licencing](https://docs.microsoft.com/workplace-analytics/use/group-based-licensing)
+
+
