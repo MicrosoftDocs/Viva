@@ -77,7 +77,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
       ``` powershell
 
-      Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
+       Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
 
       ```
 
@@ -129,7 +129,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 ### Script Execution
 
 1. Create a folder, C:\Scripts, if it does not already exist.
-2. Copy the following script, paste it into a text editor, and then save the script with the filename Add-WpALicense.ps1 in C:\Scripts.
+2. Copy the following script and paste it into a text editor, and then save the script with the filename Add-WpALicense.ps1 in C:\Scripts.
 
 
 ``` powershell
@@ -202,7 +202,6 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
        Connect-O365PowerShell
 
-
        #Simple if block to test the CSV param input and ensure that the path is valid and contains a file.
 
        if((Test-Path $CSV) -and ($CSV -like "*.csv"))
@@ -272,7 +271,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
        }
 
        Stop-Transcript
- 
+
 
 With the PowerShell environment now prepared, and the input file properly constructed, the script can now execute.
  
@@ -284,7 +283,7 @@ Note that the \<CSVLocation> should contain the full path to the .csv input file
 
 When prompted, enter the Office365 global administrator credentials for the tenant where the licenses are to be added.
 
-If all required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are displayed on the command line.
+If all the required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are displayed on the command line.
 
 ## FAQ
 
@@ -299,7 +298,6 @@ The script logic first attempts to find the MSOL identity through the UserPrinci
 **Does this work with Multi-Factor Authentication (MFA)?**
 
 This script works with Multi-Factor Authentication because the Connect-MsolService cmdlet supports Azure Active Directory Authentication Library (ADAL).
-
 
 ## Related links
 
