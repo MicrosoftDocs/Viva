@@ -75,11 +75,13 @@ Workplace Analytics can only extract data from the accounts of users who have va
 4. To verify that the license has been assigned, copy and paste the following code into the PowerShell command line, and then run it:
 
 
+
      ``` powershell
 
       Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
 
       ```
+
 
 After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
 
@@ -133,6 +135,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
 
 ``` powershell
+
 <#
 .NOTES
 	    Title:			Add-WpALicense.ps1
@@ -153,6 +156,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
     .\Add-WpALicense.ps1 -CSV c:\users\user123\desktop\input.csv -LicenseSku WpATest:WpA
 
     The above execution would ingest the CSV file from the location above and attempt to apply the MSOL license SKU of WpATest:WpA to all users to be found in the MSOL structure of the tenant.
+    #>
 
        #>
        param
@@ -273,6 +277,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
        Stop-Transcript
  
+       ```
 
 With the PowerShell environment now prepared, and the input file properly constructed, the script can now execute.
  
