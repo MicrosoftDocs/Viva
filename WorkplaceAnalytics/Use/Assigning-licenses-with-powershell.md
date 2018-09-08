@@ -53,34 +53,35 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
 2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 
-        ``` powershell
+      ``` powershell
 
-        $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
-        $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
-        $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
-        $License.SkuId = $LicenseSku.SkuId
-        $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-        
-        ```
+       $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
+       $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
+       $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+       $License.SkuId = $LicenseSku.SkuId
+       $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+
+      ```
 
 3. To assign a license, copy and paste the following code into the PowerShell command line, and then run it:
 
-        ``` powershell
+      ``` powershell
 
-        $AssignedLicenses.AddLicenses = $License
-        Set-AzureADUserLicense -ObjectId $UserToLicense.ObjectId -AssignedLicenses $AssignedLicenses
+       $AssignedLicenses.AddLicenses = $License
+       Set-AzureADUserLicense -ObjectId $UserToLicense.ObjectId -AssignedLicenses $AssignedLicenses
 
-        ```
-
+     ```
 
 4. To verify that the license has been assigned, copy and paste the following code into the PowerShell command line, and then run it:
 
 
-       ``` powershell
 
-       Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
+     ``` powershell
 
-        ```
+      Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
+
+      ```
+
 
 After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
 
@@ -132,6 +133,9 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 1. Create a folder, C:\Scripts, if it does not already exist.
 2. Copy the following script, paste it into a text editor, and then save the script with the filename Add-WpALicense.ps1 in C:\Scripts.
 
+
+``` powershell
+
 <#
 .NOTES
 	    Title:			Add-WpALicense.ps1
@@ -153,9 +157,6 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
     The above execution would ingest the CSV file from the location above and attempt to apply the MSOL license SKU of WpATest:WpA to all users to be found in the MSOL structure of the tenant.
     #>
-
-
-       ``` powershell
 
        #>
        param
@@ -280,7 +281,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
 With the PowerShell environment now prepared, and the input file properly constructed, the script can now execute.
  
-3.	Start Windows PowerShell and run the following command: 
+3.	Start Windows PowerShell and run the following command:
 
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
 
@@ -309,3 +310,5 @@ This script works with Multi-Factor Authentication because the Connect-MsolServi
 
 [Assign group-based licencing](https://docs.microsoft.com/workplace-analytics/use/group-based-licensing)
 
+
+</br>
