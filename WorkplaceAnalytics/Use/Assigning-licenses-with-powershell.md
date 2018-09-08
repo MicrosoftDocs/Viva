@@ -129,7 +129,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 ### Script Execution
 
 1. Create a folder, C:\Scripts, if it does not already exist.
-2. Copy the following script, paste it into a text editor, and then save the script with the filename Add-WpALicense.ps1 in C:\Scripts.
+2. Copy the following script and paste it into a text editor, and then save the script with the filename Add-WpALicense.ps1 in C:\Scripts.
 
 
 ``` powershell
