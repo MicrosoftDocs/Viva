@@ -15,7 +15,11 @@ ms.prod: wpa
 **To open the Workplace Analytics Explore page** 
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
-2. In the left navigation pane, select **Explore**. 
+2. In the left navigation pane, select **Explore**.
+3. In Explore, select the **External collaboration** tab to open the External collaboration page.
+
+The External collaboration tab displays various graphs that reflect current company data. You can focus your analysis by manipulating these graphs and pivoting on various parameters. Each graph also offers filtering options.
+
 
    >[!Note] 
    >You must be assigned either the Analyst role,

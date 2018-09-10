@@ -38,9 +38,9 @@ Most graphs include Trend and Distribution charts also, with some exceptions.
 Distribution charts can also tell you whether your data is symmetrical, or how tightly your data is grouped, or whether any outliers exist, and if so, what their values are.
 For more information, see [Workplace Analytics Chart types](../Use/chart-types.md).
 
-## Header
+## Summary header
 
-The header at the top of the external collaboration page provides a summary of the results of external collaboration during the selected period, as shown in the image.
+The summary header at the top of the external collaboration page provides a summary of the results of external collaboration during the selected period, as shown in the image.
 
 ![Collaboration summary](../images/WpA/Use/ext-collab-summary.png)
 
