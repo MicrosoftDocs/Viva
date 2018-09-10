@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# External Collaboration
+# External collaboration
 
 The External collaboration page in **Explore** provides a summary of your employees’ network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
 
