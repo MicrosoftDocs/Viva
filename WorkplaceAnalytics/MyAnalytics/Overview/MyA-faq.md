@@ -144,3 +144,6 @@ Upon activation, MyAnalytics processes historical data for 80 days before the da
 #### Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
 No. Only Exchange Online and Skype for Business Online are used as sources of MyAnalytics data.  
+
+#### I have not received my Skype for business data. It seems to have gone missing. Where is it?
+Skype for Business data is usually prompt. However, in rare instances, users can experience delays of up to two days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, After hours, which includes Skype for Business data, is updated later. Similarly, certain meetings might be marked as "Late start" after a few days, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data comes in.
