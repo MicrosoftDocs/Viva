@@ -29,4 +29,4 @@ If you do not want to receive digest emails from MyAnalytics, you can opt out of
 --->
 
 >[!Note] 
-> Skype for Business data is usually prompt. However, in rare instances, users can experience delays of up to two days. For more information see [My Analytics FAQ](../Overview/MyA-faq.md)
+> Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. For more information see [My Analytics FAQ](../Overview/MyA-faq.md)
