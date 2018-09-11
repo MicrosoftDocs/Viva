@@ -28,4 +28,4 @@ MyAnalytics counts audio calls, video calls, and chats that people make in Skype
 
 
   >[!Note]
-  > Skype-for-Business data is usually prompt. However, in rare instances, users can experience delays of up to two days. For more information see [My Analytics FAQ](../MyAnalytics/MyA-faq.md)]
+  > Skype-for-Business data is usually prompt. However, in rare instances, users can experience delays of up to two days. For more information see [My Analytics FAQ](../../Overview/MyA-faq.md)
