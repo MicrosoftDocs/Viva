@@ -27,9 +27,4 @@ Each time you share statistics, the email message in which you’ve shared them 
 Sometimes, shared statistics cannot be viewed. Here are common causes for this:  
 
 * All shared statistics expire after 30 days. Once the expiration passes, the link to the shared statistics becomes inactive. 
-* The email containing the shared statistics link was forwarded to a recipient rather than shared directly through the MyAnalytics dashboard. 
-
-  >[!Note]
-  > Skype for Business data might be delayed by up to four days. So a user action completed on a Friday might not be included in MyAnalytics computations that are done on a Monday. After the data comes in, the metrics are updated. For example, in some cases, After hours (which includes Skype for Business data) might need to be updated. Similarly, some meetings might be marked "Late start" after a few days. A Digest email sent on a Monday or a Tuesday will not include the data if it is delayed.
-
-  
+* The email containing the shared statistics link was forwarded to a recipient rather than shared directly through the MyAnalytics dashboard.
