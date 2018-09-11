@@ -28,3 +28,4 @@ If you do not want to receive digest emails from MyAnalytics, you can opt out of
 3. Click **OK** to save the changes.
 --->
 
+[!Note] Skype for Business data might be delayed by up to four days. So a user action completed on a Friday might not be included in MyAnalytics computations that are done on a Monday. After the data comes in, the metrics are updated. For example,. in some cases a Digest email sent on a Monday or Tuesday will not include the data if it is delayed.
