@@ -27,8 +27,4 @@ Each time you share statistics, the email message in which you’ve shared them 
 Sometimes, shared statistics cannot be viewed. Here are common causes for this:  
 
 * All shared statistics expire after 30 days. Once the expiration passes, the link to the shared statistics becomes inactive. 
-* The email containing the shared statistics link was forwarded to a recipient rather than shared directly through the MyAnalytics dashboard. 
-
-  
-
-  
+* The email containing the shared statistics link was forwarded to a recipient rather than shared directly through the MyAnalytics dashboard.
