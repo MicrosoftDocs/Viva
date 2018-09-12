@@ -28,7 +28,7 @@ You can also purchase a MyAnalytics add-on if you have one of the following plan
 * Office 365 A1
 
 > [!Note]
-> Shared mailboxes cannot be licensed for, and are not supported by, MyAnalytics.
+> Shared mailboxes cannot be licensed for and are not supported by MyAnalytics.
 
 ### Support of environments
 

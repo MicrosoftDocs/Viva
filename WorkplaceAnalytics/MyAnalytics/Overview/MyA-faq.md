@@ -127,10 +127,6 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients. 
 
-#### Can MyAnalytics licenses be assigned to shared mailboxes?
-
-No, currently MyAnalytics licenses cannot be assigned to shared mailboxes.
-
 ## For IT administrators
 
 #### Where is user data stored?
@@ -144,6 +140,10 @@ The personal dashboard is available to a MyAnalytics user as soon as they receiv
 #### When the dashboard is activated, does it show any historical data or does it start ‘from scratch’?
 
 Upon activation, MyAnalytics processes historical data for 80 days before the date of activation. No data from before this 80-day limit is displayed in the dashboard.
+
+#### Can MyAnalytics licenses be assigned to shared mailboxes?
+
+No, currently MyAnalytics licenses cannot be assigned to shared mailboxes.
 
 #### Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
