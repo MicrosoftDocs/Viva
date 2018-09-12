@@ -21,14 +21,17 @@ MyAnalytics is available in the following plans:
 * Office 365 A5  
 * Office 365 Nonprofit E5  
 
-You can also purchase a MyAnalytics add-on if you have one of the following plans: 
+You can also purchase a MyAnalytics add-on if you have one of the following plans:
 * Office 365 Enterprise E3 
 * Office 365 Enterprise E1
 * Office 365 A3
-* Office 365 A1  
+* Office 365 A1
 
-### Support of environments 
- 
+> [!Note]
+> Shared mailboxes cannot be licensed for and are not supported by MyAnalytics.
+
+### Support of environments
+
 #### Office 365 environments that are supported
 * Worldwide Multi-tenant
 * Dedicated Multi-tenant
