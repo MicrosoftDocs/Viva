@@ -38,7 +38,8 @@ While reading an email, this nudge reminds you of a potential outstanding to-do 
 
 
 ## Why don’t I see any MyAnalytics nudges? 
-MyAnalytics nudges are available in the latest versions of Outlook for the web with Office 365 licenses this summer 2018. Only nudges while reading email and meetings are available at this time. In the coming months, both nudges while reading and composing email and meetings will begin to roll out to Outlook for Windows. Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
+MyAnalytics nudges are available in the latest versions of Outlook for the web and Outlook for Windows with Office 365 licenses. 
+In Outlook for Windows, nudges will show up while reading or composing email, and while reading meetings. In Outlook for the web, only nudges while reading email and meetings are available at this time. Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android. 
 
 ## Providing feedback 
 You can provide feedback for each nudge by using the feedback control at the bottom of the MyAnalytics Add-in screen. If you send a thumbs down, we’ll show you less of that nudge. 
@@ -65,7 +66,6 @@ You can always provide overall feedback by selecting the smiley face in the uppe
 
     ![Nudges email image 8](../../Images/mya/use/nudges-email-08.png)
 
-
 <br>
 
 ## MyAnalytics nudges
@@ -83,20 +83,11 @@ MyAnalytics nudges can help you in various ways:
 
 </br>
 
-### Reduce unnecessary time in meetings
-
-| Where it shows up | What it says | How it helps  |
-|------|-------|---------|
-|Reading pane (meeting invitation) |Looks like you have a lot of meetings this week. Can someone cover this meeting for you? **See who's available** | Helps the user (the meeting attendee) find a colleague who can cover the meeting on behalf of the attendee|
-
-</br>
-
 ### Stay up-to-date with important relationships
 
 | Where it shows up | What it says | How it helps |
 |------|-------|---------|
 | Reading pane (email) | You may have outstanding to-dos for sender. Would you like to review now? **See my to-dos** | Reminds the user that there may be outstanding to-do items for the sender |
-|Reading pane (email) | You have other unread mail from sender. Would you like to review now? **See unread mails** |Reminds the user that there are unread emails from the sender |
 
 </br>
 
