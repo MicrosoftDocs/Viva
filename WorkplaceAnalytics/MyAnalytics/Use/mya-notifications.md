@@ -38,8 +38,7 @@ While reading an email, this nudge reminds you of a potential outstanding to-do 
 
 
 ## Why don’t I see any MyAnalytics nudges? 
-MyAnalytics nudges are available in the latest versions of Outlook for the web and Outlook for Windows with Office 365 licenses. 
-In Outlook for Windows, nudges will show up while reading or composing email, and while reading meetings. In Outlook for the web, only nudges while reading email and meetings are available at this time. Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android. 
+MyAnalytics nudges are available in the latest versions of Outlook for the web and Outlook for Windows with Office 365 licenses. In Outlook for Windows, nudges will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, only nudges while reading email and meetings are available at this time. Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android. 
 
 ## Providing feedback 
 You can provide feedback for each nudge by using the feedback control at the bottom of the MyAnalytics Add-in screen. If you send a thumbs down, we’ll show you less of that nudge. 
