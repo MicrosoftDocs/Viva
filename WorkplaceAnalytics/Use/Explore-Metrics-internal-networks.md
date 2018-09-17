@@ -65,4 +65,4 @@ Network breadth can indicate:
 * The success of on-boarding programs for new employees by comparing newer employees to longer-tenured employees.
 * The success and speed at which acquisitions are integrated into a company by comparing acquired groups to the rest of the company.
 
-
+</br>
