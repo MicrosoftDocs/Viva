@@ -297,6 +297,7 @@ The script logic first attempts to find the MSOL identity through the UserPrinci
 **Does this work with Multi-Factor Authentication (MFA)?**
 
 This script works with Multi-Factor Authentication because the Connect-MsolService cmdlet supports Azure Active Directory Authentication Library (ADAL).
+```
 
 ## Related links
 
