@@ -94,4 +94,4 @@ In Azure Active Directory, you can assign access rights to users by assigning ro
 
 [What is Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)
 
-[Managing access to resource with Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups)
+[Managing access to resources with Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups)
