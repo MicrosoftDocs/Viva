@@ -50,7 +50,7 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Span|The number of direct reports per manager.|
 |Time investor|A *measured employee* that interacts with other collaborators in meetings and with email. Time investors allocate their time with the other participants or *collaborators* in the interaction in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.|
 |Time zones|Workplace Analytics uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (Person query results) are calculated using the person’s time zone. Meeting metrics (Meeting query results) are calculated using the organizer’s time zone.|
-|Working hours|Hours representing the typical work week for the company. By default, Workplace Analytics uses Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. The admin can change the default working hours in the [System defaults](../setup/Configure-wpa-settings.md) section.
+|Working hours|Hours that represent the typical workweek for the company. The Workplace Analytics default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. Your admin can change the default working hours in the [System defaults](../setup/Configure-wpa-settings.md) section.
 
 ### Related topic
 
