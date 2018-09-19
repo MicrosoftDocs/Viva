@@ -20,9 +20,9 @@ The Workplace Analytics Queries page now provides a Power BI template that analy
 
 1.      Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
 
-2.      In the left navigation pane, select **Solutions**.
+2.      In the left navigation pane, select **Queries**.
 
-3.      On the Solutions page, notice the template query card called Collaboration Overload. You can identify Power BI templates in that they display the Power BI logo in the upper-right corner:
+3.      On the Queries page, notice the template query card called Collaboration Overload. You can identify Power BI templates in that they display the Power BI logo in the upper-right corner:
 
    ![Power BI logo in query card](../Images/WpA/tutorials/pbi-templates-01.png)
 
@@ -30,7 +30,7 @@ The Workplace Analytics Queries page now provides a Power BI template that analy
 
    ![Opened Power BI template query](../Images/WpA/tutorials/pbi-templates-02.png)
 
-5.       Review the displayed metrics. If you notice a metric that does not apply to your analysis, you can select the delete icon (trash can) to delete it. 
+5.       Review the displayed metrics. These metrics are required to populate the Power BI template. 
 
    > [!Note] 
    > Attempting to delete a metric displays a warning that this deletion could disable portions of the Power BI template and reduce query results, which in turn can limit your eventual ability to visualize collaboration-overload patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. In the warning dialog box, select **cancel** to retain the metric or **delete** to delete it.  
@@ -43,7 +43,10 @@ The Workplace Analytics Queries page now provides a Power BI template that analy
 
 8.       Select **PBI template**. This displays a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI. 
 
+<!-- REMOVING this for now. It shows typos that are in the UI. Perhaps include this after they've been fixed in the product.  
+
    ![OData link has been copied](../Images/WpA/tutorials/pbi-templates-04.png)
+-->
 
 9.       Select **OK** to dismiss the dialog box. The Power BI template query results file is now downloaded. 
 
@@ -63,6 +66,3 @@ The Workplace Analytics Queries page now provides a Power BI template that analy
 
    ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08.png)
 
-## Available Power BI templates
-Workplace Analytics makes the following query templates available for use with Power BI:
-  * Collaboration overload 
