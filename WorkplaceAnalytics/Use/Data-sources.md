@@ -40,7 +40,7 @@ The Data sources summary provides the following information about your data:
 
 * The date range of the Office 365 data. Use this range to verify if you have data for the period you want to analyze.
 
-* The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly. 
+* The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly.
 
 ![Data sources summary](../images//WpA/Use/Data-sources-summary.png)
 

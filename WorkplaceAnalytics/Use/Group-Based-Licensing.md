@@ -16,7 +16,7 @@ ms.prod: wpa
 Some Microsoft Online products are "add-ons," meaning they require a prerequisite service plan to be enabled for a user, or a group, before they can be assigned. With group-based licensing, the system requires that both the prerequisite and add-on service plans be present on the group, to ensure that any users who are added to the group can received a valid service plan assignment.
 
 Here's an example:
-![Admin center](../Images/WpA/Use/AAD_Group1.png )
+![Admin center](../Images/WpA/Use/AAD_Group1.png)
 
 
 Microsoft Workplace Analytics is an add-on product. It contains a single service plan with the same name and ID of WORKPLACE_ANALYTICS. This service plan can only be assigned to a user, or a group, when one of the following prerequisites are also assigned:
