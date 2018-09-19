@@ -98,13 +98,13 @@ A Learning module is a collection of materials focused on a collaboration topic 
 
 What follows are the four modules: Focus hours, Meetings, Email, and After Hours. You can also find lessons on how to maintain important relationships in your network in these modules.
 
-[MyAnalytics Focus hours](MyAnalytics-focus-hours-april-2018.pdf)
+[MyAnalytics Focus hours](MyAnalytics-focus-hours-september-2018.pdf)
 
-[MyAnalytics Meetings](MyAnalytics-meetings-april-2018.pdf)
+[MyAnalytics Meetings](MyAnalytics-meetings-september-2018.pdf)
 
-[MyAnalytics Email](MyAnalytics-email-april-2018.pdf)
+[MyAnalytics Email](MyAnalytics-email-september-2018.pdf)
 
-[MyAnalytics After hours](MyAnalytics-after-hours-april-2018.pdf)
+[MyAnalytics After hours](MyAnalytics-after-hours-september-2018.pdf)
 
 Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](Team-adopt-plan.md#team-norms-survey). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method.
 
