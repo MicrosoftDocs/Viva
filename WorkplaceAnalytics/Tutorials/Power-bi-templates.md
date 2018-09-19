@@ -43,10 +43,10 @@ The Workplace Analytics Queries page now provides a Power BI template that analy
 
 8.       Select **PBI template**. This displays a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI. 
 
-<!-- REMOVING this for now. It shows typos that are in the UI. Perhaps include this after they've been fixed in the product.  
+   <!-- REMOVING this for now. It shows typos that are in the UI. Perhaps include this after they've been fixed in the product.  
 
    ![OData link has been copied](../Images/WpA/tutorials/pbi-templates-04.png)
--->
+   -->
 
 9.       Select **OK** to dismiss the dialog box. The Power BI template query results file is now downloaded. 
 
