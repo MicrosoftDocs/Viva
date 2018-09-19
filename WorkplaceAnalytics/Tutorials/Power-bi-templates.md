@@ -22,32 +22,44 @@ The Workplace Analytics Queries page now provides a Power BI template that analy
 
 2.      On the Solutions page, notice the template query card called Collaboration Overload. You can identify Power BI templates in that they display the Power BI logo in the upper-right corner:
 
+![Power BI logo in query card](../Images/WpA/tutorials/pbi-templates-01.png)
+
 3.      Select the Collaboration Overload query card. This opens a preset query that contains all the required metrics to properly populate the PBI template. 
+
+![Opened Power BI template query](../Images/WpA/tutorials/pbi-templates-02.png)
 
 4.       Review the displayed metrics. If you notice a metric that does not apply to your analysis, you can select the delete icon (trash can) to delete it. 
 
 > [!Note] 
 > Attempting to delete a metric displays a warning that this deletion could disable portions of the Power BI template and reduce query results, which in turn can limit your eventual ability to visualize collaboration-overload patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. In the warning dialog box, select **cancel** to retain the metric or **delete** to delete it.  
 
-5.       Select **Run**. This opens the Query &gt; Results page. This page displays a row for every run of a query, including the
-query that you just ran.
+5.       Select **Run**. This opens the Query &gt; Results page. This page displays a row for every run of a query, including the query that you just ran.
 
 6.       Select the download (down-arrow) icon. This lets you choose what to download, a CSV file or a Power BI template: 
 
-7.       Select **PBI template**. This displays a dialog
-box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI. 
+![Select PBI template](../Images/WpA/tutorials/pbi-templates-03.png)
 
-8.       Select **OK** to dismiss the dialog box. The
-Power BI template query results file is now downloaded. 
+7.       Select **PBI template**. This displays a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI. 
+
+![OData link has been copied](../Images/WpA/tutorials/pbi-templates-04.png)
+
+8.       Select **OK** to dismiss the dialog box. The Power BI template query results file is now downloaded. 
 
 9.       In your browser, select the downloaded Power BI template query results file to open it:
 
-10.         If a dialog box prompts you to select a program,
-choose **Power BI**:
+![Open downloaded Power BI template file](../Images/WpA/tutorials/pbi-templates-05.png)
+
+10.         If a dialog box prompts you to select a program, choose **Power BI**:
+
+![How to open this file type?](../Images/WpA/tutorials/pbi-templates-06.png)
 
 11.       The Power BI template query results file opens in Power BI. You are prompted to paste the OData link:
 
+![Paste OData link here](../Images/WpA/tutorials/pbi-templates-07.png)
+
 12.       Paste the OData link and select **Load**. It could take several minutes or more to open the data display in Power BI. After the data loads, Power BI displays it in charts that provide visualization into your organization’s collaboration patterns: 
+
+![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08.png)
 
 ## Available Power BI templates
 Workplace Analytics makes the following query templates available for use with Power BI:
