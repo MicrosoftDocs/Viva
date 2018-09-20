@@ -16,13 +16,13 @@ ms.prod: wpa
 
 You can take advantage of Workplace Analytics promotional trials to set up your organization with additional Workplace Analytics licenses on a trial basis.
 
-By using a promotional code that you receive from us, Office 365 admins should follow these steps to add the code and set up the organization with additional licenses:
+By using a promotional code that you receive from us, Office 365 admins can follow these steps to add the code and set up the organization with additional licenses:
 
 ### To add a promotional trial code in Workplace Analytics
 
-1. Start your Internet browser, such as Microsoft Internet Explorer, Microsoft Edge, Google Chrome, or Mozilla Firefox, for **InPrivate**, **incognito**, or **Private** browsing.
+1. Start your web browser, such as Microsoft Internet Explorer, Microsoft Edge, Google Chrome, or Mozilla Firefox, for **InPrivate**, **incognito**, or **Private** browsing.
 
-   For example, depending on which browser you are using, from the Windows taskbar or Start menu, right-click the browser application and select either **Start InPrivate Browsing**, **New InPrivate window**, **New incognito window**, or **New private window**.
+   For example, depending on which browser you are using, on the Windows taskbar or Start menu, right-click the browser application and select **Start InPrivate Browsing**, **New InPrivate window**, **New incognito window**, or **New private window**.
   
    ![InPrivate Browsing](../Images/new-inprivate-window.png)  
   
@@ -30,16 +30,16 @@ By using a promotional code that you receive from us, Office 365 admins should f
 
    ![Promotional code link](../Images/promo-code.png)  
 
-3. To add the promo code to your existing environment, select **Sign In** next to **Want to add this to an existing subscription?**
+3. To add the promotional code to your existing environment, select **Sign In** next to **Want to add this to an existing subscription?**
 
    ![Promotional code sign-in](../Images/sign-in.png)
 
-4. On the **Sign in** page, type in your admin credentials.
+4. On the **Sign in** page, type your admin credentials.
 5. On the **Check out** page, select **Try Now** to confirm the order.
-6. When you get the order receipt, save it, and then select **Continue**.
-7. To confirm the codes were successfully added to your environment, go to the **Admin Center** > **Users** > **Active Users**.
+6. When you get the order receipt, save it and then select **Continue**.
+7. To confirm that the codes were successfully added to your environment, go to **Admin Center** > **Users** > **Active Users**.
 
-   For example,  https://portal.office.com/AdminPortal/Home#/users.
+   For example,  https://portal.office.com/AdminPortal/Home#/users
 
 8. Select a user account, and then next to **Product licenses**, select **Edit**.
 
