@@ -104,7 +104,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### Network
  
-<img src="../../../images/mya/use/network.PNG" alt="Dashboard Network area">
+<img src="../../../images/mya/use/network2.PNG" alt="Dashboard Network area">
   
  * Do my time investments in people line up with my top priorities?
  * Are there opportunities for me to meet more with or less with certain individuals?
