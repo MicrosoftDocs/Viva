@@ -30,7 +30,10 @@ Workplace Analytics gives you different ways to explore your data.
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) gives a summary of day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers and employees.
-* [**Networks and collaboration**](../use/explore-metrics-networks-and-collaboration.md) gives a summary of the network patterns within the company.
+* [**Internal networks**](../use/Explore-Metrics-internal-networks.md) gives a summary of your employees’ networking patterns within the company.
+* [**External collaboration**](../use/Explore-Metrics-external-collaboration.md) gives a summary of your employees’ networking patterns with people outside the company. 
+
+
 
 [**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
 
