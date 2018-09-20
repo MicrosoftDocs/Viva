@@ -43,7 +43,7 @@ Workplace Analytics helps analysts identify high and low collaboration and its c
 * A company culture that does not promote collaborative behaviors and open working styles.
 
 ## After-hours collaboration hours
-After-hours meeting and email hours are the number of hours that a person spent in meetings and sending email outside of business hours. (Workplace Analytics uses 9AM to 5PM, Monday through Friday as the default for business hours.)
+After-hours meeting and email hours are the number of hours that a person spent in meetings and sending email outside of business hours. (Workplace Analytics uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
 
 ![After-hours collaboration hours](../images//WpA/Use/after-hours-collaboration-hours-explore.png)
 
