@@ -64,5 +64,5 @@ The Workplace Analytics Queries page now provides a Power BI template that analy
 
 13.       Paste the OData link and select **Load**. It could take several minutes or more to open the data display in Power BI. After the data loads, Power BI displays it in charts that provide visualization into your organization’s collaboration patterns: 
 
-   ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08.png)
+   ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
