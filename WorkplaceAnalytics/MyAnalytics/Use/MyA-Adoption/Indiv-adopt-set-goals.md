@@ -27,13 +27,15 @@ People aim to align their actions with their beliefs. If you don’t fully belie
 
 ## Define your measurable goal 
 
-After you have clearly defined your purpose for change, diagnosed your collaboration problem, and selected your behavior-change objective, you are ready to set your specific MyAnalytics goal.
+After you have clearly defined your purpose for change, diagnosed your collaboration problem, and selected your behavior-change objective, you are ready to set your specific MyAnalytics goal. To start, find the related metric in your dashboard, figure out how much time you usually spend on the thing you want to change, and write it down, along with your desired target. Each week, you can check your dashboard to see how you compare to your goal. For more information on how to create a plan for achieving your goal, see [Habit-building method](Adopt-Habit-building-method.md). 
 
+<!--
+DELETED 9/19/2018 PER KATE: 
 MyAnalytics encourages you to set goals directly in your dashboard, which will allow you to keep track of your progress week over week:
-
 <img src="../../../Images/MyA/use/Adopt-indiv-6.PNG" alt="Edit your goals on the MyAnalytics dashboard">
   
 You can also set your own goal using other MyAnalytics metrics. To start, find the related metric in your dashboard, figure out how much time you usually spend on the thing you want to change, and write it down, along with your desired target. Each week, you can check your dashboard to see how you compare to your goal. For more information on how to create a plan for achieving your goal, see [Habit-building method](Adopt-Habit-building-method.md). 
+-->
 
 The following table provides some common examples of behavior-change objectives, related metrics in MyAnalytics, and examples of goals that align to those objectives.  
 
@@ -41,9 +43,9 @@ The following table provides some common examples of behavior-change objectives,
 | ------	| -----  |	----- |
 | Reduce the number of hours that I spend in ineffective meetings |	<li>Meeting hours <li>Number of hours in conflicting meetings<li>Number of hours in multitasking meetings<li>Number of hours in longer meetings<li>Number of hours in recurring meetings<li>Number of hours in after-hours meetings | Reduce hours in multitasking meetings by 50% |
 | Schedule more focus hours to boost my productivity, creativity, and decision-making | <li>Focus hours<li>Focus-hours-to-meeting-hours ratio (use the focus habits chart in your dashboard) |	Spend an equal amount of time in meetings and focus sessions |
-Manage my inbox more effectively | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li>Hours writing emails<li>Hours sending emails | Send zero emails outside of business hours |
-Improve the effectiveness of the emails I send | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li>Hours writing emails<li>Hours sending emails | Reduce the number of emails sent by 25% |
+Manage my inbox more effectively | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li><!--Hours writing emails<li>Hours sending email--> | Send zero emails outside of business hours |
+Improve the effectiveness of the emails I send | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li><!--Hours writing emails<li>Hours sending emails--> | Reduce the number of emails sent by 25% |
 Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours | 
-Spend more time with the people in my network who are aligned with my top priorities | “Your Time Investments” metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from “right to left” in your “Your Time Investments” map in your dashboard) | 
+Spend more time with the people in my network who are aligned with my top priorities | "My network" metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from "right to left" in your "My network" map in your dashboard) | 
 
 After you have defined your goal, you are ready to select a behavior to achieve that goal. For more information, see [Build your habit](Indiv-adopt-develop-habits.md).
