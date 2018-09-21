@@ -26,5 +26,5 @@ Your organization must comply with the system requirements and complete the setu
 ### Workplace Analytics partner solutions
 
 * **Archive360 FastCollect** is an Azure-native solution that connects your on-premises data to Office 365 and Azure. This solution supports large data sets of structured, semi-structured, and unstructured data and is very extensible as a modular architecture solution. To learn more about this solution, see [Archive360 FastCollect](https://www.archive360.com/products/fastcollect-for-archives/).
-* **Quest** 
-* **TransVault**
+* **Quest On Demand Migration for Email** offers a cloud-based service that synchronizes on-premises Exchange mailbox data with Office 365 as staged mailboxes for Workplace Analytics to access and analyze. The data is hosted on Quest’s Azure tenant. To learn more about this solution, see [Quest](https://www.quest.com/products/on-demand-migration-for-email/)
+* **TransVault WPA-SYNC** is a managed service that's deployed as on-premises or an Azure solution​ with secure HTTPS, one-step, end-to-end transfers. This solution provides a full chain of custody, encryption, and optional audit reports​ designed for scalability in enterprises, that supports complex environments with minimal administration​. To learn more about this solution, see [TransVault](https://www.transvault.com/solutions/microsoft-workplace-analytics-for-hybrid/)

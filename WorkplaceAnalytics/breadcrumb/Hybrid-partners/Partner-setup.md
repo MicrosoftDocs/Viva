@@ -36,9 +36,8 @@ If you want to use a partner solution to connect Workplace Analytics to your on-
 * An account with Exchange impersonation​ for multiple-mailbox access permissions
 * Active Directory read access​
 * Open ports (HTTPS) and namespaces to connect to the partner solution
-* If the storage mailbox data is hosted in your domain on premises, your Workplace Analytics admin needs domain access to manage the solution end-to-end
-
-     **Question?** *What part of the solution is hosted on the customer's domain? Is it the storage mailbox data that's stored in their domain? Solution seems too general??*
+* If the solution uses Analyst Web access that is hosted in your domain on premises, your Workplace Analytics admin needs domain access to manage the solution end-to-end
+    **Question??** What part of the solution is hosted in the domain that the admin needs access to? I think solution is too broad or general, so is it for the web access on the front-end?
 
 ## Set up your on-premises Exchange server
 
