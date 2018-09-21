@@ -36,14 +36,21 @@ If you want to use a partner solution to connect Workplace Analytics to your on-
 * An account with Exchange impersonation​ for multiple-mailbox access permissions
 * Active Directory read access​
 * Open ports (HTTPS) and namespaces to connect to the partner solution
-* If the solution uses Analyst Web access that is hosted in your domain on premises, your Workplace Analytics admin needs domain access to manage the solution end-to-end
-    **Question??** What part of the solution is hosted in the domain that the admin needs access to? I think solution is too broad or general, so is it for the web access on the front-end?
+* If the partner solution is hosted in your on-premises domain, your Workplace Analytics admin needs domain access to manage the solution end-to-end
 
-## Set up your on-premises Exchange server
+## Workflow to set up the partner solution
 
+The following table lists the necessary tasks and who's responsible for them during each phase of setting up the partner solution.
 
+|Solution setup phase|Your customer tasks|Partner tasks|Microsoft tasks
+|--------------------|---------------|-------------|-------------------------|
+|Assess, scope, and select a partner solution|<ul><li>Select a partner solution</li><li>Sign applicable contracts</li><li>Confirm scope, including number of mailboxes and time range of data to copy</li></ul>|Provide quotes and statement of work|Provide assistance with assessment|
+|Deploy the solution|Provide solution requirements, including Exchange mailbox impersonation permissions, open ports, and namespaces|<ul><li>Deploy and configure the solution​</li><li>Create Office 365 Exchange Online copy of mailboxes​</li><li>Assign licenses for mailboxes with Exchange and for Workplace Analytics</li><li>Disable mailbox access and email routing​</li><li>Hide <**hide what mailbox??**> mailbox from Exchange's Global Address List (GAL)</li></ul>|Provide mailbox naming convention (primary/secondary (proxy) SMTP to apply)
+|Test the solution|Review pilot results|<ul><li>Copy pilot data from on-premises to Office 365​​</li><li>Coordinate testing with Microsoft​​</li><li>Resolve any issues with the solution</li></ul>|Confirm the pilot data is available to Workplace Analytics and sign-off on the solution
+|Production|<ul><li>Confirm data is available to Workplace Analytics</li><li>Provide scope changes, if any</li></ul>|<ul><li>Copy all scoped mailboxes​</li><li>Provide status reports to the customer and to Microsoft​</li><li>Copy any deltas, continuously or daily​</li><li>Clean up mailboxes when ready to migrate</li></ul>|Monitor production data to check it’s available to Workplace Analytics
+|Change requests (if any)|Submit changes to mailboxes per process outlined in statement of work|Resolve any issues with the solution|Resolve any issues with Microsoft services
 
 ## How to get help
 
 * For personal guidance with partner solutions or help with Workplace Analytics setup and data analysis, email the Workplace Analytics Fast Track team at <wpaft@Microsoft.com>.
-* For general help with Office 365, Exchange, Azure Active Directory, assigning licenses, and issues with user access and permissions, contact Microsoft Support at https://support.microsoft.com.
+* For general help with Office 365, Exchange, Azure Active Directory, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com).
