@@ -53,6 +53,7 @@
       "searchScope": { "MyAnalytics/**.md": ["Workplace Analytics","MyAnalytics"] }
     },
     "template": [],
-    "dest": "OfficeDocs-WorkplaceAnalytics"
+    "dest": "OfficeDocs-WorkplaceAnalytics",
+    "markdownEngineName": "markdig"
   }
 }
