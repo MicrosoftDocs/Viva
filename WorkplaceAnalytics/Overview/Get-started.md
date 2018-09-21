@@ -6,7 +6,7 @@ title: Get started with Workplace Analytics
 description: Gives a high-level overview of the primary features in Workplace Analytics. 
 author: madehmer
 ms.author: v-leash
-ms.date: 06/19/2018
+ms.date: 9/21/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -40,7 +40,7 @@ Workplace Analytics gives you different ways to explore your data.
 
 [**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page.
 
-**Page settings** for both the Explore and Solutions pages (open on the right side) enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query or solution).
+**Page settings** for both the Explore and Solutions pages (open on the right side) enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. By default, the Explore and Solutions pages are filtered to show active employees only. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query or solution).
 
 ![Page settings](../Images/WpA/Overview/page-settings.png)
 
