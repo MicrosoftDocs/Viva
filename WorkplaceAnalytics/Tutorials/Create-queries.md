@@ -6,7 +6,7 @@ title: Create queries in Workplace Analytics
 description: How to create custom queries in Workplace Analytics. 
 author: madehmer
 ms.author: v-midehm
-ms.date: 07/16/2018
+ms.date: 09/04/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -88,10 +88,11 @@ You can create a Person query to investigate if long meetings are a significant 
 
 1. On the Queries page, select **Person**.
 2. In the **Enter query name here** box, enter **Operations long meetings**.
-3. In the **Group by** menu, select **Week**, select the **Date range** you want, and in the **Meeting exclusions** menu, select the exclusion rule set that you want.
-4. In the **Filters** section, select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
-5. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
-6. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
+3. In the **Group by** menu, select **Week**, select the date range you want, and then in the **Meeting exclusions** menu, select the exclusion rule set.
+4. For **Included employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email during the aggregated time period (date range) set for this query.
+5. In the **Filters** section, select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
+6. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
+7. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
 
     a. To customize the Long meeting hours metric, select the Edit icon.
 
@@ -101,8 +102,8 @@ You can create a Person query to investigate if long meetings are a significant 
     
     d. Select **Confirm**.
 
-7. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
-8. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
+8. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
+9. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
 
     > [!Note]
     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
@@ -110,8 +111,8 @@ You can create a Person query to investigate if long meetings are a significant 
     > * To make sure you have a line of data for every person/date combination for the metrics, add **Emails sent** as one of your metrics.
     > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics includes all person/date combinations.
 
-9. Choose **Run query**.
-10. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
+10. Choose **Run query**.
+11. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
 
 **Person query results include the following columns**
 
