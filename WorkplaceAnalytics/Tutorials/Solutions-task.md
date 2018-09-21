@@ -14,9 +14,12 @@ ms.prod: wpa
 
 # Teamwork solution: Walkthrough 
 
-Use the solutions area of Workplace Analytics to attempt to change employees' work habits for the better. On the Solutions pages of Workplace Analytics, you can create a program, track it while it is in progress, and examine it after it completes. 
+Use the solutions area of Workplace Analytics to attempt to change employees' work habits for the better. On the Solutions pages of Workplace Analytics, you can create a program, track it while it is in progress, and examine it after it completes.
 
-People in either of two roles can work on programs: Analysts can help identify groups and opportunities for change. Program managers can design and track programs that are underway and examine programs that have completed. 
+People in either of two roles can work on programs:
+
+* Analysts can help identify groups and opportunities for change. 
+* Program managers can design and track programs that are underway and examine programs that have completed.
 
 ## Workflow phases, pages, and roles 
 
@@ -54,59 +57,59 @@ The following section presents you with procedures for both ways to identify a g
  * **Prerequisite** - Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file).  
  * **Role** - Program manager
 
-1. In Workplace Analytics, select **Solutions**. 
-2. On the Solutions page, under Identify, select **Go**. This opens the Solutions > Identify page. 
-3. In the Custom group card, select **Create**. The Upload group page opens. 
-4. Select **Browse**, locate and select a .csv file, and select **Open**. 
-5. Identify this group in the Group name field. 
-6. For Choose Program, select the program type. The choice of a program is final; you cannot change it after you submit this group. 
+1. In Workplace Analytics, select **Solutions**.
+2. On the Solutions page, under Identify, select **Go**. This opens the Solutions > Identify page.
+3. In the Custom group card, select **Create**. The Upload group page opens.
+4. Select **Browse**, locate and select a .csv file, and select **Open**.
+5. Identify this group in the Group name field.
+6. For Choose Program, select the program type. The choice of a program is final; you cannot change it after you submit this group.
 7. For Max goal (Min goal, if the program is to increase Focus hours), select either a percentage-based or hour-based goal. If you select percentage-based, also set a value for Threshold. The choice of Max (or Min) goal is not final. For more information, see Set a value for Max goal.
-8. (Optional) In the Group description and notes section, type a description of this group and the program. 
-9. Check the box for _I confirm that these selections are correct_ and select **Submit**. Workplace Analytics displays that your group has been successfully uploaded and that you can view groups that you've uploaded on the Manage page. 
+8. (Optional) In the Group description and notes section, type a description of this group and the program.
+9. Check the box for _I confirm that these selections are correct_ and select **Submit**. Workplace Analytics displays that your group has been successfully uploaded and that you can view groups that you've uploaded on the Manage page.
 
-Go to [Schedule a program](#schedule-a-program). 
+Go to [Schedule a program](#schedule-a-program).
 
-### Identify a group 
+### Identify a group
 
  * **Role** - Analyst
 
-Use this procedure if you don't yet have a list of people (a .csv file) that you want to register for the program. To obtain this list of participants, you perform an analysis by using the options on the Collaboration Overload page. 
+Use this procedure if you don't yet have a list of people (a .csv file) that you want to register for the program. To obtain this list of participants, you perform an analysis by using the options on the Collaboration Overload page.
 
 > [!Tip]
 > This procedure works best if you start it after you decide on an area of focus for your analysis. That is, if you know that some people in your organization have a problem with too many meeting hours, or too few focus hours, or that they collaborate too much after the workday ends. 
 
-1. In Workplace Analytics, select **Solutions**. 
+1. In Workplace Analytics, select **Solutions**.
 
 2. On the Solutions page, under Identify, select **Go**. This opens the Solutions > Identify page. 
 
 3. In the collaboration-overload card for your area of focus (Meeting hours, Focus hours, or After hours), select **Get started**. This opens the Collaboration Overload page.
 
-4. (Optional) Although you just selected an area of focus on the Solutions > Identify page, if you decide that a different focus is better, you can change it on this page (Collaboration Overload). To do this, select the text (such as focus hours) in the Filter and analyze banner: 
+4. (Optional) Although you just selected an area of focus on the Solutions > Identify page, if you decide that a different focus is better, you can change it on this page (Collaboration Overload). To do this, select the text (such as focus hours) in the Filter and analyze banner:
 
    ![Filter and analyze](../Images/WpA/Tutorials/solutions-task-01.png)
  
 5. Scope your data. To do this, narrow the focus to specific people by applying filters.
 
-   > [!Note] 
+   > [!Note]
    > You apply filters in the Filter summary area, in the right column of the page. If this area is not showing, select **Settings and filters** to re-display it:
 
    ![Settings and filters](../Images/WpA/Tutorials/solutions-task-02.png)
  
 6. In the right column, under Filter summary, select **Edit**. The Edit filters panel opens.  
 
-7. Under Edit filters, select **Add filter**. Here's an example of how to add a filter: 
+7. Under Edit filters, select **Add filter**. Here's an example of how to add a filter:
    
-   a. In the left box, select **Organization**. 
+   a. In the left box, select **Organization**.
 
-   b. In the right box, select a predefined organization, such as **Operations**. 
+   b. In the right box, select a predefined organization, such as **Operations**.
 
-    -- or -- 
+    -- or --
 
    b. In the right box, start typing the name of a manager and then click that name to select this manager's team.
    
-   c. Optionally, you can add another organization filter. For example, select **Marketing** in the right box. If you do this, the Marketing filter selection is displayed next to your first filter selection (such as Operations) under the selection boxes. 
+   c. Optionally, you can add another organization filter. For example, select **Marketing** in the right box. If you do this, the Marketing filter selection is displayed next to your first filter selection (such as Operations) under the selection boxes.
 
-8. You will soon see the results of this filtering in the form of a chart. Before Workplace Analytics displays the chart, you can, optionally, group the people whose behavior you are analyzing. You can use any of the available HR attributes to group them by. To do this, under Chart display, select **Group by** and then select (for example) **FunctionType**. 
+8. You will soon see the results of this filtering in the form of a chart. Before Workplace Analytics displays the chart, you can, optionally, group the people whose behavior you are analyzing. You can use any of the available HR attributes to group them by. To do this, under Chart display, select **Group by** and then select (for example) **FunctionType**.
 
 9. To apply the filters and other changes that you've made, select **Apply**:
 

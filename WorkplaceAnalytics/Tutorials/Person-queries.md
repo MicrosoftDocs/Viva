@@ -6,7 +6,7 @@ title: Person queries in Workplace Analytics
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual.     
 author: madehmer
 ms.author: madehmer
-ms.date: 7/16/2018
+ms.date: 9/21/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -48,9 +48,10 @@ You can use organizational attributes to further summarize the person results an
 It’s simple to set up a person query.
 
 * Select whether you want each person’s metrics summarized by day, week or month, and the period you’d like to analyze.
+* Select if you want active, inactive, or all employees included in the query. Active employees are those who sent at least one email during the set time period (the aggregated period set for the query).
 * Select a custom rule set to exclude meetings from the calculations, otherwise it'll use the default.
 
-![Create person query](../Images/WpA/Tutorials/create-person-query1.png)
+![Create person query](../Images/WpA/Tutorials/create-person-query.png)
 
 ## Add filters
 
