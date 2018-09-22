@@ -73,7 +73,7 @@ In the following steps, you first customize and then change a base metric.
 
 6. Customize the metric. To do this, follow these steps:
 
-   a. Select the edit icon (![edit icon](../Images/WpA/Tutorials/edit-icon.png)). This displays the option to apply filters to the base metric: 
+   a. Select the edit icon ![edit icon](../Images/WpA/Tutorials/edit-icon.png). This displays the option to apply filters to the base metric: 
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-03.png)
 
