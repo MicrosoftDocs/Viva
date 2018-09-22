@@ -11,14 +11,14 @@ ms.date: 9/18/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
-
 ---
+# Workplace Analytics partner solution setup
 
 Workplace Analytics requires Office 365 storage mailbox data in Exchange Online. If your organization uses on-premises Exchange for mailbox storage, you'll need to either migrate to Exchange Online or use a partner solution to connect Workplace Analytics to your organization's email and calendar metadata.
 
 If you want to use a partner solution to connect Workplace Analytics to your on-premises Exchange mailbox data, you must meet the following system requirements and then complete the following setup steps.
 
-### System requirements for a partner solution setup
+## System requirements for a partner solution setup
 
 **On-Premises Exchange configuration**
 

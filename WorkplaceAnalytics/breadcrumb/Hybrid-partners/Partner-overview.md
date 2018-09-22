@@ -11,8 +11,8 @@ ms.date: 9/18/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
-
 ---
+# Workplace Analytics partner solution overview
 
 Workplace Analytics uses Office 365 email and calendar metadata and turns it into a set of behavioral metrics to help you understand how your teams are currently spending their time and working together.
 
