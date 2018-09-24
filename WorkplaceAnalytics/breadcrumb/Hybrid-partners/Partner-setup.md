@@ -50,7 +50,7 @@ The following table lists the necessary tasks and who's responsible for them dur
 |Production|<ul><li>Confirm data is available to Workplace Analytics</li><li>Provide scope changes, if any</li></ul>|<ul><li>Copy all scoped mailboxes​</li><li>Provide status reports to the customer and to Microsoft​</li><li>Copy any deltas, continuously or daily​</li><li>Clean up mailboxes when ready to migrate</li></ul>|Monitor production data to check it’s available to Workplace Analytics
 |Change requests (if any)|Submit changes to mailboxes per process outlined in statement of work|Resolve any issues with the solution|Resolve any issues with Microsoft services
 
-## Storage mailbox setup details
+## Storage mailbox setup
 
 Storage mailboxes are Office 365-based mailboxes that contain synchronized data from associated on-premises Exchange Online mailboxes. You can use a PowerShell script to create and configure these mailboxes and assign required licenses, if necessary.
 
