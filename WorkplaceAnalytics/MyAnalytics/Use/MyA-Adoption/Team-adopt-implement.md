@@ -59,10 +59,10 @@ The following table provides some examples of specific goals:
 | ------	| -----  |	----- |
 | Reduce the number of hours that I spend in ineffective meetings |	<li>Meeting hours <li>Number of hours in conflicting meetings<li>Number of hours in multitasking meetings<li>Number of hours in longer meetings<li>Number of hours in recurring meetings<li>Number of hours in after-hours meetings | Reduce hours in multitasking meetings by 50% |
 | Schedule more focus hours to boost my productivity, creativity, and decision-making | <li>Focus hours<li>Focus-hours-to-meeting-hours ratio (use the focus habits chart in your dashboard) |	Spend an equal amount of time in meetings and focus sessions |
-Manage my inbox more effectively | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li>Hours writing emails<li>Hours sending emails | Send zero emails outside of business hours |
-Improve the effectiveness of the emails I send | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<li>Hours writing emails<li>Hours sending emails | Reduce the number of emails sent by 25% |
+Manage my inbox more effectively | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<!--<li>Hours writing emails<li>Hours sending email--> | Send zero emails outside of business hours |
+Improve the effectiveness of the emails I send | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<!--<li>Hours writing emails<li>Hours sending emails--> | Reduce the number of emails sent by 25% |
 Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours | 
-Spend more time with the people in my network who are aligned with my top priorities | “Your Time Investments” metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from “right to left” in your “Your Time Investments” map in your dashboard) | 
+Spend more time with the people in my network who are aligned with my top priorities | "My network" metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from "right to left" in your "My network" map in your dashboard) | 
 
 The team goal discussion should result in an appropriate goal for the team. If only the goal-focus area is defined by the end of the meeting and not the specifics though, send a brief goal-setting survey after the meeting in which you ask a few questions to confirm the goal area and a measurable target.
 
@@ -98,13 +98,13 @@ A Learning module is a collection of materials focused on a collaboration topic 
 
 What follows are the four modules: Focus hours, Meetings, Email, and After Hours. You can also find lessons on how to maintain important relationships in your network in these modules.
 
-[MyAnalytics Focus hours](MyAnalytics-focus-hours-april-2018.pdf)
+[MyAnalytics Focus hours](MyAnalytics-focus-hours-september-2018.pdf)
 
-[MyAnalytics Meetings](MyAnalytics-meetings-april-2018.pdf)
+[MyAnalytics Meetings](MyAnalytics-meetings-september-2018.pdf)
 
-[MyAnalytics Email](MyAnalytics-email-april-2018.pdf)
+[MyAnalytics Email](MyAnalytics-email-september-2018.pdf)
 
-[MyAnalytics After hours](MyAnalytics-after-hours-april-2018.pdf)
+[MyAnalytics After hours](MyAnalytics-after-hours-september-2018.pdf)
 
 Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](Team-adopt-plan.md#team-norms-survey). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method.
 
