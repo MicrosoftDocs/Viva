@@ -127,9 +127,9 @@ Use this procedure if you don't yet have a list of people (a .csv file) that you
 
    * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutions-conceptual.md#minimum-group-size).) For example, in the organization we are analyzing, the minimum group size is five. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown grayed out: 
 
-   ![Groups below the minimum size](../Images/WpA/Tutorials/solutions-task-04.png)
+       ![Groups below the minimum size](../Images/WpA/Tutorials/solutions-task-04.png)
   
-   For more information, see [Available and selected employees](solutions-conceptual.md#available-and-selected-employees).
+       For more information, see [Available and selected employees](solutions-conceptual.md#available-and-selected-employees).
 
 11. Select one or more groups for analysis. You can also select grayed-out groups. If you select enough of them so that their combined membership exceeds the minimum group size, you can use them in your analysis. 
 
@@ -141,24 +141,24 @@ After you have groups selected, go to the following procedure, [Submit a group](
 
  * **Role** - Analyst
 
-After you have selected groups in [Identify a group](#identify-a-group), finish creating your program in the _Review and submit your group_ area: 
+1. After you have selected groups in [Identify a group](#identify-a-group), finish creating your program in the _Review and submit your group_ area: 
 
    ![Review and submit](../Images/WpA/Tutorials/solutions-task-05.png)
  
-1. Type a group name and an optional description, and optionally change the program type. 
+2. Type a group name and an optional description, and optionally change the program type. 
 
    > [!Note] 
    > The program type that you select here is final; it cannot be changed later.  
 
-2. Note the histogram under Propose a goal. It displays the baseline state for the selected employees, according to the program type that you chose. For example, if your program is Reduce meeting hours, the columns in this histogram show the distribution of employee behavior regarding meeting hours -- that is, the hours per week that the employees in the selected groups spent in meetings. This baseline state helps you choose a useful and reasonable goal for these employees. 
+3. Note the histogram under Propose a goal. It displays the baseline state for the selected employees, according to the program type that you chose. For example, if your program is Reduce meeting hours, the columns in this histogram show the distribution of employee behavior regarding meeting hours -- that is, the hours per week that the employees in the selected groups spent in meetings. This baseline state helps you choose a useful and reasonable goal for these employees. 
 
-3. Select a goal. You can pick either a time-based goal or a percentage-based goal: 
+4. Select a goal. You can pick either a time-based goal or a percentage-based goal: 
 
     * Time-based goal. Select **hrs** and then select a number of hours. Participants will see this as the maximum number of meeting hours per week that they should strive to reach over the course of the program. (For Focus hours, this goal will reflect the minimum number of hours.)
 
     * Percentage-based goal. Select **%** and then select a percentage amount. Participants should reduce their meeting hours by this much (or, for Focus hours, to increase the number by this much). If you choose percentage-based, you can also select a threshold. For more information, see [Threshold](solutions-conceptual.md#threshold). 
 
-4. Select _I confirm that these selections are correct_ and select **Submit**. A notification appears in the lower-right area of the page; it lets you know whether your group has been successfully submitted. You can select this notification to open the Solutions > Manage page. 
+5. Select _I confirm that these selections are correct_ and select **Submit**. A notification appears in the lower-right area of the page; it lets you know whether your group has been successfully submitted. You can select this notification to open the Solutions > Manage page. 
 
 ## Next steps: processing tasks
 
@@ -203,7 +203,7 @@ In this phase, you work on the Solutions > Manage page of Workplace Analytics. Y
 
 6. Workplace Analytics displays information about ineligible employees:
   
-   ![Ineligible employees](../Images/WpA/Tutorials/solutions-task-06.png)
+   ![Ineligible employees](../Images/WpA/Tutorials/solutions-task-06a.png)
 
 7. In this example, six employees are ineligible because of a conflicting program. You have two choices: 
 
