@@ -61,7 +61,16 @@ Storage mailboxes are Office 365-based mailboxes that contain synchronized data 
 * Confirm they're not linked to any existing mailboxes
 * Confirm they're only visible to Workplace Analytics and your Office 365 admin
 * Disable the following Exchange Online mailbox parameters:
-    ActiveSyncEnabled, EwsAllowEntourage, EwsAllowMacOutlook EwsAllowOutlook, IMAPEnabled, MAPIEnabled, POPEnabled, OWAEnabled, OWAforDevicesEnabled,​ and UniversalOutlookEnabled
+  * ActiveSyncEnabled
+  * EwsAllowEntourage
+  * EwsAllowMacOutlook
+  * EwsAllowOutlook
+  * IMAPEnabled
+  * MAPIEnabled
+  * POPEnabled
+  * OWAEnabled
+  * OWAforDevicesEnabled
+  * UniversalOutlookEnabled
 
 ## How to get help
 
