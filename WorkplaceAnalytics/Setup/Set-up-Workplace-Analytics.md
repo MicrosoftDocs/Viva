@@ -63,38 +63,38 @@ To set up Workplace Analytics, complete the following tasks:
 
 When you have finished all these steps, you are ready to [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md).
 
-# Preliminary review task
+## Preliminary review task
 
-## Environment and support
+### Environment and support
 
 [!INCLUDE [Environment and support](../Setup/Environment-Requirements.md)]
 
-# Setup tasks
+## Setup tasks
 
-## Step 1: Determine key personas and roles for implementation
+### Step 1: Determine key personas and roles for implementation
 
 [!INCLUDE [Determine key personas and roles](../Setup/Determine-key-personas.md)]
 
-## Step 2: Assign licenses to the population in scope for analysis
+### Step 2: Assign licenses to the population in scope for analysis
 
 [!INCLUDE [Assign licenses to population](../Setup/Assign-licenses-to-population.md)]
 
-## Step 3: Assign roles to Workplace Analytics admins and analysts
+### Step 3: Assign roles to Workplace Analytics admins and analysts
 
 [!INCLUDE [Assign roles to admins and analysts](../Setup/Assign-roles-to-wpa-admins.md)]
 
-## Step 4: Configure Workplace Analytics settings
+### Step 4: Configure Workplace Analytics settings
 
 [!INCLUDE [Configure Workplace Analytics settings](../Setup/Configure-wpa-settings.md)]  
 
-## Step 5: Prepare and upload organizational data
+### Step 5: Prepare and upload organizational data
 
 [!INCLUDE [Prepare and upload organizational data](../Setup/Prep-upload-org-data.md)]
 
-## Step 6: Validate and verify data
+### Step 6: Validate and verify data
 
 [!INCLUDE [Validate and verify data](../Setup/Validate-verify-data.md)]
 
-## Step 7: Set up meeting exclusions
+### Step 7: Set up meeting exclusions
 
 [!INCLUDE [Set up meeting exclusions](../Setup/Set-up-mtg-exclusions.md)]
