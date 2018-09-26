@@ -140,11 +140,11 @@ In the basic process to create a Meeting query, you will answer three questions:
 
 ### Available data
 
-Using a Meeting query, you can query on the calendar metadata available from Office 365 for your company. Examples include: Attendee meeting hours, attendees, invitees, emails sent during meetings and so forth.
+Using a Meeting query, you can query on the calendar metadata available from Office 365 for your company. Examples include: Attendee meeting hours, attendees, invitees, emails sent during meetings, and so forth.
 
 ### Example: Business scenario – Long recurring meetings
 
-Continuing the example from the Person section above, to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a Meeting query using the following criteria:
+Continuing the example from the Person section above, to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a Meeting query with the following criteria:
 
 * Time frame: Show the data aggregated weekly
 * Meeting properties: Filters
@@ -171,7 +171,7 @@ Continuing the example from the Person section above, to investigate long meetin
 
 ### Meeting query results include these columns
 
-Each row of data represents a single meeting, and Meeting query results always contain the following information in columns.
+Each row of data represents a single meeting, and Meeting query results always contain the following information in columns:
 
 * Meeting ID – Unique ID number of the specific meeting
 * Start Date and Time – When the meeting started
