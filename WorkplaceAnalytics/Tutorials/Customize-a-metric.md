@@ -96,7 +96,7 @@ In the following steps, you first customize and then change a base metric.
    >[!Note] 
      * Any base metric that can be changed displays a drop-down menu whose options represent the possible changes.
      * Not all base metrics can be changed. If no drop-down menu is available, this metric cannot be changed. 
-     * Changes are not always 1-1. For example, you can change from Conflicting meeting hours to Email hours, but, due to variations in the available filters, the opposite change is not possible.
+     * Changes are not always 1 to 1. For example, you can change from Conflicting meeting hours to Email hours, but, due to variations in the available filters, the opposite change is not possible.
 
    If you select a new base metric for which the filter options are identical, the metric will change and you'll see no additional changes. If you select a new base metric for which the filter options are a subset, additional available filters appear. If you have edited the display name of the metric and then change the base metric, the display name that you edited is deleted.
 
