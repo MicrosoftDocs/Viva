@@ -26,7 +26,7 @@ You can change metric use within a query in three ways: customize a base metric,
 
 After you select a metric you can _customize_ it. A customized metric produces more refined results when used in the query. You customize a metric by applying filters to it. Although you do this on the query-builder page, these filters apply only to the metric and function independently from any filters that you apply to the query itself. 
 
-Example: You might start with the base metric "Email hours." You can customize it so that it becomes the more targeted metric: "Email hours where at least all attendee's and/or recipient's FunctionType equals R&D."  
+Example: You might start with the base metric "Email hours." You can customize it so that it becomes the more targeted metric: "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D."  
 
 ### Change the base metric
 
@@ -34,17 +34,17 @@ You can also change the base metric. This means swapping it out, selecting a dif
 
 #### Customizations are retained when you change the base metric
 
-In our example, you customized the "Email hours" base metric to become "Email hours where at least all attendee's and/or recipient's FunctionType equals R&D." 
+In our example, you customized the "Email hours" base metric to become "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D." 
 
 Now, after you have applied a customization, you _change_ the base metric from "Email hours" to "Total emails sent during meeting." 
 
 This change gives you a new metric that has kept the same customization. Your final, customized metric becomes: "Total emails sent during meeting where at least all attendee's and/or recipient's FunctionType equals R&D."
 
-In other words, the customization that you applied to the original base metric was not lost when you changed from the that base metric to a different base metric. 
+In other words, the customization that you applied to the original base metric was not lost when you changed from that base metric to a different base metric. 
 
-### Add more base metrics
+### Add further base metrics
 
-You can also add more base metrics to your query. You would do this to modify the area of focus of the query. 
+You can also add further base metrics to your query. You would do this to modify the query's area of focus. 
 
 ## Walkthrough: Customize and change a base metric
 
@@ -85,11 +85,11 @@ In the following steps, you first customize and then change a base metric.
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-05.png)
 
-   d. Define the filter by adding details in the three boxes. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters.
+   d. Define the filter by adding details in the three boxes. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters. 
+   
+    For guidance on proper use of AND or OR operators in conjunction with NOT operators, refer to [NOT Operators](#not-operators).
 
-   e. When you are finished customizing the metric (adding filters), select the **confirm** option at the right side of the page. 
-
-   You have now added a base metric and customized it. 
+   e. When you are finished customizing the metric (adding filters), select the **confirm** option at the right side of the page. You have now added a base metric and customized it. 
 
 7. Optionally, you can now change the base metric to a different one. To do this, follow these steps:
 
@@ -98,10 +98,17 @@ In the following steps, you first customize and then change a base metric.
    >[!Note] 
      * Any base metric that can be changed displays a drop-down menu whose options represent the possible changes.
      * Not all base metrics can be changed. If no drop-down menu is available, this metric cannot be changed. 
-     * Changes are not always 1-1. For example, you can change from Conflicting meeting hours to Email hours, but, due to variations in the available filters, the opposite change is not possible.
+     * Changes are not always 1 to 1. For example, you can change from Conflicting meeting hours to Email hours, but, due to variations in the available filters, the opposite change is not possible.
 
    If you select a new base metric for which the filter options are identical, the metric will change and you'll see no additional changes. If you select a new base metric for which the filter options are a subset, additional available filters appear. If you have edited the display name of the metric and then change the base metric, the display name that you edited is deleted.
 
 8. After you have created or edited all the metrics you want, confirm or cancel your changes: If you select **Confirm**, all changes to the metric are saved. If you select **Cancel**, all changes are discarded (reverted to the original state). If you neither confirm nor cancel the changes, the changes are automatically confirmed.
  
-9. Select **Run** to run the query. The query runs with all confirmed metrics and customizations that you have applied. 
+9. Select **Run** to run the query. The query runs with all confirmed metrics and customizations that you have applied.
+
+
+### NOT Operators
+
+Care should be taken when using 'NOT' operators in conjunction with other filters. Take the example of a filtered query in which you wanted to exclude all meetings where the subject line contained all of the following terms: sales, meetings, and office, by using a ‘NOT’ operator. 
+
+Assume that a meeting email had the subject line: “Sales meeting”, but did not also include the term 'office'. In that case, if you used the ‘NOT’ operator in conjunction with the 'OR' operator, any meetings corresponding to the missing term would still be returned. If you want to exclude all the terms, not just any of them, use the 'AND' operator rather than 'OR'. Otherwise, values will still be returned when any one of the filter terms is not satisfied.
