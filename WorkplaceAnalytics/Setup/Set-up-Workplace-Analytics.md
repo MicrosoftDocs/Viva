@@ -14,9 +14,9 @@ ms.prod: wpa
 
 # Workplace Analytics Setup Checklist
 
-To successfully set up and implement Workplace Analytics, you need to coordinate and obtain information and buy-in from a variety of stakeholders.
+To successfully set up and implement Workplace Analytics, you need to coordinate and get information and buy-in from a variety of stakeholders.
 
-Use this checklist to help assemble the people and obtain the data and configuration information that you need to set up and provision Workplace Analytics.
+Use the following checklist to help assemble the people and get the data and configuration information that you need to set up and use Workplace Analytics.
 
 > [!TIP]
 > This checklist outlines recommended steps and a high-level list of items to consider. It is not intended to be exhaustive. You might want to copy this checklist into a spreadsheet and then customize it for your organization.
@@ -61,8 +61,6 @@ To set up Workplace Analytics, complete the following tasks:
 | <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 6 - Validate and verify data](#step-6-validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
 | <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 7 - Set up meeting exclusions](#step-7-set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts are satisfied that meeting query results are focused on the data relevant for analysis.
 
-When you have finished all these steps, you are ready to [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md).
-
 ## Preliminary review task
 
 ### Environment and support
@@ -98,3 +96,5 @@ When you have finished all these steps, you are ready to [Explore metrics](../Us
 ### Step 7: Set up meeting exclusions
 
 [!INCLUDE [Set up meeting exclusions](../Setup/Set-up-mtg-exclusions.md)]
+
+After you finish the setup tasks, you can [start using Workplace Analytics](../overview/get-started.md) to explore metrics and run queries for more in-depth organizational analysis.
