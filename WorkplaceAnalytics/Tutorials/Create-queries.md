@@ -108,18 +108,18 @@ You can create a Person query to investigate if long meetings are a significant 
     > [!Note]
     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
     > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
-    > * To make sure you have a line of data for every person/date combination for the metrics, add **Emails sent** as one of your metrics.
-    > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics includes all person/date combinations.
+    > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
+    > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
 
 10. Select **Run** at the top right to run the query.
-11. On the Results page, view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
+11. On the Results page, you can view the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
 
 **Person query results include the following columns**
 
-* Person ID: De-identified ID number for the person represented in the metric.
-* Date: The start date of the aggregation (i.e. if the week is 6/3 to 6/10, then it is 6/3. If it is a month, then it is the start of the month your data encompasses).
-* Person Attributes: Each of the person attributes in the data set supplied by the organizational data.
-* Metrics: Any other metrics that you included in the query.
+* Person ID - De-identified ID number for the person represented in the metric.
+* Date - The start date of the aggregation (i.e. if the week is 6/3 to 6/10, then it is 6/3. If it is a month, then it is the start of the month your data encompasses).
+* Person Attributes - Each of the person attributes in the data set supplied by the organizational data.
+* Metrics - Any other metrics that you included in the query.
 
 **Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Metrics - Email hrs**|**Metrics Meeting hrs**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
@@ -135,14 +135,14 @@ Meeting query results show a list of all the meetings that meet the criteria you
 In the basic process to create a Meeting query, you will answer three questions:
 
 1. What meeting properties do I want to analyze? (Filters section)
-2. What time frame do I want to analyze? (Date range section)
+2. What time frame do I want to analyze? (Date range)
 3. What data do I want to know about those meetings for that period? (Metrics section)
 
 ### Available data
 
 Using a Meeting query, you can query on the calendar metadata available from Office 365 for your company. Examples include: Attendee meeting hours, attendees, invitees, emails sent during meetings and so forth.
 
-### Example: Business scenario – Long meetings, recurring
+### Example: Business scenario – Long recurring meetings
 
 Continuing the example from the Person section above, to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a Meeting query using the following criteria:
 
@@ -166,7 +166,7 @@ Continuing the example from the Person section above, to investigate long meetin
 7. To add a metric for the number of attendees, in Metrics, select **Add metric**.
 8. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
 9. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
-10. Choose **Run query**.
+10. Select **Run** at the top right to run the query.
 11. On the Results page, you can see the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
 
 ### Meeting query results include these columns
