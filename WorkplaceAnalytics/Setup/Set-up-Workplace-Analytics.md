@@ -14,9 +14,9 @@ ms.prod: wpa
 
 # Workplace Analytics Setup Checklist
 
-To successfully set up and implement Workplace Analytics, you need to coordinate and obtain information and buy-in from a variety of stakeholders.
+To successfully set up and implement Workplace Analytics, you need to coordinate and get information and buy-in from a variety of stakeholders.
 
-Use this checklist to help assemble the people and obtain the data and configuration information that you need to set up and provision Workplace Analytics.
+Use the following checklist to help assemble the people and get the data and configuration information that you need to set up and use Workplace Analytics.
 
 > [!TIP]
 > This checklist outlines recommended steps and a high-level list of items to consider. It is not intended to be exhaustive. You might want to copy this checklist into a spreadsheet and then customize it for your organization.
