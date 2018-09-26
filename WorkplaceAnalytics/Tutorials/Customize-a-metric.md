@@ -85,7 +85,9 @@ In the following steps, you first customize and then change a base metric.
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-05.png)
 
-   d. Define the filter by adding details in the three boxes. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters. Also see [NOT Operators](#not-operators).
+   d. Define the filter by adding details in the three boxes. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters. 
+   
+    For guidance on proper use of AND or OR operators in conjunction with NOT operators, refer to [NOT Operators](#not-operators).
 
    e. When you are finished customizing the metric (adding filters), select the **confirm** option at the right side of the page. You have now added a base metric and customized it. 
 
@@ -105,7 +107,7 @@ In the following steps, you first customize and then change a base metric.
 9. Select **Run** to run the query. The query runs with all confirmed metrics and customizations that you have applied.
 
 
-### 'NOT' Operators
+### NOT Operators
 
 Care should be taken when using 'NOT' operators in conjunction with other filters. Take the example of a filtered query in which you wanted to exclude all meetings where the subject line contained all of the following terms: sales, meetings, and office, by using a ‘NOT’ operator. 
 
