@@ -5,8 +5,8 @@
 title: Create queries in Workplace Analytics
 description: How to create custom queries in Workplace Analytics. 
 author: madehmer
-ms.author: v-midehm
-ms.date: 09/04/2018
+ms.author: madehmer
+ms.date: 09/26/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -98,7 +98,7 @@ You can create a Person query to investigate if long meetings are a significant 
 
     b. Choose **Add filter**.
 
-    c. In the **Long meeting hours where** section, select **Meeting**, select **Duration­Hours** > greater than or equal to > **2**
+    c. In the **Long meeting hours where** section, select **Meeting**, and then select **Duration­Hours** > greater than or equal to > **2**.
     
     d. Select **Confirm**.
 
