@@ -16,6 +16,6 @@ ms.prod: wpa
 
 * **Analyst (Limited Access)** has access to the Home, Explore, and Solutions pages. This role is for users who need access only to insights generated from our curated set of dashboards.
 
-* **Administrator** has access to the Administrator and Data-sources features. The Workplace Analytics administrator has responsibilities to configure privacy settings and system defaults and to prepare, upload, and verify organizational data.
+* **Administrator** has access to the admin features and Data sources in Workplace Analytics. The Workplace Analytics administrator has responsibilities to configure privacy settings and system defaults and to prepare, upload, and verify organizational data. Workplace Analytics admins are not Office 365 admins and do not have access to the Office 365 data, only the organizational data.
 
 * **Program manager** has access to the Home, Explore, and Solutions pages, and the Solutions Manage and Track pages, on which they can set up programs and track the progress of active or ended programs.
