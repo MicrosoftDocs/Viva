@@ -14,101 +14,104 @@ ms.prod: wpa
 
 # Customize a base metric in a query
 
-Analysts create queries to determine workplace patterns and behaviors. An important step in the creation of a query is the selection of a metric. This defines the area of focus of the query. 
+Analysts create queries to determine workplace patterns and behaviors. An important step in the creation of a query is selecting a metric. This defines the query's area of focus.
 
-As an analyst, you select metrics as you build queries. The metrics that you see on the page for building a query are "base metrics"; this means that when you first select one, it appears in a simple, unfiltered form, such as "email hours." 
+As an analyst, you select metrics as you build queries. The metrics that you see on the page for building a query are "base metrics", which means that when you first select one, it appears in a simple, unfiltered form, such as "Email hours." 
 
 ## Work with metrics in a query
 
-You can change metric use within a query in three ways: customize a base metric, change a base metric, and add more base metrics. 
+You can change how a metric is used within a query in three ways:
+1. Customize the base metric.
+2. Change the base metric.
+3. Add additional base metrics. 
 
 ### Customize the base metric 
 
-After you select a metric you can _customize_ it. A customized metric produces more refined results when used in the query. You customize a metric by applying filters to it. Although you do this on the query-builder page, these filters apply only to the metric and function independently from any filters that you apply to the query itself. 
+After you select a metric you can _customize_ it. A customized metric produces more refined results when used in a query. You customize a metric by applying filters to it. Although you do this on the query-builder page, these filters apply only to the metric and function independently from any filters that you apply to the query itself. 
 
-Example: You might start with the base metric "Email hours." You can customize it so that it becomes the more targeted metric: "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D."  
+For example, you might start with the base metric "Email hours." You could customize it so that it became a more targeted metric: "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D."  
 
 ### Change the base metric
 
-You can also change the base metric. This means swapping it out, selecting a different base metric to use in place of the one that you chose originally.
+You can also change the base metric. This means selecting a different base metric to use in place of the original one you chose.
 
 #### Customizations are retained when you change the base metric
 
-In our example, you customized the "Email hours" base metric to become "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D." 
+In the example, you customized the "Email hours" base metric, which became: "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D." 
 
-Now, after you have applied a customization, you _change_ the base metric from "Email hours" to "Total emails sent during meeting." 
+Now, after you apply a customization, let's say that you _change_ the base metric from "Email hours" to "Total emails sent during meeting." 
 
-This change gives you a new metric that has kept the same customization. Your final, customized metric becomes: "Total emails sent during meeting where at least all attendee's and/or recipient's FunctionType equals R&D."
+This change gives you a new metric that has retained the same customization. Your final, customized metric would be: "Total emails sent during meeting where at least all attendees' and/or recipients' FunctionType equals R&D."
 
-In other words, the customization that you applied to the original base metric was not lost when you changed from that base metric to a different base metric. 
+In other words, the customization that you applied to the original base metric was not lost when you changed from that base metric to a different one. 
 
-### Add further base metrics
+### Add additional base metrics
 
-You can also add further base metrics to your query. You would do this to modify the query's area of focus. 
+You can also add additional base metrics to your query. You would do this to modify the query's area of focus.
 
 ## Walkthrough: Customize and change a base metric
 
-In the following steps, you first customize and then change a base metric. 
+To customize and then change a base metric: 
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your Microsoft credentials.
 
-2. Select **Queries** and then select the type of query you want to create: Person query or Meeting query. (You can customize metrics only when working in a Person query or Meeting query.)
+2. Select **Queries** and then select the type of query you want to create: Person query or Meeting query. (You can customize metrics only when you are working with a Person query or Meeting query.)
 
 3. Type a name for the query, and optionally, type a description.
 
 4. Select a date range and a meeting exclusions rule. 
 
-5. Add the base metric: In the Metrics area, select the (+) sign next to Add metric and then select a metric from the list:
+5. In the Metrics area, select the plus (+) sign next to Add metric and then select a metric from the list:
  
    ![select a metric](../Images/WpA/Tutorials/custom-metric-01.png)
 
    > [!Note] 
-   > You can select more than one metric from the list. When you are finished, select elsewhere on the page to close the list. 
+   > You can select multiple metrics from the list. When you are finished, select elsewhere on the page to close the list. 
 
-   In this example, we will select only one metric, **Conflicting meeting hours**:
+   In this example, we are selecting only one metric, **Conflicting meeting hours**:
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-02.png)
 
-   The metric you select becomes the _base metric_ for the query. It represents the area of focus for the analysis that you will carry out. 
+   The selected metric becomes the _base metric_ for the query, and represents the area of focus for data analysis. 
 
-6. Customize the metric. To do this, follow these steps:
+6. Customize the metric by following these steps:
 
    a. Select the edit icon ![edit icon](../Images/WpA/Tutorials/edit-icon.png). This displays the option to apply filters to the base metric: 
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-03.png)
 
-   b. Select the (+) sign next to **Add filter**. A filter is added. In our example, it's the Initiator filter:
+   b. Select the plus (+) sign next to **Add filter**. A filter is now added. In our example, it's the Initiator filter:
    
    ![selected metric](../Images/WpA/Tutorials/custom-metric-04.png)
 
-   c. Select the filter name -- in this case, **Initiator**. This displays options for defining filters about email initiators. 
+   c. Select the filter name, **Initiator**. This displays options that define the filters for email initiators.
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-05.png)
 
-   d. Define the filter by adding details in the three boxes. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters. 
+   d. Define the filter details in the available fields. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters. 
    
-    For guidance on proper use of AND or OR operators in conjunction with NOT operators, refer to [NOT Operators](#not-operators).
+    For guidance on the proper use of AND or OR operators in conjunction with NOT operators, refer to [NOT Operators](#not-operators).
 
-   e. When you are finished customizing the metric (adding filters), select the **confirm** option at the right side of the page. You have now added a base metric and customized it. 
+   e. Select **Confirm** at the top right of the page.
 
-7. Optionally, you can now change the base metric to a different one. To do this, follow these steps:
+7. Optionally, you can now change the base metric.    To do so, follow these steps:
 
-    * Select the drop-down arrow that is displayed next to the name of the base metric, and then select the name of a different metric. This changes the metric to the new selection.
+    * Select the drop-down arrow that is displayed next to the name of the base metric, and then select the name of a different metric.
    
    >[!Note] 
-     * Any base metric that can be changed displays a drop-down menu whose options represent the possible changes.
-     * Not all base metrics can be changed. If no drop-down menu is available, this metric cannot be changed. 
-     * Changes are not always 1 to 1. For example, you can change from Conflicting meeting hours to Email hours, but, due to variations in the available filters, the opposite change is not possible.
+     * Any base metric that can be changed displays a drop-down menu with the possible change options.
+     * Not all base metrics can be changed. If no drop-down menu is available, the metric cannot be changed. 
+     * Changes are not always 1 to 1. For example, you can change from Conflicting meeting hours to Email hours, but because of variations in the available filters, the opposite change is not possible.
 
-   If you select a new base metric for which the filter options are identical, the metric will change and you'll see no additional changes. If you select a new base metric for which the filter options are a subset, additional available filters appear. If you have edited the display name of the metric and then change the base metric, the display name that you edited is deleted.
+   If you select a new base metric with identical filter options, the metric will change but you'll see no additional changes. If you select a new base metric for which the filter options are a subset, additional available filters appear. If you edit the display name of the metric and then change the base metric, the display name that you edited is deleted.
 
-8. After you have created or edited all the metrics you want, confirm or cancel your changes: If you select **Confirm**, all changes to the metric are saved. If you select **Cancel**, all changes are discarded (reverted to the original state). If you neither confirm nor cancel the changes, the changes are automatically confirmed.
+8. After you create or edit all the metrics you want, confirm or cancel your changes: If you select **Confirm**, all changes to the metric are saved. If you select **Cancel**, all changes are discarded (reverted to the original state). If you neither confirm nor cancel the changes, the changes are automatically confirmed.
  
-9. Select **Run** to run the query. The query runs with all confirmed metrics and customizations that you have applied.
+9. Select **Run** to run the query with all confirmed metrics and customizations that you applied.
 
 
-### NOT Operators
+### NOT operators
 
-Care should be taken when using 'NOT' operators in conjunction with other filters. Take the example of a filtered query in which you wanted to exclude all meetings where the subject line contained all of the following terms: sales, meetings, and office, by using a ‘NOT’ operator. 
+Care should be taken when you use the 'NOT' operator in conjunction with other metric filters. For example, suppose that you wanted to add a query filter to exclude all meetings where the subject line contained all the following terms: sales, meetings, and office, by using a ‘NOT’ operator.
 
-Assume that a meeting email had the subject line: “Sales meeting”, but did not also include the term 'office'. In that case, if you used the ‘NOT’ operator in conjunction with the 'OR' operator, any meetings corresponding to the missing term would still be returned. If you want to exclude all the terms, not just any of them, use the 'AND' operator rather than 'OR'. Otherwise, values will still be returned when any one of the filter terms is not satisfied.
+Assume that a meeting email had the subject line: “Sales meeting”, but did not also include the term 'office'. In this case, if you were to use the ‘NOT’ operator in conjunction with the 'OR' operator, any meetings that corresponded to the missing term would still be returned. If you want to exclude all the terms, not just any of them, use the 'AND' rather than the 'OR' operator. Otherwise, values will be returned when any one of the filter terms is not satisfied.
