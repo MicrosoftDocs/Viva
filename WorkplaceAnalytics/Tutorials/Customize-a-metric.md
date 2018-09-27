@@ -92,7 +92,7 @@ To customize and then change a base metric:
    
     For guidance on the proper use of AND or OR operators in conjunction with NOT operators, refer to [NOT Operators](#not-operators).
 
-   e. Select **confirm** at the top right of the page.
+   e. Select **Confirm** at the top right of the page.
 
 7. Optionally, you can now change the base metric.    To do so, follow these steps:
 
