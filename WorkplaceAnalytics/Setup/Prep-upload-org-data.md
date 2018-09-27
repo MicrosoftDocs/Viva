@@ -16,19 +16,19 @@ ms.prod: wpa
 * **Task** - Obtain organizational data needed for analysis from other information systems
 * **Outcome** - CSV file of organizational data is generated and uploaded to Workplace Analytics for final provisioning
 
-Organizational data is the information about employees that your company provides to use in Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
+Organizational data is the information about employees that your company provides to use in Workplace Analytics. By combining organizational data about employees with their Office 365 collaboration data, analysts can filter, group, and compare employees based on their organizational context to identify relationships between employee attributes and collaboration patterns.
 
 
 ### What is organizational data?
 
-- Individual-level metadata that provides descriptive information of a company’s employees
+- Individual data with descriptive information about company employees
 - Sourced from multiple sources
-    - Human Resources Information Systems (HRIS) Ex: Workday, PeopleSoft
-    - Payroll Systems
-    - Employee Surveys (Engagement, Manager Feedback, Culture)
+    - Human Resources Information Systems (HRIS), such as Workday or PeopleSoft
+    - Payroll systems
+    - Employee surveys (such as engagement, manager feedback, and culture)
     - Performance Management Systems or Quota Attainment Systems
-    - CRM Systems
-- Workplace Analytics organizational data is structured as a flat file with each row representing one person with columns representing attribute fields.
+    - CRM systems
+- Workplace Analytics organizational data is structured as a flat (CSV) file with each row representing one person and columns representing attribute fields.
 
 ### How is data used?
 
@@ -43,16 +43,15 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 #### Who should be included in the org data file?
 
 - HR Data:
-    - We recommend that HR data be collected for all employees in your company, even if they are not part of the measured population.
-    - At a minimum, you need data for all employees in your measured population.
-- Line of Business Data:
-    - Scenario-Dependent, because you need line-of-business data for all employees of interest in the scenario you are analyzing.
+    - You need organizational attributes for all employees in your company, even if they are not part of the measured population.
+    - At a minimum, you need organizational attributes for all measured employees.
+    - If you include business outcome data, such as engagement, productivity, and performance, you typically only need those attributes for the measured employees.
 
 > [!Note]
 > You can include up to 65 data attributes in your org data file.
 
 > [!Important]
-> To help ensure privacy, we recommend not including employee names as any additional attribute.
+> To help ensure privacy, do not include employee names as an attribute.
 
 ### What are common pitfalls to avoid?
 
@@ -67,9 +66,9 @@ When loading your data the first time, Workplace Analytics loads 13 months of da
 After you have created your source .csv file, you can upload it to the Workplace Analytics service. After your data has been successfully uploaded, Workplace Analytics will perform additional validation and processing to complete provisioning. The Workplace Analytics team will contact your Workplace Analytics administrator if any problems arise.
 -->
 
-* Follow the instructions in the topic [Prepare organizational data](../Setup/Prepare-organizational-data.md).
+* Follow the instructions in [Prepare organizational data](../Setup/Prepare-organizational-data.md), which also provides the list of required and optional organizational attributes.
 
-After the .csv file is created, the Workplace Analytics administrator can upload it into the service. For more information, see [Upload organizational data](../Setup/Upload-organizational-data.md).
+After the CSV file is created, the Workplace Analytics administrator can upload it. For more information, see [Upload organizational data](../Setup/Upload-organizational-data.md).
 
 ### Video: Upload organizational data
 
@@ -88,13 +87,5 @@ After your upload is submitted successfully, additional validation and processin
 
 ### After provisioning
 
-After data is completely provisioned, Workplace Analytics users will be able to access full product features.
+After data is completely provisioned, Workplace Analytics users can access the full set of product features.
 Office 365 meeting and email data is refreshed monthly. This is a good time for the Workplace Analytics administrator to also generate and upload updated organizational data.
-
-### Related topics
-
-[Data sources in Workplace Analytics](../Use/Data-sources.md)
-
-[Prepare organizational data](../Setup/Prepare-organizational-data.md) 
-
-[Upload organizational data](../Setup/Upload-organizational-data.md)
