@@ -42,13 +42,13 @@ In the following illustration, the Meeting hours section is selected, while Meet
 
 
 <br/>
-
+<br/>
 
 <img src="../../Images/mya/use/Selected-for-sharing.png" alt="Items selected for sharing">
 
 
 <br/>
-
+<br/>
 
 To select (or deselect) all sections at once, select or clear **Select All** at the top of the dashboard. 
 
