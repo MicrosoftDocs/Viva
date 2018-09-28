@@ -40,11 +40,15 @@ The dashboard displays sections that are available for sharing. By default, all 
 
 In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
 
+
 <br/>
+
 
 <img src="../../Images/mya/use/Selected-for-sharing.png" alt="Items selected for sharing">
 
+
 <br/>
+
 
 To select (or deselect) all sections at once, select or clear **Select All** at the top of the dashboard. 
 
