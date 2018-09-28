@@ -41,11 +41,7 @@ Use the following checklist to help assemble the people and get the data and con
 
 ## Preliminary review task
 
-To prepare for setting up Workplace Analytics, review the following article:  
-
-| Review this article | Owner | Outcome |
-|------|-------|---------|
-| [Environment and support aspects of Workplace Analytics](../Setup/Environment-Requirements.md) | Workplace Analytics administrator |  <!-- VERIFY THIS WORDING --> Confirm that all requirements are in place for setting up Workplace Analytics. Learn about Workplace Analytics licenses, trials, and FastTrack options.|
+Before setting up Workplace Analytics, review [Environment requirements for Workplace Analytics](../Setup/Environment-Requirements.md) to learn what system requirements the Workplace Analytics administrator needs to confirm before setting up Workplace Analytics, including Workplace Analytics licensing and trials, and if you qualify for FastTrack services.
 
 ## Setup task checklist
 
@@ -61,7 +57,6 @@ To set up Workplace Analytics, complete the following tasks:
 | <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 6 - Validate and verify data](#step-6-validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
 | <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 7 - Set up meeting exclusions](#step-7-set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts create, if needed, custom criteria to exclude non-work-related calendar items from analysis.
 
-# Setup task details
 
 ## Step 1: Determine key personas and roles for implementation
 
