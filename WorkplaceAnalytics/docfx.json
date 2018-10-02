@@ -1,0 +1,59 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.pdf",
+          "**/*.pptx",
+          "**/*.xlsx",
+          "**/*.svg",
+          "**/*.csv",
+          "**/*.docx"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/Workplace-Analytics/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "titleSuffix": "Workplace Analytics Office 365 ",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
+      "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
+      "searchScope": ["Workplace Analytics"]
+    },
+    "fileMetadata": {
+      "searchScope": { "MyAnalytics/**.md": ["Workplace Analytics","MyAnalytics"] }
+    },
+    "template": [],
+    "dest": "OfficeDocs-WorkplaceAnalytics"
+  }
+}

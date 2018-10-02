@@ -1,0 +1,182 @@
+- name: Workplace Analytics
+  href: ~/index.md
+  expanded: true
+  items:
+    - name: Privacy and data protection
+      items:
+        - name: Privacy considerations 
+          href: ~/Privacy/Privacy-considerations.md 
+        - name: Privacy and data access
+          href: ~/Privacy/Privacy-and-Data-Access.md
+        - name: Data-protection considerations (summary)                  
+          href: ~/Privacy/Data-protection-summary.md
+    - name: Setup    
+      href: ~/Setup/Set-up-Workplace-Analytics.md  
+    - name: Get started
+      href: ~/Overview/Get-started.md
+    - name: Use Workplace Analytics
+      items:
+      - name: Administration
+        items:
+          - name: Workplace Analytics settings
+            href: ~/Use/Settings.md
+          - name: Prepare organizational data
+            href: ~/Setup/Prepare-organizational-data.md
+          - name: Upload organizational data
+            href: ~/Setup/Upload-organizational-data.md                         
+          - name: Data sources
+            href: ~/Use/Data-Sources.md
+          - name: Assign group-based licenses
+            href: ~/Use/Group-Based-Licensing.md
+          - name: Assign licences with PowerShell
+            href: ~/use/Assigning-licenses-with-powershell.md
+          - name: User Roles
+            href: ~/Use/User-Roles.md
+          - name: Assigning user and group roles
+            href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
+          - name: Assign roles with PowerShell
+            href: ~/use/using-powershell-to-assign-roles.md    
+          - name: Time zones for Workplace Analytics
+            href: ~/Use/Timezones-for-Workplace-analytics.md
+      - name: Features
+        items:
+          - name: Explore metrics - Week in the life
+            href: ~/Use/Explore-Metrics-week-in-the-life.md
+          - name: Explore metrics - Meetings overview
+            href: ~/Use/Explore-Metrics-meetings-overview.md
+          - name: Explore metrics - Management and coaching
+            href: ~/Use/Explore-Metrics-management-and-coaching.md
+          - name: Explore metrics – Internal networks
+            href: ~/Use/Explore-Metrics-internal-networks.md
+          - name: Explore metrics – External collaboration
+            href: ~/Use/Explore-Metrics-external-collaboration.md 
+          - name: Chart types
+            href: ~/Use/Chart-Types.md
+          - name: Create queries test
+            href: ~/Use/Create-Queries.md
+            name: View, download, and export query results
+            href: ~/Use/View-download-and-export-query-results.md
+          - name: Understand meeting exclusions
+            href: ~/Use/Understand-meeting-exclusions.md
+          - name: Create custom meeting exclusion rules
+            href: ~/Use/Create-custom-meeting-exclusions-rules.md
+      - name: Tutorials
+        items:
+          - name: Queries overview
+            href: ~/Tutorials/Create-queries.md            
+          - name: Query basics
+            href: ~/Tutorials/Query-basics.md
+          - name: Customize a metric
+            href: ~/Tutorials/Customize-a-metric.md  
+          - name: Person queries
+            href: ~/Tutorials/Person-queries.md
+          - name: Meeting queries
+            href: ~/Tutorials/Meeting-queries.md
+          - name: Power BI Templates
+            href: ~/Tutorials/Power-bi-templates.md            
+          - name: Group-to-group queries
+            href: ~/Tutorials/Group-to-group-queries.md
+          - name: Person-to-group queries
+            href: ~/Tutorials/Person-to-group-queries.md            
+          - name: Query auto-refresh option
+            href: ~/Tutorials/Query-auto-refresh.md  
+          - name: Teamwork solution
+            href: ~/Tutorials/Solutions-intro.md  
+            items: 
+              - name: Solution - Walkthrough    
+                href: ~/Tutorials/Solutions-task.md 
+              - name: Solution - Participants
+                href: ~/Tutorials/Solutions-participants.md                                       
+              - name: Solution - Concepts
+                href: ~/Tutorials/Solutions-conceptual.md                                  
+      - name: Reference
+        items:
+          - name: Glossary
+            href: ~/Use/Glossary.md          
+          - name: Workplace Analytics metrics
+            href: ~/Use/metric-definitions.md
+          - name: Supported languages and guidelines
+            href: ~/Overview/Supported-languages.md
+    - name: Known issues
+      items:
+        - name: Download a query report in UTF-8 format
+          href: ~/Tutorials/Download-UTF8-query-report.md
+        - name: Workplace Analytics 500 error
+          href: ~/Tutorials/Wpa-tool-500-error.md
+    - name: Get support
+      href: ~/Overview/Getting-Support.md
+- name: MyAnalytics
+  href: MyAnalytics/MyA-landing-page.md
+  homepage: /myanalytics  
+  expanded: true
+  items:   
+    - name: Why use MyAnalytics?
+      href: MyAnalytics/Overview/Better-work-habits.md        
+    - name: Setup
+      href: MyAnalytics/Setup/Mya-setup-checklist.md
+    - name: Frequently asked questions
+      href: MyAnalytics/Overview/MyA-faq.md
+    - name: MyAnalytics Privacy 
+      items:
+      - name: MyAnalytics privacy guide 
+        href: MyAnalytics/Overview/Privacy-Guide.md  
+    - name: Use MyAnalytics
+      items:      
+      - name: MyAnalytics elements
+        expanded: false
+        href: MyAnalytics/Use/MyA-elements.md
+        items:
+        - name: Dashboard
+          href: MyAnalytics/Use/dashboard.md
+        - name: Add-in
+          href: MyAnalytics/Use/add-in.md
+        - name: Email digest
+          href: MyAnalytics/Use/email-digest.md
+        - name: MyAnalytics nudges
+          href: MyAnalytics/Use/mya-notifications.md
+      - name: MyAnalytics tips
+        href: MyAnalytics/Overview/Tips.md    
+      - name: Adopt MyAnalytics
+        href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
+        homepage: /myanalytics/adopt-myanalytics/    
+        items: 
+        - name: Individual adoption
+          items: 
+          - name: Get started
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md
+          - name: Diagnose your problem
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md
+          - name: Set your goal
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
+          - name: Build your habit
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-develop-habits.md
+          - name: Sustain your change
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
+          - name: Resources
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
+        - name: Team adoption
+          items: 
+          - name: Get started
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-intro.md
+          - name: Plan
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-plan.md
+          - name: Implement
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-implement.md
+          - name: Measure
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-measure.md
+          - name: Reinforce
+            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-reinforce.md
+          - name: Resources
+            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
+        - name: Habit resources
+          items: 
+          - name: Learning modules
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
+            homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/learning-modules
+          - name: Habit-building method
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
+            homepage: /myanalytics/use-myanalytics/adopt-myanalytics/Habit resources/habit-building-method
+          - name: Habit playbooks
+            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
+            homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/habit-playbooks
+ 
