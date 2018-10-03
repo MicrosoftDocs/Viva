@@ -30,12 +30,12 @@
             href: ~/Use/Group-Based-Licensing.md
           - name: Assign licences with PowerShell
             href: ~/use/Assigning-licenses-with-powershell.md
-          - name: Assign roles with PowerShell
-            href: ~/use/using-powershell-to-assign-roles.md
           - name: User Roles
             href: ~/Use/User-Roles.md
           - name: Assigning user and group roles
-            href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md  
+            href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
+          - name: Assign roles with PowerShell
+            href: ~/use/using-powershell-to-assign-roles.md    
           - name: Time zones for Workplace Analytics
             href: ~/Use/Timezones-for-Workplace-analytics.md
       - name: Features
@@ -72,6 +72,8 @@
             href: ~/Tutorials/Person-queries.md
           - name: Meeting queries
             href: ~/Tutorials/Meeting-queries.md
+          - name: Power BI Templates
+            href: ~/Tutorials/Power-bi-templates.md            
           - name: Group-to-group queries
             href: ~/Tutorials/Group-to-group-queries.md
           - name: Person-to-group queries

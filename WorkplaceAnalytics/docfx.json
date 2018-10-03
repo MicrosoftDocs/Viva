@@ -28,7 +28,8 @@
           "**/*.pptx",
           "**/*.xlsx",
           "**/*.svg",
-          "**/*.csv"
+          "**/*.csv",
+          "**/*.docx"
         ],
         "exclude": [
           "**/obj/**",
@@ -41,7 +42,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/WorkplaceAnalytics/breadcrumb/toc.json",
+      "breadcrumb_path": "/Workplace-Analytics/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "titleSuffix": "Workplace Analytics Office 365 ",
       "feedback_system": "GitHub",

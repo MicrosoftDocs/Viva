@@ -6,7 +6,7 @@ title: Get started with Workplace Analytics
 description: Gives a high-level overview of the primary features in Workplace Analytics. 
 author: madehmer
 ms.author: v-leash
-ms.date: 06/19/2018
+ms.date: 9/21/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -30,13 +30,22 @@ Workplace Analytics gives you different ways to explore your data.
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) gives a summary of day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers and employees.
-* [**Networks and collaboration**](../use/explore-metrics-networks-and-collaboration.md) gives a summary of the network patterns within the company.
+* [**Internal networks**](../use/Explore-Metrics-internal-networks.md) gives a summary of your employees’ networking patterns within the company.
+* [**External collaboration**](../use/Explore-Metrics-external-collaboration.md) gives a summary of your employees’ networking patterns with people outside the company. 
+
+
 
 [**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
 
 [**Queries**](../tutorials/create-queries.md) give you the flexibility to dive deeper into your organization’s behavioral metrics to generate insights. You can create three types of queries in Workplace Analytics: Person, Group, and Meeting. Each query type can help answer specific questions you may be investigating.
 
-[**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page. 
+[**Solutions**](../tutorials/solutions-intro.md) helps you transform insights from Workplace Analytics into targeted change programs across your organization. Targeted change programs are available for reducing meeting load, increasing focus time, and maintaining work-life balance.
+
+[**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page.
+
+**Page settings** for both the Explore and Solutions pages (open on the right side) enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. By default, the Explore and Solutions pages are filtered to show active employees only. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query or solution).
+
+![Page settings](../Images/WpA/Overview/page-settings.png)
 
 ## Workplace Analytics playbooks
 

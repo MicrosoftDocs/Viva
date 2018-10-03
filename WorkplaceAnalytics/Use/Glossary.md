@@ -19,10 +19,10 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Term|Definition|
 |----|----------|
 |Adjusted meeting hours|An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
-|Attended|A person is counted as attended for a meeting if they either accepted or did not respond to a meeting request (also referred to as *non-declined meeting request*).|
+|Attended|A person *attended* a meeting if they either accepted or did not respond to a meeting request (also referred to as a *non-declined meeting request*).|
 |Attendee|A person who was invited and *attended* the meeting.|
 |Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
-|Calendar fragmentation|When a person does not have blocks of time sufficient to focus on completing complex tasks. This is typified by having only small blocks of time (15, 30, or 60 minutes) between meetings. Anything that is not *focus time* (uninterrupted time blocks of two hours or more with no meetings) is considered calendar fragmentation.|
+|Calendar fragmentation|When a person does not have blocks of time sufficient to focus on completing complex tasks. This is typical of those with only small blocks of time (15, 30, or 60 minutes) between meetings. Anything that is not *focus time* (uninterrupted time blocks of two hours or more with no meetings) is considered calendar fragmentation.|
 |Collaborators|Anyone that *measured employees* or *time investors* interact with by email or in meetings. Collaborators are identified as internal (within the company) or external (outside of the company). |
 |Collaborator group|A group of collaborators that are identified as internal (within the company) or external (outside of the company) that interacts by email or in meetings with a specified *time investor*.|
 |Connection|Two or more *meaningful interactions*.|
@@ -30,7 +30,7 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours | A person's time after you subtract their meeting hours and their focus hours. |
 |Insularity|When collaboration happens only with people from within a person’s team, function, department, and so on.|
-|Invitee|A person who is invited to a meeting via a meeting request.|
+|Invitee|A person who is invited to a meeting with a meeting request.|
 |Layer|The number of *levels* of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0.|
 |Level|A *required attribute* that is a company-specific way of organizing employees by job experience or seniority.   |
 |Meaningful interactions|An email or meeting that includes between two and five people.|
@@ -49,9 +49,9 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Sender|The person who sends an email.|
 |Span|The number of direct reports per manager.|
 |Time investor|A *measured employee* that interacts with other collaborators in meetings and with email. Time investors allocate their time with the other participants or *collaborators* in the interaction in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.|
-|Time zones|Workplace Analytics uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (Person query results) are calculated using the person’s time zone. Meeting metrics (Meeting query results) are calculated using the organizer’s time zone.|
-|Working hours|Hours representing the typical work week for the company. Workplace Analytics uses M-F from 8:00 AM to 5:00 PM for working hours calculations.|
- 
+|Time zones|Workplace Analytics uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (Person query results) are calculated by using the person’s time zone. Meeting metrics (Meeting query results) are calculated by using the organizer’s time zone.|
+|Working hours|Hours that represent the typical workweek for the company. The Workplace Analytics default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. Your admin can change the default working days and hours in the [System defaults](../setup/Configure-wpa-settings.md) section.
 
 ### Related topic
+
 [Metric descriptions for Workplace Analytics](../use/Metric-definitions.md)

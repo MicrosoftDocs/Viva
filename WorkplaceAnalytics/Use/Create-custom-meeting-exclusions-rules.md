@@ -76,7 +76,7 @@ After a review of the all meetings and default excluded meetings, you may decide
 
 [!INCLUDE [Designate a meeting-exclusion rule as a favorite](../Includes/to-designate-meeting-exclusion-rule-as-favorite.md)]
 
-## Business scenario: Include large meetings, exclude keywords
+## Business scenario: include large meetings, exclude keywords
 
 Company A has a flat organization, and 260-person meetings are the norm, but those meetings were excluded by the default meeting exclusions. Additionally, there is a culture of creating meetings with no other attendees to make time for focused work and prevent others from over-booking their calendar. After reviewing the meeting query results, the analyst noticed a theme that “No meeting block time” and “PTO time” were common subject lines of non-relevant meetings.
 
@@ -87,4 +87,3 @@ In this scenario, the analyst has decided to create custom meeting exclusion rul
   * Duration: Exclude meetings with duration greater than, or equal to, eight hours.
 * To include meetings of 260 attendees, change Total attendees > 60 (increased from the default of 50).
 * To exclude PTO time, create a keyword exclusion where subject = “vacation” or “PTO” or “holiday”
-
