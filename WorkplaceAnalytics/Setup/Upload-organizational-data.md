@@ -86,6 +86,7 @@ System default fields represent attributes that are known by Workplace Analytics
 
 * **Source column** corresponds to each of the fields in the uploaded file.
 * **Workplace Analytics name** is the name of your organization's Workplace Analytics.
+
 * **Data type** is the data type of the fields.
 
    >[!Note]
@@ -93,10 +94,18 @@ System default fields represent attributes that are known by Workplace Analytics
 
 * **Validity threshold** sets the percentage of rows in the uploaded file that must have a valid, non-null value for the attribute. The source file might still be valid even if some rows have invalid or missing values for some columns.
 
-   For example, your data file updates information about people. Because every row in it is linked to a user, the PersonID field must be valid in every row. In this case, set the value for PersonID to 100%.
+   <b>Summary of Validity threshold settings</b>
 
-   The Validity threshold for required attributes is always 100%. If an attribute has a threshold lower than 100%, it cannot be required. For more information, see [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
+   * **Required attributes.** Because PersonId and EffectiveDate are required attributes, their Validity threshold value is 100%. This value cannot be changed.
+
+   * **Fields with minimum values.** The Validation threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95% by default, but you can raise this value.
+
+   * **Other system fields.** The Validation threshold for other system fields is set to 95% by default, but you can raise or lower this value.
+
+   * **Custom fields.** See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields). 
+
 * **Include in report** excludes sensitive data from the report that Workplace Analytics generates about the import operation.  
+
 * **Hash in report** de-identifies sensitive data. If you select this option, Workplace Analytics includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
 
 **To map fields**
@@ -189,10 +198,10 @@ The threshold depends on the intended use of the custom field. If you intend to 
 
 #### Set a high value
 
-Generally, you should set the Threshold field to a high value. This is especially important if your analysis will focus on that field.
+Generally, you should set the Validity threshold to a high value. This is especially important if your analysis will focus on that field.
 
-For example, you might include a ManagerId attribute. You might at first not think that you’re analyzing manager behavior and you might be tempted to omit this attribute. But the organization hierarchy is used implicitly by many Workplace Analytics analyses – for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
+For example, you might include a "ManagerID" attribute. At first, you might not think that you're analyzing manager behavior and you might be tempted to omit this attribute. But the organization hierarchy is used implicitly by many Workplace Analytics analyses – for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
 
 #### Set a lower value
 
-The goal of your analysis might be to determine sales effectiveness. Your data might include an attribute for sales attainment that only makes sense for members of your sales force, who constitute about 10% of the company. This number doesn’t apply to engineers or program managers, but it is critical for high-performers in sales.  
+The goal of your analysis might be to determine sales effectiveness. Your data might include an attribute for sales attainment that only makes sense for members of your sales force, who constitute about 10% of the company. This number doesn't apply to engineers or program managers, but it is critical for high-performers in sales.  

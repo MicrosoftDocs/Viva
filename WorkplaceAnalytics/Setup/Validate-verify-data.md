@@ -30,3 +30,6 @@ Data source metrics help Workplace Analytics data analysts to:
 ### To view the data-sources metrics
 
 * On the navigation bar, select **Sources**.
+
+### Related topic
+[Data sources in Workplace Analytics](../Use/Data-sources.md)
