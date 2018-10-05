@@ -44,8 +44,7 @@ In the following illustration, the Meeting hours section is selected, while Meet
 <br/>
 <br/>
 
-<img src="../../Images/mya/use/Selected-for-sharing.png" alt="Items selected for sharing">
-
+![Items selected for sharing](../../Images/mya/use/Selected-for-sharing.png)
 
 <br/>
 <br/>
