@@ -18,7 +18,7 @@ ms.prod: mya
 
  * In the navigation bar of the Outlook desktop application, select the MyAnalytics logo. 
 
-    <img src="../../Images/mya/use/Open-mya-in-add-in.png" alt="MyAnalytics add-in in Outlook">
+    ![MyAnalytics add-in in Outlook](../../Images/mya/use/Open-mya-in-add-in.png)
 
     The MyAnalytics add-in pane slides open in the right side of your email window.
 

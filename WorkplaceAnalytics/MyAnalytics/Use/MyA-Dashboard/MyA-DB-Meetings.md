@@ -28,7 +28,7 @@ The following meeting types are also excluded from Meeting hours:
     * Tentative
     * Out of Office; see the following example:    
     &nbsp;  
-      <img src="../../../Images/mya/use/meeting-status-oof.png" alt="Meeting status Out of Office">
+      ![Meeting status Out of Office](../../../Images/mya/use/meeting-status-oof.png)
 
 > [!Note] 
 > MyAnalytics counts doubly booked meeting hours only once. For example, if you have two meetings that both run from 10:00 AM to 11:00 AM, MyAnalytics counts this as only one hour of meeting time. 

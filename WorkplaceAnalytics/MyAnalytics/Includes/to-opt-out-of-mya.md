@@ -16,11 +16,11 @@ ms.prod: mya
 
 1. In Delve, select the gear icon in the top toolbar to open the Settings pane.
 
-    <img src="../../Images/mya/use/Gear-icon-Delve.png" alt="Delve settings">
+    ![Delve settings](../../Images/mya/use/Gear-icon-Delve.png)
      
 2. Select **Feature settings**.
 3. Under MyAnalytics, set the control to **Off**.
 
-    <img src="../../Images/mya/use/Slider-off.png" alt="Slider in off position">
+    ![Slider in off position](../../Images/mya/use/Slider-off.png)
   
 4. At the top of the Feature settings panel, select **OK** to save your changes. 
