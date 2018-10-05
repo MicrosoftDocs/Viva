@@ -111,6 +111,8 @@ Once you have a write-only SAS URI that points to an Azure storage container, en
 
 After you select **Save**, the data will be exported to the Azure storage container the next time the Workplace Analytics data is refreshed.
 
+<!-- REMOVE THIS ENTIRE SECTION PER ROBERT 5 OCTOBER 2018 
+
 ## Creating a virtual machine to analyze data
 To analyze the pre-processed data once it has been exported, it is recommended to create a virtual machine in the same Azure subscription as the storage account.
 
@@ -158,3 +160,4 @@ az vm create \
     --size $SIZE \
     --data-disk-sizes-gb $DATASIZEGB
 ```
+-->
