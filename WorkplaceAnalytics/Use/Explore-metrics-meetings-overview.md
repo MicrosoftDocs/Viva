@@ -41,8 +41,7 @@ As of October 2018, we have changed the way that we calculate the total cost of 
 Previously, the default hourly rate for the cost of low-quality meetings was calculated at $75. However, if an admin uploads the HourlyRate column, cost is calculated as the sum of a person’s default hourly rate for the organization multiplied by low-quality hours. 
  
 If the optional HourlyRate column is not uploaded, cost is calculated at $75 multiplied by the number of low-quality hours. 
- 
-If some rows are purposefully left blank or if a zero value is entered in the hourly rate column, to make the estimate more accurate, we use the default value of $75.  
+ If some rows are purposefully left blank or if a zero value is entered in the hourly rate column, to make the estimate more accurate, we use the default value of $75.  
  
 ## Meetings hours by number of attendees
 
