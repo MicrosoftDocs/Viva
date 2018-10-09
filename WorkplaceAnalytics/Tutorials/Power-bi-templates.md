@@ -72,7 +72,9 @@ In the following example procedure, you will select the Collaboration Overload q
    
    ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)
    
-   Remember that only the Organizational account works for viewing Workplace Analytics data in Power BI. 
+
+   > [!Important] 
+   > Remember that you must use an Organizational account to view Workplace Analytics data (including query results) in Power BI. 
 
 15.  In the OData feed dialog box, select **Organizational account**.
 
