@@ -68,10 +68,9 @@ In the following example procedure, you will use the Collaboration Overload quer
    ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)   
 
    > [!Important] 
-   > To view Workplace Analytics data (including query results) in Power BI, you must:
-
-       * have the Analyst role in Workplace Analytics
-       * sign in with your organizational account  
+   > You can view Workplace Analytics data (including query results) in Power BI only if the following is true: 
+   * You have been assigned the Analyst role in Workplace Analytics.
+   * You sign in to Power BI with your Workplace Analytics organizational account. You will do this in the following steps. 
 
 15.  In the OData feed dialog box, select **Organizational account**.
 
