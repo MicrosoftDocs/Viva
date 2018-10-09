@@ -34,7 +34,7 @@ The low-quality meeting hours overview summarizes the number of low-quality meet
 * Redundancy is an indication of underlying lack of role clarity, poor delegation, and/or a risk averse culture. Lower level employees attending a high proportion of redundant meetings could potentially feel less empowered. Senior levels may be better off by appropriately delegating meeting attendance. As a sign of career development, redundancy should diminish with tenure.
 
 
-As of October 2018, we have changed the way that we calculate the total cost of the low-quality meetings figure as shown in Explore, by introducing an optional HourlyRate column in organizational data that a Workplace Analytics admin can upload.
+As of October 2018, we have changed the way that we calculate the total cost of the low-quality meetings figure as shown in Explore, by introducing an optional HourlyRate column in the organizational data that a Workplace Analytics admin can upload.
 
 ![Meetings overview](../images/WpA/Use/Meetings-overview-explore-metrics.png)
 
