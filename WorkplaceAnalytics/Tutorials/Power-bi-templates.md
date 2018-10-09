@@ -68,21 +68,21 @@ In the following example procedure, you will select the Collaboration Overload q
 
 13.  Paste the OData link and select **Load**. 
 
-14.  In the OData feed dialog box, the left panel displays the account you are using to sign in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
+14.  In the OData feed dialog box, the left panel displays the account you are using to sign in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
    
    ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)
    
    Remember that only the Organizational account works for viewing Workplace Analytics data in Power BI. 
 
-15.  In the OData feed dialog box, select **Organizational account**.
+15.  In the OData feed dialog box, select **Organizational account**.
 
-16.  If the OData feed dialog box notifies you that you are not signed in, Select **Sign in**.
+16.  If the OData feed dialog box notifies you that you are not signed in, Select **Sign in**.
 
-17.  In the Office 365 dialog box, select the organizational account that you use to log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box:      
+17.  In the Office 365 dialog box, select the organizational account that you use to log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box:      
    
    ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
-   
-18.  Select **Connect**. The Refresh dialog box displays status on the preparation of your data. It could take several minutes or more to open the data display in Power BI. After the data loads, Power BI displays it in charts that provide visualization into your organization’s collaboration patterns: 
+
+18.  Select **Connect**. The Refresh dialog box displays status on the preparation of your data. It could take several minutes or more to open the data display in Power BI. After the data loads, Power BI displays it in charts that provide visualization into your organization’s collaboration patterns: 
 
    ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
