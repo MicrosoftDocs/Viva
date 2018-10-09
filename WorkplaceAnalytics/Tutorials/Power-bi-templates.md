@@ -36,13 +36,13 @@ In the following example procedure, you will select the Collaboration Overload q
 
    > [!Note] 
    > Attempting to delete a metric displays a warning that this deletion could disable portions of the Power BI template and reduce query results, which in turn can limit your eventual ability to visualize collaboration-overload patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. In the warning dialog box, select **cancel** to retain the metric or **delete** to delete it.  
+  
+5.  Select **Run**. The query might take several minutes to complete.  
 
-5.  Select **Run**. The query might take several minutes to complete. 
-
-6.  Open the Query &gt; Results page. The Results page displays a row for every run of a query, including the query that you just ran. You know that your query has finished running when its row displays the download (down-arrow) button: 
+6.  Open the Query &gt; Results page. The Results page displays a row for every run of a query, including the query that you just ran. You know that your query has finished running when its row displays the download (down-arrow) button:
 
    ![Query results are ready](../Images/WpA/tutorials/query-results-done.png)
-  
+ 
 7.  Select download. This lets you choose what to download, a CSV file or a Power BI template: 
 
    ![Select PBI template](../Images/WpA/tutorials/pbi-templates-03.png)
