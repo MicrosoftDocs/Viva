@@ -68,7 +68,10 @@ In the following example procedure, you will use the Collaboration Overload quer
    ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)   
 
    > [!Important] 
-   > You must use your Organizational account to view Workplace Analytics data (including query results) in Power BI. 
+   > To view Workplace Analytics data (including query results) in Power BI, you must:
+
+       * have the Analyst role in Workplace Analytics
+       * sign in with your organizational account  
 
 15.  In the OData feed dialog box, select **Organizational account**.
 
@@ -83,3 +86,4 @@ In the following example procedure, you will use the Collaboration Overload quer
 After the data loads, Power BI displays it in charts that provide visualization into your organization’s collaboration patterns: 
 
    ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
+
