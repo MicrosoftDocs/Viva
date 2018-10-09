@@ -14,15 +14,15 @@ ms.prod: wpa
 
 # Power BI templates in Workplace Analytics 
 
-The Workplace Analytics Queries page provides Power BI templates that analysts can use to visualize aspects of workplace collaboration. Each Power BI template performs two tasks: it pre-populates a custom Workplace Analytics query and it selects the proper Power BI charts to display the results of that query. 
+Workplace Analytics provides Power BI templates that analysts can use to visualize aspects of workplace collaboration. A Power BI template performs two tasks: it pre-populates a custom Workplace Analytics query and it selects the proper Power BI charts to display the results of that query. 
 
 The Queries page of Workplace Analytics makes available a number of query templates. On this page, you can identify Power BI templates in that they display the Power BI logo in the upper-right corner:
 
    ![Power BI logo in query card](../Images/WpA/tutorials/two-pbi-cards.png)
 
-In the following example procedure, you will select the Collaboration Overload query card to identify areas of collaboration overload in your organization. 
+In the following example procedure, you will use the Collaboration Overload query card to identify areas of collaboration overload in your organization. 
 
-**To use the Collaboration overload Power BI template**
+**To use a Power BI template**
 
 1.  Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
 
@@ -78,13 +78,15 @@ In the following example procedure, you will select the Collaboration Overload q
 
 15.  In the OData feed dialog box, select **Organizational account**.
 
-16.  If the OData feed dialog box notifies you that you are not signed in, Select **Sign in**.
+16.  If the dialog box notifies you that you are not signed in, select **Sign in**.
 
-17.  In the Office 365 dialog box, select the organizational account that you use to log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box:      
+17.  In the Office 365 dialog box, select the organizational account that you use to log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box, with the notification "You are currently signed in":      
    
    ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 
-18.  Select **Connect**. The Refresh dialog box displays status on the preparation of your data. It could take several minutes or more to open the data display in Power BI. After the data loads, Power BI displays it in charts that provide visualization into your organization’s collaboration patterns: 
+18.  Select **Connect**. The Refresh dialog box displays the status of the preparation of your data for display. It could take several minutes or more to open the data display in Power BI. 
+
+After the data loads, Power BI displays it in charts that provide visualization into your organization’s collaboration patterns: 
 
    ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
