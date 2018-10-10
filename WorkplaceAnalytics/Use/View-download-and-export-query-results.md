@@ -67,10 +67,7 @@ You can use data from your queries in a data-analysis tool to do further analysi
 
 5. In the OData feed dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import.  
 
-6. You are now signed in to Power BI. This is indicated by the "You are currently signed in" notification in the OData feed dialog box.
-
-   > [!Note]
-   > At this point, you've imported data into Power BI. You can now create visualizations of this data.  
+6. You have imported data into Power BI, and you can now create visualizations of this data.  
    
    > [!Important]
    > * The data in the OData feed is static, so if you want new or different data, you will need to run a new query and get a new corresponding URL.
