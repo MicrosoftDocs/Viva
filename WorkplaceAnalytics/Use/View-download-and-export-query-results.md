@@ -73,4 +73,4 @@ To complete this procedure, you must have the Analyst role in Workplace Analytic
 
 [Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-odata) 
 
-[Power BI templates in Workplace Analytics](Adopt-Learning-Modules.md)
+[Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
