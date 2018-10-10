@@ -14,15 +14,19 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-In **Queries**, the **Results** tab lists all the queries that have been run for your organization.
+   > [!Note]
+   > To complete this procedure, you must have the Analyst role in Workplace Analytics.
+
+In Workplace Analytics, on the **Queries** page, the **Results** tab lists all the queries that have been run for your organization.
 
 ![Query results tab](../images/wpa/Use/Query-results-tab.png)
 
-In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, and get a link that enables you to access and use the data from within Power BI.
+In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, and get a link that you can use to access these results as data within Power BI.
 
-You can switch between **My results** and **All results**:
-
-![Switch between My results and All results](../images/wpa/Use/My-results-All-results.png)
+   > [!Note]
+   > On the **Queries** page, you can switch between **My results** and **All results**:
+   
+   ![Switch between My results and All results](../images/wpa/Use/My-results-All-results.png)
 
 ## View query results
 
@@ -30,9 +34,9 @@ You can switch between **My results** and **All results**:
 
 * Next to the query you want, select the ellipsis (**...**) &gt; **View query**.
   
-## Use Workplace Analytics data in Power BI and other data analysis tools
+## Use Workplace Analytics data in Power BI or in other data-analysis tools
 
-You can use data from your queries in other data analysis tools to do further analysis and create reports. Workplace Analytics gives you two options, download data as a .csv file, or get a link to an OData feed that you can use in Power BI.  
+You can use data from your queries in a data-analysis tool to do further analysis and create reports. Workplace Analytics gives you two options, download data as a .csv file, or get a link to an OData feed that you can use in Power BI.  
 
 ### Download and then import a .csv file
 
@@ -49,11 +53,9 @@ You can use data from your queries in other data analysis tools to do further an
 
 #### To get a link to the data
 
-To complete this procedure, you must have the Analyst role in Workplace Analytics.
-
 1. Next to the query you want, select **Copy link**:
 
-   ![alt text for image](../images/wpa/Use/copy-link.png)
+   ![copy link image](../images/wpa/Use/copy-link.png)
 
 2. In Power BI, type or paste the URL into the **OData feed** dialog box.  
 
@@ -61,9 +63,14 @@ To complete this procedure, you must have the Analyst role in Workplace Analytic
 
    ![Sign in to Workplace Analytics organizational account](../images/wpa/Use/OData-feed-sign-in.png)
 
-4. If you have more than one organizational account, an Office 365 dialog box prompts you to choose one. Select the account that you use when you log in to Workplace Analytics. 
+4. If you have more than one organizational account, an Office 365 dialog box prompts you to choose one. Select the account that you use when you log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box, with the notification "You are currently signed in."
 
-5.	You are now signed in to Power BI. This is indicated by the "You are currently signed in" notification in the OData feed dialog box.
+5. In the OData feed dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import.  
+
+6. You are now signed in to Power BI. This is indicated by the "You are currently signed in" notification in the OData feed dialog box.
+
+   > [!Note]
+   > At this point, you've imported data into Power BI. You can now create visualizations of this data.  
    
    > [!Important]
    > * The data in the OData feed is static, so if you want new or different data, you will need to run a new query and get a new corresponding URL.

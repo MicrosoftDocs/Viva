@@ -69,7 +69,7 @@ In the following example procedure, you will use the Collaboration Overload quer
 
    Paste the OData link and select **Load**. 
 
-14.  If you are already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI displays your visualizations. (For an example of this display, see the illustration in the last step of this procedure.) 
+14.  If you are already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI displays your visualizations. <i>Skip the rest of this procedure.</i> 
    
    If you are not logged in to Power BI with your Workplace Analytics organizational account, you will see the OData feed dialog box. Its left panel highlights the account that is currently selected for signing in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
    
