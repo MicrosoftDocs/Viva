@@ -90,3 +90,6 @@ After the data loads, Power BI displays it in charts that provide visualization 
 
    ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
+### Related topics
+
+[View, download, and export query results](../use/view-download-and-export-query-results.md)
