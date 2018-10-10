@@ -185,13 +185,13 @@ Any user-defined columns | Additional columns can represent any data that you wa
 
 ### Supplying data over a time period
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. 
+By default, Workplace Analytics includes meeting and email data for measured employees for one year.
 
-Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as mentioned above.
+Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [this table](###-attribute-description-and-data-coverage-requirements).
 
-If you do a point in time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the last 13 months including the past year. This can be supplied in a single file or in a sequence of files.
+If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
-This means that for each measured employee you would have 13 separate rows for each employee, with an effective date for each month that data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2018 the effective date for all rows should be set to 10/1/2017.
+This means that for each measured employee, you would have 13 separate rows for each employee, with an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2018 the effective date for all rows should be set to 10/1/2017.
 
 ### Example .csv export file
 
