@@ -65,9 +65,9 @@ You can use data from your queries in a data-analysis tool to do further analysi
 
 4. If you have more than one organizational account, an Office 365 dialog box prompts you to choose one. Select the account that you use when you log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box, with the notification "You are currently signed in."
 
-5. In the OData feed dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import.  
+5. In the OData feed dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import. 
 
-6. You have imported data into Power BI, and you can now create visualizations of this data.  
+   After Power BI finishes importing your Workplace Analytics data, you can use the controls of Power BI to create visualizations of the data.
    
    > [!Important]
    > * The data in the OData feed is static, so if you want new or different data, you will need to run a new query and get a new corresponding URL.
