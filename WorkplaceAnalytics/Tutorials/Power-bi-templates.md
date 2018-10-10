@@ -69,12 +69,14 @@ In the following example procedure, you will use the Collaboration Overload quer
 
    Paste the OData link and select **Load**. 
 
-14.  In the OData feed dialog box, the left panel highlights the account that is currently selected for signing in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
+14.  If you are already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI displays your visualizations. (For an example of this display, see the illustration in the last step of this procedure.) 
+   
+   If you are not logged in to Power BI with your Workplace Analytics organizational account, you will see the OData feed dialog box. Its left panel highlights the account that is currently selected for signing in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
    
    ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)   
 
    > [!Important] 
-   > You can view Workplace Analytics data (including query results) in Power BI only if you have been assigned the Analyst role in Workplace Analytics. Also, you must sign in to Power BI with your Workplace Analytics organizational account. You will do this in the following steps. 
+   > You can view Workplace Analytics data (including query results) in Power BI only if you've been assigned the Analyst role in Workplace Analytics. Also, you must sign in with the correct account. You will do this in the following steps. 
 
 15.  In the OData feed dialog box, select **Organizational account**.
 
@@ -84,7 +86,7 @@ In the following example procedure, you will use the Collaboration Overload quer
    
    ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 
-18.  Select **Connect**. A "Refresh" dialog box displays the status of the preparation of your data for display. It could take several minutes or more to open the data display in Power BI. 
+18.  Select **Connect**. A "Refresh" dialog box displays the status of the preparation of your data for display. It could take several minutes or more for Power BI to display your data.  
 
 After the data loads, Power BI displays it in charts that provide visualization into your organization’s collaboration patterns: 
 
