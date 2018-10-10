@@ -6,7 +6,7 @@ title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics. 
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/14/2018
+ms.date: 10/10/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -189,21 +189,21 @@ By default, Workplace Analytics includes meeting and email data for measured emp
 
 Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as mentioned above.
 
-If you do a point in time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the 12 months in the past year. This can be supplied in a single file or in a sequence of files.
+If you do a point in time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the last 13 months including the past year. This can be supplied in a single file or in a sequence of files.
 
-This means that for each measured employee you would have 12 separate rows for each employee, with an effective date for each month that data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in June 2017 the effective date for all rows should be set to 6/1/2016.
+This means that for each measured employee you would have 13 separate rows for each employee, with an effective date for each month that data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2018 the effective date for all rows should be set to 10/1/2017.
 
 ### Example .csv export file
 
 This is an example snippet of a valid CSV export file:
 
 PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area
-Emp1@contoso.com,6/1/2016,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,7/1/2016,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,8/1/2016,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
-Emp2@contoso.com,6/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,7/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,8/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
+Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
+Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
+Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
 > [!Important]
 > Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas. Also, the .csv file must use UTF-8 encoding. For more information about saving a file in UTF-8 format, see [Solution](../Tutorials/Download-UTF8-query-report.md#solution).
