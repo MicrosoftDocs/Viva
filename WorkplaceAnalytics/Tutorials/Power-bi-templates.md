@@ -28,7 +28,7 @@ In the following example procedure, you will use the Collaboration Overload quer
 
 2.  In the left navigation pane, select **Queries**.
 
-3.  On the Queries page, select the **Collaboration Overload** query card. This opens a preset query that contains all the required metrics to properly populate the PBI template. 
+3.  On the Queries page, select the **Collaboration Overload** query card. This opens a preset query that contains all the required metrics to properly populate the Power BI template. 
 
    ![Opened Power BI template query](../Images/WpA/tutorials/pbi-templates-02.png)
    
@@ -37,33 +37,39 @@ In the following example procedure, you will use the Collaboration Overload quer
    > [!Note] 
    > If you attempt to delete a metric, you'll see a warning that this deletion could disable portions of the Power BI template and reduce query results. In turn, this could limit your eventual ability to visualize collaboration-overload patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. In the warning dialog box, select **cancel** to retain the metric or **delete** to delete it.  
   
-5.  Select **Run**. The query might take several minutes to complete.  
+5.  Select a rule from the Meeting exclusions list. Optionally, select options for Group by, Time period, and Included employees.  
 
-6.  Open the Query &gt; Results page. The Results page displays a row for every run of a query, including the query that you just ran. You know that your query has finished running when its row displays the download (down-arrow) button:
+6.  Select **Run**. The query might take several minutes to complete.
+
+7.  Open the Query &gt; Results page. The Results page displays a row for every run of a query, including the query that you just ran. If your query is still running, this row displays the status as "running": 
+
+   ![Query is still running](../Images/WpA/tutorials/query-running.png)
+
+ If the query has finished running, its row displays the download (down-arrow) button:
 
    ![Query results are ready](../Images/WpA/tutorials/query-results-done.png)
  
-7.  Select download. This gives you a choice of what to download, a CSV file or a Power BI template: 
+8.  Select download. This gives you a choice of what to download, a CSV file or a Power BI template: 
 
    ![Select PBI template](../Images/WpA/tutorials/pbi-templates-03.png)
 
-8.  Select **PBI template**. This displays a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI. 
+9.  Select **PBI template**. This displays a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI. 
 
-9.  Select **OK** to dismiss the dialog box. The Power BI template query results file is now downloaded. 
+10.  Select **OK** to dismiss the dialog box. The Power BI template query results file is now downloaded. 
 
-10.  In your browser, select the downloaded Power BI template query results file to open it:
+11.  In your browser, select the downloaded Power BI template query results file to open it:
 
    ![Open downloaded Power BI template file](../Images/WpA/tutorials/pbi-templates-05.png)
 
-11.  If a dialog box prompts you to select a program, choose **Power BI**.
+12.  If a dialog box prompts you to select a program, choose **Power BI**.
 
-12.  The query results file opens in Power BI. You are prompted to paste the OData link:
+13.  The query results file opens in Power BI. You are prompted to paste the OData link:
 
    ![Paste OData link here](../Images/WpA/tutorials/pbi-templates-07.png)
 
    Paste the OData link and select **Load**. 
 
-13.  In the OData feed dialog box, the left panel highlights the account that is currently selected for signing in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
+14.  In the OData feed dialog box, the left panel highlights the account that is currently selected for signing in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
    
    ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)   
 
