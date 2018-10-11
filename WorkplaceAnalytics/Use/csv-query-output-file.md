@@ -24,8 +24,7 @@ You can also select the _Copy link_ button to the right of the download link to 
 
 You can use person-to-group queries to help you understand how de-identified individuals invest their time internally and externally. Person-to-group queries can be used for either internal or external collaboration. 
 
-The query output lists these de-identified _Time investors_ (licensed employees) by a) their PersonIds, 
-b) one or more groups that you define in the _Collaborators_ section, and c) the amount of time that the time investor spends with the specified groups. 
+The query output lists these de-identified _Time investors_ (licensed employees) by: a) their PersonIds, b) one or more groups that you define in the _Collaborators_ section, and c) the amount of time that the time investor spends with the specified groups. 
 
 So on the "person" side of the query, you will have PersonIds that map to "collaborators" groups on the group side. For group-to-group queries, you will have Time investor groups that map to "collaborators" groups.
 
@@ -38,20 +37,20 @@ Take the example of a person with a PersonID, P1, who has collaborated with grou
 
 ![Table of columns](../images/WpA/Use/personId.png)
 
-## Header columns
-
 The .csv file query output for person-to-group queries consists of general header columns (categories) and metrics header columns. The output also displays additional organization-related attribute columns that will vary from company to company.
+
+## Header columns
 
   The following table lists the person-to-group header columns found in the .csv output file:
 
-| Header column | Description   |    
+| Header column | Description |
 |---|---|
-|  PersonId  | This header column displays a randomly-generated PersonId value for each time investor. When the company administrator initially uploads employee organization information, employee names are used in rows, but these names become de-identified when Workplace Analytics processes the output.  |
-| IsInternal    | This header column value equates to true for all internal company employees and equates to false for all people external to the company.    |   
-|  FunctionType  |This header column represents the function that employees perform within the company, for example, Manufacturing, HR, or Finance.    |  
-| Organization<sup>*</sup>   | This header column represents the name of the organization to which a person belongs. For information on other variable organization-related columns, see [Organizational attribute columns](#organizational-attribute-columns).  
-|  Collaborators_\<collaborator group-by attribute>  | The Collaborators header column displays the various values of the attribute by which the collaborators were grouped. For example, if you select "Domain" as the Group by attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the group by attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType Group by attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType.   |  
-| Date   | This column displays either the first day of the week (Sunday) or first day of the month, depending on which date option you originally selected as the group by attribute.|  
+|  PersonId  | This header column displays a randomly-generated PersonId value for each time investor. When the company administrator initially uploads employee organization information, employee names are used in rows, but these names become de-identified when Workplace Analytics processes the output. |
+| IsInternal  | This header column value equates to true for all internal company employees and equates to false for all people external to the company. |
+|  FunctionType |  This header column represents the function that employees perform within the company, for example, Manufacturing, HR, or Finance. |  
+| Organization<sup>*</sup> | This header column represents the name of the organization to which a person belongs. For information on other variable organization-related columns, see [Organizational attribute columns](#organizational-attribute-columns).  |
+|  Collaborators_\<collaborator group-by attribute>  | The Collaborators header column displays the various values of the attribute by which the collaborators were grouped. For example, if you select "Domain" as the Group by attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the group by attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType Group by attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType. |  
+| Date | This column displays either the first day of the week (Sunday) or first day of the month, depending on which date option you originally selected as the group by attribute.|  
 <sup>*</sup> The Organizational and FunctionType columns are similar in that they both reflect the function of employees within an organization; however, the values of each may differ, as in the following examples:
 
 
@@ -63,7 +62,7 @@ The .csv file query output for person-to-group queries consists of general heade
 
 ### Organizational attribute columns
 
-In addition to the standard columns present in the .csv file output of person-to-person queries, the output  typically contains a variable set of header columns that represent the organizational attributes of employees. Admins upload these  attributes when Workplace Analytics is initially set up. These columns are listed to the right of the Organization column for every person included in the query output. The names of the columns will vary from company to company, but sample organizational attributes might include items such as: StartDate, tenuremonths, or quotaattainment.
+In addition to the standard columns present in the .csv file output of person-to-person queries, the output  typically contains a variable set of header columns that represent the organizational attributes of employees. Admins upload these  attributes when Workplace Analytics is initially set up. These columns are listed to the right of the Organization column for every person included in the query output. The names of the columns will vary from company to company; however, sample organizational attributes might include items such as: StartDate, tenuremonths, or quotaattainment.
 
 ### Metrics header columns
 
@@ -76,14 +75,16 @@ The following table lists the person-to-group metrics header columns:
 
 | Metric | Description |
 |---|---|
-|Collaboration hours  |Shows the total amount of time that a de-identified individual has spent collaborating with the collaborator group. This includes time spent in email and meetings. |
-| Email count |Shows the number of emails sent between the time investor and groups. |
-|Email hours |Shows the amount of time that the time investor spent writing or reading emails. |
-|Meeting hours |Shows the number of hours that the time investor spent in meetings.|
-|Meetings |Shows the number of meetings in which the time investor and the collaborators participated. |
-|Network size | Tells you how many people with whom the time investor had meaningful interactions in the selected collaboration group over the selected time period.  |
+|**Collaboration hours**  |Shows the total amount of time that a de-identified individual has spent collaborating with the collaborator group. This includes time spent in email and meetings. |
+| **Email count** |Shows the number of emails sent between the time investor and groups. |
+| **Email hours** |Shows the amount of time that the time investor spent writing or reading emails. |
+| **Meeting hours** |Shows the number of hours that the time investor spent in meetings.|
+| **Meetings** |Shows the number of meetings in which the time investor and the collaborators participated. |
+| **Network size** | Tells you how many people with whom the time investor had meaningful interactions in the selected collaboration group over the selected time period.  |
 
-**The IsActive attribute** The *IsActive* attribute does not display as an option in the person-to-group query. However, *IsActive* comes into play when you select an option from the Included employees menu during the person-to-group query. The header column then shows up in the .csv query output. *IsActive* applies to either Active employees only, Inactive employees only, or All employees, and has a Boolean value of true or false.
+**The IsActive attribute** 
+
+The *IsActive* attribute does not display as an option in the person-to-group query. However, *IsActive* comes into play when you select an option from the Included employees menu during the person-to-group query. The header column then shows up in the .csv query output. *IsActive* applies to either Active employees only, Inactive employees only, or All employees, and has a Boolean value of true or false.
 
 ![Selected employees](../images/WpA/Use/selected-employees.png)
 
@@ -91,10 +92,13 @@ The following table lists the person-to-group metrics header columns:
 
 In addition to the standard attribute values, the **Collaborators** group can also display four additional attribute values in the .csv file query output for both person-to-group and group-to-group queries:
 
-- Unclassified_Internal
-- Unclassified_External
-- Other collaborators
-- Collaborators Within Group
+1. Unclassified_Internal
+
+2. Unclassified_External
+
+3. Other collaborators
+
+4. Collaborators Within Group
 
 ### Unclassified_Internal
 
@@ -134,19 +138,19 @@ The .csv file query output for group-to-group queries, like person-to-group quer
 
 ### Header columns
 
-|Header column |Description |  
+|Header column | Description |  
 |---|---|
-| TimeInvestors_\<time-investor group-by attribute>: | The name of this header column in the .csv output depends on the group-by attribute selected in the time investors part of the query. For example, in the previous table, collaborators are grouped by FunctionType, so the column name is concatenated as TimeInvestors_FunctionType.|   
-|  Collaborators_\<collaborator group-by attribute>: | The name of this header column depends on the group-by attribute selected in the collaborators part of the query. In the previous table, collaborators are grouped by domain, so the column name is concatenated as Collaborators_Domain.     |   
-| Date   | This column displays either the first day of the week (Sunday) or the first day of the month, depending on the date option you originally selected as the _Group by_ attribute.|  
+| **TimeInvestors**_\<time-investor group-by attribute>: | The name of this header column in the .csv output depends on the group-by attribute selected in the time investors part of the query. For example, in the previous table, collaborators are grouped by FunctionType, so the column name is concatenated as TimeInvestors_FunctionType.|   
+|  **Collaborators**_\<collaborator group-by attribute>: | The name of this header column depends on the group-by attribute selected in the collaborators part of the query. In the previous table, collaborators are grouped by domain, so the column name is concatenated as Collaborators_Domain.     |   
+| **Date** | This column displays either the first day of the week (Sunday) or the first day of the month, depending on the date option you originally selected as the _Group by_ attribute.|  
 
 ### Metrics columns
 
 | Metric column | Description   |  
 |---|---|
-|Email hours  | The number of hours spent sending and reading emails between the time investor and collaborator groups.   |   
-|  Meeting hours  |  The number of meeting hours the time investor group has spent meeting with the collaborator group.  |   
-|  Meetings |The number of distinct meetings with at least one attendee from the time investor and collaborator groups. |
-| Meeting attendee count   |  The total number of attendees in all meetings from the time investor and collaborator groups |  
-|Meetings invitee count    | The total number of invitees in all meetings from the time investor and collaborator
-|Collaboration hours  | The sum of meeting hours and email hours spent between the time investor and collaborator groups.   |  
+|**Email hours**  | The number of hours spent sending and reading emails between the time investor and collaborator groups.   |   
+| **Meeting hours**  |  The number of meeting hours the time investor group has spent meeting with the collaborator group.  |   
+| **Meetings** |The number of distinct meetings with at least one attendee from the time investor and collaborator groups. |
+| **Meeting attendee count** |  The total number of attendees in all meetings from the time investor and collaborator groups |  
+|**Meetings invitee count** | The total number of invitees in all meetings from the time investor and collaborator
+| **Collaboration hours**  | The sum of meeting hours and email hours spent between the time investor and collaborator groups.   |  
