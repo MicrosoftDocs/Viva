@@ -102,7 +102,7 @@ To exclude all emails with the keywords of “confidential,” “ACP,” and �
 ### Keyword exclusion logic
 
 * Case is ignored, so you can use upper or lower-case keywords
-* Does not match multiple word terms, so you need to list each keyword as a separate term
+* Matches exact string match for subject keywords
 * Does not match partial words, so you need to list each partial word as a separate term
 
 #### Examples: Keyword exclusion logic
