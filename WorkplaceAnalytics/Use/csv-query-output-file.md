@@ -80,7 +80,7 @@ The following table lists the person-to-group metrics header columns:
 | **Email hours** |Shows the amount of time that the time investor spent writing or reading emails. |
 | **Meeting hours** |Shows the number of hours that the time investor spent in meetings.|
 | **Meetings** |Shows the number of meetings in which the time investor and the collaborators participated. |
-| **Network size** | Tells you how many people with whom the time investor had meaningful interactions in the selected collaboration group over the selected time period.  |
+| **Network size** | Shows how many people with whom the time investor had meaningful interactions in the selected collaboration group over the selected time period.  |
 
 **The IsActive attribute** 
 
