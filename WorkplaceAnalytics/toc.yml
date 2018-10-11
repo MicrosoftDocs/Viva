@@ -56,8 +56,6 @@
             href: ~/Use/Create-Queries.md
             name: View, download, and export query results
             href: ~/Use/View-download-and-export-query-results.md
-          - name: Understand and interpret query output
-            href: ~/Use/Csv-query-output-file.md
           - name: Understand meeting exclusions
             href: ~/Use/Understand-meeting-exclusions.md
           - name: Create custom meeting exclusion rules
@@ -81,6 +79,8 @@
           - name: Person-to-group queries
             href: ~/Tutorials/Person-to-group-queries.md            
           - name: Query auto-refresh option
+          - name: Understand and interpret query output
+            href: ~/Use/Csv-query-output-file.md
             href: ~/Tutorials/Query-auto-refresh.md  
           - name: Teamwork solution
             href: ~/Tutorials/Solutions-intro.md  
