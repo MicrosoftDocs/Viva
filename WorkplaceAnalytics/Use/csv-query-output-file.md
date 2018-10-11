@@ -120,7 +120,7 @@ If the query is using the _Group by_ attribute, both the collaborators who match
 
 For example, suppose we ran a query for collaborators to find out which organizations they have collaborated with, and passed them through the filter FunctionType = HR. Those who match the filter move forward. Then, if we group the collaborators by city, say, San Francisco and Boston, the query will find all collaborators who had interactions with HR in San Francisco and will place them in the San Francisco category, and similarly for Boston. The query output will now contain entries for each person (or group if it's a group-to-group query) displaying how much time each one spent collaborating with HR in each city. 
 
-In some instances, certain people may not have the organizational attribute defined. (_City_ is an HR attribute). This might be because such employees are mobile and do not have fixed location, and cannot be classified by city. Such employees will be placed in the _Other Collaborators_ category.
+In some instances, certain people may not have the organizational attribute defined. (_City_ is an HR attribute). This might be because such employees are mobile and do not have fixed location, and cannot be classified by city. Such employees will be placed in the _Other collaborators_ category.
 
 ### Collaborators Within Group
 
