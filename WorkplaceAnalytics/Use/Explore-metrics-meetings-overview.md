@@ -36,7 +36,6 @@ The low-quality meeting hours overview summarizes the number of low-quality meet
 
 >[!Note]
 > As of October 2018, we have introduced an optional *HourlyRate* column in the organizational data that a Workplace Analytics admin uploads, that is used to calculate the total cost of low-quality meetings.
-
 If an admin uploads the HourlyRate column, as shown in Meetings overview, cost is calculated as the sum of a person’s default hourly rate for the organization multiplied by low-quality hours. If the optional HourlyRate column is not uploaded, cost is calculated at $75 multiplied by the number of low-quality hours.
 
 
