@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Understand and interpret query output
 
-After you run a query from the Queries page, the query Results page  opens by default, and displays a download link to a .csv (comma-separated values) file that contains all the results of your query output.
+After you run a query from the Queries page, the query Results page  opens by default, and displays a download link for a .csv (comma-separated values) file that contains all the results of your query output.
 
 ![Csv file download](../images/WpA/Use/csv-download.png)
 
@@ -24,13 +24,19 @@ You can also select the _Copy link_ button to the right of the download link to 
 
 You can use person-to-group queries to help you understand how de-identified individuals invest their time internally and externally. Person-to-group queries can be used for either internal or external collaboration. 
 
-The query output lists these de-identified _Time investors_ (licensed employees) by: a) their PersonIds, b) one or more groups that you define in the _Collaborators_ section, and c) the amount of time that the time investor spends with the specified groups. 
+The query output lists these de-identified _Time investors_ (licensed employees) by:
+
+a) Their PersonIds
+
+b) one or more groups that you define in the _Collaborators_ section
+
+c) the amount of time that the time investor spends with the specified groups. 
 
 So on the "person" side of the query, you will have PersonIds that map to "collaborators" groups on the group side. For group-to-group queries, you will have Time investor groups that map to "collaborators" groups.
 
 In person-to-group queries, the .csv file query output consists of various column headers with single rows for each unique pairing of an individual in the time investor group with any collaborator in the collaborator group during the time periods that the person has collaborated with that group. 
 
-Take the example of a person with a PersonID, P1, who has collaborated with group G1 in weeks one and three of a certain month. Assuming that you run a person-to-group query by selecting "week" as the _Group by_ option (*How do you want to group the people who collaborated with the time investors?*) in the _Time investors_ section, rows are created for (P1, G1) in weeks one and three only. 
+For example, a person with a PersonID, P1, who has collaborated with group G1 in weeks one and three of a certain month. Assuming that you run a person-to-group query by selecting "week" as the _Group by_ option (*How do you want to group the people who collaborated with the time investors?*) in the _Time investors_ section, rows are created for (P1, G1) in weeks one and three only. 
 
 ![Table of columns](../images/WpA/Use/personId.png)
 
@@ -49,7 +55,7 @@ The .csv file query output for person-to-group queries consists of general heade
 | **IsInternal** | This header column value equates to true for all internal company employees and equates to false for all people external to the company. |
 | **FunctionType** |  This header column represents the function that employees perform within the company, for example, Manufacturing, HR, or Finance. |  
 | **Organization**<sup>*</sup> | This header column represents the name of the organization to which a person belongs. For information on other variable organization-related columns, see [Organizational attribute columns](#organizational-attribute-columns). |
-|  **Collaborators**_\<collaborator group-by attribute> | The Collaborators header column displays the various values of the attribute by which the collaborators were grouped. For example, if you select "Domain" as the Group by attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the group by attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType Group by attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType. |  
+|  **Collaborators**_\(collaborator group-by attribute) | The Collaborators header column displays the various values of the attribute by which the collaborators were grouped. For example, if you select "Domain" as the *Group by* attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the *Group by* attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType Group by attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType. |  
 | **Date** | This column displays either the first day of the week (Sunday) or first day of the month, depending on which date option you originally selected as the group by attribute.|  
 
 <sup>*</sup> The Organization and FunctionType columns are similar in that they both reflect the function of employees within an organization; however, the values of each may differ, as in the following examples:
@@ -62,7 +68,7 @@ The .csv file query output for person-to-group queries consists of general heade
 
 ### Organizational attribute columns
 
-In addition to the standard columns present in the .csv file output of person-to-person queries, the output  typically contains a variable set of header columns that represent the organizational attributes of employees. Admins upload these  attributes when Workplace Analytics is initially set up. These columns are listed to the right of the Organization column for every person included in the query output. The names of the columns will vary from company to company; however, sample organizational attributes might include items such as: StartDate, tenuremonths, or quotaattainment.
+In addition to the standard columns present in the .csv file output of person-to-person queries, the output  typically contains a variable set of header columns that represent the organizational attributes of employees. Admins upload these  attributes when Workplace Analytics is initially set up. These columns are listed to the right of the Organization column for every person included in the query output. The names of the columns will vary from company to company; however, sample organizational attributes might include items such as, StartDate, tenuremonths, or quotaattainment.
 
 ### Metrics header columns
 
@@ -84,31 +90,31 @@ The following table lists the person-to-group metrics header columns:
 
 **The IsActive attribute** 
 
-The *IsActive* attribute does not display as an option in the person-to-group query. However, *IsActive* comes into play when you select an option from the Included employees menu during the person-to-group query. The header column then shows up in the .csv query output. *IsActive* applies to either Active employees only, Inactive employees only, or All employees, and has a Boolean value of true or false.
+The *IsActive* attribute does not display as an option in the person-to-group query. However, *IsActive* is included when you select an option from the Included employees menu during the person-to-group query. The header column then shows up in the .csv query output. *IsActive* applies to either Active employees only, Inactive employees only, or All employees, and has a Boolean value of true or false.
 
 ![Selected employees](../images/WpA/Use/selected-employees.png)
 
 ## Additional attribute values
 
-In addition to the standard attribute values, the _Collaborators_ group can also display four additional attribute values in the .csv file query output for both person-to-group and group-to-group queries:
+In addition to the standard attribute values, the _Collaborators_ group can also include four additional attribute values in the .csv file query output for both person-to-group and group-to-group queries:
 
-1. Unclassified_Internal
+<li>Unclassified_Internal
 
-2. Unclassified_External
+<li>Unclassified_External
 
-3. Other collaborators
+<li>Other collaborators
 
-4. Collaborators Within Group
+<li>Collaborators Within Group
 
-### Unclassified_Internal
+### Unclassified Internal
 
-In the following diagram, under the section _Their collaborators_, the collaborators who match the filter option defined in question 3C, and who are also internal to the company (as indicated by the "IsInternal = true" attribute) will be grouped together under the _Unclassified_Internal_ bucket. Metrics for all such collaborators are added up.
+In the following diagram, under the _Their collaborators_ section, the collaborators who match the filter option defined in question 3C, and who are also internal to the company (as indicated by the "IsInternal = true" attribute) will be grouped together in the _Unclassified_Internal_ bucket. Metrics for all such collaborators are added up.
 
-For example, if we run a query for all collaborators who match FunctionType = HR, all those who do not match the filter, say, people from Sales or Marketing, if they are internal employees, will be placed in the _Unclassified_Internal_ category.
+For example, if we run a query for all collaborators who match FunctionType = HR, all those who do not match the filter, say, people from Sales or Marketing, if they are internal employees, will be included in the _Unclassified_Internal_ category.
 
 ![Unclassified internal](../images/WpA/Use/unclassified_int_ext.png)
 
-### Unclassified_External
+### Unclassified External
 
 The collaborators who match the filter option defined in question 3C in the diagram, and who are external to the company (as indicated by the "IsInternal = false" attribute) will be grouped together under the value _Unclassified\_External_. Metrics for all such collaborators are added up.
 
@@ -130,7 +136,7 @@ If the result of a query defines the same set of people as members of both the t
 
 You can use group-to-group queries to help you understand how groups or teams invest their time across the internal organizations in the company and also how they invest their time with groups external to the company. The .csv file query output lists pairs of groups, defined by the selected organizational attribute, and shows how much time the first group has allocated to the second group. 
 
-The .csv file query output of a group-to-group query consists of various column headers with a single row for each unique pairing of a time investor group with a collaborator group during the time periods that any person in the time investor group collaborated with a specific collaborator group. Assuming that the group-to-group query is run by selecting "week" as the _Group by_ option, if any individual in group G1 collaborated with any individual in group G2 in, say, weeks one and three of a specific month, then rows will only exist for G1 and G2 in weeks one and three.
+The .csv file query output of a group-to-group query includes various column headers with a single row for each unique pairing of a time investor group with a collaborator group during the time periods that any person in the time investor group collaborated with a specific collaborator group. Assuming that the group-to-group query is run by selecting "week" as the _Group by_ option, if any individual in group G1 collaborated with any individual in group G2 in, say, weeks one and three of a specific month, then rows will only exist for G1 and G2 in weeks one and three.
 
 ![Group-to-group time investors-collaborators](../images/WpA/Use/g2g-time-investors-collaborators.png)
 
@@ -140,8 +146,8 @@ The .csv file query output for group-to-group queries, like person-to-group quer
 
 |Header column | Description |  
 |---|---|
-| **TimeInvestors**_\<time-investor group-by attribute>: | The name of this header column in the .csv output depends on the _Group by_ attribute selected in the time investors part of the query. For example, in the previous table, collaborators are grouped by FunctionType, so the column name is concatenated as TimeInvestors_FunctionType.|   
-|  **Collaborators**_\<collaborator group-by attribute>: | The name of this header column depends on the _Group by_ attribute selected in the collaborators part of the query. In the previous table, collaborators are grouped by domain, so the column name is concatenated as Collaborators_Domain.     |   
+| **TimeInvestors**_\(time-investor group-by attribute) | The name of this header column in the .csv output depends on the _Group by_ attribute selected in the time investors part of the query. For example, in the previous table, collaborators are grouped by FunctionType, so the column name is concatenated as TimeInvestors_FunctionType.|   
+|  **Collaborators**_\(collaborator group-by attribute) | The name of this header column depends on the _Group by_ attribute selected in the collaborators part of the query. In the previous table, collaborators are grouped by domain, so the column name is concatenated as Collaborators_Domain.     |   
 | **Date** | This column displays either the first day of the week (Sunday) or the first day of the month, depending on the date option you originally selected as the _Group by_ attribute.|  
 
 ### Metrics columns
@@ -152,5 +158,5 @@ The .csv file query output for group-to-group queries, like person-to-group quer
 | **Meeting hours**  |  The number of meeting hours the time investor group has spent meeting with the collaborator group.  |   
 | **Meetings** |The number of distinct meetings with at least one attendee from the time investor and collaborator groups. |
 | **Meeting attendee count** |  The total number of attendees in all meetings from the time investor and collaborator groups |  
-|**Meetings invitee count** | The total number of invitees in all meetings from the time investor and collaborator
+|**Meetings invitee count** | The total number of invitees in all meetings from the time investor and collaborator.
 | **Collaboration hours**  | The sum of meeting hours and email hours spent between the time investor and collaborator groups.   |  
