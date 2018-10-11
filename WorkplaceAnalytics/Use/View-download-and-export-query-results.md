@@ -4,9 +4,9 @@
 
 title: View download and export Workplace Analytics query results
 description: This is topic describes how to view, download, and export Workplace Analytics query results to PowerBI and other data analysis tools. 
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 9/4/2018
+ms.date: 10/11/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -26,7 +26,7 @@ In addition to seeing basic information about each query, you can view query res
    > [!Note]
    > On the **Queries** page, you can switch between **My results** and **All results**:
    
-   ![Switch between My results and All results](../images/wpa/Use/My-results-All-results.png)
+   ![Switch between My results and All results](../images/wpa/Use/my-results-all-results.png)
 
 ## View query results
 
