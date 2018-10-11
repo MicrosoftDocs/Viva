@@ -6,7 +6,7 @@ title: Use the auto-refresh option for queries in Workplace Analytics
 description: This topic describes the auto-refresh option in Workplace Analytics queries.     
 author: paul9955
 ms.author: v-pascha
-ms.date: 05/18/2018
+ms.date: 10/11/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -64,3 +64,7 @@ On the Results page of Workplace Analytics, you can also obtain a link to a quer
 6. Enter your client credentials and then click **Connect**.
 
 After you do this, Power BI maintains a connection to this query in Workplace Analytics. In the future, to visualize the query's current results, open the Workplace Analytics project in Power BI and click **Refresh**. 
+
+### Related topics
+
+[View, download, and export query results](../use/view-download-and-export-query-results.md)

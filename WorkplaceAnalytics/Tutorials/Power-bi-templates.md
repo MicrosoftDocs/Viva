@@ -22,7 +22,7 @@ The Queries page of Workplace Analytics makes a number of query templates availa
 
 In the following example procedure, you will use the Collaboration Overload query to identify areas of collaboration overload in your organization. 
 
-**To use a Power BI template**
+**To access a Power BI template**
 
 1.  Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
 
@@ -30,7 +30,7 @@ In the following example procedure, you will use the Collaboration Overload quer
 
 3.  On the Queries page, select the **Collaboration Overload** query card. This opens a preset query that contains all the required metrics to properly populate the Power BI template. 
 
-   ![Opened Power BI template query](../Images/WpA/tutorials/pbi-templates-02.png)
+   ![Opened Power BI template query](../Images/WpA/tutorials/collab-overview-page.png)
    
 4.  Review the displayed metrics. These metrics are required to populate the Power BI template. 
 
@@ -71,7 +71,7 @@ In the following example procedure, you will use the Collaboration Overload quer
 
 14.  If you are already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI displays your visualizations. <i>Skip the rest of this procedure.</i> 
    
-   If you are not logged in to Power BI with your Workplace Analytics organizational account, you will see the OData feed dialog box. Its left panel highlights the account that is currently selected for signing in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
+   If you are not logged in to Power BI, you will see the OData feed dialog box. Its left panel highlights the account that is currently selected for signing in to Power BI. For example, the following illustration shows "Anonymous" as the sign-in account:
    
    ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)   
 
