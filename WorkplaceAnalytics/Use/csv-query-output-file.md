@@ -130,7 +130,7 @@ If the result of a query defines the same set of people as members of both the t
 
 You can use group-to-group queries to help you understand how groups or teams invest their time across the internal organizations in the company and also how they invest their time with groups external to the company. The .csv file query output lists pairs of groups, defined by the selected organizational attribute, and shows how much time the first group has allocated to the second group. 
 
-The .csv file query output of a group-to-group query consists of various column headers with a single row for each unique pairing of a time investor group with a collaborator group during the time periods that any person in the time investor group collaborated with a specific collaborator group. Assuming that the group-to-group query is run by selecting "week" as the "Group by" option, if any individual in group G1 collaborated with any individual in group G2 in, say, weeks one and three of a specific month, then rows will only exist for G1 and G2 in weeks one and three.
+The .csv file query output of a group-to-group query consists of various column headers with a single row for each unique pairing of a time investor group with a collaborator group during the time periods that any person in the time investor group collaborated with a specific collaborator group. Assuming that the group-to-group query is run by selecting "week" as the _Group by_ option, if any individual in group G1 collaborated with any individual in group G2 in, say, weeks one and three of a specific month, then rows will only exist for G1 and G2 in weeks one and three.
 
 ![Group-to-group time investors-collaborators](../images/WpA/Use/g2g-time-investors-collaborators.png)
 
@@ -140,8 +140,8 @@ The .csv file query output for group-to-group queries, like person-to-group quer
 
 |Header column | Description |  
 |---|---|
-| **TimeInvestors**_\<time-investor group-by attribute>: | The name of this header column in the .csv output depends on the group-by attribute selected in the time investors part of the query. For example, in the previous table, collaborators are grouped by FunctionType, so the column name is concatenated as TimeInvestors_FunctionType.|   
-|  **Collaborators**_\<collaborator group-by attribute>: | The name of this header column depends on the group-by attribute selected in the collaborators part of the query. In the previous table, collaborators are grouped by domain, so the column name is concatenated as Collaborators_Domain.     |   
+| **TimeInvestors**_\<time-investor group-by attribute>: | The name of this header column in the .csv output depends on the _Group by_ attribute selected in the time investors part of the query. For example, in the previous table, collaborators are grouped by FunctionType, so the column name is concatenated as TimeInvestors_FunctionType.|   
+|  **Collaborators**_\<collaborator group-by attribute>: | The name of this header column depends on the _Group by_ attribute selected in the collaborators part of the query. In the previous table, collaborators are grouped by domain, so the column name is concatenated as Collaborators_Domain.     |   
 | **Date** | This column displays either the first day of the week (Sunday) or the first day of the month, depending on the date option you originally selected as the _Group by_ attribute.|  
 
 ### Metrics columns
