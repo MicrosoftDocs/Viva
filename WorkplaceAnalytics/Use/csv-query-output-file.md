@@ -32,10 +32,10 @@ In person-to-group queries, the .csv file query output consists of various colum
 
 Take the example of a person with a PersonID, P1, who has collaborated with group G1 in weeks one and three of a certain month. Assuming that you run a person-to-group query by selecting "week" as the _Group by_ option (*How do you want to group the people who collaborated with the time investors?*) in the _Time investors_ section, rows are created for (P1, G1) in weeks one and three only. 
 
+![Table of columns](../images/WpA/Use/personId.png)
+
 >[!Note]
 > People are assigned randomly-generated PersonIds to maintain de-identification. No individuals can be identified from the query output.
-
-![Table of columns](../images/WpA/Use/personId.png)
 
 The .csv file query output for person-to-group queries consists of general header columns (categories) and metrics header columns. The output also displays additional organization-related attribute columns that will vary from company to company.
 
