@@ -56,6 +56,8 @@
             href: ~/Use/Create-Queries.md
             name: View, download, and export query results
             href: ~/Use/View-download-and-export-query-results.md
+          - name: Understand and interpret query output
+            href: ~/Use/Csv-query-output-file.md
           - name: Understand meeting exclusions
             href: ~/Use/Understand-meeting-exclusions.md
           - name: Create custom meeting exclusion rules
