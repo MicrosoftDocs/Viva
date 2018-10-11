@@ -33,6 +33,11 @@ The low-quality meeting hours overview summarizes the number of low-quality meet
 * Email multitasking in a meeting means attendees are not contributing at their full potential, hearing only part of the communication and/or failing to contribute their know-how to the task at hand.
 * Redundancy is an indication of underlying lack of role clarity, poor delegation, and/or a risk averse culture. Lower level employees attending a high proportion of redundant meetings could potentially feel less empowered. Senior levels may be better off by appropriately delegating meeting attendance. As a sign of career development, redundancy should diminish with tenure.
 
+
+>[!Note]
+> Admins can now upload an optional *HourlyRate* column in the organizational data, which can be used to calculate the total cost of low-quality meetings as shown in Meetings overview.
+If an admin chooses to upload the *HourlyRate* column, cost is calculated as the sum of a person’s default hourly rate for the organization multiplied by low-quality hours. If the *HourlyRate* column is not uploaded, cost is calculated at $75 multiplied by the number of low-quality hours.
+
 ## Meetings hours by number of attendees
 
 Each duration segment in the chart shows the time a person spent in meetings with the specified number of attendees.
