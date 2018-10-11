@@ -84,3 +84,5 @@ You can use data from your queries in a data-analysis tool to do further analysi
 [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 
 [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
+
+[Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards)
