@@ -45,13 +45,14 @@ The .csv file query output for person-to-group queries consists of general heade
 
 | Header column | Description |
 |---|---|
-|  PersonId  | This header column displays a randomly-generated PersonId value for each time investor. When the company administrator initially uploads employee organization information, employee names are used in rows, but these names become de-identified when Workplace Analytics processes the output. |
-| IsInternal  | This header column value equates to true for all internal company employees and equates to false for all people external to the company. |
-|  FunctionType |  This header column represents the function that employees perform within the company, for example, Manufacturing, HR, or Finance. |  
-| Organization<sup>*</sup> | This header column represents the name of the organization to which a person belongs. For information on other variable organization-related columns, see [Organizational attribute columns](#organizational-attribute-columns).  |
-|  Collaborators_\<collaborator group-by attribute>  | The Collaborators header column displays the various values of the attribute by which the collaborators were grouped. For example, if you select "Domain" as the Group by attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the group by attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType Group by attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType. |  
+| PersonId | This header column displays a randomly-generated PersonId value for each time investor. When the company administrator initially uploads employee organization information, employee names are used in rows, but these names become de-identified when Workplace Analytics processes the output. |
+| IsInternal | This header column value equates to true for all internal company employees and equates to false for all people external to the company. |
+| FunctionType |  This header column represents the function that employees perform within the company, for example, Manufacturing, HR, or Finance. |  
+| Organization<sup>*</sup> | This header column represents the name of the organization to which a person belongs. For information on other variable organization-related columns, see [Organizational attribute columns](#organizational-attribute-columns). |
+|  Collaborators_\<collaborator group-by attribute> | The Collaborators header column displays the various values of the attribute by which the collaborators were grouped. For example, if you select "Domain" as the Group by attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the group by attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType Group by attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType. |  
 | Date | This column displays either the first day of the week (Sunday) or first day of the month, depending on which date option you originally selected as the group by attribute.|  
-<sup>*</sup> The Organizational and FunctionType columns are similar in that they both reflect the function of employees within an organization; however, the values of each may differ, as in the following examples:
+
+<sup>*</sup> The Organization and FunctionType columns are similar in that they both reflect the function of employees within an organization; however, the values of each may differ, as in the following examples:
 
 
 | Organization | FunctionType |
