@@ -90,7 +90,7 @@ The *IsActive* attribute does not display as an option in the person-to-group qu
 
 ## Additional attribute values
 
-In addition to the standard attribute values, the **Collaborators** group can also display four additional attribute values in the .csv file query output for both person-to-group and group-to-group queries:
+In addition to the standard attribute values, the _Collaborators_ group can also display four additional attribute values in the .csv file query output for both person-to-group and group-to-group queries:
 
 1. Unclassified_Internal
 
@@ -110,13 +110,13 @@ For example, if we run a query for all collaborators who match FunctionType = HR
 
 ### Unclassified_External
 
-The collaborators who match the filter option defined in question 3C in the diagram, and who are external to the company (as indicated by the "IsInternal = false" attribute) will be grouped together under the value "Unclassified\_External". Metrics for all such collaborators are added up.
+The collaborators who match the filter option defined in question 3C in the diagram, and who are external to the company (as indicated by the "IsInternal = false" attribute) will be grouped together under the value _Unclassified\_External_. Metrics for all such collaborators are added up.
 
-Similar to the case of Unclassified_Internal, those who do not match the filter, for example, if they are external employees, will be placed in the "Unclassified_External" category.
+Similar to the case of Unclassified_Internal, those who do not match the filter, for example, if they are external employees, will be placed in the _Unclassified_External_ category.
 
 ### Other collaborators
 
-If the query is using the _Group by_ attribute, both the collaborators who match the filter option defined in question 3C in the diagram and the collaborators who do not have the group-by attribute defined, will be grouped together under the "Other collaborators" category.
+If the query is using the _Group by_ attribute, both the collaborators who match the filter option defined in question 3C in the diagram and the collaborators who do not have the group-by attribute defined, will be grouped together under the _Other collaborators_ category.
 
 For example, suppose we ran a query for collaborators to find out which organizations they have collaborated with, and passed them through the filter FunctionType = HR. Those who match the filter move forward. Then, if we group the collaborators by city, say, San Francisco and Boston, the query will find all collaborators who had interactions with HR in San Francisco and will place them in the San Francisco category, and similarly for Boston. The query output will now contain entries for each person (or group if it's a group-to-group query) displaying how much time each one spent collaborating with HR in each city. 
 
@@ -124,7 +124,7 @@ In some instances, certain people may not have the organizational attribute defi
 
 ### Collaborators Within Group
 
-If the result of a query defines the same set of people as members of both the time investors and collaborators groups, _and_ these individuals also match the filter defined in option 3C, as in the  diagram, then the collaborators are grouped together under the value "Collaborators Within Group". These additional values also display in the .csv file query output for group-to-group queries.
+If the result of a query defines the same set of people as members of both the time investors and collaborators groups, _and_ these individuals also match the filter defined in option 3C, as in the  diagram, then the collaborators are grouped together under the value _Collaborators Within Group_. These additional values also display in the .csv file query output for group-to-group queries.
 
 ## Group-to-group query output
 
