@@ -82,7 +82,7 @@ Yes. We calculate email hours based on how many emails you read and send (as wel
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus hours. For more information, see [Focus hours](../Use/MyA-Dashboard/MyA-DB-Focus-hours.md). To exclude focus hours, right-click the appointment and set Show As to “Out of Office."
 
-#### Can I change my settings to make “After Hours” more accurate?
+#### Can I change my settings to make "After Hours" more accurate?
 
 Yes. You can change your time zone and your work hours in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
 
@@ -150,4 +150,5 @@ No, currently MyAnalytics licenses cannot be assigned to shared mailboxes.
 No. Only Exchange Online and Skype for Business Online are used as sources of MyAnalytics data.  
 
 #### I have not received my Skype for business data. It seems to have gone missing. Where is it?
-Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, After hours, which includes Skype for Business data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data comes in.
+
+Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, "after hours," which includes Skype for Business data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data comes in.
