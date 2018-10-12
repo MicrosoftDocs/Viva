@@ -69,7 +69,7 @@ Consider introducing the following company discipline around Cc’d e-mails: Whe
 ## Tips for after hours 
 Be a thoughtful coworker! 
 
-* For “inform”-type emails, condense the emails and status updates into daily or weekly digests. This reduces the overall noise and randomization caused by email overload. 
+* For "inform"-type emails, condense the emails and status updates into daily or weekly digests. This reduces the overall noise and randomization caused by email overload. 
 * Save drafts or delay delivery for email until the recipients’ normal business hours. Limit late night and early morning email to urgent email, to cut through the noise. 
 * Turn off notifications on your phone and desktop when you are trying to focus. 
 

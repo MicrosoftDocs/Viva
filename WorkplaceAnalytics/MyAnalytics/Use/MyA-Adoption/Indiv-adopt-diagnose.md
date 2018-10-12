@@ -96,7 +96,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### After Hours
  
-<img src="../../../images/mya/use/Adopt-indiv-4.PNG" alt="Dashboard After Hours area">
+<img src="../../../images/mya/use/Adopt-indiv-4.PNG" alt="Dashboard After-hours area">
   
  * Is my total after-hours number acceptable?
  * Am I collaborating after hours on certain days or every day?

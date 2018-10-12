@@ -49,7 +49,7 @@ After-hours meeting and email hours are the number of hours that a person spent 
 
 ### Why it's important
 Different roles will require different schedules, but monitoring after-hours activity can help identify employees who are at risk of getting overworked or have an unsustainable workload.
-* Email sent after-hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
+* Email sent after hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
 * Too much after-hours activity also hampers productivity. Employees need time off to recharge and to produce new ideas and fresh insights.
 * If a person consistently has after-hours collaboration can be an indicator of under-capacity in a group.
 * Requiring a consistently high number of after-hours work from employees due to collaboration with other time zones creates a work-life imbalance and may lower employee satisfaction and productivity.
