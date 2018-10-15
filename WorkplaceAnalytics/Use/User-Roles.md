@@ -31,6 +31,10 @@ These are the Workplace Analytics roles and their level of access:
 
  * **Program manager:** Has access to the Home and Explore pages, the Solutions page and its Manage page, where the Program Manager can set up programs. On the Manage page, the Program Manager also has access to its Track page, to track the progress of active or ended programs.
 
+>[!Note]
+>User roles are each distinct in their assigned responsibilities and access permissions. Each assigned user role only gives access to actions, pages, dashboards, and data that correspond to that role. Roles are assigned independently, are non-cumulative, and do not roll up.
+
+
 ## Details by user role
 
 The following tables provide more details about Workplace Analytics user roles:
