@@ -50,11 +50,14 @@ You can update organizational data as frequently as you like, but it will be ref
 
 ### HR data
 
-We recommend that you include every person in your company as part of your data upload, even if you only plan to gather collaboration data for a sub-group within your company. This will enable you to see who everyone is collaborating with, even if they are outside your target population.
+We recommend that you include every person in your company as part of your data upload, even if you only plan to gather collaboration data for a sub-group (target population) within your company.
+
+> [!Important]
+> If you upload data for everyone, you can then analyze who everyone is collaborating with, even if they are outside your target population.
 
 For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics only has HR data about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
-If you can't include every person in your organization, the minimum is to include all people for whom collaboration data is being gathered, which will allow you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
+If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
 ### Line-of-business data
 
