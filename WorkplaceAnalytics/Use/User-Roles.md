@@ -17,7 +17,7 @@ ms.prod: wpa
 Users of Workplace Analytics require the proper level of access to areas of the product to be able to perform their required tasks. This topic describes the roles and responsibilities of users and the levels of access that each role requires.
 
 > [!Note] 
-> The administrator of 0ffice 365 or Azure Active Directory grants the levels of access that are described in this topic.  
+> The administrator of Office 365 or Azure Active Directory grants the levels of access that are described in this topic.  
 
 ## Role descriptions and access levels
 
