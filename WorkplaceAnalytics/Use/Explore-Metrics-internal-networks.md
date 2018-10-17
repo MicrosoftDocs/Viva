@@ -21,14 +21,6 @@ To open the **Internal networks** page:
 2. In the left navigation pane, select **Explore**.
 3. In **Explore**, select the **Internal networks** tab.
 
-
-
-
-
-
-
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-explore.md)]
-
 ![Networks and collaboration](../images/WpA/Use/networks-and-collaboration-explore.png)
 
 ## Network size and network breadth  

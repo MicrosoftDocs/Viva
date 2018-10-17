@@ -13,7 +13,7 @@ ms.prod: wpa
 ---
 # Meetings Overview
 
-The **Meetings Overview** page in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+The **Meetings Overview** page in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Meetings overview](../images/WpA/Use/Meetings-overview-explore-metrics.png)
 
@@ -37,10 +37,9 @@ The low-quality meeting hours overview summarizes the number of low-quality meet
 * Email multitasking in a meeting means attendees are not contributing at their full potential, hearing only part of the communication and/or failing to contribute their know-how to the task at hand.
 * Redundancy is an indication of underlying lack of role clarity, poor delegation, and/or a risk averse culture. Lower level employees attending a high proportion of redundant meetings could potentially feel less empowered. Senior levels may be better off by appropriately delegating meeting attendance. As a sign of career development, redundancy should diminish with tenure.
 
-
->[!Note]
-> Admins can now upload an optional *HourlyRate* column in the organizational data, which can be used to calculate the total cost of low-quality meetings as shown in Meetings overview.
-If an admin chooses to upload the *HourlyRate* column, cost is calculated as the sum of a person’s default hourly rate for the organization multiplied by low-quality hours. If the *HourlyRate* column is not uploaded, cost is calculated at $75 multiplied by the number of low-quality hours.
+### Hourly rate
+Admins can include an optional HourlyRate column in the organizational data, which they can use to calculate the total cost of low-quality meetings as shown in Meetings overview. If the HourlyRate column is included, cost is calculated as the sum of a person’s default hourly rate for the organization multiplied by low-quality meeting hours.
+If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the [Settings](https://docs.microsoft.com/workplace-analytics/use/settings) page, admins can change the Hourly Rate field from its default value to any other hourly rate.
 
 ## Meetings hours by number of attendees
 
