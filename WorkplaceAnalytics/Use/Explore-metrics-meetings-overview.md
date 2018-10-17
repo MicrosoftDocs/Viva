@@ -13,11 +13,15 @@ ms.prod: wpa
 ---
 # Meetings Overview
 
-**Meetings Overview** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+The **Meetings Overview** page in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Meetings overview](../images/WpA/Use/Meetings-overview-explore-metrics.png)
 
-[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
+To open the **Meetings overview** page:
+
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+2. In the left navigation pane, select **Explore**.
+3. In **Explore**, select the **Meetings overview** tab.
 
 ## Low-quality meeting hours
 

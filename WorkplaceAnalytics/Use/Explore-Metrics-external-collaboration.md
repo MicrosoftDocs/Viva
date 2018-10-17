@@ -14,12 +14,14 @@ ms.prod: wpa
 
 # External collaboration
 
-The External collaboration page in **Explore** provides a summary of your employees’ network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
+The **External collaboration** page in **Explore** provides a summary of your employees’ network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
 
 >[!Note]
 >All metrics are reported at a group level and cannot be traced back to any individual.
 
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-explore.md)]
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+2. In the left navigation pane, select **Explore**.
+3. In **Explore**, select the **External networks** tab.
 
 External collaboration features various graphs whose titles suggest different ways to analyze your company's external collaboration activity. Each graph enables you to manipulate data based on menu settings you select and apply to view data in different ways, such as collaboration hours or collaboration cost.
 

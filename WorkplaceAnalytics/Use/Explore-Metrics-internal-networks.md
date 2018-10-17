@@ -13,8 +13,19 @@ ms.prod: wpa
 ---
 # Internal networks
 
-**Internal networks** 
-In **Explore**, shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
+The **Internal networks** page in **Explore**, shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
+
+To open the **Internal networks** page:
+
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+2. In the left navigation pane, select **Explore**.
+3. In **Explore**, select the **Internal networks** tab.
+
+
+
+
+
+
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa-explore.md)]
 
