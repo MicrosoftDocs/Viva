@@ -12,7 +12,7 @@ ms.prod: wpa
 ---
 # Management and Coaching
 
-The **Management and coaching** page in **Explore** summarizes collaboration between leaders, managers, and employees. You can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+The **Management and coaching** page in **Explore**, summarizes collaboration between leaders, managers, and employees. You can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Management and coaching](../images/WpA/Use/management-coaching-overview.png)
 
