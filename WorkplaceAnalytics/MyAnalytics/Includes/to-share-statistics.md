@@ -17,18 +17,18 @@ ms.prod: mya
 1. Open the MyAnalytics dashboard.
 2. Select the **Share** icon in the upper-right corner of the page.
     
-The dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
+   The dashboard displays sections that are available for sharing. By default, all available sections are selected for sharing. 
 
 3. Select (or deselect) a section to share it. Two indicators show which sections are selected for sharing:
 
-  * The box at the top of the section is selected.
-  * The outline of the section is blue, not gray.
+   * The box at the top of the section is selected.
+   * The outline of the section is blue, not gray.
 
-   In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
+    In the following illustration, the Meeting hours section is selected, while Meeting habits is not selected: 
 
-   ![Items selected for sharing](../../Images/mya/use/Selected-for-sharing.png)
+    ![Items selected for sharing](../../Images/mya/use/Selected-for-sharing.png)
 
-   To select (or deselect) all sections at once, select or clear **Select All** at the top of the dashboard. 
+    To select (or deselect) all sections at once, select or clear **Select All** at the top of the dashboard. 
 
    You can choose not to share one or more statistics by deselecting the cards in a section. 
 

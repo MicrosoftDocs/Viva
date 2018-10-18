@@ -6,13 +6,13 @@ title: Sharing data with MyAnalytics
 description: How to share your statistics with others that are using MyAnalytics.
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/14/2018
+ms.date: 10/18/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-## Sharing your statistics 
+## Share your statistics 
 
 Whether to celebrate achieving a goal, show progress to your manager, or ask for help, you can share selected statistics from your dashboard with people in your organization. By sharing statistics, you create more opportunities to receive support in the areas that matter most to you. So, share your statistics and get the conversation started. 
 
