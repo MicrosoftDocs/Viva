@@ -19,6 +19,8 @@ The **External collaboration** page in **Explore**, provides a summary of your e
 >[!Note]
 >All metrics are reported at a group level and cannot be traced back to any individual.
 
+To open the **External networks** page:
+
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
 2. In the left navigation pane, select **Explore**.
 3. In **Explore**, select the **External networks** tab.
