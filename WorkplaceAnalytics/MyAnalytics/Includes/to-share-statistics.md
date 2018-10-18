@@ -35,4 +35,4 @@ The dashboard displays sections that are available for sharing. By default, all 
 4. After you've chosen all the statistics that you want to share, select **Confirm** at the top of your dashboard. This displays a dialog box in which you can choose recipients, type a subject line, and compose a note to your recipients. All three fields (recipients, subject line, and message) are required.
 
 5. When you're ready to send the message and share your statistics, select **Share**. A dialog box confirms that "Your statistics are on the way."
-  
+   
