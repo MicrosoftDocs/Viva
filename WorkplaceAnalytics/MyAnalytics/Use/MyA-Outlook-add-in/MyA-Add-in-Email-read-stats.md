@@ -39,9 +39,10 @@ MyAnalytics does not report about email messages in the following categories:
 #### Bcc: precision
 When you send email that has recipients on the Bcc: line, the precision of the email-read statistics is lowered. 
 
-#### Read percentage
+#### Read activity
 
-The MyAnalytics add-in reports the "read activity" of a qualifying email that you have sent. The following table describes how MyAnalytics calculates its reported display of read activity for a particular email:  
+The MyAnalytics add-in reports the "read activity" of qualifying email that you have sent. The following table describes how MyAnalytics reports the read activity of a particular email:  
+
 <!-- This table, in md, didn't work for some reason
 | Number of people who read your email | Reported read activity | 
 | ----- | ----- | 
