@@ -51,7 +51,7 @@ The MyAnalytics add-in reports the "read activity" of qualifying email that you 
 | all other numbers | the exact read percent |
 So resorting to HTML:  -->
 
-<table align="left">
+<table>
 <thead>
 <tr>
 	<th>Number of people who read your email</th>
