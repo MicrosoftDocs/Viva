@@ -42,10 +42,47 @@ When you send email that has recipients on the Bcc: line, the precision of the e
 #### Read percentage
 
 The MyAnalytics add-in reports the "read activity" of a qualifying email that you have sent. The following table describes how MyAnalytics calculates its reported display of read activity for a particular email:  
+<!-- This table, in md, didn't work for some reason
 | Number of people who read your email | Reported read activity | 
 | ----- | ----- | 
 | 0 or 1 readers | "Low" |
 | <i>n</i> or <i>n</i>-1 readers, where <i>n</i> is the total number of <p></p>recipients of the email that you sent | "High" |
 | all other numbers | the exact read percent |
+So resorting to HTML:  -->
+
+<table align="left">
+<thead>
+<tr>
+	<th>Number of people who read your email</th>
+	<th>Reported read activity</th>
+</tr>
+</thead>
+<tbody>
+<style>
+table, td {
+    text-align: left;
+}
+.percentage {
+    width: 60%;
+}
+.no-border {
+    border-bottom: none;
+}
+}
+</style>
+        <tr class="no-border">
+        	<td class="percentage">0 or 1 readers</p></th>
+        	<td>"Low"</td>
+        </tr>
+        <tr class="no-border">
+        	<td class="percentage"><i>n</i> or <i>n</i>-1 readers, where <i>n</i> is the total number of recipients of the email that you sent</p></th>
+        	<td>"High"</td>
+        </tr>
+        <tr class="no-border">  
+        	<td class="percentage">all other numbers of readers</p></th>
+        	<td >the exact read percent</td>
+        </tr>
+</tbody>
+</table>
 
 [!INCLUDE [See info about a specific email message](../../Includes/to-see-info-about-email-message.md)]
