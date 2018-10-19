@@ -12,11 +12,15 @@ localization_priority: normal
 ms.prod: wpa
 ---
 # Week in the life
-**Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+ The **Week in the life** page in **Explore**, summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Week in the life](../images//WpA/Use/explore-week-life.png)
 
-[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
+To open the **Week in the life** page:
+
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+2. In the left navigation pane, select **Explore**.
+3. In **Explore**, select the **Week in the life** tab.
 
 ## All collaboration hours
 All collaboration hours shows the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s set business hours.
