@@ -119,7 +119,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
   <ol type="a"> 
   <li>Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).</li>
   <li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
-  <li>Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. (For more information, see [Columns in the System fields and Custom fields tables](#columns-in-the-system-fields-and-custom-fields-tables).) Repeat these mapping steps for the rest of the required fields and for the optional fields that you choose to map.</li>
+  <li>Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. (For more information, see <a href="https://docs.microsoft.com/en-us/workplace-analytics/setup/upload-organizational-data#columns-in-the-system-fields-and-custom-fields-tables">Columns in the System fields and Custom fields tables</a>.) Repeat these mapping steps for the rest of the required fields and for the optional fields that you choose to map.</li>
   </ol>
 
 2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it.
@@ -127,7 +127,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
    <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
   <ol type="a">
-  <li>Under Source column (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select **StartDate**.</li>
+  <li>Under Source column (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.</li>
   <li>Set values for the other columns in the table, such as the data type, the validity threshold, and the hash setting for reports.</li>
   <li>Repeat these steps for all custom fields that are important to your organization.</li>
   </ol>
@@ -141,8 +141,8 @@ After you complete the steps in [Field mapping](#field-mapping), the Upload page
 
 <img src="../images/wpa/setup/upload4-uploading.png" alt="Upload in progress">
  
-> [!Important]  
-> You must stay logged in while the file is uploading or the upload will be canceled. The upload requires this page to be open in your web browser during the upload. If you close the browser (or this browser page), the upload will fail.
+ > [!Important] 
+ > You must stay logged in while the file is uploading or the upload will be canceled. The upload requires this page to be open in your web browser during the upload. If you close the browser (or this browser page), the upload will fail.
 
 ## Validation succeeds
 
