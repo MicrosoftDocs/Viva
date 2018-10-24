@@ -13,27 +13,35 @@ ms.prod: mya
 localization_priority: Once
 ---
 
+
 # Frequently asked questions for MyAnalytics
 
-The following questions and answers are grouped by role, for [MyAnalytics users](MyA-faq.md#for-myanalytics-users) and for [IT administrators](MyA-faq.md#for-it-administrators).  
+The sets of questions and answers in this topic apply to different sets of readers.
 
-<!-- [Pending review from Parama]
+  * The [Privacy](#privacy) section is for everyone. 
 
-## Privacy  
+Two later sections are grouped by role:
+   * For [MyAnalytics users](#for-myanalytics-users)  
+   * For [IT administrators](#for-it-administrators)
+
+# Privacy  
  
 ### Where does MyAnalytics get my data? 
 
-We use email and calendar activity data that already exists in your Office 365 mailbox. MyAnalytics does not have a tracking software running on your computer 
+MyAnalytics uses data from your Office 365 mailbox, namely data about your email and your meetings plus data about your Skype calls and chats. Every calculation that MyAnalytics performs is based on data that you, yourself, could obtain by gathering and examining metadata of your emails, meetings, calls, and chats, such as their start and end times and their subject lines. In other words, MyAnalytics automates what would otherwise be a painstaking task; these automatic calculations provide you with transparency into your workplace collaboration habits. 
+
+MyAnalytics does not have any tracking software running on your computer. 
  
 ### What data does MyAnalytics use and not use? 
 
 #### MyAnalytics uses 
 
- * Email 
-   * Metadata, including timestamp, sender, recipients, and read signal 
-   * Statement that user makes in emails 
-   * Actions of other users who receive your email, e.g. whether they have opened your email or not (in aggregate form to protect individual privacy) 
- * Calendar 
+ * Information from email items:  
+   * Metadata. This includes the email's timestamp, sender, recipients, and "read" signal. 
+   * Statements that people have made in email body text. These statements are used to create [To-do cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) for your use. 
+   * Actions of other users who receive your email -- for example, whether or not they have opened your email. (This would be used only in aggregate form, to protect individual privacy.) 
+
+ * Information from calendar items: 
    * Type (meeting or appointment) 
    * Status (busy, free, out-of-office, tentative) 
    * Category 
@@ -41,18 +49,19 @@ We use email and calendar activity data that already exists in your Office 365 m
    * Duration 
    * Attendees 
 
+ * Information from Skype for Business:
+   * MyAnalytics counts audio calls, video calls, and chats that people make in Skype for Business Online as collaboration activities. 
+
 #### MyAnalytics does not use 
 
- * Activity data on your computer, such as applications used and websites visited 
- * Email and calendar data from people outside of your organization 
- 
+ * Data derived from activities on your computer, such as applications that you've used and websites that you've visited. 
+ * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.  
+
 ### Who can see my data? 
 
-Only you can see statistics and insights generated from your data. Your manager or system administrator cannot see them. Your data may be used in aggregate, de-identified form to calculate company-wide average, for example. 
+Only you can see the statistics and insights that are generated from your data. Your manager or system administrator cannot see these statistics and insights. Your data might be used in aggregate, de-identified form to calculate company-wide averages, for example. 
  
-For more details, see Privacy [link to privacy docs]  
-
--->
+For more details, see [Privacy](Privacy-Guide.md).
 
 # For MyAnalytics users
 
@@ -127,7 +136,7 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients. 
 
-## For IT administrators
+# For IT administrators
 
 #### Where is user data stored?
 
