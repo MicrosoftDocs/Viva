@@ -4,9 +4,9 @@
 
 title: Upload organizational data in Workplace Analytics
 description: How to upload data from your organization to Workplace Analytics. 
-author: madehmer
+author: paul9955
 ms.author: v-pascha
-ms.date: 07/23/2018
+ms.date: 10/24/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -118,7 +118,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
 
   <ol type="a"> 
   <li>Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).</li>
-  <li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
+  <li>Under Source column (the first column in the table), select the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
   <li>Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. (For more information, see <a href="https://docs.microsoft.com/en-us/workplace-analytics/setup/upload-organizational-data#columns-in-the-system-fields-and-custom-fields-tables">Columns in the System fields and Custom fields tables</a>.) Repeat these mapping steps for the rest of the required fields and for the optional fields that you choose to map.</li>
   </ol>
 
