@@ -9,12 +9,10 @@ ms.author: rodonahu
 author: madehmer
 
 ---
+<h1>Workplace Analytics Documentation</h1>
+<p>Workplace Analytics is an application that uses data from everyday work in Office 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement.</p>
 
 <ul class="cardsY PanelContent">
-    <li class="fullWidth intro">
-        <h1>Workplace Analytics Documentation</h1>
-            <p>Workplace Analytics is an application that uses data from everyday work in Office 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement.</p>
-    </li>
     <li>
         <a href="https://docs.microsoft.com/en-us/workplace-analytics/">
         <div class="cardSize">
