@@ -7,13 +7,13 @@ localization_priority: normal
 ms.prod: wpa
 ms.author: rodonahu
 author: madehmer
-
 ---
-# MyAnalytics Documentation
-
-MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.
 
 <ul class="cardsY singlePanelContent cols cols2">
+    <li class="fullWidth intro">
+        <h1>MyAnalytics Documentation</h1>
+            <p>MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p>
+    </li>
     <li>
         <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page">
         <div class="cardSize">
