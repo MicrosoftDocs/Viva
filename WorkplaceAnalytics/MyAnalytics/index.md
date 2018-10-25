@@ -63,7 +63,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.</p>
+                        <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.<br></p>
                     </div>
                 </div>
             </div>
