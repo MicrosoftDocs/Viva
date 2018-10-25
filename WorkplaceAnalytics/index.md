@@ -10,14 +10,14 @@ author: madehmer
 
 ---
 
-<ul class="cardsY singlePanelContent">
+<ul class="cardsY PanelContent">
     <li>
         <h1>Workplace Analytics Documentation</h1>
             <p>Workplace Analytics is an application that uses data from everyday work in Office 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement.</p>
     </li>
 </ul>
 
-<ul class="cardsY singlePanelContent cols cols2">
+<ul class="cardsY PanelContent cols cols2">
     <li>
         <a href="https://docs.microsoft.com/en-us/workplace-analytics/">
         <div class="cardSize">
