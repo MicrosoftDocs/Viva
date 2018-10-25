@@ -1,5 +1,5 @@
 ---
-layout: LandingPage
+layout: HubPage
 title: Workplace Analytics
 description: Learn more about, set up, and use Workplace Analytics.
 ms.date: 02/6/2018
@@ -44,7 +44,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Privacy protection</h3>
-                        <p>Learn about privacy and data protection with Workplace Analytics.<br></p>
+                        <p>Learn about privacy and data protection with Workplace Analytics.<br><br></p>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, and edit default settings.<br></p>
+                        <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, and edit default settings.<br><br></p>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Solutions</h3>
-                        <p>Learn how to create, manage, and track targeted change management programs.<br></p>
+                        <p>Learn how to create, manage, and track targeted change management programs.<br><br></p>
                     </div>
                 </div>
             </div>

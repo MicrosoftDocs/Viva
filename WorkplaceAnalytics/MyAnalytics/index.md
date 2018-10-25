@@ -1,5 +1,5 @@
 ---
-layout: LandingPage
+layout: HubPage
 title: MyAnalytics
 description: Learn more about, set up, and use MyAnalytics.
 ms.date: 10/24/2018
@@ -63,7 +63,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.<br></p>
+                        <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.<br><br></p>
                     </div>
                 </div>
             </div>
