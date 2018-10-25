@@ -10,6 +10,7 @@ author: madehmer
 
 ---
 # Workplace Analytics Documentation
+
 Workplace Analytics is an application that uses data from everyday work in Office 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement.
 
 <ul class="cardsY singlePanelContent cols cols2">
@@ -44,7 +45,7 @@ Workplace Analytics is an application that uses data from everyday work in Offic
                     </div>
                     <div class="cardText">
                         <h3>Privacy protection</h3>
-                        <p>Learn about privacy and data protection with Workplace Analytics.<br><br></p>
+                        <p>Learn about privacy and data protection with Workplace Analytics.</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +64,7 @@ Workplace Analytics is an application that uses data from everyday work in Offic
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, and edit default settings.<br><br></p>
+                        <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, and edit default settings.</p>
                     </div>
                 </div>
             </div>
@@ -101,7 +102,7 @@ Workplace Analytics is an application that uses data from everyday work in Offic
                     </div>
                     <div class="cardText">
                         <h3>Solutions</h3>
-                        <p>Learn how to create, manage, and track targeted change management programs.<br><br></p>
+                        <p>Learn how to create, manage, and track targeted change management programs.</p>
                     </div>
                 </div>
             </div>

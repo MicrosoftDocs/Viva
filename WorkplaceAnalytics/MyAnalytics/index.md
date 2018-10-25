@@ -10,6 +10,7 @@ author: madehmer
 
 ---
 # MyAnalytics Documentation
+
 MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.
 
 <ul class="cardsY singlePanelContent cols cols2">
@@ -63,7 +64,7 @@ MyAnalytics provides insight into two of the key factors in personal productivit
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.<br><br></p>
+                        <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.</p>
                     </div>
                 </div>
             </div>
