@@ -9,14 +9,14 @@ ms.author: rodonahu
 author: madehmer
 ---
 
-<ul class="cardsY PanelContent">
+<ul class="cardsY panelContent singlePanelContent">
     <li>
     <h1>MyAnalytics Documentation</h1>
         <p>MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p>
     </li>
 </ul>
 
-<ul class="cardsY PanelContent cols cols2">
+<ul class="cardsY panelContent singlePanelContent cols cols2">
     <li>
         <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page">
         <div class="cardSize">
