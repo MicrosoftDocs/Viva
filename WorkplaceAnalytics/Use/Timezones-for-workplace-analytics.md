@@ -53,6 +53,13 @@ When preparing organizational data for Workplace Analytics, use the time zone na
 |China Standard Time	|	Namibia Standard Time	|	Venezuela Standard Time	|
 |Cuba Standard Time	|	Nepal Standard Time	|	Vladivostok Standard Time	|
 |Dateline Standard Time	|	New Zealand Standard Time	|	W. Australia Standard Time	|
+
+
+
+
+
+
+
 |E. Africa Standard Time	|	Newfoundland Standard Time	|	W. Central Africa Standard Time	|
 |E. Australia Standard Time	|	Norfolk Standard Time	|	W. Europe Standard Time	|
 |E. Europe Standard Time	|	North Asia East Standard Time	|	W. Mongolia Standard Time	|
