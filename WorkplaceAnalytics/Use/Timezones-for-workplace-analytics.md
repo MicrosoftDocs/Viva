@@ -61,5 +61,5 @@ When preparing organizational data for Workplace Analytics, use the time zone na
 |	Easter Island Standard Time	|	North Korea Standard Time	|	West Bank Standard Time	|
 |	Eastern Standard Time	|	Omsk Standard Time	|	West Pacific Standard Time	|
 |	Eastern Standard Time (Mexico)	|	Pacific SA Standard Time	|	Yakutsk Standard Time	|
-|	Egypt Standard Time	|	Pacific Standard Time	|		|
-|	Ekaterinburg Standard Time	|	Pacific Standard Time (Mexico)	|		|
+|	Egypt Standard Time	|	Pacific Standard Time	|	
+|	Ekaterinburg Standard Time	|	Pacific Standard Time (Mexico)||
