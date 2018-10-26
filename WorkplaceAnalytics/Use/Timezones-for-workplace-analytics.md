@@ -63,3 +63,5 @@ When preparing organizational data for Workplace Analytics, use the time zone na
 |	Eastern Standard Time (Mexico)	|	Pacific SA Standard Time	|	Yakutsk Standard Time	|
 |	Egypt Standard Time	|	Pacific Standard Time	|		
 |	Ekaterinburg Standard Time	|	Pacific Standard Time (Mexico)	|		
+
+</br>
