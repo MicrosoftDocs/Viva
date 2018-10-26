@@ -24,9 +24,9 @@ When preparing organizational data for Workplace Analytics, use the time zone na
 |Alaskan Standard Time|	Fiji Standard Time|Pakistan Standard Time|
 |Aleutian Standard Time|FLE Standard Time|Paraguay Standard Time|
 |Altai Standard Time|Georgian Standard Time|Romance Standard Time|
-|Arab Standard Time|GMT Standard Time|Russia Time Zone 10|
-|Arabian Standard Time|Greenland Standard Time|Russia Time Zone 11|
-|Arabic Standard Time|Greenwich Standard Time|Russia Time Zone 3|
+|Arab Standard Time|GMT Standard Time|Russia Time Zone 3|
+|Arabian Standard Time|Greenland Standard Time|Russia Time Zone 10|
+|Arabic Standard Time|Greenwich Standard Time|Russia Time Zone 11|
 |Argentina Standard Time|GTB Standard Time|Russian Standard Time|
 |Astrakhan Standard Time|Haiti Standard Time|SA Eastern Standard Time|
 |Atlantic Standard Time|Hawaiian Standard Time|SA Pacific Standard Time|
