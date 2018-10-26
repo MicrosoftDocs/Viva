@@ -18,8 +18,8 @@ The default time zone in Workplace Analytics is Pacific Standard. The following 
 
 When preparing organizational data for Workplace Analytics, use the time zone names exactly as they appear in the following list with the TimeZone attribute:
 
-|   |   |   |   |   |
-|---|---|---|---|---|					
+| Time zones  |   |   |  
+|---|---|---|					
 |	Alaskan Standard Time	|	Fiji Standard Time	|	Pakistan Standard Time	|
 |	Aleutian Standard Time	|	FLE Standard Time	|	Paraguay Standard Time	|
 |	Altai Standard Time	|	Georgian Standard Time	|	Romance Standard Time	|
@@ -62,6 +62,4 @@ When preparing organizational data for Workplace Analytics, use the time zone na
 |	Eastern Standard Time	|	Omsk Standard Time	|	West Pacific Standard Time	|
 |	Eastern Standard Time (Mexico)	|	Pacific SA Standard Time	|	Yakutsk Standard Time	|
 |	Egypt Standard Time	|	Pacific Standard Time	|		
-|	Ekaterinburg Standard Time	|	Pacific Standard Time (Mexico)	|		
-
-</br>
+|	Ekaterinburg Standard Time	|	Pacific Standard Time (Mexico)	|		|
