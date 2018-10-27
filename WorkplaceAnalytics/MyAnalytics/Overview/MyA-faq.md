@@ -138,7 +138,7 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 ## For IT administrators
 
-<!-- 
+<!-- removed 26 Oct 2018
 
 #### Where is user data stored?
 
