@@ -142,7 +142,7 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 User metrics data is stored in users' mailboxes. 
 
-<!-- REMOVED 26 OCTOBER PER PARAMA
+<!-- REMOVED 26 OCTOBER PER PARAMA and PBergen
 An exception is the signal that an email has been delivered, read, replied to, or forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days.
 -->
 
