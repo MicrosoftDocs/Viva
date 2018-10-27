@@ -138,9 +138,13 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 ## For IT administrators
 
+<!-- 
+
 #### Where is user data stored?
 
 User metrics data is stored in users’ mailboxes. An exception is the signal that an email has been delivered, read, replied to, or forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days.
+
+-->
 
 #### How long does it take for the personal dashboard to become available?
 
