@@ -6,7 +6,7 @@ title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/10/2018
+ms.date: 10/26/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -140,10 +140,10 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 #### Where is user data stored?
 
-User metrics data is stored in users’ mailboxes. 
-<!-- removed 26 Oct 2018 
+User metrics data is stored in users' mailboxes. 
 
-An exception is the signal that an email has been delivered, read, replied to, or forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days. 
+<!-- REMOVED 26 OCTOBER PER PARAMA
+An exception is the signal that an email has been delivered, read, replied to, or forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days.
 -->
 
 #### How long does it take for the personal dashboard to become available?
