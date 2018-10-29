@@ -73,7 +73,7 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 
 **Question 4:** Can we change the duration of the programs?
 
-**Answer 4:** No. All programs last twelve weeks. Exception: Occasionally, a program manager must end a program early because of unforseen circumstances. 
+**Answer 4:** No. All programs last twelve weeks. Exception: Occasionally, a program manager must end a program early because of unforeseen circumstances. 
 
 **Question 5:** What is the minimum group size?
 
