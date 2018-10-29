@@ -63,7 +63,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="Images/icon-setup.png" alt="" />
+                            <img src="Images/icon-settings.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
