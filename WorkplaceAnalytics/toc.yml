@@ -79,7 +79,9 @@
           - name: Person-to-group queries
             href: ~/Tutorials/Person-to-group-queries.md            
           - name: Query auto-refresh option
-            href: ~/Tutorials/Query-auto-refresh.md  
+            href: ~/Tutorials/Query-auto-refresh.md 
+          - name: Understand and interpret query output
+            href: ~/Use/Csv-query-output-file.md
           - name: Teamwork solution
             href: ~/Tutorials/Solutions-intro.md  
             items: 
@@ -179,3 +181,4 @@
           - name: Habit playbooks
             href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
             homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/habit-playbooks
+ 

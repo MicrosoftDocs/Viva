@@ -17,7 +17,7 @@ ms.prod: wpa
 Users of Workplace Analytics require the proper level of access to areas of the product to be able to perform their required tasks. This topic describes the roles and responsibilities of users and the levels of access that each role requires.
 
 > [!Note] 
-> The administrator of 0ffice 365 or Azure Active Directory grants the levels of access that are described in this topic.  
+> The administrator of Office 365 or Azure Active Directory grants the levels of access that are described in this topic.  
 
 ## Role descriptions and access levels
 
@@ -30,6 +30,10 @@ These are the Workplace Analytics roles and their level of access:
  * **Administrator:** Has access to the Administrator and Data sources features. The responsibilities of the Workplace Analytics administrator are to configure privacy settings and system defaults, and to prepare and upload organizational data to Workplace Analytics and to verify it.
 
  * **Program manager:** Has access to the Home and Explore pages, the Solutions page and its Manage page, where the Program Manager can set up programs. On the Manage page, the Program Manager also has access to its Track page, to track the progress of active or ended programs.
+
+>[!Note]
+>User roles are each distinct in their assigned responsibilities and access permissions. Each user role only gives access to actions, pages, dashboards, and data that correspond to that role. Roles are assigned independently, are non-cumulative, and do not roll up.
+
 
 ## Details by user role
 

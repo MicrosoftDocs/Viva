@@ -12,11 +12,15 @@ localization_priority: normal
 ms.prod: wpa
 ---
 # Week in the life
-**Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+ The **Week in the life** page in **Explore**, summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Week in the life](../images//WpA/Use/explore-week-life.png)
 
-[!INCLUDE [To open the Workplace Analytics Explore page](../includes/to-open-wpa-explore.md)]
+To open the **Week in the life** page:
+
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+2. In the left navigation pane, select **Explore**.
+3. In **Explore**, select the **Week in the life** tab.
 
 ## All collaboration hours
 All collaboration hours shows the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s set business hours.
@@ -49,7 +53,7 @@ After-hours meeting and email hours are the number of hours that a person spent 
 
 ### Why it's important
 Different roles will require different schedules, but monitoring after-hours activity can help identify employees who are at risk of getting overworked or have an unsustainable workload.
-* Email sent after-hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
+* Email sent after hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
 * Too much after-hours activity also hampers productivity. Employees need time off to recharge and to produce new ideas and fresh insights.
 * If a person consistently has after-hours collaboration can be an indicator of under-capacity in a group.
 * Requiring a consistently high number of after-hours work from employees due to collaboration with other time zones creates a work-life imbalance and may lower employee satisfaction and productivity.

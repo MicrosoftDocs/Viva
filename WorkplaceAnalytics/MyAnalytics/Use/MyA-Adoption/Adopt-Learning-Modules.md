@@ -18,13 +18,13 @@ MyAnalytics has a few learning modules to help you set up and use its data. Thes
 
 Learning modules include:
 
-* Healthy behavior suggestions 
+* Healthy behavior suggestions
 * [Habit playbooks](Adopt-Habit-playbooks.md)
 * Tips on how to interpret MyAnalytics data and use its features
 * Links to articles to learn more about specific topics
 * Fun behavioral-science lessons
 
-The following MyAnalytics modules can help you learn more about how to track and analyze your focus hours, meetings, email, and after hours data. You can also find lessons on how to maintain important relationships in your network in these modules.
+The following MyAnalytics modules can help you learn more about how to track and analyze your focus hours, meetings, email, and after-hours data. You can also find lessons on how to maintain important relationships in your network in these modules.
 
 [MyAnalytics Focus hours](MyAnalytics-focus-hours-september-2018.pdf)
 

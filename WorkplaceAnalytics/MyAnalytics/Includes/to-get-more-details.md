@@ -18,6 +18,6 @@ You can obtain more details about your to-do items.
  
 1. In the MyAnalytics pane, select the summary card. This displays an individual card for each task. Each card shows the name of the email recipient, the subject line of the message that triggered the card, and the sentence in the message that promises something.  
 
-   <img src="../../Images/mya/use/To-do-1-ed-3.png" alt="To-do card">
+    ![To-do card](../../Images/mya/use/To-do-1-ed-3.png)
   
 2. To open the message, select the message subject line. In this example, the subject line starts “RE: Updated invitation.” The email opens to the message that includes these words.

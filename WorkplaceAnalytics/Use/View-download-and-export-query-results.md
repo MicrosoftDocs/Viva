@@ -4,56 +4,85 @@
 
 title: View download and export Workplace Analytics query results
 description: This is topic describes how to view, download, and export Workplace Analytics query results to PowerBI and other data analysis tools. 
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 9/4/2018
+ms.date: 10/11/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # View, download, and export query results
 
-In **Queries**, the **Results** tab lists all the queries that have been run for your organization.
+   > [!Note]
+   > To complete this procedure, you must have the Analyst role in Workplace Analytics.
+
+In Workplace Analytics, on the **Queries** page, the **Results** tab lists all the queries that have been run for your organization.
 
 ![Query results tab](../images/wpa/Use/Query-results-tab.png)
 
-In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, and get a link that enables you to access and use the data from within Power BI.
+In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, and get a link that you can use to access these results as data within Power BI.
 
-You can switch between **My results** and **All results**.
-![Switch between My results and All results](../images/wpa/Use/My-results-All-results.png)
+   > [!Note]
+   > On the **Queries** page, you can switch between **My results** and **All results**:
+   
+   ![Switch between My results and All results](../images/wpa/Use/my-results-all-results.png)
 
 ## View query results
 
 #### To view query results
 
-* Next to the query you want, select the ellipsis (**...**) > **View query**.
+* Next to the query you want, select the ellipsis (**...**) &gt; **View query**.
   
-## Use Workplace Analytics data in Power BI and other data analysis tools
+## Use Workplace Analytics data in Power BI or other data-analysis tools
 
-You can use data from your queries in other data analysis tools to do further analysis and create reports. Workplace Analytics gives you two options, download data as a .csv file, or get a link to an OData feed that you can use in Power BI.  
+You can use data from your queries in a data-analysis tool to do further analysis and create reports. Workplace Analytics gives you two options, download data as a .csv file, or get a link to an OData feed that you can use in Power BI.  
 
 ### Download and then import a .csv file
 
 #### To download query results as a .csv file
 
-1. Next to the query you want, select **Download**.
+1. On the Queries &gt; Results page, next to the query you want, select **Download**.
+
 2. Import the .csv file into the tool that you want.  
 
-### Get a link for OData feed that you can use in Power BI
+### Get a link for an OData feed that you can use in Power BI
 
-When you create reports in Power BI, you can share those reports with co-workers, but they will not have access to the raw data.
+   > [!Note]
+   > You can share Power BI dashboards. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
 
 #### To get a link to the data
 
-1. Next to the query you want, select **Copy link**. ![alt text for image](../images/wpa/Use/copy-link.png) 
-2. In Power BI, type or paste the URL into the **OData feed** box.  
-3. When prompted in Power BI, sign in to your Workplace Analytics organizational account. You must have the Analyst role in Workplace Analytics.
-![Sign in to Workplace Analytics organizational account](../images/wpa/Use/OData-feed-sign-in.png)
+1. Next to the query you want, select **Copy link**:
 
-> [!Important]
-> * The data in the OData feed is static, so if you want new or different data, you will need to run a new query and get a new corresponding URL.
-> * The OData link is not available for query results created prior to 3/22/2018.
+   ![copy link image](../images/wpa/Use/copy-link.png)
 
-### Related topic
+2. In Power BI, type or paste the URL into the **OData feed** dialog box.  
+
+3. Select **Organizational account** and then select **Sign in**:
+
+   ![Sign in to Workplace Analytics organizational account](../images/wpa/Use/OData-feed-sign-in.png)
+
+4. Office 365 dialog box prompts you to choose an account. Select the account that you use when you log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box, with the notification "You are currently signed in."
+
+5. In the OData feed dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import. 
+
+   After Power BI finishes importing your Workplace Analytics data, you can use the controls of Power BI to create visualizations of the data.
+   
+   > [!Important]
+   > * The OData link is not available for query results that were created before 3/22/2018.
+
+   > [!Note]
+   > The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
+   >   * If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md). 
+   >   * If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you will need to run a new query and get a new corresponding URL. 
+
+### Related topics
 
 [Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-odata) 
+
+[Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
+
+[Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
+
+[Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards)

@@ -6,7 +6,7 @@ title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics. 
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/14/2018
+ms.date: 10/10/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -50,11 +50,14 @@ You can update organizational data as frequently as you like, but it will be ref
 
 ### HR data
 
-We recommend that you include every person in your company as part of your data upload, even if you only plan to gather collaboration data for a sub-group within your company. This will enable you to see who everyone is collaborating with, even if they are outside your target population.
+We recommend that you include every person in your company as part of your data upload, even if you only plan to gather collaboration data for a sub-group (target population) within your company.
+
+> [!Important]
+> If you upload data for everyone, you can then analyze who everyone is collaborating with, even if they are outside your target population.
 
 For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics only has HR data about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
-If you can't include every person in your organization, the minimum is to include all people for whom collaboration data is being gathered, which will allow you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
+If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
 ### Line-of-business data
 
@@ -159,6 +162,7 @@ The data must be supplied in a UTF-8 encoded .csv file and contain a set of requ
 * HireDate
 * HourlyRate
 * Layer
+* SupervisorIndicator
 * TimeZone
 
 **Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.  
@@ -180,30 +184,31 @@ FunctionType | The job function the employee performs. This is specific to your 
 HireDate| Date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), we recommend using the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
 HourlyRate | The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). Note: The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters such as a dollar sign. The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees. This is not yet used in calculations but can be used to filter and group employees. Note that the Explore the metrics feature uses a fixed default HourlyRate of $75. | This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 Layer | The place within the organizational hierarchy where the employee belongs. The layer is represented as an integer and expressed as distance from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in Explore the metrics features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
-TimeZone |Time zone in which the employee performs work. This must be one of the time zones in Time zones in Workplace Analytics. If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.|
+SupervisorIndicator  | Use this attribute to view the habits of people managers in your organization in Power BI visualizations. It powers the Overview table as well as the Generated Workload charts that are generated when you use the Manager Impact [Power BI template](../tutorials/power-bi-templates.md). <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required only if you want to use the Manager impact dashboard in Power BI. |
+TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones in Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.|
 Any user-defined columns | Additional columns can represent any data that you want to use in queries to group and filter employee records. | No coverage requirements. |
 
 ### Supplying data over a time period
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. 
+By default, Workplace Analytics includes meeting and email data for measured employees for one year.
 
-Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as mentioned above.
+Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [this table](###-attribute-description-and-data-coverage-requirements).
 
-If you do a point in time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the 12 months in the past year. This can be supplied in a single file or in a sequence of files.
+If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
-This means that for each measured employee you would have 12 separate rows for each employee, with an effective date for each month that data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in June 2017 the effective date for all rows should be set to 6/1/2016.
+This means that for each measured employee, you would have 13 separate rows for each employee, with an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2018 the effective date for all rows should be set to 10/1/2017.
 
 ### Example .csv export file
 
 This is an example snippet of a valid CSV export file:
 
 PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area
-Emp1@contoso.com,6/1/2016,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,7/1/2016,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,8/1/2016,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
-Emp2@contoso.com,6/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,7/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,8/1/2016,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
+Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
+Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
+Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
 > [!Important]
 > Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas. Also, the .csv file must use UTF-8 encoding. For more information about saving a file in UTF-8 format, see [Solution](../Tutorials/Download-UTF8-query-report.md#solution).

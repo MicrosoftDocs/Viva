@@ -6,7 +6,7 @@ title: Network in MyAnalytics
 description: How you spent your time with the people you interact with in meetings or in email shows in the Network section of MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/15/2018
+ms.date: 10/21/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -26,7 +26,10 @@ Total time you spend with the contact over the past week, based on meetings and 
 
 #### Meeting time
 
-Time you spent in meetings with the contact over the past week
+Time you spent in meetings with the contact over the past week. 
+
+> [!Note]
+> Meetings that have more than 12 participants are excluded.
 
 #### Read percent
 
