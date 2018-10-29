@@ -25,7 +25,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/Images/icon-checklist.svg" alt="" />
+                            <img src="Images/icon-checklist.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,7 +44,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/Images/icon-privacy.svg" alt="" />
+                            <img src="/Images/icon-privacy.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +63,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="Images/icon-setup.svg" alt="" />
+                            <img src="Images/icon-setup.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -82,7 +82,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="Images/icon-personaldata.svg" alt="" />
+                            <img src="Images/icon-queries.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -101,7 +101,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="Images/icon-solutions.svg" alt="" />
+                            <img src="Images/icon-solutions.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -120,7 +120,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="Images/icon-personaldata.svg" alt="" />
+                            <img src="Images/icon-personaldata.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">

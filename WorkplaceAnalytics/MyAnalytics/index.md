@@ -24,7 +24,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/WorkplaceAnalytics/Images/icon-personaldata.svg" alt="" />
+                            <img src="/WorkplaceAnalytics/Images/icon-personaldata.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -43,7 +43,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/WorkplaceAnalytics/Images/icon-privacy.svg" alt="" />
+                            <img src="/WorkplaceAnalytics/Images/icon-privacy.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -62,7 +62,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/WorkplaceAnalytics/Images/icon-setup.svg" alt="" />
+                            <img src="/WorkplaceAnalytics/Images/icon-setup.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +81,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/WorkplaceAnalytics/Images/icon-checklist.svg" alt="" />
+                            <img src="/WorkplaceAnalytics/Images/icon-checklist.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -100,7 +100,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/WorkplaceAnalytics/Images/icon-outlook.svg" alt="" />
+                            <img src="/WorkplaceAnalytics/Images/icon-outlook.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -119,7 +119,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/WorkplaceAnalytics/Images/icon-faqs.svg" alt="" />
+                            <img src="/WorkplaceAnalytics/Images/icon-faqs.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
