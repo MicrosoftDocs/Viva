@@ -44,7 +44,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/Images/icon-privacy.png" alt="" />
+                            <img src="Images/icon-privacy.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
