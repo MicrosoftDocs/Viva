@@ -76,7 +76,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/use/analyze-intro?branch=MD-toc-reorg">
+        <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/overview/get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
