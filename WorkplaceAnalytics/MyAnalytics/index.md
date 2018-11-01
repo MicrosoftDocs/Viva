@@ -16,7 +16,7 @@ author: madehmer
     </li>
 </ul>
 
-<ul class="cardsY panelContent singlePanelContent cols cols2">
+<ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
         <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page">
         <div class="cardSize">
