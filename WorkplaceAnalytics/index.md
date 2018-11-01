@@ -2,10 +2,10 @@
 layout: HubPage
 title: Workplace Analytics
 description: Learn more about, set up, and use Workplace Analytics.
-ms.date: 02/6/2018
+ms.date: 11/1/2018
 localization_priority: normal 
 ms.prod: wpa
-ms.author: rodonahu
+ms.author: madehmer
 author: madehmer
 ---
 
@@ -37,7 +37,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/setup/set-up-workplace-analytics">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/privacy/privacy-and-data-access">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

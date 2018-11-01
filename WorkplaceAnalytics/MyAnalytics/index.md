@@ -2,10 +2,10 @@
 layout: HubPage
 title: MyAnalytics
 description: Learn more about, set up, and use MyAnalytics.
-ms.date: 10/24/2018
+ms.date: 11/1/2018
 localization_priority: normal 
 ms.prod: wpa
-ms.author: rodonahu
+ms.author: madehmer
 author: madehmer
 ---
 
@@ -29,7 +29,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Introducing MyAnalytics</h3>
-                        <p>Learn how MyAnalytics protects personal data with privacy settings.</p>
+                        <p>Learn what MyAnalytics is and how to use it to build better work habits and better manage your time.</p>
                     </div>
                 </div>
             </div>
