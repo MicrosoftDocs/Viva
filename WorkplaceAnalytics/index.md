@@ -1,4 +1,3 @@
-
 ---
 layout: HubPage
 title: Workplace Analytics
@@ -8,7 +7,6 @@ localization_priority: normal
 ms.prod: wpa
 ms.author: rodonahu
 author: madehmer
-
 ---
 
 <ul class="cardsY panelContent singlePanelContent">
