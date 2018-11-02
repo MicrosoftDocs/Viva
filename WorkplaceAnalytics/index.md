@@ -49,6 +49,7 @@ author: madehmer
                     <div class="cardText">
                         <h3>Privacy protection</h3>
                         <p>Learn about privacy and data protection with Workplace Analytics.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -68,6 +69,7 @@ author: madehmer
                     <div class="cardText">
                         <h3>Setup</h3>
                         <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, and edit default settings.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -106,6 +108,7 @@ author: madehmer
                     <div class="cardText">
                         <h3>Solutions</h3>
                         <p>Learn how to create, manage, and track targeted change management programs.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>

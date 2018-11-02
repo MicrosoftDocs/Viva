@@ -49,6 +49,7 @@ author: madehmer
                     <div class="cardText">
                         <h3>Privacy protection</h3>
                         <p>Learn how MyAnalytics protects your personal data and keeps it private.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -68,6 +69,7 @@ author: madehmer
                     <div class="cardText">
                         <h3>Setup</h3>
                         <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
