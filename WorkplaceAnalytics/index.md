@@ -29,7 +29,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Introducing Workplace Analytics</h3>
-                        <p>Learn what Workplace Analytics is and how to use it to provide actionable insights and improve team collaboration.</p>
+                        <p>Learn what Workplace Analytics is and how to use it to provide actionable insights and improve team collaboration.        </p>
                     </div>
                 </div>
             </div>
@@ -48,8 +48,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Privacy protection</h3>
-                        <p>Learn about privacy and data protection with Workplace Analytics.</p>
-                        <p></p>
+                        <p>Learn about privacy and data protection with Workplace Analytics.                                                             </p>
                     </div>
                 </div>
             </div>
@@ -68,8 +67,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, and edit default settings.</p>
-                        <p></p>
+                        <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, and edit default settings.                           </p>
                     </div>
                 </div>
             </div>
@@ -107,8 +105,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Solutions</h3>
-                        <p>Learn how to create, manage, and track targeted change management programs.</p>
-                        <p></p>
+                        <p>Learn how to create, manage, and track targeted change management programs.                                                     </p>
                     </div>
                 </div>
             </div>
@@ -127,7 +124,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>MyAnalytics</h3>
-                        <p>Learn how to set up and use MyAnalytics and how the privacy settings in MyAnalytics protects your personal data.</p>
+                        <p>Learn how to set up and use MyAnalytics and how the privacy settings in MyAnalytics protects your personal data.              </p>
                     </div>
                 </div>
             </div>

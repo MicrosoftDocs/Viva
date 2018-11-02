@@ -29,7 +29,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Introducing MyAnalytics</h3>
-                        <p>Learn what MyAnalytics is and how to use it to build better work habits and better manage your time.</p>
+                        <p>Learn what MyAnalytics is and how to use it to build better work habits and better manage your time.                  </p>
                     </div>
                 </div>
             </div>
@@ -48,8 +48,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Privacy protection</h3>
-                        <p>Learn how MyAnalytics protects your personal data and keeps it private.</p>
-                        <p></p>
+                        <p>Learn how MyAnalytics protects your personal data and keeps it private.                                                      </p>
                     </div>
                 </div>
             </div>
@@ -68,7 +67,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.</p>
+                        <p>Learn how to set up MyAnalytics and the MyAnalytics Outlook add-in.                                                            </p>
                         <p></p>
                     </div>
                 </div>
@@ -107,7 +106,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Using MyAnalytics</h3>
-                        <p>Get a quick overview of MyAnalytics and how to use it to evaluate and improve your personal work habits.</p>
+                        <p>Get a quick overview of MyAnalytics and how to use it to evaluate and improve your personal work habits.                            </p>
                     </div>
                 </div>
             </div>
@@ -126,7 +125,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>MyAnalytics FAQs</h3>
-                        <p>Review the most frequently asked questions and answers for MyAnalytics users and IT administrators.</p>
+                        <p>Review the most frequently asked questions and answers for MyAnalytics users and IT administrators.                     </p>
                     </div>
                 </div>
             </div>
