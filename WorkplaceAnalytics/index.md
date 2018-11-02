@@ -1,8 +1,8 @@
 ---
 layout: HubPage
-title: MyAnalytics
-description: Learn more about, set up, and use MyAnalytics.
-ms.date: 11/1/2018
+title: Workplace Analytics
+description: Learn more about, set up, and use Workplace Analytics.
+ms.date: 11/2/2018
 localization_priority: normal 
 ms.prod: wpa
 ms.author: madehmer
@@ -11,12 +11,107 @@ author: madehmer
 
 <ul class="cardsY panelContent singlePanelContent">
     <li>
-    <h1>MyAnalytics Documentation</h1>
-        <p>MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p>
+        <h1>Workplace Analytics Documentation</h1>
+            <p>Workplace Analytics is an application that uses data from everyday work in Office 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement.</p>
     </li>
 </ul>
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
+    <li>
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="Images/icon-checklist.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Introducing Workplace Analytics</h3>
+                        <p>Learn what Workplace Analytics is and how to use it to provide actionable insights and improve team collaboration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/privacy/privacy-and-data-access">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="Images/icon-privacy.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Privacy protection</h3>
+                        <p>Learn how to protect and keep personal data private and how Workplace Analytics complies with applicable laws and regulations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/setup/set-up-workplace-analytics">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="Images/icon-settings.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Setup</h3>
+                        <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change default settings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/overview/get-started">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="Images/icon-queries.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Data analysis</h3>
+                        <p>Learn how to analyze data with Workplace Analytics Explore pages and how to create custom queries for more detailed analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/tutorials/solutions-intro">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="Images/icon-solutions.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Solutions</h3>
+                        <p>Learn how to create, manage, and track targeted change management programs to help reduce meeting load and increase focus time. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
     <li>
         <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page">
         <div class="cardSize">
@@ -24,108 +119,12 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../Images/icon-personaldata.png" alt="" />
+                            <img src="Images/icon-personaldata.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introducing MyAnalytics</h3>
-                        <p>Learn what MyAnalytics is and how your team can use it to boost meeting quality, increase focus time, and improve work-life balance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../Images/icon-privacy.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Privacy protection</h3>
-                        <p>Learn how MyAnalytics protects employee privacy, keeps personal data private, and supports compliance with local regulations.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../Images/icon-settings.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Setup</h3>
-                        <p>Learn about the prerequisites and the Outlook add-in for MyAnalytics and how to configure user settings and assign licenses.</p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../Images/icon-checklist.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Adopting MyAnalytics</h3>
-                        <p>Learn more about how to use MyAnalytics to recognize and address problems by building healthy work habits for both you and your team.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-elements">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../Images/icon-outlook.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Using MyAnalytics</h3>
-                        <p>Get a quick overview of MyAnalytics elements and how to use the dashboard, email digests, and nudges to improve work habits.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/mya-faq">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../Images/icon-faqs.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>MyAnalytics FAQs</h3>
-                        <p>Review the most frequently asked questions and their answers for both MyAnalytics users and IT administrators.</p>
+                        <h3>MyAnalytics</h3>
+                        <p>Learn how to set up and use MyAnalytics and how the privacy settings in MyAnalytics protects your personal data.</p>
                     </div>
                 </div>
             </div>
