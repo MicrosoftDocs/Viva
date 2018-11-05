@@ -18,7 +18,7 @@ author: madehmer
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/index-orig">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -113,7 +113,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
