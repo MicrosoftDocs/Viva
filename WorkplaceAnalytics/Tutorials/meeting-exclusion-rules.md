@@ -61,7 +61,7 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 
    You can choose to use the system-suggested exclusion on each step or customize the exclusion by retaining or excluding additional meetings. If you don't want to use a system-suggested exclusion, you can always choose not to apply the exclusion. After you have customized exclusions for each of the five steps, you can make edits to your exclusion rule before publishing it for future use. 
 
-   ![Five exclusion steps](../images/wpa/tutorials/01-five-exclusion-steps.png)
+   ![Five exclusion steps](../images/wpa/tutorials/01-five-exclusion-steps.png) 
 
 4. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual exclusions. 
 
