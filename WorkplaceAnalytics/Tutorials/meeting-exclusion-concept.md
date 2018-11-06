@@ -16,6 +16,85 @@ ms.prod: wpa
 
 This section describes concepts whose understanding could help you complete tasks related to creating and using meeting exclusion rules. Those tasks are described in the step-by-step walkthrough for creating a rule, [Exclude meetings from analysis](meeting-exclusion-rules.md).
 
+<!-- ??? Where did these sections come from? ??? -->
+## Interactive tools for creating meeting exclusions 
+
+At each step in the exclusion-creation flow, you see a page such as the following: 
+
+![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
+ 
+On these pages, the following sections help you create meeting exclusions in an informed way:
+
+### Progress bar
+
+The progress bar at the top of the page track the step in the flow that you are currently on: 
+
+![Progress bar](../images/wpa/tutorials/12-progress-bar.png)
+
+### Summary of meetings that remain
+
+This area at the top of the page tracks how many meetings and meeting hours remain in your analysis as you exclude meetings. This view updates every time you advance to the next step in the flow. 
+
+Before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Office 365.
+
+![Meeting hours summary (before)](../images/wpa/tutorials/09-summary-meetings-hours.png)
+
+In a step, after you choose to use an exclusion and select **Next**, you see the number of meeting hours and meetings drop as the exclusion is applied to your data: 
+
+![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
+
+### Summary of the current exclusion step
+
+
+
+The middle section of the page shows you a summary of the current exclusion step.
+
+![Middle of page](../images/wpa/tutorials/11-mid-page.png)
+ 
+ * On the left, you see what kinds of meetings this step addresses. The exclusion description helps you understand the purpose of the current step.
+ * In the center, you see details about the meetings that this exclusion would remove from analysis. This section helps you keep track of the customizations you have made to the current exclusion. <!-- 
+ ![Customizations](../images/wpa/tutorials/04-exclude-meetings-where.png)
+ -->
+ * The section on the right displays the effects of the current exclusion step if you were to apply it, namely: what percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data?
+  
+   >[!Tip] 
+   >Pay particular attention to the number shown for _Excluded meeting hours_. This metric is usually more important than the percentage of meetings because time spent in meetings is a more important indicator when analyzing meeting behavior than the sheer number of meetings, which can vary greatly in length. 
+
+### Customization working area
+
+On the bottom part of the page, you customize exclusions for appointments, large meetings, long meetings, and meetings by topic. This section is not available for the cancelled meetings step.
+
+### Customization UI for appointments, large meetings, and long meetings
+
+[What is this section?]
+
+### Customization UI for meetings by topic
+
+>[!Note] 
+> At each stage in this flow, Workplace Analytics displays a summary that presents two sets of numbers. These numbers help you understand the effects of the exclusions that are already in place and of the exclusion that you can introduce in the current step. These displays help you confirm whether to remove these meetings and decide which meetings, if any, that you want to keep in your analysis. 
+
+ * **Summary of meetings that remain.** An area at the top of the page displays a summary of the meetings that remain for analysis after Workplace Analytics applies the rule's current filters. For example, before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Office 365.
+ 
+ * **Potential impact of exclusion.** An area below the middle of the page displays the effects of the current exclusion step if you were to apply it, namely: what percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data? 
+
+   ![Potential impact of this exclusion](../images/wpa/tutorials/17-potential-impact.png)
+
+  * **Word cloud and phrase table.** In three of the four steps, you can use a word cloud and a phrase table to select phrases to remove from the exclusion that you are defining. For more information, see the descriptions under **Step 2: Exclude small meetings**.
+
+>[!Tip] 
+>Pay particular attention to the number shown for _Excluded meeting hours_. This metric is usually more important than the percentage of meetings because time spent in meetings is a more important indicator when analyzing meeting behavior than the sheer number of meetings, which can vary greatly in length. 
+
+>[!Note] 
+>You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you click **Next**:
+
+  ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion.png)
+
+<!--
+#### Excluding meetings by keywords and topics
+-->
+
+# Customizing rules with the word cloud and phrase table 
+
 ## Word cloud
 Below the heading **Identify exceptions** is a word cloud that displays keywords from meeting subject lines. It includes only keywords for meetings that meet the filter criteria that are being applied on the current step. In a word cloud, the larger the size of text of a keyword, the more meeting hours the keyword represents.
 
@@ -53,85 +132,6 @@ If you notice other words in the cloud that you might want to retain in your ana
  
 >[!Tip] 
 > You can also remove all of your exceptions to this exclusion at once. To do this, select **Reset**. 
-
-<!-- ??? Where did these sections come from? ??? -->
-## Interactive tools for creating meeting exclusions 
-
-For each step in the flow, you see a page such as the following: 
-
-![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
- 
-On these pages, three sections help you create meeting exclusions:
-
-### Summary of meetings that remain
-
-This area at the top of the page allows you to keep track of how many meetings and meeting hours remain in your analysis as you exclude meetings throughout the flow. This view updates every time you advance to the next step in the flow. 
-
-Before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Office 365.
-
-![Meeting hours summary (before)](../images/wpa/tutorials/09-summary-meetings-hours.png)
-
-If you choose to use an exclusion on a step and click **Next**, you will see the number of meeting hours and meetings update as exclusion are applied to your data: 
-
-![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
-
-### Summary of the current exclusion step
-
-The middle section of the page shows you a summary of the current exclusion step:
-
-![Middle of page](../images/wpa/tutorials/11-mid-page.png)
-
-Track the step you are on in the meeting exclusion rule creation flow by looking at the progress bar:
-
-![Progress bar](../images/wpa/tutorials/12-progress-bar.png)
-
-Understand the purpose of the current step you are on by looking at the exclusion description: 
-
-[image expected here?]
- 
-Keep track of customizations you have made to the current exclusion in the middle of the page: 
-
-![Customizations](../images/wpa/tutorials/04-exclude-meetings-where.png)
- 
-### Understand the potential impact of the current exclusion
-
-This section displays the effects of the current exclusion step if you were to apply it, namely: what percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data? 
-
->[!Tip] 
->Pay particular attention to the number shown for _Excluded meeting hours_. This metric is usually more important than the percentage of meetings because time spent in meetings is a more important indicator when analyzing meeting behavior than the sheer number of meetings, which can vary greatly in length. 
-
-### Customization Working Area
-
-The bottom section of the page allows you to customize exclusions for appointments, large meetings, long meetings, and meetings by topic. This section is not available for the cancelled meetings step.
-
-### Customization UI for appointments, large meetings, and long meetings
-
-[What is this section?]
-
-### Customization UI for meetings by topic
-
->[!Note] 
-> At each stage in this flow, Workplace Analytics displays a summary that presents two sets of numbers. These numbers help you understand the effects of the exclusions that are already in place and of the exclusion that you can introduce in the current step. These displays help you confirm whether to remove these meetings and decide which meetings, if any, that you want to keep in your analysis. 
-
- * **Summary of meetings that remain.** An area at the top of the page displays a summary of the meetings that remain for analysis after Workplace Analytics applies the rule's current filters. For example, before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Office 365.
- 
- * **Potential impact of exclusion.** An area below the middle of the page displays the effects of the current exclusion step if you were to apply it, namely: what percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data? 
-
-   ![Potential impact of this exclusion](../images/wpa/tutorials/17-potential-impact.png)
-
-  * **Word cloud and phrase table.** In three of the four steps, you can use a word cloud and a phrase table to select phrases to remove from the exclusion that you are defining. For more information, see the descriptions under **Step 2: Exclude small meetings**.
-
->[!Tip] 
->Pay particular attention to the number shown for _Excluded meeting hours_. This metric is usually more important than the percentage of meetings because time spent in meetings is a more important indicator when analyzing meeting behavior than the sheer number of meetings, which can vary greatly in length. 
-
->[!Note] 
->You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you click **Next**:
-
-  ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion.png)
-
-#### Customizing rules with the word cloud and phrase table 
-
-#### Excluding meetings by keywords and topics
 
 ## Application of meeting-exclusion rules 
 

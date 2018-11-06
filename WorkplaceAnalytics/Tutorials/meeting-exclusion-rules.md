@@ -18,11 +18,25 @@ Workplace Analytics uses email and calendar activities that are stored in a pers
 
 Meeting exclusion rules are used in Workplace Analytics to help ensure that query results accurately represent relevant meeting norms within the organization. Workplace Analytics provides a default meeting exclusion rule that excludes a set of meetings that would commonly fall outside of relevant collaboration for analysis. Alternatively, analysts can use the meeting exclusion feature to create custom meeting exclusion rules. 
 
-Multiple meeting exclusion rules can exist simultaneously. For information about how they are applied in Workplace Analytics, see [Application of meeting exclusion rules](#application-of-meeting-exclusion-rules). 
+This article describes three ways to work with meeting exclusion rules:
+ * [View meeting exclusion rules](#view-meeting-exclusion-rules): Become acquainted with the default rule and with the rules that you or others have published.
+ * [Create a meeting exclusion rule](#create-a-meeting-exclusion-rule): Define up to five individual meeting exclusions and then publish them together as a meeting exclusion rule.
+ * [Select a rule for use](#select-a-rule-for-use): Select a rule to apply to the **Explore** page or to the **Queries** page of Workplace Analytics.
+
+### For more information
+
+The [concepts](meeting-exclusion-concept.md) article provides deeper information about screen areas, tools, and ideas that can help you work with meeting exclusion rules. It contains the following sections:
+
+ * [Interactive tools for creating meeting exclusions](meeting-exclusion-concept.md#interactive-tools-for-creating-meeting-exclusion): This section describes the on-screen tools that display the information you need to define effective meeting exclusions. 
+   * [Word cloud](meeting-exclusion-concept.md#word-cloud): The word cloud consists of keywords taken from subject lines of meetings. Use it to remove a keyword from the exclusion. 
+   * [Keyword search](meeting-exclusion-concept.md#keyword-search): To find a particular keyword that you want to remove from exclusion, type it in the keyword search field.  
+   * [Phrase table](meeting-exclusion-concept.md#phrase-table): The phrase table shows you the context in which keywords are found. Knowing this context helps you decide whether to retain or exclude the keyword and its associated meetings. 
+ * Multiple meeting exclusion rules can exist simultaneously. To learn how they are applied in Workplace Analytics, see [Application of meeting exclusion rules](meeting-exclusion-concept.md#application-of-meeting-exclusion-rules). 
+
 
 <!-- _[PUT VIDEO HERE]_ -->
 
-## View meeting exclusions
+## View meeting exclusion rules
 
 This section describes how to view existing meeting exclusion rules. The section that follows describes how to author a new one. 
 
@@ -41,7 +55,7 @@ Open the Meeting exclusions page to view existing meeting exclusion rules or to 
 >[!Note]
 >Remember that you cannot edit any published meeting exclusion rules.
 
-## Create meeting exclusions
+## Create a meeting exclusion rule
 
 A meeting exclusion rule is a filter applied to your meeting data. 
 
@@ -71,15 +85,15 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 
 5. **Step 1: Exclude cancelled meetings.** The first page in the flow is for excluding meetings that have been cancelled. On this page, you cannot change the default filter. Add this exclusion to your rule by clicking **Next **. Workplace Analytics displays the next page in the flow, the page for excluding small meetings.
 
-6. **Step 2: Exclude small meetings.** Just as on the cancelled-meetings page, you cannot change the default filter for this exclusion. However, you can change the way it is applied by specifying exceptions to the exclusion. You do this by using the following parts of the page: [word cloud](#word-cloud), [keyword search](#keyword-search), [phrase table](#phrase-table). 
+6. **Step 2: Exclude small meetings.** Just as on the cancelled-meetings page, you cannot change the default filter for this exclusion. However, you can change the way it is applied by specifying exceptions to the exclusion. You do this by using the following parts of the page: [word cloud](meeting-exclusion-concept.md#word-cloud), [keyword search](meeting-exclusion-concept.md#keyword-search), [phrase table](meeting-exclusion-concept.md#phrase-table). 
 
-6.  When you have finished making exceptions to the small-meetings exclusion and you are ready to add the exclusion to the rule, click **Next**.
+7.  When you have finished making exceptions to the small-meetings exclusion and you are ready to add the exclusion to the rule, click **Next**.
 
      Workplace Analytics displays the next step in the flow, the page for excluding large meetings. Notice that the values that are shown near the top of the page for Attendee meeting hours and Number of meetings have been lowered as a result of the exclusions that we've applied earlier in the last two pages.
 
-7. **Step 3: Exclude large meetings.** This exclusion differs from the first two in that you can change the value in the "Exclude meetings where" filter from the default value of 250 attendees. 
+8. **Step 3: Exclude large meetings.** This exclusion differs from the first two in that you can change the value in the "Exclude meetings where" filter from the default value of 250 attendees. 
 
-8.  (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table.
+9.  (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table.
 
    >[!Note] 
    > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
@@ -131,7 +145,7 @@ Workplace Analytics also preselects some topics for you. For example, in the fol
 
 After Workplace Analytics publishes your new rule, it displays a read-only summary of the rule's exclusions. 
 
-## Select a rule
+## Select a rule for use
 
 You can have one rule in effect at a time. For the rule in use on the Explore dashboards, see [Explore page](#explore-page). For the rule to be used in a query, see [Queries page](#queries-page).
 
@@ -139,7 +153,7 @@ You can have one rule in effect at a time. For the rule in use on the Explore da
 
 By default, the dashboards of the Explore page use the default meeting-exclusion rule that Workplace Analytics supplies, but you can change this to a different rule. The rule that will be used in the dashboards is known as the _preferred rule_, whether this is the default rule or a different rule that you've selected. 
 
-**To apply a rule to a the Explore dashboards**
+**To apply a rule to the Explore dashboards**
 
 1.  In Workplace Analytics, open the **Queries** page.
 
