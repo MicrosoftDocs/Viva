@@ -79,13 +79,14 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 
 4. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual exclusions. 
 
-<!-- Heading seems odd here: 
-### Step-By-Step Overview 
-<!-- Also formerly here: Why these rules?-->
+   >[!Note] 
+   >You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you click **Next**:
 
-5. **Step 1: Exclude cancelled meetings.** The first page in the flow is for excluding meetings that have been cancelled. On this page, you cannot change the default filter. Add this exclusion to your rule by clicking **Next **. Workplace Analytics displays the next page in the flow, the page for excluding small meetings.
+   ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion.png)
 
-6. **Step 2: Exclude small meetings.** Just as on the cancelled-meetings page, you cannot change the default filter for this exclusion. However, you can change the way it is applied by specifying exceptions to the exclusion. You do this by using the following parts of the page: [word cloud](meeting-exclusion-concept.md#word-cloud), [keyword search](meeting-exclusion-concept.md#keyword-search), [phrase table](meeting-exclusion-concept.md#phrase-table). 
+5. **Step 1: Exclude cancelled meetings.** The first page in the flow is for excluding meetings that have been cancelled. On this page, you cannot change the default filter. Add this exclusion to your rule by clicking **Next**. Workplace Analytics displays the next page in the flow, the page for excluding small meetings.
+
+6. **Step 2: Exclude small meetings.** Just as on the cancelled-meetings page, you cannot change the default filter for this exclusion. However, you can change the way it is applied by specifying exceptions to the exclusion. You do this on the following parts of the page: [Word cloud](meeting-exclusion-concept.md#word-cloud), [Keyword search](meeting-exclusion-concept.md#keyword-search), [Phrase table](meeting-exclusion-concept.md#phrase-table). 
 
 7.  When you have finished making exceptions to the small-meetings exclusion and you are ready to add the exclusion to the rule, click **Next**.
 
