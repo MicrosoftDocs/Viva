@@ -96,8 +96,8 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 
 9.  (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table.
 
-   >[!Note] 
-   > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
+    >[!Note] 
+    > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
 
 10.  When you have finished making exceptions, click **Apply**.
 
@@ -105,8 +105,8 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 
 12.  (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion.  You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table.
 
->[!Note] 
-> If you change the default filter value after you designate exceptions, the exceptions will be lost.
+    >[!Note] 
+    > If you change the default filter value after you designate exceptions, the exceptions will be lost.
 
 13.  When you have finished making exceptions, click **Next**.
 
@@ -117,7 +117,7 @@ Workplace Analytics also preselects some topics for you. For example, in the fol
  
      Each topic that is listed under **List of topics** is also a tab. On an open tab, you can see keywords and phrases that relate to the topic. For example, the **Out of Office** tab contains the phrase "day off." These keywords are excluded from analysis. Click the ‘X' of a keyword to delete it from this list. This exempts the keyword from exclusion; in other words, meetings whose subject line contains this keyword are removed from the exclusion and, therefore, available for analysis. 
 
-     You might have a specific word or phrase in mind that you want to exclude from analysis; that is, to add to this exclusion. If it is not listed under Keywords, you can type it in the **Add a custom keyword** field. Phrases that you add here can be up to three words in length. All meetings associated with the keywords that you add in this step will be excluded from your analysis.
+     You might have a specific word or phrase in mind that you want to exclude from analysis; that is, to add to this exclusion. If it is not listed under Keywords, search for it by typing it in the **Add a custom keyword** field. See [Keyword search](meeting-exclusion-concept.md#keyword-search).   
 
      This meetings-by-topic page also offers the **Phrases that contain the selected keyword** table and the functionality described in the step for creating a small-meetings exclusion. 
 
@@ -148,11 +148,11 @@ After Workplace Analytics publishes your new rule, it displays a read-only summa
 
 ## Select a rule for use
 
-You can have one rule in effect at a time. For the rule in use on the Explore dashboards, see [Explore page](#explore-page). For the rule to be used in a query, see [Queries page](#queries-page).
+You can have one rule in effect at a time. To select a rule for use on the **Explore** page dashboards, see [Use rules in the Explore dashboards](#use-rules-in-the-explore-dashboards). For the rule to be used in a query, see [Use rules with queries](#use-rules-with-queries).
 
 ### Use rules in the Explore dashboards
 
-By default, the dashboards of the Explore page use the default meeting-exclusion rule that Workplace Analytics supplies, but you can change this to a different rule. The rule that will be used in the dashboards is known as the _preferred rule_, whether this is the default rule or a different rule that you've selected. 
+By default, the dashboards of the **Explore** page use the default meeting-exclusion rule that Workplace Analytics supplies, but you can change this to a different rule. The rule that will be used in the dashboards is known as the _preferred rule_, whether this is the default rule or a different rule that you've selected. 
 
 **To apply a rule to the Explore dashboards**
 
@@ -173,12 +173,15 @@ By default, the dashboards of the Explore page use the default meeting-exclusion
 
 You can apply a meeting-exclusion rule to a query while you define the query.
 
+<!-- GET THIS ANSWERED! 
+HOW CAN A RULE BE SET AS PREFERRED ON THE MEETING EXCLUSIONS PAGE? -->
+
 >[!Note] 
 >If you selected a rule as the preferred rule on the Meeting exclusions page, the rule that you selected also becomes your default rule when you work on the **Queries** page.
  
 **To apply a rule to a query**
 
-1.  In Workplace Analytics, open the Queries page.
+1.  In Workplace Analytics, open the **Queries** page.
 
 2.  Select the rule you want from the Meeting exclusions list box, as shown here:
 
