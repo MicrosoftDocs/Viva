@@ -12,11 +12,11 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Meeting exclusion rules: Concepts
+# Meeting exclusion rules: Tools and concepts
 
 This article describes screen elements and concepts whose understanding can help you create and use meeting exclusion rules. Those tasks are described in the step-by-step walkthroughs in [Exclude meetings from analysis](meeting-exclusion-rules.md).
 
-## Interactive tools for creating meeting exclusions 
+## Progress summaries  
 
 At each step in the exclusion-creation flow, you see a page such as the following: 
 
@@ -61,11 +61,11 @@ This are has three informative areas:
    >[!Tip] 
    >Pay particular attention to the number shown for _Excluded meeting hours_. This metric is usually more important than the percentage of meetings because time spent in meetings is a more important indicator when analyzing meeting behavior than the sheer number of meetings, which can vary greatly in length. 
 
-### Customization working area
+## Customization working area
 
 On the bottom part of the page, you make customizations for four of the five types of exclusion: appointments, large meetings, long meetings, and meetings by topic. This section is not available for the first exclusion type: cancelled meetings.
 
-In three of the four steps, you can use a word cloud and a phrase table to select phrases to remove from the exclusion that you are defining. For more information, see [Word cloud](#word-cloud) and [Phrase table](#phrase-table).
+In three of the four steps, you can use a word cloud and a phrase table to select phrases to remove from the exclusion that you are defining. For more information, see [Word cloud](#word-cloud), [Keyword search](#keyword-search), and [Phrase table](#phrase-table).
 
 <!--
 ### Customization UI for appointments, large meetings, and long meetings
@@ -88,7 +88,7 @@ In three of the four steps, you can use a word cloud and a phrase table to selec
 # Customizing rules with the word cloud and phrase table 
 -->
 
-## Word cloud
+### Word cloud
 
 Below the heading **Identify exceptions** is a word cloud that displays keywords from meeting subject lines. It includes only keywords for meetings that meet the filter criteria that are being applied on the current step. In a word cloud, the larger the size of text of a keyword, the more meeting hours the keyword represents.
 
@@ -100,11 +100,11 @@ To remove a keyword from this exclusion, select the keyword in the word cloud an
  * Hover over the keyword. This displays a text box that shows meeting hours and meeting count.
  * Click the keyword. This selects the keyword and displays details about its impact on meeting hours in the Phrase table. The Phrase table is described later in this step.
 
-## Keyword search
+### Keyword search
 
 You might have a specific word in mind that you want to retain in your analysis (that is, remove from the exclusion). If cannot find that word in the word cloud, search for it in the field marked **Search for a keyword**. You can search for phrases that contain one, two, or three words. If the keyword is found, Workplace Analytics display data in the Phrase table about removing this keyword from the exclusion. To remove it from the exclusion, click **Make an exception**. 
 
-## Phrase table
+### Phrase table
 
 Workplace Analytics shows a table called **Phrases that contain the selected keyword**. Through this table, you can better understand the context of the meetings that are associated with this keyword or subject-line phrase. 
 
