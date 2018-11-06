@@ -83,6 +83,7 @@
           - name: Understand and interpret query output
             href: ~/Use/Csv-query-output-file.md
           - name: Create meeting exclusion rules
+            href: ~/Tutorials/exclusions-intro.md            
             items: 
               - name: Exclusion rules - Walkthrough
                 href: ~/tutorials/meeting-exclusion-rules.md

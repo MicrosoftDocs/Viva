@@ -14,10 +14,6 @@ ms.prod: wpa
 
 # Exclude meetings from analysis
 
-Workplace Analytics uses email and calendar activities that are stored in a person's Office 365 account to reveal internal and external collaboration trends. However, a person's calendar and email can contain a diverse set of activities (such as personal meetings, work-related social activities, all-day training meetings, and so forth) that are not relevant to work-related collaboration, and, if included in the metrics, would skew query results.
-
-Meeting exclusion rules are used in Workplace Analytics to help ensure that query results accurately represent relevant meeting norms within the organization. Workplace Analytics provides a default meeting exclusion rule that excludes a set of meetings that would commonly fall outside of relevant collaboration for analysis. Alternatively, analysts can use the meeting exclusion feature to create custom meeting exclusion rules. 
-
 This article describes three ways to work with meeting exclusion rules:
  * [View meeting exclusion rules](#view-meeting-exclusion-rules): Become acquainted with the default rule and with the rules that you or others have published.
  * [Create a meeting exclusion rule](#create-a-meeting-exclusion-rule): Define up to five individual meeting exclusions and then publish them together as a meeting exclusion rule.
