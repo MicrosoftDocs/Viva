@@ -27,7 +27,7 @@ This article describes three ways to work with meeting exclusion rules:
 
 The [concepts](meeting-exclusion-concept.md) article provides deeper information about screen areas, tools, and ideas that can help you work with meeting exclusion rules. It contains the following sections:
 
- * [Interactive tools for creating meeting exclusions](meeting-exclusion-concept.md#interactive-tools-for-creating-meeting-exclusion): This section describes the on-screen tools that display the information you need to define effective meeting exclusions. 
+ * [Interactive tools for creating meeting exclusions](meeting-exclusion-concept.md#interactive-tools-for-creating-meeting-exclusions): This section describes the on-screen tools that display the information you need to define effective meeting exclusions. 
    * [Word cloud](meeting-exclusion-concept.md#word-cloud): The word cloud consists of keywords taken from subject lines of meetings. Use it to remove a keyword from the exclusion. 
    * [Keyword search](meeting-exclusion-concept.md#keyword-search): To find a particular keyword that you want to remove from exclusion, type it in the keyword search field.  
    * [Phrase table](meeting-exclusion-concept.md#phrase-table): The phrase table shows you the context in which keywords are found. Knowing this context helps you decide whether to retain or exclude the keyword and its associated meetings. 
