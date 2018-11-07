@@ -113,16 +113,16 @@ Workplace Analytics shows a table called **Phrases that contain the selected key
 The words "business" or "marketing" in the word cloud represent meetings that you might not want to exclude. To help you decide, you can view data about the effect of removing this keyword (and its meetings) from the exclusion. For example, select **business**. Workplace Analytics shows what percentage of meetings have this word in their subject line and how many hours those meetings contain:
 
 ![Percentages](../images/wpa/tutorials/02-word-cloud-business.png)
+
+In the following illustration, the word "business" has been excepted from the exclusion, which means that meetings with "business" in their invitations' subject lines will be _retained_ in your analysis: 
+
+![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
  
 ### Example 2
 
 The word cloud contains the word "soccer," which you select. Now, if the Phrase table shows phrases such as "soccer practice" or "soccer league," this might indicate that the meetings with "soccer" in the subject line were not work-related and therefore are appropriate to exclude from analysis. 
 
 However, if you work for an athletic-equipment supplier and this table displays phrases such as "soccer product review," these meetings are probably work related and you do not want to exclude them. To retain such a keyword and its associated meetings, you make it an exception to the exclusion rule. To do this, select the **Make an exception** check box adjacent to the word cloud. 
-
-In the following illustration, the word "business" has been excepted from the exclusion, which means that meetings with "business" in their invitations' subject lines will be _retained_ in your analysis: 
-
-![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
  
 If you notice other words in the cloud that you might want to retain in your analysis, click them, review the **Phrases that contain the selected keyword** table, and, when appropriate, select **Make an exception**. 
 
