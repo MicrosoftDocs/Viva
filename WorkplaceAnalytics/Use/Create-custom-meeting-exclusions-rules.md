@@ -2,16 +2,16 @@
 # Metadata Sample
 # required metadata
 
-title: Create custom meeting exclusions rules in Workplace Analytics
+title: Create custom meeting exclusion rules in Workplace Analytics
 description: This topic contains step-by-step instructions to create meeting exclusions rules and run meeting exclusions queries in Workplace Analytics.
 author: LeisaLaDell
 ms.author: v-leash
-ms.date: 02/14/2018
+ms.date: 11/06/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
-# Create custom meeting exclusions rules in Workplace Analytics
+# Create custom meeting exclusion rules in Workplace Analytics
 
 <!-- 
 TEMPORARILY REMOVING THIS "PLACEHOLDER-TOPIC" NOTE. 26 MARCH 2018. 
@@ -33,7 +33,7 @@ By default, Workplace Analytics excludes the following types of meetings from qu
 
 In addition, Workplace Analytics will exclude meetings that are marked as Private, Confidential, or that are rights managed.
 
-If you not yet created any meeting queries, review the Meeting queries section in the topic [Create queries in Workplace Analytics](../Tutorials/Create-queries.md).
+If you have not yet created any meeting queries, review the Meeting queries section in the topic [Create queries in Workplace Analytics](../Tutorials/Create-queries.md).
 
 **To create and run an “All meetings default” query using default exclusions**
 

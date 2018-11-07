@@ -6,7 +6,7 @@ title: Assigning Workplace Analytics licenses in Azure AD using PowerShell
 description: This article describes the procedural instructions for how to Workplace Analytics licenses in Azure Active Directory using PowerShell.
 author: buntus
 ms.author: v-johtob
-ms.date: 09/06/2018
+ms.date: 11/06/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -270,6 +270,8 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
        }
 
        Stop-Transcript
+```
+
 
 
 With the PowerShell environment now prepared, and the input file properly constructed, the script can now execute.
@@ -280,7 +282,7 @@ With the PowerShell environment now prepared, and the input file properly constr
 
 Note that the \<CSVLocation> should contain the full path to the .csv input file such as C:\Scripts\InputFile.csv.
 
-When prompted, enter the Office365 global administrator credentials for the tenant where the licenses are to be added.
+4. When prompted, enter the Office365 global administrator credentials for the tenant where the licenses are to be added.
 
 If all the required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are displayed on the command line.
 
@@ -297,7 +299,6 @@ The script logic first attempts to find the MSOL identity through the UserPrinci
 **Does this work with Multi-Factor Authentication (MFA)?**
 
 This script works with Multi-Factor Authentication because the Connect-MsolService cmdlet supports Azure Active Directory Authentication Library (ADAL).
-```
 
 ## Related links
 
