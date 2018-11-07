@@ -103,7 +103,7 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 12.  (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion.  You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table.
 
     >[!Note] 
-    > If you change the default filter value after you designate exceptions, the exceptions will be lost.
+    > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
 
 13.  When you have finished making exceptions, click **Next**.
 
