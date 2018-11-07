@@ -98,7 +98,7 @@ The *IsActive* attribute does not display as an option in the person-to-group qu
 
 In addition to the standard attribute values, the _Collaborators_ group can also include four additional attribute values in the .csv file query output for both person-to-group and group-to-group queries:
 
-<li>Unclassified_Internal
+ <li>Unclassified_Internal
 
 <li>Unclassified_External
 
