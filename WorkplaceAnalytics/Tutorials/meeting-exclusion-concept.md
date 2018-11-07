@@ -104,11 +104,19 @@ To remove a keyword from this exclusion, select the keyword in the word cloud an
 
 You might have a specific word in mind that you want to retain in your analysis (that is, remove from the exclusion). If cannot find that word in the word cloud, search for it in the field marked **Search for a keyword**. You can search for phrases that contain one, two, or three words. If the keyword is found, Workplace Analytics display data in the Phrase table about removing this keyword from the exclusion. To remove it from the exclusion, click **Make an exception**. 
 
+#### Remove an exception
+
+After you make an exception of a word, it appears above the word cloud. If you change your mind, you can remove the word from the exception list. This returns it to the group of keywords whose meetings will be excluded. To do this, click the 'X' next to the word: 
+ 
+![Exclude meetings where](../images/wpa/tutorials/04-exclude-meetings-where.png)
+ 
+You can also remove all of your exceptions to this exclusion at once. To do this, select **Reset**. 
+
 ### Phrase table
 
 Workplace Analytics shows a table called **Phrases that contain the selected keyword**. Through this table, you can better understand the context of the meetings that are associated with this keyword or subject-line phrase. 
 
-### Example 1
+### Example 1: "business"
 
 The words "business" or "marketing" in the word cloud represent meetings that you might not want to exclude. To help you decide, you can view data about the effect of removing this keyword (and its meetings) from the exclusion. For example, select **business**. Workplace Analytics shows what percentage of meetings have this word in their subject line and how many hours those meetings contain:
 
@@ -118,21 +126,13 @@ In the following illustration, the word "business" has been excepted from the ex
 
 ![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
  
-### Example 2
+### Example 2: "soccer"
 
 The word cloud contains the word "soccer," which you select. Now, if the Phrase table shows phrases such as "soccer practice" or "soccer league," this might indicate that the meetings with "soccer" in the subject line were not work-related and therefore are appropriate to exclude from analysis. 
 
 However, if you work for an athletic-equipment supplier and this table displays phrases such as "soccer product review," these meetings are probably work related and you do not want to exclude them. To retain such a keyword and its associated meetings, you make it an exception to the exclusion rule. To do this, select the **Make an exception** check box adjacent to the word cloud. 
  
 If you notice other words in the cloud that you might want to retain in your analysis, click them, review the **Phrases that contain the selected keyword** table, and, when appropriate, select **Make an exception**. 
-
->[!Note] 
-> After you make an exception of a word, it appears above the word cloud. If you change your mind, you can remove the word from the exception list. This returns it to the group of keywords whose meetings will be excluded. To do this, click the 'X' next to the word: 
-> 
-> ![Exclude meetings where](../images/wpa/tutorials/04-exclude-meetings-where.png)
- 
->[!Tip] 
-> You can also remove all of your exceptions to this exclusion at once. To do this, select **Reset**. 
 
 ## Application of meeting-exclusion rules 
 
