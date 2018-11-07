@@ -127,8 +127,9 @@ In the following illustration, the word "business" has been excepted from the ex
 If you notice other words in the cloud that you might want to retain in your analysis, click them, review the **Phrases that contain the selected keyword** table, and, when appropriate, select **Make an exception**. 
 
 >[!Note] 
->After you make an exception of a word, it appears above the word cloud. If you change your mind, you can remove the word from the exception list. This returns it to the group of keywords whose meetings will be excluded. To do this, click the 'X' next to the word: 
->![Exclude meetings where](../images/wpa/tutorials/04-exclude-meetings-where.png)
+> After you make an exception of a word, it appears above the word cloud. If you change your mind, you can remove the word from the exception list. This returns it to the group of keywords whose meetings will be excluded. To do this, click the 'X' next to the word: 
+> 
+> ![Exclude meetings where](../images/wpa/tutorials/04-exclude-meetings-where.png)
  
 >[!Tip] 
 > You can also remove all of your exceptions to this exclusion at once. To do this, select **Reset**. 

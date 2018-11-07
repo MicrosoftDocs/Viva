@@ -82,7 +82,7 @@
             href: ~/Tutorials/Query-auto-refresh.md 
           - name: Understand and interpret query output
             href: ~/Use/Csv-query-output-file.md
-          - name: Create meeting exclusion rules
+          - name: Meeting exclusion rules
             href: ~/Tutorials/meeting-exclusions-intro.md            
             items: 
               - name: Exclusion rules - Walkthrough

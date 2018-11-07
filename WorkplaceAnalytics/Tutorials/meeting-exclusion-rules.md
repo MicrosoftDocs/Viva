@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Exclude meetings from analysis
+# Meeting exclusion rules: Walkthroughs
 
 This article describes three ways to work with meeting exclusion rules:
  * [View meeting exclusion rules](#view-meeting-exclusion-rules): Become acquainted with the default rule and with the rules that you or others have published.
@@ -30,6 +30,7 @@ The [Tools and concepts](meeting-exclusion-concept.md) article provides deeper i
    * [Phrase table](meeting-exclusion-concept.md#phrase-table): The phrase table shows you the context in which keywords are found. Knowing this context helps you decide whether to retain or exclude the keyword and its associated meetings. 
  * Multiple meeting exclusion rules can exist simultaneously. To learn how they are applied in Workplace Analytics, see [Application of meeting exclusion rules](meeting-exclusion-concept.md#application-of-meeting-exclusion-rules). 
 
+For a high-level overview of meeting exclusion rules, see [Meeting exclusion rules in Workplace Analytics](meeting-exclusions-intro.md).
 
 <!-- _[PUT VIDEO HERE]_ -->
 
