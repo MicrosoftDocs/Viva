@@ -29,7 +29,7 @@ Workplace Analytics gives you different ways to analyze and explore your data.
 
 [**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
 
-[**Teamwork solution**](../tutorials/solutions-intro.md) enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll the teams in action plans with MyAnalytics to help address these challenges.
+[**Solutions**](../tutorials/solutions-intro.md) currently provides a Teamwork solution that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll the teams in action plans with MyAnalytics to help address these challenges.
 
 [**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page.
 
