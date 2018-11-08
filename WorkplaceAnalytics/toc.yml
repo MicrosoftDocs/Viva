@@ -94,15 +94,16 @@
         items:
           - name: Solutions
             href: ~/tutorials/solutions-intro-placeholder.md
-                - name: Teamwork solution
-                  href: ~/tutorials/Solutions-intro.md  
-                  items: 
-                    - name: Solution - Walkthrough    
-                      href: ~/tutorials/Solutions-task.md 
-                    - name: Solution - Participants
-                      href: ~/tutorials/Solutions-participants.md                                       
-                    - name: Solution - Concepts
-                      href: ~/tutorials/Solutions-conceptual.md             
+            items:
+              - name: Teamwork solution
+                href: ~/tutorials/Solutions-intro.md  
+                items: 
+                  - name: Solution - Walkthrough    
+                    href: ~/tutorials/Solutions-task.md 
+                  - name: Solution - Participants
+                    href: ~/tutorials/Solutions-participants.md                                       
+                  - name: Solution - Concepts
+                    href: ~/tutorials/Solutions-conceptual.md             
     - name: Reference
       items:
         - name: Glossary
