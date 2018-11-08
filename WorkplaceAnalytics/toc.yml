@@ -103,20 +103,20 @@
                   href: ~/Use/Understand-meeting-exclusions.md
                 - name: Create custom meeting exclusion rules
                   href: ~/Use/Create-custom-meeting-exclusions-rules.md     
-      - name: Solutions
-        items:
-          - name: Solutions
-            href: ~/tutorials/solutions-intro-placeholder.md
-            items:
-              - name: Teamwork solution
-                href: ~/tutorials/Solutions-intro.md  
-                items: 
-                  - name: Solution - Walkthrough    
-                    href: ~/tutorials/Solutions-task.md 
-                  - name: Solution - Participants
-                    href: ~/tutorials/Solutions-participants.md                                       
-                  - name: Solution - Concepts
-                    href: ~/tutorials/Solutions-conceptual.md             
+    - name: Solutions
+      items:
+        - name: Solutions
+          href: ~/tutorials/solutions-intro-placeholder.md
+          items:
+            - name: Teamwork solution
+              href: ~/tutorials/Solutions-intro.md  
+              items: 
+                - name: Solution - Walkthrough    
+                  href: ~/tutorials/Solutions-task.md 
+                - name: Solution - Participants
+                  href: ~/tutorials/Solutions-participants.md                                       
+                - name: Solution - Concepts
+                  href: ~/tutorials/Solutions-conceptual.md             
     - name: Reference
       items:
         - name: Glossary
