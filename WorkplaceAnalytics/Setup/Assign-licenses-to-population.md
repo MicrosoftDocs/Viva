@@ -13,7 +13,7 @@ ms.prod: wpa
 ---
 
 # Assign licenses 
-
+ 
 * **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator
 * **Task** - Determine population in scope for analysis and assign licenses via Office 365
 * **Outcome** - Office 365 licenses are assigned for the population that will be analyzed
