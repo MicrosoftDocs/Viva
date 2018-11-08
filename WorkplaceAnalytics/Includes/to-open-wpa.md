@@ -14,7 +14,7 @@ ms.prod: wpa
 
 **To open the Workplace Analytics Settings page** 
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizations' credentials.
 2. In the left navigation pane, select **Settings**. 
 
    >[!Note] 
