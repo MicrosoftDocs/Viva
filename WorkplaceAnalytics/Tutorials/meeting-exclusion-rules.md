@@ -63,7 +63,7 @@ When you start a new meeting exclusion rule and before you have added any exclus
 
 **Walkthrough: to add a meeting exclusion rule**
 
-Workplace Analytics guides you step-by-step through the creation of a customized meeting exclusion rule. During the meeting exclusion flow, you create one exclusion for each of five meeting types that are commonly excluded from analysis. 
+Workplace Analytics guides you step-by-step through the creation of a customized meeting exclusion rule. The meeting exclusion flow contains five steps, one for each type of meeting that is commonly excluded from analysis.
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your Microsoft credentials. 
 
@@ -75,7 +75,7 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 
    ![Five exclusion steps](../images/wpa/tutorials/01-five-exclusion-steps.png) 
 
-4. Type a name for the exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual exclusions. 
+4. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual exclusions. 
 
    >[!Note] 
    >You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you click **Next**:
