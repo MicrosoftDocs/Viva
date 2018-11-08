@@ -23,7 +23,7 @@ You can explore the data with the Workplace Analytics dashboards, and dive deepe
 
 Workplace Analytics gives you different ways to analyze and explore your data.
 
-**Home** gives a high-level overview of collaboration and links to popular features.
+**Home** gives a high-level overview of collaboration and links to popular features. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
 
 [**Analyze**](../use/analyze-intro.md) provides data analysts with all the tools they need to explore collaboration trends and create custom queries for more specific data analysis.
 

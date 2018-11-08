@@ -9,7 +9,7 @@ ms.author: v-pascha
 ms.date: 10/26/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: Workplace Ansalytics
+ms.prod: Workplace Analytics
 ---
 
 # Set up Workplace Analytics
@@ -23,7 +23,7 @@ This article describes the steps that are required for setting up and configurin
   * **Office 365 admin**. In one step, you verify that the Office 365 administrator has assigned licenses and roles.  
   * **Workplace Analytics**. In a few steps, Workplace Analytics processes and validates data. 
 * **Task** - Complete steps to set up and configure Workplace Analytics  
-* **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implment change in how employees spend their time.  
+* **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time.  
 
 **To set up Workplace Analytics**
 
