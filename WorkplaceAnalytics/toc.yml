@@ -4,19 +4,19 @@
   items:
     - name: Privacy and data protection
       items:
-        - name: Privacy considerations 
-          href: ~/Privacy/Privacy-considerations.md 
+        - name: Data-protection considerations                   
+          href: ~/Privacy/Data-protection-summary.md        
         - name: Privacy and data access
           href: ~/Privacy/Privacy-and-Data-Access.md
-        - name: Data-protection considerations (summary)                  
-          href: ~/Privacy/Data-protection-summary.md
+        - name: Privacy settings 
+          href: ~/Privacy/Privacy-considerations.md 
     - name: Setup    
       href: ~/Setup/Set-up-Workplace-Analytics.md  
     - name: Get started
       href: ~/Overview/Get-started.md
     - name: Use Workplace Analytics
       items:
-      - name: Administration
+      - name: Setup and maintenance
         items:
           - name: Workplace Analytics settings
             href: ~/Use/Settings.md
@@ -38,73 +38,85 @@
             href: ~/use/using-powershell-to-assign-roles.md    
           - name: Time zones for Workplace Analytics
             href: ~/Use/Timezones-for-Workplace-analytics.md
-      - name: Features
+      - name: Analyze
         items:
-          - name: Explore metrics - Week in the life
-            href: ~/Use/Explore-Metrics-week-in-the-life.md
-          - name: Explore metrics - Meetings overview
-            href: ~/Use/Explore-Metrics-meetings-overview.md
-          - name: Explore metrics - Management and coaching
-            href: ~/Use/Explore-Metrics-management-and-coaching.md
-          - name: Explore metrics – Internal networks
-            href: ~/Use/Explore-Metrics-internal-networks.md
-          - name: Explore metrics – External collaboration
-            href: ~/Use/Explore-Metrics-external-collaboration.md 
-          - name: Chart types
-            href: ~/Use/Chart-Types.md
-          - name: Create queries test
-            href: ~/Use/Create-Queries.md
-            name: View, download, and export query results
-            href: ~/Use/View-download-and-export-query-results.md
-          - name: Understand meeting exclusions
-            href: ~/Use/Understand-meeting-exclusions.md
-          - name: Create custom meeting exclusion rules
-            href: ~/Use/Create-custom-meeting-exclusions-rules.md
-      - name: Tutorials
-        items:
-          - name: Queries overview
-            href: ~/Tutorials/Create-queries.md            
-          - name: Query basics
-            href: ~/Tutorials/Query-basics.md
-          - name: Customize a metric
-            href: ~/Tutorials/Customize-a-metric.md  
-          - name: Person queries
-            href: ~/Tutorials/Person-queries.md
-          - name: Meeting queries
-            href: ~/Tutorials/Meeting-queries.md
-          - name: Power BI Templates
-            href: ~/Tutorials/Power-bi-templates.md            
-          - name: Group-to-group queries
-            href: ~/Tutorials/Group-to-group-queries.md
-          - name: Person-to-group queries
-            href: ~/Tutorials/Person-to-group-queries.md            
-          - name: Query auto-refresh option
-            href: ~/Tutorials/Query-auto-refresh.md 
-          - name: Understand and interpret query output
-            href: ~/Use/Csv-query-output-file.md
-          - name: Teamwork solution
-            href: ~/Tutorials/Solutions-intro.md  
+          - name: Analyze
+            href: ~/Use/analyze-intro.md
             items: 
-              - name: Solution - Walkthrough    
-                href: ~/Tutorials/Solutions-task.md 
-              - name: Solution - Participants
-                href: ~/Tutorials/Solutions-participants.md                                       
-              - name: Solution - Concepts
-                href: ~/Tutorials/Solutions-conceptual.md                                  
-      - name: Reference
+            - name: Explore
+              href: ~/Use/explore-intro.md  
+              items: 
+                - name: Week in the life
+                  href: ~/Use/Explore-Metrics-week-in-the-life.md
+                - name: Meetings overview
+                  href: ~/Use/Explore-Metrics-meetings-overview.md
+                - name: Management and coaching
+                  href: ~/Use/Explore-Metrics-management-and-coaching.md
+                - name: Internal networks
+                  href: ~/Use/Explore-Metrics-internal-networks.md
+                - name: External collaboration
+                  href: ~/Use/Explore-Metrics-external-collaboration.md 
+                - name: Chart types
+                  href: ~/Use/Chart-Types.md
+            - name: Queries
+              href: ~/tutorials/Query-basics.md 
+              items:  
+                - name: Create queries
+                  href: ~/tutorials/Create-queries.md
+                  items: 
+                    - name: Query templates
+                      href: ~/tutorials/query-templates.md                      
+                    - name: Power BI Templates
+                      href: ~/tutorials/power-bi-templates.md                  
+                    - name: Customize a metric
+                      href: ~/tutorials/Customize-a-metric.md                    
+                    - name: View, download, and export query results
+                      href: ~/Use/View-download-and-export-query-results.md
+                    - name: Understand and interpret query output
+                      href: ~/Use/Csv-query-output-file.md
+                    - name: Query auto-refresh option
+                      href: ~/tutorials/Query-auto-refresh.md 
+                - name: Person queries
+                  href: ~/tutorials/Person-queries.md
+                - name: Meeting queries
+                  href: ~/tutorials/Meeting-queries.md      
+                - name: Group queries
+                  href: ~/tutorials/group-queries.md                     
+                - name: Group-to-group queries
+                  href: ~/tutorials/Group-to-group-queries.md
+                - name: Person-to-group queries
+                  href: ~/tutorials/Person-to-group-queries.md  
+                - name: Understand meeting exclusions
+                  href: ~/Use/Understand-meeting-exclusions.md
+                - name: Create custom meeting exclusion rules
+                  href: ~/Use/Create-custom-meeting-exclusions-rules.md     
+      - name: Solutions
         items:
-          - name: Glossary
-            href: ~/Use/Glossary.md          
-          - name: Workplace Analytics metrics
-            href: ~/Use/metric-definitions.md
-          - name: Supported languages and guidelines
-            href: ~/Overview/Supported-languages.md
+          - name: Solutions
+            href: ~/tutorials/solutions-intro-placeholder.md
+                - name: Teamwork solution
+                  href: ~/tutorials/Solutions-intro.md  
+                  items: 
+                    - name: Solution - Walkthrough    
+                      href: ~/tutorials/Solutions-task.md 
+                    - name: Solution - Participants
+                      href: ~/tutorials/Solutions-participants.md                                       
+                    - name: Solution - Concepts
+                      href: ~/tutorials/Solutions-conceptual.md             
+    - name: Reference
+      items:
+        - name: Glossary
+          href: ~/Use/Glossary.md          
+        - name: Workplace Analytics metrics
+          href: ~/Use/metric-definitions.md
+        - name: Supported languages and guidelines
+          href: ~/Overview/Supported-languages.md
     - name: Known issues
       items:
         - name: Download a query report in UTF-8 format
-          href: ~/Tutorials/Download-UTF8-query-report.md
+          href: ~/tutorials/Download-UTF8-query-report.md
         - name: Workplace Analytics 500 error
-          href: ~/Tutorials/Wpa-tool-500-error.md
+          href: ~/tutorials/Wpa-tool-500-error.md
     - name: Get support
       href: ~/Overview/Getting-Support.md
 - name: MyAnalytics
