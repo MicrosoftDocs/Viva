@@ -2,7 +2,7 @@
 layout: HubPage
 title: Workplace Analytics
 description: Learn more about, set up, and use Workplace Analytics.
-ms.date: 11/2/2018
+ms.date: 11/8/2018
 localization_priority: normal 
 ms.prod: wpa
 ms.author: madehmer
@@ -66,8 +66,8 @@ author: madehmer
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Setup</h3>
-                        <p>Learn how to set up Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change default settings.</p>
+                        <h3>Setup and maintenance</h3>
+                        <p>Learn how to set up and maintain Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change privacy and other settings.</p>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/overview/get-started">
+        <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/use/analyze-intro">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

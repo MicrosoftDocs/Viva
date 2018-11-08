@@ -36,7 +36,7 @@ Excess incoming email becomes a distraction from work focus and a source of empl
 
 Workplace Analytics helps analysts identify high and low collaboration and its causes.  
 
-### Common causes of high levels of collaboration 
+### Common causes of high levels of collaboration
 * Large meetings from an overly inclusive culture typically leaves all but a small minority of people actively engaged.
 * Unnecessary attendees in meetings can result in unproductive collaboration time.
 * Long meetings can potentially make it difficult to retain the focus of attendees unless they are well-designed small sessions.
