@@ -27,9 +27,11 @@ Workplace Analytics gives you different ways to analyze and explore your data.
 
 [**Analyze**](../use/analyze-intro.md) provides data analysts with all the tools they need to explore collaboration trends and create custom queries for more specific data analysis.
 
+[**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
+
 [**Solutions**](../tutorials/solutions-intro.md) enable teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll the teams in action plans with MyAnalytics to help address these challenges.
 
-**Settings** include a [**Data sources**](../use/data-sources.md) page and an [**Upload**](../setup/upload-organizational-data.md) page for monitoring and uploading organizational data, a [**Configure**](../use/configure-wpa-settings.md) page and a [**Privacy**](../use/configure-wpa-privacy-settings.md) page for changing Workplace Analytics system defaults and privacy settings. It also includes Analysis settings, Admin settings, and Data access pages for changing the applicable settings. You must be assigned the applicable admin role to access specific Settings pages.
+[**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page.
 
 **Page settings** for both the Explore and Solutions pages (open on the right side) enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. By default, the Explore and Solutions pages are filtered to show active employees only. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query or solution).
 
