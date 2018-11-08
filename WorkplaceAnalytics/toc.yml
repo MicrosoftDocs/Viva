@@ -40,7 +40,7 @@
           href: ~/Use/Group-Based-Licensing.md
         - name: Assign licenses with PowerShell
           href: ~/use/Assigning-licenses-with-powershell.md
-        - name: User Roles
+        - name: User roles
           href: ~/Use/User-Roles.md
         - name: Assigning user and group roles
           href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
@@ -79,7 +79,7 @@
                   items: 
                     - name: Query templates
                       href: ~/tutorials/query-templates.md                      
-                    - name: Power BI Templates
+                    - name: Power BI templates
                       href: ~/tutorials/power-bi-templates.md                  
                     - name: Customize a metric
                       href: ~/tutorials/Customize-a-metric.md                    
