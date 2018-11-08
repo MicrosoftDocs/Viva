@@ -21,5 +21,3 @@ ms.prod: wpa
    >You must be assigned either the Administrator or Analyst role to access the Data Sources page. 
    For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
 
-
-</br>
