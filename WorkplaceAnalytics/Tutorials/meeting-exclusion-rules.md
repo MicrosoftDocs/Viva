@@ -61,11 +61,11 @@ Defining what kind of meeting exclusion to use is part of the data-preparation w
 
 When you start a new meeting exclusion rule and before you have added any exclusions to it, the set of meetings that will be analyzed includes 100% of the meetings that were found in the Outlook mailboxes of licensed employees who use Office 365. As you add filter terms, or exclusions, to this exclusion rule, you gradually reduce the number of meetings and meeting hours that will be used in metrics calculations while performing analysis in Workplace Analytics.  
 
-**Walkthrough: to add a meeting exclusion rule**
+### Walkthrough: to add a meeting exclusion rule
 
 Workplace Analytics guides you step-by-step through the creation of a customized meeting exclusion rule. The meeting exclusion flow, which is described in the second task that follows, contains five steps, one for each meeting type that is commonly excluded from analysis.
 
-**To start the meeting exclusion rule**
+**To start a meeting exclusion rule**
 
 In this task, you open the meeting exclusions page and name the rule that you will create. 
 
