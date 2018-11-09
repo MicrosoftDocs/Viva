@@ -79,7 +79,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
    ![Five exclusion steps](../images/wpa/tutorials/01-five-exclusion-steps.png) 
 
-4. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual exclusions. 
+4. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual exclusions. Move on to the next task, **To create a meeting exclusion rule**.
 
 **To create a meeting exclusion rule**
 
