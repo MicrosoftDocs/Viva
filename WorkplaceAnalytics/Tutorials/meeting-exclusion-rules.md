@@ -90,6 +90,9 @@ Now that you've created a framework for you rnew rule, you add -- and optionally
 
    ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion.png)
 
+     >[!Caution] 
+     > * While you are authoring an exclusion rule (at any time before you select **Publish**), _do not_ close your browser. Any work you've done to create a rule would be lost if you close the browser. 
+
 1. **Step 1: Exclude cancelled meetings.** The first page in the flow is for excluding meetings that have been cancelled. On this page, you cannot change the default filter. Add this exclusion to your rule by clicking **Next**. Workplace Analytics displays the next page in the flow, the page for excluding small meetings.
 
 2. **Step 2: Exclude small meetings.** Just as on the cancelled-meetings page, you cannot change the default filter for this exclusion. However, you can change the way it is applied by specifying exceptions to the exclusion. You do this on the following parts of the page: [Word cloud](meeting-exclusion-concept.md#word-cloud), [Keyword search](meeting-exclusion-concept.md#keyword-search), [Phrase table](meeting-exclusion-concept.md#phrase-table).
@@ -135,18 +138,15 @@ Workplace Analytics also preselects some topics for you. For example, in the fol
 
      ![Rule summary](../images/wpa/tutorials/07-summary-of-five.png)
  
-6.  Examine this list of exclusions to make sure they retain the meetings that you want to keep in your analysis and exclude the ones that you want to exclude. If you want to change the settings of an exclusion, select the edit (pencil) icon to re-open that exclusion, and then edit its details. For example, you could re-open the long-meetings exclusion to change the threshold from 8 hours to 6. 
+6.  **Review and edit the rule** Examine this list of exclusions to make sure they retain the meetings that you want to keep in your analysis and exclude the ones that you want to exclude. If you want to change the settings of an exclusion, select the edit (pencil) icon to re-open that exclusion, and then edit its details. For example, you could re-open the long-meetings exclusion to change the threshold from 8 hours to 6. 
 
      **Reminder:** While making edits to an exclusion, if you change the default filter value after you designate exceptions, the exceptions will be lost. 
 
-7.  After you have finished editing, select **Apply**. Workplace Analytics re-calculates the meeting-exclusion rule. After it finishes, if you have no more edits, scroll to the bottom of the summary page and select **Publish**. 
+7.  **Publish the rule.** After you have finished editing, select **Apply**. Workplace Analytics re-calculates the meeting-exclusion rule. After it finishes, if you have no more edits, scroll to the bottom of the summary page and select **Publish**. 
 
      >[!Important] 
      > * Your exclusion rule is not saved by default. It is saved only after you select **Publish**.
      > * After you select **Publish**, you can no longer edit the exclusion rule. 
-
-     >[!Caution] 
-     > * While you are authoring an exclusion rule (before you select **Publish**), _do not_ close your browser. Any work you've done to create a rule would be lost if you close the browser. 
 
 After Workplace Analytics publishes your new rule, it displays a read-only summary of the rule's exclusions. 
 
