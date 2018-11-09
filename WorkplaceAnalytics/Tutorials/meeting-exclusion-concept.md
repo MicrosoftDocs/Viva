@@ -46,7 +46,12 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 
 ## Customization working area
 
-Below the _Summary of meetings that remain_, you can make customizations for four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (You cannot customize the first exclusion type, cancelled meetings.) You make customizations by using the following page areas:
+Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The first exclusion type, cancelled meetings, cannot be customized.) 
+
+>[!Note] 
+> When you first add an exclusion to your rule, the exclusion removes an entire class of meetings (such as long ones) from analysis. _Customizing_ an exclusion means to selectively remove meetings from the exclusion, which _returns_ those selected meetings _to_ analysis. 
+
+You make customizations on the following page areas:
 
  * The [Interactive summary of the current exclusion step](#interactive-summary-of-the-current-exclusion-step) appears in the middle of the page. 
  * The **Identify exceptions** area is the bottom part of the page. It presents a [Word cloud](#word-cloud), a [Phrase table](#phrase-table), and search capability ([Keyword search](#keyword-search)) that you use to remove phrases from the exclusion that you are defining. 
@@ -57,7 +62,7 @@ The middle section of the page shows you a summary of the current exclusion step
 
 ![Middle of page](../images/wpa/tutorials/11-mid-page.png)
 
-This are has three informative areas: 
+This area has three informative areas: 
  
  * On the left, you see what kinds of meetings this step addresses. The exclusion description helps you understand the purpose of the current step.
  * In the center, you see details about the meetings that this exclusion would remove from analysis. This section helps you keep track of the customizations you have made to the current exclusion. <!-- 
