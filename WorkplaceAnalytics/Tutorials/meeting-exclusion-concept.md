@@ -44,7 +44,14 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 
 ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
-### Summary of the current exclusion step
+## Customization working area
+
+Below the _Summary of meetings that remain_, you can make customizations for four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (You cannot customize the first exclusion type, cancelled meetings.) To make customizations, use the following two screen areas:
+
+ * The [Interactive summary](#interactive-summary-of-the-current-exclusion-step) appears in the middle of the screen. 
+ * The **Identify exceptions** area is the bottom part of the screen. It presents a word cloud, a phrase table, and search capability that you use to remove phrases from the exclusion that you are defining. For more information, see [Word cloud](#word-cloud), [Keyword search](#keyword-search), and [Phrase table](#phrase-table).
+
+### Interactive summary of the current exclusion step
 
 The middle section of the page shows you a summary of the current exclusion step:
 
@@ -60,33 +67,6 @@ This are has three informative areas:
   
    >[!Tip] 
    >Pay particular attention to the number shown for _Excluded meeting hours_. This metric is usually more important than the percentage of meetings because time spent in meetings is a more important indicator when analyzing meeting behavior than the sheer number of meetings, which can vary greatly in length. 
-
-## Customization working area
-
-On the bottom part of the page, you make customizations for four of the five types of exclusion: appointments, large meetings, long meetings, and meetings by topic. This section is not available for the first exclusion type: cancelled meetings.
-
-In three of the four steps, you can use a word cloud and a phrase table to select phrases to remove from the exclusion that you are defining. For more information, see [Word cloud](#word-cloud), [Keyword search](#keyword-search), and [Phrase table](#phrase-table).
-
-<!--
-### Customization UI for appointments, large meetings, and long meetings
-[What is this section?] 
-
-### Customization UI for meetings by topic
-
--->
-
-<!-- REDUNDANT, SO COMMENTING OUT: 
-
- * **Summary of meetings that remain.** An area at the top of the page displays a summary of the meetings that remain for analysis after Workplace Analytics applies the rule's current filters. For example, before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Office 365.
- 
- * **Potential impact of exclusion.** An area below the middle of the page displays the effects of the current exclusion step if you were to apply it, namely: what percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data? 
-
-   ![Potential impact of this exclusion](../images/wpa/tutorials/17-potential-impact.png)
--->
-<!--
-#### Excluding meetings by keywords and topics
-# Customizing rules with the word cloud and phrase table 
--->
 
 ### Word cloud
 
