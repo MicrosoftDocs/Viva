@@ -46,10 +46,10 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 
 ## Customization working area
 
-Below the _Summary of meetings that remain_, you can make customizations for four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (You cannot customize the first exclusion type, cancelled meetings.) To make customizations, use the following two screen areas:
+Below the _Summary of meetings that remain_, you can make customizations for four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (You cannot customize the first exclusion type, cancelled meetings.) You make customizations by using the following page areas:
 
- * The [Interactive summary](#interactive-summary-of-the-current-exclusion-step) appears in the middle of the screen. 
- * The **Identify exceptions** area is the bottom part of the screen. It presents a word cloud, a phrase table, and search capability that you use to remove phrases from the exclusion that you are defining. For more information, see [Word cloud](#word-cloud), [Keyword search](#keyword-search), and [Phrase table](#phrase-table).
+ * The [Interactive summary of the current exclusion step](#interactive-summary-of-the-current-exclusion-step) appears in the middle of the page. 
+ * The **Identify exceptions** area is the bottom part of the page. It presents a [Word cloud](#word-cloud), a [Phrase table](#phrase-table), and search capability ([Keyword search](#keyword-search)) that you use to remove phrases from the exclusion that you are defining. 
 
 ### Interactive summary of the current exclusion step
 

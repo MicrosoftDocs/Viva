@@ -83,15 +83,15 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
 **To create a meeting exclusion rule**
 
-Now that you've created a framework for you rnew rule, you add -- and optionally customize -- individual exclusions, as described in the following steps.
+Now that you've created a framework for your new rule, you add -- and optionally, customize -- individual exclusions, as described in the following steps.
 
    >[!Note] 
    >You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you click **Next**:
 
    ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion.png)
 
-     >[!Caution] 
-     > * While you are authoring an exclusion rule (at any time before you select **Publish**), _do not_ close your browser. Any work you've done to create a rule would be lost if you close the browser. 
+   >[!Caution] 
+   > * While you are authoring an exclusion rule (at any time before you select **Publish**), _do not_ close your browser. Any work you've done to create a rule would be lost if you close the browser. 
 
 1. **Step 1: Exclude cancelled meetings.** The first page in the flow is for excluding meetings that have been cancelled. On this page, you cannot change the default filter. Add this exclusion to your rule by clicking **Next**. Workplace Analytics displays the next page in the flow, the page for excluding small meetings.
 
@@ -138,7 +138,7 @@ Workplace Analytics also preselects some topics for you. For example, in the fol
 
      ![Rule summary](../images/wpa/tutorials/07-summary-of-five.png)
  
-6.  **Review and edit the rule** Examine this list of exclusions to make sure they retain the meetings that you want to keep in your analysis and exclude the ones that you want to exclude. If you want to change the settings of an exclusion, select the edit (pencil) icon to re-open that exclusion, and then edit its details. For example, you could re-open the long-meetings exclusion to change the threshold from 8 hours to 6. 
+6.  **Review and edit the rule.** Examine this list of exclusions to make sure they retain the meetings that you want to keep in your analysis and exclude the ones that you want to exclude. If you want to change the settings of an exclusion, select the edit (pencil) icon to re-open that exclusion, and then edit its details. For example, you could re-open the long-meetings exclusion to change the threshold from 8 hours to 6. 
 
      **Reminder:** While making edits to an exclusion, if you change the default filter value after you designate exceptions, the exceptions will be lost. 
 
