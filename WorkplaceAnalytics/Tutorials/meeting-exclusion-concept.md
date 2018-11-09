@@ -49,7 +49,7 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The first exclusion type, cancelled meetings, cannot be customized.) 
 
 >[!Note] 
-> When you first add an exclusion to your rule, the exclusion removes an entire class of meetings (such as long ones) from analysis. _Customizing_ an exclusion means to selectively remove meetings from the exclusion, which _returns_ those selected meetings _to_ analysis. 
+> When you first add an exclusion to your rule, the exclusion removes an entire class of meetings (such as long ones) from analysis. _Customizing_ an exclusion means to remove a carefully selected subset of those meetings from the exclusion, which _returns_ that subset of meetings _to_ analysis. 
 
 You make customizations on the following page areas:
 
