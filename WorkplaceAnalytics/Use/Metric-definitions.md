@@ -63,7 +63,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |------|-----------|----------|---------|------------|
 |Attendee meeting hours|Total number of adjusted meeting hours for all attendees.<br>A _meeting query_ focuses on the meeting as the main entity and reports on the various meeting attributes; a _person query_ looks from a person's perspective and aggregates multiple meetings for the selected time period. Because the two query types have different purposes, their output also differs. |Meeting|Hour|Yes|
 |Attendees|Number of people who attended the meeting.|Meeting|Count|Yes|
-|Attendees multitasking|Number of attendees that sent emails during the meeting.<ul><li>In meetings of one hour or less, two or more emails.</li><li>In meetings longer than one hour, two emails per hour. (Example: Sending four emails during a two-hour meeting would count as multitasking.)</li></ul>|Meeting|Count|Yes|
+|Attendees multitasking|Number of attendees who sent emails during the meeting.<ul><li>In meetings of one hour or less, two or more emails.</li><li>In meetings longer than one hour, two emails per hour. (Example: Sending four emails during a two-hour meeting would count as multitasking.)</li></ul>|Meeting|Count|Yes|
 |Attendees with conflicting meeting|Number of attendees with meetings that overlap with the meeting (includes all non-declined meetings, which include accepted, tentative, and no responses to meeting invites).|Meeting|Count|Yes|
 |Emails sent during meetings|Number of emails the person sent during all meetings.|Meeting|Count|Yes|
 |Invitees|Number of people invited to the meeting.|Meeting|Count|Yes|
