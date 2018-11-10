@@ -42,7 +42,7 @@ This section describes how to view existing meeting exclusion rules. The section
 
 Open the Meeting exclusions page to view existing meeting exclusion rules or to create new ones. 
 
-1. Open [Workplace  Analytics](https://workplaceanalytics.office.com/). If  prompted, enter your Microsoft credentials. 
+1. Open [Workplace  Analytics](https://workplaceanalytics.office.com/). If  prompted, enter your organization credentials. 
 
 2. Click **Queries** and then select the tab called **Meeting exclusions**. This opens the Meeting exclusions page. The page displays all meeting-exclusion rules that already exist: 
 
