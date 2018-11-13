@@ -89,7 +89,7 @@ You can add a filter to a base metric and edit the metric name with the filter. 
 
 To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
 
-### Business scenario example of long meetings
+## Business scenario example of long meetings
 
 You can create a Person query to investigate if long meetings are a significant factor in the total number of meeting hours for Operations. The following custom query uses metrics and filters to customize the data.
 
@@ -103,7 +103,7 @@ You can create a Person query to investigate if long meetings are a significant 
   * Meetings is the total number of meetings
   * Emails sent is the total number of emails sent
 
-### To create a custom person query for long meetings
+## To create a custom person query for long meetings
 
 1. On the Queries page, select **Person**.
 2. In the **Enter query name here** box, enter **Long Operations meetings**.
