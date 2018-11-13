@@ -77,9 +77,7 @@
                 - name: Person queries
                   href: ~/tutorials/Person-queries.md
                 - name: Meeting queries
-                  href: ~/tutorials/Meeting-queries.md      
-                - name: Group queries
-                  href: ~/tutorials/group-queries.md                     
+                  href: ~/tutorials/Meeting-queries.md                 
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
