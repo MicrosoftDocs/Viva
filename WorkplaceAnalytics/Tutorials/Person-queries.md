@@ -144,7 +144,8 @@ The following are the columns included in the query results for the custom query
 A|3/1/2017|HR|Administrator|5|11
 B|3/1/2017|Marketing|Executive|4|14
 
-### Related topics
+## Related topics
 
 [Metric descriptions](../Use/Metric-definitions.md)
+
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)

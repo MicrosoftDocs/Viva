@@ -119,7 +119,8 @@ Each row of data represents a single meeting, and Meeting query results always c
 1|3/1/2017 5:00PM|1|No|No|10|Process Meeting|10
 2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
 
-### Related topics
+## Related topics
 
 [Metric descriptions](../Use/Metric-definitions.md)
+
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
