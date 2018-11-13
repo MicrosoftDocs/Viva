@@ -21,7 +21,7 @@ After you have installed Workplace Analytics and your organization is using it, 
  * **Task**: Set the default time zone and the default settings for working days and hours.  
  * **Frequency**: As needed 
 
-[Configure Workplace Analytics system settings](configure-wpa-settings.md#system-settings)
+[Make system settings](configure-wpa-settings.md#system-settings)
 
 ## Update privacy settings
 
@@ -33,7 +33,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 [Privacy considerations](../privacy/privacy-considerations.md)
 
-[Configure Workplace Analytics privacy settings](configure-wpa-privacy-settings.md)
+[Make privacy settings](configure-wpa-privacy-settings.md)
 
 ## Update organizational data 
 
