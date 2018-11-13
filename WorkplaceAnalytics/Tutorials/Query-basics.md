@@ -2,41 +2,37 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics privacy and data access
-description: This article discusses the privacy and data access controls available in Workplace Analytics.  
+title: Workplace Analytics query overview
+description: Workplace Analytics offers a number of flexible queries for custom data analysis.
 author: madehmer
-ms.author: rodonahu
-ms.date: 06/13/2018
+ms.author: madehmer
+ms.date: 11/12/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
-# Workplace Analytics query basics
+# Queries overview
 
-Microsoft Workplace Analytics queries offer a powerful suite of tools to help you access the underlying collaboration data for your organization.
+You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**. Each query type can help answer specific questions you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
-With these tools, you can:
+![Ways to query data](../Images/WpA/Use/Ways-to-query-data-Create-queries.png)
+
+With these queries, you can:
 
 * Select as many or as few metrics as you need, for any population or time range.
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
- ![What you can do with queries](../Images/WpA/Tutorials/select-customize-transform-a.png)
-
 ## Person query
 
-![Person query](../Images/WpA/Tutorials/person-query-card.png)
+Use a person query when you want to understand the relationship between a person’s organizational attributes (their team, level, or location) and how they use their time, or when you want to know how one aspect of a person’s use of time might influence another aspect of their time use.
 
-Use a person query when you want to understand the relationship between a person’s organizational attributes – like their team, level, or location – and how they use their time, or when you want to know how one aspect of a person’s time use might influence another aspect of their time use.
+With a person query you can compare across individual activities and attributes, such as:
 
-With a person query you can compare across individual activities and attributes such as:
-
-* Time use metrics
+* Time-use metrics
 * Organizational attributes
 
 ## Meeting query  
-
-![Meeting query](../Images/WpA/Tutorials/meeting-query-card.png)
 
 Use a meeting query when you want to understand the relationship between different meeting attributes.
 
@@ -49,11 +45,9 @@ With a meeting query you can compare across meeting attributes, such as:
 
 ## Group-to-group query
 
-![Group-to-group query](../Images/WpA/Tutorials/group-query-card.png)
-
 Use a group-to-group query when you want to understand how one team invested their collaboration time across other teams within and outside of the organization.
 
-In this type of query, you can define team in a variety of ways, using any organizational attribute or email domain. This enables you to answer questions such as:
+For this query type, you can define a team in a variety of ways, with any organizational attribute or email domain. This enables you to answer questions such as:
 
 * How did _Sales managers_ allocate their time between all external _customer domains_ (companies)?
 * How much time did _Benefits Analysts_ spend with _individual contributors_ in each _region_?
@@ -63,11 +57,9 @@ Group-to-group queries also offer alternative perspectives on collaboration. Rat
 
 ## Person-to-group query
 
-![Person-to-group query](../Images/WpA/Tutorials/p2g-query-card.png)
-
 Use a person-to-group query to help you understand how individuals invested their time with one or more collaborator teams within and outside of the organization.
 
-Similar to a group-to-group query, you can define the person (or time investor) and that person's collaborator team or teams in a variety of ways, using any organizational attribute or email domain.
+Similar to a group-to-group query, you can define the person (or time investor) and that person's collaborator team or teams in a variety of ways, with any organizational attribute or email domain.
 
 You can choose to analyze the number of interactions between a time investor and the defined collaboration team, or analyze only those collaboration activities initiated by the specified time investor.
 
