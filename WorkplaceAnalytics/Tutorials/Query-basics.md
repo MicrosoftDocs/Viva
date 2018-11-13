@@ -25,12 +25,16 @@ With these queries, you can:
 
 ## Person query
 
-Use a person query when you want to understand the relationship between a person’s organizational attributes (their team, level, or location) and how they use their time, or when you want to know how one aspect of a person’s use of time might influence another aspect of their time use.
+Use a person query when you want to find broader trends in the organization by looking at aggregated metrics for a group of people.
+
+Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person and you can select to aggregate the results by day, week, or month.
 
 With a person query you can compare across individual activities and attributes, such as:
 
 * Time-use metrics
 * Organizational attributes
+
+See [Person queries](../Tutorials/person-queries.md) to learn more.
 
 ## Meeting query  
 
@@ -42,6 +46,8 @@ With a meeting query you can compare across meeting attributes, such as:
 * Subject line keywords
 * Double-booked or multitasking rates
 * Meeting organizer attributes
+
+See [Meeting queries](../Tutorials/meeting-queries.md) to learn more.
 
 ## Group-to-group query
 
@@ -55,6 +61,8 @@ For this query type, you can define a team in a variety of ways, with any organi
 
 Group-to-group queries also offer alternative perspectives on collaboration. Rather than allocating collaboration hours across other teams, you can analyze the number of interactions between the teams, or analyze only those collaboration activities initiated by the “time giver” team.
 
+See [Group-to-group queries](../Tutorials/group-to-group-queries.md) to learn more.
+
 ## Person-to-group query
 
 Use a person-to-group query to help you understand how individuals invested their time with one or more collaborator teams within and outside of the organization.
@@ -63,58 +71,50 @@ Similar to a group-to-group query, you can define the person (or time investor) 
 
 You can choose to analyze the number of interactions between a time investor and the defined collaboration team, or analyze only those collaboration activities initiated by the specified time investor.
 
+See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more. 
+
 ## Meeting exclusions
 
 You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
-### Related topics
-
-[Understand meeting exclusions](../Use/Understand-meeting-exclusions.md)
-
-[Create custom meeting exclusions rule](../Use/Create-custom-meeting-exclusions-rules.md)
+See [Understand meeting exclusions](../Use/Understand-meeting-exclusions.md) and [Create custom meeting exclusions rule](../Use/Create-custom-meeting-exclusions-rules.md) to learn more.
 
 ## Business scenario
 
-An analyst may start by looking at a [Person query](#person-query) to see trends of employees across the company related to meeting collaboration.
+An analyst might start by looking at a person query to see trends of employees across the company related to meeting collaboration.
 
-If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a [Meeting query](#meeting-query) to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
+If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a [Group query](#group-query) to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
 
 There are three ways to create queries:
 
-* Use and edit pre-defined query templates
-* Create custom queries from scratch
+* Use and edit [predefined query templates](#predefined-query-templates)
+* Create your own custom queries
 * Open and edit a previously run query
 
-When you create or edit a query, you will select the metrics that you want to include (many can be customized), and you can use filters to narrow the results and drill down on specific data of interest.
+When you create or edit a query, you can select the metrics that you want to include (many can be customized), and you can use filters to narrow the results and focus in on specific data.
 
 ![Customize attributes and metrics](../Images/WpA/Use/Customize-attributes-and-metrics-Create-queries.png)
 
-## Pre-defined query templates
+## Predefined query templates
 
-Workplace Analytics includes a number of pre-defined query templates to help you get started with using queries, such as the following.
+Workplace Analytics includes a number of predefined query templates to help you get started with using queries, including the following:
 
-* **Collaboration overload** is a Power BI template that identifies collaboration patterns
-* **Manager impact** is a Power BI template that analyzes manager trends
-* **Build focus hours** finds groups that have the lowest amount of focus time
-* **Meetings attendees query** analyzes meeting hours by the number of attendees
-* **Meetings day query** analyzes meeting hours by day of the week
-* **Meetings duration query** analyzes meeting hours by duration
-* **Meetings start time query** analyzes meeting hours by time of day
-* **Protect after hours** finds groups that collaborate the most outside of work hours
-* **Reduce meeting hours** finds groups that are overwhelmed by meetings
-* **Standard query** provides all base metrics available for a person query
+* **Collaboration overload** is a Power BI template that identifies collaboration patterns.
+* **Manager impact** is a Power BI template that analyzes manager trends.
+* **Build focus hours** finds groups that have the lowest amount of focus time.
+* **Meetings attendees query** analyzes meeting hours by the number of attendees.
+* **Meetings day query** analyzes meeting hours by day of the week.
+* **Meetings duration query** analyzes meeting hours by duration.
+* **Meetings start time query** analyzes meeting hours by time of day.
+* **Protect after hours** finds groups that collaborate the most outside of work hours.
+* **Reduce meeting hours** finds groups that are overwhelmed by meetings.
+* **Standard query** provides all base metrics available for a person query.
 
 ### Related topics
 
-[Person queries](../Tutorials/Person-queries.md)
-
-[Meeting queries](../Tutorials/meeting-queries.md)
-
-[Group-to-group queries](../Tutorials/group-to-group-queries.md)
-
-[Person-to-group queries](../Tutorials/person-to-group-queries.md)
+[Power BI templates](../Tutorials/Power-bi-templates.md)
 
 [Workplace Analytics glossary](../Use/Glossary.md)
 

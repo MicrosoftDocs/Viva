@@ -6,7 +6,7 @@ title: Workplace Analytics overview
 description: Gives a high-level overview of the main features and dashboards available in Workplace Analytics. 
 author: madehmer
 ms.author: madehmer
-ms.date: 11/8/2018
+ms.date: 11/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -36,8 +36,3 @@ Workplace Analytics gives you different ways to analyze and explore your data.
 **Page settings** for both the Explore and Solutions pages (open on the right side) enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. By default, the Explore and Solutions pages are filtered to show active employees only. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query or solution).
 
 ![Page settings](../Images/WpA/Overview/page-settings.png)
-
-## Workplace Analytics playbooks
-
-* The [Workplace Analytics Collaboration Overload Playbook](https://go.microsoft.com/fwlink/?linkid=2002306&clcid=0x409) explains how to develop informed strategies around changing organizational collaboration behavior and improving business outcomes.
-* The [Workplace Analytics Workspace Planning Playbook](https://go.microsoft.com/fwlink/?linkid=2002305&clcid=0x409) quantifies the working relationships and habits of teams to optimize workspace allocation and improve employee connections and collaboration.

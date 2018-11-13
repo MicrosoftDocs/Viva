@@ -40,7 +40,7 @@ Additionally, the analyst could create a [Group query](#group-query) to identify
 
 There are three ways to create queries:
 
-* Use and edit pre-defined query templates
+* Use and edit predefined query templates
 * Create custom queries from scratch
 * Open and edit a previously run query
 
