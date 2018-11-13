@@ -57,3 +57,65 @@ You can add base metrics to customize your meeting data. For example, select the
 ![Meeting query metric](../Images/WpA/Tutorials/meeting-metric.png)
 
 To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
+
+In the basic process to create a Meeting query, you will answer three questions:
+
+1. What meeting properties do I want to analyze? (Filters section)
+2. What time frame do I want to analyze? (Date range)
+3. What data do I want to know about those meetings for that period? (Metrics section)
+
+### Available data
+
+Using a Meeting query, you can query on the calendar metadata available from Office 365 for your company. Examples include: Attendee meeting hours, attendees, invitees, emails sent during meetings, and so forth.
+
+### Example: Business scenario – Long recurring meetings
+
+Continuing the example from the Person section above, to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a Meeting query with the following criteria:
+
+* Time frame: Show the data aggregated weekly
+* Meeting properties: Filters
+  * Meetings include at least one person from Operations as attendee
+  * Long meetings are two hours or more
+  * Meetings are recurring
+* What data: Metrics
+  * Attendees
+  * Attendee meeting hours
+
+## To create a custom Meeting query
+
+1. On the Queries page, select **Meeting**.
+2. Select and change **Enter query name here** to **Long recurring Ops meetings**.
+3. Enter the **Date range** you want, and then for **Meeting exclusions**, select the exclusion rule set that you want.
+4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > equals > **Operations**.
+5. To add a custom filter to include only meetings that are two hours or longer, select the plus sign to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
+6. To add a custom filter to include only meetings that are recurring, select the plus sign to add another filter, then select **Meeting** > **IsRecurring** > equals > **True**.
+7. To add a metric for the number of attendees, in Metrics, select **Add metric**.
+8. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
+9. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
+10. Select **Run** at the top right to run the query.
+11. On the Results page, you can see the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
+
+### Meeting query results include these columns
+
+Each row of data represents a single meeting, and Meeting query results always contain the following information in columns:
+
+* Meeting ID – Unique ID number of the specific meeting
+* Start Date and Time – When the meeting started
+* Duration Hours – The length of the meeting in hours
+* Is Recurring – Whether the meeting is part of a recurring series, or not
+* Is Cancelled – Whether the meeting was cancelled, or not
+* Meeting Resource Ids Count - The number of meeting rooms reserved for each meeting  
+* Meeting Resources - Is the alias portion of the meeting room’s primary SMTP address (a semi-colon delimited list for multiple rooms)
+* Total Number of Emails Sent During Meeting – Number of emails sent by attendees during the meeting
+* Subject – Subject line of the meeting
+* Total Accepted – Number of invitees who accepted the meeting
+* Total Declined – Number of invitees who declined the meeting
+* Total Number of No Responses – Number of invitees who did not respond
+* Total Number of Double-Booked – Number of invitees who were double-booked
+* Metrics – Any other metrics that you included in the query
+
+**Meeting ID**|**Start Date**|**Duration Hours**|**Is Recurring**|**Is Cancelled**|**Total # of emails sent during meeting**|**Subject**|**Metrics - Number of Attendees**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+1|3/1/2017 5:00PM|1|No|No|10|Process Meeting|10
+2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
+

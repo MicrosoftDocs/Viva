@@ -73,22 +73,7 @@
                   href: ~/Use/Chart-Types.md
             - name: Queries
               href: ~/tutorials/Query-basics.md 
-              items:  
-                - name: Create queries
-                  href: ~/tutorials/Create-queries.md
-                  items: 
-                    - name: Query templates
-                      href: ~/tutorials/query-templates.md                      
-                    - name: Power BI templates
-                      href: ~/tutorials/power-bi-templates.md                  
-                    - name: Customize a metric
-                      href: ~/tutorials/Customize-a-metric.md                    
-                    - name: View, download, and export query results
-                      href: ~/Use/View-download-and-export-query-results.md
-                    - name: Understand and interpret query output
-                      href: ~/Use/Csv-query-output-file.md
-                    - name: Query auto-refresh option
-                      href: ~/tutorials/Query-auto-refresh.md 
+              items:
                 - name: Person queries
                   href: ~/tutorials/Person-queries.md
                 - name: Meeting queries
@@ -98,7 +83,17 @@
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md  
+                  href: ~/tutorials/Person-to-group-queries.md                      
+                - name: Power BI templates
+                  href: ~/tutorials/power-bi-templates.md                  
+                - name: Customize a metric
+                  href: ~/tutorials/Customize-a-metric.md                    
+                - name: View, download, and export query results
+                  href: ~/Use/View-download-and-export-query-results.md
+                - name: Understand and interpret query output
+                  href: ~/Use/Csv-query-output-file.md
+                - name: Query auto-refresh option
+                  href: ~/tutorials/Query-auto-refresh.md 
                 - name: Understand meeting exclusions
                   href: ~/Use/Understand-meeting-exclusions.md
                 - name: Create custom meeting exclusion rules
