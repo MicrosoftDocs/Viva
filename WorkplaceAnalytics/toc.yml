@@ -56,10 +56,10 @@
             href: ~/Use/Create-Queries.md
             name: View, download, and export query results
             href: ~/Use/View-download-and-export-query-results.md
-          - name: Understand meeting exclusions
-            href: ~/Use/Understand-meeting-exclusions.md
-          - name: Create custom meeting exclusion rules
-            href: ~/Use/Create-custom-meeting-exclusions-rules.md
+#          - name: Understand meeting exclusions
+#            href: ~/Use/Understand-meeting-exclusions.md
+#          - name: Create custom meeting exclusion rules
+#            href: ~/Use/Create-custom-meeting-exclusions-rules.md
       - name: Tutorials
         items:
           - name: Queries overview
