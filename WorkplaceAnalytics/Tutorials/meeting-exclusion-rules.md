@@ -99,13 +99,13 @@ Now that you've created a framework for your new rule, you add -- and optionally
 
 2. **Step 2: Exclude small meetings.** Just as on the cancelled-meetings page, you cannot change the default filter for this exclusion. However, you can change the way it is applied by specifying exceptions to the exclusion. You do this on the following parts of the page: [Word cloud](meeting-exclusion-concept.md#word-cloud), [Keyword search](meeting-exclusion-concept.md#keyword-search), [Phrase table](meeting-exclusion-concept.md#phrase-table).
 
-   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Word cloud](meeting-exclusion-concept.md#word-cloud).
+   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
 
    When you have finished making exceptions to the small-meetings exclusion and you are ready to add the exclusion to the rule, click **Next**. Workplace Analytics displays the next step in the flow, the page for excluding large meetings. Notice that the values that are shown near the top of the page for **Attendee meeting hours** and **Number of meetings** have been lowered as a result of the exclusions that we've applied earlier in the last two pages.
 
 3. **Step 3: Exclude large meetings.** This exclusion differs from the first two in that you can change the value in the "Exclude meetings where" filter from the default value of 250 attendees. 
 
-   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Word cloud](meeting-exclusion-concept.md#word-cloud).
+   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
 
     >[!Note] 
     > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
@@ -114,7 +114,7 @@ Now that you've created a framework for your new rule, you add -- and optionally
 
 4. **Step 4: Exclude long meetings.** To exclude meetings by duration, under **Exclude meetings where,** specify the maximum length of meetings that you want your analysis to include. The default value is 8 hours. 
 
-   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion.  You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Word cloud](meeting-exclusion-concept.md#word-cloud).
+   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion.  You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
 
    >[!Note] 
    > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
@@ -128,7 +128,7 @@ Workplace Analytics also preselects some topics for you. For example, in the fol
  
      Each topic that is listed under **List of topics** is also a tab. On an open tab, you can see keywords and phrases that relate to the topic. For example, the **Out of Office** tab contains the phrase "day off." These keywords are excluded from analysis. Click the ‘X' of a keyword to delete it from this list. This exempts the keyword from exclusion; in other words, meetings whose subject line contains this keyword are removed from the exclusion and, therefore, available for analysis. 
 
-     You might have a specific word or phrase in mind that you want to exclude from analysis; that is, to add to this exclusion. If it is not listed under Keywords, search for it by typing it in the **Add a custom keyword** field. See [Keyword search](meeting-exclusion-concept.md#keyword-search).   
+     You might have a specific word or phrase in mind that you want to exclude from analysis; that is, to add to this exclusion. If it is not listed under Keywords, search for it by typing it in the **Add a custom keyword** field. For more information, see [Keyword search](meeting-exclusion-concept.md#keyword-search).   
 
      This meetings-by-topic page also offers the **Phrases that contain the selected keyword** table and the functionality described in the step for creating a small-meetings exclusion. 
 
@@ -156,7 +156,7 @@ After Workplace Analytics publishes your new rule, it displays a read-only summa
 
 ## Select a rule for use
 
-You can have one rule in effect at a time. To select a rule for use on the **Explore** page dashboards, see [Use rules in the Explore dashboards](#use-rules-in-the-explore-dashboards). For the rule to be used in a query, see [Use rules with queries](#use-rules-with-queries).
+To select a rule for use on the **Explore** page dashboards, see [Use rules in the Explore dashboards](#use-rules-in-the-explore-dashboards). For the rule to be used in a query, see [Use rules with queries](#use-rules-with-queries).
 
 ### Use rules in the Explore dashboards
 

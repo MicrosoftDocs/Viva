@@ -45,7 +45,7 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
 >[!Note] 
-> This calculation updates after you select next and advance to the next step.
+> This calculation updates after you select **Next** and advance to the next step.
 
 ## Interactive summary of the current exclusion step
 
@@ -64,8 +64,6 @@ This area has three informative areas:
    >[!Tip] 
    >Pay particular attention to the number shown for _Excluded meeting hours_. This metric is usually more important than the percentage of meetings because time spent in meetings is a more important indicator when analyzing meeting behavior than the sheer number of meetings, which can vary greatly in length. 
 
-
-
 ## Customization working area
 
 Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The _cancelled meetings_ exclusion type cannot be customized, but you can choose not to use the exclusion in your rule.) 
@@ -75,11 +73,11 @@ Below the **Summary of meetings that remain**, you can customize four of the fiv
 > When you first add an exclusion to your rule, the exclusion removes an entire class of meetings (such as long ones) from analysis. _Customizing_ an exclusion means to remove a carefully selected subset of those meetings _from the exclusion_, which _returns_ that subset of meetings to analysis. 
 -->
 
-You make customizations on the following page areas:
+You make the following types of customizations:
 
- * You can change the default filter value for any step that has a numerical filter.
- * You can choose which keywords and topics that you would like to exclude from analysis. 
- * You can create exceptions to an exclusion. 
+ * You can change the default filter value for any step that has a numerical filter. For more information, see [Walkthrough: to add a meeting exclusion rule](meeting-exclusion-rules#walkthrough-to-add-a-meeting-exclusion-rule).
+ * You can choose which keywords and topics that you would like to exclude from analysis. For more information, see [Walkthrough: to add a meeting exclusion rule](meeting-exclusion-rules#walkthrough-to-add-a-meeting-exclusion-rule).
+ * You can create [exceptions to an exclusion](#make-an-exception-to-an-exclusion). 
 
 ### Make an exception to an exclusion
 Sometimes, the default exclusion filters out meetings that you may want to keep in your analysis. You may want to make exceptions to an exclusion without removing the entire exclusion itself. The tools described in this section will help you identify which meetings you may want to keep in your analysis based on the keywords associated with these meeting subject lines. 
@@ -90,17 +88,17 @@ For steps 2-4 in the meeting exclusion creation flow, appointments, large meetin
 
 Below the heading **Identify exceptions** is a word cloud that displays keywords from meeting subject lines. It includes only keywords for meetings that meet the filter criteria that are being applied on the current step. In a word cloud, the larger the size of text of a keyword, the more meeting hours the keyword represents.
 
-The filter context of the word cloud always reflects the filter context for the step that you are on. For example, in the _Exclude small meetings_ step, the keywords were found in the invitations where the number of attendees is less than or equal to one. 
+The filter context of the word cloud always reflects the filter context for the step that you are on. For example, in the _Exclude small meetings_ step, the keywords were found in the meeting invitations where the number of attendees is less than or equal to one. 
 
 While you define the exclusion, if you adjust that filter context, the word cloud is re-filtered accordingly. 
 
 To remove a keyword from this exclusion, select the keyword in the word cloud and then click **Make an exception**. Before you remove it, you might want to learn more about it and its impact on the data. To learn more, do one of the following: 
- * Hover over the keyword. This displays a text box that shows meeting hours and meeting count.
- * Click the keyword. This selects the keyword and displays details about its impact on meeting hours in the Phrase table. The Phrase table is described later in this step.
+ * Hover over the keyword. This displays a tooltip that shows meeting hours and meeting count.
+ * Click the keyword. This selects the keyword and displays details about its impact on meeting hours in the Phrase table. The [Phrase table](#phrase-table) is described later in this step.
 
 ### Keyword search
 
-You might have a specific word in mind that you want to retain in your analysis (that is, remove from the exclusion). If cannot find that word in the word cloud, search for it in the field marked **Search for a keyword**. You can search for phrases that contain one, two, or three words. If the keyword is found, Workplace Analytics display data in the Phrase table about removing this keyword from the exclusion. To remove it from the exclusion, click **Make an exception**. 
+You might have a specific word in mind that you want to retain in your analysis (that is, remove from the exclusion). If you cannot find that word in the word cloud, search for it in the field marked **Search for a keyword**. You can search for phrases that contain one, two, or three words. If the keyword is found, Workplace Analytics display data in the Phrase table about removing this keyword from the exclusion. To remove it from the exclusion, click **Make an exception**. 
 
 #### Remove an exception
 
