@@ -16,17 +16,17 @@ ms.prod: wpa
 
 This article describes screen elements and concepts whose understanding can help you create and use meeting exclusion rules. Those tasks are described in the step-by-step walkthroughs in [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md).
 
-## Progress summaries  
-
 At each step in the exclusion-creation flow, you see a page such as the following: 
 
 ![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
  
 On these pages, the following sections help you create meeting exclusions in an informed way:
 
+## Progress summaries  
+
 ### Progress bar
 
-The progress bar at the top of the page track the step in the flow that you are currently on: 
+The progress bar at the top of the page tracks the step in the flow that you are currently on: 
 
 ![Progress bar](../images/wpa/tutorials/12-progress-bar.png)
 
@@ -44,19 +44,10 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 
 ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
-## Customization working area
-
-Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The _cancelled meetings_ exclusion type cannot be customized.) 
-
 >[!Note] 
-> When you first add an exclusion to your rule, the exclusion removes an entire class of meetings (such as long ones) from analysis. _Customizing_ an exclusion means to remove a carefully selected subset of those meetings _from the exclusion_, which _returns_ that subset of meetings to analysis. 
+> This calculation updates after you select next and advance to the next step.
 
-You make customizations on the following page areas:
-
- * The [Interactive summary of the current exclusion step](#interactive-summary-of-the-current-exclusion-step) appears in the middle of the page. 
- * The **Identify exceptions** area is the bottom part of the page. It presents a [Word cloud](#word-cloud), a [Phrase table](#phrase-table), and search capability ([Keyword search](#keyword-search)) that you use to remove phrases from the exclusion that you are defining. 
-
-### Interactive summary of the current exclusion step
+## Interactive summary of the current exclusion step
 
 The middle section of the page shows you a summary of the current exclusion step:
 
@@ -72,6 +63,28 @@ This area has three informative areas:
   
    >[!Tip] 
    >Pay particular attention to the number shown for _Excluded meeting hours_. This metric is usually more important than the percentage of meetings because time spent in meetings is a more important indicator when analyzing meeting behavior than the sheer number of meetings, which can vary greatly in length. 
+
+
+
+## Customization working area
+
+Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The _cancelled meetings_ exclusion type cannot be customized, but you can choose not to use the exclusion in your rule.) 
+
+<!-- remove 
+>[!Note] 
+> When you first add an exclusion to your rule, the exclusion removes an entire class of meetings (such as long ones) from analysis. _Customizing_ an exclusion means to remove a carefully selected subset of those meetings _from the exclusion_, which _returns_ that subset of meetings to analysis. 
+-->
+
+You make customizations on the following page areas:
+
+ * You can change the default filter value for any step that has a numerical filter.
+ * You can choose which keywords and topics that you would like to exclude from analysis. 
+ * You can create exceptions to an exclusion. 
+
+### Make an exception to an exclusion
+Sometimes, the default exclusion filters out meetings that you may want to keep in your analysis. You may want to make exceptions to an exclusion without removing the entire exclusion itself. The tools described in this section will help you identify which meetings you may want to keep in your analysis based on the keywords associated with these meeting subject lines. 
+
+For steps 2-4 in the meeting exclusion creation flow, appointments, large meetings, and long meetings, you can use the  [Word cloud](#word-cloud), a [Phrase table](#phrase-table), and search capability ([Keyword search](#keyword-search)) to customize your exclusions in this manner.
 
 ### Word cloud
 
