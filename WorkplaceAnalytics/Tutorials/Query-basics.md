@@ -112,7 +112,7 @@ Workplace Analytics includes a number of predefined query templates to help you 
 * **Reduce meeting hours** finds groups that are overwhelmed by meetings.
 * **Standard query** provides all base metrics available for a person query.
 
-### Related topics
+## Related topics
 
 [Power BI templates](../Tutorials/Power-bi-templates.md)
 
