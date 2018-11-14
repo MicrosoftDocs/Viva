@@ -5,8 +5,8 @@
 title: Workplace Analytics Setup -- Configure Workplace Analytics settings
 description: Describes how to configure the settings for Workplace Analytics.
 author: madehmer
-ms.author: v-midehm
-ms.date: 10/29/2018
+ms.author: madehmer
+ms.date: 11/14/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -65,7 +65,7 @@ After evaluating your privacy needs, you can use the Settings page in Workplace 
 ### User data exclusions
 
 * Exclude emails/meetings to, or from, specific users, or all users from a domain using “;” as the delimiter
-* Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter. Terms can be any combination of letters, numbers and special characters, e.g. client attorney privilege; D&I
+* Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter. Terms can be any combination of letters, numbers and special characters. However each term must be listed separately, because only exact subject keywords are excluded, for example: client;attorney;privilege;D&I. For more details, see [Keyword exclusion logic](../privacy/privacy-considerations#keyword-exclusion-logic).
 
 > [!Note]
 > If you exclude email addresses, do not assign licenses to them.  You should also include all email aliases for  individuals.
