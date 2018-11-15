@@ -5,8 +5,8 @@
 title: Explore meetings overview metrics in Workplace Analytics
 description: Overview of meetings metrics on the Workplace Analytics Explore page.
 author: madehmer
-ms.author: v-midehm
-ms.date: 07/31/2018
+ms.author: madehmer
+ms.date: 11/15/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -19,7 +19,7 @@ The **Meetings Overview** page in **Explore**, summarizes meeting norms within y
 
 To open the **Meetings overview** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your credentials.
 2. In the left navigation pane, select **Explore**.
 3. In **Explore**, select the **Meetings overview** tab.
 
