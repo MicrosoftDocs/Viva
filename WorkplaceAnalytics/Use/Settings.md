@@ -14,11 +14,11 @@ ms.prod: wpa
 
 # Configure Workplace Analytics settings
 
-## Introduction to privacy settings
-
-
+## Workplace Analytics settings
 
 On the **Settings** page, admins can customize system defaults and privacy settings and can also upload [organizational data](../Use/settings.md#organizational-data) to Workplace Analytics, from the respective tabs. This article focuses on system defaults and privacy settings. 
+
+Use company-specific legal and privacy guidelines to define the settings to use in Workplace Analytics. After you define and confirm privacy settings, you are ready to provision the service to comply with these rules. 
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
@@ -44,7 +44,10 @@ If a measured employee or other internal collaborator does not have a time zone 
 
 ### Working days and hours
 
-The **Working days and hours** setting lets admins specify the working days and hours of employees who have not already configured these settings in their mailbox.
+Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
+Although no option exists within the organizational data file to upload working days and hours, Workplace Analytics administrators can set default working days and hours for the organization.
+
+The **Working days and hours** setting lets admins specify the working and non-working days and hours of employees who have not already configured these settings in their mailbox.
 
   ![System defaults](../images/WpA/Use/settings-system-defaults-b.png)
 
@@ -73,27 +76,29 @@ In the **Privacy settings** section, you can configure and customize the data th
 
 - Specify the minimum group size. 
 
-    The minimum group size setting helps maintain employee privacy by ensuring that individuals cannot be easily identified by the attributes of the group, and determines what you can view in the visual dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../tutorials/solutions-task.md) area. 
+    The minimum group size setting determines what you can view in the visual dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../tutorials/solutions-task.md) area, and helps maintain employee privacy by ensuring that individuals cannot be easily identified by the attributes of the group. 
     The default minimum group size is set to five, but you can adjust the group size to suit the needs of your organization. However, you cannot set the size to lower than five. Larger group sizes reduce the risk of identification of individual group members.
 
 - Specify whether to hide subject lines in [Meeting query](../tutorials/meeting-queries.md) results.
 
-    This enables you to control whether subject lines are included or not in meeting query results. By default, subject lines are _not_ shown in query results. Subject lines are useful for analysts who want to set up meeting exclusion rules or query meeting data. You can decide to:
+    This enables you to control whether to include or hide subject lines in meeting query results. By default, subject lines are _not_ shown in meeting query results. Subject lines are useful for analysts who want to set up meeting exclusion rules or query meeting data. You can decide to:
 
 - Exclude instances of collaboration between:
     - Specific email addresses
     - Specific users in specific domains
 
-   This means that you can exclude email and meetings emails to or from specific users, or exclude all users from specified domains, which helps to maintain employee privacy.
+    That is, you can exclude any emails and meetings emails to or from specific users, or exclude all users from specified domains, which helps to maintain employee privacy. Office 365 admins should not assign licenses to any excluded email addresses.
 
 - Exclude words from subject lines
 
-    This means you can exclude specific words from being displayed in the subject line of emails.
+    This means you can exclude specific words from being displayed in the subject line of emails or meetings. Terms can be any combination of letters, numbers and special characters, for example, client attorney privilege; D&I.
 
    ![Privacy settings](../images/WpA/Use/settings-privacy-settings-b.png)
 
 > [!Note]
-> When specifying domains, email addresses, or subject line words to exclude from analysis, enter separate words in the corresponding fields, separated by semicolons. Exclusion occurs before metadata is processed within Workplace Analytics. Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
+> When specifying domains, email addresses, or subject line words to exclude from analysis, enter separate words in the corresponding fields, separated by a semicolon as the delimiter.  If you exclude email addresses, do not assign licenses to them.
+
+Exclusion occurs before metadata is processed within Workplace Analytics. Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
 
 ### To configure privacy settings
 
@@ -114,3 +119,16 @@ In the **Privacy settings** section, you can configure and customize the data th
 
 On the **Organizational data** tab, admins can upload an organizational data file to Workplace Analytic in .csv format. Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems.
 Changes to specific attributes in the organizational data file only take effect from their specified effective date. For information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
+
+
+### Video: Privacy
+
+<!-- out for now
+Watch this video to learn how Workplace Analytics handles employee data privacy, and how the Workplace Analytics admin can configure their privacy settings.
+-->
+
+<!-- old link, with thumbnail
+[<img src="../Images/WpA/setup/Privacy.png" alt="Privacy video">](https://aka.ms/WpAPrivacy_Video)
+-->
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>

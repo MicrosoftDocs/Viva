@@ -24,18 +24,6 @@ Workplace Analytics does not encode any specific policy, instead it provides con
 
 This document introduces the privacy controls available to Workplace Analytics administrators. You control both the data and access to the data in Workplace Analytics.
 
-### Video: Privacy
-
-<!-- out for now
-Watch this video to learn how Workplace Analytics handles employee data privacy, and how the Workplace Analytics admin can configure their privacy settings.
--->
-
-<!-- old link, with thumbnail
-[<img src="../Images/WpA/setup/Privacy.png" alt="Privacy video">](https://aka.ms/WpAPrivacy_Video)
--->
-
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
 ### You decide who gets to see what data
 
 Organizations decide who can have access to see the data in Workplace Analytics. You should ensure that primary users receive suitable training in privacy, and in your company’s policies and other applicable subject areas, before being granted access to the data. The following levels of permission provide access to the data:
@@ -45,7 +33,7 @@ Organizations decide who can have access to see the data in Workplace Analytics.
 * **Administrator role** gives access to administrator features only.
 * **Program manager** gives access to the Workplace Analytics Home page and lets program managers explore metrics in cases where the minimum group size is enforced. PMs also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
 
-## You control the data that Workplace Analytics uses
+### You control the data that Workplace Analytics uses
 
 You retain full control over what data is used and how it is used within Workplace Analytics. Workplace Analytics uses Office 365 email and calendar metadata and external data defined by your organization to compute how much time groups within your organization spend on email and in meetings, and with whom.
 
@@ -73,11 +61,12 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 
 ## Organizational data
 
-Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line of business data stores. Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions. For more information, see [Prepare organizational data](~/setup/prepare-organizational-data.md).
+Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line of business data stores. Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
 
 The organizational data set is combined with the Office 365 email and calendar metadata to produce the complete data set that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Workplace Analytics through dashboards or query results.
 
 Note that other information provided in the organizational data set is exposed in Workplace Analytics dashboards and reports. Take care to ensure that the data set does not include personal data (such as the employee ID).
+For more information about organizational data, see [Prepare organizational data](~/setup/prepare-organizational-data.md).
 
 <!-- 8/24 ADDING NEW SECTION ON DATA RETENTION POLICY. This is temporary until the new policy is announced. -->
 
@@ -88,7 +77,7 @@ If your Workplace Analytics licenses expire, you have a 90-day period to downloa
 **To download query results**
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your organization's credentials.
-2. Open the Queries page.
+2. Open the **Queries** page.
 3. Select **Results**. The Results page displays previously run queries.
 4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file. 
 
