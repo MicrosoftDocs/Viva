@@ -20,8 +20,6 @@
           href: ~/setup/assign-licenses-to-population.md          
         - name: Assign roles
           href: ~/setup/assign-roles-to-wpa-admins.md            
-        - name: Configure settings
-          href: ~/setup/configure-wpa-settings.md
         - name: Workplace Analytics settings
           href: ~/Use/Settings.md
   #        - name: Privacy settings
