@@ -5,7 +5,7 @@
 title: Explore meetings overview metrics in Workplace Analytics
 description: Overview of meetings metrics on the Workplace Analytics Explore page.
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.date: 11/15/2018
 ms.topic: get-started-article
 localization_priority: normal 

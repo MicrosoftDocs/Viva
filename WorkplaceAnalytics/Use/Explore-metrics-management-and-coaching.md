@@ -5,7 +5,7 @@
 title: Explore management and coaching metrics in Workplace Analytics
 description: Overview of the management and coaching metrics in the Workplace Analytics Explore page.
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.date: 11/15/2018
 localization_priority: normal 
 ms.prod: wpa

@@ -6,7 +6,7 @@ title: Get started with Workplace Analytics
 description: Gives a high-level overview of the primary features in Workplace Analytics. 
 author: madehmer
 ms.author: madehmer
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -31,9 +31,7 @@ Workplace Analytics gives you different ways to analyze and explore your data.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers and employees.
 * [**Internal networks**](../use/Explore-Metrics-internal-networks.md) gives a summary of your employees’ networking patterns within the company.
-* [**External collaboration**](../use/Explore-Metrics-external-collaboration.md) gives a summary of your employees’ networking patterns with people outside the company. 
-
-
+* [**External collaboration**](../use/Explore-Metrics-external-collaboration.md) gives a summary of your employees’ networking patterns with people outside the company.
 
 [**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
 
