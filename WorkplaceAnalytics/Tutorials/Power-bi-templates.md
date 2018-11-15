@@ -6,7 +6,7 @@ title: Power BI templates
 description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
 author: paul9955
 ms.author: v-pascha
-ms.date: 10/09/2018
+ms.date: 11/15/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -24,7 +24,7 @@ In the following example procedure, you will use the Collaboration Overload quer
 
 **To access a Power BI template**
 
-1.  Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+1.  Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your credentials.
 
 2.  In the left navigation pane, select **Queries**.
 

@@ -112,7 +112,7 @@ If your Workplace Analytics licenses expire, you have a 90-day period to downloa
 
 **To download query results**
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your Microsoft credentials.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your credentials.
 2. Open the Queries page.
 3. Select **Results**. The Results page displays previously run queries.
 4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file. 

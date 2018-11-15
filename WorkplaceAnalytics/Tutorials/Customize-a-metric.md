@@ -53,7 +53,7 @@ You can also add additional base metrics to your query. You would do this to mod
 
 To customize and then change a base metric: 
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your Microsoft credentials.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your credentials.
 
 2. Select **Queries** and then select the type of query you want to create: Person query or Meeting query. (You can customize metrics only when you are working with a Person query or Meeting query.)
 
