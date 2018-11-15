@@ -3,8 +3,8 @@
 # required metadata
 
 title: Configure settings for Workplace Analytics
-description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics. 
-author: madehmer
+description: Describes how Workplace Analytics administrators can configure and edit settings in Workplace Analytics. 
+author: buntus
 ms.author: v-johtob
 ms.date: 07/20/2018
 ms.topic: get-started-article
@@ -12,71 +12,105 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Configure settings for Workplace Analytics
+# Configure Workplace Analytics settings
 
-On the Settings page, administrators can customize system defaults and privacy settings, and upload organizational data to Workplace Analytics.
+## Introduction to privacy settings
+
+
+
+On the **Settings** page, admins can customize system defaults and privacy settings and can also upload [organizational data](../Use/settings.md#organizational-data) to Workplace Analytics, from the respective tabs. This article focuses on system defaults and privacy settings. 
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
-## Time zone settings
-In the **System defaults** section, you can customize the **Default time zone**. This is used to compute after-hours metrics for employees whose time zone was not provided as part of the organizational data. This is typically the time zone of the corporate headquarters or the time zone in which most employees reside. If a measured employee or other internal collaborator does not have a time zone defined as part of the organizational data, the metric will be computed using the default time zone.
+### System and privacy
 
-The default time zone for Workplace Analytics is Pacific Standard Time. Visit [Time zones in Workplace Analytics](../Use/Timezones-for-workplace-analytics.md) for a complete list of times zones you can use.
+On the **System and privacy** tab, in the **System defaults** section, you can configure the following employee options:
 
-![Default time zone](../images/Wpa/use/default-timezone-settings.png)
+- Default time zone
+- Working days and hours
+- Hourly rate
 
-### To change the default time zone
+#### Default time zone
 
-1. On the **Settings** page, select **Settings**.
-2. Under **System defaults**, select a time zone from the **Default time zone list**.
-3. Select **Save**.
+This setting lets you configure the default time zone, which is used to compute after-hours metrics for employees whose time zone information was not originally provided in the organizational data file upload. Typically, the default time zone is the time zone of the corporate headquarters or the time zone in which most employees reside.
 
-This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
+If a measured employee or other internal collaborator does not have a time zone defined in the organizational data file, or if you do not update the default time zone setting for your zone, Workplace Analytics uses Pacific Standard Time (PST).
 
-## Privacy settings
+#### To configure the default time zone
 
-In the **Privacy settings** section, you can customize and configure what data is accessible for analysis.
+- From the **Default time zone** list box, under **System defaults**, select the appropriate time zone.
+
+    ![System defaults](../images/WpA/Use/settings-default-time-zone-b.png)
+
+### Working days and hours
+
+The **Working days and hours** setting lets admins specify the working days and hours of employees who have not already configured these settings in their mailbox.
+
+  ![System defaults](../images/WpA/Use/settings-system-defaults-b.png)
+
+#### To configure working days and hours
+
+1. Under **Working days**, select the appropriate check boxes for the days of the week.
+2. From the **Working day starts** and **Working day ends** list boxes, select the start and end times.
+
+### Hourly rate
+
+The **Hourly rate** field in **System defaults** is related to the optional **HourlyRate** column in the organizational data file that admins can choose to include. This column is used to calculate the total cost of low-quality meetings, as summarized on the [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate) page.
+
+If you include the **HourlyRate** column in the organizational data file, cost is calculated as the sum of a person's default hourly rate for the organization multiplied by low-quality meeting hours.
+
+The **Hourly Rate** field lets admins set the hourly rate for employees when required. If no hourly rate is assigned to a meeting participant in the organizational data file, the default hourly rate field in System defaults, is set to $75. However, admins can change the default value to any other hourly rate.
+
+#### To configure the hourly rate
+
+- Under System defaults, in the **Hourly rate** field, enter the appropriate employee hourly rate.
+
+### Configuring privacy settings
+
+In the **Privacy settings** section, you can configure and customize the data that you want to include for analysis.
+
+**You can use privacy settings to**:
+
+- Specify the minimum group size. 
+
+    The minimum group size setting helps maintain employee privacy by ensuring that individuals cannot be easily identified by the attributes of the group, and determines what you can view in the visual dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../tutorials/solutions-task.md) area. 
+    The default minimum group size is set to five, but you can adjust the group size to suit the needs of your organization. However, you cannot set the size to lower than five. Larger group sizes reduce the risk of identification of individual group members.
+
+- Specify whether to hide subject lines in [Meeting query](../tutorials/meeting-queries.md) results.
+
+    This enables you to control whether subject lines are included or not in meeting query results. By default, subject lines are _not_ shown in query results. Subject lines are useful for analysts who want to set up meeting exclusion rules or query meeting data. You can decide to:
+
+- Exclude instances of collaboration between:
+    - Specific email addresses
+    - Specific users in specific domains
+
+   This means that you can exclude email and meetings emails to or from specific users, or exclude all users from specified domains, which helps to maintain employee privacy.
+
+- Exclude words from subject lines
+
+    This means you can exclude specific words from being displayed in the subject line of emails.
+
+   ![Privacy settings](../images/WpA/Use/settings-privacy-settings-b.png)
 
 > [!Note]
-> When adding the subject line words to exclude from analysis, use single words, separated by a semicolon.
+> When specifying domains, email addresses, or subject line words to exclude from analysis, enter separate words in the corresponding fields, separated by semicolons. Exclusion occurs before metadata is processed within Workplace Analytics. Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
 
-### What you can do with privacy settings
+### To configure privacy settings
 
-* Specify the smallest group size to appear in the Explore Metrics section. Larger group sizes reduce the risk of individual group members being personally identified.
-* Specify whether subject lines should be shown in query results.
-* Exclude sensitive emails, domains, or keywords in subject lines.
+1. Under **Privacy settings**, configure the minimum group size in the corresponding field.
+2. Hide any desired meeting subject lines from query results in the corresponding drop-down menu. 
+3. Exclude from analysis any domains, email addresses, or words from subject lines that you want.
+4. Carefully verify that your privacy settings are correct and then select **"I confirm that all privacy settings are complete and that data will not be made available until user licenses have been applied**". Settings are not final until you select this check box.
 
-Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
+3. At the top right of the page, select **Save**.
 
-When you are satisfied with your privacy settings, your data can be processed.
+  Workplace Analytics only begins processing data when privacy settings run for the first time after you select **Save**. Processing your data can take up to two weeks to complete. Once the data is ready, you can then upload the organizational data file. Privacy settings take effect after the organizational data file is uploaded and processed.
 
-![Privacy settings](../images/Wpa/use/privacy-settings-settings.png)
+   ![Privacy settings](../images/WpA/Use/settings-privacy-settings.png)
 
-### To configure your privacy settings
-
-1. On the **Settings** page, select **Settings**.
-2. Under **Privacy settings**, configure the settings to meet your company's needs.
-
- > [!Note]
- > You may select **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you select the **I confirm that all privacy settings are complete** check box. When you select the check box, it begins the processing of Office 365 data.
-
-3. Select **Save**.
-
- > [!Note]
- > Carefully validate that your privacy settings are correct, before you select the **I confirm that all privacy settings are complete** check box. You can change the settings at any time, but the setting changes will not take effect until the data is processed by Office 365 again for the following month.
-
-4. To begin the processing of Office 365 data, select the **I confirm that all privacy settings are complete** check box, and then select **Save**.
-
-### To begin processing your data in Workplace Analytics
-
-* Select the **I confirm all privacy settings are complete** check box, and then select **Save**.
+>[!Note] All subsequent changes to privacy settings after the first run, do not take effect until the next time that Workplace Analytics refreshes collaboration data. Any changes made to system defaults affect existing data.
 
 ## Organizational data
 
-Administrators will use the **Organizational data** tab to upload data into Workplace Analytics.
-
-![Privacy settings](../images/Wpa/use/organizational-data-settings.png)
-
-### To prepare your data for upload to Workplace Analytics
-
-* Follow the instructions in [Prepare and upload organizational data](../setup/upload-organizational-data.md).
+On the **Organizational data** tab, admins can upload an organizational data file to Workplace Analytic in .csv format. Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems.
+Changes to specific attributes in the organizational data file only take effect from their specified effective date. For information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
