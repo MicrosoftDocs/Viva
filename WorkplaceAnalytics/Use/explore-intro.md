@@ -19,4 +19,5 @@ The Explore page provides the following set of analytical dashboards as a starti
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) gives a summary of day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers and employees.
-* [**Networks and collaboration**](../use/explore-metrics-networks-and-collaboration.md) gives a summary of the network patterns within the company.
+* [**Internal networks**](../use/explore-metrics-internal-networks.md) shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
+* [**External collaboration**](../use/explore-metrics-external-collaboration.md) gives a summary of employees' network patterns with people outside the company. 
