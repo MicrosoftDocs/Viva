@@ -6,7 +6,7 @@ title: Explore External collaboration metrics in Workplace Analytics
 description: An overview of the External collaboration dashboards available in Workplace Analytics.
 author: buntus
 ms.author: v-johtob
-ms.date: 11/15/2018
+ms.date: 09/05/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -21,7 +21,7 @@ The **External collaboration** page in **Explore**, provides a summary of your e
 
 To open the **External networks** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your credentials.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
 2. In the left navigation pane, select **Explore**.
 3. In **Explore**, select the **External networks** tab.
 
