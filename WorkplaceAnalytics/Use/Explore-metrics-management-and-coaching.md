@@ -5,8 +5,8 @@
 title: Explore management and coaching metrics in Workplace Analytics
 description: Overview of the management and coaching metrics in the Workplace Analytics Explore page.
 author: madehmer
-ms.author: v-midehm
-ms.date: 07/19/2018
+ms.author: madehmer
+ms.date: 11/16/2018
 localization_priority: normal 
 ms.prod: wpa
 ---
@@ -18,7 +18,7 @@ The **Management and coaching** page in **Explore**, summarizes collaboration be
 
 To open the **Management and coaching** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizational credentials.
 2. In the left navigation pane, select **Explore**.
 3. In **Explore**, select the **Management and coaching** tab.
 

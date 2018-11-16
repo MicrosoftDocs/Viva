@@ -6,7 +6,7 @@ title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 10/17/2018
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -34,13 +34,6 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 In the following steps, you specify a .csv file to upload to Workplace Analytics.
 
 **To select the file to upload**
-
-<!-- DELETED 31 OCTOBER 2018 PER LEANNA: 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your Microsoft credentials.
-2. In the left navigation pane, select **Settings**.
-3. Select **Organizational data**. The Upload history area of this page displays the previous data uploads from your organization.
-4. Select **New upload**.
--->
 
 1. On the Upload page, select **Name your upload**, and then type the name of your new upload file.
 2. Optionally, select **Add an optional description** and type a description of this upload.
