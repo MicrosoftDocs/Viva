@@ -79,6 +79,40 @@ In the **Privacy settings** section, you can configure and customize the data th
     The minimum group size setting determines what you can view in the visual dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../tutorials/solutions-task.md) area, and helps maintain employee privacy by ensuring that individuals cannot be easily identified by the attributes of the group. 
     The default minimum group size is set to five, but you can adjust the group size to suit the needs of your organization. However, you cannot set the size to lower than five. Larger group sizes reduce the risk of identification of individual group members.
 
+#### Example
+
+In the following chart, the blue-green columns on the left represent groups whose size exceeds the minimum group size. For this reason, they display real data. The gray and white columns on the right represent no data because the groups are below the minimum-group-size threshold.
+
+<img src="../Images/WpA/group-size-bars.png" alt="Bar chart with bars above and below group size threshold">
+
+
+> [!Note]
+> The minimum group size rule applies to charts that display information derived from HR data. In other words, they display information about circumstances that exist in your organization -- such as managers at a specific level or employees in a particular city.  
+
+**Histogram charts are an exception to the rule**
+
+For histogram charts, the minimum-group-size rule is applied differently, in the following ways:
+
+1. **Filter group too small, then no histogram appears**
+
+   If the _filter group_ that the histogram uses for its data is below minimum group size, Workplace Analytics does not display the histogram at all.
+
+2. **Bin population too small, the bin still appears**
+
+   In histograms, the x-axis consists of rectangles (called "bins") that are based on average metric values, and the y-axis determines the number of people whose average metric value puts them in that bin. _Neither of these values reflects organizational data._ For this reason, the histogram still displays data for a bin even if it contains fewer people than the minimum-group-size value. Histogram charts can safely display this information because it is based on metrics -- on values calculated from observed behavior, _not_ on HR data.
+
+   Even if a bin in a histogram contained data for only one individual, the histogram still displays that data. You cannot single out this individual because you do not know what HR “group” they belong to. (In other charts, such as column charts, an individual in a group below the threshold might be identifiable, but in a histogram the HR group to which individuals belong is the larger filter group.) You also cannot determine the precise metric value of an individual because they are in a bin with a minimum 0.5-hour range.
+
+  You can see histogram charts on the following pages in Workplace Analytics:
+
+   * On the Management and Coaching page in Explore
+* In Solutions:  
+    * For goal setting 
+    * To track program success on the Track page 
+
+
+**You can also use privacy settings to**:
+
 - Specify whether to hide subject lines in [Meeting query](../tutorials/meeting-queries.md) results.
 
     This enables you to control whether to include or hide subject lines in meeting query results. By default, subject lines are _not_ shown in meeting query results. Subject lines are useful for analysts who want to set up meeting exclusion rules or query meeting data. You can decide to:
