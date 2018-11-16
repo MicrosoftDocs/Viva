@@ -112,13 +112,13 @@ Term from subject line to exclude | Actual subject line | Excluded
  legal;acquisition | Verify this is LEGAL | Yes - Case is ignored
  legal;acquisition | Is this illegal | No – Does not match partial words, and did not exclude illegal
  legal;acquisition | Acquisitions are finalized | No - Does not match partial words, and did not exclude acquisitions
- legal acquisition |Is this a legal acquisition | Yes - Excluded "legal acquisition"
+ legal acquisition |Is this a legal acquisition | Yes  - Excluded legal acquisition
 
  > [!Note]
  > When you add subject-line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in languages such as Japanese or Chinese. For best results, use single words, separated by semicolons.
 
 ### Related topics
 
-[Configure settings for Workplace Analytics](../Use/Settings.md)
+[Workplace Analytics settings ](../Use/Settings.md)
 
 [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)
