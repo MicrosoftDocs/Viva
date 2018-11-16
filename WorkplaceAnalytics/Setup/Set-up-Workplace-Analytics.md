@@ -33,7 +33,9 @@ This article describes the steps that are required for setting up and configurin
   
 2.	**Licenses and roles**. Verify that your Office 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](assign-licenses-to-population.md) and [Assign roles](assign-roles-to-wpa-admins.md).
 
-3.	**System settings**. Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system settings](configure-wpa-settings.md#system-settings). 
+3.	**System settings**. Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system settings](configure-wpa-settings.md). 
+
+<!-- TO FIX BUILD DELETED #system-settings-->
 
 4.	**Privacy settings**. Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](configure-wpa-settings.md#privacy-settings). After you've finished making both the system settings and the privacy settings, select **Next**. 
 
