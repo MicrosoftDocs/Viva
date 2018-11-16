@@ -80,7 +80,7 @@ Workplace Analytics guides you step-by-step through the creation of a customized
    >[!Note] 
    >You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you click **Next**:
 
-   ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion.png)
+   ![Skip this exclusion](../Images/WpA/Tutorials/18-use-this-exclusion.png)
 
 5. **Step 1: Exclude cancelled meetings.** The first page in the flow is for excluding meetings that have been cancelled. On this page, you cannot change the default filter. Add this exclusion to your rule by clicking **Next**. Workplace Analytics displays the next page in the flow, the page for excluding small meetings.
 
