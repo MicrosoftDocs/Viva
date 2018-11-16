@@ -27,7 +27,7 @@ This article describes the steps that are required for setting up and configurin
 
 **To set up Workplace Analytics**
 
-1.	**Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page**. If prompted, enter your Microsoft credentials. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, verifying the assignment of licenses and roles:
+1.	**Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page**. If prompted, enter your organization's credentials. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, verifying the assignment of licenses and roles:
    
       ![The Home page guides you through setup](../images/wpa/setup/01-home-start.png)
   

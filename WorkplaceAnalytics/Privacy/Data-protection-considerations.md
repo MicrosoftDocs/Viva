@@ -45,7 +45,7 @@ As a data controller, your organization should:
    * Determine what information you provide to employees about how your organization will process their personal data in Workplace Analytics; and
    * Take local considerations into account (for example, obtain approval from local works councils, if applicable).
  * Use Workplace Analytics privacy controls to direct what data will be analyzed, how data will appear in results, and who will have access to both raw data and the results of analysis.
- * Review and be familiar with this document and other Workplace Analytics [privacy documentation](../Overview/Privacy-And-Data-Access.md) provided by Microsoft. 
+ * Review and be familiar with this document and other Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md) provided by Microsoft. 
 
 ### Microsoft’s role: Data processor
 
@@ -136,7 +136,7 @@ First, you get to decide which users’ mailboxes to include in your Workplace A
  * You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
  * You can rule out confidential or private emails, or those that are rights protected using Microsoft's digital rights management technology.
 
-For more information about making privacy settings, see [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
+For more information about making privacy settings, see [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 
 ### Data provided by your organization
 
