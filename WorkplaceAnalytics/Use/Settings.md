@@ -123,12 +123,4 @@ Changes to specific attributes in the organizational data file only take effect 
 
 ### Video: Privacy
 
-<!-- out for now
-Watch this video to learn how Workplace Analytics handles employee data privacy, and how the Workplace Analytics admin can configure their privacy settings.
--->
-
-<!-- old link, with thumbnail
-[<img src="../Images/WpA/setup/Privacy.png" alt="Privacy video">](https://aka.ms/WpAPrivacy_Video)
--->
-
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
