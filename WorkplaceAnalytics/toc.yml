@@ -17,15 +17,25 @@
         - name: Maintain Workplace Analytics    
           href: ~/setup/maintain-workplace-analytics.md    
         - name: Assign licenses
-          href: ~/setup/assign-licenses-to-population.md          
+          href: ~/setup/assign-licenses-to-population.md
+          items: 
+            - name: Assign group-based licenses
+              href: ~/Use/Group-Based-Licensing.md
+            - name: Assign licenses with PowerShell
+              href: ~/use/Assigning-licenses-with-powershell.md                       
         - name: Assign roles
-          href: ~/setup/assign-roles-to-wpa-admins.md            
+          href: ~/setup/assign-roles-to-wpa-admins.md
+          items: 
+            - name: User roles
+              href: ~/Use/User-Roles.md
+            - name: Assigning user and group roles
+              href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
+            - name: Assign roles with PowerShell
+              href: ~/use/using-powershell-to-assign-roles.md                    
         - name: Workplace Analytics settings
-          href: ~/Use/Settings.md
+              href: ~/Use/Settings.md
   #        - name: Privacy settings
   #          href: ~/setup/configure-wpa-privacy-settings.md
-  #        - name: Workplace Analytics settings
-  #          href: ~/Use/Settings.md
         - name: Prepare organizational data
           href: ~/setup/prepare-organizational-data.md
         - name: Upload organizational data
@@ -34,16 +44,6 @@
               href: ~/setup/upload-organizational-data-1st.md       
             - name: Subsequent uploads
               href: ~/setup/upload-organizational-data.md         
-        - name: Assign group-based licenses
-          href: ~/Use/Group-Based-Licensing.md
-        - name: Assign licenses with PowerShell
-          href: ~/use/Assigning-licenses-with-powershell.md
-        - name: User roles
-          href: ~/Use/User-Roles.md
-        - name: Assigning user and group roles
-          href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
-        - name: Assign roles with PowerShell
-          href: ~/use/using-powershell-to-assign-roles.md  
         - name: Data sources
           href: ~/Use/Data-Sources.md            
         - name: Time zones for Workplace Analytics
@@ -98,16 +98,15 @@
                     - name: Exclusion rules - Tools and concepts
                       href: ~/tutorials/meeting-exclusion-concept.md                  
         - name: Solutions
-  #       href: ~/tutorials/solutions-intro-placeholder.md
           items:
             - name: Teamwork solution
               href: ~/tutorials/Solutions-intro.md  
               items: 
-                - name: Solution - Walkthrough    
+                - name: Walkthrough    
                   href: ~/tutorials/Solutions-task.md 
-                - name: Solution - Participants
+                - name: Participants
                   href: ~/tutorials/Solutions-participants.md                                       
-                - name: Solution - Concepts
+                - name: Concepts
                   href: ~/tutorials/Solutions-conceptual.md             
     - name: Reference
       items:
