@@ -68,7 +68,7 @@ The **Hourly Rate** field lets admins set the hourly rate for employees when req
 
 - Under System defaults, in the **Hourly rate** field, enter the appropriate employee hourly rate.
 
-### Configuring privacy settings
+### Configure privacy settings
 
 In the **Privacy settings** section, you can configure and customize the data that you want to include for analysis.
 

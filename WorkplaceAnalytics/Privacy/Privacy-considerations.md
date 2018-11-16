@@ -121,4 +121,4 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 [Configure Workplace Analytics settings ](../Use/Settings.md)
 
-[Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md)
+[Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)
