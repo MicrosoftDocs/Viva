@@ -147,9 +147,8 @@ Exclusion occurs before metadata is processed within Workplace Analytics. Learn 
 
    ![Privacy settings](../images/WpA/Use/settings-privacy-settings.png)
 
-> [!Note] All subsequent changes to privacy
-> settings after the first run, do not take effect until the next time that Workplace Analytics refreshes collaboration data. Any changes made to system defaults affect existing data.
-
+> [!Note] 
+> All subsequent changes to privacy settings after the first run do not take effect until the next time that Workplace Analytics refreshes collaboration data. Any changes made to system defaults affect existing data.
 
 ## Organizational data
 
