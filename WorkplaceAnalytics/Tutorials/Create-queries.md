@@ -26,9 +26,13 @@ You can use Meeting exclusions to exclude meetings that fall outside relevant no
 
 ### Related topics
 
+[Meeting exclusion rules](../Tutorials/meeting-exclusions-intro.md)
+
+<!-- former topics 
 [Understand meeting exclusions](../Use/Understand-meeting-exclusions.md)
 
-[Create custom meeting exclusions rule](../Use/Create-custom-meeting-exclusions-rules.md)
+[Create custom meeting exclusions](../Use/Create-custom-meeting-exclusions-rules.md)
+-->
 
 ## Business scenario
 

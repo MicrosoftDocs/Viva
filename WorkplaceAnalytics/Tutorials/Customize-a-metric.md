@@ -6,7 +6,7 @@ title: Customize a base metric in a Workplace Analytics query
 description: How to customize and change a base metric in a Workplace Analytics query. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/16/2018
+ms.date: 11/15/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -53,7 +53,7 @@ You can also add additional base metrics to your query. You would do this to mod
 
 To customize and then change a base metric: 
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your Microsoft credentials.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your credentials.
 
 2. Select **Queries** and then select the type of query you want to create: Person query or Meeting query. (You can customize metrics only when you are working with a Person query or Meeting query.)
 
