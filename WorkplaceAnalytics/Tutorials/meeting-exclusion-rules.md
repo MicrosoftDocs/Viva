@@ -50,11 +50,6 @@ Open the Meeting exclusions page to view existing meeting exclusion rules or to 
    * **Your rules:** Rules that you have created.
    * **Others' rules:** Rules that other analysts have created.
 
-<!--
->[!Note]
->Remember that you cannot edit any published meeting exclusion rules.
--->
-
 ## Create a meeting exclusion rule
 
 A meeting exclusion rule is a filter applied to your meeting data. 
@@ -122,6 +117,7 @@ Now that you've created a framework for your new rule, you add -- and optionally
    When you have finished making exceptions, click **Next**.
 
 5. **Page 5: Exclude meetings by topic.** On this page, you use the subject lines of meetings to identify and exclude meetings that are not work related. The left side of the page lists several categories of common keywords, grouped by topic, that you can select for exclusion. 
+
 Workplace Analytics also preselects some topics for you. For example, in the following illustration, **Administrative**, **Medical**, and **Out of Office** are selected for exclusion:
 
      ![Select topics to exclude](../images/wpa/tutorials/05-select-topics-to-exclude.png)

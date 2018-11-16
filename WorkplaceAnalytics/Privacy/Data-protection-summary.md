@@ -49,7 +49,7 @@ You have full control over what data to include in analysis using Workplace Anal
 
  * **Data provided by Microsoft Office 365:** Workplace Analytics uses header information from Office 365 emails and calendar items. This information includes sender and recipient and date and subject lines for emails; and organizer, attendees, and duration of meetings<!-- removed "location" 30Aug18-->. For more information, see [Data provided by Microsoft Office 365] (Data-protection-considerations.md#data-provided-by-microsoft-office-365).
 
- * **Privacy capabilities in your control:** You decide which users’ mailboxes to include in your Workplace Analytics study. You can apply multiple controls over this data to limit it further. For more information, see [Privacy capabilities in your control](Data-protection-considerations.md#privacy-capabilities-in-your-control), [Workplace Analytics privacy and data access](../Overview/Privacy-And-Data-Access.md), and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
+ * **Privacy capabilities in your control:** You decide which users’ mailboxes to include in your Workplace Analytics study. You can apply multiple controls over this data to limit it further. For more information, see [Privacy capabilities in your control](Data-protection-considerations.md#privacy-capabilities-in-your-control), [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md), and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 
  * **Data provided by your organization:** You control what other information you want to be included in Workplace Analytics analyses. You must balance the benefits of analyzing along organizational lines with the risks of including the data required to make those analyses. For more information, see [Data provided by your organization](Data-protection-considerations.md#data-provided-by-your-organization).
 
@@ -72,7 +72,7 @@ For more information about the following request types and how to fulfill them, 
 
 ## Additional Resources
 
-Workplace Analytics [privacy documentation](../Overview/Privacy-And-Data-Access.md)
+Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md)
 
 Article 29 Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=4563)
 

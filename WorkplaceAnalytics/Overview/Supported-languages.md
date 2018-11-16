@@ -27,7 +27,7 @@ The Workplace Analytics user interface is currently available in English only. H
 
 ## Privacy settings
 
-In [Privacy settings](../use/settings.md#privacy-settings), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
+In [Privacy settings](../use/settings.md#configure-privacy-settings), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ![Exclude terms from subject line](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
  

@@ -2,41 +2,41 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics privacy and data access
-description: This article discusses the privacy and data access controls available in Workplace Analytics.  
+title: Workplace Analytics query overview
+description: Workplace Analytics offers a number of flexible queries for custom data analysis.
 author: madehmer
-ms.author: rodonahu
-ms.date: 06/13/2018
+ms.author: madehmer
+ms.date: 11/12/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
-# Workplace Analytics query basics
+# Queries overview
 
-Microsoft Workplace Analytics queries offer a powerful suite of tools to help you access the underlying collaboration data for your organization.
+You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**. Each query type can help answer specific questions you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
-With these tools, you can:
+![Ways to query data](../Images/WpA/Use/Ways-to-query-data-Create-queries.png)
+
+With these queries, you can:
 
 * Select as many or as few metrics as you need, for any population or time range.
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
- ![What you can do with queries](../Images/WpA/Tutorials/select-customize-transform-a.png)
-
 ## Person query
 
-![Person query](../Images/WpA/Tutorials/person-query-card.png)
+Use a person query when you want to find broader trends in the organization by looking at aggregated metrics for a group of people.
 
-Use a person query when you want to understand the relationship between a person’s organizational attributes – like their team, level, or location – and how they use their time, or when you want to know how one aspect of a person’s time use might influence another aspect of their time use.
+Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person and you can select to aggregate the results by day, week, or month.
 
-With a person query you can compare across individual activities and attributes such as:
+With a person query you can compare across individual activities and attributes, such as:
 
-* Time use metrics
+* Time-use metrics
 * Organizational attributes
 
-## Meeting query  
+See [Person queries](../Tutorials/person-queries.md) to learn more.
 
-![Meeting query](../Images/WpA/Tutorials/meeting-query-card.png)
+## Meeting query  
 
 Use a meeting query when you want to understand the relationship between different meeting attributes.
 
@@ -47,13 +47,13 @@ With a meeting query you can compare across meeting attributes, such as:
 * Double-booked or multitasking rates
 * Meeting organizer attributes
 
-## Group-to-group query
+See [Meeting queries](../Tutorials/meeting-queries.md) to learn more.
 
-![Group-to-group query](../Images/WpA/Tutorials/group-query-card.png)
+## Group-to-group query
 
 Use a group-to-group query when you want to understand how one team invested their collaboration time across other teams within and outside of the organization.
 
-In this type of query, you can define team in a variety of ways, using any organizational attribute or email domain. This enables you to answer questions such as:
+For this query type, you can define a team in a variety of ways, with any organizational attribute or email domain. This enables you to answer questions such as:
 
 * How did _Sales managers_ allocate their time between all external _customer domains_ (companies)?
 * How much time did _Benefits Analysts_ spend with _individual contributors_ in each _region_?
@@ -61,25 +61,60 @@ In this type of query, you can define team in a variety of ways, using any organ
 
 Group-to-group queries also offer alternative perspectives on collaboration. Rather than allocating collaboration hours across other teams, you can analyze the number of interactions between the teams, or analyze only those collaboration activities initiated by the “time giver” team.
 
-## Person-to-group query
+See [Group-to-group queries](../Tutorials/group-to-group-queries.md) to learn more.
 
-![Person-to-group query](../Images/WpA/Tutorials/p2g-query-card.png)
+## Person-to-group query
 
 Use a person-to-group query to help you understand how individuals invested their time with one or more collaborator teams within and outside of the organization.
 
-Similar to a group-to-group query, you can define the person (or time investor) and that person's collaborator team or teams in a variety of ways, using any organizational attribute or email domain.
+Similar to a group-to-group query, you can define the person (or time investor) and that person's collaborator team or teams in a variety of ways, with any organizational attribute or email domain.
 
 You can choose to analyze the number of interactions between a time investor and the defined collaboration team, or analyze only those collaboration activities initiated by the specified time investor.
 
-### Related topics
+See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more. 
 
-[Person queries](../Tutorials/Person-queries.md)
+## Meeting exclusions
 
-[Meeting queries](../Tutorials/meeting-queries.md)
+You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
-[Group-to-group queries](../Tutorials/group-to-group-queries.md)
+See [Understand meeting exclusions](../Use/Understand-meeting-exclusions.md) and [Create custom meeting exclusions rule](../Use/Create-custom-meeting-exclusions-rules.md) to learn more.
 
-[Person-to-group queries](../Tutorials/person-to-group-queries.md)
+## Business scenario
+
+An analyst might start by looking at a person query to see trends of employees across the company related to meeting collaboration.
+
+If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
+
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
+
+There are three ways to create queries:
+
+* Use and edit [predefined query templates](#predefined-query-templates)
+* Create your own custom queries
+* Open and edit a previously run query
+
+When you create or edit a query, you can select the metrics that you want to include (many can be customized), and you can use filters to narrow the results and focus in on specific data.
+
+![Customize attributes and metrics](../Images/WpA/Use/Customize-attributes-and-metrics-Create-queries.png)
+
+## Predefined query templates
+
+Workplace Analytics includes a number of predefined query templates to help you get started with using queries, including the following:
+
+* **Collaboration overload** is a Power BI template that identifies collaboration patterns.
+* **Manager impact** is a Power BI template that analyzes manager trends.
+* **Build focus hours** finds groups that have the lowest amount of focus time.
+* **Meetings attendees query** analyzes meeting hours by the number of attendees.
+* **Meetings day query** analyzes meeting hours by day of the week.
+* **Meetings duration query** analyzes meeting hours by duration.
+* **Meetings start time query** analyzes meeting hours by time of day.
+* **Protect after hours** finds groups that collaborate the most outside of work hours.
+* **Reduce meeting hours** finds groups that are overwhelmed by meetings.
+* **Standard query** provides all base metrics available for a person query.
+
+## Related topics
+
+[Power BI templates](../Tutorials/Power-bi-templates.md)
 
 [Workplace Analytics glossary](../Use/Glossary.md)
 

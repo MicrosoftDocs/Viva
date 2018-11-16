@@ -2,15 +2,17 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Setup -- Assign roles to Workplace Analytics admins and analysts
-description: How to assign roles in Workplace Analytics for admins and analysts.
-author: madehmer
+title: Workplace Analytics Setup -- Assign roles to admins, analysts, and PMs 
+description: How to assign roles in Workplace Analytics for admins, analysts, and program managers
+author: paul9955
 ms.author: v-leash
-ms.date: 9/26/2018
+ms.date: 10/29/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
+# Assign roles 
 
 * **Owner** - Office 365 global administrator.
 * **Task** - Assign users for administrators and data analysts to Workplace Analytics service.
@@ -23,14 +25,6 @@ To allow administrators to set system defaults, privacy settings, upload and ver
 [!INCLUDE [Workplace Analytics roles](../includes/wpa-roles.md)]
 
 ### Video: Assign roles
-
-<!-- out for now
-Watch this video to learn about the differences between the Workplace Analytics user roles and how the Office 365 admin can assign these roles.
--->
-
-<!-- old link, with thumbnail
-[<img src="../Images/WpA/setup/Assign-roles.png" alt="Assign roles video">](https://aka.ms/AssignWpARoles_Video)
--->
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 

@@ -44,6 +44,7 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 
 ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
+
 >[!Note] 
 > This calculation updates after you select **Next** and advance to the next step.
 
@@ -58,7 +59,6 @@ This area has three informative areas:
  * On the left, you see what kinds of meetings this step addresses. The exclusion description helps you understand the purpose of the current step.
  * In the center, you see details about the meetings that this exclusion would remove from analysis. This section helps you keep track of the customizations you have made to the current exclusion. <!-- 
  ![Customizations](../images/wpa/tutorials/04-exclude-meetings-where.png)
- -->
  * On the right, you see the effects of the current exclusion step if you apply it, namely: What percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data?
   
    >[!Tip] 
@@ -67,11 +67,6 @@ This area has three informative areas:
 ## Customization working area
 
 Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The _cancelled meetings_ exclusion type cannot be customized, but you can choose not to use the exclusion in your rule.) 
-
-<!-- remove 
->[!Note] 
-> When you first add an exclusion to your rule, the exclusion removes an entire class of meetings (such as long ones) from analysis. _Customizing_ an exclusion means to remove a carefully selected subset of those meetings _from the exclusion_, which _returns_ that subset of meetings to analysis. 
--->
 
 You make the following types of customizations:
 
@@ -93,6 +88,7 @@ The filter context of the word cloud always reflects the filter context for the 
 While you define the exclusion, if you adjust that filter context, the word cloud is re-filtered accordingly. 
 
 To remove a keyword from this exclusion, select the keyword in the word cloud and then click **Make an exception**. Before you remove it, you might want to learn more about it and its impact on the data. To learn more, do one of the following: 
+
  * Hover over the keyword. This displays a tooltip that shows meeting hours and meeting count.
  * Click the keyword. This selects the keyword and displays details about its impact on meeting hours in the Phrase table. The [Phrase table](#phrase-table) is described later in this step.
 
