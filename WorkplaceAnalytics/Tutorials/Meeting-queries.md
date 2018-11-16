@@ -5,8 +5,8 @@
 title: Meeting queries in Workplace Analytics
 description: When to use a meeting query and the type of data available for analysis in Workplace Analytics.  
 author: madehmer
-ms.author: rodonahu
-ms.date: 07/16/2018
+ms.author: madehmer
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,9 +14,9 @@ ms.prod: wpa
 
 # Meeting queries
 
-The Meeting query in Workplace Analytics gives you a list of all meetings that occurred during a specific period, along with their attributes.
+A Workplace Analytics meeting query helps you analyze individual meeting trends. You can use a meeting query to get a list of all meetings and their attributes that occurred during a specific period.
 
-## How to choose between a Meeting or Person query
+## How to choose between a meeting or person query
 
 Certain questions can be answered with either a meeting or person query.
 
@@ -66,11 +66,11 @@ In the basic process to create a Meeting query, you will answer three questions:
 
 ## Available data
 
-Using a Meeting query, you can query on the calendar metadata available from Office 365 for your company. Examples include: Attendee meeting hours, attendees, invitees, emails sent during meetings, and so forth.
+With a meeting query, you can use the calendar metadata available from Office 365 for your company to get meeting details, including: Attendee meeting hours, attendees, invitees, emails sent during meetings, and so on.
 
-## Business scenario example of long recurring meetings
+## Example query for long recurring meetings
 
-Continuing the example from the Person section above, to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a Meeting query with the following criteria:
+Continuing the example from [Person queries](../Tutorials/meeting-queries.md), to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a meeting query with the following criteria:
 
 * Time frame: Show the data aggregated weekly
 * Meeting properties: Filters
@@ -81,7 +81,7 @@ Continuing the example from the Person section above, to investigate long meetin
   * Attendees
   * Attendee meeting hours
 
-## To create a custom Meeting query
+### To create a custom meeting query for long recurring meetings
 
 1. On the Queries page, select **Meeting**.
 2. Select and change **Enter query name here** to **Long recurring Ops meetings**.
@@ -95,9 +95,9 @@ Continuing the example from the Person section above, to investigate long meetin
 10. Select **Run** at the top right to run the query.
 11. On the Results page, you can see the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
 
-## Meeting query results
+### Meeting query results
 
-Each row of data represents a single meeting, and Meeting query results always contain the following information in columns:
+Each row of data represents a single meeting, and meeting query results always contain the following information in columns:
 
 * Meeting ID – Unique ID number of the specific meeting
 * Start Date and Time – When the meeting started
