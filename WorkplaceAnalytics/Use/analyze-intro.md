@@ -19,7 +19,8 @@ ms.prod: wpa
   
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) gives a summary of day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
-* [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers and employees.
-* [**Networks and collaboration**](../use/explore-metrics-networks-and-collaboration.md) gives a summary of the network patterns within the company.
+* [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers, and employees.
+* [**Internal networks**](../use/explore-metrics-internal-networks.md) shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
+* [**External collaboration**](../use/explore-metrics-external-collaboration.md) gives a summary of employees' network patterns with people outside the company. 
 
 [**Queries**](../tutorials/create-queries.md) give you the flexibility to dive deeper into your organization’s behavioral metrics to generate insights. You can create three types of queries in Workplace Analytics: Person, Group, and Meeting. Each query type can help answer specific questions you may be investigating.
