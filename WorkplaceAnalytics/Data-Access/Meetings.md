@@ -19,7 +19,7 @@ This table contains one row for each meeting and appointment. Recurring meetings
 |-----------------|---------------|-----------------|
 |**MeetingId**|**string**|Unique identifier for each meeting (including recurring meetings). Primary key.|
 |**ICalUid**|**string**|Meeting calendar ID.|  
-|**Subject**|**string**|Meeting subject. Respects tenant privacy settings. See [Workplace Analytics settings](../setup/set-up-workplace-analytics.md#step-4-configure-workplace-analytics-settings).|
+|**Subject**|**string**|Meeting subject. Respects tenant privacy settings. See [Workplace Analytics settings](../use/settings.md#configure-privacy-settings).|
 |**IsRecurring**|**boolean**|True if this is a recurring meeting.|
 |**IsCanceled**|**boolean**|True if the meeting was canceled.|
 |**StartTime**|**datetime**|Meeting start time.|
