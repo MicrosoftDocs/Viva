@@ -58,9 +58,6 @@ This area has three informative areas:
  
  * On the left, you see what kinds of meetings this step addresses. The exclusion description helps you understand the purpose of the current step.
  * In the center, you see details about the meetings that this exclusion would remove from analysis. This section helps you keep track of the customizations you have made to the current exclusion.
-   
-   ![Customizations](../images/wpa/tutorials/04-exclude-meetings-where.png)
-
  * On the right, you see the effects of the current exclusion step if you apply it, namely: What percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data?
   
    >[!Tip] 
