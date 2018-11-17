@@ -28,11 +28,11 @@ The custom rule will not function properly if its large-meeting filter value is 
 
 Both of the following solutions work: 
 
- * **Use the default rule** If you use the default large meetings exclusion provided to you in the flow, you will not encounter any issues. 
- * **Keep filter value under 250** Meeting exclusion rules can be used in queries. To use a custom meeting exclusion rule with particular metrics in queries, you must remove all meetings that have 250 or more attendees. 
+ * **Use the default rule.** If you use the default large meetings exclusion provided to you in the flow, you will not encounter any issues. 
+ * **Keep filter value under 250.** Meeting exclusion rules can be used in queries. To use a custom meeting exclusion rule with particular metrics in queries, you must remove all meetings that have 250 or more attendees. 
 
->[!Note]
-> Depending on which customizations you make in the large-meetings step, you might be able to use this rule only in certain cases, as described here: 
+#### Restrictions
+Depending on which customizations you make in the large-meetings step, you might be able to use this rule only in certain cases, as described here: 
 
 If you do any of the following: 
 
@@ -54,4 +54,4 @@ The impacted metrics are:
 
 <List of metrics here> FOR THIS, PUT "PARTICULAR QUERIES IN MEETING QUERIES"
 -->
- * Any metrics with a participant filter applied to it will fail. 
+ * Any metric that has a participant filter applied to it will fail. 
