@@ -69,6 +69,10 @@ When you are satisfied with your privacy settings, your data can be processed.
 
 * Select the **I confirm all privacy settings are complete** check box, and then select **Save**.
 
+### Video: Privacy
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
 ## Organizational data
 
 Administrators will use the **Organizational data** tab to upload data into Workplace Analytics.
@@ -78,7 +82,3 @@ Administrators will use the **Organizational data** tab to upload data into Work
 ### To prepare your data for upload to Workplace Analytics
 
 * Follow the instructions in [Prepare and upload organizational data](../setup/upload-organizational-data.md).
-
-### Video: Privacy
-
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
