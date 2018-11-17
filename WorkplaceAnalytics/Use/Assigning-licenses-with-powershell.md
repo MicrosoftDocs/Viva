@@ -296,6 +296,7 @@ The script logic first attempts to find the MSOL identity through the UserPrinci
 
 This script works with Multi-Factor Authentication because the Connect-MsolService cmdlet supports Azure Active Directory Authentication Library (ADAL).
 
-## Related links
+## Related
 
-[Assign group-based licensing](https://docs.microsoft.com/workplace-analytics/use/group-based-licensing)
+[Assign licenses with PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
+

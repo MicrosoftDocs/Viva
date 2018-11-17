@@ -3,7 +3,7 @@
 # required metadata
 
 title: Group-based licensing for Workplace Analytics
-description: How to set up group-based licensing in Workplace Analytics.
+description: Assign group-based licensing for Workplace Analytics.
 author: madehmer
 ms.author: madehmer
 ms.date: 11/16/2018
@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Assign group-based licenses
+# Assign group-based licenses for Workplace Analytics
 
 Some Microsoft Online products are "add-ons," which require a service plan that's enabled for a user or a group. With group-based licensing, the system requires that both the prerequisite and add-on service plans be enabled for the group, so that any new users who are added to the group can get a valid service plan assignment.
 
@@ -42,3 +42,7 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 
 >[!Tip]
 >You can create multiple groups, for each prerequisite service plan. For example, if you use both Office 365 Enterprise **E1** and Office 365 Enterprise **E3** for your users, you could create two groups to license Microsoft Workplace Analytics; one using E1 as a prerequisite and the other using E3. This will allow you to distribute the add-on to E1 and E3 users without consuming additional licenses.
+
+## Related
+
+[Group-based licensing](https://aka.ms/Instructions_AssignLicenseUsingGBL)

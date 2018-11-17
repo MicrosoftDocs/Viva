@@ -30,7 +30,7 @@ See [User roles](../use/user-roles.md) for detailed role descriptions and access
 
 ## Assign Workplace Analytics user or group roles in Azure Active Directory
 
-See [Assign user or group roles in Azure Active Directory](Assigning-wpa-user-group-roles-in-azure-ad.md) for details.
+See [Assign user or group roles in Azure Active Directory](../Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md) for details.
 
 ## Assign Workplace Analytics roles with PowerShell
 
