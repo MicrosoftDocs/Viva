@@ -2,19 +2,19 @@
 # Metadata Sample
 # required metadata
 
-title: Assigning Workplace Analytics licenses in Azure AD using PowerShell
-description: This article describes the procedural instructions for how to Workplace Analytics licenses in Azure Active Directory using PowerShell.
+title: Assigning Workplace Analytics licenses with PowerShell
+description: How to assign Workplace Analytics licenses in Azure Active Directory by using PowerShell.
 author: buntus
 ms.author: v-johtob
-ms.date: 11/06/2018
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Assigning Workplace Analytics licenses in Azure AD using PowerShell
+# Assign Workplace Analytics licenses with PowerShell
 
-This document gives the procedural steps for how to properly assign Workplace Analytics licenses in Azure Active Directory (Azure AD) by using PowerShell.
+This document gives the procedural steps for how to properly assign Workplace Analytics licenses with PowerShell in Azure Active Directory (Azure AD). 
 
 ## Installation prerequisites
 
@@ -28,23 +28,22 @@ This document gives the procedural steps for how to properly assign Workplace An
 
 2. Run the Azure AD PowerShell module:
 
-    (a)	Start PowerShell.
+    a) Start PowerShell.
 
-    (b)	Type the following command:
+    b) Type the following command:
 
       Import-Module *AzureAD*
-
 
 ## Assigning licenses
 
 Workplace Analytics can only extract data from the accounts of users who have valid Workplace Analytics licenses.
 
 1. To assign a Workplace Analytics license to a user:
-       
+
     With PowerShell open, start the Import Module, and log in to Azure AD by running the following commands:
 
       Import-Module *AzureAD*
-      
+
       Connect-AzureAD
 
     To log in, you will need credentials with admin privileges.
@@ -86,7 +85,7 @@ After you’ve run this last command, you’ll see an entry on the command line.
 
 ## Add Workplace Analytics licenses in bulk through Office365 PowerShell
 
-If you need to assign Workplace Analytics licenses to a large number of users, for this purpose, use the bulk license Office365 PowerShell script provided in this section.
+If you need to assign Workplace Analytics licenses to a large number of users, you can use the bulk license script for Office365 PowerShell provided in this section.
 
 ### Software Requirements
 
@@ -106,8 +105,7 @@ The Workplace Analytics bulk license script uses the Azure Active Directory Powe
 > If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these required packages, see
 [Connect to Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
 
-
-### Input Requirements
+## Input Requirements
 
 The Workplace Analytics bulk license script uses a .csv reference file as input. The script references each address listed in the .csv file and attempts to assign Workplace Analytics license to all users.
 
@@ -120,7 +118,6 @@ Each user who is already assigned a license retains all current licensing. New u
 
 For further information on formatting the input .csv file, see [example .csv export file](https://docs.microsoft.com/workplace-analytics/setup/prepare-organizational-data#example-csv-export-file)
 
- 	 
 ### Script description
 
 The Add-WpALicense.ps1 script is designed to easily allow the assignment of Workplace Analytics licenses to Office365 identities based on .csv email address input. The email address input is used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object, and attempts to assign a license to the Office365 identity.
@@ -273,7 +270,6 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 ```
 
 
-
 With the PowerShell environment now prepared, and the input file properly constructed, the script can now execute.
  
 3.	Start Windows PowerShell and run the following command:
@@ -300,8 +296,6 @@ The script logic first attempts to find the MSOL identity through the UserPrinci
 
 This script works with Multi-Factor Authentication because the Connect-MsolService cmdlet supports Azure Active Directory Authentication Library (ADAL).
 
-## Related links
+## Related topics
 
-[Assign group-based licencing](https://docs.microsoft.com/workplace-analytics/use/group-based-licensing)
-
-
+[Assign licenses with PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)

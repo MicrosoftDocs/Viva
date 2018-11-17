@@ -5,8 +5,8 @@
 title: Week in the life metrics in Workplace Analytics
 description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page.
 author: madehmer
-ms.author: rodonahu
-ms.date: 07/19/2018
+ms.author: madehmer
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -18,7 +18,7 @@ ms.prod: wpa
 
 To open the **Week in the life** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizational credentials.
 2. In the left navigation pane, select **Explore**.
 3. In **Explore**, select the **Week in the life** tab.
 
@@ -36,7 +36,7 @@ Excess incoming email becomes a distraction from work focus and a source of empl
 
 Workplace Analytics helps analysts identify high and low collaboration and its causes.  
 
-### Common causes of high levels of collaboration 
+### Common causes of high levels of collaboration
 * Large meetings from an overly inclusive culture typically leaves all but a small minority of people actively engaged.
 * Unnecessary attendees in meetings can result in unproductive collaboration time.
 * Long meetings can potentially make it difficult to retain the focus of attendees unless they are well-designed small sessions.

@@ -2,15 +2,23 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Setup -- Configure Workplace Analytics settings
-description: Describes how to configure the settings for Workplace Analytics.
-author: madehmer
+title: Configure Workplace Analytics system settings
+description: Describes how to configure the system settings for Workplace Analytics.
+author: paul9955
 ms.author: v-midehm
 ms.date: 10/29/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
+# Workplace Analytics settings
+
+## System settings
+
+Use the Workplace Analytics **Settings** page to set the time zone, week days, weekend days, and working hours.
+      
+   ![Make system settings](../images/wpa/setup/02a-settings-sys.png)
 
 ### Time zone
 
@@ -35,14 +43,18 @@ For a complete list of valid times zones, see [Time zones in Workplace Analytics
 
 ### Working days and hours
 
-Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours with the organizational data, a Workplace Analytics administrator can set default working days and hours for the organization in the System defaults section on the Settings page.
+Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours with the organizational data, a Workplace Analytics administrator can set default weekend or non-working days and hours for the organization in the System defaults section on the Settings page.
 
-![System settings default](../images/Wpa/setup/settings-system-defaults-b.png)
+![System settings default](../images/Wpa/setup/settings-system-defaults-a.png)
 
-> [!Important]
-> These default settings are only used for users who have not already set up their working days and hours in Outlook.
+These default settings are only used for users who have not already set up their working days and hours in Outlook.
 
-### Privacy settings
+<!-- PERHAPS NOT NEEDED ANYMORE 
+### Related topic
+[Settings in Workplace Analytics](../Use/Settings.md)
+-->
+
+## Privacy settings
 
 * **Owner** - Workplace Analytics sponsor or Workplace Analytics administrator
 * **Task** - Use company-specific legal and privacy guidelines to define settings to use in Workplace Analytics
@@ -53,9 +65,11 @@ Being aware of employees’ rights is a key component to ensuring a successful p
 Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization selects what data to use in Workplace Analytics.
 
 > [!Important]
-> Please consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
+> Consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
 
 After evaluating your privacy needs, you can use the Settings page in Workplace Analytics to define the privacy settings for your organization's data.
+
+   ![Make system and privacy settings](../images/wpa/setup/02b-settings-priv.png)
 
 ### Detail display
 
@@ -65,10 +79,10 @@ After evaluating your privacy needs, you can use the Settings page in Workplace 
 ### User data exclusions
 
 * Exclude emails/meetings to, or from, specific users, or all users from a domain using “;” as the delimiter
-* Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter. Terms can be any combination of letters, numbers and special characters, e.g. client attorney privilege; D&I
+* Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter. Terms can be any combination of letters, numbers and special characters. However each term must be listed separately, because only exact subject keywords are excluded, for example: client;attorney;privilege;D&I;legal acquisition. For more details, see [Keyword exclusion logic](../Privacy/Privacy-considerations.md#keyword-exclusion-logic).
 
 > [!Note]
-> If you exclude email addresses, do not assign licenses to them.  You should also include all email aliases for  individuals.
+> If you exclude email addresses, do not assign licenses to them. Be sure to include all email aliases for a person.
 
 ### To set your privacy settings
 
@@ -87,15 +101,9 @@ After evaluating your privacy needs, you can use the Settings page in Workplace 
 
 ### Video: Privacy
 
-<!-- out for now
-Watch this video to learn how Workplace Analytics handles employee data privacy, and how the Workplace Analytics admin can configure their privacy settings.
--->
-
-<!-- old link, with thumbnail
-[<img src="../Images/WpA/setup/Privacy.png" alt="Privacy video">](https://aka.ms/WpAPrivacy_Video)
--->
-
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
+<!-- PERHAPS NOT NEEDED ANYMORE 
 ### Related topic
 [Settings in Workplace Analytics](../Use/Settings.md)
+-->

@@ -67,7 +67,7 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 
  * For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
  * For more information about roles in solutions, see [Workflow phases, pages, and roles](solutions-task.md#workflow-phases-pages-and-roles).
- * For more information about assigning roles, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
+ * For more information about assigning roles, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#setup-steps).
 
 ### Questions about program implementation
 

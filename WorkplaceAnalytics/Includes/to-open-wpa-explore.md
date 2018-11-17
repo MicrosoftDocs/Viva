@@ -25,6 +25,3 @@ The External collaboration tab displays various graphs that reflect current comp
    >You must be assigned either the Analyst role,
 the Analyst (Limited Access) role, or the Program manager role to access the Explore page.
    For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#step-3-assign-roles-to-workplace-analytics-admins-and-analysts).
-
-
-

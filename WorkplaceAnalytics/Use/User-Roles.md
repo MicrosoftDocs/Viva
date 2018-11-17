@@ -94,7 +94,7 @@ Consider the following personas for each of the Workplace Analytics user roles:
 In Azure Active Directory, you can assign access rights to users by assigning roles to them. For general information on accessing resources, and for information on the specific methods of role assignment in Azure AD, see **Related links**.
 
 
-## Related links
+## Related topics
 
 [What is Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)
 
