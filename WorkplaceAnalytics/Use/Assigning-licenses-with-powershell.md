@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Assigning Workplace Analytics licenses in Azure AD using PowerShell
+title: Assigning Workplace Analytics licenses with PowerShell
 description: How to assign Workplace Analytics licenses in Azure Active Directory by using PowerShell.
 author: buntus
 ms.author: v-johtob
