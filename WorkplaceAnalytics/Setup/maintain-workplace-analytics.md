@@ -70,7 +70,7 @@ After you have installed Workplace Analytics and your organization is using it, 
  * **Task**: Create custom meeting exclusion rules to remove meetings from analysis.  
  * **Frequency**: As needed. Create these rules to exclude meetings that might skew your data, or to exclude meetings to promote data privacy. 
 
-[Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro)
+[Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md)
 
 ## Related topics
 

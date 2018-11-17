@@ -62,7 +62,7 @@ This article describes the steps that are required for setting up and configurin
 
 <!-- 
 ASK ABOUT THIS  
-8.	**Set up meeting exclusion rules.** Some meetings (such as personal meetings or work-related social activities) reflect activities that would skew analysis of work-related collaboration if they were included in your data. You can remove meetings from analysis. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro). 
+8.	**Set up meeting exclusion rules.** Some meetings (such as personal meetings or work-related social activities) reflect activities that would skew analysis of work-related collaboration if they were included in your data. You can remove meetings from analysis. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md). 
 
 WHERE DOES THIS GO IN SETUP? 
 -->
