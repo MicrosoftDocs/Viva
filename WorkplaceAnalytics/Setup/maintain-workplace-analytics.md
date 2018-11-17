@@ -33,7 +33,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 [Privacy considerations](../privacy/privacy-considerations.md)
 
-[Make privacy settings](configure-wpa-privacy-settings.md)
+[Privacy settings](../use/settings.md#privacy-settings)
 
 ## Update organizational data 
 
@@ -49,14 +49,14 @@ After you have installed Workplace Analytics and your organization is using it, 
  * **Task**: Assign Workplace Analytics licenses to individuals.  
  * **Frequency**: As needed. Perform this task primarily as one step in the onboarding of a new employee. 
 
-[Assign licenses to population](assign-licenses-to-population.md)
+[Assign licenses](assign-licenses-to-population.md)
 
 ## Assign roles
 
  * **Task**: Assign Workplace Analytics roles to individuals.  
  * **Frequency**: As needed. Perform this step when a new employee requires one of the Workplace Analytics roles, or an existing employee changes roles. 
 
-[Assign roles to admins and analysts](assign-roles-to-wpa-admins.md)
+[Assign roles](assign-roles-to-wpa-admins.md)
 
 ## Validate and verify data
 
@@ -68,9 +68,9 @@ After you have installed Workplace Analytics and your organization is using it, 
 ## Set up meeting exclusions
 
  * **Task**: Create custom meeting exclusion rules to remove meetings from analysis.  
- * **Frequency**: As needed. Create these rules to exclude meetings that might skew your data, or to exclude meetings to promote data privacy. 
+ * **Frequency**: As needed. Create these rules to exclude meetings that might skew your data. 
 
-[Set up meeting exclusions](set-up-mtg-exclusions.md)
+[Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md)
 
 ## Related topics
 
