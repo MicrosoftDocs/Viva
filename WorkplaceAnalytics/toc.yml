@@ -93,9 +93,9 @@
                 - name: Meeting exclusion rules
                   href: ~/Tutorials/meeting-exclusions-intro.md            
                   items: 
-                    - name: Exclusion rules - Walkthrough
+                    - name: Walkthrough
                       href: ~/tutorials/meeting-exclusion-rules.md
-                    - name: Exclusion rules - Tools and concepts
+                    - name: Tools and concepts
                       href: ~/tutorials/meeting-exclusion-concept.md                  
         - name: Solutions
           items:

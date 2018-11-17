@@ -12,9 +12,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Assign Workplace Analytics licenses in Azure AD by using PowerShell
+# Assign Workplace Analytics licenses with PowerShell
 
-This document gives the procedural steps for how to properly assign Workplace Analytics licenses in Azure Active Directory (Azure AD) by using PowerShell.
+This document gives the procedural steps for how to properly assign Workplace Analytics licenses with PowerShell in Azure Active Directory (Azure AD). 
 
 ## Installation prerequisites
 
@@ -296,7 +296,6 @@ The script logic first attempts to find the MSOL identity through the UserPrinci
 
 This script works with Multi-Factor Authentication because the Connect-MsolService cmdlet supports Azure Active Directory Authentication Library (ADAL).
 
-## Related
+## Related topics
 
 [Assign licenses with PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
-

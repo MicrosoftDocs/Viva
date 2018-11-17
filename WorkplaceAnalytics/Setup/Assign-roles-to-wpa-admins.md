@@ -36,6 +36,6 @@ See [Assign user or group roles in Azure Active Directory](../Use/Assigning-wpa-
 
 See [Assign Workplace Analytics roles with PowerShell in Azure Active Directory](../Use/Using-PowerShell-to-Assign-Roles.md)
 
-## Related
+## Related links
 
 [Assign a user to an enterprise app using PowerShell](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell)

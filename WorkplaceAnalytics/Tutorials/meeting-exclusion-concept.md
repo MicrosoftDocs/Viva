@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Meeting exclusion rules (concepts)
-description: Meeting exclusion rules -- Concepts   
+title: Meeting exclusion rules concepts
+description: Meeting exclusion rules concepts   
 author: paul9955
 ms.author: v-pascha
-ms.date: 11/06/2018
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -18,7 +18,7 @@ This article describes screen elements and concepts whose understanding can help
 
 At each step in the exclusion-creation flow, you see a page such as the following: 
 
-![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
+  ![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
  
 On these pages, the following sections help you create meeting exclusions in an informed way:
 
@@ -38,11 +38,11 @@ These numbers help you understand the effects of the exclusions that are already
 
 Before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Office 365.
 
-![Meeting hours summary (before)](../images/wpa/tutorials/09-summary-meetings-hours.png)
+  ![Meeting hours summary (before)](../images/wpa/tutorials/09-summary-meetings-hours.png)
 
 As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough describes, you create a meeting exclusion rule in five steps. As you complete one of those steps and move on (by selecting **Next**), you see the number of meeting hours and meetings decrease as the exclusion is applied to your data: 
 
-![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
+  ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
 
 >[!Note] 
@@ -52,14 +52,14 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 
 The middle section of the page shows you a summary of the current exclusion step:
 
-![Middle of page](../images/wpa/tutorials/11-mid-page.png)
+  ![Middle of page](../images/wpa/tutorials/11-mid-page.png)
 
 This area has three informative areas: 
  
  * On the left, you see what kinds of meetings this step addresses. The exclusion description helps you understand the purpose of the current step.
  * In the center, you see details about the meetings that this exclusion would remove from analysis. This section helps you keep track of the customizations you have made to the current exclusion.
    
- ![Customizations](../images/wpa/tutorials/04-exclude-meetings-where.png)
+   ![Customizations](../images/wpa/tutorials/04-exclude-meetings-where.png)
 
  * On the right, you see the effects of the current exclusion step if you apply it, namely: What percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data?
   
@@ -102,7 +102,7 @@ You might have a specific word in mind that you want to retain in your analysis 
 
 After you make an exception of a word, it appears above the word cloud. If you change your mind, you can remove the word from the exception list. This returns it to the group of keywords whose meetings will be excluded. To do this, select the **X** next to the word: 
  
-![Exclude meetings where](../images/wpa/tutorials/04-exclude-meetings-where.png)
+  ![Exclude meetings where](../images/wpa/tutorials/04-exclude-meetings-where.png)
  
 You can also remove all of your exceptions to this exclusion at once. To do this, select **Reset**. 
 
@@ -114,11 +114,11 @@ Workplace Analytics shows a table called **Phrases that contain the selected key
 
 The words "business" or "marketing" in the word cloud represent meetings that you might not want to exclude. To help you decide, you can view data about the effect of removing this keyword (and its meetings) from the exclusion. For example, select **business**. Workplace Analytics shows what percentage of meetings have this word in their subject line and how many hours those meetings contain:
 
-![Percentages](../images/wpa/tutorials/02-word-cloud-business.png)
+  ![Percentages](../images/wpa/tutorials/02-word-cloud-business.png)
 
 In the following illustration, the word "business" has been excepted from the exclusion, which means that meetings with "business" in their invitations' subject lines will be _retained_ in your analysis: 
 
-![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
+  ![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
  
 ### Example 2: "soccer"
 

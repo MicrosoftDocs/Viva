@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Setup -- Assign licenses to Workplace Analytics users
+title: Assign licenses to Workplace Analytics users
 description: Set up Workplace Analytics licenses for population in scope for Analysis
 author: madehmer
 ms.author: madehmer
