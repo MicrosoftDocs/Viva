@@ -4,15 +4,15 @@
 
 title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics. 
-author: madehmer
+author: buntus
 ms.author: v-johtob
-ms.date: 07/20/2018
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Configure settings for Workplace Analytics
+# Configure Workplace Analytics settings
 
 On the Settings page, administrators can customize system defaults and privacy settings, and upload organizational data to Workplace Analytics.
 
