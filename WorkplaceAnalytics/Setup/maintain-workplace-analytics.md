@@ -33,7 +33,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 [Privacy considerations](../privacy/privacy-considerations.md)
 
-[Make privacy settings](configure-wpa-privacy-settings.md)
+[Privacy settings](../use/settings.md#privacy-settings)
 
 ## Update organizational data 
 
@@ -49,14 +49,14 @@ After you have installed Workplace Analytics and your organization is using it, 
  * **Task**: Assign Workplace Analytics licenses to individuals.  
  * **Frequency**: As needed. Perform this task primarily as one step in the onboarding of a new employee. 
 
-[Assign licenses to population](assign-licenses-to-population.md)
+[Assign licenses](assign-licenses-to-population.md)
 
 ## Assign roles
 
  * **Task**: Assign Workplace Analytics roles to individuals.  
  * **Frequency**: As needed. Perform this step when a new employee requires one of the Workplace Analytics roles, or an existing employee changes roles. 
 
-[Assign roles to admins and analysts](assign-roles-to-wpa-admins.md)
+[Assign roles](assign-roles-to-wpa-admins.md)
 
 ## Validate and verify data
 
