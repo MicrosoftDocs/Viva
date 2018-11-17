@@ -197,3 +197,7 @@ HOW CAN A RULE BE SET AS PREFERRED ON THE MEETING EXCLUSIONS PAGE? -->
 2.  Select the rule you want from the Meeting exclusions list box, as shown here:
 
    ![Apply an exclusion to a query](../images/wpa/tutorials/20-apply-to-query.png)
+
+## Related topics
+
+[Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)

@@ -153,3 +153,6 @@ Q4. **Combining rules.** Can you combine rules? For example, can you use the def
 
 A4.  No. You can have only one rule in effect at a time. For information about selecting the rule that you want to use, see [Select a rule](#select-a-rule).
 
+## Related topics
+
+[Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
