@@ -35,6 +35,8 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 **To select the file to upload**
 
+After the initial processing (of collaboration data) is complete, the next time you open Workplace Analytics, the page automatically updates to let you upload your organizational data file.
+
 1. On the Upload page, select **Name your upload**, and then type the name of your new upload file.
 2. Optionally, select **Add an optional description** and type a description of this upload.
 3. In the Select file section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
@@ -46,15 +48,6 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
 
 4. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
-5. To append or replace organizational data, in the Select file area, select **Show advanced options**.
-6. In the Append or replace section, you can select to:
-    * **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes.
-    * **Replace all existing organizational data with this file** to delete all previous HR data uploads and make this the first new HR data upload.
-
-       > [!Important]
-       > The replace option permanently deletes all previously uploaded organizational data.
-       
-7. After reviewing the warning message, select **Continue** and then [map your fields](#field-mapping).
 
 ## Field Mapping
 
@@ -80,7 +73,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
 
    <ol type="a"> 
    <li>Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).</li>
-   <li>Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
+   <li>Under <b>Source column</b> (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
    <li>Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields and for the optional fields that you choose to map.</li>
    </ol>
 
@@ -90,7 +83,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
 2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it. 
 
    <ol type="a">
-   <li>Under Source column (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.</li>
+   <li>Under <b>Source column</b> (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.</li>
    <li>Set values for the other columns in the table, such as the data type, the validity threshold, and the hash setting for reports.</li>
    <li>Repeat these steps for all custom fields that are important to your organization.</li>
    </ol>
@@ -98,6 +91,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
    <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
 3. In the Submit for validation area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the .csv file and starts the validation process.
+
 4. Next step is to go to [Data validation](#data-validation).
 
 ## Data validation
