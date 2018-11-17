@@ -45,19 +45,19 @@ This article describes the steps that are required for setting up and configurin
 
 7.	**Upload organizational data**. Upload the .csv file into Workplace Analytics. For more information, see [Upload organizational data](upload-organizational-data-1st.md). 
 
-The remaining steps are part of the **Upload organizational data** task: 
+    The next three steps are part of the **Upload organizational data** task: 
 
-a.	**Map data**. Map the uploaded data to Workplace Analytics field names. For more information, see [Field mapping](upload-organizational-data-1st.md#field-mapping). 
+    a.	**Map data**. Map the uploaded data to Workplace Analytics field names. For more information, see [Field mapping](upload-organizational-data-1st.md#field-mapping). 
 
-b.	**Data validation**. Workplace Analytics validates the upload and then notifies you whether your uploaded data validated. If it did not, you are advised what further action you can take. For more information, see [Data validation](Upload-organizational-data.md#data-validation). 
+    b.	**Data validation**. Workplace Analytics validates the upload and then notifies you whether your uploaded data validated. If it did not, you are advised what further action you can take. For more information, see [Data validation](Upload-organizational-data.md#data-validation). 
 
-c.	**Data processing**. Workplace Analytics processes the validated data. 
+    c.	**Data processing**. Workplace Analytics processes the validated data. 
 
-![Processing organizational data](../images/wpa/setup/07-process-org-data.png)
+    ![Processing organizational data](../images/wpa/setup/07-process-org-data.png)
 
-When this processing finishes, your setup of Workplace Analytics is complete, as the status bar indicates: 
+    When this processing finishes, your setup of Workplace Analytics is complete, as the status bar indicates: 
 
-![Setup is complete](../images/wpa/setup/08-setup-complete.png) 
+    ![Setup is complete](../images/wpa/setup/08-setup-complete.png) 
 
-<!-- ADD THIS AFTER ADDING NEW CONTENT FROM MARILYN  
-11. **Set up meeting exclusion rules.** -->
+8.	**Set up meeting exclusion rules.** Some meetings (such as personal meetings or work-related social activities) reflect activities that would skew analysis of work-related collaboration if they were included in your data. You can remove meetings from analysis. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro). 
+
