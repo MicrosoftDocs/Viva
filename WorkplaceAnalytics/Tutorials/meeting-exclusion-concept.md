@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Meeting exclusion rules: Tools and concepts
 
-This article describes screen elements and concepts whose understanding can help you create and use meeting exclusion rules. Those tasks are described in the step-by-step walkthroughs in [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md).
+This article describes screen elements and concepts whose understanding can help you create and use meeting exclusion rules. Those tasks are described in the step-by-step walkthroughs in [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md). 
 
 At each step in the exclusion-creation flow, you see a page such as the following: 
 

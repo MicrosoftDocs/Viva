@@ -20,7 +20,7 @@ Meeting exclusion rules are used in Workplace Analytics to help ensure that quer
 
 Workplace Analytics provides a default meeting exclusion rule that excludes a set of meetings that would commonly fall outside of relevant collaboration for analysis. Analysts can also use the meeting exclusion feature to create custom meeting exclusion rules. 
 
-To learn how to create and use meeting exclusion rules, see the following: 
+To learn how to create and use meeting exclusion rules, see the following:  
 
  * [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md): Step-by-step walkthroughs that describe how to [View meeting exclusion rules](meeting-exclusion-rules.md#view-meeting-exclusion-rules), [Create a meeting exclusion rule](meeting-exclusion-rules.md#create-a-meeting-exclusion-rule), and [Select a rule for use](meeting-exclusion-rules.md#select-a-rule-for-use). 
  * [Meeting exclusion rules: Tools and concepts](meeting-exclusion-concept.md): Describes screen elements and concepts whose understanding can help you create and use meeting exclusion rules. 

@@ -69,7 +69,7 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 
 **To start a meeting exclusion rule**
 
-In this task, you open the meeting exclusions page and name the rule that you will create. 
+In this task, you open the meeting exclusions page and name the rule that you will create.  
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your organization credentials. 
 
