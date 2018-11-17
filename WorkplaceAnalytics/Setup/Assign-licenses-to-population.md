@@ -40,9 +40,9 @@ Watch this video to learn how Workplace Analytics licenses work and how the Offi
 
 Workplace Analytics licenses are assigned just like any other Microsoft 365 product license. You can assign licenses the following ways:​
 
+* [Group-based licensing](../Use/Group-Based-Licensing.md)
 * [Office 365 Admin Center​](https://aka.ms/Instructions_AssignLicenseUsingO365AdminCenter)
-* [PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
-* [Group-based licensing](https://aka.ms/Instructions_AssignLicenseUsingGBL)
+* [PowerShell](../Use/Assigning-licenses-with-powershell.md)
 
    > [!Note]
    > Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Office 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
@@ -53,7 +53,3 @@ If your organization has not fully migrated to Office 365 Exchange Online, you m
 
 * Migrate these mailboxes to Office 365 Exchange Online.
 * Contact the FastTrack team to understand the process for analyzing these mailboxes; this will require additional work streams within your organization.
-
-### Related topics
-
-[Group-based licenses in Workplace Analytics](../Use/Group-Based-Licensing.md)

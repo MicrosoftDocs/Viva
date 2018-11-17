@@ -40,8 +40,6 @@ After you have installed Workplace Analytics and your organization is using it, 
  * **Task**: Prepare a .csv file that contains organizational data and upload it to Workplace Analytics.  
  * **Frequency**: Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest update of email and calendar data. Since email and calendar data is updated once a month, it makes sense to provide a updates for this data on a similar cadence.
 
-[Prepare and upload organizational data](prep-upload-org-data.md)
-
 [Prepare organizational data](prepare-organizational-data.md)
 
 [Upload organizational data](upload-organizational-data.md)
@@ -53,7 +51,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 [Assign licenses to population](assign-licenses-to-population.md)
 
-## Assign roles 
+## Assign roles
 
  * **Task**: Assign Workplace Analytics roles to individuals.  
  * **Frequency**: As needed. Perform this step when a new employee requires one of the Workplace Analytics roles, or an existing employee changes roles. 
