@@ -102,10 +102,10 @@ Now that you've created a framework for your new rule, you add -- and optionally
 
    (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
 
-    >[!Note] 
-    > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
+   >[!Note] 
+   > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
 
-    When you have finished making exceptions, click **Next**.
+   When you have finished making exceptions, click **Next**.
 
 **Step 4: Exclude long meetings.** To exclude meetings by duration, under **Exclude meetings where,** specify the maximum length of meetings that you want your analysis to include. The default value is 8 hours. 
 
