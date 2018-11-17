@@ -45,17 +45,19 @@ This article describes the steps that are required for setting up and configurin
 
 7.	**Upload organizational data**. Upload the .csv file into Workplace Analytics. For more information, see [Upload organizational data](upload-organizational-data-1st.md). 
 
-8.	**Map data**. Map the uploaded data to Workplace Analytics field names. For more information, see [Field mapping](upload-organizational-data-1st.md#field-mapping). 
+The remaining steps are part of the **Upload organizational data** task: 
 
-9.	**Data validation**. Workplace Analytics validates the upload and then notifies you whether your uploaded data validated. If it did not, you are advised what further action you can take. For more information, see [Data validation](Upload-organizational-data.md#data-validation). 
+a.	**Map data**. Map the uploaded data to Workplace Analytics field names. For more information, see [Field mapping](upload-organizational-data-1st.md#field-mapping). 
 
-10.	**Data processing**. Workplace Analytics processes the validated data. 
+b.	**Data validation**. Workplace Analytics validates the upload and then notifies you whether your uploaded data validated. If it did not, you are advised what further action you can take. For more information, see [Data validation](Upload-organizational-data.md#data-validation). 
 
-    ![Processing organizational data](../images/wpa/setup/07-process-org-data.png)
+c.	**Data processing**. Workplace Analytics processes the validated data. 
 
-    When this processing finishes, your setup of Workplace Analytics is complete, as the status bar indicates: 
+![Processing organizational data](../images/wpa/setup/07-process-org-data.png)
 
-    ![Setup is complete](../images/wpa/setup/08-setup-complete.png) 
+When this processing finishes, your setup of Workplace Analytics is complete, as the status bar indicates: 
+
+![Setup is complete](../images/wpa/setup/08-setup-complete.png) 
 
 <!-- ADD THIS AFTER ADDING NEW CONTENT FROM MARILYN  
 11. **Set up meeting exclusion rules.** -->
