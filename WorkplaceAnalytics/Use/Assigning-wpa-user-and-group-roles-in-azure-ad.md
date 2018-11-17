@@ -82,7 +82,7 @@ To assign users and roles to Workplace Analytics groups, the steps are similar t
 
    ![Select group](../images/WpA/Use/select-group-b.png)
 
-If you have not yet created a Workplace Analytics group in Azure AD, and want to do so, see the article on creating a group in **Related links**.
+If you have not yet created a Workplace Analytics group in Azure AD, and want to do so, see the article on creating a group in **Related topics**.
 
 ## FAQ
 
@@ -92,7 +92,7 @@ It depends on the situation or on your company's policy, but generally speaking,
 
 However, in a larger company where the number of users required for the same role is significant, for example, Program Managers, it is more efficient to assign a role to a group, and then add users to the group, because groups are easier to manage and audit.
 
-## Related
+## Related topics
 
 [Assign roles with PowerShell in Azure Active Directory](https://docs.microsoft.com/workplace-analytics/use/using-powershell-to-assign-roles)
 

@@ -43,6 +43,6 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 >[!Tip]
 >You can create multiple groups, for each prerequisite service plan. For example, if you use both Office 365 Enterprise **E1** and Office 365 Enterprise **E3** for your users, you could create two groups to license Microsoft Workplace Analytics; one using E1 as a prerequisite and the other using E3. This will allow you to distribute the add-on to E1 and E3 users without consuming additional licenses.
 
-## Related
+## Related topic
 
 [Group-based licensing](https://aka.ms/Instructions_AssignLicenseUsingGBL)
