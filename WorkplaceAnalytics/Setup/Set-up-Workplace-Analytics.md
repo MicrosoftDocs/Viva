@@ -2,88 +2,67 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Setup Checklist
-description: Complete the steps in this checklist to implement Workplace Analytics in your organization
-author: madehmer
-ms.author: paul9955
-ms.date: 9/28/2018
+title: Workplace Analytics setup
+description: How to set up and configure Workplace Analytics
+author: paul9955
+ms.author: v-pascha
+ms.date: 10/26/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: Workplace Analytics
 ---
 
-# Workplace Analytics Setup
+# Set up Workplace Analytics
 
-To successfully set up and implement Workplace Analytics, you need to coordinate and get information and buy-in from a variety of stakeholders.
+This article describes the steps that are required for setting up and configuring Workplace Analytics. While the Office 365 admin and the Workplace Analytics admin perform most of these steps, others in your organization help make decisions that relate to setup. For more information, see [Determine key personas and roles for implementation](Determine-key-personas.md). 
 
-Use the following checklist to help assemble the people and get the data and configuration information that you need to set up and use Workplace Analytics.
+## Setup steps 
 
-> [!TIP]
-> This checklist outlines recommended steps and a high-level list of items to consider. It is not intended to be exhaustive. You might want to copy this checklist into a spreadsheet and then customize it for your organization.
+* **Owner** - The following persons or entities perform these steps:
+  * **Workplace Analytics admin**. The Workplace Analytics admin does most of this work. In these steps, that person is referred to as "you."
+  * **Office 365 admin**. In one step, you verify that the Office 365 administrator has assigned licenses and roles.  
+  * **Workplace Analytics**. In a few steps, Workplace Analytics processes and validates data. 
+* **Task** - Complete steps to set up and configure Workplace Analytics  
+* **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time.  
 
-### Video: Overview for admins
+**To set up Workplace Analytics**
 
-<!-- OLD INTRO TEXT: To quickly obtain an understanding of how Workplace Analytics works and learn about the initial steps for getting Workplace Analytics up and running, watch the following video: -->
+1.	**Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page**. If prompted, enter your organization's credentials. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, verifying the assignment of licenses and roles:
+   
+      ![The Home page guides you through setup](../images/wpa/setup/01-home-start.png)
+  
+2.	**Licenses and roles**. Verify that your Office 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](assign-licenses-to-population.md) and [Assign roles](assign-roles-to-wpa-admins.md).
 
-<!-- previous attempts:
-1. didn't work:
-[Admin overview video](https://aka.ms/WpAAdminOverview_Video)
-2. didn't work: 
-[<img src="../Images/WpA/setup/Admin-overview-sm.png" alt="Admin overview video">](https://aka.ms/WpAAdminOverview_Video)
-3. didn't work: 
-<iframe width="640" height="564" src="https://aka.ms/WpAAdminOverview_Video" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-4. Didn't show the thumbnail specified under id=""
-<iframe width="640" height="564" id="../Images/WpA/setup/Admin-overview-sm.png" src="https://player.vimeo.com/video/282383279" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-5. This works: 
+3.	**System settings**. Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system settings](configure-wpa-settings.md#system-settings). 
+
+4.	**Privacy settings**. Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](configure-wpa-settings.md#privacy-settings). After you've finished making both the system settings and the privacy settings, select **Next**. 
+
+5.	**Collaboration data**. Workplace Analytics extracts collaboration data (data about email usage, meetings, chats, and calls) from Office 365, and then processes it. This processing can last as long as a week. After it finishes, Workplace Analytics displays a "completed processing" status on the **Setup** page. 
+
+      ![Workplace Analytics processes collaboration data](../images/wpa/setup/03-process-collab-data.png)
+
+6.	**Prepare organizational data**. Export organizational data from your HR system into a UTF-8 encoded .csv file. For information about what data to export and how to structure it, see [Prepare organizational data](Prepare-organizational-data.md). 
+
+7.	**Upload organizational data**. Upload the .csv file into Workplace Analytics. For more information, see [Upload organizational data](upload-organizational-data-1st.md). 
+
+    The next three steps are part of the **Upload organizational data** task: 
+
+    a.	**Map data**. Map the uploaded data to Workplace Analytics field names. For more information, see [Field mapping](upload-organizational-data-1st.md#field-mapping). 
+
+    b.	**Data validation**. Workplace Analytics validates the upload and then notifies you whether your uploaded data validated. If it did not, you are advised what further action you can take. For more information, see [Data validation](Upload-organizational-data.md#data-validation). 
+
+    c.	**Data processing**. Workplace Analytics processes the validated data. 
+
+    ![Processing organizational data](../images/wpa/setup/07-process-org-data.png)
+
+    When this processing finishes, your setup of Workplace Analytics is complete, as the status bar indicates: 
+
+    ![Setup is complete](../images/wpa/setup/08-setup-complete.png) 
+
+
+<!-- 
+ASK ABOUT THIS  
+8.	**Set up meeting exclusion rules.** Some meetings (such as personal meetings or work-related social activities) reflect activities that would skew analysis of work-related collaboration if they were included in your data. You can remove meetings from analysis. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md). 
+
+WHERE DOES THIS GO IN SETUP? 
 -->
-
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
-## Preliminary review task
-
-Before setting up Workplace Analytics, review [Environment requirements for Workplace Analytics](../Setup/Environment-Requirements.md) to learn what system requirements the Workplace Analytics administrator needs to confirm before setting up Workplace Analytics, including Workplace Analytics licensing and trials, and if you qualify for FastTrack services.
-
-## Setup task checklist
-
-To set up Workplace Analytics, complete the following tasks:
-
-| | Task | Owners | Outcome |
-|---|------|-------|---------|
-| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 1 - Determine key personas and assign roles for implementation](#step-1-determine-key-personas-and-roles-for-implementation) |Workplace Analytics sponsor (the initial point-person for the engagement)       |   A list of people in your organization with key roles identified     |
-| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 2 - Assign licenses to population in scope for analysis](#step-2-assign-licenses-to-the-population-in-scope-for-analysis)     |   Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator     | Office 365 licenses are assigned for the population that will be analyzed   |
-| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 3 - Assign roles to Workplace Analytics Admins and Analysts](#step-3-assign-roles-to-workplace-analytics-admins-and-analysts) | Office 365 global administrator   |     Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. And,  data analysts can log into and use Workplace Analytics once data is provisioned.   |
-| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 4 - Configure Workplace Analytics settings](#step-4-configure-workplace-analytics-settings) |    Workplace Analytics sponsor, Workplace Analytics administrator   |  Privacy settings are defined in Workplace Analytics and you have confirmed that you are ready to provision the service by using these rules. Default time zone values are defined in Workplace Analytics.  |
-| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 5 - Prepare and upload organizational data](#step-5-prepare-and-upload-organizational-data)    |   Workplace Analytics administrator, HR information system administrator, LOB system administrators, or data analyst     |    Workplace Analytics administrators have determined what kind of organizational data to provide and how to upload the data. See [Prepare organizational data](../Setup/Prepare-organizational-data.md) and then [Upload organizational data](../Setup/Upload-organizational-data.md).    |
-| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 6 - Validate and verify data](#step-6-validate-and-verify-data)    |  Workplace Analytics administrator, data analysts with full access     |    Workplace Analytics administrators are comfortable that data has been provisioned successfully, data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.     |
-| <img src="../images/wpa/setup/team-adopt-plan-checklist-box.PNG">  | [Step 7 - Set up meeting exclusions](#step-7-set-up-meeting-exclusions)  |   Workplace Analytics administrator, data analysts with full access     |     Workplace Analytics administrators and analysts create, if needed, custom criteria to exclude non-work-related calendar items from analysis.
-
-
-## Step 1: Determine key personas and roles for implementation
-
-[!INCLUDE [Determine key personas and roles](../Setup/Determine-key-personas.md)]
-
-## Step 2: Assign licenses to the population in scope for analysis
-
-[!INCLUDE [Assign licenses to population](../Setup/Assign-licenses-to-population.md)]
-
-## Step 3: Assign roles to Workplace Analytics admins and analysts
-
-[!INCLUDE [Assign roles to admins and analysts](../Setup/Assign-roles-to-wpa-admins.md)]
-
-## Step 4: Configure Workplace Analytics settings
-
-[!INCLUDE [Configure Workplace Analytics settings](../Setup/Configure-wpa-settings.md)]  
-
-## Step 5: Prepare and upload organizational data
-
-[!INCLUDE [Prepare and upload organizational data](../Setup/Prep-upload-org-data.md)]
-
-## Step 6: Validate and verify data
-
-[!INCLUDE [Validate and verify data](../Setup/Validate-verify-data.md)]
-
-## Step 7: Set up meeting exclusions
-
-[!INCLUDE [Set up meeting exclusions](../Setup/Set-up-mtg-exclusions.md)]
-
-After you finish the setup tasks, you can [start using Workplace Analytics](../overview/get-started.md) to explore metrics and run queries for more in-depth organizational analysis.

@@ -5,8 +5,8 @@
 title: Explore meetings overview metrics in Workplace Analytics
 description: Overview of meetings metrics on the Workplace Analytics Explore page.
 author: madehmer
-ms.author: v-midehm
-ms.date: 07/31/2018
+ms.author: madehmer
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -19,7 +19,7 @@ The **Meetings Overview** page in **Explore**, summarizes meeting norms within y
 
 To open the **Meetings overview** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizational credentials.
 2. In the left navigation pane, select **Explore**.
 3. In **Explore**, select the **Meetings overview** tab.
 
@@ -102,3 +102,5 @@ Each duration segment in the chart shows the total time a person spent in meetin
 * Employees who are double-booked might not be able to fully focus or commit to either meeting.
 * Consistently conflicting meetings can result in employees feeling stressed and over-burdened. This can especially be important for managers who are overloaded with meetings and may unintentionally delay or de-prioritize their 1:1 meetings.
 * Manager 1:1 meetings with employees are critical for employee development, and if ignored, may lead to employee disengagement and ultimately attrition.
+* Consistently conflicting meeting hours could indicate a cultural issue with potentially significant implications for agility, innovation, engagement, and ultimately performance
+

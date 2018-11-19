@@ -55,6 +55,7 @@ ms.prod: wpa
  * Complete the data-science request template.
  * Provide Microsoft personnel with access and permissions to your online-services environment, as necessary, for them to perform data-science activities.
  * Handle all communications with end users.
+ * If you want Microsoft to share data or analyses with a third party, provide Microsoft with written authorization to do so.
 
 ## Advisory notes
 

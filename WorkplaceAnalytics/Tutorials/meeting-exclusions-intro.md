@@ -3,7 +3,7 @@
 # required metadata
 
 title: Meeting exclusion rules in Workplace Analytics
-description: Meeting exclusion rules -- Introduction    
+description: Meeting exclusion rules introduction    
 author: paul9955
 ms.author: v-pascha
 ms.date: 11/06/2018

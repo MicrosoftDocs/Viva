@@ -6,7 +6,7 @@ title: Person-to-group queries in Workplace Analytics
 description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond.
 author: madehmer
 ms.author: madehmer
-ms.date: 9/21/2018
+ms.date: 11/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -79,3 +79,9 @@ While setting up a person-to-group query differs from setting up meeting or grou
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
 11. Choose **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it (in .csv file format), or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) that you can use in a visualization tool such as Power BI.
+
+## Related topics
+
+[Metric descriptions](../Use/Metric-definitions.md)
+
+[View, download, and export query results](../Use/View-download-and-export-query-results.md)

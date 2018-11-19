@@ -2,16 +2,16 @@
 # Metadata Sample
 # required metadata
 
-title: Using PowerShell to assign users to Azure Active Directory
+title: Assign roles with PowerShell in Azure Active Directory
 description: How to use PowerShell to assign Workplace Analytics roles in Azure Active Directory.
 author: rodonahu
-ms.author: rodonahu
-ms.date: 01/19/2018
+ms.author: madehmer
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
-# Use PowerShell to assign users to Azure Active Directory
+# Assign Workplace Analytics roles with PowerShell in Azure Active Directory
 
 ## Install AzureAD PowerShell module
 
@@ -26,13 +26,13 @@ ms.prod: wpa
 
 1. In the Azure Active Directory admin center, identify the &lt;Object ID&gt; that corresponds to the Workplace Analytics App.
 
-  ![Azure Active Directory admin center object id](../images/wpa/use/AADAdmin.png)
+    ![Azure Active Directory admin center object id](../images/wpa/use/AADAdmin.png)
 
 2. In the elevated Windows PowerShell command prompt that you opened above, run the following command: **&#36;spo = Get-AzureADServicePrincipal -ObjectId &lt;Object ID&gt;**
 
-3. Identify the roles by running the following command, which will return all the available roles: **&#36;spo.AppRoles 
+3. Identify the roles by running the following command, which will return all the available roles: **&#36;spo.AppRoles
 
-   ![Workplace Analytics roles](../images/wpa/use/PS_1.png)
+    ![Workplace Analytics roles](../images/wpa/use/PS_1.png)
 
 4. Get access to specific roles.  You can see each role’s properties by checking the returned role.
 
@@ -54,7 +54,7 @@ ms.prod: wpa
 
 1. In the Azure Active Directory admin center, identify the &lt;Object ID&gt; that corresponds to the user you want to assign to one of the roles.
 
-  ![Identify Object ID](../images/wpa/use/PS_6.png)
+    ![Identify Object ID](../images/wpa/use/PS_6.png)
 
 2. In the elevated Windows PowerShell command prompt, run the following command: **$user = Get-AzureADUser -ObjectId &lt;objectid&gt;**
 4. Run the following command, where **&#36;roleVariable** corresponds to the role variable you want to assign the user to:
@@ -67,6 +67,7 @@ ms.prod: wpa
 
 1. In the Azure Active Directory admin center, go to the Workplace Analytics App, you should see that **Total Users** equals the number of users you have assigned. 
 
-![Total Users](../images/wpa/use/AADADMIN_3.png)
+   ![Total Users](../images/wpa/use/AADADMIN_3.png)
 
-2. Select a user, and then select **Applications**. You should see the role you have assigned to the user for the Workplace Analytics App.![Verify roles](../images/wpa/use/AAD_ADMIN4.png)
+2. Select a user, and then select **Applications**. You should see the role you have assigned to the user for the Workplace Analytics App.
+   ![Verify roles](../images/wpa/use/AAD_ADMIN4.png)

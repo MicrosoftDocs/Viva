@@ -4,9 +4,9 @@
 
 title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal networks collaboration dashboards available in Workplace Analytics.
-author: buntus
-ms.author: v-johtob
-ms.date: 09/05/2018
+author: madehmer
+ms.author: madehmer
+ms.date: 11/16/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -19,7 +19,7 @@ The **Internal networks** page in **Explore**, shows network connections between
 
 To open the **Internal networks** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your Microsoft credentials.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizational credentials.
 2. In the left navigation pane, select **Explore**.
 3. In **Explore**, select the **Internal networks** tab.
 

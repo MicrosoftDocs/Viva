@@ -22,6 +22,10 @@ Analysts can use the Meeting exclusions feature to create custom meeting exclusi
 
 ### Related topics
 
+[Meeting exclusion rules](../Tutorials/meeting-exclusions-intro.md)
+
+<!-- former topics 
 [Understand meeting exclusions](../Use/Understand-meeting-exclusions.md)
 
 [Create custom meeting exclusions](../Use/Create-custom-meeting-exclusions-rules.md)
+-->
