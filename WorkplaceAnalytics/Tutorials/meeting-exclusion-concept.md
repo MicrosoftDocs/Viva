@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Meeting exclusion rules: Tools and concepts
 
-This article describes screen elements and concepts whose understanding can help you create and use meeting exclusion rules. Those tasks are described in the step-by-step walkthroughs in [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md).
+This article describes screen elements and concepts whose understanding can help you create and use meeting exclusion rules. Those tasks are described in the step-by-step walkthroughs in [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md). 
 
 At each step in the exclusion-creation flow, you see a page such as the following: 
 
@@ -147,3 +147,9 @@ A3.  Yes. Anyone in your organization can use the rules that anyone else in the 
 Q4. **Combining rules.** Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule atop it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
 
 A4.  No. You can have only one rule in effect at a time. For information about selecting the rule that you want to use, see [Select a rule](#select-a-rule).
+
+## Related topics
+
+[Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
+
+
