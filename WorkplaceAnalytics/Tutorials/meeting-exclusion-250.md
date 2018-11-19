@@ -6,7 +6,7 @@ title: Meeting exclusion rules -- Large meeting limitation
 description: Meeting exclusion rules -- Concepts   
 author: paul9955
 ms.author: v-pascha
-ms.date: 11/16/2018
+ms.date: 11/19/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -22,7 +22,7 @@ In one of the steps for creating a custom meeting exclusion rule, you can change
 
 ### Problem
 
-The custom rule will not function properly if its large-meeting filter value is set to a number equal to or higher than 250.  
+The custom rule will not function properly in certain cases, if its large-meeting filter value is set to a number equal to or higher than 250, _or_ if the large-meeting exclusion contains exceptions. 
 
 ### Solution
 
@@ -42,16 +42,16 @@ If you do any of the following:
 
 ... these things will happen: 
 
- * You will be unable to use this rule as a preferred, or default, rule on your Explore dashboards. 
+ * Your data load will fail if this rule is used as a preferred, or default, rule on your Explore dashboards. 
  * Any meeting queries that contain the [impacted metrics](#impacted-metrics) will fail. 
 
 ### Impacted metrics 
 
- * Particular metrics do not support meetings with greater than 250 attendees. If the exclusion rule that is applied on a query that contains these metrics does not include an exclusion to remove meetings with more than 250 attendees, the query will fail. 
+ * For meeting queries, particular metrics do not support meetings with greater than 250 attendees. If the exclusion rule that is applied on a query that contains these metrics does not include an exclusion to remove meetings with more than 250 attendees, the query will fail. 
 
 <!--
 The impacted metrics are: 
 
 <List of metrics here> FOR THIS, PUT "PARTICULAR QUERIES IN MEETING QUERIES"
 -->
- * Any metric that has a participant filter applied to it will fail. 
+ * Any meeting query metric that has a participant filter applied to it will fail. 
