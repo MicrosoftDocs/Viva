@@ -98,7 +98,11 @@ Now that you've created a framework for your new rule, you add -- and optionally
 
    When you have finished making exceptions to the small-meetings exclusion and you are ready to add the exclusion to the rule, click **Next**. Workplace Analytics displays the next step in the flow, the page for excluding large meetings. Notice that the values that are shown near the top of the page for **Attendee meeting hours** and **Number of meetings** have been lowered as a result of the exclusions that we've applied earlier in the last two pages.
 
-**Step 3: Exclude large meetings.** This exclusion differs from the first two in that you can change the value in the "Exclude meetings where" filter from the default value of 250 attendees. 
+**Step 3: Exclude large meetings.** This exclusion differs from the first two in that you can change the value in the "Exclude meetings where" filter from the default value of 250 attendees.
+
+>[!Important]
+>Meeting exclusion rules have limitations, in certain cases, for large meetings. For details, see
+[Meeting exclusion rules: Large-meeting limitation](../Tutorials/meeting-exclusion-250.md)
 
    (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
 

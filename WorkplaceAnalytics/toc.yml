@@ -122,6 +122,8 @@
           href: ~/tutorials/Download-UTF8-query-report.md
         - name: Workplace Analytics 500 error
           href: ~/tutorials/Wpa-tool-500-error.md
+        - name: Meeting exclusion rules - large meeting limitation
+          href: ~/tutorials/meeting-exclusion-250.md
     - name: Get support
       href: ~/Overview/Getting-Support.md
 - name: MyAnalytics
