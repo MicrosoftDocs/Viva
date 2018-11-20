@@ -66,7 +66,7 @@ Workplace Analytics guides you step-by-step through the creation of a customized
 
 In this task, you open the meeting exclusions page and name the rule that you will create.  
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your organizational credentials. 
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your organization credentials. 
 
 2. Select **Queries** and then **Meeting exclusions**.
 
@@ -102,7 +102,7 @@ Now that you've created a framework for your new rule, you add -- and optionally
 
 >[!Important]
 >Meeting exclusion rules have limitations, in certain cases, for large meetings. For details, see
-[Meeting exclusion rules: Large-meeting limitation](../Tutorials/meeting-exclusion-250.md)
+[Meeting exclusion rules: Large-meeting limitation].(../Tutorials/meeting-exclusion-250.md)
 
    (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
 
