@@ -100,8 +100,8 @@ Now that you've created a framework for your new rule, you add -- and optionally
 
 **Step 3: Exclude large meetings.** This exclusion differs from the first two in that you can change the value in the "Exclude meetings where" filter from the default value of 250 attendees.
 
->[!Important]
-> In certain cases, the meeting exclusion for large meetings has limitations. For details, see [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
+   >[!Important]
+   > In certain cases, the meeting exclusion for large meetings has limitations. For details, see [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
 
    (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
 
