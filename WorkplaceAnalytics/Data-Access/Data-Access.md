@@ -45,7 +45,6 @@ Each of the tables are exported as a separate .csv file in the designated Azure 
 
 [Mails](./Mails.md)
 
-
 ## Creating Azure infrastructure for data access
 
 To prepare for a Workplace Analytics data export, you need a current Azure subscription and an Azure storage account that contains an Azure storage container. You also need to create a write-only SAS key for the container. 
