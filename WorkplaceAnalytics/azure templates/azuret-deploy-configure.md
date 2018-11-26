@@ -30,11 +30,11 @@ Before installing these templates, review the following security principals for 
 
 Before installing the Workplace Analytics Azure Templates, confirm or complete the following:
 
-1. Confirm that Workplace Analytics is set up and ready to use.
-2. Enable Workplace Analytics data access for the Azure tenant.
+1. Confirm that [Workplace Analytics is set up](https://docs.microsoft.com/en-us/workplace-analytics/setup/set-up-workplace-analytics) and ready to use.
+2. Enable [Workplace Analytics data access](https://docs.microsoft.com/en-us/workplace-analytics/data-access/data-access) for the Azure tenant.
 3. Do the following for the Azure subscription that will host these templates and the data exported from Workplace Analytics:
    * Either an Azure Admin or an Azure Contributor role is required to deploy these templates.
-   * Get applicable Azure AD permissions for this same person from your Office 365 global administrator.
+   * Get [applicable Azure AD permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added) for this same person from your Office 365 global administrator.
    * If the Workplace Analytics team is deploying the templates, confirm that vendor accounts are set up for the team and that the Technical Operations engineer has the applicable Azure permissions to install and set up the templates.
 
 ## Deployment
@@ -43,7 +43,7 @@ Before installing the Workplace Analytics Azure Templates, confirm or complete t
 2. When prompted, select the Azure subscription and region and select **Next**.
 3. Select **Launch Workspace**.
 4. You automatically get signed in to Azure Databricks. If you’re not, you need to manually sign in.
-5. You then need to generate the Azure Databricks Token for the App source.
+5. You then need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
 6. On the **Summary** page, select a SKU for the data cluster, which must be about 30 percent larger than your Workplace Analytics data set (ask your Workplace Analytics Admin for help with this), for the following Azure components:
    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
    * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
