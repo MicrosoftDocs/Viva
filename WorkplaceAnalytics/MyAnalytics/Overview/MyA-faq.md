@@ -5,8 +5,8 @@
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
-ms.author: v-pascha
-ms.date: 10/26/2018
+ms.author: madehmer
+ms.date: 11/27/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -78,6 +78,15 @@ No. Only Exchange Online and Skype for Business Online are used as sources of My
 ##### Do "Meeting Hours" include time that I block out for personal work on my calendar?
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting hours. 
+
+##### Why does MyAnalytics show a larger total of meeting hours for working hours and after hours when compared to the total meeting hours for the week, when the opposite is expected?
+
+This can occur because of how MyAnalytics calculates meeting metrics:
+
+* The total for meeting hours is the total *adjusted* duration hours for attended meetings.  
+* As compared to working hours and after-hours work, which includes the total duration hours (not adjusted) for scheduled meetings.
+
+This discrepancy can occur when meetings overlap and MyAnalytics doesn’t know which meeting was attended, so the meeting hours total will include adjusted duration hours, which are based on an estimate of time spent in meetings. For example, if you’re double booked for two meetings from 4:30 to 5:30pm, and your work day ends at 5pm, then MyAnalytics adjusts the duration hours for the meeting hours metrics, but does not adjust the hours for the two scheduled meetings, so MyAnalytics includes the duration of one hour for working hours and one hour for after-hours work.
 
 #### Email
 
