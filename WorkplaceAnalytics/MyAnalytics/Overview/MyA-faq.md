@@ -5,8 +5,8 @@
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
-ms.author: v-pascha
-ms.date: 10/26/2018
+ms.author: madehmer
+ms.date: 11/27/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -77,7 +77,16 @@ No. Only Exchange Online and Skype for Business Online are used as sources of My
 
 ##### Do "Meeting Hours" include time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting hours. 
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting hours.
+
+##### Why is my total meeting hours (that's included as part of working hours and after hours work) larger than my total meeting hours for the week?
+
+This can occur because of the way MyAnalytics calculates meeting hours:
+
+* The meeting hours total includes *adjusted* hours for *attended* meetings.  
+* As compared to total working hours and after-hours work, which includes the number of meeting hours (not adjusted) for *scheduled* meetings.
+
+This discrepancy can occur when meetings overlap and MyAnalytics doesn’t know which meetings were attended, so the meeting hours total will include *adjusted* hours, which are an estimate of time actually spent in meetings. For example, let's say you’re double booked for two meetings from 4:30 to 5:30 PM, and your work day ends at 5 PM. For this scenario, MyAnalytics adjusts the meeting hours to one hour, since you cannot attend two meetings at the same time. However, MyAnalytics does not adjust for the two scheduled meetings, which results in MyAnalytics adding one hour to total working hours and one hour to after-hours work. You can avoid this discrepancy by declining any scheduled meetings you do not attend.
 
 #### Email
 
