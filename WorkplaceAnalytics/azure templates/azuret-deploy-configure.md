@@ -39,7 +39,7 @@ Before installing the Workplace Analytics Azure Templates, confirm or complete t
 
 ## Deployment
 
-1. Get a deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
+1. Get an Azure deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
 2. When prompted, select the Azure subscription and region and select **Next**.
 3. Select **Launch Workspace**.
 4. You automatically get signed in to Azure Databricks. If you’re not, you need to manually sign in.
@@ -109,7 +109,8 @@ If these .csv files are not already in the **rawdata** folder, then you need to 
 
 ## Get support
 
-* For setup and data analysis help with Workplace Analytics and the Workplace Analytics Azure Templates, select the **smiley face** icon (at the top of the UI), enter your question or feedback, and then select **Send**.
+* For help with Workplace Analytics Azure Templates, email your questions or feedback to [wpa-tops@microsoft.com](wpa-tops@microsoft.com).
+* For setup and data analysis help with Workplace Analytics, open Workplace Analytics, select the **smiley face** icon (at the top of the UI), enter your question or feedback, and then select **Send**.
 * For general help with Office 365 and Azure subscriptions, components, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/).
 
 ## Related topics
