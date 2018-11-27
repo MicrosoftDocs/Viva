@@ -132,17 +132,17 @@
   expanded: true
   items:   
     - name: Why use MyAnalytics?
-      href: MyAnalytics/Overview/Better-work-habits.md        
-    - name: Setup
-      href: MyAnalytics/Setup/Mya-setup-checklist.md
+      href: MyAnalytics/Overview/Better-work-habits.md    
     - name: Frequently asked questions
-      href: MyAnalytics/Overview/MyA-faq.md
-    - name: MyAnalytics Privacy 
-      items:
-      - name: MyAnalytics privacy guide 
+      href: MyAnalytics/Overview/MyA-faq.md        
+    - name: MyAnalytics for admins
+      items:     
+      - name: MyAnalytics Setup
+        href: MyAnalytics/Setup/Mya-setup-checklist.md        
+      - name: MyAnalytics privacy guide for admins
         href: MyAnalytics/Overview/Privacy-Guide.md  
     - name: Use MyAnalytics
-      items:      
+      items:            
       - name: MyAnalytics elements
         expanded: false
         href: MyAnalytics/Use/MyA-elements.md
@@ -157,6 +157,8 @@
           href: MyAnalytics/Use/mya-notifications.md
       - name: MyAnalytics tips
         href: MyAnalytics/Overview/Tips.md    
+#      - name: MyAnalytics data privacy
+#        href: myanalytics/overview/data-privacy.md 
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
         homepage: /myanalytics/adopt-myanalytics/    

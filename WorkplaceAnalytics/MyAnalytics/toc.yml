@@ -4,13 +4,13 @@
   items:   
     - name: Why use MyAnalytics?
       href: ./Overview/Better-work-habits.md        
-    - name: Setup
-      href: ./Setup/Mya-setup-checklist.md
     - name: Frequently asked questions
-      href: ./Overview/MyA-faq.md
-    - name: MyAnalytics Privacy 
-      items:
-      - name: MyAnalytics privacy guide 
+      href: ./Overview/MyA-faq.md        
+    - name: MyAnalytics for admins
+      items:     
+      - name: MyAnalytics Setup
+        href: ./Setup/Mya-setup-checklist.md        
+      - name: MyAnalytics privacy guide for admins
         href: ./Overview/Privacy-Guide.md  
     - name: Use MyAnalytics
       items:      
@@ -28,6 +28,8 @@
           href: ./Use/mya-notifications.md
       - name: MyAnalytics tips
         href: ./Overview/Tips.md    
+#      - name: MyAnalytics data privacy
+#        href: ./overview/data-privacy.md         
       - name: Adopt MyAnalytics
         href: ./Use/MyA-Adoption/Adopt-myanalytics.md  
         items: 
