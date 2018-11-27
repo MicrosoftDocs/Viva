@@ -18,7 +18,7 @@ The steps in this topic describe how to set up MyAnalytics for the users in your
  * **Prerequisite software.** Make sure that the [environment requirements for MyAnalytics](../Overview/Environment-Requirements.md) are fulfilled. 
  * **Data privacy.** Read the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md) to understand the ways in which privacy is built into MyAnalytics and to learn the aspects that you can configure to address specific privacy requirements.
 
-To set up MyAnalytics<!--for users in your organization-->, complete the tasks in this checklist: 
+To set up MyAnalytics, complete the tasks in this checklist: 
 
 | | Task | Owner | Outcome |
 |---|------|-------|---------|

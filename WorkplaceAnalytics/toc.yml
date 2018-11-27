@@ -137,7 +137,7 @@
       href: MyAnalytics/Overview/MyA-faq.md        
     - name: MyAnalytics for admins
       items:     
-      - name: Setup
+      - name: MyAnalytics Setup
         href: MyAnalytics/Setup/Mya-setup-checklist.md        
       - name: MyAnalytics privacy guide for admins
         href: MyAnalytics/Overview/Privacy-Guide.md  
