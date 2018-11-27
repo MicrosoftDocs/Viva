@@ -109,7 +109,7 @@ If these .csv files are not already in the **rawdata** folder, then you need to 
 
 ## Get support
 
-* For help with Workplace Analytics Azure Templates, email your questions or feedback to [wpa-tops@microsoft.com](wpa-tops@microsoft.com).
+* For help with Workplace Analytics Azure Templates, email your questions or feedback to wpa-tops@microsoft.com.
 * For setup and data analysis help with Workplace Analytics, open Workplace Analytics, select the **smiley face** icon (at the top of the UI), enter your question or feedback, and then select **Send**.
 * For general help with Office 365 and Azure subscriptions, components, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/).
 
