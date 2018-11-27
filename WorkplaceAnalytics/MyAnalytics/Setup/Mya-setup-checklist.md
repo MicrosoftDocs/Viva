@@ -18,21 +18,6 @@ The steps in this topic describe how to set up MyAnalytics for the users in your
  * **Prerequisite software.** Make sure that the [environment requirements for MyAnalytics](../Overview/Environment-Requirements.md) are fulfilled. 
  * **Data privacy.** Read the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md) to understand the ways in which privacy is built into MyAnalytics and to learn the aspects that you can configure to address specific privacy requirements.
 
-<!-- TRYING THIS OUT
-
-## Preliminary review tasks
-
-To prepare for setting up MyAnalytics, review the following articles:  
-
-| Review this article | Owner | Outcome |
-|------|-------|---------|
-| [Environment requirements for MyAnalytics](#preliminary-review-tasks) | Office 365 Administrators | Review this list of requirements to determine whether you are ready to set up MyAnalytics. |
-| [MyAnalytics privacy guide](#preliminary-review-tasks)  | Office 365 Administrators | Review this overview of the types of data collected and used by MyAnalytics, and how privacy, choice, and controls were incorporated into its design.  |
-
-## Setup tasks
-
--->
-
 To set up MyAnalytics<!--for users in your organization-->, complete the tasks in this checklist: 
 
 | | Task | Owner | Outcome |
