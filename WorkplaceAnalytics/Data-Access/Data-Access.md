@@ -5,15 +5,16 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Data Access (WPA Data Access)
 description: Overview of Workplace Analytics Data Access
-author: gbowerman
-ms.author: guybo
-ms.date: 06/20/2018
+author: madehmer
+ms.author: madehmer
+ms.date: 11/28/2018
 ms.topic: language-reference
 ms.prod: wpa
 ---
 
 # Workplace Analytics Data Access
-Customers with unique data-analysis requirements might require custom exploration of Workplace Analytics insights data that goes beyond the metrics that are available through flexible queries. This custom data exploration can include combining Workplace Analytics data with other data sets, such as building-space allocation or CRM data. Custom data access scenarios include:
+
+Customers with unique data-analysis requirements might require custom exploration of Workplace Analytics insights data that goes beyond the metrics that are available with Explore and Queries in Workplace Analytics. This custom data exploration might include combining Workplace Analytics data with other data sets, such as building-space allocation or CRM data. Custom data access scenarios include:
 
 - Which groups are starting long email threads? The answer would involve associating email data with corporate function.
 - Do people with the same function who are collocated spend more time together than people with the same function who are not collocated?

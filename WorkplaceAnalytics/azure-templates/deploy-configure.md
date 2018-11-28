@@ -115,4 +115,4 @@ If these .csv files are not already in the **rawdata** folder, then you need to 
 
 ## Related topics
 
-[Workplace Analytics Azure Templates overview](./azuret-overview.md)
+[Workplace Analytics Azure Templates overview](./overview.md)
