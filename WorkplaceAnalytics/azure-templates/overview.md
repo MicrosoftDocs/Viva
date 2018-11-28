@@ -44,4 +44,4 @@ The following are the Azure components that Workplace Analytics Azure Templates 
 
 ## Related topic
 
-[Deploy and configure the Workplace Analytics Azure Templates](./azuret-deploy-configure.md)
+[Deploy and configure the Workplace Analytics Azure Templates](./deploy-configure.md)
