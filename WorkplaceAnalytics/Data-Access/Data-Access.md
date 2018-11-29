@@ -14,15 +14,15 @@ ms.prod: wpa
 
 # Workplace Analytics Data Access
 
-Customers with unique data-analysis requirements might require custom exploration of Workplace Analytics insights data that goes beyond the metrics that are available with Explore and Queries in Workplace Analytics. This custom data exploration might include combining Workplace Analytics data with other data sets, such as building-space allocation or collaboration data. Custom data access scenarios include:
+Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond Workplace Analytics metrics and queries. This custom data exploration might include combining Workplace Analytics data with other data sets, such as:  
 
-* Which groups are starting long email threads? The answer would involve associating email data with corporate function.
+* Which groups are starting long email threads? The answer would involve associating email data with corporate functional data.
 * Do people with the same function who are co-located spend more time together as compared to people with the same function who are not co-located?
-* Effectiveness of your sales team or customer service team.
+* How effective is your sales team or customer service team.?
 
 You can get access to the underlying Workplace Analytics pre-processed data model as part of a Customer Solutions (CS) engagement.
 
-After you get a CS agreement, Microsoft can enable data access for your Office 365 tenant. After it's enabled, your Workplace Analytics admin can view and use the Data Access tab on the Workplace Analytics Settings page. The Data Access page enables your admin to save a [SAS URI](https://go.microsoft.com/fwlink/?linkid=871677), which points to an Azure storage container with write-only permission.
+After you get a Customer Solutions agreement, Microsoft can enable data access for your Office 365 tenant. After data access is enabled, your Workplace Analytics admin can view and use the Data Access tab on the Workplace Analytics Settings page. The Data Access page enables your admin to save a [SAS URI](https://go.microsoft.com/fwlink/?linkid=871677), which points to an Azure storage container with write-only permission.
 
 Saving the SAS URI enables a workflow that exports the Workplace Analytics data to the storage container. The data will be exported each time it is refreshed, for the agreed duration of the CS agreement.
 
