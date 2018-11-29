@@ -32,6 +32,8 @@ Microsoft does not currently offer trials of Workplace Analytics. For more infor
 
 Workplace Analytics works with the latest or immediately previous versions of Microsoft Edge, Google Chrome, Apple Safari, Internet Explorer, and Mozilla Firefox.
 
+<!-- REMOVING FOR NOW 
 ### FastTrack qualification
 
 FastTrack services for Workplace Analytics onboarding and training are available to customers who purchase at least 1,000 licenses.
+-->
