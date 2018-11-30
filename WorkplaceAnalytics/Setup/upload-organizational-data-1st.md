@@ -109,7 +109,9 @@ If validation succeeds, in the Validation results section, the page displays the
 
 <img src="../images/wpa/setup/4-orgd-reprocess.png" alt="Validation succeeded">
 
-You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded).
+After successful validation, Workplace Analytics processes your new data.
+
+You can select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded). 
 
 On this page, you have the following options:
 

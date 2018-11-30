@@ -124,7 +124,7 @@ If validation succeeds, the Upload page will indicate it and show the size of th
  
 <img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
 
-You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded). This display includes your most recent upload if the processing of its data has completed. 
+You can select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded). 
 
 On this page, you have the following options:
 
