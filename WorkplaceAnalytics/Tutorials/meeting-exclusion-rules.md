@@ -162,7 +162,7 @@ To select a rule for use on the **Explore** page dashboards, see [Use rules in t
 By default, the dashboards of the **Explore** page use the default meeting-exclusion rule that Workplace Analytics supplies, but you can change this to a different rule. The rule that will be used in the dashboards is known as the _preferred rule_, whether this is the default rule or a different rule that you've selected. 
 
 >[!Note] 
-> The rule that is in effect on the **Explore** page dashboards is also in effect on the **Solutions** pages. 
+> The rule that is in effect on the **Explore** dashboards is also in effect on the **Solutions** pages. 
 
 **To apply a rule to the Explore dashboards**
 

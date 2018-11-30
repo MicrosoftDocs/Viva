@@ -133,8 +133,8 @@ Q1. **Scope of meeting-exclusion rules.** You create meeting-exclusion rules on 
 
 A1.  Exclusion rules apply in two areas where analysts work: 
 
- * **Explore page dashboards.** Exclusion rules work for analysts as they inspect data on the dashboards of the Workplace Analytics Explore page. For information about selecting the rule that you want to take effect, see [Explore page](#explore-page).
- * **Queries.** Creating, refining, and running queries on the query-creation pages that are reached through the Workplace Analytics Queries page. For information about selecting the rule that you want to take effect, see [Queries page](#queries-page).
+ * **Explore page dashboards.** Exclusion rules work for analysts as they inspect data on the dashboards of the Workplace Analytics Explore page. For information about selecting the rule that you want to take effect, see [Use rules in the Explore dashboards](meeting-exclusion-rules.md#use-rules-in-the-explore-dashboards).
+ * **Queries.** Creating, refining, and running queries on the query-creation pages that are reached through the Workplace Analytics Queries page. For information about selecting the rule that you want to take effect, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
 
 Q1. **Editing existing rules.** Can you change/edit the default meeting-exclusion rule, or rules that other analysts have created, or rules that you created previously? 
 
@@ -146,7 +146,7 @@ A3.  Yes. Anyone in your organization can use the rules that anyone else in the 
 
 Q4. **Combining rules.** Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule atop it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
 
-A4.  No. You can have only one rule in effect at a time. For information about selecting the rule that you want to use, see [Select a rule](#select-a-rule).
+A4.  No. You can have only one rule in effect at a time. For information about selecting the rule that you want to use, see [Select a rule for use](meeting-exclusion-rules.md#select-a-rule-for-use).
 
 ## Related topics
 
