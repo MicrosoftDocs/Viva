@@ -155,14 +155,14 @@ After Workplace Analytics publishes your new rule, it displays a read-only summa
 
 ## Select a rule for use
 
-To select a rule for use on the **Explore** page dashboards, see [Use rules in the Explore dashboards](#use-rules-in-the-explore-dashboards). For the rule to be used in a query, see [Use rules with queries](#use-rules-with-queries).
+To select a rule for use on the **Explore** dashboards, see [Use rules in the Explore dashboards](#use-rules-in-the-explore-dashboards). To select a rule to use in a query, see [Use rules with queries](#use-rules-with-queries).
 
 ### Use rules in the Explore dashboards
 
 By default, the dashboards of the **Explore** page use the default meeting-exclusion rule that Workplace Analytics supplies, but you can change this to a different rule. The rule that will be used in the dashboards is known as the _preferred rule_, whether this is the default rule or a different rule that you've selected. 
 
 >[!Note] 
-> The rule that is in effect on the **Explore** page dashboards is also in effect on the **Solutions** pages. 
+> The rule that is in effect on the **Explore** dashboards is also in effect on the **Solutions** pages. 
 
 **To apply a rule to the Explore dashboards**
 
