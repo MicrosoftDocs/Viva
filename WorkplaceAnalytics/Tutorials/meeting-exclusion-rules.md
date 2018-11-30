@@ -155,7 +155,7 @@ After Workplace Analytics publishes your new rule, it displays a read-only summa
 
 ## Select a rule for use
 
-To select a rule for use on the **Explore** page dashboards, see [Use rules in the Explore dashboards](#use-rules-in-the-explore-dashboards). For the rule to be used in a query, see [Use rules with queries](#use-rules-with-queries).
+To select a rule for use on the **Explore** dashboards, see [Use rules in the Explore dashboards](#use-rules-in-the-explore-dashboards). To select a rule to use in a query, see [Use rules with queries](#use-rules-with-queries).
 
 ### Use rules in the Explore dashboards
 
