@@ -18,7 +18,7 @@ author: madehmer
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/index-orig">
+        <a href="https://docs.microsoft.com/workplace-analytics/index-orig">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/privacy/privacy-and-data-access">
+        <a href="https://docs.microsoft.com/workplace-analytics/privacy/privacy-and-data-access">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -56,7 +56,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/setup/set-up-workplace-analytics">
+        <a href="https://docs.microsoft.com/workplace-analytics/setup/set-up-workplace-analytics">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -75,7 +75,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/use/analyze-intro">
+        <a href="https://docs.microsoft.com/Workplace-Analytics/use/analyze-intro">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -94,7 +94,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/tutorials/solutions-intro">
+        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/solutions-intro">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -113,7 +113,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index">
+        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/index">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
