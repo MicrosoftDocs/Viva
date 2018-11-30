@@ -120,11 +120,11 @@ After you complete the steps in [Field mapping](#field-mapping), the Upload page
 
 ## Validation succeeds
 
-If validation succeeds, the Upload page will indicate it and show the size of the upload and that the overall process is complete.
+If validation succeeds, the Upload page will indicate it and show the size of the upload and that the overall process is complete. After successful validation, Workplace Analytics processes your new data. 
  
 <img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
 
-You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded).
+You can now select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded). This display includes your most recent upload if the processing of its data has completed. 
 
 On this page, you have the following options:
 
