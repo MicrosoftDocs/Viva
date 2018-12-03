@@ -83,16 +83,17 @@ Continuing the example from [Person queries](../Tutorials/meeting-queries.md), t
 
 1. In Workplace Analytics, select **Analyze** > **Queries** > **Meeting**.
 2. Select and change **Enter query name here** to **Long recurring Ops meetings**.
-3. Enter the **Date range** you want.
-4. For **Meeting exclusions**, select an exclusion rule for this query.
-5. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > equals > **Operations**.
-6. To add a custom filter to include only meetings that are two hours or longer, select the plus sign to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
-7. To add a custom filter to include only meetings that are recurring, select the plus sign to add another filter, then select **Meeting** > **IsRecurring** > equals > **True**.
-8. To add a metric for the number of attendees, in Metrics, select **Add metric**.
-9. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
-10. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
-11. Select **Run** at the top right to run the query.
-12. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+3. For **Group by**, select **week**.
+4. Enter the **Date range** you want.
+5. For **Meeting exclusions**, select an exclusion rule for this query.
+6. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > equals > **Operations**.
+7. To add a custom filter to include only meetings that are two hours or longer, select the plus sign to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
+8. To add a custom filter to include only meetings that are recurring, select the plus sign to add another filter, then select **Meeting** > **IsRecurring** > equals > **True**.
+9. To add a metric for the number of attendees, in Metrics, select **Add metric**.
+10. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
+11. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
+12. Select **Run** at the top right to run the query.
+13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ### Meeting query results
 

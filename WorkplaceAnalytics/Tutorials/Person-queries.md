@@ -107,7 +107,7 @@ You can create a person query to investigate if long meetings are a significant 
 
 1. In Workplace Analytics, select **Analyze** > **Queries** > **Person**.
 2. Select and change **Enter query name here** to **Long Operations meetings** and enter a description.
-3. For **Group by**, select **Week**, and then s
+3. For **Group by**, select **Week**.
 4. Select a date range. The query will analyze only the meetings that occurred during this date range.
 5. In the **Meeting exclusions** menu, select the applicable exclusion rule set.
 6. For **Included employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email during the aggregated time period (date range) that you set for this query.
