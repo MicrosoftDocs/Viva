@@ -5,8 +5,8 @@
 title: Meeting exclusion rules concepts
 description: Meeting exclusion rules concepts   
 author: paul9955
-ms.author: v-pascha
-ms.date: 11/16/2018
+ms.author: madehmer
+ms.date: 12/3/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -107,7 +107,7 @@ You can also remove all of your exceptions to this exclusion at once. To do this
 
 Workplace Analytics shows a table called **Phrases that contain the selected keyword**. Through this table, you can better understand the context of the meetings that are associated with this keyword or subject-line phrase. 
 
-### Example 1: "business"
+### Example 1: Business
 
 The words "business" or "marketing" in the word cloud represent meetings that you might not want to exclude. To help you decide, you can view data about the effect of removing this keyword (and its meetings) from the exclusion. For example, select **business**. Workplace Analytics shows what percentage of meetings have this word in their subject line and how many hours those meetings contain:
 
@@ -117,7 +117,7 @@ In the following illustration, the word "business" has been excepted from the ex
 
   ![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
  
-### Example 2: "soccer"
+### Example 2: Soccer
 
 The word cloud contains the word "soccer," which you select. Now, if the Phrase table shows phrases such as "soccer practice" or "soccer league," this might indicate that the meetings with "soccer" in the subject line were not work-related and therefore are appropriate to exclude from analysis. 
 
@@ -125,7 +125,7 @@ However, if you work for an athletic-equipment supplier and this table displays 
  
 If you notice other words in the cloud that you might want to retain in your analysis, select them, review the **Phrases that contain the selected keyword** table, and, when appropriate, select **Make an exception**. 
 
-## Application of meeting-exclusion rules 
+## Application of meeting-exclusion rules
 
 Workplace Analytics provides a default meeting-exclusion rule. You and other analysts can create new rules. Are all these rules available to all analysts? Can you combine your rules with theirs, or with the default rule? This section answers those questions and others. 
 
@@ -148,8 +148,6 @@ Q4. **Combining rules.** Can you combine rules? For example, can you use the def
 
 A4.  No. You can have only one rule in effect at a time. For information about selecting the rule that you want to use, see [Select a rule for use](meeting-exclusion-rules.md#select-a-rule-for-use).
 
-## Related topics
+## Related topic
 
 [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
-
-
