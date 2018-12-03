@@ -38,9 +38,9 @@ Query results, especially when viewed in a data analysis tool, can uncover dynam
 
 On the **Analyze** > **Queries** > **Results** page, find your query in the results table, which includes the following:
 
-   * The results (a .csv file) of the _latest_ weekly run. You can select **Download** to download an archived file of these results.
-   * The date on which the query last ran.
-   * An icon that indicates it to be a query with the auto-refresh option.
+* The results (a .csv file) of the _latest_ weekly run. You can select **Download** to download an archived file of these results.
+* The date on which the query last ran.
+* An icon that indicates it as a query with the auto-refresh option.
 
 ## Auto-refresh query results in Power BI
 
