@@ -47,7 +47,7 @@
             - name: Subsequent uploads
               href: ~/setup/upload-organizational-data.md         
         - name: Data sources
-          href: ~/Use/Data-Sources.md            
+          href: ~/Use/data-Sources.md            
         - name: Time zones for Workplace Analytics
           href: ~/Use/Timezones-for-Workplace-analytics.md
     - name: Use Workplace Analytics

@@ -15,7 +15,7 @@ ms.prod: wpa
 
 Data sources contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
 
-![Data sources](../images/WpA/Use/Data-sources.png)
+![Data sources](../images/WpA/Use/data-sources.png)
 
 [!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
 

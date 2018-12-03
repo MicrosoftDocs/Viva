@@ -15,7 +15,7 @@ ms.prod: wpa
 **To open the Workplace Analytics Data Sources page** 
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organization's credentials.
-2. In the left navigation pane, select **Sources**. 
+2. In the left navigation pane, select **Settings** and then select **Sources**. 
 
    >[!Note] 
    >You must be assigned either the Administrator or Analyst role to access the Data Sources page. 
