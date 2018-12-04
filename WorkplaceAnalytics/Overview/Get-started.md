@@ -36,14 +36,13 @@ Queries: You can create four types of queries in Workplace Analytics: Person, Me
 
 [**Solutions**](../tutorials/solutions-intro.md) currently provides a Teamwork solution that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll the teams in action plans with MyAnalytics to help address these challenges.
 
-[**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page.
-
 <!-- Removing Sources for now, which is under Settings
-
 [**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
 
   -->
 
-**Page settings** for both the Explore and Solutions pages (open on the right side) enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. By default, the Explore and Solutions pages are filtered to show active employees only. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query or solution).
+**Page settings** are available on the right side of both the Explore and the Solutions pages. Use these settings to change the date range, the way to group time investors (a grouping of employees that is used in queries), and the filter for active, inactive, or all employees. By default, the Explore and Solutions pages are filtered to show active employees only. Active employees are those who have sent at least one email during the set date range (the time period set for the query or solution).
 
 ![Page settings](../Images/WpA/Overview/page-settings.png)
+
+[**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page.
