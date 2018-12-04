@@ -46,7 +46,7 @@ The field values also cannot contain any of the following:
 * No double (” ”) or single quotes (‘ ‘)
 * Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
 
-### Adding missing data
+### Addition of missing data
 
 Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
 
