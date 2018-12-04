@@ -13,7 +13,7 @@ ms.prod: wpa
 ---
 # Internal networks
 
-The **Internal networks** page in **Explore**, shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
+The **Internal networks** page in **Explore** shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
 
 ![Networks and collaboration](../images/WpA/Use/networks-and-collaboration-explore.png)
 
