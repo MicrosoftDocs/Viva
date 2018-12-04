@@ -27,11 +27,22 @@ Workplace Analytics gives you different ways to analyze and explore your data.
 
 [**Analyze**](../use/analyze-intro.md) provides data analysts with all the tools they need to explore collaboration trends and create custom queries for more specific data analysis.
 
-[**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
+<!-- Under Analyze, consider adding Explore and Queries at some point: 
+
+Explore: The Explore page provides the following set of analytical dashboards as a starting point to gain quick insights into your organization's data and to identify data you want to investigate further.
+
+Queries: You can create four types of queries in Workplace Analytics: Person, Meeting, Group-to-group, and Person-to-group. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
+-->
 
 [**Solutions**](../tutorials/solutions-intro.md) currently provides a Teamwork solution that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll the teams in action plans with MyAnalytics to help address these challenges.
 
 [**Settings**](../use/settings.md) enable you to customize system defaults and privacy settings. You must be an admin to access the Settings page.
+
+<!-- Removing Sources for now, which is under Settings
+
+[**Sources**](../use/data-sources.md) give you a deeper look at the data available for study within Workplace Analytics. You can see both Office 365 data and the organizational data you have imported for analysis.
+
+  -->
 
 **Page settings** for both the Explore and Solutions pages (open on the right side) enables you to change the date range, how to group measured employees, and the filter for active, inactive, or all employees. By default, the Explore and Solutions pages are filtered to show active employees only. Active employees are those who sent at least one email during the set date range (the aggregated time period set for the query or solution).
 
