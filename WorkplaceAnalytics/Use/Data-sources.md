@@ -4,16 +4,17 @@
 
 title: Workplace Analytics Data Sources
 description: This article gives an overview of the Data sources feature in Workplace Analytics. 
-author: buntus
+author: paul9955
 ms.author: rodonahu
-ms.date: 01/19/2018
+ms.date: 12/03/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Data sources
 
-Data sources contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
+**Data sources** contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
 
 ![Data sources](../images/WpA/Use/data-sources.png)
 
@@ -28,7 +29,7 @@ The Data sources page consists of three sections:
 Using Data sources metrics, Workplace Analytics administrators and data analysts can:
 
 * Get a high-level view of the data that is available for analysis.
-* Verify that the organizational data they need for their specific analysis are available, and work with internal suppliers of the data (HR information system administrators, line of business (LOB) system administrators, or data analysts) to verify the necessary data has been loaded as expected.
+* Verify that the organizational data they need for their specific analysis is available, and work with internal suppliers of the data (HR information system administrators, line of business [LOB] system administrators, and data analysts) to verify the necessary data has been loaded as expected.
 * Verify that the data is of sufficient quality to analyze the business problem.
 
 ## Data sources summary
