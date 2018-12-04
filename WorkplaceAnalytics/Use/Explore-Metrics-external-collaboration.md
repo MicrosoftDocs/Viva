@@ -51,7 +51,7 @@ Explanation of numbered sections:
 1. This section shows a summary of the external collaboration and the level of engagement during the selected period. 
 2. **Measured employees** are those employees who have been assigned a Workplace Analytics license. (Any filters applied in [Page settings](#page-settings) do not change this number.)
 3. The filter group comprises the number of employees who had some collaboration during the date range and who match the filter applied in Page settings.
-4. This number represents the estimated cost of external collaboration with external domains, calculated by using the formula: total external collaboration hours multiplied by the average hourly wage for your company, which is configured by your Workplace Analytics administrator.
+4. This number represents the estimated cost of external collaboration with external domains, calculated by using the formula: total external collaboration hours multiplied by the average hourly wage for your company. This is configured by your Workplace Analytics administrator.
 5. This number represents the percentage of measured employees in your company who had one or more external interactions during the selected period.
 6. This number represents external collaboration hours as a percentage of the total collaboration hours spent by the measured employees in your company.
 7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period. This number does not change with any filter applied in Page settings.
@@ -61,7 +61,7 @@ Explanation of numbered sections:
 The following graph shows the top external domains that people in the company spend the most time with. You can pivot the data by using various settings, such as total collaboration hours, total collaboration cost, or number of employees engaged.
 
 >[!Note] 
-> Personal email domains, for example, hotmail.com or live.com, are included in overall metric calculations but are hidden from the top external domains chart to reduce "noise".  
+> Personal email domains, for example, hotmail.com or live.com, are included in overall metric calculations but are hidden from the top external domains chart to reduce "noise."  
 
 ![External domains](../images/WpA/Use/ext-domains-most-time.png)
 
@@ -84,6 +84,7 @@ When you select this menu option, each bar represents the total number of distin
 **Trend chart**
 
 The "group total" in the trend chart represents the total weekly collaboration hours of all measured employees of your company with all external domains over the selected period in Page settings. You can select additional domains in the bar chart to plot their trend over the selected period.
+
 **Distribution chart**
 
 Each box in this chart represents the five-number summary for the total collaboration hours or total collaboration cost spent by all measured employees with a particular domain,  for example, contoso.com. The five-number summary includes minimum, maximum, median, and upper and lower quartiles for the dataset. Distribution boxes are sorted by the maximum values descending.
@@ -92,7 +93,7 @@ The Distribution chart is not available when the "employees engaged" menu option
 
 ## Top groups collaborating with external domains
 
-The following graph shows which groups in your company spend the most time collaborating with external domains, where the group-by attribute is defined in the Time investors section in Page settings. For time investors, the default group-by attribute is "Organization".
+The following graph shows which groups in your company spend the most time collaborating with external domains, where the group-by attribute is defined in the Time investors section in Page settings. For time investors, the default group-by attribute is "Organization."
 
 You can pivot the data by using various settings, such as collaboration hours, meeting hours, meeting count, or collaboration cost.
 
