@@ -30,7 +30,7 @@ Organizations decide who can have access to see the data in Workplace Analytics.
 
 * **Analyst (Limited Access)** gives access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
 * **Analyst** gives full access to all product features except the administrator features.
-* **Administrator role** gives access to administrator features only (Settings page).
+* **Administrator role** gives access to administrator features only (Settings and Data Source pages).
 * **Program manager** gives access to the Workplace Analytics Home page and lets program managers explore metrics in cases where the minimum group size is enforced. PMs also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
 
 ### You control the data that Workplace Analytics uses
