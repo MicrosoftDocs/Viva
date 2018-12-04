@@ -30,7 +30,7 @@ Organizations decide who can have access to see the data in Workplace Analytics.
 
 * **Analyst (Limited Access)** gives access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
 * **Analyst** gives full access to all product features except the administrator features.
-* **Administrator role** gives access to administrator features only.
+* **Administrator role** gives access to administrator features only (Settings page).
 * **Program manager** gives access to the Workplace Analytics Home page and lets program managers explore metrics in cases where the minimum group size is enforced. PMs also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
 
 ### You control the data that Workplace Analytics uses
@@ -39,29 +39,29 @@ You retain full control over what data is used and how it is used within Workpla
 
 ## Data from Office 365
 
-Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user’s mailbox and calendar.
+Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user’s mailbox and calendar:
 
 ### Header information from emails
 
-* Who the sender is.
-* Who the recipient is.
-* When was the email sent.
-* What the subject line is.
+* Who the sender is
+* Who the recipient is
+* When was the email sent
+* What the subject line is
 
 ### Header information from meetings
 
-* Who organized the meeting.
-* Who the invitees are and what their attendee status is.
-* When the meeting was scheduled for.
-* Where the meeting was scheduled to be held.
-* What the subject line is.
+* Who organized the meeting
+* Who the invitees are and what their attendee status is
+* When the meeting was scheduled
+* Where the meeting was scheduled to be held
+* What the subject line is
 
 >[!Important]
 >Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
 
 ## Organizational data
 
-Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line of business data stores. Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
+Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line-of-business data stores. Workplace Analytics combines Office 365 email and calendar metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
 
 The organizational data set is combined with the Office 365 email and calendar metadata to produce the complete data set that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Workplace Analytics through dashboards or query results.
 
@@ -76,8 +76,8 @@ If your Workplace Analytics licenses expire, you have a 90-day period to downloa
 
 **To download query results**
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your organization's credentials.
-2. Open the **Queries** page.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, If prompted, sign in with your work account.
+2. In the left navigation, expand **Analyze** and then select the **Queries** page.
 3. Select **Results**. The Results page displays previously run queries.
 4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file. 
 

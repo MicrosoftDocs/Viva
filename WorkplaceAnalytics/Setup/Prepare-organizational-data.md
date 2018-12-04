@@ -70,7 +70,6 @@ For example, suppose you want to compare collaboration patterns between employee
 To get full functionality from Workplace Analytics, you will need to supply several required attributes as described in the following Export data section. Additionally, you can supply up to 65 total attributes to group and filter data in interesting and custom ways.
 
 The specific requirements for which organizational data attributes you want to provide will depend on the specific business scenarios that data analysts want to explore.
-
 You can use the following steps to help you think through all the relevant factors in determining what data to provide.
 
 ## Step one – Identify the kind of collaboration and communication trends you want to analyze
@@ -138,7 +137,7 @@ For example, if you bring in sales quota attainment data that only applies to yo
 
 ### Dirty data
 
-In addition to some attributes only being applicable for certain employees in the population, you may find that data from HR and other line of business systems can often be dirty or inconsistent. As noted later in this topic, there are key organizational data attributes that must be supplied in order for Workplace Analytics to accept the data. If your systems have gaps in these special attributes, you will have to perform data cleansing to provide accurate values for the missing entries or suitable defaults.
+In addition to some attributes only being applicable for certain employees in the population, you may find that data from HR and other line-of-business systems can often be dirty or inconsistent. As noted later in this topic, there are key organizational data attributes that must be supplied in order for Workplace Analytics to accept the data. If your systems have gaps in these special attributes, you will have to perform data cleansing to provide accurate values for the missing entries or suitable defaults.
 
 ## Step three – Export data
 
@@ -192,7 +191,7 @@ Any user-defined columns | Additional columns can represent any data that you wa
 
 By default, Workplace Analytics includes meeting and email data for measured employees for one year.
 
-Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [this table](###-attribute-description-and-data-coverage-requirements).
+Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [this table](#attribute-description-and-data-coverage-requirements).
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 

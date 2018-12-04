@@ -14,18 +14,18 @@ ms.prod: Workplace Analytics
 
 # Maintain Workplace Analytics
 
-After you have installed Workplace Analytics and your organization is using it, it will require maintenance by an admin. Some maintenance tasks are needed infrequently but others must be performed a regular basis.  
+After you have installed Workplace Analytics and your organization is using it, it will require maintenance by an admin. Some maintenance tasks are needed infrequently, while others must be performed  regularly.  
 
 ## Update configuration settings
 
  * **Task**: Set the default time zone and the default settings for working days and hours.  
  * **Frequency**: As needed 
 
-[Make system settings](configure-wpa-settings.md#system-settings)
+[Configure system settings](configure-wpa-settings.md#system-settings)
 
 ## Update privacy settings
 
- * **Task**: Make the following settings: 
+ * **Task**: Configure the following settings: 
     * Set the minimum group size for display in charts and dashboards. 
     * Decide to show or hide subject lines in meeting reports.
     * Make settings to include or exclude emails or meetings by indicating particular user email addresses, domains, and phrases on the subject line.
@@ -42,7 +42,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 [Prepare organizational data](prepare-organizational-data.md)
 
-[Upload organizational data](upload-organizational-data.md)
+[Upload organizational data (subsequent uploads)](upload-organizational-data.md)
 
 ## Assign licenses  
 

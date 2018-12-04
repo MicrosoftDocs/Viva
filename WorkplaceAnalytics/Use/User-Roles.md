@@ -27,7 +27,7 @@ These are the Workplace Analytics roles and their level of access:
 
  * **Analyst (Limited Access):** Has access to the Home page and to the explore-metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore-the-metrics dashboards.
 
- * **Administrator:** Has access to the Administrator and Data sources features. The responsibilities of the Workplace Analytics administrator are to configure privacy settings and system defaults, and to prepare and upload organizational data to Workplace Analytics and to verify it.
+ * **Administrator:** Has access to the Settings and Data sources features. The responsibilities of the Workplace Analytics administrator are to configure privacy settings and system defaults, and to prepare and upload organizational data to Workplace Analytics and verify it.
 
  * **Program manager:** Has access to the Home and Explore pages, the Solutions page and its Manage page, where the Program Manager can set up programs. On the Manage page, the Program Manager also has access to its Track page, to track the progress of active or ended programs.
 
@@ -43,16 +43,16 @@ The following tables provide more details about Workplace Analytics user roles:
 
 Each role has access to specific pages of Workplace Analytics as described here:
 
-
 |  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | **Home** | View highlights from the latest data; optionally explore metrics of team behavior | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
-| **Explore** | View a series of dashboards that provide insights into the way your organization collaborates | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |<img src="../Images/WpA/check-mark.png"> |
+| **Analyze** | 
+| | **Explore:** View a series of dashboards that provide insights into the way your organization collaborates | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |<img src="../Images/WpA/check-mark.png"> |
+| | **Queries:** Perform deeper exploration of the data through custom querying tools | | <img src="../Images/WpA/check-mark.png"> | | |
 | **Sources** | Help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | | |
 | **Queries** | Perform deeper exploration of the data through custom querying tools | | <img src="../Images/WpA/check-mark.png"> | | |
 | **Solutions** | Create programs to help participants improve workplace behaviors. | | <img src="../Images/WpA/check-mark.png"> | |  <img src="../Images/WpA/check-mark.png"> |
-| **Settings** | Make settings such as: <ol><li>System defaults</li><li>Privacy settings</li></ol> | <img src="../Images/WpA/check-mark.png"> | | | |
-
+| **Settings** | Make settings such as: <ol><li>System defaults</li><li>Privacy settings</li><li>Upload organizational data</li></ol> | <img src="../Images/WpA/check-mark.png"> | | | |
 
 ### Functions performed
 
@@ -62,7 +62,7 @@ People in these roles perform the following functions in Workplace Analytics:
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | Configure privacy and system default settings | <img src="../Images/WpA/check-mark.png">| | | |
 | Upload organizational data into the system | <img src="../Images/WpA/check-mark.png"> | | | |
-| Use the full set of analyst tools (on the Sources, Explore, and Queries pages) to perform analysis | | <img src="../Images/WpA/check-mark.png"> | | |
+| Use the full set of analyst tools on the Sources and Analyze (Explore and Queries) pages to perform analysis | | <img src="../Images/WpA/check-mark.png"> | | |
 | Serve as HR data provider and Workplace Analytics tool owner | | | <img src="../Images/WpA/check-mark.png"> | |
 | Help coordinate, setup, and manage change programs | | | | <img src="../Images/WpA/check-mark.png"> |
 
@@ -72,7 +72,7 @@ People who are assigned to any Workplace Analytics user roles should ideally hav
 
 | Access level | Administrator |  Analyst | Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| Ability to view personally identifiable, individual-level organization data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png"> | | | |
+| Ability to view personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png"> | | | |
 | Ability to view de-identified, individual-level data:<ol><li>Organization data (HR fields such as level or organization)</li><li>Office 365 data (metrics about collaboration time and relationships)</li></ol> | | <img src="../Images/WpA/check-mark.png"> | | |
 | Ability to view aggregated and de-identified Office 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
 | Can create custom programs to be deployed to groups and can influence the pages that users see in MyAnalytics | | | | <img src="../Images/WpA/check-mark.png"> | 
@@ -91,11 +91,10 @@ Consider the following personas for each of the Workplace Analytics user roles:
 
 ### Access to resources
 
-In Azure Active Directory, you can assign access rights to users by assigning roles to them. For general information on accessing resources, and for information on the specific methods of role assignment in Azure AD, see **Related links**.
-
+In Azure Active Directory, you can assign access rights to users by assigning roles to them. For general information on accessing resources, and for information on the specific methods of role assignment in Azure AD, see **Related topics**.
 
 ## Related topics
 
-[What is Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)
+[What is Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
 
 [Managing access to resources with Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups)

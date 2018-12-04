@@ -30,7 +30,7 @@ The default time zone for Workplace Analytics is Pacific Standard Time. Visit [T
 1. On the **Settings** page, under **System defaults**, select a time zone from the **Default time zone list**.
 2. Select **Save**.
 
-This setting takes effect the next time organizational data is received and processed for the following month. A change in this setting does not affect any historical data.
+This setting takes effect the next time organizational data is uploaded and processed for the following month. A change in this setting does not affect any historical data.
 
 ## Privacy settings
 
@@ -53,7 +53,7 @@ When you are satisfied with your privacy settings, your data can be processed.
 
 ### To configure your privacy settings
 
-1. On the **Settings** page, under **Privacy settings**, configure the settings to meet your company's needs.
+1. On the **Settings** page, under **Privacy settings**, configure the settings that meet your company's needs.
 
  > [!Note]
  > You may select **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you select the **I confirm that all privacy settings are complete** check box. When you select the check box, it begins the processing of Office 365 data.
@@ -75,7 +75,7 @@ When you are satisfied with your privacy settings, your data can be processed.
 
 ## Organizational data
 
-Administrators will use the **Organizational data** tab to upload data into Workplace Analytics.
+Administrators will use the **Organizational data** tab (on the **Upload** page of **Settings**) to upload data into Workplace Analytics.
 
 ![Privacy settings](../images/Wpa/use/organizational-data-settings.png)
 

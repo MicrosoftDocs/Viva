@@ -78,7 +78,7 @@ Allow time for the user account to replicate. The user can now log in to [Workpl
 
 You can also assign roles to groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group then automatically become members of the group and receive the same permissions that are assigned to that role.
 
-To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 14. In that same process, where you add the name of a user in step 9, you can also add a group at the same time and assign it a role. The only difference is that instead of a user name, you substitute the name of your group, then select the group and assign a role to it.
+To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 14. In that same process, where you add the name of a user in step 9, at the same time, you can also add a group and assign it a role. The only difference is that instead of a user name, you substitute the name of your group, then select the group and assign a role to it.
 
    ![Select group](../images/WpA/Use/select-group-b.png)
 
@@ -86,7 +86,7 @@ If you have not yet created a Workplace Analytics group in Azure AD, and want to
 
 ## FAQ
 
-**When would you assign a role to a group instead of an individual user?**
+**When would you assign a role to a group rather than to an individual user?**
 
 It depends on the situation or on your company's policy, but generally speaking, the reason for choosing between one method and another is usually efficiency. In a smaller company, if a few people will be assigned Workplace Analytics roles, it can be convenient to assign user roles individually, especially if such roles are unlikely to change.
 
