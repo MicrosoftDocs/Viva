@@ -19,7 +19,7 @@ The **External collaboration** page in **Explore** provides a summary of your em
 >[!Note] 
 > All metrics are reported at a group level and cannot be traced back to any individual.
 
-![Networks and collaboration](../images/wpa/use/external-collab-top.png)
+![External collaboration](../images/wpa/use/external-collab-top.png)
 
 To open the **External collaboration** page:
 
