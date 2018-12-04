@@ -4,9 +4,9 @@
 
 title: Week in the life metrics in Workplace Analytics
 description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page.
-author: madehmer
+author: paul9955
 ms.author: madehmer
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,9 +20,9 @@ ms.prod: wpa
 
 To open the **Week in the life** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizational credentials.
-2. In the left navigation pane, select **Explore**.
-3. In **Explore**, select the **Week in the life** tab.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
+2. In the left navigation pane, select **Analyze** and then select **Explore**.
+3. In **Explore**, select **Week in the life**.
 
 ## All collaboration hours
 All collaboration hours shows the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s set business hours.

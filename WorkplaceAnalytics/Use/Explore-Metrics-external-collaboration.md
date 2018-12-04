@@ -19,11 +19,11 @@ The **External collaboration** page in **Explore** provides a summary of your em
 >[!Note] 
 > All metrics are reported at a group level and cannot be traced back to any individual.
 
-To open the **External networks** page:
+To open the **External collaboration** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizational credentials.
-2. In the left navigation pane, select **Explore**.
-3. In **Explore**, select the **External networks** tab.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
+2. In the left navigation pane, select **Analyze** and then select **Explore**.
+3. In **Explore**, select **External collaboration**.
 
 External collaboration features various graphs whose titles suggest different ways to analyze your company's external collaboration activity. Each graph enables you to manipulate data based on menu settings you select and apply to view data in different ways, such as collaboration hours or collaboration cost.
 

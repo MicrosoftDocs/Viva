@@ -19,9 +19,9 @@ The **Internal networks** page in **Explore** shows network connections between 
 
 To open the **Internal networks** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizational credentials.
-2. In the left navigation pane, select **Explore**.
-3. In **Explore**, select the **Internal networks** tab.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
+2. In the left navigation pane, select **Analyze** and then select **Explore**.
+3. In **Explore**, select **Internal networks**.
 
 ## Network size and network breadth  
 **Network size and network breadth** help illustrate whether employees are connected to a variety of other people, or whether they work in a more insular way, siloed within their immediate work group. A person's network health is also a key indicator of engagement.
