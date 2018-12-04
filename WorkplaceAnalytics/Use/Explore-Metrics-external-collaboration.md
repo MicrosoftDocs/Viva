@@ -4,9 +4,9 @@
 
 title: Explore External collaboration metrics in Workplace Analytics
 description: An overview of the External collaboration dashboards available in Workplace Analytics.
-author: madehmer
+author: paul9955
 ms.author: madehmer
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -19,6 +19,8 @@ The **External collaboration** page in **Explore** provides a summary of your em
 >[!Note] 
 > All metrics are reported at a group level and cannot be traced back to any individual.
 
+![Networks and collaboration](../images/wpa/use/external-collab-top.png)
+
 To open the **External collaboration** page:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
@@ -27,7 +29,7 @@ To open the **External collaboration** page:
 
 External collaboration features various graphs whose titles suggest different ways to analyze your company's external collaboration activity. Each graph enables you to manipulate data based on menu settings you select and apply to view data in different ways, such as collaboration hours or collaboration cost.
 
-![Explore filters](../images/WpA/Use/groups-most-time-collab-ext-people.png)
+![Explore filters](../images/wpa/use/groups-most-time-collab-ext-people.png)
 
 
 ## Trend and distribution charts
@@ -39,13 +41,13 @@ Most graphs include Trend and Distribution charts also, with some exceptions.
 **Distribution charts** show the statistical distribution of metrics, such as the minimum, maximum, median, upper and lower percentiles for the group.  
 
 Distribution charts can also tell you whether your data is symmetrical, or how tightly your data is grouped, or whether any outliers exist, and if so, what their values are.
-For more information, see [Workplace Analytics Chart types](../Use/chart-types.md).
+For more information, see [Workplace Analytics Chart types](../use/chart-types.md).
 
 ## Summary header
 
 The summary header at the top of the external collaboration page provides a summary of the results of external collaboration during the selected period, as shown in the image.
 
-![Collaboration summary](../images/WpA/Use/ext-collab-summary.png)
+![Collaboration summary](../images/wpa/use/ext-collab-summary.png)
 
 Explanation of numbered sections:  
 1. This section shows a summary of the external collaboration and the level of engagement during the selected period. 
@@ -63,7 +65,7 @@ The following graph shows the top external domains that people in the company sp
 >[!Note] 
 > Personal email domains, for example, hotmail.com or live.com, are included in overall metric calculations but are hidden from the top external domains chart to reduce "noise."  
 
-![External domains](../images/WpA/Use/ext-domains-most-time.png)
+![External domains](../images/wpa/use/ext-domains-most-time.png)
 
 **Bar chart**
 
@@ -97,7 +99,7 @@ The following graph shows which groups in your company spend the most time colla
 
 You can pivot the data by using various settings, such as collaboration hours, meeting hours, meeting count, or collaboration cost.
 
-![External group collaboration](../images/WpA/Use/groups-most-time-collab-ext-people.png)
+![External group collaboration](../images/wpa/use/groups-most-time-collab-ext-people.png)
 
 **Bar chart**
 
@@ -148,7 +150,7 @@ Each box in this chart represents the five-number summary of the number of hours
 
 The following graph shows which groups in your company have the most people collaborating with external domains where the group-by attribute is defined in the Time investors section in Page settings. By default, the group-by attribute is "Organization" for time investors.  
 
-![External network size](../images//WpA/Use/most-people-collab.png)
+![External network size](../images/wpa/use/most-people-collab.png)
 
 **Bar chart**
 
@@ -168,7 +170,7 @@ External network size and external network breadth show the extent to which pers
 
 External network size refers to the number of people external to the company with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
 
-![External network size](../images//WpA/Use/groups-most-ext-people-conn.png)
+![External network size](../images/wpa/use/groups-most-ext-people-conn.png)
 
 
 **Bar chart**
@@ -189,7 +191,7 @@ Each box in this chart represents the five-number summary of the external networ
 
 External network breadth refers to the number of distinct external domains with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
 
-![External network breadth](../images/WpA/Use/ext-collab-network-breadth.png)
+![External network breadth](../images/wpa/use/ext-collab-network-breadth.png)
 
 **Bar chart**
 
@@ -211,7 +213,7 @@ Each box in this chart represents the five-number summary for the external netwo
 
 The graph for External network breadth compared to external network size shows how each group in the company (grouped by the Time investor group-by attribute in Page settings) compares to the company median for External network size and breadth. The size of the bubble in the chart represents the size of the organization.
 
-![External group connections](../images/WpA/Use/ext-collab-groups-ext-conn.png)
+![External group connections](../images/wpa/use/ext-collab-groups-ext-conn.png)
 
 External network size shows the number of external people that persons in the company have connected with.
 
@@ -229,7 +231,7 @@ In the bubble graph, if the bubble for your organization is found at the top rig
 
  You can use [Page settings](#page-settings), which is common to all sections of Explore, to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters.
 
-![Page settings](../images//WpA/Use/ext-collab-page-settings-home.png)
+![Page settings](../images/wpa/use/ext-collab-page-settings-home.png)
 
 ### Group by
 
@@ -237,7 +239,7 @@ You can use the Group by drop-down menu to determine how you want to group users
 
 The Group by menu is divided into two sections for two separate groups: **Time investors** and **Collaborators**. You can apply Group by menu settings to each of these groups independently.
 
-![Group by menu](../images//WpA/Use/ext-collab-group-by.png)
+![Group by menu](../images/wpa/use/ext-collab-group-by.png)
 
 
 ### Time investors
@@ -246,12 +248,12 @@ The **Time investors** section includes various settings for grouping Time inves
 
 By default, Time investors are grouped by organization, but you can also group them by domain, engagement, or other settings to retrieve the data you want. If you group by Time investors, the settings you select apply only to Time investors.  
 
-![Time investors group](../images//WpA/Use/ext-collab-page-settings-time-investors.png)
+![Time investors group](../images/wpa/use/ext-collab-page-settings-time-investors.png)
 
 ### Collaborators
 You can use the **Collaborators** section to group users by Collaborators, which refers to any person with whom Time investors have had an interaction. If you group by Collaborators, the settings you select only apply to Collaborators. Currently, the Collaborators section supports grouping by domain only.
 
-![Collaborators group](../images//WpA/Use/ext-collab-page-settings-collaborators.png)
+![Collaborators group](../images/wpa/use/ext-collab-page-settings-collaborators.png)
 
 >[!Note]
 > Currently, you cannot apply the Collaborators filter for the External network size, External network breadth and bubble charts in the Network section. However, it applies to all the other charts on the page.

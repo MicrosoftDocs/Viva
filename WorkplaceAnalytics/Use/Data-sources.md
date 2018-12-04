@@ -43,7 +43,7 @@ The Data sources summary provides the following information about your data:
 
 * The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly.
 
-![Data sources summary](../images//WpA/Use/Data-sources-summary.png)
+![Data sources summary](../images/wpa/Use/Data-sources-summary.png)
 
 For more information about what data is needed to compute metrics, see these topics:
 
@@ -58,7 +58,7 @@ Office 365 data summary provides a view that you can use to evaluate meeting and
 
 Analysts can use these views to look for time periods that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-![Data sources summary](../images//WpA/Use/o365-data.png)
+![Data sources summary](../images/wpa/Use/o365-data.png)
 
 These are some examples of scenarios where you might encounter inconsistency in email or meeting volume:
 
@@ -72,7 +72,7 @@ These are some examples of scenarios where you might encounter inconsistency in 
 
 Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute). 
 
-![Data sources summary](../images//WpA/Use/organizational-data-summary.png)
+![Data sources summary](../images/wpa/Use/organizational-data-summary.png)
 
 The **Last refreshed** date shows when data was last processed.
 
