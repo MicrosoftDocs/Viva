@@ -104,7 +104,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
    In histograms, the x-axis consists of rectangles, called "bins", that are based on average metric values, and the y-axis determines the number of people whose average metric value puts them in that bin. _Neither of these values reflects organizational data._ For this reason, the histogram still displays data for a bin even if it contains fewer people than the minimum-group-size value. Histogram charts can safely display this information because the information is based on metrics -- on values calculated from observed behavior, _not_ on HR data.
 
    Even if a bin in a histogram contained data for only one individual, the histogram still displays that data. 
-   You cannot single out this individual because you do not know what HR “group” they belong to. (In other charts, such as 
+   You cannot single out this individual because you do not know what HR ï¿½groupï¿½ they belong to. (In other charts, such as 
    column charts, an individual in a group below the threshold might be identifiable, but in a histogram the HR group to 
    which individuals belong is the larger filter group.) You also cannot determine the precise metric value of individuals 
    because they are in a bin with a minimum 0.5-hour range.
@@ -120,11 +120,11 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 
  This enables you to control whether to include or hide subject lines in meeting query results, which, by default, are _not_ shown.
 
-   ![Privacy settings](../images/WpA/Use/settings-privacy-settings-1a.png)
+  ![Privacy settings](../images/WpA/Use/settings-privacy-settings-1a.png)
 
    If you select **Yes** for **Hide subject lines from Meeting query results**, the subject lines are converted to hashed values (a system-generated number), so that the text in subject lines is not readable in any queries. You can still create query-based keywords in the subject lines. However, you won't be able to see a list of meetings that show the subject lines. 
 
-   If you select **Yes**, you could run a meeting query with the subject-line keyword “All-hands,” and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. However, you could not get a specific list -- one line item for each meeting -- of all the meetings with the subject line “All-hands.”
+   If you select **Yes**, you could run a meeting query with the subject-line keyword ï¿½All-hands,ï¿½ and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. However, you could not get a specific list -- one line item for each meeting -- of all the meetings with the subject line ï¿½All-hands.ï¿½
     
 ### Exclude words from subject lines
 
@@ -147,7 +147,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 
  **Example: Exclude terms from subject line**
 
-To exclude all emails that contain the keywords “confidential,” “ACP,” and “privileged,” you would enter: **confidential;ACP;privileged**
+To exclude all emails that contain the keywords "confidential", "ACP", and "privileged", you would enter: **confidential;ACP;privileged**
 
 #### Keyword exclusion logic
 
@@ -160,7 +160,7 @@ To exclude all emails that contain the keywords “confidential,” “ACP,” and “priv
 Term from subject line to exclude | Actual subject line | Excluded
 ---------|----------|---------
  legal;acquisition | Verify this is LEGAL | Yes - Case is ignored
- legal;acquisition | Is this illegal | No – Does not match partial words, and did not exclude illegal
+ legal;acquisition | Is this illegal | No - Does not match partial words, and did not exclude illegal
  legal;acquisition | Acquisitions are finalized | No - Does not match partial words, and did not exclude acquisitions
  legal;acquisition |Is this a legal acquisition | Yes  - Excluded both legal and acquisition
 
@@ -178,7 +178,7 @@ Term from subject line to exclude | Actual subject line | Excluded
   Processing your data can take up to two weeks to complete. Once the data is ready, you can then upload the organizational 
   data file. Privacy settings take effect after the organizational data file is uploaded and processed.
   
-    ![Privacy settings](../images/WpA/Use/settings-privacy-settings.png)
+   ![Privacy settings](../images/WpA/Use/settings-privacy-settings.png)
 
 > [!Note] 
 > All subsequent changes to privacy settings after privacy settings run for the first time do not take effect until the next time that Workplace Analytics refreshes collaboration data. 
@@ -190,5 +190,18 @@ Any changes made to system defaults affect existing data.
 
 ## Organizational data
 
-On the **Organizational data** tab, admins can upload an organizational data file to Workplace Analytic in .csv format. Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems.
-Changes to specific attributes in the organizational data file only take effect from their specified effective date. For information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
+On the **Upload** page, on the **Organizational data** tab, admins can upload an organizational data file to Workplace Analytic in .csv format. 
+
+Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems.
+Changes to specific attributes in the organizational data file only take effect from their specified effective date. 
+
+![Upload page](../images/WpA/Use/settings-upload1.png)
+
+For information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
+
+## Settings Analysis
+
+On the **Settings analysis** page, you can analyse your meeting data, for example, meetings that are not business-related, and add exclusion rules to remove any meetings that you don't want to include for analysis.
+
+![Upload page](../images/WpA/Use/settings-analysis-meeting-exclusions.png)
+
