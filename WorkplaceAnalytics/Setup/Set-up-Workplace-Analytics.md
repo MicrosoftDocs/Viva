@@ -35,7 +35,7 @@ This article describes the steps that are required to set up and configure Workp
 
 3.	**System settings**. Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system settings](configure-wpa-settings.md#system-settings). 
 
-4.	**Privacy settings**. Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](configure-wpa-settings.md#privacy-settings). After you've finished making both the system settings and the privacy settings, select **Next**. 
+4.	**Privacy settings**. Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](../Use/settings.md#privacy-settings). After you've finished making both the system settings and the privacy settings, select **Next**. 
 
 5.	**Collaboration data**. Workplace Analytics extracts collaboration data (data about email usage, meetings, chats, and calls) from Office 365, and then processes it. This processing can last as long as a week. After it finishes, Workplace Analytics displays a "completed processing" status on the **Setup** page. 
 
