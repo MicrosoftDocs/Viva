@@ -21,17 +21,17 @@ The Settings page comprises various sub-pages that are used for admin-related ac
 
 
 
-[Sources](#sources) — Provides admin dashboards for high-level data analysis
+[Sources](#sources) — Provides admin dashboards for high-level data analysis.
 
-[Upload](#upload)  — Used to prepare and upload organizational data
+[Upload](#upload)  — Used to prepare and upload organizational data.
 
-[Analysis settings](#analysis-settings) — Helps you analyze your meeting data
+[Analysis settings](#analysis-settings) — Helps you analyze your meeting data.
 
-[Admin settings](#admin-settings) —  Used to configure system defaults and privacy settings
+[Admin settings](#admin-settings) —  Used to configure system defaults and privacy settings.
 
-[Data access](#data-access) — Used to export large data sets using subscription-based Azure SAS storage
+[Data access](#data-access) — Used to export large data sets using subscription-based Azure SAS storage.
 
-This article focuses on the system defaults and privacy settings of the **Admin settings** page.
+This article focuses on the **Admin settings** page.
 
 ## Admin settings
 
