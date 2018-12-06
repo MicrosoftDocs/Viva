@@ -14,9 +14,26 @@ ms.prod: wpa
 
 # Configure Workplace Analytics settings
 
-## Workplace Analytics settings
 
-On the **Settings** page, admins can customize system defaults and privacy settings, and can also upload [organizational data](../Use/settings.md#organizational-data) to Workplace Analytics. This article focuses on system defaults and privacy settings. 
+
+On the **Settings** page, under the **Defaults and privacy** tab, admins can access and configure admin settings.
+The Settings page comprises various sub-pages that feature admin-related activities, as shown in the following table:
+
+
+|Page|Description|
+|---|---|
+|[Sources](#sources) | Provides admin dashboards for high-level data analysis|
+|[Upload](#upload) | Use to prepare and upload organizational data|
+|[Analysis settings](#analysis-settings) | Helps you analyze your meeting data|
+|[Admin settings](#admin-settings) | Configure system defaults and privacy settings|
+|[Data access](#data-access) | Allows you to export data sets using subscription-based Azure SAS storage|
+
+This article focuses on the **Admin settings** page and on system defaults and privacy settings. 
+
+## Admin settings
+
+Under the **System defaults** section, as an admin, you can customize system defaults and privacy settings.
+
 
 Follow company-specific legal and privacy guidelines to define and confirm the settings to use in Workplace Analytics. Then you are ready to provision Workplace Analytics. 
 
@@ -179,7 +196,7 @@ Settings are not final until you select this check box.
 
   Workplace Analytics only begins processing data when privacy settings run for the first time after you select **Save**. 
   Processing your data can take up to two weeks to complete. Once the data is ready, you can then upload the organizational 
-  data file. Privacy settings take effect after the organizational data file is uploaded and processed.
+  data file. Privacy settings take effect after the organizational data file has been uploaded and processed.
   
    ![Privacy settings](../images/WpA/Use/settings-privacy-settings.png)
 
@@ -191,25 +208,31 @@ Any changes made to system defaults affect existing data.
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
-## Organizational data
 
-Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems.
-Changes to specific attributes in the organizational data file only take effect from their specified effective date. 
+## Sources
 
-On the **Upload** page on the **Organizational data** tab, admins can upload an organizational data file to Workplace Analytic in .csv format. 
+The [Sources](../Use/data-sources.md) (or Data Sources) page offers dashboards to admins for high-level data analysis and shows data set overviews and trends.
+
+## Upload
+
+On the **Upload** page under the **Organizational data** tab, admins can upload an organizational data file to Workplace Analytic in .csv format.
+
+### Organizational data
+
+Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems. Changes to specific attributes in the organizational data file only take effect from their specified effective date.
 
 ![Upload page](../images/WpA/Use/settings-upload1.png)
 
 For detailed information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
 
-## Settings Analysis
+## Analysis settings
 
-On the **Settings analysis** page, you can analyse your meeting data, for example, meetings that are not business-related, and can add new exclusion rules to remove any meetings that you don't want to include for analysis.
+On the **Analysis settings** page, you can analyse your meeting data, for example, meetings that are not business-related, and can add new exclusion rules to remove any meetings that you don't want to include for analysis.
 
 ![Upload page](../images/WpA/Use/settings-analysis-meeting-exclusions.png)
 
-For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
+For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md). See also [Large meeting exclusion rules](https://docs.microsoft.com/Workplace-Analytics/tutorials/meeting-exclusion-250)
 
-## See also
+## Data access
 
-[Large meeting exclusion rules](https://docs.microsoft.com/Workplace-Analytics/tutorials/meeting-exclusion-250)
+The Data access page is for customers who need to analyze large data sets. This tab is only accessible for subscribers to the Azure SAS service. The Data access tab then gives access to an Azure storage container that lets you export your data sets from a SAS URI. For more information, see [Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1).
