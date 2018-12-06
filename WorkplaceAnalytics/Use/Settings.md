@@ -35,7 +35,7 @@ This article focuses on the **Admin settings** page.
 
 ## Admin settings
 
-Under the **System defaults** section, as an admin, you can customize system defaults and privacy settings.
+Under the **System defaults** section,  admins can customize system defaults and privacy settings.
 
 ![System defaults](../images/wpa/use/settings-admin-setting_a.png)
 
