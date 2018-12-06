@@ -20,19 +20,25 @@ On the **Settings** page, under the **Defaults and privacy** tab, admins can acc
 The Settings page comprises various sub-pages that feature admin-related activities, as shown in the following table:
 
 
-|Page|Description|
-|---|---|
-|[Sources](#sources) | Provides admin dashboards for high-level data analysis|
-|[Upload](#upload) | Use to prepare and upload organizational data|
-|[Analysis settings](#analysis-settings) | Helps you analyze your meeting data|
-|[Admin settings](#admin-settings) | Configure system defaults and privacy settings|
-|[Data access](#data-access) | Allows you to export data sets using subscription-based Azure SAS storage|
 
-This article focuses on the **Admin settings** page and on system defaults and privacy settings. 
+[Sources](#sources): -- Provides admin dashboards for high-level data analysis
+
+[Upload](#upload): -- Used to prepare and upload organizational data
+
+[Analysis settings](#analysis-settings): -- Helps you analyze your meeting data
+
+[Admin settings](#admin-settings): --  Used to configure system defaults and privacy settings
+
+[Data access](#data-access): -- Used to export large data sets using subscription-based Azure SAS storage
+
+This article focuses on the system defaults and privacy settings of the **Admin settings** page.
 
 ## Admin settings
 
 Under the **System defaults** section, as an admin, you can customize system defaults and privacy settings.
+
+![System defaults](../images/wpa/use/settings-admin-setting_a.png)
+
 
 
 Follow company-specific legal and privacy guidelines to define and confirm the settings to use in Workplace Analytics. Then you are ready to provision Workplace Analytics. 
