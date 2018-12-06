@@ -17,7 +17,7 @@ ms.prod: wpa
 
 
 On the **Settings** page, under the **Defaults and privacy** tab, admins can access and configure admin settings.
-The Settings page comprises various sub-pages that feature admin-related activities, as shown in the following table:
+The Settings page comprises various sub-pages used for admin-related activities, as shown in the following table:
 
 
 
