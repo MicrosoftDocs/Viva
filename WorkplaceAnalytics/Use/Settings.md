@@ -227,7 +227,3 @@ On the **Analysis settings** page, you can analyse your meeting data, for exampl
 ![Upload page](../images/WpA/Use/settings-analysis-meeting-exclusions.png)
 
 For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md). See also [Large meeting exclusion rules](https://docs.microsoft.com/Workplace-Analytics/tutorials/meeting-exclusion-250)
-
-## Data access
-
-The **Data access** page is available only for subscribers to the Azure Shared Access Signature (SAS) service. SAS is for customers who need to grant other clients access to their storage account resources, but without sharing their account keys. In a typical use scenario, the service allows subscribers to give their clients direct access to an Azure storage container that lets them export high-volume data sets, or conduct high-volume transactions, from a SAS URI. For more information, see [Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
