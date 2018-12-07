@@ -210,7 +210,6 @@ Any changes made to system defaults affect existing data.
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
-
 ## Sources
 
 The [Sources](../Use/data-sources.md) (or Data Sources) page offers dashboards to admins for high-level data analysis and shows data set overviews and trends.
@@ -221,7 +220,7 @@ On the **Upload** page under the **Organizational data** tab, admins can upload 
 
 ### Organizational data
 
-Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems. Changes to specific attributes in the organizational data file only take effect from their specified effective date.
+Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems.
 
 ![Upload page](../images/WpA/Use/settings-upload1.png)
 
