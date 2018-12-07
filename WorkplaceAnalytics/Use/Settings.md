@@ -25,8 +25,6 @@ The Settings page comprises various sub-pages that are used for admin-related ac
 
 [Admin settings](#admin-settings) —  Used to configure system defaults and privacy settings.
 
-[Data access](#data-access) — Used to export large data sets using subscription-based Azure SAS storage.
-
 This article focuses on the **Admin settings** page.
 
 ## Admin settings
