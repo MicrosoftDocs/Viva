@@ -230,5 +230,4 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 ## Data access
 
-The Data access page is for customers who need to analyze large data sets, and is available only for subscribers of the Azure Shared Access Signature (SAS) service. As a subscriber, you gain access to an Azure storage container that lets you export your data sets from a SAS URI. 
-For more information, see [Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
+The **Data access** page is available only for subscribers of the Azure Shared Access Signature (SAS) service. SAS is for customers who need to grant other clients access to their storage account resources, but without sharing their account keys. In a typical use scenario, the service allows subscribers to give their clients direct access to an Azure storage container that lets them export high-volume data sets, or conduct high-volume transactions, from a SAS URI. For more information, see [Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
