@@ -35,8 +35,6 @@ Under the **System defaults** section,  admins can customize system defaults and
 
 ![System defaults](../images/wpa/use/settings-admin-setting_a.png)
 
-
-
 Follow company-specific legal and privacy guidelines to define and confirm the settings to use in Workplace Analytics. Then you are ready to provision Workplace Analytics. 
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
@@ -199,8 +197,6 @@ Settings are not final until you select this check box.
   Workplace Analytics only begins processing data when privacy settings run for the first time after you select **Save**. 
   Processing your data can take up to two weeks to complete. Once the data is ready, you can then upload the organizational 
   data file. Privacy settings take effect after the organizational data file has been uploaded and processed.
-  
-   ![Privacy settings](../images/WpA/Use/settings-privacy-settings.png)
 
 > [!Note] 
 > All subsequent changes to privacy settings after they run for the first time do not take effect until the next time that Workplace Analytics refreshes collaboration data. 
@@ -212,19 +208,17 @@ Any changes made to system defaults affect existing data.
 
 ## Sources
 
-The [Sources](../Use/data-sources.md) (or Data Sources) page offers dashboards to admins for high-level data analysis and shows data set overviews and trends.
+The [Sources](../Use/data-sources.md) (Data sources) page offers dashboards to admins for high-level data analysis and shows data set overviews and trends.
 
 ## Upload
 
 On the **Upload** page under the **Organizational data** tab, admins can upload an organizational data file to Workplace Analytic in .csv format.
 
-### Organizational data
-
-Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems.
-
 ![Upload page](../images/WpA/Use/settings-upload1.png)
 
-For detailed information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
+### Organizational data
+
+Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems. For detailed information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
 
 ## Analysis settings
 
@@ -236,4 +230,5 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 ## Data access
 
-The Data access page is for customers who need to analyze large data sets. This tab is only accessible for subscribers to the Azure SAS service. The Data access tab then gives access to an Azure storage container that lets you export your data sets from a SAS URI. For more information, see [Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1).
+The Data access page is for customers who need to analyze large data sets, and is available only for subscribers of the Azure Shared Access Signature (SAS) service. As a subscriber, you gain access to an Azure storage container that lets you export your data sets from a SAS URI. 
+For more information, see [Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
