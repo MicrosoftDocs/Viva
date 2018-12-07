@@ -220,8 +220,10 @@ Organizational data is contextual information about employees (for example, job 
 
 ## Analysis settings
 
-On the **Analysis settings** page, you can analyse your meeting data, for example, meetings that are not business-related, and can add new exclusion rules to remove any meetings that you don't want to include for analysis.
+On the **Analysis settings** page, you can analyze your meeting data, for example, meetings that are not business-related, and can add new exclusion rules to remove any meetings that you don't want to include for analysis.
 
 ![Upload page](../images/WpA/Use/settings-analysis-meeting-exclusions.png)
 
-For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md). See also [Large meeting exclusion rules](https://docs.microsoft.com/Workplace-Analytics/tutorials/meeting-exclusion-250)
+For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md). 
+
+See also [Large meeting exclusion rules](https://docs.microsoft.com/Workplace-Analytics/tutorials/meeting-exclusion-250).
