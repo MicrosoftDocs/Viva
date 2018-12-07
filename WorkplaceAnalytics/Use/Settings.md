@@ -128,7 +128,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 
   You can see histogram charts on the following pages in Workplace Analytics:
 
-* In Explore on the [Management and coaching](../use/explore-metrics-management-and-coaching)
+* In Explore on the [Management and coaching](../use/explore-metrics-management-and-coaching.md)
  tab 
 * In [Solutions:](../Tutorials/solutions-intro.md)
   
