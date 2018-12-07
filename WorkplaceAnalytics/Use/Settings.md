@@ -31,7 +31,7 @@ This article focuses on the **Admin settings** page.
 
 Under the **System defaults** section,  admins can customize system defaults and privacy settings.
 
-![System defaults](../images/wpa/use/settings-admin-setting_a.png)
+![System defaults](../images/wpa/use/settings-admin-settings_a.png)
 
 Follow company-specific legal and privacy guidelines to define and confirm the settings to use in Workplace Analytics. Then you are ready to provision Workplace Analytics. 
 
