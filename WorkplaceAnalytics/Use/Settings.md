@@ -14,12 +14,8 @@ ms.prod: wpa
 
 # Configure Workplace Analytics settings
 
-
-
 On the **Settings** page, under the **Defaults and privacy** tab, admins can access and configure admin settings.
 The Settings page comprises various sub-pages that are used for admin-related activities, as follows:
-
-
 
 [Sources](#sources) — Provides admin dashboards for high-level data analysis.
 
@@ -55,7 +51,7 @@ On the **Defaults and privacy** tab, under the **System defaults** section, you 
 
 ### Default time zone
 
-This setting lets you configure the default time zone, which is used to compute after-hours metrics for employees whose time zone information was not originally provided in the organizational data file upload. Typically, the default time zone is the time zone of the corporate headquarters or the time zone in which most employees reside.
+This setting lets you configure the default time zone, which is used to compute after-hours metrics for employees whose time zone information was not originally provided in the [organizational data](#organizational-data) file upload. Typically, the default time zone is the time zone of the corporate headquarters or the time zone in which most employees reside.
 
 If a measured employee or other internal collaborator does not have the time zone defined in the organizational data file, or if you do not update the default time zone setting for your zone, Workplace Analytics uses Pacific Standard Time (PST).
 
@@ -70,12 +66,13 @@ If a measured employee or other internal collaborator does not have the time zon
 Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
 No option exists within the organizational data file to upload working days and hours; however, the **System Defaults** section lets admins specify the default working and non-working days and hours of employees who have not already configured these settings in their mailboxes.
 
-  ![System defaults](../images/WpA/Use/settings-system-defaults-b.png)
 
 #### To configure working days and hours
 
 1. Under **Working days**, select the appropriate check boxes for the days of the week.
 2. From the **Working day starts** and **Working day ends** list boxes, select the appropriate start and end times.
+
+      ![System defaults](../images/WpA/Use/settings-system-defaults-b.png)
 
 ### Hourly rate
 
@@ -126,16 +123,15 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 
    In histograms, the x-axis consists of rectangles, called "bins", that are based on average metric values, and the y-axis determines the number of people whose average metric value puts them in that bin. _Neither of these values reflects organizational data._ For this reason, the histogram still displays data for a bin even if it contains fewer people than the minimum-group-size value. Histogram charts can safely display this information because the information is based on metrics -- on values calculated from observed behavior, _not_ on HR data.
 
-   Even if a bin in a histogram contained data for only one individual, the histogram still displays that data. 
-   You cannot single out this individual because you do not know what HR group they belong to. (In other charts, such as 
-   column charts, an individual in a group below the threshold might be identifiable, but in a histogram the HR group to 
-   which individuals belong is the larger filter group.) You also cannot determine the precise metric value of individuals 
-   because they are in a bin with a minimum 0.5-hour range.
+   Even if a bin in a histogram contained data for only one individual, the histogram still displays that data. You cannot single out this individual because you do not know what HR group they belong to. (In other charts, such as column charts, an individual in a group below the threshold might be identifiable, but in a histogram the HR group to 
+   which individuals belong is the larger filter group.) You also cannot determine the precise metric value of individuals because they are in a bin with a minimum 0.5-hour range.
 
   You can see histogram charts on the following pages in Workplace Analytics:
 
-* In Explore on the Management and coaching tab 
-* In Solutions:  
+* In Explore on the [Management and coaching](../use/explore-metrics-management-and-coaching)
+ tab 
+* In [Solutions:](../Tutorials/solutions-intro.md)
+  
     * To set goals 
     * To track program success on the Track page 
 
@@ -168,7 +164,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
   
    As an example, if you exclude the email address of the CEO, (ceo@company.com) all meetings and emails in which the CEO is included are removed from analysis. This means that for all meetings and emails that include the CEO, the metadata for all other recipients and attendees included in those same emails and meetings is also excluded. 
 
-   If a user has multiple aliases, you must enter each email address for each alias that you want to exclude. When adding email addresses to exclude, it's important to consider all the implications of an exclusion.
+   If a user has multiple aliases, you must enter every email address for each alias that you want to exclude. When adding email addresses to exclude, it's important to consider all the implications of an exclusion.
 
  **Example: Exclude terms from subject line**
 
