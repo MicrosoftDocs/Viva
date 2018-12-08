@@ -96,7 +96,7 @@ It is also common to want to define patterns of collaboration behavior in refere
 Concepts that are helpful in this analysis are:
 
 * Whether an employee is an individual contributor or a manager.
-* Organizational hierarchy. For example, the names of all managers above the employees in his or her reporting structure; each manager can be stored as a separate attribute.
+* Organizational hierarchy. For example, the names of all managers above the employee in that employee's reporting structure; each manager can be stored as a separate attribute.
 * Layer. For example, the position of the employee in the organizational hierarchy where layer 0 = the top leader in the company.
 * Span. For example, the number of direct reports assigned to an employee.
 * Level. For example, senior manager, VP, director, CVP, and so on.
@@ -105,43 +105,36 @@ Most of these attributes are also found in HR information systems.
 
 ### Collaboration, engagement, and outcome data
 
-Finally, you many want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data such as sales quota attainment or high/low performance ratings. These data are often found outside of traditional HR information systems, either in separate HR data repositories or in line of business systems.
+Finally, you many want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data such as sales quota attainment or high/low performance ratings. These data are often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
 ## Step two – Avoid common pitfalls
 
-Strive to avoid the following pitfalls when choosing the organizational data you want to provide.
+Strive to avoid the following pitfalls when choosing the organizational data you want to provide:
 
 ### Too many unique values
 
 Sometimes an attribute will have too many unique values to be used in grouping and filtering.
-
 For example, if a job function or code is very narrowly defined, it might not give a useful view of the overall group. If it is likely that an attribute could have hundreds of unique values resulting in a small population group per value, the attribute may not be useful.
 
 ### Too few unique values
 
-Conversely, sometimes an attribute is too broadly defined to allow for useful filtering.
-
-For example, if your organization resides entirely in the United States and your HR records per employee contain a country code that always equals US, that attribute would not be useful to include.
+Conversely, sometimes an attribute is too broadly defined to allow for useful filtering. For example, if your organization resides entirely in the United States and your HR records per employee contain a country code that always equals US, that attribute would not be useful to include.
 
 ### Redundant attributes
 
-Some attributes may represent the same data and provide redundant data that is not necessary for analysis.
-
-For example, HR data could contain both a cost center id and a cost center name for an employee. Since both represent the same information in a slightly different format, you may want to include only the one with the more “user friendly” name.
+Some attributes may represent the same data and provide unnecessary redundant data for analysis. For example, HR data could contain both a cost center ID and a cost center name for an employee. Since both represent the same information in a slightly different format, you may want to include only the one with the more “user friendly” name.
 
 ### Attributes that only exist for a population subset
 
-When choosing attributes to include, be aware of cases where some attribute values might be populated for one organization but not others.
-
-For example, if you bring in sales quota attainment data that only applies to your sales organization you must be mindful that this data cannot be used for filtering and grouping employees outside of sales.
+When choosing attributes to include, be aware of cases where some attribute values might be populated for one organization but not others. For example, if you bring in sales quota attainment data that only applies to your sales organizatio, you must be mindful that this data cannot be used for filtering and grouping employees outside of sales.
 
 ### Dirty data
 
-In addition to some attributes only being applicable for certain employees in the population, you may find that data from HR and other line-of-business systems can often be dirty or inconsistent. As noted later in this topic, there are key organizational data attributes that must be supplied in order for Workplace Analytics to accept the data. If your systems have gaps in these special attributes, you will have to perform data cleansing to provide accurate values for the missing entries or suitable defaults.
+In addition to some attributes only being applicable for certain employees in the population, you may find that data from HR and other line-of-business systems can often be dirty or inconsistent. As noted later in this topic, key organizational data attributes must be supplied in order for Workplace Analytics to accept the data. If your systems have gaps in these special attributes, you will have to perform data cleansing to provide accurate values for the missing entries or suitable defaults.
 
 ## Step three – Export data
 
-After you have identified the data to provide, you need to export it into a format to upload in Workplace Analytics. This section explains how to correctly format the data into a comma separated value (.csv) file that will successfully upload into Workplace Analytics.
+After you have identified the data to provide, you need to export it into a format to upload in Workplace Analytics. This section explains how to correctly format the data into a comma-separated value (.csv) file that will successfully upload into Workplace Analytics.
 
 ### Required attributes and file format
 
@@ -155,7 +148,7 @@ The data must be supplied in a UTF-8 encoded .csv file and contain a set of requ
 * ManagerId
 * Organization
 
-**Reserved optional attributes** are reserved column headers for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations. While these attributes are not required, if included, they must meet the coverage requirements as described in the following table.
+**Reserved optional attributes** are reserved column headers for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations. 
 
 * FunctionType
 * HireDate
@@ -163,6 +156,8 @@ The data must be supplied in a UTF-8 encoded .csv file and contain a set of requ
 * Layer
 * SupervisorIndicator
 * TimeZone
+
+Although these attributes are not required, if included, they must meet the following coverage requirements as described in the table that follows:
 
 **Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.  
 
@@ -175,13 +170,13 @@ The data must be supplied in a UTF-8 encoded .csv file and contain a set of requ
 Attribute (column header) | Description of data / data validity | Data coverage requirements
 ---------|----------|---------|
 PersonId |Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid PersonId. Each upload file can have only ONE record with the same PersonID / EffectiveDate pair. |
-EffectiveDate |Date for which the given attribute value applies for the employee. The attribute will apply until another record for the same attribute with a different effective date is specified. | Each row must contain a valid EffectiveDate. Each upload file can have only one record with the same PersonID / EffectiveDate pair. |
+EffectiveDate |Date for which the given attribute value applies for the employee. The attribute applies until another record for the same attribute with a different effective date is specified. | Each row must contain a valid EffectiveDate. Each upload file can have only one record with the same PersonID / EffectiveDate pair. |
 LevelDesignation | The employee’s level, represented as a string. The level will be specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain a LevelDesignation value. |
 ManagerId | Unique identifier for the employee’s manager. This data is needed to correctly calculate metrics for time spent with managers and their direct reports.<br>This identifier can be the manager's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid ManagerId. |
 Organization| The internal organization the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or other naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
-FunctionType | The job function the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore the metrics features. | This attribute column is not required. If it is included, then each row must contain a function value.|
-HireDate| Date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), we recommend using the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
-HourlyRate | The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). Note: The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters such as a dollar sign. The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees. This is not yet used in calculations but can be used to filter and group employees. Note that the Explore the metrics feature uses a fixed default HourlyRate of $75. When the default rate is changed, it applies retroactively to anyone without an effective hourly rate for the next scheduled (usually set for monthly) refresh of your organizational (HR) data.| This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
+FunctionType | The job function the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore-the-metrics features. | This attribute column is not required. If it is included, then each row must contain a function value.|
+HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), we recommend using the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
+HourlyRate | The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). Note: The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters such as a dollar sign. The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees. This is used in calculations and can be used to filter and group employees. Note that the Explore-the-metrics feature uses a fixed default HourlyRate of $75. When the default rate is changed, it applies retroactively to anyone without an effective hourly rate for the next scheduled (usually set monthly) refresh of your organizational (HR) data.| This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 Layer | The place within the organizational hierarchy where the employee belongs. The layer is represented as an integer and expressed as distance from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in Explore the metrics features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
 SupervisorIndicator  | Use this attribute to view the habits of people managers in your organization in Power BI visualizations. It powers the Overview table as well as the Generated Workload charts that are generated when you use the Manager Impact [Power BI template](../tutorials/power-bi-templates.md). <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required only if you want to use the Manager impact dashboard in Power BI. |
 TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones in Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.|
@@ -191,11 +186,11 @@ Any user-defined columns | Additional columns can represent any data that you wa
 
 By default, Workplace Analytics includes meeting and email data for measured employees for one year.
 
-Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [this table](#attribute-description-and-data-coverage-requirements).
+Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in the [ table](#attribute-description-and-data-coverage-requirements).
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
-This means that for each measured employee, you would have 13 separate rows for each employee, with an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2018 the effective date for all rows should be set to 10/1/2017.
+This means that for each measured employee, you would have 13 separate rows for each employee, with an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2018, the effective date for all rows should be set to 10/1/2017.
 
 ### Example .csv export file
 
@@ -214,10 +209,10 @@ Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sa
 
 ### Allowed time zones
 
-The default time zone for Workplace Analytics is Pacific Standard Time. Visit [Time zones for Workplace Analytics](../Use/Timezones-for-workplace-analytics.md) for a complete list of the times zones that you can use.
+The default time zone for Workplace Analytics is Pacific Standard Time (PST). Visit [Time zones for Workplace Analytics](../Use/Timezones-for-workplace-analytics.md) for a complete list of the times zones that you can use.
 
 ## Step four - Upload data
 
 After you create your source .csv file, you can upload it to the Workplace Analytics service. See [Upload organizational data](Upload-organizational-data.md).
 
-After your data is successfully uploaded, Workplace Analytics will perform additional validation and processing to complete provisioning. The Workplace Analytics team will contact your Workplace Analytics administrator if any problems arise.
+After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems arise, the Workplace Analytics team will contact your Workplace Analytics administrator.
