@@ -53,15 +53,15 @@ A6. The Analyst Limited Access role is for the analyst who needs access only to 
 
 ##### Q7. After changing the configuration and privacy settings, when do the changes take effect in the data?
 
-A7. Any changes to [Configuration and Privacy settings in Workplace Analytics](../setup/maintain-workplace-analytics.md) go into effect at the next organizational collaboration or data-processing upload. For more details, see [How often to upload](../setup/prepare-organizational-data#how-often-to-upload.md) in [Prepare organizational data](../setup/prepare-organizational-data.md).
+A7. Any changes to [Configuration and Privacy settings in Workplace Analytics](../setup/maintain-workplace-analytics.md) go into effect at the next organizational collaboration or data-processing upload. For more details, see [How often to upload](../setup/prepare-organizational-data.md#how-often-to-upload) in [Prepare organizational data](../setup/prepare-organizational-data.md).
 
 ##### Q8. What if my licensed population works in different time zones or has varying working hours?
 
-A8. If measured employees or other internal collaborators have their time zones defined as part of your organizational data, then Workplace Analytics will use their individual time-zone settings for after-hours metrics and for other time-related metrics. However, if the organizational data does not have a time zone defined for an employee, Workplace Analytics will use the default time-zone setting that your admin sets in Workplace Analytics for that employee’s data. For more details, see [Time zone setting](../use/settings#time-zone-settings).
+A8. If measured employees or other internal collaborators have their time zones defined as part of your organizational data, then Workplace Analytics will use their individual time-zone settings for after-hours metrics and for other time-related metrics. However, if the organizational data does not have a time zone defined for an employee, Workplace Analytics will use the default time-zone setting that your admin sets in Workplace Analytics for that employee’s data. For more details, see [Time zone setting](../use/settings.md#time-zone-settings).
 
 ##### Q9. Can I configure what data certain analysts can access and use?
 
-A9. You can assign analysts the Analyst Limited Access role, which limits them to the Explore dashboards. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins) and [User roles in Workplace Analytics](../use/user-roles) for more details.
+A9. You can assign analysts the Analyst Limited Access role, which limits them to the Explore dashboards. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](../use/user-roles.md) for more details.
 
 ## Organizational data
 
@@ -88,7 +88,7 @@ A4. All field header or column names must:
 * Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP).
 * Have no spaces (Date1).
 * Have no special characters (non-alphanumeric, such as @, #, %, &, and *).
-* Match exactly as listed for [Workplace Analytics’ Required and Reserved optional attributes](../setup/prepare-organizational-data#step-three--export-data.md), including for case sensitivity (for example PersonId and HireDate).
+* Match exactly as listed for [Workplace Analytics’ Required and Reserved optional attributes](../setup/prepare-organizational-data.md#step-three--export-data), including for case sensitivity (for example PersonId and HireDate).
 
 > [!Note]
 > Special characters and spaces are OK in attribute names because they are automatically reformatted during field mapping to the accepted format for column names. This list is also included in [Tips](../setup/upload-organizational-data.md#tips).
@@ -98,9 +98,10 @@ A4. All field header or column names must:
 A5. The field values in the data rows must comply with the following formatting rules:
 
 * The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format.
-* The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not < gc> gc@contoso.com).
+* The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not < gc> gc@contoso.com)
 * The required TimeZone field values must be in a [supported Windows format](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones).
 * The required Layer field values must be numbers only.
+* Have no special characters (non-alphanumeric, such as @, #, %, &, and *).
 * The required HourlyRate field values must be numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
 
      > [!Note]
@@ -130,7 +131,7 @@ A7.	Workplace Analytics requires that the PersonId field meet 100% of the validi
 
 ##### Q8. How do I append new columns onto an already existing organizational data file?
 
-A8. You can append the existing organization data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to **Step 9** in the [File upload procedure](../setup/upload-organizational-data#file-upload.md) for details.
+A8. You can append the existing organization data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to **Step 9** in the [File upload procedure](../setup/upload-organizational-data.md#file-upload) for details.
 
 ##### Q9. For my first organizational data upload, should I choose “append” or “replace”?
 
