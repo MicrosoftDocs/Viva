@@ -23,7 +23,7 @@ The most commonly asked questions and answers about Workplace Analytics are grou
 * [Meeting exclusions](#meeting-exclusions)
 * [Data validation and verification](#data-validation-and-verification)
 * [Explore dashboards](#explore-dashboards)
-* [Queries](#Queries)
+* [Queries](#queries)
 
 ## Setup and configuration  
 
@@ -33,7 +33,7 @@ A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 
 
 ##### Q2. Does Workplace Analytics retain and use data about employees that no longer work for the organization?
 
-A2. Workplace Analytics maintains historical organizational data that can include past (previously licensed) employees’ de-identified data. A change to organizational data takes effect the next time it is received and processed (usually monthly) by Workplace Analytics. However, new changes do not affect historical data used by Workplace Analytics. For more details, see [How often to upload](../setup/prepare-organizational-data.md) in [Prepare organizational data](../setup/prepare-organizational-data.md).
+A2. Workplace Analytics maintains historical organizational data that can include past (previously licensed) employees’ de-identified data. A change to organizational data is updated in Workplace Analytics the next time it is received and processed (usually monthly) by Workplace Analytics. However, new changes do not affect historical data used by Workplace Analytics. For more details, see [How often to upload in Prepare organizational data](../setup/prepare-organizational-data.md#how-often-to-upload).
 
 ##### Q3. How many people should be Workplace Analytics admins and/or analysts?
 
@@ -91,14 +91,14 @@ A4. All field header or column names must:
 * Match exactly as listed for [Workplace Analytics’ Required and Reserved optional attributes](../setup/prepare-organizational-data.md#step-three--export-data), including for case sensitivity (for example PersonId and HireDate).
 
 > [!Note]
-> Special characters and spaces are OK in attribute names because they are automatically reformatted during field mapping to the accepted format for column names. This list is also included in [Tips](../setup/upload-organizational-data.md#tips).
+> Special characters and spaces are OK in attribute names because they are automatically reformatted during field mapping to the accepted format for column names. This list is also included in [Upload tips](../setup/upload-organizational-data.md#tips).
 
 ##### Q5. What format must the row field values have in the .csv file?
 
 A5. The field values in the data rows must comply with the following formatting rules:
 
 * The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format.
-* The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not < gc> gc@contoso.com)
+* The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not < gc> gc@contoso.com).
 * The required TimeZone field values must be in a [supported Windows format](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones).
 * The required Layer field values must be numbers only.
 * Have no special characters (non-alphanumeric, such as @, #, %, &, and *).
@@ -119,7 +119,7 @@ A5. The field values in the data rows must comply with the following formatting 
      Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
 
      > [!Note]
-     > These lists are also included in Tips.
+     > These lists are also included in [Upload tips](../setup/upload-organizational-data.md#tips).
 
 ##### Q6. Can the data contain double-byte characters?
 
@@ -131,7 +131,7 @@ A7.	Workplace Analytics requires that the PersonId field meet 100% of the validi
 
 ##### Q8. How do I append new columns onto an already existing organizational data file?
 
-A8. You can append the existing organization data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to **Step 9** in the [File upload procedure](../setup/upload-organizational-data.md#file-upload) for details.
+A8. You can append the existing organization data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to **Step 9** in the [File upload steps](../setup/upload-organizational-data.md#file-upload) for details.
 
 ##### Q9. For my first organizational data upload, should I choose “append” or “replace”?
 
