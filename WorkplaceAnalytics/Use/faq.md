@@ -106,19 +106,19 @@ A5. The field values in the data rows must comply with the following formatting 
      > [!Note]
      > Workplace Analytics doesn’t currently do any currency conversions for the HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
 
-   The field values also must not contain any of the following:
+     The field values also must not contain any of the following:
 
-   * No accent marks (á)
-   * No tildes (~)
-   * No short or long dashes (-, --)
-   * No commas (,)
-   * No “new line” characters (\n)
-   * No double (” ”) or single quotes (‘ ‘)
+     * No accent marks (á)
+     * No tildes (~)
+     * No short or long dashes (-, --)
+     * No commas (,)
+     * No “new line” characters (\n)
+     * No double (” ”) or single quotes (‘ ‘)
 
-   Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
+     Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
 
-   > [!Note]
-   > These lists are also included in Tips.
+     > [!Note]
+     > These lists are also included in Tips.
 
 ##### Q6. Can the data contain double-byte characters?
 
