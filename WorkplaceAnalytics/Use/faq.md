@@ -15,7 +15,7 @@ localization_priority: Once
 
 # Frequently asked questions for Workplace Analytics
 
-The most commonly asked questions and their answers are organized into the following sections:
+The most commonly asked questions and answers about Workplace Analytics are grouped into the following sections:
 
 * [Setup and configuration](#setup-and-configuration)
 * [Organizational data](#organizational-data)
@@ -65,7 +65,7 @@ A9. You can assign analysts the Analyst Limited Access role, which limits them t
 
 ## Organizational data
 
-##### Q1. What are common causes of a failure to upload an organizational (HR) data file into Workplace Analytics, or the invalidity of such a file?
+##### Q1. What causes the upload of the organizational (HR) data to fail?
 
 A1. An upload can fail if the data has invalid values, is missing required data, or the validity threshold for optional data is set too high. See [Tips](../setup/upload-organizational-data.md#tips) in [Subsequent uploads of organizational data](../setup/upload-organizational-data.md) for details.
 
@@ -97,11 +97,11 @@ A4. All field header or column names must:
 
 A5. The field values in the data rows must comply with the following formatting rules:
 
-   * The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format.
-   * The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not < gc> gc@contoso.com).
-   * The required TimeZone field values must be in a [supported Windows format](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones).
-   * The required Layer field values must be numbers only.
-   * The required HourlyRate field values must be numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
+* The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format.
+* The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not < gc> gc@contoso.com).
+* The required TimeZone field values must be in a [supported Windows format](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones).
+* The required Layer field values must be numbers only.
+* The required HourlyRate field values must be numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
 
      > [!Note]
      > Workplace Analytics doesn’t currently do any currency conversions for the HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
