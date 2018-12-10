@@ -110,6 +110,8 @@
                   href: ~/tutorials/Solutions-participants.md                                       
                 - name: Concepts
                   href: ~/tutorials/Solutions-conceptual.md             
+    - name: Frequently asked questions
+      href: ~/Use/faq.md
     - name: Reference
       items:
         - name: Glossary
