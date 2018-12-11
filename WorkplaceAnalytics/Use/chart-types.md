@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Charts in Workplace Analytics
 
-The [Explore the metrics](explore-intro.md) pages of Workplace Analytics display information in charts. This topic describes those charts and provides information about how to configure them. See the following sections:
+The [Explore the metrics](explore-intro.md) pages of Workplace Analytics display information in charts. This topic describes those charts and provides information about how to configure and use them. See the following sections:
 
  * [Chart types](#chart-types). Descriptions of the four primary chart types.
  * [Chart features](#chart-features). Information to help you get the most out of the charts in **Explore**.
@@ -36,7 +36,7 @@ The [Explore the metrics](explore-intro.md) pages of Workplace Analytics display
 
 ![Box plot](../images/wpa/use/box-plot-general.png)
 
-![line graph](../images/wpa/use/d-line-graph.png) **Line graphs** in the **Explore** area of Workplace Analytics are used as trend-line charts in that they show metric values over time. The default trend line is the company average for the selected metric. Trend-line charts show one point per week for as many weeks as you have set in **Date range**, under **Page settings**. (See [Set the date range](#to-change-the-date-range)).
+![line graph](../images/wpa/use/d-line-graph.png) **Line graphs** are used as trend-line charts in that they show metric values over time. The default trend line is the company average for the selected metric. Trend-line charts show one point per week for as many weeks as you have set in **Date range**, under **Page settings**. (See [Change the date range](#to-change-the-date-range)).
 
 For an example, see the chart on the right in [Skip-level meeting hours](explore-metrics-management-and-coaching.md#skip-level-meeting-hours).
 
@@ -57,7 +57,7 @@ The column graph displays metric data for groups and the related line graph disp
 
 ![Meeting hours by duration](../images/wpa/use/08-meeting-hours-by-duration.png)
 
-You can picture this relationship between the two charts in a pair as a sort of "chart workspace," in which you can focus on a particular filtered data set and then apply different views to it to coax out different facts. If you sort data in the column chart and then switch it to a box plot, your sorting choice carries over to the display of the box plot. 
+You could view this relationship between the charts in a pair as a sort of "chart workspace" in which you focus on a particular filtered data set and then apply different views to it to coax out different facts. If you sort data in the column chart and then switch it to a box plot, your sorting choices carry over to the display of the box plot. 
 
 ### Default display
 
