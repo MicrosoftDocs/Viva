@@ -46,7 +46,7 @@ Examples of organizational data include: job family, job role, organization, lin
 
 You can update organizational data as frequently as you like, but it will be refreshed upon the latest update of email and calendar data. Since email and calendar data is updated once a month, it may make sense to provide updates for this data on a similar cadence.
 
-## Who to include in the data
+## Whom to include in the data
 
 ### HR data
 
