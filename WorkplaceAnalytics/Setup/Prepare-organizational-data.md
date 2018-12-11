@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Prepare organizational data
 
-This introduces key concepts about compiling and uploading organizational data in Workplace Analytics. After reading this, you will know what kind of organizational data to provide, what that data can help you discover, and how to upload the data.
+This article introduces key concepts about compiling and uploading organizational data in Workplace Analytics. After reading this, you will know what kind of organizational data to provide, what that data can help you discover, and how to upload the data.
 
 ## About organizational data
 
@@ -219,6 +219,6 @@ The default time zone for Workplace Analytics is Pacific Standard Time. Visit [T
 
 ## Step four - Upload data
 
-After you create your source .csv file, you can upload it to the Workplace Analytics service. See [Upload organizational data](Upload-organizational-data.md).
+After you create your source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md). 
 
 After your data is successfully uploaded, Workplace Analytics will perform additional validation and processing to complete provisioning. The Workplace Analytics team will contact your Workplace Analytics administrator if any problems arise.
