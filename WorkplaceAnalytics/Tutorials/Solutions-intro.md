@@ -45,7 +45,13 @@ Here are the prerequisites for using Teamwork solution:
 
 ## Workplace Analytics solution for teamwork playbook
 
+View the **solution for teamwork playbook**, which provides tips on how to best use Workplace Analytics Teamwork solution to achieve maximum benefit for your organization:
+
+[![solution for teamwork playbook](../images/wpa/tutorials/01-five-exclusion-steps.png)](wpa-teamwork-solution-playbook.pdf)
+
+
 Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), which provides tips on how to best use Workplace Analytics Teamwork solution to achieve maximum benefit for your organization.
+
 
 ## Teamwork solution: Frequently asked questions
 
