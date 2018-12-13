@@ -47,7 +47,7 @@ Consider implementing the following data-privacy recommendations before you begi
 
 You have full control over what data to include in analysis using Workplace Analytics. The primary data source is Office 365, but you supplement it with HR and other data from your organization so that you can group information by job title, location, or other attributes.
 
- * **Data provided by Microsoft Office 365:** Workplace Analytics uses header information from Office 365 emails and calendar items. This information includes sender and recipient and date and subject lines for emails; and organizer, attendees, and duration of meetings<!-- removed "location" 30Aug18-->. For more information, see [Data provided by Microsoft Office 365] (Data-protection-considerations.md#data-provided-by-microsoft-office-365).
+ * **Data provided by Microsoft Office 365:** Workplace Analytics uses header information from Office 365 emails and calendar items. This information includes sender and recipient and date and subject lines for emails; and organizer, attendees, and duration of meetings<!-- removed "location" 30Aug18-->. For more information, see [Data provided by Microsoft Office 365](Data-protection-considerations.md#data-provided-by-microsoft-office-365).
 
  * **Privacy capabilities in your control:** You decide which users’ mailboxes to include in your Workplace Analytics study. You can apply multiple controls over this data to limit it further. For more information, see [Privacy capabilities in your control](Data-protection-considerations.md#privacy-capabilities-in-your-control), [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md), and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 
@@ -57,7 +57,7 @@ You have full control over what data to include in analysis using Workplace Anal
 
 ## Handle data-subject requests
 
-Under the GDPR, data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it. 
+Under the General Data Protection Regulation (GDPR), data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it. 
 For more information about the following request types and how to fulfill them, see [Workplace Analytics support for handling data subject requests](Data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests). 
 
  * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing.
