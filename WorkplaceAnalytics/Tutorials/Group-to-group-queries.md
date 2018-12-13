@@ -4,9 +4,9 @@
 
 title: Group-to-group queries in Workplace Analytics
 description: Group-to-group queries uncover how a team invested their time across the rest of the organization and beyond with Workplace Analytics.  
-author: paul9955
+author: madehmer
 ms.author: madehmer
-ms.date: 11/13/2018
+ms.date: 12/3/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,7 +20,7 @@ Group-to-group queries in Workplace Analytics give results that help you underst
 
 ## Overview of time allocation
 
-An understanding of time allocation helps you create better group queries. The details of time allocation are complicated. Here is a summary of the basic concepts:
+An understanding of time allocation helps you create better group queries. The details of time allocation can be complicated. Here is a summary of the basic concepts:
 
 * Time allocation measures how groups spent their time. For each interaction (a meeting attended or an email sent or received), the total time that one group spent on the interaction is divided among the other groups that participated.
 * A time investor allocates their time among the other participants in the interaction (the collaborators) in proportion to how many people are in the collaborator group for that interaction.
@@ -42,43 +42,37 @@ While setting up a group query differs markedly from setting up meeting or perso
 
 **To create a group-to-group query**
 
-1. In Workplace Analytics, select **Queries** and then select **Group-to-group**.
-2. Type a name for the query, and optionally, type a description.
-3. For Group by, select a time-grouping option -- day, week, or month.
+1. On the **Analyze** > **Queries** page, select **Group-to-group**.
+2. Select and change **Enter query name here** to a name, and then enter a description for the query.
+3. For **Group by**, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those group-to-group interactions that took place during this date range.
-5. Select a set of meeting exclusions. The query will ignore meetings that are filtered out by the meeting exclusions that you choose. 
-
-   Move on to the Select metrics section:
-
-   ![Select metrics](../Images/WpA/tutorials/G2G-changes_03.png)
-
-6. Answer the question _What would you like to know about the interactions?_ to specify the types of data that you want to analyze. Note that you can select multiple metrics, as shown here:  
+5. Select a meeting exclusions rule. The query will ignore meetings that are filtered out by this rule. 
+6. Answer the question _What would you like to know about the interactions?_ to specify the types of data that you want to analyze. Note that you can select multiple metrics:  
 
    ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics_2.png)
 
-   For more information about the metrics that you can use in group-to-group queries, see [Group-to-group metrics](../use/metric-definitions.md#group-to-group-metrics). 
+   For more information about the metrics that you can use in group-to-group queries, see [Group-to-group metrics](../use/metric-definitions.md#group-to-group-metrics).
 
-   In the following sections, you determine other aspects of the character of your query by choosing how to group both the time investors and the collaborators. For example, you could examine how senior leaders allocated time across different organizations by setting the time investors' group to "level" and the collaborators' group to "organization."
+   In the following sections, you determine other aspects of the character of your query by choosing how to group both the time investors and the collaborators. For example, you can examine how senior leaders allocated time across different organizations by setting the time investors' group to "level" and the collaborators' group to "organization."
 
-   Move on to the Time investors section:
+7. In the **Time investors** section, answer the next question _How do you want to group the time investors?_ to specify an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths.
 
    ![Group and filter time investors](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
 
-8. The next question is How do you want to group the time investors? Answer this by selecting an attribute of this group of people; for example, FunctionType, IsInternal, or tenuremonths.
-9. Optionally, remove some of the time investors from this analysis. Do this by applying filters under the question _Do you want to limit the analysis to only certain time investors?_
+8. Optionally, remove some of the time investors from this analysis by applying one or more filters under the question _Do you want to limit the analysis to only certain time investors?_
 
-   You have now finished specifying the time investors whose behavior you want to analyze and how you want the query to group them. Now, you make similar determinations about the collaborators. 
+   You have now finished specifying the time investors whose behavior you want to analyze and how you want the query to group them. Now, you make similar determinations about the collaborators.
 
-   Move on to the section called Their collaborators:
+9. In the **Their collaborators** section, add filters to exclude collaborators. These filters (such as layer, Domain, FunctionType, or Organization) are the same that were available for time investors. At this point, the collaborators are ungrouped; that is, the query results will not show you which collaborators interacted with the time investors.
 
    ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
-   
-10. Add filters to exclude collaborators. The filtering options (such as layer, Domain, FunctionType, or Organization) that you can use here are the same ones that were available to you for excluding time investors in the preceding step. At this point, the collaborators are ungrouped; that is, the query results would not inform you which collaborators (the ones in Sales? the ones in R&D?) interacted with the time investors.
-11. Now, you can group the collaborators. By doing this, you can have the query results inform you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
+
+10. Answer the question _How do you want to group the people who collaborated with the time investors?_ to group the collaborators. This will show you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
 
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
-12. Select **Run**. This submits the query and displays the Results page of the Queries area of Workplace Analytics. The status of the query is displayed as Submitted. After the query run completes, you can view it, download it (in .csv file format), or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) that you can use in a visualization tool such as Power BI.
+11. Select **Run** at the top right to run the query.
+12. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ## Related topics
 
@@ -102,7 +96,7 @@ When you use the Group collaborators option, you create groups by finding common
 
 ### What grouping accomplishes
 
-When you create a query, you typically find out how much time certain people spent with certain other people. That is, you take the time that the "time investors" spent in the meeting and you allocate that time proportionally among the distinct other groups that were represented in (attended) the interaction. 
+When you create a query, you typically find out how much time certain people spent with certain other people. That is, you take the time that the "time investors" spent in the meeting and you allocate that time proportionally among the distinct other groups that were represented in (attended) the interaction.
 
 ## Step-by-step example
 
@@ -111,20 +105,19 @@ In this example, you want to find out how much time the people in Sales spent wi
 **To create the Sales - Product marketing query**
 
  1. Open the Queries page in Workplace Analytics.
- 2. Click **Group-to-group** query.
- 3. On the Queries > Group-to-group query page, type the query name.
- 4. Type a description for the query.
- 5. Indicate any particular meeting exclusions, or use the default set of meeting exclusions. Now go to the Select metrics section.
- 6. Select an interaction type to learn more about. In this case, select Hours.
- 7. Several metrics pertain to this interaction type. Choose the metric that most closely matches the information you want. Now go to the Time investors section.
- 8. You want to study the people in Sales. Sales is an example of a workplace function, so select FunctionType under How do you want to group the time investors?
- 9. The next question is Do you want to limit the analysis to only certain time investors? Because you want to limit your current study to people in Sales, the answer is Yes. Create a filter in which FunctionType = Sales. You have just created a group that the query will report about. Move on to the Their collaborators section.
- 10. The first question in this section is Do you want to exclude any collaborators? The answer to this question depends on the scope of information that you want your query to supply. Your goal is to study the interaction between Sales and Product marketing. If these interactions are all you want to know about, you can now exclude all collaborators other than Product marketing. Do this by setting FunctionType in the left side of the filter builder, and adding all groups other than Product marketing on the right side. 
+ 2. Select **Group-to-group** query.
+ 3. Enter a name and a description for the query.
+ 4. Indicate any particular meeting exclusions, or use the default set of meeting exclusions. 
+ 5. In the **Select metrics** section, select an interaction type to learn more about. In this case, select Hours.
+ 6. Several metrics pertain to this interaction type. Choose the metric that most closely matches the information you want. Now go to the Time investors section.
+ 7. You want to study the people in Sales. Sales is an example of a workplace function, so select FunctionType under How do you want to group the time investors?
+ 8. The next question is Do you want to limit the analysis to only certain time investors? Because you want to limit your current study to people in Sales, the answer is Yes. Create a filter in which FunctionType = Sales. You have just created a group that the query will report about. Move on to the Their collaborators section.
+ 9.  The first question in this section is Do you want to exclude any collaborators? The answer to this question depends on the scope of information that you want your query to supply. Your goal is to study the interaction between Sales and Product marketing. If these interactions are all you want to know about, you can now exclude all collaborators other than Product marketing. Do this by setting FunctionType in the left side of the filter builder, and adding all groups other than Product marketing on the right side. 
   
      Alternatively, you could exclude no groups. This would still answer your core question -- How much time did Sales spend with Marketing during these six months? But by letting the data from other groups also appear, you would see the Sales-Marketing interactions in the broader context of the overall behavior of your Sales team.
 
- 13. Move on to the next question: How do you want to group the people who collaborated with the time investors? Because you are interested in the collaborators who are in Product marketing, and Product marketing is a workplace function, you want to group by workplace function, so select FunctionType.
- 14. Finally, answer the question: Are there any collaborators you'd like to group all together to simplify the results? This question lets you optionally designate as "noise" the query results that you do not want to focus on. 
+ 10. Move on to the next question: How do you want to group the people who collaborated with the time investors? Because you are interested in the collaborators who are in Product marketing, and Product marketing is a workplace function, you want to group by workplace function, so select FunctionType.
+ 11. Finally, answer the question: Are there any collaborators you'd like to group all together to simplify the results? This question lets you optionally designate as "noise" the query results that you do not want to focus on. 
 
      Remember that you just selected FunctionType as the grouping mechanism for collaborators. If you do not answer this final question, the query will return discrete data about each group that interacted with your people in Sales. 
 

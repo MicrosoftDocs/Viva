@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Prepare organizational data
 
-This introduces key concepts about compiling and uploading organizational data in Workplace Analytics. After reading this, you will know what kind of organizational data to provide, what that data can help you discover, and how to upload the data.
+This article introduces key concepts about compiling and uploading organizational data in Workplace Analytics. After reading this, you will know what kind of organizational data to provide, what that data can help you discover, and how to upload the data.
 
 ## About organizational data
 
@@ -32,28 +32,28 @@ Organizational data is information about employees that your company provides to
 * Other line-of-business (LOB) data stores with business outcome data, such as:
   * Performance review data from specific work groups
   * Employee engagement scores captured by HR outside of HR information systems
-  * Sales, or other quota attainment data that provide additional views into performance
+  * Sales or other quota attainment data that provide additional views into performance
   * Employee survey data
 
-Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports and manager. This data is supplied to Workplace Analytics at the individual level, meaning these attributes are used to give context to each person that makes up the data set.
+Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to Workplace Analytics at the individual level, meaning these attributes are used to give context to each person that makes up the data set.
 
 ### Internal teams required to supply Workplace Analytics with organizational data
 
-* The team that manages your organization’s HR information system needs to provide you a data export of HR attributes for individual employees.
+* The team that manages your organization's HR information system needs to provide you a data export of HR attributes for individual employees.
 * The line-of-business owners who have data that your analysts want to use.
 
 ## How often to upload
 
-You can update organizational data as frequently as you like, but it will be refreshed upon the latest update of email and calendar data. Since email and calendar data is updated once a month, it may make sense to provide updates for this data on a similar cadence.
+You can update organizational data as frequently as you like, but it will be refreshed upon the latest update of email and calendar data. Since email and calendar data is updated once a month, it might make sense to provide updates for this data on a similar cadence.
 
-## Who to include in the data
+## Whom to include in the data
 
 ### HR data
 
 We recommend that you include every person in your company as part of your data upload, even if you only plan to gather collaboration data for a sub-group (target population) within your company.
 
 > [!Important]
-> If you upload data for everyone, you can then analyze who everyone is collaborating with, even if they are outside your target population.
+> If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
 
 For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics only has HR data about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
@@ -213,6 +213,6 @@ The default time zone for Workplace Analytics is Pacific Standard Time (PST). Vi
 
 ## Step four - Upload data
 
-After you create your source .csv file, you can upload it to the Workplace Analytics service. See [Upload organizational data](Upload-organizational-data.md).
+After you create your source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md). 
 
 After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems arise, the Workplace Analytics team will contact your Workplace Analytics administrator.
