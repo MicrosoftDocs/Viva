@@ -105,5 +105,8 @@ Each duration segment in the chart shows the total time a person spent in meetin
 * Employees who are double-booked might not be able to fully focus or commit to either meeting.
 * Consistently conflicting meetings can result in employees feeling stressed and over-burdened. This can especially be important for managers who are overloaded with meetings and may unintentionally delay or de-prioritize their 1:1 meetings.
 * Manager 1:1 meetings with employees are critical for employee development, and if ignored, may lead to employee disengagement and ultimately attrition.
-* Consistently conflicting meeting hours could indicate a cultural issue with potentially significant implications for agility, innovation, engagement, and ultimately performance
+* Consistently conflicting meeting hours could indicate a cultural issue with potentially significant implications for agility, innovation, engagement, and ultimately, performance.
 
+## Related topics
+
+[Workplace Analytics Charts](../use/chart-types.md).

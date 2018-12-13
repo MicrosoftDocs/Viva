@@ -96,10 +96,14 @@ Who employees spend their time with is key to understanding if they are performi
 
 ## Workweek span
 
-Workweek span is the time between the person's first email or meeting and the last email or meeting in a day. (This is counted from Monday to Friday, with a minimum of 4 hours and a maximum of 16 hours per day.) If reported for the week, the metric is a sum for the week. If reported for the month, the metric is the weekly average.
+Workweek span is the time between the person's first email or meeting and the last email or meeting in a day. (This is counted from Monday to Friday, with a minimum of four hours and a maximum of 16 hours per day.) If reported for the week, the metric is a sum for the week. If reported for the month, the metric is the weekly average.
 
 ![Workweek span](../images/wpa/use/05-workweek-span.png)
 
 ### Why it's important
 
 Workweek span captures the span of time an employee spends in work-related activity during the work week. It provides an estimate for how many hours each week employees are engaged in work, whether they are in the office or not.
+
+## Related topics
+
+[Workplace Analytics Charts](../use/chart-types.md).

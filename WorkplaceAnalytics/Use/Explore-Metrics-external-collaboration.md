@@ -31,7 +31,6 @@ External collaboration features various graphs whose titles suggest different wa
 
 ![Explore filters](../images/wpa/use/19-discover-which-groups.png)
 
-
 ## Trend and distribution charts
 
 Most graphs include Trend and Distribution charts also, with some exceptions.
@@ -41,7 +40,7 @@ Most graphs include Trend and Distribution charts also, with some exceptions.
 **Distribution charts** show the statistical distribution of metrics, such as the minimum, maximum, median, upper and lower percentiles for the group.  
 
 Distribution charts can also tell you whether your data is symmetrical, or how tightly your data is grouped, or whether any outliers exist, and if so, what their values are.
-For more information, see [Workplace Analytics Chart types](../use/chart-types.md).
+For more information, see [Workplace Analytics Charts](../use/chart-types.md).
 
 ## Summary header
 
@@ -257,3 +256,7 @@ You can use the **Collaborators** section to group users by Collaborators, which
 
 >[!Note]
 > Currently, you cannot apply the Collaborators filter for the External network size, External network breadth and bubble charts in the Network section. However, it applies to all the other charts on the page.
+
+## Related topics
+
+[Workplace Analytics Charts](../use/chart-types.md).

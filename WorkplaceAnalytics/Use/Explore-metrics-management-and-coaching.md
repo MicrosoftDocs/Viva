@@ -77,3 +77,7 @@ Depending on roles, it can be important for employees to have time to meet with 
 
 * Having opportunities to meet with skip-level managers is important for employees to feel they have good visibility and understanding of how their work fits into larger organizational goals. These meetings also provide good opportunities for employee growth and career development.
 * Employees who don't often meet with their skip-level managers might feel disconnected or disengaged.
+
+## Related topics
+
+[Workplace Analytics Charts](../use/chart-types.md).
