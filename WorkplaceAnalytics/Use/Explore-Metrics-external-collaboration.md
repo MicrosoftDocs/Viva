@@ -51,11 +51,11 @@ The summary header at the top of the external collaboration page provides a summ
 Explanation of numbered sections:  
 1. This section shows a summary of the external collaboration and the level of engagement during the selected period. 
 2. **Measured employees** are those employees who have been assigned a Workplace Analytics license. (Any filters applied in [Page settings](#page-settings) do not change this number.)
-3. The filter group comprises the number of employees who had some collaboration during the date range and who match the filter applied in Page settings.
+3. The filter group comprises the number of employees who had some collaboration during the date range and who match the filter applied in [Page settings](#page-settings).
 4. This number represents the estimated cost of external collaboration with external domains, calculated by using the formula: total external collaboration hours multiplied by the average hourly wage for your company. This is configured by your Workplace Analytics administrator.
 5. This number represents the percentage of measured employees in your company who had one or more external interactions during the selected period.
 6. This number represents external collaboration hours as a percentage of the total collaboration hours spent by the measured employees in your company.
-7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period. This number does not change with any filter applied in Page settings.
+7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period. This number does not change with any filter applied in [Page settings](#page-settings).
 
 ## Top external domains
 
@@ -64,7 +64,7 @@ The following graph shows the top external domains that people in the company sp
 >[!Note] 
 > Personal email domains, for example, hotmail.com or live.com, are included in overall metric calculations but are hidden from the top external domains chart to reduce "noise."  
 
-![External domains](../images/wpa/use/ext-domains-most-time.png)
+![External domains](../images/wpa/use/31-ext-domains-most-time.png)
 
 **Bar chart**
 
@@ -84,7 +84,7 @@ When you select this menu option, each bar represents the total number of distin
 
 **Trend chart**
 
-The "group total" in the trend chart represents the total weekly collaboration hours of all measured employees of your company with all external domains over the selected period in Page settings. You can select additional domains in the bar chart to plot their trend over the selected period.
+The "group total" in the trend chart represents the total weekly collaboration hours of all measured employees of your company with all external domains over the selected period in [Page settings](#page-settings). You can select additional domains in the bar chart to plot their trend over the selected period.
 
 **Distribution chart**
 
@@ -94,11 +94,11 @@ The Distribution chart is not available when the "employees engaged" menu option
 
 ## Top groups collaborating with external domains
 
-The following graph shows which groups in your company spend the most time collaborating with external domains, where the group-by attribute is defined in the Time investors section in Page settings. For time investors, the default group-by attribute is "Organization."
+The following graph shows which groups in your company spend the most time collaborating with external domains, where the group-by attribute is defined in the Time investors section in [Page settings](#page-settings). For time investors, the default group-by attribute is "Organization."
 
 You can pivot the data by using various settings, such as collaboration hours, meeting hours, meeting count, or collaboration cost.
 
-![External group collaboration](../images/wpa/use/groups-most-time-collab-ext-people.png)
+![External group collaboration](../images/wpa/use/32-groups-most-time-collab-ext-people.png)
 
 **Bar chart**
 
@@ -119,9 +119,9 @@ The same definition applies here as for collaboration hours, but in this case, o
 
 *Meeting count*
 
-When you select this menu option, each bar represents the weekly average meeting count that measured employees in that group have organized with external domains, where the weekly average for that group is the sum of meeting count during all selected weeks divided by the number of person-week records in the selected period for that group in Page settings. Bars are sorted on count (descending).
+When you select this menu option, each bar represents the weekly average meeting count that measured employees in that group have organized with external domains, where the weekly average for that group is the sum of meeting count during all selected weeks divided by the number of person-week records in the selected period for that group in [Page settings](#page-settings). Bars are sorted on count (descending).
 
-The Average line on bar charts represents the sum of all meeting counts during all selected weeks divided by the number of person-week records in the selected period in Page settings.
+The Average line on bar charts represents the sum of all meeting counts during all selected weeks divided by the number of person-week records in the selected period in **Page settings**.
 
 *Email count*
 
@@ -147,9 +147,9 @@ Each box in this chart represents the five-number summary of the number of hours
 
 ## Groups with most people collaborating with external domains
 
-The following graph shows which groups in your company have the most people collaborating with external domains where the group-by attribute is defined in the Time investors section in Page settings. By default, the group-by attribute is "Organization" for time investors.  
+The following graph shows which groups in your company have the most people collaborating with external domains where the group-by attribute is defined in the Time investors section in [Page settings](#page-settings). By default, the group-by attribute is "Organization" for time investors.  
 
-![External network size](../images/wpa/use/most-people-collab.png)
+![External network size](../images/wpa/use/33-most-people-collab.png)
 
 **Bar chart**
 
@@ -159,7 +159,7 @@ Each bar in the chart represents the total number of distinct measured employees
 
 **Trend chart**
 
- In the trend chart, the "group total" represents the total count of distinct measured employees across all groups in your company (grouped by the time investor group-by attribute in Page settings) with all external domains over the selected period. You can select additional groups in the bar chart to plot their trends over the selected period.
+ In the trend chart, the "group total" represents the total count of distinct measured employees across all groups in your company (grouped by the time investor group-by attribute in [Page settings](#page-settings)) with all external domains over the selected period. You can select additional groups in the bar chart to plot their trends over the selected period.
 
 ## External network size and external network breadth
 
@@ -169,7 +169,7 @@ External network size and external network breadth show the extent to which pers
 
 External network size refers to the number of people external to the company with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
 
-![External network size](../images/wpa/use/groups-most-ext-people-conn.png)
+![External network size](../images/wpa/use/34-groups-most-ext-people-conn.png)
 
 
 **Bar chart**
@@ -190,11 +190,11 @@ Each box in this chart represents the five-number summary of the external networ
 
 External network breadth refers to the number of distinct external domains with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
 
-![External network breadth](../images/wpa/use/ext-collab-network-breadth.png)
+![External network breadth](../images/wpa/use/35-ext-collab-network-breadth.png)
 
 **Bar chart**
 
-Each bar in the graph represents the total number of distinct external domains with whom measured employees from this group had two meaningful interactions in the selected date range in Page settings.
+Each bar in the graph represents the total number of distinct external domains with whom measured employees from this group had two meaningful interactions in the selected date range in [Page settings](#page-settings).
 
 The Average line on this bar chart represents the total number of distinct external domains with whom the measured employees in the company had at least two meaningful interactions in the selected date range divided by the total number of organizations.
  
@@ -212,7 +212,7 @@ Each box in this chart represents the five-number summary for the external netwo
 
 The graph for External network breadth compared to external network size shows how each group in the company (grouped by the Time investor group-by attribute in Page settings) compares to the company median for External network size and breadth. The size of the bubble in the chart represents the size of the organization.
 
-![External group connections](../images/wpa/use/ext-collab-groups-ext-conn.png)
+![External group connections](../images/wpa/use/36-ext-collab-groups-ext-conn.png)
 
 External network size shows the number of external people that persons in the company have connected with.
 
@@ -228,9 +228,9 @@ In the bubble graph, if the bubble for your organization is found at the top rig
 
 ## Page settings
 
- You can use [Page settings](#page-settings), which is common to all sections of Explore, to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters.
+ You can use **Page settings**, which is common to all sections of Explore, to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters. For more information, see [Chart settings and filters](chart-types.md#chart-settings-and-filters).
 
-![Page settings](../images/wpa/use/ext-collab-page-settings-home.png)
+![Page settings](../images/wpa/use/37-ext-collab-page-settings-home.png)
 
 ### Group by
 
@@ -238,8 +238,7 @@ You can use the Group by drop-down menu to determine how you want to group users
 
 The Group by menu is divided into two sections for two separate groups: **Time investors** and **Collaborators**. You can apply Group by menu settings to each of these groups independently.
 
-![Group by menu](../images/wpa/use/ext-collab-group-by.png)
-
+![Group by menu](../images/wpa/use/38-ext-collab-group-by.png) 
 
 ### Time investors
 
@@ -247,7 +246,7 @@ The **Time investors** section includes various settings for grouping Time inves
 
 By default, Time investors are grouped by organization, but you can also group them by domain, engagement, or other settings to retrieve the data you want. If you group by Time investors, the settings you select apply only to Time investors.  
 
-![Time investors group](../images/wpa/use/ext-collab-page-settings-time-investors.png)
+![Time investors group](../images/wpa/use/39-ext-collab-page-settings-time-investors-dec.png)
 
 ### Collaborators
 You can use the **Collaborators** section to group users by Collaborators, which refers to any person with whom Time investors have had an interaction. If you group by Collaborators, the settings you select only apply to Collaborators. Currently, the Collaborators section supports grouping by domain only.
@@ -259,4 +258,4 @@ You can use the **Collaborators** section to group users by Collaborators, which
 
 ## Related topics
 
-[Workplace Analytics Charts](../use/chart-types.md).
+[Workplace Analytics Charts](../use/chart-types.md)

@@ -72,5 +72,5 @@ Network breadth can indicate:
 
 ## Related topics
 
-[Workplace Analytics Charts](../use/chart-types.md).
+[Workplace Analytics Charts](../use/chart-types.md)
 

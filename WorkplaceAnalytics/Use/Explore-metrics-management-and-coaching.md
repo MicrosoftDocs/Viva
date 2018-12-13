@@ -80,4 +80,4 @@ Depending on roles, it can be important for employees to have time to meet with 
 
 ## Related topics
 
-[Workplace Analytics Charts](../use/chart-types.md).
+[Workplace Analytics Charts](../use/chart-types.md)

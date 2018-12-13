@@ -109,4 +109,4 @@ Each duration segment in the chart shows the total time a person spent in meetin
 
 ## Related topics
 
-[Workplace Analytics Charts](../use/chart-types.md).
+[Workplace Analytics Charts](../use/chart-types.md)
