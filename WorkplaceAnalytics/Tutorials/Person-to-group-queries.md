@@ -54,7 +54,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
    For more information about these metrics, see [Person-to-group metrics](../use/metric-definitions.md#person-to-group-metrics).
 
-       ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics.png)
+      ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics.png)
 
     In the following sections, you can group both the time investors and the collaborators. For example, you could analyze how senior leaders allocated time across different organizations by setting the time investors' group to “level” and the collaborators' group to “organization.”
 8. In the **Time investors** section, answer the question _Do you want to limit the analysis to only certain time investors?_ to optionally apply filters to exclude specific time investors from the query. For example, if you specify **FunctionType** > Equals > **Account Management**, the query results will only include time investors in Account Management.

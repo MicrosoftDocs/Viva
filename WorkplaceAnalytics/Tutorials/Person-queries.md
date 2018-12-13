@@ -123,11 +123,11 @@ You can create a person query to investigate if long meetings are a significant 
 10. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
 11. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
 
-     > [!Notes]
-     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
-     > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
-     > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
-     > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
+    > [!Notes]
+    > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
+    > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
+    > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
+    > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
 
 12. Select **Run** at the top right to run the query.
 13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
