@@ -69,7 +69,7 @@
                   href: ~/Use/Explore-Metrics-internal-networks.md
                 - name: External collaboration
                   href: ~/Use/Explore-Metrics-external-collaboration.md 
-                - name: Chart types
+                - name: Charts
                   href: ~/Use/Chart-Types.md
             - name: Queries
               href: ~/tutorials/Query-basics.md 
