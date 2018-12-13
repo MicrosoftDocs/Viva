@@ -6,7 +6,7 @@ title: Meeting queries in Workplace Analytics
 description: When to use a meeting query and the type of data available for analysis in Workplace Analytics.  
 author: madehmer
 ms.author: madehmer
-ms.date: 11/16/2018
+ms.date: 12/3/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -35,8 +35,6 @@ Use a person query when you want to understand the relationship between a person
 Setting up a meeting query is simple. Select whether you want the metrics for each meeting summarized by day, week, or month, and the time period you’d like to analyze.
 
 If you want to exclude meetings from the calculations by using custom criteria, you can select your custom rule set or simply use the default.
-
- ![Create meeting query](../Images/WpA/Tutorials/create-meeting-query1.png)
 
 By running this query with no exclusions, you will get an output file that can help you determine the right criteria to separate work-related activities from other calendar items.
 
@@ -83,17 +81,19 @@ Continuing the example from [Person queries](../Tutorials/meeting-queries.md), t
 
 ### To create a custom meeting query for long recurring meetings
 
-1. On the Queries page, select **Meeting**.
+1. In Workplace Analytics, select **Analyze** > **Queries** > **Meeting**.
 2. Select and change **Enter query name here** to **Long recurring Ops meetings**.
-3. Enter the **Date range** you want, and then for **Meeting exclusions**, select the exclusion rule set that you want.
-4. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > equals > **Operations**.
-5. To add a custom filter to include only meetings that are two hours or longer, select the plus sign to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
-6. To add a custom filter to include only meetings that are recurring, select the plus sign to add another filter, then select **Meeting** > **IsRecurring** > equals > **True**.
-7. To add a metric for the number of attendees, in Metrics, select **Add metric**.
-8. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
-9. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
-10. Select **Run** at the top right to run the query.
-11. On the Results page, you can see the query and its status. When the query results are complete, you can download them as a .csv file to continue your analysis.
+3. For **Group by**, select **week**.
+4. Enter the **Date range** you want.
+5. For **Meeting exclusions**, select an exclusion rule for this query.
+6. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > equals > **Operations**.
+7. To add a custom filter to include only meetings that are two hours or longer, select the plus sign to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
+8. To add a custom filter to include only meetings that are recurring, select the plus sign to add another filter, then select **Meeting** > **IsRecurring** > equals > **True**.
+9. To add a metric for the number of attendees, in Metrics, select **Add metric**.
+10. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
+11. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
+12. Select **Run** at the top right to run the query.
+13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ### Meeting query results
 

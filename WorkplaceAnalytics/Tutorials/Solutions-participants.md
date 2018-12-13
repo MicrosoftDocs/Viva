@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Teamwork solution (participants)
-description: A brief description of what partipants in a Workplace Analytics program (MyAnalytics users) experience during the program. 
+title: Workplace Analytics Teamwork solution participants
+description: A brief description of what participants in a Workplace Analytics program (MyAnalytics users) experience during the program. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/27/2018
+ms.date: 12/3/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Teamwork solution: The experience of program participants 
 
-* **Role** - participant in a habit-change program, an information worker who is using MyAnalytics
+**Role** - participant in a habit-change program, an information worker who is using MyAnalytics
 
 While analysts and program managers create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a program created. They have the opportunity to change workplace habits for the better. 
 
