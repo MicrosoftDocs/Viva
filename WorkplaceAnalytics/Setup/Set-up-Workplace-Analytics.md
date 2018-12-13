@@ -14,7 +14,7 @@ ms.prod: Workplace Analytics
 
 # Set up Workplace Analytics
 
-This article describes the steps that are required for setting up and configuring Workplace Analytics. While the Office 365 admin and the Workplace Analytics admin perform most of these steps, others in your organization help make decisions that relate to setup. For more information, see [Determine key personas and roles for implementation](Determine-key-personas.md). 
+This article describes the steps that are required to set up and configure Workplace Analytics. Although the Office 365 admin and the Workplace Analytics admin perform most of these steps, others in your organization help make decisions that relate to setup. For more information, see [Determine key personas and roles for implementation](Determine-key-personas.md). 
 
 ## Setup steps 
 
@@ -22,12 +22,12 @@ This article describes the steps that are required for setting up and configurin
   * **Workplace Analytics admin**. The Workplace Analytics admin does most of this work. In these steps, that person is referred to as "you."
   * **Office 365 admin**. In one step, you verify that the Office 365 administrator has assigned licenses and roles.  
   * **Workplace Analytics**. In a few steps, Workplace Analytics processes and validates data. 
-* **Task** - Complete steps to set up and configure Workplace Analytics  
+* **Task** - Complete steps to set up and configure Workplace Analytics.  
 * **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time.  
 
 **To set up Workplace Analytics**
 
-1.	**Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page**. If prompted, enter your organization's credentials. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, verifying the assignment of licenses and roles:
+1.	**Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
    
       ![The Home page guides you through setup](../images/wpa/setup/01-home-start.png)
   
@@ -35,7 +35,7 @@ This article describes the steps that are required for setting up and configurin
 
 3.	**System settings**. Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system settings](configure-wpa-settings.md#system-settings). 
 
-4.	**Privacy settings**. Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](configure-wpa-settings.md#privacy-settings). After you've finished making both the system settings and the privacy settings, select **Next**. 
+4.	**Privacy settings**. Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](../Use/settings.md#privacy-settings). After you've finished making both the system settings and the privacy settings, select **Next**. 
 
 5.	**Collaboration data**. Workplace Analytics extracts collaboration data (data about email usage, meetings, chats, and calls) from Office 365, and then processes it. This processing can last as long as a week. After it finishes, Workplace Analytics displays a "completed processing" status on the **Setup** page. 
 

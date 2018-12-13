@@ -18,9 +18,9 @@ ms.prod: wpa
 * **Task** - Determine population in scope for analysis and assign licenses via Office 365
 * **Outcome** - Office 365 licenses are assigned for the population that will be analyzed
 
-The Workplace Analytics sponsor works with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics. Employees in your organization who are not licensed for analysis but might have meeting, email, or Skype for Business Online collaboration with measured employees are called _other internal collaborators_.
+The Workplace Analytics sponsor works with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics.
 
-Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
+Employees in your organization who are not licensed for analysis but might have meeting, email, or Skype for Business Online collaboration with measured employees are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
 After you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population.  
 
@@ -38,7 +38,7 @@ Watch this video to learn how Workplace Analytics licenses work and how the Offi
 
 ### License assignment options
 
-Workplace Analytics licenses are assigned just like any other Microsoft 365 product license. You can assign licenses the following ways:​
+Workplace Analytics licenses are assigned just like any other Microsoft 365 product license. You can assign licenses in the following ways:​
 
 * [Group-based licensing](../Use/Group-Based-Licensing.md)
 * [Office 365 Admin Center​](https://aka.ms/Instructions_AssignLicenseUsingO365AdminCenter)
