@@ -111,7 +111,9 @@
                 - name: Concepts
                   href: ~/tutorials/Solutions-conceptual.md             
     - name: Frequently asked questions
-      href: ~/Use/faq.md
+      href: ~/use/faq.md
+    - name: Notifications
+      href: ~/use/wpa-notifications.md      
     - name: Reference
       items:
         - name: Glossary
