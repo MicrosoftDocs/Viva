@@ -109,9 +109,11 @@
                 - name: Participants
                   href: ~/tutorials/Solutions-participants.md                                       
                 - name: Concepts
-                  href: ~/tutorials/Solutions-conceptual.md             
+                  href: ~/tutorials/Solutions-conceptual.md
+    - name: Notifications
+      href: ~/use/wpa-notifications.md     
     - name: Frequently asked questions
-      href: ~/Use/faq.md
+      href: ~/use/faq.md       
     - name: Reference
       items:
         - name: Glossary
