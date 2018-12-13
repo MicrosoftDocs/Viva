@@ -4,18 +4,19 @@
 
 title: Workplace Analytics Data Sources
 description: This article gives an overview of the Data sources feature in Workplace Analytics. 
-author: buntus
+author: paul9955
 ms.author: rodonahu
-ms.date: 01/19/2018
+ms.date: 12/03/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Data sources
 
-Data sources contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
+**Data sources** contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
 
-![Data sources](../images/WpA/Use/Data-sources.png)
+![Data sources](../images/WpA/Use/data-sources.png)
 
 [!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
 
@@ -28,7 +29,7 @@ The Data sources page consists of three sections:
 Using Data sources metrics, Workplace Analytics administrators and data analysts can:
 
 * Get a high-level view of the data that is available for analysis.
-* Verify that the organizational data they need for their specific analysis are available, and work with internal suppliers of the data (HR information system administrators, line of business (LOB) system administrators, or data analysts) to verify the necessary data has been loaded as expected.
+* Verify that the organizational data they need for their specific analysis is available, and work with internal suppliers of the data (HR information system administrators, line of business [LOB] system administrators, and data analysts) to verify the necessary data has been loaded as expected.
 * Verify that the data is of sufficient quality to analyze the business problem.
 
 ## Data sources summary
@@ -42,7 +43,7 @@ The Data sources summary provides the following information about your data:
 
 * The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly.
 
-![Data sources summary](../images//WpA/Use/Data-sources-summary.png)
+![Data sources summary](../images/wpa/Use/Data-sources-summary.png)
 
 For more information about what data is needed to compute metrics, see these topics:
 
@@ -57,7 +58,7 @@ Office 365 data summary provides a view that you can use to evaluate meeting and
 
 Analysts can use these views to look for time periods that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-![Data sources summary](../images//WpA/Use/o365-data.png)
+![Data sources summary](../images/wpa/Use/o365-data.png)
 
 These are some examples of scenarios where you might encounter inconsistency in email or meeting volume:
 
@@ -71,7 +72,7 @@ These are some examples of scenarios where you might encounter inconsistency in 
 
 Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute). 
 
-![Data sources summary](../images//WpA/Use/organizational-data-summary.png)
+![Data sources summary](../images/wpa/Use/organizational-data-summary.png)
 
 The **Last refreshed** date shows when data was last processed.
 

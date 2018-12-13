@@ -15,7 +15,7 @@ ms.prod: wpa
 
 [**Analyze**](../use/analyze-intro.md) provides data analysts with all the tools they need to explore collaboration trends and create custom queries for more specific data analysis.
   
-**Explore** provides the following set of analytical dashboards as a starting point to gain quick insights into your organization's data and to identify data you want to investigate further.
+[**Explore**](../use/explore-intro.md)  provides the following set of analytical dashboards as a starting point to gain quick insights into your organization's data and to identify data you want to investigate further.
   
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) gives a summary of day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
