@@ -29,7 +29,7 @@ To open the **External collaboration** page:
 
 External collaboration features various graphs whose titles suggest different ways to analyze your company's external collaboration activity. Each graph enables you to manipulate data based on menu settings you select and apply to view data in different ways, such as collaboration hours or collaboration cost.
 
-![Explore filters](../images/wpa/use/groups-most-time-collab-ext-people.png)
+![Explore filters](../images/wpa/use/19-discover-which-groups.png)
 
 
 ## Trend and distribution charts

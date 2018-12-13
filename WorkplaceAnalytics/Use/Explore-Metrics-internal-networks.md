@@ -32,7 +32,7 @@ To open the **Internal networks** page:
 
 The **Network diversity** bubble graph shows how each organization in the company compares to the company median for network size and breadth.
 
-![Network diversity](../images/wpa/use/network-diversity-explore.png)
+![Network diversity](../images/wpa/use/16-network-diversity.png)
 
 * The quadrants of the chart are delineated at the median for both network size and network breadth.
 * Bubbles represent organizations; the size of each bubble indicates the number of distinct measured employees in the corresponding organization.
@@ -42,7 +42,7 @@ The **Network diversity** bubble graph shows how each organization in the compan
 
 **Internal network size** is the average number of people with whom a person has at least two meaningful interactions (a meeting or email between five or fewer people). Network connections are measured on a rolling four-week basis.
 
-![Internal network size](../images/wpa/use/internal-network-size-explore.png)
+![Internal network size](../images/wpa/use/17-internal-network-size.png)
 
 ### Why it's important
 
@@ -59,7 +59,7 @@ Network size can indicate:
 
 Internal network breadth is the average number of organizations an employee connected with (based on meaningful interactions) during the period selected.
 
-![Internal network breadth](../images/wpa/use/internal-network-breadth.png)
+![Internal network breadth](../images/wpa/use/18-internal-network-breadth.png)
 
 ### Why it's important
 

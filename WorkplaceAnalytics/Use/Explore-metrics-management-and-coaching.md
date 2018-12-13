@@ -27,7 +27,7 @@ To open the **Management and coaching** page:
 
 The **Time with manager** histogram compares how much time employees spend in meetings with their manager on average each week.
 
-![Time with manager](../images/wpa/use/time-with-manager-explore-metrics.png)
+![Time with manager](../images/wpa/use/12-time-with-manager.png)
 
 ### Why it’s important
 
@@ -42,7 +42,7 @@ Seeing the distribution of time employees spend with managers enables you to ide
 
 **1:1 meeting hours** shows the time employees spend with their direct manager where they are the only two people in the meeting.
 
-![1:1 meeting hours](../images/wpa/use/1-1-meeting-hours-explore-data.png)
+![1:1 meeting hours](../images/wpa/use/13-1-1-meeting-hours.png)
 
 Depending on roles, it can be important for employees to have time with their manager on a regular basis to encourage open communication, feedback cycles, and opportunities for growth. Data can reveal inconsistencies in how managers collaborate with their teams and whether leaders and managers are available to their employees.
 
@@ -56,7 +56,7 @@ Depending on roles, it can be important for employees to have time with their ma
 
 **Meeting hours with direct manager present** shows the time employees spend in meetings that their manager is also attending.
 
-![Meeting hours with direct manager present](../images/wpa/use/meeting-with-direct-manager-explore-metrics.png)
+![Meeting hours with direct manager present](../images/wpa/use/14-meeting-hours-with-direct-mgr.png)
 
 ### Why it’s important
 
@@ -69,7 +69,7 @@ The level of day-to-day collaboration between managers and their employees can i
 
 **Skip-level meeting hours** shows the time that employees spend in meetings where their manager's manager is present.
 
-![Skip-level meeting hours](../images/wpa/use/skip-level-meeting-hours-explore-metrics.png)
+![Skip-level meeting hours](../images/wpa/use/15-skip-level-meeting-hours.png)
 
 Depending on roles, it can be important for employees to have time to meet with their skip-level manager to encourage transparency, feedback, and opportunities for growth. Data can reveal if teams have little visibility to leaders in the company, or conversely, consistently collaborate with upper-level managers.
 

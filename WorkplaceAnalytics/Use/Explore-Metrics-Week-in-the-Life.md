@@ -29,7 +29,7 @@ All collaboration hours shows the total number of hours that a person spent in m
 
 **Meeting hours** shows the number of hours the person spent in meetings with at least one other person. **Email hours** shows the number of hours the person spent sending and reading email.
 
-![Week in the life collaboration hours](../images/wpa/use/all-collaboration-hours-explore.png)
+![Week in the life collaboration hours](../images/wpa/use/01-all-collab-hours.png)
 
 ### Why it's important
 Meeting and email hours are the most basic components of collaboration. They help quantify the collaboration volume and patterns within a company, potentially highlighting an under or overly collaborative culture.
@@ -51,7 +51,7 @@ Workplace Analytics helps analysts identify high and low collaboration and its c
 ## After-hours collaboration hours
 After-hours meeting and email hours are the number of hours that a person spent in meetings and sending email outside of business hours. (Workplace Analytics uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
 
-![After-hours collaboration hours](../images/wpa/use/after-hours-collaboration-hours-explore.png)
+![After-hours collaboration hours](../images/wpa/use/02-after-hours-collab-hours.png)
 
 ### Why it's important
 
@@ -68,7 +68,7 @@ Different roles require different schedules, but monitoring after-hours activity
 
 **External collaboration hours** are the number of hours a person spent in meetings and emails with at least one person external to the organization.
 
-![Internal only and external collaboration hours](../images/wpa/use/internal-and-external-collaboration-hours-explore.png)
+![Internal only and external collaboration hours](../images/wpa/use/03-internal-external-collab-hours.png)
 
 ### Why it's important
 
@@ -84,7 +84,7 @@ Who employees spend their time with is key to understanding if they are performi
 
 **Fragmented hours** are non-scheduled business time periods that last less than two hours.
 
-![Focus hours and fragmented hours](../images/wpa/use/focus-hours-and-fragmented-hours-explore.png)
+![Focus hours and fragmented hours](../images/wpa/use/04-focus-fragmented-hours.png)
 
 ### Why it's important
 
@@ -98,7 +98,7 @@ Who employees spend their time with is key to understanding if they are performi
 
 Workweek span is the time between the person's first email or meeting and the last email or meeting in a day. (This is counted from Monday to Friday, with a minimum of 4 hours and a maximum of 16 hours per day.) If reported for the week, the metric is a sum for the week. If reported for the month, the metric is the weekly average.
 
-![Workweek span](../images/wpa/use/workweek-span-explore.png)
+![Workweek span](../images/wpa/use/05-workweek-span.png)
 
 ### Why it's important
 

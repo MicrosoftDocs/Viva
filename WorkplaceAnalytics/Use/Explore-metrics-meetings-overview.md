@@ -30,7 +30,7 @@ The low-quality meeting hours overview summarizes the number of low-quality meet
 
 **Low-quality meetings hours** are the number of hours a person spent in meetings where they are either redundant, scheduled to be in conflicting meetings, or multitasking. If a person meets any of these conditions during a meeting, the meeting is counted as low-quality.
 
-![Low-quality meeting hours](../images/wpa/use/low-quality-meeting-hours-explore-metrics.png)
+![Low-quality meeting hours](../images/wpa/use/06-low-quality-meeting-hours.png)
 
 ### Why it’s important
 
@@ -48,7 +48,7 @@ If no hourly rate is assigned to a meeting participant, a default hourly rate of
 
 Each duration segment in the chart shows the time a person spent in meetings with the specified number of attendees.
 
-![Meeting numbers by number of attendees](../images/wpa/use/meeting-hours-by-attendees-explore-metrics.png)
+![Meeting numbers by number of attendees](../images/wpa/use/07-meeting-hours-by-number-of-attendees.png)
 
 ### Why it’s important
 
@@ -59,7 +59,7 @@ Each duration segment in the chart shows the time a person spent in meetings wit
 ## Meetings hours by duration
 Each duration segment in the chart shows the total time a person spent in meetings of the specified number of hours.
 
-![Meetings hours by duration](../images/wpa/use/meeting-hours-by-duration-explore-data.png)
+![Meetings hours by duration](../images/wpa/use/08-meeting-hours-by-duration.png)
 
 ### Why it’s important
 
@@ -71,7 +71,7 @@ Each duration segment in the chart shows the total time a person spent in meetin
 
 **Redundant meeting hours** is the time a person spent in meetings where at least three distinct levels in the person's organization attended.
 
-![Redundant meeting hours](../images/wpa/use/redundant-meeting-hours-explore.png)
+![Redundant meeting hours](../images/wpa/use/09-redundant-meeting-hours.png)
 
 ### Why it’s important
 
@@ -85,7 +85,7 @@ Each duration segment in the chart shows the total time a person spent in meetin
 
 **Multitasking meeting hours** shows the number of meeting hours where the person sent two or more emails per meeting hour, or two or more emails per meeting for meetings less than an hour.
 
-![Multitasking meeting hours](../images/wpa/use/multitasking-meeting-hours-explore.png)
+![Multitasking meeting hours](../images/wpa/use/10-multitasking-meeting-hours.png)
 
 ### Why it’s important
 
@@ -98,7 +98,7 @@ Each duration segment in the chart shows the total time a person spent in meetin
 
 **Conflicting meeting hours** shows the number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meetings, which includes those with accepted, tentative, and no responses to the invites).
 
-![Conflicting meeting hours](../images/wpa/use/conflicting-meeting-hours-explore.png)
+![Conflicting meeting hours](../images/wpa/use/11-conflicting-meeting-hours.png)
 
 ### Why it’s important
 
