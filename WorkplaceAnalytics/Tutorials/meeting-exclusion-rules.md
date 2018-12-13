@@ -110,7 +110,7 @@ Now that you've created a framework for your new rule, you add -- and optionally
 
 **Step 4: Exclude long meetings.** To exclude meetings by duration, under **Exclude meetings where,** specify the maximum length of meetings that you want your analysis to include. The default value is 8 hours. 
 
-   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion.  You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
+   **(Optional)** Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion.  You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
 
    >[!Note] 
    > If you change the default filter value after you designate exceptions, the exceptions will be lost. 
@@ -168,7 +168,7 @@ By default, the dashboards of the **Explore** page use the default meeting-exclu
 
    ![Select an exclusion rule](../images/wpa/tutorials/19-choose-a-rule.png)
  
-4. Select **Set preferred**.
+2. Select **Set preferred**.
 
   >[!Note] 
   >If you select a new rule, the selection does not take effect until after the next time that your organization's Office 365 data is refreshed. The reason for this delay is that meeting-exclusion rules are applied to data before it is processed; after the data is uploaded and processed, rules can no longer be applied to it. Office 365 data is refreshed weekly, so it could take up to two weeks to see your rule in place, depending on the timing of your rule selection. 
@@ -185,9 +185,9 @@ HOW CAN A RULE BE SET AS PREFERRED ON THE MEETING EXCLUSIONS PAGE? -->
  
 **To apply a rule to a query**
 
-1.  In Workplace Analytics, open the **Queries** page.
+1. In Workplace Analytics, open the **Queries** page.
 
-2.  Select the rule you want from the Meeting exclusions list box, as shown here:
+2. Select the rule you want from the Meeting exclusions list box, as shown here:
 
    ![Apply an exclusion to a query](../images/wpa/tutorials/20-apply-to-query.png)
 

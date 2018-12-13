@@ -6,7 +6,7 @@ title: Workplace Analytics Teamwork solution walkthrough
 description: A walkthrough of the steps required to create a program by using the Workplace Analytics Teamwork solution. 
 author: paul9955
 ms.author: madehmer
-ms.date: 12/3/2018
+ms.date: 12/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -44,7 +44,7 @@ Both analysts and Program Managers can create groups. You can create a group on 
 
 * **Analysts** can create a group either by using charts to select groups or by manually uploading a group (in a .csv file):
 
-   * **Charts**: To use charts to select a group, on the Solutions > Identify page, you choose an area for behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. For a step-by-step description, see [Identify a group](#identify-a-group). 
+   * **Charts**: To use charts to select a group, on the Solutions > Identify page, you choose an area for behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. For a step-by-step description, see [Identify a group](#identify-a-group).
    * **File upload**: To use an upload, you need to create a .csv file and then upload it. For a step-by-step description, see [Upload a file to create a group](#upload-a-file-to-create-a-group). For more information about the file you upload, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file).
 
 * **Program Managers** can create groups only by manually uploading them. Use this method if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people.
@@ -91,21 +91,17 @@ If you don't yet have a list of people (a .csv file) that you want to register f
  
 5. In the right column, under Filter summary, select **Edit**.
 6. In the **Edit filters** panel, select **Add filter**. The following are example steps for adding a filter:
-   
+
    a. In the left box, select **Organization**.
-   
    b. In the right box, select a predefined organization, such as **Operations**.
-
       -- or --
-
       In the right box, start typing the name of a manager and then select the name of the manager's team.
-   
    c. Optionally, you can add another organization filter. For example, select **Marketing** in the right box. If you do this, the Marketing filter selection is shown next to your first filter selection (such as Operations) in the selection boxes.
 
 7. The results of this filtering are shown in a chart. Before Workplace Analytics displays the chart, you can optionally group the people whose behavior you are analyzing. You can also use any available HR attributes to group them by. To do this, in the Chart, select **Group by** and then select (for example) **FunctionType**.
-8. To apply the filters and other changes that you've made, select **Apply**:
+8. To apply the filters and other changes that you've made, select **Apply**.
 
-   ![Chart display](../Images/WpA/Tutorials/solutions-task-03.png)
+    ![Chart display](../Images/WpA/Tutorials/solutions-task-03.png)
 
    Workplace Analytics shows a chart of the data about the people that you selected by using filters. It groups these people by the Group by setting you chose -- in this case, FunctionType.  
 
@@ -116,13 +112,13 @@ If you don't yet have a list of people (a .csv file) that you want to register f
    The chart has vertical bars that represent groups of people in the following ways:
 
    * Groups that reach or exceed the minimum group size are colored blue-green. These groups are large enough for you to analyze.
-   * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutions-conceptual.md#minimum-group-size).) For example, if the organization you are analyzing has a minimum group size of five, you can change it to a level that you consider more relevant for your organization. However, you cannot set the group size lower than five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown as grayed out: 
+   * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutions-conceptual.md#minimum-group-size).) For example, if the organization you are analyzing has a minimum group size of five, you can change it to a level that you consider more relevant for your organization. However, you cannot set the group size lower than five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown as grayed out:
 
        ![Groups below the minimum size](../Images/WpA/Tutorials/solutions-task-04.png)
   
       See also [Available and selected employees](solutions-conceptual.md#available-and-selected-employees).
 
-10. Select one or more groups for analysis. You can also select grayed-out groups. If you select enough of them so that their combined membership exceeds the minimum group size, you can use them in your analysis. 
+10. Select one or more groups for analysis. You can also select grayed-out groups. If you select enough of them so that their combined membership exceeds the minimum group size, you can use them in your analysis.
 
     To select multiple groups, just click or tap them. To unselect a selected group, click or tap it again. For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](solutions-conceptual.md#persistence-of-group-selections).
 
