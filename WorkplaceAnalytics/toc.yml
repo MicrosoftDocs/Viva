@@ -140,9 +140,10 @@
     - name: Why use MyAnalytics?
       href: MyAnalytics/Overview/Better-work-habits.md    
     - name: Frequently asked questions
-      href: MyAnalytics/Overview/MyA-faq.md        
+      href: MyAnalytics/Overview/MyA-faq.md
     - name: MyAnalytics for admins
-      items:     
+      href: MyAnalytics/overview/mya-for-admins.md
+      items:      
       - name: MyAnalytics Setup
         href: MyAnalytics/Setup/Mya-setup-checklist.md        
       - name: MyAnalytics privacy guide for admins
