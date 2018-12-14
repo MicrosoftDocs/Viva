@@ -57,12 +57,11 @@ https://review.docs.microsoft.com/en-us/Workplace-Analytics/use/settings?branch=
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 This video can also be found here: 
-[Privacy in Workplace Analytics](
+[Upload organizational data](
 https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/upload-organizational-data-1st?branch=PAS-WpAVideos#video-upload-organizational-data)
 
 and here:
-This video can also be found here: 
-[Privacy in Workplace Analytics](
+[Upload organizational data](
 https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/upload-organizational-data?branch=PAS-WpAVideos#video-upload-organizational-data)
 
 ## Solution overview
