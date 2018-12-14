@@ -72,3 +72,11 @@ This video can also be found here:
 [Solution overview](
 https://review.docs.microsoft.com/en-us/workplace-analytics/tutorials/solutions-intro?branch=PAS-WpAVideos#video-solution-overview)
 
+## MyAnalytics for admins
+
+<iframe src="https://player.vimeo.com/video/304879652" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+This video can also be found here: 
+[Introduction for admins](
+https://review.docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/mya-for-admins?branch=PAS-AddMyAVideo)
+
