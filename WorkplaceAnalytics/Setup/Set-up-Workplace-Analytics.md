@@ -25,6 +25,10 @@ This article describes the steps that are required to set up and configure Workp
 * **Task** - Complete steps to set up and configure Workplace Analytics.  
 * **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time.  
 
+### Video: Overview for admins
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
 **To set up Workplace Analytics**
 
 1.	**Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
