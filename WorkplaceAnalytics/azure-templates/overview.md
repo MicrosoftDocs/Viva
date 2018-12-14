@@ -7,7 +7,7 @@ title: Workplace Analytics Azure Templates overview
 description: About Workplace Analytics Azure Templates and how to use it for advanced data analysis
 author: madehmer
 ms.author: madehmer
-ms.date: 11/26/2018
+ms.date: 12/14/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -42,6 +42,8 @@ The following are the Azure components that Workplace Analytics Azure Templates 
 |[Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/) |In-memory model used to compute metrics |
 |[Azure Web application](https://docs.microsoft.com/azure/app-service/) |Used for configuration and user experiences related to analytics |
 
-## Related topic
+## Related topics
 
-[Deploy and configure the Workplace Analytics Azure Templates](./deploy-configure.md)
+* [Deploy and configure the Workplace Analytics Azure Templates](./deploy-configure.md)
+* [Organization Network Analysis Azure Template](./organization-network-analysis.md)
+* [Topic Analysis Azure Template](./topic-analysis.md)

@@ -17,6 +17,8 @@ ms.prod: wpa
 Workplace Analytics Azure Templates includes the Topic Analysis template 
 
 
-## Related topic
+## Related topics
 
-[Deploy and configure the Workplace Analytics Azure Templates](./deploy-configure.md)
+* [Workplace Analytics Azure Templates overview](./overview.md)
+* [Deploy and configure the Workplace Analytics Azure Templates](./deploy-configure.md)
+* [Topic Analysis Azure Template](./topic-analysis.md)

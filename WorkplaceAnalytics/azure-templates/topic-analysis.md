@@ -22,7 +22,8 @@ You can use this template to view and analyze meeting metrics with the following
 * **Meetings Summary**: Summarizes the key data points about the meetings in the query, including: the total count of meetings, the count of meetings based on search criteria, the average duration hours, and the average attendees. It also provides a chart view of the data that you can change by selecting different meeting metrics to show in the chart, such as meeting hours, emails sent, or conflicting meetings for attendees.
 * **Meetings Detail**: Shows the meeting metric details in a table, which is based on the search criteria for the query and the organizational data imported from Workplace Analytics. You can sort the table view by the Meeting Start Date. You can also download the meeting details as a .csv file for further analysis in another tool, such as Excel or Power BI.
 
+## Related topics
 
-## Related topic
-
-[Deploy and configure the Workplace Analytics Azure Templates](./deploy-configure.md)
+* [Workplace Analytics Azure Templates overview](./overview.md)
+* [Deploy and configure the Workplace Analytics Azure Templates](./deploy-configure.md)
+* [Organization Network Analysis Azure Template](./organization-network-analysis.md)
