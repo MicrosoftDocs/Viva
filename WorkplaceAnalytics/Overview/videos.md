@@ -56,3 +56,11 @@ https://review.docs.microsoft.com/en-us/Workplace-Analytics/use/settings?branch=
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
+## Solution overview
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/287139611" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+This video can also be found here: 
+[Solution overview](
+https://review.docs.microsoft.com/en-us/workplace-analytics/tutorials/solutions-intro?branch=PAS-WpAVideos#video-solution-overview)
+
