@@ -34,13 +34,22 @@ Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in 
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
+This video can also be found here: 
+https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/assign-licenses-to-population?branch=PAS-WpAVideos
+
 ## Assign roles
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
+This video can also be found here: 
+https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/assign-roles-to-wpa-admins?branch=PAS-WpAVideos
+
 ## Privacy in Workplace Analytics
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+This video can also be found here: 
+https://review.docs.microsoft.com/en-us/Workplace-Analytics/use/settings?branch=PAS-WpAVideos#video-privacy
 
 ## Upload organizational data
 
