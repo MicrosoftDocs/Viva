@@ -107,6 +107,8 @@ After adding users, you need to process the Workplace Analytics data that you wa
    If these .csv files are not already in the **rawdata** folder, then you need to use the Azure Storage Explorer (or another comparable tool) to connect to the Azure storage group that currently stores your Workplace Analytics data set, and select and copy them into that folder.
 3. In the Workplace Analytics Azure Templates app, select **Admin** > **Scenario Execution**, select the **rawdata** folder, and then select **Process data**.
 
+   ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
+
 ## Get support
 
 * For help with Workplace Analytics Azure Templates, email your questions or feedback to wpa-tops@microsoft.com.
