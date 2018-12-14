@@ -22,3 +22,27 @@ A look at Workplace Analytics and how it works, including how you can correlate 
 ## Macy's uses MyAnalytics to support their Time is Money program
 Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in their organization
 > [!VIDEO https://www.youtube.com/embed/eZeTkK65RQM]
+
+
+# Onboarding videos
+
+## Overview for admins
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+## Assign licenses
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+## Assign roles
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+## Privacy in Workplace Analytics
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+## Upload organizational data
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
