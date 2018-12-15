@@ -18,9 +18,43 @@ Workplace Analytics Azure Templates includes the Topic Analysis template that en
 
 You can use this template to view and analyze meeting metrics with the following features:
 
-* **Word Cloud**: After you select a dataset and run a query with an initial keyword, the Word Cloud will show keywords that are relevant or close to the initial keyword. You can then select another keyword in the cloud to add to your list and run the query again. Each time, the cloud will adjust based on the keywords listed. It’ll include meeting subjects that contain either of the keywords (OR) or a combination of the keywords (AND). The larger the word, the more closely it relates to the initial keyword.
+* **Word Cloud**: After you select a data set and run a query with an initial keyword, the Word Cloud will show keywords that are relevant or close to the initial keyword. You can then select another keyword in the cloud to add to your list and run the query again. Each time, the cloud will adjust based on the keywords listed. It’ll include meeting subjects that contain either of the keywords (OR) or a combination of the keywords (AND). The larger the word, the more closely it relates to the initial keyword.
 * **Meetings Summary**: Summarizes the key data points about the meetings in the query, including: the total count of meetings, the count of meetings based on search criteria, the average duration hours, and the average attendees. It also provides a chart view of the data that you can change by selecting different meeting metrics to show in the chart, such as meeting hours, emails sent, or conflicting meetings for attendees.
 * **Meetings Detail**: Shows the meeting metric details in a table, which is based on the search criteria for the query and the organizational data imported from Workplace Analytics. You can sort the table view by the Meeting Start Date. You can also download the meeting details as a .csv file for further analysis in another tool, such as Excel or Power BI.
+
+### To analyze topic data
+
+1. In Workplace Analytics Azure Templates, select **Topic Analysis**. 
+2. Select **Add New Dataset** (top right), and then locate and select the data set you want to import and analyze. Or if the data set was previously added, skip to the next step.
+
+   ![New Topic Analysis data set](./images/topa-new-dataset.png)
+
+3. Click **Select** next to the data set you want to analyze.
+4. Enter one or more keywords separated by commas in one of the **Keyword** boxes to search for in the titles for the meetings you want to analyze. To search for word phrases, separate the phrase with an underline (for example **product_marketing**). Or to search for word phrases in any order, separate the words with spaces (for example **product marketing managers**).
+
+   * **Keywords OR**: Includes meeting titles with words that most similarly relate to any of the words entered or any combination of these words (phrases separated with spaces).
+   * **Keywords NOT**: These words decrease the relevance score of the most similar words that you are searching on in the Keywords OR box.
+5. Select **Run query**.
+6. In the **Word Cloud**, you can select other keywords to add to the **Keywords OR** box, and then select **Run query** again to update the cloud view to include the additional words you added, as shown in the following graphic.
+
+   ![Topic Analysis Word Cloud](./images/topa-word-cloud.png)
+
+7. You can then select **Meetings Summary** to view key meeting data points about the following metrics.
+
+   |Meetings Summary metrics |Description |
+   |------------------------|------------|
+   |Total count of meetings in query file (Meetings) | Total number of meetings that are in the query file. |
+   |Count of meetings based on search criteria | Total number of meetings that match the search criteria. |
+   |Average duration hours | The average number of hours for the meeting length for the meetings in the search criteria. |
+   |Average attendees | The average number of people who attended the meetings that match the search criteria. |
+   |Summary metrics | Based on the organizational data imported from Workplace Analytics. For details, see Meeting metrics. |
+
+   The following shows an example of the metrics available on the Meeting Summary page. The 
+   ![Topic Analysis Meeting Summary page](./images/topa-meetings-summary.png)
+
+8. You can select **Meetings Detail** to view the meeting metrics in a table or export them as a .csv file.
+
+   ![Topic Analysis Meeting Details page](./images/topa-meetings-detail.png)
 
 ## Related topics
 
