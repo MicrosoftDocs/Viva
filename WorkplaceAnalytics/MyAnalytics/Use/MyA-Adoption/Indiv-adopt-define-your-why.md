@@ -6,10 +6,10 @@ title: MyAnalytics Individual Adoption --Define your why
 description: MyAnalytics Individual Adoption by Kate Nowak --Define your why
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/26/2018
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 # Define your why

@@ -6,10 +6,10 @@ title: MyAnalytics environment requirements
 description: MyAnalytics environment requirements, including valid licensing choices
 author: rodonahu
 ms.author: v-pascha
-ms.date: 01/19/2018
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 ## Environment requirements for MyAnalytics
