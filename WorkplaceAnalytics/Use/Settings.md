@@ -14,32 +14,65 @@ ms.prod: wpa
 
 # Configure Workplace Analytics settings
 
-On the **Settings** page, under the **Defaults and privacy** tab, admins can access and configure admin settings.
-The Settings page comprises various sub-pages that are used for admin-related activities, as follows:
+As a Workplace Analytics administrator, you can use the **Settings** pages to customize system defaults and privacy settings and to upload data to Workplace Analytics.
 
-[Sources](#sources) — Provides admin dashboards for high-level data analysis.
-
-[Upload](#upload)  — Used to prepare and upload organizational data.
-
-[Analysis settings](#analysis-settings) — Helps you analyze your meeting data.
-
-[Admin settings](#admin-settings) —  Used to configure system defaults and privacy settings.
-
-This article focuses on the **Admin settings** page.
-
-## Admin settings
-
-Under the **System defaults** section,  admins can customize system defaults and privacy settings.
-
-![System defaults](../images/WPA/use/settings-admin-settings_a.png)
-
-Follow company-specific legal and privacy guidelines to define and confirm the settings to use in Workplace Analytics. Then you are ready to provision Workplace Analytics. 
+>[!Note]
+>You must be assigned the Administrator role to access the Settings pages. For more information, see [Assign roles to Workplace Analytics admins and analysts](https://docs.microsoft.com/workplace-analytics/setup/assign-roles-to-wpa-admins).
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
-## System and privacy
+<ul><li>
 
-On the **Defaults and privacy** tab, under the **System defaults** section, you can configure the following employee options:
+[Sources](#sources) — View dashboards to verify that Office 365 and organizational data is loaded.
+
+</li><li> 
+
+[Upload](#upload)  — Prepare and upload organizational and customer data.
+
+</li><li> 
+
+[Analysis settings](#analysis-settings) — Customize meeting exclusion rules to help ensure data accuracy.
+
+</li><li> 
+
+[Admin settings](#admin-settings) —  Configure default time-zone and privacy settings.
+
+</ul>
+
+
+
+## Sources
+
+The [Sources](../Use/data-sources.md) page provides dashboards that describe the Office 365 and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
+
+## Upload
+
+On the **Upload** page under the **Organizational data** tab, you can upload an organizational data file to Workplace Analytics in .csv format, UTF-8 encoded.
+
+![Upload page](../images/WpA/Use/settings-upload1.png)
+
+### Organizational data
+
+Organizational data is contextual information about employees (for example, job title, level, location) and can come from HR or other information systems. For detailed information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
+
+## Analysis settings
+
+On the **Analysis settings** page, 
+you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
+
+![Upload page](../images/WpA/Use/settings-analysis-meeting-exclusions.png)
+
+For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md). 
+
+## Admin settings
+
+On the **Admin settings** page, you can configure system defaults and privacy settings.
+
+![Admin settings](../images/WPA/use/settings-admin-settings_a.png)
+
+## System defaults
+
+On the **Defaults and privacy** tab, in the **System defaults** section, you can configure the following employee options:
 
 - Default time zone
 - Working days and hours
@@ -53,7 +86,7 @@ If a measured employee or other internal collaborator does not have the time zon
 
 #### To configure the default time zone
 
-- From the **Default time zone** list box, under **System defaults**, select the appropriate time zone.
+- In the **Default time zone** list box, under **System defaults**, select the appropriate time zone.
 
     ![System defaults](../images/WpA/Use/settings-default-time-zone-b.png)
 
@@ -65,21 +98,19 @@ No option exists within the organizational data file to upload working days and 
 
 #### To configure working days and hours
 
-1. Under **Working days**, select the appropriate check boxes for the days of the week.
-2. From the **Working day starts** and **Working day ends** list boxes, select the appropriate start and end times.
+1. For **Working days**, select the appropriate check boxes for the days of the week.
+2. For the **Working day starts** and **Working day ends** list boxes, select the appropriate start and end times.
 
       ![System defaults](../images/WpA/Use/settings-system-defaults-b.png)
 
 ### Hourly rate
 
-The **Hourly rate** field in **System defaults** is related to the optional **HourlyRate** _column_ in the organizational data file that admins can choose to include, and use to calculate the total cost of low-quality meetings, as summarized on the [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate) page.
+The **Hourly rate** field in **System defaults** is related to the optional **HourlyRate** _column_ in the organizational data file that you can choose to include, and use to calculate the total cost of low-quality meetings, as summarized on the [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate) page.
 
 If you include the **HourlyRate** column in the organizational data file, cost is calculated as the sum of a person's default hourly rate for the organization multiplied by low-quality meeting hours.
 
-The **Hourly Rate** _field_ lets admins set the hourly rate for employees when required. 
-If no hourly rate is assigned to a meeting participant in the organizational data file, 
-the default hourly rate field in System defaults is set to $75. However, admins can change the 
-default value to any other hourly rate.
+Use the **Hourly Rate** _field_ to set the hourly rate for employees when required. 
+If no hourly rate is assigned to a meeting participant in the organizational data file, the default value for the hourly rate field is set to $75. However, you can change the default value to any other hourly rate.
 
 #### To configure the hourly rate
 
@@ -87,7 +118,7 @@ default value to any other hourly rate.
 
 ## Privacy settings
 
-In the **Privacy settings** section, you can configure and customize the data that you want to include for analysis. You can use privacy settings to:
+In the **Privacy settings** section, you can decide what data you want to exclude from analysis and what data you want to be visible in queries and dashboards. You can use privacy settings to:
 
 * Specify the minimum group size
 * Specify whether to hide subject lines in Meeting query results
@@ -96,7 +127,7 @@ In the **Privacy settings** section, you can configure and customize the data th
 ### Specify the minimum group size
 
    The minimum group size setting determines what you can view in the visual dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../tutorials/solutions-task.md) area, and helps maintain employee privacy by ensuring that individuals cannot be easily identified by the attributes of the group. 
-    The default minimum group size is set to five, but you can adjust it to suit the needs of your organization. However, you cannot set the size to lower than five. Larger group sizes reduce the risk of identification of individual group members.
+   The default minimum group size is set to five, but you can adjust it to suit the needs of your organization. However, you cannot set the size to lower than five. The minimum-group-size rule protects people from being individually identified by using de-identified data presented in a chart.
 
 **Example**
 
@@ -111,7 +142,7 @@ In the following chart, the blue-green columns on the left represent groups whos
 
 For histogram charts, the minimum-group-size rule is applied differently, in the following ways:
 
-1. If the filter group is too small, then no histogram appears.
+1. If the filter group is too small, no histogram appears.
 
    If the filter group that the histogram uses for its data is below the minimum group size, Workplace Analytics does not display the histogram at all.
 
@@ -119,8 +150,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 
    In histograms, the x-axis consists of rectangles, called "bins", that are based on average metric values, and the y-axis determines the number of people whose average metric value puts them in that bin. _Neither of these values reflects organizational data._ For this reason, the histogram still displays data for a bin even if it contains fewer people than the minimum-group-size value. Histogram charts can safely display this information because the information is based on metrics -- on values calculated from observed behavior, _not_ on HR data.
 
-   Even if a bin in a histogram contained data for only one individual, the histogram still displays that data. You cannot single out this individual because you do not know what HR group they belong to. (In other charts, such as column charts, an individual in a group below the threshold might be identifiable, but in a histogram the HR group to 
-   which individuals belong is the larger filter group.) You also cannot determine the precise metric value of individuals because they are in a bin with a minimum 0.5-hour range.
+   Even if a bin in a histogram contained data for only one individual, the histogram still displays that data. You cannot single out this individual because you do not know what HR group they belong to. (In other charts, such as column charts, an individual in a group below the threshold might be identifiable, but in a histogram the HR group to which individuals belong is the larger filter group.) You also cannot determine the precise metric value of individuals because they are in a bin with a minimum 0.5-hour range.
 
   You can see histogram charts on the following pages in Workplace Analytics:
 
@@ -139,7 +169,8 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 
    If you select **Yes** for **Hide subject lines from Meeting query results**, the subject lines are converted to a hashed value (a system-generated number), so that the text in subject lines is not readable in any queries. You can still create query-based keywords in the subject lines. However, you won't be able to see a list of meetings that show the subject lines. 
 
-   If you select **Yes**, you could run a meeting query with the subject-line keyword "All-hands", and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. However, you could not get a specific list -- one line item for each meeting -- of all the meetings with the subject line "All-hands".
+**Example**   
+If you select **Yes**, you could run a meeting query with the subject-line keyword "All-hands", and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. However, you could not get a specific list -- one line item for each meeting -- of all the meetings with the subject line "All-hands".
     
 ### Exclude words from subject lines
 
@@ -169,7 +200,7 @@ To exclude all emails that contain the keywords "confidential", "ACP", and "priv
 #### Keyword exclusion logic
 
 * You can use upper or lower-case keywords
-* Matches exact string match for subject keywords
+* Matches exact string for subject keywords
 * Does not match partial words; you must list each partial word as separate terms
 
 #### Examples: Keyword exclusion logic
@@ -185,16 +216,16 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 ### To configure privacy settings
 
-1. Under **Privacy settings**, configure the minimum group size in the corresponding field.
-2. Hide any desired meeting subject lines from query results in the corresponding drop-down menu. 
-3. Exclude any domains, email addresses, or words from subject lines that you want from analysis.
+1. In **Privacy settings**, configure the minimum group size in the corresponding field.
+2. Optionally hide meeting subject lines from query results in the corresponding drop-down menu.. 
+3. Exclude from analysis any sensitive domains, email addresses, or keywords in subject lines.
 4. Carefully verify that your privacy settings are correct and then select **"I confirm that all privacy settings are complete and that data will not be made available until user licenses have been applied**". 
 Settings are not final until you select this check box.
 5. At the top right of the page, select **Save**.
 
   Workplace Analytics only begins processing data when privacy settings run for the first time after you select **Save**. 
   Processing your data can take up to two weeks to complete. Once the data is ready, you can then upload the organizational 
-  data file. Privacy settings take effect after the organizational data file has been uploaded and processed.
+  data file. Privacy settings take effect _after_ the organizational data file has been uploaded and processed.
 
 > [!Note] 
 > All subsequent changes to privacy settings after they run for the first time do not take effect until the next time that Workplace Analytics refreshes collaboration data. 
@@ -203,27 +234,3 @@ Any changes made to system defaults affect existing data.
 ### Video: Privacy
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
-## Sources
-
-The [Sources](../Use/data-sources.md) (Data sources) page offers dashboards to admins for high-level data analysis and shows data set overviews and trends.
-
-## Upload
-
-On the **Upload** page under the **Organizational data** tab, admins can upload an organizational data file to Workplace Analytic in .csv format.
-
-![Upload page](../images/WpA/Use/settings-upload1.png)
-
-### Organizational data
-
-Organizational data is contextual information about employees (for example, job title, level, location) and can come from human resources or other information systems. For detailed information on preparing and uploading the organizational data file, see [Preparing organizational data](../Setup/prepare-organizational-data.md).
-
-## Analysis settings
-
-On the **Analysis settings** page, you can analyze your meeting data, for example, meetings that are not business-related, and can add new exclusion rules to remove any meetings that you don't want to include for analysis.
-
-![Upload page](../images/WpA/Use/settings-analysis-meeting-exclusions.png)
-
-For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md). 
-
-See also [Large meeting exclusion rules](https://docs.microsoft.com/Workplace-Analytics/tutorials/meeting-exclusion-250).
