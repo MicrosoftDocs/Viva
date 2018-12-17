@@ -84,7 +84,7 @@ A list of the attributes supplied by your organization. When you [create queries
 
 ### Measured employees
 
-The number of measured employees who Workplace Analytics collects meeting and email data about. This is the number of employees that your Workplace Analytics admin assigned licenses to during the setup process. This is the population you can include in your data analysis within Workplace Analytics.
+The number of measured employees who Workplace Analytics collects meeting and email data about. This is the number of licensed employees that your Workplace Analytics admin assigned licenses during setup. This is the population you can analyze within Workplace Analytics.
 
 ### Coverage
 
