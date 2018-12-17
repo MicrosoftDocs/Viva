@@ -5,11 +5,11 @@
 title: MyAnalytics key user interface elements
 description: Information about the MyAnalytics personal dashboard, Outlook add-in, email digests, and MyAnalytics nudges. 
 author: buntus
-ms.author: rodanahu
-ms.date: 04/10/2018
+ms.author: madehmer
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 # MyAnalytics elements

@@ -5,11 +5,11 @@
 title: MyAnalytics features
 description: An overview of MyAnalytics, including the Outlook add-in, the dashboard, and the weekly email report. 
 author: rodonahu
-ms.author: v-pascha
-ms.date: 01/19/2018
+ms.author: paul9955
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 # MyAnalytics features

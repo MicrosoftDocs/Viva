@@ -6,10 +6,10 @@ title: MyAnalytics Team Adoption --Plan
 description: MyAnalytics Team Adoption by Kate Nowak --Plan section
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/27/2018
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 # Plan
@@ -24,7 +24,7 @@ The ideal program team is comprised of the following members:
  * [Program participants](Team-adopt-plan.md#program-participants)
 
 > [!Note] 
-> If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build healthier collaboration habits. 
+> If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build healthier collaboration habits.
 
 ### Executive sponsor
 

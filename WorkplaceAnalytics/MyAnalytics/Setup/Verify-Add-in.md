@@ -4,12 +4,12 @@
 
 title: Confirm the installation of the MyAnalytics Outlook add-in
 description: Confirm that the MyAnalytics add-in for Outlook is installed.
-author: rodonahu
+author: paul9955
 ms.author: v-pascha
-ms.date: 01/19/2018
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 The MyAnalytics Outlook add-in is automatically installed for your organization when you purchase one of the Microsoft Office 365 E5 plans or add-ons that are listed at the beginning of this article. Users will start to see the MyAnalytics Outlook add-in in their Outlook mail applications automatically after a license is assigned to them.

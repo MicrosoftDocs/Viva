@@ -6,10 +6,10 @@ title: MyAnalytics Individual Adoption --Set goals
 description: MyAnalytics Individual Adoption by Kate Nowak --Set goals section
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/26/2018
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 # Set your goal
