@@ -81,8 +81,8 @@ As the Azure Templates Admin, you need to add the other users and assign them on
 **To add users and assign them roles:**
 
 1. Use the website link (from the last step in Deployment) to open the Workplace Analytics Azure Templates.
-2. Select **Admin page** > **User Management** > **Add New User**.
-3. Type the email address for the user and select the applicable role for this user, as shown in the following graphic.
+2. Select **Admin** > **User Management** > **Add New User**.
+3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 
      ![Add Workplace Analytics users](./images/add-user.png)
 

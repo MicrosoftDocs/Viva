@@ -7,7 +7,7 @@ title: Organization Network Analysis Azure Template for Workplace Analytics
 description: Learn about the Organization Network Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: madehmer
-ms.date: 12/14/2018
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -27,16 +27,17 @@ Workplace Analytics provides several metrics to help you visualize and analyze f
 
 3. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to appear.
 4. By default, the graph is shown in the **Network View** with the **Force-directed** layout and **No sizing applied**. Use the following options to customize or download the graph.
-   View option |Name |Description |
-   ------------|--------------|------------|
-    ![Organization Network Analysis](./images/ona-no-size.png)| No sizing applied | Changes how the data is measured and shown in the graph based on the Node Sizing option you choose.|
-    ![Organization Network Analysis](./images/ona-network-icons.png)| Network View  | Changes how the graph shows the network, you can choose to view it in either the Force-directed, Lens, or Structural layout. |
-    ![Organization Network Analysis](./images/ona-combined-view-icon.png) |Combined View | Changes the graph view to Combined View, which prompts you to select an HR attribute meeting metric to display the nodes for , such as FunctionType.|
-    ![Organization Network Analysis](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.|
-    ![Organization Network Analysis](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn tool tips on or off for selected nodes.|
-    ![Organization Network Analysis](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters selected for the rendered graph.|
-    ![Organization Network Analysis](./images/ona-table-icon.png) | View as Table |Choose to see a table view of the graph data.|
-    ![Organization Network Analysis](./images/ona-download-icon.png) | Download Graph |Choose to download the graph as a PNG file.|
+
+   View option |Name |Description
+   ------------|--------------|------------
+   ![Organization Network Analysis](./images/ona-no-size.png)| No sizing applied | Changes how the data is measured and shown in the graph based on the Node Sizing option you choose.
+   ![Organization Network Analysis](./images/ona-network-icons.png)| Network View  | Changes how the graph shows the network, you can choose to view it in either the Force-directed, Lens, or Structural layout.
+   ![Organization Network Analysis](./images/ona-combined-view-icon.png) |Combined View | Changes the graph view to Combined View, which prompts you to select an HR attribute meeting metric to display the nodes for , such as FunctionType.
+   ![Organization Network Analysis](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
+   ![Organization Network Analysis](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn tool tips on or off for selected nodes.
+   ![Organization Network Analysis](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters selected for the rendered graph.
+   ![Organization Network Analysis](./images/ona-table-icon.png) | View as Table |Choose to see a table view of the graph data.
+   ![Organization Network Analysis](./images/ona-download-icon.png) | Download Graph |Choose to download the graph as a PNG file.
 
 
 ## Node Sizing
@@ -44,6 +45,10 @@ Workplace Analytics provides several metrics to help you visualize and analyze f
 You can apply the following node sizing options to change how the data is measured and shown   in the graph. What a node represents (people or groups) is based on the data and the filters you select for the graph.
 
 ![Organization Network Analysis](./images/ona-node-sizing.png)
+
+### Number of employees
+
+The node size is based on the number of people in that group. The larger node sizes represent the nodes with the larger number of people in that network.
 
 ### Betweenness
 
@@ -57,19 +62,6 @@ Finds the nodes that are closest to the other nodes in a network, based on their
 
 Finds nodes with the highest number of links to other nodes within the network. Nodes with a high degree of links are those people or groups who have the best connections to others in the network. These people or groups can be key influencers or might just be strategically important for communication.
 
-### Eigen centrality
-
-A measure of influence that considers the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and can be key influencers in their network.
-As shown in the following graphic, Engineering, R&D, and Sales are key influencers that connect all the other groups.
-
-### Intersectionality
-
-Intersectionality is a measure of how diverse a node’s connections are. The higher the intersectionality for a node, the more that node’s connections come from other nodes. The nodes with high intersectionality can be good ambassadors and help drive collaboration for the intersecting nodes.
-
-### Number of people
-
-The node size is based on the number of people in that group. The larger node sizes represent the nodes with the larger number of people in that network.
-
 ### Page Ranking
 
 A measure of importance based on the number of incoming connections.
@@ -77,6 +69,14 @@ A measure of importance based on the number of incoming connections.
 > [!Note]
 > When the link direction information is unavailable, Page Ranking might show a graph that is similar or the same as the Degrees option.
 
+### Eigen Centrality
+
+A measure of influence that considers the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and can be key influencers in their network.
+As shown in the following graphic, Engineering, R&D, and Sales are key influencers that connect all the other groups.
+
+### Intersectionality
+
+Intersectionality is a measure of how diverse a node’s connections are. The higher the intersectionality for a node, the more that node’s connections come from other nodes. The nodes with high intersectionality can be good ambassadors and help drive collaboration for the intersecting nodes.
 
 
 ## Related topics
