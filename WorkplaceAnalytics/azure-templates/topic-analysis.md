@@ -29,7 +29,7 @@ You can use this template to view and analyze meeting metrics with the following
 
    ![New Topic Analysis data set](./images/topa-new-dataset.png)
 
-3. Click **Select** next to the data set you want to analyze.
+3. Choose **Select** next to the data set you want to analyze.
 4. Enter one or more keywords separated by commas in one of the **Keyword** boxes to search for in the titles for the meetings you want to analyze. To search for word phrases, separate the phrase with an underline (for example **product_marketing**). Or to search for word phrases in any order, separate the words with spaces (for example **product marketing managers**).
 
    * **Keywords OR**: Includes meeting titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
