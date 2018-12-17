@@ -6,10 +6,10 @@ title: MyAnalytics Individual Adoption --Diagnose problems
 description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose problems section
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/26/2018
+ms.date: 12/19/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 # Diagnose your problem
