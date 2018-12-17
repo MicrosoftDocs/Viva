@@ -22,15 +22,15 @@ You can use this template to view and analyze meeting metrics with the following
 * **Meetings Summary**: Summarizes the key data points about the meetings in the query, including: the total count of meetings, the count of meetings based on search criteria, the average duration hours, and the average attendees. It also provides a chart view of the data that you can change by selecting different meeting metrics to show in the chart, such as meeting hours, emails sent, or conflicting meetings for attendees.
 * **Meetings Detail**: Shows the meeting metric details in a table, which is based on the search criteria for the query and the organizational data imported from Workplace Analytics. You can sort the table view by the Meeting Start Date. You can also download the meeting details as a .csv file for further analysis in another tool, such as Excel or Power BI.
 
-### To analyze topic data
+### Analyze topic data
 
-1. In Workplace Analytics Azure Templates, select **Topic Analysis**. 
-2. Select **Add New Dataset** (top right), and then locate and select the data set you want to import and analyze. Or if the data set was previously added, skip to the next step.
+1. In Workplace Analytics Azure Templates, select **Topic Analysis**.
+2. Select **Add New Dataset** (top right), and then locate and select the data set you want to import and analyze. Or if the data set already exists, skip to the next step.
 
    ![New Topic Analysis data set](./images/topa-new-dataset.png)
 
 3. Choose **Select** next to the data set you want to analyze.
-4. Enter one or more keywords separated by commas in one of the **Keyword** boxes to search for in the titles for the meetings you want to analyze. To search for word phrases, separate the phrase with an underline (for example **product_marketing**). Or to search for word phrases in any order, separate the words with spaces (for example **product marketing managers**).
+4. Enter one or more keywords separated by commas in one of the **Keyword** boxes to search for in the meeting subjects or titles. To search for word phrases, separate the phrase with an underline (for example **product_marketing**). Or to search for word phrases in any order, separate the words with spaces (for example **product marketing managers**).
 
    * **Keywords OR**: Includes meeting titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * **Keywords NOT**: Meeting titles with these words are excluded from the search and data analysis.

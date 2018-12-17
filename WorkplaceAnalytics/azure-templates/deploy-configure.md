@@ -18,7 +18,7 @@ Before you can use the Workplace Analytics Azure Templates for advanced data ana
 
 ## Security considerations
 
-Before installing these templates, review the following security principals for this deployment.
+Before deploying and configuring these templates, review the following security principals.
 
 * Data is stored in your Azure subscription.
 * Data is encrypted on disk and all access to and communication between the Azure Resources and these templates are enabled and secured with the Secure Sockets Layer (SSL) certification.
@@ -28,7 +28,7 @@ Before installing these templates, review the following security principals for 
 
 ## Prerequisites
 
-Before installing the Workplace Analytics Azure Templates, confirm or complete the following:
+Before deploying the Workplace Analytics Azure Templates, confirm or complete the following:
 
 1. Confirm that [Workplace Analytics is set up](https://docs.microsoft.com/en-us/workplace-analytics/setup/set-up-workplace-analytics) and ready to use.
 2. Enable [Workplace Analytics data access](https://docs.microsoft.com/en-us/workplace-analytics/data-access/data-access) for the Azure tenant.
@@ -63,7 +63,7 @@ Before installing the Workplace Analytics Azure Templates, confirm or complete t
 
 ### Add users and assign roles
 
-As the Azure Templates Admin, you need to add the other users and assign them one of the following roles based on what tasks they need to accomplish with the templates:
+As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one of the following roles based on what tasks they need to accomplish with the templates:
 
 * **Azure Templates Admin**
   * Can add other users and assign roles for the templates.
