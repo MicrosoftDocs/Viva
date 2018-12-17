@@ -22,3 +22,64 @@ A look at Workplace Analytics and how it works, including how you can correlate 
 ## Macy's uses MyAnalytics to support their Time is Money program
 Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in their organization
 > [!VIDEO https://www.youtube.com/embed/eZeTkK65RQM]
+
+
+<!-- TESTING IFRAME VALIDITY AND LINKS TO ALL OF THE OTHER WPA AND MYA VIDEOS HERE: 
+
+# Onboarding videos
+
+## Overview for admins
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+## Assign licenses
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+This video can also be found here: 
+[Assign licenses](https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/assign-licenses-to-population?branch=PAS-WpAVideos)
+
+## Assign roles
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+This video can also be found here: 
+[Assign roles](https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/assign-roles-to-wpa-admins?branch=PAS-WpAVideos)
+
+## Privacy in Workplace Analytics
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+This video can also be found here: 
+[Privacy in Workplace Analytics](
+https://review.docs.microsoft.com/en-us/Workplace-Analytics/use/settings?branch=PAS-WpAVideos#video-privacy)
+
+## Upload organizational data
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+This video can also be found here: 
+[Upload organizational data](
+https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/upload-organizational-data-1st?branch=PAS-WpAVideos#video-upload-organizational-data)
+
+and here:
+[Upload organizational data](
+https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/upload-organizational-data?branch=PAS-WpAVideos#video-upload-organizational-data)
+
+## Solution overview
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/287139611" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+This video can also be found here: 
+[Solution overview](
+https://review.docs.microsoft.com/en-us/workplace-analytics/tutorials/solutions-intro?branch=PAS-WpAVideos#video-solution-overview)
+
+## MyAnalytics for admins
+
+<iframe src="https://player.vimeo.com/video/304879652" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+This video can also be found here: 
+[Introduction for admins](
+https://review.docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/mya-for-admins?branch=PAS-AddMyAVideo)
+
+-->
