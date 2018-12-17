@@ -49,7 +49,7 @@ You can use this template to view and analyze meeting metrics with the following
    Average attendees | The average number of people who attended the meetings that match the search criteria.
    Summary metrics | Based on the organizational data imported from Workplace Analytics. For details, see Meeting metrics.
 
-   The following shows an example of the metrics available on the **Meeting Summary** page. You can select a **Summary metric** to change what data shows in the chart.
+   The following shows an example of the metrics available on the **Meetings Summary** page. You can select a **Summary metric** to change what data shows in the chart.
    ![Topic Analysis Meeting Summary page](./images/topa-meetings-summary.png)
 
 8. You can select **Meetings Detail** to view the available meeting metrics in a table or export them as a .csv file.

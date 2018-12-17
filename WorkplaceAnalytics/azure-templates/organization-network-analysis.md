@@ -31,7 +31,7 @@ Workplace Analytics provides several metrics to help you visualize and analyze f
    View option |Name |Description
    ------------|--------------|------------
    ![Organization Network Analysis](./images/ona-no-size.png)| No sizing applied | Changes how the data is measured and shown in the graph based on the Node Sizing option you choose.
-   ![Organization Network Analysis](./images/ona-network-icons.png)| Network View  | Changes how the graph shows the network, you can choose to view it in either the Force-directed, Lens, or Structural layout.
+   ![Organization Network Analysis](./images/ona-network-icons.png)| Network View  | Changes how the graph shows the network, which you can view in either the **Force-directed**, **Lens**, or **Structural** layout.
    ![Organization Network Analysis](./images/ona-combined-view-icon.png) |Combined View | Changes the graph view to Combined View, which prompts you to select an HR attribute meeting metric to display the nodes for , such as FunctionType.
    ![Organization Network Analysis](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![Organization Network Analysis](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn tool tips on or off for selected nodes.
