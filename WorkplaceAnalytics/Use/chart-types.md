@@ -83,9 +83,9 @@ You can download any chart in the Explore dashboards as an image or as a .csv fi
 
 ## Work with charts
 
- * [Chart options](#chart-options). The charts are interactive. In the charts, you can change the chart type, sort the display, download chart data, and select groups for display in the adjacent trend chart.
+* [Chart options](#chart-options). The charts are interactive. In the charts, you can change the chart type, sort the display, download chart data, and select groups for display in the adjacent trend chart.
 
- * [Chart settings and filters](#chart-settings-and-filters). Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters.  
+* [Chart settings and filters](#chart-settings-and-filters). Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, to apply filters, and to save or load current settings for the charts.
 
 ### Chart options
 
