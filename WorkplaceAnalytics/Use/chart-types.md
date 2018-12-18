@@ -193,7 +193,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
    > [!Note]
    > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
 
-### Chart settings and filters
+## Chart settings and filters
 
 Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Page settings** panel is not already open, open it by selecting **Settings and filters**:
 
@@ -219,7 +219,7 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 
 1. Under **Page settings**, expand **Date range**.
 2. Under **Date range**, select a year and then select a month. 
-3. The selected month displays in more detail in a fly-out window. Use that window to select weeks in the month, one week at a time. 
+3. The selected month displays in more detail in a fly-out window. Use that window to select weeks in the month, one week at a time.
 4. Select **Apply**.
 
 > [!Note]
