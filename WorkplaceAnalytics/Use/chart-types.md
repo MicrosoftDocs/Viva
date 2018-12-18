@@ -83,9 +83,9 @@ You can download any chart in the Explore dashboards as an image or as a .csv fi
 
 ## Work with charts
 
-* [Chart options](#chart-options). The charts are interactive. In the charts, you can change the chart type, sort the display, download chart data, and select groups for display in the adjacent trend chart.
+ * [Chart options](#chart-options). The charts are interactive. In the charts, you can change the chart type, sort the display, download chart data, and select groups for display in the adjacent trend chart.
 
-* [Chart settings and filters](#chart-settings-and-filters). Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, to apply filters, and to save or load current settings for the charts.
+ * [Chart settings and filters](#chart-settings-and-filters). Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, to apply filters, to save current settings, to load saved settings, or to reset settings for charts.
 
 ### Chart options
 
@@ -114,9 +114,9 @@ The height of the reference line shows the value of the metric that is shown in 
 
 You can sort any column chart or box plot alphabetically or by any metric that is available in the chart.
 
- * To sort, select **Sort groups** and then select a metric, such as **Meeting hours** or **Email hours**, or select **Alphabetical**. After you change the sort order, the chart automatically redisplays the data in the new sort order. 
+ * To sort, select **Sort groups** and then select a metric, such as **Meeting hours** or **Email hours**, or select **Alphabetical**. After you change the sort order, the chart automatically updates the data shown in the new sort order.
 
- * To reverse the sort order while sorting by the same metric, select **Sort groups** and then re-select the metric (**Email hours** in the following example): 
+ * To reverse the sort order while sorting by the same metric, select **Sort groups** and then re-select the metric (**Email hours** in the following example):
 
    ![Reverse sort order](../images/wpa/use/re-sort-by-metric.png)
 
