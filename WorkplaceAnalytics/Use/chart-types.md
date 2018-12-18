@@ -201,9 +201,19 @@ Use **Page settings** to change the time range of the data, to change the attrib
 
 When you change chart display settings, your changes apply to all the charts on all the tabs of **Explore Metrics**. For example, when you set the chart display to group by _level_, all charts in all sections are grouped by that level.
 
-After you make settings, save them by selecting **Apply** in the upper-right corner of the page: 
+#### To apply or reset settings
+
+After you change a setting or add a filter, select **Apply** at the upper-right to apply the settings to the Explore charts. Or to change back to the default settings, select **Reset**.
 
 ![Apply button](../images/wpa/use/apply-reset.png)
+
+#### To save custom settings and filters for later use
+
+After you change one or more page settings or add one of more filters, you can select the **ellipsis** (**...**) next to **Page settings** > **Save settings** to save these chart settings or filter for later use.
+
+The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings you saved earlier, select **Load saved settings**.
+
+![Save settings](../images/wpa/use/save-page-settings.png)
 
 #### To change the date range
 
@@ -235,6 +245,7 @@ After you make settings, save them by selecting **Apply** in the upper-right cor
 
 1. To open the **Page settings** panel, expand **Max groups**.
 2. Use the **Max groups** slider to set the number of groups you want the charts to display.  
-4. Select **Apply**.
- 
-The **Max groups** slider moves in increments of 5 (groups). The minimum number of groups that you can display is 10 and the maximum is 100. When you add or remove groups, the scroll bar under the chart adjusts accordingly.
+3. Select **Apply**.
+
+> [!Note]
+> The **Max groups** slider moves in increments of 5 (groups). The minimum number of groups that you can display is 10 and the maximum is 100. When you add or remove groups, the scroll bar under the chart adjusts accordingly.
