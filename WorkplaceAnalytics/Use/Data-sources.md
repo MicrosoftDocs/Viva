@@ -6,7 +6,7 @@ title: Workplace Analytics Data Sources
 description: This article gives an overview of the Data sources feature in Workplace Analytics. 
 author: madehmer
 ms.author: madehmer
-ms.date: 12/17/2018
+ms.date: 12/18/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -72,7 +72,7 @@ The following are examples of where you might encounter inconsistency in email o
 
 ## Organizational data summary
 
-Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute). 
+Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute).
 
 ![Data sources summary](../images/wpa/Use/organizational-data-summary.png)
 
@@ -84,7 +84,7 @@ A list of the attributes supplied by your organization. When you [create queries
 
 ### Measured employees
 
-The number of measured employees who Workplace Analytics collects meeting and email data about. This is the number of licensed employees that your Workplace Analytics admin assigned licenses during setup. This is the population you can analyze within Workplace Analytics.
+This is the number of employees that your Workplace Analytics admin assigned licenses to during setup. Measured employees are the employees for whom Workplace Analytics collects meeting and email data. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics.
 
 ### Coverage
 
