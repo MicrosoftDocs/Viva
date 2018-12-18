@@ -193,7 +193,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
    > [!Note]
    > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
 
-## Chart settings and filters
+### Chart settings and filters
 
 Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Page settings** panel is not already open, open it by selecting **Settings and filters**:
 
