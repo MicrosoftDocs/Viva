@@ -14,9 +14,10 @@ ms.prod: mya
 
 # MyAnalytics email digest
 
-As a MyAnalytics user, you will receive a weekly email digest that gives you key highlights about your previous week. This email digest contains links that you can click to open your MyAnalytics dashboard.
+As a MyAnalytics user, you will receive a weekly email digest that gives you key highlights about your previous week. This email digest contains links that you can select to open your MyAnalytics dashboard.
 
-The following illustration shows some of the contents of this email:
+The following is an example of an email digest.
+
 
 <img src="../../Images/mya/use/digest-email.png" alt="Weekly email digest">
 
