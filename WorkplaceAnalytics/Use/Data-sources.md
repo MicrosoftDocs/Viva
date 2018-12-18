@@ -36,7 +36,7 @@ Using Data sources metrics, Workplace Analytics administrators and data analysts
 
 The Data sources summary provides the following information about your data:
 
-* The number of **measured employees** for which Workplace Analytics gathers meeting and email data. These are the people that can be the subject of your analysis. (This should be equal to the number of Workplace Analytics licenses that you assigned during provisioning.) This number can help determine whether you have a good representation of the organization.
+* The number of **measured employees** for whom your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics collects meeting and email data for these people. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. This number can help determine whether you have a good representation of the organization.  
 
 * The number of people not part of your measured population (both internal and external) with whom the measured employees collaborated.
 
@@ -80,11 +80,11 @@ The **Last refreshed** date shows when data was last processed.
 
 ### Values
 
-A list of the attributes supplied by your organization. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
+A list of the attributes provided by your organization. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
 
 ### Measured employees
 
-This is the number of employees that your Workplace Analytics admin assigned licenses to during setup. Measured employees are the employees for whom Workplace Analytics collects meeting and email data. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics.
+The number of employees for whom your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics collects meeting and email data about these people. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics.
 
 ### Coverage
 
