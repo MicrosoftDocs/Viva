@@ -85,7 +85,7 @@ You can download any chart in the Explore dashboards as an image or as a .csv fi
 
  * [Chart options](#chart-options). The charts are interactive. In the charts, you can change the chart type, sort the display, download chart data, and select groups for display in the adjacent trend chart.
 
- * [Chart settings and filters](#chart-settings-and-filters). Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters.  
+ * [Chart settings and filters](#chart-settings-and-filters). Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, to apply filters, to save current settings, to load saved settings, or to reset settings for charts.
 
 ### Chart options
 
@@ -114,9 +114,9 @@ The height of the reference line shows the value of the metric that is shown in 
 
 You can sort any column chart or box plot alphabetically or by any metric that is available in the chart.
 
- * To sort, select **Sort groups** and then select a metric, such as **Meeting hours** or **Email hours**, or select **Alphabetical**. After you change the sort order, the chart automatically redisplays the data in the new sort order. 
+ * To sort, select **Sort groups** and then select a metric, such as **Meeting hours** or **Email hours**, or select **Alphabetical**. After you change the sort order, the chart automatically updates the data shown in the new sort order.
 
- * To reverse the sort order while sorting by the same metric, select **Sort groups** and then re-select the metric (**Email hours** in the following example): 
+ * To reverse the sort order while sorting by the same metric, select **Sort groups** and then re-select the metric (**Email hours** in the following example):
 
    ![Reverse sort order](../images/wpa/use/re-sort-by-metric.png)
 
@@ -201,15 +201,25 @@ Use **Page settings** to change the time range of the data, to change the attrib
 
 When you change chart display settings, your changes apply to all the charts on all the tabs of **Explore Metrics**. For example, when you set the chart display to group by _level_, all charts in all sections are grouped by that level.
 
-After you make settings, save them by selecting **Apply** in the upper-right corner of the page: 
+#### To apply or reset settings
+
+After you change a setting or add a filter, select **Apply** at the upper-right to apply the settings to the Explore charts. Or to change back to the default settings, select **Reset**.
 
 ![Apply button](../images/wpa/use/apply-reset.png)
+
+#### To save custom settings and applied filters for later use
+
+After you change one or more page settings or add one of more filters, you can select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save these chart settings or applied filters for later use.
+
+The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
+
+![Save settings](../images/wpa/use/save-page-settings.png)
 
 #### To change the date range
 
 1. Under **Page settings**, expand **Date range**.
 2. Under **Date range**, select a year and then select a month. 
-3. The selected month displays in more detail in a fly-out window. Use that window to select weeks in the month, one week at a time. 
+3. The selected month displays in more detail in a fly-out window. Use that window to select weeks in the month, one week at a time.
 4. Select **Apply**.
 
 > [!Note]
@@ -235,6 +245,7 @@ After you make settings, save them by selecting **Apply** in the upper-right cor
 
 1. To open the **Page settings** panel, expand **Max groups**.
 2. Use the **Max groups** slider to set the number of groups you want the charts to display.  
-4. Select **Apply**.
- 
-The **Max groups** slider moves in increments of 5 (groups). The minimum number of groups that you can display is 10 and the maximum is 100. When you add or remove groups, the scroll bar under the chart adjusts accordingly.
+3. Select **Apply**.
+
+> [!Note]
+> The **Max groups** slider moves in increments of 5 (groups). The minimum number of groups that you can display is 10 and the maximum is 100. When you add or remove groups, the scroll bar under the chart adjusts accordingly.
