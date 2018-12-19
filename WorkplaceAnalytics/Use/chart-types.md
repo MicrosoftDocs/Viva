@@ -211,7 +211,7 @@ After you change a setting or add a filter, select **Apply** at the upper-right 
 
 After you change one or more page settings or add one of more filters, you can select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save these chart settings or applied filters for later use.
 
-The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select **Load saved settings**.
+The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 
 ![Save settings](../images/wpa/use/save-page-settings.png)
 
