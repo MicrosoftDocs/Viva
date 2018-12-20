@@ -3,18 +3,18 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: PersonHistorical table (WPA Data Access)
+title: PersonHistorical for Workplace Analytics Data Export
 description: One row for each person for each HR change
 author: gbowerman
-ms.author: guybo
-ms.date: 06/14/2018
+ms.author: madehmer
+ms.date: 12/20/2018
 ms.topic: language-reference
 ms.prod: wpa
 ---
 
-# PersonHistorical table (CSV)
+# PersonHistorical (.csv)
 
-This table contains one row for each person for each HR change. A new row is created when a person's HR attributes change.
+This file includes one row for each person for each HR change with the following metrics. A new row is created when a person's HR attributes change.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
@@ -30,10 +30,9 @@ This table contains one row for each person for each HR change. A new row is cre
 |**HR Attribute n**||HR values that have been added to the data set. See [HR Attributes](#hr-attributes).|
 |**ExternalCollaboratorId**|**string**|Email address if PopulationType is ExternalCollaborator and the tenant is configured to include external email IDs in the report.|
 
-## Remarks
+## PopulationType
 
-### PopulationType
-The following table describes the possible values for the **PopulationType** column. 
+The following describes possible values for the **PopulationType** column.
 
 |Value|Description|
 |------|------|
@@ -43,5 +42,6 @@ The following table describes the possible values for the **PopulationType** col
 |DistributionList |An Active Directory distribution list.|
 |MeetingRoom |A meeting room.|
 
-### HR Attributes
+## HR attributes
+
 The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a required set of attributes, optional attributes, and custom attributes. For more information about these attributes, refer to [Prepare organizational data](../setup/prepare-organizational-data.md).

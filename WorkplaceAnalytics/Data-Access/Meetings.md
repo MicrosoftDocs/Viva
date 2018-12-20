@@ -3,17 +3,17 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Meetings table (WPA Data Access)
+title: Meetings for Workplace Analytics Data Export
 description: One row for each meeting and appointment
 author: gbowerman
-ms.author: guybo
-ms.date: 05/11/2018
+ms.author: madehmer
+ms.date: 12/20/2018
 ms.topic: language-reference
 ms.prod: wpa
 ---
-# Meetings table (CSV)
+# Meetings (.csv)
 
-This table contains one row for each meeting and appointment. Recurring meetings result in a row for each occurrence.
+This file includes one row for each meeting and appointment with the following metrics. Recurring meetings result in a row for each occurrence.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
@@ -30,5 +30,3 @@ This table contains one row for each meeting and appointment. Recurring meetings
 |**TotalAttendees**|**int**|Sum of total accept, total no-response, plus organizer.|
 |**TotalDoubleBooked**|**int**|Number of attendees who had conflicting meetings or appointments on their calendar.|
 |**TotalEmailsDuringMeeting**|**int**|Number of emails sent during the meeting by every attendee who did not decline.|
-
-  
