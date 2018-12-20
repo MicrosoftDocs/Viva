@@ -31,4 +31,4 @@ Users will see this error message when they have just purchased their tenants fo
 
 **Escalation Process** 
 
-To escalate this issue, contact [Microsoft support](https://support.microsoft.com/en-us/contactus/).
+To escalate this issue, contact [Microsoft support](https://support.microsoft.com/contactus/).

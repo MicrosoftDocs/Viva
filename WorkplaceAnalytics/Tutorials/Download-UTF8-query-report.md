@@ -45,7 +45,7 @@ The steps you take in this procedure differ in different versions of Excel. The 
 5. In the Get & Transform Data area, select **From Text/CSV**.
 6. In the Import Data dialog box, select the extracted .csv file and select **Import**.
 7. In the dialog box that appears, change File Origin to **65001: Unicode (UTF-8)**. 
-8. In the preview pane, examine the data. If it is still incorrect, contact [Microsoft support](https://support.microsoft.com/en-us/contactus/) for further guidance. If the data is correct, go to the next step.
+8. In the preview pane, examine the data. If it is still incorrect, contact [Microsoft support](https://support.microsoft.com/contactus/) for further guidance. If the data is correct, go to the next step.
 9. Select **Comma** as the delimiter.
 10. Select **Load**.
 
