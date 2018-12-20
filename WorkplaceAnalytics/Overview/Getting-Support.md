@@ -6,7 +6,7 @@ title: Get support for Workplace Analytics
 description: What support options are available for help with Workplace Analytics
 author: madehmer
 ms.author: madehmer
-ms.date: 11/26/2018
+ms.date: 12/19/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,3 +20,4 @@ ms.prod: wpa
 |Microsoft Support|Get general help with Office 365, Azure, PowerShell, or assigning licenses and any issues with user access.|See [Microsoft Support](https://support.microsoft.com/).|
 |Insights|A collection of articles from the leading edge of productivity analytics. Resources to examine new technologies that are helping people and organizations better manage their time and ultimately work smarter.|See [Microsoft Workplace Insights](http://insights.office.com/).|
 Workplace Analytics documentation|This self-service documentation set can help you with privacy considerations, setup, features and functionality, and analysis.|In [Workplace Analytics](https://workplaceanalytics.office.com), if you select **Help (?)** > **Documentation**, it’ll bring you back to this [documentation](../index.md).|
+|Workplace Analytics FastTrack services |If your company purchases 1,000 or more licenses, you can get help from our Workplace Analytics consultants through the FastTrack program. Our team can help you implement analytics technology more quickly and build new analytical capabilities. |Contact your Microsoft Customer Service representative. |
