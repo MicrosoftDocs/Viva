@@ -74,5 +74,5 @@ Storage mailboxes are Office 365-based mailboxes that contain synchronized data 
 
 ## How to get help
 
-* For personal guidance with partner solutions or help with Workplace Analytics setup and data analysis, email the Workplace Analytics Fast Track team at <wpaft@Microsoft.com>.
+* For personal guidance with partner solutions or help with Workplace Analytics setup and data analysis, email the Workplace Analytics FastTrack team at <wpaft@Microsoft.com>.
 * For general help with Office 365, Exchange, Azure Active Directory, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com).

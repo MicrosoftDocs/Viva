@@ -49,7 +49,4 @@ Workplace Analytics licenses are assigned just like any other Microsoft 365 prod
 
 #### If mailboxes are not fully migrated to Office 365 Exchange Online
 
-If your organization has not fully migrated to Office 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Office 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with the following options:
-
-* Migrate these mailboxes to Office 365 Exchange Online.
-* Contact the FastTrack team to understand the process for analyzing these mailboxes; this will require additional work streams within your organization.
+If your organization has not fully migrated to Office 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Office 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Office 365 Exchange Online.

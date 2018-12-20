@@ -3,16 +3,16 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Data Access (WPA Data Access)
-description: Overview of Workplace Analytics Data Access
+title: Workplace Analytics Data Export
+description: Overview of Workplace Analytics Data Export
 author: madehmer
 ms.author: madehmer
-ms.date: 11/28/2018
+ms.date: 12/19/2018
 ms.topic: language-reference
 ms.prod: wpa
 ---
 
-# Workplace Analytics Data Access
+# Workplace Analytics Data Export
 
 Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond Workplace Analytics metrics and queries. This custom data exploration might include combining Workplace Analytics data with other data sets, such as:  
 
@@ -20,13 +20,13 @@ Your company might have unique data-analysis needs that require custom explorati
 * Do people with the same function who are co-located spend more time together as compared to people with the same function who are not co-located?
 * How effective is your sales team or customer service team.?
 
-You can get access to the underlying Workplace Analytics pre-processed data model as part of a Customer Solutions (CS) engagement.
+You can get export to the underlying Workplace Analytics pre-processed data model as part of a Customer Service (CS) engagement.
 
-After you get a Customer Solutions agreement, Microsoft can enable data access for your Office 365 tenant. After data access is enabled, your Workplace Analytics admin can view and use the Data Access tab on the Workplace Analytics Settings page. The Data Access page enables your admin to save a [SAS URI](https://go.microsoft.com/fwlink/?linkid=871677), which points to an Azure storage container with write-only permission.
+After you get a Customer Solutions agreement, Microsoft can enable data export for your Office 365 tenant. After data export is enabled, your Workplace Analytics admin can view and use the Data Export tab on the Workplace Analytics Settings page. The Data Export page enables your admin to save a [SAS URI](https://go.microsoft.com/fwlink/?linkid=871677), which points to an Azure storage container with write-only permission.
 
 Saving the SAS URI enables a workflow that exports the Workplace Analytics data to the storage container. The data will be exported each time it is refreshed, for the agreed duration of the CS agreement.
 
-## Data access schema for Workplace Analytics
+## Data export schema for Workplace Analytics
 
 The data structure of pre-processed Workplace Analytics data, when it is exported to a customer-owned Azure storage account, in the form of .csv files with column headers is shown in the following graphic.
 
@@ -46,7 +46,7 @@ Each of the following tables are exported as a separate .csv file in the designa
 
 [Mails](./Mails.md)
 
-## Creating Azure infrastructure for data access
+## Creating Azure infrastructure for data export
 
 To prepare for a Workplace Analytics data export, you need a current Azure subscription and an Azure storage account that contains an Azure storage container. You also need to create a write-only SAS key for the container.
 
@@ -104,14 +104,14 @@ SASKEY=`az storage container generate-sas --account-name $SANAME --account-key $
 # remove quotes
 SASKEY=${SASKEY:1:-1}
 
-# return a read-only SAS URI which can be used by an analyst to access data
+# return a read-only SAS URI which can be used by an analyst to export data
 echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 ```
 
 ## Saving the data export location and field privacy settings
 
-After you have a write-only SAS URI that points to an Azure storage container, enter the URI in the Data Access tab of the Workplace Analytics Settings page to set the data-export location. This page also has a field-privacy section, where you can specify which HR attributes should be included in the export, and which attributes should be masked. You can also use the field-privacy settings to exclude or mask other potentially sensitive attributes, such as email subject lines.
+After you have a write-only SAS URI that points to an Azure storage container, enter the URI in the Data Export tab of the Workplace Analytics Settings page to set the data-export location. This page also has a field-privacy section, where you can specify which HR attributes should be included in the export, and which attributes should be masked. You can also use the field-privacy settings to exclude or mask other potentially sensitive attributes, such as email subject lines.
 
-![Workplace Analytics data access settings page](./images/data-access-ui.png)
+![Workplace Analytics data export settings page](./images/data-access-ui.png)
 
 When you select **Save**, the data is exported to the Azure storage container the next time the Workplace Analytics data is refreshed.
