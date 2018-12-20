@@ -3,7 +3,7 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: MailParticipants for Workplace Analytics Data Export
+title: Email participant metrics for Workplace Analytics Data Export
 description: One row for every email sent, and every email received
 author: gbowerman
 ms.author: madehmer

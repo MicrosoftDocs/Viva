@@ -24,7 +24,7 @@ Saving the SAS URI enables a workflow that exports the Workplace Analytics data 
 
 ## Data export schema for Workplace Analytics
 
-You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The following .csv files are included in data exports. Select a file to view what metrics are included in that file, including the metric data types and definitions.  
+You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
 [Meetings](./Meetings.md)
 

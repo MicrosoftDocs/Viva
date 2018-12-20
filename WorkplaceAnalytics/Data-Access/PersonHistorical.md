@@ -3,7 +3,7 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: PersonHistorical for Workplace Analytics Data Export
+title: Historical person metrics for Workplace Analytics Data Export
 description: One row for each person for each HR change
 author: gbowerman
 ms.author: madehmer

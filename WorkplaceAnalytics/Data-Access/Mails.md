@@ -3,7 +3,7 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Mail metrics for Workplace Analytics Data Export
+title: Email metrics for Workplace Analytics Data Export
 description: One row for every email sent
 author: gbowerman
 ms.author: madehmer
