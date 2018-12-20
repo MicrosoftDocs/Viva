@@ -48,12 +48,15 @@ Before you can export Workplace Analytics data, you need to confirm or do the fo
 
 * You can manually create an Azure storage container and associated resources by using the [Azure Portal](https://portal.azure.com) and the [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
 
-* Or you can automate the creation of the Azure storage environment and generate an SAS URI for the container by using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full). The following example script uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) to create the container and the SAS URI.
+* Or you can automate the creation of the Azure storage environment and generate the SAS URI for the container by using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full).
 
-   >[!Notes]
-   >* The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments.
-   >* The resources are created if they do not already exist. You can run this script directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/).
-   >* Update the _EXPIRY_ variable in this script to match the expiration date of your CS engagement.
+#### Example script
+The following example script uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) to create the container and the SAS URI.
+
+>[!Notes]
+>* The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments.
+>* The resources are created if they do not already exist. You can run this script directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/).
+>* Update the _EXPIRY_ variable in this script to match the expiration date of your CS engagement.
 
 ```
 #!/bin/bash
@@ -109,7 +112,7 @@ echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 
 1. In Workplace Analytics, go to **Settings** > **Data export**.
 2. In **Azure storage container SAS URI**, enter the URI for the Azure storage container.
-3. In the **Field privacy** section, you can select which HR attributes should be included in the export and which attributes should be masked. Note the options for the required fields are locked (cannot be changed) at the top of the list, as shown in the following graphic.
-4. Select **Save** to save your selections and enable a workflow that exports the Workplace Analytics data to the storage container. The applicable data is then exported to Azure during each subsequent data refresh in Workplace Analytics.
+3. In the **Field privacy** section, you can select which fields to include and which fields to mask in the export. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
+4. Select **Save** (top right) to save your selections and enable a workflow that exports the Workplace Analytics data to the storage container. The applicable data is then exported to Azure during each subsequent data refresh in Workplace Analytics.
 
-![Workplace Analytics data export settings page](./images/data-export.png)
+   ![Workplace Analytics data export settings page](./images/data-export.png)
