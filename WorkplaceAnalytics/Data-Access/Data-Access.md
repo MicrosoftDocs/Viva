@@ -18,23 +18,29 @@ Your company might have unique data-analysis needs that require custom explorati
 
 You can only get access to the underlying Workplace Analytics pre-processed data as part of a Customer Service (CS) engagement.
 
-After you get a CS agreement, Microsoft can enable data export for your Office 365 tenant. After data export is enabled, your Workplace Analytics admin can view and use the Data Export page in Workplace Analytics to save the [SAS URI](https://go.microsoft.com/fwlink/?linkid=871677), which points to an Azure storage container with write-only permission.
+After you get a CS agreement, Microsoft can enable data export for your Office 365 tenant. After data export is enabled, your Workplace Analytics admin can view and use the Data Export page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
 
 Saving the SAS URI enables a workflow that exports the Workplace Analytics data to the storage container. The data will be exported each time it is refreshed, for the agreed duration of the CS agreement.
 
-## Data export schema for Workplace Analytics
+## Data included in the export
 
-You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The following .csv files are included in data exports. Select a file to view what metrics are included in that file, including the metric data types and definitions.  
+You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
-[Meetings](./Meetings.md)
+* [Meetings](./Meetings.md)
+* [MeetingParticipants](./MeetingParticipants.md)
+* [PersonHistorical](./PersonHistorical.md)
+* [MailParticipants](./MailParticipants.md)
+* [Mails](./Mails.md)
 
-[MeetingParticipants](./MeetingParticipants.md)
+## To export data from Workplace Analytics
 
-[PersonHistorical](./PersonHistorical.md)
+1. Set up your Azure storage container as described in the following sections.
+2. In Workplace Analytics, go to **Settings** > **Data export**.
+3. In **Azure storage container SAS URI**, enter the URI for the Azure storage container. 
+4. In the **Field privacy** section, you can select which fields to include and which fields to mask in the export. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
+5. Select **Save** (top right) to save your selections and enable a workflow that exports the Workplace Analytics data to the storage container. The applicable data is then exported to Azure during each subsequent data refresh in Workplace Analytics.
 
-[MailParticipants](./MailParticipants.md)
-
-[Mails](./Mails.md)
+   ![Workplace Analytics data export settings page](./images/data-export.png)
 
 ## Azure environment requirements
 
@@ -44,19 +50,19 @@ Before you can export Workplace Analytics data, you need to confirm or do the fo
 
 * Create a write-only SAS URI for this storage container. The following section provides an option to set this up as part of creating the storage container. To learn more about SAS, see [Delegating Access with a Shared Access Signature](https://docs.microsoft.com/rest/api/storageservices/delegating-access-with-a-shared-access-signature).
 
-### Azure storage container setup
+## Azure storage container setup
 
 * You can manually create an Azure storage container and associated resources by using the [Azure Portal](https://portal.azure.com) and the [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
 
 * Or you can automate the creation of the Azure storage environment and generate the SAS URI for the container by using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full).
 
-#### Example script
+### Example script
 The following example script uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) to create the container and the SAS URI.
 
->[!Notes]
->* The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments.
->* The resources are created if they do not already exist. You can run this script directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/).
->* Update the _EXPIRY_ variable in this script to match the expiration date of your CS engagement.
+> [!Note]
+> * The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments.
+> * The resources are created if they do not already exist. You can run this script directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/).
+> * Update the _EXPIRY_ variable in this script to match the expiration date of your CS engagement.
 
 ```
 #!/bin/bash
@@ -107,12 +113,3 @@ SASKEY=${SASKEY:1:-1}
 # return a read-only SAS URI which can be used by an analyst to export data
 echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 ```
-
-## To export data from Workplace Analytics
-
-1. In Workplace Analytics, go to **Settings** > **Data export**.
-2. In **Azure storage container SAS URI**, enter the URI for the Azure storage container.
-3. In the **Field privacy** section, you can select which fields to include and which fields to mask in the export. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
-4. Select **Save** (top right) to save your selections and enable a workflow that exports the Workplace Analytics data to the storage container. The applicable data is then exported to Azure during each subsequent data refresh in Workplace Analytics.
-
-   ![Workplace Analytics data export settings page](./images/data-export.png)
