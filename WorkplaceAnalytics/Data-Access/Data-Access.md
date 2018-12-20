@@ -53,10 +53,10 @@ Before you can export Workplace Analytics data, you need to confirm or do the fo
 #### Example script
 The following example script uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) to create the container and the SAS URI.
 
->[!Notes]
->* The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments.
->* The resources are created if they do not already exist. You can run this script directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/).
->* Update the _EXPIRY_ variable in this script to match the expiration date of your CS engagement.
+> [!Note]
+> * The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments.
+> * The resources are created if they do not already exist. You can run this script directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/).
+> * Update the _EXPIRY_ variable in this script to match the expiration date of your CS engagement.
 
 ```
 #!/bin/bash
