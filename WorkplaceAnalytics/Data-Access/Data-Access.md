@@ -34,7 +34,7 @@ You can export pre-processed Workplace Analytics data to a designated Azure stor
 
 ## To export data from Workplace Analytics
 
-1. Set up your Azure storage container as described in the following sections.
+1. Set up your Azure storage container as described in [Azure environment requirements](#azure-environment-requirements) and [Azure storage container setup](#azure-storage-container-setup).
 2. In Workplace Analytics, go to **Settings** > **Data export**.
 3. In **Azure storage container SAS URI**, enter the URI for the Azure storage container. 
 4. In the **Field privacy** section, you can select which fields to include and which fields to mask in the export. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
@@ -56,7 +56,7 @@ Before you can export Workplace Analytics data, you need to confirm or do the fo
 
 * Or you can automate the creation of the Azure storage environment and generate the SAS URI for the container by using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full).
 
-### Example script
+#### Example script
 The following example script uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) to create the container and the SAS URI.
 
 > [!Note]
