@@ -4,22 +4,23 @@
 
 title: Workplace Analytics Data Sources
 description: This article gives an overview of the Data sources feature in Workplace Analytics. 
-author: buntus
-ms.author: rodonahu
-ms.date: 01/19/2018
+author: madehmer
+ms.author: madehmer
+ms.date: 12/18/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Data sources
 
-Data sources contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
+**Data sources** contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
 
-![Data sources](../images/WpA/Use/Data-sources.png)
+![Data sources](../images/WpA/Use/data-sources.png)
 
 [!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
 
-The Data sources page consists of three sections:
+The Data sources page consists of the following sections:
 
 * **Data sources summary** is an overview of the source mailboxes and collaborators that make up the data set.
 * **Office 365 data summary** shows the overall trend of email and meeting hours and volume in the data set.
@@ -28,13 +29,14 @@ The Data sources page consists of three sections:
 Using Data sources metrics, Workplace Analytics administrators and data analysts can:
 
 * Get a high-level view of the data that is available for analysis.
-* Verify that the organizational data they need for their specific analysis are available, and work with internal suppliers of the data (HR information system administrators, line of business (LOB) system administrators, or data analysts) to verify the necessary data has been loaded as expected.
+* Verify that the organizational data they need for their specific analysis is available, and work with internal suppliers of the data (HR information system administrators, line of business [LOB] system administrators, and data analysts) to verify the necessary data has been loaded as expected.
 * Verify that the data is of sufficient quality to analyze the business problem.
 
 ## Data sources summary
+
 The Data sources summary provides the following information about your data:
 
-* The number of **measured employees** for which Workplace Analytics gathers meeting and email data. These are the people that can be the subject of your analysis. (This should be equal to the number of Workplace Analytics licenses that you assigned during provisioning.) This number can help determine whether you have a good representation of the organization.
+* The number of **measured employees** for whom your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics collects meeting and email data for these people. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. This number can help determine whether you have a good representation of the organization.  
 
 * The number of people not part of your measured population (both internal and external) with whom the measured employees collaborated.
 
@@ -42,7 +44,7 @@ The Data sources summary provides the following information about your data:
 
 * The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly.
 
-![Data sources summary](../images//WpA/Use/Data-sources-summary.png)
+![Data sources summary](../images/wpa/Use/Data-sources-summary.png)
 
 For more information about what data is needed to compute metrics, see these topics:
 
@@ -53,13 +55,14 @@ For more information about what data is needed to compute metrics, see these top
 [Glossary](../Use/Glossary.md)
 
 ## Office 365 data summary
+
 Office 365 data summary provides a view that you can use to evaluate meeting and email collaboration data levels over a given time period. It provides a view of average weekly meeting and mail hours, sent mails, and meetings attended over time. The Last refreshed date shows when data was most recently processed.
 
 Analysts can use these views to look for time periods that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-![Data sources summary](../images//WpA/Use/o365-data.png)
+![Data sources summary](../images/wpa/Use/o365-data.png)
 
-These are some examples of scenarios where you might encounter inconsistency in email or meeting volume:
+The following are examples of where you might encounter inconsistency in email or meeting volume.
 
 * **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
 
@@ -69,20 +72,24 @@ These are some examples of scenarios where you might encounter inconsistency in 
 
 ## Organizational data summary
 
-Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute). 
+Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute).
 
-![Data sources summary](../images//WpA/Use/organizational-data-summary.png)
+![Data sources summary](../images/wpa/Use/organizational-data-summary.png)
 
 The **Last refreshed** date shows when data was last processed.
 
 ### Values
-This is a list of the attributes supplied by your organization. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
+
+A list of the attributes provided by your organization. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
 
 ### Measured employees
-This is the number of measured employees who had a value for the attribute.
+
+The number of employees for whom your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics collects meeting and email data about these people. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics.
 
 ### Coverage
-This is the percentage of measured employees who have a value specified for the given attribute. If coverage levels are low, it will be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
+
+The percentage of measured employees who have a value specified for the given attribute. If coverage levels are low, it will be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
 
 ### Unique values
-This is the count of the unique attribute values included in the data. For example, if the attribute Region contains North, South, Central, East, West and Southwest, it’s unique values count is 6.
+
+The count of the unique attribute values included in the data. For example, if the attribute Region contains North, South, Central, East, West and Southwest, it’s unique values count is six.

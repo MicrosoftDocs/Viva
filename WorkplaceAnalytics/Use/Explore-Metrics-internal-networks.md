@@ -4,43 +4,45 @@
 
 title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal networks collaboration dashboards available in Workplace Analytics.
-author: madehmer
+author: paul9955
 ms.author: madehmer
-ms.date: 11/16/2018
+ms.date: 12/13/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Internal networks
 
-The **Internal networks** page in **Explore**, shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
+The **Internal networks** page in **Explore** shows network connections between different people exclusively within a company; for example, between the sales department and the human resources department.
 
-![Networks and collaboration](../images/WpA/Use/networks-and-collaboration-explore.png)
+![Networks and collaboration](../images/wpa/use/networks-and-collaboration-explore.png)
 
 To open the **Internal networks** page:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organizational credentials.
-2. In the left navigation pane, select **Explore**.
-3. In **Explore**, select the **Internal networks** tab.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
+2. In the left navigation pane, select **Analyze** and then select **Explore**.
+3. In **Explore**, select **Internal networks**.
 
-## Network size and network breadth  
+## Network size and network breadth 
+
 **Network size and network breadth** help illustrate whether employees are connected to a variety of other people, or whether they work in a more insular way, siloed within their immediate work group. A person's network health is also a key indicator of engagement.
 
 ## Employee connections and networks across the company
 
 The **Network diversity** bubble graph shows how each organization in the company compares to the company median for network size and breadth.
 
-![Network diversity](../images/WpA/Use/network-diversity-explore.png)
+![Network diversity](../images/wpa/use/16-network-diversity.png)
 
 * The quadrants of the chart are delineated at the median for both network size and network breadth.
-* Bubbles represent organizations, the size of each bubble indicates the number of distinct measured employees in the corresponding organization.
+* Bubbles represent organizations; the size of each bubble indicates the number of distinct measured employees in the corresponding organization.
 * Placement on the chart is determined by the average network size and network breadth of people in each organization.
 
 ## Internal network size
 
 **Internal network size** is the average number of people with whom a person has at least two meaningful interactions (a meeting or email between five or fewer people). Network connections are measured on a rolling four-week basis.
 
-![Internal network size](../images/WpA/Use/internal-network-size-explore.png)
+![Internal network size](../images/wpa/use/17-internal-network-size.png)
 
 ### Why it's important
 
@@ -57,7 +59,7 @@ Network size can indicate:
 
 Internal network breadth is the average number of organizations an employee connected with (based on meaningful interactions) during the period selected.
 
-![Internal network breadth](../images/WpA/Use/internal-network-breadth.png)
+![Internal network breadth](../images/wpa/use/18-internal-network-breadth.png)
 
 ### Why it's important
 
@@ -68,4 +70,7 @@ Network breadth can indicate:
 * The success of on-boarding programs for new employees by comparing newer employees to longer-tenured employees.
 * The success and speed at which acquisitions are integrated into a company by comparing acquired groups to the rest of the company.
 
-</br>
+## Related topics
+
+[Workplace Analytics Charts](../use/chart-types.md)
+

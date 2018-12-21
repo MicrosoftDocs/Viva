@@ -7,6 +7,7 @@
     - name: Frequently asked questions
       href: ./Overview/MyA-faq.md        
     - name: MyAnalytics for admins
+      href: ./overview/mya-for-admins.md
       items:     
       - name: MyAnalytics Setup
         href: ./Setup/Mya-setup-checklist.md        

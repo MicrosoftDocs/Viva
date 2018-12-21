@@ -47,7 +47,7 @@
             - name: Subsequent uploads
               href: ~/setup/upload-organizational-data.md         
         - name: Data sources
-          href: ~/Use/Data-Sources.md            
+          href: ~/Use/data-Sources.md            
         - name: Time zones for Workplace Analytics
           href: ~/Use/Timezones-for-Workplace-analytics.md
     - name: Use Workplace Analytics
@@ -69,7 +69,7 @@
                   href: ~/Use/Explore-Metrics-internal-networks.md
                 - name: External collaboration
                   href: ~/Use/Explore-Metrics-external-collaboration.md 
-                - name: Chart types
+                - name: Charts
                   href: ~/Use/Chart-Types.md
             - name: Queries
               href: ~/tutorials/Query-basics.md 
@@ -109,7 +109,11 @@
                 - name: Participants
                   href: ~/tutorials/Solutions-participants.md                                       
                 - name: Concepts
-                  href: ~/tutorials/Solutions-conceptual.md             
+                  href: ~/tutorials/Solutions-conceptual.md
+    - name: Notifications
+      href: ~/use/wpa-notifications.md     
+    - name: Frequently asked questions
+      href: ~/use/faq.md       
     - name: Reference
       items:
         - name: Glossary
@@ -136,9 +140,10 @@
     - name: Why use MyAnalytics?
       href: MyAnalytics/Overview/Better-work-habits.md    
     - name: Frequently asked questions
-      href: MyAnalytics/Overview/MyA-faq.md        
+      href: MyAnalytics/Overview/MyA-faq.md
     - name: MyAnalytics for admins
-      items:     
+      href: MyAnalytics/overview/mya-for-admins.md
+      items:      
       - name: MyAnalytics Setup
         href: MyAnalytics/Setup/Mya-setup-checklist.md        
       - name: MyAnalytics privacy guide for admins

@@ -124,6 +124,7 @@ If no hourly rate is assigned to a meeting participant in the organizational dat
 
 -  In the **Hourly rate** field, under System defaults, enter the appropriate employee hourly rate.
 
+
 ## Privacy settings
 
 In the **Privacy settings** section, you can decide what data you want to exclude from analysis and what data you want to be visible in queries and dashboards. You can use privacy settings to:
@@ -159,7 +160,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
    In histograms, the x-axis consists of rectangles, called "bins", that are based on average metric values, and the y-axis determines the number of people whose average metric value puts them in that bin. _Neither of these values reflects organizational data._ For this reason, the histogram still displays data for a bin even if it contains fewer people than the minimum-group-size value. Histogram charts can safely display this information because the information is based on metrics -- on values calculated from observed behavior, _not_ on HR data.
 
    Even if a bin in a histogram contained data for only one individual, the histogram still displays that data. You cannot single out this individual because you do not know what HR group they belong to. (In other charts, such as column charts, an individual in a group below the threshold might be identifiable, but in a histogram the HR group to which individuals belong is the larger filter group.) You also cannot determine the precise metric value of individuals because they are in a bin with a minimum 0.5-hour range.
-
+  
   You can see histogram charts on the following pages in Workplace Analytics:
 
 * In Explore on the [Management and coaching](../use/explore-metrics-management-and-coaching.md)
@@ -189,7 +190,6 @@ If you select **Yes**, you could run a meeting query with the subject-line keywo
         - Specific users in specific domains
 
    That is, you can exclude from analysis any emails and meetings emails to, or from, specific users, or exclude all users from specified domains. Any and all emails and meetings in which these email addresses are included (as both sender or recipient, and attendee or invitee) are now excluded. Regarding domains, you only have the option to exclude (blacklist) _not_ include (whitelist) specific domains.
-
    Terms can be any combination of letters, numbers and special characters: for example, client attorney privilege; D&I. Any items you exclude will not be included in the analysis, so it is important to carefully consider and balance your privacy and data analysis goals.  if you exclude domains, email addresses, or subject terms that frequently appear in the collaboration data set, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Workplace Analytics. Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
 
 > [!Note]

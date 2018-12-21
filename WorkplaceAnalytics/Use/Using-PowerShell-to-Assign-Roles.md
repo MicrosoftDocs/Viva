@@ -17,7 +17,7 @@ ms.prod: wpa
 
 1. Open an elevated Windows PowerShell command prompt.
 2. Run the following command: **Install-Module -Name AzureAD**
-3. If prompted to install a NuGet module or the new Azure Active Directory v2 PowerShell module, type **Y** and then press **ENTER**.
+3. If prompted to install a NuGet module or the new Azure Active Directory v2 PowerShell module, type **Y** and then press **Enter**.
 4. Run the following command to connect to your Office 365 subscription: **Connect-AzureAD**
 5. In the Azure Active Directory PowerShell dialog box, type your Office 365 work account user name and password, and then select **Sign in**.
 6. If prompted, follow the instructions for additional authentication information, such as a verification code, and then select **Sign in**.

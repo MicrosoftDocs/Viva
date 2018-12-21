@@ -6,7 +6,7 @@ title: Tips for uploading org data
 description: Tips when uploading org data to MyAnalytics. 
 author: paul9955
 ms.author: madehmer
-ms.date: 11/12/2018
+ms.date: 12/04/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -28,13 +28,13 @@ All field header or column names must:
 The field values in the data row must comply with the following formatting rules:
 
 * The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format
-* The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not <gc> gc@contoso.com) 
+* The required PersonId and ManagerId field values must be a valid email address (for example, gc@contoso.com). 
 * The required TimeZone field values must be in a supported Windows format.
-* The required Layer field values must be numbers only
-* The required HourlyRate field values must be numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis
+* The required Layer field values must contain numbers only.
+* The required HourlyRate field values must contain numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
 
 >[!Note]
->Workplace Analytics doesn’t currently do any currency conversions for the HourlyRate data. All calculations and data analysis in Workplace Analytics assumes the data is in US dollars.
+> Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
 
 The field values also cannot contain any of the following:
 
@@ -46,7 +46,7 @@ The field values also cannot contain any of the following:
 * No double (” ”) or single quotes (‘ ‘)
 * Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
 
-### Adding missing data
+### Addition of missing data
 
 Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
 

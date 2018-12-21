@@ -5,11 +5,11 @@
 title: MyAnalytics setup for Office 365 Administrators
 description: A checklist of setup steps for Office 365 Administrators to implement MyAnalytics in their organization 
 author: buntus
-ms.author: v-pascha
-ms.date: 02/26/2018
+ms.author: paul9955
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: mpa
+ms.prod: mya
 ---
 
 # MyAnalytics setup for Office 365 Administrators
