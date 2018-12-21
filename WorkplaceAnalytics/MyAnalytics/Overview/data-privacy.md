@@ -6,10 +6,10 @@ title: MyAnalytics data use protects privacy
 description: How MyAnalytics use of data protects user privacy
 author: paul9955
 ms.author: v-pascha
-ms.date: 11/14/2018
+ms.date: 12/14/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 # MyAnalytics data use protects privacy 

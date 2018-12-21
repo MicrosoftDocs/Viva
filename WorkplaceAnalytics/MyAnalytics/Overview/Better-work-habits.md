@@ -5,11 +5,11 @@
 title: Build better work habits with personal productivity insights in MyAnalytics
 description: My organization installed MyAnalytics. Why should I use it? 
 author: paul9955
-ms.author: v-pascha
-ms.date: 04/11/2018
+ms.author: paul9955
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 localization_priority: Once
 ---
 

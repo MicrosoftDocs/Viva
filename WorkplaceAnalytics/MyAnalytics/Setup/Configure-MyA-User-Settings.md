@@ -5,11 +5,11 @@
 title: Configure MyAnalytics user settings
 description: Configure MyAnalytics settings for new users. 
 author: buntus
-ms.author: v-pascha
-ms.date: 01/19/2018
+ms.author: paul9955
+ms.date: 12/17/2018
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 ---
 
 Use the following options to configure MyAnalytics for each user in your organization. You can change these default behaviors for any user by setting the *PrivacyMode* parameter:

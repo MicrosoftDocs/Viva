@@ -3,18 +3,18 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: MeetingParticipants table (WPA Data Access)
+title: Meeting participant metrics for Workplace Analytics Data Export
 description: One row for each meeting and appointment
 author: gbowerman
-ms.author: guybo
-ms.date: 05/11/2018
+ms.author: madehmer
+ms.date: 12/20/2018
 ms.topic: language-reference
 ms.prod: wpa
 ---
 
-# MeetingParticipants table (CSV)
+# MeetingParticipants (.csv)
 
-This table contains one row for each participant in a calendar meeting.
+This file has one row for each participant in a calendar meeting with the following metrics.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
@@ -26,6 +26,3 @@ This table contains one row for each participant in a calendar meeting.
 |**LocalStartTime**|**datetime**|Start time of the meeting in the participant's local time.|
 |**DurationMinutesAdjusted**|**double**|Time spent in meeting, adjusted if double booked.|
 |**EmailsSentDuringMeeting**|**int**|The number of meetings sent by this participant in this meeting.|
-
-
-  
