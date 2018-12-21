@@ -14,12 +14,7 @@ ms.prod: wpa
 
 # Configure Workplace Analytics settings
 
-As a Workplace Analytics administrator, you can use the **Settings** pages to customize system defaults and privacy settings and to upload data to Workplace Analytics.
-
->[!Note]
->You must be assigned the Administrator role to access the Settings pages. For more information, see [Assign roles to Workplace Analytics admins and analysts](https://docs.microsoft.com/workplace-analytics/setup/assign-roles-to-wpa-admins).
-
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
+The Settings pages of Workplace Analytics are used to customize system defaults and privacy settings and to upload data. These are the four Settings pages: 
 
 <ul><li>
 
@@ -35,11 +30,24 @@ As a Workplace Analytics administrator, you can use the **Settings** pages to cu
 
 </li><li> 
 
-[Admin settings](#admin-settings) —  Configure default time-zone and privacy settings.
+[Admin settings](#admin-settings) —  Configure system defaults and privacy settings.
 
 </ul>
 
+[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
+
+>[!Note]
+>The access you have to the Settings pages depends on the role (admin, analyst, or analyst limited) that you’ve been assigned:
+
+| Settings page |Admin | Analyst  | Analyst limited |  
+|---|---|---|---|
+|Sources |Full access| Full access |Full access| 
+|Upload |Full access |No access |No access 
+|Analysis settings|No access |Full access |Read only| 
+|Admin settings| Full access |No access| No access 
+
+For more information, see [Assign Workplace Analytics roles.](https://docs.microsoft.com/workplace-analytics/setup/assign-roles-to-wpa-admins).
 
 ## Sources
 
@@ -68,7 +76,7 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 On the **Admin settings** page, you can configure system defaults and privacy settings.
 
-![Admin settings](../images/WPA/use/settings-admin-settings_a.png)
+![Admin settings](../images/WPA/use/settings-system-defaults.png)
 
 ## System defaults
 
