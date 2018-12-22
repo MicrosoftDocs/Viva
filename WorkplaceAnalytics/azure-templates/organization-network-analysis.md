@@ -7,7 +7,7 @@ title: Organization Network Analysis Azure Template for Workplace Analytics
 description: Learn about the Organization Network Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: madehmer
-ms.date: 12/17/2018
+ms.date: 12/21/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -21,7 +21,7 @@ Workplace Analytics provides several metrics to help you visualize and analyze f
 ## To render a network analysis graph
 
 1. In Workplace Analytics Azure Templates, select **Organization Network Analysis**.
-2. Select one or more filters for the graph. The available filters match up to the HR attributes included in the imported [organizational data from Workplace Analytics](../setup/prepare-organizational-data.md#step-three--export-data). For example, Engagement, FunctionType, KeyTalent, and LevelDesignation, as shown in the following graphic.
+2. Select one or more filters for the graph. The available filters match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#step-three--export-data) from Workplace Analytics. For example, Engagement, FunctionType, KeyTalent, and LevelDesignation, as shown in the following graphic.
 
    ![Organization Network Analysis](./images/ona-filter-options.png)
 
@@ -42,37 +42,39 @@ Workplace Analytics provides several metrics to help you visualize and analyze f
 
 ## Node Sizing
 
-You can apply the following node sizing options to change how the data is measured and shown   in the graph. What a node represents (people or groups) is based on the data and the filters you select for the graph.
+You can apply the following node sizing options to change how the data is measured and shown in the graph. The data and the filters you select for the graph determine what a node represents (people or groups).
 
 ![Organization Network Analysis](./images/ona-node-sizing.png)
 
 ### Number of employees
 
-The node size is based on the number of people in that group. The larger node sizes represent the nodes with the larger number of people in that network.
+The node size is based on the number of people in that particular group. The larger node sizes represent the nodes with the larger number of people in that network.
 
 ### Betweenness
 
-A measure of how much of a key connector a person or group (node) is in the network. This is calculated by finding the shortest paths between all nodes to all other nodes in the network and finding the number of times a node appears on this shortest path. The more times a node appears on the shortest path between other nodes, the more of a key connector that node is and therefore the higher the node’s betweenness score is.
+Betweenness is a measure of how much of a key connector a person or group (node) is in the network. This is calculated by finding the shortest paths between all nodes to all other nodes in the network and finding the number of times a node appears on the shortest path. The more times a node appears on the shortest path between other nodes, the more of a key connector that node is and therefore the higher the node’s betweenness score is.
 
 ### Closeness
 
-Finds the nodes that are closest to the other nodes in a network, based on their ability to reach them. It then calculates each node’s shortest path to every other node, then assigns each node a score based on the sum of all the paths. Nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information.
+Closeness finds the nodes that are closest to the other nodes in a network, based on their ability to reach them. It then calculates each node’s shortest path to every other node, then assigns each node a score based on the sum of all the paths. Nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information.
 
 ### Degrees
 
-Finds nodes with the highest number of links to other nodes within the network. Nodes with a high degree of links are those people or groups who have the best connections to others in the network. These people or groups can be key influencers or might just be strategically important for communication.
+Degrees finds nodes with the highest number of links to other nodes within the network. Nodes with a high degree of links are those people or groups who have the best connections to others in the network. These people or groups can be key influencers or might just be strategically important for communication.
 
 ### Page Ranking
 
-A measure of importance based on the number of incoming connections.
+Page Ranking is a measure of importance based on the number of incoming connections.
 
 > [!Note]
-> When the link direction information is unavailable, Page Ranking might show a graph that is similar or the same as the Degrees option.
+> When the link direction (connection) information is unavailable, Page Ranking might show a graph that is similar or the same as the Degrees option.
 
 ### Eigen Centrality
 
-A measure of influence that considers the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and can be key influencers in their network.
+Eigen Centrality is a measure of influence that considers the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and can be key influencers in their network.
 As shown in the following graphic, Engineering, R&D, and Sales are key influencers that connect all the other groups.
+
+![Eigen Centrality](./images/ona-eigen.png)
 
 ### Intersectionality
 
