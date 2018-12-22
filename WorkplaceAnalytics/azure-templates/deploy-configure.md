@@ -35,19 +35,29 @@ Before deploying and configuring these templates, review the following security 
 Before deploying Workplace Analytics Azure Templates, confirm or complete the following:
 
 1. Confirm that [Workplace Analytics is set up](../setup/set-up-workplace-analytics.md) and ready to use.
+
 2. Enable [Workplace Analytics data export](../data-access/data-access.md) for the Azure tenant.
+
 3. Do the following for the Azure subscription that will host these templates and the data exported from Workplace Analytics:
+
    a. Confirm you have either an Azure Admin or an Azure Contributor role to deploy these templates.
+
    b. Get [applicable Azure AD permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Office 365 global administrator.
+
    c. If the Workplace Analytics team is deploying the templates, confirm that vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Azure AD permissions to install and set up the templates.
 
 ## Deployment
 
 1. Get an Azure deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
+
 2. When prompted, select the Azure subscription and **Region**, and then select **Next**.
+
 3. Select **Launch Workspace**.
-4. You are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually .
+
+4. You are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
+
 5. You then need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
+
 6. On the **Summary** page, select a SKU for the data cluster, which must be about 30 percent larger than your Workplace Analytics data set (ask your Workplace Analytics Admin for help with this), for the following Azure components:
    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
    * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
@@ -56,7 +66,9 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
    * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
+
 7. Select **Run** to deploy resources for the Azure components.
+
 8. When the deployment succeeds, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
    >[!Important]
    >You must save this deployed website link because you and the other users you add need it to configure and use the templates.
@@ -85,7 +97,9 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 **To add users and assign them roles:**
 
 1. Use the website link (from the last step in Deployment) to open the Workplace Analytics Azure Templates.
+
 2. Select **Admin** > **User Management** > **Add New User**.
+
 3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 
      ![Add Workplace Analytics users](./images/add-user.png)
@@ -109,6 +123,7 @@ After adding users, you need to process the Workplace Analytics data that you wa
    * **PersonalHistorical.csv**
 
    If these .csv files are not already in the **rawdata** folder, you need to use the Azure Storage Explorer (or other comparable tool) to connect to the Azure storage group that currently stores your Workplace Analytics data set, and select and copy these files into that folder.
+
 3. In the Workplace Analytics Azure Templates app, select **Admin** > **Scenario Execution**, select the **rawdata** folder, and then select **Process data**.
 
    ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
