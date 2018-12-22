@@ -95,7 +95,7 @@ Users can set their own working days and hours in [Outlook settings](https://out
 
 #### To configure working days and hours
 
-1. For **Working days**, select the appropriate check boxes for the days of the week.
+1. For **Working days**, select the appropriate check boxes for the days of the week.  
 2. For the **Working day starts** and **Working day ends** list boxes, select the appropriate start and end times.
 
    ![Working days and hours](../images/wpa/use/settings-system-defaults-b.png)
