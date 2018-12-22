@@ -57,7 +57,7 @@ A7. Any changes to [Configuration and Privacy settings in Workplace Analytics](.
 
 ##### Q8. What if my licensed population works in different time zones or has varying working hours?
 
-A8. If measured employees or other internal collaborators have their time zones defined as part of your organizational data, then Workplace Analytics will use their individual time-zone settings for after-hours metrics and for other time-related metrics. However, if the organizational data does not have a time zone defined for an employee, Workplace Analytics will use the default time-zone setting that your admin sets in Workplace Analytics for that employee’s data. For more details, see [Time zone setting](../use/settings.md#time-zone-settings).
+A8. If measured employees or other internal collaborators have their time zones defined as part of your organizational data, then Workplace Analytics will use their individual time-zone settings for after-hours metrics and for other time-related metrics. However, if the organizational data does not have a time zone defined for an employee, Workplace Analytics will use the default time-zone setting that your admin sets in Workplace Analytics for that employee’s data. For more details, see [Default time zone](settings.md#default-time-zone).
 
 ##### Q9. Can I configure what data certain analysts can access and use?
 
