@@ -14,7 +14,6 @@ ms.prod: wpa
 
 **To open the Workplace Analytics Settings page** 
 
-2. In the left navigation pane, select **Settings**. 
+1.	Open the [Workplace Analytics](https://workplaceanalytics.office.com/) **Home** page. If prompted, sign in to your work account.
 
-   >[!Note] 
-   >You must be assigned the Administrator role to access the Settings page. For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+2. In the left navigation pane, expand **Settings** to show links to the available pages.
