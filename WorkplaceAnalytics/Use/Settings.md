@@ -51,7 +51,7 @@ On the **Upload** page under the **Organizational data** tab, you can upload an 
 
 ### Organizational data
 
-Organizational data is contextual information about employees (for example, job title, level, location) and can come from HR or other information systems. For detailed information on preparing an organizational data file for upload, see [Preparing organizational data](../setup/prepare-organizational-data.md).
+Organizational data is contextual information about employees (for example, job title, level, location) and can come from HR or other information systems. For detailed information on preparing an organizational data file for upload, see [Prepare organizational data](../setup/prepare-organizational-data.md).
 
 ## Analysis settings
 
@@ -120,7 +120,7 @@ In the **Privacy settings** section, you can decide what data you want to exclud
    
 ### Specify the minimum group size
 
-The minimum group size setting determines what you can view in the [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) dashboards and in the [Solutions](../tutorials/solutions-task.md) area.
+The minimum group size setting determines what you can view in the [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) dashboards and in the [Solutions](../tutorials/solutions-intro.md) area.
 
 This setting helps to maintain employee privacy by ensuring that individuals cannot be easily identified by the attributes of groups that they are in. The default minimum group size is set to five, but you can adjust it to suit the needs of your organization. (The minimum allowed value is five.) 
 
