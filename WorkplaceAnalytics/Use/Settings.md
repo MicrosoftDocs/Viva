@@ -55,6 +55,8 @@ Organizational data is contextual information about employees (for example, job 
 
 ## Analysis settings
 
+ * Owner – Workplace Analytics analysts have full access to this page. People with the Analyst limited role have read-only access. 
+
 On the **Analysis settings** page, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
 
 ![Meeting exclusion page](../images/wpa/use/settings-analysis-meeting-exclusions.png)
