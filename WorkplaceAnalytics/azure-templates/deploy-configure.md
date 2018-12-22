@@ -7,7 +7,7 @@ title: Deploy and configure Workplace Analytics Azure Templates
 description: Learn how to deploy and configure Workplace Analytics Azure Templates
 author: madehmer
 ms.author: madehmer
-ms.date: 12/14/2018
+ms.date: 12/21/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa

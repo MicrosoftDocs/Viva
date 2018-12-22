@@ -26,7 +26,7 @@ Workplace Analytics provides several metrics to help you visualize and analyze f
    ![Organization Network Analysis](./images/ona-filter-options.png)
 
 3. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to appear.
-4. By default, the graph is shown in the **Network View** with the **Force-directed** layout and **No sizing applied**. Use the following options to customize or download the graph.
+4. By default, the graph is shown in the **Network View** and **No sizing applied**. Use the following options to customize or download the graph.
 
    View option |Name |Description
    ------------|--------------|------------
