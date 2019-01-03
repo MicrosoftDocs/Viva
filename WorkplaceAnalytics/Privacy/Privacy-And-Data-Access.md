@@ -126,5 +126,6 @@ END OF SECOND SECTION REMOVED 8/23 -->
 >The number of days is configurable for different inactive tenant states. Example: A customer uploaded sensitive data by mistake and wants to be explicitly deprovisioned quickly instead of waiting for 210 days [expired state (30 days) + disabled state (90 days) + deprovisioned state (90 days)].
 -->
 
-## See also 
+## Related topic
+
 [Workplace Analytics privacy settings](../use/settings.md#privacy-settings)
