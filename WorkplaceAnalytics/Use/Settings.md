@@ -5,8 +5,8 @@
 title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics. 
 author: paul9955
-ms.author: v-johtob
-ms.date: 12/21/2018
+ms.author: madehmer
+ms.date: 1/2/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,15 +16,15 @@ ms.prod: wpa
 
 The Settings pages of Workplace Analytics are used to customize system defaults and privacy settings and to upload data. These are the four Settings pages: 
 
- * [Sources](#sources). View dashboards to verify that Office 365 and organizational data is loaded.
- * [Upload](#upload). Prepare and upload organizational and customer data.
- * [Analysis settings](#analysis-settings). Customize meeting exclusion rules to help ensure data accuracy.
- * [Admin settings](#admin-settings). Configure system defaults and privacy settings.
+ * [Sources](#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
+ * [Upload](#upload) – Prepare and upload organizational and customer data.
+ * [Analysis settings](#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
+ * [Admin settings](#admin-settings) - Configure system defaults and privacy settings.
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)] 
 
 >[!Note] 
-> The access you have to the Settings pages depends on the role (admin, analyst, or analyst limited) that you’ve been assigned:
+> Access to one or more pages in Settings depends on what role you're assigned in Workplace Analytics. The following describes page access based on role assignment.
 
 | Settings page | Admin | Analyst | Analyst limited |  
 |---|---|---|---|
@@ -37,7 +37,7 @@ For more information, see [Assign Workplace Analytics roles](https://docs.micros
 
 ## Sources
 
- * **Owner** – Workplace Analytics admin, Workplace Analytics analyst, Workplace Analytics Analyst limited. 
+ * **Owner** – Workplace Analytics admin, Workplace Analytics analyst, Workplace Analytics Analyst limited.
 
 The [Sources](../Use/data-sources.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
 
@@ -55,17 +55,17 @@ Organizational data is contextual information about employees (for example, job 
 
 ## Analysis settings
 
- * Owner – Workplace Analytics analysts have full access to this page. People with the Analyst limited role have read-only access. 
+ * Owner – Workplace Analytics Analysts have full access to this page. People with the Analyst limited role have read-only access.
 
 On the **Analysis settings** page, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
 
 ![Meeting exclusion page](../images/wpa/use/settings-analysis-meeting-exclusions.png)
 
-For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md). 
+For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
 
 ## Admin settings
 
- * Owner – Workplace Analytics admin. 
+ * Owner – Workplace Analytics admin
 
 On the **Admin settings** page, you can configure system defaults and privacy settings.
 
@@ -75,15 +75,18 @@ On the **Admin settings** page, you can configure system defaults and privacy se
 
 On the **System and privacy** tab, in the **System defaults** section, you can configure the following employee options:
 
-- Default time zone
-- Working days and hours
-- Hourly rate
+* Default time zone
+* Working days and hours
+* Hourly rate
+
+> [!Important]
+> Changes made to these system defaults are applied to data after the next scheduled (usually set monthly) refresh of your organizational (HR) data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
 ### Default time zone
 
 Use this setting to configure the default time zone for your organization. Typically, this is the time zone of the corporate headquarters or the time zone in which most employees reside.
 
-Workplace Analytics first attempts to read time zones from each user's mailbox. If time zone has not been set up for the mailbox, Workplace Analytics tries to determine it from the [organizational data](#organizational-data). If time zones have not been uploaded in the organizational data, Workplace Analytics reads the time zone from the setting on this page. If the default time zone was not set on this page, Workplace Analytics uses Pacific Time (US). 
+Workplace Analytics first attempts to read time zones from each user's mailbox. If time zone has not been set up for the mailbox, Workplace Analytics tries to determine it from the [organizational data](#organizational-data). If time zones have not been uploaded in the organizational data, Workplace Analytics reads the time zone from the setting on this page. If the default time zone was not set on this page, Workplace Analytics uses Pacific Time (US).
 
 #### To set the default time zone
 
@@ -93,7 +96,7 @@ Workplace Analytics first attempts to read time zones from each user's mailbox. 
 
 ### Working days and hours
 
-Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox. Failing that, it uses the values for employees' working and non-working days and hours that you have set in the **System Defaults** section. 
+Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox. Failing that, it uses the values for employees' working and non-working days and hours that you have set in the **System Defaults** section.
 
 #### To configure working days and hours
 
@@ -104,11 +107,11 @@ Users can set their own working days and hours in [Outlook settings](https://out
 
 ### Hourly rate
 
-A value for Hourly rate is used to calculate the cost of low-quality meetings: a person's hourly rate for the organization multiplied by number of low-quality meeting hours. Workplace Analytics first attempts to obtain the Hourly rate value from organizational data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate).
+A value for Hourly rate is used to calculate the cost of low-quality meetings: a person's hourly rate for the organization multiplied by number of low-quality meeting hours. Workplace Analytics first tries to get the Hourly rate value from organizational data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate).
 
 #### To set the hourly rate
 
- * In the **Hourly rate** field, under **System defaults**, enter the appropriate employee hourly rate. 
+ * In the **Hourly rate** field of the **System defaults** section, enter an average employee hourly rate.
 
 ## Privacy settings
 
@@ -117,7 +120,7 @@ In the **Privacy settings** section, you can decide what data you want to exclud
 * Specify the minimum group size
 * Specify whether to hide subject lines in meeting query results
 * Exclude words from subject lines
-   
+
 ### Specify the minimum group size
 
 The minimum group size setting determines what you can view in the [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) dashboards and in the [Solutions](../tutorials/solutions-intro.md) area.
@@ -154,8 +157,8 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
    * In **Explore** on the [Management and coaching](../use/explore-metrics-management-and-coaching.md) tab  
    * In [Solutions:](../Tutorials/solutions-intro.md)
   
-       * To set goals 
-       * To track program success on the Track page 
+       * To set goals.
+       * To track program success on the Track page.
 
 ### Specify whether to hide subject lines in meeting query results
 
@@ -163,23 +166,24 @@ Use this setting to control whether to include or hide subject lines in [Meeting
 
 ![Privacy settings](../images/wpa/use/settings-privacy-settings-1a.png)
 
-If you select **Yes** for **Hide subject lines from meeting query results**, the subject lines are converted to a hashed value (a system-generated number), so that the text in subject lines is not readable in any queries. You can still create meeting queries that include subject line keywords as meeting attributes. However, you won't be able to see a list of meetings that show the subject lines. 
+If you select **Yes** for **Hide subject lines from meeting query results**, the subject lines are converted to a hashed value (a system-generated number), so that the text in subject lines is not readable in any queries. You can still create meeting queries that include subject line keywords as meeting attributes. However, you won't be able to see a list of meetings that show the subject lines.
 
-**Example**   
+**Example**
 If you select **Yes**, you could run a meeting query with the subject-line keyword "All-hands." Based on the attributes you include in the query, the results could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. However, you could not get a specific list – one line item for each meeting – of all the meetings with the subject line "All-hands."
-    
+
 ### Exclude words from subject lines
 
 Subject lines are useful for analysts who want to set up meeting exclusion rules or to query meeting data. You can enter a list of specific keywords or terms that occur in the subject lines of emails and meetings that you want to exclude from analysis. You can decide to:
 
- * Exclude instances of collaboration between: 
+ * Exclude instances of collaboration between:
+
     * Specific email addresses
     * Specific users in specific domains
 
 That is, you can exclude from analysis any emails and meeting invitations to, or from, specific users, or exclude all users from specified domains. Any and all emails and meetings in which these email addresses are included (as both sender or recipient, and attendee or invitee) are now excluded. Regarding domains, you only have the option to exclude (blacklist), not include (whitelist), specific domains.
 
-Terms can be any combination of letters, numbers and special characters (e.g., client attorney privilege, D&I, etc.). Any items you exclude will not be included in the analysis, so it is important to carefully consider and balance your privacy and data-analysis goals. If you exclude domains, email addresses, or subject terms that frequently appear in the collaboration data set, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Workplace Analytics. 
- 
+Terms can be any combination of letters, numbers and special characters (e.g., client attorney privilege, D&I, etc.). Any items you exclude will not be included in the analysis, so it is important to carefully consider and balance your privacy and data-analysis goals. If you exclude domains, email addresses, or subject terms that frequently appear in the collaboration data set, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Workplace Analytics.
+
 Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
 
 > [!Note]
@@ -214,14 +218,16 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 ### To configure privacy settings
 
-1.	Under **Privacy settings**, for **Minimum group size to display in visual dashboards**, type the minimum group size. You cannot use a value lower than 5. 
-2.	(Optional) Select **Hide meeting subject lines from meeting query results** to hide subject lines. This does not change the way a query functions; it changes only the display of the results.
-3.	(Optional) Exclude from analysis any sensitive domains, email addresses, or keywords in subject lines.
-4.	Carefully verify that your privacy settings are correct and then select **I confirm that all privacy settings are complete and that data will not be made available until user licenses have been applied**. Settings can be finalized only if you've selected this check box.
-5.	At the top right of the page, select **Save**. 
+1. Under **Privacy settings**, for **Minimum group size to display in visual dashboards**, type the minimum group size. You cannot use a value lower than 5. 
+2. (Optional) Select **Hide meeting subject lines from meeting query results** to hide subject lines. This does not change the way a query functions; it changes only the display of the results.
+3. (Optional) Exclude from analysis any domains, email addresses, or keywords in subject lines.
+4. Carefully verify that your privacy settings are correct and then select **I confirm that all privacy settings are complete and that data will not be made available until user licenses have been applied**. Settings can be finalized only if you've selected this check box.
+5. At the top right of the page, select **Save**.
 
-> [!Note] 
-> All subsequent changes to privacy settings after they run for the first time do not take effect until the next time that Workplace Analytics refreshes collaboration data. Any changes made to system defaults affect existing data.
+> [!Important]
+> All subsequent changes to these privacy settings after the initial setup, take affect after the next scheduled (usually set monthly) refresh of your organizational (HR) data.
+> * Changes to the minimum group and hide subject line privacy settings apply retroactively to *all data*, including historical data.
+> * Changes to the Exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
 
 ### Video: Privacy
 
