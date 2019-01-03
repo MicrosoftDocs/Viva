@@ -16,13 +16,13 @@ ms.prod: wpa
 
 ## System settings
 
-Use the Workplace Analytics **Settings** page to set the time zone, week days, weekend days, and working hours.
-      
-   ![Make system settings](../images/wpa/setup/02a-settings-sys.png)
+Use the Workplace Analytics **Admin settings** page to set the time zone, working days, and working hours.
+
+   ![System defaults](../images/wpa/use/settings-system-defaults-b.png)
 
 ### Time zone
 
-* **Owner** - Workplace Analytics administrator
+* **Owner** - Workplace Analytics admin
 * **Task** - Default time zone value the system will use in metric calculations if the data is not available for a measured employee or other internal collaborator
 * **Outcome** - Default time zone outcome as defined in Workplace Analytics
 
@@ -34,18 +34,15 @@ For a complete list of valid times zones, see [Time zones in Workplace Analytics
 
 ### To change the default time zone
 
-1. On the **Settings** page, select **Settings**.
-2. Under **System defaults**, select the time zone you want from the **Default time zone** list.
-3. Select **Save**.
+1. On the **Admin settings** page in the **System defaults** section, select the time zone you want from the **Default time zone** list.
+2. Select **Save**.
 
 > [!Important]
 > This setting change takes effect at the next collaboration data refresh and will not apply to previously calculated data.
 
 ### Working days and hours
 
-Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours with the organizational data, a Workplace Analytics administrator can set default weekend or non-working days and hours for the organization in the System defaults section on the Settings page.
-
-![System settings default](../images/Wpa/setup/settings-system-defaults-a.png)
+Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours with the organizational data, a Workplace Analytics admin can set default working days and hours for the organization in the System defaults section on the Admin settings page.
 
 These default settings are only used for users who have not already set up their working days and hours in Outlook.
 
@@ -67,9 +64,9 @@ Workplace Analytics does not encode any specific policy, instead it provides con
 > [!Important]
 > Consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
 
-After evaluating your privacy needs, you can use the Settings page in Workplace Analytics to define the privacy settings for your organization's data.
+After evaluating your privacy needs, you can use the Admin settings page in Workplace Analytics to define the privacy settings for your organization's data.
 
-   ![Make system and privacy settings](../images/wpa/setup/02b-settings-priv.png)
+   ![Privacy settings](../images/wpa/use/settings-privacy-settings-1a.png)
 
 ### Detail display
 
@@ -86,18 +83,17 @@ After evaluating your privacy needs, you can use the Settings page in Workplace 
 
 ### To set your privacy settings
 
-1. On the **Settings** page, select **Settings**.
-2. Under **Privacy settings**, configure the settings to meet your company's needs.
+1. On the **Admin settings** page in the **Privacy settings** section, configure the settings to meet your company's needs.
 
    > [!Note]
    > You can select **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you select the **I confirm that all privacy settings are complete** check box. After you select the check box, the processing of Office 365 data begins.
 
-3. Select **Save**.
+2. Select **Save**.
 
    > [!Important]
    > Carefully validate that your privacy settings are correct, before you check the "I confirm that all privacy settings are complete" box, you can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
 
-4. To begin the processing of Office 365 data, select the **I confirm that all privacy settings are complete** check box, and then select **Save**.
+3. To begin the processing of Office 365 data, select the **I confirm that all privacy settings are complete** check box, and then select **Save**.
 
 ### Video: Privacy
 
