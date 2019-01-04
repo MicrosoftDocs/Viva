@@ -37,13 +37,13 @@ For more information, see [Assign Workplace Analytics roles](https://docs.micros
 
 ## Sources
 
- * **Owners** – Workplace Analytics admin, Workplace Analytics analyst, Workplace Analytics Analyst limited
+ * **Owners** – Workplace Analytics Admin, Analyst, and Analyst limited
 
 The [Sources](../Use/data-sources.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
 
 ## Upload
 
- * **Owner** – Workplace Analytics admin
+ * **Owner** – Workplace Analytics Admin
 
 On the **Upload** page under the **Organizational data** tab, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
@@ -65,7 +65,7 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 ## Admin settings
 
- * **Owner** – Workplace Analytics admin
+ * **Owner** – Workplace Analytics Admin
 
 On the **Admin settings** page, you can configure system defaults and privacy settings.
 
