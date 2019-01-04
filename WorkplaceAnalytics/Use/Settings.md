@@ -21,7 +21,7 @@ The Settings pages of Workplace Analytics are used to customize system defaults 
  * [Analysis settings](#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
  * [Admin settings](#admin-settings) – Configure system defaults and privacy settings.
 
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)] 
+[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
 >[!Note] 
 > Access to one or more pages in Settings depends on what role you're assigned in Workplace Analytics. The following describes page access based on role assignment.
@@ -37,13 +37,13 @@ For more information, see [Assign Workplace Analytics roles](https://docs.micros
 
 ## Sources
 
- * **Owner** – Workplace Analytics admin, Workplace Analytics analyst, Workplace Analytics Analyst limited.
+ * **Owners** – Workplace Analytics admin, Workplace Analytics analyst, Workplace Analytics Analyst limited
 
 The [Sources](../Use/data-sources.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
 
 ## Upload
 
- * **Owner** – Workplace Analytics admin.
+ * **Owner** – Workplace Analytics admin
 
 On the **Upload** page under the **Organizational data** tab, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
@@ -55,7 +55,7 @@ Organizational data is contextual information about employees (for example, job 
 
 ## Analysis settings
 
- * **Owner** – Workplace Analytics Analysts have full access to this page. People with the Analyst limited role have read-only access.
+ * **Owners** – Workplace Analytics Analysts have full access to this page and Analyst limited have read-only access
 
 On the **Analysis settings** page, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
 
