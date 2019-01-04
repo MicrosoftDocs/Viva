@@ -226,8 +226,8 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 > [!Important]
 > All subsequent changes to these privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data. Also, **hide meeting subject line** changes take affect immediately in meeting query results.
-> * Changes to the minimum group and hide subject line privacy settings apply retroactively to *all data*, including historical data.
-> * Changes to the Exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
+> * Changes to the minimum group and hide meeting subject line privacy settings apply retroactively to *all data*, including historical data.
+> * Changes to the exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
 
 ### Video: Privacy
 
