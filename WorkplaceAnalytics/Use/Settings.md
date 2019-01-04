@@ -19,9 +19,9 @@ The Settings pages of Workplace Analytics are used to customize system defaults 
  * [Sources](#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
  * [Upload](#upload) – Prepare and upload organizational and customer data.
  * [Analysis settings](#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
- * [Admin settings](#admin-settings) - Configure system defaults and privacy settings.
+ * [Admin settings](#admin-settings) – Configure system defaults and privacy settings.
 
-[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)] 
+[!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
 >[!Note] 
 > Access to one or more pages in Settings depends on what role you're assigned in Workplace Analytics. The following describes page access based on role assignment.
@@ -37,13 +37,13 @@ For more information, see [Assign Workplace Analytics roles](https://docs.micros
 
 ## Sources
 
- * **Owner** – Workplace Analytics admin, Workplace Analytics analyst, Workplace Analytics Analyst limited.
+ * **Owners** – Workplace Analytics Admin, Analyst, and Analyst limited
 
 The [Sources](../Use/data-sources.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
 
 ## Upload
 
- * Owner – Workplace Analytics admin.
+ * **Owner** – Workplace Analytics Admin
 
 On the **Upload** page under the **Organizational data** tab, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
@@ -55,7 +55,7 @@ Organizational data is contextual information about employees (for example, job 
 
 ## Analysis settings
 
- * Owner – Workplace Analytics Analysts have full access to this page. People with the Analyst limited role have read-only access.
+ * **Owners** – Workplace Analytics Analysts have full access to this page and Analyst limited have read-only access
 
 On the **Analysis settings** page, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
 
@@ -65,7 +65,7 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 ## Admin settings
 
- * Owner – Workplace Analytics admin
+ * **Owner** – Workplace Analytics Admin
 
 On the **Admin settings** page, you can configure system defaults and privacy settings.
 
@@ -173,9 +173,7 @@ If you select **Yes**, you could run a meeting query with the subject-line keywo
 
 ### Exclude words from subject lines
 
-Subject lines are useful for analysts who want to set up meeting exclusion rules or to query meeting data. You can enter a list of specific keywords or terms that occur in the subject lines of emails and meetings that you want to exclude from analysis. You can decide to:
-
- * Exclude instances of collaboration between:
+Subject lines are useful for analysts who want to set up meeting exclusion rules or to query meeting data. You can enter a list of specific keywords or terms that occur in the subject lines of emails and meetings that you want to exclude from analysis. You can decide to exclude instances of collaboration between:
 
     * Specific email addresses
     * Specific users in specific domains
