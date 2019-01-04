@@ -80,7 +80,7 @@ On the **System and privacy** tab, in the **System defaults** section, you can c
 * Hourly rate
 
 > [!Important]
-> Changes made to these system defaults are applied to data after the next scheduled (usually set monthly) refresh of your organizational (HR) data. These changes apply to data retroactively and can affect calculations of historical metrics.
+> Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
 ### Default time zone
 
@@ -218,14 +218,14 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 ### To configure privacy settings
 
-1. Under **Privacy settings**, for **Minimum group size to display in visual dashboards**, type the minimum group size. You cannot use a value lower than 5. 
+1. Under **Privacy settings**, for **Minimum group size to display in visual dashboards**, type the minimum group size. You cannot use a value lower than 5.
 2. (Optional) Select **Hide meeting subject lines from meeting query results** to hide subject lines. This does not change the way a query functions; it changes only the display of the results.
 3. (Optional) Exclude from analysis any domains, email addresses, or keywords in subject lines.
 4. Carefully verify that your privacy settings are correct and then select **I confirm that all privacy settings are complete and that data will not be made available until user licenses have been applied**. Settings can be finalized only if you've selected this check box.
 5. At the top right of the page, select **Save**.
 
 > [!Important]
-> All subsequent changes to these privacy settings after the initial setup, take affect after the next scheduled (usually set monthly) refresh of your organizational (HR) data.
+> All subsequent changes to these privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data.
 > * Changes to the minimum group and hide subject line privacy settings apply retroactively to *all data*, including historical data.
 > * Changes to the Exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
 
