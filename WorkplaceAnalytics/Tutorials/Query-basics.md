@@ -6,7 +6,7 @@ title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis.
 author: madehmer
 ms.author: madehmer
-ms.date: 11/12/2018
+ms.date: 1/8/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -101,6 +101,7 @@ When you create or edit a query, you can select the metrics that you want to inc
 
 Workplace Analytics includes a number of predefined query templates to help you get started with queries, including the following:
 
+* **Quickstart overview** is a Power BI template that gives a high-level view of key organizational metrics.
 * **Collaboration overload** is a Power BI template that identifies collaboration patterns.
 * **Manager impact** is a Power BI template that analyzes manager trends.
 * **Build focus hours** finds groups that have the lowest amount of focus time.

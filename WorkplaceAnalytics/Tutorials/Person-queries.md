@@ -6,7 +6,7 @@ title: Person queries in Workplace Analytics
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual.     
 author: madehmer
 ms.author: madehmer
-ms.date: 12/3/2018
+ms.date: 1/8/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -89,6 +89,16 @@ You can add a filter to a base metric and edit the metric name with the filter. 
 
 To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
 
+## Select what organizational data to include
+
+When you run a query in Workplace Analytics, the output (.csv) file might be too large with more organizational data columns than you need. You can use the Organizational data section to select which data columns to include in the output file:
+
+* Improve data analysis with fewer columns in a smaller file.
+* Protect private data by excluding selected columns from the output file.
+* Select **Clear all** to exclude all columns or use **Select all** to include all columns, which is the default.
+
+![Organizational data section](../Images/WpA/Tutorials/query-org-data.png)
+
 ## Example person query for long meetings
 
 You can create a person query to investigate if long meetings are a significant factor in the total number of meeting hours for Operations. The following custom query uses metrics and filters to customize the data.
@@ -129,8 +139,9 @@ You can create a person query to investigate if long meetings are a significant 
     > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
     > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
 
-12. Select **Run** at the top right to run the query.
-13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+12. In the **Organizational data** section, you can select what data columns to include or exclude from the output (.csv) file. Select **Clear all** to exclude (deselect) all columns and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
+13. Select **Run** at the top right to run the query.
+14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 **Person query results**
 The following are the columns included in the query results for the custom query created in the previous steps and an example of the type of data rows you might see:
