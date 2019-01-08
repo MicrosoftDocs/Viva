@@ -6,7 +6,7 @@ title: Meeting queries in Workplace Analytics
 description: When to use a meeting query and the type of data available for analysis in Workplace Analytics.  
 author: madehmer
 ms.author: madehmer
-ms.date: 12/3/2018
+ms.date: 1/8/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -66,6 +66,16 @@ In the basic process to create a Meeting query, you will answer three questions:
 
 With a meeting query, you can use the calendar metadata available from Office 365 for your company to get meeting details, including: Attendee meeting hours, attendees, invitees, emails sent during meetings, and so on.
 
+## Select what organizational data to include
+
+When you run a query in Workplace Analytics, the output (.csv) file might be too large with more organizational data columns than you need. You can use the Organizational data section to select which data columns to include in the output file:
+
+* Improve data analysis with fewer columns in a smaller file.
+* Protect private data by excluding selected columns from the output file.
+* Select **Clear all** to exclude all columns or use **Select all** to include all columns, which is the default.
+
+![Organizational data section](../Images/WpA/Tutorials/query-org-data-m.png)
+
 ## Example query for long recurring meetings
 
 Continuing the example from [Person queries](../Tutorials/meeting-queries.md), to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a meeting query with the following criteria:
@@ -92,8 +102,9 @@ Continuing the example from [Person queries](../Tutorials/meeting-queries.md), t
 9. To add a metric for the number of attendees, in Metrics, select **Add metric**.
 10. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
 11. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
-12. Select **Run** at the top right to run the query.
-13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+12. In the **Organizational data** section, you can select what data columns to include or exclude from the output (.csv) file. Select **Clear all** to exclude (deselect) all columns and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
+13. Select **Run** at the top right to run the query.
+14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ### Meeting query results
 
