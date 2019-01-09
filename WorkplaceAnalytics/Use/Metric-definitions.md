@@ -5,14 +5,15 @@
 title: Workplace Analytics metric definitions 
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics. 
 author: paul9955
-ms.author: v-pascha
-ms.date: 07/12/2018
+ms.author: madehmer
+ms.date: 1/8/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
 # Metric descriptions for Workplace Analytics
+
 You can use the following metrics in Workplace Analytics to customize your queries.
 
 ## Person metrics
@@ -67,7 +68,9 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Attendees with conflicting meeting|Number of attendees with meetings that overlap with the meeting (includes all non-declined meetings, which include accepted, tentative, and no responses to meeting invites).|Meeting|Count|Yes|
 |Emails sent during meetings|Number of emails the person sent during all meetings.|Meeting|Count|Yes|
 |Invitees|Number of people invited to the meeting.|Meeting|Count|Yes|
-|Total emails sent during meeting|Number of emails sent during a meeting by all attendees.|Meetings|Count|Yes|
+|Total emails sent during meeting|Number of emails sent during a meeting by all attendees.|Meeting|Count|Yes|
+|Total meeting cost|The total cost of all attendees in a meeting. The meeting cost for each attendee is defined as the product of the attendees' meeting hours multiplied by the attendees' hourly rates. If no hourly rate is available for one or more attendees, the default rate of $75/hr (US dollars) is used to calculate the cost of those attendees.|Meeting|Currency|Yes|
+|Total redundant hours|The total number of redundant hours metric for all attendees in a meeting.|Meeting|Hour|Yes|
 
 ## Group-to-group metrics
 
