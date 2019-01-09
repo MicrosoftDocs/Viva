@@ -133,11 +133,11 @@ You can create a person query to investigate if long meetings are a significant 
 10. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
 11. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
 
-   > [!Note]
-   > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
-   > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
-   > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
-   > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
+    > [!Note]
+    > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
+    > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
+    > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
+    > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
 
 12. In the **Organizational data** section, you can select what data columns to include or exclude from the output (.csv) file. Select **Clear all** to exclude (deselect) all columns and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 13. Select **Run** at the top right to run the query.
