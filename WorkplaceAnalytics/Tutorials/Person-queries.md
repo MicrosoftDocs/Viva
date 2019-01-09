@@ -91,7 +91,7 @@ To get more details on adding metric filters, see [Customize a metric](../Tutori
 
 ## Select what organizational data to include
 
-When you run a query in Workplace Analytics, the output (.csv) file might be too large with more organizational data columns than you need. You can use the Organizational data section to select which data columns to include in the output file:
+When you run a query in Workplace Analytics, the output (.csv) file might be too large, with more organizational data columns than you need. You can use the Organizational data section to select which data columns to include in the output file:
 
 * Improve data analysis with fewer columns in a smaller file.
 * Protect private data by excluding selected columns from the output file.
