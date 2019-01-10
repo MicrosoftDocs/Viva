@@ -9,28 +9,12 @@ ms.author: v-pascha
 author: paul9955
 ---
 
-<!-- This didn't work. Testing 
-Productivity insights in Outlook
-
-<h1>Productivity insights in Outlook</h1>
-
-Productivity insights in Outlook
--->
-
-<h1>Workplace Analytics Documentation</h1>
 <p>
 
-<!---
-Workplace Analytics is an application that uses data from everyday work in Office 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement.
--->
+
 </p>
 
 # Productivity insights in Outlook
-
-<!-- some text -->
-
-
-
 
 (Powered by MyAnalytics)
 
