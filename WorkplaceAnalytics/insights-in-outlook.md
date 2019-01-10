@@ -8,6 +8,7 @@ localization_priority: normal
 ms.prod: wpa
 author: paul9955
 ms.author: v-pascha
+extendBreadcrumb: false
 
 ---
 
@@ -15,7 +16,7 @@ ms.author: v-pascha
 <!-- 
 1) Leave these paragraph tags intact. The H1 heading won't work without them. 
 2) Note: We need to keep "layout: HubPage" in the metadata or else we get the TOC in the left pane.
-3) Working on how to remove the breadcrumbs pane
+3) Working on how to remove the breadcrumbs pane. Trying adding extendBreadcrumb: false 
  -->
 </p>
 
