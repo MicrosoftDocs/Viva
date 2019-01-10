@@ -9,6 +9,7 @@ ms.prod: wpa
 author: paul9955
 ms.author: v-pascha
 extendBreadcrumb: false
+displayBreadcrumb: false
 
 ---
 
@@ -16,7 +17,7 @@ extendBreadcrumb: false
 <!-- 
 1) Leave these paragraph tags intact. The H1 heading won't work without them. 
 2) Note: We need to keep "layout: HubPage" in the metadata or else we get the TOC in the left pane.
-3) Working on how to remove the breadcrumbs pane. Trying adding extendBreadcrumb: false 
+3) Working on how to remove the breadcrumbs pane. Trying adding extendBreadcrumb: false to the metadata but this didn't seem to do anything. 
  -->
 </p>
 
