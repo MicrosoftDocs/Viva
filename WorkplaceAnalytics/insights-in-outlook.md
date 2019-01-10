@@ -1,5 +1,6 @@
 ---
 
+layout: HubPage
 title: Workplace Analytics
 description: Learn ways to improve your productivity in Outlook
 ms.date: 01/10/2018
@@ -11,17 +12,18 @@ ms.author: v-pascha
 ---
 
 <p>
-<!-- 1) Leave these paragraph tags intact. The H1 heading won't work without them. 
-2) Removed "layout: HubPage" from metadata -->
+<!-- 
+1) Leave these paragraph tags intact. The H1 heading won't work without them. 
+2) Note: We need to keep "layout: HubPage" in the metadata or else we get the TOC in the left pane.
+3) Working on how to remove the breadcrumbs pane
+ -->
 </p>
 
 # Productivity insights in Outlook
 
 (Powered by MyAnalytics)
 
-Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? 
-
-Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
+Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
 
 If your answer to any of these questions is _yes_, we have exciting news for you. We are making an Outlook add-in that gives you actionable insights available to all Office 365 commercial users. 
 
