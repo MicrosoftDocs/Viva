@@ -9,7 +9,7 @@ ms.author: v-pascha
 author: paul9955
 ---
 
-# Productivity insights in Outlook
+<h1>Productivity insights in Outlook</h1>
 
 (Powered by MyAnalytics)
 
@@ -18,18 +18,18 @@ Did you ever miss an important email or forget a commitment you made to your co-
 ## To find the add-in 
 
 1. In Outlook Web App, open an email message.
-2. Select the swirl in the top-right corner of the email message, next to the **Reply** button. 
+2. Select the swirl in the top-right corner of the email message: 
 
 ![Productivity insights](images/mya/overview/productivity-insights.png)
 
 Here are some insights that you might see:  
 
  * **Book focus time** – blurb of when it shows and what it does 
- * **To Do Reminders** – blurb of when it shows and what it does 
- * **Unread Email** – blurb of when it shows and what it does 
+ * **To-do reminders** – blurb of when it shows and what it does 
+ * **Unread email** – blurb of when it shows and what it does 
  * **Meeting prep** – blurb of when it shows and what it does 
  * **Missing 1:1s** – blurb of when it shows and what it does 
 
 ## Privacy by design 
 
-Your insights are private, personal, and only you can see them. Learn more about how [Microsoft protects your privacy](/workplaceanalytics/myanalytics/overview/privacy-guide.md). 
+Your insights are private, personal, and only you can see them. Learn more about how [Microsoft protects your privacy](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide). 
