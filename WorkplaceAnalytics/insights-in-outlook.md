@@ -21,7 +21,7 @@ ms.author: v-pascha
 
 # Productivity insights in Outlook
 
-(Powered by MyAnalytics)
+_(Powered by MyAnalytics)_
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
 
@@ -29,18 +29,18 @@ If your answer to any of these questions is _yes_, we have exciting news for you
 
 ## To open the add-in 
 
-1. In Outlook Web App, open an email message.
-2. Select the swirl in the top-right corner of the email message: 
+  1. In Outlook Web App, open an email message.
+  2. Select the swirl in the top-right corner of the email message: 
 
-![Productivity insights](images/mya/overview/productivity-insights.png)
+  ![Productivity insights](images/mya/overview/productivity-insights.png)
 
 Here are some insights that you might see:  
 
- * **Book focus time** – blurb of when it shows and what it does 
- * **To-do reminders** – blurb of when it shows and what it does 
- * **Unread email** – blurb of when it shows and what it does 
- * **Meeting prep** – blurb of when it shows and what it does 
- * **Missing 1:1s** – blurb of when it shows and what it does 
+   * **Book focus time** – blurb of when it shows and what it does 
+   * **To-do reminders** – blurb of when it shows and what it does 
+   * **Unread email** – blurb of when it shows and what it does 
+   * **Meeting prep** – blurb of when it shows and what it does 
+   * **Missing 1:1s** – blurb of when it shows and what it does 
 
 ## Privacy by design 
 
