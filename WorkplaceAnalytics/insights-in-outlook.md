@@ -1,6 +1,5 @@
 ---
 
-layout: HubPage
 title: Workplace Analytics
 description: Learn ways to improve your productivity in Outlook
 ms.date: 01/10/2018
@@ -12,7 +11,8 @@ ms.author: v-pascha
 ---
 
 <p>
-<!-- Leave these paragraph tags intact. The H1 heading won't work without them. -->
+<!-- 1) Leave these paragraph tags intact. The H1 heading won't work without them. 
+2) Removed "layout: HubPage" from metadata -->
 </p>
 
 # Productivity insights in Outlook
