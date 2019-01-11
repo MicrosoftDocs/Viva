@@ -38,13 +38,13 @@ If your answer to any of these questions is _yes_, we have exciting news for you
 </li>
 </ol>
 
-## Insights
+## Insights that you might see
 
-The insights appear in the right panel of Outlook, after you have selected the swirl icon:
+The insights appear in the right panel of Outlook:
 
-<!-- I DON'T THINK WE NEED THIS GRAPHIC, OR AT LEAST THE LEFT 60% OF IT: -->
+![Insights panel](images/mya/overview/cards-panel-15.png)
 
-![Insights panel](images/mya/overview/insights-panel.png)
+<!--
 
 ### Insights that you might see
 
@@ -65,6 +65,7 @@ The following insights appear as cards in the right panel of Outlook:
 
 <li style="margin-left: 40px"><b>After-hours impact</b>: Help your team achieve work-life balance by reviewing the impact of your after-hours emails.</li>
 </ul>
+-->
 
 ## Privacy by design 
 
