@@ -1,15 +1,15 @@
 ---
+# Metadata Sample
+# required metadata
 
-layout: HubPage
-title: Workplace Analytics
-description: Learn ways to improve your productivity in Outlook
-ms.date: 01/10/2018
-localization_priority: normal 
-ms.prod: wpa
+title: Productivity insights in Outlook
+description: Learn ways to improve your productivity in Outlook 
 author: paul9955
 ms.author: v-pascha
-breadcrumb_path: 
-
+ms.date: 01/10/2018
+ms.topic: get-started-article
+localization_priority: normal 
+ms.prod: mya
 ---
 
 <p>
