@@ -14,6 +14,17 @@ ms.prod: mya
 
 ## Environment requirements for MyAnalytics
 
+> [!Important] 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. For more information, see [MyAnalytics everywhere](https://www.microsoft.com/en-us/microsoft-365/blog/2019/01/02/myanalytics-the-fitness-tracker-for-work-is-now-more-broadly-available/).
+> [Productivity insights](productivity-insights.md) (powered by MyAnalytics) are automatically available in the following plans:
+
+ * Microsoft 365 E3
+ * Microsoft 365 Business
+ * Office 365 E3
+ * Office 365 E1
+ * Business Premium 
+ * Business Essentials 
+
 ### MyAnalytics licensing requirements
 
 MyAnalytics is available in the following plans:

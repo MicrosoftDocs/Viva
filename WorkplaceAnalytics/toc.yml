@@ -155,7 +155,7 @@
         - name: Add-in
           items: 
           - name: Productivity insights
-            href: MyAnalytics/Use/productivity-insights.md
+            href: MyAnalytics/overview/productivity-insights.md
           - name: Informative cards
             href: MyAnalytics/Use/add-in.md
         - name: Email digest
