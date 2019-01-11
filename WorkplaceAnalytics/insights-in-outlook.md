@@ -35,14 +35,30 @@ If your answer to any of these questions is _yes_, we have exciting news for you
 
   ![Productivity insights](images/mya/overview/productivity-insights.png)
 
-Here are some insights that you might see:  
+## Insights
 
-   * **Book focus time** – blurb of when it shows and what it does 
-   * **To-do reminders** – blurb of when it shows and what it does 
-   * **Unread email** – blurb of when it shows and what it does 
-   * **Meeting prep** – blurb of when it shows and what it does 
-   * **Missing 1:1s** – blurb of when it shows and what it does 
+The insights appear in the right panel of Outlook, after you have selected the swirl icon:
+
+  ![Insights panel](images/mya/overview/insights-panel.png)
+
+
+### Insights that you might see
+
+The following insights appear as cards 
+
+   * **Book focus time**: Protect your calendar by reserving focus time before meetings take over. The following insight card can help you do this: 
+  ![Book focus time](images/mya/overview/book-focus-time.png)
+
+   * **To-do reminders**: Make sure nothing falls through the cracks with reminders of tasks you promised to complete for coworkers over email. 
+
+   * **Unread email**: Cut through the clutter with a summary of unread emails from your most important contacts. 
+
+   * **Meeting prep**: Get a heads up on meeting conflicts on your calendar, attendees that haven’t yet accepted your invites, and other meeting prep tips. 
+
+   * **Suggestions for 1:1s**: Set up 1:1s with important contacts that you haven’t met with for a few weeks. 
+
+   * **After-hours impact**: Help your team achieve work-life balance by reviewing the impact of your after-hours emails.
 
 ## Privacy by design 
 
-Your insights are private, personal, and only you can see them. Learn more about how [Microsoft protects your privacy](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide). 
+Your insights are private, personal, and only you can see them. They are computed on the fly based on your email and meeting information and are never cached, stored, or moved out of your mailbox. [Learn more about how Microsoft protects your privacy](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide). 
