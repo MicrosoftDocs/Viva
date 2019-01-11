@@ -8,8 +8,7 @@ localization_priority: normal
 ms.prod: wpa
 author: paul9955
 ms.author: v-pascha
-extendBreadcrumb: false
-displayBreadcrumb: false
+breadcrumb_path: 
 
 ---
 
