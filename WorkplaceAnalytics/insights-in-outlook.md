@@ -42,6 +42,8 @@ If your answer to any of these questions is _yes_, we have exciting news for you
 
 The insights appear in the right panel of Outlook, after you have selected the swirl icon:
 
+<!-- I DON'T THINK WE NEED THIS GRAPHIC, OR AT LEAST THE LEFT 60% OF IT: -->
+
 ![Insights panel](images/mya/overview/insights-panel.png)
 
 ### Insights that you might see
