@@ -49,7 +49,7 @@ The insights appear in the right panel of Outlook, after you have selected the s
 The following insights appear as cards in the right panel of Outlook:
 
 <ul>
-<li style="margin-left: 40px"><b>Book focus time</b>: Protect your calendar by reserving focus time before meetings take over. The following insight card can help you do this: 
+<li style="margin-left: 40px"><b>Book focus time</b>: Protect your calendar by reserving focus time before meetings take over. The following insight card can help you book focus time: 
 
 <img src="images/mya/overview/book-focus-time.png" alt="Book focus time"></li>
 
