@@ -91,11 +91,11 @@ To get more details on adding metric filters, see [Customize a metric](../Tutori
 
 ## Select what organizational data to include
 
-When you run a query in Workplace Analytics, the output (.csv) file might be too large, with more organizational data columns than you need. You can use the Organizational data section to select which data columns to include in the output file:
+When you run a person query in Workplace Analytics, the output (.csv) file can be larger than necessary, with more organizational data columns than you need. You can use the Organizational data section to select which data columns to include in the output file, which:
 
-* Improve data analysis with fewer columns in a smaller file.
-* Protect private data by excluding selected columns from the output file.
-* Select **Clear all** to exclude all columns or use **Select all** to include all columns, which is the default.
+* Improves data analysis with fewer columns in a smaller file.
+* Further protects private data by excluding select columns from the file.
+* Enables you to select **Clear all** to clear all selected columns or use **Select all** to include all columns.
 
 ![Organizational data section](../Images/WpA/Tutorials/query-org-data.png)
 
@@ -139,7 +139,7 @@ You can create a person query to investigate if long meetings are a significant 
     > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
     > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
 
-12. In the **Organizational data** section, you can select what data columns to include or exclude from the output (.csv) file. Select **Clear all** to exclude (deselect) all columns and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
+12. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 13. Select **Run** at the top right to run the query.
 14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
