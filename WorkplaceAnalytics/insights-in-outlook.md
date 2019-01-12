@@ -48,10 +48,12 @@ A1. Beginning February 12th, 2019, users will be assigned licenses. The add-in f
 
 Q2. How can I turn the productivity insights off for my users?  
 
-A3. 
+A3. See [Manage deployment of Office 365 addins](https://docs.microsoft.com/en-us/office365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide).
 
-Q3. Will anything change for users that currently have MyAnalytics for through E5 or the standalone continue to 
+Q3. Will anything change for existing users of MyAnalytics?
 
-A3. 
+A3. No. 
 
-https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page
+Q4. Where can I find out more?
+
+A4. See [MyAnalytics](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index).
