@@ -31,7 +31,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights that you might see
 
-The insights appear in the right panel of Outlook:
+Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select the swirl icon in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
 
 ![Insights panel](images/mya/overview/cards-panel-16.png)
 
@@ -43,14 +43,18 @@ The Outlook add-in preserves all the data subject rights afforded by GDPR. The i
 
 Admins might find the following questions and answers of interest: 
 
-**Q1. Which plans will offer this experience?** 
-  
-* Microsoft 365 E3
-* Microsoft 365 Business
-* Office 365 E3
-* Office 365 E1
-* Business Premium 
-* Business Essentials 
+**Q1. Which plans will offer this experience?**
+
+<ul>
+ 
+<li>Microsoft 365 E3</li>
+<li>Microsoft 365 Business</li>
+<li>Office 365 E3</li>
+<li>Office 365 E1</li>
+<li>Business Premium</li>
+<li>Business Essentials</li> 
+
+</ul>
 
 > [!Note]
 > The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index). 

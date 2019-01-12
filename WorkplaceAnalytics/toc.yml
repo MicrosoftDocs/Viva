@@ -139,15 +139,15 @@
       href: MyAnalytics/Overview/MyA-faq.md
     - name: MyAnalytics for admins
       href: MyAnalytics/overview/mya-for-admins.md
-      items:      
-      - name: MyAnalytics Setup
-        href: MyAnalytics/Setup/Mya-setup-checklist.md   
-      - name: MyAnalytics plans and environments
-        href: MyAnalytics/overview/plans-environments.md                
-      - name: MyAnalytics privacy guide for admins
-        href: MyAnalytics/Overview/Privacy-Guide.md  
+      items:
+      - name: MyAnalytics setup
+        href: MyAnalytics/setup/mya-setup-checklist.md
+      - name: Plans and environments
+        href: MyAnalytics/overview/plans-environments.md
+      - name: Privacy guide for admins
+        href: MyAnalytics/overview/privacy-guide.md
     - name: Use MyAnalytics
-      items:            
+      items:
       - name: MyAnalytics elements
         expanded: false
         href: MyAnalytics/Use/MyA-elements.md

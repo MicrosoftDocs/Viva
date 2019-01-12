@@ -8,15 +8,15 @@
       href: ./overview/MyA-faq.md        
     - name: MyAnalytics for admins
       href: ./overview/mya-for-admins.md
-      items:     
-      - name: MyAnalytics Setup
-        href: ./setup/Mya-setup-checklist.md      
-      - name: MyAnalytics plans and environments
-        href: ./overview/plans-environments.md 
-      - name: MyAnalytics privacy guide for admins
-        href: ./overview/Privacy-Guide.md  
+      items:
+      - name: MyAnalytics setup
+        href: ./setup/mya-setup-checklist.md
+      - name: Plans and environments
+        href: ./overview/plans-environments.md
+      - name: Privacy guide for admins
+        href: ./overview/privacy-guide.md
     - name: Use MyAnalytics
-      items:      
+      items:
       - name: MyAnalytics elements
         expanded: false
         href: ./use/MyA-elements.md
