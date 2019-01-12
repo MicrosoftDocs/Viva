@@ -23,11 +23,11 @@ breadcrumb_path:
 # Productivity insights in Outlook
 
 > [!Note] 
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. This article describes the new capabilities that these users will get. 
+> Exciting news! Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. This article describes the new capabilities that these users will get. 
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
 
-If your answer to any of these questions is _yes_, there is exciting news. An Outlook add-in will soon appear that makes actionable insights available to all Office 365 commercial users. Empowering users to be more productive is a way to help them  succeed in the modern workplace. 
+If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done. 
 
 ## Insights that you might see
 
@@ -53,7 +53,7 @@ Admins might find the following questions and answers of interest:
 * Business Essentials 
 
 > [!Note]
-> Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index).
+> The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index). 
 
 **Q2. What is the roll-out plan?**
 
