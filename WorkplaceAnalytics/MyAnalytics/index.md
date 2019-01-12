@@ -2,10 +2,10 @@
 layout: HubPage
 title: MyAnalytics
 description: Learn more about, set up, and use MyAnalytics.
-ms.date: 12/17/2018
+ms.date: 01/1/2018
 localization_priority: normal 
 ms.prod: mya
-ms.author: madehmer
+ms.author: paul9955
 author: madehmer
 ---
 

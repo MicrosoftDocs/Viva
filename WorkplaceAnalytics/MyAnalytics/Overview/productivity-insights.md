@@ -26,11 +26,13 @@ _(Powered by MyAnalytics)_
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
 
-If your answer to any of these questions is _yes_, we have exciting news for you. We are making an Outlook add-in that gives you actionable insights available to all Office 365 commercial users. 
+If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done. 
 
-## Insights that you might see
+## Insights that you might see 
 
-The insights appear in the right panel of Outlook:
+Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select the swirl icon in the top-right corner of your email message, next to the **Reply** button.
+
+After you launch the add-in, the insights cards are displayed in the right panel:
 
 ![Insights panel](../../images/mya/overview/cards-panel-16.png)
 
