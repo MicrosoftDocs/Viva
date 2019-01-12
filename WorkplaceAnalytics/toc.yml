@@ -143,7 +143,7 @@
       - name: MyAnalytics Setup
         href: MyAnalytics/Setup/Mya-setup-checklist.md   
       - name: MyAnalytics plans and environments
-        href: MyAnalytics/Setup/plans-environments.md                
+        href: MyAnalytics/overview/plans-environments.md                
       - name: MyAnalytics privacy guide for admins
         href: MyAnalytics/Overview/Privacy-Guide.md  
     - name: Use MyAnalytics
