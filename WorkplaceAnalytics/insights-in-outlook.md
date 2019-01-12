@@ -65,7 +65,7 @@ Beginning February 12th, 2019, users will be assigned licenses. The add-in funct
 
 **Q3. How can I turn this off for my users?**
 
-See [Manage deployment of Office 365 addins](https://docs.microsoft.com/en-us/office365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide).
+See [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
 **Q4. Will anything change for existing users of MyAnalytics?**
 
