@@ -16,7 +16,7 @@ localization_priority: Once
 # Why use MyAnalytics?
 
 > [!Note] 
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more about the experiences that users will get in each plan](plans-environments.md#availability-of-features). 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more about the experiences that users will get in each plan](plans-environments.md). 
 
 ## Build better work habits through personal productivity insights 
 
