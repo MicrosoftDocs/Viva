@@ -22,8 +22,7 @@ ms.prod: mya
 
 # Productivity insights in Outlook
 
-> [!Note] 
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. This article describes the new capabilities that these users will experience. 
+_(Powered by MyAnalytics)_
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
 
@@ -41,29 +40,5 @@ After you launch the add-in, the insights cards are displayed in the right panel
 
 The Outlook add-in preserves all the data subject rights afforded by GDPR. The insights users see in the add-in are only available to them. No admin or manager can see those insights. They are computed on the fly based on the user's email and meeting information, and are never cached, stored, or moved out of the user's mailbox. Additionally, the add-in does not pre-process user data. [Learn more](https://www.microsoft.com/en-us/TrustCenter/CloudServices/office365/default.aspx) about how Microsoft protects your privacy. 
 
-## Questions and answers
 
-Admins might find the following questions and answers of interest: 
-
-**Q1. Which plans will offer this experience?** 
- 
- 
- * Microsoft 365 E3
- * Microsoft 365 Business
- * Office 365 E3
- * Office 365 E1
- * Business Premium 
- * Business Essentials 
-
-**Q2. What is the roll-out plan?**
-
-    Beginning February 12th, 2019, users will be assigned licenses. The add-in functionality will begin rolling out on March 12th, 2019, to give you time to manage your settings. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.    
-
-**Q3. How can I turn this off for my users?**
-
-    See [Manage deployment of Office 365 addins](https://docs.microsoft.com/en-us/office365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide).
-
-**Q4. Will anything change for existing users of MyAnalytics?**
-
-    No. Learn more about the [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index).
 
