@@ -13,7 +13,7 @@ ms.prod: mya
 
 # MyAnalytics nudges in Outlook
 
-_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on_
+**_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on_**
 
 ## What are MyAnalytics nudges in Outlook? 
 MyAnalytics nudges in Outlook (or MyAnalytics nudges) are brief, data and AI-driven notifications that appear in Microsoft Outlook while you are either reading or composing an email or a meeting invitation.  

@@ -32,7 +32,7 @@ If your answer to any of these questions is _yes_, we have exciting news for you
 
 The insights appear in the right panel of Outlook:
 
-![Insights panel](images/mya/overview/cards-panel-15.png)
+![Insights panel](images/mya/overview/cards-panel-16.png)
 
 ## Privacy by design 
 

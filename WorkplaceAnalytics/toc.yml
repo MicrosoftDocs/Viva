@@ -153,11 +153,7 @@
         - name: Dashboard
           href: MyAnalytics/Use/dashboard.md
         - name: Add-in
-          items: 
-          - name: Productivity insights
-            href: MyAnalytics/overview/productivity-insights.md
-          - name: Informative cards
-            href: MyAnalytics/Use/add-in.md
+          href: MyAnalytics/Use/add-in.md
         - name: Email digest
           href: MyAnalytics/Use/email-digest.md
         - name: MyAnalytics nudges
