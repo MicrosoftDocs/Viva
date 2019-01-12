@@ -14,6 +14,9 @@ ms.prod: mya
 
 # MyAnalytics elements
 
+> [!Note] 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more about the experiences that users will get in each plan](../overview/plans-environments.md#availability-of-features). 
+
 This describes how MyAnalytics presents you with insights and how you can use these insights to make good decisions.
 
 * [MyAnalytics personal dashboard](Dashboard.md): In the dashboard, you see statistics on how  you've spent your time over the past week. 
