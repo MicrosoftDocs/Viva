@@ -45,7 +45,7 @@ Admins might find the following questions and answers of interest:
 
 **Q1. Which plans will offer this experience?**
 
-<ul>
+<ul style="text-indent: 40px">
  
 <li>Microsoft 365 E3</li>
 <li>Microsoft 365 Business</li>
