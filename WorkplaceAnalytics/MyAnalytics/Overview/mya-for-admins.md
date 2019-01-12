@@ -17,13 +17,13 @@ localization_priority: Once
 
 As an administrator, you benefit from knowing what MyAnalytics provides to its participants and what you can do to enable and enhance their experience. 
 
-## Video: Introduction for admins
-
-<iframe width="640" height="564" src="https://player.vimeo.com/video/304879652" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
 ## Benefits of use
 
 MyAnalytics can help participants strengthen their work relationships, have more time to focus on important work, and improve their work-life balance. MyAnalytics does this by showing users insights about their work habits. It derives these insights from Office 365 data about emails, meetings, calls, and chats. For more information, see [Why use MyAnalytics?](better-work-habits.md)
+
+## Video: Introduction for admins
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/304879652" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Data privacy
 

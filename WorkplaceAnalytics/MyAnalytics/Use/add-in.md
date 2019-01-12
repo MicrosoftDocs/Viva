@@ -25,6 +25,8 @@ The insights appear in the right panel of Outlook:
 
 ![Insights panel](../../images/mya/overview/cards-panel-16.png)
 
+[!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
+
 ## Privacy by design 
 
 The Outlook add-in preserves all the data subject rights afforded by GDPR. The insights users see in the add-in are only available to them. No admin or manager can see those insights. They are computed on the fly based on the user's email and meeting information, and are never cached, stored, or moved out of the user's mailbox. Additionally, the add-in does not pre-process user data. [Learn more](https://www.microsoft.com/en-us/TrustCenter/CloudServices/office365/default.aspx) about how Microsoft protects your privacy. 
