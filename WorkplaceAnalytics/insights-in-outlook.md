@@ -26,7 +26,7 @@ _(Powered by MyAnalytics)_
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
 
-If your answer to any of these questions is _yes_, we have exciting news for you. We are making an Outlook add-in that gives you actionable insights available to all Office 365 commercial users. 
+If your answer to any of these questions is _yes_, there is exciting news. An Outlook add-in will soon appear that makes actionable insights available to all Office 365 commercial users. Empowering users to be more productive is a way to help them  succeed in the modern workplace. 
 
 ## Insights that you might see
 
@@ -37,3 +37,21 @@ The insights appear in the right panel of Outlook:
 ## Privacy by design 
 
 The Outlook add-in preserves all the data subject rights afforded by GDPR. The insights users see in the add-in are only available to them. No admin or manager can see those insights. They are computed on the fly based on the user's email and meeting information, and are never cached, stored, or moved out of the user's mailbox. Additionally, the add-in does not pre-process user data. [Learn more](https://www.microsoft.com/en-us/TrustCenter/CloudServices/office365/default.aspx) about how Microsoft protects your privacy. 
+
+## Questions and answers
+
+Admins might find the following questions and answers of interest: 
+
+Q1. What is the roll-out plan?
+
+A1. Beginning February 12th, 2019, users will be assigned licenses. The add-in functionality will begin rolling out on March 12th, 2019, to give you time to manage your settings. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.    
+
+Q2. How can I turn the productivity insights off for my users?  
+
+A3. 
+
+Q3. Will anything change for users that currently have MyAnalytics for through E5 or the standalone continue to 
+
+A3. 
+
+https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page
