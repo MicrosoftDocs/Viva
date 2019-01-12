@@ -22,7 +22,7 @@
         href: ./use/MyA-elements.md
         items:
         - name: Dashboard
-          href: ./uUse/dashboard.md
+          href: ./use/dashboard.md
         - name: Add-in
           href: ./use/add-in.md
         - name: Email digest
