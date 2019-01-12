@@ -132,4 +132,23 @@ author: madehmer
         </div>
         </a>
     </li>
+    <li>
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/Environment-Requirements">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../Images/icon-checklist.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>MyAnalytics environment requirements</h3>
+                        <p>Review the software prerequisites for access to the features of MyAnalytics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
