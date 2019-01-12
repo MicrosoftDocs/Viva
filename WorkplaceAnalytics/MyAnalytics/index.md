@@ -12,7 +12,7 @@ author: madehmer
 <ul class="cardsY panelContent singlePanelContent">
     <li>
     <h1>MyAnalytics Documentation</h1>
-        <p>MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization. <b>Note:</b> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/environment-requirements?branch=PAS-AddNewHub-Kalyan-Mathew"> Learn more</a> about the experiences that users will get in each plan.
+        <p><b>Note:</b> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/plans-environments?branch=PAS-AddNewHub-Kalyan-Mathew"> Learn more about the experiences that users will get in each plan.</a>  MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p> 
     </li>
 </ul>
 
@@ -132,23 +132,4 @@ author: madehmer
         </div>
         </a>
     </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/Environment-Requirements">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../Images/icon-checklist.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>MyAnalytics environment requirements</h3>
-                        <p>Review the software prerequisites for access to the features of MyAnalytics.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+   </ul>
