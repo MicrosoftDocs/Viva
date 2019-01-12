@@ -6,7 +6,7 @@ title: Productivity insights in Outlook
 description: Learn ways to improve your productivity in Outlook 
 author: paul9955
 ms.author: v-pascha
-ms.date: 01/10/2018
+ms.date: 01/11/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -45,14 +45,25 @@ The Outlook add-in preserves all the data subject rights afforded by GDPR. The i
 
 Admins might find the following questions and answers of interest: 
 
-**Q1.** What is the roll-out plan?
+**Q1. Which plans will offer this experience?** 
+ 
+ 
+ * Microsoft 365 E3
+ * Microsoft 365 Business
+ * Office 365 E3
+ * Office 365 E1
+ * Business Premium 
+ * Business Essentials 
 
-**A1.** Beginning February 12th, 2019, users will be assigned licenses. The add-in functionality will begin rolling out on March 12th, 2019, to give you time to manage your settings. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.    
+**Q2. What is the roll-out plan?**
 
-**Q2.** How can I turn this off for my users?  
+    Beginning February 12th, 2019, users will be assigned licenses. The add-in functionality will begin rolling out on March 12th, 2019, to give you time to manage your settings. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.    
 
-**A3.** See [Manage deployment of Office 365 addins](https://docs.microsoft.com/en-us/office365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide).
+**Q3. How can I turn this off for my users?**
 
-**Q3.** Will anything change for existing users of MyAnalytics?
+    See [Manage deployment of Office 365 addins](https://docs.microsoft.com/en-us/office365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide).
 
-**A3.** No. Learn more about the [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index).
+**Q4. Will anything change for existing users of MyAnalytics?**
+
+    No. Learn more about the [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index).
+
