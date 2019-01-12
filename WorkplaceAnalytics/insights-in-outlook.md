@@ -94,7 +94,33 @@ next try:
  * Business Premium
  * Business Essentials
 
-</div>
+next try:
+
+<p>&nbsp;&nbsp;*&nbsp;&nbsp;Microsoft 365 E3
+<p>&nbsp;&nbsp;*&nbsp;&nbsp;Microsoft 365 Business
+<p>&nbsp;&nbsp;*&nbsp;&nbsp;Office 365 E3
+<p>&nbsp;&nbsp;*&nbsp;&nbsp;Office 365 E1
+<p>&nbsp;&nbsp;*&nbsp;&nbsp;Business Premium
+<p>&nbsp;&nbsp;*&nbsp;&nbsp;Business Essentials
+
+
+next try:
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  Microsoft 365 E3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  Microsoft 365 Business
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  Office 365 E3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  Office 365 E1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  Business Premium
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  Business Essentials
+
+next try:
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Microsoft 365 E3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Microsoft 365 Business
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Office 365 E3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Office 365 E1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Business Premium
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Business Essentials
 
 > [!Note]
 > The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index). 
