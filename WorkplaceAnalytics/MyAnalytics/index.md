@@ -18,7 +18,7 @@ author: madehmer
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page">
+        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page?branch=PAS-AddNewHub-Kalyan-Mathew">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide">
+        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide?branch=PAS-AddNewHub-Kalyan-Mathew">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -56,7 +56,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist">
+        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist?branch=PAS-AddNewHub-Kalyan-Mathew">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -76,7 +76,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics">
+        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics?branch=PAS-AddNewHub-Kalyan-Mathew">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -95,7 +95,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-elements">
+        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-elements?branch=PAS-AddNewHub-Kalyan-Mathew">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -114,7 +114,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/mya-faq">
+        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/mya-faq?branch=PAS-AddNewHub-Kalyan-Mathew">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

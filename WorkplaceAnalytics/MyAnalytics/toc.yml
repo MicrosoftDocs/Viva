@@ -10,7 +10,9 @@
       href: ./overview/mya-for-admins.md
       items:     
       - name: MyAnalytics Setup
-        href: ./Setup/Mya-setup-checklist.md        
+        href: ./Setup/Mya-setup-checklist.md      
+      - name: MyAnalytics plans and environments
+        href: ./overview/plans-environments.md 
       - name: MyAnalytics privacy guide for admins
         href: ./Overview/Privacy-Guide.md  
     - name: Use MyAnalytics
@@ -28,9 +30,7 @@
         - name: MyAnalytics nudges
           href: ./Use/mya-notifications.md
       - name: MyAnalytics tips
-        href: ./Overview/Tips.md    
-#      - name: MyAnalytics data privacy
-#        href: ./overview/data-privacy.md         
+        href: ./Overview/Tips.md           
       - name: Adopt MyAnalytics
         href: ./Use/MyA-Adoption/Adopt-myanalytics.md  
         items: 
