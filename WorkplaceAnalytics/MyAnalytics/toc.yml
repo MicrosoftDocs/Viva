@@ -3,34 +3,34 @@
   expanded: true
   items:   
     - name: Why use MyAnalytics?
-      href: ./Overview/Better-work-habits.md        
+      href: ./overview/Better-work-habits.md        
     - name: Frequently asked questions
-      href: ./Overview/MyA-faq.md        
+      href: ./overview/MyA-faq.md        
     - name: MyAnalytics for admins
       href: ./overview/mya-for-admins.md
       items:     
       - name: MyAnalytics Setup
-        href: ./Setup/Mya-setup-checklist.md      
+        href: ./setup/Mya-setup-checklist.md      
       - name: MyAnalytics plans and environments
         href: ./overview/plans-environments.md 
       - name: MyAnalytics privacy guide for admins
-        href: ./Overview/Privacy-Guide.md  
+        href: ./overview/Privacy-Guide.md  
     - name: Use MyAnalytics
       items:      
       - name: MyAnalytics elements
         expanded: false
-        href: ./Use/MyA-elements.md
+        href: ./use/MyA-elements.md
         items:
         - name: Dashboard
-          href: ./Use/dashboard.md
+          href: ./uUse/dashboard.md
         - name: Add-in
-          href: ./Use/add-in.md
+          href: ./use/add-in.md
         - name: Email digest
-          href: ./Use/email-digest.md
+          href: ./use/email-digest.md
         - name: MyAnalytics nudges
-          href: ./Use/mya-notifications.md
+          href: ./use/mya-notifications.md
       - name: MyAnalytics tips
-        href: ./Overview/Tips.md           
+        href: ./overview/Tips.md           
       - name: Adopt MyAnalytics
         href: ./Use/MyA-Adoption/Adopt-myanalytics.md  
         items: 
