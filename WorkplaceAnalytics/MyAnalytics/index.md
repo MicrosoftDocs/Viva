@@ -12,7 +12,7 @@ author: madehmer
 <ul class="cardsY panelContent singlePanelContent">
     <li>
     <h1>MyAnalytics Documentation</h1>
-        <p>MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p><p>Note that productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/environment-requirements?branch=PAS-AddNewHub-Kalyan-Mathew"> Learn more</a> about the experiences that users will get in each plan.
+        <p>MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization. <b>Note:</b> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/environment-requirements?branch=PAS-AddNewHub-Kalyan-Mathew"> Learn more</a> about the experiences that users will get in each plan.
     </li>
 </ul>
 
