@@ -12,6 +12,9 @@ ms.prod: mya
 ---
 # MyAnalytics
 
+> [!Note] 
+> Productivity insights 
+
 MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. Users obtain these benefits after an administrator sets up MyAnalytics within the organization. 
 
 <ul>
