@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Availability of features
+# Availability of features
 
 | Plan | User experience |
 | ----- | ----- | 
@@ -23,7 +23,7 @@ ms.prod: mya
 > [!Note]
 > Shared mailboxes cannot be licensed for and are not supported by MyAnalytics.
 
-## Support of environments
+# Support of environments
 
 ### Office 365 environments that are supported
 * Worldwide Multi-tenant

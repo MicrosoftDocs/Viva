@@ -16,7 +16,7 @@ localization_priority: Once
 # Adopt MyAnalytics
 
 > [!Note] 
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more about the experiences that users will get in each plan](../../overview/plans-environments.md). 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](../../overview/plans-environments.md) about the experiences that users will get in each plan. 
 
 The following MyAnalytics adoption materials can help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable. The following resources guide you through how to recognize problems and address them by building healthy work habits.
 
