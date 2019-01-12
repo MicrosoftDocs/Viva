@@ -45,14 +45,14 @@ Admins might find the following questions and answers of interest:
 
 **Q1. Which plans will offer this experience?**
 
-<ul>
+<ul> 
  
-<li style="text-indent: 40px">Microsoft 365 E3</li>
-<li style="text-indent: 40px">Microsoft 365 Business</li>
-<li style="text-indent: 40px">Office 365 E3</li>
-<li style="text-indent: 40px">Office 365 E1</li>
-<li style="text-indent: 40px">Business Premium</li>
-<li style="text-indent: 40px">Business Essentials</li> 
+    <li style="text-indent: 40px">Microsoft 365 E3</li>
+    <li style="text-indent: 40px">Microsoft 365 Business</li>
+    <li style="text-indent: 40px">Office 365 E3</li>
+    <li style="text-indent: 40px">Office 365 E1</li>
+    <li style="text-indent: 40px">Business Premium</li>
+    <li style="text-indent: 40px">Business Essentials</li> 
 
 </ul>
 
