@@ -15,13 +15,17 @@ localization_priority: Once
 
 # MyAnalytics Outlook add-in
 
+_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Office 365 E3, Office 365 E1, Business Premium, Business Essentials**_
+
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
 
-If your answer to any of these questions is _yes_, we have exciting news for you. We are making an Outlook add-in that gives you actionable insights available to all Office 365 commercial users. 
+If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done. 
 
-## Insights that you might see
+## Insights that you might see 
 
-The insights appear in the right panel of Outlook:
+Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select the swirl icon in the top-right corner of your email message, next to the **Reply** button.
+
+After you launch the add-in, the insights cards are displayed in the right panel:
 
 ![Insights panel](../../images/mya/overview/cards-panel-16.png)
 
@@ -30,7 +34,6 @@ The insights appear in the right panel of Outlook:
 ## Privacy by design 
 
 The Outlook add-in preserves all the data subject rights afforded by GDPR. The insights users see in the add-in are only available to them. No admin or manager can see those insights. They are computed on the fly based on the user's email and meeting information, and are never cached, stored, or moved out of the user's mailbox. Additionally, the add-in does not pre-process user data. [Learn more](https://www.microsoft.com/en-us/TrustCenter/CloudServices/office365/default.aspx) about how Microsoft protects your privacy. 
-
 
 <!-- OLD CONTENT. GOING AWAY AS OF 11 JANUARY 2019 
 
