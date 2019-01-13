@@ -45,82 +45,12 @@ Admins might find the following questions and answers of interest:
 
 **Q1. Which plans will offer this experience?**
 
- * Microsoft 365 E3
- * Microsoft 365 Business
- * Office 365 E3
- * Office 365 E1
- * Business Premium
- * Business Essentials
-
-
-next try: 
-
-
-
-<div style="text-indent: 40px"> 
-<ul> 
-<li style="text-indent: 40px">Microsoft 365 E3</li>
-<li style="text-indent: 40px">Microsoft 365 Business</li>
-<li style="text-indent: 40px">Office 365 E3</li>
-<li style="text-indent: 40px">Office 365 E1</li>
-<li style="text-indent: 40px">Business Premium</li>
-<li style="text-indent: 40px">Business Essentials</li> 
-</ul>
-</div>
-
-next try: 
-
-
-
-<div style="text-indent: 40px"> 
-<ul> 
-<li> Microsoft 365 E3</li>
-<li> Microsoft 365 Business</li>
-<li> st>Office 365 E3</li>
-<li> Office 365 E1</li>
-<li> Business Premium</li>
-<li> Business Essentials</li> 
-</ul>
-</div>
-
-next try:
-
-<div style="text-indent: 40px"> 
-
- * Microsoft 365 E3
- * Microsoft 365 Business
- * Office 365 E3
- * Office 365 E1
- * Business Premium
- * Business Essentials
-
-next try:
-
-<p>&nbsp;&nbsp;*&nbsp;&nbsp;Microsoft 365 E3
-<p>&nbsp;&nbsp;*&nbsp;&nbsp;Microsoft 365 Business
-<p>&nbsp;&nbsp;*&nbsp;&nbsp;Office 365 E3
-<p>&nbsp;&nbsp;*&nbsp;&nbsp;Office 365 E1
-<p>&nbsp;&nbsp;*&nbsp;&nbsp;Business Premium
-<p>&nbsp;&nbsp;*&nbsp;&nbsp;Business Essentials
-
-
-next try:
-
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  Microsoft 365 E3
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  Microsoft 365 Business
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  Office 365 E3
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  Office 365 E1
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  Business Premium
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  Business Essentials
-
-next try:
-
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Microsoft 365 E3
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Microsoft 365 Business
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Office 365 E3
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Office 365 E1
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Business Premium
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  &#8226;&nbsp; Business Essentials
+&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Microsoft 365 E3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Microsoft 365 Business
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Office 365 E3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Office 365 E1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Business Premium
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Business Essentials
 
 > [!Note]
 > The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index). 
