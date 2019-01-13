@@ -37,7 +37,7 @@ Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are 
 
 ## Privacy by design 
 
-[!INCLUDE [Privacy by design](includes/privacy-by-design.md)]  
+[!INCLUDE [Privacy by design](myanalytics/includes/privacy-by-design.md)]  
 
 ## Frequently asked questions
 

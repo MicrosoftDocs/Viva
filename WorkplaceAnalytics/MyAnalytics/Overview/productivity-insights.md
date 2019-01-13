@@ -30,7 +30,7 @@ After you launch the add-in, the insights cards are displayed in the right panel
 
 ## Privacy by design 
 
-[!INCLUDE [Privacy by design](../../includes/privacy-by-design.md)]
+[!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
 
 
