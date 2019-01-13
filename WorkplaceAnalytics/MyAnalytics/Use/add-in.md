@@ -33,7 +33,7 @@ After you launch the add-in, the insights cards are displayed in the right panel
 
 ## Privacy by design 
 
-The Outlook add-in preserves all the data subject rights afforded by GDPR. The insights users see in the add-in are only available to them. No admin or manager can see those insights. They are computed on the fly based on the user's email and meeting information, and are never cached, stored, or moved out of the user's mailbox. Additionally, the add-in does not pre-process user data. [Learn more](https://www.microsoft.com/en-us/TrustCenter/CloudServices/office365/default.aspx) about how Microsoft protects your privacy. 
+[!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
 <!-- OLD CONTENT. GOING AWAY AS OF 11 JANUARY 2019 
 
