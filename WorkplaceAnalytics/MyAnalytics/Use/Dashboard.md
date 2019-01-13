@@ -61,6 +61,8 @@ Scroll down the dashboard page and you see sections that give you more detail ab
 
 [!INCLUDE [Chats and calls](MyA-Dashboard/MyA-DB-Chats-and-calls.md)]
 
+[!INCLUDE [Documents](MyA-Dashboard/mya-db-documents.md)]
+
 [!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
 
 [!INCLUDE [Opt out](MyA-Dashboard/MyA-DB-Opt-out.md)]
