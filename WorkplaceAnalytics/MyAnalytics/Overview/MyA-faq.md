@@ -52,7 +52,7 @@ MyAnalytics does not have any tracking software running on your computer.
    * Attendees 
 
  * Information from Skype for Business:
-   * MyAnalytics counts audio calls, video calls, and chats that people make in Skype for Business Online as collaboration activities. 
+   * MyAnalytics counts audio calls, video calls, and chats that people make in Teams as collaboration activities. 
 
 #### MyAnalytics does not use 
 
@@ -73,7 +73,7 @@ For more details, see [Privacy](Privacy-Guide.md).
 
 ##### Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
-No. Only Exchange Online and Skype for Business Online are used as sources of MyAnalytics data.  
+No. Only Exchange Online and Teams are used as sources of MyAnalytics data.  
 
 #### Meetings
 
@@ -171,7 +171,7 @@ No, currently MyAnalytics licenses cannot be assigned to shared mailboxes.
 
 #### Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
-No. Only Exchange Online and Skype for Business Online are used as sources of MyAnalytics data.  
+No. Only Exchange Online and Teams are used as sources of MyAnalytics data.  
 
 #### I have not received my Skype for business data. It seems to have gone missing. Where is it?
 
