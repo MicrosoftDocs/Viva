@@ -19,7 +19,7 @@ MyAnalytics counts audio calls, video calls, and chats that people make in Teams
 ### Chats in Teams
 
  * Every Teams chat message that you send counts as 30 seconds.
- * Every Teams chat message that you receive counts as 0 seconds. This is because it has been empirically determined that the sent-messages time is a good predictor of the total duration of the Skype session.
+ * Every Teams chat message that you receive counts as 0 seconds. This is because it has been empirically determined that the sent-messages time is a good predictor of the total duration of the Teams session.
 
 ### Calls in Teams
 
