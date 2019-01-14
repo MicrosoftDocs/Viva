@@ -13,8 +13,10 @@ ms.prod: mya
 localization_priority: Once
 ---
 
-
 # Frequently asked questions for MyAnalytics
+
+> [!Note] 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan. 
 
 The sets of questions and answers in this topic apply to different sets of readers.
 

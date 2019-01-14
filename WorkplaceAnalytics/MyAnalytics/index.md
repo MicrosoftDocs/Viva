@@ -2,17 +2,17 @@
 layout: HubPage
 title: MyAnalytics
 description: Learn more about, set up, and use MyAnalytics.
-ms.date: 12/17/2018
+ms.date: 01/1/2018
 localization_priority: normal 
 ms.prod: mya
-ms.author: madehmer
+ms.author: paul9955
 author: madehmer
 ---
 
 <ul class="cardsY panelContent singlePanelContent">
     <li>
     <h1>MyAnalytics Documentation</h1>
-        <p>MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p>
+        <p><b>Note:</b> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/plans-environments"> Learn more about the experiences that users will get in each plan.</a>  MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p> 
     </li>
 </ul>
 
@@ -132,4 +132,4 @@ author: madehmer
         </div>
         </a>
     </li>
-</ul>
+   </ul>
