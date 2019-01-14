@@ -12,13 +12,13 @@ author: madehmer
 <ul class="cardsY panelContent singlePanelContent">
     <li>
     <h1>MyAnalytics Documentation</h1>
-        <p><b>Note:</b> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://review.docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/plans-environments?branch=PAS-AddNewHub-Kalyan-Mathew"> Learn more about the experiences that users will get in each plan.</a>  MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p> 
+        <p><b>Note:</b> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/plans-environments"> Learn more about the experiences that users will get in each plan.</a>  MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p> 
     </li>
 </ul>
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page?branch=PAS-AddNewHub-Kalyan-Mathew">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide?branch=PAS-AddNewHub-Kalyan-Mathew">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -56,7 +56,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist?branch=PAS-AddNewHub-Kalyan-Mathew">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -76,7 +76,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics?branch=PAS-AddNewHub-Kalyan-Mathew">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -95,7 +95,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-elements?branch=PAS-AddNewHub-Kalyan-Mathew">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-elements">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -114,7 +114,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/mya-faq?branch=PAS-AddNewHub-Kalyan-Mathew">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/mya-faq">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -53,7 +53,7 @@ Admins might find the following questions and answers of interest:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Business Essentials
 
 > [!Note]
-> The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/index?branch=PAS-AddNewHub-Kalyan-Mathew). 
+> The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index). 
 
 **Q2. What is the roll-out plan?**
 

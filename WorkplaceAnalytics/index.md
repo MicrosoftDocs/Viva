@@ -114,7 +114,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/workplace-analytics/myanalytics/index?branch=PAS-AddNewHub-Kalyan-Mathew">
+        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/index">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

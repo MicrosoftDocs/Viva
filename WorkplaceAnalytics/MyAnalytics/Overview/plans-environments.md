@@ -28,12 +28,11 @@ ms.prod: mya
 ### Office 365 environments that are supported
 * Worldwide Multi-tenant
 * Dedicated Multi-tenant
-* Go-locals
 * GCC
  
 ### Office 365 environments that are not supported
 * GCC-High
 * DoD
-* Gallatin
-* BlackForest
+* Office 365 Germany
+* Office 365 Operated by 21Vianet
 
