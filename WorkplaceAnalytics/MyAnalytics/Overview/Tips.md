@@ -59,7 +59,7 @@ Before you click send, look over your recipient list to make sure each person wi
 
 #### Send fewer emails - use Teams or pick up the phone 
 
-Before sending an email at all, consider these insights: An organizational simplicity task force found that reducing executive email output by 54 percent resulted in a 7 percent productivity increase throughout the company. A management tip column supported this approach by urging executives to “pick up the phone.” Often, phone calls are more efficient than back-and-forth email conversations, and they allow for questions to be answered in real time. Skype and Teams are also good options. 
+Before sending an email at all, consider these insights: An organizational simplicity task force found that reducing executive email output by 54 percent resulted in a 7 percent productivity increase throughout the company. A management tip column supported this approach by urging executives to “pick up the phone.” Often, phone calls are more efficient than back-and-forth email conversations, and they allow for questions to be answered in real time. Teams is also a good option. 
 
 #### Unsubscribe from groups that you don’t read 
 
