@@ -59,10 +59,22 @@ Admins might find the following questions and answers of interest:
 
 Beginning February 12th, 2019, users will be assigned licenses. The add-in functionality will begin rolling out on March 12th, 2019, to give you time to manage your settings. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.    
 
-**Q3. How can I turn this off for my users?**
+**Q3. When will the swirl icon in the Outlook toolbar become available?**
+
+Starting on March 12, 2019. 
+
+**Q4. Will users receive the welcome email and the MyAnalytics email digest?**
+
+No. This new experience will offer only the Outlook add-in.  
+
+**Q5. Will users see MyAnalytics in the App launcher?**
+
+No.   
+
+**Q6. How can I turn this off for my users?**
 
 See [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
-**Q4. Will anything change for existing users of MyAnalytics?**
+**Q7. Will anything change for existing users of MyAnalytics?**
 
 No. 
