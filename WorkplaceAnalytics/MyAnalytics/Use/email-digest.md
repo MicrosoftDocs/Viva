@@ -32,7 +32,7 @@ If you do not want to receive digest emails from MyAnalytics, you can opt out of
 --->
 
 >[!Note]
-> Teams data is usually prompt. However, in rare instances, users can experience delays of from two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md)
+> Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md)
 
 
 </br>

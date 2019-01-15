@@ -14,18 +14,17 @@ ms.prod: mya
 
 ## Chats and calls
 
-MyAnalytics counts audio calls, video calls, and chats that people make in Teams as collaboration activities. It calculates the duration of these activities this way: 
+MyAnalytics counts audio calls, video calls, and chats that people make in Teams and in Skype for Business as collaboration activities. It calculates the duration of these activities this way: 
 
-### Chats in Teams
+### Chats in Teams and in Skype for Business
 
- * Every Teams chat message that you send counts as 30 seconds.
- * Every Teams chat message that you receive counts as 0 seconds. This is because it has been empirically determined that the sent-messages time is a good predictor of the total duration of the Teams session.
+ * Every chat message that you send counts as 30 seconds.
+ * Every chat message that you receive counts as 0 seconds. This is because it has been empirically determined that the sent-messages time is a good predictor of the total duration of the Teams session or Skype for Business session.
 
-### Calls in Teams
+### Calls in Teams and in Skype for Business
 
- * For every ad hoc call in Teams, MyAnalytics uses the actual duration of the call. An "ad hoc" call is a call that does not appear in the Outlook calendar. 
- * For any Teams call that is also a meeting on the Outlook calendar, the time counts as 0. This is because the time is already being counted as a meeting on the calendar.
-
+ * For every ad hoc call, MyAnalytics uses the actual duration of the call. An "ad hoc" call is a call that does not appear in the Outlook calendar. 
+ * For any call that is also a meeting on the Outlook calendar, the time counts as 0. This is because the time is already being counted as a meeting on the calendar.
 
   >[!Note]
-  > Teams data is usually prompt. However, in rare instances, users can experience delays of from two to four days. For more information see [MyAnalytics FAQ](../../Overview/MyA-faq.md)
+  > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. For more information see [MyAnalytics FAQ](../../Overview/MyA-faq.md)

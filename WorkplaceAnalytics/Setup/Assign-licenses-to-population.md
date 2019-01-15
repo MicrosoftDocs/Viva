@@ -20,7 +20,7 @@ ms.prod: wpa
 
 The Workplace Analytics sponsor works with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics.
 
-Employees in your organization who are not licensed for analysis but might have meeting, email, or Teams collaboration with measured employees are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
+Employees in your organization who are not licensed for analysis but might have meeting, email, or Teams/Skype for Business collaboration with measured employees are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
 After you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population.  
 
