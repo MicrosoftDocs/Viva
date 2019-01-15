@@ -51,7 +51,7 @@ MyAnalytics does not have any tracking software running on your computer.
    * Duration 
    * Attendees 
 
- * Information from Skype for Business:
+ * Information from Teams:
    * MyAnalytics counts audio calls, video calls, and chats that people make in Teams as collaboration activities. 
 
 #### MyAnalytics does not use 
@@ -71,7 +71,7 @@ For more details, see [Privacy](Privacy-Guide.md).
 
 #### Data sources
 
-##### Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+##### Can data be extracted from on-premises installations of Microsoft Exchange or Teams?
 
 No. Only Exchange Online and Teams are used as sources of MyAnalytics data.  
 
@@ -169,13 +169,13 @@ Upon activation, MyAnalytics processes historical data for 80 days before the da
 
 No, currently MyAnalytics licenses cannot be assigned to shared mailboxes.
 
-#### Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+#### Can data be extracted from on-premises installations of Microsoft Exchange or Teams?
 
 No. Only Exchange Online and Teams are used as sources of MyAnalytics data.  
 
-#### I have not received my Skype for business data. It seems to have gone missing. Where is it?
+#### I have not received my Teams data. It seems to have gone missing. Where is it?
 
-Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, "after hours," which includes Skype for Business data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data comes in.
+Teams data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, "after hours," which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data comes in.
 
 #### Can I remove the company-averages metrics from the personal dashboard? 
 
