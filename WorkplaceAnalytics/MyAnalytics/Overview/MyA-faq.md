@@ -30,7 +30,7 @@ Two later sections are grouped by role:
  
 ### Where does MyAnalytics get my data? 
 
-MyAnalytics uses data from your Office 365 mailbox, namely data about your email and your meetings plus data about your Skype calls and chats. Every calculation that MyAnalytics performs is based on data that you, yourself, could obtain by gathering and examining metadata of your emails, meetings, calls, and chats, such as their start and end times and their subject lines. In other words, MyAnalytics automates what would otherwise be a painstaking task; these automatic calculations provide you with transparency into your workplace collaboration habits. 
+MyAnalytics uses data from your Office 365 mailbox, namely data about your email and your meetings plus data about your Teams calls and chats. Every calculation that MyAnalytics performs is based on data that you, yourself, could obtain by gathering and examining metadata of your emails, meetings, calls, and chats, such as their start and end times and their subject lines. In other words, MyAnalytics automates what would otherwise be a painstaking task; these automatic calculations provide you with transparency into your workplace collaboration habits. 
 
 MyAnalytics does not have any tracking software running on your computer. 
  
