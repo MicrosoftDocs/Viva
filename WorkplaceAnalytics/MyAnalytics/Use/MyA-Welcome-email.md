@@ -6,7 +6,7 @@ title: MyAnalytics welcome email
 description: MyAnalytics users receive welcome email after licenses are assigned to them. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 12/17/2018
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya

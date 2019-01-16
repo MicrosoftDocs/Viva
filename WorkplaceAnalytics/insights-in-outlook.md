@@ -1,11 +1,11 @@
 ---
 
 layout: HubPage
-title: Workplace Analytics
+title: Productivity insights in Outlook
 description: Learn ways to improve your productivity in Outlook
-ms.date: 01/10/2018
+ms.date: 01/16/2019
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 author: paul9955
 ms.author: v-pascha
 breadcrumb_path: 
@@ -16,7 +16,7 @@ breadcrumb_path:
 <!-- 
 1) Leave these paragraph tags intact. The H1 heading won't work without them. 
 2) Note: We need to keep "layout: HubPage" in the metadata or else we get the TOC in the left pane.
-3) Working on how to remove the breadcrumbs pane. Trying adding extendBreadcrumb: false to the metadata but this didn't seem to do anything. 
+3) Removed the breadcrumbs by adding breadcrumb_path: to the metadata, per DStrome.  
  -->
 </p>
 

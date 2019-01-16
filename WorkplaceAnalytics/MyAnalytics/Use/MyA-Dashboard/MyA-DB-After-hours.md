@@ -4,9 +4,9 @@
 
 title: How MyAnalytics uses after hours
 description: How MyAnalytics estimates the time you spend working during your official time off.
-author: buntus
+author: paul9955
 ms.author: v-pascha
-ms.date: 07/03/2018
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -19,7 +19,7 @@ ms.prod: mya
 Your after-hours time is the total time that you spent outside your work hours in any of the following activities: 
  * Reading or writing email
  * Attending meetings whose invitations you've accepted
- * Participating in chats or calls in Teams or in Skype for Business
+ * Participating in chats or calls in Teams or in Skype for Business 
 
 For example, the time you spend reading or sending email messages on weekends counts as after-hours time.
 

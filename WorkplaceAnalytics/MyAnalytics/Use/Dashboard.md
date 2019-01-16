@@ -6,7 +6,7 @@ title: MyAnalytics dashboard
 description: All the individual dashboard topics, displayed as one in MyAnalytics.
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/15/2018
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya

@@ -6,7 +6,7 @@ title: MyAnalytics Add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics.
 author: paul9955
 ms.author: v-pascha
-ms.date: 01/11/2018
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -27,7 +27,7 @@ Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are 
 
 After you launch the add-in, the insights cards are displayed in the right panel:
 
-![Insights panel](../../images/mya/overview/cards-panel-16.png)
+![Insights panel](../../images/mya/overview/cards-panel-17.png)
 
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 
