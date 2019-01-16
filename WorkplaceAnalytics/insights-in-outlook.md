@@ -31,10 +31,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights that you might see
 
-![Insights panel](images/mya/overview/bullet-point-indented.png)Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
+![Bullet point](images/mya/overview/bullet-point-indented.png)Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
 
 ![Insights panel](images/mya/overview/cards-panel-17.png)
 
@@ -48,12 +45,12 @@ Admins might find the following questions and answers of interest:
 
 **Q1. Which plans will offer this experience?**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Microsoft 365 E3
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Microsoft 365 Business
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Office 365 E3
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Office 365 E1
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Business Premium
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Business Essentials
+![Bullet point](images/mya/overview/bullet-point-indented.png)Microsoft 365 E3<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Microsoft 365 Business<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Office 365 E3<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Office 365 E1<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Business Premium<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Business Essentials<p>
 
 > [!Note]
 > The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index). 
