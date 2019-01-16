@@ -35,7 +35,7 @@ MyAnalytics converts data into insights by performing calculations on informatio
 <li>
 
 **MyAnalytics data is processed and stored in the employee’s Exchange Online mailbox**.             
-MyAnalytics processes data from two sources: Exchange Online email and calendar data, and Skype for Business Online chat and call signals. MyAnalytics stores and processes this data inside each employee’s Exchange Online mailbox.</li>
+MyAnalytics processes data from these sources: Exchange Online email and calendar data, and chat and call signals from Skype for Business and from Teams. MyAnalytics stores and processes this data inside each employee’s Exchange Online mailbox.</li>
 
 <li>
 
@@ -70,7 +70,7 @@ MyAnalytics presents insights through four different surfaces:
 
 MyAnalytics provides insights by using two types of data:
 
-1.	**Mailbox data**: Email, calendar, and Skype for Business Online chat or call activity that people generate by using Office 365, such as time spent in meetings and emails sent to a specific person.
+1.	**Mailbox data**: Email, calendar, and chat or call activity that people generate by using Office 365, such as time spent in meetings and emails sent to a specific person.
 
 2.	**Incremental data**: data that would otherwise be unavailable to the employee but is presented in an aggregated form that is designed to protect individual privacy.
 
@@ -82,7 +82,7 @@ For example, MyAnalytics provides views that allow people to quickly understand 
 
 People can take action on this information —they might decide that they spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
 
-These insights are derived from data that is *already available* to people in their Exchange Online mailbox and Skype for Business Online chat or call history. MyAnalytics simply applies some basic calculations and rules to make that data more actionable. Mailbox data is stored directly in each employee's Exchange Online mailbox.
+These insights are derived from data that is *already available* to people in their Exchange Online mailbox and in their chat or call history from Teams and from Skype for Business. MyAnalytics simply applies some basic calculations and rules to make that data more actionable. Mailbox data is stored directly in each employee's Exchange Online mailbox.
 
 For example, if people want to determine which colleagues sent them the most email over the past week, they could technically do so without MyAnalytics by manually counting emails from coworkers in their inbox. Similarly, people could determine their coworkers’ average response time to the emails that they send by using timestamp information readily available in their mailbox. MyAnalytics saves people the trouble of having to perform these tedious calculations.
 

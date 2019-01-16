@@ -18,7 +18,7 @@ MyAnalytics operates under the following privacy principles:
 
 ## You own the data in your inbox
 
-When you look in your Office 365 mailbox, you see a record of interactions that you’ve had with other people. These interactions are of various kinds: emails that you’ve sent and received, meeting invitations, chats and calls in Skype for Business. Because it’s your mailbox, you have a right to it and the information that it contains. In other words, your mailbox content is information that’s freely available to you. 
+When you look in your Office 365 mailbox, you see a record of interactions that you’ve had with other people. These interactions are of various kinds: emails that you’ve sent and received, meeting invitations, chats and calls in Teams or in Skype for Business. Because it’s your mailbox, you have a right to it and the information that it contains. In other words, your mailbox content is information that’s freely available to you. 
 
 ![Outlook inbox](../../images/mya/overview/outlook-1.png)   
 
@@ -33,10 +33,6 @@ This is how electronic communication works. Once you send an item, it’s gone, 
 If you send an email to your IT person, you can assume he’ll know that you sent it, and when. Sending it means that you’ve chosen to reveal it (both its contents and its metadata) to him. If you do not want him to think you sent him email, the only thing you can do is _not send it in the first place_. (For the sake of argument, we’re ignoring the Outlook capability to recall a message.)
 
 **Conclusion:** _What's in your inbox is yours. Your right to view the items in your mailbox supersedes someone else’s right to privacy over those items._ 
-
-<!--
-**Corollary:** You do not have rights to the communication between other people, unless it also directly involves you – for example, someone includes you in a meeting invitation. Facts about the emails that others have sent belong to the sender and the recipient, not to you. This holds true for all types of collaboration, regardless of the app used to create it; for example, Outlook, Teams, Skype for Business. 
--->
 
 ## No one but you sees your data
 
