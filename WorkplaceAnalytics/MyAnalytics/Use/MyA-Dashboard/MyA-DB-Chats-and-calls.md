@@ -27,4 +27,4 @@ MyAnalytics counts audio calls, video calls, and chats that people make in Teams
  * For any call that is also a meeting on the Outlook calendar, the time counts as 0. This is because the time is already being counted as a meeting on the calendar.
 
   >[!Note]
-  > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. For more information see [MyAnalytics FAQ](../../Overview/MyA-faq.md)
+  > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../../Overview/MyA-faq.md)

@@ -30,6 +30,6 @@ Your work hours are defined by your [Outlook settings](https://outlook.office.co
 
 >[!Note] 
 > * After hours is an estimate only and is not meant to reflect actual hours worked. You can compare how we calculate the times for [Meetings](MyA-DB-Meetings.md), for [Email](MyA-DB-Emails.md), and for [Chats and calls](MyA-DB-Chats-and-calls.md).
-> * After-hours calls in Skype for Business or in Teams that form part of a scheduled meeting on your calendar count towards after-hours meetings. They do not count as after-hours chats or calls.
+> * After-hours calls in Teams or in Skype for Business that form part of a scheduled meeting on your calendar count towards after-hours meetings. They do not count as after-hours chats or calls.
 
 See [Tips for after hours](../../Overview/Tips.md#tips-for-after-hours) for suggestions related to work-life balance.
