@@ -31,7 +31,10 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights that you might see
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
+![Insights panel](images/mya/overview/bullet-point-indented.png)Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
 
 ![Insights panel](images/mya/overview/cards-panel-17.png)
 
