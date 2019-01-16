@@ -6,7 +6,7 @@ title: Chats and calls in MyAnalytics
 description: The display of chats and calls in MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 01/14/2018
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya

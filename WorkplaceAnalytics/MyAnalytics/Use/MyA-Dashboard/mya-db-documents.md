@@ -6,7 +6,7 @@ title: Documents in MyAnalytics
 description: The display of cloud documents in MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 12/11/2018
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya

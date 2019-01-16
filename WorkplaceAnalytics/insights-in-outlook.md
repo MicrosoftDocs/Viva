@@ -1,11 +1,11 @@
 ---
 
 layout: HubPage
-title: Workplace Analytics
+title: Productivity insights in Outlook
 description: Learn ways to improve your productivity in Outlook
-ms.date: 01/10/2018
+ms.date: 01/16/2019
 localization_priority: normal 
-ms.prod: wpa
+ms.prod: mya
 author: paul9955
 ms.author: v-pascha
 breadcrumb_path: 
@@ -16,7 +16,7 @@ breadcrumb_path:
 <!-- 
 1) Leave these paragraph tags intact. The H1 heading won't work without them. 
 2) Note: We need to keep "layout: HubPage" in the metadata or else we get the TOC in the left pane.
-3) Working on how to remove the breadcrumbs pane. Trying adding extendBreadcrumb: false to the metadata but this didn't seem to do anything. 
+3) Removed the breadcrumbs by adding breadcrumb_path: to the metadata, per DStrome.  
  -->
 </p>
 
@@ -31,7 +31,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights that you might see
 
-Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
+![Bullet point](images/mya/overview/bullet-point-indented.png)Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
 
 ![Insights panel](images/mya/overview/cards-panel-17.png)
 
@@ -45,12 +45,12 @@ Admins might find the following questions and answers of interest:
 
 **Q1. Which plans will offer this experience?**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Microsoft 365 E3
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Microsoft 365 Business
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Office 365 E3
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Office 365 E1
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Business Premium
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;Business Essentials
+![Bullet point](images/mya/overview/bullet-point-indented.png)Microsoft 365 E3<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Microsoft 365 Business<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Office 365 E3<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Office 365 E1<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Business Premium<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)Business Essentials<p>
 
 > [!Note]
 > The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/index). 
