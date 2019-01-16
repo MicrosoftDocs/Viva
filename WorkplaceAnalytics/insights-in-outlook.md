@@ -59,7 +59,7 @@ Admins might find the following questions and answers of interest:
 
 Beginning February 12th, 2019, users will be assigned licenses. The add-in functionality will begin rolling out on March 12th, 2019, to give you time to manage your settings. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.    
 
-**Q3. When will the swirl icon in the Outlook toolbar become available?**
+**Q3. When will the Outlook add-in become available?**
 
 Starting on March 12, 2019. 
 
