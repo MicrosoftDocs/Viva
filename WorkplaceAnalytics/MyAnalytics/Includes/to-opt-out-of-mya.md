@@ -14,13 +14,17 @@ ms.prod: mya
 
 **To opt out of MyAnalytics**
 
-1. In Delve, select the gear icon in the top toolbar to open the Settings pane.
+1. Open the MyAnalytics dashboard. 
+2. Select the gear icon in the top right to open the Settings pane.
 
-    ![Delve settings](../../Images/mya/use/Gear-icon-Delve.png)
-     
-2. Select **Feature settings**.
-3. Under MyAnalytics, set the control to **Off**.
+    ![MyAnalytics settings](../../Images/mya/use/Gear-icon-Delve.png)
+
+3. Under MyAnalytics, select **Settings**.
+4. For MyAnalytics, set the control to **Off**.
 
     ![Slider in off position](../../Images/mya/use/Slider-off.png)
   
-4. At the top of the Feature settings panel, select **OK** to save your changes. 
+5. Select **Save** to save your changes.
+
+> [!NOTE]
+> It might take up to a week for your saved changes to take effect.

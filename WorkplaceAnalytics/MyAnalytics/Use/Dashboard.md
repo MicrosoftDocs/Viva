@@ -3,10 +3,10 @@
 # required metadata
 
 title: MyAnalytics dashboard
-description: All the individual dashboard topics, displayed as one in MyAnalytics.
+description: All the individual dashboard topics, displayed as one in MyAnalytics
 author: paul9955
-ms.author: v-pascha
-ms.date: 01/16/2019
+ms.author: madehmer
+ms.date: 01/17/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -68,5 +68,3 @@ Scroll down the dashboard page and you see sections that give you more detail ab
 [!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
 
 [!INCLUDE [Opt out](MyA-Dashboard/MyA-DB-Opt-out.md)]
-
-<br>
