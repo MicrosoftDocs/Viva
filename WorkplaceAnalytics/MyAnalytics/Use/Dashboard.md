@@ -5,8 +5,8 @@
 title: MyAnalytics dashboard
 description: All the individual dashboard topics, displayed as one in MyAnalytics.
 author: paul9955
-ms.author: madehmer
-ms.date: 01/22/2019
+ms.author: v-pascha
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -28,7 +28,7 @@ Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide
 
 # Dashboard elements overview
 
-The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools:
+The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools: 
 
 ## Time summary
 
@@ -45,7 +45,7 @@ a time goal. You can change these weekly time goals.
 
 -->
 
-See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
+See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
 
 Scroll down the dashboard page and you see sections that give you more detail about the ways you spend your time and the people you contact while you work.
 
@@ -65,4 +65,8 @@ Scroll down the dashboard page and you see sections that give you more detail ab
 
 [!INCLUDE [Documents](MyA-Dashboard/mya-db-documents.md)]
 
+[!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
+
 [!INCLUDE [Opt out](MyA-Dashboard/MyA-DB-Opt-out.md)]
+
+<br>
