@@ -24,6 +24,6 @@ MyAnalytics helps you understand how you collaborate with colleagues and spend y
 
 Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.  
 
-[!INCLUDE [To open the MyAnalytics dashboard](../Includes/to-open-the-dashboard-2.md)]
+[!INCLUDE [To open the MyAnalytics dashboard](../Includes/to-open-the-dashboard.md)]
 
 # Dashboard elements overview
