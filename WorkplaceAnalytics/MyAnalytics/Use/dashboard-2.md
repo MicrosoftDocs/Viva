@@ -29,7 +29,6 @@ MyAnalytics is completely personal and private. Only you (not your manager and n
 ## Your work habits
 
 
-
 ## Productivity insights
 
 Productivity insights give you statistics based on your recent workplace activity. Select **View Suggestions** to get ideas on how you can change or improve your current work habits.

@@ -23,9 +23,9 @@ As a MyAnalytics user, you will receive a weekly email digest that'll provide su
 * **Relationships** - Ways to keep up and collaborate with important people and to continue to maintain or grow your network of people.
 * **Better meetings** - Ways to help you plan your calendar, improve time efficiency, and improve meeting quality.
 
-The following is an example of an email digest.
+The following is an example of an email digest with a simple way to increase focus time.
 
-![Email digest](../../Images/mya/use/email-digest.png)
+![Email digest](../../Images/mya/use/email-digest-1.png)
 
 <!---
 If you do not want to receive digest emails from MyAnalytics, you can opt out of the emails using the following steps:
