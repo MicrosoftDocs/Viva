@@ -10,7 +10,7 @@ ms.date: 01/17/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
-localization_priority: Once
+
 ---
 
 # MyAnalytics personal dashboard
@@ -38,14 +38,7 @@ Near the top of the MyAnalytics dashboard is the "My time summary" area. This ar
 
 This report summarizes the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with your company average.
 
-<!-- REMOVED PER NOELLE 24 Aug
-a time goal. You can change these weekly time goals. 
-
-[!INCLUDE [To change your weekly goals](../Includes/to-change-your-weekly-goals.md)]
-
--->
-
-See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
+See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
 
 Scroll down the dashboard page and you see sections that give you more detail about the ways you spend your time and the people you contact while you work.
 

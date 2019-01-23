@@ -14,7 +14,7 @@ ms.prod: mya
 
 **To open the MyAnalytics dashboard**
 
-1. In a web browser, open msit.myanalytics.microsoft.com. Your MyAnalytics dashboard opens to the Home page.
+1. In a web browser, open [msit.myanalytics.microsoft.com](https://msit.myanalytics.microsoft.com). Your personal MyAnalytics dashboard opens to the Home page.
 
 *In Outlook*
 
@@ -24,4 +24,4 @@ ms.prod: mya
 *In the Outlook Web app*
 
 1. In the Outlook Web App, open an email message.
-2. Select the MyAnalytics icon in the top-right corner of your email message, next to the Reply button.
+2. Select the MyAnalytics icon at top-right in your email message, next to the Reply button.
