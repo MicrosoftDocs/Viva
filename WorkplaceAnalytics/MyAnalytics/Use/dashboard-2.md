@@ -20,9 +20,9 @@ _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5,
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is your MyAnalytics _dashboard_.
 
 > [!Note]
-> To learn about the benefits of using MyAnalytics, see [Why use MyAnalytics?](../Overview/Better-work-habits.md)
+> To learn about the benefits of using MyAnalytics, see [Why use MyAnalytics?](../Overview/Better-work-habits.md).
 
-MyAnalytics is completely personal and private. Only you (not your manager and not the system admin) can see your dashboard data. MyAnalytics does not give anyone else in your organization access to your dashboard.
+MyAnalytics is completely personal and private. Only you (not your manager and not the system admin) can see your dashboard data.
 
 [!INCLUDE [To open the MyAnalytics dashboard](../Includes/to-open-the-dashboard.md)]
 
