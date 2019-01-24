@@ -5,8 +5,8 @@
 title: To opt out of MyAnalytics
 description: How to turn off the MyAnalytics app. 
 author: paul9955
-ms.author: v-pascha
-ms.date: 02/26/2018
+ms.author: madehmer
+ms.date: 1/23/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -14,10 +14,10 @@ ms.prod: mya
 
 **To opt out of MyAnalytics**
 
-1. Open the MyAnalytics dashboard. 
+1. Open the MyAnalytics dashboard.
 2. Select the gear icon in the top right to open the Settings pane.
 
-    ![MyAnalytics settings](../../Images/mya/use/Gear-icon-Delve.png)
+    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under MyAnalytics, select **Settings**.
 4. For MyAnalytics, set the control to **Off**.
