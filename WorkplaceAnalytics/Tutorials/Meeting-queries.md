@@ -72,7 +72,7 @@ When you run a meeting query in Workplace Analytics, the output (.csv) file can 
 
 * Improves data analysis with fewer columns in a smaller file.
 * Further protects private data by excluding select columns from the file.
-* Enables you to select **Clear all** to clear all selected columns or use **Select all** to include all columns.
+* Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns.
 
 ![Organizational data section](../Images/WpA/Tutorials/query-org-data-m.png)
 
@@ -97,8 +97,8 @@ Continuing the example from [Person queries](../Tutorials/meeting-queries.md), t
 4. Enter the **Date range** you want.
 5. For **Meeting exclusions**, select an exclusion rule for this query.
 6. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > equals > **Operations**.
-7. To add a custom filter to include only meetings that are two hours or longer, select the plus sign to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
-8. To add a custom filter to include only meetings that are recurring, select the plus sign to add another filter, then select **Meeting** > **IsRecurring** > equals > **True**.
+7. To add a custom filter to include only meetings that are two hours or longer, select the **+** (plus sign) to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
+8. To add a custom filter to include only meetings that are recurring, select the **+** (plus sign) to add another filter, then select **Meeting** > **IsRecurring** > equals > **True**.
 9. To add a metric for the number of attendees, in Metrics, select **Add metric**.
 10. Select **Attendees**, and then select and change the metric's name to **Total attendees**.
 11. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.

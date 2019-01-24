@@ -94,8 +94,8 @@ To get more details on adding metric filters, see [Customize a metric](../Tutori
 When you run a person query in Workplace Analytics, the output (.csv) file can be larger than necessary, with more organizational data columns than you need. You can use the Organizational data section to select which data columns to include in the output file, which:
 
 * Improves data analysis with fewer columns in a smaller file.
-* Further protects private data by excluding select columns from the file.
-* Enables you to select **Clear all** to clear all selected columns or use **Select all** to include all columns.
+* Further protects private data by excluding columns from the file.
+* Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns.
 
 ![Organizational data section](../Images/WpA/Tutorials/query-org-data.png)
 
@@ -125,15 +125,16 @@ You can create a person query to investigate if long meetings are a significant 
 8. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
 9. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
 
-    a. To customize the Long meeting hours metric, select the Edit icon.
-    b. Choose **Add filter**.
-    c. In the **Long meeting hours where** section, select **Meeting**, and then select **Duration­Hours** > greater than or equal to > **2**.
-    d. Select **Confirm**.
+   <ol type="a"> 
+   <li>To customize the Long meeting hours metric, select the Edit icon.</li>
+   <li>Choose <b>Add filter</b>.</li>
+   <li>In the <b>Long meeting hours where</b> section, select <b>Meeting</b>, and then select <b>Duration­Hours</b> > greater than or equal to > <b>2</b>.</li>
+   <li>Select <b>Confirm</b>.</li></ol>
 
 10. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
 11. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
 
-    > [!Note]
+    > [!NOTE]
     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
     > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
     > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
