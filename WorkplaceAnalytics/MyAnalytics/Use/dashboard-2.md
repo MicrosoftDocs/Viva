@@ -3,7 +3,7 @@
 # required metadata
 
 title: MyAnalytics dashboard 2019
-description: Learn about what's included in your personal MyAnalytics 2019 dashboard
+description: Learn about what's included in your personal MyAnalytics dashboard 2019
 author: madehmer
 ms.author: madehmer
 ms.date: 01/23/2019
@@ -28,6 +28,9 @@ MyAnalytics is completely personal and private. Only you (not your manager and n
 
 ## Your work habits
 
+This section gives you helpful statistics about your work activities over the past month, including data about focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
+
+![Your work habits](../../Images/mya/use/mya-work-habits.png)
 
 ## Productivity insights
 
@@ -39,9 +42,27 @@ See [MyAnalytics Tips](../Overview/tips.md) for suggestions on how to plan your 
 
 ## Focus and Wellbeing
 
+Gives you ways to plan time for specific tasks during your working hours, such as booking focus time in your calendar and adding tasks to the body of the appointment. This section also shows how well you are disconnecting from work during your time off and suggests ways to balance work with life.
+
+![Focus and wellbeing](../../Images/mya/use/mya-focus-wellbeing.png)
+
 ## Your Network
+
+This section shows the people you were actively networked with and your total network size based on work activities, such as email, chats, and meetings. It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people. 
+
+
+![Your Network](../../Images/mya/use/mya-network.png)
 
 ## Config Settings
 
+Your personalized MyAnaltyics data and insights are based on the time zone and the working hours that you set in Outlook. 
+
+![Config Settings](../../Images/mya/use/mya-config-settings.png)
+
 ## Feedback
 
+Your experience rating and feedback about MyAnalytics is important to us. If you think of a new feature or enhancement:
+
+1. Open your MyAnalytics dashboard.
+2. Select **Feedback** on the left pane.
+3. Complete the form, and then select **Submit**.
