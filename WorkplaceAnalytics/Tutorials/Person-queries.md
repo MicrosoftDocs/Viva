@@ -6,7 +6,7 @@ title: Person queries in Workplace Analytics
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual.     
 author: madehmer
 ms.author: madehmer
-ms.date: 12/3/2018
+ms.date: 1/8/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -89,6 +89,16 @@ You can add a filter to a base metric and edit the metric name with the filter. 
 
 To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
 
+## Select what organizational data to include
+
+When you run a person query in Workplace Analytics, the output (.csv) file can be larger than necessary, with more organizational data columns than you need. You can use the Organizational data section to select which data columns to include in the output file, which:
+
+* Improves data analysis with fewer columns in a smaller file.
+* Further protects private data by excluding columns from the file.
+* Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns.
+
+![Organizational data section](../Images/WpA/Tutorials/query-org-data.png)
+
 ## Example person query for long meetings
 
 You can create a person query to investigate if long meetings are a significant factor in the total number of meeting hours for Operations. The following custom query uses metrics and filters to customize the data.
@@ -115,22 +125,24 @@ You can create a person query to investigate if long meetings are a significant 
 8. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
 9. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
 
-    a. To customize the Long meeting hours metric, select the Edit icon.
-    b. Choose **Add filter**.
-    c. In the **Long meeting hours where** section, select **Meeting**, and then select **Duration­Hours** > greater than or equal to > **2**.
-    d. Select **Confirm**.
+   <ol type="a"> 
+   <li>To customize the Long meeting hours metric, select the Edit icon.</li>
+   <li>Choose <b>Add filter</b>.</li>
+   <li>In the <b>Long meeting hours where</b> section, select <b>Meeting</b>, and then select <b>Duration­Hours</b> > greater than or equal to > <b>2</b>.</li>
+   <li>Select <b>Confirm</b>.</li></ol>
 
 10. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
 11. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
 
-    > [!Notes]
+    > [!NOTE]
     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.
     > * When aggregating data by the week or the month, you might want to include a metric that has a zero value.
     > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
     > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
 
-12. Select **Run** at the top right to run the query.
-13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+12. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
+13. Select **Run** at the top right to run the query.
+14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 **Person query results**
 The following are the columns included in the query results for the custom query created in the previous steps and an example of the type of data rows you might see:
