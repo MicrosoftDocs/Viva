@@ -15,6 +15,9 @@ localization_priority: Once
 
 # Why use MyAnalytics?
 
+> [!Note] 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan. 
+
 ## Build better work habits through personal productivity insights 
 
 More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.

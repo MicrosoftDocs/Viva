@@ -14,6 +14,9 @@ ms.prod: mya
 
 # MyAnalytics tips  
 
+> [!Note] 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan. 
+
 Use these tips to learn how to spend your time better and focus on what's important in your work. Not all tips are for everyone. What you can and should do always depends on your role and the organization you work in. 
 
 ## Use MyAnalytics in Outlook 
@@ -54,9 +57,9 @@ If you see that you spend too much time in email, try these alternatives: Pick u
 
 Before you click send, look over your recipient list to make sure each person will add value to the conversation. Think twice before using Reply All. Your default should be to reply only to the sender. Use Reply All only when your response is truly relevant to all involved. Some recipients might need to know only the outcome of decisions, rather than being Cc'd on the full conversation. 
 
-#### Send fewer emails - use Skype or Teams or pick up the phone 
+#### Send fewer emails - use Skype for Business or Teams or pick up the phone 
 
-Before sending an email at all, consider these insights: An organizational simplicity task force found that reducing executive email output by 54 percent resulted in a 7 percent productivity increase throughout the company. A management tip column supported this approach by urging executives to “pick up the phone.” Often, phone calls are more efficient than back-and-forth email conversations, and they allow for questions to be answered in real time. Skype and Teams are also good options. 
+Before sending an email at all, consider these insights: An organizational simplicity task force found that reducing executive email output by 54 percent resulted in a 7 percent productivity increase throughout the company. A management-tip column supported this approach by urging executives to "pick up the phone." Often, phone calls are more efficient than back-and-forth email conversations, and they allow for questions to be answered in real time. Skype for Business and Teams are also good options. 
 
 #### Unsubscribe from groups that you don’t read 
 
@@ -64,7 +67,7 @@ Consider removing yourself from groups you don't really need to be part of. If y
 
 #### Spare others' inboxes 
 
-Consider introducing the following company discipline around Cc’d e-mails: When you respond to an email, move everyone you can to Bcc with a note that states, “moving Joe, Sally, and Eileen to Bcc to spare their inbox.” This gives these colleagues a chance to object if they want to stay on the thread, but it also gives them an easy out from emails that will just clutter their inbox and waste their time. This simple recognition of the value of people’s time also helps spread good behavior every time someone sees it. Pass it on. 
+Consider introducing the following company discipline around Cc'd e-mails: When you respond to an email, move everyone you can to Bcc with a note that states, "moving Joe, Sally, and Eileen to Bcc to spare their inbox." This gives these colleagues a chance to object if they want to stay on the thread, but it also gives them an easy out from emails that will just clutter their inbox and waste their time. This simple recognition of the value of people’s time also helps spread good behavior every time someone sees it. Pass it on. 
 
 ## Tips for after hours 
 Be a thoughtful coworker! 

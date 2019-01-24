@@ -6,7 +6,7 @@ title: MyAnalytics dashboard
 description: All the individual dashboard topics, displayed as one in MyAnalytics.
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/15/2018
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -14,6 +14,8 @@ localization_priority: Once
 ---
 
 # MyAnalytics personal dashboard
+
+_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is the MyAnalytics _personal dashboard_.
 
@@ -60,6 +62,8 @@ Scroll down the dashboard page and you see sections that give you more detail ab
 [!INCLUDE [After hours](MyA-Dashboard/MyA-DB-After-hours.md)]
 
 [!INCLUDE [Chats and calls](MyA-Dashboard/MyA-DB-Chats-and-calls.md)]
+
+[!INCLUDE [Documents](MyA-Dashboard/mya-db-documents.md)]
 
 [!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
 
