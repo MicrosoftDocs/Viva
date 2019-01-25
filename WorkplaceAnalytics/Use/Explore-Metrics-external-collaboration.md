@@ -6,7 +6,7 @@ title: Explore External collaboration metrics in Workplace Analytics
 description: An overview of the External collaboration dashboards available in Workplace Analytics.
 author: paul9955
 ms.author: madehmer
-ms.date: 12/13/2018
+ms.date: 1/25/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,7 +16,7 @@ ms.prod: wpa
 
 The **External collaboration** page in **Explore** provides a summary of your employees' network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
 
->[!Note] 
+>[!Note]
 > All metrics are reported at a group level and cannot be traced back to any individual.
 
 ![External collaboration](../images/wpa/use/external-collab-top.png)
@@ -48,8 +48,9 @@ The summary header at the top of the external collaboration page provides a summ
 
 ![Collaboration summary](../images/wpa/use/ext-collab-summary.png)
 
-Explanation of numbered sections:  
-1. This section shows a summary of the external collaboration and the level of engagement during the selected period. 
+Explanation of numbered sections:
+
+1. This section shows a summary of the external collaboration and the level of engagement during the selected period.
 2. **Measured employees** are those employees who have been assigned a Workplace Analytics license. (Any filters applied in [Page settings](#page-settings) do not change this number.)
 3. The filter group comprises the number of employees who had some collaboration during the date range and who match the filter applied in [Page settings](#page-settings).
 4. This number represents the estimated cost of external collaboration with external domains, calculated by using the formula: total external collaboration hours multiplied by the average hourly wage for your company. This is configured by your Workplace Analytics administrator.
@@ -111,6 +112,7 @@ Collaboration hours represents the sum of email collaboration hours and meeting 
 The Average line on bar charts represents the sum of all collaboration hours during all selected weeks divided by the number of person-week records in the selected period in Page settings.
 
 *Meeting hours*
+
 The same definition applies here as for collaboration hours, but in this case, only meeting hours are included.
 
 *Email hours*
@@ -171,7 +173,6 @@ External network size refers to the number of people external to the company wit
 
 ![External network size](../images/wpa/use/34-groups-most-ext-people-conn.png)
 
-
 **Bar chart**
 
 Each bar in the graph represents the average external network size for each group (grouped by the investor group-by attribute in Page settings). Average external network size is defined as the total number of non-distinct external contacts with whom the measured employees from this group had two meaningful interactions in all selected weeks, divided by number of person-week records in the selected date range in Page settings. 
@@ -197,7 +198,7 @@ External network breadth refers to the number of distinct external domains with 
 Each bar in the graph represents the total number of distinct external domains with whom measured employees from this group had two meaningful interactions in the selected date range in [Page settings](#page-settings).
 
 The Average line on this bar chart represents the total number of distinct external domains with whom the measured employees in the company had at least two meaningful interactions in the selected date range divided by the total number of organizations.
- 
+
 **Trend chart**
 
 The "group average" point for a given week in the trend chart represents the total number of distinct external domains with whom the measured employees in the company had at least two meaningful interactions in the selected date range divided by the total number of organizations for that week.
@@ -238,7 +239,7 @@ You can use the Group by drop-down menu to determine how you want to group users
 
 The Group by menu is divided into two sections for two separate groups: **Time investors** and **Collaborators**. You can apply Group by menu settings to each of these groups independently.
 
-![Group by menu](../images/wpa/use/38-ext-collab-group-by.png) 
+![Group by menu](../images/wpa/use/38-ext-collab-group-by.png)
 
 ### Time investors
 
@@ -249,6 +250,7 @@ By default, Time investors are grouped by organization, but you can also group t
 ![Time investors group](../images/wpa/use/39-ext-collab-page-settings-time-investors-dec.png)
 
 ### Collaborators
+
 You can use the **Collaborators** section to group users by Collaborators, which refers to any person with whom Time investors have had an interaction. If you group by Collaborators, the settings you select only apply to Collaborators. Currently, the Collaborators section supports grouping by domain only.
 
 ![Collaborators group](../images/wpa/use/ext-collab-page-settings-collaborators.png)
