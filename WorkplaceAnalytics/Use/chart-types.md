@@ -79,9 +79,9 @@ To change or add filters to see different organizations or other organizational 
 
 ## Work with charts
 
-* [Chart tools](#chart-tools). The charts are interactive. In the charts, you can change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
+* [Chart tools](#chart-tools) enable you to change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
 
-* [Chart settings and filters](#chart-settings-and-filters). Use **Page settings** to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
+* [Chart settings and filters](#chart-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
 
 ### Chart tools
 
