@@ -146,24 +146,24 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
 * At the top of the trend chart, select **Reset**. This removes all added lines from the line graph and returns it to the default.
 
-### Work with attributes and metrics
+### Work with metrics and groups
 
-#### To hide or show an attribute's metrics
+#### To hide or show metrics
 
-* In the chart's legend (below the chart), select the attribute name to hide it from the chart. Select the attribute name again to show or include it in the chart.
+* In the chart's legend (below the chart), select the metric name to hide its data from the chart. Select the metric name again to show or include it in the chart.
 
-#### To drill down or exclude an attribute
+#### To drill down or exclude a group
 
-* To drill down and show a specific attribute's metric in the chart, select the **Drilldown** icon, and then select the attribute to show.
-* To exclude an attribute's metric from the chart, select the **Exclude** icon, and then select the attribute to exclude.
+* To drill down and show a specific group in the chart, select one or more group's chart data to select (or bold) that group's name in the chart, and then the **Drilldown** icon.
+* To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude** icon.
 * To revert either of these actions, select the **Undo** icon.
 
    > [!Note]
    > The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude chart tools.
 
-#### To switch between attribute metrics
+#### To switch between percentage and hours data
 
-* At the top of the chart, select the attribute metric that you want to show in the chart, such as email hours, meeting hours, percentages, or hours.
+* To the right of each chart's title, select **%** to show percentage data or select **Hours** to show the chart data in hours.
 
 ### View or download data
 
