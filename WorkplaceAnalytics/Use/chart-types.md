@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Charts in Workplace Analytics
 
-The [Explore the metrics](explore-intro.md) pages of Workplace Analytics display information in charts. This topic describes those charts and provides information about how to configure and use them. See the following sections:
+The Workplace Analytics [Explore](explore-intro.md) pages summarize your organizational data into visual charts. This topic describes those charts and information about how to configure and use them in the following sections:
 
 * [Chart types](#chart-types) describes the primary chart types.
 * [Chart features](#chart-features) helps you get the most out of the Explore charts.
@@ -22,9 +22,9 @@ The [Explore the metrics](explore-intro.md) pages of Workplace Analytics display
 
 ## Chart types
 
-[Explore the metrics](explore-intro.md) displays information primarily by using the following chart types:
+[Explore](explore-intro.md) pages display information primarily by using the following chart types:
 
-![column graph](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for the metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
+![column graph](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
 
 <!-- ![Column graph](../images/wpa/use/bar-chart.png) -->
 
@@ -79,9 +79,9 @@ To change or add filters to see different organizations or other organizational 
 
 ## Work with charts
 
-* [Chart tools](#chart-tools). The charts are interactive. In the charts, you can change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
+* [Chart tools](#chart-tools) enable you to change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
 
-* [Chart settings and filters](#chart-settings-and-filters). Use **Page settings** to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
+* [Chart settings and filters](#chart-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
 
 ### Chart tools
 
@@ -116,17 +116,13 @@ In a pair of charts, the chart on the left can display either a column chart or 
 
 After you change chart types, data for the same groups still appears and any selected groups remain selected. This means that the adjacent line graph still displays the trend lines for those same selected groups.
 
-### Download
+#### Minimum-group alert
 
-You can download any chart in the Explore dashboards as an image or as a .csv file. For more information, see [Download chart data](#to-download-chart-data).
+When you sort groups by an attribute metric, an alert icon will appear in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
 
-##### Sorting by a metric hides small groups
+This functionality protects the privacy of members of groups whose size is below the minimum group size. If a small group was displayed after sorting by an attribute's metric, an analyst could infer the small group's value for that metric from its position adjacent to or between other groups, whose values are displayed. If you sort alphabetically, such an inference is not possible, so small groups are not hidden.
 
-After you sort groups by a metric, an alert icon appears in the bottom-right corner of the chart. This is a tooltip that reminds you that the chart no longer displays groups that are below the minimum group size.
-
-This functionality protects the privacy of members of groups whose size is below the minimum group size. If a small group were displayed after sorting by a metric, an analyst could infer the small group's value for that metric from its position adjacent to or between other groups, whose values are displayed. If you sort alphabetically, such an inference is not possible, so small groups are not hidden.
-
-##### Sort order is retained within a chart pair
+#### Sort order is retained within a chart pair
 
 A column chart and its related box plot work together. If you sort by a particular choice in the column chart and then switch to the box plot, your sorting choice is also used in the display of the box plot.
 
@@ -150,38 +146,30 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
 * At the top of the trend chart, select **Reset**. This removes all added lines from the line graph and returns it to the default.
 
-### Work with metrics
+### Work with metrics and groups
 
-#### To hide or show a metric
+#### To hide or show metrics
 
-* In the chart's legend (below the chart), select the metric name to hide it from the chart. Select the metric name again to show it in the chart.
+* In the chart's legend (below the chart), select the metric name to hide its data from the chart. Select the metric name again to show or include it in the chart.
 
-#### To drill down or exclude a metric
+#### To drill down or exclude a group
 
-* To drill down and show a specific metric in the chart, select the **Drilldown** icon, and then select the metric to show.
-* To exclude a metric from the chart, select the **Exclude** icon, and then select the metric to exclude.
+* To drill down and show a specific group in the chart, select one or more group's chart data to select (or bold) that group's name in the chart, and then the **Drilldown** icon.
+* To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude** icon.
 * To revert either of these actions, select the **Undo** icon.
 
    > [!Note]
    > The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude chart tools.
 
-#### To switch between metrics
+#### To switch between percentage and hours data
 
-* At the top of the chart, select the metric that you want to show in the chart, such as email hours, meeting hours, percentages, or hours.
+* To the right of each chart's title, select **%** to show percentage data or select **Hours** to show the chart data in hours.
 
 ### View or download data
 
-#### To view specific values for a group
+#### To view an attribute's details in the chart
 
-* On the chart, hover your cursor over the group's bar to see its data.
-
-#### To view chart value details
-
-* On the chart line, hover the cursor on the date or data to see more details.
-
-#### To view the distribution statistics for a group
-
-* Hover over the chart data for that group.
+* On the chart, hover your cursor over the attribute in the chart to see its data.
 
 #### To download chart data
 
@@ -189,7 +177,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
    This download contains the chart data exactly as the chart displays it. If you've applied any filters or changed the number of groups to display, those changes are reflected in the data that is downloaded.
 
-   Because the download contains just what you see in the chart, you can use the downloaded .csv data in Excel or in Power BI to reproduce the chart that Workplace Analytics displays.
+   Because the download contains just what you see in the chart, you can use the downloaded .csv data in Excel or in Power BI to reproduce the chart that Workplace Analytics shows.
 
    > [!Note]
    > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
@@ -200,7 +188,7 @@ Use **Page settings** to change the time range of the data, to change the attrib
 
 ![Settings and filters](../images/wpa/use/settings-and-filters-2.png)
 
-When you change chart display settings, your changes apply to all the charts on all the tabs of **Explore Metrics**. For example, when you set the chart display to group by _level_, all charts in all sections are grouped by that level.
+When you change chart display settings, your changes apply to all the charts on all **Explore pages**. For example, when you set the chart to group by _level_, all charts in all sections are grouped by that level.
 
 #### To apply or reset settings
 
