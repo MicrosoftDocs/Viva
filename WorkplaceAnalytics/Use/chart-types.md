@@ -154,7 +154,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
 #### To hide or show an attribute's metrics
 
-* In the chart's legend (below the chart), select the attribute name to hide it's metrics from the chart. Select the attribute name again to show it in the chart.
+* In the chart's legend (below the chart), select the attribute name to hide it's metrics from the trend-line chart. Select the attribute name again to show its metrics in the trend-line chart.
 
 #### To drill down or exclude an attribute
 
