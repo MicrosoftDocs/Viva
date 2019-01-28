@@ -167,7 +167,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
 #### To switch between attribute metrics
 
-* At the top of the chart, select the attribute that you want to show in the chart, such as email hours, meeting hours, percentages, or hours.
+* At the top of the chart, select the attribute metric that you want to show in the chart, such as email hours, meeting hours, percentages, or hours.
 
 ### View or download data
 
