@@ -116,17 +116,13 @@ In a pair of charts, the chart on the left can display either a column chart or 
 
 After you change chart types, data for the same groups still appears and any selected groups remain selected. This means that the adjacent line graph still displays the trend lines for those same selected groups.
 
-### Download
-
-You can download any chart in the Explore dashboards as an image or as a .csv file. For more information, see [Download chart data](#to-download-chart-data).
-
-##### Minimum-group alert
+#### Minimum-group alert
 
 When you sort groups by an attribute metric, an alert icon will appear in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
 
 This functionality protects the privacy of members of groups whose size is below the minimum group size. If a small group was displayed after sorting by an attribute's metric, an analyst could infer the small group's value for that metric from its position adjacent to or between other groups, whose values are displayed. If you sort alphabetically, such an inference is not possible, so small groups are not hidden.
 
-##### Sort order is retained within a chart pair
+#### Sort order is retained within a chart pair
 
 A column chart and its related box plot work together. If you sort by a particular choice in the column chart and then switch to the box plot, your sorting choice is also used in the display of the box plot.
 
