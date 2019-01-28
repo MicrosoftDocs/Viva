@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Charts in Workplace Analytics
 
-The [Explore the metrics](explore-intro.md) pages of Workplace Analytics display information in charts. This topic describes those charts and provides information about how to configure and use them. See the following sections:
+The Workplace Analytics [Explore](explore-intro.md) pages summarize your organizational data into visual charts. This topic describes those charts and information about how to configure and use them in the following sections:
 
 * [Chart types](#chart-types) describes the primary chart types.
 * [Chart features](#chart-features) helps you get the most out of the Explore charts.
@@ -22,9 +22,9 @@ The [Explore the metrics](explore-intro.md) pages of Workplace Analytics display
 
 ## Chart types
 
-[Explore the metrics](explore-intro.md) displays information primarily by using the following chart types:
+[Explore](explore-intro.md) pages display information primarily by using the following chart types:
 
-![column graph](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for the metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
+![column graph](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
 
 <!-- ![Column graph](../images/wpa/use/bar-chart.png) -->
 
@@ -120,7 +120,7 @@ After you change chart types, data for the same groups still appears and any sel
 
 You can download any chart in the Explore dashboards as an image or as a .csv file. For more information, see [Download chart data](#to-download-chart-data).
 
-##### Minimum group size alert
+##### Minimum-group alert
 
 When you sort groups by an attribute metric, an alert icon will appear in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
 
@@ -150,13 +150,13 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
 * At the top of the trend chart, select **Reset**. This removes all added lines from the line graph and returns it to the default.
 
-### Work with attribute metrics
+### Work with attributes and metrics
 
 #### To hide or show an attribute's metrics
 
 * In the chart's legend (below the chart), select the attribute name to hide it's metrics from the chart. Select the attribute name again to show it in the chart.
 
-#### To drill down or exclude an attribute's metric
+#### To drill down or exclude an attribute
 
 * To drill down and show a specific attribute's metric in the chart, select the **Drilldown** icon, and then select the attribute to show.
 * To exclude an attribute's metric from the chart, select the **Exclude** icon, and then select the attribute's metric to exclude.
