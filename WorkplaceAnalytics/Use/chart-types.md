@@ -81,7 +81,7 @@ To change or add filters to see different organizations or other organizational 
 
 * [Chart tools](#chart-tools) enable you to change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
 
-* [Chart settings and filters](#chart-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
+* [Chart page settings and filters](#chart-page-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
 
 ### Chart tools
 
@@ -159,7 +159,8 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 * To revert either of these actions, select the **Undo** icon.
 
    > [!Note]
-   > The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude chart tools.
+   > * The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude chart tools.
+   > * You can apply these drill down and exclude actions to all Explore charts with [Page settings](#chart-page-settings-and-filters).
 
 #### To switch between percentage and hours data
 
@@ -182,7 +183,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
    > [!Note]
    > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
 
-### Chart settings and filters
+### Chart page settings and filters
 
 Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Page settings** panel is not already open, open it by selecting **Settings and filters**:
 
