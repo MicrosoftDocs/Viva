@@ -106,7 +106,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 <li>
 
 **Determine default opt-in settings**. 
-Admins can configure MyAnalytics to be "default off", meaning that licensed employees must individually opt in to MyAnalytics in order to contribute to incremental data and have access to their dashboard and Outlook Add-in. Alternatively, MyAnalytics can be configured to be "default on", meaning that licensed employees automatically contribute to incremental data and have access to their dashboard and Outlook Add-in, but can subsequently opt out through the Settings menu.
+Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu.
 Learn more [here](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist#step-1-configure-user-settings)</li>
 
 <li>
