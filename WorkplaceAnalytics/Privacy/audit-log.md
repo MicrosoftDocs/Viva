@@ -70,12 +70,12 @@ You can search audit log entries for activities performed by specific users. To 
 
 1. Select the Users box and then enter one or more user names in it. The selected users appear inside the box. The user name looks like an email address; it's the account with which users log into Workplace Analytics. To return entries for all users (and service accounts), leave this box blank.
 
-2. The audit log entries for the selected activities performed by the users you select in this box are shown in the results list. 
+2. The audit log entries for the selected activities performed by the users you select in this box are shown in the results list.
 
 
    The Results section contains additional information for each event returned by the search, including the timestamp, showing when the activity occurred, the IP address from which the activity was performed, the name of the user and the activity, the item in question, for example, a query result or a filename, and any additional details.
 
-3. Select a column header under Results to sort by.
+3. Select a column header under Results to sort the data by that column.
 
    Column|Definition
    ------|-----------
