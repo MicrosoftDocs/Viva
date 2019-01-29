@@ -5,7 +5,7 @@ title: MyAnalytics nudges in Outlook
 description: This articles describes MyAnalytics nudges in Outlook and how they work.
 author: paul9955
 ms.author: patboony
-ms.date: 01/16/2019
+ms.date: 01/29/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -91,3 +91,11 @@ MyAnalytics nudges can help you in various ways:
 | Where it shows up  | What it says | How it helps |
 |------|-------|---------|
 |Email compose | Your colleagues have been responding to your mails outside typical working hours. Consider **clarifying urgency** |Suggests that the user clarify the degree of urgency when emailing colleagues outside work hours |
+|Email compose | There are some open times during your working hours to catch up on email. **Book time** | Suggests that the user book time during the day to do email instead of catching up after hours |
+|Meeting compose | This meeting is outside typical working hours for attendees. **See next available times** | Suggests nearby meeting times within working hours for all meeting attendees |
+
+### Build better collaboration habits 
+| Where it shows up  | What it says | How it helps |
+|------|-------|---------|
+|Meeting compose | Could this meeting be 45 minutes? Build in some bugger time and save attendees time. **Switch to 45 minutes** |Suggests the user shorten hour long meetings to 45 minutes |
+|Email compose | Is this email important? MyAnalytics can show you how many people read it. **Track email** |Allows user to mark an email they are sending as important so they can easily find the read statistics in the Outlook add-in |
