@@ -17,13 +17,11 @@ ms.prod: mya
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-Thank you for trying the brand new MyAnalytics experience. Welcome to your new personal dashboard that'll help you understand how you spend your time and collaborate with colleagues.
+Thank you for trying the brand new MyAnalytics experience. Welcome to your new personal dashboard aims to help you understand how you spend your time and collaborate with colleagues.
 
 MyAnalytics gives you valuable new insights on how to increase focus, achieve work life balance, and grow your network.
 
-**To open your MyAnalytics dashboard**
-
-  * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com). Your personal MyAnalytics dashboard opens in a web browser.
+**To open your MyAnalytics dashboard**: Open [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
 
 ## Your work habits
 
