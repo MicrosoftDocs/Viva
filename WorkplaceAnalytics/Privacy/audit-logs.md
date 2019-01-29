@@ -6,7 +6,7 @@ title: Audit logs for Workplace Analytics
 description: Learn how to monitor Workplace Analytics activity with audit logs
 author: madehmer
 ms.author: madehmer
-ms.date: 1/24/2019
+ms.date: 1/28/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,22 +14,22 @@ ms.prod: wpa
 
 # Workplace Analytics audit logs
 
-The Office 365 audit logs are generated and accessed in the Office 365 portal. As an Exchange admin, you can access these logs to audit or track general user activities and actions, such as to see who accessed, or tried to access, or modified data. 
+The Office 365 audit logs are generated and accessed in the Office 365 portal. As an Exchange admin, you can access these logs to audit or track general user activities and actions, such as to see who accessed, or tried to access, or modified data.
 
 These logs include an audit section for Workplace Analytics activity, which typically includes sensitive data. You can monitor and track your organizational data for all user actions to ensure compliance with your organization's privacy and security policies.
-
-## Requirements
-
-You must meet the following requirements before you can access the audit logs:
-
-* To access the auditing section of the Office 365 Security & Compliance Center, you must have an Exchange Online license (included with Office 365 Enterprise E3 and E5 subscriptions).
-* And you must either be a Global admin or have an Exchange admin role that provides access to the audit log. Exchange admin roles are controlled through the Exchange Admin center. For more information, see [Permissions in Exchange Online](https://docs.microsoft.com/en-us/exchange/permissions-exo/permissions-exo).
 
 ## Audit log access
 
 The Search area has an extensive list of activities that users can perform on files, folders, email, groups, permissions, directory services, Microsoft 365 applications, and much more.
 
 For example, admins can search the audit logs to see if and when a user modified or deleted a file or folder, changed any privacy settings, ran one or more queries and which query types, or downloaded a query or report. Administrative actions are also recorded, including actions carried out on [e-discovery](https://en.wikipedia.org/wiki/Electronic_discovery) cases.
+
+### Access requirements
+
+You must meet the following requirements before you can access the audit logs:
+
+* To access the auditing section of the Office 365 Security & Compliance Center, you must have an Exchange Online license (included with Office 365 Enterprise E3 and E5 subscriptions).
+* And you must either be a Global admin or have an Exchange admin role that provides access to the audit log. Exchange admin roles are controlled through the Exchange Admin center. For more information, see [Permissions in Exchange Online](https://docs.microsoft.com/en-us/exchange/permissions-exo/permissions-exo).
 
 ### To access Audit log search
 
@@ -58,7 +58,7 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
 
 2. In the **Search** section of the **Audit log search** page, select to **Show results for all activities**.
 3. In the **Start date** section, select a date range. If you want to use the maximum date range of 90 days, select the current date and time for the Start date. Otherwise, you'll receive an error saying that the start date is earlier than the end date. If you've turned on auditing within the last 90 days, the date range can't start before the date that auditing was turned on.
-4. In the **Users** field, enter one or more user names. Users are listed by their account names they use to log in to Workplace Analytics as. To return entries for all users (and service accounts), leave this field blank.
+4. To return activities for all users (and service accounts), leave the **Users** field blank. Or you can enter one or more user names (the account email they use to log in to Workplace Analytics) in the **Users** field to only see those user activities.
 
     ![Audit log search](../Images/WpA/privacy/audit-users.png)
 
@@ -66,7 +66,7 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
 
     ![Audit log search](../Images/WpA/privacy/audit-activities.png)
 
-6. The **Results** section of the **Audit log search** page shows a maximum of 5,000 of the most recent events, in increments of 150. Use the scroll bar in this section to show the next 150 events. This section lists the audit log entries, which includes the following information. You can select a column header to sort the list by it.
+6. The **Results** section of the **Audit log search** page shows a maximum of 5,000 of the most recent events, in increments of 150. Use the scroll bar in this section to show the next 150 events. This section lists the audit log events, including the following information. You can select a column header to sort the list by it.
 
    Column|Definition
    ------|-----------
@@ -77,12 +77,10 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
    Item |The object that was created or modified because of the corresponding activity. For example, the file that was viewed or modified, or the user account that was updated. Not all activities in this column have a value.
    Detail |Any additional detail about an activity. Not all activities have a value.
 
-For more details and tips on searching, filtering, and exporting results in the audit log, see [search the audit log](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
+For more details and tips on searching, filtering, and exporting results in the audit log, see [Search the audit log](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
 
-## To view activity details
-
-1. In the **Results** section, select an event from the list.
-2. A **Details** page shows the event properties, which are based on which Office 365 service that the event occurred in. Select **More information** to view all the details.
+7. In the **Results** section, select an event from the list to view more details about it.
+8. A **Details** page shows the event properties, which are based on which Office 365 service that the event occurred in. Select **More information** to view more.
 
     ![Audit log search](../Images/WpA/privacy/audit-details.png)
 
@@ -129,4 +127,4 @@ You can also use PowerShell to access the audit logs based on your login. To use
        Search-UnifiedAuditLog -StartDate 1/1/2019 -EndDate 1/31/2019 -RecordType WorkplaceAnalytics-ResultSize 1000 | Format-Table | More
 
       ```
-For more information on connecting to Exchange Online, see Connect to [Exchange Online PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+For more information on connecting to Exchange Online, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
