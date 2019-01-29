@@ -50,7 +50,7 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
 
  After you start recording, you'll see an "audit log is being prepared" message appear. It might take a few hours before you can search recorded activities in the audit logs.
 
-## To search for Workplace Analytics activities
+## To view Workplace Analytics activities
 
 1. In the **Security & Compliance** section on the **Home** page of the Office 365 portal, expand **Search & Investigation** in the left navigation pane, and then select **Audit log search**.
 
