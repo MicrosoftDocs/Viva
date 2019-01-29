@@ -33,7 +33,7 @@ The Home page includes helpful statistics about your work activities over the pa
 
 ## Productivity insights
 
-Productivity insights are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you can change or improve your current work habits.
+These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work habits.
 
 ![Productivity insights](../../Images/mya/use/pro-insights.png)
 
@@ -41,19 +41,23 @@ See [MyAnalytics Tips](../Overview/tips.md) for suggestions on how to plan your 
 
 ## Focus and Wellbeing
 
-Gives you ways to plan time for specific tasks during your working hours, such as booking focus time in your calendar and adding tasks to the body of the appointment. This section also shows how well you are disconnecting from work during your time off and suggests ways to balance work with life.
+This section of the Explore page gives you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment. 
+
+It also shows how well you are disconnecting from work during your time off and suggests ways to balance work with life.
 
 ![Focus and wellbeing](../../Images/mya/use/mya-focus-wellbeing.png)
 
 ## Your Network
 
-This section shows the people you were actively networked with and your total network size based on work activities, such as email, chats, and meetings. It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people. 
+This section shows the people you actively networked with and your total network size based on work activities, such as email, chats, calls, and meetings. 
+
+It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people. 
 
 ![Your Network](../../Images/mya/use/mya-network.png)
 
 ## Config Settings
 
-Your personalized MyAnaltyics data and insights are based on the time zone and the working hours that you set in Outlook. 
+Your personalized MyAnalytics data and insights are based on the time zone and working hours that you set in Outlook.
 
 ![Config Settings](../../Images/mya/use/mya-config-settings.png)
 
