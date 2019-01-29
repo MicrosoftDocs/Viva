@@ -17,9 +17,9 @@ ms.prod: mya
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-Thank you for trying the brand new MyAnalytics experience. Welcome to your new personal dashboard aims to help you understand how you spend your time and collaborate with colleagues.
+Thank you for trying the brand new MyAnalytics experience. Your new personal, goal-oriented dashboard aims to help you understand how you spend your time and collaborate with colleagues.
 
-MyAnalytics gives you valuable new insights on how to increase focus, achieve work life balance, and grow your network.
+MyAnalytics gives you valuable new insights on how to increase focus, achieve work life balance, and improve your work relationships and team collaboration.
 
 **To open your MyAnalytics dashboard**: Open [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
 
@@ -39,7 +39,7 @@ See [MyAnalytics Tips](../Overview/tips.md) for suggestions on how to plan your 
 
 ## Focus and Wellbeing
 
-This section of the Explore page gives you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment. 
+This section of the Explore page gives you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
 
 It also shows how well you are disconnecting from work during your time off and suggests ways to balance work with life.
 
@@ -47,9 +47,9 @@ It also shows how well you are disconnecting from work during your time off and 
 
 ## Your Network
 
-This section shows the people you actively networked with and your total network size based on work activities, such as email, chats, calls, and meetings. 
+This section shows the people you actively networked with and your total network size based on work activities, such as email, chats, calls, and meetings.
 
-It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people. 
+It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people.
 
 ![Your Network](../../Images/mya/use/mya-network.png)
 
