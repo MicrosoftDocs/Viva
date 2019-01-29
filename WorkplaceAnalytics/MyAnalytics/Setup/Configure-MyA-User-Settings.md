@@ -4,7 +4,7 @@
 
 title: Configure MyAnalytics user settings
 description: Configure MyAnalytics settings for new users. 
-author: buntus
+author: paul9955
 ms.author: paul9955
 ms.date: 12/17/2018
 ms.topic: get-started-article
