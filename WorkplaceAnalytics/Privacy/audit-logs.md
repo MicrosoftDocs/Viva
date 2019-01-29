@@ -77,12 +77,14 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
    Item |The object that was created or modified because of the corresponding activity. For example, the file that was viewed or modified, or the user account that was updated. Not all activities in this column have a value.
    Detail |Any additional detail about an activity. Not all activities have a value.
 
-For more details and tips on searching, filtering, and exporting results in the audit log, see [Search the audit log](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
+   For more details and tips on searching, filtering, and exporting results in the audit log, see [Search the audit log](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
 
 7. In the **Results** section, select an event from the list to view more details about it.
 8. A **Details** page shows the event properties, which are based on which Office 365 service that the event occurred in. Select **More information** to view more.
 
     ![Audit log search](../Images/WpA/privacy/audit-details.png)
+
+## Workplace Analytics Activities
 
 The following tables describe Workplace Analytics activities that the audit logs can record.
 
