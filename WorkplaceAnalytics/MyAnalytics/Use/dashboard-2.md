@@ -6,7 +6,7 @@ title: MyAnalytics dashboard 2019
 description: Learn about what's included in your personal MyAnalytics dashboard 2019
 author: madehmer
 ms.author: madehmer
-ms.date: 01/23/2019
+ms.date: 01/29/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -17,24 +17,23 @@ ms.prod: mya
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is your MyAnalytics _dashboard_.
+Thank you for trying the brand new MyAnalytics experience. Welcome to your new personal dashboard that'll help you understand how you spend your time and collaborate with colleagues.
 
-> [!Note]
-> To learn about the benefits of using MyAnalytics, see [Why use MyAnalytics?](../Overview/Better-work-habits.md).
+MyAnalytics gives you valuable new insights on how to increase focus, achieve work life balance, and grow your network.
 
-MyAnalytics is completely personal and private. Only you (not your manager and not the system admin) can see your dashboard data.
+**To open your MyAnalytics dashboard**
 
-[!INCLUDE [To open the MyAnalytics dashboard](../Includes/to-open-the-dashboard.md)]
+  * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com). Your personal MyAnalytics dashboard opens in a web browser.
 
 ## Your work habits
 
-This section gives you helpful statistics about your work activities over the past month, including data about focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
+The Home page includes helpful statistics about your work activities over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
 
 ![Your work habits](../../Images/mya/use/mya-work-habits.png)
 
 ## Productivity insights
 
-Productivity insights give you statistics based on your recent workplace activity. Select **View Suggestions** to get ideas on how you can change or improve your current work habits.
+Productivity insights are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you can change or improve your current work habits.
 
 ![Productivity insights](../../Images/mya/use/pro-insights.png)
 
@@ -50,7 +49,6 @@ Gives you ways to plan time for specific tasks during your working hours, such a
 
 This section shows the people you were actively networked with and your total network size based on work activities, such as email, chats, and meetings. It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people. 
 
-
 ![Your Network](../../Images/mya/use/mya-network.png)
 
 ## Config Settings
@@ -63,6 +61,6 @@ Your personalized MyAnaltyics data and insights are based on the time zone and t
 
 Your experience rating and feedback about MyAnalytics is important to us. If you think of a new feature or enhancement:
 
-1. Open your MyAnalytics dashboard.
+1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
