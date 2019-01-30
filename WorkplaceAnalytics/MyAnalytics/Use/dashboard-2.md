@@ -74,7 +74,7 @@ You can opt out of MyAnalytics. Although, if you do, your data won't be used to 
 > [!Note] 
 > If you opt out, you will no longer be able to access your personal dashboard.
 
-[!INCLUDE [Opt out of MyAnalytics](../../Includes/to-opt-out-of-mya-2.md)]
+[!INCLUDE [Opt out of MyAnalytics](../Includes/to-opt-out-of-mya-2.md)]
  
 ### If I opt out, can I opt back in? 
 
