@@ -6,7 +6,7 @@ title: Person queries in Workplace Analytics
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual.     
 author: madehmer
 ms.author: madehmer
-ms.date: 1/8/2019
+ms.date: 1/30/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -60,6 +60,10 @@ You can use filters to exclude certain rows from the output file based on the pe
 The Organization filter can limit the query to those in the specified groups. For example, the following filter will only list people from the R&D and Engineering groups.
 
 ![Person query filter](../Images/WpA/Tutorials/query-filter.png)
+
+When you add a filter, you can see the number of people included in the filter group and the total number of measured employees it's based on. This helps you decide if you've set up the correct filter or filters before running the query.
+
+![Filter preview](../Images/WpA/Tutorials/filter-preview.png)
 
 ## Add metrics
 
