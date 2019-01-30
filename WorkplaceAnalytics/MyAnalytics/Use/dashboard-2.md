@@ -67,15 +67,30 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
-## Can I opt out of MyAnalytics? 
+## Can I opt out of MyAnalytics?
 
 You can opt out of MyAnalytics. Although, if you do, your data won't be used to calculate aggregate statistics for your organization. For example, if you opt out, your data will not be used to calculate statistics on the average time people in your organization spend in meetings, chats, and calls, and on email.
 
-> [!Note] 
+> [!Note]
 > If you opt out, you will no longer be able to access your personal dashboard.
 
-[!INCLUDE [Opt out of MyAnalytics](../Includes/to-opt-out-of-mya-2.md)]
+**To opt out of MyAnalytics**
+
+1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
+2. Select the gear icon in the top right to open the Settings pane.
+
+    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+
+3. Under MyAnalytics, select **Settings**.
+4. For MyAnalytics, set the control to **Off**.
+
+    ![Slider in off position](../../Images/mya/use/Slider-off.png)
+  
+5. Select **Save** to save your changes.
+
+> [!NOTE]
+> It might take up to a week for your saved changes to take effect.
  
-### If I opt out, can I opt back in? 
+### If I opt out, can I opt back in?
 
 Yes, you can opt back in any time. This will give you access to your personal dashboard. 
