@@ -67,4 +67,15 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
-Related 
+## Can I opt out of MyAnalytics? 
+
+You can opt out of MyAnalytics. Although, if you do, your data won't be used to calculate aggregate statistics for your organization. For example, if you opt out, your data will not be used to calculate statistics on the average time people in your organization spend in meetings, chats, and calls, and on email.
+
+> [!Note] 
+> If you opt out, you will no longer be able to access your personal dashboard.
+
+[!INCLUDE [Opt out of MyAnalytics](../../Includes/to-opt-out-of-mya-2.md)]
+ 
+### If I opt out, can I opt back in? 
+
+Yes, you can opt back in any time. This will give you access to your personal dashboard. 

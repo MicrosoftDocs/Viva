@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: To opt out of MyAnalytics 2019
-description: How to turn off the MyAnalytics 2019 
+title: To opt out of MyAnalytics (Preview)
+description: How to turn off the MyAnalytics (Preview)
 author: madehmer
 ms.author: madehmer
 ms.date: 1/23/2019
