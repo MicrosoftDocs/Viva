@@ -2,9 +2,9 @@
 # Metadata Sample
 # required metadata
 
-title: To opt out of MyAnalytics
-description: How to turn off the MyAnalytics app. 
-author: paul9955
+title: To opt out of MyAnalytics 2019
+description: How to turn off the MyAnalytics 2019 
+author: madehmer
 ms.author: madehmer
 ms.date: 1/23/2019
 ms.topic: get-started-article

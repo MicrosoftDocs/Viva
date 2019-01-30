@@ -3,7 +3,7 @@
 # required metadata
 
 title: Opt out of MyAnalytics
-description: How to turn off or opt out of MyAnalytics. 
+description: How to turn off or opt out of MyAnalytics 
 author: paul9955
 ms.author: madehmer
 ms.date: 1/23/2019

@@ -19,9 +19,9 @@ _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5,
 
 Thank you for trying the new MyAnalytics experience. Your new personal, goal-oriented dashboard aims to help you understand how you spend your time and collaborate with colleagues.
 
-MyAnalytics gives you valuable new insights on how to increase focus, achieve work life balance, and improve your work relationships and team collaboration.
+MyAnalytics gives you valuable new insights about how to increase focus, achieve work life balance, and improve your work relationships and team collaboration.
 
-**To open your MyAnalytics dashboard**: Open [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
+**To open your personal MyAnalytics dashboard**: Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
 
 ## Your work habits
 
@@ -59,10 +59,12 @@ Your personalized MyAnalytics data and insights are based on the time zone and w
 
 ![Config Settings](../../Images/mya/use/mya-config-settings.png)
 
-## Feedback
+## MyAnalytics feedback
 
 Your experience rating and feedback about MyAnalytics is important to us. If you think of a new feature or enhancement:
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
+
+Related 
