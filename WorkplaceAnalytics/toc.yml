@@ -152,6 +152,8 @@
         expanded: false
         href: MyAnalytics/Use/MyA-elements.md
         items:
+        - name: Dashboard (Preview)
+          href: MyAnalytics/Use/dashboard-2.md
         - name: Dashboard
           href: MyAnalytics/Use/dashboard.md
         - name: Add-in
