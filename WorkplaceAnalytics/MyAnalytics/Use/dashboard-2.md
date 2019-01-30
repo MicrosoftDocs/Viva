@@ -13,7 +13,7 @@ ms.prod: mya
 
 ---
 
-# MyAnalytics dashboard 2019
+# MyAnalytics dashboard (Preview)
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
