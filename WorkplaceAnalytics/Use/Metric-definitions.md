@@ -6,7 +6,7 @@ title: Workplace Analytics metric definitions
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics. 
 author: paul9955
 ms.author: madehmer
-ms.date: 1/29/2019
+ms.date: 1/31/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -69,7 +69,6 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Attendees with conflicting meeting|Number of attendees with meetings that overlap with the meeting (includes all non-declined meetings, which include accepted, tentative, and no responses to meeting invites).|Meeting|Count|Yes|
 |Emails sent during meetings|Number of emails the person sent during all meetings.|Meeting|Count|Yes|
 |Invitees|Number of people invited to the meeting.|Meeting|Count|Yes|
-|Total emails sent during meeting|Number of emails sent during a meeting by all attendees.|Meeting|Count|Yes|
 |Total meeting cost|The total cost of all attendees in a meeting. The meeting cost for each attendee is defined as the product of the attendees' meeting hours multiplied by the attendees' hourly rates. If no hourly rate is available for one or more attendees, the default rate of $75/hr (US dollars) is used to calculate the cost of those attendees.|Meeting|Currency|Yes|
 |Total redundant hours|The total number of redundant hours metric for all attendees in a meeting.|Meeting|Hour|Yes|
 
@@ -77,12 +76,12 @@ You can use the following metrics in Workplace Analytics to customize your queri
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
+|Collaboration hours |Sum of meeting hours and email hours spent between the time investor and collaborator groups.|Group|Hour|No|
 |Email hours |Number of hours spent sending and reading emails between the time investor and collaborator groups.|Group|Hour|No|
 |Meeting hours |Number of meeting hours the time investor group has spent meeting with the collaborator group.|Group|Hour|No|
-|Meetings  |Number of distinct meetings with at least one attendee from the time investor and collaborator groups.|Group|Count|No|
+|Meetings |Number of distinct meetings with at least one attendee from the time investor and collaborator groups.|Group|Count|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
-|Meetings invitee count|Total number of invitees in all meetings from the time investor and collaborator groups.|Group|Count|No|
-|Collaboration hours |Sum of meeting hours and email hours spent between the time investor and collaborator groups.|Group|Hour|No|
+|Meeting invitee count|Total number of invitees in all meetings from the time investor and collaborator groups.|Group|Count|No|
 |Time investors initiated meeting hours | Number of meeting hours the time investors created for collaborators by organizing meetings.|Group|Hour|No|
 
 ## Person-to-group metrics
@@ -95,4 +94,3 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Meeting hours|Total number of hours that the time investor spent in meetings with one or more people in the collaborator group. This metric uses time allocation logic.|Group|Hour|No|
 |Meetings|Number of unique meetings that the time investor attended with one or more people in the collaborator group.|Group|Count|No|
 |Network size|Number of people in the collaborator group that the time investor had at least two meaningful interactions with in the last 28 days.|Group|Count|No|
-
