@@ -51,7 +51,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Redundant meeting hours|Number of meeting hours a person spent with attendees from three or more distinct levels within that person's organization.|Person|Hour|Yes|
 |Time in meetings during after hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
 |Time in meetings during working hours|Number of hours the person spent in meetings during working hours.|Person |Hour |Yes|
-|Time in self-organized meetings|Number of meeting hours a person spent in self-organized meetings, which are intentionally scheduled for focused, uninterrupted work.|Person|Hour|Yes|
+|Time in self-organized meetings|Number of hours spent in meetings organized by the person with at least one other person.|Person|Hour|Yes|
 |Time spent on email after hours|Number of hours the person spent sending email outside of working hours.|Person|Hour|No|
 |Time spent on email working hours|Number of hours the person spent sending email during working hours.|Person|Hour|No|
 |Total emails sent during meetings | Number of emails the person sent during meetings. |Person|Count|Yes|
