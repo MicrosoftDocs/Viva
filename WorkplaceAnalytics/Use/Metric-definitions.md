@@ -21,6 +21,8 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
 |After-hours collaboration|Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
+|After-hours email hours|Number of hours the person spent sending email outside of working hours.|Person|Hour|No|
+|After-hours meeting hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
 |Collaboration hours|Number of hours the person spent in meetings and on email with at least one other person. Collaboration hours include both internal and external hours. |Person|Hour|Yes|
 |Collaboration hours external|Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domains).|Person|Hour|No|
 |Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invites.)|Person|Hour|Yes|
@@ -32,7 +34,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Generated workload meeting attendees|Number of internal attendees in meetings organized by the person. (Counts each attendee once for each meeting.)|Person|Count|Yes|
 |Generated workload meeting hours|Number of meeting hours the person created for internal attendees by organizing meetings.|Person|Hour|Yes|
 |Generated workload meetings organized|Number of internal meetings organized by the person.|Person|Count|Yes|
-|Internal network size|Number of people within the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|No <!-- Changed from Yes 04-25-18 per Daysha -->|
+|Internal network size|Number of people within the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|No |
 |Low-quality meeting hours|Number of meeting hours where the person multitasked, had a conflicting meeting (any accepted meeting that overlaps), or is redundant (at least three distinct levels from their organization that attended). The current assumed cost of low-quality meeting hours is $75 per person hour. |Person|Hour|Yes|
 |Manager coaching hours 1:1|Number of hours that a manager spends in one-on-one meetings with their direct reports. |Person|Hour|Yes|
 |Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
@@ -44,19 +46,17 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Meetings with manager 1:1|Number of meetings involving only the person and their manager.|Person|Count|Yes|
 |Meetings with skip level|Number of meetings where the manager of the person's manager is an attendee.|Person|Count|Yes|
 |Multitasking meeting hours|Number of meeting hours where the person sent:<ul><li>Two or more emails sent per meeting hour</li><li>Two or more emails sent per meeting for meetings less than one hour</li></ul>|Person|Hour|Yes|
-|Networking outside company|Number of companies outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|No <!-- Changed from Yes 04-25-18 per Daysha -->|
-|Networking outside department|Number of departments outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|No <!-- Changed from Yes 04-25-18 per Daysha -->|
+|Networking outside company|Number of companies outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|No |
+|Networking outside organization|Number of departments outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|No |
 |Open 1-hr blocks|Number of one-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Open 2-hr blocks|Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
-|Redundant meeting hours|Number of meeting hours a person spent with attendees from three or more distinct levels within that person's organization.|Person|Hour|Yes|
-|Time in meetings during after hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
+|Redundant meeting hours (organizational)|Number of meeting hours a person spent with attendees from three or more distinct levels within that person's organization.|Person|Hour|Yes|
 |Time in meetings during working hours|Number of hours the person spent in meetings during working hours.|Person |Hour |Yes|
 |Time in self-organized meetings|Number of hours spent in meetings organized by the person with at least one other person.|Person|Hour|Yes|
-|Time spent on email after hours|Number of hours the person spent sending email outside of working hours.|Person|Hour|No|
-|Time spent on email working hours|Number of hours the person spent sending email during working hours.|Person|Hour|No|
-|Total emails sent during meetings | Number of emails the person sent during meetings. |Person|Count|Yes|
+|Total emails sent during meeting | Number of emails the person sent during meetings. |Person|Count|Yes|
 |Total focus hours|Total number of hours with two or more hour blocks of time where the person had no meetings.|Person|Hour|Yes|
-|Working hours collaboration|Number of hours the person spent in meetings and sending emails during working hours.|Person|Hour|No|
+|Working hours collaboration hours|Number of hours the person spent in meetings and sending emails during working hours.|Person|Hour|No|
+|Working hours email hours|Number of hours the person spent in sending email during working hours.|Person|Hour|Yes|
 |Workweek Span|Time between the person's first sent email or meeting attended and the last email or meeting in a day. (Counted Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day.) If reported for the week, the metric is a sum for the week. If reported for the month, the metric is the weekly average.|Person|Hour|No|
 
 ## Meeting metrics
