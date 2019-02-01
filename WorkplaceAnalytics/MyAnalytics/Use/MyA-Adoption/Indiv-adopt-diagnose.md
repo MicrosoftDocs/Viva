@@ -6,7 +6,7 @@ title: MyAnalytics Individual Adoption --Diagnose problems
 description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose problems section
 author: paul9955
 ms.author: v-pascha
-ms.date: 12/19/2018
+ms.date: 2/1/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -57,6 +57,7 @@ First, ask yourself the following questions:
  * Do I feel drained and stressed at the end of the day?
 
 ### Network
+
  * Are the people I spend my time with aligned with my top priorities?
  * Have I lost touch with people who can help me achieve my goals?
  * Could I enhance my job performance by interacting more with people outside my team?

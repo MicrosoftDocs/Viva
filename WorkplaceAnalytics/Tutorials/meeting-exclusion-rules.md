@@ -6,7 +6,7 @@ title: Meeting exclusion rules in Workplace Analytics
 description: Meeting exclusion rules -- Introduction and walkthrough   
 author: paul9955
 ms.author: madehmer
-ms.date: 12/3/2018
+ms.date: 1/31/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -81,7 +81,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 Now that you've created a framework for your new rule, you add -- and optionally, customize -- individual exclusions, as described in the following steps.
 
    >[!Note] 
-   >You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you click **Next**:
+   >You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you select **Next**:
 
    ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion.png)
 
@@ -171,23 +171,23 @@ By default, the dashboards of the **Explore** page use the default meeting-exclu
 2. Select **Set preferred**.
 
   >[!Note] 
-  >If you select a new rule, the selection does not take effect until after the next time that your organization's Office 365 data is refreshed. The reason for this delay is that meeting-exclusion rules are applied to data before it is processed; after the data is uploaded and processed, rules can no longer be applied to it. Office 365 data is refreshed weekly, so it could take up to two weeks to see your rule in place, depending on the timing of your rule selection. 
+  >If you select a new rule, the selection does not take effect until after the next time that your organization's Office 365 data is refreshed. The reason for this delay is that meeting-exclusion rules are applied to data before it is processed; after the data is uploaded and processed, rules can no longer be applied to it. Office 365 data is refreshed weekly, so it could take up to two weeks to see your rule in place, depending on the timing of your rule selection.
 
 ### Use rules with queries
 
-You can apply a meeting exclusion rule to a query while you define the query. Each query that you run can have a different meeting exclusion rule applied. 
+You can apply a meeting exclusion rule to a query while you define the query. Each query that you run can have a different meeting exclusion rule applied.
 
 <!-- GET THIS ANSWERED! 
 HOW CAN A RULE BE SET AS PREFERRED ON THE MEETING EXCLUSIONS PAGE? -->
 
->[!Note] 
+>[!Note]
 >If you selected a rule as the preferred rule on the Meeting exclusions page, the rule that you selected also becomes your default rule when you work on the **Queries** page.
  
 **To apply a rule to a query**
 
 1. In Workplace Analytics, open the **Queries** page.
 
-2. Select the rule you want from the Meeting exclusions list box, as shown here:
+2. Select the rule you want from the Meeting exclusions list, as shown here:
 
    ![Apply an exclusion to a query](../images/wpa/tutorials/20-apply-to-query.png)
 

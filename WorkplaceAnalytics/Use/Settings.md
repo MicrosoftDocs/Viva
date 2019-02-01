@@ -6,7 +6,7 @@ title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics. 
 author: paul9955
 ms.author: madehmer
-ms.date: 1/2/2019
+ms.date: 1/31/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -90,7 +90,7 @@ Workplace Analytics first attempts to read time zones from each user's mailbox. 
 
 #### To set the default time zone
 
- * In the **Default time zone** list box, under **System defaults**, select the appropriate time zone.
+ * For **Default time zone**, under **System defaults**, select the applicable time zone.
 
    ![Default time zone](../images/wpa/use/settings-default-time-zone-b.png)
 
@@ -100,8 +100,8 @@ Users can set their own working days and hours in [Outlook settings](https://out
 
 #### To configure working days and hours
 
-1. For **Working days**, select the appropriate check boxes for the days of the week.  
-2. For the **Working day starts** and **Working day ends** list boxes, select the appropriate start and end times.
+1. For **Working days**, select the appropriate days of the week.  
+2. For **Working day starts** and **Working day ends**, select the appropriate start and end times.
 
    ![Working days and hours](../images/wpa/use/settings-system-defaults-b.png)
 
