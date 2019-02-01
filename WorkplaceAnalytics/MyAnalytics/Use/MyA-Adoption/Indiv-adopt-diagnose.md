@@ -82,7 +82,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 ### Email
 
 <img src="../../../images/mya/use/Adopt-indiv-2.PNG" alt="Dashboard Email area">
-  
+
 * Is my total number of email hours per week as a percentage of my work week very high?
 * Am I spending more time writing emails than reading emails?
 * Am I emailing throughout the day or at specific times during the day?
@@ -91,7 +91,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 ### Focus Hours
 
 <img src="../../../images/mya/use/Adopt-indiv-3.PNG" alt="Dashboard Focus hours area">
-  
+
 * Is my total number of focus hours per week as a percentage of my work week sufficient?
 * Which days during the week do I typically get the most time to focus?
 * Is the amount of time I spend meeting with others versus focusing on my individual work appropriate for my job?
@@ -99,7 +99,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 ### After Hours
 
 <img src="../../../images/mya/use/Adopt-indiv-4.PNG" alt="Dashboard After-hours area">
-  
+
 * Is my total after-hours number acceptable?
 * Am I collaborating after hours on certain days or every day?
 * Am I spending the majority of my after hours in meetings or on email?
@@ -107,13 +107,13 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 ### Network
  
 <img src="../../../images/mya/use/network2.PNG" alt="Dashboard Network area">
-  
+
 * Do my time investments in people line up with my top priorities?
 * Are there opportunities for me to meet more with or less with certain individuals?
 * Is anyone missing from my map with whom I should be spending time?
 * Am I acting as a bottleneck for certain people because I am too slow to respond to their emails?
 
-## Behavior-change objective 
+## Behavior-change objective
 
 After you analyze your collaboration problem both qualitatively and quantitatively, you should have more clarity on what you would like to change about the way you collaborate. Behavior-change objectives include: 
 
