@@ -178,7 +178,3 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 #### I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
 Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, "after hours," which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data comes in.
-
-#### Can I remove the company-averages metrics from the personal dashboard?
-
-Yes. It is possible to remove this field so that MyAnalytics users do not see it. For more information, contact your Microsoft account team or file a service request. Note that you can also limit which users are included in this field, by using PowerShell. Also see [MyAnalytics setup](../setup/mya-setup-checklist.md).
