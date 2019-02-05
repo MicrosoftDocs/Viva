@@ -3,14 +3,14 @@
 # required metadata
 
 title: MyAnalytics dashboard
-description: Learn about the different MyAnalytics dashboard elements
+description: All the individual dashboard topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: madehmer
-ms.date: 1/31/2019
+ms.date: 2/5/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
-localization_priority: Once
+
 ---
 
 # MyAnalytics personal dashboard
@@ -28,7 +28,7 @@ Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide
 
 # Dashboard elements overview
 
-The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools: 
+The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools.
 
 ## Time summary
 
@@ -59,5 +59,3 @@ Scroll down the dashboard page to get more details about how you spend your time
 [!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
 
 [!INCLUDE [Opt out](MyA-Dashboard/MyA-DB-Opt-out.md)]
-
-<br>

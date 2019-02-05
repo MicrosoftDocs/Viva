@@ -3,10 +3,10 @@
 # required metadata
 
 title: To see email information and insights in MyAnalytics
-description: How to see email information and general insights in MyAnalytics. 
+description: How to see email information and general insights in MyAnalytics 
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/26/2018
+ms.date: 1/17/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
