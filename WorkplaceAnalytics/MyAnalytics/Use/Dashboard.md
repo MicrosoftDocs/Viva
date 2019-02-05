@@ -3,14 +3,14 @@
 # required metadata
 
 title: MyAnalytics dashboard
-description: Learn about the different MyAnalytics dashboard elements
+description: All the individual dashboard topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: madehmer
-ms.date: 1/31/2019
+ms.date: 2/5/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
-localization_priority: Once
+
 ---
 
 # MyAnalytics personal dashboard
@@ -19,16 +19,14 @@ _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5,
 
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is the MyAnalytics _personal dashboard_.
 
-> [!Note] 
-> To learn about the benefits of using MyAnalytics, see [Why use MyAnalytics?](../Overview/Better-work-habits.md)
+**To open the MyAnalytics dashboard**
 
-Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.  
-
-[!INCLUDE [To open the MyAnalytics dashboard](../Includes/to-open-the-dashboard.md)]
+1. In a web browser, open [delve.office.com](http://delve.office.com). Notice the Home, Me, MyAnalytics, and Favorites options in the navigation pane.
+2. In the navigation pane, select **MyAnalytics**. The MyAnalytics personal dashboard opens and displays your information for the most recent complete week.
 
 # Dashboard elements overview
 
-The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools: 
+The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. The following sections describe these tools.
 
 ## Time summary
 
@@ -59,5 +57,3 @@ Scroll down the dashboard page to get more details about how you spend your time
 [!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
 
 [!INCLUDE [Opt out](MyA-Dashboard/MyA-DB-Opt-out.md)]
-
-<br>
