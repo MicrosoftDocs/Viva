@@ -6,7 +6,7 @@ title: Tips on how to use MyAnalytics to reach your work goals
 description: How MyAnalytics can help you with your work goals.
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/14/2018
+ms.date: 2/1/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -71,6 +71,8 @@ Consider introducing the following company discipline around Cc'd e-mails: When 
 
 ## Tips for after hours
 
+Be a thoughtful coworker! 
+
 Be a thoughtful coworker!
 
 * For "inform"-type emails, condense the emails and status updates into daily or weekly digests. This reduces the overall noise and randomization caused by email overload.
@@ -88,7 +90,7 @@ As a team, be respectful of people’s time. For example:
 
 We define focus time as at least two consecutive hours of time without meetings. Focus time is meant to represent enough time so that you can focus on deliverables or complete other important tasks.
 
-### Block focus time on your calendar
+#### Block focus time on your calendar
 
 Prioritize your own time and block against double-booking over it. In the same way, be respectful of double-booking over your team’s blocked time.
 
@@ -98,12 +100,12 @@ Fewer meetings can mean more time to concentrate on meaningful tasks, or to rest
 
 ### Make time for networking
 
-Making time for fostering relationships and growing networks has proven to contribute to professional advancement. A study carried out by a partnering team proved a correlation between successful salespeople and large networks. The top salespeople boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
+Making time for fostering relationships and growing networks has proven to contribute to professional advancement. A study carried out by a partnering team proved a correlation between successful sales people and large networks. The top sales people boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
 
-### Make time for relaxation
+#### Make time for relaxation
 
 Allowing time for a little relaxation during work hours can not only provide mental recovery, it can promote your professional success.  
 
-### Make time for what's important
+#### Make time for what's important
 
-Before you skip lunch and have a fourth cup of coffee at your desk, go enjoy a meal with your team. You’ll give your brain a break, grow your network, and probably boost your productivity.
+Before you skip lunch and have a fourth cup of coffee at your desk, go enjoy a meal with your team. You’ll give your brain a break, grow your network, and probably boost your productivity. 

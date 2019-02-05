@@ -6,7 +6,7 @@ title: MyAnalytics dashboard
 description: All the individual dashboard topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: madehmer
-ms.date: 01/23/2019
+ms.date: 2/5/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -32,15 +32,13 @@ The MyAnalytics dashboard gives you the tools you need to help you prioritize wo
 
 ## Time summary
 
-Near the top of the MyAnalytics dashboard is the "My time summary" area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your company average.
+Near the top of the MyAnalytics dashboard is the "My time summary" area. This area shows a concise overview of how you've spent your time this week.
 
 <img src="../../Images/mya/use/time-summary.PNG" alt="The My time summary area of the MyAnalytics dashboard">
 
-This report summarizes the four main ways that MyAnalytics categorizes your time. For each category, MyAnalytics compares your actual number of hours with your company average.
+This summarizes the four main ways that MyAnalytics categorizes your time. See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
 
-See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
-
-Scroll down the dashboard page and you'll see more details about how you spend your time and the people you work with.
+Scroll down the dashboard page to get more details about how you spend your time and the people you work with.
 
 [!INCLUDE [Insights](MyA-Dashboard/MyA-DB-Insights.md)]
 
