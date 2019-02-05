@@ -19,12 +19,10 @@ _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5,
 
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. An important tool to help you gain this understanding is the MyAnalytics _personal dashboard_.
 
-> [!Note] 
-> To learn about the benefits of using MyAnalytics, see [Why use MyAnalytics?](../Overview/Better-work-habits.md)
+**To open the MyAnalytics dashboard**
 
-Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide your manager or anyone else in your organization access to your dashboard.  
-
-[!INCLUDE [To open the MyAnalytics dashboard](../Includes/to-open-the-dashboard.md)]
+1. In a web browser, open [delve.office.com](http:\\delve.office.com). Notice the Home, Me, MyAnalytics, and Favorites options in the navigation pane.
+2. In the navigation pane, select **MyAnalytics**. The MyAnalytics personal dashboard opens and displays your information for the most recent complete week.
 
 # Dashboard elements overview
 
