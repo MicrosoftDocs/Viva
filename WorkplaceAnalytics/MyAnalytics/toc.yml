@@ -20,9 +20,6 @@
       - name: MyAnalytics elements
         expanded: false
         href: ./use/MyA-elements.md
-        items:
-        - name: Dashboard (Preview)
-          href: ./use/dashboard-2.md        
         - name: Dashboard
           href: ./use/dashboard.md
         - name: Add-in
