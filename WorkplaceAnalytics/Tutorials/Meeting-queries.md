@@ -6,7 +6,7 @@ title: Meeting queries in Workplace Analytics
 description: When to use a meeting query and the type of data available for analysis in Workplace Analytics.  
 author: madehmer
 ms.author: madehmer
-ms.date: 1/30/2019
+ms.date: 2/5/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -48,7 +48,7 @@ You can also limit the query based on organizer, attendee, and invitee attribute
 
 ![Meeting query filter](../Images/WpA/Tutorials/meeting-filter.png)
 
-When you add a filter, you can see the number of people included in the filter group and the total number of measured employees it's based on. This helps you decide if you've set up the correct filter or filters before running the query.
+When adding a filter, you can see the number of people included in the filter group and the total number of measured employees it's based on. This helps you decide if you've set up the correct filter (or filters) before running the query.
 
 ![Filter preview](../Images/WpA/Tutorials/filter-preview.png)
 
