@@ -21,7 +21,7 @@ MyAnalytics helps you understand how you collaborate with colleagues and spend y
 
 **To open the MyAnalytics dashboard**
 
-1. In a web browser, open [delve.office.com](http:\\delve.office.com). Notice the Home, Me, MyAnalytics, and Favorites options in the navigation pane.
+1. In a web browser, open [delve.office.com](http://delve.office.com). Notice the Home, Me, MyAnalytics, and Favorites options in the navigation pane.
 2. In the navigation pane, select **MyAnalytics**. The MyAnalytics personal dashboard opens and displays your information for the most recent complete week.
 
 # Dashboard elements overview
