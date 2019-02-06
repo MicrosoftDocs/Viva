@@ -35,6 +35,10 @@ After you launch the add-in, the insights cards are displayed in the right panel
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
+## To turn off the add-in
+
+You can turn off the add-in by opting out of MyAnalytics in Delve settings. For information, see [Can I opt out of MyAnalytics?](mya-dashboard/mya-db-opt-out.md#can-i-opt-out-of-myanalytics).
+
 <!-- OLD CONTENT. GOING AWAY AS OF 11 JANUARY 2019 
 
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. The MyAnalytics Outlook add-in appears as a pane in Outlook. It presents you with information about your recent collaboration and communcation patterns and it suggests ways that you can work more effectively.
