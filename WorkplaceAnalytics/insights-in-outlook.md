@@ -77,6 +77,4 @@ No.
 
 **Q7. How can I turn this off for my users?**
 
-You can change the PrivacyMode setting for users to "Opt-out." See [Configure the user PrivacyMode setting](myanalytics/setup/mya-setup-checklist.md#step-1-configure-the-user-privacymode-setting). Note that users will be able to see the **Insights** button in the Outlook toolbar and can opt in if they want to.
-
-To prevent users from seeing the **Insights** button, [remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
+To turn this new experience off for users, change the PrivacyMode setting for users to "Opt-out," as described in [Configure the user PrivacyMode setting](myanalytics/setup/mya-setup-checklist.md#step-1-configure-the-user-privacymode-setting). Note that, after you turn off the feature, users will still be able to see the **Insights** button in the Outlook toolbar and can opt in if they want to. To prevent users from seeing the **Insights** button, [remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
