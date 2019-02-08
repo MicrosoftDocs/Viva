@@ -55,7 +55,5 @@ MyAnalytics is included with Office 365 Enterprise E5 and is also available as a
 
 [Explore MyAnalytics as a team](https://onedrive.live.com/view.aspx?resid=C5B2A217083AF909!742822&ithint=file%2cpptx&app=PowerPoint&authkey=!AJZ3zFUBvGHKYj4)
 
-[Get to know Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM)
-
 [NASCAR frees up time for innovation with MyAnalytics](https://www.youtube.com/watch?v=mXi6t0YJleo&t=3s)
 
