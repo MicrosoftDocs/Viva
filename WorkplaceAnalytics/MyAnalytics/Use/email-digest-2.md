@@ -6,7 +6,7 @@ title: MyAnalytics email digest
 description: MyAnalytics users receive a weekly email digest that describes key highlights. 
 author: paul9955
 ms.author: madehmer
-ms.date: 01/23/2019
+ms.date: 2/11/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -18,10 +18,10 @@ _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5,
 
 As a MyAnalytics user, you'll receive a weekly email digest with suggestions to help you meet your goals and improve your work habits. Each week will focus on a different goal or work habit:
 
-* **Focus** - Ways to increase your focus hours, so you can accomplish deep work and unleash your creativity.
-* **Balance and wellbeing** - Ways to balance your time between your working hours and life outside of work.
-* **Relationships** - Ways to keep up and collaborate with important people and to continue to maintain or grow your network of people.
-* **Better meetings** - Ways to help you plan your calendar, improve time efficiency, and improve meeting quality.
+* **Focus** - Find ways to increase your focus hours, so you can accomplish deep work and unleash your creativity.
+* **Wellbeing** - See if you’re getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
+* **Relationships** - See who’s in your network and make sure you’re keeping up with important contacts.
+* **Better meetings** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
 
 The following is an example of an email digest about past work history and an insight to help increase focus time.
 
