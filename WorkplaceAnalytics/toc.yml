@@ -5,9 +5,11 @@
     - name: Privacy and data protection
       items:
         - name: Data-protection considerations                   
-          href: ~/Privacy/Data-protection-summary.md        
+          href: ~/Privacy/Data-protection-summary.md
         - name: Privacy and data access
           href: ~/Privacy/Privacy-and-Data-Access.md
+        - name: Workplace Analytics audit logs
+          href: ~/Privacy/audit-logs.md
     - name: Setup and Maintenance
       items:
         - name: Set up Workplace Analytics
