@@ -48,6 +48,7 @@ It also shows how well you are disconnecting from work during your time off and 
 ### How we calculate
 
 * **Collaboration** is based on meetings, emails, and chats.
+
 * **Available to focus** is based on blocks of 2+ hours of free time in your calendar. Both are calculated only for your working hours, as determined by your Outlook calendar.
 
    For example: If you spent 20 hours in meetings, emails, and chats on a given week, and had 10 hours’ worth of focus blocks (2+ contiguous hours of free time on your calendar) in your calendar that week, then your dashboard would show 67% collaboration and 33% available to focus for that week.
@@ -67,6 +68,7 @@ It also shows your top collaborators in either a map or list view, enables you t
 ### How we calculate
 
 * **Collaborators** are based on your meeting, email, and chat activity. If you hold a meeting with or exchange emails or chats with coworkers, they are considered collaborators. An active collaborator is a coworker you collaborated with over the past four weeks, whereas total collaborator calculations consider the entire past year.
+
 * **An important collaborator** is a coworker that you have flagged as important in MyAnalytics. You can flag individuals as important in the **Important collaborators** section of the **Explore** > **Your Network** page.
 
 ## Config Settings
