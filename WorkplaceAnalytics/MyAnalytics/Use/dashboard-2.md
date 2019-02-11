@@ -54,7 +54,7 @@ It also shows how well you are disconnecting from work during your time off and 
 
 * **Quiet days** counts the number of days where you didn't collaborate much outside your working hours (as defined by your Outlook calendar). Collaboration includes meetings, emails, and chats that occurred during this time.
 
-   For example: If your working hours are set to 8 AM to 5 PM, Monday through Friday, and you have a meeting on your calendar scheduled for Monday evening from 6 to 7 PM, you read or replied to a few emails, or had chats or calls occur outside your working hours,  then Monday won't be counted as a quiet day.
+   For example: If your working hours are set to 8 AM to 5 PM, Monday through Friday, and you have a meeting on your calendar scheduled for Monday evening from 6 to 7 PM, you read or replied to a few emails, or had chats or calls outside your working hours, then Monday isn't counted as a quiet day.
 
 ## Your Network
 
@@ -92,7 +92,6 @@ When you opt out, the following will occur:
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
 * You will stop receiving [nudges](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
 * Your email activity will not be included anonymously in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
-
 
 **To opt out of MyAnalytics**
 
