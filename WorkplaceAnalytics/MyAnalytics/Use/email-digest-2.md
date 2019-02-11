@@ -6,7 +6,7 @@ title: MyAnalytics email digest
 description: MyAnalytics users receive a weekly email digest that describes key highlights. 
 author: paul9955
 ms.author: madehmer
-ms.date: 01/23/2019
+ms.date: 2/11/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
