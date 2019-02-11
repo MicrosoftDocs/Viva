@@ -43,7 +43,7 @@ To set up MyAnalytics, complete the tasks in this checklist:
 # Setup tasks
 
 
-## Step 1: Configure user settings
+## Step 1: Configure the user PrivacyMode setting
 
 [!INCLUDE [Configure user settings](../Setup/Configure-MyA-User-Settings.md)] 
 
