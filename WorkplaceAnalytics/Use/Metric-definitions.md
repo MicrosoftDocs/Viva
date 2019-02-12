@@ -6,7 +6,7 @@ title: Workplace Analytics metric definitions
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/12/2018
+ms.date: 02/11/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -48,7 +48,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Open 1-hr blocks|Number of one-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Open 2-hr blocks|Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Redundant meeting hours (organizational) |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating *Low quality meeting hours*.  |Person|Hour|Yes|
-|Redundant meeting hours (lower level) |Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting. <br> <br> This metric is _not_ used in calculating *Low-quality meeting hours*. Analysts can use this metric only when creating [Person queries](../tutorials/person-queries.md).|Person | Hour| Yes |
+|Redundant meeting hours (lower level) |Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting. <br> <br> This metric is _not_ used in calculating *Low-quality meeting hours*. Analysts can use this metric only when creating [Person queries](../tutorials/person-queries.md).|Person | Hour| Yes | <!-- Ready to publish this now (11 Feb 2019) -->
 |Time in meetings during after hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
 |Time in meetings during working hours|Number of hours the person spent in meetings during working hours.|Person |Hour |Yes|
 |Time spent on email after hours|Number of hours the person spent sending email outside of working hours.|Person|Hour|No|
