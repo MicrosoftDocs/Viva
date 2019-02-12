@@ -41,21 +41,21 @@ See [MyAnalytics Tips](../Overview/tips.md) for suggestions on how to plan your 
 
 This section of the Explore page gives you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
 
-It also shows how well you are disconnecting from work during your time off and suggests ways to balance work with life.
+It also shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
 ![Focus and wellbeing](../../Images/mya/use/mya-focus-wellbeing.png)
 
-### How we calculate
+### About the metrics
 
-* **Collaboration** is based on meetings, emails, and chats.
+* **Collaboration** is based on meetings, emails, chats, and calls with Teams and Skype for Business.
 
 * **Available to focus** is based on blocks of 2+ hours of free time in your calendar. Both are calculated only for your working hours, as determined by your Outlook calendar.
 
-   For example: If you spent 20 hours in meetings, emails, and chats on a given week, and had 10 hours’ worth of focus blocks (2+ contiguous hours of free time on your calendar) in your calendar that week, then your dashboard would show 67% collaboration and 33% available to focus for that week.
+   For example: If you spent 20 hours in meetings, emails, and chats in a given week, and had 10 hours’ worth of focus blocks (2+ contiguous hours of free time on your calendar) in your calendar that week, then your dashboard will show 67% collaboration and 33% available to focus for that week.
 
-* **Quiet days** counts the number of days where you didn't collaborate much outside your working hours (as defined by your Outlook calendar). Collaboration includes meetings, emails, and chats that occurred during this time.
+* **Quiet days** are the number of days where you didn't collaborate much outside your working hours (as defined by your Outlook calendar). Collaboration includes meetings, emails, chats, and calls that occurred during this time.
 
-   For example: If your working hours are set to 8 AM to 5 PM, Monday through Friday, and you have a meeting on your calendar scheduled for Monday evening from 6 to 7 PM, you read or replied to a few emails, or had chats or calls outside your working hours, then Monday isn't counted as a quiet day.
+   For example: If your working hours are set as 8 AM to 5 PM, Monday through Friday, and you have a meeting on your calendar scheduled for Monday evening from 6 to 7 PM, you read or replied to a few emails, or you had chats after 5 PM on Monday, then that day won't count as a quiet day.
 
 ## Your Network
 
@@ -65,11 +65,11 @@ It also shows your top collaborators in either a map or list view, enables you t
 
 ![Your Network](../../Images/mya/use/mya-network.png)
 
-### How we calculate
+### About the network metrics
 
-* **Collaborators** are based on your meeting, email, and chat activity. If you hold a meeting with or exchange emails or chats with coworkers, they are considered collaborators. An active collaborator is a coworker you collaborated with over the past four weeks, whereas total collaborator calculations consider the entire past year.
+* **Collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators. An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** considers the entire past year.
 
-* **An important collaborator** is a coworker that you have flagged as important in MyAnalytics. You can flag individuals as important in the **Important collaborators** section of the **Explore** > **Your Network** page.
+* **An important collaborator** is a coworker who you selected as important in MyAnalytics. You can select people as important in the **Important collaborators** section of **Explore** > **Your Network**.
 
 ## Config Settings
 
