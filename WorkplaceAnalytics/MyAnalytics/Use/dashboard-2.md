@@ -53,7 +53,7 @@ It also shows how well you are disconnecting from work during your time off and 
 
    For example: If you spent 20 hours in meetings, emails, and chats in a given week, and had 10 hours’ worth of focus blocks (2+ contiguous hours of free time on your calendar) in your calendar that week, then your dashboard will show 67% collaboration and 33% available to focus for that week.
 
-* **Quiet days** are the number of days where you didn't collaborate much outside your working hours (as defined by your Outlook calendar). Collaboration includes meetings, emails, chats, and calls that occurred during this time.
+* **Quiet days** are the number of days where you collaborated less than two hours outside your working hours (as defined by your Outlook calendar). Collaboration includes meetings, emails, chats, and calls that occurred during this time.
 
    For example: If your working hours are set as 8 AM to 5 PM, Monday through Friday, and you have a meeting on your calendar scheduled for Monday evening from 6 to 7 PM, you read or replied to a few emails, or you had chats after 5 PM on Monday, then that day won't count as a quiet day.
 
