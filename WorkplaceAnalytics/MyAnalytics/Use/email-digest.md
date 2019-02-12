@@ -6,13 +6,15 @@ title: MyAnalytics email digest
 description: MyAnalytics users receive a weekly email digest that describes key highlights. 
 author: paul9955
 ms.author: madehmer
-ms.date: 12/17/2018
+ms.date: 01/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
 ---
 
 # MyAnalytics email digest
+
+_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
 As a MyAnalytics user, you will receive a weekly email digest that gives you key highlights about your previous week. This email digest contains links that you can select to open your MyAnalytics dashboard.
 

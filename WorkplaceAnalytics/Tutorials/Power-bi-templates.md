@@ -6,7 +6,7 @@ title: Power BI templates
 description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
 author: paul9955
 ms.author: madehmer
-ms.date: 12/3/2018
+ms.date: 12/8/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -29,7 +29,7 @@ For example, you can use the following steps to identify areas of collaboration 
 3. Review the displayed metrics, which are required to populate the Power BI template.
 
    > [!Note] 
-   > If you attempt to delete a metric, you'll see a warning that this deletion might disable portions of the Power BI template and reduce query results. In turn, this can limit your eventual ability to visualize collaboration-overload patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. In the warning dialog box, select **cancel** to retain the metric or **delete** to delete it.
+   > If you try to delete a metric, you'll see a warning that this deletion might disable portions of the Power BI template and reduce query results. In turn, this can limit your eventual ability to visualize collaboration-overload patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. In the warning dialog box, select **cancel** to retain the metric or **delete** to delete it.
 
 4. Select a rule from the Meeting exclusions list. Optionally, select options for Group by, Time period, and Included employees.
 5. Select **Run**. The query might take several minutes to complete.

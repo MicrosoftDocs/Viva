@@ -47,10 +47,10 @@ The following are typical insights:
 
 #### Announcement insights
 
-Occasionally, MyAnalytics uses an insight to announce a change in the way it works. For example, the following insight presents the announcement that Skype for Business is being used as a new data source for information about workplace habits: 
+Occasionally, MyAnalytics uses an insight to announce a change in the way it works. For example, the following insight presents the announcement that Teams is being used as a new data source for information about workplace habits: 
 
-**Announcing a new data source: Skype for Business Online**
+**Announcing a new data source: Teams**
 
-   ![Announcing data from Skype for Business Online](../../../images/mya/use/db-insights-05.png)
+   ![Announcing data from Teams](../../../images/mya/use/db-insights-05.png)
 
 --> 

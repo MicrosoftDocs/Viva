@@ -6,11 +6,10 @@ title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
 author: madehmer
 ms.author: madehmer
-ms.date: 12/10/2018
+ms.date: 1/25/2019
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: mya
-localization_priority: Once
+ms.prod: wpa
 ---
 
 # Frequently asked questions for Workplace Analytics
@@ -218,10 +217,14 @@ A5. If measured employees or other internal collaborators have their time zones 
 
 ##### Q1. When should I use a group-to-group query instead of a person-to-group query?
 
-A1.	Use a **group-to-group** query when you want to understand how one team invested their collaboration time with other teams within and outside of the organization.
+A1. Use a **group-to-group** query when you want to understand how one team invested their collaboration time with other teams within and outside of the organization.
 
 Use a **person-to-group** query to help you understand how individuals invested their time with one or more collaborator teams within and outside of the organization. See [Queries overview](../tutorials/query-basics.md) for more details.
 
 ##### Q2. For a group-to-group query, what’s the difference between the results for “Collaborators Within Group” and for “Same group as Time Investor?”
 
 A2. If the result of a query defines the same set of people as members of both the time investors and collaborators groups, and these individuals also match any defined filters, then the collaborators are grouped together under the Collaborators Within Group results. The Same group as Time Investor results apply when a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email.  See [Group-to-group query output](../use/csv-query-output-file.md#group-to-group-query-output) and [Overview of time allocation](../tutorials/group-to-group-queries.md#overview-of-time-allocation) for more details.
+
+##### Q3. How do I analyze collaboration hours at my company for a specific time frame, such as 8 PM to 8 AM?
+
+A3. You can use the Collaboration hours metric to filter for a specific time frame, regardless of when it occurs. Note that query results that use the Collaboration hours to filter for a time period that includes after-hours time, such as 8 PM to 8 AM, will include all people who collaborated during this time regardless of if they have this time period set as their working or non-working hours on their calendar.
