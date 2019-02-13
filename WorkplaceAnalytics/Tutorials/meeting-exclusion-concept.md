@@ -14,25 +14,25 @@ ms.prod: wpa
 
 # Meeting exclusion rules: Tools and concepts
 
-This article describes screen elements and concepts whose understanding can help you create and use meeting exclusion rules. Those tasks are described in the step-by-step walkthroughs in [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md). 
+This article describes screen elements and concepts that will help you create and use meeting exclusion rules in Workplace Analytics. For step-by-step walkthroughs, see [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md). 
 
 At each step in the exclusion-creation flow, you see a page such as the following: 
 
   ![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
  
-On these pages, the following sections help you create meeting exclusions in an informed way:
+In the following sections, you'll learn more about the pages you use in the exclusion-creation steps.
 
 ## Progress summaries  
 
 ### Progress bar
 
-The progress bar at the top of the page tracks the step in the flow that you are currently on: 
+The progress bar at the top of the page tracks where you are in the flow: 
 
 ![Progress bar](../images/wpa/tutorials/12-progress-bar.png)
 
 ### Summary of meetings that remain
 
-This area at the top of the page tracks how many meetings and meeting hours remain in your analysis as you exclude meetings. This view updates every time you advance to the next step in the flow. 
+This section tracks how many meetings and meeting hours remain in your analysis as you exclude meetings. This view updates every time you advance to the next step in the flow. 
 
 These numbers help you understand the effects of the exclusions that are already in place and the effect of the exclusion created in the current step. This helps you confirm whether to remove these meetings and decide which meetings, if any, that you want to keep in your analysis. 
 
@@ -40,7 +40,7 @@ Before you apply any filters, 100% of meeting hours are still available for anal
 
   ![Meeting hours summary (before)](../images/wpa/tutorials/09-summary-meetings-hours.png)
 
-As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough describes, you create a meeting exclusion rule in five steps. As you complete one of those steps and move on (by selecting **Next**), you see the number of meeting hours and meetings decrease as the exclusion is applied to your data: 
+As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough describes, as you complete each step and move on to the next one, you'll see the number of meetings and meeting hours decrease as the exclusion is applied to your data: 
 
   ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
@@ -54,9 +54,9 @@ The middle section of the page shows you a summary of the current exclusion step
 
   ![Middle of page](../images/wpa/tutorials/11-mid-page.png)
 
-This area has three informative areas: 
+This section has three informative areas: 
  
- * On the left, you see what kinds of meetings this step addresses. The exclusion description helps you understand the purpose of the current step.
+ * On the left, you see the types of meetings this step addresses. The exclusion description helps you understand the purpose of the current step.
  * In the center, you see details about the meetings that this exclusion would remove from analysis. This section helps you keep track of the customizations you have made to the current exclusion.
  * On the right, you see the effects of the current exclusion step if you apply it, namely: What percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data?
   
@@ -69,8 +69,8 @@ Below the **Summary of meetings that remain**, you can customize four of the fiv
 
 You make the following types of customizations:
 
- * You can change the default filter value for any step that has a numerical filter. For more information, see [Walkthrough: to add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough-adding-a-meeting-exclusion-rule).
- * You can choose which keywords and topics that you would like to exclude from analysis. For more information, see [Walkthrough: to add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough-adding-a-meeting-exclusion-rule).
+ * You can change the default filter value for any step that has a numerical filter. For more information, see [Walkthrough: add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough----add-a-meeting-exclusion-rule). 
+ * You can choose which keywords and topics that you would like to exclude from analysis. For more information, see [Walkthrough: add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough----add-a-meeting-exclusion-rule). 
  * You can create [exceptions to an exclusion](#make-an-exception-to-an-exclusion). 
 
 ### Make an exception to an exclusion
@@ -88,16 +88,16 @@ While you define the exclusion, if you adjust that filter context, the word clou
 
 To remove a keyword from this exclusion, select the keyword in the word cloud and then select **Make an exception**. Before you remove it, you might want to learn more about it and its impact on the data. To learn more, do one of the following: 
 
- * Hover over the keyword. This displays a tooltip that shows meeting hours and meeting count.
+ * Hover over the keyword to see the meeting hours and meeting count.
  * Select the keyword. This selects the keyword and displays details about its impact on meeting hours in the Phrase table. The [Phrase table](#phrase-table) is described later in this step.
 
 ### Keyword search
 
-You might have a specific word in mind that you want to retain in your analysis (that is, remove from the exclusion). If you cannot find that word in the word cloud, search for it in the field marked **Search for a keyword**. You can search for phrases that contain one, two, or three words. If the keyword is found, Workplace Analytics display data in the Phrase table about removing this keyword from the exclusion. To remove it from the exclusion, select **Make an exception**. 
+You might know of a specific word that you want to retain in your analysis (that is, remove from the exclusion). If you cannot find that word in the word cloud, search for it in the field marked **Search for a keyword**. This lets you search for phrases that contain one, two, or three words. If the keyword is found, Workplace Analytics displays data in the Phrase table about removing it from the exclusion. To remove it from the exclusion, select **Make an exception**. 
 
 #### Remove an exception
 
-After you make an exception of a word, it appears above the word cloud. If you change your mind, you can remove the word from the exception list. This returns it to the group of keywords whose meetings will be excluded. To do this, select the **X** next to the word: 
+After you make an exception of a word, it appears above the word cloud. If you change your mind, you can remove the word from the exception list. To do this, select the **X** next to the word. This returns it to the group of keywords whose meetings will be excluded. 
  
   ![Exclude meetings where](../images/wpa/tutorials/04-exclude-meetings-where.png)
  
@@ -105,11 +105,11 @@ You can also remove all of your exceptions to this exclusion at once. To do this
 
 ### Phrase table
 
-Workplace Analytics shows a table called **Phrases that contain the selected keyword**. Through this table, you can better understand the context of the meetings that are associated with this keyword or subject-line phrase. 
+Workplace Analytics shows a table named **Phrases that contain the selected keyword**. This table can help you understand the context of meetings that are associated with this subject-line phrase or keyword. 
 
 ### Example 1: Business
 
-The words "business" or "marketing" in the word cloud represent meetings that you might not want to exclude. To help you decide, you can view data about the effect of removing this keyword (and its meetings) from the exclusion. For example, select **business**. Workplace Analytics shows what percentage of meetings have this word in their subject line and how many hours those meetings contain:
+The words "business" or "marketing" in the word cloud represent meetings that you might want to include in your analysis. To help you decide, you can see the effects of removing this keyword (and its meetings) from the exclusion. For example, if you select **business**, Workplace Analytics shows what percentage of meetings have this word in their subject line and the total number of hours for those meetings:
 
   ![Percentages](../images/wpa/tutorials/02-word-cloud-business.png)
 
@@ -119,34 +119,66 @@ In the following illustration, the word "business" has been excepted from the ex
  
 ### Example 2: Soccer
 
-The word cloud contains the word "soccer," which you select. Now, if the Phrase table shows phrases such as "soccer practice" or "soccer league," this might indicate that the meetings with "soccer" in the subject line were not work-related and therefore are appropriate to exclude from analysis. 
+The word cloud contains "soccer," which you select. Now, if the Phrase table shows phrases such as "soccer practice" or "soccer league," this might indicate that meetings with "soccer" in the subject line were not work-related and therefore are appropriate to exclude from analysis. 
 
-However, if you work for an athletic-equipment supplier and this table displays phrases such as "soccer product review," these meetings are probably work related and you do not want to exclude them. To retain such a keyword and its associated meetings, you make it an exception to the exclusion rule. To do this, select the **Make an exception** check box adjacent to the word cloud. 
+However, if you work for an athletic-equipment supplier and this table displays phrases such as "soccer product review," these meetings are probably work related and therefore should be included for analysis. To retain this keyword and its associated meetings, you make it an exception to the exclusion rule. To do this, select **Make an exception** adjacent to the word cloud. 
  
 If you notice other words in the cloud that you might want to retain in your analysis, select them, review the **Phrases that contain the selected keyword** table, and, when appropriate, select **Make an exception**. 
 
-## Application of meeting-exclusion rules
+## Default meeting-exclusion rule
 
-Workplace Analytics provides a default meeting-exclusion rule. You and other analysts can create new rules. Are all these rules available to all analysts? Can you combine your rules with theirs, or with the default rule? This section answers those questions and others. 
+Workplace Analytics supplies one meeting exclusion rule by default, the Default meeting exclusion rule. This rule filters out meetings that are longer than 8 hours or whose number of attendees is one or fewer or 50 or more. 
 
-Q1. **Scope of meeting-exclusion rules.** You create meeting-exclusion rules on the Meeting exclusions page, which is reached through the Queries page of Workplace Analytics. After you create rules, where in Workplace Analytics are they applied?
+This default rule is a good start, but if you were to use only it, you would miss the opportunity to verify that this rule doesn't exclude important meetings you wanted to keep, as well as the opportunity to exclude additional meetings based on meeting-subject keywords. 
 
-A1.  Exclusion rules apply in two areas where analysts work: 
+To create a custom rule for your organization, follow the steps in [Create a meeting exclusion rule](meeting-exclusion-rules.md#create-a-meeting-exclusion-rule).
 
- * **Explore page dashboards.** Exclusion rules work for analysts as they inspect data on the dashboards of the Workplace Analytics Explore page. For information about selecting the rule that you want to take effect, see [Use rules in the Explore dashboards](meeting-exclusion-rules.md#use-rules-in-the-explore-dashboards).
- * **Queries.** Creating, refining, and running queries on the query-creation pages that are reached through the Workplace Analytics Queries page. For information about selecting the rule that you want to take effect, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
+## Rule actions
 
-Q2. **Edit existing rules?** Can you change/edit the default meeting-exclusion rule, or rules that other analysts have created, or rules that you created previously? 
+In the list of rules, the area to the right of the State column provides actions that you can take with rules. Each rule has a primary action that you can take by clicking the icon. For published rules, select the eye icon to view the rule. For draft rules, select the pencil icon to edit the rule:
 
-A2.  No. You cannot change or delete existing rules, regardless of their origin.
+![State column](../images/wpa/tutorials/state-column.png)
+ 
+To see other actions that are available for the rule, hover your cursor over the ellipsis at the end of the row:
 
-Q3. **Share rules?** Can rules be viewed and shared by others? If you create one, does it or can it be applied to the data and queries that are used by other analysts? 
+![Secondary rule actions](../images/wpa/tutorials/active-actions.png)
+ 
+For published rules, the actions are:  
+ * **Duplicate** creates an exact copy of the rule.
+ * **Set preferred** sets this rule as the preferred rule. Note that there can be only one preferred rule. The preferred rule appears on the Explore dashboards and on the Solutions pages. It also appears at the top of the list of rules on the Analysis settings page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.) 
+ * **Archive** archives the rule.  
+ * **Favorite** sets the rule as a favorite. This is a sorting action. Rules that are favorites are displayed together near the top of any list of rules. (For rules that have been set as favorites, the “Unfavorite” option is available; it reverses the favorite status of the rule.)
+
+For draft rules, the only action available is **Duplicate**:
+
+![Duplicate](../images/wpa/tutorials/draft-actions.png)
+
+For archived rules, the only available action is **Restore**, which returns the rule to the list of published rules:
+
+![Restore](../images/wpa/tutorials/archived-actions.png)
+
+## Application of meeting exclusion rules
+
+Workplace Analytics provides a default meeting exclusion rule. You and other analysts can create new rules. Are all these rules available to all analysts? Can you combine your rules with theirs, or with the default rule? This section answers those questions and others. 
+
+Q1. **Scope of meeting exclusion rules:** You create meeting exclusion rules on the Meeting exclusions page, which is reached through the Settings page of Workplace Analytics. After you create rules, where can you apply them in Workplace Analytics?
+
+A1.  Exclusion rules apply in two areas where analysts work most: 
+
+ * **Explore page dashboards:** Exclusion rules work for analysts as they inspect data in the Explore dashboards. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
+ * **Queries.** Analysts can also apply exclusion rules when creating, refining, and running queries in Workplace Analytics. For more information, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
+
+Q2. **Edit existing rules?** Can you change/edit the default meeting-exclusion rule, or rules that you or other analysts have created? 
+
+A2.  You can edit a rule only if it has been saved as a draft. You cannot change or edit published rules.
+
+Q3. **Share rules?** Can rules be viewed and shared by others? If you create a rule, does it or can it be applied to the data and queries that are used by other analysts? 
 
 A3.  Yes. Anyone in your organization can use the rules that anyone else in the organization has created.
 
-Q4. **Combine rules?** Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule atop it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
+Q4. **Combine rules?** Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule on top of it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
 
-A4.  No. You can have only one rule in effect at a time. For information about selecting the rule that you want to use, see [Select a rule for use](meeting-exclusion-rules.md#select-a-rule-for-use).
+A4.  No. You can have only one rule in effect at a time. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
 
 ## Related topic
 
