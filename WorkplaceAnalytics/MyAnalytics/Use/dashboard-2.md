@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics dashboard 2019
+title: MyAnalytics dashboard (Preview)
 description: Learn about what's included in your personal MyAnalytics dashboard 2019
 author: madehmer
 ms.author: madehmer
@@ -98,7 +98,7 @@ When you opt out, the following will occur:
 **To opt out of MyAnalytics**
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
-2. Select the gear icon in the top right to open the Settings pane.
+2. Select the **Settings** (gear) icon in the top right to open the Settings pane.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
