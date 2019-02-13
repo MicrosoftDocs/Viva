@@ -155,7 +155,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 #### To drill down or exclude a group
 
 * To drill down and show a specific group in the chart, select one or more group's chart data to select (or bold) that group's name in the chart, and then the **Drilldown** icon.
-* To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude** icon.
+* To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude groups** icon.
 * To revert either of these actions, select the **Undo** icon.
 
   ![Chart tools](../images/wpa/use/drilldown.png)
