@@ -55,11 +55,11 @@ Open the Meeting exclusions page to view existing meeting exclusion rules or to 
  * Rules in the _Published_ state are available for use. See [Select which rule to use](#select-which-rule-to-use). 
 •	Rules in the _Draft_ state are in development. An analyst can edit a draft rule and then publish it. See [Edit a draft rule](#edit-a-draft-rule).  
 
-#### Archived rules
+### Archived rules
 
 Select **Archived** to see a list of published rules that analysts have archived because they're not currently in use. 
 
-#### Order of rules in the list
+### Order of rules in the list
 
 Active rules are listed in the following order:
 
@@ -75,7 +75,7 @@ Defining what kind of meeting exclusion to use is part of the data-preparation w
 
 When you start a new meeting exclusion rule and before you have added any exclusions to it, the set of meetings to be analyzed includes 100% of the meetings that were found in the Outlook mailboxes of licensed employees who use Office 365. As you add filter terms, or exclusions, to this exclusion rule, you gradually reduce the number of meetings and meeting hours that will be used in metrics calculations while performing analysis in Workplace Analytics.  
 
-### Walkthrough adding a meeting exclusion rule
+### Walkthrough -- adding a meeting exclusion rule
 
 Workplace Analytics steps you through the creation of a customized meeting exclusion rule. The meeting exclusion flow, which is described in the second task that follows, contains five steps, one for each meeting type that is commonly excluded from analysis.
 
@@ -193,26 +193,6 @@ You might have started to define a rule and then saved it as a draft. Now, you�
 
 5.	Continue editing individual exclusions. When you are finished, select **Save as draft** to save the rule as unfinished, or select **Publish** to finalize the rule, which makes it ready for use.  
 
-## Duplicate a rule
-
-You can make an exact copy of any active rule. You can duplicate both published rules and draft rules. The copy you create is editable. 
-
-**To duplicate a rule** 
-
-1.	On the **Settings > Analysis** settings page, select **Active**.
-
-2.	In the table of meeting exclusion rules, find the rule that you want to duplicate. This can be a published rule or a draft rule. 
-
-3.	In that rule’s row, click the ellipsis:
-
-    ![ellipsis](../images/wpa/tutorials/ellipsis.png)
-   
-   … and then select Duplicate. A copy of the rule is created, given the name “Copy of &lt;original rule name&gt;”, and opened for display. 
-
-4.	You can now edit the rule’s exclusions, description, and name. 
-
-5.	Select **Publish** to publish the rule for use or **Save as draft** to save an editable copy. 
-
 ## Select which rule to use
 
 When you first start using Workplace Analytics, the **Explore** dashboards and the **Solutions** pages use the predefined, default meeting exclusion rule. However, you can change this to a different "preferred" rule, as described in the following steps.
@@ -248,6 +228,27 @@ You can apply a meeting exclusion rule to a query while you create the query in 
 2. After you select the type of query that you want to create, select the rule for this query from the Meeting exclusions list, as shown here:
 
    ![Apply an exclusion to a query](../images/wpa/tutorials/20-apply-to-query.png)
+
+## Duplicate a rule
+
+You can make an exact copy of any active rule. You can duplicate both published rules and draft rules. The copy you create is editable. 
+
+**To duplicate a rule** 
+
+1.	On the **Settings > Analysis** settings page, select **Active**.
+
+2.	In the table of meeting exclusion rules, find the rule that you want to duplicate. This can be a published rule or a draft rule. 
+
+3.	In that rule’s row, click the ellipsis:
+
+    ![ellipsis](../images/wpa/tutorials/ellipsis.png)
+   
+   … and then select Duplicate. A copy of the rule is created, given the name “Copy of &lt;original rule name&gt;”, and opened for display. 
+
+4.	You can now edit the rule’s exclusions, description, and name. 
+
+5.	Select **Publish** to publish the rule for use or **Save as draft** to save an editable copy. 
+
 
 ## Archive a rule
 

@@ -125,7 +125,7 @@ However, if you work for an athletic-equipment supplier and this table displays 
  
 If you notice other words in the cloud that you might want to retain in your analysis, select them, review the **Phrases that contain the selected keyword** table, and, when appropriate, select **Make an exception**. 
 
-## The default meeting-exclusion rule
+## Default meeting-exclusion rule
 
 Workplace Analytics supplies one meeting exclusion rule by default, the Default meeting exclusion rule. This rule filters out meetings that are longer than 8 hours or whose number of attendees is one or fewer or 50 or more. 
 
@@ -165,7 +165,7 @@ Q1. **Scope of meeting exclusion rules:** You create meeting exclusion rules on 
 
 A1.  Exclusion rules apply in two areas where analysts work most: 
 
- * **Explore page dashboards:** Exclusion rules work for analysts as they inspect data in the Explore dashboards. For more information, see [Use rules in the Explore dashboards](meeting-exclusion-rules.md#use-rules-in-the-explore-dashboards).
+ * **Explore page dashboards:** Exclusion rules work for analysts as they inspect data in the Explore dashboards. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
  * **Queries.** Analysts can also apply exclusion rules when creating, refining, and running queries in Workplace Analytics. For more information, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
 
 Q2. **Edit existing rules?** Can you change/edit the default meeting-exclusion rule, or rules that you or other analysts have created? 
@@ -178,7 +178,7 @@ A3.  Yes. Anyone in your organization can use the rules that anyone else in the 
 
 Q4. **Combine rules?** Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule on top of it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
 
-A4.  No. You can have only one rule in effect at a time. For more information, see [Select a rule for use](meeting-exclusion-rules.md#select-a-rule-for-use).
+A4.  No. You can have only one rule in effect at a time. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
 
 ## Related topic
 
