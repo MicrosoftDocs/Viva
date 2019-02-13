@@ -6,7 +6,7 @@ title: Meeting exclusion rules in Workplace Analytics
 description: Meeting exclusion rules -- Introduction and walkthrough   
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/12/2019
+ms.date: 02/13/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa

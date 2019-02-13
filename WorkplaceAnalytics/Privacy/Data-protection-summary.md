@@ -57,7 +57,7 @@ You have full control over what data to include in analysis using Workplace Anal
 
 ## Handle data-subject requests
 
-Under the General Data Protection Regulation (GDPR), data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it. 
+Under the General Data Protection Regulation (GDPR), data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it.
 For more information about the following request types and how to fulfill them, see [Workplace Analytics support for handling data subject requests](Data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests). 
 
  * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing.

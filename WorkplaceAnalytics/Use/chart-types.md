@@ -6,7 +6,7 @@ title: Charts in Workplace Analytics
 description: Describes the different chart types and how to use the chart features in Workplace Analytics. 
 author: paul9955
 ms.author: madehmer
-ms.date: 1/25/2019
+ms.date: 2/13/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -118,7 +118,7 @@ After you change chart types, data for the same groups still appears and any sel
 
 #### Minimum-group alert
 
-When you sort groups by an attribute metric, an alert icon will appear in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
+When you sort groups by an attribute metric, an alert icon appears in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
 
 This functionality protects the privacy of members of groups whose size is below the minimum group size. If a small group was displayed after sorting by an attribute's metric, an analyst could infer the small group's value for that metric from its position adjacent to or between other groups, whose values are displayed. If you sort alphabetically, such an inference is not possible, so small groups are not hidden.
 
@@ -154,12 +154,14 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
 #### To drill down or exclude a group
 
-* To drill down and show a specific group in the chart, select one or more group's chart data to select (or bold) that group's name in the chart, and then the **Drilldown** icon.
-* To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude** icon.
+* To drill down and show a specific group in the chart, select one or more group's chart data to select (or bold) that group's name in the chart, and then select the **Drilldown** icon.
+* To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude groups** icon.
 * To revert either of these actions, select the **Undo** icon.
 
+  ![Chart tools](../images/wpa/use/drilldown.png)
+
    > [!Note]
-   > * The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude chart tools.
+   > * The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude groups chart tools.
    > * You can apply these drill down and exclude actions to all Explore charts with [Page settings](#chart-page-settings-and-filters).
 
 #### To switch between percentage and hours data
@@ -221,7 +223,7 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 
 1. Under **Page settings**, expand **Measured employees**.
 2. In the **Group by** menu, you can select the organizational attribute to use in all the charts.
-3. Next to **Filters**, select the edit (pencil) icon. This opens the **Edit page filters** area.  
+3. Next to **Filters**, select the **Edit** (pencil) icon. This opens the **Edit page filters** area.  
 4. Under **Edit page filters**, select **Add filter**.
 5. Add the filters you want.
 6. Select **Apply** (at the top) to apply these changes to all Explore charts.

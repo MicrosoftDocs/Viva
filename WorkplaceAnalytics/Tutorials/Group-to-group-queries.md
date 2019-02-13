@@ -3,10 +3,10 @@
 # required metadata
 
 title: Group-to-group queries in Workplace Analytics
-description: Group-to-group queries uncover how a team invested their time across the rest of the organization and beyond with Workplace Analytics.  
+description: Group-to-group queries show how a team invested their time across the rest of the organization and beyond with Workplace Analytics  
 author: madehmer
 ms.author: madehmer
-ms.date: 12/3/2018
+ms.date: 2/13/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -27,7 +27,7 @@ An understanding of time allocation helps you create better group queries. The d
 * A group query can analyze time allocation only for employees in the population of measured employees, namely those who are licensed for Workplace Analytics. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.
 * The time-allocation approach assumes that a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email.
 
-The following graphic depicts these concepts:
+The following graphic depicts these concepts.
 
  ![Principles of time allocation](../Images/WpA/Tutorials/principals-of-time-allocation.png)
 
@@ -38,7 +38,7 @@ The following graphic depicts these concepts:
 
 ## Create a group-to-group query
 
-While setting up a group query differs markedly from setting up meeting or person queries, some of the options you set, such as for time-period aggregation, time range, and meeting-exclusion rules, are the same as for meeting and person queries. To set up a group-to-group query, follow these steps:
+While setting up a group query differs markedly from setting up meeting or person queries, some of the options you set, such as for time-period aggregation, time range, and meeting-exclusion rules, are the same as for meeting and person queries. 
 
 **To create a group-to-group query**
 
