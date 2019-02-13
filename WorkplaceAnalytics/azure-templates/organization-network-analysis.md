@@ -16,13 +16,13 @@ ms.prod: wpa
 
 Workplace Analytics Azure Templates include the Organizational Network Analysis template that enables you to visualize connections within your organization, pinpoint collaboration patterns, and drive change.
 
-Workplace Analytics provides several metrics to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
+Workplace Analytics has several metrics to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
 
 ## To add new network analysis
 
 1. In Workplace Analytics Azure Templates, select **Organizational Network Analysis**.
 2. On the **Organizational Network Analysis** page, select **Add New Analysis** at top right in the table heading.
-3. For **Define Analysis Settings**, enter a name and select a path to the data set for the new network graph.
+3. For **Define Analysis Settings**, enter a name and select a path to the dataset for the new network graph.
 4. For **Specify Interaction Thresholds**, select the applicable thresholds for the following and then select **Next**:
 
    * **Max Duration Threshold of each interaction** - select the maximum number of hours for each interaction.
@@ -32,13 +32,13 @@ Workplace Analytics provides several metrics to help you visualize and analyze f
 
 5. Optionally, for **Exclude Meetings based on keywords**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis.
 6. Select **Run**.
-7. When the **Data Set Submitted** message appears, select **OK**.
+7. When the **Dataset Submitted** message appears, select **OK**.
 8. Your new analysis is listed in the table:
 
    * When the **Status** changes to a green check mark, you can render a graph with the steps in the next section.
    * If the analysis fails, you can select the information icon next to the status to view the job details and see what might've caused the failure.
    * Select a table column heading, such as Name or Submitted, to sort by it.
-   * Select the icon next to the name to view the data set parameters for that analysis.
+   * Select the icon next to the name to view the dataset parameters for that analysis.
    * Select the trash icon to delete the analysis from the list.
 
 ## To render a network analysis graph
