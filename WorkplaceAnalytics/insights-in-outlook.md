@@ -57,9 +57,7 @@ Admins might find the following questions and answers of interest:
 
 **Q2. What is the roll-out plan?**
 
-Beginning in late February, 2019, users will be assigned licenses. The add-in functionality will begin rolling out in late March, to give you time to manage your settings. We will update this post once we have confirmed a precise date by which you can start to manage your MyAnalytics licenses. 
-
-[Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management. 
+Beginning in late February, 2019, users will be assigned licenses. The add-in functionality will begin rolling out in late March, to give you time to manage your settings. We will update this post once we have confirmed a precise date by which you can start to manage your MyAnalytics licenses. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management. 
 
 **Q3. When will the Outlook add-in become available?**
 
