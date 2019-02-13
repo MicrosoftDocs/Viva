@@ -6,7 +6,7 @@ title: Charts in Workplace Analytics
 description: Describes the different chart types and how to use the chart features in Workplace Analytics. 
 author: paul9955
 ms.author: madehmer
-ms.date: 1/25/2019
+ms.date: 2/13/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
