@@ -118,7 +118,7 @@ After you change chart types, data for the same groups still appears and any sel
 
 #### Minimum-group alert
 
-When you sort groups by an attribute metric, an alert icon will appear in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
+When you sort groups by an attribute metric, an alert icon appears in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
 
 This functionality protects the privacy of members of groups whose size is below the minimum group size. If a small group was displayed after sorting by an attribute's metric, an analyst could infer the small group's value for that metric from its position adjacent to or between other groups, whose values are displayed. If you sort alphabetically, such an inference is not possible, so small groups are not hidden.
 
@@ -223,7 +223,7 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 
 1. Under **Page settings**, expand **Measured employees**.
 2. In the **Group by** menu, you can select the organizational attribute to use in all the charts.
-3. Next to **Filters**, select the edit (pencil) icon. This opens the **Edit page filters** area.  
+3. Next to **Filters**, select the **Edit** (pencil) icon. This opens the **Edit page filters** area.  
 4. Under **Edit page filters**, select **Add filter**.
 5. Add the filters you want.
 6. Select **Apply** (at the top) to apply these changes to all Explore charts.

@@ -5,8 +5,8 @@
 title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: paul9955
-ms.author: v-pascha
-ms.date: 11/16/2018
+ms.author: madehmer
+ms.date: 2/13/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -128,13 +128,13 @@ If validation succeeds, the Upload page will indicate it and show the size of th
  
 <img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
 
-You can select **Settings** > **Organizational data** to display the Data upload history page. You can then select **Succeeded** to see the workflows that were successfully validated (and uploaded). 
+You can select **Settings** > **Organizational data** **Upload** > **Organizational data** to show the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
 On this page, you have the following options:
 
- * Select the eye icon to see a summary of the validation results.
- * Select the hierarchy symbol to see the mapping settings for the workflow.
- * Select the download symbol to see a list of validation warnings.
+ * Select the **View** (eye) icon to see a summary of the validation results.
+ * Select the **Mapping** icon to see the mapping settings for the workflow.
+ * Select the **Validation** (download) icon to see a list of validation warnings.
 
 > [!Note]
 > Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the Upload page.

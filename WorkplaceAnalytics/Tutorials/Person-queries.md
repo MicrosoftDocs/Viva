@@ -126,17 +126,17 @@ You can create a person query to investigate if long meetings are a significant 
 5. In the **Meeting exclusions** menu, select the applicable exclusion rule set.
 6. For **Included employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email during the aggregated time period (date range) that you set for this query.
 7. In the **Filters** section, select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
-8. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Total meeting hours**.
-9. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the Edit icon and change the metric's name to **Long meeting hours**.
+8. To add a metric for total meeting hours, in the **Metrics** section, select **Add metric**, and then select **Meeting hours**. Choose the **Edit** icon and change the metric's name to **Total meeting hours**.
+9. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the **Edit** icon and change the metric's name to **Long meeting hours**.
 
    <ol type="a"> 
-   <li>To customize the Long meeting hours metric, select the Edit icon.</li>
+   <li>To customize the Long meeting hours metric, select the **Edit** icon.</li>
    <li>Choose <b>Add filter</b>.</li>
    <li>In the <b>Long meeting hours where</b> section, select <b>Meeting</b>, and then select <b>Duration­Hours</b> > greater than or equal to > <b>2</b>.</li>
    <li>Select <b>Confirm</b>.</li></ol>
 
-10. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the Edit icon and change the name to **Total number of meetings**.
-11. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the Edit icon and change the metric name to **Number of emails sent**.
+10. To add a metric for total number of meetings, select **Add metric**, and then select **Meetings**. Choose the **Edit** icon and change the name to **Total number of meetings**.
+11. To add a metric for sent email, select **Add metric**, and then select **Emails sent**. Choose the **Edit** icon and change the metric name to **Number of emails sent**.
 
     > [!NOTE]
     > * If no data exists for a person/date combination for a metric, the query results will not have a row for that person/date combination.

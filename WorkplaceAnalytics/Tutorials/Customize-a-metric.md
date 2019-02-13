@@ -6,7 +6,7 @@ title: Customize a base metric in a Workplace Analytics query
 description: How to customize and change a base metric in a Workplace Analytics query. 
 author: paul9955
 ms.author: madehmer
-ms.date: 12/3/2018
+ms.date: 2/13/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -70,7 +70,7 @@ To customize and then change a base metric:
 
 6. Customize the metric by following these steps:
 
-   a. Select the edit icon ![edit icon](../Images/WpA/Tutorials/edit-icon.png). This displays the option to apply filters to the base metric:
+   a. Select the **Edit** icon ![edit icon](../Images/WpA/Tutorials/edit-icon.png). This displays the option to apply filters to the base metric:
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-03.png)
 
