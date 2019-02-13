@@ -30,7 +30,13 @@ Microsoft does not currently offer trials of Workplace Analytics. For more infor
 
 ### Supported browsers
 
+<!-- removing:
 Workplace Analytics works with the latest or immediately previous versions of Microsoft Edge, Google Chrome, Apple Safari, Internet Explorer, and Mozilla Firefox.
+and replacing with the following: -->
+
+Safari, Firefox, and Internet Explorer are not preferred browsers for Workplace Analytics. Starting in June 2019, Internet Explorer will no longer be supported. 
+
+For the best experience, please use Edge or Chrome.
 
 <!-- REMOVING FOR NOW 
 ### FastTrack qualification
