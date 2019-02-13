@@ -57,11 +57,11 @@ Admins might find the following questions and answers of interest:
 
 **Q2. What is the roll-out plan?**
 
-Beginning February 12th, 2019, users will be assigned licenses. The add-in functionality will begin rolling out on March 12th, 2019, to give you time to manage your settings. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.    
+Beginning in late February, 2019, users will be assigned licenses. The add-in functionality will begin rolling out in late March, to give you time to manage your settings. We will update this post once we have confirmed a precise date by which you can start to manage your MyAnalytics licenses. [Learn more](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management. 
 
 **Q3. When will the Outlook add-in become available?**
 
-Starting on March 12, 2019. 
+Starting in late March, 2019.
 
 **Q4. Will users receive the welcome email and the MyAnalytics email digest?**
 
@@ -75,7 +75,6 @@ No.
 
 No. 
 
-**Q7. How can I turn this off for my users?**
+**Q7. How can I turn this off for my users?** 
 
-See [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
-
+To turn this new experience off for users, change their PrivacyMode setting to "Opt-out," as described in [Configure the user PrivacyMode setting](myanalytics/setup/mya-setup-checklist.md#step-1-configure-the-user-privacymode-setting). After you turn the feature off, users will still be able to see the **Insights** button in the Outlook toolbar and can opt in if they choose. To prevent users from seeing the **Insights** button, [remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
