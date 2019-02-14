@@ -6,7 +6,7 @@ title: Charts in Workplace Analytics
 description: Describes the different chart types and how to use the chart features in Workplace Analytics. 
 author: paul9955
 ms.author: madehmer
-ms.date: 2/13/2019
+ms.date: 2/14/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -75,13 +75,13 @@ In the display of a group whose size is smaller than the minimum, you can see th
 
 ### Use of filters
 
-To change or add filters to see different organizations or other organizational attributes, use the available filters for the charts. Filters are set in the **Page settings** area. See [Chart settings and filters](#chart-settings-and-filters).
+To change or add filters to see different organizations or other organizational attributes, use the available filters for the charts. Filters are set in the **Page settings** area. See [Page settings and filters](#page-settings-and-filters).
 
 ## Work with charts
 
 * [Chart tools](#chart-tools) enable you to change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
 
-* [Chart page settings and filters](#chart-page-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
+* [Page settings and filters](#page-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
 
 ### Chart tools
 
@@ -185,7 +185,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
    > [!Note]
    > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
 
-### Page and chart settings and filters
+### Page settings and filters
 
 Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Page settings** panel is not already open, open it by selecting **Settings and filters**:
 
