@@ -229,7 +229,7 @@ In the bubble graph, if the bubble for your organization is found at the top rig
 
 ## Page settings
 
- You can use **Page settings**, which is common to all sections of Explore, to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters. For more information, see [Chart page settings and filters](chart-types.md#chart-page-settings-and-filters).
+ You can use **Page settings**, which is common to all sections of Explore, to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters. For more information, see [Page settings and filters](chart-types.md#page-settings-and-filters).
 
 ![Page settings](../images/wpa/use/37-ext-collab-page-settings-home.png)
 
