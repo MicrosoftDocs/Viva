@@ -162,7 +162,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
    > [!Note]
    > * The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude groups chart tools.
-   > * You can apply these drill down and exclude actions to all Explore charts with [Page settings](#chart-page-settings-and-filters).
+   > * You can apply these drill down and exclude actions with [Chart settings](#chart-page-settings-and-filters).
 
 #### To switch between percentage and hours data
 
@@ -185,7 +185,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
    > [!Note]
    > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
 
-### Chart page settings and filters
+### Page and chart settings and filters
 
 Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Page settings** panel is not already open, open it by selecting **Settings and filters**:
 
@@ -201,11 +201,17 @@ After you change a setting or add a filter, select **Apply** at the upper-right 
 
 #### To save custom settings and applied filters for later use
 
-After you change one or more page settings or add one of more filters, you can select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save these chart settings or applied filters for later use.
+After you change one or more page settings, chart or add one of more filters, you can:
 
-The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
+* Select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save page settings or applied filters for later use.
 
 ![Save settings](../images/wpa/use/save-page-settings.png)
+
+* In the **Page settings** pane, select the **ellipsis** (**...**) next to **Chart settings** > **Apply to page settings** to save specific chart settings, such as with the drilldown or exclude chart tools.
+
+![Chart settings](../images/wpa/use/chart-settings.png)
+
+The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 
 #### To change the date range
 
@@ -216,6 +222,7 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 
 > [!Note]
 > The date range options encompass the most recent data that has been loaded and use the following logic:
+> 
 > * A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.
 > * For a week that starts in one month and ends in the following month, the data is associated with the month in which the week begins.
 
