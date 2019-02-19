@@ -31,9 +31,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights that you might see
 
-   * Open the MyAnalytics Outlook add-in by selecting the MyAnalytics (swirl) icon in the top ribbon of Outlook. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button.
-
-     After you launch the add-in, the insights cards are displayed in the right panel:
+![Bullet point](images/mya/overview/bullet-point-indented.png)Open the MyAnalytics Outlook add-in by selecting the MyAnalytics (swirl) icon in the top ribbon of Outlook. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message, next to the **Reply** button. After you launch the add-in, the insights cards are displayed in the right panel:
 
 ![Insights panel](images/mya/overview/cards-panel-17.png)
 
@@ -47,8 +45,8 @@ Admins might find the following questions and answers of interest:
 
 **Q1. Which plans will offer this experience?**
 
-   * [Microsoft 365 E5, E3, or Business](https://www.microsoft.com/microsoft-365)
-   * [Office 365 E5, E3, E1, Business Premium, or Business Essentials](https://products.office.com/business/office)
+![Bullet point](images/mya/overview/bullet-point-indented.png)[Microsoft 365 E5, E3, or Business](https://www.microsoft.com/microsoft-365)
+![Bullet point](images/mya/overview/bullet-point-indented.png)[Office 365 E5, E3, E1, Business Premium, or Business Essentials](https://products.office.com/business/office)
 
 > [!Note]
 > The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/workplace-analytics/myanalytics/index).
