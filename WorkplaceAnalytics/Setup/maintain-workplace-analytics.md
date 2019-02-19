@@ -5,8 +5,8 @@
 title: Workplace Analytics Maintenance
 description: Admin tasks for keeping Workplace Analytics and the data it uses up-to-date
 author: paul9955
-ms.author: v-pascha
-ms.date: 1/2/2019
+ms.author: madehmer
+ms.date: 2/19/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: Workplace Analytics
@@ -71,6 +71,13 @@ After you have installed Workplace Analytics and your organization is using it, 
  * **Frequency** - As needed. Create these rules to exclude meetings that might skew your data.
 
 [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md)
+
+## Audit Workplace Analytics activity
+
+ * **Task** - As an Exchange admin, you can monitor the Office 365 audit logs and track Workplace Analytics activity for all user actions.
+ * **Frequency** - As needed to ensure compliance with your organization's privacy and security policies.
+
+[Workplace Analytics audit logs](../setup/audit-logs.md)
 
 ## Related topics
 
