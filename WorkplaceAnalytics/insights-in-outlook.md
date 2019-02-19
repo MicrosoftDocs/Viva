@@ -45,8 +45,8 @@ Admins might find the following questions and answers of interest:
 
 **Q1. Which plans will offer this experience?**
 
-![Bullet point](images/mya/overview/bullet-point-indented.png)[Microsoft 365 E5, E3, or Business](https://www.microsoft.com/microsoft-365)
-![Bullet point](images/mya/overview/bullet-point-indented.png)[Office 365 E5, E3, E1, Business Premium, or Business Essentials](https://products.office.com/business/office)
+![Bullet point](images/mya/overview/bullet-point-indented.png)[Microsoft 365 E5, E3, or Business](https://www.microsoft.com/microsoft-365)<p>
+![Bullet point](images/mya/overview/bullet-point-indented.png)[Office 365 E5, E3, E1, Business Premium, or Business Essentials](https://products.office.com/business/office)<p>
 
 > [!Note]
 > The aforementioned plans will offer only the experience that is described in this article. Users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/workplace-analytics/myanalytics/index).
