@@ -54,7 +54,7 @@
         - name: Time zones for Workplace Analytics
           href: ~/Use/Timezones-for-Workplace-analytics.md
         - name: Workplace Analytics audit logs
-          href: ~/Privacy/audit-logs.md
+          href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
       href: ~/Overview/Get-started.md
       items:
