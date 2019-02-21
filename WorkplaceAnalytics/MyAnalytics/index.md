@@ -3,6 +3,7 @@ layout: HubPage
 title: MyAnalytics
 description: Learn more about, set up, and use MyAnalytics
 ms.date: 2/21/2019
+ms.topic: hub-page
 localization_priority: normal 
 ms.prod: mya
 ms.author: v-midehm
