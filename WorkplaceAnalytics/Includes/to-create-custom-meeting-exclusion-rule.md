@@ -6,7 +6,7 @@ title: To create a custom meeting-exclusion rule
 description: How to create a custom meeting-exclusion rule in Workplace Analytics 
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

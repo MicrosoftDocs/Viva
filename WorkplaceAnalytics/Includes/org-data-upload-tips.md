@@ -6,7 +6,7 @@ title: Tips for uploading org data
 description: Tips when uploading org data to MyAnalytics. 
 author: paul9955
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal
 ms.prod: mya

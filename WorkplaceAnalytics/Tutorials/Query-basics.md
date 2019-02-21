@@ -6,7 +6,7 @@ title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

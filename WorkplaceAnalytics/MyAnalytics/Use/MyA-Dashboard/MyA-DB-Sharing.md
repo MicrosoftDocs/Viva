@@ -6,7 +6,7 @@ title: Sharing data with MyAnalytics
 description: How to share your statistics with others that are using MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

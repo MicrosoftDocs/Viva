@@ -7,7 +7,7 @@ title: Workplace Analytics partner solution setup
 description: How to set up an on-premises Exchange server to work with Workplace Analytics. 
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

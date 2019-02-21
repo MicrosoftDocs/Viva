@@ -6,7 +6,7 @@ title: Workplace Analytics Videos
 description: Videos about how Workplace Analytics works
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa, mya

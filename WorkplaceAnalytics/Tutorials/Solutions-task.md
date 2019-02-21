@@ -6,7 +6,7 @@ title: Workplace Analytics Teamwork solution walkthrough
 description: A walkthrough of the steps required to create a program by using the Workplace Analytics Teamwork solution
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

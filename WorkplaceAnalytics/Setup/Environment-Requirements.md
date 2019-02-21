@@ -6,7 +6,7 @@ title: Environment and support aspects of Workplace Analytics
 description: Describes the system requirements for setting up and using Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

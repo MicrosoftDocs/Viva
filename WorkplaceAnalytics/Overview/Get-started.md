@@ -6,7 +6,7 @@ title: Workplace Analytics overview
 description: Gives a high-level overview of the main features and dashboards available in Workplace Analytics. 
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

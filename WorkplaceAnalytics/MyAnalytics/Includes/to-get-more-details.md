@@ -6,7 +6,7 @@ title: To get more details about to-do items in MyAnalytics
 description: How to get more details about to-do items in MyAnalytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

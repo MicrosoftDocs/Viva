@@ -6,7 +6,7 @@ title: MyAnalytics dashboard (Preview)
 description: Learn about what's included in your personal MyAnalytics dashboard 2019
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

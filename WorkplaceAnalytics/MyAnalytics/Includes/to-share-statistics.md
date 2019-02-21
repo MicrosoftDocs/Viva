@@ -6,7 +6,7 @@ title: To share your MyAnalytics statistics
 description: How to share your MyAnalytics statistics with others
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

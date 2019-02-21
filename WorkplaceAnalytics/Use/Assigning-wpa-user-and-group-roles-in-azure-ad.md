@@ -6,7 +6,7 @@ title: Assign Workplace Analytics user roles and groups in Azure Active Director
 description: How to assign Workplace Analytics roles and group permissions in Azure Active Directory (AAD)
 author: paul9955
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

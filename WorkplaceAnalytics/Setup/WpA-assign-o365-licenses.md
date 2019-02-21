@@ -6,7 +6,7 @@ title: Three ways to assign Office 365 licenses
 description: Links to instructions and to videos that describe how to assign licenses using the Office 365 Admin Center, PowerShell, and Group-based licensing. 
 author: paul9955
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

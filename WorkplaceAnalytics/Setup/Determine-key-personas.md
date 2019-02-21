@@ -6,7 +6,7 @@ title: Workplace Analytics Setup -- Determine key personas and roles for impleme
 description: Setup step to determine key personas and roles for implementation of Workplace Analytics. 
 author: paul9955
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

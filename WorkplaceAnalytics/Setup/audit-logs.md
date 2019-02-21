@@ -6,7 +6,7 @@ title: Audit logs for Workplace Analytics
 description: Learn how to monitor Workplace Analytics activity with audit logs
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

@@ -6,7 +6,7 @@ title: MyAnalytics plans and environments
 description: MyAnalytics environment requirements, including valid licensing choices
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/19/2019
+ms.date: 02/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

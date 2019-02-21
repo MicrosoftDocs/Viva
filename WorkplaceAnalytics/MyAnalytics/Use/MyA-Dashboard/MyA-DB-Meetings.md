@@ -6,7 +6,7 @@ title: Meeting hours in MyAnalytics
 description: How MyAnalytics uses meeting hours data for meeting behavior statistics. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

@@ -6,7 +6,7 @@ title: Opt out of MyAnalytics
 description: How to turn off or opt out of MyAnalytics 
 author: paul9955
 ms.author: madehmer
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

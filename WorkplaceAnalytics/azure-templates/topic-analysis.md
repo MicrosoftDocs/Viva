@@ -7,7 +7,7 @@ title: Topic Analysis Azure Template for Workplace Analytics
 description: Learn about the Topic Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

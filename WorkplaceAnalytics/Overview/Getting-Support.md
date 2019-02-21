@@ -6,7 +6,7 @@ title: Get support for Workplace Analytics
 description: What support options are available for help with Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa

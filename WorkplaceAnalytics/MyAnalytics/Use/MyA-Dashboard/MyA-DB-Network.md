@@ -6,7 +6,7 @@ title: Network in MyAnalytics
 description: How you spent your time with the people you interact with in meetings or in email shows in the Network section of MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

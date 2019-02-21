@@ -4,7 +4,7 @@ title: MyAnalytics introduction
 description: Brief introduction to MyAnalytics with links to further information 
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

@@ -6,7 +6,7 @@ title: Learning modules for MyAnalytics
 description: Learning modules on how to set up and use MyAnalytics data, including focus hours, meetings, email, and after hours data
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

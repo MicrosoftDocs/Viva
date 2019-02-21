@@ -7,7 +7,7 @@ title: Meetings for Workplace Analytics Data Export
 description: One row for each meeting and appointment
 author: madehmer
 ms.author: madehmer
-ms.date: 2/19/2019
+ms.date: 02/19/2019
 ms.topic: article
 localization_priority: normal
 ms.prod: wpa

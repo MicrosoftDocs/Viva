@@ -6,7 +6,7 @@ title: Workplace Analytics Teamwork solution concepts
 description: Concepts and definitions to help you better work with the Teamwork solution feature of Workplace Analytics. 
 author: paul9955
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa

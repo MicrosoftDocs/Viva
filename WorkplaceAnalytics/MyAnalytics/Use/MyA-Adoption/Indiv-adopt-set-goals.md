@@ -6,7 +6,7 @@ title: MyAnalytics Individual Adoption --Set goals
 description: MyAnalytics Individual Adoption by Kate Nowak --Set goals section
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya

@@ -6,7 +6,7 @@ title: Privacy by design
 description: How the Outlook add-in protects data privacy  
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

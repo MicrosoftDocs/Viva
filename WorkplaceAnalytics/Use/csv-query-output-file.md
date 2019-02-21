@@ -6,7 +6,7 @@ title: Csv file query output in Workplace Analytics
 description: Describes what .csv file query output is available from Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

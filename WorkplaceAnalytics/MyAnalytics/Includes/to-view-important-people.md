@@ -6,7 +6,7 @@ title: View your important people list in MyAnalytics
 description: How to view your list of Important people in MyAnalytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
