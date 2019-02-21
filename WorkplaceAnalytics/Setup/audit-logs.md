@@ -112,13 +112,14 @@ For more information about event properties, see [Detailed properties in the aud
 
 ## Use PowerShell to search the logs
 
-You can also use PowerShell to access the audit logs based on your login. To use the New-PSSession command, your account must have: 
-* An Exchange Online license assigned to it. 
-* Access to the audit log for the Office 365 tenant. 
+You can also use PowerShell to access the audit logs based on your login. To use the New-PSSession command, your account must have:
+
+* An Exchange Online license assigned to it.
+* Access to the audit log for the Office 365 tenant.
 
 The following example code uses the Search-UnifiedAuditLog command to get Workplace Analytics audit log entries.
 
-      ``` powershell
+      ```
 
        Set-ExecutionPolicy RemoteSigned
        $UserCredential = Get-Credential
