@@ -3,16 +3,19 @@
 # required metadata
 
 title: User roles in Workplace Analytics
-description: User roles in Workplace Analytics -- which roles perform which functions and have access to each page of Workplace Analytics
-author: paul9955
-ms.author: rodonahu
-ms.date: 05/02/2018
-ms.topic: get-started-article
+description: Which user roles in Workplace Analytics perform which functions and have access to which pages in Workplace Analytics
+author: madehmer
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
-# User roles in Workplace Analytics 
+# User roles in Workplace Analytics
 
 Users of Workplace Analytics require the proper level of access to areas of the product to be able to perform their required tasks. This topic describes the roles and responsibilities of users and the levels of access that each role requires.
 

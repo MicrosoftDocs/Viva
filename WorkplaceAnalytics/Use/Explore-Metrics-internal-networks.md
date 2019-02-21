@@ -4,10 +4,10 @@
 
 title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal network collaboration dashboards available in Workplace Analytics
-author: paul9955
-ms.author: madehmer
-ms.date: 1/25/2019
-ms.topic: get-started-article
+author: madehmer
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
@@ -24,7 +24,7 @@ To open the **Internal networks** page:
 2. In the left navigation pane, select **Analyze** and then select **Explore**.
 3. In **Explore**, select **Internal networks**.
 
-## Network size and network breadth 
+## Network size and network breadth
 
 **Network size and network breadth** help illustrate whether employees are connected to a variety of other people, or whether they work in a more insular way, siloed within their immediate work group. A person's network health is also a key indicator of engagement.
 

@@ -5,11 +5,12 @@
 title: Get support for Workplace Analytics
 description: What support options are available for help with Workplace Analytics
 author: madehmer
-ms.author: madehmer
-ms.date: 12/19/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa
+
 ---
 # Get support
 

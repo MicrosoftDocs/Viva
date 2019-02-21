@@ -6,8 +6,8 @@ title: How MyAnalytics uses after hours
 description: How MyAnalytics estimates the time you spend working after your work hours have ended
 author: paul9955
 ms.author: v-pascha
-ms.date: 01/16/2019
-ms.topic: get-started-article
+ms.date: 2/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
 ---

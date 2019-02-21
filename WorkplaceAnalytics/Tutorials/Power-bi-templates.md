@@ -5,9 +5,9 @@
 title: Power BI templates
 description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
 author: paul9955
-ms.author: madehmer
-ms.date: 12/8/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---

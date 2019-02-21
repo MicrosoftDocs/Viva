@@ -5,9 +5,9 @@
 title: To see MyAnalytics information about a specific email message
 description: How to see NyAnalytics information about a specific email message 
 author: paul9955
-ms.author: madehmer
-ms.date: 1/17/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

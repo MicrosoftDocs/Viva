@@ -2,12 +2,12 @@
 # Metadata Sample
 # required metadata
 
-title: Explore -- Introduction
-description: Describes the analytical dashboards included in the Workplace Analytics Explore page.
+title: Explore introduction
+description: Describes the analytical dashboards included in the Workplace Analytics Explore page
 author: madehmer
-ms.author: madehmer
-ms.date: 11/8/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
 ---

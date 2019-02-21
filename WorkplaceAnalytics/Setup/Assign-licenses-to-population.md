@@ -3,13 +3,16 @@
 # required metadata
 
 title: Assign licenses to Workplace Analytics users
-description: Set up Workplace Analytics licenses for population in scope for Analysis
+description: Assign Workplace Analytics licenses for population in scope for analysis
 author: madehmer
-ms.author: madehmer
-ms.date: 11/29/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Assign licenses

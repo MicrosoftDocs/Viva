@@ -5,9 +5,9 @@
 title: Add a person to your Important people list in MyAnalytics
 description: How to add a person to your Important people list in MyAnalytics 
 author: madehmer
-ms.author: madehmer
-ms.date: 1/17/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

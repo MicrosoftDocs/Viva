@@ -3,13 +3,16 @@
 # required metadata
 
 title: Prepare organizational data in Workplace Analytics
-description: How to prepare data from your organization to upload and use in Workplace Analytics. 
+description: How to prepare data from your organization to upload and use in Workplace Analytics 
 author: madehmer
-ms.author: madehmer
-ms.date: 11/15/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Prepare organizational data

@@ -5,11 +5,14 @@
 title: Workplace Analytics Setup -- Validate and verify data
 description: Setup step to validate and verify data for uploading to Workplace Analytics. 
 author: paul9955
-ms.author: v-leash
-ms.date: 04/19/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Validate and verify data
@@ -21,10 +24,12 @@ ms.prod: wpa
 After final provisioning is complete, Workplace Analytics admins and data analysts can use the Data sources section to verify that Office 365 and organizational data are loaded and ready for use.
 
 By using data source metrics, Workplace Analytics admins and data analysts can:
+
 * Verify that Office 365 data is available for analysis for the expected number of measured employees.
 * Work with the internal suppliers of organizational data (HR information system admins, LOB system admins, or data analysts) to verify that the necessary data has been loaded as expected.
 
 By using data source metrics, Workplace Analytics data analysts can:
+
 * Get a high-level picture of the data that is available for analysis.
 * Verify that the organizational data they need for their specific analysis is available.
 * Feel comfortable that the data is applicable to the business problem being analyzed.
@@ -34,4 +39,5 @@ By using data source metrics, Workplace Analytics data analysts can:
 * On the navigation bar, select **Sources**.
 
 ### Related topic
+
 [Data sources in Workplace Analytics](../Use/Data-sources.md)

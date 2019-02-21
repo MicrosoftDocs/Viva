@@ -6,8 +6,8 @@ title: MyAnalytics Team Adoption --Measure
 description: MyAnalytics Team Adoption by Kate Nowak --Measure section
 author: paul9955
 ms.author: v-pascha
-ms.date: 12/17/2018
-ms.topic: get-started-article
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

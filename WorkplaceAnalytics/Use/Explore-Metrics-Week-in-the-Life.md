@@ -3,11 +3,11 @@
 # required metadata
 
 title: Week in the life metrics in Workplace Analytics
-description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page.
-author: paul9955
-ms.author: madehmer
-ms.date: 1/25/2019
-ms.topic: get-started-article
+description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page
+author: madehmer
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---

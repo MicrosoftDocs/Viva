@@ -3,11 +3,11 @@
 # required metadata
 
 title: MyAnalytics email digest
-description: MyAnalytics users receive a weekly email digest that describes key highlights. 
+description: MyAnalytics users receive a weekly email digest that describes key highlights 
 author: paul9955
-ms.author: madehmer
-ms.date: 01/16/2019
-ms.topic: get-started-article
+ms.author: v-pascha
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

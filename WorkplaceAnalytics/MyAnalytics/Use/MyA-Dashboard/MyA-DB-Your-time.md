@@ -6,27 +6,27 @@ title: Your time in MyAnalytics
 description: Learn how you spent your time with your contacts with MyAnalytics. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/14/2018
-ms.topic: get-started-article
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
 # Your time
 
-Near the top of the MyAnalytics dashboard is the “Your time” area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your goals. 
+Near the top of the MyAnalytics dashboard is the “Your time” area. This area shows a concise overview of how you've spent your time this week and how this behavior compares with your goals.
 
 <img src="../../../Images/mya/use/Your-time-dashboard.png" alt="The Your time area of the MyAnalytics dashboard">
 
 ## The stats that you see
 
-This report shows summaries of the four main ways that MyAnalytics categorizes your time. For each category, you'll find more details further down on the page. 
+This report shows summaries of the four main ways that MyAnalytics categorizes your time. For each category, you'll find more details further down on the page.
 
-For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals. 
+For each category, MyAnalytics compares your actual number of hours with a time goal. You can change these weekly time goals.
 
 [!INCLUDE [Change your weekly goals](../../Includes/to-change-your-weekly-goals.md)]
 
-See [MyAnalytics Tips](../../Overview/Tips.md) for suggestions on how you can spend your time more efficiently. 
+See [MyAnalytics Tips](../../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
 
 ### Network section
 

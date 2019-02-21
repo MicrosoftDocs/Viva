@@ -5,9 +5,9 @@
 title: MyAnalytics Team Adoption --Plan
 description: MyAnalytics Team Adoption by Kate Nowak --Plan section
 author: paul9955
-ms.author: madehmer
-ms.date: 1/23/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
 ---

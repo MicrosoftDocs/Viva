@@ -5,11 +5,14 @@
 title: Workplace Analytics Setup -- Assign roles to admins, analysts, and PMs 
 description: How to assign roles in Workplace Analytics for admins, analysts, and program managers
 author: paul9955
-ms.author: madehmer
-ms.date: 11/16/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Assign Workplace Analytics roles

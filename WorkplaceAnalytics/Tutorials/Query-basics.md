@@ -3,11 +3,11 @@
 # required metadata
 
 title: Workplace Analytics query overview
-description: Workplace Analytics offers a number of flexible queries for custom data analysis.
+description: Workplace Analytics offers a number of flexible queries for custom data analysis
 author: madehmer
-ms.author: madehmer
-ms.date: 1/8/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---

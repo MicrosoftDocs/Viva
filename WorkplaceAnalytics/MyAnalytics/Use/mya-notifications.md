@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 title: MyAnalytics nudges in Outlook
-description: This articles describes MyAnalytics nudges in Outlook and how they work.
+description: Describes what MyAnalytics nudges are in Outlook and how they work
 author: paul9955
-ms.author: madehmer
-ms.date: 01/23/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

@@ -5,11 +5,14 @@
 title: MyAnalytics plans and environments
 description: MyAnalytics environment requirements, including valid licensing choices
 author: paul9955
-ms.author: madehmer
-ms.date: 2/20/2019
-ms.topic: get-started-article
+ms.author: v-pascha
+ms.date: 2/19/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Availability of features

@@ -2,16 +2,19 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Setup Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+title: Workplace Analytics privacy settings considerations
+description: Privacy considerations when using Workplace Analytics to analyze your organization's data
 author: madehmer
-ms.author: v-leash
-ms.date: 08/07/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
-# Privacy settings considerations for Workplace Analytics 
+# Privacy settings considerations for Workplace Analytics
 
 This article introduces various considerations for Workplace Analytics admins to explore while deciding on privacy settings.
 
@@ -56,7 +59,8 @@ You can see histogram charts in the following pages in Workplace Analytics:
 * For goal setting in Solutions
 * To track program success on the Track page in Solutions
 
-## Hash subject lines 
+## Hash subject lines
+
 You can help maintain employee privacy by hiding the subject lines of meetings and emails. There are privacy and data analysis trade-offs for each scenario. The following information can help you determine whether or not you want to hide subject lines in your queries.  
 
 When you select **Yes** for **Hash subject lines**, the subject lines are changed to hashed values (a system-generated number), so the text in subject lines will not be readable in any queries.
@@ -64,11 +68,13 @@ When you select **Yes** for **Hash subject lines**, the subject lines are change
 If you choose to hash subject lines, you can still create queries based keywords in the subject lines. However, you are not able to see a list of meetings that show the subject lines.
 
 #### Example: Hashed subject lines
+
 With **Hash subject lines** turned on, you can run a meeting query with the subject-line keyword “All-hands,” and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. 
 
 However, you could not get a specific list (one line item for each meeting) of all the meetings with the subject line “All-hands.”
 
-## Exclude calendar and email terms from analysis 
+## Exclude calendar and email terms from analysis
+
 You can help maintain employee privacy and focus your analysis by excluding certain terms from analysis. Since any items you exclude will not be included in the analysis, it is important to carefully consider and balance your privacy and data analysis goals. It could adversely skew your analysis if you exclude domains, email addresses, or subject terms that frequently appear within the collaboration data set.
 
 The following information can help you determine what privacy settings best match your company’s policies and objectives.

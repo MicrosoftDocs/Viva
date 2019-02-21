@@ -3,11 +3,11 @@
 # required metadata
 
 title: Analyze data with Workplace Analytics
-description: Describes what data analysis tools are available from Analyze in Workplace Analytics, including the Explore dashboards and Queries page. 
+description: Describes what data analysis tools are available from Analyze in Workplace Analytics, including the Explore dashboards and Queries page 
 author: madehmer
-ms.author: madehmer
-ms.date: 11/16/2018
-ms.topic: analyze-intro
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---

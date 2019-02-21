@@ -6,8 +6,8 @@ title: Focus hours in MyAnalytics
 description: How MyAnalytics calculates your focus hours. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/14/2018
-ms.topic: get-started-article
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
@@ -16,12 +16,14 @@ ms.prod: mya
 
 ### How we calculate focus hours
 
-Focus hours consist of at least two consecutive hours in your calendar without a meeting. Focus time consists of any combination of the following, as long as the time is consecutive and adds up to two hours or more: 
+Focus hours consist of at least two consecutive hours in your calendar without a meeting. Focus time consists of any combination of the following, as long as the time is consecutive and adds up to two hours or more:
+
 * Unscheduled time
 * Appointments
 * Meetings that are scheduled only with yourself
 
-The following time does not count toward your focus time: 
+The following time does not count toward your focus time:
+
 * Time outside your set work hours
 * Time marked as Out-of-Office
 

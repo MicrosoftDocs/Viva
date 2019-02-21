@@ -3,11 +3,11 @@
 # required metadata
 
 title: Workplace Analytics Teamwork solution participants
-description: A brief description of what participants in a Workplace Analytics program (MyAnalytics users) experience during the program. 
+description: A brief description of what participants in a Workplace Analytics program (MyAnalytics users) experience during the program
 author: paul9955
-ms.author: madehmer
-ms.date: 1/23/2019
-ms.topic: get-started-article
+ms.author: v-pascha
+ms.date: 2/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
 ---

@@ -6,11 +6,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Organizational Network Analysis Azure Template for Workplace Analytics 
 description: Learn about the Organizational Network Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
-ms.author: madehmer
-ms.date: 2/11/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 # Organizational Network Analysis Azure Template for Workplace Analytics
 

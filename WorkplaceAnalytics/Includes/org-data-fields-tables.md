@@ -6,10 +6,10 @@ title: Descriptions of the custom fields table and columns in all of the fields 
 description: Information to help you map fields by using the fields tables.   
 author: paul9955
 ms.author: v-pascha
-ms.date: 11/05/2018
-ms.topic: get-started-article
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: wpa
 ---
 
 ### Custom fields table

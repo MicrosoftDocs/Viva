@@ -6,8 +6,8 @@ title: Meeting exclusion rules in Workplace Analytics
 description: Meeting exclusion rules -- Introduction and walkthrough   
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/13/2019
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
@@ -15,6 +15,7 @@ ms.prod: wpa
 # Meeting exclusion rules: Walkthroughs
 
 You can work with meeting exclusion rules in the following ways:
+
  * [View meeting exclusion rules](#view-meeting-exclusion-rules): Get acquainted with the default rule and with the rules that you or others have published.
  * [Create a meeting exclusion rule](#create-a-meeting-exclusion-rule): Define up to five individual meeting exclusions and then publish them together as one meeting exclusion rule.
  * [Select a rule for use](#select-a-rule-for-use): Select a rule to apply to data in the **Explore** page or when creating **Queries** in Workplace Analytics.

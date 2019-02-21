@@ -3,13 +3,16 @@
 # required metadata
 
 title: Workplace Analytics privacy and data access
-description: Discusses the privacy and data access controls available in Workplace Analytics.  
+description: Discusses the privacy and data access controls available in Workplace Analytics  
 author: madehmer
-ms.author: madehmer
-ms.date: 1/2/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 # Workplace Analytics privacy and data access
 

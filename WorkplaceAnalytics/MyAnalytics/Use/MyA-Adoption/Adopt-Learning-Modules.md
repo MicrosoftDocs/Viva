@@ -3,11 +3,11 @@
 # required metadata
 
 title: Learning modules for MyAnalytics
-description: Learning modules on how to set up and use MyAnalytics data, including focus hours, meetings, email, and after hours data. 
+description: Learning modules on how to set up and use MyAnalytics data, including focus hours, meetings, email, and after hours data
 author: madehmer
-ms.author: v-pascha
-ms.date: 06/25/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

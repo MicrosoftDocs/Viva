@@ -3,11 +3,11 @@
 # required metadata
 
 title: Email read statistics in MyAnalytics
-description: See what proportion of recipients opened email from you in MyAnalytics.
+description: See what proportion of recipients opened email from you in MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/19/2018
-ms.topic: get-started-article
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
@@ -20,20 +20,24 @@ MyAnalytics can tell you how many people have opened your emails and how long th
 
 After you send an email message, it takes up to fifteen minutes before MyAnalytics can inform you about it. MyAnalytics groups similar information into a single summary card that you can select and expand to see a more detailed view.
 
-### Reporting details 
-MyAnalytics does not display read information about every email that you send. Please note the following circumstances: 
+### Reporting details
 
-#### Requirement: qualifying messages 
+MyAnalytics does not display read information about every email that you send. Please note the following circumstances.
+
+#### Requirement: qualifying messages
+
 Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has not opted out of MyAnalytics.
 
-#### Other exceptions 
+#### Other exceptions
+
 MyAnalytics does not report about email messages in the following categories: 
  * email that was sent from a shared mailbox
  * email that was sent to a mailbox that was configured for email forwarding. (Recipients of forwarded email are not included in the count of qualifying recipients.)
  * email in which the individual recipient count on each of the To: and Cc: lines is less than 5 AND the Bcc: individual recipient count is also less than 5.
 
 #### Bcc: precision
-When you send email that has recipients on the Bcc: line, the precision of the email-read statistics is lowered. 
+
+When you send email that has recipients on the Bcc: line, the precision of the email-read statistics is lowered.
 
 #### Read activity
 

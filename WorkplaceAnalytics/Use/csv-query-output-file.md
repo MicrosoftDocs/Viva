@@ -3,13 +3,14 @@
 # required metadata
 
 title: Csv file query output in Workplace Analytics
-description: An article that helps to understand the meaning of the .csv file query output columns available from Workplace Analytics.
-author: buntus
-ms.author: madehmer
-ms.date: 12/3/2018
-ms.topic: get-started-article
+description: Describes what .csv file query output is available from Workplace Analytics
+author: madehmer
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+
 ---
 
 # Understand and interpret query output

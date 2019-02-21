@@ -5,11 +5,14 @@
 title: Workplace Analytics Maintenance
 description: Admin tasks for keeping Workplace Analytics and the data it uses up-to-date
 author: paul9955
-ms.author: madehmer
-ms.date: 2/19/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 2/21/2019
+ms.topic: article
 localization_priority: normal 
-ms.prod: Workplace Analytics
+ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Maintain Workplace Analytics
