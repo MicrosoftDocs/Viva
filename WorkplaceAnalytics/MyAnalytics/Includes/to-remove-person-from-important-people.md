@@ -14,7 +14,7 @@ ms.prod: mya
 
 **To remove a person from your Important people list**
 
-1. In a web browser, open [myanalytics.microsoft.com](myanalytics.microsoft.com).
+1. In a web browser, open [myanalytics.microsoft.com](https://myanalytics.microsoft.com).
 
    Or In Outlook, select the **MyAnalytics** icon on the top ribbon and then select the dashboard icon at the top of the MyAnalytics pane.
 
