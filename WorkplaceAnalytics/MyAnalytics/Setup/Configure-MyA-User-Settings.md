@@ -45,7 +45,7 @@ PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the cur
 > [!Note]  
 > After you grant a MyAnalytics license to a user, they have access to the Outlook add-in, regardless of the value that you've assigned to  PrivacyMode. For example, even after you opt-out a licensed user by setting PrivacyMode to **Excluded**, the following holds true:   
 > * The user retains access to the Outlook add-in. 
-> * MyAnalytics is not uninstalled, but the user loses access to the other surfaces of MyAnalytics (such as the dashboard).
+> * MyAnalytics is not uninstalled. 
 > * They can still choose to opt back in to MyAnalytics.  
 
 #### Get settings 
