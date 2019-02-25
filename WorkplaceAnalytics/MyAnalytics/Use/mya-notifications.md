@@ -98,4 +98,3 @@ MyAnalytics nudges can help you in various ways:
 | Where it shows up  | What it says | How it helps |
 |------|-------|---------|
 |Meeting compose | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes. |
-|Email compose | Is this email important? MyAnalytics can show you how many people read it. **Track email** | Lets you mark an email that you are sending as important so that you can easily find the read statistics in the Outlook add-in. |
