@@ -6,7 +6,7 @@ title: Charts in Workplace Analytics
 description: Describes the different chart types and how to use the chart features in Workplace Analytics. 
 author: paul9955
 ms.author: madehmer
-ms.date: 1/25/2019
+ms.date: 2/14/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -75,13 +75,13 @@ In the display of a group whose size is smaller than the minimum, you can see th
 
 ### Use of filters
 
-To change or add filters to see different organizations or other organizational attributes, use the available filters for the charts. Filters are set in the **Page settings** area. See [Chart settings and filters](#chart-settings-and-filters).
+To change or add filters to see different organizations or other organizational attributes, use the available filters for the charts. Filters are set in the **Page settings** area. See [Page settings and filters](#page-settings-and-filters).
 
 ## Work with charts
 
 * [Chart tools](#chart-tools) enable you to change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
 
-* [Chart page settings and filters](#chart-page-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
+* [Page settings and filters](#page-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
 
 ### Chart tools
 
@@ -118,7 +118,7 @@ After you change chart types, data for the same groups still appears and any sel
 
 #### Minimum-group alert
 
-When you sort groups by an attribute metric, an alert icon will appear in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
+When you sort groups by an attribute metric, an alert icon appears in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
 
 This functionality protects the privacy of members of groups whose size is below the minimum group size. If a small group was displayed after sorting by an attribute's metric, an analyst could infer the small group's value for that metric from its position adjacent to or between other groups, whose values are displayed. If you sort alphabetically, such an inference is not possible, so small groups are not hidden.
 
@@ -154,13 +154,15 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
 #### To drill down or exclude a group
 
-* To drill down and show a specific group in the chart, select one or more group's chart data to select (or bold) that group's name in the chart, and then the **Drilldown** icon.
-* To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude** icon.
+* To drill down and show a specific group in the chart, select one or more group's chart data to select (or bold) that group's name in the chart, and then select the **Drilldown** icon.
+* To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude groups** icon.
 * To revert either of these actions, select the **Undo** icon.
 
+  ![Chart tools](../images/wpa/use/drilldown.png)
+
    > [!Note]
-   > * The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude chart tools.
-   > * You can apply these drill down and exclude actions to all Explore charts with [Page settings](#chart-page-settings-and-filters).
+   > * The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude groups chart tools.
+   > * You can apply these drill down and exclude actions with [Chart settings](#chart-page-settings-and-filters).
 
 #### To switch between percentage and hours data
 
@@ -183,7 +185,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
    > [!Note]
    > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
 
-### Chart page settings and filters
+### Page settings and filters
 
 Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Page settings** panel is not already open, open it by selecting **Settings and filters**:
 
@@ -199,11 +201,17 @@ After you change a setting or add a filter, select **Apply** at the upper-right 
 
 #### To save custom settings and applied filters for later use
 
-After you change one or more page settings or add one of more filters, you can select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save these chart settings or applied filters for later use.
+After you change one or more page settings, chart or add one of more filters, you can:
 
-The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
+* Select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save page settings or applied filters for later use.
 
 ![Save settings](../images/wpa/use/save-page-settings.png)
+
+* In the **Page settings** pane, select the **ellipsis** (**...**) next to **Chart settings** > **Apply to page settings** to save specific chart settings, such as with the drilldown or exclude chart tools.
+
+![Chart settings](../images/wpa/use/chart-settings.png)
+
+The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 
 #### To change the date range
 
@@ -214,6 +222,7 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 
 > [!Note]
 > The date range options encompass the most recent data that has been loaded and use the following logic:
+> 
 > * A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.
 > * For a week that starts in one month and ends in the following month, the data is associated with the month in which the week begins.
 
@@ -221,7 +230,7 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 
 1. Under **Page settings**, expand **Measured employees**.
 2. In the **Group by** menu, you can select the organizational attribute to use in all the charts.
-3. Next to **Filters**, select the edit (pencil) icon. This opens the **Edit page filters** area.  
+3. Next to **Filters**, select the **Edit** (pencil) icon. This opens the **Edit page filters** area.  
 4. Under **Edit page filters**, select **Add filter**.
 5. Add the filters you want.
 6. Select **Apply** (at the top) to apply these changes to all Explore charts.

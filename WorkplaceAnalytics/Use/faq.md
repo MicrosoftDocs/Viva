@@ -187,7 +187,7 @@ A4. Workplace Analytics processes email and meetings data for a distribution lis
 
 ##### Q1. How do I change the meeting exclusion rule sets used on the Explore dashboards?
 
-A1. To change the meeting exclusion rule for use on the Explore dashboards, see [Use rules in the Explore dashboards](../tutorials/meeting-exclusion-rules.md#use-rules-in-the-explore-dashboards).
+A1. To change the meeting exclusion rule for use on the Explore dashboards, see [Use rules in the Explore dashboards](../tutorials/meeting-exclusion-rules.md#select-which-rule-to-use).
 
 ##### Q2. Why do I have fewer “filtered employees” than “measured employees” with no filters applied?
 

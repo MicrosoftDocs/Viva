@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: To view your list of important people in MyAnalytics
-description: How to view your list of Important people in MyAnalytics. 
-author: paul9955
-ms.author: v-pascha
-ms.date: 02/26/2018
+title: View your important people list in MyAnalytics
+description: How to view your list of Important people in MyAnalytics 
+author: madehmer
+ms.author: madehmer
+ms.date: 2/13/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -14,5 +14,7 @@ ms.prod: mya
 
 **To view your Important people list**
 
-1. In Microsoft Delve, open your MyAnalytics dashboard.  
-2. Under Network, in the Your time investments area, select **Important**. The Your time investments area shows the people in your Important people list. 
+1. In a web browser, go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your MyAnalytics dashboard.
+2. Select **Explore**.
+3. In the **Your Network** > **Important collaborators** section, select **Show all**.
+4. In the **Top Collaborators** section, select **Important**.

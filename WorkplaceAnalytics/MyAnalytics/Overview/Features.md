@@ -3,7 +3,7 @@
 # required metadata
 
 title: MyAnalytics features
-description: An overview of MyAnalytics, including the Outlook add-in, the dashboard, and the weekly email report. 
+description: An overview of MyAnalytics, including the Outlook add-in, the dashboard, and the weekly email report 
 author: rodonahu
 ms.author: paul9955
 ms.date: 12/17/2018
