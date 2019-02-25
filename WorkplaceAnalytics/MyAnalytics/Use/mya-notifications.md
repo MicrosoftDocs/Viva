@@ -92,7 +92,7 @@ MyAnalytics nudges can help you in various ways:
 |------|-------|---------|
 |Email compose | Your colleagues have been responding to your mails outside typical working hours. Consider **clarifying urgency** |Suggests that you clarify the degree of urgency when emailing colleagues outside work hours. |
 |Email compose | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
-|Meeting compose | This meeting is outside typical working hours for attendees. **See next available times** | Suggests nearby meeting times within working hours for all meeting attendees. |
+|Meeting compose | This meeting is outside typical working hours for attendees. **See times** | Suggests nearby meeting times within working hours for all meeting attendees. |
 
 ### Build better collaboration habits 
 | Where it shows up  | What it says | How it helps |
