@@ -54,7 +54,7 @@ Each role has access to specific pages of Workplace Analytics as described here:
 | **Analyze** | 
 | | **Explore:** View a series of dashboards that provide insights into the way your organization collaborates | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |<img src="../Images/WpA/check-mark.png"> |
 | | **Queries:** Perform deeper exploration of the data through custom querying tools | | <img src="../Images/WpA/check-mark.png"> | | |
-| **Solutions** | Create programs to help participants improve workplace behaviors. | | <img src="../Images/WpA/check-mark.png"> | | <img src="../Images/WpA/check-mark.png"> |
+| **Solutions** | Create programs to help participants improve workplace behaviors. | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
 | **Settings** | 
 | | **Sources:** Help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
 | | **Upload:** Upload an organizational data file to Workplace Analytics | <img src="../Images/WpA/check-mark.png"> | | | |
