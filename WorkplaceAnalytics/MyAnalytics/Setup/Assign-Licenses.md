@@ -6,7 +6,7 @@ title: Assign MyAnalytics licenses to users
 description: Assign licenses for MyAnalytics
 author: paul9955
 ms.author: madehmer
-ms.date: 02/07/2019
+ms.date: 02/26/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
