@@ -23,6 +23,10 @@ Users of Workplace Analytics require the proper level of access to areas of the 
 
 These are the Workplace Analytics roles and their level of access:
 
+[!INCLUDE [Roles](../includes/wpa-roles.md)]
+
+<!-- Use the include file to replace the following. 25 Feb 19: 
+
  * **Analyst:** Has full access to all service features, except Administration. This role is used for the analyst who requires the most complete access to data.
 
  * **Analyst (Limited Access):** Has access to the Home page and to the explore-metrics features. This role is used for the analyst who only needs access to insights generated from our curated set of Explore-the-metrics dashboards.
@@ -31,9 +35,10 @@ These are the Workplace Analytics roles and their level of access:
 
  * **Program manager:** Has access to the Home and Explore pages, the Solutions page and its Manage page, where the Program Manager can set up programs. On the Manage page, the Program Manager also has access to its Track page, to track the progress of active or ended programs.
 
->[!Note]
->User roles are each distinct in their assigned responsibilities and access permissions. Each user role only gives access to actions, pages, dashboards, and data that correspond to that role. Roles are assigned independently, are non-cumulative, and do not roll up.
+-->
 
+>[!Note]
+>User roles are each distinct in their assigned responsibilities and access permissions. Each user role only gives access to actions, pages, dashboards, and data that correspond to that role. Roles are assigned independently, are non-cumulative, and do not roll up. 
 
 ## Details by user role
 
@@ -45,14 +50,16 @@ Each role has access to specific pages of Workplace Analytics as described here:
 
 |  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| **Home** | View highlights from the latest data; optionally explore metrics of team behavior | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
+| **Home** | View highlights from the latest data; see the latest notifications | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
 | **Analyze** | 
 | | **Explore:** View a series of dashboards that provide insights into the way your organization collaborates | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |<img src="../Images/WpA/check-mark.png"> |
 | | **Queries:** Perform deeper exploration of the data through custom querying tools | | <img src="../Images/WpA/check-mark.png"> | | |
-| **Sources** | Help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | | |
-| **Queries** | Perform deeper exploration of the data through custom querying tools | | <img src="../Images/WpA/check-mark.png"> | | |
-| **Solutions** | Create programs to help participants improve workplace behaviors. | | <img src="../Images/WpA/check-mark.png"> | |  <img src="../Images/WpA/check-mark.png"> |
-| **Settings** | Make settings such as: <ol><li>System defaults</li><li>Privacy settings</li><li>Upload organizational data</li></ol> | <img src="../Images/WpA/check-mark.png"> | | | |
+| **Solutions** | Create programs to help participants improve workplace behaviors. | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
+| **Settings** | 
+| | **Sources:** Help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
+| | **Upload:** Upload an organizational data file to Workplace Analytics | <img src="../Images/WpA/check-mark.png"> | | | |
+| | **Analysis settings:** Exclude meetings from analysis that would otherwise skew your results. The _Analyst (Limited access)_ role has read-only access to this page.| | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
+| | **Admin settings:** Configure system defaults and privacy settings | <img src="../Images/WpA/check-mark.png"> | | | |
 
 ### Functions performed
 
