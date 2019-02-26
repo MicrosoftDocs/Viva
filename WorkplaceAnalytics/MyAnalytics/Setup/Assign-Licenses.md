@@ -21,7 +21,7 @@ After you assign a user license, the new MyAnalytics participant will gain acces
 
 <!-- Updated for Anu and Sourabh 7 Feb 2019: -->
 
-1. **Welcome email is sent.** Up to four weeks after you assign licenses, your users will receive a welcome email from MyAnalytics. They do not receive this welcome email outside of their work week. If the third day after license assignment is a Saturday (which for most users is outside the work week), the welcome email arrives on the following Monday. For more information, see [Welcome email](../Setup/MyA-Welcome-email.md).
+1. **Welcome email is sent.** Up to four weeks after you assign licenses, your users will receive a welcome email from MyAnalytics. They do not receive this welcome email outside of their work week. (For example, if necessary, its arrival time is delayed to the following Monday to keep it from arriving on a weekend.) For more information, see [Welcome email](../Setup/MyA-Welcome-email.md).
 &nbsp;
 
 <!-- Updated for Anu and Sourabh 7 Feb 2019. REGARDING CURRENT DISTRIBUTINS, VERIFY THE FOLLOWING: -->
