@@ -3,8 +3,8 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Data Export
-description: Learn about Workplace Analytics Data Export and how to set up and use it
+title: Workplace Analytics Data export
+description: Learn about Workplace Analytics Data export and how to set up and use it
 author: madehmer
 ms.author: v-midehm
 ms.date: 02/27/2019
@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: wpa
 ---
 
-# Workplace Analytics Data Export
+# Workplace Analytics Data export
 
 Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond Workplace Analytics metrics and queries. This custom data exploration might include combining Workplace Analytics data with data outside of Workplace Analytics.
 
