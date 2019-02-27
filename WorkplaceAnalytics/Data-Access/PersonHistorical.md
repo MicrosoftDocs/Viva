@@ -3,18 +3,18 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Historical person metrics for Workplace Analytics Data Export
-description: One row for each person for each HR change
-author: gbowerman
-ms.author: madehmer
-ms.date: 12/20/2018
-ms.topic: language-reference
+title: Historical person metrics for Workplace Analytics Data Access
+description: One row for each person and for each HR change
+author: madehmer
+ms.author: v-midehm
+ms.date: 02/27/2019
+ms.topic: article
 ms.prod: wpa
 ---
 
 # PersonHistorical (.csv)
 
-This file includes one row for each person for each HR change with the following metrics. A new row is created when a person's HR attributes change.
+This file includes one row for each person that has HR changes and for each HR change with the following metrics. A new row is created when a person's HR attributes change.
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
@@ -25,9 +25,9 @@ This file includes one row for each person for each HR change with the following
 |**PopulationType**|**string**|Type of employee. See [PopulationType](#populationtype).|
 |**IsInternal**|**boolean**|True if PopulationType is either MeasuredEmployee or InternalCollaborator.|
 |**ManagerId**|**string**|Unique value for each person's manager.|
-|**HR Attribute 1**||HR values that have been added to the data set. See [HR Attributes](#hr-attributes).|
+|**HR Attribute 1**|varies |HR values that have been added to the dataset. See [HR Attributes](#hr-attributes).|
 |   ...   |||
-|**HR Attribute n**||HR values that have been added to the data set. See [HR Attributes](#hr-attributes).|
+|**HR Attribute n**|varies |HR values that have been added to the dataset. See [HR Attributes](#hr-attributes).|
 |**ExternalCollaboratorId**|**string**|Email address if PopulationType is ExternalCollaborator and the tenant is configured to include external email IDs in the report.|
 
 ## PopulationType
