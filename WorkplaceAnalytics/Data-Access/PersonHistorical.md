@@ -25,9 +25,9 @@ This file includes one row for each person that has HR changes and for each HR c
 |**PopulationType**|**string**|Type of employee. See [PopulationType](#populationtype).|
 |**IsInternal**|**boolean**|True if PopulationType is either MeasuredEmployee or InternalCollaborator.|
 |**ManagerId**|**string**|Unique value for each person's manager.|
-|**HR Attribute 1**|varies |HR values that have been added to the dataset. See [HR Attributes](#hr-attributes).|
+|**HR Attribute 1**|varies |HR values that have been added to the dataset. See [HR attributes](#hr-attributes).|
 |   ...   |||
-|**HR Attribute n**|varies |HR values that have been added to the dataset. See [HR Attributes](#hr-attributes).|
+|**HR Attribute n**|varies |HR values that have been added to the dataset. See [HR attributes](#hr-attributes).|
 |**ExternalCollaboratorId**|**string**|Email address if PopulationType is ExternalCollaborator and the tenant is configured to include external email IDs in the report.|
 
 ## PopulationType
