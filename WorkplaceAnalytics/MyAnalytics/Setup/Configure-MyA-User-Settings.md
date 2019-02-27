@@ -40,13 +40,8 @@ Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD).   |   -
-PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboards.</li><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
-
-> [!Note]  
-> After you grant a MyAnalytics license to a user, they have access to the Outlook add-in, regardless of the value that you've assigned to  PrivacyMode. For example, even after you opt-out a licensed user by setting PrivacyMode to **Excluded**, the following holds true:   
-> * The user retains access to the Outlook add-in. 
-> * MyAnalytics is not uninstalled. 
-
+PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboard and Outlook add-in.</li><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
+  
 #### Get settings 
 Get MyAnalytics settings for a user with the following cmdlet:
 
@@ -56,4 +51,7 @@ Get-UserAnalyticsConfig –Identity <string>
 
 Parameter   |   Required   |    Description    |   Default value
 ----------- | ------------ |  ---------------  | ---------------
-Identity    |  Yes         |    User ID for the current user as stored in AAD  | -
+Identity    |  Yes         |    User ID for the current user as stored in AAD  | - 
+
+
+<!--REMOVED FOR NOW PER MATHEW: After you grant a MyAnalytics license to a user, they have access to the Outlook add-in, regardless of the value that you've assigned to  PrivacyMode. For example, even after you opt-out a licensed user by setting PrivacyMode to **Excluded**, MyAnalytics is not uninstalled and the user retains access to the Outlook add-in.--> 
