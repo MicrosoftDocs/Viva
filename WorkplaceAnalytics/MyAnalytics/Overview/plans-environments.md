@@ -22,6 +22,9 @@ The following table lists which user experiences are available to the users of t
 |<li>Microsoft 365 E5 <li>Office 365 Enterprise E5 <li>Office 365 A5 <li>Office 365 Nonprofit E5 <li>MyAnalytics add-on |<li>[Dashboard](../use/dashboard.md) <li>[Add-in](../use/add-in.md) <li>[Email digest](../use/email-digest.md) <li>[MyAnalytics nudges](../use/mya-notifications.md) |
 | | |
 
+> [!Note]
+> To provide a great experience for users and customers, we are rolling out the features of MyAnalytics gradually, with the ultimate goal of achieving feature parity among all plans. 
+
 For more information about obtaining a plan that offers these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
 
 > [!Note]
