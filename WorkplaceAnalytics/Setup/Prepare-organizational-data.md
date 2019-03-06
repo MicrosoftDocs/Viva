@@ -5,8 +5,8 @@
 title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics. 
 author: madehmer
-ms.author: madehmer
-ms.date: 11/15/2018
+ms.author: v-midehm
+ms.date: 03/05/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -61,13 +61,13 @@ If you can't include every person in your organization, the minimum to include i
 
 ### Line-of-business data
 
-Unlike HR data, for line-of-business data you might not need to include every person in your company as part of your data upload. Knowing the scenarios you want to analyze will help you to decide.
+Unlike HR data, for line-of-business data, you might not need every person's data in your company as part of the upload. Knowing the scenarios you want to analyze will help you to decide.
 
 For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the sales organization, because you will use the score values to group and filter specific report outputs.
 
 ## What to include in the upload
 
-To get full functionality from Workplace Analytics, you will need to supply several required attributes as described in the following Export data section. Additionally, you can supply up to 65 total attributes to group and filter data in interesting and custom ways.
+To get full functionality from Workplace Analytics, requires a few attributes as described in the following Export data section. Additionally, you can supply up to 65 total attributes to group and filter data in interesting and custom ways.
 
 The specific requirements for which organizational data attributes you want to provide will depend on the specific business scenarios that data analysts want to explore.
 You can use the following steps to help you think through all the relevant factors in determining what data to provide.
@@ -126,7 +126,7 @@ Some attributes may represent the same data and provide unnecessary redundant da
 
 ### Attributes that only exist for a population subset
 
-When choosing attributes to include, be aware of cases where some attribute values might be populated for one organization but not others. For example, if you bring in sales quota attainment data that only applies to your sales organizatio, you must be mindful that this data cannot be used for filtering and grouping employees outside of sales.
+When choosing attributes to include, be aware of cases where some attribute values might be populated for one organization but not others. For example, if the sales quota attainment data only applies to your sales organization, you must be mindful that this data cannot be used for filtering and grouping employees outside of sales.
 
 ### Dirty data
 
@@ -167,7 +167,7 @@ Although these attributes are not required, if included, they must meet the foll
 
 ### Attribute description and data coverage requirements
 
-Attribute (column header) | Description of data / data validity | Data coverage requirements
+Attribute (column header) | Description of data and data validity | Data coverage requirements
 ---------|----------|---------|
 PersonId |Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid PersonId. Each upload file can have only ONE record with the same PersonID / EffectiveDate pair. |
 EffectiveDate |Date for which the given attribute value applies for the employee. The attribute applies until another record for the same attribute with a different effective date is specified. | Each row must contain a valid EffectiveDate. Each upload file can have only one record with the same PersonID / EffectiveDate pair. |
@@ -176,7 +176,7 @@ ManagerId | Unique identifier for the employee’s manager. This data is needed 
 Organization| The internal organization the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or other naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
 FunctionType | The job function the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore-the-metrics features. | This attribute column is not required. If it is included, then each row must contain a function value.|
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), we recommend using the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
-HourlyRate | The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). Note: The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters such as a dollar sign. The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees. This is used in calculations and can be used to filter and group employees. Note that the Explore-the-metrics feature uses a fixed default HourlyRate of $75. When the default rate is changed, it applies retroactively to anyone without an effective hourly rate for the next scheduled (usually set monthly) refresh of your organizational (HR) data.| This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
+HourlyRate | The employee’s salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees’ salaries by 2080 to calculate their hourly rates in the upload (.csv) file before uploading it into Workplace Analytics.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Workplace Analytics uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Admin settings](../use/settings.md#admin-settings). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled (usually set monthly) refresh of your organizational (HR) data.|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 Layer | The place within the organizational hierarchy where the employee belongs. The layer is represented as an integer and expressed as distance from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in Explore the metrics features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
 SupervisorIndicator  | Use this attribute to view the habits of people managers in your organization in Power BI visualizations. It powers the Overview table as well as the Generated Workload charts that are generated when you use the Manager Impact [Power BI template](../tutorials/power-bi-templates.md). <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required only if you want to use the Manager impact dashboard in Power BI. |
 TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones in Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.|
