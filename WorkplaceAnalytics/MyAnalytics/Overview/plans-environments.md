@@ -6,7 +6,7 @@ title: MyAnalytics plans and environments
 description: MyAnalytics environment requirements, including valid licensing choices
 author: paul9955
 ms.author: madehmer
-ms.date: 2/20/2019
+ms.date: 03/05/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -27,8 +27,7 @@ The following table lists which user experiences are available to the users of t
 
 For more information about obtaining a plan that offers these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
 
-> [!Note]
-> Shared mailboxes cannot be licensed for and are not supported by MyAnalytics.
+
 
 # Support of environments
 
@@ -44,3 +43,9 @@ For more information about obtaining a plan that offers these user experiences, 
 * DoD
 * Office 365 Germany
 * Office 365 Operated by 21Vianet
+
+# Prerequisites and exclusions 
+
+ * **Required software:** [Microsoft Exchange Online](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)
+
+ * **Licensing exclusion:** Shared mailboxes cannot be licensed for and are not supported by MyAnalytics.
