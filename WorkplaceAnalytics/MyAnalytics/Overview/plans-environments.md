@@ -18,8 +18,8 @@ The following table lists which user experiences are available to the users of t
 
 | Plan | User experience available |
 | ----- | ----- |
-| <li>Microsoft 365 E3<li>Microsoft 365 Business <li>Office 365 E3 <li>Office 365 E1 <li>Business Premium <li>Business Essentials | <br>[Add-in](../use/add-in.md) (This feature will be rolled out beginning in mid-March, 2019. No welcome email will be sent to introduce this feature.) |
-|<li>Microsoft 365 E5 <li>Office 365 Enterprise E5 <li>Office 365 A5 <li>Office 365 Nonprofit E5 <li>MyAnalytics add-on | [Dashboard](../use/dashboard.md), [Add-in](../use/add-in.md), [Email digest](../use/email-digest.md), and [MyAnalytics nudges](../use/mya-notifications.md) |
+| <li>Microsoft 365 E3<li>Microsoft 365 Business <li>Office 365 E3 <li>Office 365 E1 <li>Business Premium <li>Business Essentials | <br> <br> <br>[Add-in](../use/add-in.md) (This feature will be rolled out beginning in mid-March, 2019. No welcome email will be sent to introduce this feature.) |
+|<li>Microsoft 365 E5 <li>Office 365 Enterprise E5 <li>Office 365 A5 <li>Office 365 Nonprofit E5 <li>MyAnalytics add-on | <br> <br> [Dashboard](../use/dashboard.md), [Add-in](../use/add-in.md), [Email digest](../use/email-digest.md), and [MyAnalytics nudges](../use/mya-notifications.md) |
 | | |
 
 > [!Note]
