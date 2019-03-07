@@ -4,9 +4,9 @@
 title: MyAnalytics nudges in Outlook
 description: Describes what MyAnalytics nudges are in Outlook and how they work
 author: paul9955
-ms.author: v-midehm
-ms.date: 02/21/2019
-ms.topic: article
+ms.author: v-pascha
+ms.date: 03/06/2019
+ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
 ---
@@ -80,18 +80,25 @@ MyAnalytics nudges can help you in various ways:
 
 | Where it shows up  | What it says | How it helps  |
 |------|-------|---------|
-|Reading pane (meeting invitation)|Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times**|Reminds the user (the meeting attendee) who has a heavy meeting load to book time for focused work|
+|Reading pane (meeting invitation)|Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times**|Reminds you (the meeting attendee who has a heavy meeting load) to book time for focused work|
 |Reading pane (meeting invitation)|This meeting conflicts with your scheduled focus time. Do you want to move your focus block? **See available times**|Helps you to protect your focus time block, by suggesting that you move a booked focus session to another time when a meeting request conflicts with it.|
 
 ### Stay up-to-date with important relationships
 
 | Where it shows up | What it says | How it helps |
 |------|-------|---------|
-| Reading pane (email) | You may have outstanding to-dos for sender. Would you like to review now? **See my to-dos** | Reminds the user that there may be outstanding to-do items for the sender |
+| Reading pane (email) | You may have outstanding to-dos for sender. Would you like to review now? **See my to-dos** | Reminds you that there might be outstanding to-do items for the sender. |
 
 
 ### Reduce after-hours work and team impact
 
 | Where it shows up  | What it says | How it helps |
 |------|-------|---------|
-|Email compose | Your colleagues have been responding to your mails outside typical working hours. Consider **clarifying urgency** |Suggests that the user clarify the degree of urgency when emailing colleagues outside work hours |
+|Email compose | Your colleagues have been responding to your mails outside typical working hours. Consider **clarifying urgency** |Suggests that you clarify the degree of urgency when emailing colleagues outside work hours. |
+|Email compose | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
+|Meeting compose | This meeting is outside typical working hours for attendees. **See times** | Suggests nearby meeting times within working hours for all meeting attendees. |
+
+### Build better collaboration habits 
+| Where it shows up  | What it says | How it helps |
+|------|-------|---------|
+|Meeting compose | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes. |
