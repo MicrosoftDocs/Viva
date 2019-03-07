@@ -3,11 +3,11 @@
 # required metadata
 
 title: Workplace Analytics Glossary
-description: This glossary defines concepts and other terms important for working with Workplace Analytics.
+description: This glossary defines concepts and other terms important for working with Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/15/2018
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: reference
 localization_priority: normal 
 ms.prod: wpa
 ---

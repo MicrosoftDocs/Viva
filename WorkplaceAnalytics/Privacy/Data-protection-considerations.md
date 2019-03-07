@@ -6,10 +6,13 @@ title: Data-protection considerations when using Workplace Analytics
 description: Data-protection considerations when using Workplace Analytics.
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/04/2018
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Data-protection considerations when using Workplace Analytics

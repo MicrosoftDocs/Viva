@@ -2,14 +2,17 @@
 # Metadata Sample
 # required metadata
 
-title: Time zones For Workplace Analytics
-description: This article introduces the time-zone formats required in Workplace Analytics.
+title: Time zones for Workplace Analytics
+description: This article introduces the time-zone formats required in Workplace Analytics
 author: madehmer
-ms.author: rodonahu
-ms.date: 06/15/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Time zones for Workplace Analytics

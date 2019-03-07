@@ -3,11 +3,11 @@
 # required metadata
 
 title: Use MyAnalytics to build good work habits
-description: Building good habits with MyAnalytics. 
+description: Building good habits with MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/29/2018
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
 ---

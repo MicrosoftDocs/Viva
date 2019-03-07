@@ -5,11 +5,14 @@
 title: Workplace Analytics setup
 description: How to set up and configure Workplace Analytics
 author: paul9955
-ms.author: paul9955
-ms.date: 1/2/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
-ms.prod: Workplace Analytics
+ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Set up Workplace Analytics

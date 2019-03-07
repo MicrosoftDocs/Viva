@@ -3,14 +3,13 @@
 # required metadata
 
 title: Learning collateral for MyAnalytics adoption
-description: Learning materials that help you understand how to best adopt and use MyAnalytics. 
+description: Learning materials that help you understand how to best adopt and use MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/06/2018
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
-localization_priority: Once
 ---
 
 # Adopt MyAnalytics

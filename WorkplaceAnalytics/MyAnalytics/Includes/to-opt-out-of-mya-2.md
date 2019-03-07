@@ -5,9 +5,9 @@
 title: To opt out of MyAnalytics (Preview)
 description: How to turn off the MyAnalytics (Preview)
 author: madehmer
-ms.author: madehmer
-ms.date: 2/13/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

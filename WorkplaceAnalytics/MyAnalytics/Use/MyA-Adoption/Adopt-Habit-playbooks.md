@@ -3,11 +3,11 @@
 # required metadata
 
 title: Habit Playbooks for MyAnalytics
-description: Habit Playbooks describe how to use MyAnalytics to build better work habits.
+description: Habit Playbooks describe how to use MyAnalytics to build better work habits
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/29/2018
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

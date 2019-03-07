@@ -3,14 +3,18 @@
 # required metadata
 
 title: Assign roles with PowerShell in Azure Active Directory
-description: How to use PowerShell to assign Workplace Analytics roles in Azure Active Directory.
-author: rodonahu
-ms.author: madehmer
-ms.date: 11/16/2018
-ms.topic: get-started-article
+description: How to use PowerShell to assign Workplace Analytics roles in Azure Active Directory
+author: madehmer
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
+
 # Assign Workplace Analytics roles with PowerShell in Azure Active Directory
 
 ## Install AzureAD PowerShell module

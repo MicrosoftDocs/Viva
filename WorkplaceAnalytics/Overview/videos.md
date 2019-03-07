@@ -2,24 +2,26 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Getting Started Checklist
-description: This is a Checklist to introduce what is required to implement Workplace Analytics for your Organization
+title: Workplace Analytics Videos
+description: Videos about how Workplace Analytics works
 author: madehmer
-ms.author: rodonahu
-ms.date: 9/27/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 03/06/2019
+ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: wpa, mya
 ---
 # Workplace Analytics Videos
 
 ## Office mechanics
+
 A look at Workplace Analytics and how it works, including how you can correlate Workplace Analytics data with other business information to generate powerful models and best practices to drive positive business outcomes.
 
 > [!VIDEO https://www.youtube.com/embed/xiRb8T4ohFc]
 
 
 ## Macy's uses MyAnalytics to support their Time is Money program
+
 Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in their organization
 > [!VIDEO https://www.youtube.com/embed/eZeTkK65RQM]
 
