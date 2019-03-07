@@ -3,13 +3,16 @@
 # required metadata
 
 title: Upload organizational data to Workplace Analytics (first upload)
-description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience. 
+description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
-ms.author: madehmer
-ms.date: 2/13/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Upload organizational data (first upload)

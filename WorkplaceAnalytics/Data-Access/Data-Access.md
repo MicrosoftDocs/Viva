@@ -7,9 +7,12 @@ title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/27/2019
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Workplace Analytics Data export

@@ -6,8 +6,8 @@ title: MyAnalytics Team Adoption --Reinforce
 description: MyAnalytics Team Adoption by Kate Nowak --Reinforce section
 author: paul9955
 ms.author: v-pascha
-ms.date: 12/17/2018
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
 ---

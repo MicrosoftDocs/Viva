@@ -3,11 +3,11 @@
 # required metadata
 
 title: To open the MyAnalytics Outlook add-in 
-description: How to open the MyAnalytics Outlook add-in. 
+description: How to open the MyAnalytics Outlook add-in
 author: paul9955
-ms.author: v-pascha
-ms.date: 03/20/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

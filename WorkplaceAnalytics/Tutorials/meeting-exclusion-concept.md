@@ -5,9 +5,9 @@
 title: Meeting exclusion rules concepts
 description: Meeting exclusion rules concepts   
 author: paul9955
-ms.author: madehmer
-ms.date: 12/3/2018
-ms.topic: get-started-article
+ms.author: v-pascha
+ms.date: 02/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
 ---

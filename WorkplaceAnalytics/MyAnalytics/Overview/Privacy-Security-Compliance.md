@@ -5,11 +5,14 @@
 title: Privacy, security, and compliance in MyAnalytics
 description: Description of and a link to a white paper about the elements of privacy, security, and compliance in MyAnalytics
 author: paul9955
-ms.author: madehmer
-ms.date: 12/17/2018
-ms.topic: get-started-article
+ms.author: v-pascha
+ms.date: 02/19/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # MyAnalytics privacy, security, and compliance

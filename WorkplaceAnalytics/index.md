@@ -1,11 +1,12 @@
 ---
 layout: HubPage
 title: Workplace Analytics
-description: Learn more about, set up, and use Workplace Analytics.
-ms.date: 12/17/2018
+description: Learn more about, set up, and use Workplace Analytics
+ms.date: 02/21/2019
+ms.topic: hub-page
 localization_priority: normal 
 ms.prod: wpa
-ms.author: madehmer
+ms.author: v-midehm
 author: madehmer
 ---
 

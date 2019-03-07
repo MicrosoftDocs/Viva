@@ -3,18 +3,21 @@
 # required metadata
 
 title: Configure settings for Workplace Analytics
-description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics. 
+description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics
 author: paul9955
-ms.author: madehmer
-ms.date: 1/31/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Configure Workplace Analytics settings
 
-The Settings pages of Workplace Analytics are used to customize system defaults and privacy settings and to upload data. These are the four Settings pages: 
+The Settings pages of Workplace Analytics are used to customize system defaults and privacy settings and to upload data. These are the four Settings pages:
 
  * [Sources](#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
  * [Upload](#upload) – Prepare and upload organizational and customer data.
@@ -28,10 +31,10 @@ The Settings pages of Workplace Analytics are used to customize system defaults 
 
 | Settings page | Admin | Analyst | Analyst limited |  
 |---|---|---|---|
-| Sources | Full access| Full access | Full access | 
+| Sources | Full access| Full access | Full access |
 | Upload  | Full access | No access | No access |
-| Analysis settings | No access | Full access | Read only | 
-| Admin settings | Full access | No access| No access | 
+| Analysis settings | No access | Full access | Read only |
+| Admin settings | Full access | No access| No access |
 
 For more information, see [Assign Workplace Analytics roles](https://docs.microsoft.com/workplace-analytics/setup/assign-roles-to-wpa-admins).
 

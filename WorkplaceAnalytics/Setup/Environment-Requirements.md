@@ -3,13 +3,16 @@
 # required metadata
 
 title: Environment and support aspects of Workplace Analytics 
-description: This article describes what's needed to license Workplace Analytics.
+description: Describes the system requirements for setting up and using Workplace Analytics
 author: madehmer
-ms.author: paul9955
-ms.date: 9/28/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Environment requirements for Workplace Analytics

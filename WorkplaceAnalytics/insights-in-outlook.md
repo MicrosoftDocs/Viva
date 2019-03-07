@@ -3,11 +3,11 @@
 layout: HubPage
 title: Productivity insights in Outlook
 description: Learn ways to improve your productivity in Outlook
-ms.date: 2/19/2019
+ms.date: 02/19/2019
 localization_priority: normal 
 ms.prod: mya
 author: paul9955
-ms.author: madehmer
+ms.author: v-pasha
 breadcrumb_path: 
 
 ---

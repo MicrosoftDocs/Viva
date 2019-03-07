@@ -3,13 +3,16 @@
 # required metadata
 
 title: MyAnalytics plans and environments
-description: MyAnalytics environment requirements, including valid licensing choices
+description: MyAnalytics environment requirements and valid licensing choices
 author: paul9955
-ms.author: madehmer
+ms.author: v-midehm
 ms.date: 03/05/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Availability of features

@@ -3,11 +3,11 @@
 # required metadata
 
 title: Network in MyAnalytics
-description: How you spent your time with the people you interact with in meetings or in email shows in the Network section of MyAnalytics. 
+description: How you spent your time with the people you interact with in meetings or in email shows in the Network section of MyAnalytics
 author: paul9955
-ms.author: madehmer
-ms.date: 1/23/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
@@ -51,4 +51,4 @@ You can view your network data in a map view or a list view. To switch between v
 
 **To see your time with a specific contact**
 
-Click a name in the chart to see an overview of your time with a specific person or group. The right side of your network chart displays statistics about your interactions with the contact. From this view, add or remove people from your important people list by clicking the star under their name.
+Select a name in the chart to see an overview of your time with a specific person or group. The right side of your network chart displays statistics about your interactions with the contact. From this view, add or remove people from your important people list by selecting the star under their name.
