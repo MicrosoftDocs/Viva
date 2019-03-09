@@ -4,9 +4,9 @@
 
 title: Privacy guide for Microsoft MyAnalytics
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 02/19/2019
+ms.date: 03/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -25,7 +25,7 @@ This page answers key questions on how MyAnalytics processes information in a ma
 
 <ul><li>
 
-**MyAnalytics is not designed to enable employee evaluation, tracking, or monitoring**.
+**MyAnalytics is not designed to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring**.
 MyAnalytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Outlook Add-in, and nudges in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information.</li>
 
 <li>

@@ -43,7 +43,7 @@ For more information, see [Availability of features](https://docs.microsoft.com/
 
 ## Data privacy
 By adhering to the following guidelines, MyAnalytics protect employee privacy and support compliance with local regulations:
- * MyAnalytics is not designed to enable employee evaluation, tracking, or monitoring. 
+ * MyAnalytics is not designed to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring. 
  * MyAnalytics does not give employees access to new personally identifiable information on other coworkers. 
  * MyAnalytics data is processed and stored in the employee’s Exchange Online mailbox. 
  * MyAnalytics supports General Data Protection Regulation (GDPR) compliance. 
