@@ -5,8 +5,8 @@
 title: MyAnalytics plans and environments
 description: MyAnalytics environment requirements and valid licensing choices
 author: paul9955
-ms.author: v-midehm
-ms.date: 03/05/2019
+ms.author: v-pascha
+ms.date: 03/09/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -29,7 +29,6 @@ The following table lists which user experiences are available to the users of t
 > To provide a great experience for users and customers, we are rolling out the features of MyAnalytics gradually, with the ultimate goal of achieving feature parity among all plans. We will announce each new feature release in a post on the [Message center](https://docs.microsoft.com/en-us/office365/admin/manage/message-center?view=o365-worldwide). 
 
 For more information about obtaining a plan that offers these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
-
 
 
 # Support of environments
