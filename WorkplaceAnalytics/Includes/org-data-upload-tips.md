@@ -42,8 +42,8 @@ The field values also cannot contain any of the following:
 * No tildes (~)
 * No short or long dashes (-, --)
 * No commas (,)
-* No “new line” characters (\n)
-* No double (” ”) or single quotes (‘ ‘)
+* No "new line" characters (\n)
+* No double (" ") or single quotes (‘ ‘)
 * Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
 
 ### Addition of missing data
@@ -52,7 +52,7 @@ Workplace Analytics does not modify or fill in data that is missing from HR uplo
 
 ### Addition of a new data column
 
-Let's say that you've already uploaded at least 13 months of snapshot data, which contained the five required columns (PersonId, EffectiveDate, LevelDesignation, ManagerId, Organization) for all employees. Now, you want to upload one new column of data – for example, an engagement score value for each employee – and you want it to apply to all of the historical data. When you upload to append the new “EngagementScore” data column, remember to reupload all five of the minimum required fields along with the new field. 
+Let's say that you've already uploaded at least 13 months of snapshot data, which contained the five required columns (PersonId, EffectiveDate, LevelDesignation, ManagerId, Organization) for all employees. Now, you want to upload one new column of data – for example, an engagement score value for each employee – and you want it to apply to all of the historical data. When you upload to append the new "EngagementScore" data column, remember to reupload all five of the minimum required fields along with the new field. 
 
 ### Set Validity threshold for custom fields
 
