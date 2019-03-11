@@ -175,7 +175,7 @@ If you select **Yes** for **Hide subject lines from meeting query results**, the
 If you select **Yes**, you could run a meeting query with the subject-line keyword "All-hands." Based on the attributes you include in the query, the results could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. However, you could not get a specific list – one line item for each meeting – of all the meetings with the subject line "All-hands."
 
 > [!Note]
-> You can also control the presence of HR attributes in the output of queries. You do this on the mapping page of the upload procedure for organizational data (HR data). For more information, see the descriptions of **Include in report** and **Hash in report** in the **Field mapping** section of [Upload organizational data](../setup/upload-organizational-data.md#columns-in-the-fields-tables).
+> You can also control the presence of HR attributes in query output while you map uploaded HR data. For more information, see the descriptions of **Include in report** and **Hash in report** in the **Field mapping** section of [Upload organizational data](../setup/upload-organizational-data.md#columns-in-the-fields-tables).
  
 ### Exclude words from subject lines
 
