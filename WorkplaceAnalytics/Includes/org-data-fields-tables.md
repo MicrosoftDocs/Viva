@@ -30,14 +30,22 @@ ms.prod: wpa
 
    <b>Summary of Validity threshold settings</b>
 
-   * **Required attributes.** Because PersonId and EffectiveDate are required attributes, their Validity threshold value is 100%. This value cannot be changed.
+   * **Required attributes:** Because PersonId and EffectiveDate are required attributes, their Validity threshold value is 100%. This value cannot be changed.
 
-   * **Fields with minimum values.** The Validation threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95% by default, but you can raise this value.
+   * **Fields with minimum values:** The Validation threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95% by default, but you can raise this value.
 
-   * **Other system fields.** The Validation threshold for other system fields is set to 95% by default, but you can raise or lower this value.
+   * **Other system fields:** The Validation threshold for other system fields is set to 95% by default, but you can raise or lower this value.
 
-   * **Custom fields.** See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields). 
+   * **Custom fields:** See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields). 
 
-* **Include in report** excludes sensitive data from the report that Workplace Analytics generates about the import operation.  
+* **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation. 
 
-* **Hash in report** de-identifies sensitive data. If you select this option, Workplace Analytics includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
+    ![Map data fields](../images/wpa/setup/map-fields-include-column-65.png) 
+
+The drop-down menu under **Include in report** offers the following options for each of the columns in your source data:
+
+   * **Show in report:** Select this option to let the actual data value display in the report just as it was imported in the organizational data file.
+
+   * **Exclude from report:** Select this option to keep the data value  from appearing in the report.
+
+   * **Hash in report** de-identifies sensitive data. If you select this option, Workplace Analytics includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
