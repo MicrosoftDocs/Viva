@@ -17,7 +17,7 @@ audience: Admin
 ---
 # Workplace Analytics Azure Templates overview
 
-_**Limited availability: These templates are only available to those who have purchased services with our Workplace Analytics team.**_
+_**Limited availability: You can only get the templates as part of a Customer Service (CS) engagement.**_
 
 Workplace Analytics Azure Templates extend and accelerate advanced analysis of your organizational data. These templates are built on and are compliant with secure Azure Services. These templates include automated configuration and connectivity to Power BI and Azure Services.
 

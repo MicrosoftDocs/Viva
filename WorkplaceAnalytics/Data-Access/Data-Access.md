@@ -17,11 +17,9 @@ audience: Admin
 
 # Workplace Analytics Data export
 
-_**Limited availability: This feature is only available to those who have purchased services with our Workplace Analytics team.**_
+_**Limited availability: You can only get access to the underlying Workplace Analytics pre-processed data as part of a Customer Service (CS) engagement.**_
 
 Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond Workplace Analytics metrics and queries. This custom data exploration might include combining Workplace Analytics data with data outside of Workplace Analytics.
-
-You can only get access to the underlying Workplace Analytics pre-processed data as part of a Customer Service (CS) engagement.
 
 After you get a CS agreement, Microsoft can enable data export for your Office 365 tenant. After data export is enabled, your Workplace Analytics admin can view and use the Data Export page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
 
