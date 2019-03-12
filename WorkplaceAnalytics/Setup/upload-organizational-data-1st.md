@@ -5,8 +5,8 @@
 title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
-ms.author: v-midehm
-ms.date: 02/21/2019
+ms.author: v-pascha
+ms.date: 03/12/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -66,8 +66,10 @@ This page includes tables for System default fields and Custom fields for mappin
 
 ### System default fields table
 
+FOLLOWING IS ORG-DATA-SYS-DEFAULT-FIELDS.MD
 [!INCLUDE [System default fields table](../includes/org-data-sys-default-fields.md)]
 
+FOLLOWING IS ORG-DATA-FIELDS-TABLES.MD
 [!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
 
 **To map fields**
