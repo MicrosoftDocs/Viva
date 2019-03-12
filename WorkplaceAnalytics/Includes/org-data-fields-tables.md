@@ -44,8 +44,8 @@ ms.prod: wpa
 
 The drop-down menu under **Include in report** offers the following options for each of the columns in your source data:
 
-   * **Show in report:** Select this option to let the actual data value display in the report just as it was imported in the organizational data file.
+   * **Show in report:** Let the actual data value display in the report just as it was imported in the organizational data file.
 
-   * **Exclude from report:** Select this option to keep the data value  from appearing in the report.
+   * **Exclude from report:** Prevent the data value from appearing in the report.
 
-   * **Hash in report** de-identifies sensitive data. If you select this option, Workplace Analytics includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
+   * **Hash in report** de-identifies sensitive data. This option includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
