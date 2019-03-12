@@ -7,7 +7,7 @@ title: Deploy and configure Workplace Analytics Azure Templates
 description: Learn how to deploy and configure Workplace Analytics Azure Templates
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/19/2019
+ms.date: 03/12/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,6 +16,8 @@ manager: scott.ruble
 audience: Admin
 ---
 # Deploy and configure Workplace Analytics Azure Templates
+
+_**Limited availability: These templates are only available to those who have purchased services with our Workplace Analytics team.**_
 
 Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to do the following:
 
