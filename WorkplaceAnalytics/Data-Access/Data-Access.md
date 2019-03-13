@@ -7,7 +7,7 @@ title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 03/06/2019
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: wpa
 ms.collection: M365-analytics
@@ -17,9 +17,9 @@ audience: Admin
 
 # Workplace Analytics Data export
 
-Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond Workplace Analytics metrics and queries. This custom data exploration might include combining Workplace Analytics data with data outside of Workplace Analytics.
+_**Limited availability: You can only get access to the underlying Workplace Analytics pre-processed data as part of a Customer Service (CS) engagement.**_
 
-You can only get access to the underlying Workplace Analytics pre-processed data as part of a Customer Service (CS) engagement.
+Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond Workplace Analytics metrics and queries. This custom data exploration might include combining Workplace Analytics data with data outside of Workplace Analytics.
 
 After you get a CS agreement, Microsoft can enable data export for your Office 365 tenant. After data export is enabled, your Workplace Analytics admin can view and use the Data Export page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
 

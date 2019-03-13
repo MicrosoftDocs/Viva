@@ -11,6 +11,7 @@ ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+
 ---
 # Workplace Analytics partner solution setup
 
