@@ -44,15 +44,17 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 After the initial processing (of collaboration data) is complete, the next time you open Workplace Analytics, the page automatically updates to let you upload your organizational data file.
 
-1. On the Upload page, select **Name your upload**, and then type the name of your new upload file.
+1. On the **Upload** page, select **Name your upload**, and then type the name of your new upload file.
 2. Optionally, select **Add an optional description** and type a description of this upload.
 3. In the Select file section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
 
   > [!Important] 
   > Make sure the file that you are uploading is not open in a different program when you begin the upload process. 
 
+<!-- THE FOLLOWING SHOULD NOT APPLY IF THIS IS THE FIRST UPLOAD OF DATA: 
   > [!Note]
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
+-->
 
 4. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
 
@@ -62,7 +64,7 @@ You need to map the fields (columns) for the source .csv file to the field names
 
    ![Map data fields](../images/wpa/setup/05-map-data-fields.png)
 
-This page includes tables for System default fields and Custom fields for mapping the data for the upload file.
+This page includes tables for System default fields and Custom fields for mapping the data for the upload file. These field types are described in the following sections. 
 
 ### System default fields table
 
@@ -72,7 +74,7 @@ This page includes tables for System default fields and Custom fields for mappin
 
 **To map fields**
 
-After you complete the steps in [File upload](#file-upload), the Upload page with the System fields table will appear.
+After you complete the steps in [File upload](#file-upload), the **Upload** page with the System fields table will appear.
 
 1. Map the required fields.
   
@@ -103,7 +105,7 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the Upload page displays the _We are validating your upload_ message.
+After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _We are validating your upload_ message.
 
    ![Validating the uploaded data](../images/wpa/setup/06-validating-your-upload.png)
 
@@ -127,7 +129,7 @@ On this page, you have the following options:
  * Select the **Validation** (download) icon to see a list of validation warnings.
 
 > [!Note]
-> Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the Upload page.
+> Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page.
 
 ## Validation fails
 

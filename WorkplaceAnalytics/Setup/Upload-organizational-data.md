@@ -44,11 +44,11 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
 2. In the left navigation pane, select **Settings**.
-3. Select **Organizational data**. The Upload history area of this page displays the previous data uploads from your organization.
+3. Select **Organizational data**. The **Upload history** area of this page displays the previous data uploads from your organization.
 4. Select **New upload**.
-5. On the Upload page, select **Name your upload**, and then type the name of your new upload file.
+5. On the **Upload** page, select **Name your upload**, and then type the name of your new upload file.
 6. Optionally, select **Add an optional description** and type a description of this upload.
-7. In the Select file section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
+7. In the **Select file** section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
 
   > [!Important] 
   > Make sure the file that you are uploading is not open in a different program when you begin the upload process. 
@@ -57,8 +57,8 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
 
 8. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
-9. To append or replace organizational data, in the Select file area, select **Show advanced options**.
-10. In the Append or replace section, you can select to:
+9. To append or replace organizational data, in the **Select file** area, select **Show advanced options**.
+10. In the **Append or replace** section, you can select to:
     * **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes.
     * **Replace all existing organizational data with this file** to delete all previous HR data uploads and make this the first new HR data upload.
 
@@ -69,11 +69,11 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 ## Field Mapping
 
-You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these on the Upload page.
+You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these on the **Upload** page.
 
 <img src="../images/wpa/setup/upload2-map-top.png" alt="Upload page">
 
-The Upload page includes tables for System fields and Custom fields for mapping the data for the upload file.
+The **Upload** page includes tables for System fields and Custom fields for mapping the data for the upload file.
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
@@ -85,7 +85,7 @@ When appending new attributes to an existing upload, you need to select all the 
 
 **To map fields**
 
-After you complete the steps in [File upload](#file-upload), the Upload page with the System fields table will appear.
+After you complete the steps in [File upload](#file-upload), the **Upload** page with the System fields table will appear.
 
 1. Map the required fields.
    
@@ -115,19 +115,19 @@ After you complete the steps in [File upload](#file-upload), the Upload page wit
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the Upload page displays the _File is being uploaded_ screen.
+After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _File is being uploaded_ screen.
 
 <img src="../images/wpa/setup/upload4-uploading.png" alt="Upload in progress">
 
 > [!Note]
-> Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the Upload page. 
+> Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page. 
  
 > [!Important] 
 > You must stay logged in while the file is uploading or the upload will be canceled. The upload requires this page to be open in your web browser during the upload. If you close the browser (or this browser page), the upload will fail.
 
 ## Validation succeeds
 
-If validation succeeds, the Upload page will indicate it and show the size of the upload and that the overall process is complete. After successful validation, Workplace Analytics processes your new data. 
+If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After successful validation, Workplace Analytics processes your new data. 
  
 <img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
 
@@ -140,7 +140,7 @@ On this page, you have the following options:
  * Select the **Validation** (download) icon to see a list of validation warnings.
 
 > [!Note]
-> Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the Upload page.
+> Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page.
 
 ## Validation fails
 
