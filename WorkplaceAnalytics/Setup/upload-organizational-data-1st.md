@@ -66,12 +66,12 @@ This page includes tables for System default fields and Custom fields for mappin
 
 ### System default fields table
 
-THE FOLLOWING IS ORG-DATA-SYS-DEFAULT-FIELDS.MD:
+THE following IS ORG-DATA-SYS-DEFAULT-FIELDS.MD:
 
 
 [!INCLUDE [System default fields table](../includes/org-data-sys-default-fields.md)]
 
-THE FOLLOWING IS ORG-DATA-FIELDS-TABLES.MD:
+THE following IS ORG-DATA-FIELDS-TABLES.MD:
 
 
 [!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
