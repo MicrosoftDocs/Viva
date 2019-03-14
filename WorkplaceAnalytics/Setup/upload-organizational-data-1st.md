@@ -83,7 +83,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
    <ol type="a"> 
    <li>Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).</li>
    <li>Under <b>Source column</b> (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
-   <li>Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields and for the optional fields that you choose to map.</li>
+   <li>Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields and for any optional fields that you choose to map.</li>
    </ol>
 
    > [!Note]
