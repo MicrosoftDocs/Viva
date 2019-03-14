@@ -77,9 +77,10 @@ The **Upload** page includes tables for System fields and Custom fields for mapp
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
-### System default fields table
+### System fields table
 
-[!INCLUDE [System default fields table](../includes/org-data-sys-default-fields.md)]
+<!-- The following include is for "system" fields and is meant only for subsequent uploads, and only temporarily. After the UI changes, switch to the "system default" include file. -->
+[!INCLUDE [System fields table](../includes/org-data-sys-fields.md)]
 
 [!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
 

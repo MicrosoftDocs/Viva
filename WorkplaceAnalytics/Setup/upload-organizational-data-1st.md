@@ -68,6 +68,7 @@ This page includes tables for System default fields and Custom fields for mappin
 
 ### System default fields table
 
+<!-- The following include is for "system default" fields and should remain the correct one for this file (first time upload) and should soon be the correct one for all uploads, including subsequent uploads. -->
 [!INCLUDE [System default fields table](../includes/org-data-sys-default-fields.md)]
 
 [!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
