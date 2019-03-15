@@ -149,7 +149,7 @@ For published rules, the actions are:
  * **Duplicate** creates an exact copy of the rule.
  * **Set preferred** sets this rule as the preferred rule. Note that there can be only one preferred rule. The preferred rule appears on the Explore dashboards and on the Solutions pages. It also appears at the top of the list of rules on the Analysis settings page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.) 
  * **Archive** archives the rule.  
- * **Favorite** sets the rule as a favorite. This is a sorting action. Rules that are favorites are displayed together near the top of any list of rules. (For rules that have been set as favorites, the “Unfavorite” option is available; it reverses the favorite status of the rule.)
+ * **Favorite** sets the rule as a favorite. This is a sorting action. Rules that are favorites are displayed together near the top of any list of rules. (For rules that have been set as favorites, the "Unfavorite" option is available; it reverses the favorite status of the rule.)
 
 ### Draft rules
 
