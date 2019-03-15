@@ -19,7 +19,7 @@ You can disable the Insights by MyAnalytics add-in for your entire organization 
 > [!Note]
 > You must be an Office 365 admin to perform these steps. 
 
-## Remove Insights by MyAnalytics
+## Disable the Insights by MyAnalytics add-in
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
 
