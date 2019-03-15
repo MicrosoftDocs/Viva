@@ -148,6 +148,8 @@
         href: MyAnalytics/overview/plans-environments.md
       - name: Privacy guide for admins
         href: MyAnalytics/overview/privacy-guide.md
+      - name: Disable Insights for Outlook
+        href: MyAnalytics/setup/mya-disable-insights.md       
     - name: Use MyAnalytics
       items:
       - name: MyAnalytics elements
