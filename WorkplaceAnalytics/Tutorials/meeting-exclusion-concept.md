@@ -149,13 +149,13 @@ For published rules, the actions are:
  * **Archive** archives the rule.  
  * **Favorite** sets the rule as a favorite. This is a sorting action. Rules that are favorites are displayed together near the top of any list of rules. (For rules that have been set as favorites, the “Unfavorite” option is available; it reverses the favorite status of the rule.)
 
-For draft rules, the only action available is **Duplicate**:
+For draft rules, the available actions are **Duplicate** and **Delete**:
 
-![Duplicate](../images/wpa/tutorials/draft-actions.png)
+![Duplicate](../images/wpa/tutorials/mx-draft-dupe-and-delete.png) 
 
-For archived rules, the only available action is **Restore**, which returns the rule to the list of published rules:
+For archived rules, the available actions are **Delete** and **Restore**. **Restore** returns the rule to the list of published rules:
 
-![Restore](../images/wpa/tutorials/archived-actions.png)
+![Restore](../images/wpa/tutorials/mx-archive-delete-and-restore.png)
 
 ## Application of meeting exclusion rules
 
