@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Disable Insights by Outlook
-description: How to disable Insights by Outlook at the organizational level 
+title: Disable Insights by MyAnalytics
+description: How to disable Insights by MyAnalytics at the organizational level 
 author: paul9955
 ms.author: v-pascha
 ms.date: 03/15/2019
@@ -12,14 +12,14 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-# Disable Insights by Outlook
+# Disable Insights by MyAnalytics
 
-You can disable the Insights by Outlook add-in for your entire organization by using the Exchange admin center.
+You can disable the Insights by MyAnalytics add-in for your entire organization by using the Exchange admin center.
 
 > [!Note]
 > You must be an Office 365 admin to perform these steps. 
 
-## Remove Insights by Outlook
+## Remove Insights by MyAnalytics
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
 
@@ -34,7 +34,7 @@ You can disable the Insights by Outlook add-in for your entire organization by u
 <!--
    ![Add-ins page](../../images/mya/use/add-ins-page.png) -->
          
-4. In the list of add-ins, select **MyAnalytics** (or **Insights by MyAnalytics**) and then select **Edit** (the pencil icon). This opens the **Edit add-in settings** dialog box.
+4. In the list of add-ins, select **Insights by MyAnalytics** and then select **Edit** (the pencil icon). This opens the **Edit add-in settings** dialog box.
 
 <!--
    ![Select add-in](../../images/mya/use/select-add-in.png) -->
