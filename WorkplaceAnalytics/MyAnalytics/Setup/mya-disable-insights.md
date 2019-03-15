@@ -16,7 +16,7 @@ ms.prod: mya
 
 You can disable the Insights by Outlook add-in for your entire organization by using the Exchange admin center.
 
-> ![Note]
+> [!Note]
 > You must be an Office 365 admin to perform these steps. 
 
 ## Remove Insights by Outlook
