@@ -37,7 +37,7 @@ After you assign a user license, the new MyAnalytics participant will gain acces
       * New users will receive the welcome email approximately four weeks after their license is granted. 
      
     > [!Note]
-    > Users will not receive the welcome email outside of their work week. Let's say a user's work week runs from Monday to Friday, inclusive. If the welcome email would otherwise arrive on a weekend, its arrival time is delayed to the following Monday. For more information, see [Welcome email](../Setup/MyA-Welcome-email.md).
+    > Users will not receive the welcome email outside of their work week. Let's say a user's work week runs from Monday to Friday, inclusive. If this person's welcome email would otherwise arrive on a weekend, its arrival time is delayed to the following Monday. For more information, see [Welcome email](../Setup/MyA-Welcome-email.md).
 
  * **Weekly email digest:** Users will begin to receive the MyAnalytics [email digest](../Use/email-digest.md) on the Monday of the first week after they receive the welcome email.
 
