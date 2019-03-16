@@ -5,16 +5,20 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Promotional trial setup (WPA Promotion)
 description: Promotional trial of Workplace Analytics 
-author: buntus
+author: madehmer
 ms.author: v-midehm
-ms.date: 06/19/2018
-ms.topic: setup
+ms.date: 02/21/2019
+ms.topic: article
+localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Workplace Analytics Promotional trial
 
-You can take advantage of Workplace Analytics promotional trials to set up your organization with additional Workplace Analytics licenses on a trial basis. By using a promotional code that you receive from us, Office 365 admins can follow these steps to add the code and set up the organization with additional licenses:
+You can take advantage of a Workplace Analytics promotional trial to set up your organization with additional Workplace Analytics licenses on a trial basis. By using a promotional code that you receive from us, Office 365 admins can follow these steps to add the code and set up the organization with additional licenses.
 
 ### To add a promotional trial code in Workplace Analytics
 

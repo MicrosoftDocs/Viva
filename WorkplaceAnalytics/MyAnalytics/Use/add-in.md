@@ -3,11 +3,11 @@
 # required metadata
 
 title: MyAnalytics Add-in
-description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics.
+description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 01/16/2019
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 localization_priority: Once
@@ -37,7 +37,7 @@ After you launch the add-in, the insights cards are displayed in the right panel
 
 ## To turn off the add-in
 
-You can turn off the add-in by opting out of MyAnalytics in Delve settings. For information, see [Can I opt out of MyAnalytics?](dashboard.md#can-i-opt-out-of-myanalytics).
+You can turn off the add-in by opting out of MyAnalytics in Delve settings. For information, see [Can I opt out of MyAnalytics?](dashboard-2.md#can-i-opt-out-of-myanalytics).
 
 <!-- OLD CONTENT. GOING AWAY AS OF 11 JANUARY 2019 
 

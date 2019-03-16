@@ -5,11 +5,14 @@
 title: Workplace Analytics Setup -- Assign roles to admins, analysts, and PMs 
 description: How to assign roles in Workplace Analytics for admins, analysts, and program managers
 author: paul9955
-ms.author: madehmer
-ms.date: 11/16/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Assign Workplace Analytics roles
@@ -37,5 +40,7 @@ See [Assign user or group roles in Azure Active Directory](../Use/Assigning-wpa-
 See [Assign Workplace Analytics roles with PowerShell in Azure Active Directory](../Use/Using-PowerShell-to-Assign-Roles.md)
 
 ## Related topics
+
+[User roles](../use/user-roles.md)
 
 [Assign a user to an enterprise app using PowerShell](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell)

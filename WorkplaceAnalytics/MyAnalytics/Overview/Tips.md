@@ -6,8 +6,8 @@ title: Tips on how to use MyAnalytics to reach your work goals
 description: How MyAnalytics can help you with your work goals.
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/1/2019
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

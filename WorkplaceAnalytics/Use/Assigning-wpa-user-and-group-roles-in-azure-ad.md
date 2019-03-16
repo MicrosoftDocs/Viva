@@ -4,12 +4,15 @@
 
 title: Assign Workplace Analytics user roles and groups in Azure Active Directory (AAD)
 description: How to assign Workplace Analytics roles and group permissions in Azure Active Directory (AAD)
-author: buntus
-ms.author: madehmer
-ms.date: 11/16/2018
-ms.topic: get-started-article
+author: paul9955
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Assign Workplace Analytics user and group roles in Azure Active Directory
@@ -22,9 +25,12 @@ To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
 
     ![Enterprise Applications](../images/WpA/Use/enterprise-applications-1.png)
 
-3. In the Application Type drop-down menu, select **All Applications**.
+3. In the Application Type drop-down menu, select **All Applications** and select **Apply**.
+
+    ![Select Apply](../images/WpA/Use/apply-button_90.png)
 
 4. In the search field, type "workplace" and then press **Enter**.
+
 5. In the search results, select **Workplace Analytics**.
 
     ![All Applications](../images/WpA/Use/all-applications-2.png)
@@ -93,6 +99,8 @@ It depends on the situation or on your company's policy, but generally speaking,
 However, in a larger company where the number of users required for the same role is significant, for example, Program Managers, it is more efficient to assign a role to a group, and then add users to the group, because groups are easier to manage and audit.
 
 ## Related topics
+
+[User roles](../use/user-roles.md)
 
 [Assign roles with PowerShell in Azure Active Directory](https://docs.microsoft.com/workplace-analytics/use/using-powershell-to-assign-roles)
 

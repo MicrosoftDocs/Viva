@@ -3,13 +3,16 @@
 # required metadata
 
 title: Check that access to the Office Graph is enabled in MyAnalytics
-description: Check that the Office Graph is enabled, which is required to show MyAnalytics statistics in Delve.  
+description: Check that the Office Graph is enabled, which is required to show MyAnalytics statistics in Delve  
 author: paul9955
-ms.author: paul9955
-ms.date: 12/17/2018
-ms.topic: get-started-article
+ms.author: v-pascha
+ms.date: 02/19/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 <!-- Note that this topic is no longer needed for MyA setup and was removed from the TOC on 15 March 2018.-->

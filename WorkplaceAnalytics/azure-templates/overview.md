@@ -7,12 +7,17 @@ title: Workplace Analytics Azure Templates overview
 description: About Workplace Analytics Azure Templates and how to use it for advanced data analysis
 author: madehmer
 ms.author: madehmer
-ms.date: 12/21/2018
-ms.topic: get-started-article
+ms.date: 03/12/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 # Workplace Analytics Azure Templates overview
+
+_**Limited availability: You can only get the templates as part of a Customer Service (CS) engagement.**_
 
 Workplace Analytics Azure Templates extend and accelerate advanced analysis of your organizational data. These templates are built on and are compliant with secure Azure Services. These templates include automated configuration and connectivity to Power BI and Azure Services.
 

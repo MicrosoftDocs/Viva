@@ -4,21 +4,21 @@
 
 title: MyAnalytics features
 description: An overview of MyAnalytics, including the Outlook add-in, the dashboard, and the weekly email report 
-author: rodonahu
-ms.author: paul9955
-ms.date: 12/17/2018
-ms.topic: get-started-article
+author: paul9955
+ms.author: v-pascha
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
 # MyAnalytics features
 
-MyAnalytics provides you with three tools to help you use your time more effectively: The Outlook add-in, the personal dashboard, and a weekly summary email report. 
+MyAnalytics provides you with three tools to help you use your time more effectively: The Outlook add-in, the personal dashboard, and a weekly summary email report.
 
 ## Outlook add-in
 
-The MyAnalytics Outlook add-in is a personal notification feed to help you achieve deep-focused, productive work. MyAnalytics periodically refreshes this pane with new and relevant insights throughout your workday. The information it analyzes and reports on revolves around your inbox and calendar. This information is for you and you alone. 
+The MyAnalytics Outlook add-in is a personal notification feed to help you achieve deep-focused, productive work. MyAnalytics periodically refreshes this pane with new and relevant insights throughout your workday. The information it analyzes and reports on revolves around your inbox and calendar. This information is for you and you alone.
 
 As a regularly updating feed, the add-in can help you:
 
@@ -34,6 +34,6 @@ Only you have access to your MyAnalytics dashboard. MyAnalytics does not provide
 
 * In Office 365, open Delve, and then select **MyAnalytics** in the left pane.
 
-## Weekly email digest 
+## Weekly email digest
 
 MyAnalytics also generates and sends you a weekly email that summarizes the information, which your dashboard also presents. To see more details about the summarized patterns (how you spent your time and who you communicated with), select the body of the email digest to open your dashboard.

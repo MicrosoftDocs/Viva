@@ -3,11 +3,11 @@
 # required metadata
 
 title: Sharing data with MyAnalytics
-description: How to share your statistics with others that are using MyAnalytics.
+description: How to share your statistics with others that are using MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 10/18/2018
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
@@ -20,7 +20,7 @@ Whether to celebrate achieving a goal, show progress to your manager, or ask for
 
 ### Where do I find the statistics that I’ve shared? 
 
-Each time you share statistics, the email message in which you’ve shared them appears in your Outlook Sent Items folder. The people who receive your shared statistics receive this same message; it contains a link to their MyAnalytics dashboard, which displays the statistics that you shared with them. 
+Each time you share statistics, the email message in which you’ve shared them appears in your Outlook Sent Items folder. The people who receive your shared statistics receive this same message; it contains a link to their MyAnalytics dashboard, which displays the statistics that you shared with them.
 
 ### Why can't I view shared statistics? 
 

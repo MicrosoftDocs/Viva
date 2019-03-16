@@ -6,10 +6,13 @@ title: Data-protection considerations summary when using Workplace Analytics
 description: Data-protection considerations summary for Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/09/2018
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Data-protection considerations
@@ -57,7 +60,7 @@ You have full control over what data to include in analysis using Workplace Anal
 
 ## Handle data-subject requests
 
-Under the General Data Protection Regulation (GDPR), data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it. 
+Under the General Data Protection Regulation (GDPR), data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it.
 For more information about the following request types and how to fulfill them, see [Workplace Analytics support for handling data subject requests](Data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests). 
 
  * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing.

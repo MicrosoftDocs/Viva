@@ -5,12 +5,12 @@
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
-ms.author: madehmer
-ms.date: 02/07/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
-localization_priority: Once
+
 ---
 
 # Frequently asked questions for MyAnalytics

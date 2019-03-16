@@ -3,13 +3,16 @@
 # required metadata
 
 title: Privacy guide for Microsoft MyAnalytics
-description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles.
-author: madehmer
-ms.author: madehmer
-ms.date: 1/31/2019
-ms.topic: get-started-article
+description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
+author: paul9955
+ms.author: v-midehm
+ms.date: 03/08/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # MyAnalytics privacy guide
@@ -22,8 +25,8 @@ This page answers key questions on how MyAnalytics processes information in a ma
 
 <ul><li>
 
-**MyAnalytics is not designed to enable employee evaluation, tracking, or monitoring**.
-MyAnalytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Outlook Add-in, and nudges in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information.</li>
+**MyAnalytics is not designed to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring**.
+MyAnalytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Outlook Add-in, and nudges in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
 
 <li>
 

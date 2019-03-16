@@ -3,11 +3,11 @@
 # required metadata
 
 title: Managing the important people list in MyAnalytics
-description: How to manage the Important people list and how it's used, such as missed email alerts, in MyAnalytics.
+description: How to manage the Important people list and how it's used, such as missed email alerts, in MyAnalytics
 author: paul9955
-ms.author: paul9955
-ms.date: 12/17/2018
-ms.topic: get-started-article
+ms.author: v-pascha
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---

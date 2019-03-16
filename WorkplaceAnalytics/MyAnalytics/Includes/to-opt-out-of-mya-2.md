@@ -5,9 +5,9 @@
 title: To opt out of MyAnalytics (Preview)
 description: How to turn off the MyAnalytics (Preview)
 author: madehmer
-ms.author: madehmer
-ms.date: 1/23/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
@@ -15,7 +15,7 @@ ms.prod: mya
 **To opt out of MyAnalytics**
 
 1. Open the MyAnalytics dashboard.
-2. Select the gear icon in the top right to open the Settings pane.
+2. Select the **Settings** (gear) icon in the top right to open the Settings pane.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 

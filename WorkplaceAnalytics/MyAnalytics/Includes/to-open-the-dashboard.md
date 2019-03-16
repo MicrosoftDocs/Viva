@@ -5,9 +5,9 @@
 title: To open the MyAnalytics dashboard
 description: How to open the MyAnalytics dashboard 
 author: madehmer
-ms.author: madehmer
-ms.date: 1/24/2019
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
@@ -29,4 +29,4 @@ ms.prod: mya
 *In the Outlook Web app*
 
 1. In the Outlook Web App, open an email message.
-2. Select the MyAnalytics icon at top-right in your email message, next to the Reply icon. Your personal MyAnalytics dashboard opens in a web browser.
+2. Select the **MyAnalytics** icon at top-right in your email message, next to the **Reply** icon. Your personal MyAnalytics dashboard opens in a web browser.

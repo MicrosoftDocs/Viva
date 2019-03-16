@@ -5,7 +5,7 @@
     - name: Privacy and data protection
       items:
         - name: Data-protection considerations                   
-          href: ~/Privacy/Data-protection-summary.md        
+          href: ~/Privacy/Data-protection-summary.md
         - name: Privacy and data access
           href: ~/Privacy/Privacy-and-Data-Access.md
     - name: Setup and Maintenance
@@ -41,11 +41,20 @@
             - name: First upload
               href: ~/setup/upload-organizational-data-1st.md       
             - name: Subsequent uploads
-              href: ~/setup/upload-organizational-data.md         
+              href: ~/setup/upload-organizational-data.md 
+        - name: Meeting exclusion rules
+          href: ~/Tutorials/meeting-exclusions-intro.md            
+          items: 
+            - name: Walkthroughs
+              href: ~/tutorials/meeting-exclusion-rules.md
+            - name: Tools and concepts
+              href: ~/tutorials/meeting-exclusion-concept.md            
         - name: Data sources
           href: ~/Use/data-Sources.md            
         - name: Time zones for Workplace Analytics
           href: ~/Use/Timezones-for-Workplace-analytics.md
+        - name: Workplace Analytics audit logs
+          href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
       href: ~/Overview/Get-started.md
       items:
@@ -87,14 +96,7 @@
                 - name: Understand and interpret query output
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
-                  href: ~/tutorials/Query-auto-refresh.md    
-                - name: Meeting exclusion rules
-                  href: ~/Tutorials/meeting-exclusions-intro.md            
-                  items: 
-                    - name: Walkthroughs
-                      href: ~/tutorials/meeting-exclusion-rules.md
-                    - name: Tools and concepts
-                      href: ~/tutorials/meeting-exclusion-concept.md                  
+                  href: ~/tutorials/Query-auto-refresh.md                    
         - name: Solutions
           items:
             - name: Teamwork solution
@@ -146,11 +148,13 @@
         href: MyAnalytics/overview/plans-environments.md
       - name: Privacy guide for admins
         href: MyAnalytics/overview/privacy-guide.md
+      - name: Disable Insights by MyAnalytics
+        href: MyAnalytics/setup/mya-disable-insights.md       
     - name: Use MyAnalytics
       items:
       - name: MyAnalytics elements
         expanded: false
-        href: MyAnalytics/Use/MyA-elements.md
+        href: MyAnalytics/Use/mya-elements.md
         items:
         - name: Dashboard
           href: MyAnalytics/Use/dashboard.md
@@ -163,45 +167,45 @@
       - name: MyAnalytics tips
         href: MyAnalytics/Overview/Tips.md    
       - name: Adopt MyAnalytics
-        href: MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md
+        href: MyAnalytics/Use/mya-adoption/Adopt-myanalytics.md
         homepage: /myanalytics/adopt-myanalytics/    
         items: 
         - name: Individual adoption
           items: 
           - name: Get started
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md
+            href: MyAnalytics/Use/mya-adoption/Indiv-adopt-get-started.md
           - name: Diagnose your problem
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md
+            href: MyAnalytics/Use/mya-adoption/Indiv-adopt-diagnose.md
           - name: Set your goal
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md
+            href: MyAnalytics/Use/mya-adoption/Indiv-adopt-set-goals.md
           - name: Build your habit
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-develop-habits.md
+            href: MyAnalytics/Use/mya-adoption/Indiv-adopt-develop-habits.md
           - name: Sustain your change
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md
+            href: MyAnalytics/Use/mya-adoption/Indiv-adopt-sustain-change.md
           - name: Resources
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
+            href: MyAnalytics/Use/mya-adoption/Indiv-adopt-resources.md
         - name: Team adoption
           items: 
           - name: Get started
-            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-intro.md
+            href: MyAnalytics/Use/mya-adoption/Team-adopt-intro.md
           - name: Plan
-            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-plan.md
+            href: MyAnalytics/Use/mya-adoption/Team-adopt-plan.md
           - name: Implement
-            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-implement.md
+            href: MyAnalytics/Use/mya-adoption/Team-adopt-implement.md
           - name: Measure
-            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-measure.md
+            href: MyAnalytics/Use/mya-adoption/Team-adopt-measure.md
           - name: Reinforce
-            href: MyAnalytics/Use/MyA-Adoption/Team-adopt-reinforce.md
+            href: MyAnalytics/Use/mya-adoption/Team-adopt-reinforce.md
           - name: Resources
-            href: MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md
+            href: MyAnalytics/Use/mya-adoption/Indiv-adopt-resources.md
         - name: Habit resources
           items: 
           - name: Learning modules
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Learning-modules.md
+            href: MyAnalytics/Use/mya-adoption/Adopt-Learning-modules.md
             homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/learning-modules
           - name: Habit-building method
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-building-method.md
+            href: MyAnalytics/Use/mya-adoption/Adopt-Habit-building-method.md
             homepage: /myanalytics/use-myanalytics/adopt-myanalytics/Habit resources/habit-building-method
           - name: Habit playbooks
-            href: MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md
+            href: MyAnalytics/Use/mya-adoption/Adopt-Habit-playbooks.md
             homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/habit-playbooks

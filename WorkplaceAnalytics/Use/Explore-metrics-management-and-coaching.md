@@ -3,10 +3,11 @@
 # required metadata
 
 title: Explore management and coaching metrics in Workplace Analytics
-description: Overview of the management and coaching metrics in the Workplace Analytics Explore page.
-author: paul9955
-ms.author: madehmer
-ms.date: 12/13/2018
+description: Overview of the management and coaching metrics in the Workplace Analytics Explore page
+author: madehmer
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---

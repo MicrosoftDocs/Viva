@@ -3,13 +3,16 @@
 # required metadata
 
 title: Environment and support aspects of Workplace Analytics 
-description: This article describes what's needed to license Workplace Analytics.
+description: Describes the system requirements for setting up and using Workplace Analytics
 author: madehmer
-ms.author: paul9955
-ms.date: 9/28/2018
-ms.topic: get-started-article
+ms.author: v-midehm
+ms.date: 02/21/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Environment requirements for Workplace Analytics
@@ -30,7 +33,13 @@ Microsoft does not currently offer trials of Workplace Analytics. For more infor
 
 ### Supported browsers
 
+<!-- removing:
 Workplace Analytics works with the latest or immediately previous versions of Microsoft Edge, Google Chrome, Apple Safari, Internet Explorer, and Mozilla Firefox.
+and replacing with the following: -->
+
+Safari, Firefox, and Internet Explorer are not preferred browsers for Workplace Analytics. Starting in June 2019, Internet Explorer will no longer be supported. 
+
+For the best experience, please use Edge or Chrome.
 
 <!-- REMOVING FOR NOW 
 ### FastTrack qualification

@@ -6,8 +6,8 @@ title: MyAnalytics Individual Adoption --Diagnose problems
 description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose problems section
 author: paul9955
 ms.author: v-pascha
-ms.date: 2/1/2019
-ms.topic: get-started-article
+ms.date: 02/21/2019
+ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
 ---
