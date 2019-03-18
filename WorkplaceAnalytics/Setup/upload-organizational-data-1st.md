@@ -191,7 +191,10 @@ Before you try to address the problem, you can select **Download issues**. This 
 
 ### Options upon failed validation
 
-[!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation.md)]
+* **Upload new file** restarts the upload-map-validate process with new data rather than retrying the process with the current data. <!-- Select **Abandon** (at the upper right of the page). This option does not retain any of the field mappings. -->
+* **Edit mapping** has two options:
+  * **Fix the source data** is recommended because it fixes the data in your source .csv file and increases the quality of the data.
+  * **Edit mapping** enables you to change an incorrect data type. Select **Edit mapping** to set new mapping values, after which you can retry to validate your data file.
 
 ## Tips
 
