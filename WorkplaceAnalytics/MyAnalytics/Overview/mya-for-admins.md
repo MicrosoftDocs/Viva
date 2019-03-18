@@ -36,5 +36,5 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Participants start obtaining access to the MyAnalytics elements &mdash; a personal dashboard, a weekly email report, and an Outlook add-in &mdash; three days after you assign their MyAnalytics license. To learn how to set up and configure MyAnalytics, see [MyAnalytics setup](../setup/mya-setup-checklist.md).
+Soon after you assign a MyAnalytics license to a MyAnalytics participant, they start obtaining access to the MyAnalytics elements &mdash; a [personal dashboard](../use/dashboard.md), a [weekly email digest](../use/email-digest.md), the [MyAnalytics nudges](../use/mya-notifications.md), the [Outlook add-in](../use/add-in.md), and the [welcome email](../use/mya-welcome-email.md). To learn how to set up and configure MyAnalytics, see [MyAnalytics setup](../setup/mya-setup-checklist.md). To learn more about how soon participants can see the various elements, see the [MyAnalytics elements become available](../setup/mya-setup-checklist.md#myanalytics-elements-become-available) section. 
 
