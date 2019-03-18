@@ -5,8 +5,8 @@
 title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: paul9955
-ms.author: v-midehm
-ms.date: 02/21/2019
+ms.author: v-pascha
+ms.date: 03/18/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -51,14 +51,16 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 7. In the **Select file** section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
 
   > [!Important] 
-  > Make sure the file that you are uploading is not open in a different program when you begin the upload process. 
+  > <ul><li>The .csv file that you upload must be UTF-8 encoded.</li><li>Make sure that the file that you are uploading is not open in a different program when you begin the upload process.</li><li>After the upload process begins, the process is irreversible.</li></ul>
+
+  > [!Caution] 
+  > The schema of the new data file that you upload must match the schema of previously uploaded HR data. Specifically, you must include all columns in the new file that were present in previous files. (Introducing new columns is permitted.) Omitting columns in subsequent uploads can cause errors in recurring queries that depend on the presence of those HR columns. For more information, see [Prepare organizational data](prepare-organizational-data.md).
 
   > [!Note]
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
 
 8. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
-9. To append or replace organizational data, in the **Select file** area, select **Show advanced options**.
-10. In the **Append or replace** section, you can select to:
+9. To append or replace organizational data, locate the **Append or replace** area. In this area, you can select either of the following options:
     * **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes.
     * **Replace all existing organizational data with this file** to delete all previous HR data uploads and make this the first new HR data upload.
 
