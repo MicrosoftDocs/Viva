@@ -105,7 +105,7 @@ Replaced with actual text and then removed that term: -->
 
 * **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation. 
 
-    ![Map data fields](../images/wpa/setup/map-fields-include-column-65.png) 
+    ![Map data fields](../images/wpa/setup/map-fields-include-column-65-85-1st.png) 
 
 The drop-down menu under **Include in report** offers the following options for each of the columns in your source data:
 
