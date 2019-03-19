@@ -178,11 +178,11 @@ On this page, you have the following options:
 
 ## Validation fails
 
-If a data validation fails, the **Data load** page shows a "could not be validated" notification. It also presents you with options.
+If data validation fails, the **Setup** page shows a "could not be validated" notification in the **Upload details** area. This page also presents you with options of how to proceed.
 
 <img src="../images/wpa/setup/5-orgd-upload-fail.png" alt="Validation failed">
 
-Before you try to address the problem, you can select **Download error log**. This log file describes the problems in your data that might cause validation errors. Use this information to decide which path to choose next &mdash; whether to fix the source data or change your mapping settings. The following section describes these options: 
+Before you address the problem, you can select **Download error log**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next &mdash; fix the source data or change your mapping settings. The following section describes these options: 
 
 ### Options upon failed validation
 
