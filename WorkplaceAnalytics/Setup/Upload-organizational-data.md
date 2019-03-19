@@ -51,7 +51,10 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 7. In the **Select file** section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
 
   > [!Important] 
-  >  * The .csv file that you upload must be UTF-8 encoded.</li><li>Make sure that the file that you are uploading is not open in a different program when you begin the upload process.</li><li>After the upload process begins, the process is irreversible.</li><li>The schema of the new data file need not exactly match the schema of previously uploaded HR data, but note the following: Omitting columns that were present in previous uploads can cause errors in [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns. For more information, see [Prepare organizational data](prepare-organizational-data.md).</ul>
+  >  * The .csv file that you upload must be UTF-8 encoded.
+  >  * Make sure that the file that you are uploading is not open in a different program when you begin the upload process.
+  >  * After the upload process begins, the process is irreversible.
+  >  * The schema of the new data file need not exactly match the schema of previously uploaded HR data, but note the following: Omitting columns that were present in previous uploads can cause errors in [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns. For more information, see [Prepare organizational data](prepare-organizational-data.md).
 
   > [!Note]
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
@@ -144,15 +147,13 @@ On this page, you have the following options:
 
 ## Validation fails
 
-The following illustration shows a failed validation.
+If data validation fails, the **Data load** page shows a "failed" notification. It also shows details about the validation attempt and presents you with options:
 
 <img src="../images/wpa/setup/upload9-val-failed-upload-flow.png" alt="Validation failed">
 
-If a data validation fails, the **Data load** page shows a failed notification. It also shows details about the validation attempt and presents you with options.
+After a failed validation, it's best to first gain an understanding of the errors by scanning the error summary table. You can also select **Download issues** to examine the error log.
 
-After a failed validation, it's best to first gain an understanding of the errors by looking at the error summary table and downloading the error log. This helps you to make a more informed decision about what to do next. The following options are presented in the Failed validation section: 
-
-Before you try to address the problem, you can select **Download issues**. This displays a log file that describes the problems in your data that might cause validation errors. Use the log to either fix the source data, change your mapping settings, or abandon the current upload.
+This information about the errors helps you decide which path to choose next, whether to fix the source data, change your mapping settings, or abandon the current upload. The following section describes these options: 
 
 ### Options upon failed validation
 
