@@ -154,7 +154,7 @@ If data validation fails, the **Data load** page shows a "failed" notification. 
 
 After a failed validation, it's best to first gain an understanding of the errors by scanning the error summary table. You can also select **Download issues** to examine the error log.
 
-This information about the errors helps you decide which path to choose next, whether to fix the source data, change your mapping settings, or abandon the current upload. The following section describes these options: 
+This information about the errors helps you decide which path to choose next &mdash; whether to fix the source data, change your mapping settings, or abandon the current upload. The following section describes these options: 
 
 ### Options upon failed validation
 
