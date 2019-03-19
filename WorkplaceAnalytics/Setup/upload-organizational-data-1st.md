@@ -178,23 +178,18 @@ On this page, you have the following options:
 
 ## Validation fails
 
-The following illustration shows a failed validation.
+If a data validation fails, the **Data load** page shows a "could not be validated" notification. It also presents you with options.
 
 <img src="../images/wpa/setup/5-orgd-upload-fail.png" alt="Validation failed">
 
- If a data validation fails, the Data load page shows a failed notification. It also shows details about the validation attempt and presents you with options.
-
-Before you try to address the problem, you can select **Download issues**. This displays a log file that describes the problems in your data that might cause validation errors. Use the log to either fix the source data, change your mapping settings, or abandon the current upload.
-
-> [!Tip]
-> If you have a small number of errors, you’ll probably want to fix them. If you have many errors, you might want to select **Upload new file**.
+Before you try to address the problem, you can select **Download issues**. This displays a log file that describes the problems in your data that might cause validation errors.  This information can help you decide which path to choose next &mdash; whether to fix the source data or change your mapping settings. The following section describes these options: 
 
 ### Options upon failed validation
 
-* **Upload new file** restarts the upload-map-validate process with new data rather than retrying the process with the current data. <!-- Select **Abandon** (at the upper right of the page). This option does not retain any of the field mappings. -->
-* **Edit mapping** has two options:
-  * **Fix the source data** is recommended because it fixes the data in your source .csv file and increases the quality of the data.
-  * **Edit mapping** enables you to change an incorrect data type. Select **Edit mapping** to set new mapping values, after which you can retry to validate your data file.
+| Nature of errors | Recommended selection | Description |
+| ----- | ----- | ----- |
+| Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change how you map source-file fields to Workplace Analytics attributes, optionally change validation thresholds, and then re-attempt validation. You can do these things without changing and re-uploading the source file. This is best for minor errors such as having mapped the wrong column in the source file or assigned a too-high validation threshold to a particular attribute. |
+| Major errors | Select **Upload file** | This displays the first **File upload** page. Consider this option in the case of major errors in the originally uploaded data. First, edit the source-data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
 
 ## Tips
 
