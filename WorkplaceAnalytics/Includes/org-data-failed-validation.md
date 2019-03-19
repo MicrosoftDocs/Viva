@@ -6,16 +6,15 @@ title: Options upon failed validation
 description: What you can do after your uploaded data has failed to validate.  
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/18/2019
+ms.date: 03/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-* **Upload new file** restarts the upload-map-validate process with new data rather than retrying the process with the current data. <!-- Select **Abandon** (at the upper right of the page). This option does not retain any of the field mappings. -->
-* **Edit mapping** has two options:
-  * **Fix the source data** is recommended because it fixes the data in your source .csv file and increases the quality of the data.
-  * **Edit mapping** enables you to change an incorrect data type, to lower the threshold. However, changing the threshold might negatively affect future data analysis. Select **Edit mapping** to set new mapping values, after which you can retry to validate your data file.
+| Nature of errors | Recommended selection | Description |
+| ----- | ----- | ----- |
+| Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change the mapping of fields from the source file to Workplace Analytics attributes, change the validation threshold, and then re-attempt validation. You can do these things without changing and re-uploading the source file. This is best if the errors are minor; for example, you might have mapped the wrong column in the source file or assigned a too-high validation threshold to a particular attribute. |
+| Major errors | Select **Upload file** | This displays the first **File upload** page, on which you can upload a new file and proceed with the process as you did the previous time. Consider doing this in the case of major errors in the original upload. First, edit the source data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
+| Many errors | Select **Abandon** (a button on the top right of the page) | This cancels the current upload. Do this if you have decided to address the problems later, and not upload an organizational data file at this time. |
 
-<!-- FOLLOWING STILL EXISTS? 
-* **Upload file** retains your field mappings, which is different than the **Upload new file** option. After you select this option, follow the steps in [File upload](#file-upload). -->
