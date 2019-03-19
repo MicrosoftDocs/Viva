@@ -49,7 +49,7 @@ After the initial processing (of collaboration data) is complete, the next time 
 3. In the Select file section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
 
   > [!Important] 
-  > <ul><li>Make sure that the file that you are uploading is not open in a different program when you begin the upload process.</li><li>The .csv file that you upload must be UTF-8 encoded.</li> 
+  > <ul><li>Make sure that the file that you are uploading is not open in a different program when you begin the upload process.</li><li>The .csv file that you upload must be UTF-8 encoded.</li><li>After the upload process begins, the process is irreversible.</li></ul> 
 
 <!-- THE FOLLOWING SHOULD NOT APPLY FOR THE FIRST UPLOAD OF DATA: 
   > [!Note]
@@ -182,7 +182,7 @@ If a data validation fails, the **Data load** page shows a "could not be validat
 
 <img src="../images/wpa/setup/5-orgd-upload-fail.png" alt="Validation failed">
 
-Before you try to address the problem, you can select **Download issues**. This displays a log file that describes the problems in your data that might cause validation errors.  This information can help you decide which path to choose next &mdash; whether to fix the source data or change your mapping settings. The following section describes these options: 
+Before you try to address the problem, you can select **Download error log**. This log file describes the problems in your data that might cause validation errors. Use this information to decide which path to choose next &mdash; whether to fix the source data or change your mapping settings. The following section describes these options: 
 
 ### Options upon failed validation
 
