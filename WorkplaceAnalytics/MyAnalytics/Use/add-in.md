@@ -15,7 +15,8 @@ localization_priority: Once
 
 # MyAnalytics Outlook add-in
 
-_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Office 365 E3, Office 365 E1, Business Premium, Business Essentials**_
+_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on, Microsoft 365 E3*, Microsoft 365 Business*, Office 365 E3*, Office 365 E1*, Business Premium*, Business Essentials* 
+* Rolling out from May 2019, as per https://www.microsoft.com/en-us/microsoft-365/blog/2019/01/02/myanalytics-the-fitness-tracker-for-work-is-now-more-broadly-available/**_
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
 
