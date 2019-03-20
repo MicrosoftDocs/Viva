@@ -54,8 +54,7 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
  
   * The .csv file that you upload must be UTF-8 encoded.
   * Make sure that the file you are uploading is not open in a different program when you begin the upload process.
-  * After the upload process begins, the process is irreversible.
-  * The schema of the new data file need not exactly match the schema of previously uploaded HR data, but note the following: Omitting columns that were present in previous uploads can cause errors in [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns. For more information, see [Prepare organizational data](prepare-organizational-data.md).
+  * After the upload process begins, the process is irreversible.  
 
   > [!Note]
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
@@ -63,10 +62,9 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 8. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
 9. To append or replace organizational data, locate the **Append or replace** area. In this area, you can select either of the following options:
     * **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes.
-    * **Replace all existing organizational data with this file** to delete all previous HR data uploads and make this the first new HR data upload.
-
-       > [!Important]
-       > The replace option permanently deletes all previously uploaded organizational data.
+    * **Replace all existing organizational data with this file** to delete all previous HR data uploads and make this the first new HR data upload. If you choose this option, please note the following: 
+      * **Permanent deletion:** The replace option permanently deletes all previously uploaded organizational data. 
+      * **Column omission:** The schema of the new data file need not exactly match the schema of the previously uploaded HR data. However, omitting columns that were present in previous uploads can cause errors in [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns. For more information, see [Prepare organizational data](prepare-organizational-data.md).
        
 11. After reviewing the warning message, select **Continue** and then [map your fields](#field-mapping).
 

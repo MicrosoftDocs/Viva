@@ -16,5 +16,6 @@ ms.prod: wpa
 | ----- | ----- | ----- |
 | Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change how you map source-file fields to Workplace Analytics attributes, optionally change validation thresholds, and then re-attempt validation. You can do these things without changing and re-uploading the source file. This is best for minor errors such as having mapped the wrong column in the source file or assigned a too-high validation threshold to a particular attribute. |
 | Major errors | Select **Upload file** | This displays the first **File upload** page. Consider this option in the case of major errors in the originally uploaded data. First, edit the source-data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
-| Many errors | Select **Abandon** (a button on the top right of the page) | This cancels the current upload. Do this if you have decided to address the problems later, and not upload an organizational data file at this time. |
+
+There is also an option to select **Abandon**, a button on the top right of the page. Select this to cancel the current upload. You can abandon your upload for any reason, related or unrelated to errors in the upload file. 
 
