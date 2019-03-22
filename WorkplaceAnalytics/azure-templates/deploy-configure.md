@@ -7,7 +7,7 @@ title: Deploy and configure Workplace Analytics Azure Templates
 description: Learn how to deploy and configure Workplace Analytics Azure Templates
 author: madehmer
 ms.author: v-midehm
-ms.date: 03/12/2019
+ms.date: 03/22/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,19 +17,15 @@ audience: Admin
 ---
 # Deploy and configure Workplace Analytics Azure Templates
 
-_**Limited availability: You can only get the templates as part of a Customer Service (CS) engagement.**_
+_These templates are only available as part of a Microsoft service engagement._
 
-Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to do the following:
+Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to:
 
-- [Deploy and configure Workplace Analytics Azure Templates](#deploy-and-configure-workplace-analytics-azure-templates)
-  - [Security considerations](#security-considerations)
-  - [Prerequisites](#prerequisites)
-  - [Deployment](#deployment)
-  - [Configuration](#configuration)
-    - [Add users and assign roles](#add-users-and-assign-roles)
-  - [Process the data](#process-the-data)
-  - [Get support](#get-support)
-  - [Related topics](#related-topics)
+ - [Review the security considerations](#security-considerations)
+ - [Confirm the prerequisites](#prerequisites)
+ - [Deploy the templates](#deployment)
+ - [Configure the templates](#configuration-add-users-and-assign-roles)
+ - [Process the data](#process-the-data)
 
 ## Security considerations
 
@@ -86,9 +82,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
      ![Azure Templates deployment](./images/deployed-website-link.png)
 
-## Configuration
-
-### Add users and assign roles
+## Configuration: Add users and assign roles
 
 As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one of the following roles based on the tasks they need to accomplish with the templates:
 
