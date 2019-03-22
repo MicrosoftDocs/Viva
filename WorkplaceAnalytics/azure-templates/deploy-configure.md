@@ -19,16 +19,13 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to do the following:
+Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to:
 
-- [Deploy and configure Workplace Analytics Azure Templates](#deploy-and-configure-workplace-analytics-azure-templates)
-  - [Security considerations](#security-considerations)
-  - [Prerequisites](#prerequisites)
-  - [Deployment](#deployment)
-  - [Configuration: Add users and assign roles](#configuration-add-users-and-assign-roles)
-  - [Process the data](#process-the-data)
-  - [Get support](#get-support)
-  - [Related topics](#related-topics)
+ - [Review security considerations](#security-considerations)
+ - [Confirm the prerequisites](#prerequisites)
+ - [Deploy the templates](#deployment)
+ - [Configure the templates](#configuration-add-users-and-assign-roles)
+ - [Process the data](#process-the-data)
 
 ## Security considerations
 
