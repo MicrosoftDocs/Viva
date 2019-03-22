@@ -7,7 +7,7 @@ title: Topic Analysis Azure Template for Workplace Analytics
 description: Learn about the Topic Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 03/22/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,7 +17,7 @@ audience: Admin
 ---
 # Workplace Analytics Topic Analysis Azure Template
 
-_**Limited availability: You can only get the templates as part of a Customer Service (CS) engagement.**_
+_These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Topic Analysis template that enables you to quickly analyze a range of metrics about meetings based on topic keywords. You can use these metrics to evaluate who spent how much time in key meetings and reading and sending emails about these key meetings.  
 

@@ -7,7 +7,7 @@ title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 03/12/2019
+ms.date: 03/22/2019
 ms.topic: article
 ms.prod: wpa
 ms.collection: M365-analytics
@@ -17,7 +17,7 @@ audience: Admin
 
 # Workplace Analytics Data export
 
-_**Limited availability: You can only get access to the underlying Workplace Analytics pre-processed data as part of a Customer Service (CS) engagement.**_
+_Data export is only available as part of a Microsoft service engagement._
 
 Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond Workplace Analytics metrics and queries. This custom data exploration might include combining Workplace Analytics data with data outside of Workplace Analytics.
 
