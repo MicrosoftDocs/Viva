@@ -17,7 +17,7 @@ audience: Admin
 ---
 # Deploy and configure Workplace Analytics Azure Templates
 
-_**Limited availability: You can only get the templates as part of a Customer Service (CS) engagement.**_
+_These templates are only available as part of a [Microsoft service engagement](wpazuretemplates@microsoft.com)._
 
 Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to do the following:
 

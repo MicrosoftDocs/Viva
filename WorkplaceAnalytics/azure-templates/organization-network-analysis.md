@@ -17,7 +17,7 @@ audience: Admin
 ---
 # Organizational Network Analysis Azure Template for Workplace Analytics
 
-_**Limited availability: You can only get the templates as part of a Customer Service (CS) engagement.**_
+_These templates are only available as part of a [Microsoft service engagement](wpazuretemplates@microsoft.com)._
 
 Workplace Analytics Azure Templates include the Organizational Network Analysis template that enables you to visualize connections within your organization, pinpoint collaboration patterns, and drive change.
 
