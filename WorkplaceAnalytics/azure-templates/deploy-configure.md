@@ -25,8 +25,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
   - [Security considerations](#security-considerations)
   - [Prerequisites](#prerequisites)
   - [Deployment](#deployment)
-  - [Configuration](#configuration)
-    - [Add users and assign roles](#add-users-and-assign-roles)
+  - [Configuration: Add users and assign roles](#configuration-add-users-and-assign-roles)
   - [Process the data](#process-the-data)
   - [Get support](#get-support)
   - [Related topics](#related-topics)
@@ -86,9 +85,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
      ![Azure Templates deployment](./images/deployed-website-link.png)
 
-## Configuration
-
-### Add users and assign roles
+## Configuration: Add users and assign roles
 
 As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one of the following roles based on the tasks they need to accomplish with the templates:
 
