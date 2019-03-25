@@ -12,9 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-To configure MyAnalytics for each user in your organization, set the PrivacyMode parameter. 
-
-For information about the values of PrivacyMode, see [PrivacyMode options](#privacymode-options). 
+You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [PrivacyMode options](#privacymode-options). 
 
 To set this parameter for one user or for many users, see the following:  
 
@@ -22,8 +20,6 @@ To set this parameter for one user or for many users, see the following:
  * [Set PrivacyMode for multiple users](#set-privacymode-for-multiple-users)
 
 ## PrivacyMode options
-
-You can change these default behaviors for any user by setting the *PrivacyMode* parameter:
 
 PrivacyMode   | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
@@ -58,22 +54,19 @@ Parameter   |   Required   |    Description    |   Default value
 ----------- | ------------ |  ---------------  | ---------------
 Identity    |  Yes         |    User ID for the current user as stored in AAD  | - 
 
-
-<!--REMOVED FOR NOW PER MATHEW: After you grant a MyAnalytics license to a user, they have access to the Outlook add-in, regardless of the value that you've assigned to  PrivacyMode. For example, even after you opt-out a licensed user by setting PrivacyMode to **Excluded**, MyAnalytics is not uninstalled and the user retains access to the Outlook add-in.--> 
-
 ## Set PrivacyMode for multiple users
 
-An admin can change the value of PrivacyMode for multiple users at once, by using PowerShell. To do this, run a PowerShell script that iterates through the users, changing the value one user at a time. Follow these steps:
+You can use PowerShell to change the value of PrivacyMode for multiple users at once. To do this, run a PowerShell script that iterates through the users, changing the value one user at a time. Follow these steps:
 
-1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field. Here is an example:
+1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field and the addresses of the users you want to configure. For example:
 
    ![csv file contents](../../images/mya/setup/csv-contents-privacymode.png)
 
-2. Fill in the location of the input .csv file, the output .csv file, and the privacy mode that you want to set for each user. 
+2. Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user:
 
 ```powershell
-$inFileName="&lt;path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv&gt;"
-$outFileName="&lt;path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv&gt;"
+$inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
+$outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv>"
 $privacyMode = "Opt-in"
 
 $users=Import-Csv $inFileName
