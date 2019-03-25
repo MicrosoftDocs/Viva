@@ -21,7 +21,7 @@ To set this parameter for one user or for many users, see the following:
  * [Set PrivacyMode for one user](#set-privacymode-for-one-user) 
  * [Set PrivacyMode for multiple users](#set-privacymode-for-multiple-users)
 
-### PrivacyMode options
+## PrivacyMode options
 
 You can change these default behaviors for any user by setting the *PrivacyMode* parameter:
 
@@ -35,7 +35,7 @@ Excluded   |<ul><li> Office 365 data is not used for aggregated information show
 > * _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them. 
 > * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want a licensed user to be opted _out_ by default, which would give them the choice to opt-in, change the value of the PrivacyMode parameter for that user to "Opt-out." 
 
-#### Set PrivacyMode for one user 
+## Set PrivacyMode for one user 
 Configure MyAnalytics settings for a user with the following PowerShell cmdlet:
 
 ```powershell
@@ -47,7 +47,7 @@ Parameter   |   Required   |   Description   | Default value
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD).   |   -
 PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboard and Outlook add-in.</li><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
   
-#### Get settings 
+### Get settings 
 Get MyAnalytics settings for a user with the following cmdlet:
 
 ```powershell
@@ -67,13 +67,10 @@ An admin can change the value of PrivacyMode for multiple users at once, by usin
 
 1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field. Here is an example:
 
-UserPrincipalName
-ClaudeL@contoso.onmicrosoft.com
-LynneB@contoso.onmicrosoft.com
-ShawnM@contoso.onmicrosoft.com
+   ![csv file contents](../../images/mya/setup/csv-contents-privacymode.png)
 
 2. Fill in the location of the input .csv file, the output .csv file, and the privacy mode that you want to set for each user. 
-3. 
+
 ```powershell
 $inFileName="&lt;path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv&gt;"
 $outFileName="&lt;path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv&gt;"
@@ -93,7 +90,7 @@ Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName
 
 This PowerShell command block does the following:
  * Displays the user principal name of each user.
- * Sets the privacy mode for each user.
+ * Sets the specified privacy mode for each user.
  * Creates a .csv file with all the users that were processed and shows their status.
 
 ### Related topics
