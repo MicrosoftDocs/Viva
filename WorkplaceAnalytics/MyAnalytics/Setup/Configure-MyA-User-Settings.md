@@ -6,13 +6,24 @@ title: Configure MyAnalytics user settings
 description: Configure MyAnalytics settings for new users. 
 author: paul9955
 ms.author: paul9955
-ms.date: 12/17/2018
+ms.date: 03/25/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-Use the following options to configure MyAnalytics for each user in your organization. You can change these default behaviors for any user by setting the *PrivacyMode* parameter:
+To configure MyAnalytics for each user in your organization, set the PrivacyMode parameter. 
+
+For information about the values of PrivacyMode, see [PrivacyMode options](#privacymode-options). 
+
+To set this parameter for one user or for many users, see the following:  
+
+ * [Set PrivacyMode for one user](#set-privacymode-for-one-user) 
+ * [Set PrivacyMode for multiple users](#set-privacymode-for-multiple-users)
+
+### PrivacyMode options
+
+You can change these default behaviors for any user by setting the *PrivacyMode* parameter:
 
 PrivacyMode   | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
@@ -24,14 +35,8 @@ Excluded   |<ul><li> Office 365 data is not used for aggregated information show
 > * _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them. 
 > * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want a licensed user to be opted _out_ by default, which would give them the choice to opt-in, change the value of the PrivacyMode parameter for that user to "Opt-out." 
 
-### Setting PrivacyMode
-
-An admin can change the value of PrivacyMode for one user or for multiple users at once, by using PowerShell. To do this for multiple users, run a PowerShell script that iterates through the users, changing the value one user at a time. 
-
-For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
-
-#### Make settings 
-Configure MyAnalytics settings for a user with the following cmdlet:
+#### Set PrivacyMode for one user 
+Configure MyAnalytics settings for a user with the following PowerShell cmdlet:
 
 ```powershell
 Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
@@ -55,3 +60,42 @@ Identity    |  Yes         |    User ID for the current user as stored in AAD  |
 
 
 <!--REMOVED FOR NOW PER MATHEW: After you grant a MyAnalytics license to a user, they have access to the Outlook add-in, regardless of the value that you've assigned to  PrivacyMode. For example, even after you opt-out a licensed user by setting PrivacyMode to **Excluded**, MyAnalytics is not uninstalled and the user retains access to the Outlook add-in.--> 
+
+## Set PrivacyMode for multiple users
+
+An admin can change the value of PrivacyMode for multiple users at once, by using PowerShell. To do this, run a PowerShell script that iterates through the users, changing the value one user at a time. Follow these steps:
+
+1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field. Here is an example:
+
+UserPrincipalName
+ClaudeL@contoso.onmicrosoft.com
+LynneB@contoso.onmicrosoft.com
+ShawnM@contoso.onmicrosoft.com
+
+2. Fill in the location of the input .csv file, the output .csv file, and the privacy mode that you want to set for each user. 
+3. 
+```powershell
+$inFileName="&lt;path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv&gt;"
+$outFileName="&lt;path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv&gt;"
+$privacyMode = "Opt-in"
+
+$users=Import-Csv $inFileName
+ForEach ($user in $users)
+{
+$user.Userprincipalname
+$upn=$user.UserPrincipalName
+
+Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
+Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName
+}
+```
+3. Run the resulting commands at the PowerShell command prompt.
+
+This PowerShell command block does the following:
+ * Displays the user principal name of each user.
+ * Sets the privacy mode for each user.
+ * Creates a .csv file with all the users that were processed and shows their status.
+
+### Related topics
+
+For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
