@@ -137,7 +137,8 @@ The following are examples of program structures and schedules:
 **Modified program**
 
 <img src="../../../images/mya/use/Adopt-teams-3.png" alt="Program schedule example: Modified program">
- 
+
+
 ### A supplementary outcome metric (optional)
 
 In addition to the MyAnalytics metrics you will track during the program, you might choose to define a supplementary outcome metric to measure outside of MyAnalytics. This metric could include engagement or productivity measures.
