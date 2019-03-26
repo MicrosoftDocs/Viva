@@ -60,7 +60,12 @@ You can use PowerShell to change the value of PrivacyMode for multiple users at 
 
 1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field and the addresses of the users you want to configure. For example:
 
-   ![csv file contents](../../images/mya/setup/csv-contents-privacymode.png)
+```
+UserPrincipalName,UsageLocation
+ClaudeL@contoso.onmicrosoft.com,FR
+LynneB@contoso.onmicrosoft.com,US
+ShawnM@contoso.onmicrosoft.com,US
+```
 
 2. Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user:
 
@@ -79,13 +84,10 @@ Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
 Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName
 }
 ```
-3. Run the resulting commands at the PowerShell command prompt.
+3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
 
 This PowerShell command block does the following:
  * Displays the user principal name of each user.
  * Sets the specified privacy mode for each user.
  * Creates a .csv file with all the users that were processed and shows their status.
 
-### Related topics
-
-For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
