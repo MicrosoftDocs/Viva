@@ -4,7 +4,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: License activation
-description: Activate a Workplace Analytics license
+description: Activate Workplace Analytics licenses
 author: madehmer
 ms.author: v-midehm
 ms.date: 03/27/2019
@@ -16,7 +16,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Activate a Workplace Analytics license
+# Activate a Workplace Analytics licenses
 
 You can activate additional Workplace Analytics licenses for an Office 365 tenant. By using a code that you receive from us, your Office 365 admin can follow these steps to add the code and set up the organization with additional licenses for a set period of time.
 
