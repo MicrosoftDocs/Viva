@@ -3,11 +3,11 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Promotional trial setup (WPA Promotion)
-description: Promotional trial of Workplace Analytics 
+title: License activation
+description: Activate a Workplace Analytics license
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 03/27/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,11 +16,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Workplace Analytics Promotional trial
+# Activate a Workplace Analytics license
 
-You can take advantage of a Workplace Analytics promotional trial to set up your organization with additional Workplace Analytics licenses on a trial basis. By using a promotional code that you receive from us, Office 365 admins can follow these steps to add the code and set up the organization with additional licenses.
+You can activate additional Workplace Analytics licenses for an Office 365 tenant for a set time frame. By using a code that you receive from us, your Office 365 admins can follow these steps to add the code and set up the organization with additional licenses for a set period of time.
 
-### To add a promotional trial code in Workplace Analytics
+### To activate additional Workplace Analytics licenses
 
 1. Start your web browser, such as Microsoft Internet Explorer, Microsoft Edge, Google Chrome, or Mozilla Firefox, for **InPrivate**, **incognito**, or **Private** browsing.
 
@@ -28,11 +28,11 @@ You can take advantage of a Workplace Analytics promotional trial to set up your
   
    ![InPrivate Browsing](../Images/new-inprivate-window.png)  
   
-3. Copy the Promotional Code link, which you received from us, paste it into the URL section of the private or incognito browser window, and then press **Enter** to open the link.
+3. Copy the activation code link, which you received from us, paste it into the URL section of the private or incognito browser window, and then press **Enter** to open the link.
 
    ![Promotional code link](../Images/promo-code.png)  
 
-4. To add the promotional code to your existing environment, select **Sign In** next to **Want to add this to an existing subscription?**
+4. To add the code to your existing environment, select **Sign In** next to **Want to add this to an existing subscription?**
 
    ![Promotional code sign-in](../Images/sign-in.png)
 
@@ -49,4 +49,4 @@ You can take advantage of a Workplace Analytics promotional trial to set up your
 
    ![Promotional licenses](../Images/promo-licenses.png)  
 
-10. On the Product licenses page, turn on the available trial licenses.
+10. On the Product licenses page, turn on the available licenses.
