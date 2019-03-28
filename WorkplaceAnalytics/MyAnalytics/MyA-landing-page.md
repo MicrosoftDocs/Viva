@@ -1,10 +1,10 @@
 ---
 layout: LandingPage
 title: MyAnalytics introduction
-description: Brief introduction to MyAnalytics with links to further information 
+description: MyAnalytics introduction with links to further information 
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 03/28/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -23,7 +23,7 @@ MyAnalytics provides insights into two of the key factors in personal productivi
 * [**Privacy guide**](../myanalytics/overview/Privacy-Guide.md): Learn about the ways MyAnalytics gathers, uses, and protects your data, and how administrators can configure based on company policy.
   
 * **MyAnalytics elements**: As a user, learn about the ways that MyAnalytics presents you with insights and how you can use these to make good decisions.
-  * [**MyAnalytics personal dashboard**](../myanalytics/use/dashboard-2.md): See how you spent your time over the past month, productivity insights about your work habits, helpful suggestions for improvement, and information about your network, top collaborators, and collaboration activities.
+  * [**MyAnalytics themes**](../myanalytics/use/dashboard-2.md): See how you spent your time over the past month, productivity insights about your work habits, helpful suggestions for improvement, and information about your network, top collaborators, and collaboration activities.
   * [**Outlook Add-in**](../myanalytics/use/add-in.md): The MyAnalytics Add-in for Outlook presents you with activity cards based on your recent work experience and enable you respond based on the activity.
   * [**Email digests**](../myanalytics/use/email-digest.md): You receive a weekly email digest that gives you highlights about your previous week.
   * [**Nudges in Outlook**](../myanalytics/use/mya-notifications.md): Contextual, data driven recommendations to help you build better work habits.
