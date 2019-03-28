@@ -5,8 +5,10 @@
     - name: Why use MyAnalytics?
       href: ./overview/Better-work-habits.md        
     - name: Frequently asked questions
-      href: ./overview/MyA-faq.md        
-    - name: MyAnalytics for admins
+      href: ./overview/MyA-faq.md
+    - name: MyAnalytics elements
+      href: ./use/elements.md            
+    - name: MyAnalytics admin guide
       href: ./overview/mya-for-admins.md
       items:
       - name: MyAnalytics setup
@@ -19,20 +21,18 @@
         href: ./setup/mya-disable-insights.md
     - name: Use MyAnalytics
       items:
-      - name: MyAnalytics elements
+      - name: MyAnalytics themes
         expanded: false
-        href: ./use/MyA-elements.md
+        href: ./Use/dashboard-2.md
         items:
-        - name: Dashboard
-          href: ./use/dashboard.md
-        - name: Add-in
-          href: ./use/add-in.md
-        - name: Email digest
-          href: ./use/email-digest.md
-        - name: MyAnalytics nudges
-          href: ./use/mya-notifications.md
-      - name: MyAnalytics tips
-        href: ./overview/Tips.md           
+        - name: Focus
+          href: ./Use/focus.md
+        - name: Wellbeing
+          href: ./Use/wellbeing.md
+        - name: Network
+          href: ./Use/network.md
+        - name: Collaboration
+          href: ./Use/collaboration.md           
       - name: Adopt MyAnalytics
         href: ./Use/MyA-Adoption/Adopt-myanalytics.md  
         items: 

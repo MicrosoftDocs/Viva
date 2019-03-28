@@ -2,18 +2,18 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics dashboard (Preview)
-description: Learn about what's included in your personal MyAnalytics dashboard 2019
+title: MyAnalytics themes
+description: Learn about MyAnalytics' themes
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 03/28/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 
 ---
 
-# MyAnalytics dashboard (Preview)
+# MyAnalytics themes
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 

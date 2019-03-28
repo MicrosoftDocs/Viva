@@ -139,7 +139,9 @@
       href: MyAnalytics/Overview/Better-work-habits.md    
     - name: Frequently asked questions
       href: MyAnalytics/Overview/MyA-faq.md
-    - name: MyAnalytics for admins
+    - name: MyAnalytics elements
+      href: MyAnalytics/Use/elements.md
+    - name: MyAnalytics admin guide
       href: MyAnalytics/overview/mya-for-admins.md
       items:
       - name: MyAnalytics setup
@@ -152,20 +154,18 @@
         href: MyAnalytics/setup/mya-disable-insights.md       
     - name: Use MyAnalytics
       items:
-      - name: MyAnalytics elements
+      - name: MyAnalytics themes
         expanded: false
-        href: MyAnalytics/Use/mya-elements.md
+        href: MyAnalytics/Use/dashboard-2.md
         items:
-        - name: Dashboard
-          href: MyAnalytics/Use/dashboard.md
-        - name: Add-in
-          href: MyAnalytics/Use/add-in.md
-        - name: Email digest
-          href: MyAnalytics/Use/email-digest.md
-        - name: MyAnalytics nudges
-          href: MyAnalytics/Use/mya-notifications.md
-      - name: MyAnalytics tips
-        href: MyAnalytics/Overview/Tips.md    
+        - name: Focus
+          href: MyAnalytics/Use/focus.md
+        - name: Wellbeing
+          href: MyAnalytics/Use/wellbeing.md
+        - name: Network
+          href: MyAnalytics/Use/network.md
+        - name: Collaboration
+          href: MyAnalytics/Use/collaboration.md
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/mya-adoption/Adopt-myanalytics.md
         homepage: /myanalytics/adopt-myanalytics/    
