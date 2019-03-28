@@ -7,7 +7,10 @@
     - name: Frequently asked questions
       href: ./overview/MyA-faq.md
     - name: MyAnalytics elements
-      href: ./use/elements.md            
+      expanded: false
+      href: ./use/elements.md
+      items:
+
     - name: MyAnalytics admin guide
       href: ./overview/mya-for-admins.md
       items:
