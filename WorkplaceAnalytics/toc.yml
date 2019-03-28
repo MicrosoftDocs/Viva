@@ -140,7 +140,15 @@
     - name: Frequently asked questions
       href: MyAnalytics/Overview/MyA-faq.md
     - name: MyAnalytics elements
-      href: MyAnalytics/Use/elements.md
+      expanded: false
+      href: MyAnalytics/Use/MyA-elements.md
+      items:
+        - name: Add-in
+          href: MyAnalytics/Use/add-in.md
+        - name: Email digest
+          href: MyAnalytics/Use/email-digest.md
+        - name: MyAnalytics nudges
+          href: MyAnalytics/Use/mya-notifications.md
     - name: MyAnalytics admin guide
       href: MyAnalytics/overview/mya-for-admins.md
       items:
