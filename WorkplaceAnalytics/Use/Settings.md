@@ -83,7 +83,7 @@ On the **System and privacy** tab, in the **System defaults** section, you can c
 * Hourly rate
 
 > [!Important]
-> Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data. These changes apply to data retroactively and can affect calculations of historical metrics.
+> Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
 ### Default time zone
 
@@ -229,7 +229,7 @@ Term from subject line to exclude | Actual subject line | Excluded
 5. At the top right of the page, select **Save**.
 
 > [!Important]
-> All subsequent changes to these privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data. Also, **hide meeting subject line** changes take affect immediately in meeting query results.
+> All subsequent changes to these privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data or Office 365 collaboration data. Also, **hide meeting subject line** changes take affect immediately in meeting query results.
 > * Changes to the minimum group and hide meeting subject line privacy settings apply retroactively to *all data*, including historical data.
 > * Changes to the exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
 
