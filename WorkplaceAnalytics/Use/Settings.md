@@ -72,7 +72,7 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 On the **Admin settings** page, you can configure system defaults and privacy settings.
 
-![Admin settings](../images/wpa/use/settings-system-defaults.png)
+![Admin settings](../images/wpa/use/settings-system-defaults-b.png)
 
 ## System defaults
 
@@ -106,7 +106,7 @@ Users can set their own working days and hours in [Outlook settings](https://out
 1. For **Working days**, select the appropriate days of the week.  
 2. For **Working day starts** and **Working day ends**, select the appropriate start and end times.
 
-   ![Working days and hours](../images/wpa/use/settings-system-defaults-b.png)
+   ![Working days and hours](../images/wpa/use/settings-system-defaults.png)
 
 ### Hourly rate
 
