@@ -157,7 +157,7 @@ After you complete the steps in [Field mapping](#field-mapping), the **Upload** 
 
    ![Validating the uploaded data](../images/wpa/setup/06-validating-your-upload.png)
 
-During this step, if you decide that the data you uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel**. 
+During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel**. 
 
 ## Validation succeeds
 
