@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Data Sources
-description: An overview of Data Sources in Workplace Analytics 
+title: Workplace Analytics Data sources
+description: An overview of Data sources in Workplace Analytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/21/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -56,7 +56,7 @@ For more information about what data is needed to compute metrics, see these top
 
 ## Office 365 data summary
 
-Office 365 data summary provides a view that you can use to evaluate meeting and email collaboration data levels over a given time period. It provides a view of average weekly meeting and mail hours, sent mails, and meetings attended over time. The Last refreshed date shows when data was most recently processed.
+Office 365 data summary provides a view that you can use to evaluate meeting and email collaboration data levels over a given time period. It provides a view of average weekly meeting and email hours, sent emails, and meetings attended over time. The Last refreshed date shows when data was most recently processed.
 
 Analysts can use these views to look for time periods that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
