@@ -63,9 +63,9 @@ You could view this relationship between the charts in a pair as a sort of "char
 
 By default, Workplace Analytics charts display data by employee groups within an organization. Charts show the average metric for each group. Changing the metric changes how the groups are sorted. To learn about changing metrics, see [Sort groups](#sort-groups).
 
-By default, a column chart (or box plot) displays 30 columns, where each column depicts a group of people. You can [change the number of groups (columns)](#change-the-number-of-groups) that a chart displays.
+By default, a column chart (or box plot) displays 30 columns, where each column depicts a group of people. You can [change the number of groups (columns)](#to-change-the-number-of-groups) that a chart displays.
 
-Charts also display the average for all groups, in the reference line. For more information, see [Reference line](#use-the-reference-line).
+Charts also display the average for all groups, in the reference line. For more information, see [Reference line](#use-the-reference-line-to-see-averages).
 
 ### Minimum group size
 
@@ -162,7 +162,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
    > [!Note]
    > * The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude groups chart tools.
-   > * You can apply these drill down and exclude actions with [Chart settings](#chart-page-settings-and-filters).
+   > * You can apply these drill down and exclude actions with [Chart settings](#page-settings-and-filters).
 
 #### To switch between percentage and hours data
 

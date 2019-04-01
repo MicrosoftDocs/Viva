@@ -20,13 +20,26 @@ You must assign a MyAnalytics license to each participant that wants to get stat
 > [!Note]
 > Assigning MyAnalytics licenses turns MyAnalytics on for participants. Before you do this, you might notify them in email that MyAnalytics will be available soon. To help you with this notification, use [this email template](MyAnalytics-announcement-template.docx). You can download it, customize it with your company’s information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
 
-After you assign one or more licenses, the new MyAnalytics participants gain access to MyAnalytics elements over the next few days, including the following.  
+### MyAnalytics elements become available
 
-1. **MyAnalytics welcome email is sent.** Three days after you assign licenses, your users will receive a welcome email from MyAnalytics. They do not receive this welcome email outside of their work week. If the third day after license assignment is a Saturday (which for most users is outside the work week), the welcome email arrives on the following Monday. For more information, see [Welcome email](../Setup/MyA-Welcome-email.md).
-&nbsp;
+<!-- Updated for Anu and Sourabh Feb 2019: -->
 
-2. **MyAnalytics elements become available.** After users receive the welcome email, they have access to the following elements of MyAnalytics.
+After you assign a user license, the new MyAnalytics participant will gain access to the elements of MyAnalytics as described here:  
 
-   * **MyAnalytics personal dashboard.** Users can visit the MyAnalytics personal [dashboard](../Use/dashboard-2.md).
-   * **Outlook add-in.** Users can see the MyAnalytics [add-in](../Use/add-in.md) in Microsoft Outlook.
-   * **Weekly email digest.** Users will begin to receive the MyAnalytics [email digest](../Use/email-digest.md). It arrives weekly, on Mondays, starting the first week after they receive the welcome email.
+<!--  
+> [!Note]
+> The following timeframes pertain to the March 2019 distribution of MyAnalytics features. 
+-->
+
+ * **Outlook add-in:** Users can see the MyAnalytics [add-in](../Use/add-in.md) in Outlook about 24 hours after their MyAnalytics license is granted.
+
+ * **MyAnalytics personal dashboard:** Users can visit the MyAnalytics personal [dashboard](../Use/dashboard-2.md) three to four days after their license is granted.
+
+ * **MyAnalytics welcome email:** 
+      * Existing users of Office 365 will receive the welcome email one to two days after their license is granted. 
+      * New users will receive the welcome email approximately four weeks after their license is granted. 
+     
+    > [!Note]
+    > Users will not receive the welcome email outside of their work week. Let's say a user's work week runs from Monday to Friday, inclusive. If this person's welcome email would otherwise arrive on a weekend, its arrival time is delayed to the following Monday. For more information, see [Welcome email](../Setup/MyA-Welcome-email.md).
+
+ * **Weekly email digest:** Users will begin to receive the MyAnalytics [email digest](../Use/email-digest.md) on the Monday of the first week after they receive the welcome email.
