@@ -6,7 +6,7 @@ title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/12/2019
+ms.date: 03/29/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -156,6 +156,8 @@ The upload of the .csv file starts the validation process.
 After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _We are validating your upload_ message.
 
    ![Validating the uploaded data](../images/wpa/setup/06-validating-your-upload.png)
+
+During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel**. 
 
 ## Validation succeeds
 
