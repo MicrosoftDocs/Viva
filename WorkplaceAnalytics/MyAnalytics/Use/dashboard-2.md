@@ -2,40 +2,32 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics themes
-description: Learn about MyAnalytics' themes
+title: MyAnalytics work patterns
+description: Learn about your work patterns in MyAnalytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 03/28/2019
+ms.date: 04/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 
 ---
 
-# MyAnalytics themes
+# Work patterns in MyAnalytics
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-Thank you for trying the brand new MyAnalytics experience. Welcome to your new personal dashboard that aims to help you understand how you spend your time and collaborate with colleagues.
+Thank you for trying the brand new MyAnalytics experience. Welcome to new personalized data that aims to help you understand how you spend your time and collaborate with colleagues.
 
 MyAnalytics gives you valuable new insights into how to increase focus, achieve work life balance, and improve your work relationships and team collaboration.
 
 **To open your personal MyAnalytics dashboard**: Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
 
-## Your work habits
+## MyAnalytics home page
 
 The Home page includes helpful statistics about your work activities over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
 
-![Your work habits](../../Images/mya/use/mya-work-habits.png)
-
-## Productivity insights
-
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work habits.
-
-![Productivity insights](../../Images/mya/use/pro-insights.png)
-
-See [MyAnalytics Tips](../Overview/tips.md) for suggestions on how to plan your calendar to improve your focus time, run more efficient meetings, and get better work-life balance.
+![Your work patterns](../../Images/mya/use/home-pg.png)
 
 ## Focus and Wellbeing
 
@@ -43,19 +35,7 @@ This section of the Explore page gives you ways to plan time for specific tasks,
 
 It also shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
-![Focus and wellbeing](../../Images/mya/use/mya-focus-wellbeing.png)
-
-### About the metrics
-
-* **Collaboration** is based on meetings, emails, chats, and calls with Teams and Skype for Business.
-
-* **Available to focus** is based on blocks of 2+ hours of free time in your calendar. Both are calculated only for your working hours, as determined by your Outlook calendar.
-
-   For example: If you spent 20 hours in meetings, emails, and chats in a given week, and had 10 hours’ worth of focus blocks (2+ contiguous hours of free time on your calendar) in your calendar that week, then your dashboard will show 67% collaboration and 33% available focus time for that week.
-
-* **Quiet days** are the number of days where you spent less than two hours actively collaborating outside your set work schedule (as defined by your Outlook calendar). Active collaboration includes meetings, or multiple emails, chats, or calls that occurred during this time.
-
-   For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, and you spent more than an hour reading or replying to email after 5 PM on Monday, and attended a meeting from 6 to 7 PM that same day, that Monday won't count as a quiet day.
+For more details, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
 ## Your Network
 
@@ -63,13 +43,13 @@ This section shows the people you actively networked with and your total network
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people.
 
-![Your Network](../../Images/mya/use/mya-network.png)
+For more details, see [Network](../use/network.md).
 
-### About the network metrics
+## Productivity insights
 
-* **Collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators. An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** considers the entire past year.
+These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work patterns.
 
-* **An important collaborator** is a coworker who you selected as important in MyAnalytics. You can select people as important in the **Important collaborators** section of **Explore** > **Your Network**.
+![Productivity insights](../../Images/mya/use/pro-insights.png)
 
 ## Config Settings
 

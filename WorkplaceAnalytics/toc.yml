@@ -143,10 +143,12 @@
       expanded: false
       href: MyAnalytics/Use/MyA-elements.md
       items:
+        - name: Dashboard
+          href: MyAnalytics/Use/dashboard-2.md
         - name: Add-in
           href: MyAnalytics/Use/add-in.md
         - name: Email digest
-          href: MyAnalytics/Use/email-digest.md
+          href: MyAnalytics/Use/email-digest-2.md
         - name: MyAnalytics nudges
           href: MyAnalytics/Use/mya-notifications.md
     - name: MyAnalytics admin guide

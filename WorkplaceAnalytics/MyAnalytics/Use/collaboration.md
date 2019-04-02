@@ -15,3 +15,8 @@ ms.prod: mya
 
 # MyAnalytics collaboration
 
+## Productivity insights
+
+These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work habits.
+
+![Productivity insights](../../Images/mya/use/pro-insights.png)

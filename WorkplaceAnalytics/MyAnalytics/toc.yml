@@ -10,10 +10,12 @@
       expanded: false
       href: ./use/MyA-elements.md
       items:
+      - name: Dashboard
+        href: MyAnalytics/Use/dashboard-2.md      
       - name: Add-in
         href: ./use/add-in.md
       - name: Email digest
-        href: ./use/email-digest.md
+        href: ./use/email-digest-2.md
       - name: MyAnalytics nudges
         href: ./use/mya-notifications.md
     - name: MyAnalytics admin guide
@@ -29,7 +31,7 @@
         href: ./setup/mya-disable-insights.md
     - name: Use MyAnalytics
       items:
-      - name: MyAnalytics themes
+      - name: Work patterns
         expanded: false
         href: ./Use/dashboard-2.md
         items:
