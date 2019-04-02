@@ -23,7 +23,7 @@ To learn more about the nature and use of organizational data, see [Use organiza
 
  * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze): Decide what trends you need to learn about to improve efficiency at work. From this, you can better choose what organizational data to use. 
  * [Know what data to include](#know-what-data-to-include): A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.  
- * [Get an organizational data export](#get-an-organizational-data-export): Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.  
+ * [Get an export of organizational data](#get-an-export-of-organizational-data): Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.  
  * [Structure the organizational data](#structure-the-organizational-data): For your data to validate successfully, you must first structure it correctly in the.csv file that you upload. 
  * [Upload the data to Workplace Analytics](#upload-the-data-to-workplace-analytics): After your .csv file is ready, you upload it to Workplace Analytics where, after validation and processing, it becomes available for analysis. 
 
@@ -107,7 +107,7 @@ For example, if the people in Marketing communicate frequently with the people i
 
 If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
-## Get an organizational data export
+## Get an export of organizational data 
 
 Before you format and upload organizational data, you must get it from one or more sources. Your primary source is the team that manages your organization's human resources (HR) information systems. This team will need to provide you with a data export of HR attributes for individual employees.
 
@@ -194,9 +194,10 @@ This means that for each measured employee, you would have 13 separate rows for 
 
 ## Attribute reference
 
-This section contains descriptive information about the attributes that you use in the organizational data files uploaded to Workplace Analytics. 
+This section contains information about the attributes that you use in the organizational data files uploaded to Workplace Analytics. 
 
 [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements)
+
 [Attribute notes and recommendations](#attribute-notes-and-recommendations)
 
 
@@ -211,10 +212,10 @@ ManagerId | Unique identifier for the employee’s manager, which is needed to c
 Organization| The internal organization that the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or other naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
 FunctionType | The job function that the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore-the-metrics features. | This attribute column is not required. If it is included, then each row must contain a function value.|
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), we recommend using the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
-HourlyRate | The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). **Note:** The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters such as a dollar sign. The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees. This is used in calculations and can be used to filter and group employees. Note that the Explore-the-metrics feature uses a fixed default HourlyRate of $75. When the default rate is changed, it applies retroactively to anyone without an effective hourly rate for the next scheduled (usually set monthly) refresh of your organizational (HR) data. |This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
+HourlyRate | The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). This attribute is used in calculations and can be used to filter and group employees.<p>**Notes:** The value can be formatted as a whole number, or include two decimal places. It cannot include any special characters, such as a currency symbol.<p>The value can represent pay only, or include it can include the full value of benefits, as long as that choice is consistently applied for all employees.<p>When the default rate is changed, it applies retroactively to anyone without an effective hourly rate for the next scheduled (usually set monthly) refresh of your organizational (HR) data.<p>Note that the Explore-the-metrics feature uses a fixed default HourlyRate of $75.  |This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 Layer | Where the employee is within the organizational hierarchy. The layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in Explore the metrics features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
 SupervisorIndicator  | Use this attribute to view the habits of people managers in your organization in Power BI visualizations. It powers the Overview table as well as the Generated Workload charts that are generated when you use the Manager Impact [Power BI template](../tutorials/power-bi-templates.md). <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required only if you want to use the Manager impact dashboard in Power BI. |
-TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones in Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.|
+TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.|
 Any user-defined columns | Additional columns can represent any data that you want to use in queries to group and filter employee records. | No coverage requirements. |
 
 ### Attribute notes and recommendations 
