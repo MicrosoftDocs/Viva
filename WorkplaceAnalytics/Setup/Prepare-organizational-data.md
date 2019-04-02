@@ -4,7 +4,7 @@
 
 title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics 
-author: madehmer
+author: paul9955
 ms.author: v-midehm
 ms.date: 03/05/2019
 ms.topic: get-started-article
@@ -17,67 +17,41 @@ audience: Admin
 
 # Prepare organizational data
 
-This article introduces key concepts about compiling and uploading organizational data in Workplace Analytics. After reading this, you will know what kind of organizational data to provide, what that data can help you discover, and how to upload the data.
+This article describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before you upload it. 
 
-## About organizational data
+To learn more about the nature and use of organizational data, see [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). When you’re ready to start working with organizational data, the following sections describe how.
 
-Organizational data is information about employees that your company provides to Workplace Analytics. Workplace Analytics combines your organizational data with Office 365 to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
+ * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze): Decide what trends you need to learn about to improve efficiency at work. From this, you can better choose what organizational data to use. 
+ * [Know what data to include](#know-what-data-to-include): A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.  
+ * [Get an organizational data export](#get-an-organizational-data-export): Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.  
+ * [Structure the organizational data](#structure-the-organizational-data): For your data to validate successfully, you must first structure it correctly in the.csv file that you upload. 
+ * [Upload the data to Workplace Analytics](#upload-the-data-to-workplace-analytics): After your .csv file is ready, you upload it to Workplace Analytics where, after validation and processing, it becomes available for analysis. 
 
-### What you can do with organizational data
+## Use organizational data for more effective analysis
 
-* Know how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of organizational data attributes.
-* Enable metrics customization to quantify group relationships. For example, collaboration time between marketing and sales.
-* Enable specific metrics calculations, such as insularity and redundancy.
+Organizational data is descriptive information about employees. After an admin uploads organizational data, Workplace Analytics combines it with Office 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
 
-### Sources of organizational data for your employees
+Here are examples of what analysts can do in Workplace Analytics after organizational data has been uploaded:
+ 
+ * Know how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
+ * Customize metrics to quantify group relationships, such as collaboration time between the marketing and sales groups.
+ * Make metrics calculations, such as insularity and redundancy.
 
-* Human resources (HR) information systems
-* Other line-of-business (LOB) data stores with business outcome data, such as:
-  * Performance review data from specific work groups
-  * Employee engagement scores captured by HR outside of HR information systems
-  * Sales or other quota attainment data that provide additional views into performance
-  * Employee survey data
+Workplace Analytics automatically collects collaboration data from Office 365. Analyzing just this data would create an incomplete picture; It’s the organizational data that you upload that provides analysis context. The following video illustrates these concepts:
 
-Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to Workplace Analytics at the individual level, meaning these attributes are used to give context to each person that makes up the data set.
+### Video: Organizational data provides context
 
-### Internal teams required to supply Workplace Analytics with organizational data
+<iframe width="580" height="512" src="https://player.vimeo.com/video/321146161" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 
-* The team that manages your organization's HR information system needs to provide you a data export of HR attributes for individual employees.
-* The line-of-business owners who have data that your analysts want to use.
+## Identify trends that you want to analyze
 
-## How often to upload
+To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You must first define these groups, which you can do in various ways:
 
-You can update organizational data as frequently as you like, but it will be refreshed upon the latest update of email and calendar data. Since email and calendar data is updated once a month, it might make sense to provide updates for this data on a similar cadence.
+ * Groups as defined by organizational data
+ * Groups made up of organizational hierarchy levels
+ * Groups made up of performance, engagement, or other line-of-business data
 
-## Whom to include in the data
-
-### HR data
-
-We recommend that you include every person in your company as part of your data upload, even if you only plan to gather collaboration data for a sub-group (target population) within your company.
-
-> [!Important]
-> If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
-
-For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics only has HR data about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
-
-If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
-
-### Line-of-business data
-
-Unlike HR data, for line-of-business data, you might not need every person's data in your company as part of the upload. Knowing the scenarios you want to analyze will help you to decide.
-
-For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the sales organization, because you will use the score values to group and filter specific report outputs.
-
-## What to include in the upload
-
-To get full functionality from Workplace Analytics, requires a few attributes as described in the following Export data section. Additionally, you can supply up to 65 total attributes to group and filter data in interesting and custom ways.
-
-The specific requirements for which organizational data attributes you want to provide will depend on the specific business scenarios that data analysts want to explore.
-You can use the following steps to help you think through all the relevant factors in determining what data to provide.
-
-## Step one – Identify the kind of collaboration and communication trends you want to analyze
-
-In your analysis, you will look at collaboration across different employee segments. These employee segments can be groups as defined by organizational data, groups made up of organizational hierarchy levels, or groups made up of performance, engagement, or other line of business data. The following are some common analyses examples.
+Defined groups can be used in the following examples of analyses:
 
 ### Collaboration between groups
 
@@ -85,90 +59,153 @@ A common analysis scenario is to find patterns of collaboration between differen
 
 Attributes for segmenting populations can be helpful to consider in defining patterns of collaboration:
 
-* Job family or role attributes, such as profession, function, discipline, job code
-* Organization, line of business, or cost center, such as HR, Finance, Sales, and Marketing
-* Location attributes, such as city, state, country, and regions, as defined by your organization
-* Attributes that describe the type of worker, such as remote, exempt/non-exempt, FTE/vendor, part time/full time, tenure in organization, and tenure in current role.
+ * Job family or role attributes, such as profession, function, discipline, and job code
+ * Organization, line of business, or cost center, such as HR, Finance, Sales, and Marketing
+ * Location attributes, such as city, state, country, and regions, as defined by your organization
+ * Attributes that describe the type of worker, such as remote, exempt/non-exempt, FTE/vendor, part time/full time, tenure in organization, and tenure in current role.
 
 Most of these attributes are available within HR information systems.
 
 ### Hierarchical collaboration
 
-It is also common to want to define patterns of collaboration behavior in reference to the hierarchy in your organization, as well as to quantify collaboration between managers and individual contributors, and between higher and lower levels and layers in the organization.
+It’s also common to seek patterns of collaboration behavior in reference to the hierarchy of your organization, as well as to quantify collaboration between managers and individual contributors, and between higher and lower levels and layers in the organization.
 
-Concepts that are helpful in this analysis are:
+The following concepts are helpful in this analysis:
 
-* Whether an employee is an individual contributor or a manager.
-* Organizational hierarchy. For example, the names of all managers above the employee in that employee's reporting structure; each manager can be stored as a separate attribute.
-* Layer. For example, the position of the employee in the organizational hierarchy where layer 0 = the top leader in the company.
-* Span. For example, the number of direct reports assigned to an employee.
-* Level. For example, senior manager, VP, director, CVP, and so on.
+ * IC or manager: Whether an employee is an individual contributor or a manager.
+ * Organizational hierarchy: For example, the names of all managers above the employee in that employee's reporting structure; each manager can be stored as a separate attribute.
+ * Layer: For example, the position of the employee in the organizational hierarchy where layer 0 = the top leader in the company.
+ * Span: For example, the number of direct reports assigned to an employee.
+ * Level: For example, senior manager, VP, director, CVP, and so on.
 
 Most of these attributes are also found in HR information systems.
 
 ### Collaboration, engagement, and outcome data
 
-Finally, you many want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data such as sales quota attainment or high/low performance ratings. These data are often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
+Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data, such as sales-quota attainment or high/low performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
-## Step two – Avoid common pitfalls
+## Know what data to include 
 
-Strive to avoid the following pitfalls when choosing the organizational data you want to provide:
+To get full functionality from Workplace Analytics, you must supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 60 optional attributes to group and filter data in interesting and custom ways. 
 
-### Too many unique values
+Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to Workplace Analytics at the individual level, which means that these attributes provide context to each person in the dataset. 
 
-Sometimes an attribute will have too many unique values to be used in grouping and filtering.
-For example, if a job function or code is very narrowly defined, it might not give a useful view of the overall group. If it is likely that an attribute could have hundreds of unique values resulting in a small population group per value, the attribute may not be useful.
+The following video describes which attributes are required and optional in your data upload:
 
-### Too few unique values
+### Video: What to include in the upload
 
-Conversely, sometimes an attribute is too broadly defined to allow for useful filtering. For example, if your organization resides entirely in the United States and your HR records per employee contain a country code that always equals US, that attribute would not be useful to include.
+<iframe width="580" height="512" src="https://player.vimeo.com/video/323318072" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 
-### Redundant attributes
+## Which employees to include
 
-Some attributes may represent the same data and provide unnecessary redundant data for analysis. For example, HR data could contain both a cost center ID and a cost center name for an employee. Since both represent the same information in a slightly different format, you may want to include only the one with the more “user friendly” name.
+It's best to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
 
-### Attributes that only exist for a population subset
+> [!Important] 
+> If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
 
-When choosing attributes to include, be aware of cases where some attribute values might be populated for one organization but not others. For example, if the sales quota attainment data only applies to your sales organization, you must be mindful that this data cannot be used for filtering and grouping employees outside of sales.
+For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
-### Dirty data
+If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
-In addition to some attributes only being applicable for certain employees in the population, you may find that data from HR and other line-of-business systems can often be dirty or inconsistent. As noted later in this topic, key organizational data attributes must be supplied in order for Workplace Analytics to accept the data. If your systems have gaps in these special attributes, you will have to perform data cleansing to provide accurate values for the missing entries or suitable defaults.
+## Get an organizational data export
 
-## Step three – Export data
+Before you format and upload organizational data, you must get it from one or more sources. Your primary source is the team that manages your organization's human resources (HR) information systems. This team will need to provide you with a data export of HR attributes for individual employees.
 
-After you have identified the data to provide, you need to export it into a format to upload in Workplace Analytics. This section explains how to correctly format the data into a comma-separated value (.csv) file that will successfully upload into Workplace Analytics.
+In addition, your analysts might need data about business outcomes. If so, you'll need to contact line-of-business (LOB) owners who have access to data stores that contain this information. For example:
 
-### Required attributes and file format
+ * Performance-review data for specific work groups
+ * Employee engagement scores captured by HR outside of HR information systems
+ * Sales or other quota-attainment data that provide additional views into performance
+ * Employee survey data
 
-The data must be supplied in a UTF-8 encoded .csv file and contain a set of required attributes for the population. The following table provides details on the required attributes and the data coverage requirements.
+After you get this data, you must structure it for successful processing after uploading it to Workplace Analytics. 
+
+## Structure the organizational data 
+
+After you’ve identified what data to provide, you need to export it into the correct format to upload to Workplace Analytics. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
+
+The following video describes how to structure your organizational data file, including how to format the file, how to use the EffectiveDate field to reflect historical changes in your organization, which employees to include, and how to structure data that you add or update in subsequent uploads:
+
+### Video: How to structure the organizational data file
+
+<iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+
+### Required, reserved optional, and custom attributes
 
 **Required attributes** must be supplied with the following exact column headers (case sensitive) in the .csv upload:
 
-* PersonId
-* EffectiveDate
-* LevelDesignation
-* ManagerId
-* Organization
+ * PersonId
+ * EffectiveDate
+ * LevelDesignation
+ * ManagerId
+ * Organization
 
-**Reserved optional attributes** are reserved column headers for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations. 
+**Reserved optional attributes** are reserved column headers for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations.
 
-* FunctionType
-* HireDate
-* HourlyRate
-* Layer
-* SupervisorIndicator
-* TimeZone
+ * FunctionType
+ * HireDate
+ * HourlyRate
+ * Layer
+ * SupervisorIndicator
+ * TimeZone
 
-Although these attributes are not required, if included, they must meet the following coverage requirements as described in the table that follows:
+Although these attributes are not required, if included, they must meet particular coverage requirements.
 
-**Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.  
+**Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.
 
-> [!Note]
-> * The maximum number of total attributes allowed in the system is 65 (including the attributes mentioned above).
+> [!Note] 
+> * The maximum number of total attributes allowed in the system is 65. This includes the five required attributes.
 > * All dates should be in the MM/DD/YYYY format.
+> * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas.
 
-### Attribute description and data coverage requirements
+For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements). 
+
+#### Example .csv export file
+
+Here's an example snippet of a valid .csv export file:
+
+PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area
+Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
+Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
+Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
+Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+
+
+```
+PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+```
+
+For more information about attributes, see the [Attribute reference](#attribute-reference) section. 
+
+## Upload the data to Workplace Analytics 
+
+After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](..\setup\upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](..\setup\upload-organizational-data.md).
+
+After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Workplace Analytics administrator.
+
+### How often to upload organizational data 
+
+You can update organizational data as frequently as you like, but it will be refreshed with the latest update of email and calendar data. Since email and calendar data is updated weekly, it might make sense to provide updates for this data on a similar cadence.
+
+#### Supplying data over a time period
+
+By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). 
+
+If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
+
+This means that for each measured employee, you would have 13 separate rows for each employee, with an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2018, the effective date for all rows should be set to 10/1/2017.
+
+## Attribute reference
+
+This section contains descriptive information about the attributes that you use in the organizational data files uploaded to Workplace Analytics. 
+
+[Attribute descriptions and data-coverage requirements](#attribute-description-and-data-coverage-requirements)
+[Attribute notes and recommendations](#Aattribute-notes-and-recommendations)
+
+
+### Attribute description and data-coverage requirements
 
 Attribute (column header) | Description of data and data validity | Data coverage requirements
 ---------|----------|---------|
@@ -185,37 +222,31 @@ SupervisorIndicator  | Use this attribute to view the habits of people managers 
 TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones in Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.|
 Any user-defined columns | Additional columns can represent any data that you want to use in queries to group and filter employee records. | No coverage requirements. |
 
-### Supplying data over a time period
+## Attribute notes and recommendations 
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year.
+### Some attributes exist only for a subset of the population 
 
-Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in the [ table](#attribute-description-and-data-coverage-requirements).
+When choosing attributes to include, some attribute values might be populated for one organization but not others. For example, if  the upload includes sales quota-attainment data that only applies to your sales organization,  you cannot use this data for filtering and grouping employees outside of sales. 
 
-If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time; therefore, for greatest data fidelity, during provisioning you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
+### Use only allowed time zones
 
-This means that for each measured employee, you would have 13 separate rows for each employee, with an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2018, the effective date for all rows should be set to 10/1/2017.
+The default time zone for Workplace Analytics is Pacific Standard Time (PST). See [Time zones for Workplace Analytics](../Use/Timezones-for-workplace-analytics.md) for a complete list of the times zones that you can use.
 
-### Example .csv export file
+### Too many unique values
 
-This is an example snippet of a valid CSV export file:
+Sometimes an attribute has too many unique values to use for grouping and filtering. For example, if a job function or code is too narrowly defined, it might not give you a useful view of the overall group. If an attribute has hundreds of unique values that result in a small population group per value, the attribute might not be useful. 
 
-PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area
-Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
-Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+### Too few unique values
 
-> [!Important]
-> Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas. Also, the .csv file must use UTF-8 encoding. For more information about saving a file in UTF-8 format, see [Solution](../Tutorials/Download-UTF8-query-report.md#solution).
+Conversely, sometimes an attribute is too broadly defined for useful filtering. For example, if your organization resides entirely in the United States and your HR records per employee contain a country code that always equals US, that attribute won’t be useful. 
 
-### Allowed time zones
+### Redundant attributes
 
-The default time zone for Workplace Analytics is Pacific Standard Time (PST). Visit [Time zones for Workplace Analytics](../Use/Timezones-for-workplace-analytics.md) for a complete list of the times zones that you can use.
+Some attributes might represent the same data and provide unnecessary redundant data for analysis. For example, HR data could contain both a cost center ID and a cost center name for an employee. Because both represent the same information in a slightly different format, you’ll want to include only the one with the more "user friendly" name. 
 
-## Step four - Upload data
+### Line-of-business data
 
-After you create your source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md). 
+Unlike HR data, for line-of-business data, you might not need to include every person in your company as part of your data upload. Knowing the scenarios you want to analyze will help you to decide.
 
-After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems arise, the Workplace Analytics team will contact your Workplace Analytics administrator.
+For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you will use the score values to group and filter specific report outputs.
+
