@@ -158,7 +158,7 @@ Although these attributes are not required, if included, they must meet particul
 > * All dates should be in the MM/DD/YYYY format.
 > * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas.
 
-For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements). 
+For more information, see [Attribute descriptions and data-coverage requirements](#attribute-description-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
 
 #### Example .csv export file
 
@@ -172,16 +172,11 @@ Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sa
 Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
-
-```
-PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-```
-
 For more information about attributes, see the [Attribute reference](#attribute-reference) section. 
 
 ## Upload the data to Workplace Analytics 
 
-After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](..\setup\upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](..\setup\upload-organizational-data.md).
+After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
 
 After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Workplace Analytics administrator.
 
@@ -191,7 +186,7 @@ You can update organizational data as frequently as you like, but it will be ref
 
 #### Supplying data over a time period
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). 
+By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-description-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). 
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
@@ -202,7 +197,7 @@ This means that for each measured employee, you would have 13 separate rows for 
 This section contains descriptive information about the attributes that you use in the organizational data files uploaded to Workplace Analytics. 
 
 [Attribute descriptions and data-coverage requirements](#attribute-description-and-data-coverage-requirements)
-[Attribute notes and recommendations](#Aattribute-notes-and-recommendations)
+[Attribute notes and recommendations](#attribute-notes-and-recommendations)
 
 
 ### Attribute description and data-coverage requirements
