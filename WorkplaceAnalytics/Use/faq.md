@@ -4,7 +4,7 @@
 
 title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
 ms.date: 02/21/2019
 ms.topic: article
@@ -32,7 +32,7 @@ A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 
 
 ##### Q2. Does Workplace Analytics retain and use data about employees that no longer work for the organization?
 
-A2. Workplace Analytics maintains historical organizational data that can include past (previously licensed) employees’ de-identified data. A change to organizational data is updated in Workplace Analytics the next time it is received and processed (usually monthly) by Workplace Analytics. However, new changes do not affect historical data used by Workplace Analytics. For more details, see [How often to upload in Prepare organizational data](../setup/prepare-organizational-data.md#how-often-to-upload).
+A2. Workplace Analytics maintains historical organizational data that can include past (previously licensed) employees’ de-identified data. A change to organizational data is updated in Workplace Analytics the next time it is received and processed (usually monthly) by Workplace Analytics. However, new changes do not affect historical data used by Workplace Analytics. For more details, see [How often to upload in Prepare organizational data](../setup/prepare-organizational-data.md#how-often-to-upload-organizational-data).
 
 ##### Q3. How many people should be Workplace Analytics admins and/or analysts?
 
@@ -52,7 +52,7 @@ A6. The Analyst Limited Access role is for the analyst who needs access only to 
 
 ##### Q7. After changing the configuration and privacy settings, when do the changes take effect in the data?
 
-A7. Any changes to [Configuration and Privacy settings in Workplace Analytics](../setup/maintain-workplace-analytics.md) go into effect at the next organizational collaboration or data-processing upload. For more details, see [How often to upload](../setup/prepare-organizational-data.md#how-often-to-upload) in [Prepare organizational data](../setup/prepare-organizational-data.md).
+A7. Any changes to [Configuration and Privacy settings in Workplace Analytics](../setup/maintain-workplace-analytics.md) go into effect at the next organizational collaboration or data-processing upload. For more details, see [How often to upload](../setup/prepare-organizational-data.md#how-often-to-upload-organizational-data) in [Prepare organizational data](../setup/prepare-organizational-data.md).
 
 ##### Q8. What if my licensed population works in different time zones or has varying working hours?
 
@@ -87,7 +87,7 @@ A4. All field header or column names must:
 * Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP).
 * Have no spaces (Date1).
 * Have no special characters (non-alphanumeric, such as @, #, %, &, and *).
-* Match exactly as listed for [Workplace Analytics’ Required and Reserved optional attributes](../setup/prepare-organizational-data.md#step-three--export-data), including for case sensitivity (for example PersonId and HireDate).
+* Match exactly as listed for [Workplace Analytics’ Required and Reserved optional attributes](../setup/prepare-organizational-data.md#required-reserved-optional-and-custom-attributes), including for case sensitivity (for example PersonId and HireDate).
 
 > [!Note]
 > Special characters and spaces are OK in attribute names because they are automatically reformatted during field mapping to the accepted format for column names. This list is also included in [Upload tips](../setup/upload-organizational-data.md#tips).
@@ -166,7 +166,7 @@ A2. Yes. Anyone in your organization can use the meeting exclusion rules that an
 
 #####  Q1. Why is my measured population less than the number of employees with assigned licenses?
 
-A1. You might have selected only a subset of your population for data analysis or your admin might have excluded a subset of the population from the organizational data that’s uploaded into Workplace Analytics. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md) and [Whom to include in the organizational data](../setup/prepare-organizational-data.md#whom-to-include-in-the-data).
+A1. You might have selected only a subset of your population for data analysis or your admin might have excluded a subset of the population from the organizational data that’s uploaded into Workplace Analytics. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md) and [Whom to include in the organizational data](../setup/prepare-organizational-data.md#which-employees-to-include).
 
 ##### Q2. Why do the totals seem too high for other internal collaborators and external collaborators?
 
