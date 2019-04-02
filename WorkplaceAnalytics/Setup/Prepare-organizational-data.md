@@ -158,7 +158,7 @@ Although these attributes are not required, if included, they must meet particul
 > * All dates should be in the MM/DD/YYYY format.
 > * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas.
 
-For more information, see [Attribute descriptions and data-coverage requirements](#attribute-description-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
+For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
 
 #### Example .csv export file
 
@@ -186,7 +186,7 @@ You can update organizational data as frequently as you like, but it will be ref
 
 #### Supplying data over a time period
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-description-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). 
+By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). 
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
@@ -196,7 +196,7 @@ This means that for each measured employee, you would have 13 separate rows for 
 
 This section contains descriptive information about the attributes that you use in the organizational data files uploaded to Workplace Analytics. 
 
-[Attribute descriptions and data-coverage requirements](#attribute-description-and-data-coverage-requirements)
+[Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements)
 [Attribute notes and recommendations](#attribute-notes-and-recommendations)
 
 
