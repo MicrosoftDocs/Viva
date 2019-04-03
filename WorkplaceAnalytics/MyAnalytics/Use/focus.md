@@ -17,7 +17,7 @@ ms.prod: mya
 
 The MyAnalytics Focus page shows weekly averages for Available focus and Collaboration time. We define focus time as at least two consecutive hours of time without meetings. Focus time is meant to represent enough time so that you can focus on deliverables or complete other important tasks.
 
-![Focus](../../Images/mya/use/focus-pg.png)
+![Focus](../../Images/mya/use/focus.png)
 
 ## Productivity insights
 
