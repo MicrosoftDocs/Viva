@@ -23,9 +23,9 @@ MyAnalytics gives you valuable new insights into how to increase focus, achieve 
 
 **To open your MyAnalytics dashboard**: Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
 
-## MyAnalytics home page
+## Home
 
-The Home page has helpful statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
+The **Home** page has helpful statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
 
 ![Your work patterns](../../Images/mya/use/home-pg.png)
 
