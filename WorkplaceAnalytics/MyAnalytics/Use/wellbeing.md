@@ -31,7 +31,17 @@ These are based on your recent workplace activity. Select **View Suggestions** t
 
 ## Wellbeing tips
 
+#### Turn off notifications when not at work
+
+ Some find it helpful to reserve one night a week away from work or mute notifications outside of working hours. Research shows that people who disconnect daily from work report lower levels of stress and higher wellbeing.
+
+#### Take a break when at work
+
+Go enjoy a meal with your team or take a relaxation break during work. You’ll give your brain a break, grow your network, and probably boost your productivity and professional success.
+
 #### Be a thoughtful coworker!
+
+Establishing quiet hours with no meetings or email can lead to better teamwork:
 
 * For "inform" type emails, condense the emails and status updates into daily or weekly digests. This reduces the overall noise and randomization caused by email overload.
 * Save drafts or delay delivery for email until the recipients’ normal business hours. Limit late night and early morning email to urgent email, to cut through the noise.
@@ -43,14 +53,6 @@ As a team, be respectful of people’s time. For example:
 * Be intentional about who you invite to meetings.
 * Try to limit meeting overruns.
 * Consider starting a policy of no-meetings Wednesdays.
-
-#### Make time for relaxation
-
-Allowing time for a little relaxation during work hours can not only provide mental recovery, it can promote your professional success.  
-
-#### Make time for what's important
-
-Before you skip lunch and have a fourth cup of coffee at your desk, go enjoy a meal with your team. You’ll give your brain a break, grow your network, and probably boost your productivity.
 
 ## Related topics
 

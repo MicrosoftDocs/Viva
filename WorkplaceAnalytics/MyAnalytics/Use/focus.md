@@ -35,11 +35,31 @@ These are based on your recent workplace activity. Select **View Suggestions** t
 
 #### Block focus time on your calendar
 
-It can be hard to go deep on your most challenging work when you're distracted by back-to-back meetings and endless notifications. By blocking 2+ hours of time for focused work into your calendar every day, you can get more done in less time, master your task list, and unleash your creativity. Prioritize your own time and block against double-booking over it. In the same way, be respectful of double-booking over your team’s blocked time.
+It can be hard to go deep on your most challenging work when you're distracted by back-to-back meetings and endless notifications. By blocking 2+ hours of time for focused work into your calendar every day, you can get more done in less time, master your task list, and unleash your creativity.
 
-### Fewer meetings
+Prioritize your own time and block against double-booking over it. In the same way, be respectful of double-booking over your team’s blocked time.
 
-Fewer meetings can mean more time to concentrate on meaningful tasks, or to rest.
+#### Book focus time at the beginning of the week
+
+Booking focus time on your calendar at the beginning of the week will ensure you have enough time to get your work done. Try using the MyAnalytics Outlook Add In for a convenient way to book focus time.
+
+#### Don't get distracted by email
+
+To maximize focus, try checking your inbox once an hour. If that works well, try increasing it to checking email every two hours. Discover how much focus you can get back. When work is interrupted, it can take up to 20 minutes to get back into the flow.
+
+#### Group your meetings together on your calendar
+
+If your calendar is fragmented with meetings, try grouping your meetings on your calendar, so you have longer free blocks available to focus.
+
+#### Reduce the meetings you attend and schedule
+
+Fewer meetings can mean more time to concentrate on meaningful tasks, or to rest. Review your recurring meetings to make sure they're a good use of time each week.
+
+In an office culture where meetings fill the day, make the most of yours. By setting expectations and making goals clear ahead of time, meetings can become more efficient. Giving you and your colleagues some time back.
+
+#### Divide up meetings and share notes after
+
+Meetings are essential for sharing information and getting work done, but they're not always the best use of time. A few simple habits, such as preparing agendas in advance and being selective in accepting new invites, can help you trim unnecessary meeting time out of your schedule and get time back for other projects.
 
 ## Related topics
 

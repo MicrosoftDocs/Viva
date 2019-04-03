@@ -29,8 +29,6 @@ These are based on your recent activity at work. Select **View Suggestions** to 
 
 These are people you marked as important in MyAnalytics. MyAnalytics will help you track your communications with these people and help you maintain healthy work relationships with them. MyAnalytics will remind you of unread emails from these people and tasks you need to do for them.
 
-In the **Suggested important people** section of the **Network** page, you can search for people and then select the star next to their names to add them to your important people list.
-
 ## About network metrics
 
 * **Top collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators.
@@ -39,17 +37,21 @@ In the **Suggested important people** section of the **Network** page, you can s
 
 ## Network tips
 
+#### Add top collaborators to your important people list
+
+Things change. Keep your Important people list up to date: [MyAnalytics dashboard](https://myanalytics.microsoft.com) > **Network** > **Suggested important people** to search for people in your network and then select the star next to their names to add them to your list as important.
+
+#### Set up a weekly check-in with your manager
+
+One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync. Research shows that top-performing managers get regular one-on-one time with their team members.  One-on-ones give employees an opportunity to voice concerns, share feedback, and stay motivated.
+
 ### Make time for networking
 
-Making time for fostering relationships and growing networks has proven to contribute to professional advancement. A study carried out by a partnering team proved a correlation between successful sales people and large networks. The top sales people boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
+Making time to foster relationships and grow your network has proven to contribute to professional advancement. A team partner study showed a correlation between successful sales people and large networks. The top sales people boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
 
 #### Spend more time with important collaborators
 
-Spending more time with the people in your network who align with your top priority tasks at work will improve team collaboration and increase project success. To do this, schedule one more weekly, reoccurring meeting with these people. For example, move a person from "right to left" in your "My network" map.
-
-#### Set up a weekly check-in to stay in sync
-
-One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync.
+Spending more time with the people in your network who align with your top priority tasks at work will improve team collaboration and increase project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
 
 ## Related topics
 
