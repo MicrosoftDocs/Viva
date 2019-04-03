@@ -4,9 +4,9 @@
 
 title: Improve your work patterns with personal productivity insights in MyAnalytics
 description: How to use MyAnalytics to improve your work patterns
-author: paul9955
-ms.author: v-pascha
-ms.date: 02/21/2019
+author: madehmer
+ms.author: v-midehm
+ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
