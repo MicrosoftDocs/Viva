@@ -6,7 +6,7 @@ title: MyAnalytics network
 description: Learn how to use MyAnalytics to improve your work relationships and grow your network
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/01/2019
+ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -62,7 +62,7 @@ One-on-ones are a great way to keep your manager in the loop and resolve any iss
 
 ### Make time for networking
 
-Making time to foster relationships and grow your network has proven to contribute to professional advancement. A team partner study showed a correlation between successful sales people and large networks. The top sales people boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
+Making time to foster relationships and grow your network has proven to contribute to professional advancement. A team partner study showed a correlation between successful salespeople and large networks. The top salespeople boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
 
 #### Spend more time with important collaborators
 
