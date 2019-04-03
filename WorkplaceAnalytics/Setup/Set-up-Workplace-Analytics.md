@@ -5,8 +5,8 @@
 title: Workplace Analytics setup
 description: How to set up and configure Workplace Analytics
 author: paul9955
-ms.author: v-midehm
-ms.date: 02/21/2019
+ms.author: v-pascha
+ms.date: 03/29/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -36,9 +36,12 @@ This article describes the steps that are required to set up and configure Workp
 
 1. **Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
 
-      ![The Home page guides you through setup](../images/wpa/setup/01-home-start.png)
+      ![The Home page guides you through setup](../images/wpa/setup/01-home-start-new.png)
   
-2. **Licenses and roles** - Verify that your Office 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](assign-licenses-to-population.md) and [Assign roles](assign-roles-to-wpa-admins.md).
+2. **Licenses and roles** - Verify that your Office 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](assign-licenses-to-population.md) and [Assign roles](assign-roles-to-wpa-admins.md). 
+
+   > [!Note] 
+   > On the **Home** page, under **Required to start**, Workplace Analytics admins can see the current number of assigned roles and licenses. They can proceed with setup only if the number of assigned licenses is greater than zero.
 
 3. **System settings** - Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system settings](../Use/settings.md#system-defaults).
 
