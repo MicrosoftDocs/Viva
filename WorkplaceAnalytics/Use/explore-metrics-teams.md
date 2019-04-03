@@ -74,7 +74,7 @@ Working hours in calls| Total number of hours a person spent time in scheduled a
 
 ## Related topics
 
-[Person queries](../tutorials/Person-queries.md)
-[Meeting queries](../tutorials/Meeting-queries.md)
-[Workplace Analytics Charts](../use/chart-types.md)
-[Metric descriptions](../use/metric-definitions.md)
+* [Person queries](../tutorials/Person-queries.md)
+* [Meeting queries](../tutorials/Meeting-queries.md)
+* [Workplace Analytics Charts](../use/chart-types.md)
+* [Metric descriptions](../use/metric-definitions.md)
