@@ -15,7 +15,7 @@ ms.prod: mya
 # MyAnalytics tips  
 
 > [!Note] 
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](../plans-environments.md) about the experiences that users will get in each plan. 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](../overview/plans-environments.md) about the experiences that users will get in each plan. 
 
 Use these tips to learn how to spend your time better and focus on what's important in your work. Not all tips are for everyone. What you can and should do always depends on your role and the organization you work in. 
 
