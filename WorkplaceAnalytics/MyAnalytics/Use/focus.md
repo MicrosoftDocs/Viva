@@ -15,11 +15,15 @@ ms.prod: mya
 
 # MyAnalytics focus
 
-The Focus page shows weekly averages for Available focus and Collaboration time. gives you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
+The Focus page shows weekly averages for Available focus and Collaboration time. We define focus time as at least two consecutive hours of time without meetings. Focus time is meant to represent enough time so that you can focus on deliverables or complete other important tasks.
 
 ![Focus](../../Images/mya/use/focus-pg.png)
 
-### About the metrics
+## Productivity insights
+
+These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work patterns, such as booking focus time in your calendar and adding tasks to the body of the appointment.
+
+### About focus metrics
 
 * **Collaboration** is based on meetings, emails, chats, and calls with Teams and Skype for Business.
 
@@ -27,8 +31,16 @@ The Focus page shows weekly averages for Available focus and Collaboration time.
 
    For example: If you spent 20 hours in meetings, emails, and chats in a given week, and had 10 hours’ worth of focus blocks (2+ contiguous hours of free time on your calendar) in your calendar that week, then your dashboard will show 67% collaboration and 33% available focus time for that week.
 
-## Productivity insights
+## Focus tips
 
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work patterns.
+#### Block focus time on your calendar
 
-![Productivity insights](../../Images/mya/use/pro-insights.png)
+It can be hard to go deep on your most challenging work when you're distracted by back-to-back meetings and endless notifications. By blocking 2+ hours of time for focused work into your calendar every day, you can get more done in less time, master your task list, and unleash your creativity. Prioritize your own time and block against double-booking over it. In the same way, be respectful of double-booking over your team’s blocked time.
+
+### Fewer meetings
+
+Fewer meetings can mean more time to concentrate on meaningful tasks, or to rest.
+
+## Related topics
+
+[Work patterns in MyAnalytics](../use/dashboard-2.md)

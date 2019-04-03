@@ -164,7 +164,7 @@
         href: MyAnalytics/setup/mya-disable-insights.md       
     - name: Use MyAnalytics
       items:
-      - name: MyAnalytics themes
+      - name: Work patterns
         expanded: false
         href: MyAnalytics/Use/dashboard-2.md
         items:
@@ -174,8 +174,6 @@
           href: MyAnalytics/Use/wellbeing.md
         - name: Network
           href: MyAnalytics/Use/network.md
-        - name: Collaboration
-          href: MyAnalytics/Use/collaboration.md
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/mya-adoption/Adopt-myanalytics.md
         homepage: /myanalytics/adopt-myanalytics/    

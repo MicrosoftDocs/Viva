@@ -31,7 +31,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 In the **Suggested important people** section of the **Network** page, you can search for people and then select the star next to their names to add them to your important people list.
 
-## About the network metrics
+## About network metrics
 
 * **Top collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators.
 * An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** uses activity over the past year.
@@ -39,15 +39,17 @@ In the **Suggested important people** section of the **Network** page, you can s
 
 ## Network tips
 
+### Make time for networking
+
+Making time for fostering relationships and growing networks has proven to contribute to professional advancement. A study carried out by a partnering team proved a correlation between successful sales people and large networks. The top sales people boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
+
 #### Spend more time with important collaborators
 
 Spending more time with the people in your network who align with your top priority tasks at work will improve team collaboration and increase project success. To do this, schedule one more weekly, reoccurring meeting with these people. For example, move a person from "right to left" in your "My network" map.
 
-
 #### Set up a weekly check-in to stay in sync
 
 One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync.
-
 
 ## Related topics
 

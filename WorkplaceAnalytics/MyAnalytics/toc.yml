@@ -40,9 +40,7 @@
         - name: Wellbeing
           href: ./Use/wellbeing.md
         - name: Network
-          href: ./Use/network.md
-        - name: Collaboration
-          href: ./Use/collaboration.md           
+          href: ./Use/network.md        
       - name: Adopt MyAnalytics
         href: ./Use/MyA-Adoption/Adopt-myanalytics.md  
         items: 
