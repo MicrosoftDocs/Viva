@@ -23,7 +23,7 @@ The Focus page shows weekly averages for Available focus and Collaboration time.
 
 These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work patterns, such as booking focus time in your calendar and adding tasks to the body of the appointment.
 
-### About focus metrics
+### About the metrics
 
 * **Collaboration** is based on meetings, emails, chats, and calls with Teams and Skype for Business.
 
@@ -45,7 +45,7 @@ Booking focus time on your calendar at the beginning of the week will ensure you
 
 #### Don't get distracted by email
 
-To maximize focus, try checking your inbox once an hour. If that works well, try increasing it to checking email every two hours. Discover how much focus you can get back. When work is interrupted, it can take up to 20 minutes to get back into the flow.
+To maximize focus, try checking your inbox once an hour. If that works well, next try checking email every two hours and so on. Discover how much focus you can get back. When work is interrupted, it can take up to 20 minutes to get back into the flow.
 
 #### Group your meetings together on your calendar
 

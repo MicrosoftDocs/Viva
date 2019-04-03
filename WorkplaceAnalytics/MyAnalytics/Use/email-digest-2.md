@@ -16,14 +16,14 @@ ms.prod: mya
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-As a MyAnalytics user, you'll receive a weekly email digest with suggestions to help you better understand your work patterns and ways to improve them. 
+As a MyAnalytics user, you'll receive a weekly email digest with suggestions to help you better understand your work patterns and ways to improve them.
 
 Each week will focus one of the following work patterns:
 
 * **Focus** - Find ways to increase your focus hours, so you can accomplish deep work and unleash your creativity.
 * **Wellbeing** - See if you’re getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
-* **Relationships** - See who’s in your network and make sure you’re keeping up with important contacts.
-* **Better meetings** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
+* **Network** - See who’s in your network and make sure you’re keeping up with important contacts and relationships.
+* **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
 
 The following is an example of an email digest about past work history.
 
@@ -41,13 +41,14 @@ Here's an example of an email digest insight to help improve work relationships.
 
 ![Email network digest](../../Images/mya/use/email-network.png)
 
-<!---
-If you do not want to receive digest emails from MyAnalytics, you can opt out of the emails with the following steps:
+### Opt out of email digests
 
-1. In MyAnalytics, go to Settings.
-2. Go to Feature Setting and select **Off** for Digest Email.
-3. Click **OK** to save the changes.
---->
+If you do not want to receive digest emails from MyAnalytics, you can opt out of them:
+
+1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
+2. Select the gear icon at the top to open the **Settings** pane.
+3. Under **MyAnalytics**, select **Settings**.
+4. Under **Email digest**, select to change the slider button to **Off**.
 
 >[!Note]
 > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. For more information, see [MyAnalytics FAQ](../Overview/MyA-faq.md)

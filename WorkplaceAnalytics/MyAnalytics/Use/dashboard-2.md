@@ -17,7 +17,7 @@ ms.prod: mya
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-Thank you for trying the brand new MyAnalytics experience. Welcome to new personalized data that aims to help you understand how you spend your time and collaborate with colleagues.
+Thank you for trying the new MyAnalytics experience. Welcome to new personalized data that aims to help you understand how you spend your time and collaborate with colleagues.
 
 MyAnalytics gives you valuable new insights into how to increase focus, achieve work life balance, and improve your work relationships and team collaboration.
 
@@ -25,7 +25,7 @@ MyAnalytics gives you valuable new insights into how to increase focus, achieve 
 
 ## Home
 
-The **Home** page has helpful statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
+The **Home** page shows statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
 ![Your work patterns](../../Images/mya/use/home-pg.png)
 
@@ -35,15 +35,15 @@ These sections give you ways to plan time for specific tasks, such as booking fo
 
 It also shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
-For more details, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
+For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
-## Network
+## Network and Collaboration
 
 This section shows the people you actively collaborated with based on your work activities over the past month, such as email, chats, calls, and meetings.
 
 It also shows the total number of people in your network, which is based on your work activities over the past year.
 
-For more details, see [Network](../use/network.md).
+For more details and tips, see [Network](../use/network.md) and [Collaboration](../use/collaboration.md).
 
 ## Productivity insights
 

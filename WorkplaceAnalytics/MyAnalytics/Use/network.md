@@ -29,7 +29,7 @@ These are based on your recent activity at work. Select **View Suggestions** to 
 
 These are people you marked as important in MyAnalytics. MyAnalytics will help you track your communications with these people and help you maintain healthy work relationships with them. MyAnalytics will remind you of unread emails from these people and tasks you need to do for them.
 
-## About network metrics
+## About the metrics
 
 * **Top collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators.
 * An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** uses activity over the past year.

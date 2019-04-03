@@ -6,7 +6,7 @@ title: MyAnalytics key user interface elements
 description: Information about the MyAnalytics personal dashboard, Outlook add-in, email digests, and MyAnalytics nudges 
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/03/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
@@ -15,7 +15,7 @@ ms.prod: mya
 # MyAnalytics elements
 
 > [!Note]
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users.
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Microsoft 365 and Office 365 users.
 [Learn more](../overview/plans-environments.md) about the experiences users can get with each plan.
 
 MyAnalytics presents you with insights and how you can use these insights to make good decisions through the following elements.
