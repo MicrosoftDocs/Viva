@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics collaboration
+title: MyAnalytics Collaboration page
 description: Learn how to use MyAnalytics to improve your collaboration at work
 author: madehmer
 ms.author: v-midehm
@@ -13,9 +13,11 @@ ms.prod: mya
 
 ---
 
-# MyAnalytics collaboration
+# Collaboration
 
-Collaboration shows who you're working with most and how well you're working with your team. A dedicated page for Collaboration is coming soon to your MyAnalytics dashboard.
+Collaboration in MyAnalytics shows who you're working with most and how well you're maintaining your relationships at work.
+
+A dedicated page for Collaboration is coming soon to MyAnalytics.
 
 ## Productivity insights
 

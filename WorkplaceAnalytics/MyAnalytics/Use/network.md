@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics network
+title: MyAnalytics network page
 description: Learn how to use MyAnalytics to improve your work relationships and grow your network
 author: madehmer
 ms.author: v-midehm
@@ -13,9 +13,9 @@ ms.prod: mya
 
 ---
 
-# MyAnalytics network
+# Network
 
-The Network page shows how many people you actively connect with in the last month and gives you ideas on improving your connections with your most important contacts, such as your manager or your direct reports.
+The MyAnalytics Network page shows how many people you actively connect with in the last month and gives you ideas on improving your connections with your most important contacts, such as your manager or your direct reports.
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 

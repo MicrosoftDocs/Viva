@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics wellbeing
+title: MyAnalytics Wellbeing page
 description: Learn how to use MyAnalytics to improve your work-life balance
 author: madehmer
 ms.author: v-midehm
@@ -13,9 +13,9 @@ ms.prod: mya
 
 ---
 
-# MyAnalytics wellbeing
+# Wellbeing
 
-The Wellbeing page shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
+The MyAnalytics Wellbeing page shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
 ![Wellbeing](../../Images/mya/use/wellbeing-pg.png)
 

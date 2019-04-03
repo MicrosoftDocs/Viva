@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics focus
+title: MyAnalytics Focus page
 description: Learn how to use MyAnalytics to improve your focus time at work
 author: madehmer
 ms.author: v-midehm
@@ -13,9 +13,9 @@ ms.prod: mya
 
 ---
 
-# MyAnalytics focus
+# Focus
 
-The Focus page shows weekly averages for Available focus and Collaboration time. We define focus time as at least two consecutive hours of time without meetings. Focus time is meant to represent enough time so that you can focus on deliverables or complete other important tasks.
+The MyAnalytics Focus page shows weekly averages for Available focus and Collaboration time. We define focus time as at least two consecutive hours of time without meetings. Focus time is meant to represent enough time so that you can focus on deliverables or complete other important tasks.
 
 ![Focus](../../Images/mya/use/focus-pg.png)
 
