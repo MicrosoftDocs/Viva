@@ -25,17 +25,17 @@ It also shows your top collaborators in either a map or list view, enables you t
 
 These are based on your recent activity at work. Select **View Suggestions** to get ideas on how you might change or improve your current network pattern.
 
+## Important people
+
+These are people you marked as important in MyAnalytics. MyAnalytics will help you track your communications with these people and help you maintain healthy work relationships with them. MyAnalytics will remind you of unread emails from these people and tasks you need to do for them.
+
+In the **Suggested important people** section of the **Network** page, you can search for people and then select the star next to their names to add them to your important people list.
+
 ## About the network metrics
 
 * **Top collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators.
-* An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** considers the entire past year.
-* An **important collaborator** is a coworker who you selected as important in MyAnalytics. 
-
-## Your network by collaboration time
-
-These are people you marked as important in MyAnalytics. MyAnalytics will help you track your communications with these people and help you maintain healthy work relationships with them. MyAnalytics will remind you of unread emails from and tasks you need to do for these people.
-
-In the **Suggested important people** section of the **Network** page, you can search for people and then select the star next to their names to add them to your important people list.
+* An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** uses activity over the past year.
+* An **important collaborator** is a coworker who you selected as important in MyAnalytics.
 
 ## Network tips
 
