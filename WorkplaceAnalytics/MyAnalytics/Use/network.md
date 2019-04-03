@@ -15,18 +15,38 @@ ms.prod: mya
 
 # MyAnalytics network
 
-The Network page shows the people you actively networked with and your total network size based on work activities, such as email, chats, calls, and meetings.
+The Network page shows how many people you actively connect with in the last month and gives you ideas on improving your connections with your most important contacts, such as your manager or your direct reports. 
 
-It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people.
+It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
-![Your Network](../../Images/mya/use/mya-network.png)
+![Your Network](../../Images/mya/use/network-pg.png)
 
 ## About the network metrics
 
-* **Top collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators. An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** considers the entire past year.
+* **Top collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators.
+* An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** considers the entire past year.
+* An **important collaborator** is a coworker who you selected as important in MyAnalytics. 
 
-* **An important collaborator** is a coworker who you selected as important in MyAnalytics. You can select people as important in the **Important collaborators** section of **Explore** > **Your Network**.
+## Important people 
+
+In the **Suggested important people** section of the **Network** page in MyAnalytics, you can search for people and select the star next to their name to mark them as important.
 
 ## Productivity insights
 
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work patterns.
+These are based on your recent activity at work. Select **View Suggestions** to get ideas on how you might change or improve your current network pattern.
+
+## Network tips
+
+#### Spend more time with important collaborators
+
+Spending more time with the people in your network who align with your top priority tasks at work will improve team collaboration and increase project success. To do this, schedule one more weekly, reoccurring meeting with these people. For example, move a person from "right to left" in your "My network" map.
+
+
+#### Set up a weekly check-in to stay in sync
+
+One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync.
+
+
+## Related topics
+
+[Work patterns in MyAnalytics](../use/dashboard-2.md)

@@ -19,7 +19,7 @@ ms.prod: mya
 
 Use these tips to learn how to spend your time better and focus on what's important in your work. Not all tips are for everyone. What you can and should do always depends on your role and the organization you work in. 
 
-## Use MyAnalytics in Outlook 
+## Use MyAnalytics in Outlook
 
 Would you like to know how many people read a specific email message that you sent? Check out the MyAnalytics Outlook add-in to see how many people have read, replied to, or forwarded your email.
 
@@ -73,9 +73,7 @@ Consider introducing the following company discipline around Cc'd e-mails: When 
 
 Be a thoughtful coworker! 
 
-Be a thoughtful coworker!
-
-* For "inform"-type emails, condense the emails and status updates into daily or weekly digests. This reduces the overall noise and randomization caused by email overload.
+* For "inform" type emails, condense the emails and status updates into daily or weekly digests. This reduces the overall noise and randomization caused by email overload.
 * Save drafts or delay delivery for email until the recipients’ normal business hours. Limit late night and early morning email to urgent email, to cut through the noise.
 * Turn off notifications on your phone and desktop when you are trying to focus.
 

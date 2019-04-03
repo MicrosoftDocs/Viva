@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics work patterns
+title: Work patterns
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/01/2019
+ms.date: 04/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -21,27 +21,27 @@ Thank you for trying the brand new MyAnalytics experience. Welcome to new person
 
 MyAnalytics gives you valuable new insights into how to increase focus, achieve work life balance, and improve your work relationships and team collaboration.
 
-**To open your personal MyAnalytics dashboard**: Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
+**To open your MyAnalytics dashboard**: Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
 
 ## MyAnalytics home page
 
-The Home page includes helpful statistics about your work activities over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
+The Home page has helpful statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
 
 ![Your work patterns](../../Images/mya/use/home-pg.png)
 
 ## Focus and Wellbeing
 
-This section of the Explore page gives you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
+These sections give you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
 
 It also shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
 For more details, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
-## Your Network
+## Network
 
-This section shows the people you actively networked with and your total network size based on work activities, such as email, chats, calls, and meetings.
+This section shows the people you actively collaborated with based on your work activities over the past month, such as email, chats, calls, and meetings.
 
-It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people.
+It also shows the total number of people in your network, which is based on your work activities over the past year.
 
 For more details, see [Network](../use/network.md).
 
@@ -49,7 +49,7 @@ For more details, see [Network](../use/network.md).
 
 These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work patterns.
 
-![Productivity insights](../../Images/mya/use/pro-insights.png)
+![Productivity insights](../../Images/mya/use/insights.png)
 
 ## Config Settings
 
@@ -73,11 +73,11 @@ When you opt out, the following will occur:
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
 * You will stop receiving [nudges](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
-* Your email activity will not be included anonymously in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
+* Your email activity will not be included in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
 
-**To opt out of MyAnalytics**
+**To opt out of MyAnalytics**:
 
-1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
+1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right to open the Settings pane.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
