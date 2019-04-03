@@ -39,7 +39,7 @@ After you launch the add-in, the insights cards are displayed in the right panel
 
 ## To turn off the add-in
 
-You can turn off the add-in by opting out of MyAnalytics. For information, see [Can I opt out of MyAnalytics?](dashboard-2.md#can-i-opt-out-of-myanalytics).
+You can turn off the add-in by opting out of MyAnalytics. See [Can I opt out of MyAnalytics?](dashboard-2.md#can-i-opt-out-of-myanalytics) for how-to steps.
 
 <!-- OLD CONTENT. GOING AWAY AS OF 11 JANUARY 2019 
 

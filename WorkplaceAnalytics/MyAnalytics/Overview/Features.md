@@ -26,7 +26,7 @@ As a regularly updating feed, the add-in can help you:
 * Prioritize your time to get focused work done.
 * Track the reach and influence of your email communications.
 
-## Personal dashboard
+## MyAnalytics dashboard
 
 MyAnalytics helps you understand how you collaborate with colleagues and spend your time at work. The MyAnalytics dashboard gives you the tools you need to help you prioritize work and spend time more effectively. By using the dashboard, you can set weekly goals and measure your progress over time.
 

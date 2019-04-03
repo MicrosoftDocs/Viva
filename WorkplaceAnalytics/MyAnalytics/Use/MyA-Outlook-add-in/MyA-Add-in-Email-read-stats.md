@@ -6,7 +6,7 @@ title: Email read statistics in MyAnalytics
 description: See what proportion of recipients opened email from you in MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
+ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -16,7 +16,7 @@ ms.prod: mya
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-MyAnalytics can tell you how many people have opened your emails and how long they spent reading them. In general, it informs you about emails that you sent to five or more Office 365 users who are internal to your company. (For more information about which email messages are reported on, see [Reporting details](#reporting-details).) 
+MyAnalytics can tell you how many people have opened your emails and how long they spent reading them. In general, it informs you about emails that you sent to five or more Office 365 users who are internal to your company. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
 After you send an email message, it takes up to fifteen minutes before MyAnalytics can inform you about it. MyAnalytics groups similar information into a single summary card that you can select and expand to see a more detailed view.
 
@@ -30,10 +30,11 @@ Read statistics are shown only for _qualifying messages_. A qualifying message i
 
 #### Other exceptions
 
-MyAnalytics does not report about email messages in the following categories: 
- * email that was sent from a shared mailbox
- * email that was sent to a mailbox that was configured for email forwarding. (Recipients of forwarded email are not included in the count of qualifying recipients.)
- * email in which the individual recipient count on each of the To: and Cc: lines is less than 5 AND the Bcc: individual recipient count is also less than 5.
+MyAnalytics does not report about email messages in the following categories:
+
+ * Email that was sent from a shared mailbox
+ * Email that was sent to a mailbox that was configured for email forwarding. (Recipients of forwarded email are not included in the count of qualifying recipients.)
+ * Email in which the individual recipient count on each of the To: and Cc: lines is less than 5 AND the Bcc: individual recipient count is also less than 5.
 
 #### Bcc: precision
 

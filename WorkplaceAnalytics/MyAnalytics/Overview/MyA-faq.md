@@ -42,7 +42,7 @@ MyAnalytics does not have any tracking software running on your computer.
  * Information from email items:
 
    * Metadata. This includes the email's timestamp, sender, recipients, and "read" signal. 
-   * Statements that people have made in email body text. These statements are used to create [To-do cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) for your use. 
+   * Statements that people have made in email body text. These statements are used to create [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) for your use. 
    * Actions of other users who receive your email -- for example, whether or not they have opened your email. (This would be used only in aggregate form, to protect individual privacy.) 
 
  * Information from calendar items:
@@ -79,45 +79,30 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 #### Meetings
 
-##### Q1. Do "meeting hours" include time that I block out for personal work on my calendar?
+##### Q1. Does "meeting time" include time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting hours and will count as focus time.
-
-##### Q2. Why is my total meeting hours (that's included as part of working hours and hours outside of work) larger than my total meeting hours for the week?
-
-This can occur because of the way MyAnalytics calculates meeting hours:
-
-* The meeting hours total includes *adjusted* hours for *attended* meetings.  
-* As compared to total working hours and after-hours work, which includes the number of meeting hours (not adjusted) for *scheduled* meetings.
-
-This discrepancy can occur when meetings overlap and MyAnalytics doesn’t know which meetings were attended, so the meeting hours total will include *adjusted* hours, which are an estimate of time actually spent in meetings. For example, let's say you’re double booked for two meetings from 4:30 to 5:30 PM, and your work day ends at 5 PM. For this scenario, MyAnalytics adjusts the meeting hours to one hour, since you cannot attend two meetings at the same time. However, MyAnalytics does not adjust for the two scheduled meetings, which results in MyAnalytics adding one hour to total working hours and one hour to after-hours work. You can avoid this discrepancy by declining any scheduled meetings you do not attend.
-
-#### Email
-
-##### Q1. Do “Email Hours” count emails that I read or send on my mobile device, even if it’s the default iPhone app?
-
-Yes. We calculate email hours based on how many emails you read and send (as well as the time at which they are read and sent). For more information, see [Email hours](../Use/MyA-Dashboard/MyA-DB-Emails.md).
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
 
 #### Focus time
 
 ##### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more information, see [Focus](../Use/focus.md). To exclude focus hours, right-click the appointment and set **Show As** to **Out of Office**.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more information, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
 ##### Q2. Can I change my settings to make time outside of work more accurate?
 
-Yes. You can change your time zone and your working hours in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
+Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
 
-##### Q3. Why do my focus hours seem incorrect or inaccurate?
+##### Q3. Why do my focus time seem incorrect or inaccurate?
 
 Try the following to troubleshoot your focus-time totals:
 
-1. Verify that your work hours and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).)
+1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).)
 2. For more information about focus time, see [Focus](../Use/focus.md).  
 
 ##### Q4. How do I tell MyAnalytics that I am on vacation?
 
-If you plan to go on vacation, create a calendar event that includes the days of your vacation and set its status to **Out of Office**. This causes your focus time and meeting hours to both count as zero during your vacation.  
+If you plan to go on vacation, create a calendar event that includes the days of your vacation and set its status to **Out of Office**. This causes your focus time and meeting time to both count as zero during your vacation.  
 
 ### Usage
 
@@ -137,9 +122,9 @@ You can track your teams progress if the team has conducted a program to change 
 
 ### Outlook add-in
 
-##### Q1. The Outlook add-in displays To-do cards (commitments). Are they available in all languages, or just in English?
+##### Q1. The Outlook add-in displays Task cards (commitments). Are they available in all languages, or just in English?
 
-The [to-do cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook add-in are available only in English.
+The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook add-in are available only in English.
 
 ##### Q2. Can I get email read rates for shared or secondary mailboxes?
 
@@ -179,4 +164,4 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 #### Q6. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
-Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working hours, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
+Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.

@@ -10,7 +10,7 @@ ms.date: 04/02/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
-localization_priority: Once
+
 ---
 
 # MyAnalytics service description
@@ -25,9 +25,9 @@ MyAnalytics processes information in a manner that protects employee privacy. Fo
 
 MyAnalytics consists of the following elements:
 
- * [MyAnalytics personal dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard): Helps you reflect on your work habits such as time that you have available to focus, your meeting and email practices, and your network.
+ * [MyAnalytics personal dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard-2): Helps you reflect on your work habits such as time that you have available to focus, your meeting and email practices, and your network.
  * [Outlook add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in): Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
- * [Email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest): Gives you key highlights about your previous week.
+ * [Email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest-2): Gives you key highlights about your previous week.
  * [MyAnalytics nudges](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications): These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
 
 ## MyAnalytics distributions

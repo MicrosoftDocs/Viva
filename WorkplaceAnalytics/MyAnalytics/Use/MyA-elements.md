@@ -20,7 +20,7 @@ ms.prod: mya
 
 MyAnalytics presents you with insights and how you can use these insights to make good decisions through the following elements.
 
-* [MyAnalytics personal dashboard](dashboard-2.md): You can see statistics on how you've spent your time over the past month, productivity insights about your work habits, helpful suggestions for improvement, and explore your network, top collaborators, and collaboration activities.
+* [MyAnalytics dashboard](dashboard-2.md): You can see statistics on how you've spent your time over the past month, productivity insights about your work habits, helpful suggestions for improvement, and explore your network, top collaborators, and collaboration activities.
 * [Outlook add-in](add-in.md): The Outlook add-in presents you with cards that  report on aspects of your recent work experience and let you respond in various ways.
 * [Email digests](email-digest-2.md): You receive a weekly digest in email that gives you highlights about your previous week.
 * [MyAnalytics nudges](mya-notifications.md): MyAnalytics nudges are notifications that appear in Microsoft Outlook that can help boost your productivity by displaying useful suggestions and tips around managing email and running meetings.

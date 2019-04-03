@@ -1,6 +1,7 @@
 ---
 # Metadata Sample
 # required metadata
+
 title: MyAnalytics nudges in Outlook
 description: Describes what MyAnalytics nudges are in Outlook and how they work
 author: paul9955
@@ -9,6 +10,7 @@ ms.date: 04/03/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
+
 ---
 
 # MyAnalytics nudges in Outlook
@@ -36,7 +38,7 @@ MyAnalytics can display nudges in two ways:
 
    ![Nudges email image 02](../../Images/mya/use/nudges-email-02.png)
 
-While reading an email, this nudge reminds you of a potential outstanding to-do item for the email sender. Selecting the link takes you to the MyAnalytics Add-in, which shows the list of to-do items. 
+While reading an email, this nudge reminds you of a potential outstanding task item for the email sender. Selecting the link takes you to the MyAnalytics Add-in, which shows the list of task items. 
  
 ![Nudges meeting image 03](../../Images/mya/use/nudges-meeting-summary_03.png)
 
@@ -87,7 +89,7 @@ MyAnalytics nudges can help you in various ways:
 
 | Where it shows up | What it says | How it helps |
 |------|-------|---------|
-| Reading pane (email) | You may have outstanding to-dos for sender. Would you like to review now? **See my tasks** | Reminds you that there might be outstanding to-do items for the sender. |
+| Reading pane (email) | You may have outstanding tasks for sender. Would you like to review now? **See my tasks** | Reminds you that there might be outstanding task items for the sender. |
 
 
 ### Reduce after-hours work and team impact

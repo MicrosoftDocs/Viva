@@ -15,7 +15,7 @@ ms.prod: mya
 
 # MyAnalytics network
 
-The Network page shows how many people you actively connect with in the last month and gives you ideas on improving your connections with your most important contacts, such as your manager or your direct reports. 
+The Network page shows how many people you actively connect with in the last month and gives you ideas on improving your connections with your most important contacts, such as your manager or your direct reports.
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
@@ -29,6 +29,21 @@ These are based on your recent activity at work. Select **View Suggestions** to 
 
 These are people you marked as important in MyAnalytics. MyAnalytics will help you track your communications with these people and help you maintain healthy work relationships with them. MyAnalytics will remind you of unread emails from these people and tasks you need to do for them.
 
+**To add a person as important**
+
+1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com), and then select **Network**.
+2. In the **Suggested people to add** section:
+
+   * If the person is listed, select the star under the name to mark the person as important.
+   * If not listed, search for the person's name, and then select the star next to the name.
+
+**To remove a person as no longer important**
+
+1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com), and then select **Network**.
+2. In the **Important people** section, select **Show all**.  
+3. Select **View details** for the person you want to remove.
+4. In the person’s card, select **Mark not important**.
+
 ## About the metrics
 
 * **Top collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators.
@@ -39,7 +54,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 #### Add top collaborators to your important people list
 
-Things change. Keep your Important people list up to date: [MyAnalytics dashboard](https://myanalytics.microsoft.com) > **Network** > **Suggested important people** to search for people in your network and then select the star next to their names to add them to your list as important.
+Things change. Keep your Important people list up to date. Follow the steps in [Important people](#important-people) to add or remove them to or from your list.
 
 #### Set up a weekly check-in with your manager
 

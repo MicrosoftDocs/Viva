@@ -6,7 +6,7 @@ title: Privacy guide for Microsoft MyAnalytics
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-midehm
-ms.date: 03/08/2019
+ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -63,11 +63,11 @@ Three days after a MyAnalytics license is assigned to a person, that person rece
 
 MyAnalytics presents insights through four different surfaces:
 
-1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard)
+1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
 
 2. [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
 
-3. [Weekly email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest)
+3. [Weekly email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
  
 4.	[Nudges in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
 
@@ -106,6 +106,7 @@ This metric is calculated based on the “read” flag in Exchange Online. For s
 People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Office 365 environment, and then delivered to the sender’s mailbox.
 
 ## Privacy settings
+
 MyAnalytics provides flexible and configurable controls that are designed to enable organizations and their members to address varying legal and policy needs regarding privacy and use of employee data. When enabling MyAnalytics for the organization, admins can make the following choices:
 
 * **Determine which people have access to MyAnalytics**
@@ -156,7 +157,7 @@ The Microsoft Graph cannot be turned on or off globally through the Office 365 A
 
 ### Dashboard and Outlook Add-in
 
-Within one to three days of the assignment of a MyAnalytics license to an employee —either as part of an overall E5 license or as an add-on license —the user’s MyAnalytics [personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
+Within one to three days of the assignment of a MyAnalytics license to an employee —either as part of an overall E5 license or as an add-on license —the user’s MyAnalytics [dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
 
 ### Welcome email
 
@@ -165,7 +166,7 @@ To notify employees that their dashboard and Outlook Add-in have been enabled, M
 
 ### Weekly digest email
 
-The week after the welcome email is delivered, users  begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest).
+The week after the welcome email is delivered, users  begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2).
 
 ## GDPR Compliance
 
