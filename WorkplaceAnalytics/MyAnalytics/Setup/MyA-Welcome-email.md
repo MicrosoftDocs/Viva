@@ -18,7 +18,6 @@ A few days after an administrator assigns licenses to MyAnalytics users, they'll
 
 The following is an example of a MyAnalytics welcome email:
 
-<img src="../../Images/mya/use/welcome-email-1.png" alt="Top sections of MyAnalytics welcome email">
-
-<img src="../../Images/mya/use/welcome-email-2.png" alt="Middle sections of MyAnalytics welcome email">
-
+ ![MyAnalytics welcome email top section](../../Images/mya/use/welcome-email-1.png)
+ ![MyAnalytics welcome email end section](../../Images/mya/use/welcome-email-2.png)
+ 
