@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-<!-- Note: Options in subsequent uploads contain a) changing thresholds and b) Abandon option. Options for first upload do not.   -->
+<!-- Note: Options in subsequent uploads contain a) changing (or even mentioning) thresholds and b) Abandon option. Options for first upload do not.   -->
 
 | Nature of errors | Recommended selection | Description |
 | ----- | ----- | ----- |
@@ -23,6 +23,6 @@ There is also an option to select **Abandon**, a button on the top right of the 
 
 > [!Note] 
 > * Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
-> * For more information about correcting data in an uploaded source file that is causing validation errors, see the [Tips](prepare-organizational-data.md#tips) section of [Prepare organizational data](prepare-organizational-data.md).
+> * For more information about correcting data in an uploaded source file that is causing validation errors, see the [Invalid values or formats](prepare-organizational-data.md#invalid-values-or-formats) section of [Prepare organizational data](prepare-organizational-data.md).
 > * When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
 
