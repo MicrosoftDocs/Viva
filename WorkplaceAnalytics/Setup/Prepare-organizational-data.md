@@ -182,7 +182,7 @@ After your data has been successfully uploaded, Workplace Analytics performs add
 
 ### How often to upload organizational data 
 
-You can update organizational data as frequently as you like, but it will be refreshed with the latest update of email and calendar data. Since email and calendar data is updated weekly, it might make sense to provide updates for this data on a similar cadence.
+It is recommended that you upload HR data at least once a month to keep data fresh and analysis relevant. Soon after an HR upload has succeeded, the updated data becomes available in the [Explore](../use/explore-intro.md) pages and in [queries](../tutorials/query-basics).
 
 #### Supplying data over a time period
 
@@ -212,7 +212,7 @@ ManagerId | Unique identifier for the employee’s manager, which is needed to c
 Organization| The internal organization that the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or other naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
 FunctionType | The job function that the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore-the-metrics features. | This attribute column is not required. If it is included, then each row must contain a function value.|
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), we recommend using the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
-HourlyRate | The salary of the employee, represented as an hourly rate (if you have annual rate, divide each record by 2080). This attribute is used in calculations and can be used to filter and group employees.<p>**Notes:** The value can be formatted as a whole number, or include two decimal places. It cannot include any special characters, such as a currency symbol.<p>The value can represent pay only, or include it can include the full value of benefits, as long as that choice is consistently applied for all employees.<p>When the default rate is changed, it applies retroactively to anyone without an effective hourly rate for the next scheduled (usually set monthly) refresh of your organizational (HR) data.<p>Note that the Explore-the-metrics feature uses a fixed default HourlyRate of $75.  |This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
+HourlyRate | The salary of the employee, represented as an hourly  in US dollars (if you have an annual rate, divide each record by 2080). This attribute is used in calculations and can be used to filter and group employees.<p>**Notes:** The value can be formatted as a whole number, or include two decimal places. It cannot include any special characters, such as a currency symbol.<p>The value can represent pay only, or include it can include the full value of benefits, as long as that choice is consistently applied for all employees.<p>When the default rate is changed, it applies retroactively to anyone without an effective hourly rate for the next scheduled (usually set monthly) refresh of your organizational (HR) data.<p>Note that the Explore-the-metrics feature uses a fixed default HourlyRate of $75.  |This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 Layer | Where the employee is within the organizational hierarchy. The layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in Explore the metrics features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
 SupervisorIndicator  | Use this attribute to view the habits of people managers in your organization in Power BI visualizations. It powers the Overview table as well as the Generated Workload charts that are generated when you use the Manager Impact [Power BI template](../tutorials/power-bi-templates.md). <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required only if you want to use the Manager impact dashboard in Power BI. |
 TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If not included, the default will be used.|
@@ -246,3 +246,42 @@ Unlike HR data, for line-of-business data, you might not need to include every p
 
 For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you will use the score values to group and filter specific report outputs.
 
+## Tips
+
+[!INCLUDE [Tips](../includes/org-data-upload-tips.md)]
+
+## Tips
+
+### Invalid values or formats
+
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
+
+All field header or column names must:
+
+* Begin with a letter (not a number)
+* Only contain alphanumeric characters (letters and numbers, for example Date1)
+* Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP)
+* Have no spaces (Date1)
+* Have no special characters (non-alphanumeric, such as @, #, %, &, *)
+* Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
+
+The field values in the data row must comply with the following formatting rules:
+
+* The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format
+* The required PersonId and ManagerId field values must be a valid email address (for example, gc@contoso.com). 
+* The required TimeZone field values must be in a supported Windows format.
+* The required Layer field values must contain numbers only.
+* The required HourlyRate field values must contain numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
+
+>[!Note]
+> Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
+
+The field values also cannot contain any of the following:
+
+* No accent marks (á)
+* No tildes (~)
+* No short or long dashes (-, --)
+* No commas (,)
+* No "new line" characters (\n)
+* No double (" ") or single quotes (‘ ‘)
+* Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters

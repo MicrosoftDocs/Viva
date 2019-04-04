@@ -193,43 +193,7 @@ Before you address the problem, you can select **Download error log**. This log 
 | Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change how you map source-file fields to Workplace Analytics attributes and then re-attempt validation. You can do this without changing and re-uploading the source file. This is best for minor errors such as having mapped the wrong column in the source file to a particular attribute. |
 | Major errors | Select **Upload file** | This displays the first **File upload** page. Consider this option in the case of major errors in the originally uploaded data. First, edit the source-data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
 
-## Tips
-
-### Invalid values or formats
-
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
-
-All field header or column names must:
-
-* Begin with a letter (not a number)
-* Only contain alphanumeric characters (letters and numbers, for example Date1)
-* Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP)
-* Have no spaces (Date1)
-* Have no special characters (non-alphanumeric, such as @, #, %, &, *)
-* Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
-
-The field values in the data row must comply with the following formatting rules:
-
-* The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format
-* The required PersonId and ManagerId field values must be a valid email address (for example, gc@contoso.com). 
-* The required TimeZone field values must be in a supported Windows format.
-* The required Layer field values must contain numbers only.
-* The required HourlyRate field values must contain numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
-
->[!Note]
-> Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
-
-The field values also cannot contain any of the following:
-
-* No accent marks (á)
-* No tildes (~)
-* No short or long dashes (-, --)
-* No commas (,)
-* No "new line" characters (\n)
-* No double (" ") or single quotes (‘ ‘)
-* Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
-
-### Addition of missing data
-
-Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
+> [!Note] 
+> * Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
+> * For more information about correcting data in an uploaded source file that is causing validation errors, see the [Tips](prepare-organizational-data.md#tips) section of [Prepare organizational data](prepare-organizational-data.md).
 
