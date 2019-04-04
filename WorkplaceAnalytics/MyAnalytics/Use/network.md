@@ -15,7 +15,7 @@ ms.prod: mya
 
 # Network
 
-The MyAnalytics Network page shows how many people you actively connect with in the last month and gives you ideas about improving your connections with your most important contacts, such as your manager or your direct reports.
+The MyAnalytics Network page shows how many people you actively connect with in the last month and gives you ideas about improving connections with your most important contacts, such as your manager or your direct reports.
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
@@ -23,7 +23,7 @@ It also shows your top collaborators in either a map or list view, enables you t
 
 ## Productivity insights
 
-These are based on your recent activity at work. Select **View Suggestions** to get ideas about how you might change or improve your current network pattern.
+These insights are based on your recent activity at work. Select **View Suggestions** to get ideas about how you might change or improve your current network pattern.
 
 ## Important people
 
@@ -37,7 +37,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
    * If the person is listed, select the star under the name to mark the person as important.
    * If not listed, search for the person's name, and then select the star next to the name.
 
-**To remove a person as no longer important**
+**To remove a person from your important list**
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com), and then select **Network**.
 2. In the **Important people** section, select **Show all**.  
@@ -54,7 +54,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 #### Add top collaborators to your important people list
 
-Things change. Keep your Important people list up to date. Follow the steps in [Important people](#important-people) to add or remove them to or from your list.
+Things change. Keep your Important people list up to date. Follow the steps in [Important people](#important-people) to update your list.
 
 #### Set up a weekly check-in with your manager
 
@@ -66,7 +66,7 @@ Making time to foster relationships and grow your network has proven to contribu
 
 #### Spend more time with important collaborators
 
-Spending more time with the people in your network who align with your top priority tasks at work will improve team collaboration and increase project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
+Spending more time with the people in your network who align with your top priority tasks at work improves team collaboration and increases project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
 
 ## Related topics
 
