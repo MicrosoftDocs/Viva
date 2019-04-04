@@ -4,9 +4,9 @@
 
 title: MyAnalytics Individual Adoption --Diagnose 
 description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose issues
-author: paul9955
+author: madehmer
 ms.author: v-midehm
-ms.date: 04/02/2019
+ms.date: 04/03/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
@@ -17,8 +17,6 @@ ms.prod: mya
 If you are feeling the pain of collaboration overload, but haven’t identified the issue and its cause, start with a diagnosis exercise:
 
 Use a list of questions (qualitative diagnosis) and data from your MyAnalytics dashboard (quantitative diagnosis) to better understand your priorities for managing your collaboration load across a few key categories: focus time, email and meetings, networking, and work-life balance.
-
-<img src="../../../images/mya/use/Adopt-indiv-05.PNG" alt="MyAnalytics change steps">
 
 ## Qualitative diagnosis
 
@@ -32,7 +30,7 @@ First, ask yourself the following questions:
  * Do I regularly achieve my important deadlines?
  * Do I have adequate control over my schedule?
 
-### Email and meeting patterns
+### Email and meetings
 
  * In general, are the meetings I attend an effective use of my time?
  * Could I improve the way I organize and lead meetings?
@@ -70,7 +68,8 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### Focus
 
-<img src="../../../images/mya/use/focus-pg.png" alt="Focus page">
+<img src="../../../Images/mya/use/focus.png" alt="Focus page">
+
 
 * Is my total number of focus time per week as a percentage of my work week sufficient?
 * Which days during the week do I typically get the most time to focus?
@@ -93,7 +92,8 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 
 ### Network
  
-<img src="../../../images/mya/use/network-pg.png" alt="Network page">
+<img src="../../../Images/mya/use/network-pg.png" alt="Network page">
+
 
 * Do my time investments in people line up with my top priorities?
 * Are there opportunities for me to meet more with or less with certain individuals?
