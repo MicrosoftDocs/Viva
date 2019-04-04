@@ -21,7 +21,7 @@ MyAnalytics can remind you to do tasks that are called out in email messages. In
 
 If you have one or more of these automatically generated tasks, a summary card is displayed in the MyAnalytics pane:  
 
-![To-do card](../../../Images/mya/use/To-do-page-1.PNG)
+![Task card](../../../Images/mya/use/To-do-page-1.PNG)
 
 > [!Note]
 > The Task card is available only in English.
