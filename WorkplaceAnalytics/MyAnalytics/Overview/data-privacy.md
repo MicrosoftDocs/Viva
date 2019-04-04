@@ -38,7 +38,7 @@ You might want to uncover trends. Did you work more in your off hours before the
 
 It looks in your inbox and in your calendar, crunches numbers, and gives insight into your behavior: How many emails did you send? How many meetings did you attend? How much time did you have to focus on your work? Rather than having to open your mailbox folders and count items, or open your calendar and add up meeting times, you can turn to MyAnalytics to see data of this sort. 
 
-The elements of MyAnalytics are personalized for you and available only to you. Only you can see the dashboard. The insights that appears in the Outlook add-in is for you only:
+The elements of MyAnalytics are personalized for you and available only to you. Only you can see your personal dashboard. The insights that appears in the Outlook add-in is for you only:
 
 ![Meeting reminder in MyAnalytics](../../images/mya/overview/mya-add-in-note.png) 
 
