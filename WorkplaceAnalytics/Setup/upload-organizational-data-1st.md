@@ -188,12 +188,6 @@ Before you address the problem, you can select **Download error log**. This log 
 
 ### Options upon failed validation
 
-| Nature of errors | Recommended selection | Description |
-| ----- | ----- | ----- |
-| Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change how you map source-file fields to Workplace Analytics attributes and then re-attempt validation. You can do this without changing and re-uploading the source file. This is best for minor errors such as having mapped the wrong column in the source file to a particular attribute. |
-| Major errors | Select **Upload file** | This displays the first **File upload** page. Consider this option in the case of major errors in the originally uploaded data. First, edit the source-data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
+[!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation-1st.md)]
 
-> [!Note] 
-> * Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
-> * For more information about correcting data in an uploaded source file that is causing validation errors, see the [Tips](prepare-organizational-data.md#tips) section of [Prepare organizational data](prepare-organizational-data.md).
 
