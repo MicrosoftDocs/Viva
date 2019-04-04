@@ -158,9 +158,7 @@ This information about the errors helps you decide which path to choose next &md
 
 [!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation.md)]
 
-### Addition of missing data
-
-Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
+## Tips
 
 ### Addition of a new data column
 
