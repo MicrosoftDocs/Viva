@@ -148,7 +148,7 @@ An exception is the signal that an email has been delivered, read, replied to, o
 
 <!-- Updated for Anu and Sourabh 7 Feb 2019: -->
 
-The personal dashboard is available to a MyAnalytics user as soon as they receive their [welcome email](../setup/MyA-Welcome-email.md). This happens up to four weeks after the MyAnalytics license was assigned to the participant. For more information, see [Assign MyAnalytics licenses to users](../setup/mya-setup-checklist.md#step-2-assign-myanalytics-licenses-to-users).
+The personal dashboard is available to a MyAnalytics user as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after the MyAnalytics license was assigned to the participant. For more information, see [Assign MyAnalytics licenses to users](../setup/mya-setup-checklist.md#step-2-assign-myanalytics-licenses-to-users).
 
 #### Q3. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
 
