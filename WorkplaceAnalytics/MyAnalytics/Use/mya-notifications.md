@@ -19,10 +19,9 @@ ms.prod: mya
 
 ## What are MyAnalytics nudges in Outlook?
 
-MyAnalytics nudges in Outlook (or MyAnalytics nudges) are brief, data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
+MyAnalytics nudges in Outlook (or MyAnalytics nudges) are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
 
-MyAnalytics nudges can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you to reclaim focus hours and build better collaboration habits, in addition to other practical benefits. See the
-[MyAnalytics nudges](#myanalytics-nudges) table.
+MyAnalytics nudges can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [MyAnalytics nudges](#myanalytics-nudges) lists some of the nudges you might see.
 
 ## How MyAnalytics nudges work
 
@@ -76,7 +75,7 @@ You can always provide overall feedback by selecting the smiley face in the uppe
 
 ### What types of MyAnalytics nudges will I see?
 
-MyAnalytics nudges can help you in various ways:
+The following are a few of the MyAnalytics nudges you might see.
 
 ### Get more time to focus
 

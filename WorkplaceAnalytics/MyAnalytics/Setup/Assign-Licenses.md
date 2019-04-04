@@ -24,7 +24,7 @@ You must assign a MyAnalytics license to each participant that wants to get stat
 
 <!-- Updated for Anu and Sourabh Feb 2019: -->
 
-After you assign a user license, the new MyAnalytics participant will gain access to the elements of MyAnalytics as described here:  
+After you assign a user license, the new MyAnalytics participant will gain access to the following MyAnalytics elements.  
 
 <!--  
 > [!Note]
@@ -36,7 +36,7 @@ After you assign a user license, the new MyAnalytics participant will gain acces
  * **MyAnalytics personal dashboard:** Users can visit the MyAnalytics personal [dashboard](../Use/dashboard-2.md) three to four days after their license is granted.
 
  * **MyAnalytics welcome email:** 
-      * Existing users of Office 365 will receive the welcome email one to two days after their license is granted. 
+      * Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted. 
       * New users will receive the welcome email approximately four weeks after their license is granted. 
      
     > [!Note]
