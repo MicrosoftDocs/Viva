@@ -17,35 +17,35 @@ ms.prod: mya
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work life balance, and improve your work relationships and team collaboration.
+Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
-**To open your MyAnalytics dashboard**: Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
+Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
 ## Home
 
-The **Home** page shows statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
+The MyAnalytics dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
 ![Your work patterns](../../Images/mya/use/home-pg.png)
 
 ## Focus and Wellbeing
 
-These sections give you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
+The Focus section give you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
 
-It also shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
+The Wellbeing section shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
 For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
 ## Network and Collaboration
 
-This section shows the people you actively collaborated with based on your work activities over the past month, such as email, chats, calls, and meetings.
+The Network section shows information about your relationships with the people in your network, which is based on your work activities over the past year.
 
-It also shows the total number of people in your network, which is based on your work activities over the past year.
+The Collaboration section shows the people you actively collaborated with based on your work activities over the past month, such as email, chats, calls, and meetings.
 
 For more details and tips, see [Network](../use/network.md) and [Collaboration](../use/collaboration.md).
 
 ## Productivity insights
 
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work patterns.
+These are based on your recent workplace activity. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns.
 
 ![Productivity insights](../../Images/mya/use/insights.png)
 
