@@ -53,9 +53,9 @@ You can provide feedback for each nudge by using the feedback control at the bot
 
 You can always provide overall feedback by selecting the smiley face in the upper-right corner of the MyAnalytics Add-in.
 
-## Opting out of nudges
+## Opt out of nudges
 
-1. To opt out of MyAnalytics nudges, navigate to the MyAnalytics Add-in by selecting the MyAnalytics button on the ribbon.  
+1. To opt out of MyAnalytics nudges, navigate to the MyAnalytics Add-in by selecting the MyAnalytics button on the ribbon.
 
       ![Nudges email image 05](../../Images/mya/use/nudges-mya-tab-05.png)
 

@@ -140,6 +140,18 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients. 
 
+##### Q4. Can I turn off email digests? 
+
+Yes, follow the steps in [To opt out of email digests](../use/email-digest-2.mda#opt-out-of-email-digests).
+
+##### Q5. Can I opt out of MyAnalytics? 
+
+Yes, follow the steps in [To opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics).
+
+##### Q6. Can I turn off nudges? 
+
+Yes, follow the steps in [Opt out of nudges](../use/mya-notifications.md#opt-out-of-nudges).
+
 ## For IT administrators
 
 #### Q1. Where is user data stored?
