@@ -31,7 +31,11 @@ Two later sections are grouped by role:
 
 ### Where does MyAnalytics get my data?
 
-MyAnalytics uses data from your Office 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams or in Skype for Business. Every calculation that MyAnalytics performs is based on data that you, yourself, could obtain by gathering and examining metadata of your emails, meetings, calls, and chats, such as their start and end times and their subject lines. In other words, MyAnalytics automates what would otherwise be a painstaking task; these automatic calculations provide you with transparency into your workplace collaboration habits.
+MyAnalytics uses data from your Office 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams or in Skype for Business.
+
+MyAnalytics data is stored in your mailbox itself, and gets the same protection that your email and calendar itself gets. 
+
+Every calculation that MyAnalytics performs is based on data that you, yourself, can get by gathering and examining metadata of your emails, meetings, calls, and chats, such as their start and end times and their subject lines. In other words, MyAnalytics automates what would otherwise be a painstaking task; these automatic calculations provide you with transparency into your workplace collaboration habits.
 
 MyAnalytics does not have any tracking software running on your computer.
 
@@ -41,11 +45,12 @@ MyAnalytics does not have any tracking software running on your computer.
 
  * Information from email items:
 
-   * Metadata. This includes the email's timestamp, sender, recipients, and "read" signal. 
-   * Statements that people have made in email body text. These statements are used to create [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) for your use. 
-   * Actions of other users who receive your email -- for example, whether or not they have opened your email. (This would be used only in aggregate form, to protect individual privacy.) 
+   * Metadata - which includes the email's timestamp, sender, recipients, and "read" signal
+   * Statements that people have made in email body text - these statements are used to create [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) for your use only
+   * Actions of other users who receive your email - for example, whether or not they have opened your email. (This would be used only in aggregate form, to protect individual privacy.)
 
  * Information from calendar items:
+  
    * Type (meeting or appointment)
    * Status (busy, free, out-of-office, tentative)
    * Category
@@ -54,6 +59,7 @@ MyAnalytics does not have any tracking software running on your computer.
    * Attendees
 
  * Information from Teams and from Skype for Business:
+
    * MyAnalytics counts audio calls, video calls, and chats that people make in Teams and in Skype for Business as collaboration activities.
 
 #### MyAnalytics does not use
@@ -108,9 +114,9 @@ If you plan to go on vacation, create a calendar event that includes the days of
 
 <!-- To be written
 
-#### What should be my goal be for Meeting Hours, email, focus and after hours? 
+#### What should my goal be for Meeting Hours, email, focus and after hours? 
  
-#### How can I engage my supervisor on on goals and expectations? 
+#### How can I engage my supervisor on goals and expectations? 
  
 #### How can I help my team reduce meeting time? 
 
@@ -140,15 +146,9 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 User metrics data is stored in users' mailboxes.
 
-<!-- REMOVED 26 OCTOBER PER PARAMA and PBergen
-An exception is the signal that an email has been delivered, read, replied to, or forwarded. This signal is copied to a transient store. All data in the transient store is deleted after 14 days.
--->
-
 #### Q2. How long does it take for the personal dashboard to become available?
 
-<!-- Updated for Anu and Sourabh 7 Feb 2019: -->
-
-The personal dashboard is available to a MyAnalytics user as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after the MyAnalytics license was assigned to the participant. For more information, see [Assign MyAnalytics licenses to users](../setup/mya-setup-checklist.md#step-2-assign-myanalytics-licenses-to-users).
+The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after the MyAnalytics licenses are assigned to the participants. For more information, see [Assign MyAnalytics licenses to users](../setup/mya-setup-checklist.md#step-2-assign-myanalytics-licenses-to-users).
 
 #### Q3. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
 
