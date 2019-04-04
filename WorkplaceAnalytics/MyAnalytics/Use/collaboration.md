@@ -21,7 +21,7 @@ A dedicated page for Collaboration is coming soon to MyAnalytics.
 
 ## Productivity insights
 
-These are based on your recent collaboration activity at work. Select **View Suggestions** to get ideas on how you might change or improve your current collaboration work pattern.
+These are based on your recent collaboration activity at work. Select **View Suggestions** to get ideas about how you might change or improve your current collaboration work pattern.
 
 ## Collaboration tips
 

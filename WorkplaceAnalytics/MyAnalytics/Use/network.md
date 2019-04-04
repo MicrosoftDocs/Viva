@@ -15,7 +15,7 @@ ms.prod: mya
 
 # Network
 
-The MyAnalytics Network page shows how many people you actively connect with in the last month and gives you ideas on improving your connections with your most important contacts, such as your manager or your direct reports.
+The MyAnalytics Network page shows how many people you actively connect with in the last month and gives you ideas about improving your connections with your most important contacts, such as your manager or your direct reports.
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
@@ -23,7 +23,7 @@ It also shows your top collaborators in either a map or list view, enables you t
 
 ## Productivity insights
 
-These are based on your recent activity at work. Select **View Suggestions** to get ideas on how you might change or improve your current network pattern.
+These are based on your recent activity at work. Select **View Suggestions** to get ideas about how you might change or improve your current network pattern.
 
 ## Important people
 

@@ -21,7 +21,7 @@ The MyAnalytics Wellbeing page shows how well you are disconnecting from work du
 
 ## Productivity insights
 
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change your current work patterns to improve your work-life balance.
+These are based on your recent workplace activity. Select **View Suggestions** to get ideas about how you might change your current work patterns to improve your work-life balance.
 
 ## About the metrics
 

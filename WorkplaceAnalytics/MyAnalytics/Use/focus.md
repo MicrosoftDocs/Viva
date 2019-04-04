@@ -21,7 +21,7 @@ The MyAnalytics Focus page shows weekly averages for Available focus and Collabo
 
 ## Productivity insights
 
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work patterns, such as booking focus time in your calendar and adding tasks to the body of the appointment.
+These are based on your recent workplace activity. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns, such as booking focus time in your calendar and adding tasks to the body of the appointment.
 
 ### About the metrics
 
