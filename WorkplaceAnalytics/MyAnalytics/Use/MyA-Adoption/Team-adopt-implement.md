@@ -31,7 +31,7 @@ Start with the following (sample) agenda:
 <!-- REMOVING LINK TO THIS VIDEO FOR NOW:  
  
 To learn how to demo MyAnalytics, watch the following video: 
- * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)
+ * [MyAnalytics Product Demo Video](https://microsoft-my.point-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)
 
  -->
  

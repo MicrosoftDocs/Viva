@@ -3,7 +3,7 @@
 # required metadata
 
 title: Add a top collaborator in MyAnalytics
-description: How-to steps to add a top collaborator in MyAnalytics. 
+description: How-to steps to add a top collaborator in MyAnalytics 
 author: paul9955
 ms.author: v-pascha
 ms.date: 04/03/2019
