@@ -40,7 +40,7 @@
         - name: Network
           href: ./Use/network.md        
         - name: Collaboration
-          href: MyAnalytics/Use/collaboration.md 
+          href: ./Use/collaboration.md 
       - name: Adopt MyAnalytics
         href: ./Use/MyA-Adoption/Adopt-myanalytics.md  
         items: 
