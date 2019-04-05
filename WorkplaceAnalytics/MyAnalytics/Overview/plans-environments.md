@@ -17,7 +17,7 @@ audience: Admin
 
 # Availability of features
 
-The following table lists which user experiences are available to the users of the various Microsoft Office 365 plans:
+The following table lists which user experiences are available depending on what Microsoft Office 365 plan you have.
 
 | Plan | User experience available |
 | ----- | ----- |
