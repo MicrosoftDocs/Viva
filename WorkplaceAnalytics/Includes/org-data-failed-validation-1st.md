@@ -22,7 +22,7 @@ ms.prod: wpa
 > [!Note] 
 > * Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
 
-## Guidelines for correcting errors in data
+### Guidelines for correcting errors in data
 
 This section contains help for correcting data in an uploaded source file that is causing validation errors.
 
