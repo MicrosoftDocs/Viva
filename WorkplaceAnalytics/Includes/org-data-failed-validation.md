@@ -23,6 +23,10 @@ There is also an option to select **Abandon**, a button on the top right of the 
 
 > [!Note] 
 > * Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
-> * For more information about correcting data in an uploaded source file that is causing validation errors, see the [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats) section of [Prepare organizational data](../setup/prepare-organizational-data.md).
 > * When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
 
+## Guidelines for correcting errors in data
+
+This section contains help for correcting data in an uploaded source file that is causing validation errors.
+
+[!INCLUDE [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats)] 
