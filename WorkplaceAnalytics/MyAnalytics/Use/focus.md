@@ -23,7 +23,7 @@ The MyAnalytics Focus page shows weekly averages for the time you have available
 
 These insights are based on your recent activity in Office 365. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns, such as booking focus time in your calendar and muting notifications when trying to concentrate.
 
-### About the metrics
+## About the metrics
 
 * **Collaboration** is based on meetings, emails, chats, and calls with Teams and Skype for Business.
 
