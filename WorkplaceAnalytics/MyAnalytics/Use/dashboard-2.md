@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Work patterns
+title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
 ms.author: v-midehm
@@ -13,7 +13,7 @@ ms.prod: mya
 
 ---
 
-# Work patterns in MyAnalytics
+# MyAnalytics dashboard
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
