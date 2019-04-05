@@ -142,7 +142,7 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 ##### Q4. Can I turn off email digests? 
 
-Yes, follow the steps in [To opt out of email digests](../use/email-digest-2.mda#opt-out-of-email-digests).
+Yes, follow the steps in [To opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests).
 
 ##### Q5. Can I opt out of MyAnalytics? 
 
