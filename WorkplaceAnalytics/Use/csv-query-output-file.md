@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Csv file query output in Workplace Analytics
-description: Describes what .csv file query output is available from Workplace Analytics
+title: How to interpret query output in Workplace Analytics
+description: Understand and interpret query output is Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/05/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -15,11 +15,11 @@ ms.prod: wpa
 
 # Understand and interpret query output
 
-After you run a query from the Queries page, the query Results page opens by default, and displays a download link for a .csv (comma-separated values) file that contains all the results of your query output.
+After you run a query in Workplace Analytics, the Results page in Queries will appear in the list with a download link as .csv (comma-separated values) file with the query output.
 
 ![Csv file download](../images/WpA/Use/csv-download.png)
 
-You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or for another data analysis tool, such as Excel. For more details, see [Use Workplace Analytics data in Power BI and other data analysis tools](https://docs.microsoft.com/workplace-analytics/use/view-download-and-export-query-results#use-workplace-analytics-data-in-power-bi-and-other-data-analysis-tools).
+You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For more details, see [Use Workplace Analytics data in Power BI and other data analysis tools](https://docs.microsoft.com/workplace-analytics/use/view-download-and-export-query-results#use-workplace-analytics-data-in-power-bi-and-other-data-analysis-tools).
 
 ## Person-to-group query output
 
@@ -29,26 +29,26 @@ The query output lists these de-identified _Time investors_ (licensed employees)
 
 a) Their PersonIds
 
-b) One or more groups that you define in the _Collaborators_ section
+b) One or more groups as defined in the _Collaborators_ section
 
-c) The amount of time that the time investor spends with the specified groups.
+c) The amount of time the time investor spends with the specified groups.
 
-So on the "person" side of the query, you will have PersonIds that map to "collaborators" groups on the group side. For group-to-group queries, you will have Time investor groups that map to "collaborators" groups.
+On the "person" side of the query, PersonIds map to "collaborators" groups on the group side. For group-to-group queries, the Time investor groups map to "collaborators" groups.
 
-In person-to-group queries, the .csv file query output consists of various column headers with single rows for each unique pairing of an individual in the time investor group with any collaborator in the collaborator group during the time periods that the person has collaborated with that group.
+In person-to-group queries, the query output (.csv file) includes column headers with single rows for each unique pairing of an individual in the time investor group with any collaborator in the collaborator group during the time periods that the person has collaborated with that group.
 
-For example, a person with a PersonID, P1, who has collaborated with group G1 in weeks one and three of a certain month. Assuming that you run a person-to-group query by selecting "week" as the _Group by_ option (*How do you want to group the people who collaborated with the time investors?*) in the _Time investors_ section, rows are created for (P1, G1) in weeks one and three only.
+For example, PersonId of P1 collaborated with group G1 in weeks one and three of the specified month. Assuming that you run a person-to-group query by selecting "week" as the _Group by_ option (*How do you want to group the people who collaborated with the time investors?*) in the _Time investors_ section, rows are created for (P1, G1) in weeks one and three only.
 
 ![Table of columns](../images/WpA/Use/personId.png)
 
 >[!Note]
 > People are assigned randomly-generated PersonIds to maintain de-identification. No individuals can be identified from the query output.
 
-The .csv file query output for person-to-group queries consists of general header columns (categories) and metrics header columns. The output also displays additional organization-related attribute columns that will vary from company to company.
+The query output for person-to-group queries consists of general header columns (categories) and metrics header columns. The output also displays additional organization-related attribute columns that vary based on the organization.
 
 ## Header columns
 
-  The following table lists the person-to-group header columns found in the .csv output file:
+  The following table lists the person-to-group header columns found in the output file.
 
 | Header column | Description |
 |---|---|
@@ -71,45 +71,38 @@ The .csv file query output for person-to-group queries consists of general heade
 
 ### Organizational attribute columns
 
-In addition to the standard columns present in the .csv file output of person-to-person queries, the output  typically contains a variable set of header columns that represent the organizational attributes of employees. Admins upload these  attributes when Workplace Analytics is initially set up. These columns are listed to the right of the Organization column for every person included in the query output. The names of the columns will vary from company to company; however, sample organizational attributes might include items such as, StartDate, tenuremonths, or quotaattainment.
+In addition to the standard columns present in the .csv file output of person-to-person queries, the output typically contains a variable set of header columns that represent the organizational attributes of employees. Admins upload these attributes when Workplace Analytics is initially set up. These columns are listed to the right of the Organization column for every person included in the query output. The names of the columns will vary from company to company; however, sample organizational attributes might include items such as, StartDate, tenuremonths, or quotaattainment.
 
 ### Metrics header columns
 
-The .csv output file for both person-to-group queries and group-to-group queries will include one or more header columns based on the following standard or customized metrics selected from the Queries page: 
+The .csv output file for both person-to-group queries and group-to-group queries will include one or more header columns based on the standard or customized metrics selected when you were creating the query.  
 
 ![Table of columns](../images/WpA/Use/select-metrics.png)
 
-The following table lists the person-to-group metrics header columns:
-
-| Metric | Description |
-|---|---|
-|**Collaboration hours**  |Shows the total amount of time that a de-identified individual has spent collaborating with the collaborator group. This includes time spent in email and meetings. |
-| **Email count** |Shows the number of emails sent between the time investor and groups. |
-| **Email hours** |Shows the amount of time that the time investor spent writing or reading emails. |
-| **Meeting hours** |Shows the number of hours that the time investor spent in meetings.|
-| **Meetings** |Shows the number of meetings in which the time investor and the collaborators participated. |
-| **Network size** | Shows how many people with whom the time investor had meaningful interactions in the selected collaboration group over the selected time period.  |
+For more details about person-to-group metrics, see [Workplace Analytics metrics](../use/metric-definitions.md##person-to-group-metrics
+).
 
 **The IsActive attribute**
 
-The *IsActive* attribute does not display as an option in the person-to-group query. However, *IsActive* is included when you select an option from the Included employees menu during the person-to-group query. The header column then shows up in the .csv query output. *IsActive* applies to either Active employees only, Inactive employees only, or All employees, and has a Boolean value of true or false.
+The *IsActive* attribute doesn't display as an option in the person-to-group query. However, *IsActive* is included when you select an option from the Included employees menu during the person-to-group query, which will show up in the query output. *IsActive* applies to either Active employees only, Inactive employees only, or All employees, and has a Boolean value of true or false.
 
 ![Selected employees](../images/WpA/Use/selected-employees.png)
 
-## Additional attribute values
+## Additional attributes for group queries
 
 In addition to the standard attribute values, the _Collaborators_ group can also include the following additional attribute values in the query output for both person-to-group and group-to-group queries:
 
 * Unclassified_Internal
 * Unclassified_External
 * Other collaborators
-* Collaborators Within Group
+* Collaborators within group
+* Internal collaborators
 
 ### Unclassified Internal
 
-In the **Their collaborators** section, the collaborators who match the filter defined in question 3C, and who are also internal to the company (as indicated by the "IsInternal = true" attribute) will be grouped together in the _Unclassified_Internal_ bucket. Metrics for all such collaborators are added up.
+In the **Their collaborators** section, the collaborators who match the filter defined in question 3C, and who are also internal to the company (as indicated by the "IsInternal = true" attribute) will be grouped together in the _Unclassified_Internal_ category. Metrics for all such collaborators are added up.
 
-For example, if we run a query for all collaborators who match FunctionType = HR, all those who do not match the filter, say, people from Sales or Marketing, if they are internal employees, will be included in the _Unclassified_Internal_ category.
+For example, if we run a query for all collaborators who match FunctionType = HR, all those who do not match that filter, such as internal employees from Sales or Marketing, will be included in the _Unclassified_Internal_ category.
 
 ![Unclassified internal](../images/WpA/Use/unclassified_int_ext.png)
 
@@ -127,9 +120,13 @@ For example, suppose we ran a query for collaborators to find out which organiza
 
 In some instances, certain people may not have the organizational attribute defined. (_City_ is an HR attribute). This might be because such employees are mobile and do not have fixed location, and cannot be classified by city. Such employees will be placed in the _Other collaborators_ category.
 
-### Collaborators Within Group
+### Collaborators within group
 
-If the result of a query defines the same set of people as members of both the time investors and collaborators groups, _and_ these individuals also match the filter defined in option 3C, as shown in the graphic, then the collaborators are grouped together under the value _Collaborators Within Group_. These additional values will also be included in the query output for group-to-group queries.
+For people who are licensed, internal employees and have an org data attribute assigned for the group defined in 3C as people who collaborated with the time investors, then they will be included in the _Collaborators Within Group_. These additional values will also be included in the query output for group-to-group queries.
+
+### Internal collaborators
+
+This output metric is only applicable for “Time Investor Initiated Meeting Hours.”​ If the “Focus” filter in 3C is NOT set, Internal Collaborators will equal all employees who are not in the group selected in 3c. ​The Meeting hours generated by the meeting organizers for others in the company who we don't have an org data file attribute (i.e. no org data file, or no HR attribute)​.
 
 ## Group-to-group query output
 
