@@ -26,4 +26,6 @@ ms.prod: wpa
 
 This section contains help for correcting data in an uploaded source file that is causing validation errors.
 
-[!INCLUDE [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats)] 
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
+
+[!INCLUDE [Valid values and formats](../includes/org-data-upload-tips.md)]
