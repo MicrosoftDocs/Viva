@@ -41,7 +41,7 @@ The following meeting types are also excluded from meeting metrics:
     * Tentative
     * Out of Office, as shown in the following graphic.
     &nbsp;  
-      ![Meeting status Out of Office](../../../Images/mya/use/meeting-status-oof.png)
+      ![Meeting status Out of Office](../../Images/mya/use/meeting-status-oof.png)
 
 > [!Note]
 > MyAnalytics counts double-booked meetings only once. For example, if you have two meetings that both run from 10:00 AM to 11:00 AM, MyAnalytics counts this as only one hour of meeting time.
@@ -69,7 +69,7 @@ MyAnalytics counts your audio calls, video calls, and chats (instant messages) t
  * For any call that is also a meeting on the Outlook calendar, the time counts as 0. This is because the time is already being counted as a meeting on the calendar.
 
   >[!Note]
-  > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../../Overview/MyA-faq.md)
+  > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md)
 
 ### Documents
 
