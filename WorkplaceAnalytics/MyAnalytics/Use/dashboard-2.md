@@ -29,7 +29,7 @@ The MyAnalytics dashboard opens to the **Home** page that shows you statistics a
 
 ## Focus and Wellbeing
 
-The Focus section give you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
+The Focus section helps you understand whether you have enough time for uninterrupted individual work and provides tips on how to protect your calendar and manage distractions.
 
 The Wellbeing section shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 

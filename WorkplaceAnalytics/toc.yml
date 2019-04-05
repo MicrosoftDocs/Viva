@@ -165,8 +165,6 @@
     - name: Use MyAnalytics
       items:
       - name: Work patterns
-        expanded: false
-        href: MyAnalytics/Use/dashboard-2.md
         items:
         - name: Focus
           href: MyAnalytics/Use/focus.md

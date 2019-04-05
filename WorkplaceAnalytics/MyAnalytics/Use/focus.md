@@ -15,53 +15,43 @@ ms.prod: mya
 
 # Focus
 
-The MyAnalytics Focus page shows weekly averages for Available focus and Collaboration time. Focus time is two or more consecutive hours of time without meetings,  enough time so that you can focus on deliverables or complete other important tasks.
+The MyAnalytics Focus page shows weekly averages for the time you have available to focus and time spent collaborating with others in your network. 
 
 ![Focus](../../Images/mya/use/focus.png)
 
 ## Productivity insights
 
-These insights are based on your recent workplace activity. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns, such as booking focus time in your calendar and adding tasks to the body of the appointment.
+These insights are based on your recent activity in Office 365. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns, such as booking focus time in your calendar and muting notifications when trying to concentrate.
 
 ### About the metrics
 
 * **Collaboration** is based on meetings, emails, chats, and calls with Teams and Skype for Business.
 
-* **Available to focus** is based on blocks of 2+ hours of free time in your calendar.
+* **Available to focus** is equal to your working hours minus your collaboration hours; it shows the amount of time you have left over each week for individual work.
 
-Both metrics are calculated only for your working hours, as determined by your Outlook calendar.
+Both metrics are calculated only for your working hours, as determined by your Outlook calendar. If you mark an appointment on your calendar as “Out of office”, that time will be excluded from this calculation.
 
-For example: If you spent 20 hours in meetings, emails, chats, and calls in a given week, and had 10 hours’ worth of focus blocks (2+ contiguous hours of free time on your calendar) in your calendar that week, then your dashboard will show 67% collaboration and 33% available focus time for that week.
+For example: If your working hours are set as 9 am to 5 pm daily (8 working hours per day) and you spent 30 hours in meetings, emails, chats, and calls in a given week, your dashboard will show 75% collaboration and 25% time available to focus for that week.
 
 ## Focus tips
 
 #### Block focus time on your calendar
 
-It can be hard to go deep on your most challenging work when you're distracted by back-to-back meetings and endless notifications. By blocking 2+ hours of time for focused work into your calendar every day, you can get more done in less time, master your task list, and unleash your creativity.
+It can be hard to go deep on challenging work if you only have small chunks of time to focus in between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions , can help improve your concentration and effectiveness.
 
-Prioritize your own time and block against double-booking it. In the same way, be respectful of double-booking your team’s blocked time.
+Prioritize any focus time you book and do your best to avoid accepting meetings that overlap with it. In the same way, be respectful of double-booking your team’s blocked time.
 
-#### Book focus time at the beginning of the week
+#### Manage notifications and interruptions
 
-Booking focus time on your calendar at the beginning of the week will ensure you have enough time to get your work done. Try using the MyAnalytics Outlook add-in for a convenient way to book focus time.
-
-#### Don't get distracted by email
-
-To maximize focus, try checking your inbox only once an hour. If that works well, next try checking email every two hours and so on. Discover how much focus you can get back. When work is interrupted, it can take up to 20 minutes to get back into the flow.
+Multitasking can slow you down; after checking even just one email or chat, it can take a significant amount of time to refocus. To improve concentration, try turning off notifications and checking your email inbox less frequently.
 
 #### Group your meetings together on your calendar
 
 If your calendar is fragmented with meetings, try grouping meetings on your calendar so you have longer free blocks available to focus.
 
-#### Reduce the meetings you attend and schedule
+#### Evaluate and shorten your meetings
 
-Fewer meetings can mean more time to concentrate on meaningful tasks, or to rest. Review your recurring meetings to make sure they're a good use of time each week.
-
-In an office culture where meetings fill the day, make the most of your meetings. If you set goals and expectations ahead of time, meetings will be more efficient.
-
-#### Divide up meetings and share notes after
-
-Meetings are essential for sharing information and getting work done, but they're not always the best use of time. A few simple habits, such as preparing agendas in advance and being selective in accepting new invitations, can help you trim unnecessary meeting time out of your schedule and get time back for other projects.
+Meetings are essential for many jobs, but they sometimes last longer than needed. An easy starting point for reducing your meeting load is to review your recurring meetings and make sure they're a good use of time each week. Also consider dividing up meetings with coworkers and sharing notes afterwards if you’re not all needed in the room at the same time.
 
 ## Related topics
 
