@@ -15,7 +15,7 @@ ms.prod: mya
 
 # Network
 
-The MyAnalytics Network page shows how many people you actively connect with in the last month and gives you ideas about improving connections with your most important contacts, such as your manager or your direct reports.
+The MyAnalytics Network page shows how many people you actively connect with in the last month and gives you suggestions on how to improve connections with your most important contacts, such as your manager or your direct reports.
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
@@ -35,7 +35,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 2. In the **Suggested people to add** section:
 
    * If the person is listed, select the star under the name to mark the person as important.
-   * If not listed, search for the person's name, and then select the star next to the name.
+   * If the person is not listed, search for the person's name, and then select the star next to the name.
 
 **To remove a person from your important list**
 
@@ -58,7 +58,7 @@ Things change. Keep your Important people list up to date. Follow the steps in [
 
 #### Set up a weekly check-in with your manager
 
-One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync. Research shows that top-performing managers get regular one-on-one time with their team members.  One-on-ones give employees an opportunity to voice concerns, share feedback, and stay motivated.
+One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync. Research shows that top-performing managers get regular one-on-one time with their team members. One-on-ones give employees an opportunity to voice concerns, share feedback, and stay motivated.
 
 ### Make time for networking
 
@@ -66,7 +66,7 @@ Making time to foster relationships and grow your network has proven to contribu
 
 #### Spend more time with important collaborators
 
-Spending more time with the people in your network who align with your top priority tasks at work improves team collaboration and increases project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
+Spending more time with the people in your network who align with your top-priority tasks at work can improve team collaboration and increase project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
 
 ## Related topics
 

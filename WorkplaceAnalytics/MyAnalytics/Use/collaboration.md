@@ -21,7 +21,7 @@ A dedicated page for Collaboration is coming soon to MyAnalytics.
 
 ## Productivity insights
 
-These are based on your recent collaboration activity at work. Select **View Suggestions** to get ideas about how you might change or improve your current collaboration work pattern.
+These are based on your recent collaboration activity at work. Select **View Suggestions** to get ideas about how you might change or improve your current collaboration patterns.
 
 ## About the metrics
 
@@ -31,10 +31,10 @@ Meeting metrics include any meetings that you’ve organized or accepted that ha
 
 The following meeting types are also excluded from meeting metrics:
 
- * Meetings that last eight or more hours. This includes all-day meetings.
- * Meetings that are marked as Private.
- * Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders.
- * Meetings for which Show As is set to any of the following values:
+ * Meetings that last eight or more hours, such as all-day meetings
+ * Meetings that are marked as **Private**
+ * Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders
+ * Meetings for which **Show As** is set to any of the following values:
 
     * Free
     * Working Elsewhere
@@ -46,27 +46,25 @@ The following meeting types are also excluded from meeting metrics:
 > [!Note]
 > MyAnalytics counts double-booked meetings only once. For example, if you have two meetings that both run from 10:00 AM to 11:00 AM, MyAnalytics counts this as only one hour of meeting time.
 
-MyAnalytics counts audio calls, video calls, and chats that people make in Teams and in Skype for Business as collaboration activities. It calculates the duration of these activities this way: 
-
 ### Email
 
-Email metrics estimate how much time you spent sending and reading emails, across all devices, such as laptops and mobile phones. Only emails that have your name, or a group you’re a member of, on the To: line or on the Cc: line are included. Emails that you delete without opening are not included.
+Email metrics estimate how much time you spent sending and reading emails, across all devices, such as laptops and mobile phones. Only emails that have your name, or a group you’re a member of, on the **To** line or on the **Cc** line are included. Emails that you delete without opening are not included.
 
-Each email you send is assigned 5 minutes. Each email you open is assigned 2.5 minutes. However, shorter times are assigned in these cases:
+Each email you send is assigned 5 minutes. Each email you open is assigned 2.5 minutes. However, shorter times are assigned for the following scenarios:
 
 * If you send one email and then open or send another one within 5 minutes, the time between the two actions gets assigned to the first email.
 * If you open one email and then open or send another one within 2.5 minutes, the time between the two actions gets assigned to the first email.
 
-Also, any time that you spend sending or reading email outside your set work hours (as defined by your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance)) will affect your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
+Also, the time you spend sending or reading email outside your set work hours (as defined by your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance)) will affect your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
 
 ### Chats and calls
 
 MyAnalytics counts your audio calls, video calls, and chats (instant messages) that occur in Teams and in Skype for Business as collaboration activities, which are calculated as follows:
 
- * Every chat or instant message that you send counts as 30 seconds.
- * Every chat message that you receive counts as 0 seconds. This is because it has been empirically determined that the sent-messages time is a good predictor of the total duration of the Teams session or Skype for Business session.
- * For every ad hoc call, MyAnalytics uses the actual duration of the call. An "ad hoc" call is a call that does not appear in the Outlook calendar. 
- * For any call that is also a meeting on the Outlook calendar, the time counts as 0. This is because the time is already being counted as a meeting on the calendar.
+* Each chat or instant message that *you send* counts as 30 seconds.
+* Each chat that *you receive* counts as zero seconds because empirically, time spent on sent messages is a good predictor of the total duration of Teams and Skype for Business sessions.
+* For each impromptu call, MyAnalytics uses the actual duration of the call. An impromptu or ad hoc call is an unscheduled call that’s not included in your calendar.
+* For calls that are scheduled as meetings in your calendar, the time counts as zero seconds because these calls are already being counted as meeting time.
 
   >[!Note]
   > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md)
@@ -75,10 +73,10 @@ MyAnalytics counts your audio calls, video calls, and chats (instant messages) t
 
 MyAnalytics also shows information for OneDrive and SharePoint documents that you have worked on. As a MyAnalytics participant, you'll see the following insights:
 
- * The number of cloud documents that you worked on (read, edited, or reviewed). 
- * The number of cloud documents that you worked on outside of working hours.
+ * The number of cloud documents that you worked on (read, edited, or reviewed)
+ * The number of cloud documents that you worked on outside of working hours
  
-To see these insights, you must have worked on at least three OneDrive or SharePoint cloud documents during the past week. 
+To see these insights, you must have worked on at least three OneDrive or SharePoint cloud documents during the past week.
 
 ## Collaboration tips
 
@@ -94,7 +92,7 @@ If your calendar is fragmented with meetings, try grouping your meetings on your
 
 #### Reduce the meetings you attend and schedule
 
-Fewer meetings can open up more time for collaboration. Review your recurring meetings to make sure they're a good use of time each week. 
+Fewer meetings enables more time for collaboration. Review your recurring meetings to make sure they're a good use of time each week.
 
 Check the attendee lists for meetings you organize. Try condensing meetings with identical attendees.
 
@@ -102,11 +100,11 @@ In an office culture where meetings fill the day, make the most of yours. By set
 
 #### Respond to meetings on time
 
-Make sure to respond to meeting invites on time so that your team knows what to expect. Coworkers can better prepare for meetings when they have a good sense of who plans to attend.
+Respond to meeting invites on time so your team knows what to expect. Coworkers can better prepare for meetings when they have a good sense of who plans to attend.
 
 #### Give people time to prepare for meetings
 
-Last-minute invitations are sometimes necessary, but your meetings may be more effective if you give attendees sufficient time to prepare.
+Last-minute invitations are sometimes necessary, but your meetings may be more effective if you give attendees some time to prepare.
 
 #### Include meeting agendas and action items in your invites
 
@@ -114,17 +112,17 @@ Add agendas and action items to get the most out of your meetings. Consider addi
 
 #### Start and end meetings on time
 
-When meetings start on time, they are more likely to finish on time and meet the objectives of the meeting. Consider blocking time for preparation before the start of the meetings to avoid late starts. 
+When meetings start on time, they are more likely to finish on time and meet the objectives of the meeting. Consider blocking time for preparation before the start of meetings to avoid late starts.
 
 Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team collaboration.
 
 #### Cancel meetings a day ahead
 
-If possible, send cancellations to attendees the day before. Do your best to plan ahead so that attendees can optimally repurpose that time.
+If possible, send cancellations to attendees the day before. Do your best to plan ahead so that attendees can optimally re-purpose that time.
 
 #### Take long email threads offline
 
-For long email threads that increase over the course of a few weeks, consider taking the email offline and scheduling a meeting to synch up.
+For long email threads that increase over the course of a few weeks, consider taking the email offline and scheduling a meeting to sync up.
 
 ## Related topics
 
