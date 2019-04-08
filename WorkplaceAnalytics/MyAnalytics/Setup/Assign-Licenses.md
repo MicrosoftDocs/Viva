@@ -18,7 +18,7 @@ audience: Admin
 You must assign a MyAnalytics license to each participant that wants to get statistics from MyAnalytics. For information on how to do this, see [Assign licenses to users in Office 365 for business](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc). If you don’t want a user to see any statistics from MyAnalytics, just remove the MyAnalytics license from the user.
 
 > [!Note]
-> Assigning MyAnalytics licenses turns MyAnalytics on for participants. Before you do this, you might notify them in email that MyAnalytics will be available soon. To help you with this notification, use [this email template](MyAnalytics-announcement-template.docx). You can download it, customize it with your company’s information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
+> Assigning MyAnalytics licenses turns MyAnalytics on for participants. Before you do this, you might notify them in email that MyAnalytics will be available soon. To help you with this notification, use [this email template](MyAnalytics-announcement-template.docx). You can download it, customize it with your company’s information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md). If a user already has a license assigned suitable for MyAnalytics, you may notice a newly assigned plan with a Service Type of Exchange and a ServicePlanID of "33c4f319-9bdd-48d6-9c4d-410b750a4a5a" when the MyAnalytics feature is enabled.
 
 ### MyAnalytics elements become available
 
