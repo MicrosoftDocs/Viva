@@ -158,6 +158,22 @@ This information about the errors helps you decide which path to choose next &md
 
 [!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation.md)]
 
-## Tips
+### Addition of a new data column
 
-[!INCLUDE [Tips](../includes/org-data-upload-tips.md)]
+Let's say that you've already uploaded at least 13 months of snapshot data, which contained the five required columns (PersonId, EffectiveDate, LevelDesignation, ManagerId, Organization) for all employees. Now, you want to upload one new column of data – for example, an engagement score value for each employee – and you want it to apply to all of the historical data. When you upload to append the new "EngagementScore" data column, remember to reupload all five of the minimum required fields along with the new field. 
+
+### Set Validity threshold for custom fields
+
+The threshold depends on the intended use of the custom field. If you intend to use this data in much of your analysis, consider setting it to a high percentage. You can set a lower threshold for data that applies, for example, to only a small subset of people in your organization.
+
+#### Set a high value
+
+Generally, you should set the Validity threshold to a high value. This is especially important if your analysis will focus on that field.
+
+For example, you might include a "SupervisorIndicator" attribute. At first, you might not think that you're analyzing manager behavior and you might be tempted to omit this attribute. But the organization hierarchy is used implicitly by many Workplace Analytics analyses – for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
+
+#### Set a lower value
+
+The goal of your analysis might be to determine sales effectiveness. Your data might include an attribute for sales attainment that only makes sense for members of your sales force, who constitute about 10% of the company. This number doesn't apply to engineers or program managers, but it is critical for high-performers in sales.  
+
+
