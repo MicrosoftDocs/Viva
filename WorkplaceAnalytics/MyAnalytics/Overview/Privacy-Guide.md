@@ -162,11 +162,11 @@ Within a few days of the assignment of a license with the MyAnalytics service to
 ### Welcome email
 
 To notify employees that their dashboard and Outlook add-in have been enabled, MyAnalytics delivers a 
-[Welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-welcome-email) within a few days of license assignment. The email introduces people to the application and has a reminder that MyAnalytics is private and personal.
+[welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-welcome-email) within a few days of license assignment. The email introduces people to the application and has a reminder that MyAnalytics is private and personal.
 
 ### Weekly digest email
 
-The week after the welcome email is delivered, users  begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2).
+The week after the welcome email is delivered, users begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2).
 
 ## GDPR Compliance
 
@@ -174,7 +174,7 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
 
 1. **Secure and protect personal data of data subjects**.
     All MyAnalytics data is stored in the employees’ Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
-    * Microsoft will not mine customer data in Exchange Online for advertising. 
+    * Microsoft will not mine customer data in Exchange Online for advertising.
     * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
     * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 

@@ -31,7 +31,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights that you might see
 
-![Bullet point](images/mya/overview/bullet-point-indented.png)Open the Insights Outlook add-in by selecting the MyAnalytics (swirl) icon in the top ribbon of Outlook. If you are using Outlook Web App, first open an email message and then select Outlook add-in in the top-right corner of your email message. After you launch the add-in, the insights cards are displayed in the right panel:
+![Bullet point](images/mya/overview/bullet-point-indented.png)To open the Insights Outlook add-in, select the Insights (swirl) icon on the Outlook Home ribbon. If you are using Outlook Web App, first open an email message and then select **Insights** in the top-right corner of your email message. After you launch the add-in, the insight cards are shown in the right panel.
 
 ![Insights panel](images/mya/overview/cards-panel-17.png)
 
@@ -41,7 +41,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Frequently asked questions
 
-The following answers some of the common questions asked about Insights.
+The following answers some of the common questions asked about Insights by MyAnalytics.
 
 **Q1. Which plans will offer this experience?**
 

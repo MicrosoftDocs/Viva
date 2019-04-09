@@ -38,9 +38,9 @@ After you assign a user license with the MyAnalytics service, the new participan
  * **MyAnalytics welcome email:**
   
       * Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted.
-      * New users will receive the Welcome email approximately four weeks after their license is granted.
+      * New users will receive the welcome email approximately four weeks after their license is granted.
 
     > [!Note]
-    > Users will not receive the welcome email outside of their work week. If a user's set work week is Monday to Friday, and the person's Welcome email would otherwise arrive on a weekend, its arrival time is delayed to the following Monday. For more details, see [MyAnalytics welcome email](../Use/MyA-Welcome-email.md).
+    > Users will not receive the welcome email outside of their work week. If a user's set work week is Monday to Friday, and the person's welcome email would otherwise arrive on a weekend, its arrival time is delayed to the following Monday. For more details, see [MyAnalytics welcome email](../Use/MyA-Welcome-email.md).
 
  * **Weekly email digest:** Users will begin to receive the MyAnalytics [email digest](../Use/email-digest-2.md) on the Monday of the first week after they receive the welcome email.
