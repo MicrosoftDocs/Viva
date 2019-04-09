@@ -21,6 +21,8 @@ After you run a query in Workplace Analytics, the Results page in Queries will a
 
 You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For more details, see [Use Workplace Analytics data in Power BI and other data analysis tools](https://docs.microsoft.com/workplace-analytics/use/view-download-and-export-query-results#use-workplace-analytics-data-in-power-bi-and-other-data-analysis-tools).
 
+
+
 ## Person-to-group query output
 
 You can use person-to-group queries to help you understand how de-identified individuals invest their time for either internal or external collaboration.
