@@ -21,11 +21,11 @@ ms.prod: mya
 
 Nudges in Outlook (or Insight nudges) are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
 
-Insight nudges can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Nudges in Outlook](#myanalytics-nudges) lists some of the nudges you might see.
+Insight nudges can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of nudges](#types-of-nudges) lists some of the nudges you might see in Outlook.
 
 ## How nudges work
 
-Insights can display nudges in two ways:
+Insights can display nudges in the following ways.
 
 1. While composing a meeting invitation or an email.
 
