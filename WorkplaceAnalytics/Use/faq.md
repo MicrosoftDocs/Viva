@@ -228,3 +228,7 @@ A2. If the result of a query defines the same set of people as members of both t
 ##### Q3. How do I analyze collaboration hours at my company for a specific time frame, such as 8 PM to 8 AM?
 
 A3. You can use the Collaboration hours metric to filter for a specific time frame, regardless of when it occurs. Note that query results that use the Collaboration hours to filter for a time period that includes after-hours time, such as 8 PM to 8 AM, will include all people who collaborated during this time regardless of if they have this time period set as their working or non-working hours on their calendar.
+
+##### Q4 Why don’t totals for meeting hours and email hours match up with totals for working hours and after hours in person query output?
+
+A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
