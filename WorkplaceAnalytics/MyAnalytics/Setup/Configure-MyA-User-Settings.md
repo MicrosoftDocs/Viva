@@ -29,9 +29,10 @@ Excluded   |<ul><li> Office 365 data is not used for aggregated information show
 
 > [!Note]  
 > * _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them. 
-> * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want a licensed user to be opted _out_ by default, which would give them the choice to opt-in, change the value of the PrivacyMode parameter for that user to "Opt-out." 
+> * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want a licensed user to be opted _out_ by default, which would give them the choice to opt-in, change the value of the PrivacyMode parameter for that user to "Opt-out."
 
-## Set PrivacyMode for one user 
+## Set PrivacyMode for one user
+
 Configure MyAnalytics settings for a user with the following PowerShell cmdlet:
 
 ```powershell

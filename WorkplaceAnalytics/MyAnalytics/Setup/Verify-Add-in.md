@@ -12,9 +12,9 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-The Insights Outlook add-in is automatically installed for your organization when you purchase one of the Microsoft Office 365 E5 plans or add-ons that are listed at the beginning of this article. Users will start to see the Insights Outlook add-in in their Outlook mail applications automatically after a license is assigned to them.
+The Insights Outlook add-in is automatically installed for your organization when you purchase one of the Microsoft Office 365 E5 plans or add-ons that are listed at the beginning of this article. Users will start to see the Insights Outlook add-in in their Outlook applications automatically after a license is assigned to them.
 
-You can confirm that the Insights Outlook add-in is installed by looking in the Services and add-ins list for your organization in the Office 365 Admin center.
+You can confirm that the Insights Outlook add-in is installed by looking in the "Services and add-ins" list for your organization in the Office 365 Admin center.
 
 1. [Sign in to Office 365](https://support.office.com/en-us/article/where-to-sign-in-to-office-365-for-business-e9eb7d51-5430-4929-91ab-6157c5a050b4?ui=en-US&rs=en-US&ad=US) with your work or school account.
 

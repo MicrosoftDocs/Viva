@@ -4,9 +4,9 @@
 
 title: Privacy guide for Microsoft MyAnalytics
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
-author: paul9955
+author: madehmer
 ms.author: v-midehm
-ms.date: 04/03/2019
+ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -46,26 +46,26 @@ Microsoft has designed MyAnalytics to support customers’ needs to comply with 
 <li>
 
 **MyAnalytics can be configured so that individuals must purposefully opt in**.
-By default, any time a MyAnalytics license is assigned to a person, that person is automatically opted in. However, administrators can configure MyAnalytics to be "default off," so that people can choose for themselves whether to opt in after the license has been assigned to them.</li>
+By default, any time a license with the MyAnalytics service is assigned to a person, that person is automatically opted in. However, administrators can configure MyAnalytics to be "default off," so that people can choose for themselves whether to opt in after being assigned a license.</li>
 
 <li>
 
 **MyAnalytics and Delve are separate applications with no interdependencies**.
-MyAnalytics and Delve are both first-party Microsoft Graph applications and have no overlap. These applications can be managed and licensed separately, without settings from one impacting the settings of the other.</li>
+MyAnalytics and Delve are both first-party Microsoft Graph applications and have no overlap. These applications can be managed separately, without settings from one impacting the settings of the other.</li>
 
 <li>
 
 **MyAnalytics reminds people that their data is private and secure**.
-Three days after a MyAnalytics license is assigned to a person, that person receives a welcome email that clearly lays out how MyAnalytics works, with a reminder that all of their data is private. The other MyAnalytics user interfaces, such as the weekly email digest and personal dashboard, reinforce this message.</li>
+A few days after a license with the MyAnalytics service is assigned to a person, that person receives a welcome email that clearly lays out how MyAnalytics works, with a reminder that all of their data is private. The other MyAnalytics user interfaces, such as the weekly email digest and personal dashboard, reinforce this message.</li>
 </ul>
 
 ## How MyAnalytics works
 
-MyAnalytics presents insights through four different surfaces:
+MyAnalytics presents insights in the following ways:
 
 1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
 
-2. [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
+2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
 
 3. [Weekly email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
  
@@ -116,11 +116,11 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
    Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu. To learn more, see [Configure user settings](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist#step-1-configure-user-settings).
 
 * **Determine which employees in sensitive roles should be excluded from incremental data**
-  Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to such users provided that they are licensed.
+  Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed.
 
  Note that if default settings are used, the following applies:
 
-1. All employees in your organization contribute to [incremental data](../Overview/privacy-guide.md#incremental-data) whether or not they have been issued MyAnalytics licenses. 
+1. All employees in your organization contribute to [incremental data](../Overview/privacy-guide.md#incremental-data) whether or not they have been issued licenses with the MyAnalytics service. 
 2. MyAnalytics is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
 
 ### How employees can opt-in and opt-out
