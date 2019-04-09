@@ -26,7 +26,7 @@ This page answers key questions on how MyAnalytics processes information in a ma
 <ul><li>
 
 **MyAnalytics is not designed to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring**.
-MyAnalytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Outlook Add-in, and nudges in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
+MyAnalytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Insights Outlook add-in, and nudges in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
 
 <li>
 
@@ -69,7 +69,7 @@ MyAnalytics presents insights through four different surfaces:
 
 3. [Weekly email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
  
-4.	[Nudges in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
+4. [Nudges in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
 
 MyAnalytics provides insights with the following types of data.
 
@@ -95,7 +95,7 @@ In a few cases, MyAnalytics provides people with *de-identified* information on 
 
 ### Email read rates
 
-MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook Add-in) for email that a person sends to five or more people.
+MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
 However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate renders as “Low” or “High.”
 
@@ -157,12 +157,12 @@ The Microsoft Graph cannot be turned on or off globally through the Office 365 A
 
 ### Dashboard and Outlook Add-in
 
-Within one to three days of the assignment of a MyAnalytics license to an employee —either as part of an overall E5 license or as an add-on license —the user’s MyAnalytics [dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
+Within a few days of the assignment of a license with the MyAnalytics service to an employee —-either as part of an overall E5 license or as an add-on license-— the user’s MyAnalytics [dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
 
 ### Welcome email
 
-To notify employees that their dashboard and Outlook Add-in have been enabled, MyAnalytics delivers a 
-[Welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-welcome-email) within three days of license assignment. The email introduces people to the application and contains a reminder that MyAnalytics is private and personal.
+To notify employees that their dashboard and Outlook add-in have been enabled, MyAnalytics delivers a 
+[Welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-welcome-email) within a few days of license assignment. The email introduces people to the application and has a reminder that MyAnalytics is private and personal.
 
 ### Weekly digest email
 
@@ -170,10 +170,9 @@ The week after the welcome email is delivered, users  begin to receive the [week
 
 ## GDPR Compliance
 
-As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics: 
+As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics:
 
 1. **Secure and protect personal data of data subjects**.
-
     All MyAnalytics data is stored in the employees’ Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
     * Microsoft will not mine customer data in Exchange Online for advertising. 
     * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.

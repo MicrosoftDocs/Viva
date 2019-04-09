@@ -68,7 +68,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn about the prerequisites and the Outlook add-in for MyAnalytics and how to configure user settings and assign licenses.</p>
+                        <p>Learn about MyAnalytics prerequisites, the Insights Outlook add-in, and how to configure user settings and assign licenses with the MyAnalytics service.</p>
                         <p></p>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Using MyAnalytics</h3>
-                        <p>Learn how you spent your time over the past month, productivity insights about your work habits, helpful suggestions for improvement, and information about your network, top collaborators, and collaboration activities.</p>
+                        <p>Learn how you spent your time over the past month and productivity insights to help improve your focus, wellbeing, network, and collaboration work patterns.</p>
                     </div>
                 </div>
             </div>

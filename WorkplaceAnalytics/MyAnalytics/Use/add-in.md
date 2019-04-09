@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics Add-in
+title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-pascha
@@ -13,7 +13,7 @@ ms.prod: mya
 
 ---
 
-# MyAnalytics Outlook add-in
+# Insights Outlook add-in
 
 **_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Office 365 E3, Office 365 E1, Business Premium, Business Essentials._**
 
@@ -25,9 +25,9 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights you might see
 
-Launch the Outlook add-in by selecting the swirl icon in the ribbon. If you are using Outlook Web App, first open an email message and then select the swirl icon in the top-right corner of your email message, next to the **Reply** button.
+You can open the Insights Outlook add-in by selecting the **Insights** (swirl) icon in the Outlook Home ribbon. If you are using Outlook Web App, first open an email message, and then select the **Insights** icon in the top-right corner of your email message.
 
-After you launch the add-in, the insights cards are displayed in the right panel:
+You'll see insight cards displayed in the right panel of your email window:
 
 ![Insights panel](../../images/mya/overview/cards-panel-17.png)
 

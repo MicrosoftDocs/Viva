@@ -3,10 +3,10 @@
 # required metadata
 
 title: Tips on how to use MyAnalytics to reach your work goals
-description: How MyAnalytics can help you with your work goals.
+description: How MyAnalytics can help you with your work goals
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
+ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -19,9 +19,9 @@ ms.prod: mya
 
 Use these tips to learn how to spend your time better and focus on what's important in your work. Not all tips are for everyone. What you can and should do always depends on your role and the organization you work in. 
 
-## Use MyAnalytics in Outlook
+## Use Insights in Outlook
 
-Would you like to know how many people read a specific email message that you sent? Check out the MyAnalytics Outlook add-in to see how many people have read, replied to, or forwarded your email.
+Would you like to know how many people read a specific email message that you sent? Check out the Insights Outlook add-in to see how many people have read, replied to, or forwarded your email.
 
 [!INCLUDE [See email info and insights](../Includes/to-see-email-info-and-insights.md)]
 

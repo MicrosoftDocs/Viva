@@ -92,4 +92,4 @@ When you opt out, the following will occur:
 
 ### If I opt out, can I opt back in?
 
-Yes, you can opt back in any time. This will give you access to your personal dashboard.
+Yes, you can opt back in any time to regain access to your personal dashboard.

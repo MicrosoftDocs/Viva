@@ -3,20 +3,20 @@
 # required metadata
 
 title: Configure MyAnalytics user settings
-description: Configure MyAnalytics settings for new users. 
+description: Configure MyAnalytics settings for new users
 author: paul9955
 ms.author: paul9955
-ms.date: 03/25/2018
-ms.topic: get-started-article
+ms.date: 04/08/2018
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [PrivacyMode options](#privacymode-options). 
+You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [PrivacyMode options](#privacymode-options).
 
-To set this parameter for one user or for many users, see the following:  
+You can set this parameter for one user or for many users:  
 
- * [Set PrivacyMode for one user](#set-privacymode-for-one-user) 
+ * [Set PrivacyMode for one user](#set-privacymode-for-one-user)
  * [Set PrivacyMode for multiple users](#set-privacymode-for-multiple-users)
 
 ## PrivacyMode options
@@ -41,9 +41,10 @@ Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD).   |   -
-PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboard and Outlook add-in.</li><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
+PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboard and the Insights Outlook add-in.</li><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
   
-### Get PrivacyMode for one user 
+### Get PrivacyMode for one user
+
 To determine the value of PrivacyMode for one user, use the following cmdlet:
 
 ```powershell
@@ -87,7 +88,7 @@ Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName
 3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
 
 This PowerShell command block does the following:
+
  * Displays the user principal name of each user.
  * Sets the specified privacy mode for each user.
  * Creates a .csv file with all the users that were processed and shows their status.
-

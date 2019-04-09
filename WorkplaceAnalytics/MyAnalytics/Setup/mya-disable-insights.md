@@ -4,9 +4,9 @@
 
 title: Disable Insights by MyAnalytics
 description: How to disable Insights by MyAnalytics at the organizational level 
-author: paul9955
-ms.author: v-pascha
-ms.date: 03/25/2019
+author: madehmer
+ms.author: v-midehm
+ms.date: 04/08/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -14,15 +14,15 @@ ms.prod: mya
 
 # Disable Insights by MyAnalytics
 
-You can disable the Insights by MyAnalytics add-in for your entire organization by using the Exchange admin center.
+You can disable the Insights by MyAnalytics service for your entire organization by using the Exchange admin center.
 
 > [!Note]
-> This functionality will become available after April 15, 2019. 
+> This functionality will become available after April 15, 2019.
 
-## Disable the Insights by MyAnalytics add-in
+## Disable the Insights by MyAnalytics service
 
 > [!Note]
-> You must be an Office 365 admin to perform these steps. 
+> You must be an Office 365 admin to perform these steps.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
 
@@ -47,4 +47,4 @@ You can disable the Insights by MyAnalytics add-in for your entire organization 
 <!--
    ![Clear checkboxes and Save](../../images/mya/use/clear-checkbox.png) -->
 
-This disables the selected add-in for all users in your organization.
+This disables the selected service for all licensed users in your organization.

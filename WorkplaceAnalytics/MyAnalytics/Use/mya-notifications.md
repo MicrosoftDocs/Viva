@@ -6,8 +6,8 @@ title: MyAnalytics nudges in Outlook
 description: Describes what MyAnalytics nudges are in Outlook and how they work
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/03/2019
-ms.topic: get-started-article
+ms.date: 04/08/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 
@@ -37,7 +37,7 @@ MyAnalytics can display nudges in two ways:
 
    ![Nudges email image 02](../../Images/mya/use/nudges-email-02.png)
 
-While reading an email, this nudge reminds you of a potential outstanding task item for the email sender. Selecting the link takes you to the MyAnalytics Add-in, which shows the list of task items. 
+While reading an email, this nudge reminds you of a potential outstanding task item for the email sender. Selecting the link takes you to the Insights Outlook add-in, which shows the list of task items.
  
 ![Nudges meeting image 03](../../Images/mya/use/nudges-meeting-summary_03.png)
 
@@ -47,19 +47,19 @@ MyAnalytics nudges are available in the latest versions of Outlook for the web a
 
 ## Providing feedback
 
-You can provide feedback for each nudge by using the feedback control at the bottom of the MyAnalytics Add-in screen. If you send a thumbs down, we’ll show you less of that nudge.
+You can provide feedback for each nudge by using the feedback control at the bottom of the Insights Outlook panel. If you send a thumbs down, we’ll show you less of that nudge.
 
    ![Nudges feedback button image 04](../../Images/mya/use/nudges-feedback-04.png)
 
-You can always provide overall feedback by selecting the smiley face in the upper-right corner of the MyAnalytics Add-in.
+You can always provide overall feedback by selecting the smiley face in the upper-right corner of the Insights Add-in panel.
 
-## Opt out of nudges
+## To opt out of nudges
 
-1. To opt out of MyAnalytics nudges, navigate to the MyAnalytics Add-in by selecting the MyAnalytics button on the ribbon.
+1. To opt out of MyAnalytics nudges, navigate to the Insights add-in by selecting the **Insights** icon on the Outlook Home ribbon.
 
-      ![Nudges email image 05](../../Images/mya/use/nudges-mya-tab-05.png)
+      ![Insights icon](../../Images/mya/use/insights-icon.png)
 
-      If you are using Outlook on the web, the MyAnalytics icon can be found in the top right corner of the reading pane, or in the bottom right corner of the compose form.
+      If you are using Outlook on the web, the Insights icon is in the top right corner of the reading pane, or in the bottom right corner of the compose form.
 
      ![Nudges email image 06](../../Images/mya/use/nudges-reply-all-06.png)
 

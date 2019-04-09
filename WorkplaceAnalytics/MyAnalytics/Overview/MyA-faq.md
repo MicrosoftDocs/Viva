@@ -126,9 +126,9 @@ If you plan to go on vacation, create a calendar event that includes the days of
 
 You can track your teams progress if the team has conducted a program to change its collaboration habits. During such a program, its statistics, and thus its progress towards its improvement goals, are tracked. For information about starting such a program, see [Get started](../use/mya-adoption/team-adopt-intro.md). For information about tracking the progress that your team made, see [Measure](../use/mya-adoption/team-adopt-measure.md).
 
-### Outlook add-in
+### Insights Outlook add-in
 
-##### Q1. The Outlook add-in displays Task cards (commitments). Are they available in all languages, or just in English?
+##### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
 
 The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook add-in are available only in English.
 
@@ -150,7 +150,7 @@ Yes, follow the steps in [To opt out of MyAnalytics](../use/dashboard-2.md#can-i
 
 ##### Q6. Can I turn off nudges? 
 
-Yes, follow the steps in [Opt out of nudges](../use/mya-notifications.md#opt-out-of-nudges).
+Yes, follow the steps in [To opt out of nudges](../use/mya-notifications.md#to-opt-out-of-nudges).
 
 ## For IT administrators
 
@@ -160,15 +160,15 @@ User metrics data is stored in users' mailboxes.
 
 #### Q2. How long does it take for the personal dashboard to become available?
 
-The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after the MyAnalytics licenses are assigned to the participants. For more information, see [Assign MyAnalytics licenses to users](../setup/mya-setup-checklist.md#step-2-assign-myanalytics-licenses-to-users).
+The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service are assigned to the participants. For more information, see [Assign licenses with the MyAnalytics service](../setup/mya-setup-checklist.md#step-2-assign-licenses-with-MyAnalytics).
 
 #### Q3. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
 
 Upon activation, MyAnalytics processes historical data for 80 days before the date of activation. No data from before this 80-day limit is displayed in the dashboard.
 
-#### Q4. Can MyAnalytics licenses be assigned to shared mailboxes?
+#### Q4. Will MyAnalytics work for shared mailboxes?
 
-No, currently MyAnalytics licenses cannot be assigned to shared mailboxes.
+No, currently the MyAnalytics service cannot be used with shared mailboxes.
 
 #### Q5. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
