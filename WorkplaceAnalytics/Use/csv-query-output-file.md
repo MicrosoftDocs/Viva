@@ -6,7 +6,7 @@ title: How to interpret query output in Workplace Analytics
 description: Understand and interpret query output is Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/05/2019
+ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,11 +17,28 @@ ms.prod: wpa
 
 After you run a query in Workplace Analytics, the Results page in Queries will appear in the list with a download link as .csv (comma-separated values) file with the query output.
 
-![Csv file download](../images/WpA/Use/csv-download.png)
+![.csv file download](../images/WpA/Use/csv-download.png)
 
 You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For more details, see [Use Workplace Analytics data in Power BI and other data analysis tools](https://docs.microsoft.com/workplace-analytics/use/view-download-and-export-query-results#use-workplace-analytics-data-in-power-bi-and-other-data-analysis-tools).
 
+## Person query output
 
+Person query output can include a number of different metrics, including the following:
+
+* Person ID - De-identified ID number for the person represented in that data row.
+* Date - The start date of the aggregated output (i.e. if the week is 6/3 to 6/10, then it is 6/3. If it is a month, then it is the start of the month your data encompasses).
+* Person attributes - Attributes about the person supplied through the latest organizational (HR) data upload.
+* Metrics - Any other metrics that you include in the query. See [Person query metrics](../use/metric-definitions.md) for more details.
+
+### Duration hours adjusted for time booked in the calendar
+
+If you add a person's working hours and after hours for email and meetings, do not expect these to equal the totals for working hours or after hours. This is due to slight differences in how the metrics are calculated in Workplace Analytics. 
+
+Think of working hours and after hours totals as “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly.
+
+However, this logic doesn't specify a “chunk” of time with start and end dates, but assigns time as a single number. This can cause a variation in meeting hours and after hours, in particular for double booked meetings and meetings that span between working hours and after hours on a person's schedule.
+
+For example, if a person's work day ends at 5 PM and that person attends a scheduled meeting from 4:30 to 5:30 PM that is double booked with another meeting by a half hour (duration hours adjusted = 0.5hr), the calculation uses “time booked in the calendar,” which adds 0.5 hour to working hours, 0.5 hour as after-hours work, and adds 0.5 hour to total meeting hours, which can cause a discrepancy when comparing these totals.
 
 ## Person-to-group query output
 
