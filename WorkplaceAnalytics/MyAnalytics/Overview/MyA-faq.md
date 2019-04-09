@@ -160,7 +160,7 @@ User metrics data is stored in users' mailboxes.
 
 #### Q2. How long does it take for the personal dashboard to become available?
 
-The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service are assigned to the participants. For more information, see [Assign licenses with MyAnalytics](../setup/Mya-setup-checklist.md#step-2-assign-licenses-with-MyAnalytics).
+The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service are assigned to the participants. For more information, see [Assign licenses with MyAnalytics](../setup/Mya-setup-checklist.md#step-2-assign-licenses-with-myanalytics).
 
 #### Q3. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
 
