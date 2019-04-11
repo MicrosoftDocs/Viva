@@ -26,37 +26,37 @@ You can also select the _Copy link_ button to get a link for an OData feed to di
 Person query output can include a number of different metrics, including the following:
 
 * Person ID - De-identified ID number for the person represented in that data row.
-* Date - The start date of the aggregated output (i.e. if the week is 6/3 to 6/10, then it is 6/3. If it is a month, then it is the start of the month your data encompasses).
+* Date - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it'll be the first day of the month your data encompasses).
 * Person attributes - Attributes about the person supplied through the latest organizational (HR) data upload.
 * Metrics - Any other metrics that you include in the query. See [Person query metrics](../use/metric-definitions.md) for more details.
 
 ### Duration hours adjusted for time booked in the calendar
 
-If you add a person's working hours and after hours for email and meetings, do not expect these to equal the totals for working hours or after hours. This is due to slight differences in how the metrics are calculated in Workplace Analytics. 
+If you add up a person's email and meeting hours during and outside of their work schedule, do not expect these sums to equal the sums for working hours and after hours. Workplace Analytics calculates these groups of metrics differently.
 
-Think of working hours and after hours totals as “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly.
+For working hours and after-hours totals, Workplace Analytics uses "time booked on a person's calendar" instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or for times that overlap on the calendar.
 
-However, this logic doesn't specify a “chunk” of time with start and end dates, but assigns time as a single number. This can cause a variation in meeting hours and after hours, in particular for double booked meetings and meetings that span between working hours and after hours on a person's schedule.
+Workplace Analytics uses a heuristic logic to order which meetings a person likely attended and assigns time accordingly. This logic doesn't specify a “chunk” of time with start and end dates, but assigns time as a single number. This can cause a variation in meeting hours and after hours, in particular for double booked meetings and meetings that span between working hours and after hours on a person's schedule.
 
-For example, if a person's work day ends at 5 PM and that person attends a scheduled meeting from 4:30 to 5:30 PM that is double booked with another meeting by a half hour (duration hours adjusted = 0.5hr), the calculation uses “time booked in the calendar,” which adds 0.5 hour to working hours, 0.5 hour as after-hours work, and adds 0.5 hour to total meeting hours, which can cause a discrepancy when comparing these totals.
+For example, if a person's work day ends at 5 PM and that person attends a scheduled meeting from 4:30 to 5:30 PM that is double booked with another meeting by a half hour (duration hours adjusted = 0.5hr), the calculation uses “time booked in the calendar,” which adds 0.5 hour to working hours, 0.5 hour as after-hours work, and adds 0.5 hour to total meeting hours, which would cause a discrepancy when comparing the totals.
 
 ## Person-to-group query output
 
 You can use person-to-group queries to help you understand how de-identified individuals invest their time for either internal or external collaboration.
 
-The query output lists these de-identified _Time investors_ (licensed employees) by:
+The query output lists these de-identified *Time investors* (licensed employees) by:
 
 a) Their PersonIds
 
-b) One or more groups as defined in the _Collaborators_ section
+b) One or more groups as defined in the *Collaborators* section
 
-c) The amount of time the time investor spends with the specified groups.
+c) The amount of time the time investor spends with the specified groups
 
-On the "person" side of the query, PersonIds map to groups of "collaborators" on the group side. For group-to-group queries, the Time investor groups map to the groups of "collaborators."
+On the "person" side of the query, PersonIds map to groups of "collaborators" on the group side. For group-to-group queries, the "time investor" groups map to the groups of "collaborators."
 
-In person-to-group queries, the query output (.csv file) includes column headers with single rows for each unique pairing of an individual in the time investor group with any collaborator in the collaborator group during the time periods that the person has collaborated with that group.
+In person-to-group queries, the query output includes column headers with single rows for each unique pairing of a person in the time investor group with any collaborator in the collaborator group during the time periods that the person  collaborated with that group.
 
-For example, PersonId of P1 collaborated with group G1 in weeks one and three of the specified month. Assuming that you run a person-to-group query by selecting "week" as the *Group by* option (*How do you want to group the people who collaborated with the time investors?*) in the **Time investors** section, rows are created for (P1, G1) in weeks one and three only.
+For example, PersonId of P1 collaborated with group G1 in weeks one and three of the specified month. For a person-to-group query that's grouped by "week" in the **Time investors** section (*How do you want to group the people who collaborated with the time investors?*). Then rows will be created for (P1, G1) in weeks one and three only.
 
 ![Table of columns](../images/WpA/Use/personId.png)
 
@@ -147,7 +147,7 @@ This attribute is also available in the query output for group-to-group queries.
 
 ### Internal collaborators
 
-This attribute is only available for the *Time investor initiated meeting hours* metric.​ If the “Focus” filter in 3C is NOT set, this group will include all employees who are not in the group selected in 3c. ​This calculation is the total number of meeting hours created by the meeting organizers for other internal employees in the company who do not have the same group-by (organizational) attribute defined.
+This attribute is only available for the *Time investor initiated meeting hours* metric.​ ​If no “Focus” filter is set, this group includes licensed, internal employees who have no org data value or have a different value for the “Group by” attribute. It's the sum of meeting hours created by the time investors who organized the meetings with this group.​
 
 ## Group-to-group query output
 
