@@ -78,7 +78,6 @@ The query output for person-to-group queries consists of general header columns 
 |  **Collaborators** (collaborator group-by attribute) | Represents the various collaborators by group. For example, if you select "Domain" as the *Group by* attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the *Group by* attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType Group by attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType. |  
 | **Date** | Is either the first day of the week (Sunday) or first day of the month, depending on which date option you originally selected as the group by attribute.|  
 
-
 <sup>*</sup> The Organization and FunctionType columns are similar in that they both reflect the function of employees within an organization. However, the values of each might differ, as in the following examples:
 
 | Organization | FunctionType |
@@ -101,13 +100,11 @@ For details about person-to-group metrics, see [Workplace Analytics metrics](../
 
 **The IsActive attribute**
 
-The *IsActive* attribute doesn't display as an option in the person-to-group query. However, *IsActive* is included when you select an option from the Included employees menu during the person-to-group query, which show up in the query output. *IsActive* applies to either Active employees only, Inactive employees only, or All employees, and has a Boolean value of true or false.
-
-![Selected employees](../images/WpA/Use/selected-employees.png)
+For the **Employees** filter in the **Time investors** section, you can select if you want Active only, Inactive only, or All employees as time investors for the query. Active employees are those who sent at least one email during the aggregated time period (date range) set for the query. This option is only available for person and person-to-group queries, which will be the *IsActive* attribute column with a Boolean value of true or false for each row in the output file.
 
 ## Additional attributes for group queries
 
-In addition to the standard attribute values, the *Collaborators* group can also include the following additional attribute values in the query output for both person-to-group and group-to-group queries:
+In addition to the standard attribute values, the *Collaborators* group can also include the following attribute values in the query output for both person-to-group and group-to-group queries:
 
 * Unclassified_Internal
 * Unclassified_External
@@ -119,19 +116,17 @@ In addition to the standard attribute values, the *Collaborators* group can also
 
 In the **Their collaborators** section, the collaborators who match the filter defined in question 3C, and who are also internal to the company (as indicated by the "IsInternal = true" attribute) will be grouped together in the *Unclassified_Internal* category. Metrics for all such collaborators are added up.
 
-For example, if you run a query for all collaborators who match FunctionType = HR, all those who do not match that filter, such as internal employees from Sales or Marketing, will be included in the *Unclassified_Internal* category.
+For example, if you run a query for all collaborators who match "FunctionType = HR," those who do not match that filter, such as internal employees from Sales or Marketing, will be included in the *Unclassified_Internal* category.
 
-![Unclassified internal](../images/WpA/Use/unclassified_int_ext.png)
+![Query questions](../images/WpA/Use/p2g-query.png)
 
 ### Unclassified External
 
-The collaborators who match the filter option defined in question 3C of the graphic, and who are external to the company (as indicated by the "IsInternal = false" attribute) will be grouped together under the value *Unclassified_External*. Metrics for all such collaborators are included in the total sum.
-
-Similarly, those who don't match the filter and are not employees in the company will be grouped as *Unclassified_External*.
+The collaborators who match the filter option defined in question 3C of the graphic, and who are external to the company ("IsInternal = false") will be grouped together in *Unclassified_External*. Metrics for all such collaborators are included in the total sum.
 
 ### Other collaborators
 
-If the query is using the Group by attribute, both the collaborators who match the filter option defined in question 3C of the graphic and the collaborators who do not have the group-by attribute defined, are grouped together as *Other collaborators*.
+If a query uses the *Group by* attribute, both the collaborators who match the filter option defined in question 3C of the graphic and the collaborators who do not have the group-by attribute defined, are grouped together as *Other collaborators*.
 
 For example, if you ran a query to find out which organizations a person collaborated with, and passed them through the filter FunctionType = HR. Those who match the filter are included in the group. Then, if you group the collaborators by city, such as San Francisco and Boston, the query will then group all collaborators who had interactions with HR in San Francisco in the San Francisco group, and similarly for Boston. The query output will include entries for each person (or group for a group-to-group query) that show how much time each person spent collaborating with HR in each city.
 
@@ -143,17 +138,17 @@ This attribute is also available in the query output for group-to-group queries.
 
 * For *Time investor initiated meeting hours* - This is the total number of meeting hours for meetings that were attended only by the licensed, internal group of employees who do not have the same filter as the time investor.
 
-* For all other metrics, such as meeting hours or attendees, email hours, collaboration hours - This group includes people who are licensed, internal employees and have an org data attribute assigned for the group defined in 3C as people who collaborated with the time investors.
+* For all other metrics, such as meeting hours or attendees, email hours, collaboration hours - This group includes people who are licensed, internal employees and have an organizational data attribute assigned for the group defined in 3C as people who collaborated with the time investors.
 
 ### Internal collaborators
 
-This attribute is only available for the *Time investor initiated meeting hours* metric.​ ​If no “Focus” filter is set, this group includes licensed, internal employees who have no org data value or have a different value for the “Group by” attribute. It's the sum of meeting hours created by the time investors who organized the meetings with this group.​
+This attribute is only available for the *Time investor initiated meeting hours* metric.​ ​If no *Focus* filter is set, this group includes licensed, internal employees who have no organizational data value or have a different value for the *Group by* attribute. This value will be the sum of meeting hours created by the time investors who organized meetings with this group.​
 
 ## Group-to-group query output
 
 You can use group-to-group queries to help understand how groups or teams invest their time across internal organizations in the company and with groups outside the company. The output will list pairs of groups, defined by the selected organizational attribute, and will show how much time the first group has allocated to the second group.
 
-The query output for a group-to-group query includes a number of column headers with a single row for each unique pairing of a time investor group with a collaborator group, for the time periods that any person in the time investor group spent with a collaborator group. For a query with "week" as the *Group by* option, if a person in group G1 spent time with a person in group G2 in the first and third week of a specific month, then rows will only exist for G1 and G2 in weeks one and three of the output file.
+The query output for a group-to-group query includes a number of column headers with a single row for each unique pairing of a time investor group with a collaborator group, for the time periods that any person in the time investor group spent with a collaborator group. For example, if you run a query with the *Group by* option of *week* and a person in group G1 spent time with a person in group G2 in the first and third week of a specific month, then rows will only exist for groups G1 and G2 in weeks one and three of the output file.
 
 ![Group-to-group time investors-collaborators](../images/WpA/Use/g2g-time-investors-collaborators.png)
 
