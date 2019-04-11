@@ -54,6 +54,4 @@ Scroll down the dashboard page to get more details about how you spend your time
 
 [!INCLUDE [Documents](MyA-Dashboard/mya-db-documents.md)]
 
-[!INCLUDE [Sharing](MyA-Dashboard/MyA-DB-Sharing.md)]
-
 [!INCLUDE [Opt out](MyA-Dashboard/MyA-DB-Opt-out.md)]

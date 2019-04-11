@@ -1,64 +1,65 @@
 ---
 # Metadata Sample
 # required metadata
-title: MyAnalytics nudges in Outlook
-description: Describes what MyAnalytics nudges are in Outlook and how they work
-author: paul9955
-ms.author: v-pascha
-ms.date: 03/06/2019
-ms.topic: get-started-article
+
+title: Nudges in Outlook
+description: Describes what nudges are in Outlook and how they work
+author: madehmer
+ms.author: v-midehm
+ms.date: 04/08/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: mya
+
 ---
 
-# MyAnalytics nudges in Outlook
+# Nudges in Outlook
 
 **_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on_**
 
-## What are MyAnalytics nudges in Outlook?
+## What are nudges in Outlook?
 
-MyAnalytics nudges in Outlook (or MyAnalytics nudges) are brief, data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
+Nudges in Outlook (or Insight nudges) are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
 
-MyAnalytics nudges can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you to reclaim focus hours and build better collaboration habits, in addition to other practical benefits. See the
-[MyAnalytics nudges](#myanalytics-nudges) table.
+Insight nudges can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of nudges](#types-of-nudges) lists some of the nudges you might see in Outlook.
 
-## How MyAnalytics nudges work
+## How nudges work
 
-MyAnalytics can display nudges in two ways:
+Insights can display nudges in the following ways.
 
 1. While composing a meeting invitation or an email.
 
  ![Nudges meeting image 01](../../Images/mya/use/nudges-meeting-01.png)
 
- In this example, the nudge is shown at the top of an email, reminding you of the after-hours impact you’ve generated for your colleagues. The nudge suggests that you clarify the email's urgency, so that recipients know if it can wait until working hours. Alternatively, you can hide the nudge temporarily by selecting **Dismiss this message**.
+ In this example, the nudge is shown at the top of an email, reminding you of the after-hours impact you’ll generate for your colleagues. The nudge suggests that you clarify the email's urgency, so that recipients know if it can wait until working hours. Alternatively, you can hide the nudge temporarily by selecting **Dismiss this message**.
 
 2. While reading an email or a calendar invitation.
 
    ![Nudges email image 02](../../Images/mya/use/nudges-email-02.png)
 
-While reading an email, this nudge reminds you of a potential outstanding to-do item for the email sender. Selecting the link takes you to the MyAnalytics Add-in, which shows the list of to-do items. 
+While reading an email, this nudge reminds you of a potential outstanding task item for the email sender. Selecting the link takes you to the Insights Outlook add-in, which shows the list of task items.
  
 ![Nudges meeting image 03](../../Images/mya/use/nudges-meeting-summary_03.png)
 
-## Why don’t I see any MyAnalytics nudges?
+## Why don’t I see any nudges?
 
-MyAnalytics nudges are available in the latest versions of Outlook for the web and Outlook for Windows with Office 365 licenses. In Outlook for Windows, nudges will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, only nudges while reading email and meetings are available at this time. Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android. 
+Insight nudges are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, nudges will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, only nudges while reading email and meetings are available at this time. Nudges are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
 
 ## Providing feedback
 
-You can provide feedback for each nudge by using the feedback control at the bottom of the MyAnalytics Add-in screen. If you send a thumbs down, we’ll show you less of that nudge.
+You can provide feedback for each nudge by using the feedback control at the bottom of the Insights Outlook panel. If you send a thumbs down, we’ll show you less of that nudge.
 
    ![Nudges feedback button image 04](../../Images/mya/use/nudges-feedback-04.png)
 
-You can always provide overall feedback by selecting the smiley face in the upper-right corner of the MyAnalytics Add-in.
+You can always provide overall feedback by selecting the smiley face in the upper-right corner of the Insights Add-in panel.
 
-## Opting out of nudges
+## To opt out of nudges
 
-1. To opt out of MyAnalytics nudges, navigate to the MyAnalytics Add-in by selecting the MyAnalytics button on the ribbon.  
+1. To opt out of MyAnalytics nudges, select the **Insights** icon on the Outlook Home ribbon.
 
-      ![Nudges email image 05](../../Images/mya/use/nudges-mya-tab-05.png)
+      ![Insights icon](../../Images/mya/use/insights-icon.png)
 
-      If you are using Outlook on the web, the MyAnalytics icon can be found in the top right corner of the reading pane, or in the bottom right corner of the compose form.
+      If you are using Outlook on the web, the Insights icon is in the top right corner of the reading pane, or in the bottom right corner of the compose form.
 
      ![Nudges email image 06](../../Images/mya/use/nudges-reply-all-06.png)
 
@@ -68,13 +69,13 @@ You can always provide overall feedback by selecting the smiley face in the uppe
 
 3. In **Settings**, turn Outlook notifications to **Off**, and then select **Close Settings**.
 
+
     ![Nudges email image 8](../../Images/mya/use/nudges-email-08.png)
 
-## MyAnalytics nudges
 
-### What types of MyAnalytics nudges will I see?
+## Types of nudges
 
-MyAnalytics nudges can help you in various ways:
+The following are a few of the nudges you might see in Outlook.
 
 ### Get more time to focus
 
@@ -87,8 +88,7 @@ MyAnalytics nudges can help you in various ways:
 
 | Where it shows up | What it says | How it helps |
 |------|-------|---------|
-| Reading pane (email) | You may have outstanding to-dos for sender. Would you like to review now? **See my to-dos** | Reminds you that there might be outstanding to-do items for the sender. |
-
+| Reading pane (email) | You may have outstanding tasks for sender. Would you like to review now? **See my tasks** | Reminds you that there might be outstanding task items for the sender. |
 
 ### Reduce after-hours work and team impact
 
@@ -98,7 +98,8 @@ MyAnalytics nudges can help you in various ways:
 |Email compose | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
 |Meeting compose | This meeting is outside typical working hours for attendees. **See times** | Suggests nearby meeting times within working hours for all meeting attendees. |
 
-### Build better collaboration habits 
+### Build better collaboration habits
+
 | Where it shows up  | What it says | How it helps |
 |------|-------|---------|
 |Meeting compose | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes. |

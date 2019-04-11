@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Build better work habits with personal productivity insights in MyAnalytics
-description: How to use MyAnalytics to improve your work habits
-author: paul9955
-ms.author: v-pascha
-ms.date: 02/21/2019
+title: Improve your work patterns with personal productivity insights in MyAnalytics
+description: How to use MyAnalytics to improve your work patterns
+author: madehmer
+ms.author: v-midehm
+ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -16,9 +16,9 @@ ms.prod: mya
 # Why use MyAnalytics?
 
 > [!Note]
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](../overview/plans-environments.md) about the experiences that users will get in each plan.
 
-## Build better work habits through personal productivity insights
+## Improve your work patterns through personal productivity insights
 
 More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
 
@@ -26,11 +26,11 @@ MyAnalytics helps you find opportunities to build better habits and get back in 
 
 ## Benefits
 
-By using MyAnalytics, you and your team can:
+By using MyAnalytics, you and your team can accomplish great things.
 
- * **Boost meeting quality:** Save four to five hours per week by cutting back on low-quality [meeting time](../use/MyA-Dashboard/MyA-DB-Meetings.md).
- * **Get more focus time:** Find more time to eliminate distractions, stop multi-tasking, and [focus](../use/MyA-Dashboard/MyA-DB-Focus-hours.md) on your core priorities.
- * **Improve your work-life balance:** Improve norms around after-hours collaboration and reduce the time you spend working [after hours](../use/MyA-Dashboard/MyA-DB-After-hours.md).
+ * **Improve your relationships**: Increase your collaboration time, improve your team meetings, and grow your [network](../use/network.md).
+ * **Get more focus time**: Find more time to eliminate distractions, stop multi-tasking, and [focus](../use/focus.md) on your core priorities.
+ * **Improve your work-life balance**: Improve your quiet days and reduce the time you spend working for better work-life balance and overall [wellbeing](../use/wellbeing.md).
 
 The following video shows common ways in which you can benefit from MyAnalytics:
 

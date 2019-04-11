@@ -2,74 +2,52 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics dashboard (Preview)
-description: Learn about what's included in your personal MyAnalytics dashboard 2019
+title: MyAnalytics dashboard
+description: Learn about your work patterns in MyAnalytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 
 ---
 
-# MyAnalytics dashboard (Preview)
+# MyAnalytics dashboard
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
 
-Thank you for trying the brand new MyAnalytics experience. Welcome to your new personal dashboard that aims to help you understand how you spend your time and collaborate with colleagues.
+Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
-MyAnalytics gives you valuable new insights into how to increase focus, achieve work life balance, and improve your work relationships and team collaboration.
+Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
-**To open your personal MyAnalytics dashboard**: Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
+## Home
 
-## Your work habits
+The MyAnalytics dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
-The Home page includes helpful statistics about your work activities over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with other people at work.
-
-![Your work habits](../../Images/mya/use/mya-work-habits.png)
-
-## Productivity insights
-
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas on how you might change or improve your current work habits.
-
-![Productivity insights](../../Images/mya/use/pro-insights.png)
-
-See [MyAnalytics Tips](../Overview/tips.md) for suggestions on how to plan your calendar to improve your focus time, run more efficient meetings, and get better work-life balance.
+![Your work patterns](../../Images/mya/use/home-pg.png)
 
 ## Focus and Wellbeing
 
-This section of the Explore page gives you ways to plan time for specific tasks, such as booking focus time in your calendar and adding tasks to the body of the appointment.
+The Focus section helps you understand whether you have enough time for uninterrupted individual work and provides tips on how to protect your calendar and manage distractions.
 
-It also shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
+The Wellbeing section shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
-![Focus and wellbeing](../../Images/mya/use/mya-focus-wellbeing.png)
+For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
-### About the metrics
+## Network and Collaboration
 
-* **Collaboration** is based on meetings, emails, chats, and calls with Teams and Skype for Business.
+The Network section shows information about your relationships with the people in your network, which is based on your work activities over the past year.
 
-* **Available to focus** is based on blocks of 2+ hours of free time in your calendar. Both are calculated only for your working hours, as determined by your Outlook calendar.
+The Collaboration section shows the people you actively collaborated with based on your work activities over the past month, such as email, chats, calls, and meetings.
 
-   For example: If you spent 20 hours in meetings, emails, and chats in a given week, and had 10 hours’ worth of focus blocks (2+ contiguous hours of free time on your calendar) in your calendar that week, then your dashboard will show 67% collaboration and 33% available focus time for that week.
+For more details and tips, see [Network](../use/network.md) and [Collaboration](../use/collaboration.md).
 
-* **Quiet days** are the number of days where you spent less than two hours actively collaborating outside your set work schedule (as defined by your Outlook calendar). Active collaboration includes meetings, or multiple emails, chats, or calls that occurred during this time.
+## Productivity insights
 
-   For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, and you spent more than an hour reading or replying to email after 5 PM on Monday, and attended a meeting from 6 to 7 PM that same day, that Monday won't count as a quiet day.
+These are based on your recent workplace activity. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns.
 
-## Your Network
-
-This section shows the people you actively networked with and your total network size based on work activities, such as email, chats, calls, and meetings.
-
-It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people.
-
-![Your Network](../../Images/mya/use/mya-network.png)
-
-### About the network metrics
-
-* **Collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators. An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** considers the entire past year.
-
-* **An important collaborator** is a coworker who you selected as important in MyAnalytics. You can select people as important in the **Important collaborators** section of **Explore** > **Your Network**.
+![Productivity insights](../../Images/mya/use/insights.png)
 
 ## Config Settings
 
@@ -93,12 +71,12 @@ When you opt out, the following will occur:
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
 * You will stop receiving [nudges](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
-* Your email activity will not be included anonymously in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
+* Your email activity will not be included in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
 
-**To opt out of MyAnalytics**
+**To opt out of MyAnalytics**:
 
-1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon in the top right to open the Settings pane.
+1. Open your [dashboard](https://myanalytics.microsoft.com).
+2. Select the **gear** icon in the top right to open the **Settings** pane.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
@@ -114,4 +92,4 @@ When you opt out, the following will occur:
 
 ### If I opt out, can I opt back in?
 
-Yes, you can opt back in any time. This will give you access to your personal dashboard.
+Yes, you can opt back in any time to regain access to your personal dashboard.
