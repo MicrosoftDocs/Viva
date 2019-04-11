@@ -54,7 +54,7 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
 ## To render a network analysis graph
 
 1. On the **Organizational Network Analysis** page, select the name of the analysis you want to analyze from the table.
-2. Select one or more filters for the graph. The available filters match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#step-three--export-data) from Workplace Analytics. For example, Engagement, FunctionType, KeyTalent, and LevelDesignation, as shown in the following graphic.
+2. Select one or more filters for the graph. The available filters match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics. For example, Engagement, FunctionType, KeyTalent, and LevelDesignation, as shown in the following graphic.
 
    ![Organizational Network Analysis](./images/ona-filter-options.png)
 
