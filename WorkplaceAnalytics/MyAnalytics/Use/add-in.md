@@ -4,9 +4,9 @@
 
 title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
-author: paul9955
-ms.author: v-pascha
-ms.date: 04/03/2019
+author: madehmer
+ms.author: v-midehm
+ms.date: 04/11/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -23,11 +23,11 @@ Did you ever miss an important email or forget a commitment you made to your co-
 
 If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
 
-## Insights you might see
+## What you might see
 
-You can open the Insights Outlook add-in by selecting the **Insights** (swirl) icon in the Outlook Home ribbon. If you are using Outlook Web App, first open an email message, and then select the **Insights** icon in the top-right corner of your email message.
+In Outlook, open the add-in by selecting the **Insights** (swirl) icon in the Outlook Home ribbon. If you are using the Outlook Web App, first open an email message, and then select the **Insights** icon in the top-right corner of your email message.
 
-You'll see insight cards displayed in the right panel of your email window:
+You'll see insight cards in the right panel of your email window:
 
 ![Insights panel](../../images/mya/overview/cards-panel-17.png)
 

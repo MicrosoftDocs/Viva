@@ -6,7 +6,7 @@ title: Email read statistics in MyAnalytics
 description: See what proportion of recipients opened email from you in MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/03/2019
+ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -42,7 +42,7 @@ When you send email that has recipients on the Bcc: line, the precision of the e
 
 #### Read activity
 
-The MyAnalytics add-in reports the "read activity" of qualifying email that you have sent. The following table describes how MyAnalytics reports the read activity of a particular email:  
+The Insights add-in reports the "read activity" of qualifying email that you have sent. The following table describes how MyAnalytics reports the read activity of a particular email:  
 
 <!-- This table, in md, didn't work for some reason
 | Number of people who read your email | Reported read activity | 

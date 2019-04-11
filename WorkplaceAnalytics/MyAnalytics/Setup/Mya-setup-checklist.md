@@ -6,7 +6,7 @@ title: MyAnalytics setup for Office 365 Administrators
 description: A checklist of setup steps for Office 365 Administrators to implement MyAnalytics in their organization 
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/08/2019
+ms.date: 04/11/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -24,7 +24,7 @@ To set up MyAnalytics, complete the following tasks.
 | | Task | Owner | Outcome |
 |---|------|-------|---------|
 | <img src="../../Images/mya/use/Team-adopt-plan-checklist-box.PNG"> | [Step 1 - Configure user settings](#step-1-configure-the-user-privacymode-setting)  | Office 365 Administrators | Configure MyAnalytics for each user in your organization.  |
-| <img src="../../Images/mya/use/Team-adopt-plan-checklist-box.PNG"> | [Step 2 - Assign licenses with MyAnalytics](#step-2-assign-licenses-with-myanalytics) | Office 365 Administrators| Assign licenses to users, which enables the MyAnalytics service for them. |
+| <img src="../../Images/mya/use/Team-adopt-plan-checklist-box.PNG"> | [Step 2 - Assign licenses with the MyAnalytics service plan](#step-2-assign-licenses-with-the-myanalytics-service-plan) | Office 365 Administrators| Assign licenses to users, which enables the MyAnalytics service plan for them. |
 
 # Setup tasks
 
@@ -32,6 +32,6 @@ To set up MyAnalytics, complete the following tasks.
 
 [!INCLUDE [Configure user settings](../Setup/Configure-MyA-User-Settings.md)] 
 
-## Step 2: Assign licenses with MyAnalytics
+## Step 2: Assign licenses with the MyAnalytics service plan
 
-[!INCLUDE [Assign licenses with MyAnalytics](../Setup/Assign-Licenses.md)]
+[!INCLUDE [Assign licenses with the MyAnalytics service plan](../Setup/Assign-Licenses.md)]
