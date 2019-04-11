@@ -1,13 +1,13 @@
 ---
 
 layout: HubPage
-title: Productivity insights in Outlook
+title: Insights Outlook add-in
 description: Learn ways to improve your productivity in Outlook
-ms.date: 04/08/2019
+ms.date: 04/11/2019
 localization_priority: normal 
 ms.prod: mya
-author: paul9955
-ms.author: v-pasha
+author: madehmer
+ms.author: v-midehm
 breadcrumb_path: 
 
 ---
@@ -20,18 +20,18 @@ breadcrumb_path:
  -->
 </p>
 
-# Productivity insights in Outlook
+# Insights in Outlook
 
 > [!Note] 
-> Exciting news! Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. This article describes the new capabilities that these users will get.
+> Exciting news! The Insights Outlook add-in is becoming broadly available for Office 365 users. This describes the new capabilities that users will get.
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
 If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
 
-## Insights that you might see
+## What you might see
 
-![Bullet point](images/mya/overview/bullet-point-indented.png)To open the Insights Outlook add-in, select the Insights (swirl) icon on the Outlook Home ribbon. If you are using Outlook Web App, first open an email message and then select **Insights** in the top-right corner of your email message. After you launch the add-in, the insight cards are shown in the right panel.
+![Bullet point](images/mya/overview/bullet-point-indented.png)To open the Insights Outlook add-in, select the Insights (swirl) icon on the Outlook Home ribbon. If you are using the Outlook Web App, first open an email message and then select **Insights** in the top-right corner of your email message. After you launch the add-in, the Insights panel opens to the right in Outlook.
 
 ![Insights panel](images/mya/overview/cards-panel-17.png)
 
@@ -49,7 +49,7 @@ The following answers some of the common questions asked about Insights by MyAna
 ![Bullet point](images/mya/overview/bullet-point-indented.png)[Office 365 E5, E3, E1, Business Premium, or Business Essentials](https://products.office.com/business/office)<p>
 
 > [!Note]
-> These plans will only offer the experience that's described in this article. Additionally, users with E5 and MyAnalytics standalone plans will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/workplace-analytics/myanalytics/index).
+> These plans will only offer the experience that's described in this article. Additionally, users with E5 and MyAnalytics standalone service plan will continue to get the full [MyAnalytics experience](https://docs.microsoft.com/workplace-analytics/myanalytics/index).
 
 **Q2. What is the roll-out plan?**
 
@@ -73,4 +73,4 @@ No.
 
 **Q7. How can I turn this off for my users?**
 
-To turn this new experience off for users, you can [disable access to the MyAnalytics service with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).
+To turn this new experience off for users, you can [disable access to the MyAnalytics service plan with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).
