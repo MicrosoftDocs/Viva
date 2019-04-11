@@ -2,27 +2,27 @@
 # Metadata Sample
 # required metadata
 
-title: To open the MyAnalytics Outlook add-in 
-description: How to open the MyAnalytics Outlook add-in
-author: paul9955
+title: To open the Insights Outlook add-in 
+description: How to open the Insights Outlook add-in
+author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/11/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-**To open the Outlook MyAnalytics add-in**
+**To open the Insights Outlook add-in**
 
 *In Microsoft Outlook*
 
- * In the navigation bar of the Outlook desktop application, select the MyAnalytics logo. 
+ * In the navigation bar of the Outlook desktop application, select the **Insights** icon.
 
-    ![MyAnalytics add-in in Outlook](../../Images/mya/use/Open-mya-in-add-in.png)
+    ![Insights add-in in Outlook](../../Images/mya/use/insights-icon.png)
 
-    The MyAnalytics add-in pane slides open in the right side of your email window.
+    The Insights add-in pane slides open to the right in Outlook.
 
 *In Outlook Web App*
 
- 1. For Outlook Web App, open an email message.
- 2. Select the MyAnalytics icon in the top-right corner of your email message, next to the Reply button. 
+ 1. In the Outlook Web App, open an email message.
+ 2. Select the **Insights** icon in the top-right corner of your email message.

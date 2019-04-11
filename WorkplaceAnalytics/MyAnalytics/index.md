@@ -2,7 +2,7 @@
 layout: HubPage
 title: MyAnalytics
 description: Learn more about, set up, and use MyAnalytics
-ms.date: 02/21/2019
+ms.date: 04/03/2019
 ms.topic: hub-page
 localization_priority: normal 
 ms.prod: mya
@@ -68,7 +68,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Setup</h3>
-                        <p>Learn about the prerequisites and the Outlook add-in for MyAnalytics and how to configure user settings and assign licenses.</p>
+                        <p>Learn about MyAnalytics prerequisites, the Insights Outlook add-in, and how to configure user settings and assign licenses with the MyAnalytics service.</p>
                         <p></p>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-elements">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard-2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -107,7 +107,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Using MyAnalytics</h3>
-                        <p>Get a quick overview of MyAnalytics elements and how to use the dashboard, email digests, and nudges to improve work habits.</p>
+                        <p>Learn how you spent your time over the past month and productivity insights to help improve your focus, wellbeing, network, and collaboration work patterns.</p>
                     </div>
                 </div>
             </div>
