@@ -138,17 +138,17 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 ##### Q3. Why are my email read statistics not available?
 
-To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients. 
+To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
 
-##### Q4. Can I turn off email digests? 
+##### Q4. Can I turn off email digests?
 
 Yes, follow the steps in [To opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests).
 
-##### Q5. Can I opt out of MyAnalytics? 
+##### Q5. Can I opt out of MyAnalytics?
 
 Yes, follow the steps in [To opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics).
 
-##### Q6. Can I turn off nudges? 
+##### Q6. Can I turn off nudges?
 
 Yes, follow the steps in [To opt out of nudges](../use/mya-notifications.md#to-opt-out-of-nudges).
 
@@ -160,7 +160,7 @@ User metrics data is stored in users' mailboxes.
 
 #### Q2. How long does it take for the personal dashboard to become available?
 
-The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service are assigned to the participants. For more information, see [Assign licenses with MyAnalytics](../setup/Mya-setup-checklist.md#step-2-assign-licenses-with-myanalytics).
+The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service plan are assigned to the participants. For more information, see [Assign licenses with the MyAnalytics service plan](../setup/Mya-setup-checklist.md#step-2-assign-licenses-with-the-myanalytics-service-plan).
 
 #### Q3. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
 
@@ -168,7 +168,7 @@ Upon activation, MyAnalytics processes historical data for 80 days before the da
 
 #### Q4. Will MyAnalytics work for shared mailboxes?
 
-No, currently the MyAnalytics service cannot be used with shared mailboxes.
+No, currently the MyAnalytics service plan cannot be used with shared mailboxes.
 
 #### Q5. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
