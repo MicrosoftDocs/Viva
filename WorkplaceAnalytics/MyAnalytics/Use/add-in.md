@@ -27,7 +27,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 In Outlook, open the add-in by selecting the **Insights** (swirl) icon in the Outlook Home ribbon. If you are using the Outlook Web App, first open an email message, and then select the **Insights** icon in the top-right corner of your email message.
 
-You'll see insight cards in the right panel of your email window:
+You'll see Insights in the right panel in Outlook:
 
 ![Insights panel](../../images/mya/overview/cards-panel-17.png)
 
