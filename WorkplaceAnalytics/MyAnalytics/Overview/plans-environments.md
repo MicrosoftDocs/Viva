@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Availability of features
+## Availability of features
 
 The following table lists which user experiences are available depending on what Microsoft Office 365 plan your organization has.
 
@@ -29,7 +29,7 @@ The following table lists which user experiences are available depending on what
 
 For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
 
-# Support of environments
+## Support of environments
 
 ### Office 365 environments that are supported
 
@@ -44,7 +44,7 @@ For more information about the plans that offer these user experiences, see [Off
 * Office 365 Germany
 * Office 365 Operated by 21Vianet
 
-# Prerequisites and exclusions
+## Prerequisites and exclusions
 
 * **Required software:** [Microsoft Exchange Online](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)
 
