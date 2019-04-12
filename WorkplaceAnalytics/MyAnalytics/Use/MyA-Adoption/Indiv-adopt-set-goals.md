@@ -5,8 +5,8 @@
 title: MyAnalytics Individual Adoption --Set goals
 description: MyAnalytics Individual Adoption by Kate Nowak --Set goals section
 author: paul9955
-ms.author: v-pascha
-ms.date: 02/21/2019
+ms.author: v-midehm
+ms.date: 04/03/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
@@ -41,11 +41,11 @@ The following table provides some common examples of behavior-change objectives,
 
 | Objective	| MyAnalytics metric  |	Goal example |
 | ------	| -----  |	----- |
-| Reduce the number of hours that I spend in ineffective meetings |	<li>Meeting hours <li>Number of hours in conflicting meetings<li>Number of hours in multitasking meetings<li>Number of hours in longer meetings<li>Number of hours in recurring meetings<li>Number of hours in after-hours meetings | Reduce hours in multitasking meetings by 50% |
-| Schedule more focus hours to boost my productivity, creativity, and decision-making | <li>Focus hours<li>Focus-hours-to-meeting-hours ratio (use the focus habits chart in your dashboard) |	Spend an equal amount of time in meetings and focus sessions |
-Manage my inbox more effectively | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<!--<li>Hours writing emails<li>Hours sending email--> | Send zero emails outside of business hours |
-Improve the effectiveness of the emails I send | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<!--<li>Hours writing emails<li>Hours sending emails--> | Reduce the number of emails sent by 25% |
-Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours | 
+| Reduce the number of ineffective meetings |	<li>Meetings <li>Number of conflicting meetings<li>Number of meetings you're multitasking in<li>Number of long meetings<li>Number recurring meetings<li>Number of meetings that occur outside of working hours| Reduce hours in multitasking meetings by 50% |
+| Schedule more focus hours to boost my productivity, creativity, and decision-making | <li>Focus time<li>Focus-to-meeting-time ratio (use the focus habits chart in your dashboard) |	Spend an equal amount of time in meetings and focus sessions |
+Manage my inbox more effectively | <li>Email <li>Number of emails sent and/or received during and outside of working hours<!--<li>Hours writing emails<li>Hours sending email--> | Send zero emails outside of working hours |
+Improve the effectiveness of the emails I send | <li>Email<li>Number of emails sent and/or received during and outside of working hours<!--<li>Hours writing emails<li>Hours sending emails--> | Reduce the number of emails sent by 25% |
+Reduce collaboration outside working hours to achieve a better work-life balance | <li>Quiet days<li>Emails sent/received outside working hours<li>Meetings outside working hours| Spend less than 1 hour per week collaborating outside of working hours | 
 Spend more time with the people in my network who are aligned with my top priorities | "My network" metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from "right to left" in your "My network" map in your dashboard) | 
 
 After you have defined your goal, you are ready to select a behavior to achieve that goal. For more information, see [Build your habit](Indiv-adopt-develop-habits.md).

@@ -31,7 +31,7 @@ Start with the following (sample) agenda:
 <!-- REMOVING LINK TO THIS VIDEO FOR NOW:  
  
 To learn how to demo MyAnalytics, watch the following video: 
- * [MyAnalytics Product Demo Video](https://microsoft-my.sharepoint-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)
+ * [MyAnalytics Product Demo Video](https://microsoft-my.point-df.com/:v:/p/kanowak/EYFZLC62BJ1EvTwS8jzCIfYBNEebAlLC5PErmUitaxl0yw?e=DRAw5g)
 
  -->
  
@@ -67,9 +67,9 @@ Spend more time with the people in my network who are aligned with my top priori
 The team goal discussion should result in an appropriate goal for the team. If only the goal-focus area is defined by the end of the meeting and not the specifics though, send a brief goal-setting survey after the meeting in which you ask a few questions to confirm the goal area and a measurable target.
 
 Here is an example of a goal-setting survey:
- * Do you agree with the team goal to add more focus hours every week? Yes/No
+ * Do you agree with the team goal to add more focus time every week? Yes/No
    * If no, please explain why not.
- * Please select how many hours the team should aim to add: 2, 3, 4, 5, other
+ * Please select what percentage the team should aim to add: 40%, 50%, or other
 
 Seek additional feedback from team members who do not agree with the team goal. Make sure that these people are heard, and think carefully about ways to integrate their feedback into the program (see [Manage Resistance](Team-adopt-implement.md#manage-resistance)).
 
@@ -81,12 +81,8 @@ After a team goal is defined, collect baseline data from each participant. Becau
 
 Ask program participants to follow these instructions:
 
-1.	Look at the MyAnalytics dashboard and write down the most recent measure for the specified goal metric – for example, focus hours. 
-2.	Repeat this exercise for each of the two prior weeks. Scroll back in time using the date range found at the top of the dashboard, as pictured. 
-
-    <img src="../../../Images/MyA/use/Adopt-teams-4.png" alt="Date range">
-
-3.	Average the three data points and send the average to the program manager to calculate and share the team average.
+1. Look at the **Focus** page in your MyAnalytics dashboard and write down the most recent measures for the specified goal metric – for example, percentages of focus time per week.
+2. Send the average to the program manager to calculate and share the team average.
 
 During this process, emphasize to participants that, to protect their privacy, their data will be aggregated and not shared at the individual level. Only the program manager will view the data at the individual level.
 

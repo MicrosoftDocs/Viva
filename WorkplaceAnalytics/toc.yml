@@ -139,7 +139,19 @@
       href: MyAnalytics/Overview/Better-work-habits.md    
     - name: Frequently asked questions
       href: MyAnalytics/Overview/MyA-faq.md
-    - name: MyAnalytics for admins
+    - name: MyAnalytics elements
+      expanded: false
+      href: MyAnalytics/Use/MyA-elements.md
+      items:
+        - name: Dashboard
+          href: MyAnalytics/Use/dashboard-2.md
+        - name: Add-in
+          href: MyAnalytics/Use/add-in.md
+        - name: Email digests
+          href: MyAnalytics/Use/email-digest-2.md
+        - name: Nudges
+          href: MyAnalytics/Use/mya-notifications.md
+    - name: MyAnalytics admin guide
       href: MyAnalytics/overview/mya-for-admins.md
       items:
       - name: MyAnalytics setup
@@ -152,20 +164,16 @@
         href: MyAnalytics/setup/mya-disable-insights.md       
     - name: Use MyAnalytics
       items:
-      - name: MyAnalytics elements
-        expanded: false
-        href: MyAnalytics/Use/mya-elements.md
+      - name: Work patterns
         items:
-        - name: Dashboard
-          href: MyAnalytics/Use/dashboard.md
-        - name: Add-in
-          href: MyAnalytics/Use/add-in.md
-        - name: Email digest
-          href: MyAnalytics/Use/email-digest.md
-        - name: MyAnalytics nudges
-          href: MyAnalytics/Use/mya-notifications.md
-      - name: MyAnalytics tips
-        href: MyAnalytics/Overview/Tips.md    
+        - name: Focus
+          href: MyAnalytics/Use/focus.md
+        - name: Wellbeing
+          href: MyAnalytics/Use/wellbeing.md
+        - name: Network
+          href: MyAnalytics/Use/network.md
+        - name: Collaboration
+          href: MyAnalytics/Use/collaboration.md          
       - name: Adopt MyAnalytics
         href: MyAnalytics/Use/mya-adoption/Adopt-myanalytics.md
         homepage: /myanalytics/adopt-myanalytics/    
@@ -174,13 +182,13 @@
           items: 
           - name: Get started
             href: MyAnalytics/Use/mya-adoption/Indiv-adopt-get-started.md
-          - name: Diagnose your problem
+          - name: Diagnose your issue
             href: MyAnalytics/Use/mya-adoption/Indiv-adopt-diagnose.md
           - name: Set your goal
             href: MyAnalytics/Use/mya-adoption/Indiv-adopt-set-goals.md
           - name: Build your habit
             href: MyAnalytics/Use/mya-adoption/Indiv-adopt-develop-habits.md
-          - name: Sustain your change
+          - name: Sustain change
             href: MyAnalytics/Use/mya-adoption/Indiv-adopt-sustain-change.md
           - name: Resources
             href: MyAnalytics/Use/mya-adoption/Indiv-adopt-resources.md

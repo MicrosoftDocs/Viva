@@ -6,7 +6,7 @@ title: Focus hours in MyAnalytics
 description: How MyAnalytics calculates your focus hours. 
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
+ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -29,5 +29,4 @@ The following time does not count toward your focus time:
 
 The MyAnalytics Dashboard displays a total of your weekly focus hours and meeting hours broken up by day. You can see how these compare to your personal goals. Use the information to help you know which days are typically your busiest so that you can plan your focus time accordingly.
 
-See [Tips for focus time](../../Overview/Tips.md#tips-for-focus-time).
-
+See [Tips for focus time](../../Use/focus.md#focus-tips).

@@ -5,8 +5,20 @@
     - name: Why use MyAnalytics?
       href: ./overview/Better-work-habits.md        
     - name: Frequently asked questions
-      href: ./overview/MyA-faq.md        
-    - name: MyAnalytics for admins
+      href: ./overview/MyA-faq.md
+    - name: MyAnalytics elements
+      expanded: false
+      href: ./use/MyA-elements.md
+      items:
+      - name: Dashboard
+        href: ./use/dashboard-2.md      
+      - name: Add-in
+        href: ./use/add-in.md
+      - name: Email digests
+        href: ./use/email-digest-2.md
+      - name: Nudges
+        href: ./use/mya-notifications.md
+    - name: MyAnalytics admin guide
       href: ./overview/mya-for-admins.md
       items:
       - name: MyAnalytics setup
@@ -19,20 +31,16 @@
         href: ./setup/mya-disable-insights.md
     - name: Use MyAnalytics
       items:
-      - name: MyAnalytics elements
-        expanded: false
-        href: ./use/MyA-elements.md
+      - name: Work patterns
         items:
-        - name: Dashboard
-          href: ./use/dashboard.md
-        - name: Add-in
-          href: ./use/add-in.md
-        - name: Email digest
-          href: ./use/email-digest.md
-        - name: MyAnalytics nudges
-          href: ./use/mya-notifications.md
-      - name: MyAnalytics tips
-        href: ./overview/Tips.md           
+        - name: Focus
+          href: ./Use/focus.md
+        - name: Wellbeing
+          href: ./Use/wellbeing.md
+        - name: Network
+          href: ./Use/network.md        
+        - name: Collaboration
+          href: ./Use/collaboration.md 
       - name: Adopt MyAnalytics
         href: ./Use/MyA-Adoption/Adopt-myanalytics.md  
         items: 
@@ -40,13 +48,13 @@
           items: 
           - name: Get started
             href: ./Use/MyA-Adoption/Indiv-adopt-get-started.md
-          - name: Diagnose your problem
+          - name: Diagnose your issue
             href: ./Use/MyA-Adoption/Indiv-adopt-diagnose.md
           - name: Set your goal
             href: ./Use/MyA-Adoption/Indiv-adopt-set-goals.md
           - name: Build your habit
             href: ./Use/MyA-Adoption/Indiv-adopt-develop-habits.md
-          - name: Sustain your change
+          - name: Sustain change
             href: ./Use/MyA-Adoption/Indiv-adopt-sustain-change.md
           - name: Resources
             href: ./Use/MyA-Adoption/Indiv-adopt-resources.md

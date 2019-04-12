@@ -2,27 +2,27 @@
 # Metadata Sample
 # required metadata
 
-title: Disable Insights by MyAnalytics
-description: How to disable Insights by MyAnalytics at the organizational level 
-author: paul9955
-ms.author: v-pascha
-ms.date: 03/25/2019
+title: Disable the Insights Outlook add-in
+description: How to disable the Insights Outlook add-in at the organizational level 
+author: madehmer
+ms.author: v-midehm
+ms.date: 04/11/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-# Disable Insights by MyAnalytics
+# Disable the Insights Outlook add-in
 
-You can disable the Insights by MyAnalytics add-in for your entire organization by using the Exchange admin center.
-
-> [!Note]
-> This functionality will become available after April 15, 2019. 
-
-## Disable the Insights by MyAnalytics add-in
+You can disable the Insights Outlook add-in for your entire organization by using the Exchange admin center.
 
 > [!Note]
-> You must be an Office 365 admin to perform these steps. 
+> This functionality will become available after April 15, 2019.
+
+**To disable the add-in**
+
+> [!Note]
+> You must be an Office 365 admin to perform these steps.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
 
@@ -37,7 +37,7 @@ You can disable the Insights by MyAnalytics add-in for your entire organization 
 <!--
    ![Add-ins page](../../images/mya/use/add-ins-page.png) -->
          
-4. In the list of add-ins, select **Insights by MyAnalytics** and then select **Edit** (the pencil icon). This opens the **Edit add-in settings** dialog box.
+4. In the list of add-ins, select **Insights**, and then select **Edit** (the pencil icon). This opens the **Edit add-in settings** dialog box.
 
 <!--
    ![Select add-in](../../images/mya/use/select-add-in.png) -->
@@ -47,4 +47,4 @@ You can disable the Insights by MyAnalytics add-in for your entire organization 
 <!--
    ![Clear checkboxes and Save](../../images/mya/use/clear-checkbox.png) -->
 
-This disables the selected add-in for all users in your organization.
+This disables the add-in for all licensed users in your organization.

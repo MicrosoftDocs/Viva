@@ -6,7 +6,7 @@ title: MyAnalytics data use protects privacy
 description: How MyAnalytics use of data protects user privacy
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -34,13 +34,13 @@ If you send an email to your IT person, you can assume he’ll know that you sen
 
 Let’s say you want to dig deeper into what’s in your inbox. For example, how many emails did you send to your co-workers in your off-work hours last week? How many did you send the week before, and the week before that?
 
-You might want to uncover trends. Did you work more in your off hours before the winter break or after it? This sort of question is answered through analysis. That is where MyAnalytics comes in. 
+You might want to uncover trends. Did you work more in your off hours before the winter break or after it? This sort of question is answered through analysis. That is where MyAnalytics comes in.
 
-It looks in your inbox and in your calendar, crunches numbers, and gives insight into your behavior: How many emails did you send? How many meetings did you attend? How much time did you have to focus on your work? Rather than having to open your mailbox folders and count items, or open your calendar and add up meeting times, you can turn to MyAnalytics to see data of this sort. 
+It looks in your inbox and in your calendar, crunches numbers, and gives insight into your behavior: How many emails did you send? How many meetings did you attend? How much time did you have to focus on your work? Rather than having to open your mailbox folders and count items, or open your calendar and add up meeting times, you can turn to MyAnalytics to see data of this sort.
 
-The elements of MyAnalytics are personalized for you and available only to you. Only you can see the dashboard. The insights that appears in the Outlook add-in is for you only:
+The elements of MyAnalytics are personalized for you and available only to you. Only you can see your personal dashboard. The insights that appear in the Outlook add-in is for you only:
 
-![Meeting reminder in MyAnalytics](../../images/mya/overview/mya-add-in-note.png) 
+![Meeting reminder in Insights](../../images/mya/overview/mya-add-in-note.png)
 
 **Conclusion:** _Only you can see your MyAnalytics data. MyAnalytics insights are derived from data that was already available to you in your inbox._
 

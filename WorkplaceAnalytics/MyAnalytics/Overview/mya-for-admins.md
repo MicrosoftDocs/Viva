@@ -6,7 +6,7 @@ title: MyAnalytics for admins
 description: Overview of MyAnalytics for Office 365 admins
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/19/2019
+ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -20,7 +20,7 @@ audience: Admin
 > [!Note] 
 > Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan. 
 
-As an administrator, you benefit from knowing what MyAnalytics provides to its participants and what you can do to enable and enhance their experience. 
+As an administrator, you benefit from knowing what MyAnalytics provides to its participants and what you can do to enable and enhance their experience.
 
 ## Benefits of use
 
@@ -36,5 +36,5 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Soon after you assign a MyAnalytics license to a MyAnalytics participant, they start obtaining access to the MyAnalytics elements &mdash; a [personal dashboard](../use/dashboard.md), a [weekly email digest](../use/email-digest.md), the [MyAnalytics nudges](../use/mya-notifications.md), the [Outlook add-in](../use/add-in.md), and the [welcome email](../use/mya-welcome-email.md). To learn how to set up and configure MyAnalytics, see [MyAnalytics setup](../setup/mya-setup-checklist.md). To learn more about how soon participants can see the various elements, see the [MyAnalytics elements become available](../setup/mya-setup-checklist.md#myanalytics-elements-become-available) section. 
+Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [MyAnalytics nudges](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). To learn how to set up and configure MyAnalytics, see [MyAnalytics setup](../setup/mya-setup-checklist.md). To learn more about how soon participants can see the various elements, see the [MyAnalytics elements become available](../setup/mya-setup-checklist.md#myanalytics-elements-become-available) section.
 
