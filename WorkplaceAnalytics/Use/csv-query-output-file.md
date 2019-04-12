@@ -106,11 +106,11 @@ For the **Employees** filter in the **Time investors** section, you can select i
 
 In addition to the standard attribute values, the *Collaborators* group can also include the following attribute values in the query output for both person-to-group and group-to-group queries:
 
-* Unclassified_Internal
-* Unclassified_External
-* Other collaborators
-* Collaborators within group
-* Internal collaborators (only for *Time investor initiated meeting hours*)
+* [Unclassified Internal](#unclassified-internal)
+* [Unclassified External](#unclassified-external)
+* [Other collaborators](#other-collaborators)
+* [Collaborators within group](#collaborators-within-group)
+* [Internal collaborators](#internal-collaborators) (only with *Time investor initiated meeting hours*)
 
 ### Unclassified Internal
 
