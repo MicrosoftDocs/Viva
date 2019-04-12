@@ -106,15 +106,15 @@ For the **Employees** filter in the **Time investors** section, you can select i
 
 In addition to the standard attribute values, the *Collaborators* group can also include the following attribute values in the query output for both person-to-group and group-to-group queries:
 
-* Unclassified_Internal
-* Unclassified_External
-* Other collaborators
-* Collaborators within group
-* Internal collaborators (only for *Time investor initiated meeting hours*)
+* [Unclassified Internal](#unclassified-internal)
+* [Unclassified External](#unclassified-external)
+* [Other collaborators](#other-collaborators)
+* [Collaborators within group](#collaborators-within-group)
+* [Internal collaborators](#internal-collaborators) (only with *Time investor initiated meeting hours*)
 
 ### Unclassified Internal
 
-In the **Their collaborators** section, the collaborators who match the filter defined in question 3C, and who are also internal to the company (as indicated by the "IsInternal = true" attribute) will be grouped together in the *Unclassified_Internal* category. Metrics for all such collaborators are added up.
+In the **Their collaborators** section, the collaborators who match the filter defined in question 3C and who are also internal to the company ("IsInternal = true") will be grouped together in the *Unclassified_Internal* category. Metrics for all such collaborators are added up for this category.
 
 For example, if you run a query for all collaborators who match "FunctionType = HR," those who do not match that filter, such as internal employees from Sales or Marketing, will be included in the *Unclassified_Internal* category.
 
@@ -122,11 +122,11 @@ For example, if you run a query for all collaborators who match "FunctionType = 
 
 ### Unclassified External
 
-The collaborators who match the filter option defined in question 3C of the graphic, and who are external to the company ("IsInternal = false") will be grouped together in *Unclassified_External*. Metrics for all such collaborators are included in the total sum.
+The collaborators who match the filter option defined in question 3C of the graphic and who are external to the company ("IsInternal = false") will be grouped together in *Unclassified_External*. Metrics for all such collaborators are added up for this category.
 
 ### Other collaborators
 
-If a query uses the *Group by* attribute, both the collaborators who match the filter option defined in question 3C of the graphic and the collaborators who do not have the group-by attribute defined, are grouped together as *Other collaborators*.
+If a query uses the *Group by* attribute, both the collaborators who match the filter option defined in question 3C of the graphic and who do not have the group-by attribute defined, are grouped together as *Other collaborators*.
 
 For example, if you ran a query to find out which organizations a person collaborated with, and passed them through the filter FunctionType = HR. Those who match the filter are included in the group. Then, if you group the collaborators by city, such as San Francisco and Boston, the query will then group all collaborators who had interactions with HR in San Francisco in the San Francisco group, and similarly for Boston. The query output will include entries for each person (or group for a group-to-group query) that show how much time each person spent collaborating with HR in each city.
 

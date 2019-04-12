@@ -6,7 +6,7 @@ title: Workplace Analytics metric definitions
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics
 author: paul9955
 ms.author: v-midehm
-ms.date: 04/03/2019
+ms.date: 04/11/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -80,13 +80,13 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |------|-----------|----------|---------|------------|
 |Collaboration hours |Sum of meeting hours and email hours spent between the time investor and collaborator groups.|Group|Hour|No|
 |Email hours |Number of hours spent sending and reading emails between the time investor and collaborator groups.|Group|Hour|No|
-|Internal collaborators | Only used with "time investors initiated meeting hours" metric. If no “Focus” filter is set, this group includes licensed, internal employees who have no org data value or have a different value for the “Group by” attribute. It's the sum of meeting hours created by the time investors who organized the meetings with this group.​|Group|Hour|No|
-|Meeting hours |Number of meeting hours the time investor group has spent meeting with the collaborator group.|Group|Hour|No|
-|Meetings |Number of distinct meetings with at least one attendee from the time investor and collaborator groups.|Group|Count|No|
+|Employees engaged | Total number of people in the time investor group who are engaged with the collaborators group. This only counts licensed employees.​|Group|Count|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
+|Meeting hours |Number of meeting hours the time investor group has spent meeting with the collaborator group.|Group|Hour|No|
 |Meeting invitee count|Total number of invitees in all meetings from the time investor and collaborator groups.|Group|Count|No|
-Other collaborators
-|Time investors initiated meeting hours | This only calculates internal collaborators. Number of meeting hours the time investors created for other internal groups or collaborators by organizing meetings. (Doesn’t follow time-allocation logic.)​ |Group|Hour|No|
+|Meetings |Number of distinct meetings with at least one attendee from the time investor and collaborator groups.|Group|Count|No|
+|Network size|Number of people in the collaborator group that the time investor had at least two meaningful interactions with in the last 28 days.|Group|Count|No|
+|Time investors initiated meeting hours | This calculates the number of meeting hours the time investors created only for *Internal collaborators* or *Collaborators within group* by organizing meetings. (Doesn’t follow time-allocation logic.)​ |Group|Hour|No|
 
 ## Person-to-group metrics
 
