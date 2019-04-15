@@ -112,8 +112,6 @@ In addition to the standard attribute values, the *Collaborators* group can also
 * [Collaborators within group](#collaborators-within-group)
 * [Internal collaborators](#internal-collaborators) (only with *Time investor initiated meeting hours*)
 
-![Query questions](../images/WpA/Use/p2g-query.png)
-
 ### Unclassified Internal
 
 In the **Their collaborators** section, the collaborators who don't match the filter defined in question C and who are also internal to the company ("IsInternal = true") will be grouped together in the *Unclassified_Internal* category. Metrics for all such collaborators are added up for this category.
@@ -122,11 +120,13 @@ For example, if you run a query for all collaborators who match "FunctionType = 
 
 ### Unclassified External
 
-The collaborators who match the filter option defined in question C of the graphic and who are external to the company ("IsInternal = false") will be grouped together in *Unclassified_External*. Metrics for all such collaborators are added up for this category.
+The collaborators who match the filter option defined in question C of the following graphic and who are external to the company ("IsInternal = false") will be grouped together in *Unclassified_External*. Metrics for all such collaborators are added up for this category.
+
+![Query questions](../images/WpA/Use/p2g-query.png)
 
 ### Other collaborators
 
-If a query uses the *Group by* attribute, both the collaborators who match the filter option defined in question 3C of the graphic and who do not have the group-by attribute defined, are grouped together as *Other collaborators*.
+If a query uses the *Group by* attribute, both the collaborators who match the filter option defined in question C of the graphic and who do not have the group-by attribute defined, are grouped together as *Other collaborators*.
 
 For example, if you ran a query to find out which organizations a person collaborated with, and passed them through the filter FunctionType = HR. Those who match the filter are included in the group. Then, if you group the collaborators by city, such as San Francisco and Boston, the query will then group all collaborators who had interactions with HR in San Francisco in the San Francisco group, and similarly for Boston. The query output will include entries for each person (or group for a group-to-group query) that show how much time each person spent collaborating with HR in each city.
 
