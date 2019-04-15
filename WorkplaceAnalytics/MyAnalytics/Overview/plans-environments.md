@@ -46,8 +46,11 @@ For more information about the plans that offer these user experiences, see [Off
 
 ## Prerequisites and exclusions
 
-* **Required software:** 
-  * [Microsoft Exchange Online](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)
-  * Add-in commands are only available in certain versions of Outlook and require specific updates to work in Outlook. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/en-us/outlook/add-ins/add-in-commands-for-outlook).
+* [Microsoft Exchange Online](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for MyAnalytics and the Outlook add-in.
 
+* **Outlook support and requirements for MyAnalytics**
+  | MyAnalytics feature | Supported in Outlook 2016? | Supported in Outlook 2013? | Mobile support? |
+  | Outlook Add-in | Yes, when the add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/en-us/outlook/add-ins/add-in-commands-for-outlook). | Yes | No
+  | Nudges | No | Yes, when actionable messages are supported and enabled. For details, see [Actionable messages in Outlook and Office 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/). | No  
+ 
 * **Licensing exclusion:** Shared mailboxes cannot use and are not supported by the MyAnalytics service plan.
