@@ -114,7 +114,7 @@ In addition to the standard attribute values, the *Collaborators* group can also
 
 ### Unclassified Internal
 
-In the **Their collaborators** section, the collaborators who don't match the filter defined in question C and who are also internal to the company ("IsInternal = true") will be grouped together in the *Unclassified_Internal* category. Metrics for all such collaborators are added up for this category.
+In the **Their collaborators** section, the collaborators who don't match the filter defined in question C of the following graphic and who are also internal to the company ("IsInternal = true") will be grouped together in the *Unclassified_Internal* category. Metrics for all such collaborators are added up for this category.
 
 For example, if you run a query for all collaborators who match "FunctionType = HR," those who don't match that filter, such as internal employees from Sales or Marketing, will be included in the *Unclassified_Internal* category.
 
