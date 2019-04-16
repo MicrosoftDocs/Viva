@@ -6,7 +6,7 @@ title: MyAnalytics environment requirements
 description: MyAnalytics environment requirements
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/11/2019
+ms.date: 04/16/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
