@@ -29,7 +29,7 @@ The following table lists which user experiences are available depending on what
 
 For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
 
-## Support of environments
+## Environments support
 
 ### Office 365 environments that are supported
 
@@ -50,7 +50,7 @@ For more information about the plans that offer these user experiences, see [Off
 
 * **Licensing exclusion:** Shared mailboxes cannot use and are not supported by the MyAnalytics service plan.
 
-#### Outlook support and requirements for MyAnalytics
+### Outlook support and prerequisites
 
 MyAnalytics feature | Supported in Outlook 2016? | Supported in Outlook 2013? | Mobile support?
  ----- | ----- |----- | ----
