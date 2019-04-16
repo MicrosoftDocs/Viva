@@ -37,7 +37,7 @@ For example: If your working hours are set as 9 am to 5 pm daily (8 working hour
 
 #### Block focus time on your calendar
 
-It can be hard to go deep on challenging work if you only have small chunks of time to focus in between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions , can help improve your concentration and effectiveness.
+It can be hard to go deep on challenging work if you only have small chunks of time to focus in between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help improve your concentration and effectiveness.
 
 Prioritize any focus time you book and do your best to avoid accepting meetings that overlap with it. In the same way, be respectful of double-booking your team’s blocked time.
 
