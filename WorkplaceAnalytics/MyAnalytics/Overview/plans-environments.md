@@ -6,7 +6,7 @@ title: MyAnalytics environment requirements
 description: MyAnalytics environment requirements
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/11/2019
+ms.date: 04/16/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -21,7 +21,7 @@ The following table lists which user experiences are available depending on what
 
 | Plan | Service plan | User experience available |
 | ----- | ----- |----- |
-| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Office 365 E3     <li>Office 365 E1     <li>Business Premium     <li>Business Essentials    <br> <br> | <br> <br> Insights by MyAnalytics| <br> <br>[Insights Outlook Add-in](../use/add-in.md)   (This feature will be rolled out beginning in May 2019. No welcome email will be sent to introduce this feature.) |
+| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Office 365 E3     <li>Office 365 E1     <li>Business Premium     <li>Business Essentials    <br> <br> | <br> <br> Insights by MyAnalytics| <br> <br>[Insights Outlook Add-in](../use/add-in.md)  |
 |<li>Microsoft 365 E5     <li>Office 365 Enterprise E5     <li>Office 365 A5     <li>Office 365 Nonprofit E5      <li>MyAnalytics add-on | <br> <br> MyAnalytics (Full) and Insights by MyAnalytics | <br> <br> [Dashboard](../use/dashboard-2.md), [Add-in](../use/add-in.md), [Email digest](../use/email-digest-2.md), and [Nudges](../use/mya-notifications.md) |
 
 > [!Note]
