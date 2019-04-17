@@ -3,10 +3,10 @@
 # required metadata
 
 title: Configure Workplace Analytics system settings
-description: Describes how to configure the system settings for Workplace Analytics.
+description: Describes how to configure the system settings for Workplace Analytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -19,9 +19,9 @@ audience: Admin
 
 ## System settings
 
-Use the Workplace Analytics **Admin settings** page to set the time zone, working days, and working hours.
+Use the Workplace Analytics **System defaults** page in **Admin settings** to set the time zone, working days, and working hours.
 
-   ![System defaults](../images/wpa/use/settings-system-defaults-b.png)
+   ![System defaults](../images/wpa/use/admin-system-defaults.png)
 
 ### Time zone
 
@@ -37,7 +37,7 @@ For a complete list of valid times zones, see [Time zones in Workplace Analytics
 
 ### To change the default time zone
 
-1. On the **Admin settings** page in the **System defaults** section, select the time zone you want from the **Default time zone** list.
+1. On the **Admin settings** > **System defaults** page, select the time zone you want from the **Default time zone** list.
 2. Select **Save**.
 
 > [!Important]
@@ -45,7 +45,7 @@ For a complete list of valid times zones, see [Time zones in Workplace Analytics
 
 ### Working days and hours
 
-Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours with the organizational data, a Workplace Analytics admin can set default working days and hours for the organization in the System defaults section on the Admin settings page.
+Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours with the organizational data, a Workplace Analytics admin can set default working days and hours for the organization on the System defaults page in Admin settings.
 
 These default settings are only used for users who have not already set up their working days and hours in Outlook.
 
@@ -67,17 +67,14 @@ Workplace Analytics does not encode any specific policy, instead it provides con
 > [!Important]
 > Consult with your legal and human resources teams before enabling Workplace Analytics for your organization.
 
-After evaluating your privacy needs, you can use the Admin settings page in Workplace Analytics to define the privacy settings for your organization's data.
+After evaluating your privacy needs, you can use the Privacy settings page in Workplace Analytics to define the privacy settings for your organization's data.
 
-   ![Privacy settings](../images/wpa/use/settings-privacy-settings-1a.png)
+   ![Privacy settings](../images/wpa/use/admin-privacy-settings.png)
 
-### Detail display
+### Privacy settings
 
 * Minimum Aggregation Size - Set the minimum group size required to display data in Explore. By default, the minimum group size is set to five. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five.
 * Decide to show or hide subject lines in meeting reports.
-
-### User data exclusions
-
 * Exclude emails/meetings to, or from, specific users, or all users from a domain using “;” as the delimiter
 * Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter. Terms can be any combination of letters, numbers and special characters. However each term must be listed separately, because only exact subject keywords are excluded, for example: client;attorney;privilege;D&I;legal acquisition. For more details, see [Keyword exclusion logic](../Privacy/Privacy-considerations.md#keyword-exclusion-logic).
 
@@ -86,7 +83,7 @@ After evaluating your privacy needs, you can use the Admin settings page in Work
 
 ### To set your privacy settings
 
-1. On the **Admin settings** page in the **Privacy settings** section, configure the settings to meet your company's needs.
+1. On the **Admin settings** > **Privacy settings** page, configure the settings to meet your company's needs.
 
    > [!Note]
    > You can select **Save** at any time to save the privacy settings you are working on, but the settings are not final and ready for use until you select the **I confirm that all privacy settings are complete** check box. After you select the check box, the processing of Office 365 data begins.

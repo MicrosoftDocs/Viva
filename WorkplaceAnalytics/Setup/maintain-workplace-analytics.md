@@ -6,7 +6,7 @@ title: Workplace Analytics Maintenance
 description: Admin tasks for keeping Workplace Analytics and the data it uses up-to-date
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -28,15 +28,13 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 ## Update privacy settings
 
- * **Task** - Configure the following settings:
+ * **Task** - Configure the following exclusion settings:
 
-   * Set the minimum group size for display in charts and dashboards.
-   * Decide to show or hide subject lines in meeting reports.
-   * Make settings to include or exclude emails or meetings by indicating particular user email addresses, domains, and phrases on the subject line.
+   * Set the minimum group size for data shown in charts and dashboards.
+   * Decide to show or hash subject lines from analysis.
+   * Update settings to exclude emails or meetings for specific email addresses, from specific domains, or key terms in subject lines for emails or meetings.
 
  * **Frequency** - As needed. Perform this task after your organization has decided that the current settings are insufficient or inaccurate.
-
-[Privacy considerations](../privacy/privacy-considerations.md)
 
 [Privacy settings](../use/settings.md#privacy-settings)
 
@@ -65,7 +63,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 ## Validate and verify data
 
- * **Task** - Use the Data sources section to verify that the Office 365 and organizational data are loaded and ready for use.
+ * **Task** - Use **Data sources** to verify that the Office 365 and other organizational data is loaded and ready for use.
  * **Frequency** - As needed, particularly after uploading organizational data.
 
 [Validate and verify data](validate-verify-data.md)
@@ -73,7 +71,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 ## Set up meeting exclusions
 
  * **Task** - Create custom meeting exclusion rules to remove meetings from analysis.  
- * **Frequency** - As needed. Create these rules to exclude meetings that might skew your data.
+ * **Frequency** - As needed, create these rules to exclude meetings that might skew your data.
 
 [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md)
 
