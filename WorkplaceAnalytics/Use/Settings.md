@@ -70,11 +70,11 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
  * **Owner** – Workplace Analytics Admin
 
-In **Admin settings**, you can configure system defaults and privacy settings.
+In **Admin settings**, you can configure [system defaults](#system-defaults) and [privacy settings](#privacy-settings).
 
 ![Admin settings](../images/wpa/use/admin-system-defaults.png)
 
-## System defaults
+### System defaults
 
 On the **System defaults** page, you can configure the following employee options:
 
@@ -85,38 +85,38 @@ On the **System defaults** page, you can configure the following employee option
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
-### Default time zone
+#### Default time zone
 
 Use this setting to configure the default time zone for your organization. Typically, this is the time zone of the corporate headquarters or the time zone in which most employees reside.
 
 Workplace Analytics first attempts to read time zones from each user's mailbox. If time zone has not been set up for the mailbox, Workplace Analytics tries to determine it from the [organizational data](#organizational-data). If time zones have not been uploaded in the organizational data, Workplace Analytics reads the time zone from the setting on this page. If the default time zone was not set on this page, Workplace Analytics uses Pacific Time (US).
 
-#### To set the default time zone
+##### To set the default time zone
 
  * For **Default time zone** on the **System defaults** page, select the applicable time zone.
 
    ![Default time zone](../images/wpa/use/settings-default-time-zone-b.png)
 
-### Working days and hours
+#### Working days and hours
 
-Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox. Failing that, it uses the values for employees' working and non-working days and hours that you have set on the **System Defaults** page.
+Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox. Failing that, it uses the default settings for employees' working days and hours that you set on the **System Defaults** page.
 
-#### To configure working days and hours
+##### To configure working days and hours
 
 1. For **Working days**, select the appropriate days of the week.  
-2. For **Start time** and **End time**, select the appropriate start and end times.
+2. For **Start time** and **End time** in **Working hours**, select the start and end times to use by default for working hours.
 
    ![Working days and hours](../images/wpa/use/settings-system-defaults.png)
 
-### Hourly rate
+#### Hourly rate
 
 A value for Hourly rate is used to calculate the cost of low-quality meetings: a person's hourly rate for the organization multiplied by number of low-quality meeting hours. Workplace Analytics first tries to get the Hourly rate value from organizational data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate).
 
-#### To set the hourly rate
+##### To set the hourly rate
 
  * For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate.
 
-## Privacy settings
+### Privacy settings
 
 On the **Admin settings** > **Privacy settings** page, you can decide what data you want to exclude from analysis and what data you want to be visible in Queries and Explore dashboards. You can use privacy settings to:
 
@@ -127,7 +127,7 @@ On the **Admin settings** > **Privacy settings** page, you can decide what data 
 
 ![Admin settings](../images/wpa/use/admin-privacy-settings.png)
 
-### Minimum group size
+#### Minimum group size
 
 The minimum-group-size rule protects people from being identified in [Explore charts](../Use/Explore-Metrics-Week-in-the-Life.md) and in [Solutions data](../tutorials/solutions-intro.md).
 
@@ -159,7 +159,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
    * In **Explore**, on the [Management and coaching](../use/explore-metrics-management-and-coaching.md) page  
    * In [Solutions](../Tutorials/solutions-intro.md), on the **Identify** and **Track** pages
 
-### Hash subject lines
+#### Hash subject lines
 
 Use this setting to control whether to show or hash subject lines in [Meeting query](../tutorials/meeting-queries.md) results, which, by default, are *not* shown.
 
@@ -170,7 +170,7 @@ For example, you could run a query with the subject-line keyword "All-hands." Ba
 > [!Note]
 > Workplace Analytics offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For more information, see the descriptions of **Include in report** and **Hash in report** in the **Field mapping** section of [Upload organizational data](../setup/upload-organizational-data.md#columns-in-the-fields-tables).
 
-### Exclude domains or email addresses
+#### Exclude domains or email addresses
 
 You can exclude data from specific domains or that includes specific email addresses:
 
@@ -181,13 +181,13 @@ You can exclude data from specific domains or that includes specific email addre
   > [!Important]
   > Be sure to ask your Office 365 admin to not assign licenses to any excluded email addresses.
 
-### Exclude terms from subject lines
+#### Exclude terms from subject lines
 
 Subject lines are useful for analysts who want to set up meeting exclusion rules or to query meeting data. You can enter a list of specific keywords or terms that occur in the subject lines of emails and meetings that you want to exclude from analysis.
 
 Terms can be any combination of letters, numbers and special characters (such as client attorney privilege or D&I).
 
-### Exclude setting considerations
+#### Exclusion setting considerations
 
 Any domains, email addresses, or terms you exclude will not be included in any of the analysis, so it's important to carefully consider the implications of an exclusion and balance them with your privacy and data-analysis goals. If you exclude a domain or term that frequently appears in the collaboration dataset, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Workplace Analytics.
 
@@ -195,7 +195,7 @@ If you exclude the email address of the CEO (ceo@company.com), all meetings and 
 
 To exclude all email that contains the keywords "confidential," "ACP," and "privileged," you would type: **confidential;ACP;privileged**
 
-#### Exclusion logic
+##### Exclusion logic
 
 * You can use upper or lower-case keywords.
 * Must match exact string for subject keywords.
@@ -212,7 +212,7 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
 
-### To configure privacy settings
+#### To configure privacy settings
 
 1. In **Privacy settings**, for **Minimum group size to display in visual dashboards**, set the minimum group size. You cannot use a value lower than 5.
 > [!Note]
@@ -229,6 +229,6 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 > * Changes to the minimum group and hash subject line settings apply retroactively to *all data*, including historical data.
 > * Changes to the other exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
 
-### Video: Privacy
+#### Video: Privacy
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
