@@ -78,9 +78,9 @@ In **Admin settings**, you can configure [system defaults](#system-defaults) and
 
 On the **System defaults** page, you can configure the following employee options:
 
-* Default time zone
-* Working days and hours
-* Hourly rate
+* [Default time zone](#default-time-zone)
+* [Working days and hours](#working-day-and-hours)
+* [Hourly rate](#hourly-rate)
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
@@ -93,28 +93,27 @@ Workplace Analytics first attempts to read time zones from each user's mailbox. 
 
 ##### To set the default time zone
 
- * For **Default time zone** on the **System defaults** page, select the applicable time zone.
-
-   ![Default time zone](../images/wpa/use/settings-default-time-zone-b.png)
+1. For **Default time zone** on the **System defaults** page, select the applicable time zone to use by default for analysis.
+2. Select **Save**.
 
 #### Working days and hours
 
 Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox. Failing that, it uses the default settings for employees' working days and hours that you set on the **System Defaults** page.
 
-##### To configure working days and hours
+##### To set default working days and hours
 
 1. For **Working days**, select the appropriate days of the week.  
-2. For **Start time** and **End time** in **Working hours**, select the start and end times to use by default for working hours.
-
-   ![Working days and hours](../images/wpa/use/settings-system-defaults.png)
+2. For **Start time** and **End time** in **Working hours**, select the start and end times to use by default for analysis.
+3. Select **Save**.
 
 #### Hourly rate
 
-A value for Hourly rate is used to calculate the cost of low-quality meetings: a person's hourly rate for the organization multiplied by number of low-quality meeting hours. Workplace Analytics first tries to get the Hourly rate value from organizational data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate).
+Workplace Analytics uses hourly rate to calculate the cost of low-quality meetings, where a person's hourly rate for the organization is multiplied by number of low-quality meeting hours. Workplace Analytics first tries to get the Hourly rate value from organizational (HR) data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate).
 
-##### To set the hourly rate
+##### To set the default hourly rate
 
- * For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate.
+1. For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate to use by default for analysis.
+2. Select **Save**.
 
 ### Privacy settings
 
