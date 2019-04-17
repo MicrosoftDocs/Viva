@@ -19,7 +19,7 @@ audience: Admin
 
 After you have installed Workplace Analytics and your organization is using it, it will require maintenance by an admin. Some maintenance tasks are needed infrequently, while others must be performed regularly.  
 
-## Update configuration settings
+## Update system defaults
 
  * **Task** - Set the default time zone and the default settings for working days and hours.  
  * **Frequency** - As needed to update these settings.
@@ -28,7 +28,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 ## Update privacy settings
 
- * **Task** - Configure the following exclusion settings:
+ * **Task** - Configure the following privacy settings:
 
    * Set the minimum group size for data shown in charts and dashboards.
    * Decide to show or hash subject lines from analysis.
