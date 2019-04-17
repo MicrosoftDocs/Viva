@@ -4,7 +4,7 @@
 
 title: Workplace Analytics Maintenance
 description: Admin tasks for keeping Workplace Analytics and the data it uses up-to-date
-author: paul9955
+author: madehmer
 ms.author: v-midehm
 ms.date: 04/17/2019
 ms.topic: article
@@ -24,7 +24,7 @@ After you have installed Workplace Analytics and your organization is using it, 
  * **Task** - Set the default time zone and the default settings for working days and hours.  
  * **Frequency** - As needed to update these settings.
 
-[Configure system settings](../use/settings.md#system-defaults)
+[System defaults in Admin settings](../use/settings.md#system-defaults)
 
 ## Update privacy settings
 
