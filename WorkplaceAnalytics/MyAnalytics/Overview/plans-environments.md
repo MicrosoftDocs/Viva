@@ -29,7 +29,7 @@ The following table lists which user experiences are available depending on what
 
 For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
 
-## Environments support
+## Environment support
 
 ### Office 365 environments that are supported
 
@@ -43,6 +43,10 @@ For more information about the plans that offer these user experiences, see [Off
 * DoD
 * Office 365 Germany
 * Office 365 Operated by 21Vianet
+
+## Language support
+
+MyAnalytics is available in the same languages as Microsoft Office. See [What languages is Office available in](https://support.office.com/en-ie/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec)?
 
 ## Prerequisites and exclusions
 
