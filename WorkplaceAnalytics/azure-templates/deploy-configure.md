@@ -135,7 +135,7 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 ## Get support
 
-* For help with Workplace Analytics Azure Templates, email your questions or feedback to **wpa-tops@microsoft.com**.
+* For help with Workplace Analytics Azure Templates, email your questions or feedback to wpa-tops@microsoft.com.
 * For setup and data analysis help with Workplace Analytics, open [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (at the top of the UI), enter your question or feedback, and then select **Send**.
 * For general help with Office 365 and Azure subscriptions, components, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/).
 
