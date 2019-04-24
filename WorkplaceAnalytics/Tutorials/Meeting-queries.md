@@ -131,8 +131,8 @@ Each row of data represents a single meeting, and meeting query results always c
 
 **Meeting ID**|**Start Date**|**Duration Hours**|**Is Recurring**|**Is Cancelled**|**Total # of emails sent during meeting**|**Subject**|**Metrics - Number of Attendees**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-3/1/2019 5:00PM|1|1|No|No|10|Process Meeting|10
-3/2/2019 3:00PM|2|2|Yes|No|41|Marketing Meeting|15
+3/1/2019 5:00PM|1|1|No|10|Process Meeting|10
+3/2/2019 3:00PM|2|2|Yes|41|Marketing Meeting|15
 
 ## Related topics
 
