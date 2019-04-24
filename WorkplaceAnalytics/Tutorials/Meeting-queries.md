@@ -6,7 +6,7 @@ title: Meeting queries in Workplace Analytics
 description: When to use a meeting query and the type of data available for analysis in Workplace Analytics.  
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -131,8 +131,8 @@ Each row of data represents a single meeting, and meeting query results always c
 
 **Meeting ID**|**Start Date**|**Duration Hours**|**Is Recurring**|**Is Cancelled**|**Total # of emails sent during meeting**|**Subject**|**Metrics - Number of Attendees**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-1|3/1/2017 5:00PM|1|No|No|10|Process Meeting|10
-2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
+3/1/2019 5:00PM|1|No|No|10|Process Meeting|10
+3/2/2019 3:00PM|2|Yes|No|41|Marketing Meeting|15
 
 ## Related topics
 
