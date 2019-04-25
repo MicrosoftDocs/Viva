@@ -6,7 +6,7 @@ title: Meeting queries in Workplace Analytics
 description: When to use a meeting query and the type of data available for analysis in Workplace Analytics.  
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -118,7 +118,7 @@ Each row of data represents a single meeting, and meeting query results always c
 * Start Date and Time – When the meeting started
 * Duration Hours – The length of the meeting in hours
 * Is Recurring – Whether the meeting is part of a recurring series, or not
-* Is Cancelled – Whether the meeting was cancelled, or not
+* Is Canceled – Whether the meeting was canceled, or not
 * Meeting Resource Ids Count - The number of meeting rooms reserved for each meeting  
 * Meeting Resources - Is the alias portion of the meeting room’s primary SMTP address (a semi-colon delimited list for multiple rooms)
 * Total Number of Emails Sent During Meeting – Number of emails sent by attendees during the meeting
@@ -129,10 +129,10 @@ Each row of data represents a single meeting, and meeting query results always c
 * Total Number of Double-Booked – Number of invitees who were double-booked
 * Metrics – Any other metrics that you included in the query
 
-**Meeting ID**|**Start Date**|**Duration Hours**|**Is Recurring**|**Is Cancelled**|**Total # of emails sent during meeting**|**Subject**|**Metrics - Number of Attendees**
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-1|3/1/2017 5:00PM|1|No|No|10|Process Meeting|10
-2|3/2/2017 3:00PM|2|Yes|No|41|Marketing Meeting|15
+|**Meeting ID**|**Start Date**|**Duration Hours**|**Is Recurring**|**Is Canceled**|**Total # of emails sent during meeting**|**Subject**|**Metrics - Number of Attendees**|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|M1 |04/24/2019 5:00PM |1 |No |No |10 |Product demo |10 |
+|M2 |04/25/2019 3:00PM |2 |Yes |No |41 |Marketing meeting |15 |
 
 ## Related topics
 
