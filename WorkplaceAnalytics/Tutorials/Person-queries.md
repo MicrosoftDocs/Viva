@@ -151,10 +151,10 @@ The following are the columns included in the query results for the custom query
 * Person Attributes - Each of the person attributes in the data set supplied by the organizational data.
 * Metrics - Any other metrics that you included in the query.
 
-|**Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Metrics - Email hrs**|**Metrics Meeting hrs**|
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-|A|3/1/2017|HR|Administrator|5|11
-|B|3/1/2017|Marketing|Executive|4|14
+|**Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Email hours**|**Meeting hours**|
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|P1 |04/25/2019 |HR |Administrator |5 |11 |
+|P2 |04/24/2019 |Marketing |Executive |4 |14 |
 
 ## Related topics
 
