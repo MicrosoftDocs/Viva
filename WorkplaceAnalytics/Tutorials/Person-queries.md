@@ -6,7 +6,7 @@ title: Person queries in Workplace Analytics
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 04/25/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -151,10 +151,10 @@ The following are the columns included in the query results for the custom query
 * Person Attributes - Each of the person attributes in the data set supplied by the organizational data.
 * Metrics - Any other metrics that you included in the query.
 
-**Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Metrics - Email hrs**|**Metrics Meeting hrs**
+|**Person ID**|**Date**|**Person attribute 1 (department)**|**Person attribute 2 (role)**|**Metrics - Email hrs**|**Metrics Meeting hrs**|
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-A|3/1/2017|HR|Administrator|5|11
-B|3/1/2017|Marketing|Executive|4|14
+|A|3/1/2017|HR|Administrator|5|11
+|B|3/1/2017|Marketing|Executive|4|14
 
 ## Related topics
 
