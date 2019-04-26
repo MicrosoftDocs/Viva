@@ -57,17 +57,17 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
 1. Get an Azure deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
 
-2. When prompted, select the Azure subscription. 
-3. For **Resource group**, you can select to: 
-   * **Create new** 
-   * **Use existing**
-4. the **Region**, and then select **Next**.
+2. When prompted, select the Azure subscription.
+3. For **Resource group**, you can select to:
+   * **Create new** to create a new resource group.
+   * **Use existing** to use an existing resource group and append the existing group with what's needed for this template, including any updates for any of the other templates in this group.
 
-5. Select **Launch Workspace**.
+4. Select the applicable **Region** and then select **Next**.
 
-6. You are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
+5. On the **Deployment Review** page, confirm the selections and then select **Next**.
+6. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
 
-7. You then need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
+7. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
 
 8. On the **Summary** page, select a SKU for the data cluster, which must be about 30 percent larger than your Workplace Analytics dataset (ask your Workplace Analytics Admin for help with this), for the following Azure components:
    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
@@ -78,11 +78,11 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
 
-9.  Select **Run** to deploy resources for the Azure components.
+9. Select **Run** to deploy resources for the Azure components.
 
-10. When the deployment succeeds, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
+10. After the deployment is complete, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
    >[!Important]
-   >You must save this deployed website link because you and the other users you add need it to configure and use the templates.
+   >You must save this deployment link because you and the other users you add need it to configure and use the templates.
 
      ![Azure Templates deployment](./images/deployed-website-link.png)
 
