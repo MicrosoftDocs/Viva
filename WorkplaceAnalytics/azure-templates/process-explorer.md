@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/18/2019
+ms.date: 04/25/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -59,13 +59,13 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 7. You can then select **Meetings Summary** to view key meeting data points about the following metrics.
 
-   Meetings Summary metrics |Description
+   |Meetings Summary metrics |Description
    ------------------------|------------
-   Total count of meetings in query file (Meetings) | Total number of meetings that are in the query file.
-   Count of meetings based on search criteria | Total number of meetings that match the search criteria.
-   Average duration hours | The average number of hours for the meeting length for the meetings in the search criteria.
-   Average attendees | The average number of people who attended the meetings that match the search criteria.
-   Summary metrics | Based on the organizational data imported from Workplace Analytics. For details, see [Meeting metrics](../use/metric-definitions.md#meeting-metrics).
+   |Total count of meetings in query file (Meetings) | Total number of meetings that are in the query file.
+   |Count of meetings based on search criteria | Total number of meetings that match the search criteria.
+   |Average duration hours | The average number of hours for the meeting length for the meetings in the search criteria.
+   |Average attendees | The average number of people who attended the meetings that match the search criteria.
+   |Summary metrics | Based on the organizational data imported from Workplace Analytics. For details, see [Meeting metrics](../use/metric-definitions.md#meeting-metrics).
 
    The following diagram shows an example of the metrics available on the **Meetings Summary** page. You can select a **Summary metric** to change what data shows in the chart.
    ![Topic Analysis Meeting Summary page](./images/topa-meetings-summary.png)
