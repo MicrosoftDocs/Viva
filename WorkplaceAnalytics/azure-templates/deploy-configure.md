@@ -84,7 +84,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
    >[!Important]
    >You must save this deployment link because you and the other users you add need it to configure and use the templates.
 
-     ![Azure Templates deployment](./images/deployed-website-link.png)
+   ![Azure Templates deployment](./images/deployed-website-link.png)
 
 ## Configuration: Add users and assign roles
 
