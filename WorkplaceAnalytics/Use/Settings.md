@@ -117,7 +117,7 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 
 ### Privacy settings
 
-On the **Admin settings** > **Privacy settings** page, you can decide what data you want to exclude from analysis and what data you want to be visible in Queries and Explore dashboards. You can use privacy settings to:
+On the **Admin settings** > **Privacy settings** page, you can decide what data you want to exclude from analysis and what data you want to be visible in Queries and Explore dashboards. Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
 
 * [Set the minimum group size](#minimum-group-size)
 * [Hash subject lines](#hash-subject-lines)
@@ -125,6 +125,10 @@ On the **Admin settings** > **Privacy settings** page, you can decide what data 
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
 ![Admin settings](../images/wpa/use/admin-privacy-settings.png)
+
+#### Privacy video
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 #### Minimum group size
 
@@ -214,9 +218,11 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 #### To configure privacy settings
 
 1. In **Privacy settings**, for **Minimum group size to display in visual dashboards**, set the minimum group size. You cannot use a value lower than 5.
+
 > [!Note]
 > The following exclusion settings are optional and only change query results. These settings do not change the way a query functions.
-2. In **Hash subject lines**, select **Yes** to hash subject lines in query results. 
+
+2. In **Hash subject lines**, select **Yes** to hash subject lines in query results.
 3. In **Exclude domains**, type one or more domains to exclude.
 4. In **Exclude email addresses**, type one or more email addresses to exclude.
 5. In **Exclude terms from subject lines**, type one or more terms or keywords to exclude.
@@ -224,10 +230,7 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 7. At the top right of the page, select **Save**.
 
 > [!Important]
-> All subsequent changes to these privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data or Office 365 collaboration data. Also, **hide meeting subject line** changes take affect immediately in meeting query results.
-> * Changes to the minimum group and hash subject line settings apply retroactively to *all data*, including historical data.
-> * Changes to the other exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
-
-#### Video: Privacy
-
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+>* All subsequent changes to privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data or Office 365 collaboration data. 
+>* Changes to **hide meeting subject line** take affect immediately in meeting query results.
+>* Changes to the **minimum group** and **hash subject line** settings apply retroactively to *all data*, including historical data.
+>* Changes to the other exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
