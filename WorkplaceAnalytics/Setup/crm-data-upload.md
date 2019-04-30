@@ -137,18 +137,18 @@ Confirm the CRM column names and field values in the files follow the same rules
 1. In **Settings** > **Upload** > **CRM data**, select **New upload**.
 2. Download and use the template provided in the **Tips** section.
 3. In the **Data source** section, select the applicable source for the upload, such as **Salesforce** or **Dynamics CRM**.
-4. In the **Data type** section, select the type of CRM data you want to upload. You can upload only one of the following types of data files at a time. However, you can wait until you’ve uploaded all the files you need, before submitting the data for validation.
+4. In the **Data type** section, select the type of CRM data you want to upload. You can only upload one of the following types of data files at a time. However, you can wait until you’ve uploaded all the files you need, before submitting the data for validation, which is more time efficient.
    * Accounts
    * Contacts
    * Opportunities
    * Seller assignments
 5. In the **Select file** section, select the source (.csv) file that corresponds with the data type selected in the previous step. You can select **Download a .csv template** to help with file requirements.
-6. Select More options to change the default Append selection to the Delete and add new option:
+6. Select **More options** to change the default append option to the delete and add new option:
 
    * To preserve previously uploaded data and incrementally append it with new data, keep the default selection of **Append new records**.
    * To remove and replace existing data with this new data, select **Delete all old records and add new records**.
 
-7. In the Create an upload name section, type a name and a description for your upload, and then select **Next**.
+7. In the **Create an upload name** section, type a name and a description for your upload, and then select **Next**.
 8. In the **System fields** section, confirm or change the following:
 
    * In **Source** column  in CSV, select the applicable field name that corresponds with the name in the Workplace Analytics attribute column for each of the fields in the uploaded .csv files.
@@ -161,10 +161,10 @@ Confirm the CRM column names and field values in the files follow the same rules
 9. In the **Custom fields (optional)** section, you can add any additional custom fields that Workplace Analytics was not able to map for you in the **System fields** section, and then map the applicable columns and other options accordingly.
 10. Select **Next**.
 11. On the summary page, confirm the file details, and then select **Submit**.
-12. The new upload will be listed in the Data Uploads section with a status of Validating, which might take a few minutes.
-13. When the status changes to Validated, Ready to process: 
-    * If you have more CRM files to upload, select Upload and go back to Step 2 and repeat these steps until you’ve uploaded all the applicable CRM files.
-    * After all applicable CRM files are validated, select Turn on processing to save the data and get it processed in Workplace Analytics. 
+12. The new upload will be listed in the **Data Uploads** section with a status of **Validating**, which might take a few minutes.
+13. When the status changes to **Validated, Ready to process**: 
+    * If you have more CRM files to upload, select **Upload** and go back to Step 2 and repeat these steps until you’ve uploaded all applicable CRM files.
+    * After all applicable CRM files are validated, select **Turn on processing** to save the data and get it processed in Workplace Analytics.
 14. Other possible statuses and options:
     * **Processed** - this status means the data was successfully saved.
     * **Validation failed** - this status means the data couldn’t be validated because something went wrong with the upload.
@@ -174,9 +174,7 @@ Confirm the CRM column names and field values in the files follow the same rules
     * **Mapping** – select to see the field mappings . If they’re not set correctly, you’ll need to correct them in the .csv file and repeat the upload steps with the new file.
     * **Records created** – after a file’s status changes to Processed, you can select this to see the number of new records that were created with the upload.
 
-
 ## Related topics
 
 * [Prepare organizational data](Prepare-organizational-data.md)
 * [First organizational upload](upload-organizational-data-1st.md)
-* [Subsequent organizational uploads](upload-organizational-data.md)
