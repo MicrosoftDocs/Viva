@@ -17,27 +17,26 @@ audience: Admin
 
 # CRM data in Workplace Analytics
 
-You can now upload your company's Customer Relationship Management (CRM) data into Workplace Analytics. Data from Salesforce or Dynamics CRM typically includes customer account information, sales records, purchasing history, service history, and product inquiries.
+You can now upload your company's Customer Relationship Management (CRM) data into Workplace Analytics. Data from Salesforce or Dynamics CRM typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries.
 
-Workplace Analytics can combine your CRM data with other organizational (HR) and Office 365 data for more advanced collaboration and productivity analysis in Workplace Analytics queries. For more complete analysis, Workplace Analytics requires the following CRM data:
+Workplace Analytics can combine your CRM data with your organizational (HR) and Office 365 data for more advanced collaboration and productivity analysis in Workplace Analytics queries. 
+
+For the most complete analysis, Workplace Analytics requires the following CRM data:
 
 * Customer accounts
 * Customer contacts
 * Sales opportunities
 * Sales assignments
 
-When exporting and uploading the data into Workplace Analytics, you can choose what data gets uploaded in what way, such as hashed versions of any sensitive or private information or even excluding it.
+You can use this data to help analyze customer history to maintain and improve business relationships with existing customers and drive sales growth with new customers.
 
-## Import tasks
+**Import tasks**
 
-- [CRM data in Workplace Analytics](#crm-data-in-workplace-analytics)
-  - [Import tasks](#import-tasks)
-    - [Decide what data you need](#decide-what-data-you-need)
-    - [Prepare the CRM source data](#prepare-the-crm-source-data)
-      - [Required and optional attributes](#required-and-optional-attributes)
+  - [Decide what data you need](#decide-what-data-you-need)
+  - [Prepare the CRM source data](#prepare-the-crm-source-data)
+    - [Required and reserved attributes](#required-and-reserved-attributes)
     - [CRM data rules](#crm-data-rules)
   - [Upload, validate, and process the CRM data](#upload-validate-and-process-the-crm-data)
-  - [Related topics](#related-topics)
 
 The first time you open the CRM data page, it’ll prompt you to start a new upload.
 
@@ -47,56 +46,91 @@ After your first upload  of CRM accounts and contacts data, the CRM data page  w
 
    ![Subsequent CRM data uploads](../images/wpa/setup/crm-upload.png)
 
-### Decide what data you need
+## Decide what data you need
 
 Similar to other organizational data, it’s important to know what CRM data you need to upload for more complete analysis in Workplace Analytics. The more data you share with Workplace Analytics, the more in-depth, advanced analysis you’ll be able to get.
 
-### Prepare the CRM source data
+When exporting and uploading the data into Workplace Analytics, you can choose what data gets uploaded in what way, such as hashed versions of any sensitive or private information or by excluding it, if necessary.
 
-To help prepare the CRM data, you can download and use the template provided on the **Upload Start** page in Workplace Analytics. You must save your CRM data files as **CSV UTF-8** files in Excel before you can upload them into Workplace Analytics.
+Examples of CRM data include: customer account history, contact information, sales assignments, and sales opportunities. Workplace Analytics requires this data at the individual level, which means that these attributes provide context to each account or contact in the dataset.
+
+You can use this data to analyze sales collaboration between your internal sales organization and the sales accounts and contacts that they manage and other performance outcome data, such as sales-quota attainment or high/low performance ratings.
+
+It's best to include all accounts and contacts as part of your data upload, even if you plan to gather data for only a subgroup or specific target population within the data.
+
+For example, if you want to create reports to show the sales assignments or opportunities for your salespeople in Workplace Analytics, you'll need to upload files for accounts, contacts, assignments, and opportunities.
+
+## Prepare the CRM source data
+
+After you’ve identified what CRM data, you need to export it into the correct format to upload in Workplace Analytics. To help prepare the source data, you can download and use the template provided on the **Upload Start** page in Workplace Analytics, which includes instructions, the required and reserved attribute headings, and example data. You must save your CRM data files as **CSV UTF-8** files in Excel before you can upload them into Workplace Analytics.
 
    ![CRM data template](../images/wpa/setup/crm-tips.png)
 
-The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a valid, non-null value for the attribute. The source file might still be valid even if some rows have invalid or missing values for some columns.
+The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a valid, non-null value for the attribute. The source file might still be valid even if some rows have invalid or missing values for some columns. The required attributes are set at 100%, which means every row must have valid, non-null values for these columns in the file. 
 
-#### Required and optional attributes
+### Required and reserved attributes
 
-To get full functionality from Workplace Analytics, you’ll need to include the following *required attributes* in a CRM Accounts and Contacts upload for data analysis in Workplace Analytics. You can also include optional attributes that might help filter and group data for more in-depth analysis in Workplace Analytics.
+To get full functionality from Workplace Analytics, you’ll need to include the following *required attributes* in each CRM upload. You can optionally include reserved attributes that will help filter and group data for more in-depth analysis in Workplace Analytics.
 
-The following **Required attributes** must match the exact column headers (case sensitive) in the .csv upload:
+The following **Required attributes** must match the exact column headings (case sensitive) in the .csv upload:
 
 |Source column in CSV |Required attribute |Data type |
 |------|-----------|----------|
-|Account ID |AccountId |String |
+|**Accounts data**     |
+|Account ID or Number|AccountId |String |
 |Account Name |AccountName |String |
 |Account Owner Email |AccountOwnerEmail |Email |
-|Effective Date |AccountsStartDate |DateTime |
-|Contact   ID  |ContactId |String |
+|Effective Date |AccountsStartDate |Date |
+|**Contacts data**           |
+|Account ID or Number |ContactsAccountId |String |
+|Contact ID or Number |ContactId |String |
 |Contact Name |ContactName |String |
-|Contact Email |ContactEmail |Email |
-|Contact Date |ContactStartDate |DateTime |
+|Email |ContactEmail |Email |
+|Effective Date |ContactsStartDate|Date |
+|**Opportunities data**           |
+|Opportunity ID	|OpportunityId |String |
+|Account Number |OpportunitiesAccountId |String |
+|Effective Date |OpportunitiesStartDate |Date |
+|**Seller assignments data**           |
+|Account Number |SellerAssignmentAccountId |String |
+|Effective Date |SellerAssignmentStartDate |Date |
+|Account Owner |SellerEmail |Email |
 
-The following is a sample list of **Optional attributes** for customer accounts and contacts that you can include in the upload.
+The following is a sample list of **Reserved attributes** that you can optionally include in the upload.
 
 |Source column in CSV |Optional attribute |Data type |
 |------|-----------|----------|
+|**Accounts data** |
 |Parent Account |AccountName |String |
 |Parent Account ID |AccountId |String |
-|Type |AccountType |String |
+|Relationship Type |AccountType |String |
 |Industry |AccountIndustry |String |
 |Annual Revenue |AccountAnnualRevenue |Double |
 |Website |AccountWebsite |String |
-|Account Created Date |AccountCreatedDate |DateTime |
-|Account Last Modified Date |AccountLastModifiedDate |DateTime |
+|Account Created Date or Created On |AccountCreatedDate |Date |
+|Account Last Modified Date or Modified On|AccountLastModifiedDate |Date |
 |Revenue |AccountRevenue |Double |
+|**Contacts data** |
+|First Name |ContactFirstName |String |
+|Last Name |ContactLastName |String |
+|Business Phone |ContactPhone |Number|
+|Job Title |ContactTitle |String |
+|**Opportunities data** |
+|Opportunity |OpportunityName |String |
+|Est. Revenue |OpportunityAmount |Number |
+|Sales Stage |OpportunityStage |String |
+|Owner Email |OpportunityOwnerEmail |Email |
+|**Seller assignments data** |
+|Role |SellerStandardTitle |String |
+|Region |SellerRegion |String |
 
 > [!Note] 
-> * All DateTime values must be in the MM/DD/YYYY 12:12PM format.
+> * All Date values must be in the MM/DD/YYYY format.
 > * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
 
 ### CRM data rules
 
-Confirm the CRM data file follows the same rules you applied when creating the Organizational data upload file. For more details, see Organizational data rules  and Attribute notes and recommendations.
+Confirm the CRM column names and field values in the files follow the same rules you applied when creating the Organizational (HR) data upload file, such as no special characters and no spaces in the column names. For more details, see [Attribute notes and recommendations](Prepare-organizational-data.md#attribute-notes-and-recommendations) and [Use only valid values and formats](Prepare-organizational-data.md#use-only-valid-values-and-formats).
 
 ## Upload, validate, and process the CRM data
 
