@@ -44,6 +44,7 @@ You can use this template to view and analyze meeting metrics with the following
 
    * **Keywords OR**: Includes meeting titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * **Keywords NOT**: Meeting titles with these words are excluded from the search and data analysis.
+
 3. Select **Run query**.
 4. In the **Word Cloud**, you can select other keywords to add to the **Keywords OR** box, and then select **Run query** again to update the cloud view to include the additional words you added, as shown in the following graphic.
 

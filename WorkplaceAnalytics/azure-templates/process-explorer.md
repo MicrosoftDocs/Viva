@@ -59,8 +59,14 @@ Depending on the dataset, you can also select **Refine Analysis** to create a co
 ## To view, create queries, and export analysis
 
 1. On the **Process Explorer** page, select the dataset name from the list.
-2. Select the analysis name from the list.
-3. On the analysis page, depending on the dataset (blob storage or .csv), you can do one or more of the following:
+2. On the analysis page, you can select:
+
+   * The analysis name from the list to view its details
+   * The **dataset parameters** icon to view the parameter details
+   * The **information** (i) icon to view the job details
+   * The **delete** icon to remove the analysis from the list
+
+3. On the analysis details page, depending on the dataset (blob storage or .csv), you can do one or more of the following:
 
    * Type a new category to add at the end of the category list.
    * Hover your cursor over the category in the list to view and select the **delete** icon to remove it.
