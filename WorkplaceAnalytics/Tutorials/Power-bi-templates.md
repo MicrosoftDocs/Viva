@@ -6,7 +6,7 @@ title: Power BI templates
 description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 05/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -18,22 +18,24 @@ Workplace Analytics provides Power BI templates that analysts can use to visuali
 
 The Queries page of Workplace Analytics has a number of predefined query templates available. On this page, you can identify Power BI templates by the Power BI logo in the upper-right corner:
 
-   ![Power BI logo in query card](../Images/WpA/tutorials/two-pbi-cards.png)
+   ![Power BI logo in query card](../Images/WpA/tutorials/pbi-cards.png)
 
 For example, you can use the following steps to identify areas of collaboration overload in your organization with the Collaboration Overload query.
 
-**To access a Power BI template**
+**To use the Collaboration Overload Power BI template**
 
 1. In Workplace Analytics, select **Analyze** > **Queries**.
 2. Select **Collaboration Overload** to open this predefined query, which has all the required metrics to populate the Power BI template.
-3. Review the displayed metrics, which are required to populate the Power BI template.
+3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
+4. In the **Select metrics** section, review and select the metrics to include, which are required to populate the Power BI template.
 
    > [!Note] 
    > If you try to delete a metric, you'll see a warning that this deletion might disable portions of the Power BI template and reduce query results. In turn, this can limit your eventual ability to visualize collaboration-overload patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. In the warning dialog box, select **cancel** to retain the metric or **delete** to delete it.
 
-4. Select a rule from the Meeting exclusions list. Optionally, select options for Group by, Time period, and Included employees.
-5. Select **Run**. The query might take several minutes to complete.
-6. Open the Query &gt; Results page. The Results page displays a row for every run of a query, including the query that you just ran. If your query is still running, this row displays the status as "running":
+5. In the **Select filters** section, you can optionally select to filter the data.
+6. In the **Organizational data** section, you can select what columns to include.
+7. Select **Run** (at top right). The query might take several minutes to complete.
+8. Open the **Query &gt; Results** page. The **Results** page displays a row for every run of a query, including the query that you just ran. If your query is still running, this row displays the status as "running":
 
    ![Query is still running](../Images/WpA/tutorials/query-running.png)
 
@@ -41,11 +43,11 @@ For example, you can use the following steps to identify areas of collaboration 
 
    ![Query results are ready](../Images/WpA/tutorials/query-results-done.png)
  
-7. Select download. This gives you a choice of what to download, a CSV file or a Power BI template: 
+7. Select download. This gives you a choice of what to download, a .csv file or a Power BI template.
 
    ![Select PBI template](../Images/WpA/tutorials/pbi-templates-03.png)
 
-8. Select **PBI template**. This displays a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI.
+8. Select **PBI template**. This shows a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI.
 9. Select **OK** to dismiss the dialog box. The Power BI template query results file is now downloaded. 
 10. In your browser, select the downloaded Power BI template query results file to open it:
 

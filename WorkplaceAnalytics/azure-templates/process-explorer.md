@@ -42,14 +42,13 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
    ![Auto-classify the dataset](./images/process-explorer-auto-classify.png)
 
-## To view and export analysis
+## To view, create queries, and export analysis
 
 1. On the **Process Explorer** page, select the dataset name from the list.
 2. Select the analysis name from the list.
-3. Select **Open Query Builder** to create a query with the dataset. You can also:
+3. On the analysis page:
+   * Select **Open Query Builder** to create a query with the dataset
    * Type a new category to add at the end of the category list
-   * Select the **dataset parameters** icon to view parameter details
-   * Select the **information** (i) icon to view the job details
    * Hover your cursor over the category in the list to view and select the **delete** icon to remove a category
 4. To search for keywords in meeting subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes. To search for word phrases, separate the phrase with an underline (for example **budget_manager**). Or to search for word phrases in any order, separate the words with spaces (for example **budget finance manager**)
    * **Keywords OR**: Includes meeting titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
