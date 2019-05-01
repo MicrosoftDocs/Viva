@@ -20,7 +20,17 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or a dataset from a blob storage location meeting and email activity.  
+Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. 
+
+You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or a dataset from a blob storage location for meeting and email activity.
+
+After you upload a dataset, you can use template tools to view the data by categories with visual charts and lists, as shown in the following graphic. You can also use the query builder to view and save the data using a word cloud or help train the template to categorize the dataset for you.
+
+   ![Process Explorer visual list](./images/pexp-analysis-a.png)
+
+Depending on the dataset, you can also select **Refine Analysis** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+
+   ![Process Explorer graphical analysis](./images/pexp-analysis.png)
 
 ## To add a new dataset
 
@@ -50,14 +60,17 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 1. On the **Process Explorer** page, select the dataset name from the list.
 2. Select the analysis name from the list.
-3. On the analysis page:
-   * Select **Open Query Builder** to create a query with the dataset
-   * Type a new category to add at the end of the category list
-   * Hover your cursor over the category in the list to view and select the **delete** icon to remove a category
+3. On the analysis page, depending on the dataset (blob storage or .csv), you can do one or more of the following:
+
+   * Type a new category to add at the end of the category list.
+   * Hover your cursor over the category in the list to view and select the **delete** icon to remove it.
+   * Select **Refine Analysis** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+   * Select **Open Query Builder** to create a query with the dataset.
+
 4. To search for keywords in meeting and/or email subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes.
 
-  * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
-  * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
+   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
+   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
    * **Keywords OR** includes titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * **Keywords NOT** excludes titles with these words from the search and data analysis.
 
