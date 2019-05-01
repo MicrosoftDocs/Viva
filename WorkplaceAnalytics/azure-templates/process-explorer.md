@@ -20,33 +20,34 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities. 
+Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities.
 
 ## To add a new dataset
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
-2. Select **Add New Dataset** (top right), and then locate and select the dataset you want to import and analyze. 
+2. Select **Add New Dataset** (top right).
 3. For **Select Dataset Type**, select either a .csv file to upload or a blob storage location.
 
    ![Select a dataset type](./images/process-explorer.png)
 
-4. After the upload succeeds, the dataset list will include this new dataset. 
+4. When prompted, select OK. The upload will take a few minutes to complete.
+5. After the upload succeeds, the dataset list will include this new dataset.
 
 ## To add categories for analysis
 
 1. On the **Process Explorer** page, select the name of the new dataset.
 2. For new datasets, you're prompted to enter a classification title and set the probability threshold for the first category. Each dataset requires at least one category for analysis.
-3. If prompted, you can select to **Auto-Classify Meetings** or type a new category to add to a query for this dataset.
+3. If prompted, you can select to **Auto-Categorize Full Dataset** or type a new category to add to a query for this dataset.
 4. Select **Open Query Builder** to see the new category and its current status. You can also select:
-   * The dataset parameters icon to view parameter details
-   * The information (i) icon to view the job details
-   * The delete (trash) icon to remove a category
+   * The **dataset parameters** icon to view parameter details
+   * The **information** (i) icon to view the job details
+   * The **delete** icon to remove a category
 5. Select **Add New Categorization** to add additional categories for analysis.
 
 ## To view analysis
 
 1. Select the dataset name from the list.
-2. Select the category name from the list.
+2. Select the analysis name from the list.
 3. 
 4. To search for keywords in meeting subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes. To search for word phrases, separate the phrase with an underline (for example **product_marketing**). Or to search for word phrases in any order, separate the words with spaces (for example **product marketing managers**).
 
