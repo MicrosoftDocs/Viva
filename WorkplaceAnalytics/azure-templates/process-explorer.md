@@ -20,18 +20,19 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities.
+Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or a dataset from a blob storage location meeting and email activity.  
 
 ## To add a new dataset
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
 2. Select **Add New Dataset** (top right).
-3. For **Select Dataset Type**, select either a .csv file to upload or a blob storage location.
+3. For **Select Dataset Type**, select either a .csv file to upload or a blob storage location, and then select **Next**. You can use a .csv file to upload meeting data or if you want to upload email and meeting data, use the blob storage option.
 
    ![Select a dataset type](./images/process-explorer.png)
 
-4. When prompted, select OK. The upload will take a few minutes to complete.
-5. After the upload succeeds, the dataset list will include this new dataset.
+4. Type a dataset name, locate and select the .csv file or blob storage location, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
+5. When prompted, select **OK**. The upload will take a few minutes to complete.
+6. After the upload succeeds, the dataset list will include this new one.
 
 ## To add categories for analysis
 
@@ -41,16 +42,16 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
    ![Auto-classify the dataset](./images/process-explorer-auto-classify.png)
 
-## To view analysis
+## To view and export analysis
 
 1. On the **Process Explorer** page, select the dataset name from the list.
 2. Select the analysis name from the list.
-3. Select **Open Query Builder** to query the dataset. You can also select:
+3. Select **Open Query Builder** to create a query with the dataset. You can also:
    * Type a new category to add at the end of the category list
-   * The **dataset parameters** icon to view parameter details
-   * The **information** (i) icon to view the job details
+   * Select the **dataset parameters** icon to view parameter details
+   * Select the **information** (i) icon to view the job details
    * Hover your cursor over the category in the list to view and select the **delete** icon to remove a category
-4. To search for keywords in meeting subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes. To search for word phrases, separate the phrase with an underline (for example **product_marketing**). Or to search for word phrases in any order, separate the words with spaces (for example **product marketing managers**)
+4. To search for keywords in meeting subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes. To search for word phrases, separate the phrase with an underline (for example **budget_manager**). Or to search for word phrases in any order, separate the words with spaces (for example **budget finance manager**)
    * **Keywords OR**: Includes meeting titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * **Keywords NOT**: Meeting titles with these words are excluded from the search and data analysis.
 5. Select **Run query**.
