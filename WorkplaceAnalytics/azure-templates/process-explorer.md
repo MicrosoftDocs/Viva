@@ -73,15 +73,18 @@ Depending on the dataset, you can also select **Refine Analysis** to create a co
    * Select **Refine Analysis** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
    * Select **Open Query Builder** to create a query with the dataset.
 
-4. To search for keywords in meeting and/or email subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes.
+4. In **Query Builder** > **Discover Topics**, to search for keywords in meeting and/or email subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes.
 
    * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
-   * **Keywords OR** includes titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-   * **Keywords NOT** excludes titles with these words from the search and data analysis.
+   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
+   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
+   * Use the filter tab and options to filter by one or more sources, such as by analyst or model, and by one or more categories, such as budget, as shown in this graphic. You can also adjust the probability range for how likely it's accurate based on the the source and categories.
+
+    ![Process Explorer filter options](./images/pexp-filter-options.png)
 
 5. Select **Run query**.
-6. In the **Word Cloud**, you can select other keywords to add to the **Keywords OR** box, and then select **Re-run Query** to update the cloud view. For example, the following shows a word cloud for meetings and emails relating to budget.
+6. In the **Query Builder** > **Discover Topics**, you can select other keywords to add to the **Keywords OR** box, and then select **Re-run Query** to update the query data. For example, the following shows a word cloud for meetings and emails relating to budget.
 
    ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
