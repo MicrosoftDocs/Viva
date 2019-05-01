@@ -6,7 +6,7 @@ title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/02/2019
+ms.date: 05/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -70,7 +70,7 @@ Yes, you can opt out of MyAnalytics at any time.
 When you opt out, the following will occur:
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
-* You will stop receiving [nudges](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
+* You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
 * Your email activity will not be included in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
 
 **To opt out of MyAnalytics**:

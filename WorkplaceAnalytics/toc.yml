@@ -149,7 +149,7 @@
           href: MyAnalytics/Use/add-in.md
         - name: Email digests
           href: MyAnalytics/Use/email-digest-2.md
-        - name: Nudges
+        - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
     - name: MyAnalytics admin guide
       href: MyAnalytics/overview/mya-for-admins.md
