@@ -79,7 +79,7 @@ Depending on the dataset, you can also select **Refine Analysis** to create a co
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
    * Use the filter tab and options to filter by one or more sources, such as by analyst or model, and by one or more categories, such as budget, as shown in this graphic. You can also adjust the probability range for how likely it's accurate based on the the source and categories.
 
-    ![Process Explorer filter options](./images/pexp-filter-options.png)
+      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
 5. Select **Run query**.
 6. After a query is created and the query data is listed, you can:
@@ -87,7 +87,7 @@ Depending on the dataset, you can also select **Refine Analysis** to create a co
      * Select the category from the list, and then select the check box next to each meeting or email that you want to include in that category.
      * Select the check box for any uncategorized meetings or emails, select a category, and then select **Apply** to add them to that category.
 
-      ![Assign a category to an uncategorized meeting or email](./images/pexp-assign-category.png)
+        ![Assign a category to an uncategorized meeting or email](./images/pexp-assign-category.png)
 
    * After you categorize a good sample of related emails and/or meetings, you can select to **auto-categorize** or **auto-classify** them in the whole dataset for current and future analysis. 
 
