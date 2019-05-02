@@ -7,7 +7,7 @@ title: Topic Analysis Azure Template for Workplace Analytics
 description: Learn about the Topic Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/19/2019
+ms.date: 05/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -44,6 +44,7 @@ You can use this template to view and analyze meeting metrics with the following
 
    * **Keywords OR**: Includes meeting titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * **Keywords NOT**: Meeting titles with these words are excluded from the search and data analysis.
+
 3. Select **Run query**.
 4. In the **Word Cloud**, you can select other keywords to add to the **Keywords OR** box, and then select **Run query** again to update the cloud view to include the additional words you added, as shown in the following graphic.
 
@@ -71,3 +72,4 @@ You can use this template to view and analyze meeting metrics with the following
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
 * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
+* [Process Explorer Azure Template](./process-explorer.md)
