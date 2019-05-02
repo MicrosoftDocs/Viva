@@ -40,9 +40,11 @@ All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-d
 
 MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them. 
 
+### Plan-only inline suggestions
+
 While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork solution plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan): 
 
-### Collaboration plan
+#### Collaboration plan
 
 Participants in the Collaboration plan might see the following inline suggestions:
 
@@ -54,7 +56,7 @@ Participants in the Collaboration plan might see the following inline suggestion
 |------|-------|---------|
 |Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional**  | Suggests that you reconsider whether everyone is required in the meeting that you are organizing, due to the high meeting load of your invitees. |
 
-### Wellbeing plan
+#### Wellbeing plan
 
 Participants in the Wellbeing plan might see the following inline suggestion:
 
@@ -62,23 +64,23 @@ Participants in the Wellbeing plan might see the following inline suggestion:
 |------|-------|---------|
 |Reading pane (meeting invitation)  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. |
 
-## Broadly available inline suggestions
+### Broadly available inline suggestions
 
 A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork solution plan. They are described in the following tables:
 
-### Get more time to focus
+#### Get more time to focus
 
 [!INCLUDE [Inline suggestions about focus](../includes/inline-suggest-table-focus.md)]
 
-### Stay up-to-date with important relationships
+#### Stay up-to-date with important relationships
 
 [!INCLUDE [Inline suggestions about important relationships](../includes/inline-suggest-table-important.md)]
 
-### Reduce after-hours work and team impact
+#### Reduce after-hours work and team impact
 
 [!INCLUDE [Inline suggestions about after-hours work](../includes/inline-suggest-table-after-hours.md)]
 
-### Build better collaboration habits
+#### Build better collaboration habits
 
 [!INCLUDE [Inline suggestions about collaboration](../includes/inline-suggest-table-collab.md)]
 
