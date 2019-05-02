@@ -148,3 +148,4 @@ After adding users, you need to process the Workplace Analytics data that you wa
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
 * [Topic Analysis Azure Template](./topic-analysis.md)
+* [Process Explorer Azure Template](./process-explorer.md)

@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/25/2019
+ms.date: 05/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,59 +20,82 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities. 
+Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. 
+
+You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or a dataset from a blob storage location for meeting and email activity.
+
+After you upload a dataset, you can use template tools to view the data by categories with visual charts and lists, as shown in the following graphic. You can also use the query builder to view and save the data using a word cloud or help train the template to categorize the dataset for you.
+
+   ![Process Explorer visual list](./images/pexp-analysis-a.png)
+
+Depending on the dataset, you can also select **Refine Analysis** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+
+   ![Process Explorer graphical analysis](./images/pexp-analysis.png)
 
 ## To add a new dataset
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
-2. Select **Add New Dataset** (top right), and then locate and select the dataset you want to import and analyze. 
-3. For **Select Dataset Type**, select either a .csv file to upload or a blob storage location.
+2. Select **Add New Dataset** (top right).
+3. For **Select Dataset Type**, select either a .csv file to upload or a blob storage location, and then select **Next**. You can use a .csv file to upload meeting data or if you want to upload email and meeting data, use the blob storage option.
 
    ![Select a dataset type](./images/process-explorer.png)
 
-4. After the upload succeeds, the dataset list will include this new dataset. 
+4. Type a dataset name, locate and select the .csv file or blob storage location, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
+5. When prompted, select **OK**. The upload will take a few minutes to complete.
+6. After the upload succeeds, the dataset list will include this new one.
 
 ## To add categories for analysis
 
-1. On the **Process Explorer** page, select the name of the new dataset.
-2. For new datasets, you're prompted to enter a classification title and set the probability threshold for the first category. Each dataset requires at least one category for analysis.
-3. If prompted, you can select to **Auto-Classify Meetings** or type a new category to add to a query for this dataset.
-4. Select **Open Query Builder** to see the new category and its current status. You can also select:
-   * The dataset parameters icon to view parameter details
-   * The information (i) icon to view the job details
-   * The delete (trash) icon to remove a category
-5. Select **Add New Categorization** to add additional categories for analysis.
+1. On the **Process Explorer** page, select the dataset name from the list.
+2. For new datasets, you're prompted to enter a classification title and set the probability threshold for the first category. The threshold option is to set how likely a meeting or email must be in a category before it is assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings and/or emails.
+3. Type a new category to add to the end of the list or select **Add New Categorization** to add additional categories for analysis.
 
-## To view analysis
+   ![Auto-classify the dataset](./images/process-explorer-auto-classify.png)
 
-1. Select the dataset name from the list.
-2. Select the category name from the list.
-3. 
-4. To search for keywords in meeting subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes. To search for word phrases, separate the phrase with an underline (for example **product_marketing**). Or to search for word phrases in any order, separate the words with spaces (for example **product marketing managers**).
+4. Follow the steps in the next section to create, view, and export queries for analysis.
 
-   * **Keywords OR**: Includes meeting titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-   * **Keywords NOT**: Meeting titles with these words are excluded from the search and data analysis.
+## To create, view, and export queries
+
+1. On the **Process Explorer** page, select the dataset name from the list.
+2. On the analysis page, you can select:
+
+   * The analysis name from the list to view its details
+   * The **dataset parameters** icon to view the parameter details
+   * The **information** (i) icon to view the job details
+   * The **delete** icon to remove the analysis from the list
+
+3. On the analysis details page, depending on the dataset (blob storage or .csv), you can do one or more of the following:
+
+   * Type a new category to add at the end of the category list.
+   * Hover your cursor over the category in the list to view and select the **delete** icon to remove it.
+   * Select **Refine Analysis** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+   * Select **Open Query Builder** to create a query with the dataset.
+
+4. In **Query Builder** > **Discover Topics**, you can create a query based on keywords in meeting and/or email subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes.
+
+   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
+   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
+   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
+   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
+   * Use the filter tab and options to filter by one or more sources, such as by analyst or model, and by one or more categories, such as budget, as shown in this graphic. You can also adjust the probability range for how likely a meeting or email must be in a category before it's assigned to that category.
+
+      ![Process Explorer filter options](./images/pexp-filter-options.png)
+
 5. Select **Run query**.
-6. In the **Word Cloud**, you can select other keywords to add to the **Keywords OR** box, and then select **Run query** again to update the cloud view to include the additional words you added, as shown in the following graphic.
+6. After a query is created and the query data is listed, you can:
 
-   ![Topic Analysis Word Cloud](./images/topa-word-cloud.png)
+     * Select the category from the list, and then select the check box next to each meeting or email that you want to include in that category.
+     * Select the check box for any uncategorized meetings or emails, select a category, and then select **Apply** to add them to that category.
 
-7. You can then select **Meetings Summary** to view key meeting data points about the following metrics.
+        ![Assign a category to an uncategorized meeting or email](./images/pexp-assign-category.png)
 
-   |Meetings Summary metrics |Description
-   ------------------------|------------
-   |Total count of meetings in query file (Meetings) | Total number of meetings that are in the query file.
-   |Count of meetings based on search criteria | Total number of meetings that match the search criteria.
-   |Average duration hours | The average number of hours for the meeting length for the meetings in the search criteria.
-   |Average attendees | The average number of people who attended the meetings that match the search criteria.
-   |Summary metrics | Based on the organizational data imported from Workplace Analytics. For details, see [Meeting metrics](../use/metric-definitions.md#meeting-metrics).
+   * After you categorize a good sample of related emails and/or meetings, you can select to **auto-categorize** or **auto-classify** them in the whole dataset for current and future analysis.
 
-   The following diagram shows an example of the metrics available on the **Meetings Summary** page. You can select a **Summary metric** to change what data shows in the chart.
-   ![Topic Analysis Meeting Summary page](./images/topa-meetings-summary.png)
+7. In the **Query Builder** > **Discover Topics**, you can select other keywords to add to the **Keywords OR** box, and then select **Re-run Query** to update the query data. For example, the following shows a word cloud for meetings and emails relating to budget.
 
-8. You can select **Meetings Detail** to view the available meeting metrics in a table or export them as a .csv file.
+   ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
-   ![Topic Analysis Meeting Details page](./images/topa-meetings-detail.png)
+8. You can then select to export the query as a .csv file for further analysis.
 
 ## Related topics
 
