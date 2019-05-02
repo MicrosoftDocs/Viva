@@ -6,7 +6,7 @@ title: Inline suggestions in Outlook
 description: Describes what Inline suggestions are in Outlook and how they work
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/01/2019
+ms.date: 05/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -19,9 +19,9 @@ ms.prod: mya
 
 ## What are inline suggestions in Outlook?
 
-Inline suggestions in Outlook (or Insight suggestions) are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
+Inline suggestions in Outlook are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
 
-Insight suggestions can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of inline suggestions](#types-of-inline-suggestions) lists some of the inline suggestions you might see in Outlook.
+Inline suggestions can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of inline suggestions](#types-of-inline-suggestions) lists some of the inline suggestions you might see in Outlook.
 
 ## How inline suggestions work
 
@@ -43,7 +43,7 @@ Insights can display inline suggestions in the following ways.
 
 ## Why don’t I see any inline suggestions?
 
-Insight suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, only inline suggestions while reading email and meetings are available at this time. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
+Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, only inline suggestions while reading email and meetings are available at this time. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
 
 ## Providing feedback
 
