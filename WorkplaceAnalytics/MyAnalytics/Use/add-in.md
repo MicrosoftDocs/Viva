@@ -29,7 +29,7 @@ In Outlook, open the add-in by selecting the **Insights** (swirl) icon in the Ou
 
 You'll see Insights in the right panel in Outlook:
 
-![Insights panel](../../images/mya/overview/cards-panel-17.png)
+![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 

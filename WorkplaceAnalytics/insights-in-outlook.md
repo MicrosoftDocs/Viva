@@ -33,7 +33,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ![Bullet point](images/mya/overview/bullet-point-indented.png)To open the Insights Outlook add-in, select the **Insights** (swirl) icon on the Outlook Home ribbon. If you are using the Outlook Web App, first open an email message and then select **Insights** in the top-right corner of your email message. After you launch the add-in, the Insights panel opens to the right in Outlook.
 
-![Insights panel](images/mya/overview/cards-panel-17.png)
+![Insights panel](images/mya/overview/insights-cards-9.png)
 
 ## Privacy by design
 
