@@ -51,8 +51,6 @@
               href: ~/tutorials/meeting-exclusion-concept.md            
         - name: Data sources
           href: ~/Use/data-Sources.md            
-        - name: Time zones for Workplace Analytics
-          href: ~/Use/Timezones-for-Workplace-analytics.md
         - name: Workplace Analytics audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
@@ -118,6 +116,8 @@
           href: ~/Use/Glossary.md          
         - name: Workplace Analytics metrics
           href: ~/Use/metric-definitions.md
+        - name: Time zones for Workplace Analytics
+          href: ~/Use/Timezones-for-Workplace-analytics.md
         - name: Supported languages and guidelines
           href: ~/Overview/Supported-languages.md
     - name: Known issues
