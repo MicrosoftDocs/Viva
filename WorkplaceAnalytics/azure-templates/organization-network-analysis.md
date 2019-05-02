@@ -7,7 +7,7 @@ title: Organizational Network Analysis Azure Template for Workplace Analytics
 description: Learn about the Organizational Network Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/18/2019
+ms.date: 05/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -117,4 +117,4 @@ Intersectionality is a measure of how diverse a node’s connections are. The hi
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
 * [Topic Analysis Azure Template](./topic-analysis.md)
-* [Process Explorer](./process-explorer.md)
+* [Process Explorer Azure Template](./process-explorer.md)

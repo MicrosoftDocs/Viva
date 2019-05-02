@@ -55,4 +55,4 @@ As shown in the graphic, Workplace Analytics Azure Templates work with the follo
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
 * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
 * [Topic Analysis Azure Template](./topic-analysis.md)
-* [Process Explorer](./process-explorer.md)
+* [Process Explorer Azure Template](./process-explorer.md)

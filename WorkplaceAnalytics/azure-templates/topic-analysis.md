@@ -7,7 +7,7 @@ title: Topic Analysis Azure Template for Workplace Analytics
 description: Learn about the Topic Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/19/2019
+ms.date: 05/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -72,4 +72,4 @@ You can use this template to view and analyze meeting metrics with the following
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
 * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
-* [Process Explorer](./process-explorer.md)
+* [Process Explorer Azure Template](./process-explorer.md)
