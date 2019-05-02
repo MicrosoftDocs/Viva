@@ -43,7 +43,7 @@ The first time you open the CRM data page, it’ll prompt you to start a new upl
 
    ![First CRM data upload](../images/wpa/setup/crm-first-upload.png)
 
-After your first upload  of CRM accounts and contacts data, the CRM data page  will show a list of “Data uploads,” as follows.
+After your first upload of CRM accounts and contacts data, the CRM data page will show a list of “Data uploads,” as follows.
 
    ![Subsequent CRM data uploads](../images/wpa/setup/crm-upload.png)
 
@@ -63,7 +63,7 @@ For example, if you want to create reports to show the seller assignments or opp
 
 ## Prepare the CRM source data
 
-After you’ve identified what CRM data, you need to export it into the correct format to upload in Workplace Analytics. To help prepare the source data, you can download and use the template provided on the **Upload Start** page in Workplace Analytics, which includes instructions, the required and reserved attribute headings, and example data. You must save your CRM data files as **CSV UTF-8** files in Excel before you can upload them into Workplace Analytics.
+After you’ve identified what CRM data you want to upload, you need to export it into the correct format required by Workplace Analytics. To help prepare the source data, download and use the template provided on the **Upload Start** page in Workplace Analytics, which includes instructions, the required and reserved attribute headings, and example data. You must save your CRM data files as **CSV UTF-8** files in Excel before you can upload them into Workplace Analytics.
 
    ![CRM data template](../images/wpa/setup/crm-tips.png)
 
