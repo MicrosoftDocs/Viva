@@ -20,13 +20,9 @@ While analysts and program managers create and manage programs in Workplace Anal
 
 During a plan, participants receive or can view the following items:
 
-# At plan start
-
 ## Welcome email
 
-As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Workplace Analytics. This email explains the details of the plan: its duration and goals, and the habits they're expected to work on. 
-
-# Throughout the plan
+As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Workplace Analytics. This one-time email explains the details of the plan: its sponsor, its duration, and its targets -- the habits that participants are expected to work on. 
 
 ## MyAnalytics dashboard
 
@@ -44,7 +40,7 @@ All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-d
 
 MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them. 
 
-While many inline suggestions are available to all MyAnalytics participants, some apply only to participants of particular Teamwork solution plans, as described in the following tables: 
+While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork solution plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan): 
 
 ### Collaboration plan
 
