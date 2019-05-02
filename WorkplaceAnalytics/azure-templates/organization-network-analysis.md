@@ -117,3 +117,4 @@ Intersectionality is a measure of how diverse a node’s connections are. The hi
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
 * [Topic Analysis Azure Template](./topic-analysis.md)
+* [Process Explorer](./process-explorer.md)

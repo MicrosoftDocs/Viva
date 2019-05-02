@@ -7,7 +7,7 @@ title: Workplace Analytics Azure Templates overview
 description: About Workplace Analytics Azure Templates and how to use it for advanced data analysis
 author: madehmer
 ms.author: madehmer
-ms.date: 04/18/2019
+ms.date: 05/02/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa

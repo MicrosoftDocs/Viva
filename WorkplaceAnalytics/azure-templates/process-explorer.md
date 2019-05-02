@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/01/2019
+ms.date: 05/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -47,7 +47,7 @@ Depending on the dataset, you can also select **Refine Analysis** to create a co
 ## To add categories for analysis
 
 1. On the **Process Explorer** page, select the dataset name from the list.
-2. For new datasets, you're prompted to enter a classification title and set the probability threshold for the first category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings and/or emails by.
+2. For new datasets, you're prompted to enter a classification title and set the probability threshold for the first category. The threshold option is to set how likely a meeting or email must be in a category before it is assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings and/or emails.
 3. Type a new category to add to the end of the list or select **Add New Categorization** to add additional categories for analysis.
 
    ![Auto-classify the dataset](./images/process-explorer-auto-classify.png)
@@ -77,7 +77,7 @@ Depending on the dataset, you can also select **Refine Analysis** to create a co
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
    * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * Use the filter tab and options to filter by one or more sources, such as by analyst or model, and by one or more categories, such as budget, as shown in this graphic. You can also adjust the probability range for how likely it's accurate based on the the source and categories.
+   * Use the filter tab and options to filter by one or more sources, such as by analyst or model, and by one or more categories, such as budget, as shown in this graphic. You can also adjust the probability range for how likely a meeting or email must be in a category before it's assigned to that category.
 
       ![Process Explorer filter options](./images/pexp-filter-options.png)
 
@@ -89,7 +89,7 @@ Depending on the dataset, you can also select **Refine Analysis** to create a co
 
         ![Assign a category to an uncategorized meeting or email](./images/pexp-assign-category.png)
 
-   * After you categorize a good sample of related emails and/or meetings, you can select to **auto-categorize** or **auto-classify** them in the whole dataset for current and future analysis. 
+   * After you categorize a good sample of related emails and/or meetings, you can select to **auto-categorize** or **auto-classify** them in the whole dataset for current and future analysis.
 
 7. In the **Query Builder** > **Discover Topics**, you can select other keywords to add to the **Keywords OR** box, and then select **Re-run Query** to update the query data. For example, the following shows a word cloud for meetings and emails relating to budget.
 
