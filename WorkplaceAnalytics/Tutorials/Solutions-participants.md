@@ -54,7 +54,7 @@ Participants in the Collaboration plan might see the following inline suggestion
 
 | Where it shows up  | What it says | How it helps  |
 |------|-------|---------|
-|Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional**  | Suggests that you reconsider whether<br> everyone is required in the meeting <br>that you are organizing, due to the high meeting load<br> of your invitees. |
+|Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional**  | Suggests that you reconsider whether<br> everyone is required in the meeting <br>that you are organizing, in light of the high meeting load<br> of your invitees. |
 
 #### Wellbeing plan
 
