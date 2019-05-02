@@ -2,11 +2,12 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/29/2019
+ms.date: 05/02/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -26,7 +27,7 @@ For the most complete analysis, Workplace Analytics requires the following CRM d
 * Customer accounts
 * Customer contacts
 * Sales opportunities
-* Sales assignments
+* Seller assignments
 
 You can use this data to help analyze customer history to maintain and improve business relationships with existing customers and drive sales growth with new customers.
 
@@ -52,13 +53,13 @@ Similar to other organizational data, it’s important to know what CRM data you
 
 When exporting and uploading the data into Workplace Analytics, you can choose what data gets uploaded in what way, such as hashed versions of any sensitive or private information or by excluding it, if necessary.
 
-Examples of CRM data include: customer account history, contact information, sales assignments, and sales opportunities. Workplace Analytics requires this data at the individual level, which means that these attributes provide context to each account or contact in the dataset.
+Examples of CRM data include: customer account history, contact information, seller assignments, and sales opportunities. Workplace Analytics requires this data at the individual level, which means that these attributes provide context to each account or contact in the dataset.
 
-You can use this data to analyze sales collaboration between your internal sales organization and the sales accounts and contacts that they manage and other performance outcome data, such as sales-quota attainment or high/low performance ratings.
+You can use this data to analyze sales collaboration between your internal sales organization and the sales accounts and contacts that they manage and other performance outcome data.
 
 It's best to include all accounts and contacts as part of your data upload, even if you plan to gather data for only a subgroup or specific target population within the data.
 
-For example, if you want to create reports to show the sales assignments or opportunities for your salespeople in Workplace Analytics, you'll need to upload files for accounts, contacts, assignments, and opportunities.
+For example, if you want to create reports to show the seller assignments or opportunities for your salespeople in Workplace Analytics, you'll need to upload files for accounts, contacts, assignments, and opportunities.
 
 ## Prepare the CRM source data
 
