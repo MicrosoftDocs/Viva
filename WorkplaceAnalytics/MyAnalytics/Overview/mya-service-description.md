@@ -6,7 +6,7 @@ title: MyAnalytics service description
 description: MyAnalytics -- features, distributions, privacy, and prerequisites
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/08/2019
+ms.date: 05/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -28,7 +28,7 @@ MyAnalytics consists of the following elements:
  * [MyAnalytics personal dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard-2): Helps you reflect on your work habits such as time that you have available to focus, your meeting and email practices, and your network.
  * [Insights Outlook add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in): Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
  * [Email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest-2): Gives you key highlights about your previous week.
- * [MyAnalytics nudges](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications): These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
+ * [Inline suggestions](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications): These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
 
 ## MyAnalytics distributions
 
@@ -37,7 +37,7 @@ The elements of MyAnalytics are available in varying levels to users of differen
 | Plan	| Elements available |
 | --- | --- |
 | Microsoft 365 E3</br>Microsoft 365 Business</br>Office 365 E3</br>Office 365 E1</br>Business Premium</br>Business Essentials | </br></br></br>[Insights Outlook add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in) |
-| Microsoft 365 E5</br>Office 365 Enterprise E5</br>Office 365 A5</br>Office 365 Nonprofit E5</br>MyAnalytics add-on | </br>[Dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard-2), [Add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in), [Email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest), and [MyAnalytics nudges](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications) |
+| Microsoft 365 E5</br>Office 365 Enterprise E5</br>Office 365 A5</br>Office 365 Nonprofit E5</br>MyAnalytics add-on | </br>[Dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard-2), [Add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in), [Email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest), and [Inline suggestions in Outlook](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications) |
 
 For more information, see [Availability of features](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/plans-environments).
 
