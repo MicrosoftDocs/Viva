@@ -6,7 +6,7 @@ title: Inline suggestions in Outlook
 description: Describes what Inline suggestions are in Outlook and how they work
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/02/2019
+ms.date: 05/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -63,15 +63,11 @@ You can always provide overall feedback by selecting the smiley face in the uppe
 
      ![inline suggestions email image 06](../../Images/mya/use/nudges-reply-all-06.png)
 
-2. Select the gear icon to access Settings.
+2. Select the **Settings** (gear) icon to access Settings.
 
    ![inline suggestions email image 7](../../Images/mya/use/nudges-email-07.png)
 
-3. In **Settings**, turn Outlook notifications to **Off**, and then select **Close Settings**.
-
-
-    ![inline suggestions email image 8](../../Images/mya/use/nudges-email-08.png)
-
+3. In **Settings**, turn Productivity inline suggestions to **Off**.
 
 ## Types of inline suggestions
 
