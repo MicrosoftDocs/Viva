@@ -2,25 +2,24 @@
 # Metadata Sample
 # required metadata
 
-title: To see Insights information about a specific email message
-description: How to see Insights information about a specific email message 
+title: To see Insights information about sent emails
+description: How to see Insights information about sent emails 
 author: paul9955
 ms.author: v-midehm
-ms.date: 04/11/2019
+ms.date: 05/022019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-**To see information about a specific email message**
+**To see information about a sent emails**
 
-1. In your **Sent Items** folder in Outlook, select the email message.  
-2. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now. 
+1. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now. 
 
    > [!Note] 
    > If you see a "Welcome!" message, select **Get started**.
 
-3. On the **Insights** panel, locate the **Track email open rates** card: 
+2. On the **Insights** panel, locate the **Track email open rates** card: 
 
     ![Track email open rates](../../Images/mya/use/step-1-track-open-rates.png)
 
