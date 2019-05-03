@@ -56,7 +56,7 @@ So resorting to HTML:  -->
 <thead>
 <tr>
 	<th>Number of people who read your email</th>
-	<th>Reported read activity</th>
+	<th>Open rate</th>
 </tr>
 </thead>
 <tbody>

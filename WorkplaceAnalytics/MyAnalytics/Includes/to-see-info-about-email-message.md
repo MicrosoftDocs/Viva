@@ -25,7 +25,7 @@ ms.prod: mya
 
 3. This card lets you see more information about recent emails that you've sent. To see this information, select the **Track email open rates** card.
 
-4. The panel displays insight cards for each of these recently sent messages These cards state the subject line, a brief summary of the open rate, the open rate expressed as a percentage, and the number of forwards.
+4. The panel displays insight cards for each of these recently sent messages These cards state the subject line, a brief summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
     ![Email open rates](../../Images/mya/use/step-2-four-emails.png)
 
