@@ -6,7 +6,7 @@ title: Inline suggestions in Outlook
 description: Describes what Inline suggestions are in Outlook and how they work
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/02/2019
+ms.date: 05/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -31,13 +31,13 @@ Insights can display inline suggestions in the following ways.
 
    ![inline suggestions meeting image 01](../../Images/mya/use/nudges-meeting-01.png)
 
-   In this example, the nudge is shown at the top of an email, reminding you of the after-hours impact you’ll generate for your colleagues. The nudge suggests that you clarify the email's urgency, so that recipients know if it can wait until working hours. Alternatively, you can hide the nudge temporarily by selecting **Dismiss this message**.
+   In this example, the suggestion is shown at the top of an email, reminding you of the after-hours impact you’ll generate for your colleagues. It suggests you clarify the email's urgency, so that recipients know if it can wait until working hours. Alternatively, you can hide the suggestion temporarily by selecting **Dismiss this message**.
 
 2. While reading an email or a calendar invitation.
 
    ![inline suggestions email image 02](../../Images/mya/use/nudges-email-02.png)
 
-3. While reading an email, this nudge reminds you of a potential outstanding task item for the email sender. Selecting the link takes you to the Insights Outlook add-in, which shows the list of task items.
+3. While reading an email, it might remind you of a potential outstanding task for the email sender. Selecting the link takes you to Insights, which shows you the list of task items.
 
    ![inline suggestions meeting image 03](../../Images/mya/use/nudges-meeting-summary_03.png)
 
@@ -47,31 +47,27 @@ Inline suggestions are available in the latest versions of Outlook for the web a
 
 ## Providing feedback
 
-You can provide feedback for each nudge by using the feedback control at the bottom of the Insights Outlook panel. If you send a thumbs down, we’ll show you less of that suggestion.
+You can provide feedback for a suggestion by selecting **Feedback** in the suggestion. If you send a thumbs down, you'll see less of that suggestion. Or you can always give us general feedback on anything with the **smiley face** icon at the upper-right of the Insights Add-in panel.
 
-   ![inline suggestions feedback button image 04](../../Images/mya/use/nudges-feedback-04.png)
-
-You can always provide overall feedback by selecting the smiley face in the upper-right corner of the Insights Add-in panel.
+   ![inline suggestions feedback](../../Images/mya/use/insights-feedback.png)
 
 ## To opt out of inline suggestions
 
 1. To opt out of inline suggestions in Outlook, select the **Insights** icon on the Outlook Home ribbon.
 
-      ![Insights icon](../../Images/mya/use/insights-icon.png)
+      ![Insights icon in Outlook](../../Images/mya/use/insights-icon.png)
 
-      If you are using Outlook on the web, the **Insights** icon is in the top right corner of the reading pane, or in the bottom right corner of the compose form.
+      If you are using Outlook on the web, the **Insights** icon is in the ellipsis menu when reading an email message or when sending a new message.
 
-     ![inline suggestions email image 06](../../Images/mya/use/nudges-reply-all-06.png)
+     ![insights icon in Outlook on the web](../../Images/mya/use/owa-insights.png)
 
-2. Select the gear icon to access Settings.
+2. Select the **Settings** (gear) icon in the Insights Add-in panel.
 
-   ![inline suggestions email image 7](../../Images/mya/use/nudges-email-07.png)
+   ![Insights settings](../../Images/mya/use/insights-settings.png)
 
-3. In **Settings**, turn Outlook notifications to **Off**, and then select **Close Settings**.
+3. In **Settings**, turn **Productivity inline suggestions** to **Off**.
 
-
-    ![inline suggestions email image 8](../../Images/mya/use/nudges-email-08.png)
-
+      ![Turn inline suggestions off](../../Images/mya/use/insights-off.png)
 
 ## Types of inline suggestions
 
