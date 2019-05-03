@@ -47,7 +47,7 @@ Inline suggestions are available in the latest versions of Outlook for the web a
 
 ## Providing feedback
 
-You can provide feedback for each nudge by using the feedback control at the bottom of the Insights Outlook panel. If you send a thumbs down, we’ll show you less of that suggestion.
+You can provide feedback for each suggestion by using the feedback control at the bottom of the Insights Outlook panel. If you send a thumbs down, we’ll show you less of that suggestion.
 
    ![inline suggestions feedback button image 04](../../Images/mya/use/nudges-feedback-04.png)
 
