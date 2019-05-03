@@ -49,9 +49,9 @@ Inline suggestions are available in the latest versions of Outlook for the web a
 
 You can provide feedback for each suggestion by using the feedback control at the bottom of the Insights Outlook panel. If you send a thumbs down, we’ll show you less of that suggestion.
 
-   ![inline suggestions feedback button image 04](../../Images/mya/use/nudges-feedback-04.png)
+   ![inline suggestions feedback](../../Images/mya/use/helpful.png)
 
-You can always provide overall feedback by selecting the smiley face in the upper-right corner of the Insights Add-in panel.
+You can always provide overall feedback by selecting the **smiley face** icon in the upper-right corner of the Insights Add-in panel.
 
 ## To opt out of inline suggestions
 
@@ -63,7 +63,7 @@ You can always provide overall feedback by selecting the smiley face in the uppe
 
      ![insights icon in Outlook on the web](../../Images/mya/use/owa-insights.png)
 
-2. Select the Insights **Settings** (gear) icon.
+2. Select the **Settings** (gear) icon in the Insights Add-in panel.
 
    ![Insights settings](../../Images/mya/use/insights-settings.png)
 
