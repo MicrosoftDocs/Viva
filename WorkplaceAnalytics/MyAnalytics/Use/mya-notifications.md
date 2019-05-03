@@ -79,27 +79,16 @@ The following are a few of the suggestions you might see in Outlook.
 
 ### Get more time to focus
 
-| Where it shows up  | What it says | How it helps  |
-|------|-------|---------|
-|Reading pane (meeting invitation)|Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times**|Reminds you (the meeting attendee who has a heavy meeting load) to book time for focused work|
-|Reading pane (meeting invitation)|This meeting conflicts with your scheduled focus time. Do you want to move your focus block? **See available times**|Helps you to protect your focus time block, by suggesting that you move a booked focus session to another time when a meeting request conflicts with it.|
+[!INCLUDE [Inline suggestions about focus](../../includes/inline-suggest-table-focus.md)]
 
 ### Stay up-to-date with important relationships
 
-| Where it shows up | What it says | How it helps |
-|------|-------|---------|
-| Reading pane (email) | You may have outstanding tasks for sender. Would you like to review now? **See my tasks** | Reminds you that there might be outstanding task items for the sender. |
+[!INCLUDE [Inline suggestions about important relationships](../../includes/inline-suggest-table-important.md)]
 
 ### Reduce after-hours work and team impact
 
-| Where it shows up  | What it says | How it helps |
-|------|-------|---------|
-|Email compose | Your colleagues have been responding to your mails outside typical working hours. Consider **clarifying urgency** |Suggests that you clarify the degree of urgency when emailing colleagues outside work hours. |
-|Email compose | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
-|Meeting compose | This meeting is outside typical working hours for attendees. **See times** | Suggests nearby meeting times within working hours for all meeting attendees. |
+[!INCLUDE [Inline suggestions about after-hours work](../../includes/inline-suggest-table-after-hours.md)]
 
 ### Build better collaboration habits
 
-| Where it shows up  | What it says | How it helps |
-|------|-------|---------|
-|Meeting compose | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes. |
+[!INCLUDE [Inline suggestions about collaboration](../../includes/inline-suggest-table-collab.md)]
