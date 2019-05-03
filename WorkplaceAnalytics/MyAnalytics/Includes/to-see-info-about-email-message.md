@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-**To see information about a sent emails**
+**To see read information about sent emails**
 
 1. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now. 
 
