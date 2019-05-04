@@ -43,7 +43,7 @@ Insights can display inline suggestions in the following ways.
 
 ## Why don’t I see any inline suggestions?
 
-Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, only inline suggestions while reading email and meetings are available at this time. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
+Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
 
 ## Providing feedback
 
@@ -67,7 +67,7 @@ You can provide feedback for a suggestion by selecting **Feedback** in the sugge
 
 3. In **Settings**, turn **Productivity inline suggestions** to **Off**.
 
-      ![Turn inline suggestions off](../../Images/mya/use/insights-off.png)
+      ![Turn productivity inline suggestions off](../../Images/mya/use/insights-off.png)
 
 ## Types of inline suggestions
 
