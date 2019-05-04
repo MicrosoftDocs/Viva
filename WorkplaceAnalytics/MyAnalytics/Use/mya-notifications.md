@@ -3,7 +3,7 @@
 # required metadata
 
 title: Inline suggestions in Outlook
-description: Describes what Inline suggestions are in Outlook and how they work
+description: Describes what inline suggestions are in Outlook and how they work
 author: madehmer
 ms.author: v-midehm
 ms.date: 05/03/2019
