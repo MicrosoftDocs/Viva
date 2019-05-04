@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/02/2019
+ms.date: 05/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -22,7 +22,7 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time.
 
-You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or a dataset from a blob storage location for meeting and email activity.
+You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
 
 After you upload a dataset, you can use template tools to categorize a good sample of meetings into the specified categories. The template will then auto-categorize all of the meetings based on that sample. After categorizing meetings, you can view meeting and email data based on those categories with visual charts and lists, as shown in the following graphics. 
 
