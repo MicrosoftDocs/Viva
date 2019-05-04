@@ -29,7 +29,7 @@ For example, you can use the following steps to identify areas of collaboration 
 3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In the **Select metrics** section, review and select the metrics to include, which are required to populate the Power BI template.
 
-   > [!Note] 
+   > [!Note]
    > If you try to delete a metric, you'll see a warning that this deletion might disable portions of the Power BI template and reduce query results. In turn, this can limit your eventual ability to visualize collaboration-overload patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. In the warning dialog box, select **cancel** to retain the metric or **delete** to delete it.
 
 5. In the **Select filters** section, you can optionally select to filter the data.
@@ -39,43 +39,43 @@ For example, you can use the following steps to identify areas of collaboration 
 
    ![Query is still running](../Images/WpA/tutorials/query-running.png)
 
- If the query has finished running, its row displays the download (down-arrow) button:
+   If the query has finished running, its row displays the download (down-arrow) button:
 
    ![Query results are ready](../Images/WpA/tutorials/query-results-done.png)
- 
-7. Select download. This gives you a choice of what to download, a .csv file or a Power BI template.
+
+    Select download. This gives you a choice of what to download, a .csv file or a Power BI template.
 
    ![Select PBI template](../Images/WpA/tutorials/pbi-templates-03.png)
 
-8. Select **PBI template**. This shows a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI.
-9. Select **OK** to dismiss the dialog box. The Power BI template query results file is now downloaded. 
-10. In your browser, select the downloaded Power BI template query results file to open it:
+9. Select **PBI template**. This shows a dialog box that informs you that the OData link for this query has been copied to the clipboard. You will use this OData link in Power BI.
+10. Select **OK** to dismiss the dialog box. The Power BI template query results file is now downloaded. 
+11. In your browser, select the downloaded Power BI template query results file to open it:
 
-   ![Open downloaded Power BI template file](../Images/WpA/tutorials/pbi-templates-05.png)
+    ![Open downloaded Power BI template file](../Images/WpA/tutorials/pbi-templates-05.png)
 
 11. If a dialog box prompts you to select a program, choose **Power BI**.
 12. After the query results file opens in Power BI and you're prompted, paste the OData link, and then select **Load**:
 
-   ![Paste OData link here](../Images/WpA/tutorials/pbi-templates-07.png)
+    ![Paste OData link here](../Images/WpA/tutorials/pbi-templates-07.png)
 
 13. If you are already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI uses visualization charts to show your data. You are done and can _skip the following steps_.
 
-   If you are not logged in to Power BI, the left panel of the **OData feed** dialog box highlights the current sign-in account for Power BI. For example, the following shows "Anonymous" as the sign-in account:
+    If you are not logged in to Power BI, the left panel of the **OData feed** dialog box highlights the current sign-in account for Power BI. For example, the following shows "Anonymous" as the sign-in account:
 
-   ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)
+    ![Anonymous account displayed](../Images/WpA/tutorials/anon-access-to-pbi.png)
 
-   > [!Important]
-   > You can view Workplace Analytics data (including query results) in Power BI only if you've been assigned the Analyst role in Workplace Analytics. Also, you must sign in with the correct account with the following steps.
+    > [!Important]
+    > You can view Workplace Analytics data (including query results) in Power BI only if you've been assigned the Analyst role in Workplace Analytics. Also, you must sign in with the correct account with the following steps.
 
 14. In the **OData feed** dialog box, select **Organizational account**.
 15. If prompted, select **Sign in**.
 16. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The **OData feed** dialog box shows "you are currently signed in" to Power BI:
 
-   ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
+    ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 
 17. Select **Connect** to show the status of the data preparation, which might take several minutes. After the data loads, Power BI uses visualization charts to show your organization’s collaboration patterns:
 
-   ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
+    ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
 ### Related topic
 
