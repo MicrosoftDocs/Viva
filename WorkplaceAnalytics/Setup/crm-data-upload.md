@@ -45,7 +45,7 @@ The first time you open the CRM data page, it’ll prompt you to start a new upl
 
 After your first upload of CRM accounts and contacts data, the CRM data page will show a list of “Data uploads,” as follows.
 
-   ![Subsequent CRM data uploads](../images/wpa/setup/crm-upload.png)
+   ![CRM data uploads](../images/wpa/setup/crm-upload-b.png)
 
 ## Decide what data you need
 
@@ -65,7 +65,7 @@ For example, if you want to create reports to show the seller assignments or opp
 
 After you’ve identified what CRM data you want to upload, you need to export it into the correct format required by Workplace Analytics. To help prepare the source data, download and use the template provided on the **Upload Start** page in Workplace Analytics, which includes instructions, the required and reserved attribute headings, and example data. You must save your CRM data files as **CSV UTF-8** files in Excel before you can upload them into Workplace Analytics.
 
-   ![CRM data template](../images/wpa/setup/crm-tips.png)
+   ![CRM data template](../images/wpa/setup/crm-upload.png)
 
 The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a valid, non-null value for the attribute. The source file might still be valid even if some rows have invalid or missing values for some columns. The required attributes are set at 100%, which means every row must have valid, non-null values for these columns in the file. 
 
@@ -89,7 +89,7 @@ The following **Required attributes** must match the exact column headings (case
 |Email |ContactEmail |Email |
 |Effective Date |ContactsStartDate|Date |
 |**Opportunities data**           |
-|Opportunity ID	|OpportunityId |String |
+|Opportunity ID |OpportunityId |String |
 |Account Number |OpportunitiesAccountId |String |
 |Effective Date |OpportunitiesStartDate |Date |
 |**Seller assignments data**           |
@@ -163,10 +163,13 @@ Confirm the CRM column names and field values in the files follow the same rules
 10. Select **Next**.
 11. On the summary page, confirm the file details, and then select **Submit**.
 12. The new upload will be listed in the **Data Uploads** section with a status of **Validating**, which might take a few minutes.
-13. When the status changes to **Validated, Ready to process**: 
+13. When the status changes to **Validated, Ready to process**:
     * If you have more CRM files to upload, select **Upload** and go back to Step 2 and repeat these steps until you’ve uploaded all applicable CRM files.
     * After all applicable CRM files are validated, select **Turn on processing** to save the data and get it processed in Workplace Analytics.
-14. Other possible statuses and options:
+
+     ![Process CRM data](../images/wpa/setup/crm-process-data.png)
+
+14. Other possible statuses and options you might see on the CRM data page:
     * **Processed** - this status means the data was successfully saved.
     * **Validation failed** - this status means the data couldn’t be validated because something went wrong with the upload.
     * **Processing failed** - this status means the data could not be saved or processed due to an error.

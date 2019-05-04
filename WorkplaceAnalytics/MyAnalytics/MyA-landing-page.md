@@ -4,7 +4,7 @@ title: MyAnalytics introduction
 description: MyAnalytics introduction with links to further information 
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/03/2019
+ms.date: 05/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -26,7 +26,7 @@ MyAnalytics provides insights into two of the key factors in personal productivi
   * [**MyAnalytics dashboard**](../myanalytics/use/dashboard-2.md): See how you spent your time over the past month, productivity insights about your work patterns, helpful suggestions for improvement, and information about your network, top collaborators, and collaboration activities.
   * [**Insights Outlook add-in**](../myanalytics/use/add-in.md): The Insights add-in for Outlook presents you with activity cards based on your recent work experience that options to respond or follow up on based on the activity.
   * [**Email digests**](../myanalytics/use/email-digest.md): You receive a weekly email digest that gives you highlights about your previous week.
-  * [**Nudges in Outlook**](../myanalytics/use/mya-notifications.md): Contextual, data driven recommendations to improve your work patterns.
+  * [**Inline suggestions in Outlook**](../myanalytics/use/mya-notifications.md): Contextual, data driven recommendations to improve your work patterns.
   * [**MyAnalytics adoption materials**](../myanalytics/use/MyA-Adoption/Adopt-myanalytics.md): These adoption materials help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable.
     * [Individual adoption](../myanalytics/use/MyA-Adoption/Indiv-adopt-get-started.md): Individuals learn how to use MyAnalytics to build and sustain healthier work patterns.
     * [Team adoption](../myanalytics/use/MyA-Adoption/Team-adopt-intro.md): Team members learn how to set and track goals and build new habits to change the way the team collaborates.

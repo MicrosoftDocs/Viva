@@ -6,7 +6,7 @@ title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/03/2019
+ms.date: 05/01/2019
 ms.topic: article
 localization_priority: once
 ms.prod: mya
@@ -148,9 +148,9 @@ Yes, follow the steps in [To opt out of email digests](../use/email-digest-2.md#
 
 Yes, follow the steps in [To opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics).
 
-##### Q6. Can I turn off nudges?
+##### Q6. Can I turn off inline suggestions in Outlook?
 
-Yes, follow the steps in [To opt out of nudges](../use/mya-notifications.md#to-opt-out-of-nudges).
+Yes, follow the steps in [To opt out of inline suggestions](../use/mya-notifications.md#to-opt-out-of-inline-suggestions).
 
 ## For IT administrators
 
