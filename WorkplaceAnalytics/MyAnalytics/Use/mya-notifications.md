@@ -6,7 +6,7 @@ title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/03/2019
+ms.date: 05/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -67,7 +67,7 @@ You can provide feedback for a suggestion by selecting **Feedback** in the sugge
 
 3. In **Settings**, turn **Productivity inline suggestions** to **Off**.
 
-      ![Turn productivity inline suggestions off](../../Images/mya/use/insights-off.png)
+      ![Turn productivity inline suggestions off](../../Images/mya/use/inline-off.png)
 
 ## Types of inline suggestions
 
