@@ -6,7 +6,7 @@ title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/01/2019
+ms.date: 05/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -76,7 +76,7 @@ When you opt out, the following will occur:
 **To opt out of MyAnalytics**:
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **gear** icon in the top right to open the **Settings** pane.
+2. Select the **Settings** (gear) icon in the top right.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
