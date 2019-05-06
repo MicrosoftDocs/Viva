@@ -65,7 +65,7 @@ You can provide feedback for a suggestion by selecting **Feedback** in the sugge
 
    ![Insights settings](../../Images/mya/use/insights-settings.png)
 
-3. In **Settings**, turn **Productivity inline suggestions** to **Off**.
+3. In **Settings**, for **Productivity inline suggestions**, change the setting to **Off**.
 
       ![Turn productivity inline suggestions off](../../Images/mya/use/inline-off.png)
 
