@@ -3,11 +3,11 @@
 layout: HubPage
 title: Insights Outlook add-in
 description: Learn ways to improve your productivity in Outlook
-ms.date: 04/11/2019
-localization_priority: normal 
-ms.prod: mya
 author: paul9955
 ms.author: v-pascha
+ms.date: 05/07/2019
+localization_priority: normal 
+ms.prod: mya
 breadcrumb_path: 
 
 ---
