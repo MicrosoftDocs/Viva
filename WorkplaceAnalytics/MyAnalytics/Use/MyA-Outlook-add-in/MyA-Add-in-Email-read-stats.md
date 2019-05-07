@@ -88,4 +88,6 @@ table, td {
 </tbody>
 </table>
 
+User privacy is the reason that the imprecise values ("Low" and "High") are reported for read activity. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
+
 [!INCLUDE [See info about a specific email message](../../Includes/to-see-info-about-email-message.md)]

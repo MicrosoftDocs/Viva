@@ -4,9 +4,9 @@
 
 title: Privacy guide for Microsoft MyAnalytics
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/01/2019
+ms.date: 05/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -97,11 +97,13 @@ In a few cases, MyAnalytics provides people with *de-identified* information on 
 
 MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
-However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate renders as “Low” or “High.”
+However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate renders as "Low" or "High."
 
+<!-- 
 ![Email read rates](../../Images/mya/use/email-read-rates-2.png)
+-->
 
-This metric is calculated based on the “read” flag in Exchange Online. For some people, messages are flagged as “read” when they open a message in the Outlook preview pane. For others, they might need to double-click to open the message to mark it as "read."
+This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when they open a message in the Outlook preview pane. For others, they might need to double-click to open the message to mark it as "read."
 
 People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Office 365 environment, and then delivered to the sender’s mailbox.
 

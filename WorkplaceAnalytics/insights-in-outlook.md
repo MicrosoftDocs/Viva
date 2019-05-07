@@ -6,8 +6,8 @@ description: Learn ways to improve your productivity in Outlook
 ms.date: 04/11/2019
 localization_priority: normal 
 ms.prod: mya
-author: madehmer
-ms.author: v-midehm
+author: paul9955
+ms.author: v-pascha
 breadcrumb_path: 
 
 ---
@@ -53,13 +53,13 @@ The following answers some of the common questions asked about Insights by MyAna
 
 **Q2. What is the roll-out plan?**
 
-Beginning in late February 2019, users were assigned licenses with the MyAnalytics service enabled. The add-in functionality rolls out in mid-May 2019. We will update this article after we have a precise date by which you can start to manage the MyAnalytics service for your licensed users. [Learn more](https://docs.microsoft.com/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.
+Beginning in late February 2019, users will be assigned licenses with the MyAnalytics service enabled. The add-in functionality will begin rolling out in May 2019 to give you time to manage your settings. <!-- We will update this article after we have a precise date by which you can start to manage the MyAnalytics service for your licensed users. [Learn more](https://docs.microsoft.com/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management. -->
 
 **Q3. When will the Outlook add-in become available?**
 
-Starting in mid-May 2019.
+Starting in May 2019.
 
-**Q4. Will users receive the welcome email and the MyAnalytics email digest?**
+**Q4. Will users receive the MyAnalytics welcome email and weekly email digest?**
 
 No. This new experience will offer only the Outlook add-in.  
 
@@ -73,4 +73,4 @@ No.
 
 **Q7. How can I turn this off for my users?**
 
-To turn this new experience off for users, you can [disable access to the MyAnalytics service plan with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).
+To turn this new experience off for users, you can [disable access to the MyAnalytics service plan with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell). Administrators can disable the Insights Outlook add-in for the entire organization by using the Exchange admin center [Learn more](myanalytics/setup/mya-disable-insights.md).  
