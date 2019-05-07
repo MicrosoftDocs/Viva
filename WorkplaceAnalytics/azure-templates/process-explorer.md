@@ -24,15 +24,15 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
 
-After you upload a dataset, you can use template tools to categorize a good sample of meetings into the specified categories. The template will then auto-categorize all of the meetings based on that sample. After categorizing meetings, you can view meeting and email data based on those categories with visual charts and lists, as shown in the following graphics. 
+After you upload a dataset, you can use template tools to categorize a good sample of meetings into the specified categories. The template will then auto-categorize all of the meetings based on that sample. After categorizing meetings, you can view meeting and email data based on those categories with visual charts and lists, as shown in the following graphics.
 
 You can also select **Refine Analysis** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+
    ![Process Explorer graphical analysis](./images/pexp-analysis.png)
 
    ![Process Explorer visual list](./images/pexp-analysis-a.png)
 
-You can use the query builder to view word clouds and view the list of words that are close to matching the category name in the meetings data, which can help you decide what categories to add for analysis. 
-
+You can use the query builder to view word clouds and view the list of words that are close to matching the category name in the meetings data, which can help you decide what categories to add for analysis.
 
 
 ## To add a new dataset
