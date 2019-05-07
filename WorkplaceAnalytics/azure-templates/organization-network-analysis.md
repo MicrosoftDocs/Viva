@@ -26,22 +26,22 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
 ## To add new network analysis
 
 1. In Workplace Analytics Azure Templates, select **Organizational Network Analysis**.
-2. On the **Organizational Network Analysis** page, select **Add New Analysis** at top right in the table heading.
+2. On the **Organizational Network Analysis** page, select **Add New Analysis** (top right) in the table heading.
 3. For **Define Analysis Settings**, enter a name and select a path to the dataset for the new network graph.
 
    ![Add New Analysis](./images/azure-add-new.png)
 
-4. For **Specify Interaction Thresholds**, select the following thresholds and then select **Next**:
+4. For **Specify Interaction Thresholds**, select the following thresholds and then select **Next**.
 
-   * **Max Duration Threshold of each interaction** - select the maximum number of hours for each interaction.
-   * **Max # of members involved in each interaction** - select the maximum number of people involved in each interaction.
-   * **Min # of interactions** - select the minimum number of interactions between the selected groups or people.
-   * **Rolling Weeks** - select the number of weeks prior to today that you want to analyze.
+   * **Max Duration Threshold of each interaction**: Select the maximum number of hours for each interaction.
+   * **Max # of members involved in each interaction**: Select the maximum number of people involved in each interaction.
+   * **Min # of interactions**: Select the minimum number of interactions between the selected groups or people.
+   * **Rolling Weeks**: Select the number of weeks prior to today that you want to analyze.
 
 5. Optionally, for **Exclude Meetings based on keywords**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis.
 6. Select **Run**.
 7. When the **Dataset Submitted** message appears, select **OK**.
-8. Your new analysis is listed in the table with the following information and actions:
+8. Your new analysis is listed in the table with the following information and actions.
 
    * When the **Status** changes to a green check mark, you can then [render a network analysis graph](#to-render-a-network-analysis-graph) with the new analysis.
    * If the analysis fails, you can select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
