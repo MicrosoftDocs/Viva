@@ -73,4 +73,4 @@ No.
 
 **Q7. How can I turn this off for my users?**
 
-To turn this new experience off for users, you can [disable access to the MyAnalytics service plan with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell). Administrators can disable the Insights Outlook add-in for the entire organization by using the Exchange admin center [Learn more](myanalytics/setup/mya-disable-insights.md).  
+To turn this new experience off for users, you can [disable access to the MyAnalytics service plan with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell). Administrators can disable the Insights Outlook add-in for the entire organization by using the Exchange admin center. [Learn more](myanalytics/setup/mya-disable-insights.md).  
