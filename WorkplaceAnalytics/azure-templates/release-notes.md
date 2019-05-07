@@ -22,7 +22,7 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 
 ## May 2019
 
-The following features and enhancements are included in this month's release.
+The following new template and template enhancements are now available in this month's release.
 
 ### Process Explorer Azure Template
 
