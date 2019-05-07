@@ -107,10 +107,10 @@ Degrees measures the highest number of links to other nodes within the network. 
 
 ### Density
 
-Density measures cohesion within groups and across groups by density. This measure only shows as a table and not a graph. The table view depicts the density score within or across the respective groups. 
+Density measures cohesion within groups and across groups by density, which is a table view. As shown in the following graphic, the table depicts the density score within and across the respective groups, where: 
+ **Density** = **Actual connections**/**Potential connections**
 
-Density is measured as follows:
-* 
+![Density table](./images/ona-density-table.png)
 
 ### Eigen Centrality
 
