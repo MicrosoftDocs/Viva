@@ -18,7 +18,7 @@ audience: Admin
 
 # What's new in Workplace Analytics Azure Templates
 
-Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
+Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
 ## May 2019
 
