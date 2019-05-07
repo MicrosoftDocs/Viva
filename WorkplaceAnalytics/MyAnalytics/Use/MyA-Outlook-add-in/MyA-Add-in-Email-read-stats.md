@@ -26,7 +26,7 @@ Insights does not display read information about every email that you send. Plea
 
 #### Requirement: qualifying messages
 
-Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has not opted out of Insights.
+Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender, has a cloud mailbox, and has not opted out of Insights.
 
 #### Other exceptions
 
