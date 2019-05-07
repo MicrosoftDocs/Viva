@@ -25,11 +25,11 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## What you might see
 
-In Outlook, open the add-in by selecting the **Insights** (swirl) icon in the Outlook Home ribbon. If you are using the Outlook Web App, first open an email message, and then select the **Insights** icon in the top-right corner of your email message.
+In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**.
 
 You'll see Insights in the right panel in Outlook:
 
-![Insights panel](../../images/mya/overview/cards-panel-17.png)
+![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 
