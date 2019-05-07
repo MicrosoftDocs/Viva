@@ -46,14 +46,11 @@ With the ONA template, you can now view and compare two networks side by side wi
 
 You can now analyze cohesion within groups and across groups by density, which is a new measure in the ONA template. This table view depicts the density score within and across the respective groups.
 
-To learn more, see [Density](./organization-network-analysis.md#Density) in [Organization Network Analysis Azure Template](./organization-network-analysis.md).
-
 #### Save and view saved graphs
 
 You can now save a data analysis graph in the template, and then view it as a saved graph later.
 
-To learn more, see see [To load and view a saved graph](./organization-network-analysis.md#To-load-and-view-a-saved-graph) in [Organization Network Analysis Azure Template](./organization-network-analysis.md).
-
+To learn more, see [Organization Network Analysis Azure Template](./organization-network-analysis.md).
 
 ## Related topics
 
