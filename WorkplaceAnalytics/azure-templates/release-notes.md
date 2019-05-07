@@ -32,7 +32,7 @@ To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 ### Organization Network Analysis Azure Template
 
-The following enhancements and features are now available in the Organization Network Analysis (ONA) Azure Template.
+The following enhancements and features are included in the Organization Network Analysis (ONA) Azure Template.
 
 #### Comparative analysis
 
@@ -42,13 +42,13 @@ With the ONA template, you can now view and compare two networks side by side wi
 * Between different metrics, such as betweenness and intersectionality, for the same time period
 * Two different filters, such as by job title and level designation, for the same time period
 
-#### Density Node Sizing
+#### Density measure
 
-You can now analyze cohesion within groups and across groups by Density as a new Node Sizing option. In the table view, it depicts the density score within or across the respective groups.
+You can now analyze cohesion within groups and across groups by Density as a new measure in the ONA template. In the table view, it depicts the density score within or across the respective groups.
 
-#### Load and save ONA charts
+#### Save and load saved ONA charts
 
-You can now load and save ONA charts. 
+You can now save ONA charts and then view these saved charts later in the template.
 
 To learn more, see [Organization Network Analysis Azure Template](./organization-network-analysis.md).
 
