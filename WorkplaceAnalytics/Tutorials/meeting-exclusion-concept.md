@@ -5,8 +5,8 @@
 title: Meeting exclusion rules concepts
 description: Meeting exclusion rules concepts   
 author: paul9955
-ms.author: v-pascha
-ms.date: 02/21/2019
+ms.author: v-midehm
+ms.date: 05/07/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -16,7 +16,7 @@ ms.prod: wpa
 
 This article describes screen elements and concepts that will help you create and use meeting exclusion rules in Workplace Analytics. For step-by-step walkthroughs, see [Meeting exclusion rules: Walkthroughs](meeting-exclusion-rules.md). 
 
-At each step in the exclusion-creation flow, you see a page such as the following: 
+At each step in the exclusion-creation flow, you'll see a page, such as the following. 
 
   ![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
  
@@ -40,7 +40,7 @@ Before you apply any filters, 100% of meeting hours are still available for anal
 
   ![Meeting hours summary (before)](../images/wpa/tutorials/09-summary-meetings-hours.png)
 
-As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough describes, as you complete each step and move on to the next one, you'll see the number of meetings and meeting hours decrease as the exclusion is applied to your data: 
+As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough describes, as you complete each step and move on to the next one, you'll see the number of meetings and meeting hours decrease as the exclusion is applied to your data.
 
   ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
@@ -65,22 +65,24 @@ This section has three informative areas:
 
 ## Customization working area
 
-Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The _cancelled meetings_ exclusion type cannot be customized, but you can choose not to use the exclusion in your rule.) 
+Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The _cancelled meetings_ exclusion type cannot be customized, but you can choose not to use the exclusion in your rule.)
 
 You make the following types of customizations:
 
- * You can change the default filter value for any step that has a numerical filter. For more information, see [Walkthrough: add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough----add-a-meeting-exclusion-rule). 
+ * You can change the default filter value for any step that has a numerical filter. For more information, see [Walkthrough: add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough----add-a-meeting-exclusion-rule).
  * You can choose which keywords and topics that you would like to exclude from analysis. For more information, see [Walkthrough: add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough----add-a-meeting-exclusion-rule). 
- * You can create [exceptions to an exclusion](#make-an-exception-to-an-exclusion). 
+ * You can create [exceptions to an exclusion](#make-an-exception-to-an-exclusion).
+ * For these customizations, you can use keywords and topics in the following [list of languages](#supported-languages).
 
 ### Make an exception to an exclusion
-Sometimes, the default exclusion filters out meetings that you may want to keep in your analysis. You may want to make exceptions to an exclusion without removing the entire exclusion itself. The tools described in this section will help you identify which meetings you may want to keep in your analysis based on the keywords associated with these meeting subject lines. 
+
+Sometimes, the default exclusion filters out meetings that you may want to keep in your analysis. You may want to make exceptions to an exclusion without removing the entire exclusion itself. The tools described in this section will help you identify which meetings you may want to keep in your analysis based on the keywords associated with these meeting subject lines.
 
 For steps 2-4 in the meeting exclusion creation flow, appointments, large meetings, and long meetings, you can use the  [Word cloud](#word-cloud), a [Phrase table](#phrase-table), and search capability ([Keyword search](#keyword-search)) to customize your exclusions in this manner.
 
 ### Word cloud
 
-Below the heading **Identify exceptions** is a word cloud that displays keywords from meeting subject lines. It includes only keywords for meetings that meet the filter criteria that are being applied on the current step. In a word cloud, the larger the size of text of a keyword, the more meeting hours the keyword represents.
+Below the heading **Identify exceptions** is a word cloud that displays keywords from meeting subject lines. It includes only keywords for meetings that meet the filter criteria that are being applied on the current step. In a word cloud, the larger the size of text of a keyword, the more meeting hours the keyword represents. You can use keywords and topics in the following [supported languages](#supported-languages).
 
 The filter context of the word cloud always reflects the filter context for the step that you are on. For example, in the _Exclude small meetings_ step, the keywords were found in the meeting invitations where the number of attendees is less than or equal to one. 
 
@@ -145,7 +147,8 @@ To see other actions that are available for the rule, hover your cursor over the
  
 ### Published rules
 
-For published rules, the actions are:  
+For published rules, the actions are:
+
  * **Duplicate** creates an exact copy of the rule.
  * **Set preferred** sets this rule as the preferred rule. Note that there can be only one preferred rule. The preferred rule appears on the Explore dashboards and on the Solutions pages. It also appears at the top of the list of rules on the Analysis settings page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.) 
  * **Archive** archives the rule.  
@@ -185,6 +188,25 @@ A3.  Yes. Anyone in your organization can use the rules that anyone else in the 
 Q4. **Combine rules?** Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule on top of it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
 
 A4.  No. You can have only one rule in effect at a time. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
+
+## Supported languages
+
+The following list of languages are supported for keywords and phrases in meeting exclusions.
+
+|| | | | | 
+|---|---|---|---|---|----|
+|Arabic | Estonian | Italian | Polish |  Tamil |
+|Bengali | Finnish | Japanese |Portuguese (Brazilian)  |Telugu |
+|Bulgarian | French | Kannada | Portuguese (Spanish) |Thai|
+|Catalan | German | Kazakh | Punjabi | Turkish|
+|Chinese (Simplified) |Greek |Korean | Romanian| Ukrainian |
+|Chinese (Traditional) |Gujarati| Latvian | Russian| Urdu |
+|Croatian |Hebrew| Lithuanian | Serbian (Cyrillic) |Vietnamese|
+|Czech | Hindi | Malay | Serbian (Latin) |
+|Danish | Hungarian | Malayalam |  Slovak |
+|Dutch | Icelandic | Marathi |Slovenian |
+|English | Indonesian | Norwegian (Bokmaal) | Swedish |
+
 
 ## Related topic
 
