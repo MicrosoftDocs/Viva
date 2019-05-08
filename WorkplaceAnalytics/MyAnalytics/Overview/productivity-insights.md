@@ -6,9 +6,9 @@ title: Productivity insights in Outlook
 description: Learn ways to improve your productivity in Outlook 
 author: paul9955
 ms.author: v-pascha
-ms.date: 05/07/2019
+ms.date: 05/08/2019
 ms.topic: article
-localization_priority: normal 
+localization_priority: once 
 ms.prod: mya
 ---
 
