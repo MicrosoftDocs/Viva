@@ -193,19 +193,22 @@ A4.  No. You can have only one rule in effect at a time. For more information, s
 
 The following list of languages are supported for keywords and phrases in meeting exclusions.
 
-|| | | | | 
-|---|---|---|---|---|----|
-|Arabic | Estonian | Italian | Polish |  Tamil |
-|Bengali | Finnish | Japanese |Portuguese (Brazilian)  |Telugu |
-|Bulgarian | French | Kannada | Portuguese (Spanish) |Thai|
-|Catalan | German | Kazakh | Punjabi | Turkish|
-|Chinese (Simplified) |Greek |Korean | Romanian| Ukrainian |
-|Chinese (Traditional) |Gujarati| Latvian | Russian| Urdu |
-|Croatian |Hebrew| Lithuanian | Serbian (Cyrillic) |Vietnamese|
-|Czech | Hindi | Malay | Serbian (Latin) |
-|Danish | Hungarian | Malayalam |  Slovak |
-|Dutch | Icelandic | Marathi |Slovenian |
-|English | Indonesian | Norwegian (Bokmaal) | Swedish |
+|| | | |  
+|---|---|---|---|
+|Arabic | French | Korean | Serbian (Cyrillic) |
+|Bengali | German |Latvian) | Serbian (Latin) |
+|Bulgarian | Greek |Lithuanian | Slovak | 
+|Catalan | Gujarati| Malay |Slovenian  |
+|Chinese (Simplified) |Hebrew | Malayalam |Swedish |
+|Chinese (Traditional) | Hindi | Marathi | Tamil | 
+|Croatian | Hungarian | Norwegian(Bokmaal) | Telugu
+|Czech | Icelandic | Polish |Thai |
+|Danish | Indonesian |Portuguese (Brazilian | Turkish|
+|Dutch | Italian | Portuguese (Spanish) | Ukrainian |
+|English |Japanese | Punjabi | Urdu |
+| Estonian | Kannada | Romanian | Vietnamese|
+|Finnish | Kazakh | Russian|
+
 
 
 ## Related topic
