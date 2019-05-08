@@ -170,6 +170,6 @@ Skype for Business data is usually prompt. However, in rare instances, users can
 
 #### Q7.  Which features are not available if I have the “Insights by MyAnalytics” plan only?
 
- * The dashboard button will not appear until the dashboard becomes available to E3/E1 users in mid-May, 2019.
+ * The dashboard button will not appear until the dashboard becomes available to E3/E1 users, to take place later in 2019.
  * The cards that show email read statistics are also not available. This capability is available to E5 users only.
 
