@@ -4,9 +4,9 @@
 
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/01/2019
+ms.date: 05/08/2019
 ms.topic: article
 localization_priority: once
 ms.prod: mya
@@ -112,16 +112,6 @@ If you plan to go on vacation, create a calendar event that includes the days of
 
 ### Usage
 
-<!-- To be written
-
-#### What should my goal be for Meeting Hours, email, focus and after hours? 
- 
-#### How can I engage my supervisor on goals and expectations? 
- 
-#### How can I help my team reduce meeting time? 
-
--->
-
 ##### Q1. How do I track my team’s progress?
 
 You can track your teams progress if the team has conducted a program to change its collaboration habits. During such a program, its statistics, and thus its progress towards its improvement goals, are tracked. For information about starting such a program, see [Get started](../use/mya-adoption/team-adopt-intro.md). For information about tracking the progress that your team made, see [Measure](../use/mya-adoption/team-adopt-measure.md).
@@ -177,3 +167,12 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 #### Q6. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
 Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
+
+#### Q7. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" plan?
+
+ * The dashboard button will not appear until the dashboard becomes available to E3/E1 users, to take place later in 2019.
+ * The cards that show email read statistics are not available. This capability is available to E5 users only.
+   
+   > [!Note]
+   > All MyAnalytics features are available to users who have MyAnalytics (Full) plan. 
+

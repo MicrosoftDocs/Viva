@@ -3,11 +3,11 @@
 layout: HubPage
 title: Insights Outlook add-in
 description: Learn ways to improve your productivity in Outlook
-ms.date: 04/11/2019
-localization_priority: normal 
+author: paul9955
+ms.author: v-pascha
+ms.date: 05/08/2019
+localization_priority: once 
 ms.prod: mya
-author: madehmer
-ms.author: v-midehm
 breadcrumb_path: 
 
 ---
@@ -31,9 +31,9 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## What you might see
 
-![Bullet point](images/mya/overview/bullet-point-indented.png)To open the Insights Outlook add-in, select the **Insights** (swirl) icon on the Outlook Home ribbon. If you are using the Outlook Web App, first open an email message and then select **Insights** in the top-right corner of your email message. After you launch the add-in, the Insights panel opens to the right in Outlook.
+![Bullet point](images/mya/overview/bullet-point-indented.png)To open the Insights Outlook add-in, select the **Insights** icon on the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**. 
 
-![Insights panel](images/mya/overview/cards-panel-17.png)
+![Insights panel](images/mya/overview/insights-cards-9.png)
 
 ## Privacy by design
 
@@ -53,13 +53,13 @@ The following answers some of the common questions asked about Insights by MyAna
 
 **Q2. What is the roll-out plan?**
 
-Beginning in late February 2019, users will be assigned licenses with the MyAnalytics service enabled. The add-in functionality will begin rolling out in May 2019 to give you time to manage your settings. We will update this article after we have a precise date by which you can start to manage the MyAnalytics service for your licensed users. [Learn more](https://docs.microsoft.com/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management.
+Beginning in late February 2019, users were assigned licenses with the MyAnalytics service enabled. The add-in functionality will begin rolling out in May 2019 to give you time to manage your settings. <!-- We will update this article after we have a precise date by which you can start to manage the MyAnalytics service for your licensed users. [Learn more](https://docs.microsoft.com/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management. -->
 
 **Q3. When will the Outlook add-in become available?**
 
 Starting in May 2019.
 
-**Q4. Will users receive the welcome email and the MyAnalytics email digest?**
+**Q4. Will users receive the MyAnalytics welcome email and weekly email digest?**
 
 No. This new experience will offer only the Outlook add-in.  
 
@@ -73,4 +73,4 @@ No.
 
 **Q7. How can I turn this off for my users?**
 
-To turn this new experience off for users, you can [disable access to the MyAnalytics service plan with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).
+To turn this new experience off for users, you can [disable access to the MyAnalytics service plan with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell). Administrators can disable the Insights Outlook add-in for the entire organization by using the Exchange admin center. [Learn more](myanalytics/setup/mya-disable-insights.md).  

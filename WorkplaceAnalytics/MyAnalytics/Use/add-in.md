@@ -4,11 +4,11 @@
 
 title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
 ms.date: 05/09/2019
 ms.topic: article
-localization_priority: normal 
+localization_priority: once 
 ms.prod: mya
 
 ---
@@ -27,11 +27,11 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 ## What you might see
 
-In Outlook, open the add-in by selecting the **Insights** (swirl) icon in the Outlook Home ribbon. If you are using the Outlook Web App, first open an email message, and then select the **Insights** icon in the top-right corner of your email message.
+In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**.
 
 You'll see Insights in the right panel in Outlook:
 
-![Insights panel](../../images/mya/overview/cards-panel-17.png)
+![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 

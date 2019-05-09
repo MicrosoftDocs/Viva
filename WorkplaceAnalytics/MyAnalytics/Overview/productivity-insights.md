@@ -6,9 +6,9 @@ title: Productivity insights in Outlook
 description: Learn ways to improve your productivity in Outlook 
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/08/2019
+ms.date: 05/08/2019
 ms.topic: article
-localization_priority: normal 
+localization_priority: once 
 ms.prod: mya
 ---
 
@@ -22,11 +22,9 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights that you might see
 
-Launch the Outlook add-in by selecting the **Insights** (swirl) icon in the Outlook Home ribbon. If you are using Outlook Web App, first open an email message and then select the **Insights** (swirl) icon in the top-right corner of your email message.
+Open the Insights Outlook add-in by selecting the **Insights** icon on the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**. 
 
-After you launch the add-in, the insights cards are displayed in the right panel:
-
-![Insights panel](../../images/mya/overview/cards-panel-16.png)
+![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
 ## Privacy by design
 
