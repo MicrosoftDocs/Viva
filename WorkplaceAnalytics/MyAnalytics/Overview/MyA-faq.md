@@ -6,7 +6,7 @@ title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/08/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: once
 ms.prod: mya
@@ -174,5 +174,4 @@ Skype for Business data is usually prompt. However, in rare instances, users can
  * The cards that show email read statistics are not available. This capability is available to E5 users only.
    
    > [!Note]
-   > All MyAnalytics features are available to users who have MyAnalytics (Full) plan. 
-
+   > All MyAnalytics features are available to users who have the MyAnalytics (full) plan. 
