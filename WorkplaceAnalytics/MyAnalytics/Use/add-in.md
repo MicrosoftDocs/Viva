@@ -8,7 +8,7 @@ author: paul9955
 ms.author: v-midehm
 ms.date: 05/08/2019
 ms.topic: article
-localization_priority: once 
+localization_priority: priority 
 ms.prod: mya
 
 ---

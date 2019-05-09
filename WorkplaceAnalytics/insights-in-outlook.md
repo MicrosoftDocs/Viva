@@ -6,7 +6,7 @@ description: Learn ways to improve your productivity in Outlook
 author: paul9955
 ms.author: v-pascha
 ms.date: 05/08/2019
-localization_priority: once 
+localization_priority: priority 
 ms.prod: mya
 breadcrumb_path: 
 

@@ -174,5 +174,4 @@ Skype for Business data is usually prompt. However, in rare instances, users can
  * The cards that show email read statistics are not available. This capability is available to E5 users only.
    
    > [!Note]
-   > All MyAnalytics features are available to users who have MyAnalytics (Full) plan. 
-
+   > All MyAnalytics features are available to users who have the MyAnalytics (full) plan. 
