@@ -6,7 +6,7 @@ title: Privacy guide for MyAnalytics
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/08/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -142,7 +142,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
  End users can opt-in or opt-out of MyAnalytics via the Feature Settings menu in Office 365, as shown here:
 
-![Email read rates](../../Images/mya/use/mya-opt-in-out-3.png)
+![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
 
 ## MyAnalytics vs. Workplace Analytics, Delve, and the Microsoft Graph
@@ -157,7 +157,7 @@ Although MyAnalytics is an individual productivity tool, [Workplace Analytics](h
 
 MyAnalytics and Delve are both first-party applications based on the Microsoft Graph, and are independent applications with different use cases. Delve uses intelligence to help employees discover relevant content and people across their organization. Each application is licensed separately and settings from one do not impact the settings of the other.
 
-There may be some confusion about this, because MyAnalytics used to be called “Delve Analytics” but was rebranded in fall 2016. The MyAnalytics personal dashboard still shows up in the Delve user interface. However, MyAnalytics will eventually be decoupled from Delve and have its own unique URL.
+There may be some confusion about this, because MyAnalytics used to be called “Delve Analytics” but was rebranded in fall 2016. The MyAnalytics personal dashboard still shows up in the Delve user interface. Note, however, that the MyAnalytics personal dashboard also appears independently of Delve and can be reached through its own unique URL
 
 > [!Note] 
 > Administrators and individuals can disable Delve content-discovery functionality without impacting access to MyAnalytics, and vice-versa. The personal dashboard and all other MyAnalytics surfaces will remain functional. To learn more, see [Delve administration](https://docs.microsoft.com/sharepoint/delve-for-office-365-admins).
