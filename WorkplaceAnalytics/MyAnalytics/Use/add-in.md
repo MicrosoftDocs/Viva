@@ -23,6 +23,8 @@ Did you ever miss an important email or forget a commitment you made to your co-
 
 If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
 
+This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, and improve your overall work-life balance.
+
 ## What you might see
 
 In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**.
