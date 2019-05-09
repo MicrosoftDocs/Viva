@@ -140,12 +140,12 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 ### How employees can opt-in and opt-out
 
- End users can opt-in or opt-out of MyAnalytics via the Feature Settings menu in Office 365, as shown here:
+ End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Office 365, as shown here:
 
 ![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
 
-## MyAnalytics vs. Workplace Analytics, Delve, and the Microsoft Graph
+## MyAnalytics vs. Workplace Analytics, Delve, and Microsoft Graph
 
 The following describes the differences between these Microsoft products:
 
@@ -170,7 +170,7 @@ The Microsoft Graph cannot be turned on or off globally through the Office 365 A
 
 ## Employee experience of MyAnalytics
 
-### Dashboard and Outlook Add-in
+### Dashboard and Outlook add-in
 
 Within a few days of the assignment of a license with the MyAnalytics service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-on license&mdash;the user’s MyAnalytics [dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
 
