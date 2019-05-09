@@ -168,8 +168,11 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
 
-#### Q7.  Which features are not available if I have the “Insights by MyAnalytics” plan only?
+#### Q7. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" plan?
 
  * The dashboard button will not appear until the dashboard becomes available to E3/E1 users, to take place later in 2019.
- * The cards that show email read statistics are also not available. This capability is available to E5 users only.
+ * The cards that show email read statistics are not available. This capability is available to E5 users only.
+   
+   > [!Note]
+   > All MyAnalytics features are available to users who have MyAnalytics (Full) plan. 
 
