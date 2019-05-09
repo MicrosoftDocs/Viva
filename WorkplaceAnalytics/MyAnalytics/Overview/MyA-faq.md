@@ -6,7 +6,7 @@ title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/08/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: once
 ms.prod: mya

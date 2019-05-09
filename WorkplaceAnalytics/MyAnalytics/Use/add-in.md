@@ -6,7 +6,7 @@ title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/08/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: priority 
 ms.prod: mya
