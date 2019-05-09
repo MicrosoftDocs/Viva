@@ -41,7 +41,7 @@ Here's an example of an email digest insight to help improve work relationships.
 
 ![Email network digest](../../Images/mya/use/email-network.png)
 
-### Opt out of email digests
+## Opt out of email digests
 
 If you do not want to receive digest emails from MyAnalytics, you can opt out of them:
 
