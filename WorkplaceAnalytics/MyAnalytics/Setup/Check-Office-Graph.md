@@ -23,4 +23,3 @@ audience: Admin
 
 > [!Note] 
 > If you don't allow access to the Office Graph, Delve will be removed from the Office 365 app launcher, and users in your organization will not be able see statistics from MyAnalytics in Delve. 
-
