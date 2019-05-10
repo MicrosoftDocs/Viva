@@ -6,7 +6,7 @@ title: Workplace Analytics Teamwork solution walkthrough
 description: A walkthrough of the steps required to create a program by using the Workplace Analytics Teamwork solution
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -44,7 +44,7 @@ Both analysts and Program Managers can create groups. You can create a group on 
 
 * **Analysts** can create a group either by using charts to select groups or by manually uploading a group (in a .csv file):
 
-   * **Charts**: To use charts to select a group, on the Solutions > Identify page, you choose an area for behavior change and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. For a step-by-step description, see [Identify a group](#identify-a-group).
+   * **Charts**: To use charts to select a group, on the **Solutions** > **Identify** page, you choose an area for behavior change, and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. For a step-by-step description, see [Identify a group](#identify-a-group).
    * **File upload**: To use an upload, you need to create a .csv file and then upload it. For a step-by-step description, see [Upload a file to create a group](#upload-a-file-to-create-a-group). For more information about the file you upload, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file).
 
 * **Program Managers** can create groups only by manually uploading them. Use this method if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people.

@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Assign licenses to Workplace Analytics users
+title: Introduction to assigning licenses for Workplace Analytics users
 description: Assign Workplace Analytics licenses for population in scope for analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,15 +17,17 @@ audience: Admin
 
 # Assign licenses
 
+The following describes who does what to assign licenses to Workplace Analytics users: 
+
 * **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator
 * **Task** - Determine population in scope for analysis and assign licenses via Office 365
 * **Outcome** - Office 365 licenses are assigned for the population that will be analyzed
 
 The Workplace Analytics sponsor works with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics.
 
-Employees in your organization who are not licensed for analysis but might have meeting, email, or Teams/Skype for Business collaboration with measured employees are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
+Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
-After you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population.  
+After you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population.
 
 ### Video: Assign licenses
 

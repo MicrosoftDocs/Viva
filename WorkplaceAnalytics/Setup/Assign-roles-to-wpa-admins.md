@@ -6,7 +6,7 @@ title: Workplace Analytics Setup -- Assign roles to admins, analysts, and PMs
 description: How to assign roles in Workplace Analytics for admins, analysts, and program managers
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,6 +16,8 @@ audience: Admin
 ---
 
 # Assign Workplace Analytics roles
+
+The following describes who does what to assign roles in Workplace Analytics for admins, analysts, and program managers:
 
 * **Owner** - Office 365 global administrator.
 * **Task** - Assign users for administrators and data analysts to Workplace Analytics service.

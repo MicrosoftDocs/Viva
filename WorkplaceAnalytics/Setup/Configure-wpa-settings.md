@@ -6,7 +6,7 @@ title: Configure Workplace Analytics system settings
 description: Describes how to configure the system settings for Workplace Analytics.
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -24,6 +24,8 @@ Use the Workplace Analytics **Admin settings** page to set the time zone, workin
    ![System defaults](../images/wpa/use/settings-system-defaults-b.png)
 
 ### Time zone
+
+The following describes who does what for time zone settings:
 
 * **Owner** - Workplace Analytics admin
 * **Task** - Default time zone value the system will use in metric calculations if the data is not available for a measured employee or other internal collaborator
@@ -55,6 +57,8 @@ These default settings are only used for users who have not already set up their
 -->
 
 ## Privacy settings
+
+The following describes who does what for privacy settings:
 
 * **Owner** - Workplace Analytics sponsor or Workplace Analytics administrator
 * **Task** - Use company-specific legal and privacy guidelines to define settings to use in Workplace Analytics
