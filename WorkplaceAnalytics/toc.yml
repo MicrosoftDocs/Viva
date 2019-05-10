@@ -140,9 +140,9 @@
     - name: Frequently asked questions
       href: MyAnalytics/Overview/MyA-faq.md
     - name: MyAnalytics elements
-      expanded: false
-      href: MyAnalytics/Use/MyA-elements.md
-      items:
+      items: 
+        - name: Introduction
+          href: MyAnalytics/Use/MyA-elements.md
         - name: Dashboard
           href: MyAnalytics/Use/dashboard-2.md
         - name: Add-in
@@ -152,16 +152,17 @@
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
     - name: MyAnalytics admin guide
-      href: MyAnalytics/overview/mya-for-admins.md
-      items:
-      - name: MyAnalytics setup
-        href: MyAnalytics/setup/mya-setup-checklist.md
-      - name: Plans and environments
-        href: MyAnalytics/overview/plans-environments.md
-      - name: Privacy guide for admins
-        href: MyAnalytics/overview/privacy-guide.md
-      - name: Disable Insights by MyAnalytics
-        href: MyAnalytics/setup/mya-disable-insights.md       
+      items: 
+        - name: Introduction
+          href: MyAnalytics/overview/mya-for-admins.md
+        - name: MyAnalytics setup
+          href: MyAnalytics/setup/mya-setup-checklist.md
+        - name: Plans and environments
+          href: MyAnalytics/overview/plans-environments.md
+        - name: Privacy guide for admins
+          href: MyAnalytics/overview/privacy-guide.md
+        - name: Disable Insights by MyAnalytics
+          href: MyAnalytics/setup/mya-disable-insights.md       
     - name: Use MyAnalytics
       items:
       - name: Work patterns
