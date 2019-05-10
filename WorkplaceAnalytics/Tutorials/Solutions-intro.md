@@ -6,13 +6,13 @@ title: Workplace Analytics teamwork solution introduction
 description: Introduction and summary of Workplace Analytics teamwork solution
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
+ms.date: 05/09/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Workplace Analytics Teamwork solution
+# Teamwork solution introduction
 
 By combining the power of Workplace Analytics and MyAnalytics, the Teamwork solution feature helps you transform insights from Workplace Analytics into targeted change programs across your organization. Targeted change programs are available for reducing meeting load, increasing focus time, and maintaining work-life balance. By using the Teamwork solution feature, you can do the following:
 

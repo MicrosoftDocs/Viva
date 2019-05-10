@@ -21,6 +21,7 @@ As an analyst, you select metrics as you build queries. The metrics that you see
 ## Work with metrics in a query
 
 You can change how a metric is used within a query in the following ways:
+
 1. Customize the base metric.
 2. Change the base metric.
 3. Add additional base metrics.
