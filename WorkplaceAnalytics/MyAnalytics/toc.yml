@@ -7,28 +7,29 @@
     - name: Frequently asked questions
       href: ./overview/MyA-faq.md
     - name: MyAnalytics elements
-      expanded: false
-      href: ./use/MyA-elements.md
+      items: 
+        - name: Introduction 
+          href: ./use/MyA-elements.md
+        - name: Dashboard
+          href: ./use/dashboard-2.md      
+        - name: Add-in
+          href: ./use/add-in.md
+        - name: Email digests
+          href: ./use/email-digest-2.md
+        - name: Inline suggestions
+          href: ./use/mya-notifications.md
+    - name: MyAnalytics admin guide 
       items:
-      - name: Dashboard
-        href: ./use/dashboard-2.md      
-      - name: Add-in
-        href: ./use/add-in.md
-      - name: Email digests
-        href: ./use/email-digest-2.md
-      - name: Nudges
-        href: ./use/mya-notifications.md
-    - name: MyAnalytics admin guide
-      href: ./overview/mya-for-admins.md
-      items:
-      - name: MyAnalytics setup
-        href: ./setup/mya-setup-checklist.md
-      - name: Plans and environments
-        href: ./overview/plans-environments.md
-      - name: Privacy guide for admins
-        href: ./overview/privacy-guide.md
-      - name: Disable Insights by MyAnalytics
-        href: ./setup/mya-disable-insights.md
+        - name: Introduction
+          href: ./overview/mya-for-admins.md
+        - name: MyAnalytics setup
+          href: ./setup/mya-setup-checklist.md
+        - name: Plans and environments
+          href: ./overview/plans-environments.md
+        - name: Privacy guide for admins
+          href: ./overview/privacy-guide.md
+        - name: Disable Insights by MyAnalytics
+          href: ./setup/mya-disable-insights.md
     - name: Use MyAnalytics
       items:
       - name: Work patterns
@@ -42,43 +43,44 @@
         - name: Collaboration
           href: ./Use/collaboration.md 
       - name: Adopt MyAnalytics
-        href: ./Use/MyA-Adoption/Adopt-myanalytics.md  
         items: 
-        - name: Individual adoption
-          items: 
-          - name: Get started
-            href: ./Use/MyA-Adoption/Indiv-adopt-get-started.md
-          - name: Diagnose your issue
-            href: ./Use/MyA-Adoption/Indiv-adopt-diagnose.md
-          - name: Set your goal
-            href: ./Use/MyA-Adoption/Indiv-adopt-set-goals.md
-          - name: Build your habit
-            href: ./Use/MyA-Adoption/Indiv-adopt-develop-habits.md
-          - name: Sustain change
-            href: ./Use/MyA-Adoption/Indiv-adopt-sustain-change.md
-          - name: Resources
-            href: ./Use/MyA-Adoption/Indiv-adopt-resources.md
-        - name: Team adoption
-          items: 
-          - name: Get started
-            href: ./Use/MyA-Adoption/Team-adopt-intro.md
-          - name: Plan
-            href: ./Use/MyA-Adoption/Team-adopt-plan.md
-          - name: Implement
-            href: ./Use/MyA-Adoption/Team-adopt-implement.md
-          - name: Measure
-            href: ./Use/MyA-Adoption/Team-adopt-measure.md
-          - name: Reinforce
-            href: ./Use/MyA-Adoption/Team-adopt-reinforce.md
-          - name: Resources
-            href: ./Use/MyA-Adoption/Indiv-adopt-resources.md
-        - name: Habit resources
-          items: 
-          - name: Learning modules
-            href: ./Use/MyA-Adoption/Adopt-Learning-modules.md
-          - name: Habit-building method
-            href: ./Use/MyA-Adoption/Adopt-Habit-building-method.md
-          - name: Habit playbooks
-            href: ./Use/MyA-Adoption/Adopt-Habit-playbooks.md
+          - name: Introduction
+            href: ./Use/MyA-Adoption/Adopt-myanalytics.md   
+          - name: Individual adoption
+            items: 
+            - name: Get started
+              href: ./Use/MyA-Adoption/Indiv-adopt-get-started.md
+            - name: Diagnose your issue
+              href: ./Use/MyA-Adoption/Indiv-adopt-diagnose.md
+            - name: Set your goal
+              href: ./Use/MyA-Adoption/Indiv-adopt-set-goals.md
+            - name: Build your habit
+              href: ./Use/MyA-Adoption/Indiv-adopt-develop-habits.md
+            - name: Sustain change
+              href: ./Use/MyA-Adoption/Indiv-adopt-sustain-change.md
+            - name: Resources
+              href: ./Use/MyA-Adoption/Indiv-adopt-resources.md
+          - name: Team adoption
+            items: 
+            - name: Get started
+              href: ./Use/MyA-Adoption/Team-adopt-intro.md
+            - name: Plan
+              href: ./Use/MyA-Adoption/Team-adopt-plan.md
+            - name: Implement
+              href: ./Use/MyA-Adoption/Team-adopt-implement.md
+            - name: Measure
+              href: ./Use/MyA-Adoption/Team-adopt-measure.md
+            - name: Reinforce
+              href: ./Use/MyA-Adoption/Team-adopt-reinforce.md
+            - name: Resources
+              href: ./Use/MyA-Adoption/Indiv-adopt-resources.md
+          - name: Habit resources
+            items: 
+            - name: Learning modules
+              href: ./Use/MyA-Adoption/Adopt-Learning-modules.md
+            - name: Habit-building method
+              href: ./Use/MyA-Adoption/Adopt-Habit-building-method.md
+            - name: Habit playbooks
+              href: ./Use/MyA-Adoption/Adopt-Habit-playbooks.md
             
  

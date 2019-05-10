@@ -6,7 +6,7 @@ title: Assigning Workplace Analytics licenses with PowerShell
 description: How to assign Workplace Analytics licenses in Azure Active Directory by using PowerShell
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 05/10/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -27,7 +27,7 @@ Use the following steps to assign Workplace Analytics licenses with PowerShell i
 
      b) Run the following command:
 
-    Install-Module *AzureAD*
+         Install-Module *AzureAD*
 
 2. Run the Azure AD PowerShell module:
 
@@ -35,7 +35,7 @@ Use the following steps to assign Workplace Analytics licenses with PowerShell i
 
     b) Type the following command:
 
-      Import-Module *AzureAD*
+        Import-Module *AzureAD*
 
 ## Assigning licenses
 
@@ -45,9 +45,9 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
     With PowerShell open, start the Import Module, and log in to Azure AD by running the following commands:
 
-      Import-Module *AzureAD*
+       Import-Module *AzureAD*
 
-      Connect-AzureAD
+       Connect-AzureAD
 
     To log in, you will need credentials with admin privileges.
 
@@ -82,9 +82,8 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
       ```
 
-After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
+   After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
 
-</br>
 
 ## Add Workplace Analytics licenses in bulk through Office365 PowerShell
 
@@ -272,18 +271,17 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
        Stop-Transcript
 ```
 
+   With the PowerShell environment now prepared, and the input file constructed, the script can now execute.
 
-With the PowerShell environment now prepared, and the input file properly constructed, the script can now execute.
- 
-3.	Start Windows PowerShell and run the following command:
+3. Start Windows PowerShell and run the following command:
 
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
 
-Note that the \<CSVLocation> should contain the full path to the .csv input file such as C:\Scripts\InputFile.csv.
+    Note that the \<CSVLocation> should contain the full path to the .csv input file such as C:\Scripts\InputFile.csv.
 
 4. When prompted, enter the Office365 global administrator credentials for the tenant where the licenses are to be added.
 
-If all the required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are displayed on the command line.
+   If all the required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are shown on the command line.
 
 ## FAQ
 

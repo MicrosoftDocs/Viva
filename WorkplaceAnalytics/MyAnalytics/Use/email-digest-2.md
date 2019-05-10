@@ -41,14 +41,14 @@ Here's an example of an email digest insight to help improve work relationships.
 
 ![Email network digest](../../Images/mya/use/email-network.png)
 
-### Opt out of email digests
+## Opt out of email digests
 
 If you do not want to receive digest emails from MyAnalytics, you can opt out of them:
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
-2. Select the **gear** icon at the top right to open the **Settings** pane.
+2. Select the **Settings** (gear) icon at the top right.
 3. Under **MyAnalytics**, select **Settings**.
-4. Under **Email digest**, select to change the slider button to **Off**.
+4. Under **Email digest**, change the setting to **Off**.
 5. Select **Save** to save your changes.
 
 >[!Note]
