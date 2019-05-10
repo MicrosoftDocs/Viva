@@ -24,6 +24,3 @@ For additional tailored behavior change tips, take the [Collaborative Overload P
 
 To learn more about _The Power of Habit_, see the [The Power of Habit Resources](http://charlesduhigg.com/resources/).
 
-
-
-
