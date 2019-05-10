@@ -6,7 +6,7 @@ title: Workplace Analytics Setup -- Determine key personas and roles for impleme
 description: Setup step to determine key personas and roles for implementation of Workplace Analytics. 
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,6 +14,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
+The following describes who does what to identify key personas for the different roles in Workplace Analytics:
 
  * **Owner** - Workplace Analytics sponsor (the initial point-person for the engagement)
  * **Task** - Identify people in the organization to fill key roles in setting up Workplace Analytics
