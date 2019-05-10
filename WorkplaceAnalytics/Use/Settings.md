@@ -17,7 +17,7 @@ audience: Admin
 
 # Configure Workplace Analytics settings
 
-The Settings pages of Workplace Analytics are used to customize system defaults and privacy settings and to upload data. These are the four Settings pages:
+You use the following Settings pages in Workplace Analytics to customize system defaults and privacy settings and to upload data:
 
  * [Sources](#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
  * [Upload](#upload) – Prepare and upload organizational and customer data.
@@ -58,7 +58,7 @@ Organizational data is contextual information about employees (for example, job 
 
 ## Analysis settings
 
- * **Owners** – Workplace Analytics Analysts have full access to this page and Analyst limited have read-only access
+ * **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access
 
 On the **Analysis settings** page, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
 
@@ -81,6 +81,7 @@ On the **System defaults** page, you can configure the following employee option
 * [Default time zone](#default-time-zone)
 * [Working days and hours](#working-day-and-hours)
 * [Hourly rate](#hourly-rate)
+* [Domain settings](#domain-settings)
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
@@ -114,6 +115,16 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 
 1. For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
+
+#### Domain settings
+
+In **Select the external domains that you want to consider internal**, you can select an external domain to include in your data as internal for analysis in Workplace Analytics.
+
+This setting will change all data relating to the specified domain to be internal to your organization, such as for the following:
+
+* Explore charts and metrics will update to show this domain as internal retroactively for the specified time period. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in Explore pages.
+* Organizational and Office 365 data will change data from this domain to be internal (IsInternal attribute) shortly after the next scheduled uploads of related data.
+* Sources pages will include this domain in the internal, which was previously external, collaborator metrics and applicable coverage data will change based on this new domain classification.
 
 ### Privacy settings
 
