@@ -5,8 +5,8 @@
 title: MyAnalytics key user interface elements
 description: Information about the MyAnalytics personal dashboard, Outlook add-in, email digests, and inline suggestions in Outlook
 author: madehmer
-ms.author: v-midehm
-ms.date: 05/01/2019
+ms.author: v-pascha
+ms.date: 05/09/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
