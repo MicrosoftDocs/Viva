@@ -123,7 +123,7 @@ In **Select the external domains that you want to consider internal**, you can s
 This setting will change all data relating to the specified domain to be internal to your organization, such as for the following:
 
 * Explore charts and metrics will update to show this domain as internal retroactively for the specified time period. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in Explore pages.
-* Organizational and Office 365 data will change data from this domain to be internal (IsInternal attribute) shortly after the next scheduled uploads of related data.
+* Organizational and Office 365 data will updated data from this domain to be internal (IsInternal attribute) after the next data refresh.
 * Sources pages will include this domain in the internal, which was previously external, collaborator metrics and applicable coverage data will change based on this new domain classification.
 
 ### Privacy settings
