@@ -63,8 +63,6 @@
           href: ~/Overview/Get-started.md
         - name: Analyze
           items:
-            - name: Introduction
-              href: ~/Use/analyze-intro.md
             - name: Explore
               items:
                 - name: Overview
