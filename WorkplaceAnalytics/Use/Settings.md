@@ -118,13 +118,13 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 
 #### Domain settings
 
-In **Select the external domains that you want to consider internal**, you can select an external domain to include in your data as internal for analysis in Workplace Analytics.
+In **Select the external domains that you want to consider internal**, you can set one or more external domains as *internal* to include in your organizational data analysis. For companies that have more than one domain, you can use this setting to analyze organizational data from two or more domains as a single company or organization.
 
-This setting will change all data relating to the specified domain to be internal to your organization, such as for the following:
+This setting will change all data relating to the specified domain to be internal to your organization, such as the following:
 
-* Explore charts and metrics will update to show this domain as internal retroactively for the specified time period. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in Explore pages.
-* Organizational and Office 365 data will updated data from this domain to be internal (IsInternal attribute) after the next data refresh.
-* Sources pages will include this domain in the internal, which was previously external, collaborator metrics and applicable coverage data will change based on this new domain classification.
+* Explore charts and metrics will show the domain as internal retroactively for the specified time period. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in Explore pages.
+* Organizational and Office 365 data will update all data from this domain to be internal (IsInternal attribute) after the next data refresh.
+* Sources data will include this domain (previously external) in internal collaborator metrics and applicable coverage data will change based on this new domain classification.
 
 ### Privacy settings
 
