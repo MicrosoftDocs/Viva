@@ -6,7 +6,7 @@ title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/09/2019
+ms.date: 05/14/2019
 ms.topic: article
 localization_priority: priority 
 ms.prod: mya
@@ -24,6 +24,9 @@ Did you ever miss an important email or forget a commitment you made to your co-
 If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
 
 This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, and improve your overall work-life balance.
+
+> [!Note]
+> For more details about how your data is kept private and protected, see [Privacy FAQ](../overview/mya-faq.md#privacy).
 
 ## What you might see
 

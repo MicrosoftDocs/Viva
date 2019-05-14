@@ -6,7 +6,7 @@ title: MyAnalytics email digest
 description: MyAnalytics users receive a weekly email digest with key insights and suggestions
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/02/2019
+ms.date: 05/14/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -24,6 +24,9 @@ Each week will focus one of the following work patterns:
 * **Wellbeing** - See if you’re getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
 * **Network** - See who’s in your network and make sure you’re keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
+
+> [!Note]
+> For more details about how your data is kept private and protected, see [Privacy FAQ](../overview/mya-faq.md#privacy).
 
 The following is an example of an email digest about past work history.
 
