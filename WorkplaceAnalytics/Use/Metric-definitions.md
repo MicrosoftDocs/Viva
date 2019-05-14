@@ -82,7 +82,6 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Collaboration hours |Sum of meeting hours and email hours spent between the time investor and collaborator groups.|Group|Hour|No|
 |Email hours |Number of hours spent sending and reading emails between the time investor and collaborator groups.|Group|Hour|No|
 |Employees engaged |Number of people in the time investor's group who had two or more meaningful interactions in the last 28 days with the collaborator's group. This only counts licensed employees.​|Group|Count|No|
-|Group network size |Number of people in the collaborator group who had at least two meaningful interactions in the last 28 days with the time investor's group. This only counts both licensed and unlicensed employees in the collaborator group.|Group|Count|No|
 |LastTimeContacted|The last date and time that a person from the time investor's group emailed or attended a meeting with one or more people in the collaborator group for the specified date range. |Group|DateTime|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
 |Meeting hours |Number of meeting hours the time investor group has spent meeting with the collaborator group.|Group|Hour|No|
