@@ -77,7 +77,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/Workplace-Analytics/use/analyze-intro">
+        <a href="https://docs.microsoft.com/Workplace-Analytics/overview/get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
