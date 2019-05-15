@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-## MyAnalytics plans and environments
+# MyAnalytics plans and environments
 
 ## Availability of features
 
