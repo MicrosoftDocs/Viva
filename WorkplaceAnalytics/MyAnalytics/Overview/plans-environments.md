@@ -23,8 +23,8 @@ The following table lists which user experiences are available depending on what
 
 | Plan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Service plan | User experience available |
 | ----- | ----- |----- |
-| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Office 365 E3     <li>Office 365 E1     <li>Business Premium     <li>Business Essentials    <br> <br> | <br>  Insights by <br>MyAnalytics|  <br>[Insights Outlook Add-in](../use/add-in.md)   <br> |
-|<li>Microsoft 365 E5     <li>Office 365 Enterprise E5     <li>Office 365 A5     <li>Office 365 Nonprofit E5      <li>MyAnalytics add-on | <br> <br> MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | <br> <br> [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |
+| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Office 365 E3     <li>Office 365 E1     <li>Business Premium     <li>Business Essentials    <br> <br> |  Insights by <br>MyAnalytics| [Insights Outlook Add-in](../use/add-in.md)   <br> |
+|<li>Microsoft 365 E5     <li>Office 365 Enterprise E5     <li>Office 365 A5     <li>Office 365 Nonprofit E5      <li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |
 
 > [!Note]
 > To provide a great experience for users and customers, we are rolling out the features of MyAnalytics gradually, with the ultimate goal of achieving feature parity among all plans. We will announce each new feature release in the [Message center](https://docs.microsoft.com/en-us/office365/admin/manage/message-center?view=o365-worldwide).
