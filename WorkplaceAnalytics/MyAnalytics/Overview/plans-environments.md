@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics environment requirements
-description: MyAnalytics environment requirements
+title: MyAnalytics plans and environments
+description: MyAnalytics supported plans and environment requirements
 author: paul9955
 ms.author: v-pascha
 ms.date: 05/14/2019
@@ -14,6 +14,8 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
+
+## MyAnalytics plans and environments
 
 ## Availability of features
 
