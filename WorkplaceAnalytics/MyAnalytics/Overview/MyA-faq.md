@@ -4,9 +4,9 @@
 
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
-author: paul9955
+author: madehmer
 ms.author: v-midehm
-ms.date: 05/09/2019
+ms.date: 05/15/2019
 ms.topic: article
 localization_priority: once
 ms.prod: mya
@@ -29,13 +29,13 @@ Two later sections are grouped by role:
 
 ## Privacy
 
-### Who can see my data?
+### Q1 Who can see my data?
 
-Only you can see the statistics and insights that are generated from your data. Your manager or system administrator cannot see these statistics and insights. Your data might be used in aggregate, de-identified form to calculate email read rates, for example. 
+Only you can see the statistics and insights that are generated from your data. Your manager or system administrator cannot see these statistics and insights.  
  
-For more details, see [Privacy](Privacy-Guide.md).
+Note, your data might be used in an *aggregated, de-identified* form to calculate email read rates. For more details, see [Privacy](Privacy-Guide.md).
 
-### How does MyAnalytics protect my data?
+### Q2 How does MyAnalytics protect my data?
 
 MyAnalytics uses data from your Office 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams or in Skype for Business.
 
@@ -45,7 +45,7 @@ Every calculation that MyAnalytics performs is based on data that you, yourself,
 
 MyAnalytics does not have any tracking software running on your computer.
 
-### What data does MyAnalytics use and not use?
+### Q3 What data does MyAnalytics use and not use?
 
 #### MyAnalytics uses
 

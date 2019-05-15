@@ -28,10 +28,10 @@ MyAnalytics can help participants strengthen their work relationships, have more
 
 ## You and your users are in charge
 
-* As the admin, you control the initial configuration of how users start using MyAnalytics. See [MyAnalytics setup](../setup/mya-setup-checklist.md) for details.
+* As the admin, you control the initial configuration of how your users start using MyAnalytics. See [MyAnalytics setup](../setup/mya-setup-checklist.md) for details.
 * Users can opt in or out from the start. See [Can I opt out?](../use/dashboard-2.md#can-i-opt-out-of-myanalytics) for details.
-* Users can turn off email digests whenever they want. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
-* Users can turn the add-in off whenever they want. See [To disable the add-in](../setup/mya-disable-insights.md) for details.
+* Users can turn off email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
+* Users can turn the add-in off. See [To disable the add-in](../setup/mya-disable-insights.md) for details.
 
 ## Data privacy
 
