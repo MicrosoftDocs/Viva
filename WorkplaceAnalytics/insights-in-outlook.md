@@ -5,7 +5,7 @@ title: Insights Outlook add-in
 description: Learn ways to improve your productivity in Outlook
 author: paul9955
 ms.author: v-pascha
-ms.date: 05/09/2019
+ms.date: 05/14/2019
 localization_priority: priority 
 ms.prod: mya
 breadcrumb_path: 
@@ -53,11 +53,11 @@ The following answers some of the common questions asked about Insights by MyAna
 
 **Q2. What is the roll-out plan?**
 
-Beginning in late February 2019, users were assigned licenses with the MyAnalytics service enabled. The add-in functionality will begin rolling out in May 2019 to give you time to manage your settings. <!-- We will update this article after we have a precise date by which you can start to manage the MyAnalytics service for your licensed users. [Learn more](https://docs.microsoft.com/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell) about license management. -->
+Beginning in late February 2019, users were assigned licenses with the MyAnalytics service enabled. The add-in functionality rolled out in May 2019. 
 
 **Q3. When will the Outlook add-in become available?**
 
-Starting in May 2019.
+The Outlook add-in is now available. 
 
 **Q4. Will users receive the MyAnalytics welcome email and weekly email digest?**
 
