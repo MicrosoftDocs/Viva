@@ -24,7 +24,7 @@ Inline suggestions in Outlook are brief data and AI-driven notifications that ap
 Inline suggestions can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of inline suggestions](#types-of-inline-suggestions) lists some of the inline suggestions you might see in Outlook.
 
 > [!Note]
-> For more details about how your data is kept private and protected, see [Privacy FAQ](../overview/mya-faq.md#privacy).
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 ## How inline suggestions work
 

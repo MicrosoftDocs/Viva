@@ -31,9 +31,9 @@ Two later sections are grouped by role:
 
 ### Q1 Who can see my data?
 
-Only you can see the statistics and insights that are generated from your data. Your manager or system administrator cannot see these statistics and insights.  
- 
-Note, your data might be used in an *aggregated, de-identified* form to calculate email read rates. For more details, see [Privacy](Privacy-Guide.md).
+Only you can see your data. The statistics and insights that are generated from your data are for your eyes only. Your manager or system administrator cannot view your personal data.
+
+For more details, see the [MyAnalytics privacy guide](Privacy-Guide.md).
 
 ### Q2 How does MyAnalytics protect my data?
 
@@ -41,7 +41,7 @@ MyAnalytics uses data from your Office 365 mailbox, namely data about your email
 
 MyAnalytics stores your data in your mailbox itself, and gets the same protection that your email and calendar itself gets. This means your data is protected the same way your email and calendar information is kept private and protected.
 
-Every calculation that MyAnalytics performs is based on data that you, yourself, can get by gathering and examining metadata of your emails, meetings, calls, and chats, such as their start and end times and their subject lines. In other words, MyAnalytics automates what would otherwise be a painstaking task; these automatic calculations provide you with transparency into your workplace collaboration habits.
+Every calculation that MyAnalytics performs is based on data that you, yourself, can get by gathering and examining metadata of your email, meetings, calls, and instant messages, such as their start and end times and their subject lines. In other words, MyAnalytics automates what would otherwise be a painstaking task; these automatic calculations provide you with transparency into your workplace collaboration habits.
 
 MyAnalytics does not have any tracking software running on your computer.
 

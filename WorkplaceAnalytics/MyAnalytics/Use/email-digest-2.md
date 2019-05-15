@@ -26,7 +26,7 @@ Each week will focus one of the following work patterns:
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
 
 > [!Note]
-> For more details about how your data is kept private and protected, see [Privacy FAQ](../overview/mya-faq.md#privacy).
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 The following is an example of an email digest about past work history.
 

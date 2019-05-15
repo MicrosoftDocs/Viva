@@ -22,7 +22,7 @@ Thank you for trying the new MyAnalytics experience. Welcome to your new persona
 Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
 > [!Note]
-> For more details about how your data is kept private and protected, see [Privacy FAQ](../overview/mya-faq.md#privacy).
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 ## Home
 

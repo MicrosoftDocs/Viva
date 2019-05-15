@@ -24,7 +24,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, and improve your overall work-life balance.
 
 > [!Note]
-> For more details about how your data is kept private and protected, see [Privacy FAQ](../overview/mya-faq.md#privacy).
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 ## What you might see
 

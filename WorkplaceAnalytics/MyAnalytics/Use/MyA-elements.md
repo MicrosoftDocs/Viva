@@ -26,4 +26,4 @@ MyAnalytics presents you with insights and how you can use these insights to imp
 * [Inline suggestions](mya-notifications.md): Inline suggestions are notifications that appear in Microsoft Outlook that can help boost your productivity by displaying useful suggestions and tips around managing email and running meetings.
 
 > [!Note]
-> For more details about how your data is kept private and protected, see [Privacy FAQ](../overview/mya-faq.md#privacy).
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
