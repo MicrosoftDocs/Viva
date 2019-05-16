@@ -6,7 +6,7 @@ title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/17/2019
+ms.date: 05/16/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -40,13 +40,13 @@ For more information, see [Assign Workplace Analytics roles](https://docs.micros
 
 ## Sources
 
- * **Owners** – Workplace Analytics Admin, Analyst, and Analyst limited
+ * **Owners** – Workplace Analytics Admins, Analysts, and Analyst limiteds have full access to this page.
 
 The [Sources](../Use/data-sources.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
 
 ## Upload
 
- * **Owner** – Workplace Analytics Admin
+ * **Owner** – Workplace Analytics Admins have full access to this page.
 
 On the **Upload** > **Organizational data** page, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
@@ -58,7 +58,7 @@ Organizational data is contextual information about employees (for example, job 
 
 ## Analysis settings
 
- * **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access
+ * **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access.
 
 On the **Analysis settings** page, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
 
@@ -68,7 +68,7 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 ## Admin settings
 
- * **Owner** – The Workplace Analytics Admin owns Admin settings.
+ * **Owner** – The Workplace Analytics Admins have full access to this page.
 
 In **Admin settings**, you can configure [system defaults](#system-defaults) and [privacy settings](#privacy-settings).
 
@@ -79,7 +79,7 @@ In **Admin settings**, you can configure [system defaults](#system-defaults) and
 On the **System defaults** page, you can configure the following:
 
 * [Default time zone](#default-time-zone)
-* [Working days and hours](#working-day-and-hours)
+* [Working days and hours](#working-days-and-hours)
 * [Hourly rate](#hourly-rate)
 
 > [!Important]
@@ -117,7 +117,7 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 
 ### Privacy settings
 
-In **Admin settings** > **Privacy settings**, you can decide what data you want to exclude from analysis and what data you want visible in Queries and Explore. Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
+In **Admin settings** > **Privacy settings**, you can decide what data you want to exclude from analysis and what data you want visible in [Queries](../Tutorials/Query-basics.md) and [Explore charts](../Use/Explore-Metrics-Week-in-the-Life.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
 
 * [Set the minimum group size](#minimum-group-size)
 * [Hash subject lines](#hash-subject-lines)
