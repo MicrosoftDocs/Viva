@@ -6,7 +6,7 @@ title: Explore introduction
 description: Describes the analytical Explore pages in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/09/2019
+ms.date: 05/14/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -24,7 +24,7 @@ Explore in Workplace Analytics includes the following set of analytical pages as
 
 #### Page settings
 
-You can select **Settings and filters** to view **Page settings** to the right of the Explore pages. You can use these settings to change the date range, the way to group time investors (a grouping of employees that is used in queries), and the filter for active, inactive, or all employees.
+You can select **Settings and filters** to view **Page settings** on the right side of the Explore pages. You can use these settings to change the date range, the way to group time investors (a grouping of employees that is used in queries), and the filter for active, inactive, or all employees.
 
 By default, the Explore pages are filtered to show active employees only. Active employees are those who have sent at least one email during the set date range (the time period set for the query). For more details, see [Page settings and filters](../use/chart-types.md##page-settings-and-filters).
 
