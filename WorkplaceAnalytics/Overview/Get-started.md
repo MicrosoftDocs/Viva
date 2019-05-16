@@ -6,7 +6,7 @@ title: Workplace Analytics data analysis
 description: High-level overview of ways to use Workplace Analytics to analyze data 
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/09/2019
+ms.date: 05/14/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,13 +20,13 @@ Microsoft Workplace Analytics is a cloud-based service that provides rich, actio
 
 Combining the organizational data that your company chooses to provide with email and calendar metadata from Office 365, Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
-You can explore the data with the Workplace Analytics dashboards, and dive deeper into your company’s behavioral metrics by using custom queries and query templates that can be exported to enable offline analysis.
+You can explore the data with the Workplace Analytics dashboards, and dive deeper into your company’s behavioral metrics by using custom queries and query templates.
 
-Workplace Analytics gives you different ways to analyze and explore your data.
+Workplace Analytics provides the following ways to analyze and explore your data.
 
 **Home** gives a high-level overview of collaboration and links to popular features. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
 
-[**Analyze**](../use/analyze-intro.md) provides you the following data analysis tools:
+**Analyze** includes the following data analysis tools:
 
   * [**Explore**](../use/explore-intro.md) dashboards help you analyze organizational data trends that are summarized by week, per meeting, by network connections, for management and coaching, and for external collaboration.
 
@@ -36,7 +36,7 @@ Workplace Analytics gives you different ways to analyze and explore your data.
 
 [**Settings**](../use/settings.md) enable you to customize Workplace Analytics with the following:
 
- * [Sources](../use/settings.md#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
- * [Upload](../use/settings.md#upload) – Prepare and upload organizational and customer data.
- * [Analysis settings](../use/settings.md#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
- * [Admin settings](../use/settings.md#admin-settings) – Configure system defaults and privacy settings.
+  * [Sources](../use/settings.md#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
+  * [Upload](../use/settings.md#upload) – Prepare and upload organizational and customer data.
+  * [Analysis settings](../use/settings.md#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
+  * [Admin settings](../use/settings.md#admin-settings) – Configure system defaults and privacy settings.

@@ -2,7 +2,7 @@
 layout: HubPage
 title: Workplace Analytics
 description: Learn more about, set up, and use Workplace Analytics
-ms.date: 02/21/2019
+ms.date: 05/14/2019
 ms.topic: hub-page
 localization_priority: normal 
 ms.prod: wpa
@@ -77,7 +77,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/Workplace-Analytics/use/analyze-intro">
+        <a href="https://docs.microsoft.com/Workplace-Analytics/overview/get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
