@@ -3,15 +3,15 @@
 # required metadata
 
 title: Workplace Analytics privacy and data access
-description: This article discusses the privacy and data access controls available in Workplace Analytics.  
+description: Describes the privacy and data access controls available in Workplace Analytics 
 author: madehmer
 ms.author: madehmer
-ms.date: 12/17/2018
-ms.topic: get-started-article
+ms.date: 04/17/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
-# Workplace Analytics supported languages and guidelines
+# Workplace Analytics language support and guidelines
 
 The Workplace Analytics user interface is currently available in English, Japanese, and French. However, you can use Workplace Analytics with data in other languages. For the best experience, use the following guidelines:
 
@@ -32,9 +32,10 @@ In [Privacy settings](../use/settings.md#privacy-settings), when adding the subj
 
 ![Exclude terms from subject line](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
  
-We appreciate all user feedback. To report any language-related bugs, use the **Send feedback** button.
+We appreciate all your feedback. To report any language-related issues, use the **Send feedback** button.
 
 ### Related topics
+
 [Configure settings for Workplace Analytics](../use/settings.md)
 
 [Privacy settings considerations for Workplace Analytics](../Privacy/privacy-considerations.md)

@@ -18,7 +18,7 @@ ms.prod: wpa
    * No access to **Queries**. 
    * Only _read-only_ access to the **Analysis settings** page (on which meeting exclusion rules are defined).
 
-* **Administrator**: Has access to the **Settings** menu and through it the **Data sources**, **Upload**, and **Admin settings** pages. The Workplace Analytics admin has the responsibility to configure privacy settings and system defaults and to  prepare, upload, and verify organizational data. 
+* **Administrator**: Has access to the **Settings** menu and through it the **Data sources**, **Upload**, and **Admin settings** pages. The Workplace Analytics admin has the responsibility to configure privacy settings and system defaults and to prepare, upload, and verify organizational data.
 
   > [!NOTE] 
   > Workplace Analytics admins are not Office 365 admins. Therefore, unless they have *also* been granted the role of Office 365 administrator, they have access only to organizational data, not to Office 365 data.
