@@ -68,7 +68,7 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 ## Admin settings
 
- * **Owner** – The Workplace Analytics Admins have full access to this page.
+ * **Owner** – Workplace Analytics Admins have full access to this page.
 
 In **Admin settings**, you can configure [system defaults](#system-defaults) and [privacy settings](#privacy-settings).
 
