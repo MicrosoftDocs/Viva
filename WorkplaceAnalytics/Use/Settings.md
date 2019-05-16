@@ -68,7 +68,7 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 ## Admin settings
 
- * **Owner** – Workplace Analytics Admin
+ * **Owner** – The Workplace Analytics Admin owns Admin settings.
 
 In **Admin settings**, you can configure [system defaults](#system-defaults) and [privacy settings](#privacy-settings).
 
@@ -76,12 +76,11 @@ In **Admin settings**, you can configure [system defaults](#system-defaults) and
 
 ### System defaults
 
-On the **System defaults** page, you can configure the following employee options:
+On the **System defaults** page, you can configure the following:
 
 * [Default time zone](#default-time-zone)
 * [Working days and hours](#working-day-and-hours)
 * [Hourly rate](#hourly-rate)
-* [Domain settings](#domain-settings)
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
@@ -99,7 +98,7 @@ Workplace Analytics first attempts to read time zones from each user's mailbox. 
 
 #### Working days and hours
 
-Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox. Failing that, it uses the default settings for employees' working days and hours that you set on the **System Defaults** page.
+Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox first. Failing that, it uses the default settings for employees' working days and hours that you set in **System Defaults**.
 
 ##### To set default working days and hours
 
@@ -116,19 +115,9 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 1. For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
 
-#### Domain settings
-
-In **Select the external domains that you want to consider internal**, you can set one or more external domains as *internal* to include in your organizational data analysis. For companies that have more than one domain, you can use this setting to analyze organizational data from two or more domains as a single company or organization.
-
-This setting will change all data relating to the specified domain to be internal to your organization, such as the following:
-
-* Explore charts and metrics will show the domain as internal retroactively for the specified time period. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in Explore pages.
-* Organizational and Office 365 data will update all data from this domain to be internal (IsInternal attribute) after the next data refresh.
-* Sources data will include this domain (previously external) in internal collaborator metrics and applicable coverage data will change based on this new domain classification.
-
 ### Privacy settings
 
-On the **Admin settings** > **Privacy settings** page, you can decide what data you want to exclude from analysis and what data you want to be visible in Queries and Explore dashboards. Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
+In **Admin settings** > **Privacy settings**, you can decide what data you want to exclude from analysis and what data you want visible in Queries and Explore. Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
 
 * [Set the minimum group size](#minimum-group-size)
 * [Hash subject lines](#hash-subject-lines)
