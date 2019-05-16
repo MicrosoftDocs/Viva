@@ -217,7 +217,7 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 
 #### To configure privacy settings
 
-1. In **Privacy settings**, for **Minimum group size to display in visual dashboards**, set the minimum group size. You cannot use a value lower than 5.
+1. In **Admin settings** > **Privacy settings**, for **Minimum group size to display in visual dashboards**, set the minimum group size. You cannot use a value lower than 5.
 
 > [!Note]
 > The following exclusion settings are optional and only change query results. These settings do not change the way a query functions.
