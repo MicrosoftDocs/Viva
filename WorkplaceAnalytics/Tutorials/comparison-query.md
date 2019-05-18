@@ -156,7 +156,7 @@ For more information, see [View, download, and export query results](../use/view
 
 [Understand and interpret query output](../use/csv-query-output-file.md)
 
-[Metric descriptions](../use/metric-definitions)
+[Metric descriptions](../use/metric-definitions.md)
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md) 
 
