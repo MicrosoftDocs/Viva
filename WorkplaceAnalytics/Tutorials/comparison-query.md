@@ -62,7 +62,7 @@ The following sections provide information that can help you as you create a com
 
 ### Select employees
 
-The purpose of a comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization, perhaps others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you’re comparing them with&mdash;in the **Define comparison groups** step.)
+The purpose of a comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization, perhaps others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you're comparing them with&mdash;in the **Define comparison groups** step.)
 
 To select the people you’re querying about, filter them by their HR attributes, such as the following:
 
