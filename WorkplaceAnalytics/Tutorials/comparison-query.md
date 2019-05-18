@@ -50,9 +50,9 @@ Although comparison queries focus on people, they produce different information 
 
 11.	In the **Define comparison groups** section, select the employees whom you want to compare with your subject population (the people you selected in the preceding step). For more information, see [Define comparison groups](#define-comparison-groups). 
 
-12.	In the **Select metrics** section, select what it is about the employees that you want to compare with the groups. For more information, see [Select metrics](#select-metrics). 
+12.	In the **Select metrics** section, select the aspect of employee behavior that you want to compare with peer groups. For more information, see [Select metrics](#select-metrics). 
 
-13.	To run the query, select **Run** at the top right of the page. A message indicates that the query is running. The **Queries / Results** page appears. The query you started is shown with a status of “running”:
+13.	To run the query, select **Run** at the top right of the page. A message indicates that the query is running. The **Queries / Results** page appears and indicates that the query you started has a status of "running":
 
     ![Query is running](../images/wpa/tutorials/query-running-2.png) 
  
@@ -62,11 +62,9 @@ The following sections provide information that can help you as you create a com
 
 ### Select employees
 
-The idea of a comparison query is to bring aspects of particular employees’ workplace behavior into focus by comparing them with others in the organization, perhaps others in one of their peer groups. In the **Select employees** step, you select these people. 
+The purpose of a comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization, perhaps others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you’re comparing them with&mdash;in the **Define comparison groups** step.)
 
-(You will also select the other people&mdash;the ones you’re comparing them with&mdash;in the **Define comparison groups** step.)
-
-To select the people you’re querying about, you filter them by their HR attributes, such as the following:
+To select the people you’re querying about, filter them by their HR attributes, such as the following:
 
  * <u>Domain:</u> Select all the people whose email addresses have a particular domain 
  * <u>FunctionType:</u> Select, for example, all engineers or all HR employees
