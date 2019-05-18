@@ -148,7 +148,7 @@ Here are a few things we know about this comparison (the results on these 13 lin
  * The **Date** value states the first day of the week from which data was drawn. 
  * Each of these thirteen lines represents one aggregation period&mdash;in this case, one week, because we selected "week" in the **Group by** control while defining the query. 
 
-The person sent 140 emails during the week, while their peer group sent 126, on average. The difference was 14. However, during the following week (which began on February 3), the person sent 109 and their group sent on average 120, so Emails_sent_Difference shows that they sent 11 fewer emails than their peer group. 
+The person sent 140 emails during the week that started in January 27, while their peer group sent 126, on average. The difference was 14. However, during the following week (which began on February 3), the person sent 109 and their group sent on average 120, so Emails_sent_Difference shows that they sent 11 fewer emails than their peer group. 
 
 For more information, see [View, download, and export query results](../use/view-download-and-export-query-results.md). 
 
