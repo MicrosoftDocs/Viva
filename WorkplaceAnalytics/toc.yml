@@ -45,6 +45,8 @@
               href: ~/setup/upload-organizational-data-1st.md       
             - name: Subsequent uploads
               href: ~/setup/upload-organizational-data.md 
+        - name: Upload CRM data
+          href: ~/setup/crm-data-upload.md
         - name: Meeting exclusion rules    
           items:             
             - name: Introduction

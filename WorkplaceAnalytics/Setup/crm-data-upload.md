@@ -2,12 +2,11 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics 
+ms.date: 05/20/2019
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/20/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
