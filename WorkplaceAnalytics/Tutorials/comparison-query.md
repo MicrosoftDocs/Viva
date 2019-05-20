@@ -138,7 +138,7 @@ After the query finishes running, its row in the **Queries / Results** page show
 
 In this example results file, the first 13 lines of data report comparison results for the first individual of interest, whose PersonId ends in "1BFF." 
 
-![Results file detail](../images/wpa/tutorials/results-file-zoom.png) 
+![Results file detail](../images/wpa/tutorials/results-file-zoom_70.png) 
  
 Here are a few things we know about this comparison (the results on these 13 lines):
 
