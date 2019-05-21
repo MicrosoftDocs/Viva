@@ -6,7 +6,7 @@ title: Person-to-group queries in Workplace Analytics
 description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/08/2019
+ms.date: 05/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -41,7 +41,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 3. For **Group by**, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those person-to-group interactions that took place during this date range.
 5. Select a set of meeting exclusions to ignore (filter out) specific meetings for this query.
-6. In the **Their collaborator**s section, select one or more metrics that measure interactions between the time investors and collaborators, including:
+6. In the **Their collaborators** section, select one or more metrics that measure interactions between the time investors and collaborators, including:
 
     * **Collaboration hours** gives you the total amount of time that an individual spent with collaborating groups. This includes both time spent working in emails and time spent in meetings.
 
@@ -61,17 +61,21 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
    ![Group and filter time investors](../Images/WpA/tutorials/p2g-time-investors.png)
 
-9.  In the **Their collaborators** section, you can add filters to exclude specific collaborators, such as layer, Domain, FunctionType, or Organization. These are the same as for time investors.
+9. If you have CRM data (Customers) available in the **Time investors** section, you can optionally filter the results to include specific time investors from both your CRM data and Organizational data in the query. For example, the following graphic shows an employee filter of **FunctionType** > Equals > **Sales** *and* customer filters of **IsAccountOwner** or **IsSeller** > Equals > **True**, which will include query results for employee time investors in Sales and customer time investors in one of these two CRM roles.
+
+   ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
+
+10. In the **Their collaborators** section, you can add filters to exclude specific collaborators, such as layer, Domain, FunctionType, or Organization. These are the same as for time investors.
 
    ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
 
-10. At this point, the collaborators are not grouped, therefore the query results won't show which collaborators interacted with the time investors. To group the collaborators, answer the question *How do you want to group the people who collaborated with the time investors?* to show which groups interacted with them. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
+11. At this point, the collaborators are not grouped, therefore the query results won't show which collaborators interacted with the time investors. To group the collaborators, answer the question *How do you want to group the people who collaborated with the time investors?* to show which groups interacted with them. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
 
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
-11. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear the selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
-12. Select **Run** at the top right to run the query.
-13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+12. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear the selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
+13. Select **Run** at the top right to run the query.
+14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ## Related topics
 

@@ -6,7 +6,7 @@ title: Person queries in Workplace Analytics
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/25/2019
+ms.date: 05/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -86,6 +86,10 @@ You can then select other filters to exclude certain rows from the output file b
 When you add a filter, you'll see the number of people included in the filter group and the total number of measured employees it's based on. This will help you decide if you've set the correct filters for the query before running it.
 
 ![Filter preview](../Images/WpA/Tutorials/filter-preview.png)
+
+If your organization has [uploaded CRM data](../setup/crm-data-upload.md) into Workplace Analytics, you'll see an additional set of customer filters based on your CRM data. For example, the following graphic shows AccountPotential as the selected Customer filter.
+
+![Customer filter](../Images/WpA/Tutorials/customer-filter.png)
 
 ## Select what organizational data to include
 
