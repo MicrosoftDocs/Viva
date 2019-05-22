@@ -13,47 +13,52 @@ ms.prod: wpa
 ---
 # Queries with CRM data
 
-If your organization has [uploaded CRM data](../setup/crm-data-upload.md) into Workplace Analytics, you'll see an additional set of customer filters based on your CRM data. For example, the following graphic shows AccountPotential as the selected Customer filter.
+After you've successfully uploaded and processed your company’s Customer Relationship Management (CRM) data in Workplace Analytics, you can use person-to-group and group-to-group queries to do combined organizational and CRM data analysis, such as:
+
+* Analyze the time your sales or other teams spent with accounts and the network size for accounts as defined in your CRM.(Today you currently can get time spent and network size by using specific domains.)
+* Analyze collaboration data with CRM contacts and customize the metrics by any CRM attribute you choose to upload, such as contact level, contact function, contact location, contact first and last name, and so on.
+* Analyze collaboration data with CRM accounts and customize the metrics by any CRM attribute you choose to upload, such as account tier, account geography, account revenue potential, and account name.
+
 
 ![Customer filter](../Images/WpA/Tutorials/customer-filter.png)
 
 ## Person-to-group queries
 
-Person-to-group queries in Workplace Analytics help you understand how an individual invests their time across the rest of the organization and beyond. The query results list individuals ("time investors") by their PersonIDs (de-identified), one or more groups that you define in the query ("their collaborators"), and the amount of time that the time investor spends with the groups that you define.
+Person-to-group queries in Workplace Analytics help you understand how an individual invests their time across the rest of the organization and with your CRM contacts, accounts, and sellers. The query results list individuals ("time investors") by their PersonIDs (de-identified), one or more groups that you define in the query ("their collaborators"), and the amount of time that the time investor spends with the groups that you define. 
 
-If you have CRM data available in the **Time investors** section, you can optionally filter the results to include specific time investors from both your CRM data and Organizational data in the query. For example, the following graphic shows an employee filter of **FunctionType** > Equals > **Sales** *and* customer filters of **IsAccountOwner** or **IsSeller** > Equals > **True**, which will include query results for employee time investors in Sales and customer time investors in one of these two CRM roles.
-
-   ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
-
-    If CRM data is available, you'll also see customer attributes you can select to group collaborators by, including Accounts and AccountName.
-
-9. In the **Their collaborators** section, you can add customer filters to exclude specific collaborators, such as AccountName, AccountType, or ContactDepartment. These are the same as for time investors.
+To learn more about time allocation, general information about, and step-by-step instructions on how to create these queries, see [Person-to-group queries](../Tutorials/person-to-group-queries.md).
 
 ## Group-to-group queries
 
-Group-to-group queries in Workplace Analytics give results that help you understand how a team invested their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by the organizational attributes and if available, the CRM attributes that you choose, along with how much time people in the first group (the "time investors") allocated to other groups ("collaborators").
+Group-to-group queries in Workplace Analytics give results that help you understand how a team invested their time across the rest of the organization and with CRM accounts, contacts, and sellers. The query results list pairs of groups, as defined by the organizational and CRM attributes that you choose, along with how much time people in the first group (the "time investors") allocated to other groups ("collaborators").
 
-For example, if CRM data is available, you could analyze how much time your sales team (AccountOwners and Sellers) spent with customers (CRM AccountType = Customer) as compared to time spent on other (non-customer) collaboration.
+For example, if CRM data is available, you could analyze how much time your sales team (AccountOwners and Sellers) spent with customers (CRM AccountType = Customer) as compared to time spent on other (non-customer) collaboration, as shown in the following graphic.
 
+To learn general information about and step-by-step instructions on how to create these queries, see [Group-to-group queries](../Tutorials/group-to-group-queries.md).
 
-7. In the **Time investors** section, answer the next question _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths. If CRM data is available, you can also group time investors by customer attributes, such as AccountOwner or Seller.
+## Data analysis examples
 
-   ![Group and filter time investors](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
+After you have successfully [uploaded and processed CRM data](../setup/crm-data-upload.md) in Workplace Analytics, you'll see the following additional options when creating person-to-group or group-to-group queries. 
 
-Optionally, you can remove some of the time investors from this analysis by applying one or more filters under the question _Do you want to limit the analysis to only certain time investors?_
+* In the **Time investors** section, you can optionally filter the results to include specific time investors from both your CRM data and Organizational (HR) data.
 
-9. In the **Their collaborators** section, you can add filters to exclude collaborators, such as Domain, FunctionType, or Organization, which are the same as for the time investors section. If CRM data is available, you can also group the collaborators by customer account and contact attributes, such as AccountName or ContactAccountID.
+* If you mapped your CRM seller and account data to account owners during the upload process, you can filter sellers or sales teams based on account attributes for the accounts they are assigned in the **Time investors** section.
 
-   At this point, the collaborators are ungrouped, which means the query results will not show you which collaborators interacted with the time investors.
+  For example, the following graphic shows an employee filter of **FunctionType** > Equals > **Sales** *and* customer filters of **IsAccountOwner** or **IsSeller** > Equals > **True**, which will include query results for employee time investors in Sales and customer time investors in one of these two CRM roles.
 
- ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+   ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
 
-10. Answer the question _How do you want to group the people who collaborated with the time investors?_ to group the collaborators. This will show you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
+* In the **Their collaborators** section, you can add customer attributes to exclude groups or group collaborators by specific attributes, such as Accounts or AccountName. These are the same as for time investors.
 
-    ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
+  For example, the following graphic shows a customer filter of **AccountAnnualRevenue** > Less than > **1000**, which will exclude customers with less than that amount of annual revenue from the query results.
 
-11. Select **Run** at the top right to run the query.
-12. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+   ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
+
+## Sample query output with CRM data
+
+The following graphic shows example CRM data that you might see in the output .csv file.
+
+   ![Query output with CRM data](../Images/WpA/tutorials/crm-query-output.png)
 
 ## Related topics
 
@@ -64,4 +69,3 @@ Optionally, you can remove some of the time investors from this analysis by appl
 [Metric descriptions](../Use/Metric-definitions.md)
 
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
-
