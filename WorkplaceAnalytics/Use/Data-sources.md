@@ -7,7 +7,7 @@ description: An overview of Sources in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
 ms.date: 05/22/2019
-ms.topic: conceptual
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
@@ -84,6 +84,31 @@ The following are examples of where you might encounter inconsistency in volume 
 * **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it may be due to archiving. Using this view, you can select a time period where the mail volume is stable.
 
 * **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it may be due to recurring meetings having been removed from calendars.
+
+You can select one of the data titles, such as accounts or contacts, to view a list of attributes for it. For example, the following shows a list of attributes for contacts.
+
+![View Organizational data attributes for regions](../images/wpa/Use/)
+
+Similar to the Organizational data page, the CRM data attributes list includes the following.
+
+* **Data upload date and time**: Shows when the data was last uploaded and processed, which is at the top of the list.
+* **Attribute**: Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
+* **Employees with attribute**: Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
+* **Coverage**: Shows the percentage of attributes that have non-blank values. For example in following graphic, it shows the percentage of coverage for measured employees that have non-blank values for the attributes shown.
+* **Unique values**: The count of the unique attribute values included in the data.
+
+![View Organizational data attributes for organizations](../images/wpa/Use/)
+
+>[!Note]
+> You can select a column name to sort the list by it in descending or ascending order.
+
+To view a list of the top 100 values for an attribute, select the attribute's name from the list. For example, the following graphic shows the top values for **AccountId** in an accounts data file.
+
+* To view the list for a different attribute, select it from the list at the top of the table.
+* You can select a column title to sort the list by that column in descending or ascending order.
+* Type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
+
+![View Organizational data attribute values for regions](../images/wpa/Use/crm-account-attribute-values.png)
 
 For more information about what data is needed for metric calculations, see:
 
