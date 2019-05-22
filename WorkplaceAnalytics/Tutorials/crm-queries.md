@@ -41,7 +41,7 @@ After you have successfully [uploaded and processed CRM data](../setup/crm-data-
 
 * In the **Time investors** section, you can optionally filter the results to include specific time investors from both your CRM data and Organizational (HR) data.
 
-* If you mapped your CRM seller and account data to account owners during the upload process, you can filter sellers or sales teams based on account attributes for the accounts they are assigned in the **Time investors** section.
+* If you mapped your CRM seller and account data to account owners [during the upload process](../setup/crm-data-upload.md), you can filter sellers or sales teams based on account attributes for the accounts they are assigned in the **Time investors** section.
 
   For example, the following graphic shows an employee filter of **FunctionType** > Equals > **Sales** *and* customer filters of **IsAccountOwner** or **IsSeller** > Equals > **True**, which will include query results for employee time investors in Sales and customer time investors in one of these two CRM roles.
 
@@ -106,6 +106,8 @@ To do this, you can create a query as shown in the following graphic to analyze 
 [Person-to-group queries](../Tutorials/person-to-group-queries.md)
 
 [Group-to-group queries](../Tutorials/group-to-group-queries.md)
+
+[CRM data upload](../setup/crm-data-upload.md)
 
 [Metric descriptions](../Use/Metric-definitions.md)
 
