@@ -41,7 +41,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 3. For **Group by**, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those person-to-group interactions that took place during this date range.
 5. Select a set of meeting exclusions to ignore (filter out) specific meetings for this query.
-6. In the **Their collaborators** section, select one or more metrics that measure interactions between the time investors and collaborators, including:
+6. In the **Select metrics** section, select one or more metrics that measure interactions between the time investors and collaborators, including:
 
     * **Collaboration hours** gives you the total amount of time that an individual spent with collaborating groups. This includes both time spent working in emails and time spent in meetings.
 
@@ -61,17 +61,21 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
    ![Group and filter time investors](../Images/WpA/tutorials/p2g-time-investors.png)
 
-9. If you have CRM data (Customers) available in the **Time investors** section, you can optionally filter the results to include specific time investors from both your CRM data and Organizational data in the query. For example, the following graphic shows an employee filter of **FunctionType** > Equals > **Sales** *and* customer filters of **IsAccountOwner** or **IsSeller** > Equals > **True**, which will include query results for employee time investors in Sales and customer time investors in one of these two CRM roles.
+9. If you have CRM data available in the **Time investors** section, you can optionally filter the results to include specific time investors from both your CRM data and Organizational data in the query. For example, the following graphic shows an employee filter of **FunctionType** > Equals > **Sales** *and* customer filters of **IsAccountOwner** or **IsSeller** > Equals > **True**, which will include query results for employee time investors in Sales and customer time investors in one of these two CRM roles.
 
    ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
 
-10. In the **Their collaborators** section, you can add filters to exclude specific collaborators, such as layer, Domain, FunctionType, or Organization. These are the same as for time investors.
+10. In the **Their collaborators** section, you can add employee filters to exclude specific collaborators, such as by Domain, FunctionType, or Organization.
 
-   ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+       ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+
+    If CRM data is available, you'll also see customer filters to exclude specific collaborators, such as AccountName, AccountType, or ContactDepartment. These are the same as for time investors.
 
 11. At this point, the collaborators are not grouped, therefore the query results won't show which collaborators interacted with the time investors. To group the collaborators, answer the question *How do you want to group the people who collaborated with the time investors?* to show which groups interacted with them. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
 
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
+
+    If CRM data is available, you'll also see customer attributes you can select to group collaborators by, including Accounts and AccountName.
 
 12. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear the selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 13. Select **Run** at the top right to run the query.
@@ -79,6 +83,6 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 ## Related topics
 
-[Metric descriptions](../Use/Metric-definitions.md)
-[Understand and interpret query output](../Use/csv-query-output-file.md)
-[View, download, and export query results](../Use/View-download-and-export-query-results.md)
+* [Metric descriptions](../Use/Metric-definitions.md)
+* [Understand and interpret query output](../Use/csv-query-output-file.md)
+* [View, download, and export query results](../Use/View-download-and-export-query-results.md)
