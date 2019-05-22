@@ -12,57 +12,72 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Data sources
+# Sources
 
-**Data sources** contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
+**Sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365, organizational data, and if applicable, Customer Relationship Management (CRM) data is loaded and ready to use. Sources includes the following:
 
-![Data sources](../images/WpA/Use/data-sources.png)
+* [Office 365 data](#office-365-data)
+* [Organizational data](#organizational-data)
+* [CRM data](#crm-data)
 
-[!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
+![Sources](../images/WpA/Use/sources-o365.png)
 
-The Data sources page consists of the following sections:
+[!INCLUDE [To open Sources in Workplace Analytics](../includes/to-open-wpa-sources.md)]
 
-* **Data sources summary** is an overview of the source mailboxes and collaborators that make up the data set.
-* **Office 365 data summary** shows the overall trend of email and meeting hours and volume in the data set.
-* **Organizational data summary** provides information about the Organizational Attributes that are in the data set.
+## Office 365 data
 
-Using Data sources metrics, Workplace Analytics administrators and data analysts can:
+As an analyst, you can use this page to confirm that your Office 365 data is up-to-date. This page includes the following types of data.
 
-* Get a high-level view of the data that is available for analysis.
-* Verify that the organizational data they need for their specific analysis is available, and work with internal suppliers of the data (HR information system administrators, line of business [LOB] system administrators, and data analysts) to verify the necessary data has been loaded as expected.
-* Verify that the data is of sufficient quality to analyze the business problem.
+### Measured employees
 
-## Data sources summary
+The number of measured employees who your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. 
 
-The Data sources summary provides the following information about your data:
+This number can help determine whether you have good data coverage for analysis. 
 
-* The number of **measured employees** for whom your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics collects meeting and email data for these people. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. This number can help determine whether you have a good representation of the organization.  
+  >[!Note]
+  > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
 
-* The number of people not part of your measured population (both internal and external) with whom the measured employees collaborated.
+### Internal collaborators
 
-* The date range of the Office 365 data. Use this range to verify if you have data for the period you want to analyze.
+This is the number of unmeasured employees included in the latest upload of Office 365 data with whom the measured employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
 
-* The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly.
+### External collaborators
 
-![Data sources summary](../images/wpa/Use/Data-sources-summary.png)
+This is the number of people outside your company or who are external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
 
-For more information about what data is needed to compute metrics, see:
+### Average weekly collaboration chart
 
-[Prepare organizational data](../setup/Prepare-organizational-data.md)
+This chart shows the average weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
 
-[Metric definitions](../Use/Metric-definitions.md)
+If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 
-[Glossary](../Use/Glossary.md)
+## Organizational data
 
-## Office 365 data summary
+Organizational data provides details about the HR or other attributes from your most recent upload. The population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute).
 
-Office 365 data summary provides a view that you can use to evaluate meeting and email collaboration data levels over a given time period. It provides a view of average weekly meeting and email hours, sent emails, and meetings attended over time. The Last refreshed date shows when data was most recently processed.
+The coverage percentage for the specified date and time frame includes all measured employees who are in the filter group and have a non-blank value for the specific attribute.
+
+![Organizational data sources page](../images/wpa/Use/organizational-data-summary.png)
+
+The **Last refreshed** date shows when data was last uploaded and processed.
+
+### Values
+
+A list of the attributes provided by your organization. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization with these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.
+
+### Unique values
+
+The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
+
+### Coverage
+
+The percentage of measured employees who have a value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
 
 Analysts can use these views to look for time periods that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-![Data sources summary](../images/wpa/Use/o365-data.png)
+![Office 365 data sources page](../images/wpa/Use/o365-data.png)
 
-The following are examples of where you might encounter inconsistency in email or meeting volume.
+The following are examples of where you might encounter inconsistency in volume for email, meetings, calls, and instant messages.
 
 * **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
 
@@ -70,26 +85,56 @@ The following are examples of where you might encounter inconsistency in email o
 
 * **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it may be due to recurring meetings having been removed from calendars.
 
-## Organizational data summary
+For more information about what data is needed for metric calculations, see:
 
-Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute).
+* [Prepare organizational data](../setup/Prepare-organizational-data.md)
 
-![Data sources summary](../images/wpa/Use/organizational-data-summary.png)
+* [Metric definitions](../Use/Metric-definitions.md)
 
-The **Last refreshed** date shows when data was last processed.
+For more information about what data is needed for metric calculations, see:
 
-### Values
+* [Prepare organizational data](../setup/Prepare-organizational-data.md)
 
-A list of the attributes provided by your organization. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by using the attributes, so being familiar with these attributes will help give insight into the types of queries you may want to create for analysis.
+* [Metric definitions](../Use/Metric-definitions.md)
 
-### Measured employees
+## CRM data
 
-The number of employees for whom your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics collects meeting and email data about these people. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics.
+This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, sales opportunities, and seller assignments that are available for data analysis.
 
-### Coverage
+By combining this data in Workplace Analytics, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team?
 
-The percentage of measured employees who have a value specified for the given attribute. If coverage levels are low, it will be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
+The **Join coverage** section describes the percent overlap between the uploaded list of accounts and the other uploaded lists of important CRM data, such as contacts and seller assignments, as shown in the following graphic. The higher the percentage overlap the more accurate analysis you can accomplish.
 
-### Unique values
+![CRM data sources page](../images/wpa/Use/crm-data-sources.png)
 
-The count of the unique attribute values included in the data. For example, if the attribute Region contains North, South, Central, East, West and Southwest, it’s unique values count is six.
+For join coverage based on the latest data uploads, you might see one of the following important notices, as shown in the following graphic.
+
+* **Data is not associated**: This occurs when one or more attributes cannot be associated between the two sets of data for join coverage. You can select to download a .csv file and view the contacts or opportunities that can't be associated with the corresponding accounts in the accounts table.
+* **Data has not been processed**: This occurs when an upload hasn't been done yet, the data is currently being processed, or something failed during the validation or data processing phase. You can select the link to the Upload page and view the current status of the upload, correct any issues, or upload new data. You can also ignore this warning, if you don't plan to upload that specific data file.
+
+![CRM join notices](../images/wpa/Use/crm-join-notices.png)
+
+You can select one of the data titles, such as accounts or contacts, to view a list of attributes for it. For example, the following shows a list of attributes for contacts.
+
+![View CRM attributes for contacts](../images/wpa/Use/crm-contact-attributes.png)
+
+Similar to the Organizational data page, the CRM data attributes list includes the following.
+
+* **Data upload date and time**: Shows when the data was last uploaded and processed, which is at the top of the list.
+* **Attribute**: Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
+* **Employees with attribute**: Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
+* **Coverage**: Shows the percentage of attributes that have non-blank values. For example in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the AccountAnnualRevenue attribute.
+* **Unique values**: The count of the unique attribute values included in the data.
+
+![View CRM attributes for accounts](../images/wpa/Use/crm-account-attributes.png)
+
+>[!Note]
+> You can select a column name to sort the list by it in descending or ascending order.
+
+To view a list of the top 100 values for an attribute, select the attribute's name from the list. For example, the following graphic shows the top values for **AccountId** in an accounts data file.
+
+* To view the list for a different attribute, select it from the list at the top of the table.
+* You can select a column title to sort the list by that column in descending or ascending order.
+* Type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
+
+![View CRM attribute values for accounts](../images/wpa/Use/crm-account-attribute-values.png)
