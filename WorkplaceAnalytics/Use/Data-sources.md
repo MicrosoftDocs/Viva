@@ -30,9 +30,9 @@ As an analyst, you can use this page to confirm that your Office 365 data is up-
 
 ### Measured employees
 
-The number of measured employees who your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. 
+The number of measured employees who your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics.
 
-This number can help determine whether you have good data coverage for analysis. 
+This number can help determine whether you have good data coverage for analysis.
 
   >[!Note]
   > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
@@ -75,7 +75,7 @@ The percentage of measured employees who have a value for the specified attribut
 
 Analysts can use these views to look for time periods that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-![Office 365 data sources page](../images/wpa/Use/o365-data.png)
+![Office 365 data sources page](../images/wpa/Use/sources-o365-data-summary.png)
 
 The following are examples of where you might encounter inconsistency in volume for email, meetings, calls, and instant messages.
 
