@@ -46,7 +46,7 @@ The Data sources summary provides the following information about your data:
 
 ![Data sources summary](../images/wpa/Use/Data-sources-summary.png)
 
-For more information about what data is needed to compute metrics, see these topics:
+For more information about what data is needed to compute metrics, see:
 
 [Prepare organizational data](../setup/Prepare-organizational-data.md)
 
