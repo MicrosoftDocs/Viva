@@ -6,7 +6,7 @@ title: Group-to-group queries in Workplace Analytics
 description: Group-to-group queries show how a team invested their time across the rest of the organization and beyond with Workplace Analytics  
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/21/2019
+ms.date: 05/22/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Group-to-group queries
 
-Group-to-group queries in Workplace Analytics give results that help you understand how a team invested their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by the organizational attributes and if available, the CRM attributes that you choose, along with how much time people in the first group (the "time investors") allocated to other groups ("collaborators").
+Group-to-group queries in Workplace Analytics give results that help you understand how a team invested their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by the organizational attributes, along with how much time people in the first group (the "time investors") allocated to other groups ("collaborators").
 
 ![Group A allocates time to Group B](../Images/WpA/tutorials/Group-query1.png)
 
@@ -53,15 +53,15 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    To learn more about metrics for group-to-group queries, see [Group-to-group metrics](../use/metric-definitions.md#group-to-group-metrics).
 
-   The following sections enable you to define how to group the time-investors and the collaborators. For example, to analyze how senior leaders allocated time across different organizations, you'd set the time investors' group to "level" and the collaborators' group to "organization." Or if CRM data is available, you could analyze how much time your sales team (AccountOwners and Sellers) spent with customers (CRM AccountType = Customer) as compared to time spent on other (non-customer) collaboration.
+   The following sections enable you to define how to group the time-investors and the collaborators. For example, to analyze how senior leaders allocated time across different organizations, you'd set the time investors' group to "level" and the collaborators' group to "organization." 
 
-7. In the **Time investors** section, answer the next question _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths. If CRM data is available, you can also group time investors by customer attributes, such as AccountOwner or Seller.
+7. In the **Time investors** section, answer the next question _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths. 
 
    ![Group and filter time investors](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
 
 8. Optionally, you can remove some of the time investors from this analysis by applying one or more filters under the question _Do you want to limit the analysis to only certain time investors?_
 
-9. In the **Their collaborators** section, you can add filters to exclude collaborators, such as Domain, FunctionType, or Organization, which are the same as for the time investors section. If CRM data is available, you can also group the collaborators by customer account and contact attributes, such as AccountName or ContactAccountID.
+9. In the **Their collaborators** section, you can add filters to exclude collaborators, such as Domain, FunctionType, or Organization, which are the same as for the time investors section.
 
    At this point, the collaborators are ungrouped, which means the query results will not show you which collaborators interacted with the time investors.
 

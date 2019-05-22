@@ -87,10 +87,6 @@ When you add a filter, you'll see the number of people included in the filter gr
 
 ![Filter preview](../Images/WpA/Tutorials/filter-preview.png)
 
-If your organization has [uploaded CRM data](../setup/crm-data-upload.md) into Workplace Analytics, you'll see an additional set of customer filters based on your CRM data. For example, the following graphic shows AccountPotential as the selected Customer filter.
-
-![Customer filter](../Images/WpA/Tutorials/customer-filter.png)
-
 ## Select what organizational data to include
 
 When you run a person query in Workplace Analytics, the output (.csv) file can be larger than necessary, with more organizational data columns than you need. Use the **Organizational data** section to select which data columns to include in the output file, which:
@@ -165,3 +161,5 @@ The following are the columns included in the query results for the custom query
 [Metric descriptions](../Use/Metric-definitions.md)
 
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
+
+[Queries for CRM data](../Tutorials/crm-queries.md)
