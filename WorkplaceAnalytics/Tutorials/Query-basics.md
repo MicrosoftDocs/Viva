@@ -15,7 +15,7 @@ ms.prod: wpa
 
 You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
-![Ways to query data](../Images/WpA/Use/Ways-to-query-data-Create-queries.png)
+![Ways to query data](../Images/WpA/Use/ways-to-query-data.png)
 
 With these queries, you can:
 

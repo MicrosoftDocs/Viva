@@ -26,7 +26,7 @@ Insights does not display read information about every email that you send. Plea
 
 #### Requirement: qualifying messages
 
-Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has not opted out of Insights.
+Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender, has a cloud mailbox, and has not opted out of Insights.
 
 #### Other exceptions
 
@@ -35,15 +35,15 @@ Insights does not report about email messages in the following categories:
  * Email that was sent from a shared mailbox
  * Email that was sent to a mailbox that was configured for email forwarding. (Recipients of forwarded email are not included in the count of qualifying recipients.)
  * Email in which the individual recipient count on each of the To: and Cc: lines is less than 5 AND the Bcc: individual recipient count is also less than 5.
- * Email that was sent more than 14 days ago. 
+ * Email that was sent more than 14 days ago.
 
 #### Bcc: precision
 
 When you send email that has recipients on the Bcc: line, the precision of the email-read statistics is lowered.
 
-#### Read activity
+#### Open rate
 
-The Insights add-in reports the "read activity" of qualifying email that you have sent. The following table describes how Insights reports the read activity of a particular email:  
+The Insights add-in reports the open rate of qualifying emails that you have sent. The following table describes how Insights reports the open rate of a particular email:  
 
 <!-- This table, in md, didn't work for some reason
 | Number of people who read your email | Reported read activity | 
@@ -57,7 +57,7 @@ So resorting to HTML:  -->
 <thead>
 <tr>
 	<th>Number of people who read your email</th>
-	<th>Reported read activity</th>
+	<th>Open rate</th>
 </tr>
 </thead>
 <tbody>
@@ -87,5 +87,7 @@ table, td {
         </tr>
 </tbody>
 </table>
+
+User privacy is the reason that the imprecise values ("Low" and "High") are reported for read activity. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
 
 [!INCLUDE [See info about a specific email message](../../Includes/to-see-info-about-email-message.md)]

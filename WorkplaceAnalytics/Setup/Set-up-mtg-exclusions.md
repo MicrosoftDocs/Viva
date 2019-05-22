@@ -14,6 +14,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
+The following describes who does what to initially set up meeting exclusion rules:
 
 * **Owner** - Workplace Analytics administrator, data analysts with full access
 * **Task** - Set meeting exclusion rules to reflect your company's meeting norms and exclude meetings that are not relevant for analysis.  

@@ -6,7 +6,7 @@ title: MyAnalytics email digest
 description: MyAnalytics users receive a weekly email digest with key insights and suggestions
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/02/2019
+ms.date: 05/14/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -25,6 +25,9 @@ Each week will focus one of the following work patterns:
 * **Network** - See who’s in your network and make sure you’re keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
 
+> [!Note]
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+
 The following is an example of an email digest about past work history.
 
 ![Email focus digest](../../Images/mya/use/email-focus.png)
@@ -41,7 +44,7 @@ Here's an example of an email digest insight to help improve work relationships.
 
 ![Email network digest](../../Images/mya/use/email-network.png)
 
-### Opt out of email digests
+## Opt out of email digests
 
 If you do not want to receive digest emails from MyAnalytics, you can opt out of them:
 

@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Privacy guide for Microsoft MyAnalytics
+title: Privacy guide for MyAnalytics
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/01/2019
+ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -17,7 +17,7 @@ audience: Admin
 
 # MyAnalytics privacy guide
 
-MyAnalytics is best thought of as a “fitness tracker for the workplace.” By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
+MyAnalytics helps you find opportunities to build better habits and get back in control of your time. By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This page answers key questions on how MyAnalytics processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
 
@@ -36,7 +36,7 @@ MyAnalytics converts data into insights by performing calculations on informatio
 <li>
 
 **MyAnalytics data is processed and stored in the employee’s Exchange Online mailbox**.
-MyAnalytics processes data from these sources: Exchange Online email and calendar data, and chat and call signals from Skype for Business and from Teams. MyAnalytics stores and processes this data inside each employee’s Exchange Online mailbox.</li>
+MyAnalytics processes data from these sources: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams, and&mdash;if both the organization's IT administrator and an individual opt in&mdash;Windows 10 application activity history. MyAnalytics stores and processes this data inside each employee’s Exchange Online mailbox.</li>
 
 <li>
 
@@ -73,9 +73,11 @@ MyAnalytics presents insights in the following ways:
 
 MyAnalytics provides insights with the following types of data.
 
-1. **Mailbox data**: Email, calendar, chat, and call activity that people generate by using Office 365, such as time spent in meetings or emails sent to a specific person or group.
+1. **Mailbox data:** Email, calendar, chat, and call activity that people generate by using Office 365, such as time spent in meetings or emails sent to a specific person or group.
 
-2. **Incremental data**: Data that would otherwise be unavailable to the employee but is presented in an aggregated form designed to protect individual privacy.
+2. **Windows 10 activity history data:** Data on people's usage of apps and services on their device: whether they worked on a document and whether they browsed the web.
+
+3. **Incremental data:** Data that would otherwise be unavailable to the employee but is presented in an aggregated form designed to protect individual privacy.
 
 ## Mailbox data
 
@@ -89,6 +91,14 @@ These insights are derived from data that is *already available* to people in th
 
 For example, if people want to determine which colleagues sent them the most email over the past week, they could technically do so without MyAnalytics by manually counting emails from coworkers in their inbox. Similarly, people could determine their coworkers’ average response time to the emails that they send by using timestamp information readily available in their mailbox. MyAnalytics saves people the trouble of having to perform these tedious calculations.
 
+## Windows 10 Activity History data
+
+Windows 10 activity history data refers to the things people do on their device, such as the apps and services they used, whether they worked on a document, and whether they browsed the web. The activity history is stored locally on the device, and if the employee is signed in to the device with a Microsoft account and gives permission, Windows sends the activity history to Microsoft. 
+
+MyAnalytics uses Windows 10 activity history data to compute insights (for example, time spent in apps, multi-tasking in meetings) about a person's work habits. These insights are private and stored in the person's Exchange Online mailbox. 
+
+Also note that, if the person chooses to send Windows 10 activity history to MyAnalytics,  activity data is saved even if they use a non-work or non-school account (for example, a personal live.com or facebook.com account) to connect to the app or service. However, activity data is not saved when they browse with InPrivate tabs or windows in the Microsoft Edge web browser. 
+
 ## Incremental data
 
 In a few cases, MyAnalytics provides people with *de-identified* information on other people that would not have otherwise been available to them, such as for Email read rates.
@@ -97,11 +107,13 @@ In a few cases, MyAnalytics provides people with *de-identified* information on 
 
 MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
-However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate renders as “Low” or “High.”
+However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate renders as "Low" or "High."
 
+<!-- 
 ![Email read rates](../../Images/mya/use/email-read-rates-2.png)
+-->
 
-This metric is calculated based on the “read” flag in Exchange Online. For some people, messages are flagged as “read” when they open a message in the Outlook preview pane. For others, they might need to double-click to open the message to mark it as "read."
+This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when they open a message in the Outlook preview pane. For others, they might need to double-click to open the message to mark it as "read."
 
 People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Office 365 environment, and then delivered to the sender’s mailbox.
 
@@ -115,6 +127,9 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 * **Determine default opt-in settings**
    Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu. To learn more, see [Configure user settings](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-setup-checklist#step-1-configure-user-settings).
 
+* **Determine whether employees can opt-in to receive insights on Windows 10 application usage** 
+   Admins must consent before MyAnalytics users can opt in to receive insights derived from Windows 10 activity history data.
+
 * **Determine which employees in sensitive roles should be excluded from incremental data**
   Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed.
 
@@ -125,12 +140,12 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 ### How employees can opt-in and opt-out
 
- End users can opt-in or opt-out of MyAnalytics via the Feature Settings menu in Office 365, as shown here:
+ End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Office 365, as shown here:
 
-![Email read rates](../../Images/mya/use/mya-opt-in-out-3.png)
+![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
 
-## MyAnalytics vs. Workplace Analytics, Delve, and the Microsoft Graph
+## MyAnalytics vs. Workplace Analytics, Delve, and Microsoft Graph
 
 The following describes the differences between these Microsoft products:
 
@@ -142,7 +157,7 @@ Although MyAnalytics is an individual productivity tool, [Workplace Analytics](h
 
 MyAnalytics and Delve are both first-party applications based on the Microsoft Graph, and are independent applications with different use cases. Delve uses intelligence to help employees discover relevant content and people across their organization. Each application is licensed separately and settings from one do not impact the settings of the other.
 
-There may be some confusion about this, because MyAnalytics used to be called “Delve Analytics” but was rebranded in fall 2016. The MyAnalytics personal dashboard still shows up in the Delve user interface. However, MyAnalytics will eventually be decoupled from Delve and have its own unique URL.
+There may be some confusion about this, because MyAnalytics used to be called “Delve Analytics” but was rebranded in fall 2016. The MyAnalytics personal dashboard still shows up in the Delve user interface. Note, however, that the MyAnalytics personal dashboard also appears independently of Delve and can be reached through its own unique URL
 
 > [!Note] 
 > Administrators and individuals can disable Delve content-discovery functionality without impacting access to MyAnalytics, and vice-versa. The personal dashboard and all other MyAnalytics surfaces will remain functional. To learn more, see [Delve administration](https://docs.microsoft.com/sharepoint/delve-for-office-365-admins).
@@ -155,9 +170,9 @@ The Microsoft Graph cannot be turned on or off globally through the Office 365 A
 
 ## Employee experience of MyAnalytics
 
-### Dashboard and Outlook Add-in
+### Dashboard and Outlook add-in
 
-Within a few days of the assignment of a license with the MyAnalytics service to an employee —-either as part of an overall E5 license or as an add-on license-— the user’s MyAnalytics [dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
+Within a few days of the assignment of a license with the MyAnalytics service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-on license&mdash;the user’s MyAnalytics [dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
 
 ### Welcome email
 
