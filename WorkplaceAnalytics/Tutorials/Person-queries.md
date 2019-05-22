@@ -122,12 +122,12 @@ You can create a person query to investigate if long meetings are a significant 
 3. For **Group by**, select **Week**.
 4. Select a date range. The query will analyze only the meetings that occurred during this date range.
 5. In the **Meeting exclusions** menu, select the applicable exclusion rule set.
-6. In the **Metrics** section, select **Add metric**, and then select **Meeting hours** to add a metric for total meeting hours. 
+6. In the **Metrics** section, select **Add metric**, and then select **Meeting hours** to add a metric for total meeting hours.
 7. Select the **Edit** icon and change the metric's name to **Total meeting hours**.
 8. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the **Edit** icon and change the metric's name to **Long meeting hours**.
 
    <ol type="a"> 
-   <li>To customize the Long meeting hours metric, select the **Edit** icon.</li>
+   <li>To customize the Long meeting hours metric, select the <b>Edit</b> icon.</li>
    <li>Choose <b>Add filter</b>.</li>
    <li>In the <b>Long meeting hours where</b> section, select <b>Meeting</b>, and then select <b>Duration­Hours</b> > greater than or equal to > <b>2</b>.</li>
    <li>Select <b>Confirm</b>.</li></ol>
