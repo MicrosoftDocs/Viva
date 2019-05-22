@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics Data sources
-description: An overview of Data sources in Workplace Analytics 
+title: Workplace Analytics data sources
+description: An overview of Sources in Workplace Analytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/21/2019
+ms.date: 05/22/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
