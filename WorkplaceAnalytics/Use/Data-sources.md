@@ -91,12 +91,6 @@ For more information about what data is needed for metric calculations, see:
 
 * [Metric definitions](../Use/Metric-definitions.md)
 
-For more information about what data is needed for metric calculations, see:
-
-* [Prepare organizational data](../setup/Prepare-organizational-data.md)
-
-* [Metric definitions](../Use/Metric-definitions.md)
-
 ## CRM data
 
 This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, sales opportunities, and seller assignments that are available for data analysis.
