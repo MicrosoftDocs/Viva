@@ -70,6 +70,7 @@ You can use this template to view and analyze meeting metrics with the following
 ## Related topics
 
 * [Workplace Analytics Azure Templates overview](./overview.md)
+* [What's new in Workplace Analytics Azure Templates](./release-notes.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
 * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
 * [Process Explorer Azure Template](./process-explorer.md)
