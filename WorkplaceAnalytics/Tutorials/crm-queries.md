@@ -101,7 +101,6 @@ To do this, you can create a query as shown in the following graphic to analyze 
 
    ![CRM customer focus query](../Images/WpA/use/crm-collaboration-query.png)
 
-
 ## Related topics
 
 [Person-to-group queries](../Tutorials/person-to-group-queries.md)
