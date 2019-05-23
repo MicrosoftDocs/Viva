@@ -71,13 +71,15 @@ This output includes the following, which enables you to perform even further gr
 
 ## Analysis scenarios
 
+The following business scenarios are a few of the ways you can use Workplace Analytics queries to analyze combined CRM and Organizational data.
+
 **A1 Sellers' prioritization of accounts by value is misaligned**
 
 To evaluate prioritization of accounts, you can correlate sellers’ time with specific accounts and their value potential, as shown in the following graphic. 
 
    ![CRM seller to account time correlation](../Images/WpA/use/crm-time-correlation.png)
 
-To see this correlation, you can create a query as shown in the following graphic to look at the time investment with customers as compared to their annual revenue, which can highlight any misalignments in prioritization at an account level. This can show where high-value accounts might not be getting enough attention or low-value accounts might be demanding too much time from the sellers.
+To see this correlation, you can create a query as shown in the following graphic to look at the time investment with customers as compared to their annual revenue, which can highlight any misalignments in prioritization at an account level. This can show where high-value accounts might not be getting enough attention or low-value accounts might be demanding too much time from sellers.
 
    ![CRM seller to account time correlation query](../Images/WpA/use/crm-time-correlation-query.png)
 
