@@ -22,8 +22,6 @@ The focus plan in MyAnalytics helps you block time every day for your top-priori
 The focus plan of MyAnalytics is tied to the focus theme, or work pattern. (For more information about the MyAnalytics Focus work pattern, see [Focus](../use/focus.md).) 
 As a MyAnalytics participant, you can choose to create or to end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
 
-# Work with focus plans 
-
 You can at any time create a focus plan, check your progress, or leave the plan, as described in the following sections.
 
 ## To create your focus plan
@@ -153,21 +151,25 @@ When your focus time starts, your status in Teams and Skype for Business will au
 
 ## Focus plan in MyAnalytics surfaces
 
+### Before creating a plan
+
 As a MyAnalytics user, you might become aware of the focus plan when you see focus-related prompts and messages in the weekly digest email, the dashboard, and insights. Examples: 
 
-_Focus plan prompt in the email digest:_ 
+#### Focus plan prompt in the email digest
 
 ![Focus prompt in the email digest](../../Images/mya/use/focus-prompt-in-email-digest-75-90.png)
- 
-_Focus plan prompt in the dashboard:_
+
+#### Focus plan prompt in the dashboard
   
 ![Focus prompt in the dashboard](../../Images/mya/use/focus-prompt-in-dashboard.png)
 
-For more information about the digest email, which for focus plan participants becomes tailored to the plan, see [MyAnalytics weekly digest email](../use/email-digest-2.md). 
+For more information about the digest email, which for focus plan participants becomes tailored to the plan, see [MyAnalytics weekly digest email](#myanalytics-weekly-digest-email). 
 
-### Inline suggestions and other alerts
+### After creating a plan
 
-If you've choose not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days. 
+#### Inline suggestions and other alerts
+
+If you've chosen not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days. 
 
 For example, the add-in might display this card: 
  
@@ -177,7 +179,7 @@ Select that card to see the following options to book focus time on individual d
 
 ![Book focus time inline](../../Images/mya/use/book-focus-time-nudge.png)
  
-### MyAnalytics weekly digest email
+#### MyAnalytics weekly digest email
 
 As described under [To check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan), you use the MyAnalytics dashboard to see how well your focus plan is working. 
 
