@@ -30,13 +30,13 @@ You create your focus plan in the MyAnalytics dashboard.
 
 1. Open the MyAnalytics dashboard. You can do that in the following ways:
 
- * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com).
- * In Microsoft Outlook, in the Insights pane, select the _Go to dashboard_ icon:
+   * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com).
+   * In Microsoft Outlook, in the Insights pane, select the _Go to dashboard_ icon:
 
-    ![Go to dashaboard](../../Images/mya/use/go-to-dashboard.png) 
+     ![Go to dashaboard](../../Images/mya/use/go-to-dashboard.png) 
 
- * In the focus plan card in the email digest, select **Try it out**.  
- * In the Insights add-in in Outlook, select the **Create your focus plan** card.
+   * In the focus plan card in the email digest, select **Try it out**.  
+   * In the Insights add-in in Outlook, select the **Create your focus plan** card.
 
     This opens the MyAnalytics dashboard, where you can indicate your preferences:
 
