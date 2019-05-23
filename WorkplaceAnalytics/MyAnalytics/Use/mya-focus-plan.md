@@ -22,11 +22,11 @@ The focus plan in MyAnalytics helps you block time every day for your top-priori
 The focus plan of MyAnalytics is tied to the focus theme, or work pattern. (For more information about the MyAnalytics Focus work pattern, see [Focus](../use/focus.md).) 
 As a MyAnalytics participant, you can choose to create or to end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
 
-## Work with focus plans 
+# Work with focus plans 
 
 You can at any time create a focus plan, check your progress, or leave the plan, as described in the following sections.
 
-### To create your focus plan
+## To create your focus plan
 
 You create your focus plan in the MyAnalytics dashboard.
 
@@ -60,7 +60,7 @@ You create your focus plan in the MyAnalytics dashboard.
 If you selected **Book time for me**, you will notice blocks of focus time after they appear on your Outlook calendar. For more information, see [Automatic focus-time booking](#automatic-focus-time-booking). 
 -->
 
-### To check the progress of your focus plan
+## To check the progress of your focus plan
 
 After your plan has started, you can check your progress and make sure you have focus time booked every day over the upcoming two weeks. If it has run for at least few days, it will have numbers to report. 
 
@@ -72,7 +72,7 @@ An important metric on this page is displayed under **Last week stats**. It show
 
 The **Plan ahead** area helps you to plan focus time for the upcoming days. This area has the following sections: 
 
-#### Focus time booked
+### Focus time booked
 
 For the current week and the following week, see how many (four in the preceding example screenshot) and which days have had focus time booked. The shapes in this area are color coded:
 
@@ -83,18 +83,18 @@ For the current week and the following week, see how many (four in the preceding
 | Yellow | There’s a meeting conflict with your booked focus time, or MyAnalytics couldn’t find any time to book on that day to a packed schedule. |
 | Blue | You haven’t yet booked focus time on that day, but MyAnalytics found open time that’s available to book. | 
 
-#### Needs focus time
+### Needs focus time
 
-Denotes days on which you haven’t yet booked focus time, but there’s open time available in your calendar that can be booked. Select Book now to have MyAnalytics select and book this time. 
+This denotes days on which you haven’t yet booked focus time, but there’s open time available in your calendar that can be booked. Select **Book now** to have MyAnalytics select and book this time. 
 
-#### Needs review
+### Needs review
 
-During the number of days shown (in the screenshot, three days) MyAnalytics has either found no time to book or it has found booked focus time that has a meeting conflict. Select **Review** to open your calendar in Outlook on the web. 
+During the number of days shown (in the screenshot, three days) MyAnalytics has either found no time to book or it has found booked focus time that has a meeting conflict. Select **Review** to open your calendar in Outlook on the web to resolve the issue. 
 
 > [!Note] 
 > If you make changes to your Outlook calendar, they are reflected when you refresh or return to this page. For example, MyAnalytics has booked focus time for you for tomorrow. You then open your calendar and delete that focus time. If you then return to this page, it will indicate the new free time in the Focus time booked area. It will also re-book that time if you select **Book now**, or show you that time&mdash;potential focus time, again&mdash;in your Outlook calendar, if you select **Review**. 
 
-### To leave or change your focus plan
+## To leave or change your focus plan
 
 You can opt in and opt out of the focus plan as many times as you want. 
 
@@ -119,45 +119,41 @@ You can opt in and opt out of the focus plan as many times as you want.
  
       ![Personalize your experience](../../Images/mya/use/preferences.png)
  
-### Automatic focus-time booking
+# Concepts
 
-After you set auto-booking as your preference, MyAnalytics starts looking for time on your Outlook calendar to set aside as focus time. After it books time on your calendar, this time appears in a different color and is labeled "Focus time":  
+The following sections provide information that can help you as you create or monitor focus plans.  
+
+## Automatic focus-time booking
+
+After you set automatic booking as your preference, MyAnalytics starts looking for time on your Outlook calendar to set aside as focus time. The time that it books on your calendar appears in a different color and is labeled "Focus time":  
 
 ![Focus prompt in the email digest](../../Images/mya/use/focus-time-on-your-calendar.png)
 
-Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day events, booked personal time, or appointments. 
+Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments. 
 
 Although two hours is the maximum length of a focus-time block that can be scheduled automatically, you can extend your focus time, by hand, in your Outlook calendar. 
 
 ### Booking schedule
 
-MyAnalytics books focus time two weeks in advance. For example: when you open your calendar on a Monday, you should see focus time booked every day of the current week and all the way through the Friday of the upcoming week. Each weekend it checks the next week out and books time accordingly. 
+MyAnalytics books focus time two weeks in advance. For example: when you open your calendar on a Monday, you should see focus time booked every day of the current week and all the way through the Friday of the following week. Each weekend it looks for time blocks in the next week out and books time accordingly. 
 
-#### How time slots are selected
+### How time slots are selected
 
 The time it reserves for you depends on what you have open during the day. MyAnalytics starts its search at the beginning of your workday, as it is defined in your Outlook settings. If your day starts at 8:00 AM and you have two hours open right then, MyAnalytics schedules two hours of focus time, from 8:00 to 10:00 AM. If it finds no open time at the beginning of your day, it continues to scan your calendar to find open blocks later in the day. If only smaller amounts of time are available, it can book a focus block as short as one hour. 
 
 After it books a block on one day, it then moves on to the next day to find the next suitable block. (In most cases, it creates only one block of focus time per day.)
 
-#### Lunchtime
+### Lunchtime
 
 MyAnalytics considers the time from 11:00 AM to 2:00 PM as time for the midday meal. If you have auto-booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period. 
 
-#### Chats muted during focus time  
+### Chats are muted during focus time  
 
-When your focus time starts, your status in Teams and Skype for Business will automatically change to “Do not disturb.”
+When your focus time starts, your status in Teams and Skype for Business will automatically change to "Do not disturb."
 
-### MyAnalytics weekly digest email
+## Focus plan in MyAnalytics surfaces
 
-After you enroll in a focus plan, the content of the weekly digest email becomes tailored to your participation in the plan. It reports on your recent progress in the focus plan, it gives opportunities to plan for the near future, and it presents food-for-thought items that can help you succeed in the plan. Finally, it contains an Explore more section that lets you dig deeper into various performance indicators for recent days. It will look something like this: 
-
-<!-- UPDATE THIS IMAGE AFTER THE UI CHANGES, SUMMER 2019-->
-
-![Focus prompt in the email digest](../../Images/mya/use/new-digest-email-2.png)
- 
-#### Focus-plan prompts in MyAnalytics surfaces
-
-As a MyAnalytics user, you might become aware of the focus plan when you see focus-related prompts and messages in the weekly digest email, the dash board, and insights. Examples: 
+As a MyAnalytics user, you might become aware of the focus plan when you see focus-related prompts and messages in the weekly digest email, the dashboard, and insights. Examples: 
 
 _Focus plan prompt in the email digest:_ 
 
@@ -169,9 +165,9 @@ _Focus plan prompt in the dashboard:_
 
 For more information about the digest email, which for focus plan participants becomes tailored to the plan, see [MyAnalytics weekly digest email](../use/email-digest-2.md). 
 
-#### Inline suggestions and other alerts
+### Inline suggestions and other alerts
 
-If you’ve choose not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days. 
+If you've choose not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days. 
 
 For example, the add-in might display this card: 
  
@@ -181,3 +177,14 @@ Select that card to see the following options to book focus time on individual d
 
 ![Book focus time inline](../../Images/mya/use/book-focus-time-nudge.png)
  
+### MyAnalytics weekly digest email
+
+As described under [To check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan), you use the MyAnalytics dashboard to see how well your focus plan is working. 
+
+You can also find similar information in the MyAnalytics weekly digest email. After you enroll in a focus plan, the content of the digest email becomes tailored to your participation in the plan. 
+
+It reports on your recent progress in the plan, it gives opportunities to plan for the near future, and it presents food-for-thought items that can help you succeed in the plan. Finally, it contains an _Explore more_ section that lets you dig deeper into various performance indicators for recent days. It looks something like this: 
+
+<!-- UPDATE THIS IMAGE AFTER THE UI CHANGES, SUMMER 2019-->
+
+![Focus prompt in the email digest](../../Images/mya/use/new-digest-email-2.png)
