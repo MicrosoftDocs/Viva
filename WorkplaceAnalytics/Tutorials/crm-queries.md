@@ -51,7 +51,7 @@ After you have successfully [uploaded and processed CRM data](../setup/crm-data-
 
   For example, the following graphic shows a customer filter of **AccountAnnualRevenue** > Less than > **1000**, which will exclude customers with less than that amount of annual revenue from the query results.
 
-   ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
+   ![CRM collaborators](../Images/WpA/tutorials/crm-collaborators.png)
 
 ## Sample query output with CRM data
 
@@ -75,7 +75,7 @@ The following business scenarios are a few of the ways you can use Workplace Ana
 
 **A1 Sellers' prioritization of accounts by value is misaligned**
 
-To evaluate prioritization of accounts, you can correlate sellers’ time with specific accounts and their value potential, as shown in the following graphic. 
+To evaluate prioritization of accounts, you can correlate sellers’ time with specific accounts and their value potential, as shown in the following graphic.
 
    ![CRM seller to account time correlation](../Images/WpA/use/crm-time-correlation.png)
 
