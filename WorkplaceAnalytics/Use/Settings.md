@@ -81,6 +81,7 @@ On the **System defaults** page, you can configure the following:
 * [Default time zone](#default-time-zone)
 * [Working days and hours](#working-days-and-hours)
 * [Hourly rate](#hourly-rate)
+* [Domain settings](#domain-settings)
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
@@ -114,6 +115,16 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 
 1. For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
+
+#### Domain settings
+
+In **Select the external domains that you want to consider internal**, you can set one or more external domains as *internal* to include in your organizational data analysis. For companies that have more than one domain, you can use this setting to analyze organizational data from two or more domains as a single company or organization.
+
+This setting will change all data relating to the specified domain to be internal to your organization, such as the following:
+
+* Explore charts and metrics will show the domain as internal retroactively for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in Explore pages.
+* Organizational and Office 365 data will update all data from this domain to be internal (IsInternal attribute) after the next data refresh.
+* Sources data will include this domain (previously external) in internal collaborator metrics and applicable coverage data will change based on this new domain classification.
 
 ### Privacy settings
 
