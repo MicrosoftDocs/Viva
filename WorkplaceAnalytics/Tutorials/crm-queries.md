@@ -15,7 +15,7 @@ ms.prod: wpa
 
 After you've successfully uploaded and processed your company’s Customer Relationship Management (CRM) data in Workplace Analytics, you can use person-to-group and group-to-group queries to do combined organizational and CRM data analysis, such as:
 
-* Analyze the time your sales or other teams spent with accounts and the network size for accounts as defined in your CRM. (Today you currently can get time spent and network size by using specific domains.)
+* Analyze the time your sales or other teams spent with accounts and the network size for accounts as defined in your CRM. (Today you can get time spent and network size by using specific domains.)
 * Analyze collaboration data with CRM contacts and filter or group by any CRM account attribute you choose to upload, such as account tier, account geography, or account revenue potential.
 * Analyze collaboration data with CRM contacts and filter by any CRM contact attribute you choose to upload, such as contact level, contact function, or contact location.
 
