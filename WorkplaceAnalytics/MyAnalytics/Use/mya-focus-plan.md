@@ -157,7 +157,7 @@ As a MyAnalytics user, you might become aware of the focus plan when you see foc
 
 _Focus plan prompt in the email digest:_ 
 
-![Focus prompt in the email digest](../../Images/mya/use/focus-prompt-in-email-digest.png)
+![Focus prompt in the email digest](../../Images/mya/use/focus-prompt-in-email-digest-75-90.png)
  
 _Focus plan prompt in the dashboard:_
   
