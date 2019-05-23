@@ -19,13 +19,11 @@ audience: Admin
 
 You can now upload your company's Customer Relationship Management (CRM) data into Workplace Analytics. Data from Salesforce or Dynamics CRM typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries.
 
-Workplace Analytics can combine your CRM data with your organizational (HR) and Office 365 data for more advanced collaboration and productivity analysis in Workplace Analytics queries. 
-
-For the most complete analysis, Workplace Analytics requires the following CRM data:
+Workplace Analytics can combine your CRM data with your organizational (HR) and Office 365 data for more advanced collaboration and productivity analysis in Workplace Analytics queries. For the most complete analysis, Workplace Analytics requires the following CRM data:
 
 * Customer accounts
 * Customer contacts
-* Sales opportunities
+* Sales opportunities (coming soon)
 * Seller assignments
 
 You can use this data to help analyze customer history to maintain and improve business relationships with existing customers and drive sales growth with new customers.
@@ -66,7 +64,7 @@ After you’ve identified what CRM data you want to upload, you need to export i
 
    ![CRM data template](../images/wpa/setup/crm-upload.png)
 
-The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a valid, non-null value for the attribute. The source file might still be valid even if some rows have invalid or missing values for some columns. The required attributes are set at 100%, which means every row must have valid, non-null values for these columns in the file. 
+The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a valid, non-null value for the attribute. The source file might still be valid even if some rows have invalid or missing values for some columns. The required attributes are set at 100%, which means every row must have valid, non-null values for these columns in the file.
 
 ### Required and reserved attributes
 
@@ -179,5 +177,8 @@ Confirm the CRM column names and field values in the files follow the same rules
 
 ## Related topics
 
-* [Prepare organizational data](Prepare-organizational-data.md)
-* [First organizational upload](upload-organizational-data-1st.md)
+[Queries with CRM data](../tutorials/crm-queries.md)
+
+[Prepare organizational data](Prepare-organizational-data.md)
+
+[First organizational upload](upload-organizational-data-1st.md)
