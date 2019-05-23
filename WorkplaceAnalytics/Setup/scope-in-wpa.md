@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Scope in Workplace Analytics
 description: Description of scopes plus how to use and set up scopes in Workplace Analytics 
 author: paul9955
