@@ -49,7 +49,7 @@ After you have successfully [uploaded and processed CRM data](../setup/crm-data-
 
   For example, the following graphic shows a customer filter of **AccountAnnualRevenue** > Less than > **1000**, which will exclude customers with less than that amount of annual revenue from the query results.
 
-   ![CRM collaborators](../Images/WpA/tutorials/crm-collaborators.png)
+   ![CRM collaborators](../Images/WpA/use/crm-collaborators.png)
 
 ## Sample query output with CRM data
 
