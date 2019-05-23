@@ -40,13 +40,13 @@ You can create your focus plan in the MyAnalytics email digest or in the Outlook
 
 2.	Select **Get started**. This enrolls you in a focus plan. MyAnalytics now carries out the option that you chose – to book focus time or to remind you to book focus time.
  
-    If you selected **Book time for me**, you will notice blocks of focus time after they appear on your Outlook calendar. For more information, see [Focus time auto-booking](#focus-time-auto-booking).
+    If you selected **Book time for me**, you will notice blocks of focus time after they appear on your Outlook calendar. For more information, see [Automatic focus-time booking](#automatic-focus-time-booking).
  
 #### Outlook add-in
 
 1.	In the Outlook add-in, click the **Create your focus plan** card:
  
-This opens the **Build your focus plan** card:
+    This opens the **Build your focus plan** card:
  
 2.	Select either **Book time for me** or **Reminders only**. If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what time your calendar has open. If you select **Reminders only**, MyAnalytics will remind you to schedule your own focus time. 
 
@@ -96,21 +96,21 @@ You can opt in and opt out of the focus plan as many times as you want.
 
     ![Plan configuration](../../Images/mya/use/plan-config.png)
  
-This opens the **Configurations** page and displays the **Plan configuration** card.
+    This opens the **Configurations** page and displays the **Plan configuration** card.
 
 2.	Your status determines what you see on the **Plan configuration** card: 
 
- * <u>Already in a plan:</u> If you are already in a focus plan, the card gives you two options: 
-    * To change your plan preference, select the option to switch between auto-booking and reminders, and then select **Save changes**. 
-    * To end your participation in the focus plan, select **Leave plan** and then respond **Yes** or **No** in the Leave focus plan confirmation message. 
+    * <u>Already in a plan:</u> If you are already in a focus plan, the card gives you two options: 
+       * To change your plan preference, select the option to switch between auto-booking and reminders, and then select **Save changes**. 
+       * To end your participation in the focus plan, select **Leave plan** and then respond **Yes** or **No** in the Leave focus plan confirmation message. 
 
-   ![Personalize your experience](../../Images/mya/use/plan-config-card.png)
+       ![Personalize your experience](../../Images/mya/use/plan-config-card.png)
 
- * <u>Not in a plan:</u> If you are not already in a focus plan, the **Plan configuration** card gives you the option to join. To do this, select **Try it now**. This displays the **Personalize your experience** card. 
+    * <u>Not in a plan:</u> If you are not already in a focus plan, the **Plan configuration** card gives you the option to join. To do this, select **Try it now**. This displays the **Personalize your experience** card. 
 
-On this card, select either **Book time for me** or **Just remind me to book time**, and then select **Get started**.
-
-![Personalize your experience](../../Images/mya/use/preferences.png)
+      On this card, select either **Book time for me** or **Just remind me to book time**, and then select **Get started**.
+ 
+      ![Personalize your experience](../../Images/mya/use/preferences.png)
  
 ### Automatic focus-time booking
 
