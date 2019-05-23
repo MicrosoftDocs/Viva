@@ -65,7 +65,7 @@ If you selected **Book time for me**, you will notice blocks of focus time after
 
 ## To check the progress of your focus plan
 
-After your plan has started, you can check your progress and make sure you have focus time booked every day over the upcoming two weeks. If it has run for at least few days, it will have numbers to report. 
+After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report. 
 
  * In the MyAnalytics dashboard, select **Focus** in the left navigation pane. A panel opens up to display statistics about your focus time:
 
@@ -88,7 +88,7 @@ For the current week and the following week, see how many (four in the preceding
 
 ### Needs focus time
 
-This denotes days on which you haven’t yet booked focus time, but there’s open time available in your calendar that can be booked. Select **Book now** to have MyAnalytics select and book this time. 
+This section shows upcoming days that have no focus time booked but still have open time available. Select **Book now** to have MyAnalytics select and book this time. 
 
 ### Needs review
 
@@ -156,7 +156,7 @@ When your focus time starts, your status in Teams and Skype for Business will au
 
 ## Focus plan in MyAnalytics surfaces
 
-### Before creating a plan
+### Before you create the plan
 
 As a MyAnalytics user, you might become aware of the focus plan when you see focus-related prompts and messages in the weekly digest email, the dashboard, and insights. Examples: 
 
@@ -182,7 +182,7 @@ Select that card to see the following options to book focus time on individual d
 
 ![Book focus time inline](../../Images/mya/use/book-focus-time-nudge.png)
 
-### After creating a plan
+### After you create the plan
  
 #### MyAnalytics weekly digest email
 
