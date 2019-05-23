@@ -28,7 +28,15 @@ You can at any time create a focus plan, check your progress, or leave the plan,
 
 You create your focus plan in the MyAnalytics dashboard.
 
-1. In the focus plan card in the email digest, select **Try it out**. Alternatively, in the Insights add-in in Outlook, select the **Create your focus plan** card. 
+1. Open the MyAnalytics dashboard. You can do that in the following ways:
+
+ * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com).
+ * In Microsoft Outlook, in the Insights pane, select the dashboard icon:
+
+    ![Go to dashaboard](../../Images/mya/use/go-to-dashboard.png) 
+
+ * In the focus plan card in the email digest, select **Try it out**.  
+ * In the Insights add-in in Outlook, select the **Create your focus plan** card.
 
     This opens the MyAnalytics dashboard, where you can indicate your preferences:
 
@@ -162,8 +170,6 @@ As a MyAnalytics user, you might become aware of the focus plan when you see foc
 
 For more information about the digest email, which for focus plan participants becomes tailored to the plan, see [MyAnalytics weekly digest email](#myanalytics-weekly-digest-email). 
 
-### After creating a plan
-
 #### Inline suggestions and other alerts
 
 If you've chosen not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days. 
@@ -175,6 +181,8 @@ For example, the add-in might display this card:
 Select that card to see the following options to book focus time on individual days or several days at once:  
 
 ![Book focus time inline](../../Images/mya/use/book-focus-time-nudge.png)
+
+### After creating a plan
  
 #### MyAnalytics weekly digest email
 
