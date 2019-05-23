@@ -31,7 +31,7 @@ You create your focus plan in the MyAnalytics dashboard.
 1. Open the MyAnalytics dashboard. You can do that in the following ways:
 
  * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com).
- * In Microsoft Outlook, in the Insights pane, select the dashboard icon:
+ * In Microsoft Outlook, in the Insights pane, select the _Go to dashboard_ icon:
 
     ![Go to dashaboard](../../Images/mya/use/go-to-dashboard.png) 
 
