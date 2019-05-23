@@ -4,10 +4,10 @@
 
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics 
-ms.date: 05/20/2019
+ms.date: 05/23/2019
 author: madehmer
 ms.author: v-midehm
-ms.topic: get-started-article
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ms.collection: M365-analytics
@@ -23,7 +23,6 @@ Workplace Analytics can combine your CRM data with your organizational (HR) and 
 
 * Customer accounts
 * Customer contacts
-* Sales opportunities (coming soon)
 * Seller assignments
 
 You can use this data to help analyze customer history to maintain and improve business relationships with existing customers and drive sales growth with new customers.
@@ -50,13 +49,13 @@ Similar to other organizational data, it’s important to know what CRM data you
 
 When exporting and uploading the data into Workplace Analytics, you can choose what data gets uploaded in what way, such as hashed versions of any sensitive or private information or by excluding it, if necessary.
 
-Examples of CRM data include: customer account history, contact information, seller assignments, and sales opportunities. Workplace Analytics requires this data at the individual level, which means that these attributes provide context to each account or contact in the dataset.
+Examples of CRM data include: customer account history, contact information, and seller assignments. Workplace Analytics requires this data at the individual level, which means that these attributes provide context to each account or contact in the dataset.
 
 You can use this data to analyze sales collaboration between your internal sales organization and the sales accounts and contacts that they manage and other performance outcome data.
 
 It's best to include all accounts and contacts as part of your data upload, even if you plan to gather data for only a subgroup or specific target population within the data.
 
-For example, if you want to create reports to show the seller assignments or opportunities for your salespeople in Workplace Analytics, you'll need to upload files for accounts, contacts, assignments, and opportunities.
+For example, if you want to create reports to show the seller assignments or contacts for your salespeople in Workplace Analytics, you'll need to upload files for accounts, contacts, and assignments.
 
 ## Prepare the CRM source data
 
@@ -85,10 +84,6 @@ The following **Required attributes** must match the exact column headings (case
 |Contact Name |ContactName |String |
 |Email |ContactEmail |Email |
 |Effective Date |ContactsStartDate|Date |
-|**Opportunities data**           |
-|Opportunity ID |OpportunityId |String |
-|Account Number |OpportunitiesAccountId |String |
-|Effective Date |OpportunitiesStartDate |Date |
 |**Seller assignments data**           |
 |Account Number |SellerAssignmentAccountId |String |
 |Effective Date |SellerAssignmentStartDate |Date |
@@ -113,11 +108,6 @@ The following is a sample list of **Reserved attributes** that you can optionall
 |Last Name |ContactLastName |String |
 |Business Phone |ContactPhone |Number|
 |Job Title |ContactTitle |String |
-|**Opportunities data** |
-|Opportunity |OpportunityName |String |
-|Est. Revenue |OpportunityAmount |Number |
-|Sales Stage |OpportunityStage |String |
-|Owner Email |OpportunityOwnerEmail |Email |
 |**Seller assignments data** |
 |Role |SellerStandardTitle |String |
 |Region |SellerRegion |String |
@@ -138,7 +128,6 @@ Confirm the CRM column names and field values in the files follow the same rules
 4. In the **Data type** section, select the type of CRM data you want to upload. You can only upload one of the following types of data files at a time. However, you can wait until you’ve uploaded all the files you need, before submitting the data for validation, which is more time efficient.
    * Accounts
    * Contacts
-   * Opportunities
    * Seller assignments
 5. In the **Select file** section, select the source (.csv) file that corresponds with the data type selected in the previous step. You can select **Download a .csv template** to help with file requirements.
 6. Select **More options** to change the default append option to the delete and add new option:
