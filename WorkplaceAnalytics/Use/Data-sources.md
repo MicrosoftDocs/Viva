@@ -118,17 +118,17 @@ For more information about what data is needed for metric calculations, see:
 
 ## CRM data
 
-This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, sales opportunities, and seller assignments that are available for data analysis.
+This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
 By combining this data in Workplace Analytics, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team?
 
 The **Join coverage** section describes the percent overlap between the uploaded list of accounts and the other uploaded lists of important CRM data, such as contacts and seller assignments, as shown in the following graphic. The higher the percentage overlap the more accurate analysis you can accomplish.
 
-![CRM data sources page](../images/wpa/Use/crm-data-sources.png)
+![CRM data sources page](../images/wpa/Use/crm-sources.png)
 
 For join coverage based on the latest data uploads, you might see one of the following important notices, as shown in the following graphic.
 
-* **Data is not associated**: This occurs when one or more attributes cannot be associated between the two sets of data for join coverage. You can select to download a .csv file and view the contacts or opportunities that can't be associated with the corresponding accounts in the accounts table.
+* **Data is not associated**: This occurs when one or more attributes cannot be associated between the two sets of data for join coverage. You can select to download a .csv file and view the contacts or sellers that can't be associated with the corresponding accounts in the accounts table.
 * **Data has not been processed**: This occurs when an upload hasn't been done yet, the data is currently being processed, or something failed during the validation or data processing phase. You can select the link to the Upload page and view the current status of the upload, correct any issues, or upload new data. You can also ignore this warning, if you don't plan to upload that specific data file.
 
 ![CRM join notices](../images/wpa/Use/crm-join-notices.png)
