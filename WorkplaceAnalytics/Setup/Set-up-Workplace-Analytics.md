@@ -6,7 +6,7 @@ title: Workplace Analytics setup
 description: How to set up and configure Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/29/2019
+ms.date: 04/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -43,9 +43,9 @@ This article describes the steps that are required to set up and configure Workp
    > [!Note] 
    > On the **Home** page, under **Required to start**, Workplace Analytics admins can see the current number of assigned roles and licenses. They can proceed with setup only if the number of assigned licenses is greater than zero.
 
-3. **System settings** - Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system settings](../Use/settings.md#system-defaults).
+3. **System defaults** - Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system defaults](../Use/settings.md#system-defaults).
 
-4. **Privacy settings** - Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](../Use/settings.md#privacy-settings). After you've finished making both the system settings and the privacy settings, select **Next**.
+4. **Privacy settings** - Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](../Use/settings.md#privacy-settings). After you've finished making both the system defaults and the privacy settings, select **Next**.
 
 5. **Collaboration data** - Workplace Analytics extracts collaboration data (data about email usage, meetings, chats, and calls) from Office 365, and then processes it. This processing can last as long as a week. After it finishes, Workplace Analytics displays a "completed processing" status on the **Setup** page.
 

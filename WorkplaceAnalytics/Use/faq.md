@@ -156,7 +156,7 @@ A2. Yes. You can use filters in queries that include the following, see [Customi
 
 ##### Q1. What is the difference between the privacy settings and meeting exclusion rules?
 
-A1. Privacy settings are set up for the overall data accessed and used by Workplace Analytics. For details, see [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md). Meeting exclusion rules are used in Workplace Analytics to help ensure that query results accurately represent relevant meeting norms within the organization. For details, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md).
+A1. Privacy settings are set up for the overall data accessed and used by Workplace Analytics. For details, see [Workplace Analytics privacy settings](../use/settings.md#privacy-settings). Meeting exclusion rules are used in Workplace Analytics to help ensure that query results accurately represent relevant meeting norms within the organization. For details, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md).
 
 ##### Q2. Can other analysts use the meeting exclusion rule sets that I create?
 
@@ -191,7 +191,7 @@ A1. To change the meeting exclusion rule for use on the Explore dashboards, see 
 
 ##### Q2. Why do I have fewer “filtered employees” than “measured employees” with no filters applied?
 
-A2.	The data can changes based on what [Page settings](../overview/get-started.md#data-analysis) are selected for the Explore or Solutions pages you are using, which are not necessarily considered filters, but can still show varying totals. For details, see [Page settings for meeting exclusions](../use/explore-metrics-external-collaboration.md#page-settings).
+A2. The data can change based on what [Page settings](../use/explore-intro.md) are selected for the Explore or Solutions pages you are using, which are not necessarily considered filters, but can still show varying totals. For details, see [Page settings for meeting exclusions](../use/explore-metrics-external-collaboration.md#page-settings).
 
 ##### Q3. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 

@@ -4,24 +4,27 @@
 
 title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 04/11/2019
+ms.date: 05/14/2019
 ms.topic: article
-localization_priority: normal 
+localization_priority: priority 
 ms.prod: mya
 
 ---
 
 # Insights Outlook add-in
 
-**_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Office 365 E3, Office 365 E1, Business Premium, Business Essentials._**
-
-**_Please note:_ For Microsoft 365 E3, Microsoft 365 Business, Office 365 E3, Office 365 E1, Business Premium, and Business Essentials, this feature will be rolled out beginning in May, 2019.**
+**_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 E3, Office 365 E1, Office 365 Nonprofit E5, MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Business Premium, and Business Essentials_.**
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
 If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
+
+This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, and improve your overall work-life balance.
+
+> [!Note]
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 ## What you might see
 
