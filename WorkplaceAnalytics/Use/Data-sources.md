@@ -53,27 +53,26 @@ If collaboration activity for Teams drops below 30 percent of the total collabor
 
 ## Organizational data
 
-Organizational data provides details about the HR or other attributes from your most recent upload. The population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute).
+Organizational data is information about employees that your company provides to Workplace Analytics through your most [recent upload](../setup/upload-organizational-data.md).
 
-The coverage percentage for the specified date and time frame includes all measured employees who are in the filter group and have a non-blank value for the specific attribute.
+As either an admin or an analyst, you can use this page to understand the data's quality and completeness for measured employees who have an entry in the HR data file and are detected in the specified week's refresh of Office 365 data.
 
-![Organizational data sources page](../images/wpa/Use/organizational-data-summary.png)
+![Organizational data sources page](../images/wpa/Use/org-data-sources.png)
 
-The **Last refreshed** date shows when data was last uploaded and processed.
 
-### Values
+#### Attributes
 
-A list of the attributes provided by your organization. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization with these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.
+These attributes are provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.
 
-### Unique values
+#### Unique values
 
 The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
-### Coverage
+#### Coverage
 
-The percentage of measured employees who have a value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
+The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
 
-Analysts can use these views to look for time periods that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
+Analysts can use these views to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
 ![Office 365 data sources page](../images/wpa/Use/sources-o365-data-summary.png)
 
@@ -85,13 +84,15 @@ The following are examples of where you might encounter inconsistency in volume 
 
 * **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it may be due to recurring meetings having been removed from calendars.
 
-You can select one of the data titles, such as accounts or contacts, to view a list of attributes for it. For example, the following shows a list of attributes for contacts.
+#### Detailed coverage information for attribute
 
-![View Organizational data attributes for regions](../images/wpa/Use/)
+You can select an attribute name to view more details about that attribute. For example, the following shows the details for the Area attribute.
 
-Similar to the Organizational data page, the CRM data attributes list includes the following.
+![View Organizational data attributes for area](../images/wpa/Use/org-data-attributes.png)
 
-* **Data upload date and time**: Shows when the data was last uploaded and processed, which is at the top of the list.
+The detailed coverage page includes the following.
+
+* **Coverage over time**: This chart shows how the attribute when the data was last uploaded and processed, which is at the top of the list.
 * **Attribute**: Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
 * **Employees with attribute**: Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
 * **Coverage**: Shows the percentage of attributes that have non-blank values. For example in following graphic, it shows the percentage of coverage for measured employees that have non-blank values for the attributes shown.
