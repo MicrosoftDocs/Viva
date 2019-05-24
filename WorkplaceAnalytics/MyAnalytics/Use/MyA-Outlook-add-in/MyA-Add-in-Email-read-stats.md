@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Email read statistics 
+## Email read statistics (Full MyAnalytics only)
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and the MyAnalytics add-on**_
 
