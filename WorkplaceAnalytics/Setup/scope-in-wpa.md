@@ -53,7 +53,7 @@ If you see this notice, ask your Workplace Analytics admin to assign you to a sc
 
 3.	Step for analysts: 
 
-    * If you have only one scope (even the default "Global" scope), this is the scope that you will use. Skip the rest of these steps. You can go to the **Explore** page or the **Queries** page to start your work. On those pages, you will see only the data to which your scope grants you access. 
+    * If you have only one scope (even the default "Global" scope), this is the scope that you will use. Skip the rest of these steps. You can go to the **Explore** page or the **Queries** page to start your work. On those pages, you will see only the data to which your scope grants you access.  
     * If you have more than one scope, the **Scope** drop-down menu at the top of the **Home** page displays the scopes that have been assigned to you. Open this menu and select one:
 
        ![Select a scope](../images/wpa/setup/select-one-no-global.png)
@@ -63,7 +63,6 @@ If you see this notice, ask your Workplace Analytics admin to assign you to a sc
 4.	If you have a non-analyst role, your choice depends on the role (or roles) that you’ve been assigned:
 
     * **Both PM and Analyst:** If you have both the PM role and an Analyst role, the data you see depends on the page that you open. Solutions are accessible only in the Global scope. A person with both the PM and analyst roles can access solutions in Global scope and access the **Explore** and **Queries** pages in other scopes that they have been granted. 
-    * On the **Solution** page, PMs have Global scope and can work with all organizational data. If you are an analyst who is working on the **Explore** or **Queries** pages, you see only the data that your current scope allows. 
     * **PM only:** PMs do not need to select a scope because they automatically use Global scope. If you’re a PM, go to the **Solution** page. 
     * **Not an analyst or program manager:** If you’re signed in to Workplace Analytics and you do not have an analyst or PM role, you are an admin and scope doesn’t affect you. Go to the **Settings** page. 
 
