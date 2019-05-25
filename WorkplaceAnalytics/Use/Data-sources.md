@@ -16,9 +16,11 @@ ms.prod: wpa
 
 **Sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365, organizational data, and if applicable, Customer Relationship Management (CRM) data is loaded and ready to use. Sources includes the following:
 
-* [Office 365 data](#office-365-data)
-* [Organizational data](#organizational-data)
-* [CRM data](#crm-data)
+- [Sources](#sources)
+  - [Office 365 data](#office-365-data)
+  - [Organizational data](#organizational-data)
+      - [Detailed coverage information for an attribute](#detailed-coverage-information-for-an-attribute)
+  - [CRM data](#crm-data)
 
 ![Sources](../images/WpA/Use/sources-o365.png)
 
@@ -28,28 +30,18 @@ ms.prod: wpa
 
 As an analyst, you can use this page to confirm that your Office 365 data is up-to-date. This page includes the following types of data.
 
-### Measured employees
-
-The number of measured employees who your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics.
-
-This number can help determine whether you have good data coverage for analysis.
+* **Measured employees**: The number of measured employees who your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. This number can help determine whether you have good data coverage for analysis.
 
   >[!Note]
   > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
+* **Internal collaborators**: This is the number of unmeasured employees included in the latest upload of Office 365 data with whom the measured employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
 
-### Internal collaborators
+* **External collaborators**: This is the number of people outside your company or who are external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
 
-This is the number of unmeasured employees included in the latest upload of Office 365 data with whom the measured employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
+* **Average weekly collaboration chart**: This chart shows the average weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
 
-### External collaborators
-
-This is the number of people outside your company or who are external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
-
-### Average weekly collaboration chart
-
-This chart shows the average weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
-
-If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
+  >[!Note]
+  > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 
 ## Organizational data
 
