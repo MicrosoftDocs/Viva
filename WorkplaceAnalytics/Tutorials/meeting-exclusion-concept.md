@@ -210,7 +210,6 @@ The following list of languages are supported for keywords and phrases in meetin
 |Finnish | Kazakh | Russian|
 
 
-
 ## Related topic
 
 [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
