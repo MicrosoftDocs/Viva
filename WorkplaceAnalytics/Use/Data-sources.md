@@ -6,7 +6,7 @@ title: Workplace Analytics data sources
 description: An overview of Sources in Workplace Analytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/22/2019
+ms.date: 05/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -53,24 +53,21 @@ If collaboration activity for Teams drops below 30 percent of the total collabor
 
 ## Organizational data
 
-Organizational data is information about employees that your company provides to Workplace Analytics through your most [recent upload](../setup/upload-organizational-data.md).
+Organizational data is information about employees that your company provides to Workplace Analytics through your most [recent upload](../setup/upload-organizational-data.md) of organizational (HR) data and the specified date range of Office 365 data.
 
-As either an admin or an analyst, you can use this page to understand the data's quality and completeness for measured employees who have an entry in the HR data file and are detected in the specified week's refresh of Office 365 data.
+As either an admin or an analyst, you can use this page to understand the data's quality and completeness for employees who have been detected in the Office 365 data for the specified date range. Select **Settings** at the top right of the page to change what date range you want to view.
 
 ![Organizational data sources page](../images/wpa/Use/org-data-sources.png)
 
+The following is listed in the table on this page.
 
-#### Attributes
+* **Attributes**: These attributes are provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.
+* **Employees with attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
+* **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
+* **Unique values**: The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
-These attributes are provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.
-
-#### Unique values
-
-The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
-
-#### Coverage
-
-The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
+>[!Note]
+> You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
 
 Analysts can use these views to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
@@ -79,37 +76,24 @@ Analysts can use these views to look for date ranges that have unexpected gaps i
 The following are examples of where you might encounter inconsistency in volume for email, meetings, calls, and instant messages.
 
 * **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
-
 * **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it may be due to archiving. Using this view, you can select a time period where the mail volume is stable.
-
 * **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it may be due to recurring meetings having been removed from calendars.
 
-#### Detailed coverage information for attribute
+#### Detailed coverage information for an attribute
 
-You can select an attribute name to view more details about that attribute. For example, the following shows the details for the Area attribute.
+ To view a list of the top 500 values for an attribute and other details about it, select the attribute's name in the list. For example, the following graphic shows the top values and details for **Area**.
 
 ![View Organizational data attributes for area](../images/wpa/Use/org-data-attributes.png)
 
-The detailed coverage page includes the following.
+This detailed coverage page includes the following.
 
 * **Coverage over time**: This chart shows how the attribute when the data was last uploaded and processed, which is at the top of the list.
-* **Attribute**: Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
-* **Employees with attribute**: Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
-* **Coverage**: Shows the percentage of attributes that have non-blank values. For example in following graphic, it shows the percentage of coverage for measured employees that have non-blank values for the attributes shown.
-* **Unique values**: The count of the unique attribute values included in the data.
-
-![View Organizational data attributes for organizations](../images/wpa/Use/)
+* **Values**: Lists all values for the selected attribute provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
+* **Employees with value**: This shows the number of people that have that attribute value in the data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
+* **Coverage**: Shows the percentage of measured employees with that value.
 
 >[!Note]
-> You can select a column name to sort the list by it in descending or ascending order.
-
-To view a list of the top 100 values for an attribute, select the attribute's name from the list. For example, the following graphic shows the top values for **AccountId** in an accounts data file.
-
-* To view the list for a different attribute, select it from the list at the top of the table.
-* You can select a column title to sort the list by that column in descending or ascending order.
-* Type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
-
-![View Organizational data attribute values for regions](../images/wpa/Use/crm-account-attribute-values.png)
+> Select Download Excel to view the complete list of attribute details for that have more than 500 value for the page view. To view the list for a different attribute, go back to the Organizational data intro page and select its name from the table.
 
 For more information about what data is needed for metric calculations, see:
 
