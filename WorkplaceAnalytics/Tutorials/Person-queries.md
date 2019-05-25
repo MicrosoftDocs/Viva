@@ -6,7 +6,7 @@ title: Person queries in Workplace Analytics
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/25/2019
+ms.date: 05/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -118,12 +118,12 @@ You can create a person query to investigate if long meetings are a significant 
 3. For **Group by**, select **Week**.
 4. Select a date range. The query will analyze only the meetings that occurred during this date range.
 5. In the **Meeting exclusions** menu, select the applicable exclusion rule set.
-6. In the **Metrics** section, select **Add metric**, and then select **Meeting hours** to add a metric for total meeting hours. 
+6. In the **Metrics** section, select **Add metric**, and then select **Meeting hours** to add a metric for total meeting hours.
 7. Select the **Edit** icon and change the metric's name to **Total meeting hours**.
 8. To add a custom metric for long meeting hours, select **Add metric**, and then select **Meeting hours**. Choose the **Edit** icon and change the metric's name to **Long meeting hours**.
 
    <ol type="a"> 
-   <li>To customize the Long meeting hours metric, select the **Edit** icon.</li>
+   <li>To customize the Long meeting hours metric, select the <b>Edit</b> icon.</li>
    <li>Choose <b>Add filter</b>.</li>
    <li>In the <b>Long meeting hours where</b> section, select <b>Meeting</b>, and then select <b>Duration­Hours</b> > greater than or equal to > <b>2</b>.</li>
    <li>Select <b>Confirm</b>.</li></ol>
@@ -161,3 +161,5 @@ The following are the columns included in the query results for the custom query
 [Metric descriptions](../Use/Metric-definitions.md)
 
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
+
+[Queries for CRM data](../Tutorials/crm-queries.md)

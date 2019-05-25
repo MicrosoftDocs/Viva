@@ -21,6 +21,9 @@ Thank you for trying the new MyAnalytics experience. Welcome to your new persona
 
 Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
+> [!Note]
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+
 ## Home
 
 The MyAnalytics dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
