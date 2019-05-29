@@ -32,7 +32,7 @@ For example, if you are an analyst with the job of finding workplace trends in t
 
 ## The Global scope
 
-One particular scope encompasses everyone’s data: the "Global" scope. If an analyst has this scope, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global scope is created by the system. While it exists by default, no analysts are given access to it by default. Admins must grant access expressly. 
+One particular scope encompasses everyone’s data: the "Global" scope. If an analyst has this scope, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global scope is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this scope or to any scope&mdash;expressly, by an admin. See [Define a scope](#define-a-scope) for more information about assigning analysts to a scope. 
 
 > [!Note] 
 > For existing users, as part of one-time migration in 2019, all existing analysts and their existing queries and settings are being moved to the Global scope. 
@@ -54,13 +54,13 @@ If you see this notice, ask your Workplace Analytics admin to assign you to a sc
 3.	Step for analysts: 
 
     * If you have only one scope (even the default "Global" scope), this is the scope that you will use. Skip the rest of these steps. You can go to the **Explore** page or the **Queries** page to start your work. On those pages, you will see only the data to which your scope grants you access.  
-    * If you have more than one scope, the **Scope** drop-down menu at the top of the **Home** page displays the scopes that have been assigned to you. Open this menu and select one:
+    * If you have more than one scope, the **Scope** drop-down menu at the top of the **Home** page displays the scopes that you are linked to. Open this menu and select one:
 
        ![Select a scope](../images/wpa/setup/select-one-no-global.png)
  
       After you’ve chosen the scope to work with, you can skip the rest of these steps and go to the **Explore** page or the **Queries** page.  
 
-4.	If you have a non-analyst role, your choice depends on the role (or roles) that you’ve been assigned:
+4.	If you have a non-analyst role, your choice depends on the role (or roles) that you've been assigned:
 
     * **Both PM and analyst:** If you have both the PM role and an analyst role, the data you see depends on the page that you open. Solutions are accessible only in the Global scope. A person with both the PM and analyst roles can access solutions in Global scope and access the **Explore** and **Queries** pages in other scopes that they have been granted. 
     * **PM only:** PMs do not need to select a scope because they automatically use Global scope. If you’re a PM, go to the **Solution** page. 
