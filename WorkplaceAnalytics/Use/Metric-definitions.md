@@ -4,9 +4,9 @@
 
 title: Workplace Analytics metric definitions 
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics
-author: paul9955
+author: madehmer
 ms.author: v-midehm
-ms.date: 04/11/2019
+ms.date: 05/14/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -81,21 +81,23 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |------|-----------|----------|---------|------------|
 |Collaboration hours |Sum of meeting hours and email hours spent between the time investor and collaborator groups.|Group|Hour|No|
 |Email hours |Number of hours spent sending and reading emails between the time investor and collaborator groups.|Group|Hour|No|
-|Employees engaged | Total number of people in the time investor group who are engaged with the collaborators group. This only counts licensed employees.​|Group|Count|No|
+|Employees engaged |Number of people in the time investor's group who had two or more meaningful interactions in the last 28 days with the collaborator's group. This only counts licensed employees.​|Group|Count|No|
+|LastTimeContacted|The last date and time that a person from the time investor's group emailed or attended a meeting with one or more people in the collaborator group for the specified date range. |Group|DateTime|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
 |Meeting hours |Number of meeting hours the time investor group has spent meeting with the collaborator group.|Group|Hour|No|
 |Meeting invitee count|Total number of invitees in all meetings from the time investor and collaborator groups.|Group|Count|No|
 |Meetings |Number of distinct meetings with at least one attendee from the time investor and collaborator groups.|Group|Count|No|
-|Network size|Number of people in the collaborator group that the time investor had at least two meaningful interactions with in the last 28 days.|Group|Count|No|
+|Network size|Number of people in the collaborator group who had at least two meaningful interactions in the last 28 days with the time investor's group. This only counts licensed employees. |Group|Count|No|
 |Time investors initiated meeting hours | This calculates the number of meeting hours the time investors created only for *Internal collaborators* or *Collaborators within group* by organizing meetings. (Doesn’t follow time-allocation logic.)​ |Group|Hour|No|
 
 ## Person-to-group metrics
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
-|Collaboration hours|Total number of meeting and email hours for the time investor with one or more people in the collaborator group. This metric uses time allocation logic.|Group|Hour|No|
-|Email count|Count of unique email exchanges (sent and received) that the time investor had with one or more people in the collaborator group|Group|Count|No|
-|Email hours|Total number of hours that the time investor spent sending and reading emails with one or more people in the collaborator group. This metric uses time allocation logic.|Group|Hour|No|
-|Meeting hours|Total number of hours that the time investor spent in meetings with one or more people in the collaborator group. This metric uses time allocation logic.|Group|Hour|No|
-|Meetings|Number of unique meetings that the time investor attended with one or more people in the collaborator group.|Group|Count|No|
-|Network size|Number of people in the collaborator group that the time investor had at least two meaningful interactions with in the last 28 days.|Group|Count|No|
+|Collaboration hours|Total number of meeting and email hours for the time investor with one or more people in the collaborator group. This metric uses time allocation logic. |Group|Hour|No|
+|Email count|Count of unique email exchanges (sent and received) that the time investor had with one or more people in the collaborator group. |Group|Count|No|
+|Email hours|Total number of hours that the time investor spent sending and reading emails with one or more people in the collaborator group. This metric uses time allocation logic. |Group|Hour|No|
+|LastTimeContacted |The last date and time that the time investor (measured employee) emailed or attended a meeting with one or more people in the collaborator group for the specified date range. |Group|DateTime|No|
+|Meeting hours|Total number of hours that the time investor spent in meetings with one or more people in the collaborator group. This metric uses time allocation logic. |Group|Hour|No|
+|Meetings|Number of unique meetings that the time investor attended with one or more people in the collaborator group. |Group|Count|No|
+|Network size|Number of people in the collaborator group who had at least two meaningful interactions in the last 28 days with the time investor. This counts both licensed and unlicensed employees in the collaborator group. |Group|Count|No|

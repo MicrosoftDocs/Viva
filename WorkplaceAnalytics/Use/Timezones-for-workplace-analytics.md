@@ -6,7 +6,7 @@ title: Time zones for Workplace Analytics
 description: This article introduces the time-zone formats required in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 05/07/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,11 +17,11 @@ audience: Admin
 
 # Time zones for Workplace Analytics
 
-The default time zone in Workplace Analytics is Pacific Standard Time. The following is a list of other time zones that can be used.
+The default time zone in Workplace Analytics is Pacific Standard Time. The following lists the other time zones that you can  use.
 
-When you prepare organizational data for upload to Workplace Analytics, use the time zone names (the TimeZone attribute) exactly as they appear in the following list:
+When you prepare organizational data for upload to Workplace Analytics, use the following time zone names (the TimeZone attribute) exactly as they appear:
 
-|Time zone|||
+||||
 |---|---|---|
 |Afghanistan Standard Time|	Ekaterinburg Standard Time|Pacific Standard Time (Mexico)|	
 |Alaskan Standard Time|	Fiji Standard Time|Pakistan Standard Time|
