@@ -26,7 +26,7 @@ A scope is a data workspace for an analyst. A scope delimits the employee data a
 
 ## Scopes give access to data 
 
-A scope defines what data you work with in Workplace Analytics. If you have one of the analyst roles (Analyst or Analyst Limited), you work with data on the **Explore** and **Queries** pages of Workplace Analytics. You are also assigned one or more scopes, and your scope determines whose data you work with on those pages. If you have the program manager (PM) role, you work on the **Solution** page and your role is not scoped, so you have access to all programs. 
+A scope defines what data you work with in Workplace Analytics. If you have one of the analyst roles (analyst or analyst limited), you work with data on the **Explore** and **Queries** pages of Workplace Analytics. You are also assigned one or more scopes, and your scope determines whose data you work with on those pages. If you have the program manager (PM) role, you work on the **Solution** page and your role is not scoped, so you have access to all programs. 
 
 For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a scope that encompasses the data of salespeople. You can then view data about salespeople on the **Explore** pages and create queries about salespeople on the **Queries** page. 
 
@@ -49,7 +49,7 @@ If you are an analyst, you must have a scope selected to be able to go to the **
  
 If you see this notice, ask your Workplace Analytics admin to assign you to a scope. You cannot start using Workplace Analytics until an admin assigns you to one or more scopes. If you do not see this notice, go on to the next step.
 
-2.	What you see now depends on your role and scope assignments: If you are analyst (you have the Analyst or Analyst limited role), go to step 3; if you have any other role, go to step 4. 
+2.	What you see now depends on your role and scope assignments: If you are analyst (you have the analyst or analyst limited role), go to step 3; if you have any other role, go to step 4. 
 
 3.	Step for analysts: 
 
@@ -62,7 +62,7 @@ If you see this notice, ask your Workplace Analytics admin to assign you to a sc
 
 4.	If you have a non-analyst role, your choice depends on the role (or roles) that you’ve been assigned:
 
-    * **Both PM and Analyst:** If you have both the PM role and an Analyst role, the data you see depends on the page that you open. Solutions are accessible only in the Global scope. A person with both the PM and analyst roles can access solutions in Global scope and access the **Explore** and **Queries** pages in other scopes that they have been granted. 
+    * **Both PM and analyst:** If you have both the PM role and an analyst role, the data you see depends on the page that you open. Solutions are accessible only in the Global scope. A person with both the PM and analyst roles can access solutions in Global scope and access the **Explore** and **Queries** pages in other scopes that they have been granted. 
     * **PM only:** PMs do not need to select a scope because they automatically use Global scope. If you’re a PM, go to the **Solution** page. 
     * **Not an analyst or program manager:** If you’re signed in to Workplace Analytics and you do not have an analyst or PM role, you are an admin and scope doesn’t affect you. Go to the **Settings** page. 
 
@@ -106,5 +106,7 @@ Workplace Analytics admins define scopes on the Settings page. One aspect of thi
 
     ![Select visibility](../images/wpa/setup/select-visibility.png)
 
+## How can I start using scopes?
 
+Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at wpasupport@microsoft.com. 
 
