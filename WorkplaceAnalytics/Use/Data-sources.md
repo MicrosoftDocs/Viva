@@ -30,18 +30,35 @@ ms.prod: wpa
 
 As an analyst, you can use this page to confirm that your Office 365 data is up-to-date. This page includes the following types of data.
 
-* **Measured employees**: The number of measured employees who your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. This number can help determine whether you have good data coverage for analysis.
+* **Measured employees**: The number of measured employees to whom your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. <!-- When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics.--> As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. This number can help determine whether you have good data coverage for analysis.
 
   >[!Note]
-  > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
-* **Internal collaborators**: This is the number of unmeasured employees included in the latest upload of Office 365 data with whom the measured employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
+  > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
+
+* **Internal collaborators**: This is the number of unmeasured employees included in the latest extraction of Office 365 data with whom the measured employees collaborated. These people are not part of your measured population but are internal to your organization. <!--Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.-->
 
 * **External collaborators**: This is the number of people outside your company or who are external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
 
 * **Average weekly collaboration chart**: This chart shows the average weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
 
+<!-- MARILYN IS CHECKING WITH CATY ABOUT THE VERACITY OF THIS NOTE:
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
+-->
+
+Analysts can use these views to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
+
+<!-- REPLACE WITH NEW ONE, PER MARILYN 30 MAY
+![Office 365 data sources page](../images/wpa/Use/sources-o365-data-summary.png)
+-->
+
+![Office 365 data sources page](../images/wpa/use/measured-collab.png)
+
+The following are examples of where you might encounter inconsistency in volume for email, meetings, calls, and instant messages.
+
+* **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
+* **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it might be due to archiving. By using this view, you can select a date range to analyze your collaboration data where the mail volume is stable.
+* **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it might be due to recurring meetings having been removed from calendars. By using this view, you can select a date range to analyze your collaboration data where the meeting volume is stable. 
 
 ## Organizational data
 
@@ -61,15 +78,6 @@ The following is listed in the table on this page.
 >[!Note]
 > You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
 
-Analysts can use these views to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
-
-![Office 365 data sources page](../images/wpa/Use/sources-o365-data-summary.png)
-
-The following are examples of where you might encounter inconsistency in volume for email, meetings, calls, and instant messages.
-
-* **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
-* **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it may be due to archiving. Using this view, you can select a time period where the mail volume is stable.
-* **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it may be due to recurring meetings having been removed from calendars.
 
 #### Detailed coverage information for an attribute
 
