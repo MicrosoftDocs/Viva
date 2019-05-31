@@ -4,9 +4,9 @@
 
 title: Workplace Analytics data sources
 description: An overview of Sources in Workplace Analytics 
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/24/2019
+ms.date: 05/30/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -41,20 +41,22 @@ As an analyst, you can use this page to confirm that your Office 365 data is up-
 
 * **Average weekly collaboration chart**: This chart shows the average weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
 
+  Analysts can use these views to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
+
+    ![Office 365 data sources page](../images/wpa/use/measured-collab.png)
+
 <!-- MARILYN IS CHECKING WITH CATY ABOUT THE VERACITY OF THIS NOTE:
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 -->
 
-Analysts can use these views to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
-
 <!-- REPLACE WITH NEW ONE, PER MARILYN 30 MAY
 ![Office 365 data sources page](../images/wpa/Use/sources-o365-data-summary.png)
 -->
 
-![Office 365 data sources page](../images/wpa/use/measured-collab.png)
+### Data-volume inconsistencies
 
-The following are examples of where you might encounter inconsistency in volume for email, meetings, calls, and instant messages.
+The following are examples of instances for which you might encounter inconsistency in volume for email, meetings, calls, and instant messages:
 
 * **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
 
