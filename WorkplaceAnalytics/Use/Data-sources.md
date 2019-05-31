@@ -57,7 +57,9 @@ Analysts can use these views to look for date ranges that have unexpected gaps i
 The following are examples of where you might encounter inconsistency in volume for email, meetings, calls, and instant messages.
 
 * **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
+
 * **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it might be due to archiving. By using this view, you can select a date range to analyze your collaboration data where the mail volume is stable.
+
 * **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it might be due to recurring meetings having been removed from calendars. By using this view, you can select a date range to analyze your collaboration data where the meeting volume is stable. 
 
 ## Organizational data
