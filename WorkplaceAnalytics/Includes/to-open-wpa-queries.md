@@ -14,7 +14,7 @@ ms.prod: wpa
 
 **To open the Workplace Analytics Queries page** 
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, enter your organization's credentials.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) **Home** page. If prompted, enter your work credentials.
 2. In the left navigation pane, select **Queries**. 
 
    >[!Note] 
