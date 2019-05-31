@@ -43,7 +43,7 @@ As an analyst, you can use this page to confirm that your Office 365 data is up-
 
   Analysts can use these views to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-    ![Office 365 data sources page](../images/wpa/use/measured-collab.png)
+  ![Office 365 data sources page](../images/wpa/use/measured-collab.png)
 
 <!-- MARILYN IS CHECKING WITH CATY ABOUT THE VERACITY OF THIS NOTE:
   >[!Note]
