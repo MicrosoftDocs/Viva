@@ -47,12 +47,9 @@ As an analyst, you can use this page to confirm that your Office 365 data is up-
 
 <!-- MARILYN IS CHECKING WITH CATY ABOUT THE VERACITY OF THIS NOTE:
   >[!Note]
-  > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
--->
-
+  > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data. --> 
 <!-- REPLACE WITH NEW ONE, PER MARILYN 30 MAY
-![Office 365 data sources page](../images/wpa/Use/sources-o365-data-summary.png)
--->
+![Office 365 data sources page](../images/wpa/Use/sources-o365-data-summary.png) -->
 
 ### Data-volume inconsistencies
 
