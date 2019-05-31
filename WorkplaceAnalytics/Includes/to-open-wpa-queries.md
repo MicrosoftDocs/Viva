@@ -4,9 +4,9 @@
 
 title: To open Workplace Analytics
 description: How-to steps -- open Workplace Analytics to the Queries page.
-author: buntus
+author: paul9955
 ms.author: v-johtob
-ms.date: 07/10/2018
+ms.date: 05/30/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
