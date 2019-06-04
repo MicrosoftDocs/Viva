@@ -6,7 +6,7 @@ title: Workplace Analytics setup
 description: How to set up and configure Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 05/31/2019
+ms.date: 06/04/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -28,9 +28,13 @@ This article describes the steps that are required to set up and configure Workp
 * **Task** - Complete steps to set up and configure Workplace Analytics.  
 * **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time.  
 
+<!-- REMOVING VIDEO FOR NOW. BEFORE REPOSTING, MUST FIX A) EARLY SCREENSHOT THAT SHOWS EXPLORE PAGE AND B) END SEQUENCE THAT NO LONGER MATCHES CURRENT FRE. 
+
 ### Video: Overview for admins
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+-->
 
 **To set up Workplace Analytics**
 
@@ -48,7 +52,10 @@ This article describes the steps that are required to set up and configure Workp
 4. **Privacy settings** - Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](../Use/settings.md#privacy-settings). After you've finished making both the system defaults and the privacy settings, select **Next**.
 
    > [!Note] 
-   > At this point, Workplace Analytics automatically extracts collaboration data in the background and keeps it ready for analysis.
+   > At this point, Workplace Analytics automatically extracts collaboration data in the background and keeps it ready for analysis. 
+
+   > [!Important] 
+   > If your organization purchased Workplace Analytics before June 12, 2019, you have another step at this point: You must wait until collaboration-data extraction is completed before you can move on to step 5. 
 
 <!-- REMOVED PER PRAMOD 31 MAY 2019: 
 5. **Collaboration data** - Workplace Analytics extracts collaboration data (data about email usage, meetings, chats, and calls) from Office 365, and then processes it. This processing can last as long as a week. After it finishes, Workplace Analytics displays a "completed processing" status on the **Setup** page.
@@ -56,9 +63,9 @@ This article describes the steps that are required to set up and configure Workp
       ![Workplace Analytics processes collaboration data](../images/wpa/setup/03-process-collab-data.png)
 -->
 
-6. **Prepare organizational data** - Export organizational data from your HR system into a UTF-8 encoded .csv file. For information about what data to export and how to structure it, see [Prepare organizational data](Prepare-organizational-data.md).
+5. **Prepare organizational data** - Export organizational data from your HR system into a UTF-8 encoded .csv file. For information about what data to export and how to structure it, see [Prepare organizational data](Prepare-organizational-data.md).
 
-7. **Upload organizational data** - Upload the .csv file into Workplace Analytics. For more information, see [Upload organizational data](upload-organizational-data-1st.md).
+6. **Upload organizational data** - Upload the .csv file into Workplace Analytics. For more information, see [Upload organizational data](upload-organizational-data-1st.md).
 
     The following steps are part of the **Upload organizational data** task:
 
