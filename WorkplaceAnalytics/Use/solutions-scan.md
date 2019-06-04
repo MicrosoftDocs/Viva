@@ -109,7 +109,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 10.	 Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation). 
 
-11.	After the group validates successfully, go to [To create the plan](#create-the-plan). 
+11.	After the group validates successfully, go to [To create the plan](#to-create-the-plan). 
 
 ### To create the plan
 
