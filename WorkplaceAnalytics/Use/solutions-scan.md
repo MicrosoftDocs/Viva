@@ -37,7 +37,7 @@ Workplace Analytics runs AI-based detection every week as part of the standard w
  * Low quality meeting hours
  * After hours collaboration hours
 
-## To find an opportunity
+### To find an opportunity
 
 Scans are run on weekends and the results of scans are displayed on Mondays. To find one or more newly discovered opportunities, check the **Opportunities** page on a Monday. 
 
@@ -64,7 +64,7 @@ Scans are run on weekends and the results of scans are displayed on Mondays. To 
 
 In the following example walkthrough, we look at the _Increase focus_ opportunity to see how to take advantage of an opportunity to create an improvement plan for a group. 
 
-### To start a plan from an opportunity
+### Start a plan from an opportunity
 
 **Role:** analyst, limited analyst, or program manager
 
@@ -72,7 +72,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
     ![Opportunities area](../images/wpa/use/solution-scan-opportunities-2.png)
  
-2.	Let’s look at _Increase focus_. The text on the left briefly describes the results of the scan&mdash;groups with fewer focus hours. The highlighted callout to the right describes the opportunity goal:
+2.	Let's look at _Increase focus_. The text on the left briefly describes the results of the scan&mdash;groups with fewer focus hours. The highlighted callout to the right describes the opportunity goal:
 
     ![Scan benefits](../images/wpa/use/scan-benefits.png)
 
@@ -109,9 +109,9 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 10.	 Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation). 
 
-11.	After the group validates successfully, go to [Start the plan](#start-the-plan). 
+11.	After the group validates successfully, go to [To create the plan](#create-the-plan). 
 
-## Start the plan
+### To create the plan
 
 **Role:** analyst, limited analyst, or program manager
 
@@ -135,7 +135,7 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
 5.	Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates displayed for **Plan duration**.
 
-After the scheduled plan starts, data about its progress is collected. You can view this data by tracking the plan. See [Track plans](#track-plans]). 
+After the scheduled plan starts, data about its progress is collected. You can view this data by tracking the plan. See [Track plans](#track-plans). 
 
 ## Track plans
 
@@ -161,7 +161,7 @@ Managers are represented by the ManagerId attribute that admins upload regularly
 
 Important: Data for a group includes only the data for a manager’s team. This data does not include the manager’s data.
  
-## Validation
+### Validation
 
 During validation, Workplace Analytics checks the following about each potential participant:
 
@@ -186,10 +186,10 @@ In the following trend-line chart, the key to the black line indicates that it s
 
 ![Email hours as percent](../images/wpa/use/email-hours-as-percent.png)
  
-This statement identifies the source of the data. That is, the data that was used to calculate this line was drawn from the scope (set of data) that is visible to the analyst who sees this page. For example, the person who sees this page might be logged in to Workplace Analytics as an analyst with "HR" scope. That HR scope – that HR set of data – is what produced this exact trend line.
+This statement identifies the source of the data. That is, the data that was used to calculate this line was drawn from the scope (set of data) that is visible to the analyst who sees this page. For example, the person who sees this page might be logged in to Workplace Analytics as an analyst with "HR" scope. That HR scope&mdash;that HR set of data&mdash;is what produced this exact trend line.
 
 A different analyst with a different scope would see a different trend line because that line would be calculated from different data. 
 
-All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the scope of the analyst who is viewing this page. Scopes are defined by admins; for more information, see Scoping in Workplace Analytics. 
+All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the scope of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/scope-in-wpa). 
 
 
