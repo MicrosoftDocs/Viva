@@ -51,11 +51,8 @@ This article describes the steps that are required to set up and configure Workp
 
 4. **Privacy settings** - Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](../Use/settings.md#privacy-settings). After you've finished making both the system defaults and the privacy settings, select **Next**.
 
-   > [!Note] 
-   > At this point, Workplace Analytics automatically extracts collaboration data in the background and keeps it ready for analysis. 
-
    > [!Important] 
-   > If your organization purchased Workplace Analytics before June 12, 2019, you have another step at this point: You must wait until collaboration-data extraction is completed before you can move on to step 5. 
+   > At this point, Workplace Analytics automatically extracts collaboration data (data about email usage, meetings, chats, and calls) in the background and keeps it ready for analysis. <u>Exception:</u> If your organization purchased Workplace Analytics before June 12, 2019, this extraction is not performed in the background. Before you can move on to step 5, you must wait for the extraction to complete. You will know that it has finished when Workplace Analytics displays a "completed processing" status on the **Setup** page.
 
 <!-- REMOVED PER PRAMOD 31 MAY 2019: 
 5. **Collaboration data** - Workplace Analytics extracts collaboration data (data about email usage, meetings, chats, and calls) from Office 365, and then processes it. This processing can last as long as a week. After it finishes, Workplace Analytics displays a "completed processing" status on the **Setup** page.
