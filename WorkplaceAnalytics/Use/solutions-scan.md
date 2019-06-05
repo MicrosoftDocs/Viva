@@ -17,7 +17,6 @@ audience: Analyst
 
 # Solutions scan
 
-Solutions scan
 An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is – for example, collaboration overload or excessive time worked after work hours. 
 
 Sometimes opportunities are less obvious. For this, it’s possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Office 365 data. 
