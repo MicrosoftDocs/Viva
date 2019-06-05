@@ -95,7 +95,7 @@ This section shows upcoming days that have no focus time booked but still have o
 During the number of days shown (in the screenshot, three days) MyAnalytics has either found no time to book or it has found booked focus time that has a meeting conflict. Select **Review** to open your calendar in Outlook on the web to resolve the issue. 
 
 > [!Note] 
-> If you make changes to your Outlook calendar, they are reflected when you refresh or return to this page. For example, MyAnalytics has booked focus time for you for tomorrow. You then open your calendar and delete that focus time. If you then return to this page, it will indicate the new free time in the Focus time booked area. It will also re-book that time if you select **Book now**, or show you that time&mdash;potential focus time, again&mdash;in your Outlook calendar, if you select **Review**. 
+> If you make changes to your Outlook calendar, they are reflected when you refresh or return to this page. For example, MyAnalytics has booked focus time for you for tomorrow. You then open your calendar and delete that focus time. If you then return to this page, it will indicate the new free time in the **Focus time booked** area. It will also re-book that time if you select **Book now**, or show you that time&mdash;potential focus time, again&mdash;in your Outlook calendar, if you select **Review**. 
 
 <!-- 
 ### To add tasks to your focus time
