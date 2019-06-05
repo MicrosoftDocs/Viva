@@ -81,9 +81,9 @@ For the current week and the following week, see how many (four in the preceding
 
 | Color | Meaning |
 | ----- | ----- |
-| Green | 	On this day, focus time was booked. Either MyAnalytics booked it automatically or you responded to a MyAnalytics reminder to book focus time. |
-| Gray | A weekend or working day that has already passed. |
-| Yellow | There’s a meeting conflict with your booked focus time, or MyAnalytics couldn’t find any time to book on that day to a packed schedule. |
+| Green | On this day, focus time was booked. Either MyAnalytics booked it automatically or you responded to a MyAnalytics reminder to book focus time. |
+| Gray | A day that has already passed. |
+| Yellow | MyAnalytics couldn’t find any time to book on that day, or you accepted a meeting that conflicts with time previously booked as focus time on that day. |
 | Blue | You haven’t yet booked focus time on that day, but MyAnalytics found open time that’s available to book. | 
 
 ### Needs focus time
@@ -96,6 +96,11 @@ During the number of days shown (in the screenshot, three days) MyAnalytics has 
 
 > [!Note] 
 > If you make changes to your Outlook calendar, they are reflected when you refresh or return to this page. For example, MyAnalytics has booked focus time for you for tomorrow. You then open your calendar and delete that focus time. If you then return to this page, it will indicate the new free time in the Focus time booked area. It will also re-book that time if you select **Book now**, or show you that time&mdash;potential focus time, again&mdash;in your Outlook calendar, if you select **Review**. 
+
+<!-- 
+### To add tasks to your focus time
+[Need steps here]
+-->
 
 ## To leave or change your focus plan
 
