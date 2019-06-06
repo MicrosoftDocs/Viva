@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Comparison queries 
 
-A Workplace Analytics comparison query helps you analyze the workplace collaboration behavior of selected individuals by comparing it with the collaboration behavior of one or more of those individuals’ peer groups.
+A Workplace Analytics comparison query helps you analyze the workplace collaboration behavior of selected individuals by comparing it with the collaboration behavior of one or more of those individuals' peer groups.
 
 You use a comparison query to identify people who compare in particular ways against other people. As you build the query, you identify the individuals of interest, the groups to compare them with, the comparison metrics, and a period of time for which to query data. Note that while you are querying about individuals, they are not identified in the output; results show only PersonIds. 
 
@@ -22,7 +22,7 @@ Although comparison queries focus on people, they produce different information 
 
 ## Create a Comparison query
 
-**Role:** Analyst  
+**Role:** analyst  
 
 **To create a comparison query**
 
@@ -68,7 +68,7 @@ To select the people you’re querying about, filter them by their HR attributes
 
  * <u>Domain:</u> Select all the people whose email addresses have a particular domain 
  * <u>FunctionType:</u> Select, for example, all engineers or all HR employees
- * <u>HourlyRate:</u> Select all who earn a particular amount
+ * <u>HourlyRate:</u> Select all employees who earn a particular amount
  * <u>Organization:</u> Select everyone in one or more organizations, such as Facilities and Finance
 
 You can select organizations in other ways. For example, in the following illustration, we’ve selected the people in the organizations that report up to either of two executives, Marin Adele and Nanete Abagail: 
@@ -82,7 +82,7 @@ Even though the filtering that you perform in the **Select employees** step prov
 The fact that you have selected multiple individuals has no bearing on how the query runs, other than to provide you with similar information about those individuals, reported on multiple rows in the output file, one row for each person for each aggregation period (day, week, or month) whose HR attributes matched your filter parameters. 
 
 > [!Note] 
-> Because you have selected individuals, not groups, the minimum-group-size setting does not apply to the lists of employees that you select in this step. If this list contained only one employee, you’d still have a valid query that could return valid results.  
+> Because you have selected individuals, not groups, the minimum-group-size setting does not apply to the lists of employees that you select in this step. If this list contained only one employee, you'd still have a valid query that could return valid results.  
 
 ### Define comparison groups
 
