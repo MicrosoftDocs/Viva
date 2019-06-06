@@ -21,20 +21,18 @@ This article describes the steps that are required to set up and configure Workp
 
 ## Setup steps 
 
-* **Owner** - The following persons or entities do the setup steps:
-  * **Workplace Analytics admin** does most of the work in these steps and is who the steps refer to as "you."
+* **Owner:** The following persons or entities do the setup steps:
+  * **Workplace Analytics admin** does most of the work and is the person referred to in the steps as "you."
   * **Office 365 admin** assigns licenses and roles in Step 2.  
   * **Workplace Analytics** processes and validates data in a few of the steps.
-* **Task** - Complete steps to set up and configure Workplace Analytics.  
-* **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time.  
+* **Task:** Complete steps to set up and configure Workplace Analytics.  
+* **Outcome:** In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time. Also, you've set system defaults and privacy settings and an admin has uploaded organizational data.  
 
-<!-- REMOVING VIDEO FOR NOW. BEFORE REPOSTING, MUST FIX A) EARLY SCREENSHOT THAT SHOWS EXPLORE PAGE AND B) END SEQUENCE THAT NO LONGER MATCHES CURRENT FRE. 
+<!-- IN THIS VIDEO, MUST FIX A) EARLY SCREENSHOT THAT SHOWS EXPLORE PAGE AND B) END SEQUENCE THAT NO LONGER MATCHES CURRENT FRE. -->
 
 ### Video: Overview for admins
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
--->
 
 **To set up Workplace Analytics**
 
