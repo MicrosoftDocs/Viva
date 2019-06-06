@@ -97,8 +97,9 @@ Workplace Analytics admins define partitions on the Settings page. One aspect of
     > But you cannot add another clause that uses a different attribute, such as:
     >   * Domain + Equals + <domain_name> 
 
-6.	**Select analysts**. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in Workplace Analytics.     
-   ![Select analysts](../images/wpa/setup/analysts.png)
+6.	**Select analysts**. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in Workplace Analytics.    
+ 
+    ![Select analysts](../images/wpa/setup/analysts.png)
  
 7.	**Select attributes**. Select which attributes from the organizational data to include in the partition. To exclude an attribute from the partition, leave it unselected. 
  
