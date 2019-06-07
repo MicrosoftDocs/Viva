@@ -32,7 +32,7 @@ For example, if you are an analyst with the job of finding workplace trends in t
 
 ## The Global partition
 
-One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [Define a partition](#define-a-partition) for more information about assigning analysts to a partition. 
+One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [Create a partition](#create-a-partition) for more information about assigning analysts to a partition. 
 
 > [!Note] 
 > For existing users, as part of one-time migration in 2019, all existing analysts and their existing queries and settings are being moved to the Global partition. 
@@ -66,7 +66,7 @@ If you see this notice, ask your Workplace Analytics admin to assign you to a pa
     * **PM only:** PMs do not need to select a partition because they automatically use Global partition. If you’re a PM, go to the **Solution** page. 
     * **Not an analyst or program manager:** If you’re signed in to Workplace Analytics and you do not have an analyst or PM role, you are an admin and partition doesn’t affect you. Go to the **Settings** page. 
 
-## Define a partition
+## Create a partition
 
 Workplace Analytics admins create partitions on the Settings page. One aspect of this task is assigning partitions to analysts. As you, the admin, create a partition, you can assign the partition to one or more analysts.
 
