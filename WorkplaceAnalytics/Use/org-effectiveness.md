@@ -22,11 +22,11 @@ You can work towards the first goal by creating an analysis of organizational ef
 For a complete walkthrough of these steps, see Start an organizational effectiveness solution. This end-to-end procedure consists of the following tasks:
 
 1.	[Start an analysis](#start-an-analysis). 
-2.	[Identify the reference group](). You do this either by using filters or by uploading a .csv file that contains the email addresses of the members of the group. 
-3.	[Select the peer group](). After you’ve identified the reference group, you next identify one or more peer groups. This, too, you can do either with filters or by uploading a .csv file. 
-4.	(Optional) [Apply conditions](). In this step, you help assure that your comparison makes sense for the groups that you’ve selected. 
-5.	[Submit the analysis]().
-6.	[View results](). View the results of your analysis. 
+2.	[Identify the reference group](#identify-the-reference-group). You do this either by using filters or by uploading a .csv file that contains the email addresses of the members of the group. 
+3.	[Select the peer group](#select-the-peer-group). After you’ve identified the reference group, you next identify one or more peer groups. This, too, you can do either with filters or by uploading a .csv file. 
+4.	(Optional) [Apply conditions](#apply-conditions). In this step, you help assure that your comparison makes sense for the groups that you’ve selected. 
+5.	[Submit the analysis](#submit-the-analysis).
+6.	[View results](#view-results). View the results of your analysis. 
 
 ### Privacy note
 
