@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Organizational effectiveness query 
-description: Describes the organizational effectiveness query of Workplace Analytics
+title: Organizational effectiveness analyses 
+description: Describes the organizational effectiveness analysis of Workplace Analytics
 author: paul9955
 ms.author: v-pascha
 ms.date: 06/07/2019
@@ -14,11 +14,11 @@ ms.collection: M365-analytics
 manager: scott.ruble
 ---
 
-# Organizational effectiveness query
+# Organizational effectiveness
 
-Organizational effectiveness queries help you find answers to the question: How do the most effective people – the best performing people in a company – collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of query is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them. 
+Organizational effectiveness analyses help you find answers to the question: How do the most effective people – the best performing people in a company – collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them. 
 
-You work towards the first goal through analysis, aided by an organizational effectiveness query. To do this, you open the organizational effectiveness panel, add necessary data, submit the analysis request, wait for it to complete, and then view the results. This procedure consists of the following tasks:
+You work towards the first goal through an organizational effectiveness analysis. To do this, you open the organizational effectiveness panel, add necessary data, submit the analysis request, wait for it to complete, and then view the results. This procedure consists of the following tasks:
 
 1.	[Start an analysis](#start-an-analysis). 
 2.	[Identify the reference group](#identify-the-reference-group). You do this either by using filters or by uploading a .csv file that contains the email addresses of the members of the group. 
@@ -29,7 +29,7 @@ You work towards the first goal through analysis, aided by an organizational eff
 
 ### Privacy notes
 
-The organizational effectiveness query robustly enforces the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the peer group. 
+Organizational effectiveness analyses robustly enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the peer group. 
 
 The results of analyses are always presented in aggregate form. No  individual's data is ever presented in isolation.
 
@@ -54,7 +54,7 @@ In this task, you take the first steps to start an organizational effectiveness 
 
 4.	Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis: 
 
-    ![New analysis panel](../images/wpa/use/new-analysis.png)
+    ![New analysis panel](../images/wpa/use/start-analysis-2.png)
  
 The top of this panel shows the four steps for creating an organizational effectiveness analysis: _Reference group_, _Peer group_, _Conditions_, and _Submit_.
 
@@ -67,7 +67,7 @@ The top of this panel shows the four steps for creating an organizational effect
 ## Identify the reference group
 
 > [!Tip] 
-> Before you complete this task, you should know which group within your organizational that you want to use for the reference group. 
+> Before you complete this task, you should know which group of people within your organization that you want to use for the reference group
 
 As you define this group, bear in mind that it has a maximum size of 150 members. 
 
@@ -103,7 +103,7 @@ After you selected **Next** in the Peer group section, the **Conditions** page o
  
 ![New analysis panel](../images/wpa/use/analysis-conditions-2.png)
 
-On this page, you define filters, to filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the peer group. By applying filters in this step, you refine your selections of employees in those groups so that the query will make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
+On this page, you define filters, to filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the peer group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
 
 > [!Note] 
 > You can skip this step by selecting **Next**. 
@@ -112,13 +112,13 @@ After you have finished applying conditions, select **Next** and go to [Submit t
 
 ## Submit the analysis
 
-The fourth and final screen of the query-definition sequence summarizes the choices that you’ve made, including the analysis name, the date range, and the names and sizes of the reference and peer groups. If you want to return to preceding steps to change any of these things, select **Back**:
+The fourth and final screen of the sequence summarizes the choices that you’ve made, including the analysis name, the date range, and the names and sizes of the reference and peer groups. If you want to return to preceding steps to change any of these things, select **Back**:
 
 ![Summary page with Submit button](../images/wpa/use/summary-and-submit.png)
 
 If you do not need to make changes, select **Submit**.
 
-This opens the page that displays the organizational effectiveness table. The analysis that you just submitted is shown at the top of the list, with a status of _running_. Depending on the size of the analysis, the query run should take between several minutes and one hour. Go on to [View results](#view-results).
+This opens the page that displays the organizational effectiveness table. The analysis that you just submitted is shown at the top of the list, with a status of _running_. Depending on the size of the analysis, the run should take between several minutes and one hour. Go on to [View results](#view-results).
 
 ## View results
 
@@ -130,7 +130,7 @@ You can do several things on this page:
  * <u>In the rows of analyses:</u>
    * Select **View** (eye icon) to open an analysis to see its results.
    * Select **Delete** (trash can icon) to delete an analysis that’s no longer needed.
-   * Select the **Duplicate** (two sheets of paper) icon to make a copy of the analysis. 
+   * Select the **Duplicate** (two sheets of paper) icon to make an editable copy of the analysis.
  * <u>Above the table:</u> 
    * Select **New analysis** to create a new organizational effectiveness analysis.
    * Refresh the list of analyses by selecting **Update list**.
@@ -170,7 +170,7 @@ Follow these steps to upload a file that contains email addresses:
     <!-- REMOVE FOR NOW (PER SANJAY, WHO IS CHECKING ON THIS) Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. -->
 
     > [!Note] 
-    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The maximum group size for organizational effectiveness queries is 150. 
+    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The maximum group size for organizational effectiveness analyses is 150. 
 
 4.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).
  
@@ -189,7 +189,7 @@ Follow these steps to upload a file that contains email addresses:
     Now, you could proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization), so you can start the analysis with this group. 
 
 > [!Note] 
-> In addition to the minimum group size, a maximum group size is also in effect. The maximum group size for organizational effectiveness queries is 150.
+> In addition to the minimum group size, a maximum group size is also in effect. The maximum group size for organizational effectiveness analyses is 150.
 
 3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).  
 
@@ -197,7 +197,7 @@ Follow these steps to upload a file that contains email addresses:
 
 ### Why use filters?
 
-A typical use case for using filters would be if your organizational uses outcome metrics such as sales quotas or performance or engagement ratings. If you admin has uploaded this data, you can build filters for this and for other types of Workplace Analytics queries. For example, while defining your reference group, you could filter to include employees who have achieved a particular sales quota or above. Then, one of your filters for the peer group could specify sales quota below the level that you chose for the reference group. Of course, if for some reason these metrics cannot be uploaded for your organization, you can always upload a .csv file that contains email addresses. 
+A typical use case for using filters would be if your organizational uses outcome metrics such as sales quotas or performance or engagement ratings. If you admin has uploaded this data, you can use corresponding filters in this type of analysis. For example, while defining your reference group, you could filter to include employees who have achieved a particular sales quota or above. Then, one of your filters for the peer group could specify sales quota below the level that you chose for the reference group. Of course, if for some reason these metrics cannot be uploaded for your organization, you can always upload a .csv file that contains email addresses. 
 
 ### Why apply conditions? 
 
