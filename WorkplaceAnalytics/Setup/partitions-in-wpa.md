@@ -32,7 +32,7 @@ For example, if you are an analyst with the job of finding workplace trends in t
 
 ## The Global partition
 
-One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [Define a partition](#create-a-partition) for more information about assigning analysts to a partition. 
+One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [Define a partition](#define-a-partition) for more information about assigning analysts to a partition. 
 
 > [!Note] 
 > For existing users, as part of one-time migration in 2019, all existing analysts and their existing queries and settings are being moved to the Global partition. 
