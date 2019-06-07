@@ -152,7 +152,7 @@ Follow these steps to upload a file that contains email addresses:
 
     ![Validation results](../images/wpa/use/validation-results.png)
  
-    In this example, the validation results contain the errors of invalid email addresses and a person who has no Workplace Analytics license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. (To participate, a person needs only a Workplace Analytics [license assigned](../setup/assign-licenses-to-population.md), not a Workplace Analytics [role](../setup/assign-roles-to-wpa-admind.md).) 
+    In this example, the validation results contain the errors of invalid email addresses and a person who has no Workplace Analytics license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. (To participate, a person needs only a Workplace Analytics [license assigned](../setup/assign-licenses-to-population.md), not a Workplace Analytics [role](../setup/assign-roles-to-wpa-admin.md).) 
 
     Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. 
 
