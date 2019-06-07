@@ -16,20 +16,22 @@ manager: scott.ruble
 
 # Organizational effectiveness query
 
-Organizational effectiveness queries help you find answers to the question: How do the most effective people – the best performing people in a company – collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of query is to help you discover what unique workplace-collaboration traits help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them. 
+Organizational effectiveness queries help you find answers to the question: How do the most effective people – the best performing people in a company – collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of query is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them. 
 
 You work towards the first goal through analysis, aided by an organizational effectiveness query. To do this, you open the organizational effectiveness panel, add necessary data, submit the analysis request, wait for it to complete, and then view the results. This procedure consists of the following tasks:
 
 1.	[Start an analysis](#start-an-analysis). 
 2.	[Identify the reference group](#identify-the-reference-group). You do this either by using filters or by uploading a .csv file that contains the email addresses of the members of the group. 
-3.	[Select the peer group](#select-the-peer-group). After you’ve identified the reference group, you next identify one or more peer groups. This, too, you can do either with filters or by uploading a .csv file. 
+3.	[Select the peer group](#select-the-peer-group). After you've identified the reference group, you next identify a peer group. This, too, you can do either with filters or by uploading a .csv file. 
 4.	(Optional) [Apply conditions](#apply-conditions). In this step, you help assure that your comparison makes sense for the groups that you’ve selected. 
 5.	[Submit the analysis](#submit-the-analysis).
 6.	[View results](#view-results). View the results of your analysis. 
 
-### Privacy note
+### Privacy notes
 
-The organizational effectiveness feature, of course, robustly enforces the minimum group size settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. 
+The organizational effectiveness query robustly enforces the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the peer group. 
+
+The results of analyses are always presented in aggregate form. No  individual's data is ever presented in isolation.
 
 ### Roles 
 
@@ -41,7 +43,7 @@ In this task, you take the first steps to start an organizational effectiveness 
 
 **Role:** analyst, limited analyst
 
-1.	Open Workplace Analytics.
+1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. 
 2.	Expand **Analyze** and open the **Explore** page. This page has two sections: **Metrics overview** and **Analyze and start Solutions**.
 
     ![Explore page](../images/wpa/use/select-org-eff.png)
