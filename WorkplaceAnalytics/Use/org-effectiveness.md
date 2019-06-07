@@ -180,7 +180,7 @@ Follow these steps to upload a file that contains email addresses:
  
 2.	Add filters and parameters.
 
-    In this step, you use organizational data in filters to refine your group selection. For example, in the left box, select **Organization** and in the right box, type an org name or a manager’s identifier. Add more filters to refine the selection further, if you want. The results of filtering are shown in a chart. You can then select groups by clicking the columns that represent them in the chart. You can select multiple groups. 
+    In this step, you use organizational data in filters to refine your group selection. For example, in the left box, select **Organization** and in the right box, type an org name or a manager's identifier. Add more filters to refine the selection further, if you want. The results of filtering are shown in a chart. You can then select groups by clicking the columns that represent them in the chart. You can select multiple groups. 
 
     For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](../tutorials/solutions-conceptual.md#persistence-of-group-selections). 
 
@@ -203,9 +203,9 @@ When you compare two groups of people, the purpose is to arrive at a meaningful 
 
 For this reason, it usually makes no sense for an analyst to make a direct, unrefined comparison of groups of employees. For this reason, Workplace Analytics provides a means to improve the value of your comparisons: If any of the users that are being provided for analysis&mdash;either in the initial (highly effective) group or in the peers group&mdash;differ in a way that would render your analysis irrelevant, Workplace Analytics can inform you upfront how to avoid this roadblock. 
 
-What we are providing here is a way to control for that. Let’s say we’re looking at people in the software engineering discipline. You now want to make sure that both groups consist entirely of software engineers. What you can do here is use a filter to establish a condition such as: _Discipline_ = _software engineer_. 
+What we are providing here is a way to control for that. Let’s say we’re looking at people in the software engineering discipline. You now want to make sure that both groups consist entirely of software engineers. What you can do here is use a filter to establish a condition such as: _Discipline_ _Equals_ _Software engineer_. 
 
-Workplace Analytics will then make sure that every user in all of the groups that you selected in the preceding steps (the example group and the peer groups) match this condition. If they do not, we show this error message:
+Workplace Analytics will then make sure that every user in all of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, we show this error message:
 
 ![Use filters](../images/wpa/use/conditions-error-msg.png)
  
