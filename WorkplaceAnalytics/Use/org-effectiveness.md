@@ -59,7 +59,7 @@ The top of this panel shows the four steps for creating an organizational effect
 
 6.	Selecting a date range for the analysis.
 
-7.	Go on to Identify the reference group.  
+7.	Go on to [Identify the reference group](#identify-the-reference-group).  
 
 ## Identify the reference group
 
