@@ -155,11 +155,13 @@ Although the **Result** page is read-only, you can download it into an Excel wor
 
 Follow these steps to upload a file that contains email addresses: 
 
-1.	Select **Upload .csv file**: 
+1.	Create a .csv file that contains the email addresses of the people in the group. This file should contain no header, but consist of a single column, with each email address appearing on a new line.
+
+2. Select **Upload .csv file**: 
  
     ![Upload .csv file](../images/wpa/use/upload-csv-file.png)
 
-2.	Browse to the file on disk and select **Open**. After the file uploads, Workplace Analytics automatically validates the uploaded data and displays the results:
+3.	Browse to the file on disk and select **Open**. After the file uploads, Workplace Analytics automatically validates the uploaded data and displays the results:
 
     ![Validation results](../images/wpa/use/validation-results.png)
  
@@ -170,7 +172,7 @@ Follow these steps to upload a file that contains email addresses:
     > [!Note] 
     > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The maximum group size for organizational effectiveness queries is 150. 
 
-3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).
+4.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).
  
 ### Use filters
 
