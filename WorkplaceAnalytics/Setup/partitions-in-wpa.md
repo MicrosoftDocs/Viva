@@ -72,7 +72,7 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
 > [!Important] 
 > Plan your partitions carefully before you start to create them. Note the following:
->  * **No more than five partitions.** An organization can have a maximum of five partitions.
+>  * **No more than five partitions.** An organization can have a maximum of five partitions. (The Global partition does not count toward this total.)
 >  * **Partitions are not editable.** After you create a partition, the partition cannot be edited. 
 
 ### To create a partition
