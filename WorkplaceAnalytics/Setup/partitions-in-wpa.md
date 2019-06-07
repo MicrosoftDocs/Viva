@@ -18,9 +18,9 @@ audience: Admin
 
 # Partitions in Workplace Analytics
 
-A partition is a data workspace for an analyst. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies define a partition with subset of employee data. To do this, they use various criteria. Here are examples:
+A partition is a data workspace for an analyst. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies create a partition with subset of employee data. To do this, they use various criteria. Here are examples:
  
- * **Organization:** a company can define a partition to be the data of all the employees in one division, or under a particular manager. Example: R & D
+ * **Organization:** a company can create a partition to be the data of all the employees in one division, or under a particular manager. Example: R & D
  * **Geography:** a multi-national corporation might create different partitions for the data of employees of different countries or parts of countries. Example: Wales 
  * **Role:** a company could select the data of all the employees who have a particular function to include in a partition. Example: Accounting personnel
 
@@ -32,7 +32,7 @@ For example, if you are an analyst with the job of finding workplace trends in t
 
 ## The Global partition
 
-One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [Define a partition](#define-a-partition) for more information about assigning analysts to a partition. 
+One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [Define a partition](#create-a-partition) for more information about assigning analysts to a partition. 
 
 > [!Note] 
 > For existing users, as part of one-time migration in 2019, all existing analysts and their existing queries and settings are being moved to the Global partition. 
@@ -68,18 +68,18 @@ If you see this notice, ask your Workplace Analytics admin to assign you to a pa
 
 ## Define a partition
 
-Workplace Analytics admins define partitions on the Settings page. One aspect of this task is assigning partitions to analysts. As you, the admin, define a partition, you can assign the partition to one or more analysts.
+Workplace Analytics admins create partitions on the Settings page. One aspect of this task is assigning partitions to analysts. As you, the admin, create a partition, you can assign the partition to one or more analysts.
 
 > [!Important] 
-> Plan your partitions carefully before you start to define them. Note the following:
+> Plan your partitions carefully before you start to create them. Note the following:
 >  * **No more than five partitions.** An organization can have a maximum of five partitions.
 >  * **Partitions are not editable.** After you create a partition, the partition cannot be edited. 
 
-### To define a partition
+### To create a partition
 
 1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials. 
 2.	Open the **Settings** page and select **Access control**.
-3.	In the **Scope-based access control** area, select **Add partition**:
+3.	In the **Partition-based access control** area, select **Add partition**:
 
     ![Admin settings](../images/wpa/setup/admin-settings.png)
  
