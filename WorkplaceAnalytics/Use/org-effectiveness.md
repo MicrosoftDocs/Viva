@@ -14,7 +14,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 ---
 
-# Organizational effectiveness analyses
+# Organizational effectiveness
 
 Organizational effectiveness analyses help you find answers to the question: How do the most effective people – the best performing people in a company – collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them. 
 
