@@ -7,7 +7,7 @@ title: Partitions in Workplace Analytics
 description: Description of partitions plus how to use and set up partitions in Workplace Analytics 
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/06/2019
+ms.date: 06/07/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -18,11 +18,11 @@ audience: Admin
 
 # Partitions in Workplace Analytics
 
-A partition is a data workspace for an analyst. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies create a partition with subset of employee data. To do this, they use various criteria. Here are examples:
+A partition is a data workspace for an analyst. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies create partitions that contain subsets of employee data. To do this, they use various criteria. Here are examples:
  
- * **Organization:** a company can create a partition to be the data of all the employees in one division, or under a particular manager. Example: R & D
- * **Geography:** a multi-national corporation might create different partitions for the data of employees of different countries or parts of countries. Example: Wales 
- * **Role:** a company could select the data of all the employees who have a particular function to include in a partition. Example: Accounting personnel
+ * **Organization:** A company can create a partition to be the data of all the employees in one division, or under a particular manager. Example: R & D
+ * **Geography:** A multi-national corporation might create different partitions for the data of employees of different countries or parts of countries. Example: Wales 
+ * **Role:** A company could select the data of all the employees who have a particular function to include in a partition. Example: Accounting personnel
 
 ## Partitions give access to data 
 
