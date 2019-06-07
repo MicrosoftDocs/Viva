@@ -201,11 +201,11 @@ A typical use case for using filters would be if your organizational uses outcom
 
 When you compare two groups of people, the purpose is to arrive at a meaningful comparison. For example, depending on your organization, it might not make sense to compare IT admins with software engineers. Their roles are different and so are the ways they are rated in performance evaluations and the expectations of how they interact with customers. 
 
-For this reason, it usually makes no sense for an analyst to make a direct, unrefined comparison of groups of employees. For this reason, Workplace Analytics provides a means to improve the value of your comparisons: If any of the users that are being provided for analysis&mdash;either in the initial (highly effective) group or in the peers group&mdash;differ in a way that would render your analysis irrelevant, Workplace Analytics can inform you upfront how to avoid this roadblock. 
+For this reason, it usually makes little sense for an analyst to make a direct, unrefined comparison of groups of employees. For this reason, Workplace Analytics provides a means to improve the value of your comparisons: If the users that you are selecting for analysis&mdash;either in the initial (highly effective) group or in the peer group&mdash;differ in a way that would render your analysis irrelevant, Workplace Analytics can inform you upfront how to avoid this roadblock. 
 
-What we are providing here is a way to control for that. Let’s say we’re looking at people in the software engineering discipline. You now want to make sure that both groups consist entirely of software engineers. What you can do here is use a filter to establish a condition such as: _Discipline_ _Equals_ _Software engineer_. 
+The **Conditions** page helps with this. Let’s say you are looking at employees in the software engineering discipline. You might now want to make sure that both groups consist entirely of software engineers. On this page, you can use a filter to define a condition such as: _Discipline_ _Equals_ _Software engineer_. 
 
-Workplace Analytics will then make sure that every user in all of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, we show this error message:
+Workplace Analytics will then make sure that every user in both of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, it displays an error message:
 
 ![Use filters](../images/wpa/use/conditions-error-msg.png)
  
