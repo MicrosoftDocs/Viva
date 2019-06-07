@@ -54,7 +54,7 @@ In this task, you take the first steps to start an organizational effectiveness 
 
 4.	Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis: 
 
-    ![New analysis panel](../images/wpa/use/new-analysis.png)
+    ![New analysis panel](../images/wpa/use/start-analysis-2.png)
  
 The top of this panel shows the four steps for creating an organizational effectiveness analysis: _Reference group_, _Peer group_, _Conditions_, and _Submit_.
 
