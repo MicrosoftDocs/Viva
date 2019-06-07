@@ -6,7 +6,7 @@ title: Organizational effectiveness query
 description: Describes the organizational effectiveness query of Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/06/2019
+ms.date: 06/07/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,12 +14,11 @@ ms.collection: M365-analytics
 manager: scott.ruble
 ---
 
-# Organizational effectiveness
+# Organizational effectiveness query
 
-The organizational effectiveness query helps you find answers to the question: How do the most effective people – the best performing people in a company – collaborate differently from their peers? (Note: In this article, we’ll refer to these people as the reference group.) The immediate goal is to discover what unique workplace-collaboration traits make these people different. The larger goal is then to use these insights to try to spread these behaviors so that they can benefit these people’s peers and others in the company. 
+Organizational effectiveness queries help you find answers to the question: How do the most effective people – the best performing people in a company – collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of query is to help you discover what unique workplace-collaboration traits help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them. 
 
-You can work towards the first goal by creating an analysis of organizational effectiveness. To do this, you open the organizational effectiveness panel, add necessary data, submit the analysis request, wait for it to complete, and then view the results. 
-For a complete walkthrough of these steps, see Start an organizational effectiveness solution. This end-to-end procedure consists of the following tasks:
+You work towards the first goal through analysis, aided by an organizational effectiveness query. To do this, you open the organizational effectiveness panel, add necessary data, submit the analysis request, wait for it to complete, and then view the results. This procedure consists of the following tasks:
 
 1.	[Start an analysis](#start-an-analysis). 
 2.	[Identify the reference group](#identify-the-reference-group). You do this either by using filters or by uploading a .csv file that contains the email addresses of the members of the group. 
@@ -31,6 +30,10 @@ For a complete walkthrough of these steps, see Start an organizational effective
 ### Privacy note
 
 The organizational effectiveness feature, of course, robustly enforces the minimum group size settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. 
+
+### Roles 
+
+To be able to perform the following tasks, you must have either the analyst or the limited analyst role of Workplace Analytics.  
 
 ## Start an analysis
 
