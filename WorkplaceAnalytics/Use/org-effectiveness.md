@@ -209,4 +209,4 @@ Workplace Analytics will then make sure that every user in both of the groups th
 
 ![Use filters](../images/wpa/use/conditions-error-msg.png)
  
-Note that, for privacy reasons, Workplace Analytics cannot inform you which user or users do not match the conditions. At this point, you select **Back** and return to the preceding steps to check the content of your groups, and make the necessary changes to eliminate this error.  
+Note that, for privacy reasons, Workplace Analytics cannot inform you which user or users do not match the conditions. At this point, you'll need to select **Back** to return to the preceding steps and check the content of your groups, and make the necessary changes to eliminate this error.  
