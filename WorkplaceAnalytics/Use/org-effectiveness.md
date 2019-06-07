@@ -58,19 +58,20 @@ In this task, you take the first steps to start an organizational effectiveness 
 
     ![New analysis panel](../images/wpa/use/new-analysis.png)
  
-The top of this panel shows the four steps for creating an organizational effectiveness analysis: _Top performers_, _Peers_, _Conditions_, and _Submit_.
+The top of this panel shows the four steps for creating an organizational effectiveness analysis: _Reference group_, _Peer group_, _Conditions_, and _Submit_.
 
 5.	For **Analysis name**, type a name for this analysis. 
 
-6.	Selecting a date range for the analysis.
+6.	Select a date range for the analysis.
 
 7.	Go on to [Identify the reference group](#identify-the-reference-group).  
 
 ## Identify the reference group
 
-Before you complete these steps, you should have decided which group within your organizational that you’d like to use for the reference group. 
+> [!Tip] 
+> Before you complete these steps, you should know which group within your organizational that you want to use for the reference group. 
 
-**Role:** analyst, limited analyst
+As you define this group, bear in mind that it has a maximum size of 150 members. 
 
 1.	In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not be on the same team. You can identify them in either of the following two ways:
 
@@ -80,13 +81,11 @@ Before you complete these steps, you should have decided which group within your
     > [!Note] 
     > For more information about which way to identify this group, see [Why use filters?](#why-use-filters)
 
-2.	After you’ve successfully identified the reference group, select **Next** and go to [Select the peer group](#select-the-peer-group). 
+2.	After you've successfully identified the reference group, select **Next** and go to [Select the peer group](#select-the-peer-group). 
 
 ## Select the peer group
 
-In this task, you identify one or more peer groups that might benefit from a solution plan. 
-
-**Role:** analyst, limited analyst
+In this task, you identify the peer group that will be compared with the reference group. As with the peer group, the reference group has a maximum size of 150 members.  
 
 1.	In the **Peers** section, identify the members of the peer group. As with the reference group, you choose the peer group; its members need not be on the same team. You can identify them in either of the following two ways:
 
@@ -106,42 +105,51 @@ After you selected **Next** in the Peer group section, the **Conditions** page o
  
 ![New analysis panel](../images/wpa/use/analysis-conditions-2.png)
 
-_[This section to be written.]_
+On this page, you define filters, to filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the peer group. By applying filters in this step, you refine your selections of employees in those groups so that the query will make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
 
-For more information, see [Why apply conditions?](#why-apply-conditions)
+> [!Note] 
+> You can skip this step by selecting **Next**. 
+
+After you have finished applying conditions, select **Next** and go to [Submit the analysis](#submit-the-analysis). 
 
 ## Submit the analysis
 
-_[Give steps here. What do you click?]_
-_How do you know that the analysis has completed? Do you need to _
+The fourth and final screen of the query-definition sequence summarizes the choices that you’ve made, including the analysis name, the date range, and the names and sizes of the reference and peer groups. If you want to return to preceding steps to change any of these things, select **Back**:
+
+![Summary page with Submit button](../images/wpa/use/summary-and-submit.png)
+
+If you do not need to make changes, select **Submit**.
+
+This opens the page that displays the organizational effectiveness table. The analysis that you just submitted is shown at the top of the list, with a status of _running_. Depending on the size of the analysis, the query run should take between several minutes and one hour. Go on to [View results](#view-results).
 
 ## View results
 
 After your analysis completes, its status is updated in the Organizational effectiveness analysis table with a check mark: 
 
-![Table of analyses](../images/wpa/use/table-of-analyses.png)
+![Results with one row](../images/wpa/use/result-1-line.png)
  
 You can do several things on this page:
  * <u>In the rows of analyses:</u>
    * Select **View** (eye icon) to open an analysis to see its results.
    * Select **Delete** (trash can icon) to delete an analysis that’s no longer needed.
+   * Select the **Duplicate** (two sheets of paper) icon to make a copy of the analysis. 
  * <u>Above the table:</u> 
-   * Select **New analysis** to create a new Organizational effectiveness analysis.
+   * Select **New analysis** to create a new organizational effectiveness analysis.
    * Refresh the list of analyses by selecting **Update list**.
 
 Selecting **View** opens the **Result** page:
  
 ![Result page](../images/wpa/use/result-1-2.png)
 
-At the top of this page,  you see the following information about your analysis: the analysis name, date rage, name of the reference group, and name of the peer group. 
+At the top of this page, you see the following information about your analysis: the analysis name, date rage, name and size of the reference group, and name and size of the peer group. 
 
-The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Workplace Analytics selects these three metrics from among 20 metrics that are highly correlated.) The results you see are comparisons of raw averages between the reference group and the peer group. 
+The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Workplace Analytics selects these three metrics from among highly correlated metrics that are unique to this type of analysis.) The results you see are comparisons of raw averages between the reference group and the peer group. 
 
 In this example, they are _External network size_, _1:1 meeting hours with direct manager_, and _Percentage of network from external relationships_.
  
-Below these metrics summaries, the results for each metric are described in detail. Each detail section contains a description called **Why it matters**. This section explains why this metric analysis result is useful.
+Below these metrics summaries, the results for each metric are described in detail. Each detail section contains a description called **Why it matters**. This section explains why this metric analysis result is useful. Each section also contains an information (i) icon that you can select to learn more about the metric.
  
-Although the **Result** page is read-only, you can download it into a file that you can open in Microsoft Excel or share with others.
+Although the **Result** page is read-only, you can download it into an Excel workbook file that you can open in Microsoft Excel or share with others.
 
 ## Task details
 
@@ -159,12 +167,12 @@ Follow these steps to upload a file that contains email addresses:
  
     In this example, the validation results contain the errors of invalid email addresses and a person who has no Workplace Analytics license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. (To participate, a person needs only a Workplace Analytics [license assigned](../setup/assign-licenses-to-population.md), not a Workplace Analytics [role](../setup/assign-roles-to-wpa-admins.md).) 
 
-    Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. 
+    <!-- REMOVE FOR NOW (PER SANJAY, WHO IS CHECKING ON THIS) Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. -->
 
     > [!Note] 
-    > In addition to the minimum group size, a maximum group size is also in effect. The maximum group size for organizational effectiveness queries is 150. 
+    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The maximum group size for organizational effectiveness queries is 150. 
 
-3.	Return to [Identify the reference group](#identify-the-reference-group) or to [Select the peer group](#select-the-peer-group).
+3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).
  
 ### Use filters
 
@@ -174,11 +182,11 @@ Follow these steps to upload a file that contains email addresses:
  
 2.	Add filters and parameters.
 
-In this step, you use organizational data in filters to refine your group selection. For example, in the left box, select **Organization** and in the right box, type an org name or a manager’s identifier. Add more filters to refine the selection further, if you want. The results of filtering are shown in a chart. You can then select groups by clicking the columns that represent them in the chart. You can select multiple groups. 
+    In this step, you use organizational data in filters to refine your group selection. For example, in the left box, select **Organization** and in the right box, type an org name or a manager’s identifier. Add more filters to refine the selection further, if you want. The results of filtering are shown in a chart. You can then select groups by clicking the columns that represent them in the chart. You can select multiple groups. 
 
-For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](../tutorials/solutions-conceptual.md#persistence-of-group-selections). 
+    For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](../tutorials/solutions-conceptual.md#persistence-of-group-selections). 
 
-Now, you could proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. 
+    Now, you could proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization), so you can start the analysis with this group. 
 
 > [!Note] 
 > In addition to the minimum group size, a maximum group size is also in effect. The maximum group size for organizational effectiveness queries is 150.
