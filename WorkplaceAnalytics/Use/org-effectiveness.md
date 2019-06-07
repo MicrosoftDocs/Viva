@@ -41,8 +41,6 @@ To be able to perform the following tasks, you must have either the analyst or t
 
 In this task, you take the first steps to start an organizational effectiveness analysis. 
 
-**Role:** analyst, limited analyst
-
 1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. 
 2.	Expand **Analyze** and open the **Explore** page. This page has two sections: **Metrics overview** and **Analyze and start Solutions**.
 
@@ -69,7 +67,7 @@ The top of this panel shows the four steps for creating an organizational effect
 ## Identify the reference group
 
 > [!Tip] 
-> Before you complete these steps, you should know which group within your organizational that you want to use for the reference group. 
+> Before you complete this task, you should know which group within your organizational that you want to use for the reference group. 
 
 As you define this group, bear in mind that it has a maximum size of 150 members. 
 
@@ -191,7 +189,7 @@ Follow these steps to upload a file that contains email addresses:
 > [!Note] 
 > In addition to the minimum group size, a maximum group size is also in effect. The maximum group size for organizational effectiveness queries is 150.
 
-3.	Return to [Identify the reference group](#identify-the-reference-group) or to [Select the peer group](#select-the-peer-group).  
+3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).  
 
 ## Concepts
 
