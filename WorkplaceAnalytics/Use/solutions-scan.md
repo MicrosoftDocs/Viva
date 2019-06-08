@@ -91,6 +91,9 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
  
 5.	Select a group to see its data. This data appears in charts on this page. One of these charts displays data that compares this group’s behavior with that of peer groups, and the other chart shows trend lines for this group, over recent weeks. 
 
+    > [!Note] 
+    > A "peer group" is a group that is the closest to the anomalous group from an organizational hierarchy perspective. 
+
 6.	Optionally, select other groups to examine their data. As you do this, pay attention to the chart on the left, which compares the data for this group with the data for its peer groups. This comparison helps you determine whether that group is an outlier, and therefore a candidate group for an improvement plan for the chosen metric (such as focus hours).  
 
 7.	(Optional) Use the thumbs-up or thumbs-down icons at the right on the bottom of the page to indicate the relevance of this opportunity to your organization. 
@@ -155,7 +158,7 @@ The following sections provide information that can help you as you use the solu
 
 ### What is a group?
 
-You assign improvement plans to groups, but just what constitutes a group? Typically, it’s a manager’s team. This person could manage individual contributors or other managers at any level in the organization.
+You assign improvement plans to groups, but just what constitutes a group? For solutions scan, a group is a team of individual contributors who all report to the same manager.
 
 Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. Groups are defined from this organizational data structure. 
 
@@ -166,7 +169,7 @@ Managers are represented by the ManagerId attribute that admins upload regularly
 
 During validation, Workplace Analytics checks the following about each potential participant:
 
- * <u>Valid address?</u> Is their email address valid? This check helps verify that the person still works for the company. (An "invalid" email address means that the email address was formatted incorrectly, the person is not a measured employee (they have no Workplace Analytics license or their data could not be processed), or the person is not in the scope that the user is currently working in.
+ * <u>Valid address?</u> Is their email address valid? This check helps verify that the person still works for the company. An "invalid" email address means that the email address was formatted incorrectly or that the person is not a measured employee (they have no Workplace Analytics license or their data could not be processed). <!-- RE-ADD THIS AFTER WE PUBLISH THE DOC ON PARTITIONS (FORMERLY SCOPE), or the person is not in the partition that the user is currently working in. -->
  * <u>Have licenses?</u> Do they have a MyAnalytics license and a Workplace Analytics license? To participate in a plan, they must have both.
  * <u>In a plan?</u> Are they already enrolled in a plan? A person can be in only one plan at a time.
  * <u>Opted out?</u> Have they opted out of MyAnalytics? If the person has opted out, they cannot participate in plans.
@@ -181,16 +184,18 @@ If the number of qualified participants falls below the minimum group size, you 
 
 As for employees who have opted out or are already in a plan, you cannot enroll them in a plan at this time. 
 
-### Solutions scan adheres to scope
+<!-- REMOVE THIS FOR NOW, AS IT LINKS TO THE PARTITION DOC. REPUBLISH IT AFTER NITHIN HAS US PUBLISH THE PARTITION DOC.
 
-In the following trend-line chart, the key to the black line indicates that it shows the median in the current scope: 
+### Solutions scan adheres to partitions
+
+In the following trend-line chart, the key to the black line indicates that it shows the median in the current partition: 
 
 ![Email hours as percent](../images/wpa/use/email-hours-as-percent.png)
  
-This statement identifies the source of the data. That is, the data that was used to calculate this line was drawn from the scope (set of data) that is visible to the analyst who sees this page. For example, the person who sees this page might be logged in to Workplace Analytics as an analyst with "HR" scope. That HR scope&mdash;that HR set of data&mdash;is what produced this exact trend line.
+This statement identifies the source of the data. That is, the data that was used to calculate this line was drawn from the partition (set of data) that is visible to the analyst who sees this page. For example, the person who sees this page might be logged in to Workplace Analytics as an analyst with "HR" partition. That HR partition&mdash;that HR set of data&mdash;is what produced this exact trend line.
 
-A different analyst with a different scope would see a different trend line because that line would be calculated from different data. 
+A different analyst with a different partition would see a different trend line because that line would be calculated from different data. 
 
-All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the scope of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/scope-in-wpa). 
+All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partition-in-wpa). 
 
-
+-->
