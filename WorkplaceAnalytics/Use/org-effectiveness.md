@@ -197,18 +197,22 @@ Follow these steps to upload a file that contains email addresses:
 
 ### Why use filters?
 
-A typical use case for using filters would be if your organizational uses outcome metrics such as sales quotas or performance or engagement ratings. If you admin has uploaded this data, you can use corresponding filters in this type of analysis. For example, while defining your reference group, you could filter to include employees who have achieved a particular sales quota or above. Then, one of your filters for the peer group could specify sales quota below the level that you chose for the reference group. Of course, if for some reason these metrics cannot be uploaded for your organization, you can always upload a .csv file that contains email addresses. 
+A typical use case for using filters would be if your organization uses outcome metrics such as sales quotas or performance or engagement ratings. If you admin has uploaded this data, you can use corresponding filters in this type of analysis. For example, while defining your reference group, you could filter to include employees who have achieved a particular sales quota or above. Then, one of your filters for the peer group could specify sales quota below the level that you chose for the reference group. 
+
+Of course, if performance metrics cannot be or have not been uploaded for your organization, you cannot filter by them to select a group. In this case, remember that you can designate a group by uploading its members in a .csv file that contains email addresses. 
 
 ### Why apply conditions? 
 
 When you compare two groups of people, the purpose is to arrive at a meaningful comparison. For example, depending on your organization, it might not make sense to compare IT admins with software engineers. Their roles are different and so are the ways they are rated in performance evaluations and the expectations of how they interact with customers. 
 
-For this reason, it usually makes little sense for an analyst to make a direct, unrefined comparison of groups of employees. For this reason, Workplace Analytics provides a means to improve the value of your comparisons: If the users that you are selecting for analysis&mdash;either in the initial (highly effective) group or in the peer group&mdash;differ in a way that would render your analysis irrelevant, Workplace Analytics can inform you upfront how to avoid this roadblock. 
+Because of differences such as these, it a direct, unrefined comparison of groups of employees might produce results that are not informative. For this reason, Workplace Analytics provides a way to improve the relevance and value of your comparisons: Add filters on the **Conditions** page:
 
-The **Conditions** page helps with this. Let’s say you are looking at employees in the software engineering discipline. You might now want to make sure that both groups consist entirely of software engineers. On this page, you can use a filter to define a condition such as: _Discipline_ _Equals_ _Software engineer_. 
+![Use filters](../images/wpa/use/apply-conditions.png)
+
+Let's say you are looking at employees in the software engineering discipline. You might want to make sure that both the reference group and the peer group consist entirely of software engineers. On this page, add a filter to define a condition such as: _Discipline_ _Equals_ _Software engineer_. 
 
 Workplace Analytics will then make sure that every user in both of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, it displays an error message:
 
 ![Use filters](../images/wpa/use/conditions-error-msg.png)
  
-Note that, for privacy reasons, Workplace Analytics cannot inform you which user or users do not match the conditions. At this point, you'll need to select **Back** to return to the preceding steps and check the content of your groups, and make the necessary changes to eliminate this error.  
+For privacy reasons, Workplace Analytics cannot inform you which user or users do not match the conditions. At this point, you'll need to select **Back** to return to the preceding steps and check the content of your groups, and make the necessary changes to eliminate this error.  
