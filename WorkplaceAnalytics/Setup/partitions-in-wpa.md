@@ -77,7 +77,7 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
 ### To create a partition
 
-1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials. 
+1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
 2.	Open the **Settings** page and select **Access control**.
 3.	In the **Partition-based access control** area, select **Add partition**:
 
