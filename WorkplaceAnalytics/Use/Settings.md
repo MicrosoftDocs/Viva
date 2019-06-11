@@ -4,9 +4,9 @@
 
 title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/23/2019
+ms.date: 06/11/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -116,15 +116,17 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 1. For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
 
-#### Domain settings
+#### Reclassifying external domains 
 
-In **Select the external domains that you want to consider internal**, you can set one or more external domains as *internal* to include in your organizational data analysis. For companies that have more than one domain, you can use this setting to analyze organizational data from two or more domains as a single company or organization.
+In this feature, you can reclassify one or more external domains as internal, to include them in your organizational data analysis. For companies that have more than one domain, you can use this setting to analyze organizational data from two or more domains as a single company or organization.
 
-This setting will change all data relating to the specified domain to be internal to your organization, such as the following:
+This setting will change all of the data that relates to the specified domain to be internal to your organization, as follows:
 
-* Explore charts and metrics will show the domain as internal retroactively for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in Explore pages.
-* Organizational and Office 365 data will update all data from this domain to be internal (IsInternal attribute) after the next data refresh.
-* Sources data will include this domain (previously external) in internal collaborator metrics and applicable coverage data will change based on this new domain classification.
+ * Explore charts and metrics will show the domain as internal retroactively for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in the **Explore** pages.
+ * Organizational and Office 365 data from this domain will update to be internal after the next data refresh.
+ * Sources data will include this domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
+ * The changes can be reverted by removing the domain that has been reclassified.
+ * [Excluding domains in the privacy settings trumps](../use/settings.md#exclude-domains-or-email-addresses) the changes that are made using this reclassification feature. That is, an excluded domain remains excluded, whether or not it has been reclassified. 
 
 ### Privacy settings
 
