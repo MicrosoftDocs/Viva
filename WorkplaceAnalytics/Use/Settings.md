@@ -126,7 +126,7 @@ This setting will change all of the data that relates to the specified domain to
  * Organizational and Office 365 data from this domain will update to be internal after the next data refresh.
  * Sources data will include this domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
  * The changes can be reverted by removing the domain that has been reclassified.
- * [Excluding domains in the privacy settings](../use/settings.md#exclude-domains-or-email-addresses) trumps the changes that are made using this reclassification feature. That is, an excluded domain remains excluded, whether or not it has been reclassified. 
+ * [Excluding domains in the privacy settings](#exclude-domains-or-email-addresses) trumps the changes that are made using this reclassification feature. That is, an excluded domain remains excluded, whether or not it has been reclassified. 
 
 ### Privacy settings
 
