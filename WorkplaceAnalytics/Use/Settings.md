@@ -118,7 +118,7 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 
 #### Reclassify external domains 
 
-In this feature, you can reclassify one or more external domains as internal, to include them in your organizational data analysis. For companies that have more than one domain, you can use this setting to analyze organizational data from two or more domains as a single company or organization.
+In this feature, you can reclassify one or more external domains as internal, to include them in your organizational data analysis. 
 
 This setting will change all of the data that relates to the specified domain to be internal to your organization, as follows:
 
