@@ -81,7 +81,7 @@ On the **System defaults** page, you can configure the following:
 * [Default time zone](#default-time-zone)
 * [Working days and hours](#working-days-and-hours)
 * [Hourly rate](#hourly-rate)
-* [Domain settings](#domain-settings)
+* [Reclassify external domains](#reclassify-external-domains)
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
@@ -116,7 +116,7 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 1. For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
 
-#### Reclassifying external domains 
+#### Reclassify external domains 
 
 In this feature, you can reclassify one or more external domains as internal, to include them in your organizational data analysis. For companies that have more than one domain, you can use this setting to analyze organizational data from two or more domains as a single company or organization.
 
