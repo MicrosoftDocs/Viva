@@ -101,7 +101,7 @@ In this optional step, you make sure that the right people in each of your selec
 
 After you selected **Next** in the Peer group section, the **Conditions** page opens:
  
-![New analysis panel](../images/wpa/use/analysis-conditions-2.png)
+![New analysis panel](../images/wpa/use/apply-conditions.png)
 
 On this page, you define filters, to filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the peer group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
 
