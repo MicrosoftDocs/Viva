@@ -44,7 +44,7 @@ In this task, you take the first steps to start an organizational effectiveness 
 1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. 
 2.	Expand **Analyze** and open the **Explore** page. This page has two sections: **Metrics overview** and **Analyze and start Solutions**.
 
-    ![Explore page](../images/wpa/use/select-org-eff.png)
+    ![Explore page](../images/wpa/use/explore-p12.png)
 
 3.	Under **Analyze and start Solutions**, select **Organizational effectiveness**. 
 
@@ -189,7 +189,7 @@ Follow these steps to upload a file that contains email addresses:
     Now, you could proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization), so you can start the analysis with this group. 
 
 > [!Note] 
-> In addition to the minimum group size, a maximum group size is also in effect. The maximum group size for organizational effectiveness analyses is 150.
+> In addition to the minimum group size, a maximum group size is also in effect. The current maximum group size for organizational effectiveness analyses is 150.
 
 3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).  
 
