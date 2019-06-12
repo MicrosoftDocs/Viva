@@ -6,7 +6,7 @@ title: Solutions scan in Workplace Analytics
 description: Describes how to scan for opportunities in Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/07/2019
+ms.date: 06/12/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -19,13 +19,13 @@ audience: Analyst
 
 An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is – for example, collaboration overload or excessive time worked after work hours. 
 
-Sometimes opportunities are less obvious. For this, it’s possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Office 365 data. 
+Sometimes opportunities are less obvious. For this, it's possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Office 365 data. 
 
-Workplace Analytics automatically scans to determine whether any [groups](#what-is-a-group) show unusual numbers in particular metrics. It then points out which groups show unusual activity on particular metrics – for example, an excess of low-quality meetings, or a lack of focus time. 
+Workplace Analytics automatically scans to determine whether any [groups](#what-is-a-group) show unusual numbers in particular metrics. It then points out which groups show unusual activity on those metrics – for example, an excess of low-quality meetings, or a lack of focus time. 
 
-Then, as a Workplace Analytics user, you can choose to start an improvement plan to respond to this unusual activity. To do this, you would use the Solutions scan feature to create such a plan for the affected group. 
+Then, as an Workplace Analytics user with the analyst, limited analyst, or PM role, you can start a plan to respond to this unusual activity. To do this, you'd use the Solutions scan feature to create such a plan for the affected group. 
 
-## Use Solutions scan to find potential improvement opportunities
+## Use Solutions scan to find potential opportunities
 
 Workplace Analytics runs AI-based detection every week as part of the standard weekly data processing. This detection seeks outliers and anomalies in the data – in particular, it scans to determine whether any groups show unusual numbers for the following metrics:
 
@@ -57,11 +57,11 @@ Scans are run as part of standard Workplace Analytics processing runs, and newly
     > [!Note]
     > If Workplace Analytics cannot detect anything in the data that would present an opportunity, it displays a notice that reads, “No opportunities could be loaded. Please check back later.” 
 
-4.	Consider which of the displayed opportunities you would like to pursue. After you’ve decided to start an improvement plan from an opportunity, go on to [Create an improvement plan](#create-an-improvement-plan). 
+4.	Consider which of the displayed opportunities you would like to pursue. After you’ve decided to start a plan from an opportunity, go on to [Create a plan](#create-a-plan). 
 
-## Create an improvement plan
+## Create a plan
 
-In the following example walkthrough, we look at the _Increase focus_ opportunity to see how to take advantage of an opportunity to create an improvement plan for a group. 
+In the following example walkthrough, we look at the _Increase focus_ opportunity to see how to take advantage of an opportunity to create a plan for a group. 
 
 ### Start a plan from an opportunity
 
@@ -94,7 +94,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
     > [!Note] 
     > A "peer group" is a group that is the closest to the anomalous group from an organizational hierarchy perspective. 
 
-6.	Optionally, select other groups to examine their data. As you do this, pay attention to the chart on the left, which compares the data for this group with the data for its peer groups. This comparison helps you determine whether that group is an outlier, and therefore a candidate group for an improvement plan for the chosen metric (such as focus hours).  
+6.	Optionally, select other groups to examine their data. As you do this, pay attention to the chart on the left, which compares the data for this group with the data for its peer groups. This comparison helps you determine whether that group is an outlier, and therefore a candidate group for a plan for the chosen metric (such as focus hours).  
 
 7.	(Optional) Use the thumbs-up or thumbs-down icons at the right on the bottom of the page to indicate the relevance of this opportunity to your organization. 
 
@@ -158,7 +158,7 @@ The following sections provide information that can help you as you use the solu
 
 ### What is a group?
 
-You assign improvement plans to groups, but just what constitutes a group? For solutions scan, a group is a team of individual contributors who all report to the same manager.
+You assign plans to groups, but just what constitutes a group? For solutions scan, a group is a team of individual contributors who all report to the same manager.
 
 Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. Groups are defined from this organizational data structure. 
 
