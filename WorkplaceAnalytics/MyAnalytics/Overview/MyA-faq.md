@@ -47,7 +47,7 @@ MyAnalytics does not have any tracking software running on your computer.
 
 ### Q3 What data does MyAnalytics use?
 
- * _Used only with explicit user consent_: Data derived from activities on your computer, such as applications that you've used and websites that you've visited.
+ * _Used only if you have opted in_: Data derived from activities on your computer, such as applications that you've used and websites that you've visited.
 
 #### MyAnalytics uses
 
