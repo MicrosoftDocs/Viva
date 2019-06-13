@@ -30,13 +30,13 @@ Although comparison queries focus on people, they produce different information 
 
 2.	In the left navigation pane, expand **Analyze** and then select **Queries**.
 
-3.	On the Queries page, under **Start custom query**, select **Comparison query**.
+3.	On the Queries page, under **Start custom query**, select **Comparison**.
 
 4.	The **Comparison query** page opens:
 
     ![Comparison query page](../images/wpa/tutorials/comp-query-page-2.png)
  
-5.	Name the query and, optionally, type a description for it.
+5.	Name the query and, optionally, add a description for it.
 
 6.	For **Group by**, select an amount of time&mdash;day, week, or month&mdash;over which to aggregate and report on data.
 
@@ -62,22 +62,22 @@ The following sections provide information that can help you as you create a com
 
 ### Select employees
 
-The purpose of a comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization, perhaps others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you're comparing them with&mdash;in the **Define comparison groups** step.)
+The purpose of a comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization,  others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you're comparing them with&mdash;in the **Define comparison groups** step.)
 
 To select the people you’re querying about, filter them by their HR attributes, such as the following:
 
  * <u>Domain:</u> Select all the people whose email addresses have a particular domain 
- * <u>FunctionType:</u> Select, for example, all engineers or all HR employees
  * <u>HourlyRate:</u> Select all employees who earn a particular amount
+ * <u>FunctionType:</u> Select, for example, all engineers or all HR employees
  * <u>Organization:</u> Select everyone in one or more organizations, such as Facilities and Finance
 
 You can select organizations in other ways. For example, in the following illustration, we’ve selected the people in the organizations that report up to either of two executives, Marin Adele and Nanete Abagail: 
 
 ![Select employees](../images/wpa/tutorials/compare-these-subjects.png) 
   
-You could also select by geography – for example, by designating the Chicago office. 
+You could also select by geography&mdash;for example, by designating the Chicago office&mdash;if geographic attributes were uploaded in the organizational data. 
 
-Even though the filtering that you perform in the **Select employees** step provides you with multiple people, you are not selecting a group. Rather, you are selecting a list of individuals. When the query runs, a comparison is made for each individual in the list, and results appear for each individual in the list. 
+Even though the filtering that you perform in the **Select employees** step provides you with multiple people, you are not selecting a group. Rather, you are selecting a list of individuals. When the query runs, a peer group is constructed for each individual in the list, and then, comparison is made for each individual in the list, and finally, results appear for each individual in the list. 
 
 The fact that you have selected multiple individuals has no bearing on how the query runs, other than to provide you with similar information about those individuals, reported on multiple rows in the output file, one row for each person for each aggregation period (day, week, or month) whose HR attributes matched your filter parameters. 
 
@@ -86,7 +86,7 @@ The fact that you have selected multiple individuals has no bearing on how the q
 
 ### Define comparison groups
 
-In the **Select employees** step, you select individuals of interest, those you’re querying about. In the **Define comparison groups** step, you select the groups to compare with those individuals. These are groups of similar employees, sometimes peers of the individuals of interest. 
+In the **Select employees** step, you select individuals of interest, those you’re querying about. In the **Define comparison groups** step, you select the groups to compare with those individuals. These are groups of similar employees, calculated separately for each selected employee. 
 
 ![Define comparison group](../images/wpa/tutorials/define-comp-group.png) 
 
@@ -104,7 +104,7 @@ Of what use is this comparison? For example, one important measure of manager ef
 
 #### Custom comparison group
 
-The **Custom comparison group** lets you select a group of your choosing in the organization by using filters. In this example, we selected groups of employees who are at the same career stage and have the same work title as the individuals of interest. 
+The **Custom comparison group** lets you define a group of your choosing in the organization by using organizational attributes. In this example, we selected groups of employees who are at the same career stage and have the same work title as the individuals of interest. 
 
 For example, one individual of interest was "Emil." Emil has just graduated from college and is a first-level engineer. In this example, the **Custom comparison group** also consists of people who’ve just graduated and are first-level engineers. The results of this comparison will appear in a second line for Emil in the query results file. 
 
@@ -121,12 +121,14 @@ In the **Select metrics** step, you start by selecting one or more metrics. For 
  
 ![Select metrics](../images/wpa/tutorials/select-metrics.png) 
 
+After you select a base metric, you can change its display name.  
+
 #### Select metrics options
 
 In this section, you define how the metrics are used in the comparison:
 
  * For **Calculation type**, select whether to compare the mean value, the median, or another statistical operator. 
- * For **Difference type**, select whether to express the result of this comparison in raw numbers or in percentages. 
+ * For **Difference type**, select whether to express the result of this comparison in absolute numbers or in percentages. 
 
 You can vary the Calculation types and Difference types in the metrics that you’ve chosen.
 
@@ -142,11 +144,11 @@ In this example results file, the first 13 lines of data report comparison resul
  
 Here are a few things we know about this comparison (the results on these 13 lines):
 
- * The **PeerGroup** value tells us that this person was compared with peers. 
- * The **Date** value states the first day of the week from which data was drawn. 
+ * The **PeerGroup** value tells us that this person was compared with peers who share the same manager. 
+ * The **Date** value states the first day of the aggregation period from which data was drawn. 
  * Each of these thirteen lines represents one aggregation period&mdash;in this case, one week, because we selected "week" in the **Group by** control while defining the query. 
 
-The person sent 140 emails during the week that started in January 27, while their peer group sent 126, on average. The difference was 14. However, during the following week (which began on February 3), the person sent 109 and their group sent on average 120, so Emails_sent_Difference shows that they sent 11 fewer emails than their peer group. 
+The person sent 140 emails during the week that started in January 27, while their peer group sent 126, on average. The difference was 14. However, during the following week (which began on February 3), the person sent 109 and their group sent on average 120, so Emails_sent_Difference shows that they sent 11 fewer emails than their peer group. If you had chosen percentage for **Difference type**, the displayed result would have been "-9%" (nine percent fewer) emails than were sent by their peer group.
 
 For more information, see [View, download, and export query results](../use/view-download-and-export-query-results.md). 
 
