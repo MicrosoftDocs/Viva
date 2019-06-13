@@ -6,7 +6,7 @@ title: Audit logs for Workplace Analytics
 description: Learn how to monitor Workplace Analytics activity with audit logs
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 06/13/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -86,21 +86,28 @@ The following tables describe Workplace Analytics activities that the audit logs
 
 Activity |Description
 -----|-----------
-Uploaded org data |Admin uploaded organizational data file.
-Updated Privacy Setting |Admin updated settings.
-Updated data access setting |Admin updated data access settings.
+Uploaded org data |Admin uploaded organizational data file
+Updated Privacy Setting |Admin updated settings
+Updated data access setting |Admin updated data access settings
+
+**Authorization activities**
+
+Activity |Description
+-----|-----------
+User logged in |User logged in to Workplace Analytics with a valid [user role](../use/user-roles.md)
+User logged out |User selected to log out of Workplace Analytics
 
 **Query data access (analyst) activities**
 
 Activity |Description
 -----|-----------
-Executed Query |Analyst ran a query.
-Cancelled Query |Analyst cancelled a running query.
-Delete Result |Analyst deleted a query result.
-Downloaded Report |Analyst downloaded a query result.
-Accessed OData link |Analyst accessed the OData link.
-Create Meeting Exclusion |Analyst created a new meeting exclusion rule.
-Updated Preferred Meeting Exclusion |Analyst updated the preferred meeting exclusion rule.
+Executed Query |Analyst ran a query
+Cancelled Query |Analyst cancelled a running query
+Delete Result |Analyst deleted a query result
+Downloaded Report |Analyst downloaded a query result
+Accessed OData link |Analyst accessed the OData link
+Create Meeting Exclusion |Analyst created a new meeting exclusion rule
+Updated Preferred Meeting Exclusion |Analyst updated the preferred meeting exclusion rule
 
 **Explore data access activities**
 
