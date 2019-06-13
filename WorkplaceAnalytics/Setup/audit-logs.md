@@ -78,7 +78,7 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
 
     ![Audit log search](../Images/WpA/privacy/audit-details.png)
 
-## Workplace Analytics Activities
+## Workplace Analytics activities
 
 The following tables describe Workplace Analytics activities that the audit logs can record.
 
