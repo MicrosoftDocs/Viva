@@ -45,7 +45,9 @@ Every calculation that MyAnalytics performs is based on data that you, yourself,
 
 MyAnalytics does not have any tracking software running on your computer.
 
-### Q3 What data does MyAnalytics use and not use?
+### Q3 What data does MyAnalytics use?
+
+ * _Used only with explicit user consent_: Data derived from activities on your computer, such as applications that you've used and websites that you've visited.
 
 #### MyAnalytics uses
 
@@ -68,9 +70,10 @@ MyAnalytics does not have any tracking software running on your computer.
 
    * MyAnalytics counts audio calls, video calls, and chats that people make in Teams and in Skype for Business as collaboration activities.
 
+ * OneDrive SharePoint data: MyAnalytics shows a count of OneDrive and SharePoint documents that you have worked on. 
+
 #### MyAnalytics does not use
 
- * Data derived from activities on your computer, such as applications that you've used and websites that you've visited.
  * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.  
 
 
