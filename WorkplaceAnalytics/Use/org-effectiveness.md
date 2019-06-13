@@ -44,7 +44,7 @@ In this task, you take the first steps to start an organizational effectiveness 
 1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. 
 2.	Expand **Analyze** and open the **Explore** page. This page has two sections: **Metrics overview** and **Analyze and start Solutions**.
 
-    ![Explore page](../images/wpa/use/explore-p12.png)
+    ![Explore page](../images/wpa/use/explore-demo.png)
 
 3.	Under **Analyze and start Solutions**, select **Organizational effectiveness**. 
 
