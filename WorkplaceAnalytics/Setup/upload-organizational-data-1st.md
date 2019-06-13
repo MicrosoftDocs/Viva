@@ -6,7 +6,7 @@ title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
 ms.author: v-pascha
-ms.date: 03/29/2019
+ms.date: 05/31/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -62,7 +62,7 @@ After the initial processing (of collaboration data) is complete, the next time 
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
 
-   ![Map data fields](../images/wpa/setup/05-map-data-fields.png)
+   ![Map data fields](../images/wpa/setup/onboarding-mapping.png)
 
 This page includes tables for System default fields and Custom fields for mapping the data for the upload file. These field types are described in the following sections. 
 
@@ -155,7 +155,7 @@ The upload of the .csv file starts the validation process.
 
 After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _We are validating your upload_ message.
 
-   ![Validating the uploaded data](../images/wpa/setup/06-validating-your-upload.png)
+   ![Validating the uploaded data](../images/wpa/setup/onboarding-validation-in-progress.png)
 
 During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel**. 
 
@@ -163,7 +163,7 @@ During this step, if you decide that the data you are uploading is not the corre
 
 If validation succeeds, in the **Validation results** section, the page displays the _Succeeded_ notification, which reports information about the data that was successfully uploaded and validated:
 
-<img src="../images/wpa/setup/4-orgd-reprocess.png" alt="Validation succeeded">
+![Validation succeeded](../images/wpa/setup/4-orgd-reprocess.png)
 
 After successful validation, Workplace Analytics processes your new data.
 
@@ -182,7 +182,7 @@ On this page, you have the following options:
 
 If data validation fails, the **Setup** page shows a "could not be validated" notification in the **Upload details** area. This page also presents you with options of how to proceed.
 
-<img src="../images/wpa/setup/5-orgd-upload-fail.png" alt="Validation failed">
+![Validation failed](../images/wpa/setup/onboarding-validation-failed.png)
 
 Before you address the problem, you can select **Download error log**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next &mdash; fix the source data or change your mapping settings. The following section describes these options: 
 
