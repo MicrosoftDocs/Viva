@@ -81,6 +81,8 @@
                   href: ~/Use/Explore-Metrics-external-collaboration.md 
                 - name: Charts
                   href: ~/Use/Chart-Types.md
+                - name: Organizational effectiveness
+                  href: ~/Use/org-effectiveness.md                  
             - name: Queries
               items:
                 - name: Overview
