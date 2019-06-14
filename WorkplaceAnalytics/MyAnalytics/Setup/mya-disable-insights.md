@@ -6,7 +6,7 @@ title: Disable the Insights Outlook add-in
 description: How to disable the Insights Outlook add-in at the organizational level 
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/16/2019
+ms.date: 06/14/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -29,7 +29,7 @@ You can disable the Insights Outlook add-in for your entire organization by usin
    ![Microsoft 365 admin center](../../images/mya/use/exchange-admin-center.png) -->
             
  
-3. In the dashboard, select **add-ins**. 
+3. In the dashboard, select **add-ins**.
 
 <!--
    ![Add-ins page](../../images/mya/use/add-ins-page.png) -->
@@ -45,3 +45,7 @@ You can disable the Insights Outlook add-in for your entire organization by usin
    ![Clear checkboxes and Save](../../images/mya/use/clear-checkbox.png) -->
 
 This disables the add-in for all licensed users in your organization.
+
+## Related topics
+
+[How to individually opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics)
