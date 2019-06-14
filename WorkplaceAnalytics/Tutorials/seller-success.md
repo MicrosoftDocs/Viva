@@ -26,30 +26,36 @@ To be able to perform the following tasks, you must have either the analyst or l
 
 ## Create a seller success plan 
 
-**Prerequisite:** To create a seller success plan, you must have CRM data uploaded. For more information, see CRM data in Workplace Analytics.
+**Prerequisite:** To create a seller success plan, you must have CRM data uploaded. For more information, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
 
 Complete the following tasks to create and run a seller success plan: 
 
- * Create the plan: Take the initial steps to create a plan.  
- * Select participants: Select participants for the plan either by uploading a .csv file or by using filters.
- * Start the plan: After your list of participants has been validated, start the plan for them.
+ * [Create the plan](#create-the-plan): Take the initial steps to create a plan.  
+ * [Select participants](#select-participants): Select participants for the plan either by uploading a .csv file or by using filters.
+ * [Start the plan](#start-the-plan): After your list of participants has been validated, start the plan for them.
 
 ### Create the plan 
 
-1.	Open Workplace Analytics. If prompted, sign in with your work account. 
+1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account. 
+
 2.	In the left navigation pane, select **Solutions**. 
-3.	On the Solutions page, under **Available plans**, on the **Seller success** card, select **Start now**. 
- The **Seller success goal** page opens: 
+
+3.	On the **Solutions** page, under **Available plans**, on the **Seller success** card, select **Start now**. 
  
-3.	(Optional) Change the plan name from the default name. 
-4.	Go to Select participants. 
+    ![Your work patterns](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
+
+    The **Seller success goal** page opens: 
+ 
+4.	(Optional) Change the plan name from the default name. 
+
+5.	Go to [Select participants](#select-participants). 
 
 ## Select participants
 
 If you have a particular group in mind, you can identify the group in either of the following ways: 
 
- * Upload a .csv file 
- * Use filters
+ * [Upload a .csv file](#upload-a-csv-file) 
+ * [Use filters](#use-filters)
 
 ### Upload a .csv file
 
@@ -62,21 +68,27 @@ If you have a particular group in mind, you can identify the group in either of 
 
     Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see Validation. 
 
-5.	After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to Start the plan.
+5.	After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to [Start the plan](#start-the-plan).
 
 ### Use filters
 
-1.	Select Use filters.
-2.	Add filters to define your group. For example, select Organization, Equals, and Sales in the fields to select the people who work in sales as your group. 
-Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection: 
-3.	After you have selected the group(s) of participants, select Validate. 
-Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see Validation.
-4.	After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to Start the plan. 
+1.	Select **Use filters**.
+
+2.	Add filters to define your group. For example, select **Organization**, **Equals**, and **Sales** in the fields to select the people who work in sales as your group. 
+
+    Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection: 
+
+3.	After you have selected the group(s) of participants, select **Validate**.
+  
+    Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation).
+
+4.	After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to [Start the plan](#start-the-plan). 
 
 ## Start the plan
 
-1.	(Optional) Change the dates of the Plan duration. Do this by editing the start date of the plan. 
-2.	Select Create plan. This starts the plan for the plan participants. For an overview of their experience, see Participant experience. 
+1.	(Optional) Change the dates of the **Plan duration**. Do this by editing the start date of the plan. 
+
+2.	Select **Create plan**. This starts the plan for the plan participants. For an overview of their experience, see [Participant experience](#participant-experience). 
 
 Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. 
 
@@ -90,16 +102,17 @@ After the plan is started, the participants of a Seller success plan receive a t
 
 This email can contain any of several descriptive cards, each of which is designed to help the participants work more effectively:
 
- * Time with customers
- * Depth of engagement
- * Leverage internal networks
- * Connect with leadership
+ * [Time with customers](#time-with-customers)
+ * [Depth of engagement](#depth-of-engagement)
+ * [Leverage internal networks](#leverage-internal-networks)
+ * [Connect with leadership](#connect-with-leadership)
 
 ### Use the seller success email
 
-The seller success email contains several cards, each of which offers a targeted suggestion. In three of the cards, the Suggestion section contains an Explore option that you can select to learn more about this suggestion and how it can be of benefit. 
+The seller success email contains several cards, each of which offers a targeted suggestion. In three of the cards, the **Suggestion** section contains an **Explore** option that you can select to learn more about this suggestion and how it can be of benefit. 
 
-The fourth card, Connect with leadership, has a Manage meetings option. Select Manage meetings to view your upcoming meetings in the Outlook web calendar and, optionally, make changes to those meetings.    
+The fourth card, [Connect with leadership](#connect-with-leadership), has a **Manage meetings** option. Select **Manage meetings** to view your upcoming meetings in the Outlook web calendar and, optionally, to make changes to those meetings.    
+
 ## Email cards
 
 Depending on the recent available collaboration data, the Seller success participant email will contain any or all of the following informative cards. 
