@@ -37,6 +37,8 @@ We appreciate all your feedback. To report any language-related issues, use the 
 
 ### Related topics
 
+[Supported languages in meeting exclusion rules](../tutorials/meeting-exclusion-concept.md#supported-languages)
+
 [Configure settings for Workplace Analytics](../use/settings.md)
 
 [Privacy settings considerations for Workplace Analytics](../Privacy/privacy-considerations.md)
