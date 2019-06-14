@@ -37,8 +37,6 @@ We appreciate all your feedback. To report any language-related issues, use the 
 
 ### Related topics
 
-[To opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics)
-
 [Configure settings for Workplace Analytics](../use/settings.md)
 
 [Privacy settings considerations for Workplace Analytics](../Privacy/privacy-considerations.md)
