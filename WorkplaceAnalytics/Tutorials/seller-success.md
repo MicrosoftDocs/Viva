@@ -52,14 +52,14 @@ Complete the following tasks to create and run a seller success plan:
 
 5.	Go to [Select participants](#select-participants). 
 
-## Select participants
+### Select participants
 
 If you have a particular group in mind, you can identify the group in either of the following ways: 
 
  * [Upload a .csv file](#upload-a-csv-file) 
  * [Use filters](#use-filters)
 
-### Upload a .csv file
+#### Upload a .csv file
 
 **Prerequisite:** A .csv file that lists the employees you want to participate in the plan. The format of this file is simple: a list of email addresses in a single column. To obtain this file, you might have exported it from an HR system. 
 
@@ -72,7 +72,7 @@ If you have a particular group in mind, you can identify the group in either of 
 
 5.	After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to [Start the plan](#start-the-plan).
 
-### Use filters
+#### Use filters
 
 1.	Select **Use filters**.
 
@@ -88,7 +88,7 @@ If you have a particular group in mind, you can identify the group in either of 
 
 4.	After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to [Start the plan](#start-the-plan). 
 
-## Start the plan
+### Start the plan
 
 1.	(Optional) Change the dates of the **Plan duration**. Do this by editing the start date of the plan. 
 
@@ -163,6 +163,7 @@ On this card, select **Manage meetings** to open the [calendar week view of Outl
 ### Privacy note
 
 The data that you see in the seller success email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email, this data is for your eyes only. For more information, see [Data privacy in Workplace Analytics](#data-privacy-in-workplace-analytics). 
+<br>
 
 # Concepts
 
