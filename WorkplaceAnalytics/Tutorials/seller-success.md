@@ -42,9 +42,11 @@ Complete the following tasks to create and run a seller success plan:
 
 3.	On the **Solutions** page, under **Available plans**, on the **Seller success** card, select **Start now**. 
  
-    ![Your work patterns](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
+    ![Solutions main page](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
 
-    The **Seller success goal** page opens: 
+    The **Seller success plan** page opens: 
+
+    ![New Seller success plan](../images/wpa/tutorials/set-up-new-seller-plan.png)
  
 4.	(Optional) Change the plan name from the default name. 
 
@@ -62,11 +64,11 @@ If you have a particular group in mind, you can identify the group in either of 
 **Prerequisite:** A .csv file that lists the employees you want to participate in the plan. The format of this file is simple: a list of email addresses in a single column. To obtain this file, you might have exported it from an HR system. 
 
 1.	Obtain the .csv file to upload.
-2.	Select Upload .csv file.
-3.	Select Browse, select a .csv file, and then select Open. 
-4.	After the file has been uploaded, select Validate.
+2.	Select **Upload .csv file**.
+3.	Select **Browse**, select a .csv file, and then select **Open**. 
+4.	After the file has been uploaded, select **Validate**.
 
-    Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see Validation. 
+    Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation). 
 
 5.	After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to [Start the plan](#start-the-plan).
 
@@ -77,6 +79,8 @@ If you have a particular group in mind, you can identify the group in either of 
 2.	Add filters to define your group. For example, select **Organization**, **Equals**, and **Sales** in the fields to select the people who work in sales as your group. 
 
     Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection: 
+
+    ![Use filters to find group](../images/wpa/tutorials/seller-plan-filters.png)
 
 3.	After you have selected the group(s) of participants, select **Validate**.
   
@@ -90,13 +94,18 @@ If you have a particular group in mind, you can identify the group in either of 
 
 2.	Select **Create plan**. This starts the plan for the plan participants. For an overview of their experience, see [Participant experience](#participant-experience). 
 
-Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. 
+<!-- ADD THIS CONTENT AFTER THE TRACK PAGE APPEARS
+Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. -->
 
 # Participant experience
+
+<!-- For Harshit, get FWLink to here for use in the product UI -->
 
 ## Email for participants
 
 After the plan is started, the participants of a Seller success plan receive a tailored email. It starts out by summarizing to the salesperson how they spent their time in internal and external collaboration during the preceding week:
+
+![Email top](../images/wpa/tutorials/email-top.png)
 
 ### Email structure
 
@@ -120,13 +129,18 @@ Depending on the recent available collaboration data, the Seller success partici
 ### Time with customers
 
 The _Time with customers_ card displays how you spent your time with your customers over the past seven days. Its chart reflects total collaboration hours with each customer.
+
 Its purpose is to help you decide whether you are spending time optimally with customers according to their respective potential. 
+
+![Time with customers](../images/wpa/tutorials/time-with-customers.png)
  
 On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
 
 ### Depth of engagement
 
 In the _Depth of engagement_ section, the **People you engaged with** column shows the number of distinct people in the account with which you had one or more meaningful interaction in last 28 days.
+
+![Depth of engagement](../images/wpa/tutorials/depth-of-engagement.png)
  
 On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
 
@@ -134,12 +148,15 @@ On this card, select **Explore** to open the **Network** page of the MyAnalytics
 
 Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours you collaborated with particular internal groups. It calls your attention to these figures so that you can improve your depth of customer engagement by strengthening your internal networks.
 
+![Leverage internal networks](../images/wpa/tutorials/leverage-internal-networks.png)
  
 On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
 
 ### Connect with leadership
 
 Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Connect with leadership_ card displays the time the salesperson spent with their manager (or “leadership,” managers above their immediate manager) in meetings with particular customers.
+
+![Connect with leadership](../images/wpa/tutorials/connect-with-leadership.png)
  
 On this card, select **Manage meetings** to open the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
 
