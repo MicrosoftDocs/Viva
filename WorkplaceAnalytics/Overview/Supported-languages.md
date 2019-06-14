@@ -11,6 +11,7 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Workplace Analytics language support and guidelines
 
 The Workplace Analytics user interface is currently available in English, Japanese, and French. However, you can use Workplace Analytics with data in other languages. For the best experience, use the following guidelines:
@@ -31,10 +32,12 @@ The Workplace Analytics user interface is currently available in English, Japane
 In [Privacy settings](../use/settings.md#privacy-settings), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ![Exclude terms from subject line](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
- 
+
 We appreciate all your feedback. To report any language-related issues, use the **Send feedback** button.
 
 ### Related topics
+
+[]
 
 [Configure settings for Workplace Analytics](../use/settings.md)
 
