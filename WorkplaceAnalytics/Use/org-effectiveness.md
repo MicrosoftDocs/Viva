@@ -128,7 +128,7 @@ Depending on the size of the analysis, the run should take between several minut
 
 ## View results
 
-After your analysis completes, its status is updated in the Organizational effectiveness analysis table with a check mark. In the following illustration, the second and third analyses have completed: 
+After your analysis completes, its status is updated in the Organizational effectiveness analysis table with a check mark. In the following illustration, the second and third analyses have completed:  
 
 ![Results with one row](../images/wpa/use/three-analyses.png)
  
