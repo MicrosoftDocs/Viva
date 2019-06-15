@@ -120,11 +120,15 @@ The fourth and final screen of the sequence summarizes the choices that you’ve
 
 If you do not need to make changes, select **Submit**.
 
-This opens the page that displays the organizational effectiveness table. The analysis that you just submitted is shown at the top of the list, with a status of _running_. Depending on the size of the analysis, the run should take between several minutes and one hour. Go on to [View results](#view-results).
+This opens the page that displays the organizational effectiveness table. The analysis that you just submitted appears at the top of the list with a status of _running_, as shown here: 
+
+![Analysis running](../images/wpa/use/analysis-running.png)
+
+Depending on the size of the analysis, the run should take between several minutes and one hour. Go on to [View results](#view-results).
 
 ## View results
 
-After your analysis completes, its status is updated in the Organizational effectiveness analysis table with a check mark. Two of the analysis in the following illustration have completed: 
+After your analysis completes, its status is updated in the Organizational effectiveness analysis table with a check mark. In the following illustration, the second and third analyses have completed: 
 
 ![Results with one row](../images/wpa/use/three-analyses.png)
  
