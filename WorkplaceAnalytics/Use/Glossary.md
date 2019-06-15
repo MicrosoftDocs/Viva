@@ -6,7 +6,7 @@ title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 06/14/2019
 ms.topic: reference
 localization_priority: normal 
 ms.prod: wpa
@@ -23,7 +23,7 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Attendee|A person who was invited and *attended* the meeting.|
 |Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
 |Calendar fragmentation|When a person does not have blocks of time sufficient to focus on completing complex tasks. This is typical of those with only small blocks of time (15, 30, or 60 minutes) between meetings. Anything that is not *focus time* (uninterrupted time blocks of two hours or more with no meetings) is considered calendar fragmentation.|
-|Collaborators|Anyone that *measured employees* or *time investors* interact with by email or in meetings. Collaborators are identified as internal (within the company) or external (outside of the company). |
+|Collaborators| Anyone that *measured employees* or *time investors* interact with by email or in meetings. Collaborators are identified as internal (within the company) or external (outside of the company) and discovered through the data extracted for measured employees. Internal collaborators have domains internal to your organization, while external collaborators have domains external to your organization. |
 |Collaborator group|A group of collaborators that are identified as internal (within the company) or external (outside of the company) that interacts by email or in meetings with a specified *time investor*.|
 |Connection|Two or more *meaningful interactions*.|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
