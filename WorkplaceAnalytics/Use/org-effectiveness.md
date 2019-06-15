@@ -54,7 +54,7 @@ In this task, you take the first steps to start an organizational effectiveness 
 
 4.	Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis: 
 
-    ![New analysis panel](../images/wpa/use/start-analysis-2.png)
+    ![New analysis panel](../images/wpa/use/step1-new-request.png)
  
 The top of this panel shows the four steps for creating an organizational effectiveness analysis: _Reference group_, _Peer group_, _Conditions_, and _Submit_.
 
@@ -85,6 +85,8 @@ As you define this group, bear in mind that it has a maximum size of 150 members
 
 In this task, you identify the peer group that will be compared with the reference group. As with the peer group, the reference group has a maximum size of 150 members.  
 
+![Identify peer group](../images/wpa/use/step2-peer-group.png)
+
 1.	In the **Peers** section, identify the members of the peer group. As with the reference group, you choose the peer group; its members need not be on the same team. You can identify them in either of the following two ways:
 
     * [Upload a .csv file](#upload-a-csv-file). For this, you’ll use a file that has been prepared with email addresses.  
@@ -101,7 +103,7 @@ In this optional step, you make sure that the right people in each of your selec
 
 After you selected **Next** in the Peer group section, the **Conditions** page opens:
  
-![New analysis panel](../images/wpa/use/apply-conditions.png)
+![New analysis panel](../images/wpa/use/step3-conditions.png)
 
 On this page, you define filters, to filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the peer group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
 
@@ -114,7 +116,7 @@ After you have finished applying conditions, select **Next** and go to [Submit t
 
 The fourth and final screen of the sequence summarizes the choices that you’ve made, including the analysis name, the date range, and the names and sizes of the reference and peer groups. If you want to return to preceding steps to change any of these things, select **Back**:
 
-![Summary page with Submit button](../images/wpa/use/summary-and-submit.png)
+![Summary page with Submit button](../images/wpa/use/step4-summary-edit.png)
 
 If you do not need to make changes, select **Submit**.
 
@@ -122,9 +124,9 @@ This opens the page that displays the organizational effectiveness table. The an
 
 ## View results
 
-After your analysis completes, its status is updated in the Organizational effectiveness analysis table with a check mark: 
+After your analysis completes, its status is updated in the Organizational effectiveness analysis table with a check mark. Two of the analysis in the following illustration have completed: 
 
-![Results with one row](../images/wpa/use/result-1-line.png)
+![Results with one row](../images/wpa/use/three-analyses.png)
  
 You can do several things on this page:
  * <u>In the rows of analyses:</u>
