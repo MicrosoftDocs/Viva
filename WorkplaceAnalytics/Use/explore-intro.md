@@ -22,3 +22,4 @@ Explore in Workplace Analytics includes the following set of analytical cards as
 * [**Internal networks**](../use/explore-metrics-internal-networks.md) shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
 * [**External collaboration**](../use/explore-metrics-external-collaboration.md) gives a summary of employees' network patterns with people outside the company.
 * [**Teams collaboration**](../use/explore-metrics-teams.md) shows insights and communication trends about how your organization's employees use Teams for communication and collaboration.
+* [**Organizational effectiveness**](../use/org-effectiveness.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
