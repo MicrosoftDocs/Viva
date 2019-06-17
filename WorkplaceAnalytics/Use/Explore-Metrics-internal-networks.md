@@ -16,7 +16,7 @@ ms.prod: wpa
 
 **Internal networks** in **Explore** shows network connections between different people exclusively within a company; for example, between the sales department and the human resources department.
 
-![Networks and collaboration](../images/wpa/use/networks-and-collaboration-explore.png)
+![Networks and collaboration](../images/wpa/use/internal-networks.png)
 
 To open **Internal networks**:
 

@@ -16,7 +16,7 @@ ms.prod: wpa
 
 **Meetings overview** in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
-![Meetings overview](../images/wpa/use/meetings-overview-explore-metrics.png)
+![Meetings overview](../images/wpa/use/meetings-overview.png)
 
 To open **Meetings overview**:
 

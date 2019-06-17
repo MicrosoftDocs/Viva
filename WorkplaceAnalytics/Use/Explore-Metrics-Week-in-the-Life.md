@@ -14,9 +14,9 @@ ms.prod: wpa
 
 # Week in the life
 
- **Week in the life** in **Explore** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+**Week in the life** in **Explore** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
-![Week in the life](../images/wpa/use/explore-week-life.png)
+![Week in the life](../images/wpa/use/week-in-the-life.png)
 
 To open **Week in the life**:
 
