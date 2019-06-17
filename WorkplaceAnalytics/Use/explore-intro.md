@@ -17,7 +17,7 @@ ms.prod: wpa
 Explore in Workplace Analytics includes the following set of analytical cards as a starting point to gain quick insights into your organization's data and to identify data you'll want to investigate further.
 
 ### Metrics overview
-  
+
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) gives a summary of day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers and employees.
