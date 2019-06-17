@@ -6,7 +6,7 @@ title: Explore External collaboration metrics in Workplace Analytics
 description: An overview of the External collaboration dashboards available in Workplace Analytics.
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 06/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,14 +14,14 @@ ms.prod: wpa
 
 # External collaboration
 
-The **External collaboration** page in **Explore** provides a summary of your employees' network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
+**External collaboration** in **Explore** provides a summary of your employees' network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
 
 >[!Note]
 > All metrics are reported at a group level and cannot be traced back to any individual.
 
 ![External collaboration](../images/wpa/use/external-collab-top.png)
 
-To open the **External collaboration** page:
+To open **External collaboration**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
 2. In the left navigation pane, select **Analyze** and then select **Explore**.

@@ -4,10 +4,10 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Explore Teams metrics in Workplace Analytics
-description: Overview of meetings metrics on the Workplace Analytics Explore page
+description: Overview of Teams collaboration metrics in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,15 +16,15 @@ ms.prod: wpa
 
 # Teams collaboration
 
-The **Microsoft Teams** page in **Explore** shows communication trends about and insights into how your organization's employees use Teams for communication and collaboration. You can select what collaboration data to analyze on this page, either Teams' calls, instant messages, or both.
+**Teams collaboration** in **Explore** shows communication trends about and insights into how your organization's employees use Teams for communication and collaboration. You can select what collaboration data to analyze on this page, either Teams' calls, instant messages, or both.
 
 ![Teams collaboration](../images/wpa/use/teams-explore.png)
 
-To open the **Microsoft Teams** page:
+To open **Teams collaboration**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
 2. In the left navigation pane, select **Analyze** and then select **Explore**.
-3. In **Explore**, select **Microsoft Teams**.
+3. In **Explore**, select **Teams collaboration**.
 
 ## Call hours
 
@@ -74,6 +74,7 @@ Working hours in calls| Total number of hours a person spent time in scheduled a
 
 ## Related topics
 
+* [Explore page settings](../use/explore-page-settings.md)
 * [Person queries](../tutorials/Person-queries.md)
 * [Meeting queries](../tutorials/Meeting-queries.md)
 * [Workplace Analytics Charts](../use/chart-types.md)

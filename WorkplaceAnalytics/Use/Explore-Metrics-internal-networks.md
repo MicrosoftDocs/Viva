@@ -6,7 +6,7 @@ title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal network collaboration dashboards available in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 06/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,11 +14,11 @@ ms.prod: wpa
 
 # Internal networks
 
-The **Internal networks** page in **Explore** shows network connections between different people exclusively within a company; for example, between the sales department and the human resources department.
+**Internal networks** in **Explore** shows network connections between different people exclusively within a company; for example, between the sales department and the human resources department.
 
 ![Networks and collaboration](../images/wpa/use/networks-and-collaboration-explore.png)
 
-To open the **Internal networks** page:
+To open **Internal networks**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
 2. In the left navigation pane, select **Analyze** and then select **Explore**.
@@ -72,5 +72,5 @@ Network breadth can indicate:
 
 ## Related topics
 
+[Explore page settings](../use/explore-page-settings.md)
 [Workplace Analytics Charts](../use/chart-types.md)
-

@@ -6,19 +6,19 @@ title: Explore management and coaching metrics in Workplace Analytics
 description: Overview of the management and coaching metrics in the Workplace Analytics Explore page
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 06/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Management and Coaching
+# Management and coaching
 
-The **Management and coaching** page in **Explore** summarizes collaboration between leaders, managers, and employees. As an analyst, you can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+**Management and coaching** in **Explore** summarizes collaboration between leaders, managers, and employees. As an analyst, you can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Management and coaching](../images/wpa/use/management-coaching-overview.png)
 
-To open the **Management and coaching** page:
+To open the **Management and coaching**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
 2. In the left navigation pane, select **Analyze** and then select **Explore**.
@@ -32,7 +32,7 @@ The **Time with manager** histogram compares how much time employees spend in me
 
 ### Why it’s important
 
-Seeing the distribution of time employees spend with managers enables you to identify the central tendency, variation, and outliers. Long tails and multiple peaks can identify areas to perform deeper analysis. The amount of time that an employee spends with their manager can indicate positive and negative behaviors. 
+Seeing the distribution of time employees spend with managers enables you to identify the central tendency, variation, and outliers. Long tails and multiple peaks can identify areas to perform deeper analysis. The amount of time that an employee spends with their manager can indicate positive and negative behaviors.
 
 * Higher time with manager can indicate a good coaching and development culture where managers are focused on developing their employees.
 * A very high proportion of time in meetings with manager can indicate a culture of micro-management or lack of trust.
@@ -81,4 +81,5 @@ Depending on roles, it can be important for employees to have time to meet with 
 
 ## Related topics
 
+[Explore page settings](../use/explore-page-settings.md)
 [Workplace Analytics Charts](../use/chart-types.md)

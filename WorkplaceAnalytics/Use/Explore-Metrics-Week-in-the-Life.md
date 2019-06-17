@@ -6,7 +6,7 @@ title: Week in the life metrics in Workplace Analytics
 description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 06/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,17 +14,18 @@ ms.prod: wpa
 
 # Week in the life
 
- The **Week in the life** page in **Explore** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+ **Week in the life** in **Explore** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Week in the life](../images/wpa/use/explore-week-life.png)
 
-To open the **Week in the life** page:
+To open **Week in the life**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
 2. In the left navigation pane, select **Analyze** and then select **Explore**.
 3. In **Explore**, select **Week in the life**.
 
 ## All collaboration hours
+
 All collaboration hours shows the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s set business hours.
 
 **Meeting hours** shows the number of hours the person spent in meetings with at least one other person. **Email hours** shows the number of hours the person spent sending and reading email.
@@ -32,6 +33,7 @@ All collaboration hours shows the total number of hours that a person spent in m
 ![Week in the life collaboration hours](../images/wpa/use/01-all-collab-hours.png)
 
 ### Why it's important
+
 Meeting and email hours are the most basic components of collaboration. They help quantify the collaboration volume and patterns within a company, potentially highlighting an under or overly collaborative culture.
 
 Excess incoming email becomes a distraction from work focus and a source of employee stress, particularly if combined with many meetings. Too many hours in meetings reduces the time available to complete individual work tasks, which can lead to longer working hours and employee stress.
@@ -39,16 +41,19 @@ Excess incoming email becomes a distraction from work focus and a source of empl
 Workplace Analytics helps analysts identify high and low collaboration and its causes.  
 
 ### Common causes of high levels of collaboration
+
 * Large meetings from an overly inclusive culture typically leaves all but a small minority of people actively engaged.
 * Unnecessary attendees in meetings can result in unproductive collaboration time.
 * Long meetings can potentially make it difficult to retain the focus of attendees unless they are well-designed small sessions.
 * Recurring meetings may persist long after the value of the collaboration has been gained.
 
-### Common causes of low levels of collaboration 
+### Common causes of low levels of collaboration
+
 * Teams or organizations that operate in silos and don’t collaborate across the company.
 * A company culture that does not promote collaborative behaviors and open working styles.
 
 ## After-hours collaboration hours
+
 After-hours meeting and email hours are the number of hours that a person spent in meetings and sending email outside of business hours. (Workplace Analytics uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
 
 ![After-hours collaboration hours](../images/wpa/use/02-after-hours-collab-hours.png)
@@ -106,4 +111,5 @@ Workweek span captures the span of time an employee spends in work-related activ
 
 ## Related topics
 
+[Explore page settings](../use/explore-page-settings.md)
 [Workplace Analytics Charts](../use/chart-types.md)
