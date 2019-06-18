@@ -20,11 +20,9 @@ It’s not the purpose of the seller success solution to make sellers more produ
 
 The solution displays insights to help salespeople optimally use their limited time to maximize productivity, conversion rates, and sales revenues. In this case, productivity is defined as spending more time with the right set of customers, leveraging internal networks, and involving their manager and leadership in strategic customer meetings, as needed.
 
-### Roles
-
-To be able to perform the following tasks, you must have either the analyst or limited analyst role of Workplace Analytics. 
-
 ## Create a seller success plan 
+
+**Role:** analyst or limited analyst 
 
 **Prerequisite:** To create a seller success plan, you must have CRM data uploaded. For more information, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
 
@@ -101,6 +99,8 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 <!-- For Harshit, get FWLink to here for use in the product UI -->
 
+**Role:** No particular role is required. The only requirement is that participants have both a Workplace Analytics license and a MyAnalytics license.   
+
 ## Email for participants
 
 After the plan is started, the participants of a Seller success plan receive a tailored email. It starts out by summarizing to the salesperson how they spent their time in internal and external collaboration during the preceding week:
@@ -173,7 +173,7 @@ This section describes concepts that can help you as you create and use seller s
 
 After you select **Validate**, Workplace Analytics checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Workplace Analytics license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. 
 
-After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size]() set for the organization, you can continue to use this group in creating your plan. 
+After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
 
 ## Data privacy in Workplace Analytics
 
