@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/07/2019
+ms.date: 06/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,7 +20,7 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
-## May 2019
+## June 2019
 
 The following new template and template enhancements are now available in this month's release.
 
