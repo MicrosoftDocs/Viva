@@ -27,9 +27,10 @@ This article describes how to view these results in the following steps:
 1. [Run a query and view results](#run-a-query-and-view-results) 
 2. [Customize your data visualization](#customize-your-data-visualization)
 
-   As you examine your results, you might uncover a group of employees who could benefit from a Solutions plan. If this is the case, you start the process by submitting that group: 
+   As you examine your results, you might uncover a group of employees who could benefit from a Solutions plan. If this is the case, you can start the process by submitting and validating that group: 
 
 3. [Submit a group ](#submit-a-group)
+4. [Validate](#validate)
 
    After the group has been submitted and successfully validated, you can start the plan for the submitted group:
  
@@ -92,9 +93,9 @@ The group size is important because query visualization, along with Workplace An
 
    ![Set up new plan](../images/wpa/tutorials/set-up-new-plan-qv.png)
 
-Go on to [Start the plan](#start-the-plan).
+Go on to [Validate](#validate).
 
-## Start the plan
+## Validate
 
 1. For **Plan type**, choose an appropriate plan type for that group that you designated and select **Start now**.
 
@@ -102,8 +103,17 @@ Go on to [Start the plan](#start-the-plan).
 
 3. Select **Validate** to validate the group that you've selected. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
 
-If validation fails, you might decide to return to your query results and select a different group or additional groups, or to start over. After any subsequent group selection, you must select **Validate** again. 
+   If validation fails, you might decide to return to your query results and select a different group or additional groups, or to start over. After any subsequent group selection, you must select **Validate** again. 
 
-5. After validation (even if there are validation warnings), if your group size meets or exceeds the minimum group size, you can finish setting up your plan. Go to [Start the plan](solutionsv2-task.md#start-the-plan).
+After validation succeeds, go to [Start the plan](#start-the-plan).
 
- 
+## Start the plan
+
+After the group that you’ve selected validates successfully (even if there are validation warnings), if your group size meets or exceeds the minimum group size, you can finish setting up your plan. 
+
+![Set up new plan](../images/wpa/tutorials/set-up-new-plan-qv-final.png)
+
+1.	(Optional) Change the **Plan name** to a name more meaningful to you than the suggested value.
+2.	(Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan’s end date is then calculated and displayed.
+3.	(Optional) Change the **Plan target** to a different value. Note that you can select only percentage-based targets, such as a 10% decrease in after-hours work. 
+4.	Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates displayed for **Plan duration**. 
