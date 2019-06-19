@@ -6,7 +6,7 @@ title: Organizational effectiveness analyses
 description: Describes the organizational effectiveness analysis of Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/07/2019
+ms.date: 06/18/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -69,7 +69,7 @@ The top of this panel shows the four steps for creating an organizational effect
 > [!Tip] 
 > Before you complete this task, you should know which group of people within your organization that you want to use for the reference group
 
-As you define this group, bear in mind that it has a maximum size of 150 members. 
+As you define this group, bear in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than  1000 members. 
 
 1.	In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not be on the same team. You can identify them in either of the following two ways:
 
@@ -83,7 +83,7 @@ As you define this group, bear in mind that it has a maximum size of 150 members
 
 ## Select the peer group
 
-In this task, you identify the peer group that will be compared with the reference group. As with the peer group, the reference group has a maximum size of 150 members.  
+As you define this group, bear in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than  1000 members.   
 
 ![Identify peer group](../images/wpa/use/step2-peer-group.png)
 
@@ -176,7 +176,7 @@ Follow these steps to upload a file that contains email addresses:
     <!-- REMOVE FOR NOW (PER SANJAY, WHO IS CHECKING ON THIS) Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. -->
 
     > [!Note] 
-    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The maximum group size for organizational effectiveness analyses is 150. 
+    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for organizational effectiveness analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
 4.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).
  
@@ -194,8 +194,8 @@ Follow these steps to upload a file that contains email addresses:
 
     Now, you could proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization), so you can start the analysis with this group. 
 
-> [!Note] 
-> In addition to the minimum group size, a maximum group size is also in effect. The current maximum group size for organizational effectiveness analyses is 150.
+    > [!Note] 
+    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for organizational effectiveness analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
 3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).  
 
