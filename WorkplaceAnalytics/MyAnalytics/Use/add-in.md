@@ -28,7 +28,7 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 ## What you might see
 
-In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**.
+In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**.
 
 You'll see Insights in the right panel in Outlook:
 
@@ -43,3 +43,14 @@ You'll see Insights in the right panel in Outlook:
 ## To turn off the add-in
 
 You can turn off the add-in by opting out of MyAnalytics. See [Can I opt out of MyAnalytics?](dashboard-2.md#can-i-opt-out-of-myanalytics) for how-to steps.
+
+## To remove Insights from Outlook
+
+1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+
+    ![Get Add-ins](../../Images/mya/use/get-add-ins.png)
+
+2. Select **My add-ins**.
+3. In **Admin-managed add-ins**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
+
+    ![Remove Insights](../../Images/mya/use/remove-insights.png)

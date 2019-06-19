@@ -81,6 +81,8 @@
                   href: ~/Use/Explore-Metrics-external-collaboration.md 
                 - name: Charts
                   href: ~/Use/Chart-Types.md
+                - name: Organizational effectiveness
+                  href: ~/Use/org-effectiveness.md                  
             - name: Queries
               items:
                 - name: Overview
@@ -92,7 +94,9 @@
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md                      
+                  href: ~/tutorials/Person-to-group-queries.md
+                - name: Queries with CRM data
+                  href: ~/tutorials/crm-queries.md                                 
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md                  
                 - name: Customize a metric

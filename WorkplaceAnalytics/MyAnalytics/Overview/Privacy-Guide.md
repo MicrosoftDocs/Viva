@@ -85,9 +85,15 @@ Mailbox data represents information that people already have access to simply by
 
 For example, MyAnalytics provides views that allow people to quickly understand how much time they spend in meetings, and in email every day, who they collaborate with the most, who they are losing touch with, and to whom they have made commitments and requests.
 
-People can take action on this information —they might decide that they spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
+People can take action on this information. They might decide that they spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
 
-These insights are derived from data that is *already available* to people in their Exchange Online mailbox and in their chat or call history from Teams and from Skype for Business. MyAnalytics simply applies some basic calculations and rules to make that data more actionable. Mailbox data is stored directly in each employee's Exchange Online mailbox.
+These insights are derived from data that is *already available* to people in the following places:
+
+ * their Exchange Online mailbox
+ * their activity in OneDrive and SharePoint documents 
+ * their chat and call history from Teams and from Skype for Business
+
+MyAnalytics simply applies some basic calculations and rules to make this data more actionable. Mailbox data is stored directly in each employee's Exchange Online mailbox.
 
 For example, if people want to determine which colleagues sent them the most email over the past week, they could technically do so without MyAnalytics by manually counting emails from coworkers in their inbox. Similarly, people could determine their coworkers’ average response time to the emails that they send by using timestamp information readily available in their mailbox. MyAnalytics saves people the trouble of having to perform these tedious calculations.
 
