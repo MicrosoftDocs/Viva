@@ -14,11 +14,11 @@ ms.prod: wpa
 
 # Visualize person queries
 
-As an analyst, you might be looking for opportunities to improve teamwork in your organization – for example, among teams whose members consistently work longer after hours or who don’t seem to have enough focus time. Among the query types that Workplace Analytics offers are the Person query, which includes a number of standard and custom metrics that can help you perform the analyses you have in mind. 
+Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don’t seem to have enough focus time. To help you in this task, Workplace Analytics offers the [Person query](person-queries.md), which includes a number of standard and custom metrics that can help you perform the analyses of this kind.  
 
-You create and run a Person query. After it finishes, you can view its results without leaving Workplace Analytics by using the query results to create charts. To do this, you can select any of the metrics that you used in the query or any organizational data attributes that have been uploaded. 
+After you create and run a Person query, you can view its results (in the form of charts) without leaving Workplace Analytics. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. 
 
-After you explore the results, you might notice that one or two groups of employees might indeed benefit from a Teamwork solution plan. To more forward with this, select the Start plan button and complete the subsequent steps to create a plan and enroll the groups that you identified as participants.
+The query results might indicate groups of employees that could benefit from a [Teamwork solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. Select the group that you identified and complete the subsequent steps to create a Solutions plan.
 
 In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as Power BI. 
 
@@ -28,11 +28,14 @@ This article describes how to view these results in the following steps:
 
 2. [Customize your data visualization](#customize-your-data-visualization)
 
-As you examine your results, you might uncover a group of employees who could benefit from a Solutions plan. If this is the case, you can start the process by submitting that group: 
+As you examine your results, you might uncover a group of employees who could benefit from a Solutions plan. If this is the case, you start the process by submitting that group: 
 
 3. [Submit a group ](#submit-a-group)
 
-### Run a query and view results 
+After the group 
+
+
+## Run a query and view results 
 
 **Role:** analyst 
 
@@ -54,7 +57,7 @@ As you examine your results, you might uncover a group of employees who could be
 
    This interactive results page lets you use a variety of charts to explore the output of your query. Go on to the next procedure,[Customize your data visualization](#customize-your-data-visualization).
 
-### Customize your data visualization 
+## Customize your data visualization 
 
 **Role:** analyst 
 
@@ -69,7 +72,7 @@ panel to modify the date range, the filters that are applied, and the metrics th
 
 As you add and apply filters and select groups, the chart section of the results page updates its overview of the population that you are working with. You can now select a group of employees who might benefit from participating in a Solutions plan. See the following section, [Submit a group](#submit-a-group).  
 
-### Submit a group 
+## Submit a group 
 
 Queries often serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save the opportunities that you discover in the query results. Then, you can act on those opportunities by using them to create a plan in the Solutions area of Workplace Analytics. 
 
@@ -89,9 +92,15 @@ The group size is important because query visualization, along with Workplace An
 
    ![Set up new plan](../images/wpa/tutorials/set-up-new-plan-qv.png)
 
-3. For **Plan type**, choose an appropriate plan type for that group that you designated and select **Start now**.
+Go on to [Start the plan](#start-the-plan).
 
-4. Select **Validate** to validate the group that you've selected. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
+## Start the plan
+
+1. For **Plan type**, choose an appropriate plan type for that group that you designated and select **Start now**.
+
+2. (Optional) Type a description of your new plan
+
+3. Select **Validate** to validate the group that you've selected. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
 
 If validation fails, you might decide to return to your query results and select a different group or additional groups, or to start over. After any subsequent group selection, you must select **Validate** again. 
 
