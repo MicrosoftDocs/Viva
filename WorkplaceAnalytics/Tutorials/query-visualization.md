@@ -14,26 +14,26 @@ ms.prod: wpa
 
 # Visualize person queries
 
-Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don’t seem to have enough focus time. To help you in this task, Workplace Analytics offers the [Person query](person-queries.md), which includes a number of standard and custom metrics that can help you perform the analyses of this kind.  
+Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don’t seem to have enough focus time. To help you in this task, Workplace Analytics offers the [Person query](person-queries.md), which includes a number of standard and custom metrics that can help you perform analyses of this kind.  
 
-After you create and run a Person query, you can view its results (in the form of charts) without leaving Workplace Analytics. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. 
+After you create and run a Person query, you can view its results (in charts) without leaving Workplace Analytics. You can refine your results view by focusing the charts on any of the metrics that you used in the query or on any organizational data attribute that have been uploaded. 
 
-The query results might indicate groups of employees that could benefit from a [Teamwork solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. Select the group that you identified and complete the subsequent steps to create a Solutions plan.
+These query results might indicate groups of employees that could benefit from a [Teamwork solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the displayed query results. In a chart, select the group that you identified and complete the subsequent steps to create a Solutions plan.
 
-In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as Power BI. 
+In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as [Power BI](../use/view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool). 
 
 This article describes how to view these results in the following steps:
 
 1. [Run a query and view results](#run-a-query-and-view-results) 
-
 2. [Customize your data visualization](#customize-your-data-visualization)
 
-As you examine your results, you might uncover a group of employees who could benefit from a Solutions plan. If this is the case, you start the process by submitting that group: 
+   As you examine your results, you might uncover a group of employees who could benefit from a Solutions plan. If this is the case, you start the process by submitting that group: 
 
 3. [Submit a group ](#submit-a-group)
 
-After the group 
-
+   After the group has been submitted and successfully validated, you can start the plan for the submitted group:
+ 
+4. [Start the plan](#start-the-plan)
 
 ## Run a query and view results 
 
