@@ -46,33 +46,16 @@ You can use the query builder to view word clouds and view the list of words tha
 5. When prompted, select **OK**. The upload will take a few minutes to complete.
 6. After the upload succeeds, the list will include this new dataset.
 
-## To add categories for analysis
+## To add categories and build queries for analysis
 
 1. On the **Process Explorer** page, select the dataset name from the list.
-2. For new datasets, you're prompted to enter a classification title and set the probability threshold for the first category. The threshold option is to set how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
-3. Type a new category to add another category to the end of the list or you can select **Auto-Categorize Full Dataset** to automate the process.
-
-   ![Auto-categorize the dataset](./images/pexp-refine.png)
-
-4. Follow the steps in the next section to use the query builder.
-
-## Query builder
-
-1. On the **Process Explorer** page, select the dataset name from the list.
-2. On the analysis page, you can select:
-
-   * The analysis name from the list to view its details
-   * The **dataset parameters** icon to view the parameter details
-   * The **information** (i) icon to view the job details
-   * The **delete** icon to remove the analysis from the list
-
+2. For new datasets, you're prompted to enter a new categorization and set the probability threshold for the first category. The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
 3. On the analysis details page, depending on the dataset (blob storage or .csv), you can do one or more of the following:
 
    * Type a new category to add at the end of the category list
+   * Select **Open Query Builder** to create a query with the dataset and select meetings and emails to assign categories and help train the template to auto-categorize the whole dataset
    * Hover your cursor over the category in the list to view and select the **delete** icon to remove it
-   * Select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data
-   * Select **Open Query Builder** to create a query with the dataset
-
+  
 4. In **Query Builder** > **Discover Topics**, you can create a query based on keywords in meeting subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes.
 
      ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
@@ -82,7 +65,7 @@ You can use the query builder to view word clouds and view the list of words tha
    * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces)
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis
    * Use **Filter Meetings** to filter by analyst and/or model, and by one or more categories, such as budget, as shown in this graphic
-   * You can also adjust the probability range to filter by for the word cloud and meeting list
+   * You can also adjust the probability range to filter the word cloud and meeting list
 
      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
@@ -94,9 +77,11 @@ You can use the query builder to view word clouds and view the list of words tha
 
       ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
 
-   * After you categorize a good sample of related meetings, you can select **auto-categorize** and the template will automatically assign a category to all meetings and email in the whole dataset (for blob storage).
+   * After you categorize a good sample of related meetings, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorization.
 
-7. You can then select to export the query as a .csv file for further analysis.
+      ![Auto-categorize the dataset](./images/pexp-refine.png)
+
+7. You can then select to export the query as a .csv file for further analysis or select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
 
 ## Related topics
 
