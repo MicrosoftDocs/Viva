@@ -64,12 +64,12 @@ This article describes how to view these results in the following steps:
 
 The following steps are all optional. You can use them to refine your view of the query results in various ways. 
 
-1. <u>Modify filters and metrics.</u> Use the **Page settings**
+1. **Modify filters and metrics.** Use the **Page settings**
 panel to modify the date range, the filters that are applied, and the metrics that you want included in your chart. Note that the kind of chart you are viewing could affect the view options that are available to you. For more information about using these settings, see [Page settings and filters](../use/chart-types.md#page-settings-and-filters). 
 
-2. <u>Change chart attributes.</u> Use the chart toolbar to change the chart type, the chart's sort order, and the number of groups that are displayed. Some options are available only with certain chart types.  
+2. **Change chart attributes.** Use the chart toolbar to change the chart type, the chart's sort order, and the number of groups that are displayed. Some options are available only with certain chart types.  
 
-3. <u>Investigate groups.</u> Select particular groups in the chart to activate options for drilling down or for excluding. The groups that you select will be reflected in both the chart display and also in the settings panel. Groups will reset if you change the chart type or the sort order.  
+3. **Investigate groups.** Select particular groups in the chart to activate options for drilling down or for excluding. The groups that you select will be reflected in both the chart display and also in the settings panel. Groups will reset if you change the chart type or the sort order.  
 
 As you add and apply filters and select groups, the chart section of the results page updates its overview of the population that you are working with. You can now select a group of employees who might benefit from participating in a Solutions plan. See the following section, [Submit a group](#submit-a-group).  
 
