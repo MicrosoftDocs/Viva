@@ -24,7 +24,7 @@ In addition to these capabilities, you still have the option of exporting result
 
 This article describes how to view these results in the following steps:
 
-1. [Run a query and view results](#run_a_query) 
+1. [Run a query and view results](#run-a-query-and-view-results) 
 
 2. [Customize your data visualization](#customize-your-data-visualization)
 
