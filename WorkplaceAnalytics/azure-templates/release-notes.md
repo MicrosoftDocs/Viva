@@ -30,6 +30,12 @@ This release adds a new Process Explorer template that helps you understand wher
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
+### Group Analysis Azure Template
+
+This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them. You can proactively evaluate differences between different groups and address any areas that need improvement between the groups.
+
+To learn more, see [Group Analysis Azure Template](./process-explorer.md).
+
 ### Organization Network Analysis Azure Template
 
 The following enhancements and features are included in the Organization Network Analysis (ONA) Azure Template.
