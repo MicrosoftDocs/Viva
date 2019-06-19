@@ -41,15 +41,19 @@ employees who could benefit from a Solutions plan. If this is the case, you can 
 
 2. Expand **Analyze**, select **Queries**, and select **Person query**.
 
-3. Define and run a person query. For more information, see [Person queries](../tutorials/person-queries.md). 
+3. Define and run a person query. For more information, see [Person queries](person-queries.md). 
 
 4. After the query finishes, open the **Results** tab.
 
 5. In the row of the query's results, select the **Visualize** option: 
 
-This opens a page in the **Analyze &gt; Queries &gt; Results** area of Workplace Analytics. The title of the page matches that of the query. The following illustration shows the results page of a person query that was named "Collaboration Overload": 
+   ![Query row with Visualize](../images/wpa/tutorials/visualize-option-results-row.png)
 
-This interactive results page lets you use a variety of charts to explore the output of your query. Go on to the next procedure,[Customize your data visualization](#customize-your-data-visualization).
+   This opens a page in the **Analyze &gt; Queries &gt; Results** area of Workplace Analytics. The title of the page matches that of the query. The following illustration shows the results page of a person query that was named "Collaboration Overload": 
+
+   ![Results chart](../images/wpa/tutorials/collab-overload-q-results.png)
+
+   This interactive results page lets you use a variety of charts to explore the output of your query. Go on to the next procedure,[Customize your data visualization](#customize-your-data-visualization).
 
 ### Customize your data visualization 
 
@@ -70,11 +74,13 @@ panel to modify the date range, the filters that are applied, and the metrics th
 
 Queries often serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save the opportunities that you discover in the query results. Then, you can act on those opportunities by using them to create a plan in the Solutions area of Workplace Analytics. 
 
-For more information about solutions, see [Teamwork solution introduction](../tutorials/solutionsv2-intro.md?branch=PAS-LR-SolutionsV2). 
+For more information about solutions, see [Teamwork solution introduction](solutionsv2-intro.md). 
 
 **Role:** analyst 
 
 1. While visualizing a query result, in a chart, select one or more groups by clicking them in a chart. In the following example, the Marketing group is selected:
+
+   ![Query results chart with group selected](../images/wpa/tutorials/q-viz-chart-marketing-group.png)
 
 Note the size of the selected group, which is displayed to the
 right of the **Selected group** bar near the bottom of the page. In this
@@ -85,15 +91,17 @@ Workplace Analytics queries in general, adheres to the [minimum group size](../u
 
 2. Once you have a group selected that meets or exceeds the minimum group size, select **Submit group**. This opens the **Set up new plan** pane:
 
-3. For **Plan type**, choose an appropriate plan type for that group that you designated and select**Start now****.**
+   ![Set up new plan](../images/wpa/tutorials/set-up-new-plan-qv.png)
 
-4. Select **Validate** to validate the group that you’ve selected. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](../tutorials/solutionsv2-conceptual.md?branch=PAS-LR-SolutionsV2#validation).)
+3. For **Plan type**, choose an appropriate plan type for that group that you designated and select **Start now**.
+
+4. Select **Validate** to validate the group that you've selected. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
 
 If validation fails, you might decide to return to your query results
 and select a different group or additional groups, or to start over. After any subsequent group selection, you must select **Validate** again. 
 
 5. After validation (even if there are validation warnings), if
 your group size meets or exceeds the minimum group size, you can finish setting up your plan. Go to [Start the
-plan](../solutionsv2-task.md?branch=PAS-LR-SolutionsV2#start-the-plan).
+plan](solutionsv2-task.md#start-the-plan).
 
  
