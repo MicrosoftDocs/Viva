@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/10/2019
+ms.date: 06/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -68,33 +68,35 @@ You can use the query builder to view word clouds and view the list of words tha
 
 3. On the analysis details page, depending on the dataset (blob storage or .csv), you can do one or more of the following:
 
-   * Type a new category to add at the end of the category list.
-   * Hover your cursor over the category in the list to view and select the **delete** icon to remove it.
-   * Select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
-   * Select **Open Query Builder** to create a query with the dataset.
+   * Type a new category to add at the end of the category list
+   * Hover your cursor over the category in the list to view and select the **delete** icon to remove it
+   * Select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data
+   * Select **Open Query Builder** to create a query with the dataset
 
 4. In **Query Builder** > **Discover Topics**, you can create a query based on keywords in meeting subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes.
 
      ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
-   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
-   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
-   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * Use **Filter Meetings** to filter by analyst and/or model, and by one or more categories, such as budget, as shown in this graphic. You can also adjust the probability range to filter by for the word cloud and meeting list.
+   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**)
+   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**)
+   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces)
+   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis
+   * Use **Filter Meetings** to filter by analyst and/or model, and by one or more categories, such as budget, as shown in this graphic
+   * You can also adjust the probability range to filter by for the word cloud and meeting list
 
      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
 5. Select **Run query**.
 6. After a query is created and the query data is listed, you can:
 
-     * Select the category from the list, and then select the check box next to each meeting that you want to include in that category. This will help train the system for auto-categorization of the whole dataset. 
-     * Select the check box for any uncategorized meetings or emails, select a category, and then select **Apply** to add them to that category.
+   * Select the category from the list, and then select the check box next to each meeting that you want to include in that category. This will help train the system for auto-categorization of the whole dataset.
+   * Select the check box for any uncategorized meetings or emails, select a category, and then select **Apply** to add them to that category.
 
-       ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
+      ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
 
-   * After you categorize a good sample of related meetings, you can select **auto-categorize** and the template will automatically assign a category to in the whole dataset for meetings and email (for blob storage).
-8. You can then select to export the query as a .csv file for further analysis.
+   * After you categorize a good sample of related meetings, you can select **auto-categorize** and the template will automatically assign a category to all meetings and email in the whole dataset (for blob storage).
+
+7. You can then select to export the query as a .csv file for further analysis.
 
 ## Related topics
 

@@ -7,7 +7,7 @@ title: Workplace Analytics Azure Templates overview
 description: About Workplace Analytics Azure Templates and how to use it for advanced data analysis
 author: madehmer
 ms.author: madehmer
-ms.date: 05/07/2019
+ms.date: 06/19/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -28,6 +28,7 @@ You can easily customize them to meet your unique organizational needs, includin
   * Organizational Network Analysis
   * Topic Analysis
   * Sales Effectiveness
+  * Process Explorer
 
 * **Analytic framework support**: Enables you to merge Workplace Analytics query output with other [Azure data sources](https://docs.microsoft.com/azure/index) outside of Workplace Analytics (such as with Azure Blob storage, Azure SQL Database, Azure Databricks, and Azure Analysis Services) for custom metric calculations, advanced and interactive visuals, and automated data management.
 
