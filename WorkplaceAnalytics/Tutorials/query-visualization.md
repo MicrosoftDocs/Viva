@@ -28,8 +28,7 @@ This article describes how to view these results in the following steps:
 
 2. [Customize your data visualization](#customize-your-data-visualization)
 
-As you examine your results, you might uncover a group of
-employees who could benefit from a Solutions plan. If this is the case, you can start the process by submitting that group: 
+As you examine your results, you might uncover a group of employees who could benefit from a Solutions plan. If this is the case, you can start the process by submitting that group: 
 
 3. [Submit a group ](#submit-a-group)
 
@@ -68,7 +67,7 @@ panel to modify the date range, the filters that are applied, and the metrics th
 
 3. <u>Investigate groups.</u> Select particular groups in the chart to activate options for drilling down or for excluding. The groups that you select will be reflected in both the chart display and also in the settings panel. Groups will reset if you change the chart type or the sort order.  
 
-4. As you add and apply filters and select groups, the chart section of the results page updates its overview of the population that you are working with. You can now select a group of employees who might benefit from participating in a Solutions plan. See the following section, [Submit a group](#submit-a-group).  
+As you add and apply filters and select groups, the chart section of the results page updates its overview of the population that you are working with. You can now select a group of employees who might benefit from participating in a Solutions plan. See the following section, [Submit a group](#submit-a-group).  
 
 ### Submit a group 
 
@@ -82,12 +81,9 @@ For more information about solutions, see [Teamwork solution introduction](solut
 
    ![Query results chart with group selected](../images/wpa/tutorials/q-viz-chart-marketing-group.png)
 
-Note the size of the selected group, which is displayed to the
-right of the **Selected group** bar near the bottom of the page. In this
-case, it has 50 members. 
+Note the size of the selected group, which is displayed to the right of the **Selected group** bar near the bottom of the page. In this case, it has 50 members. 
 
-The group size is important because query visualization, along with
-Workplace Analytics queries in general, adheres to the [minimum group size](../use/settings.md#minimum-group-size) that has been set for your organization. If you've selected a group smaller than the minimum group size, you see a warning that the "filter group is below the minimum size." 
+The group size is important because query visualization, along with Workplace Analytics queries in general, adheres to the [minimum group size](../use/settings.md#minimum-group-size) that has been set for your organization. If you've selected a group smaller than the minimum group size, you see a warning that the "filter group is below the minimum size." 
 
 2. Once you have a group selected that meets or exceeds the minimum group size, select **Submit group**. This opens the **Set up new plan** pane:
 
@@ -97,11 +93,8 @@ Workplace Analytics queries in general, adheres to the [minimum group size](../u
 
 4. Select **Validate** to validate the group that you've selected. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
 
-If validation fails, you might decide to return to your query results
-and select a different group or additional groups, or to start over. After any subsequent group selection, you must select **Validate** again. 
+If validation fails, you might decide to return to your query results and select a different group or additional groups, or to start over. After any subsequent group selection, you must select **Validate** again. 
 
-5. After validation (even if there are validation warnings), if
-your group size meets or exceeds the minimum group size, you can finish setting up your plan. Go to [Start the
-plan](solutionsv2-task.md#start-the-plan).
+5. After validation (even if there are validation warnings), if your group size meets or exceeds the minimum group size, you can finish setting up your plan. Go to [Start the plan](solutionsv2-task.md#start-the-plan).
 
  
