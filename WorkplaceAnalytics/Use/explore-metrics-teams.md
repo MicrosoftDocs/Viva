@@ -7,7 +7,7 @@ title: Explore Teams metrics in Workplace Analytics
 description: Overview of Teams collaboration metrics in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/17/2019
+ms.date: 06/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -28,13 +28,13 @@ To open **Teams collaboration**:
 
 ## Call hours
 
-The **Call hours** graph shows the average and total number of hours each group spent in calls as initiators or participants, through Teams, including scheduled and impromptu calls during and outside of working hours (as set in Outlook).
+The **Call hours** graph shows the average and total number of hours each group spent in calls as initiators or participants, through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook).
 
 ![Teams call hours](../images/wpa/use/teams-explore-calls.png)
 
 ## Instant messaging hours
 
-The **Instant messaging hours** graph shows average and total number of hours each group spent sending or receiving instant messages (IMs) through Teams, including scheduled and impromptu IMs during and outside of working hours (as set in Outlook).
+The **Instant messaging hours** graph shows average and total number of hours each group spent sending or receiving instant messages (IMs) through Teams, including IMs during and outside of working hours (as set in Outlook).
 
 ![Teams IMs](../images/wpa/use/teams-explore-ims.png)
 
@@ -56,7 +56,7 @@ Analysts can use these views to evaluate communication and collaboration trends 
 
 You can also include and analyze data about Teams calls and instant messages in Person queries and data for Teams calls in Meeting queries. For example, you can customize a person or meeting query to show internal as compared to external number of calls.
 
-For Meeting queries, meeting hours and related meeting metrics will include data about scheduled and impromptu calls in Teams.
+For Meeting queries, meeting hours and related meeting metrics will include data about scheduled and unscheduled calls in Teams.
 
 The following table provides details about Teams metrics in Person queries.
 
