@@ -6,19 +6,19 @@ title: Explore meetings overview metrics in Workplace Analytics
 description: Overview of meetings metrics on the Workplace Analytics Explore page
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 06/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Meetings Overview
+# Meetings overview
 
-The **Meetings Overview** page in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+**Meetings overview** in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
-![Meetings overview](../images/wpa/use/meetings-overview-explore-metrics.png)
+![Meetings overview](../images/wpa/use/meetings-overview.png)
 
-To open the **Meetings overview** page:
+To open **Meetings overview**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
 2. In the left navigation pane, select **Analyze** and then select **Explore**.
@@ -109,4 +109,5 @@ Each duration segment in the chart shows the total time a person spent in meetin
 
 ## Related topics
 
+[Explore page settings](../use/explore-page-settings.md)
 [Workplace Analytics Charts](../use/chart-types.md)
