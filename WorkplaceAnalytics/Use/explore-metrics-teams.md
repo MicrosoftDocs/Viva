@@ -2,12 +2,11 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Explore Teams metrics in Workplace Analytics
 description: Overview of Teams collaboration metrics in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/19/2019
+ms.date: 06/20/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
