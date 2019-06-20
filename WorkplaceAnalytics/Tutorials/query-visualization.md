@@ -56,7 +56,7 @@ This article describes how to view these results in the following steps:
 
    ![Results chart](../images/wpa/tutorials/collab-overload-q-results.png)
 
-   This interactive results page lets you use a variety of charts to explore the output of your query. Go on to the next procedure,[Customize your data visualization](#customize-your-data-visualization).
+   This interactive results page lets you use a variety of charts to explore the output of your query. This exploration is described in the next procedure, [Customize your data visualization](#customize-your-data-visualization).
 
 ## Customize your data visualization 
 
