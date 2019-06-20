@@ -78,11 +78,13 @@
                 - name: Internal networks
                   href: ~/Use/Explore-Metrics-internal-networks.md
                 - name: External collaboration
-                  href: ~/Use/Explore-Metrics-external-collaboration.md 
-                - name: Charts
-                  href: ~/Use/Chart-Types.md
+                  href: ~/Use/Explore-Metrics-external-collaboration.md
+                - name: Teams collaboration
+                  href: ~/Use/Explore-metrics-teams.md
                 - name: Organizational effectiveness
-                  href: ~/Use/org-effectiveness.md                  
+                  href: ~/Use/org-effectiveness.md                    
+                - name: Charts
+                  href: ~/Use/Chart-Types.md             
             - name: Queries
               items:
                 - name: Overview
