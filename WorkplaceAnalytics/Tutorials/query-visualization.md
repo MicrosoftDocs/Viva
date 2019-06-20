@@ -117,3 +117,5 @@ After the group that you’ve selected validates successfully (even if there are
 2.	(Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan’s end date is then calculated and displayed.
 3.	(Optional) Change the **Plan target** to a different value. Note that you can select only percentage-based targets, such as a 10% decrease in after-hours work. 
 4.	Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates displayed for **Plan duration**. 
+
+You can track the progress of the plan while it is underway. For more information, see [Track plans](solutionsv2-task#track-plans).
