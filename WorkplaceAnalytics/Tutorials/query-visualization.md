@@ -34,7 +34,7 @@ This article describes how to view these results in the following steps:
 
    After the group has been submitted and successfully validated, you can start the plan for the submitted group:
  
-4. [Start the plan](#start-the-plan)
+5. [Start the plan](#start-the-plan)
 
 ## Run a query and view results 
 
