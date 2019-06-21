@@ -48,7 +48,7 @@ Although comparison queries focus on people, they produce different information 
 
 10.	In the **Select employees** section, add filters to select the employees who are the subject of your query. For more information, see [Select employees](#select-employees). 
 
-11.	In the **Define comparison groups** section, select the employees whom you want to compare with your subject population (the people you selected in the preceding step). For more information, see [Define comparison groups](#define-comparison-groups). 
+11.	In the **Select peer groups** section, select the employees whom you want to compare with your subject population (the people you selected in the preceding step). For more information, see [Select peer groups](#define-comparison-groups). 
 
 12.	In the **Select metrics** section, select the aspect of employee behavior that you want to compare with peer groups. For more information, see [Select metrics](#select-metrics). 
 
@@ -62,7 +62,7 @@ The following sections provide information that can help you as you create a com
 
 ### Select employees
 
-The purpose of a comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization,  others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you're comparing them with&mdash;in the **Define comparison groups** step.)
+The purpose of a comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization,  others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you're comparing them with&mdash;in the **Select peer groups** step.)
 
 To select the people you’re querying about, filter them by their HR attributes, such as the following:
 
@@ -84,11 +84,11 @@ The fact that you have selected multiple individuals has no bearing on how the q
 > [!Note] 
 > Because you have selected individuals, not groups, the minimum-group-size setting does not apply to the lists of employees that you select in this step. If this list contained only one employee, you'd still have a valid query that could return valid results.  
 
-### Define comparison groups
+### Select peer groups
 
-In the **Select employees** step, you select individuals of interest, those you’re querying about. In the **Define comparison groups** step, you select the groups to compare with those individuals. These are groups of similar employees, calculated separately for each selected employee. 
+In the **Select employees** step, you select individuals of interest, those you’re querying about. In the **Select peer groups** step, you select the groups to compare with those individuals. These are groups of similar employees, calculated separately for each selected employee. 
 
-![Define comparison group](../images/wpa/tutorials/define-comp-group.png) 
+![Select peer group](../images/wpa/tutorials/define-comp-group.png) 
 
 In this example, we’ve selected options to indicate groups to compare. The following sections describe those options:
 
@@ -113,7 +113,7 @@ For example, one individual of interest was "Emil." Emil has just graduated from
 Because we selected two groups in this example, two comparisons will be made when the query runs. This means that, for each individual of interest, two lines of results will appear in the query results file for each aggregation period&mdash;day, week, or month. 
 
 > [!Note] 
-> Because in the **Define comparison groups** step you select groups, not individuals, the minimum-group-size setting does apply. Any groups you select in this step must meet or exceed the minimum group size that is in effect for your organization. 
+> Because in the **Select peer groups** step you select groups, not individuals, the minimum-group-size setting does apply. Any groups you select in this step must meet or exceed the minimum group size that is in effect for your organization. 
 
 ### Select metrics
 
@@ -138,15 +138,15 @@ After the query finishes running, its row in the **Queries / Results** page show
  
 ![Results file](../images/wpa/tutorials/results-file-3.png) 
 
-In this example results file, the first 13 lines of data report comparison results for the first individual of interest, whose PersonId ends in "1BFF." 
+In this example results file, the first 12 lines of data (lines numbered 2 through 13) report comparison results for the first individual of interest, whose PersonId ends in "5A329." 
 
 ![Results file detail](../images/wpa/tutorials/results-file-zoom-70.png) 
  
-Here are a few things we know about this comparison (the results on these 13 lines):
+Here are a few things we know about this comparison (the results on these 12 lines):
 
  * The **PeerGroup** value tells us that this person was compared with peers who share the same manager. 
  * The **Date** value states the first day of the aggregation period from which data was drawn. 
- * Each of these thirteen lines represents one aggregation period&mdash;in this case, one week, because we selected "week" in the **Group by** control while defining the query. 
+ * Each of these 12 lines represents one aggregation period&mdash;in this case, one week, because we selected "week" in the **Group by** control while defining the query. 
 
 The person sent 140 emails during the week that started in January 27, while their peer group sent 126, on average. The difference was 14. However, during the following week (which began on February 3), the person sent 109 and their group sent on average 120, so Emails_sent_Difference shows that they sent 11 fewer emails than their peer group. If you had chosen percentage for **Difference type**, the displayed result would have been "-9%" (nine percent fewer) emails than were sent by their peer group.
 
