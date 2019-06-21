@@ -31,7 +31,7 @@ You work towards the first goal through an organizational effectiveness analysis
 
 Organizational effectiveness analyses robustly enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the peer group. 
 
-The results of analyses are always presented in aggregate form. No  individual's data is ever presented in isolation.
+The results of analyses are always presented in aggregate form. No individual's data is ever presented in isolation.
 
 ### Roles 
 
@@ -116,7 +116,7 @@ After you have finished applying conditions, select **Next** and go to [Submit t
 
 The fourth and final screen of the sequence summarizes the choices that you’ve made, including the analysis name, the date range, and the names and sizes of the reference and peer groups. If you want to return to preceding steps to change any of these things, select **Back**:
 
-![Summary page with Submit button](../images/wpa/use/step4-summary-edit.png)
+![Summary page with Submit button](../images/wpa/use/step4-summary-edit.png) 
 
 If you do not need to make changes, select **Submit**.
 
