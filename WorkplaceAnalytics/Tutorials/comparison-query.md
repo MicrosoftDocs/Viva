@@ -30,29 +30,27 @@ Although comparison queries focus on people, they produce different information 
 
 2.	In the left navigation pane, expand **Analyze** and then select **Queries**.
 
-3.	On the Queries page, under **Start custom query**, select **Comparison**.
-
-4.	The **Comparison query** page opens:
+3.	On the Queries page, under **Start custom query**, select **Comparison**. This opens the **Comparison query** page:
 
     ![Comparison query page](../images/wpa/tutorials/comp-query-page-2.png)
  
-5.	Name the query and, optionally, add a description for it.
+4.	Name the query and, optionally, add a description for it.
 
-6.	For **Group by**, select an amount of time&mdash;day, week, or month&mdash;over which to aggregate and report on data.
+5.	For **Group by**, select an amount of time&mdash;day, week, or month&mdash;over which to aggregate and report on data.
 
-7.	For **Time period**, specify the time period whose data you want to query. 
+6.	For **Time period**, specify the time period whose data you want to query. 
 
-8.	(Optional) Select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
+7.	(Optional) Select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
 
-9.	If at least one of your metrics has to do with meetings, consider using Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company’s meeting conventions. See [Meeting exclusions](meeting-exclusion-rules.md) to learn more. 
+8.	If at least one of your metrics has to do with meetings, consider using Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company’s meeting conventions. See [Meeting exclusions](meeting-exclusion-rules.md) to learn more. 
 
-10.	In the **Select employees** section, add filters to select the employees who are the subject of your query. For more information, see [Select employees](#select-employees). 
+9.	In the **Select employees** section, add filters to select the employees who are the subject of your query. For more information, see [Select employees](#select-employees). 
 
-11.	In the **Select peer groups** section, select the employees whom you want to compare with your subject population (the people you selected in the preceding step). For more information, see [Select peer groups](#select-peer-groups). 
+10.	In the **Select peer groups** section, select the employees whom you want to compare with your subject population (the people you selected in the preceding step). For more information, see [Select peer groups](#select-peer-groups). 
 
-12.	In the **Select metrics** section, select the aspect of employee behavior that you want to compare with peer groups. For more information, see [Select metrics](#select-metrics). 
+11.	In the **Select metrics** section, select the aspect of employee behavior that you want to compare with peer groups. For more information, see [Select metrics](#select-metrics). 
 
-13.	To run the query, select **Run** at the top right of the page. A message indicates that the query is running. The **Queries / Results** page appears and indicates that the query you started has a status of "running":
+12.	To run the query, select **Run** at the top right of the page. A message indicates that the query is running. The **Queries / Results** page appears and indicates that the query you started has a status of "running":
 
     ![Query is running](../images/wpa/tutorials/query-running-2.png) 
  
