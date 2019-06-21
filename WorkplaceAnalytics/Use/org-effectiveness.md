@@ -6,7 +6,7 @@ title: Organizational effectiveness analyses
 description: Describes the organizational effectiveness analysis of Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/18/2019
+ms.date: 06/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,7 +16,7 @@ manager: scott.ruble
 
 # Organizational effectiveness
 
-Organizational effectiveness analyses help you find answers to the question: How do the most effective people – the best performing people in a company – collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them.  
+Organizational effectiveness analyses help you find answers to the question: How do the most effective people&mdash;the best performing people in a company&mdash;collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them.  
 
 You work towards the first goal through an organizational effectiveness analysis. This procedure consists of the following tasks:
 
@@ -139,8 +139,8 @@ After your analysis completes, its status is updated in the Organizational effec
 You can do several things on this page:
  * <u>In the rows of analyses:</u>
    * Select **View** (eye icon) to open an analysis to see its results.
-   * Select **Delete** (trash can icon) to delete an analysis that’s no longer needed.
-   * Select the **Duplicate** (two sheets of paper icon) to make an editable copy of the analysis.
+   * Select **Delete** (trash-can icon) to delete an analysis that's no longer needed.
+   * Select the **Duplicate** (two-sheets-of-paper icon) to make an editable copy of the analysis.
  * <u>Above the table:</u> 
    * Select **New analysis** to create a new organizational effectiveness analysis.
    * Refresh the list of analyses by selecting **Update list**.
@@ -155,7 +155,7 @@ The **Highlights** area displays the results of your analysis. The upper area pr
 
 In this example, they are _External network size_, _1:1 meeting hours with direct manager_, and _Percentage of network from external relationships_.
  
-Below these metrics summaries, the results for each metric are described in detail. Each detail section contains a description called **Why it matters**. This section explains why this metric analysis result is useful. Each section also contains an information (i) icon that you can select to learn more about the metric.
+Below these metrics summaries, the results for each metric are described in detail. Each detail section contains a description called **Why it matters**. This section explains why this metric analysis result is useful. Each section also contains an information icon &mdash; &#x24D8; &mdash; that you can select to learn more about the metric.
  
 Although the **Result** page is read-only, you can download it into an Excel workbook file that you can open in Microsoft Excel or share with others.
 
@@ -177,7 +177,7 @@ Follow these steps to upload a file that contains email addresses:
  
     In this example, the validation results contain the errors of invalid email addresses and a person who has no Workplace Analytics license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. (To participate, a person needs only a Workplace Analytics [license assigned](../setup/assign-licenses-to-population.md), not a Workplace Analytics [role](../setup/assign-roles-to-wpa-admins.md).)
 
-    <!-- ADD THIS IF SANJAY AGREES: If you correct the validation errors, you must upload the file again to cause Workplace Analytics to validate the file again. After a file successfully validates, you can proceed with the analysis. -->
+    If validation errors are found, you cannot proceed with the analysis. After you correct the validation errors (or select a group with other participants), you must re-upload the .csv file to cause Workplace Analytics to validate the file again. After your .csv file successfully validates, you can proceed with the analysis.
 
     <!-- REMOVE FOR NOW (PER SANJAY, WHO IS CHECKING ON THIS) Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. -->
 
