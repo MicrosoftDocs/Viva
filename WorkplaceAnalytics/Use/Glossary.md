@@ -6,7 +6,7 @@ title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 06/21/2019
 ms.topic: reference
 localization_priority: normal 
 ms.prod: wpa
@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Glossary for Workplace Analytics
 
-This glossary defines concepts and other terms (excluding [query metric definitions](../use/Metric-definitions.md)) used when working with Workplace Analytics.
+The following are terms and concepts used in Workplace Analytics. This glossary excludes [query metric definitions](../use/Metric-definitions.md).
 
 |Term|Definition|
 |----|----------|
@@ -23,9 +23,10 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Attendee|A person who was invited and *attended* the meeting.|
 |Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
 |Calendar fragmentation|When a person does not have blocks of time sufficient to focus on completing complex tasks. This is typical of those with only small blocks of time (15, 30, or 60 minutes) between meetings. Anything that is not *focus time* (uninterrupted time blocks of two hours or more with no meetings) is considered calendar fragmentation.|
-|Collaborators|Anyone that *measured employees* or *time investors* interact with by email or in meetings. Collaborators are identified as internal (within the company) or external (outside of the company). |
-|Collaborator group|A group of collaborators that are identified as internal (within the company) or external (outside of the company) that interacts by email or in meetings with a specified *time investor*.|
+|Collaborators| Anyone that *measured employees* or *time investors* interact with by email, in meetings, in unscheduled calls, or with instant messages. Collaborators are identified as internal (within the company) or external (outside of the company) and discovered through the data extracted for measured employees. Internal collaborators have domains internal to your organization, while external collaborators have domains external to your organization. |
+|Collaborator group|A group of collaborators that are identified as internal (within the company) or external (outside of the company) that interacts by email, in meetings, in calls, or with instant messages  with a specified *time investor*.|
 |Connection|Two or more *meaningful interactions*.|
+|Coverage|The percentage of measured employees who have a non-blank value for the specified attribute as shown in [Data sources](../use/data-sources.md). If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours | A person's time after you subtract their meeting hours and their focus hours. |
@@ -34,7 +35,7 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Layer|The number of *levels* of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0.|
 |Level|A *required attribute* that is a company-specific way of organizing employees by job experience or seniority.   |
 |Meaningful interactions|An email or meeting that includes between two and five people.|
-|Measured employee|A person about whom Workplace Analytics gathers Office 365 data, and about whom analysts can calculate metrics.|
+|Measured employee|The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.|
 |Multitasking|The concept of not staying focused on the task at hand. Defined in Workplace Analytics as a person sending two emails or more per meeting hour, and in meetings shorter than an hour, two emails or more per meeting.|
 |Non-declined meeting request|In Workplace Analytics, this is synonymous with *attended*.|
 |Optional attribute|Optional *organizational data* attributes that describe the people being analyzed. If supplied by the company, you can use these attributes to explore metrics, filter queries, and customize metrics. These can be reserved for future metric calculations. Optional attributes include FunctionType, HireDate, HourlyRate, Layer, and TimeZone.|
@@ -53,6 +54,6 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Time zones|Workplace Analytics uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (Person query results) are calculated by using the person’s time zone. Meeting metrics (Meeting query results) are calculated by using the organizer’s time zone.|
 |Working hours|Hours that represent the typical workweek for the company. The Workplace Analytics default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. Your admin can change the default working days and hours in **Admin settings** on the [System defaults](../use/settings.md#system-defaults) page.
 
-### Related topic
+### Related topics
 
 [Metric descriptions for Workplace Analytics](../use/Metric-definitions.md)
