@@ -16,7 +16,7 @@ ms.prod: wpa
 
 The following terms and concepts are important for you to know when working with Workplace Analytics. The following excludes metric definitions for queries, which are in [Metric descriptions for Workplace Analytics](../use/Metric-definitions.md).
 
-|Term|Definition|
+|Term |Definition |
 |----|----------|
 |Adjusted meeting hours |An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
 |Attended |A person *attended* a meeting if they either accepted or did not respond to a meeting request (also referred to as a *non-declined meeting request*).|
