@@ -48,7 +48,7 @@ Although comparison queries focus on people, they produce different information 
 
 10.	In the **Select employees** section, add filters to select the employees who are the subject of your query. For more information, see [Select employees](#select-employees). 
 
-11.	In the **Select peer groups** section, select the employees whom you want to compare with your subject population (the people you selected in the preceding step). For more information, see [Select peer groups](#define-comparison-groups). 
+11.	In the **Select peer groups** section, select the employees whom you want to compare with your subject population (the people you selected in the preceding step). For more information, see [Select peer groups](#select-peer-groups). 
 
 12.	In the **Select metrics** section, select the aspect of employee behavior that you want to compare with peer groups. For more information, see [Select metrics](#select-metrics). 
 
