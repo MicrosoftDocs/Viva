@@ -6,7 +6,7 @@ title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/19/2019
+ms.date: 06/21/2019
 ms.topic: reference
 localization_priority: normal 
 ms.prod: wpa
@@ -17,8 +17,8 @@ ms.prod: wpa
 The following terms and concepts are important for you to know when working with Workplace Analytics. The following excludes metric definitions for queries, which are in [Metric descriptions for Workplace Analytics](../use/Metric-definitions.md).
 
 |Term|Definition|
-|----|----------|
-|Adjusted meeting hours |An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
+|------|-----------|
+|Adjusted meeting hours | An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
 |Attended |A person *attended* a meeting if they either accepted or did not respond to a meeting request (also referred to as a *non-declined meeting request*).|
 |Attendee |A person who was invited and *attended* the meeting.|
 |Attributes |A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics. These attributes are provided by your organization in the organizational or HR data upload file. When you create queries, you can filter and group employees in the organization by these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.|
