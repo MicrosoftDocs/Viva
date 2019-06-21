@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Comparison queries
 description: Comparison queries -- what they are, how to create them, how to run them  
 author: paul9955
