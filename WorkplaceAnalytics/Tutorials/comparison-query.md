@@ -6,7 +6,7 @@ title: Comparison queries
 description: Comparison queries -- what they are, how to create them, how to run them  
 author: paul9955
 ms.author: v-pascha
-ms.date: 05/17/2019
+ms.date: 06/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
