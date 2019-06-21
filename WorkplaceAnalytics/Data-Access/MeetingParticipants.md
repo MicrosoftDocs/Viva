@@ -26,3 +26,7 @@ This file has one row for each participant in a calendar meeting with the follow
 |**LocalStartTime**|**datetime**|Start time of the meeting in the participant's local time|
 |**DurationMinutesAdjusted**|**double**|Time spent in meeting, adjusted if double booked|
 |**EmailsSentDuringMeeting**|**integer**|The number of meetings sent by this participant in this meeting|
+
+## Related topics
+
+[Data access](./data-access.md)

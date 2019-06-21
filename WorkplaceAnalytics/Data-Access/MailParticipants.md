@@ -23,3 +23,7 @@ This file includes one row for every email sent and every email received with th
 |**IsSender**|**boolean**|True if this person sent the email|
 |**PersonTimeSpentInMinutes**|**double**|Time spent reading or writing the email (heuristic estimated value)|
 |**LocalSentTime**|**datetime**|Local time when the email was sent|
+
+## Related topics
+
+[Data access](./data-access.md)

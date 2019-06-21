@@ -45,3 +45,7 @@ The following describes possible values for the **PopulationType** column.
 ## HR attributes
 
 The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a required set of attributes, optional attributes, and custom attributes. For more information about these attributes, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+
+## Related topics
+
+[Data access](./data-access.md)
