@@ -16,7 +16,7 @@ ms.prod: wpa
 
 The following terms and concepts are important for you to know when working with Workplace Analytics. The following excludes metric definitions for queries, which are in [Metric descriptions for Workplace Analytics](../use/Metric-definitions.md).
 
-|Term |Definition |
+|Term|Definition|
 |----|----------|
 |Adjusted meeting hours |An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
 |Attended |A person *attended* a meeting if they either accepted or did not respond to a meeting request (also referred to as a *non-declined meeting request*).|
@@ -33,8 +33,8 @@ The following terms and concepts are important for you to know when working with
 |Insularity |When collaboration happens only with people from within a person’s team, function, department, and so on.|
 |Invitee |A person who is invited to a meeting with a meeting request.|
 |Layer |The number of *levels* of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0.|
-|Level |A *required attribute* that is a company-specific way of organizing employees by job experience or seniority.   |
-|Meaningful interactions |An email or meeting that includes between two and five people.|
+|Level |A *required attribute* that is a company-specific way of organizing employees by job experience or seniority. |
+|Meaningful interactions |An email or meeting that includes between two and five people. |
 |Measured employees |The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.|
 |Multitasking |The concept of not staying focused on the task at hand. Defined in Workplace Analytics as a person sending two emails or more per meeting hour, and in meetings shorter than an hour, two emails or more per meeting.|
 |Non-declined meeting request |In Workplace Analytics, this is synonymous with and counted as an *attended* meeting.|
