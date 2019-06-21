@@ -30,11 +30,27 @@ After you upload a dataset, you can use the template tools to view data for the 
 ## To add a new dataset
 
 1. In Workplace Analytics Azure Templates, select **Group analysis**.
-2. Select **Add New Dataset** (top right).
-3. For **Select Dataset Type**, select either a .csv file to upload, and then select **Next**. 
+2. Select **Add New Dataset** at top right of the table.
+3. For **Upload Dataset**, type a dataset name, select the .csv file to upload, and then select **Upload Dataset**.
 
    ![Select a dataset type](./images/group-dataset.png)
 
+4. After the upload succeeds, it'll be available in the Group Analysis list.
+
+## To configure new analysis
+
+1. Select the new dataset from the list.
+2. Select **Add New Analysis**.
+3. In **Configure New Analysis**, type a name for the **Dataset Info**. 
+4. In **Specify Group to compare**, select the filters for the group that you want to evaluate.
+5. In **Choose Group name**, type a name for the group you want to evaluate.
+6. In **Specify KPIs to compare the group on**, select all metrics that you want to compare between the evaluated group and the control group. 
+7. In **Choose confounding attributes**, select the attributes that define the evaluated group and the control group and that the two groups have in common. Note these must be different than the filter or filters selected in the **Specify Group to compare** section.
+8. Select **Run Analysis**.
+
+## Analyze KPIs
+
+You can use the analysis to view the key performance indicators (KPIs) between the defined group you chose to analyze and the control group you're comparing with.
 
 ## Related topics
 
