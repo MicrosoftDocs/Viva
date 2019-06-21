@@ -6,7 +6,7 @@ title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/14/2019
+ms.date: 06/21/2019
 ms.topic: reference
 localization_priority: normal 
 ms.prod: wpa
@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Glossary for Workplace Analytics
 
-This glossary defines concepts and other terms (excluding [query metric definitions](../use/Metric-definitions.md)) used when working with Workplace Analytics.
+The following are terms and concepts used in Workplace Analytics. This glossary excludes [query metric definitions](../use/Metric-definitions.md).
 
 |Term|Definition|
 |----|----------|
@@ -35,7 +35,7 @@ This glossary defines concepts and other terms (excluding [query metric definiti
 |Layer|The number of *levels* of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0.|
 |Level|A *required attribute* that is a company-specific way of organizing employees by job experience or seniority.   |
 |Meaningful interactions|An email or meeting that includes between two and five people.|
-|Measured employee|The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.|
+|Measured employee|The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.|
 |Multitasking|The concept of not staying focused on the task at hand. Defined in Workplace Analytics as a person sending two emails or more per meeting hour, and in meetings shorter than an hour, two emails or more per meeting.|
 |Non-declined meeting request|In Workplace Analytics, this is synonymous with *attended*.|
 |Optional attribute|Optional *organizational data* attributes that describe the people being analyzed. If supplied by the company, you can use these attributes to explore metrics, filter queries, and customize metrics. These can be reserved for future metric calculations. Optional attributes include FunctionType, HireDate, HourlyRate, Layer, and TimeZone.|
