@@ -34,6 +34,7 @@ You can export pre-processed Workplace Analytics data to a designated Azure stor
 * [PersonHistorical](./PersonHistorical.md)
 * [MailParticipants](./MailParticipants.md)
 * [Mails](./Mails.md)
+* [Teams](./teams.md)
 
 ## To export data from Workplace Analytics
 
