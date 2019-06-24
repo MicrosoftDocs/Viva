@@ -4,8 +4,8 @@
 
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics 
-ms.date: 05/23/2019
-author: madehmer
+ms.date: 06/04/2019
+author: paul9955
 ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
@@ -76,7 +76,6 @@ The following **Required attributes** must match the exact column headings (case
 |**Accounts data**     |
 |Account ID or Number|AccountId |String |
 |Account Name |AccountName |String |
-|Account Owner Email |AccountOwnerEmail |Email |
 |Effective Date |AccountsStartDate |Date |
 |**Contacts data**           |
 |Account ID or Number |ContactsAccountId |String |
@@ -94,6 +93,7 @@ The following is a sample list of **Reserved attributes** that you can optionall
 |Source column in CSV |Optional attribute |Data type |
 |------|-----------|----------|
 |**Accounts data** |
+|Account Owner Email |AccountOwnerEmail |Email |
 |Parent Account |AccountName |String |
 |Parent Account ID |AccountId |String |
 |Relationship Type |AccountType |String |
