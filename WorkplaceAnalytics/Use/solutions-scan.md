@@ -112,13 +112,13 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
    Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation). 
 
-8.	After the group validates successfully, go to [To create the plan](#to-create-the-plan). 
+8. After the group validates successfully, go to [To create the plan](#to-create-the-plan). 
 
 ### To create the plan
 
 **Role:** analyst, limited analyst, or program manager
 
-After the group that you’ve selected validates successfully, Workplace Analytics displays insights about the group. They show you how the group’s numbers differ from company averages for the context that you chose. For example, if you chose to create a _Focus time_ plan, Workplace Analytics displays metrics&mdash;such as the number of hours in meetings per week&mdash;that illustrate why the people in this group could benefit from more focus time. (Although these insights are informative, they are not interactive.)
+After the group that you've selected validates successfully, Workplace Analytics displays insights about the group. They show you how the group's numbers differ from company averages for the context that you chose. For example, if you chose to create a _Focus time_ plan, Workplace Analytics displays metrics&mdash;such as the number of hours in meetings per week&mdash;that illustrate why the people in this group could benefit from more focus time. (Although these insights are informative, they are not interactive.)
 
 Workplace Analytics also displays default settings for the plan, which you can edit: 
 
@@ -126,7 +126,7 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
 2.	(Optional) Change the **Plan target** to a different value. Note that you can select only percentage-based targets, such as a 10% decrease in after-hours work.
 
-3.	(Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan’s end date is then calculated and displayed.
+3.	(Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan's end date is then calculated and displayed.
 
 4.	(Optional) Scroll down to the **How Solution will help** section, which contains cards for **Book and protect**, **Stay focused**, and **Track progress**:
  
