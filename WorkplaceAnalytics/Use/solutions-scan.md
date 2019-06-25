@@ -69,7 +69,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 1.	On the **Solutions** page, in the **Opportunities** area, locate the _Increase focus_ opportunity. 
 
-    ![Opportunities area](../images/wpa/use/solution-scan-opportunities-2.png)
+    ![Opportunities area](../images/wpa/use/solution-scan-opportunities-3.png)
  
 	For this opportunity, the text on the left briefly describes the results of the scan&mdash;groups with fewer focus hours. The highlighted callout to the right describes the opportunity goal:
 
