@@ -67,11 +67,11 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 **Role:** analyst, limited analyst, or program manager
 
-1.	On the **Solutions** page, in the **Opportunities** area, locate the available opportunities. For example, _Increase focus_, _Better meeting effectiveness_, _Work-life balance_:
+1.	On the **Solutions** page, in the **Opportunities** area, locate the _Increase focus_ opportunity. 
 
     ![Opportunities area](../images/wpa/use/solution-scan-opportunities-2.png)
  
-2.	Let's look at _Increase focus_. The text on the left briefly describes the results of the scan&mdash;groups with fewer focus hours. The highlighted callout to the right describes the opportunity goal:
+	For this opportunity, the text on the left briefly describes the results of the scan&mdash;groups with fewer focus hours. The highlighted callout to the right describes the opportunity goal:
 
     ![Scan benefits](../images/wpa/use/scan-benefits.png)
 
@@ -79,26 +79,26 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
     By taking advantage of this opportunity, the group members could gain up to an aggregate of 20 hours per week of new focus time. (The more focus time, the better.) So, if two more groups could gain 10 hours, we'd say that you could gain up to 40 across five groups. It's displayed in a lump sum but you can drill down later. For more info, see [What is a group?](#what-is-a-group).
 
-3.	Select **See results**. This shows a detailed page for the _Increase focus_ opportunity:
+2.	Select **See results**. This shows a detailed page for the _Increase focus_ opportunity:
  
     ![Increase focus potential](../images/wpa/use/increase-focus-potential.png)
 
     (The other opportunities, such as _Better meeting effectiveness_, follow this exact same model of data presentation.)
 
-4.	Notice the groups that are displayed under **Select a group to change the view of your chart**. These groups were identified as potentially benefitting from a plan. If a group has appeared in this list for multiple weeks, a notification to that effect is displayed:
+	Notice the groups that are displayed under **Select a group to change the view of your chart**. These groups were identified as potentially benefitting from a plan. If a group has appeared in this list for multiple weeks, a notification to that effect is displayed:
  
     ![A group reappears](../images/wpa/use/group-reappears.png)
  
-5.	Select a group to see its data. This data appears in charts on this page. One of these charts displays data that compares this group’s behavior with that of peer groups, and the other chart shows trend lines for this group, over recent weeks. 
+3.	Select a group to see its data. This data appears in charts on this page. One of these charts displays data that compares this group’s behavior with that of peer groups, and the other chart shows trend lines for this group, over recent weeks. 
 
     > [!Note] 
     > A "peer group" is a group that is the closest to the anomalous group from an organizational hierarchy perspective. 
 
-6.	Optionally, select other groups to examine their data. As you do this, pay attention to the chart on the left, which compares the data for this group with the data for its peer groups. This comparison helps you determine whether that group is an outlier, and therefore a candidate group for a plan for the chosen metric (such as focus hours).  
+4.	(Optional) Select other groups to examine their data. As you do this, pay attention to the chart on the left, which compares the data for this group with the data for its peer groups. This comparison helps you determine whether that group is an outlier, and therefore a candidate group for a plan for the chosen metric (such as focus hours).  
 
-7.	(Optional) Use the thumbs-up or thumbs-down icons at the right on the bottom of the page to indicate the relevance of this opportunity to your organization. 
+5.	(Optional) Use the thumbs-up or thumbs-down icons at the right on the bottom of the page to indicate the relevance of this opportunity to your organization. 
 
-8.	To create a plan for the group that you have selected, select **Start plan**. 
+6.	To create a plan for the group that you have selected, select **Start plan**. 
 
     ![A group reappears](../images/wpa/use/create-plan.png)
  
@@ -108,11 +108,11 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
     This page displays the default settings for this plan.
 
-9.	Optionally, change settings. You can edit the plan name, the start date, and the target. Once you agree with the settings, select **Validate**. Note that the number of participants is set and cannot be edited. It is determined by the organizational data that your admin has uploaded.
+7. (Optional) Change the settings of the plan. You can edit its name, the start date, and the target. Once you're finished with the settings, select **Validate**. Note that the number of participants cannot be edited. It is determined by the organizational data that your admin has uploaded.
 
-10.	 Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation). 
+   Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation). 
 
-11.	After the group validates successfully, go to [To create the plan](#to-create-the-plan). 
+8.	After the group validates successfully, go to [To create the plan](#to-create-the-plan). 
 
 ### To create the plan
 
