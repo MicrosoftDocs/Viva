@@ -6,7 +6,7 @@ title: Solutions scan in Workplace Analytics
 description: Describes how to scan for opportunities in Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/12/2019
+ms.date: 06/25/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -38,7 +38,7 @@ Workplace Analytics runs AI-based detection every week as part of the standard w
 
 ### To find an opportunity
 
-Scans are run as part of standard Workplace Analytics processing runs, and newly discovered opportunities are surfaced as soon as they are available. To find one or more newly discovered opportunities, check the **Opportunities** page. 
+Scans are run weekly as part of standard Workplace Analytics processing runs, and newly discovered opportunities are surfaced as soon as they are available. To find one or more newly discovered opportunities, check the **Opportunities** page. 
 
 **Role:** analyst, limited analyst, or program manager
 
@@ -52,10 +52,10 @@ Scans are run as part of standard Workplace Analytics processing runs, and newly
 
     ![Opportunities area](../images/wpa/use/solution-scan-opportunities-2.png)
  
-    When you view this page on a Monday, you see new scan results in the (light-blue) highlighted callouts to the right of the solution descriptions. These callouts describe opportunities for one or more groups.
+    When you view this page, you see new scan results in the (light-blue) highlighted callouts to the right of the solution descriptions. These callouts describe opportunities for one or more groups.
 
     > [!Note]
-    > If Workplace Analytics cannot detect anything in the data that would present an opportunity, it displays a notice that reads, “No opportunities could be loaded. Please check back later.” 
+    > If Workplace Analytics cannot detect anything in the data that would present an opportunity, it displays a notice that reads, "No opportunities could be loaded. Please check back later."
 
 4.	Consider which of the displayed opportunities you would like to pursue. After you’ve decided to start a plan from an opportunity, go on to [Create a plan](#create-a-plan). 
 
