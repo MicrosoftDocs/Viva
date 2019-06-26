@@ -124,4 +124,10 @@ After the group that you’ve selected validates successfully (even if there are
 
 ## Track the plan
 
-You can track the progress of the plan while it is underway. For more information, see [Track plans](solutionsv2-task#track-plans).
+You can track the progress of the plan while it is underway. For more information, see [Track plans](solutionsv2-task.md#track-plans).
+
+## Related topics
+
+[Person query](person-queries.md)
+
+[Solution walkthrough](solutionsv2-task.md)
