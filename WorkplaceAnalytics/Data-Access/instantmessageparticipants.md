@@ -27,4 +27,4 @@ This file includes one row for each participant in an instant message with the f
 
 ## Related topics
 
-[Data export](./data-access.md))
+[Data export](./data-access.md)
