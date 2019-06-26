@@ -48,4 +48,4 @@ The HR attributes represent organizational data your company has uploaded for us
 
 ## Related topics
 
-[Data access](./data-access.md)
+[Data export](./data-access.md)

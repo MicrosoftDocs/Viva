@@ -28,4 +28,4 @@ This file includes one row for every email sent with the following metrics:
   
 ## Related topics
 
-[Data access](./data-access.md)
+[Data export](./data-access.md)
