@@ -5,9 +5,9 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Email metrics for Workplace Analytics Data export
 description: One row for every email sent
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 02/27/2019
+ms.date: 06/26/2019
 ms.topic: article
 ms.prod: wpa
 
@@ -15,7 +15,7 @@ ms.prod: wpa
 
 # Mails (.csv)
 
-This file includes one row for every email sent with the following metrics.
+This file includes one row for every email sent with the following metrics:
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
@@ -26,3 +26,6 @@ This file includes one row for every email sent with the following metrics.
 |**SenderTimeSpentinMinutes**|**double**|How many minutes spent writing the email (heuristic estimated value)|
 |**NumberOfRecipients**|**integer**|Number of email recipients, not including the sender|
   
+## Related topics
+
+[Data access](./data-access.md)
