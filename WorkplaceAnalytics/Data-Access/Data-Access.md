@@ -5,9 +5,9 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 03/22/2019
+ms.date: 06/26/2019
 ms.topic: article
 ms.prod: wpa
 ms.collection: M365-analytics
@@ -34,10 +34,10 @@ You can export pre-processed Workplace Analytics data to a designated Azure stor
  * [PersonHistorical](./PersonHistorical.md)
  * [MailParticipants](./MailParticipants.md)
  * [Mails](./Mails.md)
- * [CallParticipants](./callparticipants.md)
  * [Calls](./calls.md)
- * [InstantMessageParticipants](./instantmessageparticipants.md)
+ * [CallParticipants](./callparticipants.md)
  * [InstantMessages](./instantmessages.md)
+ * [InstantMessageParticipants](./instantmessageparticipants.md)
 
 ## To export data from Workplace Analytics
 
@@ -131,11 +131,11 @@ echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 
 [MailParticipants](./MailParticipants.md)
 
-[CallParticipants](./callparticipants.md)
-
 [Calls](./calls.md)
 
-[InstantMessageParticipants](./instantmessageparticipants.md)
+[CallParticipants](./callparticipants.md)
 
 [InstantMessages](./instantmessages.md)
+
+[InstantMessageParticipants](./instantmessageparticipants.md)
 

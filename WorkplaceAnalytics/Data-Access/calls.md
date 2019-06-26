@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Calls (.csv)
  
-This file includes one row for each call with the following metrics. Recurring, scheduled calls (also referred to as meetings) result in a row for each occurrence.
+This file includes one row for each call with the following metrics. Recurring, scheduled calls (also referred to as _meetings_) result in a row for each occurrence.
 
 |Column name|Data type|Description|      
 |-----------------|---------------|-----------------|      

@@ -5,9 +5,9 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Email metrics for Workplace Analytics Data export
 description: One row for every email sent
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 02/27/2019
+ms.date: 06/26/2019
 ms.topic: article
 ms.prod: wpa
 
