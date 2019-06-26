@@ -14,6 +14,9 @@ ms.prod: wpa
 
 # Instant messages (.csv)
 
+
+This file includes one row for each instant message with the following metrics:
+
     
 |Column name|Data type|Description|      
 |-----------------|---------------|-----------------|      

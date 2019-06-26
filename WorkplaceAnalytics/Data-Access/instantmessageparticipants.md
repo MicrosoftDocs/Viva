@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Instant message participants (.csv)
 
-This file includes one row for each Teams collaboration event with the following metrics. 
+This file includes one row for each participant in an instant message with the following metrics:
        
 |Column name|Data type|Description|      
 |-----------------|---------------|-----------------|      

@@ -30,14 +30,14 @@ Saving the SAS URI enables a workflow that exports the Workplace Analytics data 
 You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
  * [Meetings](./Meetings.md)
- * [Meeting participants](./MeetingParticipants.md)
- * [Person historical](./PersonHistorical.md)
- * [Mail participants](./MailParticipants.md)
+ * [MeetingParticipants](./Meetingparticipants.md)
+ * [PersonHistorical](./PersonHistorical.md)
+ * [MailParticipants](./MailParticipants.md)
  * [Mails](./Mails.md)
- * [Call participants](./callparticipants.md)
+ * [CallParticipants](./callparticipants.md)
  * [Calls](./calls.md)
- * [Instant message participants](./instantmessageparticipants.md)
- * [Instant messages](./instantmessages.md)
+ * [InstantMessageParticipants](./instantmessageparticipants.md)
+ * [InstantMessages](./instantmessages.md)
 
 ## To export data from Workplace Analytics
 
@@ -125,17 +125,17 @@ echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 
 [Meetings](./Meetings.md)
 
-[Meeting participants](./MeetingParticipants.md)
+[MeetingParticipants](./MeetingParticipants.md)
 
-[Person historical](./PersonHistorical.md)
+[PersonHistorical](./PersonHistorical.md)
 
-[Mail participants](./MailParticipants.md)
+[MailParticipants](./MailParticipants.md)
 
-[Call participants](./callparticipants.md)
+[CallParticipants](./callparticipants.md)
 
 [Calls](./calls.md)
 
-[Instant message participants](./instantmessageparticipants.md)
+[InstantMessageParticipants](./instantmessageparticipants.md)
 
-[Instant messages](./instantmessages.md)
+[InstantMessages](./instantmessages.md)
 

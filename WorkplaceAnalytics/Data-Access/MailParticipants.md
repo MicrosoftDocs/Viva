@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # MailParticipants (.csv)
 
-This file includes one row for every email sent and every email received with the following metrics.
+This file includes one row for every email sent and every email received with the following metrics:
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|

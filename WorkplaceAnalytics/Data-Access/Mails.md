@@ -15,7 +15,7 @@ ms.prod: wpa
 
 # Mails (.csv)
 
-This file includes one row for every email sent with the following metrics.
+This file includes one row for every email sent with the following metrics:
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|

@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # MeetingParticipants (.csv)
 
-This file has one row for each participant in a calendar meeting with the following metrics.
+This file has one row for each participant in a calendar meeting with the following metrics:
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|

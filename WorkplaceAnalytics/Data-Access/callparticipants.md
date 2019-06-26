@@ -13,6 +13,10 @@ ms.prod: wpa
 ---
 
 # Call participants (.csv)
+
+
+This file includes one row for each participant in a call with the following metrics:
+
   
 |Column name|Data type|Description|      
 |-----------------|---------------|-----------------|      
