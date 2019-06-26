@@ -17,7 +17,7 @@ ms.prod: mya
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
-The focus plan in MyAnalytics helps you block time every day for your top-priority work. . MyAnalytics will help you reserve 1-2 hours every day to focus (with the option to automatically book that time), and silence chats during that booked time. 
+The focus plan in MyAnalytics helps you block time every day for your top-priority work. MyAnalytics will help you reserve 1-2 hours every day to focus (with the option to automatically book that time), and silence chats during that booked time. 
 
 The focus plan of MyAnalytics is tied to the focus theme, or work pattern. (For more information about the MyAnalytics Focus work pattern, see [Focus](../use/focus.md).) 
 As a MyAnalytics participant, you can choose to create or to end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
