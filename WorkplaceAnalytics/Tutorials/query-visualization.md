@@ -97,6 +97,8 @@ Go on to [Validate](#validate).
 
 ## Validate
 
+**Role:** analyst 
+
 1. For **Plan type**, choose an appropriate plan type for that group that you designated and select **Start now**.
 
 2. (Optional) Type a description of your new plan
@@ -109,6 +111,8 @@ After validation succeeds, go to [Start the plan](#start-the-plan).
 
 ## Start the plan
 
+**Role:** analyst 
+
 After the group that you’ve selected validates successfully (even if there are validation warnings), if your group size meets or exceeds the minimum group size, you can finish setting up your plan. 
 
 ![Set up new plan](../images/wpa/tutorials/set-up-new-plan-qv-final.png)
@@ -117,5 +121,7 @@ After the group that you’ve selected validates successfully (even if there are
 2.	(Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan’s end date is then calculated and displayed.
 3.	(Optional) Change the **Plan target** to a different value. Note that you can select only percentage-based targets, such as a 10% decrease in after-hours work. 
 4.	Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates displayed for **Plan duration**. 
+
+## Track the plan
 
 You can track the progress of the plan while it is underway. For more information, see [Track plans](solutionsv2-task#track-plans).
