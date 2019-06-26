@@ -4,10 +4,10 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Teams metrics for Workplace Analytics Data export
-description: One row for each participant in a calendar meeting
+description: One row for each collaboration event
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/24/2019
+ms.date: 06/26/2019
 ms.topic: article
 ms.prod: wpa
 ---
@@ -16,25 +16,50 @@ ms.prod: wpa
 
 This file includes one row for each Teams collaboration event with the following metrics. 
   
-NOTE: THE FOLLOWING TABLE WAS COPIED FROM ANOTHER FILE. IT IS AN EXAMPLE ONLY. 
-TEAMS DATA (COLUMNS, TYPES, DESCRIPTIONS) WILL GO HERE. 
+## InstantMessageParticipants (.csv)      
+      
+|Column name|Data type|Description|      
+|-----------------|---------------|-----------------|      
+| InstantMessageId | string | Unique identifier for each instant message; foreign key matching InstantMessage table |
+| PersonHistoricalId | string | Unique value for a participant any time an HR attribute changes; foreign key matching PersonHistorical table |
+| isAfterHours | boolean | True if this instant message was sent after hours |
+| IsSender | boolean | True if this person was the instant message sender |
+| LocalSentTime | datetime | Sent time of the instant message in the participant's local time |
+| SenderTimeSpentInMinutes | double | Time spent in instant message, approximation |
+      
+## InstantMessages (.csv)  
+    
+|Column name|Data type|Description|      
+|-----------------|---------------|-----------------|      
+| InstantMessageId | string | Unique identifier for each instant message; foreign key matching InstantMessage table |
+| AppName | string | Name of the source app (e.g. Teams, Skype) |
+| SentTime | datetime | Sent time of the instant message in the participant's local time |
+| InteractionType | enumerated | Sendee's type of instant message: GroupChat, OneOnOneChat |
+| TotalParticipants | double | Sum of total IM participants (includes sender) |
+      
+## Calls (.csv)     
+ 
+|Column name|Data type|Description|      
+|-----------------|---------------|-----------------|      
+| CallRecordId | string | Unique identifier for each call (including scheduled calls); primary key  |
+| MeetingId | string | Meeting calendar ID (iCalUID + StartDate) associated metadata found on the mapped MeetingId (if a scheduled call/meeting) |
+| AppName | string | Name of the source app (e.g. Teams, Skype) |
+| IsScheduledCall | boolean | True if this is a scheduled call |
+| TotalParticipants | integer | Sum of total particpants for the call |
+| InteractionType | enumerated | Invitee's response to the call: joined/attended, tentative, accepted, or no response |
+						
+## CallsParticipants (.csv)    
+  
+|Column name|Data type|Description|      
+|-----------------|---------------|-----------------|      
+| CallRecordId | string | Unique identifier for each call (including scheduled calls); primary key  |
+| PersonHistoricalId | string | Unique value for a participant any time an HR attribute changes; foreign key matching PersonHistorical table |
+| IsOrganizer | boolean | True if this participant organized the call |
+| LocalStartTime | datetime | Start time of the call in the participant's local time |
+| LocalEndTime | datetime | End time of the call in the participant's local time |
 
-|Column name|Data type|Description|
-|-----------------|---------------|-----------------|
-|**MeetingId**|**string**|Unique identifier for each meeting (including recurring meetings); primary key|
-|**ICalUid**|**string**|Meeting calendar ID|  
-|**Subject**|**string**|Meeting subject (rRespects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/settings.md#privacy-settings))|
-|**IsRecurring**|**boolean**|True if this is a recurring meeting|
-|**IsCanceled**|**boolean**|True if the meeting was canceled|
-|**StartTime**|**datetime**|Meeting start time|
-|**DurationMinutes**|**integer**|Meeting length in minutes|
-|**TotalAccept**|**integer**|Total number of meeting acceptances|
-|**TotalDecline**|**integer**|Total number of meeting declines|
-|**TotalNoResponse**|**integer**|Total number of invitees who did not respond to the meeting invite|
-|**TotalAttendees**|**integer**|Sum of total accept, total no-response, plus organizer|
-|**TotalDoubleBooked**|**integer**|Number of attendees who had conflicting meetings or appointments on their calendar|
-|**TotalEmailsDuringMeeting**|**integer**|Number of emails sent during the meeting by all attendees who did not decline the meeting invitation|
 
 ## Related topics
 
 [Data access](./data-access.md)
+
