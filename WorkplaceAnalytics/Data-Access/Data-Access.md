@@ -129,3 +129,5 @@ echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 [MailParticipants](./MailParticipants.md)
 
 [Mails](./Mails.md)
+
+[Teams](./teams.md)
