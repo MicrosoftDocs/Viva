@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: wpa
 ---
 
-# Instant messages (.csv)
+# InstantMessages (.csv)
 
 
 This file includes one row for each instant message with the following metrics:

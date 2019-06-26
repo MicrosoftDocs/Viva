@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: wpa
 ---
 
-# Instant message participants (.csv)
+# InstantMessageParticipants (.csv)
 
 This file includes one row for each participant in an instant message with the following metrics:
        
