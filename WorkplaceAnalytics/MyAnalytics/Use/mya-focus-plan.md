@@ -61,7 +61,7 @@ The **Plan ahead** area helps you to plan focus time for the upcoming days. This
 
 ### Focus time booked
 
-For the current week and the following week, this area shows how many (four in the preceding example screenshot) and which days have had focus time booked. 
+For the current week and the following week, this area shows how many days and which days have had focus time booked. In the preceding example screenshot, the four days with focus time booked are shown in green. 
 
 <!-- The shapes in this area are color coded:
 
