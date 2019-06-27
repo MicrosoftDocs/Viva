@@ -35,9 +35,9 @@ You create your focus plan in the MyAnalytics dashboard or in the Outlook add-in
 
    ![Personalize your experience](../../Images/mya/use/focusplan-preferences.png)
  
-   On this page, select either **Book time for me** or **Just remind me to book time**. If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what time your calendar has open. If you select the other option, MyAnalytics will send you a weekly email and inline suggestions in Outlook that remind you to schedule your own focus time. 
+2. On this page, select either **Automatically book time** or **Reminders only**. If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what times your calendar has open. If you select **Reminders only**, MyAnalytics will send you a [weekly email](#focus-plan-weekly-email) and [inline suggestions](#inline-suggestions-and-other-alerts) in Outlook that remind you to schedule your own focus time. 
 
-2.	Select **Get started**. This enrolls you in a focus plan. MyAnalytics now carries out the option that you chose – to book focus time or to remind you to book focus time.
+2.	Select **Get started**. This enrolls you in your focus plan. MyAnalytics now carries out the option that you chose&mdash;to book focus time or to remind you to book focus time.
 
 ### Outlook add-in
 
@@ -174,7 +174,7 @@ For more information about the digest email, which for focus plan participants b
 
 ### Focus plan weekly email
 
-After you enroll in a focus plan, the content of the weekly digest email becomes tailored to your participation in the plan.
+After you enroll in a focus plan, the content of the weekly digest email becomes tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside. 
 
 ### Inline suggestions and other alerts
 
