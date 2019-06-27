@@ -34,6 +34,14 @@ You create your focus plan in the MyAnalytics dashboard or in the Outlook add-in
     On this page, select either **Book time for me** or **Just remind me to book time**. If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what time your calendar has open. If you select the other option, MyAnalytics will send you a weekly email and inline suggestions in Outlook that remind you to schedule your own focus time. 
 
 2.	Select **Get started**. This enrolls you in a focus plan. MyAnalytics now carries out the option that you chose – to book focus time or to remind you to book focus time.
+
+### Outlook add-in
+
+You can also use the Outlook add-in to enroll in the focus plan. To do so, select the **Create your focus plan**. 
+
+![Create your focus plan](../../Images/mya/use/card-in-add-in-2.png)
+
+The steps that follow match the steps in [Personal dashboard](#personal-dashboard).
  
 ## To check the progress of your focus plan
 
@@ -49,7 +57,9 @@ The **Plan ahead** area helps you to plan focus time for the upcoming days. This
 
 ### Focus time booked
 
-For the current week and the following week, see how many (four in the preceding example screenshot) and which days have had focus time booked. The shapes in this area are color coded:
+For the current week and the following week, this area shows how many (four in the preceding example screenshot) and which days have had focus time booked. 
+
+<!-- The shapes in this area are color coded:
 
 | Color | Meaning |
 | ----- | ----- |
@@ -57,6 +67,7 @@ For the current week and the following week, see how many (four in the preceding
 | Gray | A day that has already passed. |
 | Yellow | MyAnalytics couldn’t find any time to book on that day, or you accepted a meeting that conflicts with time previously booked as focus time on that day. |
 | Blue | You haven’t yet booked focus time on that day, but MyAnalytics found open time that’s available to book. | 
+-->
 
 ### Needs focus time
 
