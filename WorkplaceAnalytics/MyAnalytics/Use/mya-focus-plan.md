@@ -45,7 +45,7 @@ You can also use the Outlook add-in to enroll in the focus plan. To do so, selec
 
 ![Create your focus plan](../../Images/mya/use/card-in-add-in-2.png)
 
-The steps that follow match the steps in [Personal dashboard](#personal-dashboard).
+The steps that follow match the steps in [Personal dashboard](#personal-dashboard): Select either **Automatically book time** or **Reminders only** and then select **Get started**. 
  
 ## To check the progress of your focus plan
 
