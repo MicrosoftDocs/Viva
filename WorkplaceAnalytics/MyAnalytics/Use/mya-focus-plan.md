@@ -27,11 +27,15 @@ You create your focus plan in the MyAnalytics dashboard or in the Outlook add-in
 
 ### Personal dashboard
 
-1. In the focus plan card in the email digest, select **Try it out**. This displays a page where you can indicate your preferences:
+1. In the focus plan card in the email digest, select **Try it out**. 
 
-    ![Personalize your experience](../../Images/mya/use/focusplan-preferences.png)
+   ![Focus plan card in digest](../../Images/mya/use/focusplan-intro.png)
+
+   This displays a page where you can indicate your preferences:
+
+   ![Personalize your experience](../../Images/mya/use/focusplan-preferences.png)
  
-    On this page, select either **Book time for me** or **Just remind me to book time**. If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what time your calendar has open. If you select the other option, MyAnalytics will send you a weekly email and inline suggestions in Outlook that remind you to schedule your own focus time. 
+   On this page, select either **Book time for me** or **Just remind me to book time**. If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what time your calendar has open. If you select the other option, MyAnalytics will send you a weekly email and inline suggestions in Outlook that remind you to schedule your own focus time. 
 
 2.	Select **Get started**. This enrolls you in a focus plan. MyAnalytics now carries out the option that you chose – to book focus time or to remind you to book focus time.
 
