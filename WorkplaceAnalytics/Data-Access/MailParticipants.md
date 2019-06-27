@@ -19,11 +19,11 @@ This file includes one row for every email sent and every email received with th
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
 |**MailId**|**string**|Unique identifier for every email sent; foreign key matching primary key of the [Mails table](./mails.md)|
-|**PersonHistoricalId:**|**string**|Unique identifer for every person; foreign key matching PersonHistorical table primary key|  
+|**PersonHistoricalId:**|**string**|Unique identifer for every person; foreign key matching [PersonHistorical](./PersonHistorical.md) table primary key|  
 |**IsSender**|**boolean**|True if this person sent the email|
 |**PersonTimeSpentInMinutes**|**double**|Time spent reading or writing the email (heuristic estimated value)|
 |**LocalSentTime**|**datetime**|Local time when the email was sent|
 
 ## Related topics
 
-[Data access](./data-access.md)
+[Data export](./data-access.md)

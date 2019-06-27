@@ -11,6 +11,7 @@ ms.date: 06/26/2019
 ms.topic: article
 ms.prod: wpa
 ---
+
 # Meetings (.csv)
 
 This file includes one row for each meeting or appointment with the following metrics. Recurring meetings result in a row for each occurrence.
@@ -19,7 +20,7 @@ This file includes one row for each meeting or appointment with the following me
 |-----------------|---------------|-----------------|
 |**MeetingId**|**string**|Unique identifier for each meeting (including recurring meetings); primary key|
 |**ICalUid**|**string**|Meeting calendar ID|  
-|**Subject**|**string**|Meeting subject (rRespects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/settings.md#privacy-settings))|
+|**Subject**|**string**|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/settings.md#privacy-settings))|
 |**IsRecurring**|**boolean**|True if this is a recurring meeting|
 |**IsCanceled**|**boolean**|True if the meeting was canceled|
 |**StartTime**|**datetime**|Meeting start time|
@@ -33,4 +34,4 @@ This file includes one row for each meeting or appointment with the following me
 
 ## Related topics
 
-[Data access](./data-access.md)
+[Data export](./data-access.md)

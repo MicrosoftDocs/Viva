@@ -22,7 +22,7 @@ This file includes one row for each person that has HR changes and for each HR c
 |**EmailAddress**|**string**|Masked value, unique for every email address|  
 |**StartDate**|**datetime**|Effective start date of last HR change (does not apply for original hire date, or leave date)|
 |**EndDate**|**datetime**|Effective end date of last HR change (does not apply for original hire date, or leave date)|
-|**PopulationType**|**string**|Type of employee. See [PopulationType](#populationtype)|
+|**PopulationType**|**string**|Type of employee. See [PopulationType](#populationtype).|
 |**IsInternal**|**boolean**|True if PopulationType is either MeasuredEmployee or InternalCollaborator|
 |**ManagerId**|**string**|Unique value for each person's manager|
 |**HR Attribute 1**|varies |HR values that have been added to the dataset; see [HR attributes](#hr-attributes).|
@@ -48,4 +48,4 @@ The HR attributes represent organizational data your company has uploaded for us
 
 ## Related topics
 
-[Data access](./data-access.md)
+[Data export](./data-access.md)

@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: wpa
 ---
 
-# Instant messages (.csv)
+# InstantMessages (.csv)
 
 
 This file includes one row for each instant message with the following metrics:
@@ -21,11 +21,11 @@ This file includes one row for each instant message with the following metrics:
 |Column name|Data type|Description|      
 |-----------------|---------------|-----------------|      
 | InstantMessageId | string | Unique identifier for each instant message; foreign key matching InstantMessage table |
-| AppName | string | Name of the source app (e.g. Teams, Skype) |
+| AppName | string | Name of the source app (for example: Teams, Skype) |
 | SentTime | datetime | Sent time of the instant message in the participant's local time |
 | InteractionType | enumerated | Sendee's type of instant message: GroupChat, OneOnOneChat |
 | TotalParticipants | double | Sum of total IM participants (includes sender) |
 
 ## Related topics
 
-[Data access](./data-access.md)
+[Data export](./data-access.md)
