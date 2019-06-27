@@ -150,10 +150,6 @@ During focus time, your status in Teams and Skype for Business will automaticall
 
 For more information, see [Manage notifications in Teams](https://support.office.com/en-us/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d). 
 
-## Focus plan weekly email
-
-After you enroll in a focus plan, the content of the weekly digest email becomes tailored to your participation in the plan.
-
 <!-- DELETED 27 JUNE, PER PETERB
 
 ## Focus plan in MyAnalytics surfaces
@@ -174,7 +170,13 @@ For more information about the digest email, which for focus plan participants b
 
 -->
 
-## Inline suggestions and other alerts
+## Focus plan in MyAnalytics
+
+### Focus plan weekly email
+
+After you enroll in a focus plan, the content of the weekly digest email becomes tailored to your participation in the plan.
+
+### Inline suggestions and other alerts
 
 If you choose not to have MyAnalytics automatically book focus time for you, MyAnalytics deliver [inline suggestions](mya-notifications.md) in Outlook that remind you to reserve time to focus every day.
 
