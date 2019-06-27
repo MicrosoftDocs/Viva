@@ -33,6 +33,10 @@ These metrics are calculated only for your working hours, as determined by your 
 
 For example: If your working hours are set as 9 am to 5 pm daily (8 working hours per day) and you spent 30 hours in meetings, emails, chats, and calls in a given week, your dashboard will show 75% collaboration and 25% time available to focus for that week.
 
+## Focus plan
+
+The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](mya-focus-plan.md). 
+
 ## Focus tips
 
 #### Block focus time on your calendar
@@ -40,9 +44,6 @@ For example: If your working hours are set as 9 am to 5 pm daily (8 working hour
 It can be hard to go deep on challenging work if you only have small chunks of time to focus in between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help improve your concentration and effectiveness.
 
 Prioritize any focus time you book and do your best to avoid accepting meetings that overlap with it. In the same way, be respectful of double-booking your team’s blocked time.
-
-> [!Tip] 
-> The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](mya-focus-plan.md). 
 
 #### Manage notifications and interruptions
 
