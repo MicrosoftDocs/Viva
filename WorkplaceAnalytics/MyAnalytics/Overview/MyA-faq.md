@@ -142,7 +142,11 @@ Yes, follow the steps in [To opt out of email digests](../use/email-digest-2.md#
 
 Yes, follow the steps in [To opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics).
 
-##### Q6. Can I turn off inline suggestions in Outlook?
+##### Q6. Why can I not see the MyAnalytics dashboard to opt-out?
+
+To opt out, you use the MyAnalytics dashboard. The dashboard is available only if your organization has a _qualifying plan_. (All of the plans listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features) are qualifying plans.) If an organization has no _qualifying plan_, its members see no elements of MyAnalytics and their data is not processed. 
+
+##### Q7. Can I turn off inline suggestions in Outlook?
 
 Yes, follow the steps in [To opt out of inline suggestions](../use/mya-notifications.md#to-opt-out-of-inline-suggestions).
 
