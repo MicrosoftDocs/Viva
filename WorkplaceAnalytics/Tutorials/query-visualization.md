@@ -66,7 +66,7 @@ As you add and apply filters and select groups, the chart section of the results
 
 Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in the **Solutions** area of Workplace Analytics. 
 
-For more information about solutions, see [Teamwork solution introduction](solutionsv2-intro.md). 
+For more information about solutions, see [Workplace Analytics solutions](solutionsv2-intro.md). 
 
 **Role:** analyst 
 
