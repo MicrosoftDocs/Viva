@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Visualize person queries
 
-Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don’t seem to have enough focus time. To help you in this task, Workplace Analytics offers the [Person query](person-queries.md), which includes a number of standard and custom metrics that can help you perform the analyses of this kind.  
+Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don't seem to have enough focus time. To help you in this task, Workplace Analytics offers the [Person query](person-queries.md), which includes a number of standard and custom metrics that can help you perform the analyses of this kind.  
 
 After you create and run a Person query, you can view its results (in the form of charts) without leaving Workplace Analytics. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. These steps are described in the following sections: 
 
@@ -24,7 +24,7 @@ After you create and run a Person query, you can view its results (in the form o
 In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as [Power BI](../use/view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool). 
 
 > [!Note] 
-> Your query results might indicate groups of employees that could benefit from a [Teamwork solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optional: Create a solution plan](#optional-Create-a-solution-plan).
+> Your query results might indicate groups of employees that could benefit from a [solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optional: Create a solution plan](#optional-create-a-solution-plan).
 
 ## Run a query and view results 
 
