@@ -54,10 +54,9 @@ In addition to these capabilities, you still have the option of exporting result
 
 The following steps are all optional. You can use them to refine your view of the query results in various ways. 
 
-1. **Modify filters and metrics.** Use the **Page settings**
-panel to modify the date range, the filters that are applied, the metrics that you want included in your chart, and the number of groups that are displayed. Note that the kind of chart you are viewing could affect the view options that are available to you. For more information about using these settings, see [Page settings and filters](../use/chart-types.md#page-settings-and-filters). 
+1. **Modify filters and metrics.** Use the **Page settings** panel to modify the date range, the filters that are applied, the metrics that you want included in your chart, and the number of groups that are displayed. Note that the kind of chart you are viewing could affect the view options that are available to you. For more information about using these settings, see [Page settings and filters](../use/chart-types.md#page-settings-and-filters). 
 
-2. **Change chart attributes.** Use the chart toolbar to change the chart type or the chart’s sort order. Some options are available only with certain chart types.    
+2. **Change chart attributes.** Use the chart toolbar to change the chart type or the chart’s sort order. Some options are available only with certain chart types.  
 
 3. **Investigate groups.** Select particular groups in the chart to activate options for drilling down or for excluding. The groups that you select will be reflected in both the chart display and also in the settings panel. Groups will reset if you change the chart type or the sort order.  
 
@@ -65,7 +64,7 @@ As you add and apply filters and select groups, the chart section of the results
 
 ## Optional: Create a solution plan  
 
-Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you’ve discovered in the query results. Then, you can act on those opportunities by using them to create a plan in the **Solutions** area of Workplace Analytics. 
+Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in the **Solutions** area of Workplace Analytics. 
 
 For more information about solutions, see [Teamwork solution introduction](solutionsv2-intro.md). 
 
