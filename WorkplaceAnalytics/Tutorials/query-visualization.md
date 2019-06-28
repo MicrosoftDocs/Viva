@@ -24,7 +24,7 @@ After you create and run a Person query, you can view its results (in the form o
 In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as [Power BI](../use/view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool). 
 
 > [!Note] 
-> Your query results might indicate groups of employees that could benefit from a [Teamwork solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optional: Create a solution plan]().
+> Your query results might indicate groups of employees that could benefit from a [Teamwork solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optional: Create a solution plan](#optional-Create-a-solution-plan).
 
 ## Run a query and view results 
 
