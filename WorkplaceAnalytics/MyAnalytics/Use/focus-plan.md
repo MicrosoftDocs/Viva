@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics focus plan
+title: Focus plan
 description: MyAnalytics focus plan
 author: paul9955
 ms.author: v-pascha
@@ -13,7 +13,7 @@ ms.prod: mya
 
 ---
 
-# MyAnalytics focus plan
+# Focus plan
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
@@ -35,7 +35,7 @@ You can create your focus plan in the MyAnalytics dashboard or in the Outlook ad
 
    ![Personalize your experience](../../Images/mya/use/focusplan-preferences.png)
  
-2. On this page, select either **Automatically book time** or **Reminders only**. If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what times your calendar has open. If you select **Reminders only**, MyAnalytics will send you a [weekly email](#focus-plan-weekly-email) and [inline suggestions](#inline-suggestions-and-other-alerts) in Outlook that remind you to schedule your own focus time. 
+2. On this page, select either **Automatically book time** or **Reminders only**. (Learn more about [Automatic booking of focus time](#automatic-booking-of-focus-time).) If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what times your calendar has open. If you select **Reminders only**, MyAnalytics will send you a [weekly email](#focus-plan-weekly-email) and [inline suggestions](#inline-suggestions-and-other-alerts) in Outlook that remind you to schedule your own focus time. 
 
 2.	Select **Get started**. This enrolls you in your focus plan. MyAnalytics now carries out the option that you chose&mdash;to book focus time or to remind you to book focus time.
 
@@ -170,7 +170,7 @@ For more information about the digest email, which for focus plan participants b
 
 -->
 
-## Focus plan in MyAnalytics
+## Weekly email and inline suggestions
 
 ### Focus plan weekly email
 
