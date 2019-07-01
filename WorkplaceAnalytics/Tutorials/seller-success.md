@@ -162,12 +162,13 @@ On this card, select **Manage meetings** to open the [calendar week view of Outl
 
 ### Privacy note
 
-The data that you see in the seller success email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email, this data is for your eyes only. For more information, see [Data privacy in Workplace Analytics](#data-privacy-in-workplace-analytics). 
+The data that you see in the seller success email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email, this data is for your eyes only. For more information, see [Data privacy in Workplace Analytics](..\overview\wpa-user-faq.md#data-privacy-in-workplace-analytics). 
+<br>
 <br>
 
 # Concepts
 
-This section describes concepts that can help you as you create and use seller success plans in Workplace Analytics. 
+This section describes concepts that can help you as you create seller success plans in Workplace Analytics. 
 
 ## Validation
 
