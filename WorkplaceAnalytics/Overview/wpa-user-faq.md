@@ -19,11 +19,31 @@ ms.prod: wpa
 > [!Note] 
 > The sets of questions and answers in this topic apply to participants in Seller success plans of Workplace Analytics.
 
-**Q1.** As a participant in the Seller success plan, what guidance will I recceive to help me during my participation in the plan?  
+**Q1.** As a participant in the Seller success plan, what guidance will I receive to help me during my participation in the plan?  
 
 <!-- For Madhura, get FWLink to here for use in the product UI -->
 
-**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week:
+**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week. For more information, see [Seller success weekly email](#seller-success-weekly-email).
+
+**Q2.**  Why am I receiving this email?
+
+**A2.** You receive this weekly "Seller insights" email to make it simple to visualize aspects of your own, recent, sales-related behavior. The insights and suggestions in this email, which are based on your collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
+ 
+**Q3.** What am i supposed to do with the information in this email?
+
+**A3.** It depends on the particular insight. For example, you can use the _Time with customers_ data to make large or small shifts in the amount of time you spend communicating with particular customers. You can use the data in the _Leverage internal networks_ card to adjust the time that you spend communicating with particular internal groups&mdash;such as solution specialists&mdash;to a more appropriate level.
+
+**Q4.** This email contains charts that describe my workplace behavior. Where did the data in those charts come from?
+
+**A4.** On a weekly basis, collaboration data from Office 365 is "refreshed"; that is, Workplace Analytics receives a copy of the preceding week's data about emails, meetings, calls, and chats that have taken place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: [organizational data](../setup/prepare-organizational-data.md) (descriptive data about employees), and [CRM data](../setup/crm-data-upload.md) (customer account information, sales records, purchasing history, service history, customer requests, and product inquiries). Workplace Analytics then processes these data streams together to uncover the insights that it presents in charts in the seller-success email that you receive.   
+
+**Q5.** Who else can see this data about me? 
+
+**A5.** The data that you see in the seller success email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email, this data is for your eyes only. For more information, see [Data privacy in Workplace Analytics](#data-privacy-in-workplace-analytics). 
+
+## Seller success weekly email
+
+A weekly sales-digest email is intended to help you be more successful by streamlining your behaviors based on the following elements of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week:
 
 ![Email top](../images/wpa/tutorials/email-top.png)
 
@@ -72,30 +92,14 @@ Spending time with and getting attention from your manager and other senior peop
  
 On this card, select **Manage meetings** to open the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
 
-**Q2.**  Why am I receiving this email?
-
-**A2.** You receive this weekly "Seller insights" email to make it simple to visualize aspects of your own, recent, sales-related behavior. The insights and suggestions in this email, which are based on your collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
- 
-**Q3.** What am i supposed to do with the information in this email?
-
-**A3.** It depends on the particular insight. For example, you can use the _Time with customers_ data to make large or small shifts in the amount of time you spend communicating with particular customers. You can use the data in the _Leverage internal networks_ card to adjust the time that you spend communicating with particular internal groups&mdash;such as solution specialists&mdash;to a more appropriate level.
-
-**Q4.** This email contains charts that describe my workplace behavior. Where did the data in those charts come from?
-
-**A4.** On a weekly basis, collaboration data from Office 365 is  "refreshed"; that is, Workplace Analytics receives a copy of the preceding week's data about emails, meetings, calls, and chats that have taken place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: [organizational data](../setup/prepare-organizational-data.md) (descriptive data about employees), and [CRM data](../setup/crm-data-upload.md) (customer account information, sales records, purchasing history, service history, customer requests, and product inquiries). Workplace Analytics then processes these data streams together to uncover the insights that it presents in charts in the seller-success email that you receive.   
-
-**Q5.** Who else can see this data about me? 
-
-**A5.** The data that you see in the seller success email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email, this data is for your eyes only. For more information, see the following section, [Data privacy in Workplace Analytics](#data-privacy-in-workplace-analytics). 
-
-### Data privacy in Workplace Analytics
+## Data privacy in Workplace Analytics
 
 Workplace Analytics operates under the following privacy principles:
 
  * [You own the data in your inbox](#you-own-the-data-in-your-inbox)
  * [No one but you sees your data](#no-one-but-you-sees-your-data)
 
-#### You own the data in your inbox
+### You own the data in your inbox
 
 When you look in your Office 365 mailbox, you see a record of interactions that you’ve had with other people. These interactions are of various kinds: emails that you’ve sent and received, meeting invitations, chats and calls. Because it’s your mailbox, you have a right to access it and view the information that it contains. In other words, your mailbox content is information that’s freely available to you.
 
@@ -106,7 +110,7 @@ If you send an email to your IT person, you can assume he’ll know that you sen
 
 **Conclusion:** What's in your inbox is yours. Your right to view the items in your inbox supersedes any other person’s right to privacy over those items.
 
-#### No one but you sees your data
+### No one but you sees your data
 
 Let’s say you want to dig deeper into what’s in your inbox. For example, how many emails did you send to your co-workers in your off-work hours last week? How many did you send the week before, and the week before that?
 
