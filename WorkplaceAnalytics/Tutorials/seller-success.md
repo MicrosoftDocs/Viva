@@ -99,7 +99,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 <!-- For Harshit, get FWLink to here for use in the product UI -->
 
-**Role:** No particular role is required. The only requirement is that participants have both a Workplace Analytics license and a MyAnalytics license.   
+**Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.   
 
 ## Email for participants
 
