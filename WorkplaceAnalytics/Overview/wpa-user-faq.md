@@ -27,7 +27,7 @@ ms.prod: wpa
 
 **Q2.**  Why am I receiving this email?
 
-**A2.** You receive this weekly "Seller insights" email to make it simple to visualize aspects of your recent sales-related behavior. The insights and suggestions in this email, which are based on your collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
+**A2.** You receive this weekly "Seller insights" email so that you can visualize aspects of your sales-related behavior. The insights and suggestions in this email, which are based on recent collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
  
 **Q3.** What am I supposed to do with the information in this email?
 
