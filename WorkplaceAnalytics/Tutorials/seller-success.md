@@ -174,33 +174,3 @@ This section describes concepts that can help you as you create and use seller s
 After you select **Validate**, Workplace Analytics checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Workplace Analytics license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. 
 
 After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
-
-## Data privacy in Workplace Analytics
-
-Workplace Analytics operates under the following privacy principles:
-
- * [You own the data in your inbox](#you-own-the-data-in-your-inbox)
- * [No one but you sees your data](#no-one-but-you-sees-your-data)
-
-### You own the data in your inbox
-
-When you look in your Office 365 mailbox, you see a record of interactions that you’ve had with other people. These interactions are of various kinds: emails that you’ve sent and received, meeting invitations, chats and calls. Because it’s your mailbox, you have a right to access it and view the information that it contains. In other words, your mailbox content is information that’s freely available to you.
-
-Most of the interactions in your mailbox involve other people – for example, co-workers who’ve sent you emails or meeting invitations or received them from you. These interactions provide you with a bit of information about how those co-workers used the communication tools of Office 365. If you want to know how many emails your manager sent you last month (eight, let’s say), you probably wouldn’t ask her. Instead, you open your Outlook inbox, sort it by sender, and count.
-
-The fact that those eight emails were sent by your manager doesn’t mean that this metadata about them (the count of emails) belongs only to her. It also belongs to you, because you received these emails.
-If you send an email to your IT person, you can assume he’ll know that you sent it, and when. Sending it means that you’ve chosen to reveal it (both its contents and its metadata) to him.
-
-**Conclusion:** What's in your inbox is yours. Your right to view the items in your inbox supersedes any other person’s right to privacy over those items.
-
-### No one but you sees your data
-
-Let’s say you want to dig deeper into what’s in your inbox. For example, how many emails did you send to your co-workers in your off-work hours last week? How many did you send the week before, and the week before that?
-
-You might want to uncover trends. Did you work more in your off hours before the winter break or after it? This sort of question is answered through analysis. That is where analytical tools such as Workplace Analytics can play a role.
-
-This tool looks in your inbox and in your calendar, crunches numbers, and gives insight into your behavior: How many emails did you send? How many meetings did you attend? Considering your emails and your meetings, how much time did you spend with customers? How many contacts did you have with each customer?
-
-Rather than having to open your mailbox folders and count items, or open your calendar and add up meeting times, you can see data of this sort summarized in the seller-solution email summary provided by Workplace Analytics. 
-
-**Conclusion:** Only you can see your Workplace Analytics data. Workplace Analytics insights are derived from data that was already available to you in your inbox.
