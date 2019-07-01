@@ -16,7 +16,7 @@ ms.prod: wpa
 
 Sales departments are the most profitable for any company, but their effectiveness can be unpredictable because of the variability in how salespeople work. With this in mind, Workplace Analytics offers the seller success solution. Its purpose is to help sales organizations learn more about the behaviors that differentiate their most successful salespeople, and build plans that help salespeople acquire those behaviors. 
 
-It’s not the purpose of the seller success solution to make sellers more productive simply by giving them more data. Rather, it aims to encourage sellers to reflect on how they use their limited time, and to make decisions that align their use of time with the company’s strategic priorities. 
+It's not the purpose of the seller success solution to make sellers more productive simply by giving them more data. Rather, it aims to encourage sellers to reflect on how they use their limited time, and to make decisions that align their use of time with the company’s strategic priorities. 
 
 The solution displays insights to help salespeople optimally use their limited time to maximize productivity, conversion rates, and sales revenues. In this case, productivity is defined as spending more time with the right set of customers, leveraging internal networks, and involving their manager and leadership in strategic customer meetings, as needed.
 

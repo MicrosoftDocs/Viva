@@ -27,15 +27,15 @@ ms.prod: wpa
 
 **Q2.**  Why am I receiving this email?
 
-**A2.** You receive this weekly "Seller insights" email to make it simple to visualize aspects of your own, recent, sales-related behavior. The insights and suggestions in this email, which are based on your collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
+**A2.** You receive this weekly "Seller insights" email to make it simple to visualize aspects of your recent sales-related behavior. The insights and suggestions in this email, which are based on your collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
  
-**Q3.** What am i supposed to do with the information in this email?
+**Q3.** What am I supposed to do with the information in this email?
 
 **A3.** It depends on the particular insight. For example, you can use the _Time with customers_ data to make large or small shifts in the amount of time you spend communicating with particular customers. You can use the data in the _Leverage internal networks_ card to adjust the time that you spend communicating with particular internal groups&mdash;such as solution specialists&mdash;to a more appropriate level.
 
-**Q4.** This email contains charts that describe my workplace behavior. Where did the data in those charts come from?
+**Q4.** This email contains charts that describe my workplace behavior. Where did this data come from?
 
-**A4.** On a weekly basis, collaboration data from Office 365 is "refreshed"; that is, Workplace Analytics receives a copy of the preceding week's data about emails, meetings, calls, and chats that have taken place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: [organizational data](../setup/prepare-organizational-data.md) (descriptive data about employees), and [CRM data](../setup/crm-data-upload.md) (customer account information, sales records, purchasing history, service history, customer requests, and product inquiries). Workplace Analytics then processes these data streams together to uncover the insights that it presents in charts in the seller-success email that you receive.   
+**A4.** On a weekly basis, Workplace Analytics receives from Office 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: [organizational data](../setup/prepare-organizational-data.md) (descriptive data about employees), and [CRM data](../setup/crm-data-upload.md) (including customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-success email.   
 
 **Q5.** Who else can see this data about me? 
 
