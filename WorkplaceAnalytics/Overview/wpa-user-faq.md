@@ -17,11 +17,11 @@ ms.prod: wpa
 # Frequently asked questions for Workplace Analytics
 
 > [!Note] 
-> The sets of questions and answers in this topic apply to participants in Seller success plans of Workplace Analytics.
+> The sets of questions and answers in this topic apply to participants in [Seller success](../tutorials/seller-success.md) plans of Workplace Analytics.
 
 ## Seller success Q & A
 
-**Q1.** As a participant in the Seller success plan, what guidance will I receive to help me during my participation in the plan?  
+**Q1.** As a participant in a Seller success plan, what guidance will I receive to help me during my participation in the plan?  
 
 <!-- For Madhura, get FWLink to here for use in the product UI -->
 
