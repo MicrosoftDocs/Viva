@@ -69,31 +69,11 @@ On this card, select **Manage meetings** to open the [calendar week view of Outl
 
 Workplace Analytics operates under the following privacy principles:
 
- * [You own the data in your inbox](#you-own-the-data-in-your-inbox)
- * [No one but you sees your data](#no-one-but-you-sees-your-data)
+**Workplace Analytics is not designed to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring.** Workplace Analytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Insights Outlook add-in, and inline suggestions in Outlook. Workplace Analytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by v cannot be used for automated decision-making or for profiling.
 
-### You own the data in your inbox
+**Workplace Analytics does not give employees access to new personally-identifiable information on other coworkers.** Workplace Analytics converts data into insights by performing calculations on information that people generate just by going about their work day. The majority of the data that employees see in Workplace Analytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.
 
-When you look in your Office 365 mailbox, you see a record of interactions that you’ve had with other people. These interactions are of various kinds: emails that you’ve sent and received, meeting invitations, chats and calls. Because it’s your mailbox, you have a right to access it and view the information that it contains. In other words, your mailbox content is information that’s freely available to you.
-
-Most of the interactions in your mailbox involve other people – for example, co-workers who’ve sent you emails or meeting invitations or received them from you. These interactions provide you with a bit of information about how those co-workers used the communication tools of Office 365. If you want to know how many emails your manager sent you last month (eight, let’s say), you probably wouldn’t ask her. Instead, you open your Outlook inbox, sort it by sender, and count.
-
-The fact that those eight emails were sent by your manager doesn’t mean that this metadata about them (the count of emails) belongs only to her. It also belongs to you, because you received these emails.
-If you send an email to your IT person, you can assume he’ll know that you sent it, and when. Sending it means that you’ve chosen to reveal it (both its contents and its metadata) to him.
-
-**Conclusion:** What's in your inbox is yours. Your right to view the items in your inbox supersedes any other person’s right to privacy over those items.
-
-### No one but you sees your data
-
-Let’s say you want to dig deeper into what’s in your inbox. For example, how many emails did you send to your co-workers in your off-work hours last week? How many did you send the week before, and the week before that?
-
-You might want to uncover trends. Did you work more in your off hours before the winter break or after it? This sort of question is answered through analysis. That is where analytical tools such as Workplace Analytics can play a role.
-
-This tool looks in your inbox and in your calendar, crunches numbers, and gives insight into your behavior: How many emails did you send? How many meetings did you attend? Considering your emails and your meetings, how much time did you spend with customers? How many contacts did you have with each customer?
-
-Rather than having to open your mailbox folders and count items, or open your calendar and add up meeting times, you can see data of this sort summarized in the seller-solution email summary provided by Workplace Analytics. 
-
-**Conclusion:** Only you can see your Workplace Analytics data. Workplace Analytics insights are derived from data that was already available to you in your inbox.
+**Workplace Analytics data is processed and stored in the employee’s Exchange Online mailbox.** Workplace Analytics processes data from these sources: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams, and—if both the organization's IT administrator and an individual opt in—Windows 10 application activity history. Workplace Analytics stores and processes this data inside each employee’s Exchange Online mailbox.
 
 ## Seller success Q & A
 
@@ -101,7 +81,7 @@ Rather than having to open your mailbox folders and count items, or open your ca
 
 <!-- For Madhura, get FWLink to here for use in the product UI -->
 
-**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week. For more information, see [Seller success weekly email](#seller-success-weekly-email).
+**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week. For more information, see [Seller insights weekly email](#seller-insights-weekly-email).
 
 **Q2.**  Why am I receiving this email?
 
