@@ -16,7 +16,7 @@ ms.prod: wpa
 
 # Seller insights weekly email
 
-A weekly sales-digest email is intended to help you be more successful by streamlining your behaviors based on the following elements of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week:
+As a participant in a seller-success plan, you receive a weekly sales-digest email. It is meant to help you become more successful by streamlining your behaviors regarding the following elements of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week:
 
 ![Email top](../images/wpa/tutorials/email-top.png)
 
@@ -65,17 +65,7 @@ Spending time with and getting attention from your manager and other senior peop
  
 On this card, select **Manage meetings** to open the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
 
-## Data privacy in Workplace Analytics
-
-Workplace Analytics operates under the following privacy principles:
-
-**Workplace Analytics is not designed to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring.** Workplace Analytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Insights Outlook add-in, and inline suggestions in Outlook. Workplace Analytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by v cannot be used for automated decision-making or for profiling.
-
-**Workplace Analytics does not give employees access to new personally-identifiable information on other coworkers.** Workplace Analytics converts data into insights by performing calculations on information that people generate just by going about their work day. The majority of the data that employees see in Workplace Analytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.
-
-**Workplace Analytics data is processed and stored in the employee’s Exchange Online mailbox.** Workplace Analytics processes data from these sources: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams, and—if both the organization's IT administrator and an individual opt in—Windows 10 application activity history. Workplace Analytics stores and processes this data inside each employee’s Exchange Online mailbox.
-
-## Seller success Q & A
+## Seller insights Q & A
 
 **Q1.** As a participant in a Seller success plan, what guidance will I receive to help me during my participation in the plan?  
 
@@ -93,8 +83,12 @@ Workplace Analytics operates under the following privacy principles:
 
 **Q4.** This email contains charts that describe my workplace behavior. Where did this data come from?
 
-**A4.** On a weekly basis, Workplace Analytics receives from Office 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-success email.   
+**A4.** On a weekly basis, Workplace Analytics receives from Office 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.   
 
 **Q5.** Who else can see this data about me? 
 
-**A5.** The data that you see in the seller success email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email, this data is for your eyes only. For more information, see [Data privacy in Workplace Analytics](#data-privacy-in-workplace-analytics). 
+**A5.** The data that you see in the seller insights email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email itself, this data is for your eyes only. 
+
+**Q6.** Could this data be used for other purposes? 
+
+**A6.** There is no mechanism or option that allows anyone but you to access the personalized information that you receive in this email, unless you purposefully and independently shares that information. The data and insights provided by this feature cannot be used for automated decision-making or for profiling.
