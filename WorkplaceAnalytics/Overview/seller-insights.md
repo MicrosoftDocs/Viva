@@ -75,7 +75,7 @@ On this card, select **Manage meetings** to open the [calendar week view of Outl
 
 **Q2.**  Why am I receiving this email?
 
-**A2.** You receive this weekly "Seller insights" email so that you can visualize aspects of your sales-related behavior. The insights and suggestions in this email, which are based on recent collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
+**A2.** You receive the weekly "Seller insights" email so that you can visualize aspects of your sales-related behavior. The insights and suggestions in this email, which are based on recent collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
  
 **Q3.** What am I supposed to do with the information in this email?
 
@@ -91,4 +91,4 @@ On this card, select **Manage meetings** to open the [calendar week view of Outl
 
 **Q6.** Could this data be used for other purposes? 
 
-**A6.** There is no mechanism or option that allows anyone but you to access the personalized information that you receive in this email, unless you purposefully and independently shares that information. The data and insights provided by this feature cannot be used for automated decision-making or for profiling.
+**A6.** There is no mechanism or option that allows anyone but you to access the personalized information that you receive in this email, unless you purposefully and independently share that information. The data and insights provided by this feature cannot be used for automated decision-making or for profiling.
