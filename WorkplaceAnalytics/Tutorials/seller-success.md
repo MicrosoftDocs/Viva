@@ -96,7 +96,7 @@ If you have a particular group in mind, you can identify the group in either of 
 
 ### Validation
 
-After you select **Validate**, Workplace Analytics checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Workplace Analytics license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. (Please not that, in this process, no users are individually identfied, only the number of users for whom errors were found.) 
+After you select **Validate**, Workplace Analytics checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Workplace Analytics license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. (In validation results, you see only the number of users for whom errors were found; no individual users are identified.) 
 
 After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
 
