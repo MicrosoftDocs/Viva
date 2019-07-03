@@ -154,7 +154,7 @@ On this card, select **Explore** to open the **Network** page of the MyAnalytics
 
 ### Connect with leadership
 
-Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Connect with leadership_ card displays the time the salesperson spent with their manager (or “leadership,” managers above their immediate manager) in meetings with particular customers.
+Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Connect with leadership_ card displays the time the salesperson spent with their manager (or "leadership," managers above their immediate manager) in meetings with particular customers.
 
 ![Connect with leadership](../images/wpa/tutorials/connect-with-leadership.png)
  
