@@ -16,7 +16,7 @@ ms.prod: wpa
 
 # Seller insights weekly email
 
-As a participant in a seller-success plan, you receive a weekly seller-insights email. It is meant to help you become more successful by streamlining your behaviors regarding the following elements of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week:
+As a participant in a seller-success plan, you receive a weekly seller-insights email. It is meant to help you by streamlining your behavior in several aspects of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week:
 
 ![Email top](../images/wpa/tutorials/email-top.png)
 
