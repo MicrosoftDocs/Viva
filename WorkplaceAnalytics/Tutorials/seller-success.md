@@ -92,6 +92,14 @@ If you have a particular group in mind, you can identify the group in either of 
 
 2.	Select **Create plan**. This starts the plan for the plan participants. For an overview of their experience, see [Participant experience](#participant-experience). 
 
+## Task notes
+
+### Validation
+
+After you select **Validate**, Workplace Analytics checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Workplace Analytics license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. (Please not that, in this process, no users are individually identfied, only the number of users for whom errors were found.) 
+
+After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
+
 <!-- ADD THIS CONTENT AFTER THE TRACK PAGE APPEARS
 Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. -->
 
@@ -118,9 +126,9 @@ This email can contain any of several descriptive cards, each of which is design
 
 ### Use the seller success email
 
-The seller success email contains several cards, each of which offers a targeted suggestion. In three of the cards, the **Suggestion** section contains an **Explore** option that you can select to learn more about this suggestion and how it can be of benefit. 
+The seller success email contains several cards, each of which offers a targeted suggestion. In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. 
 
-The fourth card, [Connect with leadership](#connect-with-leadership), has a **Manage meetings** option. Select **Manage meetings** to view your upcoming meetings in the Outlook web calendar and, optionally, to make changes to those meetings.    
+The fourth card, [Connect with leadership](#connect-with-leadership), has a **Manage meetings** option. Selecting **Manage meetings** displays  upcoming meetings in the Outlook web calendar and, optionally, lets sellers make changes to those meetings.    
 
 ## Email cards
 
@@ -128,29 +136,29 @@ Depending on the recent available collaboration data, the Seller success partici
 
 ### Time with customers
 
-The _Time with customers_ card displays how you spent your time with your customers over the past seven days. Its chart reflects total collaboration hours with each customer.
+The _Time with customers_ card displays how sellers spent their time with  customers over the past seven days. Its chart reflects total collaboration hours with each customer.
 
-Its purpose is to help you decide whether you are spending time optimally with customers according to their respective potential. 
+Its purpose is to help sellers decide whether they are spending time optimally with customers according to their respective potential. 
 
 ![Time with customers](../images/wpa/tutorials/time-with-customers_60.png)
  
-On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
+On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 
 ### Depth of engagement
 
-In the _Depth of engagement_ section, the **People you engaged with** column shows the number of distinct people in the account with which you had one or more meaningful interaction in last 28 days.
+In the _Depth of engagement_ section, the **People you engaged with** column shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
 
 ![Depth of engagement](../images/wpa/tutorials/depth-of-engagement_60.png)
  
-On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
+On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 
 ### Leverage internal networks
 
-Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours you collaborated with particular internal groups. It calls your attention to these figures so that you can improve your depth of customer engagement by strengthening your internal networks.
+Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours a seller collaborated with particular internal groups. It calls their attention to these figures so that they can improve their depth of customer engagement by strengthening their internal networks.
 
 ![Leverage internal networks](../images/wpa/tutorials/leverage-internal-networks_60.png)
  
-On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
+On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 
 ### Connect with leadership
 
@@ -158,20 +166,9 @@ Spending time with and getting attention from your manager and other senior peop
 
 ![Connect with leadership](../images/wpa/tutorials/connect-with-leadership_60.png)
  
-On this card, select **Manage meetings** to open the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
+On this card, selecting **Manage meetings** opens the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
 
 ### Privacy note
 
-The data that you see in the seller success email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email, this data is for your eyes only. For more information, see [Seller insights Q & A](../overview/seller-insights.md#seller-insights-q--a). 
-<br>
-<br>
+The data that is shown in the seller success email belongs to the person who receives that mail. Only they have access to it. Their manager, their admin, and their teammates cannot see it. As is stated at the top of the email, this data is "for your eyes only." For more information, see [Seller insights Q & A](../overview/seller-insights.md#seller-insights-q--a). 
 
-# Concepts
-
-This section describes concepts that can help you as you create seller success plans in Workplace Analytics. 
-
-## Validation
-
-After you select **Validate**, Workplace Analytics checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Workplace Analytics license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. 
-
-After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
