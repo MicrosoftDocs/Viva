@@ -105,7 +105,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 After the plan is started, the participants of a Seller success plan receive a tailored email. It starts out by summarizing to the salesperson how they spent their time in internal and external collaboration during the preceding week:
 
-![Email top](../images/wpa/tutorials/email-top.png)
+![Email top](../images/wpa/tutorials/email-top_70.png)
 
 ### Email structure
 
@@ -132,7 +132,7 @@ The _Time with customers_ card displays how you spent your time with your custom
 
 Its purpose is to help you decide whether you are spending time optimally with customers according to their respective potential. 
 
-![Time with customers](../images/wpa/tutorials/time-with-customers.png)
+![Time with customers](../images/wpa/tutorials/time-with-customers_60.png)
  
 On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
 
@@ -140,7 +140,7 @@ On this card, select **Explore** to open the **Network** page of the MyAnalytics
 
 In the _Depth of engagement_ section, the **People you engaged with** column shows the number of distinct people in the account with which you had one or more meaningful interaction in last 28 days.
 
-![Depth of engagement](../images/wpa/tutorials/depth-of-engagement.png)
+![Depth of engagement](../images/wpa/tutorials/depth-of-engagement_60.png)
  
 On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
 
@@ -148,7 +148,7 @@ On this card, select **Explore** to open the **Network** page of the MyAnalytics
 
 Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours you collaborated with particular internal groups. It calls your attention to these figures so that you can improve your depth of customer engagement by strengthening your internal networks.
 
-![Leverage internal networks](../images/wpa/tutorials/leverage-internal-networks.png)
+![Leverage internal networks](../images/wpa/tutorials/leverage-internal-networks_60.png)
  
 On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
 
@@ -156,7 +156,7 @@ On this card, select **Explore** to open the **Network** page of the MyAnalytics
 
 Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Connect with leadership_ card displays the time the salesperson spent with their manager (or "leadership," managers above their immediate manager) in meetings with particular customers.
 
-![Connect with leadership](../images/wpa/tutorials/connect-with-leadership.png)
+![Connect with leadership](../images/wpa/tutorials/connect-with-leadership_60.png)
  
 On this card, select **Manage meetings** to open the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
 
