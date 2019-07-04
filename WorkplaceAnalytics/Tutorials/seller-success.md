@@ -102,18 +102,20 @@ After the validation checks have run, if the final list of participants has enou
 
 <!-- ADD THIS CONTENT AFTER THE TRACK PAGE APPEARS
 Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. -->
+<br>
+<br>
 
-## Participant experience
+# Participant experience
 
 <!-- For Harshit, get FWLink to here for use in the product UI -->
 
 **Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.   
 
-After the plan is started, the participants of a Seller success plan receive a tailored email. It starts out by summarizing to the salesperson how they spent their time in internal and external collaboration during the preceding week:
+After a seller success plan starts, its participants receive a tailored email every week. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding week:
 
 ![Email top](../images/wpa/tutorials/email-top_70.png)
 
-This email can contain any of several descriptive cards, each of which is designed to help the participants work more effectively:
+This email can contain any of several descriptive cards, each of which is designed to help participants work more effectively:
 
  * [Time with customers](#time-with-customers)
  * [Depth of engagement](#depth-of-engagement)
