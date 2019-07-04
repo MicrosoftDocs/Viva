@@ -103,7 +103,6 @@ After the validation checks have run, if the final list of participants has enou
 <!-- ADD THIS CONTENT AFTER THE TRACK PAGE APPEARS
 Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. -->
 <br>
-<br>
 
 # Participant experience
 
