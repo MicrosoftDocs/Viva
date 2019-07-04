@@ -103,19 +103,15 @@ After the validation checks have run, if the final list of participants has enou
 <!-- ADD THIS CONTENT AFTER THE TRACK PAGE APPEARS
 Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. -->
 
-# Participant experience
+## Participant experience: weekly email
 
 <!-- For Harshit, get FWLink to here for use in the product UI -->
 
 **Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.   
 
-## Email for participants
-
 After the plan is started, the participants of a Seller success plan receive a tailored email. It starts out by summarizing to the salesperson how they spent their time in internal and external collaboration during the preceding week:
 
 ![Email top](../images/wpa/tutorials/email-top_70.png)
-
-### Email structure
 
 This email can contain any of several descriptive cards, each of which is designed to help the participants work more effectively:
 
@@ -130,11 +126,9 @@ The seller success email contains several cards, each of which offers a targeted
 
 The fourth card, [Connect with leadership](#connect-with-leadership), has a **Manage meetings** option. Selecting **Manage meetings** displays  upcoming meetings in the Outlook web calendar and, optionally, lets sellers make changes to those meetings.    
 
-## Email cards
-
 Depending on the recent available collaboration data, the Seller success participant email will contain any or all of the following informative cards. 
 
-### Time with customers
+## Time with customers
 
 The _Time with customers_ card displays how sellers spent their time with  customers over the past seven days. Its chart reflects total collaboration hours with each customer.
 
@@ -144,7 +138,7 @@ Its purpose is to help sellers decide whether they are spending time optimally w
  
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 
-### Depth of engagement
+## Depth of engagement
 
 In the _Depth of engagement_ section, the **People you engaged with** column shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
 
@@ -152,7 +146,7 @@ In the _Depth of engagement_ section, the **People you engaged with** column sho
  
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 
-### Leverage internal networks
+## Leverage internal networks
 
 Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours a seller collaborated with particular internal groups. It calls their attention to these figures so that they can improve their depth of customer engagement by strengthening their internal networks.
 
@@ -160,7 +154,7 @@ Being connected with the right individuals and organizations within the company 
  
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 
-### Connect with leadership
+## Connect with leadership
 
 Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Connect with leadership_ card displays the time the salesperson spent with their manager (or "leadership," managers above their immediate manager) in meetings with particular customers.
 
@@ -168,7 +162,7 @@ Spending time with and getting attention from your manager and other senior peop
  
 On this card, selecting **Manage meetings** opens the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
 
-### Privacy note
+## Privacy note
 
 The data that is shown in the seller success email belongs to the person who receives that mail. Only they have access to it. Their manager, their admin, and their teammates cannot see it. As is stated at the top of the email, this data is "for your eyes only." For more information, see [Seller insights Q & A](../overview/seller-insights.md#seller-insights-q--a). 
 
