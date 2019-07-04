@@ -122,11 +122,11 @@ This email can contain any of several descriptive cards, each of which is design
 
 ### Use the seller success email
 
-The seller success email contains several cards, each of which offers a targeted suggestion. In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. 
+The cards in the seller success email offer targeted suggestions. In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. 
 
 The fourth card, [Connect with leadership](#connect-with-leadership), has a **Manage meetings** option. Selecting **Manage meetings** displays  upcoming meetings in the Outlook web calendar and, optionally, lets sellers make changes to those meetings.    
 
-Depending on the recent available collaboration data, the Seller success participant email will contain any or all of the following informative cards. 
+These cards are described in the following sections: 
 
 ## Time with customers
 
