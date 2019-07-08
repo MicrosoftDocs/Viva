@@ -34,7 +34,7 @@ Near the top of the MyAnalytics dashboard is the "My time summary" area. This ar
 
 <img src="../../Images/mya/use/time-summary.PNG" alt="The My time summary area of the MyAnalytics dashboard">
 
-This summarizes the four main ways that MyAnalytics categorizes your time. See [MyAnalytics Tips](../Overview/Tips.md) for suggestions on how you can spend your time more efficiently.
+This summarizes the four main ways that MyAnalytics categorizes your time. 
 
 Scroll down the dashboard page to get more details about how you spend your time and the people you work with.
 
