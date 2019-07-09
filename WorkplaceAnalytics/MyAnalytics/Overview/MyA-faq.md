@@ -6,7 +6,7 @@ title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/15/2019
+ms.date: 07/09/2019
 ms.topic: article
 localization_priority: once
 ms.prod: mya
@@ -180,6 +180,10 @@ Skype for Business data is usually prompt. However, in rare instances, users can
 
  * The dashboard button will not appear until the dashboard becomes available to E3/E1 users, to take place later in 2019.
  * The cards that show email read statistics are not available. This capability is available to E5 users only.
-   
+
    > [!Note]
-   > All MyAnalytics features are available to users who have the MyAnalytics (full) plan. 
+   > All MyAnalytics features are available to users who have the MyAnalytics (full) plan.
+
+#### Q8. How can I confirm that the Insights Outlook add-in is installed?
+
+See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
