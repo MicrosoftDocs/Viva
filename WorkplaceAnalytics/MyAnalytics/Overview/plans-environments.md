@@ -5,8 +5,8 @@
 title: MyAnalytics plans and environments
 description: MyAnalytics supported plans and environment requirements
 author: paul9955
-ms.author: v-pascha
-ms.date: 06/13/2019
+ms.author: v-midehm
+ms.date: 07/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -29,7 +29,7 @@ The following table lists which user experiences are available depending on what
 > [!Note]
 > To provide a great experience for users and customers, we are rolling out the features of MyAnalytics gradually, with the ultimate goal of achieving feature parity among all plans. We will announce each new feature release in the [Message center](https://docs.microsoft.com/en-us/office365/admin/manage/message-center?view=o365-worldwide).
 
-For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
+For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans). See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
 
 ## Environment support
 
