@@ -5,8 +5,8 @@
 title: Use the auto-refresh option for queries in Workplace Analytics 
 description: Describes the auto-refresh option for queries in Workplace Analytics.     
 author: paul9955
-ms.author: v-midehm
-ms.date: 02/21/2019
+ms.author: v-pascha
+ms.date: 07/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -25,16 +25,30 @@ You can run a query as a one-time event where you set it up, run it one time, an
 Query results, especially when viewed in a data analysis tool, can uncover dynamic patterns. These patterns evolve over time because the workplace behavior of employees evolves over time. To isolate one instance of evolving workplace behavior over time, you can use the applicable query multiple times, on a regular schedule. To do this, you can use the auto-refresh feature for Workplace Analytics queries.
 
 ## Create a query with the auto-refresh option
+
+> [!Note] 
+> An organization can have a maximum of 20 auto-refresh queries. If your organization already has reached this limit, to create a new auto-refresh query, you must first either delete an auto-refresh query or turn auto-refresh off for a query (on the **Queries > Results** page). 
+
 [!INCLUDE [To create an auto-refresh query](../Includes/to-create-auto-refresh-query.md)]
 
-### Behavior of auto-refresh for queries
+## Behavior of auto-refresh for queries
 
-* When you create the query, you run it for the first time. As it runs, it uses data from the exact date range that you defined.
-* The query automatically runs again, once every week. Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange.
-* Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date also becomes one week later.  
-* Workplace Analytics will auto-refresh the query of the weekly schedule for one year.
+### Basic behavior
 
-### Get query results with the auto-refresh option
+ * When you create the query, you run it for the first time. As it runs, it uses data from the exact date range that you defined.
+ * The query automatically runs again, once every week. Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange.
+ * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date also becomes one week later.  
+ * Workplace Analytics will auto-refresh the query of the weekly schedule for one year.
+ * An organization can have a maximum of 20 auto-refresh queries. If your organization already has 20 queries set to auto-refresh, to create a new one, you must first either delete an auto-refresh query or turn auto-refresh off for a query. 
+
+### Stopping, expiration, and re-starting of the auto-refresh option
+
+ * You can start or stop auto-refresh for a query at any time. To do this, select or de-select **Auto-refresh** for that query on the **Queries > Results** page. 
+ * The auto-refresh option of a query expires after two months. 
+ * After auto-refresh expires for a query, you can renew it by selecting **Auto-refresh** for that query on the **Queries > Results** page. 
+ * Delete a query for which auto-refresh is turned on stops all future auto-refresh runs of that query. 
+
+### View query results with the auto-refresh option
 
 On the **Analyze** > **Queries** > **Results** page, find your query in the results table, which includes the following:
 
