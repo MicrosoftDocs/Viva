@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Confirm installation of the Insights Outlook add-in
+# Confirm the installation of the Insights Outlook add-in
 
 The Insights Outlook add-in is automatically installed for your organization when you purchase one of the plans or add-ins listed in [Plans and environments](../overview/plans-environments.md). Users will start to see the Insights Outlook add-in in their Outlook application automatically after a license is assigned to them.
 
