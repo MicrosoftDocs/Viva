@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Visualize person queries
 
-Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don't seem to have enough focus time. To help you in this task, Workplace Analytics offers the [Person query](person-queries.md), which includes a number of standard and custom metrics that can help you perform the analyses of this kind.  
+Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don't seem to have enough focus time. To help you in this task, Workplace Analytics offers the [Person query](person-queries.md), which includes a number of standard and custom metrics that can help you perform analyses of this kind.  
 
 After you create and run a Person query, you can view its results (in the form of charts) without leaving Workplace Analytics. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. These steps are described in the following sections: 
 
@@ -70,7 +70,7 @@ For more information about solutions, see [Workplace Analytics solutions](soluti
 
 **Role:** analyst 
 
-1. While visualizing a query result, select one or more groups by clicking them in a chart. In the following example, five finance groups are selected:
+1. While visualizing a query result, select one or more groups by clicking them in a chart. In the following example, five finance groups are selected (selected groups are shown in light gray):
 
    ![Query results chart with group selected](../images/wpa/tutorials/results-interactive-data-close.png)
 
