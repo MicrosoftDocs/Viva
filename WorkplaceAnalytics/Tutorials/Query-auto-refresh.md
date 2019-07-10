@@ -58,9 +58,9 @@ Query results, especially when viewed in a data analysis tool, can uncover dynam
 
 ### Stopping, expiration, and re-starting the auto-refresh option
 
- * You can start or stop auto-refresh for a query at any time. See [Stop the auto-refresh option](#stop-the-auto-refresh-option) and [Start/re-start the auto-refresh option](#start-re-start-the-auto-refresh-option). 
+ * You can start or stop auto-refresh for a query at any time. See [Stop the auto-refresh option](#stop-the-auto-refresh-option) and [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option). 
  * The auto-refresh option of a query expires after two months. The **Auto refresh** column on the **Queries > Results** page shows whether auto-refresh is in effect for each query. 
- * After auto-refresh expires for a query, you can renew it. See [Start/re-start the auto-refresh option](#start-re-start-the-auto-refresh-option).  
+ * After auto-refresh expires for a query, you can renew it. See [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option).  
  * Deleting a query for which auto-refresh is turned on stops all future auto-refresh runs of that query. 
 
 ### Maximum number of auto-refresh queries
