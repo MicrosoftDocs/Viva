@@ -107,5 +107,5 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
 ## How can I start using partitions?
 
-Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at wpasupport@microsoft.com. 
+Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com). 
 
