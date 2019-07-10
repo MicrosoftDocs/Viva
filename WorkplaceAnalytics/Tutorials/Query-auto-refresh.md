@@ -33,19 +33,23 @@ Query results, especially when viewed in a data analysis tool, can uncover dynam
 
 ## Stop the auto-refresh option
 
+Follow these steps only for a query that has already run and for which auto-refresh is currently in effect. 
+
 1. In Workplace Analytics, open the **Queries > Results** page.
 2. In the row of the query, select the ellipsis.
-3. In the option menu that appears, select **Turn off auto-refresh**: 
+3. In the option menu, select **Turn off auto-refresh**: 
 
-   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-on-75.png)
+   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-on-60.png)
 
 ## Start/re-start the auto-refresh option
 
+Follow these steps only for a query that has already run and for which auto-refresh is not currently in effect. 
+
 1. In Workplace Analytics, open the **Queries > Results** page.
 2. In the row of the query, select the ellipsis.
-3. In the option menu that appears, select **Turn on auto-refresh**: 
+3. In the option menu, select **Turn on auto-refresh**: 
 
-   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off.png)
+   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off-60.png)
 
 ## How auto-refresh works
 
