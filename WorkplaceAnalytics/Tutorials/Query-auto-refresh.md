@@ -51,7 +51,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 
    ![Turn on auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off-48.png)
 
-## How auto-refresh works
+## Auto-refresh details
 
 ### Basic behavior
 
