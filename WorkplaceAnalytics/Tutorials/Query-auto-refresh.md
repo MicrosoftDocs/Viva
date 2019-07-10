@@ -39,7 +39,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 2. In the row of the query, select the ellipsis.
 3. In the option menu, select **Turn off auto-refresh**: 
 
-   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-on-60.png)
+   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-on-48.png)
 
 ## Start/re-start the auto-refresh option
 
@@ -49,7 +49,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 2. In the row of the query, select the ellipsis.
 3. In the option menu, select **Turn on auto-refresh**: 
 
-   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off-60.png)
+   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off-48.png)
 
 ## How auto-refresh works
 
@@ -67,9 +67,9 @@ Follow these steps only for a query that has already run and for which auto-refr
 
  * You can start or stop auto-refresh for a query at any time. See [Stop the auto-refresh option](#stop-the-auto-refresh-option) and [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option). 
 
- * The auto-refresh option of a query expires after two months. The **Auto refresh** column on the **Queries > Results** page shows whether auto-refresh is in effect for each query:
+ * The auto-refresh option of a query expires after two months. The **Auto refresh** column on the **Queries > Results** page shows whether auto-refresh is currently turned on for each query in the list:
 
-   ![Turn off auto-refresh status](../Images/WpA/Tutorials/auto-status-60.png)
+   ![Turn off auto-refresh status](../Images/WpA/Tutorials/auto-status-48.png)
 
  * After auto-refresh expires for a query, you can renew it. See [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option).  
 
