@@ -63,7 +63,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 
  * Workplace Analytics will auto-refresh the query of the weekly schedule for one year. **[WHAT DOES THIS MEAN?]**
 
-### Stopping, expiration, and re-starting the auto-refresh option
+### Auto-refresh stop, restart, and expiration
 
  * You can start or stop auto-refresh for a query at any time. See [Stop the auto-refresh option](#stop-the-auto-refresh-option) and [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option). 
 
