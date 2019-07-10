@@ -7,7 +7,7 @@ title: Partitions in Workplace Analytics
 description: Description of partitions plus how to use and set up partitions in Workplace Analytics 
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/09/2019
+ms.date: 07/10/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -43,20 +43,18 @@ If you are an analyst, you must have a partition selected to be able to go to th
 
 ### To use a partition
 
-1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you’ll see a notice that alerts you to that fact:
-
-    ![Must have at least one partition](../images/wpa/setup/at-least-one-partition.png)  
+1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition." 
  
-If you see this notice, ask your Workplace Analytics admin to assign you to a partition. You cannot start using Workplace Analytics until an admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
+    If you see this notice, ask your Workplace Analytics admin to assign you to a partition. You cannot start using Workplace Analytics until an admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
 
-2.	What you see now depends on your role and partition assignments: If you are analyst (you have the analyst or analyst limited role), go to step 3; if you have any other role, go to step 4. 
+2.	What you see now depends on your role and partition assignments: If you are analyst (you have the analyst role or analyst limited role), go to step 3; if you have any other role, go to step 4. 
 
 3.	Step for analysts: 
 
     * If you have only one partition (even the default "Global" partition), this is the partition that you will use. Skip the rest of these steps. You can go to the **Explore** page or the **Queries** page to start your work. On those pages, you will see only the data to which your partition grants you access.  
     * If you have more than one partition, the **Partition** drop-down menu at the top of the **Home** page displays the partitions that you are linked to. Open this menu and select one:
 
-       ![Select a partition](../images/wpa/setup/select-one-no-global.png)
+       ![Select a partition](../images/wpa/setup/partition-menu.png)
  
       After you’ve chosen the partition to work with, you can skip the rest of these steps and go to the **Explore** page or the **Queries** page.  
 
@@ -79,9 +77,9 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
 1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
 2.	Open the **Settings** page and select **Access control**.
-3.	In the **Partition-based access control** area, select **Add partition**:
+3.	In the **Partition-based access control** area, select **Create partition**:
 
-    ![Admin settings](../images/wpa/setup/admin-settings.png)
+    ![Admin settings](../images/wpa/setup/access-control-page-2.png)
  
 4.	On the **Access control > New partition** page, type the name of the new partition and optionally type a description. 
 5.	**Define filters.** Under **Filters**, add one or more filters to define the data that will fall within the partition that you are creating:
