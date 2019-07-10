@@ -68,7 +68,7 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 
 ## Can I opt out of MyAnalytics?
 
-Yes, you can opt out of MyAnalytics at any time.
+All users can use the MyAnalytics dashboard to opt-out.
 
 When you opt out, the following will occur:
 
@@ -76,7 +76,7 @@ When you opt out, the following will occur:
 * You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
 * Your email activity will not be included in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
 
-**To opt out of MyAnalytics**:
+### To opt out of MyAnalytics
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right.
