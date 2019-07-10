@@ -49,7 +49,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 2. In the row of the query, select the ellipsis.
 3. In the option menu, select **Turn on auto-refresh**: 
 
-   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off-48.png)
+   ![Turn on auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off-48.png)
 
 ## How auto-refresh works
 
@@ -93,13 +93,13 @@ On the **Results** page, you can copy a link to the query results and then use i
 
 1. To the right of the query's row, select **Copy link**:
 
-   <img src="../Images/WpA/Tutorials/Get-results-link.png" alt="Copy a query's results link">
+   ![Copy a query's results link](../Images/WpA/Tutorials/Get-results-link.png)
 
 2. Select **Copy**. The Get results link dialog box displays the word "Copied."
 3. In Power BI, on the Home tab, select **Get Data**, and then select **OData feed**.
 4. In the **OData feed** dialog box, paste the link that you copied into the URL field:
 
-   <img src="../Images/WpA/Tutorials/OData-feed.png" alt="OData feed in Power BI">
+   ![OData feed in Power BI](../Images/WpA/Tutorials/OData-feed.png)
 
 5. Select **OK**.
 6. Enter your client credentials, and then select **Connect**.
