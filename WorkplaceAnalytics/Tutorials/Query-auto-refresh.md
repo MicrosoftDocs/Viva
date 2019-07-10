@@ -34,38 +34,45 @@ Query results, especially when viewed in a data analysis tool, can uncover dynam
 ## Stop the auto-refresh option
 
 1. In Workplace Analytics, open the **Queries > Results** page.
-2. In the row of the query, click the ellipsis.
+2. In the row of the query, select the ellipsis.
 3. In the option menu that appears, select **Turn off auto-refresh**: 
 
-   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-on.png)
+   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-on-75.png)
 
 ## Start/re-start the auto-refresh option
 
 1. In Workplace Analytics, open the **Queries > Results** page.
-2. In the row of the query, click the ellipsis.
+2. In the row of the query, select the ellipsis.
 3. In the option menu that appears, select **Turn on auto-refresh**: 
 
    ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off.png)
 
-## Behavior of auto-refresh for queries
+## How auto-refresh works
 
 ### Basic behavior
 
  * When you create the query, you run it for the first time. As it runs, it uses data from the exact date range that you defined.
+
  * The query automatically runs again, once every week. Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange.
+
  * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date also becomes one week later.  
+
  * Workplace Analytics will auto-refresh the query of the weekly schedule for one year. **[WHAT DOES THIS MEAN?]**
 
 ### Stopping, expiration, and re-starting the auto-refresh option
 
  * You can start or stop auto-refresh for a query at any time. See [Stop the auto-refresh option](#stop-the-auto-refresh-option) and [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option). 
- * The auto-refresh option of a query expires after two months. The **Auto refresh** column on the **Queries > Results** page shows whether auto-refresh is in effect for each query. 
+
+ * The auto-refresh option of a query expires after two months. The **Auto refresh** column on the **Queries > Results** page shows whether auto-refresh is in effect for each query:
+   ![Turn off auto-refresh status](../Images/WpA/Tutorials/auto-status.png)
+
  * After auto-refresh expires for a query, you can renew it. See [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option).  
+
  * Deleting a query for which auto-refresh is turned on stops all future auto-refresh runs of that query. 
 
 ### Maximum number of auto-refresh queries
 
- * An organization can have a maximum of 20 auto-refresh queries. If your organization already has 20 queries set to auto-refresh, to create a new one, you must first either delete an auto-refresh query or turn auto-refresh off for a query. 
+ * An organization can have a maximum of 20 auto-refresh queries. If your organization already has 20 queries set to auto-refresh, to create a new one, you must first either delete an auto-refresh query or turn auto-refresh off for a query. (See [Stop the auto-refresh option](#stop-the-auto-refresh-option).) 
 
 ## View query results with the auto-refresh option
 
