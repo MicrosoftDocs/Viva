@@ -23,7 +23,7 @@ Workplace Analytics Azure Templates includes the Group Analysis template that en
 
 You can choose which metrics to analyze and which attributes remain the same between the groups to foster a more robust comparison. This type of analysis can help proactively discover and address areas that need improvement in your organization.
 
-After you upload a dataset, you can use the template tools to view data for the two groups with visual charts and lists, as shown in the following graphic.
+After you upload a person query dataset from Workplace Analytics, you can use the template tools to view data for the two groups with visual charts and lists, as shown in the following graphic.
 
    ![Group analysis](./images/group-analysis.png)
 
@@ -41,16 +41,16 @@ After you upload a dataset, you can use the template tools to view data for the 
 
 1. Select the new dataset from the list.
 2. Select **Add New Analysis**.
-3. In **Configure New Analysis**, type a name for the **Dataset Info**. 
+3. In **Configure New Analysis**, type a name for the **Dataset Info**.
 4. In **Specify Group to compare**, select the filters for the group that you want to evaluate.
 5. In **Choose Group name**, type a name for the group you want to evaluate.
-6. In **Specify KPIs to compare the group on**, select all metrics that you want to compare between the evaluated group and the control group. 
+6. In **Specify KPIs to compare the group on**, select all the metrics that you want to compare between the evaluated group and the control group.
 7. In **Choose confounding attributes**, select the attributes that define the evaluated group and the control group and that the two groups have in common. Note these must be different than the filter or filters selected in the **Specify Group to compare** section.
 8. Select **Run Analysis**.
 
 ## Analyze KPIs
 
-You can use the analysis to view the key performance indicators (KPIs) between the defined group you chose to analyze and the control group you're comparing with.
+You can use the group analysis to view the key performance indicators (KPIs) between the defined group you chose to analyze and the control group you're comparing with. The KPIs help distinguish the differences between the two groups.
 
 ## Related topics
 
