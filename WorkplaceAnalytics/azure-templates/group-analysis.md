@@ -7,7 +7,7 @@ title: Group Analysis Azure Template for Workplace Analytics
 description: Learn about the Group Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/19/2019
+ms.date: 07/11/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -51,6 +51,21 @@ After you upload a person query dataset from Workplace Analytics, you can use th
 ## Analyze KPIs
 
 You can use the group analysis to view the key performance indicators (KPIs) between the defined group you chose to analyze and the control group you're comparing with. The KPIs help distinguish the differences between the two groups.
+
+The Match verification helps you confirm that you have sufficient overlap of confounding attributes between the evaluated group and the control group. You must have sufficient overlap between the two groups to get good data results. If there's no overlap, that means you've already identified one of the confounding attributes that distinguishes the differences between the two groups and you need to go back and choose different filters or confounding attributes for helpful analysis.
+
+The Group Analysis shows the Absolute and Standardized differences between the two groups. This gives you an overall picture of what the important differences are between the evaluated and control groups.
+
+## To view analysis
+
+1. Select the dataset that has the analysis you want to view from the list.
+2. Select the name of the analysis that you want to view.
+3. In **Match verification**, compare the data in the box plots for **Before Match** and **After Match**.
+
+   * **Before Match**: Before any matching occurred, the **Propensity scores** are the distributions between the two groups, which are the result of comparing the confounding attributes to show how likely a person is to be in the evaluated group based on those attributes. You can hover the cursor over the data in the graph to view the details.
+   * **After Match**: After the matching procedure occurs, this shows how well aligned the distributions are between the two groups, which helps you decide if the match worked and the results will be helpful.
+
+4. In **Group Analysis**, you can view the analysis results in bar graphs with a **Cohen Rank Color Legend** that defines how big of an affect the differences are between the two groups. The data shows the Absolute KPI Difference, which is the absolute differences between the two groups. The Standardized KPI Difference shows how important the differences are based on their size.
 
 ## Related topics
 
