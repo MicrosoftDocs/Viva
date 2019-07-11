@@ -96,7 +96,7 @@
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md
+                  href: ~/tutorials/Person-to-group-queries.md 
                 - name: Queries with CRM data
                   href: ~/tutorials/crm-queries.md                                 
                 - name: Power BI templates

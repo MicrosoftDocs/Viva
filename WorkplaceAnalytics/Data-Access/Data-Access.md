@@ -5,9 +5,9 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 03/22/2019
+ms.date: 06/26/2019
 ms.topic: article
 ms.prod: wpa
 ms.collection: M365-analytics
@@ -29,11 +29,15 @@ Saving the SAS URI enables a workflow that exports the Workplace Analytics data 
 
 You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
-* [Meetings](./Meetings.md)
-* [MeetingParticipants](./MeetingParticipants.md)
-* [PersonHistorical](./PersonHistorical.md)
-* [MailParticipants](./MailParticipants.md)
-* [Mails](./Mails.md)
+ * [Meetings](./Meetings.md)
+ * [MeetingParticipants](./Meetingparticipants.md)
+ * [PersonHistorical](./PersonHistorical.md)
+ * [MailParticipants](./MailParticipants.md)
+ * [Mails](./Mails.md)
+ * [Calls](./calls.md)
+ * [CallParticipants](./callparticipants.md)
+ * [InstantMessages](./instantmessages.md)
+ * [InstantMessageParticipants](./instantmessageparticipants.md)
 
 ## To export data from Workplace Analytics
 
@@ -116,3 +120,22 @@ SASKEY=${SASKEY:1:-1}
 # return a read-only SAS URI which can be used by an analyst to export data
 echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 ```
+
+## Related topics
+
+[Meetings](./Meetings.md)
+
+[MeetingParticipants](./MeetingParticipants.md)
+
+[PersonHistorical](./PersonHistorical.md)
+
+[MailParticipants](./MailParticipants.md)
+
+[Calls](./calls.md)
+
+[CallParticipants](./callparticipants.md)
+
+[InstantMessages](./instantmessages.md)
+
+[InstantMessageParticipants](./instantmessageparticipants.md)
+
