@@ -23,7 +23,7 @@ Workplace Analytics Azure Templates includes the Group Analysis template that en
 
 You can choose which metrics to analyze and which attributes remain the same between the groups to foster a more robust comparison. This type of analysis can help proactively discover and address areas that need improvement in your organization.
 
-After you upload a person query dataset from Workplace Analytics, you can use the template tools to view data for the two groups with visual charts and lists, as shown in the following graphic.
+After you upload a dataset, you can use the template tools to view data for the two groups with visual charts and lists, as shown in the following graphic.
 
    ![Group analysis](./images/group-analysis.png)
 
@@ -66,6 +66,7 @@ The Group Analysis shows the Absolute and Standardized differences between the t
    * **After Match**: After the matching procedure occurs, this shows how well aligned the distributions are between the two groups, which helps you decide if the match worked and the results will be helpful.
 
 4. In **Group Analysis**, you can view the analysis results in bar graphs with a **Cohen Rank Color Legend** that defines how big of an affect the differences are between the two groups. The data shows the Absolute KPI Difference, which is the absolute differences between the two groups. The Standardized KPI Difference shows how important the differences are based on their size.
+5. In **Sensitivity**, shows the least sensitive to unobserved biases in a bar graph with a **Cohen Rank Color Legend** as well. This shows a subset of the most sensitive KPIs based on sensitivity analysis of unobserved biases found in the standardized KPIs. 
 
 ## Related topics
 
