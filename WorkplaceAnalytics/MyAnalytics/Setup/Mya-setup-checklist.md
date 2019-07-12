@@ -30,13 +30,13 @@ To configure MyAnalytics, see the following sections:
  * [Assign licenses with the MyAnalytics service plan](#assign-licenses-with-the-myanalytics-service-plan) 
 
 
-# Configuration options
-
 ## Configure tenant-level settings
 
 Configure MyAnalytics for each user in your organization.
 
 [to be written]
+
+![Select visibility](../../images/mya/setup/assign-mya-access.png)
 
 ## Configure user-level settings
 
