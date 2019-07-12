@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Organizational effectiveness analyses 
-description: Describes the organizational effectiveness analysis of Workplace Analytics
+title: Peer analyses 
+description: Describes the peer analysis of Workplace Analytics
 author: paul9955
 ms.author: v-pascha
 ms.date: 06/21/2019
@@ -14,11 +14,11 @@ ms.collection: M365-analytics
 manager: scott.ruble
 ---
 
-# Organizational effectiveness
+# Peer analysis
 
-Organizational effectiveness analyses help you find answers to the question: How do the most effective people&mdash;the best performing people in a company&mdash;collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them.  
+Peer analyses help you find answers to the question: How do the most effective people&mdash;the best performing people in a company&mdash;collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them.  
 
-You work towards the first goal through an organizational effectiveness analysis. This procedure consists of the following tasks:
+You work towards the first goal through an peer analysis. This procedure consists of the following tasks:
 
 1.	[Start an analysis](#start-an-analysis). 
 2.	[Identify the reference group](#identify-the-reference-group). You do this either by using filters or by uploading a .csv file that contains the email addresses of the members of the group. 
@@ -34,13 +34,13 @@ To be able to perform the tasks in this article, you must have either the analys
 
 ### Privacy notes
 
-Organizational effectiveness analyses enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the peer group. 
+Peer analyses enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the peer group. 
 
 The results of analyses are always presented in aggregate form. No individual's data is ever presented in isolation.
 
 ## Start an analysis
 
-In this task, you take the first steps to start an organizational effectiveness analysis. 
+In this task, you take the first steps to start a peer analysis. 
 
 1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. 
 
@@ -50,9 +50,9 @@ In this task, you take the first steps to start an organizational effectiveness 
     ![Explore page](../images/wpa/use/explore-demo.png)
 -->
 
-3.	Under **Analyze and start Solutions**, select **Organizational effectiveness**. 
+3.	Under **Analyze and start Solutions**, select **Peer analysis**. 
 
-    This displays a table of the organizational effectiveness analyses that have been started or completed. 
+    This displays a table of the peer analyses that have been started or completed. 
  
     ![New analysis](../images/wpa/use/explore-new-analysis-3.png)
 
@@ -60,7 +60,7 @@ In this task, you take the first steps to start an organizational effectiveness 
 
     ![New analysis panel](../images/wpa/use/step1-new-request.png)
  
-The top of this panel shows the four steps for creating an organizational effectiveness analysis: _Reference group_, _Peer group_, _Conditions_, and _Submit_.
+The top of this panel shows the four steps for creating a peer analysis: _Reference group_, _Peer group_, _Conditions_, and _Submit_.
 
 5.	For **Analysis name**, type a name for this analysis. 
 
@@ -124,7 +124,7 @@ The fourth and final screen of the sequence summarizes the choices that you’ve
 
 If you do not need to make changes, select **Submit**.
 
-This opens the page that displays the organizational effectiveness table. The analysis that you just submitted appears at the top of the list with a status of _running_, as shown here: 
+This opens the page that displays the Peer analysis table. The analysis that you just submitted appears at the top of the list with a status of _running_, as shown here: 
 
 ![Analysis running](../images/wpa/use/analysis-running.png)
 
@@ -132,7 +132,7 @@ Depending on the size of the analysis, the run time should take between several 
 
 ## View results
 
-After your analysis completes, its status is updated in the Organizational effectiveness analysis table with a check mark. In the following illustration, the second and third analyses have completed:  
+After your analysis completes, its status is updated in the Peer analysis table with a check mark. In the following illustration, the second and third analyses have completed:  
 
 ![Results with one row](../images/wpa/use/three-analyses.png)
  
@@ -142,7 +142,7 @@ You can do several things on this page:
    * Select **Delete** (trash-can icon) to delete an analysis that's no longer needed.
    * Select the **Duplicate** (two-sheets-of-paper icon) to make an editable copy of the analysis.
  * <u>Above the table:</u> 
-   * Select **New analysis** to create a new organizational effectiveness analysis.
+   * Select **New analysis** to create a new peer analysis.
    * Refresh the list of analyses by selecting **Update list**.
 
 Selecting **View** opens the **Result** page:
@@ -182,7 +182,7 @@ Follow these steps to upload a file that contains email addresses:
     <!-- REMOVE FOR NOW (PER SANJAY, WHO IS CHECKING ON THIS) Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. -->
 
     > [!Note] 
-    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for organizational effectiveness analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
+    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
 4.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).
  
@@ -201,7 +201,7 @@ Follow these steps to upload a file that contains email addresses:
     Now, you could proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization), so you can start the analysis with this group. 
 
     > [!Note] 
-    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for organizational effectiveness analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
+    > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
 3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).  
 
