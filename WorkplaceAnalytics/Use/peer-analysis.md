@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Peer analyses 
-description: Describes the peer analysis of Workplace Analytics
+title: Peer analysis 
+description: Describes the peer analysis functionality of Workplace Analytics
 author: paul9955
 ms.author: v-pascha
 ms.date: 06/21/2019
@@ -16,13 +16,15 @@ manager: scott.ruble
 
 # Peer analysis
 
-Peer analyses help you find answers to the question: How do the most effective people&mdash;the best performing people in a company&mdash;collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_.) The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them.  
+Peer analyses help you find answers to the question: How do the most effective people&mdash;the best performing people in a company&mdash;collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_, and the people we compare them with&mdash;their peers&mdash;as the _other group_.) 
 
-You work towards the first goal through an peer analysis. This procedure consists of the following tasks:
+The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them.  
+
+You work towards the first goal through a peer analysis. This procedure consists of the following tasks:
 
 1.	[Start an analysis](#start-an-analysis). 
 2.	[Identify the reference group](#identify-the-reference-group). You do this either by using filters or by uploading a .csv file that contains the email addresses of the members of the group. 
-3.	[Select the peer group](#select-the-peer-group). After you've identified the reference group, you next identify a peer group. This, too, you can do either with filters or by uploading a .csv file. 
+3.	[Select the other group](#select-the-other-group). After you've identified the reference group, you next identify the other group for comparison. This, too, you can do either with filters or by uploading a .csv file. 
 4.	(Optional) [Apply conditions](#apply-conditions). In this step, you help assure that your comparison makes sense for the groups that you’ve selected. 
 5.	[Submit the analysis](#submit-the-analysis).
 6.	[View results](#view-results). View the results of your analysis. 
@@ -34,7 +36,7 @@ To be able to perform the tasks in this article, you must have either the analys
 
 ### Privacy notes
 
-Peer analyses enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the peer group. 
+Peer analyses enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the other group. 
 
 The results of analyses are always presented in aggregate form. No individual's data is ever presented in isolation.
 
@@ -83,15 +85,15 @@ As you define this group, keep in mind that it has a maximum size. If you upload
     > [!Note] 
     > For more information about which way to identify this group, see [Why use filters?](#why-use-filters)
 
-2.	After you've successfully identified the reference group, select **Next** and go to [Select the peer group](#select-the-peer-group). 
+2.	After you've successfully identified the reference group, select **Next** and go to [Select the other group](#select-the-other-group). 
 
-## Select the peer group
+## Select the other group
 
 As you define this group, bear in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than  1000 members.   
 
-![Identify peer group](../images/wpa/use/step2-peer-group.png)
+![Identify other group](../images/wpa/use/step2-other-group.png)
 
-1.	In the **Peers** section, identify the members of the peer group. As with the reference group, you choose the peer group; its members need not be on the same team. You can identify them in either of the following two ways:
+1.	In the **Peers** section, identify the members of the other group. As with the reference group, you choose the other group; its members need not be on the same team. You can identify them in either of the following two ways:
 
     * [Upload a .csv file](#upload-a-csv-file). For this, you’ll use a file that has been prepared with email addresses.  
     * [Use filters](#use-filters). To do this, you filter by HR (organizational) attributes. 
@@ -99,17 +101,17 @@ As you define this group, bear in mind that it has a maximum size. If you upload
     > [!Note] 
     > For more information about which way to identify this group, see [Why use filters?](#why-use-filters)
 
-2.	After you’ve successfully identified the reference group, select **Next** and go to [Apply conditions](#apply-conditions). 
+2.	After you've successfully identified the other group, select **Next** and go to [Apply conditions](#apply-conditions). 
 
 ## Apply conditions
 
 In this optional step, you make sure that the right people in each of your selected groups are being compared. 
 
-After you select **Next** in the Peer group section, the **Conditions** page opens:
+After you select **Next** in the Other group section, the **Conditions** page opens:
  
 ![New analysis panel](../images/wpa/use/step3-conditions.png)
 
-On this page, you define filters, to filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the peer group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
+On this page, you define filters, to filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the other group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
 
 > [!Note] 
 > You can skip this step by selecting **Next**. 
@@ -118,7 +120,7 @@ After you have finished applying conditions, select **Next** and go to [Submit t
 
 ## Submit the analysis
 
-The fourth and final screen of the sequence summarizes the choices that you’ve made, including the analysis name, the date range, and the names and sizes of the reference and peer groups. If you want to return to preceding steps to change any of these things, select **Back**:
+The fourth and final screen of the sequence summarizes the choices that you've made, including the analysis name, the date range, and the names and sizes of the reference and other groups. If you want to return to preceding steps to change any of these things, select **Back**:
 
 ![Summary page with Submit button](../images/wpa/use/step4-summary-edit.png) 
 
