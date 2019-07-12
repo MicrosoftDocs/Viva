@@ -28,7 +28,6 @@ You can easily customize them to meet your unique organizational needs, includin
   * Organizational Network Analysis
   * Topic Analysis
   * Process Explorer
-  * Group analysis
 
 * **Analytic framework support**: Enables you to merge Workplace Analytics query output with other [Azure data sources](https://docs.microsoft.com/azure/index) outside of Workplace Analytics (such as with Azure Blob storage, Azure SQL Database, Azure Databricks, and Azure Analysis Services) for custom metric calculations, advanced and interactive visuals, and automated data management.
 
