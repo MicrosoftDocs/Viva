@@ -186,7 +186,7 @@ Follow these steps to upload a file that contains email addresses:
     > [!Note] 
     > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
-4.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).
+4.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).
  
 ### Use filters
 
@@ -205,7 +205,7 @@ Follow these steps to upload a file that contains email addresses:
     > [!Note] 
     > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
-3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the peer group](#select-the-peer-group).  
+3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).  
 
 ## Concepts
 
