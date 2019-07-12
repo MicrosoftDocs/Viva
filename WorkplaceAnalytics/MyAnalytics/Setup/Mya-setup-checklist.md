@@ -18,8 +18,8 @@ ms.prod: mya
 
 The steps in this topic describe how to configure MyAnalytics for the users in your organization. Before you begin setup, complete the following:
 
- * **Prerequisite software** - Confirm your organization has met the prerequisites as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
- * **Data privacy** - See the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md) to understand how privacy is built into MyAnalytics and to learn what you can configure to address specific privacy requirements.
+ * **Prerequisite software:** Confirm that your organization has met the prerequisites as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
+ * **Data privacy:** See the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md) to understand how privacy is built into MyAnalytics and to learn what you can configure to address specific privacy requirements.
 
 To configure MyAnalytics, see the following sections:
 
