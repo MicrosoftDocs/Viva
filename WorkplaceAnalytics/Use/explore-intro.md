@@ -27,4 +27,4 @@ Explore in Workplace Analytics includes the following set of analytical cards as
 
 ### Analyze and start Solutions
 
-* [**Organizational effectiveness**](../use/org-effectiveness.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
+* [**Organizational effectiveness**](../use/peer-analysis.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
