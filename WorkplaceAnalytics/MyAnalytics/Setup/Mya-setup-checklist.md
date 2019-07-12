@@ -27,7 +27,7 @@ To configure MyAnalytics, see the following sections:
 
  * [Configure user-level settings](#configure-user-level-settings)
 
- * [Assign licenses with the MyAnalytics service plan](#step-2-assign-licenses-with-the-myanalytics-service-plan) 
+ * [Assign licenses with the MyAnalytics service plan](#assign-licenses-with-the-myanalytics-service-plan) 
 
 
 # Configuration options
