@@ -2,36 +2,55 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics setup for Office 365 Administrators
-description: A checklist of setup steps for Office 365 Administrators to implement MyAnalytics in their organization 
-author: madehmer
-ms.author: v-midehm
-ms.date: 04/11/2019
+title: MyAnalytics configuration for Office 365 administrators
+description: Configuration options that Office 365 administrators can make for MyAnalytics users
+author: paul9955
+ms.author: v-pascha
+ms.date: 07/12/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-# MyAnalytics setup for Office 365 Administrators
+# Configure MyAnalytics
 
-The steps in this topic describe how to set up MyAnalytics for the users in your organization. Before you begin setup, complete the following:
+**Role:** Office 365 admins
+
+The steps in this topic describe how to configure MyAnalytics for the users in your organization. Before you begin setup, complete the following:
 
  * **Prerequisite software** - Confirm your organization has met the prerequisites as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
  * **Data privacy** - See the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md) to understand how privacy is built into MyAnalytics and to learn what you can configure to address specific privacy requirements.
 
-To set up MyAnalytics, complete the following tasks.
+To configure MyAnalytics, see the following sections:
 
-| | Task | Owner | Outcome |
-|---|------|-------|---------|
-| <img src="../../Images/mya/use/Team-adopt-plan-checklist-box.PNG"> | [Step 1 - Configure user settings](#step-1-configure-the-user-privacymode-setting)  | Office 365 Administrators | Configure MyAnalytics for each user in your organization.  |
-| <img src="../../Images/mya/use/Team-adopt-plan-checklist-box.PNG"> | [Step 2 - Assign licenses with the MyAnalytics service plan](#step-2-assign-licenses-with-the-myanalytics-service-plan) | Office 365 Administrators| Assign licenses to users, which enables the MyAnalytics service plan for them. |
+ * [Configure tenant-level settings](#configure-tenant-level-settings)
 
-# Setup tasks
+ * [Configure user-level settings](#configure-user-level-settings)
 
-## Step 1: Configure the user PrivacyMode setting
+ * [Assign licenses with the MyAnalytics service plan](#step-2-assign-licenses-with-the-myanalytics-service-plan) 
 
-[!INCLUDE [Configure user settings](../Setup/Configure-MyA-User-Settings.md)] 
 
-## Step 2: Assign licenses with the MyAnalytics service plan
+# Configuration options
 
-[!INCLUDE [Assign licenses with the MyAnalytics service plan](../Setup/Assign-Licenses.md)]
+## Configure tenant-level settings
+
+Configure MyAnalytics for each user in your organization.
+
+[to be written]
+
+## Configure user-level settings
+
+Configure MyAnalytics for each user in your organization.
+
+[!INCLUDE [Configure user settings](../setup/configure-mya-user-settings.md)] 
+
+
+## Assign licenses with the MyAnalytics service plan
+
+Assign licenses to users, which enables the MyAnalytics service plan for them.
+
+[!INCLUDE [Assign licenses with the MyAnalytics service plan](../setup/assign-licenses.md)]
+
+
+
+
