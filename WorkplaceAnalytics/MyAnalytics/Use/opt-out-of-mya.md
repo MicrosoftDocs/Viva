@@ -43,3 +43,10 @@ When you opt out, the following will occur:
 ## If I opt out, can I opt back in?
 
 Yes, you can opt back in any time to regain access to your personal dashboard.
+
+## Related topics
+
+* [Opt out of the MyAnalytics dashboard](#to-opt-out-of-the-myanalytics-dashboard)
+* [Opt out of the weekly email digest](email-digest-2.md#opt-out-of-the-email-digests)
+* To opt out of the [Opt out of the Insights add-in](#to-opt-out-of-the-insights-add-in)
+* [To opt out of inline suggestions](../use/mya-notifications.md#to-opt-out-of-inline-suggestions)

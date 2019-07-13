@@ -54,3 +54,7 @@ You can turn off the add-in by opting out of MyAnalytics. See [Can I opt out of 
 3. In **Admin-managed add-ins**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
 
     ![Remove Insights](../../Images/mya/use/remove-insights.png)
+
+
+
+
