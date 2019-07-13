@@ -21,7 +21,7 @@ You can set this parameter for one user or for many users:
  * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)
 
 
-## User configuration settings
+### User configuration settings
 
 PrivacyMode parameter  | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
@@ -33,7 +33,7 @@ Excluded   |<ul><li> Office 365 data is not used for aggregated information show
 > * _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them. 
 > * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want a licensed user to be opted _out_ by default, which would give them the choice to opt-in, change the value of the PrivacyMode parameter for that user to "Opt-out."
 
-## Set MyAnalytics access for multiple users
+### Set MyAnalytics access for multiple users
 
 You can use PowerShell to change the access to MyAnalytics (the value of PrivacyMode) for multiple users at once. To do this, run a PowerShell script that iterates through the users, changing the value one user at a time. Follow these steps:
 
@@ -71,7 +71,7 @@ This PowerShell command block does the following:
  * Sets the specified privacy mode for each user.
  * Creates a .csv file with all the users that were processed and shows their status.
 
-## Set MyAnalytics access for one user
+### Set MyAnalytics access for one user
 
 Configure MyAnalytics access settings for a user with the following PowerShell cmdlet:
 

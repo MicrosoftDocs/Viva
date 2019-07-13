@@ -23,14 +23,14 @@ The steps in this topic describe how to configure MyAnalytics for the users in y
 
 To configure MyAnalytics, see the following sections:
 
- * [Configure tenant-level settings](#configure-tenant-level-settings)
+ * [Configure MyAnalytics access at the tenant level](#configure-myanalytics-access-at-the-tenant-level): Configure MyAnalytics for all of the users in your organization at once. 
 
- * [Configure user-level settings](#configure-user-level-settings)
+ * [Configure MyAnalytics access at the user level](#configure-myanalytics-access-at-the-user-level): Configure MyAnalytics for a subset of the users in your organization. 
 
- * [Assign licenses with the MyAnalytics service plan](#assign-licenses-with-the-myanalytics-service-plan) 
+ * [Assign licenses with the MyAnalytics service plan](#assign-licenses-with-the-myanalytics-service-plan): Assign licenses to individual or multiple users.
 
 
-## Configure tenant-level settings
+## Configure MyAnalytics access at the tenant level
 
 Configure MyAnalytics for all of the users in your organization. 
 
@@ -43,9 +43,7 @@ Configure MyAnalytics for all of the users in your organization.
 4. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
 5. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
 
-## Configure user-level settings
-
-Configure MyAnalytics for each user in your organization. 
+## Configure MyAnalytics access at the user level
 
 [!INCLUDE [Configure user settings](../setup/configure-mya-user-settings.md)] 
 
