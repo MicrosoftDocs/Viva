@@ -66,36 +66,14 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
-## Can I opt out of MyAnalytics?
+## Can I opt out?
 
-All users can use the MyAnalytics dashboard to opt-out.
+Yes. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. See the following sections for more information:
 
-When you opt out, the following will occur:
-
-* You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
-* You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
-* Your email activity will not be included in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
-
-### To opt out of MyAnalytics
-
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon in the top right.
-
-    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under MyAnalytics, select **Settings**.
-4. For MyAnalytics, set the control to **Off**.
-
-    ![Slider in off position](../../Images/mya/use/Slider-off.png)
-  
-5. Select **Save** to save your changes.
-
-> [!NOTE]
-> It might take up to a week for your saved changes to take effect.
-
-### If I opt out, can I opt back in?
-
-Yes, you can opt back in any time to regain access to your personal dashboard.
+ * [Opt out of MyAnalytics](#opt-out-of-mya.md)
+   * [Opt out of the MyAnalytics dashboard](#to-opt-out-of-the-myanalytics-dashboard)
+   * [Opt out of the weekly email digest](#to-opt-out-of-the-myanalytics-dashboard)
+   * [Opt out of the Insights add-in](#to-opt-out-of-the-myanalytics-dashboard)
 
 ## Can I opt out of just the MyAnalytics dashboard?
 
