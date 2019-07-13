@@ -34,7 +34,7 @@ To configure MyAnalytics, see the following sections:
 
 Configure MyAnalytics for all of the users in your organization. 
 
-1. Open the Microsoft 365 admin center.
+1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. In the left pane, expand **Settings** and select **Services & add-ins**. 
 3. In the main pane, under **Services & add-ins**, select **MyAnalytics**. This opens the page for configuring access to the MyAnalytics elements: 
 

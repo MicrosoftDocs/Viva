@@ -96,3 +96,28 @@ When you opt out, the following will occur:
 ### If I opt out, can I opt back in?
 
 Yes, you can opt back in any time to regain access to your personal dashboard.
+
+## Can I opt out of just the MyAnalytics dashboard?
+
+Yes. See the following procedure: 
+
+### To opt out of the MyAnalytics dashboard
+
+1. Open your [dashboard](https://myanalytics.microsoft.com).
+2. Select the **Settings** (gear) icon in the top right.
+
+    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+
+3. Under MyAnalytics, select **Settings**.
+4. For **Dashboard**, set the control to **Off**.
+
+    ![Slider in off position](../../Images/mya/use/Slider-off.png)
+  
+5. Select **Save** to save your changes.
+
+> [!NOTE]
+> It might take up to 24 hours for your saved changes to take effect.
+
+### If I opt out, can I opt back in?
+
+Yes, you can opt back in any time to regain access to your personal dashboard.
