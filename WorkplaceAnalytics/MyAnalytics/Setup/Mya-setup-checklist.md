@@ -32,7 +32,7 @@ To configure MyAnalytics, see the following sections:
 
 ## Configure tenant-level settings
 
-Configure MyAnalytics for each user in your organization.
+Configure MyAnalytics for each user in your organization. 
 
 [to be written]
 
@@ -40,7 +40,7 @@ Configure MyAnalytics for each user in your organization.
 
 ## Configure user-level settings
 
-Configure MyAnalytics for each user in your organization.
+Configure MyAnalytics for each user in your organization. 
 
 [!INCLUDE [Configure user settings](../setup/configure-mya-user-settings.md)] 
 
