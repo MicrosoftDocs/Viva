@@ -66,15 +66,15 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
-## Can I opt out?
+## Can I opt out of MyAnalytics?
 
 Yes. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. See the following sections for more information:
 
- * [Opt out of MyAnalytics](#opt-out-of-mya.md)
+ * [Opt out of MyAnalytics](opt-out-of-mya.md)
    * [Opt out of the MyAnalytics dashboard](#to-opt-out-of-the-myanalytics-dashboard)
-   * [Opt out of the weekly email digest](email-digest-2.md#opt-out-of-the-email-digests)
-   * To opt out of the [Opt out of the Insights add-in](#to-opt-out-of-the-insights-add-in)
-   * [To opt out of inline suggestions](../use/mya-notifications.md#to-opt-out-of-inline-suggestions)
+   * [Opt out of the weekly email digest](email-digest-2.md#opt-out-of-email-digests)
+   * [To remove Insights from Outlook](add-in.md#to-remove-insights-from-outlook)
+   * [To opt out of inline suggestions](mya-notifications.md#to-opt-out-of-inline-suggestions)
 
 ## Can I opt out of just the MyAnalytics dashboard?
 
