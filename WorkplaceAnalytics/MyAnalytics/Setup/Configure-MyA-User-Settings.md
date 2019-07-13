@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration options](#user-configuration-settings).
+You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
 
 You can set this parameter for one user or for many users:  
 
