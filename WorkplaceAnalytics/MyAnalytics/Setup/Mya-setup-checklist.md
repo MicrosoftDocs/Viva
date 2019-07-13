@@ -32,11 +32,16 @@ To configure MyAnalytics, see the following sections:
 
 ## Configure tenant-level settings
 
-Configure MyAnalytics for each user in your organization. 
+Configure MyAnalytics for all of the users in your organization. 
 
-[to be written]
+1. Open the Microsoft 365 admin center.
+2. In the left pane, expand **Settings** and select **Services & add-ins**. 
+3. In the main pane, under **Services & add-ins**, select **MyAnalytics**. This opens the page for configuring access to the MyAnalytics elements: 
 
-![Select visibility](../../images/mya/setup/assign-mya-access.png)
+   ![Select visibility](../../images/mya/setup/assign-mya-access-2.png)
+
+4. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
+5. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
 
 ## Configure user-level settings
 
