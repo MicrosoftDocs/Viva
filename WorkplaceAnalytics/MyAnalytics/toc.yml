@@ -22,7 +22,7 @@
       items:
         - name: Introduction
           href: ./overview/mya-for-admins.md
-        - name: MyAnalytics setup
+        - name: Configure MyAnalytics
           href: ./setup/mya-setup-checklist.md
         - name: Plans and environments
           href: ./overview/plans-environments.md
