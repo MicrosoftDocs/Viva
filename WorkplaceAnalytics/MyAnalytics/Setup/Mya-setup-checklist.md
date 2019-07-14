@@ -38,7 +38,7 @@ Configure MyAnalytics for all of the users in your organization.
 2. In the left pane, expand **Settings** and select **Services & add-ins**. 
 3. In the main pane, under **Services & add-ins**, select **MyAnalytics**. This opens the page for configuring access to the MyAnalytics elements: 
 
-   ![Select visibility](../../images/mya/setup/assign-mya-access-2-65.png)
+   ![Select visibility](../../images/mya/setup/assign-mya-access-2-65-80.png)
 
 4. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
 5. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
