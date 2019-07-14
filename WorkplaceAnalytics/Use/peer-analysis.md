@@ -64,7 +64,7 @@ In this task, you take the first steps to start a peer analysis.
  
 The top of this panel shows the four steps for creating a peer analysis: _Reference group_, _Peer group_, _Conditions_, and _Submit_.
 
-5.	For **Analysis name**, type a name for this analysis. 
+5.	For **Analysis name**, type a name for this analysis.  
 
 6.	Select a date range for the analysis.
 
