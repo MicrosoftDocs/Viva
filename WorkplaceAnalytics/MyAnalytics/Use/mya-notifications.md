@@ -54,7 +54,7 @@ You can provide feedback for a suggestion by selecting **Feedback** in the sugge
 
    ![inline suggestions feedback](../../Images/mya/use/insights-feedback.png)
 
-## To opt out of inline suggestions
+## Opt out of inline suggestions
 
 1. To opt out of inline suggestions in Outlook, select the **Insights** icon on the Outlook Home ribbon.
 

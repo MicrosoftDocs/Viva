@@ -40,13 +40,13 @@ You'll see Insights in the right panel in Outlook:
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
-## To opt out of the Insights add-in
+## Opt out of the Insights add-in
 
 The way to opt out of the Insights add-in bis to opt out of MyAnalytics. For instructions, see [Can I opt out of MyAnalytics?](opt-out-of-mya.md).
 
-To remove the Insights add-in icon from the ribbon, see [To remove Insights from Outlook](#to-remove-insights-from-outlook).
+To remove the Insights add-in icon from the ribbon, see [To remove Insights from Outlook](#remove-insights-from-outlook).
 
-## To remove Insights from Outlook
+## Remove Insights from Outlook
 
 Follow these steps to remove from the Outlook ribbon the icon for the Insights add-in.
 
