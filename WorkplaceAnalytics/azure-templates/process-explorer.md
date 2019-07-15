@@ -22,15 +22,17 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time.
 
-You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
+You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
 
-After you upload a dataset, you can use the template tools to categorize a good sample of meetings into the specified categories. You can then select to auto-categorize all of the meetings in the dataset based on that sample categorization. After categorizing meetings, you can view meeting and email data based on those categories with visual charts and lists, as shown in the following graphics.
+After you upload a dataset, you can use the word cloud to add category names or phrases and view words that are close to matching them in meetings. The word cloud can help you decide what categories to add for analysis.
+
+After you categorize a good sample of meetings into the specified categories, you can:
+
+* Select to **Auto-Categorize Full Dataset** based on your sample categorization.
+* View meeting data based on those categories with visual charts and lists, as shown in the following graphic.
+* Use the **Refine Categorization** option to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
 
    ![Process Explorer graphical analysis](./images/pexp-refine.png)
-
-You can also use the **Refine Categorization** option to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
-
-You can use the query builder to view word clouds and view the list of words that are close to matching the category name in the meetings data, which can help you decide what categories to add for analysis.
 
 ## To add a new dataset
 
