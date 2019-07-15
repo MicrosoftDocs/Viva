@@ -29,7 +29,6 @@ You work towards the first goal through a peer analysis. This procedure consists
 5.	[Submit the analysis](#submit-the-analysis).
 6.	[View results](#view-results). View the results of your analysis. 
 
-
 ### Roles 
 
 To be able to perform the tasks in this article, you must have either the analyst or the limited analyst role of Workplace Analytics.  
@@ -62,7 +61,7 @@ In this task, you take the first steps to start a peer analysis.
 
     ![New analysis panel](../images/wpa/use/step1-new-request.png)
  
-The top of this panel shows the four steps for creating a peer analysis: _Reference group_, _Peer group_, _Conditions_, and _Submit_.
+The top of this panel shows the four steps for creating a peer analysis: _Reference group_, _Other group_, _Conditions_, and _Submit_.
 
 5.	For **Analysis name**, type a name for this analysis.  
 
@@ -111,7 +110,7 @@ After you select **Next** in the Other group section, the **Conditions** page op
  
 ![New analysis panel](../images/wpa/use/step3-conditions.png)
 
-On this page, you define filters, to filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the other group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
+On this page, you filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the other group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
 
 > [!Note] 
 > You can skip this step by selecting **Next**. 
