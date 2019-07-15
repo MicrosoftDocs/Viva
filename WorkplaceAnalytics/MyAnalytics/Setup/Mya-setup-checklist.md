@@ -18,7 +18,7 @@ ms.prod: mya
 
 The steps in this topic describe how to configure MyAnalytics for the users in your organization. Note the following: 
 
- * **Prerequisite:** Confirm that your organization has met the prerequisites as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
+ * **Prerequisite:** Users have access to MyAnalytics only if they have licenses that include the MyAnalytics service, as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
  * **Data privacy:** See the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md) to understand how privacy is built into MyAnalytics and to learn what you can configure to address specific privacy requirements.
 
@@ -33,7 +33,7 @@ To configure MyAnalytics, see the following sections:
 
 ## Assign licenses with the MyAnalytics service plan
 
-Assign licenses to users, which enables the MyAnalytics service plan for them.
+Assign licenses to users, which enables the MyAnalytics service plan for them. For more information about which service plans offer which features of MyAnalytics, see [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
 [!INCLUDE [Assign licenses with the MyAnalytics service plan](../setup/assign-licenses.md)]
 
