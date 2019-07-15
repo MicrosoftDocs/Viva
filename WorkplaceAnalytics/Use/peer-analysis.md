@@ -221,7 +221,7 @@ When you compare two groups of people, the purpose is to arrive at a meaningful 
 
 Because of differences such as these, making a direct, unrefined comparison of groups of employees might produce results that are not informative. For this reason, Workplace Analytics provides a way to improve the relevance and value of your comparisons: Add filters on the **Conditions** page:
 
-![Use filters](../images/wpa/use/apply-conditions.png)
+![Apply conditions](../images/wpa/use/step3-conditions.png)
 
 Let's say you are looking at employees in the software engineering discipline. You might want to make sure that both the reference group and the peer group consist entirely of software engineers. On this page, add a filter to define a condition such as: _Discipline_ _Equals_ _Software engineer_. 
 
