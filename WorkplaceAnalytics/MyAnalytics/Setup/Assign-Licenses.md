@@ -15,8 +15,6 @@ manager: scott.ruble
 audience: Admin
 ---
 
-You must assign a license with the MyAnalytics service plan to each participant that wants to get statistics from MyAnalytics. For information on how to do this, see [Assign licenses to users in Office 365 for business](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc). 
-
 <!-- If you don’t want a user to see any statistics from MyAnalytics, you can disable the MyAnalytics service plan for that user. -->
 
 > [!Note]
