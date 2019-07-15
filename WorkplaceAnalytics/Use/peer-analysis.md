@@ -72,9 +72,9 @@ The top of this panel shows the four steps for creating a peer analysis: _Refere
 
 As you define this group, keep in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than 1000 members. 
 
-1.	In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not be on the same team. You can identify them in either of the following ways:
+1.	In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not work together on the same team. You can identify them in either of the following ways:
 
-    * [Upload a .csv file](#upload-a-csv-file). For this, you’ll use a file that has been prepared with email addresses.  
+    * [Upload a .csv file](#upload-a-csv-file). For this, you’ll use a file that contains the email addresses of the people in the reference group.  
     * [Use filters](#use-filters). To do this, you filter by HR (organizational) attributes. 
 
     > [!Note] 
@@ -84,13 +84,13 @@ As you define this group, keep in mind that it has a maximum size. If you upload
 
 ## Select the other group
 
-As you define this group, bear in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than  1000 members.   
+As you define this group, bear in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than 1000 members.   
 
 ![Identify other group](../images/wpa/use/step2-other-group.png)
 
-1.	In the **Peers** section, identify the members of the other group. As with the reference group, you choose the other group; its members need not be on the same team. You can identify them in either of the following two ways:
+1.	In the **Other group** section, identify the members of the other group. As with the reference group, you choose the other group; its members need not work together on the same team. You can identify them in either of the following two ways:
 
-    * [Upload a .csv file](#upload-a-csv-file). For this, you’ll use a file that has been prepared with email addresses.  
+    * [Upload a .csv file](#upload-a-csv-file). For this, you'll use a file that contains the email addresses of the people in the other group.  
     * [Use filters](#use-filters). To do this, you filter by HR (organizational) attributes. 
 
     > [!Note] 
@@ -102,7 +102,7 @@ As you define this group, bear in mind that it has a maximum size. If you upload
 
 In this optional step, you make sure that the right people in each of your selected groups are being compared. 
 
-After you select **Next** in the Other group section, the **Conditions** page opens:
+After you select **Next** in the **Other group** section, the **Conditions** page opens:
  
 ![New analysis panel](../images/wpa/use/step3-conditions.png)
 
@@ -115,13 +115,13 @@ After you have finished applying conditions, select **Next** and go to [Submit t
 
 ## Submit the analysis
 
-The fourth and final screen of the sequence summarizes the choices that you've made, including the analysis name, the date range, and the names and sizes of the reference and other groups. If you want to return to preceding steps to change any of these things, select **Back**:
+The fourth and final screen of the sequence summarizes the choices that you've made by showing the analysis name, the date range, and the names and sizes of the reference and other groups. If you want to return to preceding steps to change any of these things, select **Back**:
 
 ![Summary page with Submit button](../images/wpa/use/step4-summary-edit.png) 
 
 If you do not need to make changes, select **Submit**.
 
-This opens the page that displays the Peer analysis table. The analysis that you just submitted appears at the top of the list with a status of _running_, as shown here: 
+This opens the page that displays the **Peer analysis** table. The analysis that you just submitted appears at the top of the list with a status of _running_, as shown here: 
 
 ![Analysis running](../images/wpa/use/analysis-running.png)
 
@@ -129,7 +129,7 @@ Depending on the size of the analysis, the run time should take between several 
 
 ## View results
 
-After your analysis completes, its status is updated in the Peer analysis table with a check mark. In the following illustration, the second and third analyses have completed:  
+After your analysis completes, its status is updated in the **Peer analysis** table with a check mark. In the following illustration, the second and third analyses have completed:  
 
 ![Results with one row](../images/wpa/use/three-analyses.png)
  
@@ -146,11 +146,11 @@ Selecting **View** opens the **Result** page:
  
 ![Result page](../images/wpa/use/result-1-2.png)
 
-At the top of this page, you see the following information about your analysis: the analysis name, date range, name and size of the reference group, and name and size of the peer group. 
+At the top of this page, you see the following information about your analysis: the analysis name, date range, name and size of the reference group, and name and size of the other group. 
 
-The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Workplace Analytics selects these three metrics from among highly correlated metrics that are unique to this type of analysis.) The results you see are comparisons of raw averages between the reference group and the peer group. 
+The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Workplace Analytics selects these three metrics from among highly correlated metrics that are unique to this type of analysis.) The results that you see are comparisons of raw averages between the reference group and the other group. 
 
-In this example, they are _External network size_, _1:1 meeting hours with direct manager_, and _Percentage of network from external relationships_.
+In this example, they are _Time with leadership_, _External network size_, and _Percentage of meeting hours with direct manager coattending_.
  
 Below these metrics summaries, the results for each metric are described in detail. Each detail section contains a description called **Why it matters**. This section explains why this metric analysis result is useful. Each section also contains an information icon &mdash; &#x24D8; &mdash; that you can select to learn more about the metric.
  
@@ -172,7 +172,7 @@ Follow these steps to upload a file that contains email addresses:
 
     ![Validation results](../images/wpa/use/validation-results.png)
  
-    In this example, the validation results contain the errors of invalid email addresses and a person who has no Workplace Analytics license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. (To participate, a person needs only a Workplace Analytics [license assigned](../setup/assign-licenses-to-population.md), not a Workplace Analytics [role](../setup/assign-roles-to-wpa-admins.md).)
+    In this example, the validation results contain the errors of invalid email addresses and a person who has no Workplace Analytics license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. (To participate, a person needs only a Workplace Analytics [license assigned](../setup/assign-licenses-to-population.md); they do not need a Workplace Analytics [role](../setup/assign-roles-to-wpa-admins.md).)
 
     If validation errors are found, you cannot proceed with the analysis. After you correct the validation errors (or select a group with other participants), you must re-upload the .csv file to cause Workplace Analytics to validate the file again. After your .csv file successfully validates, you can proceed with the analysis.
 
@@ -195,7 +195,7 @@ Follow these steps to upload a file that contains email addresses:
 
     For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](../tutorials/solutions-conceptual.md#persistence-of-group-selections). 
 
-    Now, you could proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization), so you can start the analysis with this group. 
+    Now, you could proceed with the analysis if the group size falls between the allowed minimum and maximum group sizes. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization). 
 
     > [!Note] 
     > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
@@ -206,7 +206,7 @@ Follow these steps to upload a file that contains email addresses:
 
 ### Why use filters?
 
-A typical use case for using filters would be if your organization uses outcome metrics such as sales quotas or performance or engagement ratings. If your admin has uploaded this data, you can use corresponding filters in this type of analysis. For example, while defining your reference group, you could filter to include employees who have achieved a particular sales quota or above. Then, one of your filters for the peer group could specify sales quota below the level that you chose for the reference group. 
+A typical use case for using filters would be if your organization uses outcome metrics such as sales quotas or performance or engagement ratings. If your admin has uploaded this data, you can use corresponding filters in this type of analysis. For example, while defining your reference group, you could filter to include employees who have achieved a particular sales quota or above. Then, one of your filters for the other group could specify sales quota below the level that you chose for the reference group. 
 
 Of course, if performance metrics cannot be or have not been uploaded for your organization, you cannot filter by them to select a group. In this case, remember that you can designate a group by uploading its members in a .csv file that contains email addresses. 
 
@@ -218,7 +218,7 @@ Because of differences such as these, making a direct, unrefined comparison of g
 
 ![Apply conditions](../images/wpa/use/step3-conditions.png)
 
-Let's say you are looking at employees in the software engineering discipline. You might want to make sure that both the reference group and the peer group consist entirely of software engineers. On this page, add a filter to define a condition such as: _Discipline_ _Equals_ _Software engineer_. 
+Let's say you are looking at employees in the software engineering discipline. You might want to make sure that both the reference group and the other group consist entirely of software engineers. On this page, add a filter to define a condition such as: _Discipline_ _Equals_ _Software engineer_. 
 
 Workplace Analytics will then make sure that every user in both of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, it displays an error message:
 
