@@ -28,8 +28,6 @@ After you upload a dataset, you can use the template tools to categorize a good 
 
    ![Process Explorer graphical analysis](./images/pexp-refine.png)
 
-   ![Process Explorer visual list](./images/pexp-analysis-a.png)
-
 You can also use the **Refine Categorization** option to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
 
 You can use the query builder to view word clouds and view the list of words that are close to matching the category name in the meetings data, which can help you decide what categories to add for analysis.
@@ -46,17 +44,11 @@ You can use the query builder to view word clouds and view the list of words tha
 5. When prompted, select **OK**. The upload will take a few minutes to complete.
 6. After the upload succeeds, the list will include this new dataset.
 
-## To add categories and build queries for analysis
+## To add categories for analysis
 
 1. On the **Process Explorer** page, select the dataset name from the list.
 2. For new datasets, you're prompted to enter a new categorization and set the probability threshold for the first category. The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
-3. On the analysis details page, depending on the dataset (blob storage or .csv), you can do one or more of the following:
-
-   * Type a new category to add at the end of the category list
-   * Select **Open Query Builder** to create a query with the dataset and select meetings and emails to assign categories and help train the template to auto-categorize the whole dataset
-   * Hover your cursor over the category in the list to view and select the **delete** icon to remove it
-  
-4. In **Query Builder** > **Discover Topics**, you can create a query based on keywords in meeting subjects or titles, enter one or more keywords, separated by commas, in one of the **Keyword** boxes.
+3. In **Query Builder** > **Discover Topics**, you can create a query based on keywords in meeting subjects or titles, select one or more keywords from the Word cloud or type them, separated by commas, in one of the applicable **Keyword** boxes.
 
      ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
@@ -69,19 +61,19 @@ You can use the query builder to view word clouds and view the list of words tha
 
      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
-5. Select **Run query**.
-6. After a query is created and the query data is listed, you can:
+4. Select **Run query**.
+5. After a query is created and the query data is listed, you can:
 
    * Select the category from the list, and then select the check box next to each meeting that you want to include in that category. This will help train the system for auto-categorization of the whole dataset.
-   * Select the check box for any uncategorized meetings or emails, select a category, and then select **Apply** to add them to that category.
+   * Select the check box for any uncategorized meetings, select a category, and then select **Apply** to add them to that category.
 
       ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
 
-   * After you categorize a good sample of related meetings, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorization.
+   * After you categorize a good sample of related meetings, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings in the whole dataset based on the sample categorization.
 
       ![Auto-categorize the dataset](./images/pexp-refine.png)
 
-7. You can then select to export the query as a .csv file for further analysis or select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+6. You can then select to export the query as a .csv file for further analysis or select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
 
 ## Related topics
 
