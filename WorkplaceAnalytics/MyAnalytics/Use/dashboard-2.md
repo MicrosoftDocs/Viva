@@ -81,11 +81,7 @@ Yes. You can opt out of access to individual parts of MyAnalytics or out of all 
  * [Remove Insights add-in from Outlook](add-in.md#remove-insights-add-in-from-outlook)
  * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
 
-## Can I opt out of just the MyAnalytics dashboard?
-
-Yes. See the following procedure:  
-
-### Opt out of the MyAnalytics dashboard
+## Opt out of the MyAnalytics dashboard
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right.

@@ -140,7 +140,7 @@ Yes, follow the steps in [To opt out of email digests](../use/email-digest-2.md#
 
 ##### Q5. Can I opt out of MyAnalytics?
 
-Yes, follow the steps in [To opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics).
+Yes, follow the steps in [Opt out of MyAnalytics](../use/dashboard-2.md#opt-out-of-myanalytics).
 
 ##### Q6. Why can I not see the MyAnalytics dashboard to opt-out?
 

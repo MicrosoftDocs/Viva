@@ -13,11 +13,9 @@ ms.prod: mya
 
 ---
 
-# Can I opt out of MyAnalytics?
+# Opt out of MyAnalytics
 
-All users can use the MyAnalytics dashboard to opt-out.
-
-When you opt out, the following will occur:
+All users can use the MyAnalytics dashboard to opt-out. When you opt out, the following will occur:
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
 * You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).

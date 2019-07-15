@@ -43,12 +43,6 @@ As the Office 365 admin, you can set a starting point for the MyAnalytics users 
 > [!Note] 
 > If you've set the starting point to "opted in," users can still choose to opt themselves out. Similarly, if you've set the starting point to "opted out," users can choose to use MyAnalytics by opting themselves in. The one situation in which users cannot opt themselves in is if you have removed user licenses; unlicensed users cannot participate in MyAnalytics. 
 
-### Configure MyAnalytics access at the user level
-
-Configure MyAnalytics access for individual users in your organization. 
-
-[!INCLUDE [Configure user settings](../setup/configure-mya-user-settings.md)]  
-
 ### Configure MyAnalytics access at the tenant level
 
 Configure MyAnalytics access for all of the users in your organization. 
@@ -61,6 +55,14 @@ Configure MyAnalytics access for all of the users in your organization.
 
 4. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
 5. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
+
+### Configure MyAnalytics access at the user level
+
+Configure MyAnalytics access for individual users in your organization. 
+
+[!INCLUDE [Configure user settings](../setup/configure-mya-user-settings.md)]  
+
+
 
 
 
