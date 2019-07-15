@@ -46,7 +46,7 @@ Yes, you can opt back in any time to regain access to your personal dashboard.
 
 ## Related topics
 
-* [Opt out of the MyAnalytics dashboard](dashboard-2.md#to-opt-out-of-the-myanalytics-dashboard)
+* [Opt out of the MyAnalytics dashboard](dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
 * [Opt out of the weekly email digest](email-digest-2.md#opt-out-of-email-digests)
-* [To remove Insights from Outlook](add-in.md#to-remove-insights-from-outlook)
-* [To opt out of inline suggestions](mya-notifications.md#to-opt-out-of-inline-suggestions)
+* [Remove Insights add-in from Outlook](add-in.md#remove-insights-from-outlook)
+* [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)

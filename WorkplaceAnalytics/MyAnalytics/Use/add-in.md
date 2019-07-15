@@ -46,7 +46,7 @@ The way to opt out of the Insights add-in is to opt out of MyAnalytics. For inst
 
 To remove the Insights add-in icon from the ribbon, see [To remove Insights from Outlook](#remove-insights-from-outlook).
 
-## Remove Insights from Outlook
+## Remove Insights add-in from Outlook
 
 Follow these steps to remove from the Outlook ribbon the icon for the Insights add-in.
 
