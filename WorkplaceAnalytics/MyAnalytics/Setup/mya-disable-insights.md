@@ -50,4 +50,4 @@ This disables the add-in for all licensed users in your organization.
 
 [How users can opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics)
 
-[How users can remove Insights from Outlook](../use/add-in.md#to-remove-insights-from-outlook)
+[How users can remove the Insights add-in from Outlook](../use/add-in.md#to-remove-insights-add-in-from-outlook)

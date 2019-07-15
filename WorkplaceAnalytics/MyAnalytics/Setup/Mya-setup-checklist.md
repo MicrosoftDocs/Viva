@@ -36,13 +36,19 @@ Assign licenses to users, which enables the MyAnalytics service plan for them.
 
 [!INCLUDE [Assign licenses with the MyAnalytics service plan](../setup/assign-licenses.md)]
 
-## Configure MyAnalytics access at the user level
+## Configure MyAnalytics access for users
+
+As the admin for your organization's use of MyAnalytics, you can set a starting point for the users in your organization. You can do this for all users at once, for some of them, or for individual users. By default, this starting point is "opted in." That is, users have access to the various parts of MyAnalytics by default. You can change this starting point from "opted in" to "opted out" by completing the steps in the following sections. 
+
+If you've set the starting point to "opted in," users can still choose to opt themselves out. Similarly, if you've set the starting point to "opted out," users can choose to use MyAnalytics by opting themselves in. The one situation in which users cannot opt themselves in is if you have removed user licenses; unlicensed users cannot participate in MyAnalytics. 
+
+### Configure MyAnalytics access at the user level
 
 Configure MyAnalytics access for individual users in your organization. 
 
 [!INCLUDE [Configure user settings](../setup/configure-mya-user-settings.md)]  
 
-## Configure MyAnalytics access at the tenant level
+### Configure MyAnalytics access at the tenant level
 
 Configure MyAnalytics access for all of the users in your organization. 
 
