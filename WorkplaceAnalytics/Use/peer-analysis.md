@@ -47,10 +47,6 @@ In this task, you take the first steps to start a peer analysis.
 
 2.	Expand **Analyze** and open the **Explore** page. This page has two sections: **Metrics overview** and **Analyze and start Solutions**.
 
-<!-- NO NEED FOR THIS HOME PAGE IMAGE 
-    ![Explore page](../images/wpa/use/explore-demo.png)
--->
-
 3.	Under **Analyze and start Solutions**, select **Peer analysis**. 
 
     This displays a table of the peer analyses that have been started or completed. 
@@ -72,11 +68,11 @@ The top of this panel shows the four steps for creating a peer analysis: _Refere
 ## Identify the reference group
 
 > [!Tip] 
-> Before you complete this task, you should know which group of people within your organization that you want to use for the reference group
+> Before you complete this task, you should know the group of people within your organization that you want to use for the reference group.
 
-As you define this group, keep in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than  1000 members. 
+As you define this group, keep in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than 1000 members. 
 
-1.	In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not be on the same team. You can identify them in either of the following two ways:
+1.	In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not be on the same team. You can identify them in either of the following ways:
 
     * [Upload a .csv file](#upload-a-csv-file). For this, you’ll use a file that has been prepared with email addresses.  
     * [Use filters](#use-filters). To do this, you filter by HR (organizational) attributes. 
