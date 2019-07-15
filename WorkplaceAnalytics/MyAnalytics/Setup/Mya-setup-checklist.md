@@ -39,10 +39,10 @@ Assign licenses to users, which enables the MyAnalytics service plan for them. F
 
 ## Configure MyAnalytics access 
 
-As the Office 365 admin, you can set a starting point for the MyAnalytics users in your organization. You can do this for all users at once, for just some of them, or for individual users. By default, this starting point is "opted in." That is, by default, users have access to the various parts of MyAnalytics. You can change this starting point from "opted in" to "opted out" by completing the steps in the following sections. 
+As the Office 365 admin, you can set a starting point for the MyAnalytics users in your organization. You can do this for all users at once, for just some of them, or for individual users. By default, this starting point is "opted in." This means that, by default, users have access to MyAnalytics. You can change this starting point from "opted in" to "opted out"&mdash;either for all of MyAnalytics or for it individual parts&mdash;by completing the steps in the following sections. 
 
 > [!Note] 
-> If you've set the starting point to "opted in," users can still choose to opt themselves out. Similarly, if you've set the starting point to "opted out," users can choose to use MyAnalytics by opting themselves in. The one situation in which users cannot opt themselves in is if you have removed user licenses; unlicensed users cannot participate in MyAnalytics. 
+> If you've set the starting point to "opted in," users can still choose to opt themselves out. Similarly, if you've set the starting point to "opted out," users can choose to use MyAnalytics by opting themselves in. The one situation in which a user cannot opt in is if you've removed their license; unlicensed users cannot participate in MyAnalytics. 
 
 ### Configure MyAnalytics access at the tenant level
 
