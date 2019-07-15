@@ -16,19 +16,20 @@ ms.prod: mya
 
 **Role:** Office 365 admins
 
-The steps in this topic describe how to configure MyAnalytics for the users in your organization. Before you begin setup, complete the following:
+The steps in this topic describe how to configure MyAnalytics for the users in your organization. Note the following: 
 
- * **Prerequisite software:** Confirm that your organization has met the prerequisites as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
+ * **Prerequisite:** Confirm that your organization has met the prerequisites as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
  * **Data privacy:** See the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md) to understand how privacy is built into MyAnalytics and to learn what you can configure to address specific privacy requirements.
 
 To configure MyAnalytics, see the following sections:
 
- * [Assign licenses with the MyAnalytics service plan](#assign-licenses-with-the-myanalytics-service-plan): Assign licenses to individual or multiple users.
+ * [Assign licenses with the MyAnalytics service plan](#assign-licenses-with-the-myanalytics-service-plan)
 
- * [Configure MyAnalytics access at the user level](#configure-myanalytics-access-at-the-user-level): Configure MyAnalytics for a subset of the users in your organization.
+ * [Configure MyAnalytics access at the tenant level](#configure-myanalytics-access-at-the-tenant-level)
 
- * [Configure MyAnalytics access at the tenant level](#configure-myanalytics-access-at-the-tenant-level): Configure MyAnalytics for all of the users in your organization at once.  
+ * [Configure MyAnalytics access at the user level](#configure-myanalytics-access-at-the-user-level)
+
 
 ## Assign licenses with the MyAnalytics service plan
 
@@ -36,7 +37,7 @@ Assign licenses to users, which enables the MyAnalytics service plan for them.
 
 [!INCLUDE [Assign licenses with the MyAnalytics service plan](../setup/assign-licenses.md)]
 
-## Configure MyAnalytics access for users
+## Configure MyAnalytics access 
 
 As the Office 365 admin, you can set a starting point for the MyAnalytics users in your organization. You can do this for all users at once, for just some of them, or for individual users. By default, this starting point is "opted in." That is, by default, users have access to the various parts of MyAnalytics. You can change this starting point from "opted in" to "opted out" by completing the steps in the following sections. 
 
