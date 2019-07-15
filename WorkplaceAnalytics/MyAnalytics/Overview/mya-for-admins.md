@@ -32,7 +32,8 @@ MyAnalytics can help participants strengthen their work relationships, have more
 * Users can opt in or out from the start. See [Can I opt out?](../use/dashboard-2.md#can-i-opt-out-of-myanalytics) for details.
 * Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#to-opt-out-of-the-myanalytics-dashboard) for details.
 * Users can opt out of email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
-* Users can opt out of the Insights add-in. See [To disable the add-in](../setup/mya-disable-insights.md) for details.
+* Users can opt out of the Insights add-in. See [Disable the add-in](../setup/mya-disable-insights.md) for details.
+* Users can opt out of inline suggestions. See [Opt out of inline suggestions](../setup/mya-disable-insights.md) for details.
 
 ## Data privacy
 
