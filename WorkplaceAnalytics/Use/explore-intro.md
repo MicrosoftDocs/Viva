@@ -4,7 +4,7 @@
 
 title: Explore introduction
 description: Describes the analytical Explore cards in Workplace Analytics
-author: paul9966
+author: paul9955
 ms.author: v-midehm
 ms.date: 07/16/2019
 ms.topic: conceptual
@@ -31,4 +31,4 @@ Explore in Workplace Analytics includes the following set of analytical cards as
 
 ### Explore-data time limit
 
-The historical data that populates the various **Explore** pages is time limited: These charts reflect data that is no older than 27 months. This 27-month period is a "rolling window," which means that with each month that passes, the 27-month limit of data that support the **Explore** pages advances by one month.  
+The historical data that populates the various **Explore** pages is time limited: These charts reflect data that is no older than 27 months. This 27-month period is a "rolling window," which means that with each month that passes, the 27-month limit of data that support the **Explore** pages advances by one month. 
