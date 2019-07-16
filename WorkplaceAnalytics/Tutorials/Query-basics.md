@@ -24,7 +24,7 @@ With these queries, you can:
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
-### Query data time limit
+### Query-data time limit
 
 The historical data on which queries are run is time limited: You can run queries on data that is no older than 27 months. This 27-month period is a "rolling window," which means that with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month.  
 
