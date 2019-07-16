@@ -83,14 +83,18 @@ You can configure access to MyAnalytics elements for all the users in your organ
 
 #### Dashboard and weekly email
 
-1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-2. In the left pane, expand **Settings** and select **Services & add-ins**. 
-3. In the main pane, under **Services & add-ins**, select **MyAnalytics**. This opens the page for configuring access to the MyAnalytics elements: 
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
+2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
 
-   ![Select visibility](../../images/mya/setup/assign-mya-access-2-65-80.png)
+    ![New admin center](../../images/mya/setup/the-new-admin-center.png)
 
-4. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
-5. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
+3. In the left pane, expand **Settings** and select **Services & add-ins**. 
+4. In the main pane, under **Services & add-ins**, select **MyAnalytics**. This opens the page for configuring access to the MyAnalytics elements: 
+
+   ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
+
+5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
+6. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
 
 #### Insights Outlook add-in
 
@@ -101,15 +105,19 @@ You can disable the Insights Outlook add-in for your entire organization by usin
 > [!Note]
 > You must be an Office 365 admin to perform these steps.
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
+1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 
-2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center.          
+2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
+
+    ![New admin center](../../images/mya/setup/the-new-admin-center.png)
+
+3. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center.          
  
-3. In the dashboard, select **add-ins**.
+4. In the dashboard, select **add-ins**.
       
-4. In the list of add-ins, select **Insights**, and then select **Edit** (the pencil icon). This opens the **Edit add-in settings** dialog box.
-    
-5. In the dialog box, clear the **Make this add-in available to users in your organization** checkbox to disable the add-in, and then select **Save**.
+5. In the list of add-ins, select **Insights**, and then select **Edit** (the pencil icon). This opens the **Edit add-in settings** dialog box.
+ 
+6. In the dialog box, clear the **Make this add-in available to users in your organization** checkbox to disable the add-in, and then select **Save**.
 
 This disables the add-in for all licensed users in your organization.
 
