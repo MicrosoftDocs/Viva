@@ -47,4 +47,4 @@ After you assign a user license with the MyAnalytics service plan, the new parti
 
  * **Weekly email digest:** Users will begin to receive the MyAnalytics [email digest](../Use/email-digest-2.md) on the Monday of the first week after they receive the welcome email.
 
- * **Inline suggestions:** Users can see the [inline suggestions](../use/mya-notificatins.md) in a day or so after their license with the MyAnalytics service plan is granted.
+ * **Inline suggestions:** Users can see the [inline suggestions](../use/mya-notifications.md) in a day or so after their license with the MyAnalytics service plan is granted.

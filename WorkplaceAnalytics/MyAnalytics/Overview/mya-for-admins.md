@@ -6,7 +6,7 @@ title: MyAnalytics for admins
 description: Overview of MyAnalytics for Office 365 admins
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/12/2019
+ms.date: 07/15/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -32,7 +32,7 @@ MyAnalytics can help participants strengthen their work relationships, have more
 * Users can opt in or out from the start. See [Can I opt out?](../use/dashboard-2.md#can-i-opt-out-of-myanalytics) for details.
 * Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#to-opt-out-of-the-myanalytics-dashboard) for details.
 * Users can opt out of email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
-* Users can remove the Insights add-in. See [Remove the Insights add-in](../use/add-in.md#remove-the-insights-add-in-from-outlook.md) for details.
+* Users can remove the Insights add-in. See [Remove the Insights add-in](../use/add-in.md#remove-the-insights-add-in-from-outlook) for details.
 * Users can opt out of inline suggestions. See [Opt out of inline suggestions](../setup/mya-disable-insights.md) for details.
 
 ## Data privacy
