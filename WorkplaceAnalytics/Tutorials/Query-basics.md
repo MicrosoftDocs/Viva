@@ -4,13 +4,14 @@
 
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 07/16/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Queries overview
 
 You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
@@ -22,6 +23,12 @@ With these queries, you can:
 * Select as many or as few metrics as you need, for any population or time range.
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
+
+### Query data time limit
+
+The historical data on which queries are run is time limited. You can run queries on data that is no older than 27 months. This 27-month period is a "rolling window," which means that with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month.  
+
+The results of any queries that you have already run remain available to you, even after the data that were queried for those results pass the 27-month limit.  
 
 ## Person query
 
