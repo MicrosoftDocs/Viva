@@ -30,7 +30,7 @@ MyAnalytics can help participants strengthen their work relationships, have more
 
 * As the admin, you control the configuration of how your users start using MyAnalytics. See [Configure MyAnalytics](../setup/mya-setup-checklist.md) for details.
 * Users can opt in or out from the start. See [Can I opt out?](../use/dashboard-2.md#can-i-opt-out-of-myanalytics) for details.
-* Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#to-opt-out-of-the-myanalytics-dashboard) for details.
+* Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard) for details.
 * Users can opt out of email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
 * Users can remove the Insights add-in. See [Remove the Insights add-in](../use/add-in.md#remove-the-insights-add-in-from-outlook) for details.
 * Users can opt out of inline suggestions. See [Opt out of inline suggestions](../setup/mya-disable-insights.md) for details.
@@ -41,7 +41,7 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). To learn how to set up and configure MyAnalytics, see [Condigure MyAnalytics](../setup/mya-setup-checklist.md). To learn more about how soon participants can see the various elements, see the [MyAnalytics elements become available](../setup/mya-setup-checklist.md#myanalytics-elements-become-available) section.
+Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). To learn how to set up and configure MyAnalytics, see [Condigure MyAnalytics](../setup/mya-setup-checklist.md). To learn more about how soon participants can see the various elements, see the [MyAnalytics elements](../setup/mya-setup-checklist.md#myanalytics-elements) section.
 
 ## Video: Introduction for admins
 
