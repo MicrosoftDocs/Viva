@@ -25,9 +25,9 @@ The steps in this topic describe how to configure MyAnalytics for the users in y
 To configure MyAnalytics, see the following sections:
 
  * [Assign licenses with the MyAnalytics service plan](#assign-licenses-with-the-myanalytics-service-plan)
- * [Configure MyAnalytics access](#configure-myanalytics-acces)
-    * [Configure access at the tenant level](#configure-myanalytics-access-at-the-tenant-level)
-    * [Configure access at the user level](#configure-myanalytics-access-at-the-user-level)
+ * [Configure MyAnalytics access](#configure-myanalytics-access)
+    * [Configure access at the tenant level](#configure-access-at-the-tenant-level)
+    * [Configure access at the user level](#configure-access-at-the-user-level)
 
 
 ## Assign licenses with the MyAnalytics service plan
@@ -68,7 +68,7 @@ After you assign a user license with the MyAnalytics service plan, the new parti
 
  * **Weekly email digest:** Users will begin to receive the MyAnalytics [email digest](../Use/email-digest-2.md) on the Monday of the first week after they receive the welcome email.
 
- * **Inline suggestions:** Users can see the [inline suggestions](../use/mya-notificatins.md) in a day or so after their license with the MyAnalytics service plan is granted.
+ * **Inline suggestions:** Users can see the [inline suggestions](../use/mya-notifications.md) in a day or so after their license with the MyAnalytics service plan is granted.
 
 ## Configure MyAnalytics access 
 
