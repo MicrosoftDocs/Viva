@@ -26,7 +26,7 @@ With these queries, you can:
 
 ### Query-data time limit
 
-The historical data on which queries are run is time limited: You can run queries on data that is no older than 27 months. This 27-month period is a "rolling window," which means that with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month.  
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_, which means that with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month.  
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit. 
 
