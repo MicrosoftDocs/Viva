@@ -4,9 +4,9 @@
 
 title: Disable the Insights Outlook add-in
 description: How to disable the Insights Outlook add-in at the organizational level 
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 06/14/2019
+ms.date: 07/16/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: mya
@@ -48,6 +48,4 @@ This disables the add-in for all licensed users in your organization.
 
 ## Related topics
 
-[How users can opt out of MyAnalytics](../use/dashboard-2.md#can-i-opt-out-of-myanalytics)
-
-[How users can remove the Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
+[Opt out](../overview/mya-faq.md#opt-out)
