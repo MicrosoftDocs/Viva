@@ -5,9 +5,9 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Historical person metrics for Workplace Analytics Data export
 description: One row for each person and for each HR change
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 02/27/2019
+ms.date: 06/26/2019
 ms.topic: article
 ms.prod: wpa
 ---
@@ -22,7 +22,7 @@ This file includes one row for each person that has HR changes and for each HR c
 |**EmailAddress**|**string**|Masked value, unique for every email address|  
 |**StartDate**|**datetime**|Effective start date of last HR change (does not apply for original hire date, or leave date)|
 |**EndDate**|**datetime**|Effective end date of last HR change (does not apply for original hire date, or leave date)|
-|**PopulationType**|**string**|Type of employee. See [PopulationType](#populationtype)|
+|**PopulationType**|**string**|Type of employee. See [PopulationType](#populationtype).|
 |**IsInternal**|**boolean**|True if PopulationType is either MeasuredEmployee or InternalCollaborator|
 |**ManagerId**|**string**|Unique value for each person's manager|
 |**HR Attribute 1**|varies |HR values that have been added to the dataset; see [HR attributes](#hr-attributes).|
@@ -45,3 +45,7 @@ The following describes possible values for the **PopulationType** column.
 ## HR attributes
 
 The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a required set of attributes, optional attributes, and custom attributes. For more information about these attributes, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+
+## Related topics
+
+[Data export](./data-access.md)
