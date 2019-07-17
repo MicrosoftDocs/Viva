@@ -50,7 +50,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 1. On the **Process Explorer** page, select the dataset name from the list.
 2. For new datasets, you're prompted to enter a new categorization and set the probability threshold for the first category. The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
-3. In **Query Builder** > **Discover Topics**, you can create a query based on keywords in meeting subjects or titles, select one or more keywords from the Word cloud or type them, separated by commas, in one of the applicable **Keyword** boxes.
+3. In **Query Builder** > **Discover Topics**, you can select one or more keywords from the Word cloud or type them, separated by commas, in one of the applicable **Keyword** boxes to categorize the data you want to analyze.
 
      ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
