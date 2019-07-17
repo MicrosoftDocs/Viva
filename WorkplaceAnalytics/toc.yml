@@ -78,11 +78,13 @@
                 - name: Internal networks
                   href: ~/Use/Explore-Metrics-internal-networks.md
                 - name: External collaboration
-                  href: ~/Use/Explore-Metrics-external-collaboration.md 
+                  href: ~/Use/Explore-Metrics-external-collaboration.md
+                - name: Teams collaboration
+                  href: ~/Use/Explore-metrics-teams.md
+                - name: Peer analysis
+                  href: ~/Use/peer-analysis.md                    
                 - name: Charts
-                  href: ~/Use/Chart-Types.md
-                - name: Organizational effectiveness
-                  href: ~/Use/org-effectiveness.md                  
+                  href: ~/Use/Chart-Types.md             
             - name: Queries
               items:
                 - name: Overview
@@ -96,7 +98,7 @@
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md
+                  href: ~/tutorials/Person-to-group-queries.md 
                 - name: Queries with CRM data
                   href: ~/tutorials/crm-queries.md                                 
                 - name: Power BI templates

@@ -6,7 +6,7 @@ title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/16/2019
+ms.date: 06/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -81,6 +81,7 @@ On the **System defaults** page, you can configure the following:
 * [Default time zone](#default-time-zone)
 * [Working days and hours](#working-days-and-hours)
 * [Hourly rate](#hourly-rate)
+* [Reclassify external domains](#reclassify-external-domains)
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
@@ -114,6 +115,18 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 
 1. For **Hourly rate** on the **System defaults** page, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
+
+#### Reclassify external domains
+
+With this setting, you can reclassify one or more external domains as internal, which includes them in your organizational data analysis.
+
+After you add a domain and save the change for this setting, it'll change all of the data related to the specified domain as internal to your organization, as follows:
+
+ * Explore charts and metrics will show the domain as internal *retroactively* for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in the **Explore** pages.
+ * Organizational and Office 365 data from this domain will update to be internal after the *next data refresh*.
+ * Sources data will include this domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
+ * The changes can be reverted by removing the domain that was reclassified.
+ * [Excluding domains in the privacy settings](#exclude-domains-or-email-addresses) overrides the changes made with this reclassification setting. That is, an excluded domain remains excluded, whether or not it's reclassified as internal.
 
 ### Privacy settings
 
