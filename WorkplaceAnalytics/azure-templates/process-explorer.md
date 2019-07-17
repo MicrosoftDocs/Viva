@@ -46,7 +46,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 5. When prompted, select **OK**. The upload will take a few minutes to complete.
 6. After the upload succeeds, the list will include this new dataset.
 
-## To add categories for analysis
+## To categorize meetings for analysis
 
 1. On the **Process Explorer** page, select the dataset name from the list.
 2. For new datasets, you're prompted to enter a new categorization and set the probability threshold for the first category. The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
@@ -64,18 +64,22 @@ After you categorize a good sample of meetings into the specified categories, yo
      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
 4. Select **Run query**.
-5. After a query is created and the query data is listed, you can:
+5. After the data is queried, you can:
 
-   * Select the category from the list, and then select the check box next to each meeting that you want to include in that category. This will help train the system for auto-categorization of the whole dataset.
-   * Select the check box for any uncategorized meetings, select a category, and then select **Apply** to add them to that category.
+   * Use **Add a New Category** to add any additional categories needed for grouping the uncategorized meetings into.
+   * Select a category, select the check box next to a good sample of related meetings, and then select **Apply** to add them to that category. This will help train the system for auto-categorization of the whole dataset.
 
       ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
 
-   * After you categorize a good sample of related meetings, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings in the whole dataset based on the sample categorization.
+   * After you categorize a good sample of related meetings for all the categories that you want to evaluate, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings in the whole dataset based on the sample categorization.
 
       ![Auto-categorize the dataset](./images/pexp-refine.png)
 
 6. You can then select to export the query as a .csv file for further analysis or select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+
+## Email activity analysis
+
+Email activity is only included in analysis when the data source is blob storage and you have already categorized a good sample of meeting activity into the categories you want to analyze.
 
 ## Related topics
 

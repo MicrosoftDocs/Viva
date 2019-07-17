@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/19/2019
+ms.date: 07/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,9 +20,9 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
-## June 2019
+## July 2019
 
-The following new template and template enhancements are now available in this month's release.
+The following new template and template enhancements are now available.
 
 ### Process Explorer Azure Template
 
@@ -32,9 +32,9 @@ To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 ### Group Analysis Azure Template
 
-This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them. You can proactively evaluate differences between different groups and address any areas that need improvement between the groups.
+This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them. 
 
-To learn more, see [Group Analysis Azure Template](./process-explorer.md).
+To learn more, see [Group Analysis Azure Template](./group-analysis.md).
 
 ### Organization Network Analysis Azure Template
 
