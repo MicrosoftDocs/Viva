@@ -122,14 +122,14 @@ Yes. You can opt out of access to individual parts of MyAnalytics or out of all 
 
 ##### Opt out of all of MyAnalytics
 
- * [Opt out of MyAnalytics](opt-out-of-mya.md)
+ * [Opt out of MyAnalytics](../use/opt-out-of-mya.md)
 
 ##### Opt out of individual parts of MyAnalytics
 
- * [Opt out of the MyAnalytics dashboard](#opt-out-of-the-myanalytics-dashboard)
- * [Opt out of the weekly email digest](email-digest-2.md#opt-out-of-email-digests)
- * [Remove Insights add-in from Outlook](add-in.md#remove-the-insights-add-in-from-outlook)
- * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
+ * [Opt out of the MyAnalytics dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
+ * [Opt out of the weekly email digest](../use/email-digest-2.md#opt-out-of-email-digests)
+ * [Remove Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
+ * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
 ##### Q2. Why can I not see the MyAnalytics dashboard to opt-out?
 
@@ -154,8 +154,8 @@ To see read statistics for an email that you sent, you must have sent it within 
 #### Q1. How do I manage the MyAnalytics experience for users?
 
 You can manage the experience in two ways: 
- * Turn on or off particular MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](#configure-access-at-the-tenant-level). 
- * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](#configure-access-at-the-user-level). 
+ * Turn on or off particular MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/mya-setup-checklist.md#configure-access-at-the-tenant-level). 
+ * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/mya-setup-checklist.md#configure-access-at-the-user-level). 
 
 #### Q2. Where is user data stored?
 
