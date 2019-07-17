@@ -114,11 +114,26 @@ Try the following to troubleshoot your focus-time totals:
 
 If you plan to go on vacation, create a calendar event that includes the days of your vacation and set its status to **Out of Office**. This causes your focus time and meeting time to both count as zero during your vacation.  
 
-### Usage
+### Opt out
 
-##### Q1. How do I track my team’s progress?
+#### Q1. Can I opt out of MyAnalytics?
 
-You can track your teams progress if the team has conducted a program to change its collaboration habits. During such a program, its statistics, and thus its progress towards its improvement goals, are tracked. For information about starting such a program, see [Get started](../use/mya-adoption/team-adopt-intro.md). For information about tracking the progress that your team made, see [Measure](../use/mya-adoption/team-adopt-measure.md).
+Yes. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. See the following sections for more information:
+
+##### Opt out of all of MyAnalytics
+
+ * [Opt out of MyAnalytics](opt-out-of-mya.md)
+
+##### Opt out of individual parts of MyAnalytics
+
+ * [Opt out of the MyAnalytics dashboard](#opt-out-of-the-myanalytics-dashboard)
+ * [Opt out of the weekly email digest](email-digest-2.md#opt-out-of-email-digests)
+ * [Remove Insights add-in from Outlook](add-in.md#remove-the-insights-add-in-from-outlook)
+ * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
+
+##### Q2. Why can I not see the MyAnalytics dashboard to opt-out?
+
+To opt out, you use the MyAnalytics dashboard. The dashboard is available only if your organization has a _qualifying plan_. (All of the plans listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features) are qualifying plans.) If an organization has no _qualifying plan_, its members see no elements of MyAnalytics and their data is not processed. 
 
 ### Insights Outlook add-in
 
@@ -134,49 +149,39 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
 
-##### Q4. Can I turn off email digests?
-
-Yes, follow the steps in [To opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests).
-
-##### Q5. Can I opt out of MyAnalytics?
-
-Yes. See [Can I opt out of MyAnalytics?](../use/dashboard-2.md#can-i-opt-out-of-myanalytics).
-
-##### Q6. Why can I not see the MyAnalytics dashboard to opt-out?
-
-To opt out, you use the MyAnalytics dashboard. The dashboard is available only if your organization has a _qualifying plan_. (All of the plans listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features) are qualifying plans.) If an organization has no _qualifying plan_, its members see no elements of MyAnalytics and their data is not processed. 
-
-##### Q7. Can I turn off inline suggestions in Outlook?
-
-Yes, follow the steps in [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions).
-
 ## For IT administrators
 
-#### Q1. Where is user data stored?
+#### Q1. How do I manage the MyAnalytics experience for users?
+
+You can manage the experience in two ways: 
+ * Turn on or off particular MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](#configure-access-at-the-tenant-level). 
+ * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](#configure-access-at-the-user-level). 
+
+#### Q2. Where is user data stored?
 
 User metrics data is stored in users' mailboxes.
 
-#### Q2. How long does it take for the personal dashboard to become available?
+#### Q3. How long does it take for the personal dashboard to become available?
 
 The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service plan are assigned to the participants. For more information, see [Assign licenses with the MyAnalytics service plan](../setup/Mya-setup-checklist.md#assign-licenses-with-the-myanalytics-service-plan).
 
-#### Q3. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
+#### Q4. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
 
 Upon activation, MyAnalytics processes historical data for 80 days before the date of activation. No data from before this 80-day limit is displayed in the dashboard.
 
-#### Q4. Will MyAnalytics work for shared mailboxes?
+#### Q5. Will MyAnalytics work for shared mailboxes?
 
 No, currently the MyAnalytics service plan cannot be used with shared mailboxes.
 
-#### Q5. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+#### Q6. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
 No. Only Exchange Online, Skype for Business Online, and Teams are used as sources of MyAnalytics data.
 
-#### Q6. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
+#### Q7. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
 Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
 
-#### Q7. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" plan?
+#### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" plan?
 
  * The dashboard button will not appear until the dashboard becomes available to E3/E1 users, to take place later in 2019.
  * The cards that show email read statistics are not available. This capability is available to E5 users only.
