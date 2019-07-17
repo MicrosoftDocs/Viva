@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -24,7 +24,7 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
 
-After you upload a dataset, you can use the word cloud to add category names or phrases and view words that are close to matching them in meetings. The word cloud can help you decide what categories to add for analysis.
+After you upload a dataset, you can use the word cloud help you decide what categories to add for analysis by viewing words in the meeting activity. You can select category names or phrases from the word cloud to add for analysis.
 
 After you categorize a good sample of meetings into the specified categories, you can:
 
@@ -44,7 +44,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 4. Type a dataset name, locate and select the .csv file or blob storage location, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
 5. When prompted, select **OK**. The upload will take a few minutes to complete.
-6. After the upload succeeds, the list will include this new dataset.
+6. After the upload succeeds, the list will include the new dataset.
 
 ## To categorize meetings for analysis
 
@@ -54,12 +54,12 @@ After you categorize a good sample of meetings into the specified categories, yo
 
      ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
-   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**)
-   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**)
-   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces)
-   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis
-   * Use **Filter Meetings** to filter by analyst and/or model, and by one or more categories, such as budget, as shown in this graphic
-   * You can also adjust the probability range to filter the word cloud and meeting list
+   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
+   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
+   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
+   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
+   * Use **Filter Meetings** to filter by analyst and/or model, and by one or more categories, such as budget, as shown in the following graphic.
+   * You can also adjust the probability range to filter the word cloud and meeting list.
 
      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
@@ -79,7 +79,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 ## Email activity analysis
 
-Email activity is only included in analysis when the data source is blob storage and you have already categorized a good sample of meeting activity into the categories you want to analyze.
+You can only analyze email activity when the data source is blob storage and after you have categorized a good sample of meeting activity into the categories you want to analyze.
 
 ## Related topics
 
