@@ -84,19 +84,19 @@ For more information about solutions, see [Workplace Analytics solutions](soluti
 
 3. On the **Set up new plan** pane, select an appropriate plan type for the group that you designated and select **Start now**. 
 
-4. Select **Validate** to validate the selected group. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutions-conceptual.md#validation).)  <!-- REPLACE WHEN SV2 RELEASES: see [Validation](solutionsv2-conceptual.md#validation).)   -->
+4. Select **Validate** to validate the selected group. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. <!--(For more information, see [Validation](solutions-conceptual.md#validation).)   DELETING FOR NOW BECAUSE IT'S NOT IN THE SV1 DOC. --> <!-- REPLACE WHEN SV2 RELEASES: see [Validation](solutionsv2-conceptual.md#validation).)   -->
 
    If validation fails, you can return to your query results and select a different group or additional groups, or start over. After any subsequent group selection, you must select **Validate** again. After validation succeeds, go to the next step.
 
-5.	With your group validated, you can now start a solutions plan. See the [Start the plan](solutions-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section of [Solution walkthrough](solutions-task.md). <!-- REPLACE WHEN SV2 RELEASES: See the [Start the plan](solutionsv2-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section  --> <!-- REPLACE WHEN SV2 RELEASES: of [Solution walkthrough](solutionsv2-task.md).   -->
+5.	With your group validated, you can now start a solutions plan. <!-- See the [Start the plan](solutions-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section of [Solution walkthrough](solutions-task.md).   DELETING FOR NOW BECAUSE IT'S NOT IN THE SV1 DOC. --> <!-- REPLACE WHEN SV2 RELEASES: See the [Start the plan](solutionsv2-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section  --> <!-- REPLACE WHEN SV2 RELEASES: of [Solution walkthrough](solutionsv2-task.md).   -->
 
-6.	After the plan starts and is underway, you can track its progress; for more information, see [Track plans](solutions-task.md#track-plans). To learn about the plan from the participants' perspective, see [The experience of plan participants](solutions-participants.md?branch=PAS-LR-SolutionsV2). 
- <!-- REPLACE WHEN SV2 RELEASES: see [Track plans](solutionsv2-task.md#track-plans).  -->  
+6.	After the plan starts and is underway, you can track its progress; for more information, see [Track programs](solutions-task.md#track-programs).  <!-- REPLACE WHEN SV2 RELEASES: see [Track plans](solutionsv2-task.md#track-plans).  --> To learn about the plan from the participants' perspective, see [The experience of plan participants](solutions-participants.md?branch=PAS-LR-SolutionsV2). 
+  
 <!-- REPLACE WHEN SV2 RELEASES:  see [The experience of plan participants](solutionsv2-participants.md?branch=PAS-LR-SolutionsV2).   -->
 
 ## Related topics
 
-[Person query](person-queries.md)
+[Person query](person-queries.md) 
 
 [Solution walkthrough](solutions-task.md)
 <!-- REPLACE WHEN SV2 RELEASES:  [Solution walkthrough](solutionsv2-task.md)   -->
