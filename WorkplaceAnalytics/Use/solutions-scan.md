@@ -50,7 +50,7 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
  
 3.	Scroll down to the **Opportunities** area:
 
-    ![Opportunities area](../images/wpa/use/solution-scan-opportunities-2.png)
+    ![Opportunities area](../images/wpa/use/solutions-scan-opportunities-2.png)
  
     When you view this page, you see new scan results in the (light-blue) highlighted callouts to the right of the solution descriptions. These callouts describe opportunities for one or more groups.
 
@@ -63,13 +63,13 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
 
 In the following example walkthrough, we look at the _Increase focus_ opportunity to see how to take advantage of an opportunity to create a plan for a group. 
 
-### Start a plan from an opportunity
+### Start a plan from an opportunity 
 
 **Role:** analyst, limited analyst, or program manager
 
 1.	On the **Solutions** page, in the **Opportunities** area, locate the _Increase focus_ opportunity. 
 
-    ![Opportunities area](../images/wpa/use/solution-scan-opportunities-3.png)
+    ![Opportunities area](../images/wpa/use/solutions-scan-opportunities-3.png)
  
 	For this opportunity, the text on the left briefly describes the results of the scan&mdash;groups with fewer focus hours. The highlighted callout to the right describes the opportunity goal:
 
@@ -154,11 +154,11 @@ You can track plans on the **Manage** page. Use this page to measure progress on
 
 ## Concepts
 
-The following sections provide information that can help you as you use the solutions scan feature of Workplace Analytics:  
+The following sections provide information that can help you as you use the Solutions scan feature of Workplace Analytics:  
 
 ### What is a group?
 
-You assign plans to groups, but just what constitutes a group? For solutions scan, a group is a team of individual contributors who all report to the same manager.
+You assign plans to groups, but just what constitutes a group? For Solutions scan, a group is a team of individual contributors who all report to the same manager.
 
 Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. Groups are defined from this organizational data structure. 
 
