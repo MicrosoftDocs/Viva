@@ -67,21 +67,19 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
     ![Opportunities area](../images/wpa/use/increase-focus.png)
  
-	For this opportunity, the text briefly describes the purpose of the opportunity (gain time for the work that matters most) and it highlights the possible benefits from taking advantage of the opportunity. In this example, Workplace Analytics has identified five groups in the company that exhibit limited focus hours. 
+	For this opportunity, the text briefly describes the purpose of the opportunity (gain time for the work that matters most) and it highlights possible benefits from taking advantage of the opportunity. In this example, Workplace Analytics has identified five groups in the company that exhibit limited focus hours. 
 
-    By taking advantage of this opportunity, the group members could gain up to an aggregate of 98.4 hours per week of new focus time. (The more focus time, the better.) 
+    By taking advantage of this opportunity, the members of the [group](#what-is-a-group) could gain up to an aggregate of 98.4 hours per week of new focus time. (The more focus time, the better.) 
 
-    So, if two more groups could gain 10 hours, we'd say that you could gain up to 40 across five groups. It's displayed in a lump sum but you can drill down later. For more info, see [What is a group?](#what-is-a-group).
-
-2.	Select **See results**. This shows a detailed page for the _Increase focus_ opportunity:
+2.	Select **Increase focus**. This opens the **Solutions > Opportunities > Result** page, which shows details about the _Increase focus_ opportunity:
  
-    ![Increase focus potential](../images/wpa/use/increase-focus-potential.png)
+    ![Increase focus potential](../images/wpa/use/opportunity-page-increase-focus.png)
 
-    (The other opportunities, such as _Better meeting effectiveness_, follow this exact same model of data presentation.)
+    (The other opportunities, such as _Better meeting effectiveness_, follow this same model of data presentation.)
 
-	Notice the groups that are displayed under **Select a group to change the view of your chart**. These groups were identified as potentially benefitting from a plan. If a group has appeared in this list for multiple weeks, a notification to that effect is displayed:
+	Notice the groups that are displayed under **Select a group to analyze**. These groups were identified as potentially benefitting from a plan. If a group has appeared in this list for multiple weeks, a notification to that effect is displayed:
  
-    ![A group reappears](../images/wpa/use/group-reappears.png)
+    ![A group reappears](../images/wpa/use/multiple-weeks.png)
  
 3.	Select a group to see its data. This data appears in charts on this page. One of these charts displays data that compares this group’s behavior with that of peer groups, and the other chart shows trend lines for this group, over recent weeks. 
 
