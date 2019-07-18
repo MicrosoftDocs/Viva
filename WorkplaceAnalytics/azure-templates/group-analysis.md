@@ -56,7 +56,7 @@ You can use the group analysis to view the key performance indicators (KPIs) bet
 
 The Match Verification helps you confirm that you have sufficient overlap of confounding attributes between the evaluated group and the control group. You must have sufficient overlap between the two groups to get good data results. If there's no overlap, that means you've already identified one of the confounding attributes that distinguishes the differences between the two groups and you need to go back and choose different filters or confounding attributes for helpful analysis.
 
-The following is an example of good KPI overlap between the two groups.
+The following is an example of good KPI overlap between the two groups. Before any matching occurs, the Propensity scores are the distributions between the two groups, which are the result of comparing the confounding attributes to show how likely a person is to be in the evaluated group based on those attributes. You can hover the cursor over the data in the graph to view the details.
 
   ![Good KPI overlap for group analysis](./images/group-kpi-overlap.png)
 
