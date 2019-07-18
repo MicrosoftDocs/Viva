@@ -6,7 +6,7 @@ title: Solutions scan in Workplace Analytics
 description: Describes how to scan for opportunities in Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/25/2019
+ms.date: 07/18/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -42,22 +42,18 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
 
 **Role:** analyst, limited analyst, or program manager
 
-1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
 
-2.	On the **Solutions** page, select **Opportunities**.
+2. On the **Solutions** page, select **Opportunities**.
 
-    ![Select Opportunities](../images/wpa/use/soln-scan-opps.png)
+    ![Select Opportunities](../images/wpa/use/full-screen.png)
  
-3.	Scroll down to the **Opportunities** area:
-
-    ![Opportunities area](../images/wpa/use/solutions-scan-opportunities-2.png)
+    This page displays the most recent scan results, which are presented as opportunities for one or more groups. 
  
-    When you view this page, you see new scan results in the (light-blue) highlighted callouts to the right of the solution descriptions. These callouts describe opportunities for one or more groups.
-
     > [!Note]
     > If Workplace Analytics cannot detect anything in the data that would present an opportunity, it displays a notice that reads, "No opportunities could be loaded. Please check back later."
 
-4.	Consider which of the displayed opportunities you would like to pursue. After you’ve decided to start a plan from an opportunity, go on to [Create a plan](#create-a-plan). 
+3. Consider which of the displayed opportunities you would like to pursue. After you've decided to start a plan from an opportunity, go on to [Create a plan](#create-a-plan). 
 
 ## Create a plan
 
@@ -67,17 +63,15 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 **Role:** analyst, limited analyst, or program manager
 
-1.	On the **Solutions** page, in the **Opportunities** area, locate the _Increase focus_ opportunity. 
+1. Locate the _Increase focus_ opportunity:
 
-    ![Opportunities area](../images/wpa/use/solutions-scan-opportunities-3.png)
+    ![Opportunities area](../images/wpa/use/increase-focus.png)
  
-	For this opportunity, the text on the left briefly describes the results of the scan&mdash;groups with fewer focus hours. The highlighted callout to the right describes the opportunity goal:
+	For this opportunity, the text briefly describes the purpose of the opportunity (gain time for the work that matters most) and it highlights the possible benefits from taking advantage of the opportunity. In this example, Workplace Analytics has identified five groups in the company that exhibit limited focus hours. 
 
-    ![Scan benefits](../images/wpa/use/scan-benefits.png)
+    By taking advantage of this opportunity, the group members could gain up to an aggregate of 98.4 hours per week of new focus time. (The more focus time, the better.) 
 
-    This goal states the possible benefits from taking advantage of the opportunity. In this example, Workplace Analytics has identified three groups in the company that exhibit limited focus hours. 
-
-    By taking advantage of this opportunity, the group members could gain up to an aggregate of 20 hours per week of new focus time. (The more focus time, the better.) So, if two more groups could gain 10 hours, we'd say that you could gain up to 40 across five groups. It's displayed in a lump sum but you can drill down later. For more info, see [What is a group?](#what-is-a-group).
+    So, if two more groups could gain 10 hours, we'd say that you could gain up to 40 across five groups. It's displayed in a lump sum but you can drill down later. For more info, see [What is a group?](#what-is-a-group).
 
 2.	Select **See results**. This shows a detailed page for the _Increase focus_ opportunity:
  
