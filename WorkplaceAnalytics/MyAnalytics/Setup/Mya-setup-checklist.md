@@ -6,7 +6,7 @@ title: MyAnalytics configuration for Office 365 administrators
 description: Configuration options that Office 365 administrators can make for MyAnalytics users
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/15/2019
+ms.date: 07/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
