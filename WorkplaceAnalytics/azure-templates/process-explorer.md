@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 07/19/2019
+ms.date: 07/18/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -75,7 +75,10 @@ After you categorize a good sample of meetings into the specified categories, yo
 
       ![Auto-categorize the dataset](./images/pexp-refine.png)
 
-6. You can then select to export the query as a .csv file for further analysis or select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+   > [!Note]
+   > After you use Auto-Categorize Full Dataset on a dataset that’s source is a .csv file, the analysis changes to read-only and you cannot add new or change categories or re-categorize any of the meeting data in this dataset for this analysis. If you want to change the categories or how meetings are categorized, you can use Refine Categorization or just create new analysis by repeating these steps. 
+
+6. You can then select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
 
 ## Email activity analysis
 
