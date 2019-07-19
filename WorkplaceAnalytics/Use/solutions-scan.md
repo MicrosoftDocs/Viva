@@ -116,7 +116,7 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
 1.	(Optional) Change the **Plan name** to a name more meaningful to you than the suggested value.
 
-2.	(Optional) Change the **Plan target** to a different value. Note that you can select only percentage-based targets, such as a 10% decrease in after-hours work.
+2.	(Optional) Change the **Plan target** to a different value. Note that you can select only percentage-based targets, such as a 10% decrease in after-hours work. 
 
 3.	(Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan's end date is then calculated and displayed.
 
