@@ -172,7 +172,7 @@
         - name: Introduction
           href: MyAnalytics/overview/mya-for-admins.md
         - name: MyAnalytics setup
-          href: MyAnalytics/setup/mya-setup-checklist.md
+          href: MyAnalytics/setup/configure-myanalytics.md
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins

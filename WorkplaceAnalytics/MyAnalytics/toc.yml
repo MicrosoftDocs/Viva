@@ -23,7 +23,7 @@
         - name: Introduction
           href: ./overview/mya-for-admins.md
         - name: Configure MyAnalytics
-          href: ./setup/mya-setup-checklist.md
+          href: ./setup/configure-myanalytics.md
         - name: Plans and environments
           href: ./overview/plans-environments.md
         - name: Privacy guide for admins

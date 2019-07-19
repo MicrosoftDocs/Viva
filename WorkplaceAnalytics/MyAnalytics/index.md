@@ -57,7 +57,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/mya-setup-checklist">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/configure-myanalytics">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

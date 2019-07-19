@@ -154,8 +154,8 @@ To see read statistics for an email that you sent, you must have sent it within 
 #### Q1. How do I manage the MyAnalytics experience for users?
 
 You can manage the experience in two ways: 
- * Turn on or off particular MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/mya-setup-checklist.md#configure-access-at-the-tenant-level). 
- * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/mya-setup-checklist.md#configure-access-at-the-user-level). 
+ * Turn on or off particular MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level). 
+ * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level). 
 
 #### Q2. Where is user data stored?
 
@@ -163,7 +163,7 @@ User metrics data is stored in users' mailboxes.
 
 #### Q3. How long does it take for the personal dashboard to become available?
 
-The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service plan are assigned to the participants. For more information, see [Assign licenses with the MyAnalytics service plan](../setup/Mya-setup-checklist.md#assign-licenses-with-the-myanalytics-service-plan).
+The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service plan are assigned to the participants. For more information, see [Assign licenses with the MyAnalytics service plan](../setup/configure-myanalytics.md#assign-licenses-with-the-myanalytics-service-plan).
 
 #### Q4. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
 

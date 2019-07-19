@@ -28,7 +28,7 @@ MyAnalytics can help participants strengthen their work relationships, have more
 
 ## You and your users are in charge
 
-* As the admin, you control the configuration of how your users start using MyAnalytics. See [Configure MyAnalytics](../setup/mya-setup-checklist.md) for details.
+* As the admin, you control the configuration of how your users start using MyAnalytics. See [Configure MyAnalytics](../setup/configure-myanalytics.md) for details.
 * Users can opt in or out from the start. See [Opt out](../overview/mya-faq.md#opt-out) for details.
 * Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard) for details.
 * Users can opt out of email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
@@ -41,7 +41,7 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). To learn how to set up and configure MyAnalytics, see [Configure MyAnalytics](../setup/mya-setup-checklist.md). To learn more about how soon participants can see the various elements, see the [MyAnalytics elements](../setup/mya-setup-checklist.md#myanalytics-elements) section.
+Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). To learn how to set up and configure MyAnalytics, see [Configure MyAnalytics](../setup/configure-myanalytics.md). To learn more about how soon participants can see the various elements, see the [MyAnalytics elements](../setup/configure-myanalytics.md#myanalytics-elements) section.
 
 ## Video: Introduction for admins
 
