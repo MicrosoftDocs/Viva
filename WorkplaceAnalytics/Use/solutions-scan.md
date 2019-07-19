@@ -92,7 +92,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 6.	To create a plan for the group that you have selected, select **Start plan**. 
 
-    ![A group reappears](../images/wpa/use/create-plan.png)
+    ![Create plan](../images/wpa/use/create-plan.png)
  
     This opens the **Set up new plan** panel:
  
