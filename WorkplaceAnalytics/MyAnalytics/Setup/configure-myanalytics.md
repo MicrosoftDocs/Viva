@@ -41,25 +41,16 @@ For information on how to assign a license, see [Assign licenses to users in Off
 > [!Note]
 > If you choose to notify your organization before you assign licenses for MyAnalytics, you can use [this email template](MyAnalytics-announcement-template.docx). You can download it, customize it with your company's information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
 
-### MyAnalytics elements
+<!-- THIS IS THE OLD SECTION (WHICH CONTAINS KALYAN'S PROPOSED NEW DESCRIPTIVE TEXT) AS OF 18 JULY.
+THE NEXT SECTION (JUST A TABLE) IS MY PROPOSAL FOR 19 JULY
 
-<!-- Updated for Anu and Sourabh Feb 2019: -->
+### MyAnalytics elements 
 
-After you assign a user license with the MyAnalytics service plan, the new participant will gain access to the following MyAnalytics elements.  
-
-<!--  
-> [!Note]
-> The following timeframes pertain to the March 2019 distribution of MyAnalytics features. 
--->
+After you assign a user license with the MyAnalytics service plan, the new participant will gain access to the following MyAnalytics elements. 
 
  * **MyAnalytics welcome email:** The welcome email orients users to MyAnalytics. 
       * Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted.
       * New users will receive the welcome email approximately four weeks after their license is granted.
-
-<!--
-    > [!Note]
-    > Users will not receive the welcome email outside of their work week. If a user's set work week is Monday to Friday, and the person's welcome email would otherwise arrive on a weekend, its arrival time is delayed to the following Monday. For more details, see [MyAnalytics welcome email](../Use/MyA-Welcome-email.md).
--->
 
  * **MyAnalytics personal dashboard:** The dashboard provides insights into the user's work patterns, and how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration. Users can visit their [personal dashboard](../use/dashboard-2.md) a few days after their license with the service plan is granted.
 
@@ -68,6 +59,19 @@ After you assign a user license with the MyAnalytics service plan, the new parti
  * **Weekly email digest:** The weekly email digest presents suggestions to help users better understand their work patterns and ways to improve them. Users will begin to receive the [email digest](../use/email-digest-2.md) on the Monday of the first week after they receive the welcome email.
 
  * **Inline suggestions:** Inline suggestions in Outlook are brief data and AI-driven notifications that appear in Outlook. Users can see the [inline suggestions](../use/mya-notifications.md) in a day or so after their license with the MyAnalytics service plan is granted.
+-->
+
+### MyAnalytics elements become available 
+
+After you assign a user license with the MyAnalytics service plan, the new participant will gain access to the following MyAnalytics elements. 
+
+| Element | Timeframe of user access | 
+| ------------------- | ------------------------ |
+|  Welcome email  | <ul><li>Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted.</li><li>New users will receive the welcome email approximately four weeks after their license is granted.</li> |
+|  [Personal dashboard](../use/dashboard-2.md)  | A few days after the license with the service plan is granted |
+|  [Insights Outlook add-in](../use/add-in.md)  | About one day after their license with the service plan is granted |
+|  Weekly [email digest](../use/email-digest-2.md)  | On the Monday of the first week after the user receives the welcome email. |
+|  [Inline suggestions](../use/mya-notifications.md)  | About one day after the license with the service plan is granted |
 
 ## Configure MyAnalytics access 
 
