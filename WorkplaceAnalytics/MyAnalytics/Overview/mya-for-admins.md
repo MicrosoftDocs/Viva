@@ -6,7 +6,7 @@ title: MyAnalytics for admins
 description: Overview of MyAnalytics for Office 365 admins
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/16/2019
+ms.date: 07/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

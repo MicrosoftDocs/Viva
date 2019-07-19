@@ -2,12 +2,12 @@
 layout: HubPage
 title: MyAnalytics
 description: Learn more about, set up, and use MyAnalytics
-ms.date: 04/03/2019
+ms.date: 07/19/2019
 ms.topic: hub-page
 localization_priority: normal 
 ms.prod: mya
 ms.author: v-midehm
-author: madehmer
+author: paul9955
 ---
 
 <ul class="cardsY panelContent singlePanelContent">

@@ -2,9 +2,9 @@
 layout: LandingPage
 title: MyAnalytics introduction
 description: MyAnalytics introduction with links to further information 
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/01/2019
+ms.date: 07/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -18,7 +18,7 @@ ms.prod: mya
 
 MyAnalytics provides insights into two of the key factors in personal productivity: how people spend their time and who they spend it with. You and your team can get these benefits after an administrator sets up MyAnalytics within your organization.
 
-* [**Setup**](../myanalytics/setup/configure-myanalytics.md): As an administrator, you can follow the steps in this section to set up MyAnalytics for users in your organization.
+* [**MyAnalytics configuration**](../myanalytics/setup/configure-myanalytics.md): As an administrator, you can use this section to configure MyAnalytics for users in your organization.
 
 * [**Privacy guide**](../myanalytics/overview/Privacy-Guide.md): Learn about the ways MyAnalytics gathers, uses, and protects your data, and how administrators can configure based on company policy.
   
