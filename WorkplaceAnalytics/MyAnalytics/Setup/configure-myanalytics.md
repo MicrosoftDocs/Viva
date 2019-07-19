@@ -98,6 +98,11 @@ You can configure access to MyAnalytics elements for all the users in your organ
    ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
 
 5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
+
+   > [!Note] 
+   > If your organization is a tenant with an E5 plan, users can choose which version of the dashboard to use. If a user has chosen the [original dashboard version](https://msit.delve.office.com/?v=analytics), your de-selection of **Insights dashboard** does _not_ remove dashboard access for that user. Only if they are using the [new version of the dashboard](https://myanalytics.microsoft.com) can you remove that user's dashboard access by deselecting this option.  
+   If your organization has an E3 plan, users have access only to the new version of the dashboard, which means that your selection or deselection of **Insights dashboard** will work as described in step 5. 
+
 6. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
 
 > [!Note] 
@@ -148,8 +153,10 @@ You can set this parameter for one user or for many users:
 PrivacyMode parameter  | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
 Opt-in (This is the default setting)        | <ul><li>Office 365 data is used for aggregated information shown to licensed users.</li><li>Personal dashboard is available.</li><li>User can opt-out.</li></ul>  | <ul><li>Office 365 data is used for aggregated information shown to licensed users.</li><li>Admins can opt-out unlicensed users through the admin PowerShell. </li></ul>  
-Opt-out    | <ul><li>Office 365 data is not used for aggregated information shown to licensed users.</li><li> Personal dashboard is not available.</li><li>User can opt-in through the Feature settings menu.</li></ul>   |  <ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul>
-Excluded   |<ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li><li>Dashboard is available.</li><li>User cannot opt-in through the Feature settings menu.</li></ul>  |<ul><li> Do not specify _Excluded_ for unlicensed users. Instead, specify _Opt-out_.</li></ul>
+Opt-out    | <ul><li>Office 365 data is not used for aggregated information shown to licensed users.</li><li> Personal dashboard is not available.</li><li>User can opt-in through the Feature settings menu.</li></ul>   |  <ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul> |
+
+> [!Important] 
+> The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
 
 > [!Note]  
 > * _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them. 
