@@ -67,7 +67,7 @@ After you assign a user license with the MyAnalytics service plan, the new parti
 
 | Element&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Timeframe of user access | 
 | ------------------- | ------------------------ |
-|  Welcome email  | <ul><li>Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after<br> their license is<br> granted.</li><li>New users will receive the welcome email approximately four weeks after their license is granted.</li> |
+|  Welcome email  | <ul><li>Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted.</li><li>New users will receive the welcome email approximately four weeks after their license is granted.</li> |
 |  [Personal dashboard](../use/dashboard-2.md)  | A few days after the license with the service plan is granted |
 |  [Insights Outlook add-in](../use/add-in.md)  | About one day after their license with the service plan is granted |
 |  [Weekly email digest](../use/email-digest-2.md)  | On the Monday of the first week after the user receives the welcome email |
