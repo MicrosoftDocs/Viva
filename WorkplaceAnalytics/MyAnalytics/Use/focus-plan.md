@@ -27,7 +27,7 @@ You can create your focus plan in the MyAnalytics dashboard or in the Outlook ad
 
 ### Personal dashboard
 
-1. In the header of the **Focus** page of your personal dashboard, select **Try it out**. 
+1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
    ![Focus plan card in digest](../../Images/mya/use/focusplan-intro.png)
 
@@ -37,7 +37,7 @@ You can create your focus plan in the MyAnalytics dashboard or in the Outlook ad
  
 2. On this page, select either **Automatically book time** or **Reminders only**. (Learn more about [Automatic booking of focus time](#automatic-booking-of-focus-time).) If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what times your calendar has open. If you select **Reminders only**, MyAnalytics will send you a [weekly email](#focus-plan-weekly-email) and [inline suggestions](#inline-suggestions-and-other-alerts) in Outlook that remind you to schedule your own focus time. 
 
-2.	Select **Get started**. This enrolls you in your focus plan. MyAnalytics now carries out the option that you chose&mdash;to book focus time or to remind you to book focus time.
+2.	Select **Book focus time now**. This enrolls you in your focus plan. MyAnalytics now carries out the option that you chose&mdash;to book focus time or to remind you to book focus time.
 
 ### Outlook add-in
 
@@ -55,7 +55,7 @@ After your plan has started, you can check your progress and make sure that you 
 
     ![Dashboard report](../../Images/mya/use/focusplan-planahead.png)
   
-An important metric on this page is displayed under **Last week stats**. It shows how many days you had focus time last week. 
+An important metric on this page is displayed under **Last week**. It shows how many days you had focus time last week. 
 
 The **Plan ahead** area helps you to plan focus time for the upcoming days. This area has the following sections: 
 
