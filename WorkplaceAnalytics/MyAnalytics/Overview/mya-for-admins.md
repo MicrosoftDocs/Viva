@@ -42,10 +42,8 @@ None of a user's personal information is shared with their co-workers or manager
 ## Granting access
 
 Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). 
-The timing of access to these elements depends on the plan in place at your organization; for more information, see [MyAnalytics elements become available](../setup/configure-myanalytics.md#myanalytics-elements-become-available). For more information, see [Configure MyAnalytics](../setup/configure-myanalytics.md). 
+Access to these elements depends on the plan in place at your organization; for more information, see [MyAnalytics elements become available](../setup/configure-myanalytics.md#myanalytics-elements-become-available). For more information, see [Configure MyAnalytics](../setup/configure-myanalytics.md). 
 
-
-To learn more about how soon participants can see the various elements, see the [MyAnalytics elements become available](../setup/configure-myanalytics.md#myanalytics-elements-become-available) section.
 
 ## Video: Introduction for admins
 
