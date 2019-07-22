@@ -6,7 +6,7 @@ title: Explore introduction
 description: Describes the analytical Explore cards in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/17/2019
+ms.date: 07/12/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -27,4 +27,4 @@ Explore in Workplace Analytics includes the following set of analytical cards as
 
 ### Analyze and start Solutions
 
-* [**Organizational effectiveness**](../use/org-effectiveness.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
+* [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.

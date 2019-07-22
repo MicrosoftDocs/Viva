@@ -81,8 +81,8 @@
                   href: ~/Use/Explore-Metrics-external-collaboration.md
                 - name: Teams collaboration
                   href: ~/Use/Explore-metrics-teams.md
-                - name: Organizational effectiveness
-                  href: ~/Use/org-effectiveness.md                    
+                - name: Peer analysis
+                  href: ~/Use/peer-analysis.md                    
                 - name: Charts
                   href: ~/Use/Chart-Types.md             
             - name: Queries
@@ -90,7 +90,7 @@
                 - name: Overview
                   href: ~/tutorials/Query-basics.md 
                 - name: Person queries
-                  href: ~/tutorials/Person-queries.md
+                  href: ~/tutorials/Person-queries.md                
                 - name: Meeting queries
                   href: ~/tutorials/Meeting-queries.md                 
                 - name: Group-to-group queries
