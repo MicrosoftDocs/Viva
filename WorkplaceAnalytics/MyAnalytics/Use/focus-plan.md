@@ -6,7 +6,7 @@ title: Focus plan
 description: MyAnalytics focus plan
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/27/2019
+ms.date: 07/22/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
