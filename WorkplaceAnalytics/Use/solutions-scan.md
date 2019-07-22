@@ -73,14 +73,16 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 2.	Select **Increase focus**. This opens the **Solutions > Opportunities > Result** page, which shows details about the _Increase focus_ opportunity:
  
-    ![Increase focus potential](../images/wpa/use/opportunity-page-increase-focus.png)
+    ![Increase focus potential](../images/wpa/use/opportunity-page-increase-focus-2.png)
 
     (The other opportunities, such as _Better meeting effectiveness_, follow this same model of data presentation.)
 
-	Notice the groups that are displayed under **Select a group to analyze**. These groups were identified as potentially benefitting from a plan. If a group has appeared in this list for multiple weeks, a notification to that effect is displayed:
+	Notice the groups that are displayed under **Select a group to analyze**. These groups were identified as potentially benefitting from a plan. If a group has appeared in this list for multiple weeks, a notification to that effect is displayed.
  
+<!--
     ![A group reappears](../images/wpa/use/multiple-weeks.png)
- 
+--> 
+
 3.	Select a group to see its data. This data appears in charts on this page. One of these charts displays data that compares this group’s behavior with that of peer groups, and the other chart shows trend lines for this group, over recent weeks. 
 
     > [!Note] 
