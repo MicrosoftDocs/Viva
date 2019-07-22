@@ -181,9 +181,9 @@
         items:
         - name: Focus
           href: MyAnalytics/Use/focus.md
-          items: 
-            - name: Focus plan
-              href: MyAnalytics/use/focus-plan.md          
+ #         items: 
+ #           - name: Focus plan
+ #             href: MyAnalytics/use/focus-plan.md          
         - name: Wellbeing
           href: MyAnalytics/Use/wellbeing.md
         - name: Network

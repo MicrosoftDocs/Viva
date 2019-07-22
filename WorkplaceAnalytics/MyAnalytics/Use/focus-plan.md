@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Focus plan
 description: MyAnalytics focus plan
 author: paul9955
