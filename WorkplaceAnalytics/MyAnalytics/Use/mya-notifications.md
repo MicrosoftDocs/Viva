@@ -95,5 +95,5 @@ The following are a few of the suggestions you might see in Outlook.
 
 ### If I am opted out, can I opt back in?
 
-Yes; if you opt yourself out, you can opt back in any time to regain access to your personal dashboard.
+Yes; if you opt yourself out, you can opt back in any time to regain access to inline suggestions.
 

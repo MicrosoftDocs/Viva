@@ -176,9 +176,7 @@
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins
-          href: MyAnalytics/overview/privacy-guide.md
-        - name: Disable Insights by MyAnalytics
-          href: MyAnalytics/setup/mya-disable-insights.md       
+          href: MyAnalytics/overview/privacy-guide.md    
     - name: Use MyAnalytics
       items:
       - name: Work patterns
