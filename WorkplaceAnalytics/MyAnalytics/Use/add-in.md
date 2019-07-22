@@ -50,7 +50,7 @@ You'll see Insights in the right panel in Outlook:
 
      * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
 
-       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as  "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
+       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
 
      * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
 
