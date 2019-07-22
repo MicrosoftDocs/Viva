@@ -6,7 +6,7 @@ title: MyAnalytics for admins
 description: Overview of MyAnalytics for Office 365 admins
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/14/2019
+ms.date: 07/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -28,10 +28,12 @@ MyAnalytics can help participants strengthen their work relationships, have more
 
 ## You and your users are in charge
 
-* As the admin, you control the initial configuration of how your users start using MyAnalytics. See [MyAnalytics setup](../setup/mya-setup-checklist.md) for details.
-* Users can opt in or out from the start. See [Can I opt out?](../use/dashboard-2.md#can-i-opt-out-of-myanalytics) for details.
-* Users can turn off email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
-* Users can turn the add-in off. See [To disable the add-in](../setup/mya-disable-insights.md) for details.
+* As the admin, you control the configuration of how your users start using MyAnalytics. See [Configure MyAnalytics](../setup/configure-myanalytics.md) for details.
+* Users can opt in or out from the start. See [Opt out](../use/opt-out-of-mya.md) for details.
+* Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard) for details.
+* Users can opt out of email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
+* Users can remove the Insights add-in. See [Remove the Insights add-in](../use/add-in.md#remove-the-insights-add-in-from-outlook) for details.
+* Users can opt out of inline suggestions. See [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) for details.
 
 ## Data privacy
 
@@ -39,7 +41,9 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). To learn how to set up and configure MyAnalytics, see [MyAnalytics setup](../setup/mya-setup-checklist.md). To learn more about how soon participants can see the various elements, see the [MyAnalytics elements become available](../setup/mya-setup-checklist.md#myanalytics-elements-become-available) section.
+Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). 
+Access to these elements depends on the plan in place at your organization; for more information, see [MyAnalytics elements become available](../setup/configure-myanalytics.md#myanalytics-elements-become-available). For more information, see [Configure MyAnalytics](../setup/configure-myanalytics.md). 
+
 
 ## Video: Introduction for admins
 

@@ -113,7 +113,7 @@ author: madehmer
                         <p></p>
                         <ul>
 <li>
-<a href="~/myanalytics/setup/Mya-setup-checklist.md">Setup</a></li>
+<a href="~/myanalytics/setup/configure-myanalytics.md">Setup</a></li>
 <a href="~/myanalytics/overview/Privacy-Guide.md"><li>Privacy guide</li></a><li>
 <a href="~/myanalytics/use/mya-elements.md">MyAnalytics elements</a> 
 <a href="~/myanalytics/use/mya-adoption/Adopt-myanalytics.md"><li>MyAnalytics adoption</li></a>
