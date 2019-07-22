@@ -29,7 +29,7 @@ MyAnalytics can help participants strengthen their work relationships, have more
 ## You and your users are in charge
 
 * As the admin, you control the configuration of how your users start using MyAnalytics. See [Configure MyAnalytics](../setup/configure-myanalytics.md) for details.
-* Users can opt in or out from the start. See [Opt out](..\use\opt-out-of-mya.md) for details.
+* Users can opt in or out from the start. See [Opt out](../use/opt-out-of-mya.md) for details.
 * Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard) for details.
 * Users can opt out of email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
 * Users can remove the Insights add-in. See [Remove the Insights add-in](../use/add-in.md#remove-the-insights-add-in-from-outlook) for details.

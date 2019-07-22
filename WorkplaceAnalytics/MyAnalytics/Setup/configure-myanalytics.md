@@ -123,7 +123,7 @@ You can configure access to MyAnalytics elements for all the users in your organ
 5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
 
    > [!Note] 
-   > If your organization is a tenant with an E5 plan and your user is using the old dashboard version, your deselection of **Insights dashboard** does not remove dashboard access for that user.
+   > If your organization is a tenant with an E5 plan and your user is using the [old dashboard version](https://msit.delve.office.com/?v=analytics), your deselection of **Insights dashboard** does not remove dashboard access for that user.
 
 <!--
    > [!Note] 
