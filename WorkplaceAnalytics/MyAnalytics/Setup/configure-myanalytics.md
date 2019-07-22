@@ -67,7 +67,7 @@ After you assign a user license with the MyAnalytics service plan, the new parti
 
 | Element&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Timeframe of user access | 
 | ------------------- | ------------------------ |
-|  Welcome email  | <ul><li>Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted.</li><li>New users will receive the welcome email approximately four weeks after their license is granted.</li> |
+|  [Welcome email](../use/mya-welcome-email.md?branch=PAS-HA-MA-MyA-settings)  | <ul><li>For E5 plans: Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted. New users will receive the welcome email approximately four weeks after their license is granted.</li><li>For E3 plans: _To be rolled out soon to E3 users, at the same time as the email digest_</li></ul> |
 |  [Personal dashboard](../use/dashboard-2.md)  | <ul><li>For E5 plans: A few days after the license with the service plan is granted</li><li>For E3 plans: _To be rolled out soon to E3 users_</li></ul> |
 |  [Insights Outlook add-in](../use/add-in.md)  | <ul><li>For both E5 and E3 plans: Available about one day after their license with the service plan is granted</li></ul> |
 |  [Weekly email digest](../use/email-digest-2.md)  | <ul><li>For E5 plans: On the Monday of the first week after the user receives the welcome email</li><li>For E3 plans: _To be rolled out soon to E3 users_</li></ul> |
@@ -80,7 +80,7 @@ After you assign a user license with the MyAnalytics service plan, the new parti
 
 ## Configure MyAnalytics access 
 
-As the Office 365 admin, you have two ways to configure defaults for MyAnalytics. manage the way users in your  organization experience 
+As the Office 365 admin, you have two ways to configure defaults for MyAnalytics.  
 
 <!--
  * The first way is to [configure access at the tenant level](#configure-access-at-the-tenant-level). Do this to set default behaviors&mdash;namely, to turn specific elements of MyAnalytics on or off for your entire organization.
@@ -106,6 +106,9 @@ As the Office 365 admin, you can set a starting point for the MyAnalytics users 
 You can configure access to MyAnalytics elements for all the users in your organization.  
 
 #### Dashboard and weekly email
+
+> [!Note] 
+> This functionality will become available at the end of July 2019.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
@@ -161,11 +164,12 @@ Configure MyAnalytics access for individual users in your organization. At this 
 
 You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
 
-You can set this parameter for one user or for many users:  
+You can set this parameter for one user or for many users: 
+
+ * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user) 
 
  * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
 
- * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)
 
 ### User configuration settings
 

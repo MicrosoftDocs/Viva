@@ -28,8 +28,6 @@
           href: ./overview/plans-environments.md
         - name: Privacy guide for admins
           href: ./overview/privacy-guide.md
-        - name: Disable Insights by MyAnalytics
-          href: ./setup/mya-disable-insights.md
     - name: Use MyAnalytics
       items:
       - name: Work patterns

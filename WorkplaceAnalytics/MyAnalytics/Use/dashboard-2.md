@@ -83,6 +83,6 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 > [!NOTE]
 > It might take up to 24 hours for your saved changes to take effect.
 
-### If I opt out, can I opt back in?
+### If I am opted out, can I opt back in?
 
-Yes, you can opt back in any time to regain access to your personal dashboard.
+Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to your personal dashboard.

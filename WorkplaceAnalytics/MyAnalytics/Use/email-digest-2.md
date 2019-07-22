@@ -54,5 +54,9 @@ If you do not want to receive digest emails from MyAnalytics, you can opt out of
 4. Under **Email digest**, change the setting to **Off**.
 5. Select **Save** to save your changes.
 
+### If I am opted out, can I opt back in?
+
+Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to your personal dashboard.
+
 >[!Note]
 > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. For more information, see [MyAnalytics FAQ](../Overview/MyA-faq.md)

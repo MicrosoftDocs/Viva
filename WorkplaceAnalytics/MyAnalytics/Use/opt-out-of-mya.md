@@ -38,9 +38,9 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out, the fo
 > [!NOTE]
 > It might take up to a week for your saved changes to take effect.
 
-## If I opt out, can I opt back in?
+## If I am opted out, can I opt back in?
 
-Yes, you can opt back in any time to regain access to your personal dashboard.
+Yes, if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to MyAnalytics.
 
 ## Related topics
 
