@@ -116,9 +116,11 @@ If you plan to go on vacation, create a calendar event that includes the days of
 
 ### Opt out
 
-#### Q1. Can I opt out of MyAnalytics?
+#### Q1. Can I opt out of MyAnalytics? And if I do, can I opt back in later?
 
-Yes. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. See the following sections for more information:
+Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want. 
+
+See the following sections for more information:
 
 ##### Opt out of all of MyAnalytics
 

@@ -68,22 +68,38 @@ After you assign a user license with the MyAnalytics service plan, the new parti
 | Element&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Timeframe of user access | 
 | ------------------- | ------------------------ |
 |  Welcome email  | <ul><li>Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted.</li><li>New users will receive the welcome email approximately four weeks after their license is granted.</li> |
-|  [Personal dashboard](../use/dashboard-2.md)  | A few days after the license with the service plan is granted |
-|  [Insights Outlook add-in](../use/add-in.md)  | About one day after their license with the service plan is granted |
-|  [Weekly email digest](../use/email-digest-2.md)  | On the Monday of the first week after the user receives the welcome email |
-|  [Inline suggestions](../use/mya-notifications.md)  | About one day after the license with the service plan is granted |
+|  [Personal dashboard](../use/dashboard-2.md)  | <ul><li>For E5 plans: A few days after the license with the service plan is granted</li><li>For E3 plans: _To be rolled out soon to E3 users_</li></ul> |
+|  [Insights Outlook add-in](../use/add-in.md)  | <ul><li>For both E5 and E3 plans: Available about one day after their license with the service plan is granted</li></ul> |
+|  [Weekly email digest](../use/email-digest-2.md)  | <ul><li>For E5 plans: On the Monday of the first week after the user receives the welcome email</li><li>For E3 plans: _To be rolled out soon to E3 users_</li></ul> |
+|  [Inline suggestions](../use/mya-notifications.md)  | <ul><li>For E5 plans: About one day after the license with the service plan is granted</li><li>For E3 plans: _Not applicable_</li></ul> |
+
+
+> [!Note]  
+> * _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them. 
+> * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want one or more licensed users to be opted _out_ by default, see [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user) and [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users). 
 
 ## Configure MyAnalytics access 
 
-As the Office 365 admin, you have two ways to manage the way users in your  organization experience MyAnalytics. 
+As the Office 365 admin, you have two ways to configure defaults for MyAnalytics. manage the way users in your  organization experience 
 
+<!--
  * The first way is to [configure access at the tenant level](#configure-access-at-the-tenant-level). Do this to set default behaviors&mdash;namely, to turn specific elements of MyAnalytics on or off for your entire organization.
 
  * The second way is to [configure access at the user level](#configure-access-at-the-user-level). This sets default behaviors in MyAnalytics for specific users. 
+-->
+
+
+ * The first way is to [configure access at the tenant level](#configure-access-at-the-tenant-level). You can use these settings to set organization-wide defaults for MyAnalytics elements 
+ * The second way is to [configure access at the user level](#configure-access-at-the-user-level). You can use this to set defaults that affect complete MyAnalytics functionality for particular users. 
+
+
 
 <!-- REMOVED IN FAVOR OF KALYAN'S NEW ORGANIZATION (ABOVE)
 As the Office 365 admin, you can set a starting point for the MyAnalytics users in your organization. You can do this for all users at once, for just some of them, or for individual users. By default, this starting point is "opted in." This means that, by default, users have access to MyAnalytics. You can change this starting point from "opted in" to "opted out"&mdash;either for all of MyAnalytics or for its individual parts&mdash;by completing the steps in the following sections. 
 -->
+
+> [!Note] 
+> When you set the default settings (at either the tenant level or the user level), users can still override your setting. For example, if you keep the dashboard tenant settings as opt in, users can still open the dashboard and then opt themselves out. Similarly, if you opt out users by using user-level settings, those users can choose to opt back in. The one situation in which a user cannot opt in is after you remove their license that contains a MyAnalytics service plan. 
 
 ### Configure access at the tenant level
 
@@ -104,13 +120,14 @@ You can configure access to MyAnalytics elements for all the users in your organ
 5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
 
    > [!Note] 
+   > If your organization is a tenant with an E5 plan and your user is using the old dashboard version, your deselection of **Insights dashboard** does not remove dashboard access for that user.
+
+<!--
+   > [!Note] 
    > If your organization is a tenant with an E5 plan, users can choose which version of the dashboard to use. If a user has chosen the [original dashboard version](https://msit.delve.office.com/?v=analytics), your de-selection of **Insights dashboard** does _not_ remove dashboard access for that user. Only if they are using the [new version of the dashboard](https://myanalytics.microsoft.com) can you remove that user's dashboard access by deselecting this option.  
-   If your organization has an E3 plan, users have access only to the new version of the dashboard, which means that your selection or deselection of **Insights dashboard** will work as described in step 5. 
+   If your organization has an E3 plan, users have access only to the new version of the dashboard, which means that your selection or deselection of **Insights dashboard** will work as described in step 5. -->
 
 6. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
-
-> [!Note] 
-> If you've set the starting point to "opted in," users can still choose to opt themselves out. Similarly, if you've set the starting point to "opted out," users can choose to use MyAnalytics by opting themselves in. The one situation in which a user cannot opt in is after you remove their license that contains a MyAnalytics service plan. (Unlicensed users cannot participate in MyAnalytics.) 
 
 #### Insights Outlook add-in
 
@@ -118,8 +135,6 @@ You can disable the Insights Outlook add-in for your entire organization by usin
 
 **To disable the add-in**
 
-> [!Note]
-> You must be an Office 365 admin to perform these steps.
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 
@@ -130,7 +145,7 @@ You can disable the Insights Outlook add-in for your entire organization by usin
     ![New admin center](../../images/mya/setup/the-new-admin-center.png)
 -->
 
-2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center.          
+2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center. (If **Exchange** is not visible, first select **Show all** to see more admin centers and then select **Exchange**.)     
  
 3. In the dashboard, select **add-ins**.
   
@@ -142,7 +157,7 @@ This disables the add-in for all licensed users in your organization.
 
 ### Configure access at the user level
 
-Configure MyAnalytics access for individual users in your organization. At this level, you can opt-out the user completely, which would turn off all MyAnalytics functionality for that user. The user can choose to opt back in, however. To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. 
+Configure MyAnalytics access for individual users in your organization. At this level, you can opt-out the user completely, which would turn off all MyAnalytics functionality for that user. The user can choose to opt back in, however. <!--To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. -->
 
 You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
 
@@ -162,9 +177,34 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 > [!Important] 
 > The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
 
-> [!Note]  
-> * _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them. 
-> * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want a licensed user to be opted _out_ by default, which would give them the choice to opt-in, change the value of the PrivacyMode parameter for that user to "Opt-out."
+### Set MyAnalytics access for one user
+
+Configure MyAnalytics access settings for a user with the following PowerShell cmdlet:
+
+```powershell
+Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
+```
+
+Parameter   |   Required   |   Description   | Default value
+----------  |  ----------  |  -------------- | -------------
+Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD).   |   -
+PrivacyMode   |   Yes   | <ul><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
+
+> [!Important] 
+> The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
+  
+### Determine MyAnalytics access for one user
+
+To determine the MyAnalytics access (the value of PrivacyMode) for one user, use the following cmdlet:
+
+```powershell
+Get-UserAnalyticsConfig –Identity <string>
+```
+
+Parameter   |   Required   |    Description    |   Default value
+----------- | ------------ |  ---------------  | ---------------
+Identity    |  Yes         |    User ID for the current user as stored in AAD  | - 
+
 
 ### Set MyAnalytics access for multiple users
 
@@ -204,30 +244,6 @@ This PowerShell command block does the following:
  * Sets the specified privacy mode for each user.
  * Creates a .csv file with all the users that were processed and shows their status.
 
-### Set MyAnalytics access for one user
-
-Configure MyAnalytics access settings for a user with the following PowerShell cmdlet:
-
-```powershell
-Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
-```
-
-Parameter   |   Required   |   Description   | Default value
-----------  |  ----------  |  -------------- | -------------
-Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD).   |   -
-PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboard and the Insights Outlook add-in.</li><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
-  
-### Determine MyAnalytics access for one user
-
-To determine the MyAnalytics access (the value of PrivacyMode) for one user, use the following cmdlet:
-
-```powershell
-Get-UserAnalyticsConfig –Identity <string>
-```
-
-Parameter   |   Required   |    Description    |   Default value
------------ | ------------ |  ---------------  | ---------------
-Identity    |  Yes         |    User ID for the current user as stored in AAD  | - 
 
 
 <!--
