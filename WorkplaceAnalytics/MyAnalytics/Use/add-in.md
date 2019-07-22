@@ -30,21 +30,25 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**.
 
-You'll see Insights in the right panel in Outlook:
+You'll see Insights in the right panel in Outlook: 
 
 ![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 
-## Privacy by design
+## Privacy by design 
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
-## To turn off the add-in
+## Opt out of the Insights add-in
 
-You can turn off the add-in by opting out of MyAnalytics. See [Can I opt out of MyAnalytics?](dashboard-2.md#can-i-opt-out-of-myanalytics) for how-to steps.
+The way to opt out of the Insights add-in is to opt out of MyAnalytics. For instructions, see [Opt out of MyAnalytics](opt-out-of-mya.md).
 
-## To remove Insights from Outlook
+<!-- CONSIDER REMOVING THE FOLLOWING-->
+
+## Remove the Insights add-in from Outlook
+
+Follow these steps to remove the Insights add-in from the Outlook ribbon.
 
 1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
 
@@ -54,3 +58,7 @@ You can turn off the add-in by opting out of MyAnalytics. See [Can I opt out of 
 3. In **Admin-managed add-ins**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
 
     ![Remove Insights](../../Images/mya/use/remove-insights.png)
+
+
+
+
