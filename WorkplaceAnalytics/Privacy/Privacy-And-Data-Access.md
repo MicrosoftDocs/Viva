@@ -75,7 +75,7 @@ For more information about organizational data, see [Prepare organizational data
 
 ## Data access after license expiration
 
-If your Workplace Analytics licenses expire, you have a 90-day period to download data, in the form of query results. After this 90-day period has passed, you will no longer have access to the Workplace Analytics site. 
+If your Workplace Analytics licenses expire, you have until the end of your grace period to download data, in the form of query results. After this period has passed, you will no longer have access to the Workplace Analytics site. (The duration of the grace period varies between countries and plans; typically it is either 30 days for direct purchases or 90 days for volume-licensing purchases.) 
 
 **To download query results**
 

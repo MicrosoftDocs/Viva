@@ -78,21 +78,27 @@
                 - name: Internal networks
                   href: ~/Use/Explore-Metrics-internal-networks.md
                 - name: External collaboration
-                  href: ~/Use/Explore-Metrics-external-collaboration.md 
+                  href: ~/Use/Explore-Metrics-external-collaboration.md
+                - name: Teams collaboration
+                  href: ~/Use/Explore-metrics-teams.md
+                - name: Peer analysis
+                  href: ~/Use/peer-analysis.md                    
                 - name: Charts
-                  href: ~/Use/Chart-Types.md
+                  href: ~/Use/Chart-Types.md             
             - name: Queries
               items:
                 - name: Overview
                   href: ~/tutorials/Query-basics.md 
                 - name: Person queries
-                  href: ~/tutorials/Person-queries.md
+                  href: ~/tutorials/Person-queries.md                
                 - name: Meeting queries
                   href: ~/tutorials/Meeting-queries.md                 
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md                      
+                  href: ~/tutorials/Person-to-group-queries.md 
+                - name: Queries with CRM data
+                  href: ~/tutorials/crm-queries.md                                 
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md                  
                 - name: Customize a metric
@@ -168,13 +174,11 @@
         - name: Introduction
           href: MyAnalytics/overview/mya-for-admins.md
         - name: MyAnalytics setup
-          href: MyAnalytics/setup/mya-setup-checklist.md
+          href: MyAnalytics/setup/configure-myanalytics.md
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins
-          href: MyAnalytics/overview/privacy-guide.md
-        - name: Disable Insights by MyAnalytics
-          href: MyAnalytics/setup/mya-disable-insights.md       
+          href: MyAnalytics/overview/privacy-guide.md    
     - name: Use MyAnalytics
       items:
       - name: Work patterns

@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics Individual Adoption --Sustain change
-description: MyAnalytics Individual Adoption by Kate Nowak --Sustain change section
+title: MyAnalytics Individual Adoption - Sustain change
+description: How to sustain change after collaboration goals are met by using MyAnalytics
 author: paul9955
 ms.author: v-pascha
 ms.date: 02/21/2019
@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-# Sustain your change
+# Sustain change
 
 <!--NOTE THAT this content becomes top level content-->
 
