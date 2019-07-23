@@ -40,6 +40,9 @@ You'll see Insights in the right panel in Outlook:
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
+<!-- PER PETERB 23 JULY 2019: DO NOT PUBLISH THIS. 
+IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH. 
+
 ## To add tasks to your focus time
 
 1.	In Outlook, select **Insights**.
@@ -56,6 +59,8 @@ You'll see Insights in the right panel in Outlook:
 
        Select **Add** to add this task to the already scheduled focus time block on your calendar.  
      * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** panel.
+
+-->
 
 ## To turn off the add-in
 

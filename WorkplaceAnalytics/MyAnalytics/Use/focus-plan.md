@@ -7,7 +7,7 @@ title: Focus plan
 description: MyAnalytics focus plan
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/22/2019
+ms.date: 07/23/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -96,7 +96,7 @@ You can opt in and opt out of the focus plan as many times as you want.
 
  * Select **Plan configuration**:
 
-    ![Plan configuration](../../Images/mya/use/plan-config.png)
+    ![Plan configuration](../../Images/mya/use/plan-config-80.png)
  
     This opens the **Configurations** page and displays the **Plan configuration** card, on which you can leave the plan or change your preferences.
 
