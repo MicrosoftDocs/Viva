@@ -22,7 +22,7 @@ The Meeting preparation card shows you a list of your upcoming meetings and lets
 
 ### To view and use the meeting preparation card
 
-1.	On the **Home** ribbon, select the **Insights** icon. If the **Insights** panel isn’t already open, it opens now. 
+1.	On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn’t already open, it opens now. 
 
 2.	On the **Insights** panel, locate the **Prepare for your meetings** card: 
  
@@ -52,7 +52,11 @@ _This card shows the **Attachments** section in its expanded state, which lets y
 ## Recommendations
 
 The Meeting preparation card can help increase the quality of your meetings in the following ways: 
-1.	**Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven’t heard from them. 
-2.	**Agendas often make a meeting run smoother**. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. 
-3.	**Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one. 
-4.	**Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time. 
+
+1. **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven’t heard from them. 
+
+2. **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. 
+
+3. **Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one. 
+
+4. **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time. 
