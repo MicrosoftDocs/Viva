@@ -6,7 +6,7 @@ title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/16/2019
+ms.date: 07/23/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -24,9 +24,9 @@ With these queries, you can:
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
-### Query-data time limit
+### Time limit for querying data 
 
-The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_, which means that with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month.  
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_, which means that&mdash;after you have 27 months of data&mdash;with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month.  
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit. 
 

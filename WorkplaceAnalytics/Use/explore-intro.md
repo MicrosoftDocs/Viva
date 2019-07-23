@@ -29,6 +29,6 @@ Explore in Workplace Analytics includes the following set of analytical cards as
 
 * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 
-### Explore-data time limit
+### Time limit for Explore data
 
-The historical data that populates the various **Explore** pages is time limited: These charts reflect data that is no older than 27 months. This 27-month period is a _rolling window_, which means that with each month that passes, the 27-month limit of data that support the **Explore** pages advances by one month. 
+The historical data that populates the various **Explore** pages is time limited: These charts reflect data that is no older than 27 months. This 27-month period is a _rolling window_, which means that&mdash;after you have 27 months of data&mdash;with each month that passes, the 27-month limit of data that support the **Explore** pages advances by one month. 
