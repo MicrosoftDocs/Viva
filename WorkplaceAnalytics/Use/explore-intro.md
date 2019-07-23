@@ -6,7 +6,7 @@ title: Explore introduction
 description: Describes the analytical Explore cards in Workplace Analytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/16/2019
+ms.date: 07/23/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
