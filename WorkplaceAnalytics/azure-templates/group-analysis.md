@@ -7,7 +7,7 @@ title: Group Analysis Azure Template for Workplace Analytics
 description: Learn about the Group Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 07/18/2019
+ms.date: 07/23/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -15,7 +15,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Workplace Analytics Group Analysis Azure Template
+# Group Analysis Azure Template for Workplace Analytics
 
 _These templates are only available as part of a Microsoft service engagement._
 
@@ -43,7 +43,7 @@ After you upload a dataset, you can use the template tools to view data for the 
 2. Select **Add New Analysis**.
 3. In **Configure New Analysis**, type a name for the **Dataset Info**.
 4. In **Specify Group to compare**, select the filters for the group that you want to evaluate.
-5. In **Choose Group name**, type a name for the group you want to evaluate.
+5. In **Choose Group name**, type a name for the group that you want to evaluate.
 6. In **Specify KPIs to compare the group on**, select all the metrics that you want to compare between the evaluated group and the control group.
 7. In **Choose confounding attributes**, select the attributes that define the evaluated group and the control group and that the two groups have in common. Note these must be different than the filter or filters selected in the **Specify Group to compare** section.
 8. Select **Run Analysis**.
@@ -54,17 +54,19 @@ After you upload a dataset, you can use the template tools to view data for the 
 
 You can use the group analysis to view the key performance indicators (KPIs) between the defined group you chose to analyze and the control group you're comparing it with. The KPIs help distinguish the differences between the two groups.
 
-The Match Verification helps you confirm that you have sufficient overlap of confounding attributes between the evaluated group and the control group. You must have sufficient overlap between the two groups to get good data results. If there's no overlap, that means you've already identified one of the confounding attributes that distinguishes the differences between the two groups and you need to go back and choose different filters or confounding attributes for helpful analysis.
+The Match Verification helps you determine if the matching process selected an appropriate control group, which is necessary to get good results. To generate this control group, you must have enough overlap of confounding attributes between the evaluated group and the control group. If there's no overlap, then you've already identified a confounding attribute that distinguishes the difference between the two groups. You need to go back and choose different filters or confounding attributes to get more useful analysis.
 
-The following is an example of good KPI overlap between the two groups. Before any matching occurs, the Propensity scores are the distributions between the two groups, which are the result of comparing the confounding attributes to show how likely a person is to be in the evaluated group based on those attributes. You can hover the cursor over the data in the graph to view the details.
+The following example shows good KPI overlap between the two groups with a good propensity score for Group A (evaluated group). You can view the score details by hovering your cursor over the graph data. The **propensity score** is the probability that a person will be in the group you chose to analyze based on that person’s confounding attributes. It’s a simplified way of verifying that all confounding attributes are appropriately controlled in the analysis.
+
 
   ![Good KPI overlap for group analysis](./images/group-kpi-overlap.png)
+Before any matching occurs, you need to justify the matching process by comparing the propensity score distributions of the two groups to confirm sufficient overlap between the two. Because the overlap is sufficient to justify the matching process in this example, you’d then want to verify that the subset of people selected to be in the control group (Other) have a similar propensity score distribution as the evaluated group (Group A). When the distributions are similar, you can be more confident that the group analysis and sensitivity results are justified.
 
 On the Group Analysis page, you can see the Absolute and Standardized KPI Differences between the two groups. This gives you an overall picture of what the important differences are between the evaluated and control groups, as shown in the following graphic.
 
   ![Absolute and Standardized KPI Differences](./images/group-analysis-charts.png)
 
-The analysis results are in bar graphs with a **Cohen Rank Color Legend** that defines how big of an affect the differences are between the two groups. The data shows the Absolute KPI Difference, which is the absolute differences between the two groups. The Standardized KPI Difference shows how important the differences are based on their size.
+The analysis results are in bar graphs with a **Cohen Rank Color Legend** that defines how big of an affect the differences are between the two groups. The data shows the **Absolute KPI Difference**, which is the absolute differences between the two groups. The **Standardized KPI Difference** is the Absolute KPI Difference divided by its standard deviation and indicates how important the differences are.
 
 ## To view analysis
 
