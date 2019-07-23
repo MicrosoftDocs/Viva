@@ -12,7 +12,9 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-# Meeting preparation card
+<!-- For now, include this content in the add-in.md topic -->
+
+## Meeting preparation card
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 E3, Office 365 E1, Office 365 Nonprofit E5, MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Business Premium, and Business Essentials.**_
 
@@ -20,7 +22,7 @@ Meeting are vital for healthy collaboration. Better meeting practices can improv
 
 The Meeting preparation card shows you a list of your upcoming meetings and lets you evaluate if your meeting is ready to go. 
 
-### To view and use the meeting preparation card
+#### To view and use the meeting preparation card
 
 1.	On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn’t already open, it opens now. 
 
@@ -49,7 +51,7 @@ _This card shows the **Attachments** section in its expanded state, which lets y
 
 ![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
  
-## Recommendations
+### Recommendations
 
 The Meeting preparation card can help increase the quality of your meetings in the following ways: 
 

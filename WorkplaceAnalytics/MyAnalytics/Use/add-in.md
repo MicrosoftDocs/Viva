@@ -36,6 +36,8 @@ You'll see Insights in the right panel in Outlook:
 
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 
+[!INCLUDE [Meeting preparation](meeting-prep-card.md)]
+
 ## Privacy by design 
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
