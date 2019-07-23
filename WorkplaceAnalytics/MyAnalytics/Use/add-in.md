@@ -6,7 +6,7 @@ title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/14/2019
+ms.date: 07/22/2019
 ms.topic: article
 localization_priority: priority 
 ms.prod: mya
@@ -40,6 +40,28 @@ You'll see Insights in the right panel in Outlook:
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
+<!-- PER PETERB 23 JULY 2019: DO NOT PUBLISH THIS. 
+IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH. 
+
+## To add tasks to your focus time
+
+1.	In Outlook, select **Insights**.
+
+2.	In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
+
+3.	On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
+
+     * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
+
+       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
+
+     * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
+
+       Select **Add** to add this task to the already scheduled focus time block on your calendar.  
+     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** panel.
+
+-->
+
 ## Opt out of the Insights add-in
 
 The way to opt out of the Insights add-in is to opt out of MyAnalytics. For instructions, see [Opt out of MyAnalytics](opt-out-of-mya.md).
@@ -58,7 +80,4 @@ Follow these steps to remove the Insights add-in from the Outlook ribbon.
 3. In **Admin-managed add-ins**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
 
     ![Remove Insights](../../Images/mya/use/remove-insights.png)
-
-
-
 
