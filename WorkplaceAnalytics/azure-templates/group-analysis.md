@@ -74,15 +74,15 @@ The analysis results are in bar graphs with a **Cohen Rank Color Legend** that d
 2. Select the name of the analysis that you want to view.
 3. In **Match Verification**, compare the data in the box plots for **Before Match** and **After Match**.
 
-   * **Before Match**: Before any matching occurs, the **Propensity scores** are the distributions between the two groups, which are the result of comparing the confounding attributes to show how likely a person is to be in the evaluated group based on those attributes. You can hover the cursor over the data in the graph to view the details.
-   * **After Match**: After the matching procedure occurs, this shows how well aligned the distributions are between the two groups, which helps you decide if the match worked and the results will be helpful.
+   * **Before Match**: Before any matching occurs, the **Propensity scores** are the distributions between the two groups, which are the result of comparing the confounding attributes to show how likely a person is to be in the evaluated group based on those attributes. Hover the cursor over the data in the graph to view the details.
+   * **After Match**: After the matching process occurs, this shows how well aligned the distributions are between the two groups, which helps you decide if the match worked and the results will be useful.
 
 4. In the **Group Analysis** charts, the **Cohen Rank Color Legend** defines how big of an affect the differences are between the two groups.
 
    * The **Absolute KPI Difference** shows the absolute differences between the two groups.
-   * The **Standardized KPI Difference** shows how important the differences are based on their size.
+   * The **Standardized KPI Difference** shows the relative importance of the differences when normalized to their standard deviations.
 
-5. In the **Sensitivity** chart, shows the least sensitive to unobserved biases in a bar graph with a **Cohen Rank Color Legend** as well. This shows a subset of the most sensitive KPIs based on sensitivity analysis of unobserved biases found in the standardized KPIs, as shown in the following graphic.
+   The **Sensitivity** chart shows the least sensitive KPIs to unobserved biases in your data and analysis in a bar graph with a **Cohen Rank Color Legend**. As shown in the following graphic, this subset of KPIs represents some of the strongest indicators of the differences between the two groups.
 
     ![Sensitivity group analysis chart](./images/group-analysis-sensitivity.png)
 
