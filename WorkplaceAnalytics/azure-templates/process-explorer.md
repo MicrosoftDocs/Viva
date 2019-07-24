@@ -58,16 +58,21 @@ After you categorize a good sample of meetings into the specified categories, yo
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
    * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * Use **Filter Meetings** to filter by analyst and/or model, and by one or more categories, such as budget, as shown in the following graphic.
-   * You can also adjust the probability range to filter the word cloud and meeting list.
+   * **Max Meetings to Show** to set the maximum number of meetings to include in the list or show in the word cloud.
+   * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and meeting list by.
+
+4. In **Query Builder** > **Filter Meetings**, you can filter the meetings shown in the list with the following options.
+
+   * **Filter by Sources** to select the analyst and/or the model to filter the meetings by those categorized manually by the analyst or those categorized automatically by the model.
+   * **Filter by Categories** to select one or more categories to filter the meetings by, such as budget, as shown in the following graphic.
 
      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
-4. Select **Run query**.
-5. After the data is queried, you can:
+5. Select **Run query**.
+6. After the data is queried, you can:
 
    * Use **Add a New Category** to add any additional categories needed for grouping the uncategorized meetings into.
-   * Select a category, select the check box next to a good sample of related meetings, and then select **Apply** to add them to that category. This will help train the system for auto-categorization of the whole dataset.
+   * Select a category, select the check box next to a good sample of related meetings, and then select **Apply** to add them to that category. This will help the model train the system for auto-categorization of the whole dataset.
 
       ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
 
@@ -76,13 +81,13 @@ After you categorize a good sample of meetings into the specified categories, yo
       ![Auto-categorize the dataset](./images/pexp-refine.png)
 
    > [!Note]
-   > After you use Auto-Categorize Full Dataset on a dataset that’s source is a .csv file, the analysis changes to read-only and you cannot add new or change categories or re-categorize any of the meeting data in this dataset for this analysis. If you want to change the categories or how meetings are categorized, you can use Refine Categorization or just create new analysis by repeating these steps. 
+   > After you use **Auto-Categorize Full Dataset** on a dataset that’s source is a .csv file, the analysis changes to read-only and you cannot add new or change categories or re-categorize any of the meeting data in this dataset for this analysis. If you want to change the categories or how meetings are categorized, you can use **Refine Categorization** or just create new analysis by repeating these steps.
 
-6. You can then select **Refine Categorization** to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+7. If you want to add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat these steps to add or change the categories.
 
 ## Email activity analysis
 
-You can only analyze email activity when the data source is blob storage and after you have categorized a good sample of meeting activity into the categories you want to analyze.
+You can only analyze email activity when the data source is blob (cloud) storage and after you have categorized a good sample of meeting activity into the categories you want to analyze.
 
 ## Related topics
 
