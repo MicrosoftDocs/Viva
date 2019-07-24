@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
-title: Meeting preparation card in yAnalytics
+title: Meeting preparation card in MyAnalytics
 description: Describes how the Meeting prep card looks and works 
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/23/2019
+ms.date: 07/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -14,13 +14,13 @@ ms.prod: mya
 
 <!-- For now, include this content in the add-in.md topic -->
 
-## Meeting preparation card
+## Meeting preparation 
 
 _**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 E3, Office 365 E1, Office 365 Nonprofit E5, MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Business Premium, and Business Essentials.**_
 
 Meeting are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](https://opdhsblobprod03.blob.core.windows.net/contents/c061aa4c5f284dcfb016c4d96b230182/95fb77fe28fe39b17203a7456d0dd375?sv=2015-04-05&sr=b&sig=o8cKngRwoHzQtgoIV%2Blbt6PfYaPkhxOrGNY3pj94AsI%3D&st=2019-07-22T16%3A46%3A11Z&se=2019-07-23T16%3A56%3A11Z&sp=r).
 
-The Meeting preparation card shows you a list of your upcoming meetings and lets you evaluate if your meeting is ready to go. 
+The meeting preparation card shows you a list of your upcoming meetings and lets you evaluate if your meeting is ready to go. 
 
 #### To view and use the meeting preparation card
 
