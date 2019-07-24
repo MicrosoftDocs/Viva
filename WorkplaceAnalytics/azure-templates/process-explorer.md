@@ -24,13 +24,13 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob (cloud) storage location for meeting and email activity.
 
-After you upload a dataset, you can use the word cloud help you decide what categories to add for analysis by viewing words in the meeting activity. You can select category names or phrases from the word cloud to add for analysis.
+After you upload a dataset, you can use the word cloud to help you decide what categories to add for analysis by viewing words found in the meeting activity. You can select category names or phrases from the word cloud to view those meetings and then categorize them.
 
 After you categorize a good sample of meetings into the specified categories, you can:
 
-* Select to **Auto-Categorize Full Dataset** based on your sample categorization.
 * View meeting data based on those categories with visual charts and lists, as shown in the following graphic.
-* Use the **Refine Categorization** option to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
+* Select to **Auto-Categorize Full Dataset** based on the sample meeting categorizations already done by you, as the analyst.
+* Use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analysis.
 
 ![Process Explorer graphical analysis](./images/pexp-refine.png)
 
@@ -44,7 +44,12 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 4. Type a dataset name, locate and select the .csv file or blob storage location, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
 5. When prompted, select **OK**. The upload will take a few minutes to complete.
-6. After the upload succeeds, the list will include the new dataset.
+6. Your new dataset is listed in the table with the following information and actions.
+
+   * When the **Status** changes to a green check mark, you can then select it to view existing categorizations or add a new categorization to analyze the data with.
+   * Select the **Job Details** (i) icon next to **Status** to view the job details.
+   * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
+   * Select the **Delete Dataset** (trashcan) icon to delete the dataset from the list.
 
 ## To categorize meetings for analysis
 
@@ -89,17 +94,15 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 ## Email activity analysis
 
-You can only analyze email activity when the data source is blob (cloud) storage and after you have categorized a good sample of meeting activity into the categories you want to analyze.
+By using blob storage as the data source, you can get more complete analysis based on all meeting and email activity related to the selected process categories. You can only analyze email activity when the data source is blob (cloud) storage and after you have categorized a good sample of meeting and email activity into the categories you want to analyze.
 
 ## To categorize email for analysis
 
 1. Before you categorize the full dataset that includes email, which could take a lot of time depending on the size of the dataset, use the query builder to filter meetings to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
-
-2. After you categorize a good sample of related meetings for all the categories that you want to evaluate, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all email in the whole dataset based on the sample categorizations.
-
+2. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all email in the whole dataset based on the sample categorizations.
 3. If you want to add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis).
 
-After you auto-categorize the full dataset, you'll see email activity included in the data analysis. The following graphic shows analysis that includes email activity.
+After you auto-categorize the full dataset, you'll see email activity included in the data analysis. The following graphic shows analysis with email activity.
 
    ![Email activity included in the analysis](./images/pexp-email-analysis.png)
 
