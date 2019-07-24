@@ -113,20 +113,10 @@ You can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Of
 
 ## GDPR Compliance
 
-As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics:
+As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. For example, MyAnalytics supports the following: 
 
-1. **Secure and protect your personal data**. All MyAnalytics data is stored in your Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
-    * Microsoft will not mine customer data in Exchange Online for advertising.
-    * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
-    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
+ * **Secure and protect personal data**. Because all MyAnalytics data is stored in your Exchange Online mailbox, MyAnalytics meets this security obligation by virtue of Exchange Online also meeting the obligation. 
 
-2. **Notify you in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Office 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+ * **Requests to export, delete, or restrict processing personal data**. Microsoft supports data subject requests, such as requests for export of or deletion of data. 
 
-3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**.
-    Microsoft supports your need to honor data subject requests in the following ways:
-    * Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR). Separately, you can also take screenshots of your MyAnalytics dashboards.
-    * Request to restrict processing:
-      * Use PowerShell to opt employees out of MyAnalytics 
-      * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com) and then remove the employee's data through the User Management Portal.
-
-To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
+For more information, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
