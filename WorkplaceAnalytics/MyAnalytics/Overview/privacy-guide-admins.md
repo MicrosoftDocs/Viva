@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# MyAnalytics privacy guide
+# Privacy guide for MyAnalytics admins
 
 By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
