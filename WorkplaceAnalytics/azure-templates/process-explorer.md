@@ -22,7 +22,7 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time.
 
-You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
+You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob (cloud) storage location for meeting and email activity.
 
 After you upload a dataset, you can use the word cloud help you decide what categories to add for analysis by viewing words in the meeting activity. You can select category names or phrases from the word cloud to add for analysis.
 
@@ -38,7 +38,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
 2. Select **Add New Dataset** (top right).
-3. For **Select Dataset Type**, select either a .csv file to upload or a blob storage location, and then select **Next**. You can use a .csv file to upload meeting data or if you want to upload email and meeting data, use the blob storage option.
+3. For **Select Dataset Type**, select either a .csv file to upload or a blob storage location, and then select **Next**. You can use a .csv file to upload meeting data or if you want to analyze email and meeting data, use the blob storage option.
 
    ![Select a dataset type](./images/process-explorer.png)
 
@@ -49,7 +49,11 @@ After you categorize a good sample of meetings into the specified categories, yo
 ## To categorize meetings for analysis
 
 1. On the **Process Explorer** page, select the dataset name from the list.
-2. For new datasets, you're prompted to enter a new categorization and set the probability threshold for the first category. The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
+2. What you do next depends on the dataset.
+
+   * **For existing datasets**, select **Add New Categorization**, and then enter a title and probability threshold, same as with new datasets.
+   * **For new datasets**, you're prompted to enter a categorization title and the probability threshold for the categorization. The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
+
 3. In **Query Builder** > **Discover Topics**, you can select one or more keywords from the Word cloud or type them, separated by commas, in one of the applicable **Keyword** boxes to categorize the data you want to analyze, and then select **Run query**.
 
      ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
@@ -74,14 +78,14 @@ After you categorize a good sample of meetings into the specified categories, yo
 
       ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
 
-   * After you categorize a good sample of related meetings for all the categories that you want to evaluate, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings in the whole dataset based on the sample categorizations.
+   * After you categorize a good sample of related meetings for all the categories you want to evaluate, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings in the whole dataset based on the sample categorizations.
 
       ![Auto-categorize the dataset](./images/pexp-refine.png)
 
    > [!Note]
    > After you use **Auto-Categorize Full Dataset** on a dataset that’s source is a .csv file, the analysis changes to read-only and you cannot add new or change categories or re-categorize any of the meeting data in this dataset for this analysis. If you want to change the categories or how meetings are categorized, you can use **Refine Categorization** or just create new analysis by repeating these steps.
 
-6. If you want to add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat these steps to add or change the categories.
+6. If you want to add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add or change the categories.
 
 ## Email activity analysis
 
