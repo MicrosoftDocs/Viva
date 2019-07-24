@@ -83,9 +83,13 @@ After you categorize a good sample of meetings into the specified categories, yo
 
       ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
 
+   * Use **Add a New Category** to add any additional categories needed for grouping the uncategorized meetings into.
+   * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
    * After you categorize a good sample of related meetings for all the categories you want to evaluate, you can select **Auto-Categorize Full Dataset** for .csv datasets, or **Auto-Categorize Meetings** for blob storage datasets, and the template will automatically assign a category to all meetings in the whole dataset based on the sample categorizations.
 
-      ![Auto-categorize the dataset](./images/pexp-refine.png)
+   ![Auto-categorize meetings](./images/pexp-meeting-categorize.png)
+
+   ![Auto-categorize full dataset](./images/pexp-refine.png)
 
    > [!Note]
    > After you auto-categorize a dataset that’s source is a .csv file, the analysis changes to read-only and you cannot add new or change categories or re-categorize any of the meeting data in this dataset for this categorization.
