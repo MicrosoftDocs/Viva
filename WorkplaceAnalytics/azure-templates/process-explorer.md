@@ -7,7 +7,7 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 07/18/2019
+ms.date: 07/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -32,7 +32,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 * View meeting data based on those categories with visual charts and lists, as shown in the following graphic.
 * Use the **Refine Categorization** option to create a copy of the selected analysis and add one or more new categories for more in-depth analysis focused on a subset of the data.
 
-   ![Process Explorer graphical analysis](./images/pexp-refine.png)
+![Process Explorer graphical analysis](./images/pexp-refine.png)
 
 ## To add a new dataset
 
