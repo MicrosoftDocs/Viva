@@ -6,7 +6,7 @@ title: MyAnalytics plans and environments
 description: MyAnalytics supported plans and environment requirements
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/09/2019
+ms.date: 07/25/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
