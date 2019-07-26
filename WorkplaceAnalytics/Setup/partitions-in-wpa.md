@@ -127,7 +127,7 @@ Partitions depend on organizational data in two ways:
  * Partitions can depend on organizational data columns. As described in step 5 of [To create a partition](#to-create-a-partition), you can define a partition by filtering by organizational data columns. For example, you can define a partition by filtering on an organizational data column called _Country_.
  * As described in step 7 of [To create a partition](#to-create-a-partition), organizational-data attributes can be configured to be included in the partition for analysts to use.
 
-Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), [subsequently uploads new organizational data](upload-organizational-data.md). In step 9 of [organizational-data upload](upload-organizational-data-1st.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
+Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), uploads new data in a [subsequent upload](upload-organizational-data.md). In step 9 of [upload organizational data](upload-organizational-data.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
 
 Choosing the **Append** option does not affect partitions, regardless of the structure of the new data. 
 
