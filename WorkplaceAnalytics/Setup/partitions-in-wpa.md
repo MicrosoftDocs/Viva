@@ -105,39 +105,48 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
     ![Select visibility](../images/wpa/setup/select-visibility.png)
 
-## How can I start using partitions?
-
-Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com). 
-
-## Partitions and organizational (HR) data
-
-Partitions depend on HR data in two ways: 
-
- * Partitions depend on the columns of data that are uploaded because these columns translate into HR attributes and, as described in step 5 of [To create a partition](#to-create-a-partition), you can define a partition by filtering by attribute. For example, you can define a partition with the column _Country_. 
- * As described in step 7 of [To create a partition](#to-create-a-partition), HR-data columns can be configured as attributes to include in the partition for analysts to use. 
-
-Because of these dependencies, existing partitions can be affected when admins upload new HR data. In step 9 of [HR-data upload](upload-organizational-data.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
-
-Choosing the **Append** option does not affect partitions, regardless of the structure of the new data. 
-
-However, the admin can select the **Replace all existing organizational data** option, and the HR data that they upload could have a new data schema. For example, the uploaded .csv file might omit the _Country_ column, which means that its data omits the _Country_ attribute. In a case such as this, the definitions of existing partitions that depend on the _Country_ attribute are violated. 
-
-Because of this possibliity, during HR data upload (between the mapping step and the validation step), Workplace Analytics checks for partition schema violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
-
-![Partition violation](../images/wpa/setup/partition-violation.png)
-
-If this happens, the admin cannot proceed with the current data upload. The admin has these choices:
-
- * Start over, and attempt HR-data upload with data that has a different schema.
- * [Delete the affected partition](#to-delete-a-partition) (or partitions) and then try again to upload the .csv file that caused the schema violation. 
-   
-   > [!Note] 
-   > Schema errors can occur only in user-created partitions. Uploading HR data does not affect the definition of the Global partition.
-
 ### To delete a partition
 
 1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
 2.	Open the **Settings** page and select **Access control**.
 3.	In the **Partition-based access control** area, locate the partition that you want to delete, and then select **Delete** (the trash-can icon) in that partition's row:
 
-    ![Admin settings](../images/wpa/setup/access-control-page-2.png)
+    ![Admin settings](../images/wpa/setup/access-control-page-3.png)
+
+   > [!Note] 
+   > You cannot delete the Global partition. Only user-created partitions can be deleted.
+
+## How can I start using partitions?
+
+Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com). 
+
+## Partitions and organizational (HR) data
+
+Partitions depend on organizational data in two ways: 
+
+ * Partitions can depend on organizational data columns. As described in step 5 of [To create a partition](#to-create-a-partition), you can define a partition by filtering by organizational data columns. For example, you can define a partition by filtering on an organizational data column called _Country_.
+ * As described in step 7 of [To create a partition](#to-create-a-partition), organizational-data attributes can be configured to be included in the partition for analysts to use.
+
+Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), [subsequently uploads new organizational data](upload-organizational-data.md). In step 9 of [organizational-data upload](upload-organizational-data-1st.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
+
+Choosing the **Append** option does not affect partitions, regardless of the structure of the new data. 
+
+However, the admin can select the **Replace all existing organizational data** option, and the organizational data that they upload could have a new data schema. For example, if the _Country_ column is not present in the new organizational-data upload schema, the definition of any partition that refers to this column is violated.
+
+Because of this possibility, during organizational-data upload (between the mapping step and the validation step), Workplace Analytics checks for partition schema violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
+
+![Partition violation](../images/wpa/setup/partition-violation.png)
+
+In the lower half of this page, Workplace Analytics identifies the columns that are omitted in the uploaded file but present in the earlier uploaded data (and its schema) and are present in existing partitions. It also names the partitions that are affected by the missing columns.  
+
+   > [!Note] 
+   > If a column in a new set of data is missing, this affects the schema of a partition only if that column is referred to in the schema. If no partition's schema refers to the missing column, the missing column will not cause an error, and the organizational-data upload will continue on to the validation phase.
+
+In the case of an error such as this, the admin cannot proceed with the current data upload. The admin has these choices:
+
+ * Start over by selecting **Back**, and then attempt organizational-data upload with data that has a different schema.
+ * [Delete the affected partition](#to-delete-a-partition) (or partitions) and then try again to upload the .csv file that caused the schema violation. 
+   
+   > [!Note] 
+   > Schema errors can occur only in user-created partitions. Uploading organizational data does not affect the definition of the Global partition.
+
