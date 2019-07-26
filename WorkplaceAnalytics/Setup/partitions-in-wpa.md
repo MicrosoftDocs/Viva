@@ -114,25 +114,25 @@ Currently this feature is being rolled out on a per-customer basis. To have the 
 Partitions depend on HR data in two ways: 
 
  * Partitions depend on the columns of data that are uploaded because these columns translate into HR attributes and, as described in step 5 of [To create a partition](#to-create-a-partition), you can define a partition by filtering by attribute. For example, you can define a partition with the column _Country_. 
- * As described in step 7 in [To create a partition](#to-create-a-partition), HR-data columns can be configured as attributes to include in the partition for analysts to use. 
+ * As described in step 7 of [To create a partition](#to-create-a-partition), HR-data columns can be configured as attributes to include in the partition for analysts to use. 
 
 Because of these dependencies, existing partitions can be affected when admins upload new HR data. In step 9 of [HR-data upload](upload-organizational-data.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
 
 Choosing the **Append** option does not affect partitions, regardless of the structure of the new data. 
 
-However, the admin can select the **Replace all existing organizational data** option, and the HR data that they upload could contain an entirely new data schema. For example, the uploaded .csv file might omit the _Country_ column, which means that its data omits the _Country_ attribute. In a case such as this, the definitions of any existing partitions that depend on the _Country_ attribute are violated. 
+However, the admin can select the **Replace all existing organizational data** option, and the HR data that they upload could have a new data schema. For example, the uploaded .csv file might omit the _Country_ column, which means that its data omits the _Country_ attribute. In a case such as this, the definitions of existing partitions that depend on the _Country_ attribute are violated. 
 
-Because of this possibliity, during HR data upload (between the mapping step and the validation step), Workplace Analytics checks for partition definition (schema) violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
+Because of this possibliity, during HR data upload (between the mapping step and the validation step), Workplace Analytics checks for partition schema violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
 
 ![Partition violation](../images/wpa/setup/partition-violation.png)
 
 If this happens, the admin cannot proceed with the current data upload. The admin has these choices:
 
- * Start over, and attempt HR-data upload with different data that has a different schema.
+ * Start over, and attempt HR-data upload with data that has a different schema.
  * [Delete the affected partition](#to-delete-a-partition) (or partitions) and then try again to upload the .csv file that caused the schema violation. 
    
    > [!Note] 
-   > Violations and schema errors can occur only in user-created partitions. Uploading HR data does not affect the definition of the Global partition.
+   > Schema errors can occur only in user-created partitions. Uploading HR data does not affect the definition of the Global partition.
 
 ### To delete a partition
 
