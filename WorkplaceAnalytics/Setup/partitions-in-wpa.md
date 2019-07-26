@@ -116,7 +116,7 @@ Partitions depend on HR data in two ways:
  * Partitions depend on the columns of data that are uploaded because these columns translate into HR attributes and, as described in step 5 of [To create a partition](#to-create-a-partition), you can define a partition by filtering by attributes. For example, you can define a partition with HR column _Country_ = _Germany_. 
  * As described in step 7 in [To create a partition](#to-create-a-partition), HR-data columns can be configured as attributes to include in the partition for analysts to use. 
 
-Because of these dependencies, existing partitions can be affected when admins upload new HR data. In step 9 of [HR-data upload](upload-organizational-data#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
+Because of these dependencies, existing partitions can be affected when admins upload new HR data. In step 9 of [HR-data upload](upload-organizational-data.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
 
 Choosing the **Append** option does not affect partitions, regardless of the structure of the new data. 
 
