@@ -7,7 +7,7 @@ title: Partitions in Workplace Analytics
 description: Description of partitions plus how to use and set up partitions in Workplace Analytics 
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/10/2019
+ms.date: 07/25/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -109,3 +109,35 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
 Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com). 
 
+## Partitions and organizational (HR) data
+
+Partitions depend on HR data in two ways: 
+
+ * Partitions depend on the columns of data that are uploaded because these columns translate into HR attributes and, as described in step 5 of [To create a partition](#to-create-a-partition), you can define a partition by filtering by attributes. For example, you can define a partition with HR column _Country_ = _Germany_. 
+ * As described in step 7 in [To create a partition](#to-create-a-partition), HR-data columns can be configured as attributes to include in the partition for analysts to use. 
+
+Because of these dependencies, existing partitions can be affected when admins upload new HR data. In step 9 of [HR-data upload](upload-organizational-data#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
+
+Choosing the **Append** option does not affect partitions, regardless of the structure of the new data. 
+
+However, the admin can select the **Replace all existing organizational data** option, and the HR data that they upload could contain an entirely new data schema. For example, the uploaded .csv file might omit the _Country_ column, which means that its data omits the _Country_ attribute. In a case such as this, the definitions of any existing partitions that depend on the _Country_ attribute are violated. 
+
+Because of this possibliity, during HR data upload (between the mapping step and the validation step), Workplace Analytics checks for partition-definition violations. If the definitions of one or more partitions are violated, Workplace Analytics displays the following error:
+
+![Partition violation](../images/wpa/setup/partition-violation.png)
+
+If this happens, the admin cannot proceed with the current data upload. The admin has these choices:
+
+ * Start over, and attempt HR-data upload with different data that has a different schema.
+ * [Delete the affected partition](#to-delete-a-partition) (or partitions) and retry to upload the .csv file that caused the schema violation. After deleting the affected partitions, the admin can retry the HR upload, which should succeed this time.
+   
+   > [!Note] 
+   > Violations and errors can occur only in user-created partitions. Uploading HR data cannot affect the definition of Global partition.
+
+### To delete a partition
+
+1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
+2.	Open the **Settings** page and select **Access control**.
+3.	In the **Partition-based access control** area, locate a partition whose schema was violated, and then select **Delete** (the trash-can icon):
+
+    ![Admin settings](../images/wpa/setup/access-control-page-2.png)
