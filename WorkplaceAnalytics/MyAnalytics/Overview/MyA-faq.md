@@ -72,7 +72,7 @@ MyAnalytics does not have any tracking software running on your computer.
 
  * _Used only if you have opted in_: Data derived from activities on your computer, such as applications that you've used and websites that you've visited.
 
-**MyAnalytics does not use**
+**MyAnalytics does not use:**
 
  * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.  
 
