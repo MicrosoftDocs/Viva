@@ -6,7 +6,7 @@ title: MyAnalytics plans and environments
 description: MyAnalytics supported plans and environment requirements
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/09/2019
+ms.date: 07/25/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -24,7 +24,7 @@ The following table lists which user experiences are available depending on what
 | Plan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Service plan | User experience currently available |
 | ----- | ----- |----- |
 | <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Office 365 E3     <li>Office 365 E1     <li>Business Premium     <li>Business Essentials    <br> <br> |  <br>Insights by <br>MyAnalytics| <br>[Insights Outlook Add-in](../use/add-in.md)   <br> (other MyAnalytics elements<br> will be made available in the future) |
-|<li>Microsoft 365 E5     <li>Office 365 Enterprise E5     <li>Office 365 A5     <li>Office 365 Nonprofit E5      <li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |
+|<li>Microsoft 365 E5     <li>Office 365 Enterprise E5     <li>Office 365 A5     <li>Office 365 Nonprofit E5      <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |
 
 > [!Note]
 > To provide a great experience for users and customers, we are rolling out the features of MyAnalytics gradually, with the ultimate goal of achieving feature parity among all plans. We will announce each new feature release in the [Message center](https://docs.microsoft.com/en-us/office365/admin/manage/message-center?view=o365-worldwide).
