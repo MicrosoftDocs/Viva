@@ -132,12 +132,12 @@ If this happens, the admin cannot proceed with the current data upload. The admi
  * [Delete the affected partition](#to-delete-a-partition) (or partitions) and retry to upload the .csv file that caused the schema violation. After deleting the affected partitions, the admin can retry the HR upload, which should succeed this time.
    
    > [!Note] 
-   > Violations and errors can occur only in user-created partitions. Uploading HR data cannot affect the definition of Global partition.
+   > Violations and schema errors can occur only in user-created partitions. Uploading HR data cannot affect the definition of Global partition.
 
 ### To delete a partition
 
 1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
 2.	Open the **Settings** page and select **Access control**.
-3.	In the **Partition-based access control** area, locate a partition whose schema was violated, and then select **Delete** (the trash-can icon):
+3.	In the **Partition-based access control** area, locate the partition that you want to delete, and then select **Delete** (the trash-can icon) in that partition's row:
 
     ![Admin settings](../images/wpa/setup/access-control-page-2.png)
