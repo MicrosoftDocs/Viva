@@ -129,10 +129,10 @@ Because of this possibliity, during HR data upload (between the mapping step and
 If this happens, the admin cannot proceed with the current data upload. The admin has these choices:
 
  * Start over, and attempt HR-data upload with different data that has a different schema.
- * [Delete the affected partition](#to-delete-a-partition) (or partitions) and retry to upload the .csv file that caused the schema violation. After deleting the affected partitions, the admin can retry the HR upload, which should succeed this time.
+ * [Delete the affected partition](#to-delete-a-partition) (or partitions) and then try again to upload the .csv file that caused the schema violation. 
    
    > [!Note] 
-   > Violations and schema errors can occur only in user-created partitions. Uploading HR data cannot affect the definition of Global partition.
+   > Violations and schema errors can occur only in user-created partitions. Uploading HR data does not affect the definition of the Global partition.
 
 ### To delete a partition
 
