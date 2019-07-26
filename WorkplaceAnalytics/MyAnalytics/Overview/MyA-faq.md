@@ -29,13 +29,13 @@ Two later sections are grouped by role:
 
 ## Privacy
 
-### Q1 Who can see my data?
+#### Q1. Who can see my data?
 
 Only you can see your data. The statistics and insights that are generated from your data are for your eyes only. Your manager or system administrator cannot view your personal data.
 
 For more details, see the [MyAnalytics privacy guide](Privacy-Guide.md).
 
-### Q2 How does MyAnalytics protect my data?
+#### Q2. How does MyAnalytics protect my data?
 
 MyAnalytics uses data from your Office 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams or in Skype for Business.
 
@@ -45,9 +45,9 @@ Every calculation that MyAnalytics performs is based on data that you, yourself,
 
 MyAnalytics does not have any tracking software running on your computer.
 
-### Q3 What data does MyAnalytics use?
+#### Q3. What data does MyAnalytics use?
 
-#### MyAnalytics uses
+**MyAnalytics uses:**
 
  * Information from email items:
 
@@ -72,45 +72,43 @@ MyAnalytics does not have any tracking software running on your computer.
 
  * _Used only if you have opted in_: Data derived from activities on your computer, such as applications that you've used and websites that you've visited.
 
-#### MyAnalytics does not use
+**MyAnalytics does not use**
 
  * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.  
 
 
 ## For MyAnalytics users
 
-### Metrics
+### Data sources
 
-#### Data sources
-
-##### Q1. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+#### Q1. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
 No. Only Exchange Online, Skype for Business Online, and Teams are used as sources of MyAnalytics data.
 
-#### Meetings
+### Meetings
 
-##### Q1. Does "meeting time" include time that I block out for personal work on my calendar?
+#### Q1. Does "meeting time" include time that I block out for personal work on my calendar?
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
 
-#### Focus time
+### Focus time
 
-##### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
+#### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more information, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
-##### Q2. Can I change my settings to make time outside of work more accurate?
+#### Q2. Can I change my settings to make time outside of work more accurate?
 
 Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
 
-##### Q3. Why do my focus time seem incorrect or inaccurate?
+#### Q3. Why do my focus time seem incorrect or inaccurate?
 
 Try the following to troubleshoot your focus-time totals:
 
 1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).)
 2. For more information about focus time, see [Focus](../Use/focus.md).  
 
-##### Q4. How do I tell MyAnalytics that I am on vacation?
+#### Q4. How do I tell MyAnalytics that I am on vacation?
 
 If you plan to go on vacation, create a calendar event that includes the days of your vacation and set its status to **Out of Office**. This causes your focus time and meeting time to both count as zero during your vacation.  
 
@@ -133,21 +131,21 @@ See the following sections for more information:
  * [Remove Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
-##### Q2. Why can I not see the MyAnalytics dashboard to opt-out?
+#### Q2. Why can I not see the MyAnalytics dashboard to opt-out?
 
 To opt out, you use the MyAnalytics dashboard. The dashboard is available only if your organization has a _qualifying plan_. (All of the plans listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features) are qualifying plans.) If an organization has no _qualifying plan_, its members see no elements of MyAnalytics and their data is not processed. 
 
 ### Insights Outlook add-in
 
-##### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
+#### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
 
 The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook add-in are available only in English.
 
-##### Q2. Can I get email read rates for shared or secondary mailboxes?
+#### Q2. Can I get email read rates for shared or secondary mailboxes?
 
 MyAnalytics does not use data from shared or secondary mailboxes.
 
-##### Q3. Why are my email read statistics not available?
+#### Q3. Why are my email read statistics not available?
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
 
@@ -191,6 +189,6 @@ Skype for Business data is usually prompt. However, in rare instances, users can
    > [!Note]
    > All MyAnalytics features are available to users who have the MyAnalytics (full) plan.
 
-#### Q8. How can I confirm that the Insights Outlook add-in is installed?
+#### Q9. How can I confirm that the Insights Outlook add-in is installed?
 
 See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
