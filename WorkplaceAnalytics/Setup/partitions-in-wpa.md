@@ -111,7 +111,7 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 2.	Open the **Settings** page and select **Access control**.
 3.	In the **Partition-based access control** area, locate the partition that you want to delete, and then select **Delete** (the trash-can icon) in that partition's row:
 
-    ![Admin settings](../images/wpa/setup/access-control-page-3.png)
+    ![Admin settings](../images/wpa/setup/part-based-access-control.png)
 
    > [!Note] 
    > You cannot delete the Global partition. Only user-created partitions can be deleted.
@@ -120,7 +120,7 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
 Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com). 
 
-## Partitions and organizational (HR) data
+## Partitions and organizational data
 
 Partitions depend on organizational data in two ways: 
 
@@ -131,7 +131,7 @@ Because of these dependencies, existing partitions can be affected when an admin
 
 Choosing the **Append** option does not affect partitions, regardless of the structure of the new data. 
 
-However, the admin can select the **Replace all existing organizational data** option, and the organizational data that they upload could have a new data schema. For example, if the _Country_ column is not present in the new organizational-data upload schema, the definition of any partition that refers to this column is violated.
+However, the admin can select the **Replace all existing organizational data** option, and the organizational data that they upload could have a new data schema. For example, if the _Country_ column is not present in the new organizational-data upload schema (and if the column is either used as a filter or included in a partition), the definition of any partition that refers to this column is violated.
 
 Because of this possibility, during organizational-data upload (between the mapping step and the validation step), Workplace Analytics checks for partition schema violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
 
