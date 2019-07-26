@@ -73,7 +73,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 2.	Select **Increase focus**. This opens the **Solutions > Opportunities > Result** page, which shows details about the _Increase focus_ opportunity:
  
-    ![Increase focus potential](../images/wpa/use/opportunity-page-increase-focus-3.png)
+    ![Increase focus potential](../images/wpa/use/opportunity-page-increase-focus-3.png) 
 
     (The other opportunities, such as _Better meeting effectiveness_, follow this same model of data presentation.)
 
