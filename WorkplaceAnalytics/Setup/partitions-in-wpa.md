@@ -122,7 +122,7 @@ Choosing the **Append** option does not affect partitions, regardless of the str
 
 However, the admin can select the **Replace all existing organizational data** option, and the HR data that they upload could contain an entirely new data schema. For example, the uploaded .csv file might omit the _Country_ column, which means that its data omits the _Country_ attribute. In a case such as this, the definitions of any existing partitions that depend on the _Country_ attribute are violated. 
 
-Because of this possibliity, during HR data upload (between the mapping step and the validation step), Workplace Analytics checks for partition-definition violations. If the definitions of one or more partitions are violated, Workplace Analytics displays the following error:
+Because of this possibliity, during HR data upload (between the mapping step and the validation step), Workplace Analytics checks for partition definition (schema) violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
 
 ![Partition violation](../images/wpa/setup/partition-violation.png)
 
