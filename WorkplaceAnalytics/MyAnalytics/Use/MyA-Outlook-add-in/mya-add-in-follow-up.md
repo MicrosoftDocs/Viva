@@ -14,8 +14,6 @@ ms.prod: mya
 
 ## Follow up on your tasks
 
-_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 E3, Office 365 E1, Office 365 Nonprofit E5, Office 365 G5 , MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Business Premium, and Business Essentials**_
-
 MyAnalytics can help you follow up on your requests of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails.  For example:
 
 * “Can you send me this year’s latest report?”
