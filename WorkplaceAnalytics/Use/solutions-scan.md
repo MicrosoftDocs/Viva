@@ -5,8 +5,8 @@
 title: Solutions scan in Workplace Analytics
 description: Describes how to scan for opportunities in Workplace Analytics
 author: paul9955
-ms.author: v-pascha
-ms.date: 07/18/2019
+ms.author: v-midehm
+ms.date: 07/30/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,13 +17,13 @@ audience: Analyst
 
 # Solutions scan
 
-An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is – for example, collaboration overload or excessive time worked after work hours. 
+An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is – for example, collaboration overload or excessive time worked after work hours.
 
-Sometimes opportunities are less obvious. For this, it's possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Office 365 data. 
+Sometimes opportunities are less obvious. For this, it's possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Office 365 data.
 
-Workplace Analytics automatically scans to determine whether any [groups](#what-is-a-group) show unusual numbers in particular metrics. It then points out which groups show unusual activity on those metrics – for example, an excess of low-quality meetings, or a lack of focus time. 
+Workplace Analytics automatically scans to determine whether any [groups](#what-is-a-group) show unusual numbers in particular metrics. It then points out which groups show unusual activity on those metrics – for example, an excess of low-quality meetings, or a lack of focus time.
 
-Then, as an Workplace Analytics user with the analyst, limited analyst, or PM role, you can start a plan to respond to this unusual activity. To do this, you'd use the Solutions scan feature to create such a plan for the affected group. 
+Then, as an Workplace Analytics user with the analyst, limited analyst, or PM role, you can start a plan to respond to this unusual activity. To do this, you'd use the Solutions scan feature to create such a plan for the affected group.
 
 ## Use Solutions scan to find potential opportunities
 
@@ -67,46 +67,38 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
     ![Opportunities area](../images/wpa/use/increase-focus.png)
  
-	For this opportunity, the text briefly describes the purpose of the opportunity (gain time for the work that matters most) and it highlights possible benefits from taking advantage of the opportunity. In this example, Workplace Analytics has identified five groups in the company that exhibit limited focus hours. 
+	For this opportunity, the text briefly describes the purpose of the opportunity (gain time for the work that matters most) and  highlights possible benefits by taking advantage of the opportunity. For this example, Workplace Analytics identified five groups in the company that have limited focus hours.
 
     By taking advantage of this opportunity, the members of the [group](#what-is-a-group) could gain up to an aggregate of 98.4 hours per week of new focus time. (The more focus time, the better.) 
 
-2.	Select **Increase focus**. This opens the **Solutions > Opportunities > Result** page, which shows details about the _Increase focus_ opportunity:
+2. Select **Increase focus**. This opens the **Solutions > Opportunities > Result** page, which shows details about the _Increase focus_ opportunity:
  
     ![Increase focus potential](../images/wpa/use/opportunity-page-increase-focus-3.png) 
 
     (The other opportunities, such as _Better meeting effectiveness_, follow this same model of data presentation.)
 
-	Notice the groups that are displayed under **Select a group to analyze**. These groups were identified as potentially benefitting from a plan. If a group has appeared in this list for multiple weeks, a notification to that effect is displayed.
+	The groups that are shown under **Select a group to analyze** are identified as potentially benefiting from a plan. If a group has appeared in this list for multiple weeks, they get a notification about this opportunity.
  
 <!--
     ![A group reappears](../images/wpa/use/multiple-weeks.png)
 --> 
 
-3.	Select a group to see its data. This data appears in charts on this page. One of these charts displays data that compares this group’s behavior with that of peer groups, and the other chart shows trend lines for this group, over recent weeks. 
-
-    > [!Note] 
-    > A "peer group" is a group that is the closest to the anomalous group from an organizational hierarchy perspective. 
-
-4.	(Optional) Select other groups to examine their data. As you do this, pay attention to the chart on the left, which compares the data for this group with the data for its peer groups. This comparison helps you determine whether that group is an outlier, and therefore a candidate group for a plan for the chosen metric (such as focus hours).  
-
-5.	(Optional) Use the thumbs-up or thumbs-down icons at the right on the bottom of the page to indicate the relevance of this opportunity to your organization. 
-
-6.	To create a plan for the group that you have selected, select **Start plan**. 
+3. (Optional) Use the thumbs-up or thumbs-down icons at the right on the bottom of the page to indicate the relevance of this opportunity to your organization.
+4. To create a plan for the group that you have selected, select **Start plan**.
 
     ![Create plan](../images/wpa/use/create-plan.png)
- 
+
     This opens the **Set up new plan** panel:
- 
-    ![Set up a new plan](../images/wpa/use/set-up-new-plan.png) 
+
+    ![Set up a new plan](../images/wpa/use/set-up-new-plan.png)
 
     This page displays the default settings for this plan.
 
-7. (Optional) Change the settings of the plan. You can edit its name, the start date, and the target. Once you're finished with the settings, select **Validate**. Note that the number of participants cannot be edited. It is determined by the organizational data that your admin has uploaded.
+5. (Optional) Change the settings of the plan. You can edit its name, the start date, and the target. Once you're finished with the settings, select **Validate**. Note that the number of participants cannot be edited. It is determined by the organizational data that your admin has uploaded.
 
-   Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation). 
+   Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation).
 
-8. After the group validates successfully, go to [To create the plan](#to-create-the-plan). 
+6. After the group validates successfully, go to [To create the plan](#to-create-the-plan).
 
 ### To create the plan
 
@@ -114,31 +106,31 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 After the group that you've selected validates successfully, Workplace Analytics displays insights about the group. They show you how the group's numbers differ from company averages for the context that you chose. For example, if you chose to create a _Focus time_ plan, Workplace Analytics displays metrics&mdash;such as the number of hours in meetings per week&mdash;that illustrate why the people in this group could benefit from more focus time. (Although these insights are informative, they are not interactive.)
 
-Workplace Analytics also displays default settings for the plan, which you can edit: 
+Workplace Analytics also displays default settings for the plan, which you can edit as follows:
 
-1.	(Optional) Change the **Plan name** to a name more meaningful to you than the suggested value.
+1. (Optional) Change the **Plan name** to a name more meaningful to you than the suggested value.
 
-2.	(Optional) Change the **Plan target** to a different value. Note that you can select only percentage-based targets, such as a 10% decrease in after-hours work. 
+2. (Optional) Change the **Plan target** to a different value. Note that you can select only percentage-based targets, such as a 10% decrease in after-hours work.
 
-3.	(Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan's end date is then calculated and displayed.
+3. (Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan's end date is then calculated and displayed.
 
-4.	(Optional) Scroll down to the **How Solution will help** section, which contains cards for **Book and protect**, **Stay focused**, and **Track progress**:
- 
-    ![How the solution will help](../images/wpa/use/how-plan-helps.png) 
+4. (Optional) Scroll down to the **How Solution will help** section, which contains cards for **Book and protect**, **Stay focused**, and **Track progress**:
+
+    ![How the solution will help](../images/wpa/use/how-plan-helps.png)
 
     To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and the digest email that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
 
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 
-5.	Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates displayed for **Plan duration**.
+5. Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates displayed for **Plan duration**.
 
-After the scheduled plan starts, data about its progress is collected. You can view this data by tracking the plan. See [Track plans](#track-plans). 
+After the scheduled plan starts, data about its progress is collected. You can view this data by tracking the plan. See [Track plans](#track-plans).
 
 ## Track plans
 
 **Role:** analyst, limited analyst, or program manager
 
-You can track plans on the **Manage** page. Use this page to measure progress on the target since the plan started, as well as ROI for the plan. 
+You can track plans on the **Manage** page. Use this page to measure progress on the target since the plan started, as well as ROI for the plan.
 
 ### To track an active plan
 
@@ -154,11 +146,11 @@ The following sections provide information that can help you as you use the Solu
 
 You assign plans to groups, but just what constitutes a group? For Solutions scan, a group is a team of individual contributors who all report to the same manager.
 
-Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. Groups are defined from this organizational data structure. 
+Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. Groups are defined from this organizational data structure.
 
-> [!Important] 
+> [!Important]
 > Data for a group includes only the data for a manager's team. It does _not_ include the manager's data.
- 
+
 ### Validation
 
 During validation, Workplace Analytics checks the following about each potential participant:
