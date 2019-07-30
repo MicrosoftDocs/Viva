@@ -3,7 +3,7 @@
 # required metadata
 
 title: Solutions scan in Workplace Analytics
-description: Describes how to scan for opportunities in Workplace Analytics
+description: Learn how to scan for opportunities in Workplace Analytics
 author: paul9955
 ms.author: v-midehm
 ms.date: 07/30/2019
@@ -38,7 +38,7 @@ Workplace Analytics runs AI-based detection every week as part of the standard w
 
 ### To find an opportunity
 
-Scans are run weekly as part of standard Workplace Analytics processing runs, and newly discovered opportunities are surfaced as soon as they are available. To find one or more newly discovered opportunities, check the **Opportunities** page. 
+Scans are run weekly as part of standard Workplace Analytics processing runs, and newly discovered opportunities are surfaced as soon as they are available. To find one or more newly discovered opportunities, check the **Opportunities** page.
 
 **Role:** analyst, limited analyst, or program manager
 
@@ -46,53 +46,48 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
 
 2. On the **Solutions** page, select **Opportunities**.
 
-    ![Select Opportunities](../images/wpa/use/full-screen.png)
+    ![Select Opportunities](../images/wpa/use/opportunities.png)
  
-    This page displays the most recent scan results, which are presented as opportunities for one or more groups. 
+    This page shows the most recent scan results, which are presented as opportunities for one or more groups.
  
     > [!Note]
     > If Workplace Analytics cannot detect anything in the data that would present an opportunity, it displays a notice that reads, "No opportunities could be loaded. Please check back later."
 
-3. Consider which of the displayed opportunities you would like to pursue. After you've decided to start a plan from an opportunity, go on to [Create a plan](#create-a-plan). 
+3. Consider which of the opportunities you would like to pursue. After you've decided to start a plan from an opportunity, go to [Create a plan](#create-a-plan).
 
 ## Create a plan
 
-In the following example walkthrough, we look at the _Increase focus_ opportunity to see how to take advantage of an opportunity to create a plan for a group. 
+In the following example walkthrough, we look at the _Increase focus_ opportunity to see how to take advantage of an opportunity to create a plan for a group.
 
-### Start a plan from an opportunity 
+### Start a plan from an opportunity
 
 **Role:** analyst, limited analyst, or program manager
 
-1. Locate the _Increase focus_ opportunity:
+1. Locate and select the **Increase focus** opportunity.
 
     ![Opportunities area](../images/wpa/use/increase-focus.png)
- 
-	For this opportunity, the text briefly describes the purpose of the opportunity (gain time for the work that matters most) and  highlights possible benefits by taking advantage of the opportunity. For this example, Workplace Analytics identified five groups in the company that have limited focus hours.
 
-    By taking advantage of this opportunity, the members of the [group](#what-is-a-group) could gain up to an aggregate of 98.4 hours per week of new focus time. (The more focus time, the better.) 
+	For this opportunity, this page briefly describes the purpose of the opportunity (gain time for the work that matters most) and highlights possible benefits by taking advantage of the opportunity. For this example, Workplace Analytics identified five groups in the company that have limited focus hours.
 
-2. Select **Increase focus**. This opens the **Solutions > Opportunities > Result** page, which shows details about the _Increase focus_ opportunity:
+    By taking advantage of this opportunity, the members of the [group](#what-is-a-group) could gain up to an aggregate of 98.4 hours per week of new focus time. (The more focus time, the better.)
+
+2. The **Solutions > Opportunities > Result** page has details about the opportunity.
  
-    ![Increase focus potential](../images/wpa/use/opportunity-page-increase-focus-3.png) 
+    ![Increase focus potential](../images/wpa/use/opportunity-increase-focus-3.png)
 
     (The other opportunities, such as _Better meeting effectiveness_, follow this same model of data presentation.)
 
 	The groups that are shown under **Select a group to analyze** are identified as potentially benefiting from a plan. If a group has appeared in this list for multiple weeks, they get a notification about this opportunity.
- 
-<!--
-    ![A group reappears](../images/wpa/use/multiple-weeks.png)
---> 
-
+<!--    ![A group reappears](../images/wpa/use/multiple-weeks.png)-->
 3. (Optional) Use the thumbs-up or thumbs-down icons at the right on the bottom of the page to indicate the relevance of this opportunity to your organization.
+
 4. To create a plan for the group that you have selected, select **Start plan**.
 
     ![Create plan](../images/wpa/use/create-plan.png)
 
-    This opens the **Set up new plan** panel:
+    This opens the **Set up new plan** panel that shows the default settings for this plan.
 
     ![Set up a new plan](../images/wpa/use/set-up-new-plan.png)
-
-    This page displays the default settings for this plan.
 
 5. (Optional) Change the settings of the plan. You can edit its name, the start date, and the target. Once you're finished with the settings, select **Validate**. Note that the number of participants cannot be edited. It is determined by the organizational data that your admin has uploaded.
 
@@ -114,7 +109,7 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
 3. (Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan's end date is then calculated and displayed.
 
-4. (Optional) Scroll down to the **How Solution will help** section, which contains cards for **Book and protect**, **Stay focused**, and **Track progress**:
+4. (Optional) Scroll down to the **How Solution will help** section, which contains cards for **Book and protect**, **Stay focused**, and **Track progress**.
 
     ![How the solution will help](../images/wpa/use/how-plan-helps.png)
 
@@ -134,9 +129,9 @@ You can track plans on the **Manage** page. Use this page to measure progress on
 
 ### To track an active plan
 
-1.	The table on the **Solutions > Manage** page displays plans that can be either scheduled or active. To see active plans, select **Active** in the toolbar above the table.
+1. The table on the **Solutions > Manage** page shows plans that can be either scheduled or active. To see active plans, select **Active** in the toolbar above the table.
 
-2.	In the row of the plan you want to investigate, select **Track** to display the tracking dashboard, which shows information about the progress of the plan up to this point.
+2. In the row of the plan you want to investigate, select **Track** to see the tracking dashboard, which shows information about the progress of the plan up to this point.
 
 ## Concepts
 
@@ -160,7 +155,7 @@ During validation, Workplace Analytics checks the following about each potential
  * <u>In a plan?</u> Are they already enrolled in a plan? A person can be in only one plan at a time.
  * <u>Opted out?</u> Have they opted out of MyAnalytics? If the person has opted out, they cannot participate in plans.
 
-After validation, Workplace Analytics reports the results, including the number of qualified participants. The results also show any warnings, which display the numbers of participants who’ve failed any tests.
+After validation, Workplace Analytics reports the results, including the number of qualified participants. The results also show any warnings, which include the numbers of participants who’ve failed any tests.
 
 ![Validation warnings](../images/wpa/use/participants-warnings.png)
 
@@ -168,7 +163,7 @@ Three of the possible errors are shown here. If your number of qualified partici
 
 If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Workplace Analytics. For example, you could ask an admin to assign licenses to those who are missing them, or you could try a different group.
 
-As for employees who have opted out or are already in a plan, you cannot enroll them in a plan at this time. 
+As for employees who have opted out or are already in a plan, you cannot enroll them in a plan at this time.
 
 <!-- REMOVE THIS FOR NOW, AS IT LINKS TO THE PARTITION DOC. REPUBLISH IT AFTER NITHIN HAS US PUBLISH THE PARTITION DOC.
 
