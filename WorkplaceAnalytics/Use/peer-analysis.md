@@ -5,8 +5,8 @@
 title: Peer analysis 
 description: Describes the peer analysis functionality of Workplace Analytics
 author: paul9955
-ms.author: v-pascha
-ms.date: 06/21/2019
+ms.author: v-midehm
+ms.date: 07/30/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -35,7 +35,7 @@ To be able to perform the tasks in this article, you must have either the analys
 
 ### Privacy notes
 
-Peer analyses enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the other group. 
+Peer analyses enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the other group.
 
 The results of analyses are always presented in aggregate form. No individual's data is ever presented in isolation.
 
@@ -146,7 +146,7 @@ Selecting **View** opens the **Result** page:
  
 ![Result page](../images/wpa/use/result-1-2.png)
 
-At the top of this page, you see the following information about your analysis: the analysis name, date range, name and size of the reference group, and name and size of the other group. 
+This page includes analysis details, such as: the analysis name, date range, name and size of the reference group, and the name and size of the other group.
 
 The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Workplace Analytics selects these three metrics from among highly correlated metrics that are unique to this type of analysis.) The results that you see are comparisons of raw averages between the reference group and the other group. 
 
@@ -164,7 +164,7 @@ Follow these steps to upload a file that contains email addresses:
 
 1.	Create a .csv file that contains the email addresses of the people in the group. This file should contain no header, but consist of a single column, with each email address appearing on a new line.
 
-2. Select **Upload .csv file**: 
+1. Select **Upload .csv file**: 
  
     ![Upload .csv file](../images/wpa/use/upload-csv-file.png)
 
