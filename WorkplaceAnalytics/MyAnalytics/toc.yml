@@ -18,24 +18,27 @@
           href: ./use/email-digest-2.md
         - name: Inline suggestions
           href: ./use/mya-notifications.md
+  #      - name: Focus plan
+  #        href: ./use/focus-plan.md             
     - name: MyAnalytics admin guide 
       items:
         - name: Introduction
           href: ./overview/mya-for-admins.md
-        - name: MyAnalytics setup
-          href: ./setup/mya-setup-checklist.md
+        - name: Configure MyAnalytics
+          href: ./setup/configure-myanalytics.md
         - name: Plans and environments
           href: ./overview/plans-environments.md
         - name: Privacy guide for admins
           href: ./overview/privacy-guide.md
-        - name: Disable Insights by MyAnalytics
-          href: ./setup/mya-disable-insights.md
     - name: Use MyAnalytics
       items:
       - name: Work patterns
         items:
         - name: Focus
           href: ./Use/focus.md
+ #         items: 
+ #           - name: Focus plan
+ #             href: ./use/focus-plan.md
         - name: Wellbeing
           href: ./Use/wellbeing.md
         - name: Network

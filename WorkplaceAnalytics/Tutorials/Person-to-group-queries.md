@@ -6,7 +6,7 @@ title: Person-to-group queries in Workplace Analytics
 description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/08/2019
+ms.date: 05/22/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -41,7 +41,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 3. For **Group by**, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those person-to-group interactions that took place during this date range.
 5. Select a set of meeting exclusions to ignore (filter out) specific meetings for this query.
-6. In the **Their collaborator**s section, select one or more metrics that measure interactions between the time investors and collaborators, including:
+6. In the **Select metrics** section, select one or more metrics that measure interactions between the time investors and collaborators, including:
 
     * **Collaboration hours** gives you the total amount of time that an individual spent with collaborating groups. This includes both time spent working in emails and time spent in meetings.
 
@@ -61,9 +61,9 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
    ![Group and filter time investors](../Images/WpA/tutorials/p2g-time-investors.png)
 
-9.  In the **Their collaborators** section, you can add filters to exclude specific collaborators, such as layer, Domain, FunctionType, or Organization. These are the same as for time investors.
+9. In the **Their collaborators** section, you can add employee filters to exclude specific collaborators, such as by Domain, FunctionType, or Organization.
 
-   ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+       ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
 
 10. At this point, the collaborators are not grouped, therefore the query results won't show which collaborators interacted with the time investors. To group the collaborators, answer the question *How do you want to group the people who collaborated with the time investors?* to show which groups interacted with them. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
 
@@ -75,6 +75,10 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 ## Related topics
 
+[Queries with CRM data](../Tutorials/crm-queries.md)
+
 [Metric descriptions](../Use/Metric-definitions.md)
+
 [Understand and interpret query output](../Use/csv-query-output-file.md)
+
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)

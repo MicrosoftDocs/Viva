@@ -18,8 +18,11 @@ Analysts can be tasked with finding ways to improve teamwork in their organizati
 
 After you create and run a Person query, you can view its results (in the form of charts) without leaving Workplace Analytics. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. These steps are described in the following sections: 
 
-1. [Run a query and view results](#run-a-query-and-view-results) 
-2. [Customize your data visualization](#customize-your-data-visualization)
+- [Visualize person queries](#visualize-person-queries)
+  - [Run a query and view results](#run-a-query-and-view-results)
+  - [Customize your data visualization](#customize-your-data-visualization)
+  - [Optional: Create a solution plan](#optional-create-a-solution-plan)
+  - [Related topics](#related-topics)
 
 In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as [Power BI](../use/view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool). 
 
@@ -66,8 +69,7 @@ As you add and apply filters and select groups, the chart section of the results
 
 Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in the **Solutions** area of Workplace Analytics. 
 
-For more information about solutions, see [Workplace Analytics solutions](solutions-intro.md).  
-<!-- REPLACE WHEN SV2 RELEASES: see [Workplace Analytics solutions](solutionsv2-intro.md).  -->
+For more information about solutions, see [Workplace Analytics solutions](solutions-intro.md).  <!-- REPLACE WHEN SV2 RELEASES: see [Workplace Analytics solutions](solutionsv2-intro.md).  -->
 
 **Role:** analyst 
 
