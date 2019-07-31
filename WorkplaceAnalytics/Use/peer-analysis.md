@@ -43,27 +43,27 @@ The results of analyses are always presented in aggregate form. No individual's 
 
 In this task, you take the first steps to start a peer analysis. 
 
-1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. 
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. 
 
-2.	Expand **Analyze** and open the **Explore** page. This page has two sections: **Metrics overview** and **Analyze and start Solutions**.
+2. Expand **Analyze** and open the **Explore** page. This page has two sections: **Metrics overview** and **Analyze and start Solutions**.
 
-3.	Under **Analyze and start Solutions**, select **Peer analysis**. 
+3. Under **Analyze and start Solutions**, select **Peer analysis**. 
 
-    This displays a table of the peer analyses that have been started or completed. 
+   This displays a table of the peer analyses that have been started or completed. 
  
     ![New analysis](../images/wpa/use/explore-new-analysis-3.png)
 
-4.	Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis: 
+4. Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis: 
 
     ![New analysis panel](../images/wpa/use/step1-new-request.png)
  
-The top of this panel shows the four steps for creating a peer analysis: _Reference group_, _Other group_, _Conditions_, and _Submit_.
+    The top of this panel shows the four steps for creating a peer analysis: _Reference group_, _Other group_, _Conditions_, and _Submit_.
 
-5.	For **Analysis name**, type a name for this analysis.  
+5. For **Analysis name**, type a name for this analysis.  
 
-6.	Select a date range for the analysis.
+6. Select a date range for the analysis.
 
-7.	Go on to [Identify the reference group](#identify-the-reference-group).
+7. Go to [Identify the reference group](#identify-the-reference-group).
 
 ## Identify the reference group
 
@@ -72,7 +72,7 @@ The top of this panel shows the four steps for creating a peer analysis: _Refere
 
 As you define this group, keep in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than 1000 members. 
 
-1.	In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not work together on the same team. You can identify them in either of the following ways:
+1. In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not work together on the same team. You can identify them in either of the following ways:
 
     * [Upload a .csv file](#upload-a-csv-file). For this, you’ll use a file that contains the email addresses of the people in the reference group.  
     * [Use filters](#use-filters). To do this, you filter by HR (organizational) attributes. 
@@ -80,7 +80,7 @@ As you define this group, keep in mind that it has a maximum size. If you upload
     > [!Note] 
     > For more information about which way to identify this group, see [Why use filters?](#why-use-filters)
 
-2.	After you've successfully identified the reference group, select **Next** and go to [Select the other group](#select-the-other-group). 
+2. After you've successfully identified the reference group, select **Next** and go to [Select the other group](#select-the-other-group). 
 
 ## Select the other group
 
@@ -88,7 +88,7 @@ As you define this group, bear in mind that it has a maximum size. If you upload
 
 ![Identify other group](../images/wpa/use/step2-other-group.png)
 
-1.	In the **Other group** section, identify the members of the other group. As with the reference group, you choose the other group; its members need not work together on the same team. You can identify them in either of the following two ways:
+1. In the **Other group** section, identify the members of the other group. As with the reference group, you choose the other group; its members need not work together on the same team. You can identify them in either of the following two ways:
 
     * [Upload a .csv file](#upload-a-csv-file). For this, you'll use a file that contains the email addresses of the people in the other group.  
     * [Use filters](#use-filters). To do this, you filter by HR (organizational) attributes. 
@@ -96,7 +96,7 @@ As you define this group, bear in mind that it has a maximum size. If you upload
     > [!Note] 
     > For more information about which way to identify this group, see [Why use filters?](#why-use-filters)
 
-2.	After you've successfully identified the other group, select **Next** and go to [Apply conditions](#apply-conditions). 
+2. After you've successfully identified the other group, select **Next** and go to [Apply conditions](#apply-conditions). 
 
 ## Apply conditions
 
@@ -147,7 +147,7 @@ Selecting **View** opens the **Result** page:
  
 ![Result page](../images/wpa/use/result-1-2.png)
 
-The Result page includes analysis details, such as: the analysis name, date range, name and size of the reference group, and the name and size of the other group.
+This page includes analysis details, such as: the analysis name, date range, name and size of the reference group, and the name and size of the other group.
 
 The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Workplace Analytics selects these three metrics from among highly correlated metrics that are unique to this type of analysis.) The results that you see are comparisons of raw averages between the reference group and the other group. 
 
@@ -163,13 +163,13 @@ Although the **Result** page is read-only, you can download it into an Excel wor
 
 Follow these steps to upload a file that contains email addresses: 
 
-1.	Create a .csv file that contains the email addresses of the people in the group. This file should contain no header, but consist of a single column, with each email address appearing on a new line.
+1. Create a .csv file that contains the email addresses of the people in the group. This file should contain no header, but consist of a single column, with each email address appearing on a new line.
 
-1. Select **Upload .csv file**: 
+2. Select **Upload .csv file**: 
  
     ![Upload .csv file](../images/wpa/use/upload-csv-file.png)
 
-3.	Browse to the file on disk and select **Open**. After the file uploads, Workplace Analytics automatically validates the uploaded data and displays the results:
+3. Browse to the file on disk and select **Open**. After the file uploads, Workplace Analytics automatically validates the uploaded data and displays the results:
 
     ![Validation results](../images/wpa/use/validation-results.png)
  
@@ -182,15 +182,15 @@ Follow these steps to upload a file that contains email addresses:
     > [!Note] 
     > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
-4.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).
+4. Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).
  
 ### Use filters
 
-1.	To identify a group by filtering, select **Use filters**: 
+1. To identify a group by filtering, select **Use filters**: 
 
     ![Use filters](../images/wpa/use/use-filters.png)
  
-2.	Add filters and parameters.
+2. Add filters and parameters.
 
     In this step, you use organizational data in filters to refine your group selection. For example, in the left box, select **Organization** and in the right box, type an org name or a manager's identifier. Add more filters to refine the selection further, if you want. The results of filtering are shown in a chart. You can then select groups by clicking the columns that represent them in the chart. You can select multiple groups. 
 
@@ -201,7 +201,7 @@ Follow these steps to upload a file that contains email addresses:
     > [!Note] 
     > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
-3.	Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).  
+3. Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).  
 
 ## Concepts
 
