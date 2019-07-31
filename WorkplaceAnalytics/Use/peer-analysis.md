@@ -133,20 +133,21 @@ After your analysis completes, its status is updated in the **Peer analysis** ta
 
 ![Results with one row](../images/wpa/use/three-analyses.png)
  
-You can do several things on this page:
+You can do the following on this page.
+
  * <u>In the rows of analyses:</u>
-   * Select **View** (eye icon) to open an analysis to see its results.
-   * Select **Delete** (trash-can icon) to delete an analysis that's no longer needed.
-   * Select the **Duplicate** (two-sheets-of-paper icon) to make an editable copy of the analysis.
+   * Select **View** (eye) icon to open the results for an analysis.
+   * Select **Delete** (trashcan) icon to delete an analysis that you no longer need.
+   * Select the **Duplicate** (two-sheets-of-paper) icon to make an editable copy of the analysis.
  * <u>Above the table:</u> 
    * Select **New analysis** to create a new peer analysis.
-   * Refresh the list of analyses by selecting **Update list**.
+   * Select **Update list** to refresh the list of analyses.
 
 Selecting **View** opens the **Result** page:
  
 ![Result page](../images/wpa/use/result-1-2.png)
 
-This page includes analysis details, such as: the analysis name, date range, name and size of the reference group, and the name and size of the other group.
+The Result page includes analysis details, such as: the analysis name, date range, name and size of the reference group, and the name and size of the other group.
 
 The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Workplace Analytics selects these three metrics from among highly correlated metrics that are unique to this type of analysis.) The results that you see are comparisons of raw averages between the reference group and the other group. 
 
