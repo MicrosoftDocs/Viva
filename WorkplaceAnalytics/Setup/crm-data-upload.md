@@ -4,8 +4,8 @@
 
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics 
-ms.date: 06/04/2019
-author: paul9955
+ms.date: 07/31/2019
+author: madehmer
 ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
