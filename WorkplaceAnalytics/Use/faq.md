@@ -6,7 +6,7 @@ title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 07/31/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -66,7 +66,7 @@ A9. You can assign analysts the Analyst Limited Access role, which limits them t
 
 ##### Q1. What causes the upload of the organizational (HR) data to fail?
 
-A1. An upload can fail if the data has invalid values, is missing required data, or the validity threshold for optional data is set too high. See [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats) and [Subsequent uploads of organizational data](../setup/upload-organizational-data.md) for details.
+A1. An upload can fail if the data has invalid values, is missing required data, or the validity threshold (checks for non-null values) for optional data is set too high. See [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats) and [Subsequent uploads of organizational data](../setup/upload-organizational-data.md) for details.
 
 ##### Q2. What format do I save the data upload file as?
 
@@ -126,7 +126,7 @@ A6. Yes. The data can include double byte characters, such as Japanese character
 
 ##### Q7. What percentage does Workplace Analytics require for the validity threshold for required fields?
 
-A7.	Workplace Analytics requires that the PersonId field meet 100% of the validity threshold, because each of row of data should have a PersonId for each person in your organization. The other required fields must be greater than 95% of the validity threshold.
+A7. Workplace Analytics requires that the PersonId field meet 100% of the validity threshold (which checks for non-null values), because each row of data should have a PersonId for each person in your organization. The other required fields must be greater than 95% of the validity threshold.
 
 ##### Q8. How do I append new columns onto an already existing organizational data file?
 
