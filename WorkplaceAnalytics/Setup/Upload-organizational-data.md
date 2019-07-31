@@ -5,8 +5,8 @@
 title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: paul9955
-ms.author: v-pascha
-ms.date: 03/18/2019
+ms.author: v-midehm
+ms.date: 07/31/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -164,7 +164,7 @@ Let's say that you've already uploaded at least 13 months of snapshot data, whic
 
 ### Set Validity threshold for custom fields
 
-The threshold depends on the intended use of the custom field. If you intend to use this data in much of your analysis, consider setting it to a high percentage. You can set a lower threshold for data that applies, for example, to only a small subset of people in your organization.
+The threshold checks for non-null values, so it depends on the intended use of the custom field. If you intend to use this data in much of your analysis, consider setting it to a high percentage. You can set a lower threshold for data that applies, for example, to only a small subset of people in your organization.
 
 #### Set a high value
 
