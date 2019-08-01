@@ -6,7 +6,7 @@ title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/30/2019
+ms.date: 08/01/2019
 ms.topic: article
 localization_priority: priority 
 ms.prod: mya
@@ -15,7 +15,7 @@ ms.prod: mya
 
 # Insights Outlook add-in
 
-**_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 E3, Office 365 E1, Office 365 Nonprofit E5, Office 365 G5, MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Business Premium, and Business Essentials_.**
+**_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 E3, Office 365 E1, Office 365 Nonprofit E5, Office 365 G5, MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Microsoft 365 E5, Microsoft 365 A5, Office 365 E3 Developer, Office 365 A3 for faculty/students, Microsoft 365 A3 for faculty/students, Business Premium, and Business Essentials_.**
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
