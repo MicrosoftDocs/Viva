@@ -4,7 +4,7 @@
 
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics 
-ms.date: 05/23/2019
+ms.date: 07/31/2019
 author: madehmer
 ms.author: v-midehm
 ms.topic: article
@@ -63,7 +63,7 @@ After you’ve identified what CRM data you want to upload, you need to export i
 
    ![CRM data template](../images/wpa/setup/crm-upload.png)
 
-The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a valid, non-null value for the attribute. The source file might still be valid even if some rows have invalid or missing values for some columns. The required attributes are set at 100%, which means every row must have valid, non-null values for these columns in the file.
+The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a non-null value for the attribute. The source file might still be valid even if some rows have missing values for some columns. The required attributes are set at 100%, which means every row must have non-null values for these columns in the file.
 
 ### Required and reserved attributes
 
@@ -76,7 +76,6 @@ The following **Required attributes** must match the exact column headings (case
 |**Accounts data**     |
 |Account ID or Number|AccountId |String |
 |Account Name |AccountName |String |
-|Account Owner Email |AccountOwnerEmail |Email |
 |Effective Date |AccountsStartDate |Date |
 |**Contacts data**           |
 |Account ID or Number |ContactsAccountId |String |
@@ -94,6 +93,7 @@ The following is a sample list of **Reserved attributes** that you can optionall
 |Source column in CSV |Optional attribute |Data type |
 |------|-----------|----------|
 |**Accounts data** |
+|Account Owner Email |AccountOwnerEmail |Email |
 |Parent Account |AccountName |String |
 |Parent Account ID |AccountId |String |
 |Relationship Type |AccountType |String |

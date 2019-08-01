@@ -6,7 +6,7 @@ title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/14/2019
+ms.date: 08/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -54,24 +54,6 @@ You can provide feedback for a suggestion by selecting **Feedback** in the sugge
 
    ![inline suggestions feedback](../../Images/mya/use/insights-feedback.png)
 
-## To opt out of inline suggestions
-
-1. To opt out of inline suggestions in Outlook, select the **Insights** icon on the Outlook Home ribbon.
-
-      ![Insights icon in Outlook](../../Images/mya/use/insights-icon.png)
-
-      If you are using Outlook on the web, the **Insights** icon is in the ellipsis menu when reading an email message or when sending a new message.
-
-     ![insights icon in Outlook on the web](../../Images/mya/use/owa-insights.png)
-
-2. Select the **Settings** (gear) icon in the Insights Add-in panel.
-
-   ![Insights settings](../../Images/mya/use/insights-settings.png)
-
-3. In **Settings**, for **Productivity inline suggestions**, change the setting to **Off**.
-
-      ![Turn productivity inline suggestions off](../../Images/mya/use/inline-off.png)
-
 ## Types of inline suggestions
 
 The following are a few of the suggestions you might see in Outlook.
@@ -91,3 +73,27 @@ The following are a few of the suggestions you might see in Outlook.
 ### Build better collaboration habits
 
 [!INCLUDE [Inline suggestions about collaboration](../../includes/inline-suggest-table-collab.md)]
+
+
+## Opt out of inline suggestions
+
+1. To opt out of inline suggestions in Outlook, select the **Insights** icon on the Outlook Home ribbon.
+
+      ![Insights icon in Outlook](../../Images/mya/use/insights-icon.png)
+
+      If you are using Outlook on the web, the **Insights** icon is in the ellipsis menu when reading an email message or when sending a new message.
+
+     ![insights icon in Outlook on the web](../../Images/mya/use/owa-insights.png)
+
+2. Select the **Settings** (gear) icon in the Insights Add-in panel.
+
+   ![Insights settings](../../Images/mya/use/insights-settings.png)
+
+3. In **Settings**, for **Productivity inline suggestions**, change the setting to **Off**.
+
+      ![Turn productivity inline suggestions off](../../Images/mya/use/inline-off.png)
+
+### If I am opted out, can I opt back in?
+
+Yes; if you opt yourself out, you can opt back in any time to regain access to inline suggestions.
+
