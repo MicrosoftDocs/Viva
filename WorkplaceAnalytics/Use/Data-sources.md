@@ -4,9 +4,9 @@
 
 title: Workplace Analytics data sources
 description: An overview of Sources in Workplace Analytics 
-author: paul9955
+author: madehmer
 ms.author: v-midehm
-ms.date: 05/30/2019
+ms.date: 08/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -18,6 +18,7 @@ ms.prod: wpa
 
 - [Sources](#sources)
   - [Office 365 data](#office-365-data)
+    - [Data-volume inconsistencies](#data-volume-inconsistencies)
   - [Organizational data](#organizational-data)
       - [Detailed coverage information for an attribute](#detailed-coverage-information-for-an-attribute)
   - [CRM data](#crm-data)
@@ -35,7 +36,7 @@ As an analyst, you can use this page to confirm that your Office 365 data is up-
   >[!Note]
   > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
 
-* **Internal collaborators**: These are unmeasured employees who were included in the latest extraction of Office 365 data with whom the _measured_ employees collaborated. These people are not part of your measured population but are internal to your organization. <!--Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.-->
+* **Internal collaborators**: These are unmeasured employees who were included in extractions of Office 365 data with whom the _measured_ employees collaborated. These people are not part of your measured population but are internal to your organization. <!--Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.-->
 
 * **External collaborators**: These are people outside of your company or external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
 
@@ -72,7 +73,7 @@ As either an admin or an analyst, you can use this page to understand the data's
 The following is listed in the table on this page.
 
 * **Attributes**: These attributes are provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.
-* **Employees with attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
+* **Employees with this attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
 * **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
 * **Unique values**: The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
@@ -88,13 +89,13 @@ The following is listed in the table on this page.
 
 This detailed coverage page includes the following.
 
-* **Coverage over time**: This chart shows how the attribute when the data was last uploaded and processed, which is at the top of the list.
+* **Coverage over time**: This chart shows the coverage for the attribute at different moments in time. You can adjust the increments of time, and the range of the chart, in the **Page Settings** panel to the right of the page.
 * **Values**: Lists all values for the selected attribute provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
 * **Employees with value**: This shows the number of people that have that attribute value in the data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
 * **Coverage**: Shows the percentage of measured employees with that value.
 
 >[!Note]
-> Select Download Excel to view the complete list of attribute details for that have more than 500 value for the page view. To view the list for a different attribute, go back to the Organizational data intro page and select its name from the table.
+> Select Download Excel to view the complete list of attribute details for that have more than 500 value for the page view. To view the list for a different attribute, you can select a different attribute in **Attribute Details**.
 
 For more information about what data is needed for metric calculations, see:
 
@@ -106,7 +107,7 @@ For more information about what data is needed for metric calculations, see:
 
 This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
-By combining this data in Workplace Analytics, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team?
+By combining this data in Workplace Analytics, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team.
 
 The **Join coverage** section describes the percent overlap between the uploaded list of accounts and the other uploaded lists of important CRM data, such as contacts and seller assignments, as shown in the following graphic. The higher the percentage overlap the more accurate analysis you can accomplish.
 
@@ -115,7 +116,7 @@ The **Join coverage** section describes the percent overlap between the uploaded
 For join coverage based on the latest data uploads, you might see one of the following important notices, as shown in the following graphic.
 
 * **Data is not associated**: This occurs when one or more attributes cannot be associated between the two sets of data for join coverage. You can select to download a .csv file and view the contacts or sellers that can't be associated with the corresponding accounts in the accounts table.
-* **Data has not been processed**: This occurs when an upload hasn't been done yet, the data is currently being processed, or something failed during the validation or data processing phase. You can select the link to the Upload page and view the current status of the upload, correct any issues, or upload new data. You can also ignore this warning, if you don't plan to upload that specific data file.
+* **Data has not been processed**: This occurs when an upload hasn't been done yet, the data is currently being processed, or something failed during the validation or data processing phase. You can select the link to the Upload page and view the status of the upload, correct any issues, or upload new data. You can also ignore this warning if you don't plan to upload that specific data file.
 
 ![CRM join notices](../images/wpa/Use/crm-join-notices.png)
 
@@ -125,10 +126,10 @@ You can select one of the data titles, such as accounts or contacts, to view a l
 
 Similar to the Organizational data page, the CRM data attributes list includes the following.
 
-* **Data upload date and time**: Shows when the data was last uploaded and processed, which is at the top of the list.
+* **Data upload date**: Shows when the data was last uploaded and processed, which is at the top of the list.
 * **Attribute**: Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
-* **Employees with attribute**: Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
-* **Coverage**: Shows the percentage of attributes that have non-blank values. For example in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the AccountAnnualRevenue attribute.
+* **Employees with this attribute**: Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
+* **Coverage**: Shows the percentage of attributes that have non-blank values. For example, in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the AccountAnnualRevenue attribute.
 * **Unique values**: The count of the unique attribute values included in the data.
 
 ![View CRM attributes for accounts](../images/wpa/Use/crm-account-attributes.png)
