@@ -107,7 +107,8 @@ By using blob storage as the data source, you can get more complete analysis bas
 
 After you auto-categorize the full dataset, you'll see email activity included in the data analysis. The following graphic shows analysis with email activity.
 
-   ![Email activity included in the analysis](./images/pexp-email-analysis.png)
+   ![Email activity included in the analysis](./images/pexp-analysis-b.png)
+   ![Email activity included in the analysis too](./images/pexp-analysis-c.png)
 
 ## Related topics
 
