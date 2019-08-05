@@ -82,15 +82,15 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
 2. At the top right of the **Graph Analysis** page, select **Load Saved Graph**.
 3. Select the name of the graph that you want to view.
 
-## Scale nodes
+## Node Sizing
 
-You can select a measure to scale the data and change how it's shown in the graph. The data and the filters you select for the graph determine what a node represents (people or groups) and what graph measures are available, such as Number of employees or Density.
+You can apply the following node sizing options to change how the data is measured and shown in the graph. The data and the filters you select for the graph determine what a node represents (people or groups) and what graph measures are available, such as Number of employees (only available in Combined View) or Density (only available in Node view).
 
 ![Organization Network Analysis measures](./images/ona-measures.png)
 
 ### Number of employees
 
-The node size is based on the number of people in that particular group. The larger node sizes represent the nodes with the larger number of people in that network.
+This option is only available in Combined View. The node size is based on the number of people in that particular group. The larger node sizes represent the nodes with the larger number of people in that network.
 
 ### Betweenness
 
@@ -106,7 +106,7 @@ Degrees measures the highest number of links to other nodes within the network. 
 
 ### Density
 
-Density measures cohesion within groups and across groups by density, which is a table view. As shown in the following graphic, the table depicts the density score within and across the respective groups, where: 
+This option is only available in Node View. Density measures cohesion within groups and across groups by density, which is a table view. As shown in the following graphic, the table depicts the density score within and across the respective groups, where: 
  **Density** = **Actual connections**/**Potential connections**
 
 ![Density table](./images/ona-density-table.png)
