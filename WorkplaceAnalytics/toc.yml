@@ -121,6 +121,8 @@
                   href: ~/tutorials/Solutions-participants.md                                       
                 - name: Concepts
                   href: ~/tutorials/Solutions-conceptual.md
+            - name: Solutions scan
+              href: ~/Use/solutions-scan.md
     - name: Notifications
       href: ~/use/wpa-notifications.md     
     - name: Frequently asked questions
