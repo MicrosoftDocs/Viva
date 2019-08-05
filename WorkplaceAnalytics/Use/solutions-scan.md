@@ -6,7 +6,7 @@ title: Solutions scan in Workplace Analytics
 description: Learn how to scan for opportunities in Workplace Analytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/30/2019
+ms.date: 08/05/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -59,7 +59,7 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
 
 In the following example walkthrough, we look at the _Increase focus_ opportunity to see how to take advantage of an opportunity to create a plan for a group.
 
-### Start a plan from an opportunity
+### To start a plan from an opportunity
 
 **Role:** analyst, limited analyst, or program manager
 
