@@ -4,8 +4,8 @@
 
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics 
-ms.date: 06/04/2019
-author: paul9955
+ms.date: 07/31/2019
+author: madehmer
 ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
@@ -63,7 +63,7 @@ After you’ve identified what CRM data you want to upload, you need to export i
 
    ![CRM data template](../images/wpa/setup/crm-upload.png)
 
-The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a valid, non-null value for the attribute. The source file might still be valid even if some rows have invalid or missing values for some columns. The required attributes are set at 100%, which means every row must have valid, non-null values for these columns in the file.
+The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have a non-null value for the attribute. The source file might still be valid even if some rows have missing values for some columns. The required attributes are set at 100%, which means every row must have non-null values for these columns in the file.
 
 ### Required and reserved attributes
 
