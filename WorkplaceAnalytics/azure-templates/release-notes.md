@@ -3,11 +3,10 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Process Explorer Azure Template for Workplace Analytics 
-description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
+title: Release Notes for Workplace Analytics Azure Templates
+description: Learn about what new Azure Templates or new functionality has been released for Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 07/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,7 +19,7 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
-## July 2019
+## August 2019
 
 The following new template and template enhancements are now available.
 
@@ -29,13 +28,13 @@ The following new template and template enhancements are now available.
 This release adds a new Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
-
+<!-- 
 ### Group Analysis Azure Template
 
-This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them. 
+This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them.
 
 To learn more, see [Group Analysis Azure Template](./group-analysis.md).
-
+-->
 ### Organization Network Analysis Azure Template
 
 The following enhancements and features are included in the Organization Network Analysis (ONA) Azure Template.

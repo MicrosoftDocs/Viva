@@ -7,7 +7,6 @@ title: Group Analysis Azure Template for Workplace Analytics
 description: Learn about the Group Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
 ms.author: v-midehm
-ms.date: 07/23/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

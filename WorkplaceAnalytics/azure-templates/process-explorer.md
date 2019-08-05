@@ -7,7 +7,6 @@ title: Process Explorer Azure Template for Workplace Analytics
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
 ms.author: v-midehm
-ms.date: 07/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -68,12 +67,12 @@ After you categorize a good sample of meetings into the specified categories, yo
    * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
    * **Max Meetings to Show** to set the maximum number of meetings to include in the list or show in the word cloud.
-   * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and meeting list to include.
 
 4. In **Query Builder** > **Filter Meetings**, you can filter the meetings shown in the list with the following options, and then select **Run query**.
 
    * **Filter by Sources** to select the analyst and/or the model to filter the meetings by, which are those meetings that were categorized manually by the analyst or those categorized automatically by the model.
    * **Filter by Categories** to select one or more categories to filter the meetings by, such as budget, as shown in the following graphic.
+   * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and meeting list to include.
 
      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
@@ -87,9 +86,9 @@ After you categorize a good sample of meetings into the specified categories, yo
    * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
    * After you categorize a good sample of related meetings for all the categories you want to evaluate, you can select **Auto-Categorize Full Dataset** for .csv datasets, or **Auto-Categorize Meetings** for blob storage datasets, and the template will automatically assign a category to all meetings in the whole dataset based on the sample categorizations.
 
-   ![Auto-categorize meetings](./images/pexp-meeting-categorize.png)
-
    ![Auto-categorize full dataset](./images/pexp-refine.png)
+
+   ![Auto-categorize meetings](./images/pexp-meeting-categorize.png)
 
    > [!Note]
    > After you auto-categorize a dataset that’s source is a .csv file, the analysis changes to read-only and you cannot add new or change categories or re-categorize any of the meeting data in this dataset for this categorization.
@@ -102,8 +101,8 @@ By using blob storage as the data source, you can get more complete analysis bas
 
 ## To categorize email for analysis
 
-1. Before you categorize the full dataset that includes email, which could take a lot of time depending on the size of the dataset, use the query builder to filter meetings to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
-2. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all email in the whole dataset based on the sample categorizations.
+1. Before you spend time and resources categorizing a full dataset that includes email, go to **Query Builder** > **Filter Meetings** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
+2. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations.
 3. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis).
 
 After you auto-categorize the full dataset, you'll see email activity included in the data analysis. The following graphic shows analysis with email activity.
