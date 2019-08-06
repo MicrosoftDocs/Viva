@@ -90,7 +90,7 @@ After you categorize a good sample of meetings into the specified categories, yo
      ![Auto-categorize full dataset](./images/pexp-refine.png)
 
     > [!Note]
-   > After you auto-categorize a dataset that’s source is a .csv file, the analysis changes to read-only and you cannot add new or change categories.
+   > After you auto-categorize the full dataset that’s based on a .csv file, the analysis changes to read-only. Afterwards, you cannot add new or change the categories for this specifc analysis. However, you can use **Refine categorization** as desciribed in the next step.
 
 6. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add or change the categories.
 
