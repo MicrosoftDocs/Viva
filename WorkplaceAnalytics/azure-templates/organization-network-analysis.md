@@ -84,7 +84,7 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
 
 ## Node Sizing
 
-You can apply the following node sizing options to change how the data is measured and shown in the graph. The data and the filters you select for the graph determine what a node represents (people or groups) and what graph measures are available, such as Number of employees (only available in Combined View) or Density (only available in Node view).
+You can apply the following node sizing options to change how the data is measured and shown in the graph.
 
 ![Organization Network Analysis measures](./images/ona-measures.png)
 
@@ -106,7 +106,7 @@ Degrees measures the highest number of links to other nodes within the network. 
 
 ### Density
 
-This option is only available in Node View. Density measures cohesion within groups and across groups by density, which is a table view. As shown in the following graphic, the table depicts the density score within and across the respective groups, where: 
+Density measures cohesion within groups and across groups by density, which is a table view. As shown in the following graphic, the table depicts the density score within and across the respective groups, where: 
  **Density** = **Actual connections**/**Potential connections**
 
 ![Density table](./images/ona-density-table.png)
@@ -120,7 +120,7 @@ As shown in the following graphic, Engineering, R&D, and Sales are key influence
 
 ### Interconnectedness
 
-Interconnectedness is a measure of how diverse a node’s connections are. The higher the interconnection for a node, the more that node’s connections come from other nodes. The nodes with high interconnection can be good ambassadors and help drive collaboration for the intersecting nodes.
+This option is only available in Node View. Interconnectedness is a measure of how diverse a node’s connections are. The higher the interconnection for a node, the more that node’s connections come from other nodes. The nodes with high interconnection can be good ambassadors and help drive collaboration for the intersecting nodes.
 
 ### Graph notes
 
