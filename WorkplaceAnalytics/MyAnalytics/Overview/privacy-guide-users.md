@@ -17,7 +17,7 @@ audience: Admin
 
 # Privacy guide for MyAnalytics users
 
-MyAnalytics helps you find opportunities to build better habits and get back in control of your time. This article describes how MyAnalytics works, what data it uses, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how MyAnalytics complies with GDPR regulations.   
+MyAnalytics helps you find opportunities to build better habits and get back in control of your time. This article describes how MyAnalytics works, what data it uses, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how MyAnalytics complies with GDPR regulations.    
 
 ## Summary of key points
 
