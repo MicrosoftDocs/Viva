@@ -27,7 +27,7 @@ After you upload a dataset, you can use the word cloud to help you decide what c
 
 After you categorize a good sample of meetings into the specified categories, you can:
 
-* View meeting data based on those categories with visual charts and lists, as shown in the following graphic.
+* View meeting data based on those categories with visual charts and lists.
 * Select to **Auto-Categorize Full Dataset** based on the sample meeting categorizations already done by you, as the analyst.
 * Use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analysis.
 
@@ -85,12 +85,11 @@ After you categorize a good sample of meetings into the specified categories, yo
 
      ![Auto-categorize meetings](./images/pexp-meeting-categorize.png)
 
-   * After you categorize a good sample of related meetings for all the categories you want to evaluate, you can select **Auto-Categorize Full Dataset** for .csv datasets, or **Auto-Categorize Meetings** for blob storage datasets, and the template will automatically assign a category to all meetings in the whole dataset based on the sample categorizations.
+   * After you categorize a good sample of related meetings for all the categories you want to evaluate, you select **Auto-Categorize Meetings**.
+     * For .csv datasets, this will categorize all of the meetings uploaded in the .csv file. 
+     * For blob storage datasets, this will categorize a representative sample of about 10,000 meetings. See [to categorize email for analysis](#to-categorize-email-for-analysis) for next steps on categorizing the full dataset.
 
      ![Auto-categorize full dataset](./images/pexp-refine.png)
-
-    > [!Note]
-   > After you auto-categorize the full dataset that’s based on a .csv file, the analysis changes to read-only. Afterwards, you cannot add new or change the categories for this specifc analysis. However, you can use **Refine categorization** as desciribed in the next step.
 
 6. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add or change the categories.
 
@@ -103,9 +102,9 @@ You can only analyze email activity when the data source is blob (cloud) storage
 ## To categorize email for analysis
 
 1. Follow the steps to add the blob storage dataset.
-2. Follow the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **step 5**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
+2. Follow the steps [to auto-categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **step 5**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
 3. After the meetings are auto-categorized, go to **Query Builder** > **Filter Meetings** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
-4. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations, which will take time based on the size of the dataset.
+4. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this might take some time based on the size of the dataset.
 5. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis).
 
 After you auto-categorize the full dataset, you'll see email activity included in the data analysis. The following graphic shows analysis that includes email activity.
