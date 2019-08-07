@@ -6,7 +6,7 @@ title: MyAnalytics email digest
 description: MyAnalytics users receive a weekly email digest with key insights and suggestions
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/14/2019
+ms.date: 08/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -14,7 +14,7 @@ ms.prod: mya
 
 # MyAnalytics email digest
 
-_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
 
 As a MyAnalytics user, you'll receive a weekly email digest with suggestions to help you better understand your work patterns and ways to improve them.
 
