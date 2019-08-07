@@ -6,7 +6,7 @@ title: Privacy guide for MyAnalytics admins
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/24/2019
+ms.date: 08/07/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -186,17 +186,17 @@ The week after the welcome email is delivered, users begin to receive the [weekl
 
 As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics:
 
-1. **Secure and protect personal data of data subjects**.
+1. **Secure and protect personal data of users**.
     All MyAnalytics data is stored in the employees’ Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
     * Microsoft will not mine customer data in Exchange Online for advertising.
     * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
     * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 
-2. **Notify data subjects in the event that a breach is detected**.
+2. **Notify users in the event that a breach is detected**.
    Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Office 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 
-3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**.
-    Microsoft supports your need to honor data subject requests in the following ways:
+3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
+    Microsoft supports your need to honor user requests in the following ways:
     * Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR). Separately, people can also take screenshots of their MyAnalytics dashboards.
     * Request to restrict processing:
       * Use PowerShell to opt employees out of MyAnalytics 

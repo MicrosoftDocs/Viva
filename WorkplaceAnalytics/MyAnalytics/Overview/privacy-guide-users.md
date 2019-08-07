@@ -6,7 +6,7 @@ title: Privacy guide for MyAnalytics users
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/24/2019
+ms.date: 08/07/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -117,6 +117,6 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
 
  * **Secure and protect personal data**. Because all MyAnalytics data is stored in your Exchange Online mailbox, MyAnalytics meets this security obligation by virtue of Exchange Online also meeting the obligation. 
 
- * **Requests to export, delete, or restrict processing personal data**. Microsoft supports data subject requests, such as requests for export of or deletion of data. 
+ * **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data. 
 
 For more information, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
