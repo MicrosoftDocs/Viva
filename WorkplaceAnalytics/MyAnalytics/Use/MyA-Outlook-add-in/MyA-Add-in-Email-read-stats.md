@@ -5,8 +5,8 @@
 title: Email read statistics in Insights
 description: See what proportion of recipients opened email from you in Insights
 author: paul9955
-ms.author: v-pascha
-ms.date: 07/30/2019
+ms.author: v-midehm
+ms.date: 08/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
