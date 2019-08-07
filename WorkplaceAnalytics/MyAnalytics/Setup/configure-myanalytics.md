@@ -16,7 +16,7 @@ ms.prod: mya
 
 **Role:** Office 365 admins
 
-The steps in this topic describe how to configure MyAnalytics for the users in your organization. Note the following: 
+The steps in this topic describe how to configure MyAnalytics for the users in your organization. Note the following:
 
  * **Prerequisite:** Users have access to MyAnalytics only if they have licenses that include the MyAnalytics service plan, as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 

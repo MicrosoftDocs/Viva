@@ -38,6 +38,9 @@ The Wellbeing section shows how well you are disconnecting from work during your
 
 For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
+> [!Tip] 
+> The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md). 
+
 ## Network and Collaboration
 
 The Network section shows information about your relationships with the people in your network, which is based on your work activities over the past year.

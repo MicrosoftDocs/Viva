@@ -28,9 +28,9 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 ## What you might see
 
-In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**.
+In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**.
 
-You'll see Insights in the right panel in Outlook: 
+You'll see Insights in the right panel in Outlook:
 
 ![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
@@ -41,6 +41,28 @@ You'll see Insights in the right panel in Outlook:
 ## Privacy by design 
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
+
+<!-- PER PETERB 23 JULY 2019: DO NOT PUBLISH THIS. 
+IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH. 
+
+## To add tasks to your focus time
+
+1.	In Outlook, select **Insights**.
+
+2.	In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
+
+3.	On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
+
+     * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
+
+       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
+
+     * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
+
+       Select **Add** to add this task to the already scheduled focus time block on your calendar.  
+     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** panel.
+
+-->
 
 ## Opt out of the Insights add-in
 
@@ -60,7 +82,4 @@ Follow these steps to remove the Insights add-in from the Outlook ribbon.
 3. In **Admin-managed add-ins**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
 
     ![Remove Insights](../../Images/mya/use/remove-insights.png)
-
-
-
 
