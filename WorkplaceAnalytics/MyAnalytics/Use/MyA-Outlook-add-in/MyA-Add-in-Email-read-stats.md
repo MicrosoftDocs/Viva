@@ -12,9 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Email read statistics 
-
-_**Applies to:** Only available to users of the different Microsoft Office 365 and Microsoft 365 level 5 plans that are listed in [MyAnalytics plans and environments](../overview/plans-environments.md._
+## Email read statistics
 
 Insights can tell you how many people have opened your emails and how long they spent reading them. In general, it informs you about emails that you sent to five or more Office 365 users who are internal to your company. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 

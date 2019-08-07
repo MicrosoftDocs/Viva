@@ -14,9 +14,7 @@ ms.prod: mya
 
 <!-- For now, include this content in the add-in.md topic -->
 
-## Meeting preparation 
-
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
+## Meeting preparation
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](https://opdhsblobprod03.blob.core.windows.net/contents/c061aa4c5f284dcfb016c4d96b230182/95fb77fe28fe39b17203a7456d0dd375?sv=2015-04-05&sr=b&sig=o8cKngRwoHzQtgoIV%2Blbt6PfYaPkhxOrGNY3pj94AsI%3D&st=2019-07-22T16%3A46%3A11Z&se=2019-07-23T16%3A56%3A11Z&sp=r).
 
