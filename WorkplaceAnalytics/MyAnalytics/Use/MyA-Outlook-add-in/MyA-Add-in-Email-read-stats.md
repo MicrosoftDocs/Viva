@@ -6,7 +6,7 @@ title: Email read statistics in Insights
 description: See what proportion of recipients opened email from you in Insights
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/11/2019
+ms.date: 08/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -14,7 +14,7 @@ ms.prod: mya
 
 ## Email read statistics 
 
-_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and the MyAnalytics add-on**_
+_**Applies to:** Only available to users of the different Microsoft Office 365 and Microsoft 365 level 5 plans that are listed in [MyAnalytics plans and environments](../overview/plans-environments.md._
 
 Insights can tell you how many people have opened your emails and how long they spent reading them. In general, it informs you about emails that you sent to five or more Office 365 users who are internal to your company. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
