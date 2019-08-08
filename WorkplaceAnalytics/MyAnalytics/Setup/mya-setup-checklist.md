@@ -73,7 +73,7 @@ You can configure access to MyAnalytics elements for all the users in your organ
 #### Dashboard and weekly email
 
 > [!Note] 
-> This functionality will become available soon. 
+> This functionality will become available during or after August, 2019. 
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
