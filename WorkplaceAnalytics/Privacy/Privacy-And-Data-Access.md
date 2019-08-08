@@ -4,9 +4,9 @@
 
 title: Workplace Analytics privacy and data access
 description: Discusses the privacy and data access controls available in Workplace Analytics  
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 08/08/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -42,7 +42,7 @@ You retain full control over what data is used and how it is used within Workpla
 
 ## Data from Office 365
 
-Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user’s mailbox and calendar:
+Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user's mailbox and calendar:
 
 ### Header information from emails
 
@@ -59,8 +59,22 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 * Where the meeting was scheduled to be held
 * What the subject line is
 
->[!Important]
->Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
+### Header information from IMs
+
+* Who sent the IM
+* Who received the IM
+* When the IM was sent
+
+### Header information from calls
+
+* Who organized the call
+* When the call was joined
+* Who the invitees were and what their attendee/call join status was
+* When the call was scheduled (if it was a scheduled call)
+* The duration of the call
+
+> [!Important] 
+> Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
 
 ## Organizational data
 
