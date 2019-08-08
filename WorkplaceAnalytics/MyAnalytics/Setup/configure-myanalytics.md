@@ -92,8 +92,6 @@ As the Office 365 admin, you have two ways to configure defaults for MyAnalytics
  * The first way is to [configure access at the tenant level](#configure-access-at-the-tenant-level). You can use these settings to set organization-wide defaults for MyAnalytics elements 
  * The second way is to [configure access at the user level](#configure-access-at-the-user-level). You can use this to set defaults that affect complete MyAnalytics functionality for particular users. 
 
-
-
 <!-- REMOVED IN FAVOR OF KALYAN'S NEW ORGANIZATION (ABOVE)
 As the Office 365 admin, you can set a starting point for the MyAnalytics users in your organization. You can do this for all users at once, for just some of them, or for individual users. By default, this starting point is "opted in." This means that, by default, users have access to MyAnalytics. You can change this starting point from "opted in" to "opted out"&mdash;either for all of MyAnalytics or for its individual parts&mdash;by completing the steps in the following sections. 
 -->
@@ -108,7 +106,7 @@ You can configure access to MyAnalytics elements for all the users in your organ
 #### Dashboard and weekly email
 
 > [!Note] 
-> This functionality will become available at the end of July 2019.
+> This functionality will become available during or after August, 2019. 
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
