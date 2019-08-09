@@ -32,7 +32,7 @@ A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 
 
 ##### Q2. Does Workplace Analytics retain and use data about employees that no longer work for the organization?
 
-A2. Workplace Analytics maintains historical organizational data that can include past (previously licensed) employees’ de-identified data. A change to organizational data is updated in Workplace Analytics the next time it is received and processed (usually monthly) by Workplace Analytics. However, new changes do not affect historical data used by Workplace Analytics. For more details, see [How often to upload in Prepare organizational data](../setup/prepare-organizational-data.md#how-often-to-upload-organizational-data).
+A2. Workplace Analytics maintains historical organizational data that can include the de-identified data of past (previously licensed) employees. Organizational data is updated each time Workplace Analytics receives and processes it (usually monthly). However, the appearance of new data does not affect historical data. For more information, see [Prepare organizational data > How often to upload](../setup/prepare-organizational-data.md#how-often-to-upload-organizational-data).
 
 ##### Q3. How many people should be Workplace Analytics admins and/or analysts?
 
