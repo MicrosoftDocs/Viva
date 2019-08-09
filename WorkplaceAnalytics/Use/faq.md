@@ -38,8 +38,10 @@ A2. Workplace Analytics maintains historical organizational data that can includ
 
 A3. This depends on the size of your organization and your requirements for managing organizational data. The number of analysts should be as many as your organization requires to perform data analysis. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](../use/user-roles.md) for more details.
 
+<!-- THIS ANSWERED A QUESTION FROM JEREMY. REMOVE FOR NOW. 
 > [!Tip] 
-> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partitions-in-wpa). 
+> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partitions-in-wpa). -->
+
 
 ##### Q4. Can our organization’s Office 365 admin also be our Workplace Analytics admin?
 
