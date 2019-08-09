@@ -20,7 +20,7 @@ audience: Admin
 This article presents the steps that administrators take to upload (import) organizational data to Workplace Analytics. Complete these steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
   > [!Important] 
-  > Follow the steps in this section if this is **not** the first time that you have uploaded organizational data to Workplace Analytics. If this **is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
+  > If this is the first time that you are uploading organizational data to Workplace Analytics, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is **not** the first time that you have uploaded organizational data to Workplace Analytics, you are in the right place: Follow the steps in this article.  
 
 ## Import tasks
 
