@@ -32,14 +32,16 @@ A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 
 
 ##### Q2. Does Workplace Analytics retain and use data about employees that no longer work for the organization?
 
-A2. Workplace Analytics maintains historical organizational data that can include past (previously licensed) employees’ de-identified data. A change to organizational data is updated in Workplace Analytics the next time it is received and processed (usually monthly) by Workplace Analytics. However, new changes do not affect historical data used by Workplace Analytics. For more details, see [How often to upload in Prepare organizational data](../setup/prepare-organizational-data.md#how-often-to-upload-organizational-data).
+A2. Workplace Analytics maintains historical organizational data that can include the de-identified data of past (previously licensed) employees. Organizational data is updated each time Workplace Analytics receives and processes it (usually monthly). However, the appearance of new data does not affect historical data. For more information, see [Prepare organizational data > How often to upload](../setup/prepare-organizational-data.md#how-often-to-upload-organizational-data).
 
 ##### Q3. How many people should be Workplace Analytics admins and/or analysts?
 
 A3. This depends on the size of your organization and your requirements for managing organizational data. The number of analysts should be as many as your organization requires to perform data analysis. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](../use/user-roles.md) for more details.
 
+<!-- THIS ANSWERED A QUESTION FROM JEREMY. REMOVE FOR NOW. 
 > [!Tip] 
-> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partitions-in-wpa). 
+> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partitions-in-wpa). -->
+
 
 ##### Q4. Can our organization’s Office 365 admin also be our Workplace Analytics admin?
 
@@ -236,6 +238,6 @@ A3. You can use the Collaboration hours metric to filter for a specific time fra
 
 A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-##### Q5. Executive assistants can organize meetings on behalf of a leader. Do such meetings count as organized by the _leader_ or by the _executive assistant_ in Workplace Analytics calculations? For example, if this meeting is a 1:1, does it count as a three-person meeting (including the executive assistant) or as two-person meeting (with only the leader and the invitee included)? 
+##### Q5. Executive assistants can organize meetings on behalf of a leader. Do such meetings count as organized by the _leader_ or by the _executive assistant_ in Workplace Analytics calculations? For example, if this meeting is a 1:1, does it count as a three-person meeting (including the executive assistant) or as two-person meeting (including only the leader and the invitee)?  
 
 A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant in the meeting.  
