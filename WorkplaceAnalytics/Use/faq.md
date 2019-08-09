@@ -6,7 +6,7 @@ title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/31/2019
+ms.date: 08/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -37,6 +37,9 @@ A2. Workplace Analytics maintains historical organizational data that can includ
 ##### Q3. How many people should be Workplace Analytics admins and/or analysts?
 
 A3. This depends on the size of your organization and your requirements for managing organizational data. The number of analysts should be as many as your organization requires to perform data analysis. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](../use/user-roles.md) for more details.
+
+> [!Tip] 
+> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partitions-in-wpa). 
 
 ##### Q4. Can our organization’s Office 365 admin also be our Workplace Analytics admin?
 
@@ -229,6 +232,10 @@ A2. If the result of a query defines the same set of people as members of both t
 
 A3. You can use the Collaboration hours metric to filter for a specific time frame, regardless of when it occurs. Note that query results that use the Collaboration hours to filter for a time period that includes after-hours time, such as 8 PM to 8 AM, will include all people who collaborated during this time regardless of if they have this time period set as their working or non-working hours on their calendar.
 
-##### Q4 Why don’t totals for meeting hours and email hours match up with totals for working hours and after hours in person query output?
+##### Q4. Why don’t totals for meeting hours and email hours match up with totals for working hours and after hours in person query output?
 
 A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
+
+##### Q5. Executive assistants can organize meetings on behalf of a leader. Do such meetings count as organized by the _leader_ or by the _executive assistant_ in Workplace Analytics calculations? For example, if this meeting is a 1:1, does it count as a three-person meeting (including the executive assistant) or as two-person meeting (with only the leader and the invitee included)? 
+
+A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant in the meeting.  
