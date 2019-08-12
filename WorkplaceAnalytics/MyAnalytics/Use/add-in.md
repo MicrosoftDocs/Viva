@@ -6,7 +6,7 @@ title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/06/2019
+ms.date: 08/12/2019
 ms.topic: article
 localization_priority: priority 
 ms.prod: mya
@@ -35,6 +35,8 @@ You'll see Insights in the right panel in Outlook:
 ![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
+
+[!INCLUDE [Follow up on tasks](MyA-Outlook-add-in/mya-add-in-follow-up.md)]
 
 [!INCLUDE [Meeting preparation](meeting-prep-card.md)]
 
