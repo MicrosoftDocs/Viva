@@ -117,7 +117,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated. A notification displays the status of these actions.
+After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated. A notification displays the status of these actions. 
 
 The file is uploading:
 

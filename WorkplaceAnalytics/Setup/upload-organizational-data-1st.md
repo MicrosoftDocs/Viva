@@ -175,7 +175,7 @@ After this phase completes, the file has either passed or failed validation. Go 
 
 ## Validation succeeds
 
-If validation succeeds, in the **Validation results** section, the page displays the _Succeeded_ notification, which reports information about the data that was successfully uploaded and validated:
+If validation succeeds, in the **Validation results** section, the page displays the _Succeeded_ notification, which reports information about the data that was successfully uploaded and validated: 
 
 ![Validation succeeded](../images/wpa/setup/4-orgd-reprocess.png)
 
