@@ -16,7 +16,7 @@ ms.prod: wpa
 
 ## One-time queries show you a snapshot
 
-As an analyst, you can run different kinds of queries in Workplace Analytics, including person, meeting, group-to-group, and person-to-group queries to get a snapshot of workplace behavior.
+As an analyst, you can run different kinds of queries in Workplace Analytics, including person, meeting, group-to-group, and person-to-group queries to get a snapshot of workplace behavior. 
 
 You can run a query as a one-time event where you set it up, run it one time, and get the results. To visualize workplace patterns uncovered by this query, you can load the results into a data analysis tool, such as Power BI or Excel.
 
@@ -27,7 +27,9 @@ Query results, especially when viewed in a data analysis tool, can uncover dynam
 ## Create a query with the auto-refresh option
 
 > [!Note] 
-> An organization can have a maximum of 20 auto-refresh queries. If your organization has already reached this limit, to create a new auto-refresh query, you must first either delete an auto-refresh query or turn auto-refresh off for a query (on the **Queries > Results** page). 
+> Generally, an organization can have a maximum of 20 auto-refresh queries. If your organization has already reached this limit and you need a new auto-refresh query, you have the following options: 
+> * Delete an existing auto-refresh query or turn auto-refresh off for a query (on the **Queries > Results** page). Then, create your new auto-refresh query.
+> * Contact Workplace Analytics to request additional auto-refresh queries. To do this, follow the instructions in the "Workplace Analytics Support" row under [Get support](../overview/getting-support.md).
 
 [!INCLUDE [To create an auto-refresh query](../Includes/to-create-auto-refresh-query.md)]
 
@@ -57,11 +59,9 @@ Follow these steps only for a query that has already run and for which auto-refr
 
  * When you create the query, you run it for the first time. As it runs, it uses data from the exact date range that you defined.
 
- * The query automatically runs again, once every week. Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange.
+ * The query automatically runs again, once for every time period that you selected (such as week or month). Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange.
 
- * Each time the query runs automatically, its date range advances by one week. That is, its start date becomes one week later and its end date also becomes one week later.  
-
- * Workplace Analytics will auto-refresh the query of the weekly schedule for one year. **[WHAT DOES THIS MEAN?]**
+ * Each time the query runs automatically, its date range advances by one unit of the time period that you selected (such as week or month). That is,both its start date and its end date shift shift to a later date by the same amount of time.  
 
 ### Auto-refresh stop, restart, and expiration
 
@@ -69,7 +69,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 
  * The auto-refresh option of a query expires after two months. The **Auto refresh** column on the **Queries > Results** page shows whether auto-refresh is currently turned on for the query represented by that row:
 
-   ![Turn off auto-refresh status](../Images/WpA/Tutorials/auto-status-48.png)
+   ![Turn off auto-refresh status](../images/wpa/tutorials/auto-status-48.png)
 
  * After auto-refresh expires for a query, you can renew it. See [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option).  
 
@@ -77,7 +77,9 @@ Follow these steps only for a query that has already run and for which auto-refr
 
 ### Maximum number of auto-refresh queries
 
- * An organization can have a maximum of 20 auto-refresh queries. If your organization already has 20 queries set to auto-refresh, to create a new one, you must first either delete an auto-refresh query or turn auto-refresh off for a query. (See [Stop the auto-refresh option](#stop-the-auto-refresh-option).) 
+Generally, an organization can have a maximum of 20 auto-refresh queries. If your organization has already reached this limit and you need a new auto-refresh query, you have the following options: 
+ * Delete an existing auto-refresh query or turn auto-refresh off for a query (on the **Queries > Results** page). Then, create your new auto-refresh query.
+ * Contact Workplace Analytics to request additional auto-refresh queries. To do this, follow the instructions in the "Workplace Analytics Support" row under [Get support](../overview/getting-support.md).
 
 ## View query results with the auto-refresh option
 
