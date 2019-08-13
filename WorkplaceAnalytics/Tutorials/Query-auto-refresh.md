@@ -6,7 +6,7 @@ title: Use the auto-refresh option for queries in Workplace Analytics
 description: Describes the auto-refresh option for queries in Workplace Analytics.     
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/09/2019
+ms.date: 08/12/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -41,7 +41,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 2. In the row of the query, select the ellipsis.
 3. In the option menu, select **Turn off auto-refresh**: 
 
-   ![Turn off auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-on-48.png)
+   ![Turn off auto-refresh](../images/wpa/tutorials/auto-refresh-options-on-48.png)
 
 ## Start/re-start the auto-refresh option
 
@@ -51,7 +51,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 2. In the row of the query, select the ellipsis.
 3. In the option menu, select **Turn on auto-refresh**: 
 
-   ![Turn on auto-refresh](../Images/WpA/Tutorials/auto-refresh-options-off-48.png)
+   ![Turn on auto-refresh](../images/wpa/tutorials/auto-refresh-options-off-48.png)
 
 ## Auto-refresh details
 
@@ -95,13 +95,13 @@ On the **Results** page, you can copy a link to the query results and then use i
 
 1. To the right of the query's row, select **Copy link**:
 
-   ![Copy a query's results link](../Images/WpA/Tutorials/Get-results-link.png)
+   ![Copy a query's results link](../images/wpa/tutorials/Get-results-link.png)
 
 2. Select **Copy**. The Get results link dialog box displays the word "Copied."
 3. In Power BI, on the Home tab, select **Get Data**, and then select **OData feed**.
 4. In the **OData feed** dialog box, paste the link that you copied into the URL field:
 
-   ![OData feed in Power BI](../Images/WpA/Tutorials/OData-feed.png)
+   ![OData feed in Power BI](../images/wpa/tutorials/OData-feed.png)
 
 5. Select **OK**.
 6. Enter your client credentials, and then select **Connect**.
