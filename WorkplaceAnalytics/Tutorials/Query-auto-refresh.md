@@ -69,7 +69,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 
  * The auto-refresh option of a query expires after two months. The **Is Recurring** column on the **Queries > Results** page shows whether auto-refresh is currently turned on for the query represented by that row:
 
-   ![Turn off auto-refresh status](../images/wpa/tutorials/auto-status-48.png)
+   ![Turn off auto-refresh status](../images/wpa/tutorials/auto-status-48.png) 
 
  * After auto-refresh expires for a query, you can renew it. See [Start/re-start the auto-refresh option](#startre-start-the-auto-refresh-option).  
 
