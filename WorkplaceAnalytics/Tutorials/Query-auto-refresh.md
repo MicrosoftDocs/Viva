@@ -45,7 +45,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 
 ## Start/re-start the auto-refresh option
 
-Follow these steps only for a query that has already run and for which auto-refresh is not currently in effect. 
+Follow these steps only for a query that has already run and for which auto-refresh is not currently in effect.  
 
 1. In Workplace Analytics, open the **Queries > Results** page.
 2. In the row of the query, select the ellipsis.
