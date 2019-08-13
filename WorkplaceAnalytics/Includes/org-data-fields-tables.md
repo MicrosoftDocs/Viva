@@ -6,7 +6,7 @@ title: Descriptions of the custom fields table and columns in all of the fields 
 description: Information to help you map fields by using the fields tables.   
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/31/2019
+ms.date: 08/13/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -26,7 +26,7 @@ ms.prod: wpa
    >[!Note]
    >If the data type is Boolean, the value for the Boolean field must be TRUE or FALSE.
 
-* **Validity threshold** sets the percentage of rows in the uploaded file that must have a non-null value for the attribute. The source file might still be valid even if some rows have missing values for some columns.
+* **Validity threshold** sets the percentage of rows in the uploaded file that must have non-null values (no blanks) for the attribute. The source file might still be valid even if some rows have missing values for some columns. This setting is not intended to check or allow invalid values. A single invalid value, such as an incorrect data type, email address, or TimeZone string will cause the file upload to fail.
 
    <b>Summary of Validity threshold settings</b>
 
@@ -36,7 +36,7 @@ ms.prod: wpa
 
    * **Other system fields:** The Validation threshold for other system fields is set to 95% by default, but you can increase or decrease this value.
 
-   * **Custom fields:** See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields). 
+   * **Custom fields:** See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
 
 * **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation.
 
