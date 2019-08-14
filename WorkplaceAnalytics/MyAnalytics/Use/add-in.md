@@ -34,6 +34,8 @@ You'll see Insights in the right panel in Outlook:
 
 ![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
+## Email read statistics 
+
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 
 [!INCLUDE [Follow up on tasks](MyA-Outlook-add-in/mya-add-in-follow-up.md)]
