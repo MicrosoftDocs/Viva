@@ -4,7 +4,7 @@
 
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
 ms.date: 05/06/2019
 ms.topic: article
@@ -15,7 +15,7 @@ ms.prod: mya
 
 # MyAnalytics dashboard
 
-_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
+_**Applies to:** Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on_
 
 Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
