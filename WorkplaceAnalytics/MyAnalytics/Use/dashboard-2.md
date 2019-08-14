@@ -6,7 +6,7 @@ title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/06/2019
+ms.date: 08/13/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -22,7 +22,7 @@ Thank you for trying the new MyAnalytics experience. Welcome to your new persona
 Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
 > [!Note]
-> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details. 
 
 ## Home
 
