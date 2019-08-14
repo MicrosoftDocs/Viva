@@ -4,9 +4,9 @@
 
 title: Explore introduction
 description: Describes the analytical Explore cards in Workplace Analytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 06/17/2019
+ms.date: 07/23/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -27,4 +27,11 @@ Explore in Workplace Analytics includes the following set of analytical cards as
 
 ### Analyze and start Solutions
 
-* [**Organizational effectiveness**](../use/org-effectiveness.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
+* [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
+
+### Time limit for Explore data
+
+<!-- ORIGINAL: The historical data that populates the various **Explore** pages is time limited: These charts reflect data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash;after you have 27 months of data&mdash;with each month that passes, the 27-month limit of data that support the **Explore** pages advances by one month.  -->
+
+The historical data that populates the various **Explore** pages is time limited: These charts reflect data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash;after you have 27 months of data&mdash;as [Office 365 data](data-sources.md#office-365-data-summary) is refreshed each week, the 27-month extent of data that the **Explore** page reflects advances by one week.  
+

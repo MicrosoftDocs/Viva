@@ -7,7 +7,7 @@ title: Partitions in Workplace Analytics
 description: Description of partitions plus how to use and set up partitions in Workplace Analytics 
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/09/2019
+ms.date: 07/25/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -43,20 +43,18 @@ If you are an analyst, you must have a partition selected to be able to go to th
 
 ### To use a partition
 
-1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you’ll see a notice that alerts you to that fact:
-
-    ![Must have at least one partition](../images/wpa/setup/at-least-one-partition.png)  
+1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition." 
  
-If you see this notice, ask your Workplace Analytics admin to assign you to a partition. You cannot start using Workplace Analytics until an admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
+    If you see this notice, ask your Workplace Analytics admin to assign you to a partition. You cannot start using Workplace Analytics until an admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
 
-2.	What you see now depends on your role and partition assignments: If you are analyst (you have the analyst or analyst limited role), go to step 3; if you have any other role, go to step 4. 
+2.	What you see now depends on your role and partition assignments: If you are analyst (you have the analyst role or analyst limited role), go to step 3; if you have any other role, go to step 4. 
 
 3.	Step for analysts: 
 
     * If you have only one partition (even the default "Global" partition), this is the partition that you will use. Skip the rest of these steps. You can go to the **Explore** page or the **Queries** page to start your work. On those pages, you will see only the data to which your partition grants you access.  
     * If you have more than one partition, the **Partition** drop-down menu at the top of the **Home** page displays the partitions that you are linked to. Open this menu and select one:
 
-       ![Select a partition](../images/wpa/setup/select-one-no-global.png)
+       ![Select a partition](../images/wpa/setup/partition-menu.png)
  
       After you’ve chosen the partition to work with, you can skip the rest of these steps and go to the **Explore** page or the **Queries** page.  
 
@@ -79,9 +77,9 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
 1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
 2.	Open the **Settings** page and select **Access control**.
-3.	In the **Partition-based access control** area, select **Add partition**:
+3.	In the **Partition-based access control** area, select **Create partition**:
 
-    ![Admin settings](../images/wpa/setup/admin-settings.png)
+    ![Admin settings](../images/wpa/setup/access-control-page-2.png)
  
 4.	On the **Access control > New partition** page, type the name of the new partition and optionally type a description. 
 5.	**Define filters.** Under **Filters**, add one or more filters to define the data that will fall within the partition that you are creating:
@@ -107,7 +105,48 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 
     ![Select visibility](../images/wpa/setup/select-visibility.png)
 
+### To delete a partition
+
+1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
+2.	Open the **Settings** page and select **Access control**.
+3.	In the **Partition-based access control** area, locate the partition that you want to delete, and then select **Delete** (the trash-can icon) in that partition's row:
+
+    ![Admin settings](../images/wpa/setup/part-based-access-control.png)
+
+   > [!Note] 
+   > You cannot delete the Global partition. Only user-created partitions can be deleted.
+
 ## How can I start using partitions?
 
-Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at wpasupport@microsoft.com. 
+Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com). 
+
+## Partitions and organizational data
+
+Partitions depend on organizational data in two ways: 
+
+ * Partitions can depend on organizational data columns. As described in step 5 of [To create a partition](#to-create-a-partition), you can define a partition by filtering by organizational data columns. For example, you can define a partition by filtering on an organizational data column called _Country_.
+ * As described in step 7 of [To create a partition](#to-create-a-partition), organizational-data attributes can be configured to be included in the partition for analysts to use.
+
+Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), uploads new data in a [subsequent upload](upload-organizational-data.md). In step 9 of [upload organizational data](upload-organizational-data.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
+
+Choosing the **Append** option does not affect partitions, regardless of the structure of the new data. 
+
+However, the admin can select the **Replace all existing organizational data** option, and the organizational data that they upload could have a new data schema. For example, if the _Country_ column is not present in the new organizational-data upload schema (and if the column is either used as a filter or included in a partition), the definition of any partition that refers to this column is violated. 
+
+Because of this possibility, during organizational-data upload (between the mapping step and the validation step), Workplace Analytics checks for partition schema violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
+
+![Partition violation](../images/wpa/setup/partition-violation.png)
+
+In the lower half of this page, Workplace Analytics identifies the columns that are omitted in the uploaded file but present in the earlier uploaded data (and its schema) and are present in existing partitions. It also names the partitions that are affected by the missing columns.  
+
+   > [!Note] 
+   > If a column in a new set of data is missing, this affects the schema of a partition only if that column is referred to in the schema. If no partition's schema refers to the missing column, the missing column will not cause an error, and the organizational-data upload will continue on to the validation phase.
+
+In the case of an error such as this, the admin cannot proceed with the current data upload. The admin has these choices:
+
+ * Start over by selecting **Back**, and then attempt organizational-data upload with data that has a different schema.
+ * [Delete the affected partition](#to-delete-a-partition) (or partitions) and then try again to upload the .csv file that caused the schema violation. 
+   
+   > [!Note] 
+   > Schema errors can occur only in user-created partitions. Uploading organizational data does not affect the definition of the Global partition.
 

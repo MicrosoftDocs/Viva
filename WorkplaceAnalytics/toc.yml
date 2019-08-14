@@ -81,8 +81,8 @@
                   href: ~/Use/Explore-Metrics-external-collaboration.md
                 - name: Teams collaboration
                   href: ~/Use/Explore-metrics-teams.md
-                - name: Organizational effectiveness
-                  href: ~/Use/org-effectiveness.md                    
+                - name: Peer analysis
+                  href: ~/Use/peer-analysis.md                    
                 - name: Charts
                   href: ~/Use/Chart-Types.md             
             - name: Queries
@@ -90,7 +90,7 @@
                 - name: Overview
                   href: ~/tutorials/Query-basics.md 
                 - name: Person queries
-                  href: ~/tutorials/Person-queries.md
+                  href: ~/tutorials/Person-queries.md                
                 - name: Meeting queries
                   href: ~/tutorials/Meeting-queries.md                 
                 - name: Group-to-group queries
@@ -121,6 +121,8 @@
                   href: ~/tutorials/Solutions-participants.md                                       
                 - name: Concepts
                   href: ~/tutorials/Solutions-conceptual.md
+            - name: Solutions scan
+              href: ~/Use/solutions-scan.md
     - name: Notifications
       href: ~/use/wpa-notifications.md     
     - name: Frequently asked questions
@@ -167,24 +169,27 @@
           href: MyAnalytics/Use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
+ #       - name: Focus plan
+ #         href: MyAnalytics/use/focus-plan.md       
     - name: MyAnalytics admin guide
       items: 
         - name: Introduction
           href: MyAnalytics/overview/mya-for-admins.md
         - name: MyAnalytics setup
-          href: MyAnalytics/setup/mya-setup-checklist.md
+          href: MyAnalytics/setup/configure-myanalytics.md
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins
-          href: MyAnalytics/overview/privacy-guide.md
-        - name: Disable Insights by MyAnalytics
-          href: MyAnalytics/setup/mya-disable-insights.md       
+          href: MyAnalytics/overview/privacy-guide.md    
     - name: Use MyAnalytics
       items:
       - name: Work patterns
         items:
         - name: Focus
           href: MyAnalytics/Use/focus.md
+ #         items: 
+ #           - name: Focus plan
+ #             href: MyAnalytics/use/focus-plan.md          
         - name: Wellbeing
           href: MyAnalytics/Use/wellbeing.md
         - name: Network

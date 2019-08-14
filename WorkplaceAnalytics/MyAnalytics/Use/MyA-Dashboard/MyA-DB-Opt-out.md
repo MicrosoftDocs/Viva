@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Can I opt out of MyAnalytics?
+## Opt out of MyAnalytics
 
 You can opt out of your data being used to calculate aggregate statistics for your organization. For example, if you opt out, your data will not be used to calculate email read statistics.
 
