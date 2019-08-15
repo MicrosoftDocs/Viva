@@ -87,7 +87,7 @@ audience: Admin
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/Workplace-Analytics/overview/get-started">
+        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-adoption/adopt-learning-modules">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -97,50 +97,12 @@ audience: Admin
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Data analysis</h3>
-                        <p>Learn how to analyze data with Workplace Analytics Explore pages and how to create custom queries for more detailed analysis.</p>
+                        <h3>MyAnalytics learning modules and playbooks</h3>
+                        <p>These materials are organized by collaboration topic to help you build new work habits and learn how to use MyAnalytics more effectively.</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/solutions-intro">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="Images/icon-solutions.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Solutions</h3>
-                        <p>Learn how to create, manage, and track targeted change management programs to help reduce meeting load and increase focus time. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/index">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="Images/icon-personaldata.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>MyAnalytics</h3>
-                        <p>Learn how to set up and use MyAnalytics and how the privacy settings in MyAnalytics protects your personal data.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+
