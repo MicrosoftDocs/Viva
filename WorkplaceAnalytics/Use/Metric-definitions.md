@@ -6,7 +6,7 @@ title: Workplace Analytics metric definitions
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics
 author: madehmer
 ms.author: v-midehm
-ms.date: 08/13/2019
+ms.date: 08/15/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -66,7 +66,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Working hours collaboration hours|Number of hours the person spent in meetings and sending emails during working hours.|Person|Hour|No|
 |Working hours email hours|Number of hours the person spent in sending email during working hours.|Person|Hour|Yes|
 |Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes |
-|Workweek Span|Time between the person's first sent email or meeting attended and the last email or meeting for the week. (This count is based on the person’s work week that’s defined in Outlook, which the user can change at any time. If no work week is defined, the default is Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day.) If reported for the week, the metric is a sum for the week. If reported for the month, the metric is the weekly average.|Person|Hour|No|
+|Workweek Span|Time between the person's first sent email or meeting attended and the last email or meeting for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or Workplace Analytics is unable to access a user’s Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
 
 ## Meeting metrics
 
