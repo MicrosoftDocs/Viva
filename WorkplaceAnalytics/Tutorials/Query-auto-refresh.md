@@ -83,8 +83,10 @@ Generally, an organization can have a maximum of 20 auto-refresh queries. If you
  * Delete an existing auto-refresh query or turn auto-refresh off for a query (on the **Queries > Results** page). Then, create your new auto-refresh query.
  * Contact Workplace Analytics to request additional auto-refresh queries. To do this, follow the instructions in the "Workplace Analytics Support" row under [Get support](../overview/getting-support.md).
 
+<!-- [AUGUST 14 2019] COMMENT THIS NOTE OUT UNTIL PARTITIONS ARE RELEASED. PER NITHIN, THAT COULD BE MONTHS FROM NOW. 
 > [!Note] 
 > Auto-refresh queries respect partitions. (A partition is a data workspace for an analyst.) This means that if other analysts&mdash;who work within their own partitions&mdash;have created a total of fifteen auto-refresh queries, five auto-refresh queries remain for you to use. 
+-->
 
 ## View query results with the auto-refresh option
 
