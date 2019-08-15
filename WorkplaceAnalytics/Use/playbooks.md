@@ -6,7 +6,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 layout: HubPage
 title: Workplace Analytics playbooks
 description: Learn more about how to use Workplace Analytics with the available playbooks
-ms.topic: hub-page
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ms.author: v-midehm
