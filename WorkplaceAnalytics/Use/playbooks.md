@@ -28,7 +28,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../Images/icon-checklist.png" alt="" />
+                            <img src="../Images/icon-collaboration.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -47,7 +47,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../Images/icon-queries.png" alt="" />
+                            <img src="../Images/icon-building.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -66,7 +66,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../Images/icon-queries.png" alt="" />
+                            <img src="../Images/icon-analytics.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
