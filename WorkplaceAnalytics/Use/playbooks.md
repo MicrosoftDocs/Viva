@@ -3,23 +3,15 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
+layout: HubPage
 title: Workplace Analytics playbooks
 description: Learn more about how to use Workplace Analytics with the available playbooks
-author: madehmer
-ms.author: v-midehm
-ms.topic: article
+ms.topic: hub-page
 localization_priority: normal 
 ms.prod: wpa
-ms.collection: M365-analytics
-manager: scott.ruble
-audience: Admin
+ms.author: v-midehm
+author: madehmer
 ---
-
-
-
-
- 
-
 
 <ul class="cardsY panelContent singlePanelContent">
     <li>
