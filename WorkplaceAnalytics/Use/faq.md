@@ -6,7 +6,7 @@ title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 08/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -32,11 +32,16 @@ A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 
 
 ##### Q2. Does Workplace Analytics retain and use data about employees that no longer work for the organization?
 
-A2. Workplace Analytics maintains historical organizational data that can include past (previously licensed) employees’ de-identified data. A change to organizational data is updated in Workplace Analytics the next time it is received and processed (usually monthly) by Workplace Analytics. However, new changes do not affect historical data used by Workplace Analytics. For more details, see [How often to upload in Prepare organizational data](../setup/prepare-organizational-data.md#how-often-to-upload-organizational-data).
+A2. Workplace Analytics maintains historical organizational data that can include the de-identified data of past (previously licensed) employees. Organizational data is updated each time Workplace Analytics receives and processes it (usually monthly). However, the appearance of new data does not affect historical data. For more information, see [Prepare organizational data > How often to upload](../setup/prepare-organizational-data.md#how-often-to-upload-organizational-data).
 
 ##### Q3. How many people should be Workplace Analytics admins and/or analysts?
 
 A3. This depends on the size of your organization and your requirements for managing organizational data. The number of analysts should be as many as your organization requires to perform data analysis. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](../use/user-roles.md) for more details.
+
+<!-- THIS ANSWERED A QUESTION FROM JEREMY. REMOVE FOR NOW. 
+> [!Tip] 
+> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partitions-in-wpa). -->
+
 
 ##### Q4. Can our organization’s Office 365 admin also be our Workplace Analytics admin?
 
@@ -66,7 +71,7 @@ A9. You can assign analysts the Analyst Limited Access role, which limits them t
 
 ##### Q1. What causes the upload of the organizational (HR) data to fail?
 
-A1. An upload can fail if the data has invalid values, is missing required data, or the validity threshold for optional data is set too high. See [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats) and [Subsequent uploads of organizational data](../setup/upload-organizational-data.md) for details.
+A1. An upload can fail if the data has invalid values, is missing required data, or the validity threshold (checks for non-null values) for optional data is set too high. See [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats) and [Subsequent uploads of organizational data](../setup/upload-organizational-data.md) for details.
 
 ##### Q2. What format do I save the data upload file as?
 
@@ -126,7 +131,7 @@ A6. Yes. The data can include double byte characters, such as Japanese character
 
 ##### Q7. What percentage does Workplace Analytics require for the validity threshold for required fields?
 
-A7.	Workplace Analytics requires that the PersonId field meet 100% of the validity threshold, because each of row of data should have a PersonId for each person in your organization. The other required fields must be greater than 95% of the validity threshold.
+A7. Workplace Analytics requires that the PersonId field meet 100% of the validity threshold (which checks for non-null values), because each row of data should have a PersonId for each person in your organization. The other required fields must be greater than 95% of the validity threshold.
 
 ##### Q8. How do I append new columns onto an already existing organizational data file?
 
@@ -229,6 +234,10 @@ A2. If the result of a query defines the same set of people as members of both t
 
 A3. You can use the Collaboration hours metric to filter for a specific time frame, regardless of when it occurs. Note that query results that use the Collaboration hours to filter for a time period that includes after-hours time, such as 8 PM to 8 AM, will include all people who collaborated during this time regardless of if they have this time period set as their working or non-working hours on their calendar.
 
-##### Q4 Why don’t totals for meeting hours and email hours match up with totals for working hours and after hours in person query output?
+##### Q4. Why don’t totals for meeting hours and email hours match up with totals for working hours and after hours in person query output?
 
 A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
+
+##### Q5. An executive assistant can organize meetings on behalf of a leader. In Workplace Analytics calculations, do such meetings count as organized by the _leader_ or by the _executive assistant_?   
+
+A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant. For example, if the executive assistant organizes a 1:1 meeting, Workplace Analytics counts it as a two-person meeting that includes only the leader and the invitee. 

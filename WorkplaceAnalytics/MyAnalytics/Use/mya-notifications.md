@@ -6,7 +6,7 @@ title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/14/2019
+ms.date: 08/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -15,7 +15,7 @@ ms.prod: mya
 
 # Inline suggestions in Outlook
 
-**_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on_**
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
 
 ## What are inline suggestions in Outlook?
 

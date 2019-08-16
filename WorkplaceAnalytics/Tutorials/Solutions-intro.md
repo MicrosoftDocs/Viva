@@ -6,7 +6,7 @@ title: Workplace Analytics teamwork solution introduction
 description: Introduction and summary of Workplace Analytics teamwork solution
 author: paul9955
 ms.author: v-pascha
-ms.date: 05/09/2019
+ms.date: 08/15/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -43,13 +43,14 @@ Confirm your organization meets the following prerequisites for Teamwork solutio
    > [!Note]
    > One person can be assigned both the Analyst and Program manager roles.
 
+<!--
 ## Workplace Analytics solution for teamwork playbook
 
 The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provides tips on how to best use Workplace Analytics Teamwork solution to achieve maximum benefit for your organization:
 
 [![solution for teamwork playbook](../images/wpa/tutorials/solns-playbook-title.png)](wpa-teamwork-solution-playbook.pdf)
 
-<!--
+
 Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), which provides tips on how to best use Workplace Analytics Teamwork solution to achieve maximum benefit for your organization.
 -->
 
