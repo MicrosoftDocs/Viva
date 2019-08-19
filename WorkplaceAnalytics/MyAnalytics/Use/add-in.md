@@ -87,7 +87,7 @@ Follow these steps to remove the Insights add-in from your Outlook ribbon.
 
     ![Remove Insights](../../Images/mya/use/remove-insights.png)
 
-## Add the Insights add-in back to Outlook
+## Add the Insights add-in
 
 Follow these steps to add the Insights add-in to your Outlook ribbon.
 
