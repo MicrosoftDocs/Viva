@@ -8,7 +8,7 @@ ms.author: v-midehm
 author: madehmer
 
 ---
-# Workplace Analytics 
+# Workplace Analytics
 
 <ul class="panelContent cardsY">
     <li>
