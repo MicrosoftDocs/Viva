@@ -83,7 +83,7 @@ Follow these steps to remove the Insights add-in from your Outlook ribbon.
     ![Get Add-ins](../../Images/mya/use/get-add-ins.png)
 
 2. Select **My add-ins**.
-3. In **Admin-managed add-ins**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
+3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
 
     ![Remove Insights](../../Images/mya/use/remove-insights.png)
 
@@ -92,6 +92,5 @@ Follow these steps to remove the Insights add-in from your Outlook ribbon.
 Follow these steps to add the Insights add-in to your Outlook ribbon.
 
 1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
-2. Select **My add-ins**.
-3. Select **Admin-managed**.
-4. Find **Insights**, and then select **Add**.
+2. Select **Admin-managed**.
+3. Find **Insights**, and then select **Add**.
