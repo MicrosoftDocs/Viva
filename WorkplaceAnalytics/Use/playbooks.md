@@ -11,13 +11,9 @@ ms.prod: wpa
 ms.author: v-midehm
 author: madehmer
 ---
+# Workplace Analytics Playbooks
 
-<ul class="cardsY panelContent singlePanelContent">
-    <li>
-        <h1>Workplace Analytics Playbooks</h1>
-            <p>Maximize the power of Workplace Analytics to gain insights into how your organization collaborates and how to improve teamwork across your organization.</p>
-    </li>
-</ul>
+Maximize the power of Workplace Analytics to gain insights into how your organization collaborates and how to improve teamwork across your organization.
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
