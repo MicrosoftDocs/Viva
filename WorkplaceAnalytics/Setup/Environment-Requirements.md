@@ -6,7 +6,7 @@ title: Environment and support aspects of Workplace Analytics
 description: Describes the system requirements for setting up and using Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 08/12/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -21,7 +21,7 @@ audience: Admin
 
 Workplace Analytics requires an Office 365 tenant with Exchange Online.  Mailboxes must have [Exchange Online Plan 1 or Plan 2 licenses assigned](https://products.office.com/exchange/compare-microsoft-exchange-online-plans).
 
-Currently, Workplace Analytics supports multi-tenant and vNext environments. Each mailbox that you want to license must have its data stored in Exchange Online.
+Currently, Workplace Analytics supports multi-tenant, multi-geo tenant, and vNext environments. Each mailbox that you want to license must have its data stored in Exchange Online.
 
 ### Workplace Analytics licenses and trials
 

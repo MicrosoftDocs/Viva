@@ -2,7 +2,6 @@
 layout: LandingPage
 title: Workplace Analytics
 description: Learn more about, set up, and use Workplace Analytics and MyAnalytics
-ms.date: 02/21/2019
 localization_priority: normal 
 ms.prod: wpa
 ms.author: v-midehm
@@ -113,7 +112,7 @@ author: madehmer
                         <p></p>
                         <ul>
 <li>
-<a href="~/myanalytics/setup/Mya-setup-checklist.md">Setup</a></li>
+<a href="~/myanalytics/setup/configure-myanalytics.md">Setup</a></li>
 <a href="~/myanalytics/overview/Privacy-Guide.md"><li>Privacy guide</li></a><li>
 <a href="~/myanalytics/use/mya-elements.md">MyAnalytics elements</a> 
 <a href="~/myanalytics/use/mya-adoption/Adopt-myanalytics.md"><li>MyAnalytics adoption</li></a>

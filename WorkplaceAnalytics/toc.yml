@@ -45,8 +45,8 @@
               href: ~/setup/upload-organizational-data-1st.md       
             - name: Subsequent uploads
               href: ~/setup/upload-organizational-data.md 
-        - name: Upload CRM data
-          href: ~/setup/crm-data-upload.md
+  #      - name: Upload CRM data
+  #        href: ~/setup/crm-data-upload.md
         - name: Meeting exclusion rules    
           items:             
             - name: Introduction
@@ -100,8 +100,8 @@
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
                   href: ~/tutorials/Person-to-group-queries.md 
-                - name: Queries with CRM data
-                  href: ~/tutorials/crm-queries.md                                 
+  #              - name: Queries with CRM data
+  #                href: ~/tutorials/crm-queries.md                                 
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md                  
                 - name: Customize a metric
@@ -124,6 +124,8 @@
                   href: ~/tutorials/Solutions-participants.md                                       
                 - name: Concepts
                   href: ~/tutorials/Solutions-conceptual.md
+            - name: Solutions scan
+              href: ~/Use/solutions-scan.md
     - name: Notifications
       href: ~/use/wpa-notifications.md     
     - name: Frequently asked questions
@@ -170,24 +172,31 @@
           href: MyAnalytics/Use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
+ #       - name: Focus plan
+ #         href: MyAnalytics/use/focus-plan.md       
     - name: MyAnalytics admin guide
       items: 
         - name: Introduction
           href: MyAnalytics/overview/mya-for-admins.md
         - name: MyAnalytics setup
-          href: MyAnalytics/setup/mya-setup-checklist.md
+          href: MyAnalytics/setup/configure-myanalytics.md
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins
-          href: MyAnalytics/overview/privacy-guide.md
-        - name: Disable Insights by MyAnalytics
-          href: MyAnalytics/setup/mya-disable-insights.md       
+          href: MyAnalytics/overview/privacy-guide-admins.md    
     - name: Use MyAnalytics
       items:
+      - name: Data privacy
+        items:
+        - name: Privacy guide for MyAnalytics users
+          href: MyAnalytics/Overview/privacy-guide-users.md
       - name: Work patterns
         items:
         - name: Focus
           href: MyAnalytics/Use/focus.md
+ #         items: 
+ #           - name: Focus plan
+ #             href: MyAnalytics/use/focus-plan.md          
         - name: Wellbeing
           href: MyAnalytics/Use/wellbeing.md
         - name: Network

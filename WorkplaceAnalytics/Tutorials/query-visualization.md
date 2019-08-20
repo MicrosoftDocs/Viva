@@ -17,8 +17,11 @@ Analysts can be tasked with finding ways to improve teamwork in their organizati
 
 After you create and run a Person query, you can view its results (in the form of charts) without leaving Workplace Analytics. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. These steps are described in the following sections: 
 
-1. [Run a query and view results](#run-a-query-and-view-results) 
-2. [Customize your data visualization](#customize-your-data-visualization)
+- [Visualize person queries](#visualize-person-queries)
+  - [Run a query and view results](#run-a-query-and-view-results)
+  - [Customize your data visualization](#customize-your-data-visualization)
+  - [Optional: Create a solution plan](#optional-create-a-solution-plan)
+  - [Related topics](#related-topics)
 
 In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as [Power BI](../use/view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool). 
 
