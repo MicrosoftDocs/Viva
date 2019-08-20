@@ -90,7 +90,10 @@
                 - name: Overview
                   href: ~/tutorials/Query-basics.md 
                 - name: Person queries
-                  href: ~/tutorials/Person-queries.md                
+                  href: ~/tutorials/Person-queries.md  
+                  items: 
+                    - name: Visualize person queries
+                      href: ~/tutorials/query-visualization.md              
                 - name: Meeting queries
                   href: ~/tutorials/Meeting-queries.md                 
                 - name: Group-to-group queries
