@@ -6,7 +6,6 @@ title: Visualize person queries
 description: View query results in charts without leaving Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
