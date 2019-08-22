@@ -6,7 +6,6 @@ title: MyAnalytics Focus page
 description: Learn how to use MyAnalytics to improve your focus time at work
 author: paul9955
 ms.author: v-midehm
-ms.date: 06/27/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
