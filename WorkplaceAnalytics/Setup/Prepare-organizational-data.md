@@ -182,7 +182,10 @@ It is recommended that you upload HR data at least once a month to keep data fre
 
 #### Supplying data over a time period
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). 
+By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements).
+
+<!-- REMOVED UNTIL WE FIX THE VIDEO AND REVIVE THE LINK DESTINATION:
+and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). -->
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
