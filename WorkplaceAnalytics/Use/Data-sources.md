@@ -9,17 +9,17 @@ ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Sources
 
 **Sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365, organizational data, and if applicable, Customer Relationship Management (CRM) data is loaded and ready to use. Sources includes the following:
 
-- [Sources](#sources)
   - [Office 365 data](#office-365-data)
-    - [Data-volume inconsistencies](#data-volume-inconsistencies)
   - [Organizational data](#organizational-data)
-      - [Detailed coverage information for an attribute](#detailed-coverage-information-for-an-attribute)
   - [CRM data](#crm-data)
 
 ![Sources](../images/WpA/Use/sources-o365.png)
@@ -28,7 +28,7 @@ ms.prod: wpa
 
 ## Office 365 data
 
-As an analyst, you can use this page to confirm that your Office 365 data is up-to-date. This page includes the following types of data.
+As an admin or an analyst, you can use this page to confirm that your Office 365 data is up-to-date. This page includes the following types of data.
 
 * **Measured employees**: The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
 
@@ -45,17 +45,14 @@ As an analyst, you can use this page to confirm that your Office 365 data is up-
 
   ![Office 365 data sources page](../images/wpa/use/measured-collab.png)
 
-<!-- MARILYN IS CHECKING WITH CATY ABOUT THE VERACITY OF THIS NOTE:
   >[!Note]
-  > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data. --> 
-<!-- REPLACE WITH NEW ONE, PER MARILYN 30 MAY
-![Office 365 data sources page](../images/wpa/Use/sources-o365-data-summary.png) -->
+  > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 
 ### Data-volume inconsistencies
 
 The following are examples of instances for which you might encounter inconsistency in volume for email, meetings, calls, and instant messages:
 
-* **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact. 
+* **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
 
 * **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it might be due to archiving. By using the Average weekly collaboration chart (see the preceding illustration), you can select a date range to analyze your collaboration data where the mail volume is stable.
 
@@ -65,7 +62,7 @@ The following are examples of instances for which you might encounter inconsiste
 
 Organizational data is information about employees that your company provides to Workplace Analytics through your most [recent upload](../setup/upload-organizational-data.md) of organizational (HR) data and the specified date range of Office 365 data.
 
-As either an admin or an analyst, you can use this page to understand the data's quality and completeness for employees who have been detected in the Office 365 data for the specified date range. Select **Page settings** at the top right of the page to change what date range you want to view.
+As either an admin or an analyst, you can use this page to understand the data quality and completeness for employees who have been detected in the Office 365 data for the specified date range. Select **Page settings** at the top right of the page to change the group by increments of time, the date range, or the group of employees you want to include in the data shown.
 
 ![Organizational data sources page](../images/wpa/Use/org-data-sources.png)
 
