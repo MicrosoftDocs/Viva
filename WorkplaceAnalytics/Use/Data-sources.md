@@ -6,7 +6,6 @@ title: Workplace Analytics data sources
 description: An overview of Sources in Workplace Analytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 08/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
