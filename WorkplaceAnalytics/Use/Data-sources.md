@@ -30,12 +30,12 @@ ms.prod: wpa
 
 As an analyst, you can use this page to confirm that your Office 365 data is up-to-date. This page includes the following types of data.
 
-* **Measured employees**: The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meeting, email, unscheduled calls, and instant messages for these people. <!-- When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics.--> If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
+* **Measured employees**: The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
 
   >[!Note]
   > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
 
-* **Internal collaborators**: These are unmeasured employees who were included in extractions of Office 365 data with whom the _measured_ employees collaborated. These people are not part of your measured population but are internal to your organization. <!--Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.-->
+* **Internal collaborators**: These are unmeasured employees who were included in extractions of Office 365 data with whom the _measured_ employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
 
 * **External collaborators**: These are people outside of your company or external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
 
@@ -65,11 +65,11 @@ The following are examples of instances for which you might encounter inconsiste
 
 Organizational data is information about employees that your company provides to Workplace Analytics through your most [recent upload](../setup/upload-organizational-data.md) of organizational (HR) data and the specified date range of Office 365 data.
 
-As either an admin or an analyst, you can use this page to understand the data's quality and completeness for employees who have been detected in the Office 365 data for the specified date range. Select **Settings** at the top right of the page to change what date range you want to view.
+As either an admin or an analyst, you can use this page to understand the data's quality and completeness for employees who have been detected in the Office 365 data for the specified date range. Select **Page settings** at the top right of the page to change what date range you want to view.
 
 ![Organizational data sources page](../images/wpa/Use/org-data-sources.png)
 
-The following is listed in the table on this page.
+The table on this page includes the following.
 
 * **Attributes**: These attributes are provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.
 * **Employees with this attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
@@ -77,7 +77,7 @@ The following is listed in the table on this page.
 * **Unique values**: The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
 >[!Note]
-> You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
+> You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to search all attributes that include that keyword.
 
 
 #### Detailed coverage information for an attribute
@@ -86,15 +86,15 @@ The following is listed in the table on this page.
 
 ![View Organizational data attributes for area](../images/wpa/Use/org-data-attributes.png)
 
-This detailed coverage page includes the following.
+This attribute details page includes the following. In the **Page settings** panel to the right of this page, you can change the increments of time to group the data by (day, week, or month), the date range, or what employees to include (all employees, measured employees, or internal collaborators) in the chart and list on this page.
 
-* **Coverage over time**: This chart shows the coverage for the attribute at different moments in time. You can adjust the increments of time, and the range of the chart, in the **Page Settings** panel to the right of the page.
-* **Values**: Lists all values for the selected attribute provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
-* **Employees with value**: This shows the number of people that have that attribute value in the data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
+* **Coverage for**: This chart shows the coverage for the selected attribute at different moments in time. This historical data gives you insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. You can select a bar in the chart to see the details for that date in the table.
+* **Values**: Lists all values that exist for the selected attribute that were included in the uploaded data for the selected date. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these gives you insight into what types of queries will be useful for analysis.
+* **Employees with this value**: This shows the number of people that have that attribute value in the data file. For example, the following graphic shows the number of contacts that have a non-blank value for the selected attribute.
 * **Coverage**: Shows the percentage of measured employees with that value.
 
 >[!Note]
-> Select Download Excel to view the complete list of attribute details for that have more than 500 value for the page view. To view the list for a different attribute, you can select a different attribute in **Attribute Details**.
+> Next to **Attribute details**, you can select a different attribute to change the focus of the details to it. Also, only the first 500 values are shown in this page's table. If the selected attribute has more than 500 values, you can select **Download CSV** to view the complete list of attribute values and details for those with more than 500 values in the downloaded .csv file.
 
 For more information about what data is needed for metric calculations, see:
 
