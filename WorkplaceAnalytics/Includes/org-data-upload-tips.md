@@ -23,7 +23,6 @@ All field header or column names must:
 
 The field values in the data row must comply with the following formatting rules:
 
-* The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format
 * The required PersonId and ManagerId field values must be a valid email address (for example, gc@contoso.com). 
 * The required TimeZone field values must be in a supported Windows format.
 * The required Layer field values must contain numbers only.
@@ -40,4 +39,3 @@ The field values also cannot contain any of the following:
 * No commas (,)
 * No "new line" characters (\n)
 * No double (" ") or single quotes (‘ ‘)
-* Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters

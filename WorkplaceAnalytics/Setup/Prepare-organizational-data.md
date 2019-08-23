@@ -6,7 +6,6 @@ title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics 
 author: paul9955
 ms.author: v-midehm
-ms.date: 03/05/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -122,13 +121,23 @@ After you get this data, you must structure it for successful processing after u
 
 ## Structure the organizational data 
 
-After you’ve identified what data to provide, you need to export it into the correct format to upload to Workplace Analytics. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
+After you've identified what data to provide, you need to export it into a correct format to upload to Workplace Analytics. There are two valid formats: .xlsx files and UTF-8 encoded .csv files. For more information about selecting the proper format and formatting your file properly, see [Format data for upload](format-data-for-upload.md). 
+
+Regardless of the data format you choose, the file that you upload must contain at least the set of required attributes for the population. 
+
+<!-- REUSE THE TEXT IN THE FOLLOWING LINK: 
+For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
+-->
+
+<!-- WE NEED TO JUST DELETE THIS VIDEO. IT WILL NEED TO BE COMPLETELY REDONE ANYWAY WHEN THE WPA LAYOUT CHANGES: 
 
 The following video describes how to structure your organizational data file, including how to format the file, how to use the EffectiveDate field to reflect historical changes in your organization, which employees to include, and how to structure data that you add or update in subsequent uploads:
 
 ### Video: How to structure the organizational data file
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+
+-->
 
 ### Required, reserved optional, and custom attributes
 
@@ -155,22 +164,9 @@ Although these attributes are not required, if included, they must meet particul
 
 > [!Note] 
 > * The maximum number of total attributes allowed in the system is 65. This includes the five required attributes.
-> * All dates should be in the MM/DD/YYYY format.
-> * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+
 
 For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
-
-#### Example .csv export file
-
-Here's an example snippet of a valid .csv export file:
-
-PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area
-Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
-Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
 For more information about attributes, see the [Attribute reference](#attribute-reference) section. 
 
@@ -246,8 +242,4 @@ Unlike HR data, for line-of-business data, you might not need to include every p
 
 For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you will use the score values to group and filter specific report outputs.
 
-### Use only valid values and formats
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
-
-[!INCLUDE [Valid values and formats](../includes/org-data-upload-tips.md)]
