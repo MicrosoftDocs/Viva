@@ -56,7 +56,7 @@ The following are examples of instances for which you might encounter inconsiste
 
 * **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it might be due to archiving. By using the Average weekly collaboration chart (see the preceding illustration), you can select a date range to analyze your collaboration data where the mail volume is stable.
 
-* **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it might be due to recurring meetings having been removed from calendars. By using the Average weekly collaboration chart (see the preceding illustration), you  can select a date range to analyze your collaboration data where the meeting volume is stable. 
+* **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it might be due to recurring meetings having been removed from calendars. By using the Average weekly collaboration chart (see the preceding illustration), you  can select a date range to analyze your collaboration data where the meeting volume is stable.
 
 ## Organizational data
 
@@ -71,7 +71,7 @@ In the **Page settings** panel to the right of this page, you can change the gro
 The table on this page includes the following.
 
 * **Attributes**: These are all the attributes provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with them will give you insight into the types of queries to use for analysis.
-* **Employees with this attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
+* **Employees with attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
 * **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
 * **Unique values**: The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
@@ -87,9 +87,9 @@ The table on this page includes the following.
 This attribute details page includes the following. In the **Page settings** panel to the right of this page, you can change the increments of time to group the data by (day, week, or month), the date range, or what employees to include (all employees, measured employees, or internal collaborators) in the chart and list on this page.
 
 * **Coverage for**: This chart shows the coverage for the selected attribute at different moments in time. This historical data gives you insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. You can select a bar in the chart to see the details for that date in the table.
-* **Values**: Lists all values that exist for the selected attribute that were included in the uploaded data for the selected date. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these gives you insight into what types of queries will be useful for analysis.
-* **Employees with this value**: This shows the number of people that have that attribute value in the data file. For example, the following graphic shows the number of contacts that have a non-blank value for the selected attribute.
-* **Coverage**: Shows the percentage of measured employees with that value.
+* **Values**: Lists all values that exist for the selected attribute that were included in the uploaded organizational data for the selected date. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these gives you insight into what types of queries will be useful for analysis.
+* **Employees with this value**: This shows the number of people that have that attribute value in the data. For example, the following graphic shows the number of contacts that have a non-blank value for the selected attribute.
+* **Coverage**: Shows the percentage of employees with that value.
 
 >[!Note]
 > Next to **Attribute details**, you can select a different attribute to change the focus of the details to it. Also, only the first 500 values are shown in this page's table. If the selected attribute has more than 500 values, you can select **Download CSV** to view the complete list of attribute values and details for those with more than 500 values in the downloaded .csv file.
