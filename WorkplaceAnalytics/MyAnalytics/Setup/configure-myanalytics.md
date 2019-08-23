@@ -5,8 +5,7 @@
 title: MyAnalytics configuration for Office 365 administrators
 description: Configuration options that Office 365 administrators can make for MyAnalytics users
 author: paul9955
-ms.author: v-pascha
-ms.date: 07/19/2019
+ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -16,7 +15,7 @@ ms.prod: mya
 
 **Role:** Office 365 admins
 
-The steps in this topic describe how to configure MyAnalytics for the users in your organization. Note the following: 
+The steps in this topic describe how to configure MyAnalytics for the users in your organization. Note the following:
 
  * **Prerequisite:** Users have access to MyAnalytics only if they have licenses that include the MyAnalytics service plan, as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
@@ -92,8 +91,6 @@ As the Office 365 admin, you have two ways to configure defaults for MyAnalytics
  * The first way is to [configure access at the tenant level](#configure-access-at-the-tenant-level). You can use these settings to set organization-wide defaults for MyAnalytics elements 
  * The second way is to [configure access at the user level](#configure-access-at-the-user-level). You can use this to set defaults that affect complete MyAnalytics functionality for particular users. 
 
-
-
 <!-- REMOVED IN FAVOR OF KALYAN'S NEW ORGANIZATION (ABOVE)
 As the Office 365 admin, you can set a starting point for the MyAnalytics users in your organization. You can do this for all users at once, for just some of them, or for individual users. By default, this starting point is "opted in." This means that, by default, users have access to MyAnalytics. You can change this starting point from "opted in" to "opted out"&mdash;either for all of MyAnalytics or for its individual parts&mdash;by completing the steps in the following sections. 
 -->
@@ -108,7 +105,7 @@ You can configure access to MyAnalytics elements for all the users in your organ
 #### Dashboard and weekly email
 
 > [!Note] 
-> This functionality will become available at the end of July 2019.
+> This functionality will become available during August, 2019. Tenants in the UAE, South Africa, and Singapore regions might obtain this functionality with some delay.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
@@ -120,15 +117,7 @@ You can configure access to MyAnalytics elements for all the users in your organ
 
    ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
 
-5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
-
-   > [!Note] 
-   > If your organization is a tenant with an E5 plan and your user is using the [old dashboard version](https://msit.delve.office.com/?v=analytics), your deselection of **Insights dashboard** does not remove dashboard access for that user.
-
-<!--
-   > [!Note] 
-   > If your organization is a tenant with an E5 plan, users can choose which version of the dashboard to use. If a user has chosen the [original dashboard version](https://msit.delve.office.com/?v=analytics), your de-selection of **Insights dashboard** does _not_ remove dashboard access for that user. Only if they are using the [new version of the dashboard](https://myanalytics.microsoft.com) can you remove that user's dashboard access by deselecting this option.  
-   If your organization has an E3 plan, users have access only to the new version of the dashboard, which means that your selection or deselection of **Insights dashboard** will work as described in step 5. -->
+5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
 
 6. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
 

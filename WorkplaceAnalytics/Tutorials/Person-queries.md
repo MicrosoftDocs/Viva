@@ -162,4 +162,6 @@ The following are the columns included in the query results for the custom query
 
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
 
-[Queries for CRM data](../Tutorials/crm-queries.md)
+<!-- 8/16/2019: REMOVING TILL CRM GOES GA
+[Queries with CRM data](../tutorials/crm-queries.md)
+-->

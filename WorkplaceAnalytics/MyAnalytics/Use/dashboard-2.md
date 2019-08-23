@@ -4,9 +4,8 @@
 
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -15,14 +14,14 @@ ms.prod: mya
 
 # MyAnalytics dashboard
 
-_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
 
 Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
 Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
 > [!Note]
-> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details. 
 
 ## Home
 
@@ -38,8 +37,11 @@ The Wellbeing section shows how well you are disconnecting from work during your
 
 For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
+<!-- REMOVED TEMPORARILY 8/22/2019 PER PETERB UNTIL THE FOCUS PLAN GETS DISTRIBUTED WORLDWIDE. WE'RE NOT QUITE THERE YET. NOTE THAT THE FOCUS PLAN TOPIC IS PUBLISHED BUT HIDDEN: https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/focus-plan
+
 > [!Tip] 
-> The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md). 
+> The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md).  
+-->
 
 ## Network and Collaboration
 

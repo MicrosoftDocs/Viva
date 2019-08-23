@@ -29,10 +29,14 @@
         - name: Plans and environments
           href: ./overview/plans-environments.md
         - name: Privacy guide for admins
-          href: ./overview/privacy-guide.md
+          href: ./overview/privacy-guide-admins.md
     - name: Use MyAnalytics
       items:
-      - name: Work patterns
+      - name: Data privacy
+        items:
+        - name: Privacy guide for MyAnalytics users
+          href: ./overview/privacy-guide-users.md
+      - name: Work patterns    
         items:
         - name: Focus
           href: ./Use/focus.md

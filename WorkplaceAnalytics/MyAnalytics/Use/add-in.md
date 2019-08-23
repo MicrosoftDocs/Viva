@@ -6,7 +6,7 @@ title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/01/2019
+ms.date: 08/12/2019
 ms.topic: article
 localization_priority: priority 
 ms.prod: mya
@@ -15,7 +15,7 @@ ms.prod: mya
 
 # Insights Outlook add-in
 
-**_Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 E3, Office 365 E1, Office 365 Nonprofit E5, Office 365 G5, MyAnalytics add-on, Microsoft 365 E3, Microsoft 365 Business, Microsoft 365 E5, Microsoft 365 A5, Office 365 E3 Developer, Office 365 A3 for faculty/students, Microsoft 365 A3 for faculty/students, Business Premium, and Business Essentials_.**
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
@@ -34,11 +34,15 @@ You'll see Insights in the right panel in Outlook:
 
 ![Insights panel](../../images/mya/overview/insights-cards-9.png)
 
+## Email read statistics 
+
 [!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
 
-[!INCLUDE [Follow up on your requests](MyA-Outlook-add-in/mya-add-in-follow-up.md)]
+[!INCLUDE [Follow up on tasks](MyA-Outlook-add-in/mya-add-in-follow-up.md)]
 
-## Privacy by design
+[!INCLUDE [Meeting preparation](meeting-prep-card.md)]
+
+## Privacy by design 
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
@@ -68,18 +72,25 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
 
 The way to opt out of the Insights add-in is to opt out of MyAnalytics. For instructions, see [Opt out of MyAnalytics](opt-out-of-mya.md).
 
-<!-- CONSIDER REMOVING THE FOLLOWING-->
+<!-- CONSIDER REMOVING THE FOLLOWING -->
 
 ## Remove the Insights add-in from Outlook
 
-Follow these steps to remove the Insights add-in from the Outlook ribbon.
+Follow these steps to remove the Insights add-in from your Outlook ribbon.
 
 1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
 
     ![Get Add-ins](../../Images/mya/use/get-add-ins.png)
 
 2. Select **My add-ins**.
-3. In **Admin-managed add-ins**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
+3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
 
     ![Remove Insights](../../Images/mya/use/remove-insights.png)
 
+## Add the Insights add-in
+
+Follow these steps to add the Insights add-in to your Outlook ribbon.
+
+1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+2. Select **Admin-managed**.
+3. Find **Insights**, and then select **Add**.

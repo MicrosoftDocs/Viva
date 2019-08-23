@@ -4,9 +4,9 @@
 
 title: Workplace Analytics privacy and data access
 description: Discusses the privacy and data access controls available in Workplace Analytics  
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
+ms.date: 08/08/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -18,7 +18,7 @@ audience: Admin
 
 ## Introduction
 
-Being aware of employees’ rights is a key component to ensuring a successful program using Workplace Analytics. It is important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics.
+Being aware of employees' rights is a key component to ensuring a successful program using Workplace Analytics. It is important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before using Workplace Analytics.
 
 Workplace Analytics does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in Workplace Analytics.
 
@@ -31,10 +31,10 @@ This document introduces the privacy controls available to Workplace Analytics a
 
 Organizations decide who can have access to see the data in Workplace Analytics. You should ensure that primary users receive suitable training in privacy, and in your company’s policies and other applicable subject areas, before being granted access to the data. The following levels of permission provide access to the data:
 
-* **Analyst (Limited Access)** gives access to the Workplace Analytics Home Page and Explore Metrics features where minimum group size is enforced.
+* **Analyst (Limited Access)** gives access to the Workplace Analytics **Home** page and explore metrics features where minimum group size is enforced.
 * **Analyst** gives full access to all product features except the administrator features.
-* **Administrator role** gives access to administrator features only (Settings and Data Source pages).
-* **Program manager** gives access to the Workplace Analytics Home page and lets program managers explore metrics in cases where the minimum group size is enforced. PMs also have access to the Solutions tab and its Manage page, on which they can set up programs, and to its Track page, on which they can track the progress of active or ended programs.
+* **Administrator role** gives access to administrator features only (**Settings** and **Data Source** pages).
+* **Program manager** gives access to the Workplace Analytics **Home** page and lets program managers explore metrics in cases where the minimum group size is enforced. PMs also have access to the Solutions tab and its **Manage** page, on which they can set up programs, and to its **Track** page, on which they can track the progress of active or ended programs.
 
 ### You control the data that Workplace Analytics uses
 
@@ -42,7 +42,7 @@ You retain full control over what data is used and how it is used within Workpla
 
 ## Data from Office 365
 
-Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user’s mailbox and calendar:
+Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user's mailbox and calendar:
 
 ### Header information from emails
 
@@ -59,8 +59,22 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 * Where the meeting was scheduled to be held
 * What the subject line is
 
->[!Important]
->Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
+### Header information from instant messages
+
+* Who sent the instant message
+* Who received the instant message
+* When the instant message was sent
+
+### Header information from calls
+
+* Who organized the call
+* When the call was joined
+* Who the invitees were and what their attendee/call join status was
+* When the call was scheduled (if it was a scheduled call)
+* The duration of the call
+
+> [!Important] 
+> Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
 
 ## Organizational data
 
