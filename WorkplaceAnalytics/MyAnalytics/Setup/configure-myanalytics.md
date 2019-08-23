@@ -5,8 +5,7 @@
 title: MyAnalytics configuration for Office 365 administrators
 description: Configuration options that Office 365 administrators can make for MyAnalytics users
 author: paul9955
-ms.author: v-pascha
-ms.date: 07/19/2019
+ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -118,15 +117,7 @@ You can configure access to MyAnalytics elements for all the users in your organ
 
    ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
 
-5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
-
-   > [!Note] 
-   > If your organization is a tenant with an E5 plan and your user is using the [old dashboard version](https://msit.delve.office.com/?v=analytics), your deselection of **Insights dashboard** does not remove dashboard access for that user.
-
-<!--
-   > [!Note] 
-   > If your organization is a tenant with an E5 plan, users can choose which version of the dashboard to use. If a user has chosen the [original dashboard version](https://msit.delve.office.com/?v=analytics), your de-selection of **Insights dashboard** does _not_ remove dashboard access for that user. Only if they are using the [new version of the dashboard](https://myanalytics.microsoft.com) can you remove that user's dashboard access by deselecting this option.  
-   If your organization has an E3 plan, users have access only to the new version of the dashboard, which means that your selection or deselection of **Insights dashboard** will work as described in step 5. -->
+5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
 
 6. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
 

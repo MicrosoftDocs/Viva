@@ -6,7 +6,6 @@ title: Privacy guide for MyAnalytics
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
