@@ -41,7 +41,7 @@ As an admin or an analyst, you can use this page to confirm that your Office 365
 
 * **Average weekly collaboration chart**: This chart shows the average weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
 
-  Analysts can use these views to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
+  Analysts can use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
   ![Office 365 data sources page](../images/wpa/use/measured-collab.png)
 
@@ -60,24 +60,25 @@ The following are examples of instances for which you might encounter inconsiste
 
 ## Organizational data
 
-Organizational data is information about employees that your company provides to Workplace Analytics through your most [recent upload](../setup/upload-organizational-data.md) of organizational (HR) data and the specified date range of Office 365 data.
+Organizational data is information about employees that your company provides to Workplace Analytics through [uploads](../setup/upload-organizational-data.md) of organizational (HR) data.
 
-As either an admin or an analyst, you can use this page to understand the data quality and completeness for employees who have been detected in the Office 365 data for the specified date range. Select **Page settings** at the top right of the page to change the group by increments of time, the date range, or the group of employees you want to include in the data shown.
+As either an admin or an analyst, you can use this page to understand the data quality and completeness for employees who have an entry in the HR data file and are detected in the specified week's refresh of Office 365 data.
+
+In the **Page settings** panel to the right of this page, you can change the group by increments of time (day, week, or month) and the group of employees you want to include in the data shown (measured employees, all employees, or internal collaborators). You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 
 ![Organizational data sources page](../images/wpa/Use/org-data-sources.png)
 
 The table on this page includes the following.
 
-* **Attributes**: These attributes are provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with the attributes will help give insight into the types of queries you might want to create for analysis.
+* **Attributes**: These are all the attributes provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with them will give you insight into the types of queries to use for analysis.
 * **Employees with this attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
 * **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
 * **Unique values**: The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
 >[!Note]
-> You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to search all attributes that include that keyword.
+> You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to narrow the list to all attributes that include that keyword.
 
-
-#### Detailed coverage information for an attribute
+### Detailed coverage information for an attribute
 
  To view a list of the top 500 values for an attribute and other details about it, select the attribute's name in the list. For example, the following graphic shows the top values and details for **Area**.
 
