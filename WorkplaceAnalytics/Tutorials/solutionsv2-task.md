@@ -14,7 +14,7 @@ ms.prod: wpa
 # Solution walkthrough
 
 You can use the solutions feature of Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. By using solutions, you can create a plan, track it while it is in progress, and examine it after it completes.
-
+ 
 People in the following roles can work on improvement plans in various ways:
 
  * **Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.

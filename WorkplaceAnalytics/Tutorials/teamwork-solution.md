@@ -11,7 +11,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Teamwork solution
+# Workplace Analytics Teamwork solution 
 
 The purpose of the Teamwork solution is to create plans that help teams become more productive, use their time effectively, and make the most of their collaboration time. You start by identifying a shared goal that could benefit a team. Put that goal and that team together, and you have an _opportunity_. Workplace Analytics offers three kinds of opportunities, out of which you can create plans:  
 

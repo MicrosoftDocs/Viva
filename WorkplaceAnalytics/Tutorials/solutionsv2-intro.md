@@ -14,7 +14,7 @@ ms.prod: wpa
 # Workplace Analytics solutions
 
 By combining the capabilities of Workplace Analytics and MyAnalytics, the solutions feature helps you transform insights from Workplace Analytics into targeted change plans across your organization. Targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals. By using the solutions feature, you can, for example:  
-
+ 
 1.	Use Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
 2.	Set up 12-week plans for the identified groups. The members of the group experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
 3.	Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished. 
@@ -39,7 +39,9 @@ For more information about the real-world change possibilities that solutions en
 Workplace Analytics currently offers solutions of the following types:
 
  * [Teamwork solution](teamwork-solution.md) has the goal of helping employees work better together. 
+ <!-- UNCOMMENT THIS IF WE EVER RELEASE SELLER SUCCESS: 
  * [Seller success solution](seller-success.md) has the goal of helping sales people become more productive. 
+-->
 
 ## Creating and using Workplace Analytics solutions
 
