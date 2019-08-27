@@ -15,9 +15,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Sources
+# Data sources
 
-**Sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. Sources includes the following:
+**Data sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. Sources includes the following:
 
   - [Office 365 data](#office-365-data)
   - [Organizational data](#organizational-data)
@@ -79,16 +79,16 @@ This page includes the following.
 >[!Note]
 > You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to narrow the list to all attributes that contain that keyword.
 
-### Detailed coverage information for an attribute
+### Attribute details
 
  To view a list of the top 500 values for an attribute and other details about it, select the attribute's name in the list. For example, the following graphic shows the top values and details for **Location**.
 
 ![View Organizational data attributes for location](../images/wpa/Use/org-data-attributes.png)
 
-This attribute details page includes the following.
+This page includes the following.
 
 * **Page settings**: Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month), the date range, and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
-* **Coverage for**: This chart shows the coverage for the selected attribute at different moments in time. This historical data gives you insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. You can select a bar in the chart to see the details for that date in the table.
+* **Coverage for**: This chart shows the coverage for the selected attribute at different moments in time. This historical data gives you insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. Select a bar in the chart to see the details for that date in the table.
 * **Values**: Lists all values that exist for the selected attribute that were included in the uploaded organizational data for the selected date. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these gives you insight into what types of queries will be useful for analysis.
 * **Employees with this value**: This shows the number of people that have that attribute value in the data. For example, the following graphic shows the number of contacts that have a non-blank value for the selected attribute.
 * **Coverage**: Shows the percentage of employees with that value.

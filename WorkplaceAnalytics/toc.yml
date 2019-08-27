@@ -111,24 +111,19 @@
                 - name: Understand and interpret query output
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
-                  href: ~/tutorials/Query-auto-refresh.md  
-        - name: Solutions   
-          href: ~/tutorials/solutionsv2-intro.md        
+                  href: ~/tutorials/Query-auto-refresh.md                    
+        - name: Solutions
           items:
-            - name: Solution types
+            - name: Teamwork solution
               items:
-                - name: Teamwork solution
-                  href: ~/tutorials/teamwork-solution.md          
- #               - name: Seller success solution
- #                 href: ~/tutorials/seller-success.md
-            - name: Use solutions
-              items: 
+                - name: Introduction
+                  href: ~/tutorials/Solutions-intro.md
                 - name: Walkthrough    
-                  href: ~/tutorials/solutionsv2-task.md 
+                  href: ~/tutorials/Solutions-task.md 
                 - name: Participants
-                  href: ~/tutorials/solutionsv2-participants.md                                       
+                  href: ~/tutorials/Solutions-participants.md                                       
                 - name: Concepts
-                  href: ~/tutorials/solutionsv2-conceptual.md
+                  href: ~/tutorials/Solutions-conceptual.md
             - name: Solutions scan
               href: ~/Use/solutions-scan.md
     - name: Notifications
