@@ -51,9 +51,7 @@ Hover your cursor over the chart data to get more details and use the chart lege
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 -->
 
-### Data-volume inconsistencies
-
-The following are examples of instances for which you might encounter inconsistency in volume for email, meetings, calls, and instant messages:
+The following are examples of where you might encounter instances of  inconsistency in the volume of email, meetings, calls, and instant messages data.
 
 * **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
 
