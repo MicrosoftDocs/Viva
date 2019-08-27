@@ -85,7 +85,7 @@ This page includes the following.
 
 ![View Organizational data attributes for location](../images/wpa/Use/org-data-attributes.png)
 
-This attribute details page includes the following.
+This page includes the following.
 
 * **Page settings**: Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month), the date range, and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Coverage for**: This chart shows the coverage for the selected attribute at different moments in time. This historical data gives you insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. Select a bar in the chart to see the details for that date in the table.
