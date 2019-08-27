@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics data sources
 description: An overview of Sources in Workplace Analytics 
 author: madehmer
