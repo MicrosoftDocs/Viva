@@ -16,7 +16,7 @@ audience: Admin
 
 # Sources
 
-**Sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365, organizational data, and if applicable, Customer Relationship Management (CRM) data is loaded and ready to use. Sources includes the following:
+**Sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. Sources includes the following:
 
   - [Office 365 data](#office-365-data)
   - [Organizational data](#organizational-data)
@@ -28,7 +28,11 @@ audience: Admin
 
 ## Office 365 data
 
-As an admin or an analyst, you can use this page to confirm that your Office 365 data is up-to-date. This page includes the following types of data.
+As an admin or an analyst, you can use this page to confirm that your Office 365 data is up-to-date. The interactive options enable you to hover your cursor over chart data to get more details and use the chart legend to change what data (meetings, email, instant messages, and calls) the chart shows.
+
+Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
+
+This page includes the following types of data.
 
 * **Measured employees**: The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
 
@@ -39,16 +43,15 @@ As an admin or an analyst, you can use this page to confirm that your Office 365
 
 * **External collaborators**: These are people outside of your company or external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
 
-* **Average weekly collaboration chart**: This chart shows the average weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
-
-  Analysts can use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
+* **Average weekly collaboration chart**: This chart shows the last refreshed on weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
 
   ![Office 365 data sources page](../images/wpa/use/measured-collab.png)
-
+<!--
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
+-->
 
-### Data-volume inconsistencies
+### Data inconsistencies
 
 The following are examples of instances for which you might encounter inconsistency in volume for email, meetings, calls, and instant messages:
 
