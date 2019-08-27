@@ -15,9 +15,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Sources
+# Data sources
 
-**Sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. Sources includes the following:
+**Data sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. Sources includes the following:
 
   - [Office 365 data](#office-365-data)
   - [Organizational data](#organizational-data)
