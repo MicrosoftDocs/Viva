@@ -7,7 +7,6 @@ title: Activate Workplace Analytics licenses
 description: Activate licenses for Workplace Analytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 03/27/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
