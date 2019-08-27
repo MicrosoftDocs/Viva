@@ -6,7 +6,6 @@ title: Descriptions of the custom fields table and columns in all of the fields 
 description: Information to help you map fields by using the fields tables.   
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/13/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,11 +13,12 @@ ms.prod: wpa
 
 ### Custom fields table
 
-* **Custom fields** are displayed on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source.csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
+* **Custom fields** are displayed on this page below the optional fields. Custom fields are optional attributes that you can create. Select a column from your source data file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
 
 ### Columns in the fields tables
 
 * **Source column** corresponds to each of the fields in the uploaded file.
+
 * **Workplace Analytics name** is the name of your organization's Workplace Analytics.
 
 * **Data type** is the data type of the fields.

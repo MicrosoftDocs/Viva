@@ -13,18 +13,19 @@ ms.prod: wpa
 
 ## Format data for upload
 
-Various setup and usage tasks require admins to upload data to Workplace Analytics. Admins can upload files that contain organizational (HR) data and CRM data as part of setup or as a regular data-refresh task. Analysts can upload files that specify groups of employees when they define queries of particular types. 
+Various setup and usage tasks require admins to upload data to Workplace Analytics. Admins can upload files that contain organizational (HR) data <!--and CRM data--> as part of setup or as a regular data-refresh task. Analysts can upload files that specify groups of employees when they define queries of particular types. 
 
 For these uploads, you can choose from among two file formats. The following sections describe how to format these files so that Workplace Analytics can use the data they contain. 
 
- * [Format .csv files](#format-csv-files)
  * [Format .xlsx files](#format-xlsx-files)
+ * [Format UTF-8 encoded .csv files](#format-csv-files)
+
 
 ### Which format to use?
 
-For many data uploads, you could use either data format. However, as described in the following sections, each format has its own restrictions. In particular, note the following: 
+**Recommended: Use .xlsx.** This is the recommended data format because it is easier to use in most cases. Still, for many data uploads, you could use either format. Note that each format has its own restrictions: 
 
-1. **Use .xlsx if outside of the United States.** Files in the .csv format are subject to United-States data formatting, so if your organization is based outside of the United States and uses non-U.S. formatting for dates, times, or numbers, use the .xlsx format. 
+1. **Use .xlsx if outside of the United States.** Files in the UTF-8 encoded .csv format are subject to United-States data formatting, so if your organization is based outside of the United States and uses non-U.S. formatting for dates, times, or numbers, use the .xlsx format. 
 2. **Encode .csv files properly.** Only choose the .csv-file option if you can format it as required: UTF-8 encoded, and with all data (dates, times, numbers) in United-States format. Files in the .xlsx format do not have these restrictions.
 3. **Size limit.** The upper limit of .xlsx files for upload is 1.5 GB. If your upload file is larger than 1.5 GB, use the .csv format instead.
 
@@ -38,18 +39,18 @@ For many data uploads, you could use either data format. However, as described i
 > * Upload groups for use in solutions: [Use a .csv file](../tutorials/solutions-conceptual.md#use-a-csv-file)  **[This link is a placeholder for now. This section will need to be rewritten.]**
 -->
 
-## Format .csv files
+## Format UTF-8 encoded .csv files
 
 ### Rules for .csv files
 
  * **UTF-8** Data files in .csv format must be in UTF-8 format.
  > * **Accepted date format.** All dates must be in the mm/dd/yyyy format.
- > * **Accepted number format.** Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
->  * **Delimiters.**  Use only the number delimiter (comma) of the United States. 
+ > * **Accepted number format.** Numerical fields (such as "HourlyRate") must be in the U.S. "number" format and cannot contain commas or a dollar sign. Example: Use **8.75**, not **8,75**. 
+ >  * **Delimiters.**  Use only the number delimiter (comma) of the United States. 
 
-### Example .csv export file
+### Example .csv data file
 
-Here's an example snippet of a valid .csv export file:
+Here's an example snippet of a valid .csv data file:
 
 PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area<br>
 Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast<br>
@@ -64,6 +65,35 @@ Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sa
 When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
 
 [!INCLUDE [Valid values and formats](../includes/org-data-upload-tips.md)]
+
+### Create a valid UTF-8 encoded .csv file in Microsoft Excel
+
+1. Export organizational data from your HR database.
+
+2. Open Microsoft Excel and import the exported organizational data. 
+
+3. In Excel, organize the data:
+
+   a. Place all of the data on a single worksheet. 
+
+   b. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare orgazational data](prepare-organizational-data.md). 
+
+   c. All rows below row 1 contain data about employees. Include one row of data per person, per EffectiveDate. (EffectiveDate is one of the required attributes in your data. For more information, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).)
+
+4. Save the worksheet into a single, flat, text file.
+   
+   ![Save .csv file](../images/wpa/setup/csv-file-format.png)
+
+   a. In Excel, point to **File** and select **Save As**.
+   
+   b. In the dialog box, select **CSV UTF-8 (Comma delimited) (*.csv)**:
+
+   ![Save as UTF-8 .csv file](../images/wpa/setup/csv-utf-8.png)
+
+
+
+
+ 
 
 
 ## Format .xlsx files 
