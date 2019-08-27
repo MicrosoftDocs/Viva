@@ -28,9 +28,7 @@ audience: Admin
 
 ## Office 365 data
 
-As an admin or an analyst, you can use this page to confirm that your Office 365 data is up-to-date. The interactive options enable you to hover your cursor over chart data to get more details and use the chart legend to change what data (meetings, email, instant messages, and calls) the chart shows.
-
-Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
+As an admin or an analyst, you can use this page to confirm that your Office 365 data is up-to-date. Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
 This page includes the following types of data.
 
@@ -45,13 +43,15 @@ This page includes the following types of data.
 
 * **Average weekly collaboration chart**: This chart shows the last refreshed on weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
 
+Hover your cursor over the chart data to get more details and use the chart legend to change what data (meetings, email, instant messages, and calls) the chart shows.
+
   ![Office 365 data sources page](../images/wpa/use/measured-collab.png)
 <!--
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 -->
 
-### Data inconsistencies
+### Data-volume inconsistencies
 
 The following are examples of instances for which you might encounter inconsistency in volume for email, meetings, calls, and instant messages:
 
@@ -67,28 +67,28 @@ Organizational data is information about employees that your company provides to
 
 As either an admin or an analyst, you can use this page to understand the data quality and completeness for employees who have an entry in the HR data file and are detected in the specified week's refresh of Office 365 data.
 
-In the **Page settings** panel to the right of this page, you can change the group by increments of time (day, week, or month) and the group of employees you want to include in the data shown (measured employees, all employees, or internal collaborators). You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
-
 ![Organizational data sources page](../images/wpa/Use/org-data-sources.png)
 
-The table on this page includes the following.
+This page includes the following.
 
+* **Page settings**: Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month) and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Attributes**: These are all the attributes provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with them will give you insight into the types of queries to use for analysis.
 * **Employees with attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
 * **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
 * **Unique values**: The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
 >[!Note]
-> You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to narrow the list to all attributes that include that keyword.
+> You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to narrow the list to all attributes that contain that keyword.
 
 ### Detailed coverage information for an attribute
 
- To view a list of the top 500 values for an attribute and other details about it, select the attribute's name in the list. For example, the following graphic shows the top values and details for **Area**.
+ To view a list of the top 500 values for an attribute and other details about it, select the attribute's name in the list. For example, the following graphic shows the top values and details for **Location**.
 
-![View Organizational data attributes for area](../images/wpa/Use/org-data-attributes.png)
+![View Organizational data attributes for location](../images/wpa/Use/org-data-attributes.png)
 
-This attribute details page includes the following. In the **Page settings** panel to the right of this page, you can change the increments of time to group the data by (day, week, or month), the date range, or what employees to include (all employees, measured employees, or internal collaborators) in the chart and list on this page.
+This attribute details page includes the following.
 
+* **Page settings**: Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month), the date range, and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Coverage for**: This chart shows the coverage for the selected attribute at different moments in time. This historical data gives you insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. You can select a bar in the chart to see the details for that date in the table.
 * **Values**: Lists all values that exist for the selected attribute that were included in the uploaded organizational data for the selected date. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these gives you insight into what types of queries will be useful for analysis.
 * **Employees with this value**: This shows the number of people that have that attribute value in the data. For example, the following graphic shows the number of contacts that have a non-blank value for the selected attribute.
