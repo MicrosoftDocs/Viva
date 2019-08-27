@@ -56,7 +56,7 @@
             - name: Tools and concepts
               href: ~/tutorials/meeting-exclusion-concept.md            
         - name: Data sources
-          href: ~/Use/data-Sources.md            
+          href: ~/Use/Data-sources.md            
         - name: Workplace Analytics audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
