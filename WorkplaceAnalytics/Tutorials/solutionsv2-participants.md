@@ -29,7 +29,7 @@ As a program manager schedules a plan, they can choose to let participants recei
 
 The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan. This section contains information such as recommended habits and the participant's progress against the plan goals, similar to the following:
 
-![Participant's dashboard](../Images/WpA/Tutorials/dashboard-prog-partic.png)
+![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
  
 ## Email digest
 

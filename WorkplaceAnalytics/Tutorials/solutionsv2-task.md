@@ -145,7 +145,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
     ![Three cards](../images/wpa/tutorials/three-cards-start-now.png)
 
-8.	After you have identified the groups, select **Start now**. The **Set up new plan** panel is displayed:
+8.	After you have identified the groups, select **Start now**. This opens the **Set up new plan** panel:
 
     ![Set up new plan](../images/wpa/tutorials/set-up-new-plan-panel-2-75.png) 
  
@@ -156,7 +156,7 @@ This page also displays the filters that you have already set in the charts and 
 
 9.	(Optional) Change the filters that you’ve created, or add new filters to further refine this group. 
 
-10.	Select **Validate**. After validation completes, Workplace Analytics displays the results:
+10.	Select **Validate**. After validation completes, Workplace Analytics shows the results:
 
     ![Validation warnings](../images/wpa/tutorials/three-warnings.png)
  
