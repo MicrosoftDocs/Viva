@@ -11,19 +11,28 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
+# Format organizational data for upload
+
+Workplace Analytics admins upload files that contain organizational (HR) data as part of setup and as a regular data-refresh task. 
+
+<!-- THIS IS THE HEADER AND INTRO PARAGRAPH TO USE WHEN THIS TOPIC APPLIES TO UPLOAD OF ALL/VARIOUS DATA TO WPA. 
+FOR NOW (AUGUST 2019), MENTION ONLY ORG DATA. 
+
 # Format data for upload
 
-Various setup and usage tasks require admins to upload data to Workplace Analytics. Admins can upload files that contain organizational (HR) data <!--and CRM data--> as part of setup or as a regular data-refresh task. Analysts can upload files that specify groups of employees when they define queries of particular types. 
+Various setup and usage tasks require admins to upload data to Workplace Analytics. Admins can upload files that contain organizational (HR) data as part of setup or as a regular data-refresh task. Analysts can upload files that specify groups of employees when they define queries of particular types. 
+END OF EVENTUAL HEADER & INTRO PARAGRAPH
+-->
 
-For these uploads, you can choose from among two file formats. The following sections describe how to format these files so that Workplace Analytics can use the data they contain. 
+For these uploads, you can choose from among two file formats. The following sections describe how to format these files so that Workplace Analytics can parse and use their data. 
 
  * [Format .xlsx files](#format-xlsx-files)
- * [Format UTF-8 encoded .csv files](#format-csv-files)
+ * [Format UTF-8 encoded .csv files](#format-utf-8-encoded-csv-files)
 
 
 ### Which format to use?
 
-**Recommended: Use .xlsx.** This format is easier to use in most cases. However, for many data uploads, you could use either format. Note that both formats have restrictions: 
+**Recommended: Use the .xlsx format.** We recommend this format because it is usually easier to use. But in many cases, you could use either format, provided that you heed their restrictions: 
 
 1. **Use .xlsx if outside of the United States.** Files in the UTF-8 encoded .csv format are subject to United-States data formatting, so if your organization is based outside of the United States and uses non-U.S. formatting for dates, times, or numbers, use the .xlsx format. 
 2. **Encode .csv files properly.** Only choose the .csv-file option if you can format it as required: UTF-8 encoded, and with all data (dates, times, numbers) in United-States format. Files in the .xlsx format do not have these restrictions.
@@ -38,6 +47,63 @@ For these uploads, you can choose from among two file formats. The following sec
 <!-- 
 > * Upload groups for use in solutions: [Use a .csv file](../tutorials/solutions-conceptual.md#use-a-csv-file)  **[This link is a placeholder for now. This section will need to be rewritten.]**
 -->
+
+## Format .xlsx files 
+
+### Rules for .xlsx files
+
+Acceptable .xlsx files must adhere to the following: 
+
+ * **File extension.** The extension must be _.xlsx_. It cannot be any other extension (such as .xls, .xlsb, or .xlsm) that is supported by Microsoft Excel or another spreadsheet applicaiton.
+ * **No formulas or macros.** Include no formulas or macros in cells in the .xlsx file.
+ * **Accepted number and date formats.** While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Select an accepted format](#select-an-accepted-format).
+ * **Size limit.** The upper limit of .xlsx files for upload is 1.5 GB. If your upload file is larger than 1.5 GB, use the .csv format instead. 
+ * **Internal structure.** See the following section, [Structure an .xlsx file](#structure-an-xlsx-file) to learn how to structure the columns and rows in an .xlsx file for successful upload.
+
+#### Select an accepted format
+
+For numbers and for dates, you can use only the predefined formats that Microsoft Excel offers. Do not use custom formats. To guarantee that you've selected a predefined format, follow these steps:
+
+1. Select one or more cells in a column that you want to format. In this example, we're formatting cells that contains dates:
+
+   ![Save .csv file](../images/wpa/setup/format-date-cell.png)
+
+2. Right-click the selection (of one or more cells) and select **Format Cells**.   
+
+3. In the **Format Cells** dialog box, under **Category**, select **Date**.
+
+4. Under **Type**, select a type. 
+
+> [!Note] 
+> Every cell in a column must have the same data type, even if they do not have the same exact format. For example, Workplace Analytics will correctly parse a column that includes some Date cells with dd/mm/yyyy format and others with mm/dd/yyyy format. The exception to this rule is the first(_Column header_) row, which contains strings. You can format the cells in the _Column header_ row as **General** or **Text** in Excel. 
+
+ ### Structure an .xlsx file
+
+ #### Sheets
+
+ * **First sheet only.** Workplace Analytics will read only the first sheet of the .xlsx file. You can have data on other sheets, but it will be ignored. To confirm which sheet is the first sheet, open the file in Excel and locate the tab farthest to the left. 
+
+ #### Columns 
+
+ * **First row contains column headers.** In the first sheet, the values in the first row are considered to be column headers. Note that Workplace Analytics uses these column headers in the same ways that it uses column headers in .csv files, such as on the organizational-data Mapping page. 
+ * **Blank and repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
+ * **Strings only in column headers.** Column headers must be strings.
+
+ #### Data 
+
+Use the help of the formatting function in Excel to make sure your data (all cells other than in the first row) is correctly formatted to the data type of your choice, such as date, number or text.
+
+If you intend to use a column and map its data to a particular Workplace Analytics data type, see the following table for guidelines.
+
+ | Workplace Analytics data type | Format the call as this type in Excel | 
+ | ------------------ | --------- | 
+ | TimeZone | In the Workplace Analytics mapping screen, make sure that all entries in the column are formatted as Text in Excel and then saved. All timezone strings must be one of the specified value for TimeZone values specified in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). |
+| Email | In Excel, choose the data type Text or General and make sure that the string is in a valid email format; for example, abc@xyz.com |  
+| Boolean | In Excel, the values "TRUE" and "FALSE" must be present. You can type these strings as General or Text strings. | 
+| Datetime | In Excel, choose the appropriate data type, Datetime. |
+| Double   | In Excel, choose the appropriate data type, Double |
+| Integer  | In Excel, choose the appropriate data type, Integer. |
+| String   | In Excel, choose General or Text. |
 
 ## Format UTF-8 encoded .csv files
 
@@ -70,19 +136,20 @@ When any data row or column has an invalid value for any attribute, the entire u
 
 1. Export organizational data from your HR database.
 
-2. Open Microsoft Excel and import the exported organizational data. 
+2. Open Excel and import the exported organizational data. 
 
 3. In Excel, organize the data:
 
    a. Place all of the data on a single worksheet. 
 
-   b. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare orgazational data](prepare-organizational-data.md). 
+   b. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare orgazational data](prepare-organizational-data.md).
 
-   c. All rows below row 1 must contain data about employees. Include one row of data per person, per EffectiveDate. (EffectiveDate is one of the required attributes in your data. For more information, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).)
+   > [!Note] 
+   > Each column represents an attribute. Many attributes are optional, but a few attributes (such as **EffectiveDate**) are required. (For more information, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).) 
+
+   c. All rows below row 1 must contain data about employees. Include one row of data per person, per EffectiveDate. 
 
 4. Save the worksheet into a single, flat, text file.
-   
-   ![Save .csv file](../images/wpa/setup/csv-file-format.png)
 
    a. In Excel, point to **File** and select **Save As**.
    
@@ -90,64 +157,12 @@ When any data row or column has an invalid value for any attribute, the entire u
 
    ![Save as UTF-8 .csv file](../images/wpa/setup/csv-utf-8.png)
  
-   Note the location of the file, for later use.  
+   Note the location of this file, for later use.  
    
-## Format .xlsx files 
+### Related topic
 
-### Rules for .xlsx files
+[Prepare orgazational data](prepare-organizational-data.md)
 
-Acceptable .xlsx files must adhere to the following: 
-
- * **File extension.** The extension must be _.xlsx_. It cannot be any other extension (such as .xls, .xlsb, or .xlsm) that is supported by Microsoft Excel or another spreadsheet applicaiton.
- * **No formulas or macros.** Include no formulas or macros in cells in the .xlsx file.
- * **Accepted number and date formats.** While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Selecting an accepted format](#selecting-an-accepted-format).
- * **Size limit.** The upper limit of .xlsx files for upload is 1.5 GB. If your upload file is larger than 1.5 GB, use the .csv format instead. 
- * **Internal structure.** See the following section, [Structure an .xlsx file](#structure-an-xlsx-file) to learn how to structure the columns and rows in an .xlsx file for successful upload.
-
-#### Selecting an accepted format
-
-For numbers and for dates, you can use only the predefined formats that Microsoft Excel offers. Do not use custom formats. To guarantee that you've selected a predefined format, follow these steps:
-
-1. Select one or more cells in a column that you want to format. In this example, we're formatting cells that contains dates:
-
-   ![Save .csv file](../images/wpa/setup/format-date-cell.pg)
-
-2. Right-click the selection (of one or more cells) and select **Format Cells**.   
-
-3. In the **Format Cells** dialog box, under **Category**, select **Date**.
-
-4. Under **Type**, select a type. 
-
-> [!Note] 
-> Every cell in a column must have the same data type except the first (header) row, which contains strings. You can format the cells in row 1 as **General** or **Text** in Excel. 
-
- ### Structure an .xlsx file
-
- #### Sheets
-
- * **First sheet only.** Workplace Analytics will read only the first sheet of the .xlsx file. You can have data on other sheets, but it will be ignored. To confirm which sheet is the first sheet, open the file in Excel and locate the tab farthest to the left. 
-
- #### Columns 
-
- * **First row contains column headers.** In the first sheet, the values in the first row are considered to be column headers. Note that Workplace Analytics uses these column headers in the same ways that it uses column headers in .csv files, such as on the organizational-data Mapping page. 
- * **Blank and repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
- * **Strings only in column headers.** Column headers must be strings.
-
- #### Data 
-
-Use the help of the formatting function in Excel to make sure your data (all cells other than in the first row) is correctly formatted to the data type of your choice, such as date, number or text.
-
-If you intend to use a column and map its data to a particular Workplace Analytics data type, see the following table for guidelines.
-
- | Workplace Analytics data type | Format the call as this type in Excel | 
- | ------------------ | --------- | 
- | TimeZone | In the Workplace Analytics mapping screen, make sure that all entries in the column are formatted as Text in Excel and then saved. All timezone strings must be one of the specified value for TimeZone values specified in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). |
-| Email | In Excel, choose the data type Text or General and make sure that the string is in a valid email format; for example, abc@xyz.com |  
-| Boolean | In Excel, the values "TRUE" and "FALSE" must be present. You can type these strings as General or Text strings. | 
-| Datetime | In Excel, choose the appropriate data type, Datetime. |
-| Double   | In Excel, choose the appropriate data type, Double |
-| Integer  | In Excel, choose the appropriate data type, Integer. |
-| String   | In Excel, choose General or Text. |
 
 
 
