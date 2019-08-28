@@ -90,4 +90,4 @@ A number of other inline suggestions are available to all MyAnalytics participan
 
 [Solution: Walkthrough](solutions-task.md)
 
-[Solution: Concepts](solutions-conceptual.md)
+[Solution: Concepts](solutionsv2-conceptual.md)
