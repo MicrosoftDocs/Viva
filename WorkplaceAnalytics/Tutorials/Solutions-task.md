@@ -45,14 +45,14 @@ Both analysts and Program Managers can create groups. You can create a group on 
 * **Analysts** can create a group either by using charts to select groups or by manually uploading a group (in a .csv file):
 
    * **Charts**: To use charts to select a group, on the **Solutions** > **Identify** page, you choose an area for behavior change, and then answer questions to perform an analysis of workplace behavior. Finally, use the results of this analysis to select one or more groups of people to put into an improvement program. For a step-by-step description, see [Identify a group](#identify-a-group).
-   * **File upload**: To use an upload, you need to create a .csv file and then upload it. For a step-by-step description, see [Upload a file to create a group](#upload-a-file-to-create-a-group). For more information about the file you upload, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file).
+   * **File upload**: To use an upload, you need to create a .csv file and then upload it. For a step-by-step description, see [Upload a file to create a group](#upload-a-file-to-create-a-group). For more information about the file you upload, see [Use a .csv file](solutionsv2-conceptual.md#use-a-csv-file).
 
 * **Program Managers** can create groups only by manually uploading them. Use this method if you have a business reason to assign a program to a specific group of people. These people might recognize an area in which they want to improve, or you might have identified them as needing improvement in a certain behavior. The file you upload must have the .csv extension. You can assemble it by hand or export it from an HR tool. This file must use email addresses to identify people.
-   * **File upload**: To use an upload, you need to create a .csv file and then upload it. See the following [Upload a file to create a group](#upload-a-file-to-create-a-group) for detailed steps. For more information, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file).
+   * **File upload**: To use an upload, you need to create a .csv file and then upload it. See the following [Upload a file to create a group](#upload-a-file-to-create-a-group) for detailed steps. For more information, see [Use a .csv file](solutionsv2-conceptual.md#use-a-csv-file).
 
 ### Upload a file to create a group
 
- * **Task prerequisite:** Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file](solutions-conceptual.md#use-a-csv-file).  
+ * **Task prerequisite:** Use this task if you already have a list (in the form of a .csv file) of people who will participate in the program. For more information, see [Use a .csv file](solutionsv2-conceptual.md#use-a-csv-file).  
  * **Task role**: Program Manager
 
 1. In Workplace Analytics, select **Solutions** > **Identify** > **Go**.
@@ -60,7 +60,7 @@ Both analysts and Program Managers can create groups. You can create a group on 
 3. In the **Upload group** page, select **Browse**, locate and select a .csv file, and then select **Open**.
 4. Identify this group in the **Group name** field.
 5. For **Choose Program**, select the program type. The choice of a program is final; you cannot change it after you submit this group.
-6. For **Max goal** (or **Min goal** if the program is to increase focus hours), select either a percentage-based or hours-based goal. If you select percentage-based, also set a value for **Threshold**. The choice of Max or Min goal is not final. See also [Set a value for Max or Min goal](solutions-conceptual.md#set-a-value-for-max-or-min-goal).
+6. For **Max goal** (or **Min goal** if the program is to increase focus hours), select either a percentage-based or hours-based goal. If you select percentage-based, also set a value for **Threshold**. The choice of Max or Min goal is not final. See also [Set a value for Max or Min goal](solutionsv2-conceptual.md#set-a-value-for-max-or-min-goal).
 7. Optionally, in the **Group description and notes** section, type a description of this group and the program.
 8. Select the check box for **I confirm that these selections are correct** and then select **Submit**.
 9. When Workplace Analytics shows your group as successfully uploaded, you can view groups that you've uploaded on the **Manage** page.
@@ -112,15 +112,15 @@ If you don't yet have a list of people (a .csv file) that you want to register f
    The chart has vertical bars that represent groups of people in the following ways:
 
    * Groups that reach or exceed the minimum group size are colored blue-green. These groups are large enough for you to analyze.
-   * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutions-conceptual.md#minimum-group-size).) For example, if the organization you are analyzing has a minimum group size of five, you can change it to a level that you consider more relevant for your organization. However, you cannot set the group size lower than five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown as grayed out:
+   * Groups that don't reach the minimum group size are displayed with gray and white stripes. These groups are too small to analyze individually. (Also see [Minimum group size](solutionsv2-conceptual.md#minimum-group-size).) For example, if the organization you are analyzing has a minimum group size of five, you can change it to a level that you consider more relevant for your organization. However, you cannot set the group size lower than five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown as grayed out:
 
        ![Groups below the minimum size](../Images/WpA/Tutorials/solutions-task-04.png)
   
-      See also [Available and selected employees](solutions-conceptual.md#available-and-selected-employees).
+      See also [Available and selected employees](solutionsv2-conceptual.md#available-and-selected-employees).
 
 10. Select one or more groups for analysis. You can also select grayed-out groups. If you select enough of them so that their combined membership exceeds the minimum group size, you can use them in your analysis.
 
-    To select multiple groups, just click or tap them. To unselect a selected group, click or tap it again. For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](solutions-conceptual.md#persistence-of-group-selections).
+    To select multiple groups, just click or tap them. To unselect a selected group, click or tap it again. For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](solutionsv2-conceptual.md#persistence-of-group-selections).
 
 After you have identified the groups, do the following steps to [Submit a group](#submit-a-group).
 
@@ -142,7 +142,7 @@ After you have identified the groups, do the following steps to [Submit a group]
 
     * **Time-based goal**: Select **hrs** and then select a number of hours. Participants will see this as the maximum number of meeting hours per week that they should strive to reach over the course of the program. (For Focus hours, this goal will reflect the minimum number of hours.)
 
-    * **Percentage-based goal**: Select **%** and then select a percentage amount. Participants should reduce their meeting hours by this much (or, for Focus hours, to increase the number by this much). If you choose percentage-based, you can also select a threshold. For more information, see [Threshold](solutions-conceptual.md#threshold). 
+    * **Percentage-based goal**: Select **%** and then select a percentage amount. Participants should reduce their meeting hours by this much (or, for Focus hours, to increase the number by this much). If you choose percentage-based, you can also select a threshold. For more information, see [Threshold](solutionsv2-conceptual.md#threshold). 
 
 5. Select the check box for **I confirm that these selections are correct**, and then select **Submit**. A notification appears in the lower-right area of the page to confirm that your group was successfully submitted. You can select this notification to open and view the group on the **Solutions** > **Manage** page.
 
@@ -150,12 +150,12 @@ After you have identified the groups, do the following steps to [Submit a group]
 
 After you select **Submit**, Workplace Analytics processes the group. Processing includes the following tasks.
 
-1. **Create the group**: If you manually uploaded the group, Workplace Analytics matches the provided email addresses to PersonIDs in the system. If you selected a group by using the Identify page, the system creates the group based on the measured employees who meet the criteria set by the filters you used and the groups you selected when the group was submitted. For more information about manual upload, see [Manually upload a .csv file](solutions-conceptual.md#manually-upload-a-csv-file).
+1. **Create the group**: If you manually uploaded the group, Workplace Analytics matches the provided email addresses to PersonIDs in the system. If you selected a group by using the Identify page, the system creates the group based on the measured employees who meet the criteria set by the filters you used and the groups you selected when the group was submitted. For more information about manual upload, see [Manually upload a .csv file](solutionsv2-conceptual.md#manually-upload-a-csv-file).
 2. **Calculate the benchmark**: Workplace Analytics calculates a new benchmark for this program type and this group. For example, if you chose Reduce meeting hours as the program type, the calculated benchmark reflects the average amount of time these people spent in meetings over each week of the most recent 12 weeks of data that Workplace Analytics has for that group. 
-3. **Display the group card**: Workplace Analytics displays the group in a card in the Unassigned groups column on the Solutions > Manage page. This card shows the group's title, program type, and date of submission. At first, the group's card indicates that the group is still being processed. After processing is finished, the displayed card is still just a group of people; it is not yet a program. (For more information about group and program cards, see [The Solutions > Manage page](solutions-conceptual.md#the-solutions--manage-page).)  
+3. **Display the group card**: Workplace Analytics displays the group in a card in the Unassigned groups column on the Solutions > Manage page. This card shows the group's title, program type, and date of submission. At first, the group's card indicates that the group is still being processed. After processing is finished, the displayed card is still just a group of people; it is not yet a program. (For more information about group and program cards, see [The Solutions > Manage page](solutionsv2-conceptual.md#the-solutions--manage-page).)  
 
 > [!Note] 
-> After processing is finished, both the size of the group and the calculated benchmark might differ from what you expect. For more information, see [Group size and benchmark might differ](solutions-conceptual.md#group-size-and-benchmark-might-differ).
+> After processing is finished, both the size of the group and the calculated benchmark might differ from what you expect. For more information, see [Group size and benchmark might differ](solutionsv2-conceptual.md#group-size-and-benchmark-might-differ).
 
 Go to [Schedule a program](#schedule-a-program). 
 
@@ -228,7 +228,7 @@ After the program starts, you can track its progress in the following [Track pro
 
 **Task role**: Program Manager
 
-You can track programs on the Manage page. Use this page to measure progress on the goal since program started, as well as ROI for the program. For a brief overview, see [The Solutions > Manage page](solutions-conceptual.md#the-solutions--manage-page).  
+You can track programs on the Manage page. Use this page to measure progress on the goal since program started, as well as ROI for the program. For a brief overview, see [The Solutions > Manage page](solutionsv2-conceptual.md#the-solutions--manage-page).  
 
 **To track an active program**
 
@@ -236,7 +236,7 @@ You can track programs on the Manage page. Use this page to measure progress on 
 
    ![Track option for active programs](../Images/WpA/Tutorials/solutions-task-07.png)
  
-2. Select **Track** to show information about the progress of the program up to this point. For more information, see [Progress report](Solutions-conceptual.md#progress-report).
+2. Select **Track** to show information about the progress of the program up to this point. For more information, see [Progress report](solutionsv2-conceptual.md#progress-report).
 
 3. Optionally, to compare the results of one program (active or completed) with the results of another program (active or completed), select the **Progress for** list in the banner, and then select the name of the other program. The display switches to the progress for the selected program.
 
@@ -248,4 +248,4 @@ You can track programs on the Manage page. Use this page to measure progress on 
 
 [Solution: Participants](solutions-participants.md)  
 
-[Solution: Concepts](solutions-conceptual.md)
+[Solution: Concepts](solutionsv2-conceptual.md)
