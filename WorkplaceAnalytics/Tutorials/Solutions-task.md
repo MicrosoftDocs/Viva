@@ -217,7 +217,7 @@ The program does not start immediately after you schedule it. Here are the event
 | Event | Notes |
 | ----- | ----- | 
 | Create and [schedule a program](#schedule-a-program) | <ul><li>After you submit the program, Workplace Analytics displays a message that tells you on which day the program will start.</li><li>On the Solutions > Manage page, the program's card moves from Unassigned groups to Scheduled programs.</li></ul> | 
-| The next Monday arrives | <ul><li>Programs always start on a Sunday. On the Monday before that first Sunday, Workplace Analytics sends the welcome email (see an [example](solutions-participants.md#welcome-email)) to all program participants. (You had an opportunity to edit this welcome email in [Schedule a program](#schedule-a-program).)</li><li>After Workplace Analytics sends the welcome message to the new participants, the program is locked for editing.</li></ul> |
+| The next Monday arrives | <ul><li>Programs always start on a Sunday. On the Monday before that first Sunday, Workplace Analytics sends the welcome email (see an [example](solutionsv2-participants.md#welcome-email)) to all program participants. (You had an opportunity to edit this welcome email in [Schedule a program](#schedule-a-program).)</li><li>After Workplace Analytics sends the welcome message to the new participants, the program is locked for editing.</li></ul> |
 | The next Sunday arrives | <ul><li>This is the first day of the first week (of twelve weeks) of the program.</li><li>The program's card moves from Scheduled programs into Active programs.</li></ul> |
 
 In this sequence of events, if you schedule a program on -- for example -- a Wednesday, the soonest the program can start is two Sundays later.
@@ -246,6 +246,6 @@ You can track programs on the Manage page. Use this page to measure progress on 
 
 [Solution: Introduction](solutions-intro.md)  
 
-[Solution: Participants](solutions-participants.md)  
+[Solution: Participants](solutionsv2-participants.md)  
 
 [Solution: Concepts](solutionsv2-conceptual.md)

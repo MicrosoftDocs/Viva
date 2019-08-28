@@ -26,7 +26,7 @@ After you create and run a Person query, you can view its results (in the form o
 In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as [Power BI](../use/view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool). 
 
 > [!Note] 
-> Your query results might indicate groups of employees that could benefit from a [solution](solutions-intro.md) plan. <!-- REPLACE WHEN SV2 RELEASES: from a [solution](solutionsv2-intro.md) plan. --> You can create such a plan by starting with the query results display. For more information, see [Optional: Create a solution plan](#optional-create-a-solution-plan).
+> Your query results might indicate groups of employees that could benefit from a [solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optional: Create a solution plan](#optional-create-a-solution-plan).
 
 ## Run a query and view results 
 
@@ -68,7 +68,7 @@ As you add and apply filters and select groups, the chart section of the results
 
 Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in the **Solutions** area of Workplace Analytics. 
 
-For more information about solutions, see [Workplace Analytics solutions](solutions-intro.md).  <!-- REPLACE WHEN SV2 RELEASES: see [Workplace Analytics solutions](solutionsv2-intro.md).  -->
+For more information about solutions, see [Workplace Analytics solutions](solutionsv2-intro.md).  
 
 **Role:** analyst 
 
@@ -86,19 +86,16 @@ For more information about solutions, see [Workplace Analytics solutions](soluti
 
 3. On the **Set up new plan** pane, select an appropriate plan type for the group that you designated and select **Start now**. 
 
-4. Select **Validate** to validate the selected group. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. <!--(For more information, see [Validation](solutionsv2-conceptual.md#validation).)   DELETING FOR NOW BECAUSE IT'S NOT IN THE SV1 DOC. --> <!-- REPLACE WHEN SV2 RELEASES: see [Validation](solutionsv2-conceptual.md#validation).)   -->
+4. Select **Validate** to validate the selected group. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).) 
 
    If validation fails, you can return to your query results and select a different group or additional groups, or start over. After any subsequent group selection, you must select **Validate** again. After validation succeeds, go to the next step.
 
-5.	With your group validated, you can now start a solutions plan. <!-- See the [Start the plan](solutionsv2-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section of [Solution walkthrough](solutionsv2-task.md).   DELETING FOR NOW BECAUSE IT'S NOT IN THE SV1 DOC. --> <!-- REPLACE WHEN SV2 RELEASES: See the [Start the plan](solutionsv2-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section  --> <!-- REPLACE WHEN SV2 RELEASES: of [Solution walkthrough](solutionsv2-task.md).   -->
+5.	With your group validated, you can now start a solutions plan. See the [Start the plan](solutionsv2-task.md#start-the-plan) section of [Solution walkthrough](solutionsv2-task.md).    
 
-6.	After the plan starts and is underway, you can track its progress; for more information, see [Track programs](solutionsv2-task.md#track-programs).  <!-- REPLACE WHEN SV2 RELEASES: see [Track plans](solutionsv2-task.md#track-plans).  --> To learn about the plan from the participants' perspective, see [The experience of plan participants](solutions-participants.md?branch=PAS-LR-SolutionsV2). 
-  
-<!-- REPLACE WHEN SV2 RELEASES:  see [The experience of plan participants](solutionsv2-participants.md?branch=PAS-LR-SolutionsV2).   -->
+6.	After the plan starts and is underway, you can track its progress; for more information, see [Track plans](solutionsv2-task.md#track-plans). To learn about the plan from the participants' perspective, see [The experience of plan participants](solutionsv2-participants.md). 
 
 ## Related topics
 
 [Person query](person-queries.md) 
 
 [Solution walkthrough](solutionsv2-task.md)
-<!-- REPLACE WHEN SV2 RELEASES:  [Solution walkthrough](solutionsv2-task.md)   -->

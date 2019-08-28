@@ -185,4 +185,4 @@ What's the difference between a solution and a program? "Teamwork solution" refe
 
 [Solution: Walkthrough](solutionsv2-task.md)
 
-[Solution: Participants](solutions-participants.md)  
+[Solution: Participants](solutionsv2-participants.md)  

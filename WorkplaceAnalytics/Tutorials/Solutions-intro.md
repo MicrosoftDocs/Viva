@@ -94,6 +94,6 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 
 [Solution: Walkthrough](solutionsv2-task.md)
 
-[Solution: Participants](solutions-participants.md)  
+[Solution: Participants](solutionsv2-participants.md)  
 
 [Solution: Concepts](solutionsv2-conceptual.md) 
