@@ -244,7 +244,7 @@ You can track programs on the Manage page. Use this page to measure progress on 
 
 ## Related topics
 
-[Solution: Introduction](solutions-intro.md)  
+[Solution: Introduction](solutionsv2-intro.md)  
 
 [Solution: Participants](solutionsv2-participants.md)  
 
