@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Teamwork solution: Concepts
 
-This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs by using the Teamwork solution feature. Those tasks are described in the step-by-step walkthrough for creating a program, [Solution: Walkthrough](solutions-task.md).
+This section describes concepts whose understanding could help you complete tasks related to creating and monitoring programs by using the Teamwork solution feature. Those tasks are described in the step-by-step walkthrough for creating a program, [Solution: Walkthrough](solutionsv2-task.md).
 
 ## Use a .csv file
 
@@ -37,9 +37,9 @@ In the **Group Details** area of the **Upload group** page, you can check the nu
 > [!Note] 
 > After you submit a group that was manually uploaded, if too many email addresses are invalid and the group drops below minimum group size, you can either delete the group or upload a new file, but you cannot create a program with a group that is smaller than the minimum group size. 
 
-(Program managers) Return to [Upload a file to create a group](solutions-task.md#upload-a-file-to-create-a-group).
+(Program managers) Return to [Upload a file to create a group](solutionsv2-task.md#upload-a-file-to-create-a-group).
 
-(Analysts) Return to [Identify a group](solutions-task.md#identify-a-group).
+(Analysts) Return to [Identify a group](solutionsv2-task.md#identify-a-group).
 
 ## Set a value for Max or Min goal
 
@@ -65,7 +65,7 @@ The dividing line between these two groups of people is the threshold. You can s
 
 **Example:** You want to reduce meeting hours from 15 hours to 10 hours, but you express this in the **Goal Details** area as reducing meeting hours by 50% from the initial benchmark of 15 hours. After you set the threshold to 10 hours, participants who have reduced their weekly meeting time to 10 hours receive a congratulatory email. Those whose meeting time remains above 10 hours receive email in a more compelling tone. 
 
-Return to [Submit a group](solutions-task.md#submit-a-group). 
+Return to [Submit a group](solutionsv2-task.md#submit-a-group). 
 
 ## The Solutions > Manage page
 
@@ -89,9 +89,9 @@ Groups and programs are shown on the **Solutions** > **Manage** page of Workplac
 * **Completed programs:** A program ends automatically at the end of its twelfth week. You can also end a program early. You can review the results of all completed programs. You can end a program early either because its participants have reached and held their goals, or because it is not working, in which case you might want to reassess the program and restart it with different settings.
 
 > [!Note] 
-> Analysts have read-only access to the **Solutions** > **Manage** page. Program managers have read and write access to this page. For more information, see [Workflow phases, pages, and roles](solutions-task.md#workflow-phases-pages-and-roles). 
+> Analysts have read-only access to the **Solutions** > **Manage** page. Program managers have read and write access to this page. For more information, see [Workflow phases, pages, and roles](solutionsv2-task.md#workflow-phases-pages-and-roles). 
 
-Return to [Track programs](solutions-task.md#track-programs) or [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks).
+Return to [Track programs](solutionsv2-task.md#track-programs) or [Next steps: processing tasks](solutionsv2-task.md#next-steps-processing-tasks).
 
 ## Available and selected employees
 
@@ -103,7 +103,7 @@ On the **Solutions** > **Identify** > **Collaboration Overload** page, groups of
 * **In filter group:** The number of measured employees who remain available for analysis after you applied filters.
 * **Selected group:** The number of employees in the group or groups that you selected in the chart.
 
-Return to [Identify a group](solutions-task.md#identify-a-group).
+Return to [Identify a group](solutionsv2-task.md#identify-a-group).
 
 ## Persistence of group selections
 
@@ -120,7 +120,7 @@ After you select groups, you can change other settings on this page. Not all of 
 
 To select groups again after you have changed the chart or area of focus, select **groups** in the chart.  
 
-Return to [Identify a group](solutions-task.md#identify-a-group).
+Return to [Identify a group](solutionsv2-task.md#identify-a-group).
 
 ## Progress report
 
@@ -135,7 +135,7 @@ In this example, you can see a nearly 30% decrease in after-hours work since the
 The middle number shows the aggregate (not weekly) number of after-hours time that was saved since the start of the program, for all participating employees. This number gives a hint of your ROI for implementing the program.  
 The third number shows what proportion of participants are achieving the program goal. It compares the average value per person since the program started with the program goal. 
 
-Return to [Track programs](solutions-task.md#track-programs).
+Return to [Track programs](solutionsv2-task.md#track-programs).
 
 ## Manually upload a .csv file
 
@@ -145,7 +145,7 @@ After you create and upload a .csv file to create a group, all email addresses t
 
 After you create and upload a file to create a group, Workplace Analytics matches the email addresses in the file to PersonIDs. From this point on, Workplace Analytics uses the PersonIDs and no longer shows email addresses in any of its outputs, for example, in the results of flexible queries. The email addresses are never again made visible to analysts or program managers. As for admins, they maintain access to the HR data, which includes email addresses, but they cannot match email addresses to PersonIDs. The person who uploads email addresses never sees the associated PersonIDs.
 
-Return to [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks).
+Return to [Next steps: processing tasks](solutionsv2-task.md#next-steps-processing-tasks).
 
 ## Use Workplace Analytics to identify a group
 
@@ -165,9 +165,9 @@ Conversely, if you examined a period shorter than twelve weeks -- only four week
 
 After the group has been determined, the benchmark is recalculated by using the data for this new group. This means that the benchmark numbers might also change from what you expected when you submitted the group initially. Benchmarks are also calculated for a 12-week window of data. 
 
-Return to [Identify a group](solutions-task.md#identify-a-group) 
+Return to [Identify a group](solutionsv2-task.md#identify-a-group) 
 
-Return to [Next steps: processing tasks](solutions-task.md#next-steps-processing-tasks)
+Return to [Next steps: processing tasks](solutionsv2-task.md#next-steps-processing-tasks)
 
 ## Additional Concepts
 
@@ -183,6 +183,6 @@ What's the difference between a solution and a program? "Teamwork solution" refe
 
 [Solution: Introduction](solutions-intro.md)  
 
-[Solution: Walkthrough](solutions-task.md)
+[Solution: Walkthrough](solutionsv2-task.md)
 
 [Solution: Participants](solutions-participants.md)  
