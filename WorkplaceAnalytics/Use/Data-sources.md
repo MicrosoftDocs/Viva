@@ -6,8 +6,7 @@ title: Workplace Analytics Data sources
 description: An overview of Data sources in Workplace Analytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/21/2019
-ms.topic: conceptual
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
@@ -48,11 +47,11 @@ The Data sources summary provides the following information about your data:
 
 For more information about what data is needed to compute metrics, see these topics:
 
-[Prepare organizational data](../setup/Prepare-organizational-data.md)
+* [Prepare organizational data](../setup/Prepare-organizational-data.md)
 
-[Metric definitions](../Use/Metric-definitions.md)
+* [Metric definitions](../Use/Metric-definitions.md)
 
-[Glossary](../Use/Glossary.md)
+* [Glossary](../Use/Glossary.md)
 
 ## Office 365 data summary
 

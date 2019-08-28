@@ -6,7 +6,6 @@ title: Workplace Analytics metric definitions
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics
 author: madehmer
 ms.author: v-midehm
-ms.date: 08/15/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -38,7 +37,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |IMs | Total number of instant messages (IMs) or chats sent by the person as the initiator, through Teams, during and outside of working hours. Note: Time in IM compose estimated to 22 seconds, Time in IM read estimated to 8 seconds| Person| Count| Yes
 |Internal network size|Number of people within the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes |
 |Low-quality meeting hours|Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](settings.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. |Person|Hour|Yes|
-|Manager coaching hours 1:1|Number of hours that a manager spends in one-on-one meetings with their direct reports. |Person|Hour|Yes|
+|Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
 |Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
 |Meeting hours with manager|Number of meeting hours where attendees included at least the person and their manager.|Person|Hour|Yes|
 |Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
