@@ -90,9 +90,9 @@ For more information about solutions, see [Workplace Analytics solutions](soluti
 
    If validation fails, you can return to your query results and select a different group or additional groups, or start over. After any subsequent group selection, you must select **Validate** again. After validation succeeds, go to the next step.
 
-5.	With your group validated, you can now start a solutions plan. <!-- See the [Start the plan](solutions-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section of [Solution walkthrough](solutions-task.md).   DELETING FOR NOW BECAUSE IT'S NOT IN THE SV1 DOC. --> <!-- REPLACE WHEN SV2 RELEASES: See the [Start the plan](solutionsv2-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section  --> <!-- REPLACE WHEN SV2 RELEASES: of [Solution walkthrough](solutionsv2-task.md).   -->
+5.	With your group validated, you can now start a solutions plan. <!-- See the [Start the plan](solutionsv2-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section of [Solution walkthrough](solutionsv2-task.md).   DELETING FOR NOW BECAUSE IT'S NOT IN THE SV1 DOC. --> <!-- REPLACE WHEN SV2 RELEASES: See the [Start the plan](solutionsv2-task.md?branch=PAS-LR-SolutionsV2#start-the-plan) section  --> <!-- REPLACE WHEN SV2 RELEASES: of [Solution walkthrough](solutionsv2-task.md).   -->
 
-6.	After the plan starts and is underway, you can track its progress; for more information, see [Track programs](solutions-task.md#track-programs).  <!-- REPLACE WHEN SV2 RELEASES: see [Track plans](solutionsv2-task.md#track-plans).  --> To learn about the plan from the participants' perspective, see [The experience of plan participants](solutions-participants.md?branch=PAS-LR-SolutionsV2). 
+6.	After the plan starts and is underway, you can track its progress; for more information, see [Track programs](solutionsv2-task.md#track-programs).  <!-- REPLACE WHEN SV2 RELEASES: see [Track plans](solutionsv2-task.md#track-plans).  --> To learn about the plan from the participants' perspective, see [The experience of plan participants](solutions-participants.md?branch=PAS-LR-SolutionsV2). 
   
 <!-- REPLACE WHEN SV2 RELEASES:  see [The experience of plan participants](solutionsv2-participants.md?branch=PAS-LR-SolutionsV2).   -->
 
@@ -100,5 +100,5 @@ For more information about solutions, see [Workplace Analytics solutions](soluti
 
 [Person query](person-queries.md) 
 
-[Solution walkthrough](solutions-task.md)
+[Solution walkthrough](solutionsv2-task.md)
 <!-- REPLACE WHEN SV2 RELEASES:  [Solution walkthrough](solutionsv2-task.md)   -->

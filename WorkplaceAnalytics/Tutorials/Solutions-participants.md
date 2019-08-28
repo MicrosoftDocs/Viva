@@ -88,6 +88,6 @@ A number of other inline suggestions are available to all MyAnalytics participan
 
 [Solution: Introduction](solutions-intro.md)  
 
-[Solution: Walkthrough](solutions-task.md)
+[Solution: Walkthrough](solutionsv2-task.md)
 
 [Solution: Concepts](solutionsv2-conceptual.md)

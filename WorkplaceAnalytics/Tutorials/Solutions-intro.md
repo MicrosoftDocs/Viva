@@ -25,7 +25,7 @@ By combining the power of Workplace Analytics and MyAnalytics, the Teamwork solu
 
 For more information about the real-world change programs that Teamwork solution enables, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->
 
-For walkthrough steps that use Teamwork solution to create a program, see [Walkthrough](solutions-task.md).
+For walkthrough steps that use Teamwork solution to create a program, see [Walkthrough](solutionsv2-task.md).
 
 ### Video: Solution overview
 
@@ -73,7 +73,7 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 #### Additional information about roles and access
 
 * For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
-* For more information about roles in solutions, see [Workflow phases, pages, and roles](solutions-task.md#workflow-phases-pages-and-roles).
+* For more information about roles in solutions, see [Workflow phases, pages, and roles](solutionsv2-task.md#workflow-phases-pages-and-roles).
 * For more information about assigning roles, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#setup-steps).
 
 ### Questions about program implementation
@@ -92,7 +92,7 @@ Read the [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf), w
 
 ## Related topics
 
-[Solution: Walkthrough](solutions-task.md)
+[Solution: Walkthrough](solutionsv2-task.md)
 
 [Solution: Participants](solutions-participants.md)  
 
