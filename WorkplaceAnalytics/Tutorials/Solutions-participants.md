@@ -86,7 +86,7 @@ A number of other inline suggestions are available to all MyAnalytics participan
 
 ## Related topics
 
-[Solution: Introduction](solutions-intro.md)  
+[Solution: Introduction](solutionsv2-intro.md)  
 
 [Solution: Walkthrough](solutionsv2-task.md)
 
