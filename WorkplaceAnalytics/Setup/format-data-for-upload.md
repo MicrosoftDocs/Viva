@@ -14,7 +14,7 @@ ms.prod: wpa
 
 # Format organizational data for upload
 
-Workplace Analytics admins upload files that contain organizational (HR) data as part of setup and as a regular data-refresh task. 
+Workplace Analytics admins upload files that contain organizational (HR) data as part of setup and as a regular data-refresh task.  
 
 <!-- THIS IS THE HEADER AND INTRO PARAGRAPH TO USE WHEN THIS TOPIC APPLIES TO UPLOAD OF ALL/VARIOUS DATA TO WPA. 
 FOR NOW (AUGUST 2019), MENTION ONLY ORG DATA. 
