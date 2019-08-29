@@ -191,7 +191,7 @@ Select that card to see the following options to book focus time on individual d
 
 <!--  DELETED PER PETERB 27 JUNE
 
-If you've chosen not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days. 
+If you've chosen not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days.
 
 For example, the add-in might display this card: 
  
