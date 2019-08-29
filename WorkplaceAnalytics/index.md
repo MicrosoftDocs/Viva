@@ -96,7 +96,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/solutions-intro">
+        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/solutionsv2-intro">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

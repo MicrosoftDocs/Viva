@@ -6,7 +6,6 @@ title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/19/2019
 ms.topic: article
 localization_priority: once
 ms.prod: mya
@@ -101,7 +100,7 @@ If you block out your calendar for personal work by using an appointment (see [C
 
 Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
 
-#### Q3. Why do my focus time seem incorrect or inaccurate?
+#### Q3. Why does my focus time seem incorrect or inaccurate?
 
 Try the following to troubleshoot your focus-time totals:
 
