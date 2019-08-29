@@ -39,7 +39,8 @@ For these uploads, you can choose from among two file formats. The following sec
 3. **Stay under the size limit.** The upper limit of .xlsx files for upload is 1.5 GB. If your upload file is larger than 1.5 GB, use the .csv format instead.
 
 > [!Note] 
-> For more information about selecting and arranging the _contents_ of these files (as opposed to adhering to their _formatting_ rules), see  [Prepare organizational data](prepare-organizational-data.md). 
+> * For more information about selecting and arranging the _contents_ of these files (as opposed to adhering to their _formatting_ rules), see  [Prepare organizational data](prepare-organizational-data.md). 
+> * If you've uploaded data by using one file format and would like to upload data in a different file format in the future, you can do so, as long as you format the data according to the rules in the following sections. 
 
 <!-- PER PRAMOD (23 AUGUST 2019) REMOVE THIS. "For now, CRM will continue to support upload only through CSV."
 > * CRM data: [Prepare the CRM source data](crm-data-upload.md#prepare-the-crm-source-data)
@@ -49,6 +50,8 @@ For these uploads, you can choose from among two file formats. The following sec
 -->
 
 ## Format .xlsx files 
+
+Workplace Analytics can accept organizational data in .xlsx files produced by Microsoft Excel or by other spreadsheet applications. 
 
 ### Rules for .xlsx files
 
@@ -83,11 +86,35 @@ For numbers and for dates, you can use only the predefined formats that Microsof
 
  * **First sheet only.** Workplace Analytics will read only the first sheet of the .xlsx file. You can have data on other sheets, but it will be ignored. To confirm which sheet is the first sheet, open the file in Excel and locate the tab farthest to the left. 
 
- #### Columns 
+   In the following example, only the data in the sheet labeled "DataSheet" will be used:
 
- * **First row contains column headers.** In the first sheet, the values in the first row are considered to be column headers. Note that Workplace Analytics uses these column headers in the same ways that it uses column headers in .csv files, such as on the organizational-data Mapping page. 
+   ![First data sheet only](../images/wpa/setup/first-sheet-only.png)
+
+ #### Columns and rows
+
+ * **The first row contains column headers.** In the first sheet, the values in the first row are considered to be column headers. Note that Workplace Analytics uses these column headers in the same ways that it uses column headers in .csv files, such as on the organizational-data Mapping page.
+
+   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md). 
+
+ * **No duplicate column headers.** Every column header must be unique. 
  * **Blank and repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
- * **Strings only in column headers.** Column headers must be strings.
+ * **Strings only in column headers.** Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. 
+ * **Only _column span_ data is used.** The _column span_ is a set of contiguous columns in the worksheet. The column span starts with column A and ends with the final column that has a column header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique. In the following example, the column span includes columns A through H: 
+
+   ![Column span](../images/wpa/setup/column-span.png)
+
+   In this example, the values in cells J3 and J4 will not be parsed, because they lie outside the column span. 
+
+ * **How _row-span_ data is used.** The _row span_ is the set of rows in the worksheet that starts with row 2 (the first row after the column headers) and extends to the last row (the row numbered the highest) that contains data. For example, in the following example, the row span includes rows 2 through 11: 
+
+   ![Row span](../images/wpa/setup/row-span.png)
+
+   Workplace Analytics considers the rows an this example as follows:
+    * Rows 2, 3, and 4 are valid rows. 
+    * Rows 5 through 10 are empty rows.
+    * Row 11 is considered "partially filled." The data in partially filled rows is read, parsed, checked for validation errors, and potentially used.   
+
+* **Combining _column span_ and _row span_.** After the column span and row span are determined, Workplace Analytics begins to validate the data in the rectangle of cells defined by the column span and the row span. In the preceding examples, this rectangle extends from cell A1 to cell H11. 
 
  #### Data 
 
@@ -111,20 +138,8 @@ If you intend to use a column and map its data to a particular Workplace Analyti
 
  * **UTF-8** Data files in .csv format must be in UTF-8 format.
  > * **Accepted date format.** All dates must be in the mm/dd/yyyy format.
- > * **Accepted number format.** Numerical fields (such as "HourlyRate") must be in the U.S. "number" format and cannot contain commas or a dollar sign. Example: Use **8.75**, not **8,75**. 
+ > * **Accepted number format.** Numerical fields (such as "HourlyRate") must be in the U.S. "number" format and cannot contain commas or currency designations (such as the dollar sign). Example: Use **8.75**, not **8,75**. 
  >  * **Delimiters.**  Use only the number delimiter (comma) of the United States. 
-
-### Example .csv data file
-
-Here's an example snippet of a valid .csv data file:
-
-PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area<br>
-Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast<br>
-Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast<br>
-Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast<br>
-Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest<br>
-Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest<br>
-Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
 ### Use only valid values and formats
 
@@ -158,8 +173,42 @@ When any data row or column has an invalid value for any attribute, the entire u
    ![Save as UTF-8 .csv file](../images/wpa/setup/csv-utf-8.png)
  
    Note the location of this file, for later use.  
-   
-### Related topic
+
+### Example .csv data file
+
+Here's an example snippet of a valid .csv data file:
+
+PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area<br>
+Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast<br>
+Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast<br>
+Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast<br>
+Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest<br>
+Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest<br>
+Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest  
+
+## Subsequent steps
+
+* **Role:** admin
+
+After you have populated and formatted your organizational data file, you can continue with the following intake steps:
+
+1. [File upload](upload-organizational-data-1st.md#file-upload).
+
+2. [Field mapping](upload-organizational-data-1st.md#field-mapping). After the data file is uploaded, you will encounter the mapping screen, where you map the source columns in the data file to Workplace Analytics names and select a datatype.
+
+3. After you have confirmed the field mapping, [Data validation](upload-organizational-data-1st.md#data-validation) starts. Successful validation depends on adherence to requirements including  the following:
+
+    * The validity threshold (see [Columns in the field tables](upload-organizational-data.md#columns-in-the-fields-tables) and [Set Validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields))
+    * The expected format for each data field
+    * The restrictions on special characters in column headers and special characters in field values in data rows 
+
+4. When validation finishes, it reports [success](upload-organizational-data-1st.md#validation-succeeds) or [failure](upload-organizational-data-1st.md#validation-fails). In case of errors, validation logs are made available. 
+
+<!-- NOTE FROM PRAMOD:
+Specific instructions to create, debug & fix (in case of validation errors) should be separate for CSV & XSLX files. We should have a separate page for each. We should link to these pages as required in the Prepare organizational data, Upload org data (First upload), Upload org data (subsequent uploads) pages.
+-->
+
+## Related topic
 
 [Prepare orgazational data](prepare-organizational-data.md)
 
