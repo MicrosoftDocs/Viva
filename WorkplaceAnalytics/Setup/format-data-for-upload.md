@@ -122,12 +122,11 @@ All field header or column names must:
 * Have no special characters (non-alphanumeric, such as @, #, %, &, *)
 * Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
 
-The field values in the data row must comply with the following formatting rules:
+The field values in the data rows must comply with the following formatting rules:
 
-* The required PersonId and ManagerId field values must be a valid email address (for example, gc@contoso.com). 
-* The required TimeZone field values must be in a supported Windows format.
-* The required Layer field values must contain numbers only.
-* The required HourlyRate field values must contain numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
+* The required **EffectiveDate** and **HireDate** field values must be in the MM/DD/YYYY format.
+* The required **PersonId** and **ManagerId** field values must be valid email addresses (for example, gc@contoso.com). 
+* The required **Layer** field values and **HourlyRate** field values must contain numbers only.
 
 >[!Note]
 > Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
@@ -145,7 +144,6 @@ The field values also cannot contain any of the following:
 
 To be able to map data in a column to a Workplace Analytics data type, use the data specified in the following table. Apply these data types by using the steps in [Apply the correct data types](#apply-the-correct-data-type).
 
-
 | 	Workplace Analytics data type	| 	Format as this data type in Excel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	| 	Notes	| 
 | 	-----	| 	-----	| 	-----	| 
 | 	Email	| 	General 	| 	This data type is the default option so no special formatting is necessary. 	| 
@@ -156,7 +154,6 @@ To be able to map data in a column to a Workplace Analytics data type, use the d
 | 	Integer	| 	Number	| 	Do not include a decimal component. For example, "2.35" is not accepted, but "2" and "-2" are accepted. 	| 
 | 	String	| 	General 	| 	This data type is the default option so no special formatting is necessary. The "Text" data type is also acceptable.	|
   
-
 ##### Apply the correct data type
 
 Use the capabilities of Microsoft Excel to apply a data type to the cells in your file. Every cell, whether it contains a date, a number, or text, must be correctly formatted to the data type of your choice. 
@@ -175,7 +172,7 @@ In this example, we're formatting cells that contains dates:
 
 3. In the **Format Cells** dialog box, under **Category**, select **Date**.
 
-4. Under **Type**, select a type. 
+4. Under **Type**, select a type. The selected cells will change to the new formatting style. If the cells do not change, go back to step 3 and make sure that you select a predefined Excel style.
 
 > [!Note] 
 > All of the data cells in a column must have the same data type, even if they do not have the same exact format. For example, Workplace Analytics will correctly parse a column that includes some cells with dd/mm/yyyy format and others with mm/dd/yyyy format as long as they all have the **Date** data type. 
@@ -189,7 +186,7 @@ In this example, we're formatting cells that contains dates:
  * **UTF-8** Data files in .csv format must be in UTF-8 format.
  > * **Accepted date format.** All dates must be in the mm/dd/yyyy format.
  > * **Accepted number format.** Numerical fields (such as "HourlyRate") must be in the U.S. "number" format and cannot contain commas or currency designations (such as the dollar sign). Example: Use **8.75**, not **8,75**. 
- >  * **Delimiters.**  Use only the number delimiter (comma) of the United States. 
+ >  * **Column delimiters.**  In the column-header row, use commas to separate values. 
 
 ### Use only valid values and formats
 
@@ -204,12 +201,11 @@ All field header or column names must:
 * Have no special characters (non-alphanumeric, such as @, #, %, &, *)
 * Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
 
-The field values in the data row must comply with the following formatting rules:
+The field values in the data rows must comply with the following formatting rules:
 
-* The required PersonId and ManagerId field values must be a valid email address (for example, gc@contoso.com). 
-* The required TimeZone field values must be in a supported Windows format.
-* The required Layer field values must contain numbers only.
-* The required HourlyRate field values must contain numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
+* The required **EffectiveDate** and **HireDate** field values must be in the MM/DD/YYYY format.
+* The required **PersonId** and **ManagerId** field values must be valid email addresses (for example, gc@contoso.com). 
+* The required **Layer** field values and **HourlyRate** field values must contain numbers only.
 
 >[!Note]
 > Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
