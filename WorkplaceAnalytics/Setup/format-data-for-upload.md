@@ -62,7 +62,7 @@ Acceptable .xlsx files must adhere to the following:
  * **Size limit.** The upper limit of .xlsx files for upload is 1.5 GB. If your upload file is larger than 1.5 GB, use the .csv format instead. 
  * **No formulas or macros.** Include no formulas or macros in cells in the .xlsx file.
 * **No special objects.** Do not include charts, images, pivot tables, or other such entities in the file.
- * **Accepted number and date formats.** While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Apply the correct format](#apply-the-correct-format).
+ * **Accepted number and date formats.** While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Apply the correct data type](#apply-the-correct-data-type).
  * **Internal structure.** See the following section, [Structure an .xlsx file](#structure-an-xlsx-file) to learn how to structure the columns and rows in an .xlsx file for successful upload.
 
  ### Structure an .xlsx file
@@ -83,7 +83,7 @@ Acceptable .xlsx files must adhere to the following:
 
  * **No duplicate column headers.** Every column header must be unique. 
  * **No blank or repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
- * **Strings only in column headers.** Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct format](#apply-the-correct-format).
+ * **Strings only in column headers.** Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type).
  * **Only _column span_ data is used.** The _column span_ is the set of contiguous columns in the worksheet that starts with column A and ends with the final column that has a header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique. In the following example, the column span is columns A through H: 
 
    ![Column span](../images/wpa/setup/column-span.png)
@@ -107,7 +107,7 @@ To help ensure that Workplace Analytics can successfully validate the data in yo
 
 1. Make sure that your data uses only [valid values and formats](#use-only-valid-values-and-formats). 
 2. Learn what [data types are required](#required-data-types) for the data in your upload file.
-3. [Apply the correct data types](#apply-the-correct-data-type) to the cells in your upload file. 
+3. [Apply the correct data type](#apply-the-correct-data-type) to the cells in your upload file. 
 
 ##### Use only valid values and formats
 
@@ -142,7 +142,7 @@ The field values also cannot contain any of the following:
 
 ##### Required data types
 
-To be able to map data in a column to a Workplace Analytics data type, use the data specified in the following table. Apply these data types by using the steps in [Apply the correct data types](#apply-the-correct-data-type).
+To be able to map data in a column to a Workplace Analytics data type, use the data specified in the following table. Apply these data types by using the steps in [Apply the correct data type](#apply-the-correct-data-type).
 
 | 	Workplace Analytics data type	| 	Format as this data type in Excel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	| 	Notes	|  
 | 	-----	| 	-----	| 	-----	| 
