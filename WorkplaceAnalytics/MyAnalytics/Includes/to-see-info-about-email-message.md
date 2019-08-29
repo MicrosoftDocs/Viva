@@ -20,9 +20,9 @@ ms.prod: mya
 
 2. On the **Insights** panel, select one of the following two cards:
 
-   a. **In-context sent mail read statistics**. This card provides read statistics for the one sent email that currently has focus in Outlook.
+   a. **In-context email open rate**. This card provides read statistics for the one sent email that currently has focus in Outlook.
 
-     ![In-context sent mail read statistics](../../Images/mya/use/in-context-card.png) 
+     ![In-context email open rate](../../Images/mya/use/in-context-card.png) 
 
    b. The **Track email open rates** card. This card provides read statistics for all other sent emails.  
 
@@ -30,7 +30,7 @@ ms.prod: mya
 
 3. To see read statistics, select the appropriate card.
 
-   a. If you selected the **In-context sent mail read statistics** card, the panel displays read statistics for the sent email that currently has focus in Outlook. The panel states the subject line and shows a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
+   a. If you selected the **In-context email open rate** card, the panel displays read statistics for the sent email that currently has focus in Outlook. The panel states the subject line and shows a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
    b. If you selected the **Track email open rates** card, the panel displays insights cards for each of your recently sent messages. These cards state the subject line, a brief summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
