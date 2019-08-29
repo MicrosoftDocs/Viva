@@ -6,7 +6,6 @@ title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics 
 author: paul9955
 ms.author: v-midehm
-ms.date: 03/05/2019
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
@@ -24,8 +23,10 @@ To learn more about the nature and use of organizational data, see [Use organiza
  * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze): Decide what trends you need to learn about to improve efficiency at work. From this, you can better choose what organizational data to use. 
  * [Know what data to include](#know-what-data-to-include): A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.  
  * [Get an export of organizational data](#get-an-export-of-organizational-data): Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.  
- * [Structure the organizational data](#structure-the-organizational-data): For your data to validate successfully, you must first structure it correctly in the.csv file that you upload. 
- * [Upload the data to Workplace Analytics](#upload-the-data-to-workplace-analytics): After your .csv file is ready, you upload it to Workplace Analytics where, after validation and processing, it becomes available for analysis. 
+ * For your data to validate successfully, you must first [format](format-data-for-upload.md) and [structure](#structure-the-organizational-data) it correctly in the data file that you upload. 
+ * [Upload the data to Workplace Analytics](#upload-the-data-to-workplace-analytics): After your data file is ready, you upload it to Workplace Analytics where, after validation and processing, it becomes available for analysis. 
+
+
 
 ## Use organizational data for more effective analysis
 
@@ -122,7 +123,15 @@ After you get this data, you must structure it for successful processing after u
 
 ## Structure the organizational data 
 
-After you’ve identified what data to provide, you need to export it into the correct format to upload to Workplace Analytics. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
+After you've identified what data to provide, you need to export it into a correct format to upload to Workplace Analytics. There are two valid formats: .xlsx files and UTF-8 encoded .csv files. For more information about selecting the proper format and formatting your file properly, see [Format data for upload](format-data-for-upload.md). 
+
+Regardless of the data format you choose, the file that you upload must contain at least the set of required attributes for the population. 
+
+<!-- REUSE THE TEXT IN THE FOLLOWING LINK: 
+For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
+-->
+
+<!-- WE NEED TO JUST DELETE THIS VIDEO. IT WILL NEED TO BE COMPLETELY REDONE ANYWAY WHEN THE WPA LAYOUT CHANGES: 
 
 The following video describes how to structure your organizational data file, including how to format the file, how to use the EffectiveDate field to reflect historical changes in your organization, which employees to include, and how to structure data that you add or update in subsequent uploads:
 
@@ -130,9 +139,11 @@ The following video describes how to structure your organizational data file, in
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 
+-->
+
 ### Required, reserved optional, and custom attributes
 
-**Required attributes** must be supplied with the following exact column headers (case sensitive) in the .csv upload:
+**Required attributes** must be supplied with the following exact column headers (case sensitive) in the data-file upload:
 
  * PersonId
  * EffectiveDate
@@ -155,28 +166,15 @@ Although these attributes are not required, if included, they must meet particul
 
 > [!Note] 
 > * The maximum number of total attributes allowed in the system is 65. This includes the five required attributes.
-> * All dates should be in the MM/DD/YYYY format.
-> * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+
 
 For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
-
-#### Example .csv export file
-
-Here's an example snippet of a valid .csv export file:
-
-PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area
-Emp1@contoso.com,10/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,11/1/2017,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
-Emp1@contoso.com,12/1/2017,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
-Emp2@contoso.com,10/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,11/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
-Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 
 For more information about attributes, see the [Attribute reference](#attribute-reference) section. 
 
 ## Upload the data to Workplace Analytics 
 
-After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
+After you create your data file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
 
 After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Workplace Analytics administrator.
 
@@ -186,7 +184,10 @@ It is recommended that you upload HR data at least once a month to keep data fre
 
 #### Supplying data over a time period
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). 
+By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements).
+
+<!-- REMOVED UNTIL WE FIX THE VIDEO AND REVIVE THE LINK DESTINATION:
+and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file). -->
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
@@ -212,7 +213,7 @@ ManagerId | Unique identifier for the employee’s manager, which is needed to c
 Organization| The internal organization that the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or by another naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
 FunctionType | The job function that the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore-the-metrics features. | This attribute column is not required. If it is included, then each row must contain a function value.|
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), it is best to use the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
-HourlyRate | The employee’s salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees’ salaries by 2080 to calculate their hourly rates in the upload (.csv) file before uploading it into Workplace Analytics.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Workplace Analytics uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Admin settings](../use/settings.md#admin-settings). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled refresh of your organizational (HR) or Office 365 collaboration data. For more information, see [System defaults](../use/settings.md#system-defaults).|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
+HourlyRate | The employee's salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees' salaries by 2080 to calculate their hourly rates in the upload data file before uploading it into Workplace Analytics.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Workplace Analytics uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Admin settings](../use/settings.md#admin-settings). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled refresh of your organizational (HR) or Office 365 collaboration data. For more information, see [System defaults](../use/settings.md#system-defaults).|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 Layer | The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the metrics](../use/explore-intro.md) features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
 SupervisorIndicator  | Use this attribute to view the habits of people managers in your organization in Power BI visualizations. It powers the Overview table as well as the Generated Workload charts that are generated when you use the Manager Impact [Power BI template](../tutorials/power-bi-templates.md). <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required only if you want to use the Manager impact dashboard in Power BI. |
 TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If it is not included, the default time zone will be used.|
@@ -246,8 +247,4 @@ Unlike HR data, for line-of-business data, you might not need to include every p
 
 For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you will use the score values to group and filter specific report outputs.
 
-### Use only valid values and formats
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
-
-[!INCLUDE [Valid values and formats](../includes/org-data-upload-tips.md)]

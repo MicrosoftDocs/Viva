@@ -6,7 +6,6 @@ title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/31/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -30,7 +29,10 @@ The task of importing organizational data has three parts:
 2. [Field mapping](#field-mapping)
 3. [Data validation](#data-validation)
 
-After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
+After you prepare the source data, you can upload the file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from options that are described in [Validation fails](#validation-fails).
+
+> [!Note] 
+> You can upload data files in either the .csv or .xlsx format. For more information, see [Format data for upload](format-data-for-upload.md).
 
 ### Video: Upload organizational data
 
@@ -38,7 +40,7 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 ## File upload
 
-In the following steps, you specify a .csv file to upload to Workplace Analytics.
+In the following steps, you specify a file to upload to Workplace Analytics.
 
 **To select the file to upload**
 
@@ -46,10 +48,12 @@ After the initial processing (of collaboration data) is complete, the next time 
 
 1. On the **Upload** page, select **Name your upload**, and then type the name of your new upload file.
 2. Optionally, select **Add an optional description** and type a description of this upload.
-3. In the Select file section, click **Select file**. In the dialog box that appears, select the .csv file that you want to import.
+3. In the **Select file** section, click **Select file**. In the dialog box that appears, select the file that you want to import.
 
   > [!Important] 
-  > <ul><li>Make sure that the file that you are uploading is not open in a different program when you begin the upload process.</li><li>The .csv file that you upload must be UTF-8 encoded.</li><li>After the upload process begins, the process is irreversible.</li></ul> 
+  > * Make sure that the file that you are uploading is not open in a different program when you begin the upload process.
+  > * The file that you upload must be [formatted correctly](format-data-for-upload.md).
+  > * After the upload process begins, the process is irreversible. 
 
 <!-- THE FOLLOWING SHOULD NOT APPLY FOR THE FIRST UPLOAD OF DATA: 
   > [!Note]
@@ -60,7 +64,7 @@ After the initial processing (of collaboration data) is complete, the next time 
 
 ## Field Mapping
 
-You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
+You need to map the fields (columns) in the source file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
 
    ![Map data fields](../images/wpa/setup/onboarding-mapping.png)
 
@@ -77,10 +81,10 @@ Replaced with actual text and then removed that term: -->
 
 System default fields represent attributes that are known by Workplace Analytics and are used in specific calculations beyond grouping and filtering. A system default field can be either required or optional.
 
-* **Required fields** are identified in two ways. Their rows have dark shading and show as "Required" under the Source column header. These rows represent data that was found in the uploaded file. For the upload to succeed, you must map the required fields with a column in your .csv file that is the correct data type.
+* **Required fields** are identified in two ways. Their rows have dark shading and show as "Required" under the Source column header. These rows represent data that was found in the uploaded file. For the upload to succeed, you must map the required fields with a column in your data file that is of the correct data type.
 
    >[!Important]
-   >Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded .csv file, other columns must be present in the .csv file that are mapped to these attributes.
+   >Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded data file, _other_ columns must be present in the file that are mapped to these attributes.
 
 * **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Workplace Analytics suggests for use. You don't need to map these fields if your organization doesn't have data for them.
 
@@ -91,7 +95,7 @@ Replaced with actual text and then removed that term: -->
 
 ### Custom fields table
 
-* **Custom fields** are displayed on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source.csv file. Name the column, select the data type, and then select the report option.
+* **Custom fields** are displayed on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source data file. Name the column, select the data type, and then select the report option.
 
 ### Columns in the fields tables
 
@@ -124,18 +128,18 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
     <img src="../images/wpa/setup/2-orgd-map-fields.png" alt="System fields table">
 
    <ol type="a"> 
-   <li>Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).</li>
-   <li>Under <b>Source column</b> (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
+   <li>Determine which of the columns in your data file correspond to the second column in the table (Workplace Analytics name).</li>
+   <li>Under <b>Source column</b> (the first column in the table), click the down arrow. This displays a list of the column names that were found in the file. From the list, select the correct column name for this data.</li> 
    <li>Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields and for any optional fields that you choose to map.</li>
    </ol>
 
    > [!Note]
    > For more information, see [Columns in the fields tables](#columns-in-the-fields-tables).
 
-2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it. 
+2. Map the optional and custom fields, as applicable. You only need to map the columns in your source file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it. 
 
    <ol type="a">
-   <li>Under <b>Source column</b> (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.</li>
+   <li>Under <b>Source column</b> (the first column in the table), select the down arrow to display the list of column names that were found in the file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.</li>
    <li>Set values for the other columns in the table, such as the data type and the hash setting for reports.</li>
    <li>Repeat these steps for all custom fields that are important to your organization.</li>
    </ol>
@@ -147,7 +151,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 > [!Important]
 > You must stay logged in while the file is uploading or the upload will be canceled. The upload requires this page to be open in your web browser during the upload. If you close the browser (or this browser page), the upload will fail.
 
-The upload of the .csv file starts the validation process. 
+The upload of your data file starts the validation process. 
 
 4. The next step is [Data validation](#data-validation).
 
@@ -157,7 +161,7 @@ After you complete the steps in [Field mapping](#field-mapping), the **Upload** 
 
    ![Validating the uploaded data](../images/wpa/setup/onboarding-validation-in-progress.png)
 
-During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel upload**. 
+During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different data file instead, select **Cancel upload**. 
 
 ## Validation succeeds
 
@@ -188,6 +192,24 @@ Before you address the problem, you can select **Download error log**. This log 
 
 ### Options upon failed validation
 
-[!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation-1st.md)]
+<!-- Note: Options in subsequent uploads contain a) changing thresholds and b) Abandon option. Options for first upload do not.   -->
 
+| Nature of errors | Recommended selection | Description |
+| ----- | ----- | ----- |
+| Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change how you map source-file fields to Workplace Analytics attributes and then re-attempt validation. You can do this without changing and re-uploading the source file. This is best for minor errors such as having mapped the wrong column in the source file to a particular attribute. |
+| Major errors | Select **Upload file** | This displays the first **File upload** page. Consider this option in the case of major errors in the originally uploaded data. First, edit the source-data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
+
+> [!Note] 
+> * Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
+
+### Guidelines for correcting errors in data
+
+This section contains help for correcting data in an uploaded source file that is causing validation errors.
+
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
+
+For more information, see [Use only valid values and formats](format-data-for-upload.md#use-only-valid-values-and-formats).
+
+>[!Note]
+> Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
 
