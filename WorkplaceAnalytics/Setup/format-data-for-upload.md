@@ -196,7 +196,7 @@ After you have populated and formatted your organizational data file, you can co
 
 2. [Field mapping](upload-organizational-data-1st.md#field-mapping). After the data file is uploaded, you will encounter the mapping screen, where you map the source columns in the data file to Workplace Analytics names and select a datatype.
 
-3. After you have confirmed the field mapping, [Data validation](upload-organizational-data-1st.md#data-validation) starts. Successful validation depends on adherence to requirements including  the following:
+3. After you have confirmed the field mapping, [data validation](upload-organizational-data-1st.md#data-validation) starts. Successful validation depends on adherence to requirements including  the following:
 
     * The validity threshold (see [Columns in the field tables](upload-organizational-data.md#columns-in-the-fields-tables) and [Set Validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields))
     * The expected format for each data field
