@@ -58,10 +58,12 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
    ![ONA network view](./images/ona-network-icons.png)| Network View  | Change how the graph shows the network, which you can view in either the **Force-directed**, **Lens**, **Organic**, **Structural**, or **Tweak** layout.
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined View | Change the graph view to Combined View, which prompts you to select an HR attribute meeting metric to display the nodes for , such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
-   ![ONA change settings](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn tool tips on or off for selected nodes.
+   ![ONA change settings](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
    ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Change the filters selected for the rendered graph.
    ![ONA table view](./images/ona-table-icon.png) | View as Table |Choose to see a table view of the graph data.
    ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown in the template to load and view later.
+
+10. Use the **Define Analysis** option to set the Network analysis options, such as defining the network boundary filters and the level of employee and group level metrics.
 
 ## To load and view a saved graph
 
@@ -70,13 +72,14 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
 3. Select the name of the graph that you want to view.
 4. Additional options on this page:
 
-* When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
-* If the analysis fails with the **Status** of a red x: 
-  * Select the **Undo** icon to revert to the last successfully saved version.
-  * Select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
-* Select a table column heading, such as Name or Submitted, to sort by it.
-* Select the **Dataset Parameters** icon next to the name to view them for the analysis in that row.
-* Select the **Delete Dataset** (trashcan) icon to delete the analysis from the list.
+   * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
+   * If the analysis fails with the **Status** of a red x: 
+     * Select the **Undo** icon to revert to the last successfully saved version.
+     * Select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
+   * Select a table column heading, such as Name or Submitted, to sort by it.
+   * Select the **Download Metrics** icon to download a .csv file with the person and group metrics in the saved graph analysis, including the selected date range and other selected options. For example, Interconnectedness will have multiple values based on the attributes selected for the graph.
+   * Select the **Dataset Parameters** icon next to the name to view them for the analysis in that row.
+   * Select the **Delete Dataset** (trashcan) icon to delete the analysis from the list.
 
 ## Node Sizing
 
