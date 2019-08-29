@@ -144,7 +144,7 @@ The field values also cannot contain any of the following:
 
 To be able to map data in a column to a Workplace Analytics data type, use the data specified in the following table. Apply these data types by using the steps in [Apply the correct data types](#apply-the-correct-data-type).
 
-| 	Workplace Analytics data type	| 	Format as this data type in Excel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	| 	Notes	| 
+| 	Workplace Analytics data type	| 	Format as this data type in Excel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	| 	Notes	|  
 | 	-----	| 	-----	| 	-----	| 
 | 	Email	| 	General 	| 	This data type is the default option so no special formatting is necessary. 	| 
 | 	Timezone	| 	General 	| 	This data type is the default option so no special formatting is necessary. Every Timezone string must be one of the values specified in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). 	| 
