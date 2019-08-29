@@ -4,8 +4,9 @@
 
 title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics
-author: paul9955
+author: madehmer
 ms.author: v-midehm
+ms.date: 06/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -47,7 +48,7 @@ The [Sources](../Use/data-sources.md) page provides dashboards that describe the
 
  * **Owner** – Workplace Analytics Admins have full access to this page.
 
-On the **Upload** > **Organizational data** page, you can upload an organizational data file to Workplace Analytics. 
+On the **Upload** > **Organizational data** page, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
 ![Upload page](../images/wpa/use/settings-upload1.png)
 

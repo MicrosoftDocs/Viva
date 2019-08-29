@@ -118,7 +118,7 @@ The following is a sample list of **Reserved attributes** that you can optionall
 
 ### CRM data rules
 
-Confirm the CRM column names and field values in the files follow the same rules you applied when creating the Organizational (HR) data upload file, such as no special characters and no spaces in the column names. For more details, see [Attribute notes and recommendations](Prepare-organizational-data.md#attribute-notes-and-recommendations) and [Use only valid values and formats](format-data-for-upload.md#use-only-valid-values-and-formats).
+Confirm the CRM column names and field values in the files follow the same rules you applied when creating the Organizational (HR) data upload file, such as no special characters and no spaces in the column names. For more details, see [Attribute notes and recommendations](Prepare-organizational-data.md#attribute-notes-and-recommendations) and [Use only valid values and formats](Prepare-organizational-data.md#use-only-valid-values-and-formats).
 
 ## Upload, validate, and process the CRM data
 
