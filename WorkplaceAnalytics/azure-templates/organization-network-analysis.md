@@ -63,17 +63,17 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
    ![ONA table view](./images/ona-table-icon.png) | View as Table |Choose to see a table view of the graph data.
    ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown in the template to load and view later.
 
-10. Use the **Define Analysis** option to set the Network analysis options, such as defining the network boundary filters and the level of employee and group level metrics.
+10. Use the **Define Analysis** option to create Subset (child) datasets that are based on the selected dataset, which enable you to compare or focus your analysis on specific subgroups within this dataset. 
 
 ## To view a saved graph
 
 1. On the **Organizational Network Analysis** page, select the name of the analysis in the table.
 2. At the top right of the **Graph Analysis** page, select **Load Saved Graph**.
-3. Select the name of the graph that you want to view.
+3. Select the name of the graph that you want to view. To view a subset dataset graph, select the **Refine Subset Categorization** icon next to the dataset, and then select the subset's name
 4. Additional options on this page:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
-   * If the analysis fails with the **Status** of a red x: 
+   * If the analysis fails with the **Status** of a red x:
      * Select the **Undo** icon to revert to the last successfully saved version.
      * Select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
    * Select a table column heading, such as Name or Submitted, to sort by it.
@@ -97,7 +97,11 @@ Betweenness measures how much of a key connector a person or group (node) is in 
 
 ### Boundary Spanning
 
-This option is only available in ?? View. Boundary Spanning is a measure of...
+This option is only available in Subset Categorization analysis. Indicates the time employees spend collaborating with unique groups. Depending on the direction of the relationships, can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it.
+
+### Bridging Index
+
+This option is only available in Subset Categorization analysis. Indicates potential control over the flow of information and points of failure or overload. High values can indicate gatekeepers, liaisons, or change agents. This role can be advantageous or stressful.
 
 ### Closeness
 
@@ -109,7 +113,9 @@ Degrees measures the highest number of links to other nodes within the network. 
 
 ### Density
 
-Density measures cohesion within groups and across groups by density, which is a table view. As shown in the following graphic, the table depicts the density score within and across the respective groups, where:
+Density measures the number of actual connections out of the number of possible connections within a network or subgroup, which is a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s much harder for everyone to connect with everyone else, so be careful comparing across groups. Dense groups indicate cohesion between members. 
+
+As shown in the following graphic, the table depicts the density score within and across the respective groups, where:
 
  **Density** = **Actual connections**/**Potential connections**
 
@@ -118,17 +124,27 @@ Density measures cohesion within groups and across groups by density, which is a
 ### Eigen Centrality
 
 Eigen Centrality is a measure of influence that considers the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and can be key influencers in their network.
+
 As shown in the following graphic, Engineering, R&D, and Sales are key influencers that connect all the other groups.
 
 ![Eigen Centrality](./images/ona-eigen.png)
 
 ### Influence Index
 
-This option is only available in ?? View. Influence Index is a measure of...
+This option is only available in Subset Categorization analysis. Indicates how much influence an individual has in the network. Influence occurs from providing information to people who also provide information to many others, and so on. High values suggest the central individual’s perspective will flow through the organization with efficiency.
 
 ### Interconnectedness
 
 This option is only available in Node View. Interconnectedness is a measure of how diverse a node’s connections are. The higher the interconnection for a node, the more that node’s connections come from other nodes. The nodes with high interconnection can be good ambassadors and help drive collaboration for the intersecting nodes.
+
+### Network size
+
+This option is only available in Subset Categorization analysis. Indicates size of social load without adjusting for potential quality of connections.
+
+### Reach Index
+
+Represents ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between an individual and others in the network.
+
 
 ### Graph notes
 
