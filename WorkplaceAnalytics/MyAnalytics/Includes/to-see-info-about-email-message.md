@@ -22,7 +22,7 @@ ms.prod: mya
 
    a. **In-context email open rate**. This card provides read statistics for the one sent email that currently has focus in Outlook.
 
-     ![In-context email open rate](../../Images/mya/use/in-context-card.png) 
+     ![In-context email open rate](../../Images/mya/use/in-context-card-59.png) 
 
    b. The **Track email open rates** card. This card provides read statistics for all other sent emails.  
 
