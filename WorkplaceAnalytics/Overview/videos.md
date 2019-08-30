@@ -74,7 +74,7 @@ https://review.docs.microsoft.com/en-us/Workplace-Analytics/setup/upload-organiz
 
 This video can also be found here: 
 [Solution overview](
-https://review.docs.microsoft.com/en-us/workplace-analytics/tutorials/solutions-intro?branch=PAS-WpAVideos#video-solution-overview)
+https://review.docs.microsoft.com/en-us/workplace-analytics/tutorials/solutionsv2-intro?branch=PAS-WpAVideos#video-solution-overview)
 
 ## MyAnalytics for admins
 
