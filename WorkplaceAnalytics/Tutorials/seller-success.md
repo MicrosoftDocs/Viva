@@ -6,7 +6,6 @@ title: Seller success solution in Workplace Analytics
 description: Describes the seller success solution and how to create a seller success plan 
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/14/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
