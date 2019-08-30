@@ -13,13 +13,13 @@ ms.prod: mya
 
 ## Follow up on your tasks
 
-MyAnalytics can help you follow up on requests you asked of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails.  For example:
+MyAnalytics can help you follow up on requests you asked of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails. For example:
 
-* “Can you send me this year’s latest report?”
-* “Everyone, please complete your performance evaluations by the end of the week.”
-* “Cancel my RSVP for Carrin Patman's lunch scheduled early next week.”
+* "Can you send me this year’s latest report?"
+* "Everyone, please complete your performance evaluations by the end of the week."
+* "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
 
-For one or more of these types of requests in your sent email in the last 14 days, you’ll see a follow-up summary card in your Outlook Insights panel.
+For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary card in your Outlook Insights panel.
 
 **To see your follow-up card**
 
