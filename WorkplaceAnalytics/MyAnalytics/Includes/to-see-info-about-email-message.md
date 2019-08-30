@@ -6,7 +6,6 @@ title: To see Insights information about sent emails
 description: How to see Insights information about sent emails 
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/022019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -19,15 +18,32 @@ ms.prod: mya
    > [!Note] 
    > If you see a "Welcome!" message, select **Get started**.
 
-2. On the **Insights** panel, locate the **Track email open rates** card: 
+2. On the **Insights** panel, select one of the following two cards:
 
-    ![Track email open rates](../../Images/mya/use/step-1-track-open-rates.png)
+   a. **In-context email open rate**. This card provides read statistics for the one sent email that currently has focus in Outlook.
 
-3. This card lets you see more information about recent emails that you've sent. To see this information, select the **Track email open rates** card.
+     ![In-context email open rate](../../Images/mya/use/in-context-card.png) 
 
-4. The panel displays insight cards for each of these recently sent messages These cards state the subject line, a brief summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
+   b. The **Track email open rates** card. This card provides read statistics for all other sent emails.  
+
+     ![Track email open rates](../../Images/mya/use/step-1-track-open-rates.png)
+
+3. To see read statistics, select the appropriate card.
+
+   a. If you selected the **In-context email open rate** card, the panel displays read statistics for the sent email that currently has focus in Outlook. The panel states the subject line and shows a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
+
+   b. If you selected the **Track email open rates** card, the panel displays insights cards for each of your recently sent messages. These cards state the subject line, a brief summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
     ![Email open rates](../../Images/mya/use/step-2-four-emails.png)
+
+### Read statistics details
+
+Note the following about the reporting of read-statistics data: 
+
+ * **Length of availability.** Read Statistics for an email are present only for a period of 14 days. (Read Statistics are not computed for mails that have been sent more than 14 days ago.)
+ * **Time until availability.** It usually takes 15 to 30 minutes to compute precise results for read statistics for your emails.
+ * **Five-recipient limit.** An email qualifies for read statistics only if it was sent to more than five recipients in the _To_, _Cc_ and _Bcc_ fields combined. 
+
 
 <!--
     Based on the length of the message, Insights estimates how long a person needs to read it. It uses that number to decide whether people glanced, skimmed, or read the email, and informs you of this in a card.
