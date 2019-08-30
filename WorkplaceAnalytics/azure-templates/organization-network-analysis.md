@@ -65,7 +65,7 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
 
 10. Use the **Define Analysis** option to set the Network analysis options, such as defining the network boundary filters and the level of employee and group level metrics.
 
-## To load and view a saved graph
+## To view a saved graph
 
 1. On the **Organizational Network Analysis** page, select the name of the analysis in the table.
 2. At the top right of the **Graph Analysis** page, select **Load Saved Graph**.
@@ -132,7 +132,7 @@ This option is only available in Node View. Interconnectedness is a measure of h
 
 ### Graph notes
 
-* **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list) and won't show in the graph.
+* **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the combined view, the insufficient group's edges and node won't show in the graph.
 
 * **Delete a node** - If you want to exclude a node from the graph, you can use the filter options or select the node in the graph to highlight it, and then press **Delete** (on your keyboard). Before saving the graph, you can right-click in the graph, and then select **Show Hidden** to undo a delete.
 
