@@ -6,7 +6,6 @@ title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/23/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -28,9 +27,9 @@ With these queries, you can:
 
 <!-- ORIGINAL: The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a rolling window. This means that—after you have 27 months of data—with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month. -->
 
-The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Office 365 data](../use/data-sources.md#office-365-data-summary) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months. 
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Office 365 data](../use/data-sources.md#office-365-data-summary) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
-The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit. 
+The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
 ## Person query
 
@@ -94,7 +93,7 @@ An analyst might start by looking at a person query to see trends of employees a
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally,  to address the problem, the analyst could work with a program manager to set up a change program. See [Teamwork solution](../Tutorials/Solutions-intro.md) to learn more.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally,  to address the problem, the analyst could work with a program manager to set up a change program. See [Teamwork solution](../Tutorials/solutionsv2-intro.md) to learn more.
 
 There are three ways to create queries:
 

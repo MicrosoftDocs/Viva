@@ -56,7 +56,7 @@
             - name: Tools and concepts
               href: ~/tutorials/meeting-exclusion-concept.md            
         - name: Data sources
-          href: ~/Use/data-Sources.md            
+          href: ~/Use/Data-sources.md            
         - name: Workplace Analytics audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
@@ -112,18 +112,23 @@
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md                    
-        - name: Solutions
+        - name: Solutions   
+          href: ~/tutorials/solutionsv2-intro.md        
           items:
-            - name: Teamwork solution
+            - name: Solution types
               items:
-                - name: Introduction
-                  href: ~/tutorials/Solutions-intro.md
+                - name: Teamwork solution
+                  href: ~/tutorials/teamwork-solution.md          
+ #               - name: Seller success solution
+ #                 href: ~/tutorials/seller-success.md
+            - name: Use solutions
+              items: 
                 - name: Walkthrough    
-                  href: ~/tutorials/Solutions-task.md 
+                  href: ~/tutorials/solutionsv2-task.md 
                 - name: Participants
-                  href: ~/tutorials/Solutions-participants.md                                       
+                  href: ~/tutorials/solutionsv2-participants.md                                       
                 - name: Concepts
-                  href: ~/tutorials/Solutions-conceptual.md
+                  href: ~/tutorials/solutionsv2-conceptual.md
             - name: Solutions scan
               href: ~/Use/solutions-scan.md
     - name: Notifications
