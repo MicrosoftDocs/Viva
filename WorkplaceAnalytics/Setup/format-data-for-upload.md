@@ -84,11 +84,25 @@ Acceptable .xlsx files must adhere to the following:
  * **No duplicate column headers.** Every column header must be unique. 
  * **No blank or repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
  * **Strings only in column headers.** Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type).
- * **Only _column span_ data is used.** The _column span_ is the set of contiguous columns in the worksheet that starts with column A and ends with the final column that has a header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique. In the following example, the column span is columns A through H: 
+ * **Only _column span_ data is used.** The _column span_ is the set of contiguous columns in the worksheet that starts with column A and ends with the final column that has a header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique. 
+ 
+##### Column span: examples
 
-   ![Column span](../images/wpa/setup/column-span.png)
+###### Example 1
+ 
+In this example, the column span is columns A through H: 
 
-   In this example, the values in cells J3 and J4 are ignored because they lie outside the column span. 
+![Column span](../images/wpa/setup/column-span.png)
+
+Note that the values in cells J3 and J4 are ignored because they lie outside the column span. 
+
+###### Example 2
+
+In this example, the column-header cell G1 is blank. 
+
+![Column span](../images/wpa/setup/column-span-w-blank.png)
+
+In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error (blank header value).
 
  * **How _row-span_ data is used.** The _row span_ is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data. For example, in the following example, the row span is rows 2 through 11: 
 
@@ -122,9 +136,10 @@ All field header or column names must:
 * Have no special characters (non-alphanumeric, such as @, #, %, &, *)
 * Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
 
-The field values in the data rows must comply with the following formatting rules:
+The field values in the data rows must comply with the following rules:
 
-* The required **EffectiveDate** and **HireDate** field values must be in the MM/DD/YYYY format.
+* Each field can contain a maximum of 128KB of data. 
+* The required **EffectiveDate** and **HireDate** field values must have the Date datatype. (To apply a data type, see [Apply the correct data type](#apply-the-correct-data-type).)
 * The required **PersonId** and **ManagerId** field values must be valid email addresses (for example, gc@contoso.com). 
 * The required **Layer** field values and **HourlyRate** field values must contain numbers only.
 
@@ -186,7 +201,7 @@ In this example, we're formatting cells that contains dates:
  * **UTF-8** Data files in .csv format must be in UTF-8 format.
  > * **Accepted date format.** All dates must be in the mm/dd/yyyy format.
  > * **Accepted number format.** Numerical fields (such as "HourlyRate") must be in the U.S. "number" format and cannot contain commas or currency designations (such as the dollar sign). Example: Use **8.75**, not **8,75**. 
- >  * **Column delimiters.**  In the column-header row, use commas to separate values. 
+ >  * **Column delimiters.**  In every row, use commas to separate values. 
 
 ### Use only valid values and formats
 
@@ -201,8 +216,9 @@ All field header or column names must:
 * Have no special characters (non-alphanumeric, such as @, #, %, &, *)
 * Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
 
-The field values in the data rows must comply with the following formatting rules:
+The field values in the data rows must comply with the following rules:
 
+* Each field can contain a maximum of 128KB of data. 
 * The required **EffectiveDate** and **HireDate** field values must be in the MM/DD/YYYY format.
 * The required **PersonId** and **ManagerId** field values must be valid email addresses (for example, gc@contoso.com). 
 * The required **Layer** field values and **HourlyRate** field values must contain numbers only.
@@ -271,13 +287,23 @@ After you have populated and formatted your organizational data file, you can co
 
 2. [Field mapping](upload-organizational-data-1st.md#field-mapping). After the data file is uploaded, you will encounter the mapping screen, where you map the source columns in the data file to Workplace Analytics names and select a datatype.
 
-3. After you have confirmed the field mapping, [data validation](upload-organizational-data-1st.md#data-validation) starts. Successful validation depends on adherence to requirements including  the following:
+3. After you have confirmed the field mapping, [data validation](upload-organizational-data-1st.md#data-validation) starts. 
 
-    * The validity threshold (see [Columns in the field tables](upload-organizational-data.md#columns-in-the-fields-tables) and [Set Validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields))
-    * The expected format for each data field
-    * The restrictions on special characters in column headers and special characters in field values in data rows 
+4. When validation finishes, it reports [success](upload-organizational-data-1st.md#validation-succeeds) or [failure](upload-organizational-data-1st.md#validation-fails). In case of errors, validation logs are made available.
 
-4. When validation finishes, it reports [success](upload-organizational-data-1st.md#validation-succeeds) or [failure](upload-organizational-data-1st.md#validation-fails). In case of errors, validation logs are made available. 
+   Validation errors can be caused by:
+
+   * cells with invalid formatting (See [Rules for .xlsx files](#rules-for-xlsx-files) and [Rules for .csv files](#rules-for-csv-files).)
+   * missing entries (empty cells) 
+   * invalid use of special characters in column headers or in data rows (See [Use only valid values and formats](#use-only-valid-values-and-formats).)
+ 
+   If validation fails, see the following:
+
+   * If this is your first upload of organizational data: [Validation fails](upload-organizational-data-1st.md#validation-fails)
+   * If this is a subsequent upload of organizational data: [Validation fails](upload-organizational-data.md#validation-fails)
+  
+   > [!Note] 
+   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is _validity threshold_. For more information, see [Columns in the field tables](upload-organizational-data.md#columns-in-the-fields-tables) and [Set validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields).
 
 <!-- NOTE FROM PRAMOD:
 Specific instructions to create, debug & fix (in case of validation errors) should be separate for CSV & XSLX files. We should have a separate page for each. We should link to these pages as required in the Prepare organizational data, Upload org data (First upload), Upload org data (subsequent uploads) pages.
