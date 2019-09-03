@@ -98,11 +98,11 @@ Note that the values in cells J3 and J4 are ignored because they lie outside the
 
 ###### Example 2
 
-In this example, the column-header cell G1 is blank. 
+In this example, the column-header cell G1 is missing: 
 
 ![Column span](../images/wpa/setup/column-span-w-blank.png)
 
-In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error (blank header value).
+In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error ("blank header value").
 
  * **How _row-span_ data is used.** The _row span_ is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data. For example, in the following example, the row span is rows 2 through 11: 
 
@@ -120,8 +120,7 @@ In this case, the column span still consists of columns A through H because cell
 To help ensure that Workplace Analytics can successfully validate the data in your upload file, follow these steps:  
 
 1. Make sure that your data uses only [valid values and formats](#use-only-valid-values-and-formats). 
-2. Learn what [data types are required](#required-data-types) for the data in your upload file.
-3. [Apply the correct data type](#apply-the-correct-data-type) to the cells in your upload file. 
+2. Learn what [data types are required](#required-data-types) for the data in your upload file and then [Apply the correct data type](#apply-the-correct-data-type) to the cells in your upload file. 
 
 ##### Use only valid values and formats
 
@@ -157,7 +156,9 @@ The field values also cannot contain any of the following:
 
 ##### Required data types
 
-To be able to map data in a column to a Workplace Analytics data type, use the data specified in the following table. Apply these data types by using the steps in [Apply the correct data type](#apply-the-correct-data-type).
+In a later step, you [map](upload-organizational-data-1st.md#field-mapping) data in columns to Workplace Analytics data types. Several attributes that you map in this step are required attributes. They expect particular data formats.
+
+To be able to map data successfully, use the data specified in the following table. Apply these data types by using the steps in [Apply the correct data type](#apply-the-correct-data-type).
 
 | 	Workplace Analytics data type	| 	Format as this data type in Excel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	| 	Notes	|  
 | 	-----	| 	-----	| 	-----	| 
@@ -193,6 +194,16 @@ In this example, we're formatting cells that contains dates:
 > All of the data cells in a column must have the same data type, even if they do not have the same exact format. For example, Workplace Analytics will correctly parse a column that includes some cells with dd/mm/yyyy format and others with mm/dd/yyyy format as long as they all have the **Date** data type. 
 > 
 > The exception to this rule is the first(_Column header_) row, which contains strings. You can format the cells in the _Column header_ row as either **General** or **Text** in Excel. 
+
+5. After you have finished formatting the data, save the worksheet with the extension .xlsx:
+
+   a. In Excel, point to **File** and select **Save As**.
+   
+   b. Type a name for the file, choose the file type **CSV UTF-8 (Comma delimited) (*.csv)**, and select **Save**:
+
+   ![Save as UTF-8 .csv file](../images/wpa/setup/save-as-xlsx.png)
+ 
+   Note the location of this file, for later use.  
 
 ## Format UTF-8 encoded .csv files
 
