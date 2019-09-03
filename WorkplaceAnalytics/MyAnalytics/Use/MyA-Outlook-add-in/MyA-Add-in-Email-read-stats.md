@@ -32,12 +32,8 @@ Insights does not report about email messages in the following categories:
 
  * Email that was sent from a shared mailbox
  * Email that was sent to a mailbox that was configured for email forwarding. (Recipients of forwarded email are not included in the count of qualifying recipients.)
- * Email in which the individual recipient count on each of the To: and Cc: lines is less than 5 AND the Bcc: individual recipient count is also less than 5.
  * Email that was sent more than 14 days ago.
-
-#### Bcc: precision
-
-When you send email that has recipients on the Bcc: line, the precision of the email-read statistics is lowered.
+ * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
 
 #### Open rate
 
