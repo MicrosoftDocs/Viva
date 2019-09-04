@@ -93,12 +93,12 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 1. Follow the previous steps to open the graph you want to base your subset analysis on.
 2. Select **Define Analysis** to create a subset (child) dataset that is based on this saved graph. If no analysis has been created, the subset list will be empty.
 3. Select **Add New Analysis**.
-4. In **Add New Analysis**, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
+4. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
 
    ![Add New Analysis](./images/ona-subgroup-options.png)
 
 5. Optionally, in **Select Filters**, select one or more filters to focus your analysis on.
-6. In **Select Employee Level Metrics**, select which employee level attributes you want to analyze as nodes in the graph, such as Boundary Spanning or Bridging Index. For [Boundary Spanning](#boundary-spanning), you'll need to also select what attributes by which to calculate it and the metrics to show in the graph.
+6. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph. For [Boundary Spanning](#boundary-spanning), you'll need to also select what attributes by which to calculate it and show in the graph as nodes.
 7. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Sizing](#node-sizing) for more details about the metric options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
 8. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you'll only get the monthly metric calculations.
 9. Select **Submit** to create the graph analysis.
@@ -135,7 +135,7 @@ Degrees measures the highest number of links to other nodes within the network. 
 
 ### Density
 
-Density measures the number of actual connections out of the number of possible connections within a network or subgroup, which is a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s much harder for everyone to connect with everyone else, so be careful comparing across groups. Dense groups indicate cohesion between members. 
+Density measures the number of actual connections out of the number of possible connections within a network or subgroup, which is a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s much harder for everyone to connect with everyone else, so be careful comparing across groups. Dense groups indicate cohesion between members.
 
 As shown in the following graphic, the table depicts the density score within and across the respective groups, where:
 
