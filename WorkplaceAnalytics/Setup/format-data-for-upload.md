@@ -199,7 +199,7 @@ In this example, we're formatting cells that contains dates:
 
    a. In Excel, point to **File** and select **Save As**.
    
-   b. Type a name for the file, choose the file type **Excel Workbook (.xlsx)**, and select **Save**:
+   b. Type a name for the file, choose the file type **Excel Workbook (*.xlsx)**, and select **Save**:
 
    ![Save as UTF-8 .csv file](../images/wpa/setup/save-as-xlsx.png)
  
