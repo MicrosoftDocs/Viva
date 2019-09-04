@@ -117,35 +117,40 @@ This email can contain any of several descriptive cards, each of which is design
 
  * [Time with customers](#time-with-customers)
  * [Depth of engagement](#depth-of-engagement)
- * [Leverage internal networks](#leverage-internal-networks)
- * [Connect with leadership](#connect-with-leadership)
+ * [Manager interaction](#manager-interaction)
+ <!--  * [Leverage internal networks](#leverage-internal-networks) -->
 
-### Use the seller success email
+### Carts in the seller success email
 
-The cards in the seller success email offer targeted suggestions. In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. 
+<!-- In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. -->
+<!-- 
+The last card, [Manager interaction](#manager-interaction), has a **Manage meetings** option. Selecting **Manage meetings** displays  upcoming meetings in the Outlook web calendar and, optionally, lets sellers make changes to those meetings.  -->  
 
-The fourth card, [Connect with leadership](#connect-with-leadership), has a **Manage meetings** option. Selecting **Manage meetings** displays  upcoming meetings in the Outlook web calendar and, optionally, lets sellers make changes to those meetings.    
-
-These cards are described in the following sections: 
+The cards in the seller success email offer targeted suggestions. These cards are described in the following sections: 
 
 ## Time with customers
 
-The _Time with customers_ card displays how sellers spent their time with  customers over the past seven days. Its chart reflects total collaboration hours with each customer.
+The _Time with customers_ card displays how sellers spent their time with  customers over the past month. Its chart reflects total collaboration hours with each customer.
 
 Its purpose is to help sellers decide whether they are spending time optimally with customers according to their respective potential. 
 
-![Time with customers](../images/wpa/tutorials/time-with-customers_60.png)
+![Time with customers](../images/wpa/tutorials/time-w-customers.png)
  
+<!-- 
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
+-->
 
 ## Depth of engagement
 
 In the _Depth of engagement_ section, the **People you engaged with** column shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
 
-![Depth of engagement](../images/wpa/tutorials/depth-of-engagement_60.png)
+![Depth of engagement](../images/wpa/tutorials/depth-of-engagement.png)
  
+<!-- 
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
+-->
 
+<!-- REMOVE FOR NOW
 ## Leverage internal networks
 
 Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours a seller collaborated with particular internal groups. It calls their attention to these figures so that they can improve their depth of customer engagement by strengthening their internal networks.
@@ -153,14 +158,17 @@ Being connected with the right individuals and organizations within the company 
 ![Leverage internal networks](../images/wpa/tutorials/leverage-internal-networks_60.png)
  
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
+-->
 
-## Connect with leadership
+## Manager interaction
 
-Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Connect with leadership_ card displays the time the salesperson spent with their manager (or "leadership," managers above their immediate manager) in meetings with particular customers.
+Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Manager interaction_ card displays the time the salesperson spent with their manager (or "leadership," managers above their immediate manager) in meetings with particular customers.
 
-![Connect with leadership](../images/wpa/tutorials/connect-with-leadership_60.png)
+![Manager interaction](../images/wpa/tutorials/mgr-interaction-72.png)
  
+<!-- 
 On this card, selecting **Manage meetings** opens the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
+-->
 
 ## Privacy note
 
