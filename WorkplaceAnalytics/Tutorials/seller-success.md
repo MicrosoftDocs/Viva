@@ -109,7 +109,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 **Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.   
 
-After a seller success plan starts, its participants receive a tailored email every week. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding week:
+After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding week:
 
 ![Email top](../images/wpa/tutorials/email-top_70.png)
 
@@ -120,7 +120,7 @@ This email can contain any of several descriptive cards, each of which is design
  * [Manager interaction](#manager-interaction)
  <!--  * [Leverage internal networks](#leverage-internal-networks) -->
 
-### Carts in the seller success email
+### Cards in the seller success email
 
 <!-- In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. -->
 <!-- 
@@ -130,7 +130,9 @@ The cards in the seller success email offer targeted suggestions. These cards ar
 
 ## Time with customers
 
-The _Time with customers_ card displays how sellers spent their time with  customers over the past month. Its chart reflects total collaboration hours with each customer.
+The _Time with customers_ card displays how sellers spent their time with  customers over the past month. Its chart reflects the following:
+ * The total **Collaboration hours** with each customer during the preceding month. 
+* **Change %**: the change from the preceding month in collaboration hours for that account.
 
 Its purpose is to help sellers decide whether they are spending time optimally with customers according to their respective potential. 
 
@@ -142,7 +144,7 @@ On this card, selecting **Explore** opens the **Network** page of the MyAnalytic
 
 ## Depth of engagement
 
-In the _Depth of engagement_ section, the **People you engaged with** column shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
+The _Depth of engagement_ card shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
 
 ![Depth of engagement](../images/wpa/tutorials/depth-of-engagement.png)
  
@@ -162,9 +164,19 @@ On this card, selecting **Explore** opens the **Network** page of the MyAnalytic
 
 ## Manager interaction
 
-Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Manager interaction_ card displays the time the salesperson spent with their manager (or "leadership," managers above their immediate manager) in meetings with particular customers.
+Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interaction_ card displays the time the salesperson spent with their manager in meetings with particular customers.
 
 ![Manager interaction](../images/wpa/tutorials/mgr-interaction-72.png)
+ 
+<!-- 
+On this card, selecting **Manage meetings** opens the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
+-->
+
+## Explore
+
+The final card in the email digest is the Explore card. To see more details the information given in the preceding cards, select **Explore** on this card. 
+
+![Manager interaction](../images/wpa/tutorials/explore-card-70.png)
  
 <!-- 
 On this card, selecting **Manage meetings** opens the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
