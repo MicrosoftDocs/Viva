@@ -22,10 +22,10 @@ Workplace Analytics Azure Templates include the Organizational Network Analysis 
 
 Workplace Analytics has several metrics to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
 
-## To add new network analysis
+## To add new analysis
 
 1. In Workplace Analytics Azure Templates, select **Organizational Network Analysis**.
-2. On the **Organizational Network Analysis** page, select **Add New Analysis** at top right.
+2. On the **Organizational Network Analysis** page, select **Add New Dataset** at top right.
 3. In **Define Analysis Settings**, enter a name and select a path to the dataset for analysis.
 
    ![Add New Analysis](./images/ona-dataset-new.png)
@@ -38,16 +38,21 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
    * **Min # of interactions**: Select the minimum number of interactions between the selected groups or people.
 
 5. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis.
-6. Optionally, select one or more filters for the graph and which attributes you want to analyze. By default, all available attributes are selected. The available filters match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics. For example, Domain and FunctionType are HR attributes, as shown in the following graphic.
+6. Optionally, in **Graph Analysis**, select one or more filters and which attributes you want to analyze in this graph. By default, all available attributes are selected. The available filters match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics. For example, Domain and FunctionType are HR attributes, as shown in the following graphic.
 
    ![Organizational Network Analysis](./images/ona-render-graph.png)
 
-7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to appear.
-8. At top left of the graph, select the start and end of the date range for this analysis, and then select **Apply** to update the graph view.
+7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to successfully load.
+
+## To view graph analysis
+
+1. After the analysis successfully loads, select the dataset from the list, and then at top right, select **Load Saved Graph**.
+2. Select the name of the graph analysis from the list. If no analysis has been created, the list will be empty.
+3. At top left of the graph, you can select a new start and end date for the time range to analyze, and then select **Apply** to update the graph view.
 
    ![ONA date range](./images/ona-date-range.png)
 
-9. Use the following options to change, save, or download the current graph view.
+4. Use the following options to change, save, or download the current graph view.
 
    Option |Name |Description
    ------------|--------------|------------
@@ -55,31 +60,48 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
    ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
-   ![ONA network view](./images/ona-network-icons.png)| Network View  | Change how the graph shows the network, which you can view in either the **Force-directed**, **Lens**, **Organic**, **Structural**, or **Tweak** layout.
+   ![ONA network view](./images/ona-network-icons-1.png)| Network View  | Change how the graph shows the network, which you can view in either the **Force-directed**, **Lens**, or **Structural** layout.
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined View | Change the graph view to Combined View, which prompts you to select an HR attribute meeting metric to display the nodes for , such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![ONA change settings](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
    ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Change the filters selected for the rendered graph.
-   ![ONA table view](./images/ona-table-icon.png) | View as Table |Choose to see a table view of the graph data.
    ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown in the template to load and view later.
-
-10. Use the **Define Analysis** option to create Subset (child) datasets that are based on the selected dataset, which enable you to compare or focus your analysis on specific subgroups within this dataset. 
 
 ## To view a saved graph
 
 1. On the **Organizational Network Analysis** page, select the name of the analysis in the table.
 2. At the top right of the **Graph Analysis** page, select **Load Saved Graph**.
-3. Select the name of the graph that you want to view. To view a subset dataset graph, select the **Refine Subset Categorization** icon next to the dataset, and then select the subset's name
-4. Additional options on this page:
+3. Select the name of the graph that you want to view. To view a subset dataset graph, select the **Refine Subset Categorization** icon next to the dataset name, and then select the subset's name to view it. If no analysis has been created, the subset list will be empty.
+
+   ![Refine Subset Categorization icon](./images/ona-subset-categorization.png)
+
+4. Additional options on the analysis pages:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
    * If the analysis fails with the **Status** of a red x:
      * Select the **Undo** icon to revert to the last successfully saved version.
      * Select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
    * Select a table column heading, such as Name or Submitted, to sort by it.
-   * Select the **Download Metrics** icon to download a .csv file with the person and group metrics in the saved graph analysis, including the selected date range and other selected options. For example, Interconnectedness will have multiple values based on the attributes selected for the graph.
    * Select the **Dataset Parameters** icon next to the name to view them for the analysis in that row.
-   * Select the **Delete Dataset** (trashcan) icon to delete the analysis from the list.
+   * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
+   * For subsets, select the **Download Dataset** icon, to download an .xlsx file with the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Interconnectedness will have multiple values based on the attributes selected for the graph.
+
+## To create a subset dataset and graph analysis
+
+Analysis of a subset (child) dataset and graph enables you to compare or focus your analysis on specific subgroups within the selected (parent) dataset.
+
+1. Follow the previous steps to open the graph you want to base your subset analysis on.
+2. Select **Define Analysis** to create a subset (child) dataset that is based on this saved graph. If no analysis has been created, the subset list will be empty.
+3. Select **Add New Analysis**.
+4. In **Add New Analysis**, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
+
+   ![Add New Analysis](./images/ona-subgroup-options.png)
+
+5. Optionally, in **Select Filters**, select one or more filters to focus your analysis on.
+6. In **Select Employee Level Metrics**, select which employee level attributes you want to analyze as nodes in the graph, such as Boundary Spanning or Bridging Index. For [Boundary Spanning](#boundary-spanning), you'll need to also select what attributes by which to calculate it and the metrics to show in the graph.
+7. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Sizing](#node-sizing) for more details about the metric options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
+8. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you'll only get the monthly metric calculations.
+9. Select **Submit** to create the graph analysis.
 
 ## Node Sizing
 
@@ -87,9 +109,9 @@ You can apply the following node sizing options to change how the data is measur
 
 ![Organization Network Analysis measures](./images/ona-measures.png)
 
-### Number of employees
+For Subset Categorizations, you must select the applicable metrics when creating the analysis to see these measure options in the graph.
 
-This option is only available in Combined View. The node size is based on the number of people in that particular group. The larger node sizes represent the nodes with the larger number of people in that network.
+![Organization Network Analysis Subset measures](./images/ona-subset-measures.png)
 
 ### Betweenness
 
@@ -140,6 +162,10 @@ This option is only available in Node View. Interconnectedness is a measure of h
 ### Network size
 
 This option is only available in Subset Categorization analysis. Indicates size of social load without adjusting for potential quality of connections.
+
+### Number of employees
+
+This option is only available in Combined View. The node size is based on the number of people in that particular group. The larger node sizes represent the nodes with the larger number of people in that network.
 
 ### Reach Index
 
