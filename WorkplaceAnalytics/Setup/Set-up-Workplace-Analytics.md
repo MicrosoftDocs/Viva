@@ -6,6 +6,7 @@ title: Workplace Analytics setup
 description: How to set up and configure Workplace Analytics
 author: paul9955
 ms.author: v-pascha
+ms.date: 06/04/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -51,9 +52,15 @@ This article describes the steps that are required to set up and configure Workp
    > [!Important] 
    > At this point, Workplace Analytics automatically extracts collaboration data (data about email usage, meetings, chats, and calls) in the background and keeps it ready for analysis. <u>Exception:</u> If your organization purchased Workplace Analytics before June 12, 2019, this extraction is not performed in the background. Before you can move on to step 5, you must wait for the extraction to complete. You will know that it has finished when Workplace Analytics displays a "completed processing" status on the **Setup** page.
 
-5. **Prepare organizational data** - Export organizational data from your HR system into a file. For information about what data to export and how to structure it, see [Prepare organizational data](Prepare-organizational-data.md).
+<!-- REMOVED PER PRAMOD 31 MAY 2019: 
+5. **Collaboration data** - Workplace Analytics extracts collaboration data (data about email usage, meetings, chats, and calls) from Office 365, and then processes it. This processing can last as long as a week. After it finishes, Workplace Analytics displays a "completed processing" status on the **Setup** page.
 
-6. **Upload organizational data** - Upload the file into Workplace Analytics. For more information, see [Upload organizational data](upload-organizational-data-1st.md).
+      ![Workplace Analytics processes collaboration data](../images/wpa/setup/03-process-collab-data.png)
+-->
+
+5. **Prepare organizational data** - Export organizational data from your HR system into a UTF-8 encoded .csv file. For information about what data to export and how to structure it, see [Prepare organizational data](Prepare-organizational-data.md).
+
+6. **Upload organizational data** - Upload the .csv file into Workplace Analytics. For more information, see [Upload organizational data](upload-organizational-data-1st.md).
 
     The following steps are part of the **Upload organizational data** task:
 

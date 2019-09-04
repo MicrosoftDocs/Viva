@@ -32,12 +32,8 @@ Insights does not report about email messages in the following categories:
 
  * Email that was sent from a shared mailbox
  * Email that was sent to a mailbox that was configured for email forwarding. (Recipients of forwarded email are not included in the count of qualifying recipients.)
- * Email in which the individual recipient count on each of the To: and Cc: lines is less than 5 AND the Bcc: individual recipient count is also less than 5.
  * Email that was sent more than 14 days ago.
-
-#### Bcc: precision
-
-When you send email that has recipients on the Bcc: line, the precision of the email-read statistics is lowered.
+ * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
 
 #### Open rate
 
@@ -88,27 +84,4 @@ table, td {
 
 User privacy is the reason that the imprecise values ("Low" and "High") are reported for read activity. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
 
-**To see read information about sent emails**
-
-1. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now. 
-
-   > [!Note] 
-   > If you see a "Welcome!" message, select **Get started**.
-
-2. On the **Insights** panel, locate the **Track email open rates** card: 
-
-    ![Track email open rates](../../../Images/mya/use/step-1-track-open-rates.png)
-
-3. This card lets you see more information about recent emails that you've sent. To see this information, select the **Track email open rates** card.
-
-4. The panel displays insight cards for each of these recently sent messages These cards state the subject line, a brief summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
-
-    ![Email open rates](../../../Images/mya/use/step-2-four-emails.png)
-
-<!--
-    Based on the length of the message, Insights estimates how long a person needs to read it. It uses that number to decide whether people glanced, skimmed, or read the email, and informs you of this in a card.
- 
-    ![Email open rates](../../Images/mya/use/email-open-rates-2.png)
-
-    Depending on how many people opened the email and how long they spent reading it, Insights might suggest that you follow up on your email, or it might show tips to help improve email communication.
--->
+[!INCLUDE [See info about a specific email message](../../Includes/to-see-info-about-email-message.md)]

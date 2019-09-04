@@ -6,6 +6,7 @@ title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
 author: paul9955
 ms.author: v-midehm
+ms.date: 08/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -70,7 +71,7 @@ A9. You can assign analysts the Analyst Limited Access role, which limits them t
 
 ##### Q1. What causes the upload of the organizational (HR) data to fail?
 
-A1. An upload can fail if the data has invalid values, is missing required data, or the validity threshold (checks for non-null values) for optional data is set too high. See [Use only valid values and formats](../setup/format-data-for-upload.md#use-only-valid-values-and-formats) and [Subsequent uploads of organizational data](../setup/upload-organizational-data.md) for details.
+A1. An upload can fail if the data has invalid values, is missing required data, or the validity threshold (checks for non-null values) for optional data is set too high. See [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats) and [Subsequent uploads of organizational data](../setup/upload-organizational-data.md) for details.
 
 ##### Q2. What format do I save the data upload file as?
 
@@ -94,7 +95,7 @@ A4. All field header or column names must:
 * Match exactly as listed for [Workplace Analytics’ Required and Reserved optional attributes](../setup/prepare-organizational-data.md#required-reserved-optional-and-custom-attributes), including for case sensitivity (for example PersonId and HireDate).
 
 > [!Note]
-> Special characters and spaces are OK in attribute names because they are automatically reformatted during field mapping to the accepted format for column names. This list is also included in [Use only valid values and formats](../setup/format-data-for-upload.md#use-only-valid-values-and-formats).
+> Special characters and spaces are OK in attribute names because they are automatically reformatted during field mapping to the accepted format for column names. This list is also included in [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats).
 
 ##### Q5. What format must the row field values have in the .csv file?
 
@@ -122,7 +123,7 @@ A5. The field values in the data rows must comply with the following formatting 
      Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
 
      > [!Note]
-     > These lists are also included in [Use only valid values and formats](../setup/format-data-for-upload.md#use-only-valid-values-and-formats).
+     > These lists are also included in [Use only valid values and formats](../setup/prepare-organizational-data.md#use-only-valid-values-and-formats).
 
 ##### Q6. Can the data contain double-byte characters?
 

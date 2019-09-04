@@ -56,7 +56,7 @@ Workplace Analytics can accept organizational data in .xlsx files produced by Mi
 
 ### Rules for .xlsx files
 
-Acceptable .xlsx files must adhere to the following: 
+Acceptable .xlsx files must adhere to the following:  
 
  * **File extension.** The extension must be _.xlsx_. It cannot be any other extension (such as .xls, .xlsb, or .xlsm) that is supported by Microsoft Excel or another spreadsheet application.
  * **Size limit.** The upper limit of .xlsx files for upload is 1.5 GB. If your upload file is larger than 1.5 GB, use the .csv format instead. 
@@ -120,6 +120,7 @@ In this case, the column span still consists of columns A through H because cell
 To help ensure that Workplace Analytics can successfully validate the data in your upload file, follow these steps:  
 
 1. Make sure that your data uses only [valid values and formats](#use-only-valid-values-and-formats). 
+
 2. Learn what [data types are required](#required-data-types) for the data in your upload file and then [Apply the correct data type](#apply-the-correct-data-type) to the cells in your upload file. 
 
 ##### Use only valid values and formats
