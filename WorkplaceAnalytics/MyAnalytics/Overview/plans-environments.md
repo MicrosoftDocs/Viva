@@ -6,7 +6,6 @@ title: MyAnalytics plans and environments
 description: MyAnalytics supported plans and environment requirements
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/13/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -23,7 +22,7 @@ The following table lists which user experiences are available depending on what
 
 | Plan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Service plan | User experience currently available |
 | ----- | ----- |----- |
-| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students     <li>Office 365 E3 Developer  <li>Business Premium     <li>Business Essentials    <br> <br> |  <br>Insights by <br>MyAnalytics| <br>[Insights Outlook Add-in](../use/add-in.md)   <br> (other MyAnalytics elements<br> will be made available in the future) |
+| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students     <li>Office 365 E3 Developer  <li>Business Premium     <li>Business Essentials    <br> <br> |  <br>Insights by <br>MyAnalytics| <br>[Dashboard](../use/dashboard-2.md), [Insights Outlook Add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md) <br> ([Email digest](../use/email-digest-2.md) will be available to all users by the end of 2019) |
 | <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing   <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |
 | <li>Microsoft 365 A5 for faculty/students    <li>Office 365 A5 for faculty/students    | MyAnalytics (Full) | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |  
 
