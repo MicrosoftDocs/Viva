@@ -89,23 +89,24 @@ Acceptable .xlsx files must adhere to the following:
    **Example 1:** In this example, the column span is columns A through H: 
    
    ![Column span](../images/wpa/setup/column-span-simple.png)
-   _Example 1_
 
    **Example 2:** In this example, the column-header cell G1 is missing: 
 
    ![Column span](../images/wpa/setup/column-span-simple-w-blank.png)
-   _Example 2_
 
    In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error ("blank header value").
 
-* **How _row-span_ data is used.** After Workplace Analytics calculates the column span, it calculates the row span. It does these calculations in this order because the row span can be determined only after the column span is known.  
- 
-  The _row span_ is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data in columns within the column span. 
+   **Example 3:** In this example, the values in cells J3 and J4 are ignored because they lie outside the column span. (The column span extends only to column H, so any data in columns beyond H is ignored.)
 
-   **Example 3:** In this example, the row span is rows 2 through 11: 
+   ![Column span](../images/wpa/setup/column-span.png)
+
+* **How _row-span_ data is used.** After Workplace Analytics calculates the column span, it calculates the _row span_. It does these calculations in this order because the row span can be determined only after the column span is known.  
+ 
+  The row span is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data in columns within the column span. 
+
+   **Example 4:** In this example, the row span is rows 2 through 11: 
 
    ![Row span](../images/wpa/setup/row-span.png)
-   _Example 3_
 
    Workplace Analytics considers the rows in this example as follows:
     * Rows 2, 3, and 4 are valid rows. 
@@ -114,14 +115,9 @@ Acceptable .xlsx files must adhere to the following:
 
 * **Combining _column span_ and _row span_.** After the column span and the row span are determined, Workplace Analytics begins to validate the data in the rectangle of cells defined by the column span and the row span (including the column-header row). In the preceding examples, this rectangle extends from cell A1 to cell H11. 
 
-  **Example 4:** In the following example, the values in cells J3 and J4 are ignored because they lie outside the column span. (The column span extends only to column H, so any data in columns beyond H is ignored.)
-
-   ![Column span](../images/wpa/setup/column-span.png)
-   _Example 4_
-
 #### Data 
 
-Each cell of data in the .xlsx file must be formatted correctly, starting with the column-header row and continuing with the remaining rows of data: 
+Each cell of data in the .xlsx file must be formatted correctly, starting with the column-header row and continuing with the remaining rows, which contain field values: 
 
 ##### Format the column-header row 
 
@@ -131,7 +127,7 @@ All field header or column names must adhere to the following:
 | --------- | ---------------- | 
 | Column headers must be strings | In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type). |
 | Begin with a letter, not a number | Example: _Date1_ |
-| Contain only alphanumeric characters | Letters and numbers only. <br>Example: _Date1_ |
+| Contain only alphanumeric characters | Use letters and numbers only. <br>Example: _Date1_ |
 | Contain at least one lower-case letter | Example: _Hrbp_ <br>All uppercase does not work: _HRBP_ |
 | Contain no spaces | Example: _Date1_ |
 | Contian no special characters | Do not use non-alphanumeric characters such as _@, #, %, &, *_ |
@@ -143,7 +139,7 @@ To help ensure that Workplace Analytics can successfully validate the data in yo
 
 1. Make sure that your data uses only [valid values and formats](#use-only-valid-values-and-formats). 
 
-2. Learn what [data types are required](#required-data-types) for the data in your upload file and then [Apply the correct data type](#apply-the-correct-data-type) to the cells in your upload file. 
+2. Learn what [data types are required](#required-data-types) for the data in your upload file and then [apply the correct data type](#apply-the-correct-data-type) to the cells in your upload file. 
 
 ##### Use only valid values and formats
 
