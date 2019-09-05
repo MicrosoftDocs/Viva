@@ -49,45 +49,45 @@ The Insights add-in reports the open rate of qualifying emails that you have sen
   </tr>
   <tr>
     <td rowspan = 3 >5 - 10</td>
-    <td>< 25%</td>
-    <td>"< 25%"<td>
+    <td>&lt; 25%</td>
+    <td>"&lt; 25%"<td>
   </tr>
   <tr>
     <td>25 - 75%</td>
     <td><i>actual open rate</i></td>
   </tr>    
   <tr>
-    <td>> 75%</td>
-    <td>"> 75%"</td>
+    <td>&gt; 75%</td>
+    <td>"&gt; 75%"</td>
   </tr>  
   <tr>
     <td rowspan = 3 >11 - 20</td>
-    <td>< 10%</td>
-    <td>"< 10%"<td>
+    <td>&lt; 10%</td>
+    <td>"&lt; 10%"<td>
   </tr>
   <tr>
     <td>10 - 90%</td>
     <td><i>actual open rate</i></td>
   </tr>    
   <tr>
-    <td>> 90%</td>
-    <td>"> 90%"</td>
+    <td>&gt; 90%</td>
+    <td>"&gt; 90%"</td>
   </tr>
   <tr>
     <td rowspan = 3>> 21</td>
-    <td>< 5%</td>
-    <td>"< 5%"<td>
+    <td>&lt; 5%</td>
+    <td>"&lt; 5%"<td>
   </tr>
   <tr>
     <td>5 - 95%</td>
     <td><i>actual open rate</i></td>
   </tr>    
   <tr>
-    <td>> 95%</td>
-    <td>"> 95%"</td>
+    <td>&gt; 95%</td>
+    <td>"&gt; 95%"</td>
   </tr>     
 </table>
 
-User privacy is the reason that imprecise values such as "< 25%" or "> 90%" are reported for the open rate. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
+User privacy is the reason that imprecise values such as "&lt; 25%" or "&gt; 90%" are reported for the open rate. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
 
 [!INCLUDE [See info about a specific email message](../../Includes/to-see-info-about-email-message.md)]
