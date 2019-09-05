@@ -60,66 +60,62 @@ After you assign a user license with the MyAnalytics service plan, the new parti
  * **Inline suggestions:** Inline suggestions in Outlook are brief data and AI-driven notifications that appear in Outlook. Users can see the [inline suggestions](../use/mya-notifications.md) in a day or so after their license with the MyAnalytics service plan is granted.
 -->
 
-### MyAnalytics elements become available 
+### MyAnalytics elements become available
 
-After you assign a user license with the MyAnalytics service plan, the new participant will gain access to the following MyAnalytics elements. 
+After you assign user licenses with a MyAnalytics service plan, they get access to the following MyAnalytics elements based on their service plan.
 
-| Element&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Timeframe of user access | 
+| Element | MyAnalytics service plan access  |
 | ------------------- | ------------------------ |
-|  [Welcome email](../use/mya-welcome-email.md?branch=PAS-HA-MA-MyA-settings)  | <ul><li>For E5 plans: Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted. New users will receive the welcome email approximately four weeks after their license is granted.</li><li>For E3 plans: _To be rolled out soon to E3 users, at the same time as the email digest_</li></ul> |
-|  [Personal dashboard](../use/dashboard-2.md)  | <ul><li>For E5 plans: A few days after the license with the service plan is granted</li><li>For E3 plans: _To be rolled out soon to E3 users_</li></ul> |
-|  [Insights Outlook add-in](../use/add-in.md)  | <ul><li>For both E5 and E3 plans: Available about one day after their license with the service plan is granted</li></ul> |
-|  [Weekly email digest](../use/email-digest-2.md)  | <ul><li>For E5 plans: On the Monday of the first week after the user receives the welcome email</li><li>For E3 plans: _To be rolled out soon to E3 users_</li></ul> |
-|  [Inline suggestions](../use/mya-notifications.md)  | <ul><li>For E5 plans: About one day after the license with the service plan is granted</li><li>For E3 plans: _Not applicable_</li></ul> |
-
+|  [Welcome email](../use/mya-welcome-email.md)  | MyAnalytics (Full): Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted; new users will receive the welcome email approximately four weeks after their license is granted|
+|  [Dashboard](../use/dashboard-2.md)  | MyAnalytics (Full): Available a few days after user licenses with the service plan are granted |
+|  [Insights Outlook add-in](../use/add-in.md)  | Insights by MyAnalytics: Available about one day after user licenses with the service plan are granted |
+|  [Email digest](../use/email-digest-2.md)  | MyAnalytics (Full): On the Monday of the first week after users receive the welcome email |
+|  [Inline suggestions](../use/mya-notifications.md)  | MyAnalytics (Full): About one day after user licenses with the service plan are granted |
 
 > [!Note]  
 > * _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them. 
-> * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want one or more licensed users to be opted _out_ by default, see [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user) and [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users). 
+> * _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want one or more licensed users to be opted _out_ by default, see [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user) and [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users).
 
-## Configure MyAnalytics access 
+## Configure MyAnalytics access
 
-As the Office 365 admin, you have two ways to configure defaults for MyAnalytics.  
-
+As the Office 365 admin, you can configure defaults for MyAnalytics at either the tenant or user level.
 <!--
  * The first way is to [configure access at the tenant level](#configure-access-at-the-tenant-level). Do this to set default behaviors&mdash;namely, to turn specific elements of MyAnalytics on or off for your entire organization.
 
  * The second way is to [configure access at the user level](#configure-access-at-the-user-level). This sets default behaviors in MyAnalytics for specific users. 
 -->
 
-
- * The first way is to [configure access at the tenant level](#configure-access-at-the-tenant-level). You can use these settings to set organization-wide defaults for MyAnalytics elements 
- * The second way is to [configure access at the user level](#configure-access-at-the-user-level). You can use this to set defaults that affect complete MyAnalytics functionality for particular users. 
+* [Configure access at the tenant level](#configure-access-at-the-tenant-level) to set organization-wide defaults for MyAnalytics elements.
+* [Configure access at the user level](#configure-access-at-the-user-level) to set defaults for MyAnalytics elements for specific users.
 
 <!-- REMOVED IN FAVOR OF KALYAN'S NEW ORGANIZATION (ABOVE)
 As the Office 365 admin, you can set a starting point for the MyAnalytics users in your organization. You can do this for all users at once, for just some of them, or for individual users. By default, this starting point is "opted in." This means that, by default, users have access to MyAnalytics. You can change this starting point from "opted in" to "opted out"&mdash;either for all of MyAnalytics or for its individual parts&mdash;by completing the steps in the following sections. 
 -->
 
 > [!Note] 
-> When you set the default settings (at either the tenant level or the user level), users can still override your setting. For example, if you keep the dashboard tenant settings as opt in, users can still open the dashboard and then opt themselves out. Similarly, if you opt out users by using user-level settings, those users can choose to opt back in. The one situation in which a user cannot opt in is after you remove their license that contains a MyAnalytics service plan. 
+> When you set the defaults (at either the tenant or the user level), users can override these default settings. For example, if you keep the dashboard tenant setting as opt in, users can open the dashboard and opt themselves out. Similarly, if you opt out users with a user-level setting, those users can choose to opt back in. The exception to this is if a user's license with a MyAnalytics service plan expires or is removed, that user cannot opt in.
 
 ### Configure access at the tenant level
 
 You can configure access to MyAnalytics elements for all the users in your organization.  
 
-#### Dashboard and weekly email
+#### Dashboard and email digests
 
 > [!Note] 
 > * Tenants in the UAE, South Africa, and Singapore regions might obtain this functionality with some delay.
 > * After a new tenant is established, it might take up to 48 hours for this functionality to become available.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
+2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
     ![New admin center](../../images/mya/setup/the-new-admin-center.png)
 
-3. In the left pane, expand **Settings** and select **Services & add-ins**. 
-4. In the main pane, under **Services & add-ins**, select **MyAnalytics**. This opens the page for configuring access to the MyAnalytics elements: 
+3. In the left pane, expand **Settings** and select **Services & add-ins**.
+4. In the main pane, under **Services & add-ins**, select **MyAnalytics**. This opens the page for configuring access to the MyAnalytics elements:
 
    ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
 
 5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
-
 6. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
 
 #### Insights Outlook add-in
@@ -128,22 +124,10 @@ You can disable the Insights Outlook add-in for your entire organization by usin
 
 **To disable the add-in**
 
-
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-
-<!-- NOT APPLICABLE FOR THE ADD-IN
-
-2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
-
-    ![New admin center](../../images/mya/setup/the-new-admin-center.png)
--->
-
-2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center. (If **Exchange** is not visible, first select **Show all** to see more admin centers and then select **Exchange**.)     
- 
+2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center. (If **Exchange** is not visible, first select **Show all** to see more admin centers and then select **Exchange**.)
 3. In the dashboard, select **add-ins**.
-  
 4. In the list of add-ins, select **Insights**, and then select **Edit** (the pencil icon). This opens the **Edit add-in settings** dialog box.
- 
 5. In the dialog box, clear the **Make this add-in available to users in your organization** checkbox to disable the add-in, and then select **Save**.
 
 This disables the add-in for all licensed users in your organization.
