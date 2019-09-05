@@ -202,14 +202,8 @@ In this example, we're formatting cells that contains dates:
 
 4. Under **Type**, select a type. The selected cells will change to the new formatting style. If the cells do not change, go back to step 3 and make sure that you select a predefined Excel style.
 
-
-<!-- FROM PRAMOD  -->
-<!--
-	Can we please add the subtlety we discussed – the feedback which Excel shares to user in case user attempts to format a malformed value as Date. We should advise user to eyeball the values in the column to ensure that all values are formatted properly. The conclusive test is if user formats a cell as Date & then changes to a different type within Date, the cell values should change as intended. If contents don’t change as expected, that means formatting is not done properly & user should correct it.  
--->
-
-> [!Note] 
-> Watch the cell carefully as you apply a data type to it. You can be sure that its data type has changed only if its appearance also changes; that is, if Excel displays changes it to the type that you selected.
+   > [!Note] 
+   > Watch the cell carefully as you apply a data type to it. You can be sure that its data type has changed only if its appearance also changes; that is, if Excel displays changes it to the type that you selected.
 
 5. After you have finished formatting the data, save the worksheet with the extension .xlsx:
 
