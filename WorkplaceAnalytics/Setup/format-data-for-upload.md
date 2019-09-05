@@ -121,6 +121,24 @@ Acceptable .xlsx files must adhere to the following:
 
 #### Data 
 
+Each cell of data in the .xlsx file must be formatted correctly, starting with the column-header row and continuing with the remaining rows of data: 
+
+##### Format the column-header row 
+
+All field header or column names must adhere to the following:
+
+| Guideline | Notes or example |
+| --------- | ---------------- | 
+| Column headers must be strings | In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type). |
+| Begin with a letter, not a number | Example: _Date1_ |
+| Contain only alphanumeric characters | Letters and numbers only. <br>Example: _Date1_ |
+| Contain at least one lower-case letter | Example: _Hrbp_ <br>All uppercase does not work: _HRBP_ |
+| Contain no spaces | Example: _Date1_ |
+| Contian no special characters | Do not use non-alphanumeric characters such as _@, #, %, &, *_ |
+| Ashere to the requirements for Workplace Analytics required attributes and reserved-optional attributes, including for case sensitivity | For example, for the attributes _PersonId_ and _HireDate_ |
+
+##### Format the field-value rows
+
 To help ensure that Workplace Analytics can successfully validate the data in your upload file, follow these steps:  
 
 1. Make sure that your data uses only [valid values and formats](#use-only-valid-values-and-formats). 
@@ -130,15 +148,6 @@ To help ensure that Workplace Analytics can successfully validate the data in yo
 ##### Use only valid values and formats
 
 When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the [mapping](upload-organizational-data-1st.md#field-mapping) changes the validation type of the attribute in a way that makes the cell valid). 
-
-All field header or column names must:
-
-* Begin with a letter (not a number)
-* Only contain alphanumeric characters (letters and numbers, for example Date1)
-* Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP)
-* Have no spaces (Date1)
-* Have no special characters (non-alphanumeric, such as @, #, %, &, *)
-* Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
 
 The field values in the data rows must comply with the following rules:
 
@@ -183,6 +192,8 @@ Use only the predefined formats that Excel offers. Do not use custom formats. To
 
 **To apply a data type in Microsoft Excel**
 
+All of the data cells in a column must have the same data type, even if they do not have the same exact format. For example, Workplace Analytics will correctly parse a column that includes some cells with dd/mm/yyyy format and others with mm/dd/yyyy format as long as they all have the **Date** data type. 
+
 In this example, we're formatting cells that contains dates:
 
 1. Select one or more cells in a column that you want to format. 
@@ -195,10 +206,14 @@ In this example, we're formatting cells that contains dates:
 
 4. Under **Type**, select a type. The selected cells will change to the new formatting style. If the cells do not change, go back to step 3 and make sure that you select a predefined Excel style.
 
+
+<!-- FROM PRAMOD  -->
+<!--
+	Can we please add the subtlety we discussed – the feedback which Excel shares to user in case user attempts to format a malformed value as Date. We should advise user to eyeball the values in the column to ensure that all values are formatted properly. The conclusive test is if user formats a cell as Date & then changes to a different type within Date, the cell values should change as intended. If contents don’t change as expected, that means formatting is not done properly & user should correct it.  
+-->
+
 > [!Note] 
-> All of the data cells in a column must have the same data type, even if they do not have the same exact format. For example, Workplace Analytics will correctly parse a column that includes some cells with dd/mm/yyyy format and others with mm/dd/yyyy format as long as they all have the **Date** data type. 
-> 
-> The exception to this rule is the first(_Column header_) row, which contains strings. You can format the cells in the _Column header_ row as either **General** or **Text** in Excel. 
+> Watch the cell carefully as you apply a data type to it. You can be sure that its data type has changed only if its appearance also changes; that is, if Excel displays changes it to the type that you selected.
 
 5. After you have finished formatting the data, save the worksheet with the extension .xlsx:
 
