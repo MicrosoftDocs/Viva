@@ -112,7 +112,7 @@ Acceptable .xlsx files must adhere to the following:
     * Rows 5 through 10 are empty rows.
     * Row 11 is considered "partially filled." The data in partially filled rows is read, parsed, checked for validation errors, and potentially used.
 
-* **Combining _column span_ and _row span_.** After the column span and row span are determined, Workplace Analytics begins to validate the data in the rectangle of cells defined by the column span and the row span (including the column-header row). In the preceding examples, this rectangle extends from cell A1 to cell H11. 
+* **Combining _column span_ and _row span_.** After the column span and the row span are determined, Workplace Analytics begins to validate the data in the rectangle of cells defined by the column span and the row span (including the column-header row). In the preceding examples, this rectangle extends from cell A1 to cell H11. 
 
   **Example 4:** In the following example, the values in cells J3 and J4 are ignored because they lie outside the column span. (The column span extends only to column H, so any data in columns beyond H is ignored.)
 
