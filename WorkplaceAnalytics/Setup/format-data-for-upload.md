@@ -86,34 +86,38 @@ Acceptable .xlsx files must adhere to the following:
  * **Strings only in column headers.** Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type).
  * **Only _column span_ data is used.** The _column span_ is the set of contiguous columns in the worksheet that starts with column A and ends with the final column that has a header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique. 
  
-##### Column span: examples
+   **Example 1:** In this example, the column span is columns A through H: 
+   
+   ![Column span](../images/wpa/setup/column-span-simple.png)
+   _Example 1_
 
-###### Example 1
+   **Example 2:** In this example, the column-header cell G1 is missing: 
+
+   ![Column span](../images/wpa/setup/column-span-simple-w-blank.png)
+   _Example 2_
+
+   In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error ("blank header value").
+
+* **How _row-span_ data is used.** After Workplace Analytics calculates the column span, it calculates the row span. It does these calculations in this order because the row span can be determined only after the column span is known.  
  
-In this example, the column span is columns A through H: 
+  The _row span_ is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data in columns within the column span. 
 
-![Column span](../images/wpa/setup/column-span.png)
-
-Note that the values in cells J3 and J4 are ignored because they lie outside the column span. 
-
-###### Example 2
-
-In this example, the column-header cell G1 is missing: 
-
-![Column span](../images/wpa/setup/column-span-w-blank.png)
-
-In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error ("blank header value").
-
- * **How _row-span_ data is used.** The _row span_ is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data. For example, in the following example, the row span is rows 2 through 11: 
+   **Example 3:** In this example, the row span is rows 2 through 11: 
 
    ![Row span](../images/wpa/setup/row-span.png)
+   _Example 3_
 
    Workplace Analytics considers the rows in this example as follows:
     * Rows 2, 3, and 4 are valid rows. 
     * Rows 5 through 10 are empty rows.
-    * Row 11 is considered "partially filled." The data in partially filled rows is read, parsed, checked for validation errors, and potentially used.   
+    * Row 11 is considered "partially filled." The data in partially filled rows is read, parsed, checked for validation errors, and potentially used.
 
 * **Combining _column span_ and _row span_.** After the column span and row span are determined, Workplace Analytics begins to validate the data in the rectangle of cells defined by the column span and the row span (including the column-header row). In the preceding examples, this rectangle extends from cell A1 to cell H11. 
+
+  **Example 4:** In the following example, the values in cells J3 and J4 are ignored because they lie outside the column span. (The column span extends only to column H, so any data in columns beyond H is ignored.)
+
+   ![Column span](../images/wpa/setup/column-span.png)
+   _Example 4_
 
 #### Data 
 
