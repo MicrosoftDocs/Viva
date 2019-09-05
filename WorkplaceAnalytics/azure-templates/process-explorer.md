@@ -106,7 +106,7 @@ You can only analyze email activity when the data source is blob (cloud) storage
 4. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this might take some time based on the size of the dataset.
 5. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis).
 
-You can see data about the categorized email and meetings on the dashboard. You can select Download to save a .csv snapshot of the current category table information shown.
+You can see data about the categorized email and meetings on the dashboard. You can select **Download** to save a .csv snapshot of the current category table information shown.
 
    ![Email activity included in the analysis](./images/pexp-dashboard.png)
 
