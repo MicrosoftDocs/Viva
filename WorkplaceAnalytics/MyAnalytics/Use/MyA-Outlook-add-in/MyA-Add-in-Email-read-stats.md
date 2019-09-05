@@ -41,18 +41,53 @@ Insights does not report about email messages in the following categories:
 
 The Insights add-in reports the open rate of qualifying emails that you have sent, as shown in the following table. Note that for low or high open rates, only imprecise percentages are displayed.  
 
-| Number of recipients | Actual open rate | Open rate that Insights reports | 
-| ------- | -------- | ------- |
-| 5 - 10  | < 25%    | "< 25%" |
-| 5 - 10  | 25 - 75% | _actual open rate_ |
-| 5 - 10  | > 75%    | "> 75%" |
-| 11 - 20 | < 10%    | "< 10%" |
-| 11 - 20 | 10 - 90% | _actual open rate_ |
-| 11 - 20 | > 90%    | "> 90%" |
-|  > 21   | < 5%     | "< 5%"  |
-|  > 21   | 5 - 95%  | _actual open rate_ |
-|  > 21   | > 95%    | "> 95%" |
+<table>
+  <tr>
+    <th>Number of recipients</th>
+    <th>Actual open rate</th>
+    <th>Open rate that Insights reports</th>
+  </tr>
+  <tr>
+    <td rowspan = 3 >5 - 10</td>
+    <td>< 25%</td>
+    <td>"< 25%"<td>
+  </tr>
+  <tr>
+    <td>25 - 75%</td>
+    <td><i>actual open rate</i></td>
+  </tr>    
+  <tr>
+    <td>> 75%</td>
+    <td>"> 75%"</td>
+  </tr>  
+  <tr>
+    <td rowspan = 3 >11 - 20</td>
+    <td>< 10%</td>
+    <td>"< 10%"<td>
+  </tr>
+  <tr>
+    <td>10 - 90%</td>
+    <td><i>actual open rate</i></td>
+  </tr>    
+  <tr>
+    <td>> 90%</td>
+    <td>"> 90%"</td>
+  </tr>
+  <tr>
+    <td rowspan = 3>> 21</td>
+    <td>< 5%</td>
+    <td>"< 5%"<td>
+  </tr>
+  <tr>
+    <td>5 - 95%</td>
+    <td><i>actual open rate</i></td>
+  </tr>    
+  <tr>
+    <td>> 95%</td>
+    <td>"> 95%"</td>
+  </tr>     
+</table>
 
-User privacy is the reason that the imprecise values (such as "< 25%" or "> 90%") are reported for the open rate. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
+User privacy is the reason that imprecise values such as "< 25%" or "> 90%" are reported for the open rate. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
 
 [!INCLUDE [See info about a specific email message](../../Includes/to-see-info-about-email-message.md)]
