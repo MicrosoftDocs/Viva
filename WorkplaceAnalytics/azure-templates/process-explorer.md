@@ -35,13 +35,13 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
 2. Select **Add New Dataset** (top right).
-3. For **Select Dataset Type**, select either a .csv file to upload or a blob storage location, and then select **Next**. You can use a .csv file to upload meeting data or if you want to analyze email and meeting data, use the blob storage option.
+3. For **Select Dataset Type**, select either to upload meeting query output to analyze or classify raw meeting and email data, and then select **Next**. 
 
-   ![Select a dataset type](./images/process-explorer.png)
+   ![Select a dataset type](./images/pexp-new-dataset.png)
 
 4. Type a dataset name, locate and select the .csv file or blob storage location, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
 5. When prompted, select **OK**. The upload will take a few minutes to complete.
-6. Your new dataset is listed in the table with the following information and actions.
+6. Your new dataset's name and source are listed in the table with the following information and actions.
 
    * When the **Status** changes to a green check mark, you can then select it to view existing categorizations or add a new categorization to analyze the data with.
    * Select the **Job Details** (i) icon next to **Status** to view the job details.
@@ -56,7 +56,8 @@ After you categorize a good sample of meetings into the specified categories, yo
    * **For existing datasets**, select **Add New Categorization**, and then enter a title and probability threshold, same as with new datasets.
    * **For new datasets**, you're prompted to enter a categorization title and the probability threshold for the categorization. The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
 
-3. In **Query Builder** > **Discover Topics**, you can select one or more keywords from the Word cloud or type them, separated by commas, in one of the applicable **Keyword** boxes to categorize the data you want to analyze, and then select **Run query**.
+3. In **Dashboard** > **Add a New Category**, type the name of a category you want to add, and then press Enter to add it to the list. 
+4. Select **Meeting** > **Open Query Builder** > **Discover Topics**, type one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view meetings with these keywords, and then select **Run query**.
 
      ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
@@ -66,32 +67,30 @@ After you categorize a good sample of meetings into the specified categories, yo
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
    * **Max Meetings to Show** to set the maximum number of meetings to include in the list or show in the word cloud.
 
-4. In **Query Builder** > **Filter Meetings**, you can filter the meetings shown in the list with the following options, and then select **Run query**.
+5. In **Meeting** > **Open Query Builder** > **Filter Dataset**, you can filter the meetings shown in the list with the following options, and then select **Run query**.
 
    * **Filter by Sources** to select the analyst and/or the model to filter the meetings by, which are those meetings that were categorized manually by the analyst or those categorized automatically by the model.
    * **Filter by Categories** to select one or more categories to filter the meetings by, such as budget, as shown in the following graphic.
    * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and meeting list to include.
+   * **Max Results to Show** to set how many results to show in the list.
 
      ![Process Explorer filter options](./images/pexp-filter-options.png)
 
-5. After the data is queried, you can:
+6. After the data is queried, you can:
 
    * Select a category, select the check box next to a good sample of related meetings, and then select **Apply** to add them to the selected category. This will help train the model for auto-categorization of the whole dataset.
 
-      ![Assign a category to an uncategorized meeting](./images/pexp-assign-category.png)
+      ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
 
-   * Use **Add a New Category** to add any additional categories needed for grouping the uncategorized meetings into.
+   * Use Dashboard > **Add a New Category** to add any additional categories needed for grouping the uncategorized meetings into.
    * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
-
-     ![Auto-categorize meetings](./images/pexp-meeting-categorize.png)
-
-   * After you categorize a good sample of related meetings for all the categories you want to evaluate, you select **Auto-Categorize Meetings**.
-     * For .csv datasets, this will categorize all of the meetings uploaded in the .csv file. 
+   * After you categorize a good sample of related meetings for all the categories you want to evaluate, you select **Auto-Categorize Full Dataset**.
+     * For .csv datasets, this will categorize all of the meetings uploaded in the .csv file.
      * For blob storage datasets, this will categorize a representative sample of about 10,000 meetings. See [to categorize email for analysis](#to-categorize-email-for-analysis) for next steps on categorizing the full dataset.
 
-     ![Auto-categorize full dataset](./images/pexp-refine.png)
+     ![Auto-categorize full dataset](./images/pexp-auto.png)
 
-6. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add or change the categories.
+7. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add or change the categories.
 
 ## Email activity analysis
 
@@ -102,15 +101,14 @@ You can only analyze email activity when the data source is blob (cloud) storage
 ## To categorize email for analysis
 
 1. Follow the steps to add the blob storage dataset.
-2. Follow the steps [to auto-categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **step 5**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
-3. After the meetings are auto-categorized, go to **Query Builder** > **Filter Meetings** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
+2. Follow the steps [to auto-categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
+3. After the meetings are auto-categorized, go to **Email** > **Query Builder** > **Filter Dataset** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
 4. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this might take some time based on the size of the dataset.
 5. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis).
 
-After you auto-categorize the full dataset, you'll see email activity included in the data analysis. The following graphic shows analysis that includes email activity.
+You can see data about the categorized email and meetings on the dashboard. You can select Download to save a .csv snapshot of the current category table information shown.
 
-   ![Email activity included in the analysis](./images/pexp-analysis-b.png)
-   ![Email activity included in the analysis too](./images/pexp-analysis-c.png)
+   ![Email activity included in the analysis](./images/pexp-dashboard.png)
 
 ## Related topics
 
