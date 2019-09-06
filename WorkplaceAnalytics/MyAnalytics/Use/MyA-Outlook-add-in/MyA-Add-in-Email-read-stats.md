@@ -42,8 +42,8 @@ Insights does not report about email messages in the following categories:
 The Insights add-in reports the open rate of qualifying emails that you have sent, as shown in the following table. Note the following:
 
 * For open rates lower than the minimum threshold, the threshold value itself is reported. Example: If an email with 10 recipients has an actual open rate of 20%, Insights displays the open rate as _&lt; 25%_. 
-* If the actual open rate falls between the "Minimum" and "Maximum" value, then the actual open rate is reported. 
-* For open rates higher than the maximum threshold, the threshold value itself is reported. Example: If 100% of the recipients of an email open it, only the value shown in the table for "Maximum" is displayed; for example: _&gt; 95%_. 
+* If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported. 
+* For open rates higher than the maximum threshold, the threshold value itself is reported. Example: If 100% of the recipients of an email open it, the value shown in the table for "Maximum" is displayed; for example: _&gt; 95%_. 
 
    | Number of recipients | Open rate reported |
    | ------- | ------ |
