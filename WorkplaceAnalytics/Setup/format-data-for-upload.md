@@ -77,9 +77,11 @@ Acceptable .xlsx files must adhere to the following:
 
  #### Columns and rows
 
- * **The first row contains column headers only.** In the first sheet, the values in the first row are considered to be column headers. Note that Workplace Analytics uses these column headers in the same ways that it uses column headers in .csv files, such as on the organizational-data Mapping page.
-
-   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md). 
+ * **The first row contains column headers only.** In the first sheet, the values in the first row are considered to be column headers. 
+ 
+    Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. 
+   
+   The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md). 
 
  * **No duplicate column headers.** Every column header must be unique. 
  * **No blank or repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
@@ -128,10 +130,10 @@ All field header or column names must adhere to the following:
 | Column headers must be strings | In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type). |
 | Begin with a letter, not a number | Example: _Date1_ |
 | Contain only alphanumeric characters | Use letters and numbers only. <br>Example: _Date1_ |
-| Contain at least one lower-case letter | Example: _Hrbp_ <br>All uppercase does not work: _HRBP_ |
+| Contain no special characters | Do not use non-alphanumeric characters such as _@, #, %, &, *_ |
+| Contain at least one lower-case letter | Example: _Hrbp_ <br>All uppercase does not work: <strike>HRBP</strike> |
 | Contain no spaces | Example: _Date1_ |
-| Contian no special characters | Do not use non-alphanumeric characters such as _@, #, %, &, *_ |
-| Ashere to the requirements for Workplace Analytics required attributes and reserved-optional attributes, including for case sensitivity | For example, for the attributes _PersonId_ and _HireDate_ |
+| Adhere to the requirements for Workplace Analytics [required attributes and reserved-optional attributes](prepare-organizational-data.md#required-reserved-optional-and-custom-attributes), including for case sensitivity | For example, for the attributes _PersonId_ and _HireDate_ |
 
 ##### Format the field-value rows
 
@@ -153,7 +155,7 @@ The field values in the data rows must comply with the following rules:
 * The required **Layer** field values and **HourlyRate** field values must contain numbers only.
 
 >[!Note]
-> Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
+> Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in U.S. dollars.
 
 The field values also cannot contain any of the following:
 
@@ -245,16 +247,16 @@ The field values in the data rows must comply with the following rules:
 * The required **Layer** field values and **HourlyRate** field values must contain numbers only.
 
 >[!Note]
-> Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
+> Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in U.S. dollars.
 
-The field values also cannot contain any of the following:
+The field values also cannot contain any of the following characters:
 
-* No accent marks (á)
-* No tildes (~)
-* No short or long dashes (-, --)
-* No commas (,)
-* No "new line" characters (\n)
-* No double (" ") or single quotes (‘ ‘)
+* accent marks (á)
+* tildes (~)
+* short or long dashes (-, --)
+* commas (,)
+* "new line" characters (\n)
+* double (" ") or single quotes (‘ ‘)
 
 ### Create a valid UTF-8 encoded .csv file in Microsoft Excel
 
@@ -302,7 +304,7 @@ Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sa
 
 * **Role:** admin
 
-After you have populated and formatted your organizational data file, you can continue with the following intake steps:
+After you have populated and formatted your organizational data file, you can continue with the following intake steps. This section provides an overview only. To see the complete procedures, select the links in these steps:
 
 1. [File upload](upload-organizational-data-1st.md#file-upload).
 
