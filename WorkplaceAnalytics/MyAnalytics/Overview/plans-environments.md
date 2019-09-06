@@ -22,9 +22,9 @@ The following table lists which user experiences are available depending on what
 
 | Plan  | Service plan | User experience currently available |
 | ----- | ----- |----- |
-| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students     <li>Office 365 E3 Developer  <li>Business Premium     <li>Business Essentials    <br> <br> |  <br>Insights by <br>MyAnalytics| <br>[Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), and <br>[Email digest](../use/email-digest-2.md) (Email digest is rolling out to users starting September through December 2019) |
-| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing   <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and <br> [Inline suggestions](../use/mya-notifications.md) <br>  |
-| <li>Microsoft 365 A5 for faculty/students    <li>Office 365 A5 for faculty/students    | MyAnalytics (Full) | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |  
+| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students     <li>Office 365 E3 Developer  <li>Business Premium     <li>Business Essentials    <br> <br> |  <br>Insights by <br>MyAnalytics| <br>[Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), and <br>[Email digests](../use/email-digest-2.md) (Email digests are rolling out to users starting September through December 2019) |
+| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing   <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digests](../use/email-digest-2.md), and <br> [Inline suggestions](../use/mya-notifications.md) <br>  |
+| <li>Microsoft 365 A5 for faculty/students    <li>Office 365 A5 for faculty/students    | MyAnalytics (Full) | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digests](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |  
 
 > [!Note]
 > [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are available only in the MyAnalytics (Full) service plan.
@@ -39,7 +39,7 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 | ------- | ------------------|
 |  [Welcome email](../use/mya-welcome-email.md)| Sent to existing Office 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment|
 |  [Dashboard](../use/dashboard-2.md)  | Available a few days after license assignment |
-|  [Email digest](../use/email-digest-2.md)  | Sent the Monday of the first week after the welcome email |
+|  [Email digests](../use/email-digest-2.md)  | Sent the Monday of the first week after the welcome email |
 |  [Inline suggestions](../use/mya-notifications.md)  | Available about one day after license assignment |
 |  [Insights Outlook add-in](../use/add-in.md)  | Available about one day after license assignment |
 
