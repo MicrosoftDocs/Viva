@@ -23,7 +23,7 @@ The steps in this topic describe how to configure MyAnalytics for the users in y
 
 **To configure MyAnalytics:**
 
-* [Assign licenses with a MyAnalytics service plan](#assign-licenses-with-the-myanalytics-service-plan)
+* [Assign licenses with a MyAnalytics service plan](#assign-licenses-with-a-myanalytics-service-plan)
 * [Configure access at the tenant level](#configure-access-at-the-tenant-level) or [at the user level](#configure-access-at-the-user-level)
 
 > [!Note] 
@@ -94,7 +94,7 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 > [!Important] 
 > The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
 
-### Set MyAnalytics access for a user
+### Set MyAnalytics access for one user
 
 Configure MyAnalytics access settings for a user with the following PowerShell cmdlet:
 
