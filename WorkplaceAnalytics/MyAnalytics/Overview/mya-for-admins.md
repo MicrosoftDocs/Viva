@@ -6,7 +6,6 @@ title: MyAnalytics for admins
 description: Overview of MyAnalytics for Office 365 admins
 author: paul9955
 ms.author: v-midehm
-ms.date: 07/19/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -18,7 +17,7 @@ audience: Admin
 # MyAnalytics for admins
 
 > [!Note] 
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan. 
+> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
 
 As an administrator, you benefit from knowing what MyAnalytics provides to its participants and what you can do to enable and enhance their experience.
 
@@ -41,10 +40,9 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md). 
-Access to these elements depends on the plan in place at your organization; for more information, see [MyAnalytics elements become available](../setup/configure-myanalytics.md#myanalytics-elements-become-available). For more information, see [Configure MyAnalytics](../setup/configure-myanalytics.md). 
-
+Soon after you assign a license with the MyAnalytics service to a participant, they'll get access to MyAnalytics elements, such as a [personal dashboard](../use/dashboard-2.md), a [weekly email digest](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md).
+Access to these elements depends on the plan in place at your organization; for more information, see [MyAnalytics elements become available](../setup/configure-myanalytics.md#myanalytics-elements-become-available). For more information, see [Configure MyAnalytics](../setup/configure-myanalytics.md).
 
 ## Video: Introduction for admins
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/304879652" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://youtu.be/J9sokkEjGaE" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>

@@ -20,17 +20,33 @@ audience: Admin
 
 The following table lists which user experiences are available depending on what Microsoft 365 or Office 365 plan your organization uses.
 
-| Plan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Service plan | User experience currently available |
+| Plan  | Service plan | User experience currently available |
 | ----- | ----- |----- |
-| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students     <li>Office 365 E3 Developer  <li>Business Premium     <li>Business Essentials    <br> <br> |  <br>Insights by <br>MyAnalytics| <br>[Dashboard](../use/dashboard-2.md), [Insights Outlook Add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md) <br> ([Email digest](../use/email-digest-2.md) will be available to all users by the end of 2019) |
-| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing   <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |
+| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students     <li>Office 365 E3 Developer  <li>Business Premium     <li>Business Essentials    <br> <br> |  <br>Insights by <br>MyAnalytics| <br>[Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), and <br>[Email digest](../use/email-digest-2.md) (Email digest is rolling out to users starting September through December 2019) |
+| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing   <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and <br> [Inline suggestions](../use/mya-notifications.md) <br>  |
 | <li>Microsoft 365 A5 for faculty/students    <li>Office 365 A5 for faculty/students    | MyAnalytics (Full) | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digest](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |  
 
 > [!Note]
-> * To provide a great experience for users and customers, we are rolling out the features of MyAnalytics gradually, with the ultimate goal of achieving feature parity among all plans. We will announce each new feature release in the [Message center](https://docs.microsoft.com/en-us/office365/admin/manage/message-center?view=o365-worldwide).
- > * [Email read statistics](../use/add-in.md#email-read-statistics) are available only in the MyAnalytics (Full) service plan. 
+> [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are available only in the MyAnalytics (Full) service plan.
 
 For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
+
+## Access to MyAnalytics elements
+
+After users get assigned licenses with a MyAnalytics service plan, they get access to the following MyAnalytics elements based on their service plan.
+
+| Element | Approximate timeframe |
+| ------- | ------------------|
+|  [Welcome email](../use/mya-welcome-email.md)| Sent to existing Office 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment|
+|  [Dashboard](../use/dashboard-2.md)  | Available a few days after license assignment |
+|  [Email digest](../use/email-digest-2.md)  | Sent the Monday of the first week after the welcome email |
+|  [Inline suggestions](../use/mya-notifications.md)  | Available about one day after license assignment |
+|  [Insights Outlook add-in](../use/add-in.md)  | Available about one day after license assignment |
+
+
+> [!Note]  
+> * _Licensed users_ have MyAnalytics automatically enabled after license assignment. 
+> * _All users_ in your organization are opted-in, whether or not they have licenses with a MyAnalytics service plan. If you want one or more licensed users to be opted _out_ by default, see [Set MyAnalytics access for one user](../setup/configure-myanaltyics.md#set-myanalytics-access-for-one-user) and [Set MyAnalytics access for multiple users](../setup/configure-myanaltyics.md#set-myanalytics-access-for-multiple-users).
 
 ## Environment support
 
