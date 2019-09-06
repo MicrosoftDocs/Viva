@@ -44,7 +44,7 @@ For information on how to assign a license, see [Assign licenses to users in Off
 
 You can configure access to MyAnalytics elements for all users in your organization.  
 
-### Access to the dashboard and email digests
+### To get access to the dashboard and email digests
 > [!Note]
 > * Tenants in the UAE, South Africa, and Singapore regions might obtain this functionality with some delay.
 > * After a new tenant is established, it might take up to 48 hours for this functionality to become available.
@@ -55,16 +55,16 @@ You can configure access to MyAnalytics elements for all users in your organizat
     ![New admin center](../../images/mya/setup/the-new-admin-center.png)
 
 3. In the left pane, expand **Settings**, and then select **Services & add-ins**.
-4. Under **Services & add-ins**, select **MyAnalytics**. This opens a page to configure access to MyAnalytics elements. 
+4. Under **Services & add-ins**, select **MyAnalytics**. This opens a page to configure access to MyAnalytics elements.
 
    ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
 
 5. Select **Insights dashboard** to keep all MyAnalytics users in your organization opted _in_ for access to the MyAnalytics dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
 6. Select **Weekly insights email** to keep all MyAnalytics users in your organization opted _in_ for access to email digests. Deselect **Weekly insights email** to opt users _out_ of email digests.  
 
-### To disable the add-in
+### To disable the add-in for a tenant
 
-You can disable the Insights Outlook add-in for all licensed users in your organization through the Exchange admin center.
+You can disable the Insights Outlook add-in for all licensed users in your organization or at the tenant level through the Exchange admin center.
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center. (If **Exchange** is not visible, first select **Show all** to see more admin centers and then select **Exchange**.)
