@@ -41,8 +41,8 @@ None of a user's personal information is shared with their co-workers or manager
 ## Granting access
 
 Soon after you assign a license with the MyAnalytics service plan to a user, they'll get access to MyAnalytics elements, such as the [Dashboard](../use/dashboard-2.md), [Email digests](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md).
-Access to these elements depends on the plan in place at your organization; for details, see [Access to MyAnalytics elements](../plans-environments.md#access-to-myanalytics-elements).
+Access to these elements depends on the plan in place at your organization; for details, see [Access to MyAnalytics elements](plans-environments.md#access-to-myanalytics-elements).
 
 ## Video: Introduction for admins
 
-<iframe width="640" height="564" src="https://youtu.be/J9sokkEjGaE" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/J9sokkEjGaE]
