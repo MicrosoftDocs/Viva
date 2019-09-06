@@ -45,7 +45,6 @@ For information on how to assign a license, see [Assign licenses to users in Off
 You can configure access to MyAnalytics elements for all users in your organization.  
 
 ### Access to the dashboard and email digests
-
 > [!Note]
 > * Tenants in the UAE, South Africa, and Singapore regions might obtain this functionality with some delay.
 > * After a new tenant is established, it might take up to 48 hours for this functionality to become available.
