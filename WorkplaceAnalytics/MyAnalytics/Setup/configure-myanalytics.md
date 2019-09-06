@@ -44,7 +44,7 @@ For information on how to assign a license, see [Assign licenses to users in Off
 
 You can configure access to MyAnalytics elements for all users in your organization.  
 
-#### Access to the dashboard and email digests
+### Access to the dashboard and email digests
 
 > [!Note]
 > * Tenants in the UAE, South Africa, and Singapore regions might obtain this functionality with some delay.
@@ -63,9 +63,10 @@ You can configure access to MyAnalytics elements for all users in your organizat
 5. Select **Insights dashboard** to keep all MyAnalytics users in your organization opted _in_ for access to the MyAnalytics dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
 6. Select **Weekly insights email** to keep all MyAnalytics users in your organization opted _in_ for access to email digests. Deselect **Weekly insights email** to opt users _out_ of email digests.  
 
-#### Disable the Insights Outlook add-in
+### To disable the add-in
 
 You can disable the Insights Outlook add-in for all licensed users in your organization through the Exchange admin center.
+
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center. (If **Exchange** is not visible, first select **Show all** to see more admin centers and then select **Exchange**.)
 3. In the dashboard, select **add-ins**.
