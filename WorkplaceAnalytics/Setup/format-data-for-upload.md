@@ -205,7 +205,7 @@ In this example, we're formatting cells that contains dates:
 4. Under **Type**, select a type. The selected cells will change to the new formatting style. If the cells do not change, go back to step 3 and make sure that you select a predefined Excel style.
 
    > [!Note] 
-   > Watch the cell carefully as you apply a data type to it. You can be sure that its data type has changed only if its appearance also changes; that is, if Excel displays changes it to the type that you selected.
+   > Watch the cell carefully as you apply a data type to it. You can be sure that its data type has changed only if its appearance also changes&mdash;that is, if Excel changes it to display the type that you selected.
 
 5. After you have finished formatting the data, save the worksheet with the extension .xlsx:
 
