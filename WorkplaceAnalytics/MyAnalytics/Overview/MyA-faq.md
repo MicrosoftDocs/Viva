@@ -188,10 +188,10 @@ The cards that show [Email read statistics](../use/add-in.md#email-read-statisti
 
 #### Q9. Why can't licensed users see one or more of the MyAnalytics elements?
 
-1. Check [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
-2. Check if **EWSAllowList** is configured to allow "myanalytics" for users: 
-     Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}
-   See [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) for more details.
+* Check [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
+* Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) for more details:
+
+   ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```
 
 #### Q10. How can I pilot MyAnalytics to a subset of users?
 
