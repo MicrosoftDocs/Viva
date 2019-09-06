@@ -46,7 +46,7 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 
 > [!Note]  
 > * _Licensed users_ have MyAnalytics automatically enabled after license assignment. 
-> * _All users_ in your organization are opted-in, whether or not they have licenses with a MyAnalytics service plan. If you want one or more licensed users to be opted _out_ by default, see [Set MyAnalytics access for one user](../setup/configure-myanaltyics.md#set-myanalytics-access-for-one-user) and [Set MyAnalytics access for multiple users](../setup/configure-myanaltyics.md#set-myanalytics-access-for-multiple-users).
+> * _All users_ in your organization are opted-in, whether or not they have licenses with a MyAnalytics service plan. If you want one or more licensed users to be opted _out_ by default, see [Set MyAnalytics access for one user](../setup/configure-myanalytics.md#set-myanalytics-access-for-one-user) and [Set MyAnalytics access for multiple users](../setup/configure-myanalytics.md#set-myanalytics-access-for-multiple-users).
 
 ## Environment support
 
