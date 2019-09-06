@@ -39,8 +39,23 @@ Insights does not report about email messages in the following categories:
 
 #### Open rate
 
-The Insights add-in reports the open rate of qualifying emails that you have sent, as shown in the following table. Note that for low or high open rates, only imprecise percentages are displayed.  
+The Insights add-in reports the open rate of qualifying emails that you have sent, as shown in the following table. Note the following:
 
+* For open rates lower than the minimum threshold, the threshold value itself is reported. Example: If an email with 10 recipients has an actual open rate of 20%, Insights displays the open rate as _&lt; 25%_. 
+* If the actual open rate falls between the "Minimum" and "Maximum" value, then the actual open rate is reported. 
+* For open rates higher than the maximum threshold, the threshold value itself is reported. Example: If 100% of the recipients of an email open it, only the value shown in the table for "Maximum" is displayed; for example: _&gt; 95%_. 
+
+   | Number of recipients | Open rate reported |
+   | ------- | ------ |
+   | 5 - 10  | Minimum: 25% <br>Maximum: 75% |
+   | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
+   | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
+
+MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
+
+
+
+<!-- HERE'S A CLEARER TABLE BUT THEY WANTED A SHORTER TABLE
 <table>
   <tr>
     <th>Number of recipients</th>
@@ -87,7 +102,6 @@ The Insights add-in reports the open rate of qualifying emails that you have sen
     <td>"&gt; 95%"</td>
   </tr>     
 </table>
-
-User privacy is the reason that imprecise values such as "&lt; 25%" or "&gt; 90%" are reported for the open rate. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
+-->
 
 [!INCLUDE [See info about a specific email message](../../Includes/to-see-info-about-email-message.md)]
