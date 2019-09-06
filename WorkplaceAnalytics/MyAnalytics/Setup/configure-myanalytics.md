@@ -66,9 +66,6 @@ You can configure access to MyAnalytics elements for all users in your organizat
 #### Disable the Insights Outlook add-in
 
 You can disable the Insights Outlook add-in for your entire organization through the Exchange admin center.
-
-**To disable the add-in**
-
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center. (If **Exchange** is not visible, first select **Show all** to see more admin centers and then select **Exchange**.)
 3. In the dashboard, select **add-ins**.
