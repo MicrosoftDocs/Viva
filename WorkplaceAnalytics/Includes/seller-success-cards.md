@@ -50,7 +50,7 @@ Its purpose is to help sellers decide whether they are spending time optimally w
 
 The _Depth of engagement_ card shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
 
-![Depth of engagement](../images/wpa/tutorials/depth-of-engagement.png)
+![Depth of engagement](../images/wpa/tutorials/depth-of-engagement.png) 
  
 <!-- 
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 

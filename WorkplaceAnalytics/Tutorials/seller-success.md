@@ -108,7 +108,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 <!-- Get FWLink to here for use in the product UI -->
 
-[!INCLUDE [Seller success cards](..\includes\seller-success-cards.md)]
+[!INCLUDE [Seller success cards](../includes/seller-success-cards.md)]
 
 ## Privacy note
 

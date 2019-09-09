@@ -15,7 +15,7 @@ ms.prod: wpa
 
 <!-- VERIFY THAT THIS TOPIC WILL BE REPLACED ENTIRELY BY SELLER-SUCCES.MD, AND THEN DELETE THIS TOPIC. -->
 
-[!INCLUDE [Seller success cards](..\includes\seller-success-cards.md)]
+[!INCLUDE [Seller success cards](../includes/seller-success-cards.md)]
 
 ## Seller insights Q & A
 
@@ -25,7 +25,7 @@ ms.prod: wpa
 
 **A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month. For more information, see [Seller insights monthly email](#seller-insights-monthly-email).
 
-**Q2.**  Why am I receiving this email?
+**Q2.**  Why am I receiving this email? 
 
 **A2.** You receive the monthly "Seller insights" email so that you can visualize aspects of your sales-related behavior. The insights and suggestions in this email, which are based on recent collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
  
