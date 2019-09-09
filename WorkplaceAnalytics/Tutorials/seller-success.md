@@ -105,28 +105,24 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 # Participant experience
 
-<!-- For Harshit, get FWLink to here for use in the product UI -->
+<!-- Get FWLink to here for use in the product UI -->
 
 **Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.   
 
-After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding week:
+After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month:
 
-![Email top](../images/wpa/tutorials/email-top_70.png)
+![Email top](../images/wpa/tutorials/email-top-70.png)
 
-This email can contain any of several descriptive cards, each of which is designed to help participants work more effectively:
+This email can contain any of several descriptive cards, each of which offers targeted suggestions to help participants work more effectively.  The following sections describe these cards: 
 
  * [Time with customers](#time-with-customers)
  * [Depth of engagement](#depth-of-engagement)
  * [Manager interaction](#manager-interaction)
  <!--  * [Leverage internal networks](#leverage-internal-networks) -->
 
-### Cards in the seller success email
-
 <!-- In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. -->
 <!-- 
 The last card, [Manager interaction](#manager-interaction), has a **Manage meetings** option. Selecting **Manage meetings** displays  upcoming meetings in the Outlook web calendar and, optionally, lets sellers make changes to those meetings.  -->  
-
-The cards in the seller success email offer targeted suggestions. These cards are described in the following sections: 
 
 ## Time with customers
 
@@ -138,10 +134,6 @@ Its purpose is to help sellers decide whether they are spending time optimally w
 
 ![Time with customers](../images/wpa/tutorials/time-w-customers.png)
  
-<!-- 
-On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
--->
-
 ## Depth of engagement
 
 The _Depth of engagement_ card shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
@@ -168,20 +160,12 @@ Spending time with and getting attention from your manager is important for the 
 
 ![Manager interaction](../images/wpa/tutorials/mgr-interaction-72.png)
  
-<!-- 
-On this card, selecting **Manage meetings** opens the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
--->
-
 ## Explore
 
-The final card in the email digest is the Explore card. To see more details the information given in the preceding cards, select **Explore** on this card. 
+The final card in the email digest is the Explore card. On this card, select **Explore** to open the MyAnalytics dashboard, which shows more details about the information that the other cards present.
 
-![Manager interaction](../images/wpa/tutorials/explore-card-70.png)
+![Explore card](../images/wpa/tutorials/explore-card-70.png)
  
-<!-- 
-On this card, selecting **Manage meetings** opens the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
--->
-
 ## Privacy note
 
 The data that is shown in the seller success email belongs to the person who receives that mail. Only they have access to it. Their manager, their admin, and their teammates cannot see it. As is stated at the top of the email, this data is "for your eyes only." For more information, see [Seller insights Q & A](../overview/seller-insights.md#seller-insights-q--a). 
