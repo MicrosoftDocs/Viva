@@ -3,11 +3,10 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Seller insights weekly email
+title: Seller insights monthly email
 description: Information about the Seller insights email that is distributed in Seller success plans
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/02/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -16,9 +15,9 @@ ms.prod: wpa
 
 <!-- VERIFY THAT THIS TOPICS WILL BE REPLACED ENTIRELY BY SELLER-SUCCES.MD, AND THEN DELETE THIS TOPIC. -->
 
-# Seller insights weekly email
+# Seller insights monthly email 
 
-As a participant in a seller-success plan, you receive a weekly seller-insights email. It is meant to help you by streamlining your behavior in several aspects of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week:
+As a participant in a seller-success plan, you receive a monthly seller-insights email. It is meant to help you by streamlining your behavior in several aspects of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month:
 
 ![Email top](../images/wpa/tutorials/email-top-70.png)
 
@@ -73,11 +72,11 @@ On this card, select **Manage meetings** to open the [calendar week view of Outl
 
 <!-- For Madhura, get FWLink to here for use in the product UI -->
 
-**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding week. For more information, see [Seller insights weekly email](#seller-insights-weekly-email).
+**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month. For more information, see [Seller insights monthly email](#seller-insights-monthly-email).
 
 **Q2.**  Why am I receiving this email?
 
-**A2.** You receive the weekly "Seller insights" email so that you can visualize aspects of your sales-related behavior. The insights and suggestions in this email, which are based on recent collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
+**A2.** You receive the monthly "Seller insights" email so that you can visualize aspects of your sales-related behavior. The insights and suggestions in this email, which are based on recent collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
  
 **Q3.** What am I supposed to do with the information in this email?
 
