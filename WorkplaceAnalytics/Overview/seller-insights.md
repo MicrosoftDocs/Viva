@@ -13,64 +13,15 @@ ms.prod: wpa
 
 ---
 
-<!-- VERIFY THAT THIS TOPICS WILL BE REPLACED ENTIRELY BY SELLER-SUCCES.MD, AND THEN DELETE THIS TOPIC. -->
+<!-- VERIFY THAT THIS TOPIC WILL BE REPLACED ENTIRELY BY SELLER-SUCCES.MD, AND THEN DELETE THIS TOPIC. -->
 
-# Seller insights monthly email 
-
-As a participant in a seller-success plan, you receive a monthly seller-insights email. It is meant to help you by streamlining your behavior in several aspects of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month:
-
-![Email top](../images/wpa/tutorials/email-top-70.png)
-
-This email can contain any of several descriptive cards, each of which is designed to help you work more effectively:
-
- * [Time with customers](#time-with-customers)
- * [Depth of engagement](#depth-of-engagement)
- * [Leverage internal networks](#leverage-internal-networks)
- * [Connect with leadership](#connect-with-leadership)
-
-Each card offers a targeted suggestion. In three of the cards, the **Suggestion** section contains an **Explore** option that you can select to learn more about this suggestion and how it can be of benefit. The fourth card, [Connect with leadership](#connect-with-leadership), has a **Manage meetings** option. Select **Manage meetings** to view your upcoming meetings in the Outlook web calendar and, optionally, to make changes to those meetings.    
-
-The cards are described in the following sections: 
-
-### Time with customers
-
-The _Time with customers_ card displays how you spent your time with your customers over the past seven days. Its chart reflects total collaboration hours with each customer.
-
-Its purpose is to help you decide whether you are spending time optimally with customers according to their respective potential. 
-
-![Time with customers](../images/wpa/tutorials/time-with-customers_60.png)
- 
-On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
-
-### Depth of engagement
-
-In the _Depth of engagement_ section, the **People you engaged with** column shows the number of distinct people in the account with which you had one or more meaningful interaction in last 28 days.
-
-![Depth of engagement](../images/wpa/tutorials/depth-of-engagement_60.png)
- 
-On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
-
-### Leverage internal networks
-
-Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours you collaborated with particular internal groups. It calls your attention to these figures so that you can improve your depth of customer engagement by strengthening your internal networks.
-
-![Leverage internal networks](../images/wpa/tutorials/leverage-internal-networks_60.png)
- 
-On this card, select **Explore** to open the **Network** page of the MyAnalytics personal dashboard to see more details about how (with whom) you spent your time. 
-
-### Connect with leadership
-
-Spending time with and getting attention from your manager and other senior people in your own organization is important for the success of salespeople. The chart on the _Connect with leadership_ card displays the time the salesperson spent with their manager (or “leadership,” managers above their immediate manager) in meetings with particular customers.
-
-![Connect with leadership](../images/wpa/tutorials/connect-with-leadership_60.png)
- 
-On this card, select **Manage meetings** to open the [calendar week view of Outlook](https://outlook.office.com/calendar/view/week). 
+[!INCLUDE [Seller success cards](..\includes\seller-success-cards.md)]
 
 ## Seller insights Q & A
 
-**Q1.** As a participant in a Seller success plan, what guidance will I receive to help me during my participation in the plan?  
-
 <!-- For Madhura, get FWLink to here for use in the product UI -->
+
+**Q1.** As a participant in a Seller success plan, what guidance will I receive to help me during my participation in the plan?  
 
 **A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month. For more information, see [Seller insights monthly email](#seller-insights-monthly-email).
 
