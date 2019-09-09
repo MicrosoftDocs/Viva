@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Seller success solution in Workplace Analytics 
 description: Describes the seller success solution and how to create a seller success plan 
 author: paul9955

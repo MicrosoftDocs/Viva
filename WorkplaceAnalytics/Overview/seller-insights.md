@@ -19,7 +19,7 @@ ms.prod: wpa
 
 ## Seller insights Q & A
 
-<!-- For Madhura, get FWLink to here for use in the product UI -->
+<!-- For Madhura, get FWLink to here for use in the product UI --> 
 
 **Q1.** As a participant in a Seller success plan, what guidance will I receive to help me during my participation in the plan?  
 
