@@ -111,7 +111,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month:
 
-![Email top](../images/wpa/tutorials/email-top-70.png)
+![Email top](../images/wpa/tutorials/email-top-70.png) 
 
 This email can contain any of several descriptive cards, each of which offers targeted suggestions to help participants work more effectively.  The following sections describe these cards: 
 
