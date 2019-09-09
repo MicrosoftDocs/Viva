@@ -14,14 +14,12 @@ ms.prod: mya
 
 # Frequently asked questions for MyAnalytics
 
-> [!Note] 
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
+> [!Note]
+> Productivity insights powered by MyAnalytics are becoming broadly available to all Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
 
-The sets of questions and answers in this topic apply to different sets of readers.
+  * [Privacy](#privacy) applies to everyone
 
-  * The [Privacy](#privacy) section is for everyone.
-
-Two later sections are grouped by role:
+The other sets of questions and answers are grouped by role:
 
    * For [MyAnalytics users](#for-myanalytics-users)
    * For [IT administrators](#for-it-administrators)
@@ -152,21 +150,22 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 #### Q1. How do I manage the MyAnalytics experience for users?
 
-You can manage the experience in two ways: 
- * Turn on or off particular MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level). 
- * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level). 
+You can manage the experience in two ways:
+
+ * Turn on or off specific MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level). 
+ * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
 
 #### Q2. Where is user data stored?
 
 User metrics data is stored in users' mailboxes.
 
-#### Q3. How long does it take for the personal dashboard to become available?
+#### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
 
-The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service plan are assigned to the participants. For more information, see [Assign licenses with the MyAnalytics service plan](../setup/configure-myanalytics.md#assign-licenses-with-the-myanalytics-service-plan).
+The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements).
 
-#### Q4. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
+#### Q4. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
 
-Upon activation, MyAnalytics processes historical data for 80 days before the date of activation. No data from before this 80-day limit is displayed in the dashboard.
+After activation, MyAnalytics processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, MyAnalytics processes historical data for the previous 12 months.
 
 #### Q5. Will MyAnalytics work for shared mailboxes?
 
@@ -180,14 +179,24 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
 
-#### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" plan?
+#### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
 
- * The dashboard button will not appear until the dashboard becomes available to E3/E1 users, to take place later in 2019.
- * The cards that show email read statistics are not available. This capability is available to E5 users only.
+The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are not currently available with the *Insights by MyAnalytics* service plan.
 
    > [!Note]
-   > All MyAnalytics features are available to users who have the MyAnalytics (full) plan.
+   > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
 
-#### Q9. How can I confirm that the Insights Outlook add-in is installed?
+#### Q9. Why can't licensed users see one or more of the MyAnalytics elements?
+
+* Check [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
+* Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) for more details:
+
+   ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```
+
+#### Q10. How can I pilot MyAnalytics to a subset of users?
+
+Turn on the “Insights by MyAnalytics” OR “MyAnalytics (Full)” service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+
+#### Q11. How can I confirm that the Insights Outlook add-in is installed?
 
 See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
