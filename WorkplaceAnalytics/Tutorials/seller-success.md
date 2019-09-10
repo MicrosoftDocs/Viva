@@ -163,9 +163,9 @@ On this card, selecting **Explore** opens the **Network** page of the MyAnalytic
 
 ## Manager interaction
 
-Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interaction_ card displays the time the salesperson spent with their manager in meetings with particular customers. 
+Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interaction_ card displays the time the salesperson spent with their manager in meetings with particular customers.  
 
-![Manager interaction](../images/wpa/tutorials/mgr-interaction-72.png)
+![Manager interaction](../images/wpa/tutorials/mgr-interaction-2-85.png)
  
 ## Explore
 
