@@ -78,9 +78,7 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
 4. Additional options on the analysis pages:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
-   * If the analysis fails with the **Status** of a red x:
-     * Select the **Undo** icon to revert to the last successfully saved version.
-     * Select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
+   * If the analysis fails with the **Status** of a red x, select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
    * Select a table column heading, such as Name or Submitted, to sort by it.
    * Select the **Dataset Parameters** icon next to the name to view them for the analysis in that row.
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
