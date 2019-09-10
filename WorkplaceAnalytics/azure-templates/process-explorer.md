@@ -59,7 +59,8 @@ After you categorize a good sample of meetings into the specified categories, yo
    * **For existing datasets**, you can select:
 
      * **Add New Categorization** and then enter a title and probability threshold, same as with new datasets.
-     * An existing draft categorization to resume work on it, or to make a copy of it to work from.
+     * The name of an *existing draft categorization* to resume work on it.
+     * Select the row with the name of an *existing categorization*, and then select **Add New Categorization** to make a copy of it to work from.
 
 3. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings. In **Dashboard** > **Add a New Category**, type the name of a category you want to add, and then press **Enter** to add it to the list.
 4. Select **Meeting** > **Open Query Builder** > **Discover Topics**, type one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view meetings with these keywords, and then select **Run query**.
