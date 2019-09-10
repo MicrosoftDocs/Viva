@@ -12,6 +12,8 @@ localization_priority: normal
 ms.prod: mya
 ---
 
+## Participant experience
+
 **Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.   
 
 After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month:

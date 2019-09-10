@@ -23,7 +23,7 @@ ms.prod: wpa
 
 **Q1.** As a participant in a Seller success plan, what guidance will I receive to help me during my participation in the plan?  
 
-**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month. For more information, see [Seller insights monthly email](#seller-insights-monthly-email).
+**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month. For more information, see [Participant experience](#participant-experience).
 
 **Q2.**  Why am I receiving this email? 
 
