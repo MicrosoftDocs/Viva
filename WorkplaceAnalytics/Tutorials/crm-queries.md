@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: CRM queries in Workplace Analytics 
 description: Describes how to use Queries to analyze CRM data in Workplace Analytics 
 author: madehmer
 ms.author: v-midehm
-ms.date: 05/22/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
