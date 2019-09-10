@@ -134,7 +134,7 @@ The last card, [Manager interaction](#manager-interaction), has a **Manage meeti
 ### Time with customers
 
 The _Time with customers_ card displays how sellers spent their time with  customers over the past month. Its chart reflects the following:
- * The total **Collaboration hours** with each customer during the preceding month. 
+ * The total **Collaboration hours** with each customer during the preceding month.  
 * **Change %**: the change from the preceding month in collaboration hours for that account.
 
 Its purpose is to help sellers decide whether they are spending time optimally with customers according to their respective potential. 
