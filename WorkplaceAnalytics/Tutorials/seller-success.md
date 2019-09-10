@@ -131,7 +131,7 @@ This email can contain any of several descriptive cards, each of which offers ta
 <!-- 
 The last card, [Manager interaction](#manager-interaction), has a **Manage meetings** option. Selecting **Manage meetings** displays  upcoming meetings in the Outlook web calendar and, optionally, lets sellers make changes to those meetings.  --> 
 
-## Time with customers
+### Time with customers
 
 The _Time with customers_ card displays how sellers spent their time with  customers over the past month. Its chart reflects the following:
  * The total **Collaboration hours** with each customer during the preceding month. 
@@ -141,7 +141,7 @@ Its purpose is to help sellers decide whether they are spending time optimally w
 
 ![Time with customers](../images/wpa/tutorials/time-w-customers.png)
  
-## Depth of engagement
+### Depth of engagement
 
 The _Depth of engagement_ card shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
 
@@ -152,7 +152,7 @@ On this card, selecting **Explore** opens the **Network** page of the MyAnalytic
 -->
 
 <!-- REMOVE FOR NOW
-## Leverage internal networks
+### Leverage internal networks
 
 Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours a seller collaborated with particular internal groups. It calls their attention to these figures so that they can improve their depth of customer engagement by strengthening their internal networks.
 
@@ -161,13 +161,13 @@ Being connected with the right individuals and organizations within the company 
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 -->
 
-## Manager interaction
+### Manager interaction
 
 Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interaction_ card displays the time the salesperson spent with their manager in meetings with particular customers.  
 
 ![Manager interaction](../images/wpa/tutorials/mgr-interaction-2-85.png)
  
-## Explore
+### Explore
 
 The final card in the email digest is the Explore card. On this card, select **Explore** to open the MyAnalytics dashboard, which shows more details about the information that the other cards present.
 
