@@ -104,7 +104,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 By using blob storage as the data source, you can get more complete analysis based on all meeting and email activity related to the selected process categories. Complete the following steps to categorize meeting and email activity for a blob storage dataset.
 
-## To categorize email for analysis
+### To categorize email for analysis
 
 1. Follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
 2. Complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
