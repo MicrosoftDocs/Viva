@@ -28,7 +28,8 @@ After you upload a dataset, you can use the word cloud to help you decide what c
 After you categorize a good sample of meetings into the specified categories, you can:
 
 * View meeting data based on those categories with visual charts and lists.
-* Select to **Auto-Categorize Full Dataset** based on the sample meeting categorizations already done by you, as the analyst.
+* For a .csv dataset, select to **Auto-Categorize Full Dataset** based on the sample meeting categorizations already done by you, as the analyst.
+* For a blob storage dataset, categorize email activity for more complete analysis.
 * Use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analysis.
 
 ## To add a new dataset
