@@ -4,7 +4,7 @@
 
 title: Workplace Analytics metric definitions 
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
@@ -51,6 +51,8 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Networking outside organization|Number of departments outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes |
 |Open 1-hr blocks|Number of one-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Open 2-hr blocks|Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
+|Peer average (external collaboration) | The total amount (in hours) of external collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
+|Peer average (internal collaboration) | The total amount (in hours) of internal collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
 |Redundant meeting hours (organizational) |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating *Low quality meeting hours*.  |Person|Hour|Yes|
 |Redundant meeting hours (lower level) |Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting. <br> <br> This metric is _not_ used in calculating *Low-quality meeting hours*. Analysts can use this metric only when creating [Person queries](../tutorials/person-queries.md).|Person | Hour| Yes |
 |Time in calls after hours | Number of hours the person spent in calls, through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook).| Person| Hour| Yes |
@@ -87,13 +89,10 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |------|-----------|----------|---------|------------|
 |Collaboration hours |Sum of meeting hours and email hours spent between the time investor and collaborator groups.|Group|Hour|No|
 |Email hours |Number of hours spent sending and reading emails between the time investor and collaborator groups.|Group|Hour|No|
-|Employees engaged |Number of people in the time investor's group who had two or more meaningful interactions in the last 28 days with the collaborator's group. This only counts licensed employees.​|Group|Count|No|
-|LastTimeContacted|The last date and time that a person from the time investor's group emailed or attended a meeting with one or more people in the collaborator group for the specified date range. |Group|DateTime|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
 |Meeting hours |Number of meeting hours the time investor group has spent meeting with the collaborator group.|Group|Hour|No|
 |Meeting invitee count|Total number of invitees in all meetings from the time investor and collaborator groups.|Group|Count|No|
 |Meetings |Number of distinct meetings with at least one attendee from the time investor and collaborator groups.|Group|Count|No|
-|Network size|Number of people in the collaborator group who had at least two meaningful interactions in the last 28 days with the time investor's group. This only counts licensed employees. |Group|Count|No|
 |Time investors initiated meeting hours | This calculates the number of meeting hours the time investors created only for *Internal collaborators* or *Collaborators within group* by organizing meetings. (Doesn’t follow time-allocation logic.)​ |Group|Hour|No|
 
 ## Person-to-group metrics
