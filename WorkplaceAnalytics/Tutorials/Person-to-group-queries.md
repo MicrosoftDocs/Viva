@@ -75,10 +75,12 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 ## Related topics
 
-[Queries with CRM data](../Tutorials/crm-queries.md)
-
 [Metric descriptions](../Use/Metric-definitions.md)
 
 [Understand and interpret query output](../Use/csv-query-output-file.md)
 
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
+
+<!-- 8/16/2019: REMOVING TILL CRM GOES GA
+[Queries with CRM data](../tutorials/crm-queries.md)
+-->

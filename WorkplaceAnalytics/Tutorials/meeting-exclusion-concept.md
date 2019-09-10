@@ -3,11 +3,11 @@
 # required metadata
 
 title: Meeting exclusion rules concepts
-description: Meeting exclusion rules concepts   
+description: Describes concepts and tools for meeting exclusion rules, including a word cloud and a list of supported languages
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/07/2019
-ms.topic: conceptual
+ms.date: 06/14/2019
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
@@ -45,7 +45,7 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
   ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
 
->[!Note] 
+>[!Note]
 > This calculation updates after you select **Next** and advance to the next step.
 
 ## Interactive summary of the current exclusion step
@@ -54,8 +54,8 @@ The middle section of the page shows you a summary of the current exclusion step
 
   ![Middle of page](../images/wpa/tutorials/11-mid-page.png)
 
-This section has three informative areas: 
- 
+This section has the following informative areas: 
+
  * On the left, you see the types of meetings this step addresses. The exclusion description helps you understand the purpose of the current step.
  * In the center, you see details about the meetings that this exclusion would remove from analysis. This section helps you keep track of the customizations you have made to the current exclusion.
  * On the right, you see the effects of the current exclusion step if you apply it, namely: What percentage of meeting hours and of meetings would it exclude? In other words, what impact would this step have on the remaining meeting data?
@@ -208,7 +208,6 @@ The following list of languages are supported for keywords and phrases in meetin
 |English |Japanese | Punjabi | Urdu |
 | Estonian | Kannada | Romanian | Vietnamese|
 |Finnish | Kazakh | Russian|
-
 
 
 ## Related topic

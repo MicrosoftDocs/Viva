@@ -4,9 +4,8 @@
 
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -15,14 +14,14 @@ ms.prod: mya
 
 # MyAnalytics dashboard
 
-_**Applies to: Office 365 Enterprise E5, Office 365 A5, Office 365 Nonprofit E5, and MyAnalytics add-on**_
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
 
 Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
 Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
 > [!Note]
-> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details. 
 
 ## Home
 
@@ -37,6 +36,12 @@ The Focus section helps you understand whether you have enough time for uninterr
 The Wellbeing section shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
 For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
+
+<!-- REMOVED TEMPORARILY 8/22/2019 PER PETERB UNTIL THE FOCUS PLAN GETS DISTRIBUTED WORLDWIDE. WE'RE NOT QUITE THERE YET. NOTE THAT THE FOCUS PLAN TOPIC IS PUBLISHED BUT HIDDEN: https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/focus-plan
+
+> [!Tip] 
+> The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md).  
+-->
 
 ## Network and Collaboration
 
@@ -66,17 +71,7 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
-## Can I opt out of MyAnalytics?
-
-Yes, you can opt out of MyAnalytics at any time.
-
-When you opt out, the following will occur:
-
-* You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
-* You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
-* Your email activity will not be included in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
-
-**To opt out of MyAnalytics**:
+## Opt out of the MyAnalytics dashboard
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right.
@@ -84,15 +79,15 @@ When you opt out, the following will occur:
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under MyAnalytics, select **Settings**.
-4. For MyAnalytics, set the control to **Off**.
+4. For **Dashboard**, set the control to **Off**.
 
     ![Slider in off position](../../Images/mya/use/Slider-off.png)
   
 5. Select **Save** to save your changes.
 
 > [!NOTE]
-> It might take up to a week for your saved changes to take effect.
+> It might take up to 24 hours for your saved changes to take effect.
 
-### If I opt out, can I opt back in?
+### If I am opted out, can I opt back in?
 
-Yes, you can opt back in any time to regain access to your personal dashboard.
+Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to your personal dashboard.

@@ -3,10 +3,9 @@
 # required metadata
 
 title: Explore introduction
-description: Describes the analytical Explore pages in Workplace Analytics
-author: madehmer
+description: Describes the analytical Explore cards in Workplace Analytics
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/14/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -14,18 +13,23 @@ ms.prod: wpa
 
 # Explore
 
-Explore in Workplace Analytics includes the following set of analytical pages as a starting point to gain quick insights into your organization's data and to identify data you'll want to investigate further.
-  
+Explore in Workplace Analytics includes the following set of analytical cards as a starting point to gain quick insights into your organization's data and to identify data you'll want to investigate further.
+
+### Metrics overview
+
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) gives a summary of day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) gives a summary of collaboration between leaders, managers and employees.
 * [**Internal networks**](../use/explore-metrics-internal-networks.md) shows network connections between different people within a company exclusively, for example, between the sales department and the human resources department.
 * [**External collaboration**](../use/explore-metrics-external-collaboration.md) gives a summary of employees' network patterns with people outside the company.
+* [**Teams collaboration**](../use/explore-metrics-teams.md) shows insights and communication trends about how your organization's employees use Teams for communication and collaboration.
 
-#### Page settings
+### Analyze and start Solutions
 
-You can select **Settings and filters** to view **Page settings** on the right side of the Explore pages. You can use these settings to change the date range, the way to group time investors (a grouping of employees that is used in queries), and the filter for active, inactive, or all employees.
+* [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 
-By default, the Explore pages are filtered to show active employees only. Active employees are those who have sent at least one email during the set date range (the time period set for the query). For more details, see [Page settings and filters](../use/chart-types.md##page-settings-and-filters).
+### Time limit for Explore data
 
-![Page settings](../Images/WpA/Overview/page-settings.png)
+<!-- ORIGINAL: The historical data that populates the various **Explore** pages is time limited: These charts reflect data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash;after you have 27 months of data&mdash;with each month that passes, the 27-month limit of data that support the **Explore** pages advances by one month.  -->
+
+The historical data that populates the various **Explore** pages is time limited and the charts reflect data that is no older than 27 months. This 27-month period is a _rolling window_ that's based on when the [Office 365 data](../use/data-sources.md) refreshes. After a data refresh, the 27-month extent of data that the **Explore** page reflects advances by one week.

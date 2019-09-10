@@ -4,9 +4,8 @@
 
 title: MyAnalytics Focus page
 description: Learn how to use MyAnalytics to improve your focus time at work
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 04/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -25,13 +24,21 @@ These insights are based on your recent activity in Office 365. Select **View Su
 
 ## About the metrics
 
-* **Collaboration** is based on time spent in meetings, emails, chats, and calls with Teams and Skype for Business. To learn more about how these metrics are calculated, see [Collaboration](../Use/collaboration.md).
+* **Collaboration** is based on time spent in meetings, emails, chats, and calls with Teams and Skype for Business. To learn more about how these metrics are calculated, see [Collaboration](collaboration.md).
 
 * **Available to focus** is equal to your working hours minus your collaboration hours; it shows the amount of time you have left over each week for individual work.
 
-These metrics are calculated only for your working hours, as determined by your Outlook calendar. If you mark an appointment on your calendar as “Out of office”, that time will be excluded from this calculation.
+These metrics are calculated only for your working hours, as determined by your Outlook calendar. If you mark an appointment on your calendar as "Out of office", that time will be excluded from this calculation.
 
 For example: If your working hours are set as 9 am to 5 pm daily (8 working hours per day) and you spent 30 hours in meetings, emails, chats, and calls in a given week, your dashboard will show 75% collaboration and 25% time available to focus for that week.
+
+<!-- REMOVED TEMPORARILY 8/22/2019 PER PETERB UNTIL THE FOCUS PLAN GETS DISTRIBUTED WORLDWIDE. WE'RE NOT QUITE THERE YET. NOTE THAT THE FOCUS PLAN TOPIC IS PUBLISHED BUT HIDDEN: https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/focus-plan
+
+## Focus plan
+
+The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md). 
+-->
+
 
 ## Focus tips
 

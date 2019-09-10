@@ -3,7 +3,7 @@
 # required metadata
 
 title: Workplace Analytics privacy considerations
-description: Privacy considerations when using Workplace Analytics to analyze your organization's data
+description: Privacy considerations when using Workplace Analytics to analyze your organizational data
 author: madehmer
 ms.author: v-midehm
 ms.date: 04/17/2019
@@ -24,7 +24,7 @@ A minimum group size helps maintain employee privacy by ensuring that specific p
 
 ### The rule
 
-The minimum-group setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../Tutorials/Solutions-intro.md) area. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified by means of de-identified data presented in a chart.
+The minimum-group setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../Tutorials/solutionsv2-intro.md) area. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified by means of de-identified data presented in a chart.
 
 #### Example
 
