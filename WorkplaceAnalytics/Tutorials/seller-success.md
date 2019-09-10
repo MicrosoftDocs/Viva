@@ -113,7 +113,7 @@ After a seller success plan starts, its participants receive a tailored email ev
 
 <!-- THIS ONE IS IN SECOND PERSON:
 
-# Seller insights monthly email 
+## Seller insights monthly email 
 
 As a participant in a seller-success plan, you receive a monthly seller-insights email. It is meant to help you by streamlining your behavior in several aspects of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month:
 -->
@@ -134,7 +134,7 @@ The last card, [Manager interaction](#manager-interaction), has a **Manage meeti
 ### Time with customers
 
 The _Time with customers_ card displays how sellers spent their time with  customers over the past month. Its chart reflects the following:
- * The total **Collaboration hours** with each customer during the preceding month. 
+ * The total **Collaboration hours** with each customer during the preceding month.  
 * **Change %**: the change from the preceding month in collaboration hours for that account.
 
 Its purpose is to help sellers decide whether they are spending time optimally with customers according to their respective potential. 
