@@ -37,7 +37,7 @@ The following enhancements and features are included in the Process Explorer Azu
 * The following new **Admin Classification** options where after you select and save the option in **Admin** > **Configuration**, it'll persist for the life of that scenario:
   * Surface email subjects and classify email and meetings based on distinct models.
   * Do not surface email subjects and classify email based on model training exclusively on meeting data.  
-* Improved UX with dashboard layout for adding and editing categories, categorizing meetings and email, and analyzing data.
+* Improved UX with a new dashboard layout for adding and editing categories, for categorizing meetings and email separately in different dashboards, and for analyzing data.
 * If a dataset fails with the **Status** of a red x, you can use the new **Undo** action to revert to the last successfully saved version of the dataset.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
