@@ -6,7 +6,6 @@ title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa 
@@ -125,11 +124,13 @@ The file is uploading:
 
 After the file has successfully uploaded, file validation starts: 
 
-   ![Validating now](../images/wpa/setup/validation-full-screen.png)
+   ![Validating now](../images/wpa/setup/up-3-validating-zoom.png)
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
 
+<!-- THE FOLLOWING IS NOT VALID FOR SUBSEQUENT UPLOADS
 During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel**. 
+-->
 
 After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
 
