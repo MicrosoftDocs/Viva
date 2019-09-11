@@ -34,8 +34,14 @@ To learn more, see [Group Analysis Azure Template](./group-analysis.md).
 
 The following enhancements and features are included in the Process Explorer Azure Template.
 
+* New Admin Classification options that you can save and the option will persist for the life of that scenario:
+  * Surface email subjects and classify email and meetings based on distinct models.
+  * Do not surface email subjects and classify email based on model training exclusively on meeting data.  
 * Improved UX with dashboard layout for adding and editing categories, categorizing meetings and email, and analyzing data.
 * If a dataset fails with the **Status** of a red x, you can use the new **Undo** action to revert to the last successfully saved version of the dataset.
+* 
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 ### Organizational Network Analysis Azure Template
 
@@ -46,6 +52,8 @@ The following enhancements and features are included in the Organizational Netwo
 * New date range options for improved data and graph analysis.
 * Improved UX for defining analysis and saving subsets of data within the graph view.
 * Select the new **Parameters** icon to view the parameter details for a listed dataset.
+
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
 ## August 2019
 
@@ -77,7 +85,7 @@ You can now analyze cohesion within groups and across groups by density, which i
 
 You can now save a data analysis graph in the template, and then view it as a saved graph later.
 
-To learn more, see [Organization Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
 ## Related topics
 
