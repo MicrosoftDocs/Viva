@@ -6,10 +6,10 @@ title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
 ms.author: v-pascha
-ms.date: 08/09/2019
+ms.date: 07/31/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: wpa 
+ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
@@ -153,29 +153,15 @@ The upload of the .csv file starts the validation process.
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated. A notification displays the status of these actions.
+After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _We are validating your upload_ message.
 
-The file is uploading:
+   ![Validating the uploaded data](../images/wpa/setup/onboarding-validation-in-progress.png)
 
-   ![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
-
-After the file has successfully uploaded, file validation starts: 
-
-   ![Validating now](../images/wpa/setup/validation-full-screen.png)
-
-In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
-
-During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel**. 
-
-After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
-
-[Validation succeeds](#validation-succeeds)
-
-[Validation fails](#validation-fails)
+During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel upload**. 
 
 ## Validation succeeds
 
-If validation succeeds, in the **Validation results** section, the page displays the _Succeeded_ notification, which reports information about the data that was successfully uploaded and validated: 
+If validation succeeds, in the **Validation results** section, the page displays the _Succeeded_ notification, which reports information about the data that was successfully uploaded and validated:
 
 ![Validation succeeded](../images/wpa/setup/4-orgd-reprocess.png)
 

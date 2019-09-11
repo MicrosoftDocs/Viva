@@ -6,10 +6,10 @@ title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/09/2019
+ms.date: 07/31/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: wpa 
+ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
@@ -20,7 +20,7 @@ audience: Admin
 This article presents the steps that administrators take to upload (import) organizational data to Workplace Analytics. Complete these steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
   > [!Important] 
-  > If this is the first time that you are uploading organizational data to Workplace Analytics, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is **not** the first time that you have uploaded organizational data to Workplace Analytics, you are in the right place: Follow the steps in this article.  
+  > Follow the steps in this section if this is **not** the first time that you have uploaded organizational data to Workplace Analytics. If this **is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
 
 ## Import tasks
 
@@ -117,25 +117,9 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated. A notification displays the status of these actions. 
+After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _File is being uploaded_ screen.
 
-The file is uploading:
-
-   ![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
-
-After the file has successfully uploaded, file validation starts: 
-
-   ![Validating now](../images/wpa/setup/validation-full-screen.png)
-
-In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
-
-During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel**. 
-
-After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
-
-[Validation succeeds](#validation-succeeds)
-
-[Validation fails](#validation-fails)
+<img src="../images/wpa/setup/upload4-uploading.png" alt="Upload in progress">
 
 > [!Note]
 > Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page. 
@@ -146,9 +130,9 @@ After this phase completes, the file has either passed or failed validation. Go 
 ## Validation succeeds
 
 If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After successful validation, Workplace Analytics processes your new data. 
-
-![Validation succeeded](../images/wpa/setup/upload6-validated.png)
  
+<img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
+
 You can select **Settings** > **Organizational data** **Upload** > **Organizational data** to show the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
 On this page, you have the following options:
