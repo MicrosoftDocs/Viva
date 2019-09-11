@@ -54,6 +54,11 @@ The following enhancements and features are included in the Organizational Netwo
 
 To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
+### Admin logs
+
+As an admin, you can now audit user activity in **Admin** > **Logs**. Select the **information** (i) icon to see details about an activity.
+
+
 ## August 2019
 
 The following new template and template enhancements are now available.
