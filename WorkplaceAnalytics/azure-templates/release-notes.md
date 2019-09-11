@@ -56,7 +56,7 @@ To learn more, see [Organizational Network Analysis Azure Template](./organizati
 
 ### Admin logs
 
-As an admin, you can now audit user activity in **Admin** > **Logs**. Select the **information** (i) icon to see details about an activity.
+As an admin, you can now audit user activity in **Admin** > **Logs**. Select the **information** (i) icon in the **Message** column to see more details about a specific  activity.
 
 
 ## August 2019

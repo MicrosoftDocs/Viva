@@ -146,7 +146,7 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 ## Audit logs
 
-As an admin, you can audit user activity in **Admin** > **Logs**. Select the **information** (i) icon to see details about an activity.
+As an admin, you can audit user activity in **Admin** > **Logs**. Select the **information** (i) icon in the **Message** column to see more details about a specific  activity.
 
 ## Get support
 
