@@ -19,6 +19,26 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
+## September 2019
+
+The following new template enhancements are now available. 
+
+### Process Explorer Azure Template
+
+The following enhancements and features are included in the Process Explorer Azure Template. 
+
+* 
+
+### Organizational Network Analysis Azure Template
+
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
+
+* Improved UX for adding new analysis.
+* New **Download metrics** option for the last saved version of the analysis that aligns with the time range, filters, and other values selected.
+* New date range options for graph analysis.
+* Improved UX for defining analysis within the graph view.
+* 
+
 ## August 2019
 
 The following new template and template enhancements are now available.
@@ -35,9 +55,9 @@ This release adds a new Group Analysis Azure template that helps you compare two
 
 To learn more, see [Group Analysis Azure Template](./group-analysis.md).
 -->
-### Organization Network Analysis Azure Template
+### Organizational Network Analysis Azure Template
 
-The following enhancements and features are included in the Organization Network Analysis (ONA) Azure Template.
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
 
 #### Comparative analysis
 

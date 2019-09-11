@@ -22,7 +22,7 @@ Workplace Analytics Azure Templates include the Organizational Network Analysis 
 
 Workplace Analytics has several metrics to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
 
-You can also analyze a subset (child) dataset and graph to compare or focus your analysis on specific subgroups within the selected (parent) dataset.
+To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subset (child) datasets and graphs within the selected (parent) dataset.
 
 ## To add new analysis
 
@@ -44,9 +44,9 @@ You can also analyze a subset (child) dataset and graph to compare or focus your
 
    ![Organizational Network Analysis](./images/ona-render-graph.png)
 
-7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to successfully load.
+7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to successfully load. No metrics are available until you do the following steps to use **Define Analysis** to choose specific metrics to analyze.
 
-## To create a subset dataset and graph analysis
+## To define a subset dataset and graph analysis
 
 Analysis of a subset (child) dataset and graph enables you to compare or focus your analysis on specific subgroups within the selected (parent) dataset.
 
