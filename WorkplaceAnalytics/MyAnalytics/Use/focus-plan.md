@@ -147,7 +147,7 @@ MyAnalytics considers the time from 12:00 AM to 1:00 PM as time for the midday m
 
 ## Chats are muted during focus time  
 
-During focus time, your status in Teams and Skype for Business will automatically change to "Do not disturb" to silence chat notifications and help you stay focused. When the focus time appointment ends, your status will automatically revert back to the status you were previously in. Note that you can set priority contacts in Teams to ensure you don’t miss important messages during focus time. 
+During focus time, your status in Teams and Skype for Business will automatically change to "Focusing" to silence chat notifications and help you stay focused. When the focus time appointment ends, your status will automatically revert back to the status you were previously in. Note that you can set priority contacts in Teams to ensure you don’t miss important messages during focus time. 
 
 For more information, see [Manage notifications in Teams](https://support.office.com/en-us/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d). 
 
@@ -191,7 +191,7 @@ Select that card to see the following options to book focus time on individual d
 
 <!--  DELETED PER PETERB 27 JUNE
 
-If you've chosen not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days. 
+If you've chosen not to turn on auto-booking and if other circumstances arise that will limit your focus time (even if you choose to delete a focus block), MyAnalytics alerts you of the focus time that you are missing over the upcoming days.
 
 For example, the add-in might display this card: 
  

@@ -182,7 +182,7 @@ A2. The collaborator totals include the number of external (or other internal) p
 
 ##### Q3. Why doesn’t the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period I set)?
 
-A3. Business policies can impact historical data processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to archiving. On the Sources page, you can select a time period where the email volume is stable. For details, see [Office 365 data summary in Data sources](../use/data-sources.md#office-365-data-summary).
+A3. Business policies can impact historical data processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to archiving. On the Sources page, you can select a time period where the email volume is stable. For details, see [Office 365 data summary in Data sources](../use/data-sources.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
@@ -238,6 +238,6 @@ A3. You can use the Collaboration hours metric to filter for a specific time fra
 
 A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-##### Q5. Executive assistants can organize meetings on behalf of a leader. Do such meetings count as organized by the _leader_ or by the _executive assistant_ in Workplace Analytics calculations? For example, if this meeting is a 1:1, does it count as a three-person meeting (including the executive assistant) or as two-person meeting (including only the leader and the invitee)?  
+##### Q5. An executive assistant can organize meetings on behalf of a leader. In Workplace Analytics calculations, do such meetings count as organized by the _leader_ or by the _executive assistant_?   
 
-A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant in the meeting.  
+A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant. For example, if the executive assistant organizes a 1:1 meeting, Workplace Analytics counts it as a two-person meeting that includes only the leader and the invitee. 

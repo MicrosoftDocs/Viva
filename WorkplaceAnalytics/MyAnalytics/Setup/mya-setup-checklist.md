@@ -6,7 +6,6 @@ title: MyAnalytics configuration for Office 365 administrators
 description: Configuration options that Office 365 administrators can make for MyAnalytics users
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -73,7 +72,7 @@ You can configure access to MyAnalytics elements for all the users in your organ
 #### Dashboard and weekly email
 
 > [!Note] 
-> This functionality will become available during August, 2019. 
+> This functionality will become available during August, 2019. Tenants in the UAE, South Africa, and Singapore regions might obtain this functionality with some delay.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure that you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**: 
@@ -86,9 +85,6 @@ You can configure access to MyAnalytics elements for all the users in your organ
    ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
 
 5. Select **Insights dashboard** to keep all of the MyAnalytics users in your organization opted _in_ for access to the MyAnalytics personal dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard. 
-
-   > [!Note] 
-   > If your organization is a tenant with an E5 plan and your user is using the [old dashboard version](https://msit.delve.office.com/?v=analytics), your deselection of **Insights dashboard** does not remove dashboard access for that user.
 
 6. Select **Weekly insights email** to keep all of the MyAnalytics users in your organization opted _in_ for access to the weekly email. Deselect **Weekly insights email** to opt users _out_ of the weekly email.  
 

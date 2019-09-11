@@ -42,7 +42,6 @@ By adhering to the following guidelines, MyAnalytics protect employee privacy an
  * MyAnalytics data is processed and stored in the employee’s Exchange Online mailbox.
  * MyAnalytics supports General Data Protection Regulation (GDPR) compliance.
  * MyAnalytics can be configured so that individuals must purposefully opt in.
- * MyAnalytics and Delve are separate applications with no interdependencies.
  * MyAnalytics reminds people that their data is private and secure.
 
 For more information, see [MyAnalytics privacy guide](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide).
