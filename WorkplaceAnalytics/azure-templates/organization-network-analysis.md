@@ -44,7 +44,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    ![Organizational Network Analysis](./images/ona-render-graph.png)
 
-7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to successfully load. No metrics are available until you do the following steps to use **Define Analysis** to choose specific metrics to analyze.
+7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to successfully load. Some metric options are unavailable until you do the following steps to **Define Analysis** for data subsets.
 
 ## To define a subset dataset and graph analysis
 
@@ -119,7 +119,7 @@ Betweenness measures how much of a key connector a person or group (node) is in 
 
 ### Boundary Spanning
 
-This option is only available in Subset Categorization analysis. Indicates the time employees spend collaborating with unique groups. Depending on the direction of the relationships, can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it.
+This option is only available in Subset Categorization analysis. Indicates the time employees spend collaborating with unique groups. Depending on the direction of the relationships, can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it. The network boundary is the largest group within your dataset. People that don't meet the filter conditions are excluded from the analysis.
 
 ### Bridging Index
 

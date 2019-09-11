@@ -48,6 +48,7 @@ After you categorize a good sample of meetings into the specified categories, yo
    * Select the **Job Details** (i) icon next to **Status** to view the job details.
    * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
    * Select the **Delete Dataset** (trashcan) icon to delete the dataset from the list.
+   * Select the **Parameters** icon to view the parameter details for a listed dataset.
    * If the dataset fails with the **Status** of a red x, you can select the **Undo** icon to revert to the last successfully saved version of the dataset.
 
 ## To categorize meetings for analysis

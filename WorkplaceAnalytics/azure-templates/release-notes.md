@@ -21,13 +21,21 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 
 ## September 2019
 
-The following new template enhancements are now available. 
+The following new template enhancements are now available.
+<!-- 
+### Group Analysis Azure Template
+
+This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them.
+
+To learn more, see [Group Analysis Azure Template](./group-analysis.md).
+-->
 
 ### Process Explorer Azure Template
 
-The following enhancements and features are included in the Process Explorer Azure Template. 
+The following enhancements and features are included in the Process Explorer Azure Template.
 
-* 
+* Improved UX with dashboard layout for adding and editing categories, categorizing meetings and email, and analyzing data.
+* If a dataset fails with the **Status** of a red x, you can use the new **Undo** action to revert to the last successfully saved version of the dataset.
 
 ### Organizational Network Analysis Azure Template
 
@@ -35,9 +43,9 @@ The following enhancements and features are included in the Organizational Netwo
 
 * Improved UX for adding new analysis.
 * New **Download metrics** option for the last saved version of the analysis that aligns with the time range, filters, and other values selected.
-* New date range options for graph analysis.
-* Improved UX for defining analysis within the graph view.
-* 
+* New date range options for improved data and graph analysis.
+* Improved UX for defining analysis and saving subsets of data within the graph view.
+* Select the new **Parameters** icon to view the parameter details for a listed dataset.
 
 ## August 2019
 
@@ -48,13 +56,7 @@ The following new template and template enhancements are now available.
 This release adds a new Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
-<!-- 
-### Group Analysis Azure Template
 
-This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them.
-
-To learn more, see [Group Analysis Azure Template](./group-analysis.md).
--->
 ### Organizational Network Analysis Azure Template
 
 The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
