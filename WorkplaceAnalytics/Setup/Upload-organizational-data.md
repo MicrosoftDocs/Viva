@@ -125,7 +125,7 @@ The file is uploading:
 
 After the file has successfully uploaded, file validation starts: 
 
-   ![Validating now](../images/wpa/setup/up-3-validating-zoom.png)
+   ![Validating now](../images/wpa/setup/validation-full-screen.png)
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
 
