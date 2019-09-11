@@ -34,7 +34,7 @@ To learn more, see [Group Analysis Azure Template](./group-analysis.md).
 
 The following enhancements and features are included in the Process Explorer Azure Template.
 
-* New **Admin Classification** options that after you set it, the option will persist for the life of that scenario:
+* The following new **Admin Classification** options where after you select and save the option in **Admin** > **Configuration**, it'll persist for the life of that scenario:
   * Surface email subjects and classify email and meetings based on distinct models.
   * Do not surface email subjects and classify email based on model training exclusively on meeting data.  
 * Improved UX with dashboard layout for adding and editing categories, categorizing meetings and email, and analyzing data.
