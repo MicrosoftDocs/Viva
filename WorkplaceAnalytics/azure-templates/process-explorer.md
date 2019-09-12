@@ -85,7 +85,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 6. After the data is queried, close the query builder pane to see the meeting list, and then to help train the model for auto-categorization of the whole dataset:
 
-   * Select a category, select all meetings in the list by selecting the check box next to **Start Date**, and then select **Apply** to add these meetings to that category.
+   * Select a category, select all meetings in the list by selecting the check box next to **Subject**, and then select **Apply** to add these meetings to that category.
    * Or select a category, individually select the check box next to a good sample of related meetings, and then select **Apply** to add them to that category.
 
       ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
