@@ -116,15 +116,9 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated. A notification displays the status of these actions. 
+After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page displays the _File is being uploaded_ screen:
 
-The file is uploading:
-
-   ![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
-
-After the file has successfully uploaded, file validation starts: 
-
-   ![Validating now](../images/wpa/setup/up-3-validating-zoom.png)
+![Upload in progress](../images/wpa/setup/upload4-uploading.png)
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
 
