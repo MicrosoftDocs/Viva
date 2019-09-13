@@ -30,7 +30,7 @@ Although peer comparison queries focus on people, they produce different informa
 
 2.	In the left navigation pane, expand **Analyze** and then select **Queries**.
 
-3.	On the **Queries** page, under **Start custom query**, select **Peer comparison**. This opens the **Peer comparison query** page:
+3.	On the **Queries** page, under **Start custom query**, select **Peer comparison**. This opens the **Peer Comparison query** page:
 
     ![Peer comparison query page](../images/wpa/tutorials/comp-query-page-3.png)
  
