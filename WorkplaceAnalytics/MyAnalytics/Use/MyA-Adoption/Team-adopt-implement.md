@@ -5,8 +5,7 @@
 title: MyAnalytics Team Adoption --Implement
 description: MyAnalytics Team Adoption by Kate Nowak --Implement section
 author: paul9955
-ms.author: v-pascha
-ms.date: 02/21/2019
+ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -92,7 +91,7 @@ At the end of the program, repeat the same process as a part of your post-progra
 
 A Learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include healthy behavior suggestions, Habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral science lessons. 
 
-What follows are the four modules: Focus hours, Meetings, Email, and After Hours. You can also find lessons on how to maintain important relationships in your network in these modules.
+What follows are modules about: focus hours, meetings, and email data. You can also find lessons in these modules on how to maintain important relationships in your network.
 
 [MyAnalytics Focus hours](MyAnalytics-focus-hours-september-2018.pdf)
 
