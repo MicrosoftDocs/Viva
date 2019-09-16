@@ -29,7 +29,7 @@
         - name: Plans and environments
           href: ./overview/plans-environments.md
         - name: Privacy guide for admins
-          href: ./overview/privacy-guide-admins.md
+          href: ./overview/privacy-guide.md
     - name: Use MyAnalytics
       items:
       - name: Data privacy
