@@ -114,7 +114,7 @@ If you plan to go on vacation, create a calendar event that includes the days of
 
 #### Q1. Can I opt out of MyAnalytics? And if I do (or if an admin opts me out), can I opt back in later?
 
-Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want. 
+Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want.
 
 See the following sections for more information:
 
@@ -129,13 +129,13 @@ See the following sections for more information:
  * [Remove Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
-#### Q2. Why can I not see the MyAnalytics dashboard to opt-out?
+#### Q2. Why can't I see the MyAnalytics dashboard?
 
-To opt out, you use the MyAnalytics dashboard. The dashboard is available only if your organization has a _qualifying plan_. (All of the plans listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features) are qualifying plans.) If an organization has no _qualifying plan_, its members see no elements of MyAnalytics and their data is not processed. 
+The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
 
 #### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics]( http://myanalytics.microsoft.com) and turn MyAnalytics on?
 
-Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For exmaple, when you receive a qualifying email and read it, that stat is included in the read percentage shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
+Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that stat in the read percentage that's shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
 
 ### Insights Outlook add-in
 
