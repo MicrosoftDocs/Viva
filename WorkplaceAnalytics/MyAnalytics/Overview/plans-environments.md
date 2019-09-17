@@ -65,6 +65,14 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 
 ### Browser support
 
+You can use the following web browsers to view your MyAnalytics dashboard:
+
+* Microsoft Edge or Edge Chromium (coming soon)
+* Microsoft Internet Explorer version 10 or 11
+* Google Chrome (latest version)
+* Apple Safari (latest version)
+* Mozilla Firefox (latest version)
+
 As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
 
 ## Language support

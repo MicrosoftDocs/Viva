@@ -71,9 +71,10 @@ MyAnalytics does not have any tracking software running on your computer.
 
 **MyAnalytics does not use:**
 
- * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
- * Confidential or client information, such as working papers or electronic files that are stored or processed in Office 365.
+Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
+> [!Note]
+> MyAnalytics processes the data as described in [Privacy Guide](privacy-guide.md).
 
 ## For MyAnalytics users
 
@@ -208,7 +209,7 @@ See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in
 
 #### Q12. Can I ask that MyAnalytics user data be deleted and not stored?
 
-Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide-admins#gdpr-compliance).
+Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide.md#gdpr-compliance).
 
    > [!Note]
    > If a person opts out of using MyAnalytics, it doesn't delete that person's MyAnalytics data.
@@ -221,6 +222,8 @@ The same rules apply as with Microsoft Office 365 commercial online services, Mi
 
 No. MyAnalytics does not support auditing.
 
-#### Q15. What browsers can I use with the Insights Outlook Add-in?
+#### Q15. What browsers can I use with MyAnalytics and the Insights Outlook Add-in?
+
+See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the MyAnalytics dashboard supports.
 
 As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
