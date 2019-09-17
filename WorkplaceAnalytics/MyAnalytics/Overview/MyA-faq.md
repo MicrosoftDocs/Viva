@@ -93,7 +93,7 @@ If you block out your calendar for personal work by using an appointment (see [C
 
 #### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more information, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
 #### Q2. Can I change my settings to make time outside of work more accurate?
 
@@ -104,7 +104,7 @@ Yes. You can change your time zone and your working time in your [Outlook settin
 Try the following to troubleshoot your focus-time totals:
 
 1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).)
-2. For more information about focus time, see [Focus](../Use/focus.md).  
+2. For more details about focus time, see [Focus](../Use/focus.md).  
 
 #### Q4. How do I tell MyAnalytics that I am on vacation?
 
@@ -116,7 +116,7 @@ If you plan to go on vacation (or on holiday), create an Outlook calendar event 
 
 Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want.
 
-See the following sections for more information:
+See the following for details:
 
 ##### Opt out of all of MyAnalytics
 
@@ -157,8 +157,8 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 You can manage the experience in two ways:
 
-* Turn on or off specific MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
-* Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
+* Turn on or off specific MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
+* Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
 
 #### Q2. Where and for how long is user data stored?
 
