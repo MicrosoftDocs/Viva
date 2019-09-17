@@ -108,7 +108,7 @@ Try the following to troubleshoot your focus-time totals:
 
 #### Q4. How do I tell MyAnalytics that I am on vacation?
 
-If you plan to go on vacation, create a calendar event that includes the days of your vacation and set its status to **Out of Office**. This causes your focus time and meeting time to both count as zero during your vacation.  
+If you plan to go on vacation (or on holiday), create an Outlook calendar event that includes the days of your vacation and set the status to **Out of Office**. MyAnalytics will count zero focus and meeting hours for you while you're away.
 
 ### Opt out
 
