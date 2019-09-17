@@ -215,7 +215,7 @@ Yes, you can delete and restrict the processing of MyAnalytics user data if requ
 
 #### Q13. Can Microsoft personnel access a person's MyAnalytics data?
 
-The same rules apply as with Microsoft Office 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [](https://www.microsoft.com/trust-center/privacy/data-access).
+The same rules apply as with Microsoft Office 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
 
 #### Q14. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
 
