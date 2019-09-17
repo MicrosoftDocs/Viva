@@ -44,6 +44,9 @@ MyAnalytics does not have any tracking software running on your computer.
 
 #### Q3. What data does MyAnalytics use?
 
+> [!Note]
+> MyAnalytics processes the data as described in the [Privacy Guide](privacy-guide.md).
+
 **MyAnalytics uses:**
 
  * Information from email items:
@@ -72,9 +75,6 @@ MyAnalytics does not have any tracking software running on your computer.
 **MyAnalytics does not use:**
 
 Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
-
-> [!Note]
-> MyAnalytics processes the data as described in [Privacy Guide](privacy-guide.md).
 
 ## For MyAnalytics users
 
