@@ -2,7 +2,6 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Peer comparison queries
 description: Peer comparison queries -- what they are, how to create them, how to run them  
 author: paul9955
