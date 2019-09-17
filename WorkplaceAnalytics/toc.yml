@@ -101,7 +101,9 @@
                 - name: Person-to-group queries
                   href: ~/tutorials/Person-to-group-queries.md 
   #              - name: Queries with CRM data
-  #                href: ~/tutorials/crm-queries.md                                 
+  #                href: ~/tutorials/crm-queries.md    
+                - name: Peer comparison queries
+                  href: ~/tutorials/comparison-query.md                                
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md                  
                 - name: Customize a metric
