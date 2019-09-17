@@ -71,7 +71,8 @@ MyAnalytics does not have any tracking software running on your computer.
 
 **MyAnalytics does not use:**
 
- * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.  
+ * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
+ * Confidential or client information, such as working papers or electronic files that are stored or processed in Office 365.
 
 
 ## For MyAnalytics users
@@ -132,6 +133,10 @@ See the following sections for more information:
 
 To opt out, you use the MyAnalytics dashboard. The dashboard is available only if your organization has a _qualifying plan_. (All of the plans listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features) are qualifying plans.) If an organization has no _qualifying plan_, its members see no elements of MyAnalytics and their data is not processed. 
 
+#### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics]( http://myanalytics.microsoft.com) and turn MyAnalytics on?
+
+Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For exmaple, when you receive a qualifying email and read it, that stat is included in the read percentage shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
+
 ### Insights Outlook add-in
 
 #### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
@@ -142,7 +147,7 @@ The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook a
 
 MyAnalytics does not use data from shared or secondary mailboxes.
 
-#### Q3. Why are my email read statistics not available?
+#### Q3. Why are read statistics not available for some of my email?
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
 
@@ -152,12 +157,12 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 You can manage the experience in two ways:
 
- * Turn on or off specific MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level). 
- * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
+* Turn on or off specific MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
+* Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
 
-#### Q2. Where is user data stored?
+#### Q2. Where and for how long is user data stored?
 
-User metrics data is stored in users' mailboxes.
+User metrics data is stored in users' mailboxes. Depending on the scenario, most data is stored for 180 days and some is stored for up to two years.
 
 #### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
 
@@ -200,3 +205,22 @@ Turn on the “Insights by MyAnalytics” OR “MyAnalytics (Full)” service pl
 #### Q11. How can I confirm that the Insights Outlook add-in is installed?
 
 See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
+
+#### Q12. Can I ask that MyAnalytics user data be deleted and not stored?
+
+Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide-admins#gdpr-compliance).
+
+   > [!Note]
+   > If a person opts out of using MyAnalytics, it doesn't delete that person's MyAnalytics data.
+
+#### Q13. Can Microsoft personnel access a person's MyAnalytics data?
+
+The same rules apply as with Microsoft Office 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [](https://www.microsoft.com/trust-center/privacy/data-access).
+
+#### Q14. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
+
+No. MyAnalytics does not support auditing.
+
+### Q15. What browsers can I use with the Insights Outlook Add-in?
+
+As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
