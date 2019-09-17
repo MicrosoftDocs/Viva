@@ -221,6 +221,6 @@ The same rules apply as with Microsoft Office 365 commercial online services, Mi
 
 No. MyAnalytics does not support auditing.
 
-### Q15. What browsers can I use with the Insights Outlook Add-in?
+#### Q15. What browsers can I use with the Insights Outlook Add-in?
 
 As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
