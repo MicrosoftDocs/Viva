@@ -120,11 +120,11 @@ Betweenness measures how much of a key connector a person or group (node) is in 
 
 ### Boundary Spanning
 
-This option is only available in Subset Categorization analysis. Indicates the time employees spend collaborating with unique groups. Depending on the direction of the relationships, can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it. The network boundary is the largest group within your dataset. People that don't meet the filter conditions are excluded from the analysis.
+<!--  This option is only available in Subset Categorization analysis. -->Indicates the time employees spend collaborating with unique groups. Depending on the direction of the relationships, can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it. The network boundary is the largest group within your dataset. People that don't meet the filter conditions are excluded from the analysis.
 
 ### Bridging Index
 
-This option is only available in Subset Categorization analysis. Indicates potential control over the flow of information and points of failure or overload. High values can indicate gatekeepers, liaisons, or change agents. This role can be advantageous or stressful.
+<!--  This option is only available in Subset Categorization analysis. -->Indicates potential control over the flow of information and points of failure or overload. High values can indicate gatekeepers, liaisons, or change agents. This role can be advantageous or stressful.
 
 ### Closeness
 
@@ -154,16 +154,16 @@ As shown in the following graphic, Engineering, R&D, and Sales are key influence
 
 ### Influence Index
 
-This option is only available in Subset Categorization analysis. Indicates how much influence an individual has in the network. Influence occurs from providing information to people who also provide information to many others, and so on. High values suggest the central individual’s perspective will flow through the organization with efficiency.
+<!--  This option is only available in Subset Categorization analysis. -->Indicates how much influence an individual has in the network. Influence occurs from providing information to people who also provide information to many others, and so on. High values suggest the central individual’s perspective will flow through the organization with efficiency.
 
 ### Interconnectedness
 
 This option is only available in Node View. Interconnectedness is a measure of how diverse a node’s connections are. The higher the interconnection for a node, the more that node’s connections come from other nodes. The nodes with high interconnection can be good ambassadors and help drive collaboration for the intersecting nodes.
-
+<!--  
 ### Network size
 
 This option is only available in Subset Categorization analysis. Indicates size of social load without adjusting for potential quality of connections.
-
+-->
 ### Number of employees
 
 This option is only available in Combined View. The node size is based on the number of people in that particular group. The larger node sizes represent the nodes with the larger number of people in that network.
