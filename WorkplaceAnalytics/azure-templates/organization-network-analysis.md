@@ -91,10 +91,7 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 
 1. On the **Organizational Network Analysis** page, select the name of the analysis in the table.
 2. At the top right of the **Graph Analysis** page, select **Load Saved Graph**.
-3. Select the name of the graph that you want to view. <!-- To view a subset dataset graph, select the **Refine Subset Categorization** icon next to the dataset name, and then select the subset's name to view it.--> If no analysis has been created, the subset list will be empty.
-
-<!--    ![Refine Subset Categorization icon](./images/ona-subset-categorization.png)-->
-
+3. Select the name of the graph that you want to view. <!-- To view a subset dataset graph, select the **Refine Subset Categorization** icon next to the dataset name, and then select the subset's name to view it.--> If no analysis has been created, the subset list will be empty.<!--    ![Refine Subset Categorization icon](./images/ona-subset-categorization.png)-->
 4. Additional options on the analysis pages:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
@@ -109,11 +106,7 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 You can apply the following node sizing options to change how the data is measured and shown in the graph.
 
 ![Organization Network Analysis measures](./images/ona-measures.png)
-
-For Subset Categorizations, you must select the applicable metrics when creating the analysis to see these measure options in the graph.
-
-![Organization Network Analysis Subset measures](./images/ona-subset-measures.png)
-
+<!-- For Subset Categorizations, you must select the applicable metrics when creating the analysis to see these measure options in the graph. ![Organization Network Analysis Subset measures](./images/ona-subset-measures.png)-->
 ### Betweenness
 
 Betweenness measures how much of a key connector a person or group (node) is in the network. This is calculated by finding the shortest paths between all nodes to all other nodes in the network and finding the number of times a node appears on the shortest path. The more times a node appears on the shortest path between other nodes, the more of a key connector that node is and therefore the higher the node’s betweenness score is.
@@ -159,8 +152,7 @@ As shown in the following graphic, Engineering, R&D, and Sales are key influence
 ### Interconnectedness
 
 This option is only available in Node View. Interconnectedness is a measure of how diverse a node’s connections are. The higher the interconnection for a node, the more that node’s connections come from other nodes. The nodes with high interconnection can be good ambassadors and help drive collaboration for the intersecting nodes.
-<!--  
-### Network size
+<!--  ### Network size
 
 This option is only available in Subset Categorization analysis. Indicates size of social load without adjusting for potential quality of connections.
 -->
