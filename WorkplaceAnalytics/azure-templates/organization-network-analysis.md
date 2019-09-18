@@ -21,8 +21,8 @@ _These templates are only available as part of a Microsoft service engagement._
 Workplace Analytics Azure Templates include the Organizational Network Analysis template that enables you to visualize connections within your organization, pinpoint collaboration patterns, and drive change.
 
 Workplace Analytics has several metrics to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
-
-To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subset (child) datasets and graphs within the selected (parent) dataset.
+<!-- 
+To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subset (child) datasets and graphs within the selected (parent) dataset.-->
 
 ## To add new analysis
 
@@ -44,8 +44,8 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    ![Organizational Network Analysis](./images/ona-render-graph.png)
 
-7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to successfully load. Some metric options are unavailable until you do the following steps to **Define Analysis** for data subsets.
-
+7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to successfully load. <!-- Some metric options are unavailable until you do the following steps to **Define Analysis** for data subsets.-->
+ <!-- 
 ## To define a subset dataset and graph analysis
 
 Analysis of a subset (child) dataset and graph enables you to compare or focus your analysis on specific subgroups within the selected (parent) dataset.
@@ -62,6 +62,7 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 7. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Sizing](#node-sizing) for more details about the metric options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
 8. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you'll only get the monthly metric calculations.
 9. Select **Submit** to create the graph analysis.
+-->
 
 ## To view graph analysis
 

@@ -22,13 +22,6 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 ## September 2019
 
 The following new template enhancements are now available.
-<!-- 
-### Group Analysis Azure Template
-
-This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them.
-
-To learn more, see [Group Analysis Azure Template](./group-analysis.md).
--->
 
 ### Process Explorer Azure Template
 
@@ -48,8 +41,8 @@ The following enhancements and features are included in the Organizational Netwo
 
 * Improved UX for adding new analysis.
 * New date range options for improved data and graph analysis.
-* Improved UX for defining analysis and saving subsets of data within the graph view.
-* New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
+ <!-- * Improved UX for defining analysis and saving subsets of data within the graph view.
+* New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.-->
 * New **Download metrics** option for the last saved version of the analysis that aligns with the time range, filters, and other values selected.
 * Select the new **Parameters** icon to view the parameter details for a listed dataset.
 
