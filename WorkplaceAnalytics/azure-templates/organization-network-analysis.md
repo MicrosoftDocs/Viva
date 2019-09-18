@@ -91,9 +91,9 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 
 1. On the **Organizational Network Analysis** page, select the name of the analysis in the table.
 2. At the top right of the **Graph Analysis** page, select **Load Saved Graph**.
-3. Select the name of the graph that you want to view. To view a subset dataset graph, select the **Refine Subset Categorization** icon next to the dataset name, and then select the subset's name to view it. If no analysis has been created, the subset list will be empty.
+3. Select the name of the graph that you want to view. <!-- To view a subset dataset graph, select the **Refine Subset Categorization** icon next to the dataset name, and then select the subset's name to view it.--> If no analysis has been created, the subset list will be empty.
 
-   ![Refine Subset Categorization icon](./images/ona-subset-categorization.png)
+<!--    ![Refine Subset Categorization icon](./images/ona-subset-categorization.png)-->
 
 4. Additional options on the analysis pages:
 
