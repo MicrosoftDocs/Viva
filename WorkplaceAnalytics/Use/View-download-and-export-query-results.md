@@ -18,7 +18,7 @@ ms.prod: wpa
 
 In Workplace Analytics, the **Analyze** > **Queries** > **Results** page lists all the queries that have been run for your organization.
 
-![Query results tab](../images/wpa/Use/query-results-page.png)
+![Query results tab](../images/wpa/use/query-results-page.png)
 
 In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete them, or get a link to access them as data in Power BI or Excel.
 
@@ -49,12 +49,12 @@ You can use data from your queries in a data-analysis tool to do further analysi
 
 1. Next to the query you want, select **Copy link**:
 
-   ![copy link image](../images/wpa/Use/copy-link.png)
+   ![copy link image](../images/wpa/use/copy-link.png)
 
 2. In Power BI, type or paste the URL into the **OData feed** dialog box.  
 3. Select **Organizational account** and then select **Sign in**:
 
-   ![Sign in to Workplace Analytics organizational account](../images/wpa/Use/OData-feed-sign-in.png)
+   ![Sign in to Workplace Analytics organizational account](../images/wpa/use/OData-feed-sign-in.png)
 
 4. Office 365 dialog box prompts you to choose an account. Select the account that you use when you log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box, with the notification "You are currently signed in."
 5. In the OData feed dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import.
@@ -92,29 +92,29 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 1.	In Power BI Desktop, select the **Get Data** button:
 
-   ![Get Data button](../images/wpa/Use/copy-link.png)
+    ![Get Data button](../images/wpa/use/get-data-in-pbi.png)
 
-3.	Select **Online Services** and then select **Workplace Analytics**:
+2.	Select **Online Services** and then select **Workplace Analytics**:
 
-   ![Get Data button](../images/wpa/Use/copy-link.png)
+    ![Get Data button](../images/wpa/use/copy-link.png)
 
-4.	Enter the Workplace Analytics partition ID:
+3.	Enter the Workplace Analytics partition ID:
 
-   ![Get Data button](../images/wpa/Use/copy-link.png)
+    ![Get Data button](../images/wpa/use/copy-link.png)
 
-5.	Select the Data Connectivity mode you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
+4.	Select the Data Connectivity mode you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
  
-6.	If prompted, sign in to your work account:
+5.	If prompted, sign in to your work account:
 
-   ![Get Data button](../images/wpa/Use/copy-link.png)
+    ![Get Data button](../images/wpa/use/copy-link.png)
 
-7.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section:
+6.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section:
 
-   ![Get Data button](../images/wpa/Use/copy-link.png)
+    ![Get Data button](../images/wpa/use/copy-link.png)
 
-   You can now create visualizations using those fields in Power BI.
+   In Power BI, you can now create visualizations using those fields.
 
-9.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
+7.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
 
 ## Related topics
 
