@@ -6,7 +6,6 @@ title: View download and export Workplace Analytics query results
 description: Describes how to view, download, and export Workplace Analytics query results to PowerBI and other data analysis tools
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,14 +16,14 @@ ms.prod: wpa
    > [!Note]
    > You must have the Analyst role in Workplace Analytics to view, download, or export query results.
 
-In Workplace Analytics, the **Analyze** > **Queries** > **Results** page lists all the queries that have been run for your organization.
+In Workplace Analytics, **Analyze** > **Queries** > **Results** > **All results** lists all the queries that have been run for your organization.
 
 ![Query results tab](../images/wpa/Use/query-results-page.png)
 
 In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete them, or get a link to access them as data in Power BI or Excel.
 
    > [!Note]
-   > On the **Results** page, you can switch between **My results** and **All results**.
+   > In **Results**, you can switch between **My results** and **All results**.
 
 ## View query results
 
@@ -36,8 +35,20 @@ You can use data from your queries in a data-analysis tool to do further analysi
 
 ### Download and import a query
 
-1. On the **Analyze** > **Queries** > **Results** page, next to the query you want, select **Download**.
-2. Import the .csv file into the tool that you want.  
+The following steps are for Excel 2016. For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file.
+
+1. In **Analyze** > **Queries** > **Results** > **All results**, next to the query you want, select the **Download** icon.
+2. If prompted, select to download the query as a .csv file.
+3. Select to open and right-click the zip file, which contains a .csv version of the query, and then select **Extract All** and extract the .csv to a local folder.
+4. Open **Excel**, select to open **a new document**, and then open **a blank workbook**.
+5. In the blank Excel workbook, select the **Data** tab at the top, and then select **Get Data** > **From File** > **From Text/CSV**.
+
+    ![import .csv file](../images/wpa/Use/import-csv.png)
+
+6. Locate, select, and open the .csv file you unzipped in step 3.
+7. In the **Text Import Wizard**, in **File Origin**, select **Unicode (UTF-8)**, and in **Preview**, confirm the data (including multi-byte characters) are shown correctly.​
+8. In **Delimiter**, select **Comma**, and in **Data Type Detection**, select the applicable option, and then select **Load**.
+9. Select **File** > **Save As** and save the file as an Excel (.xlsx) file to maintain the data in its currently formatted form, including multi-byte characters.​
 
 ### Get a link for an OData feed to use in Power BI
 
