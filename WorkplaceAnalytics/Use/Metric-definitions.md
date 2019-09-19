@@ -19,18 +19,25 @@ You can use the following metrics in Workplace Analytics to customize your queri
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
-|After-hours collaboration|Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
-|After-hours email hours|Number of hours the person spent sending email outside of working hours.|Person|Hour|No|
+|After hours collaboration|Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
+|After hours email hours|Number of hours the person spent sending email outside of working hours.|Person|Hour|Yes|
+|After hours in calls|Number of hours the person spent in calls through Teams outside of working hours.|Person|Hour|Yes|
+|After hours instant messages|Number of hours a person spent in instant messages through Teams outside of working hours.|Person|Hour|Yes|
 |After-hours meeting hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
-|Calls| Total number of calls the person spent time in as initiator or participant, through Teams, during and outside of working hours.| Person| |Count| Yes
+|Call hours| The number of hours the person spent in calls through Teams, during and outside of working hours.| Person| Hours| Yes |
 |Collaboration hours|Number of hours the person spent in meetings and on email with at least one other person. Collaboration hours include both internal and external hours. |Person|Hour|Yes|
 |Collaboration hours external|Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domains).|Person|Hour|No|
 |Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.)|Person|Hour|Yes|
 |Email hours|Number of hours the person spent sending and receiving emails.|Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
 |External network size|Number of people external to the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes|
+|Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
+|Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
+|Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
 |Generated workload email hours|Number of email hours the person created for internal recipients by sending emails.|Person|Hour|Yes|
-|Generated workload email recipients|Number of internal recipients on all emails sent by the person. (Counts each recipient once for each email received.)|Person|Count|Yes|
+|Generated workload email recipients|Number of internal recipients on emails sent by the person. (Counts each recipient once for each email received.)|Person|Count|Yes|
+|Generated workload instant messages hours|Number of instant message hours the person created through Teams for internal recipients by sending instant messages.|Person|Hour|Yes|
+|Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload meeting attendees|Number of internal attendees in meetings organized by the person. (Counts each attendee once for each meeting.)|Person|Count|Yes|
 |Generated workload meeting hours|Number of meeting hours the person created for internal attendees by organizing meetings.|Person|Hour|Yes|
 |Generated workload meetings organized|Number of internal meetings organized by the person.|Person|Count|Yes|
