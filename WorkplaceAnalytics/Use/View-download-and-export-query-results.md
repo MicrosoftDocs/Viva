@@ -38,8 +38,8 @@ You can use data from your queries in a data-analysis tool to do further analysi
 The following steps are for Excel 2016. For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file.
 
 1. In **Analyze** > **Queries** > **Results** > **All results**, next to the query you want, select the **Download** icon.
-2. If prompted, select to download the query as a PBI (Power BI) template or a .csv file.  
-3. For .csv files, open and right-click the zip file, which contains a .csv version of the query, select **Extract All**, and extract the .csv to a local folder.
+2. If prompted, select to download the query as a .csv file.
+3. Select to open and right-click the zip file, which contains a .csv version of the query, and then select **Extract All** and extract the .csv to a local folder.
 4. Open **Excel**, select to open **a new document**, and then open **a blank workbook**.
 5. In the blank Excel workbook, select the **Data** tab at the top, and then select **Get Data** > **From File** > **From Text/CSV**.
 
