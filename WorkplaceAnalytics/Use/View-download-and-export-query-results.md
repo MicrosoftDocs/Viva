@@ -39,8 +39,9 @@ You can use data from your queries in a data-analysis tool to do further analysi
 
 ### Download and import query results
 
-1. On the **Analyze** > **Queries** > **Results** page, next to the query you want, select **Download**. A .csv file of results is downloaded. 
-2. Import the .csv file into the tool that you want.  
+1. On the **Analyze** > **Queries** > **Results** page, next to the query you want, select **Download**. A .csv file of results is downloaded.
+
+2. Import the .csv file into the data-visualization tool.  
 
 ### Get a link for an OData feed to use in Power BI
 
