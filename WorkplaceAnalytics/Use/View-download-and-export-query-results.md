@@ -42,6 +42,9 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 3. For .csv files, open and right-click the zip file, which contains a .csv version of the query, select **Extract All**, and extract the .csv to a local folder.
 4. Open **Excel**, select to open **a new document**, and then open **a blank workbook**.
 5. In the blank Excel workbook, select the **Data** tab at the top, and then select **Get Data** > **From File** > **From Text/CSV**.
+
+    ![import .csv file](../images/wpa/Use/import-csv.png)
+
 6. Locate, select, and open the .csv file you unzipped in step 3.
 7. In the **Text Import Wizard**, in **File Origin**, select **Unicode (UTF-8)**, and in **Preview**, confirm the data (including multi-byte characters) are shown correctly.​
 8. In **Delimiter**, select **Comma**, and in **Data Type Detection**, select the applicable option, and then select **Load**.
