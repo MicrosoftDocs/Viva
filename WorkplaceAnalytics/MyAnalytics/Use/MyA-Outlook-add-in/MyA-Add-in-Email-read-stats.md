@@ -2,21 +2,21 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Email read statistics in Insights
 description: See what proportion of recipients opened email from you in Insights
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/13/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../../overview/plans-environments.md) for details._ 
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../../overview/plans-environments.md) for details._
 
-Insights can tell you how many people have opened your emails and the average time they spent reading those emails. In general, it informs you about emails that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).) 
+Insights can tell you how many people have opened your emails and the average time they spent reading those emails. In general, it informs you about emails that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
-After you send an email message, it takes up to thirty minutes before Insights can inform you about it. 
+After you send an email message, it can take up to thirty minutes before Insights informs you about it. If the email is sent from a delegated mailbox, the delegate can see the read statistics.
 
 Insights shows the open rate for the sent email that is open in Outlook. It also groups open rate information for qualifying sent items into a single summary card that you can select and expand to see a more detailed view.
 
@@ -26,16 +26,16 @@ Insights does not display read information about every email that you send. Plea
 
 #### Requirement: qualifying messages
 
-Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender, has a cloud mailbox, and has not opted out of Insights.
+Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients.
 
 #### Exceptions to qualifying messages
 
 Insights does not report about email messages in the following categories:
 
  * Email that was sent from a shared mailbox
- * Email that was sent to a mailbox that was configured for email forwarding. (Recipients of forwarded email are not included in the count of qualifying recipients.)
  * Email that was sent more than 14 days ago.
  * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
+ * Emails sent to modern groups. (If users are following the modern group, they are included in the count.)
 
 #### Open rate
 

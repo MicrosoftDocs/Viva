@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Add top collaborators in MyAnalytics
 description: Use this card to add a "top collaborator" to your Important people list in MyAnalytics 
 author: paul9955
