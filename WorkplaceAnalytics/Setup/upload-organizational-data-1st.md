@@ -156,11 +156,11 @@ After you complete the steps in [Field mapping](#field-mapping), the organizatio
 
 The file is uploading:
 
-   ![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
+![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
 
 After the file has successfully uploaded, file validation starts: 
 
-   ![Validating now](../images/wpa/setup/validation-full-screen.png)
+![Validating now](../images/wpa/setup/validation-full-screen.png)
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
 
