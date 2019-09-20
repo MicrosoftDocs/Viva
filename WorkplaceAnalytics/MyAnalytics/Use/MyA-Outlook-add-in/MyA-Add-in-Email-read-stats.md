@@ -14,7 +14,7 @@ ms.prod: mya
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../../overview/plans-environments.md) for details._
 
-Insights can tell you how many people have opened your emails and the average time they spent reading those emails. In general, it informs you about emails that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
+Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
 After you send an email message, it can take up to thirty minutes before Insights informs you about it. If the email is sent from a delegated mailbox, the delegate can see the read statistics.
 
@@ -35,15 +35,15 @@ Insights does not report about email messages in the following categories:
  * Email that was sent from a shared mailbox
  * Email that was sent more than 14 days ago.
  * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
- * Emails sent to modern groups. (If users are following the modern group, they are included in the count.)
+ * Email sent to modern groups. (If users are following the modern group, they are included in the count.)
 
 #### Open rate
 
-The Insights add-in reports the open rate of qualifying emails that you have sent, as shown in the following table. Note the following:
+The Insights add-in reports the open rate of qualifying email that you have sent, as shown in the following table. Note the following:
 
-* For open rates lower than the minimum threshold, the threshold value itself is reported. Example: If an email with 10 recipients has an actual open rate of 20%, Insights displays the open rate as _&lt; 25%_. 
-* If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported. 
-* For open rates higher than the maximum threshold, the threshold value itself is reported. Example: If 100% of the recipients of an email open it, the value shown in the table for "Maximum" is displayed; for example: _&gt; 95%_. 
+* For open rates lower than the minimum threshold, the threshold value itself is reported. Example: If an email with 10 recipients has an actual open rate of 20%, Insights displays the open rate as _&lt; 25%_.
+* If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
+* For open rates higher than the maximum threshold, the threshold value itself is reported. Example: If 100% of the recipients of an email open it, the value shown in the table for "Maximum" is displayed; for example: _&gt; 95%_.
 
    | Number of recipients | Open rate reported |
    | ------- | ------ |
@@ -51,7 +51,7 @@ The Insights add-in reports the open rate of qualifying emails that you have sen
    | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
    | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
-MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md). 
+MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md).
 
 
 
