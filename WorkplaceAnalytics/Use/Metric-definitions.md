@@ -62,8 +62,8 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Open 2 hour blocks |Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Peer average (customer collaboration) | The total amount (in hours) of customer collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
 |Peer average (internal collaboration) | The total amount (in hours) of internal collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
-|Redundant meeting hours (organizational) |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating *Low quality meeting hours*.  |Person|Hour|Yes|
 |Redundant meeting hours (lower level) |Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting. <br> <br> This metric is _not_ used in calculating *Low-quality meeting hours*. Analysts can use this metric only when creating [Person queries](../tutorials/person-queries.md).|Person | Hour| Yes |
+|Redundant meeting hours (organizational) |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating *Low quality meeting hours*.  |Person|Hour|Yes|
 |Time in self-organized meetings|Number of hours spent in meetings organized by the person with at least one other person.|Person|Hour|Yes|
 |Total calls | Total number of calls the person initiated, through Teams, including scheduled and impromptu calls during and outside of working hours (as set in Outlook). | Person| Count | Yes |
 |Total email sent during meeting | Number of emails the person sent during meetings. |Person|Count|Yes|
