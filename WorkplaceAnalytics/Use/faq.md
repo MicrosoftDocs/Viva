@@ -75,7 +75,7 @@ A1. An upload can fail if the data has invalid values, is missing required data,
 
 ##### Q2. What format do I save the data upload file as?
 
-A2. You must save the data upload file as a CSV UTF-8 file format in Excel before the upload. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/en-us/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
+A2. You must save the data upload file as a CSV UTF-8 file format in Excel before the upload. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
 
    ![CSV UTF-8 file](../Images/WpA/Use/csv-utf-8.png)
 
@@ -238,6 +238,10 @@ A3. You can use the Collaboration hours metric to filter for a specific time fra
 
 A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-##### Q5. An executive assistant can organize meetings on behalf of a leader. In Workplace Analytics calculations, do such meetings count as organized by the _leader_ or by the _executive assistant_?   
+##### Q5. An executive assistant can organize meetings on behalf of a leader. In Workplace Analytics calculations, do such meetings count as organized by the _leader_ or by the _executive assistant_?
 
-A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant. For example, if the executive assistant organizes a 1:1 meeting, Workplace Analytics counts it as a two-person meeting that includes only the leader and the invitee. 
+A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant. For example, if the executive assistant organizes a 1:1 meeting, Workplace Analytics counts it as a two-person meeting that includes only the leader and the invitee.
+
+##### Q6. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
+
+A6. You probably opened the .csv file as is. For Excel to show the data correctly, you need to *import* the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](./view-download-and-export-query-results.md#download-and-import-a-query). For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file.

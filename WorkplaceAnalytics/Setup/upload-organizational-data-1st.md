@@ -8,7 +8,7 @@ author: paul9955
 ms.author: v-pascha
 ms.topic: article
 localization_priority: normal 
-ms.prod: wpa 
+ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
@@ -152,9 +152,9 @@ The upload of the .csv file starts the validation process.
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated. A notification displays the status of these actions.
+After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _We are validating your upload_ message.
 
-The file is uploading:
+   ![Validating the uploaded data](../images/wpa/setup/onboarding-validation-in-progress.png)
 
 ![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
 
@@ -174,7 +174,7 @@ After this phase completes, the file has either passed or failed validation. Go 
 
 ## Validation succeeds
 
-If validation succeeds, in the **Validation results** section, the page displays the _Succeeded_ notification, which reports information about the data that was successfully uploaded and validated: 
+If validation succeeds, in the **Validation results** section, the page displays the _Succeeded_ notification, which reports information about the data that was successfully uploaded and validated:
 
 ![Validation succeeded](../images/wpa/setup/4-orgd-reprocess.png)
 

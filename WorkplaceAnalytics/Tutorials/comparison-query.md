@@ -2,38 +2,36 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,NOFOLLOW
-title: Comparison queries
-description: Comparison queries -- what they are, how to create them, how to run them  
+title: Peer comparison queries
+description: Peer comparison queries -- what they are, how to create them, how to run them  
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Comparison queries 
+# Peer comparison queries 
 
-A Workplace Analytics comparison query helps you analyze the workplace collaboration behavior of selected individuals by comparing it with the collaboration behavior of one or more of those individuals' peer groups.
+A Workplace Analytics peer comparison query helps you analyze the workplace collaboration behavior of selected individuals by comparing it with the collaboration behavior of one or more of those individuals' peer groups.
 
-You use a comparison query to identify people who compare in particular ways against other people. As you build the query, you identify the individuals of interest, the groups to compare them with, the comparison metrics, and a period of time for which to query data. Note that while you are querying about individuals, they are not identified in the output; results show only PersonIds. 
+You use a peer comparison query to identify people who compare in particular ways against other people. As you build the query, you identify the individuals of interest, the groups to compare them with, the comparison metrics, and a period of time for which to query data. Note that while you are querying about individuals, they are not identified in the output; results show only PersonIds. 
 
-Although comparison queries focus on people, they produce different information than person queries. Use a person query to understand the relationship between a person’s organizational attributes&mdash;such as their team, level, or location&mdash;and how they use their time, or when you want to know how one aspect of their on-the-job time allocation might influence other aspects of their time allocation. Use a comparison query to compare the person’s collaboration behavior with that behavior in the person’s peer groups. 
+Although peer comparison queries focus on people, they produce different information than person queries. Use a person query to understand the relationship between a person’s organizational attributes&mdash;such as their team, level, or location&mdash;and how they use their time, or when you want to know how one aspect of their on-the-job time allocation might influence other aspects of their time allocation. Use a peer comparison query to compare the person's collaboration behavior with that behavior in the person's peer groups. 
 
-## Create a Comparison query
+## Create a Peer comparison query
 
 **Role:** analyst  
 
-**To create a comparison query**
+**To create a peer comparison query**
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, sign in with your work account.
 
 2.	In the left navigation pane, expand **Analyze** and then select **Queries**.
 
-3.	On the Queries page, under **Start custom query**, select **Comparison**. This opens the **Comparison query** page:
+3.	On the **Queries** page, under **Start custom query**, select **Peer comparison**. This opens the **Peer Comparison query** page:
 
-    ![Comparison query page](../images/wpa/tutorials/comp-query-page-2.png)
+    ![Peer comparison query page](../images/wpa/tutorials/comp-query-page-3.png)
  
 4.	Name the query and, optionally, add a description for it.
 
@@ -57,11 +55,11 @@ Although comparison queries focus on people, they produce different information 
  
 ## Concepts  
 
-The following sections provide information that can help you as you create a comparison query. 
+The following sections provide information that can help you as you create a peer comparison query. 
 
 ### Select employees
 
-The purpose of a comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization,  others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you're comparing them with&mdash;in the **Select peer groups** step.)
+The purpose of a peer comparison query is to bring aspects of particular employees' workplace behavior into focus by comparing them with others in the organization,  others in one of their peer groups. In the **Select employees** step, you select these people. (You will also select the other people&mdash;the ones you're comparing them with&mdash;in the **Select peer groups** step.)
 
 To select the people you’re querying about, filter them by their HR attributes, such as the following:
 
@@ -76,7 +74,7 @@ You can select organizations in other ways. For example, in the following illust
   
 You could also select by geography&mdash;for example, by designating the Chicago office&mdash;if geographic attributes were uploaded in the organizational data. 
 
-Even though the filtering that you perform in the **Select employees** step provides you with multiple people, you are not selecting a group. Rather, you are selecting a list of individuals. When the query runs, a peer group is constructed for each individual in the list, and then, comparison is made for each individual in the list, and finally, results appear for each individual in the list. 
+Even though the filtering that you perform in the **Select employees** step provides you with multiple people, you are not selecting a group. Rather, you are selecting a list of individuals. When the query runs, a peer group is constructed for each individual in the list, and then, a comparison is made for each individual in the list, and finally, results appear for each individual in the list. 
 
 The fact that you have selected multiple individuals has no bearing on how the query runs, other than to provide you with similar information about those individuals, reported on multiple rows in the output file, one row for each person for each aggregation period (day, week, or month) whose HR attributes matched your filter parameters. 
 
