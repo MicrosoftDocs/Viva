@@ -2,11 +2,11 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Unread emails in MyAnalytics
 description: What to do in MyAnalytics about unread emails
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
