@@ -81,13 +81,13 @@ The Power BI Workplace Analytics Connector is a Power BI Desktop connector for M
 To make this connection, you first need to download Power BI desktop. Follow these steps:
 
 1. Open the [PowerBI Desktop site](https://powerbi.microsoft.com/desktop/). 
-2. Select **Download free**. If a dialog box asks you "Open Microsoft Store?", select **Open Microsoft Store**.
-3. In the Microsoft Store app, select **Get**. Power BI then is downloaded to your device and installed automatically. 
+2. Select **Download free**. If a dialog box asks "Open Microsoft Store?", select **Open Microsoft Store**.
+3. In the Microsoft Store app, select **Get**. Power BI is then downloaded to your device and automatically installed. 
 4. Select **Launch**. Power BI opens. 
 
 ##### Partition access
 
-Partitions in Workplace Analytics allow access to data. To import metrics and attributes into Power BI, you will need access to the partition in Workplace Analytics that contains these metrics and attributes. (A step in the following procedure has you sign in to your work account to gain access to that partition.) For more information, see [Role-based Authorization in Kusto](https://docs.microsoft.com/en-us/azure/kusto/management/access-control/role-based-authorization). 
+Partitions in Workplace Analytics allow access to data. To import metrics and attributes into Power BI, you will need access to the partition in Workplace Analytics that contains these metrics and attributes. (To gain access to that partition, steps in the following procedure have you sign in to your organizational account and select the partition ID.) For more information, see [Role-based Authorization in Kusto](https://docs.microsoft.com/en-us/azure/kusto/management/access-control/role-based-authorization). 
 
 #### Use the connector
 
@@ -97,25 +97,33 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 2.	Select **Online Services** and then select **Workplace Analytics**:
 
-    ![Get Data button](../images/wpa/use/copy-link.png)
+    ![Get Data button](../images/wpa/use/get_data_screen.png)
 
 3.	Enter the Workplace Analytics partition ID:
 
-    ![Get Data button](../images/wpa/use/copy-link.png)
+    ![Enter partition ID](../images/wpa/use/connect_to_wpa.png)
 
 4.	Select the Data Connectivity mode you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
+
+    ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa.png)
+
+5.  Select **OK**.    
  
-5.	If prompted, sign in to your work account:
+6.	You might be prompted that "you aren't signed in":
 
-    ![Get Data button](../images/wpa/use/copy-link.png)
+    ![Not signed in](../images/wpa/use/wpa_select_authentication.png)
 
-6.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section:
+7.  If you are not signed in, select **Sign in** and then provide your Office 365 credentials:
 
-    ![Get Data button](../images/wpa/use/copy-link.png)
+    ![Sign in](../images/wpa/use/login-to-o365.png)
 
-   In Power BI, you can now create visualizations using those fields.
+8.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section:
 
-7.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
+    ![Metrics](../images/wpa/use/post_login_schema.png)
+
+    In Power BI, you can now create visualizations using those fields.
+
+9.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
 
 ## Related topics
 
