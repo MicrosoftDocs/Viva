@@ -28,7 +28,6 @@ ms.prod: wpa
 * Microsoft might require you to provide appropriate access and permissions to perform data-science service activities.
 
 
-
 ## End state
 
 * Data insight and analysis are provided either through PowerBI or within the Azure environment. 

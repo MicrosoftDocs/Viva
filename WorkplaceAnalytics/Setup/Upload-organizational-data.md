@@ -8,7 +8,7 @@ author: paul9955
 ms.author: v-pascha
 ms.topic: article
 localization_priority: normal 
-ms.prod: wpa 
+ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
@@ -19,7 +19,7 @@ audience: Admin
 This article presents the steps that administrators take to upload (import) organizational data to Workplace Analytics. Complete these steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
   > [!Important] 
-  > If this is the first time that you are uploading organizational data to Workplace Analytics, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is **not** the first time that you have uploaded organizational data to Workplace Analytics, you are in the right place: Follow the steps in this article.  
+  > Follow the steps in this section if this is **not** the first time that you have uploaded organizational data to Workplace Analytics. If this **is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
 
 ## Import tasks
 
@@ -142,9 +142,9 @@ After this phase completes, the file has either passed or failed validation. Go 
 ## Validation succeeds
 
 If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After successful validation, Workplace Analytics processes your new data. 
-
-![Validation succeeded](../images/wpa/setup/upload6-validated.png)
  
+<img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
+
 You can select **Settings** > **Organizational data** **Upload** > **Organizational data** to show the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
 On this page, you have the following options:

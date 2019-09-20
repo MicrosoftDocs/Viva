@@ -25,6 +25,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
  - [Deploy the templates](#deployment)
  - [Configure the templates](#configuration-add-users-and-assign-roles)
  - [Process the data](#process-the-data)
+ - [Audit logs](#audit-logs)
 
 ## Security considerations
 
@@ -142,6 +143,10 @@ After adding users, you need to process the Workplace Analytics data that you wa
 3. In the Workplace Analytics Azure Templates app, select **Admin** > **Scenario Execution**, select the **rawdata** folder, and then select **Process data**.
 
    ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
+
+## Audit logs
+
+As an admin, you can audit user activity in **Admin** > **Logs**. Select the **information** (i) icon in the **Message** column to see more details about a specific  activity.
 
 ## Get support
 

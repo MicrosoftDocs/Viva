@@ -19,6 +19,38 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
+## September 2019
+
+The following new template enhancements are now available.
+
+### Process Explorer Azure Template
+
+The following enhancements and features are included in the Process Explorer Azure Template.
+
+* The following new **Admin Classification** options where after you select and save the option in **Admin** > **Configuration**, it'll persist for the life of that scenario:
+  * Surface email subjects and classify email and meetings based on distinct models.
+  * Do not surface email subjects and classify email based on model training exclusively on meeting data.  
+* Improved UX with a new dashboard layout for adding and editing categories, for categorizing meetings and email separately in different dashboards, and for analyzing data.
+* If a dataset fails with the **Status** of a red x, you can use the new **Undo** action to revert to the last successfully saved version of the dataset.
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
+
+### Organizational Network Analysis Azure Template
+
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
+
+* Improved UX for adding new analysis.
+* New date range options for improved data and graph analysis.<!-- * Improved UX for defining analysis and saving subsets of data within the graph view.* New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.-->
+* New **Download metrics** option for the last saved version of the analysis that aligns with the time range, filters, and other values selected.
+* Select the new **Parameters** icon to view the parameter details for a listed dataset.
+
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+
+### Admin logs
+
+As an admin, you can now audit user activity in **Admin** > **Logs**. Select the **information** (i) icon in the **Message** column to see more details about a specific  activity.
+
+
 ## August 2019
 
 The following new template and template enhancements are now available.
@@ -28,16 +60,10 @@ The following new template and template enhancements are now available.
 This release adds a new Process Explorer template that helps you understand where your organization or team is investing or expending valuable time. You can use this template to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob storage location for meeting and email activity.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
-<!-- 
-### Group Analysis Azure Template
 
-This release adds a new Group Analysis Azure template that helps you compare two groups, such as managers and individual contributors, and evaluate the major differences between them.
+### Organizational Network Analysis Azure Template
 
-To learn more, see [Group Analysis Azure Template](./group-analysis.md).
--->
-### Organization Network Analysis Azure Template
-
-The following enhancements and features are included in the Organization Network Analysis (ONA) Azure Template.
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
 
 #### Comparative analysis
 
@@ -55,7 +81,7 @@ You can now analyze cohesion within groups and across groups by density, which i
 
 You can now save a data analysis graph in the template, and then view it as a saved graph later.
 
-To learn more, see [Organization Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
 ## Related topics
 
