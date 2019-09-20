@@ -33,9 +33,11 @@ In addition to seeing basic information about each query, you can view query res
 
 You can use data from your queries in a data-analysis tool to do further analysis and create reports. Workplace Analytics gives you three options to do this:
 
- * [Download and import query results](#download-and-import-query-results) 
- * [Get a link for an OData feed to use in Power BI](#get-a-link-for-an-odata-feed-to-use-in-power-bi)
- * [Connect through the PowerBI-Workplace Analytics connector](#connect-through-the-powerbi-workplace-analytics-connector)
+| Option | Description |
+| ------ | ----------- |
+| [Download and import query results](#download-and-import-query-results) | After a Workplace Analytics query returns results, visualize them in a tool of your choice. |
+| [Get a link for an OData feed to use in Power BI](#get-a-link-for-an-odata-feed-to-use-in-power-bi) | After a Workplace Analytics query returns results, visualize them in Power BI. |
+| [Connect through the PowerBI-Workplace Analytics connector](#connect-through-the-powerbi-workplace-analytics-connector) | Visualize data within Power BI by running aggregated queries on standard person metrics. This option does _not_ start with query results that Workplace Analytics has produced. |
 
 ### Download and import query results
 
@@ -72,7 +74,14 @@ You can use data from your queries in a data-analysis tool to do further analysi
 
 ### Connect through the PowerBI-Workplace Analytics connector
 
-The Power BI Workplace Analytics Connector is a Power BI Desktop connector for Microsoft Workplace Analytics. You can use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules that were configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data. 
+The Power BI Workplace Analytics connector lets you construct visualizations of data from Workplace Analytics while you are running Power BI. Use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules that were configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data.
+
+> [!Note] 
+> The Power BI Workplace Analytics connector does not use results of already-run queries. Instead, it creats Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). 
+
+For example, by using this connector, you can generate, for example, a bar chart that shows an organization-wide analysis of collaboration hours or examines the meeting-hours trend for an entire organization.
+
+![Get Data button](../images/wpa/use/example-pbi-visual.png)
 
 #### Prerequisites
 
