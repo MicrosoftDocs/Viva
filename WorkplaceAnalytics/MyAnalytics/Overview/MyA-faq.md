@@ -14,14 +14,12 @@ ms.prod: mya
 
 # Frequently asked questions for MyAnalytics
 
-> [!Note] 
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
+> [!Note]
+> Productivity insights powered by MyAnalytics are becoming broadly available to all Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
 
-The sets of questions and answers in this topic apply to different sets of readers.
+  * [Privacy](#privacy) applies to everyone
 
-  * The [Privacy](#privacy) section is for everyone.
-
-Two later sections are grouped by role:
+The other sets of questions and answers are grouped by role:
 
    * For [MyAnalytics users](#for-myanalytics-users)
    * For [IT administrators](#for-it-administrators)
@@ -45,6 +43,9 @@ Every calculation that MyAnalytics performs is based on data that you, yourself,
 MyAnalytics does not have any tracking software running on your computer.
 
 #### Q3. What data does MyAnalytics use?
+
+> [!Note]
+> MyAnalytics processes the data as described in the [Privacy Guide](privacy-guide.md).
 
 **MyAnalytics uses:**
 
@@ -73,8 +74,7 @@ MyAnalytics does not have any tracking software running on your computer.
 
 **MyAnalytics does not use:**
 
- * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.  
-
+Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
 ## For MyAnalytics users
 
@@ -94,7 +94,7 @@ If you block out your calendar for personal work by using an appointment (see [C
 
 #### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more information, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
 #### Q2. Can I change my settings to make time outside of work more accurate?
 
@@ -105,19 +105,19 @@ Yes. You can change your time zone and your working time in your [Outlook settin
 Try the following to troubleshoot your focus-time totals:
 
 1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).)
-2. For more information about focus time, see [Focus](../Use/focus.md).  
+2. For more details about focus time, see [Focus](../Use/focus.md).  
 
 #### Q4. How do I tell MyAnalytics that I am on vacation?
 
-If you plan to go on vacation, create a calendar event that includes the days of your vacation and set its status to **Out of Office**. This causes your focus time and meeting time to both count as zero during your vacation.  
+If you plan to go on vacation (or on holiday), create an Outlook calendar event that includes the days of your vacation and set the status to **Out of Office**. MyAnalytics will count zero focus and meeting hours for you while you're away.
 
 ### Opt out
 
 #### Q1. Can I opt out of MyAnalytics? And if I do (or if an admin opts me out), can I opt back in later?
 
-Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want. 
+Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want.
 
-See the following sections for more information:
+See the following for details:
 
 ##### Opt out of all of MyAnalytics
 
@@ -130,9 +130,13 @@ See the following sections for more information:
  * [Remove Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
-#### Q2. Why can I not see the MyAnalytics dashboard to opt-out?
+#### Q2. Why can't I see the MyAnalytics dashboard?
 
-To opt out, you use the MyAnalytics dashboard. The dashboard is available only if your organization has a _qualifying plan_. (All of the plans listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features) are qualifying plans.) If an organization has no _qualifying plan_, its members see no elements of MyAnalytics and their data is not processed. 
+The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
+
+#### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics]( http://myanalytics.microsoft.com) and turn MyAnalytics on?
+
+Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that stat in the read percentage that's shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
 
 ### Insights Outlook add-in
 
@@ -144,7 +148,7 @@ The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook a
 
 MyAnalytics does not use data from shared or secondary mailboxes.
 
-#### Q3. Why are my email read statistics not available?
+#### Q3. Why are read statistics not available for some of my email?
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
 
@@ -152,21 +156,22 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 #### Q1. How do I manage the MyAnalytics experience for users?
 
-You can manage the experience in two ways: 
- * Turn on or off particular MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level). 
- * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level). 
+You can manage the experience in two ways:
 
-#### Q2. Where is user data stored?
+* Turn on or off specific MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
+* Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
 
-User metrics data is stored in users' mailboxes.
+#### Q2. Where and for how long is user data stored?
 
-#### Q3. How long does it take for the personal dashboard to become available?
+User metrics data is stored in users' mailboxes. Depending on the scenario, most data is stored for 180 days and some is stored for up to two years.
 
-The personal dashboard is available to MyAnalytics users as soon as they receive their [welcome email](../Use/MyA-Welcome-email.md). This happens up to four weeks after licenses with the MyAnalytics service plan are assigned to the participants. For more information, see [Assign licenses with the MyAnalytics service plan](../setup/configure-myanalytics.md#assign-licenses-with-the-myanalytics-service-plan).
+#### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
 
-#### Q4. When the dashboard is activated, does it show any historical data or does it start 'from scratch'?
+The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements).
 
-Upon activation, MyAnalytics processes historical data for 80 days before the date of activation. No data from before this 80-day limit is displayed in the dashboard.
+#### Q4. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
+
+After activation, MyAnalytics processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, MyAnalytics processes historical data for the previous 12 months.
 
 #### Q5. Will MyAnalytics work for shared mailboxes?
 
@@ -180,14 +185,45 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
 
-#### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" plan?
+#### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
 
- * The dashboard button will not appear until the dashboard becomes available to E3/E1 users, to take place later in 2019.
- * The cards that show email read statistics are not available. This capability is available to E5 users only.
+The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are not currently available with the *Insights by MyAnalytics* service plan.
 
    > [!Note]
-   > All MyAnalytics features are available to users who have the MyAnalytics (full) plan.
+   > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
 
-#### Q9. How can I confirm that the Insights Outlook add-in is installed?
+#### Q9. Why can't licensed users see one or more of the MyAnalytics elements?
+
+* Check [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
+* Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) for more details:
+
+   ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```
+
+#### Q10. How can I pilot MyAnalytics to a subset of users?
+
+Turn on the “Insights by MyAnalytics” OR “MyAnalytics (Full)” service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+
+#### Q11. How can I confirm that the Insights Outlook add-in is installed?
 
 See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
+
+#### Q12. Can I ask that MyAnalytics user data be deleted and not stored?
+
+Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide.md#gdpr-compliance).
+
+   > [!Note]
+   > If a person opts out of using MyAnalytics, it doesn't delete that person's MyAnalytics data.
+
+#### Q13. Can Microsoft personnel access a person's MyAnalytics data?
+
+The same rules apply as with Microsoft Office 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
+
+#### Q14. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
+
+No. MyAnalytics does not support auditing.
+
+#### Q15. What browsers can I use with MyAnalytics and the Insights Outlook Add-in?
+
+See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the MyAnalytics dashboard supports.
+
+As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
