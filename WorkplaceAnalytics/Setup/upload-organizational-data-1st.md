@@ -152,15 +152,13 @@ The upload of the .csv file starts the validation process.
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _We are validating your upload_ message.
-
-   ![Validating the uploaded data](../images/wpa/setup/onboarding-validation-in-progress.png)
+After you complete the steps in [Field mapping](#field-mapping), the **Upload** page shows the following message:
 
 ![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
 
 After the file has successfully uploaded, file validation starts: 
 
-![Validating now](../images/wpa/setup/validation-full-screen.png)
+![Validating now](../images/wpa/setup/validation-full-screen.png) 
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
 
