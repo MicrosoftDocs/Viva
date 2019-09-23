@@ -6,7 +6,6 @@ title: Workplace Analytics setup
 description: How to set up and configure Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/04/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -66,7 +65,7 @@ This article describes the steps that are required to set up and configure Workp
 
     a. **Map data** - Map the uploaded data to Workplace Analytics field names. For more information, see [Field mapping](upload-organizational-data-1st.md#field-mapping). 
 
-    b. **Data validation** - Workplace Analytics validates the upload and then notifies you whether your uploaded data validated. If it did not, you are advised what further action you can take. For more information, see [Data validation](Upload-organizational-data.md#data-validation). 
+    b. **Data validation** - Workplace Analytics validates the upload and then notifies you whether your uploaded data validated. If it did not, you are advised what further action you can take. For more information, see [Data validation](upload-organizational-data-1st.md#data-validation). 
 
     c. **Data processing** - Workplace Analytics processes the validated data. 
 
