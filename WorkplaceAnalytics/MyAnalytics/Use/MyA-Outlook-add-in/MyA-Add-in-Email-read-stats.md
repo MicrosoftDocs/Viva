@@ -16,7 +16,7 @@ _**Applies to:** MyAnalytics elements are available in varying levels to users o
 
 Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
-After you send an email message, it can take up to thirty minutes before Insights informs you about it. If the email is sent from a delegated mailbox, the delegate can see the read statistics.
+After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
 
 Insights shows the open rate for the sent email that is open in Outlook. It also groups open rate information for qualifying sent items into a single summary card that you can select and expand to see a more detailed view.
 
@@ -39,11 +39,11 @@ Insights does not report about email messages in the following categories:
 
 #### Open rate
 
-The Insights add-in reports the open rate of qualifying email that you have sent, as shown in the following table. Note the following:
+The Insights add-in reports the open rate within 30 minutes of when qualifying email was sent by you, as shown in the following table. Note the following:
 
-* For open rates lower than the minimum threshold, the threshold value itself is reported. Example: If an email with 10 recipients has an actual open rate of 20%, Insights displays the open rate as _&lt; 25%_.
+* For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as _&lt; 25%_.
 * If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
-* For open rates higher than the maximum threshold, the threshold value itself is reported. Example: If 100% of the recipients of an email open it, the value shown in the table for "Maximum" is displayed; for example: _&gt; 95%_.
+* For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the email recipients open the email, the maximum value in the table will be _&gt; 95%_.
 
    | Number of recipients | Open rate reported |
    | ------- | ------ |
@@ -52,8 +52,6 @@ The Insights add-in reports the open rate of qualifying email that you have sent
    | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
 MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../../Overview/privacy-guide.md).
-
-
 
 <!-- HERE'S A CLEARER TABLE BUT THEY WANTED A SHORTER TABLE
 <table>
