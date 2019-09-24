@@ -6,7 +6,6 @@ title: MyAnalytics Collaboration page
 description: Learn how to use MyAnalytics to improve your collaboration at work
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -55,7 +54,7 @@ Each email you send is assigned 5 minutes. Each email you open is assigned 2.5 m
 * If you send one email and then open or send another one within 5 minutes, the time between the two actions gets assigned to the first email.
 * If you open one email and then open or send another one within 2.5 minutes, the time between the two actions gets assigned to the first email.
 
-Also, the time you spend sending or reading email outside your set work hours (as defined by your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance)) will affect your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
+Also, the time you spend sending or reading email outside your set work hours (as defined by your [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance)) will affect your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
 
 ### Chats and calls
 
