@@ -30,11 +30,11 @@ A partition defines what data you work with in Workplace Analytics. If you have 
 For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople on the **Explore** pages and create queries about salespeople on the **Queries** page. 
 
 > [!Note] 
-> Analysts (and limited analysts) are not the only Workplace Analytics users who use partitions. Program managers (PMs) who work in [solutions](../tutorials/solutionsv2-intro) must also be granted explicit access to a partition, after which they can create and view solution [plans](../tutorials/solutionsv2-task#create-a-plan) only in that partition.
+> Analysts (and limited analysts) are not the only Workplace Analytics users who use partitions. Program managers (PMs) who work in [solutions](../tutorials/solutionsv2-intro.md) must also be granted explicit access to a partition, after which they can create and view solution [plans](../tutorials/solutionsv2-task.md#create-a-plan) only in that partition.
 
 ## The Global partition
 
-One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [Create a partition](#create-a-partition) for more information about assigning analysts to a partition. 
+One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [To create a partition](#to-create-a-partition) for more information about assigning analysts to a partition. 
 
 > [!Note] 
 > For existing users, as part of one-time migration in 2019, all existing analysts and their existing queries and settings are being moved to the Global partition. 
