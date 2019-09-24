@@ -80,21 +80,29 @@ To administer partitions, see the following sections:
 
 ### To create a partition
 
-Workplace Analytics admins create partitions on the **Settings** page. One aspect of this task is assigning partitions to analysts. As you, the admin, create a partition, you can assign the partition to one or more analysts.
+Workplace Analytics admins create partitions on the **Settings** page. This procedure consists of four sub-tasks:
+
+| Sub-task | Step | Notes | 
+| -------- | ---- | ----------- |
+| Name the partition | 4 | Also, optionally, type a description |
+| Create filters  | 5 | Select the employees whose data the partition will contain |
+| Set attributes  | 6, 7 | Select organizational-data attributes to include in the partition |
+| Give access |  8  | Select one or more analysts who will have access to this partition | 
 
 > [!Important] 
 > Plan your partitions carefully before you start to create them. Note the fact that an organization can have a maximum of five partitions. (The Global partition does _not_ count toward this total.)
 
 1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
 2.	Open the **Settings** page and select **Access control**.
-3.	In the **Partition-based access control** area, select **Create partition**:
+3.	In the **Partition-based access control** area, select **New partition**:
 
-    ![Admin settings](../images/wpa/setup/access-control-page-2.png)
+    ![Admin settings](../images/wpa/setup/access-control-page.png)
  
 4.	On the **Access control > New partition** page, type the name of the new partition and optionally type a description. 
-5.	**Define filters.** Under **Filters**, add one or more filters to define the data that will fall within the partition that you are creating:
 
-    ![New partition](../images/wpa/setup/new-partition.png)
+5.	**Create filters.** Under **Select employees for partition**, add one or more filters to define the employee data that will fall within the new partition:
+
+    ![New partition](../images/wpa/setup/create-partitions-filters.png)
  
     > [!Note] 
     > You can filter by only one attribute. For example, if you create a filter that uses the Organization attribute, you could produce the following filter clauses:  
@@ -105,15 +113,16 @@ Workplace Analytics admins create partitions on the **Settings** page. One aspec
     > But you cannot add another clause that uses a different attribute, such as:
     >   * Domain + Equals + <domain_name> 
 
-6.	**Select analysts**. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in Workplace Analytics.    
+6. **Select attributes**. Select which attributes from the organizational data to include in the partition. To exclude an attribute from the partition, leave it unselected. 
  
-    ![Select analysts](../images/wpa/setup/analysts.png)
- 
-7.	**Select attributes**. Select which attributes from the organizational data to include in the partition. To exclude an attribute from the partition, leave it unselected. 
- 
-8.	**Select visibility of attributes**. You might want one or more attributes to not be visible to analysts who work in this partition. For example, "sales quota" might be a sensitive attribute that nevertheless has been uploaded in the organizational data. To hide the "sales quota" attribute, select it and then set its **Visibility** to **Hash in report**. 
+7.	**Select visibility of attributes**. You might want one or more attributes to not be visible to analysts who work in this partition. For example, "sales quota" might be a sensitive attribute that nevertheless has been uploaded in the organizational data. To hide the "sales quota" attribute, select it and then set its **Visibility** to **Hash in report**. 
 
-    ![Select visibility](../images/wpa/setup/select-visibility.png)
+    ![Select visibility](../images/wpa/setup/create-partitions-attributes.png)
+
+8.	**Give access**. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in Workplace Analytics.    
+ 
+    ![Select analysts](../images/wpa/setup/create-partitions-access.png)
+
 
 ### To edit a partition
 
@@ -122,9 +131,18 @@ Workplace Analytics admins create partitions on the **Settings** page. One aspec
 3.	In the **Partition-based access control** area, locate the partition that you want to edit.
 4. Select the ellipsis (...) in that partition's row and then select **Edit partition**:
 
-    ![Admin settings](../images/wpa/setup/part-based-access-control-edit.png)
+    ![Edit partition](../images/wpa/setup/part-based-access-control-edit.png)
 
+5. Edit any of the aspects of the partition that you edited as you created the partition: 
+   * Edit filters to change the employees whose data you want to include.
+   * Select different attributes to include in the partition. 
+   * Select different analysts who will have access to this partition. 
 
+6. Review and select impact on the current analyses. You perform this step because of the effects that changing a partition can have on existing analyses. Because the edited partition likely contains different data, any analyses or queries (and their results) that were produced on the original partition will no longer be valid. You can now choose to delete those invalid query results or retain them:
+
+    ![Review impact](../images/wpa/setup/edit-partition-review-impact.png)
+
+   After you select **Retain all existing analyses** or **Delete query results**, confirm that the current settings are correct and select **Save**. 
 
 ### To delete a partition
 
