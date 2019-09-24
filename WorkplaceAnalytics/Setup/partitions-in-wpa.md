@@ -138,7 +138,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
    * Select different attributes to include in the partition. 
    * Select different analysts who will have access to this partition. 
 
-6. Review and select impact on the current analyses. You perform this step because of the effects that changing a partition can have on existing analyses. Because the edited partition likely contains different data, any analyses or queries (and their results) that were produced on the original partition will no longer be valid. You can now choose to delete those invalid query results or retain them:
+6. Review and select impact on the current analyses. You perform this step because of the effects that changing a partition can have on existing analyses. Because the edited partition likely contains different data, any analyses or queries (and their results) that were produced on the original partition will no longer be valid. You can now choose to delete those invalid query results or to retain them:
 
     ![Review impact](../images/wpa/setup/edit-partition-review-impact.png)
 
