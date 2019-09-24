@@ -98,13 +98,13 @@ If you block out your calendar for personal work by using an appointment (see [C
 
 #### Q2. Can I change my settings to make time outside of work more accurate?
 
-Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
+Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
 #### Q3. Why does my focus time seem incorrect or inaccurate?
 
 Try the following to troubleshoot your focus-time totals:
 
-1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).)
+1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).)
 2. For more details about focus time, see [Focus](../Use/focus.md).  
 
 #### Q4. How do I tell MyAnalytics that I am on vacation?
