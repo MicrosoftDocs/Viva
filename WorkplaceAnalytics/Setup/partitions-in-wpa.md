@@ -45,7 +45,7 @@ If you are an analyst, you must have a partition selected to be able to go to th
 
 ### To use a partition
 
-* **Roles**: analyst, PM
+* **Roles**: analyst, PM, admin
 
 1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition." 
  
@@ -66,7 +66,7 @@ If you are an analyst, you must have a partition selected to be able to go to th
 
     * **Both PM and analyst:** If you have both the PM role and an analyst role, the data you see depends on the page that you open. Solutions are accessible only in the Global partition. A person with both the PM and analyst roles can access solutions in Global partition and access the **Explore** and **Queries** pages in other partitions that they have been granted. 
     * **PM only:** PMs do not need to select a partition because they automatically use Global partition. If you’re a PM, go to the **Solution** page. 
-    * **Not an analyst or program manager:** If you’re signed in to Workplace Analytics and you do not have an analyst or PM role, you are an admin and partition doesn’t affect you. Go to the **Settings** page. 
+    * **Not an analyst or program manager:** If you’re signed in to Workplace Analytics and you do not have an analyst or PM role, you are an admin and partition doesn't affect you. Go to the **Settings** page. 
 
 ## Create, edit, and delete partitions
 
