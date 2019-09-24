@@ -7,7 +7,6 @@ title: Partitions in Workplace Analytics
 description: Description of partitions plus how to use and set up partitions in Workplace Analytics 
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/25/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -30,6 +29,9 @@ A partition defines what data you work with in Workplace Analytics. If you have 
 
 For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople on the **Explore** pages and create queries about salespeople on the **Queries** page. 
 
+> [!Note] 
+> Analysts (and limited analysts) are not the only Workplace Analytics users who use partitions. Program managers (PMs) who work in [solutions](../tutorials/solutionsv2-intro) must also be granted explicit access to a partition, after which they can create and view solution [plans](../tutorials/solutionsv2-task#create-a-plan) only in that partition.
+
 ## The Global partition
 
 One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [Create a partition](#create-a-partition) for more information about assigning analysts to a partition. 
@@ -37,11 +39,13 @@ One particular partition encompasses everyone’s data: the "Global" partition. 
 > [!Note] 
 > For existing users, as part of one-time migration in 2019, all existing analysts and their existing queries and settings are being moved to the Global partition. 
 
-## Use a partition
+## Use partitions
 
 If you are an analyst, you must have a partition selected to be able to go to the **Explore** or **Queries** pages. If you are a PM, you work in the Global partition by default and you can go right to the **Solution** page to manage programs. If you are an admin, you create partitions, but you do not work within one. 
 
 ### To use a partition
+
+* **Roles**: analyst, PM
 
 1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition." 
  
@@ -64,16 +68,22 @@ If you are an analyst, you must have a partition selected to be able to go to th
     * **PM only:** PMs do not need to select a partition because they automatically use Global partition. If you’re a PM, go to the **Solution** page. 
     * **Not an analyst or program manager:** If you’re signed in to Workplace Analytics and you do not have an analyst or PM role, you are an admin and partition doesn’t affect you. Go to the **Settings** page. 
 
-## Create a partition
+## Create, edit, and delete partitions
 
-Workplace Analytics admins create partitions on the Settings page. One aspect of this task is assigning partitions to analysts. As you, the admin, create a partition, you can assign the partition to one or more analysts.
+* **Role**: admin
 
-> [!Important] 
-> Plan your partitions carefully before you start to create them. Note the following:
->  * **No more than five partitions.** An organization can have a maximum of five partitions. (The Global partition does _not_ count toward this total.)
->  * **Partitions are not editable.** After you create a partition, the partition cannot be edited. 
+To administer partitions, see the following sections: 
+
+ * [To create a partition](#to-create-a-partition)
+ * [To edit a partition](#to-edit-a-partition)
+ * [To delete a partition](#to-delete-a-partition)
 
 ### To create a partition
+
+Workplace Analytics admins create partitions on the **Settings** page. One aspect of this task is assigning partitions to analysts. As you, the admin, create a partition, you can assign the partition to one or more analysts.
+
+> [!Important] 
+> Plan your partitions carefully before you start to create them. Note the fact that an organization can have a maximum of five partitions. (The Global partition does _not_ count toward this total.)
 
 1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
 2.	Open the **Settings** page and select **Access control**.
@@ -104,6 +114,17 @@ Workplace Analytics admins create partitions on the Settings page. One aspect of
 8.	**Select visibility of attributes**. You might want one or more attributes to not be visible to analysts who work in this partition. For example, "sales quota" might be a sensitive attribute that nevertheless has been uploaded in the organizational data. To hide the "sales quota" attribute, select it and then set its **Visibility** to **Hash in report**. 
 
     ![Select visibility](../images/wpa/setup/select-visibility.png)
+
+### To edit a partition
+
+1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
+2.	Open the **Settings** page and select **Access control**.
+3.	In the **Partition-based access control** area, locate the partition that you want to edit.
+4. Select the ellipsis (...) in that partition's row and then select **Edit partition**:
+
+    ![Admin settings](../images/wpa/setup/part-based-access-control-edit.png)
+
+
 
 ### To delete a partition
 
@@ -144,8 +165,9 @@ In the lower half of this page, Workplace Analytics identifies the columns that 
 
 In the case of an error such as this, the admin cannot proceed with the current data upload. The admin has these choices:
 
- * Start over by selecting **Back**, and then attempt organizational-data upload with data that has a different schema.
- * [Delete the affected partition](#to-delete-a-partition) (or partitions) and then try again to upload the .csv file that caused the schema violation. 
+* Start over by selecting **Back** and then attempt organizational-data upload with data that has a different schema.
+* [Edit the affected partition](#to-edit-a-partition) (or partitions). Consider deleting from the partition the column that is referred to in the schema and caused the dependency that was violated. After that, try again to upload the .csv file that caused the schema violation. 
+* [Delete the affected partition](#to-delete-a-partition) (or partitions) and then try again to upload the .csv file that caused the schema violation. 
    
    > [!Note] 
    > Schema errors can occur only in user-created partitions. Uploading organizational data does not affect the definition of the Global partition.
