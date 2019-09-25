@@ -147,10 +147,14 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 ### To delete a partition
 
 1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
-2.	Open the **Settings** page and select **Access control**.
-3.	In the **Partition-based access control** area, locate the partition that you want to delete, and then select **Delete** (the trash-can icon) in that partition's row:
 
-    ![Admin settings](../images/wpa/setup/part-based-access-control.png)
+2.	Open the **Settings** page and select **Access control**.
+
+3.	In the **Partition-based access control** area, locate the partition that you want to edit.
+
+4. Select the ellipsis (...) in that partition's row and then select **Delete partition**:
+
+    ![Admin settings](../images/wpa/setup/part-based-access-control-delete.png)
 
    > [!Note] 
    > You cannot delete the Global partition. Only user-created partitions can be deleted.
