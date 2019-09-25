@@ -159,9 +159,23 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
    > [!Note] 
    > You cannot delete the Global partition. Only user-created partitions can be deleted.
 
-## How can I start using partitions?
+## Frequently asked questions
 
-Currently this feature is being rolled out on a per-customer basis. To have the feature enabled, please reach out to your customer solutions contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com). 
+#### Q1. How can I start using partitions?
+
+A1. Currently the partitions feature is being rolled out on a per-customer basis. To have it enabled for your organization, reach out to your customer solutions contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com). 
+
+#### Q2. Why are newly uploaded attributes not being reflected inside non-global partitions?
+
+A2. New attributes are not added automatically. After you upload a new attribute (in an [organizational data upload](../setup/upload-organizational-data.md)), you must explicitly add the attribute to a partition by [editing the partition](#to-edit-a-partition). 
+
+#### Q3. Why am I not able to see admin settings in a partition?
+
+A3. All admin settings are applied to all partitions. For this reason the settings tab is visible only in the [Global partition](#the-global-partition). 
+
+#### Q4. We regularly upload updates to our organizational data. How can these updates affect partitions? 
+
+A4. See the following section, [Partitions and organizational data](#partitions-and-organizational-data).
 
 ## Partitions and organizational data
 
