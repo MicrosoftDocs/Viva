@@ -6,7 +6,6 @@ title: Configure Workplace Analytics system settings
 description: Describes how to configure the system settings for Workplace Analytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -47,7 +46,7 @@ For a complete list of valid times zones, see [Time zones in Workplace Analytics
 
 ### Working days and hours
 
-Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). While there is no option to upload working days or working hours with the organizational data, a Workplace Analytics admin can set default working days and hours for the organization on the System defaults page in Admin settings.
+Users can set their own working days and working hours in their [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance). While there is no option to upload working days or working hours with the organizational data, a Workplace Analytics admin can set default working days and hours for the organization on the System defaults page in Admin settings.
 
 These default settings are only used for users who have not already set up their working days and hours in Outlook.
 
