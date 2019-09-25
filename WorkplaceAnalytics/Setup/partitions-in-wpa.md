@@ -80,7 +80,7 @@ To administer partitions, see the following sections:
 
 ### To create a partition
 
-Workplace Analytics admins create partitions on the **Settings** page. This procedure consists of four sub-tasks:
+Workplace Analytics admins create partitions on the **Settings** page. This procedure consists of four sub-tasks, which you complete at the indicated step in the following procedure:
 
 | Sub-task | Step | Notes | 
 | -------- | ---- | ----------- |
