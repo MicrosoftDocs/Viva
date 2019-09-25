@@ -133,12 +133,12 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 
     ![Edit partition](../images/wpa/setup/part-based-access-control-edit.png)
 
-5. Edit any of the aspects of the partition that you edited as you created the partition: 
+5. Edit any of the aspects of the partition that you specified previously. After you edit one aspect, move to the next one by selecting **Next**: 
    * Edit filters to change the employees whose data you want to include.
    * Select different attributes to include in the partition. 
    * Select different analysts who will have access to this partition. 
 
-6. Review and select impact on the current analyses. You perform this step because of the effects that changing a partition can have on existing analyses. Because the edited partition likely contains different data, any analyses or queries (and their results) that were produced on the original partition will no longer be valid. You can now choose to delete those invalid query results or to retain them:
+6. Review and select impact on the analyses that already exist. You need to perform this step because editing a partition usually changes its data, which renders previously run analyses and queries (and their results) invalid. You can now choose to delete those invalid query results or to retain them:
 
     ![Review impact](../images/wpa/setup/edit-partition-review-impact.png)
 
@@ -167,8 +167,8 @@ Currently this feature is being rolled out on a per-customer basis. To have the 
 
 Partitions depend on organizational data in two ways: 
 
- * Partitions can depend on organizational data columns. As described in step 5 of [To create a partition](#to-create-a-partition), you can define a partition by filtering by organizational data columns. For example, you can define a partition by filtering on an organizational data column called _Country_.
- * As described in step 7 of [To create a partition](#to-create-a-partition), organizational-data attributes can be configured to be included in the partition for analysts to use.
+ * Partitions can depend on organizational data columns. As described in the **Create filters** step of [To create a partition](#to-create-a-partition), you can define a partition by filtering by organizational data columns. For example, you can define a partition by filtering on an organizational data column called _Country_.
+ * As described in the **Select attributes** step of [To create a partition](#to-create-a-partition), organizational-data attributes can be configured to be included in the partition for analysts to use.
 
 Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), uploads new data in a [subsequent upload](upload-organizational-data.md). In step 9 of [upload organizational data](upload-organizational-data.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**. 
 
@@ -188,7 +188,13 @@ In the lower half of this page, Workplace Analytics identifies the columns that 
 In the case of an error such as this, the admin cannot proceed with the current data upload. The admin has these choices:
 
 * Start over by selecting **Back** and then attempt organizational-data upload with data that has a different schema.
-* [Edit the affected partition](#to-edit-a-partition) (or partitions). Consider deleting from the partition the column that is referred to in the schema and caused the dependency that was violated. After that, try again to upload the .csv file that caused the schema violation. 
+
+* [Edit the affected partition](#to-edit-a-partition) (or partitions). Consider removing from the partition the column that is referred to in the schema, the column that caused the dependency that was violated. You can do this by de-selecting the corresponding attribute in the **Organizational data** table on the **Set attributes** page: 
+
+    ![Select visibility](../images/wpa/setup/create-partitions-attributes.png)
+
+  After you remove the column from the partition, try again to upload the .csv file that caused the schema violation. 
+
 * [Delete the affected partition](#to-delete-a-partition) (or partitions) and then try again to upload the .csv file that caused the schema violation. 
    
    > [!Note] 
