@@ -92,7 +92,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 > [!Important] 
 > Plan your partitions carefully before you start to create them. Note the fact that an organization can have a maximum of five partitions. (The Global partition does _not_ count toward this total.)
 
-1.	Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
+1.	Open the Workplace Analytics **Home** page. If prompted, sign in with your work account.  
 2.	Open the **Settings** page and select **Access control**.
 3.	In the **Partition-based access control** area, select **New partition**:
 
