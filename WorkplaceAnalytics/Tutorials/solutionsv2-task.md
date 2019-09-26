@@ -35,13 +35,15 @@ People in the following roles can work on improvement plans in various ways:
 
 To create an example plan, follow these steps:
 
-1. [Start the plan definition](#start-the-plan-definition).
+1. [Define the plan](#define-the-plan).
 
 2. [Select a group](#select-a-group).
 
 3. [Start the plan](#start-the-plan).
 
-### Start the plan definition
+4. [Track the plan](#track-the-plan)
+
+### Define the plan
 
 **Role:** analyst, limited analyst, or program manager
 
@@ -174,7 +176,7 @@ After the selected group validates successfully, you'll see insights about the g
 
 6. Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates that you set for the **Plan duration**. Or select **Save as draft** to finish up or set the plan duration later.
 
-## Track plans
+## Track the plan
 
 **Role:** analyst, limited analyst, or program manager. 
 <!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: (For Group managers, see [Track progress (Group manager role)](#track-progress-group-manager-role)) -->
