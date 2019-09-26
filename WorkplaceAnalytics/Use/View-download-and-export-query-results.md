@@ -77,7 +77,7 @@ You can use data from your queries in a data-analysis tool to do further analysi
 The Power BI Workplace Analytics connector lets you construct visualizations of data from Workplace Analytics while you are running Power BI. Use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules that were configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data.
 
 > [!Note] 
-> The Power BI Workplace Analytics connector does not use results of already-run queries. Instead, it creats Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). 
+> The Power BI Workplace Analytics connector does not use results of already-run queries. Instead, it creats Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). (Aggregated queries include grouping of metrics on one or more columns of organizational-data attributes, with aggregations such as Sum, Average, Min, and Max on the metric columns.)
 
 For example, by using this connector, you can generate, for example, a bar chart that shows an organization-wide analysis of collaboration hours or examines the meeting-hours trend for an entire organization.
 
@@ -104,9 +104,11 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
     ![Get Data button](../images/wpa/use/get-data-in-pbi.png)
 
-2.	Select **Online Services** and then select **Workplace Analytics**:
+2.	Select **Online Services**, select **Workplace Analytics**, and then select **Connect**:
 
     ![Get Data button](../images/wpa/use/get_data_screen.png)
+
+<!-- ANIL WILL GET ME A SCREENSHOT OF THE FEATURE THAT DISPLAYS THE PARTITION ID. USE THAT HERE. -->
 
 3.	Enter the Workplace Analytics partition ID:
 
@@ -118,21 +120,23 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 5.  Select **OK**.    
  
-6.	You might be prompted that "you aren't signed in":
+6.	When you first use the PowerBI-Workplace Analytics connector for a particular partition ID, and later, after your authentication token expires, you will be prompted that "you aren't signed in":
 
     ![Not signed in](../images/wpa/use/wpa_select_authentication.png)
 
-7.  If you are not signed in, select **Sign in** and then provide your Office 365 credentials:
+    When you see this prompt, select **Sign in** and then provide your Office 365 credentials:
 
     ![Sign in](../images/wpa/use/login-to-o365.png)
 
-8.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section:
+<!-- ANIL WILL GET ME A NEW SCREENSHOT FOR THE PRECEDING IMAGE -->
 
-    ![Metrics](../images/wpa/use/post_login_schema.png)
+7.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
+
+    ![Metrics](../images/wpa/use/list-of-metrics-2-col.png)
 
     In Power BI, you can now create visualizations using those fields.
 
-9.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
+8.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
 
 ## Related topics
 
