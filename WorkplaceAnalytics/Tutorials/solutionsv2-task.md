@@ -58,7 +58,7 @@ To create an example plan, follow these steps:
 
 4. For this example, select **Start now** for the _Focus plan_. This opens the **Set up new plan** pane for a Focus plan, which shows default values for the plan, such as its name:
 
-    ![Set up a new plan](../images/wpa/tutorials/set-up-new-plan-panel.png)
+    ![Set up a new plan](../images/wpa/tutorials/set-up-new-plan.png)
 
 5. Go to [Select a group](#select-a-group) for next steps.
 
@@ -70,40 +70,36 @@ If you have a particular group in mind, you can identify the group either by [up
 
 #### Upload a .csv file
 
-1. Obtain the .csv file to upload. The format of this file is simple: a list of email addresses in a single column. To obtain this file, you might have exported it from an HR system. 
+1. Locate the .csv file to upload. The format of this file is simple: a list of email addresses in a single column. To obtain this file, you might have exported it from an HR system. 
 
-1.	Select **Upload .csv file**.
+2. Select **Upload .csv file**.
 
-2.	Select **Browse**, select a .csv file, and then select **Open**.
+3. Select **Browse**, select a .csv file, and then select **Open**.
  
-3.	After the file has been uploaded, select **Validate**. 
+4. After the file is uploaded, select **Validate**.
 
     ![Validate](../images/wpa/tutorials/browsed-validate.png)
 
-    Workplace Analytics reports whether the group successfully validated, and it also shows any warnings that are generated. For more information, see [Validation](solutionsv2-conceptual.md#validation).
-
-4.	After the group validates successfully, go to [Start the plan](#start-the-plan). 
+5. After the group is successfully validated, you'll see any applicable warnings. For more information, see [Validation](solutionsv2-conceptual.md#validation). 
+6. Go to [Start the plan](#start-the-plan).
 
 #### Use filters
 
-1.	Select **Use filters**. This opens the filter controls:
+1. Select **Use filters**. This opens the filter controls:
 
     ![Filter to find a group](../images/wpa/tutorials/filter-to-find-group.png)
  
-2.	Add filters to define your group. For example, select **FunctionType**, **Equals**, and **Marketing** in the fields to select the people who work in business strategy as your group. Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection. 
+2. Add filters to define your group. For example, select **FunctionType**, **Equals**, and **Marketing** in the fields to select the people who work in business strategy as your group. Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection. 
 
-3.	Select **Validate**. 
-
-   Workplace Analytics reports whether the group successfully validated, and it also shows any warnings that are generated. For more information, see [Validation](solutionsv2-conceptual.md#validation).
-
-4.	After the group validates successfully, go to [Start the plan](#start-the-plan). 
+3. Select **Validate**. After the group is successfully validated, you'll see any  applicable warnings. For more information, see [Validation](solutionsv2-conceptual.md#validation). 
+4. Go to [Start the plan](#start-the-plan).
 
 ### Find the group through analysis
 
-If you do not already have a group in mind for a plan, you can analyze the work habits of a larger segment of your organization to identify a group that could potentially benefit from a plan. 
+If you do not already have a group in mind for a plan, you can analyze the work habits of a larger segment of your organization to identify a group that could potentially benefit from a plan.
 
 > [!Tip] 
-> These steps work best if you start them after you’ve decided on the type of plan. Where might people in your organization have a problem? The available plans address too few focus hours (Focus plan), too many hours of meetings and other ways of working together (Collaboration plan), or too much collaboration after the workday ends (Wellbeing plan).
+> These steps work best after you’ve decided on the type of plan. Where might people in your organization have a problem? The available plans address too few focus hours (Focus plan), too many hours of meetings (Collaboration plan), or too much collaboration after the workday ends (Wellbeing plan).
 
    ![Pick a plan](../images/wpa/tutorials/pick-a-plan.png)
 
@@ -143,7 +139,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 8. After you identify the groups, select **Start now** to open **Set up new plan** to show the filters that you set in the charts and in page settings:
 
-    ![Set up new plan](../images/wpa/tutorials/set-up-new-plan-panel-2-75.png)
+    ![Set up new plan](../images/wpa/tutorials/set-up-new-plan.png)
 
     > [!Note]  
     > Because these steps are using analysis to find the group and filters are an important part of that analysis, **Use filters** is the default option. However, you can select **Upload .csv file** to upload participant data instead.
@@ -170,15 +166,13 @@ After the selected group validates successfully, you'll see insights about the g
 
 4. (Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan’s end date is then calculated and shown.
 
-5. (Optional) In the **How Solution will help** section, you'll see cards, such as for **Book and protect**, **Stay focused**, and **Track progress**:
+5. (Optional) In **How Solutions will help**, select **See preview** to see examples of inline suggestions, dashboard information, and the email digest that people will experience while participating in the plan. Similar to plan insights, these previews are informative but not interactive:
 
-    ![How solutions help](../images/wpa/tutorials/how-solns-help.png)
+    ![How solutions help](../images/wpa/tutorials/plan-preview.png)
   
-    To see how this plan will appear for participants, select **See preview**. You can see examples of inline suggestions, dashboard information, and the email digest that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
-
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 
-6. Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates that you set for the **Plan duration**.
+6. Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates that you set for the **Plan duration**. Or select **Save as draft** to finish up or set the plan duration later.
 
 ## Track plans
 
