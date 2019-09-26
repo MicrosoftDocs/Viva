@@ -41,7 +41,7 @@ To create an example plan, follow these steps:
 
 3. [Start the plan](#start-the-plan).
 
-4. [Track the plan](#track-the-plan)
+4. [Track the plan](#track-plans)
 
 ### Define the plan
 
@@ -176,7 +176,7 @@ After the selected group validates successfully, you'll see insights about the g
 
 6. Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates that you set for the **Plan duration**. Or select **Save as draft** to finish up or set the plan duration later.
 
-## Track the plan
+## Track plans
 
 **Role:** analyst, limited analyst, or program manager. 
 <!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: (For Group managers, see [Track progress (Group manager role)](#track-progress-group-manager-role)) -->
