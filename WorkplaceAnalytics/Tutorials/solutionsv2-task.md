@@ -30,16 +30,16 @@ People in the following roles can work on improvement plans in various ways:
 
 ## Create a plan
 
-**Role:** If you have the role of analyst, limited analyst, or program manager, the steps in the following sections apply to you. 
+**Role:** If you have the role of analyst, limited analyst, or program manager, the steps in the following sections apply to you.
 <!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: If you are a group manager, see [Plan creation for group managers](#plan-creation-for-group-managers). -->
 
-To create a plan, we will follow the steps in these procedures:
+To create an example plan, follow these steps:
 
-1.	[Start the plan definition](#start-the-plan-definition)
+1. [Start the plan definition](#start-the-plan-definition).
 
-2.	[Select a group](#select-a-group)
+2. [Select a group](#select-a-group).
 
-3.	[Start the plan](#start-the-plan)
+3. [Start the plan](#start-the-plan).
 
 ### Start the plan definition
 
@@ -56,7 +56,7 @@ To create a plan, we will follow the steps in these procedures:
 
 3. Do you have a group of employees in mind for participation in a plan? If so, select **Start now** for the plan that you want that group to use, and go to step 5. If you do not already have a group picked out, go to [Find the group through analysis](#find-the-group-through-analysis). (The procedure described in [Find the group through analysis](#find-the-group-through-analysis) is available only to people with an analyst role in Workplace Analytics.
 
-4. In this example, we select **Start now** for the _Focus plan_. This opens the **Set up new plan** pane for a Focus plan, which shows default values for the plan, such as its name:
+4. For this example, select **Start now** for the _Focus plan_. This opens the **Set up new plan** pane for a Focus plan, which shows default values for the plan, such as its name:
 
     ![Set up a new plan](../images/wpa/tutorials/set-up-new-plan-panel.png)
 
@@ -137,7 +137,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 6. Select one or more groups for analysis. To deselect a group, select it again. For more information about what happens with selected groups when you change settings on this page, see [Persistence of group selections](solutionsv2-conceptual.md#persistence-of-group-selections).
 
-7. After you select a group, Workplace Analytics shows additional information about this group’s work habits, such as:
+7. After you select one or more groups to analyze, you'll see additional information about this group’s work habits below the chart, such as:
 
     ![Three cards](../images/wpa/tutorials/three-cards-start-now.png)
 
