@@ -33,15 +33,13 @@ People in the following roles can work on improvement plans in various ways:
 **Role:** If you have the role of analyst, limited analyst, or program manager, the steps in the following sections apply to you.
 <!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: If you are a group manager, see [Plan creation for group managers](#plan-creation-for-group-managers). -->
 
-To create an example plan, follow these steps:
+To create a plan, follow these steps:
 
 1. [Define the plan](#define-the-plan).
 
 2. [Select a group](#select-a-group).
 
 3. [Start the plan](#start-the-plan).
-
-4. [Track the plan](#track-plans)
 
 ### Define the plan
 
