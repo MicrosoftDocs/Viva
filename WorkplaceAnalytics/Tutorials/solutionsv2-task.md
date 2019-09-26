@@ -35,13 +35,15 @@ People in the following roles can work on improvement plans in various ways:
 
 To create an example plan, follow these steps:
 
-1. [Start the plan definition](#start-the-plan-definition).
+1. [Define the plan](#define-the-plan).
 
 2. [Select a group](#select-a-group).
 
 3. [Start the plan](#start-the-plan).
 
-### Start the plan definition
+4. [Track the plan](#track-plans)
+
+### Define the plan
 
 **Role:** analyst, limited analyst, or program manager
 
