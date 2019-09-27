@@ -78,7 +78,7 @@ If you have a particular group in mind, you can identify the group either by [up
  
 4. After the file is uploaded, select **Validate**.
 
-5. After the group is successfully validated, you might see applicable warnings that might be before creating the plan. For more information, see [Validation](solutionsv2-conceptual.md#validation).
+5. After the group is successfully validated, you'll see any applicable warnings about the participants. For more information, see [Validation](solutionsv2-conceptual.md#validation).
 
 6. Go to [Start the plan](#start-the-plan).
 
@@ -88,9 +88,10 @@ If you have a particular group in mind, you can identify the group either by [up
 
     ![Filter to find a group](../images/wpa/tutorials/filter-to-find-group.png)
  
-2. Add filters to define your group. For example, select **FunctionType**, **Equals**, and **Marketing** in the fields to select the people who work in business strategy as your group. Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection. 
+2. Add filters to define your group. For example, select **FunctionType**, **Equals**, and **Marketing** in the fields to select the people who work in business strategy as your group. Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection.
 
-3. Select **Validate**. After the group is successfully validated, you'll see any  applicable warnings. For more information, see [Validation](solutionsv2-conceptual.md#validation). 
+3. Select **Validate**. After the group is successfully validated, you'll see any  applicable warnings. For more information, see [Validation](solutionsv2-conceptual.md#validation).
+
 4. Go to [Start the plan](#start-the-plan).
 
 ### Find the group through analysis
@@ -145,7 +146,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 9. (Optional) Change the selected filters or add new filters to further refine the group.
 
-10. Select **Validate**. After validation completes, you'll see results with applicable warnings, such as:
+10. Select **Validate**. After validation completes, you'll see results with any applicable warnings, such as:
 
     ![Validation warnings](../images/wpa/tutorials/three-warnings.png)
 
@@ -157,7 +158,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 After the selected group validates successfully, you'll see insights about the group. They show you how the group’s numbers differ from company averages for the context that you chose. For example, if you chose to create a Focus time plan, Workplace Analytics shows metrics, such as the number of hours in meetings per week, that show why the people in this group could benefit from more focus time. Although these insights are informative, they are not interactive.
 
-1. Select **Solutions** > **Manage** to see a list of plans, and then in **Show**, select the type of plans to view, such as **Drafts**, **Active**, or **Completed**.
+1. Select **Solutions** > **Manage** to see a list of plans, and then in **Show**, select **Drafts** to view your new plan.
 
 2. (Optional) Select **Edit** next to your new plan to change the **Plan name** to a name more meaningful to you than the suggested value.
 
@@ -171,7 +172,7 @@ After the selected group validates successfully, you'll see insights about the g
   
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 
-6. Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates that you set for the **Plan duration**. Or select **Save as draft** to finish up or set the plan duration later.
+6. Select **Create plan**. This schedules the plan you chose for the group you selected to start and end on the dates that you set for the **Plan duration**. Or select **Save as draft** to finish up later or set the plan duration later.
 
 ## Track plans
 
