@@ -54,7 +54,7 @@ To create a plan, follow these steps:
     > [!Note]  
     > On this page, the **Analyze** option is available only to people with the role of Analyst or Limited analyst.
 
-3. Do you have a group of employees in mind for participation in a plan? If so, select **Start now** for the plan that you want that group to use, and go to step 5. If you do not already have a group picked out, go to [Find the group through analysis](#find-the-group-through-analysis). (The procedure described in [Find the group through analysis](#find-the-group-through-analysis) is available only to people with an analyst role in Workplace Analytics.
+3. Do you have a group of employees in mind for participation in a plan? If so, select **Start now** for the plan that you want that group to use, and go to step 5. If you do not already have a group picked out, go to [Find the group through analysis](#find-the-group-through-analysis), which is only available to people with an analyst role in Workplace Analytics.
 
 4. For this example, select **Start now** for the _Focus plan_. This opens the **Set up new plan** pane for a Focus plan, which shows default values for the plan, such as its name:
 
@@ -78,9 +78,8 @@ If you have a particular group in mind, you can identify the group either by [up
  
 4. After the file is uploaded, select **Validate**.
 
-    ![Validate](../images/wpa/tutorials/browsed-validate.png)
+5. After the group is successfully validated, you might see applicable warnings that might be before creating the plan. For more information, see [Validation](solutionsv2-conceptual.md#validation).
 
-5. After the group is successfully validated, you'll see any applicable warnings. For more information, see [Validation](solutionsv2-conceptual.md#validation). 
 6. Go to [Start the plan](#start-the-plan).
 
 #### Use filters
