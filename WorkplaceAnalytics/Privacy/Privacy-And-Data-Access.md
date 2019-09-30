@@ -6,7 +6,6 @@ title: Workplace Analytics privacy and data access
 description: Discusses the privacy and data access controls available in Workplace Analytics  
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/08/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -93,10 +92,10 @@ If your Workplace Analytics licenses expire, you have until the end of your grac
 
 **To download query results**
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, If prompted, sign in with your work account.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
 2. In the left navigation, expand **Analyze** and then select the **Queries** page.
 3. Select **Results**. The Results page displays previously run queries.
-4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file. 
+4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file.
 
 <!-- 
 8/23 REMOVING ENTIRE OLD DATA RETENTION POLICY SECTION FOR NOW. TILL NEW TEMPORARY WORDING IS READY.
