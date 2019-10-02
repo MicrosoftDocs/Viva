@@ -2,12 +2,10 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Focus plan
 description: MyAnalytics focus plan
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/23/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -15,6 +13,8 @@ ms.prod: mya
 ---
 
 # Focus plan
+
+_**Applies to:** Focus plan is currently available for MyAnalytics users who have an E5 license. Focus plan will become available to all MyAnalytics users in the coming months._
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 

@@ -179,8 +179,8 @@
           href: MyAnalytics/Use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
- #       - name: Focus plan
- #         href: MyAnalytics/use/focus-plan.md       
+        - name: Focus plan
+          href: MyAnalytics/use/focus-plan.md       
     - name: MyAnalytics admin guide
       items: 
         - name: Introduction
