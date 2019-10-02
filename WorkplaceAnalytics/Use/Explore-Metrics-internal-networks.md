@@ -29,9 +29,9 @@ To open **Internal networks**:
 
 ## Employee connections and networks across the company
 
-The **Network diversity** bubble graph shows how each organization in the company compares to the company median for network size and breadth.
+The **Network diversity** bubble chart shows how each organization in the company compares to the company median for network size and breadth.
 
-![Network diversity](../images/wpa/use/internal-network-chart.png)
+![Network diversity](../images/wpa/use/internal-network-bubble-chart.png)
 
 * The quadrants of the chart are delineated at the median for both network size and network breadth.
 * Bubbles represent organizations; the size of each bubble indicates the number of distinct measured employees in the corresponding organization.
