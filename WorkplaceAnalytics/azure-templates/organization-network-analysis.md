@@ -59,7 +59,7 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 
 5. Optionally, in **Select Filters**, select one or more filters to focus your analysis on.
 6. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph. For [Boundary Spanning](#boundary-spanning), you'll need to also select what attributes by which to calculate it and show in the graph as nodes.
-7. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Sizing](#node-sizing) for more details about the metric options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
+7. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Measures](#node-measures) for more details about the metric options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
 8. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you'll only get the monthly metric calculations.
 9. Select **Submit** to create the graph analysis.
 -->
@@ -76,7 +76,7 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 
    Option |Name |Description
    ------------|--------------|------------
-   ![ONA no measure](./images/ona-no-measure.png)| No Measure | Change how the data is measured and shown in the graph based on the Node Sizing option you choose.
+   ![ONA no measure](./images/ona-no-measure.png)| No Measure | Change how the data is measured and shown in the graph based on the Node Measures you select.
    ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
@@ -101,7 +101,7 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
    * For subsets, select the **Download Dataset** icon, to download an .xlsx file with the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Interconnectedness will have multiple values based on the attributes selected for the graph.
 
-## Node Sizing
+## Node Measures
 
 You can apply the following node sizing options to change how the data is measured and shown in the graph.
 
@@ -163,6 +163,9 @@ This option is only available in Combined View. The node size is based on the nu
 ### Reach Index
 
 Represents ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between an individual and others in the network.
+
+> [!Note] 
+> Weights are not factored into Reach Index computations.
 
 ### Graph notes
 
