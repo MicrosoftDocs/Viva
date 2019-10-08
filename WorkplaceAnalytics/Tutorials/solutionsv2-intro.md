@@ -28,7 +28,7 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, the soluti
    > Solutions are intended for use by analysts, program managers, and group managers. For general information about roles, see [User roles in Workplace Analytics](../use/user-roles.md). 
  -->  
 
-For more information about the real-world change possibilities that solutions enable, see [Learn how Macy's uses Workplace Analytics and MyAnalytics](https://www.youtube.com/watch?v=eZeTkK65RQM). <!-- and [[Helen's video]]. -->
+For more information about real-world possibilities, see [Microsoft Workplace Insights](https://insights.office.com/). <!-- and [[Helen's video]]. -->
 
 <!-- REMOVING VIDEO FOR NOW. IT'S FULL OR "PROGRAMS" AND OTHER OUT-OF DATE TERMINOLOGY AND CONCEPTS. ### Video: Solution overview
 <iframe width="640" height="564" src="https://player.vimeo.com/video/287139611" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
