@@ -150,7 +150,7 @@ MyAnalytics does not use data from shared or secondary mailboxes.
 
 #### Q3. Why are read statistics not available for some of my email?
 
-To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
+To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least eight recipients.
 
 ## For IT administrators
 

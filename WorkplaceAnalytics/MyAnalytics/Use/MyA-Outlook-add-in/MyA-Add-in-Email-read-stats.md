@@ -14,7 +14,7 @@ ms.prod: mya
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../../overview/plans-environments.md) for details._
 
-Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
+Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to eight or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
 After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
 
@@ -26,7 +26,7 @@ Insights does not display read information about every email that you send. Plea
 
 #### Requirement: qualifying messages
 
-Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients.
+Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to eight or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients.
 
 #### Exceptions to qualifying messages
 
@@ -34,7 +34,7 @@ Insights does not report about email messages in the following categories:
 
  * Email that was sent from a shared mailbox
  * Email that was sent more than 14 days ago.
- * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
+ * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than eight.
  * Email sent to modern groups. (If users are following the modern group, they are included in the count.)
 
 #### Open rate
