@@ -43,7 +43,7 @@ You retain full control over what data is used and how it is used within Workpla
 
 Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user's mailbox and calendar:
 
-### Header information from emails
+### Header information from email
 
 * Who the sender is
 * Who the recipient is
@@ -73,7 +73,7 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 * The duration of the call
 
 > [!Important] 
-> Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
+> Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private email and meetings are excluded altogether.
 
 ## Organizational data
 
