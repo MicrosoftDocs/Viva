@@ -31,7 +31,7 @@ In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **
 
 You'll see Insights in the right panel in Outlook:
 
-![Insights panel](../../images/mya/overview/insights-cards-9.png)
+![Insights panel](../../images/mya/overview/insights-cards-12.png)
 
 ## Email read statistics 
 
