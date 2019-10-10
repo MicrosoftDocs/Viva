@@ -5,11 +5,10 @@
 title: Tips for uploading org data
 description: Tips when uploading org data to MyAnalytics. 
 author: paul9955
-ms.author: v-pascha
-ms.date: 04/03/2019
+ms.author: v-midehm
 ms.topic: article
 localization_priority: normal
-ms.prod: mya
+ms.prod: wpa
 ---
 
 All field header or column names must:
@@ -17,9 +16,8 @@ All field header or column names must:
 * Begin with a letter (not a number)
 * Only contain alphanumeric characters (letters and numbers, for example Date1)
 * Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP)
-* Have no spaces (Date1)
-* Have no special characters (non-alphanumeric, such as @, #, %, &, *)
 * Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
+* Have no spaces or special characters (non-alphanumeric, such as @, #, %, &); if spaces or special characters are included, Workplace Analytics will remove them from the name
 
 The field values in the data row must comply with the following formatting rules:
 
