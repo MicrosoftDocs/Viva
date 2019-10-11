@@ -110,17 +110,21 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 <!-- ANIL WILL GET ME A SCREENSHOT OF THE FEATURE THAT DISPLAYS THE PARTITION ID. USE THAT HERE. -->
 
-3.	Enter the Workplace Analytics partition ID:
+3.  Determine the identifier of the currently selected Workplace Analytics partition. You can find it in the **My Information** dialog box in the user icon dropdown on the top right corner of the page: 
+
+    ![My information screen](../images/wpa/use/my-information.png)
+
+4.	Enter the Workplace Analytics partition identifier:
 
     ![Enter partition ID](../images/wpa/use/connect_to_wpa.png)
 
-4.	Select the Data Connectivity mode you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
+5.	Select the Data Connectivity mode you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
 
     ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa.png)
 
-5.  Select **OK**.    
+6.  Select **OK**.    
  
-6.	When you first use the PowerBI-Workplace Analytics connector for a particular partition ID, and later, after your authentication token expires, you will be prompted that "you aren't signed in":
+7.	When you first use the PowerBI-Workplace Analytics connector for a particular partition ID, and later, after your authentication token expires, you will be prompted that "you aren't signed in":
 
     ![Not signed in](../images/wpa/use/wpa_select_authentication.png)
 
@@ -130,13 +134,13 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 <!-- ANIL WILL GET ME A NEW SCREENSHOT FOR THE PRECEDING IMAGE -->
 
-7.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
+8.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
 
     ![Metrics](../images/wpa/use/list-of-metrics-2-col_2.png)
 
     In Power BI, you can now create visualizations using those fields.
 
-8.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
+9.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
 
 ## Related topics
 
