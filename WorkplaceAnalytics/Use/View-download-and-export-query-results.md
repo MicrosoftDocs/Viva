@@ -132,7 +132,7 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 7.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
 
-    ![Metrics](../images/wpa/use/list-of-metrics-2-col.png)
+    ![Metrics](../images/wpa/use/list-of-metrics-2-col_2.png)
 
     In Power BI, you can now create visualizations using those fields.
 
