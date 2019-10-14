@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: View download and export Workplace Analytics query results
+title: View, download, and export Workplace Analytics query results
 description: Describes how to view, download, and export Workplace Analytics query results to PowerBI and other data analysis tools
 author: paul9955
 ms.author: v-midehm
