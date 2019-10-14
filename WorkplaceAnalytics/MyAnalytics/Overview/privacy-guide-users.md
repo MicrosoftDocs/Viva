@@ -23,7 +23,7 @@ MyAnalytics helps you find opportunities to build better habits and get back in 
 <ul><li> 
 
 **MyAnalytics is not designed to enable evaluation, tracking, automated decision-making, profiling, or monitoring**.
-MyAnalytics provides you with insights through a personalized dashboard, a weekly email digest, the Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently shares it. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
+MyAnalytics provides you with insights through a personalized dashboard, a weekly email digest, the Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently share it. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
 
 <li>
 
