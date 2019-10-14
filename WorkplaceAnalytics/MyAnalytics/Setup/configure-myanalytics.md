@@ -45,11 +45,9 @@ For information on how to assign a license, see [Assign licenses to users in Off
 You can configure access to MyAnalytics elements for all users in your organization.
 
 > [!Note]
-> This experience will be available in Office 365 GCC by the end of 2019.
+> After a new tenant is established, it might take up to 48 hours for this functionality to become available. This experience will be available in Office 365 GCC by the end of 2019.
 
-### To get access to the dashboard and email digests
-> [!Note]
-> After a new tenant is established, it might take up to 48 hours for this functionality to become available.
+### To enable access to the dashboard and email digests
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
