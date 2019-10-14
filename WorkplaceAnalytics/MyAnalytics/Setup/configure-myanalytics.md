@@ -44,9 +44,6 @@ For information on how to assign a license, see [Assign licenses to users in Off
 
 You can configure access to MyAnalytics elements for all users in your organization.
 
-> [!Note]
-> After a new tenant is established, it might take up to 48 hours for this functionality to become available. This experience will be available in Office 365 GCC by the end of 2019.
-
 ### To enable access to the dashboard and email digests
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
@@ -62,6 +59,9 @@ You can configure access to MyAnalytics elements for all users in your organizat
 5. Select **Insights dashboard** to keep all MyAnalytics users in your organization opted _in_ for access to the MyAnalytics dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
 
 6. Select **Weekly insights email** to keep all MyAnalytics users in your organization opted _in_ for access to the weekly [email digest](../../myanalytics/use/email-digest-2.md) (and the MyAnalytics [welcome email](../../myanalytics/use/mya-welcome-email.md)). Deselect **Weekly insights email** to opt users _out_ of the weekly email digest (and the MyAnalytics welcome email).  
+
+> [!Note]
+> After a new tenant is established, it might take up to 48 hours for this functionality to become available. This experience will be available in Office 365 GCC by the end of 2019.
 
 ### To disable the add-in for a tenant
 
