@@ -42,7 +42,10 @@ For information on how to assign a license, see [Assign licenses to users in Off
 
 ## Configure access at the tenant level
 
-You can configure access to MyAnalytics elements for all users in your organization.  
+You can configure access to MyAnalytics elements for all users in your organization.
+
+> [!Note]
+> This experience will be available in Office 365 GCC by the end of 2019.
 
 ### To get access to the dashboard and email digests
 > [!Note]
