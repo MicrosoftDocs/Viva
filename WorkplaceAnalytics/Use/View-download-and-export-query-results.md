@@ -21,10 +21,9 @@ In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All resu
 
 ## View query results
 
-1. In Workplace Analytics, open the **Analyze** > **Queries** > **Results** > **All results** page. 
+On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (the results of queries that all analysts have run, as shown in the preceding screenshot) and **My results** (only the results of queries that the analyst who is viewing this page has run).
 
-   > [!Note]
-   > On this **Results** page, you can switch between **All results** (the results of queries that all analysts have run, as shown in the preceding screenshot) and **My results** (only the results of queries that the analyst who is viewing this page has run).
+1. In Workplace Analytics, open the **Analyze** > **Queries** > **Results** > **All results** page. 
 
 2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
   
