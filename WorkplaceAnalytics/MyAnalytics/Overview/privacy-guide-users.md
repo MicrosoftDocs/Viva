@@ -23,7 +23,7 @@ MyAnalytics helps you find opportunities to build better habits and get back in 
 <ul><li> 
 
 **MyAnalytics is not designed to enable evaluation, tracking, automated decision-making, profiling, or monitoring**.
-MyAnalytics provides you with insights through a personalized dashboard, a weekly email digest, the Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently shares it. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
+MyAnalytics provides you with insights through a personalized dashboard, a weekly email digest, the Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently share it. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
 
 <li>
 
@@ -96,9 +96,9 @@ In a few cases, MyAnalytics provides you with de-identified information on other
 
 ### Email read rates
 
-MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that you’ve sent to eight or more people.
+MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that you’ve sent to five or more people.
 
-However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than eight people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow you to make definitive conclusions about individual coworker actions. Instead, the read rate renders as "Low" or "High."
+However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow you to make definitive conclusions about individual coworker actions. Instead, the read rate renders as "Low" or "High."
 
 This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when you open a message in the Outlook preview pane. For others, you might need to double-click to open the message to mark it as "read."
 
