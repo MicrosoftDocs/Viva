@@ -13,8 +13,9 @@ ms.prod: wpa
 
 # View, download, and export query results
 
+
    > [!Note]
-   > You must have the Analyst role in Workplace Analytics to view, download, or export query results.
+   > You must have the analyst role in Workplace Analytics to view, download, or export query results.
 
 In Workplace Analytics, the **Analyze** > **Queries** > **Results** page lists all the queries that have been run for your organization.
 
