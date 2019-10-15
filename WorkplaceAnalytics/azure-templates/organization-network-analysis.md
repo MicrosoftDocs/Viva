@@ -30,21 +30,18 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 2. On the **Organizational Network Analysis** page, select **Add New Dataset** at top right.
 3. In **Define Analysis Settings**, enter a name and select a path to the dataset for analysis.
 
-   ![Add New Analysis](./images/ona-dataset-new.png)
+   ![Add New Analysis](./images/ona-new-dataset.png)
 
-4. In **Interaction Thresholds**, select the following.
+4. In **Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics. For example, Domain and FunctionType are HR attributes, as shown in the following graphic.
+5. In **Interaction Thresholds**, select the following.
 
    * **Choose an interaction type**: Select what you want to analyze in the dataset, either email, meeting, or all.
    * **Max Duration Threshold of each interaction**: Select the maximum number of hours for each interaction.
    * **Max # of members involved in each interaction**: Select the maximum number of people involved in each interaction.
    * **Min # of interactions**: Select the minimum number of interactions between the selected groups or people.
 
-5. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis.
-6. Optionally, in **Graph Analysis**, select one or more filters and which attributes you want to analyze in the graph. By default, all available attributes are selected. The available filters match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics. For example, Domain and FunctionType are HR attributes, as shown in the following graphic.
-
-   ![Organizational Network Analysis](./images/ona-render-graph.png)
-
-7. Select **Render Graph**. Based on the data size, it might take a few minutes for the graph to successfully load. <!-- Some metric options are unavailable until you do the following steps to **Define Analysis** for data subsets.-->
+6. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis.
+7. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset. <!-- Some metric options are unavailable until you do the following steps to **Define Analysis** for data subsets.-->
  <!-- 
 ## To define a subset dataset and graph analysis
 
