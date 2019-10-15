@@ -74,6 +74,8 @@ You can use data from your queries in a data-analysis tool to do further analysi
 
 ### Connect through the PowerBI-Workplace Analytics connector
 
+* **Role:** analyst or limited analyst
+
 The Power BI Workplace Analytics connector lets you construct visualizations of data from Workplace Analytics while you are running Power BI. Use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules that were configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data.
 
 > [!Note] 
@@ -96,7 +98,7 @@ To make this connection, you first need to download Power BI desktop. Follow the
 
 ##### Partition access
 
-Partitions in Workplace Analytics allow access to data. To import metrics and attributes into Power BI, you will need access to the partition in Workplace Analytics that contains these metrics and attributes. (To gain access to that partition, steps in the following procedure have you sign in to your organizational account and select the partition ID.) For more information, see [Role-based Authorization in Kusto](https://docs.microsoft.com/en-us/azure/kusto/management/access-control/role-based-authorization). 
+Partitions in Workplace Analytics allow access to data. To import metrics and attributes into Power BI, you will need access to the partition in Workplace Analytics that contains these metrics and attributes. (To gain access to that partition, steps in the following procedure have you sign in to your organizational account and select the partition ID.) For more information, see [User roles in Workplace Analytics](..\use\user-roles.md). 
 
 #### Use the connector
 
