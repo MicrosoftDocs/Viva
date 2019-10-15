@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: View download and export Workplace Analytics query results
+title: View, download, and export Workplace Analytics query results
 description: Describes how to view, download, and export Workplace Analytics query results to PowerBI and other data analysis tools
 author: paul9955
 ms.author: v-midehm
@@ -13,21 +13,19 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-   > [!Note]
-   > You must have the Analyst role in Workplace Analytics to view, download, or export query results.
-
-In Workplace Analytics, **Analyze** > **Queries** > **Results** > **All results** lists all the queries that have been run for your organization.
+* **Role:** Analyst. You must have the analyst role in Workplace Analytics to view, download, or export query results.
+  
+In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries that have been run for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
 ![Query results tab](../images/wpa/Use/query-results-page.png)
 
-In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete them, or get a link to access them as data in Power BI or Excel.
-
-   > [!Note]
-   > In **Results**, you can switch between **My results** and **All results**.
-
 ## View query results
 
-* Next to the query you want to view, select the ellipsis (**...**) > **View query**.
+On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (the results of queries that all analysts have run, as shown in the preceding screenshot) and **My results** (only the results of queries that the analyst who is viewing this page has run).
+
+1. In Workplace Analytics, open the **Analyze** > **Queries** > **Results** > **All results** page. 
+
+2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
   
 ## Use Workplace Analytics data in Power BI, Excel, or other data-analysis tool
 
