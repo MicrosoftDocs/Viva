@@ -110,29 +110,31 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 <!-- ANIL WILL GET ME A SCREENSHOT OF THE FEATURE THAT DISPLAYS THE PARTITION ID. USE THAT HERE. -->
 
-3.  Determine the identifier of the currently selected Workplace Analytics partition. You can find it in the **My Information** dialog box in the user icon dropdown on the top right corner of the page: 
+3.  Determine the identifier of the currently selected Workplace Analytics partition. To do this, select the user icon in the top right corner of the page, and then select **My information**:
 
+    ![My information screen](../images/wpa/use/top-right-my-info.png)
+
+    Next, find the partition identifier in the **My information** dialog box: 
+       
     ![My information screen](../images/wpa/use/my-information.png)
 
-4.	Enter the Workplace Analytics partition identifier:
+4.	Enter the partition identifier:
 
-    ![Enter partition ID](../images/wpa/use/connect_to_wpa.png)
+    ![Enter partition ID](../images/wpa/use/connect_to_wpa_part_id.png)
 
-5.	Select the Data Connectivity mode you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
+5.	Select the data connectivity mode that you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
 
-    ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa.png)
+    ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa_mode.png)
 
 6.  Select **OK**.    
  
-7.	When you first use the PowerBI-Workplace Analytics connector for a particular partition ID, and later, after your authentication token expires, you will be prompted that "you aren't signed in":
+7.	The first time that you use the PowerBI-Workplace Analytics connector for a particular partition ID, and again later, after your authentication token expires, you will be prompted that "you aren't signed in":
 
     ![Not signed in](../images/wpa/use/wpa_select_authentication.png)
 
     When you see this prompt, select **Sign in** and then provide your Office 365 credentials:
 
-    ![Sign in](../images/wpa/use/login-to-o365.png)
-
-<!-- ANIL WILL GET ME A NEW SCREENSHOT FOR THE PRECEDING IMAGE -->
+    ![Sign in](../images/wpa/use/login-to-o365_2.png)
 
 8.	At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
 
