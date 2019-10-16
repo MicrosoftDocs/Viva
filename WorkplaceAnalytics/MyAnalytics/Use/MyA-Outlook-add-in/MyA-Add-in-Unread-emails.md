@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Unread emails from important people
+# Unread emails from important people
 
 Based on the list of important people, MyAnalytics displays cards to notify you of any unread email you have from Important people. Each card displays the sender’s name, the subject line, and the date of the message.
 
