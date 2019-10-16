@@ -6,13 +6,15 @@ title: ExamplePersonQuery
 description: ExamplePersonQuery file to hold example ExamplePersonQuery.csv
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/27/2018
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-### ExamplePersonQuery.csv
+<!-- PENDING ISSUE WITH THIS FILE: 
+THIS TOPIC DOES NOT APPEAR IN THE TOC. I'M RESEARCHING WHY THIS .MD FILE IS IN THE IMAGES FOLDER. IT SHOULD PROBABLY BE MOVED TO THE WPA/TUTORIALS FOLDER. -->
+
+# ExamplePersonQuery.csv
 
 PersonId,Date,After_hours_collaboration,Collaboration_hours,Total_emails_sent_during_meeting__1_,Workweek_Span,Time_spent_in_mails_after_hours,Workweek_Span__1_,IsInternal,Domain,FunctionType,Organization,LevelDesignation,Layer,TimeZone
 97B4901BBD2EEC3D0B67288BBE5F0322F18466024679A316427F3B3B2A2225D2,7/16/2017,2.743166667,33.94216667,6,62.94990833,1.743,62.94990833,TRUE,onmicrosoft.com,Finance,Finance,Senior Executive,1,Pacific Standard Time

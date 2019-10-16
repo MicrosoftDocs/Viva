@@ -35,11 +35,139 @@ You'll see Insights in the right panel in Outlook:
 
 ## Email read statistics 
 
-[!INCLUDE [Email read statistics](MyA-Outlook-add-in/MyA-Add-in-Email-read-stats.md)]
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
+
+Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
+
+After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
+
+Insights shows the open rate for the sent email that is open in Outlook. It also groups open rate information for qualifying sent items into a single summary card that you can select and expand to see a more detailed view.
+
+### Reporting details
+
+Insights does not display read information about every email that you send. Please note the following circumstances.
+
+#### Requirement: qualifying messages
+
+Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients.
+
+#### Exceptions to qualifying messages
+
+Insights does not report about email messages in the following categories:
+
+ * Email that was sent from a shared mailbox
+ * Email that was sent more than 14 days ago.
+ * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
+ * Email sent to modern groups. (If users are following the modern group, they are included in the count.)
+
+#### Open rate
+
+The Insights add-in reports the open rate within 30 minutes of when qualifying email was sent by you, as shown in the following table. Note the following:
+
+* For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as _&lt; 25%_.
+* If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
+* For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the email recipients open the email, the maximum value in the table will be _&gt; 95%_.
+
+   | Number of recipients | Open rate reported |
+   | ------- | ------ |
+   | 5 - 10  | Minimum: 25% <br>Maximum: 75% |
+   | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
+   | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
+
+MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../overview/privacy-guide.md).
+
+<!-- HERE'S A CLEARER TABLE BUT THEY WANTED A SHORTER TABLE
+<table>
+  <tr>
+    <th>Number of recipients</th>
+    <th>Actual open rate</th>
+    <th>Open rate that Insights reports</th>
+  </tr>
+  <tr>
+    <td rowspan = 3 >5 - 10</td>
+    <td>&lt; 25%</td>
+    <td>"&lt; 25%"<td>
+  </tr>
+  <tr>
+    <td>25 - 75%</td>
+    <td><i>actual open rate</i></td>
+  </tr>    
+  <tr>
+    <td>&gt; 75%</td>
+    <td>"&gt; 75%"</td>
+  </tr>  
+  <tr>
+    <td rowspan = 3 >11 - 20</td>
+    <td>&lt; 10%</td>
+    <td>"&lt; 10%"<td>
+  </tr>
+  <tr>
+    <td>10 - 90%</td>
+    <td><i>actual open rate</i></td>
+  </tr>    
+  <tr>
+    <td>&gt; 90%</td>
+    <td>"&gt; 90%"</td>
+  </tr>
+  <tr>
+    <td rowspan = 3>> 21</td>
+    <td>&lt; 5%</td>
+    <td>"&lt; 5%"<td>
+  </tr>
+  <tr>
+    <td>5 - 95%</td>
+    <td><i>actual open rate</i></td>
+  </tr>    
+  <tr>
+    <td>&gt; 95%</td>
+    <td>"&gt; 95%"</td>
+  </tr>     
+</table>
+-->
+
+
+**To see read information about sent emails**
+
+1. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now. 
+
+   > [!Note] 
+   > If you see a "Welcome!" message, select **Get started**.
+
+2. On the **Insights** panel, select one of the following two cards:
+
+   a. **In-context email open rate**. This card provides read statistics for the sent email that you currently have open in Outlook.
+
+     ![In-context email open rate](../../Images/mya/use/in-context-card-59.png) 
+
+   b. The **Track email open rates** card. This card provides read statistics for all sent emails.  
+
+     ![Track email open rates](../../Images/mya/use/step-1-track-open-rates.png)
+
+    The panel in the card that you selected (in either step 2a. or step 2b.) states the email subject line and shows a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
+    
+    ![Email open rates](../../Images/mya/use/step-2-four-emails.png)
+
+<!-- REMOVED PER RISHABH 4 SEPT 2019
+### Read statistics details
+
+Note the following about the reporting of read-statistics data: 
+
+ * **Length of availability.** Read statistics for an email are present only for a period of 14 days. (Read statistics are not computed for mails that have been sent more than 14 days ago.)
+ * **Time until availability.** It usually takes 15 to 30 minutes to compute precise results for read statistics for your emails.
+ * **Five-recipient limit.** An email qualifies for read statistics only if it was sent to more than five recipients in the _To_, _Cc_ and _Bcc_ fields combined. 
+-->
+
+<!--
+    Based on the length of the message, Insights estimates how long a person needs to read it. It uses that number to decide whether people glanced, skimmed, or read the email, and informs you of this in a card.
+ 
+    ![Email open rates](../../Images/mya/use/email-open-rates-2.png)
+
+    Depending on how many people opened the email and how long they spent reading it, Insights might suggest that you follow up on your email, or it might show tips to help improve email communication.
+-->
 
 [!INCLUDE [Follow up on tasks](MyA-Outlook-add-in/mya-add-in-follow-up.md)]
 
-[!INCLUDE [Meeting preparation](meeting-prep-card.md)]
+[!INCLUDE [Meeting preparation](../Includes/meeting-prep-card.md)]
 
 ## Privacy by design 
 
