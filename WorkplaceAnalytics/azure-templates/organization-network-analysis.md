@@ -64,7 +64,6 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 6. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you'll only get the monthly metric calculations.
 7. Select **Submit** to create the graph analysis.
 
-
 ## To view graph analysis
 
 1. After the analysis successfully loads, select the dataset from the list, and then at top right, select **Load Saved Graph**.
@@ -81,7 +80,7 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
    ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
-   ![ONA network view](./images/ona-network-icons-3.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <li> Force-directed <li> Organic <li> Tweak 
+   ![ONA network view](./images/ona-network-icons-3.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <li> Force-directed - Assigns forces among the set of edges and the set of nodes in the graph. <li> Organic - < Definition coming soon > <li> Tweak - Tries to keep nodes where they are when changing measures and other graph options.
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined View | Change the graph view to Combined View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Changes Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![ONA change settings](./images/ona-settings.png) | Changes Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
@@ -92,7 +91,7 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
 
 1. On the **Organizational Network Analysis** page, select the name of the dataset in the table, and then select the name of the graph in the table.
 2. At the top right of **Define Graph Settings**, select **Load Saved Graph**.
-3. Select the name of the graph that you want to view. <!-- To view a subset dataset graph, select the **Refine Subset Categorization** icon next to the dataset name, and then select the subset's name to view it.--> If no analysis has been created, the subset list will be empty.<!--    ![Refine Subset Categorization icon](./images/ona-subset-categorization.png)-->
+3. Select the name of the graph that you want to view. If no analysis has been created, the subset list will be empty.
 4. Additional options on the analysis pages:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
