@@ -6,13 +6,12 @@ title: Habit Playbooks for MyAnalytics
 description: Habit Playbooks describe how to use MyAnalytics to build better work habits
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-## Habit playbooks
+# Habit playbooks
 
 Habit playbooks are examples of how to use MyAnalytics to turn specific behaviors into habits using the [Habit-building method](Adopt-Habit-building-method.md). The playbooks leverage [microlearning](https://en.wikipedia.org/wiki/Microlearning), a method of learning through bite-sized lessons. They are compatible with microlearning, since the key to building new habits is starting small. BJ Fogg, Ph.D., a behavioral scientist at Stanford University, who has studied behavior change for over two decades, says that “baby steps” are one of the only ways to change behavior in the long term.
 

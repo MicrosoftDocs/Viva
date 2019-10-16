@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Chats and calls
+# Chats and calls
 
 MyAnalytics counts audio calls, video calls, and instant messages (chats) that people make in Teams and in Skype for Business as collaboration activities. It calculates the duration of these activities this way:
 

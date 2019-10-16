@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Network 
+# Network 
 
 The My network section of the MyAnalytics dashboard shows how you spent your time with the people and groups you interact with in meetings, email, calls, and chats.
 
