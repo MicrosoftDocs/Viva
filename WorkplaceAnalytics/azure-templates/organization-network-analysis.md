@@ -24,7 +24,7 @@ Workplace Analytics has several metrics to help you visualize and analyze formal
 <!-- 
 To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subset (child) datasets and graphs within the selected (parent) dataset.-->
 
-## To add new analysis
+## To add a new dataset
 
 1. In Workplace Analytics Azure Templates, select **Organizational Network Analysis**.
 2. On the **Organizational Network Analysis** page, select **Add New Dataset** at top right.
@@ -32,7 +32,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    ![Add New Analysis](./images/ona-new-dataset.png)
 
-4. In **Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics. For example, Domain and FunctionType are HR attributes, as shown in the following graphic.
+4. In **Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics.
 5. In **Interaction Thresholds**, select the following.
 
    * **Choose an interaction type**: Select what you want to analyze in the dataset, either email, meeting, or all.
@@ -46,26 +46,24 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 9. In **Define Graph Settings**, either select filters for the graph, or select no filters to render a graph of all the data unfiltered, and then select **Render Graph**.
 
    ![Add New Analysis](./images/ona-render-graph-2.png)
-   
+
 10. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.<!-- Some metric options are unavailable until you do the following steps to **Define Analysis** for data subsets.-->
- <!-- 
-## To define a subset dataset and graph analysis
+
+## To add a subset dataset
 
 Analysis of a subset (child) dataset and graph enables you to compare or focus your analysis on specific subgroups within the selected (parent) dataset.
 
-1. Follow the previous steps to open the graph you want to base your subset analysis on.
-2. Select **Define Analysis** to create a subset (child) dataset that is based on this saved graph. If no analysis has been created, the subset list will be empty.
-3. Select **Add New Analysis**.
-4. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
+1. Select the dataset from the list, and then at top right, select **Add New Analysis** to create a subset (child) dataset.
+2. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
 
-   ![Add New Analysis](./images/ona-subgroup-options.png)
+   ![Add New Analysis](./images/ona-subgroup-analysis.png)
 
-5. Optionally, in **Select Filters**, select one or more filters to focus your analysis on.
-6. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph. For [Boundary Spanning](#boundary-spanning), you'll need to also select what attributes by which to calculate it and show in the graph as nodes.
-7. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Measures](#node-measures) for more details about the metric options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
-8. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you'll only get the monthly metric calculations.
-9. Select **Submit** to create the graph analysis.
--->
+3. Optionally, in **Specify the Network Boundary Condition**, select one or more filters to focus your analysis on.
+4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph. For [Boundary Spanning](#boundary-spanning), you'll need to also select what attributes by which to calculate it and show in the graph as nodes.
+5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Measures](#node-measures) for more details about the metric options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
+6. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you'll only get the monthly metric calculations.
+7. Select **Submit** to create the graph analysis.
+
 
 ## To view graph analysis
 
@@ -83,8 +81,8 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
    ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
-   ![ONA network view](./images/ona-network-icons-2.png)| Network View  | Changes how the graph shows the network, which you can view in either the **Force-directed** or **Organic** layout.
-   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined View | Change the graph view to Combined View, which prompts you to select an HR attribute meeting metric to display the nodes for , such as FunctionType.
+   ![ONA network view](./images/ona-network-icons-3.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <li> Force-directed <li> Organic <li> Tweak 
+   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined View | Change the graph view to Combined View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Changes Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![ONA change settings](./images/ona-settings.png) | Changes Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
    ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new dataset.
@@ -156,7 +154,7 @@ This option is only available in Combined View. The node size is based on the nu
 
 Represents ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person or group and others in the network. Nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information.
 
-> [!Note] 
+> [!Note]
 > Weights are not factored into Reach Index computations.
 
 ### Graph notes
