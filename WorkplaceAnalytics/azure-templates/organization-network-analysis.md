@@ -136,22 +136,10 @@ As shown in the following graphic, the table depicts the density score within an
 
 ![Density table](./images/ona-density-table.png)
 
-<!--### Eigen Centrality
-
-Eigen Centrality is a measure of influence that considers the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and can be key influencers in their network.
-
-As shown in the following graphic, Engineering, R&D, and Sales are key influencers that connect all the other groups.
-
-![Eigen Centrality](./images/ona-eigen.png)
--->
 ### Influence Index
 
 <!--  This option is only available in Subset Categorization analysis. -->Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group’s perspective will flow through the organization with efficiency.
-
-As shown in the following graphic, Engineering, R&D, and Sales are key influencers that connect all the other groups.
-
-![Eigen Centrality](./images/ona-eigen.png)
-
+<!--  
 ### Interconnectedness
 
 This option is only available in Node View. Interconnectedness is a measure of how diverse a node’s connections are. The higher the interconnection for a node, the more that node’s connections come from other nodes. The nodes with high interconnection can be good ambassadors and help drive collaboration for the intersecting nodes.
