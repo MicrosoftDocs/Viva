@@ -16,7 +16,7 @@ audience: Admin
 ---
 # Organizational Network Analysis Azure Template for Workplace Analytics
 
-_These templates are only available as part of a Microsoft service engagement._
+_This template only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates include the Organizational Network Analysis template that enables you to visualize connections within your organization, pinpoint collaboration patterns, and drive change.
 
@@ -125,7 +125,7 @@ Closeness measures the closeness between nodes in a network, based on their abil
 
 ### Closeness Centrality
 
-Closeness Centrality is a measure of how close a node is to all other nodes in the network. It was originally defined as the inverse of a node’s farness, where farness is the sum of the distances from the node to all the other nodes in the network.  This definition requires the network to be fully connected, which means that each node can reach all other nodes in the network. This assumption is not always true in directed graphs and never true for disconnected graphs. Accordingly, we make several modifications to our calculation of closeness because of the directed nature (and possibly disconnected as well) of our social network graphs.
+Closeness Centrality is a measure of how close a node is to all other nodes in the network. It was originally defined as the inverse of a node’s farness, where farness is the sum of the distances from the node to all the other nodes in the network.  This definition requires the network to be fully connected, which means that each node can reach all other nodes in the network. This assumption is not always true in directed graphs and never true for disconnected graphs. Accordingly, we make several modifications to our calculation of closeness because of the directed nature (and possibly disconnected as well) of our social network graphs. For more details about the calculations, see [Closeness Centrality metric calculations]().
 
 #### Employee level
 
@@ -136,7 +136,6 @@ Where **n** is the total number of nodes in the network and **d(i,j)** is the di
 
 If the graph is disconnected, then the closeness centrality will be calculated as zero (0). To correct for this, the template will take the sum of the inverse distances:
 
-
 Now, the nodes that can’t be reached will not contribute to the sum if the graph is disconnected. This modification gives different values for the centrality for an individual than the original measure, but approximately maintains the ratio of an individual’s score to others in the network. Since a disconnected graph can be considered with this implementation, the closeness scores are normalized by n-1. Note that this normalization considers all the nodes in the network, not just those in the largest, connected component of the network.
 
 Weights between nodes are not considered for the current implementation of closeness.  Hence the distance is defined as the number of nodes (i.e., people) between nodes i and j on the shortest path p.  The distances between nodes are calculated by using the single-source shortest path algorithm [5].   The higher the value of closeness the fewer nodes on average it takes that node to reach others in the network.
@@ -144,8 +143,6 @@ Weights between nodes are not considered for the current implementation of close
 #### Group level
 
 The equation used for employee level closeness is also used to calculate the group level closeness. Essentially, the group closeness only considers the distances from nodes inside the group to nodes outside of the group.  Within group distances are ignored [1]. Again, we consider only the shortest paths between nodes. It is normalized by the number of nodes outside of the source node’s group C.
-
-C_i=1/(|V|-|C| ) ∑_(j=1)^(|V|-|C|)▒(1/d(i,j) )     i ∈C,"   " j ∈V-C
 
 
 ### Degrees
