@@ -85,10 +85,10 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
 * **Role:** analyst or limited analyst
 
-The Power BI Workplace Analytics connector lets you construct visualizations of data from Workplace Analytics while you are running Power BI. Use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules that were configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data.
+The Power BI-Workplace Analytics connector lets you construct visualizations of data from Workplace Analytics while you are running Power BI. Use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules that were configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data.
 
 > [!Note] 
-> The Power BI Workplace Analytics connector does not use results of already-run queries. Instead, it creats Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). (Aggregated queries include grouping of metrics on one or more columns of organizational-data attributes, with aggregations such as Sum, Average, Min, and Max on the metric columns.)
+> The Power BI-Workplace Analytics connector does not use results of already-run queries. Instead, it creats Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). (Aggregated queries include grouping of metrics on one or more columns of organizational-data attributes, with aggregations such as Sum, Average, Min, and Max on the metric columns.)
 
 For example, by using this connector, you can generate, for example, a bar chart that shows an organization-wide analysis of collaboration hours or examines the meeting-hours trend for an entire organization.
 
