@@ -15,16 +15,16 @@ ms.prod: wpa
 
 **Data sources** contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
 
-![Data sources](../images/WpA/Use/data-sources.png)
-
-[!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
-
 Data sources includes the following:
 
  * [Data sources summary](#data-sources-summary) is an overview of the source mailboxes and collaborators that make up the data set.
  * [Office 365 data summary](#office-365-data-summary) shows the overall trend of email and meeting hours and volume in the data set.
  * [Organizational data summary](#organizational-data-summary) provides information about the Organizational Attributes that are in the data set.
  * [CRM data](#crm-data) is a high-level view of the latest available CRM data that has been uploaded and successfully processed in Workplace Analytics.
+
+![Data sources](../images/WpA/Use/data-sources.png)
+
+[!INCLUDE [To open the Workplace Analytics Sources page](../includes/to-open-wpa-sources.md)]
 
 Using Data sources metrics, Workplace Analytics administrators and data analysts can:
 
