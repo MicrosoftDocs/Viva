@@ -20,7 +20,7 @@ Data sources includes the following:
  * [Data sources summary](#data-sources-summary) is an overview of the source mailboxes and collaborators that make up the data set.
  * [Office 365 data summary](#office-365-data-summary) shows the overall trend of email and meeting hours and volume in the data set.
  * [Organizational data summary](#organizational-data-summary) provides information about the Organizational Attributes that are in the data set.
- * [CRM data](#crm-data) is a high-level view of the latest available CRM data that has been uploaded and successfully processed in Workplace Analytics.
+ * [CRM data](#crm-data) is available after you upload and process CRM data in Workplace Analytics.
 
 ![Data sources](../images/WpA/Use/data-sources.png)
 
