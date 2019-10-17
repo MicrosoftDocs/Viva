@@ -45,8 +45,8 @@
               href: ~/setup/upload-organizational-data-1st.md       
             - name: Subsequent uploads
               href: ~/setup/upload-organizational-data.md 
-  #      - name: Upload CRM data
-  #        href: ~/setup/crm-data-upload.md
+            - name: Upload CRM data
+              href: ~/setup/crm-data-upload.md
         - name: Meeting exclusion rules    
           items:             
             - name: Introduction
@@ -100,8 +100,8 @@
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
                   href: ~/tutorials/Person-to-group-queries.md 
-  #              - name: Queries with CRM data
-  #                href: ~/tutorials/crm-queries.md    
+                - name: Queries with CRM data
+                  href: ~/tutorials/crm-queries.md    
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md                                
                 - name: Power BI templates
