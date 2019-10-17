@@ -6,7 +6,6 @@ title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/31/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -153,11 +152,23 @@ The upload of the .csv file starts the validation process.
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _We are validating your upload_ message.
+After you complete the steps in [Field mapping](#field-mapping), the **Upload** page shows the following message:
 
-   ![Validating the uploaded data](../images/wpa/setup/onboarding-validation-in-progress.png)
+![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
 
-During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel upload**. 
+After the file has successfully uploaded, file validation starts: 
+
+![Validating now](../images/wpa/setup/validation-full-screen.png) 
+
+In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
+
+During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different data file instead, select **Cancel**. 
+
+After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
+
+[Validation succeeds](#validation-succeeds)
+
+[Validation fails](#validation-fails)
 
 ## Validation succeeds
 

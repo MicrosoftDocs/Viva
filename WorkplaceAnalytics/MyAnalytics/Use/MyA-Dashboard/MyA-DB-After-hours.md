@@ -5,14 +5,13 @@
 title: How MyAnalytics uses after hours
 description: How MyAnalytics estimates the time you spend working after your work hours have ended
 author: paul9955
-ms.author: v-pascha
-ms.date: 02/21/2019
+ms.author: v-midehm
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
 ---
 
-## After hours 
+# After hours 
 
 ### How we calculate after hours
 
@@ -26,7 +25,7 @@ For example, the time you spend reading or sending email messages on weekends co
 
 #### Outlook settings define work hours
 
-Your work hours are defined by your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
+Your work hours are defined by your [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
 [!INCLUDE [Check your Outlook settings](../../Includes/to-check-your-outlook-settings.md)]
 

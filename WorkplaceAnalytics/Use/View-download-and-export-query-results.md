@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: View download and export Workplace Analytics query results
+title: View, download, and export Workplace Analytics query results
 description: Describes how to view, download, and export Workplace Analytics query results to PowerBI and other data analysis tools
 author: paul9955
 ms.author: v-midehm
@@ -13,22 +13,19 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-
-   > [!Note]
-   > You must have the analyst role in Workplace Analytics to view, download, or export query results.
-
-In Workplace Analytics, the **Analyze** > **Queries** > **Results** page lists all the queries that have been run for your organization.
+* **Role:** Analyst. You must have the analyst role in Workplace Analytics to view, download, or export query results.
+  
+In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries that have been run for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
 ![Query results tab](../images/wpa/use/query-results-page.png)
 
-In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete them, or get a link to access them as data in Power BI or Excel.
-
-   > [!Note]
-   > On the **Results** page, you can switch between **My results** and **All results**.
-
 ## View query results
 
-* Next to the query you want to view, select the ellipsis (**...**) > **View query**.
+On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (the results of queries that all analysts have run, as shown in the preceding screenshot) and **My results** (only the results of queries that the analyst who is viewing this page has run).
+
+1. In Workplace Analytics, open the **Analyze** > **Queries** > **Results** > **All results** page. 
+
+2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
   
 ## Use Workplace Analytics data in Power BI, Excel, or other data-analysis tool
 
@@ -42,9 +39,20 @@ You can use data from your queries in a data-analysis tool to do further analysi
 
 ### Download and import query results
 
-1. On the **Analyze** > **Queries** > **Results** page, next to the query you want, select **Download**. A .csv file of results is downloaded.
+The following steps are for Excel 2016. For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file.
 
-2. Import the .csv file into the data-visualization tool.  
+1. In **Analyze** > **Queries** > **Results** > **All results**, next to the query you want, select the **Download** icon.
+2. If prompted, select to download the query results as a .csv file.
+3. Select to open and right-click the zip file, which contains a .csv version of the query, and then select **Extract All** and extract the .csv to a local folder.
+4. Open **Excel**, select to open **a new document**, and then open **a blank workbook**.
+5. In the blank Excel workbook, select the **Data** tab at the top, and then select **Get Data** > **From File** > **From Text/CSV**.
+
+    ![import .csv file](../images/wpa/Use/import-csv.png)
+
+6. Locate, select, and open the .csv file you unzipped in step 3.
+7. In the **Text Import Wizard**, in **File Origin**, select **Unicode (UTF-8)**, and in **Preview**, confirm the data (including multi-byte characters) are shown correctly.​
+8. In **Delimiter**, select **Comma**, and in **Data Type Detection**, select the applicable option, and then select **Load**.
+9. Select **File** > **Save As** and save the file as an Excel (.xlsx) file to maintain the data in its currently formatted form, including multi-byte characters.​
 
 ### Get a link for an OData feed to use in Power BI
 

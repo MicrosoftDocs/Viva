@@ -6,7 +6,6 @@ title: Workplace Analytics privacy and data access
 description: Discusses the privacy and data access controls available in Workplace Analytics  
 author: paul9955
 ms.author: v-midehm
-ms.date: 08/08/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -44,7 +43,7 @@ You retain full control over what data is used and how it is used within Workpla
 
 Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user's mailbox and calendar:
 
-### Header information from emails
+### Header information from email
 
 * Who the sender is
 * Who the recipient is
@@ -74,7 +73,7 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 * The duration of the call
 
 > [!Important] 
-> Attachments and text in the body of emails and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private emails and meetings are excluded altogether.
+> Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private email and meetings are excluded altogether.
 
 ## Organizational data
 
@@ -93,10 +92,10 @@ If your Workplace Analytics licenses expire, you have until the end of your grac
 
 **To download query results**
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, If prompted, sign in with your work account.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
 2. In the left navigation, expand **Analyze** and then select the **Queries** page.
 3. Select **Results**. The Results page displays previously run queries.
-4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file. 
+4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file.
 
 <!-- 
 8/23 REMOVING ENTIRE OLD DATA RETENTION POLICY SECTION FOR NOW. TILL NEW TEMPORARY WORDING IS READY.

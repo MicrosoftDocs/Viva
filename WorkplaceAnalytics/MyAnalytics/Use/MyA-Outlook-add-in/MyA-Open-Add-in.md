@@ -2,17 +2,17 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Open the Insights Outlook add-in
 description: Open Insights Outlook add-in
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/11/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-## Open the Insights Outlook add-in
+# Open the Insights Outlook add-in
 
 The Insights Outlook add-in is automatically enabled for all users who have a license with the MyAnalytics service.
 

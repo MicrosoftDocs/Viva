@@ -6,7 +6,6 @@ title: Workplace Analytics privacy considerations
 description: Privacy considerations when using Workplace Analytics to analyze your organizational data
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/17/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa

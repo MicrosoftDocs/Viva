@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Documents
+# Documents
 
 MyAnalytics also shows information for OneDrive and SharePoint documents that you have worked on. As a MyAnalytics participant, you see the following insights: 
 
