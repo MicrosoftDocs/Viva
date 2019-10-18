@@ -40,10 +40,18 @@ You retain full control over what data is used and how it is used within Workpla
 
 Workplace Analytics processes data from these two sources&mdash;[collaboration data from Office 365](#data-from-office-365) and [organizational data](#organizational-data) from your own HR system&mdash;to provide your analysts with a unified pool of data on which to perform analyses. The following sections describe these two data sources: 
 
-### Data from Office 365
+### Collaboration data from Office 365
 
-Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information from that user's mailbox and calendar:
+Office 365 email and calendar metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information about items in that user's mailbox and calendar:
 
+ | item | originator | recipient | subject | chronology | status | venue | 
+ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
+ | email | sender | recipient | subject line | sent time |  |  | 
+ | meeting | organizer | invitees | subject line | scheduled time | attendee status | scheduled location | 
+ | call | organizer | invitees |  | scheduled time, call joined time, call duration | call/join status |  | 
+ | chat | sender of initial IM | recipient |  | IM sent time |  |  | 
+
+<!-- THE ABOVE TABLE MIGHT REPLACE THE FOLLOWING SECTIONS 
 #### Header information from email
 
 * Who the sender is
@@ -72,6 +80,8 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 * Who the invitees were and what their attendee/call join status was
 * When the call was scheduled (if it was a scheduled call)
 * The duration of the call
+
+-->
 
 > [!Important] 
 > Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private email and meetings are excluded altogether.
