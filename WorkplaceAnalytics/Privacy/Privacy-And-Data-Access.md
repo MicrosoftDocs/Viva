@@ -46,10 +46,10 @@ Office 365 email and calendar metadata provides the foundation for all Workplace
 
  | item | originator | recipient | subject | chronology | status | venue | 
  | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
- | email | sender | recipient | subject line | sent time |  |  | 
- | meeting | organizer | invitees | subject line | scheduled time | attendee status | scheduled location | 
- | call | organizer | invitees |  | scheduled time, call joined time, call duration | call/join status |  | 
- | chat | sender of initial IM | recipient |  | IM sent time |  |  | 
+ | **email** | sender | recipient | subject line | sent time |  |  | 
+ | **meeting** | organizer | invitees | subject line | scheduled time | attendee status | scheduled location | 
+ | **call** | organizer | invitees |  | scheduled time, <br>call joined time, <br>call duration | call/join status |  | 
+ | **chat** | sender of <br>initial IM | recipient |  | IM sent time |  |  | 
 
 <!-- THE ABOVE TABLE MIGHT REPLACE THE FOLLOWING SECTIONS 
 #### Header information from email
