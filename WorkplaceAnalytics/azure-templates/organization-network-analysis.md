@@ -109,15 +109,17 @@ You can apply the following node sizing options to change how the data is measur
 
 ### Boundary Spanning
 
-<!--  This option is only available in Subset Categorization analysis. -->Indicates the time employees spend collaborating with unique groups. Depending on the direction of the relationships, can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it. The network boundary is the largest group within your dataset. People that don't meet the filter conditions are excluded from the analysis.
+<!--  This option is only available in Subset Categorization analysis. -->Based on a defined group, Boundary Spanning measures the time an employee or group spends collaborating with members of other groups, with a boost for the diversity of their connections (number of groups). This does not consider ties inside their own group. 
+
+Depending on the direction of the relationships, it can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it. 
+
+The network boundary is the largest group within your dataset. People that don't meet the filter conditions are excluded from the analysis. For more details, see [the metric calculations](ona-metric-calculations.md#boundary-spanning).
 
 ### Bridging Index
 
-<!--  This option is only available in Subset Categorization analysis. -->Indicates potential control over the flow of information and points of failure or overload. High values can indicate gatekeepers, liaisons, or change agents. This role can be advantageous or stressful.
+Bridging Index is the number of times a person or group is on the most probable path of information flow between two other people or groups. Meaning these nodes represent the potential control over the flow of information in your organization.
 
-### Closeness
-
-Closeness measures the closeness between nodes in a network, based on their ability to reach them. It then calculates each node’s shortest path to every other node, then assigns each node a score based on the sum of all the paths. Nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information.
+High values can indicate gatekeepers, liaisons, or change agents. Can be advantageous or stressful playing this role. The periphery may be less influenced by others.
 
 ### Degrees
 
@@ -138,19 +140,7 @@ As shown in the following graphic, the table depicts the density score within an
 ### Influence Index
 
 <!--  This option is only available in Subset Categorization analysis. -->Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group’s perspective will flow through the organization with efficiency.
-<!--  
-### Interconnectedness
 
-This option is only available in Node View. Interconnectedness is a measure of how diverse a node’s connections are. The higher the interconnection for a node, the more that node’s connections come from other nodes. The nodes with high interconnection can be good ambassadors and help drive collaboration for the intersecting nodes.
-
-### Network size
-
-This option is only available in Subset Categorization analysis. Indicates size of social load without adjusting for potential quality of connections.
-
-### Number of employees
-
-This option is only available in Combined View. The node size is based on the number of people in that particular group. The larger node sizes represent the nodes with the larger number of people in that network.
--->
 ### Reach Index
 
 Represents ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person or group and others in the network. Nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information.
