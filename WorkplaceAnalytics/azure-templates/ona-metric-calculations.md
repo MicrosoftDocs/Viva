@@ -95,7 +95,13 @@ Density measures the number of actual connections out of the number of possible 
 
 Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s much harder for everyone to connect with everyone else. Be careful comparing across groups. Proportion of possible intra-community edge weight based on each node’s max edge weight. Higher density scores represent a better inwardly-connected community.
 
-This measure uses directionality, which means that the density between group A and group B will only count the interactions that went from A to B, but not those interactions that went from B to A. This also means that the densities between groups will vary depending on whether the density is from Group A to Group B or from Group B to Group A. In other words, the density matrix is not symmetric.
+This measure uses directionality, which means the density between group A and group B will only count the interactions that went from A to B, but not those interactions that went from B to A. This also means that the densities between groups will vary depending on whether the density is from Group A to Group B or from Group B to Group A. In other words, the density matrix is not symmetrical.
+
+The following table depicts the density score within and across the respective groups, where:
+
+ **Density** = **Actual connections**/**Potential connections**
+
+![Density table](./images/ona-density-table.png)
 
 The following is an example of a simplified Density network graph.
 

@@ -49,30 +49,36 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
 10. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
-## To add a subset dataset
+## To add new subgroup analysis
 
-Analysis of a subset (child) dataset and graph enables you to compare or focus your analysis on specific subgroups within the selected (parent) dataset.
+Subgroup analysis enables you to compare or focus your analysis on specific subgroups within the selected dataset.
 
-1. Select the dataset from the list, and then at top right, select **Add New Analysis** to create a subset (child) dataset.
+1. Select the dataset from the list, and then at top right, select **Add New Analysis**.
 2. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
 
    ![Add New Analysis](./images/ona-subgroup-analysis.png)
 
 3. Optionally, in **Specify the Network Boundary Condition**, select one or more filters to focus your analysis on.
-4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph. For [Boundary Spanning](#boundary-spanning), you'll need to also select what attributes by which to calculate it and show in the graph as nodes.
+4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
 5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Measures](#node-measures) for more details about the metric options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
-6. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you'll only get the monthly metric calculations.
-7. Select **Submit** to create the graph analysis.
+6. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated metric calculations for the whole date range and the monthly metric calculations for the selected date range. If you don't select this option, you won't get the monthly metric calculations.
+7. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
-## To view graph analysis
+## To view analysis
 
-1. After the analysis successfully loads, select the dataset from the list, and then at top right, select **Load Saved Graph**.
-2. Select the name of the graph analysis from the list. If no analysis has been created, the list will be empty.
-3. At top of the graph, you can select a new start and end date for the time range to analyze, and then select **Apply** to update the graph view.
+1. After the analysis successfully loads (green check mark), select the dataset from the list, and then:
+
+   * For new analysis, select **Render Graph**.
+   * For previously saved graphs, select **Load Saved Graph** (top right), and then select it from the list.
+
+   >Note:
+   >If no analysis was previously saved, the list will be empty.
+
+2. At top of the graph, you can select a new start and end date for the time range to analyze, and then select **Apply** to update the graph view.
 
    ![ONA date range](./images/ona-date-range.png)
 
-4. Use the following options to change, save, or download the current graph view.
+3. Use the following options to change the graph view and save new  analysis.
 
    Option |Name |Description
    ------------|--------------|------------
@@ -80,26 +86,28 @@ Analysis of a subset (child) dataset and graph enables you to compare or focus y
    ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
-   ![ONA network view](./images/ona-network-icons-3.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <ul><li> Force-directed - Assigns forces among the set of edges and the set of nodes in the graph. </li><li> Organic - *Definition coming soon*  </li><li> Tweak - Tries to keep nodes where they are when changing measures and other graph options.</li></ul>
+   ![ONA network view](./images/ona-network-icons-3.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries.</li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don’t want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined View | Change the graph view to Combined View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Changes Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![ONA change settings](./images/ona-settings.png) | Changes Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
-   ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new dataset.
-   ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown in the template to load and view later.
+   ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.
+   ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown to load and view later.
 
 ## To view a saved graph
 
 1. On the **Organizational Network Analysis** page, select the name of the dataset in the table, and then select the name of the graph in the table.
 2. At the top right of **Define Graph Settings**, select **Load Saved Graph**.
 3. Select the name of the graph that you want to view. If no analysis has been created, the subset list will be empty.
-4. Additional options on the analysis pages:
+4. Additional information and options on the analysis pages:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
    * If the analysis fails with the **Status** of a red x, select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
    * Select a table column heading, such as Name or Submitted, to sort by it.
    * Select the **Dataset Parameters** icon next to the name to view them for the analysis in that row.
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
-   * Select the **Download Dataset** icon to download an .xlsx file with the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Interconnectedness will have multiple values based on the attributes selected for the graph.
+   * Select the **Download Metrics** icon to download an .xlsx file with the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Boundary Spanning will have multiple values based on the attributes selected for the graph.
+
+![Organization Network Analysis pages](./images/ona-analysis-pages.png)
 
 ## Node Measures
 
@@ -109,9 +117,9 @@ You can apply the following node sizing options to change how the data is measur
 
 ### Boundary Spanning
 
-<!--  This option is only available in Subset Categorization analysis. -->Based on a defined group, Boundary Spanning measures the time an employee or group spends collaborating with members of other groups, with a boost for the diversity of their connections (number of groups). This does not consider ties inside their own group. 
+Based on a defined group, Boundary Spanning measures the time an employee or group spends collaborating with members of other groups, with a boost for the diversity of their connections (number of groups). This does not consider ties inside their own group.
 
-Depending on the direction of the relationships, it can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it. 
+Depending on the direction of the relationships, it can indicate resources to other functions, or cross-functional liaisons. Higher boundary spanning can indicate people with access to information that’s meaningfully different from what's available to others in the organization, or the ability to share it with others who're likely unfamiliar with it.
 
 The network boundary is the largest group within your dataset. People that don't meet the filter conditions are excluded from the analysis. For more details, see [the metric calculations](ona-metric-calculations.md#boundary-spanning).
 
@@ -119,27 +127,21 @@ The network boundary is the largest group within your dataset. People that don't
 
 Bridging Index is the number of times a person or group is on the most probable path of information flow between two other people or groups. Meaning these nodes represent the potential control over the flow of information in your organization.
 
-High values can indicate gatekeepers, liaisons, or change agents. Can be advantageous or stressful playing this role. The periphery may be less influenced by others.
+High values can indicate gatekeepers, liaisons, or change agents. Can be advantageous or stressful playing this role. The periphery may be less influenced by others. For more details, see [the metric calculations](ona-metric-calculations.md#bridging-index).
 
 ### Degrees
 
 Degrees measures the highest number of links to other nodes within the network. Nodes with a high degree of links are those people or groups who have the best connections to others in the network. These people or groups can be key influencers or might just be strategically important for communication.
 
-Degree centrality is based on the number of edges connected to a node. The overall degree is the number of incoming and outgoing edges connected to a node. The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node.
+Degree centrality is based on the number of edges connected to a node. The overall degree is the number of incoming and outgoing edges connected to a node. The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node. For more details, see [the metric calculations](ona-metric-calculations.md#degrees).
 
 ### Density
 
-This option is only available in the Network View. Density measures the number of actual connections out of the number of possible connections within a network or subgroup in a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s more difficult for everyone to connect with everyone else, so be cautious when comparing across groups. Dense groups indicate cohesion between members.
-
-As shown in the following graphic, the table depicts the density score within and across the respective groups, where:
-
- **Density** = **Actual connections**/**Potential connections**
-
-![Density table](./images/ona-density-table.png)
+This option is only available in the Network View. Density measures the number of actual connections out of the number of possible connections within a network or subgroup in a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s more difficult for everyone to connect with everyone else, so be cautious when comparing across groups. Dense groups indicate cohesion between members. For more details, see [the metric calculations](ona-metric-calculations.md#density).
 
 ### Influence Index
 
-<!--  This option is only available in Subset Categorization analysis. -->Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group’s perspective will flow through the organization with efficiency.
+Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group’s perspective will flow through the organization with efficiency.
 
 ### Reach Index
 
