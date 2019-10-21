@@ -39,7 +39,7 @@ It's important to note that the Reach Index scores are not simply the average (o
 
 A simple example of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you take the properties of hydrogen and oxygen (both gases) and average them together, it won't generate the properties of a water molecule. Just like atoms and molecules, how individuals are connected within a group in an organization makes the properties of the group different than the average properties of the individuals within the group. For these calculations, the template generates the properties of the group, which depends on the network structure. You can generate summary statistics of individuals within the group from the individual level metrics.
 
-For more overview, general information about these network measures, see the [Wikipedia Centrality article](https://en.wikipedia.org/wiki/Centrality).
+For more overview, general information about these network measures, see [Centrality on Wikipedia](https://en.wikipedia.org/wiki/Centrality).
 
 ## Boundary Spanning
 
@@ -81,9 +81,9 @@ Degrees measures the degrees (number of links) of all nodes in the graph, which 
 
 * **Group level**: The group degree centrality is the number of nodes outside the group that are connected to members of the group. The normalized group degrees is calculated as:
  
-  **Degrees** = |**N**(**C**)|/(|**V**|-|**D**|)
+   **Degrees** = |**N**(**C**)|/(|**V**|-|**D**|)
 
-   Where |**N**(**C**)| is the number of unique nodes which are not in **group C** but are adjacent to a member of **C**. And |**V**| is the number of nodes in the network and |**D**| is the number of nodes in group C. You can apply this same formula  to calculate indegree and outdegree measures by considering only “indegree” nodes or “outdegree” nodes.
+   Where |**N**(**C**)| is the number of unique nodes which are not in **group C** but are adjacent to a member of **C**. And |**V**| is the number of nodes in the network and |**D**| is the number of nodes in group C. You can apply this same formula to calculate indegree and outdegree measures by considering only “indegree” nodes or “outdegree” nodes.
 
 The following is an example of a simplified Degrees network graph.
 
@@ -109,11 +109,11 @@ The following is an example of a simplified Density network graph.
 
 ## Influence Index
 
-Influence Index as a centrality measure in social networks can be used as a measure of a node’s potential influence on opinions of the network or as an estimate of social status.  Basically, Influence Index counts the number and quality of edges coming into a node.  
+Influence Index is a centrality measure for social networks that measures a node’s potential influence on opinions of the network or as an estimate of social status.  Basically, Influence Index counts the number and quality of edges coming into a node.
 
-* **Employee level**: The calculations use the relative collaboration time between individuals as the weights of the edges in our determination of PageRank for a node.
+* **Employee level**: The calculations use the relative collaboration time between individuals as the weights of the edges in our determination of influence for a node.
 
-* **Group level**: For group metrics, the Influence Index is the number and quality of edges coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the edge weights between groups is the sum of the individual node weights connecting the two groups.  This group graph then forms a new adjacency matrix A_G which is fed into the original Influence Index algorithm described in the previous section.
+* **Group level**: For group metrics, the Influence Index is the number and quality of edges coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the edge weights between groups is the sum of the individual node weights connecting the two groups.
 
 The following is an example of a simplified Influence Index network graph.
 
@@ -127,7 +127,7 @@ This measure requires the network to be fully connected, which means that each n
 
 * **Employee level**: In a fully connected graph, where there is a path from any node to any other node, closeness is calculated as the reciprocal of "farness" (for example: 1/farness). The farness of a node is defined as the sum of the distances to each of the other nodes.
 
-* **Group level**: The group equation is the same as the employee level one. Essentially, the group closeness only considers the distances from nodes inside the group to nodes outside of the group. Within group distances are ignored and only the shortest paths between nodes are considered. It is normalized by the number of nodes outside of the source node’s group. Within group distances are ignored [1]. Again, we consider only the shortest paths between nodes. It is normalized by the number of nodes outside of the source node’s group C.
+* **Group level**: The group equation is the same as the employee level one. Essentially, the group closeness only considers the distances from nodes inside the group to nodes outside of the group. Within group distances are ignored and only the shortest paths between nodes are considered. It is normalized by the number of nodes outside of the source node’s group. Within group distances are ignored. Again, we consider only the shortest paths between nodes. It is normalized by the number of nodes outside of the source node’s group C.
 
 This value will be between 0 and 1 and usually larger than the reach of individual nodes, due to higher connectivity. Reach index values do not typically have large separation among the top ranked members. This means that those nodes highest in reach are all quite similar to each other in how they can connect to the rest of the network.
 

@@ -40,7 +40,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    * **Max # of members involved in each interaction**: Select the maximum number of people involved in each interaction.
    * **Min # of interactions**: Select the minimum number of interactions between the selected groups or people.
 
-6. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis.
+6. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro) to learn more about them.
 7. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
 8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**.
 9. In **Define Graph Settings**, either select filters for the graph, or select no filters to render a graph of all the data unfiltered, and then select **Render Graph**.
@@ -66,19 +66,19 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
 ## To view analysis
 
-1. After the analysis successfully loads (green check mark), select the dataset from the list, and then:
+1. After the analysis successfully loads (green check mark), select it from the list, and then:
 
    * For new analysis, select **Render Graph**.
-   * For previously saved graphs, select **Load Saved Graph** (top right), and then select it from the list.
+   * For previously saved analysis (graphs), select **Load Saved Graph** (top right), and then select it from the list.
 
    >Note:
-   >If no analysis was previously saved, the list will be empty.
+   >If no analysis has been saved yet, the list will be empty.
 
 2. At top of the graph, you can select a new start and end date for the time range to analyze, and then select **Apply** to update the graph view.
 
    ![ONA date range](./images/ona-date-range.png)
 
-3. Use the following options to change the graph view and save new  analysis.
+3. Use the following options to change the graph view and save new analysis.
 
    Option |Name |Description
    ------------|--------------|------------
@@ -127,25 +127,25 @@ The network boundary is the largest group within your dataset. People that don't
 
 Bridging Index is the number of times a person or group is on the most probable path of information flow between two other people or groups. Meaning these nodes represent the potential control over the flow of information in your organization.
 
-High values can indicate gatekeepers, liaisons, or change agents. Can be advantageous or stressful playing this role. The periphery may be less influenced by others. For more details, see [the metric calculations](ona-metric-calculations.md#bridging-index).
+High values can indicate gatekeepers, liaisons, or change agents. Can be advantageous or stressful playing this role. The periphery may be less influenced by others. For more details, see [Bridging Index metric calculations](ona-metric-calculations.md#bridging-index).
 
 ### Degrees
 
 Degrees measures the highest number of links to other nodes within the network. Nodes with a high degree of links are those people or groups who have the best connections to others in the network. These people or groups can be key influencers or might just be strategically important for communication.
 
-Degree centrality is based on the number of edges connected to a node. The overall degree is the number of incoming and outgoing edges connected to a node. The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node. For more details, see [the metric calculations](ona-metric-calculations.md#degrees).
+Degree centrality is based on the number of edges connected to a node. The overall degree is the number of incoming and outgoing edges connected to a node. The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node. For more details, see [Degree metric calculations](ona-metric-calculations.md#degrees).
 
 ### Density
 
-This option is only available in the Network View. Density measures the number of actual connections out of the number of possible connections within a network or subgroup in a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s more difficult for everyone to connect with everyone else, so be cautious when comparing across groups. Dense groups indicate cohesion between members. For more details, see [the metric calculations](ona-metric-calculations.md#density).
+This option is only available in the Network View. Density measures the number of actual connections out of the number of possible connections within a network or subgroup in a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s more difficult for everyone to connect with everyone else, so be cautious when comparing across groups. Dense groups indicate cohesion between members. For more details, see [Density metric calculations](ona-metric-calculations.md#density).
 
 ### Influence Index
 
-Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group’s perspective will flow through the organization with efficiency.
+Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group’s perspective will flow through the organization with efficiency. For more details, see [Influence Index metric calculations](ona-metric-calculations.md#influence-index).
 
 ### Reach Index
 
-Represents ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person or group and others in the network. Nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information.
+Represents ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person or group and others in the network. Nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information. For more details, see [Reach Index metric calculations](ona-metric-calculations.md#reach-index).
 
 > [!Note]
 > Weights are not factored into Reach Index computations.
