@@ -40,7 +40,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    * **Max # of members involved in each interaction**: Select the maximum number of people involved in each interaction.
    * **Min # of interactions**: Select the minimum number of interactions between the selected groups or people.
 
-6. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro) to learn more about them.
+6. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
 7. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
 8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**.
 9. In **Define Graph Settings**, either select filters for the graph, or select no filters to render a graph of all the data unfiltered, and then select **Render Graph**.
@@ -103,7 +103,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
    * If the analysis fails with the **Status** of a red x, select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
    * Select a table column heading, such as Name or Submitted, to sort by it.
-   * Select the **Dataset Parameters** icon next to the name to view them for the analysis in that row.
+   * Select the **Parameters** icon next to the name to view them for the analysis in that row.
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
    * Select the **Download Metrics** icon to download an .xlsx file with the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Boundary Spanning will have multiple values based on the attributes selected for the graph.
 

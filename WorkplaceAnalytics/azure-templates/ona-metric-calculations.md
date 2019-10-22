@@ -28,7 +28,7 @@ You can apply the following node sizing options to change how the data is measur
 
 All the network analysis metrics are calculated as *weighted* (based on the strength of connections between people or groups, which are not the same for everyone) and *directed* graphs (because a person can give time to their colleagues without receiving time from them). These calculations more accurately represents the interactions between people and individuals within the company.
 
-These metrics can be computed on an individual- and on a group-level basis. The individual metrics apply to a single person (de-identified), while the group metrics apply to a specific set of people, such as a department within the organization.
+These metrics can be computed for individuals or at a group level. The individual metrics apply to a single person (de-identified), while the group metrics apply to a specific set of people, such as a department within the organization.
 
 The interpretation of the metrics for individuals and groups is the same. For example:
 
@@ -37,21 +37,21 @@ The interpretation of the metrics for individuals and groups is the same. For ex
 
 It's important to note that the Reach Index scores are not simply the average (or median, maximum, minimum) of the scores of the individuals within the group. They are the actual scores of the group. In some cases, the two may be equal but that's generally not the case.
 
-A simple example of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you take the properties of hydrogen and oxygen (both gases) and average them together, it won't generate the properties of a water molecule. Just like atoms and molecules, how individuals are connected within a group in an organization makes the properties of the group different than the average properties of the individuals within the group. For these calculations, the template generates the properties of the group, which depends on the network structure. You can generate summary statistics of individuals within the group from the individual level metrics.
+A simple example of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you take the properties of hydrogen and oxygen (both gases) and average them together, it won't generate the properties of a water molecule. Just like atoms and molecules, how individuals are connected within an organizational group makes the properties of the group different than the average properties of the individuals within the group. For these metric calculations, the template generates the properties of the group, which depend on the network structure. You can generate summary statistics of individuals within the group from the individual-level metrics.
 
 For more overview, general information about these network measures, see [Centrality on Wikipedia](https://en.wikipedia.org/wiki/Centrality).
 
 ## Boundary Spanning
 
-Based on a defined group, Boundary Spanning measures an employee’s collaboration with members of other groups, with a boost for the diversity of their connections (number of groups). This does not consider ties inside their own group.
+For a defined group, Boundary Spanning measures an employee’s collaboration with members of other groups, with a boost for the diversity of their connections (number of groups). This does not consider ties inside their own group.
 
 It measures the extent to which employees act as representatives of their group across the organization. Depending on the direction of the relationships, it can indicate resources to other functions, or cross-functional liaisons.
 
-* **Employee level**: Boundary Spanning is defined as the geometric mean between the total collaboration time a person gave to those outside of their group and the total number of unique groups this same person collaborated with.
+* **Employee level**: Boundary Spanning is the geometric mean between the total collaboration time a person gave to those outside of their group and the total number of unique groups this same person collaborated with.
 
-* **Group level**: The definition is the same for groups as for employees, except that the totals represent a group instead of a person. It's the geometric mean between the total collaboration time a specified group spent with people outside its own group and the total number of unique, external groups that the group collaborated with.
+* **Group level**: This is the same for groups as for employees, except that the totals represent a group instead of a person. It's the geometric mean between the total collaboration time a specified group spent with people outside its own group and the total number of unique, external groups that the group collaborated with.
 
-The following is an example of a simplified Boundary Spanning network graph.
+The following is an example of a simplified Boundary Spanning network.
 
 ![Boundary Spanning graph](./images/boundary-spanning.png)
 
@@ -67,7 +67,7 @@ Information flow through a network is often characterized by random-walk between
 
 * **Group level**: At a group level, the Bridging Index sums the importance scores of a group’s incident edges, where the importance score of edges is the same for both employee and group level metrics. As such, we calculate the importance scores for all edges in the network and then sum up the importance scores for edges incident to the group of interest.
 
-The following is an example of a simplified Bridging Index network graph.
+The following is an example of a simplified Bridging Index graph.
 
 ![Bridging Index graph](./images/bridging.png)
 
@@ -85,7 +85,7 @@ Degrees measures the degrees (number of links) of all nodes in the graph, which 
 
    Where |**N**(**C**)| is the number of unique nodes which are not in **group C** but are adjacent to a member of **C**. And |**V**| is the number of nodes in the network and |**D**| is the number of nodes in group C. You can apply this same formula to calculate indegree and outdegree measures by considering only “indegree” nodes or “outdegree” nodes.
 
-The following is an example of a simplified Degrees network graph.
+The following is an example of a simplified Degrees graph.
 
 ![Degrees graph](./images/degrees.png)
 
@@ -103,7 +103,7 @@ The following table depicts the density score within and across the respective g
 
 ![Density table](./images/ona-density-table.png)
 
-The following is an example of a simplified Density network graph.
+The following is an example of a simplified Density graph.
 
 ![Density graph](./images/density.png)
 
@@ -115,7 +115,7 @@ Influence Index is a centrality measure for social networks that measures a node
 
 * **Group level**: For group metrics, the Influence Index is the number and quality of edges coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the edge weights between groups is the sum of the individual node weights connecting the two groups.
 
-The following is an example of a simplified Influence Index network graph.
+The following is an example of a simplified Influence Index graph.
 
 ![Influence Index graph](./images/influence.png)
 
@@ -131,7 +131,7 @@ This measure requires the network to be fully connected, which means that each n
 
 This value will be between 0 and 1 and usually larger than the reach of individual nodes, due to higher connectivity. Reach index values do not typically have large separation among the top ranked members. This means that those nodes highest in reach are all quite similar to each other in how they can connect to the rest of the network.
 
-The following is an example of a simplified Reach Index network graph.
+The following is an example of a simplified Reach Index graph.
 
 ![Reach Index graph](./images/reach.png)
 
