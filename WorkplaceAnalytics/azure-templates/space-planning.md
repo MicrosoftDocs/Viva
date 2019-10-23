@@ -51,17 +51,17 @@ This template combines the data in these files and generates a table that shows 
 
 5. Enter or select the following to create the query.
 
-   a. **Name**: **Interaction**
-   b. **Group by**: **Week**
-   c. **Time period**: **3 months** (to start with)
-   d. **Meeting exclusion**: **Tenant Default Meeting Exclusion Rule**
-   e. **Select metrics**: **Collaboration Hours**
-   f. **Time investors**
+   a. Name: **Interaction**
+   b. Group by: **Week**
+   c. Time period: **3 months** (to start with)
+   d. Meeting exclusion: **Tenant Default Meeting Exclusion Rule**
+   e. Select metrics: **Collaboration Hours**
+   f. Time investors
 
       * Group the time investors by: **Organization**
       * Limit the analysis to certain time investors: None
 
-   g. **Their collaborators**
+   g. Their collaborators
 
       * Exclude collaborators: None
       * Group people who collaborated with time investors: **Organization**
@@ -96,7 +96,7 @@ This template combines the data in these files and generates a table that shows 
 3. Starting in the second row and column, enter the distances where the corresponding locations intersect to denote the distance between the two locations.
 4. Save and close the file.
 
-   ![Distance table](./images/wsp-distance.png)
+   ![Distance table](./images/wsp-distance-table.png)
 
 ## Create a Team size file
 
