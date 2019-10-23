@@ -77,7 +77,7 @@ This template combines the data in these files and generates a table that shows 
 
 ## To create a Floor capacity file
 
-1. Open and save the [floor_capacity.csv](./includes/floor_capacity.csv) file to local storage.
+1. Open and save the [floor_capacity.csv](./images/floor_capacity.csv) file to local storage.
 2. On the first row in the file, to the right of **Floor**, replace the example floor names with your own that match the same format of [**Building name** - **Floor number**], as shown in the following graphic.
 3. In the Capacity row, replace the example numbers with the maximum capacity for each of the corresponding floors listed.
 4. Save and close the file.
@@ -91,7 +91,7 @@ This template combines the data in these files and generates a table that shows 
 > * For distances between floors directly above and below each other, use a default value of 1.
 > * You also need the measures of distances between working spaces. For example, the distance between [Building A, Floor 1] and [Building A, Floor 2] the starting and ending points of measure need to be between clusters of employee seating arrangements and not entrances to the floor.
 
-1. Open and save the [distance.csv](./includes/distance.csv) file to local storage.
+1. Open and save the [distance.csv](./images/distance.csv) file to local storage.
 2. In the first row and the first column, replace the example data with the locations being processed with the structure that match the same format of [**Building name** - **Floor number**], such as in the following graphic.
 3. Starting in the second row and column, enter the distances where the corresponding locations intersect to denote the distance between the two locations.
 4. Save and close the file.
@@ -103,7 +103,7 @@ This template combines the data in these files and generates a table that shows 
 > [!Note]
 >Employees can only be included in one team.
 
-1. Open and save the [team_size.csv](./includes/team_size.csv) file to local storage.
+1. Open and save the [team_size.csv](./images/team_size.csv) file to local storage.
 2. In the second row, replace the example data with your own that matches the same format:
    a. **Team** column is the name or function of each team.
    b. **Size** is the number of employees within the correlating team.
