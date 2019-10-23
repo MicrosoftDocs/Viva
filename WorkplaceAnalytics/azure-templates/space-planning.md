@@ -42,8 +42,8 @@ This template combines the data in these files and generates a table that shows 
 
 ## To create an Interaction file
 
-1. Confirm you have the role of [Workplace Analytics Analyst](../use/user-roles.md), which is required to create the interaction .csv file.
-2. Sign in and open [Workplace Analytics](https://workplaceanalytics.office.com/Home).
+1. Confirm you are assigned the [Analyst role in Workplace Analytics](../use/user-roles.md), which is required to create the interaction .csv file.
+2. Sign in as an Analyst and open [Workplace Analytics](https://workplaceanalytics.office.com/Home).
 3. Select **Analyze** > **Queries**.
 4. In **Start customer query**, select **Group-to-group query**.
 
