@@ -137,4 +137,5 @@ You can see data about the categorized email and meetings on the dashboard. Also
 ## Related topics
 
 * [Workplace Analytics Azure Templates overview](./overview.md)
+* [What's new in Workplace Analytics Azure Templates](./release-notes.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
