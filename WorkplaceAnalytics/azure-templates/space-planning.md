@@ -42,10 +42,10 @@ This template combines the data in these files and generates a table that shows 
 
 ## To create an Interaction file
 
-1. Confirm you are assigned the [Analyst role in Workplace Analytics](../use/user-roles.md), which is required to create the interaction .csv file.
+1. Confirm you are assigned the [Analyst role in Workplace Analytics](../use/user-roles.md), which is required to create this file.
 2. Sign in as an Analyst and open [Workplace Analytics](https://workplaceanalytics.office.com/Home).
 3. Select **Analyze** > **Queries**.
-4. In **Start customer query**, select **Group-to-group query**.
+4. In **Start custom query**, select **Group-to-group query**.
 
    ![Interaction group-to-group query](./images/wsp-g2g-query.png)
 
@@ -104,10 +104,14 @@ This template combines the data in these files and generates a table that shows 
 >Employees can only be included in one team.
 
 1. Open and save the [team_size.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/team_size.csv) file to local storage.
-2. In the second row, replace the example data with your own that matches the same format:
-   a. **Team** column is the name or function of each team.
-   b. **Size** is the number of employees within the correlating team.
+2. In the second row, replace the example data with your own that matches the same format, as shown in the following graphic.
+
+   a. **Team**: Enter the name or function of each team.
+   b. **Size**: Enter the number of employees that are in each corresponding team.
+
 3. Save and close the file.
+
+   ![Team size table](./images/wsp-team-table.png)
 
 ## To generate a Floor Plan
 
