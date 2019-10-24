@@ -3,7 +3,7 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Metric calculations for Organizational Network Analysis Azure template
+title: Measure calculations for Organizational Network Analysis Azure template
 description: Learn how the metrics are calculated for the Organizational Network Analysis Azure Template for Workplace Analytics
 author: madehmer
 ms.author: v-midehm
@@ -14,32 +14,45 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Metric calculations for the Organizational Network Analysis Azure template
+# Measure calculations for the Organizational Network Analysis Azure template
 
 _This template is only available as part of a Microsoft service engagement._
 
-The Organizational Network Analysis Azure template for Workplace Analytics has a variety of metrics to help you visualize and analyze formal and informal relationships within your organization.
+The Organizational Network Analysis Azure template for Workplace Analytics has a number of measures to help you visualize and analyze formal and informal relationships within your organization.
 
-You can apply the following node sizing options to change how the data is measured and shown in the template graphs. The following shows the measures (metrics) available in the *Combined View* of a network graph.
+Each dot or node in the template's network graph represents either an employee or a group. The lines between the nodes represent connections, which are collaborative relationships between the connected employees or groups.
 
-![Organization Network Analysis measures](./images/ona-combined-view-measures.png)
+The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
 
-## Weighted and directed calculations
+## Highlight key network connections
 
-All the network analysis metrics are calculated as *weighted* (based on the strength of connections between people or groups, which are not the same for everyone) and *directed* graphs (because a person can give time to their colleagues without receiving time from them). These calculations more accurately represents the interactions between people and individuals within the company.
+You can size the nodes and connections based on what you want to highlight by using the **Scale Nodes** option (No Measure by default) at the top. The following shows the measures available in a *Network View* of the graph:
 
-These metrics can be computed for individuals or at a group level. The individual metrics apply to a single person (de-identified), while the group metrics apply to a specific set of people, such as a department within the organization.
+![Network View measures](./images/ona-combined-measures.png)
 
-The interpretation of the metrics for individuals and groups is the same. For example:
+And the measure options available for the *Combined View* of the graph, which include Density as an additional Scale Node option that’s only available in this view:
 
-* If a person has a high Reach Index, it indicates the person is closer to everyone in the network than those with lower scores.
-* If a group has a high Reach Index, it indicates the group is closer to everyone in the network than other groups with lower scores.
+![Combined View measures](./images/ona-network-measures.png)
 
-It's important to note that the Reach Index scores are not simply the average (or median, maximum, minimum) of the scores of the individuals within the group. They are the actual scores of the group. In some cases, the two may be equal but that's generally not the case.
+## How are the measures for people and graph different?
 
-A simple example of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you take the properties of hydrogen and oxygen (both gases) and average them together, it won't generate the properties of a water molecule. Just like atoms and molecules, how individuals are connected within an organizational group makes the properties of the group different than the average properties of the individuals within the group. For these metric calculations, the template generates the properties of the group, which depend on the network structure. You can generate summary statistics of individuals within the group from the individual-level metrics.
+Each of the measures are based on the connections between the nodes. To ensure the calculations accurately represent the interactions between people or groups within the organization, the measures account for connection weight and direction:
 
-For more overview, general information about these network measures, see [Centrality on Wikipedia](https://en.wikipedia.org/wiki/Centrality).
+* Connections are weighted based on the amount of collaboration time in meetings and email between two nodes (connection strength).
+* They are also directed because they specifically account for who sent and who received email. For these calculations, meetings do not have direction.
+
+## How are the measures for people and graph different?
+
+The measure interpretations for employees and groups are the same. For example:
+
+* If an employee has a high degree, it indicates the person has more connections in the network than those with lower scores.
+* If a group has a high degree, it indicates the group has more connections in the network than other groups with lower scores.
+
+However, group measures are not simply the average (or median, maximum, or minimum) of the scores of the employees within the group. Instead it’s the cumulative score of how the people within the group interact with people in other groups. In some cases, the two may be equal but that's generally not the case.
+
+A simple example of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you take the properties of hydrogen and oxygen (both gases) and average them together, it won't generate the properties of a water molecule. Just like atoms and molecules, how the people are connected within an organizational group makes the properties of the group different than the average properties of the individual people within the group. For these measures, the template generates the properties of the group, which depend on the network structure. You can generate summary statistics of employees within the group from the employee-level (de-identified) measures.
+
+For more overview, general information about these network measures, see [Centrality](https://en.wikipedia.org/wiki/Centrality).
 
 ## Boundary Spanning
 
