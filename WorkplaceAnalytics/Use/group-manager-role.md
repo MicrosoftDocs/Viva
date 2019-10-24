@@ -36,8 +36,6 @@ Because a GM can work only with their reports, they cannot define arbitrary grou
 
 A plan that a GM creates automatically contains the data of the GM's reporting structure. All members of the group, including the GM, are automatically signed up for the plan. 
 
-**Role:** group manager
-
 1. As a GM, when you open Workplace Analytics, you go directly to the **Solutions** page.
 
    ![Pick a plan](../images/wpa/tutorials/pick-a-plan.png)
