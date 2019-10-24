@@ -21,7 +21,7 @@ audience: Admin
 
   - [Office 365 data](#office-365-data)
   - [Organizational data](#organizational-data)
-<!--  - [CRM data](#crm-data) Wait until CRM data is WW to publish this section -->
+  - [CRM data](#crm-data)
 
 ![Sources](../images/WpA/Use/sources-o365.png)
 
@@ -102,7 +102,7 @@ For more information about what data is needed for metric calculations, see:
 
 * [Metric definitions](../Use/Metric-definitions.md)
 
-<!--  ## CRM data
+## CRM data
 
 This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
@@ -143,4 +143,3 @@ To view a list of the top 100 values for an attribute, select the attribute's na
 * Type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
 
 ![View CRM attribute values for accounts](../images/wpa/Use/crm-account-attribute-values.png)
--->

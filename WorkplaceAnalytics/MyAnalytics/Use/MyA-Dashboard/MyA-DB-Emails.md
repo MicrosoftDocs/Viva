@@ -11,7 +11,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Email 
+# Email 
 
 ### How we calculate email hours
 

@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Insights
+# Insights
 
 The personal dashboard of MyAnalytics offers _insights_. An insight is a card that presents you with a statistic that was derived from your recent workplace habits and suggests a way to change this habit for the better.
 
