@@ -26,13 +26,11 @@ The node measures for employees are de-identified to maintain their privacy. Gro
 
 ## Highlight key network connections
 
-You can size the nodes and connections based on what you want to highlight by using the **Scale Nodes** option (No Measure by default) at the top. The following shows the measures available in a *Network View* of the graph:
+You can size the nodes and connections based on what you want to highlight by using the **Scale Nodes** option (**No Measure** by default) at the top.
 
-![Combined View measures](./images/ona-network-measures.png)
+The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degrees](#degrees), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
 
-And the measure options available for the *Combined View* of the graph, which include Density as an additional Scale Node option that’s only available in this view:
-
-![Network View measures](./images/ona-combined-measures.png)
+![Node Sizing Options](./images/ona-node-options.png)
 
 ## How are connections measured?
 
@@ -56,35 +54,35 @@ Just like atoms and molecules, how people are connected within an organizational
 
 For more general information about these network measures, see [Centrality](https://en.wikipedia.org/wiki/Centrality).
 
-
-
 ## Boundary Spanning
+
+Boundary Spanning measures the extent to which employees act as representatives of their group across the organization. It indicates the sharing of information with other groups.
 
 For a defined group, Boundary Spanning measures an employee’s collaboration with members of other groups, with a boost for the diversity of their connections (number of groups). This does not consider ties inside their own group.
 
-It measures the extent to which employees act as representatives of their group across the organization. Depending on the direction of the relationships, it can indicate resources to other functions, or cross-functional liaisons.
+* **Employee level**: Boundary Spanning is the geometric mean between the total collaboration time a person spent with those outside of their group (emails sent and meetings attended) and the total number of unique groups this same person collaborated with.
 
-* **Employee level**: Boundary Spanning is the geometric mean between the total collaboration time a person gave to those outside of their group and the total number of unique groups this same person collaborated with.
+* **Group level**: This is the same for groups as for employees, except that the totals represent a group instead of a person. It's the geometric mean between the total collaboration time a specified group gave to people outside its own group and the total number of unique, external groups that the group collaborated with.
 
-* **Group level**: This is the same for groups as for employees, except that the totals represent a group instead of a person. It's the geometric mean between the total collaboration time a specified group spent with people outside its own group and the total number of unique, external groups that the group collaborated with.
-
-The following is an example of a simplified Boundary Spanning network.
+The following shows a Boundary Spanning network where the largest node is the boundary spanner.
 
 ![Boundary Spanning graph](./images/boundary-spanning.png)
 
 ## Bridging Index
 
-Bridging Index is the number of times a person or group is on the most probable path of information flow between two other people or groups. Meaning these nodes represent the potential control over the flow of information in your organization.
+The Bridging Index represents employees or groups that potentially control the flow of information throughout the network. The nodes with high Bridging Index values can indicate gatekeepers or liaisons of information or change agents. Depending on the function of the group or individual, it can be advantageous or stressful playing this role in an organization.
 
-Information flow through a network is often characterized by random-walk betweenness measures, which do not limit the flow of information through a network to the shortest paths. The traditional definition of current-flow bridging is computationally expensive. As such, this template uses a more computationally efficient measure of the importance score of an edge and the probability that information visiting an edge through a node will stay at the edge.
+It is the number of times a person or group is on the most probable path of information flow between two other people or groups. The value is greater than 0, where the largest value is the highest ranked node.
 
-* **Employee level**: The Bridging Index calculates the importance scores for all edges in the network and then sums up the importance scores for edges incident to the employee of interest.
+This measure accounts for both directionality and tie strength. The most meaningful information from Bridging Index is the rank of the nodes.For example, assume that node A has a Bridging Index of 0.7 and node B has a Bridging Index of 0.35. You can accurately assume that node A tends to control more information throughout the network than node B, because node A ranks higher than node B. However, you cannot assume node A controls twice as much information or is twice as likely to be a change agent in the network as node B, because the values indicate a *ranking* of information flow and not the *amount* of information.
 
-  When comparing the average across aggregated employees, you need to normalize this measure by the size of each person’s group. You can either divide by the group’s maximum, or by the adjusted group size: [(n-1)*(n-2)]/2. For groups, use the group level measures instead.
+This measure is not limited to the shortest paths between nodes but accounts for all possible ways that information flows between nodes in a network.
 
-* **Group level**: At a group level, the Bridging Index sums the importance scores of a group’s incident edges, where the importance score of edges is the same for both employee and group level metrics. As such, we calculate the importance scores for all edges in the network and then sum up the importance scores for edges incident to the group of interest.
+* **Employee level**: The Bridging Index calculates the tendency for information to flow between a given connection in the network and converts them into importance scores. An individual’s Bridging Index of all connection importance scores that are connected to the employee of interest.
 
-The following shows the largest node as the bridge between the other nodes in the graph.
+* **Group level**: At a group level, the Bridging Index sums up the importance scores of a group’s connections to nodes outside of its own group, where the importance score of connections is the same for both employee and group level metrics. As such, we calculate the importance scores for all connections in the network and then sum up the importance scores for connections to the group of interest.
+
+The following shows a Bridging Index network where the largest node is the bridge that controls the flow of information to the other nodes in the graph.
 
 ![Bridging Index graph](./images/bridging.png)
 
@@ -94,45 +92,41 @@ Degrees is based on the number of connections to a node. The overall degree is t
 
 Degrees measures the degrees (number of links) of all nodes in the graph, which does not count any self-links (links that have the same node at both ends). Where there are multiple links between two nodes, each link is counted.
 
-* **Employee level**: These are all calculated with [GraphX by Apache Spark](https://spark.apache.org/graphx/).
+* **Employee level**: These are all calculated by counting the number of connections to an individual employee. The value is between 0 and 1 because it is divided by the total number of employees in the graph.
 
-* **Group level**: The group degree centrality is the number of nodes outside the group that are connected to members of the group. The normalized group degrees is calculated as:
- 
-   **Degrees** = |**N**(**C**)|/(|**V**|-|**D**|)
+* **Group level**: The group degree centrality is the unique number of nodes outside the group that are connected to members of the group. The value is between 0 and 1 because it is divided by the number of people outside of the group.
 
-   Where |**N**(**C**)| is the number of unique nodes which are not in **group C** but are adjacent to a member of **C**. And |**V**| is the number of nodes in the network and |**D**| is the number of nodes in group C. You can apply this same formula to calculate indegree and outdegree measures by considering only “indegree” nodes or “outdegree” nodes.
-
-The following is an example of a simplified Degrees graph.
+The following shows a Degrees network where the largest node has the highest degree (five) of connections in the graph.
 
 ![Degrees graph](./images/degrees.png)
 
 ## Density
 
-Density measures the number of actual connections out of the number of possible connections within a network or subgroup.
+Density measures how many and how strongly employees within groups or between groups are connected. Higher density indicates higher levels of connectivity within or between communities. Dense groups indicate a cohesion among the members of that group. Less dense groups are at risk of being siloed and might not be receiving useful information from other group members.  
 
-Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s much harder for everyone to connect with everyone else. Be careful comparing across groups. Proportion of possible intra-community edge weight based on each node’s max edge weight. Higher density scores represent a better inwardly-connected community.
+Density is the number of actual connections among employees divided by the total possible number of connections that could exist among the same employees. The measure accounts for the strength of the connections between individuals and normalizes them to help control  the tendency of larger groups to have lower densities. This makes it easier to compare densities for different groups with different sizes. Density values are between 0 and 1, where 1 indicates that all individuals in that group are strongly connected to each other.
 
-This measure uses directionality, which means the density between group A and group B will only count the interactions that went from A to B, but not those interactions that went from B to A. This also means that the densities between groups will vary depending on whether the density is from Group A to Group B or from Group B to Group A. In other words, the density matrix is not symmetrical.
+This measure also uses directionality, which means the density between group A and group B will only count the interactions that went from A to B, but not the interactions that went from B to A. Because the densities between groups will vary depending on whether the density is from group A to B or from B to A, the density matrix is not symmetrical.
 
-The following table depicts the density score within and across the respective groups, where:
-
- **Density** = **Actual connections**/**Potential connections**
+In the following density table, the direction of connections is the groups listed in the left-hand column (senders) are connected with and send information to the groups listed across the top row of the table (recipients). The density of communication going from group A to group B is the intersecting number for group A on the left-hand column and group B across the top of the table.
 
 ![Density table](./images/ona-density-table.png)
 
-The following is an example of a simplified Density graph.
+The following shows a Density network that highlights the density of connections between the nodes.
 
 ![Density graph](./images/density.png)
 
 ## Influence Index
 
-Influence Index is a centrality measure for social networks that measures a node’s potential influence on opinions of the network or as an estimate of social status.  Basically, Influence Index counts the number and quality of edges coming into a node.
+Influence Index indicates a node’s potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The value is greater than zero where the largest value is the highest ranked node.
 
-* **Employee level**: The calculations use the relative collaboration time between individuals as the weights of the edges in our determination of influence for a node.
+The most meaningful information from Influence Index is the rank of the nodes. For example, assume that node A has an Influence Index of 0.6 and node B has an Influence Index of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a *ranking* or source of influence, not the *amount* of influence.
 
-* **Group level**: For group metrics, the Influence Index is the number and quality of edges coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the edge weights between groups is the sum of the individual node weights connecting the two groups.
+* **Employee level**: The calculations use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
 
-The following is an example of a simplified Influence Index graph.
+* **Group level**: For group metrics, the Influence Index is the number and strength of connections coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the tie strengths between groups is the sum of the individual node strengths connecting the two groups.
+
+The following is an Influence Index where the largest node has the highest ranking influence in the graph.
 
 ![Influence Index graph](./images/influence.png)
 
