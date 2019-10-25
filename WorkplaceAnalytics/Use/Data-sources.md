@@ -36,7 +36,7 @@ Using Data sources metrics, Workplace Analytics administrators and data analysts
 
 The Data sources summary provides the following information about your data:
 
-* The number of **measured employees** for whom your Workplace Analytics administrator assigned licenses to during setup. Workplace Analytics collects meeting and email data for these people. As an Analyst or Limited Analyst, this is the population you can analyze within Workplace Analytics. This number can help determine whether you have a good representation of the organization.  
+* The number of **measured employees** for whom your Workplace Analytics administrator assigned licenses during setup. After license assignments, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
 
 * The number of people not part of your measured population (both internal and external) with whom the measured employees collaborated.
 
