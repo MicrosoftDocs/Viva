@@ -62,7 +62,7 @@ A plan that a GM creates automatically contains the employees of the GM's report
     ![Group manager -- set up new plan](../images/wpa/tutorials/gm-set-up-new-plan-2.png) 
 --> 
 
-### Track progress (Group manager role)
+### Track progress (group manager role)
 
 Once a plan is underway, you can view the **Manage** page to track the plan’s progress. 
 
