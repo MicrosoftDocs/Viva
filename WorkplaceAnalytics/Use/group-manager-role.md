@@ -17,9 +17,9 @@ audience: Admin
 
 # Manager-deployed solutions
 
-The group manager (GM) role has a well-defined purpose in Workplace Analytics: It lets leaders create change-management plans for employees in their reporting structure. 
+A manager can create change-management plans for the people in their reporting structure. To do this, the manager makes use of their group manager (GM) role, which was defined for exactly that purpose: creating and tracking plans for the manager's group. 
 
-The role of group manager has predefined and unalterable scope: The employees in the reporting structure&mdash;all of their reports, direct and indirect&mdash;are automatically assigned to the GM's group. (The GM is also included in this group.)
+The group-manager role has predefined and unalterable scope: The employees in the reporting structure&mdash;all of their reports, direct and indirect&mdash;are automatically assigned to the GM's group. (The GM is also included in this group.)
 
 Change management plans are part of the **Solutions** feature of Workplace Analytics to which the GMs have access. Under **Solutions**, GMs can also open the **Solutions** &gt; **Manage** and **Solutions** &gt; **Track** pages, where they can track the progress of their own active plans and the state of their own completed plans.  
 
