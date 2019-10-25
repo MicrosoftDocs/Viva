@@ -116,6 +116,8 @@ The following shows a Density network that highlights the density of connections
 
 ![Density graph](./images/density.png)
 
+For more information see Density.
+
 ## Influence Index
 
 Influence Index indicates a node’s potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The value is greater than zero where the largest value is the highest ranked node.
@@ -126,26 +128,31 @@ The most meaningful information from Influence Index is the rank of the nodes. F
 
 * **Group level**: For group metrics, the Influence Index is the number and strength of connections coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the tie strengths between groups is the sum of the individual node strengths connecting the two groups.
 
-The following is an Influence Index where the largest node has the highest ranking influence in the graph.
+The following is an Influence Index network where the largest node has the highest ranking influence in the graph.
 
 ![Influence Index graph](./images/influence.png)
 
+For more information see PageRank.
+
 ## Reach Index
 
-Reach Index measures how close a node is to all other nodes in the network. It was originally defined as the inverse of a node’s farness, where farness is the sum of the distances from the node to all the other nodes in the network.
+Reach Index indicates the ability to access or share information across the organization while going through the fewest number of people. Those people or groups that have high Reach Index values are most likely spreading information within the network and might be effective in the adoption of new ideas.
 
-This measure requires the network to be fully connected, which means that each node can reach all other nodes in the network. This assumption is not always true in directed graphs and never true for disconnected graphs. Accordingly, we make several modifications to our calculation of closeness because of the directed nature (and possibly disconnected as well) of our social network graphs.
+Specifically, Reach Index measures how many nodes on average other nodes must go through to reach other nodes in the network. The score is normalized between 0 and 1 by dividing the number of nodes external to the source node. This accounts for overall network size and group sizes for comparing Reach Index values across networks and groups. It also ensures that nodes who cannot be reached from a source node do not bias the source node’s overall Reach Index.
 
-* **Employee level**: In a fully connected graph, where there is a path from any node to any other node, closeness is calculated as the reciprocal of "farness" (for example: 1/farness). The farness of a node is defined as the sum of the distances to each of the other nodes.
+Currently, the calculation does not factor the strength or weight of the connection. All connections between nodes have the same strength.
 
-* **Group level**: The group equation is the same as the employee level one. Essentially, the group closeness only considers the distances from nodes inside the group to nodes outside of the group. Within group distances are ignored and only the shortest paths between nodes are considered. It is normalized by the number of nodes outside of the source node’s group. Within group distances are ignored. Again, we consider only the shortest paths between nodes. It is normalized by the number of nodes outside of the source node’s group C.
+* **Employee level**: In determining the distance between two nodes, the calculation uses the shortest paths. The Reach Index for an employee is the average distance of the shortest possible paths between that employee and all others in the network.
 
-This value will be between 0 and 1 and usually larger than the reach of individual nodes, due to higher connectivity. Reach index values do not typically have large separation among the top ranked members. This means that those nodes highest in reach are all quite similar to each other in how they can connect to the rest of the network.
+* **Group level**: The group calculation is the same as the employee level one. Essentially, the group's reach index only accounts for the distances from the nodes inside the group to nodes outside of the group while following the shortest possible paths. Within group distances are ignored. It is normalized by the number of nodes outside of the source node’s group.
 
-The following is an example of a simplified Reach Index graph.
+TGroup Level Reach Index values are usually larger than the reach of individual nodes, due to higher connectivity. Additionally, Reach Index values do not typically have large separation among the top ranked members, because of the high amount of connections within social networks. This means that those nodes highest in reach are all like each other in how they can connect to the rest of the network.
+
+For more information, see Closeness Centrality.
+
+The following is a Reach Index network where the largest node has the highest reach through the shortest path in the graph.
 
 ![Reach Index graph](./images/reach.png)
-
 
 ## Related topics
 
