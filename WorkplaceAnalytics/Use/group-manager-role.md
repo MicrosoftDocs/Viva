@@ -56,7 +56,7 @@ A plan that a GM creates automatically contains the employees of the GM's report
     ![Group manager -- set up new plan](../../images/wpa/tutorials/gm-set-up-new-plan.png) 
 -->
 
-4. Check the figure that is shown on this page for **Number of direct and indirect reports**. This number is based on the organizational file that was uploaded by the Workplace Analytics admin and is reflective of the number of assigned Workplace Analytics licenses. If this team size looks incorrect, contact your admin. They should examine the organizational data (HR) file and the manager hierarachy within that file for errors.
+4. Check the figure that is shown on this page for **Number of direct and indirect reports**. This number is based on the organizational file that was uploaded by the Workplace Analytics admin and is reflects the number of assigned Workplace Analytics licenses. If this team size looks incorrect, contact your admin. They should examine the organizational data (HR) file and the manager hierarachy within that file for errors.
 
 5. Select **Validate**. 
   
