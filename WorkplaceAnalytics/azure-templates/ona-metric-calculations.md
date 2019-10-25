@@ -28,13 +28,13 @@ The node measures for employees are de-identified to maintain their privacy. Gro
 
 You can size the nodes and connections based on what you want to highlight by using the **Scale Nodes** option (No Measure by default) at the top. The following shows the measures available in a *Network View* of the graph:
 
-![Network View measures](./images/ona-combined-measures.png)
+![Combined View measures](./images/ona-network-measures.png)
 
 And the measure options available for the *Combined View* of the graph, which include Density as an additional Scale Node option that’s only available in this view:
 
-![Combined View measures](./images/ona-network-measures.png)
+![Network View measures](./images/ona-combined-measures.png)
 
-## How are the measures for people and graph different?
+## How are connections measured?
 
 Each of the measures are based on the connections between the nodes. To ensure the calculations accurately represent the interactions between people or groups within the organization, the measures account for connection weight and direction:
 
@@ -50,9 +50,13 @@ The measure interpretations for employees and groups are the same. For example:
 
 However, group measures are not simply the average (or median, maximum, or minimum) of the scores of the employees within the group. Instead it’s the cumulative score of how the people within the group interact with people in other groups. In some cases, the two may be equal but that's generally not the case.
 
-A simple example of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you take the properties of hydrogen and oxygen (both gases) and average them together, it won't generate the properties of a water molecule. Just like atoms and molecules, how the people are connected within an organizational group makes the properties of the group different than the average properties of the individual people within the group. For these measures, the template generates the properties of the group, which depend on the network structure. You can generate summary statistics of employees within the group from the employee-level (de-identified) measures.
+A simple example of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you average together the properties of hydrogen and oxygen (both gases), it won't generate the properties of a water molecule.
 
-For more overview, general information about these network measures, see [Centrality](https://en.wikipedia.org/wiki/Centrality).
+Just like atoms and molecules, how people are connected within an organizational group makes the properties of the group different than the average properties of the individual people within the group. You can generate summary statistics of employees within the group from the employee-level (de-identified) measures.
+
+For more general information about these network measures, see [Centrality](https://en.wikipedia.org/wiki/Centrality).
+
+
 
 ## Boundary Spanning
 
@@ -80,13 +84,13 @@ Information flow through a network is often characterized by random-walk between
 
 * **Group level**: At a group level, the Bridging Index sums the importance scores of a group’s incident edges, where the importance score of edges is the same for both employee and group level metrics. As such, we calculate the importance scores for all edges in the network and then sum up the importance scores for edges incident to the group of interest.
 
-The following is an example of a simplified Bridging Index graph.
+The following shows the largest node as the bridge between the other nodes in the graph.
 
 ![Bridging Index graph](./images/bridging.png)
 
 ## Degrees
 
-Degrees is based on the number of edges connected to a node. The overall degree is the number of incoming and outgoing edges connected to a node. The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node.
+Degrees is based on the number of connections to a node. The overall degree is the number of incoming and outgoing edges connected to a node. <!-- The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node.-->
 
 Degrees measures the degrees (number of links) of all nodes in the graph, which does not count any self-links (links that have the same node at both ends). Where there are multiple links between two nodes, each link is counted.
 
