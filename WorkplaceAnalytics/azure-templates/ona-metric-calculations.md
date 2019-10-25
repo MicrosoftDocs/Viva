@@ -116,8 +116,6 @@ The following shows a Density network that highlights the density of connections
 
 ![Density graph](./images/density.png)
 
-For more information see Density.
-
 ## Influence Index
 
 Influence Index indicates a node’s potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The value is greater than zero where the largest value is the highest ranked node.
@@ -128,11 +126,11 @@ The most meaningful information from Influence Index is the rank of the nodes. F
 
 * **Group level**: For group metrics, the Influence Index is the number and strength of connections coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the tie strengths between groups is the sum of the individual node strengths connecting the two groups.
 
-The following is an Influence Index network where the largest node has the highest ranking influence in the graph.
+The following shows an Influence Index network where the largest node has the highest ranking influence in the graph.
 
 ![Influence Index graph](./images/influence.png)
 
-For more information see PageRank.
+For more information, see [PageRank](https://en.wikipedia.org/wiki/PageRank).
 
 ## Reach Index
 
@@ -146,13 +144,13 @@ Currently, the calculation does not factor the strength or weight of the connect
 
 * **Group level**: The group calculation is the same as the employee level one. Essentially, the group's reach index only accounts for the distances from the nodes inside the group to nodes outside of the group while following the shortest possible paths. Within group distances are ignored. It is normalized by the number of nodes outside of the source node’s group.
 
-TGroup Level Reach Index values are usually larger than the reach of individual nodes, due to higher connectivity. Additionally, Reach Index values do not typically have large separation among the top ranked members, because of the high amount of connections within social networks. This means that those nodes highest in reach are all like each other in how they can connect to the rest of the network.
+Group level Reach Index values are usually larger than the reach of individual nodes due to higher connectivity. Additionally, Reach Index values do not typically have large separation among the top ranked members because of the high amount of connections within social networks. Meaning the nodes highest in reach are all similar to each other in how they connect to the rest of the network.
 
-For more information, see Closeness Centrality.
-
-The following is a Reach Index network where the largest node has the highest reach through the shortest path in the graph.
+The following shows a Reach Index network where the largest node has the highest reach through the shortest path in the graph.
 
 ![Reach Index graph](./images/reach.png)
+
+For more information, see [Closeness Centrality](https://en.wikipedia.org/wiki/Closeness_centrality).
 
 ## Related topics
 
