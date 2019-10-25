@@ -48,7 +48,7 @@ A plan that a GM creates automatically contains the employees of the GM's report
 
 3. For one of the three plans, select **Start now**. This opens the **Set up new plan** panel.
 
-<!--
+<!-- LOCATE THIS IMAGE!
     ![Group manager -- set up new plan](../../images/wpa/tutorials/gm-set-up-new-plan.png) 
 -->
 
@@ -58,11 +58,15 @@ A plan that a GM creates automatically contains the employees of the GM's report
   
     After validation finishes, Workplace Analytics shows any resulting details, warnings, and insights about the group. The warnings might indicate that some potential participants are ineligible for various reasons. If, after validation, there are enough participants for the plan, select **Start plan**. This displays the _Your plan was successfully submitted_ page.
  
-<!--   
+<!-- LOCATE THIS IMAGE! 
     ![Group manager -- set up new plan](../images/wpa/tutorials/gm-set-up-new-plan-2.png) 
 --> 
 
 ### Track progress (Group manager role)
 
-Once a plan is underway, you can view the **Manage** page to track the plan’s progress. Note that you can see progress for your team only, and only for a single plan. This is because your team can have only one plan underway at a time. (You cannot subdivide your team into smaller groups that run different plans simultaneously.)
+Once a plan is underway, you can view the **Manage** page to track the plan’s progress. 
+
+![Track progress](../images/wpa/tutorials/solutions-track.png) 
+
+Note that you can see progress for your team only, and only for a single plan. This is because your team can have only one plan underway at a time. (You cannot subdivide your team into smaller groups that run different plans simultaneously.)
 
