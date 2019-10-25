@@ -39,7 +39,7 @@ Each of the measures are based on the connections between the nodes. To ensure t
 * Connections are weighted based on the amount of collaboration time in meetings and email between two nodes (connection strength).
 * They are also directed because they specifically account for who sent and who received email. For these calculations, meetings do not have direction.
 
-## How are the measures for people and graph different?
+## How do people and group measures differ?
 
 The measure interpretations for employees and groups are the same. For example:
 
