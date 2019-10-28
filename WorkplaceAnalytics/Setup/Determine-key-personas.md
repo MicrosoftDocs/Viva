@@ -14,6 +14,9 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
+
+# Determine key personas
+
 The following describes who does what to identify key personas for the different roles in Workplace Analytics:
 
  * **Owner** - Workplace Analytics sponsor (the initial point-person for the engagement)

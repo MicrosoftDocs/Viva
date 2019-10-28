@@ -2,7 +2,6 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: CRM queries in Workplace Analytics 
 description: Describes how to use Queries to analyze CRM data in Workplace Analytics 
 author: madehmer
@@ -108,6 +107,8 @@ To do this, you can create a query as shown in the following graphic to analyze 
 [Group-to-group queries](../Tutorials/group-to-group-queries.md)
 
 [CRM data upload](../setup/crm-data-upload.md)
+
+[CRM data sources](../Use/Data-sources.md)
 
 [Metric descriptions](../Use/Metric-definitions.md)
 

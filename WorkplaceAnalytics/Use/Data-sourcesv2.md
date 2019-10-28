@@ -21,7 +21,7 @@ audience: Admin
 
   - [Office 365 data](#office-365-data)
   - [Organizational data](#organizational-data)
-<!--  - [CRM data](#crm-data) Wait until CRM data is WW to publish this section -->
+  - [CRM data](#crm-data)
 
 ![Sources](../images/WpA/Use/sources-o365.png)
 
@@ -33,7 +33,7 @@ As an admin or an analyst, you can use this page to confirm that your Office 365
 
 This page includes the following types of data.
 
-* **Measured employees**: The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
+* **Measured employees**: The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignments, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
 
   >[!Note]
   > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
@@ -102,7 +102,7 @@ For more information about what data is needed for metric calculations, see:
 
 * [Metric definitions](../Use/Metric-definitions.md)
 
-<!--  ## CRM data
+## CRM data
 
 This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
@@ -143,4 +143,3 @@ To view a list of the top 100 values for an attribute, select the attribute's na
 * Type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
 
 ![View CRM attribute values for accounts](../images/wpa/Use/crm-account-attribute-values.png)
--->

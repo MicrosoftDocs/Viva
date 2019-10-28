@@ -105,9 +105,9 @@ In a few cases, MyAnalytics provides people with *de-identified* information on 
 
 ### Email read rates
 
-MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to eight or more people.
+MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
-However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than eight people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate is displayed as a range, greater than or less than a certain threshold value that depends on the number of recipients of the email.
+However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate is displayed as a range, greater than or less than a certain threshold value that depends on the number of recipients of the email.
 
 <!-- 
 ![Email read rates](../../Images/mya/use/email-read-rates-2.png)

@@ -31,7 +31,7 @@ To start using Teamwork solution, see the following topics:
 
  * [Solution walkthrough](solutionsv2-task.md): Follow these steps to create and track plans. 
  * [Solutions: The experience of plan participants](solutionsv2-participants.md): See the MyAnalytics surfaces that help participants succeed in a plan you create. 
- * [Solutions: concepts](solutionsv2-conceptual.md): Gain more understanding about concepts that can help you create successful plans.   
+ * [Solutions: concepts](solutionsv2-conceptual.md): Gain more understanding about concepts that can help you create successful plans.
 
 ## Related topics
 
