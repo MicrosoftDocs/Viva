@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Open the Insights Outlook add-in
+# Open the Insights Outlook add-in
 
 The Insights Outlook add-in is automatically enabled for all users who have a license with the MyAnalytics service.
 

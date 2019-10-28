@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Follow up on your tasks
+# Follow up on your tasks
 
 MyAnalytics can help you follow up on requests you asked of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails. For example:
 

@@ -244,4 +244,5 @@ A5. If the executive assistant creates the meeting "on behalf of" the leader, th
 
 ##### Q6. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
-A6. You probably opened the .csv file as is. For Excel to show the data correctly, you need to *import* the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](./view-download-and-export-query-results.md#download-and-import-a-query). For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file.
+A6. You probably opened the .csv file as is. For Excel to show the data correctly, you need to *import* the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file. 
+
