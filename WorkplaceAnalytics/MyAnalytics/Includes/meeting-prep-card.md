@@ -16,7 +16,7 @@ ms.prod: mya
 
 ## Meeting preparation
 
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-adoption/MyAnalytics-meetings-september-2018.pdf).
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](MyAnalytics-meetings-september-2018.pdf).
 
 The meeting preparation card shows you a list of upcoming meetings that you have organized, and it helps you evaluate whether each meeting is ready to go. 
 

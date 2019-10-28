@@ -81,7 +81,7 @@ MyAnalytics is available in the same languages as Microsoft Office. See [What la
 
 ## Prerequisites and exclusions
 
-* [Microsoft Exchange Online](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for MyAnalytics and the Outlook add-in.
+* [Microsoft Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for MyAnalytics and the Outlook add-in.
 
 * **Licensing exclusion:** Shared mailboxes cannot use and are not supported by the MyAnalytics service plan.
 
@@ -89,5 +89,5 @@ MyAnalytics is available in the same languages as Microsoft Office. See [What la
 
 MyAnalytics feature | Supported in Outlook 2013? | Supported in Outlook 2016? | Mobile support?
  ----- | ----- |----- | ----
-Outlook Add-in | Yes, when the add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/en-us/outlook/add-ins/add-in-commands-for-outlook). | Yes | No
+Outlook Add-in | Yes, when the add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook). | Yes | No
 Inline suggestions | No | Yes, when actionable messages are supported and enabled. For details, see [Actionable messages in Outlook and Office 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/). | No  
