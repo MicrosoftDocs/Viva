@@ -134,7 +134,7 @@ See the following for details:
 
 The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
 
-#### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics]( http://myanalytics.microsoft.com) and turn MyAnalytics on?
+#### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics](https://myanalytics.microsoft.com) and turn MyAnalytics on?
 
 Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that stat in the read percentage that's shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
 
@@ -187,7 +187,7 @@ Skype for Business data is usually prompt. However, in rare instances, users can
 
 #### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
 
-The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are not currently available with the *Insights by MyAnalytics* service plan.
+The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) are not currently available with the *Insights by MyAnalytics* service plan.
 
    > [!Note]
    > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
