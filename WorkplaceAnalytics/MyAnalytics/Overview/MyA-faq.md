@@ -187,7 +187,7 @@ Skype for Business data is usually prompt. However, in rare instances, users can
 
 #### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
 
-The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are not currently available with the *Insights by MyAnalytics* service plan.
+The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) are not currently available with the *Insights by MyAnalytics* service plan.
 
    > [!Note]
    > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.

@@ -205,6 +205,9 @@ The way to opt out of the Insights add-in is to opt out of MyAnalytics. For inst
 
 Follow these steps to remove the Insights add-in from your Outlook ribbon.
 
+> [!Note] 
+> This procedure also removes [inline suggestions in Outlook](mya-notifications.md).
+
 1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
 
     ![Get Add-ins](../../Images/mya/use/get-add-ins.png)

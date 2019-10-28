@@ -22,7 +22,7 @@ The following table lists which user experiences are available depending on what
 
 | Plan  | Service plan | User experience currently available |
 | ----- | ----- |----- |
-| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students     <li>Office 365 E3 Developer  <li>Office 365 G3   <li>Office 365 G1   <li>Business Premium     <li>Business Essentials    <br> <br> |  <br>Insights by <br>MyAnalytics| <br>[Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), and <br>[Email digests](../use/email-digest-2.md) (Email digests are rolling out to users now through December 2019) |
+| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students  <li>Office 365 E3 Developer  <li>Office 365 G3   <li>Office 365 G1   <li>Business Premium  <li>Business Essentials  <br> <br> |  <br>Insights by <br>MyAnalytics  | <br>[Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), and <br>[Email digests](../use/email-digest-2.md) (Email digests are rolling out to users now through December 2019) |
 | <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing   <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digests](../use/email-digest-2.md), and <br> [Inline suggestions](../use/mya-notifications.md) <br>  |
 | <li>Microsoft 365 A5 for faculty/students    <li>Office 365 A5 for faculty/students    | MyAnalytics (Full) | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digests](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |  
 
@@ -87,7 +87,7 @@ MyAnalytics is available in the same languages as Microsoft Office. See [What la
 
 ### Outlook support and prerequisites
 
-MyAnalytics feature | Supported in Outlook 2016? | Supported in Outlook 2013? | Mobile support?
+MyAnalytics feature | Supported in Outlook 2013? | Supported in Outlook 2016? | Mobile support?
  ----- | ----- |----- | ----
 Outlook Add-in | Yes, when the add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/en-us/outlook/add-ins/add-in-commands-for-outlook). | Yes | No
 Inline suggestions | No | Yes, when actionable messages are supported and enabled. For details, see [Actionable messages in Outlook and Office 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/). | No  
