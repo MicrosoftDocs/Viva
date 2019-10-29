@@ -13,7 +13,7 @@ ms.prod: wpa
 
 # Queries overview
 
-You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
+Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, and **Peer Comparison**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
 ![Ways to query data](../Images/WpA/Use/ways-to-query-data.png)
 
@@ -80,6 +80,12 @@ As with a group-to-group query, you can define the person (or time investor) and
 You can choose to analyze the number of interactions between a time investor and the defined collaboration team, or to analyze only those collaboration activities initiated by the specified time investor.
 
 See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more. 
+
+## Peer Comparison query
+
+The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The output of this query lists the measured employees and their specified metrics, along with their peer group's average of those metrics. You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group that is defined by organizational attributes you have uploaded.
+
+See [Peer Comparison queries](../Tutorials/comparison-query.md) to learn more.
 
 ## Meeting exclusions
 
