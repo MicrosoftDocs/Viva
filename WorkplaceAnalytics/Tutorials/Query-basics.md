@@ -83,7 +83,9 @@ See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn 
 
 ## Peer Comparison query
 
-The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The output of this query lists the measured employees and their specified metrics, along with their peer group's average of those metrics. You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group that is defined by organizational attributes you have uploaded.
+The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics,and their peer group's averages for those metrics.
+
+You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group that is defined by organizational attributes you have uploaded.
 
 See [Peer Comparison queries](../Tutorials/comparison-query.md) to learn more.
 
