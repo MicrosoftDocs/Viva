@@ -158,11 +158,11 @@ You can identify your _plan_ (and also your _service plan_) by following these s
  
 4.	On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
 
-    _In the following example, the plan is "Office 365 E1" and the My Analytics-related service plan is "Insights by MyAnalytics":_
+    _In the following example, the plan is "Office 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
    
     ![service plan: Insights by MyAnalytics](../../images/mya/overview/licenses-plans-service-plans.png)
 
-    _In the following example, the plan is "Office 365 E5" and the My Analytics-related service plan is "Microsoft MyAnalytics (Full)":_
+    _In the following example, the plan is "Office 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
     
     ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
 
