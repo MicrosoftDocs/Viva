@@ -46,7 +46,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 3. Do the following for the Azure subscription that will host these templates and the data exported from Workplace Analytics:
 
    * Confirm you have either an Azure Admin or an Azure Contributor role to deploy these templates.
-   * Get [applicable Azure AD permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Office 365 global administrator.
+   * Get [applicable Azure AD permissions](https://docs.microsoft.com/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Office 365 global administrator.
    * If the Workplace Analytics team is deploying the templates, confirm that vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Azure AD permissions to install and set up the templates.
 
 ## Deployment
