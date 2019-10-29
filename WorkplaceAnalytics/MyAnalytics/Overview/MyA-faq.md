@@ -130,6 +130,8 @@ See the following for details:
  * [Remove Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
+### Visibility and access 
+
 #### Q2. Why can't I see the MyAnalytics dashboard?
 
 The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
@@ -137,6 +139,32 @@ The MyAnalytics dashboard is only available if your organization has a *qualifyi
 #### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics](https://myanalytics.microsoft.com) and turn MyAnalytics on?
 
 Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that stat in the read percentage that's shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
+
+#### Q4. How can I find out what my plan is?
+
+Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have? 
+
+You can identify your _plan_ (and also your _service plan_) by following these steps:
+
+1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
+ 
+2.	In the upper-right corner, under **My account**, select **My account**: 
+
+    ![My account](../../images/mya/overview/my-account-2.png)
+ 
+3.	On the **My account** page, under **Subscriptions**, select **View subscriptions**:
+
+    ![View subscriptions](../../images/mya/overview/subscriptions_85.png)
+ 
+4.	On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
+
+    _In the following example, the plan is "Office 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
+   
+    ![service plan: Insights by MyAnalytics](../../images/mya/overview/licenses-plans-service-plans.png)
+
+    _In the following example, the plan is "Office 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
+    
+    ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
 
 ### Insights Outlook add-in
 
