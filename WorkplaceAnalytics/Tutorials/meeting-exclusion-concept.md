@@ -196,12 +196,12 @@ The following list of languages are supported for keywords and phrases in meetin
 || | | |  
 |---|---|---|---|
 |Arabic | French | Korean | Serbian (Cyrillic) |
-|Bengali | German |Latvian) | Serbian (Latin) |
-|Bulgarian | Greek |Lithuanian | Slovak | 
+|Bengali | German |Latvian | Serbian (Latin) |
+|Bulgarian | Greek |Lithuanian | Slovak |
 |Catalan | Gujarati| Malay |Slovenian  |
 |Chinese (Simplified) |Hebrew | Malayalam |Swedish |
-|Chinese (Traditional) | Hindi | Marathi | Tamil | 
-|Croatian | Hungarian | Norwegian(Bokmaal) | Telugu
+|Chinese (Traditional) | Hindi | Marathi | Tamil |
+|Croatian | Hungarian | Norwegian (Bokmaal) | Telugu
 |Czech | Icelandic | Polish |Thai |
 |Danish | Indonesian |Portuguese (Brazilian | Turkish|
 |Dutch | Italian | Portuguese (Spanish) | Ukrainian |
