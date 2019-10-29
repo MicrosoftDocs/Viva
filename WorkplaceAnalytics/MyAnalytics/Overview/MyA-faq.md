@@ -140,7 +140,9 @@ The MyAnalytics dashboard is only available if your organization has a *qualifyi
 
 Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that stat in the read percentage that's shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
 
-#### Q4. Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. How can I find out what my plan is?
+#### Q4. How can I find out what my plan is?
+
+Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have? 
 
 You can identify your _plan_ (and also your _service plan_) by following these steps:
 
