@@ -154,7 +154,7 @@ You can identify your _plan_ (and also your _service plan_) by following these s
  
 3.	On the **My account** page, under **Subscriptions**, select **View subscriptions**:
 
-    ![View subscriptions](../../images/mya/overview/subscriptions.png)
+    ![View subscriptions](../../images/mya/overview/subscriptions_85.png)
  
 4.	On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
 
