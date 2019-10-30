@@ -20,7 +20,7 @@ _This template is only available as part of a Microsoft service engagement._
 
 The Organizational Network Analysis Azure template for Workplace Analytics has a number of measures to help you visualize and analyze collaborative relationships within your organization.
 
-In the following graphics, each dot or node represents either an employee. The lines between the nodes represent connections, which are collaborative relationships between them. You can also visualize the network at the group level where each node reflects a group.
+In the following graphics, each dot or node represents an employee. The lines between the nodes represent connections, which are collaborative relationships between them. You can also visualize the network at the group level where each node reflects a group.
 
 The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
 
