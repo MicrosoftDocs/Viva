@@ -20,9 +20,7 @@ _This template is only available as part of a Microsoft service engagement._
 
 The Organizational Network Analysis Azure template for Workplace Analytics has a number of measures to help you visualize and analyze collaborative relationships within your organization.
 
-In the following graphic, each dot or node represents an employee. The lines between the nodes represent connections, which are collaborative relationships between them. You can also visualize the network at the group level where each node reflects a group.
-
-The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
+In the network graphs, each dot or node represents an employee or a group. The lines between the nodes represent connections, which are collaborative relationships between them. The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
 
 ## How are connections measured?
 
@@ -31,9 +29,9 @@ Each of the measures are based on the connections between the nodes. To ensure t
 * **Weight** - Connections are weighted based on the amount of collaboration time in meetings and email between two nodes (connection strength).
 * **Direction** - They are also directed because they specifically account for who sent and who received email. For these calculations, meetings do not have direction.
 
-## Highlight key employees or groups in the network graphs
+## Highlight key employees or groups
 
-You can highlight key employees or groups by sizing the nodes based on what you want to analyze with the **Scale Nodes** option (**No Measure** by default) at the top.
+You can highlight key employees or groups by sizing the nodes in the graph by using the **Scale Nodes** option (**No Measure** by default).
 
 You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degrees](#degrees), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
 
