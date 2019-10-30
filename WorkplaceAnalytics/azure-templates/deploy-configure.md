@@ -42,47 +42,40 @@ Before deploying and configuring these templates, review the following security 
 Before deploying Workplace Analytics Azure Templates, confirm or complete the following:
 
 1. Confirm that [Workplace Analytics is set up](../setup/set-up-workplace-analytics.md) and ready to use.
-
 2. Enable [Workplace Analytics data export](../data-access/data-access.md) for the Azure tenant.
-
 3. Do the following for the Azure subscription that will host these templates and the data exported from Workplace Analytics:
 
-   a. Confirm you have either an Azure Admin or an Azure Contributor role to deploy these templates.
-
-   b. Get [applicable Azure AD permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Office 365 global administrator.
-
-   c. If the Workplace Analytics team is deploying the templates, confirm that vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Azure AD permissions to install and set up the templates.
+   * Confirm you have either an Azure Admin or an Azure Contributor role to deploy these templates.
+   * Get [applicable Azure AD permissions](https://docs.microsoft.com/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Office 365 global administrator.
+   * If the Workplace Analytics team is deploying the templates, confirm that vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Azure AD permissions to install and set up the templates.
 
 ## Deployment
 
-1. Get an Azure deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
-
-2. When prompted, select the Azure subscription.
-3. For **Resource group**, you can select to:
+1. Get and open the Azure deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
+2. On the **Getting Started** page, select **Next**.
+3. When prompted, select the Azure subscription.
+4. For **Resource group**, you can select to:
 
    * **Create new** to create a new resource group.
    * **Use existing** to use an existing resource group and append the existing group with what's needed for this template, including any updates for any of the other templates in this group.
 
-4. Select the applicable **Region** and then select **Next**.
-
-5. On the **Deployment Review** page, confirm the selections and then select **Next**.
-6. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
-
-7. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
-
-8. On the **Summary** page, select a SKU for the data cluster, which must be about 30 percent larger than your Workplace Analytics dataset (ask your Workplace Analytics Admin for help with this), for the following Azure components:
+5. Select the applicable **Region** and then select **Next**.
+6. On the **Deployment Review** page, confirm the selections and then select **Next**.
+7. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
+8. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
+9. On the **Summary** page, select a SKU for the data cluster, which must be about 30 percent larger than your Workplace Analytics dataset (ask your Workplace Analytics Admin for help with this), for the following Azure components:
 
    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
    * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
    * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
-   * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/)
+   * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
    * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
 
-9. Select **Run** to deploy resources for the Azure components.
-
-10. After the deployment is complete, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
+10. Select **Next** and review deployment information. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
+11. In **Deployment Review**, select **Next** to deploy and configure the resources for the Azure components. This two-phase deployment can take up to 60 minutes to complete.
+12. After the deployment is complete, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
 
    >[!Important]
    >You must save this deployment link because you and the other users you add need it to configure and use the templates.

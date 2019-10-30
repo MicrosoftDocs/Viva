@@ -3,8 +3,8 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: The Group Manager (GM) role in Workplace Analytics 
-description: Description of the Group Manager (GM) role in Workplace Analytics 
+title: Manager-deployed solutions in Workplace Analytics, which use the Group Manager (GM) role 
+description: Description of creating manager-deployed solutions for whose who have the Group Manager (GM) role in Workplace Analytics 
 author: paul9955
 ms.author: v-pascha
 ms.topic: article
@@ -15,11 +15,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# The group manager role
+# Manager-deployed solutions
 
-The group manager (GM) role has a well-defined purpose in Workplace Analytics: It lets leaders create change-management plans for employees in their reporting structure. 
+A manager can create change-management plans for the people in their reporting structure. To do this, the manager makes use of their group manager (GM) role, which was defined for exactly that purpose: creating and tracking plans for the manager's group. 
 
-The role of group manager has predefined and unalterable scope: The employees in the reporting structure&mdash;all of their reports, direct and indirect&mdash;are automatically assigned to the GM's group. (The GM is also included in this group.)
+The group-manager role has predefined and unalterable scope: The employees in the reporting structure&mdash;all of their reports, direct and indirect&mdash;are automatically assigned to the GM's group. (The GM is also included in this group.)
 
 Change management plans are part of the **Solutions** feature of Workplace Analytics to which the GMs have access. Under **Solutions**, GMs can also open the **Solutions** &gt; **Manage** and **Solutions** &gt; **Track** pages, where they can track the progress of their own active plans and the state of their own completed plans.  
 
@@ -44,7 +44,11 @@ A plan that a GM creates automatically contains the employees of the GM's report
      
    This page shows three plans: _Focus plan_, _Collaboration plan_, and _Wellbeing plan_. Consider the type of plan that you want to create. The card for each plan describes the plan and offers **Start now** and **Analyze** options. 
 
-2. (Optional) For a particular plan, select **Analyze**. This displays read-only summary data about your team as a whole. This data pertains to that plan’s area of focus. For example, if you select **Analyze** on the _Focus plan_ card, you will see data that pertains to that plan with regard to your team. After you view this information, select **Start now** and then go to step 4.
+2. (Optional) For a particular plan, select **Analyze**. This displays read-only summary data about your team as a whole. This data pertains to that plan's area of focus. For example, if you select **Analyze** on the _Collaboration plan_ card, you will see data that pertains to that plan with regard to your team:
+
+   ![Info for Collaboration plan](../images/wpa/tutorials/gm-analysis.png)
+   
+   After you view this information, select **Start now** and then go to step 4.
 
 3. For one of the three plans, select **Start now**. This opens the **Set up new plan** panel.
 
@@ -52,7 +56,7 @@ A plan that a GM creates automatically contains the employees of the GM's report
     ![Group manager -- set up new plan](../../images/wpa/tutorials/gm-set-up-new-plan.png) 
 -->
 
-4. Check the figure that is shown on this page for **Number of direct and indirect reports**. This number is based on the organizational file that was uploaded by the Workplace Analytics admin and is reflective of the number of assigned Workplace Analytics licenses. If this team size looks incorrect, contact your admin. They should examine the organizational data (HR) file and the manager hierarachy within that file for errors.
+4. Check the figure that is shown on this page for **Number of direct and indirect reports**. This number is based on the organizational file that was uploaded by the Workplace Analytics admin and is reflects the number of assigned Workplace Analytics licenses. If this team size looks incorrect, contact your admin. They should examine the organizational data (HR) file and the manager hierarachy within that file for errors.
 
 5. Select **Validate**. 
   

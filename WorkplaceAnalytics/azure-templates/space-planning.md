@@ -40,6 +40,11 @@ This template combines the data in these files and generates a table that shows 
 
    ![Workspace Planning data](./images/wsp-data.png)
 
+## Deploy and configure the template
+
+1. Confirm you meet the [Prerequisites](deploy-configure.md#prerequisites) for deploying the template.
+2. Complete the steps to [Deploy and configure](deploy-configure.md#deployment) the template.
+
 ## To create an Interaction file
 
 1. Confirm you are assigned the [Analyst role in Workplace Analytics](../use/user-roles.md), which is required to create this file.
