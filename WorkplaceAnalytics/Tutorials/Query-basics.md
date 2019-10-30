@@ -105,13 +105,13 @@ Additionally, the analyst could create a group query to identify the groups invo
 
 There are three ways to create queries:
 
-* Use and edit a [predefined query template](#predefined-query-templates)
+* Edit and use a [predefined query template](#predefined-query-templates)
 * Create your own custom query
 * Open and edit a previously run query
 
-When you create or edit a query, you can select the metrics that you want to include (many can be customized), and you can use filters to narrow the results and focus in on specific data.
+When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
 
-![Customize attributes and metrics](../Images/WpA/Use/Customize-attributes-and-metrics-Create-queries.png)
+![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
 ## Predefined query templates
 
