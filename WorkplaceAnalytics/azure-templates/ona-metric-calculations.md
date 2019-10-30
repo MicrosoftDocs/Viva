@@ -74,7 +74,7 @@ The Bridging Index represents employees or groups that control the flow of infor
 
 This index measures the number of times a person or group is on the most probable path of information flow between two other people or groups. This measure is not limited to the shortest paths between nodes but accounts for all possible ways that information flows between nodes in a network.
 
-The most meaningful insights that you can derive from the Bridging Index is the rank of the nodes. The largest value is the highest ranked node and all values are greater than 0.
+The most meaningful insights that you can derive from the Bridging Index is the rank of the nodes. The largest value is the highest ranked node and all values are greater than zero.
 
 For example, assume that node A has a Bridging Index of 0.7 and node B has a Bridging Index of 0.35. You can accurately assume that node A tends to control more information throughout the network than node B, because node A ranks higher than node B. However, you cannot assume node A controls twice as much information or is twice as likely to be a change agent in the network as node B, because the values indicate a *ranking* of information flow and not the *amount* of information.
 
