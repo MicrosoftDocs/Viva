@@ -37,7 +37,7 @@ You can highlight key employees or groups by sizing the nodes based on what you 
 
 You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degree](#degree), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
 
-![Node Sizing Options](./images/ona-node-options.png)
+![Node Sizing Options](./images/ona-node-options2.png)
 
 ## Are the measures for employees and groups different?
 
