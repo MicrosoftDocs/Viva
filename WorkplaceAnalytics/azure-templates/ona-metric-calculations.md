@@ -35,9 +35,9 @@ Each of the measures are based on the connections between the nodes. To ensure t
 
 You can highlight key employees or groups by sizing the nodes based on what you want to analyze with the **Scale Nodes** option (**No Measure** by default) at the top.
 
-You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degree](#degree), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
+You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degrees](#degrees), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
 
-![Node Sizing Options](./images/ona-node-options2.png)
+![Node Sizing Options](./images/ona-node-options.png)
 
 ## Are the measures for employees and groups different?
 
@@ -52,7 +52,7 @@ A simple analogy of this is a water molecule, which is made up of two hydrogen a
 
 Just like atoms and molecules, how people are connected within an organizational group makes the properties of the group different than the average properties of the individual people within the group. You can generate summary statistics of employees within the group from the employee-level (de-identified) measures.
 
-For more general information about these network measures, see [Centrality](https://en.wikipedia.org/wiki/Centrality).
+For more general information about these network measures, see [Centrality](https://wikipedia.org/wiki/Centrality).
 
 ## Boundary Spanning
 
@@ -80,15 +80,15 @@ For example, assume that node A has a Bridging Index of 0.7 and node B has a Bri
 
 This measure is calculated as follows for employees as compared to groups.
 
-* **Employee level**: An employee’s Bridging Index is the sum of the importance scores of the connections that are tied to that employee. Importance scores represent a connection’s likelihood that information will flow through the connection. These scores are estimated by using the strength of the connection and the number of network paths the connection is included in.
+* **Employee level**: An employee’s Bridging Index is the sum of the importance scores for the connections that are tied to that employee. Importance scores represent a connection’s likelihood that information will flow through the connection. These scores are estimated by using the strength of the connection and the number of network paths the connection is included in.
 
 * **Group level**: Similarly, the group’s Bridging Index is the sum of the importance scores of the connections between nodes in the group and nodes outside of their group. No connections between nodes of the same group are considered in the group measure.
 
 * Both levels for this measure account for direction and weight.
 
-## Degree
+## Degrees
 
-Degree denotes the network size and is based on the number of connections to a node. Simply, the overall degree is the number of edges (incoming and outgoing) connected to a node. <!-- The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node.-->
+Degrees denotes the network size and is based on the number of connections to a node. Simply, the overall degree is the number of edges (incoming and outgoing) connected to a node. <!-- The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node.-->
 
 This measure is calculated as follows for employees as compared to groups.
 
@@ -110,6 +110,8 @@ In the following density table, the direction of connections is the groups liste
 
 ![Density table](./images/ona-density-table.png)
 
+For more information, see [Density](https://wikipedia.org/wiki/Dense_graph).
+
 ## Influence Index
 
 Influence Index indicates a node’s potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The value is greater than zero where the largest value is the highest ranked node.
@@ -124,7 +126,7 @@ This measure is calculated as follows for employees as compared to groups:
 
 * Both levels for this measure account for direction and weight.
 
-For more information, see [PageRank](https://en.wikipedia.org/wiki/PageRank).
+For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
 ## Reach Index
 
@@ -142,7 +144,7 @@ This measure is calculated as follows for employees as compared to groups:
 
 Group level Reach Index values are usually larger than the reach of individual nodes due to higher connectivity. Additionally, Reach Index values do not typically have large separation among the top ranked members because of the high amount of connections within social networks. Meaning the nodes highest in reach are all similar to each other in how they connect to the rest of the network.
 
-For more information, see [Closeness Centrality](https://en.wikipedia.org/wiki/Closeness_centrality).
+For more information, see [Closeness Centrality](https://wikipedia.org/wiki/Closeness_centrality).
 
 ## Related topics
 
