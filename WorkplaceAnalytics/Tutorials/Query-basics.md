@@ -111,7 +111,7 @@ There are three ways to create queries:
 
 When you create a new query or edit an existing query, you can select the metrics to include, which you can customize. You can also use filters to narrow the results and focus in on specific data.
 
-![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics-Create-queries.png)
+![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
 ## Predefined query templates
 
