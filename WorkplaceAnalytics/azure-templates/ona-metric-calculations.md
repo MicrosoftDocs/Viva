@@ -35,7 +35,7 @@ Each of the measures are based on the connections between the nodes. To ensure t
 
 You can highlight key employees or groups by sizing the nodes based on what you want to analyze with the **Scale Nodes** option (**No Measure** by default) at the top.
 
-You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degrees](#degrees), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
+You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degree](#degree), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
 
 ![Node Sizing Options](./images/ona-node-options.png)
 
