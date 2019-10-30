@@ -109,7 +109,7 @@ There are three ways to create queries:
 * Create your own custom query
 * Open and edit a previously run query
 
-When you create a new query or edit an existing query, you can select the metrics to include, which you can customize. You can also use filters to narrow the results and focus in on specific data.
+When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
