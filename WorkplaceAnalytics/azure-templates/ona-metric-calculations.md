@@ -46,7 +46,7 @@ No, the measure interpretations for employees and groups are the same. For examp
 * If an employee has a high degree, it indicates the person has more connections in the network than those with lower scores and therefore has more exposure or access to information.
 * If a group has a high degree, it indicates the group has more connections in the network than other groups with lower scores and therefore has more exposure or access to information.
 
-In terms of calculations, group measures are not simply the average (or median, maximum, or minimum) of the scores of the employees within the group. Instead the measures are the cumulative scores of how the people within the group interact with people in other groups. In some cases, the two may be equal but that's generally not the case. The key difference is that the group measures  do not account for connections that occur between members of the same group.
+In terms of calculations, group measures are not simply the average (or median, maximum, or minimum) of the scores of the employees within the group. Instead, the measures are the cumulative scores of how the people within the group interact with people in other groups. In some cases, the two may be equal but that's generally not the case. The key difference is that the group measures  do not account for connections that occur between members of the same group.
 
 A simple analogy of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you average together the properties of hydrogen and oxygen (both gases), it won't generate the properties of a water molecule.
 
