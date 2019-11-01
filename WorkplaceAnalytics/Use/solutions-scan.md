@@ -143,7 +143,7 @@ You assign plans to groups, but just what constitutes a group? For Solutions sca
 
 Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. 
 
-Groups are defined from this organizational data structure, and represented by their managers' names obtained from Active Directory. Managers' names are obtained from Active Directory by using the values you provided for the ManagerID attribute in the [uploaded organizational data](../setup/upload-organizational-data-1st.md) file.
+Groups are defined from this organizational data structure and represented by their manager names. Manager names are obtained from Active Directory by using the values that you provided for the ManagerID attribute in the [uploaded organizational data](../setup/upload-organizational-data-1st.md) file. These manager names are then displayed in the **Result** page to represent the groups. 
 
 > [!Important]
 > Data for a group includes only the data for a manager's team. It does _not_ include the manager's data.
