@@ -164,9 +164,13 @@
       href: MyAnalytics/MyA-landing-page.md
       homepage: /myanalytics 
     - name: Why use MyAnalytics?
-      href: MyAnalytics/Overview/Better-work-habits.md    
-    - name: Frequently asked questions
-      href: MyAnalytics/Overview/MyA-faq.md
+      href: MyAnalytics/Overview/Better-work-habits.md        
+    - name: Reference
+      items:
+        - name: Frequently asked questions
+          href: MyAnalytics/Overview/mya-faq.md  
+        - name: MyAnalytics languages
+          href: myanalytics/overview/mya-languages.md  
     - name: MyAnalytics elements
       items: 
         - name: Introduction
