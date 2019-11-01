@@ -46,6 +46,7 @@
       "extendBreadcrumb": true,
       "titleSuffix": "Workplace Analytics Office 365 ",
       "feedback_system": "None",
+      "hideEdit": true,
       "searchScope": ["Workplace Analytics"]
     },
     "fileMetadata": {
