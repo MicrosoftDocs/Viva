@@ -4,8 +4,12 @@
   items:   
     - name: Why use MyAnalytics?
       href: ./overview/Better-work-habits.md        
-    - name: Frequently asked questions
-      href: ./overview/MyA-faq.md
+    - name: Reference
+      items:
+        - name: Frequently asked questions
+          href: ./overview/mya-faq.md  
+        - name: MyAnalytics languages
+          href: ./overview/mya-languages.md  
     - name: MyAnalytics elements
       items: 
         - name: Introduction 

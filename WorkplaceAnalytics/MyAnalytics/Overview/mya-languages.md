@@ -17,124 +17,72 @@ audience: Admin
 # MyAnalytics languages
 
 The elements of MyAnalytics (the [personal dashboard](../use/dashboard-2.md), the [email digests](../use/email-digest-2.md), and the [Insights Outlook add-in](../use/add-in.md)) are available in world languages as described in the following table: 
+  |  	Dashboard	  |  	Email digest	  |  	Outlook add-in (a-k)	  |  	Outlook add-in (l-z)	  |  
+  |  	----	  |  	----	  |  	----	  |  	----	  |  
+  |  	Arabic	  |  	Amharic	  |  	Afghan Persian	  |  	Lao-LA	  |  
+  |  	Basque	  |  	Arabic	  |  	Afghan Persian-AF	  |  	Latvian	  |  
+  |  	Bulgarian	  |  	Basque	  |  	Afrikaans	  |  	Lithuanian	  |  
+  |  	Catalan	  |  	Bengali-in	  |  	Albanian	  |  	Luxembourgish-LU	  |  
+  |  	Chinese (Simplified)	  |  	Bulgarian	  |  	Amharic	  |  	Macedonian	  |  
+  |  	Chinese (Traditional)	  |  	Catalan	  |  	Arabic	  |  	Malay	  |  
+  |  	Croatian	  |  	Chinese (Simplified)	  |  	Armenian	  |  	Malayalam	  |  
+  |  	Czech	  |  	Chinese (Traditional)	  |  	Assamese-IN	  |  	Maltese-MT	  |  
+  |  	Danish	  |  	Croatian	  |  	Azerbaijani-Latin-AZ	  |  	Maori-NZ	  |  
+  |  	Dutch	  |  	Czech	  |  	Basque	  |  	Marathi	  |  
+  |  	English	  |  	Danish	  |  	Belarusian-BY	  |  	mn-MN	  |  
+  |  	Estonian	  |  	Dutch	  |  	Bengali-BD	  |  	Nepali-NP	  |  
+  |  	Finnish	  |  	English	  |  	Bengali-IN	  |  	Northern Sotho-ZA	  |  
+  |  	French	  |  	Estonian	  |  	Bosnian-Latin-BA	  |  	Norwegian	  |  
+  |  	Galician	  |  	Filipino	  |  	Bulgarian	  |  	Norwegian Nynorsk-NO	  |  
+  |  	German	  |  	Finnish	  |  	Catalan	  |  	Oriya	  |  
+  |  	Greek	  |  	French	  |  	Catalan-Es-VALENCIA	  |  	Persian	  |  
+  |  	Hebrew	  |  	Galician	  |  	Central Khmer-KH	  |  	Polish	  |  
+  |  	Hindi	  |  	German	  |  	Cherokee-Cher-US	  |  	Portuguese	  |  
+  |  	Hungarian	  |  	Greek	  |  	Chinese (Simplified)	  |  	Portuguese-PT	  |  
+  |  	Indonesian	  |  	Gujarati	  |  	Chinese (Traditional)	  |  	Punjabi-Arab-PK	  |  
+  |  	Italian	  |  	Hebrew	  |  	Chinese-HK	  |  	Punjabi-IN	  |  
+  |  	Japanese	  |  	Hindi	  |  	Croatian	  |  	Romanian	  |  
+  |  	Kazakh	  |  	Hungarian	  |  	Cusco Quechua-PE	  |  	Russian	  |  
+  |  	Korean	  |  	Icelandic	  |  	Czech	  |  	Serbian	  |  
+  |  	Latvian	  |  	Indonesian	  |  	Danish	  |  	Serbian-Cyrillic	  |  
+  |  	Lithuanian	  |  	Italian	  |  	Dutch	  |  	Serbian-Cyrillic-BA	  |  
+  |  	Malay	  |  	Japanese	  |  	English-AU	  |  	Sindhi-Arab-PK	  |  
+  |  	Norwegian	  |  	Kannada	  |  	English-CA	  |  	Sinhala-LK	  |  
+  |  	Polish	  |  	Kazakh	  |  	English-GB	  |  	Slovak	  |  
+  |  	Portuguese	  |  	Korean	  |  	English-IN	  |  	Slovenian	  |  
+  |  	Portuguese-PT	  |  	Latvian	  |  	Estonian	  |  	Spanish	  |  
+  |  	Romanian	  |  	Lithuanian	  |  	Filipino	  |  	Spanish-MX	  |  
+  |  	Russian	  |  	Malay	  |  	Finnish	  |  	Swahili	  |  
+  |  	Serbian	  |  	Malayalam	  |  	French	  |  	Swedish	  |  
+  |  	Serbian-Cyrillic	  |  	Marathi	  |  	French-CA	  |  	Tajik-Cyrillic-TJ	  |  
+  |  	Slovak	  |  	nn-no	  |  	Gaelic-gb	  |  	Tamil	  |  
+  |  	Slovenian	  |  	Norwegian	  |  	Galician	  |  	Tatar	  |  
+  |  	Spanish	  |  	Oriya	  |  	Georgian	  |  	Telugu	  |  
+  |  	Swedish	  |  	Persian	  |  	German	  |  	Thai	  |  
+  |  	Thai	  |  	Polish	  |  	Greek	  |  	Tigrinya-ET	  |  
+  |  	Turkish	  |  	Portuguese	  |  	Gujarati	  |  	Tswana-ZA	  |  
+  |  	Ukranian	  |  	Portuguese-pt	  |  	Hausa-Latin-NG	  |  	Turkic	  |  
+  |  	Vietnamese	  |  	qps-ploc	  |  	Hebrew	  |  	Turkish	  |  
+  |  		  |  	qps-ploca	  |  	Hindi	  |  	Turkmen-TM	  |  
+  |  		  |  	qps-plocm	  |  	Hungarian	  |  	Uighur-CN	  |  
+  |  		  |  	Romanian	  |  	Icelandic	  |  	Ukranian	  |  
+  |  		  |  	Russian	  |  	Igbo-NG	  |  	Urdu	  |  
+  |  		  |  	Serbian	  |  	Indonesian	  |  	Uzbek	  |  
+  |  		  |  	Serbian-Cyrillic	  |  	Inuktitut-Latin-CA	  |  	Vietnamese	  |  
+  |  		  |  	Slovak	  |  	Irish-IE	  |  	Welsh	  |  
+  |  		  |  	Slovenian	  |  	Italian	  |  	Wolof-SN	  |  
+  |  		  |  	Spanish	  |  	Japanese	  |  	Xhosa-ZA	  |  
+  |  		  |  	Swahili	  |  	Kannada	  |  	Yoruba-NG	  |  
+  |  		  |  	Swedish	  |  	Kazakh	  |  	Zulu-ZA	  |  
+  |  		  |  	Tamil	  |  	K'iche'-Latin-gt	  |  		  |  
+  |  		  |  	Telugu	  |  	Kinyarwanda-RW	  |  		  |  
+  |  		  |  	Thai	  |  	kok	  |  		  |  
+  |  		  |  	Turkish	  |  	Korean	  |  		  |  
+  |  		  |  	Ukranian	  |  	Kurdish-Arab-IQ	  |  		  |  
+  |  		  |  	Urdu	  |  		  |  		  |  
+  |  		  |  	Vietnamese	  |  		  |  		  |  
+  |  		  |  	Welsh	  |  		  |  		  |  
 
-  |  	Dashboard	  |  	Email digest	  |  	Outlook add-in	  |  
-  |  	----	  |  	----	  |  	----	  |  
-  |  	Arabic	  |  	Amharic	  |  	Afghan Persian	  |  
-  |  	Basque	  |  	Arabic	  |  	Afghan Persian-AF	  |  
-  |  	Bulgarian	  |  	Basque	  |  	Afrikaans	  |  
-  |  	Catalan	  |  	Bengali-in	  |  	Albanian	  |  
-  |  	Chinese (Simplified)	  |  	Bulgarian	  |  	Amharic	  |  
-  |  	Chinese (Traditional)	  |  	Catalan	  |  	Arabic	  |  
-  |  	Croatian	  |  	Chinese (Simplified)	  |  	Armenian	  |  
-  |  	Czech	  |  	Chinese (Traditional)	  |  	Assamese-IN	  |  
-  |  	Danish	  |  	Croatian	  |  	Azerbaijani-Latin-AZ	  |  
-  |  	Dutch	  |  	Czech	  |  	Basque	  |  
-  |  	English	  |  	Danish	  |  	Belarusian-BY	  |  
-  |  	Estonian	  |  	Dutch	  |  	Bengali-BD	  |  
-  |  	Finnish	  |  	English	  |  	Bengali-IN	  |  
-  |  	French	  |  	Estonian	  |  	Bosnian-Latin-BA	  |  
-  |  	Galician	  |  	Filipino	  |  	Bulgarian	  |  
-  |  	German	  |  	Finnish	  |  	Catalan	  |  
-  |  	Greek	  |  	French	  |  	Catalan-Es-VALENCIA	  |  
-  |  	Hebrew	  |  	Galician	  |  	Central Khmer-KH	  |  
-  |  	Hindi	  |  	German	  |  	Cherokee-Cher-US	  |  
-  |  	Hungarian	  |  	Greek	  |  	Chinese (Simplified)	  |  
-  |  	Indonesian	  |  	Gujarati	  |  	Chinese (Traditional)	  |  
-  |  	Italian	  |  	Hebrew	  |  	Chinese-HK	  |  
-  |  	Japanese	  |  	Hindi	  |  	Croatian	  |  
-  |  	Kazakh	  |  	Hungarian	  |  	Cusco Quechua-PE	  |  
-  |  	Korean	  |  	Icelandic	  |  	Czech	  |  
-  |  	Latvian	  |  	Indonesian	  |  	Danish	  |  
-  |  	Lithuanian	  |  	Italian	  |  	Dutch	  |  
-  |  	Malay	  |  	Japanese	  |  	English-AU	  |  
-  |  	Norwegian	  |  	Kannada	  |  	English-CA	  |  
-  |  	Polish	  |  	Kazakh	  |  	English-GB	  |  
-  |  	Portuguese	  |  	Korean	  |  	English-IN	  |  
-  |  	Portuguese-PT	  |  	Latvian	  |  	Estonian	  |  
-  |  	Romanian	  |  	Lithuanian	  |  	Filipino	  |  
-  |  	Russian	  |  	Malay	  |  	Finnish	  |  
-  |  	Serbian	  |  	Malayalam	  |  	French	  |  
-  |  	Serbian-Cyrillic	  |  	Marathi	  |  	French-CA	  |  
-  |  	Slovak	  |  	nn-no	  |  	Gaelic-gb	  |  
-  |  	Slovenian	  |  	Norwegian	  |  	Galician	  |  
-  |  	Spanish	  |  	Oriya	  |  	Georgian	  |  
-  |  	Swedish	  |  	Persian	  |  	German	  |  
-  |  	Thai	  |  	Polish	  |  	Greek	  |  
-  |  	Turkish	  |  	Portuguese	  |  	Gujarati	  |  
-  |  	Ukranian	  |  	Portuguese-pt	  |  	Hausa-Latin-NG	  |  
-  |  	Vietnamese	  |  	qps-ploc	  |  	Hebrew	  |  
-  |  		  |  	qps-ploca	  |  	Hindi	  |  
-  |  		  |  	qps-plocm	  |  	Hungarian	  |  
-  |  		  |  	Romanian	  |  	Icelandic	  |  
-  |  		  |  	Russian	  |  	Igbo-NG	  |  
-  |  		  |  	Serbian	  |  	Indonesian	  |  
-  |  		  |  	Serbian-Cyrillic	  |  	Inuktitut-Latin-CA	  |  
-  |  		  |  	Slovak	  |  	Irish-IE	  |  
-  |  		  |  	Slovenian	  |  	Italian	  |  
-  |  		  |  	Spanish	  |  	Japanese	  |  
-  |  		  |  	Swahili	  |  	Kannada	  |  
-  |  		  |  	Swedish	  |  	Kazakh	  |  
-  |  		  |  	Tamil	  |  	K'iche'-Latin-gt	  |  
-  |  		  |  	Telugu	  |  	Kinyarwanda-RW	  |  
-  |  		  |  	Thai	  |  	kok	  |  
-  |  		  |  	Turkish	  |  	Korean	  |  
-  |  		  |  	Ukranian	  |  	Kurdish-Arab-IQ	  |  
-  |  		  |  	Urdu	  |  	Lao-LA	  |  
-  |  		  |  	Vietnamese	  |  	Latvian	  |  
-  |  		  |  	Welsh	  |  	Lithuanian	  |  
-  |  		  |  		  |  	Luxembourgish-LU	  |  
-  |  		  |  		  |  	Macedonian	  |  
-  |  		  |  		  |  	Malay	  |  
-  |  		  |  		  |  	Malayalam	  |  
-  |  		  |  		  |  	Maltese-MT	  |  
-  |  		  |  		  |  	Maori-NZ	  |  
-  |  		  |  		  |  	Marathi	  |  
-  |  		  |  		  |  	mn-MN	  |  
-  |  		  |  		  |  	Nepali-NP	  |  
-  |  		  |  		  |  	Northern Sotho-ZA	  |  
-  |  		  |  		  |  	Norwegian	  |  
-  |  		  |  		  |  	Norwegian Nynorsk-NO	  |  
-  |  		  |  		  |  	Oriya	  |  
-  |  		  |  		  |  	Persian	  |  
-  |  		  |  		  |  	Polish	  |  
-  |  		  |  		  |  	Portuguese	  |  
-  |  		  |  		  |  	Portuguese-PT	  |  
-  |  		  |  		  |  	Punjabi-Arab-PK	  |  
-  |  		  |  		  |  	Punjabi-IN	  |  
-  |  		  |  		  |  	Romanian	  |  
-  |  		  |  		  |  	Russian	  |  
-  |  		  |  		  |  	Serbian	  |  
-  |  		  |  		  |  	Serbian-Cyrillic	  |  
-  |  		  |  		  |  	Serbian-Cyrillic-BA	  |  
-  |  		  |  		  |  	Sindhi-Arab-PK	  |  
-  |  		  |  		  |  	Sinhala-LK	  |  
-  |  		  |  		  |  	Slovak	  |  
-  |  		  |  		  |  	Slovenian	  |  
-  |  		  |  		  |  	Spanish	  |  
-  |  		  |  		  |  	Spanish-MX	  |  
-  |  		  |  		  |  	Swahili	  |  
-  |  		  |  		  |  	Swedish	  |  
-  |  		  |  		  |  	Tajik-Cyrillic-TJ	  |  
-  |  		  |  		  |  	Tamil	  |  
-  |  		  |  		  |  	Tatar	  |  
-  |  		  |  		  |  	Telugu	  |  
-  |  		  |  		  |  	Thai	  |  
-  |  		  |  		  |  	Tigrinya-ET	  |  
-  |  		  |  		  |  	Tswana-ZA	  |  
-  |  		  |  		  |  	Turkic	  |  
-  |  		  |  		  |  	Turkish	  |  
-  |  		  |  		  |  	Turkmen-TM	  |  
-  |  		  |  		  |  	Uighur-CN	  |  
-  |  		  |  		  |  	Ukranian	  |  
-  |  		  |  		  |  	Urdu	  |  
-  |  		  |  		  |  	Uzbek	  |  
-  |  		  |  		  |  	Vietnamese	  |  
-  |  		  |  		  |  	Welsh	  |  
-  |  		  |  		  |  	Wolof-SN	  |  
-  |  		  |  		  |  	Xhosa-ZA	  |  
-  |  		  |  		  |  	Yoruba-NG	  |  
-  |  		  |  		  |  	Zulu-ZA	  |  
   
 
 <!-- ORIGINAL, WITH LANGUAGE CODES ONLY: 
