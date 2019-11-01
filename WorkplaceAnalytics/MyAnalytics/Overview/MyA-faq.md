@@ -166,6 +166,10 @@ You can identify your _plan_ (and also your _service plan_) by following these s
     
     ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
 
+#### Q5. In what languages are the elements of MyAnalytics available?
+
+See [MyAnalytics languages](mya-languages.md).
+
 ### Insights Outlook add-in
 
 #### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
