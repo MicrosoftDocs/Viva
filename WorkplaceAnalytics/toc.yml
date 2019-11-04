@@ -5,6 +5,8 @@
       href: ~/index-orig.md
     - name: Privacy and data protection
       items:
+        - name: Introduction                   
+          href: ~/Privacy/data-protection-intro.md
         - name: Data-protection considerations                   
           href: ~/Privacy/data-protection-considerations.md
         - name: Privacy and data access
