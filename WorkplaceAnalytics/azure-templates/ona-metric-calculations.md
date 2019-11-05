@@ -33,7 +33,7 @@ Each of the measures are based on the connections between the nodes. To ensure t
 
 You can highlight key employees or groups by sizing the nodes in the graph by using the **Scale Nodes** option (**No Measure** by default).
 
-You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degrees](#degrees), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
+You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degrees](#degrees), [Density](#density) (only in Combined View), and[Influence Index](#influence-index).
 
 ![Node Sizing Options](./images/ona-node-options.png)
 
@@ -128,9 +128,9 @@ For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
 ## Reach Index
 
-Reach Index indicates the ability to access or share information across the organization while going through the fewest number of people. Those people or groups that have high Reach Index values are most likely spreading information within the network and might be effective in the adoption of new ideas.
+Reach Index indicates the ability to access or share information across the organization while going through the fewest number of people. The people <!--or groups-->that have high Reach Index values are most likely spreading information within the network and might be effective in the adoption of new ideas.
 
-Specifically, Reach Index measures how many nodes on average other nodes must go through to reach other nodes in the network. The score is normalized between 0 and 1 by dividing the number of nodes external to the source node. This accounts for overall network size and group sizes for comparing Reach Index values across networks and groups. It also ensures that nodes who cannot be reached from a source node do not bias the source node’s overall Reach Index.
+Specifically, Reach Index measures how many people on average that others typically connect through to reach other people (nodes) in the network. The score is normalized between 0 and 1 by dividing the number of nodes external to the source node. This accounts for overall network size and group sizes for comparing Reach Index values across networks<!--and groups-->. It also ensures that nodes who cannot be reached from a source node do not bias the source node’s overall Reach Index.
 
 Currently, the calculation does not factor the strength or weight of the connection. All connections between nodes have the same strength.
 
@@ -138,9 +138,8 @@ This measure is calculated as follows for employees as compared to groups:
 
 * **Employee level**: The Reach Index for an individual is the average of the reciprocal distances between that individual and everyone else in the network to whom they are directly or subsequently connected. Distance is the count of individuals that are on the shortest path between the source individual and the target individual.
 
-* **Group level**: The group's Reach Index is similar to the employee index, except that it only accounts for the distances from the nodes inside the group to nodes outside of the group while following the shortest possible paths. Distances among group members are not considered. It's also normalized by the number of nodes outside of the source node’s group.
-
-Group level Reach Index values are usually larger than the reach of individual nodes due to higher connectivity. Additionally, Reach Index values do not typically have large separation among the top ranked members because of the high amount of connections within social networks. Meaning the nodes highest in reach are all similar to each other in how they connect to the rest of the network.
+* **Group level**: Not yet available for Reach Index.<!--The group's Reach Index is similar to the employee index, except that it only accounts for the distances from the nodes inside the group to nodes outside of the group while following the shortest possible paths. Distances among group members are not considered. It's also normalized by the number of nodes outside of the source node’s group.-->
+<!--Group level Reach Index values are usually larger than the reach of individual nodes due to higher connectivity. Additionally, Reach Index values do not typically have large separation among the top ranked members because of the high amount of connections within social networks. Meaning the nodes highest in reach are all similar to each other in how they connect to the rest of the network.-->
 
 For more information, see [Closeness Centrality](https://wikipedia.org/wiki/Closeness_centrality).
 
