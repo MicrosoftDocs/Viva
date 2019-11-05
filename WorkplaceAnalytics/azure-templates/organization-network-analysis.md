@@ -153,10 +153,10 @@ Represents the number of links each person or group (node) has and the number of
 
 ### Reach Index
 
-Represents ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person or group and others in the network. Nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information. For more details, see the [measure calculations](ona-metric-calculations.md#reach-index).
+Represents ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person<!-- or group--> and others in the network. People nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information. For more details, see the [measure calculations](ona-metric-calculations.md#reach-index).
 
 > [!Note]
-> Weights are not factored into Reach Index computations.
+> Weights are not factored into Reach Index computations. Also, group-level measures are not yet available for Reach Index.
 
 ### Graph notes
 
