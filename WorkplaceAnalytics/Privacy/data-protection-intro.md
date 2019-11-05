@@ -18,7 +18,7 @@ audience: Admin
 
 If your organization uses Workplace Analytics, you might find the following  articles, which cover aspects of data-protection, privacy, and data access, to be of interest:
 
- * [Roles and responsibilities](data-protection-considerations.md#roles-and-responsibilities). Read about the concepts of [data controller](data-protection-considerations.md#your-organizations-role-data-controller), [data processor](data-protection-considerations.md#microsofts-role-data-processor), and [data subject](data-protection-considerations.md#data-subject-and-personal-data), and their origins in European privacy law. In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user" or an "employee.")
+ * [Roles and responsibilities](data-protection-considerations.md#roles-and-responsibilities). Read about the concepts of [data controller](data-protection-considerations.md#your-organizations-role-data-controller), [data processor](data-protection-considerations.md#microsofts-role-data-processor), and [data subject](data-protection-considerations.md#data-subject-and-personal-data), and their origins in European privacy law. In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user" or an "employee."
 
  * [Types of data for analysis in Workplace Analytics](data-protection-considerations.md#types-of-data-for-analysis-in-workplace-analytics). This section provides an overview of the different types of data that can be included and used in calculations.  
  
@@ -30,8 +30,8 @@ If your organization uses Workplace Analytics, you might find the following  art
 
 Workplace Analytics
  * For leaders, admins, PMs, and analysts: [Data-protection considerations](data-protection-considerations.md)
- * For admins and analysts: [Data access after license expiration](license-expiration.md)
- * For admins: [Workplace Analytics privacy and data access](Privacy-And-Data-Access.md)
+ * For leaders, admins, and analysts: [Data access after license expiration](license-expiration.md)
+ * For admins and analysts: [Workplace Analytics privacy and data access](Privacy-And-Data-Access.md)
 
 MyAnalytics
  * For admins: [Privacy guide for MyAnalytics admins](../myanalytics/overview/privacy-guide.md)
