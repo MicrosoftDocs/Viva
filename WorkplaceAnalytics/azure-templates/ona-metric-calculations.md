@@ -33,9 +33,9 @@ Each of the measures are based on the connections between the nodes. To ensure t
 
 You can highlight key employees or groups by sizing the nodes in the graph by using the **Scale Nodes** option (**No Measure** by default).
 
-You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degrees](#degrees), [Density](#density) (only in Combined View), [Influence Index](#influence-index), and [Reach Index](#reach-index).
+You can size the nodes based on various network metrics. The following shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option, including: [Boundary Spanning](#boundary-spanning), [Bridging Index](#bridging-index), [Degrees](#degrees), [Density](#density) (only in Combined View), and[Influence Index](#influence-index).
 
-![Node Sizing Options](./images/ona-node-options.png)
+![Node Sizing Options](./images/ona-node-options2.png)
 
 ## Are the measures for employees and groups different?
 
@@ -126,7 +126,7 @@ This measure is calculated as follows for employees as compared to groups:
 
 For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
-## Reach Index
+<!--## Reach Index
 
 Reach Index indicates the ability to access or share information across the organization while going through the fewest number of people. Those people or groups that have high Reach Index values are most likely spreading information within the network and might be effective in the adoption of new ideas.
 
@@ -142,7 +142,7 @@ This measure is calculated as follows for employees as compared to groups:
 
 Group level Reach Index values are usually larger than the reach of individual nodes due to higher connectivity. Additionally, Reach Index values do not typically have large separation among the top ranked members because of the high amount of connections within social networks. Meaning the nodes highest in reach are all similar to each other in how they connect to the rest of the network.
 
-For more information, see [Closeness Centrality](https://wikipedia.org/wiki/Closeness_centrality).
+For more information, see [Closeness Centrality](https://wikipedia.org/wiki/Closeness_centrality).-->
 
 ## Related topics
 
