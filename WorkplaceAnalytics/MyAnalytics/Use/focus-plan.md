@@ -14,12 +14,7 @@ ms.prod: mya
 
 # Focus plan
 
-_**Applies to:** Focus plan is currently available for MyAnalytics users who have an E5 license. Focus plan will become available to all MyAnalytics users in the coming months._ 
-
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
-
-> [!Note] 
-> To determine your plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)
+_**Applies to:** Focus plan is currently available for MyAnalytics users who have an E5 license. Focus plan will become available to all MyAnalytics users in the coming months. MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. To determine your plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)._
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
