@@ -22,15 +22,15 @@ The following table lists which user experiences are available depending on what
 
 | Plan  | Service plan | User experience currently available |
 | ----- | ----- |----- |
-| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students  <li>Office 365 E3 Developer  <li>Office 365 G3   <li>Office 365 G1   <li>Business Premium  <li>Business Essentials  <br> <br> |  <br>Insights by <br>MyAnalytics  | <br>[Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), and <br>[Email digests](../use/email-digest-2.md) (Email digests are rolling out to users now through December 2019) |
+| <li>Microsoft 365 E3    <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3     <li>Office 365 E1     <li>Office 365 A3 for faculty/students  <li>Office 365 E3 Developer  <li>Office 365 G3   <li>Office 365 G1   <li>Business Premium  <li>Business Essentials  <br> <br> |  <br>Insights by <br>MyAnalytics  | <br>[Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), and <br>[Email digests](../use/email-digest-2.md) (Email digests are rolling out to users now through December 2019)<br> [Inline suggestions](../use/mya-notifications.md) (Inline suggestions are rolling out to users starting in November 2019)|
 | <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing   <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full)<br>and<br>  Insights by MyAnalytics | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digests](../use/email-digest-2.md), and <br> [Inline suggestions](../use/mya-notifications.md) <br>  |
 | <li>Microsoft 365 A5 for faculty/students    <li>Office 365 A5 for faculty/students    | MyAnalytics (Full) | [Dashboard](../use/dashboard-2.md), <br>[Insights Outlook Add-in](../use/add-in.md), <br> [Email digests](../use/email-digest-2.md), and<br> [Inline suggestions](../use/mya-notifications.md) |  
-
+ 
 > [!Note]
 > * To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)
 > * [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are available only in the MyAnalytics (Full) service plan.
 
-For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
+For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
 ## Access to MyAnalytics elements
 

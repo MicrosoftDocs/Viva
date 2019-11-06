@@ -57,7 +57,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 ### Get a link for an OData feed to use in Power BI
 
    > [!Note]
-   > You can share Power BI dashboards. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).
+   > You can share Power BI dashboards. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
 1. Next to the query you want, select **Copy link**:
 
@@ -127,7 +127,7 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
     ![Enter partition ID](../images/wpa/use/connect_to_wpa_part_id.png)
 
-5.	Select the data connectivity mode that you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
+5.	Select the data connectivity mode that you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
 
     ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa_mode.png)
 
@@ -151,11 +151,11 @@ For example, you can generate a bar chart that shows an organization-wide analys
 
 ![Get Data button](../images/wpa/use/example-pbi-visual.png)
 
-After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
+After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards). 
 
 ## Related topics
 
-[Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-odata) 
+[Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata) 
 
 [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 
@@ -163,4 +163,4 @@ After you have finished creating visualizations, you can publish your reports to
 
 [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
 
-[Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards)
+[Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards)

@@ -24,14 +24,14 @@ MyAnalytics processes information in a manner that protects employee privacy. Fo
 
 MyAnalytics consists of the following elements:
 
- * [MyAnalytics dashboard](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard-2): Helps you reflect on your work patterns such as time that you have available to focus, your meeting and email practices, and your network.
- * [Insights Outlook add-in](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/add-in): Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
- * [Email digest](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/email-digest-2): Gives you key highlights about your work patterns in a weekly email..
- * [Inline suggestions](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications): These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
+ * [MyAnalytics dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2): Helps you reflect on your work patterns such as time that you have available to focus, your meeting and email practices, and your network.
+ * [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in): Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
+ * [Email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2): Gives you key highlights about your work patterns in a weekly email..
+ * [Inline suggestions](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications): These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
 
 ## MyAnalytics distributions
 
-The elements of MyAnalytics are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. To see which plans include MyAnalytics and Insights by MyAnalytics, see [MyAnalytics plans and environments](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/plans-environments).
+The elements of MyAnalytics are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. To see which plans include MyAnalytics and Insights by MyAnalytics, see [MyAnalytics plans and environments](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/plans-environments).
 
 ## Data privacy
 
@@ -44,8 +44,8 @@ By adhering to the following guidelines, MyAnalytics protect employee privacy an
  * MyAnalytics can be configured so that individuals must purposefully opt in.
  * MyAnalytics reminds people that their data is private and secure.
 
-For more information, see [MyAnalytics privacy guide](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide).
+For more information, see [MyAnalytics privacy guide](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide).
 
 ## Prerequisites
 
- * [Microsoft Exchange Online](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)
+ * [Microsoft Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)
