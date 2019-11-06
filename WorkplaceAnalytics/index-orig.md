@@ -12,7 +12,7 @@ author: madehmer
 
 <ul class="panelContent cardsY">
     <li>
-        <a href="http://insights.office.com">
+        <a href="https://insights.office.com">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

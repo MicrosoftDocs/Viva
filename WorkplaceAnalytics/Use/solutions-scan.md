@@ -161,7 +161,7 @@ After validation, Workplace Analytics reports the results, including the number 
 
 ![Validation warnings](../images/wpa/use/participants-warnings.png)
 
-Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with the plan. (You can go right to [Start the plan](https://review.docs.microsoft.com/en-us/Workplace-Analytics/tutorials/solutionsv2-task#start-the-plan).)
+Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with the plan. (You can go right to [Start the plan](https://review.docs.microsoft.com/Workplace-Analytics/tutorials/solutionsv2-task#start-the-plan).)
 
 If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Workplace Analytics. For example, you could ask an admin to assign licenses to those who are missing them, or you could try a different group.
 
@@ -179,6 +179,6 @@ This statement identifies the source of the data. That is, the data that was use
 
 A different analyst with a different partition would see a different trend line because that line would be calculated from different data. 
 
-All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partition-in-wpa). 
+All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/setup/partition-in-wpa). 
 
 -->

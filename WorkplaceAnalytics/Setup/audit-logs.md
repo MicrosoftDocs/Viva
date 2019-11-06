@@ -26,7 +26,7 @@ These logs include an audit section for Workplace Analytics activity, which typi
 You must meet the following requirements before you can access the audit logs:
 
 * To access the auditing section of the Office 365 Security & Compliance Center, you must have an Exchange Online license (included with Office 365 Enterprise E3 and E5 subscriptions).
-* And you must either be a Global admin or have an Exchange admin role that provides access to the audit log. Exchange admin roles are controlled through the Exchange Admin center. For more information, see [Permissions in Exchange Online](https://docs.microsoft.com/en-us/exchange/permissions-exo/permissions-exo).
+* And you must either be a Global admin or have an Exchange admin role that provides access to the audit log. Exchange admin roles are controlled through the Exchange Admin center. For more information, see [Permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
 
 ### To access Audit log search
 
@@ -71,7 +71,7 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
    Item |The object that was created or modified because of the corresponding activity. For example, the file that was viewed or modified, or the user account that was updated. Not all activities in this column have a value.
    Detail |Any additional detail about an activity. Not all activities have a value.
 
-   For more details and tips on searching, filtering, and exporting results in the audit log, see [Search the audit log](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
+   For more details and tips on searching, filtering, and exporting results in the audit log, see [Search the audit log](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
 
 7. In the **Results** section, select an event from the list to view more details about it.
 8. A **Details** page shows the event properties, which are based on which Office 365 service that the event occurred in. Select **More information** to view more.
@@ -115,7 +115,7 @@ Activity |Description
 -----|-----------
 Viewed Explore |Analyst viewed one or more Explore pages.
 
-For more information about event properties, see [Detailed properties in the audit log](https://docs.microsoft.com/en-us/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log).
+For more information about event properties, see [Detailed properties in the audit log](https://docs.microsoft.com/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log).
 
 ## Use PowerShell to search the logs
 
@@ -135,4 +135,4 @@ The following example code uses the Search-UnifiedAuditLog command to get Workpl
        Search-UnifiedAuditLog -StartDate 1/1/2019 -EndDate 1/31/2019 -RecordType WorkplaceAnalytics-ResultSize 1000 | Format-Table | More
 
       ```
-For more about connecting to Exchange Online, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+For more about connecting to Exchange Online, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
