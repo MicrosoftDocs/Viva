@@ -47,7 +47,8 @@
       "titleSuffix": "Workplace Analytics Office 365 ",
       "feedback_system": "None",
       "hideEdit": true,
-      "searchScope": ["Workplace Analytics"]
+      "searchScope": ["Workplace Analytics"],
+      "titleSuffix": "Workplace Intelligence"
     },
     "fileMetadata": {
       "searchScope": { "MyAnalytics/**.md": ["Workplace Analytics","MyAnalytics"] }
