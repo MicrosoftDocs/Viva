@@ -30,7 +30,7 @@ The following table lists which user experiences are available depending on what
 > * To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)
 > * [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are available only in the MyAnalytics (Full) service plan.
 
-For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/en-us/business/compare-more-office-365-for-business-plans).
+For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
 ## Access to MyAnalytics elements
 

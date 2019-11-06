@@ -88,13 +88,13 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 #### Q1. Does "meeting time" include time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
 
 ### Focus time
 
 #### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
 #### Q2. Can I change my settings to make time outside of work more accurate?
 
