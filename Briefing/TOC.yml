@@ -1,4 +1,4 @@
-- name: Briefing email overview
+- name: Overview
   href: ./be-overview.md
 - name: Privacy guide
   href: ./be-privacy.md        
