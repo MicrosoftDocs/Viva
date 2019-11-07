@@ -53,8 +53,8 @@ For documents, select:
 As a new user, your first Briefing email explains how to use it to prepare for upcoming meetings and manage pending tasks. It also explains how your personal information is kept private.
   
    ![First Briefing email](./images/first-briefing.png)
-<!-->
-## Configuration
+
+<!--## Configuration
 
 The Briefing email needs to be set up for your organization by the admin. See [Configure the Briefing email](be-admin.md) for details about configuration.
 -->
