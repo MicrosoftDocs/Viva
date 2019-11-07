@@ -19,7 +19,8 @@ As the admin, you can configure Briefing email for your organization. However, b
 
 * **Prerequisite**: Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Data privacy**: See the Privacy Guide to understand how privacy is built into Briefing email and to learn what you can configure to address your organization’s specific privacy requirements.
-As the admin, you can set the Briefing email up at the tenant level or the user level.
+
+As the admin, you can set the Briefing email up at the [tenant level](#tenant-level-configuration) or the [user level](#user-level-configuration).
 
 ## Tenant-level configuration
 
@@ -39,7 +40,7 @@ To get the current state of the Briefing email setting, use:
      ```
 ## User-level configuration
 
-You can also configure the Briefing email for individual users in your organization. At this level, you can opt-out a user completely, which turns off all Briefing email functionality for that user. However, the user can choose to opt back in at https://briefing.microsoft.com.
+You can also configure the Briefing email for individual users in your organization. At this level, you can completely opt-out a user, which turns off all Briefing email functionality for that user. However, the user can choose to opt back in at https://briefing.microsoft.com.
 
 * To enable or disable the Briefing email for a specific user in your organization, use the following Exchange Online PowerShell cmdlets, where you replace “Contoso\Jill” with your applicable organization and username:
 
