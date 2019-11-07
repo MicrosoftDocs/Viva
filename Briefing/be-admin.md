@@ -28,7 +28,7 @@ You can enable or disable the Briefing email for all users in your organization 
 
     ``` powershell
     Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<”Opt-in” | “Opt-out”>]
-     ```
+    ```
 
    * If you set BriefingEmailDefault parameter to Opt-out, the Briefing email will be Off by default for your organization. Users can then opt-in at https://briefing.microsoft.com
    * If you set BriefingEmailDefault parameter to Opt-in, the Briefing email will be On by default for your organization. Users can then opt-out at https://briefing.microsoft.com. If no action is taken, this setting applies by default.
