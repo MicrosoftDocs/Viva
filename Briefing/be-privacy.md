@@ -23,7 +23,7 @@ The Briefing email does not include any personally identifiable information abou
 * Global Opt-in setting –Any user of the Exchange Online service is automatically Opted in by default to receive the Briefing email. As an individual, you can select Unsubscribe at the end of any Briefing email to opt out. Your admin can also turn Off the global Opt-in default setting and ask you to individually opt in.
 * More information is always available – Your first Briefing email describes what it is, that your data is kept private, and includes documentation links to get more details. All subsequent Briefing emails will always include links to more information.
 
-## The Briefing email experience
+## Your experience
 
 You can use the Briefing email to do the following:
 
