@@ -5,6 +5,7 @@
 - name: Admin guide
   href: ./be-admin.md  
 - name: Using Briefing email
+  expanded: true
   items: 
   - name: Prepare for meetings
     href: ./be-meetings.md
