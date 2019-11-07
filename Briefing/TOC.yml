@@ -1,2 +1,16 @@
-- name: Index
-  href: index.md
+- name: Briefing email overview
+  href: ./be-overview.md
+- name: Privacy guide
+  href: ./be-privacy.md        
+- name: Admin guide
+  href: ./be-admin.md  
+- name: Using Briefing email
+  items: 
+  - name: Prepare for meetings
+    href: ./be-meetings.md
+  - name: Follow up on tasks
+    href: ./be-tasks.md
+  - name: Follow up on emails
+    href: ./be-email.md
+  - name: Book focus time
+    href: ./be-focus.md
