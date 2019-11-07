@@ -42,7 +42,7 @@ For example, if you want to determine what commitments you made to others, you c
 
 The Briefing email provides flexible and configurable controls that are designed to enable your organization to address varying legal needs and policies regarding privacy and use of employee data. When enabling the Briefing email for your organization, admins can make the following choices.
 
-* **Turn On or Off for all** – By default, all employees with an Exchange Online mailbox are opted in to receive the Briefing email. Your admin can turn this Opt-in setting On or Off.
+* **Set default access for all** – By default, all employees with an Exchange Online mailbox are opted in to receive the Briefing email. Your admin can turn this Opt-in setting On or Off.
 
   - When it is set **On**, all employees get the Briefing email by default. However, they can individually unsubscribe at any time.
   - When it is set **Off**, the admin will need to ask employees to individually subscribe (opt in) to get the Briefing email.
