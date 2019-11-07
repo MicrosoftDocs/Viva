@@ -37,7 +37,10 @@ To get the current state of the Briefing email setting, use: Get-OrganizationInt
 You can also configure the Briefing email for individual users in your organization. At this level, you can opt-out a user completely, which turns off all Briefing email functionality for that user. However, the user can choose to opt back in at https://briefing.microsoft.com.
 
 * To enable or disable the Briefing email for a specific user in your organization, use the following Exchange Online PowerShell cmdlets, where you replace “Contoso\Jill” with your applicable organization and username:
-Set-UserIntelligenceConfig -Identity Contoso\Jill [-BriefingEmailMode [<”Opt-in” | “Opt-out”>]
+
+    ``` powershell
+    Set-UserIntelligenceConfig -Identity Contoso\Jill [-BriefingEmailMode [<”Opt-in” | “Opt-out”>]
+     ```
 
   - If you set the BriefingEmailMode parameter to Opt-out, the Briefing email will be Off by default for that user. Users can then opt-in from https://briefing.microsoft.com.
   - If you set the BriefingEmailMode parameter to Opt-in, the Briefing email will be On by default for that user. Users can then opt-out from https://briefing.microsoft.com. If no action occurs, this setting applies by default.
