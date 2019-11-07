@@ -21,7 +21,7 @@ author: madehmer
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/briefing/be-overview">
+        <a href="https://docs.microsoft.com/briefing/be-overview">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -40,7 +40,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/briefing/be-privacy">
+        <a href="https://docs.microsoft.com/briefing/be-privacy">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -59,7 +59,7 @@ author: madehmer
         </a>
     </li>
 <!--<li>
-        <a href="https://docs.microsoft.com/workplace-analytics/briefing/be-admin">
+        <a href="https://docs.microsoft.com/briefing/be-admin">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -78,7 +78,7 @@ author: madehmer
         </a>
     </li>-->
     <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/briefing/be-meetings">
+        <a href="https://docs.microsoft.com/briefing/be-meetings">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
