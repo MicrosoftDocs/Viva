@@ -36,7 +36,7 @@ To get the current state of the Briefing email setting, use:
 
      ``` powershell
      Get-OrganizationIntelligenceConfig
-
+     ```
 ## User-level configuration
 
 You can also configure the Briefing email for individual users in your organization. At this level, you can opt-out a user completely, which turns off all Briefing email functionality for that user. However, the user can choose to opt back in at https://briefing.microsoft.com.
@@ -54,6 +54,7 @@ You can also configure the Briefing email for individual users in your organizat
 
     ``` powershell
     Get-UserIntelligenceConfig -Identity Contoso\Jill
+     ```
 
 * Or you can set the parameter for multiple users with a PowerShell script that iterates through the users, changing the value one user at a time. Use the following script to:
 
@@ -68,7 +69,7 @@ You can also configure the Briefing email for individual users in your organizat
     ClaudeL@contoso.onmicrosoft.com
     LynneB@contoso.onmicrosoft.com
     ShawnM@contoso.onmicrosoft.com
-
+     ```
 2. Specify the location of the input .csv file, the output .csv file, and the value of **BriefingEmailMode** of **Opt-in** or **Opt-out** for each user:
 
     ``` powershell
@@ -84,7 +85,7 @@ You can also configure the Briefing email for individual users in your organizat
 
     Set-UserInelligenceConfig –Identity $upn -BriefingEmailMode $briefingEmailMode
     Get-UserIntelligenceConfig –Identity $upn | Export-Csv $outFileName
-    }
+    } ```
 
 3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
 
