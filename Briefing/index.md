@@ -15,7 +15,7 @@ author: madehmer
 <ul class="cardsY panelContent singlePanelContent">
     <li>
         <h1>Briefing email documentation</h1>
-            <p>The Briefing email helps you prepare for your day and keep track of commitments you’ve made in email. It also summarizes your meetings and relevant documents for the workday.</p>
+            <p>The Briefing email helps you prepare for your day and keep track of commitments you’ve made in email.</p>
     </li>
 </ul>
 
@@ -32,7 +32,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Introducing the Briefing email</h3>
-                        <p>Learn what the Briefing email is and how to use it to manage your day.</p>
+                        <p>Learn what the Briefing email is and how you can use it to prepare for today's meetings and related documents and tasks, and help get your work done.</p>
                     </div>
                 </div>
             </div>
