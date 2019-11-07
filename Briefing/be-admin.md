@@ -27,17 +27,18 @@ As the admin, you can set the Briefing email up at the [tenant level](#tenant-le
 You can enable or disable the Briefing email for all users in your organization at the tenant level. Use the following Exchange Online PowerShell cmdlets to set the tenant default:
 
     ``` powershell
-   Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<”Opt-in” | “Opt-out”>]
-    ```
+    Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<”Opt-in” | “Opt-out”>]
+     ```
 
    * If you set BriefingEmailDefault parameter to Opt-out, the Briefing email will be Off by default for your organization. Users can then opt-in at https://briefing.microsoft.com
    * If you set BriefingEmailDefault parameter to Opt-in, the Briefing email will be On by default for your organization. Users can then opt-out at https://briefing.microsoft.com. If no action is taken, this setting applies by default.
 
 To get the current state of the Briefing email setting, use:
 
-     ``` powershell
+    ``` powershell
      Get-OrganizationIntelligenceConfig
      ```
+
 ## User-level configuration
 
 You can also configure the Briefing email for individual users in your organization. At this level, you can completely opt-out a user, which turns off all Briefing email functionality for that user. However, the user can choose to opt back in at https://briefing.microsoft.com.
@@ -71,6 +72,7 @@ You can also configure the Briefing email for individual users in your organizat
     LynneB@contoso.onmicrosoft.com
     ShawnM@contoso.onmicrosoft.com
      ```
+
 2. Specify the location of the input .csv file, the output .csv file, and the value of **BriefingEmailMode** of **Opt-in** or **Opt-out** for each user:
 
     ``` powershell
@@ -86,7 +88,8 @@ You can also configure the Briefing email for individual users in your organizat
 
     Set-UserInelligenceConfig –Identity $upn -BriefingEmailMode $briefingEmailMode
     Get-UserIntelligenceConfig –Identity $upn | Export-Csv $outFileName
-    } ```
+    }
+     ```
 
 3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
 
