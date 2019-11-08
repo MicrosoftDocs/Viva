@@ -19,7 +19,7 @@ The Briefing email helps you stay in control of your calendar and be intentional
 * Emails you might need to follow up on
 * Suggested focus time you can schedule to help get independent work done
 
-## Opt in
+## Why am I getting this?
 
 You are receiving the Briefing email because your admin has enabled this email for your organization. If you are not receiving the Briefing email, it may be because you previously unsubscribed, or because your administrator has disabled it for your organization.
 
