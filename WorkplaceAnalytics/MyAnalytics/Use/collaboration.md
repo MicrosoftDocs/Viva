@@ -14,13 +14,13 @@ ms.prod: mya
 
 # Collaboration
 
-Collaboration in MyAnalytics shows who you're working with most and how well you're maintaining your relationships at work.
+Collaboration in MyAnalytics shows who you're working with most. The **Collaboration** page shows your weekly collaboration averages, meeting habits, and communication habits.
 
-The **Collaboration** page shows your weekly collaboration averages, meeting habits, and communication habits. The **Weekly average** section shows an estimate of the time you've spent in the past 4 weeks in meetings, email, chats, and calls. It is measured as a percentage of your working week which is based on the activity in your working hours.
+The **Weekly average** section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours.
 
    ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
 
-In the **Meeting habits** section, you can switch between the **Habits** and **Meetings** view. The **Habits** view shows your most common types of meetings:  
+In the **Meeting habits** section, you can switch between the Habits view and the Meetings view. The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks:
 
    ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
 
@@ -28,7 +28,7 @@ The **Meetings** view shows more details about all the meetings on your calendar
 
    ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
 
-The **Communication habits** section shows how you connected through email and chats over the last four weeks:
+The **Communication habits** section shows how you connected with others in your organization through email and chats over the last four weeks:
 
    ![MyAnalytics Communication habits](../../Images/mya/use/collab-com-chart.png)
 
@@ -40,7 +40,7 @@ These are based on your recent collaboration activity at work. Select **View Sug
 
 ### Meetings
 
-Meeting metrics include any meetings that you’ve organized or accepted that have at least one other person attending. Meeting time includes meetings that take place during and outside of your set working hours. After-hours meeting time also affects your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
+Meeting metrics include any meetings that you organized or accepted that have at least one other person attending. Meeting time includes meetings that take place during and outside of your set working hours. After-hours meeting time also affects your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
 
 The following meeting types are excluded from meeting metrics:
 
