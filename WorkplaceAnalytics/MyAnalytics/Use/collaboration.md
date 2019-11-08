@@ -18,19 +18,19 @@ Collaboration in MyAnalytics shows who you're working with most and how well you
 
 The **Collaboration** page shows your weekly collaboration averages, meeting habits, and communication habits. The **Weekly average** section shows an estimate of the time you've spent in the past 4 weeks in meetings, email, chats, and calls. It is measured as a percentage of your working week which is based on the activity in your working hours.
 
-    ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
+   ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
 
 In the **Meeting habits** section, you can switch between the **Habits** and **Meetings** view. The Habits view shows your most common types of meetings:  
 
-    ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
+   ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
 
 The **Meetings** view shows more details about all the meetings on your calendar over the past four weeks:
 
-    ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
+   ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
 
 The **Communication habits** section shows how you connected through email and chats over the last four weeks:
 
-    ![MyAnalytics Communication habits](../../Images/mya/use/collab-meetings.png)
+   ![MyAnalytics Communication habits](../../Images/mya/use/collab-meetings.png)
 
 ## Productivity insights
 
