@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics solutions concepts
-description: Concepts and definitions to help you better work with the solutions feature of Workplace Analytics. 
+title: Workplace Analytics plans concepts
+description: Concepts and definitions to help you better work with the plans feature of Workplace Analytics. 
 author: paul9955
 ms.author: v-pascha
 ms.topic: conceptual
@@ -11,9 +11,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions: Concepts
+# Plans: Concepts
 
-This section describes concepts whose understanding can help you create and monitor Teamwork solution improvement plans. These creation and monitoring tasks are described in the step-by-step walkthrough for creating a plan, [Solution: Walkthrough](solutionsv2-task.md).
+This section describes concepts whose understanding can help you create and monitor Teamwork solution improvement plans. These creation and monitoring tasks are described in the step-by-step walkthrough for creating a plan, [Plans: Walkthrough](solutionsv2-task.md).
  
 ## Use of a .csv file
 
@@ -29,7 +29,7 @@ An "invalid" email address means that the email address was formatted incorrectl
 
 #### Separation from org data
 
-After you create and upload a .csv file to identify participants  in a plan, the information in that .csv file is not added to the organizational data that Workplace Analytics stores. The .csv-file data is available only in the Solutions area of Workplace Analytics, and only for creating plans.
+After you create and upload a .csv file to identify participants  in a plan, the information in that .csv file is not added to the organizational data that Workplace Analytics stores. The .csv-file data is available only in the plans area of Workplace Analytics, and only for creating plans.
 
 #### Minimum group size
 
@@ -84,9 +84,9 @@ The dividing line between these two groups of people is the threshold. The thres
 Return to [Submit a group](solutionsv2-task.md#submit-a-group). 
 -->
 
-## The Solutions > Manage page
+## The Plans > Manage page
 
-Groups and plans are shown on the **Solutions > Manage** page of Workplace Analytics. You can track groups and plans in the table on this page. To find a plan, first filter the table contents by using the dropdown to select plans in the following states: **Drafts**, **Active**, or **Completed**.
+Groups and plans are shown on the **Plans > Manage** page of Workplace Analytics. You can track groups and plans in the table on this page. To find a plan, first filter the table contents by using the dropdown to select plans in the following states: **Drafts**, **Active**, or **Completed**.
 
 ![Manage](../images/wpa/tutorials/solutions-manage.png)
 
@@ -109,7 +109,7 @@ Return to [Track plans](solutionsv2-task.md#track-plans)<!-- or [Next steps: pro
 
 ## Available and selected employees
 
-On the **Solutions** > **Teamwork** page, groups of employees are shown below the chart:
+On the **Plans** > **Teamwork** page, groups of employees are shown below the chart:
 
    ![Available and selected employees](../Images/WpA/Tutorials/solutions-conceptual-01.png)
  
@@ -188,8 +188,8 @@ Workplace Analytics uses the concept of dated attributes. Every time an admin up
 
 ## Related topics
 
-[Solution: Introduction](solutionsv2-intro.md)  
+[Plans: Introduction](solutionsv2-intro.md)  
 
-[Solution: Walkthrough](solutionsv2-task.md)
+[Plans: Walkthrough](solutionsv2-task.md)
 
-[Solution: Participants](solutionsv2-participants.md)  
+[Plans: Participants](solutionsv2-participants.md)  
