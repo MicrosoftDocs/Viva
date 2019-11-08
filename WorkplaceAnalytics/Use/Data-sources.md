@@ -13,6 +13,9 @@ ms.prod: wpa
 
 # Data sources
 
+   >[!Note]
+   >You must be assigned either the administrator or the analyst role to access the **Data sources** page. For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+
 **Data sources** contains high-level dashboard views that Workplace Analytics administrators and data analysts can use to verify that Office 365 and organizational data is loaded and ready to use.
 
 Data sources includes the following:
