@@ -71,7 +71,7 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 
 **Q1. When is the Briefing email sent?**
 
-Within the first two hours of each workday (per your [Outlook Calendar Work time settings](https://outlook.office.com/calendar/options/calendar/view/appearance)) when you have actionable tasks or meetings that day. You won’t get a Briefing email on a day without actionable tasks or when you’re not working, such as a weekend day or a scheduled day off work.
+Within the first two hours of each workday (per your [Outlook Calendar Work time settings](https://outlook.office.com/calendar/options/calendar/view/appearance)) when you have actionable tasks or meetings that day. You won’t get a Briefing email on a day without actionable tasks or when you’re not working, such as a weekend day.
 
 **Q2. How do I unsubscribe?**
 
