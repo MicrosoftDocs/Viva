@@ -20,7 +20,7 @@ The **Collaboration** page shows your weekly collaboration averages, meeting hab
 
    ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
 
-In the **Meeting habits** section, you can switch between the **Habits** and **Meetings** view. The Habits view shows your most common types of meetings:  
+In the **Meeting habits** section, you can switch between the **Habits** and **Meetings** view. The **Habits** view shows your most common types of meetings:  
 
    ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
 
@@ -30,7 +30,7 @@ The **Meetings** view shows more details about all the meetings on your calendar
 
 The **Communication habits** section shows how you connected through email and chats over the last four weeks:
 
-   ![MyAnalytics Communication habits](../../Images/mya/use/collab-meetings.png)
+   ![MyAnalytics Communication habits](../../Images/mya/use/collab-com-chart.png)
 
 ## Productivity insights
 
