@@ -81,12 +81,14 @@ System default fields represent attributes that are known by Workplace Analytics
    >[!Important]
    >Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded .csv file, other columns must be present in the .csv file that are mapped to these attributes.
 
-* **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Workplace Analytics suggests for use. You don't need to map these fields if your organization doesn't have data for them.
+* **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Workplace Analytics suggests for use. You don't need to map these fields if your organization doesn't have data for them. 
 
 <!-- Formerly here: 
 [!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
 Removed 18 March 2019 per Pramod because it refers to validity threshold.
 Replaced with actual text and then removed that term: -->
+
+<!-- NOTE THAT VALIDITY THRESHOLD DOES NOT APPLY TO FIRST UPLOAD! -->
 
 ### Custom fields table
 
