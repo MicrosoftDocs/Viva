@@ -16,7 +16,21 @@ ms.prod: mya
 
 Collaboration in MyAnalytics shows who you're working with most and how well you're maintaining your relationships at work.
 
-A dedicated page for Collaboration is coming soon to MyAnalytics.
+The **Collaboration** page shows your weekly collaboration averages, meeting habits, and communication habits. The **Weekly average** section shows an estimate of the time you've spent in the past 4 weeks in meetings, email, chats, and calls. It is measured as a percentage of your working week which is based on the activity in your working hours.
+
+    ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
+
+In the **Meeting habits** section, you can switch between the **Habits** and **Meetings** view. The Habits view shows your most common types of meetings:  
+
+    ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
+
+The **Meetings** view shows more details about all the meetings on your calendar over the past four weeks:
+
+    ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
+
+The **Communication habits** section shows how you connected through email and chats over the last four weeks:
+
+    ![MyAnalytics Communication habits](../../Images/mya/use/collab-meetings.png)
 
 ## Productivity insights
 
@@ -28,7 +42,7 @@ These are based on your recent collaboration activity at work. Select **View Sug
 
 Meeting metrics include any meetings that you’ve organized or accepted that have at least one other person attending. Meeting time includes meetings that take place during and outside of your set working hours. After-hours meeting time also affects your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
 
-The following meeting types are also excluded from meeting metrics:
+The following meeting types are excluded from meeting metrics:
 
  * Meetings that last eight or more hours, such as all-day meetings
  * Meetings that are marked as **Private**
@@ -66,7 +80,7 @@ MyAnalytics counts your audio calls, video calls, and chats (instant messages) t
 * For calls that are scheduled as meetings in your calendar, the time counts as zero seconds because these calls are already being counted as meeting time.
 
   >[!Note]
-  > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md)
+  > Chats from Teams channels are excluded from the metrics. Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md)
 
 ### Documents
 
@@ -74,12 +88,12 @@ MyAnalytics also shows information for OneDrive and SharePoint documents that yo
 
  * The number of cloud documents that you worked on (read, edited, or reviewed)
  * The number of cloud documents that you worked on outside of working hours
- 
+
 To see these insights, you must have worked on at least three OneDrive or SharePoint cloud documents during the past week.
 
 ## Collaboration tips
 
-You might miss out on valuable collaboration time if you're spending too much time on email or impromptu calls or in meetings or chats. Research shows that typically doing just four to five things differently can enable you to increase your collaboration time by 18% to 24%.
+You might miss out on valuable collaboration time if you're spending too much time on email or in impromptu calls, meetings, or chats. Research shows that typically doing just four to five things differently can enable you to increase your collaboration time by 18% to 24%. Over collaboration can sometimes hamper personal productivity.
 
 #### Batch email time
 
