@@ -40,7 +40,7 @@ For more information about real-world possibilities, see [Microsoft Workplace In
 
 Workplace Analytics currently offers plans of the following types:
 
- * [Teamwork solution](teamwork-solution.md) has the goal of helping employees work better together. 
+ * [Teamwork improvement plans](teamwork-solution.md) have the goal of helping employees work better together. 
  <!-- UNCOMMENT THIS IF WE EVER RELEASE SELLER SUCCESS: 
  * [Seller success solution](seller-success.md) has the goal of helping sales people become more productive. 
 -->
@@ -75,7 +75,7 @@ Confirm that your organization meets the following prerequisites for solution:
 
 ## Workplace Analytics solution for teamwork playbook
 
-The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provides tips on how to best use Workplace Analytics Teamwork solution to achieve maximum benefit for your organization:
+The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provides tips on how to best use Workplace Analytics Teamwork plans to achieve maximum benefit for your organization:
 
 [![solution for teamwork playbook](../images/wpa/tutorials/solns-playbook-title.png)](wpa-teamwork-solution-playbook.pdf)
 -->

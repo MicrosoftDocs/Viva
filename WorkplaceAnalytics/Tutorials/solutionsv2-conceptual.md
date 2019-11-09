@@ -13,7 +13,7 @@ ms.prod: wpa
 
 # Plans: Concepts
 
-This section describes concepts whose understanding can help you create and monitor Teamwork solution improvement plans. These creation and monitoring tasks are described in the step-by-step walkthrough for creating a plan, [Plans: Walkthrough](solutionsv2-task.md).
+This section describes concepts whose understanding can help you create and monitor Teamwork improvement plans. These creation and monitoring tasks are described in the step-by-step walkthrough for creating a plan, [Plans: Walkthrough](solutionsv2-task.md).
  
 ## Use of a .csv file
 
