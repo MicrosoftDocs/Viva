@@ -36,14 +36,13 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
 2. Select **Add New Dataset** (top right).
-3. For **Select Dataset Type
-4. **, select either to upload meeting query output to analyze or classify raw meeting and email data, and then select **Next**.
+3. For **Select Dataset Type**, select either to upload meeting query output to analyze or classify raw meeting and email data, and then select **Next**.
 
    ![Select a dataset type](./images/pexp-new-dataset.png)
 
-5. Enter a dataset name, locate and select the .csv file or path to the blob storage dataset, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
-6. When prompted, select **OK**. The upload will take a few minutes to complete.
-7. Your new dataset's name and source are listed in the table with the following information and available actions.
+4. Enter a dataset name, locate and select the .csv file or path to the blob storage dataset, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
+5. When prompted, select **OK**. The upload will take a few minutes to complete.
+6. Your new dataset's name and source are listed in the table with the following information and available actions.
 
    * When the **Status** changes to a green check mark, you can select a dataset to view existing categorizations or add a new categorization to analyze.
    * Select the **Job Details** (i) icon next to **Status** to view the job details.
@@ -108,8 +107,8 @@ By using blob storage as the data source, you can get more complete analysis bas
 
 ### To categorize email for analysis
 
-1. Follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
-2. Complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
+1. If you haven't done so already , follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
+2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
 3. After meetings are auto-categorized, go to **Email** > **Query Builder** enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
    * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
