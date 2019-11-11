@@ -90,7 +90,7 @@ Degrees denotes the network size and is based on the number of connections to a 
 
 This measure is calculated as follows for employees as compared to groups.
 
-* **Employee level**: These are all calculated by counting the number of connections to an individual employee. The value is between 0 and 1 because it is divided by two times the total number of employees in the graph. This measure accounts for the direction but not the weight of the connections.
+* **Employee level**: These are all calculated by counting the number of connections to an individual employee. The value is between 0 and 1 because it is divided by two times the total number of employees in the graph. (It divides by two to account for directionality of sent and received emails.) This measure accounts for the direction but not the weight of the connections. Degrees equals zero if an employee is not connected to anyone. Degrees equals one if an employee is connected to everyone.
 
 * **Group level**: The group degree centrality is the unique number of nodes outside the group that are connected to members of the group. The value is between 0 and 1 because it is divided by the number of people outside of the group. This measure does not consider the weight or directionality of the connections.
 
