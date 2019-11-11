@@ -6,7 +6,6 @@ title: MyAnalytics Wellbeing page
 description: Learn how to use MyAnalytics to improve your work-life balance
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -17,7 +16,7 @@ ms.prod: mya
 
 The MyAnalytics Wellbeing page shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
-![Wellbeing](../../Images/mya/use/wellbeing-pg.png)
+![Wellbeing](../../Images/mya/use/wellbeing.png)
 
 ## Productivity insights
 
@@ -25,15 +24,15 @@ These insights are based on your recent workplace activity. Select **View Sugges
 
 ## About the metrics
 
-* **Quiet days** are the number of days where you spent less than two hours actively collaborating outside your set work schedule (as defined by your Outlook calendar). Active collaboration includes meetings, or multiple emails, chats, or calls that occurred during this time.
+* **Quiet days** measures the number of days where you did not have significant collaboration outside your set work hours (as defined in your Outlook calendar). Significant collaboration includes sending and reading email, sending, and responding to chats, or attending calls and meetings in more than one one-hour period outside your working hours. Weekends are considered all-day quiet hours and are included in the Quiet days calculation because they are opportunities to recharge from work for a full day.
 
-   For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, and you spent more than an hour reading or replying to email after 5 PM on Monday, and attended a meeting from 6 to 7 PM that same day, that Monday won't count as a quiet day.
+   For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, and you collaborate in meetings, emails, chats, or calls after 5 PM on Monday, or during a weekend, Monday (or the weekend day) won't count as a quiet day.
 
 ## Wellbeing tips
 
 #### Turn work off when not at work
 
-We all need breaks to recharge. Turning work "off" outside of working hours can help you get a better night's sleep and show up feeling refreshed the next day.
+We all need breaks to recharge. Turning work "off" outside of working hours can help you get a better night's sleep and helps you feel refreshed the next day.
 
 #### Turn off notifications when not at work
 
