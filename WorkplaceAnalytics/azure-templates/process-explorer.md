@@ -21,9 +21,9 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time.
 
-You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset for meeting activity or connect to a blob (cloud) storage location for meeting and email activity.
+You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset to analyze meeting activity or connect to a blob (cloud) storage location to analyze meeting and email activity.
 
-After you upload a dataset, you can use the word cloud to help you decide what categories to add for analysis by viewing words found in the meeting activity. You can select category names or phrases from the word cloud to view those meetings and then categorize them.
+After you upload a dataset, you can use the Query Builder to help you decide what categories to add for analysis with the word cloud. You can select category names or phrases from the word cloud to view those meetings and then categorize them.
 
 After you categorize a good sample of meetings into the specified categories, you can:
 
@@ -36,20 +36,21 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
 2. Select **Add New Dataset** (top right).
-3. For **Select Dataset Type**, select either to upload meeting query output to analyze or classify raw meeting and email data, and then select **Next**.
+3. For **Select Dataset Type
+4. **, select either to upload meeting query output to analyze or classify raw meeting and email data, and then select **Next**.
 
    ![Select a dataset type](./images/pexp-new-dataset.png)
 
-4. Type a dataset name, locate and select the .csv file or blob storage location, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
-5. When prompted, select **OK**. The upload will take a few minutes to complete.
-6. Your new dataset's name and source are listed in the table with the following information and actions.
+5. Enter a dataset name, locate and select the .csv file or path to the blob storage dataset, and then select **Upload Dataset** (.csv) or **Run** (blob storage).
+6. When prompted, select **OK**. The upload will take a few minutes to complete.
+7. Your new dataset's name and source are listed in the table with the following information and available actions.
 
-   * When the **Status** changes to a green check mark, you can then select it to view existing categorizations or add a new categorization to analyze the data with.
+   * When the **Status** changes to a green check mark, you can select a dataset to view existing categorizations or add a new categorization to analyze.
    * Select the **Job Details** (i) icon next to **Status** to view the job details.
    * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
-   * Select the **Delete Dataset** (trashcan) icon to delete the dataset from the list.
    * Select the **Parameters** icon to view the parameter details for a listed dataset.
-   * If the dataset fails with the **Status** of a red x, you can select the **Undo** icon to revert to the last successfully saved version of the dataset.
+   * Select the **Delete Dataset** (trashcan) icon to delete it from the list.
+   * If the dataset fails with a **Status** of a red X, you can select the **Undo** icon to revert to the last successfully saved version of the dataset.
 
 ## To categorize meetings for analysis
 
@@ -63,8 +64,8 @@ After you categorize a good sample of meetings into the specified categories, yo
      * The name of an *existing draft categorization* to resume work on it.
      * Select the row with the name of an *existing categorization*, and then select **Add New Categorization** to make a copy of it to work from.
 
-3. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings. In **Dashboard** > **Add a New Category**, type the name of a category you want to add, and then press **Enter** to add it to the list.
-4. Select **Meeting** > **Open Query Builder** > **Discover Topics**, type one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view meetings with these keywords, and then select **Run query**.
+3. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings. In **Dashboard** > **Add a New Category**, enter the name of a category you want to add, and then press **Enter** to add it to the list.
+4. Select **Meeting** > **Open Query Builder** > **Discover Topics**, enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view meetings with these keywords, and then select **Run query**. You can also select a word from the word cloud to add it as a keyword.
 
      ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
@@ -90,7 +91,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
       ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
 
-   * In **Dashboard** > **Add a New Category**, type any additional categories needed for grouping the uncategorized meetings.
+   * In **Dashboard** > **Add a New Category**, enter any additional categories needed for grouping the uncategorized meetings.
    * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
    * After you categorize a good sample of related meetings for all the categories you want to evaluate:
 
@@ -109,7 +110,7 @@ By using blob storage as the data source, you can get more complete analysis bas
 
 1. Follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
 2. Complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
-3. After meetings are auto-categorized, go to **Email** > **Query Builder** type one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
+3. After meetings are auto-categorized, go to **Email** > **Query Builder** enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
    * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
