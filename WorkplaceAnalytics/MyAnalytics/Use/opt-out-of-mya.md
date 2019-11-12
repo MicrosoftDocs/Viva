@@ -19,7 +19,7 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out, the fo
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
 * You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
-* Your email activity will not be included in other users’ [email read statistics](../use/add-in.md#email-read-statistics).
+* Your email activity will not be included in other users' [email read statistics](../use/add-in.md#email-read-statistics).
 
 ## To opt out of MyAnalytics
 
@@ -31,7 +31,7 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out, the fo
 3. Under MyAnalytics, select **Settings**.
 4. For MyAnalytics, set the control to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/Slider-off.png)
+    ![Slider in off position](../../Images/mya/use/slider-off.png)
   
 5. Select **Save** to save your changes.
 
