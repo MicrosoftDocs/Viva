@@ -31,7 +31,8 @@ MyAnalytics can help participants strengthen their work relationships, have more
 * Users can opt in or out from the start. See [Opt out](../use/opt-out-of-mya.md) for details.
 * Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard) for details.
 * Users can opt out of email digests. See [Opt out of email digests](../use/email-digest-2.md#opt-out-of-email-digests) for details.
-* Users can remove the Insights add-in. See [Remove the Insights add-in](../use/add-in.md#remove-the-insights-add-in-from-outlook) for details.
+* Users can opt out of the Insights Outlook add-in. See [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in) for details.
+* Users can remove the Insights Outlook add-in from the ribbon. See [Can I remove the Insights add-in from Outlook?](mya-faq.md#q2-can-i-remove-the-insights-add-in-from-outlook) for details.
 * Users can opt out of inline suggestions. See [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) for details.
 
 ## Data privacy

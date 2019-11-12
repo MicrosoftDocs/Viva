@@ -45,6 +45,12 @@ Yes, if you opt yourself out or if an admin opts you out, you can opt back in an
 ## Related topics
 
 * [Opt out of the MyAnalytics dashboard](dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
+
 * [Opt out of the weekly email digest](email-digest-2.md#opt-out-of-email-digests)
-* [Remove Insights add-in from Outlook](add-in.md##remove-the-insights-add-in-from-outlook)
+
+* [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in) 
+
+* [Remove the Insights Outlook add-in (from the ribbon)](mya-faq.md#q2-can-i-remove-the-insights-add-in-from-outlook) 
+
+
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
