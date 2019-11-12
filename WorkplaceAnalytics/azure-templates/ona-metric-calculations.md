@@ -40,7 +40,7 @@ You can size the nodes based on various network metrics. The following table lis
 |[Boundary Spanning](#boundary-spanning) |Measures how well people in one group share information with other groups |
 |[Bridging Index](#bridging-index) | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information |
 |[Degrees](#degrees) |Measures the overall network size of each node |
-|[Density](#density) (only in Grouped View) |Measures the strength of connections between nodes (within groups and between groups) |
+|[Density](#density) (only in Combined or Grouped View) |Measures the strength of connections between nodes (within groups and between groups) |
 |[Influence Index](#influence-index) |Represents a node's potential influence on the opinions of the network, or a measure of social status |
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
@@ -56,7 +56,7 @@ No, the measure interpretations for employees and groups are the same. For examp
 
 In terms of calculations, group measures are not simply the average (or median, maximum, or minimum) of the scores of the employees within the group. Instead, the measures are the cumulative scores of how the people within the group interact with people in other groups. In some cases, the two may be equal but that's generally not the case. The key difference is that the group measures  do not account for connections that occur between members of the same group.
 
-A simple analogy of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you average together the properties of hydrogen and oxygen (both gases), it won't generate the properties of a water molecule.
+A simple analogy of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you average together the properties of hydrogen and oxygen (both gases), it won't generate the properties of a water molecule because the bonds between atoms are important to its properties.
 
 Just like atoms and molecules, how people are connected within an organizational group makes the properties of the group different than the average properties of the individual people within the group. You can generate summary statistics of employees within the group from the employee-level (de-identified) measures.
 
@@ -86,7 +86,7 @@ The most meaningful insight that you can derive from the Bridging Index is the r
 
 For example, assume that node A has a Bridging Index of 0.7 and node B has a Bridging Index of 0.35. You can accurately assume that node A tends to control more information throughout the network than node B, because node A ranks higher than node B. However, you cannot assume node A controls twice as much information or is twice as likely to be a change agent in the network as node B, because the values indicate a *ranking* of information flow and not the *amount* of information.
 
-Rank removes any notion of the distribution of the scores. The distribution can give us insights into if any clusters of key bridgers or influencers exist or if any clusters of those who don't have as much influence exist.
+While rank is the most important aspect of Bridging, a pure ranking (or ordinal) score of individuals would remove the distribution of scores. The distribution of the Bridging scores can give you insights into the existence of clusters of key bridgers, which is why it provides a score instead of just an ordinal ranking of individuals.
 
 This measure is calculated as follows for employees as compared to groups.
 
