@@ -37,11 +37,11 @@ You can size the nodes based on various network metrics. The following table lis
 
 |Measure |Use |
 |-------|-----------|
-|[Boundary Spanning](#boundary-spanning) |Measures how well people in one group share information with other groups |
-|[Bridging Index](#bridging-index) | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information |
-|[Degrees](#degrees) |Measures the overall network size of each node |
-|[Density](#density) (only in Combined or Grouped View) |Measures the strength of connections between nodes (within groups and between groups) |
-|[Influence Index](#influence-index) |Represents a node's potential influence on the opinions of the network, or a measure of social status |
+|[Boundary Spanning](#boundary-spanning) |Measures how well people in one group shares information with other groups. |
+|[Bridging Index](#bridging-index) | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
+|[Degrees](#degrees) |Measures the overall network size of each node. |
+|[Density](#density) (only in Combined or Grouped View) |Measures the strength of connections between nodes (within groups and between groups). |
+|[Influence Index](#influence-index) |Represents a node's potential influence on the opinions of the network or a measure of social status. |
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
@@ -82,7 +82,7 @@ The Bridging Index represents employees or groups that control the flow of infor
 
 This index measures the number of times a person or group is on the most probable path of information flow between two other people or groups. This measure is not limited to the shortest paths between nodes but accounts for all possible ways that information flows between nodes in a network.
 
-The most meaningful insight that you can derive from the Bridging Index is the rank of the nodes. The values are between zero and one.
+The most meaningful insight that you can derive from the Bridging Index is the rank of the nodes. The values are between 0 and 1.
 
 For example, assume that node A has a Bridging Index of 0.7 and node B has a Bridging Index of 0.35. You can accurately assume that node A tends to control more information throughout the network than node B, because node A ranks higher than node B. However, you cannot assume node A controls twice as much information or is twice as likely to be a change agent in the network as node B, because the values indicate a *ranking* of information flow and not the *amount* of information.
 
@@ -102,15 +102,15 @@ Degrees denotes the network size and is based on the number of connections to a 
 
 This measure is calculated as follows for employees as compared to groups.
 
-* **Employee level**: These are all calculated by counting the number of connections to an individual employee. The value is between zero and one because it is divided by two times the total number of employees in the graph. (It divides by two to account for directionality of sent and received emails.) This measure accounts for the direction but not the weight of the connections. Degrees equals zero if an employee is not connected to anyone. Degrees equals one if an employee is connected to everyone.
+* **Employee level**: These are all calculated by counting the number of connections to an individual employee. The value is between 0 and 1 because it is divided by two times the total number of employees in the graph. (It divides by two to account for directionality of sent and received emails.) This measure accounts for the direction but not the weight of the connections. Degrees equals 0 if an employee is not connected to anyone. Degrees equals one if an employee is connected to everyone.
 
-* **Group level**: The group degree centrality is the unique number of nodes outside the group that are connected to members of the group. The value is between zero and one because it is divided by the number of people outside of the group. This measure does not consider the weight or directionality of the connections.
+* **Group level**: The group degree centrality is the unique number of nodes outside the group that are connected to members of the group. The value is between 0 and 1 because it is divided by the number of people outside of the group. This measure does not consider the weight or directionality of the connections.
 
 ## Density
 
 Density measures the extent to which and how strongly employees within or between groups are connected. A higher density indicates higher levels of connectivity within or between communities. Dense groups indicate a cohesion among the members of that group.  
 
-Density is the number of actual connections among employees divided by the total possible number of connections that could exist among the same employees. Density values are between zero and one, where one indicates that all individuals in that group are strongly connected to each other.
+Density is the number of actual connections among employees divided by the total possible number of connections that could exist among the same employees. Density values are between 0 and 1, where 1 indicates that all individuals in that group are strongly connected to each other.
 
 The measure accounts for the strength of the connections between individuals and normalizes them to help control  the tendency of larger groups to have lower densities. This makes it easier to compare densities for different groups with different sizes.
 
@@ -124,7 +124,7 @@ For more information, see [Density](https://wikipedia.org/wiki/Dense_graph).
 
 ## Influence Index
 
-Influence Index indicates a node’s potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between zero and one.
+Influence Index indicates a node’s potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
 
 The most meaningful information from Influence Index is the rank of the nodes. For example, assume that node A has an Influence Index of 0.6 and node B has an Influence Index of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a *ranking* or source of influence, not the *amount* of influence.
 
@@ -142,7 +142,7 @@ For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
 Reach Index indicates the ability to access or share information across the organization while going through the fewest number of people. The people <!--or groups-->that have high Reach Index values are most likely spreading information within the network and might be effective in the adoption of new ideas.
 
-Specifically, Reach Index measures how many people on average that others typically connect through to reach other people (nodes) in the network. The score is normalized between zero and one by dividing the number of nodes external to the source node. This accounts for overall network size and group sizes for comparing Reach Index values across networks<!--and groups-->. It also ensures that nodes who cannot be reached from a source node do not bias the source node’s overall Reach Index.
+Specifically, Reach Index measures how many people on average that others typically connect through to reach other people (nodes) in the network. The score is normalized between 0 and 1 by dividing the number of nodes external to the source node. This accounts for overall network size and group sizes for comparing Reach Index values across networks<!--and groups-->. It also ensures that nodes who cannot be reached from a source node do not bias the source node’s overall Reach Index.
 
 Currently, the calculation does not factor the strength or weight of the connection. All connections between nodes have the same strength.
 
