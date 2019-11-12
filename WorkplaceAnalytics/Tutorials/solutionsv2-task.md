@@ -13,7 +13,7 @@ ms.prod: wpa
 
 # Plans: walkthrough
 
-You can use the _plans_ feature of Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. You can create a plan, track it while it is in progress, and examine it after it completes.
+You can use the _plans_ feature of Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. You can create a plan, track it while it is in progress, and examine it after it completes. 
  
 People in the following roles can work on improvement plans in various ways:
 
