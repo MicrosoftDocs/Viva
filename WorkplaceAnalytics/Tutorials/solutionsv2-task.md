@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics solution walkthrough
-description: A walkthrough of the steps required to create a plan by using the Workplace Analytics solution
+title: Workplace Analytics plan walkthrough
+description: A walkthrough of the steps required to create a plan in Workplace Analytics
 author: paul9955
 ms.author: v-midehm
 ms.topic: article
@@ -11,9 +11,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solution walkthrough
+# Plans: walkthrough
 
-You can use the solutions feature of Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. By using solutions, you can create a plan, track it while it is in progress, and examine it after it completes.
+You can use the _plans_ feature of Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. You can create a plan, track it while it is in progress, and examine it after it completes. 
  
 People in the following roles can work on improvement plans in various ways:
 
@@ -47,7 +47,7 @@ To create a plan, follow these steps:
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, sign in with your work account.
 
-2. In **Solutions** > **New plan**, you can learn about and select the type of plan you want to create, such as a _Focus plan_, a _Collaboration plan_, or a _Wellbeing plan_.
+2. In **Plans** > **New plan**, you can learn about and select the type of plan you want to create, such as a _Focus plan_, a _Collaboration plan_, or a _Wellbeing plan_.
 
     ![Pick a plan](../images/wpa/tutorials/pick-a-plan.png)
 
@@ -105,7 +105,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 #### To identify a group by using filters and charts
 
-1. On the **Solutions** page, in the card for one of the plans under **Available plans**, select **Analyze**. For this walkthrough example, select **Analyze** on the Focus plan card to open the **Filter and analyze** page.
+1. On the **Plans** page, in the card for one of the plans under **Available plans**, select **Analyze**. For this walkthrough example, select **Analyze** on the Focus plan card to open the **Filter and analyze** page.
 
 2. (Optional) Although you just selected a plan, you can change it by selecting it (such as **after hours**) in **Filter and analyze**:
 
@@ -158,7 +158,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 After the selected group validates successfully, you'll see insights about the group. They show you how the group’s numbers differ from company averages for the context that you chose. For example, if you chose to create a Focus time plan, Workplace Analytics shows metrics, such as the number of hours in meetings per week, that show why the people in this group could benefit from more focus time. Although these insights are informative, they are not interactive.
 
-1. Select **Solutions** > **Manage** to see a list of plans, and then in **Show**, select **Drafts** to view your new plan.
+1. Select **Plans** > **Manage** to see a list of plans, and then in **Show**, select **Drafts** to view your new plan.
 
 2. (Optional) Select **Edit** next to your new plan to change the **Plan name** to a name more meaningful to you than the suggested value.
 
@@ -166,9 +166,9 @@ After the selected group validates successfully, you'll see insights about the g
 
 4. (Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan’s end date is then calculated and shown.
 
-5. (Optional) In **How Solutions will help**, select **See preview** to see examples of inline suggestions, dashboard information, and the email digest that people will experience while participating in the plan. Similar to plan insights, these previews are informative but not interactive:
+5. (Optional) In **How Plans will help**, select **See preview** to see examples of inline suggestions, dashboard information, and the email digest that people will experience while participating in the plan. Similar to plan insights, these previews are informative but not interactive:
 
-    ![How solutions help](../images/wpa/tutorials/plan-preview.png)
+    ![How plans help](../images/wpa/tutorials/how-plan-helps.png)
   
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 
@@ -183,7 +183,7 @@ You can use the **Track** page to measure progress on the target since the plan 
 
 ### To track an active plan
 
-1. Select **Solutions** > **Track**.
+1. Select **Plans** > **Track**.
 2. In **Progress for**, select the plan you want to see progress information about up to this point in time.
 
 <!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: 
@@ -199,7 +199,7 @@ A plan that a GM creates automatically contains the data of the GM's group (the 
 
 **Role:** Group manager
 
-1.	As a GM, when you open Workplace Analytics, you go directly to the **Solutions** page: 
+1.	As a GM, when you open Workplace Analytics, you go directly to the **Plans** page: 
 
     ![Group manager view](../images/wpa/tutorials/gm-view-solns-2.png)
  
@@ -229,10 +229,10 @@ After the plan starts, you can view the plan’s progress on the **Track** page.
 
 ## Related topics
 
-[Solution: Introduction](solutionsv2-intro.md)  
+[Plans: Introduction](solutionsv2-intro.md)  
 
-[Solution: Participants](solutionsv2-participants.md)  
+[Plans: Participants](solutionsv2-participants.md)  
 
-[Solution: Concepts](solutionsv2-conceptual.md)
+[Plans: Concepts](solutionsv2-conceptual.md)
 
 
