@@ -50,7 +50,6 @@ Yes, if you opt yourself out or if an admin opts you out, you can opt back in an
 
 * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in) 
 
-* [Remove the Insights Outlook add-in (from the ribbon)](mya-faq.md#q2-can-i-remove-the-insights-add-in-from-outlook) 
-
+* [Remove the Insights Outlook add-in (from the ribbon)](../overview/mya-faq.md#q2-can-i-remove-the-insights-add-in-from-outlook) 
 
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
