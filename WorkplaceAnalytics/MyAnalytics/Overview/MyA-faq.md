@@ -130,6 +130,37 @@ See the following for details:
  * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
+#### Q2. Can I remove the Insights add-in from Outlook?
+
+Yes, you can. But first, what's the difference between "opt out" and "remove"? 
+
+ * **Opt out:** If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Insights Outlook add-in](../use/add-in#opt-out-of-the-insights-outlook-add-in) but in step 4, set the control to **On**.) 
+ * **Remove:** If you [remove the Insights Outlook add-in](#remove-the-insights-outlook-add-in), not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Insights Outlook add-in](#add-the-insights-outlook-add-in)). 
+
+##### Remove the Insights Outlook add-in
+
+Follow these steps to remove the Insights add-in from your Outlook ribbon.
+
+> [!Note] 
+> This procedure also removes [inline suggestions in Outlook](mya-notifications.md).
+
+1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+
+    ![Get Add-ins](../../Images/mya/use/get-add-ins.png)
+
+2. Select **My add-ins**.
+3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
+
+    ![Remove Insights](../../Images/mya/use/remove-insights.png)
+
+##### Add the Insights Outlook add-in
+
+Follow these steps to add the Insights add-in to your Outlook ribbon.
+
+1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+2. Select **Admin-managed**.
+3. Find **Insights**, and then select **Add**.
+
 ### Visibility and access 
 
 #### Q2. Why can't I see the MyAnalytics dashboard?
