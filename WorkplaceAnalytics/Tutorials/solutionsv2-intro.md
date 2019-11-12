@@ -55,7 +55,7 @@ See the following topics to learn how to create and track plans:
 
 ## Prerequisites for plans
 
-Confirm that your organization meets the following prerequisites for solution:
+Confirm that your organization meets the following prerequisites:
 
 * Obtain licenses to both Workplace Analytics and MyAnalytics for members of the groups that will take part in change plans.
 * Identify people in your organization to whom to assign the following roles: 
