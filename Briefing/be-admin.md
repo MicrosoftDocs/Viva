@@ -41,7 +41,7 @@ Get-OrganizationIntelligenceConfig
     
 ## User-level configuration
 
-You can also configure the Briefing email for individual users in your organization. At this level, you can completely opt-out a user, which turns off all Briefing email functionality for that user. However, the user can choose to opt back in at https://briefing.microsoft.com.
+You can also configure the Briefing email for individual users in your organization. At this level, you can completely opt-out a user, which turns off all Briefing email functionality for that user. However, the user can choose to opt back in at [briefing.microsoft.com](https://briefing.microsoft.com).
 
 * To enable or disable the Briefing email for a specific user in your organization, use the following Exchange Online PowerShell cmdlets, where you replace “Contoso\Jill” with your applicable organization and username:
 
@@ -49,10 +49,10 @@ You can also configure the Briefing email for individual users in your organizat
     Set-UserIntelligenceConfig -Identity Contoso\Jill [-BriefingEmailMode [<”Opt-in” | “Opt-out”>]
      ```
 
-  - If you set the BriefingEmailMode parameter to Opt-out, the Briefing email will be Off by default for that user. Users can then opt-in from https://briefing.microsoft.com.
-  - If you set the BriefingEmailMode parameter to Opt-in, the Briefing email will be On by default for that user. Users can then opt-out from https://briefing.microsoft.com. If no action occurs, this setting applies by default.
+  - If you set the BriefingEmailMode parameter to Opt-out, the Briefing email will be Off by default for that user. Users can then opt-in from [briefing.microsoft.com](https://briefing.microsoft.com).
+  - If you set the BriefingEmailMode parameter to Opt-in, the Briefing email will be On by default for that user. Users can then opt-out from [briefing.microsoft.com](https://briefing.microsoft.com). If no action occurs, this setting applies by default.
 
-  For example, to get the current state of the Briefing email flag for “Contoso\Jill,” use:
+  For example, to get the current state of the Briefing email flag for “Contoso\Jill,” you'd use:
 
     ``` powershell
     Get-UserIntelligenceConfig -Identity Contoso\Jill
