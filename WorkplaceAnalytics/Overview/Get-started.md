@@ -32,7 +32,7 @@ Workplace Analytics provides the following ways to analyze and explore your data
 
   * [**Queries**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. The different query types of Person, Meeting, Group-to-group, and Person-to-group give you flexibility to look at data from multiple perspectives and generate powerful insights.
 
-[**Solutions**](../tutorials/solutionsv2-intro.md) currently provides a Teamwork solution that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll the teams in action plans with MyAnalytics to help address these challenges.
+[**Plans**](../tutorials/solutionsv2-intro.md) currently provide a _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll the teams in action plans with MyAnalytics to help address these challenges.
 
 [**Settings**](../use/settings.md) enable you to customize Workplace Analytics with the following:
 
