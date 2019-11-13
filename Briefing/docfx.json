@@ -41,7 +41,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/Briefing/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "titleSuffix": "Workplace Intelligence"
     },
     "fileMetadata": {},
     "template": [],
