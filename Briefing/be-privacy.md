@@ -45,9 +45,9 @@ The Briefing email provides flexible and configurable controls that are designed
 * **Set default access for all** – By default, all employees with an Exchange Online mailbox are opted in to receive the Briefing email. Your admin can turn this Opt-in setting On or Off.
 
   - When it is set **On**, all employees get the Briefing email by default. However, they can individually unsubscribe at any time.
-  - When it is set **Off**, employees can go to https://briefing.microsoft.com and subscribe to get the Briefing email.
+  - When it is set **Off**, employees can go to [briefing.microsoft.com](https://briefing.microsoft.com) and subscribe to get the Briefing email.
 
-* **Opt in select people** – Your admin can also select a group of employees to automatically get the Briefing email  by default. And then turn the Opt-in setting Off for everyone else in the organization.
+* **Opt in select people** – Your admin can also select a group of employees to automatically get the Briefing email by default. And then turn the Opt-in setting Off for everyone else in the organization.
 * **Turn Off for all** - Admins can turn the Briefing email **Off** for all users in the organization with no option to subscribe or opt back into getting the Briefing email.
 
 ## GDPR compliance
@@ -61,6 +61,7 @@ The Briefing email complies with GDPR requirements. Microsoft helps data control
    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 
 2. **Notify users in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using Office 365 incident response standard operating procedures.
+
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor user requests in the following ways.
 
    * Data export requests: submit data export requests via the [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR).
