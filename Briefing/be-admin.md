@@ -35,9 +35,9 @@ You can enable or disable the Briefing email for all users in your organization 
 
 To get the current state of the Briefing email setting, use:
 
-    ```powershell
-     Get-OrganizationIntelligenceConfig
-    ```
+  ```powershell
+  Get-OrganizationIntelligenceConfig
+  ```
     
 ## User-level configuration
 
