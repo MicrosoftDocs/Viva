@@ -64,7 +64,7 @@ You can also configure the Briefing email for individual users in your organizat
   - Set the specified Briefing email mode for each user.
   - Create a .csv file with all the users that were processed and shows their status.
 
-1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field and the location of the users you want to configure. For example:
+  1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field and the location of the users you want to configure. For example:
 
     ``` powershell
     UserPrincipalName
@@ -73,7 +73,7 @@ You can also configure the Briefing email for individual users in your organizat
     ShawnM@contoso.onmicrosoft.com
      ```
 
-2. Specify the location of the input .csv file, the output .csv file, and the value of **BriefingEmailMode** of **Opt-in** or **Opt-out** for each user:
+  2. Specify the location of the input .csv file, the output .csv file, and the value of **BriefingEmailMode** of **Opt-in** or **Opt-out** for each user:
 
     ``` powershell
     $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2Opt-out..csv>"
@@ -91,7 +91,7 @@ You can also configure the Briefing email for individual users in your organizat
     }
      ```
 
-3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
+  3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
 
 
 ## Related topics
