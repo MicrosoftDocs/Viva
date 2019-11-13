@@ -16,17 +16,19 @@ ms.prod: mya
 
 Collaboration in MyAnalytics shows how effectively you are with your meetings and communications. The **Collaboration** page shows a detailed view of your weekly collaboration averages, meeting habits, and communication habits.
 
-The **Weekly average** section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours.
+The **Weekly average** section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours ([Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance)).
 
    ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
 
-In the **Meeting habits** section, you can switch between the Habits view and the Meetings view. The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types happen out of the total number of meetings you organized or accepted.
+The Meeting habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the Meetings view:
 
-   ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
+* The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types happen out of the total number of meetings you organized or accepted.
 
-The **Meetings** view shows more details about all the meetings on your calendar over the past four weeks.
+    ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
 
-   ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
+* The **Meetings** view shows more details about all the meetings on your calendar over the past four weeks.
+
+    ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
 
 The **Communication habits** section shows the total number of emails sent and read during each hour of the day in the past four weeks.
 
