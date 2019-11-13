@@ -130,7 +130,7 @@ See the following for details:
  * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
-#### Q2. Can I remove the Insights add-in from Outlook?
+#### Q2. Can I add or remove the Insights Outlook add-in?
 
 Yes, you can. But first, what's the difference between "opt out" and "remove"? 
 
