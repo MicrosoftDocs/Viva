@@ -61,7 +61,7 @@ After the initial processing (of collaboration data) is complete, the next time 
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
 
-   ![Map data fields](../images/wpa/setup/onboarding-mapping.png)
+   ![Map data fields](../images/wpa/setup/onboarding-mapping-2.png)
 
 This page includes tables for System default fields and Custom fields for mapping the data for the upload file. These field types are described in the following sections. 
 
