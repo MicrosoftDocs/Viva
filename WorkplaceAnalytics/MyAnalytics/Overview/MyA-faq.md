@@ -135,7 +135,7 @@ See the following for details:
 Yes, you can. But first, what's the difference between "opt out" and "remove"? 
 
  * **Opt out:** If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in) but in step 4, set the control to **On**.) 
- * **Remove:** If you [remove the Insights Outlook add-in](#remove-the-insights-outlook-add-in), not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Insights Outlook add-in](#add-the-insights-outlook-add-in)). 
+ * **Remove:** If you [remove the Insights Outlook add-in](#remove-the-insights-outlook-add-in), not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Insights Outlook add-in](#add-the-insights-outlook-add-in)).  
 
 ##### Remove the Insights Outlook add-in
 
