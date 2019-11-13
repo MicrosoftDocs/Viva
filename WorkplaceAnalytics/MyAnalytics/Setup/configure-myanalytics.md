@@ -60,8 +60,12 @@ You can configure access to MyAnalytics elements for all users in your organizat
 
 6. Select **Weekly insights email** to keep all MyAnalytics users in your organization opted _in_ for access to the weekly [email digest](../../myanalytics/use/email-digest-2.md) (and the MyAnalytics [welcome email](../../myanalytics/use/mya-welcome-email.md)). Deselect **Weekly insights email** to opt users _out_ of the weekly email digest (and the MyAnalytics welcome email).  
 
+7. Select **Insights Outlook add-in** to keep all MyAnalytics users in your organization opted in for access to the Insights Outlook add-in. Deselect it to opt users out of access to the Insights Outlook add-in. 
+
 > [!Note]
 > After a new tenant is established, it might take up to 48 hours for this functionality to become available. This experience will be available in Office 365 GCC by the end of 2019.
+
+<!-- REMOVING THIS SECTION PER HIMANI 12 NOV. 2019, BUT KEEPING IT AROUND (ALSO PER HIMANI) IN CASE WE NEED TO BRING IT BACK:
 
 ### To disable the add-in for a tenant
 
@@ -75,6 +79,8 @@ You can disable the Insights Outlook add-in for all licensed users in your organ
 3. In the dashboard, select **add-ins**.
 4. In the list of add-ins, select **Insights**, and then select the **Edit** (pencil) icon.
 5. In the **Edit add-in settings** dialog box, clear the **Make this add-in available to users in your organization** checkbox to disable the add-in, and then select **Save**.
+
+-->
 
 ## Configure access at the user level
 

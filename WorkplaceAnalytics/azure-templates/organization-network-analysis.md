@@ -60,7 +60,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
 3. Optionally, in **Specify the Network Boundary Condition**, select one or more filters to focus your analysis on.
 4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
-5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined view. See [Node Measures](#node-measures) for more details about these options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
+5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
 6. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated calculations for the whole date range and the monthly measure calculations for the selected date range. If you don't select this option, you won't get the monthly metrics.
 7. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
@@ -87,7 +87,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
    ![ONA network view](./images/ona-network-icons-3.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries.</li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don’t want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
-   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined View | Change the graph view to Combined View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
+   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Changes Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![ONA change settings](./images/ona-settings.png) | Changes Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
    ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.
@@ -119,9 +119,9 @@ You can size the nodes and connections based on what you want to highlight by us
 
 ![Network View measures](./images/ona-combined-measures.png)
 
-And the measure options available for the *Combined View* of the graph, which include Density as an additional Scale Node option that’s only available in this view:
+And the measure options available for the *Combined or Grouped View* of the graph, which include Density as an additional Scale Node option that’s only available in this view:
 
-![Combined View measures](./images/ona-network-measures.png)
+![Combined or Grouped View measures](./images/ona-network-measures.png)
 
 ### Boundary Spanning
 
@@ -145,7 +145,7 @@ Degree centrality is based on the number of edges connected to a node. The overa
 
 ### Density
 
-This option is only available in the Combined View. Density measures the number of actual connections out of the number of possible connections within a network or subgroup in a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s more difficult for everyone to connect with everyone else, so be cautious when comparing across groups. Dense groups indicate cohesion between members. For more details, see the [measure calculations](ona-metric-calculations.md#density).
+This option is only available in the Grouped View. Density measures the number of actual connections out of the number of possible connections within a network or subgroup in a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s more difficult for everyone to connect with everyone else, so be cautious when comparing across groups. Dense groups indicate cohesion between members. For more details, see the [measure calculations](ona-metric-calculations.md#density).
 
 ### Influence Index
 
@@ -160,7 +160,7 @@ Represents ability to access or share information across the organization while 
 
 ### Graph notes
 
-* **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the combined view, the insufficient group's edges and node won't show in the graph.
+* **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the grouped or combined view, the insufficient group's edges and node won't show in the graph.
 
 * **Delete a node** - If you want to exclude a node from the graph, you can use the filter options or select the node in the graph to highlight it, and then press **Delete** (on your keyboard). Before saving the graph, you can right-click in the graph, and then select **Show Hidden** to undo a delete.
 

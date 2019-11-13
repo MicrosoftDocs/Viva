@@ -255,32 +255,29 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
 
 -->
 
-## Opt out of the Insights add-in
+## Opt out of the Insights Outlook add-in
 
+<!-- REMOVED 12 NOV 2019 IN FAVOR OF WHAT FOLLOWS
 The way to opt out of the Insights add-in is to opt out of MyAnalytics. For instructions, see [Opt out of MyAnalytics](opt-out-of-mya.md).
+-->
 
-<!-- CONSIDER REMOVING THE FOLLOWING -->
+1. Open your [dashboard](https://myanalytics.microsoft.com).
+2. Select the **Settings** (gear) icon in the top right.
 
-## Remove the Insights add-in from Outlook
+    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
-Follow these steps to remove the Insights add-in from your Outlook ribbon.
+3. Under MyAnalytics, select **Settings**.
+4. For **Insights Outlook add-in**, set the control to **Off**.
 
-> [!Note] 
-> This procedure also removes [inline suggestions in Outlook](mya-notifications.md).
+    ![Slider in off position](../../Images/mya/use/add-in-opt-in-out.png)
+  
+5. Select **Save** to save your changes.
 
-1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+> [!NOTE]
+> It might take up to 24 hours for your saved changes to take effect.
 
-    ![Get Add-ins](../../Images/mya/use/get-add-ins.png)
+### If I am opted out, can I opt back in?
 
-2. Select **My add-ins**.
-3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
+Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
 
-    ![Remove Insights](../../Images/mya/use/remove-insights.png)
 
-## Add the Insights add-in
-
-Follow these steps to add the Insights add-in to your Outlook ribbon.
-
-1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
-2. Select **Admin-managed**.
-3. Find **Insights**, and then select **Add**.

@@ -47,7 +47,7 @@ The Data sources summary provides the following information about your data:
 
 * The organizational data coverage for measured employees and other internal collaborators. This can tell you if you have loaded enough attributes about your population to allow accurate filtering and grouping of data, and for all metrics to be computed correctly.
 
-![Data sources summary](../images/wpa/Use/Data-sources-summary.png)
+![Data sources summary](../images/wpa/Use/data-sources-summary.png)
 
 For more information about what data is needed to compute metrics, see these topics:
 
@@ -77,7 +77,7 @@ The following are examples of where you might encounter inconsistency in email o
 
 Organizational data summary provides details about the attributes that have been supplied, as well as the population coverage for each of the attributes (coverage is defined as the percentage of measured employees who have a value specified for the given attribute).
 
-![Data sources summary](../images/wpa/Use/organizational-data-summary.png)
+![Data sources summary](../images/wpa/Use/org-data-summary.png)
 
 The **Last refreshed** date shows when data was last processed.
 
@@ -105,7 +105,7 @@ By combining this data in Workplace Analytics, you can now analyze how sales act
 
 The **Join coverage** section describes the percent overlap between the uploaded list of accounts and the other uploaded lists of important CRM data, such as contacts and seller assignments, as shown in the following graphic. The higher the percentage overlap the more accurate analysis you can accomplish.
 
-![CRM data sources page](../images/wpa/Use/crm-sources.png)
+![CRM data sources page](../images/wpa/Use/crm-data-sources.png)
 
 For join coverage based on the latest data uploads, you might see one of the following important notices, as shown in the following graphic.
 
@@ -114,9 +114,9 @@ For join coverage based on the latest data uploads, you might see one of the fol
 
 ![CRM join notices](../images/wpa/Use/crm-join-notices.png)
 
-You can select one of the data titles, such as accounts or contacts, to view a list of attributes for it. For example, the following shows a list of attributes for contacts.
+You can select one of the data titles, such as accounts or contacts, to view a list of attributes for it. The following is an example of a **Contacts** page that lists the attributes.
 
-![View CRM attributes for contacts](../images/wpa/Use/crm-contact-attributes.png)
+![View CRM attributes for contacts](../images/wpa/Use/crm-contacts.png)
 
 Similar to the Organizational data page, the CRM data attributes list includes the following.
 
@@ -126,7 +126,9 @@ Similar to the Organizational data page, the CRM data attributes list includes t
 * **Coverage**: Shows the percentage of attributes that have non-blank values. For example, in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the **AccountAnnualRevenue** attribute.
 * **Unique values**: The count of the unique attribute values included in the data.
 
-![View CRM attributes for accounts](../images/wpa/Use/crm-account-attributes.png)
+The following is an example of an **Accounts** page that lists the attributes.
+
+![View CRM attributes for accounts](../images/wpa/Use/crm-accounts.png)
 
 >[!Note]
 > You can select a column name to sort the list by it in descending or ascending order.
@@ -136,5 +138,7 @@ To view a list of the top 100 values for an attribute, select the attribute's na
 * To view the list for a different attribute, select it from the list at the top of the table.
 * You can select a column title to sort the list by that column in descending or ascending order.
 * Type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
+
+The following is an example of an **Attribute details** page for **AccountId**.
 
 ![View CRM attribute values for accounts](../images/wpa/Use/crm-account-attribute-values.png)
