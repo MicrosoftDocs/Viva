@@ -42,6 +42,7 @@ You can size the nodes based on various network metrics. The following table lis
 |[Degrees](#degrees) |Measures the overall network size of each node. |
 |[Density](#density) (only in Combined or Grouped View) |Measures the strength of connections between nodes (within groups and between groups). |
 |[Influence Index](#influence-index) |Represents a node's potential influence on the opinions of the network or a measure of social status. |
+|[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
