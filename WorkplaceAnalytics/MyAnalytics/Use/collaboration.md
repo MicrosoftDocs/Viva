@@ -22,7 +22,7 @@ The **Weekly average** section shows an estimate of how much time you spent in m
 
 The Meeting habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the Meetings view:
 
-* The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types happen out of the total number of meetings you organized or accepted.
+* The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
     ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
 
@@ -54,7 +54,7 @@ These are based on your recent collaboration activity at work. Select **View Sug
 
 ### Meetings
 
-Meeting metrics include any meetings that you organized or accepted that have at least one other person attending. Meeting time includes meetings that take place during and outside of your set working hours. After-hours meeting time also affects your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
+Meeting metrics include any meetings that you organized or accepted to attend that have at least one other person attending. Meeting time includes meetings that take place during and outside of your set working hours. After-hours meeting time also affects your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
 
 #### Meeting habit metrics
 
@@ -74,15 +74,13 @@ The following meeting types are excluded from meeting metrics:
 
  * Meetings that last eight or more hours, such as all-day meetings.
  * Meetings that are marked as **Private**.
- * Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders.
+ * Meetings with no other participants than yourself, for example when you block focus time in your calendar or set reminders.
  * Meetings for which **Show As** is set to any of the following values:
 
     * Free
     * Working Elsewhere
     * Tentative
-    * Out of Office, as shown in the following graphic.
-    &nbsp;  
-      ![Meeting status Out of Office](../../Images/mya/use/meeting-status-oof.png)
+    * Out of Office
 
 > [!Note]
 > MyAnalytics counts double-booked meetings only one time for metric calculations. For example, if you have two meetings scheduled for 10:00 AM to 11:00 AM on the same day, MyAnalytics counts this as only one hour of meeting time.
@@ -108,20 +106,20 @@ MyAnalytics counts your audio calls, video calls, and chats (instant messages) t
 * For calls that are scheduled as meetings in your calendar, the time counts as zero seconds because these calls are already being counted as meeting time.
 
   >[!Note]
-  > Chats from Teams channels are excluded from the metrics. Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md)
+  > Chats from Teams channels are excluded from the metrics. Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md).
 
 ### Documents
 
 MyAnalytics also shows information for OneDrive and SharePoint documents that you have worked on. As a MyAnalytics participant, you'll see the following insights:
 
- * The number of cloud documents that you worked on (read, edited, or reviewed)
- * The number of cloud documents that you worked on outside of working hours
+ * The number of cloud documents that you worked on (read, edited, or reviewed).
+ * The number of cloud documents that you worked on outside of working hours.
 
 To see these insights, you must have worked on at least three OneDrive or SharePoint cloud documents during the past week.
 
 ## Collaboration tips
 
-You might miss out on valuable collaboration time if you're spending too much time on email or impromptu calls or in meetings or chats. Research shows that typically doing just four to five things differently can enable you to increase your collaboration time by 18% to 24%.
+You might miss out on valuable collaboration time if you're spending too much time on email or impromptu calls or in meetings or chats. Research shows that typically doing just four to five things differently can enable you to increase your collaboration time by 18 to 24 percent.
 
 * **Batch email time**: To reduce distraction, try checking your inbox once an hour. If that works well, try checking email every two hours and so on. Discover how much time you can get back.
 
