@@ -131,9 +131,13 @@ You might miss out on valuable collaboration time if you're spending too much ti
   * Check the attendee lists for meetings you organize. Try condensing meetings with identical attendees.
   * In an office culture where meetings fill the day, make the most of yours. By setting expectations and making goals clear ahead of time, meetings can become more efficient. Giving you and your colleagues some time back.
 
+* **Keep meeting size under control**: Small and short meetings are more conducive to decision making, as it prompts attendees to communicate faster and focus on getting the work done. Research shows that every person added to the meeting group over seven reduces decision effectiveness by 10 percent. Consider making your meeting size small to avoid decision making overhead.
+
 * **Respond to meetings on time**: Respond to meeting invites on time so your team knows what to expect. Coworkers can better prepare for meetings when they have a good sense of who plans to attend.
 
 * **Give people time to prepare for meetings**: Last-minute invitations are sometimes necessary, but your meetings may be more effective if you give attendees some time to prepare.
+
+* **Include Skype or Teams link for remote attendees**: Consider adding Skype or Teams link to your meeting to accommodate remote attendees.
 
 * **Include meeting agendas and action items in your invites**: Add agendas and action items to get the most out of your meetings. Consider adding clarity for what you’d like participants to do with attached files in your meeting invitations.
 
@@ -145,6 +149,11 @@ You might miss out on valuable collaboration time if you're spending too much ti
 * **Cancel meetings a day ahead**: If possible, send cancellations to attendees the day before. Do your best to plan ahead so that attendees can optimally re-purpose that time.
 
 * **Take long email threads offline**: For long email threads that increase over the course of a few weeks, consider taking the email offline and scheduling a meeting to sync up.
+
+* **Schedule meeting during work hours**: For non-urgent meetings, it is a good practice to schedule it during every attendee’s work hour to respect people’s wellbeing.
+
+* **Avoid multitasking during meetings**: Research shows that merely having your smartphone nearby impairs cognitive capacity on par with the effects of lacking sleep. Consider putting away your phone while at meetings to dedicate full attention to the matter in discussion.ter at hand.
+
 
 ## Related topics
 
