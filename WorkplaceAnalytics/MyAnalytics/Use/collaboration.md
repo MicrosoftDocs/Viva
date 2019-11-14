@@ -30,6 +30,18 @@ The Meeting habits section highlights what your habits or practices are in meeti
 
     ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
 
+|Icon |Description |
+|---|---|
+|![recur icon](../../Images/mya/use/recur-icon.png) |Represents a recurring meeting on your calendar. |
+|![person meeting icon](../../Images/mya/use/person-meeting-icon.png) | Represents a meeting organized by you. |
+|![recurring meeting by you icon](../../Images/mya/use/recur-byu-icon.png) | Represents a recurring meeting organized by you. |
+|![checkmark icon](../../Images/mya/use/checkmark.png)  | If a meeting has a check mark in a column, it met that specified meeting’s attribute or habit. For example, the meeting included an agenda or started on time. |
+|![X icon](../../Images/mya/use/x-icon.png)  | If a meeting has an X in a column, it did not meet that specified meeting’s metric. For example, the meeting did not include an agenda or did not start on time. |
+|![blank space icon](../../Images/mya/use/blank-icon.png)  | If a meeting has a blank space in a column, the specified meeting metric was not applicable for that meeting. For example, the meeting was canceled, so starting on time was not applicable. |
+|![sort up icon](../../Images/mya/use/sort-up-icon.png)![sort down icon](../../Images/mya/use/sort-icon.png)  | Select a column name in the Meetings list to sort the list by that column in ascending or descending order. The sort icon will show up next to the column name that the list is sorted by. |
+
+For a list of meetings that are excluded from the Meetings list and metrics, see [Meetings](#meetings).
+
 The **Communication habits** section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
 
    ![MyAnalytics Communication habits](../../Images/mya/use/collab-com-chart.png)
