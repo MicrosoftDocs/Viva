@@ -116,7 +116,7 @@ Complete the following steps to categorize meeting and email activity for a blob
 
 ### To categorize email for analysis
 
-1. If you haven't done so already , follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
+1. If you haven't done so already, follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
 2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
 3. After meetings are auto-categorized, go to **Email** > **Query Builder** enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
