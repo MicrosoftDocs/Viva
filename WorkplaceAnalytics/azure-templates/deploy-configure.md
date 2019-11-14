@@ -88,7 +88,9 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
   * Can add other users and assign roles for the templates.
   * Can share the templates website link with other users.
-  * Can share the link to access the [Azure Databricks Workspace](https://docs.azuredatabricks.net/user-guide/workspace.html) with the assigned Data scientists.
+  * Can share the link to access the [Azure Databricks Workspace](https://docs.azuredatabricks.net/user-guide/workspace.html) with assigned Data scientists.
+  * Configure specific template settings on the [Configuration](#configuration) page.
+  * Access and [audit logs](#audit-logs).
 
 * **Analyst**
 
@@ -134,6 +136,13 @@ After adding users, you need to process the Workplace Analytics data that you wa
 3. In the Workplace Analytics Azure Templates app, select **Admin** > **Scenario Execution**, select the **rawdata** folder, and then select **Process data**.
 
    ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
+
+## Configuration
+
+As an admin, you can configure template settings in **Admin** > **Configuration**, including:
+
+    * The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
+    * If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
 
 ## Audit logs
 
