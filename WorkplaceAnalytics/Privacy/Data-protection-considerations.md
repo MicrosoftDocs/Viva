@@ -28,9 +28,6 @@ This section provides a basic overview of roles, responsibilities, types of data
 
 The concepts of _data controller_, _data processor_, and _data subject_ originate in European privacy law. Regardless of where your organization is located or whether any personal data of European Union citizens is involved, these concepts provide a useful framework for thinking about data protection when using Workplace Analytics.
 
-> [!Note] 
-> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user" or an "employee." 
-
 The following illustration shows the central position of the data controller (your organization) between the data subject (left) and the data processor, Microsoft (on the right):  
 
 <img src="../Images/data-subject-controller-processor.PNG" alt="Roles in data protection">
@@ -68,6 +65,9 @@ As a data processor, Microsoft will:
 ### Data subject and personal data
 
 A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
+
+> [!Note] 
+> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user" or an "employee." 
 
 ## Types of data for analysis in Workplace Analytics
 
