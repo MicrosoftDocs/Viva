@@ -23,7 +23,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
  - [Deploy the templates](#deployment)
  - [Configure the templates](#configuration-add-users-and-assign-roles)
  - [Process the data](#process-the-data)
- - [Audit logs](#audit-logs)
+ - Additional [configuration](#configuration) and [Audit logs](#audit-logs) are also available
 
 ## Security considerations
 
