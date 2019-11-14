@@ -19,6 +19,33 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
+## November 2019
+
+The following new template enhancements are now available.
+
+### Organizational Network Analysis Azure Template
+
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
+
+* Updated UX for Node Measures, including renaming some of the measures, such as:
+  * Eigen Centrality is now Influence Index
+  * Closeness is now Reach Index
+  * Network size is now Degrees
+* New UX for saving graphs for subgroup analysis and viewing saved graphs
+* Improved UX for defining analysis and saving subsets of data within the graph view.* New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
+* New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure template.
+
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+
+
+## Process Explorer Azure Template
+
+The following enhancements and features are included in the Process Explorer Azure Template.
+
+* New download option for datasets.
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
+
 ## September 2019
 
 The following new template enhancements are now available.
@@ -40,7 +67,7 @@ To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
 
 * Improved UX for adding new analysis.
-* New date range options for improved data and graph analysis.<!-- * Improved UX for defining analysis and saving subsets of data within the graph view.* New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.-->
+* New date range options for improved data and graph analysis.
 * New **Download metrics** option for the last saved version of the analysis that aligns with the time range, filters, and other values selected.
 * Select the new **Parameters** icon to view the parameter details for a listed dataset.
 
