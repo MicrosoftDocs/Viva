@@ -5,10 +5,14 @@
       href: ~/index-orig.md
     - name: Privacy and data protection
       items:
+        - name: Introduction                   
+          href: ~/Privacy/data-protection-intro.md
         - name: Data-protection considerations                   
-          href: ~/Privacy/Data-protection-summary.md
+          href: ~/Privacy/data-protection-considerations.md
         - name: Privacy and data access
-          href: ~/Privacy/Privacy-and-Data-Access.md
+          href: ~/Privacy/privacy-and-data-access.md
+        - name: Data access after license expiration
+          href: ~/Privacy/license-expiration.md
     - name: Setup and Maintenance
       items:
         - name: Set up Workplace Analytics

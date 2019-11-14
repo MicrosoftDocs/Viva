@@ -13,6 +13,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
+
 # Privacy considerations for Workplace Analytics
 
 This article introduces various considerations for Workplace Analytics admins to explore while deciding on privacy settings.
