@@ -137,7 +137,7 @@ You might miss out on valuable collaboration time if you're spending too much ti
 
 * **Give people time to prepare for meetings**: Last-minute invitations are sometimes necessary, but your meetings may be more effective if you give attendees some time to prepare.
 
-* **Include Skype or Teams link for remote attendees**: Consider adding Skype or Teams link to your meeting to accommodate remote attendees.
+* **Include Skype or Teams link for remote attendees**: Consider adding a Skype or Team links to your meetings to accommodate remote attendees.
 
 * **Include meeting agendas and action items in your invites**: Add agendas and action items to get the most out of your meetings. Consider adding clarity for what you’d like participants to do with attached files in your meeting invitations.
 
@@ -150,9 +150,9 @@ You might miss out on valuable collaboration time if you're spending too much ti
 
 * **Take long email threads offline**: For long email threads that increase over the course of a few weeks, consider taking the email offline and scheduling a meeting to sync up.
 
-* **Schedule meeting during work hours**: For non-urgent meetings, it is a good practice to schedule it during every attendee’s work hour to respect people’s wellbeing.
+* **Schedule meeting during work hours**: For non-urgent meetings, scheduling them during the attendees set work hours is a good practice that respects people’s wellbeing.
 
-* **Avoid multitasking during meetings**: Research shows that merely having your smartphone nearby impairs cognitive capacity on par with the effects of lacking sleep. Consider putting away your phone while at meetings to dedicate full attention to the matter in discussion.ter at hand.
+* **Avoid multitasking during meetings**: Research shows that merely having your smartphone nearby impairs cognitive capacity on par with the effects of lacking sleep. Consider putting away your phone while in meetings to dedicate full attention to them.
 
 
 ## Related topics
