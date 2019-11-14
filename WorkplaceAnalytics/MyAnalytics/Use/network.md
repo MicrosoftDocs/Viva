@@ -52,21 +52,13 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 ## Network tips
 
-#### Add top collaborators to your important people list
+* **Add top collaborators to your important people list**: Things change. Keep your Important people list up to date. Follow the steps in [Important people](#important-people) to update your list.
 
-Things change. Keep your Important people list up to date. Follow the steps in [Important people](#important-people) to update your list.
+* **Set up a weekly check-in with your manager**: One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync. Research shows that top-performing managers get regular one-on-one time with their team members. One-on-ones give employees an opportunity to voice concerns, share feedback, and stay motivated.
 
-#### Set up a weekly check-in with your manager
+* **Make time for networking**: Making time to foster relationships and grow your network has proven to contribute to professional advancement. A team partner study showed a correlation between successful salespeople and large networks. The top salespeople boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
 
-One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync. Research shows that top-performing managers get regular one-on-one time with their team members. One-on-ones give employees an opportunity to voice concerns, share feedback, and stay motivated.
-
-### Make time for networking
-
-Making time to foster relationships and grow your network has proven to contribute to professional advancement. A team partner study showed a correlation between successful salespeople and large networks. The top salespeople boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
-
-#### Spend more time with important collaborators
-
-Spending more time with the people in your network who align with your top-priority tasks at work can improve team collaboration and increase project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
+* **Spend more time with important collaborators**: Spending more time with the people in your network who align with your top-priority tasks at work can improve team collaboration and increase project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
 
 ## Related topics
 

@@ -107,7 +107,7 @@ To see these insights, you must have worked on at least three OneDrive or ShareP
 
 ## Collaboration tips
 
-You might miss out on valuable collaboration time if you're spending too much time on email or in impromptu calls, meetings, or chats. Research shows that typically doing just four to five things differently can enable you to increase your collaboration time by 18% to 24%. Over collaboration can sometimes hamper personal productivity.
+You might miss out on valuable collaboration time if you're spending too much time on email or impromptu calls or in meetings or chats. Research shows that typically doing just four to five things differently can enable you to increase your collaboration time by 18% to 24%.
 
 * **Batch email time**: To reduce distraction, try checking your inbox once an hour. If that works well, try checking email every two hours and so on. Discover how much time you can get back.
 
