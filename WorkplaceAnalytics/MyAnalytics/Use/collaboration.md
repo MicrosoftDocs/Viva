@@ -56,11 +56,25 @@ These are based on your recent collaboration activity at work. Select **View Sug
 
 Meeting metrics include any meetings that you organized or accepted that have at least one other person attending. Meeting time includes meetings that take place during and outside of your set working hours. After-hours meeting time also affects your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
 
+#### Meeting habit metrics
+
+The following meeting habit metrics are included on the Collaboration page:
+
+* **High attendance** includes meetings you organized or accepted that had greater than a 50 percent response rate.
+* **Invitations sent with a days' notice** includes meetings where you sent invitations with more than 24 hours notice before the meeting's scheduled start time.
+* **Added Skype or Teams link** includes meetings you organized and included a Skype or Teams link for remote attendance.
+* **Sent with agenda** includes meetings you organized and included text in the body of the invitation.
+* **No emails or chats during the meeting** includes meetings during which you did not send a significant number of emails or chats.
+* **Online meetings joined on time** includes Skype or Teams meetings that you joined or started on time.
+* **During working hours** includes meetings you organized or accepted to attend during your working hours.
+
+#### Meeting exclusions
+
 The following meeting types are excluded from meeting metrics:
 
- * Meetings that last eight or more hours, such as all-day meetings
- * Meetings that are marked as **Private**
- * Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders
+ * Meetings that last eight or more hours, such as all-day meetings.
+ * Meetings that are marked as **Private**.
+ * Meetings with no other participants than yourself, for example when you block time in your calendar or set reminders.
  * Meetings for which **Show As** is set to any of the following values:
 
     * Free
@@ -71,7 +85,7 @@ The following meeting types are excluded from meeting metrics:
       ![Meeting status Out of Office](../../Images/mya/use/meeting-status-oof.png)
 
 > [!Note]
-> MyAnalytics counts double-booked meetings only once. For example, if you have two meetings that both run from 10:00 AM to 11:00 AM, MyAnalytics counts this as only one hour of meeting time.
+> MyAnalytics counts double-booked meetings only one time for metric calculations. For example, if you have two meetings scheduled for 10:00 AM to 11:00 AM on the same day, MyAnalytics counts this as only one hour of meeting time.
 
 ### Email
 
