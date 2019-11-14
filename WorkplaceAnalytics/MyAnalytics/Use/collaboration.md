@@ -30,7 +30,7 @@ The Meeting habits section highlights what your habits or practices are in meeti
 
     ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
 
-The **Communication habits** section shows the total number of emails sent and read during each hour of the day in the past four weeks.
+The **Communication habits** section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
 
    ![MyAnalytics Communication habits](../../Images/mya/use/collab-com-chart.png)
 
