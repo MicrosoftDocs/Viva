@@ -101,9 +101,18 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 7. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add new or change existing categories.
 
+> [!Note]
+>Use the Download option (bottom right) to download a .csv of the data shown in the dashboard table.
+
 ## Email activity analysis
 
-By using blob storage as the data source, you can get more complete analysis based on all meeting and email activity related to the selected process categories. Complete the following steps to categorize meeting and email activity for a blob storage dataset.
+By using blob storage as the data source, you can get more complete analysis based on all meeting and email activity related to the selected process categories.
+
+As the admin, you can set what level of email activity you want to surface and classify for analysis. Go to **Admin** > **Configuration** > **Process Explorer** and select whether you want the model to either use or not use email subjects to help the model classify the dataset for analysis:
+
+ ![Categorize email admin setting](./images/pexp-admin-setting.png)
+
+Complete the following steps to categorize meeting and email activity for a blob storage dataset.
 
 ### To categorize email for analysis
 

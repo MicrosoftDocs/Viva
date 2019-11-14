@@ -33,16 +33,18 @@ The following enhancements and features are included in the Organizational Netwo
   * Network size is now Degrees
 * New UX for saving graphs for subgroup analysis and viewing saved graphs
 * Improved UX for defining analysis and saving subsets of data within the graph view.* New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
-* New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure template.
+* New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure Template.
 
 To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
-
-## Process Explorer Azure Template
+### Process Explorer Azure Template
 
 The following enhancements and features are included in the Process Explorer Azure Template.
 
 * New download option for datasets.
+* New Process Explorer Admin setting that specifies if the template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization:
+
+    ![Categorize email admin setting](./images/pexp-admin-setting.png)
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
