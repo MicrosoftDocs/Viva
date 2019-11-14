@@ -2,7 +2,6 @@
 layout: HubPage
 title: Workplace Analytics
 description: Learn more about, set up, and use Workplace Analytics
-ms.date: 05/14/2019
 ms.topic: hub-page
 localization_priority: normal 
 ms.prod: wpa
@@ -106,8 +105,8 @@ author: madehmer
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Solutions</h3>
-                        <p>Learn how to create, manage, and track targeted change management programs to help reduce meeting load and increase focus time. </p>
+                        <h3>Plans</h3>
+                        <p>Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time. </p>
                     </div>
                 </div>
             </div>

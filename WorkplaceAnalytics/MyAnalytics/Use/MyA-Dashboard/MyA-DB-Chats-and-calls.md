@@ -6,7 +6,6 @@ title: Chats and calls in MyAnalytics
 description: Teams and Skype for Business calls and instant messages in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 03/15/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

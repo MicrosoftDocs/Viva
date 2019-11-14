@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics solution participants
+title: Workplace Analytics plan participants
 description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
 author: paul9955
 ms.author: v-pascha
@@ -11,7 +11,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Solutions: The experience of plan participants
+# Plans: The experience of plan participants
 
 **Role** - participant in a plan, an information worker who is using MyAnalytics
 
@@ -43,7 +43,7 @@ MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notific
 
 ### Plan-only inline suggestions
 
-While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork solution plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan): 
+While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan): 
 
 #### Collaboration plan
 
@@ -67,7 +67,7 @@ Participants in the Wellbeing plan might see the following inline suggestion:
 
 ### Broadly available inline suggestions
 
-A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork solution plan. They are described in the following tables:
+A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following tables:
 
 #### Get more time to focus
 
@@ -87,8 +87,8 @@ A number of other inline suggestions are available to all MyAnalytics participan
 
 ## Related topics
 
-[Solution: Introduction](solutionsv2-intro.md)  
+[Plans: Introduction](solutionsv2-intro.md)  
 
-[Solution: Walkthrough](solutionsv2-task.md)
+[Plans: Walkthrough](solutionsv2-task.md)
 
-[Solution: Concepts](solutionsv2-conceptual.md)
+[Plans: Concepts](solutionsv2-conceptual.md)

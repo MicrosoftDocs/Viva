@@ -45,4 +45,4 @@ See [Assign Workplace Analytics roles with PowerShell in Azure Active Directory]
 
 [User roles](../use/user-roles.md)
 
-[Assign a user to an enterprise app using PowerShell](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell)
+[Assign a user to an enterprise app using PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell)

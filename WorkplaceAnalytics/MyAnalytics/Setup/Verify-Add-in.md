@@ -20,7 +20,7 @@ You can confirm that the Insights Outlook add-in is installed by looking in the 
 
 **To confirm the installation**
 
-1. [Sign in to Office 365](https://support.office.com/en-us/article/where-to-sign-in-to-office-365-for-business-e9eb7d51-5430-4929-91ab-6157c5a050b4?ui=en-US&rs=en-US&ad=US) with your work or school account.
+1. [Sign in to Office 365](https://support.office.com/article/where-to-sign-in-to-office-365-for-business-e9eb7d51-5430-4929-91ab-6157c5a050b4?ui=en-US&rs=en-US&ad=US) with your work or school account.
 
 2. Select the app launcher icon (<img src="../../Images/app-launcher-icon.png" alt="Office 365 app launcher icon">) in the upper left, and then select **Admin**.
 

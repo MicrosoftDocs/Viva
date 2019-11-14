@@ -28,7 +28,7 @@ The most commonly asked questions and answers about Workplace Analytics are grou
 
 ##### Q1. Do I assign licenses with Office 365 Admin Center, PowerShell, or Azure group-based licensing?
 
-A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 product licenses. You can assign them with the [Office 365 Admin Center](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&tabs=One), [PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell), or [Azure group-based licensing](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-groups-assign). Learn more details about these options in the Workplace Analytics documentation at [Assign licenses](../setup/assign-licenses-to-population.md), [Assign group-based licenses](../use/group-based-licensing.md), and [Assign licenses with PowerShell](../use/assigning-licenses-with-powershell.md).
+A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 product licenses. You can assign them with the [Office 365 Admin Center](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&tabs=One), [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell), or [Azure group-based licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). Learn more details about these options in the Workplace Analytics documentation at [Assign licenses](../setup/assign-licenses-to-population.md), [Assign group-based licenses](../use/group-based-licensing.md), and [Assign licenses with PowerShell](../use/assigning-licenses-with-powershell.md).
 
 ##### Q2. Does Workplace Analytics retain and use data about employees that no longer work for the organization?
 
@@ -40,7 +40,7 @@ A3. This depends on the size of your organization and your requirements for mana
 
 <!-- THIS ANSWERED A QUESTION FROM JEREMY. REMOVE FOR NOW. 
 > [!Tip] 
-> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partitions-in-wpa). -->
+> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/setup/partitions-in-wpa). -->
 
 
 ##### Q4. Can our organization’s Office 365 admin also be our Workplace Analytics admin?
@@ -103,7 +103,7 @@ A5. The field values in the data rows must comply with the following formatting 
 
 * The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format.
 * The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not < gc> gc@contoso.com).
-* The required TimeZone field values must be in a [supported Windows format](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones).
+* The required TimeZone field values must be in a [supported Windows format](https://docs.microsoft.com/windows-hardware/manufacture/desktop/default-time-zones).
 * The required Layer field values must be numbers only.
 * Have no special characters (non-alphanumeric, such as @, #, %, &, and *).
 * The required HourlyRate field values must be numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.

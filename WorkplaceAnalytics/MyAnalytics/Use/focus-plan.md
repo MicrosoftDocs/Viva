@@ -14,7 +14,7 @@ ms.prod: mya
 
 # Focus plan
 
-_**Applies to:** Focus plan is currently available for MyAnalytics users who have an E5 license. Focus plan will become available to all MyAnalytics users in the coming months._
+_**Applies to:** Focus plan is currently available for MyAnalytics users who have an E5 license. Focus plan will become available to all MyAnalytics users in the coming months. MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. To determine your plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)._
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
@@ -64,16 +64,6 @@ The **Plan ahead** area helps you to plan focus time for the upcoming days. This
 
 For the current week and the following week, this area shows how many days and which days have had focus time booked. In the preceding example screenshot, the three days with focus time booked are shown in green. 
 
-<!-- The shapes in this area are color coded:
-
-| Color | Meaning |
-| ----- | ----- |
-| Green | On this day, focus time was booked. Either MyAnalytics booked it automatically or you responded to a MyAnalytics reminder to book focus time. |
-| Gray | A day that has already passed. |
-| Yellow | MyAnalytics couldn’t find any time to book on that day, or you accepted a meeting that conflicts with time previously booked as focus time on that day. |
-| Blue | You haven’t yet booked focus time on that day, but MyAnalytics found open time that’s available to book. | 
--->
-
 ### Needs focus time
 
 This section shows upcoming days that have no focus time booked but still have open time available. Select **Book now** to have MyAnalytics select and book this time. 
@@ -117,11 +107,11 @@ You can opt in and opt out of the focus plan as many times as you want.
       ![Personalize your experience](../../Images/mya/use/preferences.png)
 -->
  
-# Concepts
+## Concepts
 
 The following sections provide information that can help you as you create or monitor focus plans.  
 
-## Automatic booking of focus time
+### Automatic booking of focus time
 
 After you set automatic booking as your preference, MyAnalytics starts looking for time on your Outlook calendar to set aside as focus time. The time that it books on your calendar appears in a different color and is labeled "Focus time":  
 
@@ -131,25 +121,25 @@ Focus time never creates a calendar conflict; that is, focus time will not be bo
 
 Although two hours is the maximum length of a focus-time block that can be scheduled automatically, you can extend your focus time, by hand, in your Outlook calendar. 
 
-### Booking schedule
+#### Booking schedule
 
 MyAnalytics books focus time two weeks in advance. For example: when you open your calendar on a Monday, you should see focus time booked every day of the current week and all the way through the Friday of the following week. Each weekend it looks for time blocks in the next week out and books time accordingly. 
 
-### How time slots are selected
+#### How time slots are selected
 
 The time it reserves for you depends on what you have open during the day. MyAnalytics starts its search at the beginning of your workday, as it is defined in your Outlook settings. If your day starts at 8:00 AM and you have two hours open right then, MyAnalytics schedules two hours of focus time, from 8:00 to 10:00 AM. If it finds no open time at the beginning of your day, it continues to scan your calendar to find open blocks later in the day. If only smaller amounts of time are available, it can book a focus block as short as one hour. 
 
 After it books a block on one day, it then moves on to the next day to find the next suitable block. (In most cases, it creates only one block of focus time per day.)
 
-### Lunchtime
+#### Lunchtime
 
 MyAnalytics considers the time from 12:00 AM to 1:00 PM as time for the midday meal. If you have automatic booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period. 
 
-## Chats are muted during focus time  
+### Chats are muted during focus time  
 
 During focus time, your status in Teams and Skype for Business will automatically change to "Focusing" to silence chat notifications and help you stay focused. When the focus time appointment ends, your status will automatically revert back to the status you were previously in. Note that you can set priority contacts in Teams to ensure you don’t miss important messages during focus time. 
 
-For more information, see [Manage notifications in Teams](https://support.office.com/en-us/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d). 
+For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d). 
 
 <!-- DELETED 27 JUNE, PER PETERB
 
@@ -171,13 +161,13 @@ For more information about the digest email, which for focus plan participants b
 
 -->
 
-## Weekly email and inline suggestions
+### Weekly email and inline suggestions
 
-### Focus plan weekly email
+#### Focus plan weekly email
 
 After you enroll in a focus plan, the content of the weekly digest email becomes tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside. 
 
-### Inline suggestions and other alerts
+#### Inline suggestions and other alerts
 
 If you choose not to have MyAnalytics automatically book focus time for you, MyAnalytics deliver [inline suggestions](mya-notifications.md) in Outlook that remind you to reserve time to focus every day.
 
