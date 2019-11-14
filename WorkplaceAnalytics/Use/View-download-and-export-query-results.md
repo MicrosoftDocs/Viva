@@ -57,7 +57,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 ### Get a link for an OData feed to use in Power BI
 
    > [!Note]
-   > You can share Power BI dashboards. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).
+   > You can share Power BI dashboards. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
 1. Next to the query you want, select **Copy link**:
 
@@ -88,11 +88,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 The Power BI-Workplace Analytics connector lets you construct visualizations of data from Workplace Analytics while you are running Power BI. Use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules that were configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data.
 
 > [!Note] 
-> The Power BI-Workplace Analytics connector does not use results of already-run queries. Instead, it creats Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). (Aggregated queries include grouping of metrics on one or more columns of organizational-data attributes, with aggregations such as Sum, Average, Min, and Max on the metric columns.)
-
-For example, by using this connector, you can generate, for example, a bar chart that shows an organization-wide analysis of collaboration hours or examines the meeting-hours trend for an entire organization.
-
-![Get Data button](../images/wpa/use/example-pbi-visual.png)
+> The Power BI-Workplace Analytics connector does not use results of already-run queries. Instead, it creates Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). (Aggregated queries include groupings of metrics on one or more columns of organizational-data attributes, with aggregations such as Sum, Average, Min, and Max on the metric columns.)
 
 #### Prerequisites
 
@@ -107,7 +103,7 @@ To make this connection, you first need to download Power BI desktop. Follow the
 
 ##### Partition access
 
-Partitions in Workplace Analytics allow access to data. To import metrics and attributes into Power BI, you will need access to the partition in Workplace Analytics that contains these metrics and attributes. (To gain access to that partition, steps in the following procedure have you sign in to your organizational account and select the partition ID.) For more information, see [User roles in Workplace Analytics](../use/user-roles.md). 
+Partitions in Workplace Analytics allow access to data. To import metrics and attributes into Power BI, you will need access to the partition in Workplace Analytics that contains those metrics and attributes. (To gain access to that partition, you will follow steps in the following procedure that have you sign in to your organizational account and select the partition ID.) For more information, see [User roles in Workplace Analytics](../use/user-roles.md). 
 
 #### Use the connector
 
@@ -118,8 +114,6 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 2.	Select **Online Services**, select **Workplace Analytics**, and then select **Connect**:
 
     ![Get Data button](../images/wpa/use/get_data_screen.png)
-
-<!-- ANIL WILL GET ME A SCREENSHOT OF THE FEATURE THAT DISPLAYS THE PARTITION ID. USE THAT HERE. -->
 
 3.  Determine the identifier of the currently selected Workplace Analytics partition. To do this, select the user icon in the top right corner of the page, and then select **My information**:
 
@@ -133,7 +127,7 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
     ![Enter partition ID](../images/wpa/use/connect_to_wpa_part_id.png)
 
-5.	Select the data connectivity mode that you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-use-directquery).
+5.	Select the data connectivity mode that you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
 
     ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa_mode.png)
 
@@ -151,16 +145,22 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
     ![Metrics](../images/wpa/use/list-of-metrics-2-col_2.png)
 
-    In Power BI, you can now create visualizations using those fields.
+In Power BI, you can now create visualizations using those fields.
 
-9.	After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards). 
+For example, you can generate a bar chart that shows an organization-wide analysis of collaboration hours or examines the meeting-hours trend for an entire organization.
+
+![Get Data button](../images/wpa/use/example-pbi-visual.png)
+
+After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards). 
 
 ## Related topics
 
-[Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-odata) 
+[Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata) 
 
 [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 
+[User roles in Workplace Analytics](../use/user-roles.md)
+
 [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
 
-[Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards)
+[Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards)

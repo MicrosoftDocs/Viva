@@ -1,6 +1,20 @@
 {
   "docsets_to_publish": [
     {
+      "docset_name": "OfficeDocs-Briefing",
+      "build_source_folder": "Briefing",
+      "build_output_subfolder": "OfficeDocs-Briefing",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "OfficeDocs-MyAnalytics",
       "build_source_folder": "MyAnalytics",
       "build_output_subfolder": "OfficeDocs-MyAnalytics",
@@ -23,7 +37,7 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": true,
+      "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",

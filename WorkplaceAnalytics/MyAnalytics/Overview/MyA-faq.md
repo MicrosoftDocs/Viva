@@ -88,13 +88,13 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 #### Q1. Does "meeting time" include time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
 
 ### Focus time
 
 #### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
 #### Q2. Can I change my settings to make time outside of work more accurate?
 
@@ -127,16 +127,79 @@ See the following for details:
 
  * [Opt out of the MyAnalytics dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
  * [Opt out of the weekly email digest](../use/email-digest-2.md#opt-out-of-email-digests)
- * [Remove Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
+ * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
+
+#### Q2. Can I add or remove the Insights Outlook add-in?
+
+Yes, you can. But first, what's the difference between "opt out" and "remove"? 
+
+ * **Opt out:** If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in) but in step 4, set the control to **On**.) 
+ * **Remove:** If you [remove the Insights Outlook add-in](#remove-the-insights-outlook-add-in), not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Insights Outlook add-in](#add-the-insights-outlook-add-in)).  
+
+##### Remove the Insights Outlook add-in
+
+Follow these steps to remove the Insights add-in from your Outlook ribbon.
+
+> [!Note] 
+> This procedure also removes [inline suggestions in Outlook](../use/mya-notifications.md).
+
+1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+
+    ![Get Add-ins](../../Images/mya/use/get-add-ins.png)
+
+2. Select **My add-ins**.
+3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
+
+    ![Remove Insights](../../Images/mya/use/remove-insights.png)
+
+##### Add the Insights Outlook add-in
+
+Follow these steps to add the Insights add-in to your Outlook ribbon.
+
+1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+2. Select **Admin-managed**.
+3. Find **Insights**, and then select **Add**.
+
+### Visibility and access 
 
 #### Q2. Why can't I see the MyAnalytics dashboard?
 
-The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
+The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data. 
 
-#### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics]( http://myanalytics.microsoft.com) and turn MyAnalytics on?
+#### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics](https://myanalytics.microsoft.com) and turn MyAnalytics on?
 
 Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that stat in the read percentage that's shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
+
+#### Q4. How can I find out what my plan is?
+
+Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have? 
+
+You can identify your _plan_ (and also your _service plan_) by following these steps:
+
+1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
+ 
+2.	In the upper-right corner, under **My account**, select **My account**: 
+
+    ![My account](../../images/mya/overview/my-account-2.png)
+ 
+3.	On the **My account** page, under **Subscriptions**, select **View subscriptions**:
+
+    ![View subscriptions](../../images/mya/overview/subscriptions_85.png)
+ 
+4.	On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
+
+    _In the following example, the plan is "Office 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
+   
+    ![service plan: Insights by MyAnalytics](../../images/mya/overview/licenses-plans-service-plans.png)
+
+    _In the following example, the plan is "Office 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
+    
+    ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
+
+#### Q5. In what languages are the elements of MyAnalytics available?
+
+See [MyAnalytics languages](mya-languages.md).
 
 ### Insights Outlook add-in
 
@@ -187,7 +250,7 @@ Skype for Business data is usually prompt. However, in rare instances, users can
 
 #### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
 
-The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are not currently available with the *Insights by MyAnalytics* service plan.
+The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) are not currently available with the *Insights by MyAnalytics* service plan.
 
    > [!Note]
    > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.

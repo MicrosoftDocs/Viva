@@ -118,16 +118,16 @@
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md                    
-        - name: Solutions   
+        - name: Plans   
           href: ~/tutorials/solutionsv2-intro.md        
           items:
-            - name: Solution types
+            - name: Plan types
               items:
-                - name: Teamwork solution
+                - name: Teamwork plans
                   href: ~/tutorials/teamwork-solution.md          
- #               - name: Seller success solution
+ #               - name: Seller success plan
  #                 href: ~/tutorials/seller-success.md
-            - name: Use solutions
+            - name: Use plans
               items: 
                 - name: Walkthrough    
                   href: ~/tutorials/solutionsv2-task.md 
@@ -135,7 +135,7 @@
                   href: ~/tutorials/solutionsv2-participants.md                                       
                 - name: Concepts
                   href: ~/tutorials/solutionsv2-conceptual.md
-            - name: Solutions scan
+            - name: Opportunities scan
               href: ~/Use/solutions-scan.md
     - name: Notifications
       href: ~/use/wpa-notifications.md     
@@ -168,9 +168,13 @@
       href: MyAnalytics/MyA-landing-page.md
       homepage: /myanalytics 
     - name: Why use MyAnalytics?
-      href: MyAnalytics/Overview/Better-work-habits.md    
-    - name: Frequently asked questions
-      href: MyAnalytics/Overview/MyA-faq.md
+      href: MyAnalytics/Overview/Better-work-habits.md        
+    - name: Reference
+      items:
+        - name: Frequently asked questions
+          href: MyAnalytics/Overview/mya-faq.md  
+        - name: MyAnalytics languages
+          href: myanalytics/overview/mya-languages.md  
     - name: MyAnalytics elements
       items: 
         - name: Introduction
