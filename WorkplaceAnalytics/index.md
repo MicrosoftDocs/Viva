@@ -38,7 +38,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/privacy/privacy-and-data-access">
+        <a href="https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
