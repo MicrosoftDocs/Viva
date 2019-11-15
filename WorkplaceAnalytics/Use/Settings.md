@@ -41,7 +41,7 @@ For more information, see [Assign Workplace Analytics roles](https://docs.micros
 
  * **Owners** – Workplace Analytics Admins, Analysts, and Analyst limiteds have full access to this page.
 
-The [Sources](../Use/data-sources.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
+The [Data sources](../Use/data-sourcesv2.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
 
 ## Upload
 

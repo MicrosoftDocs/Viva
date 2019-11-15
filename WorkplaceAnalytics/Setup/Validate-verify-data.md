@@ -42,4 +42,4 @@ By using data source metrics, Workplace Analytics data analysts can:
 
 ### Related topic
 
-[Data sources in Workplace Analytics](../Use/Data-sources.md)
+[Data sources in Workplace Analytics](../Use/data-sourcesv2.md)
