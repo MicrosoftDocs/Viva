@@ -53,8 +53,9 @@ Hover your cursor over the chart data to get more details and use the chart lege
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 -->
+### Possible causes of inconsistent data
 
-The following are examples of where you might encounter instances of  inconsistency in the volume of email, meetings, calls, and instant messages data.
+The following are examples of where you might encounter instances of inconsistency in the volume of email, meetings, calls, and instant messages data.
 
 * **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
 
@@ -72,7 +73,7 @@ As either an admin or an analyst, you can use this page to understand the data q
 
 This page includes the following.
 
-* **Page settings**: Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month) and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
+* **Page settings** (Settings and filters): Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month) and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Attributes**: These are all the attributes provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with them will give you insight into the types of queries to use for analysis.
 * **Employees with attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
 * **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
@@ -89,7 +90,7 @@ This page includes the following.
 
 This page includes the following.
 
-* **Page settings**: Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month), the date range, and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
+* **Page settings** (Settings and filters): Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month), the date range, and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Coverage for**: This chart shows the coverage for the selected attribute at different moments in time. This historical data gives you insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. Select a bar in the chart to see the details for that date in the table.
 * **Values**: Lists all values that exist for the selected attribute that were included in the uploaded organizational data for the selected date. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these gives you insight into what types of queries will be useful for analysis.
 * **Employees with this value**: This shows the number of people that have that attribute value in the data. For example, the following graphic shows the number of contacts that have a non-blank value for the selected attribute.
