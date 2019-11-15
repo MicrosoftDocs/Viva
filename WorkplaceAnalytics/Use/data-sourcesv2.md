@@ -2,7 +2,6 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics data sources
 description: An overview of Sources in Workplace Analytics 
 author: madehmer
@@ -84,9 +83,9 @@ This page includes the following.
 
 ### Attribute details
 
- To view a list of the top 500 values for an attribute and other details about it, select the attribute's name in the list. For example, the following graphic shows the top values and details for **Location**.
+ To view a list of the top 500 values for an attribute and other details about it, select the attribute's name in the list. For example, the following graphic shows the top values and details for **Region**.
 
-![View Organizational data attributes for location](../images/wpa/Use/org-data-attributes.png)
+![View Organizational data attributes for Region](../images/wpa/Use/org-data-attributes.png)
 
 This page includes the following.
 
