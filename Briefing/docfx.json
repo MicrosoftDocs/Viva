@@ -24,7 +24,10 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.pdf"
         ],
         "exclude": [
           "**/obj/**",
@@ -41,8 +44,11 @@
     "globalMetadata": {
       "breadcrumb_path": "/Briefing/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
-      "titleSuffix": "Workplace Intelligence"
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
+      "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-Briefing/issues/",
+      "titleSuffix": "Workplace Intelligence",
+      "searchScope": ["Briefing"]
     },
     "fileMetadata": {},
     "template": [],
