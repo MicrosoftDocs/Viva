@@ -141,8 +141,8 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 As an admin, you can configure template settings in **Admin** > **Configuration**, including:
 
-    * The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
-    * If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
+* The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
+* If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
 
 ## Audit logs
 
