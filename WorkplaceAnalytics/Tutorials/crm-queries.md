@@ -108,7 +108,7 @@ To do this, you can create a query as shown in the following graphic to analyze 
 
 [CRM data upload](../setup/crm-data-upload.md)
 
-[CRM data sources](../Use/Data-sources.md)
+[CRM data sources](../Use/Data-sourcesv2.md)
 
 [Metric descriptions](../Use/Metric-definitions.md)
 
