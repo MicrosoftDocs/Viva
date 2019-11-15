@@ -108,7 +108,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 By using blob storage as the data source, you can get more complete analysis based on all meeting and email activity related to the selected process categories.
 
-As the admin, you can set what level of email activity you want to surface and classify for analysis. Go to **Admin** > **Configuration** > **Process Explorer** and select whether you want the model to either use or not use email subjects to help the model classify the dataset for analysis:
+Ask your admin what is set for surfacing and classifying email activity for analysis. The admin can go to **Admin** > **Configuration** > **Process Explorer** and confirm which is selected:
 
  ![Categorize email admin setting](./images/pexp-admin-setting.png)
 
