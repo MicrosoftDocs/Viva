@@ -40,7 +40,7 @@ The Meeting habits section highlights what your habits or practices are in meeti
    |![blank space icon](../../Images/mya/use/blank-icon.png)  | If a meeting has a blank space in a column, the specified meeting metric was not applicable for that meeting. For example, the meeting was canceled, so starting on time was not applicable. |
    |![sort up icon](../../Images/mya/use/sort-up-icon.png)![sort down icon](../../Images/mya/use/sort-icon.png)  | Select a column name in the Meetings list to sort the list by that column in ascending or descending order. The sort icon will show up next to the column name that the list is sorted by. |
 
-For a list of meetings that are excluded from the Meetings list and metrics, see [Meetings](#meetings).
+For a list of meetings that are excluded from the Meetings list and metrics, see [Meeting exclusions](#meeting-exclusions).
 
 The **Communication habits** section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
 
