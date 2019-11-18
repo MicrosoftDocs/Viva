@@ -107,7 +107,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
    * Select the **Download Metrics** icon to download an .xlsx file with the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Boundary Spanning will have multiple values based on the attributes selected for the graph.
 
-![Organizational Network Analysis pages](./images/ona-analysis-pages.png)
+   ![Organizational Network Analysis pages](./images/ona-analysis-pages.png)
 
 ## Node Measures
 

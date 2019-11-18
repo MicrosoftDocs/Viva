@@ -75,10 +75,10 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 11. In **Deployment Review**, select **Next** to deploy and configure the resources for the Azure components. This two-phase deployment can take up to 60 minutes to complete.
 12. After the deployment is complete, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
 
-   >[!Important]
-   >You must save this deployment link because you and the other users you add need it to configure and use the templates.
+    >[!Important]
+    >You must save this deployment link because you and the other users you add need the link to configure and use the templates.
 
-   ![Azure Templates deployment](./images/deployed-website-link.png)
+    ![Azure Templates deployment](./images/deployed-website-link.png)
 
 ## Configuration: Add users and assign roles
 
