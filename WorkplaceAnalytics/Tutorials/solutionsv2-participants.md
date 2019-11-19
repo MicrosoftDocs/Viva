@@ -35,7 +35,7 @@ The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly a
 
 All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digest.md). In addition to its standard content, their email digest for partipants also includes a section that summarizes their progress in the plan, similar to the following: 
 
-![Weekly email digest](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
+![Weekly email digest](../images/wpa/tutorials/weekly-digest-prog-partic-75.png) 
 
 ## MyAnalytics inline suggestions
 
