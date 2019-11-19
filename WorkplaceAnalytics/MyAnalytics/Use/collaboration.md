@@ -66,7 +66,7 @@ Meeting metrics include any meetings that you organized or accepted to attend th
 
 #### Meeting habit metrics
 
-The following meeting habit metrics are included on the Collaboration page:
+The following meeting habit metrics are included on the Collaboration page. You can select the question mark icon next to Meeting habits to see similar details about them.
 
 * **High attendance** includes meetings you organized or accepted that had greater than a 50 percent response rate.
 * **Invitations sent with a days' notice** includes meetings where you sent invitations with more than 24 hours notice before the meeting's scheduled start time.
