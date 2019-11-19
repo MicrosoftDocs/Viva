@@ -66,6 +66,9 @@ As a data processor, Microsoft will:
 
 A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
+> [!Note] 
+> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user" or an "employee." 
+
 ## Types of data for analysis in Workplace Analytics
 
 Before starting an analysis in Workplace Analytics, you should think about the types of data that you will include. Specifically, consider whether the inclusion of personal data is necessary to fulfill the purpose of your analysis, or whether other types of data that cannot be used to identify specific individuals could produce results that are just as effective and insightful as you would get if you had used personal data.
