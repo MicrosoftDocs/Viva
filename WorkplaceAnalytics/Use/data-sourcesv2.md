@@ -53,6 +53,19 @@ Hover your cursor over the chart data to get more details and use the chart lege
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 -->
+
+### Origin of data counts
+
+The **Data sources > Office 365 data** page shows the current count of three categories of data. Most of this data originates with people in your organization, people who might or might not have Workplace Analytics licenses. But some data originates outside of your organization, and still other data comes from mailboxes of other types. 
+
+Determining the origins of data also determines how to categorize it, as shown in the following flowchart: 
+
+  ![Office 365 data sources page](../images/wpa/use/data-sources-final-2-80.png)
+
+The following screenshot shows where each of these numbers appears on the **Office 365 data** page:    
+
+  ![Office 365 data sources page](../images/wpa/use/data-sources-relate-8.png) 
+
 ### Possible causes of inconsistent data
 
 The following are examples of where you might encounter instances of inconsistency in the volume of email, meetings, calls, and instant messages data.
