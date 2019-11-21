@@ -66,11 +66,6 @@ The following screenshot shows where each of these numbers appears on the **Offi
 
   ![Office 365 data sources page](../images/wpa/use/data-sources-relate.png) 
 
-<!-- CONSIDER ADDING THIS NOTE: -->  
-
-> [!Note] 
-> Another important kind of data is organizational (HR) data. (See the [Organizational data](#organizational-data) section.) Workplace Analytics combines this data with Office 365 data to provide actionable insights into a company's collaboration trends. The quality of these insights improves if more organizational data is available. For this reason, we recommend that you include organizational data for all employees&mdash;including _measured employees_ and _internal collaborators_. For more information, see [Use organizational data for more effective analysis](../setup/prepare-organizational-data.md#use-organizational-data-for-more-effective-analysis). 
-
 ### Possible causes of inconsistent data
 
 The following are examples of where you might encounter instances of inconsistency in the volume of email, meetings, calls, and instant messages data.
