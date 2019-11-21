@@ -60,11 +60,14 @@ The **Data sources > Office 365 data** page shows the current count of three cat
 
 Determining the origins of data also determines how to categorize it, as shown in the following flowchart: 
 
-  ![Office 365 data sources page](../images/wpa/use/data-sources-final-2-80.png)
+  ![Office 365 data sources page](../images/wpa/use/data-sources-final.png)
 
 The following screenshot shows where each of these numbers appears on the **Office 365 data** page:    
 
-  ![Office 365 data sources page](../images/wpa/use/data-sources-relate-8.png) 
+  ![Office 365 data sources page](../images/wpa/use/data-sources-relate.png) 
+
+> [!Note] 
+> Another important kind of data is organizational (HR) data. (See the [Organizational data](#organizational-data) section.) Workplace Analytics combines this data with Office 365 data to provide actionable insights into a company's collaboration trends. Because the quality of insights improves if more organizational data is available, we recommend that you include organizational data for all employees. For more information, see [Use organizational data for more effective analysis](../setup/prepare-organizational-data.md#use-organizational-data-for-more-effective-analysis). 
 
 ### Possible causes of inconsistent data
 
@@ -89,7 +92,7 @@ This page includes the following.
 * **Page settings** (Settings and filters): Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month) and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Attributes**: These are all the attributes provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with them will give you insight into the types of queries to use for analysis.
 * **Employees with attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
-* **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
+* **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
 * **Unique values**: The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
 >[!Note]
