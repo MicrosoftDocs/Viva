@@ -226,7 +226,7 @@ You can manage the experience in two ways:
 
 #### Q2. Where and for how long is user data stored?
 
-User metrics data is stored in users' mailboxes. Depending on the scenario, most data is stored for 180 days and some is stored for up to two years.
+User metrics data is stored in users' mailboxes. Depending on the scenario, daily data is stored for up to 35 days and weekly data is stored for up to nine weeks. However, data about the number of collaborators is stored for up to 370 days.
 
 #### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
 
