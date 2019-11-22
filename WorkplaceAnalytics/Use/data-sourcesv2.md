@@ -60,11 +60,11 @@ The **Data sources > Office 365 data** page shows the current count of three cat
 
 Determining the origins of data also determines how to categorize it, as shown in the following flowchart: 
 
-  ![Office 365 data sources page](../images/wpa/use/data-sources-final.png)
+  ![Office 365 data sources page](../images/wpa/use/data-sources-final-75.png)
 
 The following screenshot shows where each of these numbers appears on the **Office 365 data** page:    
 
-  ![Office 365 data sources page](../images/wpa/use/data-sources-relate.png) 
+  ![Office 365 data sources page](../images/wpa/use/data-sources-relate-75.png) 
 
 ### Possible causes of inconsistent data
 
