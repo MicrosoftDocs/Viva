@@ -69,7 +69,7 @@ Determining the origins of data also determines how to categorize it, as shown i
 
 <!-- new image directive with resize attribute: -->
 
-  <img src="../images/wpa/use/data-sources-final-75.png" alt="Origin of data counts" width="550">
+  <img src="../images/wpa/use/data-sources-final-75.png" alt="Origin of data counts" width="600">
 
 The following screenshot shows where each of these numbers appears on the **Office 365 data** page: 
 
@@ -81,7 +81,7 @@ The following screenshot shows where each of these numbers appears on the **Offi
 
 <!-- new image directive with resize attribute: -->
 
-  <img src="../images/wpa/use/data-sources-relate-75.png" alt="Office 365 data sources page" width="550">
+  <img src="../images/wpa/use/data-sources-relate-75.png" alt="Office 365 data sources page" width="600">
 
 ### Possible causes of inconsistent data
 
