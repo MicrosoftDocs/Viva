@@ -109,13 +109,14 @@ By using blob storage as the data source, you can get more complete analysis bas
 
 1. If you haven't done so already, follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
 2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
-3. After meetings are auto-categorized, go to **Email** > **Query Builder** enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
+3. After meetings are auto-categorized, you can do one of the following:
+   * Categorize email activity with the Query Builder.  **Email** > **Query Builder** enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
-   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
-   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
-   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
+     * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
+     * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
+     * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
+     * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
+     * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
 
      ![Categorize email](./images/pexp-email-query.png)
 
@@ -126,9 +127,9 @@ By using blob storage as the data source, you can get more complete analysis bas
    * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and email list to include.
    * **Max Results to Show** to set how many results to show in the list.
 
-5. After email is auto-categorized, go to **Email** > **Query Builder** > **Filter Dataset** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
-6. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this might take some time based on the size of the dataset.
-7. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and these steps to categorize email.
+6. After email is auto-categorized, go to **Email** > **Query Builder** > **Filter Dataset** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
+7. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this might take some time based on the size of the dataset.
+8. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and these steps to categorize email.
 
 You can see data about the categorized email and meetings on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current category table information.
 
