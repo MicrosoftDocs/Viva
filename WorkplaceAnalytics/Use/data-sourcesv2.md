@@ -53,6 +53,19 @@ Hover your cursor over the chart data to get more details and use the chart lege
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
 -->
+
+### Origin of data counts
+
+The **Data sources > Office 365 data** page shows the current count of three categories of data. Most of this data originates with people in your organization, people who might or might not have Workplace Analytics licenses. But some data originates outside of your organization, and still other data comes from mailboxes of other types. 
+
+Determining the origins of data also determines how to categorize it, as shown in the following flowchart: 
+
+  ![Office 365 data sources page](../images/wpa/use/data-sources-final.png)
+
+The following screenshot shows where each of these numbers appears on the **Office 365 data** page:    
+
+  ![Office 365 data sources page](../images/wpa/use/data-sources-relate.png) 
+
 ### Possible causes of inconsistent data
 
 The following are examples of where you might encounter instances of inconsistency in the volume of email, meetings, calls, and instant messages data.
@@ -76,7 +89,7 @@ This page includes the following.
 * **Page settings** (Settings and filters): Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month) and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Attributes**: These are all the attributes provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with them will give you insight into the types of queries to use for analysis.
 * **Employees with attribute**: The number of measured employees and internal collaborators with a non-blank value for the attribute.
-* **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.
+* **Coverage**: The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
 * **Unique values**: The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
 
 >[!Note]
