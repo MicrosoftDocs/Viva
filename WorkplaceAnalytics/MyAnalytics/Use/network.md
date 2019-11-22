@@ -46,10 +46,15 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 ## About the metrics
 
 * **Top collaborators** are based on your meetings, email, chats, and calls. If you hold a meeting with or exchange email, chats, or calls with coworkers, they are considered collaborators.
+
 * An **active collaborator** is a coworker you collaborated with in the past four weeks, whereas **total collaborators** uses activity over the past year.
+
 * An **important collaborator** is a coworker who you selected as important in MyAnalytics.
+
 * **Total time** is an estimation of the number of hours you spent in meetings, email, chats, and calls with that person in the last four weeks (both during and outside of your working hours).
+
 * **Read percentage** is the percentage of email from a collaborator that you read in the last four weeks.
+
 * **Response time** is the average time a collaborator spent responding to your email in the last four weeks.
 
 ## Network tips
