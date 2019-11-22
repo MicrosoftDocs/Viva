@@ -5,7 +5,7 @@
 title: Privacy guide for MyAnalytics admins
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
-ms.author: v-pascha
+ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -164,9 +164,9 @@ The week after the welcome email is delivered, users begin to receive the [weekl
 
 ## GDPR Compliance
 
-As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics: 
+As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics:
 
-1. **Secure and protect personal data of users**. 
+1. **Secure and protect personal data of users**.
     All MyAnalytics data is stored in the employees’ Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
     * Microsoft will not mine customer data in Exchange Online for advertising.
     * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
@@ -177,7 +177,7 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
 
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
     Microsoft supports your need to honor user requests in the following ways:
-    * Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR). Separately, people can also take screenshots of their MyAnalytics dashboards.
+    * Data export requests: Users can go to the MyAnalytics dashboard while signed in to their Office 365 account to view the insights that are generated about how they spend their time at work. They can take screenshots of MyAnalytics insights if they want to have permanent copies of their information.
     * Request to restrict processing:
       * Use PowerShell to opt employees out of MyAnalytics 
       * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com) and then remove the employee's data through the User Management Portal.
