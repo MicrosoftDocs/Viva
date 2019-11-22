@@ -53,7 +53,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 * **Total time** is an estimation of the number of hours you spent in meetings, email, chats, and calls with that person in the last four weeks (both during and outside of your working hours).
 
-* **Read percentage** is the percentage of email from a collaborator that you read in the last four weeks.
+* **Read percent** is the percentage of email from a collaborator that you read in the last four weeks.
 
 * **Response time** is the average time a collaborator spent responding to your email in the last four weeks.
 
