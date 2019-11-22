@@ -34,7 +34,7 @@ The Meeting habits section highlights what your habits or practices are in meeti
 
 * The **Meetings** view shows more details about all the meetings on your calendar over the past four weeks.
 
-    ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings.png)
+    ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings2.png)
 
    |Icon |Description |
    |---|---|
