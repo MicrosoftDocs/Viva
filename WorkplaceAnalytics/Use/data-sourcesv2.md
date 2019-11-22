@@ -59,29 +59,34 @@ Hover your cursor over the chart data to get more details and use the chart lege
 The **Data sources > Office 365 data** page shows the current count of three categories of data. Most of this data originates with people in your organization, people who might or might not have Workplace Analytics licenses. But some data originates outside of your organization, and still other data comes from mailboxes of other types. 
 
 
-Determining the origins of data also determines how to categorize it, as shown in the following flowchart: 
+Determining the origins of data also determines how to categorize it, as shown in the following flow chart: 
 
-<!-- original image directive: 
+<!-- original image directive: -->
 
   ![Origin of data counts](../images/wpa/use/data-sources-final-75.png)
 
--->
 
-<!-- new image directive with resize attribute: -->
+<!-- new image directive with resize attribute: 
 
   <img src="../images/wpa/use/data-sources-final-75.png" alt="Origin of data counts" width="600">
 
+  PERHAPS TRY THIS LATER AS A PERCENTAGE. I STILL THINK IT'S TOO BIG.
+
+-->  
+
 The following screenshot shows where each of these numbers appears on the **Office 365 data** page: 
 
-<!-- original image directive: 
+<!-- original image directive: -->
 
   ![Office 365 data sources page](../images/wpa/use/data-sources-relate-75.png)
 
--->
-
-<!-- new image directive with resize attribute: -->
+<!-- new image directive with resize attribute: 
 
   <img src="../images/wpa/use/data-sources-relate-75.png" alt="Office 365 data sources page" width="600">
+
+  PERHAPS TRY THIS LATER AS A PERCENTAGE. I STILL THINK IT'S TOO BIG. (MAKE IT MATCH THE WIDTH OF THE PRECEDING IMAGE.)  
+
+-->  
 
 ### Possible causes of inconsistent data
 
