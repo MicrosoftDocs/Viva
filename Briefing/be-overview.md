@@ -16,14 +16,14 @@ The Briefing email helps you stay in control of your calendar and be intentional
 
 * Tasks and documents related to today’s meetings
 * Outstanding commitments and requests to and from other collaborators in email that might have fallen through the cracks
-* Emails you might need to follow up on
+* Emails you might want to follow up on
 * Suggested focus time you can schedule to help get independent work done
 
 ## Why am I getting this?
 
 You are receiving the Briefing email because your admin has enabled this email for your organization. If you are not receiving the Briefing email, it may be because you previously unsubscribed, or because your administrator has disabled it for your organization.
 
-Please contact your administrator if you would like to turn on the Briefing email. This email is not controlled with the Cortana app and is unrelated to any Cortana on Windows settings. To opt out, go to [briefing.microsoft.com](https://briefing.microsoft.com).
+Please contact your admin if you'd like to receive the Briefing email. This email is not controlled with the Cortana app and is unrelated to any Cortana on Windows settings. To opt out, go to [briefing.microsoft.com](https://briefing.microsoft.com).
 
 ## Adaptive or HTML version
 

@@ -171,4 +171,4 @@ Confirm the CRM column names and field values in the files follow the same rules
 
 [First organizational upload](upload-organizational-data-1st.md)
 
-[Data sources](../Use/Data-sources.md)
+[Data sources](../Use/data-sourcesv2.md)

@@ -182,7 +182,7 @@ A2. The collaborator totals include the number of external (or other internal) p
 
 ##### Q3. Why doesn’t the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period I set)?
 
-A3. Business policies can impact historical data processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to archiving. On the Sources page, you can select a time period where the email volume is stable. For details, see [Office 365 data summary in Data sources](../use/data-sources.md).
+A3. Business policies can impact historical data processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to archiving. On the Sources page, you can select a time period where the email volume is stable. For details, see [Office 365 data summary in Data sources](../use/data-sourcesv2.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
