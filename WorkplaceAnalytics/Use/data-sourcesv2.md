@@ -58,13 +58,14 @@ Hover your cursor over the chart data to get more details and use the chart lege
 
 The **Data sources > Office 365 data** page shows the current count of three categories of data. Most of this data originates with people in your organization, people who might or might not have Workplace Analytics licenses. But some data originates outside of your organization, and still other data comes from mailboxes of other types. 
 
-Determining the origins of data also determines how to categorize it, as shown in the following flowchart: 
 
-  ![Office 365 data sources page](../images/wpa/use/data-sources-final-75.png)
+Determining the origins of data also determines how to categorize it, as shown in the following flow chart: 
 
-The following screenshot shows where each of these numbers appears on the **Office 365 data** page:    
+  ![Origin of data counts](../images/wpa/use/data-sources-final.png)
 
-  ![Office 365 data sources page](../images/wpa/use/data-sources-relate-75.png) 
+The following screenshot shows where each of these numbers appears on the **Office 365 data** page: 
+
+  ![Office 365 data sources page](../images/wpa/use/data-sources-relate.png)
 
 ### Possible causes of inconsistent data
 
