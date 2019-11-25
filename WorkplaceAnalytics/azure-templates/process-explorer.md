@@ -95,7 +95,7 @@ After you categorize a good sample of meetings into the specified categories, yo
    * After you categorize a good sample of related meetings for all the categories you want to evaluate:
 
      * For .csv datasets, select **Auto-Categorize Full Dataset** to categorize all of the meetings uploaded in the .csv file.
-     * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 of To categorize email for analysis](#to-categorize-email-for-analysis) for next steps to categorize email.
+     * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 in To categorize email activity for analysis](#to-categorize-email-activity-for-analysis) for next steps to categorize email.
 
      ![Auto-categorize meetings](./images/pexp-auto.png)
 
@@ -110,7 +110,7 @@ By using blob storage as the data source, you can get more complete analysis bas
 
 Complete the following steps to manually categorize both meeting and email activity for a blob storage dataset.
 
-### To manually categorize email activity for analysis
+### To categorize email activity for analysis
 
 1. If you haven't done so already, follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
 2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
