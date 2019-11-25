@@ -101,16 +101,25 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 7. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add new or change existing categories.
 
-## Email activity analysis
+## Meeting and email activity analysis
 
-By using blob storage as the data source, you can get more complete analysis based on all meeting and email activity related to the selected process categories. Complete the following steps to categorize meeting and email activity for a blob storage dataset.
+By using blob storage as the data source, you can get more complete analysis based on all meeting and email activity related to the selected process categories. You have two choices for automatically categorizing a blob storage dataset for analysis:
 
-### To categorize email for analysis
+* Include and manually categorize a sampling of only meeting activity to help train the template model.
+* Or you can manually categorize both meeting and email activity to help train the template model for automatically categorizing the full dataset.
+
+Complete the following steps to manually categorize both meeting and email activity for a blob storage dataset.
+
+### To manually categorize email activity for analysis
 
 1. If you haven't done so already, follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
 2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
 3. After meetings are auto-categorized, you can do one of the following:
-   * Categorize email activity with the Query Builder.  **Email** > **Query Builder** enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
+
+   * Continue to the next step to manually categorize a sample of email activity with the Query Builder.
+   * Select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample meeting categorizations; this might take some time based on the size of the dataset.
+
+4. To manually categorize email activity, open **Email** > **Query Builder** and then enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
      * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
      * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
@@ -118,9 +127,9 @@ By using blob storage as the data source, you can get more complete analysis bas
      * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
      * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
 
-     ![Categorize email](./images/pexp-email-query.png)
+       ![Categorize email](./images/pexp-email-query.png)
 
-4. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
+5. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
 
    * **Filter by Sources** to select the analyst and/or the model to filter the email by, which are those meetings that were categorized manually by the analyst or those categorized automatically by the model.
    * **Filter by Categories** to select one or more categories to filter the email by, such as budget, as shown in the following graphic.
