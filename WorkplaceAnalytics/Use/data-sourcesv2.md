@@ -19,11 +19,11 @@ audience: Admin
 >[!Note]
 >You must be assigned either the administrator or the analyst role to access the **Data sources** page. For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-**Data sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. Sources includes the following:
+**Data sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. And when you upload and process CRM data in Workplace Analytics, you'll also see a page for your CRM data.
 
   - [Office 365 data](#office-365-data)
   - [Organizational data](#organizational-data)
-  - [CRM data](#crm-data)
+  - [CRM data](#crm-data) (only when you upload and process CRM data in Workplace Analytics)
 
 ![Sources](../images/WpA/Use/sources-o365.png)
 
@@ -120,7 +120,7 @@ For more information about what data is needed for metric calculations, see:
 
 ## CRM data
 
-This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
+This page gives you a high-level view of the latest available CRM data that you uploaded and was successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
 By combining this data in Workplace Analytics, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team.
 
@@ -128,12 +128,35 @@ The **Join coverage** section describes the percent overlap between the uploaded
 
 ![CRM data sources page](../images/wpa/Use/crm-sources.png)
 
+### External collaborators
+
+You can also see the total number of external collaborators and related join coverage data, as shown in the following graphic.
+
+![CRM external collaborators](../images/wpa/Use/crm-external-collab.png)
+
+* **External collaborators** are people who have:
+
+  * Work (non-personal) email addresses with domains outside (not members) of your organization.
+  * Interacted with your organization's employees through email, meetings, calls, and instant messages.
+
+* The **How external collaborators are matched with accounts** chart shows the external collaborators divided into the following groups based on their CRM account associations.
+
+  1. Those who are matched through the CRM upload and default with CRM contacts.
+  2. Those who are matched with accounts through the extrapolation option.
+  3. Those who are not associated (unmatched) with any CRM account through upload or extrapolation.
+
+* **Accounts and external collaborators** shows the percentage of the sum of the first two groups in visualization 2. Namely, external collaborators found by default (CRM upload) as well as external collaborators found through extrapolation. The bar under this metric reflects the percentage in terms of the total number of external collaborators.
+
+### Join coverage notices
+
 For join coverage based on the latest data uploads, you might see one of the following important notices, as shown in the following graphic.
 
 * **Data is not associated**: This occurs when one or more attributes cannot be associated between the two sets of data for join coverage. You can select to download a .csv file and view the contacts or sellers that can't be associated with the corresponding accounts in the accounts table.
 * **Data has not been processed**: This occurs when an upload hasn't been done yet, the data is currently being processed, or something failed during the validation or data processing phase. You can select the link to the Upload page and view the status of the upload, correct any issues, or upload new data. You can also ignore this warning if you don't plan to upload that specific data file.
 
 ![CRM join notices](../images/wpa/Use/crm-join-notices.png)
+
+### Join coverage details
 
 You can select one of the data titles, such as accounts or contacts, to view a list of attributes for it. For example, the following shows a list of attributes for contacts.
 
