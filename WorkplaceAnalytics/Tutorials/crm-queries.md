@@ -52,11 +52,16 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
    ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
 
-* In the **Their collaborators** section, you can add customer attributes to exclude groups or group collaborators by specific attributes, such as Accounts or AccountName.
+* In the **Their collaborators** section, you can:
+
+  * **Do you want to exclude any collaborators?** - Use this to add customer attributes to exclude groups or group collaborators by specific attributes, such as Accounts or AccountName.
 
   For example, the following graphic shows a customer filter of **AccountAnnualRevenue** > Less than > **1000**, which will exclude customers with less than that amount of annual revenue from the query results.
 
    ![CRM collaborators](../Images/WpA/use/crm-collaborators.png)
+
+  * How do you want to group the people who collaborate with the time investor? - Use this to add 
+
 
 ## Sample query output with CRM data
 
