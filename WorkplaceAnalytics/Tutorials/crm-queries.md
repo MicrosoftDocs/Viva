@@ -52,7 +52,7 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
    ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
 
-* In the **Their collaborators** section, you can:
+* At this point, the collaborators are not grouped yet. In the **Their collaborators** section, answer the following questions to select which collaborators interacted with the selected time investors.
 
   * **Do you want to exclude any collaborators?** - Use this to add customer attributes to exclude groups or group collaborators by specific attributes, such as Accounts or AccountName.
 
@@ -60,8 +60,12 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
    ![CRM collaborators](../Images/WpA/use/crm-collaborators.png)
 
-  * How do you want to group the people who collaborate with the time investor? - Use this to add 
+  * **How do you want to group the people who collaborate with the time investor?** - Use this to add 
+  * **Do you want to focus the analysis on a particular set of collaborators and group all others as "Unclassified"?** - 
+  * When you select a CRM group-by attribute or filter, for Person queries, you're asked: **How would you like to join collaborators with accounts?** Or for Person-to-group or Group-to-group queries, you're asked: **How would you like to join *external* collaborators with accounts?** The following options are the same for either question:
 
+    * **Default match with CRM data** - This option only uses the imported data from the CRM upload to match up email addresses for Office 365 external collaborators with email addresses for CRM contacts.
+    * **Default + Extrapolation match with CRM data** - This is the preferred, default option, because it enables more coverage for external collaborators and for capturing more customer interactions. It does the same email comparison as the other option. However, for any *unmatched external collaborators*, it then calculates the probability of which CRM account they most likely match up with. If the probability that an external collaborator belongs to a specific CRM account is high, the external collaborator is assigned to that account.
 
 ## Sample query output with CRM data
 
@@ -115,14 +119,10 @@ To do this, you can create a query as shown in the following graphic to analyze 
 
 ## Related topics
 
-[Person-to-group queries](../Tutorials/person-to-group-queries.md)
-
-[Group-to-group queries](../Tutorials/group-to-group-queries.md)
-
-[CRM data upload](../setup/crm-data-upload.md)
-
-[CRM data sources](../Use/Data-sourcesv2.md)
-
-[Metric descriptions](../Use/Metric-definitions.md)
-
-[View, download, and export query results](../Use/View-download-and-export-query-results.md)
+* [Person-to-group queries](../Tutorials/person-to-group-queries.md)
+* [Group-to-group queries](../Tutorials/group-to-group-queries.md)
+* [Person queries](../Tutorials/person-queries.md)
+* [CRM data upload](../setup/crm-data-upload.md)
+* [CRM data sources](../Use/Data-sourcesv2.md)
+* [Metric descriptions](../Use/Metric-definitions.md)
+* [View, download, and export query results](../Use/View-download-and-export-query-results.md)
