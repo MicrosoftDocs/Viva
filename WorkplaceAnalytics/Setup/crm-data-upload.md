@@ -75,16 +75,16 @@ The following **Required attributes** must match the exact column headings (case
 |**Accounts data**     |
 |Account ID or Number|AccountId |String |
 |Account Name |AccountName |String |
-|Effective Date |AccountsStartDate |Date |
+|Last Modified Date Time |AccountsStartDate |Date |
 |**Contacts data**           |
 |Account ID or Number |ContactsAccountId |String |
 |Contact ID or Number |ContactId |String |
 |Contact Name |ContactName |String |
 |Email |ContactEmail |Email |
-|Effective Date |ContactsStartDate|Date |
+|Last Modified Date Time |ContactsStartDate|Date |
 |**Seller assignments data**           |
 |Account Number |SellerAssignmentAccountId |String |
-|Effective Date |SellerAssignmentStartDate |Date |
+|Last Modified Date Time |SellerAssignmentStartDate |Date |
 |Account Owner |SellerEmail |Email |
 
 The following is a sample list of **Reserved attributes** that you can optionally include in the upload.
@@ -100,7 +100,6 @@ The following is a sample list of **Reserved attributes** that you can optionall
 |Annual Revenue |AccountAnnualRevenue |Double |
 |Website |AccountWebsite |String |
 |Account Created Date or Created On |AccountCreatedDate |Date |
-|Account Last Modified Date or Modified On|AccountLastModifiedDate |Date |
 |Revenue |AccountRevenue |Double |
 |**Contacts data** |
 |First Name |ContactFirstName |String |
@@ -114,6 +113,18 @@ The following is a sample list of **Reserved attributes** that you can optionall
 > [!Note]
 > * All Date values must be in the MM/DD/YYYY format.
 > * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign.
+
+The **AccountsStartDate** is required to help capture a historical snapshot of your CRM data. These  help ensure accuracy of analyses that span the time frames in which changes can occur in your CRM system. For example, in your CRM system, consider an Account with AccountName “Contoso” and AccountID “123” which is created on 01-Jan-2019 and the name is changed to “Contoso Corp” in the system on 01-April-2019. This change will show as a new record with the new AccountStartDate and AccountName. For example: 
+
+|AccountID |AccountName |AccountStartDate |AccountIndustry |
+|------|-----------|----------|----------|
+|123 |Contoso |01-Jan-2019 |Software tech|
+|123 |Contoso Corp. |01-Apr-2019 |Software tech|
+
+Let’s say an external collaborator is matched as a contact for this account. Any analysis involving that contact which is performed on a time frame prior to 01-Apr-2019 would use the first record and set of attribute values (where AccountStartDate = “01-Jan-2019”). Any analysis for a time frame that is after 01-Apr-2019, which would use the second record and set of attribute values, where AccountStartDate = “01-Apr-2019”.
+
+> [!Note]
+> If only one AccountStartDate is provided, all associated attribute values will include and use the first data record listed for Contoso. Be sure to map the attributes to the LastModifiedDateTime that is exported from CRM, including the AccountStartDate, ContactStartDate, and SellerAssignmentStartDate attributes.
 
 ### Custom attributes
 
