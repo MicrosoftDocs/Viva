@@ -29,7 +29,7 @@ After you categorize a good sample of meetings into the specified categories, yo
 
 * View meeting data based on those categories with visual charts and lists.
 * For a .csv dataset, select to **Auto-Categorize Full Dataset** based on the sample meeting categorizations already done by you, as the analyst.
-* For a blob storage dataset, categorize email activity for more complete analysis.
+* For a blob storage dataset, categorize meeting and email activity for more complete analysis.
 * Use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analysis.
 
 ## To add a new dataset
@@ -95,7 +95,7 @@ After you categorize a good sample of meetings into the specified categories, yo
    * After you categorize a good sample of related meetings for all the categories you want to evaluate:
 
      * For .csv datasets, select **Auto-Categorize Full Dataset** to categorize all of the meetings uploaded in the .csv file.
-     * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 of To categorize email for analysis](#to-categorize-email-for-analysis) for next steps to categorize email.
+     * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 in To categorize email activity for analysis](#to-categorize-email-activity-for-analysis) for next steps to categorize email.
 
      ![Auto-categorize meetings](./images/pexp-auto.png)
 
@@ -114,30 +114,40 @@ Ask your admin what is set for surfacing and classifying email activity for anal
 
 Complete the following steps to categorize meeting and email activity for a blob storage dataset.
 
-### To categorize email for analysis
+* Include and manually categorize a sampling of only meeting activity to help train the template model.
+* Or you can manually categorize both meeting and email activity to help train the template model for automatically categorizing the full dataset.
+
+Complete the following steps to manually categorize both meeting and email activity for a blob storage dataset.
+
+### To categorize email activity for analysis
 
 1. If you haven't done so already, follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
 2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
-3. After meetings are auto-categorized, go to **Email** > **Query Builder** enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
+3. After meetings are auto-categorized, you can do one of the following:
 
-   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
-   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
-   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
+   * Continue to the next step to manually categorize a sample of email activity with the Query Builder.
+   * Select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample meeting categorizations; this might take some time based on the size of the dataset.
 
-     ![Categorize email](./images/pexp-email-query.png)
+4. To manually categorize email activity, open **Email** > **Query Builder** and then enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
-4. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
+     * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
+     * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
+     * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
+     * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
+     * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
+
+       ![Categorize email](./images/pexp-email-query.png)
+
+5. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
 
    * **Filter by Sources** to select the analyst and/or the model to filter the email by, which are those meetings that were categorized manually by the analyst or those categorized automatically by the model.
    * **Filter by Categories** to select one or more categories to filter the email by, such as budget, as shown in the following graphic.
    * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and email list to include.
    * **Max Results to Show** to set how many results to show in the list.
 
-5. After email is auto-categorized, go to **Email** > **Query Builder** > **Filter Dataset** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
-6. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this might take some time based on the size of the dataset.
-7. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and these steps to categorize email.
+6. After email is auto-categorized, go to **Email** > **Query Builder** > **Filter Dataset** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
+7. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this might take some time based on the size of the dataset.
+8. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and these steps to categorize email.
 
 You can see data about the categorized email and meetings on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current category table information.
 
