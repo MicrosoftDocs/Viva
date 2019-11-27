@@ -60,12 +60,12 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
    ![CRM collaborators](../Images/WpA/use/crm-collaborators.png)
 
-  * **How do you want to group the people who collaborate with the time investor?** - Use this to add 
-  * **Do you want to focus the analysis on a particular set of collaborators and group all others as "Unclassified"?** - 
+  * **How do you want to group the people who collaborate with the time investor?** - Use this to group the collaborators to analyze which groups interacted with the time investors.
+  * **Do you want to focus the analysis on a particular set of collaborators and group all others as "Unclassified"?** - Use this to combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
   * When you select a CRM group-by attribute or filter, for Person queries, you're asked: **How would you like to join collaborators with accounts?** Or for Person-to-group or Group-to-group queries, you're asked: **How would you like to join *external* collaborators with accounts?** The following options are the same for either question:
 
     * **Default match with CRM data** - This option only uses the imported data from the CRM upload to match up email addresses for Office 365 external collaborators with email addresses for CRM contacts.
-    * **Default + Extrapolation match with CRM data** - This is the preferred, default option, because it enables more coverage for external collaborators and for capturing more customer interactions. It does the same email comparison as the other option. However, for any *unmatched external collaborators*, it then calculates the probability of which CRM account they most likely match up with. If the probability that an external collaborator belongs to a specific CRM account is high, the external collaborator is assigned to that account.
+    * **Default + Extrapolation match with CRM data** - This is the preferred, default option, because it enables more coverage for external collaborators and for capturing more customer interactions. It does the same email comparison as the other option. However, for any *unmatched external collaborators*, it then calculates the probability of which CRM account they most likely match up with. If the probability that an external collaborator belongs to a specific CRM account is high, that external collaborator is assigned to that account.
 
 ## Sample query output with CRM data
 
@@ -75,13 +75,13 @@ The following graphic shows example CRM data that you might see in the output .c
 
 This output includes the following, which enables you to perform even further grouping for more advanced data analysis.
 
-* **Week**: The number of the week that the person that meets the time investor filter criteria collaborated with the customer.
-* **PID**: De-identified PersonIDs for each measured employee that meets the time investor filter criteria.
-* **Other HR attributes**: Only shows those that are allowed to show in the report for these measured employees, such as FunctionType and Role.
-* **Collaborator Account**: Shows customer account names based on the collaborators group attributes.
-* **Account attributes**: Shows each collaborator account's attributes, such as IsStrategicAccount.
-* **IsOwnedAccount**: If the measured employee is indicated as a seller for that account through the account and seller mappings in your CRM upload, it infers if the account is assigned or owned by a person that meets the time investor filter criteria.
-* **Other applicable metrics**: Are based on the attributes selected when creating the query, such as collaboration hours and network size.
+* **Week** - The number of the week that the person that meets the time investor filter criteria collaborated with the customer.
+* **PID** - De-identified PersonIDs for each measured employee that meets the time investor filter criteria.
+* **Other HR attributes** - Only shows those that are allowed to show in the report for these measured employees, such as FunctionType and Role.
+* **Collaborator Account** - Shows customer account names based on the collaborators group attributes.
+* **Account attributes** - Shows each collaborator account's attributes, such as IsStrategicAccount.
+* **IsOwnedAccount** - If the measured employee is indicated as a seller for that account through the account and seller mappings in your CRM upload, it infers if the account is assigned or owned by a person that meets the time investor filter criteria.
+* **Other applicable metrics** - Are based on the attributes selected when creating the query, such as collaboration hours and network size.
 
 ## Analysis scenarios
 
