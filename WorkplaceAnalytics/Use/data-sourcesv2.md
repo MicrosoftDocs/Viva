@@ -206,13 +206,13 @@ The **Account details** page includes the following.
   * **Default collaboration hours** is the number of collaboration hours that employees invested with external collaborators in the ‘matched by default’ group.
   * **Extrapolation + default collaboration hours** is the number of collaboration hours that employees invested with external collaborators in both the ‘matched by default’ and ‘matched by extrapolation’ groups.
 
-![View details for CRM account collaboration coverage](../images/wpa/Use/crm-account-collab-details.png)
+  ![View details for CRM account collaboration coverage](../images/wpa/Use/crm-account-collab-details.png)
 
 #### Download data set
 
 The **Account collaboration by domain** table can list up to a maximum of 500 CRM accounts. To view the complete data set for accounts larger than 500, you can view all the accounts in the downloaded .csv file. You have the following options when you download the accounts data set: 
 
-![CRM account collaboration details download](../images/wpa/Use/crm-download.png)
+  ![CRM account collaboration details download](../images/wpa/Use/crm-download.png)
 
 * The **Accounts** option organizes the records by the AccountName attribute. The following is an example of account output for this option:
 
@@ -222,7 +222,7 @@ The **Account collaboration by domain** table can list up to a maximum of 500 CR
   |49a80cfe |Anon 23,000 |1660,40 |102 |8,609
   |13bcc1ab |Acme.com |4,000 |22,010 |70 |5,843 |
 
-  Attributes included in this download option:
+  The attributes included in the download options:
   
   * **AccountId** is the unique account identifier.
   * **AccountName** is the account name  that's listed in the CRM upload Account table.
