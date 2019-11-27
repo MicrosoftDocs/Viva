@@ -47,7 +47,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    ![Add New Analysis](./images/ona-define-graph-settings.png)
 
-10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step. You can't
+10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step.
 11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
 ## To add new subgroup analysis
