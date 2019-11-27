@@ -6,13 +6,12 @@ title: Chats and calls in MyAnalytics
 description: Teams and Skype for Business calls and instant messages in MyAnalytics
 author: paul9955
 ms.author: v-midehm
-ms.date: 03/15/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-## Chats and calls
+# Chats and calls
 
 MyAnalytics counts audio calls, video calls, and instant messages (chats) that people make in Teams and in Skype for Business as collaboration activities. It calculates the duration of these activities this way:
 

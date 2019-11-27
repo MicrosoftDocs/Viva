@@ -2,23 +2,22 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics email digest
+title: MyAnalytics email digests
 description: MyAnalytics users receive a weekly email digest with key insights and suggestions
 author: madehmer
 ms.author: v-midehm
-ms.date: 08/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-# MyAnalytics email digest
+# MyAnalytics email digests
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
 As a MyAnalytics user, you'll receive a weekly email digest with suggestions to help you better understand your work patterns and ways to improve them.
 
-Each week will focus one of the following work patterns:
+Each week will focus on one of the following work patterns:
 
 * **Focus** - Find ways to increase your focus hours, so you can accomplish deep work and unleash your creativity.
 * **Wellbeing** - See if you’re getting good balance between work and personal time, then find ways to disconnect and unwind after hours.

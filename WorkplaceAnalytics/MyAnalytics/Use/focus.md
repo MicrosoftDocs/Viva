@@ -32,33 +32,22 @@ These metrics are calculated only for your working hours, as determined by your 
 
 For example: If your working hours are set as 9 am to 5 pm daily (8 working hours per day) and you spent 30 hours in meetings, emails, chats, and calls in a given week, your dashboard will show 75% collaboration and 25% time available to focus for that week.
 
-<!-- REMOVED TEMPORARILY 8/22/2019 PER PETERB UNTIL THE FOCUS PLAN GETS DISTRIBUTED WORLDWIDE. WE'RE NOT QUITE THERE YET. NOTE THAT THE FOCUS PLAN TOPIC IS PUBLISHED BUT HIDDEN: https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/focus-plan
-
 ## Focus plan
 
 The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md). 
--->
-
 
 ## Focus tips
 
-#### Block focus time on your calendar
+* **Block focus time on your calendar**:
 
-It can be hard to go deep on challenging work if you only have small chunks of time to focus in between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help improve your concentration and effectiveness.
+  * It can be hard to go deep on challenging work if you only have small chunks of time to focus in between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help improve your concentration and effectiveness.
+  * Prioritize any focus time you book and do your best to avoid accepting meetings that overlap with it. In the same way, be respectful of double-booking your team’s blocked time.
 
-Prioritize any focus time you book and do your best to avoid accepting meetings that overlap with it. In the same way, be respectful of double-booking your team’s blocked time.
+* **Manage notifications and interruptions**: Multitasking can slow you down; after checking even just one email or chat, it can take a significant amount of time to refocus. To improve concentration, try turning off notifications and checking your email inbox less frequently.
 
-#### Manage notifications and interruptions
+* **Group your meetings together on your calendar**: If your calendar is fragmented with meetings, try grouping meetings on your calendar so you have longer free blocks available to focus.
 
-Multitasking can slow you down; after checking even just one email or chat, it can take a significant amount of time to refocus. To improve concentration, try turning off notifications and checking your email inbox less frequently.
-
-#### Group your meetings together on your calendar
-
-If your calendar is fragmented with meetings, try grouping meetings on your calendar so you have longer free blocks available to focus.
-
-#### Evaluate and shorten your meetings
-
-Meetings are essential for many jobs, but they sometimes last longer than needed. An easy starting point for reducing your meeting load is to review your recurring meetings and make sure they're a good use of time each week. Also consider dividing up meetings with coworkers and sharing notes afterwards if you’re not all needed in the room at the same time.
+* **Evaluate and shorten your meetings**: Meetings are essential for many jobs, but they sometimes last longer than needed. An easy starting point for reducing your meeting load is to review your recurring meetings and make sure they're a good use of time each week. Also consider dividing up meetings with coworkers and sharing notes afterwards if you’re not all needed in the room at the same time.
 
 ## Related topics
 

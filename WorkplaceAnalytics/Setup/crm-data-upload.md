@@ -3,8 +3,7 @@
 # required metadata
 
 title: Prepare and upload CRM data in Workplace Analytics
-description: How to prepare and upload CRM data in Workplace Analytics 
-ms.date: 07/31/2019
+description: How to prepare and upload CRM data in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
 ms.topic: article
@@ -13,7 +12,7 @@ ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
----
+--- 
 
 # CRM data in Workplace Analytics
 
@@ -94,8 +93,8 @@ The following is a sample list of **Reserved attributes** that you can optionall
 |------|-----------|----------|
 |**Accounts data** |
 |Account Owner Email |AccountOwnerEmail |Email |
-|Parent Account |AccountName |String |
-|Parent Account ID |AccountId |String |
+|Parent Account |ParentAccountName |String |
+|Parent Account ID |ParentAccountId |String |
 |Relationship Type |AccountType |String |
 |Industry |AccountIndustry |String |
 |Annual Revenue |AccountAnnualRevenue |Double |
@@ -171,3 +170,5 @@ Confirm the CRM column names and field values in the files follow the same rules
 [Prepare organizational data](Prepare-organizational-data.md)
 
 [First organizational upload](upload-organizational-data-1st.md)
+
+[Data sources](../Use/data-sourcesv2.md)

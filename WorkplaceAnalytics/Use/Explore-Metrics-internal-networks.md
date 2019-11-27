@@ -6,7 +6,6 @@ title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal network collaboration dashboards available in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,7 +15,7 @@ ms.prod: wpa
 
 **Internal networks** in **Explore** shows network connections between different people exclusively within a company; for example, between the sales department and the human resources department.
 
-![Networks and collaboration](../images/wpa/use/internal-networks.png)
+![Networks and collaboration](../images/wpa/use/explore-internal-network.png)
 
 To open **Internal networks**:
 
@@ -30,9 +29,9 @@ To open **Internal networks**:
 
 ## Employee connections and networks across the company
 
-The **Network diversity** bubble graph shows how each organization in the company compares to the company median for network size and breadth.
+The **Network diversity** bubble chart shows how each organization in the company compares to the company median for network size and breadth.
 
-![Network diversity](../images/wpa/use/16-network-diversity.png)
+![Network diversity](../images/wpa/use/internal-network-bubble-chart.png)
 
 * The quadrants of the chart are delineated at the median for both network size and network breadth.
 * Bubbles represent organizations; the size of each bubble indicates the number of distinct measured employees in the corresponding organization.

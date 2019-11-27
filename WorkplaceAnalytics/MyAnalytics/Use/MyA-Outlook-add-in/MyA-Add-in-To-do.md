@@ -2,17 +2,17 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Task card in MyAnalytics
 description: Describes the purpose of task cards in MyAnalytics  
 author: paul9955
 ms.author: v-pascha
-ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-## Task card
+# Task card
 
 MyAnalytics can remind you to do tasks that are called out in email messages. In an automatic process, MyAnalytics finds instances in which a task is promised or requested, such as:  
 

@@ -12,7 +12,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Meetings
+# Meetings
 
 ### How we calculate meeting hours
 

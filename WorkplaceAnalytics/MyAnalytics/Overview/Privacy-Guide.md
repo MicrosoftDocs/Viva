@@ -2,7 +2,7 @@
 # Metadata Sample
 # required metadata
 
-title: Privacy guide for MyAnalytics
+title: Privacy guide for MyAnalytics admins
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-midehm
@@ -14,15 +14,15 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# MyAnalytics privacy guide
+# Privacy guide for MyAnalytics admins
 
-MyAnalytics helps you find opportunities to build better habits and get back in control of your time. By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
+By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This page answers key questions on how MyAnalytics processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
 
 ## Summary of key points
 
-<ul><li>
+<ul><li>  
 
 **MyAnalytics is not designed to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring**.
 MyAnalytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
@@ -107,7 +107,7 @@ In a few cases, MyAnalytics provides people with *de-identified* information on 
 
 MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
-However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate renders as "Low" or "High."
+However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate is displayed as a range, greater than or less than a certain threshold value that depends on the number of recipients of the email.
 
 <!-- 
 ![Email read rates](../../Images/mya/use/email-read-rates-2.png)
@@ -121,22 +121,19 @@ People can control this setting in their Outlook settings. To show these signals
 
 MyAnalytics provides flexible and configurable controls that are designed to enable organizations and their members to address varying legal and policy needs regarding privacy and use of employee data. When enabling MyAnalytics for the organization, admins can make the following choices:
 
-* **Determine which people have access to MyAnalytics**
-  Admins can determine which people can access and use MyAnalytics by issuing licenses to only those people who should have access.
+* **Determine which people have access to MyAnalytics**  Admins can determine which people can access and use MyAnalytics by issuing licenses to only those people who should have access.
 
-* **Determine default opt-in settings**
-   Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu. To learn more, see [Configure user settings](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics#step-1-configure-user-settings).
+* **Determine default opt-in settings**  Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu. To learn more, see [Configure user settings](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics#step-1-configure-user-settings).
 
-* **Determine whether employees can opt-in to receive insights on Windows 10 application usage** 
-   Admins must consent before MyAnalytics users can opt in to receive insights derived from Windows 10 activity history data.
+* **Determine whether employees can opt-in to receive insights on Windows 10 application usage**  Admins must consent before MyAnalytics users can opt in to receive insights derived from Windows 10 activity history data.
 
-* **Determine which employees in sensitive roles should be excluded from incremental data**
-  Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed.
+* **Determine which employees in sensitive roles should be excluded from incremental data**   Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed.
 
  Note that if default settings are used, the following applies:
 
-1. All employees in your organization contribute to [incremental data](../Overview/privacy-guide.md#incremental-data) whether or not they have been issued licenses with the MyAnalytics service. 
-2. MyAnalytics is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
+ * All employees in your organization contribute to [incremental data](../Overview/privacy-guide.md#incremental-data) whether or not they have been issued licenses with the MyAnalytics service. 
+
+ * MyAnalytics is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
 
 ### How employees can opt-in and opt-out
 
@@ -144,16 +141,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 ![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
-
-## MyAnalytics vs. Workplace Analytics and Microsoft Graph
-
-The following describes the differences between these Microsoft products:
-
-### MyAnalytics vs. Workplace Analytics
-
-Although MyAnalytics is an individual productivity tool, [Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/) enables organizations to view aggregated, de-identified collaboration data of employees. The applications are purchased and licensed separately. If an employee opts out of MyAnalytics, this does not impact the opt-in status for Workplace Analytics (and vice versa).
-
-### Microsoft Graph
+## Microsoft Graph
 
 MyAnalytics is a first-party application that's built on Microsoft Graph. Microsoft Graph consists of a set of REST-based API calls that allow developers to interact with the Microsoft technologies that a given organization uses. In order to use these API calls, developers must have specific permissions to access any data they request. Administrators control both the deployment of any Microsoft Graph application and permissions to access these applications.
 
@@ -178,18 +166,18 @@ The week after the welcome email is delivered, users begin to receive the [weekl
 
 As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics:
 
-1. **Secure and protect personal data of data subjects**.
+1. **Secure and protect personal data of users**.
     All MyAnalytics data is stored in the employees’ Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
     * Microsoft will not mine customer data in Exchange Online for advertising.
     * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
     * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 
-2. **Notify data subjects in the event that a breach is detected**.
+2. **Notify users in the event that a breach is detected**.
    Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Office 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 
-3. **Honor data subject requests (DSRs) to export, delete, or restrict processing personal data**.
-    Microsoft supports your need to honor data subject requests in the following ways:
-    * Data export requests: submit data export requests via the Microsoft [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR). Separately, people can also take screenshots of their MyAnalytics dashboards.
+3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
+    Microsoft supports your need to honor user requests in the following ways:
+    * Data export requests: Users can go to the MyAnalytics dashboard while signed in to their Office 365 account to view the insights that are generated about how they spend their time at work. They can take screenshots of MyAnalytics insights if they want to have permanent copies of their information.
     * Request to restrict processing:
       * Use PowerShell to opt employees out of MyAnalytics 
       * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com) and then remove the employee's data through the User Management Portal.

@@ -6,7 +6,6 @@ title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -42,7 +41,7 @@ For more information, see [Assign Workplace Analytics roles](https://docs.micros
 
  * **Owners** – Workplace Analytics Admins, Analysts, and Analyst limiteds have full access to this page.
 
-The [Sources](../Use/data-sources.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
+The [Data sources](../Use/data-sourcesv2.md) page provides dashboards that describe the Office 365 data and organizational data that has been loaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
 
 ## Upload
 
@@ -99,7 +98,7 @@ Workplace Analytics first attempts to read time zones from each user's mailbox. 
 
 #### Working days and hours
 
-Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox first. Failing that, it uses the default settings for employees' working days and hours that you set in **System Defaults**.
+Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox first. Failing that, it uses the default settings for employees' working days and hours that you set in **System Defaults**.
 
 ##### To set default working days and hours
 

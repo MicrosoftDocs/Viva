@@ -13,7 +13,7 @@ ms.prod: wpa
 
 # Queries overview
 
-You can create four types of queries in Workplace Analytics: **Person**, **Meeting**, **Group-to-group**, and **Person-to-group**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
+Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, and **Peer Comparison**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
 ![Ways to query data](../Images/WpA/Use/ways-to-query-data.png)
 
@@ -27,7 +27,7 @@ With these queries, you can:
 
 <!-- ORIGINAL: The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a rolling window. This means that—after you have 27 months of data—with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month. -->
 
-The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Office 365 data](../use/data-sources.md#office-365-data-summary) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Office 365 data](../use/data-sourcesv2.md#office-365-data) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
@@ -81,6 +81,14 @@ You can choose to analyze the number of interactions between a time investor and
 
 See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more. 
 
+## Peer Comparison query
+
+The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics,and their peer group's averages for those metrics.
+
+You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group that is defined by organizational attributes you have uploaded.
+
+See [Peer Comparison queries](../Tutorials/comparison-query.md) to learn more.
+
 ## Meeting exclusions
 
 You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
@@ -93,17 +101,17 @@ An analyst might start by looking at a person query to see trends of employees a
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally,  to address the problem, the analyst could work with a program manager to set up a change program. See [Teamwork solution](../Tutorials/solutionsv2-intro.md) to learn more.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally,  to address the problem, the analyst could work with a program manager to set up an improvement plan. See [Plans: walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
 
 There are three ways to create queries:
 
-* Use and edit a [predefined query template](#predefined-query-templates)
+* Edit and use a [predefined query template](#predefined-query-templates)
 * Create your own custom query
 * Open and edit a previously run query
 
-When you create or edit a query, you can select the metrics that you want to include (many can be customized), and you can use filters to narrow the results and focus in on specific data.
+When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
 
-![Customize attributes and metrics](../Images/WpA/Use/Customize-attributes-and-metrics-Create-queries.png)
+![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
 ## Predefined query templates
 

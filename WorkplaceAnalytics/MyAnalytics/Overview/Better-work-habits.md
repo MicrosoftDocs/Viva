@@ -31,9 +31,9 @@ MyAnalytics is an extension of your Office 365 client experience that helps you 
 
 By using MyAnalytics, you and your team can accomplish great things.
 
- * **Improve your relationships**: Increase your collaboration time, improve your team meetings, and grow your [network](../use/network.md).
- * **Get more focus time**: Find more time to eliminate distractions, stop multi-tasking, and [focus](../use/focus.md) on your core priorities.
- * **Improve your work-life balance**: Improve your quiet days and reduce the time you spend working for better work-life balance and overall [wellbeing](../use/wellbeing.md).
+* **Improve your relationships**: Increase your collaboration time, improve your team meetings, and grow your [network](../use/network.md).
+* **Get more focus time**: Find more time to eliminate distractions, stop multi-tasking, and [focus](../use/focus.md) on your core priorities.
+* **Improve your work-life balance**: Improve your quiet days and reduce the time you spend working for better work-life balance and overall [wellbeing](../use/wellbeing.md).
 
 The following video shows common ways in which you can benefit from MyAnalytics:
 
@@ -50,7 +50,7 @@ MyAnalytics is completely personal and private. Only you (not your manager and n
 <!--
 # How to obtain MyAnalytics
 
-MyAnalytics is included with Office 365 Enterprise E5 and is also available as an add-on with select plans. [Learn more](https://products.office.com/en-us/business/myanalytics-personal-analytics?ms.officeurl=MyAnalytics).
+MyAnalytics is included with Office 365 Enterprise E5 and is also available as an add-on with select plans. [Learn more](https://products.office.com/business/myanalytics-personal-analytics?ms.officeurl=MyAnalytics).
 -->
 
 ## Additional resources

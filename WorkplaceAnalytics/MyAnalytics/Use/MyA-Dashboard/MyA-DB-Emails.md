@@ -5,14 +5,13 @@
 title: How MyAnalytics uses email hours 
 description: How the time you spend in email affects your statistics and how MyAnalytics uses this data
 author: paul9955
-ms.author: v-pascha
-ms.date: 02/21/2019
+ms.author: v-midehm
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
 ---
 
-## Email 
+# Email 
 
 ### How we calculate email hours
 
@@ -27,5 +26,5 @@ The Email hours area shows an estimate of how much time you spent sending and re
 
 We include only emails that have your name, or a group you’re a member of, on the To: line or on the Cc: line. We don’t count emails that you delete without opening.
 
-Also, any time that you spend reading or writing email outside your set work hours (as defined by your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance)) is included in
+Also, any time that you spend reading or writing email outside your set work hours (as defined by your [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance)) is included in
 [After hours](MyA-DB-After-hours.md). This time is also included in your Email-hours total.

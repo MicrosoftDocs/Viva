@@ -5,8 +5,7 @@
 title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: paul9955
-ms.author: v-midehm
-ms.date: 07/31/2019
+ms.author: v-pascha
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -106,20 +105,33 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
     <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
-    a. Under Source column (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.
+    a. Under **Source column** (the first column in the table), select the down arrow to display the list of column names that were found in the data file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.
     
     b. Set values for the other columns in the table, such as the data type, the validity threshold, and the hash setting for reports.
      
     c. Repeat these steps for all custom fields that are important to your organization.
 
-3. In the Submit for validation area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the .csv file and starts the validation process.
-4. Next step is to go to [Data validation](#data-validation).
+3. In the **Submit for validation** area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the data file and starts the validation process.
+
+4. Go to the next phase, [Data validation](#data-validation).
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _File is being uploaded_ screen.
+After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page displays the _File is being uploaded_ screen:
 
-<img src="../images/wpa/setup/upload4-uploading.png" alt="Upload in progress">
+![Upload in progress](../images/wpa/setup/upload4-uploading.png)
+
+In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
+
+<!-- THE FOLLOWING IS NOT VALID FOR SUBSEQUENT UPLOADS
+During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different data file instead, select **Cancel**. 
+-->
+
+After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
+
+[Validation succeeds](#validation-succeeds)
+
+[Validation fails](#validation-fails)
 
 > [!Note]
 > Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page. 

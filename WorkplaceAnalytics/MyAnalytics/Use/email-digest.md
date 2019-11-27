@@ -2,19 +2,18 @@
 # Metadata Sample
 # required metadata
 
-title: MyAnalytics email digest
+title: MyAnalytics email digests
 description: MyAnalytics users receive a weekly email digest that describes key highlights 
 author: paul9955
 ms.author: v-pascha
-ms.date: 08/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ---
 
-# MyAnalytics email digest
+# MyAnalytics email digests
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
 As a MyAnalytics user, you will receive a weekly email digest that gives you key highlights about your previous week. This email digest contains links that you can select to open your MyAnalytics dashboard.
 

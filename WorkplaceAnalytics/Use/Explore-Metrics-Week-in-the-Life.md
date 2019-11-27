@@ -6,7 +6,6 @@ title: Week in the life metrics in Workplace Analytics
 description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -69,9 +68,9 @@ Different roles require different schedules, but monitoring after-hours activity
 
 ## Internal only and external collaboration hours
 
-**Internal only collaboration hours** are the number hours a person spent in meetings and emails only with people inside of the organization.
+**Internal only collaboration hours** are the number of hours a person spent in meetings and email only with people inside of the organization.
 
-**External collaboration hours** are the number of hours a person spent in meetings and emails with at least one person external to the organization.
+**External collaboration hours** are the number of hours a person spent in meetings and email with at least one person external to the organization.
 
 ![Internal only and external collaboration hours](../images/wpa/use/03-internal-external-collab-hours.png)
 
@@ -85,7 +84,7 @@ Who employees spend their time with is key to understanding if they are performi
 
 ## Focus hours and fragmented hours
 
-**Focus hours** are two or more consecutive hours in a person's calendar that do not contain a meeting within the company's set business hours. 
+**Focus hours** are two or more consecutive hours in a person's calendar that do not contain a meeting within the company's set business hours.
 
 **Fragmented hours** are non-scheduled business time periods that last less than two hours.
 

@@ -6,7 +6,6 @@ title: MyAnalytics network page
 description: Learn how to use MyAnalytics to improve your work relationships and grow your network
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -46,27 +45,27 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 ## About the metrics
 
-* **Top collaborators** are based on your meetings, email, calls, and chats. If you hold a meeting with or exchange emails, chats, or calls with coworkers, they are considered collaborators.
-* An **active collaborator** is a coworker you collaborated with over the past four weeks, whereas **total collaborators** uses activity over the past year.
+* **Top collaborators** are based on your meetings, email, chats, and calls. If you hold a meeting with or exchange email, chats, or calls with coworkers, they are considered collaborators.
+
+* An **active collaborator** is a coworker you collaborated with in the past four weeks, whereas **total collaborators** uses activity over the past year.
+
 * An **important collaborator** is a coworker who you selected as important in MyAnalytics.
+
+* **Total time** is an estimation of the number of hours you spent in meetings, email, chats, and calls with that person in the last four weeks (both during and outside of your working hours).
+
+* **Read percent** is the percentage of email from a collaborator that you read in the last four weeks.
+
+* **Response time** is the average time a collaborator spent responding to your email in the last four weeks.
 
 ## Network tips
 
-#### Add top collaborators to your important people list
+* **Add top collaborators to your important people list**: Things change. Keep your Important people list up to date. Follow the steps in [Important people](#important-people) to update your list.
 
-Things change. Keep your Important people list up to date. Follow the steps in [Important people](#important-people) to update your list.
+* **Set up a weekly check-in with your manager**: One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync. Research shows that top-performing managers get regular one-on-one time with their team members. One-on-ones give employees an opportunity to voice concerns, share feedback, and stay motivated.
 
-#### Set up a weekly check-in with your manager
+* **Make time for networking**: Making time to foster relationships and grow your network has proven to contribute to professional advancement. A team partner study showed a correlation between successful salespeople and large networks. The top salespeople boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
 
-One-on-ones are a great way to keep your manager in the loop and resolve any issues quickly. Just 30 minutes of one-on-one time each week can help you stay in sync. Research shows that top-performing managers get regular one-on-one time with their team members. One-on-ones give employees an opportunity to voice concerns, share feedback, and stay motivated.
-
-### Make time for networking
-
-Making time to foster relationships and grow your network has proven to contribute to professional advancement. A team partner study showed a correlation between successful salespeople and large networks. The top salespeople boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
-
-#### Spend more time with important collaborators
-
-Spending more time with the people in your network who align with your top-priority tasks at work can improve team collaboration and increase project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
+* **Spend more time with important collaborators**: Spending more time with the people in your network who align with your top-priority tasks at work can improve team collaboration and increase project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
 
 ## Related topics
 

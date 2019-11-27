@@ -6,7 +6,6 @@ title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
 ms.author: v-pascha
-ms.date: 07/31/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -62,7 +61,7 @@ After the initial processing (of collaboration data) is complete, the next time 
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
 
-   ![Map data fields](../images/wpa/setup/onboarding-mapping.png)
+   ![Map data fields](../images/wpa/setup/onboarding-mapping-2.png)
 
 This page includes tables for System default fields and Custom fields for mapping the data for the upload file. These field types are described in the following sections. 
 
@@ -82,12 +81,14 @@ System default fields represent attributes that are known by Workplace Analytics
    >[!Important]
    >Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded .csv file, other columns must be present in the .csv file that are mapped to these attributes.
 
-* **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Workplace Analytics suggests for use. You don't need to map these fields if your organization doesn't have data for them.
+* **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Workplace Analytics suggests for use. You don't need to map these fields if your organization doesn't have data for them. 
 
 <!-- Formerly here: 
 [!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
 Removed 18 March 2019 per Pramod because it refers to validity threshold.
 Replaced with actual text and then removed that term: -->
+
+<!-- NOTE THAT VALIDITY THRESHOLD DOES NOT APPLY TO FIRST UPLOAD! -->
 
 ### Custom fields table
 
@@ -96,7 +97,8 @@ Replaced with actual text and then removed that term: -->
 ### Columns in the fields tables
 
 * **Source column** corresponds to each of the fields in the uploaded file.
-* **Workplace Analytics name** is the name of your organization's Workplace Analytics.
+
+* **Workplace Analytics name** is the name of this attribute in your organization's Workplace Analytics data. <!-- VERIFYING THIS NAME WITH PRAMOD. IT MIGHT BE WORKPLACE ANALYTICS ATTRIBUTE -->
 
 * **Data type** is the data type of the fields.
 
@@ -111,18 +113,18 @@ The drop-down menu under **Include in report** offers the following options for 
 
    * **Show in report:** Let the actual data value display in the report just as it was imported in the organizational data file.
 
-   * **Exclude from report:** Prevent the data value from appearing in the report.
+   * **Exclude from report:** Prevent the data value from appearing in the report. For data-privacy reasons, some attributes (such as ManagerID) are automatically assigned the value "Exclude from report" and this value cannot be changed. 
 
-   * **Hash in report** de-identifies sensitive data. This option includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
+   * **Hash in report** de-identifies sensitive data. This option includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read. 
 
 **To map fields**
 
 After you complete the steps in [File upload](#file-upload), the **Upload** page with the System fields table will appear.
 
 1. Map the required fields.
-  
-    <img src="../images/wpa/setup/2-orgd-map-fields.png" alt="System fields table">
 
+    ![System fields table](../images/wpa/setup/2-orgd-map-fields.png) 
+  
    <ol type="a"> 
    <li>Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).</li>
    <li>Under <b>Source column</b> (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
@@ -132,7 +134,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
    > [!Note]
    > For more information, see [Columns in the fields tables](#columns-in-the-fields-tables).
 
-2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it. 
+2. Map the optional and custom fields, as applicable. You only need to map the columns in the source data (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it. 
 
    <ol type="a">
    <li>Under <b>Source column</b> (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.</li>
@@ -153,11 +155,23 @@ The upload of the .csv file starts the validation process.
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _We are validating your upload_ message.
+After you complete the steps in [Field mapping](#field-mapping), the **Upload** page shows the following message:
 
-   ![Validating the uploaded data](../images/wpa/setup/onboarding-validation-in-progress.png)
+![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
 
-During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different .csv file instead, select **Cancel upload**. 
+After the file has successfully uploaded, file validation starts: 
+
+![Validating now](../images/wpa/setup/validation-full-screen.png) 
+
+In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
+
+During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different data file instead, select **Cancel**. 
+
+After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
+
+[Validation succeeds](#validation-succeeds)
+
+[Validation fails](#validation-fails)
 
 ## Validation succeeds
 

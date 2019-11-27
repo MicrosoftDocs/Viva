@@ -6,13 +6,12 @@ title: Use MyAnalytics to build good work habits
 description: Building good habits with MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
 ---
 
-## Habit-building method
+# Habit-building method
 
 You can turn a selected behavior into a habit by using MyAnalytics and the habit-building method, which is based on behavioral science.
 
