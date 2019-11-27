@@ -42,12 +42,13 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
 6. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
 7. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
-8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**.
-9. In **Define Graph Settings**, either select filters for the graph, or select no filters to render a graph of all the data unfiltered, and then select **Render Graph**.
+8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**, which the template creates by default as a starting dataset for you.
+9. In **Define Graph Settings**, select what HR attribute to use for the combined or grouped view and for the color of the graph's nodes. You can select one or more filters, or don't select any filters to render the graph with the full dataset, and then select **Render Graph**.
 
-   ![Add New Analysis](./images/ona-render-graph-2.png)
+   ![Add New Analysis](./images/ona-define-graph-settings.png)
 
-10. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
+10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step. You can't
+11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
 ## To add new subgroup analysis
 
