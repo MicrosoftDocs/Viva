@@ -5,7 +5,7 @@
 title: MyAnalytics service description
 description: MyAnalytics -- features, distributions, privacy, and prerequisites
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -26,7 +26,7 @@ MyAnalytics consists of the following elements:
 
  * [MyAnalytics dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2): Helps you reflect on your work patterns such as time that you have available to focus, your meeting and email practices, and your network.
  * [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in): Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
- * [Email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2): Gives you key highlights about your work patterns in a weekly email..
+ * [Digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2): Gives you key highlights about your work patterns in a weekly digest in your Outlook inbox.
  * [Inline suggestions](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications): These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
 
 ## MyAnalytics distributions

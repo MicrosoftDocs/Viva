@@ -5,9 +5,9 @@
 title: Focus plan
 description: MyAnalytics focus plan
 author: paul9955
-ms.author: v-pascha
+ms.author: paul9955
 ms.topic: article
-localization_priority: normal 
+localization_priority: normal
 ms.prod: mya
 
 ---
@@ -115,7 +115,7 @@ The following sections provide information that can help you as you create or mo
 
 After you set automatic booking as your preference, MyAnalytics starts looking for time on your Outlook calendar to set aside as focus time. The time that it books on your calendar appears in a different color and is labeled "Focus time":  
 
-![Focus prompt in the email digest](../../Images/mya/use/focus-time-on-your-calendar.png)
+![Focus prompt in the digest](../../Images/mya/use/focus-time-on-your-calendar.png)
 
 Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments. 
 
@@ -149,9 +149,9 @@ For more information, see [Manage notifications in Teams](https://support.office
 
 As a MyAnalytics user, you might become aware of the focus plan when you see focus-related prompts and messages in the weekly digest email, the dashboard, and insights. Examples: 
 
-#### Focus plan prompt in the email digest
+#### Focus plan prompt in the digest
 
-![Focus prompt in the email digest](../../Images/mya/use/focus-prompt-in-email-digest-75-90.png)
+![Focus prompt in the digest](../../Images/mya/use/focus-prompt-in-email-digest-75-90.png)
 
 #### Focus plan prompt in the dashboard
   
@@ -189,14 +189,14 @@ For example, the add-in might display this card:
 
 ### After you create the plan
  
-#### MyAnalytics weekly digest email
+#### MyAnalytics weekly digest
 
 As described under [To check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan), you use the MyAnalytics dashboard to see how well your focus plan is working. 
 
-You can also find similar information in the MyAnalytics weekly digest email. After you enroll in a focus plan, the content of the digest email becomes tailored to your participation in the plan. 
+You can also find similar information in the MyAnalytics weekly digest. After you enroll in a focus plan, the content of the digest becomes tailored to your participation in the plan. 
 
 It reports on your recent progress in the plan, it gives opportunities to plan for the near future, and it presents food-for-thought items that can help you succeed in the plan. Finally, it contains an _Explore more_ section that lets you dig deeper into various performance indicators for recent days. It looks something like this: 
 
-![Focus prompt in the email digest](../../Images/mya/use/new-digest-email-2.png)
+![Focus prompt in the digest](../../Images/mya/use/new-digest-email-2.png)
 
 -->

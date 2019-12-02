@@ -3,7 +3,7 @@ layout: LandingPage
 title: MyAnalytics introduction
 description: MyAnalytics introduction with links to further information 
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -24,7 +24,7 @@ MyAnalytics provides insights into two of the key factors in personal productivi
 * **MyAnalytics elements**: As a user, learn about the ways that MyAnalytics presents you with insights and how you can use these to make good decisions.
   * [**MyAnalytics dashboard**](../myanalytics/use/dashboard-2.md): See how you spent your time over the past month, productivity insights about your work patterns, helpful suggestions for improvement, and information about your network, top collaborators, and collaboration activities.
   * [**Insights Outlook add-in**](../myanalytics/use/add-in.md): The Insights add-in for Outlook presents you with activity cards based on your recent work experience with options to respond or follow up on based on the activity.
-  * [**Email digests**](../myanalytics/use/email-digest.md): Receive a weekly email digest that gives you highlights about your previous week.
+  * [**Digests**](../myanalytics/use/email-digest.md): Receive a weekly digest that gives you highlights about your previous week.
   * [**Inline suggestions in Outlook**](../myanalytics/use/mya-notifications.md): Contextual, data driven recommendations to improve your work patterns.
   * [**MyAnalytics adoption materials**](../myanalytics/use/MyA-Adoption/Adopt-myanalytics.md): These adoption materials help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable.
     * [Individual adoption](../myanalytics/use/MyA-Adoption/Indiv-adopt-get-started.md): Individuals learn how to use MyAnalytics to build and sustain healthier work patterns.
