@@ -117,7 +117,7 @@ Yes. You can change your time zone and your working time in your [Outlook settin
 
 #### Q1. How do the MyAnalytics digests show up in my Outlook inbox?
 
- Your digests are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
+ Your [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
 
 ### Opt out
 
@@ -305,4 +305,4 @@ You can enable or disable MyAnalytics experiences by following the applicable st
 
 #### Q17. How do the MyAnalytics digests show up in a user's Outlook inbox?
 
- The MyAnalytics digests are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
+ The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
