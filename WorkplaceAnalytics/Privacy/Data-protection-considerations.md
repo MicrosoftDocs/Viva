@@ -5,7 +5,7 @@
 title: Data-protection considerations when using Workplace Analytics  
 description: Data-protection considerations when using Workplace Analytics.
 author: paul9955
-ms.author: v-pascha
+ms.author: paul9955
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -178,7 +178,7 @@ You can review the details here, but we briefly go over them:
 
 Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md)
 
-Article 29 Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=4563)
+Article 29 Data Protection Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=45631)
 
 EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)
 

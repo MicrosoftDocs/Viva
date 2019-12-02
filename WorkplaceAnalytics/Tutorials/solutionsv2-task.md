@@ -5,7 +5,7 @@
 title: Workplace Analytics plan walkthrough
 description: A walkthrough of the steps required to create a plan in Workplace Analytics
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -166,7 +166,7 @@ After the selected group validates successfully, you'll see insights about the g
 
 4. (Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan’s end date is then calculated and shown.
 
-5. (Optional) In **How Plans will help**, select **See preview** to see examples of inline suggestions, dashboard information, and the email digest that people will experience while participating in the plan. Similar to plan insights, these previews are informative but not interactive:
+5. (Optional) In **How Plans will help**, select **See preview** to see examples of inline suggestions, dashboard information, and the digest that people will experience while participating in the plan. Similar to plan insights, these previews are informative but not interactive:
 
     ![How plans help](../images/wpa/tutorials/how-plan-helps.png)
   
