@@ -44,7 +44,7 @@ For information on how to assign a license, see [Assign licenses to users in Off
 
 You can configure access to MyAnalytics elements for all users in your organization.
 
-### To enable access to the dashboard and email digests
+### To enable access to the dashboard and digests
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
@@ -58,9 +58,9 @@ You can configure access to MyAnalytics elements for all users in your organizat
 
 5. Select **Insights dashboard** to keep all MyAnalytics users in your organization opted _in_ for access to the MyAnalytics dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
 
-6. Select **Weekly insights email** to keep all MyAnalytics users in your organization opted _in_ for access to the weekly [email digest](../../myanalytics/use/email-digest-2.md) (and the MyAnalytics [welcome email](../../myanalytics/use/mya-welcome-email.md)). Deselect **Weekly insights email** to opt users _out_ of the weekly email digest (and the MyAnalytics welcome email).  
+6. Select **Weekly insights** to keep all MyAnalytics users in your organization opted _in_ for access to the weekly [digest](../../myanalytics/use/email-digest-2.md) (and the MyAnalytics [welcome email](../../myanalytics/use/mya-welcome-email.md)). Deselect **Weekly insights email** to opt users _out_ of the weekly digest (and the MyAnalytics welcome email).  
 
-7. Select **Insights Outlook add-in** to keep all MyAnalytics users in your organization opted in for access to the Insights Outlook add-in. Deselect it to opt users out of access to the Insights Outlook add-in. 
+7. Select **Insights Outlook add-in** to keep all MyAnalytics users in your organization opted in for access to the Insights Outlook add-in. Deselect it to opt users out of access to the Insights Outlook add-in.
 
 > [!Note]
 > After a new tenant is established, it might take up to 48 hours for this functionality to become available. This experience will be available in Office 365 GCC by the end of 2019.
