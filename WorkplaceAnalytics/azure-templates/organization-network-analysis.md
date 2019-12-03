@@ -47,7 +47,10 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    ![Add New Analysis](./images/ona-define-graph-settings.png)
 
-10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step. If the node or link count exceeds the maximum threshold defined by your Azure Templates admin, the network view options will be unavailable.
+10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step. 
+
+    >Note
+    >When the node or link count exceeds the maximum threshold defined by your Azure Templates admin, the network view options will be unavailable. To enable the network view options, you can use filters to reduce the graph's node or link count.
 
 11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
@@ -55,7 +58,11 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
 Subgroup analysis enables you to compare or focus your analysis on specific subgroups within the selected dataset.
 
-1. Select the dataset from the list, and then at top right, select **Add New Analysis**.
+1. You can create a new subgroup in one of the following ways:
+
+   * From the dataset page, select the dataset from the list, and then at top right, select **Add New Analysis**.
+   * From within the graph view of a dataset, select the **Recompute Metrics** icon.
+
 2. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
 
    ![Add New Analysis](./images/ona-subgroup-analysis.png)
@@ -90,10 +97,12 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
    ![ONA network view](./images/ona-network-icons-3.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries.</li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don’t want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
-   ![OnA change color nodes](./images/ona-color-icon.png) | Changes Node Colors | You can select to change the color of any of the nodes shown in the graph.
-   ![ONA change settings](./images/ona-settings.png) | Changes Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
+   ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
+   ![ONA change settings](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
    ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.
+   ![ONA download table](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).
    ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown to load and view later.
+   ![ONA recompute](./images/ona-recompute-icon.png) | Recompute Metrics |Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).
 
 ## To view a saved graph
 
