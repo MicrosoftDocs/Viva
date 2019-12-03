@@ -22,7 +22,7 @@ Workplace Analytics Azure Templates include the Organizational Network Analysis 
 
 Workplace Analytics has a variety of measures to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
 
-To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subgroup datasets and graphs within the selected (parent) dataset.
+To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subgroup datasets and graphs within the selected (parent) dataset. For details, see  [To add new subgroup analysis](#to-add-new-subgroup-analysis).
 
 ## To add a new dataset
 
@@ -77,11 +77,11 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
 1. After the analysis successfully loads (green check mark), select it from the list, and then:
 
-   * For new analysis, select **Render Graph**.
-   * For previously saved analysis (graphs), select **Load Saved Graph** (top right), and then select it from the list.
+   * For new graphs, select **Preliminary Analysis** and in **Define Graph Settings**, select what HR attribute to use for the combined or grouped view and for the color of the graph's nodes. You can select one or more filters, and then select **Render Graph**.
+   * For previously saved graphs, select **Load Saved Graph** (top right), and then select it from the list.
 
    >Note:
-   >If no analysis has been saved yet, the list will be empty.
+   >If you haven't saved any graphs yet, the list will be empty.
 
 2. At top of the graph, you can select a new start and end date for the time range to analyze, and then select **Apply** to update the graph view.
 
@@ -95,7 +95,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
-   ![ONA network view](./images/ona-network-icons-3.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries.</li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don’t want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
+   ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries.</li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don’t want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![ONA change settings](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
