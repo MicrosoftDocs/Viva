@@ -25,15 +25,14 @@ The following new template enhancements are now available.
 
 ### Organizational Network Analysis Azure Template
 
-The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template. 
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
 
 * Updated UX for Node Measures, including renaming some of the measures, such as:
   * Eigen Centrality is now Influence Index
   * Closeness is now Reach Index
   * Network size is now Degrees
-* Combined view 
-* New UX for saving graphs for subgroup analysis and viewing saved graphs.
-* Improved UX for defining analysis and saving subsets of data within the graph view.
+* Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts meet the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Configuration](./deploy-configure.md#configuration).
+* Improved UX for defining analysis and saving subsets of data within the graph view. For details, see [To add new subgroup analysis](./organization-network-analysis.md#to-add-new-subgroup-analysis).
 * New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
 * New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure Template.
 
