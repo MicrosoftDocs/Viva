@@ -96,20 +96,28 @@ If you block out your calendar for personal work by using an appointment (see [C
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
-#### Q2. Can I change my settings to make time outside of work more accurate?
-
-Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
-
-#### Q3. Why does my focus time seem incorrect or inaccurate?
+#### Q2. Why does my focus time seem incorrect or inaccurate?
 
 Try the following to troubleshoot your focus-time totals:
 
 1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).)
 2. For more details about focus time, see [Focus](../Use/focus.md).  
 
-#### Q4. How do I tell MyAnalytics that I am on vacation?
+### Calendar
+
+#### Q1. How do I tell MyAnalytics that I am on vacation?
 
 If you plan to go on vacation (or on holiday), create an Outlook calendar event that includes the days of your vacation and set the status to **Out of Office**. MyAnalytics will count zero focus and meeting hours for you while you're away.
+
+#### Q2. Can I change my settings to make time outside of work more accurate?
+
+Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
+
+### Digests
+
+#### Q1. How do the MyAnalytics digests show up in Outlook?
+
+ Your [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
 
 ### Opt out
 
@@ -126,7 +134,7 @@ See the following for details:
 ##### Opt out of individual parts of MyAnalytics
 
  * [Opt out of the MyAnalytics dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
- * [Opt out of the weekly email digest](../use/email-digest-2.md#opt-out-of-email-digests)
+ * [Opt out of the weekly digest](../use/email-digest-2.md#opt-out-of-digests)
  * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
@@ -161,7 +169,7 @@ Follow these steps to add the Insights add-in to your Outlook ribbon.
 2. Select **Admin-managed**.
 3. Find **Insights**, and then select **Add**.
 
-### Visibility and access 
+### Visibility and access
 
 #### Q2. Why can't I see the MyAnalytics dashboard?
 
@@ -246,7 +254,7 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 #### Q7. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
-Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
+Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest sent on a Monday or Tuesday to your Outlook inbox, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
 
 #### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
 
@@ -294,3 +302,7 @@ As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible 
 #### Q16. How can I manage MyAnalytics experiences in Office 365 GCC?
 
 You can enable or disable MyAnalytics experiences by following the applicable steps in [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019.
+
+#### Q17. How do the MyAnalytics digests show up in Outlook?
+
+ The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.

@@ -19,11 +19,11 @@ audience: Admin
 >[!Note]
 >You must be assigned either the administrator or the analyst role to access the **Data sources** page. For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-**Data sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. Sources includes the following:
+**Data sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. And when you upload and process CRM data in Workplace Analytics, you'll also see a page for your CRM data.
 
   - [Office 365 data](#office-365-data)
   - [Organizational data](#organizational-data)
-  - [CRM data](#crm-data)
+  - [CRM data](#crm-data) (only when you upload and process CRM data in Workplace Analytics)
 
 ![Sources](../images/WpA/Use/sources-o365.png)
 
@@ -58,35 +58,13 @@ Hover your cursor over the chart data to get more details and use the chart lege
 
 The **Data sources > Office 365 data** page shows the current count of three categories of data. Most of this data originates with people in your organization, people who might or might not have Workplace Analytics licenses. But some data originates outside of your organization, and still other data comes from mailboxes of other types. 
 
-
 Determining the origins of data also determines how to categorize it, as shown in the following flow chart: 
 
-<!-- original image directive: -->
-
-  ![Origin of data counts](../images/wpa/use/data-sources-final-75.png)
-
-
-<!-- new image directive with resize attribute: 
-
-  <img src="../images/wpa/use/data-sources-final-75.png" alt="Origin of data counts" width="600">
-
-  PERHAPS TRY THIS LATER AS A PERCENTAGE. I STILL THINK IT'S TOO BIG.
-
--->  
+  ![Origin of data counts](../images/wpa/use/data-sources-final.png)
 
 The following screenshot shows where each of these numbers appears on the **Office 365 data** page: 
 
-<!-- original image directive: -->
-
-  ![Office 365 data sources page](../images/wpa/use/data-sources-relate-75.png)
-
-<!-- new image directive with resize attribute: 
-
-  <img src="../images/wpa/use/data-sources-relate-75.png" alt="Office 365 data sources page" width="600">
-
-  PERHAPS TRY THIS LATER AS A PERCENTAGE. I STILL THINK IT'S TOO BIG. (MAKE IT MATCH THE WIDTH OF THE PRECEDING IMAGE.)  
-
--->  
+  ![Office 365 data sources page](../images/wpa/use/data-sources-relate.png)
 
 ### Possible causes of inconsistent data
 
@@ -142,13 +120,36 @@ For more information about what data is needed for metric calculations, see:
 
 ## CRM data
 
-This page provides a high-level view of the latest available CRM data that was uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
+This page gives you a high-level view of the latest available CRM data that you uploaded and was successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
 By combining this data in Workplace Analytics, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team.
+
+### Join coverage
 
 The **Join coverage** section describes the percent overlap between the uploaded list of accounts and the other uploaded lists of important CRM data, such as contacts and seller assignments, as shown in the following graphic. The higher the percentage overlap the more accurate analysis you can accomplish.
 
 ![CRM data sources page](../images/wpa/Use/crm-sources.png)
+
+### External collaborators
+
+You can also see the total number of external collaborators and related join coverage data, as shown in the following graphic.
+
+![CRM external collaborators](../images/wpa/Use/crm-external-collab.png)
+
+* **External collaborators** are people who have:
+
+  * Work (non-personal) email addresses with domains outside (not members) of your organization.
+  * Interacted with your organization's employees through email, meetings, calls, and instant messages.
+
+* The **How external collaborators are matched with accounts** chart shows the external collaborators divided into the following groups based on their CRM account associations.
+
+  1. Those who are matched through the CRM upload and default with CRM contacts.
+  2. Those who are matched with accounts through the extrapolation option.
+  3. Those who are not associated (unmatched) with any CRM account through upload or extrapolation.
+
+* **Accounts and external collaborators** shows the percentage of the sum of the first two groups in visualization 2. Namely, external collaborators found by default (CRM upload) as well as external collaborators found through extrapolation. The bar under this metric reflects the percentage in terms of the total number of external collaborators.
+
+### Join coverage notices
 
 For join coverage based on the latest data uploads, you might see one of the following important notices, as shown in the following graphic.
 
@@ -156,6 +157,8 @@ For join coverage based on the latest data uploads, you might see one of the fol
 * **Data has not been processed**: This occurs when an upload hasn't been done yet, the data is currently being processed, or something failed during the validation or data processing phase. You can select the link to the Upload page and view the status of the upload, correct any issues, or upload new data. You can also ignore this warning if you don't plan to upload that specific data file.
 
 ![CRM join notices](../images/wpa/Use/crm-join-notices.png)
+
+### Join coverage details
 
 You can select one of the data titles, such as accounts or contacts, to view a list of attributes for it. For example, the following shows a list of attributes for contacts.
 
@@ -181,3 +184,61 @@ To view a list of the top 100 values for an attribute, select the attribute's na
 * Type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
 
 ![View CRM attribute values for accounts](../images/wpa/Use/crm-account-attribute-values.png)
+
+### Account collaboration coverage
+
+In the **Accounts and external collaborators** section of the CRM data sources page, you can select **View details** to see a more detailed view of account collaboration as shown in the following graphic.
+
+![View CRM account collaboration coverage](../images/wpa/Use/crm-account-collab.png)
+
+The **Account details** page includes the following.
+
+* The **Number of collaborators matched** chart shows the number of external collaborators matched with accounts by default and by default plus extrapolation, which correspond to the Account collaboration coverage chart.
+
+  * **Default match with CRM data** is based on the imported data from the CRM upload to match up email addresses for Office 365 external collaborators with email addresses for CRM contacts.
+  * **Default + Extrapolation match with CRM data** includes the same default email comparison data and for any *unmatched external collaborators*, it then calculates the probability of which CRM account they most likely match up with. If the probability that an external collaborator belongs to a specific CRM account is high, the external collaborator is assigned to that account. This option provides more coverage for external collaborators and for capturing more customer interactions.
+* The **Collaboration time** chart shows the number of collaboration hours that employees invested with external collaborators in each of the ‘matched by default’ and ‘matched by default + extrapolation’ groups. The collaboration time is based on interactions through email, meeting, calls, and instant messages.
+* The **Account collaboration by domain** table lists collaborator domains and the following related  account details:
+
+  * **Account name** is the name of the account in the CRM upload.
+  * **Number of collaborators matched by default** is the number of external collaborators within Workplace Analytics who match up with the CRM contact email addresses associated with that CRM account.
+  * **Number of collaborators matched by extrapolation + default** is the number of external collaborators who have a high probability of belonging to this account, in addition to the external collaborators matched to this account by default.
+  * **Default collaboration hours** is the number of collaboration hours that employees invested with external collaborators in the ‘matched by default’ group.
+  * **Extrapolation + default collaboration hours** is the number of collaboration hours that employees invested with external collaborators in both the ‘matched by default’ and ‘matched by extrapolation’ groups.
+
+  ![View details for CRM account collaboration coverage](../images/wpa/Use/crm-account-collab-details.png)
+
+#### Download data set
+
+The **Account collaboration by domain** table can list up to a maximum of 500 CRM accounts. To view the complete data set for accounts larger than 500, you can view all the accounts in the downloaded .csv file. You have the following options when you download the accounts data set: 
+
+  ![CRM account collaboration details download](../images/wpa/Use/crm-download.png)
+
+* The **Accounts** option organizes the records by the AccountName attribute. The following is an example of account output for this option:
+
+  |AccountId |AccountName |TotalCollaboratorCount| TotalCollaborationHours |DefaultCollaborationHours | DefaultCollaboratorCount |
+  |-----|-----|-----|-----|----|----|
+  |a60e4ac7 |Contoso |10,000 |122,005 |85 |6,340 |
+  |49a80cfe |Anon 23,000 |1660,40 |102 |8,609
+  |13bcc1ab |Acme.com |4,000 |22,010 |70 |5,843 |
+
+  The attributes included in the download options:
+  
+  * **AccountId** is the unique account identifier.
+  * **AccountName** is the account name  that's listed in the CRM upload Account table.
+  * **TotalCollaboratorCount** is the number of external collaborators who have a high probability of belonging to this account, in addition to the external collaborators matched to this account by default.
+  * **TotalCollaborationHours** is the collaboration time your employees invested with the total set of external collaborators (Total Collaborators) associated with this account. This ‘time’ is derived from interactions such as emails, meetings.
+  * **DefaultCollaboratorCount** is the number of external collaborators within WpA which match against CRM contact email addresses associated with this account.
+  * **DefaultCollaborationHours** is the collaboration time your employees invested with the default set of external collaborators (Default Collaborators) associated with this account. This ‘time’ is derived from interactions, such as email, meetings, calls, and instant messages.
+
+* **Accounts and account collaboration by domain** gives the same details as the Accounts option, however this option organizes the records by the email domains of the contacts associated with the accounts. The additional attribute included in this download option is **Domain**, which is the domain email address for each account listed.
+
+* **Accounts and External Collaborator email addresses** organizes the records by the contact email addresses and lists all external collaborator email addresses and related attributes. The following is an example of account output for this option:
+
+  |AccountId |AccountName |Domain |EmailAddress
+  |-----|-----|-----|-----|
+  |a60e4ac7 |Contoso |CONTOSO.COM |salesteam@contoso.com |
+  |49a80cfe |Anon |ANON.COM |bdmanager@anon.com |
+  |13bcc1ab |Acme.com |ACME.COM |john.doe@acme.com |
+
+  The additional attribute included in this download option is **Email Address**, which is the contact’s email address for the account.

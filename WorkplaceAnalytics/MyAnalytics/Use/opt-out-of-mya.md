@@ -5,8 +5,7 @@
 title: Opt out of MyAnalytics
 description: How to opt out of MyAnalytics
 author: paul9955
-ms.author: v-pascha
-ms.date: 07/13/2019
+ms.author: paul9955
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -18,7 +17,7 @@ ms.prod: mya
 All users can use the MyAnalytics dashboard to opt-out. When you opt out, the following will occur:
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
-* You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly email digest](../use/email-digest.md).
+* You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly digest](../use/email-digest-2.md).
 * Your email activity will not be included in other users' [email read statistics](../use/add-in.md#email-read-statistics).
 
 ## To opt out of MyAnalytics
@@ -46,8 +45,8 @@ Yes, if you opt yourself out or if an admin opts you out, you can opt back in an
 
 * [Opt out of the MyAnalytics dashboard](dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
 
-* [Opt out of the weekly email digest](email-digest-2.md#opt-out-of-email-digests)
+* [Opt out of the weekly digests](email-digest-2.md#opt-out-of-digests)
 
-* [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in) 
+* [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
 
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)

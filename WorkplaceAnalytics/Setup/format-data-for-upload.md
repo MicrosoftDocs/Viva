@@ -33,12 +33,12 @@ For these uploads, you can choose from among two file formats. The following sec
 
 ### Which format to use?
 
-**Recommended: Use the .xlsx format.** We recommend this format because it is usually easier to use. But in many cases, you could use either format, provided that you heed their restrictions: 
+**Recommended: Use the .xlsx format.** We recommend this format because it is usually easier to use. But in many cases, you could use either format, provided that you heed their restrictions:   
 
 1. **Use .xlsx if outside of the United States.** Files in the UTF-8 encoded .csv format are subject to United-States data formatting, so if your organization is based outside of the United States and uses non-U.S. formatting for dates, times, or numbers, use the .xlsx format. 
 2. **Encode .csv files properly.** Only choose the .csv-file option if you can format it as required: UTF-8 encoded, and with all data (dates, times, numbers) in United-States format. Files in the .xlsx format do not have these restrictions.
-3. **Stay under the size limit.** The upper limit of .xlsx files for upload is 1.5 GB. If your upload file is larger than 1.5 GB, use the .csv format instead.
-
+3. **Stay under the size limit.** The upper limit of .xlsx files for upload is 1.0 GB. If your upload file is larger than 1.0 GB, use the .csv format instead. 
+ 
 > [!Note] 
 > * For more information about selecting and arranging the _contents_ of these files (as opposed to adhering to their _formatting_ rules), see  [Prepare organizational data](prepare-organizational-data.md). 
 > * If you've uploaded data by using one file format and would like to upload data in a different file format in the future, you can do so, as long as you format the data according to the rules in the following sections. 
@@ -59,9 +59,9 @@ Workplace Analytics can accept organizational data in .xlsx files produced by Mi
 Acceptable .xlsx files must adhere to the following:  
 
  * **File extension.** The extension must be _.xlsx_. It cannot be any other extension (such as .xls, .xlsb, or .xlsm) that is supported by Microsoft Excel or another spreadsheet application.
- * **Size limit.** The upper limit of .xlsx files for upload is 1.5 GB. If your upload file is larger than 1.5 GB, use the .csv format instead. 
- * **No formulas or macros.** Include no formulas or macros in cells in the .xlsx file.
-* **No special objects.** Do not include charts, images, pivot tables, or other such entities in the file.
+ * **Size limit.** The upper limit of .xlsx files for upload is 1.0 GB. If your upload file is larger than 1.0 GB, use the .csv format instead.  
+ * **No formulas or macros.** Include no formulas or macros in cells in the .xlsx file.  
+* **No special objects.** Do not include charts, images, pivot tables, or other such entities in the file. 
  * **Accepted number and date formats.** While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Apply the correct data type](#apply-the-correct-data-type).
  * **Internal structure.** See the following section, [Structure an .xlsx file](#structure-an-xlsx-file) to learn how to structure the columns and rows in an .xlsx file for successful upload.
 
@@ -79,9 +79,7 @@ Acceptable .xlsx files must adhere to the following:
 
  * **The first row contains column headers only.** In the first sheet, the values in the first row are considered to be column headers. 
  
-    Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. 
-   
-   The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md). 
+    Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md). 
 
  * **No duplicate column headers.** Every column header must be unique. 
  * **No blank or repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
@@ -205,7 +203,7 @@ In this example, we're formatting cells that contains dates:
 4. Under **Type**, select a type. The selected cells will change to the new formatting style. If the cells do not change, go back to step 3 and make sure that you select a predefined Excel style.
 
    > [!Note] 
-   > Watch the cell carefully as you apply a data type to it. You can be sure that its data type has changed only if its appearance also changes; that is, if Excel displays changes it to the type that you selected.
+   > Watch the cell carefully as you apply a data type to it. You can be sure that its data type has changed only if its appearance also changes&mdash;that is, if Excel changes it to display the type that you selected.
 
 5. After you have finished formatting the data, save the worksheet with the extension .xlsx:
 

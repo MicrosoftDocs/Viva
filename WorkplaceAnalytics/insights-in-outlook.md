@@ -57,9 +57,9 @@ Insights by MyAnalytics is now available to all MyAnalytics users.
 
 The Outlook add-in is now available.
 
-**Q4. Will users receive the MyAnalytics welcome email and email digests?**
+**Q4. Will users receive the MyAnalytics welcome email and digests?**
 
-Email digests will be available to users starting September through December 2019.
+MyAnalytics digests will be available to users starting now through December 2019.
 
 **Q5. Will users see MyAnalytics in the App launcher?**
 
