@@ -20,7 +20,7 @@ _This template only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates include the Organizational Network Analysis template that enables you to visualize connections within your organization, pinpoint collaboration patterns, and drive change.
 
-Workplace Analytics has a few measures to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
+Workplace Analytics has a variety of measures to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
 
 To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subgroup datasets and graphs within the selected (parent) dataset.
 
@@ -28,26 +28,27 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
 1. In Workplace Analytics Azure Templates, select **Organizational Network Analysis**.
 2. On the **Organizational Network Analysis** page, select **Add New Dataset** at top right.
-3. In **Define Analysis Settings**, enter a name and select a path to the dataset for analysis.
+3. In **Define Analysis Settings**, enter a name and select a path to the dataset.
 
    ![Add New Analysis](./images/ona-new-dataset.png)
 
 4. In **Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics.
 5. In **Interaction Thresholds**, select the following.
 
-   * **Choose an interaction type**: Select what you want to analyze in the dataset, either email, meeting, or all.
+   * **Choose an interaction type**: Select what you want to analyze in the dataset, either emails, meetings, or all.
    * **Max Duration Threshold of each interaction**: Select the maximum number of hours for each interaction.
    * **Max # of members involved in each interaction**: Select the maximum number of people involved in each interaction.
    * **Min # of interactions**: Select the minimum number of interactions between the selected groups or people.
 
 6. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
 7. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
-8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**, which the template creates by default as a starting dataset for you.
+8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**, which the template creates by default as a starting dataset.
 9. In **Define Graph Settings**, select what HR attribute to use for the combined or grouped view and for the color of the graph's nodes. You can select one or more filters, or don't select any filters to render the graph with the full dataset, and then select **Render Graph**.
 
    ![Add New Analysis](./images/ona-define-graph-settings.png)
 
-10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step.
+10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step. If the node or link count exceeds the maximum threshold defined by your Azure Templates admin, the network view options will be unavailable.
+
 11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
 ## To add new subgroup analysis
