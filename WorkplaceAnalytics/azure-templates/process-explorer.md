@@ -77,7 +77,7 @@ Use the following steps to manually categorize meetings for both dataset types. 
 3. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings. In **Dashboard** > **Add a New Category**, enter the name of a category you want to add, and then press **Enter** to add it to the list.
 4. Select **Meeting** > **Open Query Builder** > **Discover Topics**, enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view meetings with these keywords, and then select **Run query**. You can also select a word from the word cloud to add it as a keyword.
 
-        ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
+       ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
    * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
@@ -99,7 +99,7 @@ Use the following steps to manually categorize meetings for both dataset types. 
    * Select a category, select all meetings in the list by selecting the check box next to **Subject**, and then select **Apply** to add these meetings to that category.
    * Or select a category, individually select the check box next to a good sample of related meetings, and then select **Apply** to add them to that category.
 
-         ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
+        ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
 
    * In **Dashboard** > **Add a New Category**, enter any additional categories needed for grouping the uncategorized meetings.
    * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
@@ -138,11 +138,11 @@ For a blob storage dataset, the categorization options depend of what the admin 
 
 4. If the **Email** category page is available, then you can manually  manually categorize email activity by selecting **Email** > **Query Builder** and then entering one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
-       * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
-       * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
-       * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-       * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-       * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
+   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
+   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
+   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
+   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
+   * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
 
          ![Categorize email](./images/pexp-email-query.png)
 
