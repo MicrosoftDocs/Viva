@@ -29,10 +29,10 @@ After you categorize a good sample of meetings into the specified categories:
 
 * You can view meeting data based on those categories with visual charts and lists.
 * For a .csv dataset, you can select to auto-categorize the full dataset based on the sample meeting categorizations already done by you, as the analyst.
-* For a blob storage dataset, the categorization options depend of what the admin settings are for email activity:
+* For a blob storage dataset, the categorization options depend on what the template's admin settings are for email activity:
   
-  * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize both meeting and email activity, which better trains the model for auto-categorizing the full dataset.
-  * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which trains the model for auto-categorizing the full dataset, including both meeting and email activity.
+  * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
+  * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which creates distinct models for the two types of content and more accurate overall results.
 
 * You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analyses.
 
@@ -49,7 +49,7 @@ Use the following steps to add either a .csv dataset for meeting data analysis o
 4. What you do next depends on which dataset type you selected:
 
    * For meeting query output, enter a dataset name, locate and select the dataset file path, and then select **Upload Dataset**.
-   * For classify on raw data, enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset to use to manually categorize for model training purposes, and then select **Submit**.
+   * For the raw data option, enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset to use to manually categorize for model training purposes, and then select **Submit**.
 
 5. The dataset upload takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table with the following information and available actions.
 
@@ -123,23 +123,20 @@ Ask your admin what is set for surfacing and classifying email activity for anal
 
   ![Categorize email admin setting](./images/pexp-admin-settings.png)
 
-For blob storage categorization, if your dataset includes more than five million meetings and five million email, the template requires you to filter the dataset to be less than five million each to use to train the model for auto-classification of the complete dataset. If you don't filter the dataset to under the five million limit for either meeting or email, the model will randomly choose five million of each to classify for model training.
+For blob storage categorization, the system will limit the data used for categorizations to five million emails and meetings to improve interactivity. If you know the subset of data you want to focus on, you can set time range and/or filters to focus the data used.  If not, or if your filtering still results in more than five million values, the system will automatically choose a good representative sample from the complete filtered sample.
 
 For a blob storage dataset, the categorization options depend of what the admin settings are for email activity:
   
-* If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize a sampling of both meeting and email activity, which improves training the model for auto-categorization of the full dataset.
+* If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
 * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which trains the model for auto-categorizing the full dataset, including both meeting and email activity.
 
 ### To categorize email activity for analysis
 
 1. If you haven't done so already, follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
-2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset and in **Step 6**, select to **Auto-Categorize Meetings** for your blob storage dataset. This option will randomly select a sample of 10,000 meetings to auto-categorize.
-3. After meetings are auto-categorized, you can do one of the following:
+2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset.
+3. If no **Email** category page is shown, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample meeting categorizations; this will take a few minutes or more depending on the size of the dataset.
 
-   * If the **Email** category page is available, continue to the next step to manually categorize a sample of email activity with the Query Builder.
-   * If no **Email** category page is shown, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample meeting categorizations; this will take a few minutes or more depending on the size of the dataset.
-
-4. To manually categorize email activity, open **Email** > **Query Builder** and then enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
+4. If the **Email** category page is available, then you can manually  manually categorize email activity by selecting **Email** > **Query Builder** and then entering one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
      * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
      * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
