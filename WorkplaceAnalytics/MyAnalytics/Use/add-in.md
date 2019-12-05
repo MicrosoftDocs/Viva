@@ -27,7 +27,7 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 ## What you might see
 
-In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**.
+In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**. To pin the Insights add-in to the quick access pane, see [Pin the add-in](#pin-the-add-in).
 
 You'll see Insights in the right panel in Outlook:
 
@@ -125,6 +125,33 @@ MyAnalytics respects user privacy; this is why imprecise values are reported for
 </table>
 -->
 
+### Pin the add-in
+
+If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.
+
+**To pin the add-in to the quick access pane**
+
+1. In Outlook on the web, select the **Settings** (gear) icon to open the **Settings** panel:
+
+    ![OWA Settings panel](../../images/mya/use/owa-settings.png) 
+
+2. In the **Settings** panel, select **View all Outlook Settings**.
+
+3. Be sure **Mail** is selected in the left panel, and in the center panel, select **Customize actions**:
+
+    ![Customize actions](../../images/mya/use/customize-actions.png) 
+
+4. In the right pane, in the **Message surface** area, select **Insights**:
+
+    ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png) 
+
+5. In the right pane, in the **Toolbar** area, select **Insights**:
+
+    ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
+
+6. Save your new settings: 
+
+    ![Save settings](../../images/mya/use/save-settings.png) 
 
 **To see read information about sent emails**
 
