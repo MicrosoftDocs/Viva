@@ -45,7 +45,7 @@ The following enhancements and features are included in the Process Explorer Azu
 * New download option for datasets.
 * New Process Explorer Admin setting that specifies if the template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization:
 
-    ![Categorize email admin setting](./images/pexp-admin-setting.png)
+    ![Categorize email admin setting](./images/pexp-admin-settings.png)
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
