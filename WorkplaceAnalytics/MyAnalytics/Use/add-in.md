@@ -76,55 +76,6 @@ The Insights add-in reports the open rate within 30 minutes of when qualifying e
 
 MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../overview/privacy-guide.md).
 
-<!-- HERE'S A CLEARER TABLE BUT THEY WANTED A SHORTER TABLE
-<table>
-  <tr>
-    <th>Number of recipients</th>
-    <th>Actual open rate</th>
-    <th>Open rate that Insights reports</th>
-  </tr>
-  <tr>
-    <td rowspan = 3 >5 - 10</td>
-    <td>&lt; 25%</td>
-    <td>"&lt; 25%"<td>
-  </tr>
-  <tr>
-    <td>25 - 75%</td>
-    <td><i>actual open rate</i></td>
-  </tr>    
-  <tr>
-    <td>&gt; 75%</td>
-    <td>"&gt; 75%"</td>
-  </tr>  
-  <tr>
-    <td rowspan = 3 >11 - 20</td>
-    <td>&lt; 10%</td>
-    <td>"&lt; 10%"<td>
-  </tr>
-  <tr>
-    <td>10 - 90%</td>
-    <td><i>actual open rate</i></td>
-  </tr>    
-  <tr>
-    <td>&gt; 90%</td>
-    <td>"&gt; 90%"</td>
-  </tr>
-  <tr>
-    <td rowspan = 3>> 21</td>
-    <td>&lt; 5%</td>
-    <td>"&lt; 5%"<td>
-  </tr>
-  <tr>
-    <td>5 - 95%</td>
-    <td><i>actual open rate</i></td>
-  </tr>    
-  <tr>
-    <td>&gt; 95%</td>
-    <td>"&gt; 95%"</td>
-  </tr>     
-</table>
--->
-
 ### Pin the add-in
 
 If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.
