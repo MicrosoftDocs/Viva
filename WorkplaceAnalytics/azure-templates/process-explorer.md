@@ -77,7 +77,7 @@ Use the following steps to manually categorize meetings for both dataset types. 
 3. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings. In **Dashboard** > **Add a New Category**, enter the name of a category you want to add, and then press **Enter** to add it to the list.
 4. Select **Meeting** > **Open Query Builder** > **Discover Topics**, enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view meetings with these keywords, and then select **Run query**. You can also select a word from the word cloud to add it as a keyword.
 
-       ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
+   ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
 
    * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
@@ -92,14 +92,14 @@ Use the following steps to manually categorize meetings for both dataset types. 
    * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and meeting list to include.
    * **Max Results to Show** to set how many results to show in the list.
 
-          ![Process Explorer filter options](./images/pexp-filter-options.png)
+   ![Process Explorer filter options](./images/pexp-filter-options.png)
 
 6. After the data is queried, close the query builder pane to see the meeting list, and then to help train the model for auto-categorization of the whole dataset:
 
    * Select a category, select all meetings in the list by selecting the check box next to **Subject**, and then select **Apply** to add these meetings to that category.
    * Or select a category, individually select the check box next to a good sample of related meetings, and then select **Apply** to add them to that category.
 
-        ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
+    ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
 
    * In **Dashboard** > **Add a New Category**, enter any additional categories needed for grouping the uncategorized meetings.
    * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
@@ -108,7 +108,7 @@ Use the following steps to manually categorize meetings for both dataset types. 
      * For .csv datasets, select **Auto-Categorize Full Dataset** to categorize all of the meetings uploaded in the .csv file.
      * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 in To categorize email activity for analysis](#to-categorize-email-activity-for-analysis) for next steps to categorize email.
 
-         ![Auto-categorize meetings](./images/pexp-auto.png)
+    ![Auto-categorize meetings](./images/pexp-auto.png)
 
 7. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add new or change existing categories.
 
@@ -144,7 +144,7 @@ For a blob storage dataset, the categorization options depend of what the admin 
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
    * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
 
-         ![Categorize email](./images/pexp-email-query.png)
+   ![Categorize email](./images/pexp-email-query.png)
 
 5. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
 
@@ -159,7 +159,7 @@ For a blob storage dataset, the categorization options depend of what the admin 
 
 You can see data about the categorized email and meetings on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current data shown on the **Dashboard** page.
 
-   ![Email activity included in the analysis](./images/pexp-dashboard.png)
+  ![Email activity included in the analysis](./images/pexp-dashboard.png)
 
 ## Related topics
 
