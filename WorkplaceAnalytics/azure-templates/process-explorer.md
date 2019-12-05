@@ -99,7 +99,7 @@ Use the following steps to manually categorize meetings for both dataset types. 
    * Select a category, select all meetings in the list by selecting the check box next to **Subject**, and then select **Apply** to add these meetings to that category.
    * Or select a category, individually select the check box next to a good sample of related meetings, and then select **Apply** to add them to that category.
 
-      ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
+         ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
 
    * In **Dashboard** > **Add a New Category**, enter any additional categories needed for grouping the uncategorized meetings.
    * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
@@ -138,13 +138,13 @@ For a blob storage dataset, the categorization options depend of what the admin 
 
 4. If the **Email** category page is available, then you can manually  manually categorize email activity by selecting **Email** > **Query Builder** and then entering one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
-     * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
-     * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
-     * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-     * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-     * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
+       * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
+       * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
+       * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
+       * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
+       * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
 
-       ![Categorize email](./images/pexp-email-query.png)
+         ![Categorize email](./images/pexp-email-query.png)
 
 5. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
 
