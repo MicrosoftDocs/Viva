@@ -18,23 +18,23 @@ Collaboration in MyAnalytics shows how effectively you are with your meetings an
 
   ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
 
-## Weekly average
+## Weekly Average
 
-The Weekly average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours ([Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance)).
+The Weekly Average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours ([Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance)).
 
-  ![MyAnalytics Collaboration weekly average](../../Images/mya/use/collab-weekly-average.png)
+   ![MyAnalytics Collaboration Weekly Average](../../Images/mya/use/collab-weekly-average.png)
 
-## Meeting habits
+## Meeting Habits
 
 The Meeting habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the Meetings view:
 
 * The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
-    ![MyAnalytics Collaboration Meeting habits](../../Images/mya/use/collab-habits.png)
+    ![MyAnalytics Collaboration Meeting Habits View](../../Images/mya/use/collab-habits.png)
 
-* The **Meetings** view shows more details about all the meetings on your calendar over the past four weeks.
+* The **List View** shows details about all the meetings on your calendar over the past four weeks.
 
-    ![MyAnalytics Collaboration Meeting details](../../Images/mya/use/collab-meetings2.png)
+    ![MyAnalytics Collaboration Meeting List View](../../Images/mya/use/collab-meeting-list.png)
 
    |Icon |Description |
    |---|---|
@@ -48,15 +48,15 @@ The Meeting habits section highlights what your habits or practices are in meeti
 
 For a list of meetings that are excluded from the Meetings list and metrics, see [Meeting exclusions](#meeting-exclusions).
 
-## Communication habits
+## Communication Habits
 
-The Communication habits section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
+The Communication Habits section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
 
-   ![MyAnalytics Communication habits](../../Images/mya/use/collab-com-chart.png)
+   ![MyAnalytics Communication habits](../../Images/mya/use/collab-comm-habits.png)
 
 ## Productivity insights
 
-These are based on your recent collaboration activity at work. Select **View Suggestions** to get ideas about how you might change or improve your current collaboration patterns.
+The insights are based on your recent collaboration activity at work. Select **View Suggestions** to get ideas about how you might change your current collaboration patterns.
 
 ## About the metrics
 
@@ -108,8 +108,9 @@ Also, the time you spend sending or reading email outside your set work hours (a
 
 MyAnalytics counts your audio calls, video calls, and chats (instant messages) that occur in Teams and in Skype for Business as collaboration activities, which are calculated as follows:
 
-* Each chat or instant message that *you send* counts as 30 seconds.
-* Each chat that *you receive* counts as zero seconds because empirically, time spent on sent messages is a good predictor of the total duration of Teams and Skype for Business sessions.
+* Each chat or instant message that *you send* counts the time as 30 seconds.
+* Each chat that *you receive* counts as zero seconds in time because empirically, time spent on sent messages is a good predictor of the total duration of Teams and Skype for Business sessions.
+* Each chat or instant message within a 15-minute window of time is counted as one chat.
 * For each impromptu call, MyAnalytics uses the actual duration of the call. An impromptu or ad hoc call is an unscheduled call that’s not included in your calendar.
 * For calls that are scheduled as meetings in your calendar, the time counts as zero seconds because these calls are already being counted as meeting time.
 
