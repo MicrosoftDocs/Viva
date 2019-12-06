@@ -14,13 +14,13 @@ ms.prod: mya
 
 # Collaboration
 
-Collaboration in MyAnalytics shows how effectively you are with your meetings and communications. The **Collaboration** page shows a detailed view of your weekly collaboration averages, meeting habits, and communication habits.
+Collaboration in MyAnalytics helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
 
   ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
 
 ## Weekly Average
 
-The Weekly Average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours ([Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance)).
+The Weekly Average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours as configured in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
    ![MyAnalytics Collaboration Weekly Average](../../Images/mya/use/collab-weekly-average.png)
 
