@@ -5,7 +5,7 @@
 title: Workplace Analytics plan participants
 description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
 author: paul9955
-ms.author: v-pascha
+ms.author: paul9955
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -31,19 +31,19 @@ The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly a
 
 ![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
  
-## Email digest
+## Digest
 
-All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digest.md). In addition to its standard content, their email digest for partipants also includes a section that summarizes their progress in the plan, similar to the following: 
+All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
 
-![Weekly email digest](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
+![Weekly digest](../images/wpa/tutorials/weekly-digest-prog-partic-75.png) 
 
 ## MyAnalytics inline suggestions
 
-MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them. 
+MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them.
 
 ### Plan-only inline suggestions
 
-While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan): 
+While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan):
 
 #### Collaboration plan
 

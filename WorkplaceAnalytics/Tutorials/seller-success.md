@@ -6,7 +6,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Seller success solution in Workplace Analytics 
 description: Describes the seller success solution and how to create a seller success plan 
 author: paul9955
-ms.author: v-pascha
+ms.author: paul9955
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -169,7 +169,7 @@ Spending time with and getting attention from your manager is important for the 
  
 ### Explore
 
-The final card in the email digest is the Explore card. On this card, select **Explore** to open the MyAnalytics dashboard, which shows more details about the information that the other cards present.
+The final card in the digest is the Explore card. On this card, select **Explore** to open the MyAnalytics dashboard, which shows more details about the information that the other cards present.
 
 ![Explore card](../images/wpa/tutorials/explore-card-70.png)
 

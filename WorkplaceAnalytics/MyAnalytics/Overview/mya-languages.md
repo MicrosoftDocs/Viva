@@ -5,7 +5,7 @@
 title: MyAnalytics languages
 description: List of supported languages for the elements of MyAnalytics
 author: paul9955
-ms.author: v-pascha
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -16,10 +16,10 @@ audience: Admin
 
 # MyAnalytics languages
 
-The elements of MyAnalytics (the [personal dashboard](../use/dashboard-2.md), the [email digests](../use/email-digest-2.md), and the [Insights Outlook add-in](../use/add-in.md)) are available in world languages as described in the following table: 
+The elements of MyAnalytics (the [personal dashboard](../use/dashboard-2.md), the [digests](../use/email-digest-2.md), and the [Insights Outlook add-in](../use/add-in.md)) are available in world languages as described in the following table: 
 
 
-| Dashboard	| Email digest | Outlook add-in (a-k)	| Outlook add-in (l-z) |  
+| Dashboard	| Digests | Outlook add-in (a-k)	| Outlook add-in (l-z) |  
 |  	-------	  |  --------- | -------------------  | -------------------- |  
 |  	Arabic	  |  	Amharic	 |  	Afghan Persian	  |  	Lao-LA	           |  
 |  	Basque	  |  	Arabic   |  	Afghan Persian-AF	|  	Latvian	           |  

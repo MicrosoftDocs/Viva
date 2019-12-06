@@ -6,7 +6,6 @@ title: Insights in MyAnalytics
 description: The display of insights in MyAnalytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -19,7 +18,7 @@ The personal dashboard of MyAnalytics offers _insights_. An insight is a card th
 Insights appear beneath the "My time summary" section of the dashboard. If MyAnalytics has generated more than one of them for you, you can scroll through them by clicking the arrows next to the text that tells you how many insights you have.  
 
 > [!Note] 
-> Insights appear not only in the MyAnalytics dashboard, but also in the MyAnalytics [email digest](../email-digest-2.md).
+> Insights appear not only in the MyAnalytics dashboard, but also in the [MyAnalytics digest](../email-digest-2.md).
 
 <!-- EXAMPLES REMOVED PER NOELLE 24 AUGUST
 
