@@ -62,23 +62,11 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 9. If you are not uploading a new data file, you must now choose whether to append or replace organizational data. In the **Append or replace** area, select one of the following options:
 
-    * Use **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes (columns). This is the default option. To append data, leave this option selected, select **Next**, and go to [Field mapping](#field-mapping). 
+    * Use **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes (columns). This is the default option. 
 
-    * Use **Replace all existing organizational data with this file** to delete all _previous_ HR data uploads, so that the data in the _current_ upload becomes the only HR data that is present for your organization in Workplace Analytics. Take note of the "Caution" message, which explains that this replace option permanently deletes all previously uploaded organizational data. 
+    * Use **Replace all existing organizational data with this file** to delete all _previous_ HR data uploads, so that the data in the _current_ upload becomes the only HR data that is present for your organization in Workplace Analytics. Take note of the "Caution" message, which explains that this replace option permanently deletes all previously uploaded organizational data.  
 
-      * **If columns are missing:** The schema of the new data file need not exactly match the schema of the previously uploaded HR data. However, omitting columns that were present in previous uploads can cause errors in any [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns.       
-      If such errors are detected, Workplace Analytics displays a warning message: 
-
-         ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
-
-        Below this message, a table in the **Warning details** section lists the affected queries and provides details about the issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
-
-        After you review the issues, if you decide not to continue with the data replacement, select **Back.** 
-        
-        To continue with data upload and replacement despite the issues, select **Next.** This displays a confirmation dialog box, which reads, "Proceeding with new mapping will cause the affected auto refresh queries to be disabled." 
-        
-         * To stop data upload and keep your current mappings, select **Back.** 
-         * To continue with the upload, select **Confirm**, and go to [Field mapping](#field-mapping). Note that this choice will disable the affected auto-refresh queries, the queries that were listed in the **Warning Details** area.  
+    After you have chosen to append or to replace data, select **Next** and go to [Field mapping](#field-mapping).
 
 <!-- IT SEEMS WE NEVER GET TO THIS STEP:
 10. Select **Continue** and then [map your fields](#field-mapping).
@@ -93,6 +81,8 @@ You need to map the fields (columns) for the source .csv file to the field names
 The **Upload** page includes tables for System fields and Custom fields for mapping the data for the upload file.
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
+
+<!-- TWO OF THE FOLLOWING THREE SECTIONS (system fields tabLe, custom fields table, columns in the fields tables) ARE LONG AND THIS MAKES THE TOPIC HARDER TO NAVIGATE. CONSIDER PRESENTING THEM IN TABS, RATHER THAN CONSECUTIVELY. -->
 
 ### System fields table
 
@@ -131,26 +121,17 @@ When appending new attributes to an existing upload, you need to select all the 
 
 The drop-down menu under **Include in report** offers the following options for each of the columns in your source data:
 
-   * **Show in report:** Let the actual data value display in the report just as it was imported in the organizational data file.
+   * **Show in report.** Let the actual data value display in the report just as it was imported in the organizational data file.
 
-   * **Exclude from report:** Prevent the data value from appearing in the report. For data-privacy reasons, some attributes (such as ManagerID) are automatically assigned the value "Exclude from report" and this value cannot be changed. 
+   * **Hash in report.** De-identify sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of displaying actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
 
-   * **Hash in report** de-identifies sensitive data. This option includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
+   * **Exclude from report:** Prevent the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerID. In those cases, you cannot change this value. 
 
      > [!Note] 
-     > The visibility of one or more existing data columns might be set to **Show in report** or **Hash in report**. If you change the visibility setting of any of these columns to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation. In this case, Workplace Analytics displays the following warning message: 
-
-        ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
-
-        Below this message, a table in the **Warning details** section lists the affected queries and provides details about the issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
-
-        After you review the issues, if you decide not to continue, select **Back.** 
-        
-        To continue with data upload despite the issues, select **Next.** This displays a confirmation dialog box, which reads, "Proceeding with new mapping will cause the affected auto refresh queries to be disabled." 
-        
-        * To stop data upload and keep your current mappings, select **Back.** 
-        * To continue with the upload, select **Confirm**. Note that this choice will disable the affected auto-refresh queries, the queries that were listed in the **Warning Details** area.       
-
+     > The visibility of one or more attributes might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change the setting of one of these columns to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation. 
+     >
+     > In this case, after you have finished mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect execution of the auto refresh queries." If you see this message, go to the section [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). 
+     
 **To map fields**
 
 After you complete the steps in [File upload](#file-upload), the **Upload** page with the System fields table will appear.
@@ -180,7 +161,28 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 3. In the **Submit for validation** area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the data file and starts the validation process.
 
-4. Go to the next phase, [Data validation](#data-validation).
+> [!Note] 
+> The schema of the new data file need not exactly match the schema of the previously uploaded HR data. However, omitting columns that were present in previous uploads can cause errors in any [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns.  
+> If expected columns are missing, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect execution of the auto refresh queries." If you see this message, go to the section [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). 
+
+<!-- Either use the following step or go to columns missing section: -->
+
+4. If you do not see the warning message that reads "Your upload has certain issues ... ," go to the next phase, [Data validation](#data-validation).
+
+### If expected columns are missing or excluded
+
+If expected columns are missing, or if visibility settings cause expected columns to be excluded, Workplace Analytics displays a warning message: 
+
+   ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
+
+Below this message, a table in the **Warning details** section lists the affected queries and provides details about the issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
+
+After you review the issues, if you decide not to continue with the data replacement, select **Back.** 
+        
+To continue with data upload and replacement despite the issues, select **Next.** This displays a confirmation dialog box, which reads, "Proceeding with new mapping will cause the affected auto refresh queries to be disabled." 
+        
+* To stop data upload and keep your current mappings, select **Back.** 
+* To continue with the upload, select **Confirm**, and go to [Field mapping](#field-mapping). Note that this choice will disable the affected auto-refresh queries, the queries that were listed in the **Warning Details** area.  
 
 ## Data validation
 
