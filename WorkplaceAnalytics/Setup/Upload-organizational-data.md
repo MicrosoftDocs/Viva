@@ -144,7 +144,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
     b. Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.
 
-    c. Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields and for any optional fields that you choose to map.
+    c. Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields.
 
    > [!Note]
    > For more information, see [Columns in the fields tables](#columns-in-the-fields-tables).
@@ -157,7 +157,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
     
     b. Set values for the other columns in the table, such as the data type, the validity threshold, and the hash setting for reports.
      
-    c. Repeat these steps for all custom fields that are important to your organization.
+    c. Repeat these steps for all optional and custom fields that are important to your organization.
 
 3. In the **Submit for validation** area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the data file and starts the validation process.
 
