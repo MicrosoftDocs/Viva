@@ -10,6 +10,7 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Queries with CRM data
 
 After you've successfully uploaded and processed your company’s Customer Relationship Management (CRM) data in Workplace Analytics, you can use person, person-to-group, and group-to-group queries to do combined organizational and CRM data analysis, such as:
