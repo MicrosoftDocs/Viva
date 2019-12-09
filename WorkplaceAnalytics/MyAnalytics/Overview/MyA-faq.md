@@ -301,7 +301,7 @@ As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible 
 
 #### Q16. How can I manage MyAnalytics experiences in Office 365 GCC?
 
-You can enable or disable MyAnalytics experiences by following the applicable steps in [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019.
+You can enable or disable MyAnalytics experiences by following the applicable steps in [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019. 
 
 #### Q17. How do the MyAnalytics digests show up in Outlook?
 
