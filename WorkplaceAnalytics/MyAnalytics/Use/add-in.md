@@ -235,10 +235,6 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
 
 ## Opt out of the Insights Outlook add-in
 
-<!-- REMOVED 12 NOV 2019 IN FAVOR OF WHAT FOLLOWS
-The way to opt out of the Insights add-in is to opt out of MyAnalytics. For instructions, see [Opt out of MyAnalytics](opt-out-of-mya.md).
--->
-
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right.
 
