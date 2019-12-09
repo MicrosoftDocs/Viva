@@ -54,25 +54,6 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
 11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
-## To add new subgroup analysis
-
-Subgroup analysis enables you to compare or focus your analysis on specific subgroups within the selected dataset.
-
-1. You can create a new subgroup in one of the following ways:
-
-   * From the dataset page, select the dataset from the list, and then at top right, select **Add New Analysis**.
-   * From within the graph view of a dataset, select the **Recompute Metrics** icon.
-
-2. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
-
-   ![Add New Analysis](./images/ona-subgroup-analysis.png)
-
-3. Optionally, in **Specify the Network Boundary Condition**, select one or more filters to focus your analysis on.
-4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
-5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
-6. For **Compute Options**, you can select to generate both network and group level metrics to get both the aggregated calculations for the whole date range and the monthly measure calculations for the selected date range. If you don't select this option, you won't get the monthly metrics.
-7. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
-
 ## To view analysis
 
 1. After the analysis successfully loads (green check mark), select it from the list, and then:
@@ -95,7 +76,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
-   ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in these layouts: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries.</li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don’t want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
+   ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in the following layouts. Note that this option is unavailable when the number of graph nodes exceeds the values set by your admin: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries. </li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don’t want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![ONA change settings](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
@@ -103,6 +84,24 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    ![ONA download table](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).
    ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown to load and view later.
    ![ONA recompute](./images/ona-recompute-icon.png) | Recompute Metrics |Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).
+
+## To add new subgroup analysis
+
+Subgroup analysis enables you to compare or focus your analysis on specific subgroups within the selected dataset.
+
+1. You can create a new subgroup in one of the following ways:
+
+   * From the dataset page, select the dataset from the list, and then at top right, select **Add New Analysis**.
+   * From within the graph view of a dataset, select the **Recompute Metrics** icon, which automatically applies the current filter settings to the **Add New Analysis** pane.
+
+2. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
+
+   ![Add New Analysis](./images/ona-subgroup-analysis.png)
+
+3. Optionally, in **Specify the Network Boundary Condition**, select one or more filters to focus your analysis on.
+4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
+5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
+6. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
 ## To view a saved graph
 
