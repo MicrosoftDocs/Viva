@@ -31,7 +31,7 @@ The following enhancements and features are included in the Organizational Netwo
   * Eigen Centrality is now Influence Index
   * Closeness is now Reach Index
   * Network size is now Degrees
-* Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts meet the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Configuration](./deploy-configure.md#configuration).
+* Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts are less than the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Configuration](./deploy-configure.md#configuration).
 * Improved UX for defining analysis and saving subsets of data within the graph view. For details, see [To add new subgroup analysis](./organization-network-analysis.md#to-add-new-subgroup-analysis).
 * New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
 * New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure Template.
@@ -43,7 +43,8 @@ To learn more, see [Organizational Network Analysis Azure Template](./organizati
 The following enhancements and features are included in the Process Explorer Azure Template.
 
 * New download option for datasets.
-* New Process Explorer Admin setting that specifies if the template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization:
+* Additional options (filters, time range) that help reduce the size of the training dataset for cloud storage, which is required to be less than five million meetings and emails, for improved interactivity when building and training the template model(s) for auto-categorization of the full dataset.
+* New Process Explorer Admin setting that specifies if the template shows email subjects and requires categorization to train emails by using a distinct model, or if it trains both email and meetings by using only meeting data.
 
     ![Categorize email admin setting](./images/pexp-admin-settings.png)
 
