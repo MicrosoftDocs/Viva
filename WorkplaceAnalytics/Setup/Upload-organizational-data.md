@@ -128,11 +128,11 @@ The drop-down menu under **Include in report** offers the following options for 
    * **Exclude from report:** Prevent the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerID. In those cases, you cannot change this value. 
 
      > [!Note] 
-     > The visibility of one or more attributes might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change the setting of one of these columns to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation. 
+     > The visibility of one or more attributes (columns) might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change this setting to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation. 
      >
-     > In this case, after you have finished mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect execution of the auto refresh queries." If you see this message, go to the section [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). 
+     > In this case, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect execution of the auto refresh queries." If you see this message, go to [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). 
      
-**To map fields**
+#### To map fields
 
 After you complete the steps in [File upload](#file-upload), the **Upload** page with the System fields table will appear.
 
@@ -171,18 +171,15 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 ### If expected columns are missing or excluded
 
-If expected columns are missing, or if visibility settings cause expected columns to be excluded, Workplace Analytics displays a warning message: 
+If expected columns are missing, or if visibility settings caused expected columns to be excluded, Workplace Analytics shows a warning message: 
 
    ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
 
-Below this message, a table in the **Warning details** section lists the affected queries and provides details about the issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
+Below this message, a table in the **Warning details** section lists the affected queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
 
-After you review the issues, if you decide not to continue with the data replacement, select **Back.** 
+After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with the steps in [To map fields](#to-map-fields). 
         
-To continue with data upload and replacement despite the issues, select **Next.** This displays a confirmation dialog box, which reads, "Proceeding with new mapping will cause the affected auto refresh queries to be disabled." 
-        
-* To stop data upload and keep your current mappings, select **Back.** 
-* To continue with the upload, select **Confirm**, and go to [Field mapping](#field-mapping). Note that this choice will disable the affected auto-refresh queries, the queries that were listed in the **Warning Details** area.  
+To continue with data upload despite the issues, select **Next.** Note that this choice will disable the auto-refresh aspect of queries that were listed in the **Warning Details** area. The results of the last runs of these queries remain available.
 
 ## Data validation
 
