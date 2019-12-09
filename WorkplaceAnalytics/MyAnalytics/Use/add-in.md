@@ -27,7 +27,7 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 ## What you might see
 
-In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**.
+In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**. (For easier access in Outlook on the web, you can pin the Insights Add-in to the quick access pane. See [Pin the add-in](#pin-the-add-in) for details.)
 
 You'll see Insights in the right panel in Outlook:
 
@@ -75,56 +75,6 @@ The Insights add-in reports the open rate within 30 minutes of when qualifying e
    | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
 MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../overview/privacy-guide.md).
-
-<!-- HERE'S A CLEARER TABLE BUT THEY WANTED A SHORTER TABLE
-<table>
-  <tr>
-    <th>Number of recipients</th>
-    <th>Actual open rate</th>
-    <th>Open rate that Insights reports</th>
-  </tr>
-  <tr>
-    <td rowspan = 3 >5 - 10</td>
-    <td>&lt; 25%</td>
-    <td>"&lt; 25%"<td>
-  </tr>
-  <tr>
-    <td>25 - 75%</td>
-    <td><i>actual open rate</i></td>
-  </tr>    
-  <tr>
-    <td>&gt; 75%</td>
-    <td>"&gt; 75%"</td>
-  </tr>  
-  <tr>
-    <td rowspan = 3 >11 - 20</td>
-    <td>&lt; 10%</td>
-    <td>"&lt; 10%"<td>
-  </tr>
-  <tr>
-    <td>10 - 90%</td>
-    <td><i>actual open rate</i></td>
-  </tr>    
-  <tr>
-    <td>&gt; 90%</td>
-    <td>"&gt; 90%"</td>
-  </tr>
-  <tr>
-    <td rowspan = 3>> 21</td>
-    <td>&lt; 5%</td>
-    <td>"&lt; 5%"<td>
-  </tr>
-  <tr>
-    <td>5 - 95%</td>
-    <td><i>actual open rate</i></td>
-  </tr>    
-  <tr>
-    <td>&gt; 95%</td>
-    <td>"&gt; 95%"</td>
-  </tr>     
-</table>
--->
-
 
 **To see read information about sent emails**
 
@@ -228,6 +178,34 @@ These insights cards inform you of the following:
 _This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
 
 ![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
+
+## Pin the add-in
+
+If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.
+
+**To pin the add-in to the quick access pane**
+
+1. In Outlook on the web, select the **Settings** (gear) icon to open the **Settings** panel:
+
+    ![OWA Settings panel](../../images/mya/use/owa-settings.png) 
+
+2. In the **Settings** panel, select **View all Outlook Settings**.
+
+3. Be sure **Mail** is selected in the left panel, and in the center panel, select **Customize actions**:
+
+    ![Customize actions](../../images/mya/use/customize-actions.png) 
+
+4. In the right pane, in the **Message surface** area, select **Insights**:
+
+    ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png) 
+
+5. In the right pane, in the **Toolbar** area, select **Insights**:
+
+    ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
+
+6. Save your new settings: 
+
+    ![Save settings](../../images/mya/use/save-settings.png) 
 
 ## Privacy by design 
 
