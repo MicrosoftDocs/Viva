@@ -43,7 +43,7 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
 2. In the left navigation pane, select **Settings**.
-3. Select **Organizational data**. The **Upload history** area of this page displays the previous data uploads from your organization.
+3. Select **Organizational data**. The **Upload history** area of this page shows the previous data uploads from your organization.
 4. Select **New upload**.
 5. On the **Upload** page, select **Name your upload**, and then type the name of your new upload file.
 6. Optionally, select **Add an optional description** and type a description of this upload.
@@ -58,7 +58,7 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
   > [!Note]
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
 
-8. To complete a new-file upload, select **Next**. This displays the **System fields** table. Go to [Field mapping](#field-mapping).
+8. To complete a new-file upload, select **Next**. This shows the **System fields** table. Go to [Field mapping](#field-mapping).
 
 9. If you are not uploading a new data file, you must now choose whether to append or replace organizational data. In the **Append or replace** area, select one of the following options:
 
@@ -91,7 +91,7 @@ When appending new attributes to an existing upload, you need to select all the 
 
 ### Custom fields table
 
-* **Custom fields** are displayed on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source.csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
+* **Custom fields** appear on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source.csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
 
 ### Columns in the fields tables
 
@@ -121,9 +121,9 @@ When appending new attributes to an existing upload, you need to select all the 
 
 The drop-down menu under **Include in report** offers the following options for each of the columns in your source data:
 
-   * **Show in report.** Let the actual data value display in the report just as it was imported in the organizational data file.
+   * **Show in report.** Let the actual data value appear in the report just as it was imported in the organizational data file.
 
-   * **Hash in report.** De-identify sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of displaying actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
+   * **Hash in report.** De-identify sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of showing actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
 
    * **Exclude from report:** Prevent the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerID. In those cases, you cannot change this value. 
 
@@ -142,7 +142,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
     <img src="../images/wpa/setup/upload2-map-sys-fields.png" alt="System fields table">
 
-    b. Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.
+    b. Under Source column (the first column in the table), click the down arrow. This shows a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.
 
     c. Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields.
 
@@ -153,7 +153,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
     <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
-    a. Under **Source column** (the first column in the table), select the down arrow to display the list of column names that were found in the data file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.
+    a. Under **Source column** (the first column in the table), select the down arrow to see the list of column names that were found in the data file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.
     
     b. Set values for the other columns in the table, such as the data type, the validity threshold, and the hash setting for reports.
      
@@ -183,7 +183,7 @@ To continue with data upload despite the issues, select **Next.** Note that this
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page displays the _File is being uploaded_ screen:
+After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page shows the _File is being uploaded_ screen:
 
 ![Upload in progress](../images/wpa/setup/upload4-uploading.png)
 
