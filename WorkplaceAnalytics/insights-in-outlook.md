@@ -59,7 +59,7 @@ The Outlook add-in is now available.
 
 **Q4. Will users receive the MyAnalytics welcome email and digests?**
 
-MyAnalytics digests will be available to users starting now through December 2019.
+MyAnalytics digests will be available to users starting now through the first quarter of calendar year 2020.
 
 **Q5. Will users see MyAnalytics in the App launcher?**
 
