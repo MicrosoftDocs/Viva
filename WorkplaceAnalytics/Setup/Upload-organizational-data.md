@@ -189,10 +189,6 @@ After you complete the steps in [Field mapping](#field-mapping), the organizatio
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
 
-<!-- THE FOLLOWING IS NOT VALID FOR SUBSEQUENT UPLOADS
-During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different data file instead, select **Cancel**. 
--->
-
 After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
 
 [Validation succeeds](#validation-succeeds)
