@@ -13,25 +13,19 @@ ms.prod: wpa
 
 # Workplace Analytics Home
 
-As an analyst or program manager, the Home page gives you research-based insights into how your organization gets work done, empowering you to explain and predict the impact of daily activity and drive opportunities toward positive change.
+As a business leader, an analyst, or a program manager, the new Home page gives you research-based insights into how your organization gets work done and empowers you to explain and predict the impact of daily activity and to drive opportunities for change.
 
 The top right of the page shows who is included in this analysis, which is based on the most recent organizational data uploaded and processed in Workplace Analytics, including the current date range, the number of measured employees, managers, teams, and organizational levels.
 
 ![Home page](../images/wpa/use/wpa-home.png)
 
-The following business insight areas are included on the Home page:
-
-* [Employee experience](#employee-experience)
-* [Organizational agility](#organizational-agility)
-* [Customer focus](#customer-focus)
-
 ## Why it matters
 
-The business insights include leading indicators that explain why they're important to you. Each insight also explains how Workplace Analytics can help you understand what your organization is doing now and how you can drive change.
+The business insights include leading indicators that explain why they are important to you. Each insight also explains how Workplace Analytics can help you understand what your organization is doing now and how you can drive change.
 
 ## Supporting evidence
 
-Individual insights include **Supporting evidence** links that connect you to [Microsoft Workplace Insights](https://insights.office.com/), which include articles by industry experts based on research and by other organizations that have effectively used similar analysis to improve their business outcomes.
+Individual insights include **Supporting evidence** that links you to [Microsoft Workplace Insights](https://insights.office.com/), which include articles by industry experts based on research and by other organizations that have effectively used similar analysis to improve their business outcomes.
 
 ## Explore the stats
 
@@ -43,11 +37,9 @@ For example, as an analyst, if you select **Explore the metrics** in **Organizat
 
 ## View recommended plan
 
-Depending on your role, you'll either see a **Share** or a **View recommended plan** link. The plan link enables you to make an immediate impact by creating a plan for the groups listed in that specific insight.
+Depending on your role, you'll either see a **Share** or a **View recommended plan** link. This enables immediate impact by creating a plan for the groups listed in that specific insight.
 
-For example, as an analyst, if you select **View recommended plan**, you'll see the following to set up a new plan for the groups listed in that section.
-
-![View recommended plan](../images/wpa/use/view-recommended-plan.png)
+For example, as an analyst, if you select **View recommended plan**, a pane opens to set up a new plan for the listed groups.
 
 ## Employee experience
 
