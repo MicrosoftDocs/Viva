@@ -57,6 +57,8 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 * Dedicated Multi-tenant
 * GCC
 
+<!-- Consider changing this last row to "Government Community Cloud (GCC)" -->
+
 ### Office 365 environments that are not supported
 
 * GCC-High
