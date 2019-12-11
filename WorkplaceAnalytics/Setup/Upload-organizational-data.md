@@ -161,17 +161,22 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 3. In the **Submit for validation** area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the data file and starts the validation process.
 
+<!-- DROPPING THIS NOTE FOR NOW IN FAVOR OF ADDING RELATED WORDING TO STEP 4 
 > [!Note] 
 > The schema of the new data file need not exactly match the schema of the previously uploaded HR data. However, omitting columns that were present in previous uploads can cause errors in any [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns.  
-> If expected columns are missing, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect execution of the auto refresh queries." If you see this message, go to the section [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). 
+> If expected columns are missing, Workplace Analytics shows a warning message that reads "
+-->
 
-<!-- Either use the following step or go to columns missing section: -->
+4. After you select **Submit**, two circumstances could trigger a warning message: 
 
-4. If you do not see the warning message that reads "Your upload has certain issues ... ," go to the next phase, [Data validation](#data-validation).
+   * **Omitted columns.** If (a) You chose the **Replace** option for uploading organizational data, and (b) while mapping fields, you have chosen to omit one or more columns, and (c) at least one auto-refresh query depends on those (omitted) columns.
+   * **Excluded columns.** If (a) While mapping fields, you have chosen to exclude one or more columns from query results, and (b) at least one auto-refresh query depends on those (excluded) columns.
+
+   In either of these cases, Workplace Analytics shows a warning message about issues that could affect auto-refresh queries. If you see this message, go to the section [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not see this warning message, go to the next phase, [Data validation](#data-validation).
 
 ### If expected columns are missing or excluded
 
-If expected columns are missing, or if visibility settings caused expected columns to be excluded, Workplace Analytics shows a warning message: 
+For queries to run successfully, they require particular attributes (columns) to be present in the organizational data. This is true also for queries for which the auto-refresh option is set. If expected columns are missing, or if visibility settings caused expected columns to be excluded, Workplace Analytics shows a warning message: 
 
    ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
 
