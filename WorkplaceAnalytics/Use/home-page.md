@@ -39,7 +39,7 @@ For example, as an analyst, if you select **Explore the metrics** in **Organizat
 
 Depending on your role, you'll either see a **Share** or a **View recommended plan** link. This enables immediate impact by creating a plan for the groups listed in that specific insight.
 
-For example, as an analyst, if you select **View recommended plan**, a pane opens to set up a new plan for the listed groups. For more details about creating plans, see [Define the plan](../tutorials/solutionsv2-task#define-the-plan.md).
+For example, as an analyst, if you select **View recommended plan**, a pane opens to set up a new plan for the listed groups. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task#create-a-plan.md).
 
 ## Employee experience
 
