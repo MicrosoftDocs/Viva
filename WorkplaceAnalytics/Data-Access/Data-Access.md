@@ -120,22 +120,3 @@ SASKEY=${SASKEY:1:-1}
 # return a read-only SAS URI which can be used by an analyst to export data
 echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
 ```
-
-## Related topics
-
-[Meetings](./Meetings.md)
-
-[MeetingParticipants](./MeetingParticipants.md)
-
-[PersonHistorical](./PersonHistorical.md)
-
-[MailParticipants](./MailParticipants.md)
-
-[Calls](./calls.md)
-
-[CallParticipants](./callparticipants.md)
-
-[InstantMessages](./instantmessages.md)
-
-[InstantMessageParticipants](./instantmessageparticipants.md)
-
