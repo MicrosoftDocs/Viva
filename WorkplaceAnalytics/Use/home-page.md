@@ -23,6 +23,8 @@ The top right of the page shows who is included in this analysis, which is based
 
 The business insights include leading indicators that explain why they are important to you. Each insight also explains how Workplace Analytics can help you understand what your organization is doing now and how you can drive change.
 
+Select **See the answers** to see more specific details relating to that business insight.
+
 ## Supporting evidence
 
 Individual insights include **Supporting evidence** that links you to [Microsoft Workplace Insights](https://insights.office.com/), which include articles by industry experts based on research and by other organizations that have effectively used similar analysis to improve their business outcomes.
