@@ -176,7 +176,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 ### If expected columns are missing or excluded
 
-For queries to run successfully, they require particular attributes (columns) to be present in the organizational data. This is true also for queries for which the auto-refresh option is set. If expected columns are missing, or if visibility settings caused expected columns to be excluded, Workplace Analytics shows a warning message: 
+For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Include in report** option) exclude expected columns, Workplace Analytics shows a warning message: 
 
    ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
 
@@ -184,7 +184,7 @@ Below this message, a table in the **Warning details** section lists the affecte
 
 After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with the steps in [To map fields](#to-map-fields). 
         
-To continue with data upload despite the issues, select **Next.** Note that this choice will disable the auto-refresh aspect of queries that were listed in the **Warning Details** area. The results of the last runs of these queries remain available.
+To continue with data upload despite the issues, select **Next.** Note that this choice will turn auto-refresh off for queries that were listed in the **Warning Details** area. The results of the last runs of these queries remain available. 
 
 ## Data validation
 
