@@ -19,7 +19,7 @@ As a business leader, an analyst, or a program manager, the new Home page gives 
 
 ## Analysis audience
 
-The top right of the page shows who is included in this analysis, which is based on the most recent organizational data uploaded and processed in Workplace Analytics, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](data-sourcesv2#organizational-data).
+The top right of the page shows who is included in this analysis, which is based on the most recent organizational data uploaded and processed in Workplace Analytics, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](data-sourcesv2.md#organizational-data).
 
 ## Why it matters
 
@@ -44,7 +44,7 @@ Depending on your role, you'll see an option to either **Share** or **View recom
 * As a business leader, you can share this insight with others in your organization.
 * As an analyst or group manager, you can use the plan option to take immediate action for the groups listed in that specific insight.
 
-For example, as an analyst, you can select **View recommended plan** to set up a new plan for the listed groups. For more details, see [Create a plan](../tutorials/solutionsv2-task#create-a-plan.md).
+For example, as an analyst, you can select **View recommended plan** to set up a new plan for the listed groups. For more details, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
 
 ## Employee experience
 
