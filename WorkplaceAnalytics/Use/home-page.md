@@ -76,9 +76,9 @@ More information about customers and actionable insights based on customer focus
 
 ## About the metrics
 
-The following defines how the metrics are calculated for each business insight question.
+The following describes the metrics used in each of the business insight questions.
 
-|Question |Definition  |
+|Question |Description  |
 |---------|--------------|
 |Are employees finding time to recharge? |The number of employees that spend greater than one hour outside of their designated work hours in meetings and email each week, divided by the total number of measured employees. |
 |Are employees overwhelmed by email? |The number of employees that spend greater than 10 hours sending and receiving email each week, divided by the total number of measured employees. |
@@ -90,5 +90,6 @@ The following defines how the metrics are calculated for each business insight q
 
 ## Related topics
 
-* [Explore the metrics](./explore-intro.md)
+* [Explore the metrics](explore-intro.md)
 * [Plans](../tutorials/solutionsv2-intro.md)
+* [Metric descriptions for Workplace Analytics](metric-definitions.md)
