@@ -170,6 +170,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 4. After you select **Submit**, two circumstances could trigger a warning message: 
 
    * **Omitted columns.** If (a) You chose the **Replace** option for uploading organizational data, and (b) while mapping fields, you have chosen to omit one or more columns that are present in the existing organizational-data schema, and (c) at least one auto-refresh query depends on those (omitted) columns.
+   
    * **Excluded columns.** If (a) While setting the **Report options** for attributes on the **Mapping** page, you have chosen to exclude one or more columns from query results, and (b) at least one auto-refresh query depends on those (excluded) columns.
 
    In either of these cases, Workplace Analytics shows a warning message about issues that could affect auto-refresh queries. If you see this message, go to the section [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not see this warning message, go to the next phase, [Data validation](#data-validation).
