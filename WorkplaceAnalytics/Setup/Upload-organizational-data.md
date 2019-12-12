@@ -169,18 +169,18 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 4. After you select **Submit**, two circumstances could trigger a warning message: 
 
-   * **Omitted columns.** If (a) You chose the **Replace** option for uploading organizational data, and (b) while mapping fields, you have chosen to omit one or more columns, and (c) at least one auto-refresh query depends on those (omitted) columns.
-   * **Excluded columns.** If (a) While mapping fields, you have chosen to exclude one or more columns from query results, and (b) at least one auto-refresh query depends on those (excluded) columns.
+   * **Omitted columns.** If (a) You chose the **Replace** option for uploading organizational data, and (b) while mapping fields, you have chosen to omit one or more columns that are present in the existing organizational-data schema, and (c) at least one auto-refresh query depends on those (omitted) columns.
+   * **Excluded columns.** If (a) While setting the **Report options** for attributes on the **Mapping** page, you have chosen to exclude one or more columns from query results, and (b) at least one auto-refresh query depends on those (excluded) columns.
 
    In either of these cases, Workplace Analytics shows a warning message about issues that could affect auto-refresh queries. If you see this message, go to the section [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not see this warning message, go to the next phase, [Data validation](#data-validation).
 
 ### If expected columns are missing or excluded
 
-For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Include in report** option) exclude expected columns, Workplace Analytics shows a warning message: 
+For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, Workplace Analytics shows a warning message: 
 
    ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
 
-Below this message, a table in the **Warning details** section lists the affected queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
+Below this message, a table in the **Warning details** section lists the affected auto-refresh queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
 
 After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with the steps in [To map fields](#to-map-fields). 
         
