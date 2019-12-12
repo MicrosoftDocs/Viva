@@ -37,14 +37,9 @@ Depending on the insight and your role, **Explore the stats** links you either t
 
 For example, as an analyst, if you select **Explore the metrics** in **Organizational agility** > **Are managers accessing diverse information?**, you'll see your organization's **Network diversity** data in the **Explore** > **Internal** networks page. For more details, see [Internal networks](explore-metrics-internal-networks.md).
 
-## Share or View recommended plan
+## View recommended plan
 
-Depending on your role, you'll see an option to either **Share** or **View recommended plan** for each business insight.
-
-* As a business leader, you can share this insight with others in your organization.
-* As an analyst or group manager, you can use the plan option to take immediate action for the groups listed in that specific insight.
-
-For example, as an analyst, you can select **View recommended plan** to set up a new plan for the listed groups. For more details, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
+As an analyst or group manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
 
 ## Employee experience
 
