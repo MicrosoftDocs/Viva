@@ -26,9 +26,9 @@ Saving the SAS URI enables a workflow that exports the Workplace Analytics data 
 
 ## Data included in the export
 
-You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The export uses the latest organizational data that was uploaded and processed in Workplace Analytics. For details, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md).
+You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The export uses the latest available organizational data that was uploaded and processed in Workplace Analytics.
 
-If you add new attributes to your Workplace Analytics upload, you'll need to add them as fields to include in the export in the **Field privacy** section on the **Data export** page.
+If you add new organizational data attributes to your Workplace Analytics upload, you must also add them as additional fields that you want to include in the export in the **Field privacy** section on the **Data export** page. The new fields are added to the next data export after the data upload is next refreshed and processed in Workplace Analytics. For details, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md).
 
 The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
