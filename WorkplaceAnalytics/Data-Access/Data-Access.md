@@ -6,8 +6,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
 author: paul9955
-ms.author: v-midehm
-ms.date: 06/26/2019
+ms.author: madehmer
 ms.topic: article
 ms.prod: wpa
 ms.collection: M365-analytics
@@ -27,7 +26,11 @@ Saving the SAS URI enables a workflow that exports the Workplace Analytics data 
 
 ## Data included in the export
 
-You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
+You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The export uses the latest organizational data that was uploaded and processed in Workplace Analytics.
+
+If you add new attributes to your Workplace Analytics upload, you'll need to add them as fields to include in the export in the **Field privacy** section on the **Data export** page.
+
+The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
  * [Meetings](./Meetings.md)
  * [MeetingParticipants](./Meetingparticipants.md)
@@ -42,12 +45,12 @@ You can export pre-processed Workplace Analytics data to a designated Azure stor
 ## To export data from Workplace Analytics
 
 1. Set up your Azure storage container as described in [Azure environment requirements](#azure-environment-requirements) and [Azure storage container setup](#azure-storage-container-setup).
-2. In Workplace Analytics, go to **Settings** > **Data access**.
+2. In Workplace Analytics, go to **Settings** > **Data export**.
 3. In **Azure storage container SAS URI**, enter the URI for the Azure storage container.
 4. In the **Field privacy** section, you can select which fields to include and which fields to mask in the export. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
 
    > [!Note]
-   > When you add new attributes to your organizational data and you want to include them in a data export, you must repeat this step to add the new attributes to the export.
+   > When you add new attributes to your organizational data and you want to include them in a data export, you must repeat this step to add the new attributes as fields you want to include in the export.
 
 5. Select **Save** (top right) to save your selections and enable a workflow that exports the Workplace Analytics data to the storage container. The applicable data is then exported to Azure during each subsequent data refresh in Workplace Analytics.
 
