@@ -22,11 +22,11 @@ Your company might have unique data-analysis needs that require custom explorati
 
 After you get a CS agreement, Microsoft can enable data export for your Office 365 tenant. After data export is enabled, your Workplace Analytics admin can view and use the Data Export page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
 
-Saving the SAS URI enables a workflow that exports the Workplace Analytics data to the storage container. The data will be exported each time it is refreshed, for the agreed duration of the CS agreement.
+Saving the SAS URI enables a workflow that exports the Workplace Analytics data to the storage container. The data will be exported each time it is refreshed in Workplace Analytics, for the agreed duration of the CS agreement.
 
 ## Data included in the export
 
-You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The export uses the latest organizational data that was uploaded and processed in Workplace Analytics.
+You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The export uses the latest organizational data that was uploaded and processed in Workplace Analytics. For details, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md).
 
 If you add new attributes to your Workplace Analytics upload, you'll need to add them as fields to include in the export in the **Field privacy** section on the **Data export** page.
 
