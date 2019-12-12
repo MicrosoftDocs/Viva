@@ -5,7 +5,7 @@
 title: Opportunities scan in Workplace Analytics
 description: Learn how to scan for opportunities in Workplace Analytics
 author: paul9955
-ms.author: v-pascha
+ms.author: paul9955
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
