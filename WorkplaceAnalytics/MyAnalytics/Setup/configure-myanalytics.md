@@ -63,7 +63,7 @@ You can configure access to MyAnalytics elements for all users in your organizat
 7. Select **Insights Outlook add-in** to keep all MyAnalytics users in your organization opted in for access to the Insights Outlook add-in. Deselect it to opt users out of access to the Insights Outlook add-in.
 
 > [!Note]
-> After a new tenant is established, it might take up to 48 hours for this functionality to become available. This experience will be available in Office 365 GCC by the end of 2019.
+> After a new tenant is established, it might take up to 48 hours for this functionality to become available. This experience will be available in Office 365 GCC by the end of January 2020.
 
 <!-- REMOVING THIS SECTION PER HIMANI 12 NOV. 2019, BUT KEEPING IT AROUND (ALSO PER HIMANI) IN CASE WE NEED TO BRING IT BACK:
 
