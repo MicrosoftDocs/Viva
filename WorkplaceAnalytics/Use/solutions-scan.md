@@ -112,7 +112,7 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
     ![How the plan will help](../images/wpa/use/how-plan-helps.png)
 
-    To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and the digest email that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
+    To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and the weekly digest that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
 
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 
