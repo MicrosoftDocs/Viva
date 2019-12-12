@@ -23,10 +23,10 @@ The following is an example of a digest.
 <img src="../../Images/mya/use/digest-email.png" alt="Weekly email digest">
 
 <!---
-If you do not want to receive digest emails from MyAnalytics, you can opt out of the emails using the following steps:
+If you do not want to receive weekly digests from MyAnalytics, you can opt out of the digests with the following steps:
 
 1. In MyAnalytics, go to Settings.
-2. Go to Feature Setting and select **Off** for Digest Email.
+2. Go to Feature Setting and select **Off** for Weekly digest.
 3. Click **OK** to save the changes.
 --->
 

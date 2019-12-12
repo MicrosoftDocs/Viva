@@ -158,9 +158,9 @@ Within a few days of the assignment of a license with the MyAnalytics service to
 To notify employees that their dashboard and Outlook add-in have been enabled, MyAnalytics delivers a 
 [welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-welcome-email) within a few days of license assignment. The email introduces people to the application and has a reminder that MyAnalytics is private and personal.
 
-### Weekly digest email
+### Weekly digest
 
-The week after the welcome email is delivered, users begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2).
+The week after the welcome email is delivered, users begin to receive the [weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2).
 
 ## GDPR Compliance
 
