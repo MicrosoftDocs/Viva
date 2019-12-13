@@ -185,7 +185,7 @@ Below this message, a table in the **Warning details** section lists the affecte
 
 After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with the steps in [To map fields](#to-map-fields). 
         
-To continue with data upload despite the issues, select **Next.** Note that this choice will turn auto-refresh off for queries that were listed in the **Warning Details** area. The results of the last runs of these queries remain available. 
+To continue with data upload despite the issues, select **Next**. Note that this choice will turn auto-refresh off for queries that were listed in the **Warning Details** area. The results of the last runs of these queries remain available. 
 
 ## Data validation
 
