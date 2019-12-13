@@ -20,13 +20,13 @@ After you create and run a Person query, you can view its results (in the form o
 - [Visualize person queries](#visualize-person-queries)
   - [Run a query and view results](#run-a-query-and-view-results)
   - [Customize your data visualization](#customize-your-data-visualization)
-  - [Optional: Create a solution plan](#optional-create-a-solution-plan)
+  - [Optional: Create a plan](#optional-create-a-plan)
   - [Related topics](#related-topics)
 
 In addition to these capabilities, you still have the option of exporting results to view them in a data visualization tool such as [Power BI](../use/view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool). 
 
 > [!Note] 
-> Your query results might indicate groups of employees that could benefit from a [solution](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optional: Create a solution plan](#optional-create-a-solution-plan).
+> Your query results might indicate groups of employees that could benefit from a targeted [change plan](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optional: Create a plan](#optional-create-a-plan).
 
 ## Run a query and view results 
 
@@ -44,11 +44,32 @@ In addition to these capabilities, you still have the option of exporting result
 
    ![Query row with Visualize](../images/wpa/tutorials/visualize-option-results-row-4.png)
 
-   This opens a page in the **Queries > Results** area of Workplace Analytics: 
+   This opens the **Interactive Data** page in the **Queries > Results** area of Workplace Analytics: 
 
-   ![Results chart](../images/wpa/tutorials/results-interactive-data-no-selections.png)
+   ![Results chart](../images/wpa/tutorials/inter-data-save-as-no-hi.png)
 
-   This interactive results page lets you use charts to explore the output of your query. To change the way these results are presented, go on to the next procedure, [Customize your data visualization](#customize-your-data-visualization).
+   This **Interactive Data** page lets you use charts to explore the output of your query. To change the way these results are presented; see [Customize your data visualization](#customize-your-data-visualization). After you have modified a visualization, you can save it; see [Save your charts](#save-your-charts).
+
+## Save your charts 
+
+**Role:** analyst
+
+On the **Interactive Data** page, as you [customize visualizations](#customize-your-data-visualization) to reflect the results of a query in various ways, you can save those visualizations (charts). You can save any changes that you can make, including modifications to the chart type, use of a drill-down, or application of a page-setting filter.
+
+1. On the **Interactive Data** page, to save a chart that you have created, select **Save as**:  
+
+    ![Interactive data Save as](../images/wpa/tutorials/inter-data-save-as-2.png)
+
+    After you name the chart, it appears as a new item in the **Saved charts** list to the left of the chart area. 
+
+    ![Interactive data chart saved as](../images/wpa/tutorials/saved-charts-chart-saved-as-2.png)
+
+2. To save new modifications to a chart that you have already saved, select **Save**:  
+
+    ![Interactive data Save as](../images/wpa/tutorials/saved-charts-chart-saved-2.png)
+
+> [!Note] 
+> If your web browser stops responding while you are modifying a chart, you will not lose your progress. This is because changes are auto-saved as you work. They will be available to you the next time you open the **Interactive Data** page to see visualizations of this query.
 
 ## Customize your data visualization 
 
@@ -64,11 +85,11 @@ The following steps are all optional. You can use them to refine your view of th
 
 As you add and apply filters and select groups, the chart section of the results page updates its overview of the population that you are working with. 
 
-## Optional: Create a solution plan  
+## Optional: Create a plan  
 
 Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in the **Solutions** area of Workplace Analytics. 
 
-For more information about solutions, see [Workplace Analytics solutions](solutionsv2-intro.md).  
+For more information about plans, see [Workplace Analytics plans](solutionsv2-intro.md).  
 
 **Role:** analyst 
 
@@ -90,7 +111,7 @@ For more information about solutions, see [Workplace Analytics solutions](soluti
 
    If validation fails, you can return to your query results and select a different group or additional groups, or start over. After any subsequent group selection, you must select **Validate** again. After validation succeeds, go to the next step.
 
-5.	With your group validated, you can now start a solutions plan. See the [Start the plan](solutionsv2-task.md#start-the-plan) section of [Solution walkthrough](solutionsv2-task.md).    
+5.	With your group validated, you can now start a change plan. See the [Start the plan](solutionsv2-task.md#start-the-plan) section of [Plans: walkthrough](solutionsv2-task.md).    
 
 6.	After the plan starts and is underway, you can track its progress; for more information, see [Track plans](solutionsv2-task.md#track-plans). To learn about the plan from the participants' perspective, see [The experience of plan participants](solutionsv2-participants.md). 
 
@@ -98,4 +119,4 @@ For more information about solutions, see [Workplace Analytics solutions](soluti
 
 [Person query](person-queries.md) 
 
-[Solution walkthrough](solutionsv2-task.md)
+[Plans: walkthrough](solutionsv2-task.md)
