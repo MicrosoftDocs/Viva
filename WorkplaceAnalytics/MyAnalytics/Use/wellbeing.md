@@ -5,7 +5,7 @@
 title: MyAnalytics Wellbeing page
 description: Learn how to use MyAnalytics to improve your work-life balance
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -51,4 +51,4 @@ These insights are based on your recent workplace activity. Select **View Sugges
 
 ## Related topics
 
-[Work patterns in MyAnalytics](../use/dashboard-2.md)
+[MyAnalytics dashboard](../use/dashboard-2.md)
