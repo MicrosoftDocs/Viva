@@ -181,7 +181,7 @@ For a query to run successfully, it requires particular attributes (columns) to 
 
    ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
 
-Below this message, a table in the **Warning details** section lists the affected auto-refresh queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
+Below this message, a table in the **Warning details** area lists the affected auto-refresh queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
 
 After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with the steps in [To map fields](#to-map-fields). 
         
