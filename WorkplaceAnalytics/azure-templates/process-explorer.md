@@ -108,7 +108,7 @@ Use the following steps to manually categorize meetings for both dataset types. 
      * For .csv datasets, select **Auto-Categorize Full Dataset** to categorize all of the meetings uploaded in the .csv file.
      * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 in To categorize email activity for analysis](#to-categorize-email-activity-for-analysis) for next steps to categorize email.
 
-    ![Auto-categorize meetings](./images/pexp-auto.png)
+       ![Auto-categorize meetings](./images/pexp-auto.png)
 
 7. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add new or change existing categories.
 
