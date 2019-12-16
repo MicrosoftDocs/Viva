@@ -58,15 +58,15 @@ On the **Interactive Data** page, as you [customize visualizations](#customize-y
 
 1. On the **Interactive Data** page, to save a chart that you have created, select **Save as**:  
 
-    ![Interactive data Save as](../images/wpa/tutorials/inter-data-save-as-2.png)
+    ![Interactive data Save as](../images/wpa/tutorials/inter-data-save-as-3.png)
 
     After you name the chart, it appears as a new item in the **Saved charts** list to the left of the chart area. 
 
-    ![Interactive data chart saved as](../images/wpa/tutorials/saved-charts-chart-saved-as-2.png)
+    ![Interactive data chart saved as](../images/wpa/tutorials/saved-charts-chart-saved-as-3.png)
 
 2. To save new modifications to a chart that you have already saved, select **Save**:  
 
-    ![Interactive data Save as](../images/wpa/tutorials/saved-charts-chart-saved-2.png)
+    ![Interactive data Save as](../images/wpa/tutorials/saved-charts-chart-saved-3.png)
 
 > [!Note] 
 > If your web browser stops responding while you are modifying a chart, you will not lose your progress. This is because changes are auto-saved as you work. They will be available to you the next time you open the **Interactive Data** page to see visualizations of this query.
