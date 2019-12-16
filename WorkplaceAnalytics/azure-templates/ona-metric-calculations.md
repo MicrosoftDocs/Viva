@@ -3,7 +3,7 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Measure calculations for Organizational Network Analysis Azure template
+title: Measure calculations for Organizational Network Analysis Azure Template
 description: Learn how the metrics are calculated for the Organizational Network Analysis Azure Template for Workplace Analytics
 author: madehmer
 ms.author: v-midehm
@@ -14,11 +14,11 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Measure calculations for the Organizational Network Analysis Azure template
+# Measure calculations for the Organizational Network Analysis Azure Template
 
 _This template is only available as part of a Microsoft service engagement._
 
-The Organizational Network Analysis Azure template for Workplace Analytics has a number of measures to help you visualize and analyze collaborative relationships within your organization.
+The Organizational Network Analysis Azure Template for Workplace Analytics has a number of measures to help you visualize and analyze collaborative relationships within your organization.
 
 In the network graphs, each dot or node represents an employee or a group. The lines between the nodes represent connections, which are collaborative relationships between them. The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
 

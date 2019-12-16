@@ -19,6 +19,37 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
+## December 2019
+
+The following new template enhancements are now available.
+
+### Organizational Network Analysis Azure Template
+
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
+
+* Updated UX for Node Measures, including renaming some of the measures, such as:
+  * Eigen Centrality is now Influence Index
+  * Closeness is now Reach Index
+  * Network size is now Degrees
+* Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts are less than the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Configuration](./deploy-configure.md#configuration).
+* Improved UX for defining analysis and saving subsets of data within the graph view. For details, see [To add new subgroup analysis](./organization-network-analysis.md#to-add-new-subgroup-analysis).
+* New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
+* New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure Template.
+
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+
+### Process Explorer Azure Template
+
+The following enhancements and features are included in the Process Explorer Azure Template.
+
+* New download option for datasets.
+* Additional options (filters, time range) that help reduce the size of the training dataset for cloud storage, which is required to be less than five million meetings and emails, for improved interactivity when building and training the template model(s) for auto-categorization of the full dataset.
+* New Process Explorer Admin setting that specifies if the template shows email subjects and requires categorization to train emails by using a distinct model, or if it trains both email and meetings by using only meeting data.
+
+    ![Categorize email admin setting](./images/pexp-admin-settings.png)
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
+
 ## September 2019
 
 The following new template enhancements are now available.
@@ -40,7 +71,7 @@ To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
 
 * Improved UX for adding new analysis.
-* New date range options for improved data and graph analysis.<!-- * Improved UX for defining analysis and saving subsets of data within the graph view.* New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.-->
+* New date range options for improved data and graph analysis.
 * New **Download metrics** option for the last saved version of the analysis that aligns with the time range, filters, and other values selected.
 * Select the new **Parameters** icon to view the parameter details for a listed dataset.
 
