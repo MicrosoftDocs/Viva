@@ -13,17 +13,17 @@ ms.prod: wpa
 
 # Workplace Analytics Home
 
-As a business leader, an analyst, or a program manager, the new Home page gives you research-based insights into how your organization gets work done. It also empowers you to explain and predict the impact of daily activity and to drive opportunities for change within your organization.
+As a business leader, an analyst, or a program manager, you can use the new **Home** page to see research-based insights into how your organization gets work done. It also empowers you to explain and predict the impact of daily activity and to drive opportunities for change within your organization.
 
 ![Home page](../images/wpa/use/wpa-home.png)
 
 ## Analysis audience
 
-The top right of the page shows who is included in this analysis, which is based on the most recent organizational data uploaded and processed in Workplace Analytics, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](data-sourcesv2.md#organizational-data).
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](data-sourcesv2.md#organizational-data).
 
 ## Why it matters
 
-The business insights include leading indicators that explain why they are important to you. Each insight also explains how Workplace Analytics can help you understand what your organization is doing now and how you can drive change.
+Each business insight includes a leading indicator and an explanation of why it's important to you. The insights also explain how Workplace Analytics can help you understand what your organization is doing now and how you can drive change.
 
 Select **Get the answers** to see how your organizational data relates to this specific business insight.
 
@@ -33,7 +33,7 @@ Each insight includes **Supporting evidence** that links you to a related articl
 
 ## Explore the stats
 
-Depending on the insight and your role, **Explore the stats** links you either to identify a plan or to related Explore pages within Workplace Analytics for more in-depth analysis.
+Depending on the insight and your role, **Explore the stats** links you either to a recommended plan or to related **Explore** pages within Workplace Analytics for more in-depth analysis.
 
 For example, as an analyst, if you select **Explore the metrics** in **Organizational agility** > **Are managers accessing diverse information?**, you'll see your organization's **Network diversity** data in the **Explore** > **Internal** networks page. For more details, see [Internal networks](explore-metrics-internal-networks.md).
 
@@ -67,7 +67,7 @@ For example, you can use Workplace Analytics to answer questions such as:
 * Are employees spending too much time on internal processes?
 * Are the right employees spending time with customers?
 
-More information about customers and actionable insights based on customer focus time is *coming soon* to Workplace Analytics.
+More information about customers and actionable insights based on customer focus time is coming soon to Workplace Analytics.
 
 ## About the metrics
 
