@@ -22,7 +22,7 @@ audience: Admin
 **Data sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. And when you upload and process CRM data in Workplace Analytics, you'll also see a page for your CRM data.
 
 * [Office 365 data](office-365-data.md) shows the latest Office 365 data that's been uploaded and processed in Workplace Analytics.
-* [Organizational data](organizational-data.md) shows information about employees that your company provides to Workplace Analytics through uploads or organizational (HR) data.
+* [Organizational data](organizational-data.md) shows information about employees that your company provides to Workplace Analytics through uploads of organizational (HR) data.
 * [CRM data](crm-data.md) shows a high-level view of the latest available CRM data that you uploaded and was successfully processed in Workplace Analytics.
 
 ![Sources](../images/WpA/Use/sources-o365.png)
