@@ -14,7 +14,6 @@ manager: scott.ruble
 audience: Admin
 ---
 
-
 # CRM data
 
 This page gives you a high-level view of the latest available CRM data that you uploaded and was successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
