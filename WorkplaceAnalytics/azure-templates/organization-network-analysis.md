@@ -49,7 +49,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
 10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step.
 
-    >Note
+    >[!Note]
     >When the node or link count exceeds the maximum threshold defined by your Azure Templates admin, the network view options will be unavailable. To enable the network view options, you can use filters to reduce the graph's node or link count.
 
 11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
@@ -61,7 +61,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    * For new graphs, select **Preliminary Analysis** and in **Define Graph Settings**, select what HR attribute to use for the combined or grouped view and for the color of the graph's nodes. You can select one or more filters, and then select **Render Graph**.
    * For previously saved graphs, select **Load Saved Graph** (top right), and then select it from the list.
 
-   >Note:
+   >[!Note]
    >If you haven't saved any graphs yet, the list will be empty.
 
 2. At top of the graph, you can select a new start and end date for the time range to analyze, and then select **Apply** to update the graph view.
