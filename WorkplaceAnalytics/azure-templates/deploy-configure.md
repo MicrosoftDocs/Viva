@@ -23,7 +23,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
  - [Deploy the templates](#deployment)
  - [Configure the templates](#configuration-add-users-and-assign-roles)
  - [Process the data](#process-the-data)
- - [Audit logs](#audit-logs)
+ - Additional [configuration](#configuration) and [Audit logs](#audit-logs) are also available
 
 ## Security considerations
 
@@ -75,10 +75,10 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 11. In **Deployment Review**, select **Next** to deploy and configure the resources for the Azure components. This two-phase deployment can take up to 60 minutes to complete.
 12. After the deployment is complete, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
 
-   >[!Important]
-   >You must save this deployment link because you and the other users you add need it to configure and use the templates.
+    >[!Important]
+    >You must save this deployment link because you and the other users you add need the link to configure and use the templates.
 
-   ![Azure Templates deployment](./images/deployed-website-link.png)
+    ![Azure Templates deployment](./images/deployed-website-link.png)
 
 ## Configuration: Add users and assign roles
 
@@ -88,7 +88,9 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
   * Can add other users and assign roles for the templates.
   * Can share the templates website link with other users.
-  * Can share the link to access the [Azure Databricks Workspace](https://docs.azuredatabricks.net/user-guide/workspace.html) with the assigned Data scientists.
+  * Can share the link to access the [Azure Databricks Workspace](https://docs.azuredatabricks.net/user-guide/workspace.html) with assigned Data scientists.
+  * Configure specific template settings on the [Configuration](#configuration) page.
+  * Access and [audit logs](#audit-logs).
 
 * **Analyst**
 
@@ -134,6 +136,13 @@ After adding users, you need to process the Workplace Analytics data that you wa
 3. In the Workplace Analytics Azure Templates app, select **Admin** > **Scenario Execution**, select the **rawdata** folder, and then select **Process data**.
 
    ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
+
+## Configuration
+
+As an admin, you can configure template settings in **Admin** > **Configuration**, including:
+
+* The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
+* If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
 
 ## Audit logs
 

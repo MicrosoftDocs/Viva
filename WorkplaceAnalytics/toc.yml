@@ -38,7 +38,7 @@
             - name: Assign user and group roles
               href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
             - name: Assign roles with PowerShell
-              href: ~/use/using-powershell-to-assign-roles.md                    
+              href: ~/use/using-powershell-to-assign-roles.md 
         - name: Workplace Analytics settings
           href: ~/Use/Settings.md
         - name: Prepare organizational data
@@ -46,7 +46,7 @@
         - name: Upload organizational data
           items: 
             - name: First upload
-              href: ~/setup/upload-organizational-data-1st.md       
+              href: ~/setup/upload-organizational-data-1st.md 
             - name: Subsequent uploads
               href: ~/setup/upload-organizational-data.md 
             - name: Upload CRM data
@@ -58,9 +58,17 @@
             - name: Walkthroughs
               href: ~/tutorials/meeting-exclusion-rules.md
             - name: Tools and concepts
-              href: ~/tutorials/meeting-exclusion-concept.md            
+              href: ~/tutorials/meeting-exclusion-concept.md
         - name: Data sources
-          href: ~/Use/data-sourcesv2.md            
+          items:
+            - name: Introduction
+              href: ~/Use/data-sourcesv2.md 
+            - name: Office 365 data
+              href: ~/Use/office-365-data.md
+            - name: Organizational data
+              href: ~/Use/organizational-data.md
+            - name: CRM data
+              href: ~/Use/crm-data.md
         - name: Workplace Analytics audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
