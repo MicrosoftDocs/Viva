@@ -50,7 +50,7 @@ If you do not want to receive digests from MyAnalytics, you can opt out of them:
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at the top right.
 3. Under **MyAnalytics**, select **Settings**.
-4. Under **Email digest**, change the setting to **Off**.
+4. Under **Weekly digest**, change the setting to **Off**.
 5. Select **Save** to save your changes.
 
 ### If I am opted out, can I opt back in?

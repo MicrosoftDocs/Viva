@@ -5,7 +5,7 @@
 title: MyAnalytics Collaboration page
 description: Learn how to use MyAnalytics to improve your collaboration at work
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -166,4 +166,4 @@ You might miss out on valuable collaboration time if you're spending too much ti
 
 ## Related topics
 
-[Work patterns in MyAnalytics](../use/dashboard-2.md)
+[MyAnalytics dashboard](../use/dashboard-2.md)

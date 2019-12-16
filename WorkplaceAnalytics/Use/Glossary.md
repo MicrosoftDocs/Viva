@@ -4,12 +4,12 @@
 
 title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 06/21/2019
 ms.topic: reference
 localization_priority: normal 
 ms.prod: wpa
+
 ---
 
 # Glossary for Workplace Analytics
@@ -19,7 +19,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Term|Definition|
 |----|----------|
 |Adjusted meeting hours|An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
-|Attended|A person *attended* a meeting if they either accepted or did not respond to a meeting request (also referred to as a *non-declined meeting request*).|
+|Attended| A person attended a meeting if they did not decline the meeting request. This means that they either accepted the meeting request, accepted it as _tentative_, or did not respond to it. (This meeting request itself is subsequently referred to as a *non-declined meeting request*.) |
 |Attendee|A person who was invited and *attended* the meeting.|
 |Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
 |Calendar fragmentation|When a person does not have blocks of time sufficient to focus on completing complex tasks. This is typical of those with only small blocks of time (15, 30, or 60 minutes) between meetings. Anything that is not *focus time* (uninterrupted time blocks of two hours or more with no meetings) is considered calendar fragmentation.|

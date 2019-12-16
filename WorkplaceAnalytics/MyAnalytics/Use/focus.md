@@ -5,7 +5,7 @@
 title: MyAnalytics Focus page
 description: Learn how to use MyAnalytics to improve your focus time at work
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -51,4 +51,4 @@ The _focus plan_ in MyAnalytics helps you set aside regular focus time for your 
 
 ## Related topics
 
-[Work patterns in MyAnalytics](../use/dashboard-2.md)
+[MyAnalytics dashboard](../use/dashboard-2.md)
