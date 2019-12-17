@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Home page
 description: Learn how the Workplace Analytics Home page uses industry-based research to show you actionable insights into more effective business outcomes
 author: madehmer
