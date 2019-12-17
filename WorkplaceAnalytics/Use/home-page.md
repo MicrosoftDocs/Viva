@@ -20,7 +20,7 @@ As a business leader, an analyst, or a program manager, you can use the new **Ho
 
 ## Analysis scope
 
-The top right of the page shows who is included in this analysis. This data is based on the most recent organizational data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](data-sourcesv2.md#organizational-data).
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](organizational-data.md).
 
 ## Employee experience
 
