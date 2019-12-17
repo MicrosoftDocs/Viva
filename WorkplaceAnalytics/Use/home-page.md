@@ -13,19 +13,13 @@ ms.prod: wpa
 
 # Workplace Analytics Home
 
-As a business leader, an analyst, or a program manager, you can use the new **Home** page to see research-based insights into how your organization gets work done. It also empowers you to explain and predict the impact of daily activity and to drive opportunities for change within your organization.
+As a business leader, an analyst, or a program manager, you can use the new **Home** page to see research-based behavioral insights into how your organization gets work done. 
 
 ![Home page](../images/wpa/use/wpa-home.png)
 
-## Analysis audience
+## Analysis scope
 
 The top right of the page shows who is included in this analysis. This data is based on the most recent organizational data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](data-sourcesv2.md#organizational-data).
-
-## Why it matters
-
-Each business insight includes a leading indicator and an explanation of why it's important to you. The insights also explain how Workplace Analytics can help you understand what your organization is doing now and how you can drive change.
-
-Select **Get the answers** to see how your organizational data relates to this specific business insight.
 
 ## Supporting evidence
 
@@ -33,19 +27,19 @@ Each insight includes **Supporting evidence** that links you to a related articl
 
 ## Explore the stats
 
-Depending on the insight and your role, **Explore the stats** links you either to a recommended plan or to related **Explore** pages within Workplace Analytics for more in-depth analysis.
+Depending on the insight and your role, **Explore the stats** links you either to related **Explore** pages within Workplace Analytics for more in-depth analysis or to the Analyze page where you can find related metrics to refine the population to enroll in a plan.
 
-For example, as an analyst, if you select **Explore the metrics** in **Organizational agility** > **Are managers accessing diverse information?**, you'll see your organization's **Network diversity** data in the **Explore** > **Internal** networks page. For more details, see [Internal networks](explore-metrics-internal-networks.md).
+For example, as an analyst, if you select **Explore the metrics** in **Organizational agility** > **Are managers accessing diverse information**, you'll see your organization's **Network diversity** data in the **Explore** > **Internal** networks page. For more details, see [Internal networks](explore-metrics-internal-networks.md).
 
 ## View recommended plan
 
-As an analyst or group manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
+As an analyst or program manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
 
 ## Employee experience
 
-This section focuses on how well your organization is taking care of employees. A positive employee experience reduces turnover, boosts productivity, and leads to happier employees.
+This section focuses on how well your employees are doing. A positive employee experience reduces turnover, boosts productivity, and leads to happier employees.
 
-For example, are employees routinely getting one-on-one time with their managers? Research proves that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity, greater employee retainment, and greater customer satisfaction.
+For example, are employees routinely getting one-on-one time with their managers? Research proves that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
 ![Employee experience](../images/wpa/use/employee-exp.png)
 
@@ -76,12 +70,11 @@ The following describes the metrics used in each of the business insight questio
 |Question |Description  |
 |---------|--------------|
 |Are employees finding time to recharge? |The number of employees that spend greater than one hour outside of their designated work hours in meetings and email each week, divided by the total number of measured employees. |
-|Are employees overwhelmed by email? |The number of employees that spend greater than 10 hours sending and receiving email each week, divided by the total number of measured employees. |
 |Are your employees overloaded by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. |
 |Do employees have 1:1 time with managers? |The number of employees who have 15 minutes of 1:1 time with the manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
 |Do employees have time to focus? |The number of employees who have 20 or more hours each of available time for focused work, divided by the total number of measured employees. |
 |Are managers accessing diverse information? |The number of managers who had more than three meaningful connections outside of their organization each month. |
-|Do employees collaborate across the company? |The number of employees that spend more than 25 percent of their time collaborating outside their organization each week. |
+|Where are the influencers in your company? |The number of organizations that have fewer than expected numbers of influencers, which are based on thresholds defined on the organization and company size. |
 
 ## Related topics
 
