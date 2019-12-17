@@ -19,6 +19,7 @@ After you create and run a Person query, you can view its results (in the form o
 
 - [Visualize person queries](#visualize-person-queries)
   - [Run a query and view results](#run-a-query-and-view-results)
+  - [Save your charts](#save-your-charts)
   - [Customize your data visualization](#customize-your-data-visualization)
   - [Optional: Create a plan](#optional-create-a-plan)
   - [Related topics](#related-topics)
@@ -44,32 +45,13 @@ In addition to these capabilities, you still have the option of exporting result
 
    ![Query row with Visualize](../images/wpa/tutorials/visualize-option-results-row-4.png)
 
-   This opens the **Interactive Data** page in the **Queries > Results** area of Workplace Analytics: 
+   This opens the **Interactive Data** page in the **Queries > Results** area of Workplace Analytics. On this page, you can use charts to explore the output of your query: 
 
    ![Results chart](../images/wpa/tutorials/inter-data-save-as-no-hi.png)
 
-   This **Interactive Data** page lets you use charts to explore the output of your query. To change the way these results are presented; see [Customize your data visualization](#customize-your-data-visualization). After you have modified a visualization, you can save it; see [Save your charts](#save-your-charts).
+   A default visualization of the query result is automatically created and saved as a chart with the name "Original." This is a column chart that is formatted according to the default values in [Page settings](../use/explore-page-settings.md). All saved charts, including "Original," are listed in the **Saved charts** area.
 
-## Save your charts 
-
-**Role:** analyst
-
-On the **Interactive Data** page, as you [customize visualizations](#customize-your-data-visualization) to reflect the results of a query in various ways, you can save those visualizations (charts). You can save any changes that you can make, including modifications to the chart type, use of a drill-down, or application of a page-setting filter.
-
-1. On the **Interactive Data** page, to save a chart that you have created, select **Save as**:  
-
-    ![Interactive data Save as](../images/wpa/tutorials/inter-data-save-as-3.png)
-
-    After you name the chart, it appears as a new item in the **Saved charts** list to the left of the chart area. 
-
-    ![Interactive data chart saved as](../images/wpa/tutorials/saved-charts-chart-saved-as-3.png)
-
-2. To save new modifications to a chart that you have already saved, select **Save**:  
-
-    ![Interactive data Save as](../images/wpa/tutorials/saved-charts-chart-saved-3.png)
-
-> [!Note] 
-> If your web browser stops responding while you are modifying a chart, you will not lose your progress. This is because changes are auto-saved as you work. They will be available to you the next time you open the **Interactive Data** page to see visualizations of this query.
+   To change the way these results are presented, see [Customize your data visualization](#customize-your-data-visualization). After you have modified a visualization, you can save the modified version; see [Save your charts](#save-your-charts).
 
 ## Customize your data visualization 
 
@@ -84,6 +66,27 @@ The following steps are all optional. You can use them to refine your view of th
 3. **Investigate groups.** Select particular groups in the chart to activate options for drilling down or for excluding. The groups that you select will be reflected in both the chart display and also in the settings panel. Groups will reset if you change the chart type or the sort order.  
 
 As you add and apply filters and select groups, the chart section of the results page updates its overview of the population that you are working with. 
+
+## Save your charts 
+
+**Role:** analyst
+
+On the **Interactive Data** page, as you [customize visualizations](#customize-your-data-visualization) to reflect the results of a query in various ways, you can save those visualizations as charts. All changes are saved, including modifications to the chart type, the results of drilling down, or the application of a [Page settings](../use/explore-page-settings.md) filter.
+
+1. On the **Interactive Data** page, to save a chart that you have created, select **Save as**:  
+
+    ![Interactive data Save as](../images/wpa/tutorials/inter-data-save-as-4.png)
+
+    After you name the chart, it appears as a new item in the **Saved charts** list to the left of the chart area. 
+
+    ![Interactive data chart saved as](../images/wpa/tutorials/saved-charts-chart-saved-as-4.png)
+
+2. To save new modifications to a chart that you have already saved, select **Save**:  
+
+    ![Interactive data Save as](../images/wpa/tutorials/saved-charts-chart-saved-4.png)
+
+> [!Note] 
+> If your web browser stops responding while you are modifying a chart, you will not lose your progress. This is because changes are auto-saved as you work. They will be available to you the next time you open the **Interactive Data** page to see visualizations of this query.
 
 ## Optional: Create a plan  
 
