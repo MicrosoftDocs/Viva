@@ -5,7 +5,7 @@
 title: MyAnalytics network page
 description: Learn how to use MyAnalytics to improve your work relationships and grow your network
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -69,4 +69,4 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 ## Related topics
 
-[Work patterns in MyAnalytics](../use/dashboard-2.md)
+[MyAnalytics dashboard](../use/dashboard-2.md)

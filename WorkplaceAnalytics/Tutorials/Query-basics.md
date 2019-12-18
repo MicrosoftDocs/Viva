@@ -27,7 +27,7 @@ With these queries, you can:
 
 <!-- ORIGINAL: The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a rolling window. This means that—after you have 27 months of data—with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month. -->
 
-The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Office 365 data](../use/data-sourcesv2.md#office-365-data) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Office 365 data](../use/office-365-data.md) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 

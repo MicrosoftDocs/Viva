@@ -189,10 +189,7 @@ Confirm the CRM column names and field values in the files follow the same rules
 
 ## Related topics
 
-[Queries with CRM data](../tutorials/crm-queries.md)
-
-[Prepare organizational data](Prepare-organizational-data.md)
-
-[First organizational upload](upload-organizational-data-1st.md)
-
-[Data sources](../Use/data-sourcesv2.md)
+* [Queries with CRM data](../tutorials/crm-queries.md)
+* [Prepare organizational data](Prepare-organizational-data.md)
+* [First organizational upload](upload-organizational-data-1st.md)
+* [CRM data sources](../Use/crm-data.md)

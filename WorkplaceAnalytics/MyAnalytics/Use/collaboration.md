@@ -5,7 +5,7 @@
 title: MyAnalytics Collaboration page
 description: Learn how to use MyAnalytics to improve your collaboration at work
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -18,15 +18,15 @@ Collaboration in MyAnalytics helps you reflect on how effectively you spend your
 
   ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
 
-## Weekly Average
+## Weekly average
 
-The Weekly Average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours as configured in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
+The Weekly average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours as configured in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
    ![MyAnalytics Collaboration Weekly Average](../../Images/mya/use/collab-weekly-average.png)
 
-## Meeting Habits
+## Meeting habits
 
-The Meeting Habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the List view:
+The Meeting habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the List view:
 
 * The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
@@ -48,9 +48,9 @@ The Meeting Habits section highlights what your habits or practices are in meeti
 
 For a list of meetings that are excluded from the Meetings list and metrics, see [Meeting exclusions](#meeting-exclusions).
 
-## Communication Habits
+## Communication habits
 
-The Communication Habits section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
+The Communication habits section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
 
    ![MyAnalytics Communication habits](../../Images/mya/use/collab-comm-habits.png)
 
@@ -166,4 +166,4 @@ You might miss out on valuable collaboration time if you're spending too much ti
 
 ## Related topics
 
-[Work patterns in MyAnalytics](../use/dashboard-2.md)
+[MyAnalytics dashboard](../use/dashboard-2.md)
