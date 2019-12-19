@@ -14,9 +14,8 @@ ms.prod: mya
 
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within the first two hours of your workday (as set up in Outlook), you’ll get an email about any relevant items to help you better prepare for the day ahead, including:
 
-* Tasks and documents related to today’s meetings
-* Outstanding commitments and requests to and from other collaborators in email that might have fallen through the cracks
-* Emails you might want to follow up on
+* Outstanding tasks and requests to and from other collaborators in email that you might need to follow up on
+* Documents related to today’s meetings that you might want to review beforehand
 * Suggested focus time you can schedule to help get independent work done
 
 ## Why am I getting this?
@@ -64,7 +63,6 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 
 * [Prepare for today's meetings](be-meetings.md)
 * [Tasks you may have missed](be-tasks.md)
-* [Emails that may need follow up](be-email.md)
 * [Make the most of your focus time](be-focus.md) (Adaptive version only)
 
 ## FAQs
