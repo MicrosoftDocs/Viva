@@ -62,7 +62,7 @@ The Briefing email needs to be set up for your organization by the admin. See [C
 Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-version), the Briefing email includes the following sections:
 
 * [Prepare for today's meetings](be-meetings.md)
-* [Tasks you may have missed](be-tasks.md)
+* [Tasks you need to follow up on](be-tasks.md)
 * [Make the most of your focus time](be-focus.md) (Adaptive version only)
 
 ## FAQs
