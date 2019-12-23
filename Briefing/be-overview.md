@@ -14,7 +14,7 @@ ms.prod: mya
 
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within the first two hours of your workday (as set up in Outlook), you’ll get an email about any relevant items to help you better prepare for the day ahead, including:
 
-* Outstanding tasks and requests to and from other collaborators in email that you might need to follow up on
+* Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks
 * Documents related to today’s meetings that you might want to review beforehand
 * Suggested focus time you can schedule to help get independent work done
 
