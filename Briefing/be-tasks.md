@@ -15,7 +15,7 @@ ms.prod: mya
 In the **Tasks you may have missed** section of your Briefing email, a task can be one of the following that you got and might have missed in email:
 
 * **Commitment** - something you promised or committed to do for someone else in an email
-* **Request**- something another person asked you to do in an email
+* **Request** - something another person asked you to do in an email
 * **Follow-up** - something you asked for from someone else in an email
 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following:
