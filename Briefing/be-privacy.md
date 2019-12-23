@@ -29,7 +29,6 @@ You can use a Briefing email to do the following:
 
 * [Prepare for meetings](be-meetings.md) which shows you related tasks or documents related to today's meetings.
 * [Manage tasks](be-tasks.md) which reminds you of pending tasks from email.
-* [Follow up on email](be-email.md) for which you might need to respond.
 * [Make the most of focus time](be-focus.md) by scheduling time on your calendar that silences notifications for uninterrupted, independent work.
 
 ## How it works
