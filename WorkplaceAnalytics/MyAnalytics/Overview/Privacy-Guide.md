@@ -179,7 +179,7 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
     Microsoft supports your need to honor user requests in the following ways:
     * Data export requests: Users can go to the MyAnalytics dashboard while signed in to their Office 365 account to view the insights that are generated about how they spend their time at work. They can take screenshots of MyAnalytics insights if they want to have permanent copies of their information.
     * Request to restrict processing:
-      * Use PowerShell to opt employees out of MyAnalytics 
-      * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com) and then remove the employee's data through the User Management Portal.
+      * Use PowerShell to opt employees out of MyAnalytics.
+      * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
