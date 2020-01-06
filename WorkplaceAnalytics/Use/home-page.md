@@ -42,7 +42,7 @@ For example, do your employees have time to focus on their work? Research shows 
 
 Each insight includes **Supporting evidence** that links you to a related article at [Microsoft Workplace Insights](https://insights.office.com/). These articles are authored by:
 
-* Industry experts based on research
+* Industry experts based on research.
 * Organizations that have effectively used Workplace Analytics to improve their business outcomes.
 
 ## Explore the stats
