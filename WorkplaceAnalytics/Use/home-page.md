@@ -42,7 +42,7 @@ For example, do your employees have time to focus on their work? Research shows 
 
 Each insight includes **Supporting evidence** that links you to a related article at [Microsoft Workplace Insights](https://insights.office.com/). These articles are authored by:
 
-* Industry experts based on research
+* Industry experts based on research.
 * Organizations that have effectively used Workplace Analytics to improve their business outcomes.
 
 ## Explore the stats
@@ -66,10 +66,10 @@ The following describes the metrics used in each of the business insight questio
 |---------|--------------|
 |Are employees finding time to recharge? |The number of employees that spend greater than one hour outside of their designated work hours in meetings and email each week, divided by the total number of measured employees. |
 |Are your employees overloaded by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. |
-|Do employees have 1:1 time with managers? |The number of employees who have 15 minutes of 1:1 time with the manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
+|Do employees have 1:1 time with managers? |The number of employees who have 15 minutes of 1:1 time with their manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
 |Do employees have time to focus? |The number of employees who have 20 or more hours each of available time for focused work, divided by the total number of measured employees. |
 |Are managers accessing diverse information? |The number of managers who had more than three meaningful connections outside of their organization each month. |
-|Where are the influencers in your company? |The number of organizations that have fewer than expected numbers of influencers, which are based on thresholds defined on the organization and company size. |
+|Where are the influencers in your company? |The number of organizations that have fewer than expected numbers of influencers, which are based on thresholds defined for the organization and company size. |
 
 ## Related topics
 
