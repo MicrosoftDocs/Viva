@@ -4,8 +4,8 @@
 
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
-author: paul9955
-ms.author: v-midehm
+author: madehmer
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -21,7 +21,7 @@ Thank you for trying the new MyAnalytics experience. Welcome to your new persona
 Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
 > [!Note]
-> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details. 
+> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 ## Home
 
@@ -37,7 +37,7 @@ The Wellbeing section shows how well you are disconnecting from work during your
 
 For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
-> [!Tip] 
+> [!Tip]
 > The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md).  
 
 ## Network and Collaboration
@@ -52,7 +52,7 @@ For more details and tips, see [Network](../use/network.md) and [Collaboration](
 
 These are based on your recent workplace activity. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns.
 
-![Productivity insights](../../Images/mya/use/insights.png)
+![Productivity insights](../../Images/mya/use/productivity.png)
 
 ## Config Settings
 
