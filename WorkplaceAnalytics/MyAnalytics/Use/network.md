@@ -31,10 +31,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 **To add a person as important**
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com), and then select **Network**.
-2. In the **Suggested people to add** section:
-
-   * If the person is listed, select the star under the name to mark the person as important.
-   * If the person is not listed, search for the person's name, and then select the star next to the name.
+2. If the person is listed in the **Suggested people to add** section, select the star under the name to mark the person as important. If the person is not listed, use the search tool at top right of your important people list to search for the person's name, and then select the star next to the name to the list.
 
 **To remove a person from your important list**
 
