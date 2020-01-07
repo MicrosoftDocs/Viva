@@ -40,8 +40,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com), and then select **Network**.
 2. In the **Important people** section, select **Show all**.  
-3. Select **View details** for the person you want to remove.
-4. In the person’s card, select **Mark not important**.
+3. In the person’s card, select the star to remove them from your important list.
 
 ## About the metrics
 
