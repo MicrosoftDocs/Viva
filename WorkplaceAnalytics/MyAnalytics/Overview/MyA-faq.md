@@ -171,9 +171,13 @@ Follow these steps to add the Insights add-in to your Outlook ribbon.
 
 ### Visibility and access
 
-#### Q2. Why can't I see the MyAnalytics dashboard?
+#### Q1. Why can't I see the MyAnalytics dashboard?
 
-The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data. 
+The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
+
+#### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
+
+Your personalized data is only accurately calculated when you have a minimum level of activities with Office 365. Check back on your MyAnalytics dashboard in a few days to get a fully personalized experience.
 
 #### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics](https://myanalytics.microsoft.com) and turn MyAnalytics on?
 

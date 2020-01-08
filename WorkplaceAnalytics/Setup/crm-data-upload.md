@@ -40,7 +40,7 @@ The first time you open the CRM data page, it’ll prompt you to start a new upl
 
 After your first upload of CRM accounts and contacts data, the CRM data page will show a list of “Data uploads,” as follows.
 
-   ![CRM data uploads](../images/wpa/setup/crm-upload-b.png)
+   ![CRM data uploads](../images/wpa/setup/crm-upload-c.png)
 
 ## Decide what data you need
 
@@ -66,7 +66,7 @@ The validity thresholds are predetermined by Workplace Analytics for the attribu
 
 ### Required and reserved attributes
 
-To get full functionality from Workplace Analytics, you’ll need to include the following *Required attributes* in each CRM upload. Optionally, you can also include *Reserved* and *Custom* attributes that can help filter and group data for more in-depth analysis in Workplace Analytics.
+To get full functionality from Workplace Analytics, you’ll need to include the following *Required attributes* in each CRM upload (first and subsequent). Optionally, you can also include *Reserved* and *Custom* attributes that can help filter and group data for more in-depth analysis in Workplace Analytics.
 
 The following **Required attributes** must match the exact column headings (case sensitive) in the .csv upload:
 
@@ -79,7 +79,6 @@ The following **Required attributes** must match the exact column headings (case
 |**Contacts data**           |
 |Account ID or Number |ContactsAccountId |String |
 |Contact ID or Number |ContactId |String |
-|Contact Name |ContactName |String |
 |Email |ContactEmail |Email |
 |Effective Date |ContactsStartDate|Date |
 |**Seller assignments data**           |
@@ -112,15 +111,16 @@ The following is a sample list of **Reserved attributes** that you can optionall
 |Region |SellerRegion |String |
 
 > [!Note]
+> * Field values cannot contain commas or other special characters.
 > * All Date values must be in the MM/DD/YYYY format.
-> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign.
+> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign. See [Data guidelines](upload-organizational-data-1st.md#guidelines-for-correcting-errors-in-data) for a detailed list.
 
-The **AccountsStartDate** is required to help capture a historical snapshot of your CRM data. These  help ensure accuracy of analyses that span the time frames in which changes can occur in your CRM system. For example, in your CRM system, consider an Account with AccountName “Contoso” and AccountID “123” which is created on 01-Jan-2019 and the name is changed to “Contoso Corp” in the system on 01-April-2019. This change will show as a new record with the new AccountsStartDate and AccountName. For example: 
+The **AccountsStartDate** is required to help capture a historical snapshot of your CRM data. These  help ensure accuracy of analyses that span the time frames in which changes can occur in your CRM system. For example, in your CRM system, consider an Account with AccountName “Contoso” and AccountID “123” which is created on 01-Jan-2019 and the name is changed to “Contoso Corp” in the system on 01-April-2019. This change will show as a new record with the new AccountsStartDate and AccountName. For example:
 
 |AccountID |AccountName |AccountsStartDate |AccountIndustry |
 |------|-----------|----------|----------|
-|123 |Contoso |01-Jan-2019 |Software tech|
-|123 |Contoso Corp. |01-Apr-2019 |Software tech|
+|123 |Contoso |01/01/2020 |Software tech|
+|123 |Contoso Corp. |04/01/2019 |Software tech|
 
 Let’s say an external collaborator is matched as a contact for this account. Any analysis involving that contact which is performed on a time frame prior to 01-Apr-2019 would use the first record and set of attribute values (where AccountsStartDate = “01-Jan-2019”). Any analysis for a time frame that is after 01-Apr-2019, which would use the second record and set of attribute values, where AccountsStartDate = “01-Apr-2019”.
 
@@ -129,7 +129,7 @@ Let’s say an external collaborator is matched as a contact for this account. A
 
 |AccountID |AccountName |AccountsStartDate |AccountIndustry |
 |------|-----------|----------|----------|
-|123 |Contoso |01-Jan-2019 |Software tech|
+|123 |Contoso |01/01/2020 |Software tech|
 
 ### Custom attributes
 
@@ -180,7 +180,12 @@ Confirm the CRM column names and field values in the files follow the same rules
 
 14. Other possible statuses and options you might see on the CRM data page:
     * **Processed** - this status means the data was successfully saved.
-    * **Validation failed** - this status means the data couldn’t be validated because something went wrong with the upload.
+    * **Validation failed** - this status means the uploaded file does not meet the validation requirements of Workplace Analytics. Validation will fail for the following reasons:
+
+      * Incorrect encoding of the uploaded file. The upload must use UTF-8 encoding.
+      * Coverage requirement not being met, such as a mandatory field (such as AccountId) in the upload file has one or more records with empty or null values. Mandatory fields cannot have empty or null values.
+      * Incorrect email format where an email address field has one or more records with an invalid email format (a valid email is username@coname.com).
+
     * **Processing failed** - this status means the data could not be saved or processed due to an error.
     * **Abandoned** - this status means you tried to upload a file of the same data type (such as accounts) two or more times before the processing completed on the first upload. When this occurs, Workplace Analytics will abandon the previous uploads and will try to validate the last upload of the same data type.
     * **Download log** - select to see a detailed list of issues that caused the failure.
