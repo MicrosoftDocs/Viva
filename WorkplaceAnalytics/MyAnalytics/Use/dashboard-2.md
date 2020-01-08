@@ -56,7 +56,9 @@ These are based on your recent workplace activity. Select **View Suggestions** t
 
 ## Config Settings
 
-Your personalized MyAnalytics data and insights are based on the working days, working hours, and time zone that you set on the Config settings page. Changes to these settings are reflected in next week's data. You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks.
+Your personalized MyAnalytics data and insights are based on the working days, working hours, and time zone that you set on the MyAnalytics **Config Settings** page. Changes to these settings are reflected in next week's data.
+
+You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks. For more details, see [Focus plan](../use/focus-plan.md).
 
 ![Config Settings](../../Images/mya/use/mya-config.png)
 
