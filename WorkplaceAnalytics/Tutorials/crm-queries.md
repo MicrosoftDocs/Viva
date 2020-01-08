@@ -57,9 +57,9 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
   * **Do you want to exclude any collaborators?** - Use this to add customer attributes to exclude groups or group collaborators by specific attributes, such as Accounts or AccountName.
 
-  For example, the following graphic shows a customer filter of **AccountAnnualRevenue** greater than **1000**, which will exclude customers with more than that amount of annual revenue from the query results.
+  For example, the following graphic shows a customer filter of **AccountAnnualRevenue** less than **1000**, which will exclude customers with less than that amount of annual revenue from the query results.
 
-   ![CRM collaborators](../Images/WpA/use/crm-collaborators.png)
+   ![CRM collaborators](../Images/WpA/use/crm-collaborator.png)
 
   * **How do you want to group the people who collaborate with the time investor?** - Use this to group the collaborators to analyze which groups interacted with the time investors.
   * **Do you want to focus the analysis on a particular set of collaborators and group all others as "Unclassified"?** - Use this to combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.

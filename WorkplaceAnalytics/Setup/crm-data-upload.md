@@ -111,9 +111,9 @@ The following is a sample list of **Reserved attributes** that you can optionall
 |Region |SellerRegion |String |
 
 > [!Note]
-> * Field values cannot contain commas.
+> * Field values cannot contain commas or other special characters.
 > * All Date values must be in the MM/DD/YYYY format.
-> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign.
+> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign. See [Data guidelines](upload-organizational-data-1st.md#guidelines-for-correcting-errors-in-data) for a detailed list.
 
 The **AccountsStartDate** is required to help capture a historical snapshot of your CRM data. These  help ensure accuracy of analyses that span the time frames in which changes can occur in your CRM system. For example, in your CRM system, consider an Account with AccountName “Contoso” and AccountID “123” which is created on 01-Jan-2019 and the name is changed to “Contoso Corp” in the system on 01-April-2019. This change will show as a new record with the new AccountsStartDate and AccountName. For example:
 
