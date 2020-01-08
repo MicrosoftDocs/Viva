@@ -56,9 +56,9 @@ These are based on your recent workplace activity. Select **View Suggestions** t
 
 ## Config Settings
 
-Your personalized MyAnalytics data and insights are based on the time zone and working hours that you set in Outlook.
+Your personalized MyAnalytics data and insights are based on the working days, working hours, and time zone that you set on the Config settings page. Changes to these settings are reflected in next week's data. You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks.
 
-![Config Settings](../../Images/mya/use/mya-config-settings.png)
+![Config Settings](../../Images/mya/use/mya-config.png)
 
 ## MyAnalytics feedback
 
