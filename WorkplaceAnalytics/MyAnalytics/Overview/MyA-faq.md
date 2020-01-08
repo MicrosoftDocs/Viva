@@ -171,15 +171,15 @@ Follow these steps to add the Insights add-in to your Outlook ribbon.
 
 ### Visibility and access
 
-#### Q2. Why can't I see the MyAnalytics dashboard?
+#### Q1. Why can't I see the MyAnalytics dashboard?
 
 The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data. 
 
-#### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics](https://myanalytics.microsoft.com) and turn MyAnalytics on?
+#### Q2. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics](https://myanalytics.microsoft.com) and turn MyAnalytics on?
 
 Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that stat in the read percentage that's shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
 
-#### Q4. How can I find out what my plan is?
+#### Q3. How can I find out what my plan is?
 
 Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have? 
 
@@ -205,9 +205,14 @@ You can identify your _plan_ (and also your _service plan_) by following these s
     
     ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
 
-#### Q5. In what languages are the elements of MyAnalytics available?
+#### Q4. In what languages are the elements of MyAnalytics available?
 
 See [MyAnalytics languages](mya-languages.md).
+
+#### Q5. I used to get a dashboard full of data but now it's grayed out. What happened?
+
+Your personalized data is only accurately calculated when you have a minimum level of activities with Office 365. Check back on your MyAnalytics dashboard in a few days to get a fully personalized experience.
+
 
 ### Insights Outlook add-in
 
