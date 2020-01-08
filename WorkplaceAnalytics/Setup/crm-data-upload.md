@@ -40,7 +40,7 @@ The first time you open the CRM data page, it’ll prompt you to start a new upl
 
 After your first upload of CRM accounts and contacts data, the CRM data page will show a list of “Data uploads,” as follows.
 
-   ![CRM data uploads](../images/wpa/setup/crm-upload-b.png)
+   ![CRM data uploads](../images/wpa/setup/crm-upload-c.png)
 
 ## Decide what data you need
 
