@@ -77,19 +77,19 @@ A number of other inline suggestions are available to all MyAnalytics participan
 
 | Where it shows up | What it says | How it helps |
 |------|-------|---------|
-| Reading pane (email) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | You may have outstanding tasks for sender. Would you like to review now? **See my tasks** | Reminds you that there might be outstanding task items for the sender. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+| Reading pane (email) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | You may have outstanding tasks for sender. Would you like to review now? **See my tasks** | Reminds you that there might be outstanding task items for the sender. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |
 
 #### Reduce after-hours work and team impact
 
 | Where it shows up  | What it says | How it helps |
 |------|-------|---------|
-|Email compose &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
+|Email compose &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours.  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; |
 
 #### Build better collaboration habits
 
 | Where it shows up  | What it says | How it helps |
 |------|-------|---------|
-|Meeting compose &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+|Meeting compose &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; |
 
 ## Related topics
 
