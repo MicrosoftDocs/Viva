@@ -6,7 +6,6 @@ title: Inline suggestions to promote focus time
 description: Table of inline suggestions to promote focus time  
 author: paul9955
 ms.author: v-pascha
-ms.date: 05/02/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
