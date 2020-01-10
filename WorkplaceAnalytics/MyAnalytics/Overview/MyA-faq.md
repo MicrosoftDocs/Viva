@@ -5,7 +5,7 @@
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: once
 ms.prod: mya
@@ -179,9 +179,9 @@ The MyAnalytics dashboard is only available if your organization has a *qualifyi
 
 Your personalized data is only accurately calculated when you have a minimum level of activities with Office 365. Check back on your MyAnalytics dashboard in a few days to get a fully personalized experience.
 
-#### Q3. Even though I don’t have a MyAnalytics license, why can I open [MyAnalytics](https://myanalytics.microsoft.com) and turn MyAnalytics on?
+#### Q3. Even though I don’t have a MyAnalytics license, why is the MyAnalytics toggle "on" in the MyAnalytics dashboard's Feature settings? What will happen if I change it?
 
-Even if you don’t have a MyAnalytics license, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that stat in the read percentage that's shown to the sender. You can change this in Settings on your MyAnalytics dashboard.
+MyAnalytics will not be available to you if you don’t have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the MyAnalytics toggle off in the [Feature settings](../overview/privacy-guide-users.md#how-you-can-opt-in-and-opt-out) on your MyAnalytics dashboard.
 
 #### Q4. How can I find out what my plan is?
 
