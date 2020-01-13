@@ -5,7 +5,7 @@
 title: MyAnalytics Focus page
 description: Learn how to use MyAnalytics to improve your focus time at work
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -34,7 +34,7 @@ For example: If your working hours are set as 9 am to 5 pm daily (8 working hour
 
 ## Focus plan
 
-The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md). 
+The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md).
 
 ## Focus tips
 
@@ -51,4 +51,4 @@ The _focus plan_ in MyAnalytics helps you set aside regular focus time for your 
 
 ## Related topics
 
-[Work patterns in MyAnalytics](../use/dashboard-2.md)
+[MyAnalytics dashboard](../use/dashboard-2.md)

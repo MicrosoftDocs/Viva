@@ -76,34 +76,6 @@ The Insights add-in reports the open rate within 30 minutes of when qualifying e
 
 MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../overview/privacy-guide.md).
 
-### Pin the add-in
-
-If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.
-
-**To pin the add-in to the quick access pane**
-
-1. In Outlook on the web, select the **Settings** (gear) icon to open the **Settings** panel:
-
-    ![OWA Settings panel](../../images/mya/use/owa-settings.png) 
-
-2. In the **Settings** panel, select **View all Outlook Settings**.
-
-3. Be sure **Mail** is selected in the left panel, and in the center panel, select **Customize actions**:
-
-    ![Customize actions](../../images/mya/use/customize-actions.png) 
-
-4. In the right pane, in the **Message surface** area, select **Insights**:
-
-    ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png) 
-
-5. In the right pane, in the **Toolbar** area, select **Insights**:
-
-    ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
-
-6. Save your new settings: 
-
-    ![Save settings](../../images/mya/use/save-settings.png) 
-
 **To see read information about sent emails**
 
 1. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now. 
@@ -207,6 +179,34 @@ _This card shows the **Attachments** section in its expanded state, which lets y
 
 ![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
 
+## Pin the add-in
+
+If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.
+
+**To pin the add-in to the quick access pane**
+
+1. In Outlook on the web, select the **Settings** (gear) icon to open the **Settings** panel:
+
+    ![OWA Settings panel](../../images/mya/use/owa-settings.png) 
+
+2. In the **Settings** panel, select **View all Outlook Settings**.
+
+3. Be sure **Mail** is selected in the left panel, and in the center panel, select **Customize actions**:
+
+    ![Customize actions](../../images/mya/use/customize-actions.png) 
+
+4. In the right pane, in the **Message surface** area, select **Insights**:
+
+    ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png) 
+
+5. In the right pane, in the **Toolbar** area, select **Insights**:
+
+    ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
+
+6. Save your new settings: 
+
+    ![Save settings](../../images/mya/use/save-settings.png) 
+
 ## Privacy by design 
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
@@ -234,10 +234,6 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
 -->
 
 ## Opt out of the Insights Outlook add-in
-
-<!-- REMOVED 12 NOV 2019 IN FAVOR OF WHAT FOLLOWS
-The way to opt out of the Insights add-in is to opt out of MyAnalytics. For instructions, see [Opt out of MyAnalytics](opt-out-of-mya.md).
--->
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right.

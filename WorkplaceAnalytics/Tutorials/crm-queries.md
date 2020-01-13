@@ -10,6 +10,7 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Queries with CRM data
 
 After you've successfully uploaded and processed your company’s Customer Relationship Management (CRM) data in Workplace Analytics, you can use person, person-to-group, and group-to-group queries to do combined organizational and CRM data analysis, such as:
@@ -56,9 +57,9 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
   * **Do you want to exclude any collaborators?** - Use this to add customer attributes to exclude groups or group collaborators by specific attributes, such as Accounts or AccountName.
 
-  For example, the following graphic shows a customer filter of **AccountAnnualRevenue** > Less than > **1000**, which will exclude customers with less than that amount of annual revenue from the query results.
+  For example, the following graphic shows a customer filter of **AccountAnnualRevenue** less than **1000**, which will exclude customers with less than that amount of annual revenue from the query results.
 
-   ![CRM collaborators](../Images/WpA/use/crm-collaborators.png)
+   ![CRM collaborators](../Images/WpA/use/crm-collaborator.png)
 
   * **How do you want to group the people who collaborate with the time investor?** - Use this to group the collaborators to analyze which groups interacted with the time investors.
   * **Do you want to focus the analysis on a particular set of collaborators and group all others as "Unclassified"?** - Use this to combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
@@ -87,7 +88,7 @@ This output includes the following, which enables you to perform even further gr
 
 The following business scenarios are a few of the ways you can use Workplace Analytics queries to analyze combined CRM and Organizational data.
 
-**A1 Sellers' prioritization of accounts by value is misaligned**
+**Analysis 1 - Sellers' prioritization of accounts by value is misaligned**
 
 To evaluate prioritization of accounts, you can correlate sellers’ time with specific accounts and their value potential, as shown in the following graphic.
 
@@ -97,7 +98,7 @@ To see this correlation, you can create a query as shown in the following graphi
 
    ![CRM seller to account time correlation query](../Images/WpA/use/crm-time-correlation-query.png)
 
-**A2 Sellers need to improve their customer networks**
+**Analysis 2 - Sellers need to improve their customer networks**
 
 You need to compare the number of connections with customers, as well as the connections with each account, as shown in the following graphic. These connections indicate the depth of involvement with customer accounts.
 
@@ -107,7 +108,7 @@ In complex sales solutions, it's the intimate connections with customers that dr
 
    ![CRM seller network size query](../Images/WpA/use/crm-network-query.png)
 
-**A3 Sellers have limited customer focus relative to internal demands** 
+**Analysis 3 - Sellers have limited customer focus relative to internal demands** 
 
 You can analyze how the different sales roles spent time as compared to time spent focusing on customers. Complex internal processes can limit the ability to spend more time with customers.
 
@@ -123,6 +124,6 @@ To do this, you can create a query as shown in the following graphic to analyze 
 * [Group-to-group queries](../Tutorials/group-to-group-queries.md)
 * [Person queries](../Tutorials/person-queries.md)
 * [CRM data upload](../setup/crm-data-upload.md)
-* [CRM data sources](../Use/Data-sourcesv2.md)
+* [CRM data sources](../Use/crm-data.md)
 * [Metric descriptions](../Use/Metric-definitions.md)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)

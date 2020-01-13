@@ -36,7 +36,7 @@ You can create your focus plan in the MyAnalytics dashboard or in the Outlook ad
 
    ![Personalize your experience](../../Images/mya/use/focusplan-preferences.png)
  
-2. On this page, select either **Automatically book time** or **Reminders only**. (Learn more about [Automatic booking of focus time](#automatic-booking-of-focus-time).) If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what times your calendar has open. If you select **Reminders only**, MyAnalytics will send you a [weekly email](#focus-plan-weekly-email) and [inline suggestions](#inline-suggestions-and-other-alerts) in Outlook that remind you to schedule your own focus time. 
+2. On this page, select either **Automatically book time** or **Reminders only**. (Learn more about [Automatic booking of focus time](#automatic-booking-of-focus-time).) If you select the former, MyAnalytics will automatically add one to two hours of focus time per day on your Outlook calendar, depending on what times your calendar has open. If you select **Reminders only**, MyAnalytics will send you a [weekly digest](#focus-plan-weekly-digest) and [inline suggestions](#inline-suggestions-and-other-alerts) in Outlook that remind you to schedule your own focus time. 
 
 2.	Select **Book focus time now**. This enrolls you in your focus plan. MyAnalytics now carries out the option that you chose&mdash;to book focus time or to remind you to book focus time.
 
@@ -133,13 +133,13 @@ After it books a block on one day, it then moves on to the next day to find the 
 
 #### Lunchtime
 
-MyAnalytics considers the time from 12:00 AM to 1:00 PM as time for the midday meal. If you have automatic booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period. 
+MyAnalytics considers the time from 12:00 AM to 1:00 PM as time for the midday meal. If you have automatic booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period.
 
 ### Chats are muted during focus time  
 
-During focus time, your status in Teams and Skype for Business will automatically change to "Focusing" to silence chat notifications and help you stay focused. When the focus time appointment ends, your status will automatically revert back to the status you were previously in. Note that you can set priority contacts in Teams to ensure you don’t miss important messages during focus time. 
+During focus time, your status in Teams and Skype for Business will automatically change to "Focusing" to silence chat notifications and help you stay focused. When the focus time appointment ends, your status will automatically revert back to the status you were previously in. Note that you can set priority contacts in Teams to ensure you don’t miss important messages during focus time.
 
-For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d). 
+For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
 <!-- DELETED 27 JUNE, PER PETERB
 
@@ -147,7 +147,7 @@ For more information, see [Manage notifications in Teams](https://support.office
 
 ### Before you create the plan
 
-As a MyAnalytics user, you might become aware of the focus plan when you see focus-related prompts and messages in the weekly digest email, the dashboard, and insights. Examples: 
+As a MyAnalytics user, you might become aware of the focus plan when you see focus-related prompts and messages in the weekly digest, the dashboard, and insights. Examples: 
 
 #### Focus plan prompt in the digest
 
@@ -157,21 +157,21 @@ As a MyAnalytics user, you might become aware of the focus plan when you see foc
   
 ![Focus prompt in the dashboard](../../Images/mya/use/focus-prompt-in-dashboard.png)
 
-For more information about the digest email, which for focus plan participants becomes tailored to the plan, see [MyAnalytics weekly digest email](#myanalytics-weekly-digest-email). 
+For more information about the weekly digests, which for focus plan participants becomes tailored to the plan, see [MyAnalytics weekly digest](#myanalytics-weekly-digest-email). 
 
 -->
 
-### Weekly email and inline suggestions
+### Weekly digest and inline suggestions
 
-#### Focus plan weekly email
+#### Focus plan weekly digest
 
-After you enroll in a focus plan, the content of the weekly digest email becomes tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside. 
+After you enroll in a focus plan, the content of the weekly digest becomes tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside.
 
 #### Inline suggestions and other alerts
 
 If you choose not to have MyAnalytics automatically book focus time for you, MyAnalytics deliver [inline suggestions](mya-notifications.md) in Outlook that remind you to reserve time to focus every day.
 
-You can also open the Outlook add-in to check if you have any days missing focus time, using this card: 
+You can also open the Outlook add-in to check if you have any days missing focus time, using this card:
 
 ![Add-in feed card](../../Images/mya/use/add-in-feed-card.png)
 

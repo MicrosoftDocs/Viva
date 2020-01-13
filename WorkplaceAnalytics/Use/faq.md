@@ -182,7 +182,7 @@ A2. The collaborator totals include the number of external (or other internal) p
 
 ##### Q3. Why doesn’t the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period I set)?
 
-A3. Business policies can impact historical data processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to archiving. On the Sources page, you can select a time period where the email volume is stable. For details, see [Office 365 data summary in Data sources](../use/data-sourcesv2.md).
+A3. Business policies can impact historical data processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to archiving. On the Sources page, you can select a time period where the email volume is stable. For details, see [Office 365 data summary in Data sources](../use/office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
@@ -238,9 +238,13 @@ A3. You can use the Collaboration hours metric to filter for a specific time fra
 
 A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-##### Q5. An executive assistant can organize meetings on behalf of a leader. In Workplace Analytics calculations, do such meetings count as organized by the _leader_ or by the _executive assistant_?
+##### Q5. A person who has delegate access (for example, an executive assistant, or "EA") can organize meetings and send email for another person, such as a corporate leader. In its calculations, does Workplace Analytics view the _EA_ or the _leader_ as the creator of these items?
 
-A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant. For example, if the executive assistant organizes a 1:1 meeting, Workplace Analytics counts it as a two-person meeting that includes only the leader and the invitee.
+A5. The _leader_ is considered to be the creator. Note the following: 
+
+ * <u>For meetings</u>, the EA must first have been granted delegate access to the leader's calendar. Then, the EA can open the leader's shared calendar and create and send the meeting invitation. In this situation, no metrics are attributed to the EA. Workplace Analytics considers the meeting request to have veen sent by the leader. 
+ 
+  * <u>For emails</u>, no metrics are attributed to the EA. Workplace Analytics considers the email to have been sent by the leader. 
 
 ##### Q6. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
