@@ -5,7 +5,7 @@
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -27,19 +27,24 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 ## How inline suggestions work
 
-Insights can display inline suggestions in the following ways.
+Insights includes the following types of inline suggestions.
 
-1. While composing a meeting invitation or an email.
+1. When composing a meeting invitation or an email.
 
-   ![inline suggestions meeting image 01](../../Images/mya/use/nudges-meeting-01.png)
+   ![inline suggestions email](../../Images/mya/use/nudges-email.png)
 
-   In this example, the suggestion is shown at the top of an email, reminding you of the after-hours impact you’ll generate for your colleagues. It suggests you clarify the email's urgency, so that recipients know if it can wait until working hours. Alternatively, you can hide the suggestion temporarily by selecting **Dismiss this message**.
+   This example shows a suggestion at the top of the email that asks if you want to delay delivery. After you add recipients, MyAnalytics automatically accounts for time zones and working hours and suggests a delivery time. You can complete an item on your to-do list without worrying about impacting others:
 
-2. While reading an email or a calendar invitation.
+   * Select the suggested delivery time (**Send on Thu, Nov 07 9:00 AM**), which opens Insights, where you can change the delivery time up until it is sent.
+   * Or select **Dismiss** to temporarily hide the suggestion.
+
+     ![change the email delivery time](../../Images/mya/use/delay-delivery-1.png)!
+
+2. When reading an email or a calendar invitation.
 
    ![inline suggestions email image 02](../../Images/mya/use/nudges-email-02.png)
 
-3. While reading an email, it might remind you of a potential outstanding task for the email sender. Selecting the link takes you to Insights, which shows you the list of task items.
+3. When reading an email, it might remind you of a potentially outstanding task for the email sender. Select the link to see the task list in Insights.
 
    ![inline suggestions meeting image 03](../../Images/mya/use/nudges-meeting-summary_03.png)
 
