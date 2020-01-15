@@ -46,7 +46,7 @@ Insights includes the following types of inline suggestions.
 
 3. When reading an email, it might remind you of a potentially outstanding task for the email sender. Select the link to see the task list in Insights.
 
-   ![inline suggestions meeting image 03](../../Images/mya/use/nudges-meeting-summary_03.png)
+   ![inline suggestions meeting image 03](../../Images/mya/use/nudges-meeting-01.png)
 
 ## Why don’t I see any inline suggestions?
 
@@ -80,7 +80,6 @@ The following are a few of the suggestions you might see in Outlook.
 
 [!INCLUDE [Inline suggestions about collaboration](../../includes/inline-suggest-table-collab.md)]
 
-
 ## Opt out of inline suggestions
 
 1. To opt out of inline suggestions in Outlook, select the **Insights** icon on the Outlook Home ribbon.
@@ -102,4 +101,3 @@ The following are a few of the suggestions you might see in Outlook.
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out, you can opt back in any time to regain access to inline suggestions.
-
