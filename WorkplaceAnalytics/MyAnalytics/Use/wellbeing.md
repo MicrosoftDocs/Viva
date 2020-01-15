@@ -24,9 +24,9 @@ These insights are based on your recent workplace activity. Select **View Sugges
 
 ## About the metrics
 
-* **Quiet days** measures the number of days where you did not have significant collaboration outside your set work hours (as defined in your Outlook calendar). Significant collaboration includes sending and reading email, sending, and responding to chats, or attending calls and meetings in more than one one-hour period outside your working hours. Weekends are considered all-day quiet hours and are included in the Quiet days calculation because they are opportunities to recharge from work for a full day.
+**Quiet days** measures the number of days where you did not have significant collaboration outside your set work hours (as defined in your Outlook calendar). Significant collaboration includes sending and reading email, sending, and responding to chats, or attending calls and meetings in more than one one-hour period outside your working hours. Weekends are considered all-day quiet hours and are included in the Quiet days calculation because they are opportunities to recharge from work for a full day.
 
-   For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, and you collaborate in meetings, emails, chats, or calls after 5 PM on Monday, or during a weekend, Monday (or the weekend day) won't count as a quiet day.
+For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, and you collaborate in meetings, emails, chats, or calls after 5 PM on Monday, or during a weekend, Monday (or the weekend day) won't count as a quiet day.
 
 ## Wellbeing tips
 

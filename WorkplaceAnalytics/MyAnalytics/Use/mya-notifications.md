@@ -20,7 +20,7 @@ _**Applies to:** MyAnalytics elements are available in varying levels to users o
 
 Inline suggestions in Outlook are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
 
-Inline suggestions can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of inline suggestions](#types-of-inline-suggestions) lists some of the inline suggestions you might see in Outlook.
+Inline suggestions can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of inline suggestions](#types-of-inline-suggestions) lists some of what you might see in Outlook.
 
 > [!Note]
 > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
@@ -38,7 +38,7 @@ Insights includes the following types of inline suggestions.
    * Select the suggested delivery time (**Send on Thu, Nov 07 9:00 AM**), which opens Insights, where you can change the delivery time up until it is sent.
    * Or select **Dismiss** to temporarily hide the suggestion.
 
-     ![change the email delivery time](../../Images/mya/use/delay-delivery-1.png)!
+     ![change the email delivery time](../../Images/mya/use/delay-delivery-1.png)
 
 2. When reading an email or a calendar invitation.
 

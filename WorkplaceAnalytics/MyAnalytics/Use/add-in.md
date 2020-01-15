@@ -63,7 +63,7 @@ Insights shows the open rate for the sent email that is open in Outlook. It also
 
 ### Reporting details
 
-Insights does not display read information about every email that you send. Please note the following circumstances.
+Insights does not display read information about every email that you send, such as in the following circumstances.
 
 #### Requirement: qualifying messages
 
