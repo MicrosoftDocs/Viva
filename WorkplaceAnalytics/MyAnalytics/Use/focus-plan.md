@@ -169,15 +169,21 @@ After you enroll in a focus plan, the content of the weekly digest becomes tailo
 
 #### Inline suggestions and other alerts
 
-If you choose not to have MyAnalytics automatically book focus time for you, MyAnalytics deliver [inline suggestions](mya-notifications.md) in Outlook that remind you to reserve time to focus every day.
+If you choose not to have MyAnalytics automatically book focus time for you, MyAnalytics delivers [inline suggestions](mya-notifications.md) in Outlook that remind you to reserve time to focus every day.
 
-You can also open the Outlook add-in to check if you have any days missing focus time, using this card:
+You can also open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
 ![Add-in feed card](../../Images/mya/use/add-in-feed-card.png)
 
-Select that card to see the following options to book focus time on individual days or several days at once:  
+Selecting this card shows the following options, with which you can book focus time on individual days or for several days at once:  
 
 ![Book focus time inline](../../Images/mya/use/book-focus-time-nudge.png)
+
+<!--
+Note that this content is related to this topic: 
+\WorkplaceAnalytics\Tutorials\solutionsv2-participants.md
+-->
+
 
 <!--  DELETED PER PETERB 27 JUNE
 

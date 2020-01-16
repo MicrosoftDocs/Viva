@@ -62,6 +62,18 @@ Participants in the Wellbeing plan might see the following inline suggestion:
 | :------ |-------|---------|
 |Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 
+<!-- Verifying this wording and finding out when to publish the following (Focus plan) section: 
+
+#### Focus plan
+
+Participants in the Focus plan might see the following inline suggestion:
+
+| Where it shows up  | What it says | How it helps  |
+| :------ |-------|---------|
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
+
+-->
+
 ### Broadly available inline suggestions
 
 A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following tables:
