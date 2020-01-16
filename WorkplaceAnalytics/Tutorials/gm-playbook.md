@@ -30,7 +30,7 @@ ms.author: madehmer
                     <a href="#mainPanel"></a>
                     <ul id="mainPanel" class="cardsC">
                         <li>
-                            <a href="../gm-coaching">
+                            <a href="../gm-coaching.md">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
