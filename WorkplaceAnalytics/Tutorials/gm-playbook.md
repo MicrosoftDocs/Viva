@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 layout: HubPage
 hide_bc: true
 title: Workplace Analytics Playbooks for Group Managers
@@ -49,13 +49,13 @@ ms.author: madehmer
                             </a>
                         </li>
                         <li>
-                            <a href="#wellbeing">
+                            <a href="../gm-wellbeing.md">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage bgdAccent1">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/Kaizala-Developers-400x140.svg" alt="Wellbeing" />
+                                                <img src="../images/wpa/playbooks/wellbeing.png" alt="Wellbeing" />
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -68,7 +68,7 @@ ms.author: madehmer
                             </a>
                         </li>
                         <li>
-                            <a href="#meetings">
+                            <a href="../gm-meetings.md">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -87,7 +87,7 @@ ms.author: madehmer
                             </a>
                         </li>
                         <li>
-                            <a href="#focus">
+                            <a href="../gm-focus.md">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -98,7 +98,7 @@ ms.author: madehmer
                                         </div>
                                         <div class="cardText">
                                             <h3>Focus</h3>
-                                            <p>Learn why it's important that you and your team plan and schedule time to independently get focused work done. </p>
+                                            <p>Learn why it's important that you and your team plan and schedule focus time to get independent work done. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ ms.author: madehmer
                             </a>
                         </li>
                         <li>
-                            <a href="#manager-connectedness">
+                            <a href="../gm-connectedness.md">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -125,7 +125,7 @@ ms.author: madehmer
                             </a>
                         </li>
                         <li>
-                            <a href="#email-overload">
+                            <a href="../gm-overload.md">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -144,7 +144,7 @@ ms.author: madehmer
                             </a>
                         </li>
                         <li>
-                            <a href="#efficient-communications">
+                            <a href="../gm-communication.md">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -163,7 +163,7 @@ ms.author: madehmer
                             </a>
                         </li>
                         <li>
-                            <a href="#cross-group-collaboration">
+                            <a href="../gm-cgcollaboration.md">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -180,23 +180,10 @@ ms.author: madehmer
                                 </div>
                             </div>
                             </a>
+                        </li>
+                    </li>
+                </li>
             </li>
         </li>
     </ul>
 </div>
-
-
-## Wellbeing
-
-## Meetings
-
-## Focus
-
-## Manager connectedness
-
-## Email overload
-
-## Efficient communications
-
-## Cross-group collaboration
-
