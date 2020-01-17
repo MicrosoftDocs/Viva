@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Best practices for influencers
 
-Go
+People or groups with high centrality are considered key influencers in their network. Influence occurs from these people share information to their network, who then forward it to theirs, and so on.
 
 ## Statistics
 

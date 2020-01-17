@@ -193,7 +193,7 @@ ms.author: madehmer
                                         </div>
                                         <div class="cardText">
                                             <h3>Influencer</h3>
-                                            <p>Learn how the best practices for influencers on your team.</p>
+                                            <p>Learn about the best practices for influencers on your team.</p>
                                         </div>
                                     </div>
                                 </div>
