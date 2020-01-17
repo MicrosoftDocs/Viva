@@ -149,16 +149,17 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
 
 * The upload must have *100 percent coverage* for all required attributes, which means every row must have valid values for these attributes or the validation will fail. To ensure this:
 
-  * Only export rows that have non-null values for the required attribute columns, such as AccountID.
+  * Only export rows to the .csv file that have non-null values for the required attribute columns, such as AccountID.
   * For Date fields, use functions in the .csv file to set all rows that have empty or null values to "Today's date."
 
-* For Contacts, ContactID must be unique, which is usually a GUID and must be different from the ContactEmail.
+* The ContactID must be unique, which is usually a GUID and must be different from the ContactEmail.
 * AccountID and AccountName are typically managed at a domain level, however the upload needs the lowest possible Account level for analysis. You can always add Parent fields to group these fields.
-* Before starting the upload process, confirm the upload file is saved as a UTF-8 encoded .csv file and closed (not open in another app).
-* String fields can have commas, which in a .csv file equals a new column. To prevent commas from being mistaken as field separators, set these text strings to wrap in the .csv file.
-* Ensure email fields have the full email address, not just the alias (so abc@contoso.com, not just “abc”). Also make sure that email formats are valid (abc@contoso.com).  There are functions available to check/remove special characters/spaces from the email field.
-* Make sure double/integer/float fields are not marked as #NULL or NULL. They need to be “” (empty)
-* Ensure instances of double quotes/single quotes in CSV are always pairs. If not, it may lead to the system misinterpreting the data as missing columns.
+
+* Confirm all email fields have a valid email address, not an alias (such as abc@contoso.com, not just "abc"). Use functions in the file to check and remove special characters and spaces from the email fields.
+* Custom or reserved string fields can have commas, which in a .csv file equals a new column. To prevent commas from being mistaken as field separators, set these text strings to wrap in the .csv file.
+* Confirm that double integer or float fields are not marked as #NULL or NULL. They must be “ ” (empty).
+* Confirm that instances of double quotes or single quotes are always pairs in the .csv file. If not, will lead to the system misinterpreting the data as missing columns.
+* Before starting the upload process, confirm the upload file is saved as a UTF-8 encoded .csv file and is closed (not open in another app).
 
 ## Upload, validate, and process the CRM data
 
