@@ -181,6 +181,25 @@ ms.author: madehmer
                             </div>
                             </a>
                         </li>
+                        <li>
+                            <a href="gm-influencer.md">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage bgdAccent1">
+                                                <img src="../images/wpa/playbooks/manager-coaching.png" alt="Security, privacy, compliance" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Influencer</h3>
+                                            <p>Learn about the best practices for influencers on your team.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
                     </li>
                 </li>
             </li>
