@@ -94,7 +94,7 @@ MyAnalytics respects user privacy; this is why approximated values are reported 
      ![Track email open rates](../../Images/mya/use/step-1-track-open-rates.png)
 
     The panel in the card that you selected (in either step 2a. or step 2b.) states the email subject line and shows a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
-    
+
     ![Email open rates](../../Images/mya/use/step-2-four-emails.png)
 
 <!-- REMOVED PER RISHABH 4 SEPT 2019
