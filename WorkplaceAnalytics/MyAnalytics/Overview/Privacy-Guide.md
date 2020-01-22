@@ -145,7 +145,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 MyAnalytics is a first-party application that's built on Microsoft Graph. Microsoft Graph consists of a set of REST-based API calls that allow developers to interact with the Microsoft technologies that a given organization uses. In order to use these API calls, developers must have specific permissions to access any data they request. Administrators control both the deployment of any Microsoft Graph application and permissions to access these applications.
 
-The Microsoft Graph cannot be turned on or off globally through the Office 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/en-us/graph).
+The Microsoft Graph cannot be turned on or off globally through the Office 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
 
 ## Employee experience of MyAnalytics
 
