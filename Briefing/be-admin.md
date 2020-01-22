@@ -27,13 +27,13 @@ As the admin, use the following steps to change the setting for Briefing email a
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
-    ![New admin center](../WorkplaceAnalytics/images/mya/setup/the-new-admin-center.png)
+    ![New admin center](./images/the-new-admin-center.png)
 
 3. In the left pane, expand **Settings**, and then select **Services & add-ins**.
 4. Under **Services & add-ins**, select **Briefing email (Preview)**.
 5. Select or deselect the checkbox next to **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the Briefing email and individual users cannot override this setting.
 
-   ![Briefing email access](../Briefing/images/be-admin.png)
+   ![Briefing email access](./images/be-admin.png)
 
 > [!Note]
 > Individual users can select **Unsubscribe** from within any of their Briefing emails to opt out of receiving them.
