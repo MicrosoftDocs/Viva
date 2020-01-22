@@ -18,11 +18,13 @@ audience: Admin
 As the admin, you can configure Briefing email for your organization. Before configuration, confirm the following.
 
 * **Prerequisite**: Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
-* **Data privacy**: See the Privacy Guide to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization’s specific privacy requirements.
+* **Data privacy**: See the [Privacy Guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization’s specific privacy requirements.
 
 ### To configure access at the tenant level
 
-As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English (US) will receive the Briefing email. Users can unsubscribe individually from within any Briefing email they receive. However, if you disable this feature at the tenant level, no users in your organization will receive the Briefing email and individual users cannot override this tenant-level setting.  
+As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English (US) will receive the Briefing email.
+
+Users can unsubscribe individually from within any Briefing email they receive. However, if you disable this feature at the tenant level, no users in your organization will receive the Briefing email and individual users cannot override this tenant-level setting.  
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
@@ -36,7 +38,7 @@ As the admin, use the following steps to change the setting for Briefing email a
    ![Briefing email access](./images/be-admin.png)
 
 > [!Note]
-> Individual users can select **Unsubscribe** from within any of their Briefing emails to opt out of receiving them.
+> When the setting is enabled, individual users can select **Unsubscribe** from within any of their Briefing emails to opt out at any time.
 <!--As the admin, you can set the Briefing email up at the [tenant level](#tenant-level-configuration) or the [user level](#user-level-configuration).
 
 ## Tenant-level configuration
