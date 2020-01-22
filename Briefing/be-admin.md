@@ -38,7 +38,7 @@ Users can unsubscribe individually from within any Briefing email they receive. 
    ![Briefing email access](./images/be-admin.png)
 
 > [!Note]
-> Individual users can select **Unsubscribe** from within any of their Briefing emails to opt out of receiving them.
+> When the setting is enabled, individual users can select **Unsubscribe** from within any of their Briefing emails to opt out at any time.
 <!--As the admin, you can set the Briefing email up at the [tenant level](#tenant-level-configuration) or the [user level](#user-level-configuration).
 
 ## Tenant-level configuration
