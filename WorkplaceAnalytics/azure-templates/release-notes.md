@@ -27,13 +27,17 @@ The following new template enhancements and changes are in this month's release.
 
 * Job Details for datasets now has an Error Message column (last on the right) with more information about dataset failures.
 * New Download option to either download the metrics or the interaction matrix.
+* For Density charts, when viewing the data in a table or .xlsx file, the higher density and lower density data is highlighted as different colors.
 * Reach Index is no longer available.
 
 To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
 ### Process Explorer Azure Template
 
-* New filter options in the Query Builder > Filter Dataset section.
+* Job Details for datasets now has an Error Message column (last on the right) with more information about dataset failures.
+* New filter options in the **Query Builder** > **Filter Dataset** section for selecting which meetings you want to include in your query results for training the model for categorization purposes.
+* New **Save Categorization Model** option to save existing categorization training models to use again later. And then when creating a new dataset, you can choose to use one of these saved categorization training models to help you categorize the new dataset.
+* Pie chart visuals of categorized data now exclude the Uncategorized category for improved analysis.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
