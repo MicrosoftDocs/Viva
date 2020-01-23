@@ -6,7 +6,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Release Notes for Workplace Analytics Azure Templates
 description: Learn about what new Azure Templates or new functionality has been released for Workplace Analytics
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -18,6 +18,24 @@ audience: Admin
 # What's new in Workplace Analytics Azure Templates
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
+
+## January 2020
+
+The following new template enhancements and changes are in this month's release.
+
+### Organizational Network Analysis Azure Template
+
+* Job Details for datasets now has an Error Message column (last on the right) with more information about dataset failures.
+* New Download option to either download the metrics or the interaction matrix.
+* Reach Index is no longer available.
+
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+
+### Process Explorer Azure Template
+
+* New filter options in the Query Builder > Filter Dataset section.
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 ## December 2019
 
