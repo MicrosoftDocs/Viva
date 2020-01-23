@@ -23,17 +23,22 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 
 The following new template enhancements and changes are in this month's release.
 
+* The **Job Details** information for datasets now includes an **Error Message** column (last on the right) with more information about dataset failures for both the Organizational Network Analysis and the Process Explorer Azure Templates.
+
 ### Organizational Network Analysis Azure Template
 
-* Job Details for datasets now has an Error Message column (last on the right) with more information about dataset failures.
-* New Download option to either download the metrics or the interaction matrix.
-* Reach Index is no longer available.
+* A new **Download interaction matrix** option to download a .csv file with the person interactions and related data, such as date range and connection weights by hours and counts.
+* When viewing Density graph data in a metrics download (.csv) file, the higher density (*orange*) and lower density (*blue*) cells are highlighted based on the modularity. The color indicates whether or not a group is more or less connected in the network, as compared to what's expected with a random network. See [Density](./organization-network-analysis.md#density) for more details.
+* New option for monthly metrics generated for chart data, which computes both individual and group metrics for the set time period and for each month within that time period.
+* Reach Index is no longer a chart option.
 
 To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
 ### Process Explorer Azure Template
 
-* New filter options in the Query Builder > Filter Dataset section.
+* New meeting participants filter option in the **Query Builder** > **Filter Dataset** section for selecting which meetings you want to include in your query results for training the model for categorization purposes. You can use this to filter out meetings where the meeting organizer is outside the filter population.
+* A new option to save a set of categorization training models to reuse. After categorizing a good representation of data to train the categorization model for a specific dataset, you can save that model to reuse later by selecting the **Save Categorization Model** option, which appears below the table on the **Dataset** > **Dashboard** page. And then when creating a new dataset, or a subgroup of a dataset, you can use one of these saved categorization training models to help you categorize the new dataset more efficiently.
+* Pie chart visuals of categorized data now exclude the **Uncategorized** category, which enables you to focus on and analyze the data that you spent time categorizing.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
