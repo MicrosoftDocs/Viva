@@ -51,8 +51,8 @@ Participants in the Collaboration plan might see the following inline suggestion
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  	| Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. |
-|Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you reconsider whether everyone is required in the meeting that you are organizing, in light of the high meeting load of your invitees. |
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  	| Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. |
+|Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you reconsider whether everyone is required in the meeting that you are organizing, in light of the high meeting load of your invitees. |
 
 #### Wellbeing plan
 
@@ -60,7 +60,7 @@ Participants in the Wellbeing plan might see the following inline suggestion:
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** &nbsp; | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 
 <!-- Verifying this wording and finding out when to publish the following (Focus plan) section: 
 
@@ -82,26 +82,26 @@ A number of other inline suggestions are available to all MyAnalytics participan
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Reminds you (the meeting attendee who has a heavy meeting load) to book time for focused work|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |This meeting conflicts with your scheduled focus time. Do you want to move your focus block? **See available times** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Helps you to protect your focus time block, by suggesting that you move a booked focus session to another time when a meeting request conflicts with it.|
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Reminds you (the meeting attendee who has a heavy meeting load) to book time for focused work|
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |This meeting conflicts with your scheduled focus time. Do you want to move your focus block? **See available times** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Helps you to protect your focus time block, by suggesting that you move a booked focus session to another time when a meeting request conflicts with it.|
 
 #### Stay up-to-date with important relationships
 
 | Where it shows up | What it says | How it helps |
 | :------ |-------|---------|
-| Reading pane (email) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | You may have outstanding tasks for sender. Would you like to review now? **See my tasks** | Reminds you that there might be outstanding task items for the sender. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  |
+| Reading pane (email) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | You may have outstanding tasks for sender. Would you like to review now? **See my tasks**   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Reminds you that there might be outstanding task items for the sender. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  |
 
 #### Reduce after-hours work and team impact
 
 | Where it shows up  | What it says | How it helps |
 | :------ |-------|---------|
-|Email compose &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours.  &nbsp; &nbsp; &nbsp;  &nbsp;  |
+|Email compose &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time**  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Suggests that you book time during the day to do email instead of catching up after hours.  &nbsp; &nbsp; &nbsp;  &nbsp;  |
 
 #### Build better collaboration habits
 
 | Where it shows up  | What it says | How it helps |
 | :------ |-------|---------|
-|Meeting compose &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+|Meeting compose &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Suggests that you shorten hour-long meetings to 45 minutes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
 ## Related topics
 
