@@ -128,13 +128,9 @@ Each dot or node in the template's network graph represents either an employee o
 
 The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
 
-You can size the nodes and connections based on what you want to highlight by using the Scale Nodes option (No Measure by default) at the top. The following shows the measures available in a *Network View* of the graph:
+You can size the nodes and connections based on what you want to highlight by using the Scale Nodes option (No Measure by default) at the top. The following shows the measure options available for the *Combined or Grouped View* of the graph, which include *Density* as an additional Scale Node option that’s only available in this view.
 
-![Network View measures](./images/ona-combined-measures.png)
-
-And the measure options available for the *Combined or Grouped View* of the graph, which include Density as an additional Scale Node option that’s only available in this view:
-
-![Combined or Grouped View measures](./images/ona-network-measures.png)
+![Combined or Grouped View measures](./images/ona-combined-measures2.png)
 
 ### Boundary Spanning
 
@@ -168,13 +164,13 @@ When viewing Density graph data in a metrics download (.csv) file, the higher de
 
 Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group’s perspective will flow through the organization with efficiency. For more details, see the [measure calculations](ona-metric-calculations.md#influence-index).
 
-### Reach Index
+<!-- ### Reach Index
 
-Represents the ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person<!-- or group--> and others in the network. People nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information. For more details, see the [measure calculations](ona-metric-calculations.md#reach-index).
+Represents the ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person or group and others in the network. People nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information. For more details, see the [measure calculations](ona-metric-calculations.md#reach-index).
 
 > [!Note]
 > Weights are not factored into Reach Index computations. Also, group-level measures are not yet available for Reach Index.
-
+-->
 ### Graph notes
 
 * **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the grouped or combined view, the insufficient group's edges and node won't show in the graph.
