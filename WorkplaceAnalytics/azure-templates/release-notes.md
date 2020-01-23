@@ -23,9 +23,10 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 
 The following new template enhancements and changes are in this month's release.
 
+* Job Details for datasets now includes an Error Message column (last on the right) with more information about dataset failures for both the Organizational Network Analysis and the Process Explorer Azure Templates.
+
 ### Organizational Network Analysis Azure Template
 
-* Job Details for datasets now has an Error Message column (last on the right) with more information about dataset failures.
 * New Download option to either download the metrics or the interaction matrix.
 * For Density charts, when viewing the data in a table or .xlsx file, the higher density and lower density data is highlighted as different colors.
 * Reach Index is no longer available.
@@ -34,10 +35,9 @@ To learn more, see [Organizational Network Analysis Azure Template](./organizati
 
 ### Process Explorer Azure Template
 
-* Job Details for datasets now has an Error Message column (last on the right) with more information about dataset failures.
 * New filter options in the **Query Builder** > **Filter Dataset** section for selecting which meetings you want to include in your query results for training the model for categorization purposes.
-* New **Save Categorization Model** option to save existing categorization training models to use again later. And then when creating a new dataset, you can choose to use one of these saved categorization training models to help you categorize the new dataset.
-* Pie chart visuals of categorized data now exclude the Uncategorized category for improved analysis.
+* A new option to save a set of categorization training models to reuse. After categorizing a good representation of data to train the categorization model for a specific dataset, you can save that model to reuse later by selecting the **Save Categorization Model** option, which appears below the table on the **Dataset** > **Dashboard** page. And then when creating a new dataset, or a subgroup of a dataset, you can use one of these saved categorization training models to help you categorize the new dataset more efficiently.
+* Pie chart visuals of categorized data now exclude the **Uncategorized** category, which enables you to focus on and analyze the data that you spent time categorizing.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
