@@ -91,8 +91,9 @@ Use the following steps to manually categorize meetings for both dataset types. 
    * **Filter by Categories** to select one or more categories to filter the meetings by, such as budget, as shown in the following graphic.
    * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and meeting list to include.
    * **Max Results to Show** to set how many results to show in the list.
+   * **Which Meetings do you want to include in your query results?** You can select specific meetings to include or exclude from the data to categorize. For example, you could exclude meetings where the organizer is outside the filter population. Or you could only include meetings equal to or greater than one hour in the list.
 
-   ![Process Explorer filter options](./images/pexp-filter-options.png)
+   ![Process Explorer filter options](./images/pexp-meeting-query-filters.png)
 
 6. After the data is queried, close the query builder pane to see the meeting list, and then to help train the model for auto-categorization of the whole dataset:
 
