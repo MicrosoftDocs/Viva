@@ -5,7 +5,7 @@
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -113,19 +113,19 @@ The following is a sample list of **Reserved attributes** that you can optionall
 > [!Note]
 > * Field values cannot contain commas or other special characters.
 > * All Date values must be in the MM/DD/YYYY format.
-> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign. See [Data guidelines](upload-organizational-data-1st.md#guidelines-for-correcting-errors-in-data) for a detailed list.
+> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign. For more details, see [Use only valid values and formats](prepare-organizational-data.md#attribute-reference).
 
 The **AccountsStartDate** is required to help capture a historical snapshot of your CRM data. These  help ensure accuracy of analyses that span the time frames in which changes can occur in your CRM system. For example, in your CRM system, consider an Account with AccountName “Contoso” and AccountID “123” which is created on 01-Jan-2019 and the name is changed to “Contoso Corp” in the system on 01-April-2019. This change will show as a new record with the new AccountsStartDate and AccountName. For example:
 
 |AccountID |AccountName |AccountsStartDate |AccountIndustry |
 |------|-----------|----------|----------|
 |123 |Contoso |01/01/2020 |Software tech|
-|123 |Contoso Corp. |04/01/2019 |Software tech|
+|123 |Contoso Corp |04/01/2019 |Software tech|
 
 Let’s say an external collaborator is matched as a contact for this account. Any analysis involving that contact which is performed on a time frame prior to 01-Apr-2019 would use the first record and set of attribute values (where AccountsStartDate = “01-Jan-2019”). Any analysis for a time frame that is after 01-Apr-2019, which would use the second record and set of attribute values, where AccountsStartDate = “01-Apr-2019”.
 
 > [!Note]
-> If only one AccountsStartDate is provided, all associated attribute values (such as AccountID, AccountName, and AccountIndustry values for the case below) are used for analyses performed over any time frame.
+> If only one **AccountsStartDate** is provided, all associated attribute values (such as AccountID, AccountName, and AccountIndustry values for the following example) are used for analysis performed over any time frame.
 
 |AccountID |AccountName |AccountsStartDate |AccountIndustry |
 |------|-----------|----------|----------|
@@ -141,7 +141,25 @@ If any of the Custom fields can be mapped to Workplace Analytics system attribut
 
 ### CRM data rules
 
-Confirm the CRM column names and field values in the files follow the same rules you applied when creating the Organizational (HR) data upload file, such as no special characters and no spaces in the column names. For more details, see [Attribute notes and recommendations](Prepare-organizational-data.md#attribute-notes-and-recommendations) and [Use only valid values and formats](Prepare-organizational-data.md#use-only-valid-values-and-formats).
+Confirm the CRM column names and field values in the files follow the same rules you applied when creating the Organizational (HR) data upload file, such as no spaces, commas, dollar signs, or other special characters in the column names.
+
+For a complete list of rules, see [Attribute notes and recommendations](Prepare-organizational-data.md#attribute-notes-and-recommendations) and [Use only valid values and formats](Prepare-organizational-data.md#use-only-valid-values-and-formats).
+
+#### Tips for common upload issues
+
+* The upload must have *100 percent coverage* for all required attributes, which means every row must have valid values for these attributes or the validation will fail. To ensure this:
+
+  * Only export rows to the .csv file that have non-null values for the required attribute columns, such as AccountID.
+  * For Date fields, use functions in the .csv file to set all rows that have empty or null values to "Today's date."
+
+* The ContactID must be unique, which is usually a GUID and must be different from the ContactEmail.
+* AccountID and AccountName are typically managed at a domain level, however the upload needs the lowest possible Account level for analysis. You can always add Parent fields to group these fields.
+
+* Confirm all email fields have a valid email address, not an alias (such as abc@contoso.com, not just "abc"). Use functions in the file to check and remove special characters and spaces from the email fields.
+* Custom or reserved string fields can have commas, which in a .csv file equals a new column. To prevent commas from being mistaken as field separators, set these text strings to wrap in the .csv file.
+* Confirm that double integer or float fields are not marked as #NULL or NULL. They must be “ ” (empty).
+* Confirm that instances of double quotes or single quotes are always pairs in the .csv file. If not, will lead to the system misinterpreting the data as missing columns.
+* Before starting the upload process, confirm the upload file is saved as a UTF-8 encoded .csv file and is closed (not open in another app).
 
 ## Upload, validate, and process the CRM data
 
@@ -152,6 +170,10 @@ Confirm the CRM column names and field values in the files follow the same rules
    * Accounts
    * Contacts
    * Seller assignments
+
+   > [!Tip]
+   > For the first upload, limit it to Accounts and Contacts only. Seller assignments adds a higher level of complexity for validation.
+
 5. In the **Select file** section, select the source (.csv) file that corresponds with the data type selected in the previous step. You can select **Download a .csv template** to help with file requirements.
 6. Select **More options** to change the default append option to the delete and add new option:
 
