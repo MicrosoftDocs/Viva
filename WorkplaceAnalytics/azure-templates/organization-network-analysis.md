@@ -6,7 +6,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Organizational Network Analysis Azure Template for Workplace Analytics 
 description: Learn about the Organizational Network Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -100,7 +100,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
 3. Optionally, in **Specify the Network Boundary Condition**, select one or more filters to focus your analysis on.
 4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
-5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
+5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Boundary spanning](#boundary-spanning) and [Influence Index](#influence-index).
 6. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
 ## To view a saved graph
@@ -115,7 +115,10 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    * Select a table column heading, such as Name or Submitted, to sort by it.
    * Select the **Parameters** icon next to the name to view them for the analysis in that row.
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
-   * Select the **Download Metrics** icon to download an .xlsx file with the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Boundary Spanning will have multiple values based on the attributes selected for the graph.
+   * Select the **Download** icon to download one of the following as an .csv file.
+
+     * **Download metrics** for the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Boundary Spanning will have multiple values based on the attributes selected for the graph.
+     * **Download interaction matrix** for the PersonID interactions and related data, such as date range and connection weights by hours and counts.
 
    ![Organizational Network Analysis pages](./images/ona-analysis-pages.png)
 
@@ -125,13 +128,9 @@ Each dot or node in the template's network graph represents either an employee o
 
 The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
 
-You can size the nodes and connections based on what you want to highlight by using the Scale Nodes option (No Measure by default) at the top. The following shows the measures available in a *Network View* of the graph:
+You can size the nodes and connections based on what you want to highlight by using the Scale Nodes option (No Measure by default) at the top. The following shows the measure options available for the *Combined or Grouped View* of the graph, which include *Density* as an additional Scale Node option that’s only available in this view.
 
-![Network View measures](./images/ona-combined-measures.png)
-
-And the measure options available for the *Combined or Grouped View* of the graph, which include Density as an additional Scale Node option that’s only available in this view:
-
-![Combined or Grouped View measures](./images/ona-network-measures.png)
+![Combined or Grouped View measures](./images/ona-combined-measures2.png)
 
 ### Boundary Spanning
 
@@ -157,17 +156,21 @@ Degree centrality is based on the number of edges connected to a node. The overa
 
 This option is only available in the Grouped View. Density measures the number of actual connections out of the number of possible connections within a network or subgroup in a table view. Higher density indicates higher levels of connectivity. Large groups tend to have small values since it’s more difficult for everyone to connect with everyone else, so be cautious when comparing across groups. Dense groups indicate cohesion between members. For more details, see the [measure calculations](ona-metric-calculations.md#density).
 
+When viewing Density graph data in a metrics download (.csv) file, the higher density (orange) and lower density (blue) cells are highlighted based on the modularity. The color indicates whether a group is more or less connected in the network, as compared to what's expected with a random network. If no cells are colored, the groups are as dense as expected with no outliers. A group is *orange* when it's higher in density and *blue* when it's lower in density than what's expected. The cells are not colored by the value of the density in the table, they are colored based on the modularity. The colors are only shown in the metrics download (.csv) file and not in the table view in the template.
+
+**Modularity** is the fraction of edges within a group minus the fraction of edges expected from a random network with the same nodes and the same degrees (but not the same connections between nodes). Essentially, it is the difference between what the network is and what a similarly constructed random network is expected to be. If the modularity is positive, a group has more connections within it than expected. If it is zero or close to it, then the connections are about the same as a random network. If it is negative, the group has fewer and less strong connections than would be expected from pure chance. This metric interprets the density measure as to whether the amount of connections between groups and within groups is high or low. It also gives insight into the overall graph and its connectivity.
+
 ### Influence Index
 
 Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group’s perspective will flow through the organization with efficiency. For more details, see the [measure calculations](ona-metric-calculations.md#influence-index).
 
-### Reach Index
+<!-- ### Reach Index
 
-Represents the ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person<!-- or group--> and others in the network. People nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information. For more details, see the [measure calculations](ona-metric-calculations.md#reach-index).
+Represents the ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person or group and others in the network. People nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information. For more details, see the [measure calculations](ona-metric-calculations.md#reach-index).
 
 > [!Note]
 > Weights are not factored into Reach Index computations. Also, group-level measures are not yet available for Reach Index.
-
+-->
 ### Graph notes
 
 * **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the grouped or combined view, the insufficient group's edges and node won't show in the graph.

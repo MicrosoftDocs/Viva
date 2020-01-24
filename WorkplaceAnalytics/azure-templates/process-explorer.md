@@ -67,10 +67,14 @@ Use the following steps to manually categorize meetings for both dataset types. 
 1. On the **Process Explorer** page, select the dataset name from the list.
 2. What you do next depends on the dataset.
 
-   * **For new datasets**, you're prompted to enter a categorization title and the probability threshold for the categorization. The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
+   * **For new datasets**, you're prompted to enter:
+      * **Categorization Title** - Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
+      **Probability Threshold** - The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category.
+      **Create a new categorization model or use a saved model** - The model option enables you to save time by using an existing training model that you saved while categorizing similar data with the query builder.
+
    * **For existing datasets**, you can select:
 
-     * **Add New Categorization** and then enter a title and probability threshold, same as with new datasets.
+     * **Add New Categorization** and then enter a title, a probability threshold, and then select to either create a new model or use a saved model, same as with new datasets.
      * The name of an *existing draft categorization* to resume work on it.
      * Select the row with the name of an *existing categorization*, and then select **Add New Categorization** to make a copy of it to work from.
 
@@ -91,8 +95,9 @@ Use the following steps to manually categorize meetings for both dataset types. 
    * **Filter by Categories** to select one or more categories to filter the meetings by, such as budget, as shown in the following graphic.
    * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and meeting list to include.
    * **Max Results to Show** to set how many results to show in the list.
+   * **Which Meetings do you want to include in your query results?** You can select specific meetings to include or exclude from the data to categorize. For example, you could exclude meetings where the organizer is outside the filter population. Or you could only include meetings equal to or greater than one hour in the list.
 
-   ![Process Explorer filter options](./images/pexp-filter-options.png)
+   ![Process Explorer filter options](./images/pexp-meeting-query-filters.png)
 
 6. After the data is queried, close the query builder pane to see the meeting list, and then to help train the model for auto-categorization of the whole dataset:
 
@@ -105,6 +110,7 @@ Use the following steps to manually categorize meetings for both dataset types. 
    * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
    * After you categorize a good sample of related meetings for all the categories you want to evaluate:
 
+     * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to help you categorize the new dataset more efficiently.
      * For .csv datasets, select **Auto-Categorize Full Dataset** to categorize all of the meetings uploaded in the .csv file.
      * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 in To categorize email activity for analysis](#to-categorize-email-activity-for-analysis) for next steps to categorize email.
 
@@ -142,9 +148,10 @@ For a blob storage dataset, the categorization options depend of what the admin 
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
    * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
+   * **Max Results to Show** to set the maximum number of email to include in the list or show in the word cloud.
+   * **Which Emails do you want to include in your query results?** You can filter the email to include in or exclude from the data list to categorize. For example, you could include only email that the sender spent 10 minutes or more on.
 
-   ![Categorize email](./images/pexp-email-query.png)
+   ![Categorize email](./images/pexp-email-query-filters.png)
 
 5. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
 
@@ -154,7 +161,12 @@ For a blob storage dataset, the categorization options depend of what the admin 
    * **Max Results to Show** to set how many results to show in the list.
 
 6. After email is auto-categorized, go to **Email** > **Query Builder** > **Filter Dataset** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
-7. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this will take some time based on the size of the dataset.
+
+7. After confirming the model categorizations:
+
+   * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to help you categorize the new dataset more efficiently.
+   * Select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this will take some time based on the size of the dataset.
+
 8. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and then repeat these steps to categorize email.
 
 You can see data about the categorized email and meetings on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current data shown on the **Dashboard** page.
