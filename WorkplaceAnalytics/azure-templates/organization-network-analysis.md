@@ -100,7 +100,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
 3. Optionally, in **Specify the Network Boundary Condition**, select one or more filters to focus your analysis on.
 4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
-5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Reach Index](#reach-index) and [Influence Index](#influence-index).
+5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Boundary spanning](#boundary-spanning) and [Influence Index](#influence-index).
 6. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
 ## To view a saved graph
