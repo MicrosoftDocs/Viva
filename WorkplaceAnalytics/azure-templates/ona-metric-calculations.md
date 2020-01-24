@@ -118,9 +118,15 @@ This measure also uses directionality, which means the density between group A a
 
 In the following density table, the direction of connections is the groups listed in the left-hand column (senders) are connected with and send information to the groups listed across the top row of the table (recipients). The density of communication going from group A to group B is the intersecting number for group A on the left-hand column and group B across the top of the table.
 
-![Density table](./images/ona-density-table.png)
+![Density table](./images/ona-density-table-2.png)
 
 For more information, see [Density](https://wikipedia.org/wiki/Dense_graph).
+
+When viewing Density graph data, the higher density (orange) and lower density (blue) cells are highlighted based on the modularity. The color indicates whether a group is more or less connected in the network, as compared to what's expected with a random network. If no cells are colored, the groups are as dense as expected with no outliers.
+
+A group is *orange* when it's higher in density and *blue* when it's lower in density than what's expected. The cells are not colored by the value of the density in the table, they are colored based on the modularity. The colors are only shown in the metrics download (.csv) file and not in the table view in the template. For more details and a definition of what modularity is, see the [measure calculations](ona-metric-calculations.md#density).
+
+**Modularity** is the fraction of edges within a group minus the fraction of edges expected from a random network with the same nodes and the same degrees (but not the same connections between nodes). Essentially, it is the difference between what the network is and what a similarly constructed random network is expected to be. If the modularity is positive, a group has more connections within it than expected. If it is zero or close to it, then the connections are about the same as a random network. If it is negative, the group has fewer and less strong connections than would be expected from pure chance. This metric interprets the density measure as to whether the amount of connections between groups and within groups is high or low. It also gives insight into the overall graph and its connectivity.
 
 ## Influence Index
 

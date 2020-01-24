@@ -28,7 +28,7 @@ The following new template enhancements and changes are in this month's release.
 ### Organizational Network Analysis Azure Template
 
 * A new **Download interaction matrix** option to download a .csv file with the person interactions and related data, such as date range and connection weights by hours and counts.
-* When viewing Density graph data in a metrics download (.csv) file, the higher density (*orange*) and lower density (*blue*) cells are highlighted based on the modularity. The color indicates whether or not a group is more or less connected in the network, as compared to what's expected with a random network. See [Density](./organization-network-analysis.md#density) for more details.
+* When viewing Density graph data, the higher density (*orange*) and lower density (*blue*) cells are highlighted based on the modularity. The color indicates whether or not a group is more or less connected in the network, as compared to what's expected with a random network. See [Density](./organization-network-analysis.md#density) for more details.
 * New option for monthly metrics generated for chart data, which computes both individual and group metrics for the set time period and for each month within that time period.
 * Reach Index is no longer a chart option.
 
@@ -37,7 +37,7 @@ To learn more, see [Organizational Network Analysis Azure Template](./organizati
 ### Process Explorer Azure Template
 
 * New filter options in the **Query Builder** > **Filter Dataset** to select which meetings or emails you want to include or exclude in the data list for training the categorization model.
-* A new option to save a categorization training model to reuse. After categorizing a good representation of data to train the categorization model for a specific dataset, you can save that model to reuse later by selecting the **Save Categorization Model** option, which appears below the table on the **Dataset** > **Dashboard** page. And then when creating a new dataset, or a subgroup of a dataset, you can use one of these saved categorization training models to help you categorize the new dataset more efficiently.
+* A new **Save Categorization Model** option lets you save a model to reuse later, which can save you time and gives you the ability to analyze historical data patterns over different time frames.
 * Pie chart visuals of categorized data now exclude the **Uncategorized** category, which enables you to focus on and analyze the data that you spent time categorizing.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
