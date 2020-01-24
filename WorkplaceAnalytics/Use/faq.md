@@ -238,7 +238,7 @@ A3. You can use the Collaboration hours metric to filter for a specific time fra
 
 A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-##### Q5. A person who has delegate access (for example, an executive assistant, or "EA") can organize meetings and send email for another person, such as a corporate leader. In its calculations, does Workplace Analytics view the _EA_ or the _leader_ as the creator of these items?
+##### Q5. A person who has delegate access (for example, an executive assistant, or "EA") can organize meetings and send email on behalf of another person, such as a corporate leader. In its calculations, does Workplace Analytics view the _EA_ or the _leader_ as the creator of these items?
 
 A5. The _leader_ is considered to be the creator. Note the following: 
 
