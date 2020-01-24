@@ -3,8 +3,8 @@
 # required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Home page for Analysts
-description: Learn how the Workplace Analytics Home page uses industry-based research to show you actionable insights into more effective business outcomes for your organization
+title: Workplace Analytics Home page for People Managers
+description: Learn how the Workplace Analytics Home page uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
 ms.author: madehmer
 ms.topic: article
@@ -14,13 +14,13 @@ ms.prod: wpa
 
 # Workplace Analytics Home
 
-As a business leader, an analyst, or a program manager, you can use the new **Home** page to see research-based behavioral insights into how your organization gets work done.
+As a people manager, the **Home** page gives you research-based behavioral insights into how your team gets work done.
 
-![Home page](../images/wpa/use/wpa-home.png)
+![People Manager Home page](../images/wpa/use/pm-home.png)
 
 ## Analysis scope
 
-The top right of the page shows who is included in this analysis. This data is based on the most recent organizational data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](organizational-data.md).
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees in your team. For more details about uploads and measured employees, see [Organizational data](organizational-data.md).
 
 ## Employee experience
 
@@ -28,15 +28,15 @@ A positive employee experience reduces turnover, boosts productivity, and leads 
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
-![Employee experience](../images/wpa/use/employee-exp.png)
+![Employee experience](../images/wpa/use/pm-employee-exp.png)
 
 ## Organizational agility
 
-Nimble companies can efficiently adapt to market changes and gain a true competitive advantage.
+Nimble teams can efficiently adapt to market changes and gain a true competitive advantage.
 
 For example, do your employees have time to focus on their work? Research shows that employees who have time to focus on deep work can master difficult tasks and produce higher quality work.
-
-![Organizational agility](../images/wpa/use/org-agility.png)
+<!--
+![Organizational agility](../images/wpa/use/org-agility.png)-->
 
 ## Supporting evidence
 
@@ -45,14 +45,13 @@ Each insight includes **Supporting evidence** that links you to a related articl
 * Industry experts based on research.
 * Organizations that have effectively used Workplace Analytics to improve their business outcomes.
 
-## Explore the stats
+## Differential privacy
 
-Depending on the insight and your role, **Explore the stats** links you to:
+Important info about privacy for teams will be covered in this section.
 
-* Related **Explore** pages within Workplace Analytics for more in-depth analysis.
-* The **Analyze** page where you'll see related metrics to refine the population to enroll in a plan.
+## Metrics for teams like you
 
-For example, as an analyst, if you select **Explore the metrics** in **Organizational agility** > **Are managers accessing diverse information**, you'll see your organization's **Network diversity** data in the **Explore** > **Internal** networks page. For more details, see [Internal networks](explore-metrics-internal-networks.md).
+Important info about how the metrics are calculated for your team be covered in this section.
 
 ## View recommended plan
 
