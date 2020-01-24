@@ -115,7 +115,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
    * Select a table column heading, such as Name or Submitted, to sort by it.
    * Select the **Parameters** icon next to the name to view them for the analysis in that row.
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
-   * Select the **Download** icon to download one of the following as an .xlsx file.
+   * Select the **Download** icon to download one of the following as an .csv file.
 
      * **Download metrics** for the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Boundary Spanning will have multiple values based on the attributes selected for the graph.
      * **Download interaction matrix** for the PersonID interactions and related data, such as date range and connection weights by hours and counts.
