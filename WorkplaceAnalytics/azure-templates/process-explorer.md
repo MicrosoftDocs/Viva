@@ -148,9 +148,10 @@ For a blob storage dataset, the categorization options depend of what the admin 
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
    * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
    * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * **Max Email to Show** to set the maximum number of email to include in the list or show in the word cloud.
+   * **Max Results to Show** to set the maximum number of email to include in the list or show in the word cloud.
+   * **Which Emails do you want to include in your query results?** You can filter the email to include in or exclude from the data list to categorize. For example, you could include only email that the sender spent 10 minutes or more on.
 
-   ![Categorize email](./images/pexp-email-query.png)
+   ![Categorize email](./images/pexp-email-query-filters.png)
 
 5. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
 
@@ -160,7 +161,12 @@ For a blob storage dataset, the categorization options depend of what the admin 
    * **Max Results to Show** to set how many results to show in the list.
 
 6. After email is auto-categorized, go to **Email** > **Query Builder** > **Filter Dataset** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
-7. After confirming the model categorizations, select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this will take some time based on the size of the dataset.
+
+7. After confirming the model categorizations:
+
+   * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to help you categorize the new dataset more efficiently.
+   * Select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this will take some time based on the size of the dataset.
+
 8. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and then repeat these steps to categorize email.
 
 You can see data about the categorized email and meetings on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current data shown on the **Dashboard** page.
