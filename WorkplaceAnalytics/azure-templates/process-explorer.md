@@ -69,8 +69,8 @@ Use the following steps to manually categorize meetings for both dataset types. 
 
    * **For new datasets**, you're prompted to enter:
       * **Categorization Title** - Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
-      **Probability Threshold** - The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category.
-      **Create a new categorization model or use a saved model** - The model option enables you to save time by using an existing training model that you saved while categorizing similar data with the query builder.
+      * **Probability Threshold** - The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category.
+      * **Create a new categorization model or use a saved model** - The model option saves you time by using an existing training model that you saved while categorizing similar data with the query builder. Or you can reuse the same model on the same dataset to analyze historical data trends for different date ranges.
 
    * **For existing datasets**, you can select:
 
@@ -110,7 +110,7 @@ Use the following steps to manually categorize meetings for both dataset types. 
    * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
    * After you categorize a good sample of related meetings for all the categories you want to evaluate:
 
-     * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to help you categorize the new dataset more efficiently.
+     * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to save time. For example, you can use the same model on the same dataset to analyze historical data trends for different data ranges.
      * For .csv datasets, select **Auto-Categorize Full Dataset** to categorize all of the meetings uploaded in the .csv file.
      * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 in To categorize email activity for analysis](#to-categorize-email-activity-for-analysis) for next steps to categorize email.
 
@@ -164,7 +164,7 @@ For a blob storage dataset, the categorization options depend of what the admin 
 
 7. After confirming the model categorizations:
 
-   * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to help you categorize the new dataset more efficiently.
+   * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to save time. For example, you can use the same model on the same dataset to analyze historical data trends for different date ranges.
    * Select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this will take some time based on the size of the dataset.
 
 8. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and then repeat these steps to categorize email.
