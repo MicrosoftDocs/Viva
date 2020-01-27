@@ -4,13 +4,8 @@
 
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
-<<<<<<< HEAD
-author: madehmer
-ms.author: madehmer
-=======
 author: paul9955
-ms.author: v-midehm
->>>>>>> master
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
