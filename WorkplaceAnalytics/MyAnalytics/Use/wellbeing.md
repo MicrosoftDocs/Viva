@@ -46,7 +46,7 @@ For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, a
 
 * **Be respectful of people’s time**:  
 
-  * Agree on “team hours.” Use the email delay delivery option to always deliver email during the team’s working hours.
+  * Agree on “team hours.” Use the delay delivery suggestion to deliver email when most of the team is in their working hours.
   * Be intentional about who you invite to meetings.
   * Try to limit meeting overruns.
   * Consider starting a policy of no meetings on Fridays.

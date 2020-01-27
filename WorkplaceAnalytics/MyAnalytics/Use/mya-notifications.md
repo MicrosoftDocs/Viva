@@ -61,7 +61,7 @@ Insights includes the following types of inline suggestions.
 
 Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
 
-Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in). 
+Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
 
 ## Providing feedback
 
@@ -90,13 +90,13 @@ The following are a few of the suggestions you might see in Outlook.
 
 | Where it shows up | What it says | How it helps |
 | :------ | ------- | --------- |
-|Email compose  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
+|Composing email  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. Or if you prefer to work on email outside working hours, use the delay delivery suggestion to schedule delivery of email when more recipients are in their working hours. The Delay delivery option enables you to get work done when you want without impacting your team's work outside of working hours. |
 
 ### Build better collaboration habits
 
 | Where it shows up | What it says | How it helps |
 | :------ | ------- | --------- |
-| Meeting compose &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes.  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  |
+| Scheduling meetings &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes.  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  |
 
 ## Opt out of inline suggestions
 
