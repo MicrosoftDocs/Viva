@@ -24,9 +24,9 @@ You can easily customize them to meet your unique organizational needs, includin
 
 * **Reference templates**: Enable you to customize your data by using attribute filters and various graphical views and interactive options. You can share data updates across your team and push actionable insights and recommendations to other Office 365 products, such as PowerPoint. The following templates are included by default:
 
-  * Organizational Network Analysis
-  * Topic Analysis
-  * Process Explorer
+  * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
+  * [Topic Analysis Azure Template](./topic-analysis.md)
+  * [Process Explorer Azure Template](./process-explorer.md)
 
 * **Analytic framework support**: Enables you to merge Workplace Analytics query output with other [Azure data sources](https://docs.microsoft.com/azure/index) outside of Workplace Analytics (such as with Azure Blob storage, Azure SQL Database, Azure Databricks, and Azure Analysis Services) for custom metric calculations, advanced and interactive visuals, and automated data management.
 

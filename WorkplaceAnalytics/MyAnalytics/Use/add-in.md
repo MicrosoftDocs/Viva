@@ -92,11 +92,11 @@ The Insights add-in reports the open rate within 30 minutes of when qualifying e
    | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
    | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
-MyAnalytics respects user privacy; this is why imprecise values are reported for particular email open rates. For more information, see the [Email read rates](../overview/privacy-guide.md#email-read-rates) section in the [MyAnalytics privacy guide](../overview/privacy-guide.md).
+MyAnalytics respects user privacy; this is why approximated values are reported and individual recipient information is not shown. For more details, see the [Email read rates](../overview/privacy-guide.md#email-read-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
 
 **To see read information about sent emails**
 
-1. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now. 
+1. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now.
 
    > [!Note] 
    > If you see a "Welcome!" message, select **Get started**.
@@ -112,7 +112,7 @@ MyAnalytics respects user privacy; this is why imprecise values are reported for
      ![Track email open rates](../../Images/mya/use/step-1-track-open-rates.png)
 
     The panel in the card that you selected (in either step 2a. or step 2b.) states the email subject line and shows a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
-    
+
     ![Email open rates](../../Images/mya/use/step-2-four-emails.png)
 
 <!-- REMOVED PER RISHABH 4 SEPT 2019
