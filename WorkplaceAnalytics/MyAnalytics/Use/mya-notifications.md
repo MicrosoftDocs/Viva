@@ -29,22 +29,29 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 Insights includes the following types of inline suggestions.
 
-1. When composing a meeting invitation or an email.
+* When composing an email, you can delay delivery of the message until your team is working.
 
    ![inline suggestions email](../../Images/mya/use/nudges-email.png)
 
-   This example shows a suggestion at the top of the email that asks if you want to delay delivery. After you add recipients, MyAnalytics automatically accounts for time zones and working hours and suggests a delivery time. You can complete an item on your to-do list without worrying about impacting others:
+   This example shows a suggestion when composing an email that asks if you want to delay delivery. After you add recipients, MyAnalytics automatically accounts for time zones and working hours and suggests a delivery time. You can get work done when you want without worrying about impacting others:
 
-   * Select the suggested delivery time (**Send on Thu, Nov 07 9:00 AM**), which opens Insights, where you can change the delivery time up until it is sent.
-   * Or select **Dismiss** to temporarily hide the suggestion.
+   1. Select the suggested delivery time (**Send on Thu, Nov 07 9:00 AM**), and then select **Send** to send the message at that time.
+   2. After you send the message, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
-     ![change the email delivery time](../../Images/mya/use/delay-delivery-1.png)
+       ![insights delay delivery](../../Images/mya/use/insights-delay-delivery.png)
 
-2. When reading an email or a calendar invitation.
+      Before the message is sent, you can open the message and then open Insights and do one of the following:
+
+      * Cancel the delay delivery and send the message now.
+      * Dismiss the delivery all together, which cancels the delivery and moves the message to your Outlook Deleted items folder.
+
+        ![inline suggestion cancel delivery delay](../../Images/mya/use/nudges-cancel-delay.png)
+
+* When reading an email or a calendar invitation.
 
    ![inline suggestions email image 02](../../Images/mya/use/nudges-email-02.png)
 
-3. When reading an email, it might remind you of a potentially outstanding task for the email sender. Select the link to see the task list in Insights.
+* When reading an email, it might remind you of a potentially outstanding task for the email sender. Select the link to see the task list in Insights.
 
    ![inline suggestions meeting image 03](../../Images/mya/use/nudges-meeting-01.png)
 
