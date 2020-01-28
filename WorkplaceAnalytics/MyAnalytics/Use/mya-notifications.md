@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
