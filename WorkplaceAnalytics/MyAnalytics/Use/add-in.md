@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics

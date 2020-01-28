@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Wellbeing page
 description: Learn how to use MyAnalytics to improve your work-life balance
