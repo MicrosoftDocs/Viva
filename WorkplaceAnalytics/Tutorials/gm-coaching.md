@@ -1,7 +1,5 @@
 ---
-# Metadata Sample
-# required metadata
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Manager coaching
 description: Workplace Analytics shares best practices with managers about coaching their teams
 author: madehmer
