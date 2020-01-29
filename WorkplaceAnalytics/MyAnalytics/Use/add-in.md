@@ -27,23 +27,35 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**. (For easier access in Outlook on the web, you can pin the Insights Add-in to the quick access pane. See [Pin the add-in](#pin-the-add-in) for details.)
 
-You'll see Insights in the right panel in Outlook:
+You'll see Insights in the right pane in Outlook:
 
-![Insights panel](../../images/mya/overview/insights-cards-12.png)
+![Insights icon](../../images/mya/overview/insights-view.png)
+![Insights panel](../../images/mya/overview/insights-cards-13.png)
 
 ## Plan your time away
 
-Insights can help you update your calendar and let your team know about your upcoming time away from work.
+Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
 
-![Insights plan time away](../../images/mya/overview/insights-plan-time-away.png)
+You can use Insights to help you reduce the stress caused by trying to wrap up tasks before you take time off and helps you catch up on work when you get back.
 
-You can schedule the days you'll be out of the office, edit your auto-reply and notification messages, and resolve meetings for when you're out of the office:
+1. In the **Insights** pane, select **Plan your time away**.
+2. In **Select dates**, select the date range for your time off, and then select **Schedule**.
 
-![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
+   ![Insights select dates](../../images/mya/overview/insights-select-dates.png)
 
-You can also schedule focus time to wrap-up work before you go and catch up after your get back:
+3. In **Set automatic replies**, compose or edit the automatic reply message that people will receive when they send you messages or invites while you're away from work. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
-![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
+   ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
+
+4. Notify your team about your upcoming holiday plans.
+
+* Cancel or decline any meetings that you scheduled or were invited to attend while you're away. You can also include a custom message about why you're canceling, declining, or rescheduling each meeting.
+
+  ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
+
+* Schedule focus time to wrap-up work before you go and catch up after your get back.
+
+  ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
 
 <!-- Coming soon-> When you get back, Insights helps you catch up on important email and review new documents and activity that occurred while you were away:
 
@@ -269,5 +281,3 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
-
-
