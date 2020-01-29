@@ -36,7 +36,13 @@ You'll see Insights in the right pane in Outlook:
 
 Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
 
-You can use Insights to help you reduce the stress caused by trying to wrap up tasks before you take time off and helps you catch up on work when you get back.
+You can use Insights to help you reduce the stress caused by trying to wrap up tasks before you take time off and to catch up on work when you get back.
+
+You can plan your schedule with these planning options all at one time or individually as you get closer to the date. Insights will track your progress and update what's done or not as you go. For example, this shows only the first task as done:
+
+   ![Insights plan your time away task list](../../images/mya/overview/insights-plan-time-away.png)
+
+**To plan your time away**
 
 1. In the **Insights** pane, select **Plan your time away**.
 2. In **Select dates**, select the date range for your time off, and then select **Schedule**.
@@ -47,20 +53,27 @@ You can use Insights to help you reduce the stress caused by trying to wrap up t
 
    ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
 
-4. Notify your team about your upcoming holiday plans.
+4. In **Notify collaborators**, select who you want to notify about your upcoming holiday plans, and then:
 
-* Cancel or decline any meetings that you scheduled or were invited to attend while you're away. You can also include a custom message about why you're canceling, declining, or rescheduling each meeting.
+   * Select **Open new email draft** to compose the message.
+   * Select **Open new meeting invitation** to add your scheduled time off on their calendars.
 
-  ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
+5. In **Resolve meetings** > **Review meetings**, you can see all the meetings that are scheduled during your time off. Any meetings that you scheduled will be canceled and any meetings you're an attendee of will be declined:
 
-* Schedule focus time to wrap-up work before you go and catch up after your get back.
+   * In **Decline and cancel meetings with this message**, edit the message that'll be sent with the meeting invitation decline or cancel message.
+   * In **Select meetings to decline or cancel**, select which meetings you want to cancel or decline, and then select **Confirm**. Or you can select **Open** next to a meeting to see more details, reschedule, and resolve if differently than the others on your calendar.
 
-  ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
+    ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
+
+6. In **Book time to focus**, Insights will show you a what time is available on your calendar to focus on wrapping up work before you go and on catching up after you get back.
+
+    ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
 
 <!-- Coming soon-> When you get back, Insights helps you catch up on important email and review new documents and activity that occurred while you were away:
 
 ![Insights welcome back](../../images/mya/overview/insights-welcome-back.png)
 -->
+
 ## Email read statistics
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
@@ -83,10 +96,10 @@ Read statistics are shown only for _qualifying messages_. A qualifying message i
 
 Insights does not report about email messages in the following categories:
 
- * Email that was sent from a shared mailbox
- * Email that was sent more than 14 days ago.
- * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
- * Email sent to modern groups. (If users are following the modern group, they are included in the count.)
+* Email that was sent from a shared mailbox
+* Email that was sent more than 14 days ago.
+* Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
+* Email sent to modern groups. (If users are following the modern group, they are included in the count.)
 
 #### Open rate
 
