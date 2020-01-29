@@ -36,9 +36,13 @@ You'll see Insights in the right pane in Outlook:
 
 Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
 
-You can use Insights to help you reduce the stress caused by trying to wrap up tasks before you take time off and to catch up on work when you get back.
+You can use Insights to help you reduce stress by helping plan your time away on your calendar, including helping you: 
 
-You can plan your schedule with these planning options all at one time or individually as you get closer to the date. Insights will track your progress and update what's done or not as you go. For example, this shows only the first task as done:
+* Resolve all your meetings in one place with a custom message about your scheduled time off.
+* Compose your auto-reply messages and notify your team about your scheduled time off.
+* Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
+
+You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan. For example, this shows only the first task as done:
 
    ![Insights plan your time away task list](../../images/mya/overview/insights-plan-time-away.png)
 
