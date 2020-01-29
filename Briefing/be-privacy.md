@@ -63,10 +63,9 @@ The Briefing email complies with GDPR requirements. Microsoft helps data control
 
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor user requests in the following ways.
 
-   * Data export requests: submit data export requests via the [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR).
-   * Request to restrict processing
-   * Use PowerShell to opt employees out of Briefing email
-   * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com/) and then remove the employee's data through the User Management Portal.
+   * **Data export requests** - Users can view the insights in the Briefing email and manage it if they want to have permanent copies of their information.
+   * **Request to restrict processing** - Use PowerShell to opt employees out of the Briefing email. Or employees can individually unsubscribe from the Briefing email to restrict processing of their data.
+   * **Delete employee data** - Sign in to [Azure Active Directory admin center](https://aad.portal.azure.com/) and then remove the employee's data through the User Management Portal.
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr)
 
