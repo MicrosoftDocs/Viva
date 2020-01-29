@@ -153,13 +153,12 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
   * For Date fields, use functions in the .csv file to set all rows that have empty or null values to "Today's date."
 
 * The ContactID must be unique, which is usually a GUID and must be different from the ContactEmail.
-* AccountID and AccountName are typically managed at a domain level, however the upload needs the lowest possible Account level for analysis. You can always add Parent fields to group these fields.
-
+* AccountID and AccountName are typically managed at a domain level, however the upload needs the lowest possible Account level for analysis. You can always add Parent fields to group these fields in the .csv file. For example, AccountContinent to group accounts by continent.
 * Confirm all email fields have a valid email address, not an alias (such as abc@contoso.com, not just "abc"). Use functions in the file to check and remove special characters and spaces from the email fields.
-* Custom or reserved string fields can have commas, which in a .csv file equals a new column. To prevent commas from being mistaken as field separators, set these text strings to wrap in the .csv file.
-* Confirm that double integer or float fields are not marked as #NULL or NULL. They must be “ ” (empty).
+* Custom or reserved string fields (for example, "Redmond, WA") can have commas, which in a .csv file equals a new column. To prevent commas from being mistaken as field separators, set these text strings to wrap in the .csv file.
 * Confirm that instances of double quotes or single quotes are always pairs in the .csv file. If not, will lead to the system misinterpreting the data as missing columns.
 * Before starting the upload process, confirm the upload file is saved as a UTF-8 encoded .csv file and is closed (not open in another app).
+* See [Common Format and MIME Type for Comma-Separated Values (CSV)](https://tools.ietf.org/html/rfc4180) for a complete list of format requirements as defined by the industry.
 
 ## Upload, validate, and process the CRM data
 
