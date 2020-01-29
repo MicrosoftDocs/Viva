@@ -31,7 +31,7 @@ Insights includes the following types of inline suggestions.
 
    ![inline suggestions email](../../Images/mya/use/nudges-email.png)
 
-   To delay delivery:
+   **To delay delivery**
 
    1. Select the suggested delivery time, such as **Send on Thu, Nov 07 9:00 AM** (shown the graphic), and then select **Send** to send the message at that time.
    2. After you send the email message, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
@@ -88,7 +88,7 @@ The following are a few of the suggestions you might see in Outlook.
 
 | Where it shows up | What it says | How it helps |
 | :------ | ------- | --------- |
-|Composing email  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. Or if you prefer to work on email outside working hours, use the delay delivery suggestion to schedule delivery of email when more recipients are in their working hours. The Delay delivery option enables you to get work done when you want without impacting your team's work outside of working hours. |
+|Composing email  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. Or if you prefer to work on email outside working hours, use the delay delivery suggestion to schedule delivery of email when more recipients are in their working hours. The **Delay delivery** option enables you to get work done when you want without impacting or disturbing your team outside of their working hours. |
 
 ### Build better collaboration habits
 
