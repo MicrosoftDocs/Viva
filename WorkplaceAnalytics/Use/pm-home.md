@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Home page for People Managers
 description: Learn how the Workplace Analytics Home page uses industry-based research to show you actionable insights into more effective business outcomes for your team
@@ -52,6 +49,19 @@ Important info about privacy for teams will be covered in this section.
 ## Metrics for teams like you
 
 Important info about how the metrics are calculated for your team be covered in this section.
+
+|Behavior |Metric name and definition |Metric calculation |
+|---------|--------------|--------|
+|Manager coaching |**Manager coaching hours 1:1** - The total number of hours that a manager spends in one-on-one meetings with all of their direct reports. | 100 multiplied by the number of people who have manager coaching hours that are greater than the threshold minutes per week divided by the total number of employees with a manager), and then this monthly calculation is divided by 4 to get the weekly totals. |
+| Wellbeing | **After-hours collaboration** - Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric. |100 multiplied by the number of people who collaborated outside of working hours /total measured employees in the company), which is then averaged over 6 months. |
+|Meetings |**Meeting hours** - Number of meeting hours the time investor group has spent meeting with the collaborator group. **Long or large meetings** - Number of meetings that last more than 1 hour or have 9 or more attendees. |Average over 6 months 
+(100*Count 1 if (Meeting hours in long or large meetings/Meeting hours per person>0.5)/Total measured employees in the team) 
+|
+ 
+
+
+
+
 
 ## View recommended plan
 
