@@ -15,7 +15,7 @@ To solve a problem or make a decision, it helps to keep the meeting audience sma
 
 ## Statistics
 
-Stand-up meetings are more effective meetings. Allen Bluedorn from the University of Missouri and his colleagues concluded that stand-up meetings were about 34 percent shorter than sit-down meetings, yet produced the same solutions. See [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) for more information.
+Business meetings require participants to commit, focus and make decisions, which depletes our finite cognitive resources. This depletion can lead to poor judgement and bad decisions. Scheduling meetings that are too long or too frequent quickly drains this resource.  Effective meetings are the goal. See [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) to read more.
 
 ## Best practices
 
