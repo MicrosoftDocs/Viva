@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Best practices for wellbeing
 
-Employee burnout accounts for 20 to 50 percent of their company’s annual employee turnover costs. More than 40 percent of creative ideas come when you are taking breaks or allowing your mind to wander.
+Employee burnout accounts for 20 to 50 percent of their company’s annual employee turnover costs. More than 40 percent of creative ideas come when you are taking breaks or allowing your mind to wander. For details, see [Help your team achieve work-life balance — even when you can’t](https://insights.office.com/employee-experience/help-your-team-achieve-work-life-balance-even-when-you-cant/).
 
 ## Statistics
 
