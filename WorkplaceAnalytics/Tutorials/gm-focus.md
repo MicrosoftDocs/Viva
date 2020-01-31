@@ -15,14 +15,12 @@ Focused time for deep work provides employees an opportunity to master hard thin
 
 ## Statistics
 
-Every minute spent in a wasteful meeting takes away from solo work that’s equally essential for creativity and efficiency. In response, people tend to come to work early, stay late, or use weekends for quiet time to concentrate. For about this, see [Stop the Meeting Madness](https://hbr.org/2017/07/stop-the-meeting-madness).
+“182 senior managers [were surveyed] in a range of industries: 65 percent said meetings keep them from completing their own work. 71 percent said meetings are unproductive and inefficient. 64 percent said meetings come at the expense of deep thinking. 62 percent said meetings miss opportunities to bring the team closer together,” according to [](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/).
 
 ## Best practices
 
-* Proactively schedule blocks of time on your calendar to focus when you know you can do your best work.
-
-* Eliminate as many distractions as possible during a scheduled focus session.
-
-* Schedule focus time with intention by dedicating that time to specific tasks.
-
-* Take a few 15-minute breaks during the day to restore your ability to focus.
+* Take an employee survey to gather data and impressions about the organization’s meeting frequency and its impact on how much work is or isn’t getting done during the day. 
+Come together as a team to share everyone’s feedback. It is important to process all contributions and analysis from all team members to begin the process of change. 
+Agree on a collective, personal goal based on the survey feedback. For example, declare “meeting free” periods to free up time on everyone’s calendar. This increases individual focus time and productivity and reduces the spillover into personal time. 
+Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction. 
+Regularly and openly check in with employees. Frustration, resentment and even hopelessness are signals that people are falling back into bad patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention. 
