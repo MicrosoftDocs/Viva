@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 ROBOTS: NOINDEX,NOFOLLOW
 layout: LandingPage
 title: Workplace Analytics playbooks
