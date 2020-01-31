@@ -1,11 +1,8 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: Workplace Analytics metric definitions 
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,12 +14,12 @@ You can use the following metrics in Workplace Analytics to customize your queri
 
 ## Person metrics
 
-|Metric|Description|Query type|Data type|Customizable|
+|Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|
-|After hours collaboration|Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
-|After hours email hours|Number of hours the person spent sending email outside of working hours.|Person|Hour|Yes|
+|After hours collaboration |Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
+|After hours email hours |Number of hours the person spent sending email outside of working hours.|Person|Hour|Yes|
 |After hours in calls |Number of hours the person spent in calls, through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |Person|Hour|Yes|
-|After hours instant messages|Number of hours a person spent in instant messages through Teams outside of working hours. |Person|Hour|Yes|
+|After hours instant messages |Number of hours a person spent in instant messages through Teams outside of working hours. |Person|Hour|Yes|
 |After hours meeting hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
 |Call hours| The number of hours the person spent in Teams calls with at least one other person, during and outside of working hours.| Person| Hours| Yes |
 |Collaboration hours|Number of hours the person spent in meetings and on email with at least one other person. Collaboration hours include both internal and external hours. |Person|Hour|Yes|
