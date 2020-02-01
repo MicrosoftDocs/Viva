@@ -75,6 +75,9 @@ The following describes the metrics used in each of the business insight questio
 |Do employees have time to focus? |The number of employees who have 20 or more hours each of available time for focused work, divided by the total number of measured employees. |
 |Are managers accessing diverse information? |The number of managers who had more than three meaningful connections outside of their organization each month. |
 |Where are the influencers in your company? |The number of organizations that have fewer than expected numbers of influencers, which are based on thresholds defined for the organization and company size. |
+|Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. |
+|How is the customer collaboration in your company?	|Groups that spend the highest proportion of their collaboration time externally. |
+|Are employees building customer networks? |Groups that spend time with the most external domain connections. |
 
 ## Frequently asked questions
 
