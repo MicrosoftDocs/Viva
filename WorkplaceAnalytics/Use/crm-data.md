@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics CRM data
 description: What is available on the CRM data sources page in Workplace Analytics 

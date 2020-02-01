@@ -54,12 +54,12 @@ productDirectory:
         - url: href="gm-communication.md"
           text: Learn how to set up team communication to maintain collaboration and increase productivity simultaneously.
     - title: Cross-group collaboration
-      imageSrc: ../images/wpa/playbooks/efficient-communication.png
+      imageSrc: ../images/wpa/playbooks/efficient-communications.png
       links:
         - url: href="gm-cgcollaboration.md"
           text: Learn how to network  with other managers in your organization for  sharing information and skills across the different groups.
     - title: Influencer
-      imageSrc: ../images/wpa/playbooks/manager-coaching.png
+      imageSrc: ../images/wpa/playbooks/influencer.png
       links:
         - url: href="gm-influencer.md"
           text: Learn about the best practices for influencers on your team. 
