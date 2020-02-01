@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Home page for Analysts
 description: Learn how the Workplace Analytics Home page uses industry-based research to show you actionable insights into more effective business outcomes for your organization
@@ -12,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Home
+# Workplace Analytics Home page for Analysts
 
 As a business leader, an analyst, or a program manager, you can use the new **Home** page to see research-based behavioral insights into how your organization gets work done.
 
@@ -38,6 +35,14 @@ For example, do your employees have time to focus on their work? Research shows 
 
 ![Organizational agility](../images/wpa/use/org-agility.png)
 
+## Customer focus
+
+Show your customers you value them and their business by creating deep connections.
+
+For example, are your employees engaged often and deeply with customers? Research shows that fully engaged customers deliver a 23 percent premium over average in share of wallet, profitability, revenue, and relationship growth.
+
+![Customer focus](../images/wpa/use/customer-focus.png)
+
 ## Supporting evidence
 
 Each insight includes **Supporting evidence** that links you to a related article at [Microsoft Workplace Insights](https://insights.office.com/). These articles are authored by:
@@ -62,17 +67,29 @@ As an analyst or program manager, you'll also see an option to **View recommende
 
 The following describes the metrics used in each of the business insight questions.
 
-|Question |Description  |
-|---------|--------------|
+|Question |Metric description  |
+|---------|--------------------|
 |Are employees finding time to recharge? |The number of employees that spend greater than one hour outside of their designated work hours in meetings and email each week, divided by the total number of measured employees. |
 |Are your employees overloaded by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. |
-|Do employees have 1:1 time with managers? |The number of employees who have 15 minutes of 1:1 time with their manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
+|Are your employees getting enough time with their manager? |The number of employees who have 15 minutes of 1:1 time with their manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
 |Do employees have time to focus? |The number of employees who have 20 or more hours each of available time for focused work, divided by the total number of measured employees. |
 |Are managers accessing diverse information? |The number of managers who had more than three meaningful connections outside of their organization each month. |
 |Where are the influencers in your company? |The number of organizations that have fewer than expected numbers of influencers, which are based on thresholds defined for the organization and company size. |
+|Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. |
+|How is the customer collaboration in your company?	|Groups that spend the highest proportion of their collaboration time externally. |
+|Are employees building customer networks? |Groups that spend time with the most external domain connections. |
+
+## Frequently asked questions
+
+### Q1 
+
+### Q2 
+
+### Q3 
 
 ## Related topics
 
 * [Explore the metrics](explore-intro.md)
 * [Plans](../tutorials/solutionsv2-intro.md)
 * [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Workplace Analytics Home page for People Managers](pm-home.md)

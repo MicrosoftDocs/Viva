@@ -1,14 +1,11 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
 author: paul9955
-ms.author: v-midehm
-ms.date: 08/08/2019
+ms.author: madehmer
 ms.topic: article
-localization_priority: normal 
+localization_priority: normal
 ms.prod: wpa
 ---
 
