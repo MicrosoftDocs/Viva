@@ -38,7 +38,7 @@ For information on how to assign a license, see [Assign licenses to users in Off
 <!-- If you don’t want a user to see any statistics from MyAnalytics, you can disable the MyAnalytics service plan for that user. -->
 
 > [!Note]
-> If you want to notify your organization before you assign licenses with a MyAnalytics service plan, you can use [this email template](MyAnalytics-announcement-template.docx). You can download it, customize it with your company's information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
+> If you want to notify your organization before you assign licenses with a MyAnalytics service plan, you can use [this email template](MyAnalytics-announcement-2020-template.docx). You can download it, customize it with your company's information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
 
 ## Configure access at the tenant level
 
