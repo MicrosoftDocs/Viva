@@ -6,7 +6,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Workspace Planning Azure Template for Workplace Analytics 
 description: Learn about the Workspace Planning Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -29,10 +29,10 @@ The template combines Workplace Analytics data with your team size and workspace
 
 ## How it works
 
-Workspace Planning is fully hosted and operates within your existing Azure subscription. It requires the following input files (.csv) that you create by following the corresponding instructions on this page.
+This template combines Workplace Analytics data with your team size, workspace floor capacity, and the distances between the floors and the buildings to generate floor plans with recommended seating.
 
  * [Interaction](#to-create-an-interaction-file): This is a Workplace Analytics group-to-group query that includes meeting and email activity for insight into current work and collaboration patterns.
- * [Floor capacity](#to-create-a-floor-capacity-file): This file includes details about the maximum capacity for the workspace.
+ * [Space capacity](#to-create-a-space-capacity-file): This file includes details about the maximum capacity for the workspace.
  * [Distance](#to-create-a-distance-file): This file includes details about the walking distances in a unit you specify, such as minutes or meters that can be estimates, between floors or buildings.
  * [Team size](#create-a-team-size-file): This file includes details about the number of employees in each team in your organization.
 
@@ -80,14 +80,14 @@ This template combines the data in these files and generates a table that shows 
 8. Locate and right-click the **interaction.zip** file, select **Extract all**, and then select **Extract** and specify the folder.
 9. Confirm the new file is named (or rename it as) **interaction.csv** (exact file name is required).
 
-## To create a Floor capacity file
+## To create a Space capacity file
 
-1. Open and save the [floor_capacity.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/floor_capacity.csv) file to local storage.
+1. Open and save the [space_capacity.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage.
 2. On the first row in the file, to the right of **Floor**, replace the example floor names with your own that match the same format of [**Building name** - **Floor number**], as shown in the following graphic.
 3. In the Capacity row, replace the example numbers with the maximum capacity for each of the corresponding floors listed.
 4. Save and close the file.
 
-   ![Floor capacity table](./images/wsp-floor-table.png)
+   ![Space capacity table](./images/wsp-floor-table.png)
 
 ## To create a Distance file
 
