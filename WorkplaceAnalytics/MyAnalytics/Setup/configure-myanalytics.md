@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics configuration for Office 365 administrators
 description: Configuration options that Office 365 administrators can make for MyAnalytics users
