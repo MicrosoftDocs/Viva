@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
@@ -27,7 +25,7 @@ Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open you
 
 The MyAnalytics dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
-![Your work patterns](../../Images/mya/use/home-pg.png)
+![Your work patterns](../../Images/mya/use/home-2.png)
 
 ## Focus and Wellbeing
 
