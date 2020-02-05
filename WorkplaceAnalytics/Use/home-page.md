@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Home page for Analysts
-description: Learn how the Workplace Analytics Home page uses industry-based research to show you actionable insights into more effective business outcomes for your organization
+title: Workplace Analytics Home pages for analysts
+description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your organization
 author: madehmer
 ms.author: madehmer
 ms.topic: article
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Home page for Analysts
+# Workplace Analytics Home pages for analysts
 
-As a business leader, an analyst, or a program manager, you can use the new **Home** page to see research-based behavioral insights into how your organization gets work done.
+As a business leader, an analyst, or a program manager, you can use the new **Home** pages to see research-based behavioral insights into how your organization gets work done.
 
 ![Home page](../images/wpa/use/wpa-home.png)
 
@@ -81,12 +81,14 @@ The following describes the metrics used in each of the business insight questio
 
 ## Frequently asked questions
 
-### Q1 
+### Q1 How does the home page data accommodate different partitions?
 
-### Q2 
+The home pages show insights only for the participants that are included in the selected partition.
 
-### Q3 
+### Q2 Which roles have access to this home page dashboard?
 
+The analyst, limited analyst, and program manager roles can access these home pages. People managers can only see data about their teams, see [Workplace Analytics Home for people managers](pm-home.md) for more details.
+ 
 ## Related topics
 
 * [Explore the metrics](explore-intro.md)
