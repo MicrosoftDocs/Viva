@@ -43,8 +43,8 @@ This template combines the data in these files and generates a table that shows 
 ## Key features
 
 * **Interactive mode**: Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
-* **Fixed seats mode**: Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size .csv input file.
-* **Office-level seat variables**: Enables you to differentiate between two seat variables at the office level, such as an Office space (desks assigned to one person) and a Workpoint space (shared desks or open space), or two other variables of your choosing. For example, if your team requires 100 regular desks, and 5 offices, you can update your base files to set those as constraints to optimize your team’s placement within a floor. Requires a different version of the space_capacity.csv and team_size.csv input file.
+* **Fixed seat variables**: Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size .csv input file.
+* **Office seat variables**: Enables you to differentiate between two seat variables at the office level, such as an Office space (desks assigned to one person) and a Workpoint space (shared desks or open space), or two other variables of your choosing. For example, if your team requires 100 regular desks, and 5 offices, you can update your base files to set those as constraints to optimize your team’s placement within a floor. Requires a different version of the space_capacity.csv and team_size.csv input file.
 * **Relative constraints**: Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.
 
 ## Deploy and configure the template
@@ -96,24 +96,24 @@ This template combines the data in these files and generates a table that shows 
 1. Open and save the [space_capacity.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage.
 2. In the **Floor** (first) column in the file, replace the example floor names with your own that match the same format of [**Building name**-**Floor number**], as shown in the following graphic.
 
-   * Use valid characters, which include: a-z, A-Z, 0-9, "-", and “ ” (spaces)
-   * Do not use invalid characters, which include: “_” (underscores) and “,” (commas)
+   * Use valid characters, including: **a-z**, **A-Z**, **0-9**, "**-**" (dashes), and “ ” (spaces)
+   * Do not use invalid characters, including: “**_**” (underscores) and “**,**” (commas)
 
 3. In the **Total Capacity** column, enter the maximum capacity for each floor.
-4. If you have office-level seat variables to define, continue to the next set of steps. Otherwise, save and close the file.
+4. If you have office seat variables to define, continue to the next set of steps. Otherwise, save and close the file.
 
    ![Space capacity table](./images/wsp-space-table.png)
 
-### Add office-level seat variables
+### Add office seat variables
 
-1. In the space_capacity.csv file you just created in the previous steps, add a new column and name it **Workpoint**.
+1. In the **space_capacity.csv** file you just created in the previous steps, add a new column and name it **Workpoint**.
 2. Add another new column and name it **Office**.
 3. In the **Workpoint** column for the associated workspace, list how many seats are standard desks (shared desks or open space). If the workspace has no available seats, enter 0 (zero).
 4. In the **Office** column for the associated workspaces, list how many office seats (desks assigned to one person) are available within that workspace.
 5. Your final floor plan should look similar to the following example.
 6. Save and close the file.
 
-    ![Floor plan with office-level seat variables](./images/wsp-office-level.png)
+    ![Floor plan with office seat variables](./images/wsp-office-level.png)
 
 ## Create a Distance file
 
@@ -127,6 +127,8 @@ This template combines the data in these files and generates a table that shows 
 The following graphic depicts a building with four floors. The distance between each parallel floor needs to be the same consistent value. You can use the default value of 15 for parallel floors, which is a good estimate of how long it takes to get from one floor to the next in the same building.
 
    ![Floor distance explained](./images/wsp-distance-estimate.png)
+
+### To create a Distance file
 
 1. Open and save the [distance.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/distance.csv) file to local storage.
 2. In the first row and the first column, replace the example data with the locations you want processed with the structure that match the same format of [**Building name**-**Floor number**], similar to the data shown in the following graphic.
@@ -153,40 +155,40 @@ The following graphic depicts a building with four floors. The distance between 
 
 3. Save the file, and then:
 
-   * If your workspaces use Fixed Seats, continue to the next set of steps.
-   * If your workspaces need Office-level seat variables defined, skip to [these steps](#for-office-level-seat-variables).
+   * If your workspaces use fixed (assigned) seats, continue to the next set of steps.
+   * If your workspaces need office seat variables defined, skip to [these steps](#for-office-seat-variables).
 
    ![Team size table](./images/wsp-team-table.png)
 
-### For Fixed seats
+### For fixed seat variables
 
-1. In the space_capacity file you just created in the previous set of steps, add a new column and name it **Adjacent Size**.
+1. In the **space_capacity.csv** file you just created in the previous set of steps, add a new column and name it **Adjacent Size**.
 2. Add another new column and name it for the team to which you want to enforce adjacency.
 3. For each row in the new team column, enter the number of team members you want to place next to each team, entering a 0 for the row that has the same team name.
 4. In the **Adjacent Size** column, for the rows that are not the same team as the new column, add the Size column and the value in the new team column.  For the row that matches the team name in the new column, total the new Team column. And then subtract that sum from the **Size** column and enter that value in the **Adj Size** cell.
 
-   ![Fixed seats mode](./images/wsp-adj-size.png)
+   ![Fixed seat variables](./images/wsp-adj-size.png)
 
-### For Office-level seat variables
+### For office seat variables
 
-1. In the space_capacity file you just created in the previous set of steps, add a new column and name it **Workpoint Seats**, which represents how many standard desk seats (shared desks or open space) the team needs.
+1. In the **space_capacity.csv** file you just created in the previous set of steps, add a new column and name it **Workpoint Seats**, which represents how many standard desk seats (shared desks or open space) the team needs.
 2. Add an additional column and name it **Office Seats**, which represents how many office seats (desks assigned to one person) the team needs. If a single office is assigned to two people, count it as two office seats.
 3. Enter the number of workpoint seats required for each team. If no workpoint seats are required for a team, enter 0.
 4. Enter the number of office seats required for each team. If no office seats are required for a team, enter 0.
 5. Your final floor plan should look similar to the following graphic.
 6. Save and close the file.
 
-   ![Office-level seat variables](./images/wsp-office-level.png)
+   ![Office seat variables](./images/wsp-office-level.png)
 
-## To generate a Constraints file
+## Generate a Constraints file
 
 > [!Note]
 > If you do not create a constraint for a team, an optimized floor plan will still be created.
 
-1. Open and save the contraints.csv file to local storage.
+1. Open and save the **constraints.csv** file to local storage.
 2. Set the **Constraint Type** to **Distance**.
-3. In the **From** column, enter the names of your source teams that you used in the team_size file (the names must match between these two files).
-4. In the **To** column, enter the names of the destination teams that match the team names you used in the team_size file (the names must match).
+3. In the **From** column, enter the names of your source teams that you used in the **team_size.csv** file (the names must match between these two files).
+4. In the **To** column, enter the names of the destination teams that match the team names you used in the **team_size.csv** file (the names must match).
 5. In the **Eq(<, >, =)**  column, enter a constraint:
 
    * Use **>** to separate two teams.
@@ -194,8 +196,8 @@ The following graphic depicts a building with four floors. The distance between 
    * Use **=** to keep two teams as neutral.
 
 6. Enter the applicable amount on a scale of **1 -100** where **1** is for having teams be as close together as possible and **100** is for as far away as possible. Add as many team combinations as you require.
-7. Save the file in the same locations as the 4 base files.
-8. When selecting the relative constraints feature as you see above, make sure to select all 5 files.
+7. Save the file in the same locations as the four base files.
+8. When selecting the relative constraints feature as you see above, make sure to select all five files.
 
    In the following example, the first constraint defines that Team 1 be as close as possible to Team 2. The second constraint defines Team 3 be as far away as possible from Team 4.
 
