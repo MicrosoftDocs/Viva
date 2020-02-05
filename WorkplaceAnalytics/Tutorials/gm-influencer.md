@@ -15,11 +15,16 @@ Influencers are remarkably successful at driving cross-organizational initiative
 
 ## Statistics
 
- “The hierarchical structures and organizational processes we have used for decades to run and improve our enterprises are no longer up to the task of winning in this faster-moving world,” according to [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/).
+The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article explains how companies need more volunteer change agents and that:
+
+* "To move faster and further, you need to pull more people than ever before into the strategic change game, but in a way that is economically realistic."
+* “Today companies must constantly seek competitive advantage without disrupting daily operations."
+* "Strategy should be viewed as a dynamic force that constantly seeks opportunities, identifies initiatives that will capitalize on them, and completes those initiatives swiftly and efficiently."
+* "The game is all about vision, opportunity, agility, inspired action, and celebration — not budget reviews, reporting relationships, and compensation."
 
 ## Best practices
 
-* Operate on a “dual operating system”—a management-driven hierarchy working with a strategy network.  
+* Operate on a “dual operating system” — a management-driven hierarchy working with a strategy network.  
 * Recruit volunteers interested in being a part of the organization’s strategy network. Ten percent of the managerial and employee population is enough.  
 * A strategy network needs leadership, which focuses on vision, opportunity, agility, inspired action and celebration.
 * The strategy network and the hierarchy must be inseparable, with a constant flow of information and activity between them—an approach that works in part because the volunteers in the network all work within the hierarchy.

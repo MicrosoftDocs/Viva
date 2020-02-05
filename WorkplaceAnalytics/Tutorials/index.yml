@@ -1,19 +1,19 @@
 ### YamlMime:Hub
 
-title: Best practices for Workplace Analytics People Managers
-summary: Best practices for People Managers with Workplace Analytics to help manage and improve how their teams get work done.
+title: Best practices for people managers who use Workplace Analytics 
+summary: Workplace Analytics can help managers improve how they and their teams get work done.
 brand: m365
 
 metadata:
  ROBOTS: NOINDEX,NOFOLLOW
- title: Best practices for Workplace Analytics People Managers
- description: People Managers can use this guidance to positively affect how their teams get work done. Each of these best practices link to supporting industry research and customer stories.
+ title: People manager best practices
+ description: Workplace Analytics can help managers improve how they and their teams get work done. Each of these best practices include supporting industry research and customer stories.
  ms topic: hub-page
  localization_priority: normal
  ms.prod: wpa
  author: madehmer
  ms.author: madehmer
- ms.date: 01/29/2020
+ ms.date: 02/05/2020
 
 productDirectory:
 
@@ -22,7 +22,7 @@ productDirectory:
       imageSrc: ../images/wpa/playbooks/manager-coaching.png
       links:
         - url: gm-coaching.md
-          text: Learn how to best mentor and support your employees, such as regularly scheduled one-on-ones.
+          text: Learn how to best mentor and support your employees, including regularly scheduled one-on-ones.
     - title: Wellbeing
       imageSrc: ../images/wpa/playbooks/wellbeing.png
       links:
@@ -58,9 +58,9 @@ productDirectory:
       links:
         - url: gm-cgcollaboration.md
           text: Learn how to network  with other managers in your organization for  sharing information and skills across the different groups.
-    - title: Influencer
+    - title: Influencers
       imageSrc: ../images/wpa/playbooks/influencer.png
       links:
         - url: gm-influencer.md
-          text: Learn about the best practices for influencers on your team. 
+          text: Learn how more change agents can lead your team and your company to be more agile and competitive.
  

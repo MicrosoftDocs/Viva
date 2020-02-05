@@ -15,7 +15,11 @@ Managers can help share ideas and expertise across the company. This cross-unit 
 
 ## Statistics
 
-“The value of horizontal collaboration is widely recognized. Employees who can reach outside their silos to find colleagues with complementary expertise learn more, sell more, and gain skills faster,” according to [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/).
+According to the [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/) article, it's important to develop and deploy cultural brokers:
+
+* "Cultural brokers promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive."
+* “The value of horizontal collaboration is widely recognized."
+* "Employees who can reach outside their silos to find colleagues with complementary expertise learn more, sell more, and gain skills faster.”
 
 ## Best practices
 
