@@ -70,6 +70,22 @@ To learn more about differential privacy, read [Differential Privacy for Everyon
 
 As people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
 
+## About the metrics
+
+The following describes the metrics used in each of the business insight questions.
+
+|Question |Metric description  |
+|---------|--------------------|
+|Are employees finding time to recharge? |The number of employees that spend greater than one hour outside of their designated work hours in meetings and email each week, divided by the total number of measured employees. |
+|Are your employees overloaded by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. |
+|Are your employees getting enough time with their manager? |The number of employees who have fewer than 15 minutes of 1:1 time with their manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
+|Do employees have time to focus? |The number of employees who have less than 20 hours each of available time for focused work, divided by the total number of measured employees. |
+|Are managers accessing diverse information? |The number of managers who had fewer than three meaningful connections outside of their organization each month. |
+|Where are the influencers in your company? |The number of organizations who have fewer than expected numbers of influencers, which are based on thresholds defined for the organization and company size. |
+|Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. |
+|How is the customer collaboration in your company?	|Groups that spend the highest proportion of their collaboration time externally. |
+|Are employees building customer networks? |Groups that spend time with the most external domain connections. |
+
 ## Frequently asked questions
 
 ### Q1 

@@ -11,11 +11,16 @@ ms.prod: wpa
 
 # Best practices for meetings
 
-To solve a problem or make a decision, it helps to keep the meeting audience small and the duration short. Research shows attendees communicate faster, focus on getting the work done and come to decisions more quickly.
+To solve a problem or make a decision, it helps to keep the meeting audience small and the duration short. Research shows that smaller and shorter meetings enable attendees to communicate faster, come to decisions more quickly, and focus on getting the work done.
 
 ## Statistics
 
-Business meetings require participants to commit, focus and make decisions, which depletes our finite cognitive resources. This depletion can lead to poor judgement and bad decisions. Scheduling meetings that are too long or too frequent quickly drains this resource.  Effective meetings are the goal. See [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) to read more.
+[The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective:
+
+* "If you want people to have the opportunity to contribute, you need to limit attendance."
+* "Social psychology research has shown that when people perform group tasks (such as brainstorming or discussing information in a meeting), they show a sizable decrease in individual effort than when they perform alone.”
+* "Research shows that there are advantages to keeping [meetings] shorter."
+* "Having everyone contribute isn’t just good for creating more effective meetings but for the participants themselves as well."
 
 ## Best practices
 
