@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
-title: Workplace Analytics Playbooks for People Managers
-summary: Best practices for People Managers with Workplace Analytics to help manage and improve how your team gets work done.
+title: Best practices for Workplace Analytics People Managers
+summary: Best practices for People Managers with Workplace Analytics to help manage and improve how their teams get work done.
 brand: m365
 
 metadata:
  ROBOTS: NOINDEX,NOFOLLOW
- title: Workplace Analytics Playbooks for People Managers
- description: People Managers can use these valuable resources to gain insight into the most common best practices that can positively affect how your team gets work done. These resources also provide industry research statistics and customer stories that support these best practices.
+ title: Best practices for Workplace Analytics People Managers
+ description: People Managers can use this guidance to positively affect how their teams get work done. Each of these best practices link to supporting industry research and customer stories.
  ms topic: hub-page
  localization_priority: normal
  ms.prod: wpa
@@ -26,41 +26,41 @@ productDirectory:
     - title: Wellbeing
       imageSrc: ../images/wpa/playbooks/wellbeing.png
       links:
-        - url: href="gm-wellbeing.md"
+        - url: gm-wellbeing.md
           text: Discover best practices that you and your team can follow to improve work-life balance and increase team productivity and wellbeing.
     - title: Meetings
       imageSrc: ../images/wpa/playbooks/meetings.png
       links:
-        - url: href="gm-meetings.md"
+        - url: gm-meetings.md
           text: Learn how to plan and facilitate meetings that best meet your team's and organization's goals.
     - title: Focus
       imageSrc: ../images/wpa/playbooks/focus.png
       links:
-        - url: href="gm-focus.md"
+        - url: gm-focus.md
           text: Learn why it's important that you and your team plan and schedule focus time to get independent work done. 
     - title: Manager connectedness
       imageSrc: ../images/wpa/playbooks/manager-connectedness.png
       links:
-        - url: href="gm-connectedness.md"
+        - url: gm-connectedness.md
           text: Learn why managers that share ideas and expertise across the company makes for more successful organizations. 
     - title: Email overload
       imageSrc: ../images/wpa/playbooks/email-overload.png
       links:
-        - url: href="gm-overload.md"
+        - url: gm-overload.md
           text: Learn how to minimize email by setting up team rules that match up to with well-known best practices.
     - title: Efficient communications
       imageSrc: ../images/wpa/playbooks/efficient-communications.png
       links:
-        - url: href="gm-communication.md"
+        - url: gm-communication.md
           text: Learn how to set up team communication to maintain collaboration and increase productivity simultaneously.
     - title: Cross-group collaboration
       imageSrc: ../images/wpa/playbooks/cross-group-collaboration.png
       links:
-        - url: href="gm-cgcollaboration.md"
+        - url: gm-cgcollaboration.md
           text: Learn how to network  with other managers in your organization for  sharing information and skills across the different groups.
     - title: Influencer
       imageSrc: ../images/wpa/playbooks/influencer.png
       links:
-        - url: href="gm-influencer.md"
+        - url: gm-influencer.md
           text: Learn about the best practices for influencers on your team. 
  
