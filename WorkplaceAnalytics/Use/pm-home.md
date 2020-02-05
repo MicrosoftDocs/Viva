@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Home page for People Managers
-description: Learn how the Workplace Analytics Home page uses industry-based research to show you actionable insights into more effective business outcomes for your team
+title: Workplace Analytics Home pages for people managers
+description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
 ms.author: madehmer
 ms.topic: article
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Home page for People Managers
+# Workplace Analytics Home pages for people managers
 
-As a people manager, you can use the **Home** page to see research-based behavioral insights into how your organization gets work done.
+As a people manager, you can use the **Home** pages to see research-based behavioral insights into how your organization gets work done.
 
 ![People Manager Home page](../images/wpa/use/pm-home.png)
 
