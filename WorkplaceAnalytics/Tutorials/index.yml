@@ -49,12 +49,12 @@ productDirectory:
         - url: href="gm-overload.md"
           text: Learn how to minimize email by setting up team rules that match up to with well-known best practices.
     - title: Efficient communications
-      imageSrc: ../images/wpa/playbooks/meetings.png
+      imageSrc: ../images/wpa/playbooks/efficient-communications.png
       links:
         - url: href="gm-communication.md"
           text: Learn how to set up team communication to maintain collaboration and increase productivity simultaneously.
     - title: Cross-group collaboration
-      imageSrc: ../images/wpa/playbooks/efficient-communications.png
+      imageSrc: ../images/wpa/playbooks/cross-group-collaboration.png
       links:
         - url: href="gm-cgcollaboration.md"
           text: Learn how to network  with other managers in your organization for  sharing information and skills across the different groups.
