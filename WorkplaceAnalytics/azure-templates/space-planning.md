@@ -191,9 +191,9 @@ The following graphic depicts a building with four floors. The distance between 
 4. In the **To** column, enter the names of the destination teams that match the team names you used in the **team_size.csv** file (the names must match).
 5. In the **Eq(<, >, =)**  column, enter a constraint:
 
-   * Use **>** to separate two teams.
-   * Use **<** to attract two teams.
-   * Use **=** to keep two teams as neutral.
+   * Use **<** (less than) to connect two teams.
+   * Use **>** (greater than) to separate two teams.
+   * Use **>=** (greater than or equal to) to separate two teams the same way as “>”, but also includes the value used to compare against.
 
 6. Enter the applicable amount on a scale of **1 -100** where **1** is for having teams be as close together as possible and **100** is for as far away as possible. Add as many team combinations as you require.
 7. Save the file in the same locations as the four base files.
