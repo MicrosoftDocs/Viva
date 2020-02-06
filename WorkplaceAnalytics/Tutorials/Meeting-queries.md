@@ -4,9 +4,8 @@
 
 title: Meeting queries in Workplace Analytics
 description: When to use a meeting query and the type of data available for analysis in Workplace Analytics.  
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 04/24/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,13 +15,13 @@ ms.prod: wpa
 
 A Workplace Analytics meeting query helps you analyze individual meeting trends. You can use a meeting query to get a list of all meetings and their attributes that occurred during a specific period.
 
-## How to choose between a meeting or person query
+## How to choose between a meeting query and a person query
 
-Certain questions can be answered with either a meeting or person query.
+Certain questions can be answered with either a meeting or person query:
 
  ![Meeting or Person query](../Images/WpA/Tutorials/person-or-meeting-query.png)
 
-But for most questions you want to answer, the lines are more clear cut.
+But for most questions you want to answer, the lines are more clear cut:
 
 ![Meeting query and Person query](../Images/WpA/Tutorials/meeting-or-person-query-2.png)
 
@@ -76,7 +75,7 @@ When you run a meeting query in Workplace Analytics, the output (.csv) file can 
 
 * Improves data analysis with fewer columns in a smaller file.
 * Further protects private data by excluding select columns from the file.
-* Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns.
+* Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns. 
 
 ![Organizational data section](../Images/WpA/Tutorials/query-org-data-m.png)
 
@@ -108,31 +107,34 @@ Continuing the example from [Person queries](../Tutorials/meeting-queries.md), t
 11. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
 12. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 13. Select **Run** at the top right to run the query.
-14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ### Meeting query results
 
-Each row of data represents a single meeting, and meeting query results always contain the following information in columns:
+Each row of data represents a single meeting. You can select which of the following information to include in the columns of the query results:
 
-* Meeting ID – Unique ID number of the specific meeting
-* Start Date and Time – When the meeting started
-* Duration Hours – The length of the meeting in hours
-* Is Recurring – Whether the meeting is part of a recurring series, or not
-* Is Canceled – Whether the meeting was canceled, or not
-* Meeting Resource Ids Count - The number of meeting rooms reserved for each meeting  
-* Meeting Resources - Is the alias portion of the meeting room’s primary SMTP address (a semi-colon delimited list for multiple rooms)
-* Total Number of Emails Sent During Meeting – Number of emails sent by attendees during the meeting
-* Subject – Subject line of the meeting
-* Total Accepted – Number of invitees who accepted the meeting
-* Total Declined – Number of invitees who declined the meeting
-* Total Number of No Responses – Number of invitees who did not respond
-* Total Number of Double-Booked – Number of invitees who were double-booked
-* Metrics – Any other metrics that you included in the query
+* **IsCanceled**. Whether the meeting was canceled, or not
+* **DurationHours**. The length of the meeting, in hours
+* **IsRecurring**. Whether the meeting is part of a recurring series, or not
+* **Subject**. Subject line of the meeting invitation
+* **TotalAccept** (Total accepted). The number of invitees who accepted the meeting
+* **TotalNoResponse** (Total number of no responses). The number of invitees who did not respond
+* **TotalDecline** (Total declined). The number of invitees who declined the meeting
+* **TotalNoEmailsDuringMeeting** (Total number of emails sent during meeting). The number of emails sent by attendees during the meeting
+* **TotalNoDoubleBooked** (Total number of double booked). The number of invitees who were doubled booked
+* **MeetingResources** (Meeting resources). The alias portion of the meeting room's primary SMTP address. (For multiple rooms, use a list delimited by semi-colons.)
+* **TotalNoAttendees** The number of people who attended the meeting
+* **Meeting ID**. A unique ID number of the meeting
+* **Start Date and Time**. When the meeting started
+* **Meeting Resource Ids Count**. The number of meeting rooms reserved for each meeting  
+* **Metrics**. Any other metrics that you included in the query
+
+#### Example meeting query results
 
 |**Meeting ID**|**Start Date**|**Duration Hours**|**Is Recurring**|**Is Canceled**|**Total # of emails sent during meeting**|**Subject**|**Metrics - Number of Attendees**|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|M1 |04/24/2019 5:00PM |1 |No |No |10 |Product demo |10 |
-|M2 |04/25/2019 3:00PM |2 |Yes |No |41 |Marketing meeting |15 |
+|M1 |04/21/2020 5:00PM |1 |No |No |10 |Product demo |10 |
+|M2 |04/22/2020 3:00PM |2 |Yes |No |41 |Marketing meeting |15 |
 
 ## Related topics
 
