@@ -107,7 +107,7 @@ Continuing the example from [Person queries](../Tutorials/meeting-queries.md), t
 11. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
 12. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 13. Select **Run** at the top right to run the query.
-14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ### Meeting query results
 
