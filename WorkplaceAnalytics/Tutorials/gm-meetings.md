@@ -30,3 +30,7 @@ To solve a problem or make a decision, it helps to keep the meeting audience sma
 * Try holding stand-up meetings. Studies show they are about 34 percent shorter than sit-down meetings, yet produce the same solutions.
 * Encourage participation in meetings. It's beneficial for creating more effective meetings and giving participants a way to be heard and considered.
 * Avoid holding a meeting just to update people. Decide if an email announcement is enough.
+
+## Related topics
+
+[People manager best practices](index.yml)

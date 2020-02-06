@@ -27,3 +27,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 * Get people to see things through others’ eyes by organizing carefully structured, face-to-face, cross-silo dialogues.
 * Urge employees to explore distant networks. Employees need to be pushed to tap into expertise outside the company and even outside the industry.
 * Identify employees with strong interpersonal skills and a growth mindset to build relationships and collaborate across different functions and geographies.
+
+## Related topics
+
+[People manager best practices](index.yml)
