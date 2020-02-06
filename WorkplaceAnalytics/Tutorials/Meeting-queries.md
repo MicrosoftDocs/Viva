@@ -117,12 +117,12 @@ Each row of data represents a single meeting. You can select which of the follow
 * **DurationHours**. The length of the meeting, in hours
 * **IsRecurring**. Whether the meeting is part of a recurring series, or not
 * **Subject**. Subject line of the meeting invitation
-* **TotalAccept** (Total accepted). The number of invitees who accepted the meeting
-* **TotalNoResponse** (Total number of no responses). The number of invitees who did not respond
-* **TotalDecline** (Total declined). The number of invitees who declined the meeting
-* **TotalNoEmailsDuringMeeting** (Total number of emails sent during meeting). The number of emails sent by attendees during the meeting
-* **TotalNoDoubleBooked** (Total number of double booked). The number of invitees who were doubled booked
-* **MeetingResources** (Meeting resources). The alias portion of the meeting room's primary SMTP address. (For multiple rooms, use a list delimited by semi-colons.)
+* **TotalAccept**. The number of invitees who accepted the meeting
+* **TotalNoResponse**. The number of invitees who did not respond
+* **TotalDecline**. The number of invitees who declined the meeting
+* **TotalNoEmailsDuringMeeting**. The number of emails sent by attendees during the meeting
+* **TotalNoDoubleBooked**. The number of invitees who were doubled booked
+* **MeetingResources**. The alias portion of the meeting room's primary SMTP address. (For multiple rooms, use a list delimited by semi-colons.)
 * **TotalNoAttendees** The number of people who attended the meeting
 * **Meeting ID**. A unique ID number of the meeting
 * **Start Date and Time**. When the meeting started
