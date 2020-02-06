@@ -27,3 +27,7 @@ According to the research referenced in [What great managers do daily](https://i
 * Evenly distribute work. Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
 * Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection, one must interact with another person at least twice per month in an email or meeting with five or fewer participants.)
 * Schedule and keep one-on-ones with your employees. Consistent one-on-one manager time with employees leads to more positive employee engagement.
+
+## Related topics
+
+[People manager best practices](index.yml)

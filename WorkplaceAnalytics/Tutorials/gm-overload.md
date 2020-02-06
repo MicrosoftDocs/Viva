@@ -26,3 +26,7 @@ Based on research presented in the article about [Protecting company culture mea
 * Designate a communication channel that is intended for urgent messages at any time.  
 * Enable employees to disconnect from email after work. If something urgent comes up, they can be reached by the alternative channels.
 * Set clear expectations and urge management to set the right example for the rest of the organization.
+
+## Related topics
+
+[People manager best practices](index.yml)

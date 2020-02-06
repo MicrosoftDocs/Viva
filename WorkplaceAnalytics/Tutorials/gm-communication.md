@@ -28,3 +28,7 @@ Based on the information presented in the article about [What email, IM, and the
 * When dealing with a sensitive topic, a quick chat on the phone or in person is more ideal than volleying emails back and forth.
 * Schedule a more structured meeting or conference call when dealing with multiple people.
 * Keep emails short and be sure the subject line is searchable.
+
+## Related topics
+
+[People manager best practices](index.yml)
