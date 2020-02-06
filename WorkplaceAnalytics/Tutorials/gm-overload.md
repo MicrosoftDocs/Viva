@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for email overload
+# Best practices for avoiding email overload
 
 Employees need time to disconnect from work. Studies show that we all need mental recovery time to reduce stress, increase creativity, and avoid burnout.
 
