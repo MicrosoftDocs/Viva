@@ -129,7 +129,15 @@ If you notice other words in the cloud that you might want to retain in your ana
 
 ## Default meeting-exclusion rule
 
-Workplace Analytics supplies one meeting exclusion rule by default, the Default meeting exclusion rule. This rule filters out meetings that are longer than 8 hours or whose number of attendees is one or fewer or 50 or more. 
+Workplace Analytics supplies one meeting exclusion rule by default, the _Default meeting exclusion rule_. This rule excludes the following types of meetings from query results, as they are not likely to represent relevant workplace meetings:
+
+* Meetings with only one attendee
+* Meetings equal to or longer than eight hours
+* Meetings with 250 or more attendees
+* Cancelled Meetings
+
+> [!Note]
+> To respect user privacy, meetings marked as private and/or confidential are always excluded from meeting query calculations.
 
 This default rule is a good start, but if you were to use only it, you would miss the opportunity to verify that this rule doesn't exclude important meetings you wanted to keep, as well as the opportunity to exclude additional meetings based on meeting-subject keywords. 
 
