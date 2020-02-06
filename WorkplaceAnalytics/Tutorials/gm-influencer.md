@@ -28,3 +28,7 @@ The [Accelerate! How innovative companies can use a strategy network to capitali
 * Recruit volunteers interested in being a part of the organization’s strategy network. Ten percent of the managerial and employee population is enough.  
 * A strategy network needs leadership, which focuses on vision, opportunity, agility, inspired action and celebration.
 * The strategy network and the hierarchy must be inseparable, with a constant flow of information and activity between them—an approach that works in part because the volunteers in the network all work within the hierarchy.
+
+## Related topics
+
+[People manager best practices](index.yml)

@@ -29,3 +29,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Agree on a collective, personal goal based on the survey feedback. For example, declare “meeting free” periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spillover into personal time.
 * Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction.
 * Regularly and openly check in with employees. Frustration, resentment and even hopelessness are signals that people are falling back into bad patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
+
+## Related topics
+
+[People manager best practices](index.yml)

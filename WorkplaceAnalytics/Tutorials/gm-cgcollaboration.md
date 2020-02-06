@@ -28,3 +28,7 @@ Connecting employees across units creates agile innovation by helping the compan
 * Create inclusive and trusting environments to facilitate agile collaboration. A culture of fear exists when employees do not feel safe to come forward with ideas, and those on the fringe may be less conﬁdent about contributing.  
 * Set up “communities of practice” or business development initiatives to help share expertise or resources.  
 * Set speciﬁc goals and reward agile collaboration. Peer feedback helps to identify people whom the formal performance reviews might otherwise overlook.
+
+## Related topics
+
+[People manager best practices](index.yml)

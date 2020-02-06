@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Manager coaching
+title: Best practices for manager coaching
 description: Workplace Analytics shares best practices with managers about coaching their teams
 author: madehmer
 ms.author: madehmer
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Manager coaching
+# Best practices for manager coaching
 
-Employees who get one-on-one time with their managers are more likely to be engaged than those that don't get enough time with their managers.
+Employees who get one-on-one time with their managers are more likely to be engaged than those who don't.
 
 ## Statistics
 
@@ -27,3 +27,7 @@ According to the research referenced in [What great managers do daily](https://i
 * Evenly distribute work. Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
 * Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection, one must interact with another person at least twice per month in an email or meeting with five or fewer participants.)
 * Schedule and keep one-on-ones with your employees. Consistent one-on-one manager time with employees leads to more positive employee engagement.
+
+## Related topics
+
+[People manager best practices](index.yml)

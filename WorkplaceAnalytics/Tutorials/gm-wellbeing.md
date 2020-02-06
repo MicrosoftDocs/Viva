@@ -26,3 +26,7 @@ Based on research presented in the article about [Why unplugging from work is mo
 * Remind employees that the organization’s success is based on a marathon, not a sprint.  
 * Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
 * Practice setting and keeping boundaries. Boundaries can result in better overall team outcomes.
+
+## Related topics
+
+[People manager best practices](index.yml)
