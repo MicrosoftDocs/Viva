@@ -27,9 +27,8 @@ The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-diges
 | <li>Microsoft 365 A5 for faculty/students <li>Office 365 A5 for faculty/students | MyAnalytics (Full) | 
  
 > [!Note]
-> To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) 
-<!--
-> * [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are available only in the MyAnalytics (Full) service plan. -->
+> * To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) 
+> * [Email read statistics](../use/add-in.md#email-read-statistics) are available only in the MyAnalytics (Full) service plan. 
 
 For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
