@@ -12,7 +12,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Deploy and configure Workplace Analytics Azure Templates
+# Deploy and configure Workplace Analytics Azure Templates 
 
 _These templates are only available as part of a Microsoft service engagement._
 
