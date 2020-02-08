@@ -213,6 +213,11 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 
 See [MyAnalytics languages](mya-languages.md).
 
+#### Q6. If my assistant manages my email and calendar, does MyAnalytics include these activities in my data?
+
+* Email sent by your assistant on your behalf is not included in your data. MyAnalytics only includes data about email that you send from your mailbox.
+* However, MyAnalytics does include your calendar events in your data, including the events created and accepted on your behalf by your assistant.
+
 ### Insights Outlook add-in
 
 #### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
