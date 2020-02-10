@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Group Analysis Azure Template for Workplace Analytics 
 description: Learn about the Group Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
