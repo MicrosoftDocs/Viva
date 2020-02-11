@@ -2,11 +2,10 @@
 # Metadata Sample
 # required metadata
 
-title: Solutions scan in Workplace Analytics
+title: Opportunities scan in Workplace Analytics
 description: Learn how to scan for opportunities in Workplace Analytics
 author: paul9955
-ms.author: v-midehm
-ms.date: 08/05/2019
+ms.author: paul9955
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -15,17 +14,17 @@ manager: scott.ruble
 audience: Analyst
 ---
 
-# Solutions scan
+# Opportunities scan
 
-An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is – for example, collaboration overload or excessive time worked after work hours.
+An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is collaboration overload, excessive time worked after work hours, or something else.
 
 Sometimes opportunities are less obvious. For this, it's possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Office 365 data.
 
 Workplace Analytics automatically scans to determine whether any [groups](#what-is-a-group) show unusual numbers in particular metrics. It then points out which groups show unusual activity on those metrics – for example, an excess of low-quality meetings, or a lack of focus time.
 
-Then, as an Workplace Analytics user with the analyst, limited analyst, or PM role, you can start a plan to respond to this unusual activity. To do this, you'd use the Solutions scan feature to create such a plan for the affected group.
+Then, as an Workplace Analytics user with the analyst, limited analyst, or PM role, you can start a plan to respond to this unusual activity. To do this, you'd use the Opportunities scan feature to create such a plan for the affected group.
 
-## Use Solutions scan to find potential opportunities
+## Use Opportunities scan to find potential opportunities
 
 Workplace Analytics runs AI-based detection every week as part of the standard weekly data processing. This detection seeks outliers and anomalies in the data – in particular, it scans to determine whether any groups show unusual numbers for the following metrics:
 
@@ -44,7 +43,7 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
 
-2. On the **Solutions** page, select **Opportunities**.
+2. On the **Plans** page, select **Opportunities**.
 
     ![Select Opportunities](../images/wpa/use/opportunities.png)
  
@@ -71,7 +70,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
     By taking advantage of this opportunity, the members of the [group](#what-is-a-group) could gain up to an aggregate of 98.4 hours per week of new focus time. (The more focus time, the better.)
 
-2. The **Solutions > Opportunities > Result** page has details about the opportunity.
+2. The **Plans > Opportunities > Result** page has details about the opportunity.
  
     ![Increase focus potential](../images/wpa/use/opportunity-increase-focus-3.png)
 
@@ -109,11 +108,11 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
 3. (Optional) Set the **Plan duration**. To do this, set the start date. (You must choose a Sunday because all plans start on Sundays.) The plan's end date is then calculated and displayed.
 
-4. (Optional) Scroll down to the **How Solution will help** section, which contains cards for **Book and protect**, **Stay focused**, and **Track progress**.
+4. (Optional) Scroll down to the **How Plans will help** section, which contains cards for **Book and protect**, **Stay focused**, and **Track progress**.
 
-    ![How the solution will help](../images/wpa/use/how-plan-helps.png)
+    ![How the plan will help](../images/wpa/use/how-plan-helps.png)
 
-    To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and the digest email that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
+    To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and the weekly digest that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
 
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 
@@ -129,19 +128,21 @@ You can track plans on the **Manage** page. Use this page to measure progress on
 
 ### To track an active plan
 
-1. The table on the **Solutions > Manage** page shows plans that can be either scheduled or active. To see active plans, select **Active** in the toolbar above the table.
+1. The table on the **Plans > Manage** page shows plans that can be either scheduled or active. To see active plans, select **Active** in the toolbar above the table.
 
 2. In the row of the plan you want to investigate, select **Track** to see the tracking dashboard, which shows information about the progress of the plan up to this point.
 
 ## Concepts
 
-The following sections provide information that can help you as you use the Solutions scan feature of Workplace Analytics:  
+The following sections provide information that can help you as you use the Opportunities scan feature of Workplace Analytics:  
 
 ### What is a group?
 
-You assign plans to groups, but just what constitutes a group? For Solutions scan, a group is a team of individual contributors who all report to the same manager.
+You assign plans to groups, but just what constitutes a group? For Opportunities scan, a group is a team of individual contributors who all report to the same manager.
 
-Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. Groups are defined from this organizational data structure.
+Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. 
+
+Groups are defined from this organizational data structure and represented by their manager names. Manager names are obtained from Active Directory by using the values that you provided for the ManagerID attribute in the [uploaded organizational data](../setup/upload-organizational-data-1st.md) file. These manager names are then displayed in the **Result** page to represent the groups. 
 
 > [!Important]
 > Data for a group includes only the data for a manager's team. It does _not_ include the manager's data.
@@ -159,7 +160,7 @@ After validation, Workplace Analytics reports the results, including the number 
 
 ![Validation warnings](../images/wpa/use/participants-warnings.png)
 
-Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with the plan. (You can go right to [Start the plan](https://review.docs.microsoft.com/en-us/Workplace-Analytics/tutorials/solutionsv2-task#start-the-plan).)
+Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with the plan. (You can go right to [Start the plan](https://review.docs.microsoft.com/Workplace-Analytics/tutorials/solutionsv2-task#start-the-plan).)
 
 If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Workplace Analytics. For example, you could ask an admin to assign licenses to those who are missing them, or you could try a different group.
 
@@ -167,7 +168,7 @@ As for employees who have opted out or are already in a plan, you cannot enroll 
 
 <!-- REMOVE THIS FOR NOW, AS IT LINKS TO THE PARTITION DOC. REPUBLISH IT AFTER NITHIN HAS US PUBLISH THE PARTITION DOC.
 
-### Solutions scan adheres to partitions
+### Opportunities scan adheres to partitions
 
 In the following trend-line chart, the key to the black line indicates that it shows the median in the current partition: 
 
@@ -177,6 +178,6 @@ This statement identifies the source of the data. That is, the data that was use
 
 A different analyst with a different partition would see a different trend line because that line would be calculated from different data. 
 
-All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partition-in-wpa). 
+All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/setup/partition-in-wpa). 
 
 -->

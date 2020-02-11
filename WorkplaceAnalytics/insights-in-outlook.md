@@ -32,7 +32,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ![Bullet point](images/mya/overview/bullet-point-indented.png)To open the Insights Outlook add-in, select the **Insights** icon on the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**.
 
-![Insights panel](images/mya/overview/insights-cards-9.png)
+![Insights panel](images/mya/overview/insights-cards-12.png)
 
 ## Privacy by design
 
@@ -57,9 +57,9 @@ Insights by MyAnalytics is now available to all MyAnalytics users.
 
 The Outlook add-in is now available.
 
-**Q4. Will users receive the MyAnalytics welcome email and email digests?**
+**Q4. Will users receive the MyAnalytics welcome email and digests?**
 
-Email digests will be available to users starting September through December 2019.
+MyAnalytics digests will be available to users starting now through the first quarter of calendar year 2020.
 
 **Q5. Will users see MyAnalytics in the App launcher?**
 

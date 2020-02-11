@@ -46,6 +46,6 @@ The drop-down menu under **Include in report** offers the following options for 
 
    * **Show in report:** Let the actual data value display in the report just as it was imported in the organizational data file.
 
-   * **Exclude from report:** Prevent the data value from appearing in the report.
+   * **Exclude from report:** Prevent the data value from appearing in the report. For data-privacy reasons, some attributes (such as ManagerID) are automatically assigned the value "Exclude from report" and this value cannot be changed. 
 
    * **Hash in report** de-identifies sensitive data. This option includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.

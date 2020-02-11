@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 ROBOTS: NOINDEX,NOFOLLOW
 layout: LandingPage
 title: Workplace Analytics playbooks
@@ -17,7 +14,7 @@ Maximize the power of Workplace Analytics to gain insights into how your organiz
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=2002306&clcid=0x409">
+        <a href="https://go.microsoft.com/fwlink/?linkid=2002306">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -36,7 +33,7 @@ Maximize the power of Workplace Analytics to gain insights into how your organiz
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/tutorials/WpA-Teamwork-Solution-Playbook.pdf">
+        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/WpA-Teamwork-Solution-Playbook.pdf">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

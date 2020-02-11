@@ -5,8 +5,7 @@
 title: Privacy guide for MyAnalytics users
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
-ms.author: v-pascha
-ms.date: 08/16/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -17,14 +16,14 @@ audience: user
 
 # Privacy guide for MyAnalytics users
 
-MyAnalytics helps you find opportunities to build better habits and get back in control of your time. This article describes how MyAnalytics works, what data it uses, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how MyAnalytics complies with GDPR regulations.    
+MyAnalytics helps you find opportunities to build better habits and get back in control of your time. This article describes how MyAnalytics works, what data it uses, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how MyAnalytics complies with GDPR regulations.
 
 ## Summary of key points
 
-<ul><li>
+<ul><li> 
 
 **MyAnalytics is not designed to enable evaluation, tracking, automated decision-making, profiling, or monitoring**.
-MyAnalytics provides you with insights through a personalized dashboard, a weekly email digest, the Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently shares it. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
+MyAnalytics provides you with insights through a personalized dashboard, a weekly digest, the Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently share it. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
 
 <li>
 
@@ -51,7 +50,7 @@ MyAnalytics presents insights in the following ways:
 
 2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
 
-3. [Weekly email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
+3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
  
 4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
 

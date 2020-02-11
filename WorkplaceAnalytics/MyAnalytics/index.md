@@ -13,13 +13,13 @@ author: paul9955
 <ul class="cardsY panelContent singlePanelContent">
     <li>
     <h1>MyAnalytics Documentation</h1>
-        <p><b>Note:</b> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://docs.microsoft.com/en-us/Workplace-Analytics/myanalytics/overview/plans-environments"> Learn more about the experiences that users will get in each plan.</a>  MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p> 
+        <p><b>Note:</b> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. <a href="https://docs.microsoft.com/Workplace-Analytics/myanalytics/overview/plans-environments"> Learn more about the experiences that users will get in each plan.</a>  MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. This application is available after your administrator sets up MyAnalytics within your organization.</p> 
     </li>
 </ul>
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page">
+        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -38,7 +38,7 @@ author: paul9955
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide">
+        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -57,7 +57,7 @@ author: paul9955
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/setup/configure-myanalytics">
+        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -77,7 +77,7 @@ author: paul9955
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics">
+        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -96,7 +96,7 @@ author: paul9955
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/dashboard-2">
+        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -115,7 +115,7 @@ author: paul9955
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/mya-faq">
+        <a href="https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-faq">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

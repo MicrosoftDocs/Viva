@@ -5,8 +5,7 @@
 title: Data-protection considerations when using Workplace Analytics  
 description: Data-protection considerations when using Workplace Analytics.
 author: paul9955
-ms.author: v-pascha
-ms.date: 02/21/2019
+ms.author: paul9955
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -67,6 +66,9 @@ As a data processor, Microsoft will:
 
 A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
+> [!Note] 
+> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user" or an "employee." 
+
 ## Types of data for analysis in Workplace Analytics
 
 Before starting an analysis in Workplace Analytics, you should think about the types of data that you will include. Specifically, consider whether the inclusion of personal data is necessary to fulfill the purpose of your analysis, or whether other types of data that cannot be used to identify specific individuals could produce results that are just as effective and insightful as you would get if you had used personal data.
@@ -126,18 +128,18 @@ You have full control over what data to include in analysis using Workplace Anal
 
 ### Data provided by Microsoft Office 365
 
-Workplace Analytics uses header information from Office 365 emails and calendar items. This header information includes sender and recipient, date and subject lines for emails; and organizer, attendee, and duration of meetings<!-- removed "location" 30Aug18-->. Workplace Analytics never includes attachments and content in emails and calendar items. For a full description of what is included and excluded please review [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md). 
+Workplace Analytics uses header information from Office 365 email and calendar items. This header information includes sender and recipient, date and subject lines for email; and organizer, attendee, and duration of meetings<!-- removed "location" 30Aug18-->. Workplace Analytics never includes attachments and content in email and calendar items. For a full description of what is included and excluded please review [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md). 
 
 It’s important to note that while Workplace Analytics uses this Office 365 data, most of the header information is never directly available to users within the service. Rather, Workplace Analytics provides computations and metrics based on this information. Furthermore, using the settings within the service, you get to decide and configure what data to use and who can see it. Please review the product privacy features documentation for full details.
 
 ### Privacy capabilities in your control
 
-First, you get to decide which users’ mailboxes to include in your Workplace Analytics study. Then, there are multiple controls you can use to further limit the data. 
+First, you get to decide which users’ mailboxes to include in your Workplace Analytics study. Then, there are multiple controls you can use to further limit the data.
 
  * You can control whether analysts have access to email and calendar subject lines.
- * You can rule out all meetings and emails by keywords (in subject lines) that you deem sensitive.
+ * You can rule out all meetings and email by keywords (in subject lines) that you deem sensitive.
  * You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
- * You can rule out confidential or private emails, or those that are rights protected using Microsoft's digital rights management technology.
+ * You can rule out confidential or private email, or those that are rights protected using Microsoft's digital rights management technology.
 
 To learn more about privacy, see [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 
@@ -176,7 +178,7 @@ You can review the details here, but we briefly go over them:
 
 Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md)
 
-Article 29 Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=4563)
+Article 29 Data Protection Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=45631)
 
 EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)
 

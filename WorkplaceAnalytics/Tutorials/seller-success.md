@@ -168,7 +168,7 @@ Spending time with and getting attention from your manager is important for the 
  
 ### Explore
 
-The final card in the email digest is the Explore card. On this card, select **Explore** to open the MyAnalytics dashboard, which shows more details about the information that the other cards present.
+The final card in the digest is the Explore card. On this card, select **Explore** to open the MyAnalytics dashboard, which shows more details about the information that the other cards present.
 
 ![Explore card](../images/wpa/tutorials/explore-card-70.png)
 

@@ -5,10 +5,14 @@
       href: ~/index-orig.md
     - name: Privacy and data protection
       items:
+        - name: Introduction                   
+          href: ~/Privacy/data-protection-intro.md
         - name: Data-protection considerations                   
-          href: ~/Privacy/Data-protection-summary.md
+          href: ~/Privacy/data-protection-considerations.md
         - name: Privacy and data access
-          href: ~/Privacy/Privacy-and-Data-Access.md
+          href: ~/Privacy/privacy-and-data-access.md
+        - name: Data access after license expiration
+          href: ~/Privacy/license-expiration.md
     - name: Setup and Maintenance
       items:
         - name: Set up Workplace Analytics
@@ -34,7 +38,7 @@
             - name: Assign user and group roles
               href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
             - name: Assign roles with PowerShell
-              href: ~/use/using-powershell-to-assign-roles.md                    
+              href: ~/use/using-powershell-to-assign-roles.md 
         - name: Workplace Analytics settings
           href: ~/Use/Settings.md
         - name: Prepare organizational data
@@ -42,11 +46,11 @@
         - name: Upload organizational data
           items: 
             - name: First upload
-              href: ~/setup/upload-organizational-data-1st.md       
+              href: ~/setup/upload-organizational-data-1st.md 
             - name: Subsequent uploads
               href: ~/setup/upload-organizational-data.md 
-  #      - name: Upload CRM data
-  #        href: ~/setup/crm-data-upload.md
+            - name: Upload CRM data
+              href: ~/setup/crm-data-upload.md
         - name: Meeting exclusion rules    
           items:             
             - name: Introduction
@@ -54,9 +58,17 @@
             - name: Walkthroughs
               href: ~/tutorials/meeting-exclusion-rules.md
             - name: Tools and concepts
-              href: ~/tutorials/meeting-exclusion-concept.md            
+              href: ~/tutorials/meeting-exclusion-concept.md
         - name: Data sources
-          href: ~/Use/Data-sources.md            
+          items:
+            - name: Introduction
+              href: ~/Use/data-sourcesv2.md 
+            - name: Office 365 data
+              href: ~/Use/office-365-data.md
+            - name: Organizational data
+              href: ~/Use/organizational-data.md
+            - name: CRM data
+              href: ~/Use/crm-data.md
         - name: Workplace Analytics audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
@@ -100,8 +112,10 @@
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
                   href: ~/tutorials/Person-to-group-queries.md 
-  #              - name: Queries with CRM data
-  #                href: ~/tutorials/crm-queries.md                                 
+                - name: Queries with CRM data
+                  href: ~/tutorials/crm-queries.md    
+                - name: Peer comparison queries
+                  href: ~/tutorials/comparison-query.md                                
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md                  
                 - name: Customize a metric
@@ -112,16 +126,16 @@
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md                    
-        - name: Solutions   
+        - name: Plans   
           href: ~/tutorials/solutionsv2-intro.md        
           items:
-            - name: Solution types
+            - name: Plan types
               items:
-                - name: Teamwork solution
+                - name: Teamwork plans
                   href: ~/tutorials/teamwork-solution.md          
- #               - name: Seller success solution
+ #               - name: Seller success plan
  #                 href: ~/tutorials/seller-success.md
-            - name: Use solutions
+            - name: Use plans
               items: 
                 - name: Walkthrough    
                   href: ~/tutorials/solutionsv2-task.md 
@@ -129,7 +143,7 @@
                   href: ~/tutorials/solutionsv2-participants.md                                       
                 - name: Concepts
                   href: ~/tutorials/solutionsv2-conceptual.md
-            - name: Solutions scan
+            - name: Opportunities scan
               href: ~/Use/solutions-scan.md
     - name: Notifications
       href: ~/use/wpa-notifications.md     
@@ -162,9 +176,13 @@
       href: MyAnalytics/MyA-landing-page.md
       homepage: /myanalytics 
     - name: Why use MyAnalytics?
-      href: MyAnalytics/Overview/Better-work-habits.md    
-    - name: Frequently asked questions
-      href: MyAnalytics/Overview/MyA-faq.md
+      href: MyAnalytics/Overview/Better-work-habits.md        
+    - name: Reference
+      items:
+        - name: Frequently asked questions
+          href: MyAnalytics/Overview/mya-faq.md  
+        - name: MyAnalytics languages
+          href: myanalytics/overview/mya-languages.md  
     - name: MyAnalytics elements
       items: 
         - name: Introduction
@@ -173,12 +191,12 @@
           href: MyAnalytics/Use/dashboard-2.md
         - name: Add-in
           href: MyAnalytics/Use/add-in.md
-        - name: Email digests
+        - name: Digests
           href: MyAnalytics/Use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
- #       - name: Focus plan
- #         href: MyAnalytics/use/focus-plan.md       
+        - name: Focus plan
+          href: MyAnalytics/use/focus-plan.md       
     - name: MyAnalytics admin guide
       items: 
         - name: Introduction
@@ -188,7 +206,7 @@
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins
-          href: MyAnalytics/overview/privacy-guide-admins.md    
+          href: MyAnalytics/overview/privacy-guide.md    
     - name: Use MyAnalytics
       items:
       - name: Data privacy

@@ -4,9 +4,8 @@
 
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 08/06/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -15,7 +14,9 @@ ms.prod: mya
 
 # Inline suggestions in Outlook
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details._
+<!-- REMOVE THIS PER MATHEW 6 FEB. 2020
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+-->
 
 ## What are inline suggestions in Outlook?
 
@@ -46,7 +47,9 @@ Insights can display inline suggestions in the following ways.
 
 ## Why don’t I see any inline suggestions?
 
-Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, or Outlook for Android.
+Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
+
+Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in). 
 
 ## Providing feedback
 
@@ -60,20 +63,28 @@ The following are a few of the suggestions you might see in Outlook.
 
 ### Get more time to focus
 
-[!INCLUDE [Inline suggestions about focus](../../includes/inline-suggest-table-focus.md)]
+| Where it shows up | What it says | How it helps |
+| :------ | ------- | --------- |
+|Reading pane (meeting invitation)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times**  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |Reminds you (the meeting attendee who has a heavy meeting load) to book time for focused work|
+|Reading pane (meeting invitation)  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; | This meeting conflicts with your scheduled focus time. Do you want to move your focus block? **See available times**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |Helps you to protect your focus time block, by suggesting that you move a booked focus session to another time when a meeting request conflicts with it.|
 
 ### Stay up-to-date with important relationships
 
-[!INCLUDE [Inline suggestions about important relationships](../../includes/inline-suggest-table-important.md)]
+| Where it shows up | What it says | How it helps |
+| :------ | ------- | --------- |
+| Reading pane (email)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  | You may have outstanding tasks for sender. Would you like to review now? **See my tasks** | Reminds you that there might be outstanding task items for the sender.  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  |
 
 ### Reduce after-hours work and team impact
 
-[!INCLUDE [Inline suggestions about after-hours work](../../includes/inline-suggest-table-after-hours.md)]
+| Where it shows up | What it says | How it helps |
+| :------ | ------- | --------- |
+|Email compose  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
 
 ### Build better collaboration habits
 
-[!INCLUDE [Inline suggestions about collaboration](../../includes/inline-suggest-table-collab.md)]
-
+| Where it shows up | What it says | How it helps |
+| :------ | ------- | --------- |
+| Meeting compose &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes.  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  |
 
 ## Opt out of inline suggestions
 

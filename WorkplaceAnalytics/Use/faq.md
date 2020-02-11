@@ -1,14 +1,11 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
 author: paul9955
-ms.author: v-midehm
-ms.date: 08/08/2019
+ms.author: madehmer
 ms.topic: article
-localization_priority: normal 
+localization_priority: normal
 ms.prod: wpa
 ---
 
@@ -28,7 +25,7 @@ The most commonly asked questions and answers about Workplace Analytics are grou
 
 ##### Q1. Do I assign licenses with Office 365 Admin Center, PowerShell, or Azure group-based licensing?
 
-A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 product licenses. You can assign them with the [Office 365 Admin Center](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&tabs=One), [PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell), or [Azure group-based licensing](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-groups-assign). Learn more details about these options in the Workplace Analytics documentation at [Assign licenses](../setup/assign-licenses-to-population.md), [Assign group-based licenses](../use/group-based-licensing.md), and [Assign licenses with PowerShell](../use/assigning-licenses-with-powershell.md).
+A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 product licenses. You can assign them with the [Office 365 Admin Center](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&tabs=One), [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell), or [Azure group-based licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). Learn more details about these options in the Workplace Analytics documentation at [Assign licenses](../setup/assign-licenses-to-population.md), [Assign group-based licenses](../use/group-based-licensing.md), and [Assign licenses with PowerShell](../use/assigning-licenses-with-powershell.md).
 
 ##### Q2. Does Workplace Analytics retain and use data about employees that no longer work for the organization?
 
@@ -40,7 +37,7 @@ A3. This depends on the size of your organization and your requirements for mana
 
 <!-- THIS ANSWERED A QUESTION FROM JEREMY. REMOVE FOR NOW. 
 > [!Tip] 
-> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/setup/partitions-in-wpa). -->
+> While Workplace Analytics imposes no limit on the number of analysts in an organization, a large number of analysts might make it difficult to navigate the page for managing partitions. For more information, see [Partitions in Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/setup/partitions-in-wpa). -->
 
 
 ##### Q4. Can our organization’s Office 365 admin also be our Workplace Analytics admin?
@@ -75,7 +72,7 @@ A1. An upload can fail if the data has invalid values, is missing required data,
 
 ##### Q2. What format do I save the data upload file as?
 
-A2. You must save the data upload file as a CSV UTF-8 file format in Excel before the upload. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/en-us/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
+A2. You must save the data upload file as a CSV UTF-8 file format in Excel before the upload. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
 
    ![CSV UTF-8 file](../Images/WpA/Use/csv-utf-8.png)
 
@@ -103,7 +100,7 @@ A5. The field values in the data rows must comply with the following formatting 
 
 * The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format.
 * The required PersonId and ManagerId field values must be a valid email (gc@contoso.com, not < gc> gc@contoso.com).
-* The required TimeZone field values must be in a [supported Windows format](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones).
+* The required TimeZone field values must be in a [supported Windows format](https://docs.microsoft.com/windows-hardware/manufacture/desktop/default-time-zones).
 * The required Layer field values must be numbers only.
 * Have no special characters (non-alphanumeric, such as @, #, %, &, and *).
 * The required HourlyRate field values must be numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis.
@@ -182,7 +179,7 @@ A2. The collaborator totals include the number of external (or other internal) p
 
 ##### Q3. Why doesn’t the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period I set)?
 
-A3. Business policies can impact historical data processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to archiving. On the Sources page, you can select a time period where the email volume is stable. For details, see [Office 365 data summary in Data sources](../use/data-sources.md).
+A3. Business policies can impact historical data processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to archiving. On the Sources page, you can select a time period where the email volume is stable. For details, see [Office 365 data summary in Data sources](../use/office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
@@ -238,6 +235,15 @@ A3. You can use the Collaboration hours metric to filter for a specific time fra
 
 A4. Because totals for working hours and after hours calculate the “time booked on your calendar” instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-##### Q5. An executive assistant can organize meetings on behalf of a leader. In Workplace Analytics calculations, do such meetings count as organized by the _leader_ or by the _executive assistant_?   
+##### Q5. A person who has delegate access (for example, an executive assistant, or "EA") can organize meetings and send email on behalf of another person, such as a corporate leader. In its calculations, does Workplace Analytics view the _EA_ or the _leader_ as the creator of these items?
 
-A5. If the executive assistant creates the meeting "on behalf of" the leader, the leader counts as the organizer and the executive assistant does not count as a participant. For example, if the executive assistant organizes a 1:1 meeting, Workplace Analytics counts it as a two-person meeting that includes only the leader and the invitee. 
+A5. The _leader_ is considered to be the creator. Note the following: 
+
+ * <u>For meetings</u>, the EA must first have been granted delegate access to the leader's calendar. Then, the EA can open the leader's shared calendar and create and send the meeting invitation. In this situation, no metrics are attributed to the EA. Workplace Analytics considers the meeting request to have veen sent by the leader. 
+ 
+  * <u>For emails</u>, no metrics are attributed to the EA. Workplace Analytics considers the email to have been sent by the leader. 
+
+##### Q6. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
+
+A6. You probably opened the .csv file as is. For Excel to show the data correctly, you need to *import* the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file. 
+

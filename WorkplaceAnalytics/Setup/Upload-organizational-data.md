@@ -5,8 +5,7 @@
 title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: paul9955
-ms.author: v-midehm
-ms.date: 07/31/2019
+ms.author: v-pascha
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -44,7 +43,7 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
 2. In the left navigation pane, select **Settings**.
-3. Select **Organizational data**. The **Upload history** area of this page displays the previous data uploads from your organization.
+3. Select **Organizational data**. The **Upload history** area of this page shows the previous data uploads from your organization.
 4. Select **New upload**.
 5. On the **Upload** page, select **Name your upload**, and then type the name of your new upload file.
 6. Optionally, select **Add an optional description** and type a description of this upload.
@@ -59,18 +58,23 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
   > [!Note]
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
 
-8. To complete a new-file upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
-9. To append or replace organizational data, locate the **Append or replace** area. In this area, you can select either of the following options:
-    * **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes.
-    * **Replace all existing organizational data with this file** to delete all previous HR data uploads and make this the first new HR data upload. If you choose this option, please note the following: 
-      * **Permanent deletion:** The replace option permanently deletes all previously uploaded organizational data. 
-      * **Column omission:** The schema of the new data file need not exactly match the schema of the previously uploaded HR data. However, omitting columns that were present in previous uploads can cause errors in [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns. For more information, see [Prepare organizational data](prepare-organizational-data.md).
-       
-11. After reviewing the warning message, select **Continue** and then [map your fields](#field-mapping).
+8. To complete a new-file upload, select **Next**. This shows the **System fields** table. Go to [Field mapping](#field-mapping).
 
-## Field Mapping
+9. If you are not uploading a new data file, you must now choose whether to append or replace organizational data. In the **Append or replace** area, select one of the following options:
 
-You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these on the **Upload** page.
+    * Use **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes (columns). This is the default option. 
+
+    * Use **Replace all existing organizational data with this file** to delete all _previous_ HR data uploads, so that the data in the _current_ upload becomes the only HR data that is present for your organization in Workplace Analytics. Take note of the "Caution" message, which explains that this replace option permanently deletes all previously uploaded organizational data.  
+
+    After you have chosen to append or to replace data, select **Next** and go to [Field mapping](#field-mapping).
+
+<!-- IT SEEMS WE NEVER GET TO THIS STEP:
+10. Select **Continue** and then [map your fields](#field-mapping).
+-->
+
+## Field mapping
+
+You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these on the **Organizational data > Upload** page.
 
 <img src="../images/wpa/setup/upload2-map-top.png" alt="Upload page">
 
@@ -78,14 +82,57 @@ The **Upload** page includes tables for System fields and Custom fields for mapp
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
+<!-- TWO OF THE FOLLOWING THREE SECTIONS (system fields tabLe, custom fields table, columns in the fields tables) ARE LONG AND THIS MAKES THE TOPIC HARDER TO NAVIGATE. CONSIDER PRESENTING THEM IN TABS, RATHER THAN CONSECUTIVELY. -->
+
 ### System fields table
 
 <!-- The following include is for "system" fields and is meant only for subsequent uploads, and only temporarily. After the UI changes, switch to the "system default" include file. -->
 [!INCLUDE [System fields table](../includes/org-data-sys-fields.md)]
 
-[!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
+### Custom fields table
 
-**To map fields**
+* **Custom fields** appear on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source.csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
+
+### Columns in the fields tables
+
+* **Source column** corresponds to each of the fields in the uploaded file.
+* **Workplace Analytics name** is the name of your organization's Workplace Analytics.
+
+* **Data type** is the data type of the fields.
+
+   >[!Note]
+   >If the data type is Boolean, the value for the Boolean field must be TRUE or FALSE.
+
+* **Validity threshold** sets the percentage of rows in the uploaded file that must have non-null values (no blanks) for the attribute. The source file might still be valid even if some rows have missing values for some columns. This setting is not intended to check or allow invalid values. A single invalid value, such as an incorrect data type, email address, or TimeZone string will cause the file upload to fail.
+
+   <b>Summary of Validity threshold settings</b>
+
+   * **Required attributes:** Because PersonId and EffectiveDate are required attributes, their Validity threshold value is 100%. This value cannot be changed.
+
+   * **Fields with minimum values:** The Validation threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95% by default, but you can increase this value.
+
+   * **Other system fields:** The Validation threshold for other system fields is set to 95% by default, but you can increase or decrease this value.
+
+   * **Custom fields:** See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
+
+* **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation.
+
+    ![Map data fields](../images/wpa/setup/map-fields-include-column-65.png) 
+
+The drop-down menu under **Include in report** offers the following options for each of the columns in your source data:
+
+   * **Show in report.** Let the actual data value appear in the report just as it was imported in the organizational data file.
+
+   * **Hash in report.** De-identify sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of showing actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
+
+   * **Exclude from report:** Prevent the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerID. In those cases, you cannot change this value. 
+
+     > [!Note] 
+     > The visibility of one or more attributes (columns) might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change this setting to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation. 
+     >
+     > In this case, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect execution of the auto refresh queries." If you see this message, go to [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). 
+     
+#### To map fields
 
 After you complete the steps in [File upload](#file-upload), the **Upload** page with the System fields table will appear.
 
@@ -95,9 +142,9 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
     <img src="../images/wpa/setup/upload2-map-sys-fields.png" alt="System fields table">
 
-    b. Under Source column (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.
+    b. Under Source column (the first column in the table), click the down arrow. This shows a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.
 
-    c. Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields and for any optional fields that you choose to map.
+    c. Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields.
 
    > [!Note]
    > For more information, see [Columns in the fields tables](#columns-in-the-fields-tables).
@@ -106,20 +153,53 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
     <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
-    a. Under Source column (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.
+    a. Under **Source column** (the first column in the table), select the down arrow to see the list of column names that were found in the data file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.
     
     b. Set values for the other columns in the table, such as the data type, the validity threshold, and the hash setting for reports.
      
-    c. Repeat these steps for all custom fields that are important to your organization.
+    c. Repeat these steps for all optional and custom fields that are important to your organization.
 
-3. In the Submit for validation area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the .csv file and starts the validation process.
-4. Next step is to go to [Data validation](#data-validation).
+3. In the **Submit for validation** area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the data file and starts the validation process.
+
+<!-- DROPPING THIS NOTE FOR NOW IN FAVOR OF ADDING RELATED WORDING TO STEP 4 
+> [!Note] 
+> The schema of the new data file need not exactly match the schema of the previously uploaded HR data. However, omitting columns that were present in previous uploads can cause errors in any [auto-refresh](../tutorials/query-auto-refresh.md) queries that depend on the presence of those HR columns.  
+> If expected columns are missing, Workplace Analytics shows a warning message that reads "
+-->
+
+4. After you select **Submit**, two circumstances could trigger a warning message: 
+
+   * **Omitted columns.** If (a) You chose the **Replace** option for uploading organizational data, and (b) while mapping fields, you have chosen to omit one or more columns that are present in the existing organizational-data schema, and (c) at least one auto-refresh query depends on those (omitted) columns.
+   
+   * **Excluded columns.** If (a) While setting the **Report options** for attributes on the **Mapping** page, you have chosen to exclude one or more columns from query results, and (b) at least one auto-refresh query depends on those (excluded) columns.
+
+   In either of these cases, Workplace Analytics shows a warning message about issues that could affect auto-refresh queries. If you see this message, go to the section [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not see this warning message, go to the next phase, [Data validation](#data-validation).
+
+### If expected columns are missing or excluded
+
+For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, Workplace Analytics shows a warning message: 
+
+   ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
+
+Below this message, a table in the **Warning details** area lists the affected auto-refresh queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page. 
+
+After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with the steps in [To map fields](#to-map-fields). 
+        
+To continue with data upload despite the issues, select **Next**. Note that this choice will turn auto-refresh off for queries that were listed in the **Warning Details** area. The results of the last runs of these queries remain available. 
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the **Upload** page displays the _File is being uploaded_ screen.
+After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page shows the _File is being uploaded_ screen:
 
-<img src="../images/wpa/setup/upload4-uploading.png" alt="Upload in progress">
+![Upload in progress](../images/wpa/setup/upload4-uploading.png)
+
+In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
+
+After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
+
+[Validation succeeds](#validation-succeeds)
+
+[Validation fails](#validation-fails)
 
 > [!Note]
 > Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page. 

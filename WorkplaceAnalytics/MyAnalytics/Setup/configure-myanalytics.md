@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics configuration for Office 365 administrators
 description: Configuration options that Office 365 administrators can make for MyAnalytics users
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -33,21 +31,18 @@ The steps in this topic describe how to configure MyAnalytics for the users in y
 
 MyAnalytics is available to users who are assigned a license with a MyAnalytics service plan. For more details about which licenses have MyAnalytics service plans and when users get access to MyAnalytics elements after license assignment, see [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
-For information on how to assign a license, see [Assign licenses to users in Office 365 for business](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+For information on how to assign a license, see [Assign licenses to users in Office 365 for business](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 
 <!-- If you don’t want a user to see any statistics from MyAnalytics, you can disable the MyAnalytics service plan for that user. -->
 
 > [!Note]
-> If you want to notify your organization before you assign licenses with a MyAnalytics service plan, you can use [this email template](MyAnalytics-announcement-template.docx). You can download it, customize it with your company's information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
+> If you want to notify your organization before you assign licenses with a MyAnalytics service plan, you can use [this email template](MyAnalytics-announcement-2020-template.docx). You can download it, customize it with your company's information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
 
 ## Configure access at the tenant level
 
-You can configure access to MyAnalytics elements for all users in your organization.  
+You can configure access to MyAnalytics elements for all users in your organization.
 
-### To get access to the dashboard and email digests
-> [!Note]
-> * Tenants in the UAE, South Africa, and Singapore regions might obtain this functionality with some delay.
-> * After a new tenant is established, it might take up to 48 hours for this functionality to become available.
+### To enable access to the dashboard and digests
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
@@ -60,17 +55,30 @@ You can configure access to MyAnalytics elements for all users in your organizat
    ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
 
 5. Select **Insights dashboard** to keep all MyAnalytics users in your organization opted _in_ for access to the MyAnalytics dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
-6. Select **Weekly insights email** to keep all MyAnalytics users in your organization opted _in_ for access to email digests. Deselect **Weekly insights email** to opt users _out_ of email digests.  
+
+6. Select **Weekly insights** to keep all MyAnalytics users in your organization opted _in_ for access to the weekly [digest](../../myanalytics/use/email-digest-2.md) (and the MyAnalytics [welcome email](../../myanalytics/use/mya-welcome-email.md)). Deselect **Weekly insights email** to opt users _out_ of the weekly digest (and the MyAnalytics welcome email).  
+
+7. Select **Insights Outlook add-in** to keep all MyAnalytics users in your organization opted in for access to the Insights Outlook add-in. Deselect it to opt users out of access to the Insights Outlook add-in.
+
+> [!Note]
+> After a new tenant is established, it might take up to 48 hours for this functionality to become available. 
+
+<!-- REMOVING THIS SECTION PER HIMANI 12 NOV. 2019, BUT KEEPING IT AROUND (ALSO PER HIMANI) IN CASE WE NEED TO BRING IT BACK:
 
 ### To disable the add-in for a tenant
 
 You can disable the Insights Outlook add-in for all licensed users in your organization or at the tenant level through the Exchange admin center.
+
+> [!Note] 
+> This procedure also removes [inline suggestions in Outlook](../use/mya-notifications.md). The removal of inline suggestions might take up to 26 hours.
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center. (If **Exchange** is not visible, first select **Show all** to see more admin centers and then select **Exchange**.)
 3. In the dashboard, select **add-ins**.
 4. In the list of add-ins, select **Insights**, and then select the **Edit** (pencil) icon.
 5. In the **Edit add-in settings** dialog box, clear the **Make this add-in available to users in your organization** checkbox to disable the add-in, and then select **Save**.
+
+-->
 
 ## Configure access at the user level
 

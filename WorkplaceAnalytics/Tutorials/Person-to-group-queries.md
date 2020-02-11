@@ -71,7 +71,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 11. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear the selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 12. Select **Run** at the top right to run the query.
-13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/en-us/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ## Related topics
 
@@ -81,6 +81,4 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 [View, download, and export query results](../Use/View-download-and-export-query-results.md)
 
-<!-- 8/16/2019: REMOVING TILL CRM GOES GA
 [Queries with CRM data](../tutorials/crm-queries.md)
--->

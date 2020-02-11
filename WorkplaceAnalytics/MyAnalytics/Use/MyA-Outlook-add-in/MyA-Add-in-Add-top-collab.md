@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Add top collaborators in MyAnalytics
 description: Use this card to add a "top collaborator" to your Important people list in MyAnalytics 
 author: paul9955
@@ -12,7 +13,7 @@ localization_priority: normal
 ms.prod: mya
 ---
 
-## Add top collaborator card 
+# Add top collaborator card 
 
 Based on your communication pattern over the past few weeks, MyAnalytics automatically generates a list of individuals whom it considers to be your "top collaborators." This list serves as a convenient source of contacts that you can use for other purposes.
 

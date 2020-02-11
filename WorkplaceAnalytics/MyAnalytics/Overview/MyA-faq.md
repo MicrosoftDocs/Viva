@@ -5,7 +5,7 @@
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: once
 ms.prod: mya
@@ -44,6 +44,9 @@ MyAnalytics does not have any tracking software running on your computer.
 
 #### Q3. What data does MyAnalytics use?
 
+> [!Note]
+> MyAnalytics processes the data as described in the [Privacy Guide](privacy-guide.md).
+
 **MyAnalytics uses:**
 
  * Information from email items:
@@ -71,8 +74,7 @@ MyAnalytics does not have any tracking software running on your computer.
 
 **MyAnalytics does not use:**
 
- * Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.  
-
+Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
 ## For MyAnalytics users
 
@@ -86,36 +88,44 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 #### Q1. Does "meeting time" include time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
 
 ### Focus time
 
 #### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/en-us/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more information, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
-#### Q2. Can I change my settings to make time outside of work more accurate?
-
-Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).
-
-#### Q3. Why does my focus time seem incorrect or inaccurate?
+#### Q2. Why does my focus time seem incorrect or inaccurate?
 
 Try the following to troubleshoot your focus-time totals:
 
-1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/owa/?path=/options/calendarappearance).)
-2. For more information about focus time, see [Focus](../Use/focus.md).  
+1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).)
+2. For more details about focus time, see [Focus](../Use/focus.md).  
 
-#### Q4. How do I tell MyAnalytics that I am on vacation?
+### Calendar
 
-If you plan to go on vacation, create a calendar event that includes the days of your vacation and set its status to **Out of Office**. This causes your focus time and meeting time to both count as zero during your vacation.  
+#### Q1. How do I tell MyAnalytics that I am on vacation?
+
+If you plan to go on vacation (or on holiday), create an Outlook calendar event that includes the days of your vacation and set the status to **Out of Office**. MyAnalytics will count zero focus and meeting hours for you while you're away.
+
+#### Q2. Can I change my settings to make time outside of work more accurate?
+
+Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
+
+### Digests
+
+#### Q1. How do the MyAnalytics digests show up in Outlook?
+
+ Your [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
 
 ### Opt out
 
 #### Q1. Can I opt out of MyAnalytics? And if I do (or if an admin opts me out), can I opt back in later?
 
-Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want. 
+Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want.
 
-See the following sections for more information:
+See the following for details:
 
 ##### Opt out of all of MyAnalytics
 
@@ -124,13 +134,89 @@ See the following sections for more information:
 ##### Opt out of individual parts of MyAnalytics
 
  * [Opt out of the MyAnalytics dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
- * [Opt out of the weekly email digest](../use/email-digest-2.md#opt-out-of-email-digests)
- * [Remove Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
+ * [Opt out of the weekly digest](../use/email-digest-2.md#opt-out-of-digests)
+ * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
-#### Q2. Why can I not see the MyAnalytics dashboard to opt-out?
+#### Q2. Can I add or remove the Insights Outlook add-in?
 
-To opt out, you use the MyAnalytics dashboard. The dashboard is available only if your organization has a _qualifying plan_. (All of the plans listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features) are qualifying plans.) If an organization has no _qualifying plan_, its members see no elements of MyAnalytics and their data is not processed. 
+Yes, you can. But first, what's the difference between "opt out" and "remove"? 
+
+ * **Opt out:** If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in) but in step 4, set the control to **On**.) 
+ * **Remove:** If you [remove the Insights Outlook add-in](#remove-the-insights-outlook-add-in), not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Insights Outlook add-in](#add-the-insights-outlook-add-in)).  
+
+##### Remove the Insights Outlook add-in
+
+Follow these steps to remove the Insights add-in from your Outlook ribbon.
+
+> [!Note] 
+> This procedure also removes [inline suggestions in Outlook](../use/mya-notifications.md).
+
+1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+
+    ![Get Add-ins](../../Images/mya/use/get-add-ins.png)
+
+2. Select **My add-ins**.
+3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
+
+    ![Remove Insights](../../Images/mya/use/remove-insights.png)
+
+##### Add the Insights Outlook add-in
+
+Follow these steps to add the Insights add-in to your Outlook ribbon.
+
+1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
+2. Select **Admin-managed**.
+3. Find **Insights**, and then select **Add**.
+
+### Visibility and access
+
+#### Q1. Why can't I see the MyAnalytics dashboard?
+
+The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
+
+#### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
+
+Your personalized data is only accurately calculated when you have a minimum level of activities with Office 365. Check back on your MyAnalytics dashboard in a few days to get a fully personalized experience.
+
+#### Q3. Even though I don’t have a MyAnalytics license, why is the MyAnalytics toggle "on" in the MyAnalytics dashboard's Feature settings? What will happen if I change it?
+
+MyAnalytics will not be available to you if you don’t have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the MyAnalytics toggle off in the [Feature settings](../overview/privacy-guide-users.md#how-you-can-opt-in-and-opt-out) on your MyAnalytics dashboard.
+
+#### Q4. How can I find out what my plan is?
+
+Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have? 
+
+You can identify your _plan_ (and also your _service plan_) by following these steps:
+
+1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
+ 
+2.	In the upper-right corner, under **My account**, select **My account**: 
+
+    ![My account](../../images/mya/overview/my-account-2.png)
+ 
+3.	On the **My account** page, under **Subscriptions**, select **View subscriptions**:
+
+    ![View subscriptions](../../images/mya/overview/subscriptions_85.png)
+ 
+4.	On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
+
+    _In the following example, the plan is "Office 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
+   
+    ![service plan: Insights by MyAnalytics](../../images/mya/overview/licenses-plans-service-plans.png)
+
+    _In the following example, the plan is "Office 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
+    
+    ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
+
+#### Q5. In what languages are the elements of MyAnalytics available?
+
+See [MyAnalytics languages](mya-languages.md).
+
+#### Q6. If my assistant manages my email and calendar, does MyAnalytics include these activities in my data?
+
+* Email sent by your assistant on your behalf is not included in your data. MyAnalytics only includes data about email that you send from your mailbox.
+* However, MyAnalytics does include your calendar events in your data, including the events created and accepted on your behalf by your assistant.
 
 ### Insights Outlook add-in
 
@@ -142,7 +228,7 @@ The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook a
 
 MyAnalytics does not use data from shared or secondary mailboxes.
 
-#### Q3. Why are my email read statistics not available?
+#### Q3. Why are read statistics not available for some of my email?
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
 
@@ -152,12 +238,12 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 You can manage the experience in two ways:
 
- * Turn on or off specific MyAnalytics elements for your entire organization. For more information, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level). 
- * Turn MyAnalytics access on or off for individual users. For more information, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
+* Turn on or off specific MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
+* Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
 
-#### Q2. Where is user data stored?
+#### Q2. Where and for how long is user data stored?
 
-User metrics data is stored in users' mailboxes.
+User metrics data is stored in users' mailboxes. Depending on the scenario, daily data is stored for up to 35 days and weekly data is stored for up to 9 weeks. However, data about the number of collaborators in the past 12 months is stored for up to 370 days.
 
 #### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
 
@@ -177,11 +263,11 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 
 #### Q7. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
-Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest email sent on a Monday or Tuesday, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
+Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest sent on a Monday or Tuesday to your Outlook inbox, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
 
 #### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
 
-The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) and [Inline suggestions](../use/mya-notifications.md) are not currently available with the *Insights by MyAnalytics* service plan.
+The cards that show [Email read statistics](../use/add-in.md#email-read-statistics) are not currently available with the *Insights by MyAnalytics* service plan.
 
    > [!Note]
    > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
@@ -200,3 +286,32 @@ Turn on the “Insights by MyAnalytics” OR “MyAnalytics (Full)” service pl
 #### Q11. How can I confirm that the Insights Outlook add-in is installed?
 
 See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
+
+#### Q12. Can I ask that MyAnalytics user data be deleted and not stored?
+
+Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide.md#gdpr-compliance).
+
+   > [!Note]
+   > If a person opts out of using MyAnalytics, it doesn't delete that person's MyAnalytics data.
+
+#### Q13. Can Microsoft personnel access a person's MyAnalytics data?
+
+The same rules apply as with Microsoft Office 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
+
+#### Q14. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
+
+No. MyAnalytics does not support auditing.
+
+#### Q15. What browsers can I use with MyAnalytics and the Insights Outlook Add-in?
+
+See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the MyAnalytics dashboard supports.
+
+As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
+
+#### Q16. How can I manage MyAnalytics experiences in Office 365 GCC?
+
+You can enable or disable MyAnalytics experiences by following the applicable steps in [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019. 
+
+#### Q17. How do the MyAnalytics digests show up in Outlook?
+
+ The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.

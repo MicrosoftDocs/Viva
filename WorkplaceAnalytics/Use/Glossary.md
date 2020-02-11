@@ -4,12 +4,12 @@
 
 title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 06/21/2019
 ms.topic: reference
 localization_priority: normal 
 ms.prod: wpa
+
 ---
 
 # Glossary for Workplace Analytics
@@ -19,14 +19,14 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Term|Definition|
 |----|----------|
 |Adjusted meeting hours|An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
-|Attended|A person *attended* a meeting if they either accepted or did not respond to a meeting request (also referred to as a *non-declined meeting request*).|
+|Attended| A person attended a meeting if they did not decline the meeting request. This means that they either accepted the meeting request, accepted it as _tentative_, or did not respond to it. (This meeting request itself is subsequently referred to as a *non-declined meeting request*.) |
 |Attendee|A person who was invited and *attended* the meeting.|
 |Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
 |Calendar fragmentation|When a person does not have blocks of time sufficient to focus on completing complex tasks. This is typical of those with only small blocks of time (15, 30, or 60 minutes) between meetings. Anything that is not *focus time* (uninterrupted time blocks of two hours or more with no meetings) is considered calendar fragmentation.|
 |Collaborators| Anyone that *measured employees* or *time investors* interact with by email, in meetings, in unscheduled calls, or with instant messages. Collaborators are identified as internal (within the company) or external (outside of the company) and discovered through the data extracted for measured employees. Internal collaborators have domains internal to your organization, while external collaborators have domains external to your organization. |
 |Collaborator group|A group of collaborators that are identified as internal (within the company) or external (outside of the company) that interacts by email, in meetings, in calls, or with instant messages  with a specified *time investor*.|
 |Connection|Two or more *meaningful interactions*.|
-|Coverage|The percentage of measured employees who have a non-blank value for the specified attribute as shown in [Data sources](../use/data-sources.md). If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.|
+|Coverage|The percentage of measured employees who have a non-blank value for the specified attribute as shown in [Data sources](../use/organizational-data.md). If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours | A person's time after you subtract their meeting hours and their focus hours. |

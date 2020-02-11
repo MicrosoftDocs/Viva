@@ -5,8 +5,7 @@
 title: Privacy guide for MyAnalytics admins
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
-ms.author: v-pascha
-ms.date: 08/16/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -23,10 +22,10 @@ This page answers key questions on how MyAnalytics processes information in a ma
 
 ## Summary of key points
 
-<ul><li>
+<ul><li>  
 
 **MyAnalytics is not designed to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring**.
-MyAnalytics provides insights to individuals through a personalized dashboard, a weekly email digest, an Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
+MyAnalytics provides insights to individuals through a personalized dashboard, a weekly digest, an Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision-making or for profiling. </li>
 
 <li>
 
@@ -51,7 +50,7 @@ By default, any time a license with the MyAnalytics service is assigned to a per
 <li>
 
 **MyAnalytics reminds people that their data is private and secure**.
-A few days after a license with the MyAnalytics service is assigned to a person, that person receives a welcome email that clearly lays out how MyAnalytics works, with a reminder that all of their data is private. The other MyAnalytics user interfaces, such as the weekly email digest and personal dashboard, reinforce this message.</li>
+A few days after a license with the MyAnalytics service is assigned to a person, that person receives a welcome email that clearly lays out how MyAnalytics works, with a reminder that all of their data is private. The other MyAnalytics user interfaces, such as the weekly digest and personal dashboard, reinforce this message.</li>
 </ul>
 
 ## How MyAnalytics works
@@ -62,7 +61,7 @@ MyAnalytics presents insights in the following ways:
 
 2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
 
-3. [Weekly email digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
+3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
  
 4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
 
@@ -157,11 +156,11 @@ Within a few days of the assignment of a license with the MyAnalytics service to
 ### Welcome email
 
 To notify employees that their dashboard and Outlook add-in have been enabled, MyAnalytics delivers a 
-[welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/mya-welcome-email) within a few days of license assignment. The email introduces people to the application and has a reminder that MyAnalytics is private and personal.
+[welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-welcome-email) within a few days of license assignment. The email introduces people to the application and has a reminder that MyAnalytics is private and personal.
 
-### Weekly digest email
+### Weekly digest
 
-The week after the welcome email is delivered, users begin to receive the [weekly digest email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2).
+The week after the welcome email is delivered, users begin to receive the [weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2).
 
 ## GDPR Compliance
 

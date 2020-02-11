@@ -2,16 +2,16 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics solution participants
+title: Workplace Analytics plan participants
 description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
 author: paul9955
-ms.author: v-pascha
+ms.author: paul9955
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Solutions: The experience of plan participants
+# Plans: The experience of plan participants
 
 **Role** - participant in a plan, an information worker who is using MyAnalytics
 
@@ -31,64 +31,82 @@ The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly a
 
 ![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
  
-## Email digest
+## Digest
 
-All MyAnalytics users receive a weekly [email digest](../MyAnalytics/use/email-digest.md). In addition to its standard content, their email digest for partipants also includes a section that summarizes their progress in the plan, similar to the following: 
+All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
 
-![Weekly email digest](../Images/WpA/Tutorials/weekly-digest-prog-partic.png)
+![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60.png) 
 
 ## MyAnalytics inline suggestions
 
-MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them. 
+MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them.
 
 ### Plan-only inline suggestions
 
-While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork solution plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan): 
+While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan):
 
 #### Collaboration plan
 
 Participants in the Collaboration plan might see the following inline suggestions:
 
 | Where it shows up  | What it says | How it helps  |
-|------|-------|---------|
-|Reading pane (meeting invitation) 	| Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. |
-
-| Where it shows up  | What it says | How it helps  |
-|------|-------|---------|
-|Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional**  | Suggests that you reconsider whether everyone<br> is required in the meeting that you are organizing,<br> in light of the high meeting load of your invitees. |
+| :------ |-------|---------|
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  	| Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. |
+|Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you reconsider whether everyone is required in the meeting that you are organizing, in light of the high meeting load of your invitees. |
 
 #### Wellbeing plan
 
 Participants in the Wellbeing plan might see the following inline suggestion:
 
 | Where it shows up  | What it says | How it helps  |
-|------|-------|---------|
-|Reading pane (meeting invitation)  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. |
+| :------ |-------|---------|
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** &nbsp; | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
+
+<!-- Verifying this wording and finding out when to publish the following (Focus plan) section: 
+
+#### Focus plan
+
+Participants in the Focus plan might see the following inline suggestion:
+
+| Where it shows up  | What it says | How it helps  |
+| :------ |-------|---------|
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
+
+-->
 
 ### Broadly available inline suggestions
 
-A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork solution plan. They are described in the following tables:
+A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following tables:
 
 #### Get more time to focus
 
-[!INCLUDE [Inline suggestions about focus](../includes/inline-suggest-table-focus.md)]
+| Where it shows up  | What it says | How it helps  |
+| :------ |-------|---------|
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Reminds you (the meeting attendee who has a heavy meeting load) to book time for focused work|
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |This meeting conflicts with your scheduled focus time. Do you want to move your focus block? **See available times** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Helps you to protect your focus time block, by suggesting that you move a booked focus session to another time when a meeting request conflicts with it.|
 
 #### Stay up-to-date with important relationships
 
-[!INCLUDE [Inline suggestions about important relationships](../includes/inline-suggest-table-important.md)]
+| Where it shows up | What it says | How it helps |
+| :------ |-------|---------|
+| Reading pane (email) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | You may have outstanding tasks for sender. Would you like to review now? **See my tasks**   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Reminds you that there might be outstanding task items for the sender. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  |
 
 #### Reduce after-hours work and team impact
 
-[!INCLUDE [Inline suggestions about after-hours work](../includes/inline-suggest-table-after-hours.md)]
+| Where it shows up  | What it says | How it helps |
+| :------ |-------|---------|
+|Email compose &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time**  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Suggests that you book time during the day to do email instead of catching up after hours.  &nbsp; &nbsp; &nbsp;  &nbsp;  |
 
 #### Build better collaboration habits
 
-[!INCLUDE [Inline suggestions about collaboration](../includes/inline-suggest-table-collab.md)]
+| Where it shows up  | What it says | How it helps |
+| :------ |-------|---------|
+|Meeting compose &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Suggests that you shorten hour-long meetings to 45 minutes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
 ## Related topics
 
-[Solution: Introduction](solutionsv2-intro.md)  
+[Plans: Introduction](solutionsv2-intro.md)  
 
-[Solution: Walkthrough](solutionsv2-task.md)
+[Plans: Walkthrough](solutionsv2-task.md)
 
-[Solution: Concepts](solutionsv2-conceptual.md)
+[Plans: Concepts](solutionsv2-conceptual.md)
