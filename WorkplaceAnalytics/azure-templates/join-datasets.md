@@ -15,11 +15,14 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates includes the Join Datasets template that enables you to securely join, group, and aggregate data exported from Workplace Analytics with other third-party data sources, such as personnel data or HR data for more in depth analysis.
+Workplace Analytics Azure Templates includes the Join Datasets Template that enables you to securely join, group, and aggregate data imported from Workplace Analytics with other third-party data sources, such as personnel data or HR data that you analysis.
 
 ## How it works
 
-* [Mapping file](#to-add-a-mapping-file) - The template maintains privacy rules by using a mapping file that is only accessible by the HR manager outside of WpA who can map an employee's unique identifier, such as an email alias, UPN, or personnel number to match up with that person's de-identified (hashed) Workplace Analytics person ID.
+ -> some cool graphic explaining the flow of what file has which ID
+
+* [Mapping file](#to-add-a-mapping-file) - The template maintains privacy rules by using a mapping file that is only accessible outside of Workplace Analytics by the HR manager, who maps an employee's unique identifier, such as a UPN or personnel number to match up with what is used in Workplace Analytics in the HR upload file.
+* The HR manager must then add this new unique identifier data column to the HR data upload file that's used in Workplace Analytics.
 * [Workplace Analytics query](#to-add-a-query-file) and [Third party data](#to-add-third-party-data) - Then the analyst can select the related Workplace Analytics (WPA) query data to add as a .csv file and the third-party data with the employee ID that the HR manager specified in the mapping file.
 * The template uses the mapping file to combine the two datasets into a join dataset that connects the data records by using join key logic to link the employee HR ID to the Workplace Analytics Person ID.
 * The join dataset then replaces the join key with a new Sequence ID (SEQN column) that connects the data records, but keeps the data de-identified for analysis purposes.
