@@ -117,7 +117,7 @@ After a seller success plan starts, its participants receive a tailored email ev
 As a participant in a seller-success plan, you receive a monthly seller-insights email. It is meant to help you by streamlining your behavior in several aspects of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month:
 -->
 
-![Email top](../images/wpa/tutorials/email-top-70.png) 
+![Email top](../images/wpa/tutorials/email-top-70-30.png) 
 
 This email can contain any of several descriptive cards, each of which offers targeted suggestions to help participants work more effectively.  The following sections describe these cards: 
 
@@ -142,7 +142,7 @@ Its purpose is to help sellers decide whether they are spending time optimally w
  
 ### Depth of engagement
 
-The _Depth of engagement_ card shows the number of distinct people in the account with which the seller had one or more meaningful interaction in the last 28 days.
+The _Depth of engagement_ card shows the number of distinct people in the account with whom the seller had one or more meaningful interactions in the last 28 days.
 
 ![Depth of engagement](../images/wpa/tutorials/depth-of-engagement.png) 
  
