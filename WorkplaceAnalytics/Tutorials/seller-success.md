@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Seller success solution in Workplace Analytics 
-description: Describes the seller success solution and how to create a seller success plan 
+title: Seller success plan in Workplace Analytics 
+description: Describes the seller success plan and how to create one 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -11,13 +11,13 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Seller success solution
+# Seller success plan
 
-Sales departments are the most profitable for any company, but their effectiveness can be unpredictable because of the variability in how salespeople work. With this in mind, Workplace Analytics offers the seller success solution. Its purpose is to help sales organizations learn more about the behaviors that differentiate their most successful salespeople, and build plans that help salespeople acquire those behaviors. 
+Sales departments are the most profitable for any company, but their effectiveness can be unpredictable because of the variability in how salespeople work. With this in mind, Workplace Analytics offers the seller success plan. Its purpose is to help sales organizations learn more about the behaviors that differentiate their most successful salespeople, and build plans that help salespeople acquire those behaviors. 
 
-It's not the purpose of the seller success solution to make sellers more productive simply by giving them more data. Rather, it aims to encourage sellers to reflect on how they use their limited time, and to make decisions that align their use of time with the company’s strategic priorities. 
+It's not the purpose of the seller success plan to make sellers more productive simply by giving them more data. Rather, it aims to encourage sellers to reflect on how they use their limited time, and to make decisions that align their use of time with the company’s strategic priorities. 
 
-The solution displays insights to help salespeople optimally use their limited time to maximize productivity, conversion rates, and sales revenues. In this case, productivity is defined as spending more time with the right set of customers, leveraging internal networks, and involving their manager and leadership in strategic customer meetings, as needed.
+Thia plan displays insights to help salespeople optimally use their limited time to maximize productivity, conversion rates, and sales revenues. In this case, productivity is defined as spending more time with the right set of customers, leveraging internal networks, and involving their manager and leadership in strategic customer meetings, as needed.
 
 ## Create a seller success plan 
 
@@ -35,11 +35,11 @@ Complete the following tasks to create and run a seller success plan:
 
 1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account. 
 
-2.	In the left navigation pane, select **Solutions**. 
+2.	In the left navigation pane, select **Plans**. 
 
-3.	On the **Solutions** page, under **Available plans**, on the **Seller success** card, select **Start now**. 
+3.	On the **Plans** page, under **Available plans**, on the **Seller success** card, select **Start now**. 
  
-    ![Solutions main page](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
+    ![Plans main page](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
 
     The **Seller success plan** page opens: 
 
