@@ -21,11 +21,11 @@ Workplace Analytics Azure Templates includes the Join Datasets Template that ena
 
  -> some cool graphic explaining the flow of what file has which ID
 
-* [Mapping file](#to-add-a-mapping-file) - The template maintains privacy rules by using a mapping file that is only accessible outside of Workplace Analytics by the HR manager, who maps an employee's unique identifier, such as a UPN or personnel number to match up with what is used in Workplace Analytics in the HR upload file.
-* The HR manager must then add this new unique identifier data column to the HR data upload file that's used in Workplace Analytics.
-* [Workplace Analytics query](#to-add-a-query-file) and [Third party data](#to-add-third-party-data) - Then the analyst can select the related Workplace Analytics (WPA) query data to add as a .csv file and the third-party data with the employee ID that the HR manager specified in the mapping file.
-* The template uses the mapping file to combine the two datasets into a join dataset that connects the data records by using join key logic to link the employee HR ID to the Workplace Analytics Person ID.
-* The join dataset then replaces the join key with a new Sequence ID (SEQN column) that connects the data records, but keeps the data de-identified for analysis purposes.
+* [Mapping file](#to-add-a-mapping-file) - The template maintains privacy rules by using a mapping file that is only accessible outside of Workplace Analytics by the HR manager. The HR manager maps an unique identifier, such as a UPN or personnel number, for each employee in the mapping file.
+* The HR manager must then add this new unique identifier data column for employee records in the HR data upload file that's uploaded into Workplace Analytics. For more about HR uploads in Workplace Analytics, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+* [Workplace Analytics query](#to-add-a-query-file) and [Third party data](#to-add-third-party-data) - The analyst can then select the related Workplace Analytics (WPA) query data to add as a .csv file and the third-party data with the employee IDs that match up to the unique employee identifiers that the HR manager specified in the mapping file and in the organizational (HR) data uploaded into Workplace Analytics.
+* The template uses the mapping file to combine (join) the data from the two data sources into a join dataset that connects the data records by using join key logic that links the employee HR ID to the unique employee ID uploaded into Workplace Analytics.
+* The join dataset then replaces the join key (that might possibly identify individual employees) with a new Sequence ID (SEQN column) that connects the data records, but keeps the data de-identified for analysis purposes.
 
 After the template creates the join dataset, you can download it as a .csv file for analysis.
 
@@ -42,6 +42,10 @@ After the template creates the join dataset, you can download it as a .csv file 
    * Select the **Update** icon to refresh the data in the mapping file.
    * Select the **Delete** (trashcan) icon to delete the file from the list.
 
+## To upload new HR data to Workplace Analytics
+
+After the HR manager decides on and adds a unique employee ID to the mapping file, that same unique ID column must be added to the HR data that's uploaded into Workplace Analytics. For instructions on how to append new data and re-upload HR data into Workplace Analytics, see [Subsequent uploads](../setup/upload-organizational-data.md#file-upload) and select to **Append** in **Step 9**.
+
 ## To add a query file
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **WPA data**.
@@ -55,22 +59,21 @@ After the template creates the join dataset, you can download it as a .csv file 
    * Select the **Share** icon next to the name to share access to this data with other users.
    * Select the **Delete Analysis** (trashcan) icon to delete the query from the list.
 
-## To add a join dataset
+## To add and view joined datasets
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
 2. Select **Add New Join** at top right of the table.
 3. For **Data Join Settings**, enter a name for the joined dataset, select the external dataset that matches up with the mapping file, the .csv query file, and the related mapping file.
-4. In **Define Join Fields**, select the Workplace Analytics Person ID key and the third-party external data key (such as Personnel ID). 
-5. In **Time and N Size**, select the time period you want data for and specify the minimum size for groupings and aggregations, and then select **Submit**.
-6. After the upload succeeds, it'll be available in the Joined Datasets list with the following options:
+4. In **Define Join Fields**, select the Workplace Analytics Person ID key and the third-party external data key (such as Personnel ID).
+5. In **Time and N Size**, select the time period you want data for and specify the minimum group size for groupings and aggregations, and then select **Submit**. For more information about minimum group sizes, see [Minimum group size](../use/settings.md#minimum-group-size).
+6. After the upload succeeds, it'll be available in the **Joined Datasets** list with the following options:
 
    * When the **Status** is a green check mark, the data was successfully uploaded. A red X means it failed.
-   * Select a table column heading, such as Name or Submitted, to sort by it..
+   * Select a table column heading, such as Name or Submitted, to sort by it.
 
-## To view joined datasets
+## To add and view analysis
 
-1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
-2. 
+1. 
 
 ## Related topics
 
