@@ -112,11 +112,12 @@ After a seller success plan starts, its participants receive a tailored email ev
 
 ![Email top](../images/wpa/tutorials/email-top-70-30-new.png) 
 
-This email can contain any of several descriptive cards, each of which offers targeted suggestions to help participants work more effectively.  The following sections describe these cards: 
+This email can contain any of several descriptive cards, each of which offers targeted suggestions to help participants work more effectively. The following sections describe these cards: 
 
  * [Time with customers](#time-with-customers)
  * [Depth of engagement](#depth-of-engagement)
- * [Manager interaction](#manager-interaction)
+ * [Manager interactions](#manager-interactions)
+ * [Explore](#explore)
 
 <!-- THIS ONE IS IN SECOND PERSON:
 
