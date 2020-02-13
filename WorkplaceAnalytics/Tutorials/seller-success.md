@@ -2,23 +2,22 @@
 # Metadata Sample
 # required metadata
 
-ROBOTS: NOINDEX,NOFOLLOW
-title: Seller success solution in Workplace Analytics 
-description: Describes the seller success solution and how to create a seller success plan 
+title: Seller success plan in Workplace Analytics 
+description: Describes the seller success plan and how to create one 
 author: paul9955
-ms.author: paul9955
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Seller success solution
+# Seller success plan
 
-Sales departments are the most profitable for any company, but their effectiveness can be unpredictable because of the variability in how salespeople work. With this in mind, Workplace Analytics offers the seller success solution. Its purpose is to help sales organizations learn more about the behaviors that differentiate their most successful salespeople, and build plans that help salespeople acquire those behaviors. 
+Sales departments are the most profitable for any company, but their effectiveness can be unpredictable because of the variability in how salespeople work. With this in mind, Workplace Analytics offers the seller success plan. Its purpose is to help sales organizations learn more about the behaviors that differentiate their most successful salespeople, and build plans that help salespeople acquire those behaviors. 
 
-It's not the purpose of the seller success solution to make sellers more productive simply by giving them more data. Rather, it aims to encourage sellers to reflect on how they use their limited time, and to make decisions that align their use of time with the company’s strategic priorities. 
+It's not the purpose of the seller success plan to make sellers more productive simply by giving them more data. Rather, it aims to encourage sellers to reflect on how they use their limited time, and to make decisions that align their use of time with the company’s strategic priorities. 
 
-The solution displays insights to help salespeople optimally use their limited time to maximize productivity, conversion rates, and sales revenues. In this case, productivity is defined as spending more time with the right set of customers, leveraging internal networks, and involving their manager and leadership in strategic customer meetings, as needed.
+This plan displays insights to help salespeople optimally use their limited time to maximize productivity, conversion rates, and sales revenues. In this case, productivity is defined as spending more time with the right set of customers, building customer networks, and involving their manager and leadership in strategic customer meetings, as needed.
 
 ## Create a seller success plan 
 
@@ -36,11 +35,11 @@ Complete the following tasks to create and run a seller success plan:
 
 1.	Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account. 
 
-2.	In the left navigation pane, select **Solutions**. 
+2.	In the left navigation pane, select **Plans**. 
 
-3.	On the **Solutions** page, under **Available plans**, on the **Seller success** card, select **Start now**. 
+3.	On the **Plans** page, under **Available plans**, on the **Seller success** card, select **Start now**. 
  
-    ![Solutions main page](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
+    ![Plans main page](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
 
     The **Seller success plan** page opens: 
 
@@ -109,7 +108,16 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 **Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.   
 
-After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month:
+After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month. The card displays the split between external and internal collaboration for people in similar roles; this can help sellers compare their collaboration patterns with their peers. These numbers are calculated for all the participants in the plan. 
+
+![Email top](../images/wpa/tutorials/email-top-70-30-new.png) 
+
+This email can contain any of several descriptive cards, each of which offers targeted suggestions to help participants work more effectively. The following sections describe these cards: 
+
+ * [Time with customers](#time-with-customers)
+ * [Depth of engagement](#depth-of-engagement)
+ * [Manager interactions](#manager-interactions)
+ * [Explore](#explore)
 
 <!-- THIS ONE IS IN SECOND PERSON:
 
@@ -118,13 +126,7 @@ After a seller success plan starts, its participants receive a tailored email ev
 As a participant in a seller-success plan, you receive a monthly seller-insights email. It is meant to help you by streamlining your behavior in several aspects of sales success: time with customers, depth of engagement, internal networks, and connection with leadership. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month:
 -->
 
-![Email top](../images/wpa/tutorials/email-top-70.png) 
 
-This email can contain any of several descriptive cards, each of which offers targeted suggestions to help participants work more effectively.  The following sections describe these cards: 
-
- * [Time with customers](#time-with-customers)
- * [Depth of engagement](#depth-of-engagement)
- * [Manager interaction](#manager-interaction)
  <!--  * [Leverage internal networks](#leverage-internal-networks) -->
 
 <!-- In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. -->
@@ -139,13 +141,13 @@ The _Time with customers_ card displays how sellers spent their time with  custo
 
 Its purpose is to help sellers decide whether they are spending time optimally with customers according to their respective potential. 
 
-![Time with customers](../images/wpa/tutorials/time-w-customers.png)
+![Time with customers](../images/wpa/tutorials/time-with-customers-ss.png)
  
 ### Depth of engagement
 
-The _Depth of engagement_ card shows the number of distinct people in the account with which the seller had one or more meaningful interaction in last 28 days.
+The _Depth of engagement_ card shows the number of distinct people in the account with whom the seller had one or more meaningful interactions in the last 28 days.
 
-![Depth of engagement](../images/wpa/tutorials/depth-of-engagement.png) 
+![Depth of engagement](../images/wpa/tutorials/depth-of-engagement-ss.png) 
  
 <!-- 
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
@@ -161,17 +163,17 @@ Being connected with the right individuals and organizations within the company 
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 -->
 
-### Manager interaction
+### Manager interactions
 
-Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interaction_ card displays the time the salesperson spent with their manager in meetings with particular customers.  
+Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interactions_ card displays the time the salesperson spent with their manager in meetings with particular customers.  
 
-![Manager interaction](../images/wpa/tutorials/mgr-interaction-2-85.png)
+![Manager interactions](../images/wpa/tutorials/manager-interactions-ss.png)
  
 ### Explore
 
-The final card in the digest is the Explore card. On this card, select **Explore** to open the MyAnalytics dashboard, which shows more details about the information that the other cards present.
+The final card in the digest is the Explore card. On this card, select **Explore** to open the MyAnalytics Network dashboard, which shows how many people you actively connected with in the last month.
 
-![Explore card](../images/wpa/tutorials/explore-card-70.png)
+![Explore card](../images/wpa/tutorials/explore-card-ss.png)
 
 ## Seller success Q & A
 
