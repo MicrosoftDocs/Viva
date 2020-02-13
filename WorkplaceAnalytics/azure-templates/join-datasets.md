@@ -30,7 +30,7 @@ Use this template to analyze a joined dataset as follows.
 
     ![Create and add a mapping file](./images/jd-map-file.png)
 
-2. **[Upload the new HR data to Workplace Analytics](#upload-new-HR-data-to-workplace-analytics)** - The HR manager must then add the new **Key_ID** column to the HR data (.csv) upload file and upload it as a subsequent upload with the new appended column and data into Workplace Analytics.
+2. **[Upload the new HR data to Workplace Analytics](#upload-new-hr-data-to-workplace-analytics)** - The HR manager must then add the new **Key_ID** column to the HR data (.csv) upload file and upload it as a subsequent upload with the new appended column and data into Workplace Analytics.
 
    ![Upload new HR data](./images/jd-wpa-upload.png)
 
