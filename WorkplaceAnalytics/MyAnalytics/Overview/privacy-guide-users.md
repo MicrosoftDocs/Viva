@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: Privacy guide for MyAnalytics users
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955

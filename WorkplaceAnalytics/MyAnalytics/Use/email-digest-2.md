@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: MyAnalytics digests
 description: MyAnalytics users receive a weekly digest with key insights and suggestions
 author: madehmer
