@@ -106,16 +106,14 @@ You can control this setting in your Outlook settings. To show these signals in 
 
 ### How you can opt-in and opt-out
 
-You can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Office 365, as shown here:
-
-![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
+You can opt-in or opt-out of MyAnalytics through **Settings**. For details, see [Opt out of MyAnalytics](../use/opt-out-of-mya.md).
 
 ## GDPR Compliance
 
-As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. For example, MyAnalytics supports the following: 
+As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. For example, MyAnalytics supports the following:
 
- * **Secure and protect personal data**. Because all MyAnalytics data is stored in your Exchange Online mailbox, MyAnalytics meets this security obligation by virtue of Exchange Online also meeting the obligation. 
+ * **Secure and protect personal data**. Because all MyAnalytics data is stored in your Exchange Online mailbox, MyAnalytics meets this security obligation by virtue of Exchange Online also meeting the obligation.
 
- * **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data. 
+ * **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data.
 
 For more information, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
