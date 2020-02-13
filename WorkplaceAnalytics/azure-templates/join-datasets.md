@@ -88,7 +88,7 @@ Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#
    * Select the **Share** icon next to the name to share access to this data with other users.
    * Select the **Delete** (trashcan) icon to delete the query from the list.
 
-## To add a new join
+## Add a new join
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
 2. Select **Add New Join** at top right of the table.
@@ -104,7 +104,10 @@ Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#
    * Select the **Delete Join** (trashcan) icon to delete it from the list.
    * Select the **Share** icon next to the name to share access to this data with other users.
 
-## To add and view analysis
+## Add and view analysis
+
+> [!Note]
+> Users who are assigned the Analyst role in Admin settings will only see the **Joined Datasets** page. 
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
 2. Select the dataset name from the list.
