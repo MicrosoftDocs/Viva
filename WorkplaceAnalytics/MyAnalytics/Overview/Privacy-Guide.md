@@ -137,9 +137,9 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 ### How employees can opt-in and opt-out
 
- End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Office 365, as shown here:
+Users can opt-in or opt-out of the elements of MyAnalytics by using the **Settings > Feature settings** menu in Office 365, as shown here:
 
-![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
+![Opt out and opt in ](../../images/mya/use/v2-dashboard-settings-1h-3.png)
 
 ## Microsoft Graph
 
