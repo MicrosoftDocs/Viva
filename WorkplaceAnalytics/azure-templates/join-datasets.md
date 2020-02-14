@@ -19,43 +19,74 @@ Workplace Analytics Azure Templates includes the Join Datasets Template that ena
 
 For example, your company wants you to evaluate employee job satisfaction by analyzing poll data from the HR system and employee collaboration and meeting data from Workplace Analytics.
 
-Use this template to analyze a joined dataset as follows.
+## Prerequisite tasks
 
-1. **[Create a mapping file](#create-a-mapping-file), and then [add and share it](#add-a-mapping-file)** - To maintain privacy rules, the owner of your HR system data, such as the HR manager, needs to own and maintain the mapping file, which must only be accessible outside of Workplace Analytics by that owner, who needs to:
+Before you can create a joined dataset with this template, the HR manager needs to [create a mapping file](#create-a-mapping-file) and [upload the key in HR data to Workplace Analytics](#upload-the-key-in-hr-data-to-workplace-analytics).
 
-   * Create a new .csv mapping file and add an employee ID column that uniquely identifies employees in both the third-party data and the HR data uploaded into Workplace Analytics, such as an email alias or an employee ID.
-   * Map a new **Key_ID** to each employee in the mapping file.
-   * Add the mapping file in the template and share it with users who need to use it to add and analyze joined datasets and analysis. The users you share with can only use it for joins in the template and cannot read or edit it.
-   * The template then adds a sequence (**SEQN**) column to the mapping file that it uses later as a join key to connect the same employee records from the two different data sources into the joined dataset with a de-identified sequence number assigned to each employee record.
+### Create a mapping file
 
-    ![Create and add a mapping file](./images/jd-map-file.png)
+The owner of HR system data (such as the HR manager) needs to do the following to create and maintain the mapping file. Ideally that file. Ideally this file is only accessible to the owner outside of Workplace Analytics. This file enables the template to match up query data from Workplace Analytics with real world users.
 
-2. **[Upload the new HR data to Workplace Analytics](#upload-new-hr-data-to-workplace-analytics)** - The HR manager must then add the new **Key_ID** column to the HR data (.csv) upload file and upload it as a subsequent upload with the new appended column and data into Workplace Analytics.
+1. Create a new .csv file that maps a new unique key identifier for each employee to each identifier used in another dataset (outside of Workplace Analytics) that can be joined and analyzed along side Workplace Analytics query data. For example, the HR manager maps a new Key_ID that's unique and can't be interpreted or related back to an employee's identity and can only be mapped back to employees by using this table or file.
 
-   ![Upload new HR data](./images/jd-wpa-upload.png)
+    ![Create a mapping file](./images/jd-map-file-1.png)
 
-3. **Add a [Workplace Analytics query](#add-a-query-file)** - The owner of the third-party data who has access to Workplace Analytics Queries as an Analyst needs to select the related query (.csv) data that now includes the **Key_ID** data, which was in the most recent HR data upload into Workplace Analytics.
+   >[!Important]
+   >This mapping file must be securely maintained outside of Workplace Analytics to maintain employee privacy. After the key identifier in this file is uploaded to Workplace Analytics as part of the HR data upload, you could possibly use this file to identify employees included in Workplace Analytics query data.
 
-   ![Add Workplace Analytics query data](./images/jd-wpa-query.png)
+2. Save the mapping file as a .csv file in UTF-8 format to use to join datasets.
 
-4. **Add [a new joined dataset](#add-a-new-join)** - While adding a join, you select the third-party data with the employee IDs that match up to the **Key_ID** column in the mapping file.
+### Upload the key in HR data to Workplace Analytics
 
-   ![Add third-party data](./images/jd-3p-data.png)
+The same unique ID column created in the mapping file (for example, **Key_ID**) needs to be added to the HR data that's next uploaded into Workplace Analytics.
 
-   * The template uses the mapping file to combine the two data sources into a new joined dataset that connects the data records by using join key look-up logic, and then replaces the Key ID and Employee ID with a system-generated sequence ID in the **SEQN** column for the combined data records, which keeps the data de-identified for analysis purposes.
-   * After the template creates the joined dataset, data owners can download it as a .csv file or use it to [create new analysis](#add-and-view-analysis).
+Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#file-upload) and select to **Append** in **Step 9** to add the new Key_ID data into Workplace Analytics.
 
-    ![New joined dataset](./images/jd-join-data.png)
+## How it works
 
-## Create a mapping file
+The key to a data join is the mapping file, which enables the template to map rows from Workplace Analytics queries to the same employee rows in other datasets. This is accomplished by uploading a unique, non-identifiable ID into Workplace Analytics through the HR data upload process.
 
-The owner of HR system data, such as the HR manager, needs to do the following to create and maintain the mapping file, which must only be accessible by that owner outside of Workplace Analytics and the Join Datasets Azure Template.
+For this example, the **Key_ID** column is uploaded to Workplace Analytics as a new HR attribute, which can then be included in the query data exported from Workplace Analytics and uploaded in the template.
 
-1. Create a new .csv file that includes employee HR data that uniquely identifies each employee in both the third-party data and the HR data uploaded into Workplace Analytics, such as an email alias and/or an employee number.
-2. Then add a new column named **Key_ID** to the file, and then map a new unique key identifier for each employee.
-3. Save the mapping file as a .csv file in UTF-8 format.
+1. The owner of the mapping file uploads it into the template.
 
-## Add a mapping file
+    ![Upload the mapping file](./images/jd-wpa-upload.png)
+
+2. The mapping file is augmented with an auto-generated **SEQN** value that is stored securely in the template. This file is only used in creating joined datasets. It cannot be downloaded, accessed, or decrypted within the template.
+
+    ![Create a mapping file](./images/jd-map-file.png)
+
+3. The data owner uploads a Workplace Analytics query file (with **Key_ID** data included in the export).
+
+   ![Upload Workplace Analytics query data](./images/jd-wpa-query.png)
+
+4. Then uploads an external dataset that includes the same employee identifiers that were mapped in the mapping file (for example, **Employee_ID**) to **Key_ID**.
+
+   ![Upload third-party data](./images/jd-3p-data.png)
+
+5. The template then uses the mapping file to combine the two data sources into a new joined dataset. For this example, **Employee_ID** values are added temporarily to the Workplace Analytics query file and matched up to the **Key_ID** values, and then the data rows for the two datasets are combined into one joined dataset.
+
+   The identifier columns, for this example are **Key_ID** and **Employee_ID**, are then removed from the joined dataset and replaced with system-generated sequence IDs in a new **SEQN** column, which keeps the data de-identified for analysis purposes.
+
+   ![New joined dataset](./images/jd-join-data.png)
+
+## Create joined datasets
+
+You can use this template to create and analyze joined datasets as follows.
+
+1. **[Upload the mapping file](#upload-the-mapping-file) and share it with template users.** - The mapping file owner uploads it into the template and then can select who to share the mapping file with that need to use it to create joined datasets. The users you share it with can only use it for joins in the template and cannot access or download it.
+
+2. **[Add a query file](#add-a-workplace-analytics-query)** - The owner of the third-party data who has access to Workplace Analytics queries as an analyst needs to select the related query (.csv) data that now includes the key identifier data, which was in the most recent HR data upload into Workplace Analytics.
+
+3. **[Create a joined dataset](#create-a-joined-dataset)** - While adding a join, you select the third-party data with the same employee identifiers that match up to the key identifiers in the mapping file.
+
+4. **[Create new analysis](#create-and-view-analysis) and other options** - After the join dataset is successfully created, you can:
+
+   * Use it to create new analysis within the template.
+   * Download it as a .csv file (only an option for data owners).
+   * Share with other users who can use it to create new analysis.
+
+### Upload the mapping file
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Mapping Data**.
 2. Select **Add New Mapping File** at top right of the table.
@@ -67,12 +98,6 @@ The owner of HR system data, such as the HR manager, needs to do the following t
    * Select the **Update** icon to refresh the data in the mapping file. This is useful as your organization's employee data changes over time, such as for new hires.
    * Select the **Share** icon next to the file name, and then you can select which data owners get permission to use this file for joins.
    * Select the **Delete** (trashcan) icon to delete the file from the list.
-
-## Upload new HR data to Workplace Analytics
-
-The same unique Key_ID column created in the mapping file must also be added to the HR data that's uploaded into Workplace Analytics.
-
-Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#file-upload) and select to **Append** in **Step 9** to add the new Key_ID data into Workplace Analytics.
 
 ## Add a query file
 
@@ -88,7 +113,7 @@ Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#
    * Select the **Share** icon next to the name to share access to this data with other users.
    * Select the **Delete** (trashcan) icon to delete the query from the list.
 
-## Add a new join
+## Create a new join
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
 2. Select **Add New Join** at top right of the table.
@@ -104,10 +129,10 @@ Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#
    * Select the **Delete Join** (trashcan) icon to delete it from the list.
    * Select the **Share** icon next to the name to share access to this data with other users.
 
-## Add and view analysis
+## Create and view analysis
 
 > [!Note]
-> Users who are assigned the Analyst role in Admin settings will only see the **Joined Datasets** page. 
+> Only users who are assigned the analyst role or have create joins permissions for joined datasets in the Admin settings will see the **Joined Datasets** page.
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
 2. Select the dataset name from the list.
@@ -122,9 +147,20 @@ Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#
    * Select the **Job Details** (i) icon next to **Status** to view the job details.
    * Select the **Delete Analysis** (trashcan) icon to delete it from the list.
 
+## User permissions for joined datasets
+
+As the data owner, you can enable specific permissions for joined datasets based on how they need to use them. Specific permissions can be restricted to specfic roles, such as Azure Template analysts are limited to the **Analyze Join Datasets** permission.
+
+Permission | Description |
+|-------------|-------------|
+|Upload Mapping Files |Can upload mapping files (and allow other users to use those files in their joins) |
+|Upload Wpa Files |Can upload Workplace analytics flex query files (and allow other users to use those files in their join) |
+|Create joined datasets |Can upload an external file and create a joined dataset (if query and mapping files are uploaded and available). Can also allow other users to analyze joined datasets they’ve created. |
+|Analyze Join Datasets |Can do groupings and analysis on their own or shared joined datasets. |
+
 ## Joined dataset retention setting
 
-Your template admin sets the number of days to retain data created and saved as joined datasets with this template. The current system default is **14 days**. See [Configuration](./deploy-configure.md#configuration) for details.
+Your template admin sets the number of days to retain data created and saved as joined datasets with this template. The current system default is **30 days**. See [Configuration](./deploy-configure.md#configuration) for details.
 
 ## Related topics
 
