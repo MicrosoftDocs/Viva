@@ -149,14 +149,18 @@ You can use this template to create and analyze joined datasets as follows.
 
 ## User permissions for joined datasets
 
-As the data owner, you can enable specific permissions for joined datasets based on how they need to use them. Specific permissions can be restricted to specfic roles, such as Azure Template analysts are limited to the **Analyze Join Datasets** permission.
+An Azure Templates Admin can select user permissions for joined datasets. In **Admin** > **User Management**, select the **Edit** (pencil) icon for a user, and then select which permissions to enable for the selected user.
 
-Permission | Description |
+   ![User permissions for joined datasets](./images/jd-user-permissions.png)
+
+Specific permissions for joined datasets are based on how users need access to use the data. Specific permissions can be restricted to specific roles, such as Azure Templates Analysts are limited only to the **Analyze Join Datasets** permission.
+
+|Permission | Description |
 |-------------|-------------|
-|Upload Mapping Files |Can upload mapping files (and allow other users to use those files in their joins) |
-|Upload Wpa Files |Can upload Workplace analytics flex query files (and allow other users to use those files in their join) |
-|Create joined datasets |Can upload an external file and create a joined dataset (if query and mapping files are uploaded and available). Can also allow other users to analyze joined datasets they’ve created. |
-|Analyze Join Datasets |Can do groupings and analysis on their own or shared joined datasets. |
+|Upload Mapping Files |Can upload mapping files (and allow other users to use those files in their joins). |
+|Upload WPA Files |Can upload Workplace analytics query files (and allow other users to use those files in their joins). |
+|Create joined datasets |Can upload an external file and create a joined dataset (if query and mapping files are uploaded and available). Can also allow other users to analyze joined datasets they created. |
+|Analyze Join Datasets |Can do groupings on and create new analysis with their own or shared joined datasets. |
 
 ## Joined dataset retention setting
 
