@@ -76,9 +76,9 @@ You can use this template to create and analyze joined datasets as follows.
 
 1. **[Upload the mapping file](#upload-the-mapping-file) and share it with template users.** - The mapping file owner uploads it into the template and then can select who to share the mapping file with that need to use it to create joined datasets. The users you share it with can only use it for joins in the template and cannot access or download it.
 
-2. **[Add a query file](#add-a-workplace-analytics-query)** - The owner of the third-party data who has access to Workplace Analytics queries as an analyst needs to select the related query (.csv) data that now includes the key identifier data, which was in the most recent HR data upload into Workplace Analytics.
+2. **[Add a query file](#add-a-query-file)** - The owner of the third-party data who has access to Workplace Analytics queries as an analyst needs to select the related query (.csv) data that now includes the key identifier data, which was in the most recent HR data upload into Workplace Analytics.
 
-3. **[Create a joined dataset](#create-a-joined-dataset)** - While adding a join, you select the third-party data with the same employee identifiers that match up to the key identifiers in the mapping file.
+3. **[Create a new join](#create-a-new-join)** - While adding a join, you select the third-party data with the same employee identifiers that match up to the key identifiers in the mapping file.
 
 4. **[Create new analysis](#create-and-view-analysis) and other options** - After the join dataset is successfully created, you can:
 
