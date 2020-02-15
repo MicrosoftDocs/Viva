@@ -149,7 +149,7 @@ You can use this template to create and analyze joined datasets as follows.
 
 ## User permissions for joined datasets
 
-An Azure Templates Admin can select user permissions for joined datasets. In **Admin** > **User Management**, select the **Edit** (pencil) icon for a user, and then select which permissions to enable for the selected user.
+An Azure Templates Admin can select user permissions for joined datasets. In **Admin** > **User Management**, select the **Edit** (pencil) icon for a user, and then select which permissions to enable for that user.
 
    ![User permissions for joined datasets](./images/jd-user-permissions.png)
 
