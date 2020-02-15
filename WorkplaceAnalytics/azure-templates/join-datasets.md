@@ -159,7 +159,7 @@ Specific permissions for joined datasets are based on how users need access to u
 |-------------|-------------|
 |Upload Mapping Files |Can upload mapping files (and allow other users to use those files in their joins). |
 |Upload WPA Files |Can upload Workplace analytics query files (and allow other users to use those files in their joins). |
-|Create joined datasets |Can upload an external file and create a joined dataset (if query and mapping files are uploaded and available). Can also allow other users to analyze joined datasets they created. |
+|Create Join Datasets |Can upload an external file and create a joined dataset (if query and mapping files are uploaded and available). Can also allow other users to analyze joined datasets they created. |
 |Analyze Join Datasets |Can do groupings on and create new analysis with their own or shared joined datasets. |
 
 ## Joined dataset retention setting
