@@ -42,7 +42,7 @@ The same unique ID column created in the mapping file (for example, **Key_ID**) 
 
 Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#file-upload) and select to **Append** in **Step 9** to add the new Key_ID data into Workplace Analytics.
 
-## How it works
+## Join dataset overview
 
 The key to a data join is the mapping file, which enables the template to map rows from Workplace Analytics queries to the same employee rows in other datasets. This is accomplished by uploading a unique, non-identifiable ID into Workplace Analytics through the HR data upload process.
 
@@ -70,7 +70,7 @@ For this example, the **Key_ID** column is uploaded to Workplace Analytics as a 
 
    ![New joined dataset](./images/jd-join-data.png)
 
-## Create joined datasets
+## Join dataset tasks
 
 You can use this template to create and analyze joined datasets as follows.
 
@@ -86,7 +86,7 @@ You can use this template to create and analyze joined datasets as follows.
    * Download it as a .csv file (only an option for data owners).
    * Share with other users who can use it to create new analysis.
 
-### Upload the mapping file
+## Upload the mapping file
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Mapping Data**.
 2. Select **Add New Mapping File** at top right of the table.
