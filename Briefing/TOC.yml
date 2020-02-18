@@ -2,8 +2,6 @@
   href: ./be-overview.md
 - name: Privacy guide
   href: ./be-privacy.md        
-- name: Admin guide
-  href: ./be-admin.md  
 - name: Using Briefing email
   expanded: true
   items: 
