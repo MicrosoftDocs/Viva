@@ -141,13 +141,13 @@ The _Time with customers_ card displays how sellers spent their time with  custo
 
 Its purpose is to help sellers decide whether they are spending time optimally with customers according to their respective potential. 
 
-![Time with customers](../images/wpa/tutorials/time-with-customers-ss.png)
+![Time with customers](../images/wpa/tutorials/time-with-customers-ss2.png)
  
 ### Depth of engagement
 
 The _Depth of engagement_ card shows the number of distinct people in the account with whom the seller had one or more meaningful interactions in the last 28 days.
 
-![Depth of engagement](../images/wpa/tutorials/depth-of-engagement-ss.png) 
+![Depth of engagement](../images/wpa/tutorials/depth-of-engagement-ss2.png) 
  
 <!-- 
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
