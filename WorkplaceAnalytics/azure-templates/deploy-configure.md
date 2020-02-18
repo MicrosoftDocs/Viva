@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Deploy and configure Workplace Analytics Azure Templates 
 description: Learn how to deploy and configure Workplace Analytics Azure Templates
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -12,7 +12,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Deploy and configure Workplace Analytics Azure Templates 
+# Deploy and configure Workplace Analytics Azure Templates
 
 _These templates are only available as part of a Microsoft service engagement._
 
@@ -143,7 +143,7 @@ As an admin, you can configure template settings in **Admin** > **Configuration*
 
 * The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
 * If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
-<!--* Set the number of days to retain data created and saved for dataset joins in the **Join Datasets** section.-->
+* Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.
 
 ## Audit logs
 
