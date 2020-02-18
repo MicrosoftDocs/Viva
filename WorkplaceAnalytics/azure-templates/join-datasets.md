@@ -52,7 +52,7 @@ For this example, the **Key_ID** column is uploaded to Workplace Analytics as a 
 
     ![Upload the mapping file](./images/jd-wpa-upload.png)
 
-2. The mapping file is augmented with an auto-generated **SEQN** value that is stored securely in the template. This file is only used in creating joined datasets. It cannot be downloaded, accessed, or decrypted within the template.
+2. The mapping file is stored securely in the template. This file is only used in creating joined datasets, which cannot be downloaded, accessed, or decrypted within the template. The mapping file is augmented with an auto-generated sequence (**SEQN**) value that is included in the final output.
 
     ![Create a mapping file](./images/jd-map-file.png)
 
@@ -60,13 +60,13 @@ For this example, the **Key_ID** column is uploaded to Workplace Analytics as a 
 
    ![Upload Workplace Analytics query data](./images/jd-wpa-query.png)
 
-4. Then uploads an external dataset that includes the same employee identifiers that were mapped in the mapping file (for example, **Employee_ID**) to **Key_ID**.
+4. The user uploads an external dataset that includes the same employee identifiers that were included in the mapping file (for example, **Employee_ID**) to **Key_ID**.
 
    ![Upload third-party data](./images/jd-3p-data.png)
 
 5. The template then uses the mapping file to combine the two data sources into a new joined dataset. For this example, **Employee_ID** values are added temporarily to the Workplace Analytics query file and matched up to the **Key_ID** values, and then the data rows for the two datasets are combined into one joined dataset.
 
-   The identifier columns, for this example are **Key_ID** and **Employee_ID**, are then removed from the joined dataset and replaced with system-generated sequence IDs in a new **SEQN** column, which keeps the data de-identified for analysis purposes.
+   The identifier columns, such as **Key_ID** and **Employee_ID**, are then removed from the joined dataset and replaced with system-generated sequence IDs in a new **SEQN** column, which keeps the data de-identified for analysis purposes.
 
    ![New joined dataset](./images/jd-join-data.png)
 
@@ -74,19 +74,22 @@ For this example, the **Key_ID** column is uploaded to Workplace Analytics as a 
 
 You can use this template to create and analyze joined datasets as follows.
 
-1. **[Upload the mapping file](#upload-the-mapping-file) and share it with template users.** - The mapping file owner uploads it into the template and then can select who to share the mapping file with that need to use it to create joined datasets. The users you share it with can only use it for joins in the template and cannot access or download it.
+1. **[Upload the mapping file](#upload-the-mapping-file) and share it with template users.** - The mapping file owner uploads it into the template and then can share the mapping file with those who need it to create joined datasets. The users you share it with can only use it for joins in the template and cannot access or download the mapping file directly.
 
-2. **[Add a query file](#add-a-query-file)** - The owner of the third-party data who has access to Workplace Analytics queries as an analyst needs to select the related query (.csv) data that now includes the key identifier data, which was in the most recent HR data upload into Workplace Analytics.
+2. **[Add a query file](#add-a-query-file)** - The owner of the third-party data who has access to Workplace Analytics queries needs to select and update relevant query results in .csv format, ensuring the output contains the key identifier column from the most recent HR data upload into Workplace Analytics, which is used for joins.
 
-3. **[Create a new join](#create-a-new-join)** - While adding a join, you select the third-party data with the same employee identifiers that match up to the key identifiers in the mapping file.
+3. **[Create a new join](#create-a-new-join)** - While adding a join, you select a third-party data file in .csv format with the same employee identifiers that match up to the employee identifiers in the mapping file.
 
-4. **[Create new analysis](#create-and-view-analysis) and other options** - After the join dataset is successfully created, you can:
+4. **[Create new analysis](#create-and-view-analysis)** - After a join dataset is successfully created, you can:
 
    * Use it to create new analysis within the template.
-   * Download it as a .csv file (only an option for data owners).
+   * Download it as a .csv file (only an option for mapping file owners).
    * Share with other users who can use it to create new analysis.
 
 ## Upload the mapping file
+
+>[!Note]
+>Only users who are assigned the **Can upload mapping file** permission for joined datasets in Admin settings can see the **Upload Mapping File** option.
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Mapping Data**.
 2. Select **Add New Mapping File** at top right of the table.
@@ -101,6 +104,9 @@ You can use this template to create and analyze joined datasets as follows.
 
 ## Add a query file
 
+>[!Note]
+>Only users who are assigned the **Upload WPA Files** permission for joined datasets in Admin settings can see the **Add New WPA File** option.
+
 1. In Workplace Analytics (WPA) Azure Templates, select **Join Datasets** > **WPA Data**.
 2. Select **Add New WPA file** at top right of the table.
 3. In **Upload WPA File**, select the .csv query file to upload, the time group you want data for, and whether you want to allow raw Workplace Analytics metrics in the aggregations.
@@ -114,6 +120,9 @@ You can use this template to create and analyze joined datasets as follows.
    * Select the **Delete** (trashcan) icon to delete the query from the list.
 
 ## Create a new join
+
+>[!Note]
+>Only users who are assigned the **Create Join Datasets** permission for joined datasets in Admin settings can see the **Add New Join** option.
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
 2. Select **Add New Join** at top right of the table.
@@ -132,10 +141,10 @@ You can use this template to create and analyze joined datasets as follows.
 ## Create and view analysis
 
 > [!Note]
-> Only users who are assigned the analyst role or have create joins permissions for joined datasets in the Admin settings will see the **Joined Datasets** page.
+> Only users who are assigned the analyst role or have create joins permission for joined datasets in Admin settings can see the **Joined Datasets** page.
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
-2. Select the dataset name from the list.
+2. Select the name of the dataset from the list to view existing analysis and to add new analysis.
 3. Select **Add New Analysis** at top right of the table.
 4. In **New Analysis Settings**, enter a name, select which attribute to group by, and which fields to aggregate (use for calculations), and then select **Submit**.
 5. After the analysis is successfully created, it'll be available in the **Joined Datasets** list with the following options:
@@ -157,10 +166,10 @@ Specific permissions for joined datasets are based on how users need access to u
 
 |Permission | Description |
 |-------------|-------------|
-|Upload Mapping Files |Can upload mapping files (and allow other users to use those files in their joins). |
-|Upload WPA Files |Can upload Workplace analytics query files (and allow other users to use those files in their joins). |
-|Create Join Datasets |Can upload an external file and create a joined dataset (if query and mapping files are uploaded and available). Can also allow other users to analyze joined datasets they created. |
-|Analyze Join Datasets |Can do groupings on and create new analysis with their own or shared joined datasets. |
+|Upload Mapping Files |Enables a user to upload mapping files (and allow other users to use those files in their joins). |
+|Upload WPA Files |Enables a user to upload Workplace analytics query files (and allow other users to use those files in their joins). |
+|Create Join Datasets |Enables a user to upload an external file and create a joined dataset (if query and mapping files are uploaded and available). Can also allow other users to analyze joined datasets they created. |
+|Analyze Join Datasets |Enables a user to do groupings on and create new analysis with their own or shared joined datasets. |
 
 ## Joined dataset retention setting
 
