@@ -1,14 +1,14 @@
 ---
 layout: LandingPage
-title: Best practices for people managers who use Workplace Analytics
-description: Workplace Analytics can help people managers improve how they and their teams get work done 
+title: Best practices for Workplace Analytics
+description: Workplace Analytics can help you improve how you and your organization get work done 
 localization_priority: normal 
 ms.prod: wpa
 ms.author: madehmer
 author: madehmer
 
 ---
-# Best practices for people managers who use Workplace Analytics
+# Best practices for Workplace Analytics
 
 
 
