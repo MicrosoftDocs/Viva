@@ -70,7 +70,6 @@ author: madehmer
         </div>
         </a>
     </li>
-</ul>
     <li>
         <a href="gm-focus.md">
         <div class="cardSize">
@@ -90,7 +89,6 @@ author: madehmer
         </div>
         </a>
     </li>
-</ul>
     <li>
         <a href="gm-connectedness.md">
         <div class="cardSize">
@@ -110,7 +108,6 @@ author: madehmer
         </div>
         </a>
     </li>
-</ul>
     <li>
         <a href="gm-overload.md">
         <div class="cardSize">
@@ -130,7 +127,6 @@ author: madehmer
         </div>
         </a>
     </li>
-</ul>
     <li>
         <a href="gm-communication.md">
         <div class="cardSize">
@@ -150,7 +146,6 @@ author: madehmer
         </div>
         </a>
     </li>
-</ul>
     <li>
         <a href="gm-cgcollaboration.md">
         <div class="cardSize">
@@ -170,7 +165,6 @@ author: madehmer
         </div>
         </a>
     </li>
-</ul>
     <li>
         <a href="gm-influencer.md">
         <div class="cardSize">
