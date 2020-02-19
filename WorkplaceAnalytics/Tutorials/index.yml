@@ -39,7 +39,7 @@ productDirectory:
         - url: gm-focus.md
           text: Learn why it's important that you and your team plan and schedule focus time to get independent work done. 
     - title: Manager connectedness
-      imageSrc: ../images/wpa/playbooks/manager-connectedness-64x64.svg
+      imageSrc: ../images/wpa/playbooks/manage-connectedness-64x64.svg
       links:
         - url: gm-connectedness.md
           text: Learn why managers that share ideas and expertise across the company makes for more successful organizations. 
