@@ -4,7 +4,7 @@ title: Workplace Analytics
 description: Learn more about, set up, and use Workplace Analytics and MyAnalytics
 localization_priority: normal 
 ms.prod: wpa
-ms.author: v-midehm
+ms.author: madehmer
 author: madehmer
 
 ---
