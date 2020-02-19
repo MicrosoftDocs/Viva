@@ -44,7 +44,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Wellbeing</h3>
-                        <p>Discover best practices that you and your team can follow to improve work-life balance and increase team productivity and wellbeing. </p>
+                        <p>Discover best practices to improve work-life balance and increase team productivity and wellbeing. </p>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Manager connectedness</h3>
-                        <p>Learn why managers that share ideas and expertise across the company makes for more successful organizations.</p>
+                        <p>Learn why sharing ideas and expertise across the company make for more successful organizations.</p>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Efficient communications</h3>
-                        <p>Learn how to set up team communication to maintain collaboration and increase productivity simultaneously.</p>
+                        <p>Learn how to set up team communication to increase productivity.</p>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Cross-group collaboration</h3>
-                        <p>Learn how to network  with other managers in your organization for  sharing information and skills across the different groups.</p>
+                        <p>Learn how to network with other managers to share information and skills across the different groups.</p>
                     </div>
                 </div>
             </div>
