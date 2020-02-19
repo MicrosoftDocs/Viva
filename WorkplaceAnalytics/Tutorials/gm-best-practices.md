@@ -119,7 +119,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Email overload</h3>
-                        <p>Learn how to minimize email by setting up team rules that match up to with well known best practices.</p>
+                        <p>Learn how to minimize email by setting up team rules that match up to with well-known best practices.</p>
                     </div>
                 </div>
             </div>
