@@ -35,7 +35,7 @@ Before deploying and configuring these templates, review the following security 
 * Data is encrypted on disk and all access to and communication between Azure Resources and these templates are enabled and secured with the Secure Sockets Layer (SSL) certification.
 * Authentication leverages Azure Active Directory.
 * Authorization is set at the Azure Databricks and Azure Templates level by the Azure administrator who installs and sets up the Workplace Analytics Azure Templates.
-* An Azure Template Configuration log is created during installation.
+* An Azure Template Configuration log is created during installation. 
 
 ## Prerequisites
 
