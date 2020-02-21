@@ -5,4 +5,4 @@ CODEOWNERS                          @microsoftdocs/officedocs-admin
 .acrolinx-config.edn                @microsoftdocs/officedocs-admin
 
 # You can also use email addresses if you prefer.
-/WorkplaceAnalytics/  @paul9955 @madehmer @AndreaBarr @dayshacarter
+/WorkplaceAnalytics/  @paul9955 @madehmer @rodonahu @AndreaBarr
