@@ -138,7 +138,7 @@ For further information on formatting the input .csv file, see [example .csv exp
 
 ### Script description
 
-The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses to Office 365 identities based on .csv email address input. The email address input is used to identify the correct Office 365 identity based on the **UserPrincipalName** and **ProxyAddresses** attributes of the MSOL (Microsoft Online) object, and attempts to assign a license to the Office 365 identity.
+The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses to Office 365 identities based on .csv email address input. The email address input is used to identify the correct Office 365 identity based on the **UserPrincipalName** and **ProxyAddresses** attributes of the MSOL (Microsoft Online) object, and then tries to assign a license to the Office 365 identity.
 
 ### Script Execution
 
@@ -358,8 +358,8 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
 
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
 
-> [!Note]
-> That the \<CSVLocation> should contain the full path to the .csv input file, such as **C:\Scripts\InputFile.csv**.
+   > [!Note]
+   > That the \<CSVLocation> should contain the full path to the .csv input file, such as **C:\Scripts\InputFile.csv**.
 
 4. When prompted, enter the Office 365 global administrator credentials for the tenant where the licenses are to be added.
 
@@ -373,7 +373,7 @@ Yes, you can find a script transcript for each execution in the Documents folder
 
 **Will an email address input work if it is not the UserPrincipalName of any MSOL identity?**
 
-The script logic first attempts to find the MSOL identity through the UserPrincipalName by using the email address from the .csv file. If this attempt fails, the script tries to to find any MSOL object that contains the email address from the .csv file within the ProxyAddresses property. If a user still cannot be found, the email is deemed not to exist and is skipped.
+The script logic first attempts to find the MSOL identity through the UserPrincipalName by using the email address from the .csv file. If this attempt fails, the script tries to find any MSOL object that contains the email address from the .csv file within the ProxyAddresses property. If a user still cannot be found, the email is deemed not to exist and is skipped.
 
 **Does this work with Multi-Factor Authentication (MFA)?**
 
