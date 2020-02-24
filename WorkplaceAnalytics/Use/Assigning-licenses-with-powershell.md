@@ -1,7 +1,7 @@
 ---
 
 title: Assigning Workplace Analytics licenses with PowerShell
-description: How to assign Workplace Analytics licenses in Azure Active Directory by using PowerShell
+description: Learn how to assign Workplace Analytics licenses in Azure Active Directory by using PowerShell
 author: madehmer
 ms.author: madehmer
 ms.topic: article
@@ -20,22 +20,23 @@ Use the following steps to assign Workplace Analytics licenses with PowerShell i
 
 1. Install the Azure AD PowerShell module by following these steps:
 
-     a) Open an elevated Windows PowerShell command prompt.
+   a) Open an elevated Windows PowerShell command prompt.
 
-     b) Run the following command:
+   b) Enter the following command:
 
-         ``` powershell
-         Install-Module *AzureAD*
-        ```
+      ``` powershell
+      Install-Module *AzureAD*
+      ```
+
 2. Run the Azure AD PowerShell module:
 
-    a) Start PowerShell.
+   a) Start PowerShell.
 
-    b) Type the following command:
+   b) Enter the following command:
 
-        ``` powershell
-        Import-Module *AzureAD*
-        ```
+      ``` powershell
+      Import-Module *AzureAD*
+      ```
 
 ## Assigning licenses
 
@@ -43,46 +44,44 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
 1. To assign a Workplace Analytics license to a user:
 
-    With PowerShell open, start the Import Module, and log in to Azure AD by running the following commands:
+   With PowerShell open, start the Import Module, and log in to Azure AD by running the following commands:
 
-       Import-Module *AzureAD*
+     ``` powershell
+    Import-Module *AzureAD*
+     ```
 
-       Connect-AzureAD
+     ```powershell
+    Connect-AzureAD
+      ```
 
-    To log in, you will need credentials with admin privileges.
+   To log in, you need credentials with admin privileges.
 
-   ![Azure Active Directory login](../images/WpA/Use/azure-ad-log-in-1.png)
+    ![Azure Active Directory login](../images/WpA/Use/azure-ad-log-in-1.png)
 
 2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 
       ``` powershell
-
        $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
        $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
        $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
        $License.SkuId = $LicenseSku.SkuId
        $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-
       ```
 
 3. To assign a license, copy and paste the following code into the PowerShell command line, and then run it:
 
       ``` powershell
-
        $AssignedLicenses.AddLicenses = $License
        Set-AzureADUserLicense -ObjectId $UserToLicense.ObjectId -AssignedLicenses $AssignedLicenses
-
       ```
 
-4. To verify that the license has been assigned, copy and paste the following code into the PowerShell command line, and then run it:
+4. To verify that the license is assigned, copy and paste the following code into the PowerShell command line, and then run it:
 
       ``` powershell
-
        Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
-
       ```
 
-   After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
+   After this last command runs, you’ll see an entry on the command line. If not, or if an error message shows, the license was not successfully assigned.
 
 ## View Available licenses on your tenant
 
@@ -98,9 +97,9 @@ Now that you're connected to the Office 365 tenant, run the following next:
 Get-MsolAccountSku
 ```
 
-## Add Workplace Analytics licenses in bulk through Office365 PowerShell
+## Add Workplace Analytics licenses in bulk through Office 365 PowerShell
 
-If you need to assign Workplace Analytics licenses to a large number of users, you can use the bulk license script for Office365 PowerShell provided in this section.
+If you need to assign Workplace Analytics licenses to a large number of users, you can use the bulk license script for Office 365 PowerShell provided in this section.
 
 ### Software Requirements
 
@@ -135,49 +134,49 @@ Each user who is already assigned a license retains all current licensing. New u
 |User1@contoso.com|
 |User2@contoso.com|
 
-For further information on formatting the input .csv file, see [example .csv export file](https://docs.microsoft.com/workplace-analytics/setup/prepare-organizational-data#example-csv-export-file)
+For further information on formatting the input .csv file, see [example .csv export file](../setup/prepare-organizational-data#example-csv-export-file)
 
 ### Script description
 
-The Add-WpALicense.ps1 script is designed to easily allow the assignment of Workplace Analytics licenses to Office365 identities based on .csv email address input. The email address input is used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object, and attempts to assign a license to the Office365 identity.
+The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses to Office 365 identities based on .csv email address input. The email address input is used to identify the correct Office 365 identity based on the **UserPrincipalName** and **ProxyAddresses** attributes of the MSOL (Microsoft Online) object, and attempts to assign a license to the Office 365 identity.
 
 ### Script Execution
 
-1. Create a folder, C:\Scripts, if it does not already exist.
-2. Copy the following script and paste it into a text editor, and then save the script as C:\Scripts\Add-WpALicense.ps1.
+1. Create a **C:\Scripts** folder if it does not already exist.
+2. Copy the following script and paste it into a text editor, and then save the script as **C:\Scripts\Add-WpALicense.ps1**.
 
 ``` powershell
 <#
 .NOTES
 	    Title:			Add-WpALicense.ps1
-	    Date:			February 21st, 2020
+	    Date:			February 24th, 2020
 	    Version:		1.0.0
 	
 .SYNOPSIS
-    This script is designed to allow Workplace Analytics licenses to be added to a CSV list of email addresses that correlate to Office365 identities.
+    This script is designed to add Workplace Analytics licenses to a .csv list of email addresses that correlate to Office 365 identities.
 .DESCRIPTION
-    Add-WpALicense is designed to allow assigning Workplace Analytics licenses easily to Office365 identities based on CSV e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
+    Add-WpALicense is designed to assign Workplace Analytics licenses to Office 365 identities based on .csv e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
 .PARAMETER CSV
-    The CSV input file containing all of the email addresses that will be given the license. Use Email as the header and when save the file with the UTF-8 encoded format.
+    The .csv input file contains all of the email addresses that are given a license. Use Email as the header and when save the file with the UTF-8 encoded format.
 .PARAMETER LicenseSKU
-   The WORKPLACE_ANALYTICS LicenseSKU will be applied to a user if found. The script will try to automatically apply a license sku. If a license sku is provided, the script will try to match it with the domain. When specifying a sku an example would be CONTOSO:WORKPLACE_ANALYTICS.
+   The WORKPLACE_ANALYTICS LicenseSKU will be applied to a user that's found. The script tries to automatically apply a license SKU. If a license SKU is provided, the script tries to match it with the domain. An example SKU is CONTOSO:WORKPLACE_ANALYTICS.
 .EXAMPLE
    .\Add-WpALicense.ps1 -CSV c:\users\user123\desktop\input.csv -LicenseSku CONTOSO:WORKPLACE_ANALYTICS
 
-   The above execution would ingest the CSV file from the location above and attempt to apply the MSOL license SKU of CONTOSO:WORKPLACE_ANALYTICS to all users to be found in the MSOL structure of the tenant.
+   The script would ingest the .csv file from the specified location in this example and try to apply the MSOL license SKU of CONTOSO:WORKPLACE_ANALYTICS to all users that are found in the MSOL structure of the tenant.
 
        #>
        param
        (
-       [parameter(Mandatory=$true,Position=0,HelpMessage="Please provide a CSV containing the Email address column header.")]
+       [parameter(Mandatory=$true,Position=0,HelpMessage="Please provide a .csv file that has the Email column header.")]
        [ValidateNotNullorEmpty()]
        [string]$CSV,
-       [parameter(Mandatory=$true,Position=1,HelpMessage="Please provide the exact name of the Workplace Analytics MSOL Account Sku license for the tenant to be affected.")]
+       [parameter(Mandatory=$true,Position=1,HelpMessage="Please provide the exact name of the Workplace Analytics MSOL Account SKU license for the applicable tenant.")]
        [ValidateNotNullorEmpty()]
        [string]$LicenseSKU
        )
 
-       #Simple function to connect to Office365 MSOL PowerShell
+       #Simple function to connect to Office 365 MSOL PowerShell
 
        Function Connect-O365PowerShell {
            try {
@@ -191,10 +190,10 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
            if(Get-Module -Name MSOnline) {
                try {
                    Connect-MsolService -ErrorAction Stop
-                   Write-Output "Successfully connected to Office365 MSOL, proceeding..."
+                   Write-Output "Successfully connected to Office 365 MSOL, proceeding..."
                }
                catch {
-                   Write-Error "Could not connect to Office365 MSOL due to the following exception.`r`n$($_.Exception.Message)"
+                   Write-Error "Could not connect to Office 365 MSOL due to the following exception.`r`n$($_.Exception.Message)"
                    break
                }
            }
@@ -231,37 +230,49 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
        Start-Transcript
        Set-StrictMode -version 2
 
-       #Simple if block to test the CSV param input and ensure that the path is valid and contains a file.
+       #Simple if block to test the .csv parameter input and ensure that the path is valid and contains a file.
 
        if (!(Test-Path $CSV)) {
          Write-Error "CSV file could not be found, please ensure that the location is correct and you have the proper permissions to read the file then try again.`r`n$($_.Exception.Message)"
        break
        }
+       Write-Output "CSV file was found, proceeding..."
+       try {
 
-       #CSV Formatting verified, checking for Email entries in the file.
+          #If the CSV is valid an attempt will be made to import the contents into a user's csv array to be used for processing.
+
+          [array]$users = @(Import-Csv $CSV -ErrorAction Stop)
+           Write-Output "CSV file was imported to process successfully, proceeding..."
+        }
+        catch {
+           Write-Error "Failed to import CSV for processing due to the following exception.`r`n$($_.Exception.Message)"
+           break
+        }
+
+       #.csv formatting verified, checking for Email values in the file.
 
        if(($users.count) -le 0) {
-          Write-Error "The CSV provided did not contain any valid SMTP data. Please check the CSV file and try again."
-       break
+          Write-Error "The .csv provided did not contain any valid SMTP data. Please check the .csv file and try again."
+          break
        }
        Write-Host "Found $($users.count) items in the CSV to process" 
 
-       #Check the CSV contains the proper header
+       #Check the .csv contains the proper header
        if ($users | Get-Member Email) {
-          Write-Host "CSV file is valid, proceeding..."
+          Write-Host ".csv file is valid, proceeding..."
        }
        else {
-          Write-Warning "CSV appears to be missing Email header. Please check the CSV file specified and update the CSV to include the header: Email"
-        break
+          Write-Warning ".csv is missing Email header. Please check the .csv file specified and update the .csv to include the header: Email"
+          break
         }
 
         #Calling Connect-O365PowerShell function to establish connection.
         try {
-        Connect-O365PowerShell -ErrorAction Stop
+            Connect-O365PowerShell -ErrorAction Stop
         }
         catch {
            Write-Error "Failed to successfully connect to Azure Active Directory PowerShell due to the following exception.`r`n$($_.Exception.Message)"
-        break
+           break
         }
 
         #Attempt to pull MSOL SKU's 
@@ -280,7 +291,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
         [System.Collections.ArrayList]$UsersNotFound =@()
         [System.Collections.ArrayList]$UsersFailedtoLicense =@()
 
-        #If the user's array contains the Email member which is created by importing of a proper CSV and the object count of the user's array is greater than 0, the processing block will be entered and a foreach loop will be used to process the array contents.
+        #If the user's array contains the Email member which is created by importing of a proper .csv and the object count of the user's array is greater than 0, the processing block will be entered and a foreach loop will be used to process the array contents.
 
         Foreach($user in $users) {
            #An attempt is made to find the user through the UserPrincipalName parameter. If an error is thrown the catch block will attempt to find the user through a ProxyAddresses attribute regex comparison. An absolute match after the colon of the address in the array must be made to increase the accuracy of the find.
@@ -294,7 +305,9 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
                $msolUser = Get-MsolUser -All | Where-Object {$_.ProxyAddresses -match "\:$($user.Email)"}
             }
             if($msolUser) {
+
                 #If the msolUser variable is not null the following block will be entered where an attempt will be made to add the LicenseSKU parameter to the MSOL user.
+
                 if ($msolUser.Licenses.AccountSkuId -contains $LicenseSKU.AccountSkuId) {
                    Write-Warning "User $($msolUser.UserPrincipalName) was found but is already licensed for WorkplaceAnalytics, skipping licensing."
                    $NumOfAlreadyLicensed++
@@ -325,7 +338,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
             Write-Output "`nThe following $($UsersFailedtoLicense.count) failed to License:`n"
             Write-Output $UsersFailedtoLicense
         }
-        if ($($UsersNotFound).Count -ne 0) { 
+        if ($($UsersNotFound).Count -ne 0) {
             Write-Output "`nThe following $($UsersNotFound.count) users were not found:`n"
             Write-Output $UsersNotFound
         }
@@ -336,11 +349,10 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
         Write-Output $finaloutput
 
-
-        Stop-Transcript
+    Stop-Transcript
 ```
 
-   With the PowerShell environment now prepared, and the input file constructed, the script can now execute.
+   After the PowerShell environment is prepared and the input file constructed, confirm that the users.csv file is in the same directory as the script, and then you can execute the script.
 
 3. Start Windows PowerShell and run the following command:
 
@@ -349,24 +361,47 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 > [!Note]
 > That the \<CSVLocation> should contain the full path to the .csv input file, such as **C:\Scripts\InputFile.csv**.
 
-4. When prompted, enter the Office365 global administrator credentials for the tenant where the licenses are to be added.
+4. When prompted, enter the Office 365 global administrator credentials for the tenant where the licenses are to be added.
 
-   If all the required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are shown on the command line and a transcript should be saved in the Documents folder.
-
+   If all the required inputs are satisfied, the script executes now against the .csv list, and then licenses are assigned to users. During the script execution, all successes and failures are shown on the command line and a transcript is saved in the Documents folder.
 
 ## FAQ
 
-**It appears something went wrong during the script execution. Is there a log of the script actions?**
+**Something went wrong during the script execution. Is there a log of the script actions?**
 
-Yes, you can find a script transcript for each execution in the Documents folder of the person who executed the script.
+Yes, you can find a script transcript for each execution in the Documents folder for the person who executed the script.
 
-**Will an email address input work if it is not the UserPrincipalName of any MSOL identity?** 
+**Will an email address input work if it is not the UserPrincipalName of any MSOL identity?**
 
 The script logic first attempts to find the MSOL identity through the UserPrincipalName by using the email address from the .csv file. If this attempt fails, the script tries to to find any MSOL object that contains the email address from the .csv file within the ProxyAddresses property. If a user still cannot be found, the email is deemed not to exist and is skipped.
 
 **Does this work with Multi-Factor Authentication (MFA)?**
 
 This script works with Multi-Factor Authentication because the Connect-MsolService cmdlet supports Azure Active Directory Authentication Library (ADAL).
+
+## Troubleshooting
+
+**Error: The .csv provided did not contain any valid SMTP data. Please check the .csv file and try again.**
+
+Check the .csv file contains the proper header and valid email addresses to parse
+
+**Error: Could not find user user1@contoso.com, skipping!**
+
+Check that the email properly resolves.
+
+**Error: The property 'AccountSkuId' cannot be found on this object. Verify that the property exists.**
+
+Check that the user has the proper EXO license.
+
+**Error: The .csv file could not be found ...**
+
+Confirm the correct file is specified when defining the `-CSV` and that the user running the script has permissions to read the file.
+
+**If the script is successful but the output reports: Script completed, but the total number of users licensed is zero (0).**
+
+1. Confirm the user is not already licensed.
+2. Confirm the user has the correct [EXO prerequisite](../setup/environment-requirements).
+3. Confirm the users UPN or proxy email address resolves in the environment.
 
 ## Related topics
 
