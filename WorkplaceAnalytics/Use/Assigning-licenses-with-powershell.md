@@ -146,7 +146,6 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 1. Create a folder, C:\Scripts, if it does not already exist.
 2. Copy the following script and paste it into a text editor, and then save the script as C:\Scripts\Add-WpALicense.ps1.
 
-
 ``` powershell
 <#
 .NOTES
@@ -235,72 +234,110 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
        #Simple if block to test the CSV param input and ensure that the path is valid and contains a file.
 
        if (!(Test-Path $CSV)) {
-       Write-Error "CSV file could not be found, please ensure that the location is correct and you have the proper permissions to read the file then try again.`r`n$($_.Exception.Message)"
+         Write-Error "CSV file could not be found, please ensure that the location is correct and you have the proper permissions to read the file then try again.`r`n$($_.Exception.Message)"
        break
        }
-       Write-Output "CSV file was found, proceeding..."
-       try {
-            #If the CSV is valid and found an attempt will be made to import the contents into a user's csv array to be used for processing.
-            [array]$users = @(Import-Csv $CSV -ErrorAction Stop)
-            Write-Output "CSV file was imported to process successfully, proceeding..."
+
+       #CSV Formatting verified, checking for Email entries in the file.
+
+       if(($users.count) -le 0) {
+          Write-Error "The CSV provided did not contain any valid SMTP data. Please check the CSV file and try again."
+       break
+       }
+       Write-Host "Found $($users.count) items in the CSV to process" 
+
+       #Check the CSV contains the proper header
+       if ($users | Get-Member Email) {
+          Write-Host "CSV file is valid, proceeding..."
+       }
+       else {
+          Write-Warning "CSV appears to be missing Email header. Please check the CSV file specified and update the CSV to include the header: Email"
+        break
+        }
+
+        #Calling Connect-O365PowerShell function to establish connection.
+        try {
+        Connect-O365PowerShell -ErrorAction Stop
         }
         catch {
-                Write-Error "Failed to import CSV for processing due to the following exception.`r`n$($_.Exception.Message)"
-                break
+           Write-Error "Failed to successfully connect to Azure Active Directory PowerShell due to the following exception.`r`n$($_.Exception.Message)"
+        break
+        }
+
+        #Attempt to pull MSOL SKU's 
+        if ([string]::isnullorempty($LicenseSku)) {
+           $wpaSearch = "*:WORKPLACE_ANALYTICS"
+        }
+        else {
+           $wpaSearch = "*$LicenseSku*"
+        }
+
+        $LicenseSku = Get-WorkplaceAnalyticsSku -searchString $wpaSearch
+        $NumofSuccessfullyLicensed = 0
+        $NumofErrorLicensed = 0
+        $NumOfAlreadyLicensed = 0
+        $NumOfUsersNotFound = 0
+        [System.Collections.ArrayList]$UsersNotFound =@()
+        [System.Collections.ArrayList]$UsersFailedtoLicense =@()
+
+        #If the user's array contains the Email member which is created by importing of a proper CSV and the object count of the user's array is greater than 0, the processing block will be entered and a foreach loop will be used to process the array contents.
+
+        Foreach($user in $users) {
+           #An attempt is made to find the user through the UserPrincipalName parameter. If an error is thrown the catch block will attempt to find the user through a ProxyAddresses attribute regex comparison. An absolute match after the colon of the address in the array must be made to increase the accuracy of the find.
+           try {
+              $userIndex = $users.Indexof($user)
+              Write-Progress -Activity "$Assigning Workplace Analytics Licenses, currently on $($userIndex + 1) of $($users.Count) Currently searching for user $($user.Email)" -PercentComplete ($userIndex / $users.Count * 100) -Id 1
+              $msolUser = Get-MsolUser -UserPrincipalName $user.Email -ErrorAction Stop
             }
-       }
-       else
-       {
-           Write-Error "CSV file could not be found, please ensure that the location is correct and try again.`r`n$($_.Exception.Message)"
-           break
-       }
-
-       #If the user's array contains the Email member which is created by importing of a proper CSV and the object count of the user's array is greater than 0, the processing block will be entered and a foreach loop will be used to process the array contents.
-
-       if(($users | Get-Member Email) -and (($users.Email).count -gt 0))
-       {
-       Write-Output "CSV file is valid, proceeding..."
-       foreach($user in $users)
-       {
-        #An attempt is made to find the user through the UserPrincipalName parameter. If an error is thrown the catch block will attempt to find the user through a ProxyAddresses attribute regex comparison. An absolute match after the colon of the address in the array must be made to increase the accuracy of the find.
-        try
-        {
-            $msolUser = Get-MsolUser -UserPrincipalName $user.Email -ErrorAction Stop
-            Write-Output "Found user $($user.Email) via UPN, proceeding..."
+            catch {
+               Write-Warning "Failed to find user $($user.Email) through UPN lookup, attempting ProxyAddress attribute..."
+               $msolUser = Get-MsolUser -All | Where-Object {$_.ProxyAddresses -match "\:$($user.Email)"}
+            }
+            if($msolUser) {
+                #If the msolUser variable is not null the following block will be entered where an attempt will be made to add the LicenseSKU parameter to the MSOL user.
+                if ($msolUser.Licenses.AccountSkuId -contains $LicenseSKU.AccountSkuId) {
+                   Write-Warning "User $($msolUser.UserPrincipalName) was found but is already licensed for WorkplaceAnalytics, skipping licensing."
+                   $NumOfAlreadyLicensed++
+                }
+                else {
+                   Write-Output "User $($user.Email) found, attempting to license..."
+                   try {
+                      Set-MsolUserLicense -UserPrincipalName $msolUser.UserPrincipalName -AddLicenses $LicenseSKU.AccountSkuId -ErrorAction Stop | Out-Null
+                      Write-Output "Successfully licensed user $($msolUser.UserPrincipalName) with $($LicenseSKU.AccountSkuId) license."
+                      $NumofSuccessfullyLicensed++
+                    }
+                    catch {
+                       Write-Error "Failed to license user $($msolUser.UserPrincpalName) due to the following exception.`r`n$($_.Exception.Message)"
+                       $NumofErrorLicensed++
+                       $UsersFailedtoLicense.Add($user.Email) | Out-Null
+                    }
+                }
+            }
+            else {
+               $NumOfUsersNotFound++
+               $NumofErrorLicensed++
+               $UsersNotFound.Add($user.Email) | Out-Null
+               Write-Error "Could not find user $($user.Email), skipping!"
+               continue
+            }
         }
-        catch
-        {
-          Write-Output "Failed to find user through UPN lookup, attempting ProxyAddress attribute..."
-          $msolUser = Get-MsolUser -All | Where-Object {$_.ProxyAddresses -match "\:$($user.Email)"}
+        if ($($UsersFailedtoLicense).count -ne 0) {
+            Write-Output "`nThe following $($UsersFailedtoLicense.count) failed to License:`n"
+            Write-Output $UsersFailedtoLicense
         }
+        if ($($UsersNotFound).Count -ne 0) { 
+            Write-Output "`nThe following $($UsersNotFound.count) users were not found:`n"
+            Write-Output $UsersNotFound
+        }
+        $finaloutput = "`nScript completed,Total number of users Licensed:$NumofSuccessfullyLicensed"
+        $finaloutput += "`nTotal number of users that were already licensed:$NumOfAlreadyLicensed"
+        $finaloutput += "`nErrors encountered:$NumofErrorLicensed"
+        $finaloutput += "`nTotal users not found:$NumOfUsersNotFound"
 
-        #If the msolUser variable is not null the following block will be entered where an attempt will be made to add the LicenseSKU parameter to the MSOL user.
-        if($msolUser)
-        {
-              Write-Output "User $($user.Email) found, attempting to license..."
-               try
-               {
-                  Set-MsolUserLicense -UserPrincipalName $msolUser.UserPrincipalName -AddLicenses $LicenseSKU -ErrorAction Stop | Out-Null
-                  Write-Output "Successfully licensed user $($msolUser.UserPrincipalName) with $($LicenseSKU) license."
-               }
-                catch
-               {
-                  Write-Error "Failed to license user $($msolUser.UserPrincpalName) due to the following exception.`r`n$($_.Exception.Message)"
-               }
-           }
-           else
-           {
-                Write-Error "Could not find user $($user.Email), skipping!"
-             }
-          }
-       }
-       else
-       {
-        Write-Error "The CSV provided did not contain the valid header of Email or did not contain any values to be evaluated. Please ensure that the CSV contains the correct header and valid data and try again."
-       break
-       }
+        Write-Output $finaloutput
 
-       Stop-Transcript
+
+        Stop-Transcript
 ```
 
    With the PowerShell environment now prepared, and the input file constructed, the script can now execute.
@@ -309,11 +346,13 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
 
-    Note that the \<CSVLocation> should contain the full path to the .csv input file such as C:\Scripts\InputFile.csv.
+> [!Note]
+> That the \<CSVLocation> should contain the full path to the .csv input file, such as **C:\Scripts\InputFile.csv**.
 
 4. When prompted, enter the Office365 global administrator credentials for the tenant where the licenses are to be added.
 
-   If all the required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are shown on the command line.
+   If all the required inputs are satisfied, the script now executes against the .csv list and licenses are then assigned to users. During the script execution, all successes and failures are shown on the command line and a transcript should be saved in the Documents folder.
+
 
 ## FAQ
 
