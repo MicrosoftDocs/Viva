@@ -232,23 +232,19 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
        Start-Transcript
        Set-StrictMode -version 2
 
-       #Calling Connect-O365PowerShell function to establish connection before attempting CSV input validation and processing.
-
-       Connect-O365PowerShell
-
        #Simple if block to test the CSV param input and ensure that the path is valid and contains a file.
 
-       if((Test-Path $CSV) -and ($CSV -like "*.csv"))
-       {
-           Write-Output "CSV file was found, proceeding..."
-           try
-           {
-                #If the CSV is valid and found an attempt will be made to import the contents into a user's csv array to be used for processing.
-                [array]$users = @(Import-Csv $CSV -ErrorAction Stop)
-                Write-Output "CSV file was imported to process successfully, proceeding..."
-           }
-           catch
-           {
+       if (!(Test-Path $CSV)) {
+       Write-Error "CSV file could not be found, please ensure that the location is correct and you have the proper permissions to read the file then try again.`r`n$($_.Exception.Message)"
+       break
+       }
+       Write-Output "CSV file was found, proceeding..."
+       try {
+            #If the CSV is valid and found an attempt will be made to import the contents into a user's csv array to be used for processing.
+            [array]$users = @(Import-Csv $CSV -ErrorAction Stop)
+            Write-Output "CSV file was imported to process successfully, proceeding..."
+        }
+        catch {
                 Write-Error "Failed to import CSV for processing due to the following exception.`r`n$($_.Exception.Message)"
                 break
             }
@@ -277,7 +273,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
           Write-Output "Failed to find user through UPN lookup, attempting ProxyAddress attribute..."
           $msolUser = Get-MsolUser -All | Where-Object {$_.ProxyAddresses -match "\:$($user.Email)"}
         }
-        
+
         #If the msolUser variable is not null the following block will be entered where an attempt will be made to add the LicenseSKU parameter to the MSOL user.
         if($msolUser)
         {
@@ -297,7 +293,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
                 Write-Error "Could not find user $($user.Email), skipping!"
              }
           }
-       }   
+       }
        else
        {
         Write-Error "The CSV provided did not contain the valid header of Email or did not contain any values to be evaluated. Please ensure that the CSV contains the correct header and valid data and try again."
