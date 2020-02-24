@@ -30,4 +30,4 @@ According to the research referenced in [What great managers do daily](https://i
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)

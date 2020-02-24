@@ -32,4 +32,4 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)

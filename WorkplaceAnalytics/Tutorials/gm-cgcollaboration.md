@@ -31,4 +31,4 @@ Connecting employees across units creates agile innovation by helping the compan
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)

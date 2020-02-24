@@ -29,4 +29,4 @@ Based on research presented in the article about [Protecting company culture mea
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)

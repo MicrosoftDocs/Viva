@@ -31,4 +31,4 @@ The [Accelerate! How innovative companies can use a strategy network to capitali
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)
