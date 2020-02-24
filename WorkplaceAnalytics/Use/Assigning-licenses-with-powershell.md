@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Assigning Workplace Analytics licenses with PowerShell
 description: How to assign Workplace Analytics licenses in Azure Active Directory by using PowerShell
 author: madehmer
-ms.author: v-midehm
-ms.date: 05/10/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -27,15 +24,18 @@ Use the following steps to assign Workplace Analytics licenses with PowerShell i
 
      b) Run the following command:
 
+         ``` powershell
          Install-Module *AzureAD*
-
+        ```
 2. Run the Azure AD PowerShell module:
 
     a) Start PowerShell.
 
     b) Type the following command:
 
+        ``` powershell
         Import-Module *AzureAD*
+        ```
 
 ## Assigning licenses
 
@@ -84,6 +84,19 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
    After you’ve run this last command, you’ll see an entry on the command line. If not, or if an error message displays, the license was not successfully assigned.
 
+## View Available licenses on your tenant
+
+To view available licenses for your tenant and current usage run the following in PowerShell:
+
+```powershell
+Connect-MsolService
+```
+
+Now that you're connected to the Office 365 tenant, run the following next:
+
+```powershell
+Get-MsolAccountSku
+```
 
 ## Add Workplace Analytics licenses in bulk through Office365 PowerShell
 
@@ -95,13 +108,17 @@ The Workplace Analytics bulk license script uses the Azure Active Directory Powe
 
 1. Open Windows PowerShell as an administrator and run the following command:
 
+   ```powershell
    Set-ExecutionPolicy RemoteSigned
+   ```
 
 2. When a confirmation message appears, accept the change in order to allow local PowerShell scripts to run.
 
-3. Once the execution policy is set correctly on the machine, run the following cmdlet:
+3. After the execution policy is set correctly on the machine, run the following cmdlet:
 
+   ```powershell
     Install-Module -Name MSOnline -Repository PSGallery
+   ```
 
 > [!Note]
 > If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these required packages, see
@@ -114,7 +131,7 @@ The Workplace Analytics bulk license script uses a .csv reference file as input.
 Each user who is already assigned a license retains all current licensing. New users will receive a Workplace Analytics license. The input .csv must have a single column with the header "Email" that contains all email addresses. The following example shows the correct .csv email format.
 
 |Email|
-|---|---|
+|---|
 |User1@contoso.com|
 |User2@contoso.com|
 
@@ -127,30 +144,28 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 ### Script Execution
 
 1. Create a folder, C:\Scripts, if it does not already exist.
-2. Copy the following script and paste it into a text editor, and then save the script with the filename Add-WpALicense.ps1 in C:\Scripts.
+2. Copy the following script and paste it into a text editor, and then save the script as C:\Scripts\Add-WpALicense.ps1.
 
 
 ``` powershell
 <#
 .NOTES
 	    Title:			Add-WpALicense.ps1
-	    Date:			August 30th, 2018
+	    Date:			February 21st, 2020
 	    Version:		1.0.0
 	
 .SYNOPSIS
     This script is designed to allow Workplace Analytics licenses to be added to a CSV list of email addresses that correlate to Office365 identities.
 .DESCRIPTION
-    Add-WpALicense is designed to allow assigning Workplace Analytics licenses easily to Office365 identities based on CSV e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and attempt to assign a license to the identity.
+    Add-WpALicense is designed to allow assigning Workplace Analytics licenses easily to Office365 identities based on CSV e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
 .PARAMETER CSV
-
-    The CSV input file containing all of the email addresses that will be given the license.
+    The CSV input file containing all of the email addresses that will be given the license. Use Email as the header and when save the file with the UTF-8 encoded format.
 .PARAMETER LicenseSKU
-
-    The LicenseSKU that will be applied to a user if found. An example would be testdomain:WpALicense.
+   The WORKPLACE_ANALYTICS LicenseSKU will be applied to a user if found. The script will try to automatically apply a license sku. If a license sku is provided, the script will try to match it with the domain. When specifying a sku an example would be CONTOSO:WORKPLACE_ANALYTICS.
 .EXAMPLE
-    .\Add-WpALicense.ps1 -CSV c:\users\user123\desktop\input.csv -LicenseSku WpATest:WpA
+   .\Add-WpALicense.ps1 -CSV c:\users\user123\desktop\input.csv -LicenseSku CONTOSO:WORKPLACE_ANALYTICS
 
-    The above execution would ingest the CSV file from the location above and attempt to apply the MSOL license SKU of WpATest:WpA to all users to be found in the MSOL structure of the tenant.
+   The above execution would ingest the CSV file from the location above and attempt to apply the MSOL license SKU of CONTOSO:WORKPLACE_ANALYTICS to all users to be found in the MSOL structure of the tenant.
 
        #>
        param
@@ -165,54 +180,71 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
 
        #Simple function to connect to Office365 MSOL PowerShell
 
-       function Connect-O365PowerShell
-       {
-           try
-           {
+       Function Connect-O365PowerShell {
+           try {
                Import-Module MSOnline -ErrorAction Stop
                Write-Output "Successfully imported the Azure Active Directory PowerShell module, proceeding..."
            }
-           catch
-           {
+           catch {
                Write-Error -Message "Windows Azure Active Directory PowerShell module could not be found, please install the module and run this script again!"
                break
            }
-           if(Get-Module -Name MSOnline)
-           {
-               try
-               {
+           if(Get-Module -Name MSOnline) {
+               try {
                    Connect-MsolService -ErrorAction Stop
                    Write-Output "Successfully connected to Office365 MSOL, proceeding..."
                }
-               catch
-               {
+               catch {
                    Write-Error "Could not connect to Office365 MSOL due to the following exception.`r`n$($_.Exception.Message)"
                    break
                }
            }
        }
 
-       #Start-Transcript to keep a simple log of all stream output of the successes and failures of the execution.
+       #Simple function to get to MSOL SKU information.
+
+       Function Get-WorkplaceAnalyticsSku {
+           param ($searchString)
+           $O365MsolSKUs = Get-MsolAccountSku
+           try {
+               $wpaSku = $O365MsolSKUs | Where-Object { $_.AccountSkuId -like $searchString }
+               if ($wpaSku) {
+                   Write-Host "Office365 tenant possesses the correct WorkplaceAnalytics license, proceeding..."
+                   [int]$availableLicenses = $wpaSku.ActiveUnits - $wpaSku.ConsumedUnits
+                   Write-Host "Using Sku: $($wpaSku.AccountSkuId), Total Licenses: $($wpaSku.ActiveUnits), Used Licenses: $($wpaSku.ConsumedUnits), Available Licenses: $($availableLicenses)"
+                   return $wpaSku
+               }
+               else {
+                   Write-Error "Script could not find matching WorkplaceAnalytics license using $searchString on Office365 tenant. Here are the available SKU's for this tenant:"
+                   Write-warning ($O365MsolSKUs | out-string)
+                   write-warning "Please Rerun script and specify a SKU above with parameter -LicenseSKU {sku} including the appropriate WORKPLACE_ANALYTICS SKU"  
+                   exit 1
+               }
+           }
+           catch {
+                Write-Error "Failed to determine the Office365 tenant licenses, script cannot proceed!`n$_."
+                exit 1
+           }
+       }
+
+       #Start-Transcript to keep a simple log of all stream output of the successes and failures of the execution and to set StrictMode.
 
        Start-Transcript
-
-       #Calling Connect-O365PowerShell function to establish connection before attempting CSV input validation and processing.
-
-       Connect-O365PowerShell
+       Set-StrictMode -version 2
 
        #Simple if block to test the CSV param input and ensure that the path is valid and contains a file.
 
-       if((Test-Path $CSV) -and ($CSV -like "*.csv"))
-       {
-           Write-Output "CSV file was found, proceeding..."
-           try
-           {
-                #If the CSV is valid and found an attempt will be made to import the contents into a user's csv array to be used for processing.
-                [array]$users = @(Import-Csv $CSV -ErrorAction Stop)
-                Write-Output "CSV file was imported to process successfully, proceeding..."
-           }
-           catch
-           {
+       if (!(Test-Path $CSV)) {
+       Write-Error "CSV file could not be found, please ensure that the location is correct and you have the proper permissions to read the file then try again.`r`n$($_.Exception.Message)"
+       break
+       }
+       Write-Output "CSV file was found, proceeding..."
+       try {
+            #If the CSV is valid and found an attempt will be made to import the contents into a user's csv array to be used for processing.
+            [array]$users = @(Import-Csv $CSV -ErrorAction Stop)
+            Write-Output "CSV file was imported to process successfully, proceeding..."
+        }
+        catch {
                 Write-Error "Failed to import CSV for processing due to the following exception.`r`n$($_.Exception.Message)"
                 break
             }
@@ -241,7 +273,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
           Write-Output "Failed to find user through UPN lookup, attempting ProxyAddress attribute..."
           $msolUser = Get-MsolUser -All | Where-Object {$_.ProxyAddresses -match "\:$($user.Email)"}
         }
-        
+
         #If the msolUser variable is not null the following block will be entered where an attempt will be made to add the LicenseSKU parameter to the MSOL user.
         if($msolUser)
         {
@@ -261,7 +293,7 @@ The Add-WpALicense.ps1 script is designed to easily allow the assignment of Work
                 Write-Error "Could not find user $($user.Email), skipping!"
              }
           }
-       }   
+       }
        else
        {
         Write-Error "The CSV provided did not contain the valid header of Email or did not contain any values to be evaluated. Please ensure that the CSV contains the correct header and valid data and try again."
