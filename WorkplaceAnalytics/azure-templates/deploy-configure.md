@@ -90,7 +90,7 @@ After deployment, you need to create a write-only SAS URI on the raw data contai
 2. Right-click the **rawdata** folder and select **Get Shared Access Signature**.
 3. In **Shared Access Signature**, set a two-year expiry time.
 4. In **Permissions**, confirm only **Write** is selected, and then select **Create**.
-5. For URI, select **Copy** to copy the complete URI, which will be similar to the example URI in the following graphic.
+5. For the URI, select **Copy** to copy the complete URI, which will be similar to the example URI in the following graphic.
 6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [automatic data exports](../data-access/data-access.md#to-export-data-from-workplace-analytics).
 
     ![Example SAS URI](./images/example-sas-uri.png)
