@@ -134,7 +134,7 @@ Each user who is already assigned a license retains all current licensing. New u
 |User1@contoso.com|
 |User2@contoso.com|
 
-For further information on formatting the input .csv file, see [example .csv export file](../setup/prepare-organizational-data#example-csv-export-file)
+For further information on formatting the input .csv file, see [example .csv export file](../Setup/Prepare-organizational-data.md#example-csv-export-file)
 
 ### Script description
 
@@ -400,7 +400,7 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 **If the script is successful but the output reports: Script completed, but the total number of users licensed is zero (0).**
 
 1. Confirm the user is not already licensed.
-2. Confirm the user has the correct [EXO prerequisite](../setup/environment-requirements).
+2. Confirm the user has the correct [EXO prerequisite](../Setup/Environment-Requirements.md).
 3. Confirm the users UPN or proxy email address resolves in the environment.
 
 ## Related topics
