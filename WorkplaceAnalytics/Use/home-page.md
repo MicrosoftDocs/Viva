@@ -69,13 +69,15 @@ The following describes the metrics used in each of the business insight questio
 
 |Question |Metric description  |
 |---------|--------------------|
+|Are employees getting enough time with their manager? |The number of employees who have fewer than 15 minutes of 1:1 time with their manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
+|Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. |
 |Are employees finding time to recharge? |The number of employees that spend greater than one hour outside of their designated work hours in meetings and email each week, divided by the total number of measured employees. |
-|Are your employees overloaded by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. |
-|Are your employees getting enough time with their manager? |The number of employees who have fewer than 15 minutes of 1:1 time with their manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
+|Are employees overloaded by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. |
 |Do employees have time to focus? |The number of employees who have less than 20 hours each of available time for focused work, divided by the total number of measured employees. |
+|Do employees collaborate across the company? |TKTKTK |
+|Are employees collaborating efficiently 1:1? |TKTKTK |
 |Are managers accessing diverse information? |The number of managers who had fewer than three meaningful connections outside of their organization each month. |
 |Where are the influencers in your company? |The number of organizations who have fewer than expected numbers of influencers, which are based on thresholds defined for the organization and company size. |
-|Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. |
 |How is the customer collaboration in your company?	|Groups that spend the highest proportion of their collaboration time externally. |
 |Are employees building customer networks? |Groups that spend time with the most external domain connections. |
 
@@ -88,10 +90,10 @@ The home pages show insights only for the participants that are included in the 
 ### Q2 Which roles have access to this home page dashboard?
 
 The analyst, limited analyst, and program manager roles can access these home pages. People managers can only see data about their teams, see [Workplace Analytics Home for people managers](pm-home.md) for more details.
- 
+
 ## Related topics
 
 * [Explore the metrics](explore-intro.md)
 * [Plans](../tutorials/solutionsv2-intro.md)
 * [Metric descriptions for Workplace Analytics](metric-definitions.md)
-* [Workplace Analytics Home page for People Managers](pm-home.md)
+* [Workplace Analytics Home pages for people managers](pm-home.md)
