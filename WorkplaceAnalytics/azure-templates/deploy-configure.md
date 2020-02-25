@@ -21,6 +21,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
  - [Review the security considerations](#security-considerations)
  - [Confirm the prerequisites](#prerequisites)
  - [Deploy the templates](#deployment)
+ - [Generate SAS URI for Data Access](#generate-sas-uri-for-data-access)
  - [Configure the templates](#configuration-add-users-and-assign-roles)
  - [Process the data](#process-the-data)
  - Additional [configuration](#configuration) and [Audit logs](#audit-logs) are also available
@@ -80,9 +81,22 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
     ![Azure Templates deployment](./images/deployed-website-link.png)
 
+## Generate SAS URI for Data Access
+
+After deployment, you need to create a write-only SAS URI on the raw data container in the storage account created during the deployment. The SAS URI is given to the Workplace Analytics admin to configure the weekly automated data access feed that is required to drive a few of the Azure Templates.
+
+1. Use Storage Explorer (or Storage Explorer (preview) web) application to view the raw data container in the storage account created during deployment.
+2. Right-click the **rawdata** folder and select **Get Shared Access Signature**.
+3. In **Shared Access Signature**, set a two-year expiry time.
+4. In **Permissions**, confirm only **Write** is selected, and then select **Create**.
+5. For URI, select **Copy** to copy the complete URI, which will be similar to the example URI in the following graphic.
+6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [automatic data exports](../data-access/data-access.md#to-export-data-from-workplace-analytics).
+
+    ![Example SAS URI](./images/example-sas-uri.png)
+
 ## Configuration: Add users and assign roles
 
-As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one of the following roles based on the tasks they need to accomplish with the templates:
+As the Azure Templates admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one of the following roles based on the tasks they need to accomplish with the templates:
 
 * **Azure Templates Admin**
 
