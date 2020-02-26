@@ -1,13 +1,11 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Privacy guide for MyAnalytics admins
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: madehmer
 ms.topic: article
-localization_priority: normal 
+localization_priority: priority 
 ms.prod: mya
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -62,7 +60,7 @@ MyAnalytics presents insights in the following ways:
 2. [Insights Outlook add-in](../use/add-in.md)
 
 3. [Weekly digest](../use/email-digest-2.md)
- 
+
 4. [Inline suggestions in Outlook](../use/mya-notifications.md)
 
 MyAnalytics provides insights with the following types of data.
@@ -83,9 +81,9 @@ People can take action on this information. They might decide that they spend to
 
 These insights are derived from data that is *already available* to people in the following places:
 
- * their Exchange Online mailbox
- * their activity in OneDrive and SharePoint documents 
- * their chat and call history from Teams and from Skype for Business
+* Their Exchange Online mailbox
+* Their activity in OneDrive and SharePoint documents 
+* Their chat and call history from Teams and from Skype for Business
 
 MyAnalytics simply applies some basic calculations and rules to make this data more actionable. Mailbox data is stored directly in each employee's Exchange Online mailbox.
 
@@ -93,11 +91,11 @@ For example, if people want to determine which colleagues sent them the most ema
 
 ## Windows 10 Activity History data
 
-Windows 10 activity history data refers to the things people do on their device, such as the apps and services they used, whether they worked on a document, and whether they browsed the web. The activity history is stored locally on the device, and if the employee is signed in to the device with a Microsoft account and gives permission, Windows sends the activity history to Microsoft. 
+Windows 10 activity history data refers to the things people do on their device, such as the apps and services they used, whether they worked on a document, and whether they browsed the web. The activity history is stored locally on the device, and if the employee is signed in to the device with a Microsoft account and gives permission, Windows sends the activity history to Microsoft.
 
-MyAnalytics uses Windows 10 activity history data to compute insights (for example, time spent in apps, multi-tasking in meetings) about a person's work habits. These insights are private and stored in the person's Exchange Online mailbox. 
+MyAnalytics uses Windows 10 activity history data to compute insights (for example, time spent in apps, multi-tasking in meetings) about a person's work habits. These insights are private and stored in the person's Exchange Online mailbox.
 
-Also note that, if the person chooses to send Windows 10 activity history to MyAnalytics,  activity data is saved even if they use a non-work or non-school account (for example, a personal live.com or facebook.com account) to connect to the app or service. However, activity data is not saved when they browse with InPrivate tabs or windows in the Microsoft Edge web browser. 
+Also note that, if the person chooses to send Windows 10 activity history to MyAnalytics,  activity data is saved even if they use a non-work or non-school account (for example, a personal live.com or facebook.com account) to connect to the app or service. However, activity data is not saved when they browse with InPrivate tabs or windows in the Microsoft Edge web browser.
 
 ## Incremental data
 
@@ -131,9 +129,9 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
  Note that if default settings are used, the following applies:
 
- * All employees in your organization contribute to [incremental data](#incremental-data) whether or not they have been issued licenses with the MyAnalytics service. 
+* All employees in your organization contribute to [incremental data](#incremental-data) whether or not they have been issued licenses with the MyAnalytics service.
 
- * MyAnalytics is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
+* MyAnalytics is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
 
 ### How employees can opt-in and opt-out
 
