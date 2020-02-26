@@ -216,16 +216,14 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
        #Start-Transcript to keep a simple log of all stream output of the successes and failures of the execution and to set StrictMode.
        Start-Transcript
        Set-StrictMode -version 2
-       #Simple if block to test the CSV parameter input and ensure that the path is valid and contains a file.
+       #Simple if block to test the CSV parameter input and confirm the path is valid and contains a file.
        if (!(Test-Path $CSV)) {
          Write-Error "CSV file could not be found, please ensure that the location is correct and you have the proper permissions to read the file then try again.`r`n$($_.Exception.Message)"
        break
        }
        Write-Output "CSV file was found, proceeding..."
        try {
-
-          #If the CSV is valid an attempt will be made to import the contents into a user's csv array to be used for processing.
-
+          #If the CSV is valid an attempt will be made to import the contents into a user's csv array that's used for processing.
           [array]$users = @(Import-Csv $CSV -ErrorAction Stop)
            Write-Output "CSV file was imported to process successfully, proceeding..."
         }
@@ -239,8 +237,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
           break
        }
        Write-Host "Found $($users.count) items in the CSV to process"
-
-       #Check the CSV contains the proper header
+       #Check the CSV contains the proper Email header.
        if ($users | Get-Member Email) {
           Write-Host "CSV file is valid, proceeding..."
        }
@@ -256,7 +253,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
            Write-Error "Failed to successfully connect to Azure Active Directory PowerShell due to the following exception.`r`n$($_.Exception.Message)"
            break
         }
-        #Attempt to pull MSOL SKU's 
+        #Tries to pull MSOL SKUs.
         if ([string]::isnullorempty($LicenseSku)) {
            $wpaSearch = "*:WORKPLACE_ANALYTICS"
         }
@@ -270,9 +267,9 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
         $NumOfUsersNotFound = 0
         [System.Collections.ArrayList]$UsersNotFound =@()
         [System.Collections.ArrayList]$UsersFailedtoLicense =@()
-        #If the user's array contains the Email member which is created by importing of a proper CSV and the object count of the user's array is greater than 0, the processing block will be entered and a foreach loop will be used to process the array contents.
+        #If the user's array contains the Email member who is created by importing a CSV and the object count of the user's array is greater than zero (0), the processing block is entered and a foreach loop is used to process the array contents.
         Foreach($user in $users) {
-           #An attempt is made to find the user through the UserPrincipalName parameter. If an error is thrown the catch block will attempt to find the user through a ProxyAddresses attribute regex comparison. An absolute match after the colon of the address in the array must be made to increase the accuracy of the find.
+           #An attempt is made to find the user through the UserPrincipalName parameter. If an error occurs, the catch block will try to find the user through a ProxyAddresses attribute regex comparison. An absolute match after the colon of the address in the array is required to increase the accuracy of the find.
            $userIndex = $users.Indexof($user)
            Write-Progress -Activity "$Assigning Workplace Analytics Licenses, currently on $($userIndex + 1) of $($users.Count) Currently searching for user $($user.Email)" -PercentComplete ($userIndex / $users.Count * 100) -Id 1
            try {
@@ -283,9 +280,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
                $msolUser = Get-MsolUser -All | Where-Object {$_.ProxyAddresses -match "\:$($user.Email)"}
             }
             if($msolUser) {
-
-                #If the msolUser variable is not null the following block will be entered where an attempt will be made to add the LicenseSKU parameter to the MSOL user.
-
+                #If the msolUser variable is not null, the following block will be entered where an attempt is made to add the LicenseSKU parameter to the MSOL user.
                 if ($msolUser.Licenses.AccountSkuId -contains $LicenseSKU.AccountSkuId) {
                    Write-Warning "User $($msolUser.UserPrincipalName) was found but is already licensed for WorkplaceAnalytics, skipping licensing."
                    $NumOfAlreadyLicensed++
@@ -333,7 +328,9 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
 
 3. Start Windows PowerShell and run the following command:
 
+   ``` powershell
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
+   ```
 
    > [!Note]
    > That the \<CSVLocation> should contain the full path to the CSV input file, such as **C:\Scripts\InputFile.csv**.
