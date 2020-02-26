@@ -47,16 +47,16 @@ To create a plan, follow these steps:
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, sign in with your work account.
 
-2. In **Plans** > **New plan**, you can learn about and select the type of plan you want to create, such as a _Focus plan_, a _Collaboration plan_, or a _Wellbeing plan_.
+2. In **Plans** > **New plan**, you can learn about and select the type of plan you want to create, such as a _Focus plan_, a _Collaboration plan_, a _Wellbeing plan_, or the _Seller success plan_.
 
-    ![Pick a plan](../images/wpa/tutorials/pick-a-plan.png)
+    ![Pick a plan](../images/wpa/tutorials/plan-choices.png)
 
     > [!Note]  
-    > On this page, the **Analyze** option is available only to people with the role of Analyst or Limited analyst.
+    > On this page, the **Analyze** option is available only to people with the role of analyst or limited analyst.
 
-3. Do you have a group of employees in mind for participation in a plan? If so, select **Start now** for the plan that you want that group to use, and go to step 5. If you do not already have a group picked out, go to [Find the group through analysis](#find-the-group-through-analysis), which is only available to people with an analyst role in Workplace Analytics.
+3. Do you have a group of employees in mind for participation in a plan? If so, select **Start plan** for the plan that you want that group to use, and go to step 5. If you do not already have a group picked out, go to [Find the group through analysis](#find-the-group-through-analysis), which is only available to people with an analyst role in Workplace Analytics.
 
-4. For this example, select **Start now** for the _Focus plan_. This opens the **Set up new plan** pane for a Focus plan, which shows default values for the plan, such as its name:
+4. For this example, select **Start plan** for the _Focus plan_. This opens the **Set up new plan** pane for a Focus plan, which shows default values for the plan, such as its name:
 
     ![Set up a new plan](../images/wpa/tutorials/set-up-new-plan.png)
 
@@ -137,7 +137,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
     ![Three cards](../images/wpa/tutorials/three-cards-start-now.png)
 
-8. After you identify the groups, select **Start now** to open **Set up new plan** to show the filters that you set in the charts and in page settings:
+8. After you identify the groups, select **Start plan** to open **Set up new plan** to show the filters that you set in the charts and in page settings:
 
     ![Set up new plan](../images/wpa/tutorials/set-up-new-plan.png)
 
@@ -203,14 +203,14 @@ A plan that a GM creates automatically contains the data of the GM's group (the 
 
     ![Group manager view](../images/wpa/tutorials/gm-view-solns-2.png)
  
-    This page shows three plans: _Focus plan_, _Collaboration plan_, and _Wellbeing plan_. Consider the type of plan that you want to create. The card for each plan describes the plan and offers **Start now** and **Analyze** options. 
+    This page shows three plans: _Focus plan_, _Collaboration plan_, and _Wellbeing plan_. Consider the type of plan that you want to create. The card for each plan describes the plan and offers **Start plan** and **Analyze** options. 
 
-2.	(Optional) For a particular plan, select **Analyze**. This shows read-only summary data about your team as a whole. This data pertains to that plan’s area of focus. For example, if you select **Analyze** on the _Focus plan_ card, you will see data that pertains to that plan with regard to your team. After you view this information, select **Start now** and then go to step 4.
+2.	(Optional) For a particular plan, select **Analyze**. This shows read-only summary data about your team as a whole. This data pertains to that plan’s area of focus. For example, if you select **Analyze** on the _Focus plan_ card, you will see data that pertains to that plan with regard to your team. After you view this information, select **Start plan** and then go to step 4.
 
     > [!Note]  
     > You cannot view summary data about your team if its size does not exceed the minimum group size. Workplace Analytics admins can set a minimum group size for GM teams that differs from the general Workplace Analytics setting for minimum group size. 
 
-3.	For one of the three plans, select **Start now**. This opens the **Set up new plan** panel:
+3.	For one of the three plans, select **Start plan**. This opens the **Set up new plan** panel:
 
     ![Group manager -- set up new plan](../images/wpa/tutorials/gm-set-up-new-plan.png) 
 

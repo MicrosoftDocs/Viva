@@ -133,8 +133,8 @@
               items:
                 - name: Teamwork plans
                   href: ~/tutorials/teamwork-solution.md          
- #               - name: Seller success plan
- #                 href: ~/tutorials/seller-success.md
+                - name: Seller success plan
+                  href: ~/tutorials/seller-success.md
             - name: Use plans
               items: 
                 - name: Walkthrough    

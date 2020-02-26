@@ -1,0 +1,66 @@
+### YamlMime:Hub
+
+title: Best practices for people managers who use Workplace Analytics 
+summary: Workplace Analytics can help people managers improve how they and their teams get work done. Each of these best practices include supporting industry research and customer stories.
+brand: workplace-analytics
+
+metadata:
+ ROBOTS: NOINDEX,NOFOLLOW
+ title: People manager best practices
+ description: Workplace Analytics can help people managers improve how they and their teams get work done 
+ ms topic: hub-page
+ localization_priority: normal
+ ms.prod: wpa
+ author: madehmer
+ ms.author: madehmer
+ ms.date: 02/18/2020
+
+productDirectory:
+
+    items:
+    - title: Manager coaching
+      imageSrc: ../images/wpa/playbooks/manager-coaching-64x64.svg
+      links:
+        - url: gm-coaching.md
+          text: Learn how to best mentor and support your employees, including regularly scheduled one-on-ones.
+    - title: Wellbeing
+      imageSrc: ../images/wpa/playbooks/wellbeing-64x64.svg
+      links:
+        - url: gm-wellbeing.md
+          text: Discover best practices that you and your team can follow to improve work-life balance and increase team productivity and wellbeing.
+    - title: Meetings
+      imageSrc: ../images/wpa/playbooks/meetings-64x64.svg
+      links:
+        - url: gm-meetings.md
+          text: Learn how to plan and facilitate meetings that best meet your team's and organization's goals.
+    - title: Focus
+      imageSrc: ../images/wpa/playbooks/focus-64x64.svg
+      links:
+        - url: gm-focus.md
+          text: Learn why it's important that you and your team plan and schedule focus time to get independent work done. 
+    - title: Manager connectedness
+      imageSrc: ../images/wpa/playbooks/manage-connectedness-64x64.svg
+      links:
+        - url: gm-connectedness.md
+          text: Learn why managers that share ideas and expertise across the company makes for more successful organizations. 
+    - title: Email overload
+      imageSrc: ../images/wpa/playbooks/email-overload-64x64.svg
+      links:
+        - url: gm-overload.md
+          text: Learn how to minimize email by setting up team rules that match up to with well-known best practices.
+    - title: Efficient communications
+      imageSrc: ../images/wpa/playbooks/efficient-communications-64x64.svg
+      links:
+        - url: gm-communication.md
+          text: Learn how to set up team communication to maintain collaboration and increase productivity simultaneously.
+    - title: Cross-group collaboration
+      imageSrc: ../images/wpa/playbooks/cross-group-collab-64x64.svg
+      links:
+        - url: gm-cgcollaboration.md
+          text: Learn how to network  with other managers in your organization for  sharing information and skills across the different groups.
+    - title: Influencers
+      imageSrc: ../images/wpa/playbooks/influencer-64x64.svg
+      links:
+        - url: gm-influencer.md
+          text: Learn how more change agents can lead your team and your company to be more agile and competitive.
+ 

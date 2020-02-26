@@ -1,22 +1,20 @@
 ---
-# Metadata Sample
-# required metadata
 
-title: MyAnalytics welcome email
+title: MyAnalytics Welcome email
 description: MyAnalytics users receive a welcome email after licenses are assigned to them 
 author: madehmer
-ms.author: v-midehm
-ms.date: 04/08/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
+
 ---
 
 # MyAnalytics welcome email
 
-Up to four weeks after an administrator assigns licenses with the MyAnalytics service to users, they receive a welcome email from MyAnalytics.
+Up to four weeks after the administrator assigns licenses with the MyAnalytics service to users, they'll receive a Welcome email from MyAnalytics.
 
-They do not receive this welcome email outside of their work week. For example, if necessary, its arrival time is delayed to a Monday to keep it from arriving on a weekend.  
+Users do not receive the Welcome email outside of their work week. For example, if necessary, the delivery is delayed to Monday to keep it from being delivered during a weekend.
 
 The following is an example of a MyAnalytics welcome email.
 

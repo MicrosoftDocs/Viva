@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Opt out of MyAnalytics
 description: How to opt out of MyAnalytics
 author: paul9955
-ms.author: paul9955
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -14,10 +12,10 @@ ms.prod: mya
 
 # Opt out of MyAnalytics
 
-All users can use the MyAnalytics dashboard to opt-out. When you opt out, the following will occur:
+All users can use the MyAnalytics dashboard to opt-out. When you opt out:
 
-* You will no longer be able to access MyAnalytics, including your personal dashboard and [Outlook add-in](../use/add-in.md).
-* You will stop receiving [inline suggestions](../use/mya-notifications.md) and the [weekly digest](../use/email-digest-2.md).
+* You will no longer be able to access MyAnalytics, including your personal dashboard and [Insights Outlook add-in](../use/add-in.md).
+* You will stop receiving [inline suggestions](../use/mya-notifications.md) and [weekly digests](../use/email-digest-2.md).
 * Your email activity will not be included in other users' [email read statistics](../use/add-in.md#email-read-statistics).
 
 ## To opt out of MyAnalytics
@@ -27,8 +25,8 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out, the fo
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
-3. Under MyAnalytics, select **Settings**.
-4. For MyAnalytics, set the control to **Off**.
+3. Under **MyAnalytics**, select **Settings**.
+4. For MyAnalytics, change the setting to **Off**.
 
     ![Slider in off position](../../Images/mya/use/slider-off.png)
   
@@ -37,9 +35,11 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out, the fo
 > [!NOTE]
 > It might take up to a week for your saved changes to take effect.
 
-## If I am opted out, can I opt back in?
+## If I opt out, can I opt back in?
 
-Yes, if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to MyAnalytics.
+Yes, if you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access to MyAnalytics.
+
+To opt in, repeat the steps in the previous opt-out section, but in **Step 4**, change the setting to **On** for **MyAnalytics**.
 
 ## Related topics
 

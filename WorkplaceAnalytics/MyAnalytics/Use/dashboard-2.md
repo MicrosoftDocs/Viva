@@ -1,13 +1,11 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
-author: madehmer
+author: paul9955
 ms.author: madehmer
 ms.topic: article
-localization_priority: normal 
+localization_priority: priority 
 ms.prod: mya
 
 ---
@@ -18,16 +16,18 @@ _**Applies to:** MyAnalytics elements are available in varying levels to users o
 
 Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
-Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
+### To open the dashboard
 
-> [!Note]
-> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+ * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
+
+   > [!Note]
+   > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 ## Home
 
 The MyAnalytics dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
-![Your work patterns](../../Images/mya/use/home-pg.png)
+![Your work patterns](../../Images/mya/use/home-2.png)
 
 ## Focus and Wellbeing
 
@@ -50,9 +50,21 @@ For more details and tips, see [Network](../use/network.md) and [Collaboration](
 
 ## Productivity insights
 
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns.
+MyAnalytics gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.  
+
+![Weekly digest insight](../../Images/mya/use/digest-insight.png)
+
+These insights are also available on your MyAnalytics dashboard home page as well as on the specific outcome pages. Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
 
 ![Productivity insights](../../Images/mya/use/productivity.png)
+
+If you don’t meet the qualifications for specific productivity insights on the dashboard, the cards will show you educational tips instead. Educational tips are only available in the dashboard.
+
+### Educational tips
+
+Educational cards give you work productivity and wellbeing tips and ideas, which come from a variety of resources, such as academic and industry research. MyAnalytics refreshes these cards periodically to reflect your most recent work patterns. You can come back at a later time to check out new sets of productivity and educational insights.
+
+![Educational insights](../../Images/mya/use/educational-tips.png)
 
 ## Config Settings
 

@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Explore introduction
 description: Describes the analytical Explore cards in Workplace Analytics
