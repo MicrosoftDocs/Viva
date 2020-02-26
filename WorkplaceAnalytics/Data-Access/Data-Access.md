@@ -1,12 +1,10 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
 author: madehnmer
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 ms.prod: wpa
 ms.collection: M365-analytics
