@@ -127,7 +127,7 @@ The Workplace Analytics bulk license script uses the Azure Active Directory Powe
 
 The Workplace Analytics bulk license script uses a CSV reference file as input. The script references each address listed in the CSV file and attempts to assign Workplace Analytics license to all users.
 
-Each user who is already assigned a license retains all current licensing. New users will receive a Workplace Analytics license. The input CSV must have a single column with the header "Email" that contains all email addresses. The following example shows the correct CSV email format.
+Each user who is already assigned a license retains all current licensing. New users will receive a Workplace Analytics license. The CSV input must have a single column with the header "Email" that contains all email addresses.
 
 For more details on formatting the input CSV file, see [example CSV export file](../Setup/Prepare-organizational-data.md#example-csv-export-file).
 
