@@ -29,14 +29,14 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 Insights includes the following types of inline suggestions.
 
-* **Delay email delivery**: After you add recipients when composing an email, MyAnalytics automatically accounts for time zones and working hours and suggests a delay delivery time for when more of the recipients are in their working hours. This helps you get work done when you want without worrying about impacting others.
+* **Delay email delivery**: After you add recipients when composing an email, MyAnalytics automatically accounts for time zones and working hours to suggest a delay delivery time when more recipients are likely to be in their working hours. This feature allows you to work whenever is most convenient for you without impacting others outside their working hours.
 
    ![inline suggestions email](../../Images/mya/use/nudges-email.png)
 
-   **To delay delivery**
+   **To delay email delivery**
 
-   1. Select the suggested delivery time, such as **Send on Thu, Nov 07 9:00 AM** (shown the graphic), and then select **Send** to send the message at that time.
-   2. After you send the email message, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
+   1. Select the suggested delivery time, such as **Thu, Nov 07 10:00 AM** (shown in the graphic), select **Delay send** to confirm message delivery at that time, and then select **Send**.
+   2. After the email message is sent, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
       Before the message is sent, you can open the message and then open Insights and do one of the following:
 
