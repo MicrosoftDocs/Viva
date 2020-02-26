@@ -125,20 +125,15 @@ The Workplace Analytics bulk license script uses the Azure Active Directory Powe
 
 ## Input Requirements
 
-The Workplace Analytics bulk license script uses a .csv reference file as input. The script references each address listed in the .csv file and attempts to assign Workplace Analytics license to all users.
+The Workplace Analytics bulk license script uses a CSV reference file as input. The script references each address listed in the CSV file and attempts to assign Workplace Analytics license to all users.
 
-Each user who is already assigned a license retains all current licensing. New users will receive a Workplace Analytics license. The input .csv must have a single column with the header "Email" that contains all email addresses. The following example shows the correct .csv email format.
+Each user who is already assigned a license retains all current licensing. New users will receive a Workplace Analytics license. The input CSV must have a single column with the header "Email" that contains all email addresses. The following example shows the correct CSV email format.
 
-|Email|
-|---|
-|User1@contoso.com|
-|User2@contoso.com|
-
-For further information on formatting the input .csv file, see [example .csv export file](../Setup/Prepare-organizational-data.md#example-csv-export-file)
+For more details on formatting the input CSV file, see [example CSV export file](../Setup/Prepare-organizational-data.md#example-csv-export-file).
 
 ### Script description
 
-The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses to Office 365 identities based on .csv email address input. The email address input is used to identify the correct Office 365 identity based on the **UserPrincipalName** and **ProxyAddresses** attributes of the MSOL (Microsoft Online) object, and then tries to assign a license to the Office 365 identity.
+The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses to Office 365 identities based on CSV email address input. The email address input is used to identify the correct Office 365 identity based on the **UserPrincipalName** and **ProxyAddresses** attributes of the MSOL (Microsoft Online) object, and then tries to assign a license to the Office 365 identity.
 
 ### Script Execution
 
@@ -149,26 +144,26 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
 <#
 .NOTES
 	    Title:			Add-WpALicense.ps1
-	    Date:			February 24th, 2020
-	    Version:		1.0.0
+	    Date:			February 25th, 2020
+	    Version:		1.0.4
 	
 .SYNOPSIS
-    This script is designed to add Workplace Analytics licenses to a .csv list of email addresses that correlate to Office 365 identities.
+    This script is designed to add Workplace Analytics licenses to a CSV list of email addresses that correlate to Office 365 identities.
 .DESCRIPTION
-    Add-WpALicense is designed to assign Workplace Analytics licenses to Office 365 identities based on .csv e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
+    Add-WpALicense is designed to assign Workplace Analytics licenses to Office 365 identities based on CSV e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
 .PARAMETER CSV
-    The .csv input file contains all of the email addresses that are given a license. Use Email as the header and when save the file with the UTF-8 encoded format.
+    The CSV input file contains all of the email addresses that are given a license. Use Email as the header and when save the file with the UTF-8 encoded format.
 .PARAMETER LicenseSKU
    The WORKPLACE_ANALYTICS LicenseSKU will be applied to a user that's found. The script tries to automatically apply a license SKU. If a license SKU is provided, the script tries to match it with the domain. An example SKU is CONTOSO:WORKPLACE_ANALYTICS.
 .EXAMPLE
-   .\Add-WpALicense.ps1 -CSV c:\users\user123\desktop\input.csv -LicenseSku CONTOSO:WORKPLACE_ANALYTICS
+   .\Add-WpALicense.ps1 -CSV c:\users\user123\desktop\inputCSV -LicenseSku CONTOSO:WORKPLACE_ANALYTICS
 
-   The script would ingest the .csv file from the specified location in this example and try to apply the MSOL license SKU of CONTOSO:WORKPLACE_ANALYTICS to all users that are found in the MSOL structure of the tenant.
+   The script would ingest the CSV file from the specified location in this example and try to apply the MSOL license SKU of CONTOSO:WORKPLACE_ANALYTICS to all users that are found in the MSOL structure of the tenant.
 
        #>
        param
        (
-       [parameter(Mandatory=$true,Position=0,HelpMessage="Please provide a .csv file that has the Email column header.")]
+       [parameter(Mandatory=$true,Position=0,HelpMessage="Please provide a CSV file that has the Email column header.")]
        [ValidateNotNullorEmpty()]
        [string]$CSV,
        [parameter(Mandatory=$true,Position=1,HelpMessage="Please provide the exact name of the Workplace Analytics MSOL Account SKU license for the applicable tenant.")]
@@ -230,7 +225,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
        Start-Transcript
        Set-StrictMode -version 2
 
-       #Simple if block to test the .csv parameter input and ensure that the path is valid and contains a file.
+       #Simple if block to test the CSV parameter input and ensure that the path is valid and contains a file.
 
        if (!(Test-Path $CSV)) {
          Write-Error "CSV file could not be found, please ensure that the location is correct and you have the proper permissions to read the file then try again.`r`n$($_.Exception.Message)"
@@ -249,20 +244,20 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
            break
         }
 
-       #.csv formatting verified, checking for Email values in the file.
+       #CSV formatting verified, checking for Email values in the file.
 
        if(($users.count) -le 0) {
-          Write-Error "The .csv provided did not contain any valid SMTP data. Please check the .csv file and try again."
+          Write-Error "The CSV provided did not contain any valid SMTP data. Please check the CSV file and try again."
           break
        }
        Write-Host "Found $($users.count) items in the CSV to process" 
 
-       #Check the .csv contains the proper header
+       #Check the CSV contains the proper header
        if ($users | Get-Member Email) {
-          Write-Host ".csv file is valid, proceeding..."
+          Write-Host "CSV file is valid, proceeding..."
        }
        else {
-          Write-Warning ".csv is missing Email header. Please check the .csv file specified and update the .csv to include the header: Email"
+          Write-Warning "CSV is missing Email header. Please check the CSV file specified and update the CSV to include the header: Email"
           break
         }
 
@@ -291,17 +286,17 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
         [System.Collections.ArrayList]$UsersNotFound =@()
         [System.Collections.ArrayList]$UsersFailedtoLicense =@()
 
-        #If the user's array contains the Email member which is created by importing of a proper .csv and the object count of the user's array is greater than 0, the processing block will be entered and a foreach loop will be used to process the array contents.
+        #If the user's array contains the Email member which is created by importing of a proper CSV and the object count of the user's array is greater than 0, the processing block will be entered and a foreach loop will be used to process the array contents.
 
         Foreach($user in $users) {
            #An attempt is made to find the user through the UserPrincipalName parameter. If an error is thrown the catch block will attempt to find the user through a ProxyAddresses attribute regex comparison. An absolute match after the colon of the address in the array must be made to increase the accuracy of the find.
+           $userIndex = $users.Indexof($user)
+           Write-Progress -Activity "$Assigning Workplace Analytics Licenses, currently on $($userIndex + 1) of $($users.Count) Currently searching for user $($user.Email)" -PercentComplete ($userIndex / $users.Count * 100) -Id 1
            try {
-              $userIndex = $users.Indexof($user)
-              Write-Progress -Activity "$Assigning Workplace Analytics Licenses, currently on $($userIndex + 1) of $($users.Count) Currently searching for user $($user.Email)" -PercentComplete ($userIndex / $users.Count * 100) -Id 1
-              $msolUser = Get-MsolUser -UserPrincipalName $user.Email -ErrorAction Stop
+               $msolUser = Get-MsolUser -UserPrincipalName $user.Email -ErrorAction Stop
             }
             catch {
-               Write-Warning "Failed to find user $($user.Email) through UPN lookup, attempting ProxyAddress attribute..."
+               Write-Warning "Failed to find user $($user.Email) through UPN lookup, attempting ProxyAddress attribute...`n$_"
                $msolUser = Get-MsolUser -All | Where-Object {$_.ProxyAddresses -match "\:$($user.Email)"}
             }
             if($msolUser) {
@@ -334,15 +329,15 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
                continue
             }
         }
-        if ($($UsersFailedtoLicense).count -ne 0) {
+        if ($UsersFailedtoLicense.count -ne 0) {
             Write-Output "`nThe following $($UsersFailedtoLicense.count) failed to License:`n"
             Write-Output $UsersFailedtoLicense
         }
-        if ($($UsersNotFound).Count -ne 0) {
+        if ($UsersNotFound.Count -ne 0) {
             Write-Output "`nThe following $($UsersNotFound.count) users were not found:`n"
             Write-Output $UsersNotFound
         }
-        $finaloutput = "`nScript completed,Total number of users Licensed:$NumofSuccessfullyLicensed"
+        $finaloutput = "`nScript completed, Total number of users licensed:$NumofSuccessfullyLicensed"
         $finaloutput += "`nTotal number of users that were already licensed:$NumOfAlreadyLicensed"
         $finaloutput += "`nErrors encountered:$NumofErrorLicensed"
         $finaloutput += "`nTotal users not found:$NumOfUsersNotFound"
@@ -359,11 +354,11 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
 
    > [!Note]
-   > That the \<CSVLocation> should contain the full path to the .csv input file, such as **C:\Scripts\InputFile.csv**.
+   > That the \<CSVLocation> should contain the full path to the CSV input file, such as **C:\Scripts\InputFile.csv**.
 
 4. When prompted, enter the Office 365 global administrator credentials for the tenant where the licenses are to be added.
 
-   If all the required inputs are satisfied, the script executes now against the .csv list, and then licenses are assigned to users. During the script execution, all successes and failures are shown on the command line and a transcript is saved in the Documents folder.
+   If all the required inputs are satisfied, the script executes now against the CSV list, and then licenses are assigned to users. During the script execution, all successes and failures are shown on the command line and a transcript is saved in the Documents folder.
 
 ## FAQ
 
@@ -373,7 +368,7 @@ Yes, you can find a script transcript for each execution in the Documents folder
 
 **Will an email address input work if it is not the UserPrincipalName of any MSOL identity?**
 
-The script logic first attempts to find the MSOL identity through the UserPrincipalName by using the email address from the .csv file. If this attempt fails, the script tries to find any MSOL object that contains the email address from the .csv file within the ProxyAddresses property. If a user still cannot be found, the email is deemed not to exist and is skipped.
+The script logic first attempts to find the MSOL identity through the UserPrincipalName by using the email address from the CSV file. If this attempt fails, the script tries to find any MSOL object that contains the email address from the CSV file within the ProxyAddresses property. If a user still cannot be found, the email is deemed not to exist and is skipped.
 
 **Does this work with Multi-Factor Authentication (MFA)?**
 
@@ -381,9 +376,9 @@ This script works with Multi-Factor Authentication because the Connect-MsolServi
 
 ## Troubleshooting
 
-**Error: The .csv provided did not contain any valid SMTP data. Please check the .csv file and try again.**
+**Error: The CSV provided did not contain any valid SMTP data. Please check the CSV file and try again.**
 
-Check the .csv file contains the proper header and valid email addresses to parse
+Check the CSV file contains the proper header and valid email addresses to parse
 
 **Error: Could not find user user1@contoso.com, skipping!**
 
@@ -393,7 +388,7 @@ Check that the email properly resolves.
 
 Check that the user has the proper EXO license.
 
-**Error: The .csv file could not be found ...**
+**Error: The CSV file could not be found ...**
 
 Confirm the correct file is specified when defining the `-CSV` and that the user running the script has permissions to read the file.
 
