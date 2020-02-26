@@ -168,7 +168,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
        [ValidateNotNullorEmpty()]
        [string]$LicenseSKU
        )
-       #Simple function to connect to Office 365 MSOL PowerShell
+       #Simple function to connect to Office 365 MSOL PowerShell.
        Function Connect-O365PowerShell {
            try {
                Import-Module MSOnline -ErrorAction Stop
@@ -223,7 +223,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
        }
        Write-Output "CSV file was found, proceeding..."
        try {
-          #If the CSV is valid an attempt will be made to import the contents into a user's csv array that's used for processing.
+          #If the CSV is valid, this tries to import the contents into a user's CSV array that's used for processing.
           [array]$users = @(Import-Csv $CSV -ErrorAction Stop)
            Write-Output "CSV file was imported to process successfully, proceeding..."
         }
@@ -231,7 +231,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
            Write-Error "Failed to import CSV for processing due to the following exception.`r`n$($_.Exception.Message)"
            break
         }
-       #CSV formatting verified, checking for Email values in the file.
+       #After CSV formatting is verified, check for Email values in the file.
        if(($users.count) -le 0) {
           Write-Error "The CSV provided did not contain any valid SMTP data. Please check the CSV file and try again."
           break
@@ -253,7 +253,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
            Write-Error "Failed to successfully connect to Azure Active Directory PowerShell due to the following exception.`r`n$($_.Exception.Message)"
            break
         }
-        #Tries to pull MSOL SKUs.
+        #Try to pull MSOL SKUs.
         if ([string]::isnullorempty($LicenseSku)) {
            $wpaSearch = "*:WORKPLACE_ANALYTICS"
         }
