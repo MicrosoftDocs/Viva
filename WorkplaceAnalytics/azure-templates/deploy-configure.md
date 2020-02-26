@@ -59,8 +59,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
    * **Use existing** to use an existing resource group and append the existing group with what's needed for this template, including any updates for any of the other templates in this group.
 
 5. Select the applicable **Region** and then select **Next**.
-6. On the **Choose SKU** page, select the SKU or Pricing Tier for the Azure Components required for the templates. You should've gotten these SKU recommendations with the deployment URL or during your team deployment meeting.
-7. On the **Deployment Review** page, confirm the selections, including the following supported Azure components that you'll use with the Azure templates, and then select **Next**.
+6. On the **Choose SKU** page, select the SKU or Pricing Tier for one or more of the Azure Components that you'll use with the templates. You should've gotten these SKU recommendations with the deployment URL or during your team deployment meeting.
 
    * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
@@ -71,6 +70,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
 
+7. On the **Deployment Review** page, confirm the selections, and then select **Next**.
 8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
 9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
 10. Select **Next** and review deployment information. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
