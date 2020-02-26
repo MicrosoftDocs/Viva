@@ -5,7 +5,7 @@ description: Learn about your work patterns in MyAnalytics
 author: paul9955
 ms.author: madehmer
 ms.topic: article
-localization_priority: normal 
+localization_priority: priority 
 ms.prod: mya
 
 ---
@@ -16,7 +16,8 @@ _**Applies to:** MyAnalytics elements are available in varying levels to users o
 
 Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
-### To open the dashboard 
+### To open the dashboard
+
  * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
    > [!Note]

@@ -4,7 +4,7 @@ description: Overview of MyAnalytics privacy features, including information abo
 author: paul9955
 ms.author: madehmer
 ms.topic: article
-localization_priority: normal 
+localization_priority: priority
 ms.prod: mya
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -48,7 +48,7 @@ MyAnalytics presents insights in the following ways:
 2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
 
 3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
- 
+
 4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
 
 MyAnalytics provides insights with the following types of data.
@@ -69,14 +69,13 @@ You can take action on this information. You might decide that you spend too muc
 
 Note that these insights are derived from data that is already available to you in the following places:
 
- * your Exchange Online mailbox
- * your activity in OneDrive and SharePoint documents
- * your chat and call history from Teams and from Skype for Business
+* Your Exchange Online mailbox
+* Your activity in OneDrive and SharePoint documents
+* Your chat and call history from Teams and from Skype for Business
 
 MyAnalytics simply applies some basic calculations and rules to make this data more actionable. Mailbox data is stored directly in your Exchange Online mailbox.
 
 For example, if you want to determine which colleagues sent you the most email over the past week, you could technically do so without MyAnalytics by manually counting emails from coworkers in your inbox. Similarly, you could determine your coworkers’ average response time to the emails that you sent them by using the timestamp information readily available in your mailbox. MyAnalytics saves you the trouble of having to perform these tedious calculations.
-
 
 ## Windows 10 Activity History data
 
@@ -85,7 +84,6 @@ Windows 10 activity history data refers to the things you do on your device, suc
 MyAnalytics uses Windows 10 activity history data to compute insights (for example, time spent in apps, multi-tasking in meetings) about your work habits. These insights are private and stored in your Exchange Online mailbox.
 
 Also note that, if you choose to send Windows 10 activity history to MyAnalytics,  activity data is saved even if you use a non-work or non-school account (for example, a personal live.com or facebook.com account) to connect to the app or service. However, activity data is not saved when you browse with InPrivate tabs or windows in the Microsoft Edge web browser.
-
 
 ## Incremental data
 
@@ -109,8 +107,8 @@ You can opt-in or opt-out of MyAnalytics through **Settings**. For details, see 
 
 As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. For example, MyAnalytics supports the following:
 
- * **Secure and protect personal data**. Because all MyAnalytics data is stored in your Exchange Online mailbox, MyAnalytics meets this security obligation by virtue of Exchange Online also meeting the obligation.
+* **Secure and protect personal data**. Because all MyAnalytics data is stored in your Exchange Online mailbox, MyAnalytics meets this security obligation by virtue of Exchange Online also meeting the obligation.
 
- * **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data.
+* **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data.
 
 For more information, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
