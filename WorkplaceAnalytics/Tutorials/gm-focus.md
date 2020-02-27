@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for focus time
 description: Workplace Analytics shares best practices with managers about the importance of scheduled focus time
 author: madehmer

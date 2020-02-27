@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for manager coaching
 description: Workplace Analytics shares best practices with managers about coaching their teams
 author: madehmer

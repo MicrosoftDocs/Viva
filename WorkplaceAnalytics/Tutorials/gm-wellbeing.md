@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for supporting your team's wellbeing
 description: Best practices for work-life balance that people managers can share with their teams
 author: madehmer
@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Best practices for wellbeing
 
- More than 40 percent of creative ideas come when you are taking breaks or allowing your mind to wander. Employee burnout accounts for 20 to 50 percent of their company’s annual employee turnover costs. See  to learn more.
+ More than 40 percent of creative ideas come when you are taking breaks or allowing your mind to wander. Employee burnout accounts for 20 to 50 percent of their company’s annual employee turnover costs.
 
 ## Statistics
 

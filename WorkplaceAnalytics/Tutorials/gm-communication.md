@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for efficient communication
 description: Workplace Analytics shares best practices with managers about communication with their teams
 author: madehmer

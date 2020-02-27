@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for cross-group collaboration
 description: Workplace Analytics shares best practices with managers about the importance of cross-group collaboration
 author: madehmer
