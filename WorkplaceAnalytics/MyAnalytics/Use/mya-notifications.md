@@ -29,25 +29,29 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 Insights includes the following types of inline suggestions.
 
-* **Delay email delivery**: After you add recipients when composing an email, MyAnalytics automatically accounts for time zones and working hours to suggest a delay delivery time when more recipients are likely to be in their working hours. This feature allows you to work whenever is most convenient for you without impacting others outside their working hours.
+* **Delay email delivery**: When composing an email, MyAnalytics automatically accounts for time zones and working hours. You might see a suggestion for an alternate delivery time when recipients are in their configured working hours. This feature allows you to work whenever is most convenient for you without impacting others outside their working hours.
 
    ![inline suggestions email](../../Images/mya/use/nudges-email.png)
 
    **To delay email delivery**
 
-   1. Select the suggested delivery time, such as **Thu, Nov 07 10:00 AM** (shown in the graphic), select **Delay send** to confirm message delivery at that time, and then select **Send**.
-   2. After the email message is sent, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
+   1. When you see a suggested delivery time, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
+   2. An insight opens to show the scheduled time. You can select:
 
-      Before the message is sent, you can open the message and then open Insights and do one of the following:
-
-      * Select **Send now** to ignore the delay and send the message now.
-      * Select **Cancel delay delivery** to stop delivery and move the message to your Outlook **Deleted items** folder.
-
-        ![inline suggestion cancel delivery delay](../../Images/mya/use/nudges-cancel-delay.png)
-
-      * In the Insights pane, select **Edit time** to change the delivery time.
+      * **Send** to send the email at that scheduled time.
+      * **Edit time** within the insight to change the delay time, and then select **Send** to send the email at the new time.
+      * **Cancel** within the insight to cancel the delay and send the email now.
 
         ![insights delay delivery](../../Images/mya/use/insights-delay-delivery.png)
+
+   3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
+
+      Before the message is sent, you can open the message and select:
+
+      * **Send now** to ignore the delay and send the email now.
+      * **Cancel delay delivery** to stop delivery, which moves the email to your Outlook **Deleted items** folder.
+
+        ![inline suggestion cancel delivery delay](../../Images/mya/use/nudges-cancel-delay.png)
 
 * **Outstanding tasks**: When reading an email or a calendar invitation, you might see a suggestion to review outstanding tasks for a recipient.
 
