@@ -38,9 +38,9 @@ Insights includes the following types of inline suggestions.
    1. When you see a suggested delivery time, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
    2. An insight opens to show the scheduled time. You can select:
 
-      * **Send** to send the email at that scheduled time.
-      * **Edit time** within the insight to change the delay time, and then select **Send** to send the email at the new time.
-      * **Cancel** within the insight to cancel the delay and send the email now.
+      * **Send** (within the email) to send the email at that scheduled time.
+      * **Edit time** (within the insight) to change the delay time, and then select **Send** to send the email at the new time.
+      * **Cancel** (within the insight) to cancel the delay, and then select **Send** to send the email now.
 
         ![insights delay delivery](../../Images/mya/use/insights-delay-delivery.png)
 
