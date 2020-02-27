@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for manager coaching
 description: Workplace Analytics shares best practices with managers about coaching their teams
 author: madehmer
@@ -30,4 +30,4 @@ According to the research referenced in [What great managers do daily](https://i
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)
