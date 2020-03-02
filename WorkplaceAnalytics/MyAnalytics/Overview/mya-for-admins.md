@@ -1,22 +1,20 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics for admins
 description: Overview of MyAnalytics for Office 365 admins
-author: paul9955
-ms.author: madehmer
+author: madehmer
+ms.author: paul9955
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
 ms.collection: M365-analytics
 manager: scott.ruble
-audience: Admin
+audience: admin
 ---
 
 # MyAnalytics for admins
 
-> [!Note] 
+> [!Note]
 > Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
 
 As an administrator, you benefit from knowing what MyAnalytics provides to its participants and what you can do to enable and enhance their experience.
@@ -40,7 +38,7 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Soon after you assign a license with the MyAnalytics service plan to a user, they'll get access to MyAnalytics elements, such as the [Dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome email](../use/mya-welcome-email.md).
+Soon after you assign a license with the MyAnalytics service plan to a user, they'll get access to MyAnalytics elements, such as the [Dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Insights Outlook add-in](../use/add-in.md), and the [MyAnalytics welcome message](../use/mya-welcome-email.md).
 Access to these elements depends on the plan in place at your organization; for details, see [Access to MyAnalytics elements](plans-environments.md#access-to-myanalytics-elements).
 
 ## Video: Introduction for admins
