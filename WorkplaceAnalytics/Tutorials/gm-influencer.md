@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for influencers
 description: Workplace Analytics shares best practices with managers about influencers
 author: madehmer
@@ -31,4 +31,4 @@ The [Accelerate! How innovative companies can use a strategy network to capitali
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)
