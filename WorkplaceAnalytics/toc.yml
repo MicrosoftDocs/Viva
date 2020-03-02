@@ -194,7 +194,11 @@
         - name: Add-in
           href: MyAnalytics/Use/add-in.md
         - name: Digests
-          href: MyAnalytics/Use/email-digest-2.md
+          items:
+            - name: Welcome
+              href: MyAnalytics/use/MyA-Welcome-email.md
+            - name: Weekly
+              href: MyAnalytics/use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
         - name: Focus plan
