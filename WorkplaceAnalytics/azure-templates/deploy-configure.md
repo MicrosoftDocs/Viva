@@ -60,23 +60,21 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
 5. Select the applicable **Region** and then select **Next**.
 6. On the **Choose SKU** page, select the SKU or Pricing Tier for one or more of the Azure Components that you'll use with the templates. You should've gotten these SKU recommendations with the deployment URL or during your team deployment meeting.
-
-   * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
-   * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
-   * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
-   * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
-   * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-   * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
-   * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
-   * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
-
 7. On the **Deployment Review** page, confirm the selections, and then select **Next**.
 8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
-9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
-10. Select **Next** and review deployment information. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
-11. In **Deployment Review**, select **Next** to deploy and configure the resources for the selected Azure components. This two-phase deployment can take up to 60 minutes to complete.
+9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
+10. In **Deployment Review**, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it. Then select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
 
-12. After the deployment is complete, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
+    * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
+    * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
+    * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
+    * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
+    * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
+    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
+    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
+
+11. After the deployment is complete, open, copy, and save the deployed website link for the templates, similar to the one shown in the following graphic.
 
     >[!Important]
     >You must save this deployment link because you and the other users you add need the link to configure and use the templates.
@@ -126,7 +124,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 
-     ![Add Workplace Analytics users](./images/add-user.png)
+    ![Add Workplace Analytics users](./images/add-user.png)
 
 ## Process the data
 
@@ -134,11 +132,11 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 1. In Azure Resource groups, locate the folder that the deployment just created. The new resource group name begins with **wpaappsrg** and includes the deployment date and time, as shown in the following graphic.
   
-   ![Workplace Analytics Resource group](./images/resource-group-a.png)
+    ![Workplace Analytics Resource group](./images/resource-group-a.png)
 
     The new storage group contains a **rawdata** folder, as shown in the following graphic.
 
-     ![Workplace Analytics rawdata folder](./images/rawdata-folder.png)
+    ![Workplace Analytics rawdata folder](./images/rawdata-folder.png)
 
 2. Confirm that the following .csv files are in the new **rawdata** folder:
 
