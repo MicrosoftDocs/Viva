@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for efficient communication
 description: Workplace Analytics shares best practices with managers about communication with their teams
 author: madehmer
@@ -31,4 +31,4 @@ Based on the information presented in the article about [What email, IM, and the
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)
