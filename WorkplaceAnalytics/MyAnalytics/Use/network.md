@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: MyAnalytics network page
 description: Learn how to use MyAnalytics to improve your work relationships and grow your network
 author: madehmer
@@ -37,7 +34,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com), and then select **Network**.
 2. In the **Important people** section, select **Show all**.  
-3. In the person’s card, select the star to remove them from the list.
+3. In the person's card, select the star to remove them from the list.
 
 ## About the metrics
 
@@ -51,7 +48,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 * **Read percent** is the percentage of email from a collaborator that you read in the last four weeks.
 
-* **Response time** is the average time a collaborator spent responding to your email in the last four weeks.
+* **Response time** is the average time you took to respond to a collaborator's email in the last four weeks. Specifically, it measures the time between when the email was received by you and when your response was sent.
 
 ## Network tips
 
