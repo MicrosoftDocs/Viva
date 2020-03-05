@@ -153,7 +153,7 @@ Although these attributes are not required, if included, they must meet particul
 **Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.
 
 > [!Note] 
-> * The maximum number of total attributes allowed in the system is 65. This includes the five required attributes.
+> * The maximum number of total attributes allowed in the system is 105. This includes the five required attributes.
 > * All dates should be in the MM/DD/YYYY format.
 > * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
 
