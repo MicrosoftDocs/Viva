@@ -85,7 +85,7 @@ Finally, you might want to consider tying collaboration behavior patterns to emp
 
 ## Know what data to include 
 
-To get full functionality from Workplace Analytics, you must supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 60 optional attributes to group and filter data in interesting and custom ways. 
+To get full functionality from Workplace Analytics, you must supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways. 
 
 Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to Workplace Analytics at the individual level, which means that these attributes provide context to each person in the dataset. 
 
@@ -153,7 +153,7 @@ Although these attributes are not required, if included, they must meet particul
 **Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.
 
 > [!Note] 
-> * The maximum number of total attributes allowed in the system is 65. This includes the five required attributes.
+> * The maximum number of total attributes allowed in the system is 105. This includes the five required attributes.
 > * All dates should be in the MM/DD/YYYY format.
 > * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
 
