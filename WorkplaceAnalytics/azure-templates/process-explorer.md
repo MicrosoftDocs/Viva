@@ -28,13 +28,13 @@ After you upload a dataset, you can use the Query Builder to help you decide wha
 After you categorize a good sample of meetings into the specified categories:
 
 * You can view meeting data based on those categories with visual charts and lists.
-* For a .csv dataset, you can select to auto-categorize the full dataset based on the sample meeting categorizations already done by you, as the analyst.
-* For a blob storage dataset, the categorization options depend on what the template's admin settings are for email activity:
+* **For a .csv dataset**, you can select to auto-categorize the full dataset based on the sample meeting categorizations already done by you, as the analyst.
+* **For a blob storage dataset**, the categorization options depend on what the template's admin settings are for email activity:
   
-  * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
-  * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which creates distinct models for the two types of content and more accurate overall results.
+  * If email categorization is enabled, you can use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which creates distinct models for the two types of content and more accurate overall results.
+  * If no Email category page is shown, you can only see and use the Meeting category page to manually categorize meetings, which helps train the model for auto-categorizing the full dataset.
 
-* You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analyses.
+* You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analysis.
 
 ## To add a new dataset
 
