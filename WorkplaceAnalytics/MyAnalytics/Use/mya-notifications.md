@@ -39,8 +39,8 @@ Insights includes the following types of inline suggestions.
    2. An insight opens to show the scheduled time. You can select:
 
       * **Send** (within the email) to send the email at that scheduled time.
-      * **Edit time** (within the insight) to change the delay time, and then select **Send** to send the email at the new time.
-      * **Cancel** (within the insight) to cancel the delay, and then select **Send** to send the email now.
+      * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
+      * **Cancel** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
 
         ![insights delay delivery](../../Images/mya/use/insights-delay-delivery.png)
 
@@ -48,8 +48,8 @@ Insights includes the following types of inline suggestions.
 
       Before the message is sent, you can open the message and select:
 
-      * **Send now** to ignore the delay and send the email now.
-      * **Cancel delay delivery** to stop delivery, which moves the email to your Outlook **Deleted items** folder.
+      * **Send now** to ignore the scheduled delivery time and send the email now.
+      * **Cancel delay delivery** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
 
         ![inline suggestion cancel delivery delay](../../Images/mya/use/nudges-cancel-delay.png)
 
