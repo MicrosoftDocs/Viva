@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for meetings
 description: Workplace Analytics shares best practices with managers about planning and running meetings
 author: madehmer
@@ -33,4 +33,4 @@ To solve a problem or make a decision, it helps to keep the meeting audience sma
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)

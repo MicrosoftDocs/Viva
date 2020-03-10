@@ -126,13 +126,13 @@
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md                    
-        - name: Plans   
-          href: ~/tutorials/solutionsv2-intro.md        
+        - name: Plans
+          href: ~/tutorials/solutionsv2-intro.md
           items:
             - name: Plan types
               items:
                 - name: Teamwork plans
-                  href: ~/tutorials/teamwork-solution.md          
+                  href: ~/tutorials/teamwork-solution.md
                 - name: Seller success plan
                   href: ~/tutorials/seller-success.md
             - name: Use plans
@@ -140,21 +140,23 @@
                 - name: Walkthrough    
                   href: ~/tutorials/solutionsv2-task.md 
                 - name: Participants
-                  href: ~/tutorials/solutionsv2-participants.md                                       
+                  href: ~/tutorials/solutionsv2-participants.md
                 - name: Concepts
                   href: ~/tutorials/solutionsv2-conceptual.md
             - name: Opportunities scan
               href: ~/Use/solutions-scan.md
     - name: Notifications
-      href: ~/use/wpa-notifications.md     
+      href: ~/use/wpa-notifications.md 
     - name: Frequently asked questions
-      href: ~/use/faq.md       
+      href: ~/use/faq.md
     - name: Reference
       items:
         - name: Glossary
-          href: ~/Use/Glossary.md          
+          href: ~/Use/Glossary.md
         - name: Workplace Analytics metrics
           href: ~/Use/metric-definitions.md
+        - name: Best practices
+          href: ~/Tutorials/gm-best-practices.md
         - name: Time zones for Workplace Analytics
           href: ~/Use/Timezones-for-Workplace-analytics.md
         - name: Supported languages and guidelines
@@ -192,7 +194,11 @@
         - name: Add-in
           href: MyAnalytics/Use/add-in.md
         - name: Digests
-          href: MyAnalytics/Use/email-digest-2.md
+          items:
+            - name: Welcome
+              href: MyAnalytics/use/MyA-Welcome-email.md
+            - name: Weekly
+              href: MyAnalytics/use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
         - name: Focus plan
