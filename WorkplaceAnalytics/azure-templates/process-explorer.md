@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Process Explorer Azure Template for Workplace Analytics 
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
-ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

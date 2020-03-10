@@ -61,7 +61,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 5. Select the applicable **Region** and then select **Next**.
 6. On the **Choose SKU** page, select the SKU or Pricing Tier for one or more of the Azure Components that you'll use with the templates. You should've gotten these SKU recommendations with the deployment URL or during your team deployment meeting.
 7. On the **Deployment Review** page, confirm the selections, and then select **Next**.
-8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
+8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you're not, you need to sign in manually.
 9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
 10. In **Deployment Review**, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it. Then select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
 
@@ -96,7 +96,7 @@ After deployment, you need to create a write-only SAS URI on the raw data contai
 
 ## Configuration: Add users and assign roles
 
-As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one of the following roles based on the tasks they need to accomplish with the templates:
+As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one or more of the following roles based on the tasks they need to accomplish with the templates:
 
 * **Azure Templates Admin**
 
@@ -111,7 +111,15 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
   * Can access, use, and customize the analytical templates available through the Workplace Analytics Azure Templates website link.
   * Can access, use, and customize the Power BI reports and dashboards connected to the Workplace Analytics Azure Templates.
 
-* **Data scientist**
+* **API User**
+
+  * Can access, use, and customize the analytical templates available through the Workplace Analytics Azure Templates website link.
+
+* **Data Owner**
+
+  * Can access, use, and customize the analytical templates available through the Workplace Analytics Azure Templates website link.
+
+* **Data Scientist**
 
   * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as the Analyst.
   * Can also access the Azure Databricks Workspace and use Python or R scripts to derive new insights.
@@ -120,11 +128,17 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 1. Use the website link (from the last step in Deployment) to open the Workplace Analytics Azure Templates.
 
-2. Select **Admin** > **User Management** > **Add New User**.
+2. Select **Admin** > **User Management** > **Add New User** (upper right).
 
 3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 
     ![Add Workplace Analytics users](./images/add-user.png)
+
+4. In **Scenarios**, select the applicable templates that the user will need to use. Users can only use templates that you select here for them.
+
+## Incoming Data
+
+On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This page enables you to see what data is available to create datasets with the templates and to easily delete data (trashcan icon in far right column) that's no longer needed.
 
 ## Process the data
 
