@@ -29,7 +29,7 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 Insights includes the following types of inline suggestions.
 
-* **Delay email delivery**: When composing an email, MyAnalytics automatically accounts for time zones and working hours. As an Office 365 E5 user, you might see a suggestion for an alternate delivery time when recipients are in their configured working hours. This feature allows you to work whenever is most convenient for you without impacting others outside their working hours.
+* **Delay email delivery**: When composing an email, MyAnalytics automatically accounts for time zones and working hours. As an Office 365 E5 user, you might see a suggestion for an alternate delivery time when recipients are in their configured working hours. This feature allows you to work whenever is most convenient for you without impacting others after hours.
 
    ![inline suggestions email](../../Images/mya/use/nudges-email.png)
 
