@@ -2,8 +2,8 @@
 
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
-author: paul9955
-ms.author: madehmer
+ms.author: paul9955
+author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -29,7 +29,7 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 Insights includes the following types of inline suggestions.
 
-* **Delay email delivery**: When composing an email, MyAnalytics automatically accounts for time zones and working hours. You might see a suggestion for an alternate delivery time when recipients are in their configured working hours. This feature allows you to work whenever is most convenient for you without impacting others outside their working hours.
+* **Delay email delivery**: When composing an email, MyAnalytics automatically accounts for time zones and working hours. As an Office 365 E5 user, you might see a suggestion for an alternate delivery time when recipients are in their configured working hours. This feature allows you to work whenever is most convenient for you without impacting others outside their working hours.
 
    ![inline suggestions email](../../Images/mya/use/nudges-email.png)
 
@@ -61,7 +61,7 @@ Insights includes the following types of inline suggestions.
 
    ![inline suggestions meeting image 03](../../Images/mya/use/nudges-meeting-01.png)
 
-## Why don’t I see any inline suggestions?
+## Why don't I see any inline suggestions?
 
 Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
 
