@@ -183,7 +183,7 @@ After the full dataset is categorized, you can view time spent on specific categ
 
 ## Email thread analysis
 
-You can skip categorizing the full dataset and focus on email activity for a filtered dataset. You can use **Email Thread Analysis** to analyze email activity for a dataset that's filtered for a specific time period and for a specific group within a dataset. The time ranges and filter options are the same as what's available for categorization analysis.
+You can skip categorizing the full dataset and focus on email activity for a filtered dataset. Use **Email Thread Analysis** to analyze email activity for a dataset that's filtered for a specific time period and for a specific group within a dataset. The time ranges and filter options are the same as what's available for categorization analysis.
 
   ![Email Thread Analysis filter options](./images/pexp-email-thread-filters.png)
 
