@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Process Explorer Azure Template for Workplace Analytics 
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
-ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -28,13 +25,13 @@ After you upload a dataset, you can use the Query Builder to help you decide wha
 After you categorize a good sample of meetings into the specified categories:
 
 * You can view meeting data based on those categories with visual charts and lists.
-* For a .csv dataset, you can select to auto-categorize the full dataset based on the sample meeting categorizations already done by you, as the analyst.
-* For a blob storage dataset, the categorization options depend on what the template's admin settings are for email activity:
+* **For a .csv dataset**, you can select to auto-categorize the full dataset based on the sample meeting categorizations already done by you, as the analyst.
+* **For a blob storage dataset**, the categorization options depend on what the template's admin settings are for email activity:
   
-  * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
-  * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which creates distinct models for the two types of content and more accurate overall results.
+  * If email categorization is enabled, you can use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which creates distinct models for the two types of content and more accurate overall results.
+  * If no Email category page is shown, you can only see and use the Meeting category page to manually categorize meetings, which trains the model for auto-categorizing the full dataset (meeting and email activity).
 
-* You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analyses.
+* You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analysis.
 
 ## To add a new dataset
 
@@ -169,9 +166,44 @@ For a blob storage dataset, the categorization options depend of what the admin 
 
 8. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and then repeat these steps to categorize email.
 
-You can see data about the categorized email and meetings on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current data shown on the **Dashboard** page.
+## Category analysis
+
+You can see data about *categorized email and meetings* on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current data shown on the **Dashboard** page.
 
   ![Email activity included in the analysis](./images/pexp-dashboard.png)
+
+After the full dataset is categorized, you can view time spent on specific categories in the **Time Spend in Category** section below the **Category Distribution** section. The following are available for the chart:
+
+* **Hours on Topic** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected topics (categories) and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
+* **Topic Filter** - Select a specific topic to focus the chart on. The default is **All**, which shows all categories available in the dataset.
+* **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is **All**, which shows all email and meeting activity that was categorized in the dataset.
+* **Time Filter** - Select what period of time you want to see chart data for, such as last month, last quarter, last six months, or last year. The default is **All**, which shows all time periods available in the dataset.
+
+  ![Time Spent on Category chart](./images/pexp-category-chart.png)
+
+## Email thread analysis
+
+You can skip categorizing the full dataset and focus on email activity for a filtered dataset. Use **Email Thread Analysis** to analyze email activity for a dataset that's filtered for a specific time period and for a specific group within a dataset. The time ranges and filter options are the same as what's available for categorization analysis.
+
+  ![Email Thread Analysis filter options](./images/pexp-email-thread-filters.png)
+
+Email Thread Analysis includes the following for the filtered dataset.
+
+  ![Email Thread Analysis](./images/pexp-email-thread.png)
+
+|Thread metric |Description |
+|--------------|-------------|
+|Threads originated |Distinct number of email threads.|
+|Total emails sent |Total number of sent emails.|
+|Touchpoints |Number of participants across all threads multiplied by the number of emails in the thread. |
+|Hours of email workload |Total number of hours spent on email threads.|
+|Average number of emails in a thread |Average number of emails sent within email threads. |
+|Participants in the typical thread |Average number of all participants in email threads, including passive participants.|
+|Distinct participant touchpoints |Number of thread participants multiplied by number of emails in the thread.|
+|Participation workload generated |Number of email hours generated by all participants in the thread. |
+|Active thread contributors |Number of participants within a thread that send at least one email in the thread. |
+|Average response time |For all forwards and replies, the average number of hours between the sent items and the perviously sent items in email threads. |
+|Average lifespan of a thread |The average number of days between thread origination and the last sent item in email threads. |
 
 ## Related topics
 
