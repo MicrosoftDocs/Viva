@@ -18,37 +18,30 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time.
 
-You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can either upload a .csv dataset to analyze meeting activity or connect to a blob (cloud) storage location to analyze meeting and email activity.
+You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can connect to a blob (cloud) storage location to analyze meeting and email activity.
 
 After you upload a dataset, you can use the Query Builder to help you decide what categories to add for analysis. You can select category names or phrases from the word cloud to view those meetings and then categorize them in the dashboard view.
 
 After you categorize a good sample of meetings into the specified categories:
 
 * You can view meeting data based on those categories with visual charts and lists.
-* **For a .csv dataset**, you can select to auto-categorize the full dataset based on the sample meeting categorizations already done by you, as the analyst.
-* **For a blob storage dataset**, the categorization options depend on what the template's admin settings are for email activity:
+* The categorization options depend on what the template's admin settings are for email activity:
   
   * If email categorization is enabled, you can use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which creates distinct models for the two types of content and more accurate overall results.
   * If no Email category page is shown, you can only see and use the Meeting category page to manually categorize meetings, which trains the model for auto-categorizing the full dataset (meeting and email activity).
 
 * You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analysis.
 
+You can also skip categorization and use the Email Thread Analysis page to get static summary information about email activity for a specific dataset. See [Email thread analysis](#email-thread-analysis) for more details.
+
 ## To add a new dataset
 
-Use the following steps to add either a .csv dataset for meeting data analysis or a blob storage dataset for analyzing both meeting and email data.
+Use the following steps to add a blob storage dataset for analyzing meeting and email data.
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
 2. Select **Add New Dataset** (top right).
-3. For **Select Dataset Type**, select either to upload meeting query output (.csv) to analyze or to connect and classify raw meeting and email data (blob storage), and then select **Next**.
-
-   ![Select a dataset type](./images/pexp-new-dataset.png)
-
-4. What you do next depends on which dataset type you selected:
-
-   * For **meeting query data**, enter a dataset name, locate and select the dataset file path, and then select **Upload Dataset**.
-   * For the **raw data** option, enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset to use to manually categorize for model training purposes, and then select **Submit**.
-
-5. The dataset upload takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table with the following information and available actions.
+3. In **Define Model Training Settings**, enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset to use to manually categorize for model training purposes, and then select **Submit**.
+4. The dataset upload takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table with the following information and available actions.
 
    * When the **Status** changes to a green check mark, you can select the dataset to view existing categorizations or add new categorizations.
    * Select the **Job Details** (i) icon next to **Status** to view the job details.
@@ -59,7 +52,7 @@ Use the following steps to add either a .csv dataset for meeting data analysis o
 
 ## To categorize meetings for analysis
 
-Use the following steps to manually categorize meetings for both dataset types. Meetings must be categorized for either meeting query output or blob storage data.
+Use the following steps to manually categorize meetings.
 
 1. On the **Process Explorer** page, select the dataset name from the list.
 2. What you do next depends on the dataset.
@@ -120,26 +113,26 @@ Use the following steps to manually categorize meetings for both dataset types. 
 
 ## Email activity analysis
 
-By using blob storage as the data source, you can get more complete analysis based on all meeting and email activity related to the selected process categories.
+You can get more complete analysis based on email activity related to the selected process categories.
 
 Ask your admin what is set for surfacing and classifying email activity for analysis. The admin can go to **Admin** > **Configuration** > **Process Explorer** and confirm which is selected:
 
   ![Categorize email admin setting](./images/pexp-admin-settings.png)
 
-For blob storage categorization, the system will limit the data used for categorizations to five million emails and meetings to improve interactivity. If you know the subset of data you want to focus on, you can set time range and/or filters to focus the data used.  If not, or if your filtering still results in more than five million values, the system will automatically choose a good representative sample from the complete filtered sample.
+For email categorization, the system will limit the data used for categorizations to five million emails and meetings to improve interactivity. If you know the subset of data you want to focus on, you can set time range and/or filters to focus the data used.  If not, or if your filtering still results in more than five million values, the system will automatically choose a good representative sample from the complete filtered sample.
 
-For a blob storage dataset, the categorization options depend of what the admin settings are for email activity:
+The email categorization option depends of what the admin settings are for email activity:
   
 * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
 * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which trains the model for auto-categorizing the full dataset, including both meeting and email activity.
 
 ### To categorize email activity for analysis
 
-1. If you haven't done so already, follow the steps to [add the blob storage dataset](#to-add-a-new-dataset).
-2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the blob storage dataset.
+1. If you haven't done so already, follow the steps to [add a new dataset](#to-add-a-new-dataset).
+2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the new dataset.
 3. If no **Email** category page is shown, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample meeting categorizations; this will take a few minutes or more depending on the size of the dataset.
 
-4. If the **Email** category page is available, then you can manually  manually categorize email activity by selecting **Email** > **Query Builder** and then entering one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
+4. If the **Email** category page is available, then you can manually manually categorize email activity by selecting **Email** > **Query Builder** and then entering one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
    * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
