@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
@@ -92,7 +90,7 @@ If you block out your calendar for personal work by using an appointment (see [C
 
 ### Focus time
 
-#### Q1. Does “focus time” exclude time that I block out for personal work on my calendar?
+#### Q1. Does "focus time" exclude time that I block out for personal work on my calendar?
 
 If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
 
@@ -179,9 +177,9 @@ The MyAnalytics dashboard is only available if your organization has a *qualifyi
 
 Your personalized data is only accurately calculated when you have a minimum level of activities with Office 365. Check back on your MyAnalytics dashboard in a few days to get a fully personalized experience.
 
-#### Q3. Even though I don’t have a MyAnalytics license, why is the MyAnalytics toggle "on" in the MyAnalytics dashboard's Feature settings? What will happen if I change it?
+#### Q3. Even though I don't have a MyAnalytics license, why is the MyAnalytics toggle "on" in the MyAnalytics dashboard's Feature settings? What will happen if I change it?
 
-MyAnalytics will not be available to you if you don’t have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the MyAnalytics toggle off in the [Feature settings](../overview/privacy-guide-users.md#how-you-can-opt-in-and-opt-out) on your MyAnalytics dashboard.
+MyAnalytics will not be available to you if you don't have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the MyAnalytics toggle off in the [Feature settings](../overview/privacy-guide-users.md#how-you-can-opt-in-and-opt-out) on your MyAnalytics dashboard.
 
 #### Q4. How can I find out what my plan is?
 
@@ -191,15 +189,15 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
  
-2.	In the upper-right corner, under **My account**, select **My account**: 
+2.    In the upper-right corner, under **My account**, select **My account**: 
 
     ![My account](../../images/mya/overview/my-account-2.png)
  
-3.	On the **My account** page, under **Subscriptions**, select **View subscriptions**:
+3.    On the **My account** page, under **Subscriptions**, select **View subscriptions**:
 
     ![View subscriptions](../../images/mya/overview/subscriptions_85.png)
  
-4.	On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
+4.    On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
 
     _In the following example, the plan is "Office 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
    
@@ -217,6 +215,10 @@ See [MyAnalytics languages](mya-languages.md).
 
 * Email sent by your assistant on your behalf is not included in your data. MyAnalytics only includes data about email that you send from your mailbox.
 * However, MyAnalytics does include your calendar events in your data, including the events created and accepted on your behalf by your assistant.
+
+#### Q7. Does MyAnalytics use cookies?
+
+MyAnalytics only uses cookies to authenticate users for the dashboard. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
 ### Insights Outlook add-in
 
@@ -281,7 +283,7 @@ The cards that show [Email read statistics](../use/add-in.md#email-read-statisti
 
 #### Q10. How can I pilot MyAnalytics to a subset of users?
 
-Turn on the “Insights by MyAnalytics” OR “MyAnalytics (Full)” service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+Turn on the "Insights by MyAnalytics" OR "MyAnalytics (Full)" service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
 #### Q11. How can I confirm that the Insights Outlook add-in is installed?
 
