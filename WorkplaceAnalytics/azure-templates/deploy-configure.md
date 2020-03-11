@@ -138,7 +138,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 ## Incoming Data
 
-On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This page enables you to see what data is available to create datasets with the templates and to easily delete data (trashcan icon in far right column) that's no longer needed.
+On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This page enables you to see what data is available to create datasets with the Process Explorer template and to easily delete data (trashcan icon in far right column) that's no longer needed.
 
 ## Process the data
 
