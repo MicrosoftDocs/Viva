@@ -94,7 +94,7 @@ After deployment, you need to create a write-only SAS URI on the raw data contai
 
     ![Example SAS URI](./images/example-sas-uri.png)
 
-## Configuration: Add users and assign roles
+## Add users and assign roles
 
 As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one or more of the following roles based on the tasks they need to accomplish with the templates:
 
@@ -108,20 +108,22 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 * **Analyst**
 
-  * Can access, use, and customize the analytical templates available through the Workplace Analytics Azure Templates website link.
+  * Can access, use, and customize the analytical templates available through a Workplace Analytics Azure Templates website link.
   * Can access, use, and customize the Power BI reports and dashboards connected to the Workplace Analytics Azure Templates.
 
 * **API User**
 
-  * Can access, use, and customize the analytical templates available through the Workplace Analytics Azure Templates website link.
+  * Can access and use a limited set of templates made available through a Workplace Analytics Azure Templates website link.
+  * Assign to allow automated processes access to data from specific scenarios.
 
 * **Data Owner**
 
-  * Can access, use, and customize the analytical templates available through the Workplace Analytics Azure Templates website link.
+  * Can access, use, and customize the analytical templates available through a Workplace Analytics Azure Templates website link.
+  * For the Join Datasets template, can share access to their joined datasets with other template users.
 
 * **Data Scientist**
 
-  * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as the Analyst.
+  * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as an Analyst.
   * Can also access the Azure Databricks Workspace and use Python or R scripts to derive new insights.
 
 **To add users and assign them roles:**
@@ -134,7 +136,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
     ![Add Workplace Analytics users](./images/add-user.png)
 
-4. In **Scenarios**, select the applicable templates that the user will need to use. Users can only use templates that you select here for them.
+4. In **Scenarios**, select the applicable templates for which the user needs access. Users can only access and use templates that are selected from this list.
 
 ## Incoming Data
 
@@ -165,7 +167,7 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
    ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
 
-## Configuration
+## Other configuration options
 
 As an admin, you can configure template settings in **Admin** > **Configuration**, including:
 
