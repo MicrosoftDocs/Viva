@@ -15,12 +15,12 @@ ms.prod: mya
 > [!Note]
 > Productivity insights powered by MyAnalytics are becoming broadly available to all Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
 
-  * [Privacy](#privacy) applies to everyone
+ * [Privacy](#privacy) applies to everyone
 
 The other sets of questions and answers are grouped by role:
 
-   * For [MyAnalytics users](#for-myanalytics-users)
-   * For [IT administrators](#for-it-administrators)
+ * For [MyAnalytics users](#for-myanalytics-users)
+ * For [IT administrators](#for-it-administrators)
 
 ## Privacy
 
