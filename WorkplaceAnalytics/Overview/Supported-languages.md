@@ -2,30 +2,29 @@
 # Metadata Sample
 # required metadata
 
-title: Workplace Analytics privacy and data access
+title: Workplace Analytics language support and guidelines
 description: Describes the privacy and data access controls available in Workplace Analytics 
-author: madehmer
-ms.author: madehmer
-ms.date: 04/17/2019
+author: paul9955
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+
 ---
 
 # Workplace Analytics language support and guidelines
 
-The Workplace Analytics user interface is currently available in English, Japanese, and French. However, you can use Workplace Analytics with data in other languages. For the best experience, use the following guidelines:
+The Workplace Analytics user interface is currently available in English, Japanese, and French. It is also available in preview mode in Chinese (Simplified), Chinese (Traditional), German, Italian, Korean, Portuguese (Brazil), Russian, and Spanish (Spain).
 
-## These items must be in English, Japanese, or French
+In certain circumstances, you can use Workplace Analytics with _data_ that is in other languages. Follow these guidelines:
 
-* Query names and descriptions
+* Query names and descriptions must be in English, Japanese, or French
 
-![Query names and descriptions](../Images/WpA/Overview/query-name-description.png)
+   ![Query names and descriptions](../Images/WpA/Overview/query-name-description.png)
 
-* Column headers for the organizational data when you [prepare the organizational data](../Setup/Prepare-organizational-data.md)
+* Column headers for the organizational data when you [prepare the organizational data](../Setup/Prepare-organizational-data.md) must be in English, Japanese, or French. 
 
-> [!TIP]
-> For content within organizational data, you can use languages other than English.
+* For content within organizational data, you can use languages other than English.
 
 ## Privacy settings
 
