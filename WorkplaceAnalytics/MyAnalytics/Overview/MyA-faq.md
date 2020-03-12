@@ -183,29 +183,28 @@ MyAnalytics will not be available to you if you don't have a license. However, y
 
 #### Q4. How can I find out what my plan is?
 
-Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have? 
+Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have?
 
 You can identify your _plan_ (and also your _service plan_) by following these steps:
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
- 
-2.    In the upper-right corner, under **My account**, select **My account**: 
+2. In the upper-right corner, under **My account**, select **My account**:
 
-    ![My account](../../images/mya/overview/my-account-2.png)
- 
-3.    On the **My account** page, under **Subscriptions**, select **View subscriptions**:
+   ![My account](../../images/mya/overview/my-account-2.png)
 
-    ![View subscriptions](../../images/mya/overview/subscriptions_85.png)
- 
-4.    On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
+3. On the **My account** page, under **Subscriptions**, select **View subscriptions**:
 
-    _In the following example, the plan is "Office 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
-   
-    ![service plan: Insights by MyAnalytics](../../images/mya/overview/licenses-plans-service-plans.png)
+   ![View subscriptions](../../images/mya/overview/subscriptions_85.png)
 
-    _In the following example, the plan is "Office 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
-    
-    ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
+4. On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
+
+   _In the following example, the plan is "Office 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
+
+   ![service plan: Insights by MyAnalytics](../../images/mya/overview/licenses-plans-service-plans.png)
+
+   _In the following example, the plan is "Office 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
+
+   ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
 
 #### Q5. In what languages are the elements of MyAnalytics available?
 
