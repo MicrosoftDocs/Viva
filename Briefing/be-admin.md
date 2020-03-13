@@ -18,8 +18,8 @@ audience: Admin
 As the admin, you can configure Briefing email for your organization. Before configuration, confirm the following.
 
 * **Prerequisite**: Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
-* **Data privacy**: See the [Privacy Guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization’s specific privacy requirements.
-
+* **Data privacy**: See the [Privacy Guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
+<!-- 3/13--Per Mathew says they might bring the tenant level instructions back, so keep just in case.
 ### To configure access at the tenant level
 
 As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English (US) will receive the Briefing email.
@@ -46,7 +46,7 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 You can enable or disable the Briefing email for all users in your organization at the tenant level. Use the following Exchange Online PowerShell cmdlets to set the tenant default:
 
   ```powershell
-  Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<”Opt-in” | “Opt-out”>]
+  Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<"Opt-in" | "Opt-out">]
   ```
 
    * If you set **BriefingEmailDefault** parameter to **Opt-out**, the Briefing email will be Off by default for your organization. Users can then opt-in at [briefing.microsoft.com](https://briefing.microsoft.com).
@@ -57,36 +57,55 @@ To get the current state of the Briefing email setting, use:
 ```powershell
 Get-OrganizationIntelligenceConfig
 ```
-    
+
 ## User-level configuration
+-->
+You can configure the Briefing email at the user level in your organization. At this level, you can completely opt-out or opt-in a user, which turns off or on all Briefing email functionality for that user.
 
-You can also configure the Briefing email for individual users in your organization. At this level, you can completely opt-out a user, which turns off all Briefing email functionality for that user. However, the user can choose to opt back in at [briefing.microsoft.com](https://briefing.microsoft.com).
+The user can choose to opt out or back in at any time at [briefing.microsoft.com](https://briefing.microsoft.com).
 
-* To enable or disable the Briefing email for a specific user in your organization, use the following Exchange Online PowerShell cmdlets, where you replace “Contoso\Jill” with your applicable organization and username:
+You can configure the Briefing email for users in your organization by setting the PrivacyMode parameter.
+
+You can set this parameter for one or many users:
+
+* Install the Exchange Online PowerShell V2 module
+* Set Briefing email access for one user
+* Set Briefing email access for multiple users
+
+## Install the Exchange Online PowerShell V2 module
+
+Follow the steps to install the module at [Install and maintain the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
+
+
+## Set Briefing email access for one user
+
+To enable or disable the Briefing email for a specific user in your organization, use the Exchange Online PowerShell V2 module and the following cmdlets, where you replace "joe@contoso.com" with your applicable username and organization:
 
     ``` powershell
-    Set-UserIntelligenceConfig -Identity Contoso\Jill [-BriefingEmailMode [<”Opt-in” | “Opt-out”>]
-     ```
+    Set-UserBriefingConfig -Identity joe@contoso.com [-BriefingEmailMode [<"Opt-in" | "Opt-out">]
+    ```
 
   - If you set the BriefingEmailMode parameter to Opt-out, the Briefing email will be Off by default for that user. Users can then opt-in from [briefing.microsoft.com](https://briefing.microsoft.com).
   - If you set the BriefingEmailMode parameter to Opt-in, the Briefing email will be On by default for that user. Users can then opt-out from [briefing.microsoft.com](https://briefing.microsoft.com). If no action occurs, this setting applies by default.
 
-  For example, to get the current state of the Briefing email flag for “Contoso\Jill,” you'd use:
+  For example, to get the current state of the Briefing email flag for "joe@contoso.com," you'd use:
 
     ``` powershell
-    Get-UserIntelligenceConfig -Identity Contoso\Jill
-     ```
+    Get-UserBriefingConfig -Identity joe@contoso.com
+    ```
 
-* Or you can set the parameter for multiple users with a PowerShell script that iterates through the users, changing the value one user at a time. Use the following script to:
+## Set Briefing email access for multiple users
+
+You can also set the parameter for multiple users with a PowerShell script that iterates through the users, changing the value one user at a time. Use the following script to:
 
   - List the user principal name for each user.
   - Set the specified Briefing email mode for each user.
   - Create a .csv file with all the users that were processed and shows their status.
 
-  1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field and the location of the users you want to configure. For example:
+  1. Create a comma-separated value (.csv) text file that contains the Identity of the users you want to configure. For example:
 
     ``` powershell
-    UserPrincipalName
+    -Identity
     ClaudeL@contoso.onmicrosoft.com
     LynneB@contoso.onmicrosoft.com
     ShawnM@contoso.onmicrosoft.com
@@ -102,15 +121,14 @@ You can also configure the Briefing email for individual users in your organizat
     $users=Import-Csv $inFileName
     ForEach ($user in $users)
     {
-    $user.Userprincipalname
-    $upn=$user.UserPrincipalName
-
-    Set-UserInelligenceConfig –Identity $upn -BriefingEmailMode $briefingEmailMode
-    Get-UserIntelligenceConfig –Identity $upn | Export-Csv $outFileName
+    $user.identity
+    $upn=$user.identity
+    Set-UserBriefingConfig –Identity $upn -BriefingEmailMode $briefingEmailMode
+    Get-UserBriefingConfig –Identity $upn | Export-Csv $outFileName
     }
      ```
 
-  3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).-->
+  3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
 
 
 ## Related topics
