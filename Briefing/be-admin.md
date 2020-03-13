@@ -64,13 +64,10 @@ You can configure the Briefing email at the user level in your organization. At 
 
 The user can choose to opt out or back in at any time at [briefing.microsoft.com](https://briefing.microsoft.com).
 
-You can configure the Briefing email for users in your organization by setting the PrivacyMode parameter.
+Install the Exchange Online PowerShell V2 module and then use it to set this parameter for one or many users:
 
-You can set this parameter for one or many users:
-
-* Install the Exchange Online PowerShell V2 module
-* Set Briefing email access for one user
-* Set Briefing email access for multiple users
+* [Set Briefing email access for one user](#set-briefing-email-access-for-one-user)
+* [Set Briefing email access for multiple users](#set-briefing-email-access-for-multiple-users)
 
 ## Install the Exchange Online PowerShell V2 module
 
@@ -106,9 +103,9 @@ You can also set the parameter for multiple users with a PowerShell script that 
 
     ``` powershell
     -Identity
-    ClaudeL@contoso.onmicrosoft.com
-    LynneB@contoso.onmicrosoft.com
-    ShawnM@contoso.onmicrosoft.com
+    ClaudeL@contoso.com
+    LynneB@contoso.com
+    ShawnM@contoso.com
      ```
 
   2. Specify the location of the input .csv file, the output .csv file, and the value of **BriefingEmailMode** of **Opt-in** or **Opt-out** for each user:
