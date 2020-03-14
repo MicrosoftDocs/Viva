@@ -14,14 +14,12 @@ ms.prod: mya
 
 # Focus plan
 
-<!-- REMOVE THIS NOTE PER PETERB 11 MARCH 2020. COMMENT OUT FOR NOW AND THEN DELETE AFTER A MONTH OR TWO: 
-
-_**Applies to:** Focus plan is currently available for MyAnalytics users who have an E5 license. Focus plan will become available to all MyAnalytics users in the coming months. MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. To determine your plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)._
--->
-
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
-The focus plan in MyAnalytics helps you block time every day for your top-priority work. MyAnalytics will help you schedule up to two hours every day to focus (with the option to automatically book that time), and silence chats in Teams and Skype for Business during that booked time. 
+<!-- 
+The focus plan in MyAnalytics helps you block time every day for your top-priority work. MyAnalytics will help you schedule up to two hours every day to focus and silence chats in Teams and Skype for Business during that booked time. 
+-->
+The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to two hours every day to focus. One way it promotes focus is by silencing chats in Teams and in Skype for Business during that booked time. 
 
 You can create or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
 
