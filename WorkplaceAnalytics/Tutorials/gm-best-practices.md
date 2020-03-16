@@ -138,7 +138,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Efficient communications</h3>
-                        <p>Learn how to set up team communication to increase productivity.</p>
+                        <p>Learn how to set up team communication to speed up agility and access to information and increase productivity.</p>
                     </div>
                 </div>
             </div>
