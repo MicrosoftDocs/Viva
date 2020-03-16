@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
@@ -20,7 +18,7 @@ Did you ever miss an important email or forget a commitment you made to your co-
 
 If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
 
-This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, and improve your overall work-life balance.
+This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, plan time away from work, and improve your overall work-life balance.
 
 > [!Note]
 > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
@@ -29,11 +27,58 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**. (For easier access in Outlook on the web, you can pin the Insights Add-in to the quick access pane. See [Pin the add-in](#pin-the-add-in) for details.)
 
-You'll see Insights in the right panel in Outlook:
+You'll see Insights similar to the following in the right pane in Outlook:
 
-![Insights panel](../../images/mya/overview/insights-cards-12.png)
+![Insights icon](../../images/mya/overview/insights-view.png)
+![Insights panel](../../images/mya/overview/insights-cards-14.png)
+<!-- 
+## Plan your time away
 
-## Email read statistics 
+Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
+
+You can use Insights to help you reduce stress by helping plan your time away on your calendar, including helping you:
+
+* Resolve all your meetings in one place with a custom message about your scheduled time off.
+* Compose your auto-reply messages and notify your team about your scheduled time off.
+* Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
+
+You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan. For example, this shows only the first task as done:
+
+   ![Insights plan your time away task list](../../images/mya/overview/insights-plan-time-away.png)
+
+**To plan your time away**
+
+1. In the **Insights** pane, select **Plan your time away**.
+2. In **Select dates**, select the date range for your time off, and then select **Schedule**.
+
+   ![Insights select dates](../../images/mya/overview/insights-select-dates.png)
+
+3. In **Set automatic replies**, compose or edit the automatic reply message that people will receive when they send you messages or invites while you're away from work. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
+
+   ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
+
+4. In **Notify collaborators**, select who you want to notify about your upcoming holiday plans, and then:
+
+   * Select **Open new email draft** to compose the message.
+   * Select **Open new meeting invitation** to add your scheduled time off on their calendars.
+
+5. In **Resolve meetings** > **Review meetings**, you can see all the meetings that are scheduled during your time off. Any meetings that you scheduled will be canceled and any meetings you're an attendee of will be declined:
+
+   * In **Decline and cancel meetings with this message**, edit the message that'll be sent with the meeting invitation decline or cancel message.
+   * In **Select meetings to decline or cancel**, select which meetings you want to cancel or decline, and then select **Confirm**. Or you can select **Open** next to a meeting to see more details, reschedule, and resolve if differently than the others on your calendar.
+
+    ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
+
+6. In **Book time to focus**, Insights will show you a what time is available on your calendar to focus on wrapping up work before you go and on catching up after you get back.
+
+    ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
+-->
+<!-- Coming soon-> When you get back, Insights helps you catch up on important email and review new documents and activity that occurred while you were away:
+
+![Insights welcome back](../../images/mya/overview/insights-welcome-back.png)
+-->
+
+## Email read statistics
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
@@ -45,7 +90,7 @@ Insights shows the open rate for the sent email that is open in Outlook. It also
 
 ### Reporting details
 
-Insights does not display read information about every email that you send. Please note the following circumstances.
+Insights does not display read information about every email that you send, such as in the following circumstances.
 
 #### Requirement: qualifying messages
 
@@ -55,10 +100,10 @@ Read statistics are shown only for _qualifying messages_. A qualifying message i
 
 Insights does not report about email messages in the following categories:
 
- * Email that was sent from a shared mailbox
- * Email that was sent more than 14 days ago.
- * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
- * Email sent to modern groups. (If users are following the modern group, they are included in the count.)
+* Email that was sent from a shared mailbox
+* Email that was sent more than 14 days ago.
+* Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
+* Email sent to modern groups. (If users are following the modern group, they are included in the count.)
 
 #### Open rate
 
@@ -119,7 +164,7 @@ Note the following about the reporting of read-statistics data:
 
 MyAnalytics can help you follow up on requests you asked of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails. For example:
 
-* "Can you send me this year’s latest report?"
+* "Can you send me this year's latest report?"
 * "Everyone, please complete your performance evaluations by the end of the week."
 * "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
 
@@ -128,7 +173,7 @@ For one or more of these types of requests in your sent email in the last 14 day
 **To see your follow-up card**
 
 1. On the Outlook **Home** ribbon, select the **Insights** icon.
-2. In the **Insights** panel, you’ll see the **Follow up on your requests** card.
+2. In the **Insights** panel, you'll see the **Follow up on your requests** card.
 
    ![Follow-up card](../../Images/mya/use/follow-up-340.PNG)
 
@@ -137,7 +182,7 @@ For one or more of these types of requests in your sent email in the last 14 day
    * Select the email subject line from which the task was extracted to open that specific email.
    * Select **Follow up** to open the latest instance of the email.
    * Select **Mark as done** if the task is complete. Follow-ups disappear after two weeks or after you mark them as done.
-   * If this task isn’t a follow-up, select the **ellipsis** (**…**) at bottom right, and then select This isn’t’ a follow up.
+   * If this task isn't a follow-up, select the **ellipsis** (**…**) at bottom right, and then select This isn't' a follow up.
 
    ![Follow-up card details](../../Images/mya/use/follow-up-details-340.PNG)
 
@@ -152,15 +197,15 @@ The meeting preparation card shows you a list of upcoming meetings that you have
 
 #### To view and use the meeting preparation card
 
-1.	On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn’t already open, it opens now. 
+1. On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn't already open, it opens now. 
 
-2.	On the **Insights** panel, locate the **Prepare for your meetings** card: 
+2. On the **Insights** panel, locate the **Prepare for your meetings** card: 
  
     ![Meeting preparation card](../../Images/mya/use/meeting-prep-card.png)
 
     This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
 
-3.	Select the **Prepare for your meetings** card. This opens a panel that displays insights cards for each of your upcoming meetings: 
+3. Select the **Prepare for your meetings** card. This opens a panel that displays insights cards for each of your upcoming meetings: 
 
     ![Meeting preparation panel](../../Images/mya/use/meeting-prep-panel.png)
  
@@ -169,11 +214,11 @@ These insights cards inform you of the following:
 | Card section | Notes | Recommendations |
 | ------------ | ----- | --------------- |
 | (Card title) | Meeting title and time of occurrence |
-| Attendees    | The percentage of invitees who have accepted, and the number of invitees. Click **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven’t heard from them. |
+| Attendees    | The percentage of invitees who have accepted, and the number of invitees. Click **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
 | Agenda       | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. |
 | Attachments  | This section shows how many attachments the invitation has, it displays their titles and their storage location (online or locally), and it lets you click to see more details. It also provides a link that you can select to open the attachment, if the attachment is stored online. |  
 | Online meeting link | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online. | **Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one.  |
-| Preparation time | This section provides options to book either 15 minutes or 30 minutes of preparation time right before the meeting. This option only appears if there is an available slot. Booked time appears on your calendar and references the meeting, as “Preparation time for [meeting title].” You can also cancel the meeting-preparation time or delete it directly from your calendar. | **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time.  |
+| Preparation time | This section provides options to book either 15 minutes or 30 minutes of preparation time right before the meeting. This option only appears if there is an available slot. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time.  |
 
 _This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
 
@@ -203,7 +248,7 @@ If you're using Outlook on the web, you can pin the Insights add-in to the quick
 
     ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
 
-6. Save your new settings: 
+6. Save your new settings:
 
     ![Save settings](../../images/mya/use/save-settings.png) 
 
@@ -216,11 +261,11 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
 
 ## To add tasks to your focus time
 
-1.	In Outlook, select **Insights**.
+1.    In Outlook, select **Insights**.
 
-2.	In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
+2.    In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
 
-3.	On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
+3.    On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
 
      * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
 
@@ -253,5 +298,3 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
-
-
