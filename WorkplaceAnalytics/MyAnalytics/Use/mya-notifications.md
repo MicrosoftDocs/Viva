@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
-author: paul9955
-ms.author: v-midehm
+ms.author: paul9955
+author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -22,34 +20,52 @@ _**Applies to:** MyAnalytics elements are available in varying levels to users o
 
 Inline suggestions in Outlook are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.  
 
-Inline suggestions can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of inline suggestions](#types-of-inline-suggestions) lists some of the inline suggestions you might see in Outlook.
+Inline suggestions can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of inline suggestions](#types-of-inline-suggestions) lists some of what you might see in Outlook.
 
 > [!Note]
 > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 ## How inline suggestions work
 
-Insights can display inline suggestions in the following ways.
+Insights includes the following types of inline suggestions.
 
-1. While composing a meeting invitation or an email.
+* **Delay email delivery**: When composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. These suggestions are currently only available to [Office 365 E5 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
 
-   ![inline suggestions meeting image 01](../../Images/mya/use/nudges-meeting-01.png)
+   ![inline suggestions email](../../Images/mya/use/nudges-email.png)
 
-   In this example, the suggestion is shown at the top of an email, reminding you of the after-hours impact you’ll generate for your colleagues. It suggests you clarify the email's urgency, so that recipients know if it can wait until working hours. Alternatively, you can hide the suggestion temporarily by selecting **Dismiss this message**.
+   **To delay email delivery**
 
-2. While reading an email or a calendar invitation.
+   1. When you see a suggested delivery time, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
+   2. An insight opens to show the scheduled time. You can select:
+
+      * **Send** (within the email) to send the email at that scheduled time.
+      * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
+      * **Cancel** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
+
+        ![insights delay delivery](../../Images/mya/use/insights-delay-delivery.png)
+
+   3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
+
+      Before the message is sent, you can open the message and select:
+
+      * **Send now** to ignore the scheduled delivery time and send the email now.
+      * **Cancel delay delivery** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
+
+        ![inline suggestion cancel delivery delay](../../Images/mya/use/nudges-cancel-delay.png)
+
+* **Outstanding tasks**: When reading an email or a calendar invitation, you might see a suggestion to review outstanding tasks for a recipient.
 
    ![inline suggestions email image 02](../../Images/mya/use/nudges-email-02.png)
 
-3. While reading an email, it might remind you of a potential outstanding task for the email sender. Selecting the link takes you to Insights, which shows you the list of task items.
+   You can select **See my tasks** to see and follow up on the potentially outstanding task in **Insights**. As shown in this graphic, you can open the related task (**Re: group manager docs**) for more details, or select **Mark as done** or **Not a task** to remove it from your task list.
 
-   ![inline suggestions meeting image 03](../../Images/mya/use/nudges-meeting-summary_03.png)
+   ![inline suggestions meeting image 03](../../Images/mya/use/nudges-meeting-01.png)
 
-## Why don’t I see any inline suggestions?
+## Why don't I see any inline suggestions?
 
 Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing email and while you have a meeting invitation open. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
 
-Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in). 
+Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
 
 ## Providing feedback
 
@@ -78,13 +94,13 @@ The following are a few of the suggestions you might see in Outlook.
 
 | Where it shows up | What it says | How it helps |
 | :------ | ------- | --------- |
-|Email compose  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
+|Composing email  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;  &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. Or if you prefer to work on email outside working hours, use the delay delivery suggestion to schedule delivery of email when more recipients are in their working hours. The **Delay delivery** option enables you to get work done when you want without impacting or disturbing your team outside of their working hours. |
 
 ### Build better collaboration habits
 
 | Where it shows up | What it says | How it helps |
 | :------ | ------- | --------- |
-| Meeting compose &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes.  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  |
+| Scheduling meetings &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes.  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  |
 
 ## Opt out of inline suggestions
 
@@ -107,4 +123,3 @@ The following are a few of the suggestions you might see in Outlook.
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out, you can opt back in any time to regain access to inline suggestions.
-
