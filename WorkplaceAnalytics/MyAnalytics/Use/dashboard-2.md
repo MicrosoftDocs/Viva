@@ -97,7 +97,7 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 5. Select **Save** to save your changes.
 
 > [!NOTE]
-> It might take up to 24 hours for your saved changes to take effect.  See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digests or inline suggestions.
+> It might take up to 24 hours for your saved changes to take effect. See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digests or inline suggestions.
 
 ### If I am opted out, can I opt back in?
 
