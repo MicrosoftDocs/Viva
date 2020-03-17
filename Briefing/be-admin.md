@@ -60,7 +60,7 @@ Get-OrganizationIntelligenceConfig
 
 ## User-level configuration
 -->
-You can configure the Briefing email at the user level in your organization. At this level, you can completely opt-out or opt-in a user, which turns off or on all Briefing email functionality for that user.
+You can configure the Briefing email at the user level in your organization. At this level, you can enable or disable it for a user, which turns off or on all Briefing email functionality for that user.
 
 The user can choose to opt out or back in at any time at [briefing.microsoft.com](https://briefing.microsoft.com).
 
@@ -73,17 +73,19 @@ Install the Exchange Online PowerShell V2 module and then use it to set this par
 
 Follow the steps to install the module at [Install and maintain the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
 
+> [!Note]
+> Before configuring access, confirm you're connected to [Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#connect-to-exchange-online-using-the-exo-v2-module).
 
 ## Set Briefing email access for one user
 
 To enable or disable the Briefing email for a specific user in your organization, use the Exchange Online PowerShell V2 module and the following cmdlets, where you replace "joe@contoso.com" with your applicable username and organization:
 
     ``` powershell
-    Set-UserBriefingConfig -Identity joe@contoso.com [-BriefingEmailMode [<"Opt-in" | "Opt-out">]
+    Set-UserBriefingConfig -Identity joe@contoso.com [-Enabled [<"$true" | "$false">]
     ```
 
-  - If you set the BriefingEmailMode parameter to Opt-out, the Briefing email will be Off by default for that user. Users can then opt-in from [briefing.microsoft.com](https://briefing.microsoft.com).
-  - If you set the BriefingEmailMode parameter to Opt-in, the Briefing email will be On by default for that user. Users can then opt-out from [briefing.microsoft.com](https://briefing.microsoft.com). If no action occurs, this setting applies by default.
+  - If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user.
+  - If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from [briefing.microsoft.com](https://briefing.microsoft.com). If no action occurs, this setting applies by default.
 
   For example, to get the current state of the Briefing email flag for "joe@contoso.com," you'd use:
 
@@ -95,9 +97,9 @@ To enable or disable the Briefing email for a specific user in your organization
 
 You can also set the parameter for multiple users with a PowerShell script that iterates through the users, changing the value one user at a time. Use the following script to:
 
-  - List the user principal name for each user.
-  - Set the specified Briefing email mode for each user.
   - Create a .csv file with all the users that were processed and shows their status.
+  - List the user principal name for each user.
+  - Set the specified Briefing email Enabled parameter for each user.
 
   1. Create a comma-separated value (.csv) text file that contains the Identity of the users you want to configure. For example:
 
@@ -108,19 +110,19 @@ You can also set the parameter for multiple users with a PowerShell script that 
     ShawnM@contoso.com
      ```
 
-  2. Specify the location of the input .csv file, the output .csv file, and the value of **BriefingEmailMode** of **Opt-in** or **Opt-out** for each user:
+  2. Specify the location of the input .csv file, the output .csv file, and the value of **Enabled** to **$true** or **$false** for each user:
 
     ``` powershell
-    $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2Opt-out..csv>"
-    $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2Opt-out-Done..csv>"
-    $briefingEmailMode = "Opt-in"
+    $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2Opt-in..csv>"
+    $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2Opt-in-Done..csv>"
+    $briefingEmailMode = "$true"
     
     $users=Import-Csv $inFileName
     ForEach ($user in $users)
     {
     $user.identity
     $upn=$user.identity
-    Set-UserBriefingConfig –Identity $upn -BriefingEmailMode $briefingEmailMode
+    Set-UserBriefingConfig –Identity $upn -Enabled $briefingEmailMode
     Get-UserBriefingConfig –Identity $upn | Export-Csv $outFileName
     }
      ```
