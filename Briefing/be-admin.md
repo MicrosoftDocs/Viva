@@ -20,7 +20,7 @@ As the admin, you can configure Briefing email for your organization. Before con
 * **Prerequisite**: Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Data privacy**: See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
 
-## To configure access at the tenant level
+### To configure access at the tenant level
 
 As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English (US) will receive the Briefing email.
 
