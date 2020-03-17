@@ -96,7 +96,7 @@ After deployment, you need to create a write-only SAS URI on the raw data contai
 
 ## Add users and assign roles
 
-As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one or more of the following roles based on the tasks they need to accomplish with the templates:
+As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one of the following roles based on the tasks they need to accomplish with the templates:
 
 * **Azure Templates Admin**
 
@@ -130,7 +130,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 1. Use the website link (from the last step in Deployment) to open the Workplace Analytics Azure Templates.
 
-2. Select **Admin** > **User Management** > **Add New User** (upper right).
+2. Select **Admin** > **User Management** > **Add New User**.
 
 3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 

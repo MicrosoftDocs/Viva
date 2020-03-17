@@ -1,9 +1,12 @@
 ---
+# Metadata Sample
+# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Process Explorer Azure Template for Workplace Analytics 
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
+ms.author: v-midehm
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -27,10 +30,10 @@ After you categorize a good sample of meetings into the specified categories:
 * You can view meeting data based on those categories with visual charts and lists.
 * The categorization options depend on what the template's admin settings are for email activity:
   
-  * If email categorization is enabled, you can use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which creates distinct models for the two types of content and more accurate overall results.
-  * If no Email category page is shown, you can only see and use the Meeting category page to manually categorize meetings, which trains the model for auto-categorizing the full dataset (meeting and email activity).
+  * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
+  * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which creates distinct models for the two types of content and more accurate overall results.
 
-* You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analysis.
+* You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analyses.
 
 You can also skip categorization and use the Email Thread Analysis page to get static summary information about email activity for a specific dataset. See [Email thread analysis](#email-thread-analysis) for more details.
 
@@ -159,9 +162,7 @@ The email categorization option depends of what the admin settings are for email
 
 8. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and then repeat these steps to categorize email.
 
-## Category analysis
-
-You can see data about *categorized email and meetings* on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current data shown on the **Dashboard** page.
+You can see data about the categorized email and meetings on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current data shown on the **Dashboard** page.
 
   ![Email activity included in the analysis](./images/pexp-dashboard.png)
 

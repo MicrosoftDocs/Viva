@@ -109,7 +109,7 @@ When appending new attributes to an existing upload, you need to select all the 
 
    * **Required attributes:** Because PersonId and EffectiveDate are required attributes, their Validity threshold value is 100%. This value cannot be changed.
 
-   * **Fields with minimum values:** The Validation threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95% by default, but you can increase this value.
+   * **Fields with minimum values:** The threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95% by default.
 
    * **Other system fields:** The Validation threshold for other system fields is set to 95% by default, but you can increase or decrease this value.
 
