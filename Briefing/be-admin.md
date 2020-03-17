@@ -18,7 +18,7 @@ audience: Admin
 As the admin, you can configure Briefing email for your organization. Before configuration, confirm the following.
 
 * **Prerequisite**: Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
-* **Data privacy**: See the [Privacy Guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
+* **Data privacy**: See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
 <!-- 3/13--Per Mathew says they might bring the tenant level instructions back, so keep just in case.
 ### To configure access at the tenant level
 
