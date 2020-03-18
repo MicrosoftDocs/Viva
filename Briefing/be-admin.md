@@ -31,8 +31,8 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
     ![New admin center](./images/the-new-admin-center.png)
 
-3. In the left pane, expand **Settings**, and then select **Services & add-ins**.
-4. Under **Services & add-ins**, select **Briefing email (Preview)**.
+3. In the left pane, expand **Settings**, and then select **Services**.
+4. Under **Services**, select **Briefing email (Preview)**.
 5. Select or deselect the checkbox next to **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the Briefing email and individual users cannot override this setting.
 
    ![Briefing email access](./images/be-admin.png)
