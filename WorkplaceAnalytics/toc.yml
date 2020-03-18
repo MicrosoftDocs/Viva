@@ -174,7 +174,6 @@
   items:   
     - name: Introduction
       href: MyAnalytics/MyA-landing-page.md
-      homepage: /myanalytics 
     - name: Why use MyAnalytics?
       href: MyAnalytics/Overview/Better-work-habits.md        
     - name: Reference
