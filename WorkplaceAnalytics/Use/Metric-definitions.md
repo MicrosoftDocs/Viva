@@ -27,7 +27,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.)|Person|Hour|Yes|
 |Email hours|Number of hours the person spent sending and receiving emails.|Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
-|External network size|Number of people external to the company with whom the person had at least two meaningful interactions (a meeting or email between eight or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes|
+|External network size|Number of people external to the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes|
 |Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
 |Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
