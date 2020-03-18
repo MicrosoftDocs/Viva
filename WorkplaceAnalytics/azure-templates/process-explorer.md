@@ -33,7 +33,7 @@ After you categorize a good sample of meetings into the specified categories:
 
 * You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analyses.
 
-You can also skip categorization and use the Email Thread Analysis page to get static summary information about email activity for a specific dataset. See [Email thread analysis](#email-thread-analysis) for more details.
+You can also skip categorization and use the **Email Thread Analysis** page to get static summary information about email activity for a specific dataset. See [Email thread analysis](#email-thread-analysis) for more details.
 
 ## To add a new dataset
 
