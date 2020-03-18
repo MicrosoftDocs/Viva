@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for avoiding email overload
 description: Workplace Analytics shares best practices with managers about how to avoid email overload
 author: madehmer
@@ -29,4 +29,4 @@ Based on research presented in the article about [Protecting company culture mea
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)

@@ -5,7 +5,7 @@ description: Learn about your work patterns in MyAnalytics
 author: paul9955
 ms.author: madehmer
 ms.topic: article
-localization_priority: normal 
+localization_priority: priority 
 ms.prod: mya
 
 ---
@@ -16,7 +16,8 @@ _**Applies to:** MyAnalytics elements are available in varying levels to users o
 
 Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
-### To open the dashboard 
+### To open the dashboard
+
  * Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com) to open your personal MyAnalytics dashboard.
 
    > [!Note]
@@ -49,9 +50,21 @@ For more details and tips, see [Network](../use/network.md) and [Collaboration](
 
 ## Productivity insights
 
-These are based on your recent workplace activity. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns.
+MyAnalytics gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.  
+
+![Weekly digest insight](../../Images/mya/use/digest-insight.png)
+
+These insights are also available on your MyAnalytics dashboard home page as well as on the specific outcome pages. Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
 
 ![Productivity insights](../../Images/mya/use/productivity.png)
+
+If you don’t meet the qualifications for specific productivity insights on the dashboard, the cards will show you educational tips instead. Educational tips are only available in the dashboard.
+
+### Educational tips
+
+Educational cards give you work productivity and wellbeing tips and ideas, which come from a variety of resources, such as academic and industry research. MyAnalytics refreshes these cards periodically to reflect your most recent work patterns. You can come back at a later time to check out new sets of productivity and educational insights.
+
+![Educational insights](../../Images/mya/use/educational-tips.png)
 
 ## Config Settings
 
@@ -84,7 +97,7 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 5. Select **Save** to save your changes.
 
 > [!NOTE]
-> It might take up to 24 hours for your saved changes to take effect.  See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digests or inline suggestions.
+> It might take up to 24 hours for your saved changes to take effect. See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digests or inline suggestions.
 
 ### If I am opted out, can I opt back in?
 

@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Home pages for analysts
+title: Workplace Analytics Insights
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your organization
 author: madehmer
 ms.author: madehmer
@@ -9,11 +9,11 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Home pages for analysts
+# Workplace Analytics Insights
 
-As a business leader, an analyst, or a program manager, you can use the new **Home** pages to see research-based behavioral insights into how your organization gets work done.
+As a business leader, an analyst, or a program manager, you can use these pages to see research-based behavioral insights into how your organization gets work done.
 
-![Home page](../images/wpa/use/wpa-home.png)
+![Home page](../images/wpa/use/wpa-home-1.png)
 
 ## Analysis scope
 
@@ -43,9 +43,9 @@ For example, are your employees engaged often and deeply with customers? Researc
 
 ![Customer focus](../images/wpa/use/customer-focus.png)
 
-## Supporting evidence
+## Supporting evidence and Best practices
 
-Each insight includes **Supporting evidence** that links you to a related article at [Microsoft Workplace Insights](https://insights.office.com/). These articles are authored by:
+Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
 
 * Industry experts based on research.
 * Organizations that have effectively used Workplace Analytics to improve their business outcomes.
@@ -69,15 +69,16 @@ The following describes the metrics used in each of the business insight questio
 
 |Question |Metric description  |
 |---------|--------------------|
-|Are employees finding time to recharge? |The number of employees that spend greater than one hour outside of their designated work hours in meetings and email each week, divided by the total number of measured employees. |
-|Are your employees overloaded by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. |
-|Are your employees getting enough time with their manager? |The number of employees who have fewer than 15 minutes of 1:1 time with their manager each week (based on the total 1:1 time in the month), divided by the total number of measured employees. |
-|Do employees have time to focus? |The number of employees who have less than 20 hours each of available time for focused work, divided by the total number of measured employees. |
-|Are managers accessing diverse information? |The number of managers who had fewer than three meaningful connections outside of their organization each month. |
-|Where are the influencers in your company? |The number of organizations who have fewer than expected numbers of influencers, which are based on thresholds defined for the organization and company size. |
-|Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. |
-|How is the customer collaboration in your company?	|Groups that spend the highest proportion of their collaboration time externally. |
-|Are employees building customer networks? |Groups that spend time with the most external domain connections. |
+|Are employees getting enough time with their managers? |One-on-one time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
+|Are employees working after hours? |After-hours work is the number of hours employees spend in meetings and on email outside of working hours. This uses the working hours set in the employee's Outlook calendar settings. |
+|Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. Email workload is the number of hours employees spend sending and receiving email.|
+|Are employees burdened by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. Long meetings are those scheduled for more than an hour. Large meetings are those that involve more than eight people.|
+|Do employees have time to focus? |The number of employees who have less than 20 hours each of available time for focused work, divided by the total number of measured employees. Focus time is when employees have two or more consecutive hours with no meetings. |
+|Are managers connected across the company? |Manager cross-team connections are the number of departments outside their own that the manager had meaningful interactions with in the last 28 days. A meaningful interaction is defined as an email or meeting that includes two to five people. |
+|Do employees collaborate across the company? |Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. This insight highlights the organizations that spend more than 50 percent of their overall collaboration within their group. |
+|Are influencers present across the company? |Influencers are employees who have the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
+|Are employees sharing information quickly? |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 10 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |
+
 
 ## Frequently asked questions
 
@@ -88,10 +89,10 @@ The home pages show insights only for the participants that are included in the 
 ### Q2 Which roles have access to this home page dashboard?
 
 The analyst, limited analyst, and program manager roles can access these home pages. People managers can only see data about their teams, see [Workplace Analytics Home for people managers](pm-home.md) for more details.
- 
+
 ## Related topics
 
 * [Explore the metrics](explore-intro.md)
 * [Plans](../tutorials/solutionsv2-intro.md)
 * [Metric descriptions for Workplace Analytics](metric-definitions.md)
-* [Workplace Analytics Home page for People Managers](pm-home.md)
+* [Workplace Analytics Home pages for people managers](pm-home.md)

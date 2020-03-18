@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for connectedness
 description: Workplace Analytics shares best practices with managers about connecting with their teams and employees
 author: madehmer
@@ -30,4 +30,4 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)

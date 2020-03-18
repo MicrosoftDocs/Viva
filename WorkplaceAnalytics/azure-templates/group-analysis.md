@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Group Analysis Azure Template for Workplace Analytics 
 description: Learn about the Group Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
@@ -57,8 +54,8 @@ The Match Verification helps you determine if the matching process selected an a
 
 The following example shows good KPI overlap between the two groups with a good propensity score for Group A (evaluated group). You can view the score details by hovering your cursor over the graph data. The **propensity score** is the probability that a person will be in the group you chose to analyze based on that person’s confounding attributes. It’s a simplified way of verifying that all confounding attributes are appropriately controlled in the analysis.
 
-
   ![Good KPI overlap for group analysis](./images/group-kpi-overlap.png)
+  
 Before any matching occurs, you need to justify the matching process by comparing the propensity score distributions of the two groups to confirm sufficient overlap between the two. Because the overlap is sufficient to justify the matching process in this example, you’d then want to verify that the subset of people selected to be in the control group (Other) have a similar propensity score distribution as the evaluated group (Group A). When the distributions are similar, you can be more confident that the group analysis and sensitivity results are justified.
 
 On the Group Analysis page, you can see the Absolute and Standardized KPI Differences between the two groups. This gives you an overall picture of what the important differences are between the evaluated and control groups, as shown in the following graphic.

@@ -20,7 +20,7 @@ The Briefing email helps you stay in control of your calendar and be intentional
 
 ## Why am I getting this?
 
-You are receiving the Briefing email because your admin has enabled this email for your organization. If you are not receiving the Briefing email, it may be because you previously unsubscribed, or because your administrator has disabled it for your organization.
+You are receiving the Briefing email because your admin has enabled this email for your organization. If you are not receiving the Briefing email, it might be because you previously unsubscribed, or because your administrator has disabled it for your organization.
 
 Please contact your admin if you'd like to receive the Briefing email. This email is not controlled with the Cortana app and is unrelated to any Cortana on Windows settings. To opt out, go to [briefing.microsoft.com](https://briefing.microsoft.com).
 
@@ -53,10 +53,10 @@ As a new user, your first Briefing email explains how to use it to prepare for u
   
    ![First Briefing email](./images/first-briefing.png)
 
-## Configuration
+<!--  ## Configuration
 
 The Briefing email needs to be set up for your organization by the admin. See [Configure the Briefing email](be-admin.md) for details about configuration.
-
+-->
 ## Using the Briefing email
 
 Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-version), the Briefing email includes the following sections:

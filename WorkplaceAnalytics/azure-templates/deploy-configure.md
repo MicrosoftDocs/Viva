@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Deploy and configure Workplace Analytics Azure Templates 
 description: Learn how to deploy and configure Workplace Analytics Azure Templates
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -12,7 +12,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Deploy and configure Workplace Analytics Azure Templates 
+# Deploy and configure Workplace Analytics Azure Templates
 
 _These templates are only available as part of a Microsoft service engagement._
 
@@ -21,6 +21,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
  - [Review the security considerations](#security-considerations)
  - [Confirm the prerequisites](#prerequisites)
  - [Deploy the templates](#deployment)
+ - [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
  - [Configure the templates](#configuration-add-users-and-assign-roles)
  - [Process the data](#process-the-data)
  - Additional [configuration](#configuration) and [Audit logs](#audit-logs) are also available
@@ -51,34 +52,47 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
 1. Get and open the Azure deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
 2. On the **Getting Started** page, select **Next**.
-3. When prompted, select the Azure subscription.
+3. When prompted, select the applicable Azure subscription.
 4. For **Resource group**, you can select to:
 
    * **Create new** to create a new resource group.
    * **Use existing** to use an existing resource group and append the existing group with what's needed for this template, including any updates for any of the other templates in this group.
 
 5. Select the applicable **Region** and then select **Next**.
-6. On the **Deployment Review** page, confirm the selections and then select **Next**.
-7. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
-8. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source.
-9. On the **Summary** page, select a SKU for the data cluster, which must be about 30 percent larger than your Workplace Analytics dataset (ask your Workplace Analytics Admin for help with this), for the following Azure components:
+6. On the **Choose SKU** page, select the SKU or Pricing Tier for one or more of the Azure Components that you'll use with the templates. You should've gotten these SKU recommendations with the deployment URL or during your team deployment meeting.
+7. On the **Deployment Review** page, confirm the selections, and then select **Next**.
+8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
+9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
+10. In **Deployment Review**, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it. Then select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
 
-   * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
-   * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
-   * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
-   * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-   * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
-   * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
-   * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
+    * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
+    * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
+    * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
+    * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
+    * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
+    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
+    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
 
-10. Select **Next** and review deployment information. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
-11. In **Deployment Review**, select **Next** to deploy and configure the resources for the Azure components. This two-phase deployment can take up to 60 minutes to complete.
-12. After the deployment is complete, open, copy, and save the deployed website link for the templates, as shown in the following graphic.
+11. After the deployment is complete, open, copy, and save the deployed website link for the templates, similar to the one shown in the following graphic.
 
     >[!Important]
     >You must save this deployment link because you and the other users you add need the link to configure and use the templates.
 
     ![Azure Templates deployment](./images/deployed-website-link.png)
+
+## Generate SAS URI for data export
+
+After deployment, you need to create a write-only SAS URI on the raw data container in the storage account created during the deployment. The SAS URI is given to the Workplace Analytics admin to configure the weekly automated data access feed that is required to drive a few of the Azure Templates.
+
+1. Use Storage Explorer (or Storage Explorer (preview) web) application to view the raw data container in the storage account created during deployment.
+2. Right-click the **rawdata** folder and select **Get Shared Access Signature**.
+3. In **Shared Access Signature**, set a two-year expiry time.
+4. In **Permissions**, confirm only **Write** is selected, and then select **Create**.
+5. For the URI, select **Copy** to copy the complete URI, which will be similar to the example URI in the following graphic.
+6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [automatic data exports](../data-access/data-access.md#to-export-data-from-workplace-analytics).
+
+    ![Example SAS URI](./images/example-sas-uri.png)
 
 ## Configuration: Add users and assign roles
 
@@ -110,7 +124,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 
-     ![Add Workplace Analytics users](./images/add-user.png)
+    ![Add Workplace Analytics users](./images/add-user.png)
 
 ## Process the data
 
@@ -118,11 +132,11 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 1. In Azure Resource groups, locate the folder that the deployment just created. The new resource group name begins with **wpaappsrg** and includes the deployment date and time, as shown in the following graphic.
   
-   ![Workplace Analytics Resource group](./images/resource-group-a.png)
+    ![Workplace Analytics Resource group](./images/resource-group-a.png)
 
     The new storage group contains a **rawdata** folder, as shown in the following graphic.
 
-     ![Workplace Analytics rawdata folder](./images/rawdata-folder.png)
+    ![Workplace Analytics rawdata folder](./images/rawdata-folder.png)
 
 2. Confirm that the following .csv files are in the new **rawdata** folder:
 
@@ -143,7 +157,7 @@ As an admin, you can configure template settings in **Admin** > **Configuration*
 
 * The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
 * If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
-<!--* Set the number of days to retain data created and saved for dataset joins in the **Join Datasets** section.-->
+* Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.
 
 ## Audit logs
 

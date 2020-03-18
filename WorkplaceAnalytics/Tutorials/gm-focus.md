@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Best practices for focus time
 description: Workplace Analytics shares best practices with managers about the importance of scheduled focus time
 author: madehmer
@@ -32,4 +32,4 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 
 ## Related topics
 
-[People manager best practices](index.yml)
+[Workplace Analytics best practices](gm-best-practices.md)

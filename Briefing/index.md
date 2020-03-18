@@ -57,7 +57,7 @@ author: madehmer
             </div>
         </div>
         </a>
-    </li>
+<!-- </li>
     <li>
         <a href="https://docs.microsoft.com/briefing/be-admin">
         <div class="cardSize">
@@ -76,7 +76,7 @@ author: madehmer
             </div>
         </div>
         </a>
-    </li>
+    </li>-->
     <li>
         <a href="https://docs.microsoft.com/briefing/be-meetings">
         <div class="cardSize">
