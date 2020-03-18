@@ -31,7 +31,7 @@ The following new template features, enhancements, and changes are in this month
   * **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is **All**, which shows all email and meeting activity that was categorized in the dataset.
   * **Time Filter** - Select what period of time you want to see chart data for, such as last month, last quarter, last six months, or last year. The default is **All**, which shows all time periods available in the dataset.
 
-* **Aggregate list of email and meetings** - When you use the query builder to get a list of email or meetings to categorize, the list now aggregates each email thread into one line in the list.
+* **Aggregate list of email and meetings** - When you use the query builder to get a list of email or meetings to categorize, the list now aggregates email or meetings with the same subject into one line in the list, so you can categorize them all at the same time. The new **Frequency** column shows how many meetings or emails have the same subject.
 
 ### Deploy and Configuration updates
 
