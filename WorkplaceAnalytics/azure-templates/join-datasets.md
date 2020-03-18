@@ -173,7 +173,7 @@ Specific permissions for joined datasets are based on how users need access to u
 
 ## Joined dataset retention setting
 
-Your template admin sets the number of days to retain data created and saved as joined datasets with this template. The current system default is **30 days**. See [Configuration](./deploy-configure.md#configuration) for details.
+Your template admin sets the number of days to retain data created and saved as joined datasets with this template. The current system default is **30 days**. See [Other configuration options](./deploy-configure.md#other-configuration-options) for details.
 
 ## Related topics
 
