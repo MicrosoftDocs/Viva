@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Process Explorer Azure Template for Workplace Analytics 
@@ -166,7 +164,7 @@ You can see data about the categorized email and meetings on the dashboard. Also
 
   ![Email activity included in the analysis](./images/pexp-dashboard.png)
 
-After the full dataset is categorized, you can view time spent on specific categories in the **Time Spent on Category** section below the **Category Distribution** section. The following are available for the chart:
+After the full dataset is categorized, you can view time spent on specific categories in the **Time Spent on Category** section below the **Category Distribution** section. The following is available with the chart:
 
 * **Hours on Topic** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected topics (categories) and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
 * **Topic Filter** - Select a specific topic to focus the chart on. The default is **All**, which shows all categories available in the dataset.

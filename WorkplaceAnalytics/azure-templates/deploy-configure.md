@@ -113,13 +113,15 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 * **API User**
 
-  * Can access and use a limited set of templates made available through a Workplace Analytics Azure Templates website link.
+  * Can access and use a limited set of templates available through a Workplace Analytics Azure Templates website link.
   * Assign to allow automated processes access to data from specific scenarios.
 
 * **Data Owner**
 
-  * Can access, use, and customize the analytical templates available through a Workplace Analytics Azure Templates website link.
-  * For the Join Datasets template, can share access to their joined datasets with other template users.
+  * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as an Analyst.
+  * Owns and can access and use incoming data to create datasets.
+  * Can share access to data they own with other users.
+<!--* For the Join Datasets template, can share access to their joined datasets with other template users.-->
 
 * **Data Scientist**
 
@@ -140,7 +142,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 ## Incoming Data
 
-On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This page enables you to see what data is available to create datasets with the Process Explorer template and to easily delete data (trashcan icon in far right column) that's no longer needed.
+On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This list populates the list you can use to create new datasets with the Process Explorer Azure template. Also, use this page to easily delete data (trashcan icon in far right column) that's outdated or no longer needed.
 
 ## Process the data
 
@@ -173,7 +175,7 @@ As an admin, you can configure template settings in **Admin** > **Configuration*
 
 * The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
 * If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
-* Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.
+<!--* Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.-->
 
 ## Audit logs
 
