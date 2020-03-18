@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Topic Analysis Azure Template for Workplace Analytics 
@@ -22,7 +20,7 @@ Workplace Analytics Azure Templates includes the Topic Analysis template that en
 
 You can use this template to view and analyze meeting metrics with the following features.
 
-* **Word Cloud**: After you select a dataset and run a query with an initial keyword, the Word Cloud shows keywords that are relevant or close to the initial keyword. You can then select another keyword in the cloud to add to your list and run the query again. Each time, the cloud adjusts based on the keywords listed. It’ll include meeting subjects that contain any of the keywords (OR) or a combination of the keywords (AND). The larger the word, the more closely it relates to the initial keyword.
+* **Word Cloud**: After you select a dataset and run a query with an initial keyword, the Word Cloud shows keywords that are relevant or close to the initial keyword. You can then select another keyword in the cloud to add to your list and run the query again. Each time, the cloud adjusts based on the keywords listed. It'll include meeting subjects that contain any of the keywords (OR) or a combination of the keywords (AND). The larger the word, the more closely it relates to the initial keyword.
 * **Meetings Summary**: Summarizes the key data points about the meetings in the query, including: the total count of meetings, the count of meetings based on search criteria, the average duration hours, and the average number of attendees. It also provides a chart view of the data that you can change by selecting different meeting metrics to show in the chart, such as meeting hours, emails sent, or conflicting meetings for attendees.
 * **Meetings Detail**: Shows the meeting metric details in a table, which is based on the query search criteria and the organizational data imported from Workplace Analytics. You can sort the table view by the Meeting Start Date. You can also download the meeting details as a .csv file for further analysis in another tool, such as Excel or Power BI.
 

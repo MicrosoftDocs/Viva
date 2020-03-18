@@ -61,7 +61,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 5. Select the applicable **Region** and then select **Next**.
 6. On the **Choose SKU** page, select the SKU or Pricing Tier for one or more of the Azure Components that you'll use with the templates. You should've gotten these SKU recommendations with the deployment URL or during your team deployment meeting.
 7. On the **Deployment Review** page, confirm the selections, and then select **Next**.
-8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you’re not, you need to sign in manually.
+8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you're not, you need to sign in manually.
 9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
 10. In **Deployment Review**, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it. Then select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
 
@@ -94,7 +94,7 @@ After deployment, you need to create a write-only SAS URI on the raw data contai
 
     ![Example SAS URI](./images/example-sas-uri.png)
 
-## Configuration: Add users and assign roles
+## Add users and assign roles
 
 As the Azure Templates Admin, you can use the Admin page to manage security, privacy settings, and other administrative processes. Before other people can use the templates, you need to add them as users and assign them one of the following roles based on the tasks they need to accomplish with the templates:
 
@@ -108,12 +108,24 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 * **Analyst**
 
-  * Can access, use, and customize the analytical templates available through the Workplace Analytics Azure Templates website link.
+  * Can access, use, and customize the analytical templates available through a Workplace Analytics Azure Templates website link.
   * Can access, use, and customize the Power BI reports and dashboards connected to the Workplace Analytics Azure Templates.
 
-* **Data scientist**
+* **API User**
 
-  * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as the Analyst.
+  * Can access and use a limited set of templates available through a Workplace Analytics Azure Templates website link.
+  * Assign to allow automated processes access to data from specific scenarios.
+
+* **Data Owner**
+
+  * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as an Analyst.
+  * Owns and can access and use incoming data to create datasets.
+  * Can share access to data they own with other users.
+<!--* For the Join Datasets template, can share access to their joined datasets with other template users.-->
+
+* **Data Scientist**
+
+  * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as an Analyst.
   * Can also access the Azure Databricks Workspace and use Python or R scripts to derive new insights.
 
 **To add users and assign them roles:**
@@ -125,6 +137,12 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 
     ![Add Workplace Analytics users](./images/add-user.png)
+
+4. In **Scenarios**, select the applicable templates for which the user needs access. Users can only access and use templates that are selected from this list.
+
+## Incoming Data
+
+On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This list populates the list you can use to create new datasets with the Process Explorer Azure template. Also, use this page to easily delete data (trashcan icon in far right column) that's outdated or no longer needed.
 
 ## Process the data
 
@@ -151,13 +169,13 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
    ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
 
-## Configuration
+## Other configuration options
 
 As an admin, you can configure template settings in **Admin** > **Configuration**, including:
 
 * The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
 * If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
-* Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.
+<!--* Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.-->
 
 ## Audit logs
 
