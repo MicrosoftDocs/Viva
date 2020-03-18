@@ -22,9 +22,9 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
  - [Confirm the prerequisites](#prerequisites)
  - [Deploy the templates](#deployment)
  - [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
- - [Configure the templates](#configuration-add-users-and-assign-roles)
+ - [Add users](#add-users-and-assign-roles)
  - [Process the data](#process-the-data)
- - Additional [configuration](#configuration) and [Audit logs](#audit-logs) are also available
+ - [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs) are also available
 
 ## Security considerations
 
@@ -103,7 +103,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
   * Can add other users and assign roles for the templates.
   * Can share the templates website link with other users.
   * Can share the link to access the [Azure Databricks Workspace](https://docs.azuredatabricks.net/user-guide/workspace.html) with assigned Data scientists.
-  * Configure specific template settings on the [Configuration](#configuration) page.
+  * Configure specific template settings on the [Configuration](#other-configuration-options) page.
   * Access and [audit logs](#audit-logs).
 
 * **Analyst**
