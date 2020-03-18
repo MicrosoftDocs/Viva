@@ -73,7 +73,7 @@ The following enhancements and features are included in the Organizational Netwo
   * Eigen Centrality is now Influence Index
   * Closeness is now Reach Index
   * Network size is now Degrees
-* Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts are less than the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Configuration](./deploy-configure.md#configuration).
+* Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts are less than the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Other configuration options](./deploy-configure.md#other-configuration-options).
 * Improved UX for defining analysis and saving subsets of data within the graph view. For details, see [To add new subgroup analysis](./organization-network-analysis.md#to-add-new-subgroup-analysis).
 * New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
 * New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure Template.
