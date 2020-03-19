@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Measure calculations for Organizational Network Analysis Azure Template
@@ -66,7 +64,7 @@ For more general information about these network measures, see [Centrality](http
 
 Boundary Spanning measures the extent to which employees act as representatives of their group across the organization. It indicates the sharing of information with other groups.
 
-For a defined group, Boundary Spanning measures an employee’s collaboration with members of other groups, with a boost for the diversity of their connections (number of groups). This does not consider ties inside their own group.
+For a defined group, Boundary Spanning measures an employee's collaboration with members of other groups, with a boost for the diversity of their connections (number of groups). This does not consider ties inside their own group.
 
 This measure is calculated as follows for employees as compared to groups.
 
@@ -90,9 +88,9 @@ While rank is the most important aspect of Bridging, a pure ranking (or ordinal)
 
 This measure is calculated as follows for employees as compared to groups.
 
-* **Employee level**: An employee’s Bridging Index is the sum of the importance scores for the connections that are tied to that employee. Importance scores represent a connection’s likelihood that information will flow through the connection. These scores are estimated by using the strength of the connection and the number of network paths the connection is included in.
+* **Employee level**: An employee's Bridging Index is the sum of the importance scores for the connections that are tied to that employee. Importance scores represent a connection's likelihood that information will flow through the connection. These scores are estimated by using the strength of the connection and the number of network paths the connection is included in.
 
-* **Group level**: Similarly, the group’s Bridging Index is the sum of the importance scores of the connections between nodes in the group and nodes outside of their group. No connections between nodes of the same group are considered in the group measure.
+* **Group level**: Similarly, the group's Bridging Index is the sum of the importance scores of the connections between nodes in the group and nodes outside of their group. No connections between nodes of the same group are considered in the group measure.
 
 * Both levels for this measure account for direction and weight.
 
@@ -130,7 +128,7 @@ A group is *orange* when it's higher in density and *blue* when it's lower in de
 
 ## Influence Index
 
-Influence Index indicates a node’s potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
+Influence Index indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
 
 The most meaningful information from Influence Index is the rank of the nodes. For example, assume that node A has an Influence Index of 0.6 and node B has an Influence Index of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a *ranking* or source of influence, not the *amount* of influence.
 
@@ -148,7 +146,7 @@ For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
 Reach Index indicates the ability to access or share information across the organization while going through the fewest number of people. The people or groups that have high Reach Index values are most likely spreading information within the network and might be effective in the adoption of new ideas.
 
-Specifically, Reach Index measures how many people on average that others typically connect through to reach other people (nodes) in the network. The score is normalized between 0 and 1 by dividing the number of nodes external to the source node. This accounts for overall network size and group sizes for comparing Reach Index values across networks and groups. It also ensures that nodes who cannot be reached from a source node do not bias the source node’s overall Reach Index.
+Specifically, Reach Index measures how many people on average that others typically connect through to reach other people (nodes) in the network. The score is normalized between 0 and 1 by dividing the number of nodes external to the source node. This accounts for overall network size and group sizes for comparing Reach Index values across networks and groups. It also ensures that nodes who cannot be reached from a source node do not bias the source node's overall Reach Index.
 
 Currently, the calculation does not factor the strength or weight of the connection. All connections between nodes have the same strength.
 
@@ -156,7 +154,7 @@ This measure is calculated as follows for employees as compared to groups:
 
 * **Employee level**: The Reach Index for an individual is the average of the reciprocal distances between that individual and everyone else in the network to whom they are directly or subsequently connected. Distance is the count of individuals that are on the shortest path between the source individual and the target individual.
 
-* **Group level**: Not yet available for Reach Index. The group's Reach Index is similar to the employee index, except that it only accounts for the distances from the nodes inside the group to nodes outside of the group while following the shortest possible paths. Distances among group members are not considered. It's also normalized by the number of nodes outside of the source node’s group.
+* **Group level**: Not yet available for Reach Index. The group's Reach Index is similar to the employee index, except that it only accounts for the distances from the nodes inside the group to nodes outside of the group while following the shortest possible paths. Distances among group members are not considered. It's also normalized by the number of nodes outside of the source node's group.
 
 Group level Reach Index values are usually larger than the reach of individual nodes due to higher connectivity. Additionally, Reach Index values do not typically have large separation among the top ranked members because of the high amount of connections within social networks. Meaning the nodes highest in reach are all similar to each other in how they connect to the rest of the network. 
 
