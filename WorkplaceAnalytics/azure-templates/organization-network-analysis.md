@@ -28,17 +28,18 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 2. On the **Organizational Network Analysis** page, select **Add New Dataset** at top right.
 3. In **Define Analysis Settings**, enter a name and select a path to the dataset.
 
-   ![Add New Analysis](./images/ona-new-dataset.png)
+   ![Add New Analysis](./images/ona-analysis.png)
 
-4. In **Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics.
-5. In **Interaction Thresholds**, select the following.
+4. In **Select the Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics.
+5. In **Specify the Interaction Types and Thresholds**, select the following.
 
-   * **Choose an interaction type**: Select what you want to analyze in the dataset, either emails, meetings, or all.
-   * **Max Duration Threshold of each interaction**: Select the maximum number of hours for each interaction.
-   * **Max # of members involved in each interaction**: Select the maximum number of people involved in each interaction.
-   * **Min # of interactions**: Select the minimum number of interactions between the selected groups or people.
+   * **Choose the interaction type(s)**: Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
+   * **Max number of people involved in each interaction**: Select the maximum number of people involved in each interaction.
+   * **Minimum number of unique interaction types**: Select the maximum number of hours for each interaction.
+   * **Maximum duration of a meeting or call**: Select the minimum number of interactions between the selected groups or people.
+   * **Advanced Settings**: Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
 
-6. Optionally, in **Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
+6. Optionally, in **Enter any Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
 7. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
 8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**, which the template creates by default as a starting dataset.
 9. In **Define Graph Settings**, select what HR attribute to use for the combined or grouped view and for the color of the graph's nodes. You can also select one or more filters to further focus the graph view and then select **Render Graph**.
@@ -80,7 +81,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in the following layouts. Note that this option is unavailable when the number of graph nodes exceeds the values set by your admin: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries. </li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don't want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
-   ![ONA change settings](./images/ona-settings.png) | Change Settings |Scales the thickness or color darkness of the link lines. You can also use this to turn node labels and tool tips on or off.
+   ![ONA change settings](./images/ona-settings.png) | Change Settings |Select if the link lines scale the thickness or color darkness based on total time spent between groups. You can also use this to turn tool tips on or off. For some views, you can also select to turn on or off node titles.
    ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.
    ![ONA download table](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).
    ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown to load and view later.
@@ -102,7 +103,8 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 3. Optionally, in **Specify the Network Boundary Condition**, select either single or multiple network boundaries and one or more HR attributes to focus your analysis on.
 4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
 5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Boundary spanning](#boundary-spanning) and [Influence Index](#influence-index).
-6. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
+6. In **Compute Options**, select the checkbox if you want to also analyze the monthly data for network and group level metrics.
+7. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
 ## To view a saved graph
 
@@ -131,7 +133,7 @@ The node measures for employees are de-identified to maintain their privacy. Gro
 
 You can size the nodes and connections based on what you want to highlight by using the Scale Nodes option (No Measure by default) at the top. The following shows the measure options available for the *Combined or Grouped View* of the graph, which include *Density* as an additional Scale Node option that's only available in this view.
 
-![Combined or Grouped View measures](./images/ona-combined-measures2.png)
+![Combined or Grouped View measures](./images/ona-measures.png)
 
 ### Boundary Spanning
 
@@ -177,6 +179,12 @@ Represents the ability to access or share information across the organization wh
 * **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the grouped or combined view, the insufficient group's edges and node won't show in the graph.
 
 * **Delete a node** - If you want to exclude a node from the graph, you can use the filter options or select the node in the graph to highlight it, and then press **Delete** (on your keyboard). Before saving the graph, you can right-click in the graph, and then select **Show Hidden** to undo a delete.
+
+* **Color-by key** - You can select specific metrics to color the graph by, such as by degrees, influence index, bridging index, and boundary spanning. The resulting graph will have nodes colored by using a heat map gradient with the following color scheme. Note that this color-by option is unavailable in Combined View.
+
+  * The lowest values on one end of the spectrum show as *light yellow*.
+  * The highest values on the opposite end show as *bright red*.
+  * The nodes representing values in the middle show as variations of *orange*.
 
 ## Related topics
 

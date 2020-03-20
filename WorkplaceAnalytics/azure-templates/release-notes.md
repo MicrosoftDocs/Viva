@@ -44,18 +44,19 @@ To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 ### Organizational Network Analysis (ONA) Azure Template
 
-* **Microsoft Teams signals** - You can now include Teams call and chat activity in your network analysis. This activity only includes unscheduled Teams calls to avoid overlap counts with meeting activity.
-* **Multiple network boundaries analysis** - You can now analyze all values for a specific HR attribute by selecting **Multiple Network Boundaries**. After the analysis runs, you can download it as a .csv file for further analysis.
+* **Microsoft Teams signals** - You can now include Teams call and chat activity in your network analysis, independently or in any combination with emails and meetings. Note that if you include meetings and Teams calls in your analysis, only unscheduled calls are counted as Team calls to avoid double counting meeting call activity.
+* **Advanced Threshold settings** - New settings now available to specify thresholds for interactions, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
+* **Multiple network boundaries analysis** - For subgroup analysis, you can now analyze all values for a specific HR attribute by selecting **Multiple Network Boundaries**. After the subgroup analysis runs, you can download it as a .csv file for further analysis.
+* **Additional monthly data** - For subgroup analysis, you can select to compute monthly totals within the specified time period in addition to the totals for the full time period selected.
 * **Graph view update** - For graph views, the link thickness and color darkness are now set on by default. The line thickness and color darkness are based on how much time was spent between groups, where the thickest and darkest links are the ones with the most time spent between groups. You can change these defaults in Settings within the graph view.
-* **New color-by graph options** - For graph view, you can now select specific metrics to color the graph by, such as by degrees, influence index, bridging index, and boundary spanning. The resulting graph will have nodes colored by using a heatmap gradient with the following color scheme. Note that this color-by option is unavailable in Combined View.
+* **New color-by graph options** - For graph view, you can now select specific metrics to color the graph by, such as by degrees, influence index, bridging index, and boundary spanning. The resulting graph will have nodes colored by using a heat map gradient with the following color scheme. Note that this color-by option is unavailable in Combined View.
 
   * The lowest values on one end of the spectrum show as *light yellow*.
   * The highest values on the opposite end show as *bright red*.
   * The nodes representing values in the middle show as variations of *orange*.
 
-* **100K node support** - The graph view now supports 100K nodes with the Combined View option.
+* **100K node support** - The graph view now supports 100,000 nodes with the Combined View option.
 * **Density table view improvements** - New labels available for the sender and receiver of communications within the Density table view. New breadcrumbs show at the top to improve navigation.
-* Modularity Normalization
 * **Normalized metrics** - The modularity metrics are now normalized throughout ONA.
 
 To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
@@ -64,7 +65,6 @@ To learn more, see [Organizational Network Analysis Azure Template](./organizati
 
 * **New UX changes** incorporated into the [Deployment steps](./deploy-configure.md#deployment).
 * New **API User** and **Data Owner** roles and **Scenario** options available when adding users for these templates. See [Add users and assign roles](./deploy-configure.md#add-users-and-assign-roles) for details.
-* **Token-based authentication** - Azure Templates that are based on APIs now support token-based authentication. You can now use third-party reference apps to consume the metrics from an API-based Azure Templates.
 
 To learn more, see [Deploy and configure Workplace Analytics Azure Templates](./organization-network-analysis.md).
 
