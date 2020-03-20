@@ -7,7 +7,7 @@
       items:
         - name: Introduction                   
           href: ~/Privacy/data-protection-intro.md
-        - name: Data-protection considerations                   
+        - name: Data-protection considerations                 
           href: ~/Privacy/data-protection-considerations.md
         - name: Privacy and data access
           href: ~/Privacy/privacy-and-data-access.md
@@ -28,7 +28,7 @@
             - name: Assign group-based licenses
               href: ~/Use/Group-Based-Licensing.md
             - name: Assign licenses with PowerShell
-              href: ~/use/Assigning-licenses-with-powershell.md                       
+              href: ~/use/Assigning-licenses-with-powershell.md
         - name: Assign roles
           items: 
             - name: Introduction
@@ -75,6 +75,10 @@
       items:
         - name: Introduction
           href: ~/Overview/Get-started.md
+        - name: Insights
+          items:
+            - name: Introduction
+              href: ~/Use/home-page.md
         - name: Analyze
           items:
             - name: Explore
