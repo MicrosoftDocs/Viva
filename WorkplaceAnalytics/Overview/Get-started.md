@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics data analysis
 description: High-level overview of ways to use Workplace Analytics to analyze data 
 author: madehmer
-ms.author: v-midehm
-ms.date: 05/14/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,15 +13,15 @@ audience: Admin
 ---
 # Data analysis in Workplace Analytics
 
-Microsoft Workplace Analytics is a cloud-based service that provides rich, actionable insights into your company’s communication and collaboration trends that help you make more effective business decisions.
+Microsoft Workplace Analytics is a cloud-based service that provides rich, actionable insights into your company's communication and collaboration trends that help you make more effective business decisions.
 
 Combining the organizational data that your company chooses to provide with email and calendar metadata from Office 365, Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
-You can explore the data with the Workplace Analytics dashboards, and dive deeper into your company’s behavioral metrics by using custom queries and query templates.
+You can explore the data with the Workplace Analytics dashboards, and dive deeper into your company's behavioral metrics by using custom queries and query templates.
 
 Workplace Analytics provides the following ways to analyze and explore your data.
 
-**Home** gives a high-level overview of collaboration and links to popular features. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
+[**Insights**](../use/home-page.md) provides research-based behavioral insights into how your organization gets work done, including employee experience, organizational agility, and customer focus insights. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
 
 **Analyze** includes the following data analysis tools:
 

@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Workplace Analytics Insights
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your organization
 author: madehmer
@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Workplace Analytics Insights
 
-As a business leader, an analyst, or a program manager, you can use these pages to see research-based behavioral insights into how your organization gets work done.
+As a business leader, an analyst, or a program manager, you can use these Insights to see research-based behavioral insights into how your organization gets work done.
 
 ![Home page](../images/wpa/use/wpa-home-1.png)
 
