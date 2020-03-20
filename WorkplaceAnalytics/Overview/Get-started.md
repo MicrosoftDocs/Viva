@@ -21,7 +21,7 @@ You can explore the data with the Workplace Analytics dashboards, and dive deepe
 
 Workplace Analytics provides the following ways to analyze and explore your data.
 
-[**Insights**](../use/home-page.md) provides research-based behavioral insights into how your organization gets work done, including employee experience, organizational agility, and customer focus insights. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
+[**Home**](../use/home-page.md) provides analysis scope information and research-based behavioral insights into how your organization gets work done, including employee experience, organizational agility, and customer focus insights. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
 
 **Analyze** includes the following data analysis tools:
 
