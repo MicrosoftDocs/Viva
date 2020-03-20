@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Release Notes for Workplace Analytics Azure Templates
@@ -19,13 +17,34 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
+## March 2020
+
+The following new template features, enhancements, and changes are in this month's release.
+
+### Process Explorer Azure Template
+
+* **Email Thread Analysis** - You can skip categorizing the full dataset and focus on email activity for a filtered dataset. Use [Email Thread Analysis](./process-explorer.md#email-thread-analysis) to analyze email activity for a dataset that's filtered for a specific time period and for a specific group within a dataset. The time ranges and filter options are the same as what's available for categorization analysis.
+* **Time Spent on Category** - After the full dataset is categorized, you can view time spent on specific categories in the **Time Spent on Category** section below the **Category Distribution** section. The following is available with the chart:
+
+  * **Hours on Topic** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected topics (categories) and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
+  * **Topic Filter** - Select a specific topic to focus the chart on. The default is **All**, which shows all categories available in the dataset.
+  * **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is **All**, which shows all email and meeting activity that was categorized in the dataset.
+  * **Time Filter** - Select what period of time you want to see chart data for, such as last month, last quarter, last six months, or last year. The default is **All**, which shows all time periods available in the dataset.
+
+* **Aggregate list of email and meetings** - When you use the query builder to get a list of email or meetings to categorize, the list now aggregates email or meetings with the same subject into one line in the list, so you can categorize them all at the same time. The new **Frequency** column shows how many meetings or emails have the same subject.
+
+### Deploy and Configuration updates
+
+* New UX changes incorporated into the [Deployment steps](./deploy-configure.md#deployment).
+* New **API User** and **Data Owner** roles and **Scenario** options when adding users of the templates. See [Add users and assign roles](./deploy-configure.md#add-users-and-assign-roles) for details.
+
 ## January 2020
 
 The following new template enhancements and changes are in this month's release.
 
 * The **Job Details** information for datasets now includes an **Error Message** column (last on the right) with more information about dataset failures for both the Organizational Network Analysis and the Process Explorer Azure Templates.
 
-### Organizational Network Analysis Azure Template
+### Organizational Network Analysis Template
 
 * A new **Download interaction matrix** option to download a .csv file with the person interactions and related data, such as date range and connection weights by hours and counts.
 * When viewing Density graph data, the higher density (*orange*) and lower density (*blue*) cells are highlighted based on the modularity. The color indicates whether or not a group is more or less connected in the network, as compared to what's expected with a random network. See [Density](./organization-network-analysis.md#density) for more details.
@@ -54,7 +73,7 @@ The following enhancements and features are included in the Organizational Netwo
   * Eigen Centrality is now Influence Index
   * Closeness is now Reach Index
   * Network size is now Degrees
-* Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts are less than the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Configuration](./deploy-configure.md#configuration).
+* Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts are less than the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Other configuration options](./deploy-configure.md#other-configuration-options).
 * Improved UX for defining analysis and saving subsets of data within the graph view. For details, see [To add new subgroup analysis](./organization-network-analysis.md#to-add-new-subgroup-analysis).
 * New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
 * New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure Template.
