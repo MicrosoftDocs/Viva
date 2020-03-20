@@ -42,11 +42,11 @@ Use the following steps to add a blob storage dataset for analyzing meeting and 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
 2. Select **Add New Dataset** (top right).
 3. In **Define Model Training Settings**, enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset to use to manually categorize for model training purposes, and then select **Submit**.
-4. The dataset upload takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table with the following information and available actions.
+4. The dataset upload and initial model training takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table with the following information and available actions.
 
-   * When the **Status** changes to a green check mark, you can select the dataset to view existing categorizations or add new categorizations.
+   * When the **Status** changes to a green check mark, you can select the dataset to view it for categorizations or analysis.
    * Select the **Job Details** (i) icon next to **Status** to view the job details.
-   * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
+   * Select a table column heading, such as **Name** or **Submitted**, to sort the list by.
    * Select the **Parameters** icon to view the parameter details for a listed dataset.
    * Select the **Delete Dataset** (trashcan) icon to delete it from the list.
    * If the dataset fails with a **Status** of a red X, you can select the **Undo** icon to revert to the last successfully saved version of the dataset.
@@ -175,7 +175,7 @@ After the full dataset is categorized, you can view time spent on specific categ
 
 ## Email thread analysis
 
-You can skip categorizing the full dataset and focus on email activity for a filtered dataset. Use **Email Thread Analysis** to analyze email activity for a dataset that's filtered for a specific time period and for a specific group within a dataset. The time ranges and filter options are the same as what's available for categorization analysis.
+You can skip categorization and focus on automated email analysis. An email thread includes a sent email and all its succeeding replies. Use **Email Thread Analysis** to analyze email for a dataset that's filtered for a specific time period and for a specific group within a dataset. The time ranges and filter options are the same as what's available for categorization analysis.
 
 ### To view analysis for email threads
 
@@ -187,7 +187,7 @@ You can skip categorizing the full dataset and focus on email activity for a fil
 
 4. The dataset upload takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table.
 5. When the **Status** changes to a green check mark, select the dataset name from the list, and then select **Email Thread Analysis**.
-6. You'll see top level analysis, thread averages, and thread metrics for the first 1,000 threads in the selected dataset.
+6. You'll see static summary information, including top level analysis, thread averages, and thread metrics for the first 1,000 threads in the selected dataset. In the **Thread Metrics** section, you can do the following.
 
    * Select **Download** to view data on what's selected, which is either the **Thread Summary** or **Thread Details**, in a .csv file for all email threads in the dataset.
    * Select **Copy Data** to copy a table view of the **Thread Summary** data. This option is not available for thread details.

@@ -45,6 +45,9 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    ![Add New Analysis](./images/ona-define-graph-settings.png)
 
+    >[!Note]
+    >You must select two or more HR attributes to analyze, so you have an attribute to "combine by" and one to "color by" for the graph.
+
 10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step.
 
     >[!Note]
@@ -96,14 +99,14 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
    ![Add New Analysis](./images/ona-subgroup-analysis.png)
 
-3. Optionally, in **Specify the Network Boundary Condition**, select one or more filters to focus your analysis on.
+3. Optionally, in **Specify the Network Boundary Condition**, select either single or multiple network boundaries and one or more HR attributes to focus your analysis on.
 4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
 5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Boundary spanning](#boundary-spanning) and [Influence Index](#influence-index).
 6. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
 ## To view a saved graph
 
-1. On the **Organizational Network Analysis** page, select the name of the dataset in the table, and then select the name of the graph in the table.
+1. On the **Organizational Network Analysis** page, select the name of the dataset in the table, and then select the name of the analysis in the table.
 2. At the top right of **Define Graph Settings**, select **Load Saved Graph**.
 3. Select the name of the graph that you want to view. If no analysis has been created, the subset list will be empty.
 4. Additional information and options on the analysis pages:
