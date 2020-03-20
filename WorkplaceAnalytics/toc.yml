@@ -75,9 +75,9 @@
       items:
         - name: Introduction
           href: ~/Overview/Get-started.md
-        - name: Insights
+        - name: Home
           items:
-            - name: Introduction
+            - name: Insights
               href: ~/Use/home-page.md
         - name: Analyze
           items:
