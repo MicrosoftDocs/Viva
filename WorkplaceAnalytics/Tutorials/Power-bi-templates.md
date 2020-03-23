@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Power BI templates
 description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
 author: paul9955
-ms.author: v-midehm
-ms.date: 05/01/2019
+ms.author: paul9955
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,13 +11,13 @@ ms.prod: wpa
 
 # Power BI templates in Workplace Analytics
 
-Workplace Analytics provides Power BI templates that analysts can use to visualize aspects of workplace patterns and trends. A Power BI template performs two tasks: it pre-populates a custom Workplace Analytics query and it selects the proper Power BI charts to display the results of that query.
+Workplace Analytics provides Power BI templates that analysts can use to visually analyze workplace patterns and trends. A Power BI template pre-populates a custom Workplace Analytics query and selects the applicable Power BI charts to show results from these queries.
 
-The Queries page of Workplace Analytics has a number of predefined query templates available. On this page, you can identify Power BI templates by the Power BI logo in the upper-right corner:
+Workplace Analytics Queries has a number of predefined query templates available. In the preselected filters and metrics section on the Queries page, you can identify the Power BI templates by the Power BI logo in the upper-right corner of the template:
 
    ![Power BI logo in query card](../Images/WpA/tutorials/pbi-cards.png)
 
-For example, you can use the following steps to identify areas of collaboration overload in your organization with the Collaboration Overload query.
+As an example, the following steps you through how to identify areas of collaboration overload in your organization with the Collaboration Overload query.
 
 **To use the Collaboration Overload Power BI template**
 
@@ -73,7 +70,7 @@ For example, you can use the following steps to identify areas of collaboration 
 
     ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 
-17. Select **Connect** to show the status of the data preparation, which might take several minutes. After the data loads, Power BI uses visualization charts to show your organization’s collaboration patterns:
+17. Select **Connect** to show the status of the data preparation, which might take several minutes. After the data loads, Power BI uses visualization charts to show your organization's collaboration patterns:
 
     ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
