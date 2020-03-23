@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Process Explorer Azure Template for Workplace Analytics 
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
-ms.author: v-midehm
+ms.author: 
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -21,7 +21,7 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can connect to a blob (cloud) storage location to analyze meeting and email activity.
 
-After you upload a dataset, you can use the Query Builder to help you decide what categories to add for analysis. You can select category names or phrases from the word cloud to view those meetings and then categorize them in the dashboard view.
+After you add a new dataset within the template, you can use the Query Builder to help you decide what categories to add for analysis. You can select category names or phrases from the word cloud to view those meetings and then categorize them in the dashboard view.
 
 After you categorize a good sample of meetings into the specified categories:
 
@@ -133,7 +133,7 @@ The email categorization option depends of what the admin settings are for email
 2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the new dataset.
 3. If no **Email** category page is shown, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample meeting categorizations; this will take a few minutes or more depending on the size of the dataset.
 
-4. If the **Email** category page is available, then you can manually manually categorize email activity by selecting **Email** > **Query Builder** and then entering one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
+4. If the **Email** category page is available, then you can manually categorize email activity by selecting **Email** > **Query Builder** and then entering one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
 
    * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
    * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
@@ -169,9 +169,9 @@ After the full dataset is categorized, you can view time spent on specific categ
 * **Hours on Topic** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected topics (categories) and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
 * **Topic Filter** - Select a specific topic to focus the chart on. The default is **All**, which shows all categories available in the dataset.
 * **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is **All**, which shows all email and meeting activity that was categorized in the dataset.
-* **Time Filter** - Select what period of time you want to see chart data for, such as last month, last quarter, last six months, or last year. The default is **All**, which shows all time periods available in the dataset.
+* **Date filter** - You can select a Start Date and End Date for the time period of data that you want to see in the chart. The default is **All**, which shows all time periods available in the dataset.
 
-  ![Time Spent on Category chart](./images/pexp-category-chart.png)
+  ![Time Spent on Category chart](./images/pexp-topic-chart.png)
 
 ## Email thread analysis
 
@@ -180,14 +180,13 @@ You can skip categorization and focus on automated email analysis. An email thre
 ### To view analysis for email threads
 
 1. On the **Process Explorer** page, select **Add New Dataset**.
-2. For **Select Dataset Type**, select to **Classify on raw data** to use all meeting and email data from the blob storage location, and then select **Next**.
-3. Enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset, and then select **Submit**.
+2. Enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset, and then select **Submit**.
 
    ![Email Thread Analysis filter options](./images/pexp-email-thread-filters.png)
 
-4. The dataset upload takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table.
-5. When the **Status** changes to a green check mark, select the dataset name from the list, and then select **Email Thread Analysis**.
-6. You'll see static summary information, including top level analysis, thread averages, and thread metrics for the first 1,000 threads in the selected dataset. In the **Thread Metrics** section, you can do the following.
+3. The dataset upload takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table.
+4. When the **Status** changes to a green check mark, select the dataset name from the list, and then select **Email Thread Analysis**.
+5. You'll see static summary information, including top level analysis, thread averages, and thread metrics for the first 1,000 threads in the selected dataset. In the **Thread Metrics** section, you can do the following.
 
    * Select **Download** to view data on what's selected, which is either the **Thread Summary** or **Thread Details**, in a .csv file for all email threads in the dataset.
    * Select **Copy Data** to copy a table view of the **Thread Summary** data. This option is not available for thread details.
@@ -205,7 +204,7 @@ You can skip categorization and focus on automated email analysis. An email thre
    |Distinct participant touchpoints |Total number of touchpoints divided by the number of email thread IDs. |
    |Participation workload generated |Number of email hours generated by all participants in the thread divided by the number of email thread IDs. |
    |Active thread contributors |Number of participants within a thread that send at least one email in the thread divided by the number of all participants. |
-   |Average response time |For all forwards and replies, the average number of hours between the sent items and the perviously sent items in email threads. |
+   |Average response time |For all forwards and replies, the average number of hours between the sent items and the previously sent items in email threads. |
    |Average lifespan of a thread |The average number of days between thread origination and the last sent item in email threads. |
 
 ## Related topics
