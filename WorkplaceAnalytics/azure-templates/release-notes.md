@@ -29,13 +29,13 @@ To learn more, see [Join Datasets Azure Template](./join-datasets.md).
 
 ### Process Explorer Azure Template
 
-* **Email Thread Analysis** - You can skip categorization and focus on email analysis. Analysts can use [Email Thread Analysis](./process-explorer.md#email-thread-analysis) to quickly access information about email activity throughout the organization, without manually categorize email beforehand. The time ranges and filter options are the same as what's available for categorization analysis. An email thread includes a sent email and all its succeeding replies. This automated analysis includes the number of email threads, total emails sent, distinct touchpoints, hours of email workload, a number of thread averages, and more thread details in a downloadable table.
-* **Time Spent on Category** - After categorizing a dataset, you can view time spent on specific categories in the **Time Spent on Category** section below the **Category Distribution** section of the dashboard. The following is available with this chart view:
+* **Email thread analysis** - You can skip categorization and focus on email analysis. Analysts can use [Email Thread Analysis](./process-explorer.md#email-thread-analysis) to quickly access information about email activity throughout the organization, without manually categorize email beforehand. The time ranges and filter options are the same as what's available for categorization analysis. An email thread includes a sent email and all its succeeding replies. This automated analysis includes the number of email threads, total emails sent, distinct touchpoints, hours of email workload, a number of thread averages, and more thread details in a downloadable table.
+* **Time spent on categories** - After categorizing a dataset, you can view time spent on specific categories in the **Time Spent on Category** section below the **Category Distribution** section of the dashboard. The following is available with this chart view:
 
   * **Hours on Topic** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected topics (categories) and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
-  * **Topic Filter** - Select a specific topic to focus the chart on. The default is **All**, which shows all categories used in the dataset.
-  * **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is **All**, which shows all email and meeting activity that was categorized in the dataset.
-  * **Time Filter** - Select what period of time you want to see chart data for, such as last month, last quarter, last six months, or last year. The default is **All**, which shows all time periods available in the dataset.
+  * **Topic Filter** - Select a specific topic to focus the chart on. The default is All, which shows all categories used in the dataset.
+  * **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is All, which shows all email and meeting activity that was categorized in the dataset.
+  * **Time Filter** - Select what period of time you want to see chart data for, such as last month, last quarter, last six months, or last year. The default is All, which shows all time periods available in the dataset.
 
 * **Aggregated subject list for categorizing email and meetings** - When categorizing email or meetings, the list now aggregates email or meetings with the same subject into one line in the list, so you can categorize them all at the same time. The new **Frequency** column shows how many meetings or emails have the same subject.
 * **Classify on raw data only** - To simplify dataset classifications, the option to only use meeting query data to analyze and categorize is no longer available. Classify on raw data, such as blob storage, is the only dataset option moving forward.
@@ -65,6 +65,7 @@ To learn more, see [Organizational Network Analysis Azure Template](./organizati
 
 * **New UX changes** incorporated into the [Deployment steps](./deploy-configure.md#deployment).
 * New **API User** and **Data Owner** roles and **Scenario** options available when adding users for these templates. See [Add users and assign roles](./deploy-configure.md#add-users-and-assign-roles) for details.
+* For the new **Join Datasets Template**, you can set the number of days to retain data created and saved as joined datasets with the template.
 
 To learn more, see [Deploy and configure Workplace Analytics Azure Templates](./organization-network-analysis.md).
 
