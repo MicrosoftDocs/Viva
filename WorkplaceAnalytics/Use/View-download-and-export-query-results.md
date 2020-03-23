@@ -105,11 +105,19 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 #### Use the connector
 
+<<<<<<< Updated upstream
 1. In Power BI Desktop, select the **Get Data** button:
 
     ![Get Data button](../images/wpa/use/get-data-in-pbi.png)
 
 2. Select **Online Services**, select **Workplace Analytics**, and then select **Connect**:
+=======
+1.    In Power BI Desktop, select the **Get Data** button:
+
+    ![Get Data button](../images/wpa/use/get-data-in-pbi.png)
+
+2.    Select **Online Services**, select **Workplace Analytics**, and then select **Connect**:
+>>>>>>> Stashed changes
 
     ![Get Data button](../images/wpa/use/get_data_screen.png)
 
@@ -121,6 +129,7 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
     ![My information screen](../images/wpa/use/my-information.png)
 
+<<<<<<< Updated upstream
 4. Enter the partition identifier:
 
     ![Enter partition ID](../images/wpa/use/connect_to_wpa_part_id.png)
@@ -132,6 +141,19 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 6. Select **OK**.
 
 7. The first time that you use the PowerBI-Workplace Analytics connector for a particular partition ID, and again later, after your authentication token expires, you will be prompted that "you aren't signed in":
+=======
+4.    Enter the partition identifier:
+
+    ![Enter partition ID](../images/wpa/use/connect_to_wpa_part_id.png)
+
+5.    Select the data connectivity mode that you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
+
+    ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa_mode.png)
+
+6.  Select **OK**.    
+ 
+7.    The first time that you use the PowerBI-Workplace Analytics connector for a particular partition ID, and again later, after your authentication token expires, you will be prompted that "you aren't signed in":
+>>>>>>> Stashed changes
 
     ![Not signed in](../images/wpa/use/wpa_select_authentication.png)
 
@@ -139,7 +161,11 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
     ![Sign in](../images/wpa/use/login-to-o365_2.png)
 
+<<<<<<< Updated upstream
 8. At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
+=======
+8.    At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
+>>>>>>> Stashed changes
 
     ![Metrics](../images/wpa/use/list-of-metrics-2-col_2.png)
 
