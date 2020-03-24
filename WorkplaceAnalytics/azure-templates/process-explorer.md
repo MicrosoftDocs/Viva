@@ -122,7 +122,7 @@ Ask your admin what is set for surfacing and classifying email activity for anal
 
 For email categorization, the system will limit the data used for categorizations to five million emails and meetings to improve interactivity. If you know the subset of data you want to focus on, you can set time range and/or filters to focus the data used.  If not, or if your filtering still results in more than five million values, the system will automatically choose a good representative sample from the complete filtered sample.
 
-The email categorization option depends of what the admin settings are for email activity:
+The email categorization option depends on what the admin settings are for email activity:
   
 * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
 * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which trains the model for auto-categorizing the full dataset, including both meeting and email activity.
