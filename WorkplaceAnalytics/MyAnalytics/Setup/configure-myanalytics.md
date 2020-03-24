@@ -2,8 +2,8 @@
 
 title: MyAnalytics configuration for Office 365 administrators
 description: Configuration options that Office 365 administrators can make for MyAnalytics users
-author: paul9955
-ms.author: madehmer
+author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -33,7 +33,7 @@ MyAnalytics is available to users who are assigned a license with a MyAnalytics 
 
 For information on how to assign a license, see [Assign licenses to users in Office 365 for business](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 
-<!-- If you don’t want a user to see any statistics from MyAnalytics, you can disable the MyAnalytics service plan for that user. -->
+<!-- If you don't want a user to see any statistics from MyAnalytics, you can disable the MyAnalytics service plan for that user. -->
 
 > [!Note]
 > If you want to notify your organization before you assign licenses with a MyAnalytics service plan, you can use [this email template](MyAnalytics-announcement-2020-template.docx). You can download it, customize it with your company's information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
@@ -114,7 +114,7 @@ Parameter   |   Required   |   Description   | Default value
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD)   |   --
 PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's data to compute derived statistics for other users. The user won't see statistics in MyAnalytics, but can choose to opt in from the Feature settings menu.</li><li>**Opt-in**: MyAnalytics uses the user's data to compute derived statistics for other users. The user can see statistics in MyAnalytics, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
 
-> [!Important] 
+> [!Important]
 > The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
   
 ### Confirm MyAnalytics access for a user
@@ -131,15 +131,15 @@ Identity    |  Yes         |    User ID for the current user as stored in AAD  |
 
 ### Set MyAnalytics access for multiple users
 
-You can use the following steps in PowerShell to change access to MyAnalytics (the value of PrivacyMode) for multiple users by running a PowerShell script that iterates through the users, changing the value one user at a time.
+Use the following steps in the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2) to change access to MyAnalytics (the value of PrivacyMode) for multiple users by running a PowerShell script that iterates through the users, changing the value one user at a time.
 
-1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field and the location of the users you want to configure. For example:
+1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field of the users you want to configure. For example:
 
    ```
-   UserPrincipalName,UsageLocation
-   ClaudeL@contoso.onmicrosoft.com,FR
-   LynneB@contoso.onmicrosoft.com,US
-   ShawnM@contoso.onmicrosoft.com,US
+   UserPrincipalName
+   ClaudeL@contoso.onmicrosoft.com
+   LynneB@contoso.onmicrosoft.com
+   ShawnM@contoso.onmicrosoft.com
    ```
 
 2. Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user:
@@ -148,19 +148,19 @@ You can use the following steps in PowerShell to change access to MyAnalytics (t
    $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
    $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv>"
    $privacyMode = "Opt-in"
-   
+
    $users=Import-Csv $inFileName
    ForEach ($user in $users)
    {
    $user.Userprincipalname
    $upn=$user.UserPrincipalName
-   
+
    Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
    Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName
    }
    ```
-3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
 
+3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
 
 This PowerShell script:
 

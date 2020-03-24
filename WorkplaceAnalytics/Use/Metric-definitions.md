@@ -27,7 +27,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.)|Person|Hour|Yes|
 |Email hours|Number of hours the person spent sending and receiving emails.|Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
-|External network size|Number of people external to the company with whom the person had at least two meaningful interactions (a meeting or email between eight or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes|
+|External network size|Number of people external to the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes| 
 |Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
 |Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
@@ -40,7 +40,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Generated workload meetings organized|Number of internal meetings organized by the person.|Person|Count|Yes|
 |Instant message hours | Number of hours spent by the person in instant messages (IMs) with at least one other person, through Teams, during and outside of working hours.| Person| Hours| Yes |
 |Instant messages sent | Total number of instant messages (IMs) or chats sent by the person as the initiator, through Teams, during and outside of working hours. Time composing IMs is estimated as 22 seconds and time reading IMs is estimated as 8 seconds| Person| Count| Yes |
-|Internal network size|Number of people within the company with whom the person had at least two meaningful interactions (a meeting or email between eight or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes |
+|Internal network size|Number of people within the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes |
 |Low-quality meeting hours|Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](settings.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. |Person|Hour|Yes|
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
 |Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|

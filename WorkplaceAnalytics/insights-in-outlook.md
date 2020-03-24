@@ -4,7 +4,7 @@ layout: HubPage
 title: Insights Outlook add-in
 description: Learn ways to improve your productivity in Outlook
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 localization_priority: priority 
 ms.prod: mya
 breadcrumb_path: 
@@ -30,9 +30,10 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## What you might see
 
-![Bullet point](images/mya/overview/bullet-point-indented.png)To open the Insights Outlook add-in, select the **Insights** icon on the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**.
+To open the Insights Outlook add-in, select the **Insights** icon on the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the **Insights** icon.
 
-![Insights panel](images/mya/overview/insights-cards-12.png)
+![Insights icon](images/mya/overview/insights-view.png)
+![Insights panel](images/mya/overview/insights-cards-13.png)
 
 ## Privacy by design
 

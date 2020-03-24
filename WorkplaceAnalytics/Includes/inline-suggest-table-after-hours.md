@@ -4,8 +4,8 @@
 
 title: Inline suggestions to promote focus time
 description: Table of inline suggestions to promote focus time  
-author: paul9955
-ms.author: v-midehm
+author: madehmer
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -13,4 +13,4 @@ ms.prod: wpa
 
 | Where it shows up  | What it says | How it helps |
 |------|-------|---------|
-|Email compose | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
+|Composing email |Delay delivery of this email until more recipients are in their working hours. Send on [**suggested day and time**] |Suggests that you delay email delivery until an alternate time when more recipients are at work. You can also set email to always be delivered during your team’s working hours.|

@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workspace Planning Azure Template for Workplace Analytics 
@@ -14,6 +12,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
+
 # Workspace Planning Azure Template for Workplace Analytics
 
 _These templates are only available as part of a Microsoft service engagement._
@@ -43,8 +42,8 @@ This template combines the data in these files and generates a table that shows 
 ## Key features
 
 * **Interactive mode**: Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
-* **Fixed seat variables**: Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size .csv input file.
-* **Office seat variables**: Enables you to differentiate between two seat variables at the office level, such as an Office space (desks assigned to one person) and a Workpoint space (shared desks or open space), or two other variables of your choosing. For example, if your team requires 100 regular desks, and 5 offices, you can update your base files to set those as constraints to optimize your team’s placement within a floor. Requires a different version of the space_capacity.csv and team_size.csv input file.
+* **Fixed seat variables**: Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.
+* **Office seat variables**: Enables you to differentiate between two seat variables at the office level, such as an Office space (desks assigned to one person) and a Workpoint space (shared desks or open space), or two other variables of your choosing. For example, if your team requires 100 regular desks, and 5 offices, you can update your base files to set those as constraints to optimize your team's placement within a floor. Requires a different version of the space_capacity.csv and team_size.csv input file.
 * **Relative constraints**: Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.
 
 ## Deploy and configure the template
@@ -96,8 +95,8 @@ This template combines the data in these files and generates a table that shows 
 1. Open and save the [space_capacity.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage.
 2. In the **Floor** (first) column in the file, replace the example floor names with your own that match the same format of [**Building name**-**Floor number**], as shown in the following graphic.
 
-   * Use valid characters, including: **a-z**, **A-Z**, **0-9**, "**-**" (dashes), and “ ” (spaces)
-   * Do not use invalid characters, including: “**_**” (underscores) and “**,**” (commas)
+   * Use valid characters, including: **a-z**, **A-Z**, **0-9**, "**-**" (dashes), and " " (spaces)
+   * Do not use invalid characters, including: "**_**" (underscores) and "**,**" (commas)
 
 3. In the **Total Capacity** column, enter the maximum capacity for each floor.
 4. If you have office seat variables to define, continue to the next set of steps. Otherwise, save and close the file.
@@ -162,7 +161,7 @@ The following graphic depicts a building with four floors. The distance between 
 
 ### For fixed seat variables
 
-1. In the **space_capacity.csv** file you just created in the previous set of steps, add a new column and name it **Adjacent Size**.
+1. In the **team_size.csv** file you just created in the previous set of steps, add a new column and name it **Adjacent Size**.
 2. Add another new column and name it for the team to which you want to enforce adjacency.
 3. For each row in the new team column, enter the number of team members you want to place next to each team, entering a 0 for the row that has the same team name.
 4. In the **Adjacent Size** column, for the rows that are not the same team as the new column, add the Size column and the value in the new team column.  For the row that matches the team name in the new column, total the new Team column. And then subtract that sum from the **Size** column and enter that value in the **Adj Size** cell.
@@ -171,7 +170,7 @@ The following graphic depicts a building with four floors. The distance between 
 
 ### For office seat variables
 
-1. In the **space_capacity.csv** file you just created in the previous set of steps, add a new column and name it **Workpoint Seats**, which represents how many standard desk seats (shared desks or open space) the team needs.
+1. In the **team_size.csv** file you just created in the previous set of steps, add a new column and name it **Workpoint Seats**, which represents how many standard desk seats (shared desks or open space) the team needs.
 2. Add an additional column and name it **Office Seats**, which represents how many office seats (desks assigned to one person) the team needs. If a single office is assigned to two people, count it as two office seats.
 3. Enter the number of workpoint seats required for each team. If no workpoint seats are required for a team, enter 0.
 4. Enter the number of office seats required for each team. If no office seats are required for a team, enter 0.
@@ -193,7 +192,7 @@ The following graphic depicts a building with four floors. The distance between 
 
    * Use **<** (less than) to connect two teams.
    * Use **>** (greater than) to separate two teams.
-   * Use **>=** (greater than or equal to) to separate two teams the same way as “>”, but also includes the value used to compare against.
+   * Use **>=** (greater than or equal to) to separate two teams the same way as ">", but also includes the value used to compare against.
 
 6. Enter the applicable amount on a scale of **1 -100** where **1** is for having teams be as close together as possible and **100** is for as far away as possible. Add as many team combinations as you require.
 7. Save the file in the same locations as the four base files.
