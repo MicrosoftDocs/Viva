@@ -73,10 +73,10 @@ For example, you can use the following steps to identify areas of collaboration 
 
     ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 
-17. Select **Connect** to show the status of the data preparation, which might take several minutes. After the data loads, Power BI uses visualization charts to show your organization’s collaboration patterns:
+17. Select **Connect** to show the status of the data preparation, which might take several minutes. After the data loads, Power BI uses visualization charts to show your organization's collaboration patterns:
 
     ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
-### Related topic
+## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
