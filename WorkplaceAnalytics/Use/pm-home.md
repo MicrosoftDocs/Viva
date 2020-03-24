@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Home pages for people managers
+title: Workplace Analytics Insights for people managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
 ms.author: madehmer
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Home pages for people managers
+# Workplace Analytics Insights for people managers
 
-As a people manager, you can use the **Home** pages to see research-based behavioral insights into how your organization gets work done.
+As a people manager, you can use these **Insights** to see research-based behavioral insights into how your organization gets work done.
 
 ![People Manager Home page](../images/wpa/use/pm-home.png)
 
@@ -83,7 +83,7 @@ The following describes the metrics used in each of the business insight questio
 |Are managers accessing diverse information? |The number of managers who had fewer than three meaningful connections outside of their organization each month. |
 |Where are the influencers in your company? |The number of organizations who have fewer than expected numbers of influencers, which are based on thresholds defined for the organization and company size. |
 |Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. |
-|How is the customer collaboration in your company?	|Groups that spend the highest proportion of their collaboration time externally. |
+|How is the customer collaboration in your company?    |Groups that spend the highest proportion of their collaboration time externally. |
 |Are employees building customer networks? |Groups that spend time with the most external domain connections. |
 
 ## Frequently asked questions
