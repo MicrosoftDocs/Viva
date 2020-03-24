@@ -39,6 +39,9 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    * **Maximum duration of a meeting or call**: Select the minimum number of interactions between the selected groups or people.
    * **Advanced Settings**: Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
 
+   >[!Important]
+   >When analyzing calls or chats, you'll only see data from the time period where all signals exist. For example, if you select meetings and calls to analyze and 13 months of meeting data is available, but only three months of Teams data is available, you'd only see data for the three months that include both meetings and calls.
+
 6. Optionally, in **Enter any Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
 7. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
 8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**, which the template creates by default as a starting dataset.
@@ -52,7 +55,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step.
 
     >[!Note]
-    >When the node or link count exceeds the maximum threshold defined by your Azure Templates admin, the network view options will be unavailable. To enable the network view options, you can use filters to reduce the graph's node or link count.
+    >When the node or link count exceeds the maximum threshold defined by your Azure Templates admin, the individual network view options will be unavailable. To enable these network view options, you can use filters to reduce the graph's node or link count.
 
 11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
