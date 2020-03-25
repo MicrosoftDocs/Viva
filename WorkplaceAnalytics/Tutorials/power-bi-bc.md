@@ -137,7 +137,7 @@ Changes in activity levels are possibly uneven across employees. For some, remot
 
 ### Ensuring community and transparency
 
-Community and transparency have been identified as the biggest drivers of team cohesion. As employees are adapting to working in isolation, a heightened focus should be maintained on promoting cohesion and belonging. Regular manager 1:1 check-ins are critical to demonstrate empathy, establish trust and help employees manage these challenges.
+Community and transparency is one of the biggest drivers of team cohesion. As employees are adapting to working in isolation, a heightened focus should be maintained on promoting cohesion and belonging. Regular manager 1:1 check-ins are critical to demonstrate empathy, establish trust and help employees manage these challenges.
 
 Maintaining horizontal employee relationships allows employees to continue feeling part of the team – using virtual team meetings not only for work but also social and personal sharing can help combat loneliness and disengagement. This sense of isolation has been reported [reference] as the biggest impediment to successful long term work from home programs.
 
