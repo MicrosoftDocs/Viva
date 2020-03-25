@@ -98,7 +98,7 @@ As you continue to analyze the data over time, you'll might need to update the s
 2. The following sections highlight metrics that indicate how your business is responding and adapting to a business disruption:
 
    * [Business as usual indicators](#business-as-usual-indicators)
-   * [Employee work span](#employee-work-spans)
+   * [Employee work span](#employee-work-span)
    * [Modes of communication](#modes-of-communication)
    * [External engagement](#external-engagement)
    * [Ensuring community and transparency](#ensuring-community-and-transparency)
