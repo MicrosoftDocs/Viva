@@ -101,7 +101,7 @@ As you continue to analyze the data over time, you'll might need to update the s
    * [Employee work spans](#employee-work-spans)
    * [Modes of communication](#modes-of-communication)
    * [External engagement](#external-engagement)
-   * [Ensuring community and transparency](ensuring-community-and-transparency)
+   * [Ensuring community and transparency](#ensuring-community-and-transparency)
    * [Trending topics](#trending-topics)
 
 ### Business as usual indicators
@@ -181,7 +181,7 @@ See [Create a Person Query](./person-queries.md) for details.
 
 ### Q2 How do I change the axis of a chart to use a different Organizational data attribute?
 
-See [Customize a base metric in a query](../customize-a-metric.md) to learn more about how to customize your Workplace Analytics query output. Also, see [Transform, shape, and model data in Power BI](https://docs.microsoft.com/power-bi/transform-model/) for details about how to change chart views in Power BI.
+See [Customize a base metric in a query](customize-a-metric.md) to learn more about how to customize your Workplace Analytics query output. Also, see [Transform, shape, and model data in Power BI](https://docs.microsoft.com/power-bi/transform-model/) for details about how to change chart views in Power BI.
 
 ### Q3 How do I integrate additional metrics or data sources with this dashboard?
 
