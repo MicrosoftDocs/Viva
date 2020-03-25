@@ -40,7 +40,7 @@ Use the following steps to download the template and generate the Workplace Anal
 2. In **Queries**, run a query for each of the following predefined Person queries in the **Start from preselected filters and metrics** section:
 
    * Business Continuity
-   * Activity by Time of Day
+   * Hourly Activity
 
 3. Enter or select the following for each query.
 
@@ -98,7 +98,7 @@ As you continue to analyze the data over time, you'll might need to update the s
 2. The following sections highlight metrics that indicate how your business is responding and adapting to a business disruption:
 
    * [Business as usual indicators](#business-as-usual-indicators)
-   * [Employee work spans](#employee-work-spans)
+   * [Employee work span](#employee-work-spans)
    * [Modes of communication](#modes-of-communication)
    * [External engagement](#external-engagement)
    * [Ensuring community and transparency](#ensuring-community-and-transparency)
@@ -116,7 +116,7 @@ The degree of impact can vary across employee communities and functions. Identif
 * Change in activity between the Baseline time frame and a Selected time frame
 * Breakdown in collaboration activity across analyzed communities
 
-### Employee work spans
+### Employee work span
 
 Additional collaboration burden might be shouldered in surprising parts of the business. Changes in activity levels can indicate which groups are struggling to maintain pace and highlight those with more seamless transitions.
 
