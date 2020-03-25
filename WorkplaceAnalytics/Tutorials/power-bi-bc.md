@@ -32,7 +32,7 @@ The Power BI template uses the following predefined Workplace Analytics Person q
 * **Business Continuity** - Use Power BI template to track business continuity, the Power BI file will be available with this query in the **Queries** > **Results** page after you successfully run the query in Workplace Analytics.
 * **Hourly Activity** – Analyze meeting, email, IM, and call data by hour of day.
 
-## Run the query data
+## Set up and run the query data
 
 Use the following steps to download the template and generate the Workplace Analytics query data that's required to populate the Business Continuity dashboard in Power BI.
 
