@@ -63,7 +63,7 @@ Use the following steps to download the template and generate the Workplace Anal
    * **Filters** - You can add filters to focus on specific populations of measured employees. Otherwise, it's preset to return data for all active employees within the measured population.
    * **Organizational data** - Select all or some of the Organizational Data columns to use in Power BI as pivot points or population filters. At a minimum, you must select the **Organization**, the **LevelDesignation**, and the **TimeZone**.
 
-5. After confirming the settings, select **Run** to run the query. Repeat these steps to create the **Activity by Time of Day** query.
+5. After confirming the settings, select **Run** to run the query. Repeat these steps to create the **Hourly Activity** query.
 6. After the queries successfully run and their status shows as a green check mark, continue to the next step to connect the query data to Power BI.
 
 For more details about metrics and filters available for Person queries, see [Create a Person Query](./person-queries.md).
