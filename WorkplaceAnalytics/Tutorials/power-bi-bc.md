@@ -160,7 +160,7 @@ Isolation has been reported as one of the biggest impediments to successful, lon
 
 **Specific analysis**
 
-* The number of employees who have not had active 1:1 engagement with their manager, counted by organizational group.
+* The number of employees who have not had active 1:1 meetings with their managers, counted by organizational group.
 * The number of meaningful internal connections that employees experience over (near) synchronous collaboration mechanisms, such as by calls, meetings, and instant messages or chats; activity levels are shown across groups or related segments to help discover any groups that show signs of stress due to isolation and lack of connection.
 
 ### Trending topics
