@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Business Continuity Dashboard in Power BI
-description: Use the Power BI template to run a query, export its results, and visualize the data in the Business Continuity Dashboard in Power BI
+description: Use the Power BI template to visualize predefined query data from Workplace Analyics in the Business Continuity Dashboard in Power BI
 author: madehmer
 ms.author: 
 ms.topic: article
@@ -14,7 +14,7 @@ ms.prod: wpa
 
 You can use the Business Continuity Dashboard in Power BI to visually analyze Workplace Analytics data to answer questions about how your organization is adapting to suddenly having all or a significant number of your employees working remotely.
 
-Workplace Analytics uses Office 365 data activity to provide near real-time, behavioral data about how your company is adapting and evolving to meet challenges associated with a move to remote work during a disruption, including: 100 percent remote work (maybe for the first time ever), work-from-home requirements, social isolation, and school closures.
+Workplace Analytics uses Office 365 data activity to provide near real-time, behavioral data about how your company is adapting and evolving to meet any related challenges that a move to remote work can cause during a disruption, including: 100 percent remote work (maybe for the first time ever), work-from-home requirements, social isolation, and school closures.
 
 The following are a few of the top-level business questions asked by leaders and analysts about continuing business during a disruption.
 
@@ -32,15 +32,15 @@ The Power BI template uses the following predefined Workplace Analytics Person q
 * **Business Continuity** - Use Power BI template to track business continuity, the Power BI file will be available with this query in the **Queries** > **Results** page after you successfully run the query in Workplace Analytics.
 * **Hourly Activity** – Analyze meeting, email, IM, and call data by hour of day.
 
-## To set up
+## Set up and run the query data
 
 Use the following steps to download the template and generate the Workplace Analytics query data that's required to populate the Business Continuity dashboard in Power BI.
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/).
 2. In **Queries**, run a query for each of the following predefined Person queries in the **Start from preselected filters and metrics** section:
 
-   * Business Continuity
-   * Hourly Activity
+   * **Business Continuity**
+   * **Hourly Activity**
 
 3. Enter or select the following for each query.
 
@@ -63,7 +63,7 @@ Use the following steps to download the template and generate the Workplace Anal
    * **Filters** - You can add filters to focus on specific populations of measured employees. Otherwise, it's preset to return data for all active employees within the measured population.
    * **Organizational data** - Select all or some of the Organizational Data columns to use in Power BI as pivot points or population filters. At a minimum, you must select the **Organization**, the **LevelDesignation**, and the **TimeZone**.
 
-5. After confirming the settings, select **Run** to run the query. Repeat these steps to create the **Activity by Time of Day** query.
+5. After confirming the settings, select **Run** to run the query. Repeat these steps to create the **Hourly Activity** query.
 6. After the queries successfully run and their status shows as a green check mark, continue to the next step to connect the query data to Power BI.
 
 For more details about metrics and filters available for Person queries, see [Create a Person Query](./person-queries.md).
@@ -80,14 +80,14 @@ As you continue to analyze the data over time, you'll might need to update the s
 > [!Note]
 > As additional data is processed on a weekly basis, you'll need to adjust the **Selected Time Frame** if you want to view the most recently included data.
 
-## To connect query data to Power BI
+## Connect query data to Power BI
 
 1. In Workplace Analytics **Queries** > **Results**, select the **download** icon for the **Business Continuity** query results, and then select **PBI template** to save and open the template.
 2. When prompted for the OData URL, in Workplace Analytics **Queries** > **Results**, select the **link** icon for the **Business Continuity** query results, and then select **Copy**.
 3. In the Power BI **Business Continuity Dashboard** prompt, paste the query results link, and then select **Load**.
 4. When prompted to **Sign in** in Power BI, enter your **Workplace Analytics login credentials** to connect to the query results.
 5. If prompted to sign in to your account, select **Organization Account**, enter your **Microsoft Office 365 credentials** that you use to access Workplace Analytics, then select **Connect**.
-6. Repeat these steps for the **Activity by Time of Day** query results.
+6. Repeat these steps for the **Hourly Activity** query results.
 
 ## Data analysis
 
