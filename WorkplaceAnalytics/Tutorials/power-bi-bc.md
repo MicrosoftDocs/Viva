@@ -14,7 +14,7 @@ ms.prod: wpa
 
 You can use the Business Continuity Dashboard in Power BI to visually analyze Workplace Analytics data to answer questions about how your organization is adapting to suddenly having all or a significant number of your employees working remotely.
 
-Workplace Analytics uses Office 365 data activity to provide near real-time, behavioral data about how your company is adapting and evolving to meet challenges associated with a move to remote work during a disruption, such as: 100 percent remote work (maybe for the first time ever), work-from-home requirements, social isolation, and school closures.
+Workplace Analytics uses Office 365 data activity to provide near real-time, behavioral data about how your company is adapting and evolving to meet challenges associated with a move to remote work during a disruption, including: 100 percent remote work (maybe for the first time ever), work-from-home requirements, social isolation, and school closures.
 
 The following are a few of the top-level business questions asked by leaders and analysts about continuing business during a disruption.
 
@@ -23,7 +23,7 @@ The following are a few of the top-level business questions asked by leaders and
 |Is business running as usual? |<ul><li>How are activity levels changing in response to a disruption? </li><li>Which lines of business are more impacted? </li></ul>|
 |How are employees adapting to the disruption?  |<ul><li>How many employees are experiencing significant shifts in workweek span and collaboration demand? </li><li>How are employees shifting their work patterns across the collaboration activities, such as calls and chats? </li></ul>|
 |Is the organization maintaining external collaboration? |<ul><li>How much has changed with customer, partner, and vendor collaboration? </li><li>Which lines of business are experiencing the largest increases and decreases in external demand? </li></ul>|
-|How do you foster employee community and engagement? ||<ul><li>Are your managers regularly checking in with their employees about their wellbeing and health? </li><li>Are employees managing to stay engaged while in a wholly-remote work environment? </li></ul>|
+|How do you foster employee community and engagement? |<ul><li>Are your managers regularly checking in with their employees about their wellbeing and health? </li><li>Are employees managing to stay engaged while in an all-remote work environment? </li></ul>|
 
 The template enables you to connect query data in Workplace Analytics to Power BI, and then use it in the Business Continuity Dashboard to visualize and report about your organization's workplace patterns and trends.
 
