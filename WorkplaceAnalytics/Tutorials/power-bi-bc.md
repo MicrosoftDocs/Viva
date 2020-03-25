@@ -12,16 +12,13 @@ ms.prod: wpa
 
 # Business Continuity Dashboard in Power BI
 
-The Business Continuity Dashboard in Power BI helps answer questions about how your organization is adapting to suddenly having a significant portion or all of your employees working remotely.
+You can use the Business Continuity Dashboard in Power BI to visually analyze Workplace Analytics data to answer questions about how your organization is adapting to suddenly having all or a significant number of your employees working remotely.
 
-Workplace Analytics uses Office 365 data activity to provide real-time, behavioral data about how your company is adapting and evolving to meet challenges associated with a move to remote work.  disruption, such as 100 percent remote work (maybe for the first time ever), work-from-home requirements, social isolation, and school closures.
+Workplace Analytics uses Office 365 data activity to provide real-time, behavioral data about how your company is adapting and evolving to meet challenges associated with a move to remote work.  disruption, such as: 100 percent remote work (maybe for the first time ever), work-from-home requirements, social isolation, and school closures.
 
+You can evaluate behavioral workplace data in near real time to understand how your organization is adapting and evolving to meet new challenges associated with a move to remote work.
 
-* Introduction to using behavioral data in near real time to understand how the organization is adapting and evolving to meet new challenges associated with a move to remote work
-* Highlight of metrics that indicate how business has been responding to these changes. Each of these metric cards can be clicked through to show additional detail
-
-
-The top-level business questions asked by leaders and analysts include the following.
+The following are a few of the top-level business questions asked by leaders and analysts about continuing business during a disruption.
 
 |Business question |Analysis |
 |-------------|------------------|
@@ -37,7 +34,7 @@ This Power BI template uses the following predefined Workplace Analytics Person 
 * Business Continuity
 * Activity by Time of Day
 
-## To set up 
+## To set up
 
 Use the following steps to download the template and generate the Workplace Analytics query data that's required to populate the Business Continuity dashboard in Power BI.
 
@@ -83,10 +80,106 @@ For more details about metrics and filters available for Person queries, see [Cr
 
 ## To analyze data in Power BI
 
+1. Open the Business Continuity Dashboard in Power BI.
+2. The following sections suggest key indicators to focus your analysis on, such as evaluating if business is running as usual or external engagements are affected by a business disruption.
 
+Highlight of metrics that indicate how business has been responding to these changes. Each of these metric cards can be clicked through to show additional detail.
+
+## Business as usual indicators
+
+Activity levels within your company might change significantly in response to a business disruption introduced by social distancing requirements, perhaps permanently. Collaboration patterns give you visibility into the size of the impact, how it is trending over time, and the path back to a "new normal."
+
+The degree of impact can vary across employee communities and functions. Identifying areas within the company undergoing the greatest change can focus transition efforts to preserve employee productivity.
+
+**Specific analysis**
+
+* Trend in activity by collaboration mode over time
+* Change in activity between Baseline and Current period
+* Breakdown in collaboration activity across analyzed communities
+
+## External engagement
+
+Ability to work with external customers, vendors and partners might be impeded as counterparts are forced to refocus on mission-critical activities. The impacts of this shift can affect different roles in differing ways.
+For example, sales teams might find difficulty in scheduling time with customers that are refocusing on higher order priorities. Conversely, functions providing customer and partner support might be juggling scarce workday attention against increasing inbound requests.
+
+**Specific analysis**
+
+* Breakdown of groups that have seen the most change in the amount of time that they are spending with external contacts
+* Change in externally organized meetings
+* Change in internally organized meetings that contain external counterparts
+* Change in the amount of email activity that includes external participants
+
+## Employee work spans
+
+Additional collaboration burden might be shouldered in surprising parts of the business. Changes in activity levels can indicate which groups are struggling to maintain pace and highlight those with more seamless transitions.
+Workweek Span indicates the spread of time that knowledge workers are "on" during the workweek. There will be gaps of activity within areas of the company where spans are increasing the most are potentially undergoing the most significant adaptation.
+
+**Specific analysis**
+
+* Change in the share of employees whose collaboration hours have increased/decreased in excess of a user configurable threshold. This chart is broken out by organizational group.
+* Change in workweek span by organizational group
+
+## Modes of communication
+
+Activity levels and profiles tend to shift as people move from office to remote work. Work-life balance has changed to work-life integration. Meetings, calls and IMs might now take the place of in-person conversations and fly-bys. Asynchronous collaboration channels like email tend to flex across the workday and into after hours.
+Changes in activity levels might not be spread out evenly across employees. For some, remote work might force a juggling of personal and professional responsibilities. For others, it might enable additional time for focus and headspace.
+
+**Specific analysis**
+
+* Comparison in activity levels across Meetings + Calls, Email, and IM across the duration of the day
+* Highlight of the amount of after hours collaboration has changed from the baseline period across each major mode of collaboration
+* Change in the share of employees whose after hours collaboration activity levels have increased/decreased in excess of a user configurable threshold. This chart is broken out by organizational group.
+
+## Ensuring community and transparency
+
+Community and transparency have been identified as the biggest drivers of team cohesion. As employees are adapting to working in isolation, a heightened focus should be maintained on promoting cohesion and belonging. Regular manager 1:1 check-ins are critical to demonstrate empathy, establish trust and help employees manage these challenges.
+
+Maintaining horizontal employee relationships allows employees to continue feeling part of the team – using virtual team meetings not only for work but also social and personal sharing can help combat loneliness and disengagement. This sense of isolation has been reported [reference] as the biggest impediment to successful long term work from home programs.
+
+**Specific analysis**
+
+* Share of employees who have not have active 1:1 engagement with their manager, broken out by organizational group
+* Breakdown of the amount of meaningful internal connection that employees experience over (near) synchronous collaboration mechanisms – calls, meetings and IM only. Activity levels are broken out into buckets and across groups to help find pockets of the organization that may be suffering due to isolation and a lack of connection.
+
+## Trending topics
+
+Activity levels around distinct themes and topic areas might surge as business responds to this disruption. Coordination of corporate responses, reassessing priorities and shifting of attention back to core activities, and a heightened interest in maintaining connectivity and wellbeing within teams are some of the topics that might gain newfound traction.
+
+**Specific analysis**
+
+* Collaboration hours invested by the company in a set of predefined topics.
+* The shift to remote work: Keywords include work from home, remote, best practice, coping, cope, tips, wellbeing
+* Reassessment and refining of organizational priorities: Keywords include Reassess, priority, refocus, response
+
+## Frequently asked questions
+
+### Q1 How do I set up and run a Workplace Analytics query?
+
+See 
+
+### Q2 How do I change the axis of a chart to utilize another Org Data attribute?
+
+See 
+
+### Q3 How do I integrate additional metrics or data sources with this dashboard?
+
+See 
+
+### Q4 How do I use Power BI?
+
+See [Power BI documentation](https://docs.microsoft.com/power-bi/) for more about how to use it.
+
+### Q5 How do I share these insights with others in my organization?
+
+See 
+
+## Support
+
+* **Dashboard support** - Contact the Workplace Analytics team member that referred you to this page for support about onboarding, usage, and interpretation of the data contained within the dashboard.
+* **Workplace Analytics support** - Refer to [Workplace Analytics documentation](../index.md) or [Workplace Analytics Support](../overview/getting-support.md) for additional help.
+* **Support with other Microsoft products and tools** - Support for Power BI and other tools used in the context of this dashboard can be found through each product's associated support channels.
 
 ## Related topics
 
-[Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
-
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
+* [View, download, and export query results](../use/view-download-and-export-query-results.md)
