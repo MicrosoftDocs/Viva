@@ -175,23 +175,23 @@ Activity levels around distinct themes and topic areas might surge as business r
 
 ## Frequently asked questions
 
-### Q1 How do I set up and run a Workplace Analytics query?
+#### Q1 How do I set up and run a Workplace Analytics query?
 
 See [Create a Person Query](./person-queries.md) for details.
 
-### Q2 How do I change the axis of a chart to use a different Organizational data attribute?
+#### Q2 How do I change the axis of a chart to use a different Organizational data attribute?
 
 See [Customize a base metric in a query](customize-a-metric.md) to learn more about how to customize your Workplace Analytics query output. Also, see [Transform, shape, and model data in Power BI](https://docs.microsoft.com/power-bi/transform-model/) for details about how to change chart views in Power BI.
 
-### Q3 How do I integrate additional metrics or data sources with this dashboard?
+#### Q3 How do I integrate additional metrics or data sources with this dashboard?
 
 See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
 
-### Q4 How do I use Power BI?
+#### Q4 How do I use Power BI?
 
 See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details on how to use Power BI.
 
-### Q5 How do I share these insights with others in my organization?
+#### Q5 How do I share these insights with others in my organization?
 
 You can share the Business Continuity Dashboard with your organization. Or you can export and distribute Power BI reports as PDF or PowerPoint files. See [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards) for details.
 
