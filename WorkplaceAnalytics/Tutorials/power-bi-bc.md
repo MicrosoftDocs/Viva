@@ -14,7 +14,7 @@ ms.prod: wpa
 
 You can use the Business Continuity Dashboard in Power BI to visually analyze Workplace Analytics data to answer questions about how your organization is adapting to suddenly having all or a significant number of your employees working remotely.
 
-Workplace Analytics uses Office 365 data activity to provide near real-time, behavioral data about how your company is adapting and evolving to meet challenges associated with a move to remote work during a disruption, such as: 100 percent remote work (maybe for the first time ever), work-from-home requirements, social isolation, and school closures.
+Workplace Analytics uses Office 365 data activity to provide near real-time, behavioral data about how your company is adapting and evolving to meet challenges associated with a move to remote work during a disruption, including: 100 percent remote work (maybe for the first time ever), work-from-home requirements, social isolation, and school closures.
 
 The following are a few of the top-level business questions asked by leaders and analysts about continuing business during a disruption.
 
@@ -23,7 +23,7 @@ The following are a few of the top-level business questions asked by leaders and
 |Is business running as usual? |<ul><li>How are activity levels changing in response to a disruption? </li><li>Which lines of business are more impacted? </li></ul>|
 |How are employees adapting to the disruption?  |<ul><li>How many employees are experiencing significant shifts in workweek span and collaboration demand? </li><li>How are employees shifting their work patterns across the collaboration activities, such as calls and chats? </li></ul>|
 |Is the organization maintaining external collaboration? |<ul><li>How much has changed with customer, partner, and vendor collaboration? </li><li>Which lines of business are experiencing the largest increases and decreases in external demand? </li></ul>|
-|How do you foster employee community and engagement? ||<ul><li>Are your managers regularly checking in with their employees about their wellbeing and health? </li><li>Are employees managing to stay engaged while in a wholly-remote work environment? </li></ul>|
+|How do you foster employee community and engagement? |<ul><li>Are your managers regularly checking in with their employees about their wellbeing and health? </li><li>Are employees managing to stay engaged while in an all-remote work environment? </li></ul>|
 
 The template enables you to connect query data in Workplace Analytics to Power BI, and then use it in the Business Continuity Dashboard to visualize and report about your organization's workplace patterns and trends.
 
@@ -40,7 +40,7 @@ Use the following steps to download the template and generate the Workplace Anal
 2. In **Queries**, run a query for each of the following predefined Person queries in the **Start from preselected filters and metrics** section:
 
    * Business Continuity
-   * Activity by Time of Day
+   * Hourly Activity
 
 3. Enter or select the following for each query.
 
@@ -98,7 +98,7 @@ As you continue to analyze the data over time, you'll might need to update the s
 2. The following sections highlight metrics that indicate how your business is responding and adapting to a business disruption:
 
    * [Business as usual indicators](#business-as-usual-indicators)
-   * [Employee work spans](#employee-work-spans)
+   * [Employee work span](#employee-work-span)
    * [Modes of communication](#modes-of-communication)
    * [External engagement](#external-engagement)
    * [Ensuring community and transparency](#ensuring-community-and-transparency)
@@ -116,7 +116,7 @@ The degree of impact can vary across employee communities and functions. Identif
 * Change in activity between the Baseline time frame and a Selected time frame
 * Breakdown in collaboration activity across analyzed communities
 
-### Employee work spans
+### Employee work span
 
 Additional collaboration burden might be shouldered in surprising parts of the business. Changes in activity levels can indicate which groups are struggling to maintain pace and highlight those with more seamless transitions.
 
@@ -160,7 +160,7 @@ Isolation has been reported as one of the biggest impediments to successful, lon
 
 **Specific analysis**
 
-* The number of employees who have not had active 1:1 engagement with their manager, counted by organizational group.
+* The number of employees who have not had active 1:1 meetings with their managers, counted by organizational group.
 * The number of meaningful internal connections that employees experience over (near) synchronous collaboration mechanisms, such as by calls, meetings, and instant messages or chats; activity levels are shown across groups or related segments to help discover any groups that show signs of stress due to isolation and lack of connection.
 
 ### Trending topics
@@ -175,23 +175,23 @@ Activity levels around distinct themes and topic areas might surge as business r
 
 ## Frequently asked questions
 
-### Q1 How do I set up and run a Workplace Analytics query?
+#### Q1 How do I set up and run a Workplace Analytics query?
 
 See [Create a Person Query](./person-queries.md) for details.
 
-### Q2 How do I change the axis of a chart to use a different Organizational data attribute?
+#### Q2 How do I change the axis of a chart to use a different Organizational data attribute?
 
 See [Customize a base metric in a query](customize-a-metric.md) to learn more about how to customize your Workplace Analytics query output. Also, see [Transform, shape, and model data in Power BI](https://docs.microsoft.com/power-bi/transform-model/) for details about how to change chart views in Power BI.
 
-### Q3 How do I integrate additional metrics or data sources with this dashboard?
+#### Q3 How do I integrate additional metrics or data sources with this dashboard?
 
 See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
 
-### Q4 How do I use Power BI?
+#### Q4 How do I use Power BI?
 
 See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details on how to use Power BI.
 
-### Q5 How do I share these insights with others in my organization?
+#### Q5 How do I share these insights with others in my organization?
 
 You can share the Business Continuity Dashboard with your organization. Or you can export and distribute Power BI reports as PDF or PowerPoint files. See [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards) for details.
 
