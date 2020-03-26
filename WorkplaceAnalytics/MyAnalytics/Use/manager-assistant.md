@@ -23,6 +23,6 @@ The manager assistant feature of MyAnalytics helps managers stay caught up with 
 
 ## Related topics
 
-Privacy aspects: [Manager assistant privacy](..\Overview\privacy-guide.md)
+Privacy aspects: [Manager assistant privacy](https://review.docs.microsoft.com/en-us/workplace-analytics/myanalytics/overview/privacy-guide-users?branch=PAS-PB-Manager-assstant#manager-assistant-privacy)
 
 
