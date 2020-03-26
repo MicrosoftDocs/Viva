@@ -77,6 +77,22 @@ MyAnalytics simply applies some basic calculations and rules to make this data m
 
 For example, if you want to determine which colleagues sent you the most email over the past week, you could technically do so without MyAnalytics by manually counting emails from coworkers in your inbox. Similarly, you could determine your coworkers’ average response time to the emails that you sent them by using the timestamp information readily available in your mailbox. MyAnalytics saves you the trouble of having to perform these tedious calculations.
 
+## Manager assistant
+
+The manager assistant feature of MyAnalytics provides managers with opportunities to connect with their team members. For information about using this feature, see [Manager assistant](../use/manager-assistant.md).
+
+### Manager assistant privacy
+
+The manager assistant feature provides managers with limited information.
+
+Managers have access to:
+ * Information taken from the manager's own Outlook mailbox. This includes past emails to and from direct reports and meeting invitations sent by or to direct reports. 
+
+Managers do not have access to:
+ * PII (personally identifiable information) of the direct reports 
+ * Tasks that direct reports have or have not completed
+ * Any incremental data about direct reports
+
 ## Windows 10 Activity History data
 
 Windows 10 activity history data refers to the things you do on your device, such as the apps and services you used, whether you worked on a document, and whether you browsed the web. The activity history is stored locally on the device, and if you are signed in to the device with a Microsoft account and you give permission, Windows sends the activity history to Microsoft.

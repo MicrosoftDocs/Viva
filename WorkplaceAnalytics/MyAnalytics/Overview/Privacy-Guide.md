@@ -117,7 +117,7 @@ People can control this setting in their Outlook settings. To show these signals
 
 ## Manager assistant
 
-The manager assistant feature of MyAnalytics helps managers stay caught up with their team members. To do this, MyAnalytics presents managers with various opportunities to reconnect with their team. For information about using this feature, see [Manager assistant](../use/manager-assistant.md).
+The manager assistant feature of MyAnalytics provides managers with opportunities to connect with their team members. For information about using this feature, see [Manager assistant](../use/manager-assistant.md).
 
 ### Manager assistant privacy
 
@@ -141,7 +141,7 @@ When the team structure changes, the MyAnalytics admin is responsible for updati
 
 **Role:** Myanalytics admin
 
-1. Open [GET PATH].
+1. Open [GET PATH]. [GET SCREENSHOT]
 2. Step 2. ... 
 3. Final steps ... **Save**. 
 

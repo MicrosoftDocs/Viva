@@ -27,7 +27,9 @@
         - name: Inline suggestions
           href: ./use/mya-notifications.md
         - name: Focus plan
-          href: ./use/focus-plan.md 
+          href: ./use/focus-plan.md           
+        - name: Manager assistant
+          href: ./use/manager-assistant.md 
     - name: MyAnalytics admin guide 
       items:
         - name: Introduction
