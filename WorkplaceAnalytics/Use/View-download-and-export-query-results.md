@@ -76,14 +76,14 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    > [!Note]
    > The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
-   >   * If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md). 
-   >   * If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you will need to run a new query and get a new corresponding URL. 
+   >   * If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
+   >   * If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you will need to run a new query and get a new corresponding URL.
 
 ### Connect through the Power BI connector
 
 * **Role:** analyst or limited analyst
 
-The Power BI-Workplace Analytics connector lets you construct visualizations of data from Workplace Analytics while you are running Power BI. Use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data.
+The Workplace Analytics Power BI connector enables you to construct visualizations of data from Workplace Analytics while you are running Power BI. Use it to build insights in Power BI by importing out-of-the-box metrics and person attributes from Workplace Analytics. The Connector automatically enforces the privacy rules configured by the organization's Workplace Analytics admin and guarantees the freshness of any visualized data.
 
 > [!Note]
 > The Power BI-Workplace Analytics connector does not use results of already-run queries. Instead, it creates Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). (Aggregated queries include groupings of metrics on one or more columns of organizational-data attributes, with aggregations such as Sum, Average, Min, and Max on the metric columns.)
@@ -105,19 +105,11 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
 #### Use the connector
 
-<<<<<<< Updated upstream
 1. In Power BI Desktop, select the **Get Data** button:
 
     ![Get Data button](../images/wpa/use/get-data-in-pbi.png)
 
 2. Select **Online Services**, select **Workplace Analytics**, and then select **Connect**:
-=======
-1.    In Power BI Desktop, select the **Get Data** button:
-
-    ![Get Data button](../images/wpa/use/get-data-in-pbi.png)
-
-2.    Select **Online Services**, select **Workplace Analytics**, and then select **Connect**:
->>>>>>> Stashed changes
 
     ![Get Data button](../images/wpa/use/get_data_screen.png)
 
@@ -129,7 +121,6 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
     ![My information screen](../images/wpa/use/my-information.png)
 
-<<<<<<< Updated upstream
 4. Enter the partition identifier:
 
     ![Enter partition ID](../images/wpa/use/connect_to_wpa_part_id.png)
@@ -141,19 +132,6 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 6. Select **OK**.
 
 7. The first time that you use the PowerBI-Workplace Analytics connector for a particular partition ID, and again later, after your authentication token expires, you will be prompted that "you aren't signed in":
-=======
-4.    Enter the partition identifier:
-
-    ![Enter partition ID](../images/wpa/use/connect_to_wpa_part_id.png)
-
-5.    Select the data connectivity mode that you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
-
-    ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa_mode.png)
-
-6.  Select **OK**.    
- 
-7.    The first time that you use the PowerBI-Workplace Analytics connector for a particular partition ID, and again later, after your authentication token expires, you will be prompted that "you aren't signed in":
->>>>>>> Stashed changes
 
     ![Not signed in](../images/wpa/use/wpa_select_authentication.png)
 
@@ -161,11 +139,7 @@ Partitions in Workplace Analytics allow access to data. To import metrics and at
 
     ![Sign in](../images/wpa/use/login-to-o365_2.png)
 
-<<<<<<< Updated upstream
 8. At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
-=======
-8.    At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
->>>>>>> Stashed changes
 
     ![Metrics](../images/wpa/use/list-of-metrics-2-col_2.png)
 
