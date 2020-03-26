@@ -74,6 +74,6 @@ As an example, the following steps you through how to identify areas of collabor
 
     ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
-### Related topic
+## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
