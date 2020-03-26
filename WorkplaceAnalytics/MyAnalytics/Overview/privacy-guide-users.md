@@ -86,7 +86,7 @@ The manager assistant feature of MyAnalytics provides managers with opportunitie
 The manager assistant feature provides managers with limited information.
 
 Managers have access to:
- * Information taken from the manager's own Outlook mailbox. This includes past emails to and from direct reports and meeting invitations sent by or to direct reports. 
+ * Information taken from the manager's own Outlook mailbox. This includes emails to and from direct reports and meeting invitations sent by or to direct reports. 
 
 Managers do not have access to:
  * PII (personally identifiable information) of the direct reports 
