@@ -39,7 +39,7 @@ In this procedure, you are a manager who wants to connect better with your team 
 
    ![Focus plan card in digest](../../images/mya/use/schedule1-1.png)
 
-Choose a time that works for you and select **Draft invite**. A meeting invitation is drafted for you, which you can edit and send to your team member. 
+   Choose a time that works for you and select **Draft invite**. A meeting invitation is drafted for you, which you can edit and send to your team member. 
 
 6. (Optional) Follow up in other ways and with other employees. For example, your team member Pradeep has requested that you read four items -- emails or documents -- and you can find those items by selecting **Review** on the card for Pradeep, which is also visible in the **Insights** pane:
 
