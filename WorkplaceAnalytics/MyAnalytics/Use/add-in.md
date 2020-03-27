@@ -259,9 +259,7 @@ After you select a team member's card, you can take any of the actions that are 
 
 ### Edit the list of your team members
 
-The _Catch up with your team_ feature uses both data and settings to determine the structure of a team, namely who is the manager and who reports to that manager. It initially obtains a snapshot of the team structure from Azure Active Directory, which contains the hierarchy of the entire organization. 
-
-When the team structure changes, the manager is responsible for updating its hierarchy data. 
+The _Catch up with your team_ feature requires current data about team membership. It initially obtains a list of team members from Azure Active Directory. Thereafter, when the team structure or membership changes, the manager is responsible for updating its hierarchy data. 
 
 **To edit team member list**
 
