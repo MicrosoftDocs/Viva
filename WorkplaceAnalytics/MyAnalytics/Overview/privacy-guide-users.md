@@ -77,13 +77,13 @@ MyAnalytics simply applies some basic calculations and rules to make this data m
 
 For example, if you want to determine which colleagues sent you the most email over the past week, you could technically do so without MyAnalytics by manually counting emails from coworkers in your inbox. Similarly, you could determine your coworkers’ average response time to the emails that you sent them by using the timestamp information readily available in your mailbox. MyAnalytics saves you the trouble of having to perform these tedious calculations.
 
-## Manager assistant
+## Team catch-up feature
 
-The manager assistant feature of MyAnalytics provides managers with opportunities to connect with their team members. For information about using this feature, see [Manager assistant](../use/manager-assistant.md).
+MyAnalytics provides managers with opportunities to connect with their team members. For information about using this feature, see [Catch up with your team](../use/add-in.md#catch-up-with-your-team).
 
-### Manager assistant privacy
+### Privacy in team catch up
 
-The manager assistant feature provides managers with limited information.
+The team catch-up feature provides managers with limited information.
 
 Managers have access to:
  * Information taken from the manager's own Outlook mailbox. This includes emails to and from direct reports and meeting invitations sent by or to direct reports. 

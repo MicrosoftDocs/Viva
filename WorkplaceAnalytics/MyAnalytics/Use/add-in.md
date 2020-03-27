@@ -251,18 +251,31 @@ In this procedure, you are a manager who wants to connect better with your team 
 
    ![Team member card Debra](../../images/mya/use/connect-actions-debra.png)
 
-4. Take steps to follow up. To schedule a 1:1 meeting with your team member Debra Berger, on her card select **See available times**. 
+After you select a team member's card, you can take any of the actions that are indicated on that card, such as:
 
-   The **Insights** pane shows times that are free for both you and Debra. 
+ * schedule 1:1s if none are set up for the next four weeks
+ * reschedule 1:1s that have meeting conflicts
+ * respond to unread emails and documents
 
-   ![Schedule 1:1 time with employee](../../images/mya/use/schedule1-1.png)
+### Edit list of team members
 
-5. Choose the time of your preference and select **Draft invite**. A meeting invitation is drafted for you, which you can edit and send to your team member. 
+The _Catch up with your team_ feature uses both data and settings to determine the structure of a team, namely who is the manager and who reports to that manager. It initially obtains a snapshot of the team structure from Azure Active Directory, which contains the hierarchy of the entire organization. 
 
-6. (Optional) Follow up in other ways and with other employees. For example, your team member Pradeep has requested that you read four items -- emails or documents. You can find and open those items by selecting **Review** on the card for Pradeep, which is also visible in the **Insights** pane:
+When the team structure changes, the manager is responsible for updating its hierarchy data. 
 
-   ![Team member card Pradeep](../../images/mya/use/connect-actions-pradeep.png)
+**To edit team hierarchy data**
 
+**Role:** manager in an organizational hierarchy
+
+1. Open the **Catch up with your team** card, as described in [Use MyAnalytics to catch up](#use-myanalytics-to-catch-up).
+
+2. Select **MY TEAM** to open the **EDIT YOUR TEAM** panel:
+
+   ![OWA Settings panel](../../images/mya/use/edit-team75-75-80.png) 
+    
+3. Select team members until the team listing is accurate and complete.
+
+All changes that you make are stored in your mailbox and are not synchronized to Azure Active Directory.
 
 ## Pin the add-in
 

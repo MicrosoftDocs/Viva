@@ -115,13 +115,13 @@ This metric is calculated based on the "read" flag in Exchange Online. For some 
 
 People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Office 365 environment, and then delivered to the sender’s mailbox.
 
-## Manager assistant
+## Team catch-up feature
 
-The manager assistant feature of MyAnalytics provides managers with opportunities to connect with their team members. For information about using this feature, see [Manager assistant](../use/manager-assistant.md).
+MyAnalytics provides managers with opportunities to connect with their team members. For information about using this feature, see [Catch up with your team](../use/add-in.md#catch-up-with-your-team).
 
-### Manager assistant privacy
+### Privacy in team catch up
 
-The manager assistant feature provides managers with limited information.
+The team catch-up feature provides managers with limited information.
 
 Managers have access to:
  * Information taken from the manager's own Outlook mailbox. This includes past emails to and from direct reports and meeting invitations sent by or to direct reports. 
@@ -130,20 +130,6 @@ Managers do not have access to:
  * PII (personally identifiable information) of the direct reports 
  * Tasks that direct reports have or have not completed
  * Any incremental data about direct reports
-
-### Updates to team data 
-
-The manager assistant feature uses both data and settings to determine the structure of a team, namely who is the manager and who reports to that manager. It initially obtains a snapshot of the team structure from Azure Active Directory, which contains the hierarchy of the entire organization. 
-
-When the team structure changes, the MyAnalytics admin is responsible for updating its hierarchy data. They update this data in MyAnalytics, not in Azure Active Directory. Edited data is not uploaded to Azure Active Directory; rather, it remains a local MyAnalytics setting. 
-
-**To edit team hierarchy data**
-
-**Role:** Myanalytics admin
-
-1. Open [GET PATH]. [GET SCREENSHOT]
-2. Step 2. ... 
-3. Final steps ... **Save**. 
 
 ## Privacy settings
 
