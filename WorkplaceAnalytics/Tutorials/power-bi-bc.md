@@ -38,7 +38,7 @@ Before you can add and populate the dashboard in Power BI, you must:
 * Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
 * Have Power BI Desktop installed. See [Install and run Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
 
-## Set up and run the query data
+## Setting up
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under the **Start from preselected filters and metrics** select **Business Continuity** to open this predefined query, which has all the required metrics to populate the Power BI template.
