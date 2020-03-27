@@ -41,16 +41,16 @@ Before you can add and populate the dashboard in Power BI, you must:
 ## Setting up
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under the **Start from preselected filters and metrics** select **Business Continuity** to open this predefined query, which has all the required metrics to populate the Power BI template.
+2. Under the **Start from preselected filters and metrics** select **Business Continuity** to open this predefined query, which has all the required metrics to populate the Power BI template.
 3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions** and then, select to **auto-refresh** the query.
 
    > [!Important]
-   > The dashboard is designed to show you how a disruption can change your organization's work patterns. For best results, select the Last 6 months for the Time period, which should include time before and after the disruption.
+   > The dashboard is designed to show you how a disruption can change your organization's work patterns. For best results, select the Last 6 months for the **Time period**, which should include time before and after the disruption.
 
 4. In **Select metrics**, confirm the preselected, required metrics and select any other metrics to include in the dashboard.
 
    > [!Important]
-   > If you try to delete a required metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. You can select **Cancel** to retain the metric.
+   > If you try to delete a required metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. You can select **Cancel** to retain the metric.
 
 5. In **Select filters**, you can optionally select to filter the data. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 6. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
@@ -65,16 +65,15 @@ Before you can add and populate the dashboard in Power BI, you must:
 11. If prompted, select to open Power BI.
 12. When prompted, paste the OData links for both queries, and then select **Load**. On the **Results** page, select the **link** icon for each query to get the link.
 13. If prompted to **Sign in** to Power BI, enter your **Workplace Analytics login credentials** to connect to the query results.
-14. If you are already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI uses visualization charts to show your data. You are done and can skip the following steps. If not, proceed to the next step. 
-15. If you are not logged in to Power BI, the left panel of the OData feed dialog box highlights the current sign-in account for Power BI.
+14. If you're already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI uses visualization charts to show your data. You are done and can skip the following steps. If not, proceed to the next step.
+15. If not logged in to Power BI, the left pane of **OData feed** (highlights the current sign-in account for Power BI), select **Organizational account**.
 
     >[!Important]
     >You can view Workplace Analytics data (including query results) in Power BI only if you've been assigned the Analyst role in Workplace Analytics. Also, you must sign in with the correct account by using the following steps.
 
-16. In **OData feed** dialog box, select **Organizational account**.
-17. If prompted, select **Sign in**.
-18. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The OData feed dialog box will then show that "you are currently signed in" to Power BI.
-19. Select **Connect** to show the status of the data preparation, which might take several minutes.
+16. If prompted, select **Sign in**.
+17. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The OData feed dialog box will then show that "you are currently signed in" to Power BI.
+18. Select **Connect** to show the status of the data preparation, which might take several minutes.
 
 ## Using the dashboard
 
