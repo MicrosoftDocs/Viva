@@ -27,43 +27,44 @@ The following are a few of the top-level business questions asked by leaders abo
 
 To populate the Business Continuity Dashboard in Power BI, you must set up and successfully run the following predefined **Business Continuity** and **Hourly Collaboration** queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.  
 
-After you successfully run these required queries, you'll see the Power BI template that's required to create the dashboard only . After you download the Power BI template, you can connect the query data from Workplace Analytics to Power BI, and then use it in the Business Continuity Dashboard to visualize and report about your organization's workplace patterns and trends.
+After you successfully run these required queries, you'll see the Power BI template as an available download option for the Business Continuity query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+
+After the Business Continuity Dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
+
+## Prerequisites  
+
+Before you can add and populate the dashboard in Power BI, you must:
+
+* Be assigned the role of Analyst in Workplace Analytics.
+* Have Power BI Desktop installed.
 
 ## Set up and run the query data
 
-Use the following steps to download the template and generate the Workplace Analytics query data that's required to populate the Business Continuity dashboard in Power BI.
-
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under the **Start from preselected filters and metrics** section, run a query for each of the following predefined Person queries in the :
-
-   * **Business Continuity**
-   * **Hourly Collaboration**
-
-3. Enter or select the following for each query.
-
-   |Query setting |Required entry or selection |
-   |-------------|------------------|
-   |Query Name |Name of the applicable query, Business Continuity or Hourly Collaboration|
-   |Group by |Week |
-   |Time Period |Last six months |
-   |Auto-refresh |Select to enable |
-   |Date Range | Automatically selected |
-   |Meeting Exclusions | Select the Tenant Default Meeting Exclusion Rule as applicable for the tenant |
-
-4. Optionally, you can specify additional metrics and filters for each query:
-
-   * **Metrics** - The template automatically includes all applicable metrics. However, you can add and customize additional metrics that you might want to use in Power BI. For example, collaboration levels between communities of interest and trending topics.
+2. Under the **Start from preselected filters and metrics** select **Business Continuity** to open this predefined query, which has all the required metrics to populate the Power BI template.
+3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions** and then, select to **auto-refresh** the query.
+4. In the **Select metrics** section, review and select the metrics to include, which are required to populate the Power BI template.
 
    > [!Important]
-   > Do not change the names or delete any of the preselected metrics for this template because if you do, it'll cause errors within the Power BI dashboard.
+   > If you try to delete a required metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. You can select **Cancel** to retain the metric.
 
-   * **Filters** - You can add filters to focus on specific populations of measured employees. Otherwise, it's preset to return data for all active employees within the measured population.
-   * **Organizational data** - Select all or some of the Organizational Data columns to use in Power BI as pivot points or population filters. At a minimum, you must select the **Organization**, the **LevelDesignation**, and the **TimeZone**.
+5. In the **Select filters** section, you can optionally select to filter the data. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+6. In the **Organizational data** section, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
-5. After confirming the settings, select **Run** to run the query. Repeat these steps to create the **Hourly Collaboration** query.
-6. After the queries successfully run and their status shows as a green check mark, continue to the next step to connect the query data to Power BI.
+   > [!Important]
+   > If you remove the required preselected attributes, you might disable one or more Power BI chart.
 
-For more details about metrics and filters available for Person queries, see [Create a Person Query](./person-queries.md).
+7. Select **Run** to run the query, which might take several minutes to complete.
+8. Repeat the previous steps to create the **Hourly Collaboration** query, which require the same Organizational attributes as the Business Continuity query.
+9. In **Queries** > **Results**, after the queries show a green check mark status, select the **download** icon for the **Business Continuity** query results, and then select **PBI template**, which downloads the template and copies the OData link to the clipboard.
+10. Select **OK**, and then open the downloaded **Business Continuity Power BI template**.
+11. In the Power BI **Business Continuity Dashboard** prompt, paste the query results link, and then select **Load**.
+12. When prompted to **Sign in** in Power BI, enter your **Workplace Analytics login credentials** to connect to the query results.
+13. If prompted to sign in to your account, select **Organization Account**, enter your **Microsoft Office 365 credentials** that you use to access Workplace Analytics, then select **Connect**.
+14. Repeat these steps for the **Hourly Collaboration** query results.
+
+## Using the dashboard
+
 
 ### Query data settings and scope
 
@@ -76,17 +77,6 @@ As you continue to analyze the data over time, you'll might need to update the s
 
 > [!Note]
 > As additional data is processed on a weekly basis, you'll need to adjust the **Selected Time Frame** if you want to view the most recently included data.
-
-## Connect query data to Power BI
-
-1. In Workplace Analytics **Queries** > **Results**, select the **download** icon for the **Business Continuity** query results, and then select **PBI template** to save and open the template.
-2. When prompted for the OData URL, in Workplace Analytics **Queries** > **Results**, select the **link** icon for the **Business Continuity** query results, and then select **Copy**.
-3. In the Power BI **Business Continuity Dashboard** prompt, paste the query results link, and then select **Load**.
-4. When prompted to **Sign in** in Power BI, enter your **Workplace Analytics login credentials** to connect to the query results.
-5. If prompted to sign in to your account, select **Organization Account**, enter your **Microsoft Office 365 credentials** that you use to access Workplace Analytics, then select **Connect**.
-6. Repeat these steps for the **Hourly Collaboration** query results.
-
-## Data analysis
 
 > [!Important]
 > Workplace Analytics utilizes pseudonymized and aggregated behavioral data to provide a focused lens into how groups are getting work done. As with any behavioral dataset, you must view this data directionally about how groups act and respond to stimuli. Additionally, a number of underlying factors are used to calculate group-level, summary metrics. **For example**: Insights about changes in after-hours activity blends data about how people are experiencing large increases in overall activity levels with other individuals who are forced to work split schedules to integrate work and their out-of-work responsibilities. As such, the insights within this dashboard should be used as a lens perspective on how work is getting done, and not used in isolation of more traditional management approaches.
