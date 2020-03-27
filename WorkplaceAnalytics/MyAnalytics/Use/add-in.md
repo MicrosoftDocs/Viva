@@ -257,13 +257,13 @@ After you select a team member's card, you can take any of the actions that are 
  * reschedule 1:1s that have meeting conflicts
  * respond to unread emails and documents
 
-### Edit list of team members
+### Edit the list of your team members
 
 The _Catch up with your team_ feature uses both data and settings to determine the structure of a team, namely who is the manager and who reports to that manager. It initially obtains a snapshot of the team structure from Azure Active Directory, which contains the hierarchy of the entire organization. 
 
 When the team structure changes, the manager is responsible for updating its hierarchy data. 
 
-**To edit team hierarchy data**
+**To edit team member list**
 
 **Role:** manager in an organizational hierarchy
 
@@ -273,7 +273,7 @@ When the team structure changes, the manager is responsible for updating its hie
 
    ![OWA Settings panel](../../images/mya/use/edit-team75-75-80.png) 
     
-3. Select team members until the team listing is accurate and complete.
+3. Select or remove team members until the team listing is accurate and complete.
 
 All changes that you make are stored in your mailbox and are not synchronized to Azure Active Directory.
 
