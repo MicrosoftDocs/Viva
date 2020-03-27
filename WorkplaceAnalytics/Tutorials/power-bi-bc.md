@@ -138,7 +138,7 @@ You can share the dashboard with others in your organization *without sharing th
 
 #### Q4 Can I share the underlying dashboard dataset with others in my organization?
 
-Only employees assigned the role of [Analyst](./use/user-roles.md) in Workplace Analytics should have access to the underlying dataset in the Power BI dashboard.
+To maintain data privacy, only employees assigned the role of [Analyst](./use/user-roles.md) in Workplace Analytics should have access to the underlying dataset in the Power BI dashboard.
 
 #### Q5 How do I set up and run a Workplace Analytics query?
 
