@@ -119,7 +119,7 @@ People can control this setting in their Outlook settings. To show these signals
 
 MyAnalytics provides managers with opportunities to connect with their team members. For information about using this feature, see [Catch up with your team](../use/add-in.md#catch-up-with-your-team).
 
-### Privacy in team catch up
+### Privacy in team catch-up feature
 
 The team catch-up feature provides managers with limited information.
 

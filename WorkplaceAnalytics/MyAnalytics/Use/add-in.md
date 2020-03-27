@@ -233,7 +233,7 @@ MyAnalytics helps managers stay caught up with their team members. It does this 
  * Read any unread emails or documents that they have sent and expect you to read
 
 > [!Note]
-> To learn about the privacy aspects of this feature, see [Manager assistant privacy](../overview/privacy-guide-users.md#manager-assistant-privacy).
+> To learn about the privacy aspects of this feature, see [Privacy in team catch-up feature](../overview/privacy-guide-users.md#privacy-in-team-catch-up-feature).
 
 ### Use MyAnalytics to catch up
 
