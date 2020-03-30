@@ -69,9 +69,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    >[!Note]
    >If you haven't saved any graphs yet, the list will be empty.
 
-2. At top of the graph, you can select a new start and end date for the time range to analyze, and then select **Apply** to update the graph view.
-
-   ![ONA date range](./images/ona-date-range.png)
+2. At top of the graph, you can select different dates to analyze if the analysis includes different time periods. When you change the dates, you must select **Apply** to update the graph view.
 
 3. Use the following options to change the graph view and save new analysis.
 
@@ -81,14 +79,14 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
-   ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in the following layouts. Note that this option is unavailable when the number of graph nodes exceeds the values set by your admin: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries. </li><li> Organic - Spreads nodes and links apart, so multiple components are laid out in a circular arrangement with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don't want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
+   ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in the following layouts. Note that this option is unavailable when the number of graph nodes exceeds the values set by your admin: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries. </li><li> Organic - Spreads nodes and links apart, so multiple components are laid out with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don't want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
    ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
    ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
    ![ONA change settings](./images/ona-settings.png) | Change Settings |Select if the link lines scale the thickness or color darkness based on total time spent between groups. You can also use this to turn tool tips on or off. For some views, you can also select to turn on or off node titles.
    ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.
    ![ONA download table](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).
    ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown to load and view later.
-   ![ONA recompute](./images/ona-recompute-icon.png) | Recompute Metrics |Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).
+   ![ONA recompute](./images/ona-recompute-icon.png) | Recompute Metrics |This only appears if the analysis is filtered by HR attributes. Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).
 
 ## To add new subgroup analysis
 
@@ -103,10 +101,18 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
    ![Add New Analysis](./images/ona-subgroup-analysis.png)
 
-3. Optionally, in **Specify the Network Boundary Condition**, select either single or multiple network boundaries and one or more HR attributes to focus your analysis on.
+3. Optionally, in **Specify the Network Boundary Condition**, you can select either single or multiple network boundaries and applicable HR attributes. With multiple boundaries, you can only select one HR attribute. If you want to analyze more, create new analysis for each.
+
+   >[!Note]
+   >Metrics download is the only option available for multiple network boundaries. No visuals are available, however you can create them with new analysis.
+
 4. In **Select Employee Level Metrics**, select which employee level metrics, such as Boundary Spanning or Bridging Index to analyze in the graph.
 5. In **Select Group Level Metrics**, select the group HR attributes and group metrics to analyze in the combined or grouped view. See [Node Measures](#node-measures) for more details about these options, such as [Boundary spanning](#boundary-spanning) and [Influence Index](#influence-index).
 6. In **Compute Options**, select the checkbox if you want to also analyze the monthly data for network and group level metrics.
+
+   >[!Note]
+   >This option is unavailable for the multiple network boundaries option, because multiple network boundaries and multiple time periods cannot be done in the same calculation. This also avoids long run times.
+
 7. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
 ## To view a saved graph
