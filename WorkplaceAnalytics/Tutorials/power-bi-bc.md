@@ -38,7 +38,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 * Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
 * Have Power BI Desktop installed. See [Install and run Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
 
-## Setting up
+## Setting up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Business Continuity** to open this predefined query, which contains the first set of required metrics to populate the dashboard.
@@ -54,7 +54,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > * The dashboard is designed to show you how a disruption can change your organization's work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after the disruption.
    > * If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. You can select **Cancel** to retain the metric.
 
-4. In **Select filters**, you can optionally select to filter the data. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
    > [!Important]
@@ -73,18 +73,21 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 12. In Power BI, set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.  
 13. Select **Load** to import the query results into Power BI.
 14. If you're already logged in to Power BI with your Workplace Analytics organizational account, your will data load and the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-15. If you're not logged in to Power BI, in **OData feed** (highlights the current sign-in account for Power BI), select **Organizational account**.
+15. If you're not logged in to Power BI, or if an error occurs when updating the data, you need to log in to your organizational account again.
+
+    * In Power BI, open the **Transform Data** menu, and then select **Data source settings**.
+    * For each data source, select **Edit Permissions**, and then select **Organizational account**.
 
     >[!Important]
-    >You can view Workplace Analytics data (including query results) in Power BI only if you've been assigned the Analyst role in Workplace Analytics. Also, you must sign in with the correct account by using the following steps.
+    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 16. If prompted, select **Sign in**.
 17. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The OData feed dialog box will then show that "you are currently signed in" to Power BI.
-18. Select **Connect** to begin data preparation, which might take several minutes to complete.
+18. Select **Connect** to begin data preparation, which can take several minutes (up to two hours) to complete.
 
 ## Using the dashboard
 
-After the Business Continuity Dashboard is set up and populated with Workplace Analytics data, the following helps you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
+After the Business Continuity Dashboard is set up and populated with Workplace Analytics data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
 
 ### Settings and scope
 
@@ -98,7 +101,7 @@ As a first step to viewing data in the dashboard, view and set the following par
 * **Selected time frame** - This is the time frame you want to compare to the baseline time frame.
 * **Scope** - Select the **Organizations** and **Time zones** you want to analyze in the report. These filters are applied across all the pages in the Power BI report.
 * **Minimum group size** - This displays the minimum group size that has been configured for this report.
-    >[!Note]
+    >[!Important]
     >Make sure this adheres to your organization's policies around minimum aggregation requirements for displaying Workplace Analytics data.
 
 After changing one or more of these settings, confirm the number of scoped employees are what you want to analyze.
