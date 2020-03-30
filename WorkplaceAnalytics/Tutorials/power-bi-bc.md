@@ -20,10 +20,10 @@ The following are a few of the top-level business questions asked by leaders tha
 
 |Business question |Analysis |
 |-------------|------------------|
-|How is business as usual changing? |<ul><li>How are activity levels changing in response to a disruption? </li><li>Which lines of business are more impacted? </li></ul>|
-|How are employees adapting to the disruption?  |<ul><li>How many employees are experiencing significant shifts in workweek span and collaboration demand? </li><li>How are employees shifting their work patterns across the collaboration activities, such as calls and chats? </li></ul>|
-|Are we maintaining external relationships? |<ul><li>How much has changed with customer, partner, and vendor collaboration? </li><li>Which lines of business are experiencing the largest increases and decreases in external demand? </li></ul>|
-|How do you foster employee community and engagement? |<ul><li>Are your managers regularly checking in with their employees about their wellbeing and health? </li><li>Are employees managing to stay engaged while in an all-remote work environment? </li></ul>|
+|How is business as usual changing? |<ul><li>How are employee collaboration patterns changing in response to this disruption?  </li><li>Which collaboration tools are people substituting for in-person interaction? |
+|How are employees adapting to the disruption? |<ul><li>What share of employees are experiencing significant shifts in their weekly work spans and collaboration levels? </li><li>How are working patterns flexing across our collaboration mediums? </li></ul>|
+|Are you maintaining external relationships? |<ul><li>Are you still connecting with customers, partners, and vendors? ? </li><li>Which lines of business are experiencing the largest increases and decreases in external demand? </li></ul>|
+|How do you foster employee community and engagement? |<ul><li>Are managers still connecting one-on-one with their team members? </li><li>Are employees staying connected to their peers in this 100 percent remote working environment? </li></ul>|
 
 To populate the Business Continuity Dashboard in Power BI, you must set up and successfully run the predefined **Business Continuity** and **Hourly Collaboration** queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.  
 
@@ -41,10 +41,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ## Setting up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Business Continuity** to open this predefined query, which contains the first set of required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Business Continuity** (or Hourly Collaboration the second time through per Step 7) to open this predefined query, which contains the first set of required metrics to populate the dashboard.
 3. Select or confirm the following query settings:
 
-   * **Query Name** - Business Continuity
    * **Group by** - Week
    * **Time period** - Last 6 months
    * **Auto-refresh** - Enable the setting
@@ -61,8 +60,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which might take several minutes to complete.
-7. Repeat the previous steps and select the **Hourly Collaboration** query in Step 2, which requires the same filters and **Organizational data** attributes as the **Business Continuity** query. And then in Step 3, name the query **Hourly Collaboration**.
-8. In **Queries** > **Results**, after the queries successfully run, select the **download** icon for the **Business Continuity** query results, and then select **PBI template**, which downloads the template and copies the OData link to the clipboard.
+7. Repeat steps 2-6 for the **Hourly Collaboration** query, which requires the same selections as for the Business Continuity query.
+8. In **Queries** > **Results**, after both queries successfully run, select the **download** icon for the **Business Continuity** query results, and then select **PBI template**, which downloads the template.
 9. Select **OK**, and then open the downloaded **Business Continuity Power BI template**.
 10. If prompted to select a program, select **Power BI**.
 11. When prompted, you must paste the OData links for both queries into their respective input boxes.
@@ -106,7 +105,7 @@ As a first step to viewing data in the dashboard, view and set the following par
 
 After changing one or more of these settings, confirm the number of scoped employees are what you want to analyze.
 
-> [!Note]
+> [!Important]
 > As additional data is processed on a weekly basis, you'll need to adjust the **Selected Time Frame** if you want to view the most recent data.
 
 ### Power BI tips
