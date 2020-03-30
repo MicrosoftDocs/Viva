@@ -23,7 +23,9 @@ The following new template and template features, enhancements, and changes are 
 
 ### Join Datasets Azure Template
 
-The new Join Datasets Template enables you to securely join, group, and aggregate data exported from Workplace Analytics with other third-party data sources, such as sensitive, personnel data or HR data that you want to combine and analyze. This template enforces the same data privacy settings that you set in Workplace Analytics, such as minimum group size, data exclusions, and other privacy settings. Note, this template requires the HR manager to upload additional identifier data into Workplace Analytics during the HR data upload process.
+The new Join Datasets Template enables you to securely join, group, and aggregate data exported from Workplace Analytics with other third-party data sources, such as sensitive, personnel data or HR data that you want to combine and analyze.
+
+This template enforces the same data privacy settings that you set in Workplace Analytics, such as minimum group size, data exclusions, and other privacy settings. Note, this template requires the HR manager to upload additional identifier data into Workplace Analytics during the HR data upload process.
 
 To learn more, see [Join Datasets Azure Template](./join-datasets.md).
 
