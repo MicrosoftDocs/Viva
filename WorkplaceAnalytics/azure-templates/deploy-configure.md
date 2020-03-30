@@ -121,7 +121,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
   * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as an Analyst.
   * Owns and can access and use incoming data to create datasets.
   * Can share access to data they own with other users.
-<!--* For the Join Datasets template, can share access to their joined datasets with other template users.-->
+  * For the [Join Datasets Azure Template](./join-datasets.md), can share access to their joined datasets with other template users.
 
 * **Data Scientist**
 
@@ -173,9 +173,9 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 As an admin, you can configure template settings in **Admin** > **Configuration**, including:
 
-* The minimum group size, maximum number of nodes and links in data analysis with the Organizational Network Analysis Azure Template.
-* If the Process Explorer Azure Template either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
-<!--* Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.-->
+* The minimum group size, maximum number of nodes and links in data analysis with the **Organizational Network Analysis Azure Template**.
+* If the **Process Explorer Azure Template** either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
+* Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.
 
 ## Audit logs
 
@@ -194,3 +194,4 @@ As an admin, you can audit user activity in **Admin** > **Logs**. Select the **i
 * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
 * [Topic Analysis Azure Template](./topic-analysis.md)
 * [Process Explorer Azure Template](./process-explorer.md)
+* [Join Datasets Azure Template](./join-datasets.md)
