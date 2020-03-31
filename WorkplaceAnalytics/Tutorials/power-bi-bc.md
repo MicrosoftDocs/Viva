@@ -76,10 +76,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    ![Odata query link for Power BI](../Images/WpA/Tutorials/power-bi-download-2.png)
 
 10. If prompted to select a program, select **Power BI**.
-11. When prompted, paste the OData links for both queries into their respective input boxes.
+11. When prompted, paste the OData links for both queries into their respective fields.
 
     * In the Workplace Analytics **Queries** > **Results** page, select the **link** icon for each query, and copy the generated OData URL link.
-    * In Power BI, paste each link into its respective input field.
+    * In Power BI, paste each link into its respective field.
 
     ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
 
@@ -99,6 +99,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 16. In Power BI, select **Refresh** to load the data, which can take several minutes (up to two hours) to complete.
+
+### Video: Setting up the dashboard
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Using the dashboard
 
@@ -145,6 +149,31 @@ Anyone you share the Power BI *desktop file* with can access the underlying data
 * **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports from Power BI to PDF](https://docs.microsoft.com/power-bi/consumer/end-user-pdf).
 * **Publish the report to Power BI Service and share insights in an app** - This option allows other users to navigate the dashboard without access to the underlying data. See [Publish an app in Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps) for details.
 
+## Troubleshooting
+
+### OData error: The given URL neither points to an OData service or a feed
+
+If you are signed in with the wrong organizational account, you'll get an error message when loading the data with the Power BI template. To fix it, follow these steps:
+
+1. Close the error message, and then open the **Transform data** menu, and select **Data source settings**.
+2. In **Data source settings**, select **Global permissions**, select "**https://workplace.analytics.office.com**", and then select **Edit permissions**.
+3. For **Credentials**, select **Edit**.
+4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
+5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
+6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
+7. Close Power BI and follow the instructions in [Setting up the dashboard](#setting-up-the-dashboard).
+
+### The Power BI visuals fail to load or show errors in the tables
+
+Power BI cannot complete a data join if data values are missing in the Organization or LevelDesignation tables. To validate this error:
+
+1. In the **Fields** pane, look for an error (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error, select the field with the error to view it. For example:
+
+  ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
+
+2. To remediate this error, replace the failing **Organization** and/or **LevelDesignation** fields by removing their pills from the **Axis** field within the **Visualization** pane.
+3. Expand the **Business Continuity** table within the **Fields** pane and select the Organization or LevelDesignation field to add them.  
+
 ## Frequently asked questions
 
 #### Q1 Who can create the dashboard in Power BI?
@@ -183,19 +212,7 @@ See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details o
 
 The dashboard is currently only available in English.
 
-#### Q10 How to fix "OData: The given URL neither points to an OData service or a feed" error?
-
-If you are signed in with the wrong organizational account, you'll get an error message when loading the data with the Power BI template. To fix it, follow these steps:
-
-1. Close the error message, and then open the **Transform data** menu, and select **Data source settings**.
-2. In **Data source settings**, select **Global permissions**, select "**https://workplace.analytics.office.com**", and then select **Edit permissions**.
-3. For **Credentials**, select **Edit**.
-4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
-5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
-6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
-7. Close Power BI and follow the instructions in [Setting up the dashboard](#setting-up-the-dashboard).
-
-#### Q11 What is the Threshold setting and how do I use it in the dashboard?
+#### Q10 What is the Threshold setting and how do I use it in the dashboard?
 
 The **How employees are adapting** page shows how collaboration changed by the shown number of hours per week, which is an average for all employees in the organization. You can adjust the **Threshold** setting to see if some employees are disproportionately affected. To see what share of employees across the organization saw a higher or lower change in collaboration hours, adjust the slider control to change the setting either higher or lower.
 
