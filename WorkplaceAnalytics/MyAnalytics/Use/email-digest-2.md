@@ -17,8 +17,8 @@ As a MyAnalytics user, you'll receive a weekly digest with suggestions to help y
 Each week focuses on one of the following work patterns:
 
 * **Focus** - Find ways to increase your focus hours, so you can accomplish deep work and unleash your creativity.
-* **Wellbeing** - See if you’re getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
-* **Network** - See who’s in your network and make sure you’re keeping up with important contacts and relationships.
+* **Wellbeing** - See if you're getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
+* **Network** - See who's in your network and make sure you're keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
 
 > [!Note]
