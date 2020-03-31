@@ -98,7 +98,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     ![Power BI data source settings](../Images/WpA/Tutorials/pbi-data-ss.png)
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-16. Select **Refresh** to begin data preparation, which can take several minutes (up to two hours) to complete.
+16. In Power BI, select **Refresh** to load the data, which can take several minutes (up to two hours) to complete.
 
 ## Using the dashboard
 
