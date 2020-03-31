@@ -100,6 +100,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 16. In Power BI, select **Refresh** to load the data, which can take several minutes (up to two hours) to complete.
 
+<!--### Video: Setting up the dashboard
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+-->
 ## Using the dashboard
 
 After the Business Continuity Dashboard is set up and populated with Workplace Analytics data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
