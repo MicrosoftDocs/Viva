@@ -103,7 +103,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ### Video: Setting up the dashboard
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-402717048
+
 ## Using the dashboard
 
 After the Business Continuity Dashboard is set up and populated with Workplace Analytics data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
