@@ -47,7 +47,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 3. Select or confirm the following query settings:
 
-   * **Name** - Customize or leave default name
+   * **Name** - Customize or keep default name
    * **Group by** - Week
    * **Time period** - Last 6 months
    * **Auto-refresh** - Enable the setting
@@ -83,13 +83,14 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
     ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
 
-12. In Power BI, set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data. 
+12. In Power BI, set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
 13. Select **Load** to import the query results into Power BI.
-14. If you're already signed in to Power BI with your Workplace Analytics organizational account, your will data load and the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+14. If you're already signed in to Power BI with your Workplace Analytics organizational account, your data will start loading, and the dashboard visualizations will populate with your data, which can take several minutes (up to two hours) to complete. You are done and can skip the following steps. If not, proceed to the next step.
 15. If you're not signed in to Power BI, or if an error occurs when updating the data, you need to log in to your organizational account again.
 
-    * In Power BI, open the **Transform Data** menu, and then select **Data source settings**.
-    * For each data source, select **Edit Permissions**, and then select **Organizational account**.
+    a. In Power BI, open the **Transform Data** menu, and then select **Data source settings**.
+    b. For *each data source*, select **Edit Permissions**.
+    c. In the **Office 365** dialog box, select **Organizational account**, select **Sign in**, enter your Workplace Analytics login credentials, and then select **Save**. The OData feed dialog box will then show that "you are currently signed in" to Power BI.
 
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
@@ -97,9 +98,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     ![Power BI data source settings](../Images/WpA/Tutorials/pbi-data-ss.png)
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-16. If prompted, select **Sign in**, and then **Save**.
-17. In the **Office 365** dialog box, select the organizational account that you use to sign in to Workplace Analytics. The OData feed dialog box will then show that "you are currently signed in" to Power BI.
-18. Select **Connect** to begin data preparation, which can take several minutes (up to two hours) to complete.
+16. In Power BI, select **Refresh** to load the data, which can take several minutes (up to two hours) to complete.
 
 ## Using the dashboard
 
@@ -184,10 +183,9 @@ See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details o
 
 The dashboard is currently only available in English.
 <!--
-#### Q10 What is the Threshold setting in the dashboard?
+#### Q10 What is the Threshold setting and how do I use it in the dashboard?
 
-Overall, collaboration changed by X number of hours per week. However, this is an average for all employees in the organizations.
-Now, let's find out if some employees are disproportionately affected. To see what share of employees across these organizations saw a higher or lower change in collaboration hours, adjust the slider below.
+The **How employees are adapting** page shows how collaboration changed by the shown number of hours per week, which is an average for all employees in the organization. You can adjust the **Threshold** setting to see if some employees are disproportionately affected. To see what share of employees across the organization saw a higher or lower change in collaboration hours, adjust the slider control to change the setting either higher or lower.
 -->
 ## Support
 
