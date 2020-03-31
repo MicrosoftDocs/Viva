@@ -187,8 +187,8 @@ The dashboard is currently only available in English.
 
 If you are signed in with the wrong organizational account, you'll get an error message when loading the data with the Power BI template. To fix it, follow these steps:
 
-1. Close the error message, and then open the **Transform data** menu, and select **Data source settings**. 
-2. In **Data source settings**, select **Global permissions**, select **https://workplace.analytics.office.com**, and then select **Edit permissions**.
+1. Close the error message, and then open the **Transform data** menu, and select **Data source settings**.
+2. In **Data source settings**, select **Global permissions**, select "**https://workplace.analytics.office.com**", and then select **Edit permissions**.
 3. For **Credentials**, select **Edit**.
 4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
 5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
