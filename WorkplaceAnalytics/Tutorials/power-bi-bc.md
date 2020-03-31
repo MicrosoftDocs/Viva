@@ -85,7 +85,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 12. In Power BI, set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
 13. Select **Load** to import the query results into Power BI.
-14. If you're already signed in to Power BI with your Workplace Analytics organizational account, your will data load, and the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+14. If you're already signed in to Power BI with your Workplace Analytics organizational account, your data will start loading, and the dashboard visualizations will populate with your data, which can take several minutes (up to two hours) to complete. You are done and can skip the following steps. If not, proceed to the next step.
 15. If you're not signed in to Power BI, or if an error occurs when updating the data, you need to log in to your organizational account again.
 
     a. In Power BI, open the **Transform Data** menu, and then select **Data source settings**.
