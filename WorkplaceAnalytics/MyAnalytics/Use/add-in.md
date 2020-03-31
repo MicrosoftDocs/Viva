@@ -258,7 +258,7 @@ Any changes you make apply only to your MyAnalytics experience; they do not sync
 
 ## Pin the add-in
 
-If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.
+If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.  
 
 **To pin the add-in to the quick access pane**
 
