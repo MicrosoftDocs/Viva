@@ -42,8 +42,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Business Continuity** (or Hourly Collaboration per Step 7) to open this predefined query, which contains the first set of required metrics to populate the dashboard.
+
+   ![Predefined queries](../Images/WpA/Tutorials/predefined-bc-queries.png)
+
 3. Select or confirm the following query settings:
 
+   * **Name** - Customize or leave default name
    * **Group by** - Week
    * **Time period** - Last 6 months
    * **Auto-refresh** - Enable the setting
@@ -52,6 +56,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > [!Important]
    > * The dashboard is designed to show you how a disruption can change your organization's work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after the disruption.
    > * If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all of the possible charts. You can select **Cancel** to retain the metric.
+
+   ![Business Continuity queries](../Images/WpA/Tutorials/bc-query.png)
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
@@ -62,17 +68,25 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 6. Select **Run** to run the query, which might take several minutes to complete.
 7. Repeat steps 2-6 for the **Hourly Collaboration** query, which requires the same selections as for the Business Continuity query.
 8. In **Queries** > **Results**, after both queries successfully run, select the **download** icon for the **Business Continuity** query results, and then select **PBI template**, which downloads the template.
+
+   ![Power BI template download](../Images/WpA/Tutorials/pbi-template-download.png)
+
 9. Select **OK**, and then open the downloaded **Business Continuity Power BI template**.
+
+   ![Odata query link for Power BI](../Images/WpA/Tutorials/power-bi-download-2.png)
+
 10. If prompted to select a program, select **Power BI**.
-11. When prompted, you must paste the OData links for both queries into their respective input boxes.
+11. When prompted, paste the OData links for both queries into their respective input boxes.
 
     * In the Workplace Analytics **Queries** > **Results** page, select the **link** icon for each query, and copy the generated OData URL link.
     * In Power BI, paste each link into its respective input field.
 
-12. In Power BI, set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.  
+    ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
+
+12. In Power BI, set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data. 
 13. Select **Load** to import the query results into Power BI.
-14. If you're already logged in to Power BI with your Workplace Analytics organizational account, your will data load and the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-15. If you're not logged in to Power BI, or if an error occurs when updating the data, you need to log in to your organizational account again.
+14. If you're already signed in to Power BI with your Workplace Analytics organizational account, your will data load and the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+15. If you're not signed in to Power BI, or if an error occurs when updating the data, you need to log in to your organizational account again.
 
     * In Power BI, open the **Transform Data** menu, and then select **Data source settings**.
     * For each data source, select **Edit Permissions**, and then select **Organizational account**.
@@ -80,8 +94,11 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
-16. If prompted, select **Sign in**.
-17. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The OData feed dialog box will then show that "you are currently signed in" to Power BI.
+    ![Power BI data source settings](../Images/WpA/Tutorials/pbi-data-ss.png)
+    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+
+16. If prompted, select **Sign in**, and then **Save**.
+17. In the **Office 365** dialog box, select the organizational account that you use to sign in to Workplace Analytics. The OData feed dialog box will then show that "you are currently signed in" to Power BI.
 18. Select **Connect** to begin data preparation, which can take several minutes (up to two hours) to complete.
 
 ## Using the dashboard
@@ -100,10 +117,13 @@ As a first step to viewing data in the dashboard, view and set the following par
 * **Selected time frame** - This is the time frame you want to compare to the baseline time frame.
 * **Scope** - Select the **Organizations** and **Time zones** you want to analyze in the report. These filters are applied across all the pages in the Power BI report.
 * **Minimum group size** - This displays the minimum group size that has been configured for this report.
+
     >[!Important]
     >Make sure this adheres to your organization's policies around minimum aggregation requirements for displaying Workplace Analytics data.
 
-After changing one or more of these settings, confirm the number of scoped employees are what you want to analyze.
+  ![Dashboard Settings and scope](../Images/WpA/Tutorials/pbi-settings-scope.png)
+
+After changing one or more of the settings in **Settings & Scope**, confirm the number of scoped employees are what you want to analyze.
 
 > [!Important]
 > As additional data is processed on a weekly basis, you'll need to adjust the **Selected Time Frame** if you want to view the most recent data.
@@ -123,8 +143,8 @@ Like other products that work with sensitive data, such as HR systems, Workplace
 
 Anyone you share the Power BI *desktop file* with can access the underlying dataset at the same level of granularity as a Workplace Analytics Analyst.   For this reason, consider the following alternatives that do not provide access to the underlying data:
 
-* **Share as a PDF or other static file** - This option is not interactive. See [Printing from the Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-print).
-* **Share insights in an app** - This option allows users to navigate the dashboard without access to the underlying data. See [Publish an app in Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps) for details.
+* **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports to PDF from Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-export-to-pdf).
+* **Publish the report to Power BI Service and share insights in an app** - This option allows other users to navigate the dashboard without access to the underlying data. See [Publish an app in Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps) for details.
 
 ## Frequently asked questions
 
