@@ -246,13 +246,13 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
    The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
 
-   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75.png)
+   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
 
-#### To update team membership
+#### To edit your team list
 
-If you notice that your team member list is inaccurate, select **Edit team** to add or remove team members, as shown here:
+ * If you notice that your team member list is inaccurate, select **Edit team** to add or remove team members, as shown here:
 
-![Update team members](../../images/mya/use/edit-team75-75-80.png)
+   ![Update team members](../../images/mya/use/edit-team75-75-80.png)
 
 Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
 
