@@ -226,20 +226,17 @@ _This card shows the **Attachments** section in its expanded state, which lets y
 
 ## Catch up with your team
 
-MyAnalytics helps managers stay caught up with their team members. It does this by providing managers with easy ways to do the following:  
+People managers often have hectic schedules, and it can be tough to stay in close contact with each team member. MyAnalytics brings together all the information managers need to stay caught up and respond quickly to important requests. 
 
- * Schedule 1:1 time with a team member 
- * Stay on top of tasks that your team members have requested
- * Read any unread emails or documents that they have sent and expect you to read
+As a manager, you can:
 
-> [!Note]
-> To learn about the privacy aspects of this feature, see [Privacy in team catch-up feature](../overview/privacy-guide-users.md#privacy-in-team-catch-up-feature).
+ * Schedule 1:1 time with a team member (or reschedule if a conflict comes up)
+ * Act on tasks you promised to get done or that team members asked you to complete
+ * Review important emails and documents from team members that you haven’t read yet
 
-### Use MyAnalytics to catch up
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
 
-**Role:** manager in an organizational hierarchy
-
-In this procedure, you are a manager who wants to connect better with your team members. By using the manager assistant, you discover that you have no 1:1 meetings on the calender with a particular employee. You then use the screens of the feature to easily set up a meeting with that employee. 
+#### To use the catch up feature
 
 1. On the **Home** ribbon of Microsoft Outlook, [open Insights](add-in#what-you-might-see). 
 
@@ -249,31 +246,15 @@ In this procedure, you are a manager who wants to connect better with your team 
 
    The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
 
-   ![Team member card Debra](../../images/mya/use/connect-actions-debra.png)
+   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75.png)
 
-After you select a team member's card, you can take any of the actions that are indicated on that card, such as:
+#### To update team membership
 
- * schedule 1:1s if none are set up for the next four weeks
- * reschedule 1:1s that have meeting conflicts
- * respond to unread emails and documents
+If you notice that your team member list is inaccurate, select **Edit team** to add or remove team members, as shown here:
 
-### Edit the list of your team members
+![Update team members](../../images/mya/use/edit-team75-75-80.png)
 
-The _Catch up with your team_ feature requires current data about team membership. It initially obtains a list of team members from Azure Active Directory. Thereafter, when the team structure or membership changes, the manager is responsible for updating its hierarchy data. 
-
-**To edit team member list**
-
-**Role:** manager in an organizational hierarchy
-
-1. Open the **Catch up with your team** card, as described in [Use MyAnalytics to catch up](#use-myanalytics-to-catch-up).
-
-2. Select **MY TEAM** to open the **EDIT YOUR TEAM** panel:
-
-   ![OWA Settings panel](../../images/mya/use/edit-team75-75-80.png) 
-    
-3. Select or remove team members until the team listing is accurate and complete.
-
-All changes that you make are stored in your mailbox and are not synchronized to Azure Active Directory.
+Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
 
 ## Pin the add-in
 
