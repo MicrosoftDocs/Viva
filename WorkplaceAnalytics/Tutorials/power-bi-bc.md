@@ -169,7 +169,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 
 1. In the **Fields** pane, look for an error (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error, select the field with the error to view it. For example:
 
-  ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
+   ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
 
 2. To remediate this error, replace the failing **Organization** and/or **LevelDesignation** fields by removing their pills from the **Axis** field within the **Visualization** pane.
 3. Expand the **Business Continuity** table within the **Fields** pane and select the Organization or LevelDesignation field to add them.  
