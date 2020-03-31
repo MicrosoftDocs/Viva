@@ -182,11 +182,23 @@ See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details o
 #### Q9 What languages is the dashboard available in?
 
 The dashboard is currently only available in English.
-<!--
-#### Q10 What is the Threshold setting and how do I use it in the dashboard?
+
+#### Q10 How to fix "OData: The given URL neither points to an OData service or a feed" error?
+
+If you are signed in with the wrong organizational account, you'll get an error message when loading the data with the Power BI template. To fix it, follow these steps:
+
+1. Close the error message, and then open the **Transform data** menu, and select **Data source settings**. 
+2. In **Data source settings**, select **Global permissions**, select **https://workplace.analytics.office.com**, and then select **Edit permissions**.
+3. For **Credentials**, select **Edit**.
+4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
+5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
+6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
+7. Close Power BI and follow the instructions in [Setting up the dashboard](#setting-up-the-dashboard).
+
+#### Q11 What is the Threshold setting and how do I use it in the dashboard?
 
 The **How employees are adapting** page shows how collaboration changed by the shown number of hours per week, which is an average for all employees in the organization. You can adjust the **Threshold** setting to see if some employees are disproportionately affected. To see what share of employees across the organization saw a higher or lower change in collaboration hours, adjust the slider control to change the setting either higher or lower.
--->
+
 ## Support
 
 * **Dashboard support** - Contact the Workplace Analytics team member that referred you to this page for support about onboarding, usage, and interpretation of the data contained within the dashboard.
