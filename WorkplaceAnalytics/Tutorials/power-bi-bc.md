@@ -102,7 +102,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ### Video: Setting up the dashboard
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/402717048/1483a4af4f" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Using the dashboard
 
