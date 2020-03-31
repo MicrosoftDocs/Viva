@@ -119,7 +119,7 @@ People can control this setting in their Outlook settings. To show these signals
 
 MyAnalytics helps people managers improve relationships with team members by providing assistance in the flow of their work in Office 365. For example, the [Catch up with your team](../use/add-in.md#catch-up-with-your-team) feature in the [Insights add-in](..\Use\add-in.md) helps managers schedule regular 1:1 time, respond quickly to unread emails, and more.
 
-   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75.png)
+   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
 
 All assistance for managers in MyAnalytics relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
 
