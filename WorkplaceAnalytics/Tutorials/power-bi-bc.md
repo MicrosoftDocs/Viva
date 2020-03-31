@@ -143,7 +143,7 @@ Like other products that work with sensitive data, such as HR systems, Workplace
 
 Anyone you share the Power BI *desktop file* with can access the underlying dataset at the same level of granularity as a Workplace Analytics Analyst.   For this reason, consider the following alternatives that do not provide access to the underlying data:
 
-* **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports to PDF from Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-export-to-pdf).
+* **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports from Power BI to PDF](https://docs.microsoft.com/power-bi/consumer/end-user-pdf).
 * **Publish the report to Power BI Service and share insights in an app** - This option allows other users to navigate the dashboard without access to the underlying data. See [Publish an app in Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps) for details.
 
 ## Frequently asked questions
@@ -183,7 +183,12 @@ See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details o
 #### Q9 What languages is the dashboard available in?
 
 The dashboard is currently only available in English.
+<!--
+#### Q10 What is the Threshold setting in the dashboard?
 
+Overall, collaboration changed by X number of hours per week. However, this is an average for all employees in the organizations.
+Now, let's find out if some employees are disproportionately affected. To see what share of employees across these organizations saw a higher or lower change in collaboration hours, adjust the slider below.
+-->
 ## Support
 
 * **Dashboard support** - Contact the Workplace Analytics team member that referred you to this page for support about onboarding, usage, and interpretation of the data contained within the dashboard.
