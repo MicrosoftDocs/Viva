@@ -19,7 +19,7 @@ As the admin, you can configure Briefing email for your organization. Before con
 
 * **Prerequisite**: Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Data privacy**: See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
-
+<!--
 ### To configure access at the tenant level
 
 As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English (US) will receive the Briefing email.
@@ -36,10 +36,11 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 5. Select or deselect the checkbox next to **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the Briefing email and individual users cannot override this setting.
 
    ![Briefing email access](./images/be-admin.png)
-
+-->
 > [!Note]
-> When the setting is enabled, individual users can select **Unsubscribe** from within any Briefing email to opt out.
-<!--As the admin, you can set the Briefing email up at the [tenant level](#tenant-level-configuration) or the [user level](#user-level-configuration).
+> Individual users can select **Unsubscribe** from within any Briefing email to opt out at anytime.
+
+As the admin, you can set the Briefing email up at the [tenant level](#tenant-level-configuration) or the [user level](#user-level-configuration).
 
 ## Tenant-level configuration
 
@@ -57,8 +58,7 @@ To get the current state of the Briefing email setting, use:
 ```powershell
 Get-OrganizationIntelligenceConfig
 ```
--->
-<!-- 3/17--Per Mathew, we'll publish this section in place of the exposed steps for the admin center when he say, but maybe keep the admin center steps because they might bring the tenant level instructions back, so keep just in case.
+
 ## User-level configuration
 
 You can configure the Briefing email at the user level in your organization. At this level, you can enable or disable it for a user, which turns off or on all Briefing email functionality for that user.
@@ -129,7 +129,6 @@ You can also set the parameter for multiple users with a PowerShell script that 
      ```
 
   3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
--->
 
 ## Related topics
 
