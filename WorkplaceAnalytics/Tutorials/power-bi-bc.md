@@ -133,14 +133,17 @@ After changing one or more of the settings in **Settings & Scope**, confirm the 
 
 ## Reviewing reports
 
-Six dashboard reports directionally highlight where disruptions to ways of working are having the largest impact, and provide a measurable starting point for identifying where leaders can use tools and processes to support employees in the new way of working. All metrics are defined in the Glossary report at the end of the dashboard. Interpretation is provided in the text boxes of each screen.  A brief description of each report and nuances to be aware of are described here.
+The following dashboard reports directionally highlight where disruptions to ways of working are having the largest impact, and provide a measurable starting point for identifying where leaders can use tools and processes to support employees in a new way of working. All metrics are defined in the Glossary report at the end of the dashboard. Interpretation is also included for each report.
 
-* **Business Continuity at a Glance** - Provides framing for the data and an overview of metrics. Mouse over each metric to obtain the definition. Select the "I" next to each business question to navigate to a specific dashboard report.  Note: the metrics for "How do we foster employee engagement and community are based on your Selected time frame, not on a comparison of selected to baseline.
+* **Business Continuity at a Glance** - Frames the data and gives an overview of the metrics. Hover your cursor over each metric to see its definition. Select the **i** icon next to each business question to view the related report. 
 * **How is 'Business as Usual' changing** - Shows the trend in collaboration hours by channel. You can further drill into the displayed Organization by the attribute Level Designation.
-* How are employees adapting to the disruption [1] - Allows the organization to assess whether some employees are disproportionately affected.   To see what share of employees across the organization see a higher or lower change in collaboration hours, adjust the "Threshold" slider to see which groups collaborated X hours more or less than before. 
-How are employees adapting to the disruption [2]:  Demonstrates the slippage between work and life balance.  To see what share of employees across the organization see a higher or lower change in after hours, adjust the "Threshold" slider to see which groups had X hours more or less than before. 
-Are we maintaining external relationships?    Quantifies changes in communication with customers, partners and other people outside the organization.  You can further drill into the displayed Organization by the attribute Level Designation 
-How can we foster employee engagement and community?   Unlike the other reports which look at changes between the baseline and current period, this report displays metrics in the current period.  This view allows leaders to assess whether manager 1:1s and organizational collaboration, keys to fostering employee engagement and community, are still occurring in a virtual setting. 
+* **How are employees adapting to the disruption [1]** - Enables you to assess whether some employees are disproportionately affected.   To see what share of employees across the organization see a higher or lower change in collaboration hours, adjust the "Threshold" slider to see which groups collaborated X hours more or less than before.
+* **How are employees adapting to the disruption [2]** -  Demonstrates the slippage between work and life balance. To see what share of employees across the organization see a higher or lower change in after-hours work, adjust the **Threshold** slider control to see which groups had X hours more or less than before.
+* **Are you maintaining external relationships?** - Quantifies changes in communication with customers, partners and other people outside the organization.  You can further drill into the displayed Organization by the attribute Level Designation.
+* **How can we foster employee engagement and community?** - Unlike the other reports that show changes between the baseline and the current time period, this report shows metrics in the current period. This view enables you to assess whether manager 1:1 meetings and organizational collaboration, which are keys to fostering employee engagement and community, are still occurring with virtual connections.
+
+  > [!Note]
+  > The metrics for "How do we foster employee engagement and community" are based on the selected time frame, not on a comparison with the baseline time frame.
 
 ### Power BI tips
 
