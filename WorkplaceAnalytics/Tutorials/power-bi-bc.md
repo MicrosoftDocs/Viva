@@ -95,10 +95,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
-    ![Power BI data source settings](../Images/WpA/Tutorials/pbi-data-ss.png)
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 16. In Power BI, select **Refresh** to load the data, which can take several minutes (up to two hours) to complete.
+17. After Power BI loads the data, if you see an alert for your report that query changes haven't yet been applied, select **Apply Changes**.
 
 ### Video: Setting up the dashboard
 
@@ -130,6 +130,20 @@ After changing one or more of the settings in **Settings & Scope**, confirm the 
 
 > [!Important]
 > As additional data is processed on a weekly basis, you'll need to adjust the **Selected Time Frame** if you want to view the most recent data.
+
+## Reviewing reports
+
+The following dashboard reports directionally highlight where disruptions to ways of working are having the largest impact, and provide a measurable starting point for identifying where leaders can use tools and processes to support employees in a new way of working. All metrics are defined in the Glossary report at the end of the dashboard. Interpretation is also included for each report.
+
+* **Business Continuity at a Glance** - Frames the data and gives an overview of the metrics. Hover your cursor over each metric to see its definition. Select the **i** icon next to each business question to view the related report. 
+* **How is 'Business as Usual' changing** - Shows the trend in collaboration hours by channel. You can further drill into the displayed Organization by the attribute Level Designation.
+* **How are employees adapting to the disruption [1]** - Enables you to assess whether some employees are disproportionately affected.   To see what share of employees across the organization see a higher or lower change in collaboration hours, adjust the "Threshold" slider to see which groups collaborated X hours more or less than before.
+* **How are employees adapting to the disruption [2]** -  Demonstrates the slippage between work and life balance. To see what share of employees across the organization see a higher or lower change in after-hours work, adjust the **Threshold** slider control to see which groups had X hours more or less than before.
+* **Are you maintaining external relationships?** - Quantifies changes in communication with customers, partners and other people outside the organization.  You can further drill into the displayed Organization by the attribute Level Designation.
+* **How can we foster employee engagement and community?** - Unlike the other reports that show changes between the baseline and the current time period, this report shows metrics in the current period. This view enables you to assess whether manager 1:1 meetings and organizational collaboration, which are keys to fostering employee engagement and community, are still occurring with virtual connections.
+
+  > [!Note]
+  > The metrics for "How do we foster employee engagement and community" are based on the selected time frame, not on a comparison with the baseline time frame.
 
 ### Power BI tips
 
@@ -167,12 +181,15 @@ If you are signed in with the wrong organizational account, you'll get an error 
 
 Power BI cannot complete a data join if data values are missing in the Organization or LevelDesignation tables. To validate this error:
 
-1. In the **Fields** pane, look for an error (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error, select the field with the error to view it. For example:
+1. In the **Fields** pane in Power BI, look for an error (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error, select the field with the error to view it. For example:
 
-  ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
+   ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
 
-2. To remediate this error, replace the failing **Organization** and/or **LevelDesignation** fields by removing their pills from the **Axis** field within the **Visualization** pane.
-3. Expand the **Business Continuity** table within the **Fields** pane and select the Organization or LevelDesignation field to add them.  
+2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
+3. Select the **Business Continuity** query.
+4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, and select **Remove Empty**, and then select **OK**.
+5. Select the **Hourly Collaboration** query and repeat Steps 3-4 to filter out empty values.
+6. Select **Close & Apply** to apply the changes and return to the dashboard.
 
 ## Frequently asked questions
 
@@ -212,10 +229,10 @@ See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details o
 
 The dashboard is currently only available in English.
 
-#### Q10 What is the Threshold setting and how do I use it in the dashboard?
+<!-- #### Q10 What is the Threshold setting and how do I use it in the dashboard?
 
 The **How employees are adapting** page shows how collaboration changed by the shown number of hours per week, which is an average for all employees in the organization. You can adjust the **Threshold** setting to see if some employees are disproportionately affected. To see what share of employees across the organization saw a higher or lower change in collaboration hours, adjust the slider control to change the setting either higher or lower.
-
+-->
 ## Support
 
 * **Dashboard support** - Contact the Workplace Analytics team member that referred you to this page for support about onboarding, usage, and interpretation of the data contained within the dashboard.
