@@ -38,11 +38,11 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 * Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
 * Have Power BI Desktop installed. See [Install and run Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
 
-## Video: Setting up the dashboard
+## Video: How to set up the dashboard
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
-## Setting up the dashboard
+## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Business Continuity** (or **Hourly Collaboration** per **Step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
