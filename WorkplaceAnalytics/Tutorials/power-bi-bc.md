@@ -169,7 +169,7 @@ The dashboard gets repopulated once a week after Workplace Analytics finishes it
 
 #### Q3 How do I share the dashboard with others in my organization?
 
-You can share the dashboard with others in your organization *without sharing the underlying data* by publishing the insights in an app or as PDF or static file. See [Sharing the dashboard](#sharing-the-dashboard) for details.
+You can share the dashboard with others in your organization *without sharing the underlying data* by publishing the insights in an app or as PDF or static file. See [Share the dashboard](#share-the-dashboard) for details.
 
 #### Q4 Can I share the underlying dashboard dataset with others in my organization?
 
