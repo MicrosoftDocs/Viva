@@ -98,7 +98,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
-## Using the dashboard
+## Use the dashboard
 
 After the Business Continuity Dashboard is set up and populated with Workplace Analytics data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
 
@@ -207,7 +207,7 @@ If you are signed in with the wrong organizational account, you'll get an error 
 4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
 5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
 6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
-7. Close Power BI and follow the instructions in [Setting up the dashboard](#setting-up-the-dashboard).
+7. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
 
 #### The Power BI visuals fail to load or show errors in the tables
 
