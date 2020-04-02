@@ -15,12 +15,12 @@
           href: ~/Privacy/license-expiration.md
     - name: Setup and Maintenance
       items:
+        - name: Environment requirements    
+          href: ~/setup/environment-requirements.md         
         - name: Set up Workplace Analytics
           href: ~/setup/set-up-workplace-analytics.md
         - name: Maintain Workplace Analytics    
-          href: ~/setup/maintain-workplace-analytics.md    
-        - name: Environment requirements    
-          href: ~/setup/environment-requirements.md    
+          href: ~/setup/maintain-workplace-analytics.md     
         - name: Assign licenses
           items: 
             - name: Introduction
