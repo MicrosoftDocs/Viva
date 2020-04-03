@@ -18,6 +18,8 @@ audience: Admin
 
 This article describes the steps that are required to set up and configure Workplace Analytics. Although the Office 365 admin and the Workplace Analytics admin perform most of these steps, others in your organization help make decisions that relate to setup. For more information, see [Determine key personas and roles for implementation](Determine-key-personas.md). 
 
+**Prerequisites:** See [Environment requirements](environment-requirements.md) to learn about Office 365 tenant requirements, Workplace Analytics licenses, and supported browsers. 
+
 ## Setup steps 
 
 * **Owner:** The following persons or entities do the setup steps:
