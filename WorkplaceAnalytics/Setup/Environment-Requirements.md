@@ -4,9 +4,8 @@
 
 title: Environment and support aspects of Workplace Analytics 
 description: Describes the system requirements for setting up and using Workplace Analytics
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 08/12/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -33,11 +32,7 @@ Microsoft does not currently offer trials of Workplace Analytics. For more infor
 
 ### Supported browsers
 
-<!-- removing:
-Workplace Analytics works with the latest or immediately previous versions of Microsoft Edge, Google Chrome, Apple Safari, Internet Explorer, and Mozilla Firefox.
-and replacing with the following: -->
-
-Safari, Firefox, and Internet Explorer are not preferred browsers for Workplace Analytics. Starting in June 2019, Internet Explorer will no longer be supported. 
+Safari and Firefox are not preferred browsers for Workplace Analytics. As of June 2019, Internet Explorer is no longer a supported browser for Workplace Analytics 
 
 For the best experience, please use Edge or Chrome.
 
