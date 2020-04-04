@@ -209,6 +209,15 @@ If you are signed in with the wrong organizational account, you'll get an error 
 6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
 7. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
 
+#### Queries fail to load in Power BI
+
+If you are not prompted to sign in with your organizational account when setting up the dashboard and Power BI fails to load the Business Continuity and Hourly Collaboration query data, follow these steps to clear existing permissions:
+
+1. In Power BI, select **Transform data**, and then select **Data source settings** from the menu.
+2. Select **Global permissions**, select **https://workplace.analytics.office.com**, and then select **Clear permissions**.
+3. Select **Delete** to clear permissions.
+4. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard) to load the query data.
+
 #### The Power BI visuals fail to load or show errors in the tables
 
 Power BI cannot complete a data join if data values are missing in the Organization or LevelDesignation tables. To validate this error:
