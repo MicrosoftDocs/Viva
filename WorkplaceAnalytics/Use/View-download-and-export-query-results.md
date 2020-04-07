@@ -127,15 +127,15 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
 5. Select the applicable data connectivity mode: **Direct Query** (recommended) or **Import**, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
 
-6. The first time you use the PowerBI Connector for a particular partition ID or when your authentication token expires, you'll be prompted to sign in. Select **Sign in**, enter your Office 365 credentials, and then select **Connect**:
+6. The first time you use the Power BI Connector for a partition ID, or when your authentication token expires, and you're prompted to sign in, select **Sign in**, enter your Office 365 credentials, and then select **Connect**:
 
-7. If the connection is a success, Power BI lists the available queries that match the Query Name or ID or person metrics in the **Fields** section. For example:
+7. In the **Power BI Navigator**, select the query name or standard person metrics that you want to analyze, and then select **Load**.
 
-    ![Metrics](../images/wpa/use/list-of-metrics-2-col_2.png)
+    ![Power BI Navigator](../images/wpa/use/pbi-navigator.png)
 
-In Power BI, you can now create visualizations using the selected fields.
+In Power BI, you can use the Power Query Editor to shape and combine data and create visualizations with the available fields. For details about how to use Power BI, see [Power BI documentation](https://docs.microsoft.com/power-bi/).
 
-For example, you can generate a bar chart that shows an organization-wide analysis of collaboration hours or examines the meeting-hours trend for an entire organization.
+The following is an example of a bar chart that shows an organization-wide analysis of collaboration hours and meeting hours trend.
 
 ![Get Data button](../images/wpa/use/example-pbi-visual.png)
 
