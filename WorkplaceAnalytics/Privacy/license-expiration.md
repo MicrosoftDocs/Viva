@@ -2,8 +2,8 @@
 # Metadata Sample
 # required metadata
 
-title: Data access after license expiration
-description: Accessing your organization's data after expiration of your Workplace Analytics license
+title: Data retention policy
+description: Accessing your organization's data after expiration of Workplace Analytics subscriptions or removal of licenses
 author: paul9955
 ms.author: v-pascha
 ms.topic: conceptual
