@@ -21,7 +21,7 @@ In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All resu
 
 On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (the results of queries that all analysts have run, as shown in the preceding screenshot) and **My results** (only the results of queries that the analyst who is viewing this page has run).
 
-1. In Workplace Analytics, open the **Analyze** > **Queries** > **Results** > **All results** page. 
+1. In Workplace Analytics, open the **Analyze** > **Queries** > **Results** > **All results** page.
 
 2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
   
@@ -61,15 +61,15 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    ![copy link image](../images/wpa/use/copy-link.png)
 
-2. In Power BI, type or paste the URL into the **OData feed** dialog box.  
+2. In Power BI, paste the URL into the **OData feed** dialog box.
 3. Select **Organizational account** and then select **Sign in**:
 
    ![Sign in to Workplace Analytics organizational account](../images/wpa/use/OData-feed-sign-in.png)
 
-4. Office 365 dialog box prompts you to choose an account. Select the account that you use when you log in to Workplace Analytics. This signs you in to Power BI and displays the OData feed dialog box, with the notification "You are currently signed in."
-5. In the OData feed dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import.
+4. When the **Office 365** dialog box prompts you, select the account and enter the password that you use to log in to Workplace Analytics. You'll then see: "You are currently signed in."
+5. In the **OData feed** dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import.
 
-   After Power BI finishes importing your Workplace Analytics data, you can use the controls of Power BI to create visualizations of the data.
+   After Power BI finishes importing your Workplace Analytics data, use Power BI tools to create visualizations of the data.
 
    > [!Important]
    > * The OData link is not available for query results that were created before March 22, 2018.
@@ -81,11 +81,11 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
 ### Connect through the Power BI Connector
 
-**Required role:** Analyst or limited analyst
+**Required role:** Analyst or Limited analyst
 
-You can use the Power BI Connector to import Workplace Analytics data and construct visualizations and build insights about the data in Power BI.
+You can use the Power BI Connector to connect to or import Workplace Analytics data and construct visualizations and build insights about the data in Power BI.
 
-You can import specific metrics and person attributes from Workplace Analytics or you can create a new person or meeting query to define what metrics and attributes you want to export/connect to and analyze in Power BI.
+You can import specific metrics and person attributes from Workplace Analytics, or create and connect a new person or meeting query to define what metrics and attributes you want to connect to and analyze in Power BI.
 
 The Connector automatically enforces the privacy rules configured by the organization's Workplace Analytics admin by only providing and guarantees the freshness of any visualized data.
 
@@ -105,7 +105,7 @@ If you don't already have Power BI Desktop, use the following steps to install i
 
 Partitions in Workplace Analytics allow access to specific partitions of data within Workplace Analytics. To import query data into Power BI, you need access to the partition in Workplace Analytics that contains the metrics and attributes you want to analyze in Power BI. (To gain access to that partition, use the following steps to sign in to your organizational account and select the partition ID.) <!-- For details, see [Partitions in Workplace Analytics](../setup/partitions-in-wpa.md). -->
 
-#### Use the connector
+#### Use the Power BI Connector
 
 1. In Power BI Desktop, select the **Get Data** button:
 
@@ -115,37 +115,39 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
     ![Get Online Services](../images/wpa/use/get_data_screen.png)
 
-3. Determine the identifier of the currently selected Workplace Analytics partition. To do this, select the user icon in the top right corner of the page, and then select **My information**:
+3. Locate and copy the identifier of the currently selected Workplace Analytics partition. To do this, select the user icon in the top right of the page in Workplace Analytics, and then select **My information**:
 
     ![My information screen](../images/wpa/use/top-right-my-info.png)
 
-    Next, find the partition identifier in the **My information** dialog box:
+    In **My information**, copy the partition identifier:
 
     ![My information screen](../images/wpa/use/my-information.png)
 
-4. Enter the partition identifier:
+4. In **Connect to Workplace Analytics Data**, paste the copied partition identifier:
 
-    ![Enter partition ID](../images/wpa/use/connect_to_wpa_part_id.png)
+    ![Enter Workplace Analytics data connections](../images/wpa/use/pbi-wpa-connect.png)
 
-5. Select the data connectivity mode that you'd like to use: **Direct Query** (recommended) or **Import**. For more information about this choice, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
+    To import Person metrics, continue to the next step. Or to connect to a custom person or meeting query:
 
-    ![Select Direct Query or Import](../images/wpa/use/connect_to_wpa_mode.png)
+    a. Enter one or more keywords or the complete query name in **Query Name**.
+    b. Or enter the query's ID in **Query Identifier**. To do this:
 
-6. Select **OK**.
+      * Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
+      * Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI :
 
-7. The first time that you use the PowerBI-Workplace Analytics connector for a particular partition ID, and again later, after your authentication token expires, you will be prompted that "you aren't signed in":
+      ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
 
-    ![Not signed in](../images/wpa/use/wpa_select_authentication.png)
+5. Select the applicable data connectivity mode: **Direct Query** (recommended) or **Import**, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
 
-    When you see this prompt, select **Sign in** and then provide your Office 365 credentials:
+6. The first time you use the PowerBI Connector for a particular partition ID or when your authentication token expires, you'll be prompted to sign in. Select **Sign in** and then enter your Office 365 credentials:
 
     ![Sign in](../images/wpa/use/login-to-o365_2.png)
 
-8. At this point, if the connection is a success, Power BI displays a list of metrics and attributes in the **Fields** section. This list could resemble the following:
+7. If the connection is a success, Power BI lists the available queries that match the Query Name or ID or person metrics in the **Fields** section. For example:
 
-    ![Metrics](../images/wpa/use/list-of-metrics-2-col_2.png)
+    ![Metrics](../images/wpa/use/pbi-query-list.png)
 
-In Power BI, you can now create visualizations using those fields.
+In Power BI, you can now create visualizations using the selected fields.
 
 For example, you can generate a bar chart that shows an organization-wide analysis of collaboration hours or examines the meeting-hours trend for an entire organization.
 
