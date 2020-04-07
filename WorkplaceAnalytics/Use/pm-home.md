@@ -14,9 +14,9 @@ ms.prod: wpa
 > [!Note]
 > Only managers assigned the **Group manager** role in Workplace Analytics can see these insights.
 
-As a people manager, you can get actionable insights about your team that are based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
+As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
 
-The following is available to help you lead your team toward more effective business outcomes:
+Use the following available information to lead your team toward more effective business outcomes:
 
 * **Employee experience** - Research shows that happy employees help boost productivity and reduce turnover. These insights and suggestions can help you maintain positive employee experiences, such as evaluating how much time your team is working after hours on email or instant messages, and if your team is getting enough 1:1 time with you and other managers.
 
@@ -49,8 +49,8 @@ The following describes how your team metrics are calculated to support the beha
 
 |Business insight question |Team metric description |Metric average for teams like yours |
 |--------------------------|-------------------|-----------------|
-|Is your team getting enough time with you or their manager? |One-on-one time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week.|The average number of hours that managers spend in one-on-one meetings with *all* of their direct reports. |
-|Are employees working after hours? |After-hours work is the number of hours employees spend in meetings and on email outside of working hours. This uses the working hours set in the employee's Outlook calendar settings. |Average number of total hours a team spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric. |
+|Is your team getting enough time with their manager or with you? |One-on-one time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week.|The average number of hours that managers spend in one-on-one meetings with *all* of their direct reports. |
+|Are your employees working after hours? |After-hours work is the number of hours employees spend in meetings and on email outside of working hours. This uses the working hours set in the employee's Outlook calendar settings. |Average number of total hours a team spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric. |
 |Are your employees overwhelmed by email? |Employees that spend over 10 hours in email each week. Email workload is the number of hours employees spend sending and receiving email. |Average number of hours a comparable team spent sending and receiving emails. |
 |Are your employees burdened by long and large meetings? |The number of employees that spend over 50 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. Long meetings are those scheduled for more than an hour. Large meetings are those that involve more than eight people. |Average number of meeting hours the time investor group has spent meeting with the collaborator group for a comparable team. |
 |Do your employees have time to focus? |The number of employees who have less than 20 hours each of available time for focused work, divided by the total number of measured employees. Focus time is when employees have two or more consecutive hours with no meetings. |Average number of total hours with two or more one-hour blocks of time where people on the comparable team had no meetings. |
