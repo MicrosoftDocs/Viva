@@ -104,45 +104,34 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
 #### Use the Power BI Connector
 
-1. In Power BI Desktop, select the **Get Data** button:
+1. In Power BI Desktop, select **Get Data**.
 
-    ![Get Data button](../images/wpa/use/get-data-in-pbi.png)
-
-2. Select **Online Services**, select **Workplace Analytics**, and then select **Connect**:
-
-    ![Get Online Services](../images/wpa/use/get_data_screen.png)
-
-3. Locate and copy the identifier of the currently selected Workplace Analytics partition. To do this, select the user icon in the top right of the page in Workplace Analytics, and then select **My information**:
+2. Select **Online Services**, select **Workplace Analytics**, and then select **Connect**.
+3. Locate and copy the identifier of the currently selected Workplace Analytics partition. To do this, select the user icon in the top right of the page in Workplace Analytics, select **My information**, and then highlight and copy the **Partition identifier**.
 
     ![My information screen](../images/wpa/use/top-right-my-info.png)
 
-    In **My information**, copy the partition identifier:
-
-    ![My information screen](../images/wpa/use/my-information.png)
-
-4. In **Connect to Workplace Analytics Data**, paste the copied partition identifier:
+4. In **Connect to Workplace Analytics Data**, paste the copied partition identifier.
 
     ![Enter Workplace Analytics data connections](../images/wpa/use/pbi-wpa-connect.png)
 
     To import Person metrics, continue to the next step. Or to connect to a custom person or meeting query:
 
     a. Enter one or more keywords or the complete query name in **Query Name**.
-    b. Or enter the query's ID in **Query Identifier**. To do this:
+    b. Or enter the query's ID in **Query Identifier**:
 
       * Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
-      * Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI :
+      * Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI:
 
       ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
 
 5. Select the applicable data connectivity mode: **Direct Query** (recommended) or **Import**, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
 
-6. The first time you use the PowerBI Connector for a particular partition ID or when your authentication token expires, you'll be prompted to sign in. Select **Sign in** and then enter your Office 365 credentials:
-
-    ![Sign in](../images/wpa/use/login-to-o365_2.png)
+6. The first time you use the PowerBI Connector for a particular partition ID or when your authentication token expires, you'll be prompted to sign in. Select **Sign in**, enter your Office 365 credentials, and then select **Connect**:
 
 7. If the connection is a success, Power BI lists the available queries that match the Query Name or ID or person metrics in the **Fields** section. For example:
 
-    ![Metrics](../images/wpa/use/pbi-query-list.png)
+    ![Metrics](../images/wpa/use/list-of-metrics-2-col_2.png)
 
 In Power BI, you can now create visualizations using the selected fields.
 
@@ -154,12 +143,7 @@ After you have finished creating visualizations, you can publish your reports to
 
 ## Related topics
 
-[Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata)
-
-[Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
-
-[User roles in Workplace Analytics](../use/user-roles.md)
-
-[Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
-
-[Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards)
+* [Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata)
+* [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
+* [User roles in Workplace Analytics](../use/user-roles.md)
+* [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
