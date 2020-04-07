@@ -24,9 +24,7 @@ How long does Workplace Analytics retain the data that it has collected? The ans
 
 ## Data retention for active tenants
 
-An active tenant is tenant that has one or more valid Workplace Analytics user licenses.
-
-By default, Workplace Analytics initially collects, processes, and retains 13 months' worth of data. Then, through weekly refreshes, Workplace Analytics increases this history until 27 months' worth of data is collected. 
+An active tenant is tenant that has one or more valid Workplace Analytics user licenses. 
 
 By default, Workplace Analytics initially collects, processes, and retains 13 months' worth of data. Then, through weekly refreshes, Workplace Analytics increases this history until 27 months' worth of data is collected. After this point, older collaboration data is deleted as newer collaboration data is collected.
 
