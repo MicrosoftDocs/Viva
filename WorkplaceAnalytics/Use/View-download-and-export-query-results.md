@@ -57,10 +57,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
    > [!Note]
    > You can share Power BI dashboards. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
-1. Next to the query you want, select **Copy link**:
-
-   ![copy link image](../images/wpa/use/copy-link.png)
-
+1. Next to the query you want, select the **Copy link** icon.
 2. In Power BI, paste the URL into the **OData feed** dialog box.
 3. Select **Organizational account** and then select **Sign in**:
 
