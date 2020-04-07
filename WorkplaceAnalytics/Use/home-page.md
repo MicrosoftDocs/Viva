@@ -79,16 +79,15 @@ The following describes the metrics used in each of the business insight questio
 |Are influencers present across the company? |Influencers are employees who have the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 |Are employees sharing information quickly? |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 10 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |
 
-
 ## Frequently asked questions
 
-### Q1 How does the home page data accommodate different partitions?
+### Q1 How do these Insights accommodate different partitions?
 
-The home pages show insights only for the participants that are included in the selected partition.
+These insights are only about the participants who are included in the selected partition.
 
-### Q2 Which roles have access to this home page dashboard?
+### Q2 Which roles have access to these insights?
 
-The analyst, limited analyst, and program manager roles can access these home pages. People managers can only see data about their teams, see [Workplace Analytics Home for people managers](pm-home.md) for more details.
+The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Workplace Analytics Home for people managers](pm-home.md) for more details.
 
 ## Related topics
 
