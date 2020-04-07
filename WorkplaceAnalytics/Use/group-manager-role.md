@@ -68,7 +68,7 @@ A plan that a GM creates automatically contains the employees of the GM's report
 
 ### Track progress (group manager role)
 
-Once a plan is underway, you can view the **Manage** page to track the plan’s progress. 
+Once a plan is underway, you can view the **Manage** page to track the plan's progress. 
 
 ![Track progress](../images/wpa/tutorials/solutions-track.png) 
 

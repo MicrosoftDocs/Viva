@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Power BI templates
 description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/01/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -77,6 +74,7 @@ For example, you can use the following steps to identify areas of collaboration 
 
     ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
-## Related topic
+## Related topics
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [Power BI Business Continuity Dashboard](../tutorials/power-bi-bc.md)
