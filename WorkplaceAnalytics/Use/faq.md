@@ -175,7 +175,7 @@ A1. You might have selected only a subset of your population for data analysis o
 A2. The collaborator totals include the number of external (or other internal) people with whom the measured employees have collaborated at least one time during the selected period.
 
 > [!Note]
-> The totals included in the [Summary header](../use/explore-metrics-external-collaboration.md#summary-header) on the External collaboration page do not change with any filter applied in Page settings. For details, see [External collaboration](../use/explore-metrics-external-collaboration.md).
+> The totals included in the [Summary header](../use/explore-metrics-external-collaboration.md#summary-header) on the External collaboration page do not change with any filter applied in [Page settings](chart-types.md#page-settings-and-filters). For details, see [External collaboration](../use/explore-metrics-external-collaboration.md). For more details about measured employees, see [Office 365 data](office-365-data.md).
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period I set)?
 
