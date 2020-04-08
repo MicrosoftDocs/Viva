@@ -41,6 +41,10 @@ Safari and Firefox are not preferred browsers for Workplace Analytics. As of Jun
 
 For the best experience, please use Edge or Chrome.
 
+## Related topics
+
+[Get support](../overview/getting-support.md)
+
 <!-- REMOVING FOR NOW 
 ### FastTrack qualification
 
