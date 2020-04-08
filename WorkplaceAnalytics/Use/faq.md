@@ -168,7 +168,7 @@ A2. Yes. Anyone in your organization can use the meeting exclusion rules that an
 
 #####  Q1. Why is my measured population less than the number of employees with assigned licenses?
 
-A1. You might have selected only a subset of your population for data analysis or your admin might have excluded a subset of the population from the organizational data that's uploaded into Workplace Analytics. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md) and [Whom to include in the organizational data](../setup/prepare-organizational-data.md#which-employees-to-include).
+A1. You might have selected only a subset of your population for data analysis or your admin might have excluded a subset of the population from the organizational data that's uploaded into Workplace Analytics. For more details, see [Page settings](../use/explore-page-settings), [Office 365 data](office-365-data.md), [Assign licenses](../setup/assign-licenses-to-population.md), and [Whom to include in the organizational data](../setup/prepare-organizational-data.md#which-employees-to-include).
 
 ##### Q2. Why do the totals seem too high for other internal collaborators and external collaborators?
 
