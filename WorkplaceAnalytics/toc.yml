@@ -11,7 +11,7 @@
           href: ~/Privacy/data-protection-considerations.md
         - name: Privacy and data access
           href: ~/Privacy/privacy-and-data-access.md
-        - name: Data access after license expiration
+        - name: Data retention policy
           href: ~/Privacy/license-expiration.md
     - name: Setup and Maintenance
       items:
