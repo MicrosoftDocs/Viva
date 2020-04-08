@@ -132,6 +132,9 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
      * **Download metrics** for the person and group metrics in the saved subgroup graph analysis, which are based on the selected date range and other options. For example, Boundary Spanning will have multiple values based on the attributes selected for the graph.
      * **Download interaction matrix** for the PersonID interactions and related data, such as date range and connection weights by hours and counts.
 
+     > [!Important]
+     > When you calculate metrics in a **Download interaction matrix** file, know that your calculations might be different than the metrics calculated in a group-level download file. These differences occur because a person's HR attribute values can change over time and the calculations in the different downloads only use a snapshot of the latest available HR values.
+
    ![Organizational Network Analysis pages](./images/ona-analysis-pages.png)
 
 ## Node Measures
