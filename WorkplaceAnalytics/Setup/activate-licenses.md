@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Activate Workplace Analytics licenses
@@ -17,7 +15,10 @@ audience: Admin
 
 # Activate Workplace Analytics licenses
 
-You can activate additional Workplace Analytics licenses for an Office 365 tenant. By using a code that you get from us, the Office 365 admin can use the following steps to add the code and set up an organization with additional licenses.
+> [!Important]
+> You must be a **Global admin** for the Microsoft 365 or Office 365 tenant to activate licenses with this code.
+
+You can only activate additional Workplace Analytics licenses for a Microsoft 365 or an Office 365 tenant with a code from Microsoft. As the **Global admin** for the tenant, follow these steps to add the code and set up an organization with additional licenses.
 
 ### To activate additional Workplace Analytics licenses
 
@@ -35,7 +36,7 @@ You can activate additional Workplace Analytics licenses for an Office 365 tenan
 
    ![Promotional code sign-in](../Images/sign-in.png)
 
-5. On the **Sign in** page, type your admin credentials.
+5. On the **Sign in** page, enter your **Microsoft 365 or Office 365 Global admin** credentials for the tenant.
 6. On the **Check out** page, select **Try Now** to confirm the order.
 7. When you get the order receipt, save it and then select **Continue**.
 8. To confirm that the codes were successfully added to your environment, go to **Admin Center** > **Users** > **Active Users**.
@@ -49,3 +50,8 @@ You can activate additional Workplace Analytics licenses for an Office 365 tenan
    ![Promotional licenses](../Images/promo-licenses.png)  
 
 10. On the Product licenses page, turn on the available licenses.
+
+## Related topics
+
+- [Assign licenses to the population](../setup/Assign-licenses-to-population.md)
+- [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)

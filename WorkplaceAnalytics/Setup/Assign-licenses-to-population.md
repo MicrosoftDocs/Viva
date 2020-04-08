@@ -26,8 +26,8 @@ Employees in your organization who are not licensed for analysis but might colla
 
 After you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population.
 
-> [!Note] 
-> 
+> [!Note]
+> Workplace Analytics is licensed as an add-on to existing Office 365 subscriptions. For more details, see [Environment requirements for Workplace Analytics](environment-requirements.md).
 
 ### Video: Assign licenses
 

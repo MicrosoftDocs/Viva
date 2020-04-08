@@ -61,7 +61,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
 2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 
       ``` powershell
-       $UserToLicense = Get-AzureADUser -SearchString ‘<usertolicense@domain.com>’
+       $UserToLicense = Get-AzureADUser -SearchString '<usertolicense@domain.com>'
        $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
        $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
        $License.SkuId = $LicenseSku.SkuId
@@ -81,7 +81,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
        Get-AzureADUserLicenseDetail -ObjectId $UserToLicense.ObjectId | Select -Expand ServicePlans | Where {$_.ServicePlanName -eq "Workplace_Analytics"}
       ```
 
-   After this last command runs, you’ll see an entry on the command line. If not, or if an error message shows, the license was not successfully assigned.
+   After this last command runs, you'll see an entry on the command line. If not, or if an error message shows, the license was not successfully assigned.
 
 ## View Available licenses on your tenant
 
@@ -374,9 +374,11 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 **If the script is successful but the output reports: Script completed, but the total number of users licensed is zero (0).**
 
 1. Confirm the user is not already licensed.
-2. Confirm the user has the correct [EXO prerequisite](../Setup/Environment-Requirements.md).
+2. Confirm the user is using the correct [Exchange Online plan](../setup/environment-requirements.md).
 3. Confirm the users UPN or proxy email address resolves in the environment.
 
 ## Related topics
 
-[Assign licenses with PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
+* [Assign licenses to the population](../setup/Assign-licenses-to-population.md)
+* [Assign licenses with PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
+* [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
