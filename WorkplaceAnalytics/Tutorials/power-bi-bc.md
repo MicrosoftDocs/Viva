@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Business Continuity Dashboard
 description: Use the Business Continuity Dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
@@ -125,7 +124,7 @@ After changing one or more of the settings in **Settings and scope**, confirm th
 > [!Important]
 > As additional data is processed on a weekly basis, you'll need to adjust the **Selected Time Frame** if you want to view the most recent data.
 
-## About the reports
+## About the dashboard reports
 
 The following dashboard reports directionally highlight where disruptions to ways of working are having the largest impact, and provide a measurable starting point for identifying where leaders can use tools and processes to support employees in a new way of working. All metrics are defined in the Glossary report at the end of the dashboard. An interpretation is provided in the text box of each report. The following describes each report with specific nuances to consider for each.
 
@@ -137,7 +136,7 @@ The following dashboard reports directionally highlight where disruptions to way
 * **How can we foster employee engagement and community?** - Unlike the other reports that show changes between the baseline and the current time frames, ***this report only shows metrics for the current time frame.*** This view enables you to assess if manager 1:1 meetings and organizational collaboration, which are keys to fostering employee engagement and community, are still occurring virtually.
 
   > [!Note]
-  > The metrics for the "How do we foster employee engagement and community?" report are only based on the **Selected time frame** and not on a comparison with the Baseline time frame.
+  > The metrics for the "How do we foster employee engagement and community?" report are only based on the **Selected time frame** and not on a comparison with the Baseline time frame. Also, these charts are based on small group meetings of less than eight people and only analyze meeting, call, and instant-message activity, excluding email activity. For more details on metrics, see the **Glossary** in the dashboard.
 
 ### Power BI tips
 
