@@ -133,7 +133,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
      * **Download interaction matrix** for the PersonID interactions and related data, such as date range and connection weights by hours and counts.
 
      > [!Important]
-     > When you calculate metrics in a table that you downloaded with the **Download interaction matrix** option, know that the calculations 
+     > When you calculate metrics in a **Download interaction matrix** file, know that your calculations will be different than the metrics calculated in a group-level download file. These differences occur because a person's HR attribute values change over time and the calculations in the different downloads use a snapshot of the latest available HR values.
 
    ![Organizational Network Analysis pages](./images/ona-analysis-pages.png)
 
