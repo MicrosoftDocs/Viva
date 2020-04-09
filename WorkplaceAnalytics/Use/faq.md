@@ -25,7 +25,7 @@ The most commonly asked questions and answers about Workplace Analytics are grou
 
 ##### Q1. Do I assign licenses with Office 365 Admin Center, PowerShell, or Azure group-based licensing?
 
-A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 product licenses. You can assign them with the [Office 365 Admin Center](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&tabs=One), [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell), or [Azure group-based licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). Learn more details about these options in the Workplace Analytics documentation at [Assign licenses](../setup/assign-licenses-to-population.md), [Assign group-based licenses](../use/group-based-licensing.md), [Assign licenses with PowerShell](../use/assigning-licenses-with-powershell.md), and [Environment requirements for Workplace Analytics](environment-requirements.md).
+A1. Workplace Analytics licenses are assigned just like any other Microsoft 365 product licenses. You can assign them with the [Office 365 Admin Center](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&tabs=One), [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell), or [Azure group-based licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). Learn more details about these options in the Workplace Analytics documentation at [Assign licenses](../setup/assign-licenses-to-population.md), [Assign group-based licenses](../use/group-based-licensing.md), [Assign licenses with PowerShell](../use/assigning-licenses-with-powershell.md), and [Environment requirements for Workplace Analytics](../setup/environment-requirements.md).
 
 ##### Q2. Does Workplace Analytics retain and use data about employees that no longer work for the organization?
 
@@ -168,7 +168,7 @@ A2. Yes. Anyone in your organization can use the meeting exclusion rules that an
 
 #####  Q1. Why is my measured population less than the number of employees with assigned licenses?
 
-A1. You might have selected only a subset of your population for data analysis or your admin might have excluded a subset of the population from the organizational data that's uploaded into Workplace Analytics. For more details, see [Page settings](../use/explore-page-settings), [Office 365 data](office-365-data.md), [Assign licenses](../setup/assign-licenses-to-population.md), and [Whom to include in the organizational data](../setup/prepare-organizational-data.md#which-employees-to-include).
+A1. You might have selected only a subset of your population for data analysis or your admin might have excluded a subset of the population from the organizational data that's uploaded into Workplace Analytics. For more details, see [Page settings](explore-page-settings.md), [Office 365 data](office-365-data.md), [Assign licenses](../setup/assign-licenses-to-population.md), and [Whom to include in the organizational data](../setup/prepare-organizational-data.md#which-employees-to-include).
 
 ##### Q2. Why do the totals seem too high for other internal collaborators and external collaborators?
 
