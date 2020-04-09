@@ -6,7 +6,6 @@ title: Download the Query Report from Workplace Analytics in UTF-8 format
 description: If your query reports cannot be opened properly in Excel because they contain multi-byte characters, follow these steps to work around the problem   
 author: paul9955
 ms.author: v-midehm
-ms.date: 02/21/2019
 ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa
@@ -64,3 +63,7 @@ The steps you take in this procedure differ in different versions of Excel. The 
 8. The Import Data dialog box asks where you want to put the data. Choose any cell in the blank worksheet and then select **OK**.
 
 The multibyte characters should now display correctly in Excel. You can save the file as an Excel file or an OpenDocument Spreadsheet file without losing the multibyte characters.
+
+## Related topics
+
+[Get support](../overview/getting-support.md)
