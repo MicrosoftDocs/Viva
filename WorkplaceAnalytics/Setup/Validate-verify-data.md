@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics Setup -- Validate and verify data
 description: Setup step to validate and verify data for uploading to Workplace Analytics 
 author: paul9955
-ms.author: v-midehm
-ms.date: 05/09/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -19,7 +16,7 @@ audience: Admin
 
 The following describes who does what to validate and verify data:
 
-* **Owner** - Workplace Analytics admin, data analysts with full access
+* **Owner** - Workplace Analytics admin and data analysts with full access
 * **Task** - Ensure that Office 365 data is available and ready for analysis, ensure the correct organizational data has been uploaded and is ready for analysis.
 * **Outcome** - Workplace Analytics admins are comfortable that data has been provisioned successfully, and data analysts are comfortable with the data and ready to use Workplace Analytics for their analysis.
 
