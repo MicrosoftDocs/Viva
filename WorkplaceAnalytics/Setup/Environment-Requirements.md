@@ -22,7 +22,12 @@ Currently, Workplace Analytics supports multi-tenant, multi-geo tenant, and vNex
 
 ### Workplace Analytics licenses and trials
 
-Workplace Analytics is licensed as an add-on to existing Office 365 subscriptions. Licenses are $2/license per month for Office 365 Enterprise E5 subscriptions and $6/license per month for all other qualifying Office 365 subscriptions. Licensing Workplace Analytics does not change the end-user experience in Office 365.
+Workplace Analytics is licensed as an add-on to existing Office 365 subscriptions. These are the plans to which Workplace Analytics can be added: 
+
+ * Exchange Online (EXO) Plan 1 (Office 365 Enterprise plan E1)
+ * Exchange Online (EXO) Plan 2 (Office 365 Enterprise plans E3, E4, or E5).
+
+Licenses cost $2/license per month for Office 365 Enterprise E5 subscriptions and $6/license per month for all other qualifying Office 365 subscriptions. Licensing Workplace Analytics does not change the end-user experience in Office 365.
 
 Workplace Analytics licenses are applied to the mailboxes that you want to analyze. This can be all the employees in your organization or a specific subset. The population of employees that you license are referred to in Workplace Analytics as _measured employees_. Because Workplace Analytics insights are de-identified and aggregated, measured-employee populations typically benefit the most if they consist of at least several hundred people.
 
