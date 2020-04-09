@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Group-based licensing for Workplace Analytics
 description: Assign group-based licensing for Workplace Analytics
 author: madehmer
-ms.author: v-midehm
-ms.date: 02/21/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -34,7 +31,7 @@ The error notification details will include the following error message:
 > _License operation failed. Make sure that the group has necessary services before adding or removing a dependent service. **The service Microsoft Workplace Analytics requires Exchange Online (Plan 2) to be enabled as well.**_
 
 Before you assign this add-on license to a group, ensure that the group also contains the prerequisite service plan. You can update an existing group that already contains the full Office 365 E3 product that includes Exchange Online.
-Or you can create a standalone group that contains only the minimum products required to make the add-on work, which you can use to license only the selected users for the add-on product. 
+Or you can create a standalone group that contains only the minimum products required to make the add-on work, which you can use to license only the selected users for the add-on product.
 
 For example, you can assign the following products to the same group:
 
@@ -46,6 +43,7 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 >[!Tip]
 >You can create multiple groups, for each prerequisite service plan. For example, if you use both Office 365 Enterprise **E1** and Office 365 Enterprise **E3** for your users, you could create two groups to license Microsoft Workplace Analytics; one using E1 as a prerequisite and the other using E3. This will allow you to distribute the add-on to E1 and E3 users without consuming additional licenses.
 
-## Related topic
+## Related topics
 
-[Group-based licensing](https://aka.ms/Instructions_AssignLicenseUsingGBL)
+* [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
+* [Group-based licensing](https://aka.ms/Instructions_AssignLicenseUsingGBL)

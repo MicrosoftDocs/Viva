@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Environment and support aspects of Workplace Analytics 
 description: Describes the system requirements for setting up and using Workplace Analytics
@@ -33,13 +31,13 @@ Licenses cost $2/license per month for Office 365 Enterprise E5 subscriptions an
 
 Workplace Analytics licenses are applied to the mailboxes that you want to analyze. This can be all the employees in your organization or a specific subset. The population of employees that you license are referred to in Workplace Analytics as _measured employees_. Because Workplace Analytics insights are de-identified and aggregated, measured-employee populations typically benefit the most if they consist of at least several hundred people.
 
-Microsoft does not currently offer trials of Workplace Analytics. For more information about Workplace Analytics and how to purchase it, contact your Microsoft account team. 
+Microsoft does not currently offer trials of Workplace Analytics. For more information about Workplace Analytics and how to purchase it, contact your Microsoft account team.
 
 ### Supported browsers
 
-Safari and Firefox are not preferred browsers for Workplace Analytics. As of June 2019, Internet Explorer is no longer a supported browser for Workplace Analytics 
+Apple Safari and Mozilla Firefox are not preferred browsers for Workplace Analytics. As of June 2019, Internet Explorer is no longer a supported browser for Workplace Analytics.
 
-For the best experience, please use Edge or Chrome.
+For the best experience, please use Microsoft Edge or Google Chrome.
 
 ## Related topics
 
