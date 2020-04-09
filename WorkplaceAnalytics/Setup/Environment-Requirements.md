@@ -39,6 +39,10 @@ Apple Safari and Mozilla Firefox are not preferred browsers for Workplace Analyt
 
 For the best experience, please use Microsoft Edge or Google Chrome.
 
+## Related topics
+
+[Get support](../overview/getting-support.md)
+
 <!-- REMOVING FOR NOW 
 ### FastTrack qualification
 

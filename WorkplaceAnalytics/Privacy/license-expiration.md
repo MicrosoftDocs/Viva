@@ -36,7 +36,7 @@ Customers can file a request to initiate Workplace Analytics with less than 13 m
 
 If the Workplace Analytics license is removed from a user, Workplace Analytics retains that user's collaboration data that was collected during the period the license was assigned. Admins can continue to query the collaboration activity that this user participated in before they left. The person's collaboration data will be deleted according to the overall retention policy that is described in [Data retention for active tenants](#data-retention-for-active-tenants). 
 
-To permanently remove data from users after licenses are removed, you can contact Microsoft customer support to request a collaboration data reset.
+To permanently remove data from users after licenses are removed, you can contact Microsoft customer support to request a collaboration data reset. (See [Get support](../overview/getting-support.md).)
 
 For information about data deletion requests as handled under the GDPR, see [Support for handling data subject requests](data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests).
 
@@ -52,6 +52,10 @@ After this period has passed, you will no longer have access to the Workplace An
 2. In the left navigation, expand **Analyze** and then select the **Queries** page.
 3. Select **Results**. The Results page displays previously run queries.
 4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file.
+
+## Related topics
+
+[Get support](../overview/getting-support.md)
 
 
 <!-- 
