@@ -68,11 +68,7 @@ To select the people you’re querying about, filter them by their HR attributes
  * <u>FunctionType:</u> Select, for example, all engineers or all HR employees
  * <u>Organization:</u> Select everyone in one or more organizations, such as Facilities and Finance
 
-You can select organizations in other ways. For example, in the following illustration, we’ve selected the people in the organizations that report up to either of two executives, Marin Adele and Nanete Abagail: 
-
-![Select employees](../images/wpa/tutorials/compare-these-subjects.png) 
-  
-You could also select by geography&mdash;for example, by designating the Chicago office&mdash;if geographic attributes were uploaded in the organizational data. 
+You can select organizations in other ways. For example, by geography&mdash;by designating the Chicago office&mdash;if geographic attributes were uploaded in the organizational data. 
 
 Even though the filtering that you perform in the **Select employees** step provides you with multiple people, you are not selecting a group. Rather, you are selecting a list of individuals. When the query runs, a peer group is constructed for each individual in the list, and then, a comparison is made for each individual in the list, and finally, results appear for each individual in the list. 
 

@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Introduction to assigning licenses for Workplace Analytics users
 description: Assign Workplace Analytics licenses for population in scope for analysis
 author: madehmer
-ms.author: v-midehm
-ms.date: 05/09/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,10 +14,10 @@ audience: Admin
 
 # Assign licenses
 
-The following describes who does what to assign licenses to Workplace Analytics users: 
+The following describes who does what to assign licenses to Workplace Analytics users:
 
-* **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, Exchange administrator
-* **Task** - Determine population in scope for analysis and assign licenses via Office 365
+* **Owner** - Workplace Analytics sponsor, Workplace Analytics administrator, Office 365 Global administrator, and/or Exchange administrator
+* **Task** - Determine population in scope for analysis and assign licenses through Microsoft 365 or Office 365
 * **Outcome** - Office 365 licenses are assigned for the population that will be analyzed
 
 The Workplace Analytics sponsor works with the Workplace Analytics administrator and Office 365 Global administrator to identify the population (the people in your company) whose Office 365 collaboration activity you want to analyze. These people are referred to as _measured employees_ within Workplace Analytics.
@@ -28,6 +25,9 @@ The Workplace Analytics sponsor works with the Workplace Analytics administrator
 Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
 After you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population.
+
+> [!Note]
+> Workplace Analytics is licensed as an add-on to existing Office 365 subscriptions. For more details, see [Environment requirements for Workplace Analytics](environment-requirements.md).
 
 ### Video: Assign licenses
 
@@ -55,3 +55,8 @@ Workplace Analytics licenses are assigned just like any other Microsoft 365 prod
 #### If mailboxes are not fully migrated to Office 365 Exchange Online
 
 If your organization has not fully migrated to Office 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Office 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Office 365 Exchange Online.
+
+## Related topics
+
+* [Environment requirements for Workplace Analytics](environment-requirements.md)
+* [Office 365 data](../use/office-365-data.md)

@@ -17,8 +17,8 @@ As a MyAnalytics user, you'll receive a weekly digest with suggestions to help y
 Each week focuses on one of the following work patterns:
 
 * **Focus** - Find ways to increase your focus hours, so you can accomplish deep work and unleash your creativity.
-* **Wellbeing** - See if you’re getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
-* **Network** - See who’s in your network and make sure you’re keeping up with important contacts and relationships.
+* **Wellbeing** - See if you're getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
+* **Network** - See who's in your network and make sure you're keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
 
 > [!Note]
@@ -56,3 +56,9 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 >[!Note]
 > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of up to two to four days. For details, see [MyAnalytics FAQ](../Overview/MyA-faq.md)
+
+### After unsubscribing from weekly digest, why am I still receiving them?
+
+If you have multiple Office 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
+
+![Unsubscribe from digest message](../../Images/mya/use/digest-unsubscribe.png)

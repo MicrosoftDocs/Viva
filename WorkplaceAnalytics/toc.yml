@@ -11,16 +11,16 @@
           href: ~/Privacy/data-protection-considerations.md
         - name: Privacy and data access
           href: ~/Privacy/privacy-and-data-access.md
-        - name: Data access after license expiration
+        - name: Data retention policy
           href: ~/Privacy/license-expiration.md
     - name: Setup and Maintenance
       items:
+        - name: Environment requirements    
+          href: ~/setup/environment-requirements.md         
         - name: Set up Workplace Analytics
           href: ~/setup/set-up-workplace-analytics.md
         - name: Maintain Workplace Analytics    
-          href: ~/setup/maintain-workplace-analytics.md    
-        - name: Environment requirements    
-          href: ~/setup/environment-requirements.md    
+          href: ~/setup/maintain-workplace-analytics.md     
         - name: Assign licenses
           items: 
             - name: Introduction
@@ -121,7 +121,9 @@
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md                                
                 - name: Power BI templates
-                  href: ~/tutorials/power-bi-templates.md                  
+                  href: ~/tutorials/power-bi-templates.md
+                - name: Power BI Business Continuity Dashboard
+                  href: ~/tutorials/power-bi-bc.md
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results
