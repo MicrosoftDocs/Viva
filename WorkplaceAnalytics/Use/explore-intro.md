@@ -28,6 +28,6 @@ Explore in Workplace Analytics includes the following set of analytical cards as
 
 ### Time limit for Explore data
 
-<!-- ORIGINAL: The historical data that populates the various **Explore** pages is time limited: These charts reflect data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash;after you have 27 months of data&mdash;with each month that passes, the 27-month limit of data that support the **Explore** pages advances by one month.  -->
+The historical data that populates the various **Explore** pages is time limited; the charts reflect data that is no older than six months. This six-month period is a _rolling window_ that's based on when the [Office 365 data](../use/office-365-data.md) refreshes. After a data refresh, the six-month extent of data that the **Explore** page reflects advances by one week.
 
-The historical data that populates the various **Explore** pages is time limited and the charts reflect data that is no older than 27 months. This 27-month period is a _rolling window_ that's based on when the [Office 365 data](../use/office-365-data.md) refreshes. After a data refresh, the 27-month extent of data that the **Explore** page reflects advances by one week.
+To request a historical-data period longer than six months for your organization, contact Customer Support for Workplace Analytics at wpasupport@microsoft.com.
