@@ -224,9 +224,41 @@ _This card shows the **Attachments** section in its expanded state, which lets y
 
 ![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
 
+## Catch up with your team
+
+People managers often have hectic schedules, and it can be tough to stay in close contact with each team member. MyAnalytics brings together all the information managers need to stay caught up and respond quickly to important requests. 
+
+As a manager, you can:
+
+ * Schedule 1:1 time with a team member (or reschedule if a conflict comes up)
+ * Act on tasks you promised to get done or that team members asked you to complete
+ * Review important emails and documents from team members that you haven’t read yet
+
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
+
+#### To use the catch up feature
+
+1. On the **Home** ribbon of Microsoft Outlook, [open Insights](add-in#what-you-might-see). 
+
+2. Select **Catch up with your team**:
+
+   ![Catch up with your team](../../images/mya/use/catch-up.png)
+
+   The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
+
+   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
+
+#### To edit your team list
+
+ * If you notice that your team member list is inaccurate, select **Edit team** to add or remove team members, as shown here:
+
+   ![Update team members](../../images/mya/use/edit-team75-75-80.png)
+
+Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
+
 ## Pin the add-in
 
-If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.
+If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.  
 
 **To pin the add-in to the quick access pane**
 
