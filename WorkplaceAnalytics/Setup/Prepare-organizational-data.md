@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics 
@@ -16,7 +14,7 @@ audience: Admin
 
 # Prepare organizational data
 
-This article describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before you upload it. 
+This article describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before you upload it.
 
 To learn more about the nature and use of organizational data, see [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). When you’re ready to start working with organizational data, the following sections describe how.
 
