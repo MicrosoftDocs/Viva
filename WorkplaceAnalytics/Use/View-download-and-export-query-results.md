@@ -31,7 +31,7 @@ You can use the following options to access and use Workplace Analytics query da
 
 | Option | Description |
 | ------ | ----------- |
-| [Download and import query results](#download-and-import-query-results) | Exports *static raw data* from a Workplace Analytics query as a .csv file, which you can then import into a tool of your choice. |
+| [Download and import query results](#download-and-import-query-results) | Exports *static raw data* from a Workplace Analytics query as a .csv file, which you can then import into a tool of your choice. <br><br>Does not enforce data privacy, so you must be mindful not to expose the raw data when sharing analysis in the other tool. |
 | [Get a link for an OData feed to use in Power BI](#get-a-link-for-an-odata-feed-to-use-in-power-bi) | Automatically imports dynamic, raw query data from Workplace Analytics into Power BI.<br> <br>Does not enforce data privacy in Power BI, so you must be mindful not to expose the raw data when sharing visuals and reports in Power BI.<br> <br>If the query is set up to auto-refresh in Workplace Analytics, your Power BI visuals will automatically update on the same schedule.|
 | [Connect through the Workplace Analytics Power BI Connector](#connect-through-the-power-bi-connector) | Automatically connects Power BI to dynamic, aggregated data from within Workplace Analytics Person or Meeting queries. <br> <br>Enforces data privacy by keeping the raw data in Workplace Analytics. As you create visuals in Power BI, the Connector dynamically provides the aggregated data to support them (in DirectQuery mode). <br> <br>If the query is set up to auto-refresh in Workplace Analytics, your Power BI visuals will automatically update on the same schedule. |
 
@@ -69,7 +69,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
    After Power BI finishes importing your Workplace Analytics data, use Power BI tools to create visualizations of the data.
 
    > [!Important]
-   > * The OData link is not available for query results that were created before March 22, 2018.
+   > The OData link is not available for query results that were created before March 22, 2018.
 
    > [!Note]
    > The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
@@ -115,6 +115,7 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
     * Or enter the query's ID in **Query Identifier**:
 
       a. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
+
       b. Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI:
 
       ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
