@@ -19,7 +19,7 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates include the Workspace Planning template that enables a quantitative solution to effectively identify and seat teams in a specified workspace. This planning can help maximize and foster physical workspace for teams and for cross-team productivity and collaboration.
 
-The template combines Workplace Analytics data with your team size and workspace floor capacity and distances between floors and buildings to generate floor plans with recommended seating.
+The template combines Workplace Analytics data with your team size and workspace capacity and distances between floors and buildings to generate floor plans with recommended seating.
 
 ## Use cases
 
@@ -28,7 +28,7 @@ The template combines Workplace Analytics data with your team size and workspace
 
 ## How it works
 
-This template combines Workplace Analytics data with your team size, workspace floor capacity, and the distances between the floors and the buildings to generate floor plans with recommended seating.
+This template combines Workplace Analytics data with your team size, workspace capacity, and the distances between the floors and the buildings to generate floor plans with recommended seating.
 
  * [Interaction](#create-an-interaction-file): This is a Workplace Analytics group-to-group query that includes meeting and email activity for insight into current work and collaboration patterns.
  * [Space capacity](#create-a-space-capacity-file): This file includes details about the maximum capacity for the workspace.
@@ -206,7 +206,7 @@ The following graphic depicts a building with four floors. The distance between 
 
 1. In the Workspace Planning Azure Template, select **Space Planning** on the left.
 2. Click **Select Data Files** at the top right.
-3. Select **Choose File**, and then select all four .csv data files that you created in the previous steps (interaction, floor_capacity, distance, and team_size) and if you selected relative constraints in the constraints.csv file, select it as well.
+3. Select **Choose File**, and then select all four .csv data files that you created in the previous steps (interaction, space_capacity, distance, and team_size) and if you selected relative constraints in the constraints.csv file, select it as well.
 4. Select **Submit**, which results in a new page for each file and a Floor Plan page
 that shows the calculated floor plans and how many employees from a team can sit where.
 
