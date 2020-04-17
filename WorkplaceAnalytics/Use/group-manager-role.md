@@ -21,7 +21,7 @@ A manager can create change-management plans for the people in their reporting s
 
 The group-manager role has predefined and unalterable scope: The employees in the reporting structure&mdash;all of their reports, direct and indirect&mdash;are automatically assigned to the GM's group. (The GM is also included in this group.)
 
-Change management plans are part of the **Solutions** feature of Workplace Analytics to which the GMs have access. Under **Solutions**, GMs can also open the **Solutions** &gt; **Manage** and **Solutions** &gt; **Track** pages, where they can track the progress of their own active plans and the state of their own completed plans.  
+As a GM, you can access **Plans** in Workplace Analytics to which the GMs have access. In **Plans**, you can create, manage, and track the progress of an active plan and the state of completed plans for your team.  
 
 <!-- NOT YET CONNECTED TO THE BROADER WPA EXPERIENCE SO NOT YET INTEGRATED WITH THE OTHER ROLES
 If you have the GM role assigned as well as the analyst role, the analyst role overrides and you have access to the broader analyst experience, not merely the GM experience. For more information about roles in Workplace Analytics, see [User roles](../use/user-roles.md).
@@ -38,7 +38,7 @@ The GM can see the behavior trends of their reports. To protect the privacy of i
 
 A plan that a GM creates automatically contains the employees of the GM's reporting structure. All members of the group, including the GM, are automatically signed up for the plan. 
 
-1. As a GM, when you open Workplace Analytics, you go directly to the **Solutions** page.
+1. As a GM, when you open Workplace Analytics, you go directly to the **Plans** page.
 
    ![Pick a plan](../images/wpa/tutorials/pick-a-plan.png)
      
@@ -68,7 +68,7 @@ A plan that a GM creates automatically contains the employees of the GM's report
 
 ### Track progress (group manager role)
 
-Once a plan is underway, you can view the **Manage** page to track the plan's progress. 
+Once a plan is underway, you can view the **Manage** page to track the plan's progress.
 
 ![Track progress](../images/wpa/tutorials/solutions-track.png) 
 

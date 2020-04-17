@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics privacy and data access
 description: Discusses the privacy and data access controls available in Workplace Analytics  
@@ -29,10 +27,11 @@ This document introduces the privacy controls available to Workplace Analytics a
 
 Organizations decide who can have access to see the data in Workplace Analytics. You should ensure that primary users receive suitable training in privacy, and in your company’s policies and other applicable subject areas, before being granted access to the data. The following levels of permission provide access to the data:
 
-* **Analyst (Limited Access)** gives access to the Workplace Analytics **Home** page and explore metrics features where minimum group size is enforced.
-* **Analyst** gives full access to all product features except the administrator features.
-* **Administrator role** gives access to administrator features only (**Settings** and **Data Source** pages).
-* **Program manager** gives access to the Workplace Analytics **Home** page and lets program managers explore metrics in cases where the minimum group size is enforced. PMs also have access to the Solutions tab and its **Manage** page, on which they can set up programs, and to its **Track** page, on which they can track the progress of active or ended programs.
+* **Analyst (Limited Access)** has access to the Workplace Analytics **Home** page and explore metrics features where minimum group size is enforced.
+* **Analyst** has full access to all product features except the administrator features.
+* **Administrator role** has access to administrator features only (**Settings** and **Data Source** pages).
+* **Program manager** has access to the Workplace Analytics **Home** page and lets program managers explore metrics in cases where the minimum group size is enforced. They also have access to **Plans** and its **Manage** page, on which they can set up plans, and to its **Track** page, on which they can track the progress of active or ended plans.
+* **Group manager** has access to the Workplace Analytics **Home** page and lets group managers explore metrics about their specific team in cases where the minimum team size is enforced. They also have access to **Plans** and its **Manage** page, on which they can set up plans, and to its **Track** page, on which they can track the progress of active or ended plans.
 
 ## You control the data that Workplace Analytics uses
 
