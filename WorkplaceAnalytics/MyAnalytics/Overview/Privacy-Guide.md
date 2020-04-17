@@ -127,7 +127,7 @@ All assistance for managers in MyAnalytics relies exclusively on information fro
 
 Managers are identified by using Azure Active Directory. The feature is only available to users who have direct reports listed in Azure AD.
 
-Managers have the option to [edit their team list](../use/add-in.md#to-update-team-membership) if they notice any inaccuracies. Any changes the manager makes are used only in their MyAnalytics experience, and are not synchronized back to Azure AD.
+Managers have the option to [edit their team list](../use/add-in.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their MyAnalytics experience, and are not synchronized back to Azure AD.
 
 ## Privacy settings
 
