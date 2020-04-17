@@ -61,7 +61,8 @@ To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
     <li>Analyst</li>
     <li>Analyst (Limited Access)</li>
     <li>Administrator</li>
-    <li>Program manager</li></ul>
+    <li>Program manager</li>
+    <li>Group manager</li></ul>
 
     ![Select role](../images/WpA/Use/select-role-8.png)
 

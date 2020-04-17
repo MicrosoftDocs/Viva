@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics Setup -- Assign roles to admins, analysts, and PMs 
 description: How to assign roles in Workplace Analytics for admins, analysts, and program managers
 author: paul9955
 ms.author: v-midehm
-ms.date: 05/09/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,7 +14,7 @@ audience: Admin
 
 # Assign Workplace Analytics roles
 
-The following describes who does what to assign roles in Workplace Analytics for admins, analysts, and program managers:
+The following describes who does what to assign roles in Workplace Analytics for admins, analysts, program managers, and group managers:
 
 * **Owner** - Office 365 global administrator.
 * **Task** - Assign users for administrators and data analysts to Workplace Analytics service.
@@ -43,6 +40,5 @@ See [Assign Workplace Analytics roles with PowerShell in Azure Active Directory]
 
 ## Related topics
 
-[User roles](../use/user-roles.md)
-
-[Assign a user to an enterprise app using PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell)
+* [User roles](../use/user-roles.md)
+* [Assign a user to an enterprise app using PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-coreapps-assign-user-azure-portal#how-do-i-assign-a-user-to-an-enterprise-app-using-powershell)
