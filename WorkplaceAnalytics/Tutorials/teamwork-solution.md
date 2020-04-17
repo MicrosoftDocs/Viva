@@ -22,7 +22,7 @@ The purpose of the Teamwork plans is to create plans that help teams become more
 People in the following roles can work on plans in various ways:
 
 * **Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
-* **Group managers** can start plans to improve the work habits of employees within their reporting structure.
+* **Group managers** can only start and track plans for the employees on their team, who are within their reporting structure.
 
 To start using Teamwork plans, see the following topics:
 

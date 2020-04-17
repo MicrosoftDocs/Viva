@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Team Adoption --Implement
 description: MyAnalytics Team Adoption by Kate Nowak --Implement section
