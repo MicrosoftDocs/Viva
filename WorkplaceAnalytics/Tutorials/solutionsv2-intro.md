@@ -50,10 +50,10 @@ See the following topics to learn how to create and track plans:
 Confirm that your organization meets the following prerequisites:
 
 * Assign licenses to both Workplace Analytics and MyAnalytics for members of the groups that will take part in change plans.
-* Identify people in your organization to whom to assign the following roles:
+* Identify who in your organization to assign one of the following roles:
 
-   * <u>Analyst, program manager</u> - Both analysts and program managers can help identify opportunities for change plans, set up plans, run and track them, and measure plan ROI.  
-   * <u>Group manager</u> - Group managers can set up, run, and track plans for their team, who include employees that report directly or indirectly within their organization.
+  * **Analyst**, **limited analyst**, or **program manager** - Both analysts and program managers can help identify opportunities for change plans, set up plans, run and track them, and measure plan ROI.  
+  * **Group manager** - These managers can set up, run, and track plans for their team, which includes employees who report directly or indirectly to that manager within their organization's reporting hierarchy.
 
 <!-- RECONSTITUTE THE SECTION "WHEN MULTIPLE ROLES ARE ASSIGNED"
    > [!Note]
@@ -70,63 +70,48 @@ The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provide
 
 ## Plans: Frequently asked questions
 
-### Questions about roles and access
+### Roles and access
 
 **Q1:** Why don't I see the **Plans** page?
 
-**A1:** You can see the **Plans** page only if you've been assigned the role of group manager, program manager, analyst, or limited analyst.
- 
-**Q2:** What can people in the various Workplace Analytics roles do when they work with plans?
+**A1:** You can see the **Plans** page only if you've been assigned the role of analyst, limited analyst, program manager, or group manager.
 
-**A2:** People with the analyst and limited analyst roles have full write access to _all_ functionality of plans. Program managers have access to everything in plans except the **Identify** page. 
+**Q2:** What can people with the various Workplace Analytics roles do when they work with plans?
 
-<!-- USE THIS SECTION WHILE WAITING FOR RELEASE THE GM ROLE: -->
+**A2:** People with the analyst and limited analyst roles have full write access to _all_ functionality of plans. Program and Group managers have access to everything in plans except the **Identify** page.
 
-All roles -- analysts of both levels and program managers -- can upload a .csv file of potential plan participants. (Also see the following question.) 
+All roles -- analysts of both levels, program managers, and group managers -- can upload a .csv file of potential plan participants. (Also see the following question.)
 
-
-<!-- DELETE THIS SECTION WHILE WAITING FOR RELEASE THE GM ROLE: 
-All roles -- analysts of both levels, program managers, and group managers -- can upload a .csv file of potential plan participants. (Also see the following question.) 
--->
-
-<!-- DELETE THIS SECTION WHILE WAITING FOR RELEASE THE GM ROLE: 
 **Q3:** What is the role of a group manager?
 
-**A3:** The scope of a group manager (GM) is that of their reporting structure, namely all of their reports, direct and indirect. This scope is identical to the group of people that a GM can work with in plans; a GM cannot upload .csv files nor can they select groups in charts.
+**A3:** The scope of a group manager is that of their reporting structure, namely all of their reports, direct and indirect. This scope is identical to the group of people that a manager can work with in plans; a group manager cannot upload .csv files nor can they select groups in charts.
 
-A GM can create and track plans for this group and this group only. GMs cannot view other groups or track the progress of other plans. GMs have access only to the **plans** page.  
--->
+A group manager can only create and track plans for their team. They cannot view other groups or track the progress of other plans. They only have access to the **Plans** and **Home** pages.  
 
 **Additional information about roles and access**
 
-* For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md). 
+* For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
 
 * For more information about assigning roles, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#setup-steps).
 
-### Questions about plan implementation
+### Plan implementation
 
-**Q4:** Can we change the duration of the plans?
+**Q1:** Can we change the duration of the plans?
 
-**A4:** Plans are scheduled to last twelve weeks. However, after you've started a plan, you can end it at any time.
+**A1:** Plans are scheduled to last twelve weeks. However, after you've started a plan, you can end it at any time.
 
-**Q5:** What is the minimum group size?
+**Q2:** What is the minimum group size?
 
-**A5:** On the Admin settings page in Workplace Analytics, administrators can set the minimum group size for an organization. They cannot reduce this setting below the absolute limit (five people). For more information, see [Configure settings for Workplace Analytics](../use/settings.md).
+**A2:** In **Admin settings** > **Privacy settings**, admins can set the [minimum group size](../use/settings.md#privacy-settings) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
 
-<!-- DELETE THIS SECTION WHILE WAITING FOR RELEASE THE GM ROLE: 
-Admins can also set a separate minimum group size for group managers (GM). It might or might not differ from the overall minimum group size. This GM group size applies to all GMs in the organization. 
--->
+In **Admin settings** > **Manager settings**, admins can also set a [Minimum team size](../use/settings.md#manager-settings) for group managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all group managers.
 
-**Q6:** Can I monitor metrics for specific users?
+**Q3:** Can I monitor metrics for specific users?
 
-**A6:** No. Privacy considerations preclude the monitoring of behavior information about specific users.
-
+**A3:** No. Privacy considerations preclude the monitoring of behavior information about specific users.
 
 ## Related topics
 
-[Plans: Walkthrough](solutionsv2-task.md)
-
-[Plans: Participants](solutionsv2-participants.md)  
-
-[Plans: Concepts](solutionsv2-conceptual.md) 
-
+* [Plans: Walkthrough](solutionsv2-task.md)
+* [Plans: Participants](solutionsv2-participants.md)  
+* [Plans: Concepts](solutionsv2-conceptual.md)

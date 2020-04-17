@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Understand meeting exclusions in Workplace Analytics
 description: How to use meeting exclusions in Workplace Analytics 
 author: madehmer
-ms.author: v-midehm
-ms.date: 02/21/2019
+ms.author: paul9955
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

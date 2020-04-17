@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
