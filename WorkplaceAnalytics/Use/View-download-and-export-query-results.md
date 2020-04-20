@@ -15,7 +15,7 @@ ms.prod: wpa
   
 In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
-![Query results tab](../images/wpa/use/query-results-page.png)
+![Query results tab](../images/wpa/use/query-results.png)
 
 ## View query results
 
