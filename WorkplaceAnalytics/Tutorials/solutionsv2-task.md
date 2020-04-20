@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics plan walkthrough
 description: A walkthrough of the steps required to create a plan in Workplace Analytics
@@ -11,29 +9,24 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Plans: walkthrough
+# Plans: Walkthrough
 
 You can use the _plans_ feature of Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. You can create a plan, track it while it is in progress, and examine it after it completes. 
- 
+
 People in the following roles can work on improvement plans in various ways:
 
  * **Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
-
-<!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: 
- * **Group managers** can start plans to improve the work habits of employees in their reporting structure. 
--->
-
- * **MyAnalytics users** participate in plans. For more information, see [The experience of plan participants](solutionsv2-participants.md).  
+ * **Group managers** can only start, track, and analyze plans for employees on their team. For plan instructions, see [Plans for group managers](#plans-for-group-managers).
+ * **MyAnalytics users** participate in plans. For more information, see [Plan participant experience](solutionsv2-participants.md).  
 
 > [!Note]  
 > If you have been assigned multiple roles, your capabilities are expanded. See [User roles in Workplace Analytics](../use/user-roles.md).
 
 ## Create a plan
 
-**Role:** If you have the role of analyst, limited analyst, or program manager, the steps in the following sections apply to you.
-<!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: If you are a group manager, see [Plan creation for group managers](#plan-creation-for-group-managers). -->
+**Role:** analyst, limited analyst, or program manager
 
-To create a plan, follow these steps:
+As an Analyst, limited analyst, or program manager follow these steps to create a plan. If you're a group manager, you need to follow the steps in [Plans for group managers](#plans-for-group-managers).
 
 1. [Define the plan](#define-the-plan).
 
@@ -42,8 +35,6 @@ To create a plan, follow these steps:
 3. [Start the plan](#start-the-plan).
 
 ### Define the plan
-
-**Role:** analyst, limited analyst, or program manager
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, sign in with your work account.
 
@@ -64,18 +55,16 @@ To create a plan, follow these steps:
 
 ### Select a group
 
-**Role:** analyst, limited analyst, or program manager
-
 If you have a particular group in mind, you can identify the group either by [uploading a .csv file](#upload-a-csv-file) or by [using filters](#use-filters). (If you don’t have a group in mind, go to [Find the group through analysis](#find-the-group-through-analysis).
 
 #### Upload a .csv file
 
-1. Locate the .csv file to upload. The format of this file is simple: a list of email addresses in a single column. To obtain this file, you might have exported it from an HR system. 
+1. Locate the .csv file to upload. The format of this file is simple: a list of email addresses in a single column. To obtain this file, you might have exported it from an HR system.
 
 2. Select **Upload .csv file**.
 
 3. Select **Browse**, select a .csv file, and then select **Open**.
- 
+
 4. After the file is uploaded, select **Validate**.
 
 5. After the group is successfully validated, you'll see any applicable warnings about the participants. For more information, see [Validation](solutionsv2-conceptual.md#validation).
@@ -87,7 +76,7 @@ If you have a particular group in mind, you can identify the group either by [up
 1. Select **Use filters**. This opens the filter controls:
 
     ![Filter to find a group](../images/wpa/tutorials/filter-to-find-group.png)
- 
+
 2. Add filters to define your group. For example, select **FunctionType**, **Equals**, and **Marketing** in the fields to select the people who work in business strategy as your group. Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection.
 
 3. Select **Validate**. After the group is successfully validated, you'll see any  applicable warnings. For more information, see [Validation](solutionsv2-conceptual.md#validation).
@@ -98,7 +87,7 @@ If you have a particular group in mind, you can identify the group either by [up
 
 If you do not already have a group in mind for a plan, you can analyze the work habits of a larger segment of your organization to identify a group that could potentially benefit from a plan.
 
-> [!Tip] 
+> [!Tip]
 > These steps work best after you’ve decided on the type of plan. Where might people in your organization have a problem? The available plans address too few focus hours (Focus plan), too many hours of meetings (Collaboration plan), or too much collaboration after the workday ends (Wellbeing plan).
 
    ![Pick a plan](../images/wpa/tutorials/pick-a-plan.png)
@@ -176,8 +165,7 @@ After the selected group validates successfully, you'll see insights about the g
 
 ## Track plans
 
-**Role:** analyst, limited analyst, or program manager. 
-<!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: (For Group managers, see [Track progress (Group manager role)](#track-progress-group-manager-role)) -->
+**Role:** analyst, limited analyst, or program manager
 
 You can use the **Track** page to measure progress on the target since the plan started, as well as ROI for the plan.
 
@@ -186,53 +174,35 @@ You can use the **Track** page to measure progress on the target since the plan 
 1. Select **Plans** > **Track**.
 2. In **Progress for**, select the plan you want to see progress information about up to this point in time.
 
-<!-- UNCOMMENT THIS AS SOON AS WE RELEASE THE GM ROLE: 
-## Plan creation for group managers
+## Plans for group managers
 
-The role of group managers (GM) differs from other Workplace Analytics roles in that its scope is predefined and unalterable: All employees in the reporting structure under a GM are automatically assigned to their group. (The GM is also included in this group.)
+The role of group managers differs from other Workplace Analytics roles in that its scope is predefined and unalterable: All employees who report directly or indirectly to a group manager are automatically assigned to their team, which also includes the group manager.
 
-For more information about roles in Workplace Analytics, see [User roles](../use/user-roles.md). 
+For details about roles, see [User roles](../use/user-roles.md).
 
-### Create a plan (group manager role)
+### Create a plan as a group manager
 
-A plan that a GM creates automatically contains the data of the GM's group (the GM's reporting structure). All members of the group, including the GM, are automatically signed up for the plan. 
+A plan that a group manager (GM) creates automatically contains the data of the GM's group (the GM's reporting structure). All members of the group, including the GM, are automatically signed up for the plan.
 
-**Role:** Group manager
+1. In **Plans**, you'll see a _Focus plan_, _Collaboration plan_, and _Wellbeing plan_. You can select **Start plan** and **Analyze** for each plan.
 
-1.	As a GM, when you open Workplace Analytics, you go directly to the **Plans** page: 
-
-    ![Group manager view](../images/wpa/tutorials/gm-view-solns-2.png)
- 
-    This page shows three plans: _Focus plan_, _Collaboration plan_, and _Wellbeing plan_. Consider the type of plan that you want to create. The card for each plan describes the plan and offers **Start plan** and **Analyze** options. 
-
-2.	(Optional) For a particular plan, select **Analyze**. This shows read-only summary data about your team as a whole. This data pertains to that plan’s area of focus. For example, if you select **Analyze** on the _Focus plan_ card, you will see data that pertains to that plan with regard to your team. After you view this information, select **Start plan** and then go to step 4.
+2. (Optional) For a particular plan, select **Analyze**. This shows read-only summary data about your team as a whole. This data pertains to that plan’s area of focus. For example, if you select **Analyze** on the _Focus plan_ card, you will see data that pertains to that plan with regard to your team. After you view this information, select **Start plan** and then go to step 3.
 
     > [!Note]  
-    > You cannot view summary data about your team if its size does not exceed the minimum group size. Workplace Analytics admins can set a minimum group size for GM teams that differs from the general Workplace Analytics setting for minimum group size. 
+    > You cannot view summary data about your team if its size does not exceed the minimum group size. Workplace Analytics admins can set a minimum group size for GM teams that differs from the general Workplace Analytics setting for minimum group size.
 
-3.	For one of the three plans, select **Start plan**. This opens the **Set up new plan** panel:
+3. In **Set up new plan**, check the figure that is shown on this page for **Number of direct and indirect reports**. If this team size looks incorrect, contact your admin, who can check the organizational data (HR) upload file and the manager hierarchy within that file for errors.
 
-    ![Group manager -- set up new plan](../images/wpa/tutorials/gm-set-up-new-plan.png) 
+4. Select **Validate**.
 
-4.  Check the figure that is shown on this page for **Number of direct and indirect reports**. If this team size looks incorrect, contact your admin. They should examine the organizational data (HR) file and the manager hierarachy within that file for errors.
- 
-5.	Select **Validate**. 
-  
-    After validation finishes, Workplace Analytics shows any resulting details, warnings, and insights about the group. The warnings might indicate that some potential participants are ineligible for various reasons. If, after validation, there are enough participants for the plan, select **Start plan**. This shows the _Your plan was successfully submitted_ page: 
-    
-    ![Group manager -- set up new plan](../images/wpa/tutorials/gm-set-up-new-plan-2.png) 
- 
-### Track progress (Group manager role)
+5. After validation finishes, Workplace Analytics shows any resulting details, warnings, and insights about the group. The warnings might indicate that some potential participants are ineligible for various reasons. If, after validation, there are enough participants for the plan, select **Start plan**. This shows the _Your plan was successfully submitted_ page:
+
+### Track progress as a group manager
 
 After the plan starts, you can view the plan’s progress on the **Track** page. Note that you can see progress for your team only, and only for a single plan. This is because your team can have only one plan underway at a time. (You cannot subdivide your team into smaller groups that run different plans simultaneously.)
--->
 
 ## Related topics
 
-[Plans: Introduction](solutionsv2-intro.md)  
-
-[Plans: Participants](solutionsv2-participants.md)  
-
-[Plans: Concepts](solutionsv2-conceptual.md)
-
-
+* [Plans: Introduction](solutionsv2-intro.md)  
+* [Plans: Participants](solutionsv2-participants.md)  
+* [Plans: Concepts](solutionsv2-conceptual.md)

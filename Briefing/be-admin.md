@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Configure Briefing email
-description: Learn how to configure Briefing email for your organization as the admin
+description: Steps for admins to configure Briefing email for their organization
 author: madehmer
 ms.author: madehmer
 ms.topic: article
@@ -19,7 +19,7 @@ As the admin, you can configure Briefing email for your organization at the user
 
 ## Prerequisites
 
-Confirm the following before configuring access: 
+Confirm the following before configuring access:
 
 * **Licensed users only** - Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
@@ -77,7 +77,7 @@ To configure access, use the Exchange Online PowerShell V2 module to set Briefin
 To enable or disable Briefing email for a specific user, use the Exchange Online PowerShell V2 module and the following command line, where you replace "joe@contoso.com" with your applicable username and organization:
 
 ```powershell
-Set-UserBriefingConfig -Identity joe@contoso.com [-Enabled [<"$true" | "$false">]
+Set-UserBriefingConfig -Identity joe@contoso.com [-Enabled [<$true | $false>]
 ```
 
 - If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user.
@@ -100,7 +100,7 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
 1. Create a comma-separated value (.csv) text file that contains the Identity of the users you want to configure. For example:
 
    ```powershell
-   -Identity
+   Identity
    ClaudeL@contoso.com
    LynneB@contoso.com
    ShawnM@contoso.com
@@ -111,7 +111,7 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
    ```powershell
    $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2Opt-in.csv>"
    $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2Opt-in-Done.csv>"
-   $briefingEmailMode = "$true"
+   $briefingEmailMode = $true
 
    $users=Import-Csv $inFileName
    ForEach ($user in $users)

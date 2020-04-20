@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 

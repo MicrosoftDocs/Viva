@@ -238,7 +238,7 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
 #### To use the catch up feature
 
-1. On the **Home** ribbon of Microsoft Outlook, [open Insights](add-in#what-you-might-see). 
+1. On the **Home** ribbon of Microsoft Outlook, [open Insights](#what-you-might-see).
 
 2. Select **Catch up with your team**:
 

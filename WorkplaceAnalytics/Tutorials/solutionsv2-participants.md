@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics plan participants
 description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
@@ -15,7 +13,7 @@ ms.prod: wpa
 
 **Role** - participant in a plan, an information worker who is using MyAnalytics
 
-While analysts and program managers create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better.
+While analysts, program managers, and group managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better.
  
 During a plan, participants receive or can view the following items:
 
@@ -105,8 +103,6 @@ A number of other inline suggestions are available to all MyAnalytics participan
 
 ## Related topics
 
-[Plans: Introduction](solutionsv2-intro.md)  
-
-[Plans: Walkthrough](solutionsv2-task.md)
-
-[Plans: Concepts](solutionsv2-conceptual.md)
+* [Plans: Introduction](solutionsv2-intro.md)  
+* [Plans: Walkthrough](solutionsv2-task.md)
+* [Plans: Concepts](solutionsv2-conceptual.md)

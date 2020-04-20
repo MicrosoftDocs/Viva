@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Configure settings for Workplace Analytics
 description: Describes how Workplace Analytics administrators can set and edit settings in Workplace Analytics
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -22,6 +20,7 @@ You use the following Settings pages in Workplace Analytics to customize system 
  * [Upload](#upload) – Prepare and upload organizational and customer data.
  * [Analysis settings](#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
  * [Admin settings](#admin-settings) – Configure system defaults and privacy settings.
+ * [Manager settings](#manager-settings) - Allows managers access to see insights about their teams and to set up plans in Workplace Analytics. 
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
@@ -242,7 +241,48 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 7. At the top right of the page, select **Save**.
 
 > [!Important]
->* All subsequent changes to privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data or Office 365 collaboration data. 
+>* All subsequent changes to privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data or Office 365 collaboration data.
 >* Changes to **Hash subject lines** take affect immediately in meeting query results.
 >* Changes to the **minimum group** and **Hash subject lines** settings apply retroactively to *all data*, including historical data.
 >* Changes to the other exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
+
+### Manager settings
+
+On the **Manager settings** page, you can allow all measured managers or specific managers access to aggregate collaboration insights about their team and the ability to start plans for their team in Workplace Analytics. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics.
+
+The following are based on the latest organizational (HR) data that's been successfully uploaded and processed in Workplace Analytics:
+
+* **Measured managers** - Total number of managers who are assigned licenses in Workplace Analytics.
+* **Managers enabled** - Total number of managers who meet the minimum team size and have access to their team's insights and plans in Workplace Analytics.
+
+![Manager settings](../images/wpa/use/manager-settings.png)
+
+* **Insights and plans** - You can select to allow all licensed managers access to aggregated collaboration insights about their teams and to start and manage plans for their teams. Or you can upload a .csv file that lists the email addresses for the managers you want to give access to their team's insights and plans in Workplace Analytics.
+* **Minimum team size** - You can set the minimum size of a team that a manager is allowed to view insights about and start plans for. The minimum size allowed is 10. This section also shows you how many measured managers currently have teams that are equal to or more than the minimum setting.
+
+#### To configure manager settings
+
+> [!Important]
+> Before managers can access Workplace Analytics, they must be assigned a Workplace Analytics license and have a team that meets or exceeds the **Minimum team size** setting.
+
+1. In **Admin settings** > **Manager settings**, select to change the switch **On** to allow managers with the minimum team size access to their team data in Workplace Analytics.
+2. Select one of the following:
+
+   * **All managers** - Allows all measured managers access.
+   * **Select managers** (upload .csv) - Enables you to give specific managers access. You then need to:
+
+      a. Create a .csv file that lists the email addresses for the select managers.
+
+      b. Select **Upload .csv** to upload this list.
+
+3. If you're allowing all managers access, continue to **Step 4**. If setting up access for select managers, select **Download currently enabled manual upload manager list .csv** to confirm which managers now have access. If an error occurs, such as an invalid email or an unlicensed manager, the .csv file will show the error for that manager.
+4. In **Minimum team size**, you can change the minimum to a number more than 10 (which is the lowest setting allowed), which limits access to only those managers who have teams equal to or more than that number.
+5. Select **Save**.
+
+>[!Note]
+>Changes to these settings can take up to an hour to apply.
+
+## Related topics
+
+* [Upload organizational data](../setup/upload-organizational-data.md)
+* [Workplace Analytics plans](../tutorials/solutionsv2-intro.md)
