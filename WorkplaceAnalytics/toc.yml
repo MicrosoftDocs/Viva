@@ -180,7 +180,6 @@
   items:   
     - name: Introduction
       href: MyAnalytics/MyA-landing-page.md
-      homepage: /myanalytics 
     - name: Why use MyAnalytics?
       href: MyAnalytics/Overview/Better-work-habits.md        
     - name: Reference
@@ -272,10 +271,7 @@
             items: 
             - name: Learning modules
               href: MyAnalytics/Use/mya-adoption/Adopt-Learning-modules.md
-              homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/learning-modules
             - name: Habit-building method
               href: MyAnalytics/Use/mya-adoption/Adopt-Habit-building-method.md
-              homepage: /myanalytics/use-myanalytics/adopt-myanalytics/Habit resources/habit-building-method
             - name: Habit playbooks
               href: MyAnalytics/Use/mya-adoption/Adopt-Habit-playbooks.md
-              homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/habit-playbooks
