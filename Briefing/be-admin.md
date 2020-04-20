@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Configure Briefing email
-description: Learn how to configure Briefing email for your organization as the admin
+description: Steps for admins to configure Briefing email for their organization
 author: madehmer
 ms.author: madehmer
 ms.topic: article
