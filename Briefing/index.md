@@ -70,7 +70,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Configuring the Briefing email</h3>
-                        <p>Learn how to set up the Briefing email for your organization as the admin.</p>
+                        <p>Steps for admins to configure the Briefing email for your organization.</p>
                     </div>
                 </div>
             </div>
