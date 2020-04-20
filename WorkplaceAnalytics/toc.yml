@@ -37,8 +37,6 @@
               href: ~/Use/User-Roles.md
             - name: Assign user and group roles
               href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
-            - name: Assign roles with PowerShell
-              href: ~/use/using-powershell-to-assign-roles.md 
         - name: Workplace Analytics settings
           href: ~/Use/Settings.md
         - name: Prepare organizational data
@@ -182,7 +180,6 @@
   items:   
     - name: Introduction
       href: MyAnalytics/MyA-landing-page.md
-      homepage: /myanalytics 
     - name: Why use MyAnalytics?
       href: MyAnalytics/Overview/Better-work-habits.md        
     - name: Reference
@@ -274,10 +271,7 @@
             items: 
             - name: Learning modules
               href: MyAnalytics/Use/mya-adoption/Adopt-Learning-modules.md
-              homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/learning-modules
             - name: Habit-building method
               href: MyAnalytics/Use/mya-adoption/Adopt-Habit-building-method.md
-              homepage: /myanalytics/use-myanalytics/adopt-myanalytics/Habit resources/habit-building-method
             - name: Habit playbooks
               href: MyAnalytics/Use/mya-adoption/Adopt-Habit-playbooks.md
-              homepage: /myanalytics/use-myanalytics/adopt-myanalytics/habit-resources/habit-playbooks
