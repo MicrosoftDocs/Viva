@@ -13,15 +13,15 @@ ms.prod: wpa
 
 **Role:** Analyst role is required in Workplace Analytics to view, download, or export query results
   
-In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries that have been run for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
+In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
 ![Query results tab](../images/wpa/use/query-results-page.png)
 
 ## View query results
 
-On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (the results of queries that all analysts have run, as shown in the preceding screenshot) and **My results** (only the results of queries that the analyst who is viewing this page has run).
+On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (includes queries created by all analysts) and **My results** (only queries that you created, as an analyst).
 
-1. In Workplace Analytics, open the **Analyze** > **Queries** > **Results** > **All results** page.
+1. In Workplace Analytics, go to **Analyze** > **Queries** > **Results** > **All results**.
 
 2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
   
