@@ -99,6 +99,5 @@ However, in a larger company where the number of users required for the same rol
 ## Related topics
 
 * [User roles](../use/user-roles.md)
-* [Assign roles with PowerShell in Azure Active Directory](https://docs.microsoft.com/workplace-analytics/use/using-powershell-to-assign-roles)
 * [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
