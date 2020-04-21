@@ -143,7 +143,7 @@ In **Admin settings** > **Privacy settings**, you can decide what data you want 
 
 #### Minimum group size
 
-The minimum-group-size rule protects people from being identified in [Explore charts](../Use/Explore-Metrics-Week-in-the-Life.md) and in [Solutions data](../tutorials/solutionsv2-intro.md).
+The minimum-group-size rule protects people from being identified in [Explore charts](../Use/Explore-Metrics-Week-in-the-Life.md) and in [Plans data](../tutorials/solutionsv2-intro.md).
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
@@ -171,7 +171,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
    You can see histogram charts in the following areas of Workplace Analytics:
 
    * In **Explore**, on the [Management and coaching](../use/explore-metrics-management-and-coaching.md) page  
-   * In [Solutions](../Tutorials/solutionsv2-intro.md), on the **Identify** and **Track** pages
+   * In [Plans](../Tutorials/solutionsv2-intro.md), on the **Identify** and **Track** pages
 
 #### Hash subject lines
 
