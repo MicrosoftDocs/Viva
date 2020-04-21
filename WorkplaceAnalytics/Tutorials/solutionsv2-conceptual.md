@@ -143,11 +143,11 @@ The banner on the **Track** page shows the plan type, the number of participants
 
 The highlighted numbers show the average value per person per week since the plan started, as compared with the plan benchmark. The benchmark, in turn, refers to the average value per person per week for the twelve weeks that immediately preceded the start of the plan.
 
-Return to [Track programs](solutionsv2-task.md#track-plans).
+Return to [Track plans](solutionsv2-task.md#track-plans).
 
 ## Manually upload a .csv file
 
-After you create and upload a .csv file to create a group, all email addresses that were successfully uploaded now constitute the group. After the upload successfully completes, the group can be processed. During processing, Workplace Analytics matches email address to PersonIDs, which lets it examine data for these people for the metrics that you chose. Now, Workplace Analytics can calculate metrics and a benchmark for the group. It also gives an estimate of the number of people in the group, based on the number of rows in the file. This estimate will change if some of the people turn out to lack valid Workplace Analytics licenses. 
+After you create and upload a .csv file to create a group, all email addresses that were successfully uploaded now constitute the group. After the upload successfully completes, the group can be processed. During processing, Workplace Analytics matches email address to PersonIDs, which lets it examine data for these people for the metrics that you chose. Now, Workplace Analytics can calculate metrics and a benchmark for the group. It also gives an estimate of the number of people in the group, based on the number of rows in the file. This estimate will change if some of the people turn out to lack valid Workplace Analytics licenses.
 
 ### Privacy note
 
@@ -188,8 +188,6 @@ Workplace Analytics uses the concept of dated attributes. Every time an admin up
 
 ## Related topics
 
-[Plans: Introduction](solutionsv2-intro.md)  
-
-[Plans: Walkthrough](solutionsv2-task.md)
-
-[Plans: Participants](solutionsv2-participants.md)  
+* [Plans: Introduction](solutionsv2-intro.md)  
+* [Plans: Walkthrough](solutionsv2-task.md)
+* [Plans: Participants](solutionsv2-participants.md)  
