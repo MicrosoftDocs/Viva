@@ -31,7 +31,7 @@ You'll see Insights similar to the following in the right pane in Outlook:
 
 ![Insights icon](../../images/mya/overview/insights-view.png)
 ![Insights panel](../../images/mya/overview/insights-cards-14.png)
-
+<!--
 ## Plan your time away
 
 Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
