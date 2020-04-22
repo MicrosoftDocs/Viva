@@ -32,7 +32,7 @@ This query type lets analysts use a metric called _Influence_. This metric is a 
 4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
 
     > [!Note] 
-    > You cannot select the auto-refresh option for ONA queries.
+    > Currently, you cannot select the auto-refresh option for ONA queries.
 
 5.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
 6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
@@ -41,15 +41,16 @@ This query type lets analysts use a metric called _Influence_. This metric is a 
 9.	On the **Queries > Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 > [!Note] 
-> You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes the various ways to see or share results. You can follow steps in that topic to [View query results](../use/view-download-and-export-query-results.md#view-query-results) or to [Download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), but note that the other sections of that topic (such as using and OData link) do not apply to ONA queries.
+> You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes the various ways to see or share results. You can follow steps in that topic to [View query results](../use/view-download-and-export-query-results.md#view-query-results) or to [Download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), but note that the other sections of that topic (such as using and OData link) do not currently apply to ONA queries.
 
 ## ONA query output
 
 The following columns are included in the query results for ONA queries:
+
  * **Person ID.** De-identified ID number for the person represented in that data row.
   * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it'll be the first day of the month your data encompasses).
  * **Person attributes.** Attributes about the person supplied through the latest organizational (HR) data upload.
- * **Metrics.** Any other metrics that you include in the query. See Person query metrics for more details.
+ * **Metrics.** Any metrics that you include in the query. See [ONA  metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics) for more details.
 
 ## Related topics
 
@@ -57,7 +58,7 @@ The following columns are included in the query results for ONA queries:
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
 
-Here are two articles from the _Harvard Business Review_ about organizational change: 
+For more information about achieving organizational change, see these articles from the _Harvard Business Review_: 
 
 [The Network Secrets of Great Change Agents](https://hbr.org/2013/07/the-network-secrets-of-great-change-agents)
 
