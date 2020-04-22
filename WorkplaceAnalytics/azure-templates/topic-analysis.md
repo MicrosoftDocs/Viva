@@ -12,7 +12,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Topic Analysis Azure Template for Workplace Analytics
+# Workplace Analytics Topic Analysis Azure Template
 
 _These templates are only available as part of a Microsoft service engagement._
 
