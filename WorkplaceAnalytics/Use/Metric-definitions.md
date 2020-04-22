@@ -113,4 +113,4 @@ You can use the following metrics in Workplace Analytics to customize your queri
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
-|Influence|A numeric score that indicates how well connected a person is within the company. A higher score means the person is better connected and has greater potential to drive change.|ONA|Count|No|
+|Influence|A numeric score that indicates how well connected a person is within the company. A higher score means the person is better connected and has greater potential to drive change.|ONA|Score|No|
