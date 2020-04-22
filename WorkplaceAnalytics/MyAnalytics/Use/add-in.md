@@ -36,49 +36,45 @@ You'll see Insights similar to the following in the right pane in Outlook:
 
 Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
 
-You can use Insights to help you reduce stress by helping plan your time away on your calendar, including helping you:
+The Insights checklist gives you the peace of mind by helping you schedule time to get everything done before you go and to catch up on anything you missed while you were away. This single tool can help you:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
-* Compose your auto-reply messages and notify your team about your scheduled time off.
+* Compose your auto-reply messages and notify your team about your planned time off.
 * Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
 
 You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan. For example, this shows only the first task as done:
 
-   ![Insights plan your time away task list](../../images/mya/overview/insights-time-away.png)
+![Insights plan your time away task list](../../images/mya/use/insights-time-away.png)
 
-**To plan your time away**
+**To view and use the Plan your time away**
 
 1. If Insights isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
 2. In the **Insights** pane, select **Plan your time away** to see a checklist of tasks you can do before your scheduled time off:
 
-   * **Update your calendar** - Select start and end date for when you will be out of office. When you click “Schedule” MyAnalytics will set an Out-Of-Office appointment on your calendar for the selected dates.
+   * **Update your calendar** - Select **Start** and **End dates** for when you will be out of office, and then select **Schedule**, which will set up an Out-Of-Office appointment on your calendar for the selected dates.
 
-     ![Insights update calendar](../../images/mya/overview/insights-update-calendar.png)
+     ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
 
-   * **Set automatic replies** - Compose or edit the automatic reply message that people will receive when they send you messages or invites while you're away from work. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
+   * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
-     ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
+     ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
 
-5. In **Notify collaborators**, select who you want to notify about your upcoming holiday plans, and then:
+   * In **Notify collaborators**, you'll see a list of people that you collaborated with in the last four weeks, who you can select to notify through an email or meeting invitation, and then select **Compose**:
 
-   * Select **Open new email draft** to compose the message.
-   * Select **Open new meeting invitation** to add your scheduled time off on their calendars.
+     ![Insights notify collaborators](../../images/mya/use/insights-notify.png)
 
-6. In **Resolve meetings** > **Review meetings**, you can see all the meetings that are scheduled during your time off. Any meetings that you scheduled will be canceled and any meetings you're an attendee of will be declined:
+   * In **Resolve meetings** > **Review meetings**, you'll see a list of meetings that you either organized or accepted during your time away.
 
-   * In **Decline and cancel meetings with this message**, edit the message that'll be sent with the meeting invitation decline or cancel message.
-   * In **Select meetings to decline or cancel**, select which meetings you want to cancel or decline, and then select **Confirm**. Or you can select **Open** next to a meeting to see more details, reschedule, and resolve if differently than the others on your calendar.
+     * In **Decline and cancel meetings with this message**, edit the message that'll be sent to decline or cancel the meeting invitation.
+     * In **Select meetings to decline and cancel**, select which meetings you want to decline or cancel, and then select **Confirm**. You can select **Open** next to a meeting to see more details about it, and use **Select all** to decline or cancel all the meetings listed.
 
-    ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
+      ![Insights resolve meetings](../../images/mya/use/insights-resolve-meetings.png)
 
-7. In **Book time to focus**, Insights will show you a what time is available on your calendar to focus on wrapping up work before you go and on catching up after you get back.
+   * In **Book time to focus**, you can schedule time to focus on wrapping up work before you go, and then on catching up after you get back. Select the **plus sign** (+) next to the available **Focus time** slots, and then select **Done** to add them to your calendar.
 
-    ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
+     ![Insights book focus time](../../images/mya/use/insights-focus-time.png)
 
-<!-- Coming soon-> When you get back, Insights helps you catch up on important email and review new documents and activity that occurred while you were away:
-
-![Insights welcome back](../../images/mya/overview/insights-welcome-back.png)
--->
+     With this time scheduled, you get the peace of mind that you have time to get everything done both before you go and after you get back.
 
 ## Email read statistics
 
