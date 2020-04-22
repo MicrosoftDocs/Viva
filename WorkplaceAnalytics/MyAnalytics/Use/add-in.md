@@ -36,20 +36,20 @@ You'll see Insights similar to the following in the right pane in Outlook:
 
 Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
 
-The Insights checklist gives you the peace of mind by helping you schedule time to get everything done before you go and to catch up on anything you missed while you were away. This single tool can help you:
+This Insights checklist gives you peace of mind by helping you schedule time to get everything done before you go and to catch up on anything you missed while you were away. This single tool can help you:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
 * Compose your auto-reply messages and notify your team about your planned time off.
 * Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
 
-You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan. For example, this shows only the first task as done:
+You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan.
 
 ![Insights plan your time away task list](../../images/mya/use/insights-time-away.png)
 
 **To view and use the Plan your time away**
 
 1. If Insights isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
-2. In the **Insights** pane, select **Plan your time away** to see a checklist of tasks you can do before your scheduled time off:
+2. In the **Insights** pane, select **Plan your time away** to see a checklist of tasks you can do before you go:
 
    * **Update your calendar** - Select **Start** and **End dates** for when you will be out of office, and then select **Schedule**, which will set up an Out-Of-Office appointment on your calendar for the selected dates.
 
@@ -59,11 +59,11 @@ You can plan your schedule with these planning options all at one time or indivi
 
      ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
 
-   * In **Notify collaborators**, you'll see a list of people that you collaborated with in the last four weeks, who you can select to notify through an email or meeting invitation, and then select **Compose**:
+   * In **Notify collaborators**, you'll see a list of people that you collaborated with in the last four weeks, who you can select to notify through an email or meeting invitation, and then select **Compose**.
 
      ![Insights notify collaborators](../../images/mya/use/insights-notify.png)
 
-   * In **Resolve meetings** > **Review meetings**, you'll see a list of meetings that you either organized or accepted during your time away.
+   * In **Resolve meetings** > **Review meetings**, you'll see a list of meetings you either organized or accepted that occur during your time away.
 
      * In **Decline and cancel meetings with this message**, edit the message that'll be sent to decline or cancel the meeting invitation.
      * In **Select meetings to decline and cancel**, select which meetings you want to decline or cancel, and then select **Confirm**. You can select **Open** next to a meeting to see more details about it, and use **Select all** to decline or cancel all the meetings listed.
