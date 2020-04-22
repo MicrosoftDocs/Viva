@@ -44,37 +44,35 @@ You can use Insights to help you reduce stress by helping plan your time away on
 
 You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan. For example, this shows only the first task as done:
 
-   ![Insights plan your time away task list](../../images/mya/overview/insights-time-away.png)
+   ![Insights plan your time away task list](../../images/mya/overview/insights-plan-time-away.png)
 
 **To plan your time away**
 
-1. If Insights isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
-2. In the **Insights** pane, select **Plan your time away** to see a checklist of tasks you can do before your scheduled time off:
+1. In the **Insights** pane, select **Plan your time away**.
+2. In **Select dates**, select the date range for your time off, and then select **Schedule**.
 
-   * **Update your calendar** - Select start and end date for when you will be out of office. When you click “Schedule” MyAnalytics will set an Out-Of-Office appointment on your calendar for the selected dates.
+   ![Insights select dates](../../images/mya/overview/insights-select-dates.png)
 
-     ![Insights update calendar](../../images/mya/overview/insights-update-calendar.png)
+3. In **Set automatic replies**, compose or edit the automatic reply message that people will receive when they send you messages or invites while you're away from work. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
-   * **Set automatic replies** - Compose or edit the automatic reply message that people will receive when they send you messages or invites while you're away from work. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
+   ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
 
-     ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
-
-5. In **Notify collaborators**, select who you want to notify about your upcoming holiday plans, and then:
+4. In **Notify collaborators**, select who you want to notify about your upcoming holiday plans, and then:
 
    * Select **Open new email draft** to compose the message.
    * Select **Open new meeting invitation** to add your scheduled time off on their calendars.
 
-6. In **Resolve meetings** > **Review meetings**, you can see all the meetings that are scheduled during your time off. Any meetings that you scheduled will be canceled and any meetings you're an attendee of will be declined:
+5. In **Resolve meetings** > **Review meetings**, you can see all the meetings that are scheduled during your time off. Any meetings that you scheduled will be canceled and any meetings you're an attendee of will be declined:
 
    * In **Decline and cancel meetings with this message**, edit the message that'll be sent with the meeting invitation decline or cancel message.
    * In **Select meetings to decline or cancel**, select which meetings you want to cancel or decline, and then select **Confirm**. Or you can select **Open** next to a meeting to see more details, reschedule, and resolve if differently than the others on your calendar.
 
     ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
 
-7. In **Book time to focus**, Insights will show you a what time is available on your calendar to focus on wrapping up work before you go and on catching up after you get back.
+6. In **Book time to focus**, Insights will show you a what time is available on your calendar to focus on wrapping up work before you go and on catching up after you get back.
 
     ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
-
+-->
 <!-- Coming soon-> When you get back, Insights helps you catch up on important email and review new documents and activity that occurred while you were away:
 
 ![Insights welcome back](../../images/mya/overview/insights-welcome-back.png)
