@@ -57,7 +57,7 @@ The following columns are included in the query results for ONA queries:
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
 
-Here are two articles from the Harvard Business Review about organizational change: 
+Here are two articles from the _Harvard Business Review_ about organizational change: 
 
 [The Network Secrets of Great Change Agents](https://hbr.org/2013/07/the-network-secrets-of-great-change-agents)
 
