@@ -14,9 +14,9 @@ ms.prod: mya
 
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within the first two hours of your workday (as set up in Outlook), you’ll get an email about any relevant items to help you better prepare for the day ahead, including:
 
-* Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks
-* Documents related to today’s meetings that you might want to review beforehand
-* Suggested focus time you can schedule to help get independent work done
+* Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks.
+* Documents related to today’s meetings that you might want to review beforehand.
+* Suggested focus time you can schedule to help get independent work done.
 
 ## Why am I getting this?
 
@@ -45,7 +45,7 @@ For each task, you can select:
 For documents, select:
 
 * **Done** to indicate you are finished reviewing the document.
-* **Not related** to remove the document suggestion and gives feedback that helps improve future .
+* **Not related** to remove the document suggestion and gives feedback that helps improve future.
 
 ## First Briefing
 
@@ -53,10 +53,10 @@ As a new user, your first Briefing email explains how to use it to prepare for u
   
    ![First Briefing email](./images/first-briefing.png)
 
-<!--  ## Configuration
+## Configuration
 
 The Briefing email needs to be set up for your organization by the admin. See [Configure the Briefing email](be-admin.md) for details about configuration.
--->
+
 ## Using the Briefing email
 
 Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-version), the Briefing email includes the following sections:

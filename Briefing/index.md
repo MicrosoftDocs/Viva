@@ -57,7 +57,7 @@ author: madehmer
             </div>
         </div>
         </a>
-<!-- </li>
+</li>
     <li>
         <a href="https://docs.microsoft.com/briefing/be-admin">
         <div class="cardSize">
@@ -70,13 +70,13 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Configuring the Briefing email</h3>
-                        <p>Learn how to set up the Briefing email for your organization as the admin.</p>
+                        <p>Steps for admins to configure the Briefing email for your organization.</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
-    </li>-->
+    </li>
     <li>
         <a href="https://docs.microsoft.com/briefing/be-meetings">
         <div class="cardSize">

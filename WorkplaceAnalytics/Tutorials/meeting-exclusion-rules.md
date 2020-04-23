@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Meeting exclusion rules in Workplace Analytics
 description: Meeting exclusion rules -- Introduction and walkthrough   
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -196,7 +193,7 @@ You might have started to define a rule and then saved it as a draft. Now, youâ€
 
 ## Select which rule to use
 
-When you first start using Workplace Analytics, the **Explore** dashboards and the **Solutions** pages use the predefined, default meeting exclusion rule. However, you can change this to a different "preferred" rule, as described in the following steps.
+When you first start using Workplace Analytics, the **Explore** dashboards and the **Plans** pages use the predefined, default meeting exclusion rule. However, you can change this to a different "preferred" rule, as described in the following steps.
 
 To learn how to select a rule to use in a query, see [Use rules with queries](#use-rules-with-queries).
 
@@ -204,7 +201,7 @@ To learn how to select a rule to use in a query, see [Use rules with queries](#u
 
 1.	On the **Settings** > **Analysis settings** page, select **Active**.
 
-2.	In the table of meeting exclusion rules, find the rule that you want to use in Explore, Solutions, and Queries. 
+2.	In the table of meeting exclusion rules, find the rule that you want to use in Explore, Plans, and Queries. 
 
 3. In the row for that rule, select the ellipsis to show the available actions: 
     
@@ -268,6 +265,6 @@ You might have built and used a rule in a past project that you no longer use. H
     â€¦ and then select **Archive**. The rule will be moved to the list of archived rules, which you can see by clicking **Archived** on the **Active/Archived** toggle control.
 
 
-## Related topics
+## Related topic
 
 [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)

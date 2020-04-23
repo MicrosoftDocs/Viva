@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics privacy considerations
 description: Privacy considerations when using Workplace Analytics to analyze your organizational data
@@ -24,7 +22,7 @@ A minimum group size helps maintain employee privacy by ensuring that specific p
 
 ### The rule
 
-The minimum-group setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../Tutorials/solutionsv2-intro.md) area. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified by means of de-identified data presented in a chart.
+The minimum-group setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Plans](../Tutorials/solutionsv2-intro.md) area. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified by means of de-identified data presented in a chart.
 
 #### Example
 
@@ -56,8 +54,8 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 You can see histogram charts in the following pages in Workplace Analytics:
 
 * On the Management and Coaching page in Explore
-* For goal setting in Solutions
-* To track program success on the Track page in Solutions
+* For goal setting in Plans
+* To track program success on the Track page in Plans
 
 ## Hash subject lines
 

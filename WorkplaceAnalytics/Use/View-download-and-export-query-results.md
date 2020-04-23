@@ -1,7 +1,7 @@
 ---
 
 title: View, download, and export Workplace Analytics query results
-description: Describes how to view, download, and export Workplace Analytics query results to PowerBI and other data analysis tools
+description: Describes how to view, download, and export Workplace Analytics query results to Power BI and other data analysis tools
 author: madehmer
 ms.author: paul9955
 ms.topic: article
@@ -11,29 +11,29 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-**Role:** Analyst role is required in Workplace Analytics to view, download, or export query results.
+**Role:** Analyst role is required in Workplace Analytics to view, download, or export query results
   
-In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries that have been run for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
+In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
-![Query results tab](../images/wpa/use/query-results-page.png)
+![Query results tab](../images/wpa/use/query-results.png)
 
 ## View query results
 
-On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (the results of queries that all analysts have run, as shown in the preceding screenshot) and **My results** (only the results of queries that the analyst who is viewing this page has run).
+On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (includes queries created by all analysts) and **My results** (only queries that you created, as an analyst).
 
-1. In Workplace Analytics, open the **Analyze** > **Queries** > **Results** > **All results** page.
+1. In Workplace Analytics, go to **Analyze** > **Queries** > **Results** > **All results**.
 
 2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
   
 ## Use Workplace Analytics data in Power BI, Excel, or other data-analysis tool
 
-You can use data from your queries in a data-analysis tool to do further analysis and create reports. Workplace Analytics gives you three options to do this:
+You can use the following options to access and use Workplace Analytics query data in a different data-analysis tool to create visuals and reports outside of Workplace Analytics.
 
-| Option | Description |
-| ------ | ----------- |
-| [Download and import query results](#download-and-import-query-results) | After a Workplace Analytics query returns results, visualize them in a tool of your choice. |
-| [Get a link for an OData feed to use in Power BI](#get-a-link-for-an-odata-feed-to-use-in-power-bi) | After a Workplace Analytics query returns results, visualize them in Power BI. |
-| [Connect through the Workplace Analytics Power BI Connector](#connect-through-the-power-bi-connector) | Visualize Workplace Analytics data within Power BI by running aggregated query data. |
+|Option | Description |
+|------ | ----------- |
+|[Download and import query results](#download-and-import-query-results) | Exports *static raw data* from a Workplace Analytics query as a .csv file, which you can then import into a tool of your choice. <br><br>When sharing analysis in the other tool, take caution to ensure that only authorized users can access the raw data. |
+|[Get a link for an OData feed to use in Power BI](#get-a-link-for-an-odata-feed-to-use-in-power-bi) | Automatically imports dynamic, raw query data from Workplace Analytics into Power BI.<br> <br>When sharing analysis in Power BI, take caution to ensure that only authorized users can access the raw data. <br> <br>If the query is set up to auto-refresh in Workplace Analytics, your Power BI visuals will automatically update on the same schedule.|
+|[Connect through the Workplace Analytics Power BI Connector](#connect-through-the-power-bi-connector) | Automatically connects Power BI to dynamic, aggregated data from within Workplace Analytics Person or Meeting queries. <br> <br>Automatically enforces data privacy by keeping the raw data in Workplace Analytics. As you create visuals in Power BI, the Connector dynamically provides the aggregated data to support them (in DirectQuery mode). <br> <br>If the query is set up to auto-refresh in Workplace Analytics, your Power BI visuals will automatically update on the same schedule. |
 
 ### Download and import query results
 
@@ -69,7 +69,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
    After Power BI finishes importing your Workplace Analytics data, use Power BI tools to create visualizations of the data.
 
    > [!Important]
-   > * The OData link is not available for query results that were created before March 22, 2018.
+   > The OData link is not available for query results that were created before March 22, 2018.
 
    > [!Note]
    > The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
@@ -80,20 +80,15 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
 **Required role:** Analyst or Limited analyst
 
-You can use the Power BI Connector to connect to or import Workplace Analytics data and construct visualizations and build insights about the data in Power BI.
+The Power BI Connector automatically enforces the privacy rules configured in Workplace Analytics by providing aggregated query data in Power BI. It also automatically updates your Power BI visuals by using the same auto-refresh schedule set for the query in Workplace Analytics.  
 
-You can import specific metrics and person attributes from Workplace Analytics, or create and connect a new person or meeting query to define what metrics and attributes you want to connect to and analyze in Power BI.
-
-The Connector automatically enforces the privacy rules configured by the organization's Workplace Analytics admin by only providing and guarantees the freshness of any visualized data.
-
-> [!Note]
-> The Power BI Connector does not use results of previously-run queries. Instead, it creates Power BI visualizations by running aggregated queries of Workplace Analytics data on standard [Person metrics](metric-definitions.md#person-metrics). (Aggregated queries include groupings of metrics on one or more columns of organizational-data attributes, with aggregations such as Sum, Average, Min, and Max on the metric columns.)
+You can connect to aggregated, auto-refreshed data from custom Person or Meeting queries in Workplace Analytics, which include the metrics and attributes that you want to dynamically analyze and visualize within Power BI.
 
 #### Prerequisites
 
 ##### Power BI desktop
 
-If you don't already have Power BI Desktop, use the following steps to install it.
+Install the latest version of Power BI Desktop:
 
 1. Go to [PowerBI Desktop site](https://powerbi.microsoft.com/desktop/).
 2. Select **Download free** and follow the online instructions to install and launch it.
@@ -105,7 +100,6 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 #### Use the Power BI Connector
 
 1. In Power BI Desktop, select **Get Data**.
-
 2. Select **Online Services**, select **Workplace Analytics**, and then select **Connect**.
 3. Locate and copy the identifier of the currently selected Workplace Analytics partition. To do this, select the user icon in the top right of the page in Workplace Analytics, select **My information**, and then highlight and copy the **Partition identifier**.
 
@@ -117,15 +111,19 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
     To import Person metrics, continue to the next step. Or to connect to a custom person or meeting query:
 
-    a. Enter one or more keywords or the complete query name in **Query Name**.
-    b. Or enter the query's ID in **Query Identifier**:
+    * Enter one or more keywords or the complete query name in **Query Name**.
+    * Or enter the query's ID in **Query Identifier**:
 
-      * Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
-      * Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI:
+      a. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
+
+      b. Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI:
 
       ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
 
-5. Select the applicable data connectivity mode: **Direct Query** (recommended) or **Import**, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
+5. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
+
+   * **DirectQuery** (*recommended*) – As you create Power BI visuals, the Connector will provide the aggregated data to support them.  
+   * **Import** – Requires you to identify how you want to aggregate the data first. That data is then imported into Power BI and from there you can create your visualizations.  
 
 6. The first time you use the Power BI Connector for a partition ID, or when your authentication token expires, and you're prompted to sign in, select **Sign in**, enter your Office 365 credentials, and then select **Connect**:
 
@@ -133,13 +131,13 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
     ![Power BI Navigator](../images/wpa/use/pbi-navigator.png)
 
-In Power BI, you can use the Power Query Editor to shape and combine data and create visualizations with the available fields. For details about how to use Power BI, see [Power BI documentation](https://docs.microsoft.com/power-bi/).
+In Power BI, you can use the **Power Query Editor** to shape and combine data and create visualizations with the available fields. For details about how to use Power BI, see [Power BI documentation](https://docs.microsoft.com/power-bi/).
 
-The following is an example of a bar chart that shows an organization-wide analysis of collaboration hours and meeting hours trend.
+The following is an example of a chart that shows an organization-wide analysis of collaboration hours and meeting hours trend.
 
 ![Get Data button](../images/wpa/use/example-pbi-visual.png)
 
-After you have finished creating visualizations, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+After you have finished creating visuals, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
 ## Related topics
 

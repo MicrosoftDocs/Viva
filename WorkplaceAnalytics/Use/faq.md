@@ -193,7 +193,7 @@ A1. To change the meeting exclusion rule for use on the Explore dashboards, see 
 
 ##### Q2. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A2. The data can change based on what [Page settings](../use/explore-page-settings.md) are selected for the Explore or Solutions pages you are using, which are not necessarily considered filters, but can still show varying totals. For details, see [Page settings for meeting exclusions](../use/explore-metrics-external-collaboration.md#page-settings). For more details about measured employees, see [Office 365 data](office-365-data.md).
+A2. The data can change based on what [Page settings](../use/explore-page-settings.md) are selected for the Explore or Plans pages you are using, which are not necessarily considered filters, but can still show varying totals. For details, see [Page settings for meeting exclusions](../use/explore-metrics-external-collaboration.md#page-settings). For more details about measured employees, see [Office 365 data](office-365-data.md).
 
 ##### Q3. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 
