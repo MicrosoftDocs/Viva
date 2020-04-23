@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Explore Teams metrics in Workplace Analytics
 description: Overview of Teams collaboration metrics in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
-ms.date: 06/20/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -45,11 +42,11 @@ You can use the **Call hours** and **IM hours** filters in the Charts and in Pag
 
 ## Data sources includes Teams
 
-As part of Office 365 data, the **Data sources** page also provides a summary of Teams data that you can use to evaluate collaboration data levels over a given time period. It provides a view of average weekly call hours and instant messaging hours over time. The **Last refreshed** date shows when data was most recently processed.
+In **Sources** > **Office 365 data**, you'll see an **Average weekly collaboration hours by type** chart that includes the average weekly Teams call hours and instant messaging hours over time. The "Week of" date on that page shows when the Teams data was last processed in Workplace Analytics.
 
 Analysts can use these views to evaluate communication and collaboration trends and patterns for your organization.
 
-![Teams summary in Data sources](../images/wpa/Use/teams-data-source.png)
+![Teams summary in Data sources](../images/wpa/Use/teams-data.png)
 
 ## Teams data in queries
 
