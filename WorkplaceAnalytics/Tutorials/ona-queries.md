@@ -24,9 +24,9 @@ This query type lets analysts use a metric called _Influence_. This metric is a 
 ## Run a query to determine Influence
 
 1.	In Workplace Analytics, select **Analyze > Queries**.
-2.	Under **Start custom Organizational Network Analysis (ONA) query**, select **Person**:
+2.	Under **Start custom query**, select **Organizational network**:
 
-    ![ONA person query](../Images/WpA/Tutorials/ona-person-query.png)
+    ![ONA person query](../images/wpa/tutorials/ona-person-query-april.png)
 
 3.	Select and change **Enter query name here** to a name, and then enter a description for the query.
 4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
