@@ -22,6 +22,8 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 
 ## Run a query to determine Influence
 
+**Role:** analyst
+
 1.	In Workplace Analytics, select **Analyze > Queries**.
 2.	Under **Start custom query**, select **Organizational network**:
 
@@ -49,9 +51,11 @@ The following columns are included in the query results for ONA queries:
  * **Person ID.** De-identified ID number for the person represented in that data row.
   * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it'll be the first day of the month your data encompasses).
  * **Person attributes.** Attributes about the person supplied through the latest organizational (HR) data upload.
- * **Metrics.** Any metrics that you include in the query. For more information, see [Metric definition: Influence](#metric-definition-influence) and [ONA  metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
+ * **Metrics.** Any metrics that you include in the query. For more information, see [Metric definition: Influence](#metric-definition-influence).
 
  ## Metric definition: Influence
+
+ ONA queries make the _Influence_ metric available:
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
