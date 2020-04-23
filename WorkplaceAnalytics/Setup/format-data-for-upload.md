@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Format data for upload to Workplace Analytics
@@ -47,7 +45,7 @@ For these uploads, you can choose from among two file formats. The following sec
 > * CRM data: [Prepare the CRM source data](crm-data-upload.md#prepare-the-crm-source-data)
 -->
 <!-- 
-> * Upload groups for use in solutions: [Use a .csv file](../tutorials/solutions-conceptual.md#use-a-csv-file)  **[This link is a placeholder for now. This section will need to be rewritten.]**
+> * Upload groups for use in Plans: [Use a .csv file](../tutorials/solutions-conceptual.md#use-a-csv-file)  **[This link is a placeholder for now. This section will need to be rewritten.]**
 -->
 
 ## Format .xlsx files 
