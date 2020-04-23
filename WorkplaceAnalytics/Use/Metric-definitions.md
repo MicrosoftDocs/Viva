@@ -109,8 +109,12 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Meetings|Number of unique meetings that the time investor attended with one or more people in the collaborator group. |Group|Count|No|
 |Network size|Number of people in the collaborator group who had at least two meaningful interactions in the last 28 days with the time investor. This counts both licensed and unlicensed employees in the collaborator group. |Group|Count|No|
 
+<!-- RE-ADD THIS AFTER ONA QUERIES GO GA AND THE ONA QUERY TOPIC GETS UN-HIDDEN: 
+
 ## Organizational network analysis (ONA) metrics
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
 |Influence|A numeric score that indicates how well connected a person is within the company. A higher score means that the person is better connected and has greater potential to drive change.|ONA|Score|No|
+
+-->
