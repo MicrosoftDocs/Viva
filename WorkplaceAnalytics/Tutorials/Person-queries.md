@@ -44,9 +44,9 @@ You can use organizational attributes to further summarize the person results an
 
 ## Create a person query
 
-It’s simple to set up a person query.
+It's simple to set up a person query.
 
-* Select whether you want each person’s metrics summarized by day, week, or month, and the period you’d like to analyze.
+* Select whether you want each person's metrics summarized by day, week, or month, and the period you’d like to analyze.
 * Select a custom rule set to exclude meetings from the calculations, otherwise it'll use the default.
 
 ![Create person query](../images/wpa/tutorials/create-person-query.png)
@@ -82,27 +82,27 @@ In the results for person queries, the reporting for the working hours, after ho
 In a person query, analysts see additional information to help them determine disparities between the working days and hours settings Outlook and recommendations for the individual's group.
 -->
 
-### Analysts can make standardize settings
+### Analysts can make standardized settings
 
 In the **Dependencies** section of a person query, analysts can set the working days and hours that will be used the query they are currently authoring. 
 
-![Person query custom metric](../images/wpa/tutorials/dependencies-section.png)
+![Person query custom metric](../images/wpa/tutorials/dependencies-section-85.png)
 
 This lets them benchmark the metrics calculations by using one standard set of values of working hours and days, with the goal of achieving apples-to-apples comparisons. Settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or any users’ settings in Outlook or elsewhere.  
 
 ### Columns in query results
 
-The output of person queries will automatically do the following: 
+The output of person queries automatically contains information that pertains to these standardized settings: 
 
-* Contain columns that show the working start time, working end time, and working days that were used in the query’s calculations
-* Indicate which metrics used working hours in the query's calculations 
- * Indicate whether the standardized settings were used in the query's calculations
+* It contains columns that show the working start time, working end time, and working days that were used in the query's calculations.
+* It indicates which metrics used working hours in the query's calculations. 
+* It indicates whether the standardized settings were used in the query's calculations.
 
 ## Select filters
 
 You can select which measured employees you want to include in your query results. For **Employees**, select if you want active, inactive, or all employees included in the query. Active employees are those who sent at least one email during the set time period (the aggregated period set for the query).
 
-You can then select other filters to exclude certain rows from the output file based on a person’s organizational attributes, such as function type. For example, the following filter will only list people from the Operations and Sales groups.
+You can then select other filters to exclude certain rows from the output file based on a person's organizational attributes, such as function type. For example, the following filter will only list people from the Operations and Sales groups.
 
 ![Person query filter](../images/wpa/tutorials/query-filter.png)
 
