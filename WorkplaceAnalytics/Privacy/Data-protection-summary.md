@@ -16,7 +16,7 @@ audience: Admin
 
 ## Workplace Analytics and data protection in your organization
 
-Microsoft Workplace Analytics analyzes email, meeting, call, and instant message data from Office 365 and organizational (HR) data that you provide. This data pertains to individuals, who have a right to understand how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it.
+Microsoft Workplace Analytics analyzes email, meeting, call, and instant message data from Office 365 collaboration data and organizational (HR) data that you provide. This data pertains to individuals, who have a right to understand how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it.
 
 > [!Note]
 > For more in-depth information, see [Data-protection considerations when using Workplace Analytics ](Data-protection-considerations.md).
@@ -29,13 +29,13 @@ The concepts of _data controller_, _data processor_, and _data subject_ provide 
 
 * **Microsoft’s role: Data processor.** The data processor is a party that processes personal data on behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor. For more information, see [Data processor](Data-protection-considerations.md#microsofts-role-data-processor).
 
-* **Data subject and personal data.** A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
+* **Data subject and personal data.** A data subject is an individual who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
 ## Data-privacy recommendations
 
 Consider implementing the following data-privacy recommendations before you begin using Workplace Analytics.
 
-* **Decide which data types to include:** Before you start an analysis in Workplace Analytics, consider whether you must include personal data or whether you could use other data that cannot be used to identify specific individuals. For more information, see [Types of data for analysis in Workplace Analytics](Data-protection-considerations.md#types-of-data-for-analysis-in-workplace-analytics). 
+* **Decide which data types to include:** Before you start an analysis in Workplace Analytics, consider whether you must include personal data or whether you could use other data that cannot be used to identify specific individuals. For more information, see [Types of data for analysis in Workplace Analytics](Data-protection-considerations.md#types-of-data-for-analysis-in-workplace-analytics).
 
 * **Develop a clear analysis plan:** You must understand clearly what you want to analyze and why. After you determine what specific questions about your organization you want to answer, consider how Workplace Analytics might help you find those answers. For more information, see [Develop a clear analysis plan](Data-protection-considerations.md#develop-a-clear-analysis-plan).
 

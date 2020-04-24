@@ -59,7 +59,7 @@ You can see histogram charts in the following pages in Workplace Analytics:
 
 ## Hash subject lines
 
-You can help maintain employee privacy by hiding the subject lines of meetings, emails, calls, and chats. There are privacy and data analysis trade-offs for each scenario. The following information can help you determine whether or not you want to hide subject lines in your queries.  
+You can help maintain employee privacy by hiding the subject lines of meetings and emails. There are privacy and data analysis trade-offs for each scenario. The following information can help you determine whether or not you want to hide subject lines in your queries.  
 
 When you select **Yes** for **Hash subject lines**, the subject lines are changed to hashed values (a system-generated number), so the text in subject lines will not be readable in any queries.
 
