@@ -88,13 +88,15 @@ In the **Dependencies** section of a person query, analysts can set the working 
 
 ![Person query custom metric](../images/wpa/tutorials/dependencies-section.png)
 
-This lets them benchmark the metrics calculations by using one standard set of values of working hours and days, with the goal of achieving apples-to-apples comparisons. Settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or any users’ settings in Outlook or elsewhere. 
+This lets them benchmark the metrics calculations by using one standard set of values of working hours and days, with the goal of achieving apples-to-apples comparisons. Settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or any users’ settings in Outlook or elsewhere.  
 
 ### Columns in query results
 
-The output of person queries will automatically contain columns that show the working start time, working end time, and working days that were used in the query’s calculations. 
+The output of person queries will automatically do the following: 
 
-The downloaded query-results report will indicate to analysts which metrics used working hours in calculations and whether the standardized settings were applied in the calculations for that report.
+* Contain columns that show the working start time, working end time, and working days that were used in the query’s calculations
+* Indicate which metrics used working hours in the query's calculations 
+ * Indicate whether the standardized settings were used in the query's calculations
 
 ## Select filters
 
