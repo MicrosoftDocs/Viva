@@ -16,7 +16,7 @@ audience: Admin
 
 ## Workplace Analytics and data protection in your organization
 
-Microsoft Workplace Analytics produces powerful insights about how your organization functions. It does this by analyzing email, meeting, calls, and instant message data from Office 365 and organizational data that you provide. Given the novelty of the Workplace Analytics service and the potential sensitivity about how data could be used, successful implementation and use of Workplace Analytics require careful thought and planning with regard to data protection.  
+Microsoft Workplace Analytics produces powerful insights about how your organization functions. It does this by analyzing Office 365 collaboration data and organizational (HR) data that you provide. Given the novelty of the Workplace Analytics service and the potential sensitivity about how data could be used, successful implementation and use of Workplace Analytics require careful thought and planning with regard to data protection.  
 
 This section provides a basic overview of roles, responsibilities, types of data, and data-privacy recommendations. The general suggestions offered here are a starting point for planning your data-protection strategy and deployment. They are not intended as a substitute for addressing your organization’s unique needs by engaging with legal, privacy, human-resources, and other subject matter experts within your organization.
 
@@ -43,7 +43,7 @@ As a data controller, your organization should:
 * Determine the scope of data to analyze and the purpose and objectives of the analysis.
 * Work with your organization’s legal, privacy, and human resources teams to do the following:
 
-  * Determine whether you should obtain consent from employees in your company; 
+  * Determine whether you should obtain consent from employees in your company;
   * Determine what information you provide to employees about how your organization will process their personal data in Workplace Analytics; and
   * Take local considerations into account (for example, obtain approval from local works councils, if applicable).
 
@@ -68,7 +68,7 @@ As a data processor, Microsoft will:
 A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
 > [!Note]
-> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user" or an "employee."
+> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user," a "person," an "individual," or an "employee."
 
 ## Types of data for analysis in Workplace Analytics
 
@@ -78,7 +78,7 @@ Your organization might have its own data-classification system, but you might w
 
 | Privacy risk | Data type | Definition | Examples in Workplace Analytics |
 | ------------ | --------- | ---------- | ----- |
-| Highest | Personal data | Personal data is information that directly or indirectly identifies a person | By default, Workplace Analytics does not show email addresses  or other information from Office 365 that directly identifies an individual in any in-product dashboard or query result. However, it does show information from the organizational dataset that your organization provides for analysis. Thus, if you upload organizational data that includes personal data (for example, employee names and identification numbers), that personal data will appear in in-product dashboards and query results. |
+| Highest | Personal data | Personal data is information that directly or indirectly identifies a person | By default, Workplace Analytics does not show email addresses or other information from Office 365 that directly identifies an individual in any in-product dashboard or query result. However, it does show information from the organizational dataset that your organization provides for analysis. Thus, if you upload organizational data that includes personal data (for example, employee names and identification numbers), that personal data will appear in in-product dashboards and query results. |
 | Higher | Pseudonymized data | Pseudonymized data is information in which a personal identifier has been replaced with a value that does not directly identify a person (such as a numeric identifier that can no longer be attributed to a specific person without the use of additional information). | Workplace Analytics automatically replaces email addresses with pseudonyms (cryptographically obscured strings of numbers and letters) in the Office 365 collaboration data that you choose to include for analysis. Using pseudonyms can reduce the likelihood that you will identify a specific person, but the risk of identification remains. |
 | Lower | Aggregated data | Aggregated data is information that is computed from multiple individuals or sources. | Workplace Analytics calculates averages across your organization. Since the averages are calculated from data sourced from many people, it becomes nearly impossible to derive information about a specific person’s activity. The likelihood of identifying someone from aggregated data depends on the size of the sample. When you implement Workplace Analytics for your organization, you must select the sample-size threshold for aggregation. Smaller sample sizes (such as fewer than ten people) might reveal some insights about individual activity, especially when the individuals are known, and other information (for example, whether the individual was on vacation) can be correlated with changes in the averages over time. |
 | Lowest | Anonymized data | Anonymized data is information that does not relate to a specific individual, that does not increase the likelihood that a specific individual can be identified, or that has been rendered in a way so that it cannot be used to identify a specific individual. | When you use the default settings in Workplace Analytics, all the computed metrics that are the output of an analysis will be anonymized data. |
@@ -148,7 +148,7 @@ To learn more about privacy, see [Workplace Analytics privacy and data access](.
 
 You control what other information you want to be included in Workplace Analytics analyses.
 
-To enable analysis along organizational lines, you can provide HR data such as disciplines, titles, locations, and managers. Workplace Analytics ensures that individual identities are never used in analyzing this information. However, it is important to take care to prevent incidental identification of users based on personal data such as names, employee identification numbers, or specific office locations. Additionally, consider risks of including attributes whose specific values may identify some individuals directly (such as the title field containing CEO), or may reduce the set of individuals below the aggregation thresholds that make individuals easily identifiable (for example, there may only be only a small number of Directors).
+To enable analysis along organizational lines, you can provide HR data such as disciplines, titles, locations, and managers. Workplace Analytics ensures that individual identities are never used in analyzing this information. However, it is important to take care to prevent incidental identification of users based on personal data, such as names, employee identification numbers, or specific office locations. Additionally, consider risks of including attributes whose specific values may identify some individuals directly (such as the title field containing CEO), or may reduce the set of individuals below the aggregation thresholds that make individuals easily identifiable (for example, there may only be only a small number of Directors).
 
 ### Who can see the data
 
