@@ -12,17 +12,19 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Introduction 
+# Introduction
 
-If your organization uses Workplace Analytics, you might find the following  articles, which cover aspects of data-protection, privacy, and data access, to be of interest:
+If your organization uses Workplace Analytics, you might find the following articles, which cover aspects of data-protection, privacy, and data access, to be of interest:
 
- * [Roles and responsibilities](data-protection-considerations.md#roles-and-responsibilities). Read about the concepts of [data controller](data-protection-considerations.md#your-organizations-role-data-controller), [data processor](data-protection-considerations.md#microsofts-role-data-processor), and [data subject](data-protection-considerations.md#data-subject-and-personal-data), and their origins in European privacy law. 
+* [Roles and responsibilities](data-protection-considerations.md#roles-and-responsibilities) - Read about the concepts of [data controller](data-protection-considerations.md#your-organizations-role-data-controller), [data processor](data-protection-considerations.md#microsofts-role-data-processor), and [data subject](data-protection-considerations.md#data-subject-and-personal-data), and their origins in European privacy law.
 
- * [Types of data for analysis in Workplace Analytics](data-protection-considerations.md#types-of-data-for-analysis-in-workplace-analytics). This section provides an overview of the different types of data that can be included and used in calculations.  
- 
- * [Data-privacy recommendations](data-protection-considerations.md#data-privacy-recommendations). These are guidelines that we have developed, based on our work with customers, workers councils, and legal and privacy teams around the world. 
+* [Types of data for analysis in Workplace Analytics](data-protection-considerations.md#types-of-data-for-analysis-in-workplace-analytics) - This section provides an overview of the different types of data that can be included and used in calculations.  
 
- * [Decide what data is used by Workplace Analytics and who gets to see it](data-protection-considerations.md#decide-what-data-is-used-by-workplace-analytics-and-who-gets-to-see-it). This section describes the adjustments that you can make, such as how to change the data that your organization provides or how to keep sensitive data (such as confidential email or meetings with particular subject lines) from becoming available for analysis.  
+* [Data-privacy recommendations](data-protection-considerations.md#data-privacy-recommendations) - These are guidelines that we have developed, based on our work with customers, workers councils, and legal and privacy teams around the world.
+
+* [Differential privacy](differential-privacy.md) - Describes what differential privacy is and how Workplace Analytics uses it to keep individual data private.
+
+* [Decide what data is used by Workplace Analytics and who gets to see it](data-protection-considerations.md#decide-what-data-is-used-by-workplace-analytics-and-who-gets-to-see-it). This section describes the adjustments that you can make, such as how to change the data that your organization provides or how to keep sensitive data (such as confidential email or meetings with particular subject lines) from becoming available for analysis.  
 
 ## Related topics
 
