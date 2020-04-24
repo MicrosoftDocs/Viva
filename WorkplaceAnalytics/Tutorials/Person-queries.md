@@ -76,19 +76,19 @@ To get more details on adding metric filters, see [Customize a metric](../tutori
 
 ## Standardize working hours
 
-In the results for person queries, the reporting for the working hours, after hours, and focus hours metrics is influenced by the working hours that individuals have set in Outlook. This causes errors in calculation if individuals have set unusually long working hours. To avoid this problem, analysts can standardize working hours for a query's calculations of these metrics.
+In the results for person queries, the reporting for the working hours, after hours, and focus hours metrics is influenced by the working hours that individuals have set in Outlook. This can cause calculation erors if individuals have set unusually long working hours. To avoid this problem, analysts can standardize the working hours that a query uses to calculate these metrics.
 
 <!-- Not sure about this part -- Find out from Richa
 In a person query, analysts see additional information to help them determine disparities between the working days and hours settings Outlook and recommendations for the individual's group.
 -->
 
-### Analysts can make standardized settings
+### Analysts can standardize settings
 
-In the **Dependencies** section of a person query, analysts can set the working days and hours that will be used the query they are currently authoring. 
+In the **Dependencies** section of a person query, analysts can set the working days and hours that that query will use in its calculations.  
 
 ![Person query custom metric](../images/wpa/tutorials/dependencies-section-85.png)
 
-This lets them benchmark the metrics calculations by using one standard set of values of working hours and days, with the goal of achieving apples-to-apples comparisons. Settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or any users’ settings in Outlook or elsewhere.  
+This lets analysts benchmark metrics calculations by using one standard set of values for working hours and days, with the goal of achieving apples-to-apples comparisons. The settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or in any user's settings in Outlook or elsewhere.  
 
 ### Columns in query results
 
