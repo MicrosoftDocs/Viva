@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Data-protection considerations summary when using Workplace Analytics 
 description: Data-protection considerations summary for Workplace Analytics

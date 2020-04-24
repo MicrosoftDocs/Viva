@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Data-protection in Workplace Analytics -- Introduction 
 description: Introduction to the section on Data-protection considerations for Workplace Analytics
