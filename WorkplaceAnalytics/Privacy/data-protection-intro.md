@@ -29,11 +29,12 @@ If your organization uses Workplace Analytics, you might find the following arti
 ## Related topics
 
 Workplace Analytics
- * For leaders, admins, PMs, and analysts: [Data-protection considerations](data-protection-considerations.md)
- * For leaders, admins, and analysts: [Data access after license expiration](license-expiration.md)
- * For admins and analysts: [Workplace Analytics privacy and data access](Privacy-And-Data-Access.md)
+
+* For leaders, admins, program managers, group or people managers, and analysts: [Data-protection considerations](data-protection-considerations.md)
+* For leaders, admins, and analysts: [Data access after license expiration](license-expiration.md)
+* For admins and analysts: [Workplace Analytics privacy and data access](Privacy-And-Data-Access.md)
 
 MyAnalytics
+
  * For admins: [Privacy guide for MyAnalytics admins](../myanalytics/overview/privacy-guide.md)
  * For users: [Privacy guide for MyAnalytics users](../myanalytics/overview/privacy-guide-users.md)
-

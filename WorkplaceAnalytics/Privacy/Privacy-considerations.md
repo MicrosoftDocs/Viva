@@ -59,7 +59,7 @@ You can see histogram charts in the following pages in Workplace Analytics:
 
 ## Hash subject lines
 
-You can help maintain employee privacy by hiding the subject lines of meetings and emails. There are privacy and data analysis trade-offs for each scenario. The following information can help you determine whether or not you want to hide subject lines in your queries.  
+You can help maintain employee privacy by hiding the subject lines of meetings, emails, calls, and chats. There are privacy and data analysis trade-offs for each scenario. The following information can help you determine whether or not you want to hide subject lines in your queries.  
 
 When you select **Yes** for **Hash subject lines**, the subject lines are changed to hashed values (a system-generated number), so the text in subject lines will not be readable in any queries.
 
@@ -67,7 +67,7 @@ If you choose to hash subject lines, you can still create queries based keywords
 
 #### Example: Hashed subject lines
 
-With **Hash subject lines** turned on, you can run a meeting query with the subject-line keyword “All-hands,” and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. 
+With **Hash subject lines** turned on, you can run a meeting query with the subject-line keyword “All-hands,” and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line.
 
 However, you could not get a specific list (one line item for each meeting) of all the meetings with the subject line “All-hands.”
 
@@ -123,6 +123,5 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 ### Related topics
 
-[Workplace Analytics settings ](../Use/Settings.md)
-
-[Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)
+* [Workplace Analytics settings ](../Use/Settings.md)
+* [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)
