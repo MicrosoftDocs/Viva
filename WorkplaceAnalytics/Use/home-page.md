@@ -37,18 +37,24 @@ For example, do your employees have time to focus on their work? Research shows 
 
 ## Customer focus
 
+Companies with a customer-focused mindset can foster positive customer experience and improve business growth.
+
+Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
+
+<!-- Text replaced 25 April 2020
 Show your customers you value them and their business by creating deep connections.
 
 For example, are your employees engaged often and deeply with customers? Research shows that fully engaged customers deliver a 23 percent premium over average in share of wallet, profitability, revenue, and relationship growth.
+-->
 
-![Customer focus](../images/wpa/use/customer-focus.png)
+![Customer focus](../images/wpa/use/customer-focus-sm.png)
 
 ## Supporting evidence and Best practices
 
 Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
 
-* Industry experts based on research.
-* Organizations that have effectively used Workplace Analytics to improve their business outcomes.
+* Industry experts based on research
+* Organizations that have effectively used Workplace Analytics to improve their business outcomes
 
 ## Explore the stats
 
@@ -69,6 +75,8 @@ The following describes the metrics used in each of the business insight questio
 
 |Question |Metric description  |
 |---------|--------------------|
+| Are employees building customer networks? | _External network_ is the number of people external to the company with whom the employee had at least two meaningful interactions in a month. This insight highlights employees who have had more than five connections with external people in a month. |  
+| How is the customer collaboration in your company? | _External collaboration hours_ is the number of hours employees spend in meetings and emails with at least one person outside the company. This insight highlights the groups that spend large proportion of their overall collaboration with people outside the company. | 
 |Are employees getting enough time with their managers? |One-on-one time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Are employees working after hours? |After-hours work is the number of hours employees spend in meetings and on email outside of working hours. This uses the working hours set in the employee's Outlook calendar settings. |
 |Are employees overwhelmed by email? |Employees that spend over 10 hours in email each week. Email workload is the number of hours employees spend sending and receiving email.|
