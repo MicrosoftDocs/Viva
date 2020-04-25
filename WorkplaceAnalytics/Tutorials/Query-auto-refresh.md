@@ -95,14 +95,14 @@ Two circumstances can cause Workplace Analytics to turn off the auto-refresh opt
  * [Columns missing from organizational data](#columns-missing-from-organizational-data)
  * [Excluded or masked columns](#excluded-or-masked-columns)
 
- Both of these schema-mismatch circumstances present opportunities for admins and for analysts to respond. See the following sections:
+ Both of these circumstances present opportunities for admins and for analysts to respond, as described in the following sections:
 
   * [Options for admins](#options-for-admins)
   * [Options for analysts](#options-for-analysts)
 
 #### Columns missing from organizational data
 
-Admins regularly upload files that contain organizational data. In one upload step, they can choose whether to append the new organizational data to the existing data, or to replace the existing organizational data with the new data.
+Admins regularly upload files that contain organizational data. In one of the upload steps, they can choose whether to append the new organizational data to the existing data, or to replace the existing organizational data with the new data.
  
 If the admin chooses "replace," they can retain the existing data schema or use a new one. Introduce the new schema can cause a data-schema mismatch with the original schema. This happens, for example, when the new schema is missing one or more columns that were present in the old schema. 
 
