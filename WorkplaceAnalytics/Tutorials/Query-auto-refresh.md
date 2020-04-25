@@ -3,10 +3,9 @@
 # required metadata
 
 title: Use the auto-refresh option for queries in Workplace Analytics 
-description: Describes the auto-refresh option for queries in Workplace Analytics.     
+description: Describes the auto-refresh option for queries in Workplace Analytics
 author: paul9955
 ms.author: v-pascha
-ms.date: 08/12/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -80,6 +79,7 @@ Alternatively, you can renew an auto-refresh query in the [notifications panel](
 ### Maximum number of auto-refresh queries
 
 Generally, an organization can have a maximum of 20 auto-refresh queries. If your organization has already reached this limit and you need a new auto-refresh query, you have the following options: 
+
  * Delete an existing auto-refresh query or turn auto-refresh off for a query (on the **Queries > Results** page). Then, create your new auto-refresh query.
  * Contact Workplace Analytics to request additional auto-refresh queries. To do this, follow the instructions in the "Workplace Analytics Support" row under [Get support](../overview/getting-support.md).
 
@@ -87,6 +87,56 @@ Generally, an organization can have a maximum of 20 auto-refresh queries. If you
 > [!Note] 
 > Auto-refresh queries respect partitions. (A partition is a data workspace for an analyst.) This means that if other analysts&mdash;who work within their own partitions&mdash;have created a total of fifteen auto-refresh queries, five auto-refresh queries remain for you to use. 
 -->
+
+### System turns off the auto-refresh option
+
+Two circumstances can cause Workplace Analytics to turn off the auto-refresh option for a query:
+
+ * [Columns missing from organizational data](#columns-missing-from-organizational-data)
+ * [Excluded or masked columns](#excluded-or-masked-columns)
+
+ Both of these schema-mismatch circumstances present opportunities for admins and for analysts to respond. See the following sections:
+
+  * [Options for admins](#options-for-admins)
+  * [Options for analysts](#options-for-analysts)
+
+#### Columns missing from organizational data
+
+Admins regularly upload files that contain organizational data. In one upload step, they can choose whether to append the new organizational data to the existing data, or to replace the existing organizational data with the new data.
+ 
+If the admin chooses "replace," they can retain the existing data schema or use a new one. Introduce the new schema can cause a data-schema mismatch with the original schema. This happens, for example, when the new schema is missing one or more columns that were present in the old schema. 
+
+If a query that is set to auto-refresh uses a column that is missing in the new schema, Workplace Analytics turns the auto-refresh option for this query to off. 
+
+#### Excluded or masked columns
+
+Query results typically include multiple columns of data. Admins can set the report options for a query in ways that affect the inclusion and display of these columns. For example, they can set a column to "Exclude from report" (which omits the column) or to "Hash in report" (which masks the true value with a meaningless value for display). 
+
+If a query set to auto-refresh uses a column that becomes excluded or hashed, Workplace Analytics turns the auto-refresh option for this query to off. 
+
+#### Options for admins
+
+If either of these schema-mismatch situations arises, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect execution of the auto refresh queries." 
+
+If you see this message, go to [If expected columns are missing or excluded](../setup/upload-organizational-data.md#if-expected-columns-are-missing-or-excluded) for more information.
+
+#### Options for analysts 
+
+If either of these schema-mismatch situations arises, Workplace Analytics notifies you in various ways. You can then change the affected auto-refresh queries to run them again or access the results of the query's most recent completed run.
+
+ * On the **Results** page, it shows a "stopped" icon in the **Status** column for each query that has been stopped:
+
+   ![Turn off auto-refresh status](../images/wpa/tutorials/recurring-query-statuses-2.png) 
+
+   (A yellow icon is shown for non-auto refresh queries that, as a result of the schema changes, also cannot run.) 
+   
+   In each case, you can hover over the tool-tip to see more information. 
+
+ * In the **Select filters** and **Organizational data** areas of a query-authoring page, it shows the filters and the output columns that are no longer present: 
+
+   ![Turn off auto-refresh status](../images/wpa/tutorials/view-removed-columns-notice.png) 
+
+   In most cases, you can re-run the queries in their new state, with columns missing. 
 
 ## View query results with the auto-refresh option
 
