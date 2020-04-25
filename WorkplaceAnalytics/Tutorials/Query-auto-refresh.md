@@ -108,9 +108,9 @@ If the admin chooses "replace," they can retain the existing data schema or use 
 
 If a query that is set to auto-refresh uses a column that is missing in the new schema, Workplace Analytics turns the auto-refresh option for this query to off. 
 
-#### Excluded or masked columns
+#### Excluded or hashed columns 
 
-Query results typically include multiple columns of data. Admins can set the report options for a query in ways that affect the inclusion and display of these columns. For example, they can set a column to "Exclude from report" (which omits the column) or to "Hash in report" (which masks the true value with a meaningless value for display). 
+While uploading organizational data, admins can set report options in ways that affect the inclusion and display of data columns. For example, they can set a column to "Exclude from report" (which omits the column) or to "Hash in report" (which masks the true value with a meaningless value). 
 
 If a query set to auto-refresh uses a column that becomes excluded or hashed, Workplace Analytics turns the auto-refresh option for this query to off. 
 
@@ -130,13 +130,13 @@ If either of these schema-mismatch situations arises, Workplace Analytics notifi
 
    (A yellow icon is shown for non-auto refresh queries that, as a result of the schema changes, also cannot run.) 
    
-   In each case, you can hover over the tool-tip to see more information. 
+   In each case, you can hover over the tooltip to see more information. 
 
- * In the **Select filters** and **Organizational data** areas of a query-authoring page, it shows the filters and the output columns that are no longer present: 
+ * In the **Select filters** and **Organizational data** areas of a query-authoring page, it shows the filters and the output columns that are no longer present:  
 
    ![Turn off auto-refresh status](../images/wpa/tutorials/view-removed-columns-notice.png) 
 
-   In most cases, you can re-run the queries in their new state, with columns missing. 
+   In many cases, you can still manually run the queries for which auto-refresh has been turned off, but if columns are missing, the query's results will likely be less complete than if the columns were present.  
 
 ## View query results with the auto-refresh option
 
