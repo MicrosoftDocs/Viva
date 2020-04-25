@@ -88,7 +88,7 @@ Generally, an organization can have a maximum of 20 auto-refresh queries. If you
 > Auto-refresh queries respect partitions. (A partition is a data workspace for an analyst.) This means that if other analysts&mdash;who work within their own partitions&mdash;have created a total of fifteen auto-refresh queries, five auto-refresh queries remain for you to use. 
 -->
 
-### System turns off the auto-refresh option
+### System turns off a query's auto-refresh option
 
 Two circumstances can cause Workplace Analytics to turn off the auto-refresh option for a query:
 
@@ -102,9 +102,9 @@ Two circumstances can cause Workplace Analytics to turn off the auto-refresh opt
 
 #### Columns missing from organizational data
 
-Admins regularly upload files that contain organizational data. In one of the upload steps, they can choose whether to append the new organizational data to the existing data, or to replace the existing organizational data with the new data.
+Admins regularly upload files that contain organizational data. In one of the upload steps, they choose whether to append the new organizational data to the existing data, or to replace the existing organizational data with the new data.
  
-If the admin chooses "replace," they can retain the existing data schema or use a new one. Introduce the new schema can cause a data-schema mismatch with the original schema. This happens, for example, when the new schema is missing one or more columns that were present in the old schema. 
+If the admin chooses "replace," they can retain the existing data schema or use a new one. Introducing a new data schema can cause a schema mismatch with the original schema. This happens, for example, when the new schema is missing one or more columns that were present in the old schema. 
 
 If a query that is set to auto-refresh uses a column that is missing in the new schema, Workplace Analytics turns the auto-refresh option for this query to off. 
 
