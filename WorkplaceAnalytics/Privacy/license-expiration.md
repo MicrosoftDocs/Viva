@@ -50,7 +50,7 @@ After this period has passed, you will no longer have access to the Workplace An
 2. Select **Analyze** > **Queries** > **Results** to see previously run queries.
 3. In the row of a particular query, select **Download** to download query results in a .csv file, which is archived as a .zip file.
 
-## Related topics
+## Related topic
 
 [Get support](../overview/getting-support.md)
 
