@@ -47,9 +47,8 @@ After this period has passed, you will no longer have access to the Workplace An
 #### To download query results
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
-2. In the left navigation, expand **Analyze** and then select the **Queries** page.
-3. Select **Results**. The Results page displays previously run queries.
-4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file.
+2. Select **Analyze** > **Queries** > **Results** to see previously run queries.
+3. In the row of a particular query, select **Download** to download query results in a .csv file, which is archived as a .zip file.
 
 ## Related topics
 
