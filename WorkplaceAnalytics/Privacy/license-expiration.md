@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Data retention policy
 description: Accessing your organization's data after expiration of Workplace Analytics subscriptions or removal of licenses
@@ -16,19 +14,19 @@ audience: Admin
 
 # Data retention policy
 
-How long does Workplace Analytics retain the data that it has collected? The answer depends on the state of the Workplace Analytics user licenses: 
+How long does Workplace Analytics retain the data that it has collected? The answer depends on the state of the Workplace Analytics user licenses:
 
- * [Data retention for active tenants](#data-retention-for-active-tenants)
- * [Data retention after a license is removed](#data-retention-after-a-license-is-removed)
- * [Data retention and access after all Workplace Analytics subscriptions expire](#data-retention-and-access-after-all-workplace-analytics-subscriptions-expire)
+* [Data retention for active tenants](#data-retention-for-active-tenants)
+* [Data retention after a license is removed](#data-retention-after-a-license-is-removed)
+* [Data retention and access after all Workplace Analytics subscriptions expire](#data-retention-and-access-after-all-workplace-analytics-subscriptions-expire)
 
 ## Data retention for active tenants
 
-An active tenant is tenant that has one or more valid Workplace Analytics user licenses. 
+An active tenant is tenant that has one or more valid Workplace Analytics user licenses.
 
 By default, Workplace Analytics initially collects, processes, and retains 13 months' worth of data. Then, through weekly refreshes, Workplace Analytics increases this history until 27 months' worth of data is collected. After this point, older collaboration data is deleted as newer collaboration data is collected.
 
-This means that Workplace Analytics will not have any collaboration data that is older than 27 months. 
+This means that Workplace Analytics will not have any collaboration data that is older than 27 months.
 
 Customers can file a request to initiate Workplace Analytics with less than 13 months of data; in that case, the minimum amount that can be collected is one month.
 

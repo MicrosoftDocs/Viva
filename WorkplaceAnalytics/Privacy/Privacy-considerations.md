@@ -67,7 +67,7 @@ If you choose to hash subject lines, you can still create queries based keywords
 
 #### Example: Hashed subject lines
 
-With **Hash subject lines** turned on, you can run a meeting query with the subject-line keyword “All-hands,” and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. 
+With **Hash subject lines** turned on, you can run a meeting query with the subject-line keyword “All-hands,” and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line.
 
 However, you could not get a specific list (one line item for each meeting) of all the meetings with the subject line “All-hands.”
 
@@ -123,6 +123,5 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 ### Related topics
 
-[Workplace Analytics settings ](../Use/Settings.md)
-
-[Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)
+* [Workplace Analytics settings ](../Use/Settings.md)
+* [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)

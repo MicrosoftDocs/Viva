@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Pseudonymized Data and Workplace Analytics
 description: Pseudonymized data in Workplace Analytics
 author: rodonahu
 ms.author: v-midehm
-ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
