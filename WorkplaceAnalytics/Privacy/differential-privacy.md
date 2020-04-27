@@ -16,11 +16,9 @@ audience: Admin
 
 Workplace Analytics is serious about protecting individual privacy. Privacy can always be guaranteed if no information is revealed, which is not very useful. Similarly, making all information available can lead to high-fidelity metrics that compromise individual privacy. Differential privacy offers a balance between providing useful information and protecting individual privacy.
 
-Workplace Analytics uses cutting-edge methods from world-class researchers to apply differential privacy. By introducing slight variations to the data, it protects privacy while still maintaining accuracy. The methods are more sophisticated than that, with numerous options toward balancing fidelity and privacy.
+Workplace Analytics uses cutting-edge methods from world-class researchers to apply differential privacy. By introducing slight variations to the data, it protects privacy while simultaneously maintaining accuracy. The methods are more sophisticated than this simple description, with numerous options toward balancing fidelity and privacy.
 
-Differential privacy is a technology that allows researchers and analysts to pull useful information from databases containing personal information while simultaneously protecting individual privacy.
-
-The first application of differential privacy is with [Insights for people managers](../use/pm-home.md). Workplace Analytics enables you, as an organizational leader to understand how the people in your organization function by using collaboration data, including email, meetings, chats, and instant messages. For details, see [Workplace Analytics metric descriptions](../use/metric-definitions.md).
+The first application of differential privacy in Workplace Analytics is in [Insights for people managers](../use/pm-home.md). These enable managers to understand how the people in their team are doing by using aggregated collaboration data, based on email, meetings, calls, and instant messages. For more details, see [Workplace Analytics metric descriptions](../use/metric-definitions.md).
 
 When computing these metrics, individuals cannot be identified in the data. No matter how these metrics are presented or used, no individual activity or metric can ever be discerned. The individual activity can never be established with certainty, and no manager or team-leader can conclude with confidence anything specific about any individual.
 
