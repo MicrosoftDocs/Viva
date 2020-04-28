@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Data retention policy
 description: Accessing your organization's data after expiration of Workplace Analytics subscriptions or removal of licenses
@@ -16,19 +14,19 @@ audience: Admin
 
 # Data retention policy
 
-How long does Workplace Analytics retain the data that it has collected? The answer depends on the state of the Workplace Analytics user licenses: 
+How long does Workplace Analytics retain the data that it has collected? The answer depends on the state of the Workplace Analytics user licenses:
 
- * [Data retention for active tenants](#data-retention-for-active-tenants)
- * [Data retention after a license is removed](#data-retention-after-a-license-is-removed)
- * [Data retention and access after all Workplace Analytics subscriptions expire](#data-retention-and-access-after-all-workplace-analytics-subscriptions-expire)
+* [Data retention for active tenants](#data-retention-for-active-tenants)
+* [Data retention after a license is removed](#data-retention-after-a-license-is-removed)
+* [Data retention and access after all Workplace Analytics subscriptions expire](#data-retention-and-access-after-all-workplace-analytics-subscriptions-expire)
 
 ## Data retention for active tenants
 
-An active tenant is tenant that has one or more valid Workplace Analytics user licenses. 
+An active tenant is tenant that has one or more valid Workplace Analytics user licenses.
 
 By default, Workplace Analytics initially collects, processes, and retains 13 months' worth of data. Then, through weekly refreshes, Workplace Analytics increases this history until 27 months' worth of data is collected. After this point, older collaboration data is deleted as newer collaboration data is collected.
 
-This means that Workplace Analytics will not have any collaboration data that is older than 27 months. 
+This means that Workplace Analytics will not have any collaboration data that is older than 27 months.
 
 Customers can file a request to initiate Workplace Analytics with less than 13 months of data; in that case, the minimum amount that can be collected is one month.
 
@@ -49,11 +47,10 @@ After this period has passed, you will no longer have access to the Workplace An
 #### To download query results
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
-2. In the left navigation, expand **Analyze** and then select the **Queries** page.
-3. Select **Results**. The Results page displays previously run queries.
-4. In the row of a particular query, select **Download**. The query results are downloaded in a .csv file which is archived into a .zip file.
+2. Select **Analyze** > **Queries** > **Results** to see previously run queries.
+3. In the row of a particular query, select **Download** to download query results in a .csv file, which is archived as a .zip file.
 
-## Related topics
+## Related topic
 
 [Get support](../overview/getting-support.md)
 
