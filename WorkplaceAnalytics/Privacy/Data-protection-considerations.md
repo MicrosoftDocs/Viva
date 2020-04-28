@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Data-protection considerations when using Workplace Analytics  
 description: Data-protection considerations when using Workplace Analytics.
@@ -20,7 +18,7 @@ audience: Admin
 
 ## Workplace Analytics and data protection in your organization
 
-Microsoft Workplace Analytics produces powerful insights about how your organization functions. It does this by analyzing email and meeting data from Office 365 and organizational data that you provide. Given the novelty of the Workplace Analytics service and the potential sensitivity about how data could be used, successful implementation and use of Workplace Analytics require careful thought and planning with regard to data protection.  
+Microsoft Workplace Analytics produces powerful insights about how your organization functions. It does this by analyzing Office 365 collaboration data and organizational (HR) data that you provide. Given the novelty of the Workplace Analytics service and the potential sensitivity about how data could be used, successful implementation and use of Workplace Analytics require careful thought and planning with regard to data protection.  
 
 This section provides a basic overview of roles, responsibilities, types of data, and data-privacy recommendations. The general suggestions offered here are a starting point for planning your data-protection strategy and deployment. They are not intended as a substitute for addressing your organization’s unique needs by engaging with legal, privacy, human-resources, and other subject matter experts within your organization.
 
@@ -43,33 +41,36 @@ The data controller is a party that determines the purposes and means of process
 When using Workplace Analytics, your organization is the data controller because your organization determines if, how, and why Workplace Analytics will process any personal data.
 
 As a data controller, your organization should:
- * Determine the scope of data to analyze and the purpose and objectives of the analysis.
- * Work with your organization’s legal, privacy, and human resources teams to do the following:
-   * Determine whether you should obtain consent from employees in your company; 
-   * Determine what information you provide to employees about how your organization will process their personal data in Workplace Analytics; and
-   * Take local considerations into account (for example, obtain approval from local works councils, if applicable).
- * Use Workplace Analytics privacy controls to direct what data will be analyzed, how data will appear in results, and who will have access to both raw data and the results of analysis.
- * Review and be familiar with this document and other Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md) provided by Microsoft. 
+
+* Determine the scope of data to analyze and the purpose and objectives of the analysis.
+* Work with your organization’s legal, privacy, and human resources teams to do the following:
+
+  * Determine whether you should obtain consent from employees in your company;
+  * Determine what information you provide to employees about how your organization will process their personal data in Workplace Analytics; and
+  * Take local considerations into account (for example, obtain approval from local works councils, if applicable).
+
+* Use Workplace Analytics privacy controls to direct what data will be analyzed, how data will appear in results, and who will have access to both raw data and the results of analysis.
+* Review and be familiar with this document and other Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md) provided by Microsoft.
 
 ### Microsoft’s role: Data processor
 
-The data processor is a party that processes personal data on behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor. 
+The data processor is a party that processes personal data on behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor.
 
 As a data processor, Microsoft will:
 
- * Process personal data in accordance with your organization’s instructions as directed via your settings configuration within Workplace Analytics.
- * Through your use of Workplace Analytics, process all data provided to Microsoft (including personal data) according to the same [general privacy and security terms in the Online Services Terms (OST)](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) as Office 365.
- * As part of Microsoft’s commitments under the OST, remain certified under the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments that these frameworks entail to legitimize transfers of personal data from the EU and Switzerland to the U.S.
- * Contractually commit to abide by applicable provisions of the European Union General Data Protection Regulation (GDPR), effective starting May 25, 2018.
- * Provide Workplace Analytics features that help organizations meet their data-controller obligations and honor data-subject rights under the GDPR, including the right of exclusion from processing, access, and erasure, and including the right of transparency regarding methods of processing.
- * Implement technical and organizational security measures to protect the confidentiality of your organization’s (and employees’) data in Workplace Analytics.
+* Process personal data in accordance with your organization’s instructions as directed via your settings configuration within Workplace Analytics.
+* Through your use of Workplace Analytics, process all data provided to Microsoft (including personal data) according to the same [general privacy and security terms in the Online Services Terms (OST)](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) as Office 365.
+* As part of Microsoft’s commitments under the OST, remain certified under the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments that these frameworks entail to legitimize transfers of personal data from the EU and Switzerland to the U.S.
+* Contractually commit to abide by applicable provisions of the European Union General Data Protection Regulation (GDPR), effective starting May 25, 2018.
+* Provide Workplace Analytics features that help organizations meet their data-controller obligations and honor data-subject rights under the GDPR, including the right of exclusion from processing, access, and erasure, and including the right of transparency regarding methods of processing.
+* Implement technical and organizational security measures to protect the confidentiality of your organization’s (and employees’) data in Workplace Analytics.
 
 ### Data subject and personal data
 
 A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
-> [!Note] 
-> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user" or an "employee." 
+> [!Note]
+> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user," a "person," an "individual," or an "employee."
 
 ## Types of data for analysis in Workplace Analytics
 
@@ -78,11 +79,11 @@ Before starting an analysis in Workplace Analytics, you should think about the t
 Your organization might have its own data-classification system, but you might wish to consider the following types of data when you implement Workplace Analytics:
 
 | Privacy risk | Data type | Definition | Examples in Workplace Analytics |
-| ----- | ----- | ----- | ----- | 
-| Highest | Personal data | Personal data is information that directly or indirectly identifies a person | By default, Workplace Analytics does not show email addresses  or other information from Office 365 that directly identifies an individual in any in-product dashboard or query result. However, it does show information from the organizational dataset that your organization provides for analysis. Thus, if you upload organizational data that includes personal data (for example, employee names and identification numbers), that personal data will appear in in-product dashboards and query results. | 
-| Higher | Pseudonymized data | Pseudonymized data is information in which a personal identifier has been replaced with a value that does not directly identify a person (such as a numeric identifier that can no longer be attributed to a specific person without the use of additional information). | Workplace Analytics automatically replaces email addresses with pseudonyms (cryptographically obscured strings of numbers and letters) in the Office 365 collaboration data that you choose to include for analysis. Using pseudonyms can reduce the likelihood that you will identify a specific person, but the risk of identification remains. | 
-| Lower | Aggregated data | Aggregated data is information that is computed from multiple individuals or sources. | Workplace Analytics calculates averages across your organization. Since the averages are calculated from data sourced from many people, it becomes nearly impossible to derive information about a specific person’s activity. The likelihood of identifying someone from aggregated data depends on the size of the sample. When you implement Workplace Analytics for your organization, you must select the sample-size threshold for aggregation. Smaller sample sizes (such as fewer than ten people) might reveal some insights about individual activity, especially when the individuals are known, and other information (for example, whether the individual was on vacation) can be correlated with changes in the averages over time. | 
-| Lowest | Anonymized data | Anonymized data is information that does not relate to a specific individual, that does not increase the likelihood that a specific individual can be identified, or that has been rendered in a way so that it cannot be used to identify a specific individual. | When you use the default settings in Workplace Analytics, all the computed metrics that are the output of an analysis will be anonymized data. | 
+| ------------ | --------- | ---------- | ----- |
+| Highest | Personal data | Personal data is information that directly or indirectly identifies a person | By default, Workplace Analytics does not show email addresses or other information from Office 365 that directly identifies an individual in any in-product dashboard or query result. However, it does show information from the organizational dataset that your organization provides for analysis. Thus, if you upload organizational data that includes personal data (for example, employee names and identification numbers), that personal data will appear in in-product dashboards and query results. |
+| Higher | Pseudonymized data | Pseudonymized data is information in which a personal identifier has been replaced with a value that does not directly identify a person (such as a numeric identifier that can no longer be attributed to a specific person without the use of additional information). | Workplace Analytics automatically replaces email addresses with pseudonyms (cryptographically obscured strings of numbers and letters) in the Office 365 collaboration data that you choose to include for analysis. Using pseudonyms can reduce the likelihood that you will identify a specific person, but the risk of identification remains. |
+| Lower | Aggregated data | Aggregated data is information that is computed from multiple individuals or sources. | Workplace Analytics calculates averages across your organization. Since the averages are calculated from data sourced from many people, it becomes nearly impossible to derive information about a specific person’s activity. The likelihood of identifying someone from aggregated data depends on the size of the sample. When you implement Workplace Analytics for your organization, you must select the sample-size threshold for aggregation. Smaller sample sizes (such as fewer than ten people) might reveal some insights about individual activity, especially when the individuals are known, and other information (for example, whether the individual was on vacation) can be correlated with changes in the averages over time. |
+| Lowest | Anonymized data | Anonymized data is information that does not relate to a specific individual, that does not increase the likelihood that a specific individual can be identified, or that has been rendered in a way so that it cannot be used to identify a specific individual. | When you use the default settings in Workplace Analytics, all the computed metrics that are the output of an analysis will be anonymized data. |
 
 ### Illustrative Example
 
@@ -130,7 +131,7 @@ You have full control over what data to include in analysis using Workplace Anal
 
 ### Data provided by Microsoft Office 365
 
-Workplace Analytics uses header information from Office 365 email and calendar items. This header information includes sender and recipient, date and subject lines for email; and organizer, attendee, and duration of meetings<!-- removed "location" 30Aug18-->. Workplace Analytics never includes attachments and content in email and calendar items. For a full description of what is included and excluded please review [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md). 
+Workplace Analytics uses header information from Office 365 email and calendar items. This header information includes sender and recipient, date and subject lines for email; and organizer, attendee, and duration of meetings. Workplace Analytics never includes attachments and content in email and calendar items. For a full description of what is included and excluded please review [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md).
 
 It’s important to note that while Workplace Analytics uses this Office 365 data, most of the header information is never directly available to users within the service. Rather, Workplace Analytics provides computations and metrics based on this information. Furthermore, using the settings within the service, you get to decide and configure what data to use and who can see it. Please review the product privacy features documentation for full details.
 
@@ -138,10 +139,10 @@ It’s important to note that while Workplace Analytics uses this Office 365 dat
 
 First, you get to decide which users’ mailboxes to include in your Workplace Analytics study. Then, there are multiple controls you can use to further limit the data.
 
- * You can control whether analysts have access to email and calendar subject lines.
- * You can rule out all meetings and email by keywords (in subject lines) that you deem sensitive.
- * You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
- * You can rule out confidential or private email, or those that are rights protected using Microsoft's digital rights management technology.
+* You can control whether analysts have access to email and calendar subject lines.
+* You can rule out all meetings and email by keywords (in subject lines) that you deem sensitive.
+* You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
+* You can rule out confidential or private email, or those that are rights protected using Microsoft's digital rights management technology.
 
 To learn more about privacy, see [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 
@@ -149,7 +150,7 @@ To learn more about privacy, see [Workplace Analytics privacy and data access](.
 
 You control what other information you want to be included in Workplace Analytics analyses.
 
-To enable analysis along organizational lines, you can provide HR data such as disciplines, titles, locations, and managers. Workplace Analytics ensures that individual identities are never used in analyzing this information. However, it is important to take care to prevent incidental identification of users based on personal data such as names, employee identification numbers, or specific office locations. Additionally, consider risks of including attributes whose specific values may identify some individuals directly (such as the title field containing CEO), or may reduce the set of individuals below the aggregation thresholds that make individuals easily identifiable (for example, there may only be only a small number of Directors).
+To enable analysis along organizational lines, you can provide HR data such as disciplines, titles, locations, and managers. Workplace Analytics ensures that individual identities are never used in analyzing this information. However, it is important to take care to prevent incidental identification of users based on personal data, such as names, employee identification numbers, or specific office locations. Additionally, consider risks of including attributes whose specific values may identify some individuals directly (such as the title field containing CEO), or may reduce the set of individuals below the aggregation thresholds that make individuals easily identifiable (for example, there may only be only a small number of Directors).
 
 ### Who can see the data
 
@@ -163,24 +164,21 @@ Both of these roles are provisioned by the tenant administrator.
 
 ### Workplace Analytics support for handling data subject requests
 
-Under the GDPR, data subjects may have rights to request exclusion from processing, access, correction, or deletion of their personal data. It is your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. As a data processor, Microsoft provides mechanisms for your organization as the data controller to honor data subject rights through controls that are built into Workplace Analytics. 
+Under the GDPR, data subjects may have rights to request exclusion from processing, access, correction, or deletion of their personal data. It is your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. As a data processor, Microsoft provides mechanisms for your organization as the data controller to honor data subject rights through controls that are built into Workplace Analytics.
 
 <!--
 ADD THIS BACK IN WHEN WE CAN LINK TO KATE'S DOC:
 You can review the details here, but we briefly go over them:
 -->
 
- * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing. In Workplace Analytics, you can exclude an employee’s personal information from being processed simply by not assigning a Workplace Analytics license to that employee. <!-- DELETED PER PARAMA 16 APRIL 2018: If you have already included an employee in the scope of some analysis, and that employee requests to be excluded from future analysis, then you can configure Workplace Analytics to discontinue the use of data pertaining to that employee. -->
- * **Access:** Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data. The scope of such information is restricted to what is personally associable, and does not contain aggregate metrics from which no personal information can be gleaned.
- * **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Office 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.  <!-- DELETED PER PARAMA 16 APRIL 2018: If someone requests corrections to Office 365 email and meeting data, then the Office 365 tenant administrator can use the capabilities built into Office 365 to handle these requests. If someone requests corrections to their personal data in the organizational dataset, then as the controller, your organization should provide the means for the data subjects to review and correct such information. -->
- * **Deletion:** Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed. You have the option of deciding whether such data needs to be reprocessed without the user’s raw metrics. If you so decide, all reports stored in Workplace Analytics can be deleted and recalculated. 
- * **Transparency regarding processing:** See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Workplace Analytics, and what they mean.  
+* **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing. In Workplace Analytics, you can exclude an employee’s personal information from being processed simply by not assigning a Workplace Analytics license to that employee. <!-- DELETED PER PARAMA 16 APRIL 2018: If you have already included an employee in the scope of some analysis, and that employee requests to be excluded from future analysis, then you can configure Workplace Analytics to discontinue the use of data pertaining to that employee. -->
+* **Access:** Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data. The scope of such information is restricted to what is personally associable, and does not contain aggregate metrics from which no personal information can be gleaned.
+* **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Office 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.  <!-- DELETED PER PARAMA 16 APRIL 2018: If someone requests corrections to Office 365 email and meeting data, then the Office 365 tenant administrator can use the capabilities built into Office 365 to handle these requests. If someone requests corrections to their personal data in the organizational dataset, then as the controller, your organization should provide the means for the data subjects to review and correct such information. -->
+* **Deletion:** Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed. You have the option of deciding whether such data needs to be reprocessed without the user’s raw metrics. If you so decide, all reports stored in Workplace Analytics can be deleted and recalculated. 
+* **Transparency regarding processing:** See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Workplace Analytics, and what they mean.  
 
 ## Additional Resources
 
-Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md)
-
-Article 29 Data Protection Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=45631)
-
-EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)
-
+* Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md)
+* Article 29 Data Protection Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=45631)
+* EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)

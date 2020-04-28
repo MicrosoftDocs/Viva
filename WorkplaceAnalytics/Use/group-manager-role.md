@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Manager-deployed plans in Workplace Analytics, which use the Group Manager (GM) role 
@@ -19,7 +17,7 @@ audience: Admin
 
 # Manager-deployed plans
 
-A manager can create change-management plans for the people in their reporting structure. To do this, the manager makes use of their group manager (GM) role, which was defined for exactly that purpose: creating and tracking plans for the manager's group. 
+A manager can create change-management plans for the people in their reporting structure. To do this, the manager makes use of their group manager (GM) role, which was defined for exactly that purpose: creating and tracking plans for the manager's group.
 
 The group-manager role has predefined and unalterable scope: The employees in the reporting structure&mdash;all of their reports, direct and indirect&mdash;are automatically assigned to the GM's group. (The GM is also included in this group.)
 

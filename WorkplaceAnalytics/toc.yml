@@ -9,6 +9,8 @@
           href: ~/Privacy/data-protection-intro.md
         - name: Data-protection considerations                 
           href: ~/Privacy/data-protection-considerations.md
+        - name: Differential privacy
+          href: ~/Privacy/differential-privacy.md          
         - name: Privacy and data access
           href: ~/Privacy/privacy-and-data-access.md
         - name: Data retention policy
@@ -117,7 +119,11 @@
                 - name: Queries with CRM data
                   href: ~/tutorials/crm-queries.md    
                 - name: Peer comparison queries
-                  href: ~/tutorials/comparison-query.md                                
+                  href: ~/tutorials/comparison-query.md
+  #              - name: ONA queries                   
+  #                items: 
+  #                  - name: ONA queries
+  #                    href: ~/tutorials/ona-queries.md 
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md
                 - name: Power BI Business Continuity Dashboard

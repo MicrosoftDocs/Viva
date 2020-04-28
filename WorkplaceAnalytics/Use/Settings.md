@@ -145,7 +145,7 @@ In **Admin settings** > **Privacy settings**, you can decide what data you want 
 
 #### Minimum group size
 
-The minimum-group-size rule protects people from being identified in [Explore charts](../Use/Explore-Metrics-Week-in-the-Life.md) and in [Solutions data](../tutorials/solutionsv2-intro.md).
+The minimum-group-size rule protects people from being identified in [Explore charts](../Use/Explore-Metrics-Week-in-the-Life.md) and in [Plans data](../tutorials/solutionsv2-intro.md).
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
@@ -173,13 +173,13 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
    You can see histogram charts in the following areas of Workplace Analytics:
 
    * In **Explore**, on the [Management and coaching](../use/explore-metrics-management-and-coaching.md) page  
-   * In [Solutions](../Tutorials/solutionsv2-intro.md), on the **Identify** and **Track** pages
+   * In [Plans](../Tutorials/solutionsv2-intro.md), on the **Identify** and **Track** pages
 
 #### Hash subject lines
 
 Use this setting to control whether to show or hash subject lines in [Meeting query](../tutorials/meeting-queries.md) results, which, by default, are *not* shown.
 
-If you select **Yes** for **Hash subject lines**, they are converted to a hashed value (a system-generated number), so the text in unreadable in any queries. You can still create meeting queries that include subject-line terms, such as for meeting attributes. However, you won't be able to see a list of meetings that show the subject lines.
+If you select **Yes** for **Hash subject lines**, they are converted to a hashed value (a system-generated number), so the text is unreadable in any queries. You can still create meeting queries that include subject-line terms, such as for meeting attributes. However, you won't be able to see a list of meetings that show the subject lines.
 
 For example, you could run a query with the subject-line keyword "All-hands." Based on the attributes you include in the query, the results could show data with that subject line, including the number of meetings, the length and size of the meetings, and so on. However, you could not get a specific list of all the meetings with the subject line "All-hands" (a row for each all-hands meeting).
 
