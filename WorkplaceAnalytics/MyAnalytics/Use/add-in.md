@@ -34,32 +34,33 @@ You'll see Insights similar to the following in the right pane in Outlook:
 
 ## Plan your time away
 
-Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
+Taking time off from work helps reduce stress and burnout and improve work-life balance and overall wellbeing.
 
-This Insights checklist gives you peace of mind by helping you schedule time to get everything done before you go and to catch up on anything you missed while you were away. This single tool can help you:
+The Insights checklist reduces the stress of planning by helping you get all set for your upcoming time away from work and be well prepared to catch up on work when you get back. This single tool can help you:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
-* Compose your auto-reply messages and notify your team about your planned time off.
+* Compose your auto-replies and notify your team about your planned time off.
 * Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
 
-You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan.
+You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
 
 ![Insights plan your time away task list](../../images/mya/use/insights-time-away.png)
 
-**To view and use the Plan your time away**
+**To view and use Plan your time away**
 
 1. If Insights isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
 2. In the **Insights** pane, select **Plan your time away** to see a checklist of tasks you can do before you go:
 
-   * **Update your calendar** - Select **Start** and **End dates** for when you will be out of office, and then select **Schedule**, which will set up an Out-Of-Office appointment on your calendar for the selected dates.
+   * **Update your calendar** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
 
+    Updating your calendar with an Out of Office information is a best practice that’ll set the right expectations with co-workers looking to connect with you 
      ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
 
    * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
      ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
 
-   * In **Notify collaborators**, you'll see a list of people that you collaborated with in the last four weeks, who you can select to notify through an email or meeting invitation, and then select **Compose**.
+   * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks, who you can select to notify through an email or meeting invitation, and then select **Compose**.
 
      ![Insights notify collaborators](../../images/mya/use/insights-notify.png)
 
