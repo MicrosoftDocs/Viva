@@ -36,46 +36,51 @@ You'll see Insights similar to the following in the right pane in Outlook:
 
 Taking time off from work helps reduce stress and burnout and improve work-life balance and overall wellbeing.
 
-The Insights checklist reduces the stress of planning by helping you get all set for your upcoming time away from work and be well prepared to catch up on work when you get back. This single tool can help you:
+According to [When a Vacation Reduces Stress — And When It Doesn’t](https://hbr.org/2014/02/when-a-vacation-reduces-stress-and-when-it-doesnt), “poorly planned and stressful vacations eliminate the positive benefit of time away.”
+
+The Insights checklist can help you plan for your upcoming time away from work. This single tool helps you:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
-* Compose your auto-replies and notify your team about your planned time off.
+* Compose your autoreplies and notify your team about your planned time off.
 * Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
 
 You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
 
 ![Insights plan your time away task list](../../images/mya/use/insights-time-away.png)
 
-**To view and use Plan your time away**
+**To use Plan your time away**
 
 1. If Insights isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
-2. In the **Insights** pane, select **Plan your time away** to see a checklist of tasks you can do before you go:
+2. In the **Insights** pane, select **Plan your time away** to see a checklist of planning options.
 
-   * **Update your calendar** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
+   * **Select dates** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
 
-    Updating your calendar with an Out of Office information is a best practice that’ll set the right expectations with co-workers looking to connect with you 
+     > [!Tip]
+     > Updating your calendar with an Out of Office information is a best practice that’ll set the right expectations with co-workers looking to connect with you. 
+
      ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
 
    * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
      ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
 
-   * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks, who you can select to notify through an email or meeting invitation, and then select **Compose**.
+   * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks. You can select to notify them through an email or meeting invitation, and then select **Compose**.
 
      ![Insights notify collaborators](../../images/mya/use/insights-notify.png)
 
-   * In **Resolve meetings** > **Review meetings**, you'll see a list of meetings you either organized or accepted that occur during your time away.
+   * **Resolve meetings** - You'll see a list of meetings you either organized or accepted that occur during your time away.
 
-     * In **Decline and cancel meetings with this message**, edit the message that'll be sent to decline or cancel the meeting invitation.
-     * In **Select meetings to decline and cancel**, select which meetings you want to decline or cancel, and then select **Confirm**. You can select **Open** next to a meeting to see more details about it, and use **Select all** to decline or cancel all the meetings listed.
+     * **Decline and cancel meetings with this message** - Edit the message that'll be sent to decline or cancel the meeting invitation.
+     * **Select meetings to decline and cancel** - Select which meetings you want to decline or cancel, or use **Select all** to decline or cancel all the meetings listed. When you're done, select **Confirm**. You can also select **Open** next to a meeting to see more details about it.
 
-      ![Insights resolve meetings](../../images/mya/use/insights-resolve-meetings.png)
+       ![Insights resolve meetings](../../images/mya/use/insights-resolve-meetings.png)
 
-   * In **Book time to focus**, you can schedule time to focus on wrapping up work before you go, and then on catching up after you get back. Select the **plus sign** (+) next to the available **Focus time** slots, and then select **Done** to add them to your calendar.
+   * **Book time to focus** - You can schedule time to focus on wrapping up work before you go, and then on catching up after you get back. Select the **plus sign** (+) next to the available **Focus time** slots, and then select **Done** to add them to your calendar.
 
      ![Insights book focus time](../../images/mya/use/insights-focus-time.png)
 
-     With this time scheduled, you get the peace of mind that you have time to get everything done both before you go and after you get back.
+> [!Tip]
+> With this time scheduled, you get the peace of mind that you have time to get everything done both before you go and after you get back.
 
 ## Email read statistics
 
@@ -202,22 +207,21 @@ The meeting preparation card shows you a list of upcoming meetings that you have
  
     ![Meeting preparation card](../../Images/mya/use/meeting-prep-card.png)
 
-    This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
+    You can prepare for meetings this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
 
-3. The following options are available to help you prepare for upcoming meetings. 
+3. The following options are available to help you prepare for an upcoming meeting. 
 
     ![Meeting preparation panel](../../Images/mya/use/meeting-prep-panel.png)
 
 | Option | Definition | Tip |
 | ------------ | ----- | --------------- |
-| [Meeting title]| Meeting title and time of occurrence |
-| Attendees    | The percentage of invitees who have accepted, and the number of invitees. Click **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
+|Attendees    | The percentage of invitees who have accepted, and the number of invitees. Select **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
 | Agenda       | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. |
 | Attachments  | This section shows how many attachments the invitation has, it displays their titles and their storage location (online or locally), and it lets you click to see more details. It also provides a link that you can select to open the attachment, if the attachment is stored online. |  
 | Online meeting link | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online. | **Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one.  |
 | Preparation time | This section provides options to book either 15 minutes or 30 minutes of preparation time right before the meeting. This option only appears if there is an available slot. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time.  |
 
-_This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
+_The following **Attachments** section is expanded to show more details about the attachments:_
 
 ![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
 
