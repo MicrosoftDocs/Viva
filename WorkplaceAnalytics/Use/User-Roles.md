@@ -70,7 +70,7 @@ People who are assigned to any Workplace Analytics user roles should ideally hav
 | Ability to view personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png"> | | | |
 | Ability to view de-identified, individual-level data:<ol><li>Organization data (HR fields such as level or organization)</li><li>Office 365 data (metrics about collaboration time and relationships)</li></ol> | | <img src="../Images/WpA/check-mark.png"> | | |
 | Ability to view aggregated and de-identified Office 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | |
-| Can create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics | | | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> (team only)|
+| Can create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics | | | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> (team only)|
 
 ### Suggested personas
 
