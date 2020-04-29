@@ -194,25 +194,23 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
 The meeting preparation card shows you a list of upcoming meetings that you have organized, and it helps you evaluate whether each meeting is ready to go. 
 
-#### To view and use the meeting preparation card
+#### To use meeting preparation
 
-1. On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn't already open, it opens now. 
+1. If the **Insights** pane isn't already open, select the **Insights** icon on the **Home** ribbon of Outlook. 
 
-2. On the **Insights** panel, locate the **Prepare for your meetings** card: 
+2. On the **Insights** panel, select **Prepare for your meetings**. 
  
     ![Meeting preparation card](../../Images/mya/use/meeting-prep-card.png)
 
     This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
 
-3. Select the **Prepare for your meetings** card. This opens a panel that displays insights cards for each of your upcoming meetings: 
+3. The following options are available to help you prepare for upcoming meetings. 
 
     ![Meeting preparation panel](../../Images/mya/use/meeting-prep-panel.png)
- 
-These insights cards inform you of the following:
 
-| Card section | Notes | Recommendations |
+| Option | Definition | Tip |
 | ------------ | ----- | --------------- |
-| (Card title) | Meeting title and time of occurrence |
+| [Meeting title]| Meeting title and time of occurrence |
 | Attendees    | The percentage of invitees who have accepted, and the number of invitees. Click **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
 | Agenda       | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. |
 | Attachments  | This section shows how many attachments the invitation has, it displays their titles and their storage location (online or locally), and it lets you click to see more details. It also provides a link that you can select to open the attachment, if the attachment is stored online. |  
@@ -235,7 +233,7 @@ As a manager, you can:
 
 This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
 
-#### To use the catch up feature
+#### To use catch up with your team
 
 1. On the **Home** ribbon of Microsoft Outlook, [open Insights](#what-you-might-see).
 
@@ -261,21 +259,21 @@ If you're using Outlook on the web, you can pin the Insights add-in to the quick
 
 **To pin the add-in to the quick access pane**
 
-1. In Outlook on the web, select the **Settings** (gear) icon to open the **Settings** panel:
+1. In Outlook on the web, select the **Settings** (gear) icon.
 
-    ![OWA Settings panel](../../images/mya/use/owa-settings.png) 
+    ![OWA Settings pane](../../images/mya/use/owa-settings.png) 
 
-2. In the **Settings** panel, select **View all Outlook Settings**.
+2. In **Settings**, select **View all Outlook Settings**.
 
-3. Be sure **Mail** is selected in the left panel, and in the center panel, select **Customize actions**:
+3. Confirm **Mail** is selected in the left pane, and in the center pane, select **Customize actions**.
 
     ![Customize actions](../../images/mya/use/customize-actions.png) 
 
-4. In the right pane, in the **Message surface** area, select **Insights**:
+4. In the right pane, in the **Message surface** area, select **Insights**.
 
     ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png) 
 
-5. In the right pane, in the **Toolbar** area, select **Insights**:
+5. In the right pane, in the **Toolbar** area, select **Insights**.
 
     ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
 
