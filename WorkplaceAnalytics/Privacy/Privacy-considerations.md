@@ -79,7 +79,7 @@ The following information can help you determine what privacy settings best matc
 
 ### Domains
 
-You can enter a list of domains that you want to exclude. All email and meetings from domains listed here are excluded from analysis.
+You can enter a list of domains that you want to exclude. All email, meetings, calls, and instant messages from domains listed here are excluded from analysis.
 
 > [!Note]
 > There exists only the option to exclude (black list) specific domains, not to include (white list) specific domains.

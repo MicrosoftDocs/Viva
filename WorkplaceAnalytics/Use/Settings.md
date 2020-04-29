@@ -188,7 +188,7 @@ For example, you could run a query with the subject-line keyword "All-hands." Ba
 
 You can exclude data from specific domains or that includes specific email addresses:
 
-* In **Exclude domains**, you can enter one or more domains to exclude from analysis. Any email or meetings that have people included in these domains will be excluded from any queries.
+* In **Exclude domains**, you can enter one or more domains to exclude from analysis. Any email, meetings, calls, or instant messages that have people included in these domains will be excluded from any queries.
 
 * In **Exclude email addresses**, you can enter email addresses to exclude from analysis. Any email and meetings that have these email addresses (as either sender or recipient, and attendee or invitee) are now excluded from analysis. For this setting, you need to enter every email address for each alias that you want to exclude.
 
