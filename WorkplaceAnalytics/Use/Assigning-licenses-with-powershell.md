@@ -273,7 +273,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
         Foreach($user in $users) {
            #An attempt is made to find the user through the UserPrincipalName parameter. If an error occurs, the catch block will try to find the user through a ProxyAddresses attribute regex comparison. An absolute match after the colon of the address in the array is required to increase the accuracy of the find.
            $userIndex = $users.Indexof($user)
-           Write-Progress -Activity "$Assigning Workplace Analytics Licenses, currently on $($userIndex + 1) of $($users.Count) Currently searching for user $($user.Email)" -PercentComplete ($userIndex / $users.Count * 100) -Id 1
+           Write-Progress -Activity "Assigning Workplace Analytics Licenses, currently on $($userIndex + 1) of $($users.Count) Currently searching for user $($user.Email)" -PercentComplete ($userIndex / $users.Count * 100) -Id 1
            try {
                $msolUser = Get-MsolUser -UserPrincipalName $user.Email -ErrorAction Stop
             }
