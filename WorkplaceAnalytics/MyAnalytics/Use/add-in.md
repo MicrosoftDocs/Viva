@@ -25,7 +25,7 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 ## What you might see
 
-After you open the [Insights add-in](#open-the-insights-add-in) in Outlook (or in Outlook on the web), you'll see a number of cards in the right (Insights) pane. For example:
+After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or in Outlook on the web), you'll see a number of insights in the right pane. For example:
 
 ![Insights icon](../../images/mya/overview/insights-view.png)
 ![Insights panel](../../images/mya/overview/insights-cards-14.png)

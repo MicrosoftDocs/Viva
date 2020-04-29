@@ -14,10 +14,10 @@ ms.prod: mya
 
 The information in this section helps you get the most out of the following Insights:
 
- * _View outstanding tasks_: [Follow up on your tasks]()
- * _Prepare for your meetings_: [Meeting preparation]()
- * _Stay in contact with team members and respond quickly to important requests_: [Catch up with your team]()
- * _Track email open rates_: [Email read statistics]()
+ * _View outstanding tasks_: [Follow up on your tasks](#follow-up-on-your-tasks)
+ * _Prepare for your meetings_: [Meeting preparation](#meeting-preparation)
+ * _Stay in contact with team members and respond quickly to important requests_: [Catch up with your team](#catch-up-with-your-team)
+ * _Track email open rates_: [Email and document open rates](#email-and-document-open-rates)
 
 ## Follow up on your tasks
 
@@ -117,82 +117,7 @@ Any changes you make apply only to your MyAnalytics experience; they do not sync
 
 
 
-
-
-<!-- PER PETERB 23 JULY 2019: DO NOT PUBLISH THIS. 
-IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH. 
-
-## To add tasks to your focus time
-
-1.    In Outlook, select **Insights**.
-
-2.    In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
-
-3.    On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
-
-     * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
-
-       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
-
-     * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
-
-       Select **Add** to add this task to the already scheduled focus time block on your calendar.  
-     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** panel.
-
--->
-
-
-
-
-
-<!--
-## Plan your time away
-
-Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
-
-You can use Insights to help you reduce stress by helping plan your time away on your calendar, including helping you:
-
-* Resolve all your meetings in one place with a custom message about your scheduled time off.
-* Compose your auto-reply messages and notify your team about your scheduled time off.
-* Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
-
-You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan. For example, this shows only the first task as done:
-
-   ![Insights plan your time away task list](../../images/mya/overview/insights-plan-time-away.png)
-
-**To plan your time away**
-
-1. In the **Insights** pane, select **Plan your time away**.
-2. In **Select dates**, select the date range for your time off, and then select **Schedule**.
-
-   ![Insights select dates](../../images/mya/overview/insights-select-dates.png)
-
-3. In **Set automatic replies**, compose or edit the automatic reply message that people will receive when they send you messages or invites while you're away from work. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
-
-   ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
-
-4. In **Notify collaborators**, select who you want to notify about your upcoming holiday plans, and then:
-
-   * Select **Open new email draft** to compose the message.
-   * Select **Open new meeting invitation** to add your scheduled time off on their calendars.
-
-5. In **Resolve meetings** > **Review meetings**, you can see all the meetings that are scheduled during your time off. Any meetings that you scheduled will be canceled and any meetings you're an attendee of will be declined:
-
-   * In **Decline and cancel meetings with this message**, edit the message that'll be sent with the meeting invitation decline or cancel message.
-   * In **Select meetings to decline or cancel**, select which meetings you want to cancel or decline, and then select **Confirm**. Or you can select **Open** next to a meeting to see more details, reschedule, and resolve if differently than the others on your calendar.
-
-    ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
-
-6. In **Book time to focus**, Insights will show you a what time is available on your calendar to focus on wrapping up work before you go and on catching up after you get back.
-
-    ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
--->
-<!-- Coming soon-> When you get back, Insights helps you catch up on important email and review new documents and activity that occurred while you were away:
-
-![Insights welcome back](../../images/mya/overview/insights-welcome-back.png)
--->
-
-## Email read statistics
+## Email and document open rates
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
@@ -272,4 +197,81 @@ Note the following about the reporting of read-statistics data:
     ![Email open rates](../../Images/mya/use/email-open-rates-2.png)
 
     Depending on how many people opened the email and how long they spent reading it, Insights might suggest that you follow up on your email, or it might show tips to help improve email communication.
+-->
+
+
+
+
+
+<!-- PER PETERB 23 JULY 2019: DO NOT PUBLISH THIS. 
+IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH. 
+
+## To add tasks to your focus time
+
+1.    In Outlook, select **Insights**.
+
+2.    In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
+
+3.    On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
+
+     * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
+
+       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
+
+     * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
+
+       Select **Add** to add this task to the already scheduled focus time block on your calendar.  
+     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** panel.
+
+-->
+
+
+
+
+
+<!--
+## Plan your time away
+
+Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
+
+You can use Insights to help you reduce stress by helping plan your time away on your calendar, including helping you:
+
+* Resolve all your meetings in one place with a custom message about your scheduled time off.
+* Compose your auto-reply messages and notify your team about your scheduled time off.
+* Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
+
+You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan. For example, this shows only the first task as done:
+
+   ![Insights plan your time away task list](../../images/mya/overview/insights-plan-time-away.png)
+
+**To plan your time away**
+
+1. In the **Insights** pane, select **Plan your time away**.
+2. In **Select dates**, select the date range for your time off, and then select **Schedule**.
+
+   ![Insights select dates](../../images/mya/overview/insights-select-dates.png)
+
+3. In **Set automatic replies**, compose or edit the automatic reply message that people will receive when they send you messages or invites while you're away from work. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
+
+   ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
+
+4. In **Notify collaborators**, select who you want to notify about your upcoming holiday plans, and then:
+
+   * Select **Open new email draft** to compose the message.
+   * Select **Open new meeting invitation** to add your scheduled time off on their calendars.
+
+5. In **Resolve meetings** > **Review meetings**, you can see all the meetings that are scheduled during your time off. Any meetings that you scheduled will be canceled and any meetings you're an attendee of will be declined:
+
+   * In **Decline and cancel meetings with this message**, edit the message that'll be sent with the meeting invitation decline or cancel message.
+   * In **Select meetings to decline or cancel**, select which meetings you want to cancel or decline, and then select **Confirm**. Or you can select **Open** next to a meeting to see more details, reschedule, and resolve if differently than the others on your calendar.
+
+    ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
+
+6. In **Book time to focus**, Insights will show you a what time is available on your calendar to focus on wrapping up work before you go and on catching up after you get back.
+
+    ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
+-->
+<!-- Coming soon-> When you get back, Insights helps you catch up on important email and review new documents and activity that occurred while you were away:
+
+![Insights welcome back](../../images/mya/overview/insights-welcome-back.png)
 -->
