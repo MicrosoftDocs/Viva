@@ -3,7 +3,7 @@
 title: Use the Insights
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 ms.prod: mya
@@ -12,25 +12,139 @@ ms.prod: mya
 
 # Use the Insights
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+The information in this section helps you get the most out of the following Insights:
 
-Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
+ * _View outstanding tasks_: [Follow up on your tasks]()
+ * _Prepare for your meetings_: [Meeting preparation]()
+ * _Stay in contact with team members and respond quickly to important requests_: [Catch up with your team]()
+ * _Track email open rates_: [Email read statistics]()
 
-If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
+## Follow up on your tasks
 
-This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, plan time away from work, and improve your overall work-life balance.
+MyAnalytics can help you follow up on requests you asked of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails. For example:
+
+* "Can you send me this year's latest report?"
+* "Everyone, please complete your performance evaluations by the end of the week."
+* "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
+
+For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary card in your Outlook Insights panel.
+
+**To see your follow-up card**
+
+1. On the Outlook **Home** ribbon, select the **Insights** icon.
+2. In the **Insights** panel, you'll see the **Follow up on your requests** card.
+
+   ![Follow-up card](../../Images/mya/use/follow-up-340.PNG)
+
+3. Select the card to see more details and to do one or more of the following:
+
+   * Select the email subject line from which the task was extracted to open that specific email.
+   * Select **Follow up** to open the latest instance of the email.
+   * Select **Mark as done** if the task is complete. Follow-ups disappear after two weeks or after you mark them as done.
+   * If this task isn't a follow-up, select the **ellipsis** (**…**) at bottom right, and then select This isn't' a follow up.
+
+   ![Follow-up card details](../../Images/mya/use/follow-up-details-340.PNG)
 
 > [!Note]
-> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+> This card is only available in English.
 
-## What you might see
+## Meeting preparation
 
-In Outlook, open the add-in by selecting the **Insights** icon in the Outlook **Home** ribbon. If you are using Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**. (For easier access in Outlook on the web, you can pin the Insights Add-in to the quick access pane. See [Pin the add-in](#pin-the-add-in) for details.)
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](../use/mya-adoption/MyAnalytics-meetings-september-2018.pdf).
 
-You'll see Insights similar to the following in the right pane in Outlook:
+The meeting preparation card shows you a list of upcoming meetings that you have organized, and it helps you evaluate whether each meeting is ready to go. 
 
-![Insights icon](../../images/mya/overview/insights-view.png)
-![Insights panel](../../images/mya/overview/insights-cards-14.png)
+#### To view and use the meeting preparation card
+
+1. On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn't already open, it opens now. 
+
+2. On the **Insights** panel, locate the **Prepare for your meetings** card: 
+ 
+    ![Meeting preparation card](../../Images/mya/use/meeting-prep-card.png)
+
+    This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
+
+3. Select the **Prepare for your meetings** card. This opens a panel that displays insights cards for each of your upcoming meetings: 
+
+    ![Meeting preparation panel](../../Images/mya/use/meeting-prep-panel.png)
+ 
+These insights cards inform you of the following:
+
+| Card section | Notes | Recommendations |
+| ------------ | ----- | --------------- |
+| (Card title) | Meeting title and time of occurrence |
+| Attendees    | The percentage of invitees who have accepted, and the number of invitees. Click **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
+| Agenda       | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. |
+| Attachments  | This section shows how many attachments the invitation has, it displays their titles and their storage location (online or locally), and it lets you click to see more details. It also provides a link that you can select to open the attachment, if the attachment is stored online. |  
+| Online meeting link | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online. | **Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one.  |
+| Preparation time | This section provides options to book either 15 minutes or 30 minutes of preparation time right before the meeting. This option only appears if there is an available slot. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time.  |
+
+_This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
+
+![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
+
+## Catch up with your team
+
+People managers often have hectic schedules, and it can be tough to stay in close contact with each team member. MyAnalytics brings together all the information managers need to stay caught up and respond quickly to important requests. 
+
+As a manager, you can:
+
+ * Schedule 1:1 time with a team member (or reschedule if a conflict comes up)
+ * Act on tasks you promised to get done or that team members asked you to complete
+ * Review important emails and documents from team members that you haven’t read yet
+
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
+
+#### To use the catch up feature
+
+1. On the **Home** ribbon of Microsoft Outlook, [open Insights](#what-you-might-see).
+
+2. Select **Catch up with your team**:
+
+   ![Catch up with your team](../../images/mya/use/catch-up.png)
+
+   The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
+
+   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
+
+#### To edit your team list
+
+ * If you notice that your team member list is inaccurate, select **Edit team** to add or remove team members, as shown here:
+
+   ![Update team members](../../images/mya/use/edit-team75-75-80.png)
+
+Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
+
+
+
+
+
+<!-- PER PETERB 23 JULY 2019: DO NOT PUBLISH THIS. 
+IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH. 
+
+## To add tasks to your focus time
+
+1.    In Outlook, select **Insights**.
+
+2.    In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
+
+3.    On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
+
+     * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
+
+       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
+
+     * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
+
+       Select **Add** to add this task to the already scheduled focus time block on your calendar.  
+     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** panel.
+
+-->
+
+
+
+
+
 <!--
 ## Plan your time away
 
@@ -142,7 +256,7 @@ MyAnalytics respects user privacy; this is why approximated values are reported 
 
     ![Email open rates](../../Images/mya/use/step-2-four-emails.png)
 
-<!-- REMOVED PER RISHABH 4 SEPT 2019
+    <!-- REMOVED PER RISHABH 4 SEPT 2019
 ### Read statistics details
 
 Note the following about the reporting of read-statistics data: 
@@ -159,174 +273,3 @@ Note the following about the reporting of read-statistics data:
 
     Depending on how many people opened the email and how long they spent reading it, Insights might suggest that you follow up on your email, or it might show tips to help improve email communication.
 -->
-
-## Follow up on your tasks
-
-MyAnalytics can help you follow up on requests you asked of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails. For example:
-
-* "Can you send me this year's latest report?"
-* "Everyone, please complete your performance evaluations by the end of the week."
-* "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
-
-For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary card in your Outlook Insights panel.
-
-**To see your follow-up card**
-
-1. On the Outlook **Home** ribbon, select the **Insights** icon.
-2. In the **Insights** panel, you'll see the **Follow up on your requests** card.
-
-   ![Follow-up card](../../Images/mya/use/follow-up-340.PNG)
-
-3. Select the card to see more details and to do one or more of the following:
-
-   * Select the email subject line from which the task was extracted to open that specific email.
-   * Select **Follow up** to open the latest instance of the email.
-   * Select **Mark as done** if the task is complete. Follow-ups disappear after two weeks or after you mark them as done.
-   * If this task isn't a follow-up, select the **ellipsis** (**…**) at bottom right, and then select This isn't' a follow up.
-
-   ![Follow-up card details](../../Images/mya/use/follow-up-details-340.PNG)
-
-> [!Note]
-> This card is only available in English.
-
-## Meeting preparation
-
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](../use/mya-adoption/MyAnalytics-meetings-september-2018.pdf).
-
-The meeting preparation card shows you a list of upcoming meetings that you have organized, and it helps you evaluate whether each meeting is ready to go. 
-
-#### To view and use the meeting preparation card
-
-1. On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn't already open, it opens now. 
-
-2. On the **Insights** panel, locate the **Prepare for your meetings** card: 
- 
-    ![Meeting preparation card](../../Images/mya/use/meeting-prep-card.png)
-
-    This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
-
-3. Select the **Prepare for your meetings** card. This opens a panel that displays insights cards for each of your upcoming meetings: 
-
-    ![Meeting preparation panel](../../Images/mya/use/meeting-prep-panel.png)
- 
-These insights cards inform you of the following:
-
-| Card section | Notes | Recommendations |
-| ------------ | ----- | --------------- |
-| (Card title) | Meeting title and time of occurrence |
-| Attendees    | The percentage of invitees who have accepted, and the number of invitees. Click **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
-| Agenda       | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. |
-| Attachments  | This section shows how many attachments the invitation has, it displays their titles and their storage location (online or locally), and it lets you click to see more details. It also provides a link that you can select to open the attachment, if the attachment is stored online. |  
-| Online meeting link | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online. | **Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one.  |
-| Preparation time | This section provides options to book either 15 minutes or 30 minutes of preparation time right before the meeting. This option only appears if there is an available slot. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time.  |
-
-_This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
-
-![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
-
-## Catch up with your team
-
-People managers often have hectic schedules, and it can be tough to stay in close contact with each team member. MyAnalytics brings together all the information managers need to stay caught up and respond quickly to important requests. 
-
-As a manager, you can:
-
- * Schedule 1:1 time with a team member (or reschedule if a conflict comes up)
- * Act on tasks you promised to get done or that team members asked you to complete
- * Review important emails and documents from team members that you haven’t read yet
-
-This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
-
-#### To use the catch up feature
-
-1. On the **Home** ribbon of Microsoft Outlook, [open Insights](#what-you-might-see).
-
-2. Select **Catch up with your team**:
-
-   ![Catch up with your team](../../images/mya/use/catch-up.png)
-
-   The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
-
-   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
-
-#### To edit your team list
-
- * If you notice that your team member list is inaccurate, select **Edit team** to add or remove team members, as shown here:
-
-   ![Update team members](../../images/mya/use/edit-team75-75-80.png)
-
-Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
-
-## Pin the add-in
-
-If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.  
-
-**To pin the add-in to the quick access pane**
-
-1. In Outlook on the web, select the **Settings** (gear) icon to open the **Settings** panel:
-
-    ![OWA Settings panel](../../images/mya/use/owa-settings.png) 
-
-2. In the **Settings** panel, select **View all Outlook Settings**.
-
-3. Be sure **Mail** is selected in the left panel, and in the center panel, select **Customize actions**:
-
-    ![Customize actions](../../images/mya/use/customize-actions.png) 
-
-4. In the right pane, in the **Message surface** area, select **Insights**:
-
-    ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png) 
-
-5. In the right pane, in the **Toolbar** area, select **Insights**:
-
-    ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
-
-6. Save your new settings:
-
-    ![Save settings](../../images/mya/use/save-settings.png) 
-
-## Privacy by design 
-
-[!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
-
-<!-- PER PETERB 23 JULY 2019: DO NOT PUBLISH THIS. 
-IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH. 
-
-## To add tasks to your focus time
-
-1.    In Outlook, select **Insights**.
-
-2.    In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
-
-3.    On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
-
-     * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
-
-       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
-
-     * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
-
-       Select **Add** to add this task to the already scheduled focus time block on your calendar.  
-     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** panel.
-
--->
-
-## Opt out of the Insights Outlook add-in
-
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon in the top right.
-
-    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under MyAnalytics, select **Settings**.
-4. For **Insights Outlook add-in**, set the control to **Off**.
-
-    ![Slider in off position](../../Images/mya/use/add-in-opt-in-out.png)
-  
-5. Select **Save** to save your changes.
-
-> [!NOTE]
-> It might take up to 24 hours for your saved changes to take effect.
-
-### If I am opted out, can I opt back in?
-
-Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
