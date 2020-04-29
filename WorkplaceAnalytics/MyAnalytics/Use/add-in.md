@@ -34,15 +34,15 @@ You'll see Insights similar to the following in the right pane in Outlook:
 
 ## Plan your time away
 
-Taking time off from work helps reduce stress and burnout and improve work-life balance and overall wellbeing. However, research shows that a lack of planning can reduce the benefits of taking vacation.
+Taking time off from work helps reduce stress and burnout and improve overall wellbeing. However, research shows that a lack of planning can reduce the benefits of taking a vacation.
 
-The Insights checklist can help reduce the stress of planning for upcoming time off work. This single tool helps you:
+The Plan your time away Insights checklist can help reduce the stress of planning for upcoming time off work. This single tool helps you:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
 * Compose your autoreplies and notify your team about your planned time off.
 * Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
 
-You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
+You can plan your schedule with these options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
 
 ![Insights plan your time away task list](../../images/mya/use/insights-time-away.png)
 
@@ -54,7 +54,7 @@ You can plan your schedule with these planning options all at one time or indivi
    * **Select dates** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
 
      > [!Tip]
-     > Updating your calendar with an Out of Office information is a best practice that’ll set the right expectations with co-workers looking to connect with you. 
+     > Updating your calendar with Out of Office information is a best practice that’ll set the right expectations with co-workers looking to connect with you. 
 
      ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
 
