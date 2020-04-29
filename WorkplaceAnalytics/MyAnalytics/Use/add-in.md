@@ -66,19 +66,22 @@ You can plan your schedule with these planning options all at one time or indivi
 
      ![Insights notify collaborators](../../images/mya/use/insights-notify.png)
 
-   * **Resolve meetings** - You'll see a list of meetings you either organized or accepted that occur during your time away.
+   * **Resolve meetings** - You'll see a list of meetings you either organized or accepted for while you're away.
 
      * **Decline and cancel meetings with this message** - Edit the message that'll be sent to decline or cancel the meeting invitation.
      * **Select meetings to decline and cancel** - Select which meetings you want to decline or cancel, or use **Select all** to decline or cancel all the meetings listed. When you're done, select **Confirm**. You can also select **Open** next to a meeting to see more details about it.
+
+     > [!Tip]
+     > By using this option to quickly and easily resolve all your meetings, you're saving valuable planning time while also respecting your coworkers time.
 
        ![Insights resolve meetings](../../images/mya/use/insights-resolve-meetings.png)
 
    * **Book time to focus** - You can schedule time to focus on wrapping up work before you go, and then on catching up after you get back. Select the **plus sign** (+) next to the available **Focus time** slots, and then select **Done** to add them to your calendar.
 
-     ![Insights book focus time](../../images/mya/use/insights-focus-time.png)
+     > [!Tip]
+     > With this time scheduled, you'll know you have time to get everything done both before you go and after you get back.
 
-> [!Tip]
-> With this time scheduled, you get the peace of mind that you have time to get everything done both before you go and after you get back.
+     ![Insights book focus time](../../images/mya/use/insights-focus-time.png)
 
 ## Email read statistics
 
