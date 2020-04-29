@@ -20,10 +20,10 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |------|-----------|----------|---------|------------|
 |After hours collaboration |Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
 |After hours email hours |Number of hours the person spent sending email outside of working hours.|Person|Hour|Yes|
-|After hours in calls |Number of hours the person spent in calls, through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |Person|Hour|Yes|
-|After hours instant messages |Number of hours a person spent in instant messages through Teams outside of working hours. |Person|Hour|Yes|
+|After hours in calls |Number of hours a person spent in scheduled and unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |Person|Hour|Yes|
+|After hours instant messages |Number of hours a person spent in instant messages through Teams, outside of working hours. |Person|Hour|Yes|
 |After hours meeting hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
-|Call hours| The number of hours the person spent in Teams calls with at least one other person, during and outside of working hours.| Person| Hours| Yes |
+|Call hours| The number of hours the person spent in scheduled and unscheduled calls through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
 |Collaboration hours|Number of hours the person spent in meetings and on email with at least one other person. Collaboration hours include both internal and external hours. |Person|Hour|Yes|
 |Collaboration hours external|Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domains).|Person|Hour|No|
 |Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.)|Person|Hour|Yes|
@@ -40,8 +40,8 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Generated workload meeting attendees|Number of internal attendees in meetings organized by the person. (Counts each attendee once for each meeting.)|Person|Count|Yes|
 |Generated workload meeting hours|Number of meeting hours the person created for internal attendees by organizing meetings.|Person|Hour|Yes|
 |Generated workload meetings organized|Number of internal meetings organized by the person.|Person|Count|Yes|
-|Instant message hours | Number of hours spent by the person in instant messages (IMs) with at least one other person, through Teams, during and outside of working hours.| Person| Hours| Yes |
-|Instant messages sent | Total number of instant messages (IMs) or chats sent by the person as the initiator, through Teams, during and outside of working hours. Time composing IMs is estimated as 22 seconds and time reading IMs is estimated as 8 seconds| Person| Count| Yes |
+|Instant message hours | Number of hours a person spent in instant messages (IMs) through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
+|Instant messages sent | Total number of instant messages (IMs) sent by a person through Teams, during and outside of working hours. Time composing IMs is estimated as 22 seconds and time reading IMs is estimated as 8 seconds| Person| Count| Yes |
 |Internal network size|Number of people within the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes |
 |Low-quality meeting hours|Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](settings.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. |Person|Hour|Yes|
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
@@ -64,7 +64,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Redundant meeting hours (lower level) |Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting. <br> <br> This metric is _not_ used in calculating *Low-quality meeting hours*. Analysts can use this metric only when creating [Person queries](../tutorials/person-queries.md).|Person | Hour| Yes |
 |Redundant meeting hours (organizational) |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating *Low quality meeting hours*.  |Person|Hour|Yes|
 |Time in self-organized meetings|Number of hours spent in meetings organized by the person with at least one other person.|Person|Hour|Yes|
-|Total calls | Total number of calls the person initiated, through Teams, including scheduled and impromptu calls during and outside of working hours (as set in Outlook). | Person| Count | Yes |
+|Total calls | Total number of calls a person joined through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook). | Person| Count | Yes |
 |Total email sent during meeting | Number of emails the person sent during meetings. |Person|Count|Yes|
 |Total focus hours|Total number of hours with two or more hour blocks of time where the person had no meetings.|Person|Hour|Yes|
 |Working hours collaboration hours|Number of hours the person spent in meetings and sending emails during working hours.|Person|Hour|No|
