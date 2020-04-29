@@ -34,11 +34,9 @@ You'll see Insights similar to the following in the right pane in Outlook:
 
 ## Plan your time away
 
-Taking time off from work helps reduce stress and burnout and improve work-life balance and overall wellbeing.
+Taking time off from work helps reduce stress and burnout and improve work-life balance and overall wellbeing. However, research shows that a lack of planning can reduce the benefits of taking vacation.
 
-According to [When a Vacation Reduces Stress — And When It Doesn’t](https://hbr.org/2014/02/when-a-vacation-reduces-stress-and-when-it-doesnt), “poorly planned and stressful vacations eliminate the positive benefit of time away.”
-
-The Insights checklist can help you plan for your upcoming time away from work. This single tool helps you:
+The Insights checklist can help reduce the stress of planning for upcoming time off work. This single tool helps you:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
 * Compose your autoreplies and notify your team about your planned time off.
