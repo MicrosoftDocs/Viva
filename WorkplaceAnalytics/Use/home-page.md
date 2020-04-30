@@ -13,19 +13,19 @@ ms.prod: wpa
 
 As a business leader, an analyst, or a program manager, you can use these pages to see analysis scope information and research-based behavioral insights into how your organization gets work done.
 
-![Home page](../images/wpa/use/wpa-home-1.png)
+![Home page](../images/wpa/use/wpa-home.png)
 
 ## Analysis scope
 
-The top right of the page shows who is included in this analysis. This data is based on the most recent organizational data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](organizational-data.md).
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](organizational-data.md) and [Office 365 data](office-365-data.md).
 
 ## Employee experience
 
-A positive employee experience reduces turnover, boosts productivity, and leads to happier employees.
+Research shows that happy employees help boost productivity and reduce turnover. These insights and suggestions can help you maintain positive employee experiences, such as evaluating how much time your organization is working after hours on email or instant messages.
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
-![Employee experience](../images/wpa/use/employee-exp.png)
+![Employee experience](../images/wpa/use/employee-exp-1.png)
 
 ## Organizational agility
 
@@ -33,7 +33,7 @@ Nimble companies can efficiently adapt to market changes and gain a true competi
 
 For example, do your employees have time to focus on their work? Research shows that employees who have time to focus on deep work can master difficult tasks and produce higher quality work.
 
-![Organizational agility](../images/wpa/use/org-agility.png)
+![Organizational agility](../images/wpa/use/org-agility-1.png)
 
 ## Customer focus
 
@@ -41,7 +41,7 @@ Show your customers you value them and their business by creating deep connectio
 
 For example, are your employees engaged often and deeply with customers? Research shows that fully engaged customers deliver a 23 percent premium over average in share of wallet, profitability, revenue, and relationship growth.
 
-![Customer focus](../images/wpa/use/customer-focus.png)
+![Customer focus](../images/wpa/use/customer-focus-1.png)
 
 ## Supporting evidence and Best practices
 
@@ -65,9 +65,9 @@ As an analyst or program manager, you'll also see an option to **View recommende
 
 ## About the metrics
 
-The following describes the metrics used in each of the business insight questions.
+The following describes how the metrics are calculated to support the behavioral insights for each of the business insight questions.
 
-|Question |Metric description  |
+|Business insight question |Metric description  |
 |---------|--------------------|
 |Are employees getting enough time with their managers? |One-on-one time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Are employees working after hours? |After-hours work is the number of hours employees spend in meetings and on email outside of working hours. This uses the working hours set in the employee's Outlook calendar settings. |
