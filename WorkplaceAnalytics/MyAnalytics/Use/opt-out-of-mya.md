@@ -16,7 +16,7 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out:
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Insights Outlook add-in](../use/add-in.md).
 * You will stop receiving [inline suggestions](../use/mya-notifications.md) and [weekly digests](../use/email-digest-2.md).
-* Your email activity will not be included in other users' [email read statistics](../use/add-in.md#email-read-statistics).
+* Your email activity will not be included in other users' [email open rates](../use/use-the-insights.md#track-email-and-document-open-rates).
 
 ## To opt out of MyAnalytics
 

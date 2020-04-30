@@ -189,7 +189,7 @@ The Insights add-in reports the open rate within 30 minutes of when qualifying e
    | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
    | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
-MyAnalytics respects user privacy; this is why approximated values are reported and individual recipient information is not shown. For more details, see the [Email read rates](../overview/privacy-guide.md#email-read-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
+MyAnalytics respects user privacy; this is why approximated values are reported and individual recipient information is not shown. For more details, see [Email read rates and document open rates](../overview/privacy-guide.md#email-read-rates-and-document-open-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
 
 **To see read information about sent emails**
 
@@ -205,15 +205,15 @@ MyAnalytics respects user privacy; this is why approximated values are reported 
      > [!Note] 
      > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.   
 
-     ![Doc open rate exceeds email open rate](../../Images/mya/use/docs-exceed-emails-51.png) 
+     ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png) 
 
    b. The **Track email open rates** card. This card provides read statistics for all sent emails.  
 
-     ![Track email open rates](../../Images/mya/use/step-1-track-open-rates.png)
+     ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
 
     The panel in the card that you selected (in either step 2a. or step 2b.) states the email subject line and shows a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
-    ![Email open rates](../../Images/mya/use/step-2-four-emails.png)
+    ![Email open rates](../../images/mya/use/step-2-four-emails.png)
 
 
 ## Catch up with your team
@@ -230,7 +230,7 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
 #### To use the catch up feature
 
-1. On the **Home** ribbon of Microsoft Outlook, [open Insights](#what-you-might-see).
+1. On Outlook or in Outlook on the web, [open the Insights add-in](add-in.md/#open-the-insights-add-in).
 
 2. Select **Catch up with your team**:
 

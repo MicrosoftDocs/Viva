@@ -117,7 +117,7 @@ Similarly, MyAnalytics tracks the percentage of recipients who opened a document
 
 People managers often have hectic schedules and it can be tough to stay in close contact with each team member. MyAnalytics brings together all the information managers need to stay caught up and respond quickly to important requests.
 
-For example, the [Catch up with your team](../use/add-in.md#catch-up-with-your-team) feature in the [Insights add-in](../use/add-in.md) helps managers schedule regular 1:1 time, respond quickly to unread emails, close out important tasks, and more.
+For example, the [Catch up with your team](../use/use-the-insights.md#catch-up-with-your-team) feature in the [Insights add-in](../use/add-in.md) helps managers schedule regular 1:1 time, respond quickly to unread emails, close out important tasks, and more.
 
    ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
 
@@ -125,7 +125,7 @@ All assistance for managers in MyAnalytics relies exclusively on information fro
 
 Managers are identified by using Azure Active Directory. The feature is only available to users who have direct reports listed in Azure AD.
 
-Managers have the option to [edit their team list](../use/add-in.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their MyAnalytics experience, and are not synchronized back to Azure AD.
+Managers have the option to [edit their team list](../use/use-the-insights.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their MyAnalytics experience, and are not synchronized back to Azure AD.
 
 ## Privacy settings
 
