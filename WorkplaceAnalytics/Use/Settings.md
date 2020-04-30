@@ -6,6 +6,8 @@ author: madehmer
 ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
+search.appverid:
+- MET150
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -188,7 +190,7 @@ For example, you could run a query with the subject-line keyword "All-hands." Ba
 
 You can exclude data from specific domains or that includes specific email addresses:
 
-* In **Exclude domains**, you can enter one or more domains to exclude from analysis. Any email or meetings that have people included in these domains will be excluded from any queries.
+* In **Exclude domains**, you can enter one or more domains to exclude from analysis. Any email, meetings, calls, or instant messages that have people included in these domains will be excluded from any queries.
 
 * In **Exclude email addresses**, you can enter email addresses to exclude from analysis. Any email and meetings that have these email addresses (as either sender or recipient, and attendee or invitee) are now excluded from analysis. For this setting, you need to enter every email address for each alias that you want to exclude.
 
@@ -248,7 +250,7 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 
 ### Manager settings
 
-On the **Manager settings** page, you can allow all measured managers or specific managers access to aggregate collaboration insights about their team and the ability to start plans for their team in Workplace Analytics. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics.
+On the **Manager settings** page, you can allow all measured managers or specific managers access to aggregate collaboration insights about their team and the ability to start plans for their team in Workplace Analytics. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics. The size of the team counts the group manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
 
 The following are based on the latest organizational (HR) data that's been successfully uploaded and processed in Workplace Analytics:
 
