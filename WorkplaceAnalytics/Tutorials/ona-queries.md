@@ -66,5 +66,3 @@ The following columns are included in the query results for ONA queries:
 [Metric descriptions](../use/metric-definitions.md)
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
-
-
