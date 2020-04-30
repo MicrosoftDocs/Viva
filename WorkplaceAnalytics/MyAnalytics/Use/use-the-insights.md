@@ -1,6 +1,6 @@
 ---
 
-title: Use the Insights
+title: Use the insights
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
 ms.author: v-pausch
@@ -10,16 +10,87 @@ ms.prod: mya
 
 ---
 
-# Use the Insights
+# Use the insights
 
-The information in this section helps you get the most out of the following Insights:
+The following sections help you get the most out of the insights that assist you in these ways:
 
- * _View outstanding tasks_: [Follow up on your tasks](#follow-up-on-your-tasks)
- * _Prepare for your meetings_: [Meeting preparation](#meeting-preparation)
- * _Stay in contact with team members and respond quickly to important requests_: [Catch up with your team](#catch-up-with-your-team)
- * _Track open rates among recipients of emails and documents_: [Email and document open rates](#email-and-document-open-rates)
+ * [Follow up on your tasks](#follow-up-on-your-tasks)
+ * [Prepare for your meetings](#prepare-for-your-meetings)
+ * [Catch up with your team](#catch-up-with-your-team)
+ * [Track email and document open rates](#track-email-and-document-open-rates)
+
+ ## Follow up on your tasks
+
+MyAnalytics can help you follow up on requests you asked of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails. For example:
+
+* "Can you send me this year's latest report?"
+* "Everyone, please complete your performance evaluations by the end of the week."
+* "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
+
+For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary card in your Outlook Insights panel.
+
+**To see your follow-up card**
+
+1. On the Outlook **Home** ribbon, select the **Insights** icon.
+2. In the **Insights** panel, you'll see the **Follow up on your requests** card.
+
+   ![Follow-up card](../../Images/mya/use/follow-up-340.PNG)
+
+3. Select the card to see more details and to do one or more of the following:
+
+   * Select the email subject line from which the task was extracted to open that specific email.
+   * Select **Follow up** to open the latest instance of the email.
+   * Select **Mark as done** if the task is complete. Follow-ups disappear after two weeks or after you mark them as done.
+   * If this task isn't a follow-up, select the **ellipsis** (**…**) at bottom right, and then select This isn't' a follow up.
+
+   ![Follow-up card details](../../Images/mya/use/follow-up-details-340.PNG)
+
+> [!Note]
+> This card is only available in English.
+
+
+## Prepare for your meetings
+
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](../use/mya-adoption/MyAnalytics-meetings-september-2018.pdf).
+
+The meeting preparation card shows you a list of upcoming meetings that you have organized, and it helps you evaluate whether each meeting is ready to go. 
+
+#### To view and use the meeting preparation card
+
+1. On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn't already open, it opens now. 
+
+2. On the **Insights** panel, locate the **Prepare for your meetings** card: 
+ 
+    ![Meeting preparation card](../../Images/mya/use/meeting-prep-card.png)
+
+    This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
+
+3. Select the **Prepare for your meetings** card. This opens a panel that displays insights cards for each of your upcoming meetings: 
+
+    ![Meeting preparation panel](../../Images/mya/use/meeting-prep-panel.png)
+ 
+These insights cards inform you of the following:
+
+| Card section | Notes | Recommendations |
+| ------------ | ----- | --------------- |
+| (Card title) | Meeting title and time of occurrence |
+| Attendees    | The percentage of invitees who have accepted, and the number of invitees. Click **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
+| Agenda       | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. |
+| Attachments  | This section shows how many attachments the invitation has, it displays their titles and their storage location (online or locally), and it lets you click to see more details. It also provides a link that you can select to open the attachment, if the attachment is stored online. |  
+| Online meeting link | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online. | **Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one.  |
+| Preparation time | This section provides options to book either 15 minutes or 30 minutes of preparation time right before the meeting. This option only appears if there is an available slot. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time.  |
+
+_This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
+
+![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
+
+
 
 <!-- WHEN DO WE REVIVE THIS SECTION?? 
+
+Per Vivek, in email on 27 March 2020:
+
+     "Lets hold on this ("Plan your time away") card for now. We are going to keep this in MSIT for more testing before worldwide rollout and will get back to you once done."
 
 ## Plan your time away
 
@@ -75,7 +146,7 @@ You can plan your schedule with these planning options all at one time or indivi
 <!-- AFTER THIS POINT, THIS DOC IS READY TO GO -->
 
 
-## Email and document open rates
+## Track email and document open rates
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
@@ -176,70 +247,4 @@ This feature is only available for MyAnalytics users who have direct reports lis
    ![Update team members](../../images/mya/use/edit-team75-75-80.png)
 
 Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
-
-
-## Meeting preparation
-
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](../use/mya-adoption/MyAnalytics-meetings-september-2018.pdf).
-
-The meeting preparation card shows you a list of upcoming meetings that you have organized, and it helps you evaluate whether each meeting is ready to go. 
-
-#### To view and use the meeting preparation card
-
-1. On the **Home** ribbon of Outlook, select the **Insights** icon. If the **Insights** panel isn't already open, it opens now. 
-
-2. On the **Insights** panel, locate the **Prepare for your meetings** card: 
- 
-    ![Meeting preparation card](../../Images/mya/use/meeting-prep-card.png)
-
-    This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
-
-3. Select the **Prepare for your meetings** card. This opens a panel that displays insights cards for each of your upcoming meetings: 
-
-    ![Meeting preparation panel](../../Images/mya/use/meeting-prep-panel.png)
- 
-These insights cards inform you of the following:
-
-| Card section | Notes | Recommendations |
-| ------------ | ----- | --------------- |
-| (Card title) | Meeting title and time of occurrence |
-| Attendees    | The percentage of invitees who have accepted, and the number of invitees. Click **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
-| Agenda       | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. |
-| Attachments  | This section shows how many attachments the invitation has, it displays their titles and their storage location (online or locally), and it lets you click to see more details. It also provides a link that you can select to open the attachment, if the attachment is stored online. |  
-| Online meeting link | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online. | **Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one.  |
-| Preparation time | This section provides options to book either 15 minutes or 30 minutes of preparation time right before the meeting. This option only appears if there is an available slot. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time.  |
-
-_This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
-
-![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
-
-
-## Follow up on your tasks
-
-MyAnalytics can help you follow up on requests you asked of others in email. MyAnalytics will automatically find tasks you requested of others based on your sent mails. For example:
-
-* "Can you send me this year's latest report?"
-* "Everyone, please complete your performance evaluations by the end of the week."
-* "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
-
-For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary card in your Outlook Insights panel.
-
-**To see your follow-up card**
-
-1. On the Outlook **Home** ribbon, select the **Insights** icon.
-2. In the **Insights** panel, you'll see the **Follow up on your requests** card.
-
-   ![Follow-up card](../../Images/mya/use/follow-up-340.PNG)
-
-3. Select the card to see more details and to do one or more of the following:
-
-   * Select the email subject line from which the task was extracted to open that specific email.
-   * Select **Follow up** to open the latest instance of the email.
-   * Select **Mark as done** if the task is complete. Follow-ups disappear after two weeks or after you mark them as done.
-   * If this task isn't a follow-up, select the **ellipsis** (**…**) at bottom right, and then select This isn't' a follow up.
-
-   ![Follow-up card details](../../Images/mya/use/follow-up-details-340.PNG)
-
-> [!Note]
-> This card is only available in English.
 
