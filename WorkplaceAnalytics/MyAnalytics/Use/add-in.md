@@ -28,7 +28,7 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or in Outlook on the web), you'll see a number of insights in the right pane. For example:
 
 ![Insights icon](../../images/mya/overview/insights-view.png)
-![Insights panel](../../images/mya/overview/insights-cards-14.png)
+![Insights pane](../../images/mya/overview/insights-cards-14.png)
 
 ## Open the Insights add-in
 
@@ -56,25 +56,25 @@ If you're using Outlook on the web, you can pin the Insights add-in to the quick
 
 **To pin the add-in to the quick access pane**
 
-1. In Outlook on the web, select the **Settings** (gear) icon to open the **Settings** panel:
+1. In Outlook on the web, select the **Settings** (gear) icon.
 
-    ![OWA Settings panel](../../images/mya/use/owa-settings.png) 
+    ![OWA Settings pane](../../images/mya/use/owa-settings.png) 
 
-2. In the **Settings** panel, select **View all Outlook Settings**.
+2. In **Settings**, select **View all Outlook Settings**.
 
-3. Be sure **Mail** is selected in the left panel, and in the center panel, select **Customize actions**:
+3. Be sure **Mail** is selected in the left pane, and in the center pane, select **Customize actions**.
 
     ![Customize actions](../../images/mya/use/customize-actions.png) 
 
-4. In the right pane, in the **Message surface** area, select **Insights**:
+4. In the right pane, in the **Message surface** area, select **Insights**.
 
     ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png) 
 
-5. In the right pane, in the **Toolbar** area, select **Insights**:
+5. In the right pane, in the **Toolbar** area, select **Insights**.
 
     ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
 
-6. Save your new settings:
+6. Save your new settings.
 
     ![Save settings](../../images/mya/use/save-settings.png) 
 
@@ -85,7 +85,7 @@ If you're using Outlook on the web, you can pin the Insights add-in to the quick
 ## Opt out of the Insights Outlook add-in
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon in the top right.
+2. Select the **Settings** (gear) icon at top right.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
@@ -110,7 +110,7 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
 
 1.    In Outlook, select **Insights**.
 
-2.    In the Insights panel, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** panel.
+2.    In the Insights pane, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** pane.
 
 3.    On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
 
@@ -121,6 +121,6 @@ IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH.
      * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
 
        Select **Add** to add this task to the already scheduled focus time block on your calendar.  
-     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** panel.
+     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** pane.
 
 -->
