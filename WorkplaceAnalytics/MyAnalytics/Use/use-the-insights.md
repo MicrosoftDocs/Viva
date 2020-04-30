@@ -230,7 +230,7 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
 #### To use the catch up feature
 
-1. On Outlook or in Outlook on the web, [open the Insights add-in](add-in.md/#open-the-insights-add-in).
+1. On Outlook or in Outlook on the web, [open the Insights add-in](add-in.md#open-the-insights-add-in).
 
 2. Select **Catch up with your team**:
 
