@@ -200,8 +200,12 @@
           href: MyAnalytics/Use/MyA-elements.md
         - name: Dashboard
           href: MyAnalytics/Use/dashboard-2.md
-        - name: Add-in
-          href: MyAnalytics/Use/add-in.md
+        - name: Insights add-in
+          items:
+            - name: Insights add-in
+              href: myanalytics/use/add-in.md
+            - name: Use the Insights
+              href: myanalytics/use/use-the-insights.md
         - name: Digests
           items:
             - name: Welcome
