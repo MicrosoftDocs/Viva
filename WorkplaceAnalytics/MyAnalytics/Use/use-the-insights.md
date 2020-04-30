@@ -228,7 +228,7 @@ As a manager, you can:
 
 This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
 
-#### To use the catch up feature
+#### To use the catch-up feature
 
 1. On Outlook or in Outlook on the web, [open the Insights add-in](add-in.md#open-the-insights-add-in).
 
