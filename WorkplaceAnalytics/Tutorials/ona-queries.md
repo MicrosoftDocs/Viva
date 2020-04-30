@@ -66,9 +66,3 @@ The following columns are included in the query results for ONA queries:
 [Metric descriptions](../use/metric-definitions.md)
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
-
-For more information about achieving organizational change, see these articles from the _Harvard Business Review_: 
-
-[The Network Secrets of Great Change Agents](https://hbr.org/2013/07/the-network-secrets-of-great-change-agents)
-
-[Convincing Skeptical Employees to Adopt New Technology](https://hbr.org/2015/03/convincing-skeptical-employees-to-adopt-new-technology)
