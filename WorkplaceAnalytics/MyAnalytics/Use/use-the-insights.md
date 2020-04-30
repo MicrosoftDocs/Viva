@@ -16,8 +16,8 @@ The following sections help you get the most out of the insights that assist you
 
  * [Follow up on your tasks](#follow-up-on-your-tasks)
  * [Prepare for your meetings](#prepare-for-your-meetings)
- * [Catch up with your team](#catch-up-with-your-team)
  * [Track email and document open rates](#track-email-and-document-open-rates)
+ * [Catch up with your team](#catch-up-with-your-team)
 
  ## Follow up on your tasks
 
@@ -137,13 +137,6 @@ You can plan your schedule with these planning options all at one time or indivi
 
 ![Insights welcome back](../../images/mya/overview/insights-welcome-back.png)
 -->
-
-
-
-<!-- AFTER THIS POINT, THIS DOC IS READY TO GO -->
-<!-- AFTER THIS POINT, THIS DOC IS READY TO GO -->
-<!-- AFTER THIS POINT, THIS DOC IS READY TO GO -->
-<!-- AFTER THIS POINT, THIS DOC IS READY TO GO -->
 
 
 ## Track email and document open rates
