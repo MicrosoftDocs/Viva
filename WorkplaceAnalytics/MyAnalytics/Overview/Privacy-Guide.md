@@ -101,19 +101,17 @@ Also note that, if the person chooses to send Windows 10 activity history to MyA
 
 In a few cases, MyAnalytics provides people with *de-identified* information on other people that would not have otherwise been available to them, such as for Email read rates.
 
-### Email read rates
+### Email read rates and document open rates
 
 MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
 However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate is displayed as a range, greater than or less than a certain threshold value that depends on the number of recipients of the email.
 
-<!-- 
-![Email read rates](../../Images/mya/use/email-read-rates-2.png)
--->
-
 This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when they open a message in the Outlook preview pane. For others, they might need to double-click to open the message to mark it as "read."
 
-People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Office 365 environment, and then delivered to the sender’s mailbox.
+People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the "read" flag is copied within the Office 365 environment, and then delivered to the sender's mailbox.
+
+Similarly, MyAnalytics tracks the percentage of recipients who opened a document that was shared as a link or as an attachment in an email that a person sends to five or more people. This metric calculation is based on whether recipients have opened shared documents that are stored in SharePoint or in OneDrive for Business. 
 
 ## Assistance for people managers
 
