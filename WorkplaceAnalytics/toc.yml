@@ -204,7 +204,7 @@
           items:
             - name: Insights add-in
               href: myanalytics/use/add-in.md
-            - name: Use the Insights
+            - name: Use Insights
               href: myanalytics/use/use-the-insights.md
         - name: Digests
           items:
