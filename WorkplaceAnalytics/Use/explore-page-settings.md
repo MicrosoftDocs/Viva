@@ -1,7 +1,7 @@
 ---
 
 title: Explore page settings
-description: Describes page setting options for Explore pages in Workplace Analytics
+description: Describes the page settings for Explore pages in Workplace Analytics
 author: madehmer
 ms.author: v-midehm
 ms.topic: article
@@ -52,7 +52,6 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 > * A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to the last Saturday of the selected range.
 > * For a week that starts in one month and ends in the following month, the data is associated with the month in which the week begins.
 
-
 ### To change or add filters
 
 By default, the Explore pages are filtered to show active employees only. Active employees are those who have participated in at least one Office 365 collaboration activity during the set date range (the time period set for the query).
@@ -64,7 +63,7 @@ By default, the Explore pages are filtered to show active employees only. Active
 3. Next to **Filters**, select the **Edit** (pencil) icon.  
 4. In **Edit page filters**, you can change the **Employees** filter: 
 
-   * **All employees** - Includes inactive and active employees included in the measured population.
+   * **All employees** - Includes inactive and active employees for the set date range.
    * **Active only** - Includes only active employees who have participated in at least one Office 365 collaboration activity for the set date range.
    * **Inactive only** - Includes only those employess who have not participated in any Office 365 collaboration activity for the set date range.
  
