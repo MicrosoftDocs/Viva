@@ -110,5 +110,5 @@ Workweek span captures the span of time an employee spends in work-related activ
 
 ## Related topics
 
-[Explore page settings](../use/explore-page-settings.md)
-[Workplace Analytics Charts](../use/chart-types.md)
+* [Explore page settings](../use/explore-page-settings.md)
+* [Workplace Analytics Charts](../use/chart-types.md)
