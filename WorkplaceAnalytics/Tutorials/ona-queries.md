@@ -25,7 +25,7 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 **Role:** analyst
 
 1.	In Workplace Analytics, select **Analyze > Queries**.
-2.	Under **Start custom query**, select **Network: Person**:
+2.	Under **Start custom query**, select **Network: Person**
 
     ![ONA person query](../images/wpa/tutorials/person-ona-query.png)
 
@@ -34,8 +34,8 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 
     > [!Note] 
     > Currently, for ONA queries, you cannot select the following:
-    > * a specific meeting-exclusion rule 
     > * the auto-refresh option 
+    > * a specific meeting-exclusion rule 
 
 5.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
 6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
