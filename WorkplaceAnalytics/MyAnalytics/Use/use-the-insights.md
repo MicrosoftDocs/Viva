@@ -188,7 +188,7 @@ Any changes you make apply only to your MyAnalytics experience; they do not sync
 
 Taking time off from work helps reduce stress and burnout and improve overall wellbeing. However, research shows that a lack of planning can reduce the benefits of taking a vacation.
 
-The Plan your time away Insights checklist can help reduce the stress of planning for upcoming time off work. This single tool helps you:
+The Plan your time away Insights checklist can help reduce the stress of planning for upcoming time away from work. This single tool helps you:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
 * Compose your autoreplies and notify your team about your planned time off.
