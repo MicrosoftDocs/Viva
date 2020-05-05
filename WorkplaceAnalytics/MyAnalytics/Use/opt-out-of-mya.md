@@ -60,7 +60,7 @@ You will use the answer to this question in the following procedure:
     ![Slider in off position](../../Images/mya/use/slider-off.png)
   
 7. Select **Save** to save your changes.
-8. Repeat steps 1 - 7 for each account that receives MyAnalytics emails. 
+8. Repeat steps 1 - 7 for each account whose MyAnalytics subscription you want to end. 
  
 ## If I opt out, can I opt back in?
 
