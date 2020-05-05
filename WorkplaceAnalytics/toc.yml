@@ -79,6 +79,8 @@
           items:
             - name: Insights
               href: ~/Use/home-page.md
+            - name: Manager insights
+              href: ~/Use/pm-home.md              
         - name: Analyze
           items:
             - name: Explore
@@ -137,8 +139,9 @@
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md                    
         - name: Plans
-          href: ~/tutorials/solutionsv2-intro.md
           items:
+            - name: Introduction
+              href: ~/tutorials/solutionsv2-intro.md
             - name: Plan types
               items:
                 - name: Teamwork plans
