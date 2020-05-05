@@ -14,10 +14,12 @@ ms.prod: mya
 
 The following helps you get the most out of the Insights Outlook add-in:
 
+
  * [Follow up on your tasks](#follow-up-on-your-tasks)
  * [Prepare for your meetings](#prepare-for-your-meetings)
  * [Track email and document open rates](#track-email-and-document-open-rates)
  * [Catch up with your team](#catch-up-with-your-team)
+ * [Plan your time away](#plan-your-time-away)
 
  ## Follow up on your tasks
 
@@ -27,7 +29,7 @@ MyAnalytics can help you follow up on requests you asked of others in email. MyA
 * "Everyone, please complete your performance evaluations by the end of the week."
 * "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
 
-For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary card in your Outlook Insights panel.
+For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary in your Outlook Insights panel.
 
 **To follow up on a task**
 
@@ -46,7 +48,7 @@ For one or more of these types of requests in your sent email in the last 14 day
    ![Follow-up card details](../../Images/mya/use/follow-up-details-340.PNG)
 
 > [!Note]
-> This card is only available in English.
+> This option is only available in English.
 
 
 ## Prepare for your meetings
@@ -72,69 +74,14 @@ In **Prepare for your meetings**, you'll see a list of upcoming meetings that yo
 | Option | Description | Tips |
 | ------------ | ----------- | --------------- |
 | Attendees    | The percentage of invitees who have accepted, and the number of invitees. Select **See details** for more information. | **Ensure that you have a quorum** before the meeting. Consider sending a reminder to attendees if you haven't heard from them. |
-| Agenda    | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** in the card. This opens the meeting invitation, where you can add an agenda. |
+| Agenda    | **Yes** or **No** indicates whether the meeting invitation includes an agenda. | **Agendas** often make a meeting run smoother. If your meeting requires an agenda, select **Agenda** to see the meeting invitation, where you can add an agenda. |
 | Attachments  | This section shows how many attachments the invitation has, it displays their titles and their storage location (online or locally), and it lets you click to see more details. It also provides a link that you can select to open the attachment, if the attachment is stored online. |  
 | Online meeting link | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online. | **Be an inclusive meeting organizer**. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one.  |
 | Preparation time | This section provides options to book either 15 minutes or 30 minutes of preparation time right before the meeting. This option only appears if there is an available slot. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | **Be prepared**. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time.  |
 
-_This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
+The following shows the **Attachments** section expanded to show more details about the attachments:
 
 ![Meeting preparation, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
-
-
-
-<!-- WHEN DO WE REVIVE THIS SECTION?? 
-
-Per Vivek, in email on 27 March 2020:
-
-     "Lets hold on this ("Plan your time away") card for now. We are going to keep this in MSIT for more testing before worldwide rollout and will get back to you once done."
-
-## Plan your time away
-
-Studies show that 70 percent of Americans don't use their paid time off. Taking time off work helps reduce stress and burnout, and improve work-life balance and overall wellbeing.
-
-You can use Insights to help you reduce stress by helping plan your time away on your calendar, including helping you:
-
-* Resolve all your meetings in one place with a custom message about your scheduled time off.
-* Compose your auto-reply messages and notify your team about your scheduled time off.
-* Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
-
-You can plan your schedule with these planning options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update what's done or not as you plan. For example, this shows only the first task as done:
-
-   ![Insights plan your time away task list](../../images/mya/overview/insights-plan-time-away.png)
-
-**To plan your time away**
-
-1. In the **Insights** pane, select **Plan your time away**.
-2. In **Select dates**, select the date range for your time off, and then select **Schedule**.
-
-   ![Insights select dates](../../images/mya/overview/insights-select-dates.png)
-
-3. In **Set automatic replies**, compose or edit the automatic reply message that people will receive when they send you messages or invites while you're away from work. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
-
-   ![Insights auto-reply email](../../images/mya/overview/insights-auto-reply.png)
-
-4. In **Notify collaborators**, select who you want to notify about your upcoming holiday plans, and then:
-
-   * Select **Open new email draft** to compose the message.
-   * Select **Open new meeting invitation** to add your scheduled time off on their calendars.
-
-5. In **Resolve meetings** > **Review meetings**, you can see all the meetings that are scheduled during your time off. Any meetings that you scheduled will be canceled and any meetings you're an attendee of will be declined:
-
-   * In **Decline and cancel meetings with this message**, edit the message that'll be sent with the meeting invitation decline or cancel message.
-   * In **Select meetings to decline or cancel**, select which meetings you want to cancel or decline, and then select **Confirm**. Or you can select **Open** next to a meeting to see more details, reschedule, and resolve if differently than the others on your calendar.
-
-    ![Insights resolve meetings](../../images/mya/overview/insights-resolve-meetings.png)
-
-6. In **Book time to focus**, Insights will show you a what time is available on your calendar to focus on wrapping up work before you go and on catching up after you get back.
-
-    ![Insights book focus time](../../images/mya/overview/insights-book-focus.png)
--->
-<!-- Coming soon-> When you get back, Insights helps you catch up on important email and review new documents and activity that occurred while you were away:
-
-![Insights welcome back](../../images/mya/overview/insights-welcome-back.png)
--->
-
 
 ## Track email and document open rates
 
@@ -146,7 +93,7 @@ Insights also tells you how many email recipients opened a document that you sha
 
 After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
 
-Insights shows the open rate for the sent email that is open in Outlook. It also groups open rate information for qualifying sent items into a single summary card that you can select and expand to see a more detailed view.
+Insights shows the open rate for the sent email that is open in Outlook. It also groups open rate information for qualifying sent items into a single summary that you can select and expand to see a more detailed view.
 
 ### Reporting details
 
@@ -188,23 +135,22 @@ MyAnalytics respects user privacy; this is why approximated values are reported 
    > [!Note] 
    > If you see a "Welcome!" message, select **Get started**.
 
-2. On the **Insights** panel, select one of the following two cards:
+2. On the **Insights** panel, select one of the following:
 
-   a. **In-context email open rate**. This card provides read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or SharePoint.  
+   a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or SharePoint.  
 
      > [!Note] 
      > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.   
 
      ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png) 
 
-   b. The **Track email open rates** card. This card provides read statistics for all sent emails.  
+   b. **Track email open rates** - Shows read statistics for all sent emails.  
 
      ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
 
-    The panel in the card that you selected (in either step 2a. or step 2b.) states the email subject line and shows a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
+    The pane that you selected (in either step 2a. or step 2b.) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
     ![Email open rates](../../images/mya/use/step-2-four-emails.png)
-
 
 ## Catch up with your team
 
@@ -238,3 +184,58 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
 Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
 
+## Plan your time away
+
+Taking time off from work helps reduce stress and burnout and improve overall wellbeing. However, research shows that a lack of planning can reduce the benefits of taking a vacation.
+
+The Plan your time away Insights checklist can help reduce the stress of planning for upcoming time off work. This single tool helps you:
+
+* Resolve all your meetings in one place with a custom message about your scheduled time off.
+* Compose your autoreplies and notify your team about your planned time off.
+* Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
+
+You can plan your schedule with these options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
+
+![Insights plan your time away task list](../../images/mya/use/insights-time-away.png)
+
+**To use Plan your time away**
+
+1. If Insights isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
+2. In the **Insights** pane, select **Plan your time away** to see a checklist of planning options.
+
+   * **Select dates** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
+
+     > [!Tip]
+     > Updating your calendar with Out of Office information is a best practice that’ll set the right expectations with co-workers looking to connect with you. 
+
+     ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
+
+   * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
+
+     ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
+
+   * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks. You can select to notify them through an email or meeting invitation, and then select **Compose**.
+
+     ![Insights notify collaborators](../../images/mya/use/insights-notify.png)
+
+   * **Resolve meetings** - You'll see a list of meetings you either organized or accepted for while you're away.
+
+     * **Decline and cancel meetings with this message** - Edit the message that'll be sent to decline or cancel the meeting invitation.
+     * **Select meetings to decline and cancel** - Select which meetings you want to decline or cancel, or use **Select all** to decline or cancel all the meetings listed. When you're done, select **Confirm**. You can also select **Open** next to a meeting to see more details about it.
+
+     > [!Tip]
+     > By using this option to quickly and easily resolve all your meetings, you're saving valuable planning time while also respecting your coworkers time.
+
+       ![Insights resolve meetings](../../images/mya/use/insights-resolve-meetings.png)
+
+   * **Book time to focus** - You can schedule time to focus on wrapping up work before you go, and then on catching up after you get back. Select the **plus sign** (+) next to the available **Focus time** slots, and then select **Done** to add them to your calendar.
+
+     > [!Tip]
+     > With this time scheduled, you'll know you have time to get everything done both before you go and after you get back.
+
+     ![Insights book focus time](../../images/mya/use/insights-focus-time.png)
+
+## Related topics
+
+* [Insights Outlook add-in](add-in.md)
+* [MyAnalytics elements](MyA-elements.md)
