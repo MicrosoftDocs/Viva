@@ -53,9 +53,9 @@ Create a Security group where pilot users can ask questions and submit feedback.
 
 It's crucial to the success of your pilot that you educate pilot participants on what's happening when and why, and what's expected of them. To drive excitement and maximum participation, be sure you include value messaging and links to Training and Support where users can get additional information throughout the pilot. The following resources are available to get you started with a pilot communications plan: 
 
-* [One-page Briefing overview](./includes/briefing-overview.docx) 
-* [Sample email introducing the Briefing email](./includes/email-to-introduce-briefing.docx) 
-* [Demo for the Adaptive version of the Briefing email](./includes/briefing-demo.gif) 
+* [One-page Briefing overview](briefing-overview.docx) 
+* [Sample email introducing the Briefing email](email-to-introduce-briefing.docx) 
+* [Demo for the Adaptive version of the Briefing email](briefing-demo.gif) 
  
 ## Pilot planning tips
 

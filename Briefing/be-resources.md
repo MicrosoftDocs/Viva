@@ -16,9 +16,9 @@ When you're ready to rollout the Briefing email to your organization or to a new
 
 You can use the following to help explain what the Briefing email is, when they will get it, and how to best use it:
 
-* [One-page Briefing overview](./includes/briefing-overview.docx) 
-* [Sample email introducing the Briefing email](./includes/email-to-introduce-briefing.docx) 
-* [Demo for the Adaptive version of the Briefing email](./includes/briefing-demo.gif)
+* [One-page Briefing overview](briefing-overview.docx) 
+* [Sample email introducing the Briefing email](email-to-introduce-briefing.docx) 
+* [Demo for the Adaptive version of the Briefing email](briefing-demo.gif)
  
  > [!Tip]
  > You can edit and customize the overview and email documents to include information specific about your company, such as a logo or custom header and footer information.  
