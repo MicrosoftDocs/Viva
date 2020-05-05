@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Explore management and coaching metrics in Workplace Analytics
 description: Overview of the management and coaching metrics in the Workplace Analytics Explore page
 author: madehmer
-ms.author: v-midehm
-ms.date: 06/17/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,15 +11,14 @@ ms.prod: wpa
 
 # Management and coaching
 
-**Management and coaching** in **Explore** summarizes collaboration between leaders, managers, and employees. As an analyst, you can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+**Management and coaching** in **Explore** summarizes collaboration between leaders, managers, and employees. As an analyst, you can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged vs. independent, and over-coached vs. under-coached. Employees who sent at least one email or instant message during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Management and coaching](../images/wpa/use/management-coaching.png)
 
 To open the **Management and coaching**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. In the left navigation pane, select **Analyze** and then select **Explore**.
-3. In **Explore**, select **Management and coaching**.
+2. Select **Analyze** > **Explore** > **Management and coaching**.
 
 ## Time with manager
 
@@ -81,5 +77,5 @@ Depending on roles, it can be important for employees to have time to meet with 
 
 ## Related topics
 
-[Explore page settings](../use/explore-page-settings.md)
-[Workplace Analytics Charts](../use/chart-types.md)
+* [Explore page settings](../use/explore-page-settings.md)
+* [Workplace Analytics Charts](../use/chart-types.md)
