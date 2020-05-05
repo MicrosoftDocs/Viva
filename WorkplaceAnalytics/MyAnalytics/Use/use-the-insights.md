@@ -206,7 +206,7 @@ You can plan your schedule with these options all at one time or individually as
    * **Select dates** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
 
      > [!Tip]
-     > Updating your calendar with Out of Office information is a best practice that’ll set the right expectations with co-workers looking to connect with you. 
+     > Updating your calendar with Out-of-office information is a best practice that’ll set the right expectations with coworkers who want to connect with you. 
 
      ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
 
