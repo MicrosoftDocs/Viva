@@ -33,9 +33,9 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
 
     > [!Note] 
-    > Currently, for ONA queries, you cannot select the following:
-    > * the auto-refresh option 
-    > * a specific meeting-exclusion rule 
+    > The options when building an ONA query are currently restricted, as follows: 
+    > * The auto-refresh option is unavailable. 
+    > * You cannot use a custom meeting-exclusion rule. The only choice is the "Tenant Default Meeting Exclusion Rule." 
 
 5.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
 6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
