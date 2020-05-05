@@ -91,7 +91,7 @@ See [Peer Comparison queries](../Tutorials/comparison-query.md) to learn more.
 
 ## Meeting exclusions
 
-You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
+You can use meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
 See [Meeting exclusions](../Tutorials/meeting-exclusions-intro.md) to learn more.
 

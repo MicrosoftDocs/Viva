@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Workplace Analytics plans
 
-By combining the capabilities of Workplace Analytics and MyAnalytics, the _plans_ feature helps you transform insights from Workplace Analytics into targeted change plans across your organization. Targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals. By using the plans feature, you can, for example:  
+By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your organization. Targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals. By using the plans feature, you can, for example:  
 
 1.	Use Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
 

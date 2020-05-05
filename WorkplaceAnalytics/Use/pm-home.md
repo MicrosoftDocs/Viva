@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Insights for people managers
+# Workplace Analytics insights for people managers
 
 > [!Note]
 > Only managers assigned the **Group manager** role in Workplace Analytics can see these insights.
@@ -61,7 +61,7 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 
 ## Frequently asked questions
 
-### Q1 How do these Insights accommodate different partitions?
+### Q1 How do these insights accommodate different partitions?
 
 These insights are only about the participants who are included in the selected partition.
 
@@ -92,7 +92,7 @@ Teams like yours metrics use other teams in the same hierarchy that report to th
 
 This capability in not available, but might be included in a future release.
 
-### Q8 Why are some employees in my team not eligible to enroll in Plans?
+### Q8 Why are some employees in my team not eligible to enroll in plans?
 
 Employees might not be eligible for a plan if:
 
