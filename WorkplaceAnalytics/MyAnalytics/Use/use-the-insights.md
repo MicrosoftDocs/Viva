@@ -29,7 +29,7 @@ MyAnalytics can help you follow up on requests you asked of others in email. MyA
 * "Everyone, please complete your performance evaluations by the end of the week."
 * "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
 
-For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary in your Outlook Insights panel.
+For one or more of these types of requests in your sent email in the last 14 days, you'll see a follow-up summary in the Outlook Insights pane.
 
 **To follow up on a task**
 
@@ -130,12 +130,12 @@ MyAnalytics respects user privacy; this is why approximated values are reported 
 
 **To see read information about sent emails**
 
-1. On the **Home** ribbon, select the **Insights** icon. If the Insights panel isn't already open, it opens now.
+1. If the Insights pane isn't already open, select the **Insights** icon in the Outlook **Home** ribbon to open it.
 
    > [!Note] 
    > If you see a "Welcome!" message, select **Get started**.
 
-2. On the **Insights** panel, select one of the following:
+2. In **Insights**, select one of the following:
 
    a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or SharePoint.  
 
@@ -148,7 +148,7 @@ MyAnalytics respects user privacy; this is why approximated values are reported 
 
      ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
 
-    The pane that you selected (in either step 2a. or step 2b.) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
+    The option you selected (in step 2a or step 2b) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
     ![Email open rates](../../images/mya/use/step-2-four-emails.png)
 

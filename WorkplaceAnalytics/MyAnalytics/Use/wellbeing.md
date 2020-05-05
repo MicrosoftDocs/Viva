@@ -34,7 +34,7 @@ For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, a
 
 * **Take a break when at work**: Go enjoy a meal with your team or take a break from work. You'll give your brain a break, grow your network, and help boost your productivity and professional success.
 
-* **Plan time away from work**: Time away from work reduces stress and improves your wellbeing. Use Insights to [plan your time away](../use/add-in.md#plan-your-time-away). Resolve meetings that occur while you're away, compose your auto-reply notifications, and book focus time to wrap up tasks before you go and catch up when you get back.
+* **Plan time away from work**: Time away from work reduces stress and improves your wellbeing. Use Insights to [plan your time away](../use/use-the-insights.md#plan-your-time-away). Resolve meetings that occur while you're away, compose your auto-reply notifications, and book focus time to wrap up tasks before you go and catch up when you get back.
 
 * **Be a thoughtful coworker!** Establishing quiet hours with no meetings or email can lead to better teamwork:
 
