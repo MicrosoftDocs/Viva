@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Explore External collaboration metrics in Workplace Analytics
 description: An overview of the External collaboration dashboards available in Workplace Analytics.
 author: paul9955
-ms.author: v-midehm
-ms.date: 06/17/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -24,8 +21,7 @@ ms.prod: wpa
 To open **External collaboration**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. In the left navigation pane, select **Analyze** and then select **Explore**.
-3. In **Explore**, select **External collaboration**.
+2. Select **Analyze** > **Explore** > **External collaboration**.
 
 External collaboration features various graphs whose titles suggest different ways to analyze your company's external collaboration activity. Each graph enables you to manipulate data based on menu settings you select and apply to view data in different ways, such as collaboration hours or collaboration cost.
 
@@ -229,7 +225,7 @@ In the bubble graph, if the bubble for your organization is found at the top rig
 
 ## Page settings
 
- You can use **Page settings**, which is common to all sections of Explore, to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters. For more information, see [Page settings and filters](chart-types.md#page-settings-and-filters).
+ You can use **Page settings**, which is common to all sections of Explore, to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters. For more information, see [Settings and filters for explore](explore-page-settings.md).
 
 ![Page settings](../images/wpa/use/37-ext-collab-page-settings-home.png)
 
@@ -260,4 +256,5 @@ You can use the **Collaborators** section to group users by Collaborators, which
 
 ## Related topics
 
-[Workplace Analytics Charts](../use/chart-types.md)
+* [Explore page settings](../use/explore-page-settings.md)
+* [Workplace Analytics Charts](../use/chart-types.md)
