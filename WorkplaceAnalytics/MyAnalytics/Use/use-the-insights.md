@@ -188,7 +188,7 @@ Any changes you make apply only to your MyAnalytics experience; they do not sync
 
 Taking time off from work helps reduce stress and burnout and improve overall wellbeing. However, research shows that a lack of planning can reduce the benefits of taking a vacation.
 
-The Plan your time away Insights checklist can help reduce the stress of planning for upcoming time off work. This single tool helps you:
+The Plan your time away Insights checklist can help reduce the stress of planning for upcoming time away from work. This single tool helps you:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
 * Compose your autoreplies and notify your team about your planned time off.
@@ -206,7 +206,7 @@ You can plan your schedule with these options all at one time or individually as
    * **Select dates** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
 
      > [!Tip]
-     > Updating your calendar with Out of Office information is a best practice that’ll set the right expectations with co-workers looking to connect with you. 
+     > Updating your calendar with out-of-office information is a best practice that’ll set the right expectations with coworkers who want to connect with you. 
 
      ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
 
