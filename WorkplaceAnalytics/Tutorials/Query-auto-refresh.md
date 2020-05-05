@@ -126,17 +126,21 @@ If either of these schema-mismatch situations arises, Workplace Analytics notifi
 
  * On the **Results** page, it shows a red "stopped" icon in the **Status** column for each query that has been stopped:
 
-   ![Turn off auto-refresh status](../images/wpa/tutorials/recurring-query-statuses-3.png) 
+   !["Stopped" icon](../images/wpa/tutorials/recurring-query-statuses-3.png) 
+   
+   <!-- Complete image, if they supply it 
+   ![Org data section](../images/wpa/tutorials/recurring-query-statuses-2.png)  -->
 
    (A yellow icon is shown for non-auto refresh queries that, as a result of the schema changes, also cannot run.) 
    
    In each case, you can hover over the tooltip to see more information. 
 
- * In the **Select filters** and **Organizational data** areas of a query-authoring page, it shows the filters and the output columns that are no longer present:  
+ * In the **Select filters** and **Organizational data** areas of a query-authoring page, it shows the current filters, the missing output columns, and the message, "Some query fields have been changed. You can run the query without including these fields or attributes."   
 
-   ![Turn off auto-refresh status](../images/wpa/tutorials/view-removed-columns-notice.png) 
+<!-- Image of this area. Need high-res one here first: 
+   ![Filters and missing columns](../images/wpa/tutorials/view-removed-columns-notice.png) --> 
 
-   In many cases, you can still manually run the queries for which auto-refresh has been turned off, but if columns are missing, the query's results will likely be less complete than if the columns were present.  
+   In many cases, you can still manually run the queries for which auto-refresh has been turned off, but if columns are missing, the query's results will not contain the attributes that were removed. 
 
 ## View query results with the auto-refresh option
 
