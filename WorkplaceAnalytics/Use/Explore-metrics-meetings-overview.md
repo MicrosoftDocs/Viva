@@ -14,13 +14,13 @@ ms.prod: wpa
 
 # Meetings overview
 
-**Meetings overview** in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email during a week are considered active and are included in the Explore metrics for the weeks they are active.
+**Meetings overview** in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email or instant message during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Meetings overview](../images/wpa/use/meetings-overview.png)
 
 To open **Meetings overview**:
 
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) **Home** page. If prompted, sign in with your work account.
 2. In the left navigation pane, select **Analyze** and then select **Explore**.
 3. In **Explore**, select **Meetings overview**.
 
@@ -57,6 +57,7 @@ Each duration segment in the chart shows the time a person spent in meetings wit
 * A high percentage of meeting hours with a large number of people can suggest poor meeting accountability and a lack of empowerment. Applying what is known as the 8-18-1800 rule can help ensure the meeting size matches the goal. The rule is decision-making meetings are best with up to 8 attendees, brainstorming/update meetings can have up to 18 attendees, and informational meetings can have 1800 or more attendees.
 
 ## Meetings hours by duration
+
 Each duration segment in the chart shows the total time a person spent in meetings of the specified number of hours.
 
 ![Meetings hours by duration](../images/wpa/use/08-meeting-hours-by-duration.png)
@@ -109,5 +110,5 @@ Each duration segment in the chart shows the total time a person spent in meetin
 
 ## Related topics
 
-[Explore page settings](../use/explore-page-settings.md)
-[Workplace Analytics Charts](../use/chart-types.md)
+* [Explore page settings](../use/explore-page-settings.md)
+* [Workplace Analytics Charts](../use/chart-types.md)

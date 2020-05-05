@@ -3,7 +3,7 @@
 title: Power BI Business Continuity Dashboard
 description: Use the Business Continuity Dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
-ms.author: 
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -21,7 +21,7 @@ The following are a few of the top-level business questions asked by leaders tha
 |-------------|------------------|
 |How is business as usual changing? |<ul><li>How are employee collaboration patterns changing in response to this disruption?  </li><li>Which collaboration tools are people substituting for in-person interaction? |
 |How are employees adapting to the disruption? |<ul><li>What share of employees are experiencing significant shifts in their weekly work spans and collaboration levels? </li><li>How are working patterns flexing across our collaboration mediums? </li></ul>|
-|Are we maintaining external relationships? |<ul><li>Are you still connecting with customers, partners, and vendors? </li><li>Which teams and functions are experiencing the the biggest changes in external collaboration? </li></ul>|
+|Are we maintaining external relationships? |<ul><li>Are you still connecting with customers, partners, and vendors? </li><li>Which teams and functions are experiencing the biggest changes in external collaboration? </li></ul>|
 |How do we foster employee community and engagement? |<ul><li>Are managers still connecting one-on-one with their team members? </li><li>Are employees staying connected to their peers in this 100 percent remote working environment? </li></ul>|
 
 To populate the Business Continuity Dashboard in Power BI, you must set up and successfully run the predefined **Business Continuity** and **Hourly Collaboration** queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.  

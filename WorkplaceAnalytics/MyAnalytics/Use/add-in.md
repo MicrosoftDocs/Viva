@@ -28,7 +28,6 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or in Outlook on the web), you'll see a number of insights in the right pane. For example:
 
 ![Insights icon](../../images/mya/overview/insights-view.png)
-![Insights pane](../../images/mya/overview/insights-cards-14.png)
 
 ## Open the Insights add-in
 
@@ -44,12 +43,6 @@ After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or i
 
 1. In Outlook on the web, open an email message.
 
-2. In the top-right corner of the email message, select the **ellipsis** (**...**) and then select **Insights**.
-
-3. (Optional) For easier access in the future, you can [Pin the Insights add-in](#pin-the-insights-add-in) to the quick access pane.
-
-For information about the insights that appear, see [What you might see](#what-you-might-see).
-
 ## Pin the Insights add-in
 
 If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.  
@@ -61,8 +54,7 @@ If you're using Outlook on the web, you can pin the Insights add-in to the quick
     ![OWA Settings pane](../../images/mya/use/owa-settings.png) 
 
 2. In **Settings**, select **View all Outlook Settings**.
-
-3. Be sure **Mail** is selected in the left pane, and in the center pane, select **Customize actions**.
+3. Confirm **Mail** is selected in the left pane, and in the center pane, select **Customize actions**.
 
     ![Customize actions](../../images/mya/use/customize-actions.png) 
 
@@ -103,24 +95,3 @@ If you're using Outlook on the web, you can pin the Insights add-in to the quick
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
 
-<!-- PER PETERB 23 JULY 2019: DO NOT PUBLISH THIS. 
-IT HAS NOT YET SHIPPED EXTERNALLY. HE WILL LET US KNOW WHEN TO PUBLISH. 
-
-## To add tasks to your focus time
-
-1.    In Outlook, select **Insights**.
-
-2.    In the Insights pane, select the **View outstanding tasks** card. This opens the **SUGGESTED TASKS** pane.
-
-3.    On a card for which you want to add a task, select the ellipsis. This opens a menu with three options:
-
-     * If you select **Book time to review**, Outlook finds new upcoming 30-minute slots in your calendar and proposes them to you. 
-
-       Then, select the plus sign to add this task to your calendar for the displayed time period. Outlook will book this as additional focus time and mark your status during this period as "Do not disturb." In your calendar, this time is labeled "Focus time (tasks included)."
-
-     * If you already have focus time booked, you can select **Add to focus time**. Outlook then finds existing focus time periods in your calendar and proposes them to you. 
-
-       Select **Add** to add this task to the already scheduled focus time block on your calendar.  
-     * If you select **This isn't a task**, Outlook removes the card from the **SUGGESTED TASKS** pane.
-
--->
