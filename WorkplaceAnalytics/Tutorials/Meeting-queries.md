@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Meeting queries in Workplace Analytics
 description: When to use a meeting query and the type of data available for analysis in Workplace Analytics.  
@@ -138,6 +136,5 @@ Each row of data represents a single meeting. You can select which of the follow
 
 ## Related topics
 
-[Metric descriptions](../Use/Metric-definitions.md)
-
-[View, download, and export query results](../Use/View-download-and-export-query-results.md)
+* [Metric descriptions](../Use/Metric-definitions.md)
+* [View, download, and export query results](../Use/View-download-and-export-query-results.md)
