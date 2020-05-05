@@ -1,6 +1,6 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Insights for people managers
+
+title: Workplace Analytics insights for people managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
 ms.author: madehmer
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Insights for people managers
+# Workplace Analytics insights for people managers
 
 > [!Note]
 > Only managers assigned the **Group manager** role in Workplace Analytics can see these insights.
@@ -61,7 +61,7 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 
 ## Frequently asked questions
 
-### Q1 How do these Insights accommodate different partitions?
+### Q1 How do these insights accommodate different partitions?
 
 These insights are only about the participants who are included in the selected partition.
 
