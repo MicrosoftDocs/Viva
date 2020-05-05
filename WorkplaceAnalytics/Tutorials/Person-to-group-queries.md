@@ -56,7 +56,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
       ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics.png)
 
     In the following sections, you can group both the time investors and the collaborators. For example, you could analyze how senior leaders allocated time across different organizations by setting the time investors' group to “level” and the collaborators' group to “organization.”
-7. In the **Time investors** section, for **Employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email during the aggregated time period (date range) that you set for this query.
+7. In the **Time investors** section, for **Employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email or instant message during the aggregated time period (date range) set for this query.
 8. In the **Time investors** section, you can optionally add filters to exclude specific time investors from the query. For example, if you specify **FunctionType** > Equals > **Account Management**, the query results will only include time investors in Account Management.
 
    ![Group and filter time investors](../Images/WpA/tutorials/p2g-time-investors.png)
