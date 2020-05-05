@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Workplace Analytics Insights for people managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
