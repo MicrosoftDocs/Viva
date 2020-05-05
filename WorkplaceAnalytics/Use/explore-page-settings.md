@@ -54,7 +54,7 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 
 ### To change or add filters
 
-By default, the Explore pages are filtered to show active employees only. Active employees are those who have participated in at least one Office 365 collaboration activity during the set date range (the time period set for the query).
+By default, the Explore pages are filtered to show active employees only. Active employees who sent at least one email or instant message during the set date range (the time period set for the query).
 
 ![Employee page filter in Explore](../images/wpa/use/explore-filter.png)
 
@@ -64,8 +64,8 @@ By default, the Explore pages are filtered to show active employees only. Active
 4. In **Edit page filters**, you can change the **Employees** filter: 
 
    * **All employees** - Includes inactive and active employees for the set date range.
-   * **Active only** - Includes only active employees who have participated in at least one Office 365 collaboration activity for the set date range.
-   * **Inactive only** - Includes only those employess who have not participated in any Office 365 collaboration activity for the set date range.
+   * **Active only** - Includes only active employees who have sent at least one email or instant message for the set date range.
+   * **Inactive only** - Includes only those inactive employess who have not sent at least one email or instant message for the set date range.
  
 5. Select **Add filter** to add one or more additional filters.
 6. Select **Apply** (upper right) to apply these changes to all charts.
