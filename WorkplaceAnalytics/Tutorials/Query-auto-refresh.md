@@ -124,9 +124,9 @@ If you see this message, go to [If expected columns are missing or excluded](../
 
 If either of these schema-mismatch situations arises, Workplace Analytics notifies you in various ways. You can then change the affected auto-refresh queries to run them again or access the results of the query's most recent completed run.
 
- * On the **Results** page, it shows a "stopped" icon in the **Status** column for each query that has been stopped:
+ * On the **Results** page, it shows a red "stopped" icon in the **Status** column for each query that has been stopped:
 
-   ![Turn off auto-refresh status](../images/wpa/tutorials/recurring-query-statuses-2.png) 
+   ![Turn off auto-refresh status](../images/wpa/tutorials/recurring-query-statuses-3.png) 
 
    (A yellow icon is shown for non-auto refresh queries that, as a result of the schema changes, also cannot run.) 
    
