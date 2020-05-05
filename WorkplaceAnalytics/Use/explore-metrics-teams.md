@@ -19,8 +19,7 @@ ms.prod: wpa
 To open **Teams collaboration**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. In the left navigation pane, select **Analyze** and then select **Explore**.
-3. In **Explore**, select **Teams collaboration**.
+2. Select **Analyze** > **Explore** > **Teams collaboration**.
 
 ## Call hours
 

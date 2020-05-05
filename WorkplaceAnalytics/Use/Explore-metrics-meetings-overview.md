@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Explore meetings overview metrics in Workplace Analytics
 description: Overview of meetings metrics on the Workplace Analytics Explore page
 author: madehmer
-ms.author: v-midehm
-ms.date: 06/17/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -21,8 +18,7 @@ ms.prod: wpa
 To open **Meetings overview**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) **Home** page. If prompted, sign in with your work account.
-2. In the left navigation pane, select **Analyze** and then select **Explore**.
-3. In **Explore**, select **Meetings overview**.
+2. Select **Analyze** > **Explore** > **Meetings overview**.
 
 ## Low-quality meeting hours
 
