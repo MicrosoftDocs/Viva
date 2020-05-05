@@ -48,7 +48,7 @@ You will use the answer to this question in the following procedure:
 **To opt out of multiple MyAnalytics accounts**
 
 1. Open a web browser in incognito mode.
-2. In the incognito browser session, open your [dashboard](myanalytics.microsoft.com). You will see a Microsoft **Sign in** dialog box. 
+2. In the incognito browser session, open your [dashboard](https://myanalytics.microsoft.com). You will see a Microsoft **Sign in** dialog box. 
 3. Sign in by using the credentials of an email account whose  MyAnalytics subscription you want to end.
 4. Select the **Settings** (gear) icon in the top right.
 
