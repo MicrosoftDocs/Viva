@@ -37,7 +37,7 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out:
 
 ### If you have multiple accounts
 
-If you have more than one Microsoft 365 account, you might also have more than one subscription to MyAnalytics. You can decide for each account which ones to retain and which ones to opt out of.
+If you have more than one Microsoft 365 account, you might also have more than one subscription to MyAnalytics. You can decide which accounts to retain and which ones to opt out of.
 
 Each email account that has a MyAnalytics subscription receives regular emails with subject lines such as "Focus edition" or "Wellbeing edition." To opt out of one or more of these subscriptions, first answer the following question:
 
@@ -60,7 +60,7 @@ You will use the answer to this question in the following procedure:
     ![Slider in off position](../../Images/mya/use/slider-off.png)
   
 7. Select **Save** to save your changes.
-8. Repeat steps 1 - 7 for each account whose MyAnalytics subscription you want to end. 
+8. Repeat steps 1 - 7 for each account whose MyAnalytics subscription you want to opt out of. 
  
 ## If I opt out, can I opt back in?
 
