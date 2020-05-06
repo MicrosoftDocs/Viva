@@ -1,8 +1,8 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Business Continuity Report
-description: Use the Business Continuity Report to share analysis from Office 365
+title: Business continuity report
+description: Use the Business continuity report to analyze organizational collaboration data
 author: madehmer
 ms.author: 
 ms.topic: article
@@ -10,27 +10,40 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Business Continuity Report
+# Business continuity report
 
-You can use the Business Continuity Report to share insights from Office 365. This report can show how your organization is adapting to business disruptions, such as a switch to 100 percent remote work.
+The Business continuity report analyzes Microsoft Graph data to provide high-level insights about how your organization’s collaboration norms have changed due to the recent global shift in standard business practices. 
 
-The report directionally highlights where disruption to ways of working might be having the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
+This 60-day snapshot helps business leaders answer the following questions:
 
-## Analyzing the report
+* How is "business as usual" changing?  
+* How are employees adapting to the shift?  
+* Are we maintaining external relationships?
 
-The report direct
+![Business continuity report](../Images/WpA/Tutorials/bc-report.png)
+
+## About the report 
+
+The Business continuity report directionally highlights where shifts in ways of working are having the largest impact, and provides a measurable starting point for identifying where leaders can use tools and processes to support employees in a new way of working.
+
+* **How is 'business as usual' changing?** - Shows the trend in collaboration hours by channel. 
+* **How are employees adapting to the shift?** - Enables you to assess whether some employees are disproportionately affected by measuring their changes in after hours work.
+* **Are we maintaining external relationships?** - Quantifies changes in communication with customers, partners and other people outside the organization.
 
 ## Frequently asked questions
 
-#### Q1 How was this report created?
+#### Q1 How do I access the report?
 
-You must be 
+The report will be uploaded in your Microsoft 365 Admin Center. We will post an Admin Center message when the report is available for download.
 
-#### Q2 What
+#### Q2 Where can I get more information? 
 
-You must 
+Contact your account team for more information on how to read the report and get additional insights.
 
-#### Q3 When
+#### Q3 Can I request a new report with a different time range? 
 
-You must 
+No, the dates in this report are static and cannot be changed at this time.
 
+#### Q4 What languages is the report available in?
+
+The report is currently only available in English.
