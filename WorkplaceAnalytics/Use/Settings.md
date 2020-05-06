@@ -21,8 +21,7 @@ You use the following Settings pages in Workplace Analytics to customize system 
  * [Sources](#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
  * [Upload](#upload) – Prepare and upload organizational and customer data.
  * [Analysis settings](#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
- * [Admin settings](#admin-settings) – Configure system defaults and privacy settings.
- * [Manager settings](#manager-settings) - Allows managers access to see insights about their teams and to set up plans in Workplace Analytics.
+ * [Admin settings](#admin-settings) – Configure [system defaults](#system-defaults), [privacy settings](#privacy-settings), and [manager settings](#manager-settings).
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
