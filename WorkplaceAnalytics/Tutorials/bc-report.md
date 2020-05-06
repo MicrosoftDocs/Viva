@@ -42,7 +42,7 @@ Contact your account team for more information on how to read the report and get
 
 #### Q3 Can I request a new report with a different time range? 
 
-No, the dates in this report are static and cannot be changed.
+No, the dates in this report are static and cannot be changed at this time.
 
 #### Q4 What languages is the report available in?
 
