@@ -4,21 +4,12 @@
   href: ./be-privacy.md
 - name: Configure Briefing email
   href: ./be-admin.md
-- name: Briefing pilot
+- name: Using Briefing email
   expanded: true
-  items:
-  - name: Conduct a pilot
-    href: ./be-pilot.md
-  - name: Downloadable resources
-    href: ./be-resources.md
-  - name: Use the Briefing email
-  expanded: true
-  items:
+  items: 
   - name: Prepare for meetings
     href: ./be-meetings.md
   - name: Follow up on tasks
     href: ./be-tasks.md
   - name: Book focus time
     href: ./be-focus.md
-- name: Frequently asked questions
-  href: ./be-faqs.md
