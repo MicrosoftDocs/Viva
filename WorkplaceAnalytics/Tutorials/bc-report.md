@@ -40,6 +40,10 @@ The report will be uploaded in your Microsoft 365 Admin Center. We will post an 
 
 Contact your account team for more information on how to read the report and get additional insights.
 
-#### Q3 What languages is the report available in?
+#### Q3 Can I request a new report with a different time range? 
+
+No, the dates in this report are static and cannot be changed.
+
+#### Q4 What languages is the report available in?
 
 The report is currently only available in English.
