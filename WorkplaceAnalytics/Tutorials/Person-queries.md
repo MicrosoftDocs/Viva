@@ -4,9 +4,8 @@
 
 title: Person queries in Workplace Analytics 
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual
-author: madehmer
+author: paul9955
 ms.author: v-midehm
-ms.date: 05/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -21,36 +20,36 @@ This creates a lot of flexibility in analyzing data. For example, you can learn:
 * How specific subgroups in the organization spend their time?
 * How one aspect of collaboration influences other time-use habits?
 
-  ![Person query questions](../Images/WpA/Tutorials/Person1.png)
+  ![Person query questions](../images/wpa/tutorials/Person1.png)
 
 The person query metrics fall within four broad categories. You can add standard metrics from each category to your query. Depending on the analysis, you can summarize a person’s collaboration metrics by day, week, or month.
 
-![Four types of person metrics](../Images/WpA/Tutorials/four-types-of-person-metrics.png)
+![Four types of person metrics](../images/wpa/tutorials/four-types-of-person-metrics.png)
 
 Each query returns one row per person, per period.
 
-![Query results row](../Images/WpA/Tutorials/query-results-row.png)
+![Query results row](../images/wpa/tutorials/query-results-row.png)
 
 The file will include any standard or customized metrics you specify. The IsActive column in the output file is True if the employee sent at least one email during the specified time period for the query.
 
-![Query results metrics](../Images/WpA/Tutorials/query-results-metrics.png)
+![Query results metrics](../images/wpa/tutorials/query-results-metrics.png)
 
  And your results will include any employee organizational data attributes that your Workplace Analytics admin has uploaded.
 
-![Query results attributes](../Images/WpA/Tutorials/query-results-attributes.png)
+![Query results attributes](../images/wpa/tutorials/query-results-attributes.png)
 
 You can use organizational attributes to further summarize the person results and create powerful analyses that compare and contrast the collaboration of different groups in the organization.
 
-![Query results summary](../Images/WpA/Tutorials/query-results-summarize.png)
+![Query results summary](../images/wpa/tutorials/query-results-summarize.png)
 
 ## Create a person query
 
-It’s simple to set up a person query.
+It's simple to set up a person query.
 
-* Select whether you want each person’s metrics summarized by day, week, or month, and the period you’d like to analyze.
+* Select whether you want each person's metrics summarized by day, week, or month, and the period you’d like to analyze.
 * Select a custom rule set to exclude meetings from the calculations, otherwise it'll use the default.
 
-![Create person query](../Images/WpA/Tutorials/create-person-query.png)
+![Create person query](../images/wpa/tutorials/create-person-query.png)
 
 ## Select metrics
 
@@ -67,25 +66,49 @@ You can select metrics for what you want to know about your employees. The optio
 
 For example, you can add a metric to get an email count for each person where at least one person from the Sales organization is included in email.
 
- ![Person query base metric](../Images/WpA/Tutorials/query-base-metric.png)
+ ![Person query base metric](../images/wpa/tutorials/query-base-metric.png)
 
 You can add a filter to a base metric and edit the metric name with the filter. For example, the following shows _Emails sent to Sales_, which will be the column header in the output file.
 
-![Person query custom metric](../Images/WpA/Tutorials/query-custom-metric.png)
+![Person query custom metric](../images/wpa/tutorials/query-custom-metric.png)
 
-To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
+To get more details on adding metric filters, see [Customize a metric](../tutorials/customize-a-metric.md).
+
+## Standardize working hours
+
+In the results for person queries, the reporting for the working hours, after hours, and focus hours metrics is influenced by the working hours that individuals have set in Outlook. This can cause calculation erors if individuals have set unusually long working hours. To avoid this problem, analysts can standardize the working hours that a query uses to calculate these metrics.
+
+<!--  Not sure about this part -- Find out from Richa
+In a person query, analysts see additional information to help them determine disparities between the working days and hours settings Outlook and recommendations for the individual's group.
+-->
+
+### Analysts can standardize settings
+
+In the **Dependencies** section of a person query, analysts can set the working days and hours that that query will use in its calculations.  
+
+![Person query custom metric](../images/wpa/tutorials/pick-work-times.png)
+
+This lets analysts benchmark metrics calculations by using one standard set of values for working hours and days, with the goal of achieving apples-to-apples comparisons. The settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or in any user's settings in Outlook or elsewhere.  
+
+### Columns in query results
+
+The output of person queries automatically contains information that pertains to these standardized settings: 
+
+* It contains columns that show the working start time, working end time, and working days that were used in the query's calculations.
+* It indicates which metrics used working hours in the query's calculations. 
+* It indicates whether the standardized settings were used in the query's calculations.
 
 ## Select filters
 
 You can select which measured employees you want to include in your query results. For **Employees**, select if you want active, inactive, or all employees included in the query. Active employees are those who sent at least one email during the set time period (the aggregated period set for the query).
 
-You can then select other filters to exclude certain rows from the output file based on a person’s organizational attributes, such as function type. For example, the following filter will only list people from the Operations and Sales groups.
+You can then select other filters to exclude certain rows from the output file based on a person's organizational attributes, such as function type. For example, the following filter will only list people from the Operations and Sales groups.
 
-![Person query filter](../Images/WpA/Tutorials/query-filter.png)
+![Person query filter](../images/wpa/tutorials/query-filter.png)
 
 When you add a filter, you'll see the number of people included in the filter group and the total number of measured employees it's based on. This will help you decide if you've set the correct filters for the query before running it.
 
-![Filter preview](../Images/WpA/Tutorials/filter-preview.png)
+![Filter preview](../images/wpa/tutorials/filter-preview.png)
 
 ## Select what organizational data to include
 
@@ -95,7 +118,7 @@ When you run a person query in Workplace Analytics, the output (.csv) file can b
 * Further protects private data by excluding columns from the file.
 * Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns.
 
-![Organizational data section](../Images/WpA/Tutorials/query-org-data.png)
+![Organizational data section](../images/wpa/tutorials/query-org-data.png)
 
 ## Example person query for long meetings
 
