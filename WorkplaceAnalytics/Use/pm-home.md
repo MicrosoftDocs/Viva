@@ -1,6 +1,6 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Insights for people managers
+
+title: Workplace Analytics insights for people managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
 ms.author: madehmer
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Insights for people managers
+# Workplace Analytics insights for people managers
 
 > [!Note]
 > Only managers assigned the **Group manager** role in Workplace Analytics can see these insights.
@@ -53,7 +53,7 @@ Each insight includes **Supporting evidence** and **Best practices** that link y
 
 Differential privacy is a technology that allows researchers and analysts to pull useful information from databases containing personal information while simultaneously protecting individual privacy. This is achieved by introducing slight variations to the data to protect privacy while still maintaining accuracy, so managers have confidence in the observed values.
 
-To learn more about differential privacy, see [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).
+To learn more about differential privacy, see [Differential Privacy in Workplace Analytics](../privacy/differential-privacy.md) and [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).
 
 ## View recommended plan
 
@@ -61,7 +61,7 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 
 ## Frequently asked questions
 
-### Q1 How do these Insights accommodate different partitions?
+### Q1 How do these insights accommodate different partitions?
 
 These insights are only about the participants who are included in the selected partition.
 
@@ -92,7 +92,7 @@ Teams like yours metrics use other teams in the same hierarchy that report to th
 
 This capability in not available, but might be included in a future release.
 
-### Q8 Why are some employees in my team not eligible to enroll in Plans?
+### Q8 Why are some employees in my team not eligible to enroll in plans?
 
 Employees might not be eligible for a plan if:
 

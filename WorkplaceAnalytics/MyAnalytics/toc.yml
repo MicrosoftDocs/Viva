@@ -16,8 +16,12 @@
           href: ./use/MyA-elements.md
         - name: Dashboard
           href: ./use/dashboard-2.md
-        - name: Add-in
-          href: ./use/add-in.md
+        - name: Insights add-in
+          items:
+            - name: Insights add-in
+              href: ./use/add-in.md
+            - name: Use Insights
+              href: ./use/use-the-insights.md
         - name: Digests
           items:
             - name: Welcome

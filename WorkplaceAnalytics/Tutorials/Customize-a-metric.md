@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Customize a base metric in a Workplace Analytics query
 description: How to customize and change a base metric in a Workplace Analytics query. 
 author: paul9955
-ms.author: v-midehm
-ms.date: 02/21/2019
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -40,7 +37,7 @@ You can also change the base metric. This means selecting a different base metri
 
 The previous example customized the "Email hours" base metric to be: "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D."
 
-After you apply a customization, let's say you want to _change_ the base metric from "Email hours" to "Total emails sent during meetings." This change gives you a new metric that has retained the same customization. Your final, customized metric would be: "Total emails sent during meeting where at least all attendees' and/or recipients' FunctionType equals R&D."
+After you apply a customization, let's say you want to *change* the base metric from "Email hours" to "Total emails sent during meetings." This change gives you a new metric that has retained the same customization. Your final, customized metric would be: "Total emails sent during meeting where at least all attendees' and/or recipients' FunctionType equals R&D."
 
 In other words, the customization that you applied to the original base metric was not lost when you changed from that base metric to a different one.
 
@@ -52,7 +49,7 @@ You can also add additional base metrics to your query. You would do this to mod
 
 To customize and then change a base metric:
 
-1. On the **Analyze** > **Queries** page, select the type of query you want to create, such as a Person or Meeting query. Note: You currently can only customize metrics for a Person or a Meeting query.
+1. On the **Analyze** > **Queries** page, select the type of query you want to create, such as a person or meeting query. **Note**: You currently can only customize metrics for a person or a meeting query.
 2. Select and change **Enter query name here** to name your query and enter a description.
 3. For **Group by**, select a time-grouping option -- day, week, or month.
 3. Select a date range and a meeting exclusion rule.
@@ -67,7 +64,7 @@ To customize and then change a base metric:
 
    ![selected metric](../Images/WpA/Tutorials/custom-metric-02.png)
 
-   The selected metric becomes the _base metric_ for the query, and represents the area of focus for data analysis.
+   The selected metric becomes the *base metric* for the query, and represents the area of focus for data analysis.
 
 6. Customize the metric by following these steps:
 

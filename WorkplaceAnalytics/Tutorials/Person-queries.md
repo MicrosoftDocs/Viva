@@ -160,7 +160,7 @@ You can create a person query to investigate if long meetings are a significant 
     > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
     > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
 
-11. In the **Filters** section, for **Employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email during the aggregated time period (date range) that you set for this query.
+11. In the **Filters** section, for **Employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email or instant message during the aggregated time period (date range) set for this query.
 12. Select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
 13. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 14. Select **Run** at the top right to run the query.

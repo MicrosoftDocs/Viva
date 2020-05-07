@@ -100,7 +100,7 @@ For details about person-to-group metrics, see [Workplace Analytics metrics](../
 
 **The IsActive attribute**
 
-For the **Employees** filter in the **Time investors** section, you can select if you want Active only, Inactive only, or All employees as time investors for the query. Active employees are those who sent at least one email during the aggregated time period (date range) set for the query. This option is only available for person and person-to-group queries, which will be the *IsActive* attribute column with a Boolean value of true or false for each row in the output file.
+For the **Employees** filter in the **Time investors** section, you can select if you want Active only, Inactive only, or All employees as time investors for the query. Active employees are those who sent at least one email or instant message during the aggregated time period (date range) set for the query. This option is only available for person and person-to-group queries, which will be the *IsActive* attribute column with a Boolean value of true or false for each row in the output file.
 
 ## Additional attributes for group queries
 
