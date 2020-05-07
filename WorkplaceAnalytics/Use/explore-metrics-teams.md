@@ -19,18 +19,17 @@ ms.prod: wpa
 To open **Teams collaboration**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. In the left navigation pane, select **Analyze** and then select **Explore**.
-3. In **Explore**, select **Teams collaboration**.
+2. Select **Analyze** > **Explore** > **Teams collaboration**.
 
 ## Call hours
 
-The **Call hours** graph shows the average and total number of hours each group spent in calls as initiators or participants, through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook).
+The **Call hours** graph shows the average and total number of hours each group spent in calls with at least one other person, as either initiators or participants, through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook).
 
 ![Teams call hours](../images/wpa/use/teams-explore-calls.png)
 
 ## Instant messaging hours
 
-The **Instant messaging hours** graph shows average and total number of hours each group spent sending or receiving instant messages (IMs) through Teams, including IMs during and outside of working hours (as set in Outlook).
+The **Instant messaging hours** graph shows average and total number of hours each group spent sending or receiving instant messages (IMs) through Teams with at least one other person, including IMs during and outside of working hours (as set in Outlook).
 
 ![Teams IMs](../images/wpa/use/teams-explore-ims.png)
 
@@ -58,15 +57,16 @@ The following table provides details about Teams metrics in Person queries.
 
 ### Teams metrics in Person queries
 
-|Metric|Description|Query type|Data type|Customizable|
+|Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|
-|Calls| Total number of calls the person spent time in as initiator or participant, through Teams, during and outside of working hours.| Person| Count| Yes |
-|IMs | Total number of instant messages (IMs) or chats sent by the person as the initiator, through Teams, during and outside of working hours. Note: Time in IM compose estimated to 22 seconds, Time in IM read estimated to 8 seconds| Person| Count| Yes|
-|Time in calls after hours | Number of hours the person spent in calls, through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook).| Person| Hour| Yes|
-|Time in IMs after hours| Number of hours the person spent in reading/sending Instant Messages in  Teams, outside of that person’s working hours. Note: Time in IM compose estimated to 22 seconds, Time in IM read estimated to 8 seconds| Person| Hour| Yes|
-|Total call hours | Total number of hours the person spent in calls as initiator or participant, through Teams, including scheduled and impromptu calls during and outside of working hours (as set in Outlook). | Person| Hour| Yes|
-|Total IM hours | Total number of hours the person spent in IMs as initiator or participant, through Teams, including scheduled and impromptu IMs during and outside of working hours (as set in Outlook).  Note: Time in IM compose estimated to 22 seconds, Time in IM read estimated to 8 seconds.| Person| Hour| Yes|
-|Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes|
+|After hours in calls| Number of hours a person spent in scheduled and unscheduled calls through Teams, with at lest one other person, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook).| Person| Hour| Yes|
+|After hours instant messages| Number of hours a person spent in istant messages through Teams, outside of that person’s working hours. | Person| Hour| Yes|
+|Call hours | Number of hours a person spent in scheduled and unscheduled calls through Teams, during and outside of working hours (as set in Outlook). | Person| Hour| Yes|
+|Instant message hours | Number of hours a person spent in IMs through Teams, with at least one other person, during and outside of working hours (as set in Outlook). | Person| Hour| Yes|
+|Instant messages sent | Total number of instant messages (IMs) or chats sent by a person through Teams, during and outside of working hours. | Person| Count| Yes|
+|Total calls| Total number of calls a person joined through Teams, including scheduled and unscheduled calls, during and outside of working hours (as set in Outlook).| Person| Count| Yes |
+|Working hours in calls| Number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes|
+|Working hours in instant messages| Number of hours a person spent in instant messages through Teams, during working hours. | Person| Hour| Yes|
 
 ## Related topics
 

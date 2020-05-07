@@ -6,6 +6,8 @@ description: Learn about Workplace Analytics Data export and how to set up and u
 author: madehmer
 ms.author: paul9955
 ms.topic: article
+search.appverid:
+- MET150
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
