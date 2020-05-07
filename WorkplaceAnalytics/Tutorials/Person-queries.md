@@ -78,7 +78,7 @@ To get more details on adding metric filters, see [Customize a metric](../tutori
 
 In the results for person queries, the reporting for the working hours, after hours, and focus hours metrics is influenced by the working hours that individuals have set in Outlook. This can cause calculation erors if individuals have set unusually long working hours. To avoid this problem, analysts can standardize the working hours that a query uses to calculate these metrics.
 
-<!-- Not sure about this part -- Find out from Richa
+<!--  Not sure about this part -- Find out from Richa
 In a person query, analysts see additional information to help them determine disparities between the working days and hours settings Outlook and recommendations for the individual's group.
 -->
 
@@ -86,7 +86,7 @@ In a person query, analysts see additional information to help them determine di
 
 In the **Dependencies** section of a person query, analysts can set the working days and hours that that query will use in its calculations.  
 
-![Person query custom metric](../images/wpa/tutorials/dependencies-section-85.png)
+![Person query custom metric](../images/wpa/tutorials/pick-work-times.png)
 
 This lets analysts benchmark metrics calculations by using one standard set of values for working hours and days, with the goal of achieving apples-to-apples comparisons. The settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or in any user's settings in Outlook or elsewhere.  
 
