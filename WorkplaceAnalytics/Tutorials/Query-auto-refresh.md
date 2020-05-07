@@ -127,9 +127,6 @@ If either of these schema-mismatch situations arises, Workplace Analytics notifi
  * On the **Results** page, it shows a red "stopped" icon in the **Status** column for each query that has been stopped:
 
    !["Stopped" icon](../images/wpa/tutorials/queries-section.png) 
-   
-   <!-- Complete image, if they supply it 
-   ![Org data section](../images/wpa/tutorials/recurring-query-statuses-2.png)  -->
 
    (A yellow icon is shown for non-auto refresh queries that, as a result of the schema changes, also cannot run.) 
    
