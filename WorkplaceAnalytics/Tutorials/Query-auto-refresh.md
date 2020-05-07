@@ -93,7 +93,7 @@ Generally, an organization can have a maximum of 20 auto-refresh queries. If you
 Two circumstances can cause Workplace Analytics to turn off the auto-refresh option for a query:
 
  * [Columns missing from organizational data](#columns-missing-from-organizational-data)
- * [Excluded or masked columns](#excluded-or-masked-columns)
+ * [Excluded or hashed columns](#excluded-or-hashed-columns)
 
  Both of these circumstances present opportunities for admins and for analysts to respond, as described in the following sections:
 
