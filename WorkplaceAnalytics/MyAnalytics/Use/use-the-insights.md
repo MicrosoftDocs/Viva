@@ -114,15 +114,15 @@ Insights does not report about email messages in the following categories:
 
 #### Open rate 
 
-MyAnalytics respects user privacy. For this reason, the Insights add-in does not show information about individual recipients, and, when necessary to protect privacy, it reports approximated values only, as shown in the following table.
+MyAnalytics respects user privacy. For this reason, the Insights add-in does not show information about individual recipients, and -- when necessary to protect privacy -- it reports approximated values only.
 
 **Open-rate value thresholds**
 
-Within 30 minutes of when you sent qualifying email, the Insights add-in  reports the actual or an approximated open rate. 
+Within 30 minutes of when you sent qualifying email, the Insights add-in  reports the actual or an approximated open rate, as described here: 
 
-* **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as _&lt; 25%_.
+* **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as "_&lt; 25%_."
 * **Between thresholds.** If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
-* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the email recipients open the email, the maximum value in the table will be _&gt; 95%_.
+* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the 25 email recipients open the email, Insights displays the open rate as "_&gt; 95%_."
 
    | Number of recipients | Open rate reported | 
    | ------- | ------ |
