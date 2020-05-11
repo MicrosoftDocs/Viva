@@ -112,7 +112,7 @@ Insights does not report about email messages in the following categories:
 * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
 * Email sent to modern groups. (If users are following the modern group, they are included in the count.)
 
-#### Open rate
+#### Open rate 
 
 MyAnalytics respects user privacy. For this reason, it reports approximated values only and does not show information about individual recipients.
 
@@ -122,7 +122,7 @@ The Insights add-in reports the open rate within 30 minutes of when you sent qua
 * If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
 * For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the email recipients open the email, the maximum value in the table will be _&gt; 95%_.
 
-   | Number of recipients | Open rate reported |
+   | Number of recipients | Open rate reported | 
    | ------- | ------ |
    | 5 - 10  | Minimum: 25% <br>Maximum: 75% |
    | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
