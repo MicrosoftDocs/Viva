@@ -114,7 +114,9 @@ Insights does not report about email messages in the following categories:
 
 #### Open rate
 
-The Insights add-in reports the open rate within 30 minutes of when qualifying email was sent by you, as shown in the following table. Note the following:
+MyAnalytics respects user privacy. For this reason, it reports approximated values only and does not show information about individual recipients.
+
+The Insights add-in reports the open rate within 30 minutes of when you sent qualifying email, as shown in the following table. Note the following:
 
 * For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as _&lt; 25%_.
 * If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
@@ -126,7 +128,7 @@ The Insights add-in reports the open rate within 30 minutes of when qualifying e
    | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
    | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
-MyAnalytics respects user privacy; this is why approximated values are reported and individual recipient information is not shown. For more details, see [Email read rates and document open rates](../overview/privacy-guide.md#email-read-rates-and-document-open-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
+ For more information, see [Email read rates and document open rates](../overview/privacy-guide.md#email-read-rates-and-document-open-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
 
 **To see read information about sent emails**
 
