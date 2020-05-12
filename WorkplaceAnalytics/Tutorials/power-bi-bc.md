@@ -180,7 +180,7 @@ See [Create a Person Query](./person-queries.md) for details.
 
 #### Q6 How do I change the axis of a chart to use a different Organizational data attribute?
 
-Only the required Organizational attributes are used when setting up the Power BI file. If you selected more organizational attributes when setting up your queries, you can use those additional attributes in your visuals. To use a different organizational attribute, search within the Fields pane for the Organizational attribute you want to use. Then, click on the visual you want to modify to select it. Finally, drag the Organizational attribute from the Fields pane to the Axis section in the Visualizations pane.
+Only the required Organizational attributes are used when setting up the Power BI file. If you selected more organizational attributes when setting up your queries, you can use those additional attributes in your visuals. To use a different organizational attribute, search within the **Fields** pane for the Organizational attribute that you want to use. Then, click the visual you want to modify to select it. Finally, drag the Organizational attribute from the **Fields** pane to the **Axis** section in the **Visualizations** pane.
 
 #### Q7 How do I integrate additional metrics or data sources with this dashboard?
 
@@ -200,7 +200,7 @@ The dashboard is currently only available in English.
 
 If you are signed in with the wrong organizational account, you'll get an error message when loading the data with the Power BI template. To fix it, follow these steps:
 
-1. Close the error message, and then open the **Transform data** menu, and select **Data source settings**.
+1. Close the error message, open the **Transform data** menu, and select **Data source settings**.
 2. In **Data source settings**, select **Global permissions**, select "**https://workplace.analytics.office.com**", and then select **Edit permissions**.
 3. For **Credentials**, select **Edit**.
 4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
@@ -227,7 +227,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 
 2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
 3. Select the **Business Continuity** query.
-4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, and select **Remove Empty**, and then select **OK**.
+4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
 5. Select the **Hourly Collaboration** query and repeat Steps 3-4 to filter out empty values.
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
 
