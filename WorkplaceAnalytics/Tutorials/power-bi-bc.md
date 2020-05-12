@@ -34,7 +34,7 @@ When the Business Continuity Dashboard is populated with data, you can use it to
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [analyst](../use/user-roles.md) in Workplace Analytics.
 * Have the latest version of Power BI Desktop installed. If you have an older version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Video: Dashboard setup
