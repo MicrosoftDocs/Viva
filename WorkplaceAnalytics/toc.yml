@@ -128,8 +128,10 @@
   #                    href: ~/tutorials/ona-queries.md 
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md
-                - name: Power BI Business Continuity Dashboard
+                - name: Power BI Business Continuity dashboard
                   href: ~/tutorials/power-bi-bc.md
+                - name: Power BI Influence insights dashboard
+                  href: ~/tutorials/pbi-influence-db.md                  
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results
