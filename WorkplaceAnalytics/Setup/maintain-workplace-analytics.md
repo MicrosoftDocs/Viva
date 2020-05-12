@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics Maintenance
 description: Admin tasks for keeping Workplace Analytics and the data it uses up-to-date
 author: madehmer
 ms.author: v-midehm
-ms.date: 04/17/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -41,7 +38,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 ## Update organizational data
 
  * **Task** - Prepare a .csv file that contains organizational data and upload it to Workplace Analytics.  
- * **Frequency** - Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest update of email and calendar data. Since email and calendar data is updated once a month, it makes sense to provide a updates for this data on a similar cadence.
+ * **Frequency** - Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest Office 365 collaboration data. Since email, calendar, and Teams data is updated once a month, it makes sense to provide updates for this data on a similar cadence.
 
 [Prepare organizational data](prepare-organizational-data.md)
 

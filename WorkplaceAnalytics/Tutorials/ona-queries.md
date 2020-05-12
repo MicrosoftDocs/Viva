@@ -25,15 +25,17 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 **Role:** analyst
 
 1.	In Workplace Analytics, select **Analyze > Queries**.
-2.	Under **Start custom query**, select **Organizational network**:
+2.	Under **Start custom query**, select **Network: Person**:
 
-    ![ONA person query](../images/wpa/tutorials/ona-person-query-april.png)
+    ![ONA person query](../images/wpa/tutorials/person-ona-query.png)
 
 3.	Select and change **Enter query name here** to a name, and then enter a description for the query.
 4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
 
     > [!Note] 
-    > Currently, you cannot select the auto-refresh option for ONA queries.
+    > Currently, for ONA queries, you cannot select the following:
+    > * a specific meeting-exclusion rule 
+    > * the auto-refresh option 
 
 5.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
 6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
@@ -66,9 +68,3 @@ The following columns are included in the query results for ONA queries:
 [Metric descriptions](../use/metric-definitions.md)
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
-
-For more information about achieving organizational change, see these articles from the _Harvard Business Review_: 
-
-[The Network Secrets of Great Change Agents](https://hbr.org/2013/07/the-network-secrets-of-great-change-agents)
-
-[Convincing Skeptical Employees to Adopt New Technology](https://hbr.org/2015/03/convincing-skeptical-employees-to-adopt-new-technology)
