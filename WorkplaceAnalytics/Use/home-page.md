@@ -37,18 +37,25 @@ For example, do your employees have time to focus on their work? Research shows 
 
 ## Customer focus
 
+Companies with a customer-focused mindset can foster positive customer experience and improve business growth.
+
+Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
+
+<!-- Text replaced 25 April 2020
 Show your customers you value them and their business by creating deep connections.
 
 For example, are your employees engaged often and deeply with customers? Research shows that fully engaged customers deliver a 23 percent premium over average in share of wallet, profitability, revenue, and relationship growth.
+-->
 
-![Customer focus](../images/wpa/use/customer-focus-1.png)
+![Customer focus](../images/wpa/use/customer-focus-sm.png)
+
 
 ## Supporting evidence and Best practices
 
 Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
 
-* Industry experts based on research.
-* Organizations that have effectively used Workplace Analytics to improve their business outcomes.
+* Industry experts based on research
+* Organizations that have effectively used Workplace Analytics to improve their business outcomes
 
 ## Explore the stats
 
@@ -78,6 +85,8 @@ The following describes how the metrics are calculated to support the behavioral
 |Do employees collaborate across the company? |Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. This insight highlights the organizations that spend more than 50 percent of their overall collaboration within their group. |
 |Are influencers present across the company? |Influencers are employees who have the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 |Are employees sharing information quickly? |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 10 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |
+| Are employees building customer networks? | _External network_ is the number of people external to the company with whom the employee had at least two meaningful interactions in a month. This insight highlights employees who have had more than five connections with external people in a month. |  
+| How is the customer collaboration in your company? | _External collaboration hours_ is the number of hours employees spend in meetings and emails with at least one person outside the company. This insight highlights the groups that spend large proportion of their overall collaboration with people outside the company. | 
 
 ## Frequently asked questions
 
