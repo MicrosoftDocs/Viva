@@ -196,9 +196,6 @@ For more about permissions, see [Which permissions you should use in shared mail
 
 (Also see this question about [Delegate access and Send on Behalf](#q5-how-does-workplace-analytics-treat-email-and-meetings-sent-on-behalf-of-another-individual-who-delegated-access-or-a-shared-mailbox).)
 
-
-Q5. How does Workplace Analytics treat email and meetings sent on behalf of another individual (who delegated access) or a shared mailbox?
-
 ## Explore dashboards
 
 ##### Q1. How do I change the meeting exclusion rule sets used on the Explore dashboards?
@@ -269,8 +266,6 @@ A5. The shared-mailbox and delegate-access cases are treated differently by Work
  * **Delegate access** - If an individual sends an email or a meeting invitation on behalf of another user mailbox who has granted delegate access, Workplace Analytics considers the meeting request or email to have been sent by the individual whose mailbox the meeting is sent from (that is, _not_ the user who has delegate access).
 
 (Also see this question about [Send As and Send on Behalf](#q5-when-a-person-sends-a-message-from-a-shared-mailbox-who-gets-credit-or-shows-as-the-sender-of-the-message).)
-
- #q4-how-does-workplace-analytics-process-data-for-meetings-and-emails-sent-to-distribution-lists
 
 ##### Q6. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
