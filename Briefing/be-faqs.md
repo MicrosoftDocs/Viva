@@ -12,21 +12,21 @@ ms.prod: mya
 ---
 # Frequently asked questions for the Briefing email
 
-## For IT admins 
+## For IT admins
 
-### Q1 Who will get the email? 
+### Q1 Who will get the email?
 
-Everyone in your Office 365 tenant with an English (United States) language Exchange Online mailbox who is located in North America will receive the email (if they have actionable tasks). 
+Everyone in your Office 365 tenant with an English (United States) language Exchange Online mailbox who is located in North America will receive the email (if they have actionable tasks).
 
 ### Q2 How can I manage who receives the email?  
 
-The Briefing email is on by default. You can use PowerShell to enable/disable the Briefing email for individual users. Users can also individually opt out by simply selecting the Unsubscribe link at the end of a Briefing email.  
+The Briefing email is on by default. You can use [PowerShell](be-admin.md) to enable/disable the Briefing email for individual users. Users can also individually opt out by simply selecting the Unsubscribe link at the end of a Briefing email.  
 
-### Q3 Is the Briefing email GDPR compliant? 
+### Q3 Is the Briefing email GDPR compliant?
 
 Yes. The Briefing email complies with GDPR requirements.  
 
-### Q4 Can users see information about other users in the Briefing email? 
+### Q4 Can users see information about other users in the Briefing email?
 
 The Briefing email only includes existing information that’s already available in the user’s mailbox. It summarizes documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes.  
 

@@ -42,8 +42,7 @@ For a successful pilot experience, give your participants clearly defined tasks 
 * Organize or accept a meeting invite with a cloud document attached (can be a link in the invite itself, a reply to the original invite, or sent in a related email thread).
 * When documents appear in the Briefing email, they can open them directly from the email and mark them as **Done** or **Not related**.
 * Review tasks identified by opening the linked source email and marking the tasks as Done or Not a task.
-
-## Book focus time when time is available
+* Book focus time where available in your calendar.
 
 Ensure you have an open feedback channel to track progress and measure outcomes, such as:
 
@@ -63,7 +62,7 @@ It's crucial to the success of your pilot that you educate pilot participants on
 
 The following tips can help ensure the success of your pilot:
 
-* Remember the Briefing email is enabled by default for everyone with an English language mailbox. You can use PowerShell to choose who gets the Briefing email first.
+* Remember the Briefing email is enabled by default for everyone with an English language mailbox. You can use [PowerShell](be-admin.md) to choose who gets the Briefing email first.
 * Before beginning a pilot, confirm that all pilot participants have active Exchange Online licenses.
 * Throughout a pilot, meet with your project stakeholders to review user feedback and help desk tickets to ensure the pilot is running smoothly. Make any adjustments as necessary.
 
