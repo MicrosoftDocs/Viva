@@ -44,7 +44,7 @@ The Briefing email provides flexible and configurable controls that are designed
 * **Set default access for all** – By default, all employees with an Exchange Online mailbox are opted in to receive the Briefing email. Your admin can turn this Opt-in setting On or Off.
 
   * When it is set **On**, all employees get the Briefing email by default. However, they can individually unsubscribe at any time.
-  * When it is set **Off**, employees can go to [cortana.office.com](https://cortanta.office.com) and subscribe to get the Briefing email.
+  * When it is set **Off**, employees can go to [cortana.office.com](https://cortana.office.com) and subscribe to get the Briefing email.
 
 * **Opt in select people** – Your admin can also select a group of employees to automatically get the Briefing email by default. And then turn the Opt-in setting Off for everyone else in the organization.
 * **Turn Off for all** - Admins can turn the Briefing email **Off** for all users in the organization with no option to subscribe or opt back into getting the Briefing email.
