@@ -230,20 +230,20 @@ The following error (or similar 500+ error) can occur for one of the following r
 
 * **If you were not prompted to sign in with your organizational account** while setting up the dashboard and Power BI fails to load the query data, follow these steps to clear existing permissions:
 
-1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
-2. Select **Global permissions**, select `https://workplace.analytics.office.com`, and then select **Clear permissions**.
-3. Select **Delete**.
-4. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
+  1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
+  2. Select **Global permissions**, select `https://workplace.analytics.office.com`, and then select **Clear permissions**.
+  3. Select **Delete**.
+  4. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
 
 * **If you are signed in with the wrong organizational account**, you'll get an error when loading the data with the Power BI template. To fix it, follow these steps:
 
-1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
-2. Select **Global permissions**, select `https://workplace.analytics.office.com`, and then select **Edit permissions**.
-3. For **Credentials**, select **Edit**.
-4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
-5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
-6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
-7. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
+  1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
+  2. Select **Global permissions**, select `https://workplace.analytics.office.com`, and then select **Edit permissions**.
+  3. For **Credentials**, select **Edit**.
+  4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
+  5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
+  6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
+  7. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
 
 #### The Power BI visuals fail to load or show errors in the tables
 
