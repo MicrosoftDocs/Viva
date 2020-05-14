@@ -32,7 +32,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    ![Add New Analysis](./images/ona-analysis.png)
 
-4. In **Select the Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md##attribute-reference) from Workplace Analytics.
+4. In **Select the Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
 5. In **Specify the Interaction Types and Thresholds**, select the following.
 
    * **Choose the interaction type(s)**: Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
