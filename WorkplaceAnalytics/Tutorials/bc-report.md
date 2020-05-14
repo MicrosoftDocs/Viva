@@ -22,6 +22,7 @@ This report helps business leaders understand how:
 * Employees are adapting to the shift in work-life balance.
 * Responsiveness to external relationships is impacted, such as with customers, partners, and vendors.
 
+
 ![Business continuity report](../Images/WpA/Tutorials/bc-report.png)
 
 The following are a few of the top-level business questions that this report helps you analyze.
