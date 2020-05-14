@@ -36,7 +36,7 @@ The following are a few of the top-level business questions that this report hel
 
 #### Q1 How do I access the report?
 
-The report is available for download from the Microsoft 365 Admin Center. You'll see a post about the report in the Admin Center when it's available for download.
+The report is available for download from the Microsoft 365 Admin Center. You'll see a post about the report in the Admin Center when it's available.
 
 #### Q2 Where can I get more information?
 
