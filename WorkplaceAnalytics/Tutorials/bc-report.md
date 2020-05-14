@@ -14,9 +14,7 @@ ms.prod: wpa
 
 Organizations around the world are responding to sudden changes in the way they work. Microsoft wants to help you understand the business impact and what your organization can do to help navigate the shift to remote work.
 
-The Business Continuity Report is a free Workplace Intelligence report that’s available to Microsoft 365 customers in the Microsoft 365 Admin Center.
-
-It analyzes Microsoft Graph data to provide high-level insights about how collaboration for an organization has changed between a baseline timeframe of January to February 2020 as compared to a current snapshot of March to April.
+The Business continuity report is a free Workplace Intelligence report that’s available to Microsoft 365 customers in the Microsoft 365 Admin Center. It analyzes Microsoft Graph data to provide high-level insights about how collaboration for an organization has changed between a baseline timeframe of January to February 2020 as compared to a current snapshot of March to April.
 
 This report helps business leaders understand how:
 
