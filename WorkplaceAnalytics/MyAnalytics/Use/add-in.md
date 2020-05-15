@@ -16,18 +16,14 @@ _**Applies to:** MyAnalytics elements are available in varying levels to users o
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
-If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
+If your answer to any of these questions is _yes_, the Outlook add-in provides insights that you can act upon to help you stay on top of your tasks and get more done. This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, plan time away from work, and improve your overall work-life balance.
 
-This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, plan time away from work, and improve your overall work-life balance.
+## Privacy by design 
+
+[!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
 > [!Note]
 > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
-
-## What you might see
-
-After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or in Outlook on the web), you'll see a number of insights in the right pane. For example:
-
-![Insights icon](../../images/mya/overview/insights-view.png)
 
 ## Open the Insights add-in
 
@@ -42,6 +38,12 @@ After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or i
 **To open the Insights add-in in Outlook on the web**
 
 1. In Outlook on the web, open an email message.
+
+## What you might see
+
+After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or in Outlook on the web), you'll see a number of insights in the right pane. For example:
+
+![Insights icon](../../images/mya/overview/insights-view.png)
 
 ## Pin the Insights add-in
 
@@ -70,9 +72,7 @@ If you're using Outlook on the web, you can pin the Insights add-in to the quick
 
     ![Save settings](../../images/mya/use/save-settings.png) 
 
-## Privacy by design 
 
-[!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
 ## Opt out of the Insights Outlook add-in
 
