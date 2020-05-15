@@ -119,14 +119,14 @@ As a first step to viewing data in the dashboard, view and set the following par
 
 * **Current time frame** - This is the timeframe you want to compare with the earlier timeframe.
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
-* **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select the arrow next to **Clear filter**. Measured employees reflect the number of employees in the filtered population who were active in the current period. Active employees are those who sent at least one email or instant message in the work week included in the current timeframe.
+* **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select **Ctrl** while clicking the **Clear filter arrow** (or with a touchscreen, select the **Clear filter arrow**). Measured employees reflect the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current timeframe.
 
   ![Dashboard settings](../Images/WpA/Tutorials/bcd-settings.png)
 
 After changing one or more of the settings in **Settings**, confirm the number of measured employees is what you want to analyze.
 
 > [!Important]
-> As additional data is processed on a weekly basis, you'll need to adjust the **Current time frame** if you want to view the most recent data.
+> As additional data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
 ## About the dashboard reports
 
@@ -211,7 +211,11 @@ The dashboard is currently only available in English.
 
 #### Unable to open document error
 
-You do not have the latest version of Power BI. However, the template might work with this earlier version. To test it:  
+If you get the following error, you do not have the latest version of Power BI.
+
+  ![Unable to open error](../Images/WpA/Tutorials/bcd-open-error.png)
+
+However, the template might work with the earlier version of Power BI that you're using. To test it:  
 
 1. Close any warnings.
 2. If you can view the **Settings** page, the dashboard will work with this version. If you cannot view **Settings**, you need to download the latest version of Power BI.
