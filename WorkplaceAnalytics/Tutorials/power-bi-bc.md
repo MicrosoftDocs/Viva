@@ -123,10 +123,10 @@ As a first step to viewing data in the dashboard, view and set the following par
 
   ![Dashboard settings](../Images/WpA/Tutorials/bcd-settings.png)
 
-After changing one or more of the settings in **Settings**, confirm the number of measured employees is what you want to analyze.
+After confirming the settings, check the number of measured employees to confirm this the population you want to analyze.
 
 > [!Important]
-> As additional data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
+> As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
 ## About the dashboard reports
 
