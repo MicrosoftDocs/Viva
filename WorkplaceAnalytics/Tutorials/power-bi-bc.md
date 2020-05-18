@@ -209,7 +209,7 @@ The dashboard is currently only available in English.
 
 ## Troubleshooting
 
-#### Unable to open document error
+#### Unable to open document
 
 If you get the following error, you do not have the latest version of Power BI.
 
@@ -220,13 +220,13 @@ However, the template might work with the earlier version of Power BI that you'r
 1. Close any warnings.
 2. If you can view the **Settings** page, the dashboard will work with this version. If you cannot view **Settings**, you need to download the latest version of Power BI.
 
-#### “Report layout differences might exist” error
+#### Report layout differences might exist
 
 If you get the following error, you do not have the latest version of Power BI. However, the template might work with this earlier version. To test it, repeat the steps in the previous section.
 
   ![Report layout error](../Images/WpA/Tutorials/bcd-report-error.png)
 
-#### "OData request failed" error
+#### OData request failed
 
 The following error (or similar 500+ error) can occur for one of the following reasons.
 
