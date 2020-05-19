@@ -27,7 +27,7 @@ This add-in is an extension of your Outlook experience and works within Outlook 
 
 After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or in Outlook on the web), you'll see a number of insights in the right pane. For example:
 
-![Insights icon](../../images/mya/overview/insights-view.png)
+![Insights pane](../../images/mya/use/insights-cards-trunc-2.png)
 
 ## Open the Insights add-in
 
@@ -41,7 +41,15 @@ After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or i
 
 **To open the Insights add-in in Outlook on the web**
 
-1. In Outlook on the web, open an email message.
+1. Open [Outlook on the web](https://outlook.office.com/mail/inbox).
+
+2. Open an email message or select an email message to view it in the Outlook Reading pane.
+
+3. Click the ellipsis (...) in the upper right of the message.
+
+4. In the option menu, select **Insights**:
+
+   ![Insights option](../../images/mya/use/insights-add-in-85.png) 
 
 ## Pin the Insights add-in
 
