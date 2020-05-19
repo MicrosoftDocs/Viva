@@ -148,7 +148,7 @@ After it books a block on one day, it then moves on to the next day to find the 
 
 ### Lunchtime
 
-MyAnalytics considers the time from 12:00 AM to 1:00 PM as time for the midday meal. If you have automatic booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period. 
+MyAnalytics considers the time from 12:00 PM to 1:00 PM as time for the midday meal. If you have automatic booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period. 
 
 ## Chats are muted during focus time  
 
