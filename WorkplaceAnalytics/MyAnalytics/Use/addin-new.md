@@ -22,14 +22,24 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides i
 
 ## Open the Insights Add-in
 
-**Prerequisites:** Turn the Outlook Reading pane on and select an email item.
+**Prerequisites:** 1) [Turn on the Outlook Reading Pane](https://support.office.com/en-us/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) and 2) Select an email item.
 
 ### Windows Outlook desktop
 
+<!-- THIS IS WHAT VIVEK SUGGESTED, BUT IT'S NOT WHAT I SEE: 
+
  * In the Outlook **Home** ribbon, select **Insights**:
  
-   ![Insights on the Outlook banner](../../images/mya/use/insights-in-outlook-banner.png)
+   ![Insights on the Outlook banner](../../images/mya/use/insights-in-outlook-banner-2.png)
  
+ -->
+
+1. Open the **Home** ribbon of Microsoft Outlook.
+
+2. Select the **Insights** icon:
+
+    ![Insights icon](../../images/mya/use/insights-view-sm.png)
+
 ### Outlook on the Web
 
  * Open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**. You can pin the Add-in to your quick access pane for easier access. See [Pin the Insights add-in](#pin-the-insights-add-in) for details.
