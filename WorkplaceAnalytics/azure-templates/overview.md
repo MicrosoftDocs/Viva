@@ -52,5 +52,5 @@ As shown in the graphic, Workplace Analytics Azure Templates work with the follo
 ## Related topics
 
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
-* To learn more about Microsoft services, email us at *wpaazuretemplates@microsoft.com*
+* To learn more about Microsoft services, email us at `wpaazuretemplates@microsoft.com`
 * [Deploy and Configure Workplace Analytics Azure Templates](./deploy-configure.md)
