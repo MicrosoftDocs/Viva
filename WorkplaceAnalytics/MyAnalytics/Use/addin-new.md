@@ -3,7 +3,7 @@
 title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 ms.prod: mya
@@ -12,59 +12,113 @@ ms.prod: mya
 
 # Insights Outlook add-in
 
-Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum? 
-If your answer to any of these questions is yes, the Outlook add-in provides insights that you can act upon to help you stay on top of your tasks and get more done. This add-in is an extension of your Outlook experience and works within Outlook to help you be more focused at work, maintain your work relationships, enhance your collaboration, and improve your overall work-life balance. 
+Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
-## Privacy by Design
+If your answer to any of these questions is _yes_, the Outlook add-in provides insights that you can act upon to help you stay on top of your tasks and get more done. This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, plan time away from work, and improve your overall work-life balance.
 
-The Outlook add-in preserves all the data-subject rights afforded by GDPR. The insights you see in the add-in are only available to you, see Privacy FAQ for details. No admin or manager can see these insights. They are computed as needed, from your email and meeting information, and are never stored outside your mailbox. Additionally, the add-in begins processing data for insights only after the first time you open it. Learn more about how Microsoft protects your privacy.
+## Privacy by design 
+
+[!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
 ## Open the Insights Add-in
 
 **Prerequisites:** Turn the Outlook Reading pane on and select an email item.
 
-### Windows Outlook Desktop
- * In the Outlook Home ribbon, select **Insights**. 
+### Windows Outlook desktop
+
+ * In the Outlook **Home** ribbon, select **Insights**:
+ 
+   ![Insights on the Outlook banner](../../images/mya/use/insights-in-outlook-banner.png)
  
 ### Outlook on the Web
- * Open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**. You can pin the Add-in to your quick access pane for easier access. See Pin the add-in for details.
+
+ * Open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**. You can pin the Add-in to your quick access pane for easier access. See [Pin the Insights add-in](#pin-the-insights-add-in) for details.
+
+   ![Insights in OWA](../../images/mya/use/insights-in-owa.png)
 
 ### Mac Outlook Desktop
- * Add-ins are currently not available in the new Mac UI. To be able to use the Insights Outlook add-in, you must first switch to the old UI through the toggle at the top, and then access Insights in the Outlook home ribbon by using the same steps as for the Windows Outlook Desktop.
+
+In the new Mac interface, add-ins are not currently available, but you can enable them by switching to the old interface, as described here: 
  
+#### To enable the Insights Outlook add-in
+
+1. Switch to the old UI by using the toggle at the top of the page:
+
+   ![Mac Outlook switch UI](../../images/mya/use/mac-outlook-switch-ui.png)
+ 
+2. In the Outlook **Home** ribbon, open Insights by using the same steps as for [Windows Outlook desktop](#windows-outlook-desktop).
+
 ### What you might see
 
 After you open the Insights add-in, you'll see a number of cards in the right (Insights) pane. 
+
+![Insights pane](../../images/mya/use/insights-cards-trunc-2.png)
   
 The insights cards consist of the following:
 
-1.	Prepare for your meetings: Help better prepare for and then drive effective meetings.
-2.	Track email open rates: Track readership of emails sent by you by viewing the percentage open rate, the percentage attachment click rate, and so on, for emails that you sent to five or more people.
-3.	View outstanding tasks: Make sure nothing falls through the cracks with reminders of tasks that you've agreed to get done.
-4.	Follow up on your requests: Make sure nothing falls through the cracks; you'll receive reminders to follow up on commitments made by your colleagues or requests made by you
-5.	Book time to focus: Protect your calendar by reserving focus time before meetings take over.
-6.	Catch up on email: Cut through the clutter with a summary of unread email from your more important contacts
-7.	Catch up on documents: See a list of the shared OneDrive and SharePoint documents in email that you need to catch up on
-8.	Add important people: Manage your list of important contacts. You'll see reminders when you have tasks to do for these people or unread email from them.
-9.	Set lunch hours: Use this card to protect your lunch hours and personalize your insights.
-10.	Plan time away: Use this card to plan your time away from work
-11.	Catch up with your team: Stay on top of your teams needs with insights around 1:1 meetings, outstanding tasks etc.
-12.	Meeting suggestions: Grow and nurture your network by staying connected with important colleagues
-13.	Check quiet hours impact: Help your team achieve work-life balance by reviewing the impact of sending email outside of working hours.
+1.	[Prepare for your meetings](#prepare-for-your-meetings): Help better prepare for and then drive effective meetings.
+2.	[Track email open rates](#track-email-open-rates): Track readership of emails sent by you by viewing the percentage open rate, the percentage attachment click rate, and so on, for emails that you sent to five or more people.
+3.	[View outstanding tasks](#view-outstanding-tasks): Make sure nothing falls through the cracks with reminders of tasks that you've agreed to get done. 
+4.	[Follow up on your requests](#follow-up-on-your-requests): Make sure nothing falls through the cracks; you'll receive reminders to follow up on commitments made by your colleagues or requests made by you 
+5.	[Book time to focus](#book-time-to-focus): Protect your calendar by reserving focus time before meetings take over.  
+6.	[Catch up on email](#catch-up-on-email): Cut through the clutter with a summary of unread email from your more important contacts 
+7.	[Catch up on documents](#catch-up-on-documents): See a list of the shared OneDrive and SharePoint documents in email that you need to catch up on 
+8.	[Add important people](#add-important-people): Manage your list of important contacts. You'll see reminders when you have tasks to do for these people or unread email from them.
+9.	[Set lunch hours](#set-lunch-hours): Use this card to protect your lunch hours and personalize your insights.
+10.	[Plan time away](#plan-time-away): Use this card to plan your time away from work
+11.	[Catch up with your team](#catch-up-with-your-team): Stay on top of your teams needs with insights around 1:1 meetings, outstanding tasks etc
+12.	[Meeting suggestions](#meeting-suggestions): Grow and nurture your network by staying connected with important colleagues
+13.	[Check quiet hours impact](#check-quiet-hours-impact): Help your team achieve work-life balance by reviewing the impact of sending email outside of working hours.
 
-For information about how best to use particular Insights, see Using the Insights.
+For information about how best to use particular Insights, see [Using the Insights](#using-the-insights).
 
-[Add Pin the Insights add-in Section here]
+## Pin the Insights add-in
 
-[Remove the privacy by design section, it has been moved up. Replace it with a section which describes the settings]
+If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.  
 
-[Add Opt out of the Insights Outlook add-in Section here]
+**To pin the add-in to the quick access pane**
 
+1. In Outlook on the web, select the **Settings** (gear) icon.
 
+    ![OWA Settings pane](../../images/mya/use/owa-settings.png) 
 
+2. In **Settings**, select **View all Outlook Settings**.
+3. Confirm **Mail** is selected in the left pane, and in the center pane, select **Customize actions**.
 
+    ![Customize actions](../../images/mya/use/customize-actions.png) 
 
+4. In the right pane, in the **Message surface** area, select **Insights**.
 
+    ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png) 
+
+5. In the right pane, in the **Toolbar** area, select **Insights**.
+
+    ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png) 
+
+6. Save your new settings.
+
+    ![Save settings](../../images/mya/use/save-settings.png) 
+
+## Opt out of the Insights Outlook add-in
+
+1. Open your [dashboard](https://myanalytics.microsoft.com).
+2. Select the **Settings** (gear) icon at top right.
+
+    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+
+3. Under MyAnalytics, select **Settings**.
+4. For **Insights Outlook add-in**, set the control to **Off**.
+
+    ![Slider in off position](../../Images/mya/use/add-in-opt-in-out.png)
+  
+5. Select **Save** to save your changes.
+
+> [!NOTE]
+> It might take up to 24 hours for your saved changes to take effect.
+
+### If I am opted out, can I opt back in?
+
+Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
 
 # Using the Insights
 
