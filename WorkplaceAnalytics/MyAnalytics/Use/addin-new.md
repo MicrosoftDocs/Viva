@@ -56,25 +56,25 @@ After you open the Insights add-in, you'll see a number of cards in the right (I
   
 The insights cards consist of the following:
 
-1.	[Prepare for your meetings](#prepare-for-your-meetings): Help better prepare for and then drive effective meetings.
-2.	[Track email open rates](#track-email-open-rates): Track readership of emails sent by you by viewing the percentage open rate, the percentage attachment click rate, and so on, for emails that you sent to five or more people.
-3.	[View outstanding tasks](#view-outstanding-tasks): Make sure nothing falls through the cracks with reminders of tasks that you've agreed to get done. 
-4.	[Follow up on your requests](#follow-up-on-your-requests): Make sure nothing falls through the cracks; you'll receive reminders to follow up on commitments made by your colleagues or requests made by you 
+1.	[Prepare for your meetings](#prepare-for-your-meetings): Prepare for your meetings and then drive more effective meetings.
+2.	[Track email open rates](#track-email-open-rates): Track readership of emails that you've sent sent by viewing the percentage open rate, the percentage attachment click rate, and so on.
+3.	[View outstanding tasks](#view-outstanding-tasks): Make sure nothing falls through the cracks by seeing reminders of tasks that you've agreed to do. 
+4.	[Follow up on your requests](#follow-up-on-your-requests): Receive reminders to follow up on commitments made by your colleagues or on requests that you have made.  
 5.	[Book time to focus](#book-time-to-focus): Protect your calendar by reserving focus time before meetings take over.  
-6.	[Catch up on email](#catch-up-on-email): Cut through the clutter with a summary of unread email from your more important contacts 
-7.	[Catch up on documents](#catch-up-on-documents): See a list of the shared OneDrive and SharePoint documents in email that you need to catch up on 
-8.	[Add important people](#add-important-people): Manage your list of important contacts. You'll see reminders when you have tasks to do for these people or unread email from them.
+6.	[Catch up on email](#catch-up-on-email): Cut through the clutter with a summary of unread email from your more important contacts. 
+7.	[Catch up on documents](#catch-up-on-documents): See a list of shared OneDrive and SharePoint documents that you need to catch up on.  
+8.	[Add important people](#add-important-people): Manage your list of important contacts. You'll see reminders when you have tasks to complete for these people or unread emails from them.
 9.	[Set lunch hours](#set-lunch-hours): Use this card to protect your lunch hours and personalize your insights.
-10.	[Plan time away](#plan-time-away): Use this card to plan your time away from work
-11.	[Catch up with your team](#catch-up-with-your-team): Stay on top of your teams needs with insights around 1:1 meetings, outstanding tasks etc
-12.	[Meeting suggestions](#meeting-suggestions): Grow and nurture your network by staying connected with important colleagues
+10.	[Plan time away](#plan-time-away): Use this card to plan your time away from work.
+11.	[Catch up with your team](#catch-up-with-your-team): Stay on top of your team's needs with insights for 1:1 meetings, outstanding tasks, and so on. 
+12.	[Meeting suggestions](#meeting-suggestions): Grow and nurture your network by staying connected with important colleagues.
 13.	[Check quiet hours impact](#check-quiet-hours-impact): Help your team achieve work-life balance by reviewing the impact of sending email outside of working hours.
 
 For information about how best to use particular Insights, see [Using the Insights](#using-the-insights).
 
 ## Pin the Insights add-in
 
-If you're using Outlook on the web, you can pin the Insights add-in to the quick access pane for easier access.  
+If you're using Outlook on the Web, you can pin the Insights add-in to the quick access pane for easier access.  
 
 **To pin the add-in to the quick access pane**
 
@@ -119,6 +119,8 @@ If you're using Outlook on the web, you can pin the Insights add-in to the quick
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
+
+<!-- NEW TOPIC STARTS HERE  -->
 
 # Using the Insights
 
