@@ -5,14 +5,12 @@
 - name: Configure Briefing
   href: ./be-admin.md
 - name: Briefing rollout
-  expanded: true
   items:
   - name: Conduct a user pilot
     href: ./be-pilot.md
   - name: Downloadable resources
     href: ./be-resources.md
   - name: Use Briefing
-  expanded: true
   items:
   - name: Prepare for meetings
     href: ./be-meetings.md
