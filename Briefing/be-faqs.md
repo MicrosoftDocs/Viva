@@ -22,9 +22,9 @@ Everyone in your Office 365 tenant with an English (United States) language Exch
 
 The Briefing email is on by default. You can use [PowerShell](be-admin.md) to enable/disable the Briefing email for individual users. Users can also individually opt out by simply selecting the Unsubscribe link at the end of a Briefing email.  
 
-### Q3 Is the Briefing email GDPR compliant?
+### Q3 Does the Briefing email comply with GDPR?
 
-Yes. The Briefing email complies with GDPR requirements.  
+Yes. Microsoft complies with GDPR requirements when providing the Briefing email.
 
 ### Q4 Can users see information about other users in the Briefing email?
 
