@@ -29,6 +29,7 @@ After you [open the Insights add-in](#open-the-insights-add-in) in Outlook (or i
 
 ![Insights pane](../../images/mya/use/insights-cards-trunc-2.png)
 
+
 ## Open the Insights add-in
 
 **To open the Insights add-in in Outlook**
