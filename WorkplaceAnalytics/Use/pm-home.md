@@ -61,38 +61,34 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 
 ## Frequently asked questions
 
-### Q1 How do these insights accommodate different partitions?
-
-These insights are only about the participants who are included in the selected partition.
-
-### Q2 Which roles have access to this manager insights page?
+### Q1 Which roles have access to this manager insights page?
 
 Only managers assigned the **Group manager** role in Workplace Analytics can see insights about their teams.
 
-### Q3 Who is included as a measured employee?
+### Q2 Who is included as a measured employee?
 
 Measured employees include those who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the Admin.
 
-### Q4 Why is the number of measured employees different from my current number of direct and indirect reports?
+### Q3 Why is the number of measured employees different from my current number of direct and indirect reports?
 
 The number of measured employees might be different because:
 
 * One or more of the employees on your team are not assigned a Workplace Analytics license.
 * Or the latest available HR data uploaded into Workplace Analytics did not include the latest hierarchy or employee data.
 
-### Q5 Can I configure the time period or thresholds for the insights?
+### Q4 Can I configure the time period or thresholds for the insights?
 
 Currently, you cannot configure settings for these insights. The current time period is the past six months.
 
-### Q6 Do the "Teams like yours" metrics account for organizational averages and minimum group size settings?
+### Q5 Do the "Teams like yours" metrics account for organizational averages and minimum group size settings?
 
 Teams like yours metrics use other teams in the same hierarchy that report to the manager's manager. If the team structure does not meet the minimum group size, then the company's average is not used or shown in the metrics.  
 
-### Q7 Can I see insights for both my direct and indirect reports?
+### Q6 Can I see insights for both direct and indirect reports?
 
-This capability in not available, but might be included in a future release.
+While this capability is currently unavailable, it is planned for a future release.
 
-### Q8 Why are some employees in my team not eligible to enroll in plans?
+### Q7 Why are some employees in my team not eligible to enroll in plans?
 
 Employees might not be eligible for a plan if:
 
