@@ -7,6 +7,8 @@ author: madehmer
 ms.author: madehmer
 ms.topic: conceptual
 localization_priority: normal 
+search.appverid:
+- MET150
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -26,6 +28,7 @@ You can easily customize them to meet your unique organizational needs, includin
   * [Topic Analysis Azure Template](./topic-analysis.md)
   * [Process Explorer Azure Template](./process-explorer.md)
   * [Join Datasets Azure Template](./join-datasets.md)
+  * [Workspace Planning Azure Template](space-planning.md)
 
 * **Analytic framework support**: Enables you to merge Workplace Analytics query output with other [Azure data sources](https://docs.microsoft.com/azure/index) outside of Workplace Analytics (such as with Azure Blob storage, Azure SQL Database, Azure Databricks, and Azure Analysis Services) for custom metric calculations, advanced and interactive visuals, and automated data management.
 
@@ -50,9 +53,5 @@ As shown in the graphic, Workplace Analytics Azure Templates work with the follo
 ## Related topics
 
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
-* To learn more about Microsoft services, email us at wpaazuretemplates@microsoft.com
+* To learn more about Microsoft services, email us at `wpaazuretemplates@microsoft.com`
 * [Deploy and Configure Workplace Analytics Azure Templates](./deploy-configure.md)
-* [Organization Network Analysis Azure Template](./organization-network-analysis.md)
-* [Topic Analysis Azure Template](./topic-analysis.md)
-* [Process Explorer Azure Template](./process-explorer.md)
-* [Join Datasets Azure Template](./join-datasets.md)

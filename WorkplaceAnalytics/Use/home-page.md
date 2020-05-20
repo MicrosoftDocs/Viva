@@ -13,19 +13,19 @@ ms.prod: wpa
 
 As a business leader, an analyst, or a program manager, you can use these pages to see analysis scope information and research-based behavioral insights into how your organization gets work done.
 
-![Home page](../images/wpa/use/wpa-home-1.png)
+![Home page](../images/wpa/use/wpa-home.png)
 
 ## Analysis scope
 
-The top right of the page shows who is included in this analysis. This data is based on the most recent organizational data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](organizational-data.md).
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Organizational data](organizational-data.md) and [Office 365 data](office-365-data.md).
 
 ## Employee experience
 
-A positive employee experience reduces turnover, boosts productivity, and leads to happier employees.
+Research shows that happy employees help boost productivity and reduce turnover. These insights and suggestions can help you maintain positive employee experiences, such as evaluating how much time your organization is working after hours on email or instant messages.
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
-![Employee experience](../images/wpa/use/employee-exp.png)
+![Employee experience](../images/wpa/use/employee-exp-1.png)
 
 ## Organizational agility
 
@@ -33,22 +33,29 @@ Nimble companies can efficiently adapt to market changes and gain a true competi
 
 For example, do your employees have time to focus on their work? Research shows that employees who have time to focus on deep work can master difficult tasks and produce higher quality work.
 
-![Organizational agility](../images/wpa/use/org-agility.png)
+![Organizational agility](../images/wpa/use/org-agility-1.png)
 
 ## Customer focus
 
+Companies with a customer-focused mindset can foster positive customer experience and improve business growth.
+
+Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
+
+<!-- Text replaced 25 April 2020
 Show your customers you value them and their business by creating deep connections.
 
 For example, are your employees engaged often and deeply with customers? Research shows that fully engaged customers deliver a 23 percent premium over average in share of wallet, profitability, revenue, and relationship growth.
+-->
 
-![Customer focus](../images/wpa/use/customer-focus.png)
+![Customer focus](../images/wpa/use/customer-focus-sm.png)
+
 
 ## Supporting evidence and Best practices
 
 Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
 
-* Industry experts based on research.
-* Organizations that have effectively used Workplace Analytics to improve their business outcomes.
+* Industry experts based on research
+* Organizations that have effectively used Workplace Analytics to improve their business outcomes
 
 ## Explore the stats
 
@@ -65,9 +72,9 @@ As an analyst or program manager, you'll also see an option to **View recommende
 
 ## About the metrics
 
-The following describes the metrics used in each of the business insight questions.
+The following describes how the metrics are calculated to support the behavioral insights for each of the business insight questions.
 
-|Question |Metric description  |
+|Business insight question |Metric description  |
 |---------|--------------------|
 |Are employees getting enough time with their managers? |One-on-one time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Are employees working after hours? |After-hours work is the number of hours employees spend in meetings and on email outside of working hours. This uses the working hours set in the employee's Outlook calendar settings. |
@@ -78,6 +85,8 @@ The following describes the metrics used in each of the business insight questio
 |Do employees collaborate across the company? |Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. This insight highlights the organizations that spend more than 50 percent of their overall collaboration within their group. |
 |Are influencers present across the company? |Influencers are employees who have the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 |Are employees sharing information quickly? |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 10 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |
+| Are employees building customer networks? | _External network_ is the number of people external to the company with whom the employee had at least two meaningful interactions in a month. This insight highlights employees who have had more than five connections with external people in a month. |  
+| How is the customer collaboration in your company? | _External collaboration hours_ is the number of hours employees spend in meetings and emails with at least one person outside the company. This insight highlights the groups that spend large proportion of their overall collaboration with people outside the company. | 
 
 ## Frequently asked questions
 

@@ -6,6 +6,8 @@ author: madehmer
 ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
+search.appverid:
+- MET150
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -19,8 +21,7 @@ You use the following Settings pages in Workplace Analytics to customize system 
  * [Sources](#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
  * [Upload](#upload) – Prepare and upload organizational and customer data.
  * [Analysis settings](#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
- * [Admin settings](#admin-settings) – Configure system defaults and privacy settings.
- * [Manager settings](#manager-settings) - Allows managers access to see insights about their teams and to set up plans in Workplace Analytics.
+ * [Admin settings](#admin-settings) – Configure [system defaults](#system-defaults), [privacy settings](#privacy-settings), and [manager settings](#manager-settings).
 
 [!INCLUDE [To open the Workplace Analytics Settings page](../includes/to-open-wpa.md)]
 
@@ -66,9 +67,9 @@ For detailed information on how to create new exclusion rules, see [Meeting excl
 
 ## Admin settings
 
- * **Owner** – Workplace Analytics Admins have full access to this page.
+ * **Owner** – Workplace Analytics Admins have full access to this page
 
-In **Admin settings**, you can configure [system defaults](#system-defaults) and [privacy settings](#privacy-settings).
+In **Admin settings**, you can configure [system defaults](#system-defaults), [privacy settings](#privacy-settings), and [manager settings](#manager-settings).
 
 ![Admin settings](../images/wpa/use/admin-system-defaults.png)
 
@@ -177,7 +178,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 
 Use this setting to control whether to show or hash subject lines in [Meeting query](../tutorials/meeting-queries.md) results, which, by default, are *not* shown.
 
-If you select **Yes** for **Hash subject lines**, they are converted to a hashed value (a system-generated number), so the text in unreadable in any queries. You can still create meeting queries that include subject-line terms, such as for meeting attributes. However, you won't be able to see a list of meetings that show the subject lines.
+If you select **Yes** for **Hash subject lines**, they are converted to a hashed value (a system-generated number), so the text is unreadable in any queries. You can still create meeting queries that include subject-line terms, such as for meeting attributes. However, you won't be able to see a list of meetings that show the subject lines.
 
 For example, you could run a query with the subject-line keyword "All-hands." Based on the attributes you include in the query, the results could show data with that subject line, including the number of meetings, the length and size of the meetings, and so on. However, you could not get a specific list of all the meetings with the subject line "All-hands" (a row for each all-hands meeting).
 
@@ -188,7 +189,7 @@ For example, you could run a query with the subject-line keyword "All-hands." Ba
 
 You can exclude data from specific domains or that includes specific email addresses:
 
-* In **Exclude domains**, you can enter one or more domains to exclude from analysis. Any email or meetings that have people included in these domains will be excluded from any queries.
+* In **Exclude domains**, you can enter one or more domains to exclude from analysis. Any email, meetings, calls, or instant messages that have people included in these domains will be excluded from any queries.
 
 * In **Exclude email addresses**, you can enter email addresses to exclude from analysis. Any email and meetings that have these email addresses (as either sender or recipient, and attendee or invitee) are now excluded from analysis. For this setting, you need to enter every email address for each alias that you want to exclude.
 
@@ -248,7 +249,7 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 
 ### Manager settings
 
-On the **Manager settings** page, you can allow all measured managers or specific managers access to aggregate collaboration insights about their team and the ability to start plans for their team in Workplace Analytics. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics.
+On the **Manager settings** page, you can allow all measured managers or specific managers access to aggregate collaboration insights about their team and the ability to start plans for their team in Workplace Analytics. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics. The size of the team counts the group manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
 
 The following are based on the latest organizational (HR) data that's been successfully uploaded and processed in Workplace Analytics:
 

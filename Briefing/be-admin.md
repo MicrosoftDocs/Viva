@@ -23,9 +23,9 @@ Confirm the following before configuring access:
 
 * **Licensed users only** - Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
-* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
-<!--
-### To configure access at the tenant level
+* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
+
+<!--### To configure access at the tenant level
 
 As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English (US) will receive the Briefing email.
 
@@ -52,8 +52,8 @@ You can enable or disable the Briefing email for all users in your organization 
   Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<"Opt-in" | "Opt-out">]
   ```
 
-   * If you set **BriefingEmailDefault** parameter to **Opt-out**, the Briefing email will be Off by default for your organization. Users can then opt-in at [briefing.microsoft.com](https://briefing.microsoft.com).
-   * If you set **BriefingEmailDefault** parameter to **Opt-in**, the Briefing email will be On by default for your organization. Users can then opt-out at [briefing.microsoft.com](https://briefing.microsoft.com). If no action is taken, this setting applies by default.
+   * If you set **BriefingEmailDefault** parameter to **Opt-out**, the Briefing email will be Off by default for your organization. Users can then opt-in at [cortana.office.com](https://cortana.office.com).
+   * If you set **BriefingEmailDefault** parameter to **Opt-in**, the Briefing email will be On by default for your organization. Users can then opt-out at [cortana.office.com](https://cortana.office.com). If no action is taken, this setting applies by default.
 
 To get the current state of the Briefing email setting, use:
 
@@ -65,7 +65,7 @@ Get-OrganizationIntelligenceConfig
 -->
 
 > [!Note]
-> Users can choose to opt out or back in at any time at [briefing.microsoft.com](https://briefing.microsoft.com).
+> Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com).
 
 To configure access, use the Exchange Online PowerShell V2 module to set Briefing email access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users).
 
@@ -81,7 +81,7 @@ Set-UserBriefingConfig -Identity joe@contoso.com [-Enabled [<$true | $false>]
 ```
 
 - If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user.
-- If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from [briefing.microsoft.com](https://briefing.microsoft.com). If no action occurs, this setting applies by default.
+- If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from [cortana.office.com](https://cortana.office.com). If no action occurs, this setting applies by default.
 
 For example, to get the current state of the Briefing email flag for "joe@contoso.com," you'd use:
 
@@ -123,8 +123,9 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
    }
    ```
 
-3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
+3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt.
 
 ## Related topics
 
-[Briefing email overview](be-overview.md)
+* [Briefing email overview](be-overview.md)
+* [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2)

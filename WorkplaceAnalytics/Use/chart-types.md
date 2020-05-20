@@ -215,10 +215,10 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 
 #### To change the date range
 
-1. Under **Page settings**, expand **Date range**.
-2. Under **Date range**, select a year and then select a month. 
+1. In **Page settings**, expand **Date range**.
+2. In **Date range**, select a year and then select a month. 
 3. The selected month displays in more detail in a fly-out window. Use that window to select weeks in the month, one week at a time.
-4. Select **Apply**.
+4. Select **Apply** (upper right) to apply these changes to all charts.
 
 > [!Note]
 > The date range options encompass the most recent data that has been loaded and use the following logic:
@@ -226,14 +226,19 @@ The next time you open Explore in Workplace Analytics, it shows the charts with 
 > * A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.
 > * For a week that starts in one month and ends in the following month, the data is associated with the month in which the week begins.
 
-#### To add filters
+#### To change or add filters
 
-1. Under **Page settings**, expand **Measured employees**.
-2. In the **Group by** menu, you can select the organizational attribute to use in all the charts.
-3. Next to **Filters**, select the **Edit** (pencil) icon. This opens the **Edit page filters** area.  
-4. Under **Edit page filters**, select **Add filter**.
-5. Add the filters you want.
-6. Select **Apply** (at the top) to apply these changes to all Explore charts.
+1. In **Page settings**, expand **Measured employees**.
+2. In **Group by**, select the organizational attribute to use in all charts.
+3. Next to **Filters**, select the **Edit** (pencil) icon.  
+4. In **Edit page filters**, you can change the **Employees** filter: 
+
+   * **All employees** - Includes inactive and active employees for the set date range.
+   * **Active only** - Includes only active employees who have sent at least one email or instant message for the set date range.
+   * **Inactive only** - Includes only those inactive employess who have not sent at least one email or instant message for the set date range.
+ 
+5. Select **Add filter** to add one or more additional filters.
+6. Select **Apply** (upper right) to apply these changes to all charts.
 
 #### To change the number of groups
 
