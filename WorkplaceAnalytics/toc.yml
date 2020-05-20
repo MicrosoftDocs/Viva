@@ -122,10 +122,12 @@
                   href: ~/tutorials/crm-queries.md    
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md
-  #              - name: ONA queries                   
-  #                items: 
-  #                  - name: ONA queries
-  #                    href: ~/tutorials/ona-queries.md 
+                - name: ONA queries
+                  href: ~/tutorials/ona-queries.md 
+ #  future       - name: ONA queries                   
+ #  structure      items: 
+ #                   - name: ONA queries
+ #                     href: ~/tutorials/ona-queries.md 
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md
                 - name: Power BI Business continuity dashboard
