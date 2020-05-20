@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Organizational network analysis (ONA) queries 
 description: Describes how to use Organizational network analysis (ONA) queries in Workplace Analytics to determine the "Influence" metric of individuals in your organization
 author: paul9955
@@ -12,7 +11,7 @@ ms.prod: wpa
 
 # Organizational network analysis (ONA) queries
 
-It’s frequently necessary to implement changes within organizations, whether this be introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change – perhaps starting with mass emails – it’s not always the most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.  
+It’s frequently necessary to implement changes within organizations, whether this be introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change – perhaps starting with mass emails – it’s not always the most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.   
 
 Instead, a more successful strategy uses change agents -- influential, well-connected people who are positioned at various levels within the hierarchy, not just at the top. Beyond an organization’s formal hierarchy there also exist informal networks; individuals can exert influence within those networks and between them. The most influential people are the ones who have large personal networks – that is, above-average numbers of relationships with colleagues.
 
@@ -25,6 +24,7 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 **Role:** analyst
 
 1.	In Workplace Analytics, select **Analyze > Queries**.
+
 2.	Under **Start custom query**, select **Network: Person**:
 
     ![ONA person query](../images/wpa/tutorials/person-ona-query.png)
@@ -33,9 +33,7 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
 
     > [!Note] 
-    > Currently, for ONA queries, you cannot select the following:
-    > * a specific meeting-exclusion rule 
-    > * the auto-refresh option 
+    > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.   
 
 5.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
 6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
@@ -44,7 +42,7 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 9.	On the **Queries > Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 > [!Note] 
-> You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes the various ways to see or share results. You can follow steps in that topic to [View query results](../use/view-download-and-export-query-results.md#view-query-results) or to [Download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), but note that the other sections of that topic (such as using and OData link) do not currently apply to ONA queries.
+> You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 ## ONA query output
 
@@ -68,3 +66,6 @@ The following columns are included in the query results for ONA queries:
 [Metric descriptions](../use/metric-definitions.md)
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
+
+[Best practices for influencers](https://review.docs.microsoft.com/en-us/Workplace-Analytics/tutorials/gm-influencer?branch=pas-sr-ona-flexible-query)
+
