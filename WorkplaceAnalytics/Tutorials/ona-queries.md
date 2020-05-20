@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Organizational network analysis (ONA) queries 
 description: Describes how to use Organizational network analysis (ONA) queries in Workplace Analytics to determine the "Influence" metric of individuals in your organization
 author: paul9955
