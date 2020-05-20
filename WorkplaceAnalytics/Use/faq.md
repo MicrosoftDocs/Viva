@@ -192,7 +192,7 @@ A5. It depends on the permissions that are set for the Exchange Online shared ma
  * **Send As** permissions - The shared mailbox gets credit for sending the email.
  * **Send on Behalf** permissions - The person who sends the message gets the credit.
 
-For more about permissions, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
+For more about permissions, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
 
 (Also see this question about [Delegate access and Send on Behalf](#q5-how-does-workplace-analytics-treat-email-and-meetings-sent-on-behalf-of-another-individual-who-delegated-access-or-a-shared-mailbox).)
 
