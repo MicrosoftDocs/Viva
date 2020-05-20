@@ -2,10 +2,15 @@
   href: ./be-overview.md
 - name: Privacy guide
   href: ./be-privacy.md
-- name: Configure Briefing email
+- name: Configure Briefing
   href: ./be-admin.md
-- name: Using Briefing email
-  expanded: true
+- name: Briefing rollout
+  items:
+  - name: Conduct a user pilot
+    href: ./be-pilot.md
+  - name: Downloadable resources
+    href: ./be-resources.md
+- name: Use Briefing
   items: 
   - name: Prepare for meetings
     href: ./be-meetings.md
@@ -13,3 +18,5 @@
     href: ./be-tasks.md
   - name: Book focus time
     href: ./be-focus.md
+- name: Frequently asked questions
+  href: ./be-faqs.md

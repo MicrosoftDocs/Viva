@@ -8,6 +8,8 @@ author: paul9955
 ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
+search.appverid:
+- MET150
 ms.prod: mya
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -28,7 +30,7 @@ The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-diges
  
 > [!Note]
 > * To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) 
-> * [Email read statistics](../use/add-in.md#email-read-statistics) are available only in the MyAnalytics (Full) service plan. 
+> * [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are available only in the MyAnalytics (Full) service plan. 
 
 For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 

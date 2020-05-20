@@ -7,6 +7,8 @@ author: madehmer
 ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
+search.appverid:
+- MET150
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -16,6 +18,10 @@ audience: Admin
 # What's new in Workplace Analytics Azure Templates
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
+
+## May 2020
+
+The new [Workspace Planning Azure Template](space-planning.md) is now available. This template enables a quantitative solution to effectively identify and place teams in a given workspace to maximize and foster physical workplace cross-team productivity and collaboration.
 
 ## March 2020
 

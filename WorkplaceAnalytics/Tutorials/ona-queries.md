@@ -25,7 +25,8 @@ This query type lets analysts use a metric called [Influence](#metric-definition
 **Role:** analyst
 
 1.	In Workplace Analytics, select **Analyze > Queries**.
-2.	Under **Start custom query**, select **Network: Person**
+
+2.	Under **Start custom query**, select **Network: Person**:
 
     ![ONA person query](../images/wpa/tutorials/person-ona-query.png)
 
@@ -68,3 +69,4 @@ The following columns are included in the query results for ONA queries:
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
 
 [Best practices for influencers](https://review.docs.microsoft.com/en-us/Workplace-Analytics/tutorials/gm-influencer?branch=pas-sr-ona-flexible-query)
+
