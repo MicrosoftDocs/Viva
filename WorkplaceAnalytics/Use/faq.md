@@ -263,7 +263,7 @@ A5. The shared-mailbox and delegate-access cases are treated differently by Work
 
  * **Shared mailbox** - If an individual sends an email or a meeting invitation on behalf of a shared mailbox, Workplace Analytics does not use this action in its calculations. 
 
- * **Delegate access** - If an individual sends an email or a meeting invitation on behalf of the mailbox of another user who has granted delegate access, Workplace Analytics considers the meeting request or email to have been sent by the individual whose mailbox the meeting is sent from (that is, _not_ the user who has delegate access).
+ * **Delegate access** - Let's say an individual sends an email or a meeting invitation on behalf of the mailbox of another user who has granted delegate access. Workplace Analytics considers the item to have been sent by the individual whose mailbox the item was sent from, _not_ the user who has delegate access.
 
 (Also see this question about [Send As and Send on Behalf](#q5-when-a-person-sends-a-message-from-a-shared-mailbox-who-gets-credit-or-shows-as-the-sender-of-the-message).)
 
