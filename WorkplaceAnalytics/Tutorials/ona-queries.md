@@ -53,14 +53,6 @@ The following columns are included in the query results for ONA queries:
  * **Person attributes.** Attributes about the person supplied through the latest organizational (HR) data upload.
  * **Metrics.** Any metrics that you include in the query. For more information, see [Metric definition: Influence](#metric-definition-influence).
 
- ## Metric definition: Influence
-
- ONA queries make the _Influence_ metric available:
-
-|Metric|Description|Query type|Data type|Customizable|
-|------|-----------|----------|---------|------------|
-|Influence|A numeric score that indicates how well connected a person is within the company. A higher score means that the person is better connected and has greater potential to drive change.|ONA|Score|No|
-
 ## Related topics
 
 [Metric descriptions](../use/metric-definitions.md)
