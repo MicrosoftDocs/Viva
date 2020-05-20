@@ -12,7 +12,7 @@ ms.prod: mya
 ---
 # Briefing email resources
 
-When you're ready to rollout the Briefing email to your organization or to a new group of employees who just joined your organization, it's important that you educate them on how the Briefing email can help them get their work done and plan for the day ahead.
+When you're ready to roll out the Briefing email to your organization or to a new group of employees who just joined your organization, it's important that you educate them on how the Briefing email can help them get their work done and plan for the day ahead.
 
 You can use the following to help explain what the Briefing email is, when they will get it, and how to best use it:
 
