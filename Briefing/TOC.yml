@@ -10,8 +10,8 @@
     href: ./be-pilot.md
   - name: Downloadable resources
     href: ./be-resources.md
-  - name: Use Briefing
-  items:
+- name: Use Briefing
+  items: 
   - name: Prepare for meetings
     href: ./be-meetings.md
   - name: Follow up on tasks
