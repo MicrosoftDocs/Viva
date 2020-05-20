@@ -185,6 +185,17 @@ A3. Business policies can impact historical data processed by Workplace Analytic
 
 A4. Workplace Analytics processes email and meetings data for a distribution list as a single entity or person. It does not expand the distribution list and assign meeting and email hours to all of its members. For more accurate data, upload the org data attributes for these files by adding attributes of the distribution-list members or whatever best describes the list population. See [Upload organizational data](../setup/prepare-organizational-data.md) for detailed steps.
 
+##### Q5. When a person sends a message from a shared mailbox, who gets credit or shows as the sender of the message?
+
+A5. It depends on the permissions that are set for the Exchange Online shared mailbox.
+
+ * **Send As** permissions - The shared mailbox gets credit for sending the email.
+ * **Send on Behalf** permissions - The person who sends the message gets the credit.
+
+For more about permissions, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
+
+(Also see this question about [Delegate access and Send on Behalf](#q5-how-does-workplace-analytics-treat-email-and-meetings-sent-on-behalf-of-another-individual-who-delegated-access-or-a-shared-mailbox).)
+
 ## Explore dashboards
 
 ##### Q1. How do I change the meeting exclusion rule sets used on the Explore dashboards?
@@ -235,6 +246,8 @@ A3. You can use the Collaboration hours metric to filter for a specific time fra
 
 A4. Because totals for working hours and after hours calculate the "time booked on your calendar" instead of "time in meetings." Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
+<!-- Original Q5 that was here. 
+
 ##### Q5. A person who has delegate access (for example, an executive assistant, or "EA") can organize meetings and send email on behalf of another person, such as a corporate leader. In its calculations, does Workplace Analytics view the _EA_ or the _leader_ as the creator of these items?
 
 A5. The _leader_ is considered to be the creator. Note the following: 
@@ -242,6 +255,17 @@ A5. The _leader_ is considered to be the creator. Note the following:
  * <u>For meetings</u>, the EA must first have been granted delegate access to the leader's calendar. Then, the EA can open the leader's shared calendar and create and send the meeting invitation. In this situation, no metrics are attributed to the EA. Workplace Analytics considers the meeting request to have veen sent by the leader. 
  
   * <u>For emails</u>, no metrics are attributed to the EA. Workplace Analytics considers the email to have been sent by the leader. 
+-->
+
+##### Q5. How does Workplace Analytics treat email and meetings sent on behalf of another individual (who delegated access) or a shared mailbox?
+
+A5. The shared-mailbox and delegate-access cases are treated differently by Workplace Analytics:  
+
+ * **Shared mailbox** - If an individual sends an email or a meeting invitation on behalf of a shared mailbox, Workplace Analytics does not use this action in its calculations. 
+
+ * **Delegate access** - Let's say an individual sends an email or a meeting invitation on behalf of the mailbox of another user who has granted delegate access. Workplace Analytics considers the item to have been sent by the individual whose mailbox the item was sent from, _not_ the user who has delegate access.
+
+(Also see this question about [Send As and Send on Behalf](#q5-when-a-person-sends-a-message-from-a-shared-mailbox-who-gets-credit-or-shows-as-the-sender-of-the-message).)
 
 ##### Q6. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
