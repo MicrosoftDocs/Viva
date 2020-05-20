@@ -125,7 +125,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
   * Can share access to data they own with other users.
   * For the [Join Datasets Azure Template](./join-datasets.md), can share access to their joined datasets with other template users.
 
-* **Data Scientist**
+* **Data Scientist (beta)**
 
   * Can access, use, and customize the same analytical templates and Power BI reports and dashboards as an Analyst.
   * Can also access the Azure Databricks Workspace and use Python or R scripts to derive new insights.
