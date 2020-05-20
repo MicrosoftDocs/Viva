@@ -1,7 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Conduct a pilot for the Briefing email
+title: Conduct a user pilot
 description: Helps you conduct a pilot rollout for the Briefing email
 author: madehmer
 ms.author: madehmer
@@ -11,7 +11,7 @@ ms.prod: mya
 
 ---
 
-# Conduct a pilot for the Briefing email
+# Conduct a user pilot
 
 Before enabling Briefing across your entire organization, you can run a pilot with a subset of users. Especially for large organizations, a small-scale pilot is a natural first step to validate user readiness, identify and mitigate issues, and help ensure a successful, organization-wide rollout.
 
