@@ -17,7 +17,7 @@ Instead, a more successful strategy uses change agents -- influential, well-conn
 
 Therefore, to help implement change, it pays to know who the influencers are. The Workplace Analytics ONA query was designed for this purpose. It can help you find out who the best-connected people in the company are. It bases this determination on their collaboration characteristics.
 
-This query type lets analysts use a metric called [Influence](#metric-definition-influence). This metric is a score of how well connected you are in the company. It acts recursively: if you’re connected to others who are well connected, you benefit from their connections as well. After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can connect effectively within or across groups and become efficient drivers of change. 
+This query type lets analysts use a metric called [Influence](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). This metric is a score of how well connected you are in the company. It acts recursively: if you’re connected to others who are well connected, you benefit from their connections as well. After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can connect effectively within or across groups and become efficient drivers of change. 
 
 ## Run a query to determine Influence
 
@@ -51,7 +51,7 @@ The following columns are included in the query results for ONA queries:
  * **Person ID.** De-identified ID number for the person represented in that data row.
   * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it'll be the first day of the month your data encompasses).
  * **Person attributes.** Attributes about the person supplied through the latest organizational (HR) data upload.
- * **Metrics.** Any metrics that you include in the query. For more information, see [Metric definition: Influence](#metric-definition-influence).
+ * **Metrics.** Any metrics that you include in the query. For more information, see [Metric definition: Influence](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
 
 ## Related topics
 
