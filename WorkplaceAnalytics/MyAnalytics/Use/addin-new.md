@@ -433,7 +433,7 @@ The **Plan your time away** checklist can help reduce the stress of planning for
 
 You can plan your schedule with these options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
 
-![Insights plan your time away task list](../../images/mya/use/insights-time-away.png)
+![Insights plan your time away task list](../../images/mya/use/plan-your-time-away.png)
 
 **To use Plan your time away**
 
@@ -506,7 +506,7 @@ Any changes you make apply only to your MyAnalytics experience; they do not sync
 
 ## Meeting suggestions
 
-Staying in touch with your top collaborators can be difficult. A quick 1:1 meeting with your key contacts can help you nurture our professional network.  Meeting suggestion card can keep track of your collaboration pattern and provide meeting recommendation if case you are falling out of touch. For example, if you have not had 1:1 meeting with your manager in a while, this card can suggest setting up a 1:1 and even assist with scheduling the meeting.
+Staying in touch with your top collaborators can be difficult. A quick 1:1 meeting with your key contacts can help you nurture our professional network. Meeting suggestion card can keep track of your collaboration pattern and provide meeting recommendation if case you are falling out of touch. For example, if you have not had 1:1 meeting with your manager in a while, this card can suggest setting up a 1:1 and even assist with scheduling the meeting.
 
 ### To use this card
 
