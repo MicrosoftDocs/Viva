@@ -20,7 +20,7 @@ A1. Everyone in your Office 365 tenant with an English (United States) language 
 
 ### Q2. How can I manage who receives the email?  
 
-Q2. The Briefing email is on by default. You can use [PowerShell](be-admin.md) to enable/disable the Briefing email for individual users. Users can also individually opt out by simply selecting the Unsubscribe link at the end of a Briefing email.  
+A2. The Briefing email is on by default. You can use [PowerShell](be-admin.md) to enable/disable the Briefing email for individual users. Users can also individually opt out by simply selecting the Unsubscribe link at the end of a Briefing email.  
 
 ### Q3. Does the Briefing email comply with GDPR?
 
@@ -30,7 +30,7 @@ A3. Yes. Microsoft complies with GDPR requirements when providing the Briefing e
 
 A4. The Briefing email only includes existing information that’s already available in the user’s mailbox. It summarizes documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes.  
 
-### Q5. I previously disabled Cortana Optional Connected Experiences for my organization. Do I need to reenable preexisting Cortana experiences for my users to receive the Briefing email?  
+### Q5. I previously disabled Cortana Optional Connected Experiences for my organization. Do I need to enable preexisting Cortana experiences again for my users to receive the Briefing email?  
 
 A5. No, the Briefing email is a new service. Users will still receive the Briefing email even if you previously disabled “Cortana Optional Connected Experiences” for your organization. Previous Cortana experiences, such as for weather, news, and traffic updates, are primarily for consumers. New Cortana experiences, such as Briefing and Play My Emails, are primarily for employees in organizations. The Briefing email has IT management capabilities and configurable controls that enable you to address legal needs and policies regarding privacy and use of employee data for your organization.  
 
