@@ -49,7 +49,7 @@ This query type lets analysts use a metric called [Influence](../use/metric-defi
 The following columns are included in the query results for ONA queries:
 
  * **Person ID.** De-identified ID number for the person represented in that data row.
-  * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it'll be the first day of the month your data encompasses).
+  * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
  * **Person attributes.** Attributes about the person supplied through the latest organizational (HR) data upload.
  * **Metrics.** Any metrics that you include in the query. For more information, see [Metric definition: Influence](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
 
