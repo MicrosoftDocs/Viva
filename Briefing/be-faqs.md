@@ -44,19 +44,19 @@ A1. The subject line is “Your daily briefing” and the sender is cortana@micr
 
 A2. One time per workday (as set in Outlook) when you have actions needed to prepare for a meeting or in response to an email. The email is not sent when you have no actionable items.
 
-### Q3 If I have no tasks or meetings, will I still receive a Briefing email?  
+### Q3. If I have no tasks or meetings, will I still receive a Briefing email?  
 
 A3. No, you will never be sent an empty email with no content.
 
-### Q4 Can I stop receiving these emails?  
+### Q4. Can I stop receiving these emails?  
 
 A4. You can unsubscribe from the email in one-click from the footer of the email.
 
-### Q5 Can my manager, administrator, or anyone else at my organization see what’s in my Briefing email?
+### Q5. Can my manager, administrator, or anyone else at my organization see what’s in my Briefing email?
 
 A5. No, the Briefing email is private and for you and only you. All information in the Briefing email is from your mailbox and stored in your mailbox. Everything you see in the Briefing email is information you already have access to in your mailbox. The Briefing email just makes it easier to find items that might need attention.
 
-### Q6 Why am I getting so many emails from Microsoft and how can I manage them?  
+### Q6. Why am I getting so many emails from Microsoft and how can I manage them?  
 
 A6. You are only getting emails from Cortana and MyAnalytics with the purpose of helping you be more productive during your workday. MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
 
