@@ -1,7 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Admin resources for a Briefing email rollout
+title: Downloadable resources
 description: Downloadable resources available for admins who are rolling out the Briefing email to new users
 author: madehmer
 ms.author: madehmer
