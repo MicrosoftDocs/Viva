@@ -512,7 +512,7 @@ Staying in touch with your top collaborators can be difficult. A quick 1:1 meeti
 
  * In the **Insights** pane, locate the **Meet with &lt;name of contact&gt;** card:
 
-    ![Meet with person for 1:1](../../images/mya/use/meet-with-person.png) 
+    ![Meet with person for 1:1](../../images/mya/use/meet-with-person-54.png) 
 
 #### Insight option details
 
@@ -531,7 +531,7 @@ With the **Check quiet hours impact** card, you can help your team achieve work-
 
  * In the **Insights** pane, select **Check quiet hours impact**:
 
-   ![Check quiet hours impact](../../images/mya/use/check-quiet-hours-impact.png)   
+   ![Check quiet hours impact](../../images/mya/use/check-quiet-hours-impact-54.png)   
 
    This opens a panel that displays insights about emails that might have impacted co-workers outside of their working hours: 
 
