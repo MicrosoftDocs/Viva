@@ -202,7 +202,7 @@ For more information about privacy, see [Email read rates](). If you need indivi
 
    If you do not have an email open, select the **Track email open rates** card to see read statistics for all eligible sent emails.
 
-    ![Email open rates](../../images/mya/use/email-open-rates.png)      
+    ![Email open rates](../../images/mya/use/email-open-rates-3.png)      
  
 #### Insight option details
 
@@ -262,7 +262,7 @@ It is easy to lose track of your tasks and commitments to your colleagues over e
 
    This opens a panel that displays insights cards for each of your suggested outstanding tasks.    
 
-   ![Suggested tasks](../../images/mya/use/suggested-tasks.png)
+   ![Suggested tasks](../../images/mya/use/suggested-tasks-62.png)
 
 #### Insight option details
 
@@ -292,7 +292,7 @@ It can be easy to lose track of the requests you make to your colleagues once th
     
    This opens a panel that displays insights cards for each of your suggested follow-ups. 
    
-   ![Follow ups](../../images/mya/use/follow-ups-card.png)    
+   ![Follow ups](../../images/mya/use/follow-ups-card-62.png)    
 
 #### Insight option details
 
