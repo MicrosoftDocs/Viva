@@ -268,7 +268,7 @@ It is easy to lose track of your tasks and commitments to your colleagues over e
 
 | Card section | Notes | 
 | ------ | ------ | 
-| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;	| This is the person you may have an outstanding task for
+| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;	| This is the person you might have an outstanding task for
 Email subject line |	Subject line preview of the email from which the task is extracted along with a hyperlink to open the email |
 | Task snapshot	| A snapshot of the text related to the extracted task
 | Open Button	|Clicking on this will open the relevant email so that you can review the task |
@@ -298,7 +298,7 @@ It can be easy to lose track of the requests you make to your colleagues once th
 
 | Card section | Notes | 
 | ------ | ------ | 
-| Name and icon &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;|	This is the person you may want to follow up with |
+| Name and icon &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;|	This is the person you might want to follow up with |
 | Email subject line | Subject-line preview of the email from which the follow-up item was extracted, along with a hyperlink to open the email
 | Follow up snapshot | A snapshot of the text related to the extracted follow-up
 | Follow up | Select this to open the relevant email so that you can follow up on the task
@@ -368,16 +368,15 @@ Searching for that document you had planned to read but can’t find anymore? Wi
 
    ![Unread shared documents](../../images/mya/use/unread-shared-documents.png)
 
-   ![Unread shared documents](../../images/mya/use/choose-open-time.png)
-  
+   ![Choose an open time slot](../../images/mya/use/choose-open-time.png)   
 
 #### Insight option details
 
 | Card section | Notes | 
 | ------ | ------ | 
-| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   | The person who sent you the email with the associated document |
+| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   | The person who sent you the email with the associated document |
 | Email subject line | Subject-line preview of the email |
-| Document name | Name of the document that you may want to catch up on. Select the document name to open the document. |
+| Document name | Name of the document that you might want to catch up on. Select the document name to open the document. |
 | Open Email | Select this to open the related email for your review. |
 | Book time | Select this to expand the card with option to book time on your calendar to review the document. |
 
