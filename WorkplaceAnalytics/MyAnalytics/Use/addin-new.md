@@ -316,7 +316,7 @@ The **Book time to focus** card can help you protect time for focused work and a
 
  * In the **Insights** pane, select the **Book time to focus** card. This card appears if you have time available on your calendar during your working hours which is not blocked by meetings or appointments. 
 
-   ![Book time to focus](../../images/mya/use/book-time-to-focus.png)     
+   ![Book time to focus](../../images/mya/use/book-time-to-focus-52.png)     
      
    This opens a panel that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration. 
 
@@ -339,11 +339,11 @@ It is easy for important emails to get lost when your inbox is full of unread em
 
  * In the **Insights** pane, select the **Catch up on email** card which captures your important unread email based on last 14 days of email communication.
 
-   ![Catch up on email](../../images/mya/use/catch-up-on-email.png) 
+   ![Catch up on email](../../images/mya/use/catch-up-on-email-54.png) 
  
    This opens a panel that displays insights cards for each of your important unread emails: 
 
-   ![Unread important email](../../images/mya/use/unread-important-email.png)  
+   ![Unread important email](../../images/mya/use/unread-important-email-54.png)  
 
 #### Insight option details
 
@@ -362,11 +362,11 @@ Searching for that document you had planned to read but can’t find anymore? Wi
 
  * In the **Insights** pane, select the **Catch up on documents** card:
 
-   ![Catch up on documents](../../images/mya/use/catch-up-on-documents.png) 
+   ![Catch up on documents](../../images/mya/use/catch-up-on-documents-54.png) 
  
    This opens a panel that displays insights cards for each document shared with you in the last 14 days that you have not yet opened. 
 
-   ![Unread shared documents](../../images/mya/use/unread-shared-documents.png)
+   ![Unread shared documents](../../images/mya/use/unread-shared-documents-54.png)
 
    ![Choose an open time slot](../../images/mya/use/choose-open-time.png)   
 
@@ -388,11 +388,11 @@ On a regular day, you might have unread emails and outstanding tasks from many p
 
  * In the **Insights** pane, select the **Add important people** card:
 
-    ![Add important people](../../images/mya/use/add-important-people.png)  
+    ![Add important people](../../images/mya/use/add-important-people-54.png)  
 
     This opens a panel with suggestions to mark a recommended contact as important:
 
-    ![Important people](../../images/mya/use/important-people.png)  
+    ![Important people](../../images/mya/use/important-people-54.png)  
 
 
 #### Insight option details
