@@ -15,15 +15,15 @@ Use the Power BI Influence insights dashboard to gain insights into influencers 
 
 |Business question |Analysis |
 |-------------|------------------|
-|Where are the influencers in your company? | <ul><li>Which organizations have concentrated influencer presence?  </li><li> Which organizations have limited influencer presence? |
-| Who makes decisions in your company?	| <ul><li> Are decisions being made in a top-down or in a more decentralized manner?  </li><li> Are employees at various levels in the hierarchy empowered to make decisions? |
-| How are influencers adapting to the remote work situation? | <ul><li>How are influencers’ collaboration patterns changing in response to this disruption?  </li><li> What impact does this disruption have on the key roles that influencers play? |
+|Where are the influencers in your company? | <ul><li>Which organizations have concentrated influencer presence?  </li><li> Which organizations have limited influencer presence?</ul> |
+| Who makes decisions in your company?	| <ul><li> Are decisions being made in a top-down or in a more decentralized manner?  </li><li> Are employees at various levels in the hierarchy empowered to make decisions? </ul>|
+| How are influencers adapting to the remote work situation? | <ul><li>How are influencers’ collaboration patterns changing in response to this disruption?  </li><li> What impact does this disruption have on the key roles that influencers play? </ul>|
 
-Before you can use the Influence Insights dashboard in Power BI, it must be populated with data. To do this, set up and run the predefined Influence Insights and Standard query queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis. 
+Before you can use the Influence insights dashboard in Power BI, it must be populated with data. To do this, set up and run the predefined Influence insights and Standard query queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis. 
 
-After you successfully run these queries, you'll see the Influence Insights Power BI template as an available download option for the Influence Insights query. You’ll need this template to create the Influence Insights dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you'll see the Influence insights Power BI template as an available download option for the Influence insights query. You’ll need this template to create the Influence insights dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
-After the Influence Insights Dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
+After the Influence insights Dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 1.	In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2.	Under **Start from preselected filters and metrics**, select **Influence Insights** (or select **Standard query** per Step 7) to open the predefined query, which contains the required metrics to populate the dashboard.
 
-   ![Predefined queries](../Images/WpA/Tutorials/predefined-bc-queries.png)
+    ![Predefined queries](../Images/WpA/Tutorials/predefined-bc-queries.png)
  
 3. Select or confirm the following query settings:
 
@@ -74,7 +74,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     * Set the [**Minimum group size**]() for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     * Select **Load** to import the query results into Power BI. Loading these large files might take some time to complete.
 
-    ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
+      ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
 
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**.
@@ -90,7 +90,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Use the dashboard
 
-After the Influence Insights dashboard is set up and populated with Workplace Analytics data, you can use the Power BI visualization charts to analyze your organization's influence insights.
+After the Influence insights dashboard is set up and populated with Workplace Analytics data, you can use the Power BI visualization charts to analyze your organization's influence insights.
 
 ## About the dashboard reports
 
@@ -105,7 +105,7 @@ The Glossary report at the end of the dashboard provides information about the u
 
 ## Power BI tips
 
-A tip to help you use the Influence Insights Dashboard in Power BI:
+A tip to help you use the Influence insights dashboard in Power BI:
 
  * **Cross-filter and cross-highlight.** Some visuals on a report page are interconnected. If you change a filter or pivot on one of the visuals, all the others on the page that contain that data will change, based on that selection.
 
@@ -122,41 +122,41 @@ Anyone you share the Power BI desktop file with can access the underlying datase
 
 ## Frequently asked questions
 
-#### Q1 Who can create the dashboard in Power BI?
+#### Q1. Who can create the dashboard in Power BI?
 
-You must be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics to create the dashboard. You must also have a Power BI license and have the desktop version installed. See [Install and run Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
+**A1.** You must be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics to create the dashboard. You must also have a Power BI license and have the desktop version installed. See [Install and run Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
 
-#### Q2 How frequently is data refreshed in the dashboard?
+#### Q2. How frequently is data refreshed in the dashboard?
 
-The dashboard gets repopulated once a week after Workplace Analytics finishes its weekend processing. **Note**: You must manually adjust the **Selected time frame** setting in the dashboard's **How are influencers adapting to remote work situations?** report to view the most recently processed data.
+**A2.** The dashboard gets repopulated once a week after Workplace Analytics finishes its weekend processing. **Note**: You must manually adjust the **Selected time frame** setting in the dashboard's **How are influencers adapting to remote work situations?** report to view the most recently processed data.
 
-#### Q3 How do I share the dashboard with others in my organization?
+#### Q3. How do I share the dashboard with others in my organization?
 
-You can share the dashboard with others in your organization *without sharing the underlying data* by publishing the insights in an app or as PDF or static file. See [Share the dashboard](#share-the-dashboard) for details.
+**A3.** You can share the dashboard with others in your organization *without sharing the underlying data* by publishing the insights in an app or as PDF or static file. See [Share the dashboard](#share-the-dashboard) for details.
 
-#### Q4 Can I share the underlying dashboard dataset with others in my organization?
+#### Q4. Can I share the underlying dashboard dataset with others in my organization?
 
-To maintain data privacy, only employees assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics should have access to the underlying dataset in the Power BI dashboard.
+**A4.** To maintain data privacy, only employees assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics should have access to the underlying dataset in the Power BI dashboard.
 
-#### Q5 How do I set up and run a Workplace Analytics query?
+#### Q5. How do I set up and run a Workplace Analytics query?
 
-See [Create a Person Query](./person-queries.md) for details.
+**A5.** See [Create a Person Query](./person-queries.md) for details.
 
-#### Q6 How do I change the axis of a chart to use a different Organizational data attribute?
+#### Q6. How do I change the axis of a chart to use a different Organizational data attribute?
 
-Only the required Organizational attributes are used when setting up the Power BI file. If you selected more organizational attributes when setting up your queries, you can use those additional attributes in your visuals. To use a different organizational attribute, search within the **Fields** pane for the Organizational attribute that you want to use. Then, click the visual you want to modify to select it. Finally, drag the Organizational attribute from the **Fields** pane to the **Axis** section in the **Visualizations** pane.
+**A6.** Only the required Organizational attributes are used when setting up the Power BI file. If you selected more organizational attributes when setting up your queries, you can use those additional attributes in your visuals. To use a different organizational attribute, search within the **Fields** pane for the Organizational attribute that you want to use. Then, click the visual you want to modify to select it. Finally, drag the Organizational attribute from the **Fields** pane to the **Axis** section in the **Visualizations** pane.
 
-#### Q7 How do I integrate additional metrics or data sources with this dashboard?
+#### Q7. How do I integrate additional metrics or data sources with this dashboard?
 
-See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
+**A7.** See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
 
-#### Q8 How do I use Power BI?
+#### Q8. How do I use Power BI?
 
-See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details on how to use Power BI.
+**A8.** See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details on how to use Power BI.
 
-#### Q9 What languages is the dashboard available in?
+#### Q9. What languages is the dashboard available in?
 
-The dashboard is currently only available in English.
+**A9.** The dashboard is currently only available in English.
 
 ## Troubleshooting
 
@@ -199,9 +199,9 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 
 ## Support
 
-* **Dashboard support** Contact Workplace Analytics support about onboarding, usage, and interpretation of the data contained within the dashboard.
-* **Workplace Analytics support** Refer to [Workplace Analytics documentation](../index.md) or [Workplace Analytics Support](../overview/getting-support.md) for additional help.
-* **Support with other Microsoft products and tools** Support for Power BI and other tools used in the context of this dashboard can be found through each product's associated support channels.
+* **Dashboard support.** Contact Workplace Analytics support about onboarding, usage, and interpretation of the data contained within the dashboard.
+* **Workplace Analytics support.** Refer to [Workplace Analytics documentation](../index.md) or [Workplace Analytics Support](../overview/getting-support.md) for additional help.
+* **Support with other Microsoft products and tools.** Support for Power BI and other tools used in the context of this dashboard can be found through each product's associated support channels.
 
 ## Related topics
 
