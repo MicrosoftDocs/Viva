@@ -209,6 +209,12 @@
               href: myanalytics/use/add-in.md
             - name: Use Insights
               href: myanalytics/use/use-the-insights.md
+            - name: Insights add-in NEW
+          items:
+            - name: Insights add-in NEW
+              href: ./use/add-in-new.md
+            - name: Use Insights NEW
+              href: ./use/use-the-insights-new.md              
         - name: Digests
           items:
             - name: Welcome
