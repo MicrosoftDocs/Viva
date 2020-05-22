@@ -124,7 +124,7 @@ Insights does not report about email messages in the following categories:
 * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
 * Email sent to modern groups. (If users are following the modern group, they are included in the count.)
 
-## View Outstanding Tasks
+## View outstanding tasks
 
 It is easy to lose track of your tasks and commitments to your colleagues over email. The View outstanding tasks card can help you make sure nothing falls through the cracks by reminding you of tasks that you've agreed to do, based on your sent mails and requests from your colleagues during the last 14 days of email communication. For example:
 
