@@ -78,14 +78,23 @@ When you first visit the Leadership page, you are asked to confirm your team mem
 
 ![Confirm your team](../../Images/mya/use/leader-leadership.png)
 
-If your team list or job function changes, you can select the **Edit team** link at the top of the Leadership page or visit **Config Settings** to add/remove team members or to indicate that you are no longer a manager. Note that if you indicate that you're not a manager, you will not be able to turn the Leadership page back on for yourself in the future. 
+If your team list or job function changes, you can select the **Edit team** link at the top of the Leadership page or visit **Configurations** to add/remove team members or to indicate that you are no longer a manager.
 
-![Configurations](../../Images/mya/use/leader-configurations.png)
+> [!Note] 
+> If you indicate that you're not a manager, you will not be able to turn the Leadership page back on for yourself in the future. 
+
+### To open Configurations
+
+1. Go to myanalytics.microsoft.com to open your personal MyAnalytics dashboard.
+
+2. In the left navigation pane, select **Config settings**. 
+
+   ![Configurations](../../Images/mya/use/leader-configurations.png)
 
 ## Leadership tips 
 
 When you hold 1:1s, don’t make them all about business. Use the time to learn about the team member as a person and to find areas of common interest outside of work. 
 
-Focus on team members' strengths. According to Gallup, people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
+Focus on team members' strengths. According to [Gallup](https://www.gallup.com/services/182138/state-american-manager.aspx), people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
 
-Help team members prioritize tasks. Research by Microsoft has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
+Help team members prioritize tasks. Research by [Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
