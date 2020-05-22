@@ -30,17 +30,17 @@ The information in this section helps you get the most out of the following insi
 
 ## Prepare for your meetings
 
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](https://opdhsblobprod03.blob.core.windows.net/contents/c061aa4c5f284dcfb016c4d96b230182/95fb77fe28fe39b17203a7456d0dd375?sv=2018-03-28&sr=b&si=ReadPolicy&sig=Zu8S0o%2BegwIxEDwiboGWuU28wbgR0k8QUbJ9C173EcM%3D&st=2020-05-18T15%3A39%3A07Z&se=2020-05-19T15%3A49%3A07Z). 
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyAnalytics-meetings-september-2018.pdf). 
 
-The **Prepare for your meetings** card shows you a list of upcoming meetings that you have organized and it helps you evaluate whether each meeting is ready to go. 
+The **Prepare for your meetings** card shows you a list of upcoming meetings that you've organized and it helps you decide whether each meeting is ready to go. 
 
 ### To use this card
 
-1.	On the **Insights** panel, locate the **Prepare for your meetings** card. This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings.
+1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings.
 
     ![Prepare for your meetings card](../../images/mya/use/prepare-for-your-meetings.png)
 
-2.	Select **Prepare for your meetings**. This opens a panel that displays an insight for each of your upcoming meetings:
+2.	Select **Prepare for your meetings** to see an insight for each of your upcoming meetings:
     
     ![Prepare for your meetings card](../../images/mya/use/review-project-ranger-2.png)
 
@@ -49,11 +49,89 @@ The **Prepare for your meetings** card shows you a list of upcoming meetings tha
 | Card section | Notes | Recommendations |
 | :--- | --- | --- |
 | (Card title) | Meeting title and time of occurrence | | 	
-| **Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select **See details** for more information. | Ensure that you have a quorum before the meeting. Consider sending a reminder to attendees if you haven't heard from them. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| **Agenda** | **Yes** or **No** indicates whether the meeting invitation includes an agenda. |	Agendas often make a meeting run smoother. If your meeting requires an agenda, select **Agenda**. This opens the meeting invitation, to which you can add an agenda. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| **Attachments** |	This section shows the number of attachments, their titles, and their storage location (online or local). You can see more details and you can open the attachment if it is stored online. | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| **Online meeting link** | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online in Skype for business or in Teams. | Be an inclusive meeting organizer. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| **Preparation time** | This section provides options to book either 15 minutes or 30 minutes of preparation time. This option appears only if there is an available slot right before the meeting. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar.	| Be prepared. If you need travel time or have other tasks that need to be done immediately before the meeting to prepare for it, consider booking preparation time. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| **Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select **See details** for more information. | Make sure that you have a quorum before the meeting. Consider sending a reminder if you haven't heard back from attendees. &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+| **Agenda** | **Yes** or **No** indicates whether the meeting invitation includes an agenda. |	Agendas often make a meeting run smoother. If your meeting requires an agenda, select **Agenda**. This opens the meeting invitation, to which you can add an agenda. |
+| **Attachments** |	This section shows the number of attachments, their titles, and their storage location (online or local). You can see more details and you can open the attachment if it is stored online. | |
+| **Online meeting link** | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online in Skype for business or in Teams. | Be an inclusive meeting organizer. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one. |
+| **Preparation time** | This section gives you the options to book either 15 minutes or 30 minutes of preparation time. This option appears only if there is an available slot in your calendar right before the meeting. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar.	| Be prepared. If you need travel time or have other tasks that need to be done right before the meeting to prepare for it, consider booking preparation time. |
+
+<!-- Here is the new section from Rishabh (April 2020). I am using it instead of the new section from Vivek (May 2020) because Rishabh's section includes document open rates (a new feature), not just email open rates (the old feature). -->
+
+## Track email and document open rates
+
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+
+Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
+
+Insights also tells you how many email recipients opened a document that you shared in the email as a link or as an attachment (this insight works for documents that are stored in SharePoint or in OneDrive for Business).
+
+After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
+
+Insights shows the open rate for the sent email that is open in Outlook. It also groups open rate information for qualifying sent items into a single summary that you can select and expand to see a more detailed view.
+
+### Reporting details
+
+Insights does not display read information about every email that you send, such as in the following circumstances.
+
+#### Requirement: qualifying messages
+
+Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients.
+
+#### Exceptions to qualifying messages
+
+Insights does not report about email messages in the following categories:
+
+* Email that was sent from a shared mailbox
+* Email that was sent more than 14 days ago.
+* Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
+* Email sent to modern groups. (If users are following the modern group, they are included in the count.)
+
+#### Open rate 
+
+MyAnalytics respects user privacy. For this reason, the Insights add-in does not show information about individual recipients, and -- when necessary to protect privacy -- it reports approximated values only.
+
+**Open-rate value thresholds**
+
+Within 30 minutes of when you sent qualifying email, the Insights add-in  reports the actual or an approximated open rate, as described here: 
+
+* **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as "_&lt; 25%_."
+* **Between thresholds.** If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
+* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the 25 email recipients open the email, Insights displays the open rate as "_&gt; 95%_."
+
+   | Number of recipients | Open rate reported | 
+   | ------- | ------ |
+   | 5 - 10  | Minimum: 25% <br>Maximum: 75% |
+   | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
+   | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
+
+ For more information, see [Email read rates and document open rates](../overview/privacy-guide.md#email-read-rates-and-document-open-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
+
+**To see read information about sent emails**
+
+1. If the Insights pane isn't already open, select the **Insights** icon in the Outlook **Home** ribbon to open it.
+
+   > [!Note] 
+   > If you see a "Welcome!" message, select **Get started**.
+
+2. In **Insights**, select one of the following:
+
+   a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or SharePoint.  
+
+     > [!Note] 
+     > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.   
+
+     ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png) 
+
+   b. **Track email open rates** - Shows read statistics for all sent emails.  
+
+     ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
+
+    The option you selected (in step 2a or step 2b) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
+
+    ![Email open rates](../../images/mya/use/step-2-four-emails.png)
+
+
+<!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.     
 
 ## Track email open rates
 
@@ -86,7 +164,7 @@ For more information about privacy, see [Email read rates](). If you need indivi
 
 | Card section | Notes | Recommendations |
 | ------ | ------ | ------ |
-| Email Subject   &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;	|Shows the email title &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; |	
+| Email Subject	|Shows the email title  |	
 |Open Rate	|This is the proportion of the email recipients who opened your email in Outlook.<br>For more information about these statistics, see [Open rate](#open-rate). &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Depending on the importance of the email and overall open rate, you might want to follow up with the recipients. |
 | Open rate summary | Brief summary of the overall readership. |	
 | Forwards | The number of times the email was forwarded. | 	
@@ -109,13 +187,13 @@ The Insights add-in reports the open rate within 30 minutes of when a qualifying
 ### Eligibility Criterion
 Insights does not display read information about every email that you send.
 
-<u>Requirement: qualifying messages</u>
+#### Requirement: qualifying messages
 
 Read statistics are shown only for qualifying messages. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients. 
 
 After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
 
-<u>Exceptions to qualifying messages</u>
+##### Exceptions to qualifying messages
 
 Insights does not report about email messages in the following categories:
 
@@ -153,6 +231,8 @@ Email subject line |	Subject line preview of the email from which the task is ex
 | Already done Button	| Clicking on this will mark the task as completed. Suggested tasks disappear after two weeks or after you mark them as done.
 | Not a task Action | Clicking on this will mark the insight as not a task. This will help us improve the detection accuracy
 | Add to To Do Actions | Clicking on this will add the task to Microsoft To Do so that you can catch up later. <br> <br> Consider breaking tasks down into simple steps, add due dates, and set reminders to keep you on track. Further, a MS To Do list can help effectively prioritize and even delegate work leading to higher productivity |
+
+-->
 
 ## Follow up on your requests
 
