@@ -65,11 +65,11 @@ You can select **See my tasks** to see and follow up on the potentially outstand
 
 When you have any of your sent email open, you might see the following insight, which shows the percentage of recipients who opened that email:
 
-![inline suggestions email open rate](../../Images/mya/use/email-open-rate-inline.png)
+![inline suggestions email open rate](../../Images/mya/use/email-open-rate-inline.png) 
 
 You can select **Learn more** to see additional information in the **Insights** panel, such as the average time that recipients have spent reading the email or the number of times the email has been forwarded:
 
-![insights email open rate](../../Images/mya/use/insights-email-open-rate.png)
+![insights email open rate](../../Images/mya/use/insights-email-open-rate.png) 
 
 For more information about how and on which emails these statistics are calculated, see [Email read statistics](../use/add-in.md#email-read-statistics).
 
