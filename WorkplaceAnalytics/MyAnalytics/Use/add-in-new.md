@@ -20,9 +20,14 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides i
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
-## Open the Insights Add-in
+## Open the Insights add-in
 
+You can use the Outlook Insights add-in in the following environments: 
+
+<!-- verify that this is necessary: 
 **Prerequisites:** 1) [Turn on the Outlook Reading Pane](https://support.office.com/en-us/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) and 2) Select an email item.
+
+-->
 
 ### Windows Outlook desktop
 
@@ -42,15 +47,22 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides i
 
 ### Outlook on the Web
 
- * Open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**. You can pin the Add-in to your quick access pane for easier access. See [Pin the Insights add-in](#pin-the-insights-add-in) for details.
+1. Open [Outlook on the Web](https://outlook.office.com/mail/inbox).
+
+2. Open an email message.
+
+3. Select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**:
 
    ![Insights in OWA](../../images/mya/use/insights-in-owa.png)
+
+> [!Note] 
+> You can pin the Add-in to your quick access pane for easier access; see [Pin the Insights add-in](#pin-the-insights-add-in) for details.   
 
 ### Mac Outlook Desktop
 
 In the new Mac interface, add-ins are not currently available, but you can enable them by switching to the old interface, as described here: 
  
-#### To enable the Insights Outlook add-in
+#### To enable the Insights Outlook add-in for the Mac
 
 1. Switch to the old UI by using the toggle at the top of the page:
 
@@ -67,7 +79,7 @@ After you open the Insights add-in, you'll see a number of cards in the right (I
 This pane will show you a selection of the following:
 
 1.	[Prepare for your meetings](use-the-insights-new.md#prepare-for-your-meetings): Prepare for your meetings and then drive more effective meetings.
-2.	[Track email open rates](use-the-insights-new.md#track-email-open-rates): Track readership of emails that you've sent sent by viewing the percentage open rate, the percentage attachment click rate, and so on.
+2.	[Track email and document open rates](use-the-insights-new.md#track-email-and-document-open-rates): Track readership of emails that you've sent sent by viewing the percentage open rate, the percentage attachment click rate, and so on.
 3.	[View outstanding tasks](use-the-insights-new.md#view-outstanding-tasks): Make sure nothing falls through the cracks by seeing reminders of tasks that you've agreed to do. 
 4.	[Follow up on your requests](use-the-insights-new.md#follow-up-on-your-requests): Receive reminders to follow up on commitments made by your colleagues or on requests that you have made.  
 5.	[Book time to focus](use-the-insights-new.md#book-time-to-focus): Protect your calendar by reserving focus time before meetings take over.  
