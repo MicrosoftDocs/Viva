@@ -15,7 +15,7 @@ ms.prod: mya
 The information in this section helps you get the most out of the following insights:
 
 1.	[Prepare for your meetings](#prepare-for-your-meetings) 
-2.	[Track email open rates](#track-email-open-rates)
+2.	[Track email and document open rates](#track-email-and-document-open-rates)
 3.	[View outstanding tasks](#view-outstanding-tasks) 
 4.	[Follow up on your requests](#follow-up-on-your-requests) 
 5.	[Book time to focus](#book-time-to-focus) 
@@ -200,11 +200,13 @@ Insights does not report about email messages in the following categories:
 * Email that was sent from a shared mailbox
 * Email that was sent more than 14 days ago.
 * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
-* Email sent to modern groups. (If users are following the modern group, they are included in the count.)
+* Email sent to modern groups. (If users are following the modern group, they are included in the count.) 
+
+-->
 
 ## View outstanding tasks
 
-It is easy to lose track of your tasks and commitments to your colleagues over email. The View outstanding tasks card can help you make sure nothing falls through the cracks by reminding you of tasks that you've agreed to do, based on your sent mails and requests from your colleagues during the last 14 days of email communication. For example:
+It is easy to lose track of commitments that you've made to your colleagues in email. The **View outstanding tasks** insight helps you make sure nothing falls through the cracks by reminding you of tasks that you've agreed to do. It is based on emails that you've sent and requests from your colleagues during the last 14 days of email communication. For example:
 
  * "I will send you the latest report tomorrow"
  * "Will get back to you by end of the week with a suitable meeting time"
@@ -224,31 +226,29 @@ It is easy to lose track of your tasks and commitments to your colleagues over e
 
 | Card section | Notes | 
 | ------ | ------ | 
-| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;	| This is the person you might have an outstanding task for
-Email subject line |	Subject line preview of the email from which the task is extracted along with a hyperlink to open the email |
-| Task snapshot	| A snapshot of the text related to the extracted task
-| Open Button	|Clicking on this will open the relevant email so that you can review the task |
-| Already done Button	| Clicking on this will mark the task as completed. Suggested tasks disappear after two weeks or after you mark them as done.
-| Not a task Action | Clicking on this will mark the insight as not a task. This will help us improve the detection accuracy
-| Add to To Do Actions | Clicking on this will add the task to Microsoft To Do so that you can catch up later. <br> <br> Consider breaking tasks down into simple steps, add due dates, and set reminders to keep you on track. Further, a MS To Do list can help effectively prioritize and even delegate work leading to higher productivity |
-
--->
+| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;	| This is the person you might have an outstanding task for
+| **Email subject line** |	Subject line preview of the email along with a hyperlink to open the email |
+| **Task snapshot**	| A snippet of text related to the task
+| **Open**	| Select this to open the relevant email so that you can review the task. |
+| **Already done** | Select this to mark the task as completed. Suggested tasks disappear after two weeks or after you mark them as done.
+| **Not a task Action** | Select this to mark the insight as not a task. This will help us improve the detection accuracy
+| **Add to To Do Actions** | Select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later. This tool can help you prioritize and even delegate work, which can lead to higher productivity.<br> <br> Consider breaking tasks down into simple steps, adding due dates, and setting reminders to keep you on track. | 
 
 ## Follow up on your requests
 
-It can be easy to lose track of the requests you make to your colleagues once they are sent. By automatically extracting your outstanding follow ups from the last 14 days of email communication, the “Follow up on your requests” card can help you check in on requests to your colleagues. For example:
+It can be easy to lose track of requests you made of your colleagues. By automatically extracting your outstanding follow ups from the last 14 days of email communication, the **Follow up on your requests** insight can help you check in on requests to your colleagues. For example:
 
- * "Can you send me this year's latest report?"
+ * "Can you send me the latest report for this year?"
  * "Everyone, please complete your performance evaluations by the end of the week."
  * "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
 
 ### To use this card
 
- * In the **Insights** pane, select the **Follow up on your requests** card. This card is available only in English.
+ * In the **Insights** pane, select **Follow up on your requests**. This card is available only in English.
 
    ![Track email open rates](../../images/mya/use/follow-up-on-your-requests.png)    
     
-   This opens a panel that displays insights cards for each of your suggested follow-ups. 
+   This opens a panel that displays insights for each of your suggested follow-up tasks. 
    
    ![Follow ups](../../images/mya/use/follow-ups-card-62.png)    
 
@@ -256,23 +256,23 @@ It can be easy to lose track of the requests you make to your colleagues once th
 
 | Card section | Notes | 
 | ------ | ------ | 
-| Name and icon &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;|	This is the person you might want to follow up with |
-| Email subject line | Subject-line preview of the email from which the follow-up item was extracted, along with a hyperlink to open the email
-| Follow up snapshot | A snapshot of the text related to the extracted follow-up
-| Follow up | Select this to open the relevant email so that you can follow up on the task
-| Already done | Select this to mark the follow-up as completed. Follow-ups disappear after two weeks or after you mark them as done.
-| Not a follow up | Select this to mark the insight as not a follow-up and remove it from your list. This also helps MyAnalytics improve the detection accuracy.
-| Add to To Do | Select this to add the task to Microsoft To Do so that you can catch up later.<br><br>Organizing your tasks with To Do can make your days more manageable and reduce the stress of things falling through the cracks. A To Do list can help effectively prioritize and even delegate work leading to higher productivity.
+| **Name and icon**  &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; | The person with whom you might want to follow up  |
+| **Email subject line** | Subject-line of the email that contains the follow-up item, along with a hyperlink to open the email
+| **Follow up snapshot** | A snippet of text related to the follow-up
+| **Follow up** | Select this to open the relevant email so that you can follow up on the task
+| **Already done** | Select this to mark the follow-up as completed. Follow-ups disappear after two weeks or after you mark them as done.
+| **Not a follow up** | Select this to mark the insight as not a follow-up and remove it from your list. This also helps MyAnalytics improve its detection accuracy.
+| **Add to To Do** | Select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later.<br><br> This tool can make your days more manageable and reduce the stress of things falling through the cracks. It can also help effectively prioritize and even delegate work, which can lead to higher productivity.
 
 ## Book time to focus
 
-Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you only have small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects.
+Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects.
 
-The **Book time to focus** card can help you protect time for focused work and also minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time. 
+**Book time to focus** can help you protect time for focused work and also minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time. 
 
 ### To use this card
 
- * In the **Insights** pane, select the **Book time to focus** card. This card appears if you have time available on your calendar during your working hours which is not blocked by meetings or appointments. 
+ * In the **Insights** pane, select **Book time to focus**. This card appears if your calendar has time available during your working hours that is not blocked by meetings or appointments. 
 
    ![Book time to focus](../../images/mya/use/book-time-to-focus-52.png)     
      
@@ -284,22 +284,22 @@ The **Book time to focus** card can help you protect time for focused work and a
 
 | Card section | Notes | 
 | ------ | ------ | 
-| Date/Time &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;| Shows the date and time of the available focus time that you can book. |
-| + | Select this to add time to your calendar as focus time. |
-| Pencil icon | Say you want to focus on “Sales pitch” for two hours. Select the pencil icon, change the “Focus time” label to “Sales pitch,” and then click (+). This books a two-hour appointment on your calendar with title “Sales pitch.”<br><br>You can set priority contacts in Teams to ensure that you don’t miss important messages during focus time. | 
-| Book all | This books all available focus time at once, setting you up for enough protected time for deep work throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. MyAnalytics will respect your preferences when it proposes focus time. | 
+| **Date/Time** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;| Shows the date and time of the available focus time that you can book. |
+| **+** | Select this to add time to your calendar as focus time. |
+| **Pencil icon** | Say you want to focus on “Sales pitch” for two hours. Select the pencil icon, change the “Focus time” label to “Sales pitch,” and then click (+). This books a two-hour appointment on your calendar with title “Sales pitch.”<br><br>You can set priority contacts in Teams to ensure that you don’t miss important messages during focus time. | 
+| **Book all** | This books all available focus time at once, setting you up with protected time throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. MyAnalytics will respect your preferences when it proposes focus time. | 
 
 ## Catch up on email
 
-It is easy for important emails to get lost when your inbox is full of unread emails. We all could use some help with identifying important unread emails. With the **Catch up on email** card you can cut through the clutter with a summary of the most important unread email.
+It is easy for important emails to get lost when your inbox is full of unread emails. With the **Catch up on email** insight, you can cut through the clutter by seeing a summary of the most important unread email, based on last 14 days of email communication.
 
 ### To use this card
 
- * In the **Insights** pane, select the **Catch up on email** card which captures your important unread email based on last 14 days of email communication.
+ * In the **Insights** pane, select **Catch up on email**.
 
    ![Catch up on email](../../images/mya/use/catch-up-on-email-54.png) 
  
-   This opens a panel that displays insights cards for each of your important unread emails: 
+   This opens a panel that displays insights for each of your important unread emails: 
 
    ![Unread important email](../../images/mya/use/unread-important-email-54.png)  
 
@@ -307,36 +307,38 @@ It is easy for important emails to get lost when your inbox is full of unread em
 
 | Card section | Notes | 
 | ------ | ------ | 
-| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  | Sender of the email |
-| Email subject line | Subject line preview of the email |
-| Email snapshot | A snapshot of the text related to the email |
-| Open | Select this to open the relevant email for your review. <br>Triaging through your important unread emails first can help you get to your important workflows faster. |
+| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  | Sender of the email |
+| **Email subject line** | Subject line preview of the email |
+| **Email snapshot** | A snapshot of the text related to the email |
+| **Open** | Select this to open the relevant email for your review. <br> Scanning your important unread emails first can help you get to your important workflows faster. |
 
 ## Catch up on documents
 
-Searching for that document you had planned to read but can’t find anymore? With so many documents shared across meetings and emails, it can be difficult to stay caught up on documents shared by your colleagues. With the Catch up on documents card you can see a list of the shared OneDrive and SharePoint documents in email that you need to catch up on.
+Searching for that document you had planned to read but just can't find? With so many documents shared across meetings and emails, it can be difficult to stay caught up on documents shared by your colleagues. With **Catch up on documents**, you can see a list of the shared OneDrive and SharePoint documents in email that you need to catch up on.
 
 ### To use this card
 
- * In the **Insights** pane, select the **Catch up on documents** card:
+ * In the **Insights** pane, select **Catch up on documents**:
 
    ![Catch up on documents](../../images/mya/use/catch-up-on-documents-54.png) 
  
-   This opens a panel that displays insights cards for each document shared with you in the last 14 days that you have not yet opened. 
+   This opens a panel that displays insights for each document shared with you in the last 14 days that you have not yet opened. 
 
    ![Unread shared documents](../../images/mya/use/unread-shared-documents-54.png)
 
+<!-- Don't know why Vivek had this here 
    ![Choose an open time slot](../../images/mya/use/choose-open-time.png)   
+-->
 
 #### Insight option details
 
 | Card section | Notes | 
 | ------ | ------ | 
-| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   | The person who sent you the email with the associated document |
-| Email subject line | Subject-line preview of the email |
-| Document name | Name of the document that you might want to catch up on. Select the document name to open the document. |
-| Open Email | Select this to open the related email for your review. |
-| Book time | Select this to expand the card with option to book time on your calendar to review the document. |
+| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   | The person who sent you the email with the associated document |
+| **Email subject line** | Subject-line preview of the email |
+| **Document name** | Name of the document that you might want to catch up on. Select the document name to open the document. |
+| **Open email** | Select this to open the related email for your review. |
+| **Book time** | Select this to expand the card with option to book time on your calendar to review the document. |
 
 ## Add important people
 
