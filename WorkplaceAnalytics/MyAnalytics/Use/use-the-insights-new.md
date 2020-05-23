@@ -32,17 +32,17 @@ The information in this section helps you get the most out of the following insi
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyAnalytics-meetings-september-2018.pdf). 
 
-The **Prepare for your meetings** card shows you a list of upcoming meetings that you've organized and it helps you decide whether each meeting is ready to go. 
+**Prepare for your meetings** shows you a list of upcoming meetings that you've organized and it helps you decide whether each meeting is ready to go. 
 
-### To use this card
+### To use this insight
 
 1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings.
 
-    ![Prepare for your meetings card](../../images/mya/use/prepare-for-your-meetings.png)
+    ![Prepare for your meetings](../../images/mya/use/prepare-for-your-meetings.png)
 
 2.	Select **Prepare for your meetings** to see an insight for each of your upcoming meetings:
     
-    ![Prepare for your meetings card](../../images/mya/use/review-project-ranger-2.png)
+    ![Prepare for your meetings follow up](../../images/mya/use/review-project-ranger-2.png)
 
 #### Insight option details
 
@@ -139,16 +139,16 @@ _**Applies to**: MyAnalytics elements are available in varying levels to users o
 
 Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision-making. This insight gives you feedback on how well your sent emails are received. 
 
-The **Track email open rates** card can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. MyAnalytics respects user privacy; this is why: 
+**Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. MyAnalytics respects user privacy; this is why: 
 
  * Not all emails are eligible (For more information about eligible sent emails, see [Eligibility Criterion]())
  * Approximated values are reported, and 
  * Individual recipient information is never shown. 
 For more information about privacy, see [Email read rates](). If you need individual recipient information, learn about [request read receipts]() in Outlook.
 
-### To use this card
+### To use this insight
 
- * On the **Insights** panel, locate the **Track email open rates** card. This card provides read statistics of the eligible emails that you sent in the last 14 days:
+ * On the **Insights** panel, locate **Track email open rates**. This insight provides read statistics of the eligible emails that you sent in the last 14 days:
 
     ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
  
@@ -156,7 +156,7 @@ For more information about privacy, see [Email read rates](). If you need indivi
 
     ![Test email - read stats](../../images/mya/use/test-email-read-stats.png)   
 
-   If you do not have an email open, select the **Track email open rates** card to see read statistics for all eligible sent emails.
+   If you do not have an email open, select **Track email open rates** to see read statistics for all eligible sent emails.
 
     ![Email open rates](../../images/mya/use/email-open-rates-3.png)      
  
@@ -212,13 +212,13 @@ It is easy to lose track of commitments that you've made to your colleagues in e
  * "Will get back to you by end of the week with a suitable meeting time"
  * A colleague asked you three days ago: "Please review this deck by the end of the week"
 
-### To use this card
+### To use this insight
 
- * In the **Insights** pane, select **View outstanding tasks**. This card is available only in English.
+ * In the **Insights** pane, select **View outstanding tasks**. This insight is available only in English.
 
    ![Test email - read stats](../../images/mya/use/test-email-read-stats.png)   
 
-   This opens a panel that displays insights cards for each of your suggested outstanding tasks.    
+   This opens a panel that displays insights for each of your suggested outstanding tasks.    
 
    ![Suggested tasks](../../images/mya/use/suggested-tasks-62.png)
 
@@ -226,7 +226,7 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 
 | Card section | Notes | 
 | ------ | ------ | 
-| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;	| This is the person you might have an outstanding task for
+| **Name and icon**  &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;	| This is the person you might have an outstanding task for
 | **Email subject line** |	Subject line preview of the email along with a hyperlink to open the email |
 | **Task snapshot**	| A snippet of text related to the task
 | **Open**	| Select this to open the relevant email so that you can review the task. |
@@ -242,9 +242,9 @@ It can be easy to lose track of requests you made of your colleagues. By automat
  * "Everyone, please complete your performance evaluations by the end of the week."
  * "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
 
-### To use this card
+### To use this insight
 
- * In the **Insights** pane, select **Follow up on your requests**. This card is available only in English.
+ * In the **Insights** pane, select **Follow up on your requests**. This insight is available only in English.
 
    ![Track email open rates](../../images/mya/use/follow-up-on-your-requests.png)    
     
@@ -270,9 +270,9 @@ Research shows that on average it takes 23 minutes to refocus on a task after a 
 
 **Book time to focus** can help you protect time for focused work and also minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time. 
 
-### To use this card
+### To use this insight
 
- * In the **Insights** pane, select **Book time to focus**. This card appears if your calendar has time available during your working hours that is not blocked by meetings or appointments. 
+ * In the **Insights** pane, select **Book time to focus**. This insight appears if your calendar has time available during your working hours that is not blocked by meetings or appointments. 
 
    ![Book time to focus](../../images/mya/use/book-time-to-focus-52.png)     
      
@@ -284,7 +284,7 @@ Research shows that on average it takes 23 minutes to refocus on a task after a 
 
 | Card section | Notes | 
 | ------ | ------ | 
-| **Date/Time** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;| Shows the date and time of the available focus time that you can book. |
+| **Date/Time** &emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp;| Shows the date and time of the available focus time that you can book. |
 | **+** | Select this to add time to your calendar as focus time. |
 | **Pencil icon** | Say you want to focus on “Sales pitch” for two hours. Select the pencil icon, change the “Focus time” label to “Sales pitch,” and then click (+). This books a two-hour appointment on your calendar with title “Sales pitch.”<br><br>You can set priority contacts in Teams to ensure that you don’t miss important messages during focus time. | 
 | **Book all** | This books all available focus time at once, setting you up with protected time throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. MyAnalytics will respect your preferences when it proposes focus time. | 
@@ -293,7 +293,7 @@ Research shows that on average it takes 23 minutes to refocus on a task after a 
 
 It is easy for important emails to get lost when your inbox is full of unread emails. With the **Catch up on email** insight, you can cut through the clutter by seeing a summary of the most important unread email, based on last 14 days of email communication.
 
-### To use this card
+### To use this insight
 
  * In the **Insights** pane, select **Catch up on email**.
 
@@ -316,7 +316,7 @@ It is easy for important emails to get lost when your inbox is full of unread em
 
 Searching for that document you had planned to read but just can't find? With so many documents shared across meetings and emails, it can be difficult to stay caught up on documents shared by your colleagues. With **Catch up on documents**, you can see a list of the shared OneDrive and SharePoint documents in email that you need to catch up on.
 
-### To use this card
+### To use this insight
 
  * In the **Insights** pane, select **Catch up on documents**:
 
@@ -334,19 +334,19 @@ Searching for that document you had planned to read but just can't find? With so
 
 | Card section | Notes | 
 | ------ | ------ | 
-| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   | The person who sent you the email with the associated document |
+| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;   | The person who sent you the email with the associated document |
 | **Email subject line** | Subject-line preview of the email |
-| **Document name** | Name of the document that you might want to catch up on. Select the document name to open the document. |
-| **Open email** | Select this to open the related email for your review. |
-| **Book time** | Select this to expand the card with option to book time on your calendar to review the document. |
+| **Document name** | Name of the document that you might want to catch up on. Select the document name to open it. |
+| **Open email** | Select this to open the related email. |
+| **Book time** | Select this to see an option to book calendar time to review the document. |
 
 ## Add important people
 
-On a regular day, you might have unread emails and outstanding tasks from many people but some people might be more important than others. For example, an outstanding task from your manager or a message from a key customer might be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, MyAnalytics will remind you when you have tasks to do for these important people or unread email from them.
+You might receive emails and tasks from various people but some items might deserve more attention more than others. For example, an outstanding task from your manager or a message from a key customer would likely be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, MyAnalytics will remind you when you have tasks to do for these important people or unread email from them.
 
-### To use this card
+### To use this insight
 
- * In the **Insights** pane, select the **Add important people** card:
+ * In the **Insights** pane, select **Add important people**:
 
     ![Add important people](../../images/mya/use/add-important-people-54.png)  
 
@@ -359,14 +359,14 @@ On a regular day, you might have unread emails and outstanding tasks from many p
 
 | Card section | Notes | Recommendations |
 | ------ | ------ | ------ | 
-| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;| The person whom MyAnalytics recommends to mark as Important	
-Mark as important | Select this to mark the suggested contact as important. MyAnalytics will then help you stay on top of outstanding tasks, unread documents, and email for your important people. | Consider marking your top collaborators and important contacts as important so that you are always aware of outstanding items from them. | 
+| **Name and icon** | The person whom MyAnalytics recommends to mark as Important	
+| **Mark as important** &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;  &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;| Select this to mark the suggested contact as important. MyAnalytics will then help you stay on top of outstanding tasks, unread documents, and email from your important people. | Consider marking your top collaborators and contacts as important so that you are always aware of outstanding items from them. | 
 
 ## Set lunch hours
 
-Struggling to protect time for lunch? Colleagues keep sending meeting invites during your lunch hours? Not taking a lunch break can leave you feeling more tired and stressed and less focused. Even if you just take 15-20 minutes, this is a proven way to keep your levels of concentration and energy up during your day. Set lunch hours card to protect your lunch hours and personalize your MyAnalytics insights to take into account your preferred lunch hours.
+Struggling to protect time for lunch? Colleagues keep sending meeting invitations during your lunch hours? Not taking a lunch break can leave you feeling more tired and stressed and less focused. Even if you just take 15-20 minutes, this is a proven way to maintain levels of concentration and energy during the day. Use this insight to protect your lunch time and personalize your MyAnalytics insights to take into account your preferred lunch hours.
 
-### To use this card
+### To use this insight
 
  * In the **Insights** pane, locate **Set lunch hours**:
 
@@ -376,10 +376,10 @@ Struggling to protect time for lunch? Colleagues keep sending meeting invites du
 
 | Card section | Notes | Recommendations |
 | ------ | ------ | ------ | 
-| Default Lunch hours &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; |	The text shows your default lunch hours which you can confirm or change | |
-| Change | By clicking on this you can set a different lunch hour time   | |
-| Confirm | This will confirm your lunch hour settings. MyAnalytics will then exclude lunch hours when recommending focus blocks or meeting times.  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;	 | Taking care of your mental and physical wellbeing. Studies show that taking a lunch break allows your mind to rest, recharge and refocus, which can directly improve your productivity for the rest of the day. |
-| Add a recurring calendar event | By checking this box, you have the option to add a recurring calendar event to protect this time. | Consider setting a recurring calendar event if your preferred lunch hours frequently conflict with meetings. | 
+| **Default Lunch hours** &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;| Your default lunch hours, which you can confirm or change | |
+| **Change** | Select this to reset your lunch-hour times | |
+| **Confirm** | Select this to save your settings. MyAnalytics will then exclude lunch hours when recommending focus blocks or meeting times.  &emsp;&emsp;&emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;	 | Taking care of your mental and physical wellbeing. Studies show that taking a lunch break allows your mind to rest, recharge and refocus, which can directly improve your productivity for the rest of the day. |
+| **Add a recurring calendar event** &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; | By checking this box, you have the option to add a recurring calendar event to protect this time. | Consider setting a recurring calendar event if your preferred lunch hours frequently conflict with meetings. | 
 
 ## Plan your time away
 
@@ -454,7 +454,7 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
    The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
 
-   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
+   ![Team member follow-up](../../images/mya/use/connect-actions-debra-75-90.png)
 
 #### To edit your team list
 
@@ -466,28 +466,28 @@ Any changes you make apply only to your MyAnalytics experience; they do not sync
 
 ## Meeting suggestions
 
-Staying in touch with your top collaborators can be difficult. A quick 1:1 meeting with your key contacts can help you nurture our professional network. Meeting suggestion card can keep track of your collaboration pattern and provide meeting recommendation if case you are falling out of touch. For example, if you have not had 1:1 meeting with your manager in a while, this card can suggest setting up a 1:1 and even assist with scheduling the meeting.
+While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. The **Meeting suggestions** insight can keep track of your collaboration pattern and provide meeting recommendations if you are falling out of touch. For example, if you have not had a 1:1 meeting with your manager in a while, this insight can suggest setting up a 1:1 and it can assist with scheduling the meeting.
 
-### To use this card
+### To use this insight
 
- * In the **Insights** pane, locate the **Meet with &lt;name of contact&gt;** card:
+ * In the **Insights** pane, locate the **Meet with &lt;name of contact&gt;** insight:
 
     ![Meet with person for 1:1](../../images/mya/use/meet-with-person-54.png) 
 
 #### Insight option details
 
-| Card section | Notes | Recommendations |
-| ------ | ------ | ------ |  
-| Name and icon &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; | A person you collaborate with regularly but with whom you haven't had a 1:1 meeting in a while. |
-| Schedule meeting | Select this to open a meeting form which you can quickly complete to set up a meeting. | Regular 1:1s with your top collaborators can help you improve productivity and grow your network. |
+| Card section | Notes | 
+| ------ | ------ |   
+| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; | A person you collaborate with regularly but with whom you haven't had a 1:1 meeting in a while. |
+| **Schedule meeting** | Select this to open a meeting form that you can quickly complete to set up a meeting. | 
 
 ## Check quiet hours impact
 
 Studies shows that the expectation to respond to email outside of working hours results in anxiety and impacts the health of employees and their families. In fact, the mere expectation of availability outside of working hours can increase strain for your colleagues, even when they do not engage in actual work outside of working hours.
 
-With the **Check quiet hours impact** card, you can help your team achieve work-life balance by reviewing emails your co-workers responded to outside of working hours.
+With **Check quiet hours impact**, you can help your team achieve work-life balance by reviewing emails that your co-workers responded to outside of working hours. 
 
-### To use this card
+### To use this insight
 
  * In the **Insights** pane, select **Check quiet hours impact**:
 
