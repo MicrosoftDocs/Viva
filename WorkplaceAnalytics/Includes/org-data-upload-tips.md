@@ -26,6 +26,7 @@ The field values in the data row must comply with the following formatting rules
 * The required TimeZone field values must be in a supported Windows format
 * The required Layer field values must contain numbers only
 * The required HourlyRate field values must contain numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis
+ * Double-byte characters, such as Japanese characters, are permitted in the data values.
 
 >[!Note]
 > Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
