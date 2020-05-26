@@ -85,6 +85,20 @@ Your organization might have its own data-classification system, but you might w
 | Lower | Aggregated data | Aggregated data is information that is computed from multiple individuals or sources. | Workplace Analytics calculates averages across your organization. Since the averages are calculated from data sourced from many people, it becomes nearly impossible to derive information about a specific person’s activity. The likelihood of identifying someone from aggregated data depends on the size of the sample. When you implement Workplace Analytics for your organization, you must select the sample-size threshold for aggregation. Smaller sample sizes (such as fewer than ten people) might reveal some insights about individual activity, especially when the individuals are known, and other information (for example, whether the individual was on vacation) can be correlated with changes in the averages over time. |
 | Lowest | Anonymized data | Anonymized data is information that does not relate to a specific individual, that does not increase the likelihood that a specific individual can be identified, or that has been rendered in a way so that it cannot be used to identify a specific individual. | When you use the default settings in Workplace Analytics, all the computed metrics that are the output of an analysis will be anonymized data. |
 
+## De-identification of PII
+
+[START HERE]
+
+Workplace Analytics de-identifies user data through the use of pseudonymization. 
+
+By default, Workplace Analytics does not show email addresses or other information from Office 365 that directly identifies an individual in any in-product dashboard or query result.”  
+
+It should state de-identification instead of “does not show email”
+
+
+                                              
+
+
 ### Illustrative Example
 
 With Workplace Analytics, all metrics that are computed from Office 365 collaboration data and from the organizational data that you choose to include are anonymized and aggregated data. The following example shows one line from a “people” report that Workplace Analytics created:
