@@ -141,7 +141,7 @@ A1. An upload can fail if the data has invalid values, if it is missing required
 
 ##### Q2. For my first organizational data upload, should I choose "append" or "replace"?
 
-A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload.md)](../setup/upload-organizational-data-1st). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md#file-upload).
+A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload.md)](../setup/upload-organizational-data-1st.md). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md#file-upload).
 
 ##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields-table), what percentage does Workplace Analytics require for the validity threshold?
 
@@ -257,7 +257,7 @@ This discrepancy can occur when meetings overlap. Workplace Analytics doesn't kn
 
 ##### Q4. What is the total workday length assumed for calculating focus hours?
 
-A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Workplace Analytics uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Workplace Analytics uses the default time-zone setting that your admin sets in Workplace Analytics for that employee. For more details, see [Time zone setting](../setup/configure-wpa-settings#time-zone) and [Focus hours and fragmented hours](explore-metrics-week-in-the-life.md#focus-hours-and-fragmented-hours).
+A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Workplace Analytics uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Workplace Analytics uses the default time-zone setting that your admin sets in Workplace Analytics for that employee. For more details, see [Time zone setting](../setup/configure-wpa-settings.md#time-zone) and [Focus hours and fragmented hours](explore-metrics-week-in-the-life.md#focus-hours-and-fragmented-hours).
 
 
 ### Queries
@@ -356,7 +356,7 @@ For more details, see [How often to upload](../setup/prepare-organizational-data
 
 ##### Q14. Can I assign multiple Workplace Analytics roles to one account?
 
-A14. Yes. In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Workplace Analytics is performed in the Azure Portal and not in the Office 365 dashboard. See [Assign group-based licenses for Workplace Analytics](https://docs.microsoft.com/en-us/Workplace-Analytics/use/group-based-licensing).)
+A14. Yes. In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Workplace Analytics is performed in the Azure Portal and not in the Office 365 dashboard. See [Assign group-based licenses for Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/use/group-based-licensing).)
 
 ##### Q12. Making privacy settings affects what data?
 
