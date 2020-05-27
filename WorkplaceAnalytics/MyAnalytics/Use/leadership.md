@@ -10,9 +10,9 @@ ms.prod: mya
 
 ---
 
-_**Applies to:** The Leadership page is currently in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD. It should become available to all these users over the course of summer 2020._
-
 # Leadership
+
+_**Applies to:** The Leadership page is currently in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD. It should become available to all of these users over the course of summer 2020._
 
 If you're a people manager, the MyAnalytics Leadership page gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement. 
 
@@ -42,7 +42,7 @@ Any meeting on your calendar that includes only you and your team member counts 
 
 If you directly call your team member over Teams or Skype for Business outside of a scheduled 1:1 meeting, it does not count as 1:1 time. 
 
-## Quiet-hours impact 
+## Quiet hours impact 
 
 Research by Microsoft has shown that when managers work after hours, team members take that as a signal that they need to be 'on' too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours. While some team members may actually prefer to do some of their work outside traditional 9-5 working hours, others may struggle to mentally disconnect and recharge for the next day if they receive a late-night message from their manager. 
 
