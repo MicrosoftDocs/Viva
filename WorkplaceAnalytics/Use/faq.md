@@ -141,7 +141,7 @@ A1. An upload can fail if the data has invalid values, if it is missing required
 
 ##### Q2. For my first organizational data upload, should I choose "append" or "replace"?
 
-A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload.md)](../setup/upload-organizational-data-1st.md). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md#file-upload).
+A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload)](../setup/upload-organizational-data-1st.md). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md#file-upload).
 
 ##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields-table), what percentage does Workplace Analytics require for the validity threshold?
 
