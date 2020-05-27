@@ -20,11 +20,15 @@ You have access to this page only if you have team members assigned to you in Az
 
 ## A note on data privacy 
 
-All of the information shown on this page is derived from the managers' personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track a given team members' activities. For example: a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened that email. More information is available in the MyAnalytics [Privacy guide for admins](../overview/privacy-guide). 
+All of the information shown on this page is derived from the manager's personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track a given team members' activities. For example: a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened that email. More information is available in the MyAnalytics [Privacy guide for admins](../overview/privacy-guide.md#assistance-for-people-managers). 
 
-## Coaching: 1:1 time 
+## 1:1 time 
 
 As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. Research by Microsoft and Gallup has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably. 
+
+<!-- For now, we cannot use those links, so keeping them safe here: 
+Research by [Microsoft](https://hbr.org/2016/12/what-great-managers-do-daily) and [Gallup](https://www.gallup.com/services/182138/state-american-manager.aspx) has shown ...
+ -->
 
 MyAnalytics helps you track your 1:1 trends and ensure that you have regular 1:1 time scheduled with each team member: 
 
@@ -36,21 +40,25 @@ Any meeting on your calendar that includes only you and your team member counts 
 
 If you directly call your team member over Teams or Skype for Business outside of a scheduled 1:1 meeting, it does not count as 1:1 time. 
 
-## Wellbeing: after hours impact 
+## Quiet-hours impact 
 
 Research by Microsoft has shown that when managers work after hours, team members take that as a signal that they need to be 'on' too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours. While some team members may actually prefer to do some of their work outside traditional 9-5 working hours, others may struggle to mentally disconnect and recharge for the next day if they receive a late-night message from their manager. 
+
+<!-- For now, we cannot use that link, so keeping it safe here: 
+[Research by Microsoft](https://hbr.org/2018/01/if-you-multitask-during-meetings-your-team-will-too) has shown ...
+ -->
 
 MyAnalytics helps you understand whether you might be impacting team members outside their typical working hours: 
 
 ![Wellbeing](../../Images/mya/use/leader-wellbeing.png)
 
-### How after-hours impact is calculated 
+### How quiet-hours impact is calculated 
 
-After-hours impact is based on collaboration activity that you initiate with team members more than one hour outside of their working hours as configured in Outlook. This activity includes emails and chats you send as well as meetings and calls you hold. For example, if a team member's configured working hours are 9 AM to 5 PM and you arrange a meeting with them from 6 to 7 PM, this counts as after-hours impact. 
+Quiet-hours impact is based on collaboration activity that you initiate with team members more than one hour outside of their working hours as configured in Outlook. This activity includes emails and chats you send as well as meetings and calls you hold. For example, if a team member's configured working hours are 9 AM to 5 PM and you arrange a meeting with them from 6 to 7 PM, this counts as quiet-hours impact. 
 
 For emails and chats, it is not necessary for the team member to have actually read or responded to the message you sent; the insight is simply intended to draw your awareness to activities that might have impacted team members after hours. 
 
-## Collaboration: team meeting habits 
+## Team meeting habits 
 
 Managers are role models when it comes to collaboration habits; team members tend to mimic their manager's behavior. One study by Microsoft found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. 
 
@@ -64,7 +72,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 * **<=1 hour:** team meetings that you scheduled that were no longer than one hour. 
 
-* **Not double-booked:** team meetings that you scheduled or were invited to that did not overlap with other meetings on your calendar. 
+* **No overlap with other meetings:** team meetings that you scheduled or were invited to that did not overlap with other meetings on your calendar. 
 
 * **Didn't multitask:** team meetings that you scheduled or were invited to during which you did not read or send emails or chats. 
 
@@ -93,8 +101,8 @@ If your team list or job function changes, you can select the **Edit team** link
 
 ## Leadership tips 
 
-When you hold 1:1s, don’t make them all about business. Use the time to learn about the team member as a person and to find areas of common interest outside of work. 
+**When you hold 1:1s, don’t make them all about business.** Use the time to learn about the team member as a person and to find areas of common interest outside of work. 
 
-Focus on team members' strengths. According to [Gallup](https://www.gallup.com/services/182138/state-american-manager.aspx), people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
+**Focus on team members' strengths.** According to [Gallup](https://www.gallup.com/services/182138/state-american-manager.aspx), people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
 
-Help team members prioritize tasks. Research by [Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
+**Help team members prioritize tasks.** Research by [Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 

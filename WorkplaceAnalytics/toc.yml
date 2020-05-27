@@ -220,9 +220,7 @@
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
         - name: Focus plan
-          href: MyAnalytics/use/focus-plan.md  
-        - name: Leadership
-          href: MyAnalytics/use/leadership.md   
+          href: MyAnalytics/use/focus-plan.md    
     - name: MyAnalytics admin guide
       items: 
         - name: Introduction
@@ -251,7 +249,9 @@
         - name: Network
           href: MyAnalytics/Use/network.md
         - name: Collaboration
-          href: MyAnalytics/Use/collaboration.md          
+          href: MyAnalytics/Use/collaboration.md  
+        - name: Leadership
+          href: MyAnalytics/use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction 
