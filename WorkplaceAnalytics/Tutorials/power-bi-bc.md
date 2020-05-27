@@ -64,7 +64,7 @@ The Business Continuity dashboard is being updated on a frequent cadence to addr
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
    > [!Important]
-   > * The dashboard is designed to show you how a disruption can change your organization's work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after the disruption.
+   > * The dashboard is designed to show you how a shift to remote work can change your organization's work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after a shift.
    > * If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
    ![Business Continuity queries](../Images/WpA/Tutorials/bc-query.png)
