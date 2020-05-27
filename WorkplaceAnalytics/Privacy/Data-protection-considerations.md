@@ -65,6 +65,8 @@ As a data processor, Microsoft will:
 * Provide Workplace Analytics features that help organizations meet their data-controller obligations and honor data-subject rights under the GDPR, including the right of exclusion from processing, access, and erasure, and including the right of transparency regarding methods of processing.
 * Implement technical and organizational security measures to protect the confidentiality of your organization’s (and employees’) data in Workplace Analytics.
 
+In addition, Microsoft does not use data for advertising nor does it volunteer to provide data to law enforcement.
+
 ### Data subject and personal data
 
 A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
