@@ -124,11 +124,11 @@ A5. No. No limit is imposed by Workplace Analytics.
 
 ##### Q6. In the Workplace Analytics _Data sources_ section, on the "Office 365 data" page, you can see the number of "Measured employees." Is this the number of licensed users or the number of both licensed and un-licensed?
 
-A6. Licensed. Specifically, this number refers to licensed employees who are also present in the collaboration (Office 365) data. For more information, see [Origin of data counts](office-365-data#origin-of-data-counts.md).
+A6. Licensed. Specifically, this number refers to licensed employees who are also present in the collaboration (Office 365) data. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
-A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called *internal collaborators*. These employees are not measured and no data is extracted from them, nor is any of their data processed. For more information, see [Origin of data counts](office-365-data#origin-of-data-counts.md).
+A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called *internal collaborators*. These employees are not measured and no data is extracted from them, nor is any of their data processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ### Organizational data
 
