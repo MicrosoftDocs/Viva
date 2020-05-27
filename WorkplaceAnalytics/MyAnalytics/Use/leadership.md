@@ -10,6 +10,8 @@ ms.prod: mya
 
 ---
 
+_**Applies to:** The Leadership page is currently in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD. It should become available to all these users over the course of summer 2020._
+
 # Leadership
 
 If you're a people manager, the MyAnalytics Leadership page gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement. 
@@ -32,7 +34,7 @@ Research by [Microsoft](https://hbr.org/2016/12/what-great-managers-do-daily) an
 
 MyAnalytics helps you track your 1:1 trends and ensure that you have regular 1:1 time scheduled with each team member: 
 
-![Coaching: 1:1 time](../../Images/mya/use/leader-coaching.png)
+![Coaching: 1:1 time](../../Images/mya/use/leadership-one-on-one.png)
 
 ### How 1:1 time is calculated 
 
@@ -50,7 +52,7 @@ Research by Microsoft has shown that when managers work after hours, team member
 
 MyAnalytics helps you understand whether you might be impacting team members outside their typical working hours: 
 
-![Wellbeing](../../Images/mya/use/leader-wellbeing.png)
+![Wellbeing](../../Images/mya/use/leadership-quiet-hours.png)
 
 ### How quiet-hours impact is calculated 
 
@@ -64,7 +66,7 @@ Managers are role models when it comes to collaboration habits; team members ten
 
 MyAnalytics helps you track your habits in meetings with team members so that you can be sure to set the right standard: 
 
-![Collaboration](../../Images/mya/use/leader-collaboration.png)
+![Collaboration](../../Images/mya/use/leadership-team-meetings.png)
 
 ### How team meetings habits are calculated 
 
@@ -84,7 +86,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 When you first visit the Leadership page, you are asked to confirm your team members. The initial list of team members you see is derived from Azure Active Directory. If you make any changes, they will apply only to your MyAnalytics experience (including the [Insights Outlook add-in](add-in.md)) and will not be synchronized back to Azure AD. 
 
-![Confirm your team](../../Images/mya/use/leader-leadership.png)
+![Confirm your team](../../Images/mya/use/leadership-confirm.png)
 
 If your team list or job function changes, you can select the **Edit team** link at the top of the Leadership page or visit **Configurations** to add/remove team members or to indicate that you are no longer a manager.
 
@@ -97,12 +99,20 @@ If your team list or job function changes, you can select the **Edit team** link
 
 2. In the left navigation pane, select **Config settings**. 
 
-   ![Configurations](../../Images/mya/use/leader-configurations.png)
+   ![Configurations](../../Images/mya/use/leadership-config.png)
 
 ## Leadership tips 
 
 **When you hold 1:1s, don’t make them all about business.** Use the time to learn about the team member as a person and to find areas of common interest outside of work. 
 
+**Focus on team members' strengths.** According to Gallup, people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
+
+**Help team members prioritize tasks.** Research by Microsoft has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
+
+<!-- For now, we cannot use these links, so keeping them safe here: 
+
 **Focus on team members' strengths.** According to [Gallup](https://www.gallup.com/services/182138/state-american-manager.aspx), people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
 
 **Help team members prioritize tasks.** Research by [Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
+
+ -->
