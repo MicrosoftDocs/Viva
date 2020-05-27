@@ -26,11 +26,7 @@ All of the information shown on this page is derived from the manager's personal
 
 ## 1:1 time 
 
-As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. Research by Microsoft and Gallup has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably. 
-
-<!-- For now, we cannot use those links, so keeping them safe here: 
-Research by [Microsoft](https://hbr.org/2016/12/what-great-managers-do-daily) and [Gallup](https://www.gallup.com/services/182138/state-american-manager.aspx) has shown ...
- -->
+As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. [Research by Microsoft](https://insights.office.com/productivity/what-great-managers-do-daily/) has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably. 
 
 MyAnalytics helps you track your 1:1 trends and ensure that you have regular 1:1 time scheduled with each team member: 
 
@@ -44,11 +40,7 @@ If you directly call your team member over Teams or Skype for Business outside o
 
 ## Quiet hours impact 
 
-Research by Microsoft has shown that when managers work after hours, team members take that as a signal that they need to be 'on' too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours. While some team members may actually prefer to do some of their work outside traditional 9-5 working hours, others may struggle to mentally disconnect and recharge for the next day if they receive a late-night message from their manager. 
-
-<!-- For now, we cannot use that link, so keeping it safe here: 
-[Research by Microsoft](https://hbr.org/2018/01/if-you-multitask-during-meetings-your-team-will-too) has shown ...
- -->
+[Research by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) has shown that when managers work after hours, team members take that as a signal that they need to be 'on' too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours. While some team members may actually prefer to do some of their work outside traditional 9-5 working hours, others may struggle to mentally disconnect and recharge for the next day if they receive a late-night message from their manager. 
 
 MyAnalytics helps you understand whether you might be impacting team members outside their typical working hours: 
 
@@ -62,7 +54,7 @@ For emails and chats, it is not necessary for the team member to have actually r
 
 ## Team meeting habits 
 
-Managers are role models when it comes to collaboration habits; team members tend to mimic their manager's behavior. One study by Microsoft found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. 
+Managers are role models when it comes to collaboration habits; team members tend to mimic their manager's behavior. [One study by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. 
 
 MyAnalytics helps you track your habits in meetings with team members so that you can be sure to set the right standard: 
 
@@ -105,9 +97,9 @@ If your team list or job function changes, you can select the **Edit team** link
 
 **When you hold 1:1s, don’t make them all about business.** Use the time to learn about the team member as a person and to find areas of common interest outside of work. 
 
-**Focus on team members' strengths.** According to Gallup, people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
+**Build a broad internal network.** [Research by Microsoft](https://insights.office.com/productivity/what-great-managers-do-daily/) has found that managers with relatively large internal networks receive higher team engagement scores, and their team members tend to have larger networks as well.
 
-**Help team members prioritize tasks.** Research by Microsoft has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
+**Help team members prioritize tasks.** [Research by Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
 
 <!-- For now, we cannot use these links, so keeping them safe here: 
 
