@@ -196,13 +196,13 @@ Analysts use _meeting-exclusion rules_ in Workplace Analytics queries to help en
 
 ##### Q2. Can other analysts use the meeting exclusion rule sets that I create?
 
-A2.  Yes. Anyone in your organization can use the meeting exclusion rules that anyone else in the organization has created. For more information about meeting exclusion rules, see [Application of meeting-exclusion rules](../tutorials/meeting-exclusion-concept#application-of-meeting-exclusion-rules.md).
+A2.  Yes. Anyone in your organization can use the meeting exclusion rules that anyone else in the organization has created. For more information about meeting exclusion rules, see [Application of meeting-exclusion rules](../tutorials/meeting-exclusion-concept.md#application-of-meeting-exclusion-rules).
 
 ### Data validation, verification, and use
 
 ##### Q1. Why is my measured population less than the number of employees with assigned licenses?
 
-A1.  This can happen if you selected only a subset of your population for data analysis, or if your admin excluded a subset of the population from the organizational data that's uploaded into Workplace Analytics. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md) and [Who to include in the data](../setup/prepare-organizational-data.md#who-to-include-in-the-data) in [Prepare organizational data](../setup/prepare-organizational-data.md), and see [Origin of data counts](data-sourcesv2.md#origin-of-data-counts) in [Data sources](data-sourcesv2.md).
+A1.  This can happen if you selected only a subset of your population for data analysis, or if your admin excluded a subset of the population from the organizational data that's uploaded into Workplace Analytics. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md) and [Who to include in the data](../setup/prepare-organizational-data.md#which-employees-to-include) in [Prepare organizational data](../setup/prepare-organizational-data.md), and see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ##### Q2. Why do the totals seem too high for internal and external collaborators?
 
@@ -211,7 +211,7 @@ A2. The collaborator totals include the number of internal (or external) people 
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
-A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. On the **Sources** page, you can select a time period where the email volume is stable. For more information, see [Office 365 data summary](data-sources.md#office-365-data-summary) in [Data sources](data-sources.md).
+A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. On the **Sources** page, you can select a time period where the email volume is stable. For more information, see [Office 365 data summary](office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
@@ -243,7 +243,7 @@ A1. To change the meeting exclusion rules for use on the Explore dashboards, see
 
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A1. Employee data can change based on what [Page settings](../overview/get-started.md#data-analysis) are selected for the **Explore** or **Solutions** pages that you are using. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
+A1. Employee data can change based on the Page settings that are selected for the **Explore** or **Solutions** pages that you are using. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
 
 ##### Q2. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 
