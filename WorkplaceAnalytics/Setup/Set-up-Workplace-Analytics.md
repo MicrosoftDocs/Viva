@@ -79,6 +79,12 @@ This article describes the steps that are required to set up and configure Workp
 
     ![Setup is complete](../images/wpa/setup/onboarding-setup-complete.png) 
 
+## Product availability
+
+After organizational data has been uploaded and validated, no further action by the admin is necessary. After this point, it takes about one day before Workplace Analytics is ready for use. (For organizations with many licensed employees, it might take slightly longer.)
+
+For example, analysts can begin to conduct analyses (by using the [Explore](../use/explore-intro.md) and [Queries](../tutorials/query-basics.md) pages) after privacy settings have been made, collaboration data has been extracted, and organizational data has been uploaded. As soon as Workplace Analytics is ready for use, an email notification to that effect is sent to users who've been assigned the [analyst role](../use/user-roles.md#role-descriptions-and-access-levels).    
+
 ## Related topics
 
 [Environment requirements for Workplace Analytics](environment-requirements.md)

@@ -45,7 +45,7 @@ Watch this video to learn how Workplace Analytics licenses work and how the Offi
 
 ### License assignment options
 
-Workplace Analytics licenses are assigned just like any other Microsoft 365 product license. You can assign licenses in the following ways:​
+Workplace Analytics licenses are assigned just like other Microsoft 365 product licenses. You can assign them by using the Office 365 Admin Center, PowerShell, or Azure group-based licensing:
 
 * [Group-based licensing](../Use/Group-Based-Licensing.md)
 * [Office 365 Admin Center​](https://aka.ms/Instructions_AssignLicenseUsingO365AdminCenter)
