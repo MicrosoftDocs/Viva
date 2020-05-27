@@ -157,7 +157,7 @@ A5. Usually, HR obtains this data and provides it to the Workplace Analytics adm
 
 ##### Q6. Who can access organizational data after it has been uploaded to Workplace Analytics? 
 
-A6. Workplace Analytics admins can view metadata about the organizational data on the [Data Sources](data-sourcesv2.md) page. For privacy reasons, no one can download the raw data that was uploaded. 
+A6. Workplace Analytics admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page. For privacy reasons, no one can download the raw data that was uploaded. 
 
 <!-- [NEAR FUTURE FOR THESE NEXT FIVE QUESTIONS, AFTER THE XLSX POSSIBILITY SHIPS]
 
@@ -291,7 +291,7 @@ A4. The shared-mailbox and delegate-access cases are treated differently by Work
 
 #### Q5. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
-A5. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file.
+A5. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you are using Excel 2016, follow the steps in [Download and import query results](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** in Excel and then search for the instructions on how to import a .csv file.
  
 
 <!-- NEED MORE INFO BEFORE WE CAN INCLUDE THIS: 
