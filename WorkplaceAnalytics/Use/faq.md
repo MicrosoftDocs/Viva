@@ -221,6 +221,17 @@ A4. Workplace Analytics processes email and meetings data for a distribution lis
 
 A5. Teams provides information about collaboration activities, namely direct messages (chats) and calls. It does not provide information about channels and groups. 
 
+#### Q6. When a person sends a message from a shared mailbox, who gets credit or shows as the sender of the message?
+
+A6. It depends on the permissions that are set for the Exchange Online shared mailbox.
+
+ * **Send As** permissions - The shared mailbox gets credit for sending the email.
+ * **Send on Behalf** permissions - The person who sends the message gets the credit.
+
+For more about permissions, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
+
+(Also see this question about [Delegate access and Send on Behalf](#q5-how-does-workplace-analytics-treat-email-and-meetings-sent-on-behalf-of-another-individual-who-delegated-access-or-a-shared-mailbox).)
+
 ### Explore dashboards
 
 <!-- MOVED TO REGULAR DOCS
@@ -268,13 +279,19 @@ A2. You can use the Collaboration hours metric to filter for a specific time fra
 
 A3. Because totals for working hours and after hours calculate the "time booked on your calendar" instead of "time in meetings." Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-##### Q4. A person who has delegate access (for example, an executive assistant, or "EA") can organize meetings and send email on behalf of another person, such as a corporate leader. In its calculations, does Workplace Analytics view the _EA_ or the _leader_ as the creator of these items?
+#### Q4. How does Workplace Analytics treat email and meetings sent on behalf of another individual (who delegated access) or a shared mailbox?
 
-A4. The _leader_ is considered to be the creator. Note the following: 
+A4. The shared-mailbox and delegate-access cases are treated differently by Workplace Analytics:
 
- * <u>For meetings</u>, the EA must first have been granted delegate access to the leader's calendar. Then, the EA can open the leader's shared calendar and create and send the meeting invitation. In this situation, no metrics are attributed to the EA. Workplace Analytics considers the meeting request to have veen sent by the leader. 
- 
- * <u>For emails</u>, no metrics are attributed to the EA. Workplace Analytics considers the email to have been sent by the leader. 
+ * **Shared mailbox** - If an individual sends an email or a meeting invitation on behalf of a shared mailbox, Workplace Analytics does not use this action in its calculations.
+
+ * **Delegate access** - Let's say an individual sends an email or a meeting invitation on behalf of the mailbox of another user who has granted delegate access. Workplace Analytics considers the item to have been sent by the individual whose mailbox the item was sent from, not the user who has delegate access.
+
+(Also see this question about [Send As and Send on Behalf](#q6-when-a-person-sends-a-message-from-a-shared-mailbox-who-gets-credit-or-shows-as-the-sender-of-the-message).)
+
+#### Q5. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
+
+A5. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file.
  
 
 <!-- NEED MORE INFO BEFORE WE CAN INCLUDE THIS: 
