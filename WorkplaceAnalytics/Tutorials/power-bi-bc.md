@@ -34,8 +34,9 @@ When the Business continuity dashboard is populated with data, you can use it to
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
-* Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
+* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics. 
+* Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. 
+Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Template update
 
@@ -190,10 +191,12 @@ See [Create a Person Query](./person-queries.md) for details.
 
 #### Q7 How do I change the axis of a chart to use a different Organizational data attribute?
 
-Only the required Organizational attributes are used when setting up the Power BI file. If you selected more Organizational attributes when setting up the queries, you can use those in the visuals. To use a different Organizational attribute:
+Only the required Organizational attributes are used when setting up the Power BI file. If you selected more Organizational attributes when setting up the queries, you can use those in the visuals. 
+To use a different Organizational attribute:
 
 1. Select the visualization you want to change.  
 2. In the **Fields** pane, select and drag the Organizational attribute to the **Axis** section of the visualization.
+
 
 #### Q8 How do I integrate additional metrics or data sources with this dashboard?
 
@@ -259,7 +262,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 
 2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
 3. Select the **Business Continuity** query.
-4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, and select **Remove Empty**, and then select **OK**.
+4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
 5. Select the **Hourly Collaboration** query and repeat Steps 3-4 to filter out empty values.
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
 
