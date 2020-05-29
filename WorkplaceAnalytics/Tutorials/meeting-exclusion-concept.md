@@ -155,7 +155,7 @@ To see other actions that are available for the rule, hover your cursor over the
 For published rules, the actions are:
 
  * **Duplicate** creates an exact copy of the rule.
- * **Set preferred** sets this rule as the preferred rule. Note that there can be only one preferred rule. The preferred rule appears on the Explore dashboards and on the Plans pages. It also appears at the top of the list of rules on the Analysis settings page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.) 
+ * **Set preferred** sets this rule as the preferred rule. Note that there can be only one preferred rule within your tenant; this means that when an analyst designates a rule as preferred, that rule appear will appear to _all_ analysts as the preferred rule on the [Explore](../use/explore-intro.md) dashboards and on the [Plans](../tutorials/solutionsv2-intro.md) pages. It also appears at the top of the list of rules on the [Analysis settings](../use/settings.md#analysis-settings) page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.)  
  * **Archive** archives the rule.  
  * **Favorite** sets the rule as a favorite. This is a sorting action. Rules that are favorites are displayed together near the top of any list of rules. (For rules that have been set as favorites, the "Unfavorite" option is available; it reverses the favorite status of the rule.)
 
