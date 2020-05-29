@@ -54,7 +54,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
       ![Influence insights queries](../Images/WpA/Tutorials/influence-insights-step-3.png)
  
 4. In **Select filters**, for "**Which measured employees do you want to include?**" you can filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Network: Person Query](./ona-queries.md).
-5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other additional (columns) to include in the dashboard.
+5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, **FunctionType**, and **SupervisorIndicator** attributes that the dashboard requires. You can then select any other additional (columns) to include in the dashboard.
 
    > [!Important]
    > If you remove any of the required, preselected organizational data attributes, you might disable one or more Power BI charts.
@@ -99,8 +99,8 @@ The following dashboard reports highlight unique insights about influencers and 
 
 The Glossary report at the end of the dashboard provides information about the underlying metric that drives the dashboard. An interpretation is provided in the text box of each report. Here are the influencers reports, with nuances to consider for each:
 
- * **Your influencers at a glance.** This report frames the data and gives an overview of the various reports. Select the i icon next to each business question to view the related report.
- * **Where are the influencers in your company?** This report shows where influencers are present at the organization level. You can select to focus on the top 5, 10, 15 or 20% of influencers. You can further filter and slice across other available attributes.
+ * **Your influencers at a glance.** This report frames the data and gives an overview of the various reports. Select the "i" icon next to each business question to view the related report.
+ * **Where are the influencers in your company?** This report shows where influencers are present at the organization level. You can select to focus on the top 5, 10, 15 or 20% of influencers. (After you make this  selection, it applies to all of the dashboard reports.) You can further filter and slice across other available attributes.
  * **Who makes decisions in your company?** This report shows you how employees at various levels are empowered to make decisions. You can view this at the organization level or by any other available attribute.
  * **How are influencers adapting to remote work situations?** Unlike the other reports, this report shows changes between the baseline time frame and the current time frame. It shows the trend in collaboration hours by channel for influencers and it demonstrates the slippage between work and life balance. 
 
