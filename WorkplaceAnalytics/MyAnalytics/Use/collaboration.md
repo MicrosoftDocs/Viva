@@ -66,12 +66,12 @@ Meeting metrics include any meetings that you organized or accepted to attend th
 
 #### Meeting habit metrics
 
-The following meeting habit metrics are included on the Collaboration page. You can select the question mark icon next to Meeting habits to see similar details about them.
+The following meeting habit metrics are included on the Collaboration page. You can select the question mark icon next to **Meeting habits** to see similar details about them.
 
 * **High attendance** includes meetings you organized or accepted that had greater than a 50 percent response rate.
 * **Invitations sent with a days' notice** includes meetings where you sent invitations with more than 24 hours notice before the meeting's scheduled start time.
 * **Added Skype or Teams link** includes meetings you organized and included a Skype or Teams link for remote attendance.
-* **Sent with agenda** includes meetings you organized and included text in the body of the invitation.
+* **No overlap with other meetings** includes meetings that you organized or accepted that did not overlap with other meetings.
 * **No emails or chats during the meeting** includes meetings during which you did not send a significant number of emails or chats.
 * **Online meetings joined on time** includes Skype or Teams meetings that you joined or started on time.
 * **During working hours** includes meetings you organized or accepted to attend during your working hours.
