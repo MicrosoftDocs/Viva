@@ -37,7 +37,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 1.	In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2.	Under **Start from preselected filters and metrics**, select **Influence Insights** (or select **Standard query** per Step 7) to open the predefined query, which contains the required metrics to populate the dashboard.
 
-    ![Predefined queries](../Images/WpA/Tutorials/predefined-bc-queries.png)
+    ![Influence insights queries](../Images/WpA/Tutorials/influence-insights-step-2.png)
  
 3. Select or confirm the following query settings:
 
@@ -51,7 +51,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > * The dashboard can show you how a disruption can change your influencers’ work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after the disruption.
    > * In this procedure, there is no step to select metrics because the metrics for this query are preselected. If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-      ![Business Continuity queries](../Images/WpA/Tutorials/bc-query.png)
+      ![Influence insights queries](../Images/WpA/Tutorials/influence-insights-step-3.png)
  
 4. In **Select filters**, for "**Which measured employees do you want to include?**" you can filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Network: Person Query](./ona-queries.md).
 5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other additional (columns) to include in the dashboard.
@@ -63,7 +63,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 7. Repeat **Steps 2-6** for the **Standard query** query, which requires the same selections that you made for the Influence insights query. You can also specify a meeting exclusion rule. Note that you must set the auto-refresh option for the Standard query to "on."
 8. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Influence Insights** query results, select **PBI template**, and then select **OK** to download the template.
 
-   ![Power BI template download](../Images/WpA/Tutorials/pbi-template-download.png)
+   ![Influence insights template download](../Images/WpA/Tutorials/influence-insights-step-8.png)
 
 9. Open the downloaded **Influence Insights Power BI template**.
 10. If prompted to select a program, select **Power BI**.
@@ -74,7 +74,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     * Set the [**Minimum group size**]() for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     * Select **Load** to import the query results into Power BI. Loading these large files might take some time to complete.
 
-      ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
+      ![Query URLs for Influence insights](../Images/WpA/Tutorials/influence-insights-step-11.png)
+      
 
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**.
