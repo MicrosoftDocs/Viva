@@ -126,7 +126,7 @@ If you notice other words in the cloud that you might want to retain in your ana
 
 ## Default meeting-exclusion rule
 
-Workplace Analytics supplies one meeting exclusion rule by default, the _Default meeting exclusion rule_. This rule excludes the following types of meetings from query results, as they are not likely to represent relevant workplace meetings:
+Workplace Analytics supplies one meeting exclusion rule by default, the _Tenant default meeting exclusion rule_. This rule excludes the following types of meetings from query results, as they are not likely to represent relevant workplace meetings:
 
 * Meetings with only one attendee
 * Meetings equal to or longer than eight hours
