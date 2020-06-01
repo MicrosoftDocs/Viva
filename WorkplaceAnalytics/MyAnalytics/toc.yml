@@ -21,7 +21,7 @@
             - name: Insights add-in
               href: ./use/add-in.md
             - name: Use Insights
-              href: ./use/use-the-insights.md
+              href: ./use/use-the-insights.md          
         - name: Digests
           items:
             - name: Welcome
