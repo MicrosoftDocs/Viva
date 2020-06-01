@@ -128,7 +128,7 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
     The option you selected (in step 2a or step 2b) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
-    ![Email open rates](../../images/mya/use/step-2-four-emails.png)
+    ![Email open rates](../../images/mya/use/step-2-two-emails.png)
 
 
 <!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.     

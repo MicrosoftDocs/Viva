@@ -154,7 +154,7 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under MyAnalytics, select **Settings**.
-4. For **Insights Outlook add-in**, set the control to **Off**.
+4. For **Insights Outlook add-in**, set the control to **On**.
 
     ![Slider in off position](../../Images/mya/use/add-in-slider-opt-in.png)
   
@@ -162,10 +162,6 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 > [!NOTE]
 > It might take up to 24 hours for your saved changes to take effect.
-
-### If I am opted out, can I opt back in?
-
-Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
 
 ## Related topics
 
