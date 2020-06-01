@@ -28,7 +28,6 @@ You can use the Outlook Insights add-in in the following environments:
 
 <!-- verify that this is necessary: 
 **Prerequisites:** 1) [Turn on the Outlook Reading Pane](https://support.office.com/en-us/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) and 2) Select an email item.
-
 -->
 
 ### Windows Outlook desktop
@@ -56,6 +55,7 @@ You can use the Outlook Insights add-in in the following environments:
 3. Select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**:
 
    ![Insights in OWA](../../images/mya/use/insights-in-owa.png)
+
 
 > [!Note] 
 > You can pin the Add-in to your quick access pane for easier access; see [Pin the Insights add-in](#pin-the-insights-add-in) for details.   

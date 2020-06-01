@@ -27,12 +27,12 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="Images/icon-outlook.png" alt="" />
+                            <img src="Images/icon-personaldata.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Introducing the Briefing email</h3>
-                        <p>Learn what the Briefing email is and how you can use it to prepare for today's meetings and related documents and tasks, and help get your work done.</p>
+                        <p>Learn what the Briefing email is and how you can use it to prepare for today's meetings and related documents and tasks, and to help get your work done.</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ author: madehmer
                     </div>
                     <div class="cardText">
                         <h3>Configuring the Briefing email</h3>
-                        <p>Steps for admins to configure the Briefing email for your organization.</p>
+                        <p>Steps for admins to configure the Briefing email for one person or for multiple people in your organization.</p>
                     </div>
                 </div>
             </div>
@@ -84,12 +84,50 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="Images/icon-checklist.png" alt="" />
+                            <img src="Images/icon-outlook.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Using the Briefing email</h3>
                         <p>Learn how to use the Briefing email to prepare for upcoming meetings, follow up on outstanding tasks, and schedule focus time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/briefing/be-pilot">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="Images/icon-checklist.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Briefing rollout</h3>
+                        <p>Learn how to roll out a Briefing pilot or a full rollout to all of the people in your organization, including downloadable resources to help jump start the process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/briefing/be-faqs">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="Images/icon-faqs.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Briefing FAQs</h3>
+                        <p>Review the most frequently asked questions and their answers for both Briefing users and administrators.</p>
                     </div>
                 </div>
             </div>
