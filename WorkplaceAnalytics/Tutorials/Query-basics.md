@@ -117,6 +117,7 @@ Workplace Analytics includes a number of predefined query templates to help you 
 
 * **Quickstart overview** is a Power BI template that gives a high-level view of key organizational metrics.
 * **Collaboration overload** is a Power BI template that identifies collaboration patterns.
+* **Influence insights** is a Power BI template that helps you understand where influencers are represented in your company.
 * **Manager impact** is a Power BI template that analyzes manager trends.
 * **Build focus hours** finds groups that have the lowest amount of focus time.
 * **Calls and IMs** analyzes call and instant-message hours by person.

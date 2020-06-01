@@ -122,14 +122,18 @@
                   href: ~/tutorials/crm-queries.md    
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md
-  #              - name: ONA queries                   
-  #                items: 
-  #                  - name: ONA queries
-  #                    href: ~/tutorials/ona-queries.md 
+                - name: ONA queries
+                  href: ~/tutorials/ona-queries.md 
+ #  future       - name: ONA queries                   
+ #  structure      items: 
+ #                   - name: ONA queries
+ #                     href: ~/tutorials/ona-queries.md 
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md
-                - name: Power BI Business Continuity Dashboard
+                - name: Power BI Business continuity dashboard
                   href: ~/tutorials/power-bi-bc.md
+                - name: Power BI Influence insights dashboard
+                  href: ~/tutorials/pbi-influence-db.md                  
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results

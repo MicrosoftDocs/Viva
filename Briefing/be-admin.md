@@ -23,7 +23,7 @@ Confirm the following before configuring access:
 
 * **Licensed users only** - Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
-* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
 
 <!--### To configure access at the tenant level
 
@@ -123,8 +123,9 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
    }
    ```
 
-3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
+3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt.
 
 ## Related topics
 
-[Briefing email overview](be-overview.md)
+* [Briefing email overview](be-overview.md)
+* [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2)
