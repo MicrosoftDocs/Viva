@@ -72,7 +72,7 @@ In the new Mac interface, add-ins are not currently available, but you can enabl
  
 2. In the Outlook **Home** ribbon, open Insights by using the same steps as for [Windows Outlook desktop](#windows-outlook-desktop).
 
-### What you might see
+## What you might see
 
 After you open the Insights add-in, you'll see a number of cards in the right (Insights) pane. 
 
@@ -89,7 +89,7 @@ This pane will show you a selection of the following:
 7.	[Catch up on documents](use-the-insights.md#catch-up-on-documents): See a list of shared OneDrive and SharePoint documents that you need to catch up on.  
 8.	[Add important people](use-the-insights.md#add-important-people): Manage your list of important contacts. You'll see reminders when you have tasks to complete for these people or unread emails from them.
 9.	[Set lunch hours](use-the-insights.md#set-lunch-hours): Use this card to protect your lunch hours and personalize your insights.
-10.	[Plan time away](use-the-insights.md#plan-time-away): Use this card to plan your time away from work.
+10.	[Plan your time away](use-the-insights.md#plan-your-time-away): Use this card to plan your time away from work.
 11.	[Catch up with your team](use-the-insights.md#catch-up-with-your-team): Stay on top of your team's needs with insights for 1:1 meetings, outstanding tasks, and so on. 
 12.	[Meeting suggestions](use-the-insights.md#meeting-suggestions): Grow and nurture your network by staying connected with important colleagues.
 13.	[Check quiet hours impact](use-the-insights.md#check-quiet-hours-impact): Help your team achieve work-life balance by reviewing the impact of sending email outside of working hours.
