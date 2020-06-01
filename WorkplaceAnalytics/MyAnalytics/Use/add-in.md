@@ -72,7 +72,7 @@ In the new Mac interface, add-ins are not currently available, but you can enabl
  
 2. In the Outlook **Home** ribbon, open Insights by using the same steps as for [Windows Outlook desktop](#windows-outlook-desktop).
 
-### What you might see
+## What you might see
 
 After you open the Insights add-in, you'll see a number of cards in the right (Insights) pane. 
 
