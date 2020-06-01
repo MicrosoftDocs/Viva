@@ -98,7 +98,7 @@ For information about how best to use particular Insights, see [Us Insights](use
 
 ## Pin the Insights add-in
 
-If you're using Outlook on the Web, you can pin the Insights add-in to the quick access pane for easier access.  
+If you're using Outlook on the Web, you can pin the add-in for easier access.  
 
 **To pin the add-in to the quick access pane**
 
@@ -125,6 +125,8 @@ If you're using Outlook on the Web, you can pin the Insights add-in to the quick
 
 ## Opt out of the Insights Outlook add-in
 
+#### To opt out
+
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at top right.
 
@@ -133,7 +135,28 @@ If you're using Outlook on the Web, you can pin the Insights add-in to the quick
 3. Under MyAnalytics, select **Settings**.
 4. For **Insights Outlook add-in**, set the control to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/add-in-opt-in-out.png)
+    ![Slider in off position](../../Images/mya/use/add-in-slider-opt-out.png)
+  
+5. Select **Save** to save your changes.
+
+> [!NOTE]
+> It might take up to 24 hours for your saved changes to take effect.
+
+### If I am opted out, can I opt back in?
+
+Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Insights Outlook add-in.
+
+#### To opt in
+
+1. Open your [dashboard](https://myanalytics.microsoft.com).
+2. Select the **Settings** (gear) icon at top right.
+
+    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+
+3. Under MyAnalytics, select **Settings**.
+4. For **Insights Outlook add-in**, set the control to **Off**.
+
+    ![Slider in off position](../../Images/mya/use/add-in-slider-opt-in.png)
   
 5. Select **Save** to save your changes.
 
