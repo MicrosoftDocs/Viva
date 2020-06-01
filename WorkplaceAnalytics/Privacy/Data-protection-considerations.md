@@ -72,6 +72,10 @@ A data subject is a person who can be identified through personal data. In the c
 > [!Note]
 > In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user," a "person," an "individual," or an "employee."
 
+## De-identification of PII
+
+To keep from disclosing personally identifiable information (PII), Workplace Analytics de-identifies user data through the use of pseudonymization and other techniques, including aggregation. For examples of how it does this for various types of data, see the Examples column in the table in the [following section](#types-of-data-for-analysis-in-workplace-analytics). The [Illustrative Example](#illustrative-example) describes how Workplace Analytics secures information in query results. Finally, see the [Glossary](../use/glossary.md) for definitions of the following terms related to privacy: aggregation, anonymization, de-identification, hashing, Personally identifiable information.
+
 ## Types of data for analysis in Workplace Analytics
 
 Before starting an analysis in Workplace Analytics, you should think about the types of data that you will include. Specifically, consider whether the inclusion of personal data is necessary to fulfill the purpose of your analysis, or whether other types of data that cannot be used to identify specific individuals could produce results that are just as effective and insightful as you would get if you had used personal data.
@@ -80,24 +84,10 @@ Your organization might have its own data-classification system, but you might w
 
 | Privacy risk | Data type | Definition | Examples in Workplace Analytics |
 | ------------ | --------- | ---------- | ----- |
-| Highest | Personal data | Personal data is information that directly or indirectly identifies a person | By default, Workplace Analytics does not show email addresses or other information from Office 365 that directly identifies an individual in any in-product dashboard or query result. However, it does show information from the organizational dataset that your organization provides for analysis. Thus, if you upload organizational data that includes personal data (for example, employee names and identification numbers), that personal data will appear in in-product dashboards and query results. |
+| Highest | Personal data | Personal data is information that directly or indirectly identifies a person | By default, Workplace Analytics de-identifies email addresses and other information from Office 365 that directly identifies an individual in any in-product dashboard or query result. However, it does show information from the organizational dataset that your organization provides for analysis. Thus, if you upload organizational data that includes personal data (for example, employee names and identification numbers), that personal data will appear in in-product dashboards and query results. |
 | Higher | Pseudonymized data | Pseudonymized data is information in which a personal identifier has been replaced with a value that does not directly identify a person (such as a numeric identifier that can no longer be attributed to a specific person without the use of additional information). | Workplace Analytics automatically replaces email addresses with pseudonyms (cryptographically obscured strings of numbers and letters) in the Office 365 collaboration data that you choose to include for analysis. Using pseudonyms can reduce the likelihood that you will identify a specific person, but the risk of identification remains. |
 | Lower | Aggregated data | Aggregated data is information that is computed from multiple individuals or sources. | Workplace Analytics calculates averages across your organization. Since the averages are calculated from data sourced from many people, it becomes nearly impossible to derive information about a specific person’s activity. The likelihood of identifying someone from aggregated data depends on the size of the sample. When you implement Workplace Analytics for your organization, you must select the sample-size threshold for aggregation. Smaller sample sizes (such as fewer than ten people) might reveal some insights about individual activity, especially when the individuals are known, and other information (for example, whether the individual was on vacation) can be correlated with changes in the averages over time. |
 | Lowest | Anonymized data | Anonymized data is information that does not relate to a specific individual, that does not increase the likelihood that a specific individual can be identified, or that has been rendered in a way so that it cannot be used to identify a specific individual. | When you use the default settings in Workplace Analytics, all the computed metrics that are the output of an analysis will be anonymized data. |
-
-## De-identification of PII
-
-[START HERE]
-
-Workplace Analytics de-identifies user data through the use of pseudonymization. 
-
-By default, Workplace Analytics does not show email addresses or other information from Office 365 that directly identifies an individual in any in-product dashboard or query result.”  
-
-It should state de-identification instead of “does not show email”
-
-
-                                              
-
 
 ### Illustrative Example
 
