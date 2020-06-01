@@ -80,22 +80,22 @@ After you open the Insights add-in, you'll see a number of cards in the right (I
   
 This pane will show you a selection of the following:
 
-1.	[Prepare for your meetings](use-the-insights-new.md#prepare-for-your-meetings): Prepare for your meetings and then drive more effective meetings.
-2.	[Track email and document open rates](use-the-insights-new.md#track-email-and-document-open-rates): Track readership of emails that you've sent sent by viewing the percentage open rate, the percentage attachment click rate, and so on.
-3.	[View outstanding tasks](use-the-insights-new.md#view-outstanding-tasks): Make sure nothing falls through the cracks by seeing reminders of tasks that you've agreed to do. 
-4.	[Follow up on your requests](use-the-insights-new.md#follow-up-on-your-requests): Receive reminders to follow up on commitments made by your colleagues or on requests that you have made.  
-5.	[Book time to focus](use-the-insights-new.md#book-time-to-focus): Protect your calendar by reserving focus time before meetings take over.  
-6.	[Catch up on email](use-the-insights-new.md#catch-up-on-email): Cut through the clutter with a summary of unread email from your more important contacts. 
-7.	[Catch up on documents](use-the-insights-new.md#catch-up-on-documents): See a list of shared OneDrive and SharePoint documents that you need to catch up on.  
-8.	[Add important people](use-the-insights-new.md#add-important-people): Manage your list of important contacts. You'll see reminders when you have tasks to complete for these people or unread emails from them.
-9.	[Set lunch hours](use-the-insights-new.md#set-lunch-hours): Use this card to protect your lunch hours and personalize your insights.
-10.	[Plan time away](use-the-insights-new.md#plan-time-away): Use this card to plan your time away from work.
-11.	[Catch up with your team](use-the-insights-new.md#catch-up-with-your-team): Stay on top of your team's needs with insights for 1:1 meetings, outstanding tasks, and so on. 
-12.	[Meeting suggestions](use-the-insights-new.md#meeting-suggestions): Grow and nurture your network by staying connected with important colleagues.
-13.	[Check quiet hours impact](use-the-insights-new.md#check-quiet-hours-impact): Help your team achieve work-life balance by reviewing the impact of sending email outside of working hours.
+1.	[Prepare for your meetings](use-the-insights.md#prepare-for-your-meetings): Prepare for your meetings and then drive more effective meetings.
+2.	[Track email and document open rates](use-the-insights.md#track-email-and-document-open-rates): Track readership of emails that you've sent sent by viewing the percentage open rate, the percentage attachment click rate, and so on.
+3.	[View outstanding tasks](use-the-insights.md#view-outstanding-tasks): Make sure nothing falls through the cracks by seeing reminders of tasks that you've agreed to do. 
+4.	[Follow up on your requests](use-the-insights.md#follow-up-on-your-requests): Receive reminders to follow up on commitments made by your colleagues or on requests that you have made.  
+5.	[Book time to focus](use-the-insights.md#book-time-to-focus): Protect your calendar by reserving focus time before meetings take over.  
+6.	[Catch up on email](use-the-insights.md#catch-up-on-email): Cut through the clutter with a summary of unread email from your more important contacts. 
+7.	[Catch up on documents](use-the-insights.md#catch-up-on-documents): See a list of shared OneDrive and SharePoint documents that you need to catch up on.  
+8.	[Add important people](use-the-insights.md#add-important-people): Manage your list of important contacts. You'll see reminders when you have tasks to complete for these people or unread emails from them.
+9.	[Set lunch hours](use-the-insights.md#set-lunch-hours): Use this card to protect your lunch hours and personalize your insights.
+10.	[Plan time away](use-the-insights.md#plan-time-away): Use this card to plan your time away from work.
+11.	[Catch up with your team](use-the-insights.md#catch-up-with-your-team): Stay on top of your team's needs with insights for 1:1 meetings, outstanding tasks, and so on. 
+12.	[Meeting suggestions](use-the-insights.md#meeting-suggestions): Grow and nurture your network by staying connected with important colleagues.
+13.	[Check quiet hours impact](use-the-insights.md#check-quiet-hours-impact): Help your team achieve work-life balance by reviewing the impact of sending email outside of working hours.
 
 <!-- no need for this probably, so test
-For information about how best to use particular Insights, see [Us Insights](use-the-insights-new.md).
+For information about how best to use particular Insights, see [Us Insights](use-the-insights.md).
 -->
 
 ## Pin the Insights add-in
@@ -167,5 +167,5 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 ## Related topics
 
-* [Use Insights](use-the-insights-new.md)
+* [Use Insights](use-the-insights.md)
 * [MyAnalytics elements](MyA-elements.md)
