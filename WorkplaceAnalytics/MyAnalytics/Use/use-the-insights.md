@@ -23,14 +23,14 @@ The information in this section helps you get the most out of the following insi
 7.	[Catch up on documents](#catch-up-on-documents) 
 8.	[Add important people](#add-important-people)
 9.	[Set lunch hours](#set-lunch-hours)
-10.	[Plan your time away](#plan-your-time-away)
+10.	[Plan your time away](#plan-your-time-away) 
 11.	[Catch up with your team](#catch-up-with-your-team)
 12.	[Meeting suggestions](#meeting-suggestions)
 13.	[Check quiet hours impact](#check-quiet-hours-impact)
 
 ## Prepare for your meetings
 
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyAnalytics-meetings-september-2018.pdf). 
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf). 
 
 **Prepare for your meetings** shows you a list of upcoming meetings that you've organized and it helps you decide whether each meeting is ready to go. 
 

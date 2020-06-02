@@ -71,7 +71,7 @@ You can select **Learn more** to see additional information in the **Insights** 
 
 ![insights email open rate](../../Images/mya/use/insights-email-open-rate.png) 
 
-For more information about how and on which emails these statistics are calculated, see [Email read statistics](../use/add-in.md#email-read-statistics).
+For more information about how and on which emails these statistics are calculated, see [Track email and document open rates](use-the-insights.md#track-email-and-document-open-rates). 
 
 > [!Note] 
 > Email open rates suggestions are currently available only to [Office 365 E5 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
