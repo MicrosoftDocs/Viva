@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Leadership insights dashboard
 description: Leaders use this dashboard to learn about their relationships with team members
 author: paul9955
