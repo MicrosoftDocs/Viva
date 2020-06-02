@@ -132,6 +132,8 @@
                   href: ~/tutorials/power-bi-templates.md
                 - name: Power BI Business continuity dashboard
                   href: ~/tutorials/power-bi-bc.md
+                - name: Power BI Influence insights dashboard
+                  href: ~/tutorials/pbi-influence-db.md                  
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results
@@ -210,7 +212,7 @@
             - name: Insights add-in
               href: myanalytics/use/add-in.md
             - name: Use Insights
-              href: myanalytics/use/use-the-insights.md
+              href: myanalytics/use/use-the-insights.md          
         - name: Digests
           items:
             - name: Welcome
