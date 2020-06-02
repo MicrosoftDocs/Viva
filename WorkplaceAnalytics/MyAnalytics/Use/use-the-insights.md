@@ -23,7 +23,7 @@ The information in this section helps you get the most out of the following insi
 7.	[Catch up on documents](#catch-up-on-documents) 
 8.	[Add important people](#add-important-people)
 9.	[Set lunch hours](#set-lunch-hours)
-10.	[Plan your time away](#plan-your-time-away)
+10.	[Plan your time away](#plan-your-time-away) 
 11.	[Catch up with your team](#catch-up-with-your-team)
 12.	[Meeting suggestions](#meeting-suggestions)
 13.	[Check quiet hours impact](#check-quiet-hours-impact)
