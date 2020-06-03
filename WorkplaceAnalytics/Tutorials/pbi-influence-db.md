@@ -1,6 +1,6 @@
 ---
 
-title: Power BI Influence insights dashboard
+title: Power BI Influence insights
 description: Description, setup, and use of the Power BI Influence insights dashboard
 author: paul9955
 ms.author: v-pausch
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Influence insights dashboard
+# Power BI Influence insights
 
-Use the Power BI Influence insights dashboard to gain insights into influencers – people who are well connected in your company. This dashboard, which is populated by data from Workplace Analytics, lets you visualize and explore answers to the following business questions that leaders ask: 
+Use the Power BI Influence insights dashboard to gain insights into influencers – people who are well connected in your company. This dashboard, which is populated by data from Workplace Analytics, lets you visualize and explore answers to the following business questions that leaders ask:
 
 |Business question |Analysis |
 |-------------|------------------|

@@ -1,6 +1,6 @@
 ---
 
-title: Power BI Business continuity dashboard
+title: Power BI Business continuity
 description: Use the Business continuity dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: madehmer
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Business continuity dashboard
+# Power BI Business continuity
 
 You can use the Power BI Business continuity dashboard populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
 

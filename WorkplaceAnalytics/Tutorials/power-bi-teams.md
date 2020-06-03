@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Teams dashboard
-description: Use the Teams dashboard to visualize predefined query data from Workplace Analytics in Power BI
+description: Use the Power BI Teams insights dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: madehmer
 ms.topic: article
@@ -16,7 +16,7 @@ As employees shift to remote work and to digital only collaboration, Workplace A
 
 The Power BI Teams insights dashboard directionally highlights where a shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
-This dashboard enables you to visualize and explore your company’s current activity in Teams and learn how you can help your team be successful moving forward. The dashboard includes the following report pages:
+This dashboard enables you to visualize and explore your company’s current activity in Teams and learn how you can help your team be successful moving forward. The dashboard includes the following reports that answer these business questions:
 
 * **What does adoption look like so far?** - Shows how groups are adopting Teams for collaborating and productivity over time.
 * **Where can you focus training and education for Teams adoption?**– Shows who is using Teams and how much time they’re spending in Teams calls and instant messages. This gives you a holistic view of how different groups in your organization are currently using Teams and who could benefit from additional Teams training.
