@@ -41,8 +41,8 @@ The Meeting habits section highlights what your habits or practices are in meeti
    |![recur icon](../../Images/mya/use/recur-icon.png) |Represents a recurring meeting on your calendar. |
    |![person meeting icon](../../Images/mya/use/person-meeting-icon.png) | Represents a meeting organized by you. |
    |![recurring meeting by you icon](../../Images/mya/use/recur-byu-icon.png) | Represents a recurring meeting organized by you. |
-   |![checkmark icon](../../Images/mya/use/checkmark.png) | If a meeting has a check mark in a column, it met that specified meeting’s metric. For example, the meeting included an agenda or started on time. |
-   |![X icon](../../Images/mya/use/x-icon.png) | If a meeting has an X in a column, it did not meet that specified meeting’s metric. For example, the meeting did not include an agenda or did not start on time. |
+   |![checkmark icon](../../Images/mya/use/checkmark.png) | If a meeting has a check mark in a column, it met that specified meeting’s metric. For example, the meeting started on time. |
+   |![X icon](../../Images/mya/use/x-icon.png) | If a meeting has an X in a column, it did not meet that specified meeting’s metric. For example, the meeting did not start on time. |
    |![dash icon](../../Images/mya/use/dash-icon.png) | If a meeting has a dash in a column, the specified meeting metric was not applicable for that meeting. For example, the meeting was canceled, so starting on time was not applicable. |
    |![sort up icon](../../Images/mya/use/sort-up-icon.png)![sort down icon](../../Images/mya/use/sort-icon.png)  | Select a column name in the Meetings list to sort the list by that column in ascending or descending order. The sort icon will show up next to the column name that the list is sorted by. |
 
