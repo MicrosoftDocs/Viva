@@ -179,7 +179,7 @@ To maintain data privacy, only employees assigned the role of [Analyst](../use/u
 
 #### Q5 How do I know if I have the latest version of the template?
 
-Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#settings) page.
+Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#dashboard-settings) page.
 
 #### Q6 How do I set up and run a Workplace Analytics query?
 
