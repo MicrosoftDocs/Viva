@@ -1,6 +1,6 @@
 ---
 
-title: Power BI Business continuity dashboard
+title: Power BI Business continuity
 description: Use the Business continuity dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: madehmer
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Business continuity dashboard
+# Power BI Business continuity
 
 You can use the Power BI Business continuity dashboard populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
 
@@ -105,13 +105,9 @@ The Business Continuity dashboard is being updated on a frequent cadence to addr
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
-## Use the dashboard
+## Dashboard settings
 
-After the Business continuity dashboard is set up and populated with Workplace Analytics data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
-
-### Settings
-
-As a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Business continuity dashboard is set up and populated with Workplace Analytics data, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Earlier time frame** - This is the baseline for your analysis and all changes will be compared with this time frame.
 
@@ -124,12 +120,12 @@ As a first step to viewing data in the dashboard, view and set the following par
 
   ![Dashboard settings](../Images/WpA/Tutorials/bcd-settings.png)
 
-After confirming the settings, check the number of measured employees to confirm this the population you want to analyze.
+After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
 > [!Important]
 > As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
-## About the dashboard reports
+## About the reports
 
 The dashboard reports directionally highlight where a shift to remote work is having the largest impact. They also give you a measurable starting point for identifying where leaders can use tools and processes to support employees in a new way of working. All metrics are defined in the **Glossary**. A “why it matters” interpretation is also included in a text box for each report.
 
@@ -137,7 +133,7 @@ The following describes each report with specific nuances to consider for each.
 
 * **How are collaboration activities changing?** – Shows how employee collaboration patterns are changing in response to a shift in work patterns, and which collaboration tools people are substituting for in-person interactions.  
 * **What are the impacts of work-life integration? [1]** - Helps you assess if some employees are disproportionately affected. You can select from multiple values to view the percentage of employees whose collaboration hours increased or decreased by more than the specified number of hours.
-* **What are the impacts of work-life integration? [2]** - Shows changes in after-hours collaboration activity. You can select from multiple values to view the percentage of employees whose after-hours work increased or decreased by more than the specified number of hours.  You can also examine the activity by time of day for meetings, emails and instant messages. 
+* **What are the impacts of work-life integration? [2]** - Shows changes in after-hours collaboration activity. You can select from multiple values to view the percentage of employees whose after-hours work increased or decreased by more than the specified number of hours.  You can also examine the activity by time of day for meetings, emails and instant messages.
 * **Are external relationships being maintained?** - Quantifies changes in communication with customers, partners, and other people outside the organization.  
 * **Are employees engaged and connected?** - Unlike the other reports that show changes between the baseline and the current timeframes, *this report only shows metrics for the last two weeks of the current time frame*. This view enables you to assess if manager 1:1 meetings and organizational collaboration, which are keys to fostering employee engagement and community, are still occurring virtually.
 
@@ -183,7 +179,7 @@ To maintain data privacy, only employees assigned the role of [Analyst](../use/u
 
 #### Q5 How do I know if I have the latest version of the template?
 
-Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#settings) page.
+Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#dashboard-settings) page.
 
 #### Q6 How do I set up and run a Workplace Analytics query?
 
@@ -196,7 +192,6 @@ To use a different Organizational attribute:
 
 1. Select the visualization you want to change.  
 2. In the **Fields** pane, select and drag the Organizational attribute to the **Axis** section of the visualization.
-
 
 #### Q8 How do I integrate additional metrics or data sources with this dashboard?
 
