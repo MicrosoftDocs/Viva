@@ -23,7 +23,7 @@ This dashboard enables you to visualize and explore your company’s current act
 * **Are employees working after hours in Teams?** (best practices) – Shows average activity by time of day during and outside of the group’s set working hours. As collaboration moves digitally, it’s important to establish communication guidelines and boundaries to encourage employees to balance work and life and maintain good wellbeing.
 * **How can you build momentum as your company adopts Teams?** (best practices) – Shows how you can create opportunities for employees to make meaningful changes in their work patterns, including communication, wellbeing, and meeting culture recommendations and best practices.
 
-   ![Power BI Teams template](../Images/WpA/Tutorials/pbi-teams-intro.png)
+![Power BI Teams template](../Images/WpA/Tutorials/pbi-teams-intro.png)
 
 The dashboard also includes a **Summary of Key Metrics** page that shows opportunity indicators for remote work, such as Time in Teams, Teams usages, and Transitioning to Teams data and the **Glossary** page describes all the report metrics. It also includes a **Why it matters** interpretation on the report’s page.
 
