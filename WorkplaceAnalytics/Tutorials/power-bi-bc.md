@@ -197,7 +197,6 @@ To use a different Organizational attribute:
 1. Select the visualization you want to change.  
 2. In the **Fields** pane, select and drag the Organizational attribute to the **Axis** section of the visualization.
 
-
 #### Q8 How do I integrate additional metrics or data sources with this dashboard?
 
 See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
