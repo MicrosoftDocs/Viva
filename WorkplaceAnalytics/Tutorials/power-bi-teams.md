@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Teams dashboard
 description: Use the Power BI Teams insights dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
