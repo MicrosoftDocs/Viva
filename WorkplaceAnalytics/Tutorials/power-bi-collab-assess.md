@@ -36,11 +36,11 @@ The different pages in the report help you answer the following questions relati
 14. Are managers balancing oversight with employee empowerment and autonomy?
 15. What managerial behaviors predominate across the company and by organization?
 
-Every page in the report includes a **What to examine** and **Why it matters** interpretation that explain how to analyze the data to answer the business questions and how to use best practices to maintain or improve company collaboration patterns and employee engagement.
+Each report includes a **What to examine** and **Why it matters** interpretation that explain how to analyze the data to answer the business questions and how to use best practices to maintain or improve company collaboration patterns and employee engagement.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined Collaboration assessment and Standard meeting query in Workplace Analytics.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration assessment** and **Standard meeting** queries in Workplace Analytics.
 
-After you successfully run these required queries, you'll see the Power BI template as an available download option for the Collaboration assessment query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you can download the Power BI template for the Collaboration assessment query, which is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 ## Prerequisites
 
