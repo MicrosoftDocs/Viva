@@ -139,12 +139,12 @@ It’s important to note that while Workplace Analytics uses this Office 365 dat
 
 ### Privacy capabilities in your control
 
-First, you get to decide which users’ mailboxes to include in your Workplace Analytics study. Then, there are multiple controls you can use to further limit the data.
+First, you get to decide which users’ mailboxes to include in your Workplace Analytics study. Then, you can use multiple controls to further limit the data.
 
 * You can control whether analysts have access to email and calendar subject lines.
 * You can rule out all meetings and email by keywords (in subject lines) that you deem sensitive.
 * You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
-* You can rule out confidential or private email, or those that are rights protected using Microsoft's digital rights management technology.
+* You can rule out confidential or private email, or those that are rights protected by using Microsoft's digital rights management technology.
 
 To learn more about privacy, see [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 
