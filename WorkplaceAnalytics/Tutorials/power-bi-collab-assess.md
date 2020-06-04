@@ -61,19 +61,19 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Auto-refresh** - Leave this setting disabled because this template is not designed to track metrics over time
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
-> [!Important]
-> If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+  > [!Important]
+  > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
 
-> [!Important]
-> If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+  > [!Important]
+  > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. You must then locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the drop-down menu, contact your Workplace Analytics admin to confirm whether the field was included in the Organizational HR data file and made available in the query output.
 
-> [!Important]
-> You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
+  > [!Important]
+  > You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
 
 7. You can then select any additional attributes (columns) that you want to include in the reports.
 8. Select **Run** to run the query, which can take a few minutes to complete.
@@ -85,34 +85,34 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     * **Auto-refresh** – Leave this setting disabled because this template is not designed to track metrics over time
     * **Meeting exclusions** - Select the preferred rule for your tenant
 
-> [!Important]
-> If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+  > [!Important]
+  > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 11. Optionally, you can add a filter to limit the list of meetings included in the output file.
 
-> [!Important]
-> If you filtered the **Collaboration assessment** query to focus on a specific organization (or any other organizational attribute), you must use the same filter for this **Standard meeting** query to reflect the same population.
+  > [!Important]
+  > If you filtered the **Collaboration assessment** query to focus on a specific organization (or any other organizational attribute), you must use the same filter for this **Standard meeting** query to reflect the same population.
 
 12.	In **Organizational data**, keep the preselected **IsRecurring**, **Subject**, and **DurationHours** attributes that the dashboard requires.
 
-> [!Important]
-> If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+  > [!Important]
+  > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 13. You can then select any additional attributes (columns) that you want to include in the reports.
 14.	Select **Run** to run the query, which can take a few minutes to complete.
 15.	In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Collaboration assessment** query results, select **PBI template**, and then select **OK** to download the template.
 
-   ![Download the Power BI Collaboration assessment template](../Images/WpA/Tutorials/pbi-download-collab-assess.png)
+    ![Download the Power BI Collaboration assessment template](../Images/WpA/Tutorials/pbi-download-collab-assess.png)
 
 16.	Open the downloaded **Collaboration assessment Power BI template**.
 17. If prompted to select a program, select **Power BI**.
 18.	When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
-* In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
-* In Power BI, paste each copied link into its respective field.
-* Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
-* In **Manager indicator field**, enter the exact name of the organizational attribute that you selected in **Step 6**, which designates who in the organization is a people manager. If your organization has not uploaded this field in the organization data file, you don’t have to complete this field.
-* Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
+    * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    * In Power BI, paste each copied link into its respective field.
+    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    * In **Manager indicator field**, enter the exact name of the organizational attribute that you selected in **Step 6**, which designates who in the organization is a people manager. If your organization has not uploaded this field in the organization data file, you don’t have to complete this field.
+    * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
 19. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 20. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](#troubleshooting) for more details.
@@ -142,7 +142,7 @@ After confirming the settings, check the number of measured employees to confirm
 
 ## About the reports
 
-The Collaboration assessment dashboard includes the following report pages.
+The Collaboration assessment dashboard includes the following reports.
 
 **Collaboration culture**
 
@@ -251,15 +251,15 @@ However, the template might work with the earlier version of Power BI that you'r
 
 If you get the following error, you do not have the latest version of Power BI. However, the template might work with this earlier version. To test it, repeat the steps in the previous section.
 
-  ![Collaboration assessment error](../Images/WpA/Tutorials/pbi-collab-error.png)
+  ![Report layout error](../Images/WpA/Tutorials/bcd-report-error.png)
 
 #### OData request failed
 
-An error similar to the following can occur for one of the following reasons.
+The following error (or similar 500 error) can occur for one of the following reasons.
 
-  ![OData error](../Images/WpA/Tutorials/bcd-odata-error.png)
+![Collaboration assessment error](../Images/WpA/Tutorials/pbi-collab-error.png)
 
-* **If you were not prompted to sign in with your organizational account** while setting up the dashboard and Power BI fails to load the query data, follow these steps to clear existing permissions:
+To fix this, follow these steps to clear existing permissions:
 
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
   2. Select **Global permissions**, select `https://workplace.analytics.office.com`, and then select **Clear permissions**.

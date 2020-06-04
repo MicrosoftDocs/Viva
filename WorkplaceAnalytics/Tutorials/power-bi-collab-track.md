@@ -44,14 +44,14 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Auto-refresh** - Enable the setting
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
-> [!Important]
-> If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+   > [!Important]
+   > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires. You can then select any additional attributes (columns) that you want to include in the reports.
 
-> [!Important]
-> If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+   > [!Important]
+   > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which can take a few minutes to complete.
 7. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Collaboration tracker** query results, select **PBI template**, and then select **OK** to download the template.
@@ -59,10 +59,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 9. If prompted to select a program, select **Power BI**.
 10.	When prompted by Power BI:
 
-* In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for the Collaboration tracker query, and then select to copy the generated OData URL link.
-* In Power BI, paste the copied link into its respective field.
-* Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
-* Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
+    * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for the Collaboration tracker query, and then select to copy the generated OData URL link.
+    * In Power BI, paste the copied link into its respective field.
+    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
 11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](#troubleshooting) for more details.
@@ -97,21 +97,21 @@ After confirming the settings, check the number of measured employees to confirm
 
 The Collaboration tracker dashboard includes the following report pages that help you track how collaboration is affecting the KPIs of wellbeing, meeting culture, and manager effectiveness for employees.
 
-* **How have the KPIs evolved over time? – Shows trends for the key indicator categories, including the weekly average and the four-week rolling average values for the top collaboration metrics. Under Select trendlines to display at the upper right of the page, you can select to show only one or both averages in the charts. 
-* **How have KPIs changed in the last week? – Shows how collaboration in the key indicator categories have changed when comparing the most recent week’s four-week rolling average   with the previous rolling average. The colors of the number represent a change between the current week and the four-week rolling average. In Filter Organization, you can select one or more organizational groups to include in the data and the chart. In Filter Metrics, you can select a metric to view in the chart.
-* **How do organizations compare? – Charts the weekly collaboration averages for each organization by category. In the What to watch for section for each chart, explains how to interpret the chart data.
-* **Have any key scorecard metrics changed? – The scorecards use colors to represent the percentage changes or trend directions for the current time period as compared to the previous time period, which you set on the Settings page. Green represents a positive change, yellow represents no change   (or less than a five percent negative change), and red represents a negative change in the percentage or trend. The following scorecards list the weekly averages and their change percentages, which are based on the comparison of the weekly current period average with the previous time period.
+* **How have the KPIs evolved over time?** – Shows trends for the key indicator categories, including the weekly average and the four-week rolling average values for the top collaboration metrics. Under Select trend lines to display at the upper right of the page, you can select to show only one or both averages in the charts.
+* **How have KPIs changed in the last week?** – Shows how collaboration in the key indicator categories have changed when comparing the most recent week’s four-week rolling average   with the previous rolling average. The colors of the number represent a change between the current week and the four-week rolling average. In Filter Organization, you can select one or more organizational groups to include in the data and the chart. In Filter Metrics, you can select a metric to view in the chart.
+* **How do organizations compare?** – Charts the weekly collaboration averages for each organization by category. In the What to watch for section for each chart, explains how to interpret the chart data.
+* **Have any key scorecard metrics changed?** – The scorecards use colors to represent the percentage changes or trend directions for the current time period as compared to the previous time period, which you set on the Settings page. Green represents a positive change, yellow represents no change   (or less than a five percent negative change), and red represents a negative change in the percentage or trend. The following scorecards list the weekly averages and their change percentages, which are based on the comparison of the weekly current period average with the previous time period.
 
-  * **Wellbeing scorecard –Values are listed by organization for the key indicators that focus on wellbeing, including collaboration hours, after-hours work, and burnout risk.
-  * **Meeting culture scorecard –Values are listed by organization for the key indicators that focus on meeting culture, including reduce meeting hours, reduce lengthy meeting hours, and reduce bloated meetings.
-  * **Manager effectiveness scorecard –Values are listed by organization for the key indicators that focus on manager effectiveness, including increase manager 1:1 coaching, reduce manager coattendance, and increase coaching relationship.
+  * **Wellbeing scorecard** –Values are listed by organization for the key indicators that focus on wellbeing, including collaboration hours, after-hours work, and burnout risk.
+  * **Meeting culture scorecard** –Values are listed by organization for the key indicators that focus on meeting culture, including reduce meeting hours, reduce lengthy meeting hours, and reduce bloated meetings.
+  * **Manager effectiveness scorecard** –Values are listed by organization for the key indicators that focus on manager effectiveness, including increase manager 1:1 coaching, reduce manager coattendance, and increase coaching relationship.
 
-* **Are the KPIs trending in the right direction? – The charts on the left of these trend pages show how the different key indicators are trending by comparing weekly averages between the different organizational groups for the current time period. The charts on the right compare how the averages have changed between the current and baseline time periods. Each trend page also includes a Why it matters section that explains why the indicator is important to analyze.
+* **Are the KPIs trending in the right direction?** – The charts on the left of these trend pages show how the different key indicators are trending by comparing weekly averages between the different organizational groups for the current time period. The charts on the right compare how the averages have changed between the current and baseline time periods. Each trend page also includes a Why it matters section that explains why the indicator is important to analyze.
 
-  * **After-hours trends – Charts the weekly averages by organization for after-hours collaboration as compared to collaboration that occurred during working hours for the current time period. The other chart compares how employee averages by organization for after-hours collaboration have changed between the current and baseline time periods.
-  * **Lengthy meeting trends – Charts the weekly meeting averages for hours spent by organizational groups in lengthy meetings as compared to non-lengthy meeting hours spent in the current time period. The other chart shows how the averages have changed between the current and baseline time periods by organizational group. 
-  * **Bloated meeting trends – Charts the weekly meeting averages for hours spent by organizational groups in bloated meetings as compared to non-bloated  meeting hours spent in the current time period. The other chart shows how the averages have changed between the current and baseline time periods by organizational group.
-  * **Manager coaching trends – Charts the total number of employees by organizational group    who averaged n number of 1:1 meetings with their managers and met the goal of 60-minutes per month for the current time period. It compares managers who met and did not meet the 60-minute monthly goal. The other chart shows how the trend has changed by organizational group between the current and baseline time periods.
+  * **After-hours trends** – Charts the weekly averages by organization for after-hours collaboration as compared to collaboration that occurred during working hours for the current time period. The other chart compares how employee averages by organization for after-hours collaboration have changed between the current and baseline time periods.
+  * **Lengthy meeting trends** – Charts the weekly meeting averages for hours spent by organizational groups in lengthy meetings as compared to non-lengthy meeting hours spent in the current time period. The other chart shows how the averages have changed between the current and baseline time periods by organizational group.
+  * **Bloated meeting trends** – Charts the weekly meeting averages for hours spent by organizational groups in bloated meetings as compared to non-bloated  meeting hours spent in the current time period. The other chart shows how the averages have changed between the current and baseline time periods by organizational group.
+  * **Manager coaching trends** – Charts the total number of employees by organizational group    who averaged n number of 1:1 meetings with their managers and met the goal of 60-minutes per month for the current time period. It compares managers who met and did not meet the 60-minute monthly goal. The other chart shows how the trend has changed by organizational group between the current and baseline time periods.
   * **Co-attendance trends** – Charts the weekly meeting averages for hours spent by organizational groups in meetings that were attended by managers and their employees as compared to regular meeting hours where they didn’t attend the same meetings for the current time period. The other chart shows how the averages have changed between the current and baseline time periods by organizational group.
 
 The dashboard also includes an Example interventions page that has ideas on how to drive positive change with best practices based on industry insights and research. The Glossary page describes the metrics used in the different reports.
@@ -192,13 +192,13 @@ However, the template might work with the earlier version of Power BI that you'r
 
 If you get the following error, you do not have the latest version of Power BI. However, the template might work with this earlier version. To test it, repeat the steps in the previous section.
 
-  ![Collaboration assessment error](../Images/WpA/Tutorials/pbi-collab-error.png)
+  ![Report layout error](../Images/WpA/Tutorials/bcd-report-error.png)
 
 #### OData request failed
 
-An error similar to the following can occur for one of the following reasons.
+An error similar to the following (or other 500 error) can occur for one of the following reasons.
 
-  ![OData error](../Images/WpA/Tutorials/bcd-odata-error.png)
+  ![Collaboration assessment error](../Images/WpA/Tutorials/pbi-collab-error.png)
 
 * **If you were not prompted to sign in with your organizational account** while setting up the dashboard and Power BI fails to load the query data, follow these steps to clear existing permissions:
 
