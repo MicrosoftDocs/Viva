@@ -3,7 +3,7 @@
 title: Workplace Analytics privacy and data access
 description: Discusses the privacy and data access controls available in Workplace Analytics  
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: conceptual
 localization_priority: normal
 search.appverid:
@@ -94,7 +94,7 @@ Office 365 email, calendar, call, and instant message metadata provides the foun
 -->
 
 > [!Important]
-> Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private email and meetings are excluded altogether.
+> Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed, confidential, and private email and meetings are excluded altogether.
 
 ## Related topic
 
