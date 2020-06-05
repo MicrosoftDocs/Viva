@@ -19,7 +19,7 @@ This dashboard helps you track how collaboration is affecting the key performanc
 * **How have KPIs changed in the last week?** – Shows how collaboration in the key indicator categories have changed from last week’s rolling average as compared to the   previous weeks’ rolling average.
 * **How do organizations compare?** – Shows the collaboration averages per week for each organizational group for each key category.
 * **Have any key scorecard metrics changed?** – The scorecards for each of the key indicators show weekly averages by organizational group and the percentage change from the baseline to the current time period.
-* **Are trends moving in the right direction?** – The trend pages show how the key indicators are changing over time, including reducing after-hours work, lengthy, bloated, and coattended meetings and improving manager coaching.
+* **Are trends moving in the right direction?** – The trend pages show how the key indicators are changing over time, including improving manager coaching and reducing after-hours work, lengthy, bloated, and meetings attended by employees and their managers.
 
 The dashboard also includes an **Example interventions** page that has ideas on how to drive positive change with best practices based on industry insights and research. The **Glossary** page describes the metrics used in the different reports.
 
