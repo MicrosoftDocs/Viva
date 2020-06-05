@@ -19,7 +19,7 @@ This dashboard helps you track how collaboration is affecting the key performanc
 * **How have KPIs changed in the last week?** – Shows how collaboration in the key indicator categories have changed from last week’s rolling average as compared to the   previous weeks’ rolling average.
 * **How do organizations compare?** – Shows the collaboration averages per week for each organizational group for each key category.
 * **Have any key scorecard metrics changed?** – The scorecards for each of the key indicators show weekly averages by organizational group and the percentage change from the baseline to the current time period.
-* **Are trends moving in the right direction?** – The trend pages show how the key indicators are changing over time, including reducing after-hours work, lengthy, bloated, and coattended meetings and improving manager coaching.
+* **Are trends moving in the right direction?** – The trend pages show how the key indicators are changing over time, including improving manager coaching and reducing after-hours work, lengthy, bloated, and meetings attended by employees and their managers.
 
 The dashboard also includes an **Example interventions** page that has ideas on how to drive positive change with best practices based on industry insights and research. The **Glossary** page describes the metrics used in the different reports.
 
@@ -104,7 +104,7 @@ The Collaboration tracker dashboard includes the following report pages that hel
 
   * **Wellbeing scorecard** –Values are listed by organization for the key indicators that focus on wellbeing, including collaboration hours, after-hours work, and burnout risk.
   * **Meeting culture scorecard** –Values are listed by organization for the key indicators that focus on meeting culture, including reduce meeting hours, reduce lengthy meeting hours, and reduce bloated meetings.
-  * **Manager effectiveness scorecard** –Values are listed by organization for the key indicators that focus on manager effectiveness, including increase manager 1:1 coaching, reduce manager coattendance, and increase coaching relationship.
+  * **Manager effectiveness scorecard** –Values are listed by organization for the key indicators that focus on manager effectiveness, including increasing manager 1:1 coaching, reducing meetings where employees and their managers attend, and improving coaching relationships.
 
 * **Are the KPIs trending in the right direction?** – The charts on the left of these trend pages show how the different key indicators are trending by comparing weekly averages between the different organizational groups for the current time period. The charts on the right compare how the averages have changed between the current and baseline time periods. Each trend page also includes a Why it matters section that explains why the indicator is important to analyze.
 
