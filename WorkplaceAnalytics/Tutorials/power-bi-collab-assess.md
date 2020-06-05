@@ -61,19 +61,19 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Auto-refresh** - Leave this setting disabled because this template is not designed to track metrics over time
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
-  > [!Important]
-  > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+   > [!Important]
+   > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
 
-  > [!Important]
-  > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+   > [!Important]
+   > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. You must then locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the drop-down menu, contact your Workplace Analytics admin to confirm whether the field was included in the Organizational HR data file and made available in the query output.
 
-  > [!Important]
-  > You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
+   > [!Important]
+   > You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
 
 7. You can then select any additional attributes (columns) that you want to include in the reports.
 8. Select **Run** to run the query, which can take a few minutes to complete.
@@ -85,18 +85,18 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     * **Auto-refresh** – Leave this setting disabled because this template is not designed to track metrics over time
     * **Meeting exclusions** - Select the preferred rule for your tenant
 
-  > [!Important]
-  > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+    > [!Important]
+    > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 11. Optionally, you can add a filter to limit the list of meetings included in the output file.
 
-  > [!Important]
-  > If you filtered the **Collaboration assessment** query to focus on a specific organization (or any other organizational attribute), you must use the same filter for this **Standard meeting** query to reflect the same population.
+    > [!Important]
+    > If you filtered the **Collaboration assessment** query to focus on a specific organization (or any other organizational attribute), you must use the same filter for this **Standard meeting** query to reflect the same population.
 
 12.	In **Organizational data**, keep the preselected **IsRecurring**, **Subject**, and **DurationHours** attributes that the dashboard requires.
 
-  > [!Important]
-  > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+    > [!Important]
+    > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 13. You can then select any additional attributes (columns) that you want to include in the reports.
 14.	Select **Run** to run the query, which can take a few minutes to complete.
@@ -142,7 +142,7 @@ After confirming the settings, check the number of measured employees to confirm
 
 ## About the reports
 
-The Collaboration assessment dashboard includes the following reports.
+The Collaboration assessment dashboard includes the following report pages that help you assess your company's collaboration culture and employee experience.
 
 **Collaboration culture**
 
