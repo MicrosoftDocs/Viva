@@ -136,6 +136,8 @@
                   href: ~/tutorials/pbi-influence-db.md
                 - name: Power BI Teams insights
                   href: ~/tutorials/power-bi-teams.md
+                - name: Power BI Collaboration assessment
+                  href: ~/tutorials/power-bi-collab-assess.md
                 - name: Power BI Collaboration tracker
                   href: ~/tutorials/power-bi-collab-track.md
                 - name: Customize a metric

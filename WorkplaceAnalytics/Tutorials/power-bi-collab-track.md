@@ -196,7 +196,7 @@ If you get the following error, you do not have the latest version of Power BI. 
 
 #### OData request failed
 
-An error similar to the following can occur for one of the following reasons.
+An error similar to the following (or other 500 error) can occur for one of the following reasons.
 
   ![Collaboration assessment error](../Images/WpA/Tutorials/pbi-collab-error.png)
 
