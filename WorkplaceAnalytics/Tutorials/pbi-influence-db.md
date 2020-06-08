@@ -34,7 +34,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Set up the dashboard
 
-This dashboard requires results that two queries produce. For this reason, you first run one query (**Influence insights**), and then you repeat some steps to run the second query, the **Standard person** query.  
+This dashboard requires results from two queries. For this reason, in the following procedure, you first run one query (**Influence insights**), and then you repeat some steps to run the second query, the **Standard person** query.  
 
 1.	In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 
