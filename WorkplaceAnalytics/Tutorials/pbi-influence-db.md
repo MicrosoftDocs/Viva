@@ -34,18 +34,21 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Set up the dashboard
 
+This dashboard requires information that is produced by two queries. For this reason, you perform some steps to run the first query (**Influence insights**) and you perform some of steps a second time to run the second query (**Standard person** query).  
+
 1.	In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2.	Under **Start from preselected filters and metrics**, select **Influence Insights** (or select **Standard query** per Step 7) to open the predefined query, which contains the required metrics to populate the dashboard.
+
+2.	Under **Start from preselected filters and metrics**, select **Influence insights** (or select **Standard person query**, per Step 7) to open the predefined query, which contains the required metrics to populate the dashboard.
 
     ![Influence insights queries](../Images/WpA/Tutorials/influence-insights-step-2.png)
  
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
-   * **Group by** - Month
+   * **Group by** - Select **Aggregated** for the **Influence insights** query; select **Month** for the **Standard person** query. 
    * **Time period** - Last 6 months
    * **Auto-refresh** - Enable the setting
-   * **Meeting exclusions** - This choice is currently not available.
+   * **Meeting exclusions** - This choice is not available for the **Influence insights** query. You can select a meeting exclusion rule for the **Standard person** query.
 
    > [!Important]
    > * The dashboard can show you how a disruption can change your influencers’ work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after the disruption.
@@ -60,12 +63,18 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > If you remove any of the required, preselected organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query. This might take several minutes to complete.
-7. Repeat **Steps 2-6** for the **Standard query** query, which requires the same selections that you made for the Influence insights query. You can also specify a meeting exclusion rule. Note that you must set the auto-refresh option for the Standard query to "on."
-8. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Influence Insights** query results, select **PBI template**, and then select **OK** to download the template.
+
+7. Repeat **Steps 2-6**; this time, specify the **Standard person query**. Make the same selections that you made for the Influence insights query but with the following exceptions:
+
+    * You can also specify a meeting exclusion rule.
+    * You must set the auto-refresh option for the Standard query to "on." 
+    * For **Group by**, specify **Aggregated**.
+
+8. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Influence insights** query results, select **PBI template**, and then select **OK** to download the template.
 
    ![Influence insights template download](../Images/WpA/Tutorials/influence-insights-step-8.png)
 
-9. Open the downloaded **Influence Insights Power BI template**.
+9. Open the downloaded **Influence insights Power BI template**.
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
@@ -193,7 +202,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
    ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
 
 2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
-3. Select the **Influence Insights** query.
+3. Select the **Influence insights** query.
 4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
 5. Select the **Standard query** query and repeat Steps 3-4 to filter out empty values.
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
