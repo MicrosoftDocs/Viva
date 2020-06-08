@@ -34,7 +34,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Set up the dashboard
 
-This dashboard requires information that is produced by two queries. For this reason, you perform some steps to run the first query (**Influence insights**) and you perform some of steps a second time to run the second query (**Standard person** query).  
+This dashboard requires results that two queries produce. For this reason, you first run one query (**Influence insights**), and then you repeat some steps to run the second query, the **Standard person** query.  
 
 1.	In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 
@@ -44,11 +44,15 @@ This dashboard requires information that is produced by two queries. For this re
  
 3. Select or confirm the following query settings:
 
-   * **Name** - Customize or keep the default name
-   * **Group by** - Select **Aggregated** for the **Influence insights** query; select **Month** for the **Standard person** query. 
-   * **Time period** - Last 6 months
-   * **Auto-refresh** - Enable the setting
-   * **Meeting exclusions** - This choice is not available for the **Influence insights** query. You can select a meeting exclusion rule for the **Standard person** query.
+   * **Name**: Customize or keep the default name
+   * **Group by**: 
+     * When you configure the **Influence insights** query, select **Aggregated**.
+     * When you configure the **Standard person** query, select **Month**. 
+   * **Time period**: Last 6 months
+   * **Auto-refresh**: Turn **Auto-refresh** on.
+   * **Meeting exclusions**:
+      * When you configure the **Influence insights** query, this choice is not available.
+      * When you configure the **Standard person** query, select a meeting exclusion rule.
 
    > [!Important]
    > * The dashboard can show you how a disruption can change your influencers’ work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after the disruption.
@@ -64,11 +68,7 @@ This dashboard requires information that is produced by two queries. For this re
 
 6. Select **Run** to run the query. This might take several minutes to complete.
 
-7. Repeat **Steps 2-6**; this time, specify the **Standard person query**. Make the same selections that you made for the Influence insights query but with the following exceptions:
-
-    * You can also specify a meeting exclusion rule.
-    * You must set the auto-refresh option for the Standard query to "on." 
-    * For **Group by**, specify **Aggregated**.
+7. Repeat **Steps 2-6**; this time, specify the **Standard person query**. Make the same selections that you made for the Influence insights query but with the exceptions noted in step 3.
 
 8. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Influence insights** query results, select **PBI template**, and then select **OK** to download the template.
 
