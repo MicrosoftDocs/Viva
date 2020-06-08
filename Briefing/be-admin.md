@@ -21,6 +21,8 @@ As the admin, you can configure Briefing email for your organization at the user
 
 Confirm the following before configuring access:
 
+* **Exchange or Global admin role** - You must have either an Exchange Administrator or a Global Administrator role to configure users for Briefings.
+* **.NET Framework** - You must have [].NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or the latest available version installed.
 * **Licensed users only** - Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
 * **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
