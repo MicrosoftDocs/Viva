@@ -19,7 +19,7 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Join Datasets Template that enables you to securely join, group, and aggregate data exported from Workplace Analytics with other third-party data sources, such as sensitive, personnel data or HR data that you want to combine and analyze. This template enforces the same data privacy settings that you set in Workplace Analytics, such as minimum group size, data exclusions, and other [privacy settings](../use/settings.md#privacy-settings).
 
-Joining datasets opens up unique and interesting possibilities, such as engagement survey results or sales quota attainment. This can give you new insights into how work gets done and what drives performance.
+Joining datasets opens up unique and interesting possibilities, such as engagement survey results or sales quota attainment. This gives you new insights into how work gets done and what drives performance.
 
 However, a barrier to adoption centers around privacy and sensitivity of the data that stems from prevailing unstructured practices of joining sensitive data, which operate mostly on a trust basis. The template allows the owner of the sensitive data (Workplace Analytics and Engagement survey results) to share these files with a trusted person who creates a join dataset with local mapping keys.
 
