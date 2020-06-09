@@ -3,7 +3,7 @@
 title: Power BI templates
 description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
 author: paul9955
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -17,9 +17,9 @@ Workplace Analytics Queries has a number of predefined query templates available
 
    ![Power BI logo in query card](../Images/WpA/tutorials/pbi-cards.png)
 
-As an example, the following steps you through how to identify areas of collaboration overload in your organization with the Collaboration Overload query.
+As an example, the following steps you through how to identify areas of collaboration overload in your organization with the Collaboration overload query.
 
-**To use the Collaboration Overload Power BI template**
+**To use the Power BI Collaboration overload template**
 
 1. In Workplace Analytics, select **Analyze** > **Queries**.
 2. Select **Collaboration Overload** to open this predefined query, which has all the required metrics to populate the Power BI template.
@@ -77,4 +77,4 @@ As an example, the following steps you through how to identify areas of collabor
 ## Related topics
 
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)
-* [Power BI Business Continuity Dashboard](../tutorials/power-bi-bc.md)
+* [Power BI Business continuity dashboard](../tutorials/power-bi-bc.md)
