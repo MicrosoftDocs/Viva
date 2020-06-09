@@ -126,8 +126,8 @@
                   items: 
                     - name: ONA person queries
                       href: ~/tutorials/ona-person-query.md 
-                    - name: ONA Person-to-person queries
-                      href: ~/tutorials/ona-p2p-query.md                       
+                    - name: ONA person-to-person queries
+                      href: ~/tutorials/ona-person-to-person-query.md                       
                 - name: Power BI templates
                   href: ~/tutorials/power-bi-templates.md
                 - name: Power BI Business continuity
