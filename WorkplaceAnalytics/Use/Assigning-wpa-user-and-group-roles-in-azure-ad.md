@@ -12,6 +12,7 @@ ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
+
 ---
 
 # Assign Workplace Analytics user and group roles in Azure Active Directory
