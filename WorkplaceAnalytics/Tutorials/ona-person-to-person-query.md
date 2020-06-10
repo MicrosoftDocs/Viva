@@ -9,27 +9,27 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Organizational network analysis (ONA) person queries
+# Organizational network analysis (ONA) person-to-person queries
 
-It's frequently necessary to implement changes within organizations, whether this be introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change – perhaps starting with mass emails – it’s not always the most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.   
+Measuring the quality, or strength, of an employee’s connections can help improve organizational functioning in various ways. For example, a manager’s effectiveness improves if the manager has high network strength. Such managers have tight connections with their direct reports, they tend to have strong peer connections, and they have the right kind of connections outside the team. Well-connected managers know how to point inquisitive employees to the right people in their network, and makes it more likely that these employees become star performers, which of course reflects positively on the manager. 
 
-Instead, a more successful strategy uses change agents -- influential, well-connected people who are positioned at various levels within the hierarchy, not just at the top. Beyond an organization’s formal hierarchy there also exist informal networks; individuals can exert influence within those networks and between them. The most influential people are the ones who have large personal networks – that is, above-average numbers of relationships with colleagues.
+As for non-managers, the most effective employees also excel in part because of strong and rich networks. When high performers have broader internal networks, it indicates that they have relationships across a more diverse set of people, which promotes system-level thinking and problem solving. 
 
-Therefore, to help implement change, it pays to know who the influencers are. The Workplace Analytics ONA query was designed for this purpose. It can help you find out who the best-connected people in the company are. It bases this determination on their collaboration characteristics.
+The ONA person-to-person query measures the strength of connections through these two metrics:
 
-This query type lets analysts use a metric called [Influence](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). This metric is a score of how well connected you are in the company. It acts recursively: if you’re connected to others who are well connected, you benefit from their connections as well. After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can connect effectively within or across groups and become efficient drivers of change. 
+The **Strong ties** metric measures how many strong and how tight are the engagements that the person has had. A strong tie between a manager and a direct report reflects the amount of direct collaboration they have over time. Typically, a person has only a few strong ties because they take some effort to maintain. 
 
-Also see [How Workplace Analytics calculates influence](#how-workplace-analytics-calculates-influence).
+The **Diverse ties** metric measures how varied and how broad are the person’s connections. Do they span the entire company? Beyond? A person need not have much direct collaboration with their diverse ties, so it’s easy to have more diverse ties than strong ties. Diverse ties present  good sources of fresh and varied information from across the company.
 
-## Run a query to determine Influence
+## Run a query to determine Strong ties and Diverse ties
 
 **Role:** analyst
 
 1.	In Workplace Analytics, select **Analyze > Queries**.
 
-2.	Under **Start custom query**, select **Network: Person**:
+2.	Under **Start custom query**, select **Network: Person-to-person**:
 
-    ![ONA person query](../images/wpa/tutorials/person-ona-query.png)
+    ![ONA p2p query](../images/wpa/tutorials/ona-p2g-query.png)
 
 3.	Select and change **Enter query name here** to a name, and then enter a description for the query.
 4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
@@ -37,7 +37,7 @@ Also see [How Workplace Analytics calculates influence](#how-workplace-analytics
     > [!Note] 
     > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.   
 
-5.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
+5.	Under **Select metrics**, select **Strong and Diverse tie scores**. 
 6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
 7.	Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
 8.	Select **Run**. The query takes a few minutes to complete. 
@@ -46,28 +46,33 @@ Also see [How Workplace Analytics calculates influence](#how-workplace-analytics
 > [!Note] 
 > You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
-## ONA query output
+## ONA person-to-person query output
 
-The following columns are included in the query results for ONA queries:
+The query results show the quality of the relationship between two specific (but de-identified) people. Each row shows the information for a pair of people between whom a tie exists, or existed, over the time period of the query. 
 
- * **Person ID.** De-identified ID number for the person represented in that data row.
-  * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
- * **Person attributes.** Attributes about the person supplied through the latest organizational (HR) data upload.
- * **Metrics.** Any metrics that you include in the query. For more information, see [Metric definition: Influence](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
+![ONA p2p query](../images/wpa/tutorials/ona-p2g-query-results-2.png)
 
+The following columns are included in the query results for ONA person-to-person queries:
 
-## How Workplace Analytics calculates influence
+* **TieOrigin_PersonId.** De-identified ID number for the person represented in that data row.
+* **Person attributes.** Organizational attributes about the person who was identified by TieOrigin_PersonId. These are the organizational attributes that you selected as you built the query. The column names for these attributes are "TieOrigin_" followed by the organizational attribute name. These example results show the columns TieOrigin_FunctionType, TieOrigin_Organization, and Tie_Origin_LevelDesignation.  
+* **TieDestination_PersonId.** De-identified ID number for the person who has a strong or diverse tie to the person represented by TieOrigin_PersonId. 
+* **Person attributes.** Organizational attributes about the person who was identified by TieDestination_PersonId. These are the organizational attributes that you selected as you built the query. The column names for these attributes are "TieDestination_" followed by the organizational attribute name. These example results show the columns TieDestination_FunctionType, TieDestination_Organization, and Tie_Destination_LevelDesignation.  
+* **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
+* **Metrics.** The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
+   
+   The results for this query type always include the following metrics:
 
-The terminology in the following description comes from graph theory. In graph theory, a "node" (also called a "vertex") is an object that can relate to other nodes -- other objects -- in the graph. This model becomes useful when we extend it to the workplace, where a "node" represents a person who has connections to co-workers and others.  
-
-Influence indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
-
-The most meaningful information to glean from Influence is the rank of the nodes. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
-
+  * **StrongTieScore.** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. <!--In the example results shown, sorting on this column showed that one director in the financial-planning organization within Sales has, not surprisingly, a very strong tie with a manager in the financial-planning organization within Sales. It could be that the manager reports to the director and this is a natural, even expected, relationship.--> 
+  * **DiverseTieScore.** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals.  
+  * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a strong tie -– roughly, the top 10% of ties, by strength. A 2 indicates a tie that is significant but less strong. A 0 indicates a tie that's not that strong. 
+  * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. IT contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a diverse tie –- roughly, the top 10% of ties, by diversity. A 2 indicates a tie that is significant but less diverse. A 0 indicates a tie that’s not that diverse.
 
 ## Related topics
 
-[Metric descriptions](../use/metric-definitions.md)
+[ONA person queries](ona-person-query.md)
+
+[Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics)
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
 
