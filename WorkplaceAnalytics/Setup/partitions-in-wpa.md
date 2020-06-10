@@ -41,7 +41,7 @@ One particular partition encompasses everyone’s data: the "Global" partition. 
 
 ## Use partitions
 
-If you are an analyst, you must have a partition selected to be able to go to **Explore** and **Queries**. If you are a program or group manager, you work in the Global partition by default and you can go right to **Plans** to manage programs. If you are an admin, you create partitions, but you do not work within one.
+If you are an analyst, you must have a partition selected to be able to go to **Explore** and **Queries**. If you are a program manager or group manager, you work in the Global partition by default and you can go right to **Plans** to manage programs. If you are an admin, you create partitions, but you do not work within one.
 
 ### To use a partition
 
