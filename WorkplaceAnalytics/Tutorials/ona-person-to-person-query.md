@@ -17,9 +17,9 @@ As for non-managers, the most effective employees also excel in part because of 
 
 The ONA person-to-person query measures the strength of connections through these two metrics:
 
-The **Strong ties** metric measures how many strong and how tight are the engagements that the person has had. A strong tie between a manager and a direct report reflects the amount of direct collaboration they have over time. Typically, a person has only a few strong ties because they take some effort to maintain. 
-
-The **Diverse ties** metric measures how varied and how broad are the person’s connections. Do they span the entire company? Beyond? A person need not have much direct collaboration with their diverse ties, so it’s easy to have more diverse ties than strong ties. Diverse ties present  good sources of fresh and varied information from across the company.
+The **Strong ties** metric measures how many strong and tight engagements the person has had. For example, a "strong tie" between a manager and a direct report reflects the amount of direct collaboration they have over time. Typically, a person has only a few strong ties because such ties take more effort to maintain. 
+ 
+The **Diverse ties** metric measures how varied and how broad the person's connections are. A person need not have much direct collaboration with their diverse ties, so it’s easy to have more diverse ties than strong ties. Diverse ties present good sources of fresh and varied information from across the company.
 
 ## Run a query to determine Strong ties and Diverse ties
 
@@ -52,12 +52,12 @@ The query results show the quality of the relationship between two specific (but
 
 ![ONA p2p query](../images/wpa/tutorials/ona-p2g-query-results-2.png)
 
-The following columns are included in the query results for ONA person-to-person queries:
+The following columns appear, from left toright, in the query results for ONA person-to-person queries:
 
 * **TieOrigin_PersonId.** De-identified ID number for the person represented in that data row.
-* **Person attributes.** Organizational attributes about the person who was identified by TieOrigin_PersonId. These are the organizational attributes that you selected as you built the query. The column names for these attributes are "TieOrigin_" followed by the organizational attribute name. These example results show the columns TieOrigin_FunctionType, TieOrigin_Organization, and Tie_Origin_LevelDesignation.  
+* **Person attributes.** Organizational attributes about the person who was identified by TieOrigin_PersonId. These are the organizational attributes that you selected as you built the query. The column names for these attributes are "TieOrigin_" followed by the organizational attribute name. The example results show the columns TieOrigin_FunctionType, TieOrigin_Organization, and Tie_Origin_LevelDesignation.  
 * **TieDestination_PersonId.** De-identified ID number for the person who has a strong or diverse tie to the person represented by TieOrigin_PersonId. 
-* **Person attributes.** Organizational attributes about the person who was identified by TieDestination_PersonId. These are the organizational attributes that you selected as you built the query. The column names for these attributes are "TieDestination_" followed by the organizational attribute name. These example results show the columns TieDestination_FunctionType, TieDestination_Organization, and Tie_Destination_LevelDesignation.  
+* **Person attributes.** Organizational attributes about the person who was identified by TieDestination_PersonId. These are the organizational attributes that you selected as you built the query. The column names for these attributes are "TieDestination_" followed by the organizational attribute name. The example results show the columns TieDestination_FunctionType, TieDestination_Organization, and Tie_Destination_LevelDesignation.  
 * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
 * **Metrics.** The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
    

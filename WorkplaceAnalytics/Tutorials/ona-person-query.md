@@ -67,7 +67,9 @@ The most meaningful information to glean from Influence is the rank of the nodes
 
 ## Related topics
 
-[Metric descriptions](../use/metric-definitions.md)
+[ONA person-to-person queries](ona-person-to-person-query.md)
+
+[Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics)
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
 
