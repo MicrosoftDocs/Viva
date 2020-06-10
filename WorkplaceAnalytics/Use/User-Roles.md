@@ -30,13 +30,9 @@ These are the Workplace Analytics roles and their level of access:
 >[!Note]
 >User roles are each distinct in their assigned responsibilities and access permissions. Each user role only gives access to actions, pages, dashboards, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and do not roll up.
 
-## Details by user role
+## User access
 
-The following tables provide more details about Workplace Analytics user roles:
-
-### Access to pages in Workplace Analytics
-
-Each role has access to specific pages of Workplace Analytics as described here:
+The following shows who can access what in Workplace Analytics.
 
 |  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program manager | Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
@@ -53,7 +49,7 @@ Each role has access to specific pages of Workplace Analytics as described here:
 
 ### Functions performed
 
-People in these roles perform the following functions in Workplace Analytics:
+The following shows who can do what in Workplace Analytics.
 
 |  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
@@ -65,7 +61,7 @@ People in these roles perform the following functions in Workplace Analytics:
 
 ### Levels of responsibility
 
-People who are assigned to any Workplace Analytics user roles should ideally have previous experience in similar roles. Preferably, they should have previously undergone security and privacy training in handling sensitive data.
+People with access to Workplace Analytics should ideally have previous experience for their level of access. Preferably, they should have previously undergone security and privacy training in handling sensitive data.
 
 | Access level | Administrator |  Analyst | Analyst (Limited Access) | Program manager | Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |-------| ---- |
@@ -76,7 +72,7 @@ People who are assigned to any Workplace Analytics user roles should ideally hav
 
 ### Suggested personas
 
-Consider the following personas for each of the Workplace Analytics user roles:
+Consider the following personas when granting the different levels of access to Workplace Analytics.
 
 | Persona | Administrator | Analyst | Analyst (Limited Access) | Program manager |Manager |
 | ------ | ----------- | ------- | ------- | ------ | ------ |
@@ -100,8 +96,8 @@ The size of your organization and your requirements for managing organizational 
 
 You can assign multiple Workplace Analytics roles to one person. It's up to your organization to choose who is assigned which role or roles. Examples:
 
- * One person can be both an Office 365 admin and a Workplace Analytics admin.
- * One person can be both a Workplace Analytics admin and a Workplace Analytics analyst. It is best practice, however, to assign the admin and analyst roles to different people to prevent any misuse of or external linking to organizational data with collaboration metrics.
+* One person can be both an Office 365 admin and a Workplace Analytics admin.
+* One person can be both a Workplace Analytics admin and a Workplace Analytics analyst. It is best practice, however, to assign the admin and analyst roles to different people to prevent any misuse of or external linking to organizational data with collaboration metrics.
 
 In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Workplace Analytics is performed in the Azure Portal and not in the Office 365 dashboard.)
 
