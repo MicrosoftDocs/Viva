@@ -3,7 +3,7 @@
 title: Power BI Collaboration assessment
 description: Use the Collaboration assessment dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -23,7 +23,7 @@ The different pages in the report help you answer the following questions relati
 4. How much time is going toward long or large meetings?
 5. Who in the organization is generating the most workload by organizing meetings?
 6. Can employees reclaim focus time through ‘compact’ scheduling practices?
-7. Is multitasking during meetings driven by habit or necessity?
+7. Is multitasking during meetings driven by habit or by necessity?
 8. Which recurring meetings might present streamlining opportunities?
 9. Are there opportunities to drive greater agility in emailing practices?
 
