@@ -1,20 +1,20 @@
 ---
 
-title: Workplace Analytics insights for people managers
+title: Workplace Analytics insights for managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Workplace Analytics insights for people managers
+# Workplace Analytics manager insights
 
 > [!Note]
-> Only managers assigned the **Group manager** role in Workplace Analytics can see these insights.
+> Only managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see their team's data in Workplace Analytics.
 
-As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
+As a manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
 
 Use the following available information to lead your team toward more effective business outcomes:
 
@@ -63,7 +63,7 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 
 ### Q1 Which roles have access to this manager insights page?
 
-Only managers assigned the **Group manager** role in Workplace Analytics can see insights about their teams.
+Only managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see insights about their teams.
 
 ### Q2 Who is included as a measured employee?
 

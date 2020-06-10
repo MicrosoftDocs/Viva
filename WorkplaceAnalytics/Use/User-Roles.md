@@ -38,7 +38,7 @@ The following tables provide more details about Workplace Analytics user roles:
 
 Each role has access to specific pages of Workplace Analytics as described here:
 
-|  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program manager | Group manager |
+|  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program manager | Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
 | **Home** | View highlights from the latest data; see the latest notifications | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |<img src="../Images/WpA/check-mark.png"> (team only)|
 | **Analyze** |
@@ -55,7 +55,7 @@ Each role has access to specific pages of Workplace Analytics as described here:
 
 People in these roles perform the following functions in Workplace Analytics:
 
-|  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |Group manager |
+|  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
 | Configure system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png">| | | |
 | Upload organizational data into the system | <img src="../Images/WpA/check-mark.png"> | | | |
@@ -67,7 +67,7 @@ People in these roles perform the following functions in Workplace Analytics:
 
 People who are assigned to any Workplace Analytics user roles should ideally have previous experience in similar roles. Preferably, they should have previously undergone security and privacy training in handling sensitive data.
 
-| Access level | Administrator |  Analyst | Analyst (Limited Access) | Program manager | Group manager |
+| Access level | Administrator |  Analyst | Analyst (Limited Access) | Program manager | Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |-------| ---- |
 | Ability to view personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png"> | | | |
 | Ability to view de-identified, individual-level data:<ol><li>Organization data (HR fields such as level or organization)</li><li>Office 365 data (metrics about collaboration time and relationships)</li></ol> | | <img src="../Images/WpA/check-mark.png"> | | |
@@ -78,7 +78,7 @@ People who are assigned to any Workplace Analytics user roles should ideally hav
 
 Consider the following personas for each of the Workplace Analytics user roles:
 
-| Persona | Administrator | Analyst | Analyst (Limited Access) | Program manager |Group manager |
+| Persona | Administrator | Analyst | Analyst (Limited Access) | Program manager |Manager |
 | ------ | ----------- | ------- | ------- | ------ | ------ |
 | Executive/business leader | | | <img src="../Images/WpA/check-mark.png"> |   | |
 | Program manager | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |
@@ -111,5 +111,6 @@ The analyst (limited access) role is for an analyst who needs access only to the
 
 ## Related topics
 
+* [Manager settings](../use/settings.md#manager-settings)
 * [What is Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
 * [Managing access to resources with Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups)
