@@ -203,9 +203,9 @@ To fix it, follow these steps:
 
 Power BI cannot complete a data join if data values are missing in the Organization or Level Designation tables. To validate this error:
 
-1. In the **Fields** pane in Power BI, look for an **error** (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error, such as the following about blank values, select the field with the error to view it.
+1. In the **Fields** pane in Power BI, look for an **error** (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error about blank values similar to the following, select the field with the error to view it.
 
-   ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
+   **Blank-value error**: Column in Table contains blank values and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
 
 2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
 3. Select the **Business Continuity** query.
