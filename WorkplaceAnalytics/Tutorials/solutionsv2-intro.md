@@ -41,7 +41,7 @@ Workplace Analytics currently offers plans of the following types:
 
 See the following topics to learn how to create and track plans:
 
- * [Walkthough](solutionsv2-task.md) - Follow these steps to create a plan.
+ * [Walkthrough](solutionsv2-task.md) - Follow these steps to create a plan.
  * [Participants](solutionsv2-participants.md) - Learn about the experience of participants in a plan.
  * [Concepts](solutionsv2-conceptual.md) - Learn concepts whose understanding can help you create a plan and monitor its progress.
 
@@ -53,7 +53,9 @@ Confirm that your organization meets the following prerequisites:
 * Identify who in your organization to assign one of the following roles:
 
   * **Analyst**, **limited analyst**, or **program manager** - Both analysts and program managers can help identify opportunities for change plans, set up plans, run and track them, and measure plan ROI.  
-  * **Group manager** - These managers can set up, run, and track plans for their team, which includes employees who report directly or indirectly to that manager within their organization's reporting hierarchy.
+
+>[!Note]
+>Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/settings.md#manager-settings).
 
 <!-- RECONSTITUTE THE SECTION "WHEN MULTIPLE ROLES ARE ASSIGNED"
    > [!Note]

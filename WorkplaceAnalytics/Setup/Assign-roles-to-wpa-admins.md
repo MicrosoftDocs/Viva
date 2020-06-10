@@ -40,5 +40,5 @@ See [Assign user or group roles in Azure Active Directory](../Use/Assigning-wpa-
 
 ## Related topic
 
-[User roles](../use/user-roles.md)
-[Manager settings](../use/settings.md#manager-settings)
+* [User roles](../use/user-roles.md)
+* [Manager settings](../use/settings.md#manager-settings)
