@@ -31,7 +31,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 | De-identification | A process that is used to prevent the connection of personal identifiers with information. De-identification can be achieved through various approaches, including anonymization, pseudonymization, and aggregation. | 
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours | A person's time after you subtract their meeting hours and their focus hours. |
-| Hashing | To hash is to convert information that would otherwise be visible to users into a system-generated number, and then to show that number instead. For example, meeting [subject lines](https://docs.microsoft.com/en-us/workplace-analytics/use/settings#hash-subject-lines) appear not in their original, readable, form but as a meaningless number.  | 
+| Hashing | To hash is to convert information that would otherwise be visible to users into a system-generated number, and then to show that number instead. For example, meeting [subject lines](https://docs.microsoft.com/en-us/workplace-analytics/use/settings#hash-subject-lines) that are hashed would appear not in their original, readable, form but as a meaningless number. | 
 |Insularity|When collaboration happens only with people from within a person’s team, function, department, and so on.|
 |Invitee|A person who is invited to a meeting with a meeting request.|
 |Layer|The number of *levels* of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0.|
