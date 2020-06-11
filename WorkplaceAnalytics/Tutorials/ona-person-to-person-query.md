@@ -93,5 +93,3 @@ If both tie origin and tie destination filters are specified, the query returns 
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
 
-[Best practices for influencers](https://review.docs.microsoft.com/en-us/Workplace-Analytics/tutorials/gm-influencer?branch=pas-sr-ona-flexible-query)
-
