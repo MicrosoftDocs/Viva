@@ -368,9 +368,27 @@ Struggling to protect time for lunch? Colleagues keep sending meeting invitation
 
 ### To use this insight
 
- * In the **Insights** pane, locate **Set lunch hours**:
+You can set your lunch hours in either of two ways, in **Settings** or by using the **Set lunch hours** card. Note that the purpose of the **Set lunch hours** card is meant to alert you to the option of selecting lunch hours and for this reason, it is not always available. However, you can always set your lunch hours in **Settings**, as described here:
+
+#### Set lunch hours in _Settings_
+
+1. In the **Insights** pane, select **Settings** (the gear icon).
+
+2. In the **Set lunch hours** area, select the edit (pencil) option:
+
+   ![Set lunch hours](../../images/mya/use/fix-lunch-hours.png) 
+
+3. Change the values in the **Start** and/or **End** fields.
+
+4. Select **Update**. 
+
+#### Set lunch hours through the _Set lunch hours_ card
+
+1. In the **Insights** pane, locate **Set lunch hours**:
 
    ![Insights plan your time away task list](../../images/mya/use/set-lunch-hours.png)  
+
+2. Use the options that are described in the following table.    
 
 #### Insight option details
 
