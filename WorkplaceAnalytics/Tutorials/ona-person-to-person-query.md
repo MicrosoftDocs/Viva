@@ -72,16 +72,16 @@ The following columns appear, from left toright, in the query results for ONA pe
 
 In step 6 of the preceding procedure, you select filters to determine which person-person scores you want to see in the query results. Before you do this, it's good to understand the concepts of "tie-origin" and "tie-destination":
 
-Two employees have a connection (or "tie") that this query can report on if they have collaborated in a way that Workplace Analytics can quantify. Collaborations include actions such as the sending and receiving of emails, meeting invitations, communicating in Teams in calls or chats. In each of these cases, one employee initiated the collaboration action and the other employee (or employees) participated. The initiator is the originator (or "tie-origin"). "Tie-destination" refers to the other participants. 
+Two employees have a connection (or "tie") that this query can report on if they have collaborated in a way that Workplace Analytics can quantify. Collaborations include actions such as the sending and receiving of emails, meeting invitations, and calls or chats in Teams. In each of these cases, one employee initiated the collaboration action (for example, sent the email) and the other employee (or employees) participated in the action. "Tie-origin" refers to the initiator or originator, and "tie-destination" refers to the other participants. 
 
-The **Select filters** section offers two identical filters, one for the left side of the tie (the tie origin), and another for the right side of the tie (the tie destination). Both filters are optional. 
+The **Select filters** section offers two identical filters, one for the left side of the tie (the tie origin) and another for the right side of the tie (the tie destination). Both filters are optional. 
 
 ![ONA p2p query](../images/wpa/tutorials/ona-p2p-filters.png)
 
 If you specify only the tie-origin filter, the query results will include
-all rows that match the tie-origin PersonId that was specifed in the filter. Each row depicts a tie between the person with that PersonId and another person who was the destination of the tie.  
+all rows that match the tie-origin PersonId that was specifed in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the destination of the tie.  
 
-If you specify only the tie-destination filter, the query results will include all rows that match tie-destination PersonId that was specified in the filter. Each row depicts a tie between the person with that PersonId and another person who was the origin of the tie.  
+If you specify only the tie-destination filter, the query results will include all rows that match tie-destination PersonId that was specified in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the origin of the tie.  
 
 If both tie origin and tie destination filters are specified, the query returns only those rows that match the tie-origin PersonID in the tie-origin filter AND the tie-destination PersonID in the tie-destination filter.
 
