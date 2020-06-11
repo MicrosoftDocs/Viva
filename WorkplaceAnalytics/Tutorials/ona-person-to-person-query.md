@@ -29,7 +29,7 @@ The ONA person-to-person query measures the strength of connections through thes
 
 2.	Under **Start custom query**, select **Network: Person-to-person**:
 
-    ![ONA p2p query](../images/wpa/tutorials/ona-p2g-query.png)
+    ![ONA p2p query](../images/wpa/tutorials/ona-p2p-query.png)
 
 3.	Select and change **Enter query name here** to a name, and then enter a description for the query.
 4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
@@ -38,7 +38,7 @@ The ONA person-to-person query measures the strength of connections through thes
     > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.   
 
 5.	Under **Select metrics**, select **Strong and Diverse tie scores**. 
-6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
+6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**. For more information, see [Select filters](#select-filters).
 7.	Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
 8.	Select **Run**. The query takes a few minutes to complete. 
 9.	On the **Queries > Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
@@ -50,7 +50,7 @@ The ONA person-to-person query measures the strength of connections through thes
 
 The query results show the quality of the relationship between two specific (but de-identified) people. Each row shows the information for a pair of people between whom a tie exists, or existed, over the time period of the query. 
 
-![ONA p2p query](../images/wpa/tutorials/ona-p2g-query-results-2.png)
+![ONA p2p query](../images/wpa/tutorials/ona-p2p-query-results-2.png)
 
 The following columns appear, from left toright, in the query results for ONA person-to-person queries:
 
@@ -65,8 +65,25 @@ The following columns appear, from left toright, in the query results for ONA pe
 
   * **StrongTieScore.** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. <!--In the example results shown, sorting on this column showed that one director in the financial-planning organization within Sales has, not surprisingly, a very strong tie with a manager in the financial-planning organization within Sales. It could be that the manager reports to the director and this is a natural, even expected, relationship.--> 
   * **DiverseTieScore.** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals.  
-  * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a strong tie -– roughly, the top 10% of ties, by strength. A 2 indicates a tie that is significant but less strong. A 0 indicates a tie that's not that strong. 
-  * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. IT contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a diverse tie –- roughly, the top 10% of ties, by diversity. A 2 indicates a tie that is significant but less diverse. A 0 indicates a tie that’s not that diverse.
+  * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a strong tie -– roughly, the top 10% of ties, by strength. "2" indicates a tie that is significant but less strong. "0" indicates a tie that's not that strong. 
+  * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. IT contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a diverse tie –- roughly, the top 10% of ties, by diversity. "2" indicates a tie that is significant but less diverse. "0" indicates a tie that’s not that diverse.
+
+## Select filters
+
+In step 6 of the preceding procedure, you select filters to determine which person-person scores you want to see in the query results. Before you do this, it's good to understand the concepts of "tie-origin" and "tie-destination":
+
+Two employees have a connection (or "tie") that this query can report on if they have collaborated in a way that Workplace Analytics can quantify. Collaborations include actions such as the sending and receiving of emails, meeting invitations, communicating in Teams in calls or chats. In each of these cases, one employee initiated the collaboration action and the other employee (or employees) participated. The initiator is the originator (or "tie-origin"). "Tie-destination" refers to the other participants. 
+
+The **Select filters** section offers two identical filters, one for the left side of the tie (the tie origin), and another for the right side of the tie (the tie destination). Both filters are optional. 
+
+![ONA p2p query](../images/wpa/tutorials/ona-p2p-filters.png)
+
+If you specify only the tie-origin filter, the query results will include
+all rows that match the tie-origin PersonId that was specifed in the filter. Each row depicts a tie between the person with that PersonId and another person who was the destination of the tie.  
+
+If you specify only the tie-destination filter, the query results will include all rows that match tie-destination PersonId that was specified in the filter. Each row depicts a tie between the person with that PersonId and another person who was the origin of the tie.  
+
+If both tie origin and tie destination filters are specified, the query returns only those rows that match the tie-origin PersonID in the tie-origin filter AND the tie-destination PersonID in the tie-destination filter.
 
 ## Related topics
 
