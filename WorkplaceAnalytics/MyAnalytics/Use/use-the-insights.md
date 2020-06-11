@@ -368,7 +368,7 @@ Struggling to protect time for lunch? Colleagues keep sending meeting invitation
 
 ### To use this insight
 
-You can set your lunch hours in either of two ways, in **Settings** or by using the **Set lunch hours** card. Note that the purpose of the **Set lunch hours** card is meant to alert you to the option of selecting lunch hours and for this reason, it is not always available. However, you can always set your lunch hours in **Settings**, as described here:
+You can set your lunch hours in either of two ways, in **Settings** or by using the **Set lunch hours** card. This card is shown only for a short while to new users of MyAnalytics. It is not available permanently, but you can always set your lunch hours in **Settings**:
 
 #### Set lunch hours in _Settings_
 
