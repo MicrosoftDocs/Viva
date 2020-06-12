@@ -56,16 +56,6 @@ Workplace Analytics licenses are assigned just like any other Microsoft 365 prod
 
 If your organization has not fully migrated to Office 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Office 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Office 365 Exchange Online.
 
-## Appearance of newly licensed users 
-
-The data that Workplace Analytics uses is refreshed once a week, on Sunday. This includes data records for licensed users. If you add a user license on a Tuesday, that person will not show up in Workplace Analytics until the data refresh the following Sunday. After the refresh, data that pertains to the newly licensed user appears in Workplace Analytics in the following ways:
-
- * They are represented in the user counts that are displayed on the [Workplace Analytics Insights page](../use/home-page.md) under **My organization's data**.
- * [Queries](../tutorials/query-basics.md) that analysts run can return results that include data about this user's activities. 
- * The [Explore](../use/explore-intro.md) dashboards can reflect data that includes the newly licensed employee. 
-
-Azure Active Directory (AAD) is the single source of truth for licensing statuses. After a user license is added in AAD, that user will appear in AAD but not in Workplace Analytics until the next Sunday's data refresh is complete. 
-
 ## Related topics
 
 * [Environment requirements for Workplace Analytics](environment-requirements.md)
