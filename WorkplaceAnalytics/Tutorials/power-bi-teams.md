@@ -19,8 +19,8 @@ This dashboard enables you to visualize and explore your company’s current act
 
 * **What does adoption look like so far?** - Shows how groups are adopting Teams for collaborating and productivity over time.
 * **Where can you focus training and education for Teams adoption?**– Shows who is using Teams and how much time they’re spending in Teams calls and instant messages. This gives you a holistic view of how different groups in your organization are currently using Teams and who could benefit from additional Teams training.
-* **How can Teams help employees speed up communication?** (best practices) – Teams can help employees find the right mode of communication for what they want to accomplish. For example, group communications on Teams enables faster file sharing and easy-to-follow conversation records.
-* **Are employees working after hours in Teams?** (best practices) – Shows average activity by time of day during and outside of the group’s set working hours. As collaboration moves digitally, it’s important to establish communication guidelines and boundaries to encourage employees to balance work and life and maintain good wellbeing.
+* **How can Teams help employees speed up communication?** – Teams can help employees find the right mode of communication for what they want to accomplish. For example, group communications on Teams enables faster file sharing and easy-to-follow conversation records.
+* **Are employees working after hours in Teams?** – Shows average activity by time of day during and outside of the group’s set working hours. As collaboration moves digitally, it’s important to establish communication guidelines and boundaries to encourage employees to balance work and life and maintain good wellbeing.
 * **How can you build momentum as your company adopts Teams?** (best practices) – Shows how you can create opportunities for employees to make meaningful changes in their work patterns, including communication, wellbeing, and meeting culture recommendations and best practices.
 
 ![Power BI Teams template](../Images/WpA/Tutorials/pbi-teams-intro.png)
