@@ -21,35 +21,38 @@ In the following procedures, you identify a user by using their user identifier.
 
 1. Log in to your tenant's Azure Active Directory admin center. 
 
-2. In the left navigation menu, select Enterprise Applications:
-    
+2. In the left navigation menu, select **Enterprise Applications**:
+
+   ![Enterprise applications](../images/wpa/setup/enterprise-apps.png) 
    
-   This opens the Enterprise Applications | All applications page of the dashboard: 
+   This opens the **Enterprise Applications | All applications** page of the dashboard. 
 
+3. In the **Application Type** drop-down menu, select **All Applications**. 
 
-3. In the Application Type drop-down menu, select All Applications: 
+4. In the search field, type "workplace" and then press **Enter**. 
 
-4. In the search field, type "workplace" and then press Enter. 
+5. In the search results, select **Workplace Analytics**. This opens the **Workplace Analytics | Overview** page.  
 
-5. In the search results, select Workplace Analytics. This opens the Workplace Analytics | Overview page.  
+6. On the **Overview** page, under **Getting Started**, select **Assign users and groups**: 
 
-6. On the Overview page, under Getting Started, select Assign users and groups: 
-   
-   
-   This opens the Workplace Analytics | Users and groups page:
- 
+   ![Overview page](../images/wpa/setup/wpa-overview.png)  
 
-7. On the Workplace Analytics Users and groups page, select Add user. This opens the Add Assignment page. 
+7. On the Workplace Analytics **Users and groups** page, select **Add user**:
+
+   ![Overview page](../images/wpa/setup/wpa-users-and-groups.png)  
+
+This opens the **Add Assignment** page. 
 
 > [!Note] 
-> In the Users and groups area, “None Selected” currently appears. 
+> In the **Users and groups** area, “None Selected” currently appears. 
 
-8. On the Add Assignment page, select Users and groups: 
+8. On the **Add Assignment** page, select **Users and groups**: 
    
-   
-   This opens the Users and groups pane on the right side of the page: 
+   ![Overview page](../images/wpa/setup/select-users-and-groups-4.png)
 
-9. Under Users and groups, identify the user to whom you want to assign a role. Start typing that person’s user identifier in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears in the right pane under Selected items: 
+   This opens the **Users and groups** pane on the right side of the page.
+
+9. Under **Users and groups**, identify the user to whom you want to assign a role. Start typing that person’s user identifier in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears in the right pane under **Selected items**: 
 
 
 > [!Note] 
