@@ -47,4 +47,8 @@ You can use Workplace Analytics to get more detailed analysis and additional ins
 
 #### Q3 Can I change the baseline date?
 
-No, the baseline date in this report is static and cannot be changed at this time.
+No, the baseline date of January to February 2020 in this report is static and cannot be changed at this time.
+
+#### Q4 Which Microsoft 365 customers are eligible to see the report?
+
+All Microsoft 365 customers with at least 100 active Exchange Online users can see the report when they register for the Productivity Score preview.
