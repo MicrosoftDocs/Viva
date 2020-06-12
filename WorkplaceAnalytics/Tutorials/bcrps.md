@@ -25,7 +25,7 @@ This report helps business leaders understand if employees are:
 
 ![Business continuity report II](../Images/WpA/Tutorials/bcrps.png)
 
-The following are a few of the top-level business questions that this report helps you analyze.
+The following are some of the top-level business questions this report helps you analyze.
 
 |Business question |Analysis |Metrics used |
 |-------------|--------------|-------------|
