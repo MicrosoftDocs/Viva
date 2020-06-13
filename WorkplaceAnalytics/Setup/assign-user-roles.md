@@ -60,35 +60,35 @@ This opens the **Add Assignment** page.
 > ![Add Assignment + 1](../images/wpa/setup/add-assignment-plus-1.png)
     
 10. On the **Add Assignment** page, select **Select Role**. This opens the **Select Role** area on the right side of the page: 
-   
+
     ![Select role](../images/wpa/setup/select-role.png)
     
 11. From the list that appears, select one of the following roles:  
 
- * Analyst 
- * Analyst (Limited Access) 
- * Administrator 
- * Program manager 
- * Group manager 
+   * Analyst 
+   * Analyst (Limited Access) 
+   * Administrator 
+   * Program manager 
+   * Group manager 
 
-The role you selected appears at the bottom of the **Select Role** area: 
+   The role you selected appears at the bottom of the **Select Role** area: 
 
-> ![Selected role](../images/wpa/setup/selected-role.png)
+   ![Selected role](../images/wpa/setup/selected-role.png)
 
-The role also appears under **Add Assignment** in the **Select Role** area: 
+   The role also appears under **Add Assignment** in the **Select Role** area: 
 
-> ![Added role](../images/wpa/setup/add-assignment-select-53.png)
+   ![Added role](../images/wpa/setup/add-assignment-select-53.png)
 
 > [!Note] 
 > To change the role to assign to this user, repeat steps 10 and 11 and select a different role in step 11. 
 
 12. After you've chosen the user and the correct role for that user, select **Assign** at the bottom of the **Add Assignment** page:  
  
- > ![Assign](../images/wpa/setup/assign-button.png)
+   ![Assign](../images/wpa/setup/assign-button.png)
 
-After a few seconds, a message in the upper right informs you of the success of the role assignment:  
+   After a few seconds, a message in the upper right informs you of the success of the role assignment:  
 
- > ![Assignment succeeded](../images/wpa/setup/assignment-succeeded.png)
+   ![Assignment succeeded](../images/wpa/setup/assignment-succeeded.png)
 
 You have now assigned one role to one user.  
 
@@ -128,7 +128,7 @@ This opens the **Users and groups** area on the right side of the page.
 
 4. On the **Add Assignment** page, select **Select Role**. This opens the **Select Role** area on the right side of the page: 
 
-> ![Select role](../images/wpa/setup/select-role.png)
+   ![Select role](../images/wpa/setup/select-role.png)
  
 5. From the list that appears, select one of the following roles:  
 
@@ -140,26 +140,26 @@ This opens the **Users and groups** area on the right side of the page.
 
   The role you selected appears at the bottom of the **Select Role** area: 
   
-  > ![Selected role](../images/wpa/setup/selected-role.png)
+  ![Selected role](../images/wpa/setup/selected-role.png)
 
   The role also appears under **Add Assignment** in the **Select Role** area: 
   
-  > ![Added role](../images/wpa/setup/add-assignment-select-53.png)
+  ![Added role](../images/wpa/setup/add-assignment-select-53.png)
   
   > [!Note] 
   > To change the role to assign to this user, repeat steps 4 and 5 and select a different role in step 5. 
   
 6. After you've chosen the user and the correct role for that user, select **Assign** at the bottom of the **Add Assignment** page: 
  
-  > ![Assign](../images/wpa/setup/assign-button.png)
+  ![Assign](../images/wpa/setup/assign-button.png)
 
 After a few seconds, a message in the upper right informs you of the success of the role assignment:  
 
- > ![Assignment succeeded](../images/wpa/setup/assignment-succeeded.png)
+![Assignment succeeded](../images/wpa/setup/assignment-succeeded.png)
  
 You have now assigned another role to this user. If you [verify the role assignments](#verify-role-assignments) of this user, you can see in the table all roles that have been assigned to the user:  
 
-  > ![Assigned roles](../images/wpa/setup/assigned-roles.png)
+![Assigned roles](../images/wpa/setup/assigned-roles.png)
  
  
  
