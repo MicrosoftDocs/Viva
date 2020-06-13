@@ -50,7 +50,7 @@ This opens the **Add Assignment** page.
 
    This opens the **Users and groups** area on the right side of the page.
 
-9. Under **Users and groups**, identify the user to whom you want to assign a role. Start typing that person’s user identifier (such as the User Principal Name) in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears on the right under **Selected items**: 
+9. Under **Users and groups**, identify the user to whom you want to assign a role. Start typing that person's user identifier (such as the User Principal Name) in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears on the right under **Selected items**: 
    
    ![Selected items](../images/wpa/setup/selected-items.png)
 
@@ -65,11 +65,11 @@ This opens the **Add Assignment** page.
  
 11. From the list that appears, select one of the following roles:  
 
-* Analyst 
-* Analyst (Limited Access) 
-* Administrator 
-* Program manager 
-* Group manager 
+ * Analyst 
+ * Analyst (Limited Access) 
+ * Administrator 
+ * Program manager 
+ * Group manager 
 
 The role you selected appears at the bottom of the **Select Role** area: 
 
@@ -82,7 +82,7 @@ The role also appears under **Add Assignment** in the **Select Role** area:
 > [!Note] 
 > To change the role to assign to this user, repeat steps 10 and 11 and select a different role in step 11. 
 
-12. After you’ve chosen the user and the correct role for that user, select **Assign** at the bottom of the **Add Assignment** page:  
+12. After you've chosen the user and the correct role for that user, select **Assign** at the bottom of the **Add Assignment** page:  
  
  > ![Assign](../images/wpa/setup/assign-button.png)
 
@@ -98,7 +98,7 @@ You have now assigned one role to one user.
 
 Use this procedure to see what roles have been assigned to a user.  
 
-1. On the **Workplace Analytics | Users and groups** page, start typing the user identifier. As you do so, the list of users and groups filters to contain the name you’re typing.  
+1. On the **Workplace Analytics | Users and groups** page, start typing the user identifier. As you do so, the list of users and groups filters to contain the name you're typing.  
 
 2. Find the user in the list. Their role appears in the **Role assigned** column.  
 
@@ -115,7 +115,7 @@ Use this procedure to see what roles have been assigned to a user.
 
 This opens the **Users and groups** area on the right side of the page.
  
-3. Under **Users and groups**, identify the user to whom you want to assign a role. Start typing that person’s user identifier (such as the User Principal Name) in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears on the right under **Selected items**: 
+3. Under **Users and groups**, identify the user to whom you want to assign a role. Start typing that person's user identifier (such as the User Principal Name) in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears on the right under **Selected items**: 
    
    ![Selected items](../images/wpa/setup/selected-items.png)
 
@@ -130,11 +130,11 @@ This opens the **Users and groups** area on the right side of the page.
  
 5. From the list that appears, select one of the following roles:  
 
-* Analyst 
-* Analyst (Limited Access) 
-* Administrator 
-* Program manager 
-* Group manager 
+ * Analyst 
+ * Analyst (Limited Access) 
+ * Administrator 
+ * Program manager 
+ * Group manager 
 
   The role you selected appears at the bottom of the **Select Role** area: 
   
@@ -147,7 +147,7 @@ This opens the **Users and groups** area on the right side of the page.
   > [!Note] 
   > To change the role to assign to this user, repeat steps 4 and 5 and select a different role in step 5. 
   
-6. After you’ve chosen the user and the correct role for that user, select **Assign** at the bottom of the **Add Assignment** page: 
+6. After you've chosen the user and the correct role for that user, select **Assign** at the bottom of the **Add Assignment** page: 
  
   > ![Assign](../images/wpa/setup/assign-button.png)
 
