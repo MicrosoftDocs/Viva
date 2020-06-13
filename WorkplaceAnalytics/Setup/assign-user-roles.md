@@ -60,9 +60,9 @@ This opens the **Add Assignment** page.
 > ![Add Assignment + 1](../images/wpa/setup/add-assignment-plus-1.png)
     
 10. On the **Add Assignment** page, select **Select Role**. This opens the **Select Role** area on the right side of the page: 
-
-> ![Select role](../images/wpa/setup/select-role.png)
- 
+   
+    ![Select role](../images/wpa/setup/select-role.png)
+    
 11. From the list that appears, select one of the following roles:  
 
  * Analyst 
@@ -92,7 +92,9 @@ After a few seconds, a message in the upper right informs you of the success of 
 
 You have now assigned one role to one user.  
 
-13. (Optional) You can now assign additional roles, either to the same user or to different users. To select other users and assign roles to them, repeat steps 7-12 in this procedure. To add another role to the same user, see Assign an additional role to a user.  
+13. (Optional) You can now assign additional roles, either to the same user or to different users. To select other users and assign roles to them, repeat steps 7-12 in this procedure. To add another role to the same user, see [Assign an additional role to a user](#assign-an-additional-role-to-a-user).  
+
+To check the role assignments that a user currently has, see [Verify role assignments](#verify-role-assignments).
 
 ## Verify role assignments 
 
@@ -155,5 +157,9 @@ After a few seconds, a message in the upper right informs you of the success of 
 
  > ![Assignment succeeded](../images/wpa/setup/assignment-succeeded.png)
  
-You have now assigned another role to this user. If you verify the role assignments of this user, you can see in the table all roles that the user has assigned:  
+You have now assigned another role to this user. If you [verify the role assignments](#verify-role-assignments) of this user, you can see in the table all roles that have been assigned to the user:  
+
+  > ![Assigned roles](../images/wpa/setup/assigned-roles.png)
+ 
+ 
  
