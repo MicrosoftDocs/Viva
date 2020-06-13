@@ -50,7 +50,7 @@ The following are a few of the suggestions you might see in Outlook:
 
      ![insights icon in Outlook on the web](../../Images/mya/use/owa-insights.png)
 
-2. Select the **Settings** (gear) icon in the Insights Add-in panel.
+2. Select the **Settings** (gear) icon in the Insights add-in.
 
    ![Insights settings](../../Images/mya/use/insights-settings.png)
 
@@ -110,23 +110,23 @@ When reading an email or a calendar invitation, you might see a suggestion to re
 
 ![inline suggestion cancel delivery delay](../../Images/mya/use/sugg-out-tasks.png)
  
-You can select See my tasks to see and follow up on the potentially outstanding task in Insights. As shown in this graphic, you can open the related task (Re: group manager docs) for more details, or select Mark as done or Not a task to remove it from your task list.
+You can select **See my tasks** to see and follow up on the potentially outstanding task in Insights. As shown in this image, you can open the related task (Re: group manager docs) for more details, or select **Mark as done** or **Not a task** to remove it from your task list.
  
 ![inline suggestion cancel delivery delay](../../Images/mya/use/mark-as-done.png)
 
 ## Get more time to focus
 
-When reading a calendar invitation, you might see a suggestion to Book time for focused work (if you have a heavy meeting load) so that you get more time to do deep work and reclaim calendar for work that matters most. 
+While reading a calendar invitation, you might see a suggestion to **Book time for focused work** (if you have a heavy meeting load) so that you get more time to do deep work and reclaim your calendar for work that matters most. 
 
 ![inline suggestion cancel delivery delay](../../Images/mya/use/more-time-to-focus.png) 
  
-You can select **See suggested times**, which opens a panel that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
+Select **See suggested times** to open a pane that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
 
 ![inline suggestion cancel delivery delay](../../Images/mya/use/book-focus-time.png) 
 
 ## Protect your focus time
 
-When reading a calendar invitation, you might see a suggestion to protect your focus time block, by suggesting that you move a booked focus session to another time when a meeting request conflicts with it or by suggesting other alternative meeting times.
+If a meeting request conflicts with an existing focus-time block, you might see a suggestion to protect your focus-time block by moving the focus time to another time or to meet at another time.
 
 ![inline suggestion cancel delivery delay](../../Images/mya/use/protect-focus-time.png) 
  
@@ -134,30 +134,33 @@ Select **See other available times** to open the Insights add-in pane and displa
 
 ![focus time send email](../../Images/mya/use/focus-time-send-email-2.png)
 
-Select **Move your focus block** to open the Insights add-in panel and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work. 
+Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work. 
 
 ![focus time send email](../../Images/mya/use/move-focus-block.png)
 
 ## Shorten a meeting
 
-When composing a meeting invite with 1 hour duration, you might see a suggestion to shorted the meeting by 15 minutes to build some buffer time and save attendees time. 
+When composing a meeting invite with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time. 
 
 ![Shorten a meeting](../../Images/mya/use/shorten-a-meeting.png)
  
-You can select Shorten meeting which will decrease the meeting time by 15 minutes and also open the Insights Add-in panel to display the amount of time saved by all participants. 
+Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all participants in this meeting. 
 
 ![Shorten a meeting; nice work](../../Images/mya/use/shorten-meeting-nice-work.png)
 
 ## Track email open rate
 
-When reading an email you had sent, you may see an insight highlighting what percentage of people have opened the email 
- 
+While reading an email that you have sent, you might see an insight that highlights what percentage of people have opened the email. 
 
-You can select See more insights which will tell you how many people have opened/forwarded your email and the average time they spent reading that email along with similar information for attachments you had shared on the email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done
+![Track email open rate](../../Images/mya/use/track-email-open-rate.png)
+
+Select **See more insights** to see how many people have opened or forwarded your email and the average time they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
+
+![Track email open rate](../../Images/mya/use/email-open-rates.png)
 
 ## Track email
 
-When composing an email to more than 5 recipients, you might see a suggestion that says ‘Insights can track the email’
+When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 
-Click track this email to see email open rate and more statistics about this email, 15 mins after sending the email, by opening the sent mail or going to Insights Add-in and clicking on track email open rates.
+Select **Track this email** to see email open rate and more statistics about this email. This information becomes available 15 minutes after you sent the email. You can see this information by opening the sent email or by opening the Insights add-in and selecting **Track email open rates**.
 
