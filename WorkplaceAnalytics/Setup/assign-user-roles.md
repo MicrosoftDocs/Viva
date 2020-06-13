@@ -100,11 +100,11 @@ Use this procedure to see what roles have been assigned to a user.
 
 1. On the **Workplace Analytics | Users and groups** page, start typing the user identifier. As you do so, the list of users and groups filters to contain the name you’re typing.  
 
-2. Find the user in the list. Their role appears in the Role assigned column.  
+2. Find the user in the list. Their role appears in the **Role assigned** column.  
 
 ## Assign an additional role to a user 
 
-1. On the **Workplace Analytics | Users and groups** page, select Add user. This opens the **Add Assignment** page. 
+1. On the **Workplace Analytics | Users and groups** page, select **Add user**. This opens the **Add Assignment** page. 
 
 > [!Note] 
 > In the **Users and groups** area, “None Selected” currently appears. 
