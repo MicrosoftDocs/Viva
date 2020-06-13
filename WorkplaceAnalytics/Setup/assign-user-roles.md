@@ -77,7 +77,7 @@ The role you selected appears at the bottom of the **Select Role** area:
 
 The role also appears under **Add Assignment** in the **Select Role** area: 
 
-> ![Added role](../images/wpa/setup/add-assignment-select.png)
+> ![Added role](../images/wpa/setup/add-assignment-select-53.png)
 
 > [!Note] 
 > To change the role to assign to this user, repeat steps 10 and 11 and select a different role in step 11. 
@@ -142,7 +142,7 @@ This opens the **Users and groups** area on the right side of the page.
 
   The role also appears under **Add Assignment** in the **Select Role** area: 
   
-  > ![Added role](../images/wpa/setup/add-assignment-select.png)
+  > ![Added role](../images/wpa/setup/add-assignment-select-53.png)
   
   > [!Note] 
   > To change the role to assign to this user, repeat steps 4 and 5 and select a different role in step 5. 
