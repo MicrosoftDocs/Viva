@@ -42,7 +42,7 @@ audience: Admin
 This opens the **Add Assignment** page. 
 
 > [!Note] 
-> In the **Users and groups** area, “None Selected” currently appears. 
+> In the **Users and groups** area, "None Selected" currently appears. 
 
 8. On the **Add Assignment** page, select **Users and groups**: 
    
@@ -107,7 +107,7 @@ Use this procedure to see what roles have been assigned to a user.
 1. On the **Workplace Analytics | Users and groups** page, select **Add user**. This opens the **Add Assignment** page. 
 
 > [!Note] 
-> In the **Users and groups** area, “None Selected” currently appears. 
+> In the **Users and groups** area, "None Selected" currently appears. 
 
 2. On the **Add Assignment** page, select **Users and groups**: 
    
