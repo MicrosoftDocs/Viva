@@ -132,11 +132,11 @@ If a meeting request conflicts with an existing focus-time block, you might see 
  
 Select **See other available times** to open the Insights add-in pane and display all the available time in the coming week to reschedule the meeting. By selecting a time block you can propose a new time to the meeting organizer. 
 
-![focus time send email](../../Images/mya/use/focus-time-send-email-2.png)
+![focus time send email](../../Images/mya/use/focus-time-send-email-2-50.png)
 
 Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work. 
 
-![focus time send email](../../Images/mya/use/move-focus-block.png)
+![focus time send email](../../Images/mya/use/move-focus-block-50.png)
 
 ## Shorten a meeting
 
@@ -146,7 +146,7 @@ When composing a meeting invite with a duration of one hour, you might see a sug
  
 Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all participants in this meeting. 
 
-![Shorten a meeting; nice work](../../Images/mya/use/shorten-meeting-nice-work.png)
+![Shorten a meeting; nice work](../../Images/mya/use/shorten-meeting-nice-work-50.png)
 
 ## Track email open rate
 
