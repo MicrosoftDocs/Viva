@@ -22,23 +22,21 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides i
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
+## Prerequisites
+
+To use the Insights add-in, note the following:
+
+ * You have a MyAnalytics user license and at least 24 hours have passed since you were granted that license.
+ * The version of Outlook Desktop that is installed on your computer must be at least Outlook 2015.
+ * You have Internet Explorer installed on your computer. 
+ * You will open the Insights add-in in one of the programs listed under [Open the Insights add-in](#open-the-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop). 
+ * Either the Outlook Reading pane is open or you have selected an email (either you are viewing the email in the reading pane or you have opened the email in a new window). This cannot be an email that has been designated as information rights managed.
+
 ## Open the Insights add-in
 
-You can use the Outlook Insights add-in in the following environments: 
-
-<!-- verify that this is necessary: 
-**Prerequisites:** 1) [Turn on the Outlook Reading Pane](https://support.office.com/en-us/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) and 2) Select an email item.
--->
+Before you can open the Insights add-in, be sure you are adhering to the [prerequisites](#prerequisites). You can use the Outlook Insights add-in in the following environments: 
 
 ### Windows Outlook desktop
-
-<!-- THIS IS WHAT VIVEK SUGGESTED, BUT IT'S NOT WHAT I SEE: 
-
- * In the Outlook **Home** ribbon, select **Insights**:
- 
-   ![Insights on the Outlook banner](../../images/mya/use/insights-in-outlook-banner-2.png)
- 
- -->
 
 1. Open the **Home** ribbon of Microsoft Outlook.
 
@@ -46,9 +44,9 @@ You can use the Outlook Insights add-in in the following environments:
 
     ![Insights icon](../../images/mya/use/insights-view-sm.png)
 
-### Outlook on the Web
+### Outlook on the web
 
-1. Open [Outlook on the Web](https://outlook.office.com/mail/inbox).
+1. Open [Outlook on the web](https://outlook.office.com/mail/inbox).
 
 2. Open an email message.
 
@@ -56,11 +54,10 @@ You can use the Outlook Insights add-in in the following environments:
 
    ![Insights in OWA](../../images/mya/use/insights-in-owa.png)
 
-
 > [!Note] 
 > You can pin the Add-in to your quick access pane for easier access; see [Pin the Insights add-in](#pin-the-insights-add-in) for details.   
 
-### Mac Outlook Desktop
+### Mac Outlook desktop
 
 In the new Mac interface, add-ins are not currently available, but you can enable them by switching to the old interface, as described here: 
  
