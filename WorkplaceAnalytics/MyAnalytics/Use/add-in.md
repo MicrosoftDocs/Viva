@@ -34,7 +34,7 @@ Before you can use the Insights add-in, the following must be in place:
    * You've opened an email in a new window. 
    * The [Outlook Reading Pane](https://support.office.com/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) is open and you are viewing the email in the Reading Pane. 
    > [!Note] 
-   > Be sure that the selected email has not had [information rights management](https://docs.microsoft.com/exchange/policy-and-compliance/information-rights-management?view=exchserver-2019#apply-irm-protection-to-messages) applied.
+   > This works only with emails to which [information rights management](https://docs.microsoft.com/exchange/policy-and-compliance/information-rights-management?view=exchserver-2019#apply-irm-protection-to-messages) have not been applied.  
 
 ## Open the Insights add-in
 
