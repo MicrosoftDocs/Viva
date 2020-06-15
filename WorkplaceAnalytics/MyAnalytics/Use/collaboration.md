@@ -28,7 +28,7 @@ The Weekly average section shows an estimate of how much time you spent in meeti
 
 The Meeting habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the List view:
 
-* The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
+* The **Meeting habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
     ![MyAnalytics Collaboration Meeting Habits View](../../Images/mya/use/collab-habits-2.png)
 
