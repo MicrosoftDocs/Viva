@@ -38,7 +38,6 @@ The following are a few of the suggestions you might see in Outlook:
  * [Shorten a meeting](#shorten-a-meeting)
  * [Track email open rate](#track-email-open-rate)
  * [Track email](#track-email)
- * [Reduce after-hours work and team impact](#reduce-after-hours-work-and-team-impact)
 
 ## Opt out of inline suggestions
 
