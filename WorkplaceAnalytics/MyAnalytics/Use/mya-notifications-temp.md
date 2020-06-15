@@ -112,7 +112,7 @@ When reading an email or a calendar invitation, you might see a suggestion to re
  
 You can select **See my tasks** to see and follow up on the potentially outstanding task in Insights. As shown in this image, you can open the related task (Re: group manager docs) for more details, or select **Mark as done** or **Not a task** to remove it from your task list.
  
-![inline suggestion cancel delivery delay](../../Images/mya/use/mark-as-done.png)
+![inline suggestion cancel delivery delay](../../Images/mya/use/mark-as-done-55.png)
 
 ## Get more time to focus
 
@@ -142,7 +142,7 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 When composing a meeting invite with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time. 
 
-![Shorten a meeting](../../Images/mya/use/shorten-a-meeting.png)
+![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-77.png)
  
 Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all participants in this meeting. 
 
