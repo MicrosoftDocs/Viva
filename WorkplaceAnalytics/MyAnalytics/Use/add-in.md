@@ -22,7 +22,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides i
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
-## Prerequisites
+## Why don't I see the Outlook Insights add-in?
 
 Before you can use the Insights add-in, the following must be in place:
 
@@ -38,7 +38,7 @@ Before you can use the Insights add-in, the following must be in place:
 
 ## Open the Insights add-in
 
-Before you can open the Insights add-in, be sure you adhere to the [prerequisites](#prerequisites). You can use the Outlook Insights add-in in the following environments: 
+You can use the Outlook Insights add-in in the following environments: 
 
 ### Windows Outlook desktop
 
@@ -72,6 +72,9 @@ In the new Mac interface, add-ins are not currently available, but you can enabl
    ![Mac Outlook switch UI](../../images/mya/use/mac-outlook-switch-ui.png)
  
 2. In the Outlook **Home** ribbon, open Insights by using the same steps as for [Windows Outlook desktop](#windows-outlook-desktop).
+
+> [!Note] 
+> If the Insights add-in is not showing up for you, check out the prerequisites that are described in [Why don't I see the Outlook Insights add-in?](#why-dont-i-see-the-outlook-insights-add-in).
 
 ## What you might see
 
