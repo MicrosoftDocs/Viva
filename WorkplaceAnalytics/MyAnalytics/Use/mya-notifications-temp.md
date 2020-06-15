@@ -142,7 +142,7 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 When composing a meeting invite with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time. 
 
-![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-77.png)
+![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-77-80.png)
  
 Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all participants in this meeting. 
 
