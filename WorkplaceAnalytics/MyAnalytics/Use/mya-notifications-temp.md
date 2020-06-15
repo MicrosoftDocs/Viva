@@ -156,7 +156,7 @@ While reading an email that you have sent, you might see an insight that highlig
 
 Select **See more insights** to see how many people have opened or forwarded your email and the average time they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
 
-![Track email open rate](../../Images/mya/use/email-open-rates.png)
+![Track email open rate](../../Images/mya/use/email-open-rates-50.png)
 
 ## Track email
 
