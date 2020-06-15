@@ -152,7 +152,7 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 While reading an email that you have sent, you might see an insight that highlights what percentage of people have opened the email. 
 
-![Track email open rate](../../Images/mya/use/track-email-open-rate.png)
+![Track email open rate](../../Images/mya/use/track-email-open-rate-50.png)
 
 Select **See more insights** to see how many people have opened or forwarded your email and the average time they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
 
