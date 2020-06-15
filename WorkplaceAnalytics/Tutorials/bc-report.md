@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Business continuity report
 description: Use the Business continuity report to analyze organizational collaboration data
 author: madehmer
-ms.author: 
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

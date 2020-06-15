@@ -3,7 +3,7 @@
 title: Workplace Analytics Teamwork plans 
 description: Introduction and summary of the Workplace Analytics Teamwork plans
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -19,10 +19,7 @@ The purpose of the Teamwork plans is to create plans that help teams become more
 
 ## Use Teamwork plans
 
-People in the following roles can work on plans in various ways:
-
-* **Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
-* **Group managers** can only start and track plans for the employees on their team, who are within their reporting structure.
+**Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
 
 To start using Teamwork plans, see the following topics:
 
