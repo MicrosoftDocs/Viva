@@ -30,8 +30,8 @@ Before you can use the Insights add-in, the following must be in place:
  * The version of Outlook Desktop that is installed on your computer is Outlook 2015 or later.
  * You have Internet Explorer version 10 or 11 installed on your computer.  
  * You will open the Insights add-in in one of the programs listed under [Open the Insights add-in](#open-the-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop). 
- * You have selected an email in either of these two ways:
-   * You've opened the email in a new window. 
+ * In Outlook, you will select an email in either of these two ways:
+   * Open the email in a new window. 
    * The [Outlook Reading Pane](https://support.office.com/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) is open and you are viewing the email in the Reading Pane. 
    > [!Note] 
    > This works only with emails to which [information rights management](https://docs.microsoft.com/exchange/policy-and-compliance/information-rights-management?view=exchserver-2019#apply-irm-protection-to-messages) have not been applied.  
