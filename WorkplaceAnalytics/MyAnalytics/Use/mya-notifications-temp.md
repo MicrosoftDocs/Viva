@@ -110,7 +110,7 @@ When reading an email or a calendar invitation, you might see a suggestion to re
 
 ![Suggested outstanding tasks](../../Images/mya/use/sugg-out-tasks-60.png)
  
-You can select **See my tasks** to see and follow up on the potentially outstanding task in Insights. As shown in this image, you can open the related task (Re: group manager docs) for more details, or select **Mark as done** or **Not a task** to remove it from your task list.
+You can select **See my tasks** to see and follow up on the potentially outstanding task in Insights. As shown in this image, you can open the related task (RE: Kat - Anisa chat) for more details, or select **Mark as done** or **Not a task** to remove it from your task list.
  
 ![Mark tasks as done](../../Images/mya/use/mark-as-done-55.png)
 
