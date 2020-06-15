@@ -30,7 +30,7 @@ The Meeting habits section highlights what your habits or practices are in meeti
 
 * The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
-    ![MyAnalytics Collaboration Meeting Habits View](../../Images/mya/use/collab-habits.png)
+    ![MyAnalytics Collaboration Meeting Habits View](../../Images/mya/use/collab-habits-2.png)
 
 * The **List View** shows details about all the meetings on your calendar over the past four weeks.
 
