@@ -3,7 +3,7 @@
 title: Workplace Analytics roles
 description: (include file) Workplace Analytics roles 
 author: paul9955
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -22,4 +22,5 @@ ms.prod: wpa
 
 * **Program manager** - Has access to the **Home** page of Workplace Analytics. Program managers also can open the **Plans** page and its **Manage** page, where they can set up plans; and to the **Track** page, where they can track the progress of active plans and the state of ended plans.
 
-* **Group manager** - If the team meets the minimum team size set by the admin, their manager has access to only their team's insights on the **Home** page in Workplace Analytics. A team includes the group manager and the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. Group managers can also see the **Plans** page and its **Manage** page, where they can set up plans; and to the **Track** page, where they can track the progress of active plans and the state of ended plans.
+>[!Note]
+>Managers get access to their team's data in Workplace Analytics as set in [Manager settings](../use/settings.md#manager-settings).
