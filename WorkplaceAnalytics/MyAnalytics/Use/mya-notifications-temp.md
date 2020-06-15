@@ -106,7 +106,7 @@ When composing an email in Outlook, you might see a suggestion to schedule email
 
 ## Suggested outstanding tasks
 
-When reading an email or a calendar invitation, you might see a suggestion to review suggested outstanding tasks for the sender of email or calendar invite. There are task suggestions based on your email communications with the sender in the last 14 days and can help you keep tab of tasks you promised to get done or that team members asked you to complete.
+When reading an email or a calendar invitation, you might see a suggestion to review suggested outstanding tasks for the sender of email or calendar invitation. There are task suggestions based on your email communications with the sender in the last 14 days and can help you keep tab of tasks you promised to get done or that team members asked you to complete.
 
 ![Suggested outstanding tasks](../../Images/mya/use/sugg-out-tasks-60.png)
  
@@ -140,21 +140,21 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 ## Shorten a meeting
 
-When composing a meeting invite with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time. 
+When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time. 
 
 ![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-77-80-75.png)
  
-Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all participants in this meeting. 
+Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all the participants in the meeting. 
 
 ![Shorten a meeting; nice work](../../Images/mya/use/shorten-meeting-nice-work-50.png)
 
 ## Track email open rate
 
-While reading an email that you have sent, you might see an insight that highlights what percentage of people have opened the email. 
+While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email. 
 
 ![Track email open rate](../../Images/mya/use/track-email-open-rate-50.png)
 
-Select **See more insights** to see how many people have opened or forwarded your email and the average time they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
+Select **See more insights** to see how many people have opened or forwarded your email and the average time that they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
 
 ![Track email open rate](../../Images/mya/use/email-open-rates-50.png)
 
@@ -162,5 +162,5 @@ Select **See more insights** to see how many people have opened or forwarded you
 
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 
-Select **Track this email** to see email open rate and more statistics about this email. This information becomes available 15 minutes after you sent the email. You can see this information by opening the sent email or by opening the Insights add-in and selecting **Track email open rates**.
+Select **Track this email** to see the email open rate and more statistics about this email. This information becomes available 15 minutes after you sent the email. You can see this information by opening the sent email or by opening the Insights add-in and selecting **Track email open rates**.
 
