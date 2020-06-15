@@ -37,11 +37,12 @@ Also see [How Workplace Analytics calculates influence](#how-workplace-analytics
     > [!Note] 
     > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.   
 
-5.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
-6.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
-7.	Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
-8.	Select **Run**. The query takes a few minutes to complete. 
-9.	On the **Queries > Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
+5.  If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh** . (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).) 
+6.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
+7.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
+8.	Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
+9.	Select **Run**. The query takes a few minutes to complete. 
+10.	On the **Queries > Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 > [!Note] 
 > You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
