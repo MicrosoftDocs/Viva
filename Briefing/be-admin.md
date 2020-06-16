@@ -121,7 +121,7 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
    $user.identity
    $upn=$user.identity
    Set-UserBriefingConfig –Identity $upn -Enabled $briefingEmailMode
-   Get-UserBriefingConfig –Identity $upn | Export-Csv $outFileName
+   Get-UserBriefingConfig –Identity $upn | Export-Csv $outFileName -Append
    }
    ```
 
