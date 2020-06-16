@@ -104,6 +104,18 @@ If you specify only the tie-destination filter, the query results will include a
 
 If both tie origin and tie destination filters are specified, the query returns only those rows that match the tie-origin PersonID in the tie-origin filter AND the tie-destination PersonID in the tie-destination filter.
 
+## Additional notes 
+
+There is additional value that one can derive from Strong and Diverse ties based on distance: 
+
+A person could have Strong ties that are close: These are Strong ties with people in the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are necessary for overall team efficiency/effectiveness, knowledge transfer and best practice development. One would expect that a manager and his/her team demonstrate this characteristic for the entire team. 
+
+A person could have Strong ties that are distant: These are Strong ties with people outside the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are good for evangelizing/embedding fresh/innovative ideas. However, such ties are likely not sustainable due to time demand for deep/constant engagement. 
+
+A person could have Diverse ties that are close: These are Diverse ties with people in the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are probably due to an on-demand/context nature satisfying an internal use case. But, the more likely case is a leading indicator of dis-engagement within the group. 
+
+A person could have Diverse ties that are distant: These are Diverse ties with people outside the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are good for evangelizing/embedding cross-functional fresh/innovative ideas. The presence of such ties in manager networks are deemed key for driving innovation and creativity in the team. 
+
 ## Related topics
 
 [ONA person queries](ona-person-query.md)
