@@ -15,7 +15,7 @@ audience: Admin
 
 # Configure Briefing email
 
-As the admin, you can configure Briefing email for your organization at the user level. You can turn on or off all Briefing email functionality for one user or for multiple users.
+As the admin, you can set up Briefing email at the [user level](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can turn on or off all Briefing email functionality for one user, multiple users, or a tenant.
 
 ## Prerequisites
 
@@ -25,21 +25,17 @@ Confirm the following before configuring access:
 * **Licensed users only** - Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
 
-As the admin, you can set up Briefing email at the [user level](#user-level-configuration) or [tenant level](#tenant-level-configuration).
-
 ## User-level configuration
 
 > [!Note]
 > Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com).
 
-Confirm the following additional prerequisites before configuring user-level access:
+Confirm the following additional prerequisites. Then you can use the Exchange Online PowerShell V2 module to set Briefing email access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users).
 
 ### Additional prerequisites
 
 * **.NET Framework** - You must have [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or the latest available version installed.
 * **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
-
-To configure user-level access, use the Exchange Online PowerShell V2 module to set Briefing email access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users).
 
 > [!Important]
 > Before configuring access, confirm you're connected to [Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#connect-to-exchange-online-using-the-exo-v2-module).
