@@ -22,22 +22,27 @@ As the admin, you can configure Briefing email for your organization at the user
 Confirm the following before configuring access:
 
 * **Exchange or Global admin role** - You must have either an Exchange Administrator or a Global Administrator role to configure users for Briefings.
-* **.NET Framework** - You must have [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or the latest available version installed.
 * **Licensed users only** - Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
-* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
+
+As the admin, you can set up Briefing email at the [user level](#user-level-configuration) or [tenant level](#tenant-level-configuration).
 
 ## User-level configuration
 
 > [!Note]
 > Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com).
 
-To configure access, use the Exchange Online PowerShell V2 module to set Briefing email access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users).
+### Additional prerequisites
+
+* **.NET Framework** - You must have [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or the latest available version installed.
+* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
+
+To configure user-level access, use the Exchange Online PowerShell V2 module to set Briefing email access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users).
 
 > [!Important]
 > Before configuring access, confirm you're connected to [Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#connect-to-exchange-online-using-the-exo-v2-module).
 
-## Set access for one user
+### Set access for one user
 
 To enable or disable Briefing email for a specific user, use the Exchange Online PowerShell V2 module and the following command line, where you replace "joe@contoso.com" with your applicable username and organization:
 
@@ -54,7 +59,7 @@ For example, to get the current state of the Briefing email flag for "joe@contos
 Get-UserBriefingConfig -Identity joe@contoso.com
 ```
 
-## Set access for multiple users
+### Set access for multiple users
 
 You can also enable or disable Briefing email for multiple users with a PowerShell script that iterates through the users, changing the value one user at a time. Use the following script to:
 
@@ -96,21 +101,20 @@ As the admin, use the following steps to change the setting for Briefing email a
 
 Users can unsubscribe individually from within any Briefing email they receive. However, if you disable this feature at the tenant level, no users in your organization will receive the Briefing email and individual users cannot override this tenant-level setting.  
 
-### To configure access in the admin center
+### To configure access for a tenant
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
     ![New admin center](./images/the-new-admin-center.png)
 
-3. In the left pane, expand **Settings**, and then select **Services**.
-4. Under **Services**, select **Briefing email (Preview)**.
-5. Select or deselect the checkbox next to **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the Briefing email and individual users cannot override this setting.
+3. In the left pane, expand **Settings**, and then select **Org Settings**.
+4. Under **Org Settings**, select **Briefing email (Preview)**.
+5. Select or deselect the checkbox next to **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email and individual users cannot override this setting.
 
    ![Briefing email access](./images/be-admin.png)
 
-As the admin, you can set the Briefing email up at the [tenant level](#tenant-level-configuration) or the [user level](#user-level-configuration).
-
+<!--
 ### To configure access in PowerShell
 
 You can enable or disable the Briefing email for all users in your organization at the tenant level. Use the following Exchange Online PowerShell cmdlets to set the tenant default:
@@ -127,7 +131,7 @@ To get the current state of the Briefing email setting, use:
 ```powershell
 Get-OrganizationIntelligenceConfig
 ```
-
+-->
 ## Related topics
 
 * [Briefing email overview](be-overview.md)
