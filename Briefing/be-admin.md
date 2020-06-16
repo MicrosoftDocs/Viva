@@ -32,6 +32,8 @@ As the admin, you can set up Briefing email at the [user level](#user-level-conf
 > [!Note]
 > Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com).
 
+Confirm the following additional prerequisites before configuring user-level access:
+
 ### Additional prerequisites
 
 * **.NET Framework** - You must have [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or the latest available version installed.
