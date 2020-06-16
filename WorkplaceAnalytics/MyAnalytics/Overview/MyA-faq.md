@@ -219,6 +219,18 @@ See [MyAnalytics languages](mya-languages.md).
 
 MyAnalytics only uses cookies to authenticate users for the dashboard. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
+#### Q8. Which MyAnalytics experiences include Windows 10 activity history?
+
+MyAnalytics uses Windows 10 Activity history to power insights related to time spent in documents within working hours and after hours. These show up as Food for thought in the MyAnalytics dashboard. The time spent in documents is also added to the total collaboration time and affects metrics, such as “Time available to focus” and “Quiet hours.”
+
+#### Q9. How can I check if Window 10 Activity history is enabled on my device?
+
+1. Open Windows Settings.
+2. Search for “Activity History Privacy Settings.”
+3. The following two settings must be selected for MyAnalytics to use the data.
+
+   ![Windows 10 Activity History settings](../../images/mya/overview/activity-history.png)
+
 ### Insights Outlook add-in
 
 #### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
@@ -316,3 +328,12 @@ You can enable or disable MyAnalytics experiences by following the applicable st
 #### Q17. How do the MyAnalytics digests show up in Outlook?
 
  The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
+
+#### Q18. How can I manage the Windows 10 activity history for the organization?
+
+You can set the following two Group Policy settings at the tenant level for the organization:
+
+* System\OS Policies\Allow upload of User Activities
+* System\OS Policies\Allow publishing of User Activities
+
+For details, see [New policies for Windows 10](https://docs.microsoft.com/windows/client-management/new-policies-for-windows-10).
