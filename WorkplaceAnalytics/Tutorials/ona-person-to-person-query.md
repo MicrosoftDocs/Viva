@@ -64,7 +64,7 @@ _Query results example: Columns A through D_
 
    The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
     * _TieOrigin_FunctionType_
-    * _Tie_Origin_LevelDesignation_
+    * _TieOrigin_LevelDesignation_
     * _TieOrigin_Organization_
 
 ### The next columns describe the other participapnts in the tie    
@@ -78,7 +78,7 @@ _Query results example: Columns E through H_
 
    The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
     * _TieDestination_FunctionType_
-    * _Tie_Destination_LevelDesignation_
+    * _TieDestination_LevelDesignation_
     * _TieDestination_Organization_
 
 ### The last columns give the results
