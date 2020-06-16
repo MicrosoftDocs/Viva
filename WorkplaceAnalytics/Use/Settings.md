@@ -255,12 +255,12 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 
 ### Manager settings
 
-On the **Manager settings** page, you can allow all measured managers or specific managers access to aggregate collaboration insights about their team and the ability to start plans for their team in Workplace Analytics. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics. The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
+On the **Manager settings** page, you can allow all measured people managers or specific managers access to aggregate collaboration insights about their team and the ability to start plans for their team in Workplace Analytics. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics. The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
 
 The following are based on the latest organizational (HR) data that's been successfully uploaded and processed in Workplace Analytics:
 
-* **Measured managers** - Total number of managers who are assigned licenses in Workplace Analytics.
-* **Managers enabled** - Total number of managers who meet the minimum team size and have access to their team's insights and plans in Workplace Analytics.
+* **Measured managers** - Total number of people managers who are assigned licenses in Workplace Analytics.
+* **Managers enabled** - Total number of people managers who meet the minimum team size and have access to their team's insights and plans in Workplace Analytics.
 
 ![Manager settings](../images/wpa/use/manager-settings.png)
 

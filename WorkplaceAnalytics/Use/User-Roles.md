@@ -34,7 +34,7 @@ These are the Workplace Analytics roles and their level of access:
 
 The following shows who can access what in Workplace Analytics.
 
-|  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program manager | Manager |
+|  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program manager | People manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
 | **Home** | View highlights from the latest data; see the latest notifications | | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |<img src="../Images/WpA/check-mark.png"> (team only)|
 | **Analyze** |
@@ -51,7 +51,7 @@ The following shows who can access what in Workplace Analytics.
 
 The following shows who can do what in Workplace Analytics.
 
-|  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |Manager |
+|  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |People manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
 | Configure system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png">| | | |
 | Upload organizational data into the system | <img src="../Images/WpA/check-mark.png"> | | | |
@@ -63,7 +63,7 @@ The following shows who can do what in Workplace Analytics.
 
 People with access to Workplace Analytics should ideally have previous experience for their level of access. Preferably, they should have previously undergone security and privacy training in handling sensitive data.
 
-| Access level | Administrator |  Analyst | Analyst (Limited Access) | Program manager | Manager |
+| Access level | Administrator |  Analyst | Analyst (Limited Access) | Program manager | People manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |-------| ---- |
 | Ability to view personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png"> | | | |
 | Ability to view de-identified, individual-level data:<ol><li>Organization data (HR fields such as level or organization)</li><li>Office 365 data (metrics about collaboration time and relationships)</li></ol> | | <img src="../Images/WpA/check-mark.png"> | | |
@@ -74,7 +74,7 @@ People with access to Workplace Analytics should ideally have previous experienc
 
 Consider the following personas when granting the different levels of access to Workplace Analytics.
 
-| Persona | Administrator | Analyst | Analyst (Limited Access) | Program manager |Manager |
+| Persona | Administrator | Analyst | Analyst (Limited Access) | Program manager |People manager |
 | ------ | ----------- | ------- | ------- | ------ | ------ |
 | Executive/business leader | | | <img src="../Images/WpA/check-mark.png"> |   | |
 | Program manager | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> | <img src="../Images/WpA/check-mark.png"> |

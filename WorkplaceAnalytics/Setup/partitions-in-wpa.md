@@ -19,8 +19,8 @@ audience: Admin
 
 A partition is a data workspace for an analyst. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies create partitions that contain subsets of employee data. To do this, they use various criteria. Here are examples:
 
-* **Organization:** A company can create a partition to be the data of all the employees in one division, or under a particular manager. Example: R & D
-* **Geography:** A multi-national corporation might create different partitions for the data of employees of different countries or parts of countries. Example: Wales 
+* **Organization:** A company can create a partition for data about all the employees in one division, or in a functional group or team. Example: R & D
+* **Geography:** A multi-national corporation might create different partitions for the data of employees of different countries or parts of countries. Example: Wales
 * **Role:** A company could select the data of all the employees who have a particular function to include in a partition. Example: Accounting personnel
 
 ## Partitions give access to data
@@ -64,7 +64,7 @@ If you are an analyst, you must have a partition selected to be able to go to **
 
 4. If you have a non-analyst role, your choice depends on the role (or roles) that you've been assigned:
 
-    * **Both a manager and an analyst:** If you have both a group or program manager role and an analyst role, the data you see depends on the page that you open. Plans are accessible only in the Global partition. A person with both a manager and analyst roles can access plans in Global partition and access the **Explore** and **Queries** pages in other partitions that they have been granted.
+    * **Both a manager and an analyst:** If you have both a program manager role and an analyst role, the data you see depends on the page that you open. Plans are accessible only in the Global partition. A person with both a manager and analyst roles can access plans in Global partition and access the **Explore** and **Queries** pages in other partitions that they have been granted.
     * **Manager only:** Managers do not need to select a partition because they automatically use Global partition. If you’re a manager, go to the **Plans** page.
     * **Admin:** If you’re signed in to Workplace Analytics as an admin, then partitions don't affect you or your access to **Settings**.
 

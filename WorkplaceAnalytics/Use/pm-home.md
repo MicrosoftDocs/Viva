@@ -12,9 +12,9 @@ ms.prod: wpa
 # Workplace Analytics manager insights
 
 > [!Note]
-> Only managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see their team's data in Workplace Analytics.
+> Only people managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see their team's data in Workplace Analytics.
 
-As a manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
+As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
 
 Use the following available information to lead your team toward more effective business outcomes:
 
