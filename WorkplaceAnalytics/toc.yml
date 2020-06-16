@@ -122,12 +122,12 @@
                   href: ~/tutorials/crm-queries.md    
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md
-                - name: ONA queries
-                  href: ~/tutorials/ona-queries.md 
- #  future       - name: ONA queries                   
- #  structure      items: 
- #                   - name: ONA queries
- #                     href: ~/tutorials/ona-queries.md 
+                - name: ONA queries                   
+                  items: 
+                    - name: ONA person queries
+                      href: ~/tutorials/ona-person-query.md 
+                    - name: ONA person-to-person queries
+                      href: ~/tutorials/ona-person-to-person-query.md                       
                 - name: Power BI templates
                   items:
                     - name: Introduction
