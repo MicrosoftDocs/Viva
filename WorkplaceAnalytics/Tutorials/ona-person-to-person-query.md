@@ -67,7 +67,7 @@ _Query results example: Columns A through D_
     * _TieOrigin_LevelDesignation_
     * _TieOrigin_Organization_
 
-### The next columns describe the other participapnts in the tie    
+### The next columns describe the other participant in the tie    
 
 ![ONA p2p query](../images/wpa/tutorials/columns-5-8.png)
 
@@ -92,7 +92,7 @@ _Query results example: Columns I through M_
    
    The results for this query type always include the following metrics:
 
-  * **StrongTieScore.** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. <!--In the example results shown, sorting on this column showed that one director in the financial-planning organization within Sales has, not surprisingly, a very strong tie with a manager in the financial-planning organization within Sales. It could be that the manager reports to the director and this is a natural, even expected, relationship.--> 
+  * **StrongTieScore.** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. 
   * **DiverseTieScore.** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals.  
   * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a strong tie -– roughly, the top 10% of ties, by strength. "2" indicates a tie that is significant but less strong. "0" indicates a tie that's not that strong. 
   * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. IT contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a diverse tie –- roughly, the top 10% of ties, by diversity. "2" indicates a tie that is significant but less diverse. "0" indicates a tie that’s not that diverse.
@@ -107,10 +107,9 @@ The **Select filters** section offers two identical filters, one for the left si
 
 ![ONA p2p query](../images/wpa/tutorials/ona-p2p-filters.png)
 
-If you specify only the tie-origin filter, the query results will include
-all rows that match the tie-origin PersonId that was specifed in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the destination of the tie.  
+If you specify only the tie-origin filter, the query results will include all rows that match the tie-origin PersonId that you specifed in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the destination of the tie.  
 
-If you specify only the tie-destination filter, the query results will include all rows that match tie-destination PersonId that was specified in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the origin of the tie.  
+If you specify only the tie-destination filter, the query results will include all rows that match tie-destination PersonId that you specified in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the origin of the tie.  
 
 If both tie origin and tie destination filters are specified, the query returns only those rows that match the tie-origin PersonID in the tie-origin filter AND the tie-destination PersonID in the tie-destination filter.
 
