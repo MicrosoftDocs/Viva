@@ -56,6 +56,7 @@ The following columns appear, from left to right, in the query results for ONA p
 ### The first columns describe the initiator of the tie
 
 ![ONA p2p query](../images/wpa/tutorials/columns-1-4.png)
+
 _Query results example: Columns A through D_
 
 * **TieOrigin_PersonId.** De-identified ID number for the person represented in that data row.
@@ -69,6 +70,7 @@ _Query results example: Columns A through D_
 ### The next columns describe the other participapnts in the tie    
 
 ![ONA p2p query](../images/wpa/tutorials/columns-5-8.png)
+
 _Query results example: Columns E through H_
 
 * **TieDestination_PersonId.** De-identified ID number for the person with whom the person represented by TieOrigin_PersonId has a strong or diverse tie. 
@@ -82,6 +84,7 @@ _Query results example: Columns E through H_
 ### The last columns give the results
 
 ![ONA p2p query](../images/wpa/tutorials/columns-9-13.png)
+
 _Query results example: Columns I through M_
 
 * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
@@ -113,17 +116,15 @@ If both tie origin and tie destination filters are specified, the query returns 
 
 ## Additional notes 
 
-You can derive additional value from Strong and Diverse ties, based on distance.
+You can derive additional value from Strong and Diverse ties, based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports.  
 
-In these descriptions, "immediate group" refers to the group contained under the person's manager's manager. 
+You could have Strong ties that are close: These are Strong ties with people in your immediate group. These ties are necessary for overall team efficiency, team effectiveness, knowledge transfer, and best-practice development. We expect that a manager and their team demonstrate these characteristics to one another. 
 
-A person could have Strong ties that are close: These are Strong ties with people in the immediate group, where, for example, "immediate group" means the group contained under the person's manager's manager. Such ties are necessary for overall team efficiency, team effectiveness, knowledge transfer, and best-practice development. One would expect that a manager and their team demonstrate these characteristics for the entire team. 
+You could have Strong ties that are distant: These are Strong ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. However, such ties are likely not sustainable because of time demand for deep and constant engagement. 
 
-A person could have Strong ties that are distant: These are Strong ties with people outside the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are good for evangelizing/embedding fresh/innovative ideas. However, such ties are likely not sustainable due to time demand for deep/constant engagement. 
+You could have Diverse ties that are close: These are Diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group. 
 
-A person could have Diverse ties that are close: These are Diverse ties with people in the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are probably due to an on-demand/context nature satisfying an internal use case. But, the more likely case is a leading indicator of dis-engagement within the group. 
-
-A person could have Diverse ties that are distant: These are Diverse ties with people outside the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are good for evangelizing/embedding cross-functional fresh/innovative ideas. The presence of such ties in manager networks are deemed key for driving innovation and creativity in the team. 
+You could have Diverse ties that are distant: These are Diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks are considered key for driving innovation and creativity in and among teams.  
 
 ## Related topics
 
