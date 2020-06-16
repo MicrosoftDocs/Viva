@@ -118,7 +118,7 @@ If both tie origin and tie destination filters are specified, the query returns 
 
 You can derive additional value from Strong and Diverse ties, based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports.  
 
-You could have Strong ties that are close: These are Strong ties with people in your immediate group. These ties are necessary for overall team efficiency, team effectiveness, knowledge transfer, and best-practice development. We expect that a manager and their team demonstrate these characteristics to one another. 
+You could have Strong ties that are close: These are Strong ties with people in your immediate group. These ties are necessary for the promotion of overall team efficiency, team effectiveness, knowledge transfer, and best-practice development. 
 
 You could have Strong ties that are distant: These are Strong ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. However, such ties are likely not sustainable because of time demand for deep and constant engagement. 
 
