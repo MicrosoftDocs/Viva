@@ -53,7 +53,7 @@ The query results show the quality of the relationship between two specific (but
 
 The following columns appear, from left to right, in the query results for ONA person-to-person queries:
 
-### The first columns describe the user
+### The first columns describe the initiator of the tie
 
 ![ONA p2p query](../images/wpa/tutorials/columns-1-4.png)
 _Query results example: Columns A through D_
@@ -61,8 +61,12 @@ _Query results example: Columns A through D_
 * **TieOrigin_PersonId.** De-identified ID number for the person represented in that data row.
 * **Person attributes.** Organizational attributes about the person who was identified by TieOrigin_PersonId. These are the organizational attributes that you selected as you built the query. In this example, we selected three such attributes. 
 
-   The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. The example results show the columns _TieOrigin_FunctionType_, _TieOrigin_Organization_, and _Tie_Origin_LevelDesignation_.  
+   The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
+    * _TieOrigin_FunctionType_
+    * _Tie_Origin_LevelDesignation_
+    * _TieOrigin_Organization_
 
+### The next columns describe the other participapnts in the tie    
 
 ![ONA p2p query](../images/wpa/tutorials/columns-5-8.png)
 _Query results example: Columns E through H_
@@ -70,7 +74,10 @@ _Query results example: Columns E through H_
 * **TieDestination_PersonId.** De-identified ID number for the person with whom the person represented by TieOrigin_PersonId has a strong or diverse tie. 
 * **Person attributes.** Organizational attributes about the person who was identified by TieDestination_PersonId. These are the organizational attributes that you selected as you built the query. In this example, we selected three such attributes. 
 
-   The column names for these attributes are the organizational attribute name prefixed with _TieDestination__. The example results show the columns _TieDestination_FunctionType_, _TieDestination_Organization_, and _Tie_Destination_LevelDesignation_.  
+   The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
+    * _TieDestination_FunctionType_
+    * _Tie_Destination_LevelDesignation_
+    * _TieDestination_Organization_
 
 ### The last columns give the results
 
@@ -106,9 +113,11 @@ If both tie origin and tie destination filters are specified, the query returns 
 
 ## Additional notes 
 
-There is additional value that one can derive from Strong and Diverse ties based on distance: 
+You can derive additional value from Strong and Diverse ties, based on distance.
 
-A person could have Strong ties that are close: These are Strong ties with people in the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are necessary for overall team efficiency/effectiveness, knowledge transfer and best practice development. One would expect that a manager and his/her team demonstrate this characteristic for the entire team. 
+In these descriptions, "immediate group" refers to the group contained under the person's manager's manager. 
+
+A person could have Strong ties that are close: These are Strong ties with people in the immediate group, where, for example, "immediate group" means the group contained under the person's manager's manager. Such ties are necessary for overall team efficiency, team effectiveness, knowledge transfer, and best-practice development. One would expect that a manager and their team demonstrate these characteristics for the entire team. 
 
 A person could have Strong ties that are distant: These are Strong ties with people outside the immediate group, where say the immediate group represents the group contained under the skip level of the person. Such ties are good for evangelizing/embedding fresh/innovative ideas. However, such ties are likely not sustainable due to time demand for deep/constant engagement. 
 
