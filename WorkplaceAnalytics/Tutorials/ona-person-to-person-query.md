@@ -49,16 +49,34 @@ The ONA person-to-person query measures the strength of connections through thes
 
 ## ONA person-to-person query output
 
-The query results show the quality of the relationship between two specific (but de-identified) people. Each row shows the information for a pair of people between whom a tie exists, or existed, over the time period of the query. 
+The query results show the quality of the relationship between two specific (but de-identified) people. Each row shows the information for a pair of people between whom a tie exists, or existed, over the time period of the query.
 
-![ONA p2p query](../images/wpa/tutorials/ona-p2p-query-results-2.png)
+The following columns appear, from left to right, in the query results for ONA person-to-person queries:
 
-The following columns appear, from left toright, in the query results for ONA person-to-person queries:
+### The first columns describe the user
+
+![ONA p2p query](../images/wpa/tutorials/columns-1-4.png)
+_Query results example: Columns A through D_
 
 * **TieOrigin_PersonId.** De-identified ID number for the person represented in that data row.
-* **Person attributes.** Organizational attributes about the person who was identified by TieOrigin_PersonId. These are the organizational attributes that you selected as you built the query. The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. The example results show the columns _TieOrigin_FunctionType_, _TieOrigin_Organization_, and _Tie_Origin_LevelDesignation_.  
+* **Person attributes.** Organizational attributes about the person who was identified by TieOrigin_PersonId. These are the organizational attributes that you selected as you built the query. In this example, we selected three such attributes. 
+
+   The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. The example results show the columns _TieOrigin_FunctionType_, _TieOrigin_Organization_, and _Tie_Origin_LevelDesignation_.  
+
+
+![ONA p2p query](../images/wpa/tutorials/columns-5-8.png)
+_Query results example: Columns E through H_
+
 * **TieDestination_PersonId.** De-identified ID number for the person with whom the person represented by TieOrigin_PersonId has a strong or diverse tie. 
-* **Person attributes.** Organizational attributes about the person who was identified by TieDestination_PersonId. These are the organizational attributes that you selected as you built the query. The column names for these attributes are the organizational attribute name prefixed with _TieDestination__. The example results show the columns _TieDestination_FunctionType_, _TieDestination_Organization_, and _Tie_Destination_LevelDesignation_.  
+* **Person attributes.** Organizational attributes about the person who was identified by TieDestination_PersonId. These are the organizational attributes that you selected as you built the query. In this example, we selected three such attributes. 
+
+   The column names for these attributes are the organizational attribute name prefixed with _TieDestination__. The example results show the columns _TieDestination_FunctionType_, _TieDestination_Organization_, and _Tie_Destination_LevelDesignation_.  
+
+### The last columns give the results
+
+![ONA p2p query](../images/wpa/tutorials/columns-9-13.png)
+_Query results example: Columns I through M_
+
 * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
 * **Metrics.** The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
    
