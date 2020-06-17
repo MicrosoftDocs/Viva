@@ -16,11 +16,11 @@ ms.prod: mya
 
 ### Q1. Who will get the email?
 
-A1. Everyone in your Office 365 tenant with an English (United States) language Exchange Online mailbox who is located in North America will receive the email (if they have actionable tasks).
+A1. Everyone in your Office 365 tenant with an English (United States) language Exchange Online mailbox will receive the email (if they have actionable tasks).
 
 ### Q2. How can I manage who receives the email?  
 
-A2. The Briefing email is on by default. You can use [PowerShell](be-admin.md) to enable/disable the Briefing email for individual users. Users can also individually opt out by simply selecting the Unsubscribe link at the end of a Briefing email.  
+A2. The Briefing email is on by default. You can use [PowerShell](be-admin.md) to enable/disable the Briefing email for individual users. You can set the default opt-in or opt-out option at the tenant level in the Microsoft 365 Admin Center. Users can also individually opt out by simply selecting the *Unsubscribe* link at the end of a Briefing email.
 
 ### Q3. Does the Briefing email comply with GDPR?
 
