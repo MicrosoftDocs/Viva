@@ -48,7 +48,7 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
     If you are the meeting organizer, you will see an insight such as this:  
     
-    ![Prep for meetings (as organizer)](../../images/mya/use/you-organized.png)
+    ![Prep for meetings (as organizer)](../../images/mya/use/you-organized-616.png)
 
 #### Insight option details
 
@@ -60,7 +60,7 @@ Some of these options apply to the meeting organizer, some apply to invitees, an
 | **Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select the down arrow to see more information about these attendees. | Make sure that you have a quorum before the meeting. Consider sending a reminder if you haven't heard back from attendees. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
 | **Conflicts** | This section outlines all other meetings that have a conflict with this meeting. | Take time to resolve conflicts well ahead of each meeting. Doing so helps other participants know whether there will be a quorum for the meeting. | 
 | **Respond**  &emsp; &emsp; &emsp;&emsp; | (This section is only for the invitees, not for the organizer.) <p>You can respond **Yes** or **No** to the meeting invitation. If you have already responded, your response is shown here. | Responses help the organizer determine whether required participants can attend, and then take necessary steps (such as rescheduling) if necessary. |
-| **Attachments** | This section shows the number of attachments, their titles, and their storage location (online or local). You can see more details and you can open the attachment if it is stored online. <br> If you are the organizer and the invitation contains attached cloud documents, you can see the [open rates](#open-rate) for those documents.  | |
+| **Attachments** | This section shows the number of attachments, their titles, and their storage location (online or local). You can see more details and you can open the attachment if it is stored online. <!-- <br> If you are the organizer and the invitation contains attached cloud documents, you can see the [open rates](#open-rate) for those documents. -->  | |
 | **Related documents** | This section shows documents that you might want to review to prepare for the meeting. | 
 | **Related tasks** | This section shows tasks that you might want to complete to prepare for the meeting. | 
 | **Online meeting link**  | (This section is only for the organizer, not for the invitees.) <p> **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online in Skype for business or in Teams. | Be an inclusive meeting organizer. If you have attendees who are working remotely, consider adding an online link to your meeting.  |
