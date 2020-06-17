@@ -3,7 +3,7 @@
 title: Workplace Analytics privacy and data access
 description: Discusses the privacy and data access controls available in Workplace Analytics  
 author: paul9955
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: conceptual
 localization_priority: normal
 search.appverid:
@@ -32,8 +32,8 @@ Organizations decide who can have access to see the data in Workplace Analytics.
 * **Analyst (Limited Access)** has access to the Workplace Analytics **Home** page and explore metrics features where minimum group size is enforced.
 * **Analyst** has full access to all product features except the administrator features.
 * **Administrator role** has access to administrator features only (**Settings** and **Data Source** pages).
-* **Program manager** has access to the Workplace Analytics **Home** page and lets program managers explore metrics in cases where the minimum group size is enforced. They also have access to **Plans** and its **Manage** page, on which they can set up plans, and to its **Track** page, on which they can track the progress of active or ended plans.
-* **Group manager** has access to the Workplace Analytics **Home** page and lets group or people managers explore metrics about their specific team in cases where the minimum team size is enforced. They also have access to **Plans** and its **Manage** page, on which they can set up plans, and to its **Track** page, on which they can track the progress of active or ended plans.
+* **Program manager** has access to the Workplace Analytics **Home** page and lets program managers explore metrics in cases where the minimum group size is enforced. They also have access to **Plans** and its **Manage** and **Track** pages, where they can set up plans and track the progress of active or ended plans.
+* **People managers** can get access to Workplace Analytics through [Manager settings](../use/settings.md#manager-settings). If they meet the minimum team size, they can see the **Home** page and explore metrics about their specific team. They also have access to **Plans** and its **Manage** and **Track** pages, where they can set up plans and track the progress of active or ended plans.
 
 ## You control the data that Workplace Analytics uses
 
@@ -94,7 +94,7 @@ Office 365 email, calendar, call, and instant message metadata provides the foun
 -->
 
 > [!Important]
-> Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed and private email and meetings are excluded altogether.
+> Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed, confidential, and private email and meetings are excluded altogether.
 
 ## Related topic
 

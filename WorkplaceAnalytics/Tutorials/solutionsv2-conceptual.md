@@ -151,7 +151,7 @@ After you create and upload a .csv file to create a group, all email addresses t
 
 ### Privacy note
 
-After you create and upload a file to create a group, Workplace Analytics matches the email addresses in the file to PersonIDs. From this point on, Workplace Analytics uses the PersonIDs and no longer shows email addresses in any of its outputs, for example, in the results of flexible queries. The email addresses are never again made visible to analysts, program, or group managers. As for admins, they maintain access to the HR data, which includes email addresses, but they cannot match email addresses to PersonIDs. The person who uploads email addresses never sees the associated PersonIDs.
+After you create and upload a file to create a group, Workplace Analytics matches the email addresses in the file to PersonIDs. From this point on, Workplace Analytics uses the PersonIDs and no longer shows email addresses in any of its outputs, for example, in the results of flexible queries. The email addresses are never again made visible to analysts or program managers. As for admins, they maintain access to the HR data, which includes email addresses, but they cannot match email addresses to PersonIDs. The person who uploads email addresses never sees the associated PersonIDs.
 
 <!-- 
 Return to [Next steps: processing tasks](solutionsv2-task.md#next-steps-processing-tasks).
