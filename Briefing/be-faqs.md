@@ -50,7 +50,7 @@ A3. No, you will never be sent an empty email with no content.
 
 ### Q4. Can I stop receiving these emails?  
 
-A4. You can unsubscribe from the email in one-click from the footer of the email.
+A4. You can unsubscribe from the email with one click in the email footer.
 
 ### Q5. Can my manager, administrator, or anyone else at my organization see what’s in my Briefing email?
 
@@ -61,3 +61,7 @@ A5. No, the Briefing email is private and for you and only you. All information 
 A6. You are only getting emails from Cortana and MyAnalytics with the purpose of helping you be more productive during your workday. MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
 
 Briefing is optimized to show you the most relevant and actionable information you need for the day ahead. It provides complementary experiences to help you be your most productive self. You only get Briefing emails at the beginning of your workday if you have actionable tasks or meetings. You can opt out with the Unsubscribe link at the end of the email.
+
+### Q7. How can I send Microsoft product feedback or ask a question about Briefing email?
+
+A7. Send feedback or questions to: [https://cortana.office.com/briefing](https://cortana.office.com/briefing).
