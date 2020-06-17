@@ -15,7 +15,7 @@ audience: Admin
 
 # Configure Briefing email
 
-As the admin, you can set up Briefing email at the [user level](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can turn on or off all Briefing email functionality for one user, multiple users, or a tenant.
+As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can turn on or off all Briefing email functionality for one user, multiple users, or a tenant.
 
 ## Prerequisites
 
@@ -34,8 +34,8 @@ Confirm the following additional prerequisites. Then you can use the Exchange On
 
 ### Additional prerequisites
 
+* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module).
 * **.NET Framework** - You must have [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or the latest available version installed.
-* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
 
 > [!Important]
 > Before configuring access, confirm you're connected to [Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#connect-to-exchange-online-using-the-exo-v2-module).
@@ -48,7 +48,7 @@ To enable or disable Briefing email for a specific user, use the Exchange Online
 Set-UserBriefingConfig -Identity joe@contoso.com [-Enabled [<$true | $false>]
 ```
 
-- If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user.
+- If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user. The user will not be able to override this setting or opt-in to the Briefing email.
 - If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from [cortana.office.com](https://cortana.office.com). If no action occurs, this setting applies by default.
 
 For example, to get the current state of the Briefing email flag for "joe@contoso.com," you'd use:
@@ -95,9 +95,9 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
 
 ## Tenant-level configuration
 
-As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English (US) will receive the Briefing email.
+As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English will receive the Briefing email.
 
-Users can unsubscribe individually from within any Briefing email they receive. However, if you disable this feature at the tenant level, no users in your organization will receive the Briefing email and individual users cannot override this tenant-level setting.  
+Users can unsubscribe individually from within any Briefing email they receive. If you disable the Briefing email at the tenant level, users in your organization will not receive the Briefing email, but individual users can override this tenant-level setting. To completely prevent a user from receiving the Briefing email, you must disable the Briefing email for that user with PowerShell.
 
 ### To configure access for a tenant
 
@@ -108,7 +108,7 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
 3. In the left pane, expand **Settings**, and then select **Org Settings**.
 4. Under **Org Settings**, select **Briefing email (Preview)**.
-5. Select or deselect the checkbox next to **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email and individual users cannot override this setting.
+5. Select or deselect the checkbox for **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email and individual users cannot override this setting.
 
    ![Briefing email access](./images/be-admin.png)
 
