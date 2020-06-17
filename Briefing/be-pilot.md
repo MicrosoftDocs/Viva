@@ -13,7 +13,7 @@ ms.prod: mya
 
 # Conduct a user pilot
 
-Before enabling Briefing across your entire organization, you can run a pilot with a subset of users. Especially for large organizations, a small-scale pilot is a natural first step to validate user readiness, identify and mitigate issues, and help ensure a successful, organization-wide rollout.
+If you choose to disable the Briefing email for your organization, you can run a pilot with a subset of users first. Especially for large organizations, a small-scale pilot is a natural first step to validate user readiness, identify and mitigate issues, and help ensure a successful, organization-wide rollout.
 
 To achieve the most realistic results, the pilot should involve a group of actual users, mimic how they regularly communicate and collaborate, and verify both technical and user experiences.  
 
