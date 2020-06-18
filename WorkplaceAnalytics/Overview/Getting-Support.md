@@ -15,7 +15,7 @@ ms.prod: wpa
 |Channel |Description |How to access |
 |------- |----------- |--------------- |
 |Workplace Analytics Support|Get help with specific Workplace Analytics setup, onboarding, features and functionality, and data analysis. |In [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (at the top), enter your question or feedback, and then select **Send**.|
-|Workplace Analytics FastTrack services |If your company is a FastTrack service customer, you can get help from our Workplace Analytics consultants through the FastTrack program. Our team can help you implement analytics technology more quickly and build new analytical capabilities. |Contact your Microsoft Workplace Analytics representative for details. |
+|Workplace Analytics FastTrack services |If your company has a service agreement, you can get help from our Workplace Analytics consultants through the FastTrack program. Our team can help you implement analytics technology more quickly and build new analytical capabilities. |Contact your Microsoft Workplace Analytics representative for details. |
 
 ## Related topics
 
