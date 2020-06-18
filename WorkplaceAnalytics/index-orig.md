@@ -12,11 +12,11 @@ author: madehmer
 
 **Workplace Analytics** helps you understand how your organization invests its time with insights into how groups collaborate across the organization. Workplace Analytics quantifies Office 365 collaboration to give business decision makers a powerful tool for evidence-based cultural transformation.
 
-* [Data privacy](../privacy/data-protection-intro.md) - Learn how to protect and keep personal data private and how Workplace Analytics complies with applicable laws and regulations.
-* [Set up and maintenance](../use/home-page.md) - Learn how to set up and maintain Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change privacy and other settings.
-* [Business insights](../use/home-page.md) - Get analysis scope information and research-based behavioral insights into how your organization currently gets work done and how to maintain or change work patterns over time.
-* [Data analysis](get-started.md) - Learn how to analyze data with Workplace Analytics Explore pages and how to create custom queries for more detailed analysis.
-* [Plans](../tutorials/solutionsv2-intro.md) - Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
+* [Data privacy](../WorkplaceAnalytics/privacy/data-protection-intro.md) - Learn how to protect and keep personal data private and how Workplace Analytics complies with applicable laws and regulations.
+* [Set up and maintenance](../WorkplaceAnalytics/use/home-page.md) - Learn how to set up and maintain Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change privacy and other settings.
+* [Business insights](../WorkplaceAnalytics/use/home-page.md) - Get analysis scope information and research-based behavioral insights into how your organization currently gets work done and how to maintain or change work patterns over time.
+* [Data analysis](../WorkplaceAnalytics/Overview/get-started.md) - Learn how to analyze data with Workplace Analytics Explore pages and how to create custom queries for more detailed analysis.
+* [Plans](../WorkplaceAnalytics/tutorials/solutionsv2-intro.md) - Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
 
 <ul class="panelContent cardsY">
     <li>
