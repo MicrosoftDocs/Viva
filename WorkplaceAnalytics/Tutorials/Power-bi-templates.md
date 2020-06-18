@@ -24,9 +24,9 @@ The following Power BI templates are available within Workplace Analytics:
 * [Collaboration assessment](../tutorials/power-bi-collab-assess.md)
 * [Collaboration tracker](../tutorials/power-bi-collab-track.md)
 * [Influence insights](../tutorials/pbi-influence-db.md)
-* [Teams insights](../tutorials/power-bi-teams.md)
 * Manager impact
 * Quickstart overview
+* [Teams insights](../tutorials/power-bi-teams.md)
 
 ## Example steps
 
