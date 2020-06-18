@@ -15,9 +15,7 @@ audience: Admin
 ---
 # Data analysis in Workplace Analytics
 
-Microsoft Workplace Analytics is a cloud-based service that provides rich, actionable insights into your company's communication and collaboration trends that help you make more effective business decisions.
-
-Combining the organizational data that your company chooses to provide with email and calendar metadata from Office 365, Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
+Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
 You can explore the data with the Workplace Analytics dashboards, and dive deeper into your company's behavioral metrics by using custom queries and query templates.
 
