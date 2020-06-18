@@ -134,14 +134,14 @@
                       href: ~/tutorials/power-bi-templates.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
-                    - name: Influence insights
-                      href: ~/tutorials/pbi-influence-db.md
-                    - name: Teams insights
-                      href: ~/tutorials/power-bi-teams.md
                     - name: Collaboration assessment
                       href: ~/tutorials/power-bi-collab-assess.md
                     - name: Collaboration tracker
                       href: ~/tutorials/power-bi-collab-track.md
+                    - name: Influence insights
+                      href: ~/tutorials/pbi-influence-db.md
+                    - name: Teams insights
+                      href: ~/tutorials/power-bi-teams.md
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results
