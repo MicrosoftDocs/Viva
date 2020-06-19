@@ -60,7 +60,7 @@ If your organization has not fully migrated to Office 365 Exchange Online, you m
 
 ## Appearance of newly licensed users 
 
-The data that Workplace Analytics uses is refreshed once a week, on Sunday. This includes data records for licensed users. If you add a user license on a Tuesday, that person will not show up in Workplace Analytics until the data refresh the following Sunday. After the refresh, data that pertains to the newly licensed user appears in Workplace Analytics in the following ways:
+The data that Workplace Analytics uses is refreshed once a week, on Sunday; the newly processed data appears one day later, on Monday. This includes data records for licensed users. Therefore, if you add a user license on a Tuesday, that person will not show up in Workplace Analytics until the following Monday. After the weekly refresh and processing, data that pertains to the newly licensed user appears in Workplace Analytics in the following ways:
 
  * The user is represented in the user counts that are displayed on the [Workplace Analytics Insights](../use/home-page.md) page under **My organization's data**.
  * [Queries](../tutorials/query-basics.md) that analysts run can return results that include data about this user's activities. 
