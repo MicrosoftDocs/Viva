@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -15,7 +15,7 @@ audience: Admin
 
 # Configure Briefing email
 
-As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can turn on or off all Briefing email functionality for one user, multiple users, or a tenant.
+As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center, or you can enable or disable the Briefing email for a specific user or multiple users with PowerShell.
 
 ## Prerequisites
 
@@ -26,9 +26,6 @@ Confirm the following before configuring access:
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
 
 ## User-level configuration
-
-> [!Note]
-> Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com).
 
 Confirm the following additional prerequisites. Then you can use the Exchange Online PowerShell V2 module to set Briefing email access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users).
 
@@ -94,6 +91,9 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
 3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt.
 
 ## Tenant-level configuration
+
+> [!Note]
+> Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com).
 
 As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English will receive the Briefing email.
 
