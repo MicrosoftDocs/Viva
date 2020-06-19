@@ -439,6 +439,9 @@ You can plan your schedule with these options all at one time or individually as
    * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
      ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
+      
+   > [!Note] 
+   > If you've composed a message for a previous out-off-office period, that message is shown here. You can edit it in the **Compose or edit message** field so that it pertains to your upcoming time away.  
 
    * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks. You can select to notify them through an email or meeting invitation, and then select **Compose**.
 
