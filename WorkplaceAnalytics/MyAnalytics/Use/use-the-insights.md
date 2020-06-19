@@ -441,7 +441,7 @@ You can plan your schedule with these options all at one time or individually as
      ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
       
      > [!Note] 
-     > The most recent message that you've composed for a previous out-off-office period is shown in the **Compose or edit message** field. You can edit the message so that it pertains to your upcoming time away.   
+     > If you've composed a message for a previous out-off-office period, the most recent message that you used is shown in the **Compose or edit message** field. You can edit the message so that it pertains to your upcoming time away.   
 
    * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks. You can select to notify them through an email or meeting invitation, and then select **Compose**.
 
