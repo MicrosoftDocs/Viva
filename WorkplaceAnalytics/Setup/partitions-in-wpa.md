@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Partitions in Workplace Analytics
 description: Description of partitions plus how to use and set up partitions in Workplace Analytics 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 search.appverid:
@@ -19,18 +19,18 @@ audience: Admin
 
 A partition is a data workspace for an analyst. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies create partitions that contain subsets of employee data. To do this, they use various criteria. Here are examples:
 
-* **Organization:** A company can create a partition to be the data of all the employees in one division, or under a particular manager. Example: R & D
-* **Geography:** A multi-national corporation might create different partitions for the data of employees of different countries or parts of countries. Example: Wales 
+* **Organization:** A company can create a partition for data about all the employees in one division, or in a functional group or team. Example: R & D
+* **Geography:** A multi-national corporation might create different partitions for the data of employees of different countries or parts of countries. Example: Wales
 * **Role:** A company could select the data of all the employees who have a particular function to include in a partition. Example: Accounting personnel
 
 ## Partitions give access to data
 
-A partition defines what data you work with in Workplace Analytics. If you have one of the analyst roles (analyst or analyst limited), you work with data on the **Explore** and **Queries** pages of Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages. If you have the program manager or group manager role, you can work on **Plans** and your role there is not limited, so you have access to all Plans.
+A partition defines what data you work with in Workplace Analytics. If you have one of the analyst roles (analyst or analyst limited), you work with data on the **Explore** and **Queries** pages of Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages. If you have the program manager role, you can work on **Plans** and your role there is not limited, so you have access to all Plans.
 
 For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople on the **Explore** pages and create queries about salespeople on the **Queries** page.
 
 > [!Note]
-> Analysts (and limited analysts) are not the only Workplace Analytics users who use partitions. Program managers and group managers who work in [Plans](../tutorials/solutionsv2-intro.md) must also be granted explicit access to a partition, after which they can create and view solution [plans](../tutorials/solutionsv2-task.md#create-a-plan) only in that partition.
+> Analysts (and limited analysts) are not the only Workplace Analytics users who use partitions. Program managers who work in [Plans](../tutorials/solutionsv2-intro.md) must also be granted explicit access to a partition, after which they can create and view solution [plans](../tutorials/solutionsv2-task.md#create-a-plan) only in that partition.
 
 ## The Global partition
 
@@ -41,13 +41,13 @@ One particular partition encompasses everyone’s data: the "Global" partition. 
 
 ## Use partitions
 
-If you are an analyst, you must have a partition selected to be able to go to **Explore** and **Queries**. If you are a program manager or group manager, you work in the Global partition by default and you can go right to **Plans** to manage programs. If you are an admin, you create partitions, but you do not work within one.
+If you are an analyst, you must have a partition selected to be able to go to **Explore** and **Queries**. If you are a program manager, you work in the Global partition by default and you can go right to **Plans** to manage programs. If you are an admin, you create partitions, but you do not work within one.
 
 ### To use a partition
 
 * **Roles**: analyst, PM, admin
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition." 
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition."
 
     If you see this notice, ask your Workplace Analytics admin to assign you to a partition. You cannot start using Workplace Analytics until an admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
 
@@ -64,8 +64,8 @@ If you are an analyst, you must have a partition selected to be able to go to **
 
 4. If you have a non-analyst role, your choice depends on the role (or roles) that you've been assigned:
 
-    * **Both a manager and analyst:** If you have both a group or program manager role and an analyst role, the data you see depends on the page that you open. Plans are accessible only in the Global partition. A person with both a manager and analyst roles can access plans in Global partition and access the **Explore** and **Queries** pages in other partitions that they have been granted.
-    * **Manager only:** Managers do not need to select a partition because they automatically use Global partition. If you’re a group or program manager, go to the **Plans** page.
+    * **Both a manager and an analyst:** If you have both a program manager role and an analyst role, the data you see depends on the page that you open. Plans are accessible only in the Global partition. A person with both a manager and analyst roles can access plans in Global partition and access the **Explore** and **Queries** pages in other partitions that they have been granted.
+    * **Manager only:** Managers do not need to select a partition because they automatically use Global partition. If you’re a manager, go to the **Plans** page.
     * **Admin:** If you’re signed in to Workplace Analytics as an admin, then partitions don't affect you or your access to **Settings**.
 
 ## Create, edit, and delete partitions
@@ -87,7 +87,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 | Name the partition | 4 | Also, optionally, type a description |
 | Create filters  | 5 | Select the employees whose data the partition will contain |
 | Set attributes  | 6, 7 | Select organizational-data attributes to include in the partition |
-| Give access |  8  | Select one or more analysts who will have access to this partition | 
+| Give access |  8  | Select one or more analysts who will have access to this partition |
 
 > [!Important]
 > Plan your partitions carefully before you start to create them. Note the fact that an organization can have a maximum of five partitions. (The Global partition does _not_ count toward this total.)
@@ -106,16 +106,16 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 
     > [!Note]
     > You can filter by only one attribute. For example, if you create a filter that uses the Organization attribute, you could produce the following filter clauses:  
-    >  * Organization + Equals + <name_of_manager_1> AND 
-    >   
+    >  * Organization + Equals + <name_of_manager_1> AND
+    >
     >    Organization + Equals + <name_of_manager_2>
-    >   
+    >
     > But you cannot add another clause that uses a different attribute, such as:
-    >   * Domain + Equals + <domain_name> 
+    >   * Domain + Equals + <domain_name>
 
-6. **Select attributes**. Select which attributes from the organizational data to include in the partition. To exclude an attribute from the partition, leave it unselected. 
+6. **Select attributes**. Select which attributes from the organizational data to include in the partition. To exclude an attribute from the partition, leave it unselected.
 
-7. **Select visibility of attributes**. You might want one or more attributes to not be visible to analysts who work in this partition. For example, "sales quota" might be a sensitive attribute that nevertheless has been uploaded in the organizational data. To hide the "sales quota" attribute, select it and then set its **Visibility** to **Hash in report**. 
+7. **Select visibility of attributes**. You might want one or more attributes to not be visible to analysts who work in this partition. For example, "sales quota" might be a sensitive attribute that nevertheless has been uploaded in the organizational data. To hide the "sales quota" attribute, select it and then set its **Visibility** to **Hash in report**.
 
     ![Select visibility](../images/wpa/setup/create-partitions-attributes.png)
 

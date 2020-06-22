@@ -24,7 +24,7 @@ The following describes who does what to assign roles in Workplace Analytics for
 
 To allow administrators to set system defaults, privacy settings, upload and verify organizational data, and to allow data analysts to use Workplace Analytics, you must assign roles to users in the Workplace Analytics service.
 
-To give group managers access to their team's data in Workplace Analytics, see [Manager settings](../use/settings.md#manager-settings).
+You can give managers access to their team's data in Workplace Analytics in [Manager settings](../use/settings.md#manager-settings).
 
 ## Workplace Analytics roles and access levels to users
 

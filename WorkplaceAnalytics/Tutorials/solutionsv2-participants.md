@@ -13,7 +13,7 @@ ms.prod: wpa
 
 **Role** - participant in a plan, an information worker who is using MyAnalytics
 
-While analysts, program managers, and group managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better.
+While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better.
  
 During a plan, participants receive or can view the following items:
 
