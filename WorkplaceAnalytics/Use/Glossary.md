@@ -18,7 +18,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |----|----------|
 | Adjusted meeting hours |An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
 |Aggregation | Aggregation of data is a process in which information is compiled and expressed in summary form. Aggregation is one means of achieving de-identification. | 
-|Anonymization | Anonymization is a means of de-identifiation through which personally identifiable information (PII) has been removed from data in such a way that it cannot be recovered. |
+|Anonymization | Anonymization is a means of de-identifiation through which personal data has been removed from data in such a way that it cannot be recovered. |
 |Attended| A person attended a meeting if they did not decline the meeting request. This means that they either accepted the meeting request, accepted it as _tentative_, or did not respond to it. (This meeting request itself is subsequently referred to as a *non-declined meeting request*.) |
 |Attendee|A person who was invited and *attended* the meeting.|
 |Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
@@ -46,7 +46,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Organizer|The person who organizes a meeting. This person is also counted as an *attendee*.|
 |People meeting hours|The sum of adjusted meeting hours for each person in the meeting. For example, if a meeting lasts at least one hour with three attendees (and no attendees have overlapping meetings), the people meeting hours for that meeting is three.|
 |Person|The *measured employee* for whom the metric is calculated.|
-|Personally identifiable information (PII) | PII is any data that can be used to identify a specific person. Examples of PII are email addresses, telephone numbers, IP addresses, and digital images. |
+|Personal data  | Personal data is any data that can be used to identify a specific person. Examples of personal data are email addresses, telephone numbers, IP addresses, and digital images. |
 |Pseudonymized | Pseudonymized data is information in which personally identifiable information has been replaced with values that do not directly identify a person (such as numeric identifiers that can no longer be attributed to specific persons without the use of additional information). Pseudonymization is one means of achieving de-identification. |
 |Recipient|A person included in an email (includes the sender and people included in the cc and bcc lines).|
 |Redundancy (organizational)|Organizational redundancy is present if at least three attendees are from different levels within the same organization. For example, a meeting whose attendees included a General Manager, a Director, and an Independent Contributor from the same organization would be a redundant meeting.|

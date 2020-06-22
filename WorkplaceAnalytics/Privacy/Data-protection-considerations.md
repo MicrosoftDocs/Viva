@@ -72,9 +72,9 @@ A data subject is a person who can be identified through personal data. In the c
 > [!Note]
 > In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user," a "person," an "individual," or an "employee."
 
-## De-identification of PII
+## De-identification of personal data
 
-To keep from disclosing personally identifiable information (PII), Workplace Analytics de-identifies user data through the use of pseudonymization and other techniques, including aggregation. For examples of how it does this for various types of data, see the Examples column in the table in the [following section](#types-of-data-for-analysis-in-workplace-analytics). This [illustrative example](#illustrative-example) describes how Workplace Analytics secures information in query results. Finally, see the [Glossary](../use/glossary.md) for definitions of the terms related to privacy: aggregation, anonymization, de-identification, hashing, and personally identifiable information (PII).
+To keep from disclosing personal data, Workplace Analytics de-identifies user data through the use of pseudonymization and other techniques, including aggregation. For examples of how it does this for various types of data, see the Examples column in the table in the [following section](#types-of-data-for-analysis-in-workplace-analytics). This [illustrative example](#illustrative-example) describes how Workplace Analytics secures information in query results. Finally, see the [Glossary](../use/glossary.md) for definitions of the terms related to privacy: aggregation, anonymization, de-identification, hashing, and personal data.
 
 > [!Note] 
 > To balance the requirements of protecting individual privacy and providing useful information, Workplace Analytics is gradually incorporating a nuanced approach known as [differential privacy](differential-privacy.md).  
