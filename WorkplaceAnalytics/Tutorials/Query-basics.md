@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
@@ -91,7 +89,7 @@ See [Peer Comparison queries](../Tutorials/comparison-query.md) to learn more.
 
 ## Meeting exclusions
 
-You can use Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
+You can use meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
 See [Meeting exclusions](../Tutorials/meeting-exclusions-intro.md) to learn more.
 
@@ -101,7 +99,7 @@ An analyst might start by looking at a person query to see trends of employees a
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally,  to address the problem, the analyst could work with a program or group manager to set up an improvement plan. See [Plans: walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally,  to address the problem, the analyst could work with a program to set up an improvement plan. See [Plans: walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
 
 There are three ways to create queries:
 
@@ -119,8 +117,10 @@ Workplace Analytics includes a number of predefined query templates to help you 
 
 * **Quickstart overview** is a Power BI template that gives a high-level view of key organizational metrics.
 * **Collaboration overload** is a Power BI template that identifies collaboration patterns.
+* **Influence insights** is a Power BI template that helps you understand where influencers are represented in your company.
 * **Manager impact** is a Power BI template that analyzes manager trends.
 * **Build focus hours** finds groups that have the lowest amount of focus time.
+* **Calls and IMs** analyzes call and instant-message hours by person.
 * **Meetings attendees query** analyzes meeting hours by the number of attendees.
 * **Meetings day query** analyzes meeting hours by day of the week.
 * **Meetings duration query** analyzes meeting hours by duration.
@@ -128,6 +128,8 @@ Workplace Analytics includes a number of predefined query templates to help you 
 * **Protect after hours** finds groups that collaborate the most outside of work hours.
 * **Reduce meeting hours** finds groups that are overwhelmed by meetings.
 * **Standard query** provides all base metrics available for a person query.
+* **Hourly collaboration** analyzes meeting, email, instan- message, and call activity by hour of the day.
+* **Business continuity** tracks business continuity in Power BI, which requires Hourly collaboration query results. 
 
 ## Related topics
 

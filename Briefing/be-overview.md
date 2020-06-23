@@ -14,22 +14,25 @@ ms.prod: mya
 
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within the first two hours of your workday (as set up in Outlook), you’ll get an email about any relevant items to help you better prepare for the day ahead, including:
 
-* Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks
-* Documents related to today’s meetings that you might want to review beforehand
-* Suggested focus time you can schedule to help get independent work done
+* Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks.
+* Documents related to today’s meetings that you might want to review beforehand.
+* Suggested focus time you can schedule to help get independent work done.
+
+> [!Important]
+> Briefing is being released in phases with the first release made available only to Microsoft 365 Enterprise users with Exchange Online mailboxes in English.
 
 ## Why am I getting this?
 
-You are receiving the Briefing email because your admin has enabled this email for your organization. If you are not receiving the Briefing email, it might be because you previously unsubscribed, or because your administrator has disabled it for your organization.
+You are receiving the Briefing email because this email is currently on for your organization. If you are not receiving the Briefing email, it might be because you previously unsubscribed, or because your administrator has disabled it for you.
 
-Please contact your admin if you'd like to receive the Briefing email. This email is not controlled with the Cortana app and is unrelated to any Cortana on Windows settings. To opt out, go to [briefing.microsoft.com](https://briefing.microsoft.com).
+Please contact your admin if you'd like to receive the Briefing email. This email is not controlled with the Cortana app and is unrelated to any Cortana on Windows settings. To opt out, go to [cortana.office.com](https://cortana.office.com).
 
 ## Adaptive or HTML version
 
 You’ll get a different version of the Briefing email depending on which version of Outlook you’re using:
 
-* **Adaptive version** - If you open the Briefing email in OWA (Outlook Web Access), Outlook mobile (iOS and Android), and Outlook for Windows desktop, you’ll see the Adaptive version with links to open tasks, upcoming meetings, related documents, and complete in-line actions, and book suggested focus time.
-* **HTML version** - If you open the Briefing on a Mac or in OWA on a mobile device, you’ll see the HTML version that links to open tasks, upcoming meetings, and related documents, but will not include in-line actions or suggested focus time.
+* **Adaptive version** - If you open the Briefing email in OWA (Outlook Web Access), Outlook mobile (iOS and Android), and Outlook for Windows or Mac desktop, you’ll see the Adaptive version with links to open tasks, upcoming meetings, related documents, and complete in-line actions, and book suggested focus time.
+* **HTML version** - If you open the Briefing in OWA on a mobile device, you’ll see the HTML version that links to open tasks, upcoming meetings, and related documents, but will not include in-line actions or suggested focus time.
 
 ## How it works
 
@@ -45,7 +48,7 @@ For each task, you can select:
 For documents, select:
 
 * **Done** to indicate you are finished reviewing the document.
-* **Not related** to remove the document suggestion and gives feedback that helps improve future .
+* **Not related** to remove the document suggestion and gives feedback that helps improve future.
 
 ## First Briefing
 
@@ -53,10 +56,10 @@ As a new user, your first Briefing email explains how to use it to prepare for u
   
    ![First Briefing email](./images/first-briefing.png)
 
-<!--  ## Configuration
+## Configuration
 
 The Briefing email needs to be set up for your organization by the admin. See [Configure the Briefing email](be-admin.md) for details about configuration.
--->
+
 ## Using the Briefing email
 
 Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-version), the Briefing email includes the following sections:
@@ -64,13 +67,3 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 * [Prepare for today's meetings](be-meetings.md)
 * [Tasks you need to follow up on](be-tasks.md)
 * [Make the most of your focus time](be-focus.md) (Adaptive version only)
-
-## FAQs
-
-**Q1. When is the Briefing email sent?**
-
-Within the first two hours of each workday (per your [Outlook Calendar Work time settings](https://outlook.office.com/calendar/options/calendar/view/appearance)) when you have actionable tasks or meetings that day. You won’t get a Briefing email on a day without actionable tasks or when you’re not working, such as a weekend day.
-
-**Q2. How do I unsubscribe?**
-
-Select **Unsubscribe** near the end of your Briefing email to opt out of future Briefing emails.

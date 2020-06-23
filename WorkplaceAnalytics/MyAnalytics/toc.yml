@@ -16,8 +16,12 @@
           href: ./use/MyA-elements.md
         - name: Dashboard
           href: ./use/dashboard-2.md
-        - name: Add-in
-          href: ./use/add-in.md
+        - name: Insights add-in
+          items:
+            - name: Insights add-in
+              href: ./use/add-in.md
+            - name: Use Insights
+              href: ./use/use-the-insights.md          
         - name: Digests
           items:
             - name: Welcome
@@ -27,7 +31,7 @@
         - name: Inline suggestions
           href: ./use/mya-notifications.md
         - name: Focus plan
-          href: ./use/focus-plan.md           
+          href: ./use/focus-plan.md               
     - name: MyAnalytics admin guide 
       items:
         - name: Introduction
@@ -57,6 +61,8 @@
           href: ./Use/network.md        
         - name: Collaboration
           href: ./Use/collaboration.md 
+ #       - name: Leadership
+ #         href: ./use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction

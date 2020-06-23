@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
@@ -15,64 +15,29 @@ audience: Admin
 
 # Configure Briefing email
 
-As the admin, you can configure Briefing email for your organization at the user level. You can turn on or off all Briefing email functionality for one user or for multiple users.
+As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). As the admin, you can configure the Briefing email for your organization at the user or tenant level. You can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center, or you can enable or disable the Briefing email for a specific user or multiple users with PowerShell.
 
 ## Prerequisites
 
 Confirm the following before configuring access:
 
+* **Exchange or Global admin role** - You must have either an Exchange Administrator or a Global Administrator role to configure users for Briefings.
 * **Licensed users only** - Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
-* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
-<!--
-### To configure access at the tenant level
-
-As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English (US) will receive the Briefing email.
-
-Users can unsubscribe individually from within any Briefing email they receive. However, if you disable this feature at the tenant level, no users in your organization will receive the Briefing email and individual users cannot override this tenant-level setting.  
-
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
-
-    ![New admin center](./images/the-new-admin-center.png)
-
-3. In the left pane, expand **Settings**, and then select **Services**.
-4. Under **Services**, select **Briefing email (Preview)**.
-5. Select or deselect the checkbox next to **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the Briefing email and individual users cannot override this setting.
-
-   ![Briefing email access](./images/be-admin.png)
-
-As the admin, you can set the Briefing email up at the [tenant level](#tenant-level-configuration) or the [user level](#user-level-configuration).
-
-## Tenant-level configuration
-
-You can enable or disable the Briefing email for all users in your organization at the tenant level. Use the following Exchange Online PowerShell cmdlets to set the tenant default:
-
-  ```powershell
-  Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<"Opt-in" | "Opt-out">]
-  ```
-
-   * If you set **BriefingEmailDefault** parameter to **Opt-out**, the Briefing email will be Off by default for your organization. Users can then opt-in at [briefing.microsoft.com](https://briefing.microsoft.com).
-   * If you set **BriefingEmailDefault** parameter to **Opt-in**, the Briefing email will be On by default for your organization. Users can then opt-out at [briefing.microsoft.com](https://briefing.microsoft.com). If no action is taken, this setting applies by default.
-
-To get the current state of the Briefing email setting, use:
-
-```powershell
-Get-OrganizationIntelligenceConfig
-```
 
 ## User-level configuration
--->
 
-> [!Note]
-> Users can choose to opt out or back in at any time at [briefing.microsoft.com](https://briefing.microsoft.com).
+Confirm the following additional prerequisites. Then you can use the Exchange Online PowerShell V2 module to set Briefing email access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users).
 
-To configure access, use the Exchange Online PowerShell V2 module to set Briefing email access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users).
+### Additional prerequisites
+
+* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module).
+* **.NET Framework** - You must have [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or the latest available version installed.
 
 > [!Important]
 > Before configuring access, confirm you're connected to [Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#connect-to-exchange-online-using-the-exo-v2-module).
 
-## Set access for one user
+### Set access for one user
 
 To enable or disable Briefing email for a specific user, use the Exchange Online PowerShell V2 module and the following command line, where you replace "joe@contoso.com" with your applicable username and organization:
 
@@ -80,8 +45,8 @@ To enable or disable Briefing email for a specific user, use the Exchange Online
 Set-UserBriefingConfig -Identity joe@contoso.com [-Enabled [<$true | $false>]
 ```
 
-- If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user.
-- If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from [briefing.microsoft.com](https://briefing.microsoft.com). If no action occurs, this setting applies by default.
+- If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user. The user will not be able to override this setting or opt-in to the Briefing email.
+- If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from [cortana.office.com](https://cortana.office.com). If no action occurs, this setting applies by default.
 
 For example, to get the current state of the Briefing email flag for "joe@contoso.com," you'd use:
 
@@ -89,7 +54,7 @@ For example, to get the current state of the Briefing email flag for "joe@contos
 Get-UserBriefingConfig -Identity joe@contoso.com
 ```
 
-## Set access for multiple users
+### Set access for multiple users
 
 You can also enable or disable Briefing email for multiple users with a PowerShell script that iterates through the users, changing the value one user at a time. Use the following script to:
 
@@ -119,12 +84,53 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
    $user.identity
    $upn=$user.identity
    Set-UserBriefingConfig –Identity $upn -Enabled $briefingEmailMode
-   Get-UserBriefingConfig –Identity $upn | Export-Csv $outFileName
+   Get-UserBriefingConfig –Identity $upn | Export-Csv $outFileName -Append
    }
    ```
 
-3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
+3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt.
 
+## Tenant-level configuration
+
+> [!Note]
+> Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com).
+
+As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English will receive the Briefing email.
+
+Users can unsubscribe individually from within any Briefing email they receive. If you disable the Briefing email at the tenant level, users in your organization will not receive the Briefing email, but individual users can override this tenant-level setting. To completely prevent a user from receiving the Briefing email, you must disable the Briefing email for that user with PowerShell.
+
+### To configure access for a tenant
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
+2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
+
+    ![New admin center](./images/the-new-admin-center.png)
+
+3. In the left pane, expand **Settings**, and then select **Org Settings**.
+4. Under **Org Settings**, select **Briefing email (Preview)**.
+5. Select or deselect the checkbox for **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email and individual users can override this setting.
+
+   ![Briefing email access](./images/be-admin.png)
+
+<!--
+### To configure access in PowerShell
+
+You can enable or disable the Briefing email for all users in your organization at the tenant level. Use the following Exchange Online PowerShell cmdlets to set the tenant default:
+
+  ```powershell
+  Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<"Opt-in" | "Opt-out">]
+  ```
+
+   * If you set **BriefingEmailDefault** parameter to **Opt-out**, the Briefing email will be Off by default for your organization. Users can then opt-in at [cortana.office.com](https://cortana.office.com).
+   * If you set **BriefingEmailDefault** parameter to **Opt-in**, the Briefing email will be On by default for your organization. Users can then opt-out at [cortana.office.com](https://cortana.office.com). If no action is taken, this setting applies by default.
+
+To get the current state of the Briefing email setting, use:
+
+```powershell
+Get-OrganizationIntelligenceConfig
+```
+-->
 ## Related topics
 
-[Briefing email overview](be-overview.md)
+* [Briefing email overview](be-overview.md)
+* [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2)

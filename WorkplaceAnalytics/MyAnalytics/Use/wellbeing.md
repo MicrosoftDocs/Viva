@@ -34,21 +34,21 @@ For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, a
 
 * **Take a break when at work**: Go enjoy a meal with your team or take a break from work. You'll give your brain a break, grow your network, and help boost your productivity and professional success.
 
-* **Plan time away from work**: Time away from work reduces stress and improves your wellbeing. <!-- Use Insights to [plan your time away](../use/add-in.md#plan-your-time-away),-->Resolve meetings that occur while you're away, compose your auto-reply notifications, and book focus time for wrapping up tasks before you go and for catching up when you get back.
+* **Plan time away from work**: Time away from work reduces stress and improves your wellbeing. Use Insights to [plan your time away](../use/use-the-insights.md#plan-your-time-away). Resolve meetings that occur while you're away, compose your auto-reply notifications, and book focus time to wrap up tasks before you go and catch up when you get back.
 
 * **Be a thoughtful coworker!** Establishing quiet hours with no meetings or email can lead to better teamwork:
 
   * For "inform" type emails, condense the emails and status updates into daily or weekly digests. This reduces the overall noise and randomization caused by email overload.
-  * <!-- Use the [delay delivery inline suggestion](../use/mya-notifications.md#reduce-after-hours-work-and-team-impact) to -->Send email when more of the recipients are at work. Limit late night and early morning email to urgent email only, to cut through the noise.
+  * Use the [delay delivery inline suggestion](../use/mya-notifications.md#delay-email-delivery) to schedule email delivery when the recipients are within their working hours. Limit late night and early morning email to urgent email only, to cut through the noise.
   * Turn off notifications on your phone and computer when you are trying to focus.
 
 * **Be respectful of people's time**:  
 
-  * Agree on "team hours." <!-- Use the delay delivery suggestion to deliver-->Send email when most of the team is working.
+  * Agree on "team hours." Use the [delay delivery inline suggestion](../use/mya-notifications.md#delay-email-delivery) to deliver email when most of the team is working.
   * Be intentional about who you invite to meetings.
   * Try to limit meeting overruns.
   * Consider starting a policy of no meetings on Fridays.
 
-## Related topics
+## Related topic
 
 [MyAnalytics dashboard](../use/dashboard-2.md)

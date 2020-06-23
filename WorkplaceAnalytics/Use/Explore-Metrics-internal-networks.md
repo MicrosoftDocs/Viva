@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal network collaboration dashboards available in Workplace Analytics
 author: madehmer
-ms.author: v-midehm
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -20,8 +18,7 @@ ms.prod: wpa
 To open **Internal networks**:
 
 1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. In the left navigation pane, select **Analyze** and then select **Explore**.
-3. In **Explore**, select **Internal networks**.
+2. Select **Analyze** > **Explore** > **Internal networks**.
 
 ## Network size and network breadth
 
@@ -71,5 +68,5 @@ Network breadth can indicate:
 
 ## Related topics
 
-[Explore page settings](../use/explore-page-settings.md)
-[Workplace Analytics Charts](../use/chart-types.md)
+* [Explore page settings](../use/explore-page-settings.md)
+* [Workplace Analytics Charts](../use/chart-types.md)

@@ -1,18 +1,18 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics Insights for people managers
+
+title: Workplace Analytics insights for managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Workplace Analytics Insights for people managers
+# Workplace Analytics manager insights
 
 > [!Note]
-> Only managers assigned the **Group manager** role in Workplace Analytics can see these insights.
+> Only people managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see their team's data in Workplace Analytics.
 
 As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
 
@@ -53,7 +53,7 @@ Each insight includes **Supporting evidence** and **Best practices** that link y
 
 Differential privacy is a technology that allows researchers and analysts to pull useful information from databases containing personal information while simultaneously protecting individual privacy. This is achieved by introducing slight variations to the data to protect privacy while still maintaining accuracy, so managers have confidence in the observed values.
 
-To learn more about differential privacy, see [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).
+To learn more about differential privacy, see [Differential Privacy in Workplace Analytics](../privacy/differential-privacy.md) and [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).
 
 ## View recommended plan
 
@@ -61,38 +61,34 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 
 ## Frequently asked questions
 
-### Q1 How do these Insights accommodate different partitions?
+### Q1 Which roles have access to this manager insights page?
 
-These insights are only about the participants who are included in the selected partition.
+Only managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see insights about their teams.
 
-### Q2 Which roles have access to this manager insights page?
-
-Only managers assigned the **Group manager** role in Workplace Analytics can see insights about their teams.
-
-### Q3 Who is included as a measured employee?
+### Q2 Who is included as a measured employee?
 
 Measured employees include those who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the Admin.
 
-### Q4 Why is the number of measured employees different from my current number of direct and indirect reports?
+### Q3 Why is the number of measured employees different from my current number of direct and indirect reports?
 
 The number of measured employees might be different because:
 
 * One or more of the employees on your team are not assigned a Workplace Analytics license.
 * Or the latest available HR data uploaded into Workplace Analytics did not include the latest hierarchy or employee data.
 
-### Q5 Can I configure the time period or thresholds for the insights?
+### Q4 Can I configure the time period or thresholds for the insights?
 
 Currently, you cannot configure settings for these insights. The current time period is the past six months.
 
-### Q6 Do the "Teams like yours" metrics account for organizational averages and minimum group size settings?
+### Q5 Do the "Teams like yours" metrics account for organizational averages and minimum group size settings?
 
 Teams like yours metrics use other teams in the same hierarchy that report to the manager's manager. If the team structure does not meet the minimum group size, then the company's average is not used or shown in the metrics.  
 
-### Q7 Can I see insights for both my direct and indirect reports?
+### Q6 Can I see insights for both direct and indirect reports?
 
-This capability in not available, but might be included in a future release.
+While this capability is currently unavailable, it is planned for a future release.
 
-### Q8 Why are some employees in my team not eligible to enroll in Plans?
+### Q7 Why are some employees in my team not eligible to enroll in plans?
 
 Employees might not be eligible for a plan if:
 

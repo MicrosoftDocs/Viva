@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics privacy considerations
 description: Privacy considerations when using Workplace Analytics to analyze your organizational data
@@ -8,6 +6,8 @@ author: madehmer
 ms.author: v-midehm
 ms.topic: conceptual
 localization_priority: normal 
+search.appverid:
+- MET150
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -24,7 +24,7 @@ A minimum group size helps maintain employee privacy by ensuring that specific p
 
 ### The rule
 
-The minimum-group setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Solutions](../Tutorials/solutionsv2-intro.md) area. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified by means of de-identified data presented in a chart.
+The minimum-group setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Plans](../Tutorials/solutionsv2-intro.md) area. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified by means of de-identified data presented in a chart.
 
 #### Example
 
@@ -56,8 +56,8 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 You can see histogram charts in the following pages in Workplace Analytics:
 
 * On the Management and Coaching page in Explore
-* For goal setting in Solutions
-* To track program success on the Track page in Solutions
+* For goal setting in Plans
+* To track program success on the Track page in Plans
 
 ## Hash subject lines
 
@@ -69,7 +69,7 @@ If you choose to hash subject lines, you can still create queries based keywords
 
 #### Example: Hashed subject lines
 
-With **Hash subject lines** turned on, you can run a meeting query with the subject-line keyword “All-hands,” and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line. 
+With **Hash subject lines** turned on, you can run a meeting query with the subject-line keyword “All-hands,” and (based on the attributes you include in the query) it could show data about the number of meetings, the length of meetings, the size of meetings, and so on, with that subject line.
 
 However, you could not get a specific list (one line item for each meeting) of all the meetings with the subject line “All-hands.”
 
@@ -81,7 +81,7 @@ The following information can help you determine what privacy settings best matc
 
 ### Domains
 
-You can enter a list of domains that you want to exclude. All email and meetings from domains listed here are excluded from analysis.
+You can enter a list of domains that you want to exclude. All email, meetings, calls, and instant messages from domains listed here are excluded from analysis.
 
 > [!Note]
 > There exists only the option to exclude (black list) specific domains, not to include (white list) specific domains.
@@ -125,6 +125,5 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 ### Related topics
 
-[Workplace Analytics settings ](../Use/Settings.md)
-
-[Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)
+* [Workplace Analytics settings](../Use/Settings.md)
+* [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md)
