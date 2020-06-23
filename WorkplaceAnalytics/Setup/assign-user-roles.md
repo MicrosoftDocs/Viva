@@ -108,6 +108,8 @@ Use this procedure to see what roles have been assigned to a user.
 
 ## Assign an additional role to a user 
 
+Follow these steps to assign a role to a user who already has a role assigned.  
+
 1. On the **Workplace Analytics | Users and groups** page, select **Add user**. This opens the **Add Assignment** page. 
 
 > [!Note] 
