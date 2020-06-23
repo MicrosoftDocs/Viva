@@ -154,3 +154,28 @@ You have now assigned another role to this user. If you [verify the role assignm
 
 ![Assigned roles](../images/wpa/setup/assigned-roles.png)
  
+
+## Assign roles to groups
+
+You can also assign roles to groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group then automatically become members of the group and receive the same permissions that are assigned to that role.
+
+To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 14. In that same process, where you add the name of a user in step 9, at the same time, you can also add a group and assign it a role. The only difference is that instead of a user name, you substitute the name of your group, then select the group and assign a role to it.
+
+   ![Select group](../images/WpA/Use/select-group-b.png)
+
+If you have not yet created a Workplace Analytics group in Azure AD, and want to do so, see the article on creating a group in **Related topics**.
+
+## FAQ
+
+**When would you assign a role to a group rather than to an individual user?**
+
+It depends on the situation or on your company's policy, but generally speaking, the reason for choosing between one method and another is usually efficiency. In a smaller company, if a few people will be assigned Workplace Analytics roles, it can be convenient to assign user roles individually, especially if such roles are unlikely to change.
+
+However, in a larger company where the number of users required for the same role is significant, for example, Program Managers, it is more efficient to assign a role to a group, and then add users to the group, because groups are easier to manage and audit.
+
+## Related topics
+
+* [User roles](../use/user-roles.md)
+* [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+* [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
+* [People manager settings](settings.md#manager-settings)
