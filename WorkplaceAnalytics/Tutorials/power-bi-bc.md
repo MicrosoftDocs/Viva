@@ -1,6 +1,6 @@
 ---
 
-title: Power BI Business continuity dashboard
+title: Power BI Business continuity
 description: Use the Business continuity dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: madehmer
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Business continuity dashboard
+# Power BI Business continuity
 
 You can use the Power BI Business continuity dashboard populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
 
@@ -24,9 +24,9 @@ The dashboard enables you to visualize and explore the following top-level busin
 * How are work patterns evolving?
 * How can remote work effectiveness be improved?
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Business Continuity** and **Hourly Collaboration** queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.  
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Business continuity** and **Hourly collaboration** queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.  
 
-After you successfully run these required queries, you'll see the Power BI template as an available download option for the Business Continuity query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these required queries, you'll see the Power BI template as an available download option for the Business continuity query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 When the Business continuity dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
@@ -34,12 +34,12 @@ When the Business continuity dashboard is populated with data, you can use it to
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics. 
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Template update
 
-The Business Continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business Continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard).
+The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard).
 
 > [!Note]
 > If you’ve already run the queries before, you don’t need to run them again.
@@ -51,7 +51,7 @@ The Business Continuity dashboard is being updated on a frequent cadence to addr
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Business Continuity** (or **Hourly Collaboration** per **Step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Business continuity** (or **Hourly collaboration** per **Step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
 
    ![Predefined queries](../Images/WpA/Tutorials/predefined-bc-queries.png)
 
@@ -64,10 +64,10 @@ The Business Continuity dashboard is being updated on a frequent cadence to addr
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
    > [!Important]
-   > * The dashboard is designed to show you how a disruption can change your organization's work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after the disruption.
+   > * The dashboard is designed to show you how a shift to remote work can change your organization's work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after a shift.
    > * If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-   ![Business Continuity queries](../Images/WpA/Tutorials/bc-query.png)
+   ![Business continuity queries](../Images/WpA/Tutorials/bc-query.png)
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
@@ -76,12 +76,12 @@ The Business Continuity dashboard is being updated on a frequent cadence to addr
    > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which might take several minutes to complete.
-7. Repeat **Steps 2-6** for the **Hourly Collaboration** query, which requires the same selections as for Business Continuity.
-8. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Business Continuity** query results, select **PBI template**, and then select **OK** to download the template.
+7. Repeat **Steps 2-6** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
+8. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
 
    ![Power BI template download](../Images/WpA/Tutorials/pbi-template-download.png)
 
-9. Open the downloaded **Business Continuity Power BI template**.
+9. Open the downloaded **Business continuity Power BI template**.
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
@@ -104,13 +104,9 @@ The Business Continuity dashboard is being updated on a frequent cadence to addr
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
-## Use the dashboard
+## Dashboard settings
 
-After the Business continuity dashboard is set up and populated with Workplace Analytics data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
-
-### Settings
-
-As a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Business continuity dashboard is set up and populated with Workplace Analytics data, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Earlier time frame** - This is the baseline for your analysis and all changes will be compared with this time frame.
 
@@ -121,14 +117,14 @@ As a first step to viewing data in the dashboard, view and set the following par
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
 * **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select **Ctrl** while clicking the **Clear filter arrow** (or with a touchscreen, select the **Clear filter arrow**). Measured employees reflect the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current timeframe.
 
-  ![Dashboard settings](../Images/WpA/Tutorials/bcd-settings.png)
+  ![Business continuity dashboard settings](../Images/WpA/Tutorials/bcd-settings.png)
 
-After confirming the settings, check the number of measured employees to confirm this the population you want to analyze.
+After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
 > [!Important]
 > As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
-## About the dashboard reports
+## About the reports
 
 The dashboard reports directionally highlight where a shift to remote work is having the largest impact. They also give you a measurable starting point for identifying where leaders can use tools and processes to support employees in a new way of working. All metrics are defined in the **Glossary**. A “why it matters” interpretation is also included in a text box for each report.
 
@@ -136,7 +132,7 @@ The following describes each report with specific nuances to consider for each.
 
 * **How are collaboration activities changing?** – Shows how employee collaboration patterns are changing in response to a shift in work patterns, and which collaboration tools people are substituting for in-person interactions.  
 * **What are the impacts of work-life integration? [1]** - Helps you assess if some employees are disproportionately affected. You can select from multiple values to view the percentage of employees whose collaboration hours increased or decreased by more than the specified number of hours.
-* **What are the impacts of work-life integration? [2]** - Shows changes in after-hours collaboration activity. You can select from multiple values to view the percentage of employees whose after-hours work increased or decreased by more than the specified number of hours.  You can also examine the activity by time of day for meetings, emails and instant messages. 
+* **What are the impacts of work-life integration? [2]** - Shows changes in after-hours collaboration activity. You can select from multiple values to view the percentage of employees whose after-hours work increased or decreased by more than the specified number of hours.  You can also examine the activity by time of day for meetings, emails and instant messages.
 * **Are external relationships being maintained?** - Quantifies changes in communication with customers, partners, and other people outside the organization.  
 * **Are employees engaged and connected?** - Unlike the other reports that show changes between the baseline and the current timeframes, *this report only shows metrics for the last two weeks of the current time frame*. This view enables you to assess if manager 1:1 meetings and organizational collaboration, which are keys to fostering employee engagement and community, are still occurring virtually.
 
@@ -157,7 +153,7 @@ For more details about using Power BI, see [Interact with visuals in reports, da
 
 Like other products that work with sensitive data, such as HR systems, Workplace Analytics is not meant for the general workforce. Rather, its users are expected to have training regarding how to handle sensitive information. Training should be specific to your organization. See [Data-protection considerations](../privacy/data-protection-considerations.md) when using data generated by Workplace Analytics.
 
-Anyone you share the Power BI *desktop file* with can access the underlying dataset at the same level of granularity as a Workplace Analytics Analyst.   For this reason, consider the following alternatives that do not provide access to the underlying data:
+Anyone you share the Power BI *desktop file* with can access the underlying dataset at the same level of granularity as a Workplace Analytics Analyst. For this reason, consider the following alternatives that do not provide access to the underlying data:
 
 * **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports from Power BI to PDF](https://docs.microsoft.com/power-bi/consumer/end-user-pdf).
 * **Publish the report to Power BI Service and share insights in an app** - This option allows other users to navigate the dashboard without access to the underlying data. See [Distribute insights in an app](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports#distribute-insights-in-an-app) for details.
@@ -182,7 +178,7 @@ To maintain data privacy, only employees assigned the role of [Analyst](../use/u
 
 #### Q5 How do I know if I have the latest version of the template?
 
-Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#settings) page.
+Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#dashboard-settings) page.
 
 #### Q6 How do I set up and run a Workplace Analytics query?
 
@@ -235,14 +231,14 @@ The following error (or similar 500+ error) can occur for one of the following r
 * **If you were not prompted to sign in with your organizational account** while setting up the dashboard and Power BI fails to load the query data, follow these steps to clear existing permissions:
 
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
-  2. Select **Global permissions**, select `https://workplace.analytics.office.com`, and then select **Clear permissions**.
+  2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Clear permissions**.
   3. Select **Delete**.
   4. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
 
 * **If you are signed in with the wrong organizational account**, you'll get an error when loading the data with the Power BI template. To fix it, follow these steps:
 
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
-  2. Select **Global permissions**, select `https://workplace.analytics.office.com`, and then select **Edit permissions**.
+  2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Edit permissions**.
   3. For **Credentials**, select **Edit**.
   4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
   5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
@@ -253,14 +249,14 @@ The following error (or similar 500+ error) can occur for one of the following r
 
 Power BI cannot complete a data join if data values are missing in the Organization or Level Designation tables. To validate this error:
 
-1. In the **Fields** pane in Power BI, look for an **error** (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error, such as the following about blank values, select the field with the error to view it.
+1. In the **Fields** pane in Power BI, look for an **error** (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error about blank values similar to the following, select the field with the error to view it.
 
-   ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
+   **Blank-value error**: Column in Table contains blank values and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
 
 2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
-3. Select the **Business Continuity** query.
-4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, and select **Remove Empty**, and then select **OK**.
-5. Select the **Hourly Collaboration** query and repeat Steps 3-4 to filter out empty values.
+3. Select the **Business continuity** query.
+4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
+5. Select the **Hourly collaboration** query and repeat Steps 3-4 to filter out empty values.
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
 
 ## Support

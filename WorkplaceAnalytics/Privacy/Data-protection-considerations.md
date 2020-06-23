@@ -65,6 +65,8 @@ As a data processor, Microsoft will:
 * Provide Workplace Analytics features that help organizations meet their data-controller obligations and honor data-subject rights under the GDPR, including the right of exclusion from processing, access, and erasure, and including the right of transparency regarding methods of processing.
 * Implement technical and organizational security measures to protect the confidentiality of your organization’s (and employees’) data in Workplace Analytics.
 
+In addition, Microsoft does not use data for advertising nor does it volunteer to provide data to law enforcement.
+
 ### Data subject and personal data
 
 A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
@@ -144,12 +146,12 @@ It’s important to note that while Workplace Analytics uses this Office 365 dat
 
 ### Privacy capabilities in your control
 
-First, you get to decide which users’ mailboxes to include in your Workplace Analytics study. Then, there are multiple controls you can use to further limit the data.
+First, you get to decide which users’ mailboxes to include in your Workplace Analytics study. Then, you can use multiple controls to further limit the data.
 
 * You can control whether analysts have access to email and calendar subject lines.
 * You can rule out all meetings and email by keywords (in subject lines) that you deem sensitive.
 * You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
-* You can rule out confidential or private email, or those that are rights protected using Microsoft's digital rights management technology.
+* You can rule out confidential or private email, or those that are rights protected by using Microsoft's digital rights management technology.
 
 To learn more about privacy, see [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md) and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 

@@ -15,9 +15,8 @@ You can use the _plans_ feature of Workplace Analytics to create improvement pla
 
 People in the following roles can work on improvement plans in various ways:
 
- * **Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
- * **Group managers** can only start, track, and analyze plans for employees on their team. For plan instructions, see [Plans for group managers](#plans-for-group-managers).
- * **MyAnalytics users** participate in plans. For more information, see [Plan participant experience](solutionsv2-participants.md).  
+* **Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
+* **MyAnalytics users** participate in plans. For more information, see [Plan participant experience](solutionsv2-participants.md).  
 
 > [!Note]  
 > If you have been assigned multiple roles, your capabilities are expanded. See [User roles in Workplace Analytics](../use/user-roles.md).
@@ -26,7 +25,7 @@ People in the following roles can work on improvement plans in various ways:
 
 **Role:** analyst, limited analyst, or program manager
 
-As an Analyst, limited analyst, or program manager follow these steps to create a plan. If you're a group manager, you need to follow the steps in [Plans for group managers](#plans-for-group-managers).
+As an analyst, limited analyst, or program manager, follow these steps to create a plan.
 
 1. [Define the plan](#define-the-plan).
 
@@ -114,10 +113,10 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
     Selecting a question shows the answer to the question in the chart. By selecting a question that is relevant to the collaboration problem that you want to solve, you will see groups of employees who are most likely to exhibit symptoms of that problem. Selecting a question also orders the groups shown by their metrics (such as meeting hours, focus hours, or number of meetings) based on what the question asks about.
 
-    The chart has vertical bars that represent different groups of people. Each bar that represents a group that meets or exceeds the minimum group size. Any groups smaller than the minimum group size do not show up in the chart because they are too small to analyze. (Also see [Minimum group size](solutionsv2-conceptual.md#minimum-group-size).) 
+    The chart has vertical bars that represent different groups of people. Each bar that represents a group that meets or exceeds the minimum group size. Any groups smaller than the minimum group size do not show up in the chart because they are too small to analyze. (Also see [Minimum group size](solutionsv2-conceptual.md#minimum-group-size).)
 
     <!-- For example, if the organization you are analyzing has a minimum group size of five, you can change it to a level that you consider more relevant for your organization. However, you cannot set the group size lower than five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown as grayed out: -->
- 
+
     See also [Available and selected employees](solutionsv2-conceptual.md#available-and-selected-employees).
 
 6. Select one or more groups for analysis. To deselect a group, select it again. For more information about what happens with selected groups when you change settings on this page, see [Persistence of group selections](solutionsv2-conceptual.md#persistence-of-group-selections).
@@ -173,33 +172,6 @@ You can use the **Track** page to measure progress on the target since the plan 
 
 1. Select **Plans** > **Track**.
 2. In **Progress for**, select the plan you want to see progress information about up to this point in time.
-
-## Plans for group managers
-
-The role of group managers differs from other Workplace Analytics roles in that its scope is predefined and unalterable: All employees who report directly or indirectly to a group manager are automatically assigned to their team, which also includes the group manager.
-
-For details about roles, see [User roles](../use/user-roles.md).
-
-### Create a plan as a group manager
-
-A plan that a group manager (GM) creates automatically contains the data of the GM's group (the GM's reporting structure). All members of the group, including the GM, are automatically signed up for the plan.
-
-1. In **Plans**, you'll see a _Focus plan_, _Collaboration plan_, and _Wellbeing plan_. You can select **Start plan** and **Analyze** for each plan.
-
-2. (Optional) For a particular plan, select **Analyze**. This shows read-only summary data about your team as a whole. This data pertains to that plan’s area of focus. For example, if you select **Analyze** on the _Focus plan_ card, you will see data that pertains to that plan with regard to your team. After you view this information, select **Start plan** and then go to step 3.
-
-    > [!Note]  
-    > You cannot view summary data about your team if its size does not exceed the minimum group size. Workplace Analytics admins can set a minimum group size for GM teams that differs from the general Workplace Analytics setting for minimum group size.
-
-3. In **Set up new plan**, check the figure that is shown on this page for **Number of direct and indirect reports**. If this team size looks incorrect, contact your admin, who can check the organizational data (HR) upload file and the manager hierarchy within that file for errors.
-
-4. Select **Validate**.
-
-5. After validation finishes, Workplace Analytics shows any resulting details, warnings, and insights about the group. The warnings might indicate that some potential participants are ineligible for various reasons. If, after validation, there are enough participants for the plan, select **Start plan**. This shows the _Your plan was successfully submitted_ page:
-
-### Track progress as a group manager
-
-After the plan starts, you can view the plan’s progress on the **Track** page. Note that you can see progress for your team only, and only for a single plan. This is because your team can have only one plan underway at a time. (You cannot subdivide your team into smaller groups that run different plans simultaneously.)
 
 ## Related topics
 

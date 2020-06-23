@@ -109,7 +109,7 @@
                   href: ~/tutorials/Query-basics.md 
                 - name: Person queries
                   href: ~/tutorials/Person-queries.md  
-                  items: 
+                  items:
                     - name: Visualize person queries
                       href: ~/tutorials/query-visualization.md              
                 - name: Meeting queries
@@ -122,16 +122,26 @@
                   href: ~/tutorials/crm-queries.md    
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md
-                - name: ONA queries
-                  href: ~/tutorials/ona-queries.md 
- #  future       - name: ONA queries                   
- #  structure      items: 
- #                   - name: ONA queries
- #                     href: ~/tutorials/ona-queries.md 
+                - name: ONA queries                   
+                  items: 
+                    - name: ONA person queries
+                      href: ~/tutorials/ona-person-query.md 
+                    - name: ONA person-to-person queries
+                      href: ~/tutorials/ona-person-to-person-query.md                       
                 - name: Power BI templates
-                  href: ~/tutorials/power-bi-templates.md
-                - name: Power BI Business continuity dashboard
-                  href: ~/tutorials/power-bi-bc.md
+                  items:
+                    - name: Introduction
+                      href: ~/tutorials/power-bi-templates.md
+                    - name: Business continuity
+                      href: ~/tutorials/power-bi-bc.md
+                    - name: Collaboration assessment
+                      href: ~/tutorials/power-bi-collab-assess.md
+                    - name: Collaboration tracker
+                      href: ~/tutorials/power-bi-collab-track.md
+                    - name: Influence insights
+                      href: ~/tutorials/pbi-influence-db.md
+                    - name: Teams insights
+                      href: ~/tutorials/power-bi-teams.md
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results
@@ -210,7 +220,7 @@
             - name: Insights add-in
               href: myanalytics/use/add-in.md
             - name: Use Insights
-              href: myanalytics/use/use-the-insights.md
+              href: myanalytics/use/use-the-insights.md          
         - name: Digests
           items:
             - name: Welcome
@@ -220,7 +230,7 @@
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
         - name: Focus plan
-          href: MyAnalytics/use/focus-plan.md                
+          href: MyAnalytics/use/focus-plan.md    
     - name: MyAnalytics admin guide
       items: 
         - name: Introduction
@@ -249,7 +259,9 @@
         - name: Network
           href: MyAnalytics/Use/network.md
         - name: Collaboration
-          href: MyAnalytics/Use/collaboration.md          
+          href: MyAnalytics/Use/collaboration.md  
+ #       - name: Leadership
+ #         href: MyAnalytics/use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction 

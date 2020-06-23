@@ -4,7 +4,7 @@
 
 title: MyAnalytics Collaboration page
 description: Learn how to use MyAnalytics to improve your collaboration at work
-author: madehmer
+author: paul9955
 ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
@@ -28,9 +28,9 @@ The Weekly average section shows an estimate of how much time you spent in meeti
 
 The Meeting habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the List view:
 
-* The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
+* The **Meeting habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
-    ![MyAnalytics Collaboration Meeting Habits View](../../Images/mya/use/collab-habits.png)
+    ![MyAnalytics Collaboration Meeting Habits View](../../Images/mya/use/collab-habits-2.png)
 
 * The **List View** shows details about all the meetings on your calendar over the past four weeks.
 
@@ -41,8 +41,8 @@ The Meeting habits section highlights what your habits or practices are in meeti
    |![recur icon](../../Images/mya/use/recur-icon.png) |Represents a recurring meeting on your calendar. |
    |![person meeting icon](../../Images/mya/use/person-meeting-icon.png) | Represents a meeting organized by you. |
    |![recurring meeting by you icon](../../Images/mya/use/recur-byu-icon.png) | Represents a recurring meeting organized by you. |
-   |![checkmark icon](../../Images/mya/use/checkmark.png) | If a meeting has a check mark in a column, it met that specified meeting’s metric. For example, the meeting included an agenda or started on time. |
-   |![X icon](../../Images/mya/use/x-icon.png) | If a meeting has an X in a column, it did not meet that specified meeting’s metric. For example, the meeting did not include an agenda or did not start on time. |
+   |![checkmark icon](../../Images/mya/use/checkmark.png) | If a meeting has a check mark in a column, it met that specified meeting’s metric. For example, the meeting started on time. |
+   |![X icon](../../Images/mya/use/x-icon.png) | If a meeting has an X in a column, it did not meet that specified meeting’s metric. For example, the meeting did not start on time. |
    |![dash icon](../../Images/mya/use/dash-icon.png) | If a meeting has a dash in a column, the specified meeting metric was not applicable for that meeting. For example, the meeting was canceled, so starting on time was not applicable. |
    |![sort up icon](../../Images/mya/use/sort-up-icon.png)![sort down icon](../../Images/mya/use/sort-icon.png)  | Select a column name in the Meetings list to sort the list by that column in ascending or descending order. The sort icon will show up next to the column name that the list is sorted by. |
 
@@ -66,12 +66,12 @@ Meeting metrics include any meetings that you organized or accepted to attend th
 
 #### Meeting habit metrics
 
-The following meeting habit metrics are included on the Collaboration page. You can select the question mark icon next to Meeting habits to see similar details about them.
+The following meeting habit metrics are included on the Collaboration page. You can select the question mark icon next to **Meeting habits** to see similar details about them.
 
 * **High attendance** includes meetings you organized or accepted that had greater than a 50 percent response rate.
 * **Invitations sent with a days' notice** includes meetings where you sent invitations with more than 24 hours notice before the meeting's scheduled start time.
 * **Added Skype or Teams link** includes meetings you organized and included a Skype or Teams link for remote attendance.
-* **Sent with agenda** includes meetings you organized and included text in the body of the invitation.
+* **No overlap with other meetings** includes meetings that you organized or accepted that did not overlap with other meetings.
 * **No emails or chats during the meeting** includes meetings during which you did not send a significant number of emails or chats.
 * **Online meetings joined on time** includes Skype or Teams meetings that you joined or started on time.
 * **During working hours** includes meetings you organized or accepted to attend during your working hours.
