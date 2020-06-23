@@ -13,7 +13,7 @@ audience: Admin
 
 # Assign user roles 
 
-Follow the steps in the following procedures to assign roles to users or to groups:
+Follow the steps in this article to assign roles to users or to groups:
 
  * [Assign one role to a user](#assign-one-role-to-a-user)
  * [Verify role assignments](#verify-role-assignments)
