@@ -13,6 +13,13 @@ audience: Admin
 
 # Assign user roles 
 
+Follow the steps in the following procedures to assign roles to users or to groups:
+
+ * [Assign one role to a user](#assign-one-role-to-a-user)
+ * [Verify role assignments](#verify-role-assignments)
+ * [Assign an additional role to a user](#assign-an-additional-role-to-a-user)
+ * [Assign roles to groups](#assign-roles-to-groups)
+
 **Role:** AAD admin  
 
 ## Assign one role to a user 
