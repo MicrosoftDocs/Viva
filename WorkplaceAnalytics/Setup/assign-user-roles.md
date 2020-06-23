@@ -159,7 +159,7 @@ You have now assigned another role to this user. If you [verify the role assignm
 
 You can also assign roles to groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group then automatically become members of the group and receive the same permissions that are assigned to that role.
 
-To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 14. In that same process, where you add the name of a user in step 9, at the same time, you can also add a group and assign it a role. The only difference is that instead of a user name, you substitute the name of your group, then select the group and assign a role to it.
+To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 12 under [Assign one role to a user](#assign-one-role-to-a-user). In that process, where you name and select a user in step 9, instead name and select a group, and then assign a role to the selected group.
 
    ![Select group](../images/WpA/Use/select-group-b.png)
 
