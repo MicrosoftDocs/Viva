@@ -1,33 +1,88 @@
 ---
 
-title: Environment and support aspects of Workplace Analytics 
-description: Describes the system requirements for setting up and using Workplace Analytics
+title: Requirements for Workplace Analytics 
+description: Describes the system requirements for obtaining Workplace Analytics
 author: paul9955
-ms.author: v-midehm
+ms.author: v-pausch
 ms.topic: article
-localization_priority: normal
-search.appverid:
-- MET150 
+localization_priority: normal 
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
 
-# Environment requirements for Workplace Analytics
+# Requirements for Workplace Analytics
 
-### Office 365 tenant requirements
+## Licensing checklist
 
-Workplace Analytics requires an Office 365 tenant with Exchange Online.  Mailboxes must have [Exchange Online Plan 1 or Plan 2 licenses assigned](https://products.office.com/exchange/compare-microsoft-exchange-online-plans).
+With the proper licensing, your company can acquire Workplace Analytics as an add-on to its licensing agreement. To be able to purchase Workplace Analytics licenses, your company needs the following:
 
-Currently, Workplace Analytics supports multi-tenant, multi-geo tenant, and vNext environments. Each mailbox that you want to license must have its data stored in Exchange Online.
+   <img src="../images/wpa/setup/team-adopt-plan-checklist-box.png"> An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft 
+
+   <img src="../images/wpa/setup/team-adopt-plan-checklist-box.png"> An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans). 
+
+### Enterprise Agreements
+
+To obtain Workplace Analytics, you must have an Enterprise Agreement (EA) in place. Other channels such as Cloud Solution Provider (CSP) do not support the addition of Workplace Analytics at this time. Also, note the following circumstances for various types of customers: 
+
+|  Type  | Notes |  
+| ---- | ---- | 
+| Government | Government Community Cloud (GCC) does not currently support the addition of Workplace Analytics. | 
+| Education | Supported only for the analysis of faculty at this time, not for students. | 
+| Commercial | You can add Workplace Analytics with commercial enrollments. | 
+| Non-profit | Workplace Analytics under a commercial EA can be used by non-profits but non-profit pricing is not available. | 
+| Firstline workers | Workplace Analytics does not support analysis of Firstline workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. | 
+
+### Exchange Online plans 
+
+Microsoft Exchange Online provides much of the collaboration data that Workplace Analytics uses. For this reason, you must have an Office 365 or Microsoft 365 product that contains Exchange Online (EXO) Plan 1 or EXO Plan 2 on your enrollment.
+
+In other words, only if a user has an Exchange Online mailbox can you assign a Workplace Analytics license to that user.
+
+## Tenant environments and user licenses
+
+### Tenants
+
+Workplace Analytics requires an Office 365 tenant with Exchange Online. Workplace Analytics currently supports organizations with more than one tenant and tenants that are based in multiple geographic locations.
+
+### Workplace Analytics licenses
+
+[Assign Workplace Analytics licenses](assign-licenses-to-population.md) to  the users whose mailboxes you want to analyze. This can mean all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies obtain the most benefit when they deploy Workplace Analytics to the entire company or to a large group of employees.
+
+### Pricing 
+
+Contact your Microsoft account team for pricing. 
+
+### Trials
+
+Trials of Workplace Analytics are made available to select customers. Please work with your account team to develop a scenario for the valuable use of Workplace Analytics.
+
+### Supported Browsers
+
+For the best experience, use Microsoft Edge or Google Chrome. 
+
+Apple Safari and Mozilla Firefox are not preferred browsers for Workplace Analytics. Internet Explorer is no longer a supported browser for Workplace Analytics.
+
+## Further questions
+
+If you have questions about licensing, such as "How can I obtain Workplace Analytics for my business, school, or non-profit?" have your admin reach out to your Microsoft account team, or use this form to inquire about Workplace Analytics.
+
+## Related topics
+
+[Get support](../overview/getting-support.md)
+
+Under [Powerful tools to support your enterprise](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** for more details about the available plans.
+
+To provide feedback, go to [Microsoft uservoice for Office 365](https://office365.uservoice.com/).  
+
+
+
+
+
+<!-- FORMER CONTENT 
 
 ### Workplace Analytics licenses and trials
-
-Workplace Analytics is licensed as an add-on to existing Office 365 subscriptions. These are the plans to which Workplace Analytics can be added: 
-
- * Exchange Online (EXO) Plan 1 (Office 365 Enterprise plan E1)
- * Exchange Online (EXO) Plan 2 (Office 365 Enterprise plans E3, E4, or E5).
 
 Licenses cost $2/license per month for Office 365 Enterprise E5 subscriptions and $6/license per month for all other qualifying Office 365 subscriptions. Licensing Workplace Analytics does not change the end-user experience in Office 365.
 
@@ -41,9 +96,7 @@ Apple Safari and Mozilla Firefox are not preferred browsers for Workplace Analyt
 
 For the best experience, please use Microsoft Edge or Google Chrome.
 
-## Related topics
-
-[Get support](../overview/getting-support.md)
+-->
 
 <!-- REMOVING FOR NOW 
 ### FastTrack qualification
