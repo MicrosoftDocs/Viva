@@ -32,27 +32,38 @@ The information in this section helps you get the most out of the following insi
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf). 
 
-**Prepare for your meetings** shows you a list of upcoming meetings that you've organized and it helps you decide whether each meeting is ready to go. 
+**Prepare for your meetings** shows you a list of upcoming meetings that you've organized or that you've been invited to. This insight helps you decide whether each meeting is ready to go. 
 
 ### To use this insight
 
-1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings.
+1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized or were invited to for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings.
 
     ![Prepare for your meetings](../../images/mya/use/prepare-for-your-meetings.png)
 
-2.	Select **Prepare for your meetings** to see an insight for each of your upcoming meetings:
+2.	Select **Prepare for your meetings** to see an insight for each of your upcoming meetings.
+      
+    If you are an invitee to meeting, you will see an insight such as this:     
     
-    ![Prepare for your meetings follow up](../../images/mya/use/review-project-ranger-2.png)
+    ![Prep for meetings (as invitee)](../../images/mya/use/you-were-invited_78.png)
+
+    If you are the meeting organizer, you will see an insight such as this:  
+    
+    ![Prep for meetings (as organizer)](../../images/mya/use/you-organized-616.png)
 
 #### Insight option details
 
+Some of these options apply to the meeting organizer, some apply to invitees, and some apply to people in both positions.  
+
 | Card section | Notes | Recommendations |
 | :--- | --- | --- |
-| (Card title) | Meeting title and time of occurrence | | 	
-| **Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select **See details** for more information. | Make sure that you have a quorum before the meeting. Consider sending a reminder if you haven't heard back from attendees. &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-| **Agenda** | **Yes** or **No** indicates whether the meeting invitation includes an agenda. |	Agendas often make a meeting run smoother. If your meeting requires an agenda, select **Agenda**. This opens the meeting invitation, to which you can add an agenda. |
-| **Attachments** |	This section shows the number of attachments, their titles, and their storage location (online or local). You can see more details and you can open the attachment if it is stored online. | |
-| **Online meeting link** | **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online in Skype for business or in Teams. | Be an inclusive meeting organizer. If you have attendees who are working remotely, consider adding an online link to your meeting. To do this, select **Online meeting link** to add one. |
+| (Card title) | Meeting title, organizer, start time, and location | | 	
+| **Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select the down arrow to see more information about these attendees. | Make sure that you have a quorum before the meeting. Consider sending a reminder if you haven't heard back from attendees. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
+| **Conflicts** | This section outlines all other meetings that have a conflict with this meeting. | Take time to resolve conflicts well ahead of each meeting. Doing so helps other participants know whether there will be a quorum for the meeting. | 
+| **Respond**  &emsp; &emsp; &emsp;&emsp; | (This section is only for the invitees, not for the organizer.) <p>You can respond **Yes** or **No** to the meeting invitation. If you have already responded, your response is shown here. | Responses help the organizer determine whether required participants can attend, and then take necessary steps (such as rescheduling) if necessary. |
+| **Attachments** | This section shows the number of attachments, their titles, and their storage location (online or local). You can see more details and you can open the attachment if it is stored online. <!-- <br> If you are the organizer and the invitation contains attached cloud documents, you can see the [open rates](#open-rate) for those documents. -->  | |
+| **Related documents** | This section shows documents that you might want to review to prepare for the meeting. | 
+| **Related tasks** | This section shows tasks that you might want to complete to prepare for the meeting. | 
+| **Online meeting link**  | (This section is only for the organizer, not for the invitees.) <p> **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online in Skype for business or in Teams. | Be an inclusive meeting organizer. If you have attendees who are working remotely, consider adding an online link to your meeting.  |
 | **Preparation time** | This section gives you the options to book either 15 minutes or 30 minutes of preparation time. This option appears only if there is an available slot in your calendar right before the meeting. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar.	| Be prepared. If you need travel time or have other tasks that need to be done right before the meeting to prepare for it, consider booking preparation time. |
 
 <!-- Here is the new section from Rishabh (April 2020). I am using it instead of the new section from Vivek (May 2020) because Rishabh's section includes document open rates (a new feature), not just email open rates (the old feature). -->
@@ -368,9 +379,27 @@ Struggling to protect time for lunch? Colleagues keep sending meeting invitation
 
 ### To use this insight
 
- * In the **Insights** pane, locate **Set lunch hours**:
+You can set your lunch hours in either of two ways, in **Settings** or by using the **Set lunch hours** card. This card is shown only for a short while to new users of MyAnalytics. It is not available permanently, but you can always set your lunch hours in **Settings**:
+
+#### Set lunch hours in _Settings_
+
+1. In the **Insights** pane, select **Settings** (the gear icon).
+
+2. In the **Set lunch hours** area, select the edit (pencil) option:
+
+   ![Set lunch hours](../../images/mya/use/fix-lunch-hours.png) 
+
+3. Change the values in the **Start** and/or **End** fields.
+
+4. Select **Update**. 
+
+#### Set lunch hours through the _Set lunch hours_ card
+
+1. In the **Insights** pane, locate **Set lunch hours**:
 
    ![Insights plan your time away task list](../../images/mya/use/set-lunch-hours.png)  
+
+2. Use the options that are described in the following table.    
 
 #### Insight option details
 
@@ -410,6 +439,9 @@ You can plan your schedule with these options all at one time or individually as
    * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
      ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
+      
+     > [!Note] 
+     > If you've composed a message for a previous out-off-office period, the most recent message that you used is shown in the **Compose or edit message** field. You can edit the message so that it pertains to your upcoming time away.   
 
    * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks. You can select to notify them through an email or meeting invitation, and then select **Compose**.
 

@@ -19,8 +19,8 @@ This dashboard enables you to visualize and explore your company’s current act
 
 * **What does adoption look like so far?** - Shows how groups are adopting Teams for collaborating and productivity over time.
 * **Where can you focus training and education for Teams adoption?**– Shows who is using Teams and how much time they’re spending in Teams calls and instant messages. This gives you a holistic view of how different groups in your organization are currently using Teams and who could benefit from additional Teams training.
-* **How can Teams help employees speed up communication?** (best practices) – Teams can help employees find the right mode of communication for what they want to accomplish. For example, group communications on Teams enables faster file sharing and easy-to-follow conversation records.
-* **Are employees working after hours in Teams?** (best practices) – Shows average activity by time of day during and outside of the group’s set working hours. As collaboration moves digitally, it’s important to establish communication guidelines and boundaries to encourage employees to balance work and life and maintain good wellbeing.
+* **How can Teams help employees speed up communication?** – Teams can help employees find the right mode of communication for what they want to accomplish. For example, group communications on Teams enables faster file sharing and easy-to-follow conversation records.
+* **Are employees working after hours in Teams?** – Shows average activity by time of day during and outside of the group’s set working hours. As collaboration moves digitally, it’s important to establish communication guidelines and boundaries to encourage employees to balance work and life and maintain good wellbeing.
 * **How can you build momentum as your company adopts Teams?** (best practices) – Shows how you can create opportunities for employees to make meaningful changes in their work patterns, including communication, wellbeing, and meeting culture recommendations and best practices.
 
 ![Power BI Teams template](../Images/WpA/Tutorials/pbi-teams-intro.png)
@@ -53,7 +53,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
    > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
-5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
+5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
    > [!Important]
    > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
@@ -203,9 +203,9 @@ To fix it, follow these steps:
 
 Power BI cannot complete a data join if data values are missing in the Organization or Level Designation tables. To validate this error:
 
-1. In the **Fields** pane in Power BI, look for an **error** (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error, such as the following about blank values, select the field with the error to view it.
+1. In the **Fields** pane in Power BI, look for an **error** (!) icon in either the **Organization** or **LevelDesignation** tables. If you see an error about blank values similar to the following, select the field with the error to view it.
 
-   ![Power BI error](../Images/WpA/Tutorials/pbi-dashboard-error.png)
+   **Blank-value error**: Column in Table contains blank values and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
 
 2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
 3. Select the **Business Continuity** query.
