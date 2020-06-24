@@ -30,7 +30,7 @@ Each query returns one row per person, per period.
 
 ![Query results row](../images/wpa/tutorials/query-results-row.png)
 
-The file will include any standard or customized metrics you specify. The IsActive column in the output file is True if the employee sent at least one email during the specified time period for the query.
+The file will include any standard or customized metrics you specify. The IsActive column in the output file is True if the employee sent at least one email or one instant message during the specified time period for the query.
 
 ![Query results metrics](../images/wpa/tutorials/query-results-metrics.png)
 
@@ -100,7 +100,7 @@ The output of person queries automatically contains information that pertains to
 
 ## Select filters
 
-You can select which measured employees you want to include in your query results. For **Employees**, select if you want active, inactive, or all employees included in the query. Active employees are those who sent at least one email during the set time period (the aggregated period set for the query).
+You can select which measured employees you want to include in your query results. For **Employees**, select if you want active, inactive, or all employees included in the query. Active employees are those who sent at least one email or instant message during the selected time period (the aggregated period set for the query). 
 
 You can then select other filters to exclude certain rows from the output file based on a person's organizational attributes, such as function type. For example, the following filter will only list people from the Operations and Sales groups.
 
