@@ -60,7 +60,7 @@ This dashboard requires results from two queries. For this reason, in the follow
 
       ![Influence insights queries](../Images/WpA/Tutorials/influence-insights-step-3.png)
  
-4. In **Select filters**, for "**Which measured employees do you want to include?**" you can filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Network: Person Query](./ona-queries.md).
+4. In **Select filters**, for "**Which measured employees do you want to include?**" you can filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Network: Person Query](./ona-person-query.md).
 5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, **FunctionType**, and **SupervisorIndicator** attributes that the dashboard requires. You can then select any other additional (columns) to include in the dashboard.
 
    > [!Important]
