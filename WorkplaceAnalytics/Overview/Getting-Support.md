@@ -15,9 +15,9 @@ ms.prod: wpa
 |Channel |Description |How to access |
 |------- |----------- |--------------- |
 |Workplace Analytics support|Get help with Workplace Analytics setup, onboarding, features and functionality, and data analysis. |Contact Support through the Microsoft 365 admin center. |
-|Workplace Analytics feedback |Send feedback about or feature requests for Workplace Analytics. |In [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (upper right), enter your question or feedback, and then select **Send**.|
-|Workplace Analytics technical onboarding services |If your company purchases at least 1,000 Workplace Analytics licenses, you can get implementation help from our technical onboarding engineers. |Contact your Microsoft Customer Service representative. |
-|Purchase Workplace Analytics |Fill out the online form and someone from Microsoft will contact you soon. |Complete [this online form](https://resources.office.com/ww-landing-workplace-analytics.html). |
+|Workplace Analytics feedback |Send Microsoft feedback about or feature requests for Workplace Analytics. |In [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (at the top), enter your question or feedback, and then select **Send**.|
+|Workplace Analytics Technical Onboarding services |If your company purchases 1,000 or more licenses, you can get help from our Workplace Analytics Technical Onboarding Engineers to help implement this analytics technology quickly. |Contact your Microsoft Customer Service representative for details. |
+|Purchase of Workplace Analytics |Fill out the online form with your contact and organization's information and someone from Microsoft will contact you soon about how to purchase Workplace Analytics. | Complete [this online form](https://resources.office.com/ww-landing-workplace-analytics.html). |
 
 ## Community resources
 
