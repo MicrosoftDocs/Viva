@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Get support for Workplace Analytics
 description: What support options are available for help with Workplace Analytics
-author: paul9955
-ms.author: v-midehm
+author: madehmer
+ms.author: v-mideh
 ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa
@@ -14,11 +12,14 @@ ms.prod: wpa
 
 # Get support
 
-|Channel|Description|How to access|
-|-------|-----------|---------------|
-|Office 365 Analytics Blog|Learn about the latest features and enhancements with the Workplace Analytics monthly blog.|See [Office 365 Workplace Analytics Blog](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog) or select **Blog** from the **Help (?)** menu in Workplace Analytics.|
-|Workplace Analytics Support|Get help with specific Workplace Analytics setup, onboarding, features and functionality, and data analysis.|In [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (at the top), enter your question or feedback, and then select **Send**.|
-|Microsoft Support|Get general help with Office 365, Azure, PowerShell, or assigning licenses and any issues with user access.|See [Microsoft Support](https://support.microsoft.com/).|
-|Insights|A collection of articles from the leading edge of productivity analytics. Resources to examine new technologies that are helping people and organizations better manage their time and ultimately work smarter.|See [Microsoft Workplace Insights](https://insights.office.com/).|
-Workplace Analytics documentation|This self-service documentation set can help you with privacy considerations, setup, features and functionality, and analysis.|In [Workplace Analytics](https://workplaceanalytics.office.com), if you select **Help (?)** > **Documentation**, it opens this [documentation](../index.md).|
-|Workplace Analytics FastTrack services |If your company purchases 1,000 or more licenses, you can get help from our Workplace Analytics consultants through the FastTrack program. Our team can help you implement analytics technology more quickly and build new analytical capabilities. |Contact your Microsoft Customer Service representative. |
+|Channel |Description |How to access |
+|------- |----------- |--------------- |
+|Workplace Analytics support|Get help with Workplace Analytics setup, onboarding, features and functionality, and data analysis. |Contact Support through the Microsoft 365 admin center. |
+|Workplace Analytics feedback |Send feedback about or feature requests for Workplace Analytics. |In [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (upper right), enter your question or feedback, and then select **Send**.|
+|Workplace Analytics technical onboarding services |If your company purchases at least 1,000 Workplace Analytics licenses, you can get implementation help from our technical onboarding engineers. |Contact your Microsoft Customer Service representative. |
+|Purchase Workplace Analytics |Fill out the online form and someone from Microsoft will contact you soon. |Complete [this online form](https://resources.office.com/ww-landing-workplace-analytics.html). |
+
+## Community resources
+
+* [Office 365 Workplace Analytics Blog](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog)
+* [Microsoft Workplace Insights](https://insights.office.com/)
