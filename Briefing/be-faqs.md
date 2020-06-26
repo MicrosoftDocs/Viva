@@ -50,7 +50,7 @@ A3. No, you will never be sent an empty email with no content.
 
 ### Q4. Can I stop receiving these emails?  
 
-A4. You can unsubscribe from the email with one click in the email footer.
+A4. Select **Unsubscribe** at the end of the email footer or at [https://cortana.office.com/briefing](https://cortana.office.com/briefing).
 
 ### Q5. Can my manager, administrator, or anyone else at my organization see what’s in my Briefing email?
 
@@ -64,4 +64,4 @@ Briefing is optimized to show you the most relevant and actionable information y
 
 ### Q7. How can I send Microsoft product feedback or ask a question about Briefing email?
 
-A7. Send feedback or questions to: [https://cortana.office.com/briefing](https://cortana.office.com/briefing).
+A7. Send feedback or questions to: [https://cortana.office.com/briefing?v=feedback](https://cortana.office.com/briefing?v=feedback).
