@@ -39,10 +39,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Template update
 
-The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard).
+The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business continuity query, then  repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard). You don't have to run the queries again for template updates. 
 
-> [!Note]
-> If you’ve already run the queries before, you don’t need to run them again.
+However, if you started using the Business continuity dashboard in April or May 2020, you need to repeat all the steps in [Set up the dashboard](#set-up-the-dashboard) to update both the template and the time period (last 1 year instead of 6 months) to include query data for before and during the shift to remote work in March. Be sure you complete the last step to remove or stop the auto-refresh for the preexisting queries that the dashboard will no longer use, which is a best practice to save future query processing time.
 
 ## Video: Dashboard setup
 
@@ -59,12 +58,12 @@ The Business continuity dashboard is being updated on a frequent cadence to addr
 
    * **Name** - Customize or keep the default name
    * **Group by** - Week
-   * **Time period** - Last 6 months
+   * **Time period** - Last 1 year
    * **Auto-refresh** - Enable the setting
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
    > [!Important]
-   > * The dashboard is designed to show you how a shift to remote work can change your organization's work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after a shift.
+   > * The dashboard is designed to show you how a shift to remote work can change your organization's work patterns. For best results, select **Last 1 year** for the **Time period** to include time before and after a shift.
    > * If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
    ![Business continuity queries](../Images/WpA/Tutorials/bc-query.png)
@@ -103,6 +102,7 @@ The Business continuity dashboard is being updated on a frequent cadence to addr
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+16. If you have preexisting query results that the dashboard is no longer using, a best practice to reduce processing costs and time is to turn off the auto-refresh or delete the queries that are no needed for the dashboard. See [Stop the auto-refresh option](../query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
 ## Dashboard settings
 
@@ -180,26 +180,30 @@ To maintain data privacy, only employees assigned the role of [Analyst](../use/u
 
 Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#dashboard-settings) page.
 
-#### Q6 How do I set up and run a Workplace Analytics query?
+#### Q6 How can I extend the dates of the query data used in the dashboard?
+
+If you have been using the dashboard since April or May, you are probably using query data for the last six months. To continue to include data before and during the shift to remote work, repeat the steps in [Set up the dashboard](#set-up-the-dashboard) and select **Last 1 year** for the time period. Be sure you complete the last step to remove or stop the auto-refresh for the preexisting queries that the dashboard will not use moving forward to save query processing time.
+
+#### Q7 How do I set up and run a Workplace Analytics query?
 
 See [Create a Person Query](./person-queries.md) for details.
 
-#### Q7 How do I change the axis of a chart to use a different Organizational data attribute?
+#### Q8 How do I change the axis of a chart to use a different Organizational data attribute?
 
 Only the required Organizational attributes are used when setting up the Power BI file. If you selected more Organizational attributes when setting up the queries, you can use those in the visuals. To use a different Organizational attribute:
 
 1. Select the visualization you want to change.  
 2. In the **Fields** pane, select and drag the Organizational attribute to the **Axis** section of the visualization.
 
-#### Q8 How do I integrate additional metrics or data sources with this dashboard?
+#### Q9 How do I integrate additional metrics or data sources with this dashboard?
 
 See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
 
-#### Q9 How do I use Power BI?
+#### Q10 How do I use Power BI?
 
 See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details on how to use Power BI.
 
-#### Q10 What languages is the dashboard available in?
+#### Q11 What languages is the dashboard available in?
 
 The dashboard is currently only available in English.
 
