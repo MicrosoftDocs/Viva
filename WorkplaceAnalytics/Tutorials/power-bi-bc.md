@@ -41,7 +41,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business continuity query, then  repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard). You don't have to run the queries again for template updates. 
 
-However, if you started using the Business continuity dashboard in April or May 2020, you need to repeat all the steps in [Set up the dashboard](#set-up-the-dashboard) to update both the template and the time period (last 1 year instead of 6 months) to include query data for before and during the shift to remote work in March. Be sure you complete the last step to remove or stop the auto-refresh for the preexisting queries that the dashboard will no longer use, which is a best practice to save future query processing time.
+However, if you started using the Business continuity dashboard in April or May 2020 and you selected to use six months of data for your queries, you need to repeat all the steps in [Set up the dashboard](#set-up-the-dashboard) to update both the template and the time period (last 1 year instead of 6 months) to include query data for before and during the shift to remote work in March. Be sure you complete the last step to remove or stop the auto-refresh for the preexisting queries that the dashboard will no longer use, which is a best practice to save future query processing time.
 
 ## Video: Dashboard setup
 
