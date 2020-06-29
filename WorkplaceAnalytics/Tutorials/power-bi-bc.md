@@ -41,7 +41,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business continuity query, then  repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard). You don't have to run the queries again for template updates. 
 
-If you started using the Business continuity dashboard in April or May 2020 and you selected to use six months of data for your queries, you need to repeat **Steps 1-7** in [Set up the dashboard](#set-up-the-dashboard) to use an extended time period (last 1 year instead of 6 months) that includes query data for before and during the shift to remote work in March. You also need to complete the last step to remove or stop the auto-refresh for the preexisting queries that the dashboard will no longer use, which is a best practice to save future query processing time.
+If you started using the Business continuity dashboard in April or May 2020 and you selected to use six months of data for your queries, you need to repeat **Steps 1-7** in [Set up the dashboard](#set-up-the-dashboard) to run new queries with data from the last one year to continue to include activity before and during the shift to remote work in March. If you want to continue to use your custom version of the Business Continuity dashboard, do the following instead of **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard): 
+
+1. After both queries successfully run, open your existing Business continuity dashboard in Power BI Desktop.
+2. In **Transform data**, select **Edit parameters**.
+3. Replace the existing URLs for Business continuity and Hourly collaboration query URLs with the new query URLs, and then select **OK**. 
+4. A best practice that reduces future query processing time is to turn off the auto-refresh or delete the preexisting queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
 ## Video: Dashboard setup
 
@@ -102,7 +107,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
-16. If you have preexisting query results that the dashboard is no longer using, a best practice to reduce processing costs and time is to turn off the auto-refresh or delete the queries that are no needed for the dashboard. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
+16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
 ## Dashboard settings
 
@@ -182,7 +187,7 @@ Starting with version 2 and later versions of the template, you can find the ver
 
 #### Q6 How can I extend the dates of the query data used in the dashboard?
 
-If you have been using the dashboard since April or May, you are probably using query data for the last six months. To continue to include data before and during the shift to remote work, repeat the steps in [Set up the dashboard](#set-up-the-dashboard) and select **Last 1 year** for the time period. Be sure you complete the last step to remove or stop the auto-refresh for the preexisting queries that the dashboard will not use moving forward to save query processing time.
+If you have been using the dashboard since April or May, you are probably using query data for the last six months. You need to run new queries that include the last one year. See [Template update](#template-update) for details.  
 
 #### Q7 How do I set up and run a Workplace Analytics query?
 
