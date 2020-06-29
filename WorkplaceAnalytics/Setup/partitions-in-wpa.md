@@ -45,7 +45,7 @@ If you are an analyst, you must have a partition selected to be able to go to **
 
 ### To use a partition
 
-* **Roles**: analyst, PM, admin
+* **Roles**: Workplace Analytics analyst, PM, or admin
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition."
 
@@ -70,7 +70,7 @@ If you are an analyst, you must have a partition selected to be able to go to **
 
 ## Create, edit, and delete partitions
 
-* **Role**: admin
+* **Role**: Workplace Analytics admin
 
 To administer partitions, see the following sections:
 
@@ -90,7 +90,8 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 | Give access |  8  | Select one or more analysts who will have access to this partition |
 
 > [!Important] 
-> Plan your partitions carefully before you start to create them. Note the fact that an organization can have a maximum of ten partitions. Any new partition that you create can contain a maximum of 10,000 licensed users. (The Global partition does _not_ count toward this total of ten partitions and has no limit of licensed users.) If you need more than 10 partitions or more that 10,000 licenses in a partition, you can request these exemptions by contacting [Workplace Analytics Support](../overview/getting-support.md). 
+> Plan your partitions carefully before you start to create them. Partions have limits in both number and size. For more information, see 
+[Number and size limits](#number-and-size-limits). 
 
 1. Open the Workplace Analytics **Home** page. If prompted, sign in with your work account.  
 2. Open the **Settings** page and select **Access control**.
@@ -176,6 +177,33 @@ A3. All admin settings are applied to all partitions. For this reason the settin
 #### Q4. We regularly upload updates to our organizational data. How can these updates affect partitions?
 
 A4. See the following section, [Partitions and organizational data](#partitions-and-organizational-data).
+
+## Number and size limits
+
+Partitions have limits both in number and size: 
+
+ * An organization can have a maximum of ten partitions. 
+ * Any new partition that you create can contain a maximum of 10,000 licensed users. For more detailed information, see [Changes to partition size](#changes-to-partition-size). 
+
+> [!Note] 
+> The Global partition does _not_ count toward this total of ten partitions and has no limit of licensed users.
+
+If you need more than 10 partitions or more than 10,000 licenses in a partition, you can request these exemptions by contacting [Workplace Analytics Support](../overview/getting-support.md). 
+
+### Real-time changes to partition size
+
+The following scenarios can cause partition size to be increased beyond the limit of 10,000 licensed users. 
+
+> [!Note] 
+> The following scenarios assume a limit of 10,000 licensed users. If you are working with a partition that has starts with a higher number of licenses (because, for example, you contacted Workplace Analytics Support and requested a higher limit), the following restrictions apply to the actual limit of the partition. 
+
+* **Role**: Workplace Analytics admin
+
+| Scenario | Admin action | Result | 
+| -------- | ------------ | ------ |
+| You are creating a new partition or editing an existing partition that has fewer than 10,000. | You select a filter (in step 5 under [To create a partition](#to-create-a-partition)) that increases the partition size to greater than 10,000. | You see a warning that indicates that the partition size has exceeded the limit of 10,000. You can create this partition only if you reduce the size to under the limit. |
+| You have a current partition  | <ul><li>You upload organizational data. This upload increases the size of a partition to greater than 10,000.</li><li>A refresh of collaboration data increases the size of the partition because of license assignment or reallocation. This causes the partition size to increase beyond the limit.</li></ul> | The upload succeeds and the partition size increases to above the limit. You receive a notification that warns you to address this issue. <br> Select the link in the notification to open the access control page that shows which partitions exceed the limit. | 
+| You have a partition that contains more than 10,000. | You are editing the partition and changing the number of licences. | You can reduce but not increase the number of licenses. | 
 
 ## Partitions and organizational data
 
