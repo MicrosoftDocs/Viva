@@ -89,8 +89,8 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 | Set attributes  | 6, 7 | Select organizational-data attributes to include in the partition |
 | Give access |  8  | Select one or more analysts who will have access to this partition |
 
-> [!Important]
-> Plan your partitions carefully before you start to create them. Note the fact that an organization can have a maximum of five partitions. (The Global partition does _not_ count toward this total.)
+> [!Important] 
+> Plan your partitions carefully before you start to create them. Note the fact that an organization can have a maximum of ten partitions. Any new partition that you create can contain a maximum of 10,000 licensed users. (The Global partition does _not_ count toward this total of ten partitions and has no limit of licensed users.) If you need more than 10 partitions or more that 10,000 licenses in a partition, you can request these exemptions by contacting [Workplace Analytics Support](../overview/getting-support.md). 
 
 1. Open the Workplace Analytics **Home** page. If prompted, sign in with your work account.  
 2. Open the **Settings** page and select **Access control**.
