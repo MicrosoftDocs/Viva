@@ -23,9 +23,9 @@ In the following example, you’d select **Weekly PM meeting** to open the meeti
 
    ![Briefing email about meetings](./images/be-meetings.png)
 
-## Reschedule for low-attendance
+## Reschedule for low acceptance
 
-As a meeting organizer, this section of your Briefing helps you to see which meetings are at risk of having low attendance.
+As a meeting organizer, your Briefing alerts you to a meeting that is at risk of having low attendance.
 
 Meetings with low attendance may be less productive because decisions can't be made without key decision-makers in attendance. You might have to repeat the meeting or share similar information again for those who do not attend.
 
@@ -73,7 +73,7 @@ Selecting **Add agenda** sends a reply to the scheduled meeting.
 
 ## RSVP to a meeting with no conflicts
 
-It is a best practice to let organizers know if you will attend a meeting so that they can plan accordingly. Briefing focuses on smaller meetings where it might be more likely that your attendance is required.
+It is a best practice to let organizers know if you will attend their meeting so that they can plan accordingly. Briefing focuses on smaller meetings where it might be more likely that your attendance is required.
 
 ### Why am I seeing this?
 
@@ -88,6 +88,8 @@ It is a best practice to let organizers know if you will attend a meeting so tha
 You can **Accept** or **Decline** a meeting in the Briefing email. If the meeting is recurring, **Accept** and **Decline** are for the series. **Accept** and **Decline** are sent as a response to the organizer. After declining, you can still see and interact with content for this meeting in the Briefing email.
 
 ## RSVP to a meeting with conflicts
+
+Again, it’s best to let organizers know if you will attend their meeting so they can plan accordingly.
 
 ### Why am I seeing this?
 
