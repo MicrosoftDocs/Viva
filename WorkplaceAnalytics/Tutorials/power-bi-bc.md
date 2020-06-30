@@ -50,6 +50,9 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 
 ## Video: Dashboard setup
 
+> [!Important]
+> Where the video shows selecting **Last 6 months** when running the queries, be sure you select **Last 1 year** instead. The queries will then have data that includes activity before and during the shift to remote work in March 2020.
+
 <iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ## Set up the dashboard
