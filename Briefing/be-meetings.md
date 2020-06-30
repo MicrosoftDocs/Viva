@@ -55,7 +55,7 @@ When scheduling a meeting, a common mistake is forgetting to include online meet
 * You have an active Teams license.
 * The meeting currently does not have a Teams or Skype for Business online meeting link.
 * The meeting duration is one hour or less.
-* The meeting is set as “Busy.”
+* The meeting is set as “busy.”
 * The meeting occurs on the same day as the most recent Briefing email.
 
 When you select **Add Teams**, Cortana adds a Teams meeting link to the meeting invite for you, so you don't have to open the meeting to add it and automatically sends an updated invite to all invitees.
