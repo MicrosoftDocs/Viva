@@ -39,12 +39,19 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Template update
 
-The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard).
+The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard). You don't have to run the queries again for template updates. 
 
-> [!Note]
-> If you’ve already run the queries before, you don’t need to run them again.
+If you started using the Business continuity dashboard in April or May 2020 and you selected to use six months of data for your queries, you need to repeat **Steps 1-7** in [Set up the dashboard](#set-up-the-dashboard) to run new queries that include data for the last one year, which will encompass activity before and during the shift to remote work in March. To continue to use your custom version of the Business Continuity dashboard and not update to the latest version of the template, do the following instead of **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard): 
+
+1. After both queries successfully run, open your existing Business continuity dashboard in Power BI Desktop.
+2. In **Transform data**, select **Edit parameters**.
+3. Replace the existing URLs for Business continuity and Hourly collaboration query URLs with the new query URLs, and then select **OK**. 
+4. A best practice that reduces future query processing time is to turn off the auto-refresh or delete the preexisting queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
 ## Video: Dashboard setup
+
+> [!Important]
+> Where the video shows selecting **Last 6 months** when running the queries, be sure you select **Last 1 year** instead. The queries will then have data that includes activity before and during the shift to remote work in March 2020.
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
@@ -59,15 +66,15 @@ The Business continuity dashboard is being updated on a frequent cadence to addr
 
    * **Name** - Customize or keep the default name
    * **Group by** - Week
-   * **Time period** - Last 6 months
+   * **Time period** - Last 1 year
    * **Auto-refresh** - Enable the setting
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
    > [!Important]
-   > * The dashboard is designed to show you how a shift to remote work can change your organization's work patterns. For best results, select **Last 6 months** for the **Time period** to include time before and after a shift.
+   > * The dashboard is designed to show you how a shift to remote work can change your organization's work patterns. For best results, select **Last 1 year** for the **Time period** to include time before and after a shift.
    > * If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-   ![Business continuity queries](../Images/WpA/Tutorials/bc-query.png)
+   ![Business continuity queries](../Images/WpA/Tutorials/bcd-query.png)
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
@@ -103,6 +110,7 @@ The Business continuity dashboard is being updated on a frequent cadence to addr
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
 ## Dashboard settings
 
@@ -180,26 +188,30 @@ To maintain data privacy, only employees assigned the role of [Analyst](../use/u
 
 Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#dashboard-settings) page.
 
-#### Q6 How do I set up and run a Workplace Analytics query?
+#### Q6 How can I extend the dates of the query data used in the dashboard?
+
+If you have been using the dashboard since April or May, you are probably using query data for the last six months. You need to run new queries that include the last one year. See [Template update](#template-update) for details.  
+
+#### Q7 How do I set up and run a Workplace Analytics query?
 
 See [Create a Person Query](./person-queries.md) for details.
 
-#### Q7 How do I change the axis of a chart to use a different Organizational data attribute?
+#### Q8 How do I change the axis of a chart to use a different Organizational data attribute?
 
 Only the required Organizational attributes are used when setting up the Power BI file. If you selected more Organizational attributes when setting up the queries, you can use those in the visuals. To use a different Organizational attribute:
 
 1. Select the visualization you want to change.  
 2. In the **Fields** pane, select and drag the Organizational attribute to the **Axis** section of the visualization.
 
-#### Q8 How do I integrate additional metrics or data sources with this dashboard?
+#### Q9 How do I integrate additional metrics or data sources with this dashboard?
 
 See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
 
-#### Q9 How do I use Power BI?
+#### Q10 How do I use Power BI?
 
 See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details on how to use Power BI.
 
-#### Q10 What languages is the dashboard available in?
+#### Q11 What languages is the dashboard available in?
 
 The dashboard is currently only available in English.
 
