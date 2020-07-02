@@ -21,7 +21,11 @@ The ONA person-to-person query measures the strength of connections through thes
  
  * The **Diverse ties** metric measures how varied and how broad the person's connections are. A person need not have much direct collaboration with their diverse ties, so it’s easy to have more diverse ties than strong ties. Diverse ties present good sources of fresh and varied information from across the company.
 
-## Run a query to determine Strong ties and Diverse ties
+> [!Note] 
+> * Strong ties and diverse ties are computed and reported for licensed users only.
+> * Strong ties pay special attention to meeting-based collaboration. This is because meetings are considered more important than email for establishing a true connection. Similarly, for email-based collaboration, bidirectional emails are considered more important than one-way emails.
+
+## Run a query to determine strong ties and Diverse ties
 
 **Role:** analyst
 
@@ -35,9 +39,9 @@ The ONA person-to-person query measures the strength of connections through thes
 4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
 
     > [!Note] 
-    > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.   
+    > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected. 
 
-5.  If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).) 
+5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).) 
 6.	Under **Select metrics**, select **Strong and Diverse tie scores**. 
 7.	Under **Select filters**, select the groups of people for whom you want to see results. This section offers two optional filters, one for selecting "tie-origin" employees, and the other for selecting "tie-destination" employees. For more information, see [Select filters](#select-filters).
 8.	Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
@@ -93,7 +97,7 @@ _Query results example: Columns I through M_
    The results for this query type always include the following metrics:
 
   * **StrongTieScore.** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. 
-  * **DiverseTieScore.** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals.  
+  * **DiverseTieScore.** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals. 
   * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a strong tie -– roughly, the top 10% of ties, by strength. "2" indicates a tie that is significant but less strong. "0" indicates a tie that's not that strong. 
   * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. IT contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a diverse tie –- roughly, the top 10% of ties, by diversity. "2" indicates a tie that is significant but less diverse. "0" indicates a tie that’s not that diverse.
 
@@ -107,23 +111,54 @@ The **Select filters** section offers two identical filters, one for the left si
 
 ![ONA p2p query](../images/wpa/tutorials/ona-p2p-filters.png)
 
-If you specify only the tie-origin filter, the query results will include all rows that match the tie-origin PersonId that you specifed in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the destination of the tie.  
+If you specify only the tie-origin filter, the query results will include all rows that match the tie-origin PersonId that you specifed in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the destination of the tie. 
 
-If you specify only the tie-destination filter, the query results will include all rows that match tie-destination PersonId that you specified in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the origin of the tie.  
+If you specify only the tie-destination filter, the query results will include all rows that match tie-destination PersonId that you specified in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the origin of the tie. 
 
 If both tie origin and tie destination filters are specified, the query returns only those rows that match the tie-origin PersonID in the tie-origin filter AND the tie-destination PersonID in the tie-destination filter.
 
 ## Additional notes 
 
-You can derive additional value from Strong and Diverse ties, based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports.  
+You can derive additional value from strong and diverse ties based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports. 
 
-You could have Strong ties that are close: These are Strong ties with people in your immediate group. These ties are necessary for the promotion of overall team efficiency, team effectiveness, knowledge transfer, and best-practice development. 
+You could have strong ties that are close: These are strong ties with people in your immediate group. These ties are necessary for the promotion of overall team efficiency, team effectiveness, knowledge transfer, and best-practice development. 
 
-You could have Strong ties that are distant: These are Strong ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. However, such ties are likely not sustainable because of time demand for deep and constant engagement. 
+You could have strong ties that are distant: These are strong ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. However, such ties are likely not sustainable because of time demand for deep and constant engagement. 
 
-You could have Diverse ties that are close: These are Diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group. 
+You could have diverse ties that are close: These are diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group. 
 
-You could have Diverse ties that are distant: These are Diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks are considered key for driving innovation and creativity in and among teams.  
+You could have diverse ties that are distant: These are diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks are considered key for driving innovation and creativity in and among teams. 
+
+## Frequently asked questions
+
+The following questions and answers refer to metrics, whose definitions you can find in [Metric descriptions / Person metrics](../use/metric-definitions.md#person-metrics) and in [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
+
+**Q1. What is the difference between "Internal network size" and "Strong ties"?**
+
+A1. Internal network size simply means the number of connections a person has within the company, based on the number of meaningful interactions the person has with their connections. Strong ties means the number of tight-knit, engaged connections a person has within the company, based on the time that the person invested with their connections. 
+
+Strong ties also looks at network commonality that exists between the two people where both people are investing time, enabling another form of bonding. Strong ties also gives more weight to meetings-based collaboration than email. This is because meetings are more inter-personal in nature, enable direct person-to-person engagement, resulting in a formalized engagement. Email-based collaboration doesn't translate into such an interpersonal engagement. Thus, unlike Internal network size, strong ties returns the number of connections based on the quality of the engagement that exists between two people.
+
+**Q2. When should you use "Internal network size" and when "Strong ties"?**
+
+A2. If the intent is simply to get a quantitative number of connections a person has within the company irrespective of whether connections include licensed users or not, then Internal network size can be used. However, when looking at licensed users only, it is recommended to use strong ties instead to get a more realistic and qualitative view of engaged connections.
+
+**Q3. When should you use "External network size" and when "Strong ties"?**
+
+A3. If the intent is to get a quantitative number of connections a person has outside the company, then Internal network size can be used. Note that strong ties currently does not consider connections a person has outside the company.
+
+**Q4. What is the difference between "Networking outside organization" and "Diverse ties"?**
+
+A4. Networking outside organization simply returns the number of distinct organizations within the company a person has connections to, based on the number of meaningful interactions the person has with their connection. This metric only quantifies connections at the organization attribute level. Diverse ties on the other hand returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exists between the two people where both people are investing time, enabling another form of indirect sourcing of novel information. A person becomes a good source of diverse information if one is not spending too much time with them or if their common network has minimal overlap. Thus, unlike Networking outside organization, which only returns connections at the organization attribute level (which is at a very high level), diverse ties returns the number of connections based on the quality of the engagement and the variety of information that can be potentially sourced from the connection. Also, diverse ties can span any organizational attribute, thus allowing for far greater flexibility in terms of evaluating where the ties exist be it anywhere in the company.
+
+**Q5. When should you use "Networking outside organization" and when "Diverse ties"?**
+
+A5. If the intent is simply to get a quantitative number of connections a person has at the organizational level, within the company irrespective of whether connections include licensed users or not, then Networking outside organization can be used. However, when looking at licensed users only, it is recommended to use diverse ties instead to get a more realistic and qualitative view on the variety of connections with potential for diverse or novel information. Diverse ties also allows you to look at connections at any organizational attribute level, which is a lot more powerful and useful than Networking outside organization.
+
+**Q6. When should you use "Networking outside company" and when "Diverse ties"?**
+
+A6. If the intent is to get a quantitative number of connections a person has outside the company, then Networking outside company can be used. Note that diverse ties currently does not consider connections a person has outside the company.
+
 
 ## Related topics
 
