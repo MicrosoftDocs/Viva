@@ -20,3 +20,4 @@ ms.prod: wpa
 |Insights |A collection of articles from the leading edge of productivity analytics. Resources to examine new technologies that are helping people and organizations better manage their time and ultimately work smarter. |See [Microsoft Workplace Insights](https://insights.office.com/).|
 |Workplace Analytics documentation |This self-service documentation set can help you with privacy considerations, setup, features and functionality, and analysis. |In Workplace Analytics, if you select **Help** (?) > **Documentation**.|
 |Workplace Analytics FastTrack services	|If your company purchases 1,000 or more licenses, you can get help from our Workplace Analytics consultants through the FastTrack program. Our team can help you implement analytics technology more quickly and build new analytical capabilities. |Contact your Microsoft Customer Service representative. |
+

@@ -5,7 +5,6 @@ title: Call participants metrics for Workplace Analytics Data export
 description: One row for each collaboration event
 author: paul9955
 ms.author: v-pascha
-ms.date: 06/26/2019
 ms.topic: article
 ms.prod: wpa
 ---
