@@ -32,7 +32,7 @@ Please contact your admin if you'd like to receive the Briefing email. This emai
 You’ll get a different version of the Briefing email depending on which version of Outlook you’re using:
 
 * **Adaptive version** - If you open the Briefing email in OWA (Outlook Web Access), Outlook mobile (iOS and Android), and Outlook for Windows or Mac desktop, you’ll see the Adaptive version with links to open tasks, upcoming meetings, related documents, and complete in-line actions, and book suggested focus time.
-* **HTML version** - If you open the Briefing in OWA or Exchange ActiveSync on a mobile device, you’ll see the HTML version that links to open tasks, upcoming meetings, and related documents, but will not include in-line actions or suggested focus time.
+* **HTML version** - If you open the Briefing in an email app other than Outlook or in OWA on a mobile device, you’ll see the HTML version that links to open tasks, upcoming meetings, and related documents, but will not include in-line actions or suggested focus time.
 
 ## How it works
 
