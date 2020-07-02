@@ -19,6 +19,29 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
 
+## July 2020
+
+The following new template and template features, enhancements, and changes are in this month's release.
+
+### Process Explorer Azure Template
+
+* **Starter templates** - You can 
+* **Topic detection** - 
+* **Email thread analysis** - Automatically pivots based on the data and uncategorized email is excluded from the lists and visuals.
+* **Updated touch points** - 
+* **Distribution lists**
+* **Category analysis improvements** - The Category Distribution table is now shown first on Category Analysis page. Also, improvements were made to the time range selection options and the Time Spent on Category graph. 
+* **Other enhancements** - InitiatorOrgGroup now uses organization instead of domain when organizational group information is available and InitiatorWpAStatus now uses the Subject prefix.
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
+
+### Organizational Network Analysis (ONA) Azure Template
+
+* **Improved workflow** - Improved how you access and load saved graphs. 
+* **New chart enhancements** - Updated labels to more neutral colors for improved readability and dark mode is now an option in the graph view.
+
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+
 ## May 2020
 
 The new [Workspace Planning Azure Template](space-planning.md) is now available. This template enables a quantitative solution to effectively identify and place teams in a given workspace to maximize and foster physical workplace cross-team productivity and collaboration.
