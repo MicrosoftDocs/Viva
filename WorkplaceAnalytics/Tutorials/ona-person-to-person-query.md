@@ -139,7 +139,7 @@ A1. Internal network size simply means the number of connections a person has wi
 
 Strong ties takes the network commonality that exists between the two people into account, a situation in which both people are investing time together or enabling other forms of bonding. Strong ties also gives more weight to meetings-based collaboration than to email. This is because meetings are more inter-personal in nature and enable direct person-to-person engagement, which results in a formalized engagement. Email-based collaboration doesn't translate into such an interpersonal engagement. 
 
-In summary: Strong ties differs from Internal network size in that they reflect the number of a person's connections based on the _quality_ of the engagement that exists between two people.
+In summary: Strong ties differs from Internal network size in that they reflect the number of a person's connections based on the quality of the engagement that exists between two people.
 
 **Q2. When should you use "Internal network size" and when "Strong ties"?**
 
@@ -153,7 +153,7 @@ A3. Strong ties currently does not consider connections that a person has outsid
 
 **Q4. What is the difference between "Networking outside organization" and "Diverse ties"?**
 
-A4. _Networking outside organization_ returns the number of distinct organizations within the company a person has connections to, based on the number of meaningful interactions the person has with their connection. This metric quantifies connections at the organization attribute level. 
+A4. Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of meaningful interactions the person has with their connection. This metric quantifies connections at the organization attribute level. 
 
 In contrast, Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exists between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their common network has minimal overlap. 
 
@@ -161,7 +161,7 @@ Therefore, unlike Networking outside organization, which returns connections onl
 
 **Q5. When should you use "Networking outside organization" and when "Diverse ties"?**
 
-A5. If you need nothing more than the number of connections a person has at the organizational level, within the company, regardless of whether connections include licensed users, use _Networking outside organization_. But if you restrict your query to licensed users, use _Diverse ties_ to obtain a more realistic and qualitative view of the variety of connections with potential for diverse or novel information. Diverse ties also allows you to look at connections at any organizational attribute level, which gives you more useful results than Networking outside organization would provide.
+A5. If you need nothing more than the number of connections a person has at the organizational level, within the company, regardless of whether connections include licensed users, use Networking outside organization. But if you restrict your query to licensed users, use Diverse ties to obtain a more realistic and qualitative view of the variety of connections with potential for diverse or novel information. Diverse ties also allows you to look at connections at any organizational attribute level, which gives you more useful results than Networking outside organization would provide.
 
 **Q6. When should you use "Networking outside company" and when "Diverse ties"?**
 
