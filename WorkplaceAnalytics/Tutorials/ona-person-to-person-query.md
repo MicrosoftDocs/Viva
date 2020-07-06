@@ -149,7 +149,7 @@ However, if you restrict your query to licensed users, we recommended that you q
 
 **Q3. When should you use "External network size" and when "Strong ties"?**
 
-A3. Strong ties currently does not consider connections that a person has outside the company. To obtain the number of connections a person has outside the company, you can use Internal network size.
+A3. Strong ties currently does not consider connections that a person has outside the company. To obtain the number of connections a person has outside the company, you can use External network size.
 
 **Q4. What is the difference between "Networking outside organization" and "Diverse ties"?**
 
