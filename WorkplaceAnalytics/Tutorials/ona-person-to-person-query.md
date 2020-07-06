@@ -133,7 +133,7 @@ You could have diverse ties that are distant: These are diverse ties with people
 
 The following questions and answers refer to metrics; you can find their definitions in [Metric descriptions / Person metrics](../use/metric-definitions.md#person-metrics) and in [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
 
-**Q1. What is the difference between "Internal network size" and "Strong ties"?**
+**Q1. What is the difference between "Strong ties" and "Internal network size"?**
 
 A1. Internal network size simply means the number of connections a person has within the company, based on the number of meaningful interactions the person has with their connections. Strong ties means the number of tight-knit, engaged connections a person has within the company, based on the time that the person invested with their connections. 
 
@@ -141,29 +141,31 @@ Strong ties takes the network commonality that exists between the two people int
 
 In summary: Strong ties differs from Internal network size in that they reflect the number of a person's connections based on the quality of the engagement that exists between two people.
 
-**Q2. When should you use "Internal network size" and when "Strong ties"?**
+**Q2. When should you use "Strong ties" and when "Internal network size"?**
 
 A2. Let's say you need nothing more than a quantitative number of connections a person has within the company. Also, you have no objection to including unlicensed users even though restricting your query to licensed users would return richer data. In this case, feel free to query for Internal network size. 
 
 However, if you restrict your query to licensed users, we recommended that you query for Strong ties because this gives you a more realistic and qualitative view of engaged connections.
 
-**Q3. When should you use "External network size" and when "Strong ties"?**
+**Q3. When should you use "Strong ties" and when "External network size"?**
 
 A3. Strong ties currently does not consider connections that a person has outside the company. To obtain the number of connections a person has outside the company, you can use External network size.
 
-**Q4. What is the difference between "Networking outside organization" and "Diverse ties"?**
+**Q4. What is the difference between "Diverse ties" and "Networking outside organization"?**
 
 A4. Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of meaningful interactions the person has with their connection. This metric quantifies connections at the organization attribute level. 
 
 In contrast, Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exists between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their common network has minimal overlap. 
 
-Therefore, unlike Networking outside organization, which returns connections only at the organization attribute level (a very high level), Diverse ties returns the number of connections based on the _quality_ of the engagement and the _variety_ of information that can potentially be conveyed through the connection. Also, Diverse ties can span any organizational attribute, which lets you more flexibly locate ties anywhere in the organization.
+Therefore, unlike Networking outside organization, which returns connections only at the organization attribute level (a very high level), Diverse ties returns the number of connections based on the _quality_ of the engagement and the _variety_ of information that can potentially be conveyed through the connection. Also, Diverse ties can span any organizational attribute, which lets you more flexibly locate such ties anywhere in the company.
 
-**Q5. When should you use "Networking outside organization" and when "Diverse ties"?**
+**Q5. When should you use "Diverse ties" and when "Networking outside organization"?**
 
-A5. If you need nothing more than the number of connections a person has at the organizational level, within the company, regardless of whether connections include licensed users, use Networking outside organization. But if you restrict your query to licensed users, use Diverse ties to obtain a more realistic and qualitative view of the variety of connections with potential for diverse or novel information. Diverse ties also allows you to look at connections at any organizational attribute level, which gives you more useful results than Networking outside organization would provide.
+A5. If you need nothing more than the number of connections a person has at the organization attribute level within the company, regardless of whether connections include licensed users or not, use Networking outside organization. 
 
-**Q6. When should you use "Networking outside company" and when "Diverse ties"?**
+But if you restrict your query to licensed users, use Diverse ties to obtain a more realistic and qualitative view of the variety of connections with potential for diverse or novel information. Diverse ties also allows you to look at connections at any organizational attribute level, which gives you more useful results than Networking outside organization would provide.
+
+**Q6. When should you use "Diverse ties" and when "Networking outside company"?**
 
 A6. Diverse ties currently does not consider connections that a person has outside the company. To obtain the number of connections a person has outside the company, you can use Networking outside company.
 
