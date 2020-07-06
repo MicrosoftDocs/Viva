@@ -23,16 +23,16 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can connect to a blob (cloud) storage location to analyze meeting and email activity.
 
-After you add a new dataset within the template, you can use the Query Builder to help you decide what categories to add for analysis. You can select category names or phrases from the word cloud to view those meetings and then categorize them in the dashboard view.
+After you add a new dataset within the template, you can use a starter template or a topic detection option to categorize data for analysis. Starter templates include predefined factory and user-defined templates. You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. You can then customize that factory template with your specific organizational categories and save it as a user-defined template. Or you can define your own starter templates for your specific organization. All starter templates are saved and available to reuse or customize further for future analysis within Process Explorer.
 
-After you categorize a good sample of meetings into the specified categories:
+![Process Explorer starter templates](./images/pexp-starter-temp.png)
 
-* You can view meeting data based on those categories with visual charts and lists.
-* The categorization options depend on what the template's admin settings are for email activity:
-  
-  * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
-  * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which creates distinct models for the two types of content and more accurate overall results.
+After the data is categorized:
 
+* **Category Analysis** - You can see data by category, including total number of meetings, meeting hours, email, and email hours. You'll also see this same data shown visually in pie charts. This page also has a **Time on Category Analysis** chart that you can use to 
+
+
+* **Email Thread Analysis** - You can al
 * You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analyses.
 
 You can also skip categorization and use the **Email Thread Analysis** page to get static summary information about email activity for a specific dataset. See [Email thread analysis](#email-thread-analysis) for more details.

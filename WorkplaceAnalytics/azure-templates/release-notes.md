@@ -25,9 +25,8 @@ The following new template and template features, enhancements, and changes are 
 
 ### Process Explorer Azure Template
 
-* **Starter templates** - You can 
-* **Topic detection** - 
-* **Email thread analysis** - Automatically pivots based on the data and uncategorized email is excluded from the lists and visuals.
+* **Starter templates and topic detection** - You no longer need to manually categorize your data for model categorization. Process Explorer now has the option of using a predefined starter template, defining your own template, or detecting topics only to create new analysis. These new options help you automatically categorize the data by matching key phrases in the data subject lines.
+* **Email thread analysis** - Automatically pivots based on the data and uncategorized email, which is can be excluded from the visuals.
 * **Updated touch points** - 
 * **Distribution lists**
 * **Category analysis improvements** - The Category Distribution table is now shown first on Category Analysis page. Also, improvements were made to the time range selection options and the Time Spent on Category graph. 
