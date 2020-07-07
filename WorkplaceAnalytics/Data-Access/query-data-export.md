@@ -25,7 +25,7 @@ You can then join dynamically refreshed Workplace Analytics query data with othe
 To set up the automated OData connection between Workplace Analytics query data and your choice Azure data store, you can use one of the following paths to create and configure a new Azure analytics app, which needs company-specific information (secrets) about your private network and your choice data store.
 
 * [Set up with Azure Data Factory UI](#to-set-up-with-azure-data-factory-ui) – This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Data Factory UI.
-* [Set up with Azure PowerShell]() – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
+* [Set up with Azure PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/readme.md) – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
 
 ## Prerequisites
 
@@ -109,4 +109,4 @@ You can then use this new data factory to access query data from Workplace Analy
 
 ## Related topic
 
-[Automate query data export with PowerShell]()
+[Automate query data export with PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/readme.md)
