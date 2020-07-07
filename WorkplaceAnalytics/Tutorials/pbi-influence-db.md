@@ -78,7 +78,7 @@ This dashboard requires results from two queries. For this reason, in the follow
 11. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
     * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
-    * In Power BI, paste each copied link into its respective field.
+    * In Power BI, paste each copied link into its respective field. These fields are labeled **Influence insights query URL** and **Standard person query URL**.
 
       ![Query URLs for Influence insights](../Images/WpA/Tutorials/influence-insights-step-11.png)
 
