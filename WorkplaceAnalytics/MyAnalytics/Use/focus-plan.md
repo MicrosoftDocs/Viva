@@ -41,7 +41,7 @@ MyAnalytics now adds up to two hours of focus time per day on your Outlook calen
 
 ### Outlook add-in
 
-You can also use the Outlook add-in to enroll in the focus plan. To do so, select the **Create your focus plan**. 
+You can also use the Outlook add-in to enroll in the focus plan. To do so, select **Create your focus plan**. 
 
 ![Create your focus plan](../../Images/mya/use/card-in-add-in-2.png)
 
