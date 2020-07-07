@@ -45,6 +45,20 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
+    },
+    {
+      "docset_name": "Workplace-Analytics-Insights",
+      "build_source_folder": "workplace-analytics-insights",
+      "build_output_subfolder": "Workplace-Analytics-Insights",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
@@ -87,8 +101,8 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "need_generate_pdf": false,
   "docs_build_engine": {
     "name": "docfx_v3"
-  }
+  },
+  "need_generate_pdf": false
 }
