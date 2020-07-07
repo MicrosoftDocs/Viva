@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Automate query data export to Azure with Azure Data Factory UI
-description: Steps for admins to set up an automated query data export to Azure through Azure Data Factory UI
+description: Steps for admins to set up an automated Workplace Analytics query data export to Azure through Azure Data Factory UI
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -25,7 +25,7 @@ You can then join dynamically refreshed Workplace Analytics query data with othe
 To set up the automated OData connection between Workplace Analytics query data and your choice Azure data store, you can use one of the following paths to create and configure a new Azure analytics app, which needs company-specific information (secrets) about your private network and your choice data store.
 
 * [Set up with Azure Data Factory UI](#to-set-up-with-azure-data-factory-ui) – This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Data Factory UI.
-* [Set up with Azure PowerShell]() – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
+* [Set up with Azure PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/readme.md) – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
 
 ## Prerequisites
 
@@ -73,7 +73,7 @@ The following steps you through how to automate the export of Workplace Analytic
 14. In [Workplace Analytics](https://workplaceanalytics.office.com/) > **Queries** > **Results**, copy the OData link for the query data you want to connect to Azure.
 
     > [!Important]
-    > For automatically refreshed data, you must link to a query that has the [Auto-refresh option](https://docs.microsoft.com/workplace-analytics/tutorials/query-auto-refresh#create-a-query-with-the-auto-refresh-option) selected. For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
+    > For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](https://docs.microsoft.com/workplace-analytics/tutorials/query-auto-refresh#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
 
 15. In **Service URL**, paste the query OData link that you copied in the previous step. 
 16. In **AAD resource**, enter `https://workplaceanalytics.office.com`. 
@@ -93,7 +93,7 @@ The following steps you through how to automate the export of Workplace Analytic
 22.	Select **Test connection** to test the OData linked service. 
 23.	After you see **Connection successful**, select **Create**. 
 24.	In **Connection** > **Linked service** for the new OData linked service, select the new dataset you just created in the previous steps.
-25.	In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy and open the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Queries** > **Results** in a new browser window, and then search for **metadata**. The entity name is shown after **$metadata#**. For example, the entity name as shown in this graphic is **Persons**: 
+25.	In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Queries** > **Results**, and open it in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is **Persons**: 
 
      ![Query entity set name](./images/entity-set-name.png)
 
@@ -107,6 +107,6 @@ The following steps you through how to automate the export of Workplace Analytic
 
 You can then use this new data factory to access query data from Workplace Analytics and copy it to your choice data store (blob storage) by using the Azure Resource Manager template. You can reuse this new app over time for multiple projects without having to repeat these steps. You can also reuse the data factory you created for new pipelines.
 
-## Related topics 
+## Related topic
 
-[Automate query data export with PowerShell]()
+[Automate query data export with PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/readme.md)
