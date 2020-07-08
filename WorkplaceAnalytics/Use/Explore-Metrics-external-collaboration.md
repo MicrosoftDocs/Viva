@@ -252,7 +252,7 @@ You can use the **Collaborators** section to group users by Collaborators, which
 ![Collaborators group](../images/wpa/use/ext-collab-page-settings-collaborators.png)
 
 >[!Note]
-> Currently, you cannot apply the Collaborators filter for the External network size, External network breadth and bubble charts in the Network section. However, it applies to all the other charts on the page.
+> Currently, you cannot apply the Collaborators filter for the External network size, External network breadth, and bubble charts in the Network section. However, it applies to all the other charts on the page.
 
 ## Related topics
 
