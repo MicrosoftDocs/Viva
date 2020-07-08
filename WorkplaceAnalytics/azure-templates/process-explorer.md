@@ -145,7 +145,7 @@ If you selected to include an organizational network graph when adding new analy
 * **Category Filter** - Use to specify which categories of communication you want to focus on.
 * **Self Links** - Turn it on to see how a group communicated with itself on the specified categories.
 * **Link Weight by Hours** or **by Count** - Select an option for how you want to see the communication flow and the links will scale accordingly.
-* **Graph tools** - Use the tools to the right of the graph to move and adjust graph elements, fit chart to view, zoom in and out, run the layout, and show a full screen version.
+* **Graph tools** - Use the tools to the right of the graph to move and adjust graph elements, fit chart to view, zoom in and out, run the layout, and switch between window and full screen view.
 * **Time Bar** - Adjust the bar to show how the communication flows over the selected time period.
 * **Play an animation** - Use the play, pause, and skip buttons at the bottom of the time bar to show an animation of how the communication flow evolves for the selected time period.
 * **Download** - Use to download a .csv file of the communication flow data.
