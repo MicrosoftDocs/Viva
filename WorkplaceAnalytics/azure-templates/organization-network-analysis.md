@@ -29,15 +29,11 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 1. In Workplace Analytics Azure Templates, select **Organizational Network Analysis**.
 2. On the **Organizational Network Analysis** page, select **Add New Dataset** at top right.
 3. In **Define Analysis Settings**, enter a name and select a path to the dataset.
-
-   ![Add New Analysis](./images/ona-analysis.png)
-
 4. In **Select the Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
 5. In **Specify the Interaction Types and Thresholds**, select the following.
 
    * **Choose the interaction type(s)**: Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
    * **Max number of people involved in each interaction**: Select the maximum number of people involved in each interaction.
-   * **Maximum number of unique interaction types**: Select the maximum number of hours for each interaction.
    * **Maximum duration of a meeting or call**: Select the maximum number of interactions between the selected groups or people.
    * **Advanced Settings**: Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
 
@@ -61,12 +57,12 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
 11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
-## To view analysis
+## To view graphs
 
 1. After the analysis successfully loads (green check mark), select it from the list, and then:
 
    * For new graphs, select **Preliminary Analysis** and in **Define Graph Settings**, select what HR attribute to use for the combined or grouped view and for the color of the graph's nodes. You can select one or more filters, and then select **Render Graph**.
-   * For previously saved graphs, select **Load Saved Graph** (top right), and then select it from the list.
+   * For previously saved graphs, select the **Load Saved Graph** icon associated with the analysis, and then select it from the list.
 
    >[!Note]
    >If you haven't saved any graphs yet, the list will be empty.
@@ -117,17 +113,16 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
 7. Select **Submit** to create the graph analysis. The system will process the analysis, which is complete when the Status changes to a green check mark.
 
-## To view a saved graph
+## To view analysis
 
 1. On the **Organizational Network Analysis** page, select the name of the dataset in the table, and then select the name of the analysis in the table.
-2. At the top right of **Define Graph Settings**, select **Load Saved Graph**.
-3. Select the name of the graph that you want to view. If no analysis has been created, the subset list will be empty.
-4. Additional information and options on the analysis pages:
+2. The following information and options are available in the table for existing analysis:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
-   * If the analysis fails with the **Status** of a red x, select the **Job Details** (i) icon next to Status to view details and see what might've caused the failure.
-   * Select a table column heading, such as Name or Submitted, to sort by it.
+   * If the analysis fails with the **Status** of a red X, select the **Job Details** (i) icon next to status to view details and see what might've caused the failure.
+   * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
    * Select the **Parameters** icon next to the name to view them for the analysis in that row.
+   * Select the **Load Saved Graph** icon to view any graphs saved for that analysis. The list will be empty if no graphs have been saved yet.
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
    * Select the **Download** icon to download one of the following as a .csv file.
 
@@ -137,7 +132,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
      > [!Important]
      > When you calculate metrics in a **Download interaction matrix** file, know that your calculations might be different than the metrics calculated in a group-level download file. These differences occur because a person's HR attribute values can change over time and the calculations in the different downloads only use a snapshot of the latest available HR values.
 
-   ![Organizational Network Analysis pages](./images/ona-analysis-pages.png)
+   ![Organizational Network Analysis](./images/ona-analysis.png)
 
 ## Node Measures
 
