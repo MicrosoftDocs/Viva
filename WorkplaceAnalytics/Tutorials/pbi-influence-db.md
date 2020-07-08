@@ -89,7 +89,7 @@ This dashboard requires results from two queries. For this reason, in the follow
     * The **Values in the Manager Indicator column representing an individual contributor** field indicates the values in the column that represent whether a person is an IC or not. Usually it is "IC". You can provide multiple values here, including spaces, as long as they are delimited by semi-colons or commas. Example: **IC, Individual contributor**
 
     > [!Note] 
-    > If the optional values on this page are not provided or incorrectly provided, some insights might show up with a message such as, "This insight requires the Manager Indicator column to be configured while loading the Power BI template." However, if this happens, the rest of the PBI loads and is functional.
+    > If the optional values on this page are not provided or incorrectly provided, some insights might show up with a message such as, "This insight requires the Manager Indicator column to be configured while loading the Power BI template." However, the rest of the PBI loads and is functional.
 
     * Finally, select **Load** to import the query results into Power BI. Loading these large files might take some time to complete.
 
