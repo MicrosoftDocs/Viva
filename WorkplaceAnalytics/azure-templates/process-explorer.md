@@ -4,10 +4,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Process Explorer Azure Template for Workplace Analytics 
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
-ms.author: 
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
-search.appverid:
+search.appverid: 
 - MET150
 ms.prod: wpa
 ms.collection: M365-analytics
@@ -25,17 +25,15 @@ You can use Process Explorer to categorize and analyze processes, projects, meet
 
 You can use a starter template or a topic detection option to categorize data for analysis. Starter templates include predefined factory and user-defined templates. You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. You can then customize that factory template with your specific organizational categories and save it as a user-defined template. Or you can define your own starter templates for your specific organization. All starter templates are saved and available to reuse or customize further for future analysis within Process Explorer.
 
-![Process Explorer starter templates](./images/pexp-starter-temp.png)
-
 The following is available after the data is categorized:
 
 * **Categorization Analysis** - You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. See [Categorization analysis](#categorization-analysis) for details.
 
 * **Email Thread Analysis** - Shows static summary information about email activity for the selected dataset. See [Email thread analysis](#email-thread-analysis) for details.
 
-* **Topic detection** - Shows auto-detected topics during the categorization process that are not categorized yes as part of a starter template. See [Detected topics](#detected-topics) for details.
+* **Topic detection** - Automatically detects topics and groups them into categories that you can then edit and then create a new starter template with. See [Detected topics](#detected-topics) for details.
 
-* **Communication Flow by Category** - Shows how specific categories are communicated across and within the various groups of an organization. See [Communication flow by category](#communication-flow-by-category) for details.
+* **Communication Flow by Category** - If the analysis includes an organizational network graph, this page will show you how specific categories are communicated across and within the various groups of an organization. See [Communication flow by category](#communication-flow-by-category) for details.
 
 ## To add new analysis
 
@@ -48,6 +46,8 @@ Use the following steps to add new analysis in Process Explorer.
    * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
    * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page with the option to **Create Starter Template** that includes these topics and you can edit the associated key phrases and category names for them.
 
+    ![Process Explorer starter templates](./images/pexp-define-analysis.png)
+
 4. In **Analysis Name**, enter a unique name for this analysis.
 5. Select the applicable path for the dataset to use in this analysis.
 6. Select the time range to analyze.
@@ -56,7 +56,7 @@ Use the following steps to add new analysis in Process Explorer.
 9. Then do one of the following:
 
     * **No organizational network graph** - For no graph, select **Submit** and skip to **Step 11**.
-    * **Generate organizational network graph** - Change the setting to **Yes**, and then select **Next**.
+    * **Generate Organizational Network Graph** - Change the setting to **Yes**, and then select **Next**.
 10. In **Specify the Interaction Types and Thresholds** for **Organizational Network Graph Settings**, select the following.
 
     * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or all emails and meetings.
@@ -75,7 +75,7 @@ Use the following steps to add new analysis in Process Explorer.
     * Select the **Delete Dataset** (trashcan) icon to delete analysis that you created from the list.
     * If the dataset fails with a **Status** of a red X, you can select the **Undo** icon to revert to the last successfully saved version of the dataset.
 
-    ![Process Explorer analysis](./images/pexp-analysis.png)
+     ![Process Explorer analysis](./images/pexp-analysis.png)
 
 ## Categorization analysis
 
@@ -83,7 +83,9 @@ You can see how the activity data is distributed into predefined categories, inc
 
 ![Categorization analysis](./images/pexp-cat-analysis.png)
 
-This same data is visually presented in pie charts in the **Category Distribution Charts** section on this page.
+This same data is visually presented in pie charts in the **Category Distribution Charts** section on this page. Select **Uncategorized** to hide or remove it from the chart view.
+
+  ![Category Distribution chart](./images/pexp-dist-chart.png)
 
 The following is available for the **Time on Category Analysis** chart at the end of this page:
 
@@ -92,7 +94,7 @@ The following is available for the **Time on Category Analysis** chart at the en
 * **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is **All**, which shows all email and meeting activity that was categorized in the dataset.
 * **Date filter** - You can select a Start Date and End Date for the time period of data that you want to see in the chart. The default is **All**, which shows all time periods available in the dataset.
 
-![Time Spent on Category chart](./images/pexp-cat-chart.png)
+ ![Time Spent on Category chart](./images/pexp-cat-chart.png)
 
 You can also select **Copy Time on Category Data** or **Download Time on Topic Data** for a .csv file of the data.
 
@@ -107,7 +109,7 @@ You can see static summary information, including top level analysis, thread ave
 * Select **Download** to view data for either the **Thread Summary** or **Thread Details** in a .csv file for all email threads in the dataset.
 * Select **Copy Data** to copy a table view of either the **Thread Summary** or **Thread Details** data.
 
-![Email Thread Analysis](./images/pexp-email-thread.png)
+ ![Email Thread Analysis](./images/pexp-email-analysis.png)
 
    |Thread metric |Description |
    |--------------|-------------|
@@ -125,17 +127,19 @@ You can see static summary information, including top level analysis, thread ave
 
 ## Detected topics
 
-This page shows auto-detected topics during the categorization process that are uncategorized on the **Category Analysis** page because they were not predefined in the selected starter template.
+This template uses a natural-language processing algorithm to look at all the uncategorized meetings and emails and detect clusters of associated keywords in the dataset and categorize them for your review. **Detected topics** shows a number of categories that you can select all or specific categories to add to your new starter template. You can then select **Create Starter Template** to create a new user-defined starter template with these categories.
 
   ![Detected topics](./images/pexp-detected-topics.png)
 
-You can select **Create Starter Template** to copy these topics into a new user-defined starter template where you can edit the associated key phrases and category names.
+You can then edit the category name or delete it and change the associated key phrases to include or exclude in each category to use to create this new user-defined starter template.
 
   ![Create starter template](./images/pexp-create-starter.png)
 
+After you create a new starter template, you can then use it to create new analysis.
+
 ## Communication flow by category
 
-Shows how specific categories are communicated across and within the various groups of an organization with the following functionality:
+If you selected to include an organizational network graph when adding new analysis, your analysis will include Communication flow by category. This page shows how specific categories are communicated across and within the various groups of an organization with the following functionality.
 
 * **HR Attribute to Group By** - Use to specify how to group individuals who are communicating.
 * **Category Filter** - Use to specify which categories of communication you want to focus on.

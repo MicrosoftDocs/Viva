@@ -25,18 +25,25 @@ The following new template and template features, enhancements, and changes are 
 
 ### Process Explorer Azure Template
 
-* **Starter templates and topic detection** - You no longer need to manually categorize your data for model categorization. Process Explorer now has the option of using a predefined starter template, defining your own template, or detecting topics only to create new analysis. These new options help you automatically categorize the data by matching key phrases in the data subject lines.
-* **Email thread analysis** - Automatically pivots based on the data and uncategorized email, which is can be excluded from the visuals.
-* **Updated touch points** - 
-* **Distribution lists**
-* **Category analysis improvements** - The Category Distribution table is now shown first on Category Analysis page. Also, improvements were made to the time range selection options and the Time Spent on Category graph. 
+* **Starter templates and topic detection** - You no longer need to manually categorize your data for model categorization. Process Explorer now has the option of using a predefined factory starter template, defining your own user-defined template, or simply detecting topics for creating a template. These new options help you automatically categorize the data by matching key phrases in the data subject lines.
+* **Communication flow by category** - New analysis page that shows how specific categories are communicated across and within the various groups of an organization, including the following functionality.
+
+   * Use the filters to specify how to group the individuals communicating and which categories of communication to focus on.
+   * Use **Self Links** to see how a group communicated with itself on the specified categories.
+   * Change **Link Weight** to show by hours or by count in the communication flow and the links will scale accordingly.
+   * Adjust the **Time Bar** to show how the communication flows over the selected period of time.
+   * Play through an animation of the selected period of time to see how the communication flow evolves.
+
+* **Email thread analysis** - Automatically pivots based on the data and uncategorized email is excluded from the visuals and details on this page.
+* **Updated touchpoints** - They now show accumulated counts instead of distinct counts.
+* **Category analysis improvements** - The Category Distribution table is now shown first on Category Analysis page. Also, improvements were made to the time range selection options and the Time Spent on Category graph.
 * **Other enhancements** - InitiatorOrgGroup now uses organization instead of domain when organizational group information is available and InitiatorWpAStatus now uses the Subject prefix.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 ### Organizational Network Analysis (ONA) Azure Template
 
-* **Improved workflow** - Improved how you access and load saved graphs. 
+* **Improved workflow** - Improved how you access and load saved graphs.
 * **New chart enhancements** - Updated labels to more neutral colors for improved readability and dark mode is now an option in the graph view.
 
 To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
