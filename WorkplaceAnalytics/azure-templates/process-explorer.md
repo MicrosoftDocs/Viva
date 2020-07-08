@@ -55,9 +55,16 @@ Use the following steps to add new analysis in Process Explorer.
 8. In **Apply Filters**, you can optionally select any applicable filters to reduce the dataset for analysis.
 9. Then do one of the following:
 
-    * **No organizational network graph** - For no graph, select **Submit**.
-    * **Generate organizational network graph** - Change the setting to **Yes**, and then select **Next**. You then need to specify the applicable interaction types and thresholds for the graph, and then select **Submit**.
-10. Data analysis creation takes a few minutes to complete depending on the size of the dataset. The name will show in the Analysis table with the following details and actions.
+    * **No organizational network graph** - For no graph, select **Submit** and skip to **Step 11**.
+    * **Generate organizational network graph** - Change the setting to **Yes**, and then select **Next**.
+10. In **Specify the Interaction Types and Thresholds** for **Organizational Network Graph Settings**, select the following.
+
+    * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or all emails and meetings.
+    * **Maximum number of people involved in each interaction** - Select the maximum number of people involved in each interaction.
+    * **Maximum duration of a meeting or call** - Select the maximum number of hours of the meeting.
+    * **Advanced Settings** - Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, and interactions across both types.
+
+11. Data analysis creation takes a few minutes to complete depending on the size of the dataset. The name will show in the **Analysis** table with the following details and available actions.
 
     * When the **Status** changes to a green check mark, you can select the analysis to view it.
     * **Model Type** shows if based on a starter template or topic detection only.
@@ -78,7 +85,7 @@ You can see how the activity data is distributed into predefined categories, inc
 
 This same data is visually presented in pie charts in the **Category Distribution Charts** section on this page.
 
-The following is available for the **Time on Category Analysis** chart:
+The following is available for the **Time on Category Analysis** chart at the end of this page:
 
 * **Hours on Topic** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected categories and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
 * **Category Filter** - Select one or more categories to focus the chart on. The default is **All**, which shows all categories available in the dataset.
@@ -134,8 +141,10 @@ Shows how specific categories are communicated across and within the various gro
 * **Category Filter** - Use to specify which categories of communication you want to focus on.
 * **Self Links** - Turn it on to see how a group communicated with itself on the specified categories.
 * **Link Weight by Hours** or **by Count** - Select an option for how you want to see the communication flow and the links will scale accordingly.
+* **Graph tools** - Use the tools to the right of the graph to move and adjust graph elements, fit chart to view, zoom in and out, run the layout, and show a full screen version.
 * **Time Bar** - Adjust the bar to show how the communication flows over the selected time period.
-* **Play an animation** - Shows an animation of how the communication flow evolves for the selected time period.
+* **Play an animation** - Use the play, pause, and skip buttons at the bottom of the time bar to show an animation of how the communication flow evolves for the selected time period.
+* **Download** - Use to download a .csv file of the communication flow data.
 
 ![Communication flow by category](./images/pexp-comm-flow.png)
 

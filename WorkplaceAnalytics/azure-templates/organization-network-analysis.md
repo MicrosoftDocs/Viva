@@ -36,8 +36,8 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 5. In **Specify the Interaction Types and Thresholds**, select the following.
 
    * **Choose the interaction type(s)**: Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
-   * **Minimum number of people involved in each interaction**: Select the minimum number of people involved in each interaction.
-   * **Minimum number of unique interaction types**: Select the minimum number of hours for each interaction.
+   * **Max number of people involved in each interaction**: Select the maximum number of people involved in each interaction.
+   * **Maximum number of unique interaction types**: Select the maximum number of hours for each interaction.
    * **Maximum duration of a meeting or call**: Select the maximum number of interactions between the selected groups or people.
    * **Advanced Settings**: Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
 
