@@ -28,6 +28,6 @@ Yes. Trusted Microsoft 365 security keeps data safe and private while providing 
 
 Yes. Microsoft complies with GDPR requirements when providing Workplace Analytics insights.
 
-### Q5 How can I get more details about specific metrics or view more information about the leading indicators?
+### Q5 How can I get more in-depth analysis and action-oriented plans?
 
 Workplace Analytics gives you access to more advanced analysis tools and ways of exploring and reporting your organization's collaboration data. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing Workplace Analytics.
