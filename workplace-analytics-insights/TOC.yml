@@ -4,7 +4,7 @@
   href: ./privacy.md
 - name: Setup
   href: ./setup.md
-- name: Metrics
-  href: ./metrics.md
+- name: Behaviors
+  href: ./behaviors.md
 - name: Frequently asked questions
   href: ./faqs.md

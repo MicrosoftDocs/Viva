@@ -18,62 +18,25 @@ As a business leader, it's important that you have an understanding of how your 
 
 ## Business outcomes
 
-By grouping common employee behaviors into nine business outcomes...
+The most common employee behaviors are grouped into the top business outcomes that have the most impact on your bottom line. These business outcomes are proven to affect how successful organizations are, such as: developing effective managers, boosting employee engagement, building a culture of innovation, and increasing customer satisfaction.
 
-### Boost employee engagement
+## Your organizational data
 
-Employees with high job satisfaction and have engagement in their work are more likely to produce high quality work and proactively identify business opportunities. Top leading indicators include:
+The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Azure Active Directory environment, including the current date range and the number of measured employees in your organization.
 
-* Promote coaching and development
-* Free up capacity
-* Drive employee empowerment
+## Why it matters
 
-### Become more agile
+Each business outcome includes a top-level "Why it matters" explanation about how your organization compares to those who have been successful by supporting behaviors that positively affect their business.
 
-Rapidly evolving markets and inter-connected global supply chains require organizations to be agile and proactively plan and nimbly adapt to their customers' requirements.  
-
-* Promote effective meeting habits
-* Democratize and speed up decision making
-* Encourage cross-group collaboration
-
-### Build a culture of innovation
-
-### Develop effective manager
-
-Across many enterprise organizations, managers play an important role in influencing employee experience, retention, an achievement.
-
-* Improve manager decision making
-* Manager availability
-* Promote coaching and development
-* Drive employee empowerment
-
-### Operate with high efficiency
-
-### Accelerate change management
-
-### Transforming meeting culture
-
-Organizational meeting cultures can materially impact the ways organizations work, employees engage, and customers connect. 
-
-* Streamline meeting practices
-* Audit cadence of recurrence
-* Clarify roles and expectations
-
-### Maintain business continuity
-
-With a global shift to remote work, organizations need to adjust how to work done.
-
-* Free up capacity
-* Prevent employee burnout
-* Keep employee collaboration engaging
-* Improve team cohesion
-
-### Increase customer satisfaction
+As you deep dive into each business outcome, you'll see the top leading indicators with more details about why it matters to your organization and how you can focus on the behaviors that lead to business success.
 
 ## Supporting evidence and Best practices
 
 Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
 
-* Industry experts based on research
-* Organizations that have effectively used Workplace Analytics to improve their business outcomes
+* Industry experts who are basing their insights on research.
+* Organizations that have effectively used Workplace Analytics to improve their business outcomes.
 
+## How can I get more details about my organization?
+
+Workplace Analytics gives you access to more advanced analysis tools and ways of exploring and reporting your organization's collaboration data. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing Workplace Analytics.

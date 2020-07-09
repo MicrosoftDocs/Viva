@@ -14,11 +14,11 @@ ms.prod: wpa
 
 ### Q1. Who can see the insights?
 
-These insights are intended for business leaders in your organization to view high-level organizational metrics and insights. Your Microsoft 365 admin can give you access through the Microsoft 365 Admin center. See [Setup](setup.md) for details. 
+These insights are intended for business leaders in your organization to view high-level organizational metrics and insights. Your Microsoft 365 admin can give you access through the Microsoft 365 Admin center. See [Setup](setup.md) for details.
 
-### Q2. What data are these insights based on? 
+### Q2. What data are these insights based on?
 
-The insights are using data from your Azure environment that is set up by your IT admin. 
+The insights are using data from your Azure environment that is set up by your IT admin.
 
 ### Q3. Do these insights follow data privacy rules and regulations?
 
@@ -30,5 +30,4 @@ Yes. Microsoft complies with GDPR requirements when providing Workplace Analytic
 
 ### Q5 How can I get more details about specific metrics or view more information about the leading indicators?
 
-You can use Workplace Analytics to access to more tools and ways of exploring and reporting your organization's collaboration data. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more and to ask to be contacted about purchasing Workplace Analytics.
-
+Workplace Analytics gives you access to more advanced analysis tools and ways of exploring and reporting your organization's collaboration data. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing Workplace Analytics.

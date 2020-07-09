@@ -12,7 +12,7 @@ ms.prod: mya
 ---
 # Set up Workplace Analytics insights
 
-Your Microsoft 365 admin can assign you access to Workplace Analytics insights in Microsoft Admin center. 
+Your Microsoft 365 admin can assign you access to Workplace Analytics insights. 
 
 ## To assign access
 
