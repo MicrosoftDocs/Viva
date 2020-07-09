@@ -37,6 +37,6 @@ Each insight includes **Supporting evidence** and **Best practices** that link y
 * Industry experts who are basing their insights on research.
 * Organizations that have effectively used Workplace Analytics to improve their business outcomes.
 
-## How can I get more details about my organization?
+## Advanced analysis
 
-Workplace Analytics gives you access to more advanced analysis tools and ways of exploring and reporting your organization's collaboration data. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing Workplace Analytics.
+Workplace Analytics gives you access to more advanced analysis tools and ways of exploring and reporting about your organization's collaboration data. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing Workplace Analytics.
