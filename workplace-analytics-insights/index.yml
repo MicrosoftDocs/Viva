@@ -37,7 +37,7 @@ productDirectory:
         - url: behaviors.md
           text: Lists the top business outcomes and the associated behaviors that you can focus on toward business success.
     - title: Frequently asked questions
-      imageSrc: https://docs.microsoft.com/media/common/i_support.svg
+      imageSrc: https://docs.microsoft.com/media/common/i_best-practices.svg
       links:
         - url: faqs.md
           text: Answers to the most frequently asked questions about these insights.
