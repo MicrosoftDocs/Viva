@@ -12,7 +12,7 @@ ms.prod: mya
 ---
 # Introducing Workplace Analytics insights
 
-As a business leader, it's important that you have an understanding of how your employees work together. Workplace Analytics insights shows how your employees get work done, collaborate, and allows you to make business decisions accordingly.
+As a business leader, understanding how your employees work together is important. Workplace Analytics insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
 
 ![Home page](./images/home.png)
 

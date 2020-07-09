@@ -1,0 +1,44 @@
+### YamlMime:Hub
+
+title: Workplace Analytics insights 
+summary: Unleash your most powerful dataset by using insights from everyday work in Microsoft 365.
+brand: workplace-analytics
+
+metadata:
+ ROBOTS: NOINDEX,NOFOLLOW
+ title: Workplace Analytics insights
+ description: Unleash your most powerful dataset by using insights from everyday work in Microsoft 365.
+ localization_priority: normal
+ ms.prod: wpa
+ author: madehmer
+ ms.author: v-mideh
+
+productDirectory:
+ 
+    items:
+    - title: Overview
+      imageSrc: https://docs.microsoft.com/media/common/i_overview.svg
+      links:
+        - url: intro.md
+          text: Learn about how your employees work and collaborate to get work done and how your organization's behaviors can impact your bottom line.
+    - title: Setup
+      imageSrc: https://docs.microsoft.com/media/common/i_setup.svg
+      links:
+        - url: setup.md
+          text: Steps your Microsoft 365 admin must follow to give you access to these insights.
+    - title: Privacy
+      imageSrc: https://docs.microsoft.com/media/common/i_information-protection.svg
+      links:
+        - url: privacy.md
+          text: Learn how these insights use trusted Microsoft 365 security to keep your data safe and private.
+    - title: Behaviors
+      imageSrc: https://docs.microsoft.com/media/common//media/common/i_investigate.svg
+      links:
+        - url: behaviors.md
+          text: Lists the top business outcomes and the associated behaviors that you can focus on toward business success.
+    - title: Frequently asked questions
+      imageSrc: https://docs.microsoft.com/media/common/i_support.svg
+      links:
+        - url: faqs.md
+          text: Answers to the most frequently asked questions about these insights.
+      
