@@ -12,15 +12,17 @@ ms.prod: mya
 ---
 # Introducing Workplace Analytics insights
 
-As a business leader, you can see insights about your organization based on industry expert research. You can see how your employees are currently getting work done and collaborating and get suggestions on how to maintain or change behaviors to improve upon your business successes.
+As a business leader, it's important that you have an understanding of how your employees work together. Workplace Analytics insights shows how your employees get work done, collaborate, and allows you to make business decisions accordingly.
 
 ![Home page](./images/home.png)
 
 ## Business outcomes
 
-### Boost employee engagement 
+By grouping common employee behaviors into nine business outcomes...
 
-Employees with high job satisfaction and have engagement in their work are more likely to produce high quality work and proactively identify business opportunities. Top leading indicators include: 
+### Boost employee engagement
+
+Employees with high job satisfaction and have engagement in their work are more likely to produce high quality work and proactively identify business opportunities. Top leading indicators include:
 
 * Promote coaching and development
 * Free up capacity
@@ -38,7 +40,7 @@ Rapidly evolving markets and inter-connected global supply chains require organi
 
 ### Develop effective manager
 
-Across many enterprise organizations, managers play an important role in influencing employee experience, retention, an achievement. 
+Across many enterprise organizations, managers play an important role in influencing employee experience, retention, an achievement.
 
 * Improve manager decision making
 * Manager availability
@@ -75,6 +77,3 @@ Each insight includes **Supporting evidence** and **Best practices** that link y
 * Industry experts based on research
 * Organizations that have effectively used Workplace Analytics to improve their business outcomes
 
-## Differential privacy
-
-Differential privacy is a technology that allows researchers and analysts to pull useful information from databases containing personal information while simultaneously protecting individual privacy. This is achieved by introducing slight variations to the data to protect privacy while still maintaining accuracy, so you can have confidence in the observed values.
