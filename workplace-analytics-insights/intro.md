@@ -1,7 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics insights
+title: Introducing Workplace Analytics insights
 description: About Workplace Analytics insights to learn how your organization gets work done
 author: madehmer
 ms.author: madehmer
@@ -14,7 +14,7 @@ ms.prod: mya
 
 As a business leader, you can see insights about your organization based on industry expert research. You can see how your employees are currently getting work done and collaborating and get suggestions on how to maintain or change behaviors to improve upon your business successes.
 
-![Home page](../images/home.png)
+![Home page](./images/home.png)
 
 ## Business outcomes
 
