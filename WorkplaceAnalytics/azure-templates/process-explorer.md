@@ -23,9 +23,15 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 You can use Process Explorer to categorize and analyze processes, projects, meetings, and other activities within a blob (cloud) storage location.
 
-You can use a starter template or a topic detection option to categorize data for analysis. Starter templates include predefined factory and user-defined templates. You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. You can then customize that factory template with your specific organizational categories and save it as a user-defined template. Or you can define your own starter templates for your specific organization. All starter templates are saved and available to reuse or customize further for future analysis within Process Explorer.
+You can use a starter template or a topic detection option to produce analysis. Starter templates include predefined factory and user-defined templates, comprised of categories and associated key phrases. 
 
-The following is available after the data is categorized:
+You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. These factory defined starter templates can be viewed and copied, but cannot be edited directly or deleted. 
+
+By copying a factory template to the user defined library, you can customize that factory template with by adding or removing categories and associated key phrases. Or you can create your own starter template from scratch for your specific organization. All starter templates are saved in the Starter Template Library, which are then available to use when building new analyses. 
+
+The following is available after the data is categorized using a starter template.
+
+    ![Process Explorer analysis](./images/pexp-analysis.png)
 
 * **Categorization Analysis** - You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. See [Categorization analysis](#categorization-analysis) for details.
 
