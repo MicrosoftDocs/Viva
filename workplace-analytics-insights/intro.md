@@ -27,7 +27,7 @@ The most common employee behaviors are grouped into nine top business outcomes t
 
 Each business outcome includes a top-level "Why it matters" explanation about how your organization compares to those who have been successful by supporting behaviors that positively affect their business.
 
-As you deep dive into each business outcome, you'll see the top leading indicators and behaviors with more details about why it matters to your organization and how you can focus on the behaviors that lead to business success. See [Behaviors](behaviors.md) for more details.
+As you deep dive into each business outcome, you'll see the top leading indicators and behaviors with more details about why it matters to your organization and the behaviors you can focus time on that can lead to business success. See [Behaviors](behaviors.md) for more details.
 
 ## Supporting evidence and Best practices
 
