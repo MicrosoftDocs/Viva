@@ -75,10 +75,18 @@ The following steps you through how to automate the export of Workplace Analytic
     > [!Important]
     > For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](https://docs.microsoft.com/workplace-analytics/tutorials/query-auto-refresh#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
 
+     ![Query OData link](./images/query-link.png)
+
 15. In **Service URL**, paste the query OData link that you copied in the previous step. 
 16. In **AAD resource**, enter `https://workplaceanalytics.office.com`. 
 17. In **Active Directory**, select **Overview** for the new app, and then copy the **Application (client) ID**.
+
+     ![Azure application ID](./images/azure-app-id.png)
+
 18. In **Azure Data Factory** > **New linked service** > **Service principal ID**, copy the client ID. For  details, see [Linked service properties](https://docs.microsoft.com/azure/data-factory/connector-odata#linked-service-properties).
+
+     ![Service principal ID](./images/service-princ-id.png)
+
 19. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](https://docs.microsoft.com/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
 20. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
 
@@ -87,8 +95,8 @@ The following steps you through how to automate the export of Workplace Analytic
 
 21. In **Azure Data Factory**, do the following for the applicable authentication type:
 
-    * For Service principal key, paste the new client secret copied in the previous step into Service principal key.
-    * For Azure key vault, copy and paste the certificate and the other required information. See Set and retrieve a secret from Azure Key Vault for details. 
+    * For Service principal key, paste the new client secret copied in the previous step in **Service principal key**.
+    * For **Azure key vault**, copy and paste the certificate and the other required information. See [Set and retrieve a secret from Azure Key Vault](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-portal) for details. 
 
 22.	Select **Test connection** to test the OData linked service. 
 23.	After you see **Connection successful**, select **Create**. 
@@ -101,7 +109,7 @@ The following steps you through how to automate the export of Workplace Analytic
 27. In Azure Data Factory > Properties, confirm the name and description for this new dataset. 
 28. Select **Publish all** at the top, and then select **Publish**.
 29. In **Pipelines**, create a new pipeline that can use the new OData dataset to copy the Workplace Analytics data to the external resource. For details, see [Create a pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#create-a-pipeline).
-30. For the new pipeline, select **Source**, in **Source dataset**, select the name of new OData dataset, and in **Use query**, select **Table**. 
+30. For the new pipeline, select **Source**, and in **Source dataset**, select the name of new OData dataset, and in **Use query**, select **Table**. 
 31. Create a linked service for the data store you want to export to. For details, see [Linked services](https://docs.microsoft.com/azure/data-factory/author-management-hub#linked-services).
 32. In **Sink** > **Sink dataset**, select the linked service name you created in the previous step.
 
