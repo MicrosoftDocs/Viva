@@ -75,10 +75,18 @@ The following steps you through how to automate the export of Workplace Analytic
     > [!Important]
     > For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](https://docs.microsoft.com/workplace-analytics/tutorials/query-auto-refresh#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
 
+     ![Query OData link](./images/query-link.png)
+
 15. In **Service URL**, paste the query OData link that you copied in the previous step. 
 16. In **AAD resource**, enter `https://workplaceanalytics.office.com`. 
 17. In **Active Directory**, select **Overview** for the new app, and then copy the **Application (client) ID**.
+
+     ![Azure application ID](./images/azure-app-id.png)
+
 18. In **Azure Data Factory** > **New linked service** > **Service principal ID**, copy the client ID. For  details, see [Linked service properties](https://docs.microsoft.com/azure/data-factory/connector-odata#linked-service-properties).
+
+     ![Service principal ID](./images/service-princ-id.png)
+
 19. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](https://docs.microsoft.com/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
 20. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
 
