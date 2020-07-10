@@ -25,9 +25,9 @@ You can use Process Explorer to categorize and analyze processes, projects, meet
 
 You can use a starter template or a topic detection option to produce analysis. Starter templates include predefined factory and user-defined templates, comprised of categories and associated key phrases.
 
-You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. These factory defined starter templates can be viewed and copied, but cannot be edited directly or deleted.
+You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. You can view and copy the factory starter templates, but you cannot directly edit or delete them.
 
-By copying a factory template to the user defined library, you can customize that factory template with by adding or removing categories and associated key phrases. Or you can create your own starter template from scratch for your specific organization. All starter templates are saved in the Starter Template Library, which are then available to use when building new analyses.
+By copying a factory template to the user-defined library, you can customize it by adding or removing categories and associated key phrases. Or you can create your own user-defined starter template based on your specific organizational data. All starter templates are saved in the **Starter Template Library**, which are then available to use when building new analysis.
 
 The following is available after the data is categorized using a starter template.
 
@@ -50,7 +50,7 @@ Use the following steps to add new analysis in Process Explorer.
 3. In **Define Analysis Settings**, select one of the following:
 
    * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
-   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. You can choose to export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. When using this method, all emails and meetings remain uncategorized on the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages.
+   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. You can choose to export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings remain uncategorized on the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages.
 
     ![Process Explorer starter templates](./images/pexp-define-analysis.png)
 
@@ -58,11 +58,15 @@ Use the following steps to add new analysis in Process Explorer.
 5. Select the applicable path for the dataset to use in this analysis.
 6. Select the time range to analyze.
 7. In **Select the Grouping Attributes**, select two to five attributes to group the analysis.
-8. In **Apply Filters**, you can optionally select any applicable filters to reduce the dataset for analysis.
+8. In **Apply Filters**, you can optionally select any applicable filters to reduce and focus the dataset for analysis.
 9. Then do one of the following:
 
-    * **No organizational network graph** - For no graph, select **Submit** and skip to **Step 11**.
-    * **Generate Organizational Network Graph** - Change the setting to **Yes**, and then select **Next**.
+    * **No organizational network graph** - For no graph, leave the default set to **No**, and select **Submit**. Then skip to **Step 11**.
+    * **Generate Organizational Network Graph** - Change the setting to **Yes** to include **Communication Flow by Category** in the analysis, and then select **Next**.
+
+    >[!Important]
+    >With the default **No** setting, **Communication Flow by Category** will not show or be available with this analysis.
+
 10. In **Specify the Interaction Types and Thresholds** for **Organizational Network Graph Settings**, select the following.
 
     * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or all emails and meetings.
@@ -89,7 +93,7 @@ You can see how the activity data is distributed into predefined categories, inc
 
 ![Categorization analysis](./images/pexp-cat-analysis.png)
 
-This same data is visually presented in pie charts in the **Category Distribution Charts** section on this page. Select **Uncategorized** to hide or remove it from the chart view.
+This same data is visually presented in pie charts in the **Category Distribution Charts** section on this page. Select **Uncategorized** or any other category name to hide it from the chart view.
 
   ![Category Distribution chart](./images/pexp-dist-chart.png)
 
@@ -133,30 +137,33 @@ You can see static summary information, including top level analysis, thread ave
 
 ## Detected topics
 
-This template uses a natural-language processing algorithm to look at all the uncategorized meetings and emails and detect clusters of associated keywords in the dataset and categorize them for your review. **Detected topics** shows a number of categories that you can select all or specific categories to add to your new starter template. You can then select **Create Starter Template** to create a new user-defined starter template with these categories.
+This template uses a natural-language processing algorithm to look at all the uncategorized meetings and emails and detect clusters of associated keywords in the dataset and categorize them for your review. **Detected topics** shows up to 50 categories that you can select to add to a new starter template. You can then select **Create Starter Template** to create a new user-defined starter template with these categories.
 
   ![Detected topics](./images/pexp-detected-topics.png)
 
-You can then edit the category name or delete it and change the associated key phrases to include or exclude in each category to use to create this new user-defined starter template.
+You can then edit the category name or delete it entirely. For each category, you can change the associated key phrases to include or exclude. You can also add an **asterisk** (*) to a key word as a wild card. For example, the following graphic shows **resourc** with an asterisk in **Key phrases to include** for the **Team meetings** category. This will include any subjects that have a word or phrase that starts with **resourc**, such as resources, resourcing, or resource group in the associated category.
 
   ![Create starter template](./images/pexp-create-starter.png)
 
-After you create a new starter template, you can then use it to create new analysis.
+After you create a new starter template, you can then use it when creating new analysis.
 
 ## Communication flow by category
 
-If you selected to include an organizational network graph when adding new analysis, your analysis will include Communication flow by category. This page shows how specific categories are communicated across and within the various groups of an organization with the following functionality.
+If you selected to include an organizational network graph when adding new analysis, your analysis will include Communication flow by category. This page shows how specific categories are communicated across and within the various groups of an organization for varying time periods with the following functionality.
+
+![Communication flow by category](./images/pexp-comm-flow.png)
 
 * **HR Attribute to Group By** - Use to specify how to group individuals who are communicating.
 * **Category Filter** - Use to specify which categories of communication you want to focus on.
 * **Self Links** - Turn it on to see how a group communicated with itself on the specified categories.
-* **Link Weight by Hours** or **by Count** - Select an option for how you want to see the communication flow and the links will scale accordingly.
-* **Graph tools** - Use the tools to the right of the graph to move and adjust graph elements, fit chart to view, zoom in and out, run the layout, and switch between window and full screen view.
-* **Time Bar** - Adjust the bar to show how the communication flows over the selected time period.
-* **Play an animation** - Use the play, pause, and skip buttons at the bottom of the time bar to show an animation of how the communication flow evolves for the selected time period.
-* **Download** - Use to download a .csv file of the communication flow data.
+* **Link Weight by Hours** or **by Count** - Select an option for how you want to see the communication flow and the links will scale accordingly. Link weight is per person for the selected time period, such as hours per person.
+* **Graph tools** - Use the tools to the right of the graph to move and adjust graph elements, fit chart to view, zoom in and out, run the layout, and switch between a full screen and window view.
+* **Time Bar** - Adjust the bar to show how the communication flows over the selected time period. For example, double click a month in the time bar to select only that month to view in the graph.
+* **Play an animation** - Use the **play**, **pause**, and **skip** buttons at the bottom of the time bar to show an animation of how the communication flow evolves for the selected time period. For example, select the **play** button to watch how communication changes in the groups shown in the graph over time.
 
-![Communication flow by category](./images/pexp-comm-flow.png)
+![Communication flow buttons](./images/comm-flow-buttons.png)
+
+* **Download** - Use to download a .csv file of the communication flow data.
 
 ## Related topics
 
