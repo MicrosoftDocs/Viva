@@ -16,19 +16,18 @@ As a business leader, understanding how your employees work together is importan
 
 ![Home page](./images/home.png)
 
-## Business outcomes
-
-The most common employee behaviors are grouped into the top business outcomes that have the most impact on your bottom line. These business outcomes are proven to affect how successful organizations are, such as: developing effective managers, boosting employee engagement, building a culture of innovation, and increasing customer satisfaction.
 
 ## Your organizational data
 
 The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Azure Active Directory environment, including the current date range and the number of measured employees in your organization.
 
-## Why it matters
+## Business outcomes
+
+The most common employee behaviors are grouped into nine top business outcomes that have the most impact on your bottom line. These business outcomes are proven to affect how successful organizations are, such as: developing effective managers, boosting employee engagement, building a culture of innovation, and increasing customer satisfaction.
 
 Each business outcome includes a top-level "Why it matters" explanation about how your organization compares to those who have been successful by supporting behaviors that positively affect their business.
 
-As you deep dive into each business outcome, you'll see the top leading indicators with more details about why it matters to your organization and how you can focus on the behaviors that lead to business success.
+As you deep dive into each business outcome, you'll see the top leading indicators and behaviors with more details about why it matters to your organization and how you can focus on the behaviors that lead to business success. See [Behaviors](behaviors.md) for more details.
 
 ## Supporting evidence and Best practices
 
