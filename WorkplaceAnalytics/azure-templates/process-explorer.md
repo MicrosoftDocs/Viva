@@ -161,7 +161,7 @@ If you selected to include an organizational network graph when adding new analy
 * **Time Bar** - Adjust the bar to show how the communication flows over the selected time period. For example, double click a month in the time bar to select only that month to view in the graph.
 * **Play an animation** - Use the **play**, **pause**, and **skip** buttons at the bottom of the time bar to show an animation of how the communication flow evolves for the selected time period. For example, select the **play** button to watch how communication changes in the groups shown in the graph over time.
 
-![Communication flow buttons](./images/comm-flow-buttons.png)
+   ![Communication flow buttons](./images/comm-flow-buttons.png)
 
 * **Download** - Use to download a .csv file of the communication flow data.
 
