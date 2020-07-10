@@ -16,7 +16,7 @@ The following lists the business outcomes shown in Workplace Analytics and their
 
 |Business outcome     |Behaviors     |Aim for success      |
 |---------------------|--------------|---------------------|
-|Boost employee engagement |<ul><li>Manager 1x1 coaching </li><li>After-hours work </li><li>high co-attendance |<ul><li>Promote coaching and development</li><li>Free up capacity</li><li>Drive employee empowerment</li></ul>|
+|Boost employee engagement |<ul><li>Manager 1x1 coaching </li><li>After-hours work </li><li>High co-attendance |<ul><li>Promote coaching and development</li><li>Free up capacity</li><li>Drive employee empowerment</li></ul>|
 |Become more agile |<ul><li>a </li><li>b </li><li> c</li></ul> |<ul><li>Promote effective meeting habits </li><li>Democratize and speed up decision making</li><li> Encourage cross-group collaboration</li></ul>|
 |Build a culture of innovation |<ul><li>a </li><li>b </li><li> c</li></ul> |<ul><li>x </li><li>y</li><li> z</li></ul>|
 |Develop effective managers |<ul><li>a </li><li>b </li><li> c</li></ul> |<ul><li>Improve manager decision making </li><li>Manager availability</li><li> Promote coaching and development </li><li>Drive employee empowerment</li></ul>|
