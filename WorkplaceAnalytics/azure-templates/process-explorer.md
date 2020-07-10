@@ -23,21 +23,21 @@ Workplace Analytics Azure Templates includes the Process Explorer template that 
 
 You can use Process Explorer to categorize and analyze processes, projects, meetings, and other activities within a blob (cloud) storage location.
 
-You can use a starter template or a topic detection option to produce analysis. Starter templates include predefined factory and user-defined templates, comprised of categories and associated key phrases. 
+You can use a starter template or a topic detection option to produce analysis. Starter templates include predefined factory and user-defined templates, comprised of categories and associated key phrases.
 
-You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. These factory defined starter templates can be viewed and copied, but cannot be edited directly or deleted. 
+You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. These factory defined starter templates can be viewed and copied, but cannot be edited directly or deleted.
 
-By copying a factory template to the user defined library, you can customize that factory template with by adding or removing categories and associated key phrases. Or you can create your own starter template from scratch for your specific organization. All starter templates are saved in the Starter Template Library, which are then available to use when building new analyses. 
+By copying a factory template to the user defined library, you can customize that factory template with by adding or removing categories and associated key phrases. Or you can create your own starter template from scratch for your specific organization. All starter templates are saved in the Starter Template Library, which are then available to use when building new analyses.
 
 The following is available after the data is categorized using a starter template.
 
-    ![Process Explorer analysis](./images/pexp-analysis.png)
+![Process Explorer analysis](./images/pexp-cat-analysis.png)
 
 * **Categorization Analysis** - You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. See [Categorization analysis](#categorization-analysis) for details.
 
 * **Email Thread Analysis** - Shows static summary information about email activity for the selected dataset. See [Email thread analysis](#email-thread-analysis) for details.
 
-* **Topic detection** - Automatically detects topics and groups them into categories that you can then edit and then create a new starter template with. See [Detected topics](#detected-topics) for details.
+* **Detected Topics** - Automatically detects topics and groups them into categories that you can copy over to your own starter template, and customize as needed. See [Detected topics](#detected-topics) for details.
 
 * **Communication Flow by Category** - If the analysis includes an organizational network graph, this page will show you how specific categories are communicated across and within the various groups of an organization. See [Communication flow by category](#communication-flow-by-category) for details.
 
@@ -50,7 +50,7 @@ Use the following steps to add new analysis in Process Explorer.
 3. In **Define Analysis Settings**, select one of the following:
 
    * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
-   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page with the option to **Create Starter Template** that includes these topics and you can edit the associated key phrases and category names for them.
+   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. You can choose to export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. When using this method, all emails and meetings remain uncategorized on the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages.
 
     ![Process Explorer starter templates](./images/pexp-define-analysis.png)
 
