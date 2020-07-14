@@ -22,7 +22,7 @@ The most common employee behaviors are grouped into the top business outcomes th
 
 ## Your organizational data
 
-The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Azure Active Directory environment, including the current date range and the number of measured employees in your organization.
+The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Azure Active Directory environment, including the current date range and the number of measured employees in your organization. Note, only data about users located in North America is included in this initial release.
 
 ## Why it matters
 
