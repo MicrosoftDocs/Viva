@@ -193,11 +193,11 @@ If you do a point-in-time export of organizational data from your HR information
 
 This means that for each measured employee, you would have 13 separate rows; each row would contain an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2020, the effective date for all rows should be set to 10/1/2019.
 
-#### Mapping collaboration data with organizational data 
+#### Mapping collaboration data to organizational data 
 
 Workplace Analytics obtains organizational data when admins upload it; Workplace Analytics obtains collaboration data through regular data refreshes from Office 365. Workplace Analytics maps collaboration data to organizational data by looking at the date of the collaboration event (for example, an email was sent on 1/1/2020) and then mapping it to the most recent organizational data EffectiveDate that _precedes_ the collaboration date (for example, 12/31/2019). 
 
-Because of the timing of this mapping process, a query about collaboration activity -- say, for January 2020 -- might return results that contain organizational information from an earlier upload -- say, December 2019. 
+Because of the timing of this mapping process, a query about collaboration activity -- say, for January 2020 -- might return results that contain organizational information from an earlier upload -- say, from December 2019. 
 
 ## Attribute reference
 
