@@ -33,13 +33,13 @@ This script requires the following elements. If you need help while installing t
 
     ![Run as administrator](../images/wpa/setup/run-as-admin.png)
  
-* **The Azure Active Directory module**. For installation instructions, see [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
+* **The Azure Active Directory module**. For installation instructions, see [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
 
    ```
    Install-Module AzureAD
    ```
 
-* **The MSOnline module**. This service is used to determine which accounts are real users with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0). To install the MSOnline module, use the PowerShell cmdlet:
+* **The MSOnline module**. This service is used to determine which accounts are real users with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](https://docs.microsoft.com/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0). To install the MSOnline module, use the PowerShell cmdlet:
 
    ```
    Install-Module MSOnline
@@ -141,7 +141,7 @@ After you run this script, the resulting schema in the organizational-data file 
 
 If you use the SkipOptionalProperties switch when you run the Generate-WpaOrganizationFile.ps1 script, the following optional properties are left out of the resulting data file. If you omit this switch, these properties are included in the data file. 
 
-|Column name &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;   |Type | Description |
+|Column name &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;   |Type | Description |
 |------|-----------|----------|
 | City  	| String | The City property is obtained in a call to _Get-MsolUser_. |
 |Country |	String	| The Country property is obtained in a call to _Get-MsolUser_. |
@@ -149,7 +149,7 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 | Office	| String	| The Office property is obtained in a call to _Get-MsolUser_. |
 
 ## Related topics 
-
+ 
 #### To set up prerequisite software 
 
 [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7)
@@ -158,11 +158,11 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 
 [MSOnline service](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)
     
-[Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+[Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
 
 [Get support](../overview/getting-support.md)
 
-#### About Workplace Analytics organizational data  
+#### About Workplace Analytics organizational data   
 
 [Prepare organizational data](prepare-organizational-data.md)
 
