@@ -141,9 +141,9 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 |Title	| String |	The Title property is obtained in a call to _Get-MsolUser_. It corresponds to a user’s job title. If this property is populated in the organizational data file, analysts can use it in their queries, in place of or in addition to the **LevelDesignation** property. (See [Resulting organizational-data file schema](#resulting-organizational-data-file-schema).) |
 | Office	| String	| The Office property is obtained in a call to _Get-MsolUser_. |
 
-### Related topics 
+## Related topics 
 
-#### About setting up prerequisite software 
+#### To set up prerequisite software 
 
 [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7)
 
