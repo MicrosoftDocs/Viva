@@ -123,10 +123,10 @@ After you run this script, the resulting schema in the organizational-data file 
 |Column name |Type | Description |
 |------|-----------|----------|
 | **PersonID** 	|String	|A user's primary SMTP address.|
-| **EffectiveDate**	|String	|The start date on which this information is current. It must be able to be cast to the .NET type datetime.|
+| **EffectiveDate**	|String	|The start date on which this information is current. It must be able to be cast to the .NET type _datetime_.|
 | **ManagerID**	|String	|The ID of the user’s manager, assigned in Azure AD. This must be in valid SMTP format.|
 | **Organization**	|String|	The user's Azure AD Department field.|
-| **LevelDesignation**	|String	|The script generates this required column as it creates the organizational data file. However, the script cannot access actual level designations, so it assigns the default value __novalue__ in each row in the file. To make LevelDesignation usable by analysts, you must edit the organizational data file and update the value of this attribute for each user before you upload the file. (Alternatively, use the Title property. See [Optional properties](#optional-properties).)|
+| **LevelDesignation**	|String	|The script generates this required column as it creates the organizational data file. However, the script cannot access actual level designations, so it assigns the default value \_\_novalue\_\_ in each row in the file. To make LevelDesignation usable by analysts, you must edit the organizational data file and update the value of this attribute for each user before you upload the file. (Alternatively, use the Title property. See [Optional properties](#optional-properties).)|
 |NumDirectReports	|Integer	|The number of direct reports, found in Azure AD, of this user.|
 |SupervisorIndicator	|String	|Indicates whether this user manages no people, is a manager, or is a manager of managers.|
 |ManagerIsMissingFlag	|String	|If there was no manager found in AD or if an error occurred during lookup, this value is TRUE; otherwise it is FALSE.|
