@@ -112,7 +112,7 @@ You will see the following actions for a meeting depending on the type of confli
 |Late reply	|This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you will be late |Reply
 |Leave early reply |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you need to leave early. |Reply|
 |Decline or late reply |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you can’t make it or if you will be late. |Decline or Reply
-|Decline or leave early reply	|This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you can’t make it or if you will need to leave early. |	Decline or Reply |
+|Decline or leave early reply	|This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you can’t make it or if you will need to leave early. |Decline or Reply |
 |Accept or decline |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you will attend. |Accept or Decline |
 
 Selecting **Accept** or **Decline** accepts or declines the meeting invite (even if it is a recurring meeting) and sends the response to the organizer. Selecting **Reply** opens a response to the meeting invite.
