@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Use a script to prepare organizational data in Workplace Analytics
 description: How to use a script to prepare data from your organization to upload and use in Workplace Analytics 
 author: paul9955
@@ -50,22 +51,31 @@ This script requires the following elements. If you need help while installing t
 2.	Extract the downloaded script zip file and note its folder location.
 3.	Open a new instance of Windows PowerShell with administrator privileges.
 4.	In PowerShell, navigate to the folder that contains the extracted script files.
-
-Example: 
-cd c:\users\localuser\desktop\orgfilecreation
+   
+    Example: 
+    ```
+    cd c:\users\localuser\desktop\orgfilecreation
+    ```
 
 5.	In PowerShell, run the following commands to make sure that the downloaded files are unblocked from execution:
-
-Run: 
-Unblock-File .\Generate-WpaOrganizationFile.ps1
-
-Run: 
-Unblock-File .\helper.psm1
+   
+    Run: 
+    ```
+    Unblock-File .\Generate-WpaOrganizationFile.ps1
+    ```
+    
+    Run:
+    ``` 
+    Unblock-File .\helper.psm1
+    ```
 
 6.	The script is now ready to run. If this is your first time creating an organizational data file and your organization requires multi-factor authentication, run the script with the default options:
-Run: 
-.\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt	
-
+    
+    Run: 
+    ```
+    .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt	
+    ```
+    
    As it runs, the script prompts you twice for credentials, once to authenticate to the Azure Active Directory service, and once to authenticate to the MSOnline service.
 
 ### Examples
@@ -74,7 +84,7 @@ The following example command lines create an organizational data file in differ
 
 #### Example 1
 
-This example does not gather the optional properties City, Country, Office, and Title from Active Directory:
+This example does **not** gather the optional properties City, Country, Office, and Title from Active Directory:
 
    .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -SkipOptionalProperties
 
