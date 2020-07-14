@@ -21,15 +21,15 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization and teams are investing or expending their valuable time.
 
-You can use Process Explorer to categorize and analyze processes, projects, meetings, and other activities within a blob (cloud) storage location.
+You can use Process Explorer to categorize and analyze processes, projects, meetings, and other activities within blob (cloud) storage.
 
-You can use a starter template or a topic detection option to produce analysis. Starter templates include predefined factory and user-defined templates, comprised of categories and associated key phrases.
+You can use a starter template or a topic detection option to produce analyses. Starter templates include predefined factory and user-defined templates, comprised of categories and associated key phrases.
 
 You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. You can view and copy the factory starter templates, but you cannot directly edit or delete them.
 
-By copying a factory template to the user-defined library, you can customize it by adding or removing categories and associated key phrases. Or you can create your own user-defined starter template based on your specific organizational data. All starter templates are saved in the **Starter Template Library**, which are then available to use when building new analysis.
+By copying a factory template to the user-defined library, you can customize it by adding or removing categories and associated key phrases. Or you can create your own user-defined starter template based on your specific organizational data. All starter templates are saved in the **Starter Template Library** for building new analysis.
 
-The following is available after the data is categorized using a starter template.
+The following is available after the data is categorized through a starter template.
 
 ![Process Explorer analysis](./images/pexp-cat-analysis.png)
 
