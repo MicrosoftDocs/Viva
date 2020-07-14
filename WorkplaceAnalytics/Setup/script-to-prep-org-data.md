@@ -69,12 +69,12 @@ This script requires the following elements. If you need help while installing t
     ```
 
 6.	The script is now ready to run. If this is your first time creating an organizational data file and your organization requires multi-factor authentication, run the script with the default options:
-    
+       
     _Run:_ 
     ```
     .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt	
     ```
-    
+       
    As it runs, the script prompts you twice for credentials, once to authenticate to the Azure Active Directory service, and once to authenticate to the MSOnline service.
 
 ### Examples
@@ -83,15 +83,20 @@ The following example command lines create an organizational data file in differ
 
 #### Example 1
 
-This example does **not** gather the optional properties City, Country, Office, and Title from Active Directory:
-
-   .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -SkipOptionalProperties
+ This example does **not** gather the optional properties City, Country, Office, and Title from Active Directory:
+          
+   
+ ```
+ .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -SkipOptionalProperties	
+ ```
 
 #### Example 2
 
 This example sets the EffectiveDate field in the resulting organizational data file to the current day:
-
-   .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -EffectiveDateOption Delta
+    
+```
+.\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -EffectiveDateOption Delta
+```
 
 > [!Note] 
 > If you do not use this option, the effective date will default to a fixed date in the past, such as 01/01/1970. 
@@ -99,8 +104,10 @@ This example sets the EffectiveDate field in the resulting organizational data f
 #### Example 3
 
 Use the parameters in the following example if your organization does not enforce multi-factor authentication and you would like to create PSCredential objects and pass them into the script so that the script can run unattended:
-
-   .\Generate-WpaOrganizationFile.ps1 -MSOLCredential $MsolCred -AzureADCredential $AzureADcred
+   
+```
+.\Generate-WpaOrganizationFile.ps1 -MSOLCredential $MsolCred -AzureADCredential $AzureADcred
+```
 
 ## Parameter reference
 
