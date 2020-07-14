@@ -89,7 +89,7 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
                     </div>
                     <div class="cardText">
                         <h3>Discover Microsoft Workplace Analytics</h3>
-                        <p>Learn about Microsoft Workplace Analytics, how it works, and key features that help you generate insights and improve collaboration in your organization.</p>
+                        <p>Learn how to use Microsoft Workplace Analytics for insights and collaboration analysis.</p>
                     </div>
                 </div>
             </div>
