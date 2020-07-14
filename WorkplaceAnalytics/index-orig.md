@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
-title: Workplace Analytics
-description: Learn more about, set up, and use Workplace Analytics and MyAnalytics
+title: Workplace Analytics introduction
+description: Learn more about, set up, and use Workplace Analytics
 localization_priority: normal 
 ms.prod: wpa
 ms.author: madehmer
