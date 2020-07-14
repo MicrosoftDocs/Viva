@@ -40,25 +40,6 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
         </a>
     </li>
     <li>
-        <a href="~/overview/videos.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Videos</h3>
-                        <p>Watch videos about Workplace Analytics</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog">
         <div class="cardSize">
             <div class="cardPadding">
@@ -90,6 +71,25 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
                     <div class="cardText">
                         <h3>Discover Microsoft Workplace Analytics</h3>
                         <p>Learn how to use Microsoft Workplace Analytics for insights and collaboration analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="~/overview/videos.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Videos</h3>
+                        <p>Watch videos about Workplace Analytics</p>
                     </div>
                 </div>
             </div>
