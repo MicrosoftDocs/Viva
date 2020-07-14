@@ -18,7 +18,7 @@ Spending time collaborating with customers helps your organization better antici
 The following are based on research presented in the [The loyalty economy: Are you undervaluing your customers?](https://insights.office.com/business-performance/the-loyalty-economy-are-you-undervaluing-customers/), [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/), and [What makes great salespeople](https://insights.office.com/management-strategy/what-makes-great-salespeople/) articles:
 
 * Companies at the top of their industries in net promoter scores or satisfaction rankings for three or more years—grow revenues roughly 2.5 times as fast as their industry peers. Yet companies and investors continue to prioritize quarterly earnings over customer relationships
-* “More time spent with customers; larger internal networks; and more time spent with managers and senior leadership— these three behaviours persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.”
+* “More time spent with customers; larger internal networks; and more time spent with managers and senior leadership—these three behaviours persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.”
 
 ## Best practices
 
