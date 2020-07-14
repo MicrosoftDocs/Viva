@@ -17,7 +17,35 @@ audience: Admin
 
 # What's new in Workplace Analytics Azure Templates
 
-Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated monthly with each new release.
+Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
+
+## July 2020
+
+The following new template and template features, enhancements, and changes are in this month's release.
+
+### Process Explorer Azure Template
+
+* **Starter templates and topic detection** - You no longer need to manually categorize your data for model categorization. Process Explorer now has the option of using a predefined factory starter template, defining your own user-defined template, or simply detecting topics for creating a template. These new options help you automatically categorize the data by matching key phrases in the data subject lines. Topic detection will happen on all analyses to help users continually discover new insights in their email and meeting data.
+* **Communication flow by category** - New analysis page that shows how specific categories are communicated across and within the various groups of an organization, including the following functionality.
+
+   * Use the filters to specify how to group the individuals communicating and which categories of communication to focus on.
+   * Use **Self Links** to see how a group communicated with itself on the specified categories.
+   * Change **Link Weight** to show by hours or by count in the communication flow and the links will scale accordingly.
+   * Adjust the **Time Bar** to show how the communication flows over the selected period of time.
+   * Play through an animation of the selected period of time to see how the communication flow evolves.
+
+* **Email thread analysis** - The key performance indicators and metrics automatically update with any uncategorized and categorized data available in the analysis. Users no longer need to access separate levels to see uncategorized or categorized thread analysis. The touchpoints metric was also updated to now show accumulated counts instead of distinct counts. InitiatorOrgGroup now uses organization instead of domain when organizational group information is available and InitiatorWpAStatus now uses the subject prefix.
+* **Category analysis improvements** - The Category Distribution table is now shown first on Category Analysis page and the Time Spent on Category graph has improved graph tools and options.
+* Because of how the new categorization works, the **Undo** option is no longer available for failed analysis. Any existing analysis created with previous versions of Process Explorer cannot be viewed with this new modeling version. 
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
+
+### Organizational Network Analysis (ONA) Azure Template
+
+* **Improved workflow** - You can now access saved graphs from the analysis table.
+* **New chart enhancements** - Updated labels to more neutral colors for improved readability in the graphs.
+
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
 ## May 2020
 

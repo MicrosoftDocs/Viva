@@ -4,10 +4,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Process Explorer Azure Template for Workplace Analytics 
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
-ms.author: 
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
-search.appverid:
+search.appverid: 
 - MET150
 ms.prod: wpa
 ms.collection: M365-analytics
@@ -19,195 +19,153 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization or team is investing or expending valuable time.
+Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization and teams are investing or expending their valuable time.
 
-You can use Process Explorer to categorize processes, projects, meetings, and other activities. You can connect to a blob (cloud) storage location to analyze meeting and email activity.
+You can use Process Explorer to categorize and analyze processes, projects, meetings, and other activities within a blob (cloud) storage location.
 
-After you add a new dataset within the template, you can use the Query Builder to help you decide what categories to add for analysis. You can select category names or phrases from the word cloud to view those meetings and then categorize them in the dashboard view.
+You can use a starter template or a topic detection option to produce analysis. Starter templates include predefined factory and user-defined templates, comprised of categories and associated key phrases.
 
-After you categorize a good sample of meetings into the specified categories:
+You can start with a factory template, which was created by data scientists to automatically categorize data into the most common data subjects. You can view and copy the factory starter templates, but you cannot directly edit or delete them.
 
-* You can view meeting data based on those categories with visual charts and lists.
-* The categorization options depend on what the template's admin settings are for email activity:
-  
-  * If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
-  * If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which creates distinct models for the two types of content and more accurate overall results.
+By copying a factory template to the user-defined library, you can customize it by adding or removing categories and associated key phrases. Or you can create your own user-defined starter template based on your specific organizational data. All starter templates are saved in the **Starter Template Library**, which are then available to use when building new analysis.
 
-* You can also use the **Refine Categorization** option to create a copy of the selected analysis and add or change the categories for more in-depth analyses.
+The following is available after the data is categorized using a starter template.
 
-You can also skip categorization and use the **Email Thread Analysis** page to get static summary information about email activity for a specific dataset. See [Email thread analysis](#email-thread-analysis) for more details.
+![Process Explorer analysis](./images/pexp-cat-analysis.png)
 
-## To add a new dataset
+* **Categorization Analysis** - You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. See [Categorization analysis](#categorization-analysis) for details.
 
-Use the following steps to add a blob storage dataset for analyzing meeting and email data.
+* **Email Thread Analysis** - Shows static summary information about email activity for the selected dataset. See [Email thread analysis](#email-thread-analysis) for details.
+
+* **Detected Topics** - Automatically detects topics and groups them into categories that you can copy over to your own starter template, and customize as needed. See [Detected topics](#detected-topics) for details.
+
+* **Communication Flow by Category** - If the analysis includes an organizational network graph, this page will show you how specific categories are communicated across and within the various groups of an organization. See [Communication flow by category](#communication-flow-by-category) for details.
+
+## To add new analysis
+
+Use the following steps to add new analysis in Process Explorer.
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
-2. Select **Add New Dataset** (top right).
-3. In **Define Model Training Settings**, enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset to use to manually categorize for model training purposes, and then select **Submit**.
-4. The dataset upload and initial model training takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table with the following information and available actions.
+2. Select **Add New Analysis** (top right).
+3. In **Define Analysis Settings**, select one of the following:
 
-   * When the **Status** changes to a green check mark, you can select the dataset to view it for categorizations or analysis.
-   * Select the **Job Details** (i) icon next to **Status** to view the job details.
-   * Select a table column heading, such as **Name** or **Submitted**, to sort the list by.
-   * Select the **Parameters** icon to view the parameter details for a listed dataset.
-   * Select the **Delete Dataset** (trashcan) icon to delete it from the list.
-   * If the dataset fails with a **Status** of a red X, you can select the **Undo** icon to revert to the last successfully saved version of the dataset.
+   * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
+   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. You can choose to export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings remain uncategorized on the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages.
 
-## To categorize meetings for analysis
+    ![Process Explorer starter templates](./images/pexp-define-analysis.png)
 
-Use the following steps to manually categorize meetings.
+4. In **Analysis Name**, enter a unique name for this analysis.
+5. Select the applicable path for the dataset to use in this analysis.
+6. Select the time range to analyze.
+7. In **Select the Grouping Attributes**, select two to five HR attributes to group by for the analysis.
+8. In **Apply Filters**, you can optionally select any applicable filters to reduce and focus the dataset for analysis.
+9. Then do one of the following:
 
-1. On the **Process Explorer** page, select the dataset name from the list.
-2. What you do next depends on the dataset.
+    * **No organizational network graph** - For no graph, leave the default set to **No**, and select **Submit**. Then skip to **Step 11**.
+    * **Generate Organizational Network Graph** - Change the setting to **Yes** to include **Communication Flow by Category** in the analysis, and then select **Next**.
 
-   * **For new datasets**, you're prompted to enter:
-      * **Categorization Title** - Each dataset requires at least one category for analysis, which is how you want to categorize the meetings.
-      * **Probability Threshold** - The threshold option is how likely a meeting must be in a category before it's automatically assigned to that category.
-      * **Create a new categorization model or use a saved model** - The model option saves you time by using an existing training model that you saved while categorizing similar data with the query builder. Or you can reuse the same model on the same dataset to analyze historical data trends for different date ranges.
+    >[!Important]
+    >With the default **No** setting, **Communication Flow by Category** will not show or be available with this analysis.
 
-   * **For existing datasets**, you can select:
+10. In **Specify the Interaction Types and Thresholds** for **Organizational Network Graph Settings**, select the following.
 
-     * **Add New Categorization** and then enter a title, a probability threshold, and then select to either create a new model or use a saved model, same as with new datasets.
-     * The name of an *existing draft categorization* to resume work on it.
-     * Select the row with the name of an *existing categorization*, and then select **Add New Categorization** to make a copy of it to work from.
+    * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or all emails and meetings.
+    * **Maximum number of people involved in each interaction** - Select the maximum number of people involved in each interaction.
+    * **Maximum duration of a meeting or call** - Select the maximum number of hours of the meeting.
+    * **Advanced Settings** - Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, and interactions across both types.
 
-3. Each dataset requires at least one category for analysis, which is how you want to categorize the meetings. In **Dashboard** > **Add a New Category**, enter the name of a category you want to add, and then press **Enter** to add it to the list.
-4. Select **Meeting** > **Open Query Builder** > **Discover Topics**, enter one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view meetings with these keywords, and then select **Run query**. You can also select a word from the word cloud to add it as a keyword.
+11. Data analysis creation takes a few minutes to complete depending on the size of the dataset. The name will show in the **Analysis** table with the following details and available actions.
 
-   ![Process Explorer Word Cloud](./images/pexp-word-cloud.png)
+    * When the **Status** changes to a green check mark, you can select the analysis to view it.
+    * **Model Type** shows analysis was created using a starter template or the topic detection only model.
+    * Select the **Parameters** icon to view the settings used when creating the analysis.
+    * **Source** shows the dataset the analysis is based on.
+    * Select the **Job Details** (i) icon next to **Status** to view the job details.
+    * Select a table column heading, such as **Name** or **Submitted**, to sort the list by.
+    * Select the **Delete Dataset** (trashcan) icon to delete analysis that you created from the list.
+    * If the dataset fails with a **Status** of a red X, you need to create a new analysis.
 
-   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
-   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
-   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * **Max Meetings to Show** to set the maximum number of meetings to include in the list or show in the word cloud.
+## Categorization analysis
 
-5. In **Meeting** > **Open Query Builder** > **Filter Dataset**, you can filter the meetings shown in the list with the following options, and then select **Run Query**.
+You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. You can also select **Download Category Distribution Data** to download a .csv file of this categorized data activity.
 
-   * **Filter by Sources** to select the analyst and/or the model to filter the meetings by, which are those meetings that were categorized manually by the analyst or those categorized automatically by the model.
-   * **Filter by Categories** to select one or more categories to filter the meetings by, such as budget, as shown in the following graphic.
-   * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and meeting list to include.
-   * **Max Results to Show** to set how many results to show in the list.
-   * **Which Meetings do you want to include in your query results?** You can select specific meetings to include or exclude from the data to categorize. For example, you could exclude meetings where the organizer is outside the filter population. Or you could only include meetings equal to or greater than one hour in the list.
+![Categorization analysis](./images/pexp-cat-analysis.png)
 
-   ![Process Explorer filter options](./images/pexp-meeting-query-filters.png)
+This same data is visually presented in pie charts in the **Category Distribution Charts** section on this page. Select **Uncategorized** or any other category name to hide it from the chart view.
 
-6. After the data is queried, close the query builder pane to see the meeting list, and then to help train the model for auto-categorization of the whole dataset:
+  ![Category Distribution chart](./images/pexp-dist-chart.png)
 
-   * Select a category, select all meetings in the list by selecting the check box next to **Subject**, and then select **Apply** to add these meetings to that category.
-   * Or select a category, individually select the check box next to a good sample of related meetings, and then select **Apply** to add them to that category.
+The following is available for the **Time on Category Analysis** chart at the end of this page:
 
-    ![Assign a category to an uncategorized meeting](./images/pexp-categorize.png)
-
-   * In **Dashboard** > **Add a New Category**, enter any additional categories needed for grouping the uncategorized meetings.
-   * Hover the cursor over an existing category and select the **Rename Category** (pencil) icon to rename it or the **Delete Category** (trashcan) icon to delete it from the list.
-   * After you categorize a good sample of related meetings for all the categories you want to evaluate:
-
-     * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to save time. For example, you can use the same model on the same dataset to analyze historical data trends for different data ranges.
-     * For .csv datasets, select **Auto-Categorize Full Dataset** to categorize all of the meetings uploaded in the .csv file.
-     * For blob storage datasets, select **Auto-Categorize Meetings**, and then see [Step 3 in To categorize email activity for analysis](#to-categorize-email-activity-for-analysis) for next steps to categorize email.
-
-       ![Auto-categorize meetings](./images/pexp-auto.png)
-
-7. To add or change categories for a categorization, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis, and then repeat these steps to add new or change existing categories.
-
-> [!Note]
->Use the Download option (bottom right) to download a .csv of the data shown in the dashboard table.
-
-## Email activity analysis
-
-You can get more complete analysis based on email activity related to the selected process categories.
-
-Ask your admin what is set for surfacing and classifying email activity for analysis. The admin can go to **Admin** > **Configuration** > **Process Explorer** and confirm which is selected:
-
-  ![Categorize email admin setting](./images/pexp-admin-settings.png)
-
-For email categorization, the system will limit the data used for categorizations to five million emails and meetings to improve interactivity. If you know the subset of data you want to focus on, you can set time range and/or filters to focus the data used.  If not, or if your filtering still results in more than five million values, the system will automatically choose a good representative sample from the complete filtered sample.
-
-The email categorization option depends on what the admin settings are for email activity:
-  
-* If email categorization is enabled, you'll use both the Meeting and Email category pages to manually categorize meeting and email activity separately, which better trains the model for auto-categorizing the full dataset.
-* If no Email category page is shown, you'll only see and use the Meeting category page to manually categorize meetings, which trains the model for auto-categorizing the full dataset, including both meeting and email activity.
-
-### To categorize email activity for analysis
-
-1. If you haven't done so already, follow the steps to [add a new dataset](#to-add-a-new-dataset).
-2. If you haven't done so already, complete the steps [to categorize meetings](#to-categorize-meetings-for-analysis) for the new dataset.
-3. If no **Email** category page is shown, you can select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample meeting categorizations; this will take a few minutes or more depending on the size of the dataset.
-
-4. If the **Email** category page is available, then you can manually categorize email activity by selecting **Email** > **Query Builder** and then entering one or more keywords, separated by commas, in one of the applicable **Keyword** boxes to view email with these keywords, and then select **Run query**.
-
-   * To search for word phrases, separate the phrase with an underline (for example **budget_manager**).
-   * To search for word phrases in any order, separate the words with spaces (for example **budget finance manager**).
-   * Use **Keywords OR** to include titles with words that contain any of the words entered or any combination of these words (phrases separated with spaces).
-   * Use **Keywords NOT** to exclude titles with these words from the search and data analysis.
-   * **Max Results to Show** to set the maximum number of email to include in the list or show in the word cloud.
-   * **Which Emails do you want to include in your query results?** You can filter the email to include in or exclude from the data list to categorize. For example, you could include only email that the sender spent 10 minutes or more on.
-
-   ![Categorize email](./images/pexp-email-query-filters.png)
-
-5. In **Email** > **Open Query Builder** > **Filter Dataset**, you can filter the email shown in the list with the following options, and then select **Run Query**.
-
-   * **Filter by Sources** to select the analyst and/or the model to filter the email by, which are those meetings that were categorized manually by the analyst or those categorized automatically by the model.
-   * **Filter by Categories** to select one or more categories to filter the email by, such as budget, as shown in the following graphic.
-   * **Probability Range** to adjust the minimum and maximum probability range to filter the word cloud and email list to include.
-   * **Max Results to Show** to set how many results to show in the list.
-
-6. After email is auto-categorized, go to **Email** > **Query Builder** > **Filter Dataset** to show those categorized by the model and confirm that you agree with the model categorizations in all the categories.
-
-7. After confirming the model categorizations:
-
-   * Below the table on the Dashboard, select **Save Categorization Model** to save this categorization training model to reuse later. And then when creating a new dataset, or a subgroup of this dataset, you can use this same categorization training model to save time. For example, you can use the same model on the same dataset to analyze historical data trends for different date ranges.
-   * Select **Auto-Categorize Full Dataset** and the template will automatically assign a category to all meetings and email in the whole dataset based on the sample categorizations; this will take some time based on the size of the dataset.
-
-8. To add or change categories for your analysis, such as to focus on a subset of the data, select **Refine Categorization** to create a copy of the selected analysis and then repeat the previous steps [to categorize meetings for analysis](#to-categorize-meetings-for-analysis) and then repeat these steps to categorize email.
-
-You can see data about the categorized email and meetings on the dashboard. Also, you can select **Download** to save a .csv snapshot of the current data shown on the **Dashboard** page.
-
-  ![Email activity included in the analysis](./images/pexp-dashboard.png)
-
-After the full dataset is categorized, you can view time spent on specific categories in the **Time Spent on Category** section below the **Category Distribution** section. The following is available with the chart:
-
-* **Hours on Topic** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected topics (categories) and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
-* **Topic Filter** - Select a specific topic to focus the chart on. The default is **All**, which shows all categories available in the dataset.
+* **Hours on Category** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected categories and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
+* **Category Filter** - Select one or more categories to focus the chart on. The default is **All**, which shows all categories available in the dataset.
 * **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is **All**, which shows all email and meeting activity that was categorized in the dataset.
 * **Date filter** - You can select a Start Date and End Date for the time period of data that you want to see in the chart. The default is **All**, which shows all time periods available in the dataset.
 
-  ![Time Spent on Category chart](./images/pexp-topic-chart.png)
+ ![Time Spent on Category chart](./images/pexp-cat-chart.png)
+
+You can also select **Copy Time on Category Data** or **Download Time on Category Data** for a .csv file of the data.
 
 ## Email thread analysis
 
-You can skip categorization and focus on automated email analysis. An email thread includes a sent email and all its succeeding replies. Use **Email Thread Analysis** to analyze email for a dataset that's filtered for a specific time period and for a specific group within a dataset. The time ranges and filter options are the same as what's available for categorization analysis.
+An email thread includes a sent email and all its succeeding replies. Use **Email Thread Analysis** to analyze email.
 
-### To view analysis for email threads
+In **Process Explorer**, select a data analysis name, and then select **Email Thread Analysis**.
 
-1. On the **Process Explorer** page, select **Add New Dataset**.
-2. Enter a dataset name, locate and select the path to the dataset, and select the time range to analyze. You can then optionally select any applicable filters to reduce the dataset, and then select **Submit**.
+You can see static summary information, including top level analysis, thread averages, and thread metrics for the first 1,000 threads in the selected dataset. In the **Thread Data** section, you can do the following.
 
-   ![Email Thread Analysis filter options](./images/pexp-email-thread-filters.png)
+* Select **Download** to view data for either the **Thread Summary** or **Thread Details** in a .csv file for all email threads in the dataset.
+* Select **Copy Data** to copy a table view of either the **Thread Summary** or **Thread Details** data.
 
-3. The dataset upload takes a few minutes to complete depending on the size of the dataset. The name and source for the new dataset will show in the table.
-4. When the **Status** changes to a green check mark, select the dataset name from the list, and then select **Email Thread Analysis**.
-5. You'll see static summary information, including top level analysis, thread averages, and thread metrics for the first 1,000 threads in the selected dataset. In the **Thread Metrics** section, you can do the following.
-
-   * Select **Download** to view data on what's selected, which is either the **Thread Summary** or **Thread Details**, in a .csv file for all email threads in the dataset.
-   * Select **Copy Data** to copy a table view of the **Thread Summary** data. This option is not available for thread details.
-
-   ![Email Thread Analysis](./images/pexp-email-thread.png)
+ ![Email Thread Analysis](./images/pexp-email-analysis.png)
 
    |Thread metric |Description |
    |--------------|-------------|
    |Threads originated |Distinct number of email thread IDs.|
    |Total emails sent |Total number of sent emails.|
-   |Touchpoints |Number of participants across all threads multiplied by the number of emails in the thread. |
+   |Distinct touchpoints |Number of participants across all threads multiplied by the number of emails in the thread. |
    |Hours of email workload |Total number of hours spent on email threads.|
    |Average number of emails in a thread |Average number of emails sent within email threads. |
-   |Participants in the typical thread |Average number of all participants in email thread, including passive participants. The average is calculated by dividing the number of participants by the number of email thread IDs.|
+   |Participants in a thread |Average number of all participants in email thread, including passive participants. The average is calculated by dividing the number of participants by the number of email thread IDs.|
    |Distinct participant touchpoints |Total number of touchpoints divided by the number of email thread IDs. |
-   |Participation workload generated |Number of email hours generated by all participants in the thread divided by the number of email thread IDs. |
-   |Active thread contributors |Number of participants within a thread that send at least one email in the thread divided by the number of all participants. |
-   |Average response time |For all forwards and replies, the average number of hours between the sent items and the previously sent items in email threads. |
-   |Average lifespan of a thread |The average number of days between thread origination and the last sent item in email threads. |
+   |Average participant workload generated |Number of email hours generated by all participants in the thread divided by the number of email thread IDs. |
+   |Active thread participants |Number of participants within a thread that send at least one email in the thread divided by the number of all participants. |
+   |Response time to initial email |Average time between first email sent in a thread and the first reply. |
+   |Duration between first and last sent items |Average duration of time between first email and the last email in a thread. |
+
+## Detected topics
+
+This template uses a natural-language processing algorithm to look at all the uncategorized meetings and emails, detect clusters of associated keywords in the dataset, and categorize them for your review. **Detected topics** shows up to 50 suggested categories, each with 20 associated phrases. By default, suggested categories are sorted by their coherence score, which indicates the likelihood the words within each cluster of associated phrases are related to the suggested category. You can select any of the suggested categories within the table, and then select **Create Starter Template** to include them in a new starter template.
+
+  ![Detected topics](./images/pexp-detected-topics.png)
+
+If the analysis already includes some categorized emails and meetings, you can select to include these categories and their associated key phrases when creating a new starter template, or you can select to omit them.
+
+  ![Include categories in new template](./images/pexp-starter-temp-on.png)
+
+You can then edit the category name or delete it entirely. For each category, you can change the associated key phrases to include or exclude. You can also add an **asterisk** (*) to a word as a wild card (also known as a word stem). For example, the following graphic shows **resourc** with an asterisk in **Key phrases to include** for the **Team meetings** category. This will include the five shortest uses of a word beginning with “resource” in the subject lines. For example, meetings and emails with the words resources, resourcing, or resource group in the subject lines would be included.
+
+  ![Create starter template](./images/pexp-create-starter.png)
+
+After you create a new starter template, you can then use it when creating new analysis.
+
+## Communication flow by category
+
+If you selected to include an organizational network graph when adding new analysis, your analysis will include Communication flow by category. This page shows how specific categories are communicated across and within the various groups of an organization for varying time periods with the following functionality.
+
+![Communication flow by category](./images/pexp-comm-flow.png)
+
+* **HR Attribute to Group By** - Use to specify how to group individuals who are communicating.
+* **Category Filter** - Use to specify which categories of communication you want to focus on.
+* **Self Links** - Turn it on to see how a group communicated with itself on the specified categories.
+* **Link Weight by Hours** or **by Count** - Select an option for how you want to see the communication flow and the links will scale accordingly. Link weight is per person for the selected time period, such as hours per person.
+* **Graph tools** - Use the tools to the right of the graph to move and adjust graph elements, fit chart to view, zoom in and out, run the layout, and switch between a full screen and window view.
+* **Time Bar** - Adjust the bar to show how the communication flows over the selected time period. For example, double click a month in the time bar to select only that month to view in the graph.
+* **Play an animation** - Use the **play**, **pause**, and **skip** buttons at the bottom of the time bar to show an animation of how the communication flow evolves for the selected time period. For example, select the **play** button to watch how communication changes in the groups shown in the graph over time.
+
+   ![Communication flow buttons](./images/comm-flow-buttons.png)
+
+* **Download** - Use to download a .csv file of the communication flow data.
 
 ## Related topics
 
