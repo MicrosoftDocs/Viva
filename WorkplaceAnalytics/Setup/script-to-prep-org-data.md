@@ -52,26 +52,25 @@ This script requires the following elements. If you need help while installing t
 3.	Open a new instance of Windows PowerShell with administrator privileges.
 4.	In PowerShell, navigate to the folder that contains the extracted script files.
    
-    Example: 
-    ```
-    cd c:\users\localuser\desktop\orgfilecreation
-    ```
+    _Example:_ 
 
+    cd c:\users\localuser\desktop\orgfilecreation
+    
 5.	In PowerShell, run the following commands to make sure that the downloaded files are unblocked from execution:
    
-    Run: 
+    _Run:_ 
     ```
     Unblock-File .\Generate-WpaOrganizationFile.ps1
     ```
     
-    Run:
+    _Run:_
     ``` 
     Unblock-File .\helper.psm1
     ```
 
 6.	The script is now ready to run. If this is your first time creating an organizational data file and your organization requires multi-factor authentication, run the script with the default options:
     
-    Run: 
+    _Run:_ 
     ```
     .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt	
     ```
@@ -95,7 +94,7 @@ This example sets the EffectiveDate field in the resulting organizational data f
    .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -EffectiveDateOption Delta
 
 > [!Note] 
-> If you do not use this option, the date will default to a fixed date in the past, such as 01/01/1970. 
+> If you do not use this option, the effective date will default to a fixed date in the past, such as 01/01/1970. 
 
 #### Example 3
 
@@ -135,7 +134,7 @@ After you run this script, the resulting schema in the organizational-data file 
 
 If you use the SkipOptionalProperties switch when you run the Generate-WpaOrganizationFile.ps1 script, the following optional properties are left out of the resulting data file. If you omit this switch, these properties are included in the data file. 
 
-|Column name &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  |Type | Description |
+|Column name &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;   |Type | Description |
 |------|-----------|----------|
 | City  	| String | The City property is obtained in a call to Get-MsolUser. |
 |Country |	String	| The Country property is obtained in a call to Get-MsolUser. |
