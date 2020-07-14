@@ -20,7 +20,7 @@ Whether this is your first time onboarding users to Workplace Analytics or you a
 
 ## Prerequisites
 
-This script requires the following elements. If you need help while installing these prerequisites, contact Workplace Analytics FastTrack services; see [Get support](../overview/getting-support.md) for more information or contact FastTrack services directly by sending email to wpasetup@microsoft.com.
+This script requires the following elements. If you need help while installing these prerequisites, contact Workplace Analytics FastTrack services; see [Get support](../overview/getting-support.md) for more information or contact FastTrack services directly by sending email to <wpasetup@microsoft.com>.
 
 * **PowerShell version 5.0 or higher**. To check the version of PowerShell on your computer:
    
@@ -138,6 +138,6 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 |------|-----------|----------|
 | City  	| String | The City property is obtained in a call to Get-MsolUser. |
 |Country |	String	| The Country property is obtained in a call to Get-MsolUser. |
-|Title	| String |	The Title property is obtained in a call to Get-MsolUser. It corresponds to a user’s job title. If this property is populated in the organizational data file, analysts can use it in their queries, in place of or in addition to the LevelDesignation property. (See [Resulting organizational-data file schema]().) |
+|Title	| String |	The Title property is obtained in a call to Get-MsolUser. It corresponds to a user’s job title. If this property is populated in the organizational data file, analysts can use it in their queries, in place of or in addition to the LevelDesignation property. (See [Resulting organizational-data file schema](#resulting-organizational-data-file-schema).) |
 | Office	| String	| The Office property is obtained in a call to Get-MsolUser. |
 
