@@ -112,8 +112,7 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
    ![Briefing email access](./images/be-admin.png)
 
-<!--
-### To configure access in PowerShell
+<!--### To configure access in PowerShell
 
 You can enable or disable the Briefing email for all users in your organization at the tenant level. Use the following Exchange Online PowerShell cmdlets to set the tenant default:
 
