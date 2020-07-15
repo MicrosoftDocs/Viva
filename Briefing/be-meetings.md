@@ -21,7 +21,7 @@ With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you 
 
 In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it.
 
-   ![Briefing email about meetings](./images/be-meetings.png)
+   ![Briefing email about meetings](./images/meeting-prep.png)
 
 <!-- ## Reschedule for low acceptance
 

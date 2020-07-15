@@ -32,7 +32,11 @@ A4. The Briefing email only includes existing information that’s already avail
 
 ### Q5. I previously disabled Cortana Optional Connected Experiences for my organization. Do I need to enable preexisting Cortana experiences again for my users to receive the Briefing email?  
 
-A5. No, the Briefing email is a new service. Users will still receive the Briefing email even if you previously disabled “Cortana Optional Connected Experiences” for your organization. Previous Cortana experiences, such as for weather, news, and traffic updates, are primarily for consumers. New Cortana experiences, such as Briefing and Play My Emails, are primarily for employees in organizations. The Briefing email has IT management capabilities and configurable controls that enable you to address legal needs and policies regarding privacy and use of employee data for your organization.  
+A5. No, the Briefing email is a new service. Users will still receive the Briefing email even if you previously disabled “Cortana Optional Connected Experiences” for your organization. Previous Cortana experiences, such as for weather, news, and traffic updates, are primarily for consumers. New Cortana experiences, such as Briefing and Play My Emails, are primarily for employees in organizations. The Briefing email has IT management capabilities and configurable controls that enable you to address legal needs and policies regarding privacy and use of employee data for your organization.
+
+### Q6. After changing the Briefing setting in the admin center, how long will it take for the change to take affect?
+
+A6. It will take 24 hours for the new setting change to take effect.
 
 ## For Briefing users
 
@@ -64,4 +68,4 @@ Briefing is optimized to show you the most relevant and actionable information y
 
 ### Q7. How can I send Microsoft product feedback or ask a question about Briefing email?
 
-A7. Send feedback or questions to: [https://cortana.office.com/briefing?v=feedback](https://cortana.office.com/briefing?v=feedback).
+A7. At the end of each section in the email (in the Adaptive version), select the thumbs up or down icons for if that section was helpful or not. You can also send questions or additional feedback to: [cortana.office.com/briefing?v=feedback](https://cortana.office.com/briefing?v=feedback).
