@@ -1,14 +1,14 @@
 ---
 layout: LandingPage
-title: Workplace Analytics
-description: Learn more about, set up, and use Workplace Analytics and MyAnalytics
+title: Workplace Analytics introduction
+description: Learn more about, set up, and use Workplace Analytics
 localization_priority: normal 
 ms.prod: wpa
 ms.author: madehmer
 author: madehmer
 
 ---
-# Workplace Analytics
+# Workplace Analytics introduction
 
 <ul class="panelContent cardsY">
     <li>
@@ -18,7 +18,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_progressive.svg" alt="Workplace Analytics insights" />
+                            <img src="https://docs.microsoft.com/media/common/i_progressive.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -37,7 +37,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_library.svg" alt="HBR article" />
+                            <img src="https://docs.microsoft.com/media/common/i_library.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -56,7 +56,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="videos" />
+                            <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -124,3 +124,4 @@ author: madehmer
         </div>
     </li>
 </ul>
+
