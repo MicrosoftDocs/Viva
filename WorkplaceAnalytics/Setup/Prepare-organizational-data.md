@@ -193,7 +193,7 @@ If you do a point-in-time export of organizational data from your HR information
 
 This means that for each measured employee, you would have 13 separate rows; each row would contain an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2020, the effective date for all rows should be set to 10/1/2019.
 
-The employee’s collaboration activity will be mapped to the most recent organizational data snapshot (based on EffectiveDate) that precedes the date of the collaboration activity. For a detailed example, see this video [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file), starting at about 1:25. 
+The employee’s collaboration activity will be mapped to the most recent organizational data snapshot (based on EffectiveDate) that precedes the date of the collaboration activity. For a detailed example, see the video [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file), starting at about 1:25. 
 
 <!--  CHECKING WITH ROSAMARY ABOUT WHETHER ANY OF THIS WORKS: 
 
