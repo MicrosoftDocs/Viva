@@ -21,7 +21,7 @@ First, you'll get a one-time welcome email that explains what the Briefing email
 
    ![Welcome admin email](./images/admin-welcome.png)
 
-For the next two weeks after the welcome email, you're eligible to get a Briefing email on days that you have actionable tasks. Your Briefing will look and function exactly how it will for everyone in your organization so that you can get a good feel for what they will see and experience.
+For the next two weeks starting with the welcome email, you're eligible to get a Briefing email on days that you have actionable tasks. Your Briefing will look and function exactly how it will for everyone in your organization so you get a good feel for what they will see and experience.
 
 If you keep the Briefing email on for your organization, your end users will start receiving the Briefing email two weeks after you received the welcome email.
 
