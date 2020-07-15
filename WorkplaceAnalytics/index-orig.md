@@ -18,7 +18,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_progressive.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_progressive.svg" alt="Workplace Analytics insights" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -37,7 +37,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_library.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_library.svg" alt="HBR article" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -56,7 +56,7 @@ author: madehmer
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="videos" />
                         </div>
                     </div>
                     <div class="cardText">
