@@ -1,7 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Admin trial introduction
+title: Admin preview
 description: Initial admin trial of the Briefing email
 author: madehmer
 ms.author: madehmer
@@ -11,13 +11,13 @@ ms.prod: mya
 
 ---
 
-# Initial admin trial
+# Admin preview
 
-As an Exchange Administrator or a Global Administrator for your organization, you are eligible to receive the Briefing email before people in your organization starts receiving it.
+As an Exchange Administrator or a Global Administrator for your organization, you are eligible to receive the Briefing email before people in your organization start receiving it.
 
 As an admin, this is your opportunity to experience the value of the Briefing email and familiarize yourself with its functionality before the rest of your organization sees it.
 
-First, you'll get a one-time welcome email that explains what the Briefing email is, key privacy and security information, and links to helpful resources for managing a Briefing rollout.
+First, you'll get a one-time welcome email that explains what the Briefing email is, key privacy and security information, and links to helpful resources for managing the rollout.
 
    ![Welcome admin email](./images/admin-welcome.png)
 
