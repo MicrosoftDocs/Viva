@@ -41,21 +41,14 @@ Companies with a customer-focused mindset can foster positive customer experienc
 
 Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
-<!-- Text replaced 25 April 2020
-Show your customers you value them and their business by creating deep connections.
-
-For example, are your employees engaged often and deeply with customers? Research shows that fully engaged customers deliver a 23 percent premium over average in share of wallet, profitability, revenue, and relationship growth.
--->
-
 ![Customer focus](../images/wpa/use/customer-focus-sm.png)
-
 
 ## Supporting evidence and Best practices
 
-Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
+Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/) authored by:
 
 * Industry experts based on research
-* Organizations that have effectively used Workplace Analytics to improve their business outcomes
+* Organizations who have effectively used Workplace Analytics to improve their business outcomes
 
 ## Explore the stats
 
