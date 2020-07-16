@@ -18,7 +18,7 @@ This section will also reference and list any already scheduled focus time in to
 
 In the following example, you’d select **Book** next to **3:00 PM – 4:00 PM** to schedule you as **busy** during that time on today’s calendar.
 
-   ![Briefing email about focus time](./images/be-focus.png)
+   ![Briefing email about focus time](./images/focus.png)
 
 ## Related topics
 
