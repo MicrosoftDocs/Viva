@@ -26,7 +26,7 @@ MyAnalytics provides insights into two of the key factors in personal productivi
   * [**Insights Outlook add-in**](../myanalytics/use/add-in.md) - The Insights add-in for Outlook presents you with activity cards based on your recent work experience with options to respond or follow up on based on the activity.
   * [**Digests**](../myanalytics/use/email-digest-2.md) - Receive a weekly digest that gives you highlights about your previous week.
   * [**Inline suggestions in Outlook**](../myanalytics/use/mya-notifications.md) - Contextual, data driven recommendations to improve your work patterns.
-* [**Focus plan**](../use/focus-plan.md) - Helps you schedule up to two hours of uninterrupted time on your calendar each day to focus on top-priority work.
+* [**Focus plan**](../myanalytics/use/focus-plan.md) - Helps you schedule up to two hours of uninterrupted time on your calendar each day to focus on top-priority work.
 * [**MyAnalytics adoption materials**](../myanalytics/use/MyA-Adoption/Adopt-myanalytics.md) - These adoption materials help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable.
     * [Individual adoption](../myanalytics/use/MyA-Adoption/Indiv-adopt-get-started.md): Individuals learn how to use MyAnalytics to build and sustain healthier work patterns.
     * [Team adoption](../myanalytics/use/MyA-Adoption/Team-adopt-intro.md) - Team members learn how to set and track goals and build new habits to change the way the team collaborates.
