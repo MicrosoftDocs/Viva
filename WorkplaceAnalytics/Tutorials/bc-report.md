@@ -41,7 +41,7 @@ The report is available for download from the Microsoft 365 Admin Center. You'll
 
 #### Q2 Where can I get more information?
 
-Contact your account team for more information on how to read the report and get additional insights.
+You can use Workplace Analytics to get more detailed analysis and additional insights about your company. Contact your account team or go to [Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics) to learn more.
 
 #### Q3 Can I request a new report with a different time range?
 
