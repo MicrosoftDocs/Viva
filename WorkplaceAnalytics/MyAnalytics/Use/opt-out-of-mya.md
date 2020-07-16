@@ -28,7 +28,7 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out:
 3. Under **MyAnalytics**, select **Settings**.
 4. For MyAnalytics, change the setting to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/slider-off.png)
+    ![Slider in off position](../../Images/mya/use/opt-out-slider-off.png)
   
 5. Select **Save** to save your changes.
 
@@ -57,7 +57,7 @@ You will use the answer to this question in the following procedure:
 5. Under **MyAnalytics**, select **Settings**.
 6. For MyAnalytics, change the setting to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/slider-off.png)
+    ![Slider in off position](../../Images/mya/use/opt-out-slider-off.png)
   
 7. Select **Save** to save your changes.
 8. Repeat steps 1 - 7 for each account whose MyAnalytics subscription you want to opt out of. 
