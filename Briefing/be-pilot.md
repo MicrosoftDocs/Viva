@@ -35,13 +35,13 @@ A great place to start is to ask your stakeholders and department managers which
  > [!Tip]
  > When selecting a group of people for your Briefing pilot, be sure to include those who check email on Adaptive-compatible clients. The [Adaptive version](be-overview.md#adaptive-or-html-version) ensures users get the optimal experience with links to open tasks, upcoming meetings, related documents, and book suggested focus time, all within the email.
 
-You control who receives the Briefing email in your pilot in one of the following ways:
+You can control who receives the Briefing email in your pilot in one of the following ways:
 
 * Use the admin center to set the default state for all people in your organization as opted out. Then advise your pilot participants to opt in to receive the Briefing email at [cortana.office.com](https://cortana.office.com).
 * Use PowerShell to disable Briefing for non-pilot users and leave pilot users enabled. In the admin center, have all users opted-in by default.
 
    * Users who are enabled and opted-in will receive the Briefing email. 
-   * Users who are disabled and opted-in will not receive the Briefing email. Note as you onboard new users to a tenant, you will need to use PowerShell to disable Briefing for them if you do not want them to be part of the pilot.
+   * Users who are disabled and opted-in will not receive the Briefing email. Note that as you onboard new users to a tenant, you will need to use PowerShell to disable Briefing for them if you do not want them to be part of the pilot.
 
 ## Design your test plan and feedback survey
 
