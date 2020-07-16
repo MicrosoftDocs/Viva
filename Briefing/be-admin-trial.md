@@ -11,7 +11,7 @@ ms.prod: mya
 
 ---
 
-# Initial admin trial
+# Admin trial
 
 As an Exchange Administrator or a Global Administrator for your organization, you are eligible to receive the Briefing email before people in your organization starts receiving it.
 
