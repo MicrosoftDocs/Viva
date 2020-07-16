@@ -25,7 +25,7 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 
 In the following example, you’d select **TED Talks** to open the email from Enrico or select **Done** to confirm you’ve already done the related task.
 
-   ![Briefing email about tasks](./images/tasks.png)
+   ![Briefing email about tasks](./images/be-tasks.png)
 
 ## Related topics
 
