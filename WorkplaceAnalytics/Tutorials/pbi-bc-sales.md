@@ -97,7 +97,7 @@ After the Sales Business continuity dashboard is set up and populated with Workp
 * After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
    > [!Important]
-   > As new data is processed on a weekly basis, select Refresh in the Power BI Home ribbon to view the most recent data.
+   > As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
 ## About the dashboard reports
 
@@ -105,16 +105,17 @@ The dashboard reports directionally highlight where a shift to remote work is ha
 
 The following describes each report with specific nuances to consider for each.
 
-* How are sellers dividing time between customer and internal activity? - Shows how employee collaboration patterns are changing in response to a shift in work patterns, and which collaboration tools people are substituting for in-person interactions. 
-* Are external relationships being maintained? - Quantifies changes in communication with customers, partners, and other people outside the organization.
-* How are the engagement models with customer changing? – Shows how the relationships with customers have been changing. You can examine whether the sellers might be devoting extra time and effort in prospecting and lead generation, versus focusing on existing customers. 
-* How have customer and partner relationships changed? – Shows how the collaboration with top domains in the company has been changing. It also highlights domains that have gained or lost traction in the current timeframe. 
+* **How are sellers dividing time between customer and internal activity?** - Shows how employee collaboration patterns are changing in response to a shift in work patterns, and which collaboration tools people are substituting for in-person interactions.
+* **Are external relationships being maintained?** - Quantifies changes in communication with customers, partners, and other people outside the organization.
+* **How are the engagement models with customer changing?** – Shows how the relationships with customers have been changing. You can examine whether the sellers might be devoting extra time and effort in prospecting and lead generation, versus focusing on existing customers.
+* **How have customer and partner relationships changed?** – Shows how the collaboration with top domains in the company has been changing. It also highlights domains that have gained or lost traction in the current timeframe.
 
 ## Power BI tips
 
 A few tips to help you use the Business continuity dashboard in Power BI:  
 
 * **Cross-filter and cross-highlight** - All visuals on a report page are interconnected. If you select a data point on one of the visuals, all the others on the page that contain that data will change, based on that selection.
+* **Drill down into a visual that has a hierarchy** - When a visual has a hierarchy, you can drill down to reveal additional details. Any chart in the dashboard labeled with "By Organization and Level Designation" supports the Power BI drill down capability.
 * **Export data as a table** – On the upper right of any visualization, select **More options** (**…**) and select **Export data**.
 
 For more details about using Power BI, see [Interact with visuals in reports, dashboards, and apps](https://docs.microsoft.com/power-bi/consumer/end-user-visualizations).
@@ -127,16 +128,3 @@ Anyone you share the Power BI *desktop file* with can access the underlying data
 
 * **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports from Power BI to PDF](https://docs.microsoft.com/power-bi/consumer/end-user-pdf).
 * **Publish the report to Power BI Service and share insights in an app** - This option allows other users to navigate the dashboard without access to the underlying data. See [Distribute insights in an app](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports#distribute-insights-in-an-app) for details.
-
-A few tips to help you use the Business continuity dashboard in Power BI:
-
-* Cross-filter and cross-highlight - All visuals on a report page are interconnected. If you select a data point on one of the visuals, all the others on the page that contain that data will change, based on that selection.
-* Drill down into a visual that has a hierarchy - When a visual has a hierarchy, you can drill down to reveal additional details. Any chart in the dashboard labeled with "By Organization and Level Designation" supports the Power BI drill down capability.
-* Export data as a table – From the upper right corner of any visualization, select More options (…) and select Export data.
-For more details about using Power BI, see Interact with visuals in reports, dashboards, and apps.
-
-Share the dashboard
-Like other products that work with sensitive data, such as HR systems, Workplace Analytics is not meant for the general workforce. Rather, its users are expected to have training regarding how to handle sensitive information. Training should be specific to your organization. See Data-protection considerations when using data generated by Workplace Analytics.
-Anyone you share the Power BI desktop file with can access the underlying dataset at the same level of granularity as a Workplace Analytics Analyst. For this reason, consider the following alternatives that do not provide access to the underlying data:
-•	Share as a PDF or other static file - This option generates a report that's not interactive. See Export reports from Power BI to PDF.
-•	Publish the report to Power BI Service and share insights in an app - This option allows other users to navigate the dashboard without access to the underlying data. See Distribute insights in an app for details.
