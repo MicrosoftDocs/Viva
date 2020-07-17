@@ -120,7 +120,7 @@ A4. The Start time and End time values determine the working hours for which dat
 
 ##### Q5. Is there a maximum number of Workplace Analytics analyst roles that can be assigned?
 
-A5. No. No limit is imposed by Workplace Analytics. 
+A5. No. No limit is imposed by Workplace Analytics.
 
 ##### Q6. In the Workplace Analytics _Data sources_ section, on the "Office 365 data" page, you can see the number of "Measured employees." Is this the number of licensed users or the number of both licensed and un-licensed?
 
@@ -193,7 +193,6 @@ A1. Admins make  _privacy settings_ to change the way Workplace Analytics extrac
 
 Analysts use _meeting-exclusion rules_ in Workplace Analytics queries to help ensure that query results accurately represent relevant meeting norms within the organization. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md).
 
-
 ##### Q2. Can other analysts use the meeting exclusion rule sets that I create?
 
 A2.  Yes. Anyone in your organization can use the meeting exclusion rules that anyone else in the organization has created. For more information about meeting exclusion rules, see [Application of meeting-exclusion rules](../tutorials/meeting-exclusion-concept.md#application-of-meeting-exclusion-rules).
@@ -208,7 +207,6 @@ A1.  This can happen if you selected only a subset of your population for data a
 
 A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary header](explore-metrics-external-collaboration.md#summary-header) on the **External collaboration** page do not change because of filters that have been applied in **Page settings**. For details, see [External collaboration](explore-metrics-external-collaboration.md).
 
-
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
 A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. On the **Sources** page, you can select a time period where the email volume is stable. For more information, see [Office 365 data summary](office-365-data.md).
@@ -221,16 +219,20 @@ A4. Workplace Analytics processes email and meetings data for a distribution lis
 
 A5. Teams provides information about collaboration activities, namely direct messages (chats) and calls. It does not provide information about channels and groups. 
 
-#### Q6. When a person sends a message from a shared mailbox, who gets credit or shows as the sender of the message?
+#### Q6. When a person sends a message or meeting invite for a group’s shared mailbox or on behalf of another person, who gets credit for sending it?
 
-A6. It depends on the permissions that are set for the Exchange Online shared mailbox.
+A6. It depends on what type of mailbox and which permissions are set for the Exchange Online mailbox. For details, see [Mailbox permissions](https://docs.microsoft.com/Exchange/recipients/mailbox-permissions?view=exchserver-2019).  
 
- * **Send As** permissions - The shared mailbox gets credit for sending the email.
- * **Send on Behalf** permissions - The person who sends the message gets the credit.
+* A **shared mailbox** (Microsoft 365 group mailbox) typically has a number of group members that share access and permissions for the group mailbox. An example of a shared mailbox is `LeadershipTeam@Contoso.com`. For details, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
 
-For more about permissions, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
+  * **Send As** permission - When a group member with Send As permission for a shared mailbox sends a message or meeting invitation from the group mailbox, Exchange gives credit to the shared mailbox instead of any single person in the group. Workplace Analytics does not use this action in its calculations.
+  * **Send on Behalf** permission – This permission is not available for shared mailboxes.
 
-(Also see this question about [Delegate access and Send on Behalf](#q4-how-does-workplace-analytics-treat-email-and-meetings-sent-on-behalf-of-another-individual-who-delegated-access-or-a-shared-mailbox).)
+* An **individual mailbox** (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user?view=o365-worldwide).
+
+  * **Send As** permission – The primary owner of the mailbox gets credit for sending the message or invite in Workplace Analytics calculations.
+  * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Workplace Analytics calculations.
+  * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the **Send As** permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Workplace Analytics credits the owner of the mailbox in calculations.
 
 ### Explore dashboards
 
@@ -279,19 +281,9 @@ A2. You can use the Collaboration hours metric to filter for a specific time fra
 
 A3. Because totals for working hours and after hours calculate the "time booked on your calendar" instead of "time in meetings." Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-#### Q4. How does Workplace Analytics treat email and meetings sent on behalf of another individual (who delegated access) or a shared mailbox?
+#### Q4. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
-A4. The shared-mailbox and delegate-access cases are treated differently by Workplace Analytics:
-
- * **Shared mailbox** - If an individual sends an email or a meeting invitation on behalf of a shared mailbox, Workplace Analytics does not use this action in its calculations.
-
- * **Delegate access** - Let's say an individual sends an email or a meeting invitation on behalf of the mailbox of another user who has granted delegate access. Workplace Analytics considers the item to have been sent by the individual whose mailbox the item was sent from, not the user who has delegate access.
-
-(Also see this question about [Send As and Send on Behalf](#q6-when-a-person-sends-a-message-from-a-shared-mailbox-who-gets-credit-or-shows-as-the-sender-of-the-message).)
-
-#### Q5. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
-
-A5. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you are using Excel 2016, follow the steps in [Download and import query results](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** in Excel and then search for the instructions on how to import a .csv file.
+A4. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you are using Excel 2016, follow the steps in [Download and import query results](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** in Excel and then search for the instructions on how to import a .csv file.
  
 
 <!-- NEED MORE INFO BEFORE WE CAN INCLUDE THIS: 
