@@ -60,7 +60,7 @@ You can deploy MyAnalytics in your organization all at once or in phases. In eit
 It is easy to turn on MyAnalytics for all users in your organization as it comes with your [M365 subscription](./../overview/plans-environments.md). Here is a list of recommended but optional steps that your organization can consider: 
 
 * **Create a communication plan:** Identify how your organization will effectively communicate with users during and after the rollout of MyAnalytics. Make it easy for users to find information about MyAnalytics. For example, use Yammer groups or SharePoint sites to help users learn about the benefits of using MyAnalytics within their organization.
-* **Consider your stakeholders:** It may be important in your organization to identify and communicate with stakeholders ahead of rollout of MyAnalytics. Identify and inform them by using this video [link to overview video. Also, see Include stakeholders. 
+* **Consider your stakeholders:** It may be important in your organization to identify and communicate with stakeholders ahead of rollout of MyAnalytics. Identify and inform them by using this video [link to overview video]. Also, see [Include stakeholders](#include-stakeholders). 
 * **Consider running a pilot first:** Before scaling MyAnalytics to your entire organization, you might want to consider running a pilot rollout with a subset of users. Especially for large organizations, it is a natural step to test a broad rollout on a small scale first by conducting a pilot to validate user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation. 
 * **Security and Privacy:** MyAnalytics is secure and built to protect user privacy. The Privacy guide outlines how MyAnalytics complies with privacy regulations. We recommended that you share this privacy guide with security and privacy teams to give them a better understanding of the privacy features of MyAnalytics.
 * **Tie to existing initiative:** As you introduce MyAnalytics, tie it to an existing initiative or training plan within your organization such as an employee wellbeing initiative. Avoid introducing it as a technology tool but rather as a habit-changing tool that is integrated with the organization’s values. 
@@ -75,7 +75,7 @@ Here are some roles you might consider as part of the rollout project:
 * **Security lead.** Prepares for rollout by reviewing the [Privacy guide](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide) to learn about data security in MyAnalytics.
 * **M365 admin.** Enables and disables MyAnalytics access per business requirements; see [Rollout scenarios](#rollout-scenarios). 
 * **Support/Help-desk lead.** Manages questions from users. See the [MyAnalytics FAQs](./../overview/mya-faq.md).
-* **Training lead.** Runs a training workshop [link to videos]. 
+* **Training lead.** Runs a training workshop [link to training videos]. 
 
 ## Choose a rollout scenario
 
