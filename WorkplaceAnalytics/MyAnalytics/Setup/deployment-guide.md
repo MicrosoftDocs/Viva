@@ -42,8 +42,8 @@ By using MyAnalytics, you and your team can accomplish great things.
 
 * Hear how the world’s largest brewer used MyAnalytics in conjunction with Workplace Analytics to change its workplace collaboration habits for the better: [ABInBev](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics) 
  
-  [![ABInBev](../../images/mya/setup/ab-in-bev-video.png)](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics)
-  _The use of MyAnalytics and Workplace Analytics at ABInBev_ 
+[![ABInBev](../../images/mya/setup/ab-in-bev-video.png)](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics)
+_The use of MyAnalytics and Workplace Analytics at ABInBev_ 
 
 ## Roll out MyAnalytics 
 
