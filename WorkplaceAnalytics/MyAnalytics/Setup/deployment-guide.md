@@ -40,10 +40,10 @@ By using MyAnalytics, you and your team can accomplish great things.
    
    For employees who are new to remote work during the COVID-19 pandemic, having access to colleagues and information through Microsoft 365 tools at any time of day has been critical to staying productive, while MyAnalytics helps them use work hours more effectively. "Using the Focus scheduling feature is helping people block off time on their calendars each day to knock out priority projects, which is especially helpful for our employees who are juggling family needs along with work." _- Dawn Damico: Vice President of Digital Workplace, Fannie Mae_
 
-* Hear how the world’s largest brewer used MyAnalytics in conjunction with Workplace Analytics to change its workplace collaboration habits for the better: [ABInBev](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics) 
- 
-[![ABInBev](../../images/mya/setup/ab-in-bev-video.png)](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics)
-_The use of MyAnalytics and Workplace Analytics at ABInBev_ 
+* Hear how the world's largest brewer used MyAnalytics in conjunction with Workplace Analytics to change its workplace collaboration habits for the better: [ABInBev](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics) 
+   
+  [![ABInBev](../../images/mya/setup/ab-in-bev-video.png)](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics)
+  _The use of MyAnalytics and Workplace Analytics at ABInBev_ 
 
 ## Roll out MyAnalytics 
 
