@@ -233,9 +233,12 @@ If users have questions about using MyAnalytics, point them to the published [My
 ### Resources for stakeholders 
 
 * Download the [Welcome Email template](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx). Edit and use this to communicate the availability of MyAnalytics as a productivity tool.
-* Training Videos for MyAnalytics (will be linked via Vimeo). If you want to run a workshop to explain how to use MyAnalytics, these videos are a great training resource. 
+* Training Videos for MyAnalytics. To run a workshop to explain how to use MyAnalytics, these videos are a great training resource:
+   * [MyAnalytics dashboard](https://vimeo.com/440502493)
+   * [MyAnalytics overview](https://vimeo.com/440502351)
+   * [Outlook insights and inline suggestions](https://vimeo.com/440502800) 
 
-* Descriptions of the MyAnalytics surfaces:
+* See these descriptions of the MyAnalytics surfaces:
 
   * [Personal dashboard](./../use/dashboard-2.md)
   * [Insights Outlook add-in](./../use/add-in.md)
