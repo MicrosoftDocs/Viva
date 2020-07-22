@@ -43,6 +43,7 @@ By using MyAnalytics, you and your team can accomplish great things.
 * Hear how the world's largest brewer used MyAnalytics in conjunction with Workplace Analytics to change its workplace collaboration habits for the better: [ABInBev](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics) 
    
   [![ABInBev](../../images/mya/setup/ab-in-bev-video.png)](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics)
+
   _The use of MyAnalytics and Workplace Analytics at ABInBev_ 
 
 ## Roll out MyAnalytics 
@@ -60,22 +61,25 @@ You can deploy MyAnalytics in your organization all at once or in phases. In eit
 It is easy to turn on MyAnalytics for all users in your organization as it comes with your [M365 subscription](./../overview/plans-environments.md). Here is a list of recommended but optional steps that your organization can consider: 
 
 * **Create a communication plan:** Identify how your organization will effectively communicate with users during and after the rollout of MyAnalytics. Make it easy for users to find information about MyAnalytics. For example, use Yammer groups or SharePoint sites to help users learn about the benefits of using MyAnalytics within their organization.
-* **Consider your stakeholders:** It may be important in your organization to identify and communicate with stakeholders ahead of rollout of MyAnalytics. Identify and inform them by using this video [link to overview video]. Also, see [Include stakeholders](#include-stakeholders). 
+* **Consider your stakeholders:** It may be important in your organization to identify and communicate with stakeholders ahead of rollout of MyAnalytics. Identify and inform them by using this [Overview video](https://vimeo.com/440502351). Also, see [Include stakeholders](#include-stakeholders). 
 * **Consider running a pilot first:** Before scaling MyAnalytics to your entire organization, you might want to consider running a pilot rollout with a subset of users. Especially for large organizations, it is a natural step to test a broad rollout on a small scale first by conducting a pilot to validate user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation. 
 * **Security and Privacy:** MyAnalytics is secure and built to protect user privacy. The [Privacy guide](./../overview/privacy-guide.md) describes how MyAnalytics complies with privacy regulations. We recommended that you share this privacy guide with security and privacy teams to give them a better understanding of the privacy features of MyAnalytics.
 * **Tie to existing initiative:** As you introduce MyAnalytics, tie it to an existing initiative or training plan within your organization such as an employee wellbeing initiative. Avoid introducing it as a technology tool but rather as a habit-changing tool that is integrated with the organization’s values. 
 
 ### Include stakeholders
 
-Identifying and notifying your key stakeholders before the [Welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx) is sent to users can be an important preliminary step in your rollout process. These stakeholders should understand the value, timelines, and expected experiences that come with the rollout of the Welcome email. When managed proactively, these stakeholders can become valuable advocates for moving the rollout process forward.
+Identifying and notifying your key stakeholders before the welcome email ([Download Welcome email template](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx)) is sent to users can be an important preliminary step in your rollout process. These stakeholders should understand the value, timelines, and expected experiences that come with the rollout of the Welcome email. When managed proactively, these stakeholders can become valuable advocates for moving the rollout process forward.
 
 Here are some roles you might consider as part of the rollout project:
 
-* **Executive sponsor.** This person sends [welcome email](./setup/myanalytics-announcement-2020-template.docx) about the product, ideally with quotes about their experience with the product.
-* **Security lead.** Prepares for rollout by reviewing the [Privacy guide](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide) to learn about data security in MyAnalytics.
+* **Executive sponsor.** This person sends [welcome email](../use/mya-welcome-email.md) about the product, ideally with quotes about their experience with the product.
+* **Security lead.** Prepares for rollout by reviewing the [Privacy guide](../overview/privacy-guide.md) to learn about data security in MyAnalytics.
 * **M365 admin.** Enables and disables MyAnalytics access per business requirements; see [Rollout scenarios](#rollout-scenarios). 
 * **Support/Help-desk lead.** Manages questions from users. See the [MyAnalytics FAQs](./../overview/mya-faq.md).
-* **Training lead.** Runs a training workshop [link to training videos]. 
+* **Training lead.** Runs a training workshop. This person might find the following training videos helpful:
+   * [MyAnalytics dashboard](https://vimeo.com/440502493)
+   * [MyAnalytics overview](https://vimeo.com/440502351)
+   * [Outlook insights and inline suggestions](https://vimeo.com/440502800) 
 
 ## Choose a rollout scenario
 
@@ -102,8 +106,8 @@ In this scenario, all surfaces of MyAnalytics are turned on by default for all u
 
     ![New admin center](../../images/mya/setup/the-new-admin-center.png)
  
-2.	In the left pane, expand **Settings** and then select **Services & add-ins**.
-3.	Under **Services & add-ins**, select **MyAnalytics**. This opens a page on which you can configure access to MyAnalytics elements. It should show that all MyAnalytics elements are enabled. 
+2.	In the left pane, expand **Settings** and then select **Org settings**.
+3.	On the **Service** tab, select **MyAnalytics**. This opens a page on which you can configure access to MyAnalytics elements. It should show that all MyAnalytics elements are enabled. 
 4. If any element is not enabled, select it to enable it and then select **Save changes**.
    
     ![Assign access](../../images/mya/setup/assign-mya-access-new.png)
@@ -120,8 +124,8 @@ In this scenario, MyAnalytics is off by default but users can turn it on for the
 
     ![New admin center](../../images/mya/setup/the-new-admin-center.png)
  
-2.	In the left pane, expand **Settings** and then select **Services & add-ins**.
-3.	Under **Services & add-ins**, select **MyAnalytics**. This opens a page to configure access to MyAnalytics elements.
+2.	In the left pane, expand **Settings** and then select **Org settings**.
+3.	On the **Service** tab, select **MyAnalytics**. This opens a page to configure access to MyAnalytics elements.
 
     ![Assign access](../../images/mya/setup/assign-mya-access-new.png)
 
@@ -192,7 +196,32 @@ While MyAnalytics is not available to these users, their data contributes to the
 
 **Role:** M365 Admin
 
-1.	To opt users out of MyAnalytics, use PowerShell. These users can later use the MyAnalytics dashboard to opt themselves in if they so choose.
+1. Follow steps 1 - 5 in [Set up mixed deployment](#set-up-mixed-deployment) with this exception: For step 4, use this PowerShell command: 
+
+    ```powershell
+    $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
+    $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv>"
+    $privacyMode = "Opt-out"
+     
+    $users=Import-Csv $inFileName
+    ForEach ($user in $users)
+    {
+    $user.Userprincipalname
+    $upn=$user.UserPrincipalName
+    
+    Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
+    Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName 
+    }
+    ```
+    
+   This PowerShell script does the following:
+   
+   * Displays the user principal name for each user.
+   * Sets the specified privacy mode for each user.
+   * Creates a .csv file with all the users that were processed and shows their status.
+   
+   After you complete these steps, users can later use the MyAnalytics dashboard to opt themselves in if they so choose.
+
 2.	To ensure that particular users are not able to opt themselves into MyAnalytics, remove the MyAnalytics Service plan from those users.  
 
 ## Supporting documentation 
