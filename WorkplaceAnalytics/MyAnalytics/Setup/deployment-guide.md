@@ -228,7 +228,7 @@ This procedure is identical to [Set up mixed deployment](#set-up-mixed-deploymen
 
 ## Supporting documentation 
 
-If users have questions about using MyAnalytics, point them to the published FAQs for answers. 
+If users have questions about using MyAnalytics, point them to the published [MyAnalytics FAQs](./../overview/mya-faq.md) for answers. 
 
 ### Resources for stakeholders 
 
