@@ -232,7 +232,7 @@ If users have questions about using MyAnalytics, point them to the published [My
 
 ### Resources for stakeholders 
 
-* [Welcome Email Template](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx). A template that you can use to communicate the availability of MyAnalytics as a productivity tool.
+* Download the [Welcome Email template](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx). Edit and use this to communicate the availability of MyAnalytics as a productivity tool.
 * Training Videos for MyAnalytics (will be linked via Vimeo). If you want to run a workshop to explain how to use MyAnalytics, these videos are a great training resource. 
 
 * Descriptions of the MyAnalytics surfaces:
