@@ -186,7 +186,7 @@ This PowerShell script does the following:
 
 In this scenario, some users have MyAnalytics off by default and can opt themselves in; for some others, the service plan has been removed so they cannot opt in. 
 
-Users without a service plan will see the following at [myanalytics.microsoft.com](https://myanalytics.microsoft.com/)):
+Users without a service plan will see the following at [myanalytics.microsoft.com](https://myanalytics.microsoft.com/):
 
 ![No service plan](../../images/mya/setup/no-service-plan.png)
  
