@@ -194,6 +194,8 @@ While MyAnalytics is not available to these users, their data contributes to the
 
 ##### To set up optional opt-in
 
+This procedure is identical to [Set up mixed deployment](#set-up-mixed-deployment) with one important difference: Users are opted out to start with. In this procedure, the M365 admin creates a .csv file that lists users who will start out as opted out but can choose to opt themselves in. 
+
 **Role:** M365 Admin
 
 1. Follow steps 1 - 5 in [Set up mixed deployment](#set-up-mixed-deployment) with this exception: For step 4, use this PowerShell command: 
@@ -218,9 +220,9 @@ While MyAnalytics is not available to these users, their data contributes to the
    
    * Displays the user principal name for each user.
    * Sets the specified privacy mode for each user.
-   * Creates a .csv file with all the users that were processed and shows their status.
+   * Creates a .csv file with all the users that were processed and shows their status. 
    
-   After you complete these steps, users can later use the MyAnalytics dashboard to opt themselves in if they so choose.
+   After you complete these steps, users can later use the MyAnalytics dashboard to [opt themselves in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) if they so choose.
 
 2.	To ensure that particular users are not able to opt themselves into MyAnalytics, remove the MyAnalytics Service plan from those users.  
 
