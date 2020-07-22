@@ -75,7 +75,7 @@ Here are some roles you might consider as part of the rollout project:
 * **Executive sponsor.** This person sends [welcome email](../use/mya-welcome-email.md) about the product, ideally with quotes about their experience with the product.
 * **Security lead.** Prepares for rollout by reviewing the [Privacy guide](../overview/privacy-guide.md) to learn about data security in MyAnalytics.
 * **M365 admin.** Enables and disables MyAnalytics access per business requirements; see [Rollout scenarios](#rollout-scenarios). 
-* **Support/Help-desk lead.** Manages questions from users. See the [MyAnalytics FAQs](./../overview/mya-faq.md).
+* **Support/Help-desk lead.** Manages questions from users. Some helpful answers can be found in the [MyAnalytics FAQs](./../overview/mya-faq.md).
 * **Training lead.** Runs a training workshop. This person might find the following training videos helpful:
    * [MyAnalytics dashboard](https://vimeo.com/440502493)
    * [MyAnalytics overview](https://vimeo.com/440502351)
