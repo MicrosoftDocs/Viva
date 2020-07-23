@@ -164,7 +164,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 
 #### Q1. How can I start using partitions?
 
-A1. Currently the partitions feature is being rolled out on a per-customer basis. To have it enabled for your organization, reach out to your customer service contact or email us at [wpasupport@microsoft.com](mailto:wpasupport@microsoft.com).
+A1. Currently the partitions feature is being rolled out on a per-customer basis. To have it enabled for your organization, reach out to your customer service contact at Microsoft.
 
 #### Q2. Why are newly uploaded attributes not being reflected inside non-global partitions?
 
