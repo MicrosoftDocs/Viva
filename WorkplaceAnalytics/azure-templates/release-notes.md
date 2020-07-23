@@ -40,6 +40,14 @@ The following new template and template features, enhancements, and changes are 
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
+### Join Datasets Azure Template
+
+The Join Datasets Template has a new advanced settings option when defining new joins where you can customize how the data is grouped based on the datasets unique values. 
+
+For example, you could select to compare data from two different surveys for the specified time periods of when the survey data was collected.
+
+To learn more, see [Join Datasets Azure Template](./join-datasets.md).
+
 ### Organizational Network Analysis (ONA) Azure Template
 
 * **Improved workflow** - Improved access to saved graphs by adding them to the analysis table.

@@ -19,9 +19,9 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Join Datasets Template that enables you to securely join, group, and aggregate data exported from Workplace Analytics with other third-party data sources, such as sensitive, personnel data or HR data that you want to combine and analyze. This template enforces the same data privacy settings that you set in Workplace Analytics, such as minimum group size, data exclusions, and other [privacy settings](../use/settings.md#privacy-settings).
 
-Joining datasets opens up unique and interesting possibilities, such as correlating engagement survey results or sales quota attainment with Workplace Analytics metrics. This gives you new insights into how work gets done and what drives performance.
+Joining datasets opens up unique possibilities, such as correlating engagement survey results or sales quota attainment with Workplace Analytics metrics. This gives you new insights into how work gets done and what drives performance.
 
-As a barrier to adoption centers around privacy and sensitivity of the data. This typically stems from prevailing unstructured practices of joining sensitive data, which operate mostly on a trust basis. This template allows the owners of the sensitive data, such as Workplace Analytics data, and other data like engagement survey results to permit a trusted person to use the files (without accessing the raw data) to create a joined dataset with a protected set of mapping keys.
+A barrier to adoption is data privacy and sensitivity, which typically stems from prevailing unstructured practices of joining sensitive data that operate mostly on a trust basis. This template enables the owners of the sensitive data, such as Workplace Analytics data and other similar engagement survey results, to permit another trusted person use of the files (without accessing the raw data) to create a joined dataset with a protected set of mapping keys.
 
 The Join Datasets Azure Template addresses these data privacy concerns in the following unique way.
 
@@ -136,10 +136,22 @@ You can use this template to create and analyze joined datasets as follows.
 
 1. In Workplace Analytics Azure Templates, select **Join Datasets** > **Joined Datasets**.
 2. Select **Add New Join** at top right of the table.
-3. In **Data Join Settings**, enter a name for the joined dataset, select the external dataset that matches up with the mapping file, the .csv query file, and the related mapping file.
-4. In **Define Join Fields**, select the Workplace Analytics Person ID key and the third-party external data key (such as Employee ID).
-5. In **Time and N Size**, select the time group you want data for and specify the minimum group size for groupings and aggregations, and then select **Submit**. For more information about minimum group sizes, see [Minimum group size](../use/settings.md#minimum-group-size).
-6. After the dataset is successfully created, it'll be available in the **Joined Datasets** list with the following options:
+3. In **Data Join Settings**, enter a name for the joined dataset, select the external dataset that matches up with the .csv query file and related mapping file.
+4. In **Define Join Fields**, select the Workplace Analytics key column and the third-party external file key column, such as **PersonId** and **PersonnelNbr**, as shown in the following graphic.
+5. In **Time and N Size**, specify the minimum group size for groupings and aggregations. For more information about minimum group sizes, see [Minimum group size](../use/settings.md#minimum-group-size).
+6. In **Results Time Grain**, you can select a preset option or use the advanced settings option to specify a custom date range: 
+
+   * To use the preset time ranges, leave **Advanced Settings Off**, and select how you want the data grouped, by week, month, quarter, or year.
+   * Or to use a custom date range, change **Advanced Settings** to **On**, and then: 
+
+     1. Select one or more columns in the dataset with distinct grouping values, and then select **Go**. For example, **SurveyName** is shown as selected in the following graphic.
+     2. Then select the start and end dates for the distinct sets of values in the selected column(s).
+
+7. Select **Submit**. 
+
+    ![Data Join Settings](./images/jd-join-settings.png)
+
+8. After the dataset is successfully created, it'll be available in the **Joined Datasets** list with the following options:
 
    * When the **Status** is a green check mark, the dataset was successfully created. A red X means it failed. Check the job details to view an available error message.
    * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
