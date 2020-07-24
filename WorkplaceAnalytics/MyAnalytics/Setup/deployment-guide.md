@@ -250,11 +250,11 @@ We recommend that you follow these steps to conduct the pilot:
 5.	**Consult with stakeholders.** Throughout the pilot, meet with your [project stakeholders](#include-stakeholders) to review user feedback as it arrives and address any technical issues that arise to ensure that the pilot is running smoothly.
 6.	**Assess and plan.** Use results from the pilot to plan your next steps. See [Assess the pilot lessons and make a plan](#assess-the-pilot-lessons-and-make-a-plan).
 
-## Set and measure goals
+### Set and measure goals
 
 To judge the success of the pilot, you need to know whether participants were able to reach goals. You define these goals by assigning tasks in a test plan.  After the pilot has concluded, you assess goal success by using a survey to measure participants’ ability to complete those tasks. 
 
-### Design a test plan 
+#### Design a test plan 
 
 For a successful pilot experience, give your participants clearly defined tasks to complete along with a way to share their feedback. Examples of what users can do in[ MyAnalytics include:
 
@@ -263,14 +263,14 @@ For a successful pilot experience, give your participants clearly defined tasks 
 * Use the insights tab to follow up with outstanding tasks, prepare for meetings, or respond to other insights that they receive.
 * Visit the dashboard to configure working hours.
 
-### Collect feedback
+#### Collect feedback
 
 Ensure that you have an open feedback channel to track progress and measure outcomes, such as:
 
 * Design a survey and use it after the pilot completes to capture and assess results. 
 * Create a Teams channel for pilot participants to join and share their experiences. Alternatively, use Yammer.
 
-## Recruit pilot users
+### Recruit pilot users
 
 The pilot users are not just test subjects. They are actually part of the first phase of the company rollout. Communicate with them that are the first users of a new tool to drive personal productivity and improved work patterns at work. They must be willing to provide feedback; you should help them understand that their feedback will make things easier for all others in later phases of the rollout by helping to improve configuration knowledge, internal documentation, and notifications to participants. Note that it's best if the pilot users are not executive leaders.
 
@@ -278,11 +278,11 @@ Identifying pilot users might require discussion between the IT team and the dep
 
 _Recommended:_ Consider grouping the pilot users into groups that correspond to the different [rollout scenarios](#rollout-scenarios). This lets the M365 administrator get feedback about the different scenarios before implementing them at a larger scale. 
 
-## Train pilot participants
+### Train pilot participants
 
 Your organization can choose an internal person responsible for training the pilot users. The trainer can use [these videos](#training-videos-for-myanalytics) as training resources. 
 
-## Conduct the pilot 
+### Conduct the pilot 
 
 The following is an example timeline for a 45-day pilot:
 
@@ -295,11 +295,11 @@ The following is an example timeline for a 45-day pilot:
 * **Day 40** – Send the final communication to the pilot users. Conduct a final survey on their experience.
 * **Days 41–45** - Assess pilot results and plan for next steps.
 
-## Assess the pilot lessons and make a plan
+### Assess the pilot lessons and make a plan
 
 After the pilot is complete, gather all feedback surveys, support tickets, and other metrics. Analyze them with your goals in mind plan the actual MyAnalytics rollout. Use your analysis of the pilot to decide whether your organization is ready for a broad deployment of MyAnalytics. If it is not, consider extending the pilot to more users. See [Post-pilot options](#post-pilot-options). 
 
-### Post-pilot options
+#### Post-pilot options
 
 | Were pilot goals achieved? | Consider these next steps |
 | ----- | ----- |
