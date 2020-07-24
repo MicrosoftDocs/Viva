@@ -219,9 +219,9 @@ A4. Workplace Analytics processes email and meetings data for a distribution lis
 
 A5. Teams provides information about collaboration activities, namely direct messages (chats) and calls. It does not provide information about Group Teams channels.
 
-#### Q6. When a person sends a message or meeting invite for a group’s shared mailbox or on behalf of another person, who gets credit for sending it?
+##### Q6. When a person sends a message or meeting invite for a group’s shared mailbox or on behalf of another person, who gets credit for sending it?
 
-A6. It depends on what type of mailbox and which permissions are set for the Exchange Online mailbox. For details, see [Mailbox permissions](https://docs.microsoft.com/Exchange/recipients/mailbox-permissions?view=exchserver-2019).  
+A6. It depends on the type of mailbox and which permissions are set for the Exchange Online mailbox. For details, see [Mailbox permissions](https://docs.microsoft.com/Exchange/recipients/mailbox-permissions?view=exchserver-2019).  
 
 * A **shared mailbox** (Microsoft 365 group mailbox) typically has a number of group members that share access and permissions for the group mailbox. An example of a shared mailbox is `LeadershipTeam@Contoso.com`. For details, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
 
