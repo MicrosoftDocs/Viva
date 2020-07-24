@@ -58,7 +58,7 @@ A6.  No. All data is encrypted and kept available only for queries and for Explo
 
 ##### Q2. Does Workplace Analytics support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
 
-A2. No.
+A2. Workplace Analytics is not available in data cloud environments that Microsoft maintains for government agencies.
 
 ### Language support
 
@@ -128,7 +128,7 @@ A6. Licensed. Specifically, this number refers to licensed employees who are als
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
-A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called *internal collaborators*. These employees are not measured and no data is extracted from them, nor is any of their data processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called *internal collaborators*. These employees are not measured and their data is not processed. An exception is if they schedule a meeting with a measured employee, that meeting (and their participation) is processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ### Organizational data
 
@@ -157,7 +157,7 @@ A5. Usually, HR obtains this data and provides it to the Workplace Analytics adm
 
 ##### Q6. Who can access organizational data after it has been uploaded to Workplace Analytics? 
 
-A6. Workplace Analytics admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page. For privacy reasons, no one can download the raw data that was uploaded. 
+A6. For privacy reasons, no one can download the raw data that was uploaded. Workplace Analytics admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page, but they cannot see how the attribute values map to individual people.
 
 <!-- [NEAR FUTURE FOR THESE NEXT FIVE QUESTIONS, AFTER THE XLSX POSSIBILITY SHIPS]
 
@@ -189,9 +189,9 @@ A7  Yes. The data can include double-byte characters, such as Japanese character
 
 ##### Q1. What is the difference between privacy settings and meeting-exclusion rules?
 
-A1. Admins make  _privacy settings_ to change the way Workplace Analytics extracts data, such as preventing data from ever being included in any Workplace Analytics calculation. For more information, see [Privacy settings](settings.md#privacy-settings) and [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md). 
+A1. Admins make  _privacy settings_ to change the way Workplace Analytics extracts data, such as preventing data from ever being included in any Workplace Analytics calculation. Note that privacy settings apply to data extractions moving forward and are not retroactive to past data. For more information, see [Privacy settings](settings.md#privacy-settings) and [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md). 
 
-Analysts use _meeting-exclusion rules_ in Workplace Analytics queries to help ensure that query results accurately represent relevant meeting norms within the organization. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md).
+Analysts use _meeting-exclusion rules_ in Workplace Analytics queries to help ensure that query results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md).
 
 ##### Q2. Can other analysts use the meeting exclusion rule sets that I create?
 
@@ -209,7 +209,7 @@ A2. The collaborator totals include the number of internal (or external) people 
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
-A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. On the **Sources** page, you can select a time period where the email volume is stable. For more information, see [Office 365 data summary](office-365-data.md).
+A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect previously collected weekly data. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For more information, see [Office 365 data summary](office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
@@ -217,7 +217,7 @@ A4. Workplace Analytics processes email and meetings data for a distribution lis
 
 ##### Q5. What collaboration information is obtained from Microsoft Teams?
 
-A5. Teams provides information about collaboration activities, namely direct messages (chats) and calls. It does not provide information about channels and groups. 
+A5. Teams provides information about collaboration activities, namely direct messages (chats) and calls. It does not provide information about Group Teams channels.
 
 #### Q6. When a person sends a message or meeting invite for a group’s shared mailbox or on behalf of another person, who gets credit for sending it?
 
