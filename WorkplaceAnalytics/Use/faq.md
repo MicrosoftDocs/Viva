@@ -209,7 +209,7 @@ A2. The collaborator totals include the number of internal (or external) people 
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
-A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect previously collected weekly data. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For more information, see [Office 365 data summary](office-365-data.md).
+A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For more information, see [Office 365 data summary](office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
