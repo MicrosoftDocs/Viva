@@ -112,7 +112,7 @@ Density measures the extent to which and how strongly employees within or betwee
 
 Density is the number of actual connections among employees divided by the total possible number of connections that could exist among the same employees. Density values are between 0 and 1, where 1 indicates that all individuals in that group are strongly connected to each other.
 
-The measure accounts for the strength of the connections between individuals and normalizes them to help control  the tendency of larger groups to have lower densities. This makes it easier to compare densities for different groups with different sizes.
+The measure accounts for the strength of the connections between individuals and normalizes them to help control the tendency of individuals to communicate more than other individuals.
 
 This measure also uses directionality, which means the density between group A and group B will only count the interactions that went from A to B, but not the interactions that went from B to A. Because the densities between groups will vary depending on whether the density is from group A to B or from B to A, the density matrix is not symmetrical.
 
