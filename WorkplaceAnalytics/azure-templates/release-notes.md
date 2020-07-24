@@ -36,15 +36,15 @@ The following new template and template features, enhancements, and changes are 
 
 * **Email thread analysis** - The key performance indicators and metrics automatically update with any uncategorized and categorized data available in the analysis. Users no longer need to access separate levels to see uncategorized or categorized thread analysis. The touchpoints metric now shows accumulated counts instead of distinct counts. InitiatorOrgGroup now uses organization instead of domain when organizational group information is available and InitiatorWpAStatus now uses the subject prefix.
 * **Category analysis improvements** - The Category Distribution table is now shown first in Category Analysis and the Time Spent on Category graph has improved graph tools and options.
-* Because of how the new categorization works, the **Undo** option is no longer available for failed analysis. Any existing analysis created with previous versions of Process Explorer cannot be viewed with this new modeling version. 
+* Because of how the new categorization works, the **Undo** option is no longer available for failed analysis. Any existing analysis created with previous versions of Process Explorer cannot be viewed with this new modeling version.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 ### Join Datasets Azure Template
 
-The Join Datasets Template has a new advanced settings option when defining new joins where you can customize how the data is grouped based on the datasets unique values. 
+The Join Datasets Template has a new advanced settings option when defining new joins where you can customize how the data is grouped based on the datasets unique values.
 
-For example, you could select to compare data from two different surveys for the specified time periods of when the survey data was collected.
+The advanced functionality is useful when the date values in your external dataset don’t correspond neatly to the dates of the WPA data you’re interested in, but another key column does have comparable values, such as survey titles or names. For example, you could select and compare data from two different surveys for specified time periods of when the survey data was collected based on the names of the surveys in the SurveyName column.
 
 To learn more, see [Join Datasets Azure Template](./join-datasets.md).
 
