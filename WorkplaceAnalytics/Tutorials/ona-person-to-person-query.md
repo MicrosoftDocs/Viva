@@ -98,8 +98,14 @@ _Query results example: Columns I through M_
 
   * **StrongTieScore.** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. 
   * **DiverseTieScore.** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals. 
-  * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a strong tie -– roughly, the top 10% of ties, by strength. "2" indicates a tie that is significant but less strong. "0" indicates a tie that's not that strong. 
-  * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. IT contains values of 0, 1, or 2. The value 1 indicates that this row clearly indicates a diverse tie –- roughly, the top 10% of ties, by diversity. "2" indicates a tie that is significant but less diverse. "0" indicates a tie that’s not that diverse.
+  * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
+    * **1:** This row clearly indicates a strong tie -- 20th percentile and above, by strength. 
+    * **2:** This row indicates a tie that is significant but less strong: between the 10th and 20th percentiles.
+    * **0:** This row indicates a tie that is not that strong: 10th percentile and below.  
+  * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
+    * **1:** This row clearly indicates a strong tie -- 20th percentile and above, by diversity. 
+    * **2:** This row indicates a tie that is significant but less diverse: between the 10th and 20th percentiles.
+    * **0:** This row indicates a tie that is not that diverse: 10th percentile and below. 
 
 ## Select filters
 
