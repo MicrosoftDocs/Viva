@@ -147,10 +147,9 @@ You can use this template to create and analyze joined datasets as follows.
      1. Select the column in the dataset with distinct grouping values, and then select **Go**. For example, **SurveyName** is shown as selected in the following graphic.
      2. Then select the start and end dates for the distinct sets of values in the selected column. Note that the date ranges cannot overlap and need to be unique for each distinct grouping value.
 
-7. Select **Submit**.
-
     ![Data Join Settings](./images/jd-join-settings.png)
 
+7. Select **Submit**.
 8. After the dataset is successfully created, it'll be available in the **Joined Datasets** list with the following options:
 
    * When the **Status** is a green check mark, the dataset was successfully created. A red X means it failed. Check the job details to view an available error message.

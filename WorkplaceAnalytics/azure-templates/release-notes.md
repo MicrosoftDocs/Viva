@@ -44,7 +44,7 @@ To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 The Join Datasets Template has a new advanced settings option when defining new joins where you can customize how the data is grouped based on the datasets unique values.
 
-The advanced functionality is useful when the date values in your external dataset don’t correspond neatly to the dates of the WPA data you’re interested in, but another key column does have comparable values, such as survey titles or names. For example, you could select and compare data from two different surveys for specified time periods of when the survey data was collected based on the names of the surveys in the SurveyName column.
+The advanced functionality is useful when the date values in your external dataset do not correspond neatly to the dates of the Workplace Analytics data you want to analyze. However, another key column in your data does have comparable values, such as survey titles or names. For example, you could select and compare data from two different surveys for specified time periods of when the survey data was collected based on the names of the surveys in the SurveyName column.
 
 To learn more, see [Join Datasets Azure Template](./join-datasets.md).
 
