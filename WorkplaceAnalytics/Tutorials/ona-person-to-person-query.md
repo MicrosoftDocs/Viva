@@ -103,7 +103,7 @@ _Query results example: Columns I through M_
     * **2:** This row indicates a tie that is significant but less strong: between the 10th and 20th percentiles.
     * **0:** This row indicates a tie that is not that strong: 10th percentile and below.  
   * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
-    * **1:** This row clearly indicates a strong tie -- 20th percentile and above, by diversity. 
+    * **1:** This row clearly indicates a diverse tie -- 20th percentile and above, by diversity. 
     * **2:** This row indicates a tie that is significant but less diverse: between the 10th and 20th percentiles.
     * **0:** This row indicates a tie that is not that diverse: 10th percentile and below. 
 
