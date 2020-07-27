@@ -35,11 +35,9 @@ The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-diges
 ### Features in the MyAnalytics (Full) service plan
 
 The following features are available only in the MyAnalytics (Full) service plan: 
- * [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) 
- * [Delay email delivery](../use/mya-notifications.md#delay-email-delivery) 
+ * [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates), [Track email](../use/mya-notifications.md#track-email), and [Track email open rate](../use/mya-notifications.md#track-email-open-rate)   
  * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) 
- * [Track email open rate](../use/mya-notifications.md#track-email-open-rate) 
- * [Track email](../use/mya-notifications.md#track-email) 
+ * [Delay email delivery](../use/mya-notifications.md#delay-email-delivery) 
 
 ## Access to MyAnalytics elements
 
