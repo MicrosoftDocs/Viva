@@ -327,13 +327,13 @@ If users have questions about using MyAnalytics, point them to the published [My
 #### Training videos for MyAnalytics
 These training Videos can be a great resource for people who will run a workshop to explain how to use MyAnalytics.
 
-##### Video: MyAnalytics dashboard
-
-<iframe width="580" height="512" src="https://player.vimeo.com/video/440502493" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
 ##### Video: MyAnalytics overview
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/440502351" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+##### Video: MyAnalytics dashboard
+
+<iframe width="580" height="512" src="https://player.vimeo.com/video/440502493" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ##### Video: Outlook insights and inline suggestions
 
