@@ -1,5 +1,4 @@
 ---
-layout: LandingPage
 title: MyAnalytics introduction
 description: MyAnalytics introduction with links to further information 
 author: paul9955
