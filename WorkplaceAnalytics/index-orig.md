@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Workplace Analytics introduction
 description: Learn more about, set up, and use Workplace Analytics
 localization_priority: normal 
