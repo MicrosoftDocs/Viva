@@ -17,7 +17,7 @@ Workplace Analytics Queries has a number of predefined query templates available
 
    ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-cards.png)
 
-In addition to the Manager impact and Quickstart overview dashboards for Power BI, Workplace Analytics also includes the following Power BI dashboards you can use in Power BI to visually analyze data. Select a dashboard for more details and setup steps:
+In addition to the **Manager impact** and **Quickstart overview** dashboards for Power BI, Workplace Analytics also includes the following dashboards that you can use in Power BI to visually analyze data. Select a dashboard to see more details about it and how to set it up:
 
 * [Business continuity](../tutorials/power-bi-bc.md)
 * [Collaboration assessment](../tutorials/power-bi-collab-assess.md)
@@ -146,7 +146,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
    **Blank-value error** - Column in table contains blank values and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
 
 2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
-3. Select the **Business continuity** query.
+3. Select the applicable query.
 4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
 5. Select the **Hourly collaboration** query and repeat Steps 3-4 to filter out empty values.
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
