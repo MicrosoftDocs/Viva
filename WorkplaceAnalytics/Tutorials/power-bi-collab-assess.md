@@ -1,6 +1,6 @@
 ---
 
-title: Power BI Collaboration assessment
+title: Collaboration assessment dashboard
 description: Use the Collaboration assessment dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: v-mideh
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Collaboration assessment
+# Collaboration assessment
 
-The Power BI Collaboration assessment uses Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. The report is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
+The Collaboration assessment dashboard uses a Power BI template that’s populated by Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. The report is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
 
 The different pages in the report help you answer the following related questions:
 
@@ -115,7 +115,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
 19. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-20. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](#troubleshooting) for more details.
+20. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
@@ -175,7 +175,7 @@ The Collaboration assessment dashboard includes the following report pages that 
 
 The dashboard also includes a **Glossary** page that describes all the report metrics.
 
-### Power BI tips, troubleshooting, and FAQs
+## Power BI tips, troubleshooting, and FAQs
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 

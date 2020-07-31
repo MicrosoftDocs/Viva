@@ -3,18 +3,29 @@
 title: Collaboration overload dashboard
 description: Use the Collaboration overload dashboard to visualize analyze Workplace Analytics data in Power BI
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
+# Collaboration overload dashboard
 
-## Collaboration overload dashboard
+The Collaboration overload dashboard uses a Power BI template that’s populated by Workplace Analytics data to identify areas of collaboration overload in your organization.
 
-The following steps you through how to identify areas of collaboration overload in your organization with the **Collaboration overload** query and use Power BI to visually analyze the data in the Collaboration overload dashboard.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration overload** query in Workplace Analytics.
 
-**To use the Collaboration overload template**
+After you successfully run these queries, you can download the Power BI template from the **Collaboration overload** query on the **Results** page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+
+## Prerequisites
+
+Before you can run the queries and populate the dashboard in Power BI, you must:
+
+* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
+Use the following steps to set up and run a **Collaboration overload** query, download and set up the provided Power BI template, and then link to the data in Power BI to visually analyze it in the Collaboration overload dashboard.
+
+## To set up the dashboard
 
 1. In Workplace Analytics, select **Analyze** > **Queries**.
 2. Select **Collaboration overload** to open this predefined query, which has all the required metrics to populate the Power BI template.

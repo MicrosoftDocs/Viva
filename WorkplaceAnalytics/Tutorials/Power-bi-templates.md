@@ -2,7 +2,7 @@
 
 title: Power BI templates
 description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -57,7 +57,7 @@ The dashboard gets repopulated once a week after Workplace Analytics finishes it
 
 #### Q3 How do I share the dashboard with others in my organization?
 
-You can share the dashboard with others in your organization *without sharing the underlying data* by publishing the insights in an app or as PDF or static file. See [Share the dashboard](#share-the-dashboard) for details.
+You can share the dashboard with others in your organization *without sharing the underlying data* by publishing the insights in an app or as PDF or static file. See [Share a dashboard](#share-a-dashboard) for details.
 
 #### Q4 Can I share the underlying dashboard dataset with others in my organization?
 
@@ -65,11 +65,11 @@ To maintain data privacy, only employees assigned the role of [Analyst](../use/u
 
 #### Q5 How do I know if I have the latest version of the template?
 
-Starting with version 2 and later versions of the template, you can find the version number at the end of the Business continuity dashboard title in the lower left of the dashboard’s [Settings](#dashboard-settings) page.
+Starting with version 2 and later versions of a template, you can find the version number at the end of the title in the lower left of the dashboard’s Settings page.
 
 #### Q6 How can I extend the dates of the query data used in the dashboard?
 
-If you have been using the dashboard since April or May, you are probably using query data for the last six months. You need to run new queries that include the last one year. See [Template update](#template-update) for details.  
+If you have been using a dashboard for a few months now, you are probably using query data for the last six months. You need to run new queries that include the last one year. For the Business continuity dashboard, see [Template update](../tutorials/power-bi-bc.md#template-update) for details.  
 
 #### Q7 How do I set up and run a Workplace Analytics query?
 
@@ -124,7 +124,7 @@ The following error (or similar 500+ error) can occur for one of the following r
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
   2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Clear permissions**.
   3. Select **Delete**.
-  4. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
+  4. Close Power BI and follow the set up instructions for the applicable dashboard.
 
 * **If you are signed in with the wrong organizational account**, you'll get an error when loading the data with the Power BI template. To fix it, follow these steps:
 
@@ -134,7 +134,7 @@ The following error (or similar 500+ error) can occur for one of the following r
   4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
   5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
   6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
-  7. Close Power BI and follow the instructions in [Set up the dashboard](#set-up-the-dashboard).
+  7. Close Power BI and follow the set up instructions in **Set up the dashboard** for the applicable dashboard.
 
 #### The Power BI visuals fail to load or show errors in the tables
 

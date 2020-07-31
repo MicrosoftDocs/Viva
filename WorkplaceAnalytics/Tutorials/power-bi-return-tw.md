@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Return to worksites dashboard
 
-The Return to worksites dashboard is a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate seats for your organization’s worksites.
+The Return to worksites dashboard uses a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate seats for your organization’s worksites.
 
 As worksites begin opening at limited capacity to address safety concerns, employee seats become a limited resource. This dashboard helps you make the most of the limited seats by optimizing for on-site collaboration. The two allocation plans identify teams or a subset of teams who will benefit the most by returning to work because of their high collaboration patterns with others in the same location.
 
@@ -75,7 +75,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
 15. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-16. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](#troubleshooting) for more details.
+16. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 

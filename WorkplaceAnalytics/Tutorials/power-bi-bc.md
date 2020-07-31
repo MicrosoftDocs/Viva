@@ -1,6 +1,6 @@
 ---
 
-title: Power BI Business continuity
+title: Business continuity dashboard
 description: Use the Business continuity dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: madehmer
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Business continuity
+# Business continuity dashboard
 
-You can use the Power BI Business continuity dashboard populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
+The Business continuity dashboard uses a Power BI template that’s populated populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
 
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
@@ -100,7 +100,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
     ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
 
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](#troubleshooting) for more details.
+13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
@@ -147,9 +147,10 @@ The following describes each report with specific nuances to consider for each.
   > [!Note]
   > The report’s metrics are based solely on the last two weeks of the **Current time frame** and not on a comparison with the **Earlier time frame**. Also, these charts are based on small group meetings of less than eight people and only analyze meeting, call, and instant-message activity, excluding email activity. For more details on metrics, see the Glossary in the dashboard.
 
+## Power BI tips, troubleshooting, and FAQs
+
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
 ## Related topics
 
-* [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
-* [View, download, and export query results](../use/view-download-and-export-query-results.md)
+[View, download, and export query results](../use/view-download-and-export-query-results.md)
