@@ -242,7 +242,7 @@ Before you start the pilot, have these in place:
 
 We recommend that you follow these steps to conduct the pilot:
 
-1.	**Welcome email** (download [Welcome email template](myanalytics-announcement-2020-template.docx)). Send this email to all pilot users and invite them to training.
+1.	**Welcome email** (download [template](myanalytics-announcement-2020-template.docx)). Send this email to all pilot users and invite them to training.
 
 2.	[Train the pilot participants](#train-pilot-participants) in how to use MyAnalytics. 
 
