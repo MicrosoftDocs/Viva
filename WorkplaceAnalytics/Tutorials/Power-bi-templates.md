@@ -24,6 +24,7 @@ In addition to the Manager impact and Quickstart overview dashboards for Power B
 * [Collaboration overload](../tutorials/power-bi-collab-overload.md)
 * [Collaboration tracker](../tutorials/power-bi-collab-track.md)
 * [Influence insights](../tutorials/pbi-influence-db.md)
+* [Return to worksites](../tutorials/power-bi-return-tw.md)
 * [Teams insights](../tutorials/power-bi-teams.md)
 
 ## Power BI tips
