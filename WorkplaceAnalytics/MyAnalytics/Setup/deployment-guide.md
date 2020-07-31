@@ -12,7 +12,7 @@ ms.prod: mya
 
 # Deploy MyAnalytics in your organization
 
-MyAnalytics is an easy-to-deploy, out-of-the-box solution that helps users improve their productivity habits. It is available widely &mdash; to M365 users with any [Service plan](../overview/plans-environments.md). It is easy to deploy – after licenses are assigned, the MyAnalytics product is turned on by default, although you can customize your deployment by [following the steps in this guide](#roll-out-myanalytics). But before you deploy it, take a look at [What is MyAnalytics?](#what-is-myanalytics) for a brief description of benefits of using MyAnalytics in your organization.  
+MyAnalytics is an easy-to-deploy, out-of-the-box solution that helps users improve their productivity habits. It is available widely &mdash; to M365 users with [these Service plans](../overview/plans-environments.md). It is easy to deploy – after licenses are assigned, the MyAnalytics product is turned on by default, although you can customize your deployment by [following the steps in this guide](#roll-out-myanalytics). But before you deploy it, take a look at [What is MyAnalytics?](#what-is-myanalytics) for a brief description of benefits of using MyAnalytics in your organization.  
 
 ## What is MyAnalytics?
 To quickly learn about MyAnalytics, watch [this video](https://www.youtube.com/watch?v=J9sokkEjGaE&feature=youtu.be):
@@ -58,11 +58,10 @@ You can deploy MyAnalytics in your organization all at once or in phases. In eit
 
 ### Preparatory steps
 
-It is easy to turn on MyAnalytics for all users in your organization as it comes with your [M365 subscription](./../overview/plans-environments.md). Here is a list of recommended but optional steps that your organization can consider: 
+It is easy to turn on MyAnalytics for all users in your organization as it comes with your [M365 subscription](./../overview/plans-environments.md). Here is a list of recommended but optional steps that your organization might consider: 
 
 * **Create a communication plan:** Identify how your organization will effectively communicate with users during and after the rollout of MyAnalytics. Make it easy for users to find information about MyAnalytics. For example, use Yammer groups or SharePoint sites to help users learn about the benefits of using MyAnalytics within their organization.
-* **Consider your stakeholders:** It may be important in your organization to identify and communicate with stakeholders ahead of rollout of MyAnalytics. Identify and inform them by using the
-[MyAnalytics overview video](#video-myanalytics-overview). Also, see [Include stakeholders](#include-stakeholders). 
+* **Consider your stakeholders:** It may be important in your organization to identify and communicate with stakeholders ahead of rollout of MyAnalytics. Identify and inform them (you can use this five-minute [MyAnalytics overview video](#video-myanalytics-overview)). Also, see [Include stakeholders](#include-stakeholders). 
 * **Consider running a pilot first:** Before scaling MyAnalytics to your entire organization, you might want to consider [running a pilot rollout](#run-a-pilot-rollout) with a subset of users. Especially for large organizations, it is a natural step to test a broad rollout on a small scale first by conducting a pilot to validate user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation. 
 * **Security and Privacy:** MyAnalytics is secure and built to protect user privacy. The [Privacy guide](./../overview/privacy-guide.md) describes how MyAnalytics complies with privacy regulations. We recommended that you share this privacy guide with security and privacy teams to give them a better understanding of the privacy features of MyAnalytics.
 * **Tie to existing initiative:** As you introduce MyAnalytics, tie it to an existing initiative or training plan within your organization such as an employee wellbeing initiative. Avoid introducing it as a technology tool but rather as a habit-changing tool that is integrated with the organization’s values. 
@@ -73,8 +72,8 @@ Identifying and notifying your key stakeholders before the welcome email ([Downl
 
 Here are some roles you might consider as part of the rollout project:
 
-* **Executive sponsor.** This person sends [welcome email](../use/mya-welcome-email.md) about the product, ideally with quotes about their experience with the product.
-* **Security lead.** Prepares for rollout by reviewing the [Privacy guide](../overview/privacy-guide.md) to learn about data security in MyAnalytics.
+* **Executive sponsor.** Sends [welcome email](../use/mya-welcome-email.md) about the product, ideally with quotes about their experience with the product.
+* **Security lead.** Reviews the [Privacy guide](../overview/privacy-guide.md) to learn about data security in MyAnalytics.
 * **M365 admin.** Enables and disables MyAnalytics access per business requirements; see [Rollout scenarios](#rollout-scenarios). 
 * **Support/Help-desk lead.** Manages questions from users. Some helpful answers can be found in the [MyAnalytics FAQs](./../overview/mya-faq.md).
 * **Training lead.** Runs a training workshop. This person might find the [Training videos for MyAnalytics](#training-videos-for-myanalytics) helpful.
@@ -243,36 +242,40 @@ Before you start the pilot, have these in place:
 
 We recommend that you follow these steps to conduct the pilot:
 
-1.	**Assign the service plan.** Before rolling out MyAnalytics to the pilot users, ensure that all users have been assigned to a [MyAnalytics service plan](../overview/plans-environments.md) in the Microsoft 365 Admin Center. 
-2.	**Welcome email.** Send welcome email to all pilot users.
-3.	[Train the pilot participants](#train-pilot-participants) in how to use MyAnalytics. 
+1.	[Welcome email](myanalytics-announcement-2020-template.docx). Send welcome email to all pilot users and invite them to training.
+
+2.	[Train the pilot participants](#train-pilot-participants) in how to use MyAnalytics. 
+
+3.	**Assign the service plan.** Before rolling out MyAnalytics to the pilot users, ensure that all users have been assigned to a [MyAnalytics service plan](../overview/plans-environments.md) in the Microsoft 365 Admin Center. 
+
 4.	**Kickoff.** Begin the pilot. Announce to the pilot participants that the pilot is starting and remind them of its duration and their tasks, as described in the [test plan](#design-a-test-plan). See [Conduct the pilot](#conduct-the-pilot) for more details.
+
 5.	**Consult with stakeholders.** Throughout the pilot, meet with your [project stakeholders](#include-stakeholders) to review user feedback as it arrives and address any technical issues that arise to ensure that the pilot is running smoothly.
+
 6.	**Assess and plan.** Use results from the pilot to plan your next steps. See [Assess the pilot lessons and make a plan](#assess-the-pilot-lessons-and-make-a-plan).
 
 ### Set and measure goals
 
-To judge the success of the pilot, you need to know whether participants were able to reach goals. You define these goals by assigning tasks in a test plan.  After the pilot has concluded, you assess goal success by using a survey to measure participants’ ability to complete those tasks. 
+To judge the success of the pilot, you need to know whether participants got value from the product and would recommend it to their colleagues. Consider using a survey to assess sentiment and usefulness of the product.
 
 #### Design a test plan 
 
-For a successful pilot experience, give your participants clearly defined tasks to complete along with a way to share their feedback. Examples of what users can do in[ MyAnalytics include:
+For a successful pilot experience, give your participants clearly defined tasks to complete along with a way to share their feedback. Examples of what users can do in MyAnalytics include:
 
 * Opt in to one or all MyAnalytics features.
-* Book focus time for the next two weeks. 
-* Use the insights tab to follow up with outstanding tasks, prepare for meetings, or respond to other insights that they receive.
-* Visit the dashboard to configure working hours.
+* Automatically get focus time every day. 
+* Use the Insights tab to follow up with outstanding tasks, prepare for meetings, or follow up on unread documents.
 
 #### Collect feedback
 
 Ensure that you have an open feedback channel to track progress and measure outcomes, such as:
 
 * Design a survey and use it after the pilot completes to capture and assess results. 
-* Create a Teams channel for pilot participants to join and share their experiences. Alternatively, use Yammer.
+* Create a Teams channel or Yammer community for pilot participants to join and share their experiences. Alternatively, use Yammer.
 
 ### Recruit pilot users
 
-The pilot users are not just test subjects. They are actually part of the first phase of the company rollout. Communicate with them that are the first users of a new tool to drive personal productivity and improved work patterns at work. They must be willing to provide feedback; you should help them understand that their feedback will make things easier for all others in later phases of the rollout by helping to improve configuration knowledge, internal documentation, and notifications to participants. Note that it's best if the pilot users are not executive leaders.
+The pilot users are part of the first phase of the company rollout. Communicate with them that are the first users of a new tool to drive personal productivity and improved work patterns at work. They should be willing to provide feedback; share with them that their feedback will make things easier for all others in later phases of the rollout by helping to improve configuration knowledge, internal documentation, and notifications to participants. Note that it's best if the pilot users are not executive leaders.
 
 Identifying pilot users might require discussion between the IT team and the department heads of target groups. In this discussion, try to identify users who are enthusiastic about using new tools to improve their work.
 
@@ -289,7 +292,6 @@ The following is an example timeline for a 45-day pilot:
 * **During the week before the pilot kickoff** – 
   * Send initial communication to pilot users about what to expect and when. This is also a good opportunity to [conduct training](#train-pilot-participants) or share training materials about how to use MyAnalytics. You can also send a survey now to compare user sentiment before and after the pilot.
   * Assign a MyAnalytics service plan to pilot users in the Microsoft 365 Admin Center. Choose the rollout scenario and follow the admin rollout steps to enroll users into MyAnalytics.
-  * Send out the Welcome email to pilot users. Encourage pilot users to set goals and consider how they would like to improve their work patterns.
 * **Day 1** – Send announcement email that the pilot is beginning.
 * **Day 14** - Send a midpoint communication to the pilot users and optionally send a survey.
 * **Day 40** – Send the final communication to the pilot users. Conduct a final survey on their experience.
