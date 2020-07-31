@@ -36,6 +36,8 @@
       items:
         - name: Introduction
           href: ./overview/mya-for-admins.md
+        - name: MyAnalytics deployment guide
+          href: ./setup/deployment-guide.md         
         - name: Configure MyAnalytics
           href: ./setup/configure-myanalytics.md
         - name: Plans and environments
