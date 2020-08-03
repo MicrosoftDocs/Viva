@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics 500 error
 description: This explains why users receive a 500 error when using Workplace Analytics 
