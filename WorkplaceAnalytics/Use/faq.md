@@ -281,7 +281,7 @@ A2. You can use the Collaboration hours metric to filter for a specific time fra
 
 A3. Because totals for working hours and after hours calculate the "time booked on your calendar" instead of "time in meetings." Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
 
-#### Q4. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
+##### Q4. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
 A4. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you are using Excel 2016, follow the steps in [Download and import query results](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** in Excel and then search for the instructions on how to import a .csv file.
  
