@@ -8,6 +8,8 @@
   items:
   - name: Conduct a user pilot
     href: ./be-pilot.md
+  - name: Admin trial
+    href: ./be-admin-trial.md
   - name: Downloadable resources
     href: ./be-resources.md
 - name: Use Briefing

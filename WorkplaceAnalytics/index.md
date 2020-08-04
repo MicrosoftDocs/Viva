@@ -16,27 +16,7 @@ author: madehmer
             </p>
     </li>
 </ul>
-
 <ul class="cardsM panelContent singlePanelContent cols cols2">
-    <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/index-orig">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="Images/icon-checklist.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Introducing Workplace Analytics</h3>
-                        <p>Learn what Workplace Analytics is and how to use it to provide actionable insights and improve team collaboration.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
     <li>
         <a href="https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro">
         <div class="cardSize">
@@ -107,6 +87,25 @@ author: madehmer
                     <div class="cardText">
                         <h3>Plans</h3>
                         <p>Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/workplace-analytics/use/faq">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="Images/icon-faqs.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Workplace Analytics FAQs</h3>
+                        <p>Review the most frequently asked questions and their answers about Workplace Analytics roles, privacy, setup, and analysis tools.</p>
                     </div>
                 </div>
             </div>

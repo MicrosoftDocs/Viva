@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Improve your work patterns with personal productivity insights in MyAnalytics
 description: How to use MyAnalytics to improve your work patterns

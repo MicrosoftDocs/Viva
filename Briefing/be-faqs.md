@@ -32,7 +32,11 @@ A4. The Briefing email only includes existing information that’s already avail
 
 ### Q5. I previously disabled Cortana Optional Connected Experiences for my organization. Do I need to enable preexisting Cortana experiences again for my users to receive the Briefing email?  
 
-A5. No, the Briefing email is a new service. Users will still receive the Briefing email even if you previously disabled “Cortana Optional Connected Experiences” for your organization. Previous Cortana experiences, such as for weather, news, and traffic updates, are primarily for consumers. New Cortana experiences, such as Briefing and Play My Emails, are primarily for employees in organizations. The Briefing email has IT management capabilities and configurable controls that enable you to address legal needs and policies regarding privacy and use of employee data for your organization.  
+A5. No, the Briefing email is a new service. Users will still receive the Briefing email even if you previously disabled “Cortana Optional Connected Experiences” for your organization. Previous Cortana experiences, such as for weather, news, and traffic updates, are primarily for consumers. New Cortana experiences, such as Briefing and Play My Emails, are primarily for employees in organizations. The Briefing email has IT management capabilities and configurable controls that enable you to address legal needs and policies regarding privacy and use of employee data for your organization.
+
+### Q6. After changing the Briefing setting in the admin center, how long will it take for the change to take affect?
+
+A6. It will take 24 hours for the new setting change to take effect.
 
 ## For Briefing users
 
@@ -48,20 +52,24 @@ A2. One time per workday (as set in Outlook) when you have actions needed to pre
 
 A3. No, you will never be sent an empty email with no content.
 
-### Q4. Can I stop receiving these emails?  
+### Q4. How do I update my mailbox language setting?  
 
-A4. You can unsubscribe from the email with one click in the email footer.
+A4. To confirm or change the language setting for your Outlook mailbox, see [Change the time zone and language settings in Outlook.com](https://support.microsoft.com/office/change-the-time-zone-and-language-settings-in-outlook-com-8a34d50d-81b4-40c2-b304-b3d043566389).
 
-### Q5. Can my manager, administrator, or anyone else at my organization see what’s in my Briefing email?
+### Q5. Can I stop receiving these emails?  
 
-A5. No, the Briefing email is private and for you and only you. All information in the Briefing email is from your mailbox and stored in your mailbox. Everything you see in the Briefing email is information you already have access to in your mailbox. The Briefing email just makes it easier to find items that might need attention.
+A5. Select **Unsubscribe** at the end of the email footer or at [https://cortana.office.com/briefing](https://cortana.office.com/briefing).
 
-### Q6. Why am I getting so many emails from Microsoft and how can I manage them?  
+### Q6. Can my manager, administrator, or anyone else at my organization see what’s in my Briefing email?
 
-A6. You are only getting emails from Cortana and MyAnalytics with the purpose of helping you be more productive during your workday. MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
+A6. No, the Briefing email is private and for you and only you. All information in the Briefing email is from your mailbox and stored in your mailbox. Everything you see in the Briefing email is information you already have access to in your mailbox. The Briefing email just makes it easier to find items that might need attention.
+
+### Q7. Why am I getting so many emails from Microsoft and how can I manage them?  
+
+A7. You are only getting emails from Cortana and MyAnalytics with the purpose of helping you be more productive during your workday. MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
 
 Briefing is optimized to show you the most relevant and actionable information you need for the day ahead. It provides complementary experiences to help you be your most productive self. You only get Briefing emails at the beginning of your workday if you have actionable tasks or meetings. You can opt out with the Unsubscribe link at the end of the email.
 
-### Q7. How can I send Microsoft product feedback or ask a question about Briefing email?
+### Q8. How can I send Microsoft product feedback or ask a question about Briefing email?
 
-A7. Send feedback or questions to: [https://cortana.office.com/briefing](https://cortana.office.com/briefing).
+A8. At the end of each section in the email (in the Adaptive version), select the thumbs up or down icons for if that section was helpful or not. You can also send questions or additional feedback to: [cortana.office.com/briefing?v=feedback](https://cortana.office.com/briefing?v=feedback).

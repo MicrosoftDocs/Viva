@@ -15,7 +15,7 @@ audience: Admin
 
 # Configure Briefing email
 
-As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). As the admin, you can configure the Briefing email for your organization at the user or tenant level. You can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center, or you can enable or disable the Briefing email for a specific user or multiple users with PowerShell.
+As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center, or you can enable or disable the Briefing email for a specific user or multiple users with PowerShell.
 
 ## Prerequisites
 
@@ -93,7 +93,7 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
 ## Tenant-level configuration
 
 > [!Note]
-> Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com).
+> Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com). After you change the Briefing setting in the admin center, it will take 24 hours for the new setting change to take effect.
 
 As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English will receive the Briefing email.
 
@@ -112,8 +112,7 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
    ![Briefing email access](./images/be-admin.png)
 
-<!--
-### To configure access in PowerShell
+<!--### To configure access in PowerShell
 
 You can enable or disable the Briefing email for all users in your organization at the tenant level. Use the following Exchange Online PowerShell cmdlets to set the tenant default:
 
