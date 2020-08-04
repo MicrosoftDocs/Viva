@@ -93,7 +93,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
 4. If you selected **Attendee exclusion**, choose the types of invitees whose data you want to exclude from analysis: those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:    
    
-   ![Exclude these invitees](../images/wpa/tutorials/exclude-invitees-who-have-75.png) 
+   ![Exclude these invitees](../images/wpa/tutorials/exclude-invitees-who-have-70.png) 
    
    After you select one or both of these options, this page will show you the number of invitees who will be excluded from analysis. 
 
@@ -115,7 +115,7 @@ Now that you've created a framework for your new rule, you add -- and optionally
    >[!Note] 
    >You complete the following steps by selecting **Next**. It's possible to forego adding the exclusion that the current step defines. To do this, clear the **Use this exclusion** check box before you select **Next**:
 
-   ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion.png)
+   ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion-80.png)
 
    >[!Caution] 
    > * While authoring an exclusion rule (at any time before you select **Publish**), _do not_ close your browser. Any work you've done to create a rule will be lost if you close the browser.

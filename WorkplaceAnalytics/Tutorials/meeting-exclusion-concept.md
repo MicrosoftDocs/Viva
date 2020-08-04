@@ -128,9 +128,9 @@ If you notice other words in the cloud that you might want to retain in your ana
 
 On the **New exclusion** page,  you can select the type of exclusion that you want to create. Your choices are **Meeting Exclusion** and **Attendee exclusion**: 
 
- * **Meeting Exclusion**. Exclude from analysis the data from types of meetings (such as all-day training meetings) whose inclusion might skew query results.  
+ * **Meeting Exclusion**. Exclude from analysis the data from types of meetings (such as all-day training meetings) whose inclusion might skew query results. 
 
- * **Attendee exclusion**. Exclude from analysis data about meeting invitees, by their responses. For example, you might want to explicitly exclude (or include) invitees who tentatively accepted a meeting invitation. Creating attendee exclusions lets you effectively redefine “meeting attendance.” If you add no attendee exclusions, meeting attendance means only one thing: that a person accepted the meeting invitation. However, by creating an attendee exclusion, you can change that definition to also include either or both of the invitee actions “tentative” and “no response.” 
+ * **Attendee exclusion**. Exclude from analysis data about meeting invitees, by their responses. For example, you might want to explicitly exclude (or include) invitees who tentatively accepted a meeting invitation. Creating attendee exclusions lets you effectively redefine "meeting attendance." If you add no attendee exclusions, meeting attendance means only one thing: that a person accepted the meeting invitation. However, by creating an attendee exclusion, you can change that definition to also include either or both of the invitee actions "tentative" and "no response." 
  
  > [!Note]
  > These two exclusion types are not mutually exclusive. You can exclude data about particular types of meetings (such as long or large meetings) and, independently, you can also exclude data about attendees who responded with “tentative” or did not respond to meeting invitations.   
