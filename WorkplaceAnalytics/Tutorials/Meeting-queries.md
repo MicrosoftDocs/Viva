@@ -33,11 +33,12 @@ Setting up a meeting query is simple. Select whether you want the metrics for ea
 
 Use the options in the **Exclusions** pane to exclude meetings or attendees from this query's analysis. To do this, in the **Meeting exclusions** field, select a custom meeting-exclusion rule or use the default meeting exclusion rule. Also (optionally), select an attendee exclusion in the **Attendee exclusions** field:
 
- ![Exclusions -- meeting and attendee](../Images/WpA/Tutorials/meeting-no-exclusions.png)
-
+  ![Exclusions -- meeting and attendee](../Images/WpA/Tutorials/exclusions-in-query_2.png)
+ 
 By running this query with no exclusions, you will get an output file that can help you determine the right criteria to separate work-related activities from other calendar items.
 
- ![Meeting query no exclusions](../Images/WpA/Tutorials/exclusions-in-query_2.png)
+   ![Meeting query no exclusions](../Images/WpA/Tutorials/meeting-no-exclusions.png)
+
 
 ## Add filters
 
