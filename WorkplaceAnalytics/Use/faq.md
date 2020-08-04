@@ -128,7 +128,7 @@ A6. Licensed. Specifically, this number refers to licensed employees who are als
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
-A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called *internal collaborators*. These employees are not measured and their data is not processed. An exception is if they schedule a meeting with a measured employee, that meeting (and their participation) is processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees (internal collaborators) through meetings, email, unscheduled calls, or instant messages. These employees are not measured and their data is not processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ### Organizational data
 
@@ -189,7 +189,7 @@ A7  Yes. The data can include double-byte characters, such as Japanese character
 
 ##### Q1. What is the difference between privacy settings and meeting-exclusion rules?
 
-A1. Admins make  _privacy settings_ to change the way Workplace Analytics extracts data, such as preventing data from ever being included in any Workplace Analytics calculation. Note that privacy settings apply to data extractions moving forward and are not retroactive to past data. For more information, see [Privacy settings](settings.md#privacy-settings) and [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md). 
+A1. Admins make  _privacy settings_ to change the way Workplace Analytics extracts data, such as preventing data from ever being included in any Workplace Analytics calculation. Note that privacy settings changes apply to future data extractions and are not retroactive to past data. For more information, see [Privacy settings](settings.md#privacy-settings) and [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md). 
 
 Analysts use _meeting-exclusion rules_ in Workplace Analytics queries to help ensure that query results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md).
 
@@ -215,9 +215,9 @@ A3. Business policies can affect the historical data that is processed by Workpl
 
 A4. Workplace Analytics processes email and meetings data for a distribution list as a single entity or person. It does not expand the distribution list and assign meeting and email hours to its members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. See [Upload organizational data](../setup/upload-organizational-data.md) for detailed steps.
 
-##### Q5. What collaboration information is obtained from Microsoft Teams?
+##### Q5. What collaboration information is processed from Microsoft Teams?
 
-A5. Teams provides information about collaboration activities, namely direct messages (chats) and calls. It does not provide information about Group Teams channels.
+A5. Teams provides information about collaboration activities, namely direct messages (chats) and calls. It does not provide information about Teams channels.
 
 ##### Q6. When a person sends a message or meeting invite for a group’s shared mailbox or on behalf of another person, who gets credit for sending it?
 
