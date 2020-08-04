@@ -15,6 +15,8 @@ ms.prod: wpa
 
 Workplace Analytics uses email and calendar activities that are stored in a person's Office 365 account to reveal internal and external collaboration trends. However, a person's calendar and email can contain a diverse set of activities (such as personal meetings, work-related social activities, all-day training meetings, and so forth) that are not relevant to work-related collaboration, and, if included in the metrics, would skew query results.
 
+You use meeting exclusion rules to exclude particular types of collaboration data from analysis. This data can be about meetings that were scheduled or about attendee responses to those meetings. (See [Select exclusion type](meeting-exclusion-concept.md#select-exclusion-type).)   
+
 >[!Note] 
 > There is a problem with meetings that have more than 250 participants. For more information, see [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md).
 
