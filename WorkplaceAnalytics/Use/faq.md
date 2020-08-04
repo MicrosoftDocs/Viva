@@ -128,7 +128,7 @@ A6. Licensed. Specifically, this number refers to licensed employees who are als
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
-A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, who are internal collaborators. These employees are not measured and their data is not processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees (internal collaborators) through meetings, email, unscheduled calls, or instant messages. These employees are not measured and their data is not processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ### Organizational data
 
