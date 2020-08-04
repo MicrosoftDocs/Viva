@@ -36,9 +36,10 @@ See [User roles](../use/user-roles.md) for detailed role descriptions and access
 
 ## Assign Workplace Analytics user or group roles in Azure Active Directory
 
-See [Assign user or group roles in Azure Active Directory](../Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md) for details.
+See [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md) for details.
 
-## Related topic
+## Related topics
 
 * [User roles](../use/user-roles.md)
+* [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md)
 * [Manager settings](../use/settings.md#manager-settings)

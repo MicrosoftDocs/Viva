@@ -106,12 +106,16 @@ The following steps you through how to automate the export of Workplace Analytic
      ![Query entity set name](./images/entity-set-name.png)
 
 26. Select **Preview data** for the path to confirm you entered the correct entity. 
-27. In Azure Data Factory > Properties, confirm the name and description for this new dataset. 
+27. In **Azure Data Factory** > **Properties**, confirm the name and description for this new dataset. 
 28. Select **Publish all** at the top, and then select **Publish**.
 29. In **Pipelines**, create a new pipeline that can use the new OData dataset to copy the Workplace Analytics data to the external resource. For details, see [Create a pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#create-a-pipeline).
 30. For the new pipeline, select **Source**, and in **Source dataset**, select the name of new OData dataset, and in **Use query**, select **Table**. 
 31. Create a linked service for the data store you want to export to. For details, see [Linked services](https://docs.microsoft.com/azure/data-factory/author-management-hub#linked-services).
-32. In **Sink** > **Sink dataset**, select the linked service name you created in the previous step.
+32. In **Azure Data Factory** > **Author**, select the new pipeline, and then select **Add trigger** > **Trigger now** to manually run the last published pipeline, as shown in the following graphic. You can also schedule a trigger for this new pipeline by selecting **Add trigger** > **New/Edit** > **New**, and complete the required information for it. See [Pipeline execution and triggers in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers) for details.
+
+     ![Azure Data Factory manually trigger pipeline](./images/adf-trigger.png)
+
+33. In **Sink** > **Sink dataset**, select the linked service name you created in a previous step.
 
 You can then use this new data factory to access query data from Workplace Analytics and copy it to your choice data store (blob storage) by using the Azure Resource Manager template. You can reuse this new app over time for multiple projects without having to repeat these steps. You can also reuse the data factory you created for new pipelines.
 
