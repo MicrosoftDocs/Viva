@@ -11,7 +11,7 @@ ms.collection: M365-analytics
 audience: Admin
 ---
 
-# Assign user roles 
+# Assign user or group roles in Azure Active Directory 
 
 People who use Workplace Analytics can work with the product only after they've been assigned a role &mdash; namely, that of admin, analyst, limited analyst, or program manager. (See [User roles in Workplace Analytics](../use/user-roles.md).) Follow the steps in this article to assign Workplace Analytics roles to users or to groups:
 

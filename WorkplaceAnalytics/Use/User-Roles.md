@@ -108,5 +108,7 @@ The analyst (limited access) role is for an analyst who needs access only to the
 ## Related topics
 
 * [Manager settings](../use/settings.md#manager-settings)
+* [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md)
 * [What is Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
 * [Managing access to resources with Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups)
+
