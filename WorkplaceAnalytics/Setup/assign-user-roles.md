@@ -1,6 +1,6 @@
 ---
 
-title: Workplace Analytics Setup -- Assign roles to admins, analysts, and PMs 
+title: Assign Workplace Analytics roles 
 description: How to assign roles in Workplace Analytics for admins, analysts, and program managers
 author: paul9955
 ms.author: v-pausch
@@ -146,4 +146,4 @@ However, in a larger company where the number of users required for the same rol
 * [User roles](../use/user-roles.md)
 * [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
-* [People manager settings](settings.md#manager-settings)
+* [People manager settings](../use/settings.md#manager-settings)
