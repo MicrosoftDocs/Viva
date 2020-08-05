@@ -140,6 +140,8 @@
                       href: ~/tutorials/power-bi-collab-track.md
                     - name: Influence insights
                       href: ~/tutorials/pbi-influence-db.md
+                    - name: Sales business continuity
+                      href: ~/tutorials/pbi-bc-sales.md
                     - name: Teams insights
                       href: ~/tutorials/power-bi-teams.md
                 - name: Customize a metric

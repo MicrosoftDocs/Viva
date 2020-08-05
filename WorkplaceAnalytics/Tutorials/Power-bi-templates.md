@@ -26,6 +26,7 @@ The following Power BI templates are available within Workplace Analytics:
 * [Influence insights](../tutorials/pbi-influence-db.md)
 * Manager impact
 * Quickstart overview
+* [Sales business continuity](../tutorials/pbi-bc-sales.md)
 * [Teams insights](../tutorials/power-bi-teams.md)
 
 ## Example steps
