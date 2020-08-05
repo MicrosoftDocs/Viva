@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Briefing FAQs
 description: Answers to the most frequently asked questions about the Briefing email
 author: madehmer

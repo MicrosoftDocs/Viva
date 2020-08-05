@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Briefing email overview
 description: About the Briefing email and how to use it to help with your workday
 author: madehmer
