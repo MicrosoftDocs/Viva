@@ -12,18 +12,19 @@ ms.prod: wpa
 # Power BI Business continuity for sales
 
 You can use the Power BI Business continuity dashboard populated by Workplace Analytics data to gain insights into how your Sales organization and your sellers are being impacted by the shift to remote work.
+
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
 The dashboard enables you to visualize and explore the following top-level business questions asked by Sales leaders:
 
-* How are sellers dividing time between customer and internal activity?
+* How are collaboration activities with external and internal stakeholders changing?
 * Are external relationships being maintained? 
-* How are the engagement models with customer changing?
-* How have customer and partner relationships changed?
+* How are the engagement models with external stakeholders evolving?
+* How have relationships with key customers changed?
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined “Sales Business Continuity” and “Domain Collaboration” queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.
 
-After you successfully run these required queries, you'll see the Power BI template as an available download option for the Business Continuity query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you'll see the Power BI template as an available download option for the Business Continuity query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 When the Sales Business continuity dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
@@ -38,6 +39,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Sales Business Continuity** (or **Domain Collaboration** per **Step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
+
+    ![Sales business continuity queries](../Images/WpA/Tutorials/sbc-queries.png)
+
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -99,16 +103,18 @@ After the Sales Business continuity dashboard is set up and populated with Workp
    > [!Important]
    > As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
+![Sales business continuity dashboard settings](../Images/WpA/Tutorials/sbc-settings.png)
+
 ## About the dashboard reports
 
 The dashboard reports directionally highlight where a shift to remote work is having the largest impact. They also give you a measurable starting point for identifying where leaders can use tools and processes to support employees in a new way of working. All metrics are defined in the Glossary. A “why it matters” interpretation is also included in a text box for each report.
 
 The following describes each report with specific nuances to consider for each.
 
-* **How are sellers dividing time between customer and internal activity?** - Shows how employee collaboration patterns are changing in response to a shift in work patterns, and which collaboration tools people are substituting for in-person interactions.
-* **Are external relationships being maintained?** - Quantifies changes in communication with customers, partners, and other people outside the organization.
-* **How are the engagement models with customer changing?** – Shows how the relationships with customers have been changing. You can examine whether the sellers might be devoting extra time and effort in prospecting and lead generation, versus focusing on existing customers.
-* **How have customer and partner relationships changed?** – Shows how the collaboration with top domains in the company has been changing. It also highlights domains that have gained or lost traction in the current timeframe.
+* **How are collaboration activities with external and internal stakeholders changing?** - Shows how employee collaboration patterns are changing in response to a shift in work patterns, and which collaboration tools people are substituting for in-person interactions.
+* **Are external relationships being maintained?** - Quantifies changes in communication with customers, partners, and other people outside the organization. The switch to remote work can impact specific groups more than others. Check in with employees on how they're adjusting to this change, and give them resources for prioritizing work, as necessary.
+* **How are engagement models with external stakeholders evolving?** – Shows how relationships with customers are changing. You can evaluate whether sellers are devoting extra time and effort in prospecting and lead generation, as compared to focusing on existing customers. Use this analysis to see how you can best support your employees.
+* **How have relationships with key customers changed?** – Shows how the collaboration with top domains in the company are changing. It also highlights domains that have gained or lost traction in the current timeframe. Help employees navigate current trends with their customers to keep partnerships and sales strong.
 
 ## Power BI tips
 
