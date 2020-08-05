@@ -90,14 +90,14 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 After the Sales Business continuity dashboard is set up and populated with Workplace Analytics data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
 
-* **Earlier time frame** - This is the baseline for your analysis and all changes will be compared with this time frame. 
+* **Earlier time period** - This is the baseline for your analysis and all changes will be compared with this time period. 
 
    > [!Note]
-   > The Earlier time frame must precede and not overlap with the Current time frame. If the two timeframes overlap, you'll get a warning about the timelines overlapping.
+   > The Earlier time period must precede and not overlap with the Current time period. If the two timeframes overlap, you'll get a warning about the timelines overlapping.
 
-* **Current time frame** - This is the timeframe you want to compare with the earlier timeframe.
+* **Current time period** - This is the timeframe you want to compare with the earlier time period.
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
-* **Organizational attribute to filter by** – To filter the measured employee population to choose Sales employees, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select Ctrl while clicking the Clear filter arrow (or with a touchscreen, select the Clear filter arrow). Measured employees reflect the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current timeframe.
+* **Organizational attribute to filter by** – To filter the measured employee population to choose Sales employees, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select Ctrl while clicking the Clear filter arrow (or with a touchscreen, select the Clear filter arrow). Measured employees reflect the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current time period.
 * After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
    > [!Important]
