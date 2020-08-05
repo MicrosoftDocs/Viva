@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
 author: madehmer

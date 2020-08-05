@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Admin preview
 description: Initial admin trial of the Briefing email
 author: madehmer

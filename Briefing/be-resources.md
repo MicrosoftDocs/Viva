@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Downloadable resources
 description: Downloadable resources available for admins who are rolling out the Briefing email to new users
 author: madehmer
