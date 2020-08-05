@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Conduct a user pilot
 description: Helps you conduct a pilot rollout for the Briefing email
 author: madehmer
