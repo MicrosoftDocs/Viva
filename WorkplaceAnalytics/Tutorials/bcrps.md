@@ -41,14 +41,18 @@ The following are some of the top-level business questions this report helps you
 
 You can access the report from the Microsoft 365 Admin home under **Reports** > **Productivity Score**. To learn more, see [Microsoft Productivity score](https://docs.microsoft.com/microsoft-365/admin/productivity/productivity-score?view=o365-worldwide).
 
-#### Q2 How can I get more detailed analysis for my organization?
+#### Q2 Can I share this report with others in my company? 
+
+Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it to those who might find the information relevant.
+
+#### Q3 How can I get more detailed analysis for my organization?
 
 You can use Workplace Analytics to get more detailed analysis and additional insights about your company. Contact your account team or go to [Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics) to learn more.
 
-#### Q3 Can I change the baseline date?
+#### Q4 Can I change the baseline date?
 
 No, the baseline date is static in this report because January to February 2020 is when most companies were doing business as usual and March is when most companies shifted to primarily remote work.
 
-#### Q4 Which Microsoft 365 customers are eligible to see the report?
+#### Q5 Which Microsoft 365 customers are eligible to see the report?
 
 All Microsoft 365 customers with at least 100 active Exchange Online users can see the report when they register for the Productivity Score preview.
