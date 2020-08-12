@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Return to worksites dashboard
 
-The Return to worksites dashboard uses a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate seats for your organization’s worksites.
+The Return to worksites dashboard uses a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to people for each of your organization's worksites.
 
 As worksites begin opening at limited capacity to address safety concerns, employee seats become a limited resource. This dashboard helps you make the most of the limited seats by optimizing for on-site collaboration. The two allocation plans identify teams or a subset of teams who will benefit the most by returning to work because of their high collaboration patterns with others in the same location.
 
@@ -36,7 +36,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 * Have the following organizational attributes already uploaded and processed in Workplace Analytics.
 
   * **Worksite location** - Represents the most recent worksite location (or projected location) for each employee.
-  * **Team or Organization** - Each employee’s team assignment that reflects the organizational level at which worksite included in a limited-seat capacity opening for your organization.
+  * **Team or Organization** - Each employee’s team assignment that reflects the organizational level at which decisions for seat allocation can be made for each worksite.
 
 ## Set up the dashboard
 
@@ -53,7 +53,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > [!Important]
    > The dashboard is designed to allocate worksite seats by team based on the current organizational structure. For best results, select **Last 3 months** for the **Time period** to reflect the most current organizational structure.
 
-4. In **Select filters**, keep **Collaboration hours** selected.
+    ![Return to worksites query](../Images/WpA/Tutorials/pbi-rtw-query.png)
+
+4. In **Select metrics**, keep **Collaboration hours** selected.
 5. In **Time investors** > **Do you want to limit the analysis to only certain time investors?**, keep **All employees** selected. Optionally, you can further filter the employees in scope for the dashboard. For example, excluding contractors or essential workers already allocated seats at the worksite. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 6. In **Their Collaborators**, do not exclude any collaborators.  
 7. For the **How do you want to group the people who collaborated with the time investor?** question, select the organizational attribute that represents the employee’s worksite location, such as **Office** or **Building**.
