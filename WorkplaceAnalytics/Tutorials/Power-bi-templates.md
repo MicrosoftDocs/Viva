@@ -151,6 +151,12 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 5. Select the **Hourly collaboration** query and repeat Steps 3-4 to filter out empty values.
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
 
+#### Failed to save modifications error in Power BI
+
+The following error occurs because of a preview features setting in Power BI. To change the setting for the dashboard, go to **File** > **Options and Settings** > **Options** > **Preview features**. Clear the checkbox for preview features, and then save and restart the template.
+
+  ![Preview features error](../Images/WpA/Tutorials/pbi-preview-error.png)
+
 ## Support
 
 * **Dashboard support** - Contact the Workplace Analytics team member that referred you to this page for support about onboarding, usage, and interpretation of the data contained within the dashboard.
