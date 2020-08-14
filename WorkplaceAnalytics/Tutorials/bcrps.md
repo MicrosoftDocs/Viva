@@ -16,7 +16,7 @@ Organizations around the world are responding to sudden changes in the way they 
 
 The Business continuity report is a Workplace Intelligence report that’s available to Microsoft 365 customers within the Microsoft Productivity Score report. It analyzes [Microsoft Graph](https://docs.microsoft.com/graph) data to provide high-level insights about how collaboration for an organization has changed between the baseline time period of January to February 2020 as compared to a current snapshot of March to the present.
 
-You are encouraged to share this report with business leaders in your organization. This report helps business leaders understand if employees are:
+You are encouraged to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Seeded Insights. This report helps business leaders understand if employees are:
 
 * Adapting to the shift to remote work.
 * Able to maintain work-life balance.
@@ -43,7 +43,7 @@ You can access the report from the Microsoft 365 Admin home under **Reports** > 
 
 #### Q2 Can I share this report with others in my company? 
 
-Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it to those who might find the information relevant.
+Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it to those who might find the information relevant. You can also add business leaders to the Report Reader role for access to this and other Productivity Score Seeded Insights.
 
 #### Q3 How can I get more detailed analysis for my organization?
 
