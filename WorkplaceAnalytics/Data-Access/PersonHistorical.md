@@ -24,8 +24,8 @@ This file includes one row for each person that has HR attribute changes and for
 |HR Attribute 1|varies |HR values that have been added to the dataset; see [HR attributes](#hr-attributes).|
 |   ...   |||
 |HR Attribute n|varies |HR values that have been added to the dataset; see [HR attributes](#hr-attributes).|
-|LevelDesignation|string|HR value for an employee’s level that represents the employee’s experience or management level, or seniority within the organization.|
-|Organization|string|HR value for the internal organization that employees belong to that's specific and identifiable by the organization's leaders.|
+|LevelDesignation|string|HR values for employee levels that represent an employee's experience, management level, or seniority within the organization.|
+|Organization|string|HR values for the internal organization that employees belong to that's specific and identifiable by the organization's leaders.|
 |IsInternal|boolean|True if PopulationType is either MeasuredEmployee or InternalCollaborator|
 |ExternalCollaboratorId|string|Email address if PopulationType is ExternalCollaborator and the tenant is configured to include external email IDs in the report|
 
