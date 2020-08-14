@@ -1,12 +1,11 @@
 ---
-layout: LandingPage
 title: Workplace Analytics introduction
 description: Learn more about, set up, and use Workplace Analytics
 localization_priority: normal 
 ms.prod: wpa
 ms.author: madehmer
 author: madehmer
-
+ms.topic: overview
 ---
 # Introducing Workplace Analytics
 
@@ -19,8 +18,9 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
 * [**Plans**](../WorkplaceAnalytics/tutorials/solutionsv2-intro.md) - Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
 * [**Frequently asked questions**](../WorkplaceAnalytics/use/faq.md) - Review the most frequently asked questions and their answers about Workplace Analytics roles, privacy, setup, and analysis tools.
 
-<ul class="panelContent cardsY">
-    <li>
+<table>
+    <tr>
+    <td>
         <a href="https://insights.office.com">
         <div class="cardSize">
             <div class="cardPadding">
@@ -38,8 +38,8 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
             </div>
         </div>
         </a>
-    </li>
-    <li>
+    </td>
+    <td>
         <a href="https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog">
         <div class="cardSize">
             <div class="cardPadding">
@@ -57,8 +57,8 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
             </div>
         </div>
         </a>
-    </li>
-    <li>
+    </td>
+    <td>
         <a href="https://docs.microsoft.com/learn/modules/workplace-analytics-discover/">
         <div class="cardSize">
             <div class="cardPadding">
@@ -76,8 +76,10 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
             </div>
         </div>
         </a>
-    </li>
-    <li>
+    </td>
+    </tr>
+    <tr>
+    <td>
         <a href="~/overview/videos.md">
         <div class="cardSize">
             <div class="cardPadding">
@@ -95,5 +97,6 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
             </div>
         </div>
         </a>
-    </li>
-</ul>
+    </td>
+</tr>
+</table>
