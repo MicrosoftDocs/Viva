@@ -40,39 +40,31 @@ Use the following steps to add new analysis in Relationship Intelligence.
 3. In **Define Analysis Settings**, enter a friendly name for the analysis and select a path to the dataset.
 4. In Select the Account Mapping, select the set of account and contacts files you want to use to identify users and companies that your organization is talking with.  See Adding Account Mappings for details on how to create and upload these files for use.
 5. In Select the Grouping Attributes, select the attributes you want to analyze and have available for pivoting in the final output report.  The available attributes match up to the HR attributes included in the imported organizational data from Workplace Analytics.
-
-
 6. Select Submit. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
 7. After the analysis successfully loads, click the download icon corresponding to the analysis you created and following instructions in the dialog presented. Namely:
 
+   * Select **Copy** to copy the database name specific to this analysis.
+   * Select **Download PBIX file** to download a Power BI report.
 
+## To view the report
 
-•	Click “Copy” to copy the database name specific to this analysis 
-•	Click “Download PBIX File” to download a PowerBI report
-
-To view the report:
-1.   Double click the PowerBI file saved above.
-2.  Authenticate with your corporate credentials if asked (your Azure Template admin will need to give you access to the Azure Analysis services used)
+1. Double click the PowerBI file saved above.
+2. Authenticate with your corporate credentials if asked (your Azure Template admin will need to give you access to the Azure Analysis services used)
 3.  On the “Home” ribbon in Power BI Desktop, choose Transform Data and then Data source Settings  
--	 
-
-Paste the database name copied from the analysis dialog into the database field presented and click OK.  Select “Model” and OK if prompted.
+4. Paste the database name copied from the analysis dialog into the database field presented and select **OK**. Select **Model**, and then if prompted, select **OK**.
 
 
- 
+## To add Account Mappings
 
+1. In Workplace Analytics Azure Templates, select Relationship Intelligence.
+2. On the Relationship Intelligence page, select the Account Mapping tab. 
+3. Click Add New Mapping button on the top right to create a upload a new set of files 
+4. In the panel that shows up enter the following and click Submit to create.
 
+   * A friendly name for the account and contacts set in the Mapping name section
+   * Upload files for accounts and contacts (see note below about format).   
+   * Indicate which schema or source the files were from: Microsoft Dynamics or Salesforce
 
-
-To add Account Mappings
-1.	In Workplace Analytics Azure Templates, select Relationship Intelligence.
-2.	On the Relationship Intelligence page, select the Account Mapping tab. 
-3.	Click Add New Mapping button on the top right to create a upload a new set of files 
- 
-4.	In the panel that shows up enter the following and click Submit to create.
-o	A friendly name for the account and contacts set in the Mapping name section
-o	Upload files for accounts and contacts (see note below about format).   
-o	Indicate which schema or source the files were from: Microsoft Dynamics or Salesforce
 Accounts and Contacts file formats
 Microsoft Dynamics format – Accounts
  
@@ -82,8 +74,6 @@ Salesforce Schema – Accounts
  
 
 Salesforce Schema - Contacts
- 
-
 
 
 
