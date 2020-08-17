@@ -14,7 +14,7 @@ Maximize the power of Workplace Analytics to gain insights into how your organiz
 
 <ul class="cardsM panelContent singlePanelContent cols cols2">
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=2002306">
+        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/Collaboration-overload-playbook.pdf">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -33,7 +33,7 @@ Maximize the power of Workplace Analytics to gain insights into how your organiz
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/WpA-Teamwork-Solution-Playbook.pdf">
+        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/Teamwork-solution-playbook.pdf">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -51,5 +51,22 @@ Maximize the power of Workplace Analytics to gain insights into how your organiz
         </div>
         </a>
     </li>
-
-
+    <li>
+        <a href="https://docs.microsoft.com/workplace-analytics/tutorials/Return-to-worksites-playbook.pdf">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../Images/icon-analytics.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Workplace Analytics Return to Worksites Playbook</h3>
+                        <p>Learn how to use the Workplace Analytics and the Return to worksites dashboard in Power BI to plan when, who, where, and how employees can return to work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>

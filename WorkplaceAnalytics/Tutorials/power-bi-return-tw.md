@@ -132,7 +132,7 @@ After you specify a location and the number of employees permitted in that locat
 
 ## Return to worksites playbook
 
-The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The analyses that help answer where and when require a Microsoft service engagement to deploy through Azure with [Workplace Analytics Azure Templates](../azure-templates/overview.md). The Return to worksites playbook has more details and instructions on how to create and use the analyses.
+The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The analyses that help answer where and when require a Microsoft service engagement to deploy through Azure with [Workplace Analytics Azure Templates](../azure-templates/overview.md). Return to worksites playbook has more details and instructions on how to create and use the analyses, which you can access from within [Workplace Analytics](https://workplaceanalytics.office.com) > **Help** > **Resource Playbooks**.
 
 ![Dashboard page about the playbook](../Images/WpA/Tutorials/pbi-rtw-playbook.png)
 
