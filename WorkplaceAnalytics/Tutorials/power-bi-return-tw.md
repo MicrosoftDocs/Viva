@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Return to worksites dashboard
 
-The Return to worksites dashboard uses a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to people for each of your organization's worksites.
+The Return to worksites dashboard uses a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
 
 As worksites begin opening at limited capacity to address safety concerns, employee seats become a limited resource. This dashboard helps you make the most of the limited seats by optimizing for on-site collaboration. The two allocation plans identify teams or a subset of teams who will benefit the most by returning to work because of their high collaboration patterns with others in the same location.
 
@@ -42,6 +42,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Return to worksites** to open the predefined query.
+
+    ![Return to worksites query](../Images/WpA/Tutorials/pbi-rtw-query-n.png)
+
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -53,7 +56,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > [!Important]
    > The dashboard is designed to allocate worksite seats by team based on the current organizational structure. For best results, select **Last 3 months** for the **Time period** to reflect the most current organizational structure.
 
-    ![Return to worksites query](../Images/WpA/Tutorials/pbi-rtw-query.png)
+    ![Return to worksites query details](../Images/WpA/Tutorials/pbi-rtw-query2.png)
 
 4. In **Select metrics**, keep **Collaboration hours** selected.
 5. In **Time investors** > **Do you want to limit the analysis to only certain time investors?**, keep **All employees** selected. Optionally, you can further filter the employees in scope for the dashboard. For example, excluding contractors or essential workers who already have seats allocated at a worksite. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
@@ -129,7 +132,7 @@ After you specify a location and the number of employees permitted in that locat
 
 ## Return to worksites playbook
 
-The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. This advanced analysis requires a Microsoft service engagement to deploy through Azure with Workplace Analytics Azure Templates. The Return to worksites playbook has more details and instructions on how to create and use the analyses.
+The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The analyses that help answer where and when require a Microsoft service engagement to deploy through Azure with [Workplace Analytics Azure Templates](../azure-templates/overview.md). The Return to worksites playbook has more details and instructions on how to create and use the analyses.
 
 ![Dashboard page about the playbook](../Images/WpA/Tutorials/pbi-rtw-playbook.png)
 
