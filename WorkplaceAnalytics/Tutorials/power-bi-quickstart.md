@@ -1,7 +1,7 @@
 ---
 
-title: Power BI Collaboration tracker
-description: Use the Collaboration tracker dashboard to visualize predefined collaboration data from Workplace Analytics in Power BI
+title: Power BI Quickstart overview dashboard
+description: Use the Quickstart overview dashboard to visualize predefined collaboration data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Collaboration tracker
+# Power BI Quickstart overview dashboard
 
-The Power BI Collaboration tracker uses Workplace Analytics data to help you, as an analyst track changes in collaboration over time and helps you target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
+The Quickstart overview dashboard for Power BI uses Workplace Analytics data to provide a high-level view of key organizational metrics. It's a great way to get a quick perspective on how the organization is collaborating and to identify potential areas that might require additional analysis. For best results, the organizational data upload file should contain a column titled TimeZone and a column titled HireDate. Without the TimeZone and HireDate columns the Power BI template will not load properly.
 
 This dashboard helps you track how collaboration is affecting the key performance indicators (KPIs) for employees by answering the following business questions.
 
@@ -75,6 +75,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
      >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 14. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+
 
 ## Dashboard settings
 
