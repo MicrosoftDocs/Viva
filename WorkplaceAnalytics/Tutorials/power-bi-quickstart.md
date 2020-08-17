@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Power BI Quickstart overview dashboard
 
-The Quickstart overview dashboard for Power BI uses Workplace Analytics data to provide a high-level view of key organizational metrics. It's a great way to get a quick perspective on how the organization is collaborating and to identify potential areas that might require additional analysis. For best results, the organizational data upload file should contain a column titled TimeZone and a column titled HireDate. Without the TimeZone and HireDate columns the Power BI template will not load properly.
+The Quickstart overview dashboard for Power BI uses Workplace Analytics data to provide a high-level view of key organizational metrics. It's a great way to get a quick perspective on how the organization is collaborating and to identify potential areas that might require additional analysis.
 
 This dashboard helps you track how collaboration is affecting the key performance indicators (KPIs) for employees by answering the following business questions.
 
