@@ -42,9 +42,6 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Return to worksites** to open the predefined query.
-
-    ![Return to worksites query](../Images/WpA/Tutorials/pbi-rtw-query-n.png)
-
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
