@@ -20,11 +20,10 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 ## Prerequisites
 
-Before you can run the queries and populate the dashboard in Power BI, you must:
+Before you can run the query and populate the dashboard in Power BI, you must:
 
 * Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
-Use the following steps to set up and run a **Collaboration overload** query, download and set up the provided Power BI template, and then link to the data in Power BI to visually analyze it in the Collaboration overload dashboard.
 
 ## Set up the dashboard
 
