@@ -17,7 +17,7 @@ This dashboard provides the following insights.
 
 * **Population overview** – Shows the number of employees who are included in this analysis and trends for the key collaboration indicators, including average values for the most recent week’s top collaboration metrics.
 * **Organizational pulse** – Shows collaboration profiles by group and how employees spend their time, which can help you identify opportunities to improve employee capacity. Look for groups that spend excessive hours in email or spend too much time in low quality meetings.
-* **Stress in the organization** – Shows key metrics drive and impact employee stress, including uneven workloads, time fragmentation, or long hours, and helps indicate where workloads can be rebalanced and working norms improved.
+* **Stress in the organization** – Shows key metrics that impact employee stress, such as uneven workloads, time fragmentation, and long hours. This analysis can help you evaluate and re-balance workloads and improve working norms to reduce employee stress.
 * **Onboarding and engagement** – Shows key indicators about employee network diversity, onboarding and integration, and initiative and engagement across the organization, which helps you analyze onboarding effectiveness, job satisfaction, and performance. This data is often paired with additional outcome data, such as employee surveys.
 * **Leadership profile** – Shows key indicators about meetings with managers and leadership exposure, which helps you understand how well managers in your organization are supporting and empowering employees to do their best work.
 
