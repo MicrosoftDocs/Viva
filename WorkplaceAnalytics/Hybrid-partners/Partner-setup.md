@@ -1,13 +1,10 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics partner solution setup
 description: How to set up an on-premises Exchange server to work with Workplace Analytics. 
 author: madehmer
-ms.author: v-midehm
-ms.date: 02/21/2019
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

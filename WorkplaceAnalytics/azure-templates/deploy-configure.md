@@ -193,7 +193,3 @@ As an admin, you can audit user activity in **Admin** > **Logs**. Select the **i
 
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
-* [Organization Network Analysis Azure Template](./organization-network-analysis.md)
-* [Topic Analysis Azure Template](./topic-analysis.md)
-* [Process Explorer Azure Template](./process-explorer.md)
-* [Join Datasets Azure Template](./join-datasets.md)

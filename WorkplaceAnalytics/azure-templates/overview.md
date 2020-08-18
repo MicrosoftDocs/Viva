@@ -22,17 +22,16 @@ Workplace Analytics Azure Templates extend and accelerate advanced analysis of y
 
 You can easily customize them to meet your unique organizational needs, including the following functionality.
 
-* **Reference templates**: Enable you to customize your data by using attribute filters and various graphical views and interactive options. You can share data updates across your team and push actionable insights and recommendations to other Office 365 products, such as PowerPoint. The following templates are included by default:
+* **Reference templates** - Enable you to customize your data by using attribute filters and various graphical views and interactive options. You can share data updates across your team and push actionable insights and recommendations to other Office 365 products, such as PowerPoint. The following templates are included by default:
 
   * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
-  * [Topic Analysis Azure Template](./topic-analysis.md)
   * [Process Explorer Azure Template](./process-explorer.md)
   * [Join Datasets Azure Template](./join-datasets.md)
   * [Workspace Planning Azure Template](space-planning.md)
 
-* **Analytic framework support**: Enables you to merge Workplace Analytics query output with other [Azure data sources](https://docs.microsoft.com/azure/index) outside of Workplace Analytics (such as with Azure Blob storage, Azure SQL Database, Azure Databricks, and Azure Analysis Services) for custom metric calculations, advanced and interactive visuals, and automated data management.
+* **Analytic framework support** - Enables you to merge Workplace Analytics query output with other [Azure data sources](https://docs.microsoft.com/azure/index) outside of Workplace Analytics (such as with Azure Blob storage, Azure SQL Database, Azure Databricks, and Azure Analysis Services) for custom metric calculations, advanced and interactive visuals, and automated data management.
 
-* **Predictive models**: Enable you to deploy or plug in your own machine-learning models, such as top performer analysis, anomaly detection, sales forecasting, and churn modeling. You can also use larger data sets to improve the performance of machine-learning models and interact with a parameter-based interface (no scripting necessary).
+* **Predictive models** - Enable you to deploy or plug in your own machine-learning models, such as top performer analysis, anomaly detection, sales forecasting, and churn modeling. You can also use larger data sets to improve the performance of machine-learning models and interact with a parameter-based interface (no scripting necessary).
 
 The following shows how Workplace Analytics Azure Templates fit into your existing organizational system.
 
