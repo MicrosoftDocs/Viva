@@ -13,7 +13,7 @@ ms.prod: wpa
 
 The Quickstart overview dashboard for Power BI uses Workplace Analytics data to provide a high-level view of key organizational metrics. It's a great way to get a quick perspective on how the organization is collaborating and to identify potential areas that might require additional analysis.
 
-This dashboard provides insights into the following areas about your organization.
+This dashboard provides the following insights.
 
 * **Population overview** – Shows the number of employees who are included in this analysis and trends for the key collaboration indicators, including average values for the most recent week’s top collaboration metrics.
 * **Organizational pulse** – Shows collaboration profiles by group and how employees spend their time, which can help you identify opportunities to improve employee capacity. Look for groups that spend excessive hours in email or spend too much time in low quality meetings.
