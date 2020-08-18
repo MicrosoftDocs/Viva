@@ -50,56 +50,56 @@ Anyone you share the Power BI *desktop file* with can access the underlying data
 
 ## Frequently asked questions
 
-#### Q1 Who can create the dashboard in Power BI?
+##### Q1 Who can create the dashboard in Power BI?
 
 You must be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics to create the dashboard. You must also have a Power BI license and have the desktop version installed. See [Install and run Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
 
-#### Q2 How frequently is data refreshed in the dashboard?
+##### Q2 How frequently is data refreshed in the dashboard?
 
 The dashboard gets repopulated once a week after Workplace Analytics finishes its weekend processing. **Note**: You must manually adjust the **Selected time frame** setting in the dashboard's **Settings and scope** report to view the most recently processed data.
 
-#### Q3 How do I share the dashboard with others in my organization?
+##### Q3 How do I share the dashboard with others in my organization?
 
 You can share the dashboard with others in your organization *without sharing the underlying data* by publishing the insights in an app or as PDF or static file. See [Share a dashboard](#share-a-dashboard) for details.
 
-#### Q4 Can I share the underlying dashboard dataset with others in my organization?
+##### Q4 Can I share the underlying dashboard dataset with others in my organization?
 
 To maintain data privacy, only employees assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics should have access to the underlying dataset in the Power BI dashboard.
 
-#### Q5 How do I know if I have the latest version of the template?
+##### Q5 How do I know if I have the latest version of the template?
 
 Starting with version 2 and later versions of a template, you can find the version number at the end of the title in the lower left of the dashboard’s Settings page.
 
-#### Q6 How can I extend the dates of the query data used in the dashboard?
+##### Q6 How can I extend the dates of the query data used in the dashboard?
 
 If you have been using a dashboard for a few months now, you are probably using query data for the last six months. You need to run new queries that include the last one year. For the Business continuity dashboard, see [Template update](../tutorials/power-bi-bc.md#template-update) for details.  
 
-#### Q7 How do I set up and run a Workplace Analytics query?
+##### Q7 How do I set up and run a Workplace Analytics query?
 
 See [Create a Person Query](./person-queries.md) for details.
 
-#### Q8 How do I change the axis of a chart to use a different Organizational data attribute?
+##### Q8 How do I change the axis of a chart to use a different Organizational data attribute?
 
 Only the required Organizational attributes are used when setting up the Power BI file. If you selected more Organizational attributes when setting up the queries, you can use those in the visuals. To use a different Organizational attribute:
 
 1. Select the visualization you want to change.  
 2. In the **Fields** pane, select and drag the Organizational attribute to the **Axis** section of the visualization.
 
-#### Q9 How do I integrate additional metrics or data sources with this dashboard?
+##### Q9 How do I integrate additional metrics or data sources with this dashboard?
 
 See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
 
-#### Q10 How do I use Power BI?
+##### Q10 How do I use Power BI?
 
 See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details on how to use Power BI.
 
-#### Q11 What languages is the dashboard available in?
+##### Q11 What languages is the dashboard available in?
 
 The dashboard is currently only available in English.
 
 ## Troubleshooting
 
-#### Unable to open document
+##### Unable to open document
 
 If you get the following error, you do not have the latest version of Power BI.
 
@@ -110,13 +110,13 @@ However, the template might work with the earlier version of Power BI that you'r
 1. Close any warnings.
 2. If you can view the **Settings** page, the dashboard will work with this version. If you cannot view **Settings**, you need to download the latest version of Power BI.
 
-#### Report layout differences might exist
+##### Report layout differences might exist
 
 If you get the following error, you do not have the latest version of Power BI. However, the template might work with this earlier version. To test it, repeat the steps in the previous section.
 
   ![Report layout error](../Images/WpA/Tutorials/bcd-report-error.png)
 
-#### OData request failed
+##### OData request failed
 
 The following error (or similar 500+ error) can occur for one of the following reasons.
 
@@ -139,7 +139,7 @@ The following error (or similar 500+ error) can occur for one of the following r
   6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
   7. Close Power BI and follow the set up instructions in **Set up the dashboard** for the applicable dashboard.
 
-#### The Power BI visuals fail to load or show errors in the tables
+##### The Power BI visuals fail to load or show errors in the tables
 
 Power BI cannot complete a data join if data values are missing in the Organization or Level Designation tables. To validate this error:
 
@@ -153,7 +153,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 5. Select the **Hourly collaboration** query and repeat Steps 3-4 to filter out empty values.
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
 
-#### Failed to save modifications error in Power BI
+##### Failed to save modifications error in Power BI
 
 The following error occurs because of a preview features setting in Power BI. To change the setting for the dashboard, go to **File** > **Options and Settings** > **Options** > **Preview features**. Clear the checkbox for preview features, and then save and restart the template.
 
