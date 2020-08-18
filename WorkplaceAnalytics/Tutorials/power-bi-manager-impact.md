@@ -1,7 +1,7 @@
 ---
 
-title: Power BI Quickstart overview dashboard
-description: Use the Quickstart overview dashboard to visualize predefined collaboration data from Workplace Analytics in Power BI
+title: Manager Impact dashboard for Power BI
+description: Use the Manager impact dashboard to visualize predefined data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,19 +9,16 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Quickstart overview
+# Manager impact
 
-The Quickstart overview dashboard for Power BI uses Workplace Analytics data to provide a high-level view of key organizational metrics. It's a great way to get a quick perspective on how the organization is collaborating and to identify potential areas that might require additional analysis.
+The Manager impact dashboard for Power BI uses Workplace Analytics data to view standard behaviors and leadership exposure among managers in your organization. Leaders can use this analysis to determine if increasing leadership exposure and transparency might help employees feel more engaged with their projects. Or if your organization has too much leadership exposure, you might have unnecessary redundancy in communications and business processes.
 
 This dashboard provides insights into the following areas about your organization.
 
-* **Population overview** – Shows the number of employees who are included in this analysis and trends for the key collaboration indicators, including average values for the most recent week’s top collaboration metrics.
-* **Organizational pulse** – Shows collaboration profiles by group and how employees spend their time, which can help you identify opportunities to improve employee capacity. Look for groups that spend excessive hours in email or spend too much time in low quality meetings.
-* **Stress in the organization** – Shows key metrics drive and impact employee stress, including uneven work loads, time fragmentation, or long hours, and helps indicate where workloads can be rebalanced and working norms improved.
-* **Onboarding and engagement** – Shows key indicators about employee network diversity, onboarding and integration, and initiative and engagement across the organization, which helps you analyze onboarding effectiveness, job satisfaction, and performance. This data is often paired with additional outcome data, such as employee surveys.
-* **Leadership profile** – Shows key indicators about meetings with managers and leadership exposure, which helps you understand how well managers in your organization are supporting and empowering employees to do their best work.
+* **Manager metrics** - Shows the metrics and trends about manager behaviors in key areas, such as average collaboration, meeting, email, and focus hours.
+* **Leadership exposure** – Shows how leaders interact with employees in your organization, including manager coaching hours, manager generated workload meetings and email, meeting hours with managers, and skip-level meetings.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Quickstart overview** query in Workplace Analytics.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager impact** query in Workplace Analytics. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
 
 ## Prerequisites
 
@@ -33,16 +30,16 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Quickstart Overview** to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Manager impact** to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
 5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 6. In **Organizational data**, you can choose **Select all** to include all available attributes. At a minimum, select those required for the dashboard to work, which represent **HireDate**, **LevelDesignation**, **FunctionType**, **Layer**, **Organization**, **TimeZone**, and **IsInternal**.
 7. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-8. After the query successfully runs, in **Queries** > **Results**, select the **Download** icon for the **Quickstart overview** query results, select **PBI template**, and then select **OK** to download the template.
-9. Open the downloaded **Quickstart overview Power BI template**.
+8. After the query successfully runs, in **Queries** > **Results**, select the **Download** icon for the **Manager impact** query results, select **PBI template**, and then select **OK** to download the template.
+9. Open the downloaded **Manager impact Power BI template**.
 10. If prompted to select a program, select **Power BI**.
-11. When prompted by Power BI, in Workplace Analytics **Queries** > **Results**, select the **Link** icon for the Quickstart overview query, and then select to copy the generated OData URL link, and then select **Load** to import the query results into Power BI. Loading these large files may take a few minutes to a few hours to complete.
+11.	When prompted by Power BI, in Workplace Analytics **Queries** > **Results**, select the **Link** icon for the Manager impact query, and then select to copy the generated OData URL link, and then select **Load** to import the query results into Power BI. Loading these large files may take a few minutes to a few hours to complete.
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 

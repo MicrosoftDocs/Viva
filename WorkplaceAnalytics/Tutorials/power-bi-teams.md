@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Teams insights
+# Teams insights
 
 As employees shift to remote work and to digital only collaboration, Workplace Analytics can help you stay on track and make data-driven decisions that can help your employees do their best work.
 

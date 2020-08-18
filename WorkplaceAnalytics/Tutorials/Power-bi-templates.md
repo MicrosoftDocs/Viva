@@ -17,13 +17,15 @@ Workplace Analytics Queries has a number of predefined query templates available
 
    ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-cards.png)
 
-In addition to the **Manager impact** and **Quickstart overview** dashboards for Power BI, Workplace Analytics also includes the following dashboards that you can use in Power BI to visually analyze data. Select a dashboard to see more details about it and how to set it up:
+Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select a dashboard to see more details about it and how to set it up:
 
 * [Business continuity](../tutorials/power-bi-bc.md)
 * [Collaboration assessment](../tutorials/power-bi-collab-assess.md)
 * [Collaboration overload](../tutorials/power-bi-collab-overload.md)
 * [Collaboration tracker](../tutorials/power-bi-collab-track.md)
 * [Influence insights](../tutorials/pbi-influence-db.md)
+* [Manager impact](../tutorials/power-bi-manager-impact.md)
+* [Quickstart overview](../tutorials/power-bi-quickstart.md)
 * [Return to worksites](../tutorials/power-bi-return-tw.md)
 * [Teams insights](../tutorials/power-bi-teams.md)
 
