@@ -34,12 +34,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
 5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
-6. In **Organizational data**, you can choose **Select all** to include all available attributes. At a minimum, select those required for the dashboard to work, which represent **HireDate**, **LevelDesignation**, **FunctionType**, **Layer**, **Organization**, **TimeZone**, and **IsInternal**.
-7. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
+6. In **Organizational data**, you can choose **Select all** to include all available attributes. For best results, select all required attributes that identify managers and their groups, such as **LevelDesignation**, **ManagerId**, **Organization**, and **SupervisorIndicator**.
+7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
 8. After the query successfully runs, in **Queries** > **Results**, select the **Download** icon for the **Manager impact** query results, select **PBI template**, and then select **OK** to download the template.
-9. Open the downloaded **Manager impact Power BI template**.
+9. Open the downloaded **Manager impact template**.
 10. If prompted to select a program, select **Power BI**.
-11.	When prompted by Power BI, in Workplace Analytics **Queries** > **Results**, select the **Link** icon for the Manager impact query, and then select to copy the generated OData URL link, and then select **Load** to import the query results into Power BI. Loading these large files may take a few minutes to a few hours to complete.
+11. When prompted by Power BI, in Workplace Analytics **Queries** > **Results**, select the **Link** icon for the Manager impact query, and then select to copy the generated OData URL link, and then select **Load** to import the query results into Power BI. Loading these large files may take a few minutes to a few hours to complete.
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
@@ -50,7 +50,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
      >[!Important]
      >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
-15. Select **Connect** to prepare and load the data, which can take a few minutes to complete. After the data loads, you'll see visualization charts in Power BI about your organization.
+15. Select **Connect** to prepare and load the data, which can take a few minutes to complete. After the data loads, you'll see visualization charts in Power BI about manager impact within your organization.
 
 ## Power BI tips, troubleshooting, and FAQs
 

@@ -142,6 +142,10 @@
                       href: ~/tutorials/power-bi-collab-track.md
                     - name: Influence insights
                       href: ~/tutorials/pbi-influence-db.md
+                    - name: Manager impact
+                      href: ~/tutorials/power-bi-manager-impact.md
+                    - name: Quickstart overview
+                      href: ~/tutorials/power-bi-quickstart.md
                     - name: Return to worksites
                       href: ~/tutorials/power-bi-return-tw.md
                     - name: Teams insights

@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI Collaboration tracker
+# Collaboration tracker
 
 The Power BI Collaboration tracker uses Workplace Analytics data to help you, as an analyst track changes in collaboration over time and helps you target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
 

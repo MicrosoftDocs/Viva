@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Collaboration overload dashboard
+# Collaboration overload
 
 The Collaboration overload dashboard uses a Power BI template that’s populated by Workplace Analytics data to identify areas of collaboration overload in your organization. The metrics in this dashboard show where overall collaboration patterns, time fragmentation, or meeting quality could be improved.
 
@@ -35,18 +35,17 @@ Use the following steps to set up and run a **Collaboration overload** query, do
 5. In **Select filters**, you can optionally select to filter the data.
 6. In **Organizational data**, you can select what columns to include.
 7. Select **Run** (at top right). The query might take several minutes up to several hours to complete.
-8. After the query successfully runs, in **Queries** > **Results**, select the **Download** icon for the **Collaboration overload** query results, and then select **PBI template**.
-9. Select **OK** to download the Power BI template query results file.
-10. In your browser, select the downloaded Power BI template query results file to open it.
+8. After the query successfully runs, in **Queries** > **Results**, select the **Download** icon for the **Collaboration overload** query results, select **PBI template**, and then select **OK** to download the template.
+9. In your browser, select the downloaded Power BI template query results file to open it.
 
     ![Open downloaded Power BI template file](../Images/WpA/tutorials/pbi-templates-05.png)
 
-11. If prompted to select a program, select **Power BI Desktop**.
-12. When prompted, paste the OData link from the query results in Workplace Analytics, and then select **Load**.
+10. If prompted to select a program, select **Power BI Desktop**.
+11. When prompted, paste the OData link from the query results in Workplace Analytics, and then select **Load**.
 
     ![Paste OData link here](../Images/WpA/tutorials/pbi-templates-07.png)
 
-13. If you are already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI uses visualization charts to show your data. You are done and can _skip the following steps_.
+12. If you are already logged in to Power BI with your Workplace Analytics organizational account, your data loads and Power BI uses visualization charts to show your data. You are done and can _skip the following steps_.
 
     If you are not logged in to Power BI, you'll see the current sign-in account highlighted in Power BI. For example, the following shows "Anonymous" as the sign-in account.
 
@@ -55,13 +54,13 @@ Use the following steps to set up and run a **Collaboration overload** query, do
     > [!Important]
     > You can view Workplace Analytics data (including query results) in Power BI only if you've been assigned the Analyst role in Workplace Analytics. Also, you must sign in with the correct account with the following steps.
 
-14. In the **OData feed** dialog box, select **Organizational account**.
-15. If prompted, select **Sign in**.
-16. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The **OData feed** dialog box shows "you are currently signed in" to Power BI:
+13. In the **OData feed** dialog box, select **Organizational account**.
+14. If prompted, select **Sign in**.
+15. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The **OData feed** dialog box shows "you are currently signed in" to Power BI:
 
     ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 
-17. Select **Connect** to show the status of the data preparation, which might take several minutes up to several hours to load. After the data loads, Power BI uses visualization charts to show your organization's collaboration patterns.
+16. Select **Connect** to show the status of the data preparation, which might take several minutes up to several hours to load. After the data loads, Power BI uses visualization charts to show your organization's collaboration patterns.
 
     ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
