@@ -18,7 +18,7 @@ This dashboard provides insights into the following areas about your organizatio
 * **Manager metrics** - Shows the metrics and trends about manager behaviors in key areas, such as average collaboration, meeting, email, and focus hours.
 * **Leadership exposure** – Shows how leaders interact with employees in your organization, including manager coaching hours, manager generated workload meetings and email, meeting hours with managers, and skip-level meetings.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager impact** query in Workplace Analytics. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager impact** query in Workplace Analytics.
 
 ## Prerequisites
 
