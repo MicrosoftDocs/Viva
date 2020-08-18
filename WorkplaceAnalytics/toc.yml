@@ -38,7 +38,7 @@
             - name: User roles
               href: ~/Use/User-Roles.md
             - name: Assign user and group roles
-              href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
+              href: ~/setup/assign-user-roles.md
         - name: Workplace Analytics settings
           href: ~/Use/Settings.md
         - name: Prepare organizational data
@@ -235,6 +235,8 @@
       items: 
         - name: Introduction
           href: MyAnalytics/overview/mya-for-admins.md
+        - name: MyAnalytics deployment guide
+          href: MyAnalytics/setup/deployment-guide.md         
         - name: MyAnalytics setup
           href: MyAnalytics/setup/configure-myanalytics.md
         - name: Plans and environments

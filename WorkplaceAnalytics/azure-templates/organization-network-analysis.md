@@ -200,5 +200,3 @@ Represents the ability to access or share information across the organization wh
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
-* [Topic Analysis Azure Template](./topic-analysis.md)
-* [Process Explorer Azure Template](./process-explorer.md)
