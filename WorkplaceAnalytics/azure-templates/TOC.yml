@@ -13,8 +13,6 @@
   items: 
   - name: Organizational Network Analysis
     href: ./organization-network-analysis.md
-  - name: Topic Analysis
-    href: ./topic-analysis.md
   - name: Process Explorer
     href: ./process-explorer.md
   - name: Join Datasets
