@@ -56,7 +56,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > [!Important]
    > The dashboard is designed to allocate worksite seats by team based on the current organizational structure. For best results, select **Last 3 months** for the **Time period** to reflect the most current organizational structure.
 
-    ![Return to worksites query details](../Images/WpA/Tutorials/pbi-rtw-query2.png)
+    ![Return to worksites query details](../Images/WpA/Tutorials/pbi-rtw-query.png)
 
 4. In **Select metrics**, keep **Collaboration hours** selected.
 5. In **Time investors** > **Do you want to limit the analysis to only certain time investors?**, keep **All employees** selected. Optionally, you can further filter the employees in scope for the dashboard. For example, excluding contractors or essential workers who already have seats allocated at a worksite. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
@@ -75,7 +75,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > [!Important]
    > You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI.
 
-10. Select **Run** to run the query, which can take a few minutes to complete.
+10. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
 11. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Collaboration tracker** query results, select **PBI template**, and then select **OK** to download the template.
 12. Open the downloaded **Collaboration tracker Power BI template**.
 13. If prompted to select a program, select **Power BI**.
@@ -87,7 +87,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
       * For the file path, select the **Download** icon, and then download the file. After it downloads, copy and paste the file path and file name.
 
     * **Minimum group size** - Enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing Workplace Analytics data.
-    * **Location organizational attribute** - Enter the case-sensitive name of the organizational attribute you selected in the Return to worksites query that represents the worksite locations. 
+    * **Location organizational attribute** - Enter the case-sensitive name of the organizational attribute you selected in the Return to worksites query that represents the worksite locations.
 
     ![Return to worksites parameters for Power BI](../Images/WpA/Tutorials/pbi-rtw-odata.png)
 
@@ -108,13 +108,13 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 After the Return to worksites dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Team attribute** - The primary “group-by” attribute that represents the teams shown in all subsequent reports for making your seat allocation plan. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
-* **Filter attribute** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select **Ctrl** while clicking the **Clear filter arrow** (or with a touchscreen, select the **Clear filter arrow**). Measured employees reflect the number of employees in the filtered population for the time period, that's specified near the end of the page.
-* **Number of employees** – Confirm that the number of measured employees meets your expectations.
+* **Filter attribute** – To filter the employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the employee count will reflect a reduced number. To clear an existing filter, select **Ctrl** while clicking the **Clear filter arrow** (or with a touchscreen, select the **Clear filter arrow**). This reflects the number of employees in the filtered population for the time period, that's specified on this page.
+* **Number of employees** – Confirm that the number of employees meets your expectations.
 * **Employee representation** – Shows the **Number of employees** divided into the different teams, which is based on the Team attribute selected on the left, and by location, which is based on the Organizational attribute selected for worksite locations in the query. In addition to employee count, the percent excluded statistic indicates what percentage of each team in the specified location has no active weeks of collaboration in their most recent role (as specified in the organizational data), or are in a group with less than the specified minimum number of employees.
 
 > [!Important]
 > * If a worksite already has essential workers with permanent seat assignments, or employees who have chosen not to return, you must filter them out of the seat allocation plan. Use the filter attribute or re-run the **Return to worksites** query and use filters for the **Time investors** in **Step 5**.
-> * A high value for **% excluded**, such greater than 50 percent, might suggest a group who has recently experienced organizational changes, which can cause their data to be less reliable for developing a seat allocation plan.
+> * A high value for **% excluded**, such as greater than 50 percent, might suggest a group who has recently experienced organizational changes, which can cause their data to be less reliable for developing a seat allocation plan.
 
 > [!Tip]
 > When you select a chart bar for **Teams**, it updates the data to show that team’s **Location**. Select a chart bar for **Location** and it will update the data to that location’s **Teams**.
