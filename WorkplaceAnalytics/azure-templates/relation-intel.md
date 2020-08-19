@@ -103,10 +103,10 @@ After you add a mapping file for your customer accounts and contacts, do the fol
 4. Open the downloaded file in Power BI Desktop.
 5. If prompted, authenticate your credentials, which the Azure Templates admin used to give you access to the Azure Analysis services.
 6. In Power BI, select **Transform Data**, and then paste the database name you copied for the analysis in **Step 2**, and then select **OK**.
-7. If prompted, select **Model**, and then **OK**.
-8. 
+7. If prompted, select **Model**, and then **OK**. You can now view the report and use Power BI tools for data analysis and visualizations.
 
 ## About the report
+
 
 
 ## Power BI tips, troubleshooting, and FAQs
