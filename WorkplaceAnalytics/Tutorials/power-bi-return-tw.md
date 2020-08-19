@@ -57,6 +57,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 4. In **Select metrics**, keep **Collaboration hours** selected.
 5. In **Time investors** > **Do you want to limit the analysis to only certain time investors?**, keep **All employees** selected. Optionally, you can further filter the employees in scope for the dashboard. For example, excluding contractors or essential workers who already have seats allocated at a worksite. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+
+    ![Return to worksites query settings for time investors](../Images/WpA/Tutorials/pbi-rtw-query-2.png)
+
 6. In **Their Collaborators**, do not exclude any collaborators.  
 7. For the **How do you want to group the people who collaborated with the time investor?** question, select the organizational attribute that represents the employee’s worksite location, such as **Office** or **Building**.
 
@@ -65,7 +68,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 8. For the **Do you want to focus the analysis on a particular set of collaborators and group all others as Unclassified?** question, keep the preselected filter as **IsInternal** equal to **True**.
 
-    ![Return to worksites query filters](../Images/WpA/Tutorials/pbi-rtw-query2.png)
+    ![Return to worksites query filters](../Images/WpA/Tutorials/pbi-rtw-query-3.png)
 
 9. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes, and add the organizational attributes that reflect the worksite locations and applicable Teams (or Organizations) requiring seat allocation.
 
