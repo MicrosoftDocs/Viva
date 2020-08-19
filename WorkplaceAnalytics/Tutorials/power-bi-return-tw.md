@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Return to worksites dashboard
 description: Use the Return to worksite dashboard to visualize different seat-allocation options in Power BI based on Workplace Analytics data
 author: madehmer
@@ -42,9 +42,6 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Return to worksites** to open the predefined query.
-
-    ![Return to worksites query](../Images/WpA/Tutorials/pbi-rtw-query-n.png)
-
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -60,6 +57,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 4. In **Select metrics**, keep **Collaboration hours** selected.
 5. In **Time investors** > **Do you want to limit the analysis to only certain time investors?**, keep **All employees** selected. Optionally, you can further filter the employees in scope for the dashboard. For example, excluding contractors or essential workers who already have seats allocated at a worksite. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+
+    ![Return to worksites query settings for time investors](../Images/WpA/Tutorials/pbi-rtw-query-2.png)
+
 6. In **Their Collaborators**, do not exclude any collaborators.  
 7. For the **How do you want to group the people who collaborated with the time investor?** question, select the organizational attribute that represents the employee’s worksite location, such as **Office** or **Building**.
 
@@ -68,7 +68,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 8. For the **Do you want to focus the analysis on a particular set of collaborators and group all others as Unclassified?** question, keep the preselected filter as **IsInternal** equal to **True**.
 
-    ![Return to worksites query filters](../Images/WpA/Tutorials/pbi-rtw-query2.png)
+    ![Return to worksites query filters](../Images/WpA/Tutorials/pbi-rtw-query-3.png)
 
 9. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes, and add the organizational attributes that reflect the worksite locations and applicable Teams (or Organizations) requiring seat allocation.
 
@@ -76,10 +76,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI.
 
 10. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-11. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Collaboration tracker** query results, select **PBI template**, and then select **OK** to download the template.
-12. Open the downloaded **Collaboration tracker Power BI template**.
+11. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Return to worksites** query results, select **PBI template**, and then select **OK** to download the template.
+12. Open the downloaded **Return to worksites** template.
 13. If prompted to select a program, select **Power BI**.
-14.	When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
+14. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
 
     * **Query OData link or file path** - Both options are in the Workplace Analytics **Queries** > **Results** > **Return to worksites**. Data from the .csv file will load faster than through the OData link, which can take several minutes to several hours to load.
 

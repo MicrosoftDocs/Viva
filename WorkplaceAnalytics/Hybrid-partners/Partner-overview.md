@@ -1,13 +1,10 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics partner solution overview
 description: An overview of how Workplace Analytics works with partners to access and analyze on-premises Exchange mailbox data. 
 author: madehmer
-ms.author: v-midehm
-ms.date: 02/19/2019
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
