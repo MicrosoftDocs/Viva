@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Return to worksites dashboard
 description: Use the Return to worksite dashboard to visualize different seat-allocation options in Power BI based on Workplace Analytics data
 author: madehmer
@@ -10,7 +10,7 @@ ms.prod: wpa
 ---
 
 # Return to worksites
-
+  
 The Return to worksites dashboard uses a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
 
 As worksites begin opening at limited capacity to address safety concerns, employee seats become a limited resource. This dashboard helps you make the most of the limited seats by optimizing for on-site collaboration. The two allocation plans identify teams or a subset of teams who will benefit the most by returning to work because of their high collaboration patterns with others in the same location.
