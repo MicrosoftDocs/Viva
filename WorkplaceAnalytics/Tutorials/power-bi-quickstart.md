@@ -40,7 +40,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 6. In **Organizational data**, you can choose **Select all** to include all available attributes. At a minimum, select those required for the dashboard to work, such as **HireDate**, **LevelDesignation**, **ManagerId**, **Organization**, and **TimeZone**.
 7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
 8. After the query successfully runs, in **Queries** > **Results**, select the **Download** icon for the **Quickstart overview** query results, select **PBI template**, and then select **OK** to download the template.
-9. Open the downloaded **Quickstart overview template**.
+9. Open the downloaded **Quickstart overview** template.
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI, in Workplace Analytics **Queries** > **Results**, select the **Link** icon for the Quickstart overview query, and then select to copy the generated OData URL link, and then select **Load** to import the query results into Power BI. Loading these large files may take a few minutes to a few hours to complete.
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
