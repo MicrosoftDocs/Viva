@@ -97,15 +97,30 @@ After you add a mapping file for your customer accounts and contacts, do the fol
 
 ## Load the data and view the report
 
-1. In **Relationship Intelligence** > **Analysis**, when the analysis status has a green check mark, select the **Download** icon for the analysis.
+1. In **Workplace Analytics Azure Templates** > **Relationship Intelligence** > **Analysis**, when the analysis status has a green check mark, select the **Download** icon for the analysis.
 2. Select **Copy** to save the database name for this analysis to the clipboard.
 3. Select **Download PBIX File** to download the Power BI template for the report.
 4. Open the downloaded file in Power BI Desktop.
 5. If prompted, authenticate your credentials, which the Azure Templates admin used to give you access to the Azure Analysis services.
-6. In Power BI, select **Transform Data**, and then paste the database name you copied for the analysis in **Step 2**, and then select **OK**.
-7. If prompted, select **Model**, and then **OK**. You can now view the report and use Power BI tools for data analysis and visualizations.
+6. In Power BI, select **Transform data** > **Data source settings**, paste the database name you copied for the analysis in **Step 2** in **Database**, and then select **OK**.
+7. If prompted by the Navigator, select **Model**, and then **OK**.
+8. It might take a few minutes up to a few hours to load the data from the database into the report. After it loads, you can analyze report data with Power BI tools and visualizations.
 
 ## About the report
+
+The Relationship Intelligence report includes the following.
+
+* **Relationship Overview** - This report shows information about accounts, including:
+
+  * The **Relationship score**, which is based on collaboration activity with an account, and other related collaboration details, such as email and meeting hours spent with an account and the last date you engaged with the account.
+  * Page down to see a **Relationship highlights** chart and a chart with **Distinct contacts** analysis.
+  * Use the HR Attribute Filter to focus the chart analysis on a specific collaboration.
+  * The **Group Engagement**, **Collaboration Time**, and **Meetings by Length** charts show more details about account collaboration activity.
+
+    ![Relationship Overview report page](../Images/ri-report-1.png)
+
+* **Account Analysis** - 
+* **Individual Collaborators** - 
 
 
 
@@ -113,3 +128,4 @@ After you add a mapping file for your customer accounts and contacts, do the fol
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
+For more details about using Power BI, see [Interact with visuals in reports, dashboards, and apps](https://docs.microsoft.com/power-bi/consumer/end-user-visualizations).
