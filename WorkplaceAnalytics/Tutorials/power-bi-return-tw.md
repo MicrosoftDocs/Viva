@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Return to worksites dashboard
 description: Use the Return to worksite dashboard to visualize different seat-allocation options in Power BI based on Workplace Analytics data
 author: madehmer
