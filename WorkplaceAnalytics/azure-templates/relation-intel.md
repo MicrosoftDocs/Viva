@@ -40,7 +40,7 @@ To create a Relationship Intelligence report:
 2. [Add new analysis](#add-new-analysis) - Follow the steps to create the dataset in Workplace Analytics Azure Templates that uses the account mapping to create the report in Power BI.
 3. [Load the data and view the report](#load-the-data-and-view-the-report) - Follow the steps to download the Power BI template, load the data in Power BI, and then analyze it in the Power BI report.
 
-## Add account mapping
+## Add an account mapping
 
 Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts. See [Required file formats](#required-file-formats) for details about what the files must include based on the type of CRM.
 
@@ -82,7 +82,7 @@ After you add a mapping file for your customer accounts and contacts, do the fol
 
     ![Add new analysis for the report](./images/ri-new-analysis.png)
 
-3. In **Select Account Mapping**, select the mapping file you created in [Add account mappings](#add-account-mappings).
+3. In **Select Account Mapping**, select the mapping file you created in [Add an account mapping](#add-an-account-mapping).
 4. In **Select the Grouping Attributes**, select two to five HR attributes to analyze and use to pivot analysis in Power BI. These are the HR attributes imported with the organizational data from Workplace Analytics.
 5. Select **Submit**. Creating the dataset will take a few minutes up to a few hours based on the size of the data.
 6. In **Relationship Intelligence** > **Analysis**, the analysis table includes the name, the source, the date is was submitted, who submitted it, and the following:
