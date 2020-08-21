@@ -164,7 +164,7 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 3. Under MyAnalytics, select **Settings**.
 4. For **Insights Outlook add-in**, set the control to **On**.
 
-    ![Slider in off position](../../Images/mya/use/add-in-slider-opt-in.png)
+    ![Slider also in off position](../../Images/mya/use/add-in-slider-opt-in.png)
   
 5. Select **Save** to save your changes.
 
