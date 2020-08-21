@@ -28,21 +28,23 @@ This report requires account and contact information from a Customer Relationshi
 ![Relationship Overview report page](./images/ri-report-1.png)
 
 ## Prerequisites
-  
-* **CRM data** –  Accounts and contacts exported as .csv files from your CRM, such as Microsoft Dynamics or Salesforce.
+
+Confirm or do the following before you can follow the instructions to create and view the report in Power BI:
+
+* **CRM data** –  Accounts and contacts exported as .csv files from your CRM, such as Microsoft Dynamics or Salesforce. See [Required file formats](#required-file-formats) for details about what the files must include based on the type of CRM.
 * **Data access** - You need access to unhashed ExternalCollaboratorIDs and unhashed Subject lines to view topics in your organization's Office 365 collaboration data, such as for email, meetings, instant messages, and unscheduled calls.
 * **Power BI Desktop** - Have the latest version of Power BI Desktop installed locally. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 * **Permissions** - The Azure Templates admin must explicitly add people who want to view the Relationship Intelligence reports to the group or access control list for the configured Azure Analysis Services.
 
-To create a Relationship Intelligence report:
+After confirming the prerequisites, do the following to create a Relationship Intelligence report to view in Power BI:
 
-1. [Add account mapping](#add-account-mapping) - Follow the steps to upload your CRM data into a mapping file in Workplace Analytics Azure Templates.
+1. [Add an account mapping](#add-an-account-mapping) - Follow the steps to upload your CRM data (accounts and contacts as .csv files) into the template and create a new account mapping file in Workplace Analytics Azure Templates.
 2. [Add new analysis](#add-new-analysis) - Follow the steps to create the dataset in Workplace Analytics Azure Templates that uses the account mapping to create the report in Power BI.
-3. [Load the data and view the report](#load-the-data-and-view-the-report) - Follow the steps to download the Power BI template, load the data in Power BI, and then analyze it in the Power BI report.
+3. [Load the data and view the report](#load-the-data-and-view-the-report) - Follow the steps to download the Power BI template and load the data in Power BI. You can then use Power BI to visualize the data and drill in to focus on details about a specific account.
 
 ## Add an account mapping
 
-Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts. See [Required file formats](#required-file-formats) for details about what the files must include based on the type of CRM.
+Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts and create a mapping file in the template. See [Required file formats](#required-file-formats) for details about what the files must include based on the type of CRM.
 
 1. In Workplace Analytics Azure Templates, select **Relationship Intelligence**.
 2. Select **Account Mapping** > **Add New Mapping** (at top right) to upload a new set of files for customer accounts and contacts.
