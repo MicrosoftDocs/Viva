@@ -26,8 +26,7 @@ Workplace Analytics includes the following dashboards that you can use in Power 
 * [Influence insights](../tutorials/pbi-influence-db.md)
 * [Manager impact](../tutorials/power-bi-manager-impact.md)
 * [Quickstart overview](../tutorials/power-bi-quickstart.md)
-* [Return to worksites](../tutorials/power-bi-return-tw.md)
-<!-- * [Sales business continuity](../tutorials/pbi-bc-sales.md)-->
+* [Return to worksites](../tutorials/power-bi-return-tw.md)<!-- * [Sales business continuity](../tutorials/pbi-bc-sales.md)-->
 * [Teams insights](../tutorials/power-bi-teams.md)
 
 ## Power BI tips
