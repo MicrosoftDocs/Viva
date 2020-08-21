@@ -58,7 +58,7 @@ Maximize the power of Workplace Analytics to gain insights into how your organiz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../Images/icon-analytics.png" alt="" />
+                            <img src="../Images/icon-returntoWorksite.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
