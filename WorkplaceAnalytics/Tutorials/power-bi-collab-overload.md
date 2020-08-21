@@ -16,9 +16,9 @@ The Collaboration overload dashboard uses a Power BI template that’s populated
 * **Collaboration Hours by Level** - Shows the collaboration patterns in your organization for the different roles and levels. Viewing these patterns can give you the detail and granularity necessary to identify key trends.
 * **Meeting Quality Deep Dive** - The charts provide insights about meetings, such as multitasking, double-booked meetings, and redundancy, that could be impacting overall meeting quality throughout your organization.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration overload** query in Workplace Analytics.
-
 ![Collaboration overload dashboard in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
+
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration overload** query in Workplace Analytics.
 
 ## Prerequisites
 
