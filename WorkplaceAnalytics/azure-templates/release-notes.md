@@ -29,21 +29,26 @@ This release introduces the new Relationship Intelligence report for Power BI th
 
 This report uses account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce to analyze account-level insights into relationship patterns. To learn more, see [Relationship Intelligence](./relation-intel.md).
 
+### Workspace Planning Azure Template
+
+
+
+For details, see [Workspace Planning Azure Template](space-planning.md).
+
 ### Organizational Network Analysis (ONA) Azure Template
 
-* **New ONA metrics** - The following new metrics are now available in ONA graphs:
+* The following new ONA metrics are now available in ONA graphs:
 
-  * **E-I Index** and **Qualitative Variation Index**, which are only available in downloaded graph data.
-  * **Group Size** metric is only available in *combined view* graphs.
-  * **Density ratios** are now available in *group view* graphs.
-
-  For more details, see [measure calculations](ona-metric-calculations.md).
+  * **E-I Index** - Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.  
+  * **Qualitative Variation Index** - Measures the diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data.
+  * **Group Size** - Represents the group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs.
+  * **Density ratio** - Compares the density values of a group to the expected density of a group's size within the context of the tenant, which is now available in *group view* graphs.
 
 * **Zip file download** - Ensures a data download file includes all data and is not restricted by Excel row limits.
 * **Relocated Load Graph option** - Load Graph is now on the main page for each dataset making it easier to find saved graphs.
 * **Dark mode** - This option is now available for ONA visuals, where you can change the background from white to dark.
 
-To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md). See [measure calculations](ona-metric-calculations.md) for more details about the metrics.
 
 ### Join Datasets Azure Template
 

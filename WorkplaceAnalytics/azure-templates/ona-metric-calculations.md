@@ -48,7 +48,7 @@ You can size the nodes based on various network metrics. The following table lis
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
-![Node Sizing Options](./images/ona-node-options-b.png)
+![Node Sizing Options](./images/ona-node-options.png)
 
 ## Are the measures for employees and groups different?
 
