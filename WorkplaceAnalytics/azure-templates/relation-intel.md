@@ -56,7 +56,7 @@ The Relationship Intelligence report includes the following:
 
 ## Prerequisites
 
-* **CRM data** –  Accounts and contacts exported as .csv files from your CRM, such as Microsoft Dynamics or Salesforce. See [Required file formats](#required-file-formats) for details about what the files must include based on the type of CRM.
+* **CRM data** –  Accounts and contacts exported as .csv files from your CRM, such as Microsoft Dynamics or Salesforce. See [Required CRM file formats](#required-crm-file-formats) for details about what the files must include based on the type of CRM.
 * **Data access** - You need access to unhashed ExternalCollaboratorIDs and unhashed Subject lines to view topics in your organization's Office 365 collaboration data, such as for email, meetings, instant messages, and unscheduled calls.
 * **Power BI Desktop** - Have the latest version of Power BI Desktop installed locally. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 * **Permissions** - The Azure Templates admin must explicitly add people who want to view the Relationship Intelligence reports to the group or access control list for the configured Azure Analysis Services.
@@ -121,7 +121,7 @@ After you add a mapping file for your customer accounts and contacts, do the fol
 ## Load the data and view the report
 
 1. In **Workplace Analytics Azure Templates** > **Relationship Intelligence** > **Analysis**, when the analysis status has a green check mark, select the **Download** icon for the analysis.
-2. You need to copy both the server and database information for this analysis when prompted in Power BI Desktop in **Step 6**. 
+2. You need to copy both the server and database information for this analysis when prompted in Power BI Desktop in **Step 6**.
 3. Select **Download PBIX File** to download the Power BI template for the report.
 4. Open the downloaded file in Power BI Desktop.
 5. If prompted, authenticate your credentials, which the Azure Templates admin used to give you access to the Azure Analysis services.
