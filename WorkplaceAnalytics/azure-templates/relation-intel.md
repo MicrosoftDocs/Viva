@@ -21,9 +21,29 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Relationship Intelligence report for Power BI. You can use this report to analyze relationships your organization has with collaborators external to the company, such as relationships with customers or partners.
 
-Workplace Analytics has a variety of measures to help you visualize and analyze formal and informal relationships within your organization, this report can help you understand how internal groups are communicating and spending their time with external collaborators.
+Workplace Analytics has a variety of measures to help you visualize and analyze formal and informal relationships within your organization. This report can help you understand how internal groups are communicating and spending their time with external collaborators.
 
-This report requires account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce. This report uses CRM data to provide account-level focus and insights into relationship patterns.
+This report requires account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce. It uses CRM data to provide account-level focus and insights into relationship patterns.
+
+The Relationship Intelligence report includes the following:
+
+* **Relationship Overview** - Shows information about accounts, including:
+
+  * The Account table shows an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
+  * The **Relationship score** is based on the amount, frequency, and timeliness of collaboration activity with an account.
+  * Page down to see a **Relationship Highlights** chart and a chart with **Distinct contacts** analysis.
+  * Use the **HR Attribute Filter** to focus the chart analysis on a specific collaboration.
+  * The **Group Engagement**, **Collaboration Time**, and **Meetings by Length** charts show more details about account collaboration activity.
+
+* **Account Analysis** - Focuses in on more details about the selected account from the first page, including:
+
+  * See visuals about the average relationship score and how the score has changed over the selected time period.
+  * Use the **HR Attribute Filter** to focus your analysis on specific areas of collaboration for the visuals about collaboration.
+  * The collaboration visuals on this page also show you what type of communication has occurred with contacts over time and who the top individual account contacts are that the organization has collaborated with. It also lists the top groups in the organization that have collaborated with an account.
+  * The **Topics** section shows the main topics in a word cloud that collaboration activity was focused on. The topics are based on the subject lines for meetings and email. Use the **Time Range Selection** to see how the topics in the word cloud change based on what date range is selected.
+  * You'll also see visuals for collaboration trends by communication type and typical meeting lengths for the selected account.
+
+* **Individual Collaborators** - Shows more details about all the individual account contacts and all the organizational groups that have collaborated with these contacts. The tables include the relationship score, rankings, and other details about how your organization is collaborating with individual account contacts for the selected account.
 
 ![Relationship Overview report page](./images/ri-report-1.png)
 
@@ -43,7 +63,7 @@ This report requires account and contact information from a Customer Relationshi
 
 ## Add an account mapping
 
-Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts and create a mapping file in the template. See [Required file formats](#required-file-formats) for details about what the files must include based on the type of CRM.
+Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts and create a mapping file in the template. See [Required file formats](#required-crm-file-formats) for details about what the files must include based on the type of CRM.
 
 1. In Workplace Analytics Azure Templates, select **Relationship Intelligence**.
 2. Select **Account Mapping** > **Add New Mapping** (at top right) to upload a new set of files for customer accounts and contacts.
@@ -51,10 +71,10 @@ Before creating analysis, you need to upload the exported CRM data (.csv) data f
     ![Add a mapping file for the report](./images/ri-account-map.png)
 
 3. In **Name the Account mapping**, enter a friendly name for the mapping file.
-4. In **Provide the accounts** and **Provide the contacts**, select **Choose File**, and then select the .csv files for accounts and contacts, which must be in the required format as described in [Required file formats](#required-file-formats).
+4. In **Provide the accounts** and **Provide the contacts**, select **Choose File**, and then select the .csv files for accounts and contacts, which must be in the required format as described in [Required CRM file formats](#required-crm-file-formats).
 5. In **Specify your CRM source**, select the CRM source for your accounts and contacts.  
 
-## Required file formats
+### Required CRM file formats
 
 The following are examples of what the .csv file formats for accounts and contacts must include.
 
@@ -108,28 +128,6 @@ After you add a mapping file for your customer accounts and contacts, do the fol
 6. In Power BI Desktop, select **Transform data** > **Data source settings** and paste the server and database name that you copied for the analysis in **Step 2** in the **Server** and **Database** fields, and then select **OK**.
 7. If prompted by the Navigator, select **Model**, and then **OK**.
 8. It might take a few minutes up to a few hours to load the data from the database into the report. After it loads, you can analyze report data with Power BI tools and visualizations.
-
-## About the report
-
-The Relationship Intelligence report includes the following.
-
-* **Relationship Overview** - This report shows information about accounts, including:
-
-  * The Account table shows an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
-  * The **Relationship score** is based on the amount, frequency, and timeliness of collaboration activity with an account. 
-  * Page down to see a **Relationship Highlights** chart and a chart with **Distinct contacts** analysis.
-  * Use the **HR Attribute Filter** to focus the chart analysis on a specific collaboration.
-  * The **Group Engagement**, **Collaboration Time**, and **Meetings by Length** charts show more details about account collaboration activity.
-
-* **Account Analysis** - Focuses in on more details about the selected account from the first page, including:
-
-  * See visuals about the average relationship score and how the score has changed over the selected time period.
-  * Use the **HR Attribute Filter** to focus your analysis on specific areas of collaboration for the visuals about collaboration.
-  * The collaboration visuals on this page also show you what type of communication has occurred with contacts over time and who the top individual account contacts are that the organization has collaborated with. It also lists the top groups in the organization that have collaborated with an account.
-  * The **Topics** section shows the main topics in a word cloud that collaboration activity was focused on. The topics are based on the subject lines for meetings and email. Use the **Time Range Selection** to see how the topics in the word cloud change based on what date range is selected.
-  * You'll also see visuals for collaboration trends by communication type and typical meeting lengths for the selected account.
-
-* **Individual Collaborators** - This page shows more details about all the individual account contacts and all the organizational groups that have collaborated with these contacts. The tables include the relationship score, rankings, and other details about how your organization is collaborating with individual account contacts for the selected account.
 
 ## Power BI tips, troubleshooting, and FAQs
 
