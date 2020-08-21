@@ -31,10 +31,9 @@ This report uses account and contact information from a Customer Relationship Ma
 
 ### Organizational Network Analysis (ONA) Azure Template
 
-* **New ONA metrics** - This release includes the new E-I index, Quantitative Variation Index, and new Density ratios. For more details, see [measure calculations](ona-metric-calculations.md).
+* **New ONA metrics** - This release includes the new E-I index and Quantitative Variation Index are available in downloaded graph data. The new Group Size metric and new Density ratios are only available in Combined View graphs. For more details, see [measure calculations](ona-metric-calculations.md).
 * **Zip file download** - Ensures a data download file includes all data and is not restricted by Excel row limits.
 * **Relocated Load Graph option** - Load Graph is now on the main page for each dataset making it easier to find saved graphs.
-* **Group sizes in combined view** - You can now size groups in combined view to help determine the effect of group size in their interactions.
 * **Dark mode** - This option is now available for ONA visuals, where you can change the background from white to dark.
 
 To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).

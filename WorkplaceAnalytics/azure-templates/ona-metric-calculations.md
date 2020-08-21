@@ -132,7 +132,7 @@ A group is *orange* when it's higher in density and *blue* when it's lower in de
 
 ## E-I Index
 
-The E-I index indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group. This is helpful in identifying individuals or groups who are at risk of being siloed. The E-I index is between -1 (all collaboration is internal) and 1 (all communication is external facing). A value of 0 represents a balanced amount of internal and external collaboration. This measure accounts for weighted edges but does not account for direction. An E-I index of -0.67 corresponds to a 5:1 internal to external collaboration. Hence, values at or below -0.67 indicate a group or individual might be at risk of being siloed. In this measure, an individual can only belong to one group.
+The E-I index is only available in downloaded data. It indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group. This is helpful in identifying individuals or groups who are at risk of being siloed. The E-I index is between -1 (all collaboration is internal) and 1 (all communication is external facing). A value of 0 represents a balanced amount of internal and external collaboration. This measure accounts for weighted edges but does not account for direction. An E-I index of -0.67 corresponds to a 5:1 internal to external collaboration. Hence, values at or below -0.67 indicate a group or individual might be at risk of being siloed. In this measure, an individual can only belong to one group.
 
 This measure is calculated differently for employees as compared to groups:
 
@@ -157,7 +157,7 @@ For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
 ## Quantitative Variation Index
 
-The Quantitative Variation Index (QVI) measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
+The Quantitative Variation Index (QVI) is only available in downloaded data. It measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
 
 It ranges from 0 to 1, where a value of 1.0 represents an individual or a group who is equally likely to communicate with all their different types of contacts. A value of 0 indicates an individual who typically communicates with only one type of contact. Note, if the network is grouped into binary classifications (such as Top Performer compared to Other), then the QVI will automatically be 0.0 because the group can only communicates with one other type of group. This measure does not account for direction or weight.
 
