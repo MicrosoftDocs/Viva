@@ -147,7 +147,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 
    **Blank-value error** - Column in table contains blank values and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
 
-2. To remediate this error, select **Transform Data** from the **Transform Data** menu to open the Power Query Editor.
+2. To remediate this error, select **Transform Data** > **Transform Data** to open the Power Query Editor.
 3. Select the applicable query.
 4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
 5. Select the **Hourly collaboration** query and repeat Steps 3-4 to filter out empty values.
