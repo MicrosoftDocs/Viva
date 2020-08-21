@@ -41,7 +41,10 @@ You can size the nodes based on various network metrics. The following table lis
 |[Bridging Index](#bridging-index) | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
 |[Degrees](#degrees) |Measures the overall network size of each node. |
 |[Density](#density) (only in Combined or Grouped View) |Measures the strength of connections between nodes (within groups and between groups). |
+|[E-I Index](#e-i-index) |Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group.|
+|[Group Size](#group-size) |Represents the group size based on the number of people that share the same attribute in the selected time period. |
 |[Influence Index](#influence-index) |Represents a node's potential influence on the opinions of the network or a measure of social status. |<!-- |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
+|[Qualitative Variation Index](#qualitative-variation-index) |Measures the diversity among the contacts (egonet) of an individual or a group. |
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
@@ -141,7 +144,7 @@ This measure is calculated differently for employees as compared to groups:
 
 ## Group Size
 
-Represents groups based on their size in the combined view, which helps you determine how the group size can affect their interactions.
+This measure is only available in the *combined view*. It represents groups based on the number of people in the same group (share the same attribute) for the selected time period. It helps you determine how the group size can affect their interactions.
 
 ## Influence Index
 
@@ -159,9 +162,9 @@ This measure is calculated as follows for employees as compared to groups:
 
 For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
-## Quantitative Variation Index
+## Qualitative Variation Index
 
-The Quantitative Variation Index (QVI) is only available in downloaded data. It measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
+The Qualitative Variation Index (QVI) is only available in downloaded data. It measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
 
 It ranges from 0 to 1, where a value of 1.0 represents an individual or a group who is equally likely to communicate with all their different types of contacts. A value of 0 indicates an individual who typically communicates with only one type of contact. Note, if the network is grouped into binary classifications (such as Top Performer compared to Other), then the QVI will automatically be 0.0 because the group can only communicates with one other type of group. This measure does not account for direction or weight.
 
