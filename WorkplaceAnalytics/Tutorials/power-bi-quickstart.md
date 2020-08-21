@@ -21,6 +21,8 @@ This dashboard provides the following insights.
 * **Onboarding and engagement** – Shows key indicators about employee network diversity, onboarding and integration, and initiative and engagement across the organization, which helps you analyze onboarding effectiveness, job satisfaction, and performance. This data is often paired with additional outcome data, such as employee surveys.
 * **Leadership profile** – Shows key indicators about meetings with managers and leadership exposure, which helps you understand how well managers in your organization are supporting and empowering employees to do their best work.
 
+![Quickstart overview dashboard in Power BI](../Images/WpA/tutorials/pbi-quickstart.png)
+
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Quickstart overview** query in Workplace Analytics.
 
 ## Prerequisites
