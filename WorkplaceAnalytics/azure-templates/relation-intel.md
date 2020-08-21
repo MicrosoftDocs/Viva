@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Relationship intelligence report
+# Relationship Intelligence
 
 _These templates are only available as part of a Microsoft service engagement._
 

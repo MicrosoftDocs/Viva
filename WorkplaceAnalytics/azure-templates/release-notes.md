@@ -19,6 +19,32 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## August 2020
+
+The following new template and template features, enhancements, and changes are in this month's release.
+
+### Relationship Intelligence Azure Template and Power BI report
+
+This release introduces the new Relationship Intelligence report for Power BI that analyzes formal and informal relationships within your organization and understand how these internal groups are communicating and spending their time with external collaborators, such as customers or partners.
+
+This report uses account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce to analyze account-level insights into relationship patterns. To learn more, see [Relationship Intelligence](./relation-intel.md).
+
+### Organizational Network Analysis (ONA) Azure Template
+
+* **New ONA metrics** - This release includes the new E-I index, Quantitative Variation Index, and new Density ratios. For more details, see [measure calculations](ona-metric-calculations.md).
+* **Zip file download** - Ensures a data download file includes all data and is not restricted by Excel row limits.
+* **Relocated Load Graph option** - Load Graph is now on the main page for each dataset making it easier to find saved graphs.
+* **Group sizes in combined view** - You can now size groups in combined view to help determine the effect of group size in their interactions.
+* **Dark mode** - This option is now available for ONA visuals, where you can change the background from white to dark.
+
+To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+
+### Join Datasets Azure Template
+
+Join Datasets has the following new features and enhancements: 
+
+*  
+
 ## July 2020
 
 The following new template and template features, enhancements, and changes are in this month's release.

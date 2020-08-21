@@ -32,10 +32,10 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 4. In **Select the Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
 5. In **Specify the Interaction Types and Thresholds**, select the following.
 
-   * **Choose the interaction type(s)**: Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
-   * **Max number of people involved in each interaction**: Select the maximum number of people involved in each interaction.
-   * **Maximum duration of a meeting or call**: Select the maximum number of interactions between the selected groups or people.
-   * **Advanced Settings**: Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
+   * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
+   * **Max number of people involved in each interaction** - Select the maximum number of people involved in each interaction.
+   * **Maximum duration of a meeting or call** - Select the maximum number of interactions between the selected groups or people.
+   * **Advanced Settings** - Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
 
    >[!Important]
    >When analyzing calls or chats, you'll only see data from the time period where all signals exist. For example, if you select meetings and calls to analyze and 13 months of meeting data is available, but only three months of Teams data is available, you'd only see data for the three months that include both meetings and calls.
@@ -73,18 +73,18 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    Option |Name |Description
    ------------|--------------|------------
-   ![ONA no measure](./images/ona-no-measure.png)| No Measure | Changes how the data is measured and shown in the graph based on the Node Size option you select.
-   ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.
-   ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.
-   ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.
+   ![ONA no measure](./images/ona-no-measure.png)| No Measure | Changes how the data is measured and shown in the graph based on the Node Size option you select.|
+   ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.|
+   ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.|
+   ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.|
    ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in the following layouts. Note that this option is unavailable when the number of graph nodes exceeds the values set by your admin: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries. </li><li> Organic - Spreads nodes and links apart, so multiple components are laid out with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don't want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
-   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.
-   ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.
-   ![ONA change settings](./images/ona-settings.png) | Change Settings |Select if the link lines scale the thickness or color darkness based on total time spent between groups. You can also use this to turn tool tips on or off. For some views, you can also select to turn on or off node titles.
-   ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.
-   ![ONA download table](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).
-   ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown to load and view later.
-   ![ONA recompute](./images/ona-recompute-icon.png) | Recompute Metrics |This only appears if the analysis is filtered by HR attributes. Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).
+   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.|
+   ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.|
+   ![ONA change settings](./images/ona-settings.png) | Change Settings |Select if the link lines scale the thickness or color darkness based on total time spent between groups. You can also use this to turn tool tips on or off. For some views, you can also select to turn on or off node titles.|
+   ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.|
+   ![ONA download table](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).|
+   ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown to load and view later.|
+   ![ONA recompute](./images/ona-recompute-icon.png) | Recompute Metrics |This only appears if the analysis is filtered by HR attributes. Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).|
 
 ## To add new subgroup analysis
 
@@ -172,9 +172,24 @@ When viewing Density graph data, the higher density (orange) and lower density (
 
 A group is *orange* when it's higher in density and *blue* when it's lower in density than what's expected. The cells are not colored by the value of the density in the table, they are colored based on the modularity. The colors are only shown in the metrics download (.csv) file and not in the table view in the template. For more details and a definition of what modularity is, see the [measure calculations](ona-metric-calculations.md#density).
 
+### E-I Index
+
+The E-I index indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group. This is helpful in identifying individuals or groups who are at risk of being siloed. The E-I index is between -1 (all collaboration is internal) and 1 (all communication is external facing). A value of 0 represents a balanced amount of internal and external collaboration. This measure accounts for weighted edges but does not account for direction. An E-I index of -0.67 corresponds to a 5:1 internal to external collaboration. Hence, values at or below -0.67 indicate a group or individual might be at risk of being siloed. In this measure, an individual can only belong to one group.
+
+This measure is calculated differently for employees as compared to groups:
+
+* **Employee level** - The external ties are those outside of the employee's own group and internal ties are the connections the employee has with others in the same group.
+* **Group level** - The external ties are those outside of the group and internal ties are those within the same group.
+
 ### Influence Index
 
 Represents the number of links each person or group (node) has and the number of links their connections have, and so on throughout the network. The larger nodes represent the people or groups with high centrality and therefore, are considered key influencers in their network. Influence occurs from these influencers sharing information to their network, who then forward it to theirs, and so on. High values suggest the central person's or group's perspective will flow through the organization with efficiency. For more details, see the [measure calculations](ona-metric-calculations.md#influence-index).
+
+### Quantitative Variation Index
+
+The Quantitative Variation Index (QVI) measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
+
+It ranges from 0 to 1, where a value of 1.0 represents an individual or a group who is equally likely to communicate with all their different types of contacts. A value of 0 indicates an individual who typically communicates with only one type of contact. Note, if the network is grouped into binary classifications (such as Top Performer compared to Other), then the QVI will automatically be 0.0 because the group can only communicates with one other type of group. This measure does not account for direction or weight.
 
 <!-- ### Reach Index
 
@@ -183,7 +198,7 @@ Represents the ability to access or share information across the organization wh
 > [!Note]
 > Weights are not factored into Reach Index computations. Also, group-level measures are not yet available for Reach Index.
 -->
-### Graph notes
+## Graph notes
 
 * **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the grouped or combined view, the insufficient group's edges and node won't show in the graph.
 
