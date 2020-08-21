@@ -97,7 +97,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
 2. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
 
-   ![Add New Analysis](./images/ona-subgroup-analysis.png)
+   ![Add New Subgroup Analysis](./images/ona-subgroup-analysis.png)
 
 3. Optionally, in **Specify the Network Boundary Condition**, you can select either single or multiple network boundaries and applicable HR attributes. With multiple boundaries, you can only select one HR attribute. If you want to analyze more, create new analysis for each.
 
