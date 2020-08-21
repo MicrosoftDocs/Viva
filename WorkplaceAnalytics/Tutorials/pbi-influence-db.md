@@ -1,7 +1,7 @@
 ---
 
 title: Influence insights dashboard
-description: Description, setup, and use of the Influence insights dashboard in Power BI
+description: Learn how to set up and use the Influence insights dashboard in Power BI
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -9,21 +9,19 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Influence insights dashboard
+# Influence insights
 
 The Influence insights dashboard uses a Power BI template that’s populated by data from Workplace Analytics to gain insights into influencers, who are well connected people in your company. This dashboard lets you visualize and explore answers to the following business questions that leaders ask:
 
-|Business question |Analysis |
-|-------------|------------------|
-|Where are the influencers in your company? | <ul><li>Which organizations have concentrated influencer presence?  </li><li> Which organizations have limited influencer presence?</ul> |
-| Who is involved in decision-making processes?	| <ul><li> Are decisions being made in a top-down or in a more decentralized manner?  </li><li> Are employees at various levels in the hierarchy empowered to make decisions? </ul>|
-| How are influencers adapting to the remote work situation? | <ul><li>How are influencers’ collaboration patterns changing in response to this disruption?  </li><li> What impact does this disruption have on the key roles that influencers play? </ul>|
+* **Where are the influencers in your company?** - Shows which organizations have concentrated influencer presence and have limited influencer presence.
+* **Who is involved in decision-making processes?** - Shows if business decisions are made in a top-down or in a more decentralized manner and if employees at various levels in the hierarchy are empowered to make decisions.
+* **How are influencers adapting to the remote work situation?** - Shows how influencers’ collaboration patterns are changing in response to this disruption and what impact this disruption is having on the key roles that influencers play.
 
-Before you can use the Influence insights dashboard in Power BI, it must be populated with data. To do this, set up and run the predefined Influence insights and Standard query queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis. 
+Before you can use the Influence insights dashboard in Power BI, it must be populated with data. To do this, set up and run the predefined Influence insights and Standard query queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.
 
 After you successfully run these queries, you'll see the Influence insights Power BI template as an available download option for the Influence insights query. You’ll need this template to create the Influence insights dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
-After the Influence insights Dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
+After the Influence insights dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
 ## Prerequisites
 
@@ -36,18 +34,18 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 This dashboard requires results from two queries. For this reason, in the following procedure, you first run one query (**Influence insights**), and then you repeat some steps to run the second query, the **Standard person** query.  
 
-1.	In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 
-2.	Under **Start from preselected filters and metrics**, select **Influence insights** (or select **Standard person query**, per Step 7) to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Influence insights** (or select **Standard person query**, per Step 7) to open the predefined query, which contains the required metrics to populate the dashboard.
 
     ![Influence insights queries](../Images/WpA/Tutorials/influence-insights-step-2.png)
- 
+
 3. Select or confirm the following query settings:
 
    * **Name**: Customize or keep the default name
-   * **Group by**: 
+   * **Group by**:
      * When you configure the **Influence insights** query, select **Aggregated**.
-     * When you configure the **Standard person** query, select **Month**. 
+     * When you configure the **Standard person** query, select **Month**.
    * **Time period**: Last 6 months
    * **Meeting exclusions**:
       * When you configure the **Influence insights** query, this choice is not available.
@@ -88,11 +86,10 @@ This dashboard requires results from two queries. For this reason, in the follow
     * The **Values in the Manager Indicator column representing a manager+** field indicates the values in the column that represent whether a person is a manager’s manager or not. Usually it is "Mngr+" or "Mgr+". You can provide multiple values here, including spaces, as long as they are delimited by semi-colons or commas. Example: **Mgr+, Mngr+**
     * The **Values in the Manager Indicator column representing an individual contributor** field indicates the values in the column that represent whether a person is an IC or not. Usually it is "IC". You can provide multiple values here, including spaces, as long as they are delimited by semi-colons or commas. Example: **IC, Individual contributor**
 
-    > [!Note] 
+    > [!Note]
     > If the optional values on this page are not provided or incorrectly provided, some insights might show up with a message such as, "This insight requires the Manager Indicator column to be configured while loading the Power BI template." However, the rest of the PBI loads and is functional.
 
     * Finally, select **Load** to import the query results into Power BI. Loading these large files might take some time to complete.
-
 
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**.
@@ -114,10 +111,10 @@ The following dashboard reports highlight unique insights about influencers and 
 
 The Glossary report at the end of the dashboard provides information about the underlying metric that drives the dashboard. An interpretation is provided in the text box of each report. Here are the influencers reports, with nuances to consider for each:
 
- * **Your influencers at a glance.** This report frames the data and gives an overview of the various reports. Select the "i" icon next to each business question to view the related report.
- * **Where are the influencers in your company?** This report shows where influencers are present at the organization level. You can select to focus on the top 5, 10, 15 or 20% of influencers. (After you make this  selection, it applies to all of the dashboard reports.) You can further filter and slice across other available attributes.
- * **Who is involved in decision making processes** This report shows you how employees at various levels are empowered to make decisions. You can view this at the organization level or by any other available attribute.
- * **How are influencers adapting to remote work situations?** Unlike the other reports, this report shows changes between the baseline time frame and the current time frame. It shows the trend in collaboration hours by channel for influencers and it demonstrates the slippage between work and life balance.
+ * **Your influencers at a glance** - Frames the data and gives an overview of the various reports. Select the "i" icon next to each business question to view the related report.
+ * **Where are the influencers in your company?** - Shows where influencers are present at the organization level. You can select to focus on the top 5, 10, 15 or 20% of influencers. (After you make this  selection, it applies to all of the dashboard reports.) You can further filter and slice across other available attributes.
+ * **Who is involved in decision making processes** - Shows you how employees at various levels are empowered to make decisions. You can view this at the organization level or by any other available attribute.
+ * **How are influencers adapting to remote work situations?** - Unlike the other reports, this one shows changes between the baseline and current time periods. It shows the trend in collaboration hours by channel for influencers and can demonstrate the slippage between work and life balance.
 
 ## Power BI tips, troubleshooting, and FAQs
 
