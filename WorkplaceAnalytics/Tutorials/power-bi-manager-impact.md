@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Manager impact
 
-The Manager impact dashboard for Power BI uses Workplace Analytics data to view standard behaviors and leadership exposure among managers in your organization. Leaders can use this analysis to determine if increasing leadership exposure and transparency might help employees feel more engaged with their projects. Or if your organization has too much leadership exposure, you might have unnecessary redundancy in communications and business processes.
+The Manager impact dashboard for Power BI uses Workplace Analytics data to view standard behaviors and leadership exposure among managers in your organization. Leaders can use this analysis to measure behaviors and trends of people managers across the organization. You'll also get insights about key behaviors by organization and best practices recommended by industry experts to either maintain or improve leadership work patterns.
 
 This dashboard provides insights into the following areas about your organization.
 
@@ -19,6 +19,8 @@ This dashboard provides insights into the following areas about your organizatio
 * **Leadership exposure** – Shows how leaders interact with employees in your organization, including manager coaching hours, manager generated workload meetings and email, meeting hours with managers, and skip-level meetings.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager impact** query in Workplace Analytics.
+
+![Manager Impact dashboard in Power BI](../Images/WpA/tutorials/pbi-manager-impact.png)
 
 ## Prerequisites
 

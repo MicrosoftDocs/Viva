@@ -11,12 +11,14 @@ ms.prod: wpa
 
 # Collaboration overload
 
-The Collaboration overload dashboard uses a Power BI template that’s populated by Workplace Analytics data to identify areas of collaboration overload in your organization. The metrics in this dashboard show where overall collaboration patterns, time fragmentation, or meeting quality could be improved.
+The Collaboration overload dashboard uses a Power BI template that’s populated by Workplace Analytics data to identify areas of excessive collaboration in your organization. The metrics in this dashboard show where overall collaboration patterns, time fragmentation, or meeting quality could be improved.
 
-* **Collaboration Hours by Level** - Shows the collaboration patterns in your organization for the different roles and levels. Viewing these patterns by level can give you the detail and granularity necessary to identify key trends.
+* **Collaboration Hours by Level** - Shows the collaboration patterns in your organization for the different roles and levels. Viewing these patterns can give you the detail and granularity necessary to identify key trends.
 * **Meeting Quality Deep Dive** - The charts provide insights about meetings, such as multitasking, double-booked meetings, and redundancy, that could be impacting overall meeting quality throughout your organization.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration overload** query in Workplace Analytics.
+
+![Collaboration overload dashboard in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
 ## Prerequisites
 
@@ -60,8 +62,6 @@ Before you can run the query and populate the dashboard in Power BI, you must:
     ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 
 16. Select **Connect** to show the status of the data preparation, which might take several minutes up to several hours to load. After the data loads, Power BI uses visualization charts to show your organization's collaboration patterns.
-
-    ![Results visualized in Power BI](../Images/WpA/tutorials/pbi-templates-08a.png)
 
 ## Power BI tips, troubleshooting, and FAQs
 
