@@ -139,6 +139,10 @@ This measure is calculated differently for employees as compared to groups:
 * **Employee level** - The external ties are those outside of the employee's own group and internal ties are the connections the employee has with others in the same group.
 * **Group level** - The external ties are those outside of the group and internal ties are those within the same group.
 
+## Group Size
+
+Represents groups based on their size in the combined view, which helps you determine how the group size can affect their interactions.
+
 ## Influence Index
 
 Influence Index indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
