@@ -25,7 +25,7 @@ The template combines Workplace Analytics data with your team size, workspace ca
 
 ## Use cases
 
-* **Moving to a new workspace** and your organization wants to know the best workspace plan for employees within a building that will yield optimal cross-team collaboration.
+* **Moving to a new workspace** and your organization wants to know the best workspace plan for employees within a building for optimal cross-team collaboration.
 * **Reorganizing an existing workspace** and your organization wants to generate an optimized floor plan and compare it to the current floor plan, based on current communication patterns.
 
 ## How it works
