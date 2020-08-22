@@ -32,10 +32,10 @@ The template combines Workplace Analytics data with your team size, workspace ca
 
 This template combines Workplace Analytics data with your team size, workspace capacity, and the distances between the floors and the buildings to generate floor plans with recommended seating.
 
- * [Interaction](#create-an-interaction-file): This is a Workplace Analytics group-to-group query that includes meeting and email activity for insight into current work and collaboration patterns.
- * [Space capacity](#create-a-space-capacity-file): This file includes details about the maximum capacity for the workspace.
- * [Distance](#create-a-distance-file): This file includes details about the walking distances in a unit you specify, such as minutes or meters that can be estimates, between floors or buildings.
- * [Team size](#create-a-team-size-file): This file includes details about the number of employees in each team in your organization.
+* [Interaction](#create-an-interaction-file): This is a Workplace Analytics group-to-group query that includes meeting and email activity for insight into current work and collaboration patterns.
+* [Space capacity](#create-a-space-capacity-file): This file includes details about the maximum capacity for the workspace.
+* [Distance](#create-a-distance-file): This file includes details about the walking distances in a unit you specify, such as minutes or meters that can be estimates, between floors or buildings.
+* [Team size](#create-a-team-size-file): This file includes details about the number of employees in each team in your organization.
 
 This template combines the data in these files and generates a table that shows where to seat people in the specified floor plan.
 
@@ -142,10 +142,7 @@ The following graphic depicts a building with four floors. The distance between 
    * **Team**: Enter the name or function of each team.
    * **Actual Size**: Enter the number of employees that are in each corresponding team.
 
-3. Save the file, and then:
-
-   * If your workspaces use fixed (assigned) seats, continue to the next set of steps.
-   * If your workspaces need office seat variables defined, skip to [these steps](#for-office-seat-variables).
+3. Save the file, and continue to the next set of steps.
 
    ![Team size table](./images/wsp-team-table.png)
 
