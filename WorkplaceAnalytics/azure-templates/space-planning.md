@@ -19,13 +19,13 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates include the Workspace Planning template that enables a quantitative solution to effectively identify and seat teams in a specified workspace. This planning can help maximize and foster physical workspace for teams and for cross-team productivity and collaboration.
+Workplace Analytics Azure Templates include the Workspace Planning template that provides a quantitative solution to optimize the seat locations of teams based on their collaboration with the teams around them. This planning can help maximize and foster physical workspace for teams and for cross-team productivity and collaboration.
 
-The template combines Workplace Analytics data with your team size and workspace capacity and distances between floors and buildings to generate floor plans with recommended seating.
+The template combines Workplace Analytics data with your team size, workspace capacity, and the distances between seating areas to generate an optimized floor plans.
 
 ## Use cases
 
-* **Moving to a new workspace** and your organization wants to know the best workspace plan for employees within a building that'll promote the most effective team and cross-team collaboration.
+* **Moving to a new workspace** and your organization wants to know the best workspace plan for employees within a building that will yield optimal cross-team collaboration.
 * **Reorganizing an existing workspace** and your organization wants to generate an optimized floor plan and compare it to the current floor plan, based on current communication patterns.
 
 ## How it works
@@ -43,10 +43,9 @@ This template combines the data in these files and generates a table that shows 
 
 ## Key features
 
+* **Fixed Spaces**: Allows the user to fix specific teams to particular locations and then optimize the remaining teams around them such that teams are situated nearest to teams with which they have the most collaboration.
 * **Interactive mode**: Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
-* **Fixed seat variables**: Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.
-* **Office seat variables**: Enables you to differentiate between two seat variables at the office level, such as an Office space (desks assigned to one person) and a Workpoint space (shared desks or open space), or two other variables of your choosing. For example, if your team requires 100 regular desks, and 5 offices, you can update your base files to set those as constraints to optimize your team's placement within a floor. Requires a different version of the space_capacity.csv and team_size.csv input file.
-* **Relative constraints**: Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.
+* **Co-Located Teams** (coming soon): Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.<!--* **Relative constraints**: Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.-->
 
 ## Deploy and configure the template
 
@@ -94,7 +93,7 @@ This template combines the data in these files and generates a table that shows 
 > [!Note]
 > Only include spaces that you want to account for or utilize.
 
-1. Open and save the [space_capacity.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage.
+1. Open and save the [space_capacity.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage. The file must be named **space_capacity.csv** (match exactly).
 2. In the **Floor** (first) column in the file, replace the example floor names with your own that match the same format of [**Building name**-**Floor number**], as shown in the following graphic.
 
    * Use valid characters, including: **a-z**, **A-Z**, **0-9**, "**-**" (dashes), and " " (spaces)
@@ -104,17 +103,6 @@ This template combines the data in these files and generates a table that shows 
 4. If you have office seat variables to define, continue to the next set of steps. Otherwise, save and close the file.
 
    ![Space capacity table](./images/wsp-space-table.png)
-
-### Add office seat variables
-
-1. In the **space_capacity.csv** file you just created in the previous steps, add a new column and name it **Workpoint**.
-2. Add another new column and name it **Office**.
-3. In the **Workpoint** column for the associated workspace, list how many seats are standard desks (shared desks or open space). If the workspace has no available seats, enter 0 (zero).
-4. In the **Office** column for the associated workspaces, list how many office seats (desks assigned to one person) are available within that workspace.
-5. Your final floor plan should look similar to the following example.
-6. Save and close the file.
-
-    ![Floor plan with office seat variables](./images/wsp-office-level.png)
 
 ## Create a Distance file
 
@@ -161,15 +149,15 @@ The following graphic depicts a building with four floors. The distance between 
 
    ![Team size table](./images/wsp-team-table.png)
 
-### For fixed seat variables
+### For co-located teams
 
-1. In the **team_size.csv** file you just created in the previous set of steps, add a new column and name it **Adjacent Size**.
+1. In the **team_size.csv** file you just created in the previous set of steps, add a new column named **Adjacent Size**.
 2. Add another new column and name it for the team to which you want to enforce adjacency.
 3. For each row in the new team column, enter the number of team members you want to place next to each team, entering a 0 for the row that has the same team name.
 4. In the **Adjacent Size** column, for the rows that are not the same team as the new column, add the Size column and the value in the new team column.  For the row that matches the team name in the new column, total the new Team column. And then subtract that sum from the **Size** column and enter that value in the **Adj Size** cell.
 
    ![Fixed seat variables](./images/wsp-adj-size.png)
-
+<!--
 ### For office seat variables
 
 1. In the **team_size.csv** file you just created in the previous set of steps, add a new column and name it **Workpoint Seats**, which represents how many standard desk seats (shared desks or open space) the team needs.
@@ -202,7 +190,7 @@ The following graphic depicts a building with four floors. The distance between 
 
    In the following example, the first constraint defines that Team 1 be as close as possible to Team 2. The second constraint defines Team 3 be as far away as possible from Team 4.
 
-   ![Team constraints](./images/wsp-team-constraints.png)
+   ![Team constraints](./images/wsp-team-constraints.png)-->
 
 ## Generate a Floor Plan
 
@@ -233,6 +221,18 @@ that shows the calculated floor plans and how many employees from a team can sit
   * **orange** represents a team where not all the members on the team are accounted for or placed
 
    ![Floor Plan team size colors](./images/wsp-floor-plan-size.png)
+
+## Activate Fixed Spaces
+
+After generating an optimized floor plan, you can clear the floor plan, locate related teams to specific locations, and re-run the optimization:
+
+1. Select the **Fixed Spaces** option (top left) for the floor plan, which will clear the current floor plan and revert all values to zero.
+2. Select and change the zero value for a team location to the number of members of the team you want to locate in that space.
+3. Repeat Step 2 until you have entered values for all the teams you want to locate in this floor plan.
+4. Select **Update Floorplan** to generate an optimized floor plan with these updated fixed values.
+
+> [!Note]
+> The more teams you assign to fixed locations, the less optimized the floor plan can be.
 
 ## Related topics
 
