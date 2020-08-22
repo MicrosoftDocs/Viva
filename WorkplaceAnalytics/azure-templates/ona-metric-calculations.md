@@ -40,11 +40,11 @@ You can size the nodes based on various network metrics. The following table lis
 |[Boundary Spanning](#boundary-spanning) |Measures how well people in one group shares information with other groups. |
 |[Bridging Index](#bridging-index) | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
 |[Degrees](#degrees) |Measures the overall network size of each node. |
-|[Density](#density) (only in Combined or Grouped View) |Measures the strength of connections between nodes (within groups and between groups). |
-|[E-I Index](#e-i-index) |Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group.|
-|[Group Size](#group-size) |Represents the group size based on the number of people that share the same attribute in the selected time period. |
+|[Density](#density) |Measures the strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
+|[E-I Index](#e-i-index) |Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
+|[Group Size](#group-size) |Represents the group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
 |[Influence Index](#influence-index) |Represents a node's potential influence on the opinions of the network or a measure of social status. |<!-- |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
-|[Qualitative Variation Index](#qualitative-variation-index) |Measures the diversity among the contacts (egonet) of an individual or a group. |
+|[Qualitative Variation Index](#qualitative-variation-index) |Measures the diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
@@ -145,6 +145,9 @@ This measure is calculated differently for employees as compared to groups:
 ## Group Size
 
 This measure is only available in the *combined view*. It represents groups based on the number of people in the same group (share the same attribute) for the selected time period. It helps you determine how the group size can affect their interactions.
+
+> [!Note]
+> Filtering will not change group sizes.
 
 ## Influence Index
 

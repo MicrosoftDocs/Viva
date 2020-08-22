@@ -180,7 +180,10 @@ The E-I index is between -1 (all collaboration is internal) and 1 (all communica
 
 ## Group Size
 
-This measure is only available in the *combined view*. It represents groups based on the number of people in the same group (share the same attribute) for the selected time period. It helps you determine how the group size can affect their interactions.  
+This measure is only available in the *combined view*. It represents groups based on the number of people in the same group (share the same attribute) for the selected time period. It helps you determine how the group size can affect their interactions.
+
+> [!Note]
+> Filtering will not change group sizes.
 
 ### Influence Index
 
