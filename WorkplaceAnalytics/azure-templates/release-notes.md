@@ -31,7 +31,7 @@ This report uses account and contact information from a Customer Relationship Ma
 
 ### Workspace Planning Azure Template
 
-
+This release adds a new option to the Workspace Planning Azure Template that enables you to clear a current floor plan, enter new values for fixed seats for team locations, and then re-run the new floor plan for optimization.
 
 For details, see [Workspace Planning Azure Template](space-planning.md).
 
