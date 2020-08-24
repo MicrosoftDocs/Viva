@@ -185,7 +185,7 @@ Each box in this chart represents the five-number summary of the external networ
 
 ### External network breadth
 
-External network breadth refers to the number of distinct external domains with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
+External network breadth refers to the number of distinct external domains with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month). (A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people.)
 
 ![External network breadth](../images/wpa/use/35-ext-collab-network-breadth.png)
 
