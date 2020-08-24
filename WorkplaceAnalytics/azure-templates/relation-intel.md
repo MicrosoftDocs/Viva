@@ -138,7 +138,7 @@ After you add a mapping file for your customer accounts and contacts, do the fol
 
 ![Use Drill through for Account Analysis and Individual Collaborator data](./images/ri-drill-through.png)
 
-* **Common error** - If you see an error similar to the following, you might not have the correct information copied for the Server and Database fields in Power BI. Repeat the steps in [Load the data and view the report](#load-the-data-and-view-the-report).
+* **Power BI data error** - If you see an error similar to the following, you might not have the correct information copied for the Server and Database fields in Power BI. Repeat the steps in [Load the data and view the report](#load-the-data-and-view-the-report).
 
     ![Power BI error if no database and server data are linked](./images/ri-pbi-error.png)
 
