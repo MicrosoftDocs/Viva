@@ -147,7 +147,7 @@ Each box in this chart represents the five-number summary of the number of hours
 
 The following graph shows which groups in your company have the most people collaborating with external domains where the group-by attribute is defined in the Time investors section in [Page settings](#page-settings). By default, the group-by attribute is "Organization" for time investors.  
 
-![External network size](../images/wpa/use/33-most-people-collab.png)
+![External collaborators](../images/wpa/use/33-most-people-collab.png)
 
 **Bar chart**
 
@@ -167,7 +167,7 @@ External network size and external network breadth show the extent to which pers
 
 External network size refers to the number of people external to the company with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
 
-![External network size](../images/wpa/use/34-groups-most-ext-people-conn.png)
+![External connections](../images/wpa/use/34-groups-most-ext-people-conn.png)
 
 **Bar chart**
 

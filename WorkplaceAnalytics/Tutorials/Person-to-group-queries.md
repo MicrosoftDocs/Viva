@@ -63,7 +63,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 9. In the **Their collaborators** section, you can add employee filters to exclude specific collaborators, such as by Domain, FunctionType, or Organization.
 
-       ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+   ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
 
 10. At this point, the collaborators are not grouped, therefore the query results won't show which collaborators interacted with the time investors. To group the collaborators, answer the question *How do you want to group the people who collaborated with the time investors?* to show which groups interacted with them. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
 
