@@ -50,12 +50,6 @@ For details, see [Workspace Planning Azure Template](space-planning.md).
 
 To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md). See [measure calculations](ona-metric-calculations.md) for more details about the metrics.
 
-### Join Datasets Azure Template
-
-Join Datasets has the following new features and enhancements:
-
-*  
-
 ## July 2020
 
 The following new template and template features, enhancements, and changes are in this month's release.
