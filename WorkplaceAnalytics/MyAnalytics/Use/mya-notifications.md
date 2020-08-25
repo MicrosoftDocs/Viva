@@ -124,10 +124,9 @@ Select **See suggested times** to open a pane that displays all the time availab
 
 ![Book focus time](../../Images/mya/use/book-focus-time.png)
 
-
 ## Plan your time away
 
-When composing an email or calendar invitation about your upcoming time away from work, you might see a suggestion to plan for your time away.
+When composing an email or calendar invitation about upcoming time away from work, you might see a suggestion to plan for it.
 
 ![Plan your time away checklist](../../Images/mya/use/inline-away.png)
 
