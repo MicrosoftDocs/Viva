@@ -18,7 +18,7 @@ Did you ever miss an important email or forget a commitment you made to your co-
 
 If your answer to any of these questions is _yes_, the Outlook add-in provides insights that you can act upon to help you stay on top of your tasks and get more done. This add-in is an extension of your Outlook experience and works within Outlook to help you gain focus time, maintain your work relationships, plan time away from work, and improve your overall work-life balance.
 
-## Privacy by design 
+## Privacy by design
 
 [!INCLUDE [Privacy by design](../includes/privacy-by-design.md)]
 
@@ -28,7 +28,7 @@ Before you can use the Insights add-in, the following system prerequisites are m
 
 * Have a MyAnalytics user license and at least 24 hours have elapsed since you were granted that license.
 * Your computer has Outlook desktop 2016 version 16.0.7924.1 or later for Windows, or version 15.39.1010 of later for Mac.
-* Have Edge, or Internet Explorer version 11 or later installed on your computer.  
+* Internet Explorer version 10 or 11 installed on your computer.  
 * Open the Insights add-in in one of the programs listed under [Open the Insights add-in](#open-the-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop).
 * In Outlook, you will select an email in one of the following ways:
 
