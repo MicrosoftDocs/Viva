@@ -29,15 +29,16 @@ Also, verify that the _Insights add-in_ is installed in Outlook. If it is not in
 
 ## Types of inline suggestions
 
-The following are a few of the suggestions you might see in Outlook: 
+The following are a few of the suggestions you might see in Outlook:
 
- * [Delay email delivery](#delay-email-delivery)
- * [Suggested outstanding tasks](#suggested-outstanding-tasks)
- * [Get more time to focus](#get-more-time-to-focus)
- * [Protect your focus time](#protect-your-focus-time)
- * [Shorten a meeting](#shorten-a-meeting)
- * [Track email open rate](#track-email-open-rate)
- * [Track email](#track-email)
+* [Delay email delivery](#delay-email-delivery)
+* [Suggested outstanding tasks](#suggested-outstanding-tasks)
+* [Get more time to focus](#get-more-time-to-focus)
+* [Plan your time away](#plan-your-time-away)
+* [Protect your focus time](#protect-your-focus-time)
+* [Shorten a meeting](#shorten-a-meeting)
+* [Track email open rate](#track-email-open-rate)
+* [Track email](#track-email)
 
 ## Opt out of inline suggestions
 
@@ -121,15 +122,25 @@ While reading a calendar invitation, you might see a suggestion to **Book time f
  
 Select **See suggested times** to open a pane that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
 
-![Book focus time](../../Images/mya/use/book-focus-time.png) 
+![Book focus time](../../Images/mya/use/book-focus-time.png)
+
+
+## Plan your time away
+
+When composing an email or calendar invitation about your upcoming time away from work, you might see a suggestion to plan for your time away.
+
+![Plan your time away checklist](../../Images/mya/use/inline-away.png)
+
+> [!Note]
+> This suggestion is only available if you have an E5 plan. It's coming to soon to E1/E3 plans.
 
 ## Protect your focus time
 
 If a meeting request conflicts with an existing focus-time block, you might see a suggestion to protect your focus-time block by moving the focus time to another time or to meet at another time.
 
-![Protect focus time](../../Images/mya/use/protect-focus-time.png) 
- 
-Select **See other available times** to open the Insights add-in pane and display all the available time in the coming week to reschedule the meeting. By selecting a time block you can propose a new time to the meeting organizer. 
+![Protect focus time](../../Images/mya/use/protect-focus-time.png)
+
+Select **See other available times** to open the Insights add-in pane and display all the available time in the coming week to reschedule the meeting. By selecting a time block you can propose a new time to the meeting organizer.
 
 ![focus time send email](../../Images/mya/use/focus-time-send-email-2-50.png)
 
