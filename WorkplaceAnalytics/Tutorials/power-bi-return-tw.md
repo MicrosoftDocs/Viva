@@ -140,6 +140,7 @@ The last report in the Return to worksites dashboard describes further analysis 
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
-## Related topic
+## Related topics
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [Return to worksites playbook](https://docs.microsoft.com/workplace-analytics/tutorials/Return-to-worksites-playbook.pdf) 
+* [View, download, and export query results](../use/view-download-and-export-query-results.md)
