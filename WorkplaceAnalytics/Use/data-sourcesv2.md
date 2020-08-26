@@ -29,4 +29,15 @@ audience: Admin
 
 ![Sources](../images/WpA/Use/sources-o365.png)
 
+### Video: Learn about Data sources
+
+<!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
+WE USE THE FOLLOWING ONES IN OTHER PLACES: 
+
+<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+-->
+
+<iframe src="https://player.vimeo.com/video/434890175" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 [!INCLUDE [To open Sources in Workplace Analytics](../includes/to-open-wpa-sources.md)]
+
