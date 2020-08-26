@@ -12,7 +12,9 @@ ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
+
 ---
+
 # Data analysis in Workplace Analytics
 
 Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
@@ -37,3 +39,13 @@ Workplace Analytics provides the following ways to analyze and explore your data
 * [Upload](../use/settings.md#upload) – Prepare and upload organizational and customer data.
 * [Analysis settings](../use/settings.md#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
 * [Admin settings](../use/settings.md#admin-settings) – Configure system defaults, privacy settings, and manager settings.
+
+### Video: Navigate Workplace Analytics
+
+<!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
+WE USE THE FOLLOWING ONES IN OTHER PLACES: 
+
+<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+-->
+
+<iframe src="https://player.vimeo.com/video/434889700" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
