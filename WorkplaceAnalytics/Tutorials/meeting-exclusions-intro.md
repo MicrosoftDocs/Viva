@@ -20,7 +20,15 @@ Workplace Analytics uses email and calendar activities that are stored in a pers
 
 Meeting exclusion rules are used in Workplace Analytics to help ensure that query results accurately represent relevant meeting norms within the organization. <!-- Organizations can also use these rules to promote privacy by excluding from analysis meetings that are of a sensitive nature.  -->
 
+### Video: Learn about meeting exclusion rules
 
+<!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
+WE USE THE FOLLOWING ONES IN OTHER PLACES: 
+
+<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+-->
+
+<iframe src="https://player.vimeo.com/video/434889700" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Workplace Analytics provides a default meeting exclusion rule that excludes a set of meetings that would commonly fall outside of relevant collaboration for analysis. Analysts can also use the meeting exclusion feature to create custom meeting exclusion rules. 
 
