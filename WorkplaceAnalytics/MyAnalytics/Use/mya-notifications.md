@@ -66,19 +66,19 @@ Yes; if you opt yourself out, you can opt back in any time to regain access to i
 
 You can provide feedback for the inline suggestion in either of the following ways:
 
- * Select **Feedback** in the suggestion. This opens the Feedback page in the Insights add-in. 
+* Select **Feedback** in the suggestion. This opens the Feedback page in the Insights add-in. 
 
- * Open the inline suggestion in the Insights add-in and add your feedback in the section at the bottom of the page:
+* Open the inline suggestion in the Insights add-in and add your feedback in the section at the bottom of the page:
 
    ![inline suggestions feedback](../../Images/mya/use/insights-feedback.png)
- 
+
 By using either of these options, you can provide "thumbs up" or a "thumbs down" indication and follow up with verbal feedback. If you select thumbs down, you'll see less of that suggestion.
 
-You can also select **Turn off all notifications** if you would prefer not to receive any of the inline suggestions in the future. 
+You can also select **Turn off all notifications** if you would prefer not to receive any of the inline suggestions in the future.
 
  You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Insights Add-in pane.
 
- ## Delay email delivery
+## Delay email delivery
 
 When composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. These suggestions are currently only available to [Office 365 E5 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
 
@@ -109,16 +109,16 @@ When composing an email in Outlook, you might see a suggestion to schedule email
 When reading an email or a calendar invitation, you might see a suggestion to review suggested outstanding tasks for the sender of email or calendar invitation. There are task suggestions based on your email communications with the sender in the last 14 days and can help you keep tab of tasks you promised to get done or that team members asked you to complete.
 
 ![Suggested outstanding tasks](../../Images/mya/use/sugg-out-tasks-60.png)
- 
+
 You can select **See my tasks** to see and follow up on the potentially outstanding task in Insights. As shown in this image, you can open the related task (RE: Kat - Anisa chat) for more details, or select **Mark as done** or **Not a task** to remove it from your task list.
- 
+
 ![Mark tasks as done](../../Images/mya/use/mark-as-done-55.png)
 
 ## Get more time to focus
 
-While reading a calendar invitation, you might see a suggestion to **Book time for focused work** (if you have a heavy meeting load) so that you get more time to do deep work and reclaim your calendar for work that matters most. 
+While reading a calendar invitation, you might see a suggestion to **Book time for focused work** (if you have a heavy meeting load) so that you get more time to do deep work and reclaim your calendar for work that matters most.
 
-![Get more time to focus](../../Images/mya/use/more-time-to-focus-60.png) 
+![Get more time to focus](../../Images/mya/use/more-time-to-focus-60.png)
  
 Select **See suggested times** to open a pane that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
 
@@ -126,12 +126,22 @@ Select **See suggested times** to open a pane that displays all the time availab
 
 ## Plan your time away
 
-When composing an email or calendar invitation about upcoming time away from work, you might see a suggestion to plan for it.
+When composing an email or calendar invitation in Outlook about your upcoming time away from work, you might see a suggestion similar to the following.
 
-![Plan your time away checklist](../../Images/mya/use/inline-away.png)
+![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
 
 > [!Note]
 > This suggestion is only available if you have an E5 plan. It's coming to soon to E1/E3 plans.
+
+Reduce the stress of planning for time off work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the Insights add-in checklist, which enables you to:
+
+* Resolve all your meetings in one place with a custom message about your scheduled time off.
+* Compose your automatic replies and notify your team about your planned time off.
+* Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
+
+![Plan your time away checklist](../../Images/mya/use/time-away-checklist.png)
+
+For more details about how to use the checklist, see [Plan your time away](use-the-insights.md#plan-your-time-away).
 
 ## Protect your focus time
 
@@ -152,14 +162,14 @@ Select **Move your focus block** to open the Insights add-in and display all the
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time. 
 
 ![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-77-80-75.png)
- 
-Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all the participants in the meeting. 
+
+Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all the participants in the meeting.
 
 ![Shorten a meeting; nice work](../../Images/mya/use/shorten-meeting-nice-work-50.png)
 
 ## Track email open rate
 
-While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email. 
+While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
 ![Track email open rate](../../Images/mya/use/track-email-open-rate-50.png)
 
