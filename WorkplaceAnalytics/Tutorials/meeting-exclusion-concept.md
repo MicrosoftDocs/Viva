@@ -210,9 +210,9 @@ A4.  No. You can have only one rule in effect at a time. For more information, s
 
 ## Supported languages
 
-The following list of languages are supported for keywords and phrases in meeting exclusions.
+The following languages are supported for keywords and phrases in meeting exclusions.
 
-|| | | |  
+| | | | |  
 |---|---|---|---|
 |Arabic | French | Korean | Serbian (Cyrillic) |
 |Bengali | German |Latvian | Serbian (Latin) |

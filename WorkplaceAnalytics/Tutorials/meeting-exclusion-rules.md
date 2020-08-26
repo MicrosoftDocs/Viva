@@ -1,6 +1,6 @@
 ---
 
-title: Meeting exclusion rules in Workplace Analytics
+title: Meeting exclusion rules in Workplace Analytics -- walkthroughs
 description: Meeting exclusion rules -- Introduction and walkthrough   
 author: paul9955
 ms.author: v-pascha
@@ -222,7 +222,7 @@ To learn how to select a rule to use in a query, see [Use rules with queries](#u
 
 3. In the row for that rule, select the ellipsis to show the available actions: 
     
-    ![ellipsis](../images/wpa/tutorials/ellipsis.png)
+    ![ellipsis in row](../images/wpa/tutorials/ellipsis.png)
 
 4. Select **Set preferred**. When prompted, select "confirm your preferred meeting exclusion" and then select **OK**.
 
@@ -256,7 +256,7 @@ You can make an exact copy of any active rule. You can duplicate both published 
 
 3.	In that rule’s row, click the ellipsis:
 
-    ![ellipsis](../images/wpa/tutorials/ellipsis.png)
+    ![ellipsis in row](../images/wpa/tutorials/ellipsis.png)
    
    … and then select Duplicate. A copy of the rule is created, given the name “Copy of &lt;original rule name&gt;”, and opened for display. 
 
@@ -277,7 +277,7 @@ You might have built and used a rule in a past project that you no longer use. H
 
 3.	In that rule’s row, click the ellipsis:
    
-    ![Ellipsis](../images/wpa/tutorials/ellipsis.png)
+    ![Ellipsis in row](../images/wpa/tutorials/ellipsis.png)
 
     … and then select **Archive**. The rule will be moved to the list of archived rules, which you can see by clicking **Archived** on the **Active/Archived** toggle control.
 
