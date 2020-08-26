@@ -10,6 +10,7 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Person queries
 
 The person query analyzes data from the point of view of each individual in the organization.

@@ -131,25 +131,19 @@ Workplace Analytics includes a number of predefined query templates to help you 
 * **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
 * **Business continuity** tracks business continuity in Power BI, which requires Hourly collaboration query results. 
 
-## Video: A week in the life
+## Videos
 
-Learn how to work with queries by watching this video from a bootcamp for training analysts in Workplace Analytics.  
+The videos in this section were used in a bootcamp for training analysts in how to run queries in Workplace Analytics.
 
-<!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
-WE USE THE FOLLOWING ONES IN OTHER PLACES: 
+### A week in the life  
 
-<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
--->
+The _A week in the life_ video demonstrates how to work with a [person query](person-queries.md).
 
 <iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Video: Expensive meetings
+### Expensive meetings
 
-<!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
-WE USE THE FOLLOWING ONES IN OTHER PLACES: 
-
-<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
--->
+The _Expensive meetings_ video demonstrates how to work with a [meeting query](meeting-queries.md). 
 
 <iframe src="https://player.vimeo.com/video/434889528" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
