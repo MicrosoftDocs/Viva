@@ -15,6 +15,16 @@ Explore in Workplace Analytics includes the following set of analytical cards as
 
 ![Explore page](../images/wpa/use/explore-page.png)
 
+### Video: Learn about the Explore dashboards
+
+<!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
+WE USE THE FOLLOWING ONES IN OTHER PLACES: 
+
+<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+-->
+
+<iframe width="580" height="512" src="https://player.vimeo.com/video/434890563" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## Analyze and start Plans
 
 * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
