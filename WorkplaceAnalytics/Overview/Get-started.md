@@ -25,7 +25,7 @@ Workplace Analytics provides the following ways to analyze and explore your data
 
 [**Home**](../use/home-page.md) provides analysis scope information and research-based behavioral insights into how your organization gets work done, including employee experience, organizational agility, and customer focus insights. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
 
-**Analyze** includes the following data analysis tools:
+**Analyze** includes the following data-analysis tools:
 
 * [**Explore**](../use/explore-intro.md) dashboards help you analyze organizational data trends that are summarized by week, per meeting, by network connections, for management and coaching, and for external collaboration.
 
@@ -48,4 +48,4 @@ WE USE THE FOLLOWING ONES IN OTHER PLACES:
 <iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 -->
 
-<iframe src="https://player.vimeo.com/video/434889700" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/434890975" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
