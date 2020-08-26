@@ -38,7 +38,7 @@
             - name: User roles
               href: ~/Use/User-Roles.md
             - name: Assign user and group roles
-              href: ~/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md
+              href: ~/setup/assign-user-roles.md
         - name: Workplace Analytics settings
           href: ~/Use/Settings.md
         - name: Prepare organizational data
@@ -136,10 +136,20 @@
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration assessment
                       href: ~/tutorials/power-bi-collab-assess.md
+                    - name: Collaboration overload
+                      href: ~/tutorials/power-bi-collab-overload.md
                     - name: Collaboration tracker
                       href: ~/tutorials/power-bi-collab-track.md
                     - name: Influence insights
                       href: ~/tutorials/pbi-influence-db.md
+                    - name: Manager impact
+                      href: ~/tutorials/power-bi-manager-impact.md
+                    - name: Quickstart overview
+                      href: ~/tutorials/power-bi-quickstart.md
+                    - name: Return to worksites
+                      href: ~/tutorials/power-bi-return-tw.md
+ #                     - name: Sales business continuity
+ #                       href: ~/tutorials/pbi-bc-sales.md
                     - name: Teams insights
                       href: ~/tutorials/power-bi-teams.md
                 - name: Customize a metric
@@ -235,6 +245,8 @@
       items: 
         - name: Introduction
           href: MyAnalytics/overview/mya-for-admins.md
+        - name: MyAnalytics deployment guide
+          href: MyAnalytics/setup/deployment-guide.md         
         - name: MyAnalytics setup
           href: MyAnalytics/setup/configure-myanalytics.md
         - name: Plans and environments
