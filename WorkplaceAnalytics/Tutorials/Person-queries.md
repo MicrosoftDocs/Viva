@@ -87,7 +87,7 @@ In a person query, analysts see additional information to help them determine di
 
 In the **Dependencies** section of a person query, analysts can set the working days and hours that that query will use in its calculations.  
 
-![Person query custom metric](../images/wpa/tutorials/pick-work-times.png)
+![Working days and hours](../images/wpa/tutorials/pick-work-times.png)
 
 This lets analysts benchmark metrics calculations by using one standard set of values for working hours and days, with the goal of achieving apples-to-apples comparisons. The settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or in any user's settings in Outlook or elsewhere.  
 
