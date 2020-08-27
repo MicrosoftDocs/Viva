@@ -14,7 +14,7 @@ ms.prod: wpa
 
 Organizations around the world are responding to sudden changes in the way they work. Microsoft wants to help you understand the business impact and what your organization can do to help navigate the shift to remote work.
 
-The Business continuity report is a Workplace Intelligence report that’s available to Microsoft 365 customers within the Microsoft Productivity Score report. It analyzes [Microsoft Graph](https://docs.microsoft.com/graph) data to provide high-level insights about how collaboration for an organization has changed between the baseline time period of January to February 2020 as compared to a current snapshot of March to the present.
+The Business continuity report is a Workplace Intelligence report that’s available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](https://docs.microsoft.com/graph) data to provide high-level insights about how collaboration for an organization has changed over the last six months.
 
 You are encouraged to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Insights. This report helps business leaders understand if employees are:
 
@@ -49,10 +49,6 @@ Yes, you are encouraged to share this report with business leaders in your organ
 
 You can use Workplace Analytics to get more detailed analysis and additional insights about your company. Contact your account team or go to [Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics) to learn more.
 
-#### Q4 Can I change the baseline date?
-
-No, the baseline date is static in this report because January to February 2020 is when most companies were doing business as usual and March is when most companies shifted to primarily remote work.
-
-#### Q5 Which Microsoft 365 customers are eligible to see the report?
+#### Q4 Which Microsoft 365 customers are eligible to see the report?
 
 All Microsoft 365 customers with at least 100 active Exchange Online users can see the report when they register for the Productivity Score preview.
