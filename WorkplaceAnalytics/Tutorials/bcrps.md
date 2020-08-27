@@ -42,7 +42,7 @@ You can access the report from the Microsoft 365 Admin home under **Reports** > 
 
 #### Q2 Can I share this report with others in my company?
 
-Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it. You can also add business leaders to the Report Reader role for access to this and other Productivity Score Insights.
+Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it. IT admins can also add business leaders to the Report Reader role for access to this and other Productivity Score Insights.
 
 #### Q3 How can I get more detailed analysis for my organization?
 
