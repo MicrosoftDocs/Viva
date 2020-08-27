@@ -128,8 +128,24 @@ Workplace Analytics includes a number of predefined query templates to help you 
 * **Protect after hours** finds groups that collaborate the most outside of work hours.
 * **Reduce meeting hours** finds groups that are overwhelmed by meetings.
 * **Standard query** provides all base metrics available for a person query.
-* **Hourly collaboration** analyzes meeting, email, instan- message, and call activity by hour of the day.
+* **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
 * **Business continuity** tracks business continuity in Power BI, which requires Hourly collaboration query results. 
+
+## Videos
+
+The videos in this section were used in a bootcamp for training analysts in how to run queries in Workplace Analytics.
+
+### A week in the life  
+
+The _A week in the life_ video demonstrates how to work with a [person query](person-queries.md).
+
+<iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+### Expensive meetings
+
+The _Expensive meetings_ video demonstrates how to work with a [meeting query](meeting-queries.md). 
+
+<iframe src="https://player.vimeo.com/video/434889528" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Related topics
 

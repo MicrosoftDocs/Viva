@@ -12,7 +12,9 @@ ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
+
 ---
+
 # Data analysis in Workplace Analytics
 
 Workplace Analytics enables analysts to provide business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
@@ -23,7 +25,7 @@ Workplace Analytics provides the following ways to analyze and explore your data
 
 [**Home**](../use/home-page.md) provides analysis scope information and research-based behavioral insights into how your organization gets work done, including employee experience, organizational agility, and customer focus insights. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
 
-**Analyze** includes the following data analysis tools:
+**Analyze** includes the following data-analysis tools:
 
 * [**Explore**](../use/explore-intro.md) dashboards help you analyze organizational data trends that are summarized by week, per meeting, by network connections, for management and coaching, and for external collaboration.
 
@@ -37,3 +39,13 @@ Workplace Analytics provides the following ways to analyze and explore your data
 * [Upload](../use/settings.md#upload) – Prepare and upload organizational and customer data.
 * [Analysis settings](../use/settings.md#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
 * [Admin settings](../use/settings.md#admin-settings) – Configure system defaults, privacy settings, and manager settings.
+
+### Video: Navigate Workplace Analytics
+
+<!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
+WE USE THE FOLLOWING ONES IN OTHER PLACES: 
+
+<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+-->
+
+<iframe src="https://player.vimeo.com/video/434890975" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
