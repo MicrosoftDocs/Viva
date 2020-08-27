@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Business continuity report within Productivity Score report
 description: Use the Business continuity report to analyze organizational collaboration data
 author: madehmer
