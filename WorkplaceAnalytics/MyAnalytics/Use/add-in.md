@@ -24,16 +24,17 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides i
 
 ## Why don't I see the Outlook Insights add-in?
 
-Before you can use the Insights add-in, the following system prerequisites are met:
+Before you can use the Insights add-in, be sure that the following prerequisites are in place:
 
-* Have a MyAnalytics user license and at least 24 hours have elapsed since you were granted that license.
-* Your computer has Outlook desktop 2016 version 16.0.7924.1 or later for Windows, or version 15.39.1010 of later for Mac.
-* Internet Explorer version 10 or 11 installed on your computer.  
+* Have a MyAnalytics user license and let at least 24 hours elapse since you were granted that license.
+* Have the following software: 
+  * Your computer has Outlook desktop 2016 version 16.0.7924.1 or later for Windows, or version 15.39.1010 or later for Mac.
+  * Internet Explorer version 10 or 11 is installed on your computer.  
 * Open the Insights add-in in one of the programs listed under [Open the Insights add-in](#open-the-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop).
-* In Outlook, you will select an email in one of the following ways:
+* Select an email. In Outlook, you can do this in one of the following ways:
 
   * Open the email in a new window.
-  * The [Outlook Reading Pane](https://support.office.com/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) is open and you are viewing the email in the Reading Pane.
+  * With the [Outlook Reading Pane](https://support.office.com/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) open, view the email in the Reading Pane.
 
    > [!Note]
    > This works only with emails to which [information rights management](https://docs.microsoft.com/exchange/policy-and-compliance/information-rights-management?view=exchserver-2019#apply-irm-protection-to-messages) have not been applied.  
