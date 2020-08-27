@@ -131,9 +131,9 @@ When composing an email or calendar invitation in Outlook about your upcoming ti
 ![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
 
 > [!Note]
-> This suggestion is only available if you have an E5 plan. It's coming to soon to E1/E3 plans.
+> This suggestion is only available if you have an E5 plan. It's coming soon to E1/E3 plans. This feature falls under the preview of [connected experiences that analyze your content in Office](https://docs.microsoft.com/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
 
-Reduce the stress of planning for time off work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the Insights add-in checklist, which enables you to:
+Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the Insights add-in checklist, which enables you to:
 
 * Resolve all your meetings in one place with a custom message about your scheduled time off.
 * Compose your automatic replies and notify your team about your planned time off.
