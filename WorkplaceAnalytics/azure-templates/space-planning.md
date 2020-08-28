@@ -45,7 +45,8 @@ This template combines the data in these files and generates a table that shows 
 
 * **Fixed Spaces**: Allows the user to fix specific teams to particular locations and then optimize the remaining teams around them such that teams are situated nearest to teams with which they have the most collaboration.
 * **Interactive mode**: Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
-* **Co-Located Teams** (coming soon): Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.<!--* **Relative constraints**: Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.-->
+*<!-- **Co-located teams** (coming soon): Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.-->
+<!--* **Relative constraints**: Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.-->
 
 ## Deploy and configure the template
 
@@ -146,7 +147,7 @@ The following graphic depicts a building with four floors. The distance between 
 
    ![Team size table](./images/wsp-team-table.png)
 
-### For co-located teams
+<!--### For co-located teams
 
 1. In the **team_size.csv** file you just created in the previous set of steps, add a new column named **Adjacent Size**.
 2. Add another new column and name it for the team to which you want to enforce adjacency.
@@ -154,7 +155,7 @@ The following graphic depicts a building with four floors. The distance between 
 4. In the **Adjacent Size** column, for the rows that are not the same team as the new column, add the Size column and the value in the new team column.  For the row that matches the team name in the new column, total the new Team column. And then subtract that sum from the **Size** column and enter that value in the **Adj Size** cell.
 
    ![Fixed seat variables](./images/wsp-adj-size.png)
-<!--
+
 ### For office seat variables
 
 1. In the **team_size.csv** file you just created in the previous set of steps, add a new column and name it **Workpoint Seats**, which represents how many standard desk seats (shared desks or open space) the team needs.
