@@ -46,7 +46,7 @@ For details, see [Workspace Planning Azure Template](space-planning.md).
 
 * **Zip file download** - Ensures a data download file includes all data and is not restricted by Excel row limits.
 * **Relocated Load Graph option** - Load Graph is now on the main page for each dataset making it easier to find saved graphs.
-* **Dark mode** - This option is now available for ONA visuals, where you can change the background from white to dark.
+* **Dark mode** - This option enables you to change the background from white to dark for ONA. This mode enhances visual ergonomics by reducing eye strain, especially in low-light environments. 
 
 To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md). See [measure calculations](ona-metric-calculations.md) for more details about the metrics.
 
