@@ -32,10 +32,10 @@ The template combines Workplace Analytics data with your team size, workspace ca
 
 This template combines Workplace Analytics data with your team size, workspace capacity, and the distances between the floors and the buildings to generate floor plans with recommended seating.
 
-* [Interaction](#create-an-interaction-file): This is a Workplace Analytics group-to-group query that includes meeting and email activity for insight into current work and collaboration patterns.
-* [Space capacity](#create-a-space-capacity-file): This file includes details about the maximum capacity for the workspace.
-* [Distance](#create-a-distance-file): This file includes details about the walking distances in a unit you specify, such as minutes or meters that can be estimates, between floors or buildings.
-* [Team size](#create-a-team-size-file): This file includes details about the number of employees in each team in your organization.
+* [Interaction](#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that includes meeting and email activity for insight into current work and collaboration patterns.
+* [Space capacity](#create-a-space-capacity-file) - This file includes details about the maximum capacity for the workspace.
+* [Distance](#create-a-distance-file) - This file includes details about the walking distances in a unit you specify, such as minutes or meters that can be estimates, between floors or buildings.
+* [Team size](#create-a-team-size-file) - This file includes details about the number of employees in each team in your organization.
 
 This template combines the data in these files and generates a table that shows where to seat people in the specified floor plan.
 
@@ -43,8 +43,9 @@ This template combines the data in these files and generates a table that shows 
 
 ## Key features
 
-* **Fixed Spaces**: Allows the user to fix specific teams to particular locations and then optimize the remaining teams around them such that teams are situated nearest to teams with which they have the most collaboration.
-* **Interactive mode**: Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
+* **Seating Optimization** - Generates seating assignments for teams that reduces the distance between teams who have greater collaboration. 
+* **Fixed Spaces** - Allows the user to fix specific teams to particular locations and then optimize the remaining teams around them such that teams are situated nearest to teams with which they have the most collaboration.
+* **Interactive mode** - Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
 *<!-- **Co-located teams** (coming soon): Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.-->
 <!--* **Relative constraints**: Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.-->
 
@@ -108,9 +109,9 @@ This template combines the data in these files and generates a table that shows 
 ## Create a Distance file
 
 > [!Note]
-> * You need the measures of distances between floors, which can be any unit, such as minutes, seconds, or meters, and **can also be estimates**.
+> * Distances between buildings, floors, or zones within a floor must be defined. Any single unit, such as meters, feet, seconds, or minutes, can be used if it is used consistently. **Estimates of distances are acceptable**.
 > * For distances between floors directly above and below each other, use a default value of 15.
-> * Start your distance measurements by walking at a normal pace across the furthest distance of teams on a single floor. This will be used as the benchmark distances of all teams throughout the campus.
+> * Start your distance measurements by walking at a normal pace across the furthest distance of teams on a single floor. This will be used as the benchmark distances of all teams throughout the campus. Consider asking your customer support advisor for guidance on how to efficiently generate this file.
 
 ### About floor distance
 
