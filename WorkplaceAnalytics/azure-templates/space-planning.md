@@ -43,11 +43,11 @@ This template combines the data in these files and generates a table that shows 
 
 ## Key features
 
-* **Seating Optimization** - Generates seating assignments for teams that reduces the distance between teams who have greater collaboration. 
+* **Seating Optimization** - Generates seating assignments for teams that reduces the distance between teams who have greater collaboration.
 * **Fixed Spaces** - Allows the user to fix specific teams to particular locations and then optimize the remaining teams around them such that teams are situated nearest to teams with which they have the most collaboration.
 * **Interactive mode** - Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
-*<!-- **Co-located teams** (coming soon): Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.-->
-<!--* **Relative constraints**: Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.-->
+*<!-- **Co-located teams** (coming soon) - Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.-->
+<!--* **Relative constraints** - Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.-->
 
 ## Deploy and configure the template
 
@@ -141,8 +141,8 @@ The following graphic depicts a building with four floors. The distance between 
 1. Open and save the [team_size.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/team_size.csv) file to local storage.
 2. Starting in the second row, replace the example data with your own that matches the same format, similar to what's shown in the following graphic.
 
-   * **Team**: Enter the name or function of each team.
-   * **Actual Size**: Enter the number of employees that are in each corresponding team.
+   * **Team** - Enter the name or function of each team.
+   * **Actual Size** - Enter the number of employees that are in each corresponding team.
 
 3. Save the file, and continue to the next set of steps.
 
