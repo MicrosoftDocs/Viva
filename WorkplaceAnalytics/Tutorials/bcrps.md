@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Business continuity report within Productivity Score report
 description: Use the Business continuity report to analyze organizational collaboration data
 author: madehmer
@@ -14,7 +13,7 @@ ms.prod: wpa
 
 Organizations around the world are responding to sudden changes in the way they work. Microsoft wants to help you understand the business impact and what your organization can do to help navigate the shift to remote work.
 
-The Business continuity report is a Workplace Intelligence report that’s available to Microsoft 365 customers within the Microsoft Productivity Score report. It analyzes [Microsoft Graph](https://docs.microsoft.com/graph) data to provide high-level insights about how collaboration for an organization has changed between the baseline time period of January to February 2020 as compared to a current snapshot of March to the present.
+The Business continuity report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](https://docs.microsoft.com/graph) data to provide high-level insights about how collaboration for an organization has changed over the last six months.
 
 You are encouraged to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Insights. This report helps business leaders understand if employees are:
 
@@ -23,7 +22,7 @@ You are encouraged to share this report with business leaders in your organizati
 * Able to effectively meet and share ideas and information remotely.
 * Maintaining their community connections.
 
-![Business continuity report II](../Images/WpA/Tutorials/bcrps.png)
+![Business continuity report v3](../Images/WpA/Tutorials/bcrps-3.png)
 
 The following are some of the top-level business questions this report helps you analyze.
 
@@ -43,16 +42,12 @@ You can access the report from the Microsoft 365 Admin home under **Reports** > 
 
 #### Q2 Can I share this report with others in my company?
 
-Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it. You can also add business leaders to the Report Reader role for access to this and other Productivity Score Insights.
+Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it. IT admins can also add business leaders to the Report Reader role for access to this and other Productivity Score Insights.
 
 #### Q3 How can I get more detailed analysis for my organization?
 
 You can use Workplace Analytics to get more detailed analysis and additional insights about your company. Contact your account team or go to [Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics) to learn more.
 
-#### Q4 Can I change the baseline date?
-
-No, the baseline date is static in this report because January to February 2020 is when most companies were doing business as usual and March is when most companies shifted to primarily remote work.
-
-#### Q5 Which Microsoft 365 customers are eligible to see the report?
+#### Q4 Which Microsoft 365 customers are eligible to see the report?
 
 All Microsoft 365 customers with at least 100 active Exchange Online users can see the report when they register for the Productivity Score preview.
