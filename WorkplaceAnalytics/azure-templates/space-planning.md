@@ -43,7 +43,7 @@ This template combines the data in these files and generates a table that shows 
 
 ## Key features
 
-* **Seating Optimization** - Generates seating assignments for teams that reduces the distance between teams who have greater collaboration.
+* **Seating Optimization** - Generates seating assignments for teams that reduces the distance between teams who have the most collaboration with each other.
 * **Fixed Spaces** - Allows the user to fix specific teams to particular locations and then optimize the remaining teams around them such that teams are situated nearest to teams with which they have the most collaboration.
 * **Interactive mode** - Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
 *<!-- **Co-located teams** (coming soon) - Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.-->
