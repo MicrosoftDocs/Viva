@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics plans and environments
 description: MyAnalytics supported plans and environment requirements
 author: paul9955
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:
