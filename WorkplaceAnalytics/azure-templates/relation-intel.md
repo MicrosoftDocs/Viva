@@ -23,23 +23,22 @@ Workplace Analytics Azure Templates includes the Relationship Intelligence repor
 
 Workplace Analytics has a variety of measures to help you visualize and analyze formal and informal relationships within your organization. This report can help you understand how internal groups are communicating and spending their time with ***external*** collaborators.
 
-This report requires account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce. It uses CRM data to provide account-level focus and insights into relationship patterns.
+This report uses account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce. The CRM data provides account-level focus and insights into relationship patterns. If no account or contact data is available, it analyzes external domain-level collaboration as a proxy for accounts.
 
-The Relationship Intelligence report includes the following:
+The Relationship Intelligence report includes the following.
 
-* **Relationship Overview** - Shows information about accounts, including:
+* **Relationship Overview** - Shows information about all accounts, including:
 
   * The Account table shows an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
   * The **Relationship score** is based on the amount, frequency, and timeliness of collaboration activity with an account.
-  * Page down to see a **Relationship Highlights** chart and a chart with **Distinct contacts** analysis.
-  * Use the **HR Attribute Filter** to focus the chart analysis on a specific collaboration.
-  * The **Group Engagement**, **Collaboration Time**, and **Meetings by Length** charts show more details about overall account collaboration activity.
+  * Page down to see **Relationship Highlights** > **Total Time Spent** chart and a chart with **Distinct contacts** analysis.
+  * Use the **HR Attribute Filter** to focus the chart analysis (below the filter) to specific internal groups who are collaborating. The **Group Engagement**, **Collaboration Time**, and **Meetings by Length** charts show more details about overall account collaboration activity.
 
-* **Account Analysis** - Focuses in on the following details about an account that you select on the first page:
+* **Account Analysis** - Focuses in on the following details about an account that you selected and drilled through from the first page:
 
   * See visuals about the average relationship score and how the score has changed over the selected time period.
   * Use the **HR Attribute Filter** to focus your analysis on specific areas of collaboration for the visuals about collaboration.
-  * Examine the collaboration visuals on this page to see what type of communication has occurred with contacts over time and who the top individual account contacts are that the organization has collaborated with. It also lists the top groups in the organization that have collaborated with an account.
+  * Examine the collaboration visuals on this page to see what type of communication has occurred with contacts over time and who the top individual account contacts are that the organization has collaborated with. The second table lists the top internal groups in the organization who have collaborated with an account based on the HR Attribute filter.
   * Investigate the **Topics** section to see the main topics in a word cloud that indicate what collaboration activity was focused on for the selected account. The topics are based on the subject lines for meetings and email. Use the **Time Range Selection** to see how the topics in the word cloud change based on what date range is selected.
   * You'll also see visuals for collaboration trends by communication type and typical meeting lengths for the selected account that you can compare with overall trends on the first page.
 
@@ -61,12 +60,12 @@ The Relationship Intelligence report includes the following:
 * **Power BI Desktop** - Have the latest version of Power BI Desktop installed locally. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 * **Permissions** - Have access to the Relationship Intelligence Azure Template, which is required for you to view the data in the Power BI report.
 
->[!Note]
->If you delete the job, the underlying data required for the report is also deleted and the report won’t work or show any data.
-
 ## Add an account mapping
 
 Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts and create a mapping file in the template. See [Required file formats](#required-crm-file-formats) for details about what the files must include based on the type of CRM.
+
+>[!Note]
+>If CRM data is unavailable, or you want to start without it, you can skip adding a mapping file and when prompted while adding new analysis, select **None** for the account mapping. With no mapping file, the analysis will only show external domain-level data.
 
 1. In Workplace Analytics Azure Templates, select **Relationship Intelligence**.
 2. Select **Account Mapping** > **Add New Mapping** (at top right) to upload a new set of files for customer accounts and contacts.
@@ -117,6 +116,9 @@ After you add a mapping file for your customer accounts and contacts, do the fol
    * **Details** - Lists the job details including error messages (far right column) to help troubleshoot a failure.
    * **Delete** - Select to delete analysis that failed or that's no longer needed.
 
+    >[!Note]
+    >If you delete the job, the underlying data required for the report is also deleted and any Power BI file that uses this data won’t work or show any data because it uses an OData link to the live data.
+
     ![Analysis table details](./images/ri-analysis-table.png)
 
     ![Download Power BI template and copy data link](./images/ri-download.png)
@@ -128,7 +130,11 @@ After you add a mapping file for your customer accounts and contacts, do the fol
 3. Select **Download PBIX File** to download the Power BI template for the report.
 4. Open the downloaded file in Power BI Desktop.
 5. If prompted, sign in with your corporate credentials.
-6. In Power BI Desktop, select **Transform data** > **Data source settings** and paste the server and database name that you copied for the analysis in **Step 2** in the **Server** and **Database** fields, and then select **OK**.
+6. Do one of the following in Power BI Desktop:
+
+   * If you get a "data unavailable" error, select **Edit**, and then paste the server and database names that you copied for the analysis in **Step 2** in the **Server** and **Database** fields, and then select **OK**.
+   * If no error occurs, select **Transform data** > **Data source settings** and paste the server and database names that you copied for the analysis in **Step 2** in the **Server** and **Database** fields, and then select **OK**.
+
 7. If prompted by the Navigator, select **Model**, and then **OK**.
 8. It might take a few minutes to load the data from the database into the report. After it loads, you can analyze report data with Power BI tools and visualizations.
 
