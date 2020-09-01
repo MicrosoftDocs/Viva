@@ -162,7 +162,7 @@ High values can indicate gatekeepers, liaisons, or change agents. Can be advanta
 
 Degrees measures the highest number of links to other nodes within the network. Nodes with a high degree of links are those people or groups who have the best connections to others in the network. These people or groups can be key influencers or might just be strategically important for communication.
 
-Degree centrality is based on the number of edges connected to a node. The overall degree is the number of incoming and outgoing edges connected to a node. For more details, see the [measure calculations](ona-metric-calculations.md#degrees).
+Degree centrality is based on the number of edges connected to a node. The overall degree is the number of incoming and outgoing edges connected to a node. Indegree is the number of incoming edges to a node and outdegree is the number of outgoing edges. Indegree and outdegree are available in  downloaded files only. For more details, see the [measure calculations](ona-metric-calculations.md#degrees).
 
 ### Density
 
