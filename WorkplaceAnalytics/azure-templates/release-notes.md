@@ -19,7 +19,7 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
-## August 2020
+## September 2020
 
 The following new template and template features, enhancements, and changes are in this month's release.
 
