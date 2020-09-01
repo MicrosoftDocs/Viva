@@ -101,13 +101,17 @@ This measure is calculated as follows for employees as compared to groups.
 
 ## Degrees
 
-Degrees denotes the network size and is based on the number of connections to a node. Simply, the overall degree is the number of edges (incoming and outgoing) connected to a node. <!-- The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node.-->
+Degrees denotes the network size and is based on the number of connections to a node. Simply, the overall degree is the number of edges (incoming and outgoing) connected to a node. Indegree is the number of incoming edges to a node and outdegree is the number of outgoing edges. Indegree and outdegree are available in  downloaded files only.
 
 This measure is calculated as follows for employees as compared to groups.
 
 * **Employee level**: These are all calculated by counting the number of connections to an individual employee. The value is between 0 and 1 because it is divided by two times the total number of employees in the graph. (It divides by two to account for directionality of sent and received emails.) This measure accounts for the direction but not the weight of the connections. Degrees equals 0 if an employee is not connected to anyone. Degrees equals one if an employee is connected to everyone.
 
 * **Group level**: The group degree centrality is the unique number of nodes outside the group that are connected to members of the group. The value is between 0 and 1 because it is divided by the number of people outside of the group. This measure does not consider the weight or directionality of the connections.
+
+Both indegree and outdegree are normalized to be between 0 and 1, such as in the following equation:
+
+  ("Indegree" + "Outdegree")/2 = "Degree"
 
 ## Density
 
