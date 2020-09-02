@@ -92,7 +92,7 @@ Employees might not be eligible for a plan if:
 
 ## Related topics
 
-* [User roles in Workplace Analytics](..tutorials/user-roles.md)
-* [Explore the metrics](../tutorials/explore-intro.md)
+* [User roles in Workplace Analytics](../use/user-roles.md)
+* [Explore the metrics](../use/explore-intro.md)
 * [Plans](../tutorials/solutionsv2-intro.md)
-* [Metric descriptions for Workplace Analytics](../tutorials/metric-definitions.md)
+* [Metric descriptions for Workplace Analytics](../use/metric-definitions.md)

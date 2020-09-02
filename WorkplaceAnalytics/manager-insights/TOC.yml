@@ -5,6 +5,6 @@
 - name: Frequently asked questions
   href: ./faqs.md
 - name: Plans
-  href: ../WorkplaceAnalytics/Tutorials/solutionsv2-intro.md
+  href: ../tutorials/solutionsv2-intro.md
 - name: Best practices
-  href: ../WorkplaceAnalytics/Tutorials/gm-best-practices.md
+  href: ../tutorials/gm-best-practices.md
