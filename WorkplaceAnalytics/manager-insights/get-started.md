@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Get started with Manager insights
+title: Get started with manager insights
 description: Learn how to sign in and use Manager insights in Workplace Analytics
 author: madehmer
 ms.author: madehmer
@@ -10,7 +10,7 @@ ms.prod: wpa
 
 ---
 
-# Get started with Manager insights
+# Get started with manager insights
 
 As a people manager, confirm the following prerequisites. You can then sign in and see your team's data in Workplace Analytics.
 
