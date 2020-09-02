@@ -40,12 +40,15 @@ You can size the nodes based on various network metrics. The following table lis
 |[Boundary Spanning](#boundary-spanning) |Measures how well people in one group shares information with other groups. |
 |[Bridging Index](#bridging-index) | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
 |[Degrees](#degrees) |Measures the overall network size of each node. |
-|[Density](#density) (only in Combined or Grouped View) |Measures the strength of connections between nodes (within groups and between groups). |
+|[Density](#density) |Measures the strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
+|[E-I Index](#e-i-index) |Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
+|[Group Size](#group-size) |Represents the group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
 |[Influence Index](#influence-index) |Represents a node's potential influence on the opinions of the network or a measure of social status. |<!-- |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
+|[Qualitative Variation Index](#qualitative-variation-index) |Measures the diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
-![Node Sizing Options](./images/ona-node-options-b.png)
+![Node Sizing Options](./images/ona-node-options.png)
 
 ## Are the measures for employees and groups different?
 
@@ -98,13 +101,17 @@ This measure is calculated as follows for employees as compared to groups.
 
 ## Degrees
 
-Degrees denotes the network size and is based on the number of connections to a node. Simply, the overall degree is the number of edges (incoming and outgoing) connected to a node. <!-- The Indegree centrality is the number of incoming edges. The Outdegree centrality is the number of outgoing edges from the node.-->
+Degrees denotes the network size and is based on the number of connections to a node. Simply, the overall degree is the number of edges (incoming and outgoing) connected to a node. Indegree is the number of incoming edges to a node and outdegree is the number of outgoing edges. Indegree and outdegree are available in  downloaded files only.
 
 This measure is calculated as follows for employees as compared to groups.
 
 * **Employee level**: These are all calculated by counting the number of connections to an individual employee. The value is between 0 and 1 because it is divided by two times the total number of employees in the graph. (It divides by two to account for directionality of sent and received emails.) This measure accounts for the direction but not the weight of the connections. Degrees equals 0 if an employee is not connected to anyone. Degrees equals one if an employee is connected to everyone.
 
 * **Group level**: The group degree centrality is the unique number of nodes outside the group that are connected to members of the group. The value is between 0 and 1 because it is divided by the number of people outside of the group. This measure does not consider the weight or directionality of the connections.
+
+Both indegree and outdegree are normalized to be between 0 and 1, such as in the following equation:
+
+  ("Indegree" + "Outdegree")/2 = "Degree"
 
 ## Density
 
@@ -128,6 +135,24 @@ A group is *orange* when it's higher in density and *blue* when it's lower in de
 
 **Modularity** is the fraction of edges within a group minus the fraction of edges expected from a random network with the same nodes and the same degrees (but not the same connections between nodes). Essentially, it is the difference between what the network is and what a similarly constructed random network is expected to be. If the modularity is positive, a group has more connections within it than expected. If it is zero or close to it, then the connections are about the same as a random network. If it is negative, the group has fewer and less strong connections than would be expected from pure chance. This metric interprets the density measure as to whether the amount of connections between groups and within groups is high or low. It also gives insight into the overall graph and its connectivity.
 
+**Density Ratio** compares the density values of a group to the expected density of a group's size within the context of the tenant. The density ratios for two groups who are collaborating with each other are compared to the median density of cross-group densities. This measure helps identify groups who are cohesive and groups that might lack the connectivity to be cohesive. A density ratio that’s greater than 1 represents a group who is denser than expected or is higher than average. Currently this measure is only available in the downloaded files of density analysis.
+
+## E-I Index
+
+The E-I index is only available in downloaded data. It indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group. This is helpful in identifying individuals or groups who are at risk of being siloed. The E-I index is between -1 (all collaboration is internal) and 1 (all communication is external facing). A value of 0 represents a balanced amount of internal and external collaboration. This measure accounts for weighted edges but does not account for direction. An E-I index of -0.67 corresponds to a 5:1 internal to external collaboration. Hence, values at or below -0.67 indicate a group or individual might be at risk of being siloed. In this measure, an individual can only belong to one group.
+
+This measure is calculated differently for employees as compared to groups:
+
+* **Employee level** - The external ties are those outside of the employee's own group and internal ties are the connections the employee has with others in the same group.
+* **Group level** - The external ties are those outside of the group and internal ties are those within the same group.
+
+## Group Size
+
+This measure is only available in the *combined view*. It represents groups based on the number of people in the same group (share the same attribute) for the selected time period. It helps you determine how the group size can affect their interactions.
+
+> [!Note]
+> Filtering will not change group sizes.
+
 ## Influence Index
 
 Influence Index indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
@@ -143,6 +168,13 @@ This measure is calculated as follows for employees as compared to groups:
 * Both levels for this measure account for direction and weight.
 
 For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
+
+## Qualitative Variation Index
+
+The Qualitative Variation Index (QVI) is only available in downloaded data. It measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
+
+It ranges from 0 to 1, where a value of 1.0 represents an individual or a group who is equally likely to communicate with all their different types of contacts. A value of 0 indicates an individual who typically communicates with only one type of contact. Note, if the network is grouped into binary classifications (such as Top Performer compared to Other), then the QVI will automatically be 0.0 because the group can only communicates with one other type of group. This measure does not account for direction or weight.
+
 <!-- 
 ## Reach Index
 
