@@ -19,6 +19,37 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## September 2020
+
+The following new template and template features, enhancements, and changes are in this month's release.
+
+### Relationship Intelligence Azure Template and Power BI report
+
+This release introduces the new Relationship Intelligence report for Power BI that analyzes formal and informal relationships within your organization and understand how these internal groups are communicating and spending their time with external collaborators, such as customers or partners.
+
+This report uses account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce to analyze account-level insights into relationship patterns. To learn more, see [Relationship Intelligence](./relation-intel.md).
+
+### Workspace Planning Azure Template
+
+This release adds a new option to the Workspace Planning Azure Template that enables you to clear a current floor plan, enter new values for fixed seats for team locations, and then re-run the new floor plan for optimization.
+
+For details, see [Workspace Planning Azure Template](space-planning.md).
+
+### Organizational Network Analysis (ONA) Azure Template
+
+* The following new ONA metrics are now available in ONA graphs:
+
+  * **E-I Index** - Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.  
+  * **Qualitative Variation Index** - Measures the diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data.
+  * **Group Size** - Represents the group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs.
+  * **Density ratio** - Compares the density values of a group to the expected density of a group's size within the context of the tenant, which is now available in *group view* graphs.
+
+* **Zip file download** - Ensures a data download file includes all data and is not restricted by Excel row limits.
+* **Relocated Load Graph option** - Load Graph is now on the main page for each dataset making it easier to find saved graphs.
+* **Dark mode** - This option enables you to change the background from white to dark for ONA. This mode enhances visual ergonomics by reducing eye strain, especially in low-light environments. 
+
+To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md). See [measure calculations](ona-metric-calculations.md) for more details about the metrics.
+
 ## July 2020
 
 The following new template and template features, enhancements, and changes are in this month's release.
