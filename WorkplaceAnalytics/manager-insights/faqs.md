@@ -34,7 +34,7 @@ The number of measured employees might be different because:
   >[!Note]
   >HR data is typically uploaded monthly on the last day of the month. If a person recently joined your, you might need to wait until next month for that person's data to be included in your team's insights. If you don’t see your insights data change, ask your admin when the next HR data upload will occur.
 
-#####Q5 Can I see names of people in my team who are measured to confirm my team is accurately represented?
+##### Q5 Can I see names of people in my team who are measured to confirm my team is accurately represented?
 
 Not currently. However, it is being considered for future releases.
 
