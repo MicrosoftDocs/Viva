@@ -1,22 +1,28 @@
 ---
-
-title: Workplace Analytics insights for managers
-description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
+ROBOTS: NOINDEX,NOFOLLOW
+title: Get started with Manager insights
+description: Learn how to sign in and use Manager insights in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
-ms.topic: article
-localization_priority: normal 
+ms.author: madehmer
+ms.topic: conceptual
+localization_priority: normal
 ms.prod: wpa
+
 ---
 
-# Workplace Analytics manager insights
+# Get started with Manager insights
 
-> [!Note]
-> Only people managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see their team's data in Workplace Analytics.
+As a people manager, confirm the following prerequisites. You can then sign in and see your team's data in Workplace Analytics.
 
-As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
+## Prerequisites
 
-Use the following available information to lead your team toward more effective business outcomes:
+* **Manager access** - Confirm that the Workplace Analytics admin has given you access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings).
+* **Licensed team** - You and your team are measured employees who are assigned a Workplace Analytics license and your team is included in the reporting hierarchy that leads to you as their manager. The hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the admin.
+* **Minimum team size** - Your team structure must meet the minimum group size of nine or more measured and licensed employees, which includes you as a member of the team.
+
+## Sign in to view your team's insights
+
+After confirming the prerequisites, open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, sign in with your work account. Manager insights include the following information.
 
 * **Employee experience** - Research shows that happy employees help boost productivity and reduce turnover. These insights and suggestions can help you maintain positive employee experiences, such as evaluating how much time your team is working after hours on email or instant messages, and if your team is getting enough 1:1 time with you and other managers.
 
@@ -28,7 +34,7 @@ Use the following available information to lead your team toward more effective 
 
 ## About the insights
 
-The following describes how your team metrics are calculated to support the behavioral insights for each of the business insight questions. The metrics for **Teams like yours** shows benchmark averages about similar groups within the organization to compare with your team's metrics. These insights show where your team is excelling, and where you could lead change or improve upon.
+The following describes how your team metrics are calculated to support the behavioral insights for each of the business insight questions. The metrics for **Teams like yours** shows benchmark averages about similar groups within the organization to compare with your team's metrics. These insights show where your team is excelling and where you could lead change.
 
 |Business insight question |Team metric description |Metric average for your team and "teams like yours" |
 |--------------------------|-------------------|-----------------|
@@ -42,59 +48,13 @@ The following describes how your team metrics are calculated to support the beha
 |Do your team members act as influencers? |Influencers are employees who have the best connections to people across the company based on their collaboration patterns. This insight accounts for the team's size and how it is represented within the organizational hierarchy for calculating the actual and recommended numbers of influencers in your team. |The average numeric scores indicate how well connected a person in that team is within the overall company. The higher the score, the more well connected that team is with the potential to drive change. |
 |Is your team sharing information quickly? |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 20 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |Average number of emails sent between only two employees. |
 
-## Supporting evidence and Best practices
+## Tell us what you think
 
-Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
+After using the new Manger insights, please send your feedback through one of the following options.
 
-* Industry experts based on research
-* Organizations that have effectively used Workplace Analytics to improve their business outcomes
-
-## Differential privacy
-
-Differential privacy is a technology that allows researchers and analysts to pull useful information from databases containing personal information while simultaneously protecting individual privacy. This is achieved by introducing slight variations to the data to protect privacy while still maintaining accuracy, so managers have confidence in the observed values.
-
-To learn more about differential privacy, see [Differential Privacy in Workplace Analytics](../privacy/differential-privacy.md) and [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).
-
-## View recommended plan
-
-As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
-
-## Frequently asked questions
-
-### Q1 Which roles have access to this manager insights page?
-
-Only managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see insights about their teams.
-
-### Q2 Who is included as a measured employee?
-
-Measured employees include those who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the Admin.
-
-### Q3 Why is the number of measured employees different from my current number of direct and indirect reports?
-
-The number of measured employees might be different because:
-
-* One or more of the employees on your team are not assigned a Workplace Analytics license.
-* Or the latest available HR data uploaded into Workplace Analytics did not include the latest hierarchy or employee data.
-
-### Q4 Can I configure the time period or thresholds for the insights?
-
-Currently, you cannot configure settings for these insights. The current time period is the past six months.
-
-### Q5 Do the "Teams like yours" metrics account for organizational averages and minimum group size settings?
-
-Teams like yours metrics use other teams in the same hierarchy that report to the manager's manager. If the team structure does not meet the minimum group size, then the company's average is not used or shown in the metrics.  
-
-### Q6 Can I see insights for both direct and indirect reports?
-
-While this capability is currently unavailable, it is planned for a future release.
-
-### Q7 Why are some employees in my team not eligible to enroll in plans?
-
-Employees might not be eligible for a plan if:
-
-* They do not have MyAnalytics enabled.
-* Are already enrolled in an existing plan.
-* The team does not meet the minimum group size limit.
+* Use the thumbs up and down icons on the dashboard.
+* Email your comments to [M365insightsfeedback@microsoft.com](M365insightsfeedback@microsoft.com).
+* Take a [3-minute survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1RYdGrhcTNMt4nvjfGXZ7tUQ0YxM1U4Rko2RDk4TFFON0U2SUhDU0E2Mi4u).
 
 ## Related topics
 

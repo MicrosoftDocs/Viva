@@ -1,0 +1,10 @@
+- name: Introduction
+  href: ./introduction.md
+- name: Get started
+  href: ./get-started.md  
+- name: Frequently asked questions
+  href: ./faqs.md
+- name: Plans
+  href: ../WorkplaceAnalytics/Tutorials/solutionsv2-intro.md
+- name: Best practices
+  href: ../WorkplaceAnalytics/Tutorials/gm-best-practices.md
