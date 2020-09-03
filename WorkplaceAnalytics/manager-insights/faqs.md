@@ -58,7 +58,7 @@ No, currently the insights only include scheduled calls and not unscheduled call
 
 No, only you can see insights about your team. Managers higher up can only see aggregated insights at their level, with no individual team data shown. The insights also use differential privacy to further protect your team's personal data.
 
-#### Q11 Do the "Teams like yours" metrics use my organizational averages?
+##### Q11 Do the "Teams like yours" metrics use my organizational averages?
 
 Yes, Teams like yours metrics use other teams who are in the same hierarchy that report to your manager within your organization. If you have only one peer team or no peer team, the metrics use and show your company's averages.
 
