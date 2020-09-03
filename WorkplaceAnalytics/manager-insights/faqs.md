@@ -70,7 +70,7 @@ While this capability is currently unavailable, it is planned for a future relea
 
 While this capability is currently unavailable, it is being considered for a future release.
 
-#### Q14 As a manager, can I see metrics at my organizational level, such as my manager’s team metrics?
+##### Q14 As a manager, can I see metrics at my organizational level, such as my manager’s team metrics?
 
 While this capability is currently unavailable, it is being considered for a future release.
 
@@ -78,7 +78,7 @@ While this capability is currently unavailable, it is being considered for a fut
 
 Yes, you can share these insights with your team to generate a conversation and collectively decide what the norms are for your team. See [Best practices](../tutorials/gm-best-practices.md) for ways to approach your team about these insights.
 
-#### Q16 What is a plan?
+##### Q16 What is a plan?
 
 By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your team. See [Plans](../tutorials/solutionsv2-intro.md) to learn more.  
 
