@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Connecting employees across units creates agile innovation by helping the company leverage benefits of scale, cross-pollinate ideas, and integrate different perspectives.
 
-## Statistics
+## Why it matters
 
  The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explain how important cross-group collaboration is in getting work done:
 

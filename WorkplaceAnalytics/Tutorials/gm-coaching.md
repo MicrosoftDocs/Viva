@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Employees who get one-on-one time with their managers are more likely to be engaged as compared to those who don't.
 
-## Statistics
+## Why it matters
 
 According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/):
 

@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Employees need time to disconnect from work. Studies show that we all need mental recovery time to reduce stress, increase creativity, and avoid burnout.
 
-## Statistics
+## Why it matters
 
 Based on research presented in the article about [Protecting company culture means having rules for email](https://insights.office.com/productivity/protecting-company-culture-from-after-hours-work/):
 

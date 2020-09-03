@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Managers can help share ideas and expertise across the company. This cross-unit collaboration helps to leverage scattered resources, drive continual innovation, and keep ahead of the competition.
 
-## Statistics
+## Why it matters
 
 According to the [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/) article, it's important to develop and deploy cultural brokers:
 
