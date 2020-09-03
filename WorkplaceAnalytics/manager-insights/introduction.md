@@ -21,7 +21,7 @@ As a people manager with team sizes of nine or more people, you can discover key
 
 ![Manager insights](./images/manager-insights.png)
 
-## Why this is important
+## Why it's important
 
 Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
 
