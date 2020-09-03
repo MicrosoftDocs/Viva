@@ -18,7 +18,7 @@ As a people manager, confirm the following prerequisites. You can then sign in a
 
 * **Manager access** - Confirm that the Workplace Analytics admin has given you access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings).
 * **Licensed team** - You and your team are measured employees who are assigned a Workplace Analytics license and your team is included in the reporting hierarchy that leads to you as their manager. The hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the admin.
-* **Minimum team size** - Your team structure must meet the minimum group size of nine or more measured and licensed employees, which includes you as a member of the team.
+* **Minimum team size** - Your team structure must meet the minimum group size of nine or more measured and licensed employees, including the manager (you) as a member of the team.
 
 ## Sign in to view your team's insights
 
