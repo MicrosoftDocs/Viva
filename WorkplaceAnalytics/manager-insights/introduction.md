@@ -19,7 +19,7 @@ As a people manager with team sizes of nine or more people, you can discover key
 * **Support team wellbeing** - Check on your team’s after-hours work habits and use these insights to balance their schedule flexibility with time away to disconnect.
 * **Cross-team collaboration** - Review how your team is collaborating with the rest of the organization and reflect on how you might help expand your team's network.
 
-![Manager insights](../images/manager-insights.png)
+![Manager insights](./images/manager-insights.png)
 
 ## Why this is important
 
