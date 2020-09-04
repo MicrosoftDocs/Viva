@@ -165,6 +165,9 @@ When you publish this dashboard to workspaces, they get split into two parts, re
 
 1. Open your [Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-experience#open-the-power-bi-service)(app.powerbi.com).
 2. From **Home**, select the **ellipsis** (**...**) on the ribbon to view the menu, and then select **Settings** > **Settings**.
+
+  ![Power BI Service Settings](../Images/WpA/Tutorials/pbi-service-settings.png)
+
 3. Select **Datasets**, and then for the dashboard you're getting the error for, select the **ellipsis** (**...**) > **Settings**.
 4. In **Data source credentials**, select **Edit credentials** for Workplace Analytics.
 5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted, select **Save**.
