@@ -3,7 +3,7 @@
 title: Best practices for meetings
 description: Workplace Analytics shares best practices with managers about planning and running meetings
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -13,7 +13,7 @@ ms.prod: wpa
 
 To solve a problem or make a decision, it helps to keep the meeting audience small and the duration short. Research shows that smaller and shorter meetings enable attendees to communicate faster, come to decisions more quickly, and focus on getting the work done.
 
-## Statistics
+## Why it matters
 
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective:
 

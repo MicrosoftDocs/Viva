@@ -3,7 +3,7 @@
 title: Best practices for influencers
 description: Workplace Analytics shares best practices with managers about influencers
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Influencers are remarkably successful at driving cross-organizational initiatives and transformations. Ensuring influencer representation across the company can help navigate across hierarchical boundaries and accelerate the execution of growth-focused projects.
 
-## Statistics
+## Why it matters
 
 The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article explains how companies need more volunteer change agents and that:
 
