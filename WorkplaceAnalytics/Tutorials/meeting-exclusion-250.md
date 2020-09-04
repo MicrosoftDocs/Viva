@@ -1,12 +1,8 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: Meeting exclusion rules -- Large meeting limitation 
 description: Meeting exclusion rules -- Concepts   
 author: paul9955
 ms.author: v-pascha
-ms.date: 02/21/2019
 ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa

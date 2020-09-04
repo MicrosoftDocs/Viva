@@ -3,7 +3,7 @@
 title: Best practices for cross-group collaboration
 description: Workplace Analytics shares best practices with managers about the importance of cross-group collaboration
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Connecting employees across units creates agile innovation by helping the company leverage benefits of scale, cross-pollinate ideas, and integrate different perspectives.
 
-## Statistics
+## Why it matters
 
  The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explain how important cross-group collaboration is in getting work done:
 
