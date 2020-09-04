@@ -161,7 +161,15 @@ The following error occurs because of a preview features setting in Power BI. To
 
 ##### OData error that the given URL neither points to an OData service or a feed in Power BI
 
-When you publish this dashboard to workspaces, they get split into two parts, reports and datasets (data sources). This error occurs when your permission authentication token expires in Power BI. Do the following to reset your global permissions.
+When you publish this dashboard to workspaces, they get split into two parts, reports and datasets (data sources). This error occurs when your permission authentication token expires in Power BI. Do the following to reset permissions for the Power BI service.
+
+1. Open your [Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-experience#open-the-power-bi-service)(app.powerbi.com).
+2. From **Home**, select the **ellipsis** (**...**) on the ribbon to view the menu, and then select **Settings** > **Settings**.
+3. Select **Datasets**, and then for the dashboard you're getting the error for, select the **ellipsis** (**...**) > **Settings**.
+4. In **Data source credentials**, select **Edit credentials** for Workplace Analytics.
+5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted, select **Save**.
+
+Do the following to reset your global permissions for the OData feed.
 
 1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
 2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Edit permissions**.
