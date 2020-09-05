@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Different communication tools are suited for different means. While emails are great for recaps, updates, and other informational exchanges, it can slow down or muddle an important message. Choosing the right medium speeds information access and agility.
 
-## Statistics
+## Why it matters
 
 Based on the information presented in the article about [What email, IM, and the phone are each good for](https://insights.office.com/collaboration/what-email-im-and-the-phone-are-each-good-for/), you might be hampering productivity with too many emails:
 

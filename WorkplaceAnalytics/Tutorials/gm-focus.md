@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Having scheduled, uninterrupted time to focus on deep work provides employees an opportunity to master difficult tasks and produce results at an elite level, in terms of quality and speed.
 
-## Statistics
+## Why it matters
 
 The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) article explains what 182 senior managers in a range of industries said about meetings when surveyed:
 

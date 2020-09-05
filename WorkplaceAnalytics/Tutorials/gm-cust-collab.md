@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Spending time collaborating with customers helps your organization better anticipate customer's needs and develop products and services that create real value.
 
-## Statistics
+## Why it matters
 
 The following are based on research presented in the [The loyalty economy: Are you undervaluing your customers?](https://insights.office.com/business-performance/the-loyalty-economy-are-you-undervaluing-customers/), [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/), and [What makes great salespeople](https://insights.office.com/management-strategy/what-makes-great-salespeople/) articles:
 
