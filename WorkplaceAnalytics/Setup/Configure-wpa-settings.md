@@ -96,7 +96,7 @@ After evaluating your privacy needs, you can use the Privacy settings page in Wo
 2. Select **Save**.
 
    > [!Important]
-   > Carefully validate that your privacy settings are correct, before you check the "I confirm that all privacy settings are complete" box, you can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following month.
+   > Carefully validate that your privacy settings are correct, before you check the "I confirm that all privacy settings are complete" box, you can change the settings at any time, but the settings changes will not take effect until the data is processed again for the following week.
 
 3. To begin the processing of Office 365 data, select the **I confirm that all privacy settings are complete** check box, and then select **Save**.
 
