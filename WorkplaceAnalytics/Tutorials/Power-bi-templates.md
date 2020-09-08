@@ -164,7 +164,7 @@ The following error occurs because of a preview features setting in Power BI. To
 
 When you publish this dashboard to workspaces, they get split into two parts, reports and datasets (data sources). This error occurs when your permission authentication token expires in Power BI. Do the following to reset permissions for the Power BI service.
 
-1. Open your [Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-experience#open-the-power-bi-service)(app.powerbi.com).
+1. Open your [Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-experience#open-the-power-bi-service) (app.powerbi.com).
 2. From **Home**, select the **ellipsis** (**...**) on the ribbon to view the menu, and then select **Settings** > **Settings**.
 
   ![Power BI Service Settings](../Images/WpA/Tutorials/pbi-service-settings.png)
