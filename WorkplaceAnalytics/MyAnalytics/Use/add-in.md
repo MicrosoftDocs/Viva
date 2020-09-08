@@ -28,9 +28,11 @@ Before you can use the Insights add-in, be sure that the following prerequisites
 
 * Have a MyAnalytics user license and let at least 24 hours elapse since you were granted that license.
 * Have the following software: 
+
   * Your computer has Outlook desktop 2016 version 16.0.7924.1 or later for Windows, or version 15.39.1010 or later for Mac.
   * Internet Explorer version 10 or 11 is installed on your computer.  
-* Open the Insights add-in in one of the programs listed under [Open the Insights add-in](#open-the-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop).
+
+Open the Insights add-in in one of the programs listed under [Open the Insights add-in](#open-the-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop).
 * Select an email. In Outlook, you can do this in one of the following ways:
 
   * Open the email in a new window.
