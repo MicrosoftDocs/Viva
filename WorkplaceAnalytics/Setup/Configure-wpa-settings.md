@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Configure Workplace Analytics system settings
 description: Describes how to configure the system settings for Workplace Analytics
