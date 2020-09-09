@@ -86,7 +86,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
 ## Register apps in Azure AD
 
-You need [to register the apps in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) that are required for deploying and authenticating the use of Workplace Analytics Azure Templates in the Microsoft AppSource solution template deployment site.
+You need [to register the apps in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) or [Register an application with the Microsoft identity platform](https://docs.microsoft.com/graph/auth-register-app-v2), which is required for deploying and authenticating the use of Workplace Analytics Azure Templates in the Microsoft AppSource solution template deployment site.
 
 These templates require an Azure Active Directory (AD) application registration for the Azure Web App service, the Web API App service, the Azure Analysis service, and the Azure key vault.
 
@@ -101,24 +101,25 @@ These templates require an Azure Active Directory (AD) application registration 
 3. In Azure Active Directory, under Manage, select **App registrations** > **New registration**.
 4. Enter a name for the **Azure Web App service** with a consistent naming convention format, such as: **wpaapps + YYYYMMDD + role** = **App registration name**. For example: **wpaapps20201031091429-ui**.
 5. Select **New registration** and enter a name for the **Azure API Web App service**, such as: **wpaapps2020103131091429-api**.
-6. Register the Azure Web App service:
+6. For the Azure Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
 
-   1. **API Permission** - Microsoft Graph – User.Read – Sign in and read user profile - Delegated
-   2. **Expose API** – Needed to grant the delegated permission for this registration.
+   1. **API permissions** - Select **Azure Active Directory Graph**, and then select **User.Read** and **Delegated**.
+   2. **Expose API** – Select to grant the delegated permission for this registration.
    3.	**Authentication update** - Add the **Redirect URIs** that you got in **Step 10** in [Deployment](#deployment). The format will be similar to the following:
 
-   `https://wpaapps20201031-api.azurewebsites.net/.auth/login/aad/callback`
-   `https://wpaapps20201031-mappingapi.azurewebsites.net/.auth/login/aad/callback`
+       `https://wpaapps20201031-api.azurewebsites.net/.auth/login/aad/callback`
+       `https://wpaapps20201031-mappingapi.azurewebsites.net/.auth/login/aad/callback`
 
-7. Register the Azure API Web App service:
+    ![Azure AD API permissions](./images/aad-permissions.png)
 
-   1. **API Permission** - Microsoft Graph – User.Read – Sign in and read user profile - Delegated
-   2.	Select the **Azure api web app service** (for example: wpaapps20201031091429-api) > **user_impersonation** > **Delegated**
+7. For the Azure API Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
+
+   1.	Select the **Azure api web app service** (for example: wpaapps20201031091429-api).
+   2. Select **user_impersonation** and **Delegated**.
    3.	Grant consent for the organization.
  
-8. Enable **implicit grant flow** for the apps, by selecting the check box for both **Access Tokens** and **ID tokens**.
+8. To enable **implicit grant flow** for the apps in Azure AD, locate and select the check box for both **Access Tokens** and **ID tokens**.
 9. Select **Authentication** and update the Redirect URI for each app, which you got in **Step 10** in [Deployment](#deployment).
-
 
 ## Generate SAS URI for data export
 
