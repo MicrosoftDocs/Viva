@@ -35,9 +35,8 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Insularity|When collaboration happens only with people from within a person’s team, function, department, and so on.|
 |Invitee|A person who is invited to a meeting with a meeting request.|
 |Layer|The number of *levels* of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0.|
-|Level|A *required attribute* that is a company-specific way of organizing employees by job experience or seniority.   |
-| ## <a name="meaningful-interaction-definition">Meaningful interaction</a>| THIS ROW IS THE TEST LINK DESTINATION. See [Meaningful interaction](#meaningful-interaction).|
-| <a name="meaningful-interaction-definition2">Meaningful interaction2</a>| THIS ROW IS THE SECOND TEST LINK DESTINATION. THIS ONE HAS NO HEADING MARKER. |
+|Level|A *required attribute* that is a company-specific way of organizing employees by job experience or seniority.|
+| <a name="meaningful-interaction-definition2">Meaningful interaction</a> | A meaningful interaction is defined as one of the following types of collaboration: <li>a single email</li><li>a single meeting</li><li>a single call</li><li>three instant messages. (This means either _three messages sent by one individual to others in Teams_, or _three distinct messages from distinct senders within the same chat in Teams_.)<p><p>Moreover, every meaningful interaction must have at least two collaborators (but at most eight collaborators) participating in the interaction.  |
 |Measured employee|The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.|
 |Multitasking|The concept of not staying focused on the task at hand. Defined in Workplace Analytics as a person sending two emails or more per meeting hour, and in meetings shorter than an hour, two emails or more per meeting.|
 |Non-declined meeting request|In Workplace Analytics, this is synonymous with *attended*.|
@@ -58,21 +57,6 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Time investor|A *measured employee* who interacts with other collaborators in meetings and with email or instant messages. Time investors allocate their time with the other participants or *collaborators* in the interaction in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.|
 |Time zones|Workplace Analytics uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (person query results) are calculated by using the person’s time zone. Meeting metrics (meeting query results) are calculated by using the organizer’s time zone.|
 |Working hours|Hours that represent the typical workweek for the company. The Workplace Analytics default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. Your admin can change the default working days and hours in **Admin settings** on the [System defaults](../use/settings.md#system-defaults) page.
-
-### Meaningful interaction
-A meaningful interaction is defined as one of the following types of collaboration:
- * a single email 
- * a single meeting
- * a single call 
- * three instant messages. This means either of the following: 
-   * three messages sent by one individual to others in Teams
-   * three distinct messages from distinct senders within the same chat in Teams 
-
-Moreover, every meaningful interaction must have at least two collaborators (but at most eight collaborators) participating in the interaction. 
-
-TEST LINK: Try going to 
-[Meaningful interaction definition](#meaningful-interaction-definition) in the table and to [Meaningful interaction definition2](#meaningful-interaction-definition2) in the table.
-
 
 ### Related topic
 
