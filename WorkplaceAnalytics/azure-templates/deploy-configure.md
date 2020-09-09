@@ -103,20 +103,20 @@ These templates require an Azure Active Directory (AD) application registration 
 5. Select **New registration** and enter a name for the **Azure API Web App service**, such as: **wpaapps2020103131091429-api**.
 6. For the Azure Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
 
-   1. **API permissions** - Select **Azure Active Directory Graph**, and then select **User.Read** and **Delegated**.
-   2. **Expose API** – Select to grant the delegated permission for this registration.
-   3.	**Authentication update** - Add the **Redirect URIs** that you got in **Step 10** in [Deployment](#deployment). The format will be similar to the following:
+   * **API permissions** - Select **Azure Active Directory Graph**, and then select **User.Read** and **Delegated**.
+   * **Expose API** – Select to grant the delegated permission for this registration.
+   * **Authentication update** - Add the **Redirect URIs** that you got in **Step 10** in [Deployment](#deployment). The format will be similar to the following:
 
-       `https://wpaapps20201031-api.azurewebsites.net/.auth/login/aad/callback`
-       `https://wpaapps20201031-mappingapi.azurewebsites.net/.auth/login/aad/callback`
+     `https://wpaapps20201031-api.azurewebsites.net/.auth/login/aad/callback`
+     `https://wpaapps20201031-mappingapi.azurewebsites.net/.auth/login/aad/callback`
 
     ![Azure AD API permissions](./images/aad-permissions.png)
 
 7. For the Azure API Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
 
-   1.	Select the **Azure api web app service** (for example: wpaapps20201031091429-api).
-   2. Select **user_impersonation** and **Delegated**.
-   3.	Grant consent for the organization.
+   * Select the **Azure api web app service** (for example: wpaapps20201031091429-api).
+   * Select **user_impersonation** and **Delegated**.
+   * Grant consent for the organization.
  
 8. To enable **implicit grant flow** for the apps in Azure AD, locate and select the check box for both **Access Tokens** and **ID tokens**.
 9. Select **Authentication** and update the Redirect URI for each app, which you got in **Step 10** in [Deployment](#deployment).
