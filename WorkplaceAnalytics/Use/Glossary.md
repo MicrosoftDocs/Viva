@@ -36,7 +36,8 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Invitee|A person who is invited to a meeting with a meeting request.|
 |Layer|The number of *levels* of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0.|
 |Level|A *required attribute* that is a company-specific way of organizing employees by job experience or seniority.   |
-|Meaningful interaction| See [Meaningful interaction](#meaningful-interaction).|
+| ## <a name="meaningful-interaction-definition">Meaningful interaction</a>| THIS ROW IS THE TEST LINK DESTINATION. See [Meaningful interaction](#meaningful-interaction).|
+| <a name="meaningful-interaction-definition2">Meaningful interaction2</a>| THIS ROW IS THE SECOND TEST LINK DESTINATION. THIS ONE HAS NO HEADING MARKER. |
 |Measured employee|The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.|
 |Multitasking|The concept of not staying focused on the task at hand. Defined in Workplace Analytics as a person sending two emails or more per meeting hour, and in meetings shorter than an hour, two emails or more per meeting.|
 |Non-declined meeting request|In Workplace Analytics, this is synonymous with *attended*.|
@@ -68,6 +69,10 @@ A meaningful interaction is defined as one of the following types of collaborati
    * three distinct messages from distinct senders within the same chat in Teams 
 
 Moreover, every meaningful interaction must have at least two collaborators (but at most eight collaborators) participating in the interaction. 
+
+TEST LINK: Try going to 
+[Meaningful interaction definition](#meaningful-interaction-definition) in the table and to [Meaningful interaction definition2](#meaningful-interaction-definition2) in the table.
+
 
 ### Related topic
 
