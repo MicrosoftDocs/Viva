@@ -26,7 +26,8 @@ Workplace Analytics includes the following dashboards that you can use in Power 
 * [Influence insights](../tutorials/pbi-influence-db.md)
 * [Manager impact](../tutorials/power-bi-manager-impact.md)
 * [Quickstart overview](../tutorials/power-bi-quickstart.md)
-* [Return to worksites](../tutorials/power-bi-return-tw.md)<!-- * [Sales business continuity](../tutorials/pbi-bc-sales.md)-->
+* [Return to worksites](../tutorials/power-bi-return-tw.md)
+* [Sales business continuity](../tutorials/pbi-bc-sales.md)
 * [Teams insights](../tutorials/power-bi-teams.md)
 
 ## Power BI tips
@@ -158,6 +159,28 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 The following error occurs because of a preview features setting in Power BI. To change the setting for the dashboard, go to **File** > **Options and Settings** > **Options** > **Preview features**. Clear the checkbox for preview features, and then save and restart the template.
 
   ![Preview features error](../Images/WpA/Tutorials/pbi-preview-error.png)
+
+##### OData error that the given URL neither points to an OData service or a feed in Power BI
+
+When you publish this dashboard to workspaces, they get split into two parts, reports and datasets (data sources). This error occurs when your permission authentication token expires in Power BI. Do the following to reset permissions for the Power BI service.
+
+1. Open your [Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-experience#open-the-power-bi-service) (app.powerbi.com).
+2. From **Home**, select the **ellipsis** (**...**) on the ribbon to view the menu, and then select **Settings** > **Settings**.
+
+  ![Power BI Service Settings](../Images/WpA/Tutorials/pbi-service-settings.png)
+
+3. Select **Datasets**, and then for the dashboard you're getting the error for, select the **ellipsis** (**...**) > **Settings**.
+4. In **Data source credentials**, select **Edit credentials** for Workplace Analytics.
+5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted, select **Save**.
+
+Do the following to reset your global permissions for the OData feed.
+
+1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
+2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Edit permissions**.
+3. For **Credentials**, select **Edit**.
+4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
+5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
+6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
 
 ## Support
 

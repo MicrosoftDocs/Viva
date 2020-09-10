@@ -4,13 +4,13 @@ title: Workplace Analytics best practices
 description: Workplace Analytics can help you improve how you and your organization gets work done.
 localization_priority: normal 
 ms.prod: wpa
-ms.author: madehmer
+ms.author: v-mideh
 author: madehmer
 
 ---
 # Workplace Analytics best practices
 
-
+<!--Any changes you make here, please also make in the same gm-best-practices.md file in the manager-insights folder or ask madehmer to do it, since she's the instigator of this scenario. Thanks!-->
 <ul class="panelContent cardsY">
     <li>
         <a href="gm-coaching.md">
