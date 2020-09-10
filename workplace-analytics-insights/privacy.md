@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Privacy with Workplace Analytics insights
 description: About how Workplace Analytics insights keep data private
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya
