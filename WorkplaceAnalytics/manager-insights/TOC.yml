@@ -2,8 +2,6 @@
   href: ./introduction.md
 - name: Get started
   href: ./get-started.md
-- name: Manager rollout
-  href: ./rollout.md   
 - name: Best practices
   href: ./gm-best-practices.md
 - name: Plans

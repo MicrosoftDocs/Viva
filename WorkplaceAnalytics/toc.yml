@@ -80,7 +80,13 @@
             - name: Insights
               href: ~/Use/home-page.md
             - name: Manager insights
-              href: ~/Use/pm-home.md              
+              items:
+                - name: Overview
+                  href: ~/Use/pm-home.md
+                - name: Rollout to managers
+                  href: ~/manager-insights/rollout.md
+                - name: FAQs
+                  href: ~/Use/insight-faqs.md
         - name: Analyze
           items:
             - name: Explore

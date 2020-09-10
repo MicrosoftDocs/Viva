@@ -41,7 +41,6 @@ The following shows an example of an employee experience insight about manager o
 ## How to get started
 
 * See [Get started](./get-started.md) to log in and get more details about your team's insights.
-* See [Manager rollout](./rollout.md) for more about how to introduce the insights to your organization
 * Have questions? Review the [FAQs](./faqs.md).
 
 ## Team privacy is important
