@@ -1,7 +1,9 @@
 - name: Introduction
   href: ./introduction.md
 - name: Get started
-  href: ./get-started.md  
+  href: ./get-started.md
+- name: Manager rollout
+  href: ./rollout.md   
 - name: Frequently asked questions
   href: ./faqs.md
 - name: Plans
