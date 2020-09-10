@@ -23,6 +23,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
  - [Review the security considerations](#security-considerations)
  - [Confirm the prerequisites](#prerequisites)
  - [Deploy the templates](#deployment)
+ - [Register apps in Azure AD](#register-apps-in-azure-ad)
  - [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
  - [Add users](#add-users-and-assign-roles)
  - [Process the data](#process-the-data)
@@ -67,7 +68,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
 10. In **Deployment Review**, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it. Then select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
 
-    * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+    * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) - To register the apps, complete the steps in [Register apps in Azure AD](#register-apps-in-azure-ad) after you complete these steps.
     * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
     * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
     * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
@@ -82,6 +83,43 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
     >You must save this deployment link because you and the other users you add need the link to configure and use the templates.
 
     ![Azure Templates deployment](./images/deployed-website-link.png)
+
+## Register apps in Azure AD
+
+You need [to register the apps in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) or [Register an application with the Microsoft identity platform](https://docs.microsoft.com/graph/auth-register-app-v2), which is required for deploying and authenticating the use of Workplace Analytics Azure Templates in the Microsoft AppSource solution template deployment site.
+
+These templates require an Azure Active Directory (AD) application registration for the Azure Web App service, the Web API App service, the Azure Analysis service, and the Azure key vault.
+
+**To register the apps:**
+
+1. Confirm the following that's required to complete these steps:
+
+   * You can sign in as the **Azure App developer**.
+   * You have the **ClientId** and **Secret** for each app registration.
+
+2. Sign in to the Azure portal as the App developer.
+3. In Azure Active Directory, under Manage, select **App registrations** > **New registration**.
+4. Enter a name for the **Azure Web App service** with a consistent naming convention format, such as: **wpaapps + YYYYMMDD + role** = **App registration name**. For example: **wpaapps20201031091429-ui**.
+5. Select **New registration** and enter a name for the **Azure API Web App service**, such as: **wpaapps2020103131091429-api**.
+6. For the Azure Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
+
+   * **API permissions** - Select **Azure Active Directory Graph**, and then select **User.Read** and **Delegated**.
+   * **Expose API** – Select to grant the delegated permission for this registration.
+   * **Authentication update** - Add the **Redirect URIs** that you got in **Step 10** in [Deployment](#deployment). The format will be similar to the following:
+
+     `https://wpaapps20201031-api.azurewebsites.net/.auth/login/aad/callback`
+     `https://wpaapps20201031-mappingapi.azurewebsites.net/.auth/login/aad/callback`
+
+    ![Azure AD API permissions](./images/aad-permissions.png)
+
+7. For the Azure API Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
+
+   * Select the **Azure api web app service** (for example: wpaapps20201031091429-api).
+   * Select **user_impersonation** and **Delegated**.
+   * Grant consent for the organization.
+ 
+8. To enable **implicit grant flow** for the apps in Azure AD, locate and select the check box for both **Access Tokens** and **ID tokens**.
+9. Select **Authentication** and update the Redirect URI for each app, which you got in **Step 10** in [Deployment](#deployment).
 
 ## Generate SAS URI for data export
 
