@@ -34,7 +34,7 @@ Research helps explain why managers have such a large impact on their team's pro
 * Employees tend to model their behaviors after their managers.
 * Employees who regularly connect with their manager while working remotely are less impacted by increases in workday span and collaboration hours.
 
-The following shows an example of an employee experience insight about manager one-on-one time.
+The following shows an example of an employee experience insight about manager one-on-one time and after-hours team collaboration.
 
 ![Employee experience details](./images/employee-experience.png)
 
