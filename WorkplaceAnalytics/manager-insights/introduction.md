@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Manager insights introduction
 description: About Manager insights in Workplace Analytics and how to use them to help manage your team
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal
 ms.prod: wpa
@@ -34,7 +34,7 @@ Research helps explain why managers have such a large impact on their team's pro
 * Employees tend to model their behaviors after their managers.
 * Employees who regularly connect with their manager while working remotely are less impacted by increases in workday span and collaboration hours.
 
-The following shows an example of an employee experience insight about manager one-on-one time. 
+The following shows an example of an employee experience insight about manager one-on-one time.
 
 ![Employee experience details](./images/employee-experience.png)
 

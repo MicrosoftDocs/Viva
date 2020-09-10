@@ -4,7 +4,7 @@ title: Workplace Analytics best practices
 description: Workplace Analytics can help you improve how you and your organization gets work done.
 localization_priority: normal 
 ms.prod: wpa
-ms.author: madehmer
+ms.author: v-mideh
 author: madehmer
 
 ---

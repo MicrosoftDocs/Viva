@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Manager insights rollout
 description: Guidance on how to rollout new Manager insights in Workplace Analytics to your organization's managers
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal
 ms.prod: wpa

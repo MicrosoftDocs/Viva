@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Frequently asked questions about manager insights
 description: Most commonly asked questions and their answers about Manager insights in Workplace Analytics
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal
 ms.prod: wpa
