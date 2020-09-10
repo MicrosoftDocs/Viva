@@ -19,6 +19,37 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## September 2020
+
+The following new template and template features, enhancements, and changes are in this month's release.
+
+### Relationship Intelligence Azure Template and Power BI report
+
+This release introduces the new Relationship Intelligence report for Power BI that analyzes formal and informal relationships within your organization and understand how these internal groups are communicating and spending their time with external collaborators, such as customers or partners.
+
+This report uses account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce to analyze account-level insights into relationship patterns. To learn more, see [Relationship Intelligence](./relation-intel.md).
+
+### Workspace Planning Azure Template
+
+This release adds a new option to the Workspace Planning Azure Template that enables you to clear a current floor plan, enter new values for fixed seats for team locations, and then re-run the new floor plan for optimization.
+
+For details, see [Workspace Planning Azure Template](space-planning.md).
+
+### Organizational Network Analysis (ONA) Azure Template
+
+* The following new ONA metrics are now available in ONA graphs:
+
+  * **E-I Index** - Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.  
+  * **Qualitative Variation Index** - Measures the diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data.
+  * **Group Size** - Represents the group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs.
+  * **Density ratio** - Compares the density values of a group to the expected density of a group's size within the context of the tenant, which is now available in *group view* graphs.
+
+* **Zip file download** - Ensures a data download file includes all data and is not restricted by Excel row limits.
+* **Relocated Load Graph option** - Load Graph is now on the main page for each dataset making it easier to find saved graphs.
+* **Dark mode** - This option enables you to change the background from white to dark for ONA. This mode enhances visual ergonomics by reducing eye strain, especially in low-light environments. 
+
+To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md). See [measure calculations](ona-metric-calculations.md) for more details about the metrics.
+
 ## July 2020
 
 The following new template and template features, enhancements, and changes are in this month's release.
@@ -36,9 +67,17 @@ The following new template and template features, enhancements, and changes are 
 
 * **Email thread analysis** - The key performance indicators and metrics automatically update with any uncategorized and categorized data available in the analysis. Users no longer need to access separate levels to see uncategorized or categorized thread analysis. The touchpoints metric now shows accumulated counts instead of distinct counts. InitiatorOrgGroup now uses organization instead of domain when organizational group information is available and InitiatorWpAStatus now uses the subject prefix.
 * **Category analysis improvements** - The Category Distribution table is now shown first in Category Analysis and the Time Spent on Category graph has improved graph tools and options.
-* Because of how the new categorization works, the **Undo** option is no longer available for failed analysis. Any existing analysis created with previous versions of Process Explorer cannot be viewed with this new modeling version. 
+* Because of how the new categorization works, the **Undo** option is no longer available for failed analysis. Any existing analysis created with previous versions of Process Explorer cannot be viewed with this new modeling version.
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
+
+### Join Datasets Azure Template
+
+The Join Datasets Template has a new advanced settings option when defining new joins where you can customize how the data is grouped based on the datasets unique values.
+
+The advanced functionality is useful when the date values in your external dataset do not correspond neatly to the dates of the Workplace Analytics data you want to analyze. However, another key column in your data does have comparable values, such as survey titles or names. For example, you could select and compare data from two different surveys for specified time periods of when the survey data was collected based on the names of the surveys in the SurveyName column.
+
+To learn more, see [Join Datasets Azure Template](./join-datasets.md).
 
 ### Organizational Network Analysis (ONA) Azure Template
 

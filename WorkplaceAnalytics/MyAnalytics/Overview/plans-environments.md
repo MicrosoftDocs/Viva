@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics plans and environments
 description: MyAnalytics supported plans and environment requirements
 author: paul9955
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:
@@ -30,9 +28,14 @@ The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-diges
  
 > [!Note]
 > * To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) 
-> * [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are available only in the MyAnalytics (Full) service plan. 
+> * For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
-For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
+### Features in the MyAnalytics (Full) service plan
+
+The following features are available only in the MyAnalytics (Full) service plan: 
+ * Read-status features: [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates), [Track email](../use/mya-notifications.md#track-email), [Track email open rate](../use/mya-notifications.md#track-email-open-rate)   
+ * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) 
+ * [Delay email delivery](../use/mya-notifications.md#delay-email-delivery) 
 
 ## Access to MyAnalytics elements
 

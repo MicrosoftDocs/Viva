@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Follow up on tasks with the Briefing email
 description: Learn how to use the Briefing email to get today's tasks done
 author: madehmer

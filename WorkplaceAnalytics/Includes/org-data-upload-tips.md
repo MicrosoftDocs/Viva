@@ -17,7 +17,7 @@ All field header or column names must:
 * Only contain alphanumeric characters (letters and numbers, for example Date1)
 * Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP)
 * Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
-* Have no spaces or special characters (non-alphanumeric, such as @, #, %, &); if spaces or special characters are included, Workplace Analytics will remove them from the name
+* Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as @, #, %, &); if spaces or special characters are included, Workplace Analytics will remove them from the name
 
 The field values in the data row must comply with the following formatting rules:
 

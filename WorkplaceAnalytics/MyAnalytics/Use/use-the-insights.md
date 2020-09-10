@@ -1,5 +1,4 @@
 ---
-
 title: Use Insights
 description: Learn how to use the options in the Insights Outlook add-in.
 author: paul9955
@@ -14,19 +13,19 @@ ms.prod: mya
 
 The information in this section helps you get the most out of the following insights:
 
-1.	[Prepare for your meetings](#prepare-for-your-meetings) 
+1.	[Prepare for your meetings](#prepare-for-your-meetings)
 2.	[Track email and document open rates](#track-email-and-document-open-rates)
 3.	[View outstanding tasks](#view-outstanding-tasks) 
 4.	[Follow up on your requests](#follow-up-on-your-requests) 
-5.	[Book time to focus](#book-time-to-focus) 
-6.	[Catch up on email](#catch-up-on-email) 
+5.	[Book time to focus](#book-time-to-focus)
+6.	[Catch up on email](#catch-up-on-email)
 7.	[Catch up on documents](#catch-up-on-documents) 
 8.	[Add important people](#add-important-people)
 9.	[Set lunch hours](#set-lunch-hours)
-10.	[Plan your time away](#plan-your-time-away) 
-11.	[Catch up with your team](#catch-up-with-your-team)
-12.	[Meeting suggestions](#meeting-suggestions)
-13.	[Check quiet hours impact](#check-quiet-hours-impact)
+10. [Plan your time away](#plan-your-time-away)
+11. [Catch up with your team](#catch-up-with-your-team)
+12. [Meeting suggestions](#meeting-suggestions)
+13. [Check quiet hours impact](#check-quiet-hours-impact)
 
 ## Prepare for your meetings
 
@@ -219,9 +218,9 @@ Insights does not report about email messages in the following categories:
 
 It is easy to lose track of commitments that you've made to your colleagues in email. The **View outstanding tasks** insight helps you make sure nothing falls through the cracks by reminding you of tasks that you've agreed to do. It is based on emails that you've sent and requests from your colleagues during the last 14 days of email communication. For example:
 
- * "I will send you the latest report tomorrow"
- * "Will get back to you by end of the week with a suitable meeting time"
- * A colleague asked you three days ago: "Please review this deck by the end of the week"
+* "I will send you the latest report tomorrow"
+* "Will get back to you by end of the week with a suitable meeting time"
+* A colleague asked you three days ago: "Please review this deck by the end of the week"
 
 ### To use this insight
 
@@ -240,7 +239,7 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 | **Name and icon**  &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;	| This is the person you might have an outstanding task for
 | **Email subject line** |	Subject line preview of the email along with a hyperlink to open the email |
 | **Task snapshot**	| A snippet of text related to the task
-| **Open**	| Select this to open the relevant email so that you can review the task. |
+| **Open** | Select this to open the relevant email so that you can review the task. |
 | **Already done** | Select this to mark the task as completed. Suggested tasks disappear after two weeks or after you mark them as done.
 | **Not a task Action** | Select this to mark the insight as not a task. This will help us improve the detection accuracy
 | **Add to To Do Actions** | Select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later. This tool can help you prioritize and even delegate work, which can lead to higher productivity.<br> <br> Consider breaking tasks down into simple steps, adding due dates, and setting reminders to keep you on track. | 

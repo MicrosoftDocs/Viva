@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
 author: madehmer
@@ -47,6 +46,9 @@ Set-UserBriefingConfig -Identity joe@contoso.com [-Enabled [<$true | $false>]
 
 - If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user. The user will not be able to override this setting or opt-in to the Briefing email.
 - If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from [cortana.office.com](https://cortana.office.com). If no action occurs, this setting applies by default.
+
+> [!Note]
+> When **Enabled** is set as **$true**, people who had previously unsubscribed will continue to be opted out and will not receive any Briefings until they opt back in at [cortana.office.com](https://cortana.office.com).
 
 For example, to get the current state of the Briefing email flag for "joe@contoso.com," you'd use:
 

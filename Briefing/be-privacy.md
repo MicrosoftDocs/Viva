@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Privacy guide for Briefing emails
 description: Learn about how Briefing emails keep your data private and secure
 author: madehmer
