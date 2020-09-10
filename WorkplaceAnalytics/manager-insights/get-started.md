@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Get started with manager insights
 description: Learn how to sign in and use Manager insights in Workplace Analytics
 author: madehmer

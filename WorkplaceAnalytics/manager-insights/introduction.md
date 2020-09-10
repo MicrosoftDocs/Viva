@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Manager insights introduction
 description: About Manager insights in Workplace Analytics and how to use them to help manage your team
 author: madehmer

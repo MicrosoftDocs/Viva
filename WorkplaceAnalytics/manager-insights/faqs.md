@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Frequently asked questions about manager insights
 description: Most commonly asked questions and their answers about Manager insights in Workplace Analytics
 author: madehmer

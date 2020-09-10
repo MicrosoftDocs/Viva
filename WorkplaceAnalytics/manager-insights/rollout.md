@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Manager insights rollout
 description: Guidance on how to rollout new Manager insights in Workplace Analytics to your organization's managers
 author: madehmer
