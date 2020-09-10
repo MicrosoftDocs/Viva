@@ -14,7 +14,7 @@ ms.prod: wpa
 
 When you're ready to roll out the Manager insights to your organization, do the following to introduce and educate managers on how to use this tool to better understand their team collaboration habits and to leverage them to better support their teams.
 
-* **Key leader demo** - Demonstrate the value of these insights to the key organizational or business division leaders. You can also share the [Introduction to Workplace Analytics video](https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true) for those who are new to Workplace Analytics.
+* **Demo to key leaders** - Demonstrate the value of these insights to the key organizational or business division leaders. You can also share the [Introduction to Workplace Analytics video](https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true) for those who are new to Workplace Analytics.
 
 * **Recruit managers** - Ask business leaders to introduce this new tool to their managers with this [sample email](./email-to-managers.docx). It's important that managers understand how to use these insights to best support their teams. Recruiting managers in teams that already support your organization, such as in IT, Training, Corporate communications, and Support, allows them to learn and then help others learn how to use this new tool.
 
