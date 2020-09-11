@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: GLINT and Workplace Analytics dashboard
+title: Workplace patterns dashboard
 description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and GLINT data
 author: madehmer
 ms.author: v-mideh
@@ -9,16 +9,16 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# GLINT and Workplace Analytics
+# Workplace patterns
 
-The Glint and Workplace Analytics dashboard uses a Power BI template to combine behavioral data from Workplace Analytics and sentiment data from Glint. Leaders get insights into underlying factors contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
+The Workplace patterns dashboard uses a Power BI template to combine behavioral data from Workplace Analytics and sentiment data from Glint. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
 It uses survey scores and working patterns to identify outlying teams who might need attention. Even for leaders who are already aware of team issues, the dashboard creates high-level visibility enabling them to use research-based and data-driven actions to change or improve workplace behaviors.
 
 This first release of the dashboard combines the following data.
 
 |Glint survey question |Workplace Analytics metrics |
-|----------------- |--------------- |
+|------------|------------|
 |My company takes a genuine interest in employee's wellbeing. |<ul><li>Workweek span </li><li>After hours metrics </li><li>Collaboration hours</li></ul>|
 |I know what I should be focusing on right now. |Manager one-on-one hours |
 |My company is doing a good job of helping employees feel connected to one another. |<ul><li>Small group meetings </li><li>Internal network size</li></ul>|
