@@ -7,7 +7,7 @@ author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: wpa
 
 ---
 # Introducing Workplace Analytics insights
@@ -15,7 +15,6 @@ ms.prod: mya
 As a business leader, understanding how your employees work together is important. Workplace Analytics insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
 
 ![Home page](./images/home.png)
-
 
 ## Your organizational data
 

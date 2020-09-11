@@ -7,7 +7,7 @@ author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: wpa
 
 ---
 # Behaviors associated with Workplace Analytics insights

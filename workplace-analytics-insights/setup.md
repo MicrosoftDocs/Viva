@@ -7,7 +7,7 @@ author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: wpa
 
 ---
 # Set up Workplace Analytics insights
@@ -20,17 +20,20 @@ You can request access and get more information at [Microsoft Workplace Analytic
 
 ## To get licenses
 
-1. As the Microsoft 365 admin for your organization, open a browser in private mode or incognito mode, and then open the promotional URL that Microsoft sent you for Workplace Analytics insights.
-2. In the Welcome screen, select **Sign in**.
-3. Enter your admin credentials to sign in to Microsoft 365.
-4. In **Where will you be using this**, complete the requested information, and then select **Next**.
-5. In **users**, enter the number of active licenses that correspond with the promotional URL from Microsoft, and then select **Next**.
-6. In How do you want to pay, enter applicable information for your organizational account, and then select **Place order**.
-7. When prompted in the Confirmation page, select **assign users to your new subscription**.
+1. As as authorized purchaser of licenses for your organization, open a **New InPrivate window** or **New incognito window** with your browser.
+2. Open the promotional URL that Microsoft sent you for Workplace Analytics insights.
+3. In the Welcome screen, select **Sign in**.
+4. Enter your authorized purchaser credentials to sign in to Microsoft 365.
+5. In **Where will you be using this**, complete the requested information, and then select **Next**.
+6. In **users**, enter the number of active licenses that correspond with the **promotional URL for Microsoft Workplace Analytics insights**, and then select **Next**.
+7. In **How do you want to pay**, enter applicable information for your organizational account, and then select **Place order**.
+8. When prompted in the **Confirmation** page, select **assign users to your new subscription**.
 
 ## To assign licenses
 
-You can use the Microsoft admin center to assign licenses to one or more individual users who subscribe to Microsoft or Office 365 E5 plan. Alternatively, or security groups who subscribe to a Microsoft or Office 365 E5 plan.
+You must be able to sign in as a Microsoft 365 admin to use the Microsoft admin center to assign licenses to one or more individual users who subscribe to Microsoft or Office 365 E5 plan.
+
+Alternatively, you can sign in as the admin to Azure Active Directory to assign licenses for Workplace Analytics insights to one or more security groups who subscribe to a Microsoft or Office 365 E5 plan.
 
 ### To assign licenses to individual users
 
