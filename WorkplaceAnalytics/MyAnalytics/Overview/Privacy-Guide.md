@@ -110,7 +110,7 @@ For example, the [Catch up with your team](../use/use-the-insights.md#catch-up-w
 
 All assistance for managers in MyAnalytics relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
 
-Managers are identified by using Azure Active Directory. The feature is only available to users who have direct reports listed in Azure AD.
+Managers are identified by using Azure Active Directory or Workplace Analytics. The feature is only available to users who have direct reports listed in Azure AD or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings#manager-settings) of Workplace Analytics.)
 
 Managers have the option to [edit their team list](../use/use-the-insights.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their MyAnalytics experience, and are not synchronized back to Azure AD.
 
@@ -182,3 +182,4 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
       * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
+

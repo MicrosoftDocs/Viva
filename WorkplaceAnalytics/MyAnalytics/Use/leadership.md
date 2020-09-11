@@ -13,13 +13,13 @@ ms.prod: mya
 
 # Leadership
 
-_**Applies to:** The Leadership page is currently in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD. It should become available to all of these users over the course of summer 2020._
+_**Applies to:** The Leadership page is currently in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD or in Workplace Analytics*. It should become available to all of these users over the course of summer 2020._
 
 If you're a people manager, the MyAnalytics Leadership page gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement. 
 
 ## Who can see this page 
 
-You have access to this page only if you have team members assigned to you in Azure Active Directory. Contact your Office 365 administrator if you are a people manager but do not see the Leadership page in MyAnalytics. 
+You have access to this page only if you have team members assigned to you in Azure Active Directory or in Workplace Analytics*. Contact your Office 365 administrator if you are a people manager but do not see the Leadership page in MyAnalytics. 
 
 ## A note on data privacy 
 
@@ -77,7 +77,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 ## Confirming your team  
 
-When you first visit the Leadership page, you are asked to confirm your team members. The initial list of team members you see is derived from Azure Active Directory. If you make any changes, they will apply only to your MyAnalytics experience (including the [Insights Outlook add-in](add-in.md)) and will not be synchronized back to Azure AD. 
+When you first visit the Leadership page, you are asked to confirm your team members. The initial list of team members you see is derived from Azure Active Directory or from Workplace Analytics*. If you make any changes, they will apply only to your MyAnalytics experience (including the [Insights Outlook add-in](add-in.md)) and will not be synchronized back to Azure AD or to Workplace Analytics*. 
 
 ![Confirm your team](../../Images/mya/use/leadership-confirm.png)
 
@@ -101,6 +101,11 @@ If your team list or job function changes, you can select the **Edit team** link
 **Build a broad internal network.** [Research by Microsoft](https://insights.office.com/productivity/what-great-managers-do-daily/) has found that managers with relatively large internal networks receive higher team engagement scores, and their team members tend to have larger networks as well.
 
 **Help team members prioritize tasks.** [Research by Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
+
+---------------
+## Notes
+
+\*  The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings#manager-settings) of Workplace Analytics. 
 
 <!-- For now, we cannot use these links, so keeping them safe here: 
 
