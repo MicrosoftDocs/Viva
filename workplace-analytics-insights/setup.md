@@ -48,18 +48,18 @@ Alternatively, you can sign in as a global admin to Azure Active Directory to as
 1. In the **Microsoft admin center**, select **Active users**, and then do one of the following to assign licenses to one user or for multiple users at the same time.
 
    **For one user**:
-   a. In **Active users**, select the user from the list.
-   b. Select **Licenses and Apps**.
-   c. Select the check box for **Microsoft Workplace Analytics Insights**.
-   d. Select **Save changes**, as shown in the following graphic.
+   1. In **Active users**, select the user from the list.
+   2. Select **Licenses and Apps**.
+   3. Select the check box for **Microsoft Workplace Analytics Insights**.
+   4. Select **Save changes**, as shown in the following graphic.
 
    ![Assign one user a license](./Images/assign-one-license.png)
 
    **For multiple users**:
-   a. In **Active users**, select the checkbox next to the users you want to assign licenses.
-   b. Select the **ellipsis** (**...**) icon next to **Reset password**, and then select **Manage product licenses**.
-   c. Select **Assign more**, and then select the check box for **Microsoft Workplace Analytics Insights**.
-   d. Select **Save changes**.
+   1. In **Active users**, select the checkbox next to the users you want to assign licenses.
+   2. Select the **ellipsis** (**...**) icon next to **Reset password**, and then select **Manage product licenses**.
+   3. Select **Assign more**, and then select the check box for **Microsoft Workplace Analytics Insights**.
+   4. Select **Save changes**.
 
    ![Assign multiple users licenses](./Images/assign-multiple-licenses.png)
 
