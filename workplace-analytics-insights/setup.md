@@ -57,7 +57,7 @@ You can use the Microsoft admin center to assign licenses to one or more individ
 3. Select **Assign**, and then select to expand **Users and groups**.
 4. Search for the group name, select it from the list, and then choose **Select**.
 5. Select to expand Assignment options, confirm that both **Microsoft Workplace Analytics Insights** are set **On**, and then select **OK**.
-6. It can take a few minutes up to 24 hours to assign the licenses based on your specific server settings.
+6. It can take a few minutes up to 24 hours for the license assignments to update to the server, which is based on your specific server settings.
 
 > [!Note]
-> If a group has more users than you have licenses for, the tool will assign as users as listed in the group up to the number of available licenses. You'll then see a message about how many licenses were assigned. 
+> If you are assigning licenses to a group that has more people than you have licenses for, the tool will assign users as listed in the group up to the number of available licenses, and then you'll see an error message about how many in the group have licenses.
