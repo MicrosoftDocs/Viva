@@ -165,13 +165,13 @@ External network size and external network breadth show the extent to which pers
 
 ### External network size
 
-External network size refers to the number of people external to the company with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month).
+External network size refers to the number of people external to the company with whom a person had at least two [meaningful interactions](glossary.md#meaningful-interaction-definition) within the last 28 days (or if reported by month, within the last month).
 
 ![External connections](../images/wpa/use/34-groups-most-ext-people-conn.png)
 
 **Bar chart**
 
-Each bar in the graph represents the average external network size for each group (grouped by the investor group-by attribute in Page settings). Average external network size is defined as the total number of non-distinct external contacts with whom the measured employees from this group had two meaningful interactions in all selected weeks, divided by number of person-week records in the selected date range in Page settings. 
+Each bar in the graph represents the average external network size for each group (grouped by the investor group-by attribute in Page settings). Average external network size is defined as the total number of non-distinct external contacts with whom the measured employees from this group had two [meaningful interactions](glossary.md#meaningful-interaction-definition) in all selected weeks, divided by number of person-week records in the selected date range in Page settings. 
 
 The Average line on this bar chart is the sum of the external network size during all selected weeks divided by the number of person-week records in the selected period in Page settings.
 
@@ -185,19 +185,19 @@ Each box in this chart represents the five-number summary of the external networ
 
 ### External network breadth
 
-External network breadth refers to the number of distinct external domains with whom a person had at least two meaningful interactions within the last 28 days (or if reported by month, within the last month). (A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people.)
+External network breadth refers to the number of distinct external domains with whom a person had at least two [meaningful interactions](glossary.md#meaningful-interaction-definition) within the last 28 days (or if reported by month, within the last month). 
 
 ![External network breadth](../images/wpa/use/35-ext-collab-network-breadth.png)
 
 **Bar chart**
 
-Each bar in the graph represents the total number of distinct external domains with whom measured employees from this group had two meaningful interactions in the selected date range in [Page settings](#page-settings).
+Each bar in the graph represents the total number of distinct external domains with whom measured employees from this group had two [meaningful interactions](glossary.md#meaningful-interaction-definition) in the selected date range in [Page settings](#page-settings).
 
 The Average line on this bar chart represents the total number of distinct external domains with whom the measured employees in the company had at least two meaningful interactions in the selected date range divided by the total number of organizations.
 
 **Trend chart**
 
-The "group average" point for a given week in the trend chart represents the total number of distinct external domains with whom the measured employees in the company had at least two meaningful interactions in the selected date range divided by the total number of organizations for that week.
+The "group average" point for a given week in the trend chart represents the total number of distinct external domains with whom the measured employees in the company had at least two [meaningful interactions](glossary.md#meaningful-interaction-definition) in the selected date range divided by the total number of organizations for that week.
 
 The "group average" point per week for each selected group in the trend chart represents the total number of distinct external domains with whom the measured employees in the selected group had at least two meaningful interactions in that week.
 

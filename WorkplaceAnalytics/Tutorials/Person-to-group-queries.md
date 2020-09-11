@@ -49,7 +49,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
     * **Meeting count** and **Meeting hours** give you, respectively, the number of meetings in which the time investor and the collaborators participated, and the number of hours the time investor spent in meetings.
 
-    * **Network size** The number of people in the collaborator group who had at least two meaningful interactions in the last four weeks with the time investor. A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people.
+    * **Network size** The number of people in the collaborator group who had at least two [meaningful interactions](glossary.md#meaningful-interaction-definition) in the last four weeks with the time investor. 
 
    For more information about these metrics, see [Person-to-group metrics](../use/metric-definitions.md#person-to-group-metrics).
 
