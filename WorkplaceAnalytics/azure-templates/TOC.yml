@@ -10,15 +10,15 @@
     href: ~//Data-Access/Data-Access.md    
 - name: Using the templates
   expanded: true
-  items: 
-  - name: Organizational Network Analysis
-    href: ./organization-network-analysis.md
-  - name: Topic Analysis
-    href: ./topic-analysis.md
-  - name: Process Explorer
-    href: ./process-explorer.md
+  items:
   - name: Join Datasets
     href: ./join-datasets.md
+  - name: Organizational Network Analysis
+    href: ./organization-network-analysis.md
+  - name: Process Explorer
+    href: ./process-explorer.md
+  - name: Relationship Intelligence
+    href: ./relation-intel.md    
   - name: Workspace Planning
     href: ./space-planning.md
   

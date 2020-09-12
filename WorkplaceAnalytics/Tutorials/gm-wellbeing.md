@@ -13,7 +13,7 @@ ms.prod: wpa
 
  More than 40 percent of creative ideas occur during breaks or when allowing your mind to wander. Employee burnout accounts for 20 to 50 percent of a company's annual employee turnover costs.
 
-## Statistics
+## Why it matters
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/) and [Help your team achieve work-life balance — even when you can't](https://insights.office.com/employee-experience/help-your-team-achieve-work-life-balance-even-when-you-cant/) articles, employees need to unplug:
 

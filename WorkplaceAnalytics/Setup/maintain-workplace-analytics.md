@@ -38,7 +38,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 ## Update organizational data
 
  * **Task** - Prepare a .csv file that contains organizational data and upload it to Workplace Analytics.  
- * **Frequency** - Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest Office 365 collaboration data. Since email, calendar, and Teams data is updated once a month, it makes sense to provide updates for this data on a similar cadence.
+ * **Frequency** - Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest Office 365 collaboration data. Since email, calendar, and Teams data is updated once a week, it makes sense to provide updates for this data on a similar cadence.
 
 [Prepare organizational data](prepare-organizational-data.md)
 

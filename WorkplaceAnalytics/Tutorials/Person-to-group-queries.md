@@ -49,7 +49,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
     * **Meeting count** and **Meeting hours** give you, respectively, the number of meetings in which the time investor and the collaborators participated, and the number of hours the time investor spent in meetings.
 
-    * **Network size** tells you how many unique people the time investor had meaningful interactions with in the selected collaboration group over the selected time period.
+    * **Network size** The number of people in the collaborator group who had at least two meaningful interactions in the last four weeks with the time investor. A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people.
 
    For more information about these metrics, see [Person-to-group metrics](../use/metric-definitions.md#person-to-group-metrics).
 
@@ -63,7 +63,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 9. In the **Their collaborators** section, you can add employee filters to exclude specific collaborators, such as by Domain, FunctionType, or Organization.
 
-       ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+   ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
 
 10. At this point, the collaborators are not grouped, therefore the query results won't show which collaborators interacted with the time investors. To group the collaborators, answer the question *How do you want to group the people who collaborated with the time investors?* to show which groups interacted with them. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
 

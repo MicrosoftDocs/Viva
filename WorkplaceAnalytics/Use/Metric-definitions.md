@@ -29,7 +29,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.)|Person|Hour|Yes|
 |Email hours|Number of hours the person spent sending and receiving emails.|Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
-|External network size|Number of people external to the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes| 
+|External network size|The number of people external to the company with whom the person had at least two meaningful interactions in the last four weeks. A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people. |Person|Count|Yes|  
 |Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
 |Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
@@ -42,7 +42,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Generated workload meetings organized|Number of internal meetings organized by the person.|Person|Count|Yes|
 |Instant message hours | Number of hours a person spent in instant messages (IMs) through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
 |Instant messages sent | Total number of instant messages (IMs) sent by a person through Teams, during and outside of working hours. | Person| Count| Yes |
-|Internal network size|Number of people within the company with whom the person had at least two meaningful interactions (a meeting or email between five or fewer people) within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes |
+|Internal network size|   The number of people within the company with whom the person had at least two meaningful interactions in the last four weeks. A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people.  |Person|Count|Yes |
 |Low-quality meeting hours|Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](settings.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. |Person|Hour|Yes|
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
 |Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
@@ -55,8 +55,8 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Meetings with manager 1:1|Number of meetings involving only the person and their manager.|Person|Count|Yes|
 |Meetings with skip level|Number of meetings where the manager of the person's manager is an attendee.|Person|Count|Yes|
 |Multitasking meeting hours|Number of meeting hours where the person sent:<ul><li>Two or more emails sent per meeting hour</li><li>Two or more emails sent per meeting for meetings less than one hour</li></ul>|Person|Hour|Yes|
-|Networking outside company|Number of companies outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes |
-|Networking outside organization|Number of departments outside their own that the person had meaningful interactions with, within the last 28 days (or if reported by month, within the last month).|Person|Count|Yes |
+|Networking outside company|The number of distinct external domains outside the company a person has had at least two meaningful interactions in the last four weeks. A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people. |Person|Count|Yes |
+|Networking outside organization| The number of distinct organizational units within the company that the person had at least two meaningful interactions with in the last four weeks. A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people. |Person|Count|Yes |
 |Open 1 hour block |Number of one-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Open 2 hour blocks |Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Peer average (customer collaboration) | The total amount (in hours) of customer collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
@@ -71,7 +71,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Working hours email hours|Number of hours the person spent in sending email during working hours.|Person|Hour|Yes|
 |Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes |
 |Working hours instant messages| Total number of hours a person spent time in instant messages through Teams, during working hours. | Person| Hour| Yes |
-|Workweek span | Time between the person's first sent email or meeting attended and the last email or meeting for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
+|Workweek span | The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
 
 ## Meeting metrics
 

@@ -136,10 +136,20 @@
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration assessment
                       href: ~/tutorials/power-bi-collab-assess.md
+                    - name: Collaboration overload
+                      href: ~/tutorials/power-bi-collab-overload.md
                     - name: Collaboration tracker
                       href: ~/tutorials/power-bi-collab-track.md
                     - name: Influence insights
                       href: ~/tutorials/pbi-influence-db.md
+                    - name: Manager impact
+                      href: ~/tutorials/power-bi-manager-impact.md
+                    - name: Quickstart overview
+                      href: ~/tutorials/power-bi-quickstart.md
+                    - name: Return to worksites
+                      href: ~/tutorials/power-bi-return-tw.md
+                    - name: Sales business continuity
+                      href: ~/tutorials/pbi-bc-sales.md
                     - name: Teams insights
                       href: ~/tutorials/power-bi-teams.md
                 - name: Customize a metric

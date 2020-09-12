@@ -32,15 +32,15 @@ If you add new organizational data attributes to your Workplace Analytics upload
 
 The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
- * [Meetings](./Meetings.md)
- * [MeetingParticipants](./Meetingparticipants.md)
- * [PersonHistorical](./PersonHistorical.md)
- * [MailParticipants](./MailParticipants.md)
- * [Mails](./Mails.md)
- * [Calls](./calls.md)
- * [CallParticipants](./callparticipants.md)
- * [InstantMessages](./instantmessages.md)
- * [InstantMessageParticipants](./instantmessageparticipants.md)
+* [Meetings](./Meetings.md)
+* [MeetingParticipants](./Meetingparticipants.md)
+* [PersonHistorical](./PersonHistorical.md)
+* [MailParticipants](./MailParticipants.md)
+* [Mails](./Mails.md)
+* [Calls](./calls.md)
+* [CallParticipants](./callparticipants.md)
+* [InstantMessages](./instantmessages.md)
+* [InstantMessageParticipants](./instantmessageparticipants.md)
 
 ## To export data from Workplace Analytics
 
@@ -88,7 +88,7 @@ The following example script uses [Azure CLI 2.0](https://docs.microsoft.com/cli
 #!/bin/bash
 # Script to create a storage account with SAS URI
 
-# command line arguments 
+# command line arguments
 SANAME=$1
 RGNAME=$2
 LOCATION=$3
