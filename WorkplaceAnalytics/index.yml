@@ -2,7 +2,6 @@
 
 title: Workplace Analytics documentation # < 60 chars
 summary: Workplace Analytics uses data from everyday work in Office 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement. # < 160 chars
-# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: workplace-analytics
 
 metadata:
