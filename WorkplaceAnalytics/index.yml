@@ -17,29 +17,23 @@ metadata:
 # additionalContent section (optional)
 # Card with summary style
 additionalContent:
-  # Supports up to 3 sections
   sections:
-    # Card
-    - title: Privacy protection
-      summary: Learn how to protect and keep personal data private and how Workplace Analytics complies with applicable laws and regulations.
-      url: /workplace-analytics/privacy/data-protection-intro
-    # Card
-    - title: Setup and maintenance
-      summary: Learn how to set up and maintain Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change privacy and other settings.
-      url: /workplace-analytics/setup/set-up-workplace-analytics
-    # Card
-    - title: Data analysis
-      summary: Learn how to analyze data with Workplace Analytics Explore pages and how to create custom queries for more detailed analysis.
-      url: /Workplace-Analytics/overview/get-started
-    # Card
-    - title: Workplace Analytics FAQs
-      summary: Review the most frequently asked questions and their answers about Workplace Analytics roles, privacy, setup, and analysis tools.
-      url: /workplace-analytics/use/faq
-    # Card
-    - title: Plans
-      summary: Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
-      url: /workplace-analytics/tutorials/solutionsv2-intro
-    # Card
-    - title: MyAnalytics
-      summary: Learn how to set up and use MyAnalytics and how the privacy settings in MyAnalytics protects your personal data.
-      url: /workplace-analytics/myanalytics/index
+    - items:
+      - title: Privacy protection
+        summary: Learn how to protect and keep personal data private and how Workplace Analytics complies with applicable laws and regulations.
+        url: /workplace-analytics/privacy/data-protection-intro
+      - title: Setup and maintenance
+        summary: Learn how to set up and maintain Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change privacy and other settings.
+        url: /workplace-analytics/setup/set-up-workplace-analytics
+      - title: Data analysis
+        summary: Learn how to analyze data with Workplace Analytics Explore pages and how to create custom queries for more detailed analysis.
+        url: /Workplace-Analytics/overview/get-started
+      - title: Workplace Analytics FAQs
+        summary: Review the most frequently asked questions and their answers about Workplace Analytics roles, privacy, setup, and analysis tools.
+        url: /workplace-analytics/use/faq
+      - title: Plans
+        summary: Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
+        url: /workplace-analytics/tutorials/solutionsv2-intro
+      - title: MyAnalytics
+        summary: Learn how to set up and use MyAnalytics and how the privacy settings in MyAnalytics protects your personal data.
+        url: /workplace-analytics/myanalytics/index

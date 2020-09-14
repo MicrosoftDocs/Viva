@@ -19,29 +19,23 @@ metadata:
 # additionalContent section (optional)
 # Card with summary style
 additionalContent:
-  # Supports up to 3 sections
   sections:
-    # Card
-    - title: Introducing MyAnalytics
-      summary: Learn what MyAnalytics is and how your team can use it to boost meeting quality, increase focus time, and improve work-life balance.
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page
-    # Card
-    - title: Privacy protection
-      summary: Learn how MyAnalytics protects employee privacy, keeps personal data private, and supports compliance with local regulations.
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide
-    # Card
-    - title: Setup
-      summary: Learn about MyAnalytics prerequisites, the Insights Outlook add-in, and how to configure user settings and assign licenses with the MyAnalytics service.
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics
-    # Card
-    - title: Adopting MyAnalytics
-      summary: Learn more about how to use MyAnalytics to recognize and address problems by building healthy work habits for both you and your team.
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
-    # Card
-    - title: Using MyAnalytics
-      summary: Learn how you spent your time over the past month and productivity insights to help improve your focus, wellbeing, network, and collaboration work patterns.
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2
-    # Card
-    - title: MyAnalytics FAQs
-      summary: Review the most frequently asked questions and their answers for both MyAnalytics users and IT administrators.
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-faq
+    - items:
+      - title: Introducing MyAnalytics
+        summary: Learn what MyAnalytics is and how your team can use it to boost meeting quality, increase focus time, and improve work-life balance.
+        url: https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page
+      - title: Privacy protection
+        summary: Learn how MyAnalytics protects employee privacy, keeps personal data private, and supports compliance with local regulations.
+        url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide
+      - title: Setup
+        summary: Learn about MyAnalytics prerequisites, the Insights Outlook add-in, and how to configure user settings and assign licenses with the MyAnalytics service.
+        url: https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics
+      - title: Adopting MyAnalytics
+        summary: Learn more about how to use MyAnalytics to recognize and address problems by building healthy work habits for both you and your team.
+        url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
+      - title: Using MyAnalytics
+        summary: Learn how you spent your time over the past month and productivity insights to help improve your focus, wellbeing, network, and collaboration work patterns.
+        url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2
+      - title: MyAnalytics FAQs
+        summary: Review the most frequently asked questions and their answers for both MyAnalytics users and IT administrators.
+        url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-faq
