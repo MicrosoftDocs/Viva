@@ -10,6 +10,7 @@ author: madehmer
 # Workplace Analytics Playbooks
 
 Maximize the power of Workplace Analytics to gain insights into how your organization collaborates and how to improve teamwork across your organization.
+
 |               |               |
 | ------------- | ------------- |
 | <img src="../Images/icon-collaboration.png" width="40 px" height="40 px" alt-text="Workplace Analytics Collaboration Overload Playbook"> | [**Workplace Analytics Collaboration Overload Playbook**](https://go.microsoft.com/fwlink/?linkid=2002306)<br>Learn how you can use Workplace Analytics to develop informed strategies around changing organizational collaboration behavior and improving business outcomes for your organization. |
