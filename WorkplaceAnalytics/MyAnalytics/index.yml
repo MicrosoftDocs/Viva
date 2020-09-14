@@ -1,0 +1,51 @@
+### YamlMime:Hub
+
+title: MyAnalytics documentation # < 60 chars
+summary: MyAnalytics provides insight into two of the key factors in personal productivity, how people spend their time and who they spend it with. # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: workplace-analytics
+
+metadata:
+  title: MyAnalytics documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: MyAnalytics provides insight into two of the key factors in personal productivity, how people spend their time and who they spend it with. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.prod: wpa
+  ms.topic: hub-page # Required
+  author: madehmer #Required; your GitHub user alias, with correct capitalization.
+  ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
+  ms.date: 09/14/2020 #Required; mm/dd/yyyy format.
+
+# productDirectory section (optional)
+productDirectory:
+  items:
+    # Card
+    - title: Introducing MyAnalytics
+      # imageSrc should be square in ratio with no whitespace
+      links:
+        - url: https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page
+          text: Learn what MyAnalytics is and how your team can use it to boost meeting quality, increase focus time, and improve work-life balance.
+    # Card
+    - title: Privacy protection
+      links:
+        - url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide
+          text: Learn how MyAnalytics protects employee privacy, keeps personal data private, and supports compliance with local regulations.
+    # Card
+    - title: Setup
+      links:
+        - url: https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics
+          text: Learn about MyAnalytics prerequisites, the Insights Outlook add-in, and how to configure user settings and assign licenses with the MyAnalytics service.
+    # Card
+    - title: Adopting MyAnalytics
+      links:
+        - url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
+          text: Learn more about how to use MyAnalytics to recognize and address problems by building healthy work habits for both you and your team.
+    # Card
+    - title: Using MyAnalytics
+      links:
+        - url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2
+          text: Learn how you spent your time over the past month and productivity insights to help improve your focus, wellbeing, network, and collaboration work patterns.
+    # Card
+    - title: MyAnalytics FAQs
+      links:
+        - url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-faq
+          text: Review the most frequently asked questions and their answers for both MyAnalytics users and IT administrators.
