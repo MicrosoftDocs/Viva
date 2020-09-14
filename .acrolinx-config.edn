@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["master"]
- :allowed-filename-matches ["Briefing/" "MyAnalytics/" "WorkplaceAnalytics/" "workplace-analytics-insights/"]
+ :allowed-filename-matches ["Briefing/" "MyAnalytics/" "WorkplaceAnalytics/"]
  
   :targets 
    {
@@ -11,7 +11,7 @@
              }
      :scores {
               ;;:terminology 100
-              :qualityscore 65 ;; Confirmed with Hugo that you just comment out the single score and leave the structure in place
+              :qualityscore 85 ;; Confirmed with Hugo that you just comment out the single score and leave the structure in place
               ;;:spelling 40
              }
    }
