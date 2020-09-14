@@ -5,7 +5,7 @@
 title: Workplace Analytics Organizational data
 description: What's available on the Organizational data sources page in Workplace Analytics 
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:

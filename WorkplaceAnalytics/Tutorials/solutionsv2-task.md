@@ -3,7 +3,7 @@
 title: Workplace Analytics plan walkthrough
 description: A walkthrough of the steps required to create a plan in Workplace Analytics
 author: paul9955
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

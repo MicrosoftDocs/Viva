@@ -2,7 +2,7 @@
 title: MyAnalytics introduction
 description: MyAnalytics introduction with links to further information 
 author: paul9955
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
