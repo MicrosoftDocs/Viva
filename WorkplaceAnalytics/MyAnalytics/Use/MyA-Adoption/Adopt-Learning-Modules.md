@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: Learning modules for MyAnalytics
 description: Learning modules on how to set up and use MyAnalytics data, including focus hours, meetings, email, and after hours data
 author: madehmer
