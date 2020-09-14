@@ -5,7 +5,7 @@
 title: Confirm the installation of the Insights Outlook add-in
 description: Confirm that the Insights add-in for Outlook is installed
 author: madehmer
-ms.author: v-midehm
+ms.author: v-pausch
 ms.date: 07/08/2019
 ms.topic: article
 localization_priority: normal 

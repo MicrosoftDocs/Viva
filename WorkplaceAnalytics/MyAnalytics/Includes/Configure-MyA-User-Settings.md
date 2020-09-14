@@ -5,7 +5,7 @@
 title: Configure MyAnalytics user settings
 description: Configure MyAnalytics settings for new users
 author: paul9955
-ms.author: v-midehm
+ms.author: v-pausch
 ms.date: 07/12/2019
 ms.topic: article
 localization_priority: normal 

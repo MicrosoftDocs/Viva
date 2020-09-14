@@ -3,7 +3,7 @@
 title: MyAnalytics Team Adoption --Implement
 description: MyAnalytics Team Adoption by Kate Nowak --Implement section
 author: paul9955
-ms.author: v-midehm
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya
