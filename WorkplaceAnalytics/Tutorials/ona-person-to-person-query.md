@@ -17,9 +17,15 @@ As for non-managers, the most effective employees also excel in part because of 
 
 The ONA person-to-person query measures the strength of connections through these two metrics:
 
- * The **Strong ties** metric measures how many strong and tight engagements the person has had. For example, a "strong tie" between a manager and a direct report reflects the amount of direct collaboration they have over time. Typically, a person has only a few strong ties because such ties take more effort to maintain. 
+ * The **Strong ties** metric measures how many strong and tight engagements you've had, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with the people in your common network. 
  
- * The **Diverse ties** metric measures how varied and how broad the person's connections are. A person need not have much direct collaboration with their diverse ties, so it’s easy to have more diverse ties than strong ties. Diverse ties present good sources of fresh and varied information from across the company.
+   For example, a "strong tie" between a manager and a direct report reflects the amount of direct collaboration they have over time and the amount of interactions they have with the same set of people who exist in their networks. Typically, a person has only a few strong ties because strong ties take more effort to maintain.
+ 
+ * The **Diverse ties** metric measures how varied and how broad your connections are, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with people NOT in your common network. 
+ 
+   Diverse ties present good sources of fresh and varied information from across the company, especially because access to a set of completely different people in your networks increases your access to new information. Because you need not have much direct collaboration with your diverse ties, it’s easy to have more diverse ties than strong ties. 
+   
+   Diverse ties not only expose you to varied information, they also help the dissemination of such new information through the network.
 
 > [!Note] 
 > * Strong ties and diverse ties are computed and reported for licensed users only.
