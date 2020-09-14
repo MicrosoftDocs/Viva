@@ -3,7 +3,7 @@ title: Workplace Analytics introduction
 description: Learn more about, set up, and use Workplace Analytics
 localization_priority: normal 
 ms.prod: wpa
-ms.author: v-mideh
+ms.author: madehmer
 author: madehmer
 ms.topic: overview
 ---

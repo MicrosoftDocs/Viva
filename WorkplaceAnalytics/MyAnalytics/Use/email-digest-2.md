@@ -2,7 +2,7 @@
 title: MyAnalytics digests
 description: MyAnalytics users receive a weekly digest with key insights and suggestions
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

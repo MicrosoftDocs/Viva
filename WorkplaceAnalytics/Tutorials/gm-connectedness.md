@@ -3,7 +3,7 @@
 title: Best practices for connectedness
 description: Workplace Analytics shares best practices with managers about connecting with their teams and employees
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

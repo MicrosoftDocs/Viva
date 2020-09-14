@@ -3,7 +3,7 @@
 title: Workplace Analytics privacy and data access
 description: Discusses the privacy and data access controls available in Workplace Analytics  
 author: paul9955
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: conceptual
 localization_priority: normal
 search.appverid:

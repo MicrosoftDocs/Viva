@@ -3,7 +3,7 @@
 title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
 author: paul9955
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: reference
 localization_priority: normal 
 ms.prod: wpa

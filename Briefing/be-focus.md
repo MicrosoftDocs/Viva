@@ -3,7 +3,7 @@
 title: Book focus time with the Briefing email
 description: Learn how to use the Briefing email to schedule focus time
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

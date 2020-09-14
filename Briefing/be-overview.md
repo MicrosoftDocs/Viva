@@ -3,7 +3,7 @@
 title: Briefing email overview
 description: About the Briefing email and how to use it to help with your workday
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya

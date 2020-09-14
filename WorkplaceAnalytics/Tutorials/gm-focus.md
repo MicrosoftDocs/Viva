@@ -3,7 +3,7 @@
 title: Best practices for focus time
 description: Workplace Analytics shares best practices with managers about the importance of scheduled focus time
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

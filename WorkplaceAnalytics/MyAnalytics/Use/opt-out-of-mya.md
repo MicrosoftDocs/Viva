@@ -3,7 +3,7 @@
 title: Opt out of MyAnalytics
 description: How to opt out of MyAnalytics
 author: paul9955
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

@@ -3,7 +3,7 @@
 title: Admin preview
 description: Initial admin trial of the Briefing email
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

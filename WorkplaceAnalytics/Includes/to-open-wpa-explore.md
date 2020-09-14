@@ -5,7 +5,7 @@
 title: To open Workplace Analytics
 description: How-to steps -- open Workplace Analytics to the Explore page.
 author: paul9955
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa

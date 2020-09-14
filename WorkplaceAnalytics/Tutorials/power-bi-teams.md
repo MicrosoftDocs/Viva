@@ -3,7 +3,7 @@
 title: Power BI Teams dashboard
 description: Use the Power BI Teams insights dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal
 ms.prod: wpa

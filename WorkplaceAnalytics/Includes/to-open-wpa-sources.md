@@ -5,7 +5,7 @@
 title: To open Workplace Analytics
 description: How to open Workplace Analytics to the Data sources page.
 author: paul9955
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Set up Workplace Analytics insights
 description: Steps to set up Workplace Analytics insights
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: mya

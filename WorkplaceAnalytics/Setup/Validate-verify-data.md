@@ -3,7 +3,7 @@
 title: Workplace Analytics Setup -- Validate and verify data
 description: Setup step to validate and verify data for uploading to Workplace Analytics 
 author: paul9955
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 search.appverid:

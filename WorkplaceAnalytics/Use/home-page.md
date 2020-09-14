@@ -3,7 +3,7 @@
 title: Workplace Analytics Insights
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your organization
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

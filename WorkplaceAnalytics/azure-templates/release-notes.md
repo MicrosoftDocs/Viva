@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Release Notes for Workplace Analytics Azure Templates
 description: Learn about what new Azure Templates or new functionality has been released for Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 search.appverid:

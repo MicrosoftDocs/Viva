@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Insights FAQs
 description: Answers to the most frequently asked questions about Workplace Analytics insights
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

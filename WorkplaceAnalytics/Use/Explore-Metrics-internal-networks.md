@@ -3,7 +3,7 @@
 title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal network collaboration dashboards available in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
