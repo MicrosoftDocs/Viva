@@ -49,39 +49,23 @@ These numbers are based on academic research and learnings from a number of cust
 
 After-hours communication is determined at an individual level, based on their Outlook calendar settings. For example, if you are working from Redmond in PST with your Outlook work hours set as 8AM to 5PM, and you collaborate with a team member who is in India in a meeting at 9PM PST, this meeting counts toward your after-hours collaboration. However, it’s not counted as after hours for the person in India. This after-hours collaboration is then aggregated across all team members in your team.
 
-##### Q9 Do 1:1 insights include unscheduled calls or chats in Teams?
-
-No, currently the insights only include scheduled calls and not unscheduled calls or chats in Teams.
-
-##### Q10 Are my team insights visible to anyone else?
+##### Q9 Are my team insights visible to anyone else?
 
 No, only you can see insights about your team. Managers higher up can only see aggregated insights at their level, with no individual team data shown. The insights also use differential privacy to further protect your team's personal data.
 
-##### Q11 Do the "Teams like yours" metrics use my organizational averages?
+##### Q10 Do the "Teams like yours" metrics use my organizational averages?
 
 Yes, Teams like yours metrics use other teams who are in the same hierarchy that report to your manager within your organization. If you have only one peer team or no peer team, the metrics use and show your company's averages.
 
-##### Q12 Can I see insights for both direct and indirect reports?
-
-While this capability is currently unavailable, it is planned for a future release.
-
-##### Q13 Can I see how my team’s collaboration changes over time and compare it with different timelines?
-
-While this capability is currently unavailable, it is being considered for a future release.
-
-##### Q14 As a manager, can I see metrics at my organizational level, such as my manager’s team metrics?
-
-While this capability is currently unavailable, it is being considered for a future release.
-
-##### Q15 Is it safe to share Insights with my team?
+##### Q11 Is it safe to share Insights with my team?
 
 Yes, you can share these insights with your team to generate a conversation and collectively decide what the norms are for your team. See [Best practices](../tutorials/gm-best-practices.md) for ways to approach your team about these insights.
 
-##### Q16 What is a plan?
+##### Q12 What is a plan?
 
 By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your team. See [Plans](../tutorials/solutionsv2-intro.md) to learn more.  
 
-##### Q17 Why are some employees in my team not eligible to enroll in plans?
+##### Q13 Why are some employees in my team not eligible to enroll in plans?
 
 Employees might not be eligible for a plan if:
 

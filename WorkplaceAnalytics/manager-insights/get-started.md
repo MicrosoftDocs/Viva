@@ -27,9 +27,12 @@ After confirming the prerequisites, open [Workplace Analytics](https://workplace
 
 * **Team effectiveness** - Nimble companies can more efficiently adapt to market changes and gain a true competitive advantage. The insights in this section show if your team has time to collaborate for rapid innovation, and to focus and produce higher quality work.
 
-* **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](../use/organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
-
 ![Manager insights](./images/manager-insights.png)
+
+## Who is included
+
+Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](../use/organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
+
 
 ## About the insights
 
@@ -49,11 +52,7 @@ The following describes how your team metrics are calculated to support the beha
 
 ## Tell us what you think
 
-After using the new Manger insights, please send your feedback through one of the following options.
-
-* Use the thumbs up and down icons on the dashboard.
-* Email your comments to `M365insightsfeedback@microsoft.com`.
-* Take a [3-minute survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1RYdGrhcTNMt4nvjfGXZ7tUQ0YxM1U4Rko2RDk4TFFON0U2SUhDU0E2Mi4u).
+After using the new Manger insights, use the thumbs up and down icons on the dashboard to send us your feedback.
 
 ## Related topics
 

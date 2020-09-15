@@ -11,14 +11,18 @@ ms.prod: wpa
 
 # Manager insights
 
-As a people manager with team sizes of nine or more people, you can discover key insights about your team’s collaboration effectiveness and employee experience. You can use the following insights as a first step in your journey toward more effective business outcomes.
+As a people manager, you can discover key insights about your team’s collaboration effectiveness and employee experience. 
+
+![Manager insights](./images/manager-insights.png)
+
+## How to use insights
+
+You can use these insights as a first step in your journey toward understanding collaboration norms in your team, and effectively driving change in collaboration to improve team wellbeing and productivity. Here are some ways you can leverage insights.
 
 * **Develop a culture of 1:1 coaching** - See how much time team members spend one-on-one with their managers and if they align with the culture you're striving for.
 * **Improve meeting and email habits** - Help your team reduce excessive meetings and improve email habits to support team effectiveness and productivity.
 * **Support team wellbeing** - Check on your team’s after-hours work habits and use these insights to balance their schedule flexibility with time away to disconnect.
 * **Cross-team collaboration** - Review how your team is collaborating with the rest of the organization and reflect on how you might help expand your team's network.
-
-![Manager insights](./images/manager-insights.png)
 
 ## Why it's important
 
