@@ -5,7 +5,7 @@
 title: Learning collateral for MyAnalytics adoption
 description: Learning materials that help you understand how to best adopt and use MyAnalytics
 author: paul9955
-ms.author: scott.ruble
+ms.author: v-pascha
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 

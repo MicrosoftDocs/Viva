@@ -5,7 +5,7 @@
 title: Use MyAnalytics to build good work habits
 description: Building good habits with MyAnalytics
 author: paul9955
-ms.author: scott.ruble
+ms.author: v-pascha
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: Mya

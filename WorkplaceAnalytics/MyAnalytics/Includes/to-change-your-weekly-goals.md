@@ -5,7 +5,7 @@
 title: Change your weekly goals in MyAnalytics
 description: How-to steps for editing your goals in MyAnalytics. 
 author: paul9955
-ms.author: scott.ruble
+ms.author: v-pascha
 ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 

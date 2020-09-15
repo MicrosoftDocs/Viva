@@ -5,7 +5,7 @@
 title: Privacy, security, and compliance in MyAnalytics
 description: Description of and a link to a white paper about the elements of privacy, security, and compliance in MyAnalytics
 author: paul9955
-ms.author: scott.ruble
+ms.author: v-pascha
 ms.topic: article
 localization_priority: normal 
 search.appverid:

@@ -5,7 +5,7 @@
 title: MyAnalytics Individual Adoption --Get started
 description: MyAnalytics Individual Adoption by Kate Nowak --Get started section
 author: paul9955
-ms.author: scott.ruble
+ms.author: v-pascha
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
