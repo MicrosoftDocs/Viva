@@ -53,7 +53,7 @@
               href: ~/setup/crm-data-upload.md
         - name: Exclusion rules
           items: 
-            - name: Introduction to Exclusions
+            - name: Introduction to exclusions
               href: ~/tutorials/exclusions-introduction.md
             - name: Meeting exclusion rules    
               items:             
