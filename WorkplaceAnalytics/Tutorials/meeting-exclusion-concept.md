@@ -126,7 +126,7 @@ If you notice other words in the cloud that you might want to retain in your ana
 
 ## Select exclusion type
 
-On the **New exclusion** page,  you can select the type of exclusion that you want to create. Your choices are **Meeting Exclusion** and **Attendee exclusion**: 
+On the **New exclusion** page,  you can select the type of exclusion that you want to create. You make this selection in step three of the procedure [To start a meeting exclusion rule](#to-start-a-meeting-exclusion-rule), which steps you through the exclusion flow. On this step, your choices are **Meeting Exclusion** and **Attendee exclusion**: 
 
  * **Meeting Exclusion**. Exclude from analysis the data from types of meetings (such as all-day training meetings) whose inclusion might skew query results. 
 

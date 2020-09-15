@@ -77,7 +77,7 @@ When you start a new meeting exclusion rule and before you have added any exclus
 
 Workplace Analytics steps you through the creation of a customized meeting exclusion rule. The meeting exclusion flow, which is described in the second task that follows, contains five steps, one for each meeting type that is commonly excluded from analysis.
 
-**To start a meeting exclusion rule**
+#### To start a meeting exclusion rule
 
 In this task, you open the meeting exclusions page and name the rule that you will create.  
 
@@ -106,9 +106,9 @@ In this task, you open the meeting exclusions page and name the rule that you wi
    > [!Note] 
    > The first five steps in this list are for excluding data about meetings based on the type of meeting. In the sixth step on the list, you exclude data about attendees, based on the response they gave to the meeting invitation. For more information, see [Select exclusion type](meeting-exclusion-concept.md#select-exclusion-type). 
 
-6. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual meeting exclusions. Move on to the next task, **To create a meeting exclusion rule**.
+6. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual meeting exclusions. Move on to the next task, [To create a meeting exclusion rule](#to-create-a-meeting-exclusion-rule).
 
-**To create a meeting exclusion rule**
+#### To create a meeting exclusion rule
 
 Now that you've created a framework for your new rule, you add -- and optionally, customize -- individual exclusions, as described in the following steps.
 
