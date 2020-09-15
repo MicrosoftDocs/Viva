@@ -54,11 +54,11 @@
         - name: Exclusion rules
           items: 
             - name: Introduction to Exclusions
-              href: ~/setup/exclusions-introduction.md
+              href: ~/tutorials/exclusions-introduction.md
             - name: Meeting exclusion rules    
               items:             
                 - name: Introduction
-                  href: ~/Tutorials/meeting-exclusions-intro.md
+                  href: ~/tutorials/meeting-exclusions-intro.md
                 - name: Walkthroughs
                   href: ~/tutorials/meeting-exclusion-rules.md
                 - name: Tools and concepts
@@ -66,7 +66,7 @@
             - name: Attendee exclusion rules    
               items:             
                 - name: Attendee exclusion rules
-                  href: ~/Tutorials/attendee-exclusion-rules.md
+                  href: ~/tutorials/attendee-exclusion-rules.md
         - name: Data sources
           items:
             - name: Introduction
