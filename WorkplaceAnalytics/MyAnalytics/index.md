@@ -5,7 +5,7 @@ description: Learn more about, set up, and use MyAnalytics
 ms.topic: hub-page
 localization_priority: normal 
 ms.prod: mya
-ms.author: v-midehm
+ms.author: v-pausch
 author: paul9955
 ---
 

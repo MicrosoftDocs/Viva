@@ -6,7 +6,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Open the Insights Outlook add-in
 description: Open Insights Outlook add-in
 author: madehmer
-ms.author: v-midehm
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

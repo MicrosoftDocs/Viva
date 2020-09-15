@@ -5,7 +5,7 @@
 title: To remove a person from your Important people list in MyAnalytics
 description: How to remove a person from your Important people list in MyAnalytics
 author: madehmer
-ms.author: v-midehm
+ms.author: v-pausch
 ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
