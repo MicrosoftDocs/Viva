@@ -5,7 +5,7 @@
 title: Habit Playbooks for MyAnalytics
 description: Habit Playbooks describe how to use MyAnalytics to build better work habits
 author: paul9955
-ms.author: v-pascha
+ms.author: scott.ruble
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya

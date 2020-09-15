@@ -5,7 +5,7 @@
 title: MyAnalytics Individual Adoption - Sustain change
 description: How to sustain change after collaboration goals are met by using MyAnalytics
 author: paul9955
-ms.author: v-pascha
+ms.author: scott.ruble
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
