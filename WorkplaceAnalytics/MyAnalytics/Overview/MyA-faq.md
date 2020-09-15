@@ -3,7 +3,7 @@
 title: MyAnalytics FAQ
 description: Frequently asked questions about MyAnalytics
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: once
 ms.prod: Mya

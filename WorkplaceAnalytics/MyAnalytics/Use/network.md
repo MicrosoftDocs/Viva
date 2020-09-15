@@ -2,7 +2,7 @@
 title: MyAnalytics network page
 description: Learn how to use MyAnalytics to improve your work relationships and grow your network
 author: madehmer
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
