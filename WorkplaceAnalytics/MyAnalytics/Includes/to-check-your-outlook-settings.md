@@ -9,7 +9,7 @@ ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 **To check your Outlook settings**

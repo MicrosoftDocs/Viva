@@ -5,7 +5,7 @@ author: paul9955
 ms.author: madehmer
 ms.topic: article
 localization_priority: priority
-ms.prod: mya
+ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: user

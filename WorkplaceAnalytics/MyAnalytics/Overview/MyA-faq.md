@@ -6,7 +6,7 @@ author: paul9955
 ms.author: madehmer
 ms.topic: article
 localization_priority: once
-ms.prod: mya
+ms.prod: Mya
 
 ---
 

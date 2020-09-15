@@ -9,7 +9,7 @@ ms.author: v-pausch
 ms.date: 04/03/2019
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Set your goal

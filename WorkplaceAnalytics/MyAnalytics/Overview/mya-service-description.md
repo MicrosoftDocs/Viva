@@ -8,7 +8,7 @@ author: madehmer
 ms.author: madehmer
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 

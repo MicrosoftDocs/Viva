@@ -10,7 +10,7 @@ ms.author: v-pascha
 ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Add top collaborator card 
