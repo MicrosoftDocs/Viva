@@ -15,21 +15,21 @@ The Workplace patterns dashboard uses a Power BI template to combine behavioral 
 
 It uses survey scores and working patterns to identify outlying teams who might need attention. Even for leaders who are already aware of team issues, the dashboard creates high-level visibility enabling them to use research-based and data-driven actions to change or improve workplace behaviors.
 
-This first release of the dashboard combines the following data.
+This release of the dashboard combines the following data.
 
 |Glint survey question |Workplace Analytics metrics |
 |------------|------------|
-|My company takes a genuine interest in employee's wellbeing. |<ul><li>Workweek span </li><li>After hours metrics </li><li>Collaboration hours</li></ul>|
+|My company takes a genuine interest in employees' wellbeing. |<ul><li>Workweek span </li><li>After hours metrics </li><li>Collaboration hours</li></ul>|
 |I know what I should be focusing on right now. |Manager one-on-one hours |
 |My company is doing a good job of helping employees feel connected to one another. |<ul><li>Small group meetings </li><li>Internal network size</li></ul>|
 
 The dashboard includes the following reports.
 
-* **Are there teams who struggle with wellbeing and poor collaboration practices?** – Compares wellbeing scores across selected HR attributes, such as by organization and level designation, and shows how workweek span, after hours, and collaboration hours might be affecting wellbeing for specific teams. You'll also see research-based, actionable strategies to help change behaviors contributing to the sentiment.
-* **Are there teams who have trouble prioritizing and do not have sufficient opportunities to seek guidance from their managers?** – Compares prioritization scores across selected HR attributes to show how manager one-on-one hours might be affecting employees’ ability to focus on and prioritize their work. Gives teams easy to implement plans that create opportunities for employees to more regularly meet with managers one-on-one and prioritize their work.
-* **Are there teams that feel disconnected and have team collaboration norms that limit building deep relationships?** – Compares prioritization scores across selected HR attributes to show how small group meeting hours and internal network size might be affecting employees’ feeling of connection. Helps leaders identify and support teams who might have underlying conditions that are affecting both their connection scores and collaboration patterns.
+* **Are there teams who struggle with wellbeing and poor collaboration practices?** – Compares wellbeing scores for the selected HR attributes, such as organization or level designation, and shows how workweek span, after hours, and collaboration hours might be affecting wellbeing for specific groups. You'll also see research-based, actionable strategies to help change behaviors that might contribute to low wellbeing scores.
+* **Are there teams who have trouble prioritizing and do not have sufficient opportunities to seek guidance from their managers?** – Compares prioritization scores for the selected HR attribute to show how manager one-on-one hours might be affecting employees’ ability to focus on and prioritize their work. Gives teams easy-to-implement plans that create opportunities for employees to more regularly meet with their managers one-on-one and prioritize their work.
+* **Are there teams who feel disconnected and have team collaboration norms that limit building deep relationships?** – Compares employee connection scores for the selected HR attribute to show how small group meeting hours and internal network size might be affecting employees’ feeling of connection. Helps leaders identify and support teams who might have underlying conditions that are affecting both their connection scores and collaboration patterns.
 * **How can I take action to improve employee wellbeing?** - Summarizes opportunities to improve employee wellbeing by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
-* **How can I take action to improve prioritization and connection?** - Summarizes opportunities to improve employee prioritization and connection by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
+* **How can I take action to improve prioritization and connection?** - Summarizes opportunities to improve focus on priority tasks and employee connection by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 
 ## High-level steps
 
@@ -49,14 +49,14 @@ The following is required before you can populate the dashboard in Power BI.
 * Have the following organizational attributes already uploaded and processed in Workplace Analytics.
 
   * **Level designation** - Each employee's level in the organization.
-  * **Organization or Team** - Each employee’s team assignment that reflects which organization or business division they're in.
+  * **Organization or Team** - Each employee’s team assignment, which reflects the organization or business division they're in.
 
 ## Get the Glint data
 
 1. In Glint, select **Reports** > **Heat Map**, and then select the reports that have questions on wellbeing, prioritization, and connectivity. If the questions spread across different pulse dates, select the **Multiple Pulses** option.
 2. In **Filter By**, select the applicable departments for the population you want to analyze in Power BI, and then select **Done**.
-3. Select the grouping attributes that are also used in Workplace Analytics. 
-4. In **Add section**, select (up to five) other grouping attributes to analyze by, which must also be used in Workplace Analytics.
+3. Select the grouping attributes that are also used in Workplace Analytics.
+4. In **Add section**, select (up to five) other grouping attributes to analyze by, which must also be present in Workplace Analytics.
 5. Select **Export to spreadsheet** to download the report.
 6. Save the report in an accessible location.
 
@@ -68,9 +68,9 @@ The following is required before you can populate the dashboard in Power BI.
 
    * **Name** - Customize or keep the default name
    * **Group by** - Week
-   * **Time period** - Select the time period for this analysis
+   * **Time period** - Select the time period that corresponds to the time period that the Glint survey questions ask about
    * **Auto-refresh** - Keep this setting disabled
-   * **Meeting exclusions** - Select the preferred rule for your tenant
+   * **Meeting and attendee exclusions** - Select the preferred rules for your tenant
 
    > [!Important]
    > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
@@ -90,8 +90,8 @@ The following is required before you can populate the dashboard in Power BI.
 2. If prompted to select a program, select **Power BI**.
 3. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
 
-    * In the Workplace Analytics **Queries** > **Results** page, select the **Download** icon, and then download the .csv file. After it downloads, copy and paste the file path and file name.
-    * In Power BI, paste the copied file path and name for **Workplace Analytics query for Glint URL**.
+    * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon, and then select to copy the generated OData URL link.
+    * In Power BI, paste the copied OData link for **Workplace Analytics query for Glint URL**.
     * In the **Glint heat map report URL**, copy and paste the heat map file path and name.
     * In **Minimum group size**, enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing Workplace Analytics data.
 
