@@ -51,11 +51,11 @@
               href: ~/setup/upload-organizational-data.md 
             - name: Upload CRM data
               href: ~/setup/crm-data-upload.md
-        - name: Exclusion rules
+        - name: Exclusion 
           items: 
             - name: Introduction to exclusions
               href: ~/tutorials/exclusions-introduction.md
-            - name: Meeting exclusion rules    
+            - name: Meeting exclusions    
               items:             
                 - name: Introduction
                   href: ~/tutorials/meeting-exclusions-intro.md
@@ -63,7 +63,7 @@
                   href: ~/tutorials/meeting-exclusion-rules.md
                 - name: Tools and concepts
                   href: ~/tutorials/meeting-exclusion-concept.md
-            - name: Attendee exclusion rules    
+            - name: Attendee exclusions    
               items:             
                 - name: Attendee exclusion rules
                   href: ~/tutorials/attendee-exclusion-rules.md

@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Attendee exclusion rules
+# Attendee exclusions in Workplace Analytics
 
 \[TO BE WRITTEN\]
 
