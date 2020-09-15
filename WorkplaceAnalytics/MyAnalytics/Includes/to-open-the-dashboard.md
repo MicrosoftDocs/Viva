@@ -5,7 +5,7 @@
 title: To open the MyAnalytics dashboard
 description: How to open the MyAnalytics dashboard 
 author: madehmer
-ms.author: v-midehm
+ms.author: v-pausch
 ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
