@@ -5,7 +5,7 @@
 title: MyAnalytics service description
 description: MyAnalytics -- features, distributions, privacy, and prerequisites
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: mya

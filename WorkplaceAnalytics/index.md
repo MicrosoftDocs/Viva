@@ -5,7 +5,7 @@ description: Learn more about, set up, and use Workplace Analytics
 ms.topic: hub-page
 localization_priority: normal 
 ms.prod: wpa
-ms.author: madehmer
+ms.author: v-mideh
 author: madehmer
 ---
 
