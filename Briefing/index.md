@@ -5,7 +5,7 @@ title: Briefing
 description: Learn more about the Briefing email
 ms.topic: hub-page
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ms.author: v-midehm
 author: madehmer
 ---
