@@ -97,6 +97,8 @@ In this task, you open the meeting exclusions page and name the rule that you wi
    
    After you select one or both of these options, this page will show you the number of invitees who will be excluded from analysis. 
 
+   For more information, see [Attendee exclusions](attendee-exclusion-rules.md).
+
 5. On the **New exclusion** page, you'll see the types of meetings that are commonly excluded from analysis. In the following steps, you will have the chance to customize each of these exclusions.
 
    You can choose to use the system-suggested exclusion for each step or customize the exclusion by retaining or excluding additional meetings. If you don't want to use a suggested exclusion, you can always choose not to apply it. After you have customized exclusions for each of the five steps, you can make edits to your exclusion rule before publishing it for future use.
@@ -287,3 +289,5 @@ You might have built and used a rule in a past project that you no longer use. H
 [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
 
 [Meeting exclusion rules: Tools and concepts](meeting-exclusion-concept.md)
+
+[Attendee exclusions](attendee-exclusion-rules.md)

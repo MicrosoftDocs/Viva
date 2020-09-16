@@ -65,7 +65,7 @@
                   href: ~/tutorials/meeting-exclusion-concept.md
             - name: Attendee exclusions    
               items:             
-                - name: Attendee exclusion rules
+                - name: Attendee exclusions
                   href: ~/tutorials/attendee-exclusion-rules.md
         - name: Data sources
           items:
