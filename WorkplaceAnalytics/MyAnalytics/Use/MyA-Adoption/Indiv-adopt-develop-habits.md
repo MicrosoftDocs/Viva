@@ -9,7 +9,7 @@ ms.author: v-pascha
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Build your habit

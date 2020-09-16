@@ -9,7 +9,7 @@ ms.author: v-pascha
 ms.date: 08/15/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 <!-- For now, include this content in the add-in.md topic -->
