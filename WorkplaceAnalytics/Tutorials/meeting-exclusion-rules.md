@@ -42,7 +42,7 @@ Open the Meeting exclusions page to view existing meeting exclusion rules or to 
 
 1. Open [Workplace  Analytics](https://workplaceanalytics.office.com/). If  prompted, enter your work credentials.
 
-2.	Select **Settings** > **Analysis settings** to see the **Meeting exclusions** page.
+2.	Select **Settings** > **Analysis settings** to open the **Exclusions** page.
 
 3.	Select **Active** to list the active rules:
 

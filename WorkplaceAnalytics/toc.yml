@@ -51,9 +51,9 @@
               href: ~/setup/upload-organizational-data.md 
             - name: Upload CRM data
               href: ~/setup/crm-data-upload.md
-        - name: Exclusion 
+        - name: Exclusion rules 
           items: 
-            - name: Introduction to exclusions
+            - name: Introduction to exclusion rules
               href: ~/tutorials/exclusions-introduction.md
             - name: Meeting exclusions    
               items:             
