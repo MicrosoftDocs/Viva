@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics Videos
 description: Videos about how Workplace Analytics works
@@ -8,7 +6,7 @@ author: paul9955
 ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: wpa, mya
+ms.prod: wpa
 ---
 
 # Workplace Analytics Videos
