@@ -8,7 +8,7 @@ ms.topic: article
 localization_priority: priority 
 search.appverid:
 - MET150
-ms.prod: Mya
+ms.prod: mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
