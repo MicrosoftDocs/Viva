@@ -5,7 +5,7 @@
 title: Upload organizational data to Workplace Analytics (first upload)
 description: How to upload organizational data by using the pages of the new Workplace Analytics onboarding experience 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 search.appverid:

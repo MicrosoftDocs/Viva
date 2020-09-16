@@ -5,7 +5,7 @@
 title: Peer comparison queries
 description: Peer comparison queries -- what they are, how to create them, how to run them  
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

@@ -5,7 +5,7 @@
 title: ExampleGroupQuery
 description: ExampleGroupQuery file to hold example ExampleGroupQuery.csv
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa

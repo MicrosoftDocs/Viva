@@ -5,7 +5,7 @@
 title: To create an auto-update query
 description: How to create an auto-update query in Workplace Analytics. 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 

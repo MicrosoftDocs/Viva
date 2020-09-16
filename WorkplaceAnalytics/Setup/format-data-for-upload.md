@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Format data for upload to Workplace Analytics
 description: How to format .xlsx files and .csv files for upload to Workplace Analytics 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

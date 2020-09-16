@@ -20,7 +20,7 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
 
 |               |               |
 | ------------- | ------------- |
-| :::image type="icon" source="https://docs.microsoft.com/media/common/i_progressive.svg"::: | **Insights**<br>[A collection of articles from the leading edge of productivity analytics](https://insights.office.com) |
-| <img src="https://docs.microsoft.com/media/common/i_blog.svg" width="40 px" height="40 px" alt-text="icon"> | **Blog**<br>[Latest news about Workplace Analytics features and functionality](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog) |
-| <img src="https://docs.microsoft.com/media/common/i_virtual-training.svg" width="40 px" height="40 px" alt-text="icon"> | **Discover Microsoft Workplace Analytics**<br>[Take this e-learning course on how to use Workplace Analytics for insights and analysis](https://docs.microsoft.com/learn/modules/workplace-analytics-discover/) |
-| <img src="https://docs.microsoft.com/media/common/i_video.svg" width="40 px" height="40 px" alt-text="Watch videos about Workplace Analytics"> | **Videos**<br>[Watch videos about Workplace Analytics](~/overview/videos.md) |
+|:::image type="icon" source="https://docs.microsoft.com/media/common/i_progressive.svg"::: | **Insights**<br>[A collection of articles from the leading edge of productivity analytics](https://insights.office.com) |
+| :::image type="icon" source="https://docs.microsoft.com/media/common/i_blog.svg"::: | **Blog**<br>[Latest news about Workplace Analytics features and functionality](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog) |
+| |:::image type="icon" source="https://docs.microsoft.com/media/common/i_virtual-training.svg"::: | **Discover Microsoft Workplace Analytics**<br>[Take this e-learning course on how to use Workplace Analytics for insights and analysis](https://docs.microsoft.com/learn/modules/workplace-analytics-discover/) |
+| |:::image type="icon" source="https://docs.microsoft.com/media/common/i_video.svg"::: | **Videos**<br>[Watch videos about Workplace Analytics](~/overview/videos.md) |

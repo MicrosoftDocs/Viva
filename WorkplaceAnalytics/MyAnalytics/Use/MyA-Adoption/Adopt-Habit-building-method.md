@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Use MyAnalytics to build good work habits
 description: Building good habits with MyAnalytics
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: Mya
@@ -22,4 +20,3 @@ For more information about Rob Cross’s research, see the [Reclaiming Your Day]
 For additional tailored behavior change tips, take the [Collaborative Overload Personal Assessment](https://www.networkassessments.org/). 
 
 To learn more about _The Power of Habit_, see the [The Power of Habit Resources](http://charlesduhigg.com/resources/).
-

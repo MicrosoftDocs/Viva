@@ -10,7 +10,7 @@ ms.prod: Mya
 
 # Learning modules
 
-MyAnalytics has a few learning modules to help you set up and use its data. These materials are organized by collaboration topic to help you build new work habits and learn how to use MyAnalytics more effectively. 
+MyAnalytics has a few learning modules to help you set up and use its data. These materials are organized by collaboration topic to help you build new work habits and learn how to use MyAnalytics more effectively.
 
 The learning modules include:
 

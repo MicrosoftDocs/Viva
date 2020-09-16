@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Call participants metrics for Workplace Analytics Data export
 description: One row for each collaboration event
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 ms.prod: wpa
 ---
