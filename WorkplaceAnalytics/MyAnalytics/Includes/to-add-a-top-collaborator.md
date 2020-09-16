@@ -9,7 +9,7 @@ ms.author: v-pascha
 ms.date: 04/03/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 **To add a top collaborator**

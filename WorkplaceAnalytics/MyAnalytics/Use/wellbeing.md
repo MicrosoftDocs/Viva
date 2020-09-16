@@ -3,10 +3,10 @@
 title: MyAnalytics Wellbeing page
 description: Learn how to use MyAnalytics to improve your work-life balance
 author: madehmer
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 
