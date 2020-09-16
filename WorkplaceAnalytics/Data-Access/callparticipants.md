@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Call participants metrics for Workplace Analytics Data export
-description: One row for each collaboration event
+description: A collaboration event row for each participant in a call
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -13,8 +13,8 @@ ms.prod: wpa
 
 This file includes one row for each participant in a call with the following metrics.
   
-|Column name|Data type|Description|      
-|-----------------|---------------|-----------------|      
+|Column name|Data type|Description|
+|-----------------|---------------|-----------------|
 | CallRecordId | string | Unique identifier for each call (including scheduled calls); primary key  |
 | PersonHistoricalId | string | Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](./PersonHistorical.md) table |
 | IsOrganizer | boolean | True if this participant organized the call |

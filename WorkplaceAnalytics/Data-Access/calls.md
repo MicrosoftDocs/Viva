@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Calls metrics for Workplace Analytics Data export
-description: One row for each collaboration event
+description: A collaboration event row for each call
 author: paul9955
 ms.author: v-pausch
 ms.topic: article

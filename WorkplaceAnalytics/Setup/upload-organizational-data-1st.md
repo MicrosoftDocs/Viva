@@ -63,9 +63,9 @@ After the initial processing (of collaboration data) is complete, the next time 
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
 
-   ![Map data fields](../images/wpa/setup/onboarding-mapping-2.png)
+   ![Map data fields option](../images/wpa/setup/onboarding-mapping-2.png)
 
-This page includes tables for System default fields and Custom fields for mapping the data for the upload file. These field types are described in the following sections. 
+This page includes tables for System default fields and Custom fields for mapping the data for the upload file. These field types are described in the following sections.
 
 ### System default fields table
 
@@ -107,17 +107,17 @@ Replaced with actual text and then removed that term: -->
    >[!Note]
    >If the data type is Boolean, the value for the Boolean field must be TRUE or FALSE.
 
-* **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation. 
+* **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation.
 
-    ![Map data fields](../images/wpa/setup/map-fields-include-column-65-85-1st.png) 
+    ![Map data field columns to include](../images/wpa/setup/map-fields-include-column-65-85-1st.png)
 
 The drop-down menu under **Include in report** offers the following options for each of the columns in your source data:
 
    * **Show in report:** Let the actual data value display in the report just as it was imported in the organizational data file.
 
-   * **Exclude from report:** Prevent the data value from appearing in the report. For data-privacy reasons, some attributes (such as ManagerID) are automatically assigned the value "Exclude from report" and this value cannot be changed. 
+   * **Exclude from report:** Prevent the data value from appearing in the report. For data-privacy reasons, some attributes (such as ManagerID) are automatically assigned the value "Exclude from report" and this value cannot be changed.
 
-   * **Hash in report** de-identifies sensitive data. This option includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read. 
+   * **Hash in report** de-identifies sensitive data. This option includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
 
 **To map fields**
 
@@ -129,14 +129,14 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
   
    <ol type="a"> 
    <li>Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).</li>
-   <li>Under <b>Source column</b> (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li> 
+   <li>Under <b>Source column</b> (the first column in the table), click the down arrow. This displays a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.</li>
    <li>Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields and for any optional fields that you choose to map.</li>
    </ol>
 
    > [!Note]
    > For more information, see [Columns in the fields tables](#columns-in-the-fields-tables).
 
-2. Map the optional and custom fields, as applicable. You only need to map the columns in the source data (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it. 
+2. Map the optional and custom fields, as applicable. You only need to map the columns in the source data (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it.
 
    <ol type="a">
    <li>Under <b>Source column</b> (the first column in the table), select the down arrow to display the list of column names that were found in the .csv file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.</li>
@@ -151,7 +151,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 > [!Important]
 > You must stay logged in while the file is uploading or the upload will be canceled. The upload requires this page to be open in your web browser during the upload. If you close the browser (or this browser page), the upload will fail.
 
-The upload of the .csv file starts the validation process. 
+The upload of the .csv file starts the validation process.
 
 4. The next step is [Data validation](#data-validation).
 
@@ -161,13 +161,13 @@ After you complete the steps in [Field mapping](#field-mapping), the **Upload** 
 
 ![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
 
-After the file has successfully uploaded, file validation starts: 
+After the file has successfully uploaded, file validation starts:
 
-![Validating now](../images/wpa/setup/validation-full-screen.png) 
+![Validating now](../images/wpa/setup/validation-full-screen.png)
 
-In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes. 
+In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes.
 
-During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different data file instead, select **Cancel**. 
+During this step, if you decide that the data you are uploading is not the correct data and that you want to upload a different data file instead, select **Cancel**.
 
 After this phase completes, the file has either passed or failed validation. Go to the appropriate section:
 
@@ -187,9 +187,9 @@ You can select **Settings** > **Upload** > **Organizational data** to show the *
 
 On this page, you have the following options:
 
- * Select the **View** (eye) icon to see a summary of the validation results.
- * Select the **Mapping** icon to see the mapping settings for the workflow.
- * Select the **Validation** (download) icon to see a list of validation warnings.
+* Select the **View** (eye) icon to see a summary of the validation results.
+* Select the **Mapping** icon to see the mapping settings for the workflow.
+* Select the **Validation** (download) icon to see a list of validation warnings.
 
 > [!Note]
 > Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page.
@@ -200,10 +200,8 @@ If data validation fails, the **Setup** page shows a "could not be validated" no
 
 ![Validation failed](../images/wpa/setup/onboarding-validation-failed.png)
 
-Before you address the problem, you can select **Download error log**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next &mdash; fix the source data or change your mapping settings. The following section describes these options: 
+Before you address the problem, you can select **Download error log**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next &mdash; fix the source data or change your mapping settings. The following section describes these options:
 
 ### Options upon failed validation
 
 [!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation-1st.md)]
-
-

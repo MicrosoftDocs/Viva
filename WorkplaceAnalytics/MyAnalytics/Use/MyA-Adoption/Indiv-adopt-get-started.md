@@ -1,22 +1,19 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Individual Adoption --Get started
 description: MyAnalytics Individual Adoption by Kate Nowak --Get started section
 author: paul9955
 ms.author: v-pausch
-ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: Mya
 ---
 
-# Get started
+# Get started with MyAnalytics
 
 Congratulations on your decision to improve your collaboration habits using MyAnalytics! Healthier collaboration habits can help reduce stress, increase productivity, boost creativity, and make work more enjoyable.
 
-The information and resources in this section will help you get the most out of the MyAnalytics product by providing you with a framework for building healthier habits and sustaining those changes. 
+The information and resources in this section will help you get the most out of the MyAnalytics product by providing you with a framework for building healthier habits and sustaining those changes.
 
 Specifically, we will lead you through the following phases:
 
