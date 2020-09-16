@@ -3,7 +3,7 @@
 title: User roles in Workplace Analytics
 description: Which user roles in Workplace Analytics perform which functions and have access to which pages in Workplace Analytics
 author: madehmer
-ms.author: paul9955
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 search.appverid:
