@@ -30,7 +30,7 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out:
 
     ![Slider in off position](../../Images/mya/use/opt-out-slider-off.png)
   
-5. Select **Save** to save your changes.
+
 
 > [!NOTE]
 > It might take up to a week for your saved changes to take effect.
@@ -45,7 +45,7 @@ Each email account that has a MyAnalytics subscription receives regular emails w
 
 You will use the answer to this question in the following procedure:
 
-**To opt out of multiple MyAnalytics accounts**
+#### To opt out of multiple MyAnalytics accounts
 
 1. Open a web browser in incognito mode.
 2. In the incognito browser session, open your [dashboard](https://myanalytics.microsoft.com). You will see a Microsoft **Sign in** dialog box. 
@@ -59,8 +59,7 @@ You will use the answer to this question in the following procedure:
 
     ![Slider in off position](../../Images/mya/use/opt-out-slider-off.png)
   
-7. Select **Save** to save your changes.
-8. Repeat steps 1 - 7 for each account whose MyAnalytics subscription you want to opt out of. 
+7. Repeat steps 1 - 6 for each account whose MyAnalytics subscription you want to opt out of. 
  
 ## If I opt out, can I opt back in?
 
