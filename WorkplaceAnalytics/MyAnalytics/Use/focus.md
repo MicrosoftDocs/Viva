@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Focus page
 description: Learn how to use MyAnalytics to improve your focus time at work
