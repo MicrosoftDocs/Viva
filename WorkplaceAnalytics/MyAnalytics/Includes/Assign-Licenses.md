@@ -5,10 +5,10 @@
 title: Assign licenses with the MyAnalytics service plan
 description: Assign licenses with the MyAnalytics service plan
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin

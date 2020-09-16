@@ -7,7 +7,7 @@ ms.author: v-pausch
 ms.date: 05/16/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 

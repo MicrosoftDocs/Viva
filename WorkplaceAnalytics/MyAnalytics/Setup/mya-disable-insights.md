@@ -8,7 +8,7 @@ author: paul9955
 ms.author: v-pausch
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Disable the Insights Outlook add-in

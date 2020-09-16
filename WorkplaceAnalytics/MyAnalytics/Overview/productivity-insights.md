@@ -9,7 +9,7 @@ ms.author: v-pascha
 ms.date: 05/09/2019
 ms.topic: article
 localization_priority: priority 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Productivity insights in Outlook

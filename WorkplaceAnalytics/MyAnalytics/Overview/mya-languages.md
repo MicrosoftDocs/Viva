@@ -5,12 +5,12 @@
 title: MyAnalytics languages
 description: List of supported languages for the elements of MyAnalytics
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 search.appverid:
 - MET150
-ms.prod: mya
+ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin

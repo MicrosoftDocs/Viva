@@ -5,10 +5,10 @@
 title: MyAnalytics Collaboration page
 description: Learn how to use MyAnalytics to improve your collaboration at work
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 
