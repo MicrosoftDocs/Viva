@@ -17,7 +17,7 @@ It uses survey scores and working patterns to identify outlying teams who might 
 
 This release of the dashboard combines the following data.
 
-|Report theme |Representative Glint survey question |Workplace Analytics metrics |
+|Theme |Representative Glint survey question |Workplace Analytics metrics |
 |------------|------------|------------|
 |Wellbeing |My company takes a genuine interest in employees' wellbeing. |<ul><li>Workweek span </li><li>After hours metrics </li><li>Collaboration hours</li></ul>|
 |Prioritization |I know what I should be focusing on right now. |Manager one-on-one hours |
@@ -45,7 +45,7 @@ The following is required before you can run the query in Workplace Analytics an
 
 * Your company uses Glint with the same measured population as Workplace Analytics has data for:
 
-  * The population reflected in the Glint Heat Map report is the same as what you filter for in the Behavior patterns query.
+  * The population reflected in the Glint Heat Map report is the same as the filtered population in the Behavior patterns query.
   * You have Glint survey content for the last six months that includes questions on employee wellbeing, prioritization, and connectivity.
 
 * Be assigned the role of Analyst in Workplace Analytics.
@@ -96,7 +96,7 @@ The following is required before you can run the query in Workplace Analytics an
 
     * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon, and then select to copy the generated OData URL link.
     * In Power BI, paste the copied OData link for **Workplace Analytics query for Glint URL**.
-    * In the **Glint Heat Map report URL**, copy and paste the Heat Map file path and name.
+    * In the **Glint Heat Map report**, copy and paste the Heat Map file path.
     * In **Minimum group size**, enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing Workplace Analytics data.
 
 4. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
