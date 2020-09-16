@@ -7,7 +7,7 @@ author: madehmer
 ms.author: madehmer
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 # Set up Workplace Analytics insights
