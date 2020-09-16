@@ -28,9 +28,7 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out:
 3. Under **MyAnalytics**, select **Settings**.
 4. For MyAnalytics, change the setting to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/opt-out-slider-off.png)
-  
-
+    ![Slider off](../../Images/mya/use/opt-out-slider-off.png)
 
 > [!NOTE]
 > It might take up to a week for your saved changes to take effect.
@@ -67,7 +65,7 @@ Yes, if you opt yourself out, or if an admin opts you out, you can opt back in a
 
 To opt in, repeat the steps in [To opt out of MyAnalytics](#to-opt-out-of-myanalytics), but in **Step 4**, change the setting for **MyAnalytics** to **On**:
   
-![Slider in off position](../../Images/mya/use/opt-in-slider-on.png)
+![Slider off position](../../Images/mya/use/opt-in-slider-on.png)
 
 ## Related topics
 
