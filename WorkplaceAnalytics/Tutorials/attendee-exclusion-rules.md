@@ -31,7 +31,9 @@ By creating an attendee exclusion, you can change that definition to also includ
 
 ### Tentative
 
-In some countries, it is a cultural practice not to "decline" a meeting; rather, a "Tentative" response means "I won’t be attending but I still want to keep this meeting on my calendar." As an analyst, you can exclude invitees who tentatively accepted a meeting invitation. Using this type of exclusion would mean that a meeting invitee who tentatively accepted is not counted as an attendee to that particular meeting. 
+In some countries, it is a cultural practice not to "decline" a meeting; rather, a "Tentative" response means "I won’t be attending but I still want to keep this meeting on my calendar." As an analyst, you can exclude invitees who tentatively accepted a meeting invitation. 
+
+Using the "accepted as tentative" exclusion would mean that a meeting invitee who tentatively accepted is not counted as an attendee to that particular meeting. 
 
 ### No response
 
@@ -46,7 +48,7 @@ This screenshot shows the **Do not send a response** option for the **Accept** m
    
    ![Meeting response options](../images/wpa/tutorials/response-options.png)
 
-Using this type of exclusion would mean that a meeting invitee who did not respond is not counted as an attendee to that particular meeting.    
+Using the "did not respond" exclusion would mean that a meeting invitee who did not respond is not counted as an attendee to that particular meeting. 
 
 ## Create an attendee exclusion
 
