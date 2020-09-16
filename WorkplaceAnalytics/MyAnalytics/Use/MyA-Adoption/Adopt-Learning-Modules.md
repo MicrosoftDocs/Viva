@@ -22,8 +22,6 @@ The learning modules include:
 
 The following can help you learn more about how to track and analyze your focus hours, meetings, and email data. You can also find lessons in these modules on how to maintain important relationships in your network.
 
-[MyAnalytics Focus hours](MyAnalytics-focus-hours-september-2018.pdf)
-
-[MyAnalytics Meetings](MyAnalytics-meetings-september-2018.pdf)
-
-[MyAnalytics Email](MyAnalytics-email-september-2018.pdf)
+* [MyAnalytics Focus hours](MyAnalytics-focus-hours-september-2018.pdf)
+* [MyAnalytics Meetings](MyAnalytics-meetings-september-2018.pdf)
+* [MyAnalytics Email](MyAnalytics-email-september-2018.pdf)
