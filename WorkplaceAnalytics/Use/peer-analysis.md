@@ -101,7 +101,7 @@ After you select **Next** in the **Other group** section, the **Conditions** pag
 
 On this page, you filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the other group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
 
-> [!Note] 
+> [!Note]
 > You can skip this step by selecting **Next**.
 
 After you have finished applying conditions, select **Next** and go to [Submit the analysis](#submit-the-analysis).
@@ -178,20 +178,20 @@ Follow these steps to upload a file that contains email addresses:
  
 ### Use filters
 
-1. To identify a group by filtering, select **Use filters**: 
+1. To identify a group by filtering, select **Use filters**:
 
-    ![Use filters](../images/wpa/use/use-filters.png)
+    ![Use filters option](../images/wpa/use/use-filters.png)
  
 2. Add filters and parameters.
 
-   In this step, you use organizational data in filters to refine your group selection. For example, in the left box, select **Organization** and in the right box, type an org name or a manager's identifier. Add more filters to refine the selection further, if you want. The results of filtering are shown in a chart. You can then select groups by clicking the columns that represent them in the chart. You can select multiple groups. 
+   In this step, you use organizational data in filters to refine your group selection. For example, in the left box, select **Organization** and in the right box, type an org name or a manager's identifier. Add more filters to refine the selection further, if you want. The results of filtering are shown in a chart. You can then select groups by clicking the columns that represent them in the chart. You can select multiple groups.
 
-   For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](../tutorials/solutionsv2-conceptual.md#persistence-of-group-selections). 
+   For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](../tutorials/solutionsv2-conceptual.md#persistence-of-group-selections).
 
-   Now, you could proceed with the analysis if the group size falls between the allowed minimum and maximum group sizes. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization). 
+   Now, you could proceed with the analysis if the group size falls between the allowed minimum and maximum group sizes. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization).
 
-   > [!Note] 
-   > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
+   > [!Note]
+   > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group.
 
 3. Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).  
 
@@ -215,6 +215,6 @@ Let's say you are looking at employees in the software engineering discipline. Y
 
 Workplace Analytics will then make sure that every user in both of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, it displays an error message:
 
-![Use filters](../images/wpa/use/conditions-error-msg.png)
- 
+![Use filters error message](../images/wpa/use/conditions-error-msg.png)
+
 For privacy reasons, Workplace Analytics cannot inform you which user or users do not match the conditions. At this point, you'll need to select **Back** to return to the preceding steps and check the content of your groups, and make the necessary changes to eliminate this error.  

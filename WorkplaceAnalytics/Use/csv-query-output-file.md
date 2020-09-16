@@ -5,7 +5,7 @@
 title: How to interpret query output in Workplace Analytics
 description: Understand and interpret query output is Workplace Analytics
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 

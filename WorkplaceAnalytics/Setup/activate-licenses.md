@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Activate Workplace Analytics licenses
 description: Activate licenses for Workplace Analytics 
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:

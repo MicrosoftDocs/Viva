@@ -3,7 +3,7 @@
 title: Meeting exclusion rules concepts
 description: Describes concepts and tools for meeting exclusion rules, including a word cloud and a list of supported languages
 author: paul9955
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
