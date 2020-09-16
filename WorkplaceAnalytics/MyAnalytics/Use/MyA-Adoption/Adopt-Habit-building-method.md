@@ -8,7 +8,7 @@ author: paul9955
 ms.author: v-pascha
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Habit-building method

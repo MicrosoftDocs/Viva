@@ -5,10 +5,10 @@
 title: Disable the Insights Outlook add-in
 description: How to disable the Insights Outlook add-in at the organizational level 
 author: paul9955
-ms.author: v-midehm
+ms.author: v-pausch
 ms.topic: get-started-article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Disable the Insights Outlook add-in
