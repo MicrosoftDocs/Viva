@@ -11,11 +11,11 @@ ms.prod: wpa
 
 # Plans: The experience of plan participants
 
-**Role** - participant in a plan, an information worker who is using MyAnalytics
+**Role** - participant in a plan, an information worker who is using MyAnalytics and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments#features-in-the-myanalytics-full-service-plan)
 
 While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better.
- 
-During a plan, participants receive or can view the following items:
+
+All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view the following items:
 
 <!-- THIS IS TURNED OFF FOR NOW (MAY 2019)
 ## Welcome email
@@ -34,6 +34,8 @@ The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly a
 All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
 
 ![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60.png) 
+
+Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, and Collaboration. The focus of the digest shifts from one pattern to the next, week after week. Note that this focus is not affected by a participant's enrollment in a plan. 
 
 ## MyAnalytics inline suggestions
 
