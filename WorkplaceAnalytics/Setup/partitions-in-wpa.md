@@ -183,7 +183,7 @@ A4. See the following section, [Partitions and organizational data](#partitions-
 Partitions have limits both in number and size: 
 
  * An organization can have a maximum of ten partitions. 
- * Any new partition that you create can contain a maximum of 10,000 licensed users. Also see [Actions that can change partition size](#changes-to-partition-size). 
+ * Any new partition that you create can contain a maximum of 10,000 licensed users. Also see [Actions that can change partition size](#actions-that-can-change-partition-size). 
 
 > [!Note] 
 >  * The Global partition does _not_ count toward this total of ten partitions and has no limit of licensed users.
