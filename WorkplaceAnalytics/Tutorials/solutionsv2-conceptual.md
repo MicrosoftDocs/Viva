@@ -1,4 +1,6 @@
 ---
+# Metadata Sample
+# required metadata
 
 title: Workplace Analytics plans concepts
 description: Concepts and definitions to help you better work with the plans feature of Workplace Analytics. 

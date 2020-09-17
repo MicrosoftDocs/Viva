@@ -1,4 +1,5 @@
 ---
+
 title: Requirements for Workplace Analytics 
 description: Describes the system requirements for obtaining Workplace Analytics
 author: paul9955
@@ -17,9 +18,9 @@ audience: Admin
 
 With the proper licensing, your company can acquire Workplace Analytics as an add-on to its licensing agreement. To be able to purchase Workplace Analytics licenses, your company needs the following:
 
-   ![checkbox 1](../images/wpa/setup/team-adopt-plan-checklist-box.png) An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft.
+   <img src="../images/wpa/setup/team-adopt-plan-checklist-box.png"> An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft 
 
-   ![checkbox 2](../images/wpa/setup/team-adopt-plan-checklist-box.png) An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans).
+   <img src="../images/wpa/setup/team-adopt-plan-checklist-box.png"> An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans). 
 
 ### Enterprise Agreements
 
