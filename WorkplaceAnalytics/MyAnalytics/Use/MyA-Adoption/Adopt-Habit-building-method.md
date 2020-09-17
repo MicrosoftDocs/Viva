@@ -13,10 +13,10 @@ ms.prod: Mya
 
 You can turn a selected behavior into a habit by using MyAnalytics and the habit-building method, which is based on behavioral science.
 
-<img src="../../../Images/MyA/use/how-to-make-it-a-habit.png" alt="How to make it a habit">
+![How to make it a habit](../../../Images/MyA/use/how-to-make-it-a-habit.png)
 
 For more information about Rob Cross’s research, see the [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf).
 
-For additional tailored behavior change tips, take the [Collaborative Overload Personal Assessment](https://www.networkassessments.org/). 
+For additional tailored behavior change tips, take the [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
 
 To learn more about _The Power of Habit_, see the [The Power of Habit Resources](http://charlesduhigg.com/resources/).
