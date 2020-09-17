@@ -74,9 +74,9 @@ If you are an analyst, you must have a partition selected to be able to go to **
 
 To administer partitions, see the following sections:
 
- * [To create a partition](#to-create-a-partition)
- * [To edit a partition](#to-edit-a-partition)
- * [To delete a partition](#to-delete-a-partition)
+* [To create a partition](#to-create-a-partition)
+* [To edit a partition](#to-edit-a-partition)
+* [To delete a partition](#to-delete-a-partition)
 
 ### To create a partition
 
@@ -89,15 +89,15 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 | Set attributes  | 6, 7 | Select organizational-data attributes to include in the partition |
 | Give access |  8  | Select one or more analysts who will have access to this partition |
 
-> [!Important] 
+> [!Important]
 > Plan your partitions carefully before you start to create them. Partions have limits in both number and size. For more information, see 
-[Number and size limits](#number-and-size-limits). 
+[Number and size limits](#number-and-size-limits).
 
 1. Open the Workplace Analytics **Home** page. If prompted, sign in with your work account.  
 2. Open the **Settings** page and select **Access control**.
 3. In the **Partition-based access control** area, select **New partition**:
 
-    ![Admin settings](../images/wpa/setup/access-control-page.png)
+    ![New partition option](../images/wpa/setup/access-control-page.png)
 
 4. On the **Access control > New partition** page, type the name of the new partition and optionally type a description.
 
@@ -180,14 +180,14 @@ A4. See the following section, [Partitions and organizational data](#partitions-
 
 ## Number and size limits
 
-Partitions have limits both in number and size: 
+Partitions have limits both in number and size:
 
- * An organization can have a maximum of ten partitions. 
- * Any new partition that you create can contain a maximum of 10,000 licensed users. Also see [Actions that can change partition size](#actions-that-can-change-partition-size). 
+* An organization can have a maximum of ten partitions.
+* Any new partition that you create can contain a maximum of 10,000 licensed users. Also see [Actions that can change partition size](#actions-that-can-change-partition-size).
 
-> [!Note] 
+> [!Note]
 >  * The Global partition does _not_ count toward this total of ten partitions and has no limit of licensed users.
->  * If you need more than 10 partitions or more than 10,000 licenses in a partition, you can request these exemptions by contacting [Workplace Analytics Support](../overview/getting-support.md). 
+>  * If you need more than 10 partitions or more than 10,000 licenses in a partition, you can request these exemptions by contacting [Workplace Analytics Support](../overview/getting-support.md).
 
 ### Actions that can change partition size
 
