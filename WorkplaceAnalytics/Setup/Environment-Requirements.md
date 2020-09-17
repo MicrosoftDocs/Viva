@@ -18,23 +18,23 @@ audience: Admin
 
 With the proper licensing, your company can acquire Workplace Analytics as an add-on to its licensing agreement. To be able to purchase Workplace Analytics licenses, your company needs the following:
 
-   <img src="../images/wpa/setup/team-adopt-plan-checklist-box.png"> An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft 
+   ![checkbox 1](../images/wpa/setup/team-adopt-plan-checklist-box.png) An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft.
 
-   <img src="../images/wpa/setup/team-adopt-plan-checklist-box.png"> An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans). 
+   ![checkbox 2](../images/wpa/setup/team-adopt-plan-checklist-box.png) An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans).
 
 ### Enterprise Agreements
 
-To obtain Workplace Analytics, you must have an Enterprise Agreement (EA) in place. Other channels such as Cloud Solution Provider (CSP) do not support the addition of Workplace Analytics at this time. Also, note the following circumstances for various types of customers: 
+To obtain Workplace Analytics, you must have an Enterprise Agreement (EA) in place. Other channels such as Cloud Solution Provider (CSP) do not support the addition of Workplace Analytics at this time. Also, note the following circumstances for various types of customers:
 
 |  Type  | Notes |  
-| ---- | ---- | 
-| Government | Government Community Cloud (GCC) does not currently support the addition of Workplace Analytics. | 
-| Education | Supported only for the analysis of faculty at this time, not for students. | 
+| ---- | ---- |
+| Government | Government Community Cloud (GCC) does not currently support the addition of Workplace Analytics. |
+| Education | Supported only for the analysis of faculty at this time, not for students. |
 | Commercial | You can add Workplace Analytics with commercial enrollments. | 
-| Non-profit | Workplace Analytics under a commercial EA can be used by non-profits but non-profit pricing is not available. | 
-| Firstline workers | Workplace Analytics does not support analysis of Firstline workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. | 
+| Non-profit | Workplace Analytics under a commercial EA can be used by non-profits but non-profit pricing is not available. |
+| Firstline workers | Workplace Analytics does not support analysis of Firstline workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
-### Exchange Online plans 
+### Exchange Online plans
 
 Microsoft Exchange Online provides much of the collaboration data that Workplace Analytics uses. For this reason, you must have an Office 365 or Microsoft 365 product that contains Exchange Online (EXO) Plan 1 or EXO Plan 2 on your enrollment.
 
@@ -50,9 +50,9 @@ Workplace Analytics requires an Office 365 tenant with Exchange Online. Workplac
 
 [Assign Workplace Analytics licenses](assign-licenses-to-population.md) to  the users whose mailboxes you want to analyze. This can mean all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies obtain the most benefit when they deploy Workplace Analytics to the entire company or to a large group of employees.
 
-### Pricing 
+### Pricing
 
-Contact your Microsoft account team for pricing. 
+Contact your Microsoft account team for pricing.
 
 ### Trials
 
@@ -75,9 +75,6 @@ If you have questions about licensing, such as "How can I obtain Workplace Analy
 Under [Powerful tools to support your enterprise](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** for more details about the available plans.
 
 To provide feedback, go to [Microsoft uservoice for Office 365](https://office365.uservoice.com/).  
-
-
-
 
 
 <!-- FORMER CONTENT 
