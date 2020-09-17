@@ -41,7 +41,7 @@ MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notific
 
 ### Plan-only inline suggestions
 
-While many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), some apply only to participants of particular Teamwork plans, as described in [Collaboration plan](#collaboration-plan) and [Wellbeing plan](#wellbeing-plan):
+Many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), but some apply only to participants of a particular Teamwork plan, namely, the [Wellbeing plan](#wellbeing-plan):
 
 <!--
 #### Collaboration plan
