@@ -20,12 +20,16 @@ The ONA person-to-person query measures the strength of connections through thes
  * The **Strong ties** metric measures how many strong and tight engagements you've had, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with the people in your common network. 
  
    For example, a "strong tie" between a manager and a direct report reflects the amount of direct collaboration they have over time and the amount of interactions they have with the same set of people who exist in their networks. Typically, a person has only a few strong ties because strong ties take more effort to maintain.
+
+   See [Examples of Strong ties and Diverse ties](#examples-of-strong-ties-and-diverse-ties).
  
  * The **Diverse ties** metric measures how varied and how broad your connections are, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with people NOT in your common network. 
  
    Diverse ties present good sources of fresh and varied information from across the company, especially because access to a set of completely different people in your networks increases your access to new information. Because you need not have much direct collaboration with your diverse ties, it’s easy to have more diverse ties than strong ties. 
    
    Diverse ties not only expose you to varied information, they also help the dissemination of such new information through the network.
+
+   See [Examples of Strong ties and Diverse ties](#examples-of-strong-ties-and-diverse-ties).
 
 > [!Note] 
 > * Strong ties and diverse ties are computed and reported for licensed users only.
@@ -140,6 +144,32 @@ You could have strong ties that are distant: These are strong ties with people o
 You could have diverse ties that are close: These are diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group. 
 
 You could have diverse ties that are distant: These are diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks are considered key for driving innovation and creativity in and among teams. 
+
+### Ties are directional 
+
+Ties (both Strong and Diverse) are directional in nature. If a Sara-to-Isaiah tie is strong, it does not necessarily follow that the Isaiah-to-Sara tie is also strong. The strength depends on the contribution that each person makes. For example, a greater contribution from Isaiah toward his relationship with Sara makes it more likely that Isaiah has a Strong tie with Sara, but it does not directly increase the liklihood of a tie in the opposite direction. 
+
+Another example: A manager's tie to a direct report might be Strong, but not necessarily vice versa. 
+
+### Examples of Strong ties and Diverse ties
+
+#### Strong ties
+
+John and Sally on peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the very frequent nature of their interaction, a Strong tie very likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a common network. Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship -- a common network -- which, in turn, strengthens the Strong tie between John and Sally. 
+
+Note, however, that each person's contribution counts. See [Ties are directional](#ties-are-directional).
+
+#### Diverse ties 
+
+Preeti is a research scientist in an R&D department, and Rahul is a supply-chain logistics manager who works in the shipping department of the same company. They met at a Diversity & Inclusion virtual event at the company a few months ago, and are now connected to each other on LinkedIn. They share no commonality in their job functions and there is limited opportunity for them to interact with each other in small-group settings. 
+
+Both Preeti and Rahul have their own connections, and there is no overlap in people across their connections. Due to these circumstances, a Diverse tie very likely exists between them. Recently, Preeti liked an article on climate science on LinkedIn. Since Preeti is in Rahul's LinkedIn network, Rahul got to read this article, which he otherwise might have missed. As shown here, Diverse relationships such as the one between Preeti and Rahul promote sharing of varied and non-typical information.
+
+#### Strong ties and Diverse ties 
+
+Mark and Matt work as engineers in the same large development team. However, they work on different products. Due to the nature of their roles, they are expected to collaborate closely with each other, and they do these in regular cross-group sync-up meetings and occasional emails. Based on these frequent collaboration events, a Strong tie could exist between them. 
+
+Now, since they work on separate products, they tend to work with different people within their own workgroups. This results in some amount of fresh information flowing to each other through their own networks. For this reason, it is possible that a Diverse tie could also exist between the two to some degree.
 
 ## Frequently asked questions
 
