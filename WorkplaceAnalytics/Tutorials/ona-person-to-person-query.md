@@ -17,13 +17,13 @@ As for non-managers, the most effective employees also excel in part because of 
 
 The ONA person-to-person query measures the strength of connections through these two metrics:
 
- * The **Strong ties** metric measures how many strong and tight engagements you've had, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with the people in your common network. 
+ * The **Strong ties** metric measures how many strong and tight engagements you've had, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with the people in your [common network](../use/glossary.md#common-network). 
  
    For example, a "strong tie" between a manager and a direct report reflects the amount of direct collaboration they have over time and the amount of interactions they have with the same set of people who exist in their networks. Typically, a person has only a few strong ties because strong ties take more effort to maintain.
 
    See [Examples of Strong ties and Diverse ties](#examples-of-strong-ties-and-diverse-ties).
  
- * The **Diverse ties** metric measures how varied and how broad your connections are, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with people NOT in your common network. 
+ * The **Diverse ties** metric measures how varied and how broad your connections are, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with people NOT in your [common network](../use/glossary.md#common-network). 
  
    Diverse ties present good sources of fresh and varied information from across the company, especially because access to a set of completely different people in your networks increases your access to new information. Because you need not have much direct collaboration with your diverse ties, it’s easy to have more diverse ties than strong ties. 
    
@@ -155,7 +155,7 @@ Another example: A manager's tie to a direct report might be Strong, but not nec
 
 #### Strong ties
 
-John and Sally on peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the very frequent nature of their interaction, a Strong tie very likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a common network. Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship -- a common network -- which, in turn, strengthens the Strong tie between John and Sally. 
+John and Sally on peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the very frequent nature of their interaction, a Strong tie very likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &mdash; a common network &mdash; which, in turn, strengthens the Strong tie between John and Sally. 
 
 Note, however, that each person's contribution counts. See [Ties are directional](#ties-are-directional).
 
@@ -189,15 +189,15 @@ A2. Let's say you need nothing more than a quantitative number of connections a 
 
 However, if you restrict your query to licensed users, we recommended that you query for Strong ties because this gives you a more realistic and qualitative view of engaged connections.
 
-**Q3. When should you use "Strong ties" and when "External network size"?**
+**Q3. When should you use "Strong ties" and when "External network size"?** 
 
 A3. Strong ties currently does not consider connections that a person has outside the company. To obtain the number of connections a person has outside the company, you can use External network size.
 
 **Q4. What is the difference between "Diverse ties" and "Networking outside organization"?**
 
-A4. Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exists between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their common network has minimal overlap. 
+A4. Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exists between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their [common network](../use/glossary.md#common-network) has minimal overlap. 
 
-In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of meaningful interactions the person has with their connection. This metric quantifies connections at the organization attribute level. 
+In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of meaningful interactions the person has with their connection. This metric quantifies connections at the organization attribute level.
 
 Therefore, unlike Networking outside organization, which returns connections only at the organization attribute level (a very high level), Diverse ties returns the number of connections based on the _quality_ of the engagement and the _variety_ of information that can potentially be conveyed through the connection. Also, Diverse ties can span any organizational attribute, which lets you more flexibly locate such ties anywhere in the company.
 
