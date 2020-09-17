@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics Office 365 data
 description: What's available on the Office 365 data sources page in Workplace Analytics 
@@ -35,7 +33,7 @@ This page includes the following types of data.
 
 Hover your cursor over the chart data to get more details and use the chart legend to change what data (meetings, email, instant messages, and calls) the chart shows.
 
-  ![Office 365 data sources page](../images/wpa/use/measured-collab.png)
+  ![Office 365 data sources chart data](../images/wpa/use/measured-collab.png)
 <!--
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
@@ -51,7 +49,7 @@ Determining the origins of data also determines how to categorize it, as shown i
 
 The following screenshot shows where each of these numbers appears on the **Office 365 data** page:
 
-  ![Office 365 data sources page](../images/wpa/use/data-sources-relate.png)
+  ![Office 365 data sources page info](../images/wpa/use/data-sources-relate.png)
 
 ## Possible causes of inconsistent data
 
