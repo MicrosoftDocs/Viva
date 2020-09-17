@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Manager insights
 
-As a people manager, you can discover key insights about your team’s collaboration effectiveness and employee experience. 
+As a people manager, you can discover key insights about your team’s collaboration effectiveness and employee experience.
 
 ![Manager insights](./images/manager-insights.png)
 
