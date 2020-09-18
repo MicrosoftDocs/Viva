@@ -3,7 +3,7 @@
 title: Configure Workplace Analytics system settings
 description: Describes how to configure the system settings for Workplace Analytics
 author: paul9955
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:

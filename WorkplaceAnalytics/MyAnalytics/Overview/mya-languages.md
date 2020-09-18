@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics languages
 description: List of supported languages for the elements of MyAnalytics

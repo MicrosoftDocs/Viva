@@ -1,0 +1,38 @@
+### YamlMime:Hub
+
+title: Briefing email documentation # < 60 chars
+summary: The Briefing email helps you prepare for your day and keep track of commitments you’ve made in email. # < 160 chars
+brand: workplace-analytics
+
+metadata:
+  title: Briefing email documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: The Briefing email helps you prepare for your day and keep track of commitments you’ve made in email. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page 
+  author: madehmer 
+  ms.author: v-mideh 
+  ms.date: 09/14/2020 #Required; mm/dd/yyyy format.
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  sections:
+    - items:
+      - title: Introducing the Briefing email
+        summary: Learn what the Briefing email is and how you can use it to prepare for today's meetings and related documents and tasks, and to help get your work done.
+        url: /briefing/be-overview
+      - title: Keeping your data private
+        summary: Learn how the Briefing email protects and keeps your personal data private and complies with applicable laws and regulations.
+        url: /briefing/be-privacy
+      - title: Configuring the Briefing email
+        summary: Steps for admins to configure the Briefing email for one person or for multiple people in your organization.
+        url: /briefing/be-admin
+      - title: Using the Briefing email
+        summary: Learn how to use the Briefing email to prepare for upcoming meetings, follow up on outstanding tasks, and schedule focus time.
+        url: /briefing/be-meetings
+      - title: Briefing rollout
+        summary: Learn how to roll out a Briefing pilot or a full rollout to all of the people in your organization, including downloadable resources to help jump start the process.
+        url: /briefing/be-pilot
+      - title: Briefing FAQs
+        summary: Review the most frequently asked questions and their answers for both Briefing users and administrators.
+        url: /briefing/be-faqs

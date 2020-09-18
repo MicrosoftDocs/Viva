@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
-title: MyAnalytics Individual Adoption --Develop new habits
-description: MyAnalytics Individual Adoption by Kate Nowak --Develop new habits section
+title: MyAnalytics Individual Adoption - Develop new habits
+description: MyAnalytics Individual Adoption by Kate Nowak - Develop new habits section
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
@@ -31,8 +29,3 @@ We recommend that you start by selecting one or two behaviors to keep things sim
 [!INCLUDE [Habit Building Method](Adopt-Habit-building-method.md)]
 
 [!INCLUDE [Habit Playbooks](Adopt-Habit-playbooks.md)]
-
-
-
-
-

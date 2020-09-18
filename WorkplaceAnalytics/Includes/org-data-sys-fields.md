@@ -5,7 +5,7 @@
 title: System fields table
 description: Tables that are used for mapping the system fields.   
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 03/14/2019
 ms.topic: article
 localization_priority: normal 
