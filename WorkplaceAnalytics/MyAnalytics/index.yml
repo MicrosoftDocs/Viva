@@ -18,7 +18,7 @@ metadata:
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   items:
-    - title: Introduction
+    - title: Introducing
       itemType: overview # controls the icon image and super-title text
       url: https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page
     - title: Privacy protection
@@ -30,9 +30,9 @@ highlightedContent:
     - title: Adoption
       itemType: learn
       url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
-    - title: How to use MyAnalytics
+    - title: Using MyAnalytics
       itemType: how-to-guide
       url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2
-    - title: MyAnalytics FAQs
+    - title: Frequently asked questions
       itemType: reference
       url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-faq
