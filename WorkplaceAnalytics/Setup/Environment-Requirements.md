@@ -54,9 +54,11 @@ Workplace Analytics requires an Office 365 tenant with Exchange Online. Workplac
 
 Contact your Microsoft account team for pricing. 
 
+<!-- REMOVED 17 Sept 2020
 ### Trials
 
 Trials of Workplace Analytics are made available to select customers. Please work with your account team to develop a scenario for the valuable use of Workplace Analytics.
+-->
 
 ### Supported Browsers
 
