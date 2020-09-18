@@ -1,0 +1,33 @@
+### YamlMime:Hub
+
+title: Manager insights documentation # < 60 chars
+summary: Learn what Manager insights are and how to use them to discover how your team’s collaboration effectiveness and employee experience. # < 160 chars
+brand: workplace-analytics
+
+metadata:
+  title: Manager insights documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Use these insights to discover how your team’s collaboration effectiveness and employee experience. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page 
+  author: madehmer 
+  ms.author: v-mideh 
+  ms.date: 09/18/2020 #Required; mm/dd/yyyy format.
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+  items:
+    - title: Introduction
+      itemType: overview # controls the icon image and super-title text
+      url: /introduction
+    - title: Get started
+      itemType: get-started
+      url: /get-started
+    - title: Best practices
+      itemType: learn
+      url: /gm-best-practices
+    - title: Plans
+      itemType: how-to-guide
+      url: /workplace-analytics/tutorials/solutionsv2-intro
+      - title: Frequently asked questions
+      itemType: reference
+      url: /faqs
