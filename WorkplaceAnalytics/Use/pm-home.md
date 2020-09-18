@@ -65,4 +65,4 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 
 ## Related topic
 
-* [Frequently asked questions about Manager insights](insight-faqs.md)
+[Frequently asked questions about Manager insights](insight-faqs.md)
