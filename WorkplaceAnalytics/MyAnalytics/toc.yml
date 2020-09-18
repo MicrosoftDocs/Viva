@@ -68,7 +68,7 @@
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction
-            href: ./Use/MyA-Adoption/Adopt-myanalytics.md   
+            href: ./Use/MyA-Adoption/adopt-myanalytics.md   
           - name: Individual adoption
             items: 
             - name: Get started
@@ -100,8 +100,8 @@
           - name: Habit resources
             items: 
             - name: Learning modules
-              href: ./Use/MyA-Adoption/Adopt-Learning-modules.md
+              href: ./Use/MyA-Adoption/adopt-learning-modules.md
             - name: Habit-building method
-              href: ./Use/MyA-Adoption/Adopt-Habit-building-method.md
+              href: ./Use/MyA-Adoption/adopt-habit-building-method.md
             - name: Habit playbooks
-              href: ./Use/MyA-Adoption/Adopt-Habit-playbooks.md
+              href: ./Use/MyA-Adoption/adopt-habit-playbooks.md

@@ -315,8 +315,8 @@
           - name: Habit resources
             items: 
             - name: Learning modules
-              href: MyAnalytics/Use/mya-adoption/Adopt-Learning-modules.md
+              href: MyAnalytics/Use/mya-adoption/adopt-learning-modules.md
             - name: Habit-building method
-              href: MyAnalytics/Use/mya-adoption/Adopt-Habit-building-method.md
+              href: MyAnalytics/Use/mya-adoption/adopt-habit-building-method.md
             - name: Habit playbooks
-              href: MyAnalytics/Use/mya-adoption/Adopt-Habit-playbooks.md
+              href: MyAnalytics/Use/mya-adoption/adopt-habit-playbooks.md
