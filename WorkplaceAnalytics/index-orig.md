@@ -18,7 +18,7 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
 * [**Plans**](../WorkplaceAnalytics/tutorials/solutionsv2-intro.md) - Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
 * [**Frequently asked questions**](../WorkplaceAnalytics/use/faq.md) - Review the most frequently asked questions and their answers about Workplace Analytics roles, privacy, setup, and analysis tools.
 
-|  Additional resources               |
+|  Resources               |
 | ------------- | ------------- |
 | <img src="https://docs.microsoft.com/media/common/i_progressive.svg" alt="Workplace Analytics Insights" width="40 px" height="40 px" > | [**Insights**](https://insights.office.com)<br>A collection of articles from the leading edge of productivity analytics |
 | <img src="https://docs.microsoft.com/media/common/i_blog.svg" alt="workplace analytics blog icon" width="40 px" height="40 px" > | [**Blog**](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog)<br>Latest news about Workplace Analytics features and functionality |
