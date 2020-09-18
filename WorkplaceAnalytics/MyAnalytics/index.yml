@@ -2,7 +2,6 @@
 
 title: MyAnalytics documentation # < 60 chars
 summary: MyAnalytics provides insight into two of the key factors in personal productivity, how people spend their time and who they spend it with. # < 160 chars
-# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: workplace-analytics
 
 metadata:
@@ -13,8 +12,37 @@ metadata:
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
   ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
-  ms.date: 09/14/2020 #Required; mm/dd/yyyy format.
+  ms.date: 09/18/2020 #Required; mm/dd/yyyy format.
   localization_priority: Priority
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+  items:
+    - title: Introducing MyAnalytics
+      itemType: overview # controls the icon image and super-title text
+      url: ./workplace-analytics/myanalytics/mya-landing-page.md
+    - title: Privacy protection
+      itemType: concept
+      url: ./workplace-analytics/myanalytics/overview/privacy-guide.md
+    - title: Setup
+      itemType: deploy
+      url: ./workplace-analytics/myanalytics/setup/configure-myanalytics.md
+
+tools:
+  items:
+    # Card
+    - title: Introducing MyAnalytics
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: ../Images/icon-personaldata.png
+      url: ./workplace-analytics/myanalytics/mya-landing-page.md
+    # Card
+    - title: Privacy protection
+      imageSrc: ../Images/icon-privacy.png
+      url: ./workplace-analytics/myanalytics/overview/privacy-guide.md
+    # Card
+    - title: Setup
+      imageSrc: ./media/index/image3.svg OR https://docs.microsoft.com/media/logos/image3.svg
+      url: ./workplace-analytics/myanalytics/setup/configure-myanalytics.md
 
 # additionalContent section (optional)
 # Card with summary style
