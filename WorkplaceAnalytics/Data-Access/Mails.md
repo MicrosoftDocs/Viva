@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Email metrics for Workplace Analytics Data export
-description: One row for every email sent
+description: A collaboration event row for every email sent
 author: paul9955
 ms.author: v-mideh
 ms.topic: article

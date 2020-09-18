@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Instant message participant metrics for Workplace Analytics Data export
-description: One row for each collaboration event
+description: A collaboration event row for each participant in an instant message
 author: paul9955
 ms.author: v-mideh
 ms.topic: article

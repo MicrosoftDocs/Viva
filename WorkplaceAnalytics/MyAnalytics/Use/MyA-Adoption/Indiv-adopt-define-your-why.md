@@ -5,7 +5,7 @@
 title: MyAnalytics Individual Adoption --Define your why
 description: MyAnalytics Individual Adoption by Kate Nowak --Define your why
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 

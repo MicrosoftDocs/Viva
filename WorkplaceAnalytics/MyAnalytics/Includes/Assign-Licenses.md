@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Assign licenses with the MyAnalytics service plan
 description: Assign licenses with the MyAnalytics service plan

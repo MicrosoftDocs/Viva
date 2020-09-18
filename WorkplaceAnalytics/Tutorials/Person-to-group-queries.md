@@ -5,7 +5,7 @@
 title: Person-to-group queries in Workplace Analytics
 description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.date: 05/22/2019
 ms.topic: article
 localization_priority: normal 

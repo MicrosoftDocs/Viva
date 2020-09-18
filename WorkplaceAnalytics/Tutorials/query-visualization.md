@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Visualize person queries
 description: View query results in charts without leaving Workplace Analytics
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -77,15 +75,15 @@ On the **Interactive Data** page, as you [customize visualizations](#customize-y
 
     ![Interactive data Save as](../images/wpa/tutorials/inter-data-save-as-4.png)
 
-    After you name the chart, it appears as a new item in the **Saved charts** list to the left of the chart area. 
+    After you name the chart, it appears as a new item in the **Saved charts** list to the left of the chart area.
 
     ![Interactive data chart saved as](../images/wpa/tutorials/saved-charts-chart-saved-as-4.png)
 
 2. To save new modifications to a chart that you have already saved, select **Save**:  
 
-    ![Interactive data Save as](../images/wpa/tutorials/saved-charts-chart-saved-4.png)
+    ![Interactive data Save option](../images/wpa/tutorials/saved-charts-chart-saved-4.png)
 
-> [!Note] 
+> [!Note]
 > If your web browser stops responding while you are modifying a chart, you will not lose your progress. This is because changes are auto-saved as you work. They will be available to you the next time you open the **Interactive Data** page to see visualizations of this query.
 
 ## Optional: Create a plan  
@@ -107,15 +105,12 @@ For more information about plans, see [Workplace Analytics plans](solutionsv2-in
    The group size is important because query visualization adheres to the [minimum group size](../use/settings.md#minimum-group-size) that has been set for your organization. If you've selected a group smaller than the minimum group size, you see a warning that the "filter group is below the minimum size."
 
 2. After you have a group or groups selected that meet or exceed the minimum group size, select **Submit group**.
-
 3. On the **Set up new plan** pane, select an appropriate plan type for the group that you designated and select **Start now**.
-
 4. Select **Validate** to validate the selected group. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
 
    If validation fails, you can return to your query results and select a different group or additional groups, or start over. After any subsequent group selection, you must select **Validate** again. After validation succeeds, go to the next step.
 
 5. With your group validated, you can now start a change plan. See the [Start the plan](solutionsv2-task.md#start-the-plan) section of [Plans: walkthrough](solutionsv2-task.md).
-
 6. After the plan starts and is underway, you can track its progress; for more information, see [Track plans](solutionsv2-task.md#track-plans). To learn about the plan from the participants' perspective, see [The experience of plan participants](solutionsv2-participants.md).
 
 ## Related topics

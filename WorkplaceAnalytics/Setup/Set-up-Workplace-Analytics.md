@@ -3,7 +3,7 @@
 title: Workplace Analytics setup
 description: How to set up and configure Workplace Analytics
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 search.appverid:

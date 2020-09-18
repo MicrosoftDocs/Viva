@@ -5,7 +5,7 @@
 title: Workplace Analytics plans concepts
 description: Concepts and definitions to help you better work with the plans feature of Workplace Analytics. 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa

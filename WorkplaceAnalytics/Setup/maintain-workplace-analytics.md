@@ -3,7 +3,7 @@
 title: Workplace Analytics Maintenance
 description: Admin tasks for keeping Workplace Analytics and the data it uses up-to-date
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Historical person metrics for Workplace Analytics Data export
-description: One row for each person that has HR attribute changes
+description: A collaboration event row for each person that has HR attribute changes
 author: paul9955
 ms.author: v-mideh
 ms.topic: article

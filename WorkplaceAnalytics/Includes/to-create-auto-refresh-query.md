@@ -5,7 +5,7 @@
 title: To create an auto-refresh query
 description: How to create an auto-refresh query with Workplace Analytics. 
 author: paul9955
-ms.author: v-midehm
+ms.author: v-mideh
 ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
