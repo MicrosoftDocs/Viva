@@ -1,5 +1,4 @@
 ---
-
 title: Use MyAnalytics to build good work habits
 description: Building good habits with MyAnalytics
 author: paul9955
