@@ -8,7 +8,7 @@ localization_priority: normal
 ms.prod: Mya
 ---
 
-# Habit-building method
+## Habit-building method
 
 You can turn a selected behavior into a habit by using MyAnalytics and the habit-building method, which is based on behavioral science.
 
