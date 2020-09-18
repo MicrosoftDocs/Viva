@@ -20,13 +20,13 @@ highlightedContent:
   items:
     - title: Introducing MyAnalytics
       itemType: overview # controls the icon image and super-title text
-      url: ./workplace-analytics/myanalytics/mya-landing-page.md
+      url: ../workplace-analytics/myanalytics/mya-landing-page.md
     - title: Privacy protection
       itemType: concept
-      url: ./workplace-analytics/myanalytics/overview/privacy-guide.md
+      url: ../workplace-analytics/myanalytics/overview/privacy-guide.md
     - title: Setup
       itemType: deploy
-      url: ./workplace-analytics/myanalytics/setup/configure-myanalytics.md
+      url: ../workplace-analytics/myanalytics/setup/configure-myanalytics.md
 
 tools:
   items:
@@ -34,15 +34,15 @@ tools:
     - title: Introducing MyAnalytics
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ../Images/icon-personaldata.png
-      url: ./workplace-analytics/myanalytics/mya-landing-page.md
+      url: ../workplace-analytics/myanalytics/mya-landing-page.md
     # Card
     - title: Privacy protection
       imageSrc: ../Images/icon-privacy.png
-      url: ./workplace-analytics/myanalytics/overview/privacy-guide.md
+      url: ../workplace-analytics/myanalytics/overview/privacy-guide.md
     # Card
     - title: Setup
       imageSrc: ./media/index/image3.svg OR https://docs.microsoft.com/media/logos/image3.svg
-      url: ./workplace-analytics/myanalytics/setup/configure-myanalytics.md
+      url: ../workplace-analytics/myanalytics/setup/configure-myanalytics.md
 
 # additionalContent section (optional)
 # Card with summary style
