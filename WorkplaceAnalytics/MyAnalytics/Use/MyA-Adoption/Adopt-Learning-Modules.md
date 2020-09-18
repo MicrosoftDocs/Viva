@@ -1,5 +1,5 @@
 ---
-title: Learning modules for MyAnalytics
+title: MyAnalytics learning modules
 description: Learn how to set up and use MyAnalytics data, including focus hours, meetings, email, and after hours data
 author: madehmer
 ms.author: v-pausch
@@ -8,7 +8,7 @@ localization_priority: normal
 ms.prod: Mya
 ---
 
-# MyAnalytics learning modules
+# Learning modules for MyAnalytics
 
 MyAnalytics has a few learning modules to help you set up and use its data. These materials are organized by collaboration topic to help you build new work habits and learn how to use MyAnalytics more effectively.
 
