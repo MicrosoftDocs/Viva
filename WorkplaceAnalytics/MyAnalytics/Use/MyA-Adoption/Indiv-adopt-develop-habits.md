@@ -20,10 +20,8 @@ Any number of behaviors can support a goal and turn into a habit. For example, i
  2. Avoid meetings during which you multitask.
  3. Divide and conquer meetings you share with a coworker.
 
-We recommend that you start by selecting one or two behaviors to keep things simple and to more easily determine which one works best for you. There are no one-size-fits-all solutions to collaboration problems. The next section explains how you can use Learning modules, Habit playbooks, and the Habit-building method to turn new behaviors into solid habits based on behavioral science.
+We recommend that you start by selecting one or two behaviors to keep things simple and to more easily determine which one works best for you. There are no one-size-fits-all solutions to collaboration problems. Use the following to turn new behaviors into solid habits based on behavioral science.
 
-[!INCLUDE [Adoption learning modules](adopt-learning-modules.md)]
-
-[!INCLUDE [Adopt new habits](adopt-habit-building.md)]
-
-[!INCLUDE [Adopt habit playbooks](adopt-habit-playbooks.md)]
+* [Adoption learning modules](adopt-learning-modules.md)]
+* [Adopt new habits](adopt-habit-building.md)]
+* [Adopt habit playbooks](adopt-habit-playbooks.md)]
