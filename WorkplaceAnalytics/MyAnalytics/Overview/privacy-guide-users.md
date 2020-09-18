@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: user
 ---
 
-# Privacy guide for MyAnalytics
+# MyAnalytics privacy guide
 
 MyAnalytics helps you find opportunities to build better habits and get back in control of your time. This article describes how MyAnalytics works, what data it uses, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how MyAnalytics complies with GDPR regulations.
 
