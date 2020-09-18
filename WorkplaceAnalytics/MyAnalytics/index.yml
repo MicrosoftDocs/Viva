@@ -18,52 +18,21 @@ metadata:
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   items:
-    - title: Introducing MyAnalytics
+    - title: Introduction
       itemType: overview # controls the icon image and super-title text
-      url: ../workplace-analytics/myanalytics/mya-landing-page.md
+      url: https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page
     - title: Privacy protection
-      itemType: concept
-      url: ../workplace-analytics/myanalytics/overview/privacy-guide.md
+      itemType: get-started
+      url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide
     - title: Setup
       itemType: deploy
-      url: ../workplace-analytics/myanalytics/setup/configure-myanalytics.md
-
-tools:
-  items:
-    # Card
-    - title: Introducing MyAnalytics
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: ../Images/icon-personaldata.png
-      url: ../workplace-analytics/myanalytics/mya-landing-page.md
-    # Card
-    - title: Privacy protection
-      imageSrc: ../Images/icon-privacy.png
-      url: ../workplace-analytics/myanalytics/overview/privacy-guide.md
-    # Card
-    - title: Setup
-      imageSrc: ./media/index/image3.svg OR https://docs.microsoft.com/media/logos/image3.svg
-      url: ../workplace-analytics/myanalytics/setup/configure-myanalytics.md
-
-# additionalContent section (optional)
-# Card with summary style
-additionalContent:
-  sections:
-    - items:
-      - title: Introducing MyAnalytics
-        summary: Learn what MyAnalytics is and how your team can use it to boost meeting quality, increase focus time, and improve work-life balance.
-        url: https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page
-      - title: Privacy protection
-        summary: Learn how MyAnalytics protects employee privacy, keeps personal data private, and supports compliance with local regulations.
-        url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide
-      - title: Setup
-        summary: Learn about MyAnalytics prerequisites, the Insights Outlook add-in, and how to configure user settings and assign licenses with the MyAnalytics service.
-        url: https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics
-      - title: Adopting MyAnalytics
-        summary: Learn more about how to use MyAnalytics to recognize and address problems by building healthy work habits for both you and your team.
-        url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
-      - title: Using MyAnalytics
-        summary: Learn how you spent your time over the past month and productivity insights to help improve your focus, wellbeing, network, and collaboration work patterns.
-        url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2
-      - title: MyAnalytics FAQs
-        summary: Review the most frequently asked questions and their answers for both MyAnalytics users and IT administrators.
-        url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-faq
+      url: https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics
+    - title: Adoption
+      itemType: learn
+      url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
+    - title: How to use MyAnalytics
+      itemType: how-to-guide
+      url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2
+    - title: MyAnalytics FAQs
+      itemType: reference
+      url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-faq
