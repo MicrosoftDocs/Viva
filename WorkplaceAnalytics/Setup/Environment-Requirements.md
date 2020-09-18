@@ -18,9 +18,9 @@ audience: Admin
 
 With the proper licensing, your company can acquire Workplace Analytics as an add-on to its licensing agreement. To be able to purchase Workplace Analytics licenses, your company needs the following:
 
-   <img src="../images/wpa/setup/team-adopt-plan-checklist-box.png"> An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft 
+   ![checklist box](../images/wpa/setup/team-adopt-plan-checklist-box.png) An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft 
 
-   <img src="../images/wpa/setup/team-adopt-plan-checklist-box.png"> An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans). 
+   ![checklistbox](../images/wpa/setup/team-adopt-plan-checklist-box.png) An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans). 
 
 ### Enterprise Agreements
 
@@ -54,9 +54,11 @@ Workplace Analytics requires an Office 365 tenant with Exchange Online. Workplac
 
 Contact your Microsoft account team for pricing. 
 
+<!-- REMOVED 17 Sept 2020
 ### Trials
 
 Trials of Workplace Analytics are made available to select customers. Please work with your account team to develop a scenario for the valuable use of Workplace Analytics.
+-->
 
 ### Supported Browsers
 
