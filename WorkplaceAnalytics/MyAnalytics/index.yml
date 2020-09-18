@@ -20,19 +20,19 @@ highlightedContent:
   items:
     - title: Introducing
       itemType: overview # controls the icon image and super-title text
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page
+      url: /workplace-analytics/myanalytics/mya-landing-page
     - title: Privacy protection
-      itemType: get-started
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide
+      itemType: learn
+      url: /workplace-analytics/myanalytics/overview/privacy-guide
     - title: Setup
       itemType: deploy
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics
+      url: /workplace-analytics/myanalytics/setup/configure-myanalytics
     - title: Adoption
-      itemType: learn
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
+      itemType: tutorial
+      url: /workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
     - title: Using MyAnalytics
       itemType: how-to-guide
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2
+      url: /workplace-analytics/myanalytics/use/dashboard-2
     - title: Frequently asked questions
       itemType: reference
-      url: https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-faq
+      url: /workplace-analytics/myanalytics/overview/mya-faq

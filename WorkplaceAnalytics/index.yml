@@ -11,28 +11,26 @@ metadata:
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
   ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
-  ms.date: 09/14/2020 #Required; mm/dd/yyyy format.
+  ms.date: 09/18/2020 #Required; mm/dd/yyyy format.
 
-# additionalContent section (optional)
-# Card with summary style
-additionalContent:
-  sections:
-    - items:
-      - title: Privacy protection
-        summary: Learn how to protect and keep personal data private and how Workplace Analytics complies with applicable laws and regulations.
-        url: /workplace-analytics/privacy/data-protection-intro
-      - title: Setup and maintenance
-        summary: Learn how to set up and maintain Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change privacy and other settings.
-        url: /workplace-analytics/setup/set-up-workplace-analytics
-      - title: Data analysis
-        summary: Learn how to analyze data with Workplace Analytics Explore pages and how to create custom queries for more detailed analysis.
-        url: /Workplace-Analytics/overview/get-started
-      - title: Workplace Analytics FAQs
-        summary: Review the most frequently asked questions and their answers about Workplace Analytics roles, privacy, setup, and analysis tools.
-        url: /workplace-analytics/use/faq
-      - title: Plans
-        summary: Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
-        url: /workplace-analytics/tutorials/solutionsv2-intro
-      - title: MyAnalytics
-        summary: Learn how to set up and use MyAnalytics and how the privacy settings in MyAnalytics protects your personal data.
-        url: /workplace-analytics/myanalytics/index
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+  items:
+    - title: Privacy protection
+      itemType: learn # controls the icon image and super-title text
+      url: /workplace-analytics/privacy/data-protection-intro
+    - title: Setup and maintenance
+      itemType: deploy
+      url: /workplace-analytics/setup/set-up-workplace-analytics
+    - title: Data analysis
+      itemType: how-to-guide
+      url: /Workplace-Analytics/overview/get-started
+    - title: Frequently asked questions
+      itemType: reference
+      url: /workplace-analytics/use/faq
+    - title: Plans
+      itemType: tutorial
+      url: /workplace-analytics/tutorials/solutionsv2-intro
+    - title: MyAnalytics
+      itemType: quickstart
+      url: /workplace-analytics/myanalytics/index
