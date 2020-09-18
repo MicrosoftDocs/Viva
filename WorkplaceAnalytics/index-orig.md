@@ -20,7 +20,8 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
 
 |Resources|               |
 |---------| ------------- |
-|![Insights icon](https://docs.microsoft.com/media/common/i_progressive.svg) |[**Insights**](https://insights.office.com)<br>A collection of articles from the leading edge of productivity analytics |
-|<img src="https://docs.microsoft.com/media/common/i_blog.svg" width="40 px" height="40 px" alt-text="Blog icon"> |[**Blog**](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog)<br>Latest news about Workplace Analytics features and functionality |
-|<img src="https://docs.microsoft.com/media/common/i_virtual-training.svg" width="40 px" height="40 px" alt-text="Blog icon"> |[**Discover Microsoft Workplace Analytics**](https://docs.microsoft.com/learn/modules/workplace-analytics-discover/)<br>Take this e-learning course on how to use Workplace Analytics for insights and analysis |
-|<img src="https://docs.microsoft.com/media/common/i_video.svg" width="40 px" height="40 px" alt-text="E-learning course icon"> |[**Videos**](~/overview/videos.md)<br>Watch videos about Workplace Analytics |
+|![Progressive icon](https://docs.microsoft.com/media/common/i_progressive.svg) |[**Insights**](https://insights.office.com)<br>A collection of articles from the leading edge of productivity analytics |
+|<img src="https://docs.microsoft.com/media/common/i_blog.svg" width="40 px" height="40 px" alt-text="blog icon"> |[**Blog**](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog)<br>Latest news about Workplace Analytics features and functionality |
+|<img src="https://docs.microsoft.com/media/common/i_virtual-training.svg" alt="virtual course icon" width="40 px" height="40 px" /> |[**Discover Microsoft Workplace Analytics**](https://docs.microsoft.com/learn/modules/workplace-analytics-discover/)<br>Take this e-learning course on how to use Workplace Analytics for insights and analysis |
+|<img src="https://docs.microsoft.com/media/common/i_video.svg" width="40 px" height="40 px" alt="video icon"> |[**Videos**](~/overview/videos.md)<br>Watch videos about Workplace Analytics |
+<img src="https://github.com/your_image.png" alt="Your image title" width="250"/>
