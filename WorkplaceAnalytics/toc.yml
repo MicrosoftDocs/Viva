@@ -83,8 +83,8 @@
               items:
                 - name: Overview
                   href: ~/Use/pm-home.md
-                - name: Rollout to managers
-                  href: ~/manager-insights/rollout.md
+#               - name: Rollout to managers
+#                 href: ~/manager-insights/rollout.md-->
                 - name: FAQs
                   href: ~/Use/insight-faqs.md
         - name: Analyze
