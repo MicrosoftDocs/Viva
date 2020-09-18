@@ -8,7 +8,7 @@ localization_priority: normal
 ms.prod: Mya
 ---
 
-# Build your habit
+# Develop new habits
 
 After you have completed the [Diagnose your problem](Indiv-adopt-diagnose.md) and [Set your goal](Indiv-adopt-set-goals.md) steps, you will have the following elements for your behavior change plan: your purpose for change, your behavior-change objective, and your specific and measurable goal. The missing piece is a behavior to achieve your goal and turn into a habit.
 
@@ -26,4 +26,4 @@ We recommend that you start by selecting one or two behaviors to keep things sim
 
 [!INCLUDE [Adopt new habits](adopt-habit-building.md)]
 
-[!INCLUDE [Playbooks about habits](adopt-habit-playbooks.md)]
+[!INCLUDE [Adopt habit playbooks](adopt-habit-playbooks.md)]
