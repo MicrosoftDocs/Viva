@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title: Manager insights documentation # < 60 chars
-summary: Learn what Manager insights are and how to use them to discover how your team’s collaboration effectiveness and employee experience. # < 160 chars
+summary: Learn how to use manager insights to discover how your team’s collaboration effectiveness and employee experience. # < 160 chars
 brand: workplace-analytics
 
 metadata:
@@ -28,6 +28,6 @@ highlightedContent:
     - title: Plans
       itemType: how-to-guide
       url: /workplace-analytics/tutorials/solutionsv2-intro
-      - title: Frequently asked questions
+    - title: Frequently asked questions
       itemType: reference
       url: /faqs
