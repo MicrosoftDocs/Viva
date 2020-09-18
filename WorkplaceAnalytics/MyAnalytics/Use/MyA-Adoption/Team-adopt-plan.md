@@ -115,7 +115,7 @@ These materials provide guidance for using the following six program components:
 * [Kickoff meeting](Team-adopt-implement.md#kickoff-meeting)
 * [Surveys](Team-adopt-plan.md#create-surveys)
 * [Learning modules](Adopt-Learning-modules.md)
-* [Habit playbooks](Adopt-Habit-playbooks.md)
+* [Habit playbooks](adopt-habit-playbooks.md)
 * [Check-ins](Team-adopt-implement.md#check-ins)
 * [Collaboration channel](Team-adopt-plan.md#establish-a-collaboration-channel)
 
