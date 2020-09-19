@@ -1,6 +1,6 @@
 ---
 
-title: Organizational network analysis (ONA) person-to-person queries 
+title: Organizational network analysis person-to-person queries 
 description: Describes how to use Organizational network analysis (ONA) person-to-person queries in Workplace Analytics to determine the "strong ties" and "diverse ties" metrics that measure ties between individuals in your organization
 author: paul9955
 ms.author: v-pausch
@@ -11,29 +11,22 @@ ms.prod: wpa
 
 # Organizational network analysis (ONA) person-to-person queries
 
-Measuring the quality, or strength, of an employee’s connections can help improve organizational functioning in various ways. For example, a manager’s effectiveness improves if the manager has high network strength. Such managers have tight connections with their direct reports, they tend to have strong peer connections, and they have the right kind of connections outside the team. Well-connected managers know how to point inquisitive employees to the right people in their network, and makes it more likely that these employees become star performers, which of course reflects positively on the manager. 
+Successful employees and teams use their networks to get work done effectively. Measuring network attributes tells us what network resources employees can access. Network size is just one attribute of a collaborative network. Network connections have other qualities which tell us more about the type of working relationship and what benefit it might present to the employee and team.
 
-As for non-managers, the most effective employees also excel in part because of strong and rich networks. When high performers have broader internal networks, it indicates that they have relationships across a more diverse set of people, which promotes system-level thinking and problem solving. 
+Workplace Analytics can qualify a network connection between two people as a **strong tie**, **diverse tie**, or neither.
 
-The ONA person-to-person query measures the strength of connections through these two metrics:
+A generic network tie is defined liberally: two people who have shared at least two meaningful interactions in the last four weeks, where a meaningful interaction includes eight or fewer participants.
 
- * The **Strong ties** metric measures how many strong and tight engagements you've had, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with the people in your [common network](../use/glossary.md#common-network). 
- 
-   For example, a "strong tie" between a manager and a direct report reflects the amount of direct collaboration they have over time and the amount of interactions they have with the same set of people who exist in their networks. Typically, a person has only a few strong ties because strong ties take more effort to maintain.
+Some network connections represent significantly more close collaboration than the generic minimum of just two meaningful interactions. When a network connection represents significantly more close collaboration time, Workplace Analytics will classify it as either a **strong tie** or as a **diverse tie**.
 
-   See [Examples of Strong ties and Diverse ties](#examples-of-strong-ties-and-diverse-ties).
- 
- * The **Diverse ties** metric measures how varied and how broad your connections are, based on the amount of direct collaboration you have over time AND the amount of collaboration you have with people NOT in your [common network](../use/glossary.md#common-network). 
- 
-   Diverse ties present good sources of fresh and varied information from across the company, especially because access to a set of completely different people in your networks increases your access to new information. Because you need not have much direct collaboration with your diverse ties, it’s easy to have more diverse ties than strong ties. 
-   
-   Diverse ties not only expose you to varied information, they also help the dissemination of such new information through the network.
+The difference between strong ties and diverse ties is determined by how many other network connections the two individuals have in common. 
 
-   See [Examples of Strong ties and Diverse ties](#examples-of-strong-ties-and-diverse-ties).
+If the two people have **many** network connections in common, it is considered a **strong tie**. Strong ties typically indicate shared membership in a workgroup or team. Groups of employees with many strong ties often represent highly cohesive units.
+
+If the two people have **few** network connections in common, it is considered a **diverse tie**. Although the two people work closely with each other, they do not typically operate in the same circles. Groups of employees with many diverse ties often represent teams with high innovative potential, as they are exposed to lots of information outside of their shared context.
 
 > [!Note] 
-> * Strong ties and diverse ties are computed and reported for licensed users only.
-> * Strong ties pay special attention to meeting-based collaboration. This is because meetings are considered more important than email for establishing a true connection. Similarly, for email-based collaboration, bidirectional emails are considered more important than one-way emails.
+> When Workplace Analytics evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two measured employees.
 
 ## Run a query to determine strong ties and Diverse ties
 
