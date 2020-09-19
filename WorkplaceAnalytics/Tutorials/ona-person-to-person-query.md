@@ -11,11 +11,11 @@ ms.prod: wpa
 
 # Organizational network analysis (ONA) person-to-person queries
 
-Successful employees and teams use their networks to get work done effectively. Measuring network attributes tells us what network resources employees can access. Network size is just one attribute of a collaborative network. Network connections have other qualities which tell us more about the type of working relationship and what benefit it might present to the employee and team.
+Successful employees and teams use their networks to get work done effectively. Measuring network attributes tells us what network resources employees can access. Network size is just one attribute of a collaborative network. Network connections have other qualities that tell us more about the type of working relationship and what benefit it might present to the employee and team.
 
-Workplace Analytics can qualify a network connection between two people as a **strong tie**, **diverse tie**, or neither.
+Workplace Analytics can qualify a network connection between two people as a **strong tie**, a **diverse tie**, or neither.
 
-A generic network tie is defined liberally: two people who have shared at least two meaningful interactions in the last four weeks, where a meaningful interaction includes eight or fewer participants.
+A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](../use/glossary.md#meaningful-interaction) in the last four weeks.
 
 Some network connections represent significantly more close collaboration than the generic minimum of just two meaningful interactions. When a network connection represents significantly more close collaboration time, Workplace Analytics will classify it as either a **strong tie** or as a **diverse tie**.
 
@@ -26,7 +26,7 @@ If the two people have **many** network connections in common, it is considered 
 If the two people have **few** network connections in common, it is considered a **diverse tie**. Although the two people work closely with each other, they do not typically operate in the same circles. Groups of employees with many diverse ties often represent teams with high innovative potential, as they are exposed to lots of information outside of their shared context.
 
 > [!Note] 
-> When Workplace Analytics evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two measured employees.
+> When Workplace Analytics evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](../use/glossary.md#measured-employees).
 
 ## Run a query to determine strong ties and Diverse ties
 
