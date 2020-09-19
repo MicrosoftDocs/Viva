@@ -15,7 +15,7 @@ Successful employees and teams use their networks to get work done effectively. 
 
 Workplace Analytics can qualify a network connection between two people as a **strong tie**, a **diverse tie**, or neither.
 
-A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](../use/glossary.md#meaningful-interaction) in the last four weeks.
+A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-definition) in the last four weeks.
 
 Some network connections represent significantly more close collaboration than the generic minimum of just two meaningful interactions. When a network connection represents significantly more close collaboration time, Workplace Analytics will classify it as either a **strong tie** or as a **diverse tie**.
 
