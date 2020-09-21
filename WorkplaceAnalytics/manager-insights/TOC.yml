@@ -5,6 +5,7 @@
 - name: Best practices
   href: ./gm-best-practices.md
 - name: Plans
-  href: ~//tutorials/solutionsv2-intro.md
+  href: ../tutorials/solutionsv2-intro.md
 - name: Frequently asked questions
   href: ./faqs.md
+  
