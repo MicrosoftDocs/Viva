@@ -117,12 +117,12 @@ Habit playbooks are examples of how to use MyAnalytics to turn specific behavior
 
 Each habit playbook provides a suggested behavior to turn into a habit, an explanation of why the habit is important, and a goal-oriented plan using MyAnalytics to build the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the playbook goals. The experiences and results make for a great check-in-meeting topic, too.
 
-* [Habit Playbook Examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
+* [Habit playbook examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
 
   > [!Note]
-  > These playbooks can also be found in the [Learning modules](Adopt-Learning-Modules.md).
+  > These playbooks can also be found in the [Learning modules](adopt-learning-modules.md).
 
-* [Habit Playbook Template](Habit-playbook-template.pptx). Create your own custom playbooks for your team using the template provided.
+* [Habit playbook template](Habit-playbook-template.pptx). Create your own custom playbooks for your team using the template provided.
 
 ## Check-ins
 
@@ -154,4 +154,4 @@ When you or a change agent identify a program participant who is resisting chang
 * **Forget efficiency:** Motivating change requires unhurried, face-to-face, one-on-one conversations.
 * **Focus on listening:** Make everyone feel understood. Listen more than you speak and try to repeat back what you have heard as much as possible to reveal the root of resistance and develop a solution.
 * **Be open to change yourself:** Have an open attitude and be ready to learn something new and, if necessary, modify the program plan.
-* **Have multiple conversations:** In the first conversation, listen and diagnose the roots of the resistance. In the second conversation, your goal is to make clear that you have reflected on what you heard; to outline what will or will not be different in your approach to the change based on that conversation; and to explain why. Even if you do not change your overall plan, anyone who truly listens to opposition will have their thinking changed in some way. ([Overcome Resistance to Change with Two Conversations](https://hbr.org/2017/05/overcome-resistance-to-change-with-two-conversations))
+* **Have multiple conversations:** In the first conversation, listen and diagnose the roots of the resistance. In the second conversation, your goal is to make clear that you have reflected on what you heard; to outline what will or will not be different in your approach to the change based on that conversation; and to explain why. Even if you do not change your overall plan, anyone who truly listens to opposition will have their thinking changed in some way. ([Overcome Resistance to Change with Two Conversations](https://hbr.org/2017/05/overcome-resistance-to-change-with-two-conversations).)

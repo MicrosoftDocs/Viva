@@ -1,8 +1,5 @@
 ---
-# Metadata Sample
-# required metadata
-
-title: Disable the Insights Outlook add-in
+title: Disabling the Insights Outlook add-in
 description: How to disable the Insights Outlook add-in at the organizational level 
 author: paul9955
 ms.author: v-pausch
@@ -26,6 +23,6 @@ You can use the following steps to disable the Insights Outlook add-in for your 
 
 This disables the add-in for all licensed users in your organization.
 
-## Related topics
+## Related topic
 
 [Opt out of MyAnalytics](../overview/mya-faq.md#opt-out)
