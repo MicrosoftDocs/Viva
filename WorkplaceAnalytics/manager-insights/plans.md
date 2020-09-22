@@ -58,7 +58,7 @@ During a plan, these participants receive or can view the following items.
 The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan. This section contains information such as recommended habits and the participant's progress against the plan goals, similar to the following:
 
 ![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
- 
+
 ### Digest
 
 All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
@@ -69,39 +69,14 @@ All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-
 
 MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them.
 
-### Plan-only inline suggestions
+### Inline suggestions
 
-Many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)). However, some apply only to participants of an active plan. For example, for an active Wellbeing plan, participants might see the following inline suggestion.
+Some inline suggestion apply only to participants of an active plan. For example, the Improve wellbeing suggestion applies only to participants in an active Wellbeing plan. The remaining suggestions in the following table are available to all MyAnalytics users in your organization, whether they are participating in an active plan or not.
 
-| Where it shows up  | What it says | How it helps  |
-| :------ |-------|---------|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** &nbsp; | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
-
-### Broadly available inline suggestions
-
-The following inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in an active plan.
-
-#### Get more time to focus
-
-| Where it shows up  | What it says | How it helps  |
-| :------ |-------|---------|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Reminds you (the meeting attendee who has a heavy meeting load) to book time for focused work|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |This meeting conflicts with your scheduled focus time. Do you want to move your focus block? **See available times** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |Helps protect a focus time block by suggesting that you move a booked focus session to another time when a meeting request conflicts with it.|
-
-#### Stay up-to-date with important relationships
-
-| Where it shows up | What it says | How it helps |
-| :------ |-------|---------|
-| Reading pane (email) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | You may have outstanding tasks for sender. Would you like to review now? **See my tasks**   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Reminds you that there might be outstanding task items for the sender. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  |
-
-#### Reduce after-hours work and team impact
-
-| Where it shows up  | What it says | How it helps |
-| :------ |-------|---------|
-|Email compose &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | There are some open times during your working hours to catch up on email. **Book time**  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Suggests that you book time during the day to do email instead of catching up after hours.  &nbsp; &nbsp; &nbsp;  &nbsp;  |
-
-#### Build better collaboration habits
-
-| Where it shows up  | What it says | How it helps |
-| :------ |-------|---------|
-|Meeting compose &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Suggests that you shorten hour-long meetings to 45 minutes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| Inline suggestion | Where it shows up  | What it says | How it helps  |
+| ------ |------ |-------|---------|
+|Improve wellbeing  |Reading pane (meeting invitation)   | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times**  | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. |
+|Get more time to focus |Reading pane (meeting invitation) |<ul><li>Looks like you have a lot of meetings this/next week. Would you like to reserve some time for focused work? **See available times** </li><li>This meeting conflicts with your scheduled focus time. Do you want to move your focus block? **See available times** |<ul><li>Reminds you (the meeting attendee who has a heavy meeting load) to book time for focused work. </li><li>Helps protect a focus time block by suggesting that you move a booked focus session to another time when a meeting request conflicts with it.|
+| Stay up-to-date with important relationships | Reading pane (email)  | You may have outstanding tasks for sender. Would you like to review now? **See my tasks**  | Reminds you that there might be outstanding task items for the sender. |
+| Reduce after-hours work and team impact |Email compose   | There are some open times during your working hours to catch up on email. **Book time** | Suggests that you book time during the day to do email instead of catching up after hours. |
+|Build better collaboration habits |Meeting compose | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting**  |Suggests that you shorten hour-long meetings to 45 minutes. |
