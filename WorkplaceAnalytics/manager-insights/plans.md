@@ -11,18 +11,16 @@ ms.prod: wpa
 
 # Workplace Analytics plans for managers
 
-By combining the capabilities of Workplace Analytics and MyAnalytics, plans can help you transform insights from Workplace Analytics into targeted change plans across your team. Targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals.
-
-You can do the following with plans:
-
-1. Set up 12-week plans for the identified groups, who experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
-2. Measure the progress of the plan while it is underway, and the ROI of the plan after it ends.
-
-The following plans are currently available:
+By combining the capabilities of Workplace Analytics and MyAnalytics, plans can help you transform insights from Workplace Analytics into targeted change plans across your team. The following targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals.
 
 * **Focus** - Help team members get more time to do deep work and reclaim their calendar for work that matters most.
 * **Collaboration** - Help team members reduce the number of excess meetings that the group schedules.
 * **Wellbeing** - Help team members unwind and protect their personal time by disconnecting in their off hours.
+
+You can do the following with plans:
+
+1. Launch a 12-week plan for the identified group, who experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
+2. Track the progress of the plan while it is underway, and the ROI of the plan after it ends.
 
 ## Launch a plan
 
