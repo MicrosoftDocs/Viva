@@ -1,6 +1,6 @@
 ---
 
-title: Best practices for cross-group collaboration
+title: Best practices for collaboration across groups
 description: Workplace Analytics shares best practices with managers about the importance of cross-group collaboration
 author: madehmer
 ms.author: v-mideh
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for cross-group collaboration
+# Best practices for collaboration across groups
 
 Connecting employees across units creates agile innovation by helping the company leverage benefits of scale, cross-pollinate ideas, and integrate different perspectives.
 
