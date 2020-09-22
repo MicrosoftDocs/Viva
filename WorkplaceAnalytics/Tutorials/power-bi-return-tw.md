@@ -38,6 +38,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
   * **Worksite location** - Represents the most recent worksite location (or projected location) for each employee.
   * **Team or Organization** - Each employee’s team assignment that reflects the organizational level at which decisions for seat allocation can be made for each worksite.
 
+## Video: Dashboard setup
+
+<iframe src="https://player.vimeo.com/video/460378380" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
