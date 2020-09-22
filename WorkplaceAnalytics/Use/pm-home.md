@@ -22,9 +22,13 @@ Use the following available information to lead your team toward more effective 
 
 * **Team effectiveness** - Nimble companies can more efficiently adapt to market changes and gain a true competitive advantage. The insights in this section show if your team has time to collaborate for rapid innovation, and to focus and produce higher quality work.
 
-* **My team's data** - Insights are scoped to your teams data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
+* **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
 
 ![People Manager Home page](../images/wpa/use/pm-home.png)
+
+## Manager access
+
+To grant managers access to these Manager insights, your Workplace Analytics admin must add them as managers in [Manager settings](../use/settings.md#manager-settings).
 
 ## About the insights
 
@@ -59,46 +63,6 @@ To learn more about differential privacy, see [Differential Privacy in Workplace
 
 As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
 
-## Frequently asked questions
+## Related topic
 
-### Q1 Which roles have access to this manager insights page?
-
-Only managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see insights about their teams.
-
-### Q2 Who is included as a measured employee?
-
-Measured employees include those who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the Admin.
-
-### Q3 Why is the number of measured employees different from my current number of direct and indirect reports?
-
-The number of measured employees might be different because:
-
-* One or more of the employees on your team are not assigned a Workplace Analytics license.
-* Or the latest available HR data uploaded into Workplace Analytics did not include the latest hierarchy or employee data.
-
-### Q4 Can I configure the time period or thresholds for the insights?
-
-Currently, you cannot configure settings for these insights. The current time period is the past six months.
-
-### Q5 Do the "Teams like yours" metrics account for organizational averages and minimum group size settings?
-
-Teams like yours metrics use other teams in the same hierarchy that report to the manager's manager. If the team structure does not meet the minimum group size, then the company's average is not used or shown in the metrics.  
-
-### Q6 Can I see insights for both direct and indirect reports?
-
-While this capability is currently unavailable, it is planned for a future release.
-
-### Q7 Why are some employees in my team not eligible to enroll in plans?
-
-Employees might not be eligible for a plan if:
-
-* They do not have MyAnalytics enabled.
-* Are already enrolled in an existing plan.
-* The team does not meet the minimum group size limit.
-
-## Related topics
-
-* [User roles in Workplace Analytics](user-roles.md)
-* [Explore the metrics](explore-intro.md)
-* [Plans](../tutorials/solutionsv2-intro.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Frequently asked questions about Manager insights](insight-faqs.md)

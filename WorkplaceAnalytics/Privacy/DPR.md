@@ -3,7 +3,7 @@
 title: Pseudonymized Data and Workplace Analytics
 description: Pseudonymized data in Workplace Analytics
 author: rodonahu
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

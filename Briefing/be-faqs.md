@@ -3,10 +3,10 @@
 title: Briefing FAQs
 description: Answers to the most frequently asked questions about the Briefing email
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 # Frequently asked questions for the Briefing email

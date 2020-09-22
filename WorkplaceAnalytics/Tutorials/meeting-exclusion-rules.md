@@ -3,7 +3,7 @@
 title: Meeting exclusion rules in Workplace Analytics -- walkthroughs
 description: Meeting exclusion rules -- Introduction and walkthrough   
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

@@ -6,7 +6,7 @@ author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # MyAnalytics data use protects privacy
