@@ -35,7 +35,7 @@ Insights are scoped to your team's data, including employees who you directly or
 
 ## About the insights
 
-The following describes how your team metrics are calculated to support the behavioral insights for each of the business insight questions. The metrics for **Teams like yours** shows benchmark averages about similar groups within the organization to compare with your team's metrics. These insights show where your team is excelling and where you could lead change.
+The following describes how your team metrics are calculated to support the behavioral insights for each of the business insight questions. With **Teams like yours**, you get comparable data from within your organization for context into broader organizational patterns. Today, "Team like yours" data is calculated as averages from peer manager teams. If you have only one peer team or no peer team, the company average is shown instead.
 
 |Business insight question |Team metric description |Metric average for your team and "teams like yours" |
 |--------------------------|-------------------|-----------------|

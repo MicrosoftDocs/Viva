@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Manager insights
 
-As a people manager, you can discover key insights about your team’s collaboration effectiveness and employee experience.
+Microsoft Workplace Analytics has unveiled a new dashboard experience for people managers (with 9+ team sizes) like you to discover key insights about your team’s collaboration effectiveness and employee experience.
 
 ![Manager insights](./images/manager-insights.png)
 
