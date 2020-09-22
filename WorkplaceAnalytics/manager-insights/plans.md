@@ -19,8 +19,8 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans can 
 
 You can do the following with plans:
 
-1. Launch a 12-week plan for the identified group, who experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
-2. Track the progress of the plan while it is underway, and the ROI of the plan after it ends.
+1. [Launch a plan](#launch-a-plan) for the identified group, who experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
+2. [Manage and track a plan's progress](#manage-and-track-plans) while it is underway, and the ROI of the plan after it ends.
 
 ## Launch a plan
 
