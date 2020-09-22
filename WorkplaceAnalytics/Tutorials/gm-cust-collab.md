@@ -3,7 +3,7 @@
 title: Best practices for collaborating with customers
 description: Workplace Analytics shares best practices for customer collaboration
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

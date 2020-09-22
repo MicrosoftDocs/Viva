@@ -3,7 +3,7 @@
 title: Differential privacy in Workplace Analytics  
 description: Learn about how Workplace Analytics uses Differential Privacy technology for data analysis
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa

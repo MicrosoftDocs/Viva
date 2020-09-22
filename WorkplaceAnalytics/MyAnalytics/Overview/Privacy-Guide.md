@@ -1,20 +1,20 @@
 ---
 
-title: Privacy guide for MyAnalytics admins
-description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
+title: MyAnalytics privacy guide
+description: Overview of MyAnalytics privacy features, including information about de-identification and privacy of data, minimum group size for reporting, admin choices, default settings, and users in sensitive roles
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 search.appverid:
 - MET150
-ms.prod: mya
+ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
 
-# Privacy guide for MyAnalytics admins
+# Privacy guide for MyAnalytics
 
 By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 

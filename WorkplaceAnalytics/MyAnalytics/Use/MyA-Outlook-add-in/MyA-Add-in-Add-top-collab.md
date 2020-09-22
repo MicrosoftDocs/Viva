@@ -6,11 +6,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Add top collaborators in MyAnalytics
 description: Use this card to add a "top collaborator" to your Important people list in MyAnalytics 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Add top collaborator card 

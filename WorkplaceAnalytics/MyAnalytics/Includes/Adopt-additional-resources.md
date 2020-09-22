@@ -5,11 +5,11 @@
 title: Additional resources for MyAnalytics
 description: Additional resources to help MyAnalytics users get started on reaching their personal work-life balance goals
 author: paul9955
-ms.author: v-midehm
+ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Additional resources

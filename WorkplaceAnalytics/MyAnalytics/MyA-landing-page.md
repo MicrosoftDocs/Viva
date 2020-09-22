@@ -2,10 +2,10 @@
 title: MyAnalytics introduction
 description: MyAnalytics introduction with links to further information 
 author: paul9955
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 
@@ -29,4 +29,4 @@ MyAnalytics provides insights into two of the key factors in personal productivi
 * [**MyAnalytics adoption materials**](../myanalytics/use/MyA-Adoption/Adopt-myanalytics.md) - These adoption materials help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable.
     * [Individual adoption](../myanalytics/use/MyA-Adoption/Indiv-adopt-get-started.md) - Individuals learn how to use MyAnalytics to build and sustain healthier work patterns.
     * [Team adoption](../myanalytics/use/MyA-Adoption/Team-adopt-intro.md) - Team members learn how to set and track goals and build new habits to change the way the team collaborates.
-    * [Habit resources](../myanalytics/use/MyA-Adoption/Adopt-Learning-Modules.md) - The learning modules and habit playbooks in this section help you build positive new habits and show you how to use MyAnalytics more effectively.
+    * [Habit resources](../myanalytics/use/MyA-Adoption/adopt-learning-modules.md) - The learning modules and habit playbooks in this section help you build positive new habits and show you how to use MyAnalytics more effectively.
