@@ -44,6 +44,8 @@ In **Plans** > **Manage**, you can select to view **Drafts**, **Active**, or **C
 
 In **Plans** > **Track** > **Progress for**, you can select an active or a completed plan to measure progress of a target goal or ROI for the plan.
 
+![Track a plan](./images/track-plan.png)
+
 ## Plan participants' experience
 
 The actual work of change is done by your team through MyAnalytics. The group or team who you are included in a plan have the opportunity to change workplace habits for the better.

@@ -8,7 +8,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics manager insights
+# Workplace Analytics insights for managers
 
 > [!Note]
 > Only people managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see their team's data in Workplace Analytics.
