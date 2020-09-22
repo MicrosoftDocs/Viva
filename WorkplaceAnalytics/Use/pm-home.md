@@ -1,5 +1,4 @@
 ---
-
 title: Workplace Analytics insights for managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
@@ -24,7 +23,7 @@ Use the following available information to lead your team toward more effective 
 
 * **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
 
-![People Manager Home page](../images/wpa/use/pm-home.png)
+![People Manager Home page](../images/wpa/use/manager-insights.png)
 
 ## Manager access
 
@@ -61,7 +60,7 @@ To learn more about differential privacy, see [Differential Privacy in Workplace
 
 ## View recommended plan
 
-As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
+As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. See [Launch a plan](../manager-insights/plans.md#launch-a-plan).
 
 ## Related topic
 

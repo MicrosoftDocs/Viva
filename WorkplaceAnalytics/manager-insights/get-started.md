@@ -52,10 +52,3 @@ The following describes how your team metrics are calculated to support the beha
 ## Tell us what you think
 
 After using the new Manger insights, use the thumbs up and down icons on the dashboard to send us your feedback.
-
-## Related topics
-
-* [User roles in Workplace Analytics](../use/user-roles.md)
-* [Explore the metrics](../use/explore-intro.md)
-* [Plans](../tutorials/solutionsv2-intro.md)
-* [Metric descriptions for Workplace Analytics](../use/metric-definitions.md)

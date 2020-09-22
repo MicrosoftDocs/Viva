@@ -63,7 +63,7 @@ Yes, you can share these insights with your team to generate a conversation and 
 
 ##### Q12 What is a plan?
 
-By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your team. See [Plans](../plans-intro.md) to learn more.
+By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your team. See [Plans](./plans.md) to learn more.
 
 ##### Q13 Why are some employees in my team not eligible to enroll in plans?
 
@@ -72,9 +72,3 @@ Employees might not be eligible for a plan if:
 * They do not have MyAnalytics enabled.
 * Are already enrolled in an existing plan.
 * The team does not meet the minimum group size limit.
-
-## Related topics
-
-* [User roles in Workplace Analytics](../use/user-roles.md)
-* [Explore the metrics](../use/explore-intro.md)
-* [Metric descriptions for Workplace Analytics](../use/metric-definitions.md)

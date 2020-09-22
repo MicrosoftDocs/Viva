@@ -56,8 +56,8 @@ To learn more about differential privacy, see [Differential Privacy in Workplace
 
 ## View a recommended plan
 
-As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
+As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. See [Launch a plan](./plans.md#launch-a-plan) for details.
 
 The following is an example of a recommended plan to improve employee wellbeing by reducing after-hours work.
 
-![Recommended plan to improve employee wellbeing](./images/start-plan.png)
+![Recommended plan to improve employee wellbeing](./images/wellbeing-plan.png)
