@@ -31,7 +31,7 @@ Workplace Analytics currently offers the following plans:
 1. In an applicable insight, such as **After-hours**, **Long and Large meetings**, or **Focus Insights**, select **View recommended plan**.
 2. If prompted, select **Validate** to confirm the team meets the minimum group size.
 3. Optionally, you can select the **edit** (pencil) icon next to **Plan name**, **Plan duration**, and **Plan target** to change the details for this plan.
-4. Select **Create plan** to start the selected 12-week plan. Or you can select **Save as draft** to start the plan at a later date. The following shows an example Collaboration plan.
+4. Select **Create plan** to start the selected plan. Or you can select **Save as draft** to start the plan at a later date. The following shows an example Collaboration plan.
 
     ![Create plan](./images/create-plan.png)
 
