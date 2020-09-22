@@ -106,7 +106,7 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 Configure MyAnalytics access settings for a user with the following PowerShell cmdlet:
 
 ```powershell
-Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
+Set-MyAnalyticsFeatureConfig –Identity <string> [PrivacyMode <string[]>]
 ```
 
 Parameter   |   Required   |   Description   | Default value
@@ -119,10 +119,10 @@ PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's 
   
 ### Confirm MyAnalytics access for a user
 
-Use the following to confirm if a user has access to MyAnalytics (the value for PrivacyMode):
+Use the following to confirm whether a user has access to MyAnalytics (the value for PrivacyMode):
 
 ```powershell
-Get-UserAnalyticsConfig –Identity <string>
+Get-MyAnalyticsFeatureConfig –Identity <string>
 ```
 
 Parameter   |   Required   |    Description    |   Default value
@@ -155,8 +155,8 @@ Use the following steps in the [Exchange Online PowerShell V2 module](https://do
    $user.Userprincipalname
    $upn=$user.UserPrincipalName
 
-   Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
-   Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName
+   Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
+   Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName
    }
    ```
 
