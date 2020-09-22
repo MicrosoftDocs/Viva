@@ -59,7 +59,7 @@ The following columns appear, from left to right, in the query results for ONA p
 
 ### The first columns describe the initiator of the tie
 
-![ONA p2p query](../images/wpa/tutorials/columns-1-4.png)
+![first columns -- A through D](../images/wpa/tutorials/columns-1-4.png)
 
 _Query results example: Columns A through D_
 
@@ -73,7 +73,7 @@ _Query results example: Columns A through D_
 
 ### The next columns describe the other participant in the tie    
 
-![ONA p2p query](../images/wpa/tutorials/columns-5-8.png)
+![next columns -- E through H](../images/wpa/tutorials/columns-5-8.png)
 
 _Query results example: Columns E through H_
 
@@ -87,7 +87,7 @@ _Query results example: Columns E through H_
 
 ### The last columns give the results
 
-![ONA p2p query](../images/wpa/tutorials/columns-9-13.png)
+![last columns -- I through M](../images/wpa/tutorials/columns-9-13.png)
 
 _Query results example: Columns I through M_
 
@@ -115,7 +115,7 @@ Two employees have a connection (or "tie") that this query can report on if they
 
 The **Select filters** section offers two identical filters, one for the left side of the tie (the tie origin) and another for the right side of the tie (the tie destination). Both filters are optional. 
 
-![ONA p2p query](../images/wpa/tutorials/ona-p2p-filters.png)
+![Select filters area](../images/wpa/tutorials/ona-p2p-filters.png)
 
 If you specify only the tie-origin filter, the query results will include all rows that match the tie-origin PersonId that you specifed in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the destination of the tie. 
 
