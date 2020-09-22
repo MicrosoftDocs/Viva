@@ -59,7 +59,7 @@ The following columns appear, from left to right, in the query results for ONA p
 
 ### The first columns describe the initiator of the tie
 
-![ONA p2p query](../images/wpa/tutorials/columns-1-4.png)
+![first columns -- A through D](../images/wpa/tutorials/columns-1-4.png)
 
 _Query results example: Columns A through D_
 
@@ -73,7 +73,7 @@ _Query results example: Columns A through D_
 
 ### The next columns describe the other participant in the tie    
 
-![ONA p2p query](../images/wpa/tutorials/columns-5-8.png)
+![next columns -- E through H](../images/wpa/tutorials/columns-5-8.png)
 
 _Query results example: Columns E through H_
 
@@ -87,7 +87,7 @@ _Query results example: Columns E through H_
 
 ### The last columns give the results
 
-![ONA p2p query](../images/wpa/tutorials/columns-9-13.png)
+![last columns -- I through M](../images/wpa/tutorials/columns-9-13.png)
 
 _Query results example: Columns I through M_
 
@@ -115,7 +115,7 @@ Two employees have a connection (or "tie") that this query can report on if they
 
 The **Select filters** section offers two identical filters, one for the left side of the tie (the tie origin) and another for the right side of the tie (the tie destination). Both filters are optional. 
 
-![ONA p2p query](../images/wpa/tutorials/ona-p2p-filters.png)
+![Select filters area](../images/wpa/tutorials/ona-p2p-filters.png)
 
 If you specify only the tie-origin filter, the query results will include all rows that match the tie-origin PersonId that you specifed in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the destination of the tie. 
 
@@ -143,7 +143,7 @@ The following questions and answers refer to metrics; you can find their definit
 
 A1. Strong ties takes the network commonality that exists between the two people into account, a situation in which both people are investing time together or enabling other forms of bonding. Strong ties also gives more weight to meetings-based collaboration than to email. This is because meetings are more inter-personal in nature and enable direct person-to-person engagement, which results in a formalized engagement. Email-based collaboration doesn't translate into such an interpersonal engagement. 
 
-Internal network size simply means the number of connections a person has within the company, based on the number of meaningful interactions the person has with their connections. Strong ties means the number of tight-knit, engaged connections a person has within the company, based on the time that the person invested with their connections. 
+Internal network size simply means the number of connections a person has within the company, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-definition) the person has with their connections. Strong ties means the number of tight-knit, engaged connections a person has within the company, based on the time that the person invested with their connections. 
 
 In summary: Strong ties differs from Internal network size in that they reflect the number of a person's connections based on the quality of the engagement that exists between two people.
 
@@ -161,7 +161,7 @@ A3. Strong ties currently does not consider connections that a person has outsid
 
 A4. Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exists between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their common network has minimal overlap. 
 
-In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of meaningful interactions the person has with their connection. This metric quantifies connections at the organization attribute level. 
+In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-definition) the person has with their connection. This metric quantifies connections at the organization attribute level. 
 
 Therefore, unlike Networking outside organization, which returns connections only at the organization attribute level (a very high level), Diverse ties returns the number of connections based on the _quality_ of the engagement and the _variety_ of information that can potentially be conveyed through the connection. Also, Diverse ties can span any organizational attribute, which lets you more flexibly locate such ties anywhere in the company.
 
