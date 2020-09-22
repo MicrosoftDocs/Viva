@@ -45,7 +45,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 
 1. After both queries successfully run, open your existing Business continuity dashboard in Power BI Desktop.
 2. In **Transform data**, select **Edit parameters**.
-3. Replace the existing URLs for Business continuity and Hourly collaboration query URLs with the new query URLs, and then select **OK**. 
+3. Replace the existing URLs for Business continuity and Hourly collaboration query URLs with the new query URLs, and then select **OK**.
 4. A best practice that reduces future query processing time is to turn off the auto-refresh or delete the preexisting queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
 ## Video: Dashboard setup
