@@ -3,7 +3,7 @@
 title: Introduction to assigning licenses for Workplace Analytics users
 description: Assign Workplace Analytics licenses for population in scope for analysis
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:

@@ -5,7 +5,7 @@
 title: CRM queries in Workplace Analytics 
 description: Describes how to use Queries to analyze CRM data in Workplace Analytics 
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

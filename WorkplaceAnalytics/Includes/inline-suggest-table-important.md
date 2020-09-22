@@ -5,7 +5,7 @@
 title: Inline suggestions about important contacts
 description: Table of inline suggestions about important contacts 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

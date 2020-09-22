@@ -3,7 +3,7 @@
 title: Workplace Analytics CRM data
 description: What is available on the CRM data sources page in Workplace Analytics 
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:

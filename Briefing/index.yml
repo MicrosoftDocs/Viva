@@ -1,0 +1,36 @@
+### YamlMime:Hub
+
+title: Briefing email documentation # < 60 chars
+summary: Learn what the Briefing email is and how you can use it to prepare for today's meetings and related documents and tasks, and help get your work done. # < 160 chars
+brand: workplace-analytics
+
+metadata:
+  title: Briefing email documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: The Briefing email helps you prepare for your day and keep track of commitments you’ve made in email. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page 
+  author: madehmer 
+  ms.author: v-mideh 
+  ms.date: 09/18/2020 #Required; mm/dd/yyyy format.
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+  items:
+    - title: Introduction
+      itemType: overview # controls the icon image and super-title text
+      url: /briefing/be-overview
+    - title: Keeping data private
+      itemType: learn
+      url: /briefing/be-privacy
+    - title: Configuration
+      itemType: deploy
+      url: /briefing/be-admin
+    - title: Using the Briefing
+      itemType: how-to-guide
+      url: /briefing/be-meetings
+    - title: Briefing rollout
+      itemType: get-started
+      url: /briefing/be-pilot
+    - title: Frequently asked questions
+      itemType: reference
+      url: /briefing/be-faqs

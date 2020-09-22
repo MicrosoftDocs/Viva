@@ -4,10 +4,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Behaviors associated with Workplace Analytics insights
 description: Learn what behaviors are associated with Workplace Analytics insights 
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 # Behaviors associated with Workplace Analytics insights

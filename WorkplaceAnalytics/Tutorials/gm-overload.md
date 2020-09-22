@@ -3,7 +3,7 @@
 title: Best practices for avoiding email overload
 description: Workplace Analytics shares best practices with managers about how to avoid email overload
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

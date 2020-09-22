@@ -5,11 +5,11 @@
 title: Privacy by design
 description: How the Outlook add-in protects data privacy  
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 05/15/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 The Outlook add-in preserves all the data-subject rights afforded by GDPR. The insights you see in the add-in are only available to you. No admin or manager can see these insights. They are computed as needed, from the your email and meeting information, and are never stored outside your mailbox.
