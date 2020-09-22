@@ -13,7 +13,7 @@ author: madehmer
 
 <ul class="panelContent cardsY">
     <li>
-        <a href="../tutorials/gm-coaching.md">
+        <a href="./gm-coaching.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -32,7 +32,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-wellbeing.md">
+        <a href="./gm-wellbeing.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -51,7 +51,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-meetings.md">
+        <a href="./gm-meetings.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -70,7 +70,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-focus.md">
+        <a href="./gm-focus.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -89,7 +89,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-connectedness.md">
+        <a href="./gm-connectedness.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -108,7 +108,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-overload.md">
+        <a href="./gm-overload.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -127,7 +127,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-communication.md">
+        <a href="./gm-communication.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -146,7 +146,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-cgcollaboration.md">
+        <a href="./gm-cgcollaboration.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -165,7 +165,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-influencer.md">
+        <a href="./gm-influencer.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,7 +184,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-cust-collab.md">
+        <a href="./gm-cust-collab.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
