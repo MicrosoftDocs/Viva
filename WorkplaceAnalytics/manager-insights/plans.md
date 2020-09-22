@@ -18,9 +18,7 @@ You can do the following with plans:
 1. Set up 12-week plans for the identified groups, who experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
 2. Measure the progress of the plan while it is underway, and the ROI of the plan after it ends.
 
-## Available Workplace Analytics plans
-
-Workplace Analytics currently offers the following plans:
+The following plans are currently available:
 
 * **Focus** - Help team members get more time to do deep work and reclaim their calendar for work that matters most.
 * **Collaboration** - Help team members reduce the number of excess meetings that the group schedules.
