@@ -202,13 +202,9 @@ A5. If you need nothing more than the number of connections a person has at the 
 
 But if you restrict your query to licensed users, use diverse ties to obtain a more realistic and qualitative view of the variety of connections with potential for diverse or novel information. Diverse ties also allows you to look at connections at any organizational attribute level, which gives you more useful results than Networking outside organization would provide.
 
-<!-- The following is incorrect. Networking outside of company counts the number of unique domains I am networked to. GET METRIC THAT MEASURES TIES OUTSIDE THE COMPANY, NOT DOMAINS. 
-
 **Q6. When should you use "diverse ties" and when "Networking outside company"?**
 
-A6. Diverse ties currently does not consider connections that a person has outside the company. To obtain the number of connections a person has outside the company, you can use Networking outside company.
-
--->
+A6. Diverse ties is internal only: It does not consider connections that a person has outside the company. Networking outside company counts not the number of _ties_ outside the company but rather the number of external _unique domains_ to which you are networked.
 
 ## Related topics
 
