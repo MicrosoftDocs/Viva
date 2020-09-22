@@ -27,19 +27,24 @@ As a program manager schedules a plan, they can choose to let participants recei
 
 The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan. 
 
-If user is part of a plan, there is no change to any of the existing tabs. A new tab called “Team Plans” is added in Dashboard to track plan progres
+If user is part of a plan, there is no change to any of the existing tabs. A new tab called "Team Plans" is added in Dashboard to track plan progress. This added section contains information such as recommended habits and a report on the participant's progress against the plan goals:
 
-This section contains information such as recommended habits and the participant's progress against the plan goals, similar to the following:
-
+<!-- Remove for now
 ![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
- 
+-->
+
+![Participant's dashboard](../images/wpa/tutorials/plans-dashboard.png)
+
 ## Digest
 
 All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
 
 ![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60.png) 
 
-Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, and Collaboration. The focus of the digest shifts from one pattern to the next, week after week. Note that this focus is not affected by a participant's enrollment in a plan. 
+Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, and Collaboration. The subject of the digest shifts from one pattern to the next, week after week. Note that this focus is not affected by a participant's enrollment in a plan. 
+
+> [!Note] 
+> The Focus and Network digest emails contain interactive experiences when they are viewed in particular email client applications. In these cases, the added "Team Plans" tab is not available.
 
 ## MyAnalytics inline suggestions
 
