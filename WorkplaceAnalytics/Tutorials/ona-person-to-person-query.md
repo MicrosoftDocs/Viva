@@ -99,8 +99,8 @@ _Query results example: Columns I through M_
    
    The results for this query type always include the following metrics:
 
-  * **[StrongTieScore](../setup/prepare-organizational-data.md#strong-tie-score-definition)** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. 
-  * **[DiverseTieScore](../setup/prepare-organizational-data.md#diverse-tie-score-definition)** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals. 
+  * **[StrongTieScore](../use/metric-definitions.md#strong-tie-score-definition)** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. 
+  * **[DiverseTieScore](../use/metric-definitions.md#diverse-tie-score-definition)** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals. 
   * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
     * **1:** This row clearly indicates a strong tie &mdash; 20th percentile and above, by strength. 
     * **2:** This row indicates a tie that is significant but less strong: between the 10th and 20th percentiles.
