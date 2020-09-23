@@ -1,5 +1,4 @@
 ---
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Privacy with Workplace Analytics insights
 description: About how Workplace Analytics insights keep data private

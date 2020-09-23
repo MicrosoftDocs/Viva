@@ -1,5 +1,4 @@
 ---
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Introducing Workplace Analytics insights
 description: About Workplace Analytics insights to learn how your organization gets work done

@@ -1,5 +1,4 @@
 ---
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Behaviors associated with Workplace Analytics insights
 description: Learn what behaviors are associated with Workplace Analytics insights 

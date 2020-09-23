@@ -1,5 +1,4 @@
 ---
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Set up Workplace Analytics insights
 description: Steps to set up Workplace Analytics insights

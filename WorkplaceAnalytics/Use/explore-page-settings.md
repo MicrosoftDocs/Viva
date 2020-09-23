@@ -3,7 +3,7 @@
 title: Explore page settings
 description: Describes the page settings for Explore pages in Workplace Analytics
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

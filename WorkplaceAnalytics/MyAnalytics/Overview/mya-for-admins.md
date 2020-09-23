@@ -3,12 +3,12 @@
 title: MyAnalytics for admins
 description: Overview of MyAnalytics for Office 365 admins
 author: madehmer
-ms.author: paul9955
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 search.appverid:
 - MET150
-ms.prod: mya
+ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: admin

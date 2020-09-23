@@ -185,7 +185,7 @@ Do the following to reset your global permissions for the OData feed.
 ## Support
 
 * **Dashboard support** - Contact the Workplace Analytics team member that referred you to this page for support about onboarding, usage, and interpretation of the data contained within the dashboard.
-* **Workplace Analytics support** - Refer to [Workplace Analytics documentation](../index.md) or [Workplace Analytics Support](../overview/getting-support.md) for additional help.
+* **Workplace Analytics support** - Refer to [Workplace Analytics documentation](../index.yml) or [Workplace Analytics Support](../overview/getting-support.md) for additional help.
 * **Support with other Microsoft products and tools** - Support for Power BI and other tools used in the context of this dashboard can be found through each product's associated support channels.
 
 ## Related topic
