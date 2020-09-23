@@ -25,7 +25,7 @@ Research shows that happy employees help boost productivity and reduce turnover.
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
-![Employee experience](../images/wpa/use/employee-exp-1.png)
+![Employee experience](../images/wpa/use/employee-exp.png)
 
 ## Organizational agility
 

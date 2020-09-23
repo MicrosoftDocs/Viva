@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title: Manager insights documentation # < 60 chars
-summary: Learn how to use manager insights to discover how your team’s collaboration effectiveness and employee experience. # < 160 chars
+summary: Learn how to use manager insights to discover your team’s collaboration effectiveness and employee experience. # < 160 chars
 brand: workplace-analytics
 
 metadata:
@@ -11,23 +11,23 @@ metadata:
   ms.topic: hub-page 
   author: madehmer 
   ms.author: v-mideh 
-  ms.date: 09/18/2020 #Required; mm/dd/yyyy format.
+  ms.date: 09/22/2020 #Required; mm/dd/yyyy format.
 
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   items:
     - title: Introduction
       itemType: overview # controls the icon image and super-title text
-      url: /introduction
+      url: /workplace-analytics/manager-insights/introduction
     - title: Get started
       itemType: get-started
-      url: /get-started
+      url: /workplace-analytics/manager-insights/get-started
     - title: Best practices
       itemType: learn
-      url: /gm-best-practices
+      url: /workplace-analytics/manager-insights/gm-best-practices
     - title: Plans
       itemType: how-to-guide
-      url: /workplace-analytics/tutorials/solutionsv2-intro
+      url: /workplace-analytics/manager-insights/plans
     - title: Frequently asked questions
       itemType: reference
-      url: /faqs
+      url: /workplace-analytics/manager-insights/faqs
