@@ -60,42 +60,66 @@ The query results show the quality of the relationship between two specific (but
 
 The following columns appear, from left to right, in the query results for ONA person-to-person queries:
 
-### The first columns describe the initiator of the tie
+### The first two columns identify the initiator of the tie
 
-![first columns -- A through E](../images/wpa/tutorials/columns-1-4.png)
+![first columns -- A and B](../images/wpa/tutorials/columns-a-b.png)
 
-_Query results example: Columns A through E_
+_Query results example: Columns A and B_
 
-The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example, five attributes were selected: 
+The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These first two columns appear automatically:
 
-* TieOrigin_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row.  
+* TieOrigin_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
+
+* TieOrigin_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically. 
+
+### The next columns describe the initiator of the tie
+
+![first columns -- C through E](../images/wpa/tutorials/columns-c-e.png)
+
+_Query results example: Columns C through E_
+
+The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These three columns represent attributes that you selected while building the query: 
+
 * TieOrigin_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs. 
+
 * TieOrigin_[LevelDesignation](../setup/prepare-organizational-data.md#leveldesignation-definition). The employee's level within the organization.    
+
 * TieOrigin_[Organization](../setup/prepare-organizational-data.md#organization-definition). The internal organization that the employee belongs to.  
-* TieOrigin_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. 
 
-### The next columns describe the other participant in the tie    
+### The next two columns identify the other participant in the tie    
 
-![next columns -- F through J](../images/wpa/tutorials/columns-5-8.png)
+![next columns -- F and G](../images/wpa/tutorials/columns-f-g.png)
 
-_Query results example: Columns F through J_
+_Query results example: Columns F and G_
 
-The column names for these attributes are the organizational attribute name prefixed with _TieDestination__. In this example, five attributes were selected:  
+The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These first two columns for this person appear automatically:
 
-* TieDestination_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. 
+* TieDestination_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically. 
+
+* TieDestination_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically. 
+
+### The next columns describe the other participant in the tie   
+
+![next columns -- H through J](../images/wpa/tutorials/columns-h-j.png)
+
+_Query results example: Columns H through J_
+
+The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These three columns represent attributes that you selected while building the query: 
+
 * TieDestination_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs.  
+
 * TieDestination_[LevelDesignation](../setup/prepare-organizational-data.md#leveldesignation-definition). The employee's level within the organization.  
+
 * TieDestination_[Organization](../setup/prepare-organizational-data.md#organization-definition). The internal organization that the employee belongs to.  
-* TieDestination_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. 
 
 ### The last columns give the results
 
-![last columns -- K through O](../images/wpa/tutorials/columns-9-13.png)
+![last columns -- K through O](../images/wpa/tutorials/columns-k-o.png)
 
 _Query results example: Columns K through O_
 
 * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
-* **Metrics.** The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
+* Metrics. The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
    
    The results for this query type always include the following metrics:
 
