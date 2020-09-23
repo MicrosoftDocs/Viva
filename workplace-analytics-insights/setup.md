@@ -22,19 +22,19 @@ You can request access and get more information at [Microsoft Workplace Analytic
 1. Depending on which browser you are using, on the Windows taskbar or Start menu, right-click the browser application and select **Start InPrivate Browsing**, **New InPrivate window**, **New incognito window**, or **New private window**.
 2. Copy the **activation code link** that Microsoft sent you for Workplace Analytics insights, paste it into the URL section of the private or incognito browser window, and then press **Enter** to open the link.
 
-   ![Activation code link](./Images/sign-in.png)
+   ![Activation code link](./images/sign-in.png)
 
 3. In the **Welcome** screen, select **Sign in**.
 4. Enter your Microsoft or Office 365 global admin credentials, and then select **Next**.
 5. In **Where will you be using this**, complete the requested information, and then select **Next**.
 6. In **users**, enter the number of active licenses that correspond with the **activation URL for Microsoft Workplace Analytics insights**, and then select **Next**.
 
-   ![Enter number of users](./Images/number-users.png)
+   ![Enter number of users](./images/number-users.png)
 
 7. In **How do you want to pay**, enter applicable information for your organizational account, and then select **Place order**.
 8. When prompted in the **Confirmation** page, select **assign users to your new subscription**.
 
-   ![Successful activation](./Images/order-success.png)
+   ![Successful activation](./images/order-success.png)
 
 ## Assign licenses
 
@@ -52,7 +52,7 @@ Alternatively, you can sign in as a global admin to Azure Active Directory to as
    3. Select the check box for **Microsoft Workplace Analytics Insights**.
    4. Select **Save changes**, as shown in the following graphic.
 
-   ![Assign one user a license](./Images/assign-one-license.png)
+   ![Assign one user a license](./images/assign-one-license.png)
 
    **For multiple users**:
    1. In **Active users**, select the checkbox next to the users you want to assign licenses.
@@ -60,7 +60,7 @@ Alternatively, you can sign in as a global admin to Azure Active Directory to as
    3. Select **Assign more**, and then select the check box for **Microsoft Workplace Analytics Insights**.
    4. Select **Save changes**.
 
-   ![Assign multiple users licenses](./Images/assign-multiple-licenses.png)
+   ![Assign multiple users licenses](./images/assign-multiple-licenses.png)
 
 2. These licenses are assigned right away to the selected users.
 
@@ -69,16 +69,16 @@ Alternatively, you can sign in as a global admin to Azure Active Directory to as
 1. In **Microsoft Azure Active Directory**, select **Licenses** under **Manage**.
 2. In **Overview**, select **All products**, and then select the check box for **Microsoft Workplace Analytics Insights**.
 
-   ![Assign licenses in Azure Active Directory](../Images/assign-licenses-add.png)
+   ![Assign licenses in Azure Active Directory](./images/assign-licenses-add.png)
 
 3. Select **Assign**, and then select **Users and groups** to open the right pane.
 4. Search for one or more group names, select each group from the list to add it to the **Selected items** list, and then choose **Select**.
 
-   ![Add one or more groups for licensing](./Images/add-group-license.png)
+   ![Add one or more groups for licensing](./images/add-group-license.png)
 
 5. Select **Assignment options** to open the right pane, confirm that both **Microsoft Workplace Analytics Insights** are set **On**, and then select **OK**.
 
-   ![Keep both options set to On](./Images/keep-options-on.png)
+   ![Keep both options set to On](./images/keep-options-on.png)
 
 6. It can take a few minutes up to 24 hours for the license assignments to update to the server, which is based on your specific server settings.
 
