@@ -66,13 +66,13 @@ The following columns appear, from left to right, in the query results for ONA p
 
 _Query results example: Columns A through D_
 
-* **TieOrigin_PersonId.** De-identified ID number for the person represented in that data row.
-* **Person attributes.** Organizational attributes about the person who was identified by TieOrigin_PersonId. These are the organizational attributes that you selected as you built the query. In this example, we selected three such attributes. 
+The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
 
-   The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
-    * _TieOrigin_FunctionType_
-    * _TieOrigin_LevelDesignation_
-    * _TieOrigin_Organization_
+* TieOrigin_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row.  
+* TieOrigin_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition)  
+* TieOrigin_[LevelDesignation](../setup/prepare-organizational-data.md#leveldesignation-definition)  
+* TieOrigin_[Organization](../setup/prepare-organizational-data.md#organization-definition) 
+* TieOrigin_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). You can use this column to determine the existence of Strong ties within a team to understand how cohesive that team is. You can also use it to determine the existence of Diverse ties within a team to understand if there is an opportunity for novel information to flow into the team. 
 
 ### The next columns describe the other participant in the tie    
 
@@ -80,13 +80,13 @@ _Query results example: Columns A through D_
 
 _Query results example: Columns E through H_
 
-* **TieDestination_PersonId.** De-identified ID number for the person with whom the person represented by TieOrigin_PersonId has a strong or diverse tie. 
-* **Person attributes.** Organizational attributes about the person who was identified by TieDestination_PersonId. These are the organizational attributes that you selected as you built the query. In this example, we selected three such attributes. 
+The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
 
-   The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
-    * _TieDestination_FunctionType_
-    * _TieDestination_LevelDesignation_
-    * _TieDestination_Organization_
+* TieDestination_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. 
+* TieDestination_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition)  
+* TieDestination_[LevelDesignation](../setup/prepare-organizational-data.md#leveldesignation-definition)  
+* TieDestination_[Organization](../setup/prepare-organizational-data.md#organization-definition) 
+* TieDestination_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). You can use this column to determine the existence of Strong ties within a team to understand how cohesive that team is. You can also use it to determine the existence of Diverse ties within a team to understand if there is an opportunity for novel information to flow into the team. 
 
 ### The last columns give the results
 
@@ -109,6 +109,10 @@ _Query results example: Columns I through M_
     * **1:** This row clearly indicates a diverse tie &mdash; 20th percentile and above, by diversity. 
     * **2:** This row indicates a tie that is significant but less diverse: between the 10th and 20th percentiles.
     * **0:** This row indicates a tie that is not that diverse: 10th percentile and below. 
+
+### Person attributes
+
+
 
 ## Select filters
 
