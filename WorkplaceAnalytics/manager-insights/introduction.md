@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Manager insights
 
-As a people manager, you can discover key insights about your team’s collaboration effectiveness and employee experience. 
+Microsoft Workplace Analytics has unveiled a new dashboard experience for people managers (with 9+ team sizes) like you to discover key insights about your team’s collaboration effectiveness and employee experience.
 
 ![Manager insights](./images/manager-insights.png)
 
@@ -53,11 +53,3 @@ This dashboard uses anonymized data from emails, meetings, and chats in Outlook 
 The dashboard also uses differential privacy to keep personal data private. Differential privacy is a technology that allows researchers and analysts to pull useful information from databases containing personal information while simultaneously protecting individual privacy. This is achieved by introducing slight variations to the data to protect privacy while still maintaining accuracy, so managers have confidence in the observed values.
 
 To learn more about differential privacy, see [Differential Privacy in Workplace Analytics](../privacy/differential-privacy.md) and [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).
-
-## View a recommended plan
-
-As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
-
-The following is an example of a recommended plan to improve employee wellbeing by reducing after-hours work.
-
-![Recommended plan to improve employee wellbeing](./images/start-plan.png)
