@@ -66,13 +66,13 @@ The following columns appear, from left to right, in the query results for ONA p
 
 _Query results example: Columns A through E_
 
-The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
+The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example, five attributes were selected: 
 
 * TieOrigin_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row.  
 * TieOrigin_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs. 
 * TieOrigin_[LevelDesignation](../setup/prepare-organizational-data.md#leveldesignation-definition). The employee's level within the organization.    
 * TieOrigin_[Organization](../setup/prepare-organizational-data.md#organization-definition). The internal organization that the employee belongs to.  
-* TieOrigin_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). You can use this column to determine the existence of Strong ties within a team to understand how cohesive that team is. You can also use it to determine the existence of Diverse ties within a team to understand if there is an opportunity for novel information to flow into the team. 
+* TieOrigin_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. 
 
 ### The next columns describe the other participant in the tie    
 
@@ -80,13 +80,13 @@ The column names for these attributes are the organizational attribute name pref
 
 _Query results example: Columns F through J_
 
-The column names for these attributes are the organizational attribute name prefixed with _TieDestination__. In this example: 
+The column names for these attributes are the organizational attribute name prefixed with _TieDestination__. In this example, five attributes were selected:  
 
 * TieDestination_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. 
 * TieDestination_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs.  
 * TieDestination_[LevelDesignation](../setup/prepare-organizational-data.md#leveldesignation-definition). The employee's level within the organization.  
 * TieDestination_[Organization](../setup/prepare-organizational-data.md#organization-definition). The internal organization that the employee belongs to.  
-* TieDestination_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). You can use this column to determine the existence of Strong ties within a team to understand how cohesive that team is. You can also use it to determine the existence of Diverse ties within a team to understand if there is an opportunity for novel information to flow into the team. 
+* TieDestination_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. 
 
 ### The last columns give the results
 
