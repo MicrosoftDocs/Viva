@@ -38,8 +38,8 @@ If the two people have **few** network connections in common, it is considered a
 
     ![ONA p2p query](../images/wpa/tutorials/ona-p2p-query.png)
 
-3.	Select and change **Enter query name here** to a name, and then enter a description for the query.
-4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
+3.	Select and change **Enter query name here** to a name, and then, optionally, enter a description for the query.
+4.	For **Group by**, select a time-grouping option: **Month** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
 
     > [!Note] 
     > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected. 
@@ -62,9 +62,9 @@ The following columns appear, from left to right, in the query results for ONA p
 
 ### The first columns describe the initiator of the tie
 
-![first columns -- A through D](../images/wpa/tutorials/columns-1-4.png)
+![first columns -- A through E](../images/wpa/tutorials/columns-1-4.png)
 
-_Query results example: Columns A through D_
+_Query results example: Columns A through E_
 
 The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
 
@@ -76,11 +76,11 @@ The column names for these attributes are the organizational attribute name pref
 
 ### The next columns describe the other participant in the tie    
 
-![next columns -- E through H](../images/wpa/tutorials/columns-5-8.png)
+![next columns -- F through J](../images/wpa/tutorials/columns-5-8.png)
 
-_Query results example: Columns E through H_
+_Query results example: Columns F through J_
 
-The column names for these attributes are the organizational attribute name prefixed with _TieDefinition__. In this example: 
+The column names for these attributes are the organizational attribute name prefixed with _TieDestination__. In this example: 
 
 * TieDestination_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. 
 * TieDestination_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs.  
@@ -90,9 +90,9 @@ The column names for these attributes are the organizational attribute name pref
 
 ### The last columns give the results
 
-![last columns -- I through M](../images/wpa/tutorials/columns-9-13.png)
+![last columns -- K through O](../images/wpa/tutorials/columns-9-13.png)
 
-_Query results example: Columns I through M_
+_Query results example: Columns K through O_
 
 * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
 * **Metrics.** The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
