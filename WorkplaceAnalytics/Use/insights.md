@@ -12,7 +12,7 @@ ms.prod: wpa
 
 These research-based behavioral insights show how your organization gets work done. Select a behavior to deep dive into how it is impacting your current business and how you can drive change moving forward.
 
-![Insights](../images/wpa/use/insights.png)
+![Workplace Analytics insights home page](../images/wpa/use/insights.png)
 
 ## Analysis scope
 

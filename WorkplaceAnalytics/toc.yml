@@ -75,14 +75,12 @@
       items:
         - name: Introduction
           href: ~/Overview/Get-started.md
-        - name: Home
+        - name: Insights
           items:
-            - name: Insights
-              items:
-                - name: Introduction
-                - href: ~/Use/insights.md
-                - name: Boost employee engagement
-                  href: ~/Use/boost-engagement.md
+            - name: Overview
+              href: ~/Use/insights.md
+            - name: Boost employee engagement
+              href: ~/Use/boost-engagement.md
             - name: Manager insights
               items:
                 - name: Overview

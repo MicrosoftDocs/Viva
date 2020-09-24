@@ -18,7 +18,7 @@ For example, are employees routinely getting one-on-one time with their managers
 
 ![Employee engagement](../images/wpa/use/boost-ee.png)
 
-# Take action
+# Insight actions
 
 Each insight shows how your organization compares with others based on industry research and your specific organizational data. Select **Take action** to see ways you can drive change or simply maintain employee engagement.
 
