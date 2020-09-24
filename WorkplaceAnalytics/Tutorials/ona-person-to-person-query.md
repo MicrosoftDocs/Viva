@@ -168,7 +168,7 @@ The following organizational attribute is used in this query type. Note that it 
 
 Attribute (column header) | Description | 
 ---------|----------|
-| <a name="groupid-definition"></a> GroupId | A unique, de-identified ID number that identifies a group. The GroupId is the same for all members of a team who report to another person in the organizational hierarchy. Analysts can use the GroupId column to aggregate members of a team. | 
+| <a name="groupid-definition"></a> GroupId | A unique, de-identified ID number that identifies a group. All members of a team who report to the same person in the organizational hierarchy have the same GroupId. Analysts can use the GroupId column to aggregate members of a team. | 
 
 ### Ties are directional 
 
