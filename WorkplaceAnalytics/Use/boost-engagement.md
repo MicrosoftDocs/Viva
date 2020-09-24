@@ -48,3 +48,8 @@ Depending on your role, you can use the deeper insight's **Learn more** link for
 
 * As an analyst, it'll link you to [Explore](explore-intro.md) and [Queries](../tutorials/query-basics.md) for more advanced analysis, including more detailed charts and reports.
 * As a business leader or a program manager, it'll link you to [Plans](../tutorials/solutionsv2-intro.md) to create and track change plans for your organization or team in Workplace Analytics.
+
+## Related topics
+
+* [Best practices](../tutorials/gm-best-practices.md)
+* [Metric descriptions for Workplace Analytics](metric-definitions.md)

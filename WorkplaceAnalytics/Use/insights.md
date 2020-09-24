@@ -59,9 +59,3 @@ These insights are only about the participants who are included in the selected 
 
 The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Workplace Analytics Home for people managers](pm-home.md) for more details.
 
-## Related topics
-
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
-* [Best practices](../tutorials/gm-best-practices.md)
-* [Explore the metrics](explore-intro.md)
-* [Plans](../tutorials/solutionsv2-intro.md)
