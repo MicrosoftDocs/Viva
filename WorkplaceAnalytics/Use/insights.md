@@ -10,13 +10,13 @@ ms.prod: wpa
 
 # Workplace Analytics insights
 
-These research-based behavioral insights show how your organization gets work done. Select a behavior to deep dive into how it is impacting your current business and how you can drive change moving forward.
+These research-based behavioral insights show how your organization gets work done. Select a specific insight to deep dive into how it is impacting your current business and what recommended best practices are available to help drive change moving forward.
 
 ![Workplace Analytics insights home page](../images/wpa/use/insights.png)
 
 ## Analysis scope
 
-The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. See [Organizational data](organizational-data.md) and [Office 365 data](office-365-data.md) for details.
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. See [Organizational data](organizational-data.md) and [Office 365 data](office-365-data.md) to learn more about what data Workplace Analytics requires and uses for this analysis.
 
 ## Business outcomes
 
@@ -40,13 +40,13 @@ Each insight includes **Supporting evidence** that links you to related informat
 
 ## Take action
 
-Insights also include a **Find out more** link that shows you ways to drive change that will impact these behaviors the most. For example, in **Boost employee engagement** > **Increase frequency of coaching**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
+In the **Take action** section for each insight, select **Find out more** to see the most impactful actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
 
 ![Take action pane](../images/wpa/use/take-action.png)
 
-* **Learn more** - Each recommendation has a **Learn more** link that provides additional best practices to help support your efforts.
-* **Groups most impacted** - Lists the groups who are most impacted and would benefit the most from these recommended best practices, which is based on your organizational data and industry research.
-* **Get deeper insights** - As an analyst, you can use the **Learn more** link to access [Explore](explore-intro.md) and [Queries](../tutorials/query-basics.md) for more advanced analysis, including more detailed charts and reports.
+* **Learn more** - Each recommendation has a **Learn more** link that provides additional best practices that help support it.
+* **Groups most impacted** - Lists the groups who are most impacted and would benefit the most from these recommended actions, which is based on your organizational data and industry research.
+* **Get deeper insights** - Shows one of the most important takeaways based on your organizational data. As an analyst, you can use the **Learn more** link to access [Explore](explore-intro.md) and [Queries](../tutorials/query-basics.md) for more advanced analysis, including more detailed charts and reports.
 * **View recommended plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization or team in Workplace Analytics.
 
 ## Frequently asked questions
