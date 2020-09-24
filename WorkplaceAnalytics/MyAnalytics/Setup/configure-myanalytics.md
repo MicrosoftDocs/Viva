@@ -116,7 +116,15 @@ PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's 
 
 > [!Important]
 > The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
-  
+
+Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user has been opted in and that all of that user's MyAnalytics features were turned off except the weekly digest:
+
+    UserId  : \<username\>@\<domain><p>
+    PrivacyMode : opt-in<p>
+    IsDashboardEnabled : False<p>
+    IsAddInEnabled  : False<p>
+    IsWeeklyDigestEnabled : True
+
 ### Confirm MyAnalytics access for a user
 
 Use the following to confirm whether a user has access to MyAnalytics (the value for PrivacyMode):
@@ -128,6 +136,14 @@ Get-MyAnalyticsFeatureConfig –Identity <string>
 Parameter   |   Required   |    Description    |   Default value
 ----------- | ------------ |  ---------------  | ---------------
 Identity    |  Yes         |    User ID for the current user as stored in AAD  | - 
+
+Get-MyAnalyticsFeatureConfig reveals the current configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user is currently opted in and that they have all MyAnalytics features turned off except the weekly digest:
+
+UserId  : \<username\>@\<domain><p>
+PrivacyMode : opt-in<p>
+IsDashboardEnabled : False<p>
+IsAddInEnabled  : False<p>
+IsWeeklyDigestEnabled : True
 
 ### Set MyAnalytics access for multiple users
 
