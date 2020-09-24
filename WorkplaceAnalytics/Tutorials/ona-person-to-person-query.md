@@ -164,7 +164,7 @@ You could have diverse ties that are distant: These are diverse ties with people
 
 ### Derived attributes
 
-The following organizational attribute is used in this query type. Note that it is not among the organization data that [admins upload](../setup/upload-organizational-data-1st) to Workplace Analytics. Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-definition) attribute, which is in the organizational hierarchy data that admins do upload.
+The following organizational attribute is used in this query type. Note that it is not among the organization data that [admins upload](../setup/upload-organizational-data-1st.md) to Workplace Analytics. Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-definition) attribute, which is in the organizational hierarchy data that admins do upload.
 
 Attribute (column header) | Description | 
 ---------|----------|
