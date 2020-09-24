@@ -166,7 +166,7 @@ You could have diverse ties that are distant: These are diverse ties with people
 
 The following organizational attribute is used in this query type. Note that it is not among the organization data that [admins upload](../setup/upload-organizational-data-1st) to Workplace Analytics. Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-definition) attribute, which is in the organizational hierarchy data that admins do upload.
 
-Attribute (column header) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Description | 
+Attribute (column header) | Description | 
 ---------|----------|
 | <a name="groupid-definition"></a> GroupId | A unique, de-identified ID number that identifies a group. The GroupId is the same for all members of a team who report to another person in the organizational hierarchy. Analysts can use the GroupId column to aggregate members of a team. | 
 
