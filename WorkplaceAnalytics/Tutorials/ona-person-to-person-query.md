@@ -70,7 +70,7 @@ The column names for these attributes are organizational attribute names with th
 
 * TieOrigin_[**PersonId**](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
 
-* TieOrigin_[**GroupId**](../setup/prepare-organizational-data.md#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically. 
+* TieOrigin_[**GroupId**](#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to understand whether there are opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically.
 
 ### The next columns describe the initiator of the tie
 
@@ -96,7 +96,7 @@ The column names for these attributes are organizational attribute names with th
 
 * TieDestination_[**PersonId**](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically. 
 
-* TieDestination_[**GroupId**](../setup/prepare-organizational-data.md#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically. 
+* TieDestination_[**GroupId**](#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties into another team to understand how well connected one is with that team and also discover Diverse ties in another team to understand  opportunities for novel information to flow from that team. You do not select this column as you build a query; it appears automatically.
 
 ### The next columns describe the other participant in the tie   
 
@@ -125,11 +125,11 @@ _Query results example: Columns K through O_
 
   * **[StrongTieScore](../use/metric-definitions.md#strong-tie-score-definition)** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. 
   * **[DiverseTieScore](../use/metric-definitions.md#diverse-tie-score-definition)** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals. 
-  * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
+  * **[StrongTieType](../use/metric-definitions.md#strong-tie-type-definition)** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
     * **1:** This row clearly indicates a strong tie &mdash; 20th percentile and above, by strength. 
     * **2:** This row indicates a tie that is significant but less strong: between the 10th and 20th percentiles.
     * **0:** This row indicates a tie that is not that strong: 10th percentile and below.  
-  * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
+  * **[DiverseTieType](../use/metric-definitions.md#diverse-tie-type-definition)** This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
     * **1:** This row clearly indicates a diverse tie &mdash; 20th percentile and above, by diversity. 
     * **2:** This row indicates a tie that is significant but less diverse: between the 10th and 20th percentiles.
     * **0:** This row indicates a tie that is not that diverse: 10th percentile and below. 
@@ -161,6 +161,14 @@ You could have strong ties that are distant: These are strong ties with people o
 You could have diverse ties that are close: These are diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group. 
 
 You could have diverse ties that are distant: These are diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks are considered key for driving innovation and creativity in and among teams. 
+
+### Derived attributes
+
+The following organizational attribute is used in this query type. Note that it is not among the organization data that [admins upload](../setup/upload-organizational-data-1st) to Workplace Analytics. Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-definition) attribute, which is in the organizational hierarchy data that admins do upload.
+
+Attribute (column header) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Description | 
+---------|----------|
+| <a name="groupid-definition"></a> GroupId | A unique, de-identified ID number that identifies a group. The GroupId is the same for all members of a team who report to another person in the organizational hierarchy. Analysts can use the GroupId column to aggregate members of a team. | 
 
 ### Ties are directional 
 
