@@ -28,7 +28,7 @@ Each of the following has a page dedicated to analysis about your organization a
 * Enhance organizational resiliency
 * Foster innovation
 * Improve agility
-* Increase customer focus
+* [Increase customer focus](customer-focus.md)
 * Maximize operational effectiveness
 
 ## Supporting evidence

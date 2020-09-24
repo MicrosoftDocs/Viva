@@ -42,7 +42,7 @@ For example, the following shows:
 * Groups most impacted by after-hours work.
 * How is work-life integration affecting employee engagement?
 
-![Get deeper insights with Workplace Analytics](../images/wpa/use/deeper-insights.png)
+![Get deeper insights about employee engagement](../images/wpa/use/deep-engagement.png)
 
 Depending on your role, you can use the deeper insight's **Learn more** link for more advanced analysis about the organizational data that this insight is based on.
 
