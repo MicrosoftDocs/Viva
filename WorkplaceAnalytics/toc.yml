@@ -78,7 +78,11 @@
         - name: Home
           items:
             - name: Insights
-              href: ~/Use/home-page.md
+              items:
+                - name: Introduction
+                - href: ~/Use/insights.md
+                - name: Boost employee engagement
+                  href: ~/Use/boost-engagement.md
             - name: Manager insights
               items:
                 - name: Overview
