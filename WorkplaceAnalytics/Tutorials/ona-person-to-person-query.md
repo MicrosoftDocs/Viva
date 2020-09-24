@@ -68,9 +68,9 @@ _Query results example: Columns A and B_
 
 The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These first two columns appear automatically:
 
-* TieOrigin_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
+* TieOrigin_[**PersonId**](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
 
-* TieOrigin_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically. 
+* TieOrigin_[**GroupId**](../setup/prepare-organizational-data.md#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically. 
 
 ### The next columns describe the initiator of the tie
 
@@ -80,11 +80,11 @@ _Query results example: Columns C through E_
 
 The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These three columns represent attributes that you selected while building the query: 
 
-* TieOrigin_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs. 
+* TieOrigin_[**FunctionType**](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs. 
 
-* TieOrigin_[LevelDesignation](../setup/prepare-organizational-data.md#leveldesignation-definition). The employee's level within the organization.    
+* TieOrigin_[**LevelDesignation**](../setup/prepare-organizational-data.md#leveldesignation-definition). The employee's level within the organization.    
 
-* TieOrigin_[Organization](../setup/prepare-organizational-data.md#organization-definition). The internal organization that the employee belongs to.  
+* TieOrigin_[**Organization**](../setup/prepare-organizational-data.md#organization-definition). The internal organization that the employee belongs to.  
 
 ### The next two columns identify the other participant in the tie    
 
@@ -94,9 +94,9 @@ _Query results example: Columns F and G_
 
 The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These first two columns for this person appear automatically:
 
-* TieDestination_[PersonId](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically. 
+* TieDestination_[**PersonId**](../setup/prepare-organizational-data.md#personid-definition). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically. 
 
-* TieDestination_[GroupId](../setup/prepare-organizational-data.md#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically. 
+* TieDestination_[**GroupId**](../setup/prepare-organizational-data.md#groupid-definition). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to establish opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically. 
 
 ### The next columns describe the other participant in the tie   
 
@@ -106,11 +106,11 @@ _Query results example: Columns H through J_
 
 The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These three columns represent attributes that you selected while building the query: 
 
-* TieDestination_[FunctionType](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs.  
+* TieDestination_[**FunctionType**](../setup/prepare-organizational-data.md#functiontype-definition). The job function that the employee performs.  
 
-* TieDestination_[LevelDesignation](../setup/prepare-organizational-data.md#leveldesignation-definition). The employee's level within the organization.  
+* TieDestination_[**LevelDesignation**](../setup/prepare-organizational-data.md#leveldesignation-definition). The employee's level within the organization.  
 
-* TieDestination_[Organization](../setup/prepare-organizational-data.md#organization-definition). The internal organization that the employee belongs to.  
+* TieDestination_[**Organization**](../setup/prepare-organizational-data.md#organization-definition). The internal organization that the employee belongs to.  
 
 ### The last columns give the results
 
