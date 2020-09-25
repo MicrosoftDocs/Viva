@@ -46,7 +46,7 @@ In the **Take action** section for each insight, select **Find out more** to see
 
 * **Learn more** - Each recommendation has a **Learn more** link that provides additional best practices that help support it.
 * **Groups most impacted** - Lists the groups who are most effected and would benefit the most from these recommended actions, which are based on your organizational data and industry research.
-* **Get deeper insights** - Shows one of the most important takeaways based on your organizational data. As an analyst, you can use the **Learn more** link to access [Explore](explore-intro.md) and [Queries](../tutorials/query-basics.md) for more advanced analysis, including more detailed charts and reports.
+* **Get deeper insights** - Shows one of the most important takeaways based on your organizational data. Depending on your role, you can use the **Learn more**, **Explore the stats**, or **Explore in Power BI** link to access and use [Explore](explore-intro.md) or [Power BI](../tutorials/power-bi-templates.md) for more advanced analysis, including more detailed charts and reports.
 * **View recommended plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization or team in Workplace Analytics.
 
 ## Frequently asked questions

@@ -42,10 +42,10 @@ For example, the following shows:
 
 ![Get deeper insights about employee engagement](../images/wpa/use/deep-engagement.png)
 
-Depending on your role, you can use the deeper insight's **Learn more** link for more advanced analysis about the organizational data that this insight is based on.
+Depending on your role, you can use the deeper insight's **Learn more**, **Explore the stats**, or **Explore in Power BI** link for more advanced analysis about the organizational data that this insight is based on.
 
-* As an analyst, it'll link you to [Explore](explore-intro.md) and [Queries](../tutorials/query-basics.md) for more advanced analysis, including more detailed charts and reports.
-* As a business leader or a program manager, it'll link you to [Plans](../tutorials/solutionsv2-intro.md) to create and track change plans for your organization or team in Workplace Analytics.
+* As an analyst, you can use [Explore](explore-intro.md) and [Queries](../tutorials/query-basics.md) for more advanced analysis, including more detailed charts and reports.
+* As a business leader or a program manager, you can use [Plans](../tutorials/solutionsv2-intro.md) to create and track change plans for your organization or team in Workplace Analytics.
 
 ## Related topics
 
