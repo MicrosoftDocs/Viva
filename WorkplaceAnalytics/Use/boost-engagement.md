@@ -37,7 +37,7 @@ In **Get deeper insights**, you'll see one of the most important insights specif
 
 For example, the following shows:
 
-* Groups most impacted by after-hours work.
+* Groups most affected by after-hours work.
 * How is work-life integration affecting employee engagement?
 
 ![Get deeper insights about employee engagement](../images/wpa/use/deep-engagement.png)
