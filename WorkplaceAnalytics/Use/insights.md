@@ -40,12 +40,12 @@ Each insight includes **Supporting evidence** that links you to related informat
 
 ## Take action
 
-In the **Take action** section for each insight, select **Find out more** to see the most impactful actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
+In the **Take action** section for each insight, select **Find out more** to see the most effective actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
 
 ![Take action pane](../images/wpa/use/take-action.png)
 
 * **Learn more** - Each recommendation has a **Learn more** link that provides additional best practices that help support it.
-* **Groups most impacted** - Lists the groups who are most impacted and would benefit the most from these recommended actions, which is based on your organizational data and industry research.
+* **Groups most impacted** - Lists the groups who are most effected and would benefit the most from these recommended actions, which are based on your organizational data and industry research.
 * **Get deeper insights** - Shows one of the most important takeaways based on your organizational data. As an analyst, you can use the **Learn more** link to access [Explore](explore-intro.md) and [Queries](../tutorials/query-basics.md) for more advanced analysis, including more detailed charts and reports.
 * **View recommended plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization or team in Workplace Analytics.
 

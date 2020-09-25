@@ -10,9 +10,7 @@ ms.prod: wpa
 
 # Boost employee engagement
 
-How is work-life integration affecting employee engagement? Research shows that happy employees help boost productivity and reduce turnover.
-
-These insights and suggestions can help you maintain positive employee experiences, such as evaluating how much time your organization is working after hours on email or instant messages.
+How is work-life integration affecting employee engagement? Research shows that happy employees help boost productivity and reduce turnover. These insights and suggestions can help you maintain positive employee experiences.
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
@@ -33,7 +31,7 @@ The following describes the data related to each recommended action and its best
 
 ## Impacted groups and deeper insights
 
-For each suggestion, you'll see the groups most impacted by the insight action, which are based on your organization and industry research.
+For each suggestion, you'll see the groups most effected by the insight action, which are based on your organization and industry research.
 
 In **Get deeper insights**, you'll see one of the most important insights specific to your organization.
 
