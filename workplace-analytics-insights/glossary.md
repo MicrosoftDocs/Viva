@@ -12,7 +12,7 @@ ms.prod: wpa
 ---
 # Glossary for Workplace Analytics insights
 
-The following are terms and concepts used in Workplace Analytics insights. This glossary excludes [behavior definitions](../behaviors.md).
+The following are terms and concepts used in Workplace Analytics insights. This glossary excludes [behavior definitions](./behaviors.md).
 
 |Term|Definition|
 |----|----------|
