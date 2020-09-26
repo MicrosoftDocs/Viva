@@ -7,7 +7,7 @@ ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
 ---
-# Workplace Analytics Power BI dashboard demos
+# Power BI dashboard demos
 
 Workplace Analytics provides a number of different Power BI templates that analysts can use to visually analyze workplace patterns and trends.
 
