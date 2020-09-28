@@ -112,7 +112,7 @@ If your team list or job function changes, you can select the **Edit team** link
 ---------------
 ## Notes
 
-\*  The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on for that tenant in the [Manager settings](../../use/settings#manager-settings) of Workplace Analytics. 
+\*  The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on for that tenant in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics. 
 
 <!-- For now, we cannot use these links, so keeping them safe here: 
 

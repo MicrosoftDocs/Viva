@@ -140,7 +140,7 @@ In **Admin settings** > **Privacy settings**, you can decide what data you want 
 * [Exclude domains or email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
-![Admin settings](../images/wpa/use/admin-privacy-settings.png)
+![Admin privacy settings](../images/wpa/use/admin-privacy-settings.png)
 
 After you change privacy settings, your changes take effect after data is processed in the following week. This means that these changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
 
