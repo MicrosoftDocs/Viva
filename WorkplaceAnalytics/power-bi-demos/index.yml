@@ -18,7 +18,7 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   items:
     - title: Business continuity
-      itemType: overview # controls the icon image and super-title text
+      itemType: get-started # controls the icon image and super-title text
       url: /workplace-analytics/power-bi-demos/business-continuity
     - title: Collaboration assessment
       itemType: concept
