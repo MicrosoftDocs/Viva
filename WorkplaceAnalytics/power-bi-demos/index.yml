@@ -19,23 +19,23 @@ highlightedContent:
   items:
     - title: Business continuity
       itemType: overview # controls the icon image and super-title text
-      url: /power-bi-demos/business-continuity
+      url: /workplace-analytics/power-bi-demos/business-continuity
     - title: Collaboration assessment
       itemType: concept
-      url: /power-bi-demos/collaboration-assess
+      url: /workplace-analytics/power-bi-demos/collaboration-assess
     - title: Collaboration tracker
       itemType: learn
-      url: /power-bi-demos/collaboration-tracker
+      url: /workplace-analytics/power-bi-demos/collaboration-tracker
     - title: Influence insights
       itemType: how-to-guide
-      url: /power-bi-demos/influence-insights
+      url: /workplace-analytics/power-bi-demos/influence-insights
     - title: Return to worksites
       itemType: architecture
-      url: /power-bi-demos/return-tw.md
+      url: /workplace-analytics/power-bi-demos/return-tw.md
     - title: Sales business continuity
       itemType: reference
-      url: /power-bi-demos/sales-b-continuity
+      url: /workplace-analytics/power-bi-demos/sales-b-continuity
     - title: Teams insights
       itemType: quickstart
-      url: /power-bi-demos/teams-insights
+      url: /workplace-analytics/power-bi-demos/teams-insights
       
