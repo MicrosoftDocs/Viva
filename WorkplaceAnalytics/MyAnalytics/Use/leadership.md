@@ -12,7 +12,7 @@ ms.prod: mya
 
 # Leadership
 
-_**Applies to:** The Leadership page is currently in preview status It is in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD or in Workplace Analytics*._
+_**Applies to:** The Leadership page is currently in preview status. It is in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD or in Workplace Analytics*._
 
 If you're a people manager, the MyAnalytics Leadership page gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement. 
 
@@ -112,7 +112,7 @@ If your team list or job function changes, you can select the **Edit team** link
 ---------------
 ## Notes
 
-\*  The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings#manager-settings) of Workplace Analytics. 
+\*  The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on for that tenant in the [Manager settings](../../use/settings#manager-settings) of Workplace Analytics. 
 
 <!-- For now, we cannot use these links, so keeping them safe here: 
 
