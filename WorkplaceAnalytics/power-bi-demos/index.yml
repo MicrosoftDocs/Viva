@@ -24,18 +24,18 @@ highlightedContent:
       itemType: concept
       url: /power-bi-demos/collaboration-assess
     - title: Collaboration tracker
-      itemType: get-started
+      itemType: learn
       url: /power-bi-demos/collaboration-tracker
     - title: Influence insights
       itemType: how-to-guide
       url: /power-bi-demos/influence-insights
     - title: Return to worksites
-      itemType: get-started
+      itemType: architecture
       url: /power-bi-demos/return-tw.md
     - title: Sales business continuity
       itemType: reference
       url: /power-bi-demos/sales-b-continuity
     - title: Teams insights
-      itemType: learn
+      itemType: quickstart
       url: /power-bi-demos/teams-insights
       
