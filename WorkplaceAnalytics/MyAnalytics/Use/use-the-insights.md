@@ -256,7 +256,7 @@ It can be easy to lose track of requests you made of your colleagues. By automat
 
  * In the **Insights** pane, select **Follow up on your requests**. This insight is available only in English.
 
-   ![Track email open rates](../../images/mya/use/follow-up-on-your-requests.png)    
+   ![Follow up on your requests](../../images/mya/use/follow-up-on-your-requests.png)    
     
    This opens a panel that displays insights for each of your suggested follow-up tasks. 
    
@@ -396,7 +396,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 
 1. In the **Insights** pane, locate **Set lunch hours**:
 
-   ![Insights plan your time away task list](../../images/mya/use/set-lunch-hours.png)  
+   ![Set your lunch hours](../../images/mya/use/set-lunch-hours.png)  
 
 2. Use the options that are described in the following table.    
 
@@ -421,7 +421,7 @@ The **Plan your time away** checklist can help reduce the stress of planning for
 
 You can plan your schedule with these options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
 
-![Insights plan your time away task list](../../images/mya/use/plan-your-time-away.png)
+![Insights plan your time away task](../../images/mya/use/plan-your-time-away.png)
 
 **To use Plan your time away**
 
@@ -473,7 +473,7 @@ As a manager, you can:
  * Act on tasks you promised to get done or that team members asked you to complete
  * Review important emails and documents from team members that you haven’t read yet
 
-This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.) If you are a manager but do not see this feature, contact your Office 365 administrator.
 
 #### To catch up with your team
 
