@@ -37,14 +37,18 @@ If user is part of a plan, there is no change to any of the existing tabs. A new
 
 ## Digest
 
-All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
+All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, or Collaboration. The subject of the digest shifts from one pattern to the next, week after week. Note that this weekly focus is _not_ affected by a participant's enrollment in a plan. 
 
-![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60.png) 
+### Additional Teams Plan section
 
-Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, and Collaboration. The subject of the digest shifts from one pattern to the next, week after week. Note that this focus is not affected by a participant's enrollment in a plan. 
+For plan participants, the digest email includes an additional section, the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week: 
+
+![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png) 
 
 > [!Note] 
-> The Focus and Network digest emails contain interactive experiences when they are viewed in particular email client applications. In these cases, the added "Team Plans" tab is not available.
+> This Team Plans is unavailable in the following circumstance:
+> * It is a week in which the digest email is about _Focus_ or _Network_.
+> * You are using a particular email client application to view your digest emails.
 
 ## MyAnalytics inline suggestions
 
