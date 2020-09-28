@@ -1,4 +1,4 @@
-- name: Business continuity demo
+- name: Business continuity
   href: ./business-continuity.md
 - name: Collaboration assessment
   href: ./collaboration-assess.md
