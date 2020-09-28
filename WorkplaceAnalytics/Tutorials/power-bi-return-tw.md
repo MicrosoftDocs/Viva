@@ -130,6 +130,10 @@ For either seat allocation plan, you’ll need the following information.
 
 After you specify a location and the number of employees permitted in that location, each plan allocates and assigns seats to teams who spend more time in on-site collaboration. Each plan summary provides an estimate of the on-site collaboration. These estimates factor in adjustments to on-site collaboration based on the proportion of employees who are not assigned a seat.
 
+## Dashboard demo
+
+<iframe src="https://player.vimeo.com/video/460378380" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## Return to worksites playbook
 
 The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The analyses that help answer where and when require a Microsoft service engagement to deploy through Azure with [Workplace Analytics Azure Templates](../azure-templates/overview.md). The [Return to worksites playbook](https://docs.microsoft.com/workplace-analytics/tutorials/Return-to-worksites-playbook.pdf) has more details and instructions on how to create and use the analyses.

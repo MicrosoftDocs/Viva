@@ -4,10 +4,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Introducing Workplace Analytics insights
 description: About Workplace Analytics insights to learn how your organization gets work done
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 # Introducing Workplace Analytics insights

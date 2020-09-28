@@ -5,11 +5,11 @@
 title: MyAnalytics Individual Adoption --Diagnose 
 description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose issues
 author: madehmer
-ms.author: v-midehm
+ms.author: v-pausch
 ms.date: 04/03/2019
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Diagnose an issue to improve

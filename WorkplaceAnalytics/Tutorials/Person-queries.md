@@ -5,7 +5,7 @@
 title: Person queries in Workplace Analytics 
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual
 author: paul9955
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

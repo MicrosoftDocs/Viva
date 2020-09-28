@@ -3,7 +3,7 @@
 title: Data retention policy
 description: Accessing your organization's data after expiration of Workplace Analytics subscriptions or removal of licenses
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 search.appverid:

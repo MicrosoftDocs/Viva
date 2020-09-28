@@ -5,7 +5,7 @@ author: paul9955
 ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
-ms.prod: mya
+ms.prod: Mya
 
 ---
 

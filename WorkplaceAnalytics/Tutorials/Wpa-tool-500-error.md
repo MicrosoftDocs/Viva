@@ -3,7 +3,7 @@
 title: Workplace Analytics 500 error
 description: This explains why users receive a 500 error when using Workplace Analytics 
 author: paul9955
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa

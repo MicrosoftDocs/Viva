@@ -3,7 +3,7 @@
 title: Data-protection in Workplace Analytics -- Introduction 
 description: Introduction to the section on Data-protection considerations for Workplace Analytics
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 search.appverid:

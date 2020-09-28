@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
 author: madehmer
-ms.author: paul9955
+ms.author: v-pausch
 ms.topic: article
 search.appverid:
 - MET150
