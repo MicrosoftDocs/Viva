@@ -14,4 +14,4 @@ This dashboard helps you track changes in collaboration over time and how it is 
 
 ## Related topic
 
-[Collaboration tracker](../tutorials/power-bi-collab-tracker.md)
+[Collaboration tracker](../tutorials/power-bi-collab-track.md)
