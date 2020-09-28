@@ -30,6 +30,8 @@ After you successfully run these required queries, you'll see the Power BI templ
 
 When the Business continuity dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
+For an interactive demonstration of this dashboard, see [Business continuity demo](../power-bi-demos/business-continuity).
+
 ## Prerequisites  
 
 Before you can run the queries and populate the dashboard in Power BI, you must:

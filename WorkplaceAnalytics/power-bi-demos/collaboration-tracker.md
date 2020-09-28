@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Collaboration tracker dashboard demo for Workplace Analytics
 description: See a demonstration of the Power BI Collaboration tracker dashboard
 localization_priority: normal 

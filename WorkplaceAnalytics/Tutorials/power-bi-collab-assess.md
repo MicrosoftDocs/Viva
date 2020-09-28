@@ -42,6 +42,8 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 After you successfully run these queries, you can download the Power BI template from the Collaboration assessment query on the Results page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
+For an interactive demonstration of this dashboard, see [Collaboration assessment demo](../power-bi-demos/collaboration-assess).
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:

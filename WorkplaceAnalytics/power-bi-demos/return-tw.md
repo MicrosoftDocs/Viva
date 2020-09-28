@@ -11,8 +11,8 @@ author: madehmer
 
 This dashboard helps you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
 
-
-<iframe width="800" height="400" src="https://msit.powerbi.com/view?r=eyJrIjoiZjYxYWIwZGQtZGE0Ni00YjMyLWExZTQtMWJlY2M3ODYyZWE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&pageName=ReportSection81c4aea979cc51ca7e1d" frameborder="0" allowFullScreen="true"></iframe>
+<br>
+<iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZjYxYWIwZGQtZGE0Ni00YjMyLWExZTQtMWJlY2M3ODYyZWE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Related topic
 

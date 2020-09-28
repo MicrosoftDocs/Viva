@@ -29,6 +29,8 @@ The dashboard also includes a **Summary of Key Metrics** page that shows opportu
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Teams Insights** query in Workplace Analytics. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
 
+For an interactive demonstration of this dashboard, see [Teams insights demo](../power-bi-demos/teams-insights).
+
 ## Prerequisites  
 
 Before you can run the queries and populate the dashboard in Power BI, you must:

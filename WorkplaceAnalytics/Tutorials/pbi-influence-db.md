@@ -23,6 +23,8 @@ After you successfully run these queries, you'll see the Influence insights Powe
 
 After the Influence insights dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
+For an interactive demonstration of this dashboard, see [Influence insights demo](../power-bi-demos/influence-insights).
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
