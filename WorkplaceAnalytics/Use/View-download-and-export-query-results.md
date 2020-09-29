@@ -86,7 +86,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 3. Open Excel and select **Blank workbook**. 
 4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**: 
 
-   ![Sign in to Workplace Analytics organizational account](../images/wpa/use/data-odata-in-excel.png)
+   ![Open OData link in Excel](../images/wpa/use/data-odata-in-excel.png)
 
 5. In Excel, paste the copied OData link into the **OData feed** dialog box and select **OK**:
 
