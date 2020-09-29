@@ -3,7 +3,7 @@
 title: Explore Teams metrics in Workplace Analytics
 description: Overview of Teams collaboration metrics in Workplace Analytics
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

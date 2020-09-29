@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Team Adoption --Plan
 description: MyAnalytics Team Adoption by Kate Nowak --Plan section
 author: paul9955
 ms.author: v-pausch
-ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: Mya
@@ -18,12 +15,12 @@ ms.prod: Mya
 
 The ideal program team is comprised of the following members:
 
- * [Executive sponsor](Team-adopt-plan.md#executive-sponsor)
- * [Program manager](Team-adopt-plan.md#program-manager)
- * [Change agents](Team-adopt-plan.md#change-agents)
- * [Program participants](Team-adopt-plan.md#program-participants)
+* [Executive sponsor](Team-adopt-plan.md#executive-sponsor)
+* [Program manager](Team-adopt-plan.md#program-manager)
+* [Change agents](Team-adopt-plan.md#change-agents)
+* [Program participants](Team-adopt-plan.md#program-participants)
 
-> [!Note] 
+> [!Note]
 > If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build healthier collaboration habits.
 
 ### Executive sponsor
@@ -32,12 +29,12 @@ The executive sponsor is an influential senior leader who actively promotes the 
 
 The critical responsibilities of the executive sponsor are:
 
- * Participate in defining and communicating the program purpose
- * Remove obstacles in the way of the team’s success
- * Build excitement for MyAnalytics and the change program
- * Participate in select program activities
- * Serve as a role model for behaviors that you want to promote
- * Encourage managers to participate and support the change
+* Participate in defining and communicating the program purpose
+* Remove obstacles in the way of the team’s success
+* Build excitement for MyAnalytics and the change program
+* Participate in select program activities
+* Serve as a role model for behaviors that you want to promote
+* Encourage managers to participate and support the change
 
 ### Program manager
 
@@ -45,50 +42,50 @@ The program manager is the main architect of the program and leads implementatio
 
 The critical responsibilities for the program manager are:
 
- * Secure support from an executive sponsor if the program is not driven from the top
- * Identify, train, and manage change agents
- * Remove obstacles in the way of the team’s success (See the following note)
- * Lead program communications and regularly reinforce the program purpose
- * Structure the change program and lead activities
- * Lead discussions and idea sharing at check-ins and through collaboration channels
- * Champion the MyAnalytics product and act as an internal product expert
- * Collect, manage, and analyze program feedback and data
- * Serve as a role model for behaviors that you want to promote
+* Secure support from an executive sponsor if the program is not driven from the top
+* Identify, train, and manage change agents
+* Remove obstacles in the way of the team’s success (See the following note)
+* Lead program communications and regularly reinforce the program purpose
+* Structure the change program and lead activities
+* Lead discussions and idea sharing at check-ins and through collaboration channels
+* Champion the MyAnalytics product and act as an internal product expert
+* Collect, manage, and analyze program feedback and data
+* Serve as a role model for behaviors that you want to promote
 
 > [!Note]
-> Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (_Nudge_, by Richard Thaler and Cass Sunstein). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time. 
+> Managers typically focus on incentives to motivate people to change, but often we can do more to facilitate change by removing obstacles than by pushing people into a certain direction (_Nudge_, by Richard Thaler and Cass Sunstein). For example, if your team’s goal is to add more focus hours but there are no places in your office for quiet work, then designate a few “no-interruption zones” in your space dedicated to focus time.
 
 ### Change agents
 
-Change agents are influential team members who help drive program awareness and engagement. They are great communicators, enthusiastic and forward thinking. In many cases, especially if the number of program participants is large, the change agents share responsibilities with the program manager. 
+Change agents are influential team members who help drive program awareness and engagement. They are great communicators, enthusiastic and forward thinking. In many cases, especially if the number of program participants is large, the change agents share responsibilities with the program manager.
 
 The critical responsibilities for the change agents are:
 
- * Amplify program communications
- * Build excitement for the program
- * Champion MyAnalytics and act as internal product experts
- * Lead select program activities, such as program check-ins
- * Prime discussions and idea sharing through collaboration channels
- * Collect and share program feedback with the program manager
- * Serve as a role model for behaviors that you want to promote
+* Amplify program communications
+* Build excitement for the program
+* Champion MyAnalytics and act as internal product experts
+* Lead select program activities, such as program check-ins
+* Prime discussions and idea sharing through collaboration channels
+* Collect and share program feedback with the program manager
+* Serve as a role model for behaviors that you want to promote
 
 ### Program participants
 
-The program participants are also known as the "team". Without their active and willing participation, change is impossible. While there is no minimum team size, a team comprised of between 10 and 20 participants is ideal. If a team has more than 20 people, consider creating subgroups based on common characteristics and assigning change agents to lead each subgroup. 
+The program participants are also known as the "team". Without their active and willing participation, change is impossible. While there is no minimum team size, a team comprised of between 10 and 20 participants is ideal. If a team has more than 20 people, consider creating subgroups based on common characteristics and assigning change agents to lead each subgroup.
 
 If you want to select a single subgroup from a larger population, select a team that is central to your network and could inspire other teams to adopt healthier work habits.
 
 The critical responsibilities for the program participants are:
 
- * Learn and actively use MyAnalytics
- * Attend group meetings – for example, check-ins
- * Participate in group discussions and share ideas
- * Complete all program surveys
- * Provide input to help set goals
- * Commit time to learning about behavior change
- * Experiment with new behaviors
- * Provide feedback on the program
- * Help hold teammates accountable for change
+* Learn and actively use MyAnalytics
+* Attend group meetings – for example, check-ins
+* Participate in group discussions and share ideas
+* Complete all program surveys
+* Provide input to help set goals
+* Commit time to learning about behavior change
+* Experiment with new behaviors
+* Provide feedback on the program
+* Help hold teammates accountable for change
 
 The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data (see [Data sharing](Team-adopt-implement.md#data-sharing)), for the participants who choose to opt in to sharing their MyAnalytics data.
 
@@ -98,10 +95,10 @@ Program participants should also be allowed to opt-out of the program if they so
 
 The program manager needs to define the following:
 
- * [Program duration and dates](Team-adopt-plan.md#program-duration-and-dates)
- * [Program components](Team-adopt-plan.md#program-components)
- * [A supplementary outcome metric (optional)](Team-adopt-plan.md#a-supplementary-outcome-metric-optional)
- * [A control group (optional)](Team-adopt-plan.md#a-control-group-optional)
+* [Program duration and dates](Team-adopt-plan.md#program-duration-and-dates)
+* [Program components](Team-adopt-plan.md#program-components)
+* [A supplementary outcome metric (optional)](Team-adopt-plan.md#a-supplementary-outcome-metric-optional)
+* [A control group (optional)](Team-adopt-plan.md#a-control-group-optional)
 
 ### Program duration and dates
 
@@ -115,14 +112,14 @@ If MyAnalytics is new for your team, wait at least two weeks after the product l
 
 These materials provide guidance for using the following six program components:
 
- * [Kickoff meeting](Team-adopt-implement.md#kickoff-meeting)
- * [Surveys](Team-adopt-plan.md#create-surveys)
- * [Learning modules](Adopt-Learning-modules.md)
- * [Habit playbooks](Adopt-Habit-playbooks.md)
- * [Check-ins](Team-adopt-implement.md#check-ins)
- * [Collaboration channel](Team-adopt-plan.md#establish-a-collaboration-channel)
+* [Kickoff meeting](Team-adopt-implement.md#kickoff-meeting)
+* [Surveys](Team-adopt-plan.md#create-surveys)
+* [Learning modules](Adopt-Learning-modules.md)
+* [Habit playbooks](adopt-habit-playbooks.md)
+* [Check-ins](Team-adopt-implement.md#check-ins)
+* [Collaboration channel](Team-adopt-plan.md#establish-a-collaboration-channel)
 
-While all of these components can improve your program’s success, it is important to design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components, then select the ones that will work best for your team. For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions. 
+While all of these components can improve your program’s success, it is important to design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components, then select the ones that will work best for your team. For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions.
 
 After you select your program components, determine the right dates and frequency for each component. You can then estimate a weekly time commitment for the team members and include that estimate in your program launch communications.
 
@@ -132,12 +129,11 @@ The following are examples of program structures and schedules:
 
 **Full program**
 
-<img src="../../../images/mya/use/Adopt-teams-2.png" alt="Program schedule example: Full program">
+![Full program schedule example](../../../images/mya/use/Adopt-teams-2.png)
 
 **Modified program**
 
-<img src="../../../images/mya/use/Adopt-teams-3.png" alt="Program schedule example: Modified program">
-
+![Modified program schedule example](../../../images/mya/use/Adopt-teams-3.png)
 
 ### A supplementary outcome metric (optional)
 
@@ -157,10 +153,10 @@ Successful change programs rely on consistent and transparent communication. Use
 
 Use these general guidelines when communicating with program participants:
 
- * Focus on the impact of the change on the employee.
- * Be clear about what you know now and what you do not know now.
- * Let employees know when more information will be available.
- * Be clear how employees can provide feedback about the program.
+* Focus on the impact of the change on the employee.
+* Be clear about what you know now and what you do not know now.
+* Let employees know when more information will be available.
+* Be clear how employees can provide feedback about the program.
 
 (Source: Prosci)
 
@@ -175,33 +171,33 @@ You can use the following example as a template to develop your program-communic
 
 Set your program on the right course with a strong launch email:
 
- * Have the executive sponsor send it.
- * Keep it as short as possible. Rely on links to more detailed information when available.
- * Personalize the message to draw attention.
- * Frame the program as an opportunity for learning and experimentation.
- * Provide employees with program contact information and easy feedback channel.
- * Include the [MyAnalytics Privacy Information](../../Overview/Privacy-Guide.md).
+* Have the executive sponsor send it.
+* Keep it as short as possible. Rely on links to more detailed information when available.
+* Personalize the message to draw attention.
+* Frame the program as an opportunity for learning and experimentation.
+* Provide employees with program contact information and easy feedback channel.
+* Include the [MyAnalytics Privacy Information](../../Overview/Privacy-Guide.md).
 
 This email can include:
 
- * Program introduction
- * MyAnalytics product overview
- * Program purpose statement (see [Conditions for Program Success](Team-adopt-intro.md#conditions-for-program-success))
- * High-level overview of program structure
-   * Start and end dates
-   * Main components
-   * Program team
- * Immediate action items and next steps
-   * Link to the pre-program survey
-   * Any additional action items
-   * Expected first program event, such as the kick-off meeting
- * Preferred method to provide feedback and ask questions throughout the program
- * Links to more information on MyAnalytics and privacy
-   * [MyAnalytics Overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
-   * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
-   * [Privacy Information](../../Overview/Privacy-Guide.md)
-   * [Resources for individual adoption](Indiv-adopt-get-started.md)
-   * Descriptions of [MyAnalytics elements](../mya-elements.md)
+* Program introduction
+* MyAnalytics product overview
+* Program purpose statement (see [Conditions for Program Success](Team-adopt-intro.md#conditions-for-program-success))
+* High-level overview of program structure
+  * Start and end dates
+  * Main components
+  * Program team
+* Immediate action items and next steps
+  * Link to the pre-program survey
+  * Any additional action items
+  * Expected first program event, such as the kick-off meeting
+* Preferred method to provide feedback and ask questions throughout the program
+* Links to more information on MyAnalytics and privacy
+  * [MyAnalytics Overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
+  * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
+  * [Privacy Information](../../Overview/Privacy-Guide.md)
+  * [Resources for individual adoption](Indiv-adopt-get-started.md)
+  * Descriptions of [MyAnalytics elements](../mya-elements.md)
 
 ## Gain support from other teams
 
@@ -209,7 +205,7 @@ Our work culture depends increasingly on multi-teaming, in which people are assi
 
 ## Establish a collaboration channel
 
-Adding a social component to your program will help spread new habits. Try to set up a collaboration channel, such as a Microsoft Teams channel, to support your program. 
+Adding a social component to your program will help spread new habits. Try to set up a collaboration channel, such as a Microsoft Teams channel, to support your program.
 
 Humans are social animals and we are heavily influenced by what those around us say and do. Social norms, which are the values, actions, and expectations of your group, guide your team’s behaviors  ([EAST Behavioral Change Method](http://38r8om2xjhhl25mw24492dir.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/BIT-Publication-EAST_FA_WEB.pdf)). A collaboration channel enables the members of your team to showcase new habits, share experiences (wins and challenges), support one another, make commitments to change, ask product questions, and provide feedback on the program.
 
@@ -251,18 +247,18 @@ A survey can be used to help you set your team goals. To learn more about goal s
 
 To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Team Behavior Change Program, use the following checklist:
 
-  <img src="../../../images/mya/use/Team-adopt-plan-checklist-box.PNG"> Executive sponsor briefed and on board
+![checkbox 1](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Executive sponsor briefed and on board
 
-  <img src="../../../images/mya/use/Team-adopt-plan-checklist-box.PNG"> Change agents briefed and ready to fulfill responsibilities
+![checkbox 2](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Change agents briefed and ready to fulfill responsibilities
 
-  <img src="../../../images/mya/use/Team-adopt-plan-checklist-box.PNG"> Program participants scoped
+![checkbox 3](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program participants scoped
 
-  <img src="../../../images/mya/use/Team-adopt-plan-checklist-box.PNG"> Communications plan drafted
+![checkbox 4](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Communications plan drafted
 
-  <img src="../../../images/mya/use/Team-adopt-plan-checklist-box.PNG"> Program structured
+![checkbox 5](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program structured
 
-  <img src="../../../images/mya/use/Team-adopt-plan-checklist-box.PNG"> Program-launch email finalized
+![checkbox 6](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program-launch email finalized
 
-  <img src="../../../images/mya/use/Team-adopt-plan-checklist-box.PNG"> Collaboration channel established
+![checkbox 7](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Collaboration channel established
 
-  <img src="../../../images/mya/use/Team-adopt-plan-checklist-box.PNG"> Pre-program survey created
+![checkbox 8](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG)Pre-program survey created

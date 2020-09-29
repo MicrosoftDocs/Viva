@@ -3,7 +3,7 @@
 title: Customize a base metric in a Workplace Analytics query
 description: How to customize and change a base metric in a Workplace Analytics query. 
 author: paul9955
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -55,30 +55,30 @@ To customize and then change a base metric:
 3. Select a date range and a meeting exclusion rule.
 4. In the **Metrics** section, select the plus (+) sign next to Add metric and then select a metric from the list:
  
-   ![select a metric](../Images/WpA/Tutorials/custom-metric-01.png)
+   ![add a metric](../Images/WpA/Tutorials/custom-metric-01.png)
 
-   > [!Note] 
+   > [!Note]
    > You can select multiple metrics from the list. When you are finished, select elsewhere on the page to close the list.
 
    For this example, select the **Conflicting meeting hours** metric:
 
-   ![selected metric](../Images/WpA/Tutorials/custom-metric-02.png)
+   ![select the conflicting meeting hours metric](../Images/WpA/Tutorials/custom-metric-02.png)
 
    The selected metric becomes the *base metric* for the query, and represents the area of focus for data analysis.
 
 6. Customize the metric by following these steps:
 
-   a. Select the **Edit** icon ![edit icon](../Images/WpA/Tutorials/edit-icon.png). This displays the option to apply filters to the base metric:
+   a. Select the **Edit** icon ![edit icon](../Images/WpA/Tutorials/edit-icon.png). This shows the option to apply filters to the base metric:
 
-   ![selected metric](../Images/WpA/Tutorials/custom-metric-03.png)
+   ![customize a metric](../Images/WpA/Tutorials/custom-metric-03.png)
 
    b. Select the plus (+) sign next to **Add filter**. A filter is now added. In our example, it's the Initiator filter:
 
-   ![selected metric](../Images/WpA/Tutorials/custom-metric-04.png)
+   ![add a filter](../Images/WpA/Tutorials/custom-metric-04.png)
 
-   c. Select the filter name, **Initiator**. This displays options that define the filters for email initiators.
+   c. Select the filter name, **Initiator**. This shows options that define the filters for email initiators:
 
-   ![selected metric](../Images/WpA/Tutorials/custom-metric-05.png)
+   ![define a filter](../Images/WpA/Tutorials/custom-metric-05.png)
 
    d. Define the filter details in the available fields. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters.
 

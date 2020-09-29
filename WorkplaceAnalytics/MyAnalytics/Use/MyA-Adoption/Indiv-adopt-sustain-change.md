@@ -5,7 +5,7 @@
 title: MyAnalytics Individual Adoption - Sustain change
 description: How to sustain change after collaboration goals are met by using MyAnalytics
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
@@ -58,7 +58,7 @@ Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynam
 
 Here are some suggestions for how to use MyAnalytics to change habits as a team:
 
- * Select a few [Habit playbooks](Adopt-Habit-playbooks.md) and do them together. Turn it into a friendly competition. For example, schedule a quick team check-in for the end of the month, and hand out prizes to anyone who can show that they spent zero hours multitasking in meetings during that month.
- * Share the [Learning modules](Adopt-Learning-Modules.md) with the full team and carve out time during team meetings to discuss them. These discussions can help you identify habits to experiment with and select new team collaboration norms.
+ * Select a few [Habit playbooks](adopt-habit-playbooks.md) and do them together. Turn it into a friendly competition. For example, schedule a quick team check-in for the end of the month, and hand out prizes to anyone who can show that they spent zero hours multitasking in meetings during that month.
+ * Share the [Learning modules](adopt-learning-modules.md) with the full team and carve out time during team meetings to discuss them. These discussions can help you identify habits to experiment with and select new team collaboration norms.
  * Try the [MyAnalytics Team Behavior Change Program](Team-adopt-intro.md). 
 

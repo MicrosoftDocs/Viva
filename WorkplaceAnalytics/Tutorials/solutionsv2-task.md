@@ -3,7 +3,7 @@
 title: Workplace Analytics plan walkthrough
 description: A walkthrough of the steps required to create a plan in Workplace Analytics
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Plans: Walkthrough
 
-You can use the _plans_ feature of Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. You can create a plan, track it while it is in progress, and examine it after it completes. 
+You can use the _plans_ feature of Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. You can create a plan, track it while it is in progress, and examine it after it completes.
 
 People in the following roles can work on improvement plans in various ways:
 
@@ -89,7 +89,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 > [!Tip]
 > These steps work best after you’ve decided on the type of plan. Where might people in your organization have a problem? The available plans address too few focus hours (Focus plan), too many hours of meetings (Collaboration plan), or too much collaboration after the workday ends (Wellbeing plan).
 
-   ![Pick a plan](../images/wpa/tutorials/pick-a-plan.png)
+   ![Pick a plan to analyze](../images/wpa/tutorials/pick-a-plan.png)
 
 #### To identify a group by using filters and charts
 
@@ -101,7 +101,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 3. Scope your data. To start, narrow the focus to specific people by applying filters in the **Page settings** pane. If it's not open, select **Settings and filters** at the top right of the page:
 
-    ![Filter and analyze](../images/wpa/tutorials/settings-and-filters.png)
+    ![Settings and filters](../images/wpa/tutorials/settings-and-filters.png)
 
     ![Page settings](../images/wpa/tutorials/page-settings.png)
 
@@ -127,7 +127,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 8. After you identify the groups, select **Start plan** to open **Set up new plan** to show the filters that you set in the charts and in page settings:
 
-    ![Set up new plan](../images/wpa/tutorials/set-up-new-plan.png)
+    ![Set up a new plan](../images/wpa/tutorials/set-up-new-plan.png)
 
     > [!Note]  
     > Because these steps are using analysis to find the group and filters are an important part of that analysis, **Use filters** is the default option. However, you can select **Upload .csv file** to upload participant data instead.

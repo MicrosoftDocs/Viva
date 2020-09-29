@@ -1,5 +1,5 @@
 ---
-title: Privacy guide for MyAnalytics users
+title: Privacy guide - MyAnalytics
 description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-pausch
@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: user
 ---
 
-# Privacy guide for MyAnalytics users
+# MyAnalytics privacy guide
 
 MyAnalytics helps you find opportunities to build better habits and get back in control of your time. This article describes how MyAnalytics works, what data it uses, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how MyAnalytics complies with GDPR regulations.
 
