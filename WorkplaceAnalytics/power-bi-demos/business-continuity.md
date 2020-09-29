@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Business continuity dashboard demo for Workplace Analytics
 description: See a demonstration of the Power BI Business continuity dashboard
 localization_priority: normal 

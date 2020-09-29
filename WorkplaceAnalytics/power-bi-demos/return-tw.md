@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Return to worksites dashboard demo for Workplace Analytics
 description: See a demonstration of the Power BI Return to worksites dashboard
 localization_priority: normal 

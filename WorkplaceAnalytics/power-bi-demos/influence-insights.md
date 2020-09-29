@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Influence insights dashboard demo for Workplace Analytics
 description: See a demonstration of the Power BI Influence insights dashboard
 localization_priority: normal 

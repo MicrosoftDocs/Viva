@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Teams insights dashboard demo for Workplace Analytics
 description: See a demonstration of the Power BI Teams insights dashboard
 localization_priority: normal 
