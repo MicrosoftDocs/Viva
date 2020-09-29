@@ -45,10 +45,12 @@ For plan participants, the digest email includes an additional section, the _Tea
 
 ![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png) 
 
+<!--  THIS SECTION CAN DESCRIBE THE EXCEPTION CAUSE BY "ADAPTIVE" AFTER WE GET THAT WORDING FROM PM. (PER PRAMOD, HELEN)
 > [!Note] 
-> This Team Plans is unavailable in the following circumstance:
+> This Team Plans section is unavailable in the following circumstance:
 > * It is a week in which the digest email is about _Focus_ or _Network_.
 > * You are using a particular email client application to view your digest emails.
+-->
 
 ## MyAnalytics inline suggestions
 
