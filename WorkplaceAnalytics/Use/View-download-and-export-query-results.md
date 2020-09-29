@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-**Role:** Analyst role is required in Workplace Analytics to view, download, or export query results
+**Role:** The analyst role is required in Workplace Analytics to view, download, or export query results
   
 In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
@@ -78,14 +78,12 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
 ### Use an OData link to view data in Excel
 
-**Role:** analyst or limited analyst
-
 1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**. 
 2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**: 
 
    ![Copy OData link from query results](../images/wpa/use/odata-link-copied.png)
 
-3. Open Excel and select **Blank workbook**.
+3. Open Excel and select **Blank workbook**. 
 4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**: 
 
    ![Sign in to Workplace Analytics organizational account](../images/wpa/use/data-odata-in-excel.png)
@@ -96,13 +94,11 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
 6. Select **Organizational account** and then select **Sign in**:
 7. When the Office 365 dialog box prompts you, select the account and enter the password that you use to log in to Workplace Analytics. You'll then see: "You are currently signed in."
-8. In the **OData feed** dialog box, select **Connect**. At this point, a **Refresh** dialog box might show the status of the preparation of your data for import. 
+8. In the **OData feed** dialog box, select **Connect**. Before the query-results data is imported into your Excel workbook, a **Refresh** dialog box might appear that shows the status of preparation of the data for import.
 
 After Excel finishes importing your Workplace Analytics data, use Excel to explore and create visualizations of the data.
 
 ### Connect through the Power BI Connector
-
-**Role:** analyst or limited analyst
 
 The Power BI Connector automatically enforces the privacy rules configured in Workplace Analytics by providing aggregated query data in Power BI. It also automatically updates your Power BI visuals by using the same auto-refresh schedule set for the query in Workplace Analytics.  
 
