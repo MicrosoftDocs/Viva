@@ -6,7 +6,7 @@ ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
 ---
-# Sales business continuity
+# Sales business continuity demo
 
 This dashboard shows insights into how your Sales organization and your sellers are being impacted by the shift to remote work. It directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
