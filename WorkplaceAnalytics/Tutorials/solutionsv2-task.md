@@ -140,6 +140,9 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 11. Any warnings reduce the number of potential members in the group. If the remaining group size is above the minimum group size, you can proceed. If you are satisfied with the group at this point, select **Save as draft**, and then go to [Start the plan](#start-the-plan) for next steps.
 
+> [!Note] 
+> Before you start a plan, it's a good idea to inform plan participants about the upcoming plan, its goals, and its start and end dates. You could, for example, send this information a "welcome" or "program-launch" email as described in [Program-launch email](../myanalytics/use/mya-adoption/team-adopt-plan.md#program-launch-email). For more information, see the best-practices recommendations in [Develop a communications plan](../myanalytics/use/mya-adoption/team-adopt-plan.md#develop-a-communications-plan). 
+
 ## Start the plan
 
 **Role:** analyst, limited analyst, or program manager
