@@ -282,8 +282,8 @@
           href: MyAnalytics/Use/network.md
         - name: Collaboration
           href: MyAnalytics/Use/collaboration.md  
- #       - name: Leadership
- #         href: MyAnalytics/use/leadership.md 
+        - name: Leadership
+          href: MyAnalytics/use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction 
