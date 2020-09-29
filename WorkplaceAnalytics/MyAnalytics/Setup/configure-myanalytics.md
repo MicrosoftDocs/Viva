@@ -91,6 +91,9 @@ You can set this parameter for one or many users:
 * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)
 * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
 
+> [!Important] 
+> You might have scripts in place that use the PowerShell cmdlets Get-UserAnalyticsConfig and Set-UserAnalyticsConfig. By November 10, 2020, these cmdlets will be retired, and replaced by the new cmdlets Get-MyAnalyticsFeatureConfig and Set-MyAnalyticsFeatureConfig, respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date. 
+
 ### User configuration settings
 
 PrivacyMode parameter  | Licensed user  | Unlicensed user
