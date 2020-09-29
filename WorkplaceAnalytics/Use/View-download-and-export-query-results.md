@@ -76,9 +76,9 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
    >   * If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
    >   * If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you must run a new query and get a new corresponding URL.
 
-### Use OData link to view data in Excel
+### Use an OData link to view data in Excel
 
-**Required role:** analyst or limited analyst
+**Role:** analyst or limited analyst
 
 1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**.
 2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**:
@@ -90,7 +90,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    ![Sign in to Workplace Analytics organizational account](../images/wpa/use/data-odata-in-excel.png)
 
-4. In Excel, paste the OData link (a URL) that you copied into the **OData feed** dialog box, and select **OK**:
+4. In Excel, paste the copied OData link into the **OData feed** dialog box and select **OK**:
 
    ![Paste link into Excel](../images/wpa/use/link-pasted-in-excel.png)
 
@@ -102,7 +102,7 @@ After Excel finishes importing your Workplace Analytics data, use Excel to explo
 
 ### Connect through the Power BI Connector
 
-**Required role:** analyst or limited analyst
+**Role:** analyst or limited analyst
 
 The Power BI Connector automatically enforces the privacy rules configured in Workplace Analytics by providing aggregated query data in Power BI. It also automatically updates your Power BI visuals by using the same auto-refresh schedule set for the query in Workplace Analytics.  
 
