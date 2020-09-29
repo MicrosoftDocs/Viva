@@ -9,7 +9,8 @@ author: madehmer
 # Collaboration tracker demo
 
 This dashboard helps you track changes in collaboration over time and how it is affecting the key performance indicators (KPIs) for employees, such as wellbeing, meeting culture, and manager effectiveness. It also helps you target opportunities to improve KPIs for employees.
-<br><iframe width="800" height="400" src="https://msit.powerbi.com/view?r=eyJrIjoiOGNmZDVjNTQtZjdiYy00M2JjLWE5MjAtMTM3YzY0Zjk3OTI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiOGNmZDVjNTQtZjdiYy00M2JjLWE5MjAtMTM3YzY0Zjk3OTI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
 
 ## Related topic
