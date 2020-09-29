@@ -139,7 +139,21 @@
                     - name: Introduction
                       href: ~/tutorials/power-bi-templates.md
                     - name: Dashboard demos
-                      href: ~/power-bi-demos/demo-intro.md
+                      items:
+                        - name: Business continuity demo
+                          href: ~/power-bi-demos/business-continuity.md
+                        - name: Collaboration assessment demo
+                          href: ~/power-bi-demos/collaboration-assess.md
+                        - name: Collaboration tracker demo
+                          href: ~/power-bi-demos/collaboration-tracker.md
+                        - name: Influence insights demo
+                          href: ~/power-bi-demos/influence-insights.md
+                        - name: Return to worksites demo
+                          href: ~/power-bi-demos/return-tw.md
+                        - name: Sales business continuity demo
+                          href: ~/power-bi-demos/sales-b-continuity.md
+                        - name: Teams insights demo
+                          href: ~/power-bi-demos/teams-insights.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration assessment
