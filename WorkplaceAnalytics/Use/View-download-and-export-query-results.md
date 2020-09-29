@@ -80,13 +80,13 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
 **Role:** analyst or limited analyst
 
-1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**.
-2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**:
+1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**. 
+2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**: 
 
    ![Copy OData link from query results](../images/wpa/use/odata-link-copied.png)
 
 3. Open Excel and select **Blank workbook**.
-4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**:
+4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**: 
 
    ![Sign in to Workplace Analytics organizational account](../images/wpa/use/data-odata-in-excel.png)
 
