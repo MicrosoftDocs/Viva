@@ -1,4 +1,4 @@
-- name: Dashboard demos introduction
+- name: Introduction
   href: ./demo-intro.md
 - name: Business continuity
   href: ./business-continuity.md
