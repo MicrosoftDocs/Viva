@@ -139,7 +139,7 @@
                     - name: Introduction
                       href: ~/tutorials/power-bi-templates.md
                     - name: Template demos
-                      href: ~/power-bi-demos/business-continuity.md
+                      href: ~/power-bi-demos/demo-intro.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration assessment
