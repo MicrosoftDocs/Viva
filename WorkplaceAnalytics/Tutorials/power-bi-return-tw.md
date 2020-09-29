@@ -27,7 +27,7 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 After the dashboard populates with data, you can evaluate which of the two seat-allocation plans will work for your organization’s teams.
 
-For an interactive demonstration of this dashboard, see [Return to worksites demo](../power-bi-demos/return-tw).
+For an interactive demonstration of this dashboard, see [Return to worksites demo](../power-bi-demos/return-tw.md).
 
 ## Prerequisites
 

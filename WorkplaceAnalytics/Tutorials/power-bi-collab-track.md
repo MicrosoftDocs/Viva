@@ -25,7 +25,7 @@ The dashboard also includes an **Example interventions** page that has ideas on 
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration tracker** query in Workplace Analytics. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
 
-For an interactive demonstration of this dashboard, see [Collaboration tracker demo](../power-bi-demos/collaboration-tracker).
+For an interactive demonstration of this dashboard, see [Collaboration tracker demo](../power-bi-demos/collaboration-tracker.md).
 
 ## Prerequisites
 

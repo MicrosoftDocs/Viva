@@ -11,16 +11,16 @@ author: madehmer
 
 Select one of the following Workplace Analytics Power BI dashboards to see an interactive demo for it.
 
-* [Business continuity demo](../power-bi-demos/business-continuity)
+* [Business continuity demo](./business-continuity.md)
 
-* [Collaboration assessment demo](../power-bi-demos/collaboration-assess)
+* [Collaboration assessment demo](./collaboration-assess.md)
 
-* [Collaboration tracker demo](../power-bi-demos/collaboration-tracker)
+* [Collaboration tracker demo](./collaboration-tracker.md)
 
-* [Influence insights demo](../power-bi-demos/influence-insights)
+* [Influence insights demo](./influence-insights.md)
 
-* [Return to worksites demo](../power-bi-demos/return-tw.md)
+* [Return to worksites demo](./return-tw.md)
 
-* [Sales business continuity demo](../power-bi-demos/sales-b-continuity)
+* [Sales business continuity demo](./sales-b-continuity.md)
 
-* [Teams insights demo](../power-bi-demos/teams-insights)
+* [Teams insights demo](./teams-insights.md)
