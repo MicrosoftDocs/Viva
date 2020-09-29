@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Business continuity dashboard
+# Business continuity
 
 The Business continuity dashboard uses a Power BI template that’s populated populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
 
