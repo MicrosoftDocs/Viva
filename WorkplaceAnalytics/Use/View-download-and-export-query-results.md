@@ -85,18 +85,18 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    ![Copy OData link from query results](../images/wpa/use/odata-link-copied.png)
 
-2. Open Excel and select **Blank workbook**.
-3. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**:
+3. Open Excel and select **Blank workbook**.
+4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**:
 
    ![Sign in to Workplace Analytics organizational account](../images/wpa/use/data-odata-in-excel.png)
 
-4. In Excel, paste the copied OData link into the **OData feed** dialog box and select **OK**:
+5. In Excel, paste the copied OData link into the **OData feed** dialog box and select **OK**:
 
    ![Paste link into Excel](../images/wpa/use/link-pasted-in-excel.png)
 
-5. Select **Organizational account** and then select **Sign in**:
-6. When the Office 365 dialog box prompts you, select the account and enter the password that you use to log in to Workplace Analytics. You'll then see: "You are currently signed in."
-7. In the **OData feed** dialog box, select **Connect**. At this point, a **Refresh** dialog box might show the status of the preparation of your data for import. 
+6. Select **Organizational account** and then select **Sign in**:
+7. When the Office 365 dialog box prompts you, select the account and enter the password that you use to log in to Workplace Analytics. You'll then see: "You are currently signed in."
+8. In the **OData feed** dialog box, select **Connect**. At this point, a **Refresh** dialog box might show the status of the preparation of your data for import. 
 
 After Excel finishes importing your Workplace Analytics data, use Excel to explore and create visualizations of the data.
 
