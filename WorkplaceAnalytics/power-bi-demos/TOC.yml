@@ -1,3 +1,5 @@
+- name: Dashboard demos introduction
+  href: ./demo-intro.md
 - name: Business continuity
   href: ./business-continuity.md
 - name: Collaboration assessment
