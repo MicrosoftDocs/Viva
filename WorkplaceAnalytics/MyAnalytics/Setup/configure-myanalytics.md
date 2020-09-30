@@ -231,7 +231,7 @@ Set-MyAnalyticsFeatureConfig -Identity <string> -Feature digest-email -isEnabled
 Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false> 
 
 ##### Example - PrivacyMode and features
-Running the following command opts the user in and enables all the features of MyAnalytics except the digest email:
+Running the following command opts the user in (by setting PrivacyMode to 'opt-in') and enables all the features of MyAnalytics except the digest email:
 
    ```powershell
 Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in -Feature digest-email -isEnabled $false 
