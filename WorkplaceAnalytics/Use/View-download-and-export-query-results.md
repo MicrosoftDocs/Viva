@@ -3,7 +3,7 @@
 title: View, download, and export Workplace Analytics query results
 description: Describes how to view, download, and export Workplace Analytics query results to Power BI and other data analysis tools
 author: madehmer
-ms.author: paul9955
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-**Role:** Analyst role is required in Workplace Analytics to view, download, or export query results
+**Role:** The analyst role is required in Workplace Analytics to view, download, or export query results
   
 In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
@@ -76,9 +76,29 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
    >   * If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
    >   * If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you must run a new query and get a new corresponding URL.
 
-### Connect through the Power BI Connector
+### Use an OData link to view data in Excel
 
-**Required role:** Analyst or Limited analyst
+1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**. 
+2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**: 
+
+   ![Copy OData link from query results](../images/wpa/use/odata-link-copied.png)
+
+3. Open Excel and select **Blank workbook**. 
+4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**: 
+
+   ![Open OData link in Excel](../images/wpa/use/data-odata-in-excel.png)
+
+5. In Excel, paste the copied OData link into the **OData feed** dialog box and select **OK**:
+
+   ![Paste link into Excel](../images/wpa/use/link-pasted-in-excel.png)
+
+6. Select **Organizational account** and then select **Sign in**:
+7. When the Office 365 dialog box prompts you, select the account and enter the password that you use to log in to Workplace Analytics. You'll then see: "You are currently signed in."
+8. In the **OData feed** dialog box, select **Connect**. Before the query-results data is imported into your Excel workbook, a **Refresh** dialog box might appear that shows the status of preparation of the data for import.
+
+After Excel finishes importing your Workplace Analytics data, use Excel to explore and create visualizations of the data.
+
+### Connect through the Power BI Connector
 
 The Power BI Connector automatically enforces the privacy rules configured in Workplace Analytics by providing aggregated query data in Power BI. It also automatically updates your Power BI visuals by using the same auto-refresh schedule set for the query in Workplace Analytics.  
 

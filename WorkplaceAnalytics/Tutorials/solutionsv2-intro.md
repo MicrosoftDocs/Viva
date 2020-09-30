@@ -3,7 +3,7 @@
 title: Introduction to Workplace Analytics plans
 description: Introduction and summary of Workplace Analytics plans
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa

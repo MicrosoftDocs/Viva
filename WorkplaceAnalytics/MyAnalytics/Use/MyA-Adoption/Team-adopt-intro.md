@@ -5,11 +5,11 @@
 title: MyAnalytics Team Adoption --Introduction
 description: MyAnalytics Team Adoption by Kate Nowak --Introduction section
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Get started

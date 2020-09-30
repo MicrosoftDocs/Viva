@@ -1,12 +1,8 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: How to interpret query output in Workplace Analytics
 description: Understand and interpret query output is Workplace Analytics
 author: madehmer
-ms.author: v-midehm
-ms.date: 04/08/2019
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -58,7 +54,7 @@ In person-to-group queries, the query output includes column headers with single
 
 For example, PersonId of P1 collaborated with group G1 in weeks one and three of the specified month. For a person-to-group query that's grouped by "week" in the **Time investors** section (*How do you want to group the people who collaborated with the time investors?*). Then rows will be created for (P1, G1) in weeks one and three only.
 
-![Table of columns](../images/WpA/Use/personId.png)
+![Table of columns with time investors](../images/WpA/Use/personId.png)
 
 >[!Note]
 > People are assigned randomly-generated PersonIds to maintain de-identification. No individuals can be identified from the query output.
@@ -94,7 +90,7 @@ In addition to the standard columns present in the .csv file output of person-to
 
 The .csv output file for both person-to-group queries and group-to-group queries will include one or more header columns based on the standard or customized metrics selected when creating the query.  
 
-![Table of columns](../images/WpA/Use/select-metrics.png)
+![Table of columns for group-to-group queries](../images/WpA/Use/select-metrics.png)
 
 For details about person-to-group metrics, see [Workplace Analytics metrics](../use/metric-definitions.md#person-to-group-metrics).
 

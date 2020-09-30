@@ -3,7 +3,7 @@
 title: Understand meeting exclusions in Workplace Analytics
 description: How to use meeting exclusions in Workplace Analytics 
 author: madehmer
-ms.author: paul9955
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

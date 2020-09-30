@@ -6,10 +6,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Unread emails in MyAnalytics
 description: What to do in MyAnalytics about unread emails
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 # Unread emails from important people

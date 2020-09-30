@@ -6,7 +6,7 @@ author: madehmer
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin

@@ -5,11 +5,11 @@
 title: To see email information and insights in MyAnalytics
 description: How to see email information and general insights in MyAnalytics 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 **To see information about an email message and general insights into your use of time**

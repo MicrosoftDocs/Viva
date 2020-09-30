@@ -1,0 +1,11 @@
+- name: Manager insights introduction
+  href: ./introduction.md
+- name: Get started
+  href: ./get-started.md
+- name: Best practices
+  href: ./gm-best-practices.md
+- name: Plans
+  href: ./plans.md
+- name: Frequently asked questions
+  href: ./faqs.md
+  

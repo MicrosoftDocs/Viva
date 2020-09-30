@@ -3,7 +3,7 @@
 title: Group-based licensing for Workplace Analytics
 description: Assign group-based licensing for Workplace Analytics
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:
@@ -27,7 +27,7 @@ Microsoft Workplace Analytics is an add-on product that contains a single servic
 
 If you try to assign this product on its own to a group, the portal will return an error:
 
-![Admin center](../Images/WpA/Use/AAD_Group2.png )
+![Admin center group error message](../Images/WpA/Use/AAD_Group2.png )
 
 The error notification details will include the following error message:
 > _License operation failed. Make sure that the group has necessary services before adding or removing a dependent service. **The service Microsoft Workplace Analytics requires Exchange Online (Plan 2) to be enabled as well.**_

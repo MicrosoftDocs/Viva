@@ -5,7 +5,7 @@
 title: Use the auto-refresh option for queries in Workplace Analytics 
 description: Describes the auto-refresh option for queries in Workplace Analytics
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa

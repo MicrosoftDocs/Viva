@@ -88,7 +88,13 @@
             - name: Insights
               href: ~/Use/home-page.md
             - name: Manager insights
-              href: ~/Use/pm-home.md              
+              items:
+                - name: Overview
+                  href: ~/Use/pm-home.md
+                - name: Rollout to managers
+                  href: ~/manager-insights/rollout.md
+                - name: FAQs
+                  href: ~/Use/insight-faqs.md
         - name: Analyze
           items:
             - name: Explore
@@ -280,8 +286,8 @@
           href: MyAnalytics/Use/network.md
         - name: Collaboration
           href: MyAnalytics/Use/collaboration.md  
- #       - name: Leadership
- #         href: MyAnalytics/use/leadership.md 
+        - name: Leadership
+          href: MyAnalytics/use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction 
@@ -294,7 +300,7 @@
               href: MyAnalytics/Use/mya-adoption/Indiv-adopt-diagnose.md
             - name: Set your goal
               href: MyAnalytics/Use/mya-adoption/Indiv-adopt-set-goals.md
-            - name: Build your habit
+            - name: Develope new habits
               href: MyAnalytics/Use/mya-adoption/Indiv-adopt-develop-habits.md
             - name: Sustain change
               href: MyAnalytics/Use/mya-adoption/Indiv-adopt-sustain-change.md
@@ -317,8 +323,8 @@
           - name: Habit resources
             items: 
             - name: Learning modules
-              href: MyAnalytics/Use/mya-adoption/Adopt-Learning-modules.md
+              href: MyAnalytics/Use/mya-adoption/adopt-learning-modules.md
             - name: Habit-building method
-              href: MyAnalytics/Use/mya-adoption/Adopt-Habit-building-method.md
+              href: MyAnalytics/Use/mya-adoption/adopt-habit-building.md
             - name: Habit playbooks
-              href: MyAnalytics/Use/mya-adoption/Adopt-Habit-playbooks.md
+              href: MyAnalytics/Use/mya-adoption/adopt-habit-playbooks.md
