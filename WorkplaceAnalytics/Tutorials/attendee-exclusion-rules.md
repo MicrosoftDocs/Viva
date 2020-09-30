@@ -19,36 +19,19 @@ This article describes a different exclusion type, the _attendee exclusion_. You
 
 ## Responses to meeting invitations
 
-Creating attendee exclusions lets you effectively redefine _meeting attendance_ in Workplace Analytics analyses. By default, "attending a meeting" means that a person responded to the meeting invitation with **Accept**. 
+Creating attendee exclusions lets you effectively redefine meeting attendance in Workplace Analytics analyses. By default, "attending a meeting" means that a person did not decline the meeting invitation.
 
-But attendees can make other choices: 
-
-* Decline the meeting.
-* Accept the meeting invitation as [Tentative](#tentative).
-* Make [no response](#no-response) to the meeting invitation.
-
-By creating an attendee exclusion, you can change that definition to also include either or both of the invitee actions "tentative" and "no response." 
+By creating an attendee exclusion, you can change that definition to also include either or both of the invitee actions "tentative" and "no response."
 
 ### Tentative
 
-In some countries, it is a cultural practice not to "decline" a meeting; rather, a "Tentative" response means "I won’t be attending but I still want to keep this meeting on my calendar." As an analyst, you can exclude invitees who tentatively accepted a meeting invitation. 
+In some countries, it is a cultural practice not to "decline" a meeting; rather, a "Tentative" response means "I won’t be attending but I still want to keep this meeting on my calendar." As an analyst, you can exclude invitees who tentatively accepted a meeting invitation.
 
-Using the "accepted as tentative" exclusion would mean that a meeting invitee who tentatively accepted is not counted as an attendee to that particular meeting. 
+Using the "accepted as tentative" exclusion would mean that a meeting invitee who tentatively accepted is not counted as an attendee to that particular meeting.
 
 ### No response
 
-Sometimes, meeting invitees do not respond to meeting invitations. There is more than one way to do this. The following actions are all interpreted as "did not respond":
-
- * The invitee took no action; they actually did not respond to the invitation.
- * The invitee selected **Accept** and also **Do not send a response**.
- * The invitee selected **Tentative** and also **Do not send a response**.
- * The invitee selected **Decline** and also **Do not send a response**.
-
-This screenshot shows the **Do not send a response** option for the **Accept** meeting response: 
-   
-   ![Meeting response options](../images/wpa/tutorials/response-options.png)
-
-Using the "did not respond" exclusion would mean that a meeting invitee who did not respond is not counted as an attendee to that particular meeting. 
+Sometimes, meeting invitees do not respond to meeting invitations. Using the "did not respond" exclusion would mean that a meeting invitee who did not respond is not counted as an attendee to that particular meeting.
 
 ## Create an attendee exclusion
 
@@ -74,7 +57,7 @@ Using the "did not respond" exclusion would mean that a meeting invitee who did 
 
    The **Potential impact of exclusion** area shows the percentage and total number of potential attendees at meetings whose data will be excluded from analysis if you publish and use this exclusion rule. 
 
-8. Optionally, select **Apply this exclusion for metrics in Explore page**. This option does not automatically affect any queries; it affects only the data that is displayed in the Workplace Analytics [Explore](../use/explore-intro.md) pages. 
+8. Optionally, select **Apply this exclusion for metrics in Explore page**. Selecting tThis option does not automatically affect any existing queries. It makes this exclusion appear as the default for new queries, and it affects only the data that is displayed in the Workplace Analytics [Explore](../use/explore-intro.md) pages. 
 
 9. Select **Publish**. Your new exclusion rule will now be available to analysts who create and run queries. 
 
