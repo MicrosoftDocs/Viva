@@ -201,11 +201,13 @@ The command Set-MyAnalyticsFeatureConfig can be used in three different ways:
 
 #### Set the PrivacyMode parameter 
 
+For more information about PrivacyMode, see [Configure access at the user level](#configure-access-at-the-user-level).
+
 ##### Command syntax - PrivacyMode
 Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode <opt-in/opt-out>
 
 ##### Example - PrivacyMode
-When the following command is executed, the privacy mode is set to "opt-in" and all the features are enabled by default:
+Running the following command sets the privacy mode to "opt-in" and enables all the features of MyAnalytics for the user:
 
    ```powershell
    Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in   
@@ -217,7 +219,7 @@ When the following command is executed, the privacy mode is set to "opt-in" and 
 Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
 
 ##### Example - features on or off
-When the following command is executed, the digest email is disabled for the user:
+Running the following command disables the digest email for the user:
 
    ```powershell
 Set-MyAnalyticsFeatureConfig -Identity <string> -Feature digest-email -isEnabled $false
@@ -229,7 +231,7 @@ Set-MyAnalyticsFeatureConfig -Identity <string> -Feature digest-email -isEnabled
 Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false> 
 
 ##### Example - PrivacyMode and features
-When the following command is executed, the user will be opt-in with all the features enabled except the digest-email:
+Running the following command opts the user in and enables all the features of MyAnalytics except the digest email:
 
    ```powershell
 Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in -Feature digest-email -isEnabled $false 
