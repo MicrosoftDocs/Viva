@@ -23,8 +23,6 @@ After you successfully run these queries, you'll see the Influence insights Powe
 
 After the Influence insights dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
-For an interactive demonstration of this dashboard, see [Influence insights demo](../power-bi-demos/influence-insights.md).
-
 ## Demonstration
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZWMyNTJmNzktOWQzYy00OTEwLTgxZmQtZDZmMGI1OTJjYjYwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>

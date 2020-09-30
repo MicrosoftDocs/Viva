@@ -27,8 +27,6 @@ After you successfully run these queries, you'll see the Power BI template as an
 
 When the Sales business continuity dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
-For an interactive demonstration of this dashboard, see [Sales business continuity demo](../power-bi-demos/sales-b-continuity.md).
-
 ## Demonstration
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZWMyNTJmNzktOWQzYy00OTEwLTgxZmQtZDZmMGI1OTJjYjYwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
