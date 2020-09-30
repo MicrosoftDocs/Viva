@@ -5,11 +5,11 @@
 title: To opt out of MyAnalytics 
 description: How to turn off the MyAnalytics 
 author: madehmer
-ms.author: v-midehm
+ms.author: v-pausch
 ms.date: 05/06/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 **To opt out of MyAnalytics**

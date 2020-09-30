@@ -5,7 +5,7 @@
 title: ExamplePersonQuery
 description: ExamplePersonQuery file to hold example ExamplePersonQuery.csv
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa

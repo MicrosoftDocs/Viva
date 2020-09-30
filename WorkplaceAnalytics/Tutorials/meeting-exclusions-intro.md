@@ -5,7 +5,7 @@
 title: Meeting exclusion rules in Workplace Analytics -- Introduction
 description: Meeting exclusion rules introduction    
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa

@@ -5,7 +5,7 @@
 title: Workplace Analytics Setup -- meeting exclusions
 description: Set up initial meeting exclusions for Workplace Analytics
 author: paul9955
-ms.author: v-midehm
+ms.author: v-mideh
 ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 

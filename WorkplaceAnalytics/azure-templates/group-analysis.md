@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Group Analysis Azure Template for Workplace Analytics 
 description: Learn about the Group Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:

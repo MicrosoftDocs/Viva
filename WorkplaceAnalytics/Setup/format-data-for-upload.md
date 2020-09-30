@@ -1,10 +1,10 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Format data for upload to Workplace Analytics
-description: How to format .xlsx files and .csv files for upload to Workplace Analytics 
+title: Format data for uploading in Workplace Analytics
+description: How to format .xlsx files and .csv files for uploading in Workplace Analytics 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -23,13 +23,12 @@ Various setup and usage tasks require admins to upload data to Workplace Analyti
 END OF EVENTUAL HEADER & INTRO PARAGRAPH
 -->
 
-For these uploads, you can choose from among two file formats. The following sections describe how to format these files so that Workplace Analytics can parse and use their data. 
+For these uploads, you can choose from among two file formats. The following sections describe how to format these files so that Workplace Analytics can parse and use their data.
 
- * [Format .xlsx files](#format-xlsx-files)
- * [Format UTF-8 encoded .csv files](#format-utf-8-encoded-csv-files)
+* [Format .xlsx files](#format-xlsx-files)
+* [Format UTF-8 encoded .csv files](#format-utf-8-encoded-csv-files)
 
-
-### Which format to use?
+### Which format to use
 
 **Recommended: Use the .xlsx format.** We recommend this format because it is usually easier to use. But in many cases, you could use either format, provided that you heed their restrictions:   
 
@@ -56,73 +55,74 @@ Workplace Analytics can accept organizational data in .xlsx files produced by Mi
 
 Acceptable .xlsx files must adhere to the following:  
 
- * **File extension.** The extension must be _.xlsx_. It cannot be any other extension (such as .xls, .xlsb, or .xlsm) that is supported by Microsoft Excel or another spreadsheet application.
- * **Size limit.** The upper limit of .xlsx files for upload is 1.0 GB. If your upload file is larger than 1.0 GB, use the .csv format instead.  
- * **No formulas or macros.** Include no formulas or macros in cells in the .xlsx file.  
+* **File extension.** The extension must be _.xlsx_. It cannot be any other extension (such as .xls, .xlsb, or .xlsm) that is supported by Microsoft Excel or another spreadsheet application.
+* **Size limit.** The upper limit of .xlsx files for upload is 1.0 GB. If your upload file is larger than 1.0 GB, use the .csv format instead.  
+* **No formulas or macros.** Include no formulas or macros in cells in the .xlsx file.  
 * **No special objects.** Do not include charts, images, pivot tables, or other such entities in the file. 
- * **Accepted number and date formats.** While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Apply the correct data type](#apply-the-correct-data-type).
- * **Internal structure.** See the following section, [Structure an .xlsx file](#structure-an-xlsx-file) to learn how to structure the columns and rows in an .xlsx file for successful upload.
+* **Accepted number and date formats.** While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Apply the correct data type](#apply-the-correct-data-type).
+* **Internal structure.** See the following section, [Structure an .xlsx file](#structure-an-xlsx-file) to learn how to structure the columns and rows in an .xlsx file for successful upload.
 
- ### Structure an .xlsx file
+### Structure an .xlsx file
 
- #### Sheets
+#### Sheets
 
- * **First sheet only.** Workplace Analytics will read only the first sheet of the .xlsx file. You can have data on other sheets, but it will be ignored. To confirm which sheet is the first sheet, open the file in Excel and locate the tab farthest to the left. 
+* **First sheet only.** Workplace Analytics will read only the first sheet of the .xlsx file. You can have data on other sheets, but it will be ignored. To confirm which sheet is the first sheet, open the file in Excel and locate the tab farthest to the left. 
 
-   In the following example, only the data in the sheet labeled "DataSheet" will be used:
+  In the following example, only the data in the sheet labeled "DataSheet" will be used:
 
    ![First data sheet only](../images/wpa/setup/first-sheet-only.png)
 
- #### Columns and rows
+#### Columns and rows
 
- * **The first row contains column headers only.** In the first sheet, the values in the first row are considered to be column headers. 
+* **The first row contains column headers only.** In the first sheet, the values in the first row are considered to be column headers.
+
+   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md). 
+
+* **No duplicate column headers.** Every column header must be unique. 
+* **No blank or repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
+* **Strings only in column headers.** Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type).
+* **Only _column span_ data is used.** The _column span_ is the set of contiguous columns in the worksheet that starts with column A and ends with the final column that has a header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique. 
  
-    Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md). 
+  **Example 1:** In this example, the column span is columns A through H: 
 
- * **No duplicate column headers.** Every column header must be unique. 
- * **No blank or repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
- * **Strings only in column headers.** Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type).
- * **Only _column span_ data is used.** The _column span_ is the set of contiguous columns in the worksheet that starts with column A and ends with the final column that has a header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique. 
- 
-   **Example 1:** In this example, the column span is columns A through H: 
-   
-   ![Column span](../images/wpa/setup/column-span-simple.png)
+   ![Column span A](../images/wpa/setup/column-span-simple.png)
 
-   **Example 2:** In this example, the column-header cell G1 is missing: 
+   **Example 2:** In this example, the column-header cell G1 is missing:
 
-   ![Column span](../images/wpa/setup/column-span-simple-w-blank.png)
+   ![Column span G1](../images/wpa/setup/column-span-simple-w-blank.png)
 
    In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error ("blank header value").
 
    **Example 3:** In this example, the values in cells J3 and J4 are ignored because they lie outside the column span. (The column span extends only to column H, so any data in columns beyond H is ignored.)
 
-   ![Column span](../images/wpa/setup/column-span.png)
+   ![Column span J3 and J4](../images/wpa/setup/column-span.png)
 
 * **How _row-span_ data is used.** After Workplace Analytics calculates the column span, it calculates the _row span_. It does these calculations in this order because the row span can be determined only after the column span is known.  
  
-  The row span is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data in columns within the column span. 
+  The row span is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data in columns within the column span.
 
    **Example 4:** In this example, the row span is rows 2 through 11: 
 
-   ![Row span](../images/wpa/setup/row-span.png)
+   ![Row span 2 through 11](../images/wpa/setup/row-span.png)
 
-   Workplace Analytics considers the rows in this example as follows:
-    * Rows 2, 3, and 4 are valid rows. 
-    * Rows 5 through 10 are empty rows.
-    * Row 11 is considered "partially filled." The data in partially filled rows is read, parsed, checked for validation errors, and potentially used.
+  Workplace Analytics considers the rows in this example as follows:
 
-* **Combining _column span_ and _row span_.** After the column span and the row span are determined, Workplace Analytics begins to validate the data in the rectangle of cells defined by the column span and the row span (including the column-header row). In the preceding examples, this rectangle extends from cell A1 to cell H11. 
+   * Rows 2, 3, and 4 are valid rows.
+   * Rows 5 through 10 are empty rows.
+   * Row 11 is considered "partially filled." The data in partially filled rows is read, parsed, checked for validation errors, and potentially used.
 
-#### Data 
+* **Combining _column span_ and _row span_.** After the column span and the row span are determined, Workplace Analytics begins to validate the data in the rectangle of cells defined by the column span and the row span (including the column-header row). In the preceding examples, this rectangle extends from cell A1 to cell H11.
 
-Each cell of data in the .xlsx file must be formatted correctly, starting with the column-header row and continuing with the remaining rows, which contain field values: 
+#### Data
 
-##### Format the column-header row 
+Each cell of data in the .xlsx file must be formatted correctly, starting with the column-header row and continuing with the remaining rows, which contain field values:
+
+##### Format the column-header row
 
 All field header or column names must adhere to the following:
 
 | Guideline | Notes or example |
-| --------- | ---------------- | 
+| --------- | ---------------- |
 | Column headers must be strings | In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type). |
 | Begin with a letter, not a number | Example: _Date1_ |
 | Contain only alphanumeric characters | Use letters and numbers only. <br>Example: _Date1_ |
@@ -135,19 +135,19 @@ All field header or column names must adhere to the following:
 
 To help ensure that Workplace Analytics can successfully validate the data in your upload file, follow these steps:  
 
-1. Make sure that your data uses only [valid values and formats](#use-only-valid-values-and-formats). 
+1. Make sure that your data uses only [valid values and formats](#use-only-valid-values-and-formats).
 
-2. Learn what [data types are required](#required-data-types) for the data in your upload file and then [apply the correct data type](#apply-the-correct-data-type) to the cells in your upload file. 
+2. Learn what [data types are required](#required-data-types) for the data in your upload file and then [apply the correct data type](#apply-the-correct-data-type) to the cells in your upload file.
 
 ##### Use only valid values and formats
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the [mapping](upload-organizational-data-1st.md#field-mapping) changes the validation type of the attribute in a way that makes the cell valid). 
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the [mapping](upload-organizational-data-1st.md#field-mapping) changes the validation type of the attribute in a way that makes the cell valid).
 
 The field values in the data rows must comply with the following rules:
 
-* Each field can contain a maximum of 128KB of data. 
+* Each field can contain a maximum of 128KB of data.
 * The required **EffectiveDate** and **HireDate** field values must have the Date datatype. (To apply a data type, see [Apply the correct data type](#apply-the-correct-data-type).)
-* The required **PersonId** and **ManagerId** field values must be valid email addresses (for example, gc@contoso.com). 
+* The required **PersonId** and **ManagerId** field values must be valid email addresses (for example, gc@contoso.com).
 * The required **Layer** field values and **HourlyRate** field values must contain numbers only.
 
 >[!Note]
@@ -168,15 +168,15 @@ In a later step, you [map](upload-organizational-data-1st.md#field-mapping) data
 
 To be able to map data successfully, use the data specified in the following table. Apply these data types by using the steps in [Apply the correct data type](#apply-the-correct-data-type).
 
-| 	Workplace Analytics data type	| 	Format as this data type in Excel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	| 	Notes	|  
-| 	-----	| 	-----	| 	-----	| 
-| 	Email	| 	General 	| 	This data type is the default option so no special formatting is necessary. 	| 
-| 	Timezone	| 	General 	| 	This data type is the default option so no special formatting is necessary. Every Timezone string must be one of the values specified in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). 	| 
-| 	Boolean	| 	General 	| 	This data type is the default option so no special formatting is necessary. The data value can only be **TRUE** or **FALSE**	| 
-| 	DateTime	| 	Date	| 		| 
-| 	Double	| 	Number	| 		| 
-| 	Integer	| 	Number	| 	Do not include a decimal component. For example, "2.35" is not accepted, but "2" and "-2" are accepted. 	| 
-| 	String	| 	General 	| 	This data type is the default option so no special formatting is necessary. The "Text" data type is also acceptable.	|
+| Workplace Analytics data type | Format as this data type in Excel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	|	Notes	|
+| -----	| -----	| -----	|
+| Email	| 	General 	| 	This data type is the default option so no special formatting is necessary. 	|
+| Timezone	|	General 	| This data type is the default option so no special formatting is necessary. Every Timezone string must be one of the values specified in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). 	|
+| Boolean	| General 	| This data type is the default option so no special formatting is necessary. The data value can only be **TRUE** or **FALSE**	|
+| DateTime	| 	Date	| 		|
+| Double	| 	Number	| 		|
+| Integer	| 	Number	| 	Do not include a decimal component. For example, "2.35" is not accepted, but "2" and "-2" are accepted. |
+| String	| General 	| 	This data type is the default option so no special formatting is necessary. The "Text" data type is also acceptable.	|
   
 ##### Apply the correct data type
 
@@ -186,18 +186,16 @@ Use only the predefined formats that Excel offers. Do not use custom formats. To
 
 **To apply a data type in Microsoft Excel**
 
-All of the data cells in a column must have the same data type, even if they do not have the same exact format. For example, Workplace Analytics will correctly parse a column that includes some cells with dd/mm/yyyy format and others with mm/dd/yyyy format as long as they all have the **Date** data type. 
+All of the data cells in a column must have the same data type, even if they do not have the same exact format. For example, Workplace Analytics will correctly parse a column that includes some cells with dd/mm/yyyy format and others with mm/dd/yyyy format as long as they all have the **Date** data type.
 
 In this example, we're formatting cells that contains dates:
 
-1. Select one or more cells in a column that you want to format. 
+1. Select one or more cells in a column that you want to format.
 
    ![Save .csv file](../images/wpa/setup/format-date-cell.png)
 
-2. Right-click the selection (of one or more cells) and select **Format Cells**.   
-
+2. Right-click the selection (of one or more cells) and select **Format Cells**.
 3. In the **Format Cells** dialog box, under **Category**, select **Date**.
-
 4. Under **Type**, select a type. The selected cells will change to the new formatting style. If the cells do not change, go back to step 3 and make sure that you select a predefined Excel style.
 
    > [!Note] 
@@ -205,26 +203,25 @@ In this example, we're formatting cells that contains dates:
 
 5. After you have finished formatting the data, save the worksheet with the extension .xlsx:
 
-   a. In Excel, point to **File** and select **Save As**.
-   
-   b. Type a name for the file, choose the file type **Excel Workbook (*.xlsx)**, and select **Save**:
+   1. In Excel, point to **File** and select **Save As**.
+   2. Type a name for the file, choose the file type **Excel Workbook (*.xlsx)**, and select **Save**:
 
    ![Save as UTF-8 .csv file](../images/wpa/setup/save-as-xlsx.png)
- 
-   Note the location of this file, for later use.  
+
+   Save the location of this file for later use.  
 
 ## Format UTF-8 encoded .csv files
 
 ### Rules for .csv files
 
- * **UTF-8** Data files in .csv format must be in UTF-8 format.
- > * **Accepted date format.** All dates must be in the mm/dd/yyyy format.
- > * **Accepted number format.** Numerical fields (such as "HourlyRate") must be in the U.S. "number" format and cannot contain commas or currency designations (such as the dollar sign). Example: Use **8.75**, not **8,75**. 
- >  * **Column delimiters.**  In every row, use commas to separate values. 
+* **UTF-8** - Data files in .csv format must be in UTF-8 format.
+* **Accepted date format** - All dates must be in the mm/dd/yyyy format.
+* **Accepted number format** - Numerical fields (such as "HourlyRate") must be in the U.S. "number" format and cannot contain commas or currency designations (such as the dollar sign). Example: Use **8.75**, not **8,75**.
+* **Column delimiters** - In every row, use commas to separate values.
 
 ### Use only valid values and formats
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
 
 All field header or column names must:
 
@@ -257,32 +254,27 @@ The field values also cannot contain any of the following characters:
 ### Create a valid UTF-8 encoded .csv file in Microsoft Excel
 
 1. Export organizational data from your HR database.
-
 2. Open Excel and import the exported organizational data. 
-
 3. In Excel, organize the data:
 
-   a. Place all of the data on a single worksheet. 
+   1. Place all of the data on a single worksheet.
+   2. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare orgazational data](prepare-organizational-data.md).
 
-   b. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare orgazational data](prepare-organizational-data.md).
-
-   > [!Note] 
+   > [!Note]
    > Each column represents an attribute. Many attributes are optional, but a few attributes (such as **EffectiveDate**) are required. (For more information, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).) 
 
-   c. All rows below row 1 must contain data about employees. Include one row of data per person, per EffectiveDate. 
-
+   3. All rows below row 1 must contain data about employees. Include one row of data per person, per EffectiveDate.
 4. Save the worksheet into a single, flat, text file.
 
-   a. In Excel, point to **File** and select **Save As**.
-   
-   b. Type a name for the file, choose the file type **CSV UTF-8 (Comma delimited) (*.csv)**, and select **Save**:
+   1. In Excel, point to **File** and select **Save As**.
+   2. Type a name for the file, choose the file type **CSV UTF-8 (Comma delimited) (*.csv)**, and select **Save**:
 
-   ![Save as UTF-8 .csv file](../images/wpa/setup/csv-utf-8.png)
+   ![Save as UTF-8 .csv file option](../images/wpa/setup/csv-utf-8.png)
  
-   Note the location of this file, for later use.  
+   Save the location of this file, for later use.  
 
 > [!Note] 
-> If your spreadsheet application does not offer **CSV UTF-8 (Comma delimited) (*.csv)** as a file-type choice (for example, versions of Excel older than Excel 2016), you'll need to use another program, such as Notepad++, to save this file as comma-delimited UTF-8. 
+> If your spreadsheet application does not offer **CSV UTF-8 (Comma delimited) (*.csv)** as a file-type choice (for example, versions of Excel older than Excel 2016), you'll need to use another program, such as Notepad++, to save this file as comma-delimited UTF-8.
 
 ### Example .csv data file
 
@@ -303,11 +295,8 @@ Emp2@contoso.com,12/1/2017,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sa
 After you have populated and formatted your organizational data file, you can continue with the following intake steps. This section provides an overview only. To see the complete procedures, select the links in these steps:
 
 1. [File upload](upload-organizational-data-1st.md#file-upload).
-
 2. [Field mapping](upload-organizational-data-1st.md#field-mapping). After the data file is uploaded, you will encounter the mapping screen, where you map the source columns in the data file to Workplace Analytics names and select a datatype.
-
 3. After you have confirmed the field mapping, [data validation](upload-organizational-data-1st.md#data-validation) starts. 
-
 4. When validation finishes, it reports [success](upload-organizational-data-1st.md#validation-succeeds) or [failure](upload-organizational-data-1st.md#validation-fails). In case of errors, validation logs are made available.
 
    Validation errors can be caused by:
@@ -331,15 +320,3 @@ Specific instructions to create, debug & fix (in case of validation errors) shou
 ## Related topic
 
 [Prepare orgazational data](prepare-organizational-data.md)
-
-
-
-
-
-
-
-
-
-
-
-

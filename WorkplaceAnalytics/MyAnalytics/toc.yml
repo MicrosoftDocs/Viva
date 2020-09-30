@@ -63,12 +63,12 @@
           href: ./Use/network.md        
         - name: Collaboration
           href: ./Use/collaboration.md 
- #       - name: Leadership
- #         href: ./use/leadership.md 
+        - name: Leadership
+          href: ./use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction
-            href: ./Use/MyA-Adoption/Adopt-myanalytics.md   
+            href: ./Use/MyA-Adoption/adopt-myanalytics.md   
           - name: Individual adoption
             items: 
             - name: Get started
@@ -77,7 +77,7 @@
               href: ./Use/MyA-Adoption/Indiv-adopt-diagnose.md
             - name: Set your goal
               href: ./Use/MyA-Adoption/Indiv-adopt-set-goals.md
-            - name: Build your habit
+            - name: Develop new habits
               href: ./Use/MyA-Adoption/Indiv-adopt-develop-habits.md
             - name: Sustain change
               href: ./Use/MyA-Adoption/Indiv-adopt-sustain-change.md
@@ -100,8 +100,8 @@
           - name: Habit resources
             items: 
             - name: Learning modules
-              href: ./Use/MyA-Adoption/Adopt-Learning-modules.md
+              href: ./Use/MyA-Adoption/adopt-learning-modules.md
             - name: Habit-building method
-              href: ./Use/MyA-Adoption/Adopt-Habit-building-method.md
+              href: ./Use/MyA-Adoption/adopt-habit-building.md
             - name: Habit playbooks
-              href: ./Use/MyA-Adoption/Adopt-Habit-playbooks.md
+              href: ./Use/MyA-Adoption/adopt-habit-playbooks.md

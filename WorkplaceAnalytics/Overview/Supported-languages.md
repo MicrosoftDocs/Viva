@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics language support and guidelines
 description: Describes the privacy and data access controls available in Workplace Analytics 
@@ -22,7 +20,7 @@ In certain circumstances, you can use Workplace Analytics with _data_ that is in
 
    ![Query names and descriptions](../Images/WpA/Overview/query-name-description.png)
 
-* Column headers for the organizational data when you [prepare the organizational data](../Setup/Prepare-organizational-data.md) must be in English, Japanese, or French. 
+* Column headers for the organizational data when you [prepare the organizational data](../Setup/Prepare-organizational-data.md) must be in English.
 
 * For content within organizational data, you can use languages other than English.
 

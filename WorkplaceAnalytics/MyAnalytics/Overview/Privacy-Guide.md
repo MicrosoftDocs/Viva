@@ -1,20 +1,20 @@
 ---
 
-title: Privacy guide for MyAnalytics admins
-description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
+title: MyAnalytics privacy guide
+description: Overview of MyAnalytics privacy features, including information about de-identification and privacy of data, minimum group size for reporting, admin choices, default settings, and users in sensitive roles
 author: paul9955
-ms.author: madehmer
+ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 search.appverid:
 - MET150
-ms.prod: mya
+ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
 
-# Privacy guide for MyAnalytics admins
+# Privacy guide for MyAnalytics
 
 By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
@@ -110,7 +110,7 @@ For example, the [Catch up with your team](../use/use-the-insights.md#catch-up-w
 
 All assistance for managers in MyAnalytics relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
 
-Managers are identified by using Azure Active Directory. The feature is only available to users who have direct reports listed in Azure AD.
+Managers are identified by using Azure Active Directory or Workplace Analytics. The feature is only available to users who have direct reports listed in Azure AD or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.)
 
 Managers have the option to [edit their team list](../use/use-the-insights.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their MyAnalytics experience, and are not synchronized back to Azure AD.
 
@@ -182,3 +182,4 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
       * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
+

@@ -5,11 +5,11 @@
 title: To open the Insights Outlook add-in 
 description: How to open the Insights Outlook add-in
 author: madehmer
-ms.author: v-midehm
+ms.author: v-pausch
 ms.date: 04/11/2019
 ms.topic: article
 localization_priority: normal 
-ms.prod: mya
+ms.prod: Mya
 ---
 
 **To open the Insights Outlook add-in**

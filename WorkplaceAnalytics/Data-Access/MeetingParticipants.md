@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Meeting participant metrics for Workplace Analytics Data export
-description: One row for each participant in a calendar meeting
+description: A collaboration event row for each participant in a calendar meeting
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
