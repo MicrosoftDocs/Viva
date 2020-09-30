@@ -56,7 +56,7 @@ You can configure access to MyAnalytics elements for all users in your organizat
 
 5. Select **Insights dashboard** to keep all MyAnalytics users in your organization opted _in_ for access to the MyAnalytics dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
 
-6. Select **Weekly insights** to keep all MyAnalytics users in your organization opted _in_ for access to the weekly [digest](../../myanalytics/use/email-digest-2.md) (and the MyAnalytics [welcome email](../../myanalytics/use/mya-welcome-email.md)). Deselect **Weekly insights email** to opt users _out_ of the weekly digest (and the MyAnalytics welcome email).  
+6. Select **Weekly insights** to keep all MyAnalytics users in your organization opted _in_ for access to the weekly [digest](../../myanalytics/use/email-digest-2.md) (and the MyAnalytics [welcome email](../../myanalytics/use/mya-welcome-email.md)). Deselect **Weekly insights email** to opt users _out_ of the digest email (and the MyAnalytics welcome email).  
 
 7. Select **Insights Outlook add-in** to keep all MyAnalytics users in your organization opted in for access to the Insights Outlook add-in. Deselect it to opt users out of access to the Insights Outlook add-in.
 
@@ -106,10 +106,10 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 
 ### Set MyAnalytics access for one user
 
-Configure MyAnalytics access settings for a user with the following PowerShell cmdlet:
+Configure MyAnalytics access settings for a user with the PowerShell cmdlet [Set-MyAnalyticsFeatureConfig](command-reference-set-myanalyticsfeatureconfig):
 
 ```powershell
-Set-MyAnalyticsFeatureConfig –Identity <string> [PrivacyMode <string[]>]
+Set-MyAnalyticsFeatureConfig –Identity <string> [-PrivacyMode <string[]>]
 ```
 
 Parameter   |   Required   |   Description   | Default value
@@ -120,13 +120,15 @@ PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's 
 > [!Important]
 > The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
 
-Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's MyAnalytics features were turned off except the weekly digest:
+Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's MyAnalytics features were turned on except the digest email:
 
     UserId : <username>@<domain>
     PrivacyMode : opt-in
-    IsDashboardEnabled : False
-    IsAddInEnabled  : False
-    IsWeeklyDigestEnabled : True
+    IsDashboardEnabled : true
+    IsAddInEnabled  : true
+    IsDigestEmailEnabled : false
+
+   Also see [Command reference: Set-MyAnalyticsFeatureConfig](command-reference-set-myanalyticsfeatureconfig).
 
 ### Confirm MyAnalytics access for a user
 
@@ -140,13 +142,13 @@ Parameter   |   Required   |    Description    |   Default value
 ----------- | ------------ |  ---------------  | ---------------
 Identity    |  Yes         |    User ID for the current user as stored in AAD  | - 
 
-Get-MyAnalyticsFeatureConfig reveals the current configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user is currently opted in and that they have all MyAnalytics features turned off except the weekly digest:
+Get-MyAnalyticsFeatureConfig reveals the current configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user is currently opted in and that they have all MyAnalytics features turned on except the digest email:
 
     UserId : <username>@<domain>
     PrivacyMode : opt-in
-    IsDashboardEnabled : False
-    IsAddInEnabled  : False
-    IsWeeklyDigestEnabled : True
+    IsDashboardEnabled : true
+    IsAddInEnabled  : true
+    IsDigestEmailEnabled : false
 
 ### Set MyAnalytics access for multiple users
 
@@ -178,6 +180,8 @@ Use the following steps in the [Exchange Online PowerShell V2 module](https://do
    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName
    }
    ```
+   
+   Also see [Command reference: Set-MyAnalyticsFeatureConfig](command-reference-set-myanalyticsfeatureconfig).
 
 3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
 
@@ -186,6 +190,46 @@ This PowerShell script:
 * Displays the user principal name for each user.
 * Sets the specified privacy mode for each user.
 * Creates a .csv file with all the users that were processed and shows their status.
+
+### Command reference: Set-MyAnalyticsFeatureConfig
+
+The command Set-MyAnalyticsFeatureConfig can be used in three different ways:
+
+1. To set the PrivacyMode parameter 
+
+#### Command syntax - PrivacyMode
+Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode <opt-in/opt-out>
+
+#### Example - PrivacyMode
+When the following command is executed, the privacy mode is set to "opt-in" and all the features are enabled by default:
+
+   ```powershell
+   Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in   
+   ```
+
+2. To enable or disable a particular MyAnalytics feature.
+
+#### Command syntax - features on or off
+Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
+
+#### Example - features on or off
+When the following command is executed, the digest email is disabled for the user:
+
+   ```powershell
+Set-MyAnalyticsFeatureConfig -Identity <string> -Feature digest-email -isEnabled $false
+   ```
+
+3. To both set PrivacyMode and enable or disable features.
+
+#### Command syntax - PrivacyMode and features
+Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false> 
+
+#### Example - PrivacyMode and features
+When the following command is executed, the user will be opt-in with all the features enabled except the digest-email:
+
+   ```powershell
+Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in -Feature digest-email -isEnabled $false 
+   ```
 
 <!--
 
