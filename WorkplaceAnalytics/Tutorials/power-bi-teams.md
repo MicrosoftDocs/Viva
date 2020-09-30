@@ -31,6 +31,11 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 For an interactive demonstration of this dashboard, see [Teams insights demo](../power-bi-demos/teams-insights.md).
 
+## Demonstration
+
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiYWNlOTU0YjAtMjNkOC00OTQ2LTkwY2UtNzQ1ZDQ5YWZkYmJjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
+
 ## Prerequisites  
 
 Before you can run the queries and populate the dashboard in Power BI, you must:

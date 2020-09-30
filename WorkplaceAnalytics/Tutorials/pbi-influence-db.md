@@ -25,6 +25,11 @@ After the Influence insights dashboard is populated with data, you can use it to
 
 For an interactive demonstration of this dashboard, see [Influence insights demo](../power-bi-demos/influence-insights.md).
 
+## Demonstration
+
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZWMyNTJmNzktOWQzYy00OTEwLTgxZmQtZDZmMGI1OTJjYjYwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:

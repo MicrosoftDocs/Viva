@@ -44,6 +44,10 @@ After you successfully run these queries, you can download the Power BI template
 
 For an interactive demonstration of this dashboard, see [Collaboration assessment demo](../power-bi-demos/collaboration-assess.md).
 
+## Demonstration
+
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiYzNmZjNjNmUtNDY1Yi00NmZlLThiOWItZGQ0MjdkMWJjMDQ0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
