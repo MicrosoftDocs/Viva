@@ -106,7 +106,7 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 
 ### Set MyAnalytics access for one user
 
-Configure MyAnalytics access settings for a user with the PowerShell cmdlet [Set-MyAnalyticsFeatureConfig](command-reference-set-myanalyticsfeatureconfig):
+Configure MyAnalytics access settings for a user with the PowerShell cmdlet [Set-MyAnalyticsFeatureConfig](#command-reference-set-myanalyticsfeatureconfig):
 
 ```powershell
 Set-MyAnalyticsFeatureConfig –Identity <string> [-PrivacyMode <string[]>]
@@ -128,7 +128,7 @@ Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the use
     IsAddInEnabled  : true
     IsDigestEmailEnabled : false
 
-   Also see [Command reference: Set-MyAnalyticsFeatureConfig](command-reference-set-myanalyticsfeatureconfig).
+   Also see [Command reference: Set-MyAnalyticsFeatureConfig](#command-reference-set-myanalyticsfeatureconfig).
 
 ### Confirm MyAnalytics access for a user
 
@@ -181,7 +181,7 @@ Use the following steps in the [Exchange Online PowerShell V2 module](https://do
    }
    ```
    
-   Also see [Command reference: Set-MyAnalyticsFeatureConfig](command-reference-set-myanalyticsfeatureconfig).
+   Also see [Command reference: Set-MyAnalyticsFeatureConfig](#command-reference-set-myanalyticsfeatureconfig).
 
 3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
 
@@ -195,36 +195,40 @@ This PowerShell script:
 
 The command Set-MyAnalyticsFeatureConfig can be used in three different ways:
 
-1. To set the PrivacyMode parameter 
+ * [Set the PrivacyMode parameter](#set-the-privacymode-parameter)
+ * [Enable or disable MyAnalytics features](#enable-or-disable-myanalytics-features)
+ * [Set PrivacyMode _and_ enable or disable features](#set-privacymode-and-enable-or-disable-features)
 
-#### Command syntax - PrivacyMode
+#### Set the PrivacyMode parameter 
+
+##### Command syntax - PrivacyMode
 Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode <opt-in/opt-out>
 
-#### Example - PrivacyMode
+##### Example - PrivacyMode
 When the following command is executed, the privacy mode is set to "opt-in" and all the features are enabled by default:
 
    ```powershell
    Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in   
    ```
 
-2. To enable or disable a particular MyAnalytics feature.
+#### Enable or disable MyAnalytics features
 
-#### Command syntax - features on or off
+##### Command syntax - features on or off
 Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
 
-#### Example - features on or off
+##### Example - features on or off
 When the following command is executed, the digest email is disabled for the user:
 
    ```powershell
 Set-MyAnalyticsFeatureConfig -Identity <string> -Feature digest-email -isEnabled $false
    ```
 
-3. To both set PrivacyMode and enable or disable features.
+#### Set PrivacyMode _and_ enable or disable features
 
-#### Command syntax - PrivacyMode and features
+##### Command syntax - PrivacyMode and features
 Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false> 
 
-#### Example - PrivacyMode and features
+##### Example - PrivacyMode and features
 When the following command is executed, the user will be opt-in with all the features enabled except the digest-email:
 
    ```powershell
