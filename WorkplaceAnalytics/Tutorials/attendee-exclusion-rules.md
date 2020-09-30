@@ -57,7 +57,7 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
    The **Potential impact of exclusion** area shows the percentage and total number of potential attendees at meetings whose data will be excluded from analysis if you publish and use this exclusion rule. 
 
-8. Optionally, select **Apply this exclusion for metrics in Explore page**. Selecting tThis option does not automatically affect any existing queries. It makes this exclusion appear as the default for new queries, and it affects only the data that is displayed in the Workplace Analytics [Explore](../use/explore-intro.md) pages. 
+8. Optionally, select **Apply this exclusion for metrics in Explore page**. Selecting this option does not automatically affect any existing queries. It makes this exclusion appear as the default for new queries, and it affects only the data that is displayed in the Workplace Analytics [Explore](../use/explore-intro.md) pages. 
 
 9. Select **Publish**. Your new exclusion rule will now be available to analysts who create and run queries. 
 
