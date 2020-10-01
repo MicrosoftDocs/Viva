@@ -34,6 +34,9 @@ When the Business continuity dashboard is populated with data, you can use it to
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiM2ZiY2Y4M2YtMTMyNi00NWY1LWEyMjctYTY2OTdlOWQzNDhhIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSectionbbd7dee40bcdeee460e6" frameborder="0" allowFullScreen="true"></iframe>
 
+>[!Note]
+>The following demo uses sample data and is only representative of this dashboard, which might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
 ## Prerequisites  
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
@@ -155,6 +158,6 @@ The following describes each report with specific nuances to consider for each.
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
-## Related topics
+## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)

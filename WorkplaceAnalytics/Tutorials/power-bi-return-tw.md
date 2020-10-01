@@ -31,6 +31,8 @@ After the dashboard populates with data, you can evaluate which of the two seat-
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZjYxYWIwZGQtZGE0Ni00YjMyLWExZTQtMWJlY2M3ODYyZWE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
+>[!Note]
+>The following demo uses sample data and is only representative of this dashboard, which might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
 ## Prerequisites
 

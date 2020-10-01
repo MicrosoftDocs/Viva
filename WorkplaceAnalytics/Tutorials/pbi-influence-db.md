@@ -27,6 +27,8 @@ After the Influence insights dashboard is populated with data, you can use it to
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZWMyNTJmNzktOWQzYy00OTEwLTgxZmQtZDZmMGI1OTJjYjYwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
+>[!Note]
+>The following demo uses sample data and is only representative of this dashboard, which might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
 ## Prerequisites
 

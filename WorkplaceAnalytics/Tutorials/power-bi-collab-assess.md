@@ -46,6 +46,9 @@ After you successfully run these queries, you can download the Power BI template
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiYzNmZjNjNmUtNDY1Yi00NmZlLThiOWItZGQ0MjdkMWJjMDQ0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
+>[!Note]
+>The following demo uses sample data and is only representative of this dashboard, which might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
@@ -179,7 +182,7 @@ The Collaboration assessment dashboard includes the following report pages that 
 
 The dashboard also includes a **Glossary** page that describes all the report metrics.
 
-## Power BI tips, troubleshooting, and FAQs
+## Power BI tips, FAQs, and troubleshooting
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 

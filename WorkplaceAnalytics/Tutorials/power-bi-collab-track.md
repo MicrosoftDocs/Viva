@@ -29,6 +29,8 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiOGNmZDVjNTQtZjdiYy00M2JjLWE5MjAtMTM3YzY0Zjk3OTI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
+>[!Note]
+>The following demo uses sample data and is only representative of this dashboard, which might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
 ## Prerequisites
 

@@ -145,9 +145,7 @@
                 - name: Power BI templates
                   items:
                     - name: Introduction
-                      href: ~/tutorials/power-bi-templates.md
-                    - name: Template demos
-                      href: ~/tutorials/pbi-demo-intro.md
+                      href: ~/tutorials/power-bi-intro.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration assessment
@@ -168,6 +166,8 @@
                       href: ~/tutorials/pbi-bc-sales.md
                     - name: Teams insights
                       href: ~/tutorials/power-bi-teams.md
+                    - name: Tips, FAQs, and troubleshooting
+                      href: ~/tutorials/power-bi-templates.md
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results
