@@ -14,7 +14,7 @@ The following are interactive demonstrations of Power BI dashboards available fo
 > [!Note]
 > These demos are representative of the available templates and dashboards, which might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-|&nbsp;    |
+| &nbsp; | &nbsp; |
 |------|-------|
 |![Business communication icon](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Business continuity demo**](./power-bi-bc.md#demonstration)<br>Shows example insights into how shifting to remote work has impacted business. |
 |![Collaboration assess icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Collaboration assessment demo**](./power-bi-collab-assess.md#demonstration) <br>Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization. |
