@@ -29,10 +29,9 @@ When the Sales business continuity dashboard is populated with data, you can use
 
 ## Demonstration
 
-<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiMzM3YTk5ZjAtMWI3OC00NTZkLWEzYTMtMmM5NWJkNGVhMDI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
->[!Note]
->The following demo uses sample data and is only representative of this dashboard, which might not be exactly what you see in a live dashboard specific to your organization's unique data.
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiMzM3YTk5ZjAtMWI3OC00NTZkLWEzYTMtMmM5NWJkNGVhMDI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Prerequisites
 
