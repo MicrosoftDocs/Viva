@@ -127,7 +127,7 @@
                     - name: Visualize person queries
                       href: ~/tutorials/query-visualization.md              
                 - name: Meeting queries
-                  href: ~/tutorials/Meeting-queries.md                 
+                  href: ~/tutorials/Meeting-queries.md
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
@@ -136,16 +136,16 @@
                   href: ~/tutorials/crm-queries.md    
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md
-                - name: ONA queries                   
+                - name: ONA queries
                   items: 
                     - name: ONA person queries
                       href: ~/tutorials/ona-person-query.md 
                     - name: ONA person-to-person queries
-                      href: ~/tutorials/ona-person-to-person-query.md                       
+                      href: ~/tutorials/ona-person-to-person-query.md
                 - name: Power BI templates
                   items:
                     - name: Introduction
-                      href: ~/tutorials/power-bi-templates.md
+                      href: ~/tutorials/power-bi-intro.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration assessment
@@ -166,6 +166,8 @@
                       href: ~/tutorials/pbi-bc-sales.md
                     - name: Teams insights
                       href: ~/tutorials/power-bi-teams.md
+                    - name: Tips, FAQs, and troubleshooting
+                      href: ~/tutorials/power-bi-templates.md
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results
