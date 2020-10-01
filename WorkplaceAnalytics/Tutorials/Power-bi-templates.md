@@ -173,5 +173,5 @@ Do the following to reset your global permissions for the OData feed.
 
 ## Related topics
 
-* [Power BI templates introduction](../power-bi-intro.md)
+* [Power BI templates introduction](power-bi-intro.md)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)
