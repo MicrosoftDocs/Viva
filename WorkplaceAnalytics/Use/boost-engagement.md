@@ -53,7 +53,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Set standards for when an employee can decline a meeting. Provide a meeting decline template with policy explanations that employees can use to decline meetings based on your team’s meeting rules. For example, "the meeting has no agenda" or "someone from my team is already attending the meeting."
 * Create and share your team’s list of meeting rules along with an empowering message that allows employees to say yes or no to meeting invitations they deem valuable or not to attend.
 
-## Improve team cohesion
+## Encourage team cohesion
 
 Employees who maintain strong connections within their team feel a sense of organizational belonging.
 
