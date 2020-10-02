@@ -26,9 +26,10 @@ Collaboration with customers and other external contacts enables employees to ga
 
 ### Why it matters
 
-The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) :
+The following are based on research presented in the [Loyalty economy: Are you undervaluing your customers?](https://insights.office.com/business-performance/the-loyalty-economy-are-you-undervaluing-customers/), [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/), and [What makes great salespeople](https://insights.office.com/management-strategy/what-makes-great-salespeople/) articles:
 
-* 
+* "...companies at the top of their industries in net promoter scores or satisfaction rankings for three or more years—grow revenues roughly 2.5 times as fast as their industry peers. Yet companies and investors continue to prioritize quarterly earnings over customer relationships..."
+* “More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.”
 
 ### Best practices
 
@@ -45,13 +46,9 @@ Manager one-on-one (1:1) time can improve engagement and job performance, while 
 
 See [Promote coaching and development](boost-engagement.md#promote-coaching-and-development) in the Boost engagement outcome for more details about why it matters and the recommended best practices and change catalyst for this one.
 
-### Change catalyst: 
-
-* Take an employee
-
 ## Strengthen internal networks
 
-Make strategic time investments
+Employees who maintain strong internal networks are better resourced to meet customer needs and achieve goals.
 
 ### Why it matters
 
@@ -61,14 +58,19 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 
 ### Best practices
 
-* Improve internal processes 
-* Create cross-functional Teams channels focused on customer needs 
+* Improve internal connectivity 
+* Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use MyAnalytics to manage important people
+Mark key internal contacts as important to never miss emails from them and respond more efficiently.
+* Breakdown silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
 
-### Change catalyst: Set team meeting rules and policy
+### Change catalyst: Provide managers with go-to contacts list
 
-* Take an employee
+Survey the group to collect and create a list of contacts that would be a good starting place for employees to contact when trying to establish a new connection. This can empower managers with the right contacts in order to solve their employees' problems. For example:
 
+* Send out a company wide email where people can volunteer to be a connector within their team
+* Combine all of these connectors into a list and share that list with managers
+* Explain to all employees that managers now have a list of go-to contacts
 
 
 ## About the metrics
