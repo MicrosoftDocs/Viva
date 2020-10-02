@@ -163,7 +163,7 @@ The following describes the data related to each recommended action and its best
 
 * **Groups to focus on** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
-* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](./Tutorials/solutionsv2-intro.md) for your organization.
+* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
 ## Related topic
 
