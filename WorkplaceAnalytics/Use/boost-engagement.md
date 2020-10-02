@@ -39,18 +39,18 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 ### Best practices
 
 * Say no to meetings. See the next section for a guide on how to create and share a set of team meeting rules and policy.
-* Use [Teams and OneNote](https://support.microsoft.com/en-us/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
+* Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
 * Enable manager insights in Workplace Analytics to see your team’s current behaviors and ways to help them improve.
 * Regularly and openly check in with employees. Frustration, resentment, and even hopelessness are signals that people are falling back into less productive patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
 * Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction.
-* [Share 6 tips for handling scheduling conflicts](https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/6-tips-handling-scheduling-conflicts).
+* [Share 6 tips for handling scheduling conflicts](https://www.microsoft.com/microsoft-365/business-insights-ideas/resources/6-tips-handling-scheduling-conflicts).
 
 ### Change catalyst: Set team meeting rules and policy
 
 * Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.
 * Come together as a team to share everyone's feedback. It's important to process all contributions and analysis from all team members to begin the process of change.
 * Agree on a collective, personal goal based on the survey feedback. For example, declare "meeting free" periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spillover into personal time.
-* Set standards for when an employee can decline a meeting. Provide a meeting decline template with policy explanations that employees can use to decline meetings based on your team’s meeting rules. For example, "the meeting has no agenda" or "someone from my team is already attending the meeting." 
+* Set standards for when an employee can decline a meeting. Provide a meeting decline template with policy explanations that employees can use to decline meetings based on your team’s meeting rules. For example, "the meeting has no agenda" or "someone from my team is already attending the meeting."
 * Create and share your team’s list of meeting rules along with an empowering message that allows employees to say yes or no to meeting invitations they deem valuable or not to attend.
 
 ## Improve team cohesion
@@ -67,7 +67,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 
 ### Best practices
 
-* Use [MyAnalytics network features](https://docs.microsoft.com/Workplace-Analytics/myanalytics/use/network) to add people to your "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
+* Use [MyAnalytics network features](../myanalytics/use/network.md) to add people to your "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
 * Encourage and train workers to ask the right questions. Minimize preconceptions by asking open-ended questions.
@@ -79,7 +79,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 
 If you have a large network, you can help broaden your team's networks as well. Start by reviewing your key contacts and identifying connections that match the interests and skills of your team members. The following can help you get started:
 
-* Use [MyAnalytics](https://docs.microsoft.com/Workplace-Analytics/myanalytics/use/network), [LinkedIn](https://www.linkedin.com/), and your contacts list to review your network.
+* Use [MyAnalytics](../myanalytics/use/network.md), [LinkedIn](https://www.linkedin.com/), and your contacts list to review your network.
 * Categorize topics of expertise for those in your network.
 * Review the career goals and skills of those on your team.
 * Create a contact list and store it in a central location to access when onboarding new team members.
@@ -99,8 +99,8 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ### Best practices
 
-* Ask employees to use [MyAnalytics wellbeing data](https://docs.microsoft.com/Workplace-Analytics/myanalytics/use/wellbeing) about after-hours activity and encourage them to disconnect.
-* Ask employees to use the [Inline suggestions in Outlook](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-notifications#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
+* Ask employees to use [MyAnalytics wellbeing data](../myanalytics/use/wellbeing.md) about after-hours activity and encourage them to disconnect.
+* Ask employees to use the [Inline suggestions in Outlook](../myanalytics/use/mya-notifications#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
 * Remind employees that the organization's success is based on a marathon, not a sprint.
 * Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
@@ -108,7 +108,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ### Change catalyst: Define and share working hours
 
-Add your working hours to your [Outlook email signature](https://support.microsoft.com/en-us/office/create-an-email-signature-from-a-template-5b02c5ed-1e85-4d2a-a098-9628fe3231d8) and encourage your team to do the same to help manage the expectations of others. The following is an email signature example:
+Add your working hours to your [Outlook email signature](https://support.microsoft.com/office/create-an-email-signature-from-a-template-5b02c5ed-1e85-4d2a-a098-9628fe3231d8) and encourage your team to do the same to help manage the expectations of others. The following is an email signature example:
 
     Cora Thomas
     Program Manager
@@ -129,7 +129,7 @@ According to the research referenced in [What great managers do daily](https://i
 
 ### Best practices
 
-* **Schedule recurring 1:1 meetings** - Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/use-the-insights#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
+* **Schedule recurring 1:1 meetings** - Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](../myanalytics/use/use-the-insights.md#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
 * **Prepare and remain flexible on discussion points for 1:1s** - 1:1s are best with structure but not too much to allow for co-creation. Agree on discussion points at the start and allocate adequate time to the most important topics.
 * **Lead by example** - People are more engaged if they work for a manager who is working at least as much as they are.
 * **Evenly distribute work** - Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
@@ -160,7 +160,7 @@ The following describes the data related to each recommended action and its best
 ## Advanced analysis
 
 * **Groups to focus on** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
+* **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](../tutorials/explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization.
 
 ## Related topic
