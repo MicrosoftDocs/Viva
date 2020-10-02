@@ -165,6 +165,7 @@ The following describes the data related to each recommended action and its best
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Related topic
+## Related topics
 
-[Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Business outcomes overview](insights.md)
+* [Metric descriptions for Workplace Analytics](metric-definitions.md)

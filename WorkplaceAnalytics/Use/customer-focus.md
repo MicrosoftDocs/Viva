@@ -8,7 +8,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Increase customer focus 
+# Increase customer focus
 
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
@@ -35,6 +35,9 @@ The following are based on research presented in the [Loyalty economy: Are you u
 
 * Use [MyAnalytics Important people list](../myanalytics/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
 * Create a shared [Teams channel](https://docs.microsoft.com/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
+* Encourage employees to build deeper relationships with customers. Developing customer empathy enables employees to identify the emotional needs of their customers and understand the reasons why and respond in a way that creates a long-lasting relationship with customers.
+* Facilitate direct interaction with customers, even in “back office” functions. Every employee impacts the customer experience in some way and interacting with customers enables a better understanding of customer needs and their successes and challenges.
+* Democratize customer insights with customer facing teams that create a culture where customers can help drive decisions.
 
 ### Change catalyst: Track time with most important external contacts
 
@@ -48,21 +51,28 @@ See [Promote coaching and development](boost-engagement.md#promote-coaching-and-
 
 ## Strengthen internal networks
 
-Employees who maintain strong internal networks are better resourced to meet customer needs and achieve goals.
+Employees who maintain strong internal networks are better resourced to meet customer needs and achieve goals. Connecting employees across units creates agile innovation by helping the company leverage benefits of scale, cross-pollinate ideas, and integrate different perspectives.
 
 ### Why it matters
 
-The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) :
+The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explain how important cross-group collaboration is in getting work done:
 
-* 
+* “Work occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes."
+* "Intuitively, we know that the collaborative intensity of work has skyrocketed, and that collaborations are central to agility."
+* "Yet most organizations don’t manage internal collaboration productively, and assume that technology or formal org charts can yield agility.”
 
 ### Best practices
 
-* Improve internal connectivity 
+* Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
+* Identify opportunities to free up employees’ time spent on administrative tasks or internal meetings, so they have more time to spend with customers.
 * Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use MyAnalytics to manage important people
 Mark key internal contacts as important to never miss emails from them and respond more efficiently.
 * Breakdown silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
+* Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.
+* Pair newcomers and network inﬂuencers through staﬃng or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.
+* Set up “communities of practice” or business development initiatives to help share expertise or resources.
+* Set speciﬁc goals and reward agile collaboration. Peer feedback helps to identify people whom the formal performance reviews might otherwise overlook.
 
 ### Change catalyst: Provide managers with go-to contacts list
 
@@ -71,7 +81,6 @@ Survey the group to collect and create a list of contacts that would be a good s
 * Send out a company wide email where people can volunteer to be a connector within their team
 * Combine all of these connectors into a list and share that list with managers
 * Explain to all employees that managers now have a list of go-to contacts
-
 
 ## About the metrics
 
@@ -83,25 +92,13 @@ The following describes the data related to each recommended action and its best
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week. |1:1 Coaching meeting time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations. |<ul><li>Organizational network analysis hows how employees are connecting internally with other employees and externally with customers. </li><li>Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department.  </li><li>Focus time is when employees have two or more consecutive hours with no meetings. </li></ul>|
 
-## Impacted groups and deeper insights
+## Advanced analysis
 
-For each suggestion, you'll see the groups most impacted by the insight action, which are based on your organization and industry research.
-
-In **Get deeper insights**, you'll see one of the most important insights specific to your organization.
-
-For example, the following shows:
-
-* Groups most affected by lack of customer engagement
-* Are you spending enough time with your customers?
-
-![Get deeper insights about customer focus](../images/wpa/use/deep-cfocus.png)
-
-Depending on your role, you can use the deeper insight's **Learn more**, **Explore the stats**, or **Explore in Power BI** link for more advanced analysis about the organizational data that this insight is based on.
-
-* As an analyst, you can use [Explore](explore-intro.md) and [Queries](../tutorials/query-basics.md) for more advanced analysis, including more detailed charts and reports.
-* As a business leader or a program manager, you can use [Plans](../tutorials/solutionsv2-intro.md) to create and track change plans for your organization or team in Workplace Analytics.
+* **Groups to focus on** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
+* **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
+* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
 ## Related topics
 
-* [Best practices](../tutorials/gm-best-practices.md)
+* [Business outcomes overview](insights.md)
 * [Metric descriptions for Workplace Analytics](metric-definitions.md)
