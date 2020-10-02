@@ -79,7 +79,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 
 If you have a large network, you can help broaden your team's networks as well. Start by reviewing your key contacts and identifying connections that match the interests and skills of your team members. The following can help you get started:
 
-* Use [MyAnalytics](../myanalytics/use/network.md), [LinkedIn](https://www.linkedin.com/), and your contacts list to review your network.
+* Use [MyAnalytics](../MyAnalytics/Use/network.md), [LinkedIn](https://www.linkedin.com/), and your contacts list to review your network.
 * Categorize topics of expertise for those in your network.
 * Review the career goals and skills of those on your team.
 * Create a contact list and store it in a central location to access when onboarding new team members.
@@ -99,8 +99,8 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ### Best practices
 
-* Ask employees to use [MyAnalytics wellbeing data](../myanalytics/use/wellbeing.md) about after-hours activity and encourage them to disconnect.
-* Ask employees to use the [Inline suggestions in Outlook](../myanalytics/use/mya-notifications#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
+* Ask employees to use [MyAnalytics wellbeing data](../MyAnalytics/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
+* Ask employees to use the [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
 * Remind employees that the organization's success is based on a marathon, not a sprint.
 * Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
@@ -110,10 +110,12 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 Add your working hours to your [Outlook email signature](https://support.microsoft.com/office/create-an-email-signature-from-a-template-5b02c5ed-1e85-4d2a-a098-9628fe3231d8) and encourage your team to do the same to help manage the expectations of others. The following is an email signature example:
 
-    Cora Thomas
-    Program Manager
-    Redmond, Washington
-    My working hours are 9:00 AM to 6:00 PM PT
+```
+Cora Thomas
+Program Manager
+Redmond, Washington
+My working hours are 9:00 AM to 6:00 PM PT
+```
 
 ## Promote coaching and development
 
@@ -160,8 +162,8 @@ The following describes the data related to each recommended action and its best
 ## Advanced analysis
 
 * **Groups to focus on** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](../tutorials/explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
-* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization.
+* **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
+* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](./Tutorials/solutionsv2-intro.md) for your organization.
 
 ## Related topic
 
