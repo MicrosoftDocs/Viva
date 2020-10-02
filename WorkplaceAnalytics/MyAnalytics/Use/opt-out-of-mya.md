@@ -69,6 +69,10 @@ To opt in, repeat the steps in [To opt out of MyAnalytics](#to-opt-out-of-myanal
 
 ## Related topics
 
+#### For individuals
+
+Use the procedures in this section to configure your own access to MyAnalytics.
+
 * [Opt out of the MyAnalytics dashboard](dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
 
 * [Opt out of the weekly digests](email-digest-2.md#opt-out-of-digests)
@@ -76,3 +80,9 @@ To opt in, repeat the steps in [To opt out of MyAnalytics](#to-opt-out-of-myanal
 * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
 
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
+
+#### For administrators
+
+Use the procedures in this section to configure access to MyAnalytics for the people in your organization.
+
+* [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level)
