@@ -10,23 +10,76 @@ ms.prod: wpa
 
 # Increase customer focus 
 
-Companies with a customer-focused mindset can foster positive customer experience and improve business growth.
+Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
-Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain your organization's focus on customers.
+
+* [Optimize time with customers](#optimize-time-with-customers)
+* [Promote coaching and development](#promote-coaching-and-development)
+* [Strengthen internal networks](#strengthen-internal-networks)
 
 ![Increase customer focus insights](../images/wpa/use/increase-customer-focus.png)
 
-## Take action
+## Optimize time with customers
 
-Each insight shows how your organization compares with others based on industry research and your specific organizational data. Select **Take action** to see ways you can drive change or simply maintain employee engagement.
+Collaboration with customers and other external contacts enables employees to gain the customer and market knowledge needed for business success. Spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.
+
+### Why it matters
+
+The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) :
+
+* 
+
+### Best practices
+
+* Use [MyAnalytics Important people list](../myanalytics/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
+* Create a shared [Teams channel](https://docs.microsoft.com/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
+
+### Change catalyst: Track time with most important external contacts
+
+Create a list of top external, customer relationships and distribute monthly reports to your team that shows how much time was spent with them and how that compares with established goals.
+
+## Promote coaching and development
+
+Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition.
+
+See [Promote coaching and development](boost-engagement.md#promote-coaching-and-development) in the Boost engagement outcome for more details about why it matters and the recommended best practices and change catalyst for this one.
+
+### Change catalyst: 
+
+* Take an employee
+
+## Strengthen internal networks
+
+Make strategic time investments
+
+### Why it matters
+
+The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) :
+
+* 
+
+### Best practices
+
+* Improve internal processes 
+* Create cross-functional Teams channels focused on customer needs 
+* Use MyAnalytics to manage important people
+
+### Change catalyst: Set team meeting rules and policy
+
+* Take an employee
+
+
+
+## About the metrics
 
 The following describes the data related to each recommended action and its best practices.
 
-|Insight action |Best practices | Related data
-|--------------|--------------------|----------------------|
-|Optimize time with customers by making strategic time investments |<ul><li>Track time with most important external contacts </li><li>Use MyAnalytics to manage important people </li><li> Create shared Teams channels with key customers</li></ul> |<ul><li> _External network_ is the number of people external to the company with whom the employee had at least two [meaningful interactions](glossary.md#meaningful-interaction-definition) in a month. Connected employees have had more than five connections with external people in a month.</li><li>_External collaboration hours_ is the number of hours employees spend in meetings and emails with at least one person outside the company. Connected groups spend a large proportion of their overall collaboration with people outside the company. </li></ul>|
-|Promote coaching and development by increasing frequency of coaching |<ul><li>Schedule recurring 1:1 meetings </li><li>Prepare discussion points for 1:1s </li><li>Enhance manager coaching with MyAnalytics </li></ul>|1:1 Coaching meeting time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
-|Strengthen internal networks by improving internal connectivity |<ul><li>Improve internal processes </li><li>Create cross-functional Teams channels focused on customer needs </li><li>Use MyAnalytics to manage important people </li></ul> |<ul><li>Organizational network analysis hows how employees are connecting internally with other employees and externally with customers. </li><li>Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department.  </li><li>Focus time is when employees have two or more consecutive hours with no meetings. </li></ul>|
+|Behavior |Insight | Metrics |
+|---------|--------------------|----------------------|
+|Optimize time with customers  |Percentage of employees who are in the top quartile for total collaboration time being with external customers. |<ul><li> _External network_ is the number of people external to the company with whom the employee had at least two [meaningful interactions](glossary.md#meaningful-interaction-definition) in a month. Connected employees have had more than five connections with external people in a month.</li><li>_External collaboration hours_ is the number of hours employees spend in meetings and emails with at least one person outside the company. Connected groups spend a large proportion of their overall collaboration with people outside the company. </li></ul>|
+|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week. |1:1 Coaching meeting time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
+|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations. |<ul><li>Organizational network analysis hows how employees are connecting internally with other employees and externally with customers. </li><li>Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department.  </li><li>Focus time is when employees have two or more consecutive hours with no meetings. </li></ul>|
 
 ## Impacted groups and deeper insights
 

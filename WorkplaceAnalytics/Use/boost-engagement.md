@@ -14,7 +14,7 @@ Employees with high job satisfaction and a strong sense of belonging are more li
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select Take action to see ways you can drive change or simply maintain employee engagement.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain employee engagement.
 
 * [Drive employee empowerment](#drive-employee-empowerment)
 * [Encourage team cohesion](#encourage-team-cohesion)
@@ -154,9 +154,9 @@ The following describes the data related to each recommended action and its best
 
 |Behavior |Insight | Metrics |
 |---------|--------------------|----------------------|
-|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager. |<ul><li>Redundant meeting hours (organizational) are the number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. </li><li>Long meetings are those scheduled for more than an hour. Large meetings are those that involve more than eight people. </li></ul>|
+|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager. |<ul><li>Redundant meeting hours (organizational) are the number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. </li><li>Long meetings are those scheduled for more than an hour. Large meetings are those that involve more than eight people. </li></ul> |
 |Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion. |<ul><li>Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. </li><li>Teams who spend more than 50 percent of their overall collaboration within their group are more cohesive. </li><li>Influencers are employees who have the best connections to people across the company based on their collaboration patterns. |
-|Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |<ul><li>After-hours work is the number of hours employees spend in meetings and on email outside of working hours. </li><li>The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. </li><li>After-hours and workweek span use the working hours and time zones set in the employee's Outlook calendar settings. </li></ul>|
+|Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |<ul><li>After-hours work is the number of hours employees spend in meetings and on email outside of working hours. </li><li>The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. </li><li>After-hours and workweek span use the working hours and time zones set in the employee's Outlook calendar settings. </li></ul> |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week. |1:1 Coaching meeting time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 
 ## Advanced analysis
