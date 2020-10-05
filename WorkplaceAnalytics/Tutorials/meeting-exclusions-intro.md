@@ -5,13 +5,13 @@
 title: Meeting exclusion rules in Workplace Analytics -- Introduction
 description: Meeting exclusion rules introduction    
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Meeting exclusion rules in Workplace Analytics
+# Meeting exclusions in Workplace Analytics
 
 Workplace Analytics uses email and calendar activities that are stored in a person's Office 365 account to reveal internal and external collaboration trends. However, a person's calendar and email can contain a diverse set of activities (such as personal meetings, work-related social activities, all-day training meetings, and so forth) that are not relevant to work-related collaboration, and, if included in the metrics, would skew query results.
 

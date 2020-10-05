@@ -3,7 +3,7 @@
 title: Workplace Analytics data analysis
 description: High-level overview of ways to use Workplace Analytics to analyze data 
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:

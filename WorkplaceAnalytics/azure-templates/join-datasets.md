@@ -39,7 +39,7 @@ The owner of HR system data (such as the HR manager) needs to do the following t
 
 1. Create a new .csv file that maps a new unique key identifier for each employee to each identifier used in another dataset (outside of Workplace Analytics) that can be joined and analyzed along side Workplace Analytics query data. For example, the HR manager maps a new Key_ID that's unique and can't be interpreted or related back to an employee's identity and can only be mapped back to employees by using this table or file.
 
-    ![Create a mapping file](./images/jd-map-file-1.png)
+    ![Create a mapping file option](./images/jd-map-file-1.png)
 
    >[!Important]
    >This mapping file must be securely maintained outside of Workplace Analytics to maintain employee privacy. After the key identifier in this file is uploaded to Workplace Analytics as part of the HR data upload, you could possibly use this file to identify employees included in Workplace Analytics query data.

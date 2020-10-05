@@ -3,7 +3,7 @@
 title: MyAnalytics Welcome digest
 description: MyAnalytics users receive a welcome email after licenses are assigned to them 
 author: madehmer
-ms.author: paul9955
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya

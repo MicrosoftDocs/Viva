@@ -5,7 +5,7 @@
 title:  Notifications in Workplace Analytics
 description: Workplace Analytics displays notifications that inform about system changes, user actions, and product updates
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 

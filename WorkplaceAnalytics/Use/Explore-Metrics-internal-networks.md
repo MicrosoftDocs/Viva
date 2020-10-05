@@ -3,7 +3,7 @@
 title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal network collaboration dashboards available in Workplace Analytics
 author: madehmer
-ms.author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -36,7 +36,7 @@ The **Network diversity** bubble chart shows how each organization in the compan
 
 ## Internal network size
 
-**Internal network size** is the average number of people with whom a person has at least two meaningful interactions (an email, meeting, call, or three instant messages involving from two to eight people). Network connections are measured on a rolling four-week basis.
+**Internal network size** is the average number of people with whom a person has at least two [meaningful interactions](glossary.md#meaningful-interaction-definition). Network connections are measured on a rolling four-week basis.
 
 ![Internal network size](../images/wpa/use/17-internal-network-size.png)
 
@@ -53,7 +53,7 @@ Network size can indicate:
 
 ## Internal network breadth
 
-Internal network breadth is the average number of organizations an employee connected with (based on meaningful interactions) during the period selected. (A meaningful interaction consists of an email, meeting, call, or three instant messages involving from two to eight people.)
+Internal network breadth is the average number of organizations an employee connected with (based on [meaningful interactions](glossary.md#meaningful-interaction-definition)) during the period selected. 
 
 ![Internal network breadth](../images/wpa/use/18-internal-network-breadth.png)
 

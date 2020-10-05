@@ -5,7 +5,7 @@
 title: Audit logs for Workplace Analytics  
 description: Learn how to monitor Workplace Analytics activity with audit logs
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.date: 06/13/2019
 ms.topic: article
 localization_priority: normal 
@@ -56,11 +56,11 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
    * If you turned auditing on in the last 90 days, the date range can't start before auditing was turned on.
 4. To return activities for all users (and service accounts), leave the **Users** field blank. Or you can enter one or more user names (the account email they use to log in to Workplace Analytics) in the **Users** field to only see those user activities.
 
-    ![Audit log search](../Images/WpA/privacy/audit-users.png)
+    ![Audit log users](../Images/WpA/privacy/audit-users.png)
 
 5. In the **Search** field, enter **Microsoft Workplace Analytics Activities**, and then select **Search**. The following is a list of example activities.
 
-    ![Audit log search](../Images/WpA/privacy/audit-activity.png)
+    ![Audit log activity](../Images/WpA/privacy/audit-activity.png)
 
 6. The **Results** section of the **Audit log search** page shows a maximum of 5,000 of the most recent events, in increments of 150. Use the scroll bar in this section to show the next 150 events. This section lists the audit log events, including the following information. You can select a column header to sort the list by it.
 
@@ -78,7 +78,7 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
 7. In the **Results** section, select an event from the list to view more details about it.
 8. A **Details** page shows the event properties, which are based on which Office 365 service that the event occurred in. Select **More information** to view more.
 
-    ![Audit log search](../Images/WpA/privacy/audit-details.png)
+    ![Audit log details](../Images/WpA/privacy/audit-details.png)
 
 ## Workplace Analytics activities
 

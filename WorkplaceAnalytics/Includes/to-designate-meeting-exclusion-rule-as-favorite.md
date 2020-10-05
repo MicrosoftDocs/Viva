@@ -5,7 +5,7 @@
 title: To designate a meeting-exclusion rule as a favorite
 description: How-to steps --  Designate a meeting-exclusion rule as a favorite in Workplace Analytics. 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 03/27/2018
 ms.topic: get-started-article
 localization_priority: normal 

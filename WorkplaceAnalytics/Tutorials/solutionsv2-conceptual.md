@@ -5,7 +5,7 @@
 title: Workplace Analytics plans concepts
 description: Concepts and definitions to help you better work with the plans feature of Workplace Analytics. 
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
@@ -23,7 +23,7 @@ Finalizing the participant list means determining whether any proposed participa
 
 ### Invalid email addresses
 
-An "invalid" email address means that the email address was formatted incorrectly, the person is not a measured employee (they have no Workplace Analytics license), or the person is not in the scope that the user is currently working in. <!-- LINK HERE TO SCOPING DOCS AS SOON AS THEY ARE PUBLISHED.  -->
+An "invalid" email address means that the email address was formatted incorrectly, the person is not a measured employee (they have no Workplace Analytics license), or the person is not in the partition that the user is currently working in. 
 
 ### Csv file privacy considerations
 

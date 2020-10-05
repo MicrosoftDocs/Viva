@@ -5,7 +5,7 @@
 title: Options upon failed validation (subsequent uploads)
 description: What you can do after your uploaded data has failed to validate.  
 author: paul9955
-ms.author: v-pascha
+ms.author: v-pausch
 ms.date: 03/19/2019
 ms.topic: article
 localization_priority: normal 

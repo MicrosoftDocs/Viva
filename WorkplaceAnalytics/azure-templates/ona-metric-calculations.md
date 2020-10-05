@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Measure calculations for Organizational Network Analysis Azure Template
 description: Learn how the metrics are calculated for the Organizational Network Analysis Azure Template for Workplace Analytics
 author: madehmer
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 search.appverid:

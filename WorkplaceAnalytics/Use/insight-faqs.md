@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Frequently asked questions about Manager insights
+# Frequently asked questions for manager insights
 
 ##### Q1 Which roles have access to this manager insights page?
 

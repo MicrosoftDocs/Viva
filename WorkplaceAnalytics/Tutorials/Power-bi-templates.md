@@ -1,7 +1,7 @@
 ---
 
-title: Power BI templates
-description: Use a Power BI template to run a query, export its results, and visualize them in Power BI
+title: Power BI template tips, troubleshooting, and FAQs
+description: Learn some tips, troubleshooting, and answers to the most frequently asked questions when setting up and using the Workplace Analytics Power BI templates
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,26 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Power BI templates in Workplace Analytics
+# Power BI template tips, FAQs, and troubleshooting
 
-Workplace Analytics provides Power BI templates that analysts can use to visually analyze workplace patterns and trends. A Power BI template pre-populates a custom Workplace Analytics query and selects the applicable Power BI charts to show results from these queries.
-
-Workplace Analytics Queries has a number of predefined query templates available. In the preselected filters and metrics section in Queries, you can identify the Power BI templates by the Power BI logo in the upper-right corner of the template:
-
-   ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-cards.png)
-
-Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select one of the following dashboards to see more details about it and how to set it up:
-
-* [Business continuity](../tutorials/power-bi-bc.md)
-* [Collaboration assessment](../tutorials/power-bi-collab-assess.md)
-* [Collaboration overload](../tutorials/power-bi-collab-overload.md)
-* [Collaboration tracker](../tutorials/power-bi-collab-track.md)
-* [Influence insights](../tutorials/pbi-influence-db.md)
-* [Manager impact](../tutorials/power-bi-manager-impact.md)
-* [Quickstart overview](../tutorials/power-bi-quickstart.md)
-* [Return to worksites](../tutorials/power-bi-return-tw.md)
-* [Sales business continuity](../tutorials/pbi-bc-sales.md)
-* [Teams insights](../tutorials/power-bi-teams.md)
+The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues when setting up and using the Power BI templates in Workplace Analytics.
 
 ## Power BI tips
 
@@ -185,9 +168,10 @@ Do the following to reset your global permissions for the OData feed.
 ## Support
 
 * **Dashboard support** - Contact the Workplace Analytics team member that referred you to this page for support about onboarding, usage, and interpretation of the data contained within the dashboard.
-* **Workplace Analytics support** - Refer to [Workplace Analytics documentation](../index.md) or [Workplace Analytics Support](../overview/getting-support.md) for additional help.
+* **Workplace Analytics support** - Refer to [Workplace Analytics documentation](../index.yml) or [Workplace Analytics Support](../overview/getting-support.md) for additional help.
 * **Support with other Microsoft products and tools** - Support for Power BI and other tools used in the context of this dashboard can be found through each product's associated support channels.
 
-## Related topic
+## Related topics
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [Power BI templates introduction](power-bi-intro.md)
+* [View, download, and export query results](../use/view-download-and-export-query-results.md)

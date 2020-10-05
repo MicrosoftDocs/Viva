@@ -3,7 +3,7 @@
 title: Meeting exclusion rules concepts
 description: Describes concepts and tools for meeting exclusion rules, including a word cloud and a list of supported languages
 author: paul9955
-ms.author: v-midehm
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -126,7 +126,7 @@ If you notice other words in the cloud that you might want to retain in your ana
 
 ## Select exclusion type
 
-On the **New exclusion** page,  you can select the type of exclusion that you want to create. Your choices are **Meeting Exclusion** and **Attendee exclusion**: 
+On the **New exclusion** page,  you can select the type of exclusion that you want to create. You make this selection in step three of the procedure [To start a meeting exclusion rule](meeting-exclusion-rules.md#to-start-a-meeting-exclusion-rule), which guides you through the exclusion flow. On this step, your choices are **Meeting Exclusion** and **Attendee exclusion**: 
 
  * **Meeting Exclusion**. Exclude from analysis the data from types of meetings (such as all-day training meetings) whose inclusion might skew query results. 
 
@@ -212,7 +212,7 @@ A4.  No. You can have only one rule in effect at a time. For more information, s
 
 The following languages are supported for keywords and phrases in meeting exclusions.
 
-| | | | |  
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |  
 |---|---|---|---|
 |Arabic | French | Korean | Serbian (Cyrillic) |
 |Bengali | German |Latvian | Serbian (Latin) |
