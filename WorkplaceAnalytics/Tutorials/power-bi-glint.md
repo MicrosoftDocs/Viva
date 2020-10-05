@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Behavior patterns
+# Behavior patterns for Glint
 
 The Behavior patterns dashboard uses a Power BI template to combine behavioral data from Workplace Analytics and sentiment data from Glint. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
@@ -19,15 +19,17 @@ This release of the dashboard combines the following data.
 
 |Theme |Representative Glint survey question |Workplace Analytics metrics |
 |------------|------------|------------|
-|Wellbeing |My company takes a genuine interest in employees' wellbeing. |<ul><li>Workweek span </li><li>After hours metrics </li><li>Collaboration hours</li></ul>|
+|Wellbeing |My company takes a genuine interest in employees' wellbeing. |<ul><li>After hours metrics </li><li>Collaboration hours </li><li>Workweek span </li></ul>|
 |Prioritization |I know what I should be focusing on right now. |Manager one-on-one hours |
-|Employee connection |My company is doing a good job of helping employees feel connected to one another. |<ul><li>Small group meetings </li><li>Internal network size</li></ul>|
+|Employee connection |My company is doing a good job of helping employees feel connected to one another. |<ul><li>Internal network size</li><li>Small group meeting hours </li></ul>|
+
+![Power BI Glint Wellbeing report](../Images/WpA/Tutorials/pbi-glint-wellbeing.png)
 
 The dashboard includes the following reports.
 
-* **Are there teams who struggle with wellbeing and poor collaboration practices?** – Compares wellbeing scores for the selected HR attributes, such as organization or level designation, and shows how workweek span, after hours, and collaboration hours might be affecting wellbeing for specific groups. You'll also see research-based, actionable strategies to help change behaviors that might contribute to low wellbeing scores.
-* **Are there teams who have trouble prioritizing and do not have sufficient opportunities to seek guidance from their managers?** – Compares prioritization scores for the selected HR attribute to show how manager one-on-one hours might be affecting employees’ ability to focus on and prioritize their work. Gives teams easy-to-implement plans that create opportunities for employees to more regularly meet with their managers one-on-one and prioritize their work.
-* **Are there teams who feel disconnected and have team collaboration norms that limit building deep relationships?** – Compares employee connection scores for the selected HR attribute to show how small group meeting hours and internal network size might be affecting employees’ feeling of connection. Helps leaders identify and support teams who might have underlying conditions that are affecting both their connection scores and collaboration patterns.
+* **Discover teams where you can boost wellbeing with better collaboration practices** – Compares wellbeing scores for the selected HR attributes, such as organization or level designation, and shows how workweek span, after hours, and collaboration hours might be affecting wellbeing for specific groups. You'll also see research-based, actionable strategies to help change behaviors that might contribute to low wellbeing scores.
+* **Find teams where more 1:1 manager meetings can improve work prioritization** – Compares prioritization scores for the selected HR attribute to show how manager one-on-one hours might be affecting employees’ ability to focus on and prioritize their work. Gives teams easy-to-implement plans that create opportunities for employees to more regularly meet with their managers one-on-one and prioritize their work.
+* **Look for teams feeling disconnected that will benefit from better networking** – Compares employee connection scores for the selected HR attribute to show how small group meeting hours and internal network size might be affecting employees’ feeling of connection. Helps leaders identify and support teams who might have underlying conditions that are affecting both their connection scores and collaboration patterns.
 * **How can I take action to improve employee wellbeing?** - Summarizes opportunities to improve employee wellbeing by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 * **How can I take action to improve prioritization and connection?** - Summarizes opportunities to improve focus on priority tasks and employee connection by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 
@@ -35,9 +37,9 @@ The dashboard includes the following reports.
 
 The high-level steps required to populate the dashboard in Power BI:
 
-1. **Get Glint data** - In Glint, select the corresponding survey questions and the population to analyze in Power BI, including the HR attributes you want to analyze, such as team and position. Then export a Heat Map report file with this data.
-2. **Get Workplace Analytics data** - Set up and run the predefined **Behavior patterns** query in Workplace Analytics. After the query successfully runs, download the Power BI template for the Glint query on the **Results** page. This template is required to create the dashboard in Power BI.
-3. **Load both into Power BI** - Connect to and load both the query data from Workplace Analytics and the Heat map from Glint into Power BI.
+1. [Get Glint data](#get-the-glint-data) - In Glint, select the corresponding survey questions and the population to analyze in Power BI, including the HR attributes you want to analyze, such as team and position. Then export a Heat Map report file with this data.
+2. [Get Workplace Analytics data](#get-the-workplace-analytics-data) - Set up and run the predefined **Behavior patterns for Glint** query in Workplace Analytics. After the query successfully runs, download the Power BI template for the Glint query on the **Results** page. This template is required to create the dashboard in Power BI.
+3. [Load both into Power BI](#load-the-data-in-power-bi) - Connect to and load both the query data from Workplace Analytics and the Heat map from Glint into Power BI.
 
 ## Prerequisites
 
@@ -45,7 +47,7 @@ The following is required before you can run the query in Workplace Analytics an
 
 * Your company uses Glint with the same measured population as Workplace Analytics has data for:
 
-  * The population reflected in the Glint Heat Map report is the same as the filtered population in the Behavior patterns query.
+  * The population reflected in the Glint Heat Map report is the same as the filtered population in the Behavior patterns for Glint query.
   * You have Glint survey content for the last six months that includes questions on employee wellbeing, prioritization, and connectivity.
 
 * Be assigned the role of Analyst in Workplace Analytics.
@@ -58,16 +60,28 @@ The following is required before you can run the query in Workplace Analytics an
 ## Get the Glint data
 
 1. In Glint, select **Reports** > **Heat Map**, and then select the reports that have questions on wellbeing, prioritization, and connectivity. If the questions spread across different pulse dates, select the **Multiple Pulses** option.
+
+   ![Glint heat map report](../Images/WpA/Tutorials/glint-heat-map.png)
+
 2. In **Filter By**, select the applicable departments for the population you want to analyze in Power BI, and then select **Done**.
-3. Select the grouping attributes that are also used in Workplace Analytics.
+
+   ![Glint filter by departments](../Images/WpA/Tutorials/glint-filter-by.png)
+
+3. Select the grouping attributes that are also used in Workplace Analytics for the report.
+
+   ![Glint report options](../Images/WpA/Tutorials/glint-report.png)
+
 4. In **Add section**, select (up to five) other grouping attributes to analyze by, which must also be present in Workplace Analytics.
 5. Select **Export to spreadsheet** to download the report.
-6. Save the report in an accessible location.
+
+   ![Glint report export](../Images/WpA/Tutorials/glint-report-export.png)
+
+6. Save the spreadsheet in an accessible location.
 
 ## Get the Workplace Analytics data
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Behavior patterns** to open the predefined query.
+2. Under **Start from preselected filters and metrics**, select **Behavior patterns for Glint** to open the predefined query.
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -86,11 +100,11 @@ The following is required before you can run the query in Workplace Analytics an
    > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-7. In **Queries** > **Results**, after the query successfully runs, select the **Download** icon for the **Behavior patterns** query results, select **PBI template**, and then select **OK** to download the template.
+7. In **Queries** > **Results**, after the query successfully runs, select the **Download** icon for the **Behavior patterns for Glint** query results, select **PBI template**, and then select **OK** to download the template.
 
 ## Load the data in Power BI
 
-1. Open the downloaded **Behavior patterns** template.
+1. Open the downloaded **Behavior patterns for Glint** template.
 2. If prompted to select a program, select **Power BI**.
 3. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
 
@@ -113,16 +127,15 @@ The following is required before you can run the query in Workplace Analytics an
 
 ## Dashboard settings
 
-After the Behavior patterns dashboard is set up and populated with both the Glint and Workplace Analytics data in Power BI, before viewing data in the dashboard, set the following parameters on the **Settings** page.
+After the Behavior patterns dashboard is set up and populated with both the Glint and Workplace Analytics data in Power BI and before viewing data in the dashboard, set the following parameters on the **Settings** pages.
 
-* **Map the Glint team attribute to the Workplace Analytics Organization attribute** - The primary “group-by” attribute that represents the teams in both Glint and Workplace Analytics must be mapped to each other because they're used and shown in all subsequent reports. You can change these mappings at any time and all subsequent report pages will show group values based on your changes. To clear an existing mapping, select the **Reset arrow**.
-* **Map Workplace Analytics theme to Glint survey Heat Map** – Map the work pattern used in Workplace Analytics data to compare with the applicable question in the Glint survey.
-* **Select time period for each report theme** – Select the time periods for each of the work patterns that you want to view in the reports.
+* **Settings (1) Map themes to Glint survey Heat Map** – Map the work pattern used in Workplace Analytics data to compare with the applicable question in the Glint survey.
+* **Settings (1) Select time period for each report theme** – Select the time periods for each of the work patterns that you want to view in the reports.
+* **Settings (2) Map the Glint attribute of interest to the corresponding Workplace field** - The primary “group-by” attribute that represents the teams in both Glint and Workplace Analytics must be mapped to each other because they're used and shown in all subsequent reports. You can change these mappings at any time and all subsequent report pages will show group values based on your changes. To clear an existing mapping, select the **Reset arrow**.
 
-> [!Tip]
-> When you select a chart bar for **Teams**, it updates the data to show that team’s data.
+![Behavior patterns Settings page 1](../Images/WpA/Tutorials/pbi-glint-settings.png)
 
- << Dashboard settings screenshot? >>
+![Behavior patterns Settings page 2](../Images/WpA/Tutorials/pbi-glint-settings-2.png)
 
 ## Power BI tips, troubleshooting, and FAQs
 
