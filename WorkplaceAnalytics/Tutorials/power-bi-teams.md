@@ -53,14 +53,14 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Microsoft Teams insights** to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Microsoft Teams insights** (or select **Influence insights**, per **step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
-   * **Group by** - Week
+   * **Group by** - Select **Week** for Teams insights and **Aggregated** for Influence insights
    * **Time period** - Select the time period for this analysis
-   * **Auto-refresh** - Enable the setting
-   * **Meeting exclusions** - Select the preferred rule for your tenant
+   * **Auto-refresh** - Enable the setting if available
+   * **Meeting exclusions** - Select the preferred rule for your tenant, which is only available for Teams insights
 
    > [!Important]
    > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
@@ -72,25 +72,14 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
    > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which might take several minutes to complete.
-7. Next you must run the required influence insights query to get those metrics for the dashboard. Under **Start from preselected filters and metrics**, select **Influence insights** query to open it.
-8. Select or confirm the following query settings:
-
-   * **Name** - Customize or keep the default name
-   * **Group by** - Week
-   * **Time period** - Select the time period for this analysis
-   * **Auto-refresh** - Enable the setting
-   * **Meeting exclusions** - Select the preferred rule for your tenant
-
-9. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard.
-10. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
-11. Select **Run** to run the query, which might take several minutes to complete.
-12. In **Queries** > **Results**, after the queries successfully run, select the **Download** icon for the **Microsoft Teams insights** query results, select **PBI template**, and then select **OK** to download the template.
+7. Repeat **steps 2-6** and select the **Influence insights** query. Make the same selections as for Teams insights but for the few exceptions, as noted in **step 3**.
+8. In **Queries** > **Results**, after the queries successfully run, select the **Download** icon for the **Microsoft Teams insights** query results, select **PBI template**, and then select **OK** to download the template.
 
    ![Download the Power BI Teams insights template](../Images/WpA/Tutorials/pbi-download-teams.png)
 
-13. Open the downloaded **Microsoft Teams insights Power BI template**.
-14. If prompted to select a program, select **Power BI**.
-15. When prompted by Power BI:
+9. Open the downloaded **Microsoft Teams insights Power BI template**.
+10. If prompted to select a program, select **Power BI**.
+11. When prompted by Power BI:
 
     * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
     * In Power BI, paste each copied link into its respective URL field.
@@ -99,17 +88,17 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 
 <!--    ![Query URL for Power BI](../Images/WpA/Tutorials/pbi-teams-url.png)
 -->
-16. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-17. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-18. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+14. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
-19. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
 ## Dashboard settings
 

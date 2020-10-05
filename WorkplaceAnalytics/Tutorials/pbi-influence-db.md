@@ -41,8 +41,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 This dashboard requires results from two queries. For this reason, in the following procedure, you first run one query (**Influence insights**), and then you repeat some steps to run the second query, the **Standard person** query.  
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-
-2. Under **Start from preselected filters and metrics**, select **Influence insights** (or select **Standard person query**, per Step 7) to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Influence insights** (or select **Standard person query**, per **step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
 
     ![Influence insights query option](../Images/WpA/Tutorials/influence-insights-step-2.png)
 
@@ -71,7 +70,7 @@ This dashboard requires results from two queries. For this reason, in the follow
 
 6. Select **Run** to run the query. This might take several minutes to complete.
 
-7. Repeat **Steps 2-6**; this time, specify the **Standard person query**. Make the same selections that you made for the Influence insights query but with the exceptions noted in step 3.
+7. Repeat **steps 2-6**; this time, specify the **Standard person query**. Make the same selections that you made for the Influence insights query but with the exceptions noted in **step 3**.
 
 8. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Influence insights** query results, select **PBI template**, and then select **OK** to download the template.
 
