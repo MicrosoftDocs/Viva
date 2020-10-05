@@ -133,9 +133,6 @@ After the Behavior patterns dashboard is set up and populated with both the Glin
 * **Settings (1) Select time period for each report theme** – Select the time periods for each of the work patterns that you want to view in the reports.
 * **Settings (2) Map the Glint attribute of interest to the corresponding Workplace field** - The primary “group-by” attribute that represents the teams in both Glint and Workplace Analytics must be mapped to each other because they're used and shown in all subsequent reports. You can change these mappings at any time and all subsequent report pages will show group values based on your changes. To clear an existing mapping, select the **Reset arrow**.
 
-> [!Tip]
-> When you select a chart bar for **Teams**, it updates the data to show that team’s data.
-
 ![Behavior patterns Settings page 1](../Images/WpA/Tutorials/pbi-glint-settings.png)
 
 ![Behavior patterns Settings page 2](../Images/WpA/Tutorials/pbi-glint-settings-2.png)
