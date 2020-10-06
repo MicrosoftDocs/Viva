@@ -87,10 +87,6 @@
           items:
             - name: Insights
               href: ~/Use/home-page.md
-#           - name: Boost employee engagement
-#             href: ~/Use/boost-engagement.md
-#           - name: Increase customer focus
-#             href: ~/Use/customer-focus.md
             - name: Manager insights
               items:
                 - name: Overview
