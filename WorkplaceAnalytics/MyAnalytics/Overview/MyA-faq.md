@@ -121,7 +121,7 @@ Yes. You can change your time zone and your working time in your [Outlook settin
 
 #### Q1. Can I opt out of MyAnalytics? And if I do (or if an admin opts me out), can I opt back in later?
 
-Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can opt back in again later, if you want.
+Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can [opt back in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) again later, if you want.
 
 See the following for details:
 
@@ -135,6 +135,10 @@ See the following for details:
  * [Opt out of the weekly digest](../use/email-digest-2.md#opt-out-of-digests)
  * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
+
+ ##### Opt in to MyAnalytics
+
+ * [If I opt out, can I opt back in?](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) 
 
 #### Q2. Can I add or remove the Insights Outlook add-in?
 

@@ -138,3 +138,36 @@
 | 9/24/2020 | [Organizational network analysis person-to-person queries](/Workplace-Analytics/tutorials/ona-person-to-person-query) | modified |
 | 9/24/2020 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
 | 9/25/2020 | [Workplace Analytics plans concepts](/Workplace-Analytics/tutorials/solutionsv2-conceptual) | modified |
+
+
+## Week of September 28, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/28/2020 | [MyAnalytics privacy guide](/Workplace-Analytics/myanalytics/overview/privacy-guide) | modified |
+| 9/28/2020 | [Leadership insights dashboard](/Workplace-Analytics/myanalytics/use/leadership) | modified |
+| 9/28/2020 | [Use Insights](/Workplace-Analytics/myanalytics/use/use-the-insights) | modified |
+| 9/28/2020 | [Configure settings for Workplace Analytics](/Workplace-Analytics/use/settings) | modified |
+| 9/29/2020 | [MyAnalytics plans and environments](/Workplace-Analytics/myanalytics/overview/plans-environments) | modified |
+| 9/29/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
+| 9/29/2020 | [Workplace Analytics plan walkthrough](/Workplace-Analytics/tutorials/solutionsv2-task) | modified |
+| 9/29/2020 | [View, download, and export Workplace Analytics query results](/Workplace-Analytics/use/view-download-and-export-query-results) | modified |
+| 9/30/2020 | [MyAnalytics plans and environments](/Workplace-Analytics/myanalytics/overview/plans-environments) | modified |
+| 9/30/2020 | [Workplace Analytics language support and guidelines](/Workplace-Analytics/overview/supported-languages) | modified |
+| 9/30/2020 | [Meeting exclusion rules concepts](/Workplace-Analytics/tutorials/meeting-exclusion-concept) | modified |
+| 9/30/2020 | [Meeting exclusion rules in Workplace Analytics -- walkthroughs](/Workplace-Analytics/tutorials/meeting-exclusion-rules) | modified |
+| 9/30/2020 | [Meeting exclusion rules in Workplace Analytics -- Introduction](/Workplace-Analytics/tutorials/meeting-exclusions-intro) | modified |
+| 9/30/2020 | [Understand meeting exclusions in Workplace Analytics](/Workplace-Analytics/use/understand-meeting-exclusions) | modified |
+| 10/1/2020 | [Power BI template tips, troubleshooting, and FAQs](/Workplace-Analytics/tutorials/power-bi-templates) | modified |
+| 10/1/2020 | [Workplace Analytics best practices](/Workplace-Analytics/tutorials/gm-best-practices) | modified |
+| 10/1/2020 | [Sales business continuity dashboard](/Workplace-Analytics/tutorials/pbi-bc-sales) | modified |
+| 10/1/2020 | [Influence insights dashboard](/Workplace-Analytics/tutorials/pbi-influence-db) | modified |
+| 10/1/2020 | [Business continuity dashboard](/Workplace-Analytics/tutorials/power-bi-bc) | modified |
+| 10/1/2020 | [Collaboration assessment dashboard](/Workplace-Analytics/tutorials/power-bi-collab-assess) | modified |
+| 10/1/2020 | [Power BI Collaboration tracker](/Workplace-Analytics/tutorials/power-bi-collab-track) | modified |
+| 10/1/2020 | [Return to worksites dashboard](/Workplace-Analytics/tutorials/power-bi-return-tw) | modified |
+| 10/1/2020 | [Power BI Teams dashboard](/Workplace-Analytics/tutorials/power-bi-teams) | modified |
+| 10/1/2020 | [Workplace Analytics playbooks](/Workplace-Analytics/use/playbooks) | modified |
+| 10/1/2020 | [Workplace Analytics introduction](/Workplace-Analytics/index-orig) | modified |
+| 10/2/2020 | [Opt out of MyAnalytics](/Workplace-Analytics/myanalytics/use/opt-out-of-mya) | modified |

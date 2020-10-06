@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Plans: The experience of plan participants
 
-**Role** - participant in a plan, an information worker who is using MyAnalytics and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan)
+**Role** - participant in a plan, an information worker who is using MyAnalytics <!-- and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) REMOVING FOR NOW PER PRAMOD -->
 
 While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better.
 
