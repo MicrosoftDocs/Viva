@@ -39,7 +39,7 @@ The following are used to calculate the metrics used for the organizational data
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Improve management practices
+## Organize better meetings
 
 One liner quote from Connor & Kate's spreadsheet
 
@@ -57,7 +57,7 @@ The
 
 ## Accelerate decision-making
 
-One liner quote from Connor & Kate's spreadsheet
+One liner
 
 ### Why it matters
 
@@ -73,7 +73,7 @@ The
 
 ## Foster cross-group collaboration
 
-One liner quote from Connor & Kate's spreadsheet
+One liner
 
 ### Why it matters
 
@@ -89,7 +89,7 @@ The
 
 ## Improve management practices
 
-One liner quote from Connor & Kate's spreadsheet
+One liner
 
 ### Why it matters
 
