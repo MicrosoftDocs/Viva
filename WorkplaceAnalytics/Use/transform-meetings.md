@@ -15,7 +15,7 @@ Employees
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or transform your organization's meeting culture.
 
 * [Optimize meeting hours](#optimize-meeting-hours)
-* [Examine recurring meetings](#accelerate-decision-making)
+* [Examine recurring meetings](#examine-recurring-meetings)
 * [Promote healthy meeting habits](#promote-healthy-meeting-habits)
 
 ![Transform meeting culture page](../images/wpa/use/transform-meetings.png)

@@ -34,7 +34,7 @@ The following are used to calculate the metrics used for the organizational data
 
 |Behavior |Visual insight | Calculations |
 |---------|--------|----------------------|
-|Organize better meetings |Visual insight  |Calculation info |
+|Free up capacity |Visual insight  |Calculation info |
 |Improve meeting quality |Visual insight  |Calculation info |
 |Keep employees engaged |Visual insight  |Calculation info |
 |Protect time to get work done |Visual insight  |Calculation info |
@@ -45,7 +45,7 @@ The following are used to calculate the metrics used for the organizational data
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Organize better meetings
+## Free up capacity
 
 One liner quote from Connor & Kate's spreadsheet
 
@@ -63,7 +63,7 @@ The
 
 ## Improve meeting quality
 
-One liner quote from Connor & Kate's spreadsheet
+One liner 
 
 ### Why it matters
 
@@ -79,7 +79,7 @@ The
 
 ## Keep employees engaged
 
-One liner quote from Connor & Kate's spreadsheet
+One liner 
 
 ### Why it matters
 
@@ -95,7 +95,7 @@ The
 
 ## Protect time to get work done
 
-One liner quote from Connor & Kate's spreadsheet
+One liner 
 
 ### Why it matters
 
