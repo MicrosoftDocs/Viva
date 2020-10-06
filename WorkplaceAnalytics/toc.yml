@@ -83,22 +83,22 @@
       items:
         - name: Introduction
           href: ~/Overview/Get-started.md
-        - name: Insights
+        - name: Home
           items:
-            - name: Overview
-              href: ~/Use/insights.md
-            - name: Boost employee engagement
-              href: ~/Use/boost-engagement.md
-            - name: Increase customer focus
-              href: ~/Use/customer-focus.md
-        - name: Manager insights
-          items:
-            - name: Overview
-              href: ~/Use/pm-home.md
-            - name: Rollout to managers
-              href: ~/manager-insights/rollout.md
-            - name: FAQs
-              href: ~/Use/insight-faqs.md
+            - name: Insights
+              href: ~/Use/home-page.md
+#           - name: Boost employee engagement
+#             href: ~/Use/boost-engagement.md
+#           - name: Increase customer focus
+#             href: ~/Use/customer-focus.md
+            - name: Manager insights
+              items:
+                - name: Overview
+                  href: ~/Use/pm-home.md
+                - name: Rollout to managers
+                  href: ~/manager-insights/rollout.md
+                - name: FAQs
+                  href: ~/Use/insight-faqs.md
         - name: Analyze
           items:
             - name: Explore

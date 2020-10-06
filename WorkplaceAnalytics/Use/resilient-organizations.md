@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Enhance organizational resiliency with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and enhance organizational resiliency
 author: madehmer

@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics insights
 description: Learn actionable insights into more effective business outcomes for your organization 
 author: madehmer

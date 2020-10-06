@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Boost employee engagement with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and improve employee engagement
 author: madehmer

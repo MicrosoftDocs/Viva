@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Develop effective managers with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and develop effective managers in your organization
 author: madehmer
