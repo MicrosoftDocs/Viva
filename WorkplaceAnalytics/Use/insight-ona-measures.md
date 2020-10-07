@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Organizational network measures for Workplace Analytics visual insights
-description: Learn actionable insights into more effective business outcomes for your organization 
+description: Learn more about the network graphs used in Workplace Analytics visual insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,7 +11,11 @@ ms.prod: wpa
 
 # Organizational network measures
 
-The organizational network analysis graphs used for some of the Workplace Analytics insights use a number of measures to help you visualize and analyze collaborative relationships within your organization.
+The organizational network graphs used for some of the Workplace Analytics visual insights use a number of measures to help you visualize and analyze collaborative relationships within your organization.
+
+The following is an example of an Employee empowerment network graph.
+
+![Employee empowerment network graph](../images/wpa/use/ee-ona-graph.png)
 
 ## Nodes and edges
 
@@ -44,10 +48,6 @@ For calculation information about a specific network graph, select the following
 * [Distribution of potential manager candidates](accelerate-change.md#about-the-insights) - Represents the current managers, potential managers, and other employees based on their network connections within your organization.
 * [Internal network connections by employee network strength](customer-focus.md#about-the-insights) - Shows the number of employees with strong internal networks as compared to other employees in your organization.
 * [Reach of influencers](accelerate-change.md#about-the-insights) - Shows the reach of influencers, their connections, and how they compare to other employees in your organization.
-
-The following is an Employee empowerment network graph.
-
-![Employee empowerment network graph](../images/wpa/use/ee-ona-graph.png)
 
 ## Are the measures for employees and groups different?
 
