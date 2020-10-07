@@ -62,7 +62,7 @@ If you are a person with delegate access, the monthly digest email includes not 
 
 ## Configure Executive insights
 
-### Categorize meetings
+### Categorize meetings in Outlook
 
 It is important that the executive or an assistant [categorize the executive's meetings](https://support.microsoft.com/en-us/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527) in Outlook. 
 
@@ -73,7 +73,7 @@ If fewer than four meeting categories are defined or if the more than 75% of you
 
 ### Configure the dashboard views
 
-You can configure the views by using the following controls: 
+You can configure the views by selecting the time frame and the meeting categories to examine. 
 
 #### Select time frame
 
