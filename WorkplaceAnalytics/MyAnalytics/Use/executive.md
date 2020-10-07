@@ -14,7 +14,10 @@ ms.prod: Mya
 
 # Executive insights
 
-The Executive insights help you reflect on how effectively you spend your time in meetings, email, chats, and calls.
+This dashboard helps executives who spend majority of their time in meetings understand their time allocation across priorities. Before you use the Executive dashboard, you or an assistant should use color to categorize your meetings in Microsoft Outlook. The dashboard will then use these categores to present deeper information about your meetings in tables and charts.
+
+
+The Executive insights help you reflect on how effectively you spend your time in meetings.
 
   ![Executive insights](../../Images/mya/use/executive-meetings.png)
 
