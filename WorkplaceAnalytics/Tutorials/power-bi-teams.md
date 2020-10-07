@@ -59,23 +59,23 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
    * **Name** - Customize or keep the default name
    * **Group by** - Select **Week** for Teams insights and **Aggregated** for Influence insights
    * **Time period** - Select the time period for this analysis
-   * **Auto-refresh** - Enable the setting if available
-   * **Meeting exclusions** - Select the preferred rule for your tenant, which is only available for Teams insights
+   * **Auto-refresh** - Enable this setting
+   * **Exclusions** - Select the preferred rules for your tenant, which are only available for Teams insights
 
    > [!Important]
    > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
-5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
+4. In **Select filters**, for "**Which measured employees do you want to include?**," you can filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+5. In **Organizational data**, keep the preselected organizational data attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
    > [!Important]
-   > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+   > If you remove the required, preselected organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which might take several minutes to complete.
 7. Repeat **steps 2-6** and select the **Influence insights** query. Make the same selections as for Teams insights but for the few exceptions, as noted in **step 3**.
 8. In **Queries** > **Results**, after the queries successfully run, select the **Download** icon for the **Microsoft Teams insights** query results, select **PBI template**, and then select **OK** to download the template.
 
-   ![Download the Power BI Teams insights template](../Images/WpA/Tutorials/pbi-download-teams.png)
+   ![Download the Power BI Teams insights template](../Images/WpA/Tutorials/teams-template.png)
 
 9. Open the downloaded **Microsoft Teams insights Power BI template**.
 10. If prompted to select a program, select **Power BI**.
@@ -86,8 +86,8 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
     * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-<!--    ![Query URL for Power BI](../Images/WpA/Tutorials/pbi-teams-url.png)
--->
+    ![Query URLs for Power BI](../Images/WpA/Tutorials/teams-odata-urls.png)
+
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
@@ -108,6 +108,8 @@ After the Microsoft Teams insights dashboard is set up and populated with Workpl
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
 * **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select the **Eraser** icon to clear the selections. 
 * **Measured employees** - Represents the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current date range.
+
+![Power BI Teams insights settings page](../Images/WpA/Tutorials/teams-settings.png)
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 

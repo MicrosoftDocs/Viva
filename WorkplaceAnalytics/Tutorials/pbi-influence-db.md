@@ -63,7 +63,7 @@ This dashboard requires results from two queries. For this reason, in the follow
       ![Influence insights query selections](../Images/WpA/Tutorials/influence-insights-step-3.png)
  
 4. In **Select filters**, for "**Which measured employees do you want to include?**" you can filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Network: Person Query](./ona-person-query.md).
-5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires. You can then select additional columns to include in the dashboard.
+5. In **Organizational data**, keep the preselected organizational data attributes that the dashboard requires. You can then select additional columns to include in the dashboard.
 
    > [!Important]
    > If you remove any of these preselected organizational data attributes, you might disable one or more Power BI charts and some insights might not appear.
