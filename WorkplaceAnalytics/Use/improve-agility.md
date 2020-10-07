@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Improve agility
 
-Employees 
+Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs.
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain organizational agility.
 
@@ -36,7 +36,7 @@ The following are used to calculate the metrics used for the organizational data
 |Behavior |Visual insight | Calculations |
 |---------|--------|----------------------|
 |Organize better meetings |Visual insight  |Calculation info |
-|Accelerate decision-making |Visual insight  |Calculation info |
+|Accelerate decision-making |Employee empowerment shows an organizational network graph of the number of empowered employees and disempowered employees in your organization. |Calculation info |
 |Foster cross-group collaboration |Visual insight  |Calculation info |
 |Improve management practices |Visual insight  |Calculation info |
 
@@ -48,7 +48,7 @@ The following are used to calculate the metrics used for the organizational data
 
 ## Organize better meetings
 
-One liner quote from Connor & Kate's spreadsheet
+Long and large meetings are costly and often considered a waste of time. Shorter and smaller meetings provide the conditions for effective decision-making.
 
 ### Why it matters
 
@@ -64,7 +64,7 @@ The
 
 ## Accelerate decision-making
 
-One liner
+Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making.
 
 ### Why it matters
 
@@ -80,7 +80,8 @@ The
 
 ## Foster cross-group collaboration
 
-One liner 
+Agile organizations rely on a network of highly-connected teams that actively collaborate together with a shared understanding of the collective mission.
+
 ### Why it matters
 
 The
@@ -95,19 +96,28 @@ The
 
 ## Improve management practices
 
-One liner 
+When managers are needed in more meetings than they can attend, they become obstacles to team goal attainment and create bottlenecks in decision making.
 
 ### Why it matters
 
-The
+The level of day-to-day collaboration between managers and their employees can indicate whether employees feel empowered to take initiative and work independently, or if they struggle to separate themselves from their manager.
+
+* A proportionately high number of hours spent in meetings with managers suggests micro-management.
+* Too little time spent with managers in meetings potentially suggests insufficient team guidance, particularly for new employees.
 
 ### Best practices
 
-* First best practice
+* Push ownership down to the level of action.
+* Enable and use [Insights](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
+* Promptly decline meetings as soon as possible with a brief explanation of why to reinforce decision-making roles and to role model healthy habits.
 
-### Change catalyst: <action>
+### Change catalyst: Reduce coattended meetings
 
-* Take
+Meetings where an employee and their manager are both attending can signify  a lack of delegation. These meetings are a good starting point to deciding  what decisions can be delegated to reduce coattendance. Use the following as a reference to get started:
+
+* Identify meetings that are attended by a manager and an employee that reports directly to that manager.
+* Request that when possible the manager delegates the decision rights for that work stream to the employee who is also attending.
+* Recap these delegated decisions during recurring 1:1s where further coaching can be practiced.
 
 ## Related topics
 

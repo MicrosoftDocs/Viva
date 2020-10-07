@@ -39,7 +39,7 @@ The following are used to calculate the metrics used for the organizational data
 |---------|--------|----------------------|
 |Promote coaching and development |Distribution 1:1 time with managers each month |Based on the average number of 1:1 hours that managers spend with employees grouped by the average monthly totals.|
 |Prevent employee burnout |Distribution of weekly after-hours collaboration |Based on the average number of hours that employees spent collaborating after hours grouped by the average weekly totals.|
-|Encourage team cohesion |Cohesion within teams|The Organizational Network Analysis chart shows the teams who are the most cohesive and those who are not very cohesive based on the monthly average collaboration activity within the team’s network. |
+|Encourage team cohesion |Cohesion within teams|The organizational network chart that shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. |
 |Drive employee empowerment |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for co-attended meeting hours and 1:1 meeting hours for managers and their employees. |
 
 ## Advanced analysis

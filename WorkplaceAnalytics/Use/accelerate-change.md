@@ -33,8 +33,8 @@ The following are used to calculate the metrics used for the organizational data
 
 |Behavior |Visual insight | Calculations |
 |---------|--------|----------------------|
-|Engage influencers |An organizational network analysis graph that shows the reach of influencers, their connections, and other employees in your organization.  |Calculation info |
-|Measure Teams adoption |Distribution of Teams adoption chart that shows the average number of collaboration hours that employees spent in Teams over the past year by quarter and the average used by influencers. |Calculation info |
+|Engage influencers |Reach of influencers |An organizational network graph that shows the reach of influencers, their connections, and other employees in your organization. |
+|Measure Microsoft Teams adoption |Distribution of Teams adoption |A chart that shows the average number of collaboration hours that employees spent in Teams over the past year by quarter and the average used by influencers. 
 |Support connectivity |Shows a chart about the impact of Teams adoption on employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. |Calculation info |
 
 ## Advanced analysis

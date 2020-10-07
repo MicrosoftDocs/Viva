@@ -15,10 +15,9 @@ Employees
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain organizational innovation.
 
-* [Organize better meetings](#organize-better-meetings)
-* [Accelerate decision-making](#accelerate-decision-making)
 * [Foster cross-group collaboration](#foster-cross-group-collaboration)
-* [Improve management practices](#improve-management-practices)
+* [Enable deep work](#enable-deep-work)
+* [Utilize influencers](#utilize-influencers)
 
 ![Foster innovation page](../images/wpa/use/innovation.png)
 
@@ -28,10 +27,17 @@ The following are used to calculate the metrics used for the organizational data
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Organize better meetings |Percentage of  |<ul><li>Metric </li><li>Metric 2 </li></ul> |Calculation info |
-|Accelerate decision-making |Percentage of  |<ul><li>Metric </li><li>Metric 2 </li></ul> |Calculation info |
-|Foster cross-group collaboration |Percentage of  |<ul><li>Metric </li><li>Metric 2 </li></ul> |Calculation info |
-|Improve management practices |Percentage of  |<ul><li>Metric </li><li>Metric 2 </li></ul> |Calculation info |
+|Foster cross-group collaboration |Percentage of organizations that effectively collaborate across groups and hierarchies  |<ul><li>Metric </li><li>Metric 2 </li></ul> |Calculation info |
+|Enable deep work |Percentage of  |<ul><li>Metric </li><li>Metric 2 </li></ul> |Calculation info |
+|Utilize influencers |Percentage of  |<ul><li>Metric </li><li>Metric 2 </li></ul> |Calculation info |
+
+
+
+|Behavior |Visual insight | Calculations|
+|---------|--------|----------|------------|
+|Foster cross-group collaboration |Collaboration across teams |Organizational network graph that shows the number of groups with high cross-group collaboration and those with low cross-group collaboration. Cross-group collaboration is based on the number of hours a group spent in meetings and on email with at least one person in another group. This metric uses time allocation logic.|
+|Enable deep work |Visual insight |Calculation info |
+|Utilize influencers |Visual insight |Calculation info|
 
 ## Advanced analysis
 
@@ -39,7 +45,7 @@ The following are used to calculate the metrics used for the organizational data
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Organize better meetings
+## Foster cross-group collaboration
 
 One liner quote from Connor & Kate's spreadsheet
 
@@ -55,7 +61,7 @@ The
 
 * Take
 
-## Accelerate decision-making
+## Enable deep work
 
 One liner
 
@@ -71,7 +77,7 @@ The
 
 * Take
 
-## Foster cross-group collaboration
+## Utilize influencers
 
 One liner
 
@@ -87,21 +93,6 @@ The
 
 * Take
 
-## Improve management practices
-
-One liner
-
-### Why it matters
-
-The
-
-### Best practices
-
-* First best practice
-
-### Change catalyst: <action>
-
-* Take
 
 ## Related topics
 

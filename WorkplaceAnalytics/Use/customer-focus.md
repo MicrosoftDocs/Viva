@@ -36,7 +36,7 @@ The following are used to calculate the metrics used for the organizational data
 |Optimize time with customers |Visual insight  |Calculation info |
 |Promote coaching and development |Visual insight  |Calculation info |
 |Foster cross-group collaboration |Visual insight  |Calculation info |
-|Strengthen internal networks  |Visual insight  |Calculation info |
+|Strengthen internal networks |Internal network connections by employee network strength |An organizational network graph that shows the number of employees with strong internal networks as compared to other employees in your organization. Each node represents an employee and the darker colored nodes represent employees with a higher number of internal connections, as the legend indicates. |
 
 ## Advanced analysis
 
