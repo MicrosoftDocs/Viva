@@ -38,7 +38,7 @@ Each of the measures are based on the connections between the nodes. To ensure t
 * **Weight** - Connections are weighted based on the amount of collaboration time in instant messages, meetings, and email between two nodes (connection strength).
 * **Direction** - They are also directed because they specifically account for who sent and who received instant messages or email. For these calculations, meetings do not have direction.
 
-## Network graph details
+## Available network graphs
 
 For calculation information about a specific network graph, select the following applicable visual insight.
 
