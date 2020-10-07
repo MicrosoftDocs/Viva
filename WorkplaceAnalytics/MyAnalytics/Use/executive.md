@@ -81,19 +81,21 @@ Select a value from the choices **Last 4 weeks**, **Last 3 months**, or **Last 4
 
 #### Select meeting categories
 
- * Under **Select meeting categories**, select categories of meetings to include in the charts of the dashboard: 
+ * Under **Select meeting categories**, select categories of meetings to include on this dashboard: 
 
    ![meeting view slider control](../../Images/mya/use/select-meeting-categories.png)
 
-## Special cases
+After you select categories, they appear in all the charts of this page: [Percentage breakdown](#percentage-breakdown), [Meeting trends, and Meeting details](#meeting-trends-and-meeting-details).
 
- The Executive dashboard does not report on every event in the executive's Outlook calendar. It generally includes all meetings, but note the following cases: 
+## Which meetings are included?
 
-### Included meetings
+The Executive dashboard does not report on every event in the executive's Outlook calendar. It generally includes all meetings, but note the following cases: 
+
+### Included 
 
  * Personal appointments such as time set aside for a soccer game, are included in the dashboard view.
 
-### Excluded meetings
+### Excluded 
 
 The following kinds of meetings are excluded from view, by default, in the dashboard:
 
