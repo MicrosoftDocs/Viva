@@ -26,13 +26,9 @@ Before you use the Executive dashboard, you or an assistant should categorize yo
 
 Access to the dashboad is based on either of two things: executive status as determined by the organizational hierarchy, or possession of delegate access to an executive's mailbox. 
 
-#### Executives and senior leadership
+* **Executives and senior leadership** &ndash; Who is an executive who can use this dashboard? Based on analysis of Azure Active Directory records, an executive is someone who has a reporting structure of least 200 employees and is above at least two levels of managers.
 
-Who is an executive who can use this dashboard? Based on analysis of Azure Active Directory records, an executive is someone who has a reporting structure of least 200 employees and is above at least two levels of managers.
-
-#### Delegate access
-
-Delegate access is typically granted to an executive admin or chief of staff (CoS), but for the purposes of this dashboard, it can be any person who has been granted [delegate access](https://support.microsoft.com/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926) to the executive's Outlook calendar.
+* **Delegate access** &ndash; Delegate access is typically granted to an executive admin or chief of staff (CoS), but for the purposes of this dashboard, it can be any person who has been granted [delegate access](https://support.microsoft.com/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926) to the executive's Outlook calendar.
 
 ## The Executive insights page
 
@@ -40,20 +36,33 @@ The Executive insights help you reflect on how effectively you spend your time i
 
   ![Executive insights](../../Images/mya/use/executive-meetings.png)
 
+This page contains the following sections:  
+
 ### Percentage breakdown
 
 In a chart, this section shows the relative amount of time that you spent in meetings of different categories.
 
-
    ![MyAnalytics Collaboration Weekly Average](../../Images/mya/use/percentage-breakdown.png)
 
-### Meeting trends
+In the chart, select a category to find out more.     
 
-The Meeting habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the List view:
+### Meeting trends and meeting details
 
-* The **Meeting habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
+The Meeting habits section of the Executive dashboard highlights your habits or practices in meetings that you organized and accepted. This information is shown in either of two charts:
 
-## Monthly digest email
+* The **Meeting view** shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
+
+  ![Meeting view](../../Images/mya/use/meet-details-meeting-view.png)
+
+* The **Trend view** shows trends of different meeting categories across months: 
+
+  ![Meeting trend view](../../Images/mya/use/meet-trends-trend-view.png)
+
+To switch between the **Trend view** and **Meeting view**, use the slider control:
+
+   ![meeting view slider control](../../Images/mya/use/meeting-view-slider.png)
+
+## Monthly digest email for executives
 
 If you are an executive, the monthly digest email includes a section that provides a preview of the insights that your Executive dashboard will show. For easy access, this email offers a link to the dashboard. 
 
@@ -63,7 +72,7 @@ If you are a person with delegate access, the monthly digest email includes not 
 
 ### Configure meetings
 
-The Executive dashboard works best if the executive or an assistant has already [categorized the executive's meetings](https://support.microsoft.com/en-us/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527) in Outlook. 
+The Executive dashboard works best if the executive or an assistant has already [categorized the executive's meetings](https://support.microsoft.com/en-us/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527) in Outlook. Note that if you color-code one meeting of a series &mdash; say, one 1:1 meeting with a direct report &mdash; all of the meetings of that series are categorized at once, and they all show up with the assigned color in your Outlook calendar.
 
 ### Configure the dashboard views
 
@@ -75,15 +84,8 @@ Select a value from the choices **Last 4 weeks**, **Last 3 months**, or **Last 4
 
 #### Select meeting categories
 
- * Select **Top meeting categories** to include ... 
+ * Select **Top meeting categories** to include ... [TBW]
  * Select **Not categorized** to include data from all of your meetings. 
-
-#### Meeting view and trend view
-
- * Select **Trend view** to see a graph of the amount of time you spent in meetings over the chosen time frame:
-    ![Meeting trend view](../../Images/mya/use/meet-trends-trend-view.png)
- * Select **Meeting view** to see a list of the meetings, the time spent in them, their cadence (how often they occurred) and their duration, over the chosen time frame:
-    ![Meeting view](../../Images/mya/use/meet-details-meeting-view.png)
 
 ## Related topics
 
