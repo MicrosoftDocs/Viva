@@ -52,6 +52,14 @@ In the **Take action** section for each insight, select **Find out more** to see
 * **Explore** - Depending on your role and the best practice, you might see  **Explore the stats** or **Explore in Power BI** links for using [Explore](explore-intro.md) or [Power BI](../tutorials/power-bi-templates.md) for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization or team in Workplace Analytics.
 
+## Network graphs
+
+Some of the insight visuals are organizational network graphs that help you visualize the collaborative relationships within your organization.
+
+In these network graphs, each dot or node represents an employee or a group. The lines between the nodes represent connections, which are collaborative relationships between them. The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
+
+For details about the metrics, see [Organizational network measure calculations](ona-measures.md).
+
 ## Frequently asked questions
 
 ### Q1 How do these insights accommodate different partitions?
