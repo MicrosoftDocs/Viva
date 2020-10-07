@@ -136,7 +136,7 @@ The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com
 ### Best practices
 
 * Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview).
-* Enable and use the [Insights Outlook add-in](/myanalytics/use/use-the-insights.md) and [MyAnalytics](../myanalytics/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts.
+* Enable and use the [Insights Outlook add-in](/myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts.
 * Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.
 * Pair newcomers and network inﬂuencers through staﬃng or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.
 * Create inclusive and trusting environments to facilitate agile collaboration. A culture of fear exists when employees do not feel safe to come forward with ideas, and those on the fringe may be less conﬁdent about contributing.

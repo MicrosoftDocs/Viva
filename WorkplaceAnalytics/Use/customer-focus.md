@@ -115,7 +115,7 @@ The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com
 * Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 * Identify opportunities to free up employees’ time spent on administrative tasks or internal meetings, so they have more time to spend with customers.
 * Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
-* Use [MyAnalytics to manage important people](../myanalytics/network.md) to mark key internal contacts as important to never miss emails from them and respond more efficiently.
+* Use [MyAnalytics to manage important people](../myanalytics/use/network.md)  to mark key internal contacts as important to never miss emails from them and respond more efficiently.
 * Breakdown silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
 * Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.
 * Pair newcomers and network inﬂuencers through staﬃng or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.

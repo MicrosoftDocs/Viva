@@ -94,9 +94,9 @@ Based on the information presented in the article about [What email, IM, and the
 
 ### Best practices
 
-* Launch a [champions program](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Teams and can guide, teach, and train their peers.
+* Launch a [champions program](https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Teams and can guide, teach, and train their peers.
 * User [Power BI Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through Workplace Analytics data, including instant messages, meeting, and email metrics.
-* Share [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/en-us/MicrosoftTeams/instructor-led-training-teams-landing-page) with employees to help get them up and running quickly with Teams.
+* Share [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page) with employees to help get them up and running quickly with Teams.
 * Consider the nature of the conversation based on the subject and type of response needed and identify the appropriate medium for communication.
 * Encourage using instant messages for urgent questions to get what you need faster.
 * When dealing with a sensitive topic, a quick chat on the phone or in person is more ideal than volleying emails back and forth.

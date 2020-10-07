@@ -39,7 +39,7 @@ Each of the measures are based on the connections between the nodes. To ensure t
 For calculation information about a specific network graph, select the following applicable visual insight.
 
 * [Employee empowerment](improve-agility.md#about-the-insights) - Shows the number of empowered employees and disempowered employees in your organization.
-* [Cohesion within teams](boost-engagement.md##about-the-insights) - Shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network.
+* [Cohesion within teams](boost-engagement.md#about-the-insights) - Shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network.
 * [Collaboration across groups](foster-innovation.md#about-the-insights) - Shows the number of teams with high cross-group collaboration and those with low cross-group collaboration.
 * [Distribution of potential manager candidates](accelerate-change.md#about-the-insights) - Represents the current managers, potential managers, and other employees based on their network connections within your organization.
 * [Internal network connections by employee network strength](customer-focus.md#about-the-insights) - Shows the number of employees with strong internal networks as compared to other employees in your organization.
