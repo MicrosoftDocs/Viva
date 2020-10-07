@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Business continuity
 
-The Business continuity dashboard uses a Power BI template that’s populated populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
+The Business continuity dashboard uses a Power BI template that’s populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
 
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
