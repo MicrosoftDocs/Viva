@@ -14,7 +14,7 @@ ms.prod: Mya
 
 # Executive insights
 
-As an executive, your time is your key asset, and meetings are an important factor in your time management. You need to understand how your time is being spent within and outside your organization. The Executive dashboard provides a bird’s eye view of your time allocation both to you and to an assistant who has delegate access to your Outlook calendar.
+As an executive, your time is your key asset, and meetings are an important factor in your time management. You need to understand how your time is being spent within and outside your organization. The Executive dashboard provides a bird's eye view of your time allocation both to you and to an assistant who has delegate access to your Outlook calendar.
 
 The purpose of the Executive insights dashboard is time management, which is your primary tool for staying focused on your many and various commitments. 
 
@@ -32,11 +32,7 @@ Access to the dashboad is based on either of two things: executive status as det
 
 ## The Executive insights page
 
-The Executive insights help you reflect on how effectively you spend your time in meetings.
-
-  ![Executive insights](../../Images/mya/use/executive-meetings.png)
-
-This page contains the following sections:  
+The Executive insights help you reflect on how effectively you spend your time in meetings. This page contains the following sections:  
 
 ### Percentage breakdown
 
@@ -50,17 +46,13 @@ In the chart, select a category to find out more.
 
 The Meeting habits section of the Executive dashboard highlights your habits or practices in meetings that you organized and accepted. This information is shown in either of two charts:
 
-* The **Meeting view** shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
+* Select **Meeting Details** to see data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
-  ![Meeting view](../../Images/mya/use/meet-details-meeting-view.png)
+  ![Meeting view](../../Images/mya/use/meeting-details-figma.png)
 
-* The **Trend view** shows trends of different meeting categories across months: 
+* Select **Meeting Trends** to see trends of different meeting categories across time: 
 
-  ![Meeting trend view](../../Images/mya/use/meet-trends-trend-view.png)
-
-To switch between the **Trend view** and **Meeting view**, use the slider control:
-
-   ![meeting view slider control](../../Images/mya/use/meeting-view-slider.png)
+  ![Meeting trend view](../../Images/mya/use/meeting-trends-figma.png)
 
 ## Monthly digest email for executives
 
@@ -70,9 +62,14 @@ If you are a person with delegate access, the monthly digest email includes not 
 
 ## Configure Executive insights
 
-### Configure meetings
+### Categorize meetings
 
-The Executive dashboard works best if the executive or an assistant has already [categorized the executive's meetings](https://support.microsoft.com/en-us/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527) in Outlook. Note that if you color-code one meeting of a series &mdash; say, one 1:1 meeting with a direct report &mdash; all of the meetings of that series are categorized at once, and they all show up with the assigned color in your Outlook calendar.
+It is important that the executive or an assistant [categorize the executive's meetings](https://support.microsoft.com/en-us/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527) in Outlook. 
+
+If fewer than four meeting categories are defined or if the more than 75% of your meetings are uncategorized, you will be prompted to categorize your meetings.
+
+> [!Note] 
+> If you color-code one meeting of a series &mdash; say, one 1:1 meeting with a direct report &mdash; all of the meetings of that series are categorized at once. They will all show up with the assigned color in your Outlook calendar.
 
 ### Configure the dashboard views
 
@@ -80,13 +77,31 @@ You can configure the views by using the following controls:
 
 #### Select time frame
 
-Select a value from the choices **Last 4 weeks**, **Last 3 months**, or **Last 4 quarters**. This determines the time frame about which the rest of the page will show information.
+Select a value from the choices **Last 4 weeks**, **Last 3 months**, or **Last 4 quarters**. This determines the time frame about which the rest of the page will show information. The default value is three months; this is the time frame that's in place when you first open the Executive dashboard.
 
 #### Select meeting categories
 
- * Select **Top meeting categories** to include ... [TBW]
- * Select **Not categorized** to include data from all of your meetings. 
+ * Under **Select meeting categories**, select categories of meetings to include in the charts of the dashboard: 
 
+   ![meeting view slider control](../../Images/mya/use/select-meeting-categories.png)
+
+## Special cases
+
+ The Executive dashboard does not report on every event in the executive's Outlook calendar. It generally includes all meetings, but note the following cases: 
+
+### Included meetings
+
+ * Personal appointments such as time set aside for a soccer game, are included in the dashboard view.
+
+### Excluded meetings
+
+The following kinds of meetings are excluded from view, by default, in the dashboard:
+
+ * Meetings marked as private 
+ * All-day meetings 
+ * Meetings marked as free time
+ * Time marked as Out of office 
+ 
 ## Related topics
 
 [MyAnalytics dashboard](../use/dashboard-2.md)
