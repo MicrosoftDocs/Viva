@@ -26,20 +26,26 @@ Each of the following behaviors show how your organization compares with others 
 
 ## About the insights
 
-The following are used to calculate the metrics used for the organizational data shown in the behavioral insights and visual insights.
+The following are used to calculate the metrics used for the organizational data shown in the behavioral percentage insights.
+
+![Employee engagement percentage insight](../images/wpa/use/boost-ee-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager. |<ul><li>Redundant meeting hours (organizational) are the number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. </li><li>Long meetings are those scheduled for more than an hour. </li><li>Large meetings are those that involve more than eight people. </li></ul> | |
-|Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion. |<ul><li>Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. </li><li>Teams who spend more than 50 percent of their overall collaboration within their group are more cohesive. </li><li>Influencers are employees who have the best connections to people across the company based on their collaboration patterns. | |
-|Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |<ul><li>After-hours work is the number of hours employees spend in meetings and on email outside of working hours. </li><li>The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. </li><li>After-hours and workweek span use the working hours and time zones set in the employee's Outlook calendar settings. </li></ul> | |
-|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week. |1:1 Coaching meeting time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. | |
+|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Redundant meeting hours, long meetings, and large meetings](metric-definitions.md#person-metrics)|Calculation info |
+|Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration, influencers, and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |
+|Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |[After-hours and workweek span](metric-definitions.md#person-metrics) |Calculation info |
+|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[1:1 meeting hours](metric-definitions.md#person-metrics) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 
-|Behavior |Visual insight | Calculations |
+The following defines the organizational data shown in the visual behavioral insights.
+
+![Employee engagement visual insight](../images/wpa/use/boost-ee-visual.png)
+
+|Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Promote coaching and development |Distribution 1:1 time with managers each month |Based on the average number of 1:1 hours that managers spend with employees grouped by the average monthly totals.|
 |Prevent employee burnout |Distribution of weekly after-hours collaboration |Based on the average number of hours that employees spent collaborating after hours grouped by the average weekly totals.|
-|Encourage team cohesion |Cohesion within teams|The organizational network chart that shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. |
+|Encourage team cohesion |Cohesion within teams |The organizational network chart that shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. |
 |Drive employee empowerment |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for co-attended meeting hours and 1:1 meeting hours for managers and their employees. |
 
 ## Advanced analysis
@@ -50,13 +56,8 @@ The following are used to calculate the metrics used for the organizational data
 
 ## Promote coaching and development
 
-Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition.
+Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
-### Why it matters
-
-According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/):
-
-* "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 * "The opportunity is huge for better-run organizations and a higher quality of life for workers."
 * "Bad management is estimated to cost the U.S. economy up to $398 billion annually."
 
