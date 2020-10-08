@@ -17,7 +17,7 @@ The following is an example of an Employee empowerment network graph.
 
 ![Employee empowerment network graph](../images/wpa/use/ee-ona-graph.png)
 
-## Nodes and edges
+## Nodes
 
 In the network graphs, each dot or node represents an employee or a group. The edges are the lines between the nodes, which represent connections that are collaborative relationships between them.
 
