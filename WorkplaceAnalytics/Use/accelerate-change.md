@@ -60,7 +60,7 @@ A few ways to leverage influencers:
 * Communicate through influencers by using MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
 * Move cross-functional team collaboration to Microsoft Teams and ask influencer groups to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
 
-For best practices and how to identify and utilize team influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
+For more best practices and how to identify and utilize team influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 
 ## Measure Teams adoption
 
@@ -83,7 +83,7 @@ Ways to support connectivity with Teams:
 * Share the collection of [Microsoft Teams training videos](https://support.microsoft.com/office/overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46?wt.mc_id=otc_microsoft_teams) that help employees best use Teams, including how to experience all of the features of Channels.
 * Learn tips and tricks on LinkedIn Learning, such as the [weekly Teams Tips video](https://www.linkedin.com/learning/microsoft-teams-tips-weekly/learn-tips-for-mastering-microsoft-teams?u=3322), to help employees master Teams and stay current on the latest Teams features and improvements.
 
-For best practices and how to host informal gatherings with Teams, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
+For more best practices and how to host informal gatherings with Teams, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
 
 ## Related topics
 
