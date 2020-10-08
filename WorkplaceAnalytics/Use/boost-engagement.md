@@ -32,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Redundant meeting hours](metric-definitions.md#person-metrics), [long meetings](glossary.md), and [large meetings](glossary.md)|Calculation info |
+|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Redundant meeting hours](metric-definitions.md#person-metrics) and [long meetings and large meetings](glossary.md)|Calculation info |
 |Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration, influencers, and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |
 |Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |[After-hours and workweek span](metric-definitions.md#person-metrics) |Calculation info |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[1:1 meeting hours](metric-definitions.md#person-metrics) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
