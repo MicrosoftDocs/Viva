@@ -14,7 +14,7 @@ You can turn a selected behavior into a habit by using MyAnalytics and the habit
 
 ![How to make it a habit](../../../Images/MyA/use/how-to-make-it-a-habit.png)
 
-For more information about Rob Cross’s research, see the [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf).
+[Collaboration without burnout](https://insights.office.com/collaboration/collaboration-without-burning-out/) shares why it's important to avoid collaboration overload.
 
 For additional tailored behavior change tips, take the [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
 
