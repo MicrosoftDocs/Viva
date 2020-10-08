@@ -32,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Redundant meeting hours, long meetings, and large meetings](metric-definitions.md#person-metrics)|Calculation info |
+|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Redundant meeting hours](metric-definitions.md#person-metrics), [long meetings](glossary.md), and [large meetings](glossary.md)|Calculation info |
 |Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration, influencers, and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |
 |Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |[After-hours and workweek span](metric-definitions.md#person-metrics) |Calculation info |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[1:1 meeting hours](metric-definitions.md#person-metrics) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
@@ -66,95 +66,41 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 Pressure to "always be on" and long hours can lead to employee burnout. The amount of time employees spend collaborating outside of business hours is an indicator of burnout risk.
 
-### Why it matters
+Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together."
 
-Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/) and [Help your team achieve work-life balance — even when you can't articles, employees need to unplug](https://insights.office.com/employee-experience/help-your-team-achieve-work-life-balance-even-when-you-cant/):
-
-* "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together."
-* "[87] percent of HR leaders cited improved retention as a critical or high priority over the next five years, but 20 percent said they had too many competing priorities to focus on fixing the problem this year."
-* "According to the recent study of 1,400 workers, nearly half of respondents said that thinking about work outside of work hours regularly has a negative impact on their work-life balance."
-
-### Best practices
+Ways to support employee wellbeing:
 
 * Ask employees to use [MyAnalytics wellbeing data](../MyAnalytics/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
 * Ask employees to use the [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
-* Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
-* Remind employees that the organization's success is based on a marathon, not a sprint.
-* Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
-* Practice setting and keeping boundaries. Boundaries can result in better overall team outcomes.
 
-### Change catalyst: Define and share working hours
-
-Add your working hours to your [Outlook email signature](https://support.microsoft.com/office/create-an-email-signature-from-a-template-5b02c5ed-1e85-4d2a-a098-9628fe3231d8) and encourage your team to do the same to help manage the expectations of others. The following is an email signature example:
-
-```
-Cora Thomas
-Program Manager
-Redmond, Washington
-My working hours are 9:00 AM to 6:00 PM PT
-```
+For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
 
 ## Encourage team cohesion
 
 Employees who maintain strong connections within their team feel a sense of organizational belonging.
 
-### Why it matters
+According to the [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/) article, it's important to develop and deploy cultural "brokers" to "promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive."
 
-According to the [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/) article, it's important to develop and deploy cultural brokers:
+Ways to support team cohesion:
 
-* "Cultural brokers promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive."
-* “The value of horizontal collaboration is widely recognized."
-* "Employees who can reach outside their silos to find colleagues with complementary expertise learn more, sell more, and gain skills faster.”
-
-### Best practices
-
-* Use [MyAnalytics network features](../myanalytics/use/network.md) to add people to your "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
+* Ask employees to use [MyAnalytics network features](../myanalytics/use/network.md) to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
-* Encourage and train workers to ask the right questions. Minimize preconceptions by asking open-ended questions.
-* Get people to see things through others’ eyes by organizing carefully structured, face-to-face, cross-silo dialogues.
-* Urge employees to explore distant networks. Employees need to be pushed to tap into expertise outside the company and even outside the industry.
-* Identify employees with strong interpersonal skills and a growth mindset to build relationships and collaborate across different functions and geographies.
 
-### Change catalyst: Open your network to your teams
-
-If you have a large network, you can help broaden your team's networks as well. Start by reviewing your key contacts and identifying connections that match the interests and skills of your team members. The following can help you get started:
-
-* Use [MyAnalytics](../MyAnalytics/Use/network.md), [LinkedIn](https://www.linkedin.com/), and your contacts list to review your network.
-* Categorize topics of expertise for those in your network.
-* Review the career goals and skills of those on your team.
-* Create a contact list and store it in a central location to access when onboarding new team members.
-* Make introductions between relevant contacts and your team members.
+For more best practices and how to open your network to your teams, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
 
 ## Drive employee empowerment
 
 Cultivating autonomy and development are essential for employee engagement. Managers who empower employees to make decisions and tackle new challenges are more effective and reclaim time.
 
-### Why it matters
+The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) article explains what 182 senior managers in a range of industries said about meetings when surveyed, including "65 percent said meetings keep them from completing their own work" and "71 percent said meetings are unproductive and inefficient."
 
-The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) article explains what 182 senior managers in a range of industries said about meetings when surveyed:
+Ways to empower employees:
 
-* "65 percent said meetings keep them from completing their own work."
-* "71 percent said meetings are unproductive and inefficient."
-* "64 percent said meetings come at the expense of deep thinking."
-* "62 percent said meetings miss opportunities to bring the team closer together."
-
-### Best practices
-
-* Say no to meetings. See the next section for a guide on how to create and share a set of team meeting rules and policy.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
-* Enable [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
-* Regularly and openly check in with employees. Frustration, resentment, and even hopelessness are signals that people are falling back into less productive patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
-* Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction.
-* [Share 6 tips for handling scheduling conflicts](https://www.microsoft.com/microsoft-365/business-insights-ideas/resources/6-tips-handling-scheduling-conflicts).
+* Enable [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help managers identify ways to support team behavior.
 
-### Change catalyst: Set team meeting rules and policy
-
-* Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.
-* Come together as a team to share everyone's feedback. It's important to process all contributions and analysis from all team members to begin the process of change.
-* Agree on a collective, personal goal based on the survey feedback. For example, declare "meeting free" periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spillover into personal time.
-* Set standards for when an employee can decline a meeting. Provide a meeting decline template with policy explanations that employees can use to decline meetings based on your team’s meeting rules. For example, "the meeting has no agenda" or "someone from my team is already attending the meeting."
-* Create and share your team’s list of meeting rules along with an empowering message that allows employees to say yes or no to meeting invitations they deem valuable or not to attend.
+For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 ## Related topics
 
