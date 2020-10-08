@@ -23,7 +23,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ## About the insights
 
-The following are used to calculate the metrics used for the organizational data shown in the behavioral insights.
+The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
 ![Accelerate change percentage insight](../images/wpa/use/accelerate-change-percent.png)
 
@@ -51,7 +51,9 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Engage influencers
 
-Leveraging the right teams and people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently and are not always easy to identify. The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article says to "move faster and further, you need to pull more people than ever before into the strategic change game, but in a way that is economically realistic."
+Leveraging the right teams and people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify. 
+
+The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article says to "move faster and further, you need to pull more people than ever before into the strategic change game, but in a way that is economically realistic."
 
 A few ways to leverage influencers:
 
