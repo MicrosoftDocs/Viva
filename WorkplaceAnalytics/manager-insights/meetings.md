@@ -1,7 +1,7 @@
 ---
 
-title: Best practices for meetings
-description: Workplace Analytics shares best practices with managers about planning and running meetings
+title: Best practices for great meetings
+description: Workplace Analytics shares best practices with people managers about planning and running meetings
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for meetings
+# Best practices for great meetings
 
 To solve a problem or make a decision, it helps to keep the meeting audience small and the duration short. Research shows that smaller and shorter meetings enable attendees to communicate faster, come to decisions more quickly, and focus on getting the work done.
 

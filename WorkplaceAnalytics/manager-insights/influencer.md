@@ -1,7 +1,7 @@
 ---
 
-title: Best practices for influencers
-description: Workplace Analytics shares best practices with managers about influencers
+title: Best practices for leveraging influencers
+description: Workplace Analytics shares best practices with people managers about leveraging influencers
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for influencers
+# Best practices for leveraging influencers
 
 Influencers are remarkably successful at driving cross-organizational initiatives and transformations. Ensuring influencer representation across the company can help navigate across hierarchical boundaries and accelerate the execution of growth-focused projects.
 

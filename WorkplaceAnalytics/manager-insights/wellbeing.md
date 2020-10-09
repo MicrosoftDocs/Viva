@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for wellbeing
+# Best practices for team wellbeing
 
  More than 40 percent of creative ideas occur during breaks or when allowing your mind to wander. Employee burnout accounts for 20 to 50 percent of a company's annual employee turnover costs.
 

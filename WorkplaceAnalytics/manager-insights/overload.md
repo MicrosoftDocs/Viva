@@ -1,7 +1,7 @@
 ---
 
-title: Best practices for avoiding email overload
-description: Workplace Analytics shares best practices with managers about how to avoid email overload
+title: Best practices for preventing email overload
+description: Workplace Analytics shares best practices with people managers about how to avoid email overload
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for avoiding email overload
+# Best practices for preventing email overload
 
 Employees need time to disconnect from work. Studies show that we all need mental recovery time to reduce stress, increase creativity, and avoid burnout.
 

@@ -1,7 +1,7 @@
 ---
 
-title: Best practices for supporting your team's wellbeing
-description: Best practices for work-life balance that people managers can share with their teams
+title: Best practices for wellbeing
+description: Best practices for work-life balance that managers can share with their teams
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
