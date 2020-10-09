@@ -15,7 +15,7 @@ Teams provides a shared work environment that strengthens connectivity and boost
 
 ## Why it matters
 
-The [Rebuilding companies as communities](https://insights.office.com/culture/rebuilding-companies-as-communities/) and [How managers can make casual networking events more inclusive](https://insights.office.com/management-strategy/how-managers-can-make-casual-networking-events-more-inclusive/) explain how important a community is for an organization, such as: "Communityship requires a more modest form of leadership that might be called engaged and distributed management. A community leader is personally engaged in order to engage others, so that anyone and everyone can exercise initiative."
+The [Rebuilding companies as communities](https://insights.office.com/culture/rebuilding-companies-as-communities/) and [How managers can make casual networking events more inclusive](https://insights.office.com/management-strategy/how-managers-can-make-casual-networking-events-more-inclusive/) explain how important a community is for an organization, such as:
 
 * "Communityship requires a more modest form of leadership that might be called engaged and distributed management. A community leader is personally engaged in order to engage others, so that anyone and everyone can exercise initiative."
 * “Most sustainable improvements in community occur when citizens discover their own power to act...when citizens stop waiting for professionals or elected leadership to do something and decide they can reclaim what they have delegated to others."
