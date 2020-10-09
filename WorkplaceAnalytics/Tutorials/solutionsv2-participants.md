@@ -33,7 +33,7 @@ If user is part of a plan, there is no change to any of the existing tabs. A new
 ![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
 -->
 
-![Participant's dashboard](../images/wpa/tutorials/plans-dashboard.png)
+![Participant's dashboard](../images/wpa/tutorials/plans-dashboard2.png)
 
 ## Digest
 
