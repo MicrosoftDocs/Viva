@@ -24,7 +24,7 @@ These insights are based on your recent activity in Office 365. Select **View Su
 
 * **Collaboration** is based on time spent in meetings, emails, chats, and calls with Teams and Skype for Business. To learn more about how these metrics are calculated, see [Collaboration](collaboration.md).
 
-* **Available to focus** is equal to your working hours minus your collaboration hours; it shows the amount of time you have left over each week for individual work. Time that you block out on your calendar with no other attendees is counted toward the **Available to focus** metric, not toward the **Collaboration** metric.
+* **Available to focus** is equal to your working hours minus your collaboration hours; it shows the amount of time you have left over each week for individual work. Time that you block out on your calendar with no other attendees is counted toward the **Available to focus** metric, not toward the **Collaboration** metric. Additionally, any day that you mark as "Out of office" on your calendar is excluded from this calculation.
 
 These metrics are calculated only for your working hours, as determined by your Outlook calendar.
 
