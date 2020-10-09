@@ -31,7 +31,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 * Urge employees to explore distant networks. Employees need to be pushed to tap into expertise outside the company and even outside the industry.
 * Identify employees with strong interpersonal skills and a growth mindset to build relationships and collaborate across different functions and geographies.
 
-### Change catalyst: Open your network to your teams
+## Change catalyst: Open your network to your teams
 
 If you have a large network, you can help broaden your team's networks as well. Start by reviewing your key contacts and identifying connections that match the interests and skills of your team members. The following can help you get started:
 

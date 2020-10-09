@@ -19,9 +19,7 @@ The following is an example of an Employee empowerment network graph.
 
 ## Nodes
 
-In the network graphs, each dot or node represents an employee or a group. The edges are the lines between the nodes, which represent connections that are collaborative relationships between them.
-
-The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
+In the network graphs, each dot or node represents an employee or a group. The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
 
 ## Colors
 
@@ -31,20 +29,13 @@ The node colors represent the level of it in the graph as indicated by the legen
 
 The node clusters shown are formed naturally in an organizational network graph when it uses the force-directed graph drawing algorithm. A node with strong connections are very likely clustered together in a graph. For the majority, a cluster represents a division or department in an organization.
 
-## Connection measures
-
-Each of the measures are based on the connections between the nodes. To ensure the calculations accurately represent the interactions between people or groups within the organization, the measures account for connection weight and direction:
-
-* **Weight** - Connections are weighted based on the amount of collaboration time in instant messages, meetings, and email between two nodes (connection strength).
-* **Direction** - They are also directed because they specifically account for who sent and who received instant messages or email. For these calculations, meetings do not have direction.
-
 ## Available network graphs
 
 For calculation information about a specific network graph, select the following applicable visual insight.
 
 * [Employee empowerment](improve-agility.md#about-the-insights) - Shows the number of empowered employees and disempowered employees in your organization.
-* [Cohesion within teams](boost-engagement.md#about-the-insights) - Shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network.
-* [Collaboration across groups](foster-innovation.md#about-the-insights) - Shows the number of teams with high cross-group collaboration and those with low cross-group collaboration.
+* [Cohesion within teams](boost-engagement.md#about-the-insights) - Shows the teams who are the most cohesive and those who are less cohesive based on the average monthly collaboration activity within the team’s network.
+* [Collaboration across teams](foster-innovation.md#about-the-insights) - Shows the number of teams with high cross-group collaboration and those with low cross-group collaboration.
 * [Distribution of potential manager candidates](accelerate-change.md#about-the-insights) - Represents the current managers, potential managers, and other employees based on their network connections within your organization.
 * [Internal network connections by employee network strength](customer-focus.md#about-the-insights) - Shows the number of employees with strong internal networks as compared to other employees in your organization.
 * [Reach of influencers](accelerate-change.md#about-the-insights) - Shows the reach of influencers, their connections, and how they compare to other employees in your organization.

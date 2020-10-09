@@ -44,7 +44,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Encourage participation in meetings. It's beneficial for creating more effective meetings and giving participants a way to be heard and considered.
 * Avoid holding a meeting just to update people. Decide if an email announcement is enough.
 
-### Change catalyst: Set team meeting rules and policy
+## Change catalyst: Set team meeting rules and policy
 
 * Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.
 * Come together as a team to share everyone's feedback. It's important to process all contributions and analysis from all team members to begin the process of change.

@@ -32,13 +32,24 @@ Connecting employees across units creates agile innovation by helping the compan
 * Set up “communities of practice” or business development initiatives to help share expertise or resources.  
 * Set speciﬁc goals and reward agile collaboration. Peer feedback helps to identify people whom the formal performance reviews might otherwise overlook.
 
-### Change catalyst: Provide managers with go-to contacts list
+## Change catalysts
+
+#### Provide managers with go-to contacts list
 
 Survey the group to collect and create a list of contacts that would be a good starting place for employees to contact when trying to establish a new connection. This can empower managers with the right contacts in order to solve their employees' problems. Ways to do this:
 
 * Send out a company wide email where people can volunteer to be a connector within their team.
 * Combine all of these connectors into a list and share that list with managers.
 * Explain to all employees that managers now have a list of go-to contacts.
+
+#### Create goals across teams or departments
+
+Managers can coordinate and assign liaison roles to communicate across teams and with other departments and avoid isolation and ensure information flow. Ways to do this:
+
+* Identify a cross-team goal, such as improving customer satisfaction.
+* Identify the groups that should be involved, such as Support, Services, and Engineering.
+* Align on an initial project, such as a platform to quickly find and respond to customer incidents.
+* Create a platform to share ideas, such as a Teams channel and a monthly check-in meeting.
 
 ## Related topics
 

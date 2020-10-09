@@ -32,10 +32,10 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Redundant meeting hours](metric-definitions.md#person-metrics) and [long meetings and large meetings](glossary.md)|Calculation info |
-|Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration, influencers, and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |
+|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Meeting hours with manager](metric-definitions.md#person-metrics) and [long meetings and large meetings](glossary.md)|Calculation info |
+|Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |
 |Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |[After-hours and workweek span](metric-definitions.md#person-metrics) |Calculation info |
-|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[1:1 meeting hours](metric-definitions.md#person-metrics) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
+|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#person-metrics) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -43,10 +43,10 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Promote coaching and development |Distribution 1:1 time with managers each month |Based on the average number of 1:1 hours that managers spend with employees grouped by the average monthly totals.|
-|Prevent employee burnout |Distribution of weekly after-hours collaboration |Based on the average number of hours that employees spent collaborating after hours grouped by the average weekly totals.|
-|Encourage team cohesion |Cohesion within teams |The organizational network chart that shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. |
-|Drive employee empowerment |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for co-attended meeting hours and 1:1 meeting hours for managers and their employees. |
+|Promote coaching and development |Distribution 1:1 time with managers each month |Based on the average number of [meeting hours with managers 1:1](metric-definitions.md#person-metrics) that managers spend with employees grouped by the average monthly totals.|
+|Prevent employee burnout |Distribution of weekly after-hours collaboration |Based on the average number of hours that employees spent collaborating after hours grouped by the average weekly totals. This uses [after hours collaboration and other related metrics](metric-definitions.md#person-metrics).|
+|Encourage team cohesion |Cohesion within teams |The organizational network chart that shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |
+|Drive employee empowerment |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for [meeting hours with manager and meeting hours with manager 1:1](metric-definitions.md#person-metrics) for managers and their employees. |
 
 ## Advanced analysis
 

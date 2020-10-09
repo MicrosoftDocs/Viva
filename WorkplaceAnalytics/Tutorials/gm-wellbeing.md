@@ -30,8 +30,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 * Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
 * Practice setting and keeping boundaries. Boundaries can result in better overall team outcomes.
 
-
-### Change catalyst: Define and share working hours
+## Change catalyst: Define and share working hours
 
 Add your working hours to your [Outlook email signature](https://support.microsoft.com/office/create-an-email-signature-from-a-template-5b02c5ed-1e85-4d2a-a098-9628fe3231d8) and encourage your team to do the same to help manage the expectations of others. The following is an email signature example:
 

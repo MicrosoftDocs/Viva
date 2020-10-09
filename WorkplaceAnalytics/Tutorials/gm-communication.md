@@ -32,7 +32,7 @@ Based on the information presented in the article about [What email, IM, and the
 * Schedule a more structured meeting or conference call when dealing with multiple people.
 * Keep emails short and be sure the subject line is searchable.
 
-### Change catalyst: Be a role model for Teams use
+## Change catalyst: Be a role model for Teams use
 
 Your team is more likely to use Microsoft Teams if they are familiar with it and if they have coworkers that are already using it. Model the following behaviors with your team and encourage others to join you:
 

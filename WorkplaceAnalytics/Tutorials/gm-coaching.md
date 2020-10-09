@@ -29,7 +29,7 @@ According to the research referenced in [What great managers do daily](https://i
 * Evenly distribute work. Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
 * Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection, an employee must interact with another person at least two times per month in an email or meeting with five or fewer participants.)
 
-### Change catalyst: Develop a 1:1 conversation series
+## Change catalyst: Develop a 1:1 conversation series
 
 Managers can use the following meeting agenda outline a guide for creating a series of 1:1 meetings with their employees, remembering to keep questions open-ended to spark discussions.
 

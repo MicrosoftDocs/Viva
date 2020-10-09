@@ -31,7 +31,7 @@ The [Accelerate! How innovative companies can use a strategy network to capitali
 * A strategy network needs leadership, which focuses on vision, opportunity, agility, inspired action and celebration.
 * The strategy network and the hierarchy must be inseparable, with a constant flow of information and activity between them—an approach that works in part because the volunteers in the network all work within the hierarchy.
 
-### Change catalyst: Identify and utilize team influencers
+## Change catalyst: Identify and utilize team influencers
 
 Seek out influencers on your team and leverage their network and ability to share ideas, knowledge, and habits. The following are some ways to do so:
 
