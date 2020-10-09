@@ -41,7 +41,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |---------|--------|----------------------|
 |Engage influencers |Reach of influencers |An organizational network graph that shows the reach of influencers, their connections, and other employees in your organization. This data uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics)|
 |Measure Microsoft Teams adoption |Distribution of Teams adoption |A chart that shows the average number of [collaboration hours](metric-definitions.md#person-metrics) that employees spent in Teams over the past year by quarter and the average used by [influencers](metric-definitions.md#organizational-network-analysis-ona-metrics). |
-|Support connectivity |Impact of Teams adoption |Shows how Teams adoption is impacting employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. |
+|Support connectivity |Impact of Teams adoption |Shows how Teams adoption is impacting employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. This uses [collaboration hours](metric-definitions.md#person-metrics) |
 
 ## Advanced analysis
 
@@ -64,7 +64,9 @@ For more best practices and how to identify and utilize team influencers, see [B
 
 ## Measure Teams adoption
 
-Successful digital transformations require a real-time understanding of technology adoption rates and usage trends within the organization. Based on the information presented in the article about [What email, IM, and the phone are each good for](https://insights.office.com/collaboration/what-email-im-and-the-phone-are-each-good-for/), you might be hampering productivity with too many emails: "We default to email to connect with people — to the tune of 122 business emails, on average, per person per day."
+Successful digital transformations require a real-time understanding of technology adoption rates and usage trends within the organization.
+
+Based on [What email, IM, and the phone are each good for](https://insights.office.com/collaboration/what-email-im-and-the-phone-are-each-good-for/), you might be hampering productivity with too many emails: "We default to email to connect with people — to the tune of 122 business emails, on average, per person per day."
 
 Some key ways to support Teams adoption:
 
@@ -76,7 +78,9 @@ For best practices and how to be a role model for Teams use, see [Best practices
 
 ## Support connectivity
 
-Teams provides a shared work environment that strengthens connectivity and boosts productivity. Monitoring team cohesion post technology adoption is an indication of tool effectiveness. The [Rebuilding companies as communities](https://insights.office.com/culture/rebuilding-companies-as-communities/) and [How managers can make casual networking events more inclusive](https://insights.office.com/management-strategy/how-managers-can-make-casual-networking-events-more-inclusive/) explain how important a community is for an organization, such as: "Communityship requires a more modest form of leadership that might be called engaged and distributed management. A community leader is personally engaged in order to engage others, so that anyone and everyone can exercise initiative."
+Teams provides a shared work environment that strengthens connectivity and boosts productivity. Monitoring team cohesion post technology adoption is an indication of tool effectiveness. 
+
+[Rebuilding companies as communities](https://insights.office.com/culture/rebuilding-companies-as-communities/) explains how "Communityship requires a more modest form of leadership that might be called engaged and distributed management. A community leader is personally engaged in order to engage others, so that anyone and everyone can exercise initiative."
 
 Ways to support connectivity with Teams:
 
