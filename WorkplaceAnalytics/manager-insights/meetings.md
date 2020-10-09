@@ -33,4 +33,4 @@ To solve a problem or make a decision, it helps to keep the meeting audience sma
 
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)

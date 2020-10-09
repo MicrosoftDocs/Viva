@@ -31,4 +31,4 @@ Connecting employees across units creates agile innovation by helping the compan
 
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)

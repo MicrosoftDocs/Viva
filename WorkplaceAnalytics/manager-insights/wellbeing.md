@@ -29,4 +29,4 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)

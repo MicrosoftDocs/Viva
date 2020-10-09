@@ -31,4 +31,4 @@ Based on the information presented in the article about [What email, IM, and the
 
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)
