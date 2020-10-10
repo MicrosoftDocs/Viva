@@ -27,6 +27,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides i
 Before you can use the Insights add-in, be sure that the following prerequisites are in place:
 
 * Have a MyAnalytics user license and let at least 24 hours elapse since you were granted that license.
+* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](https://docs.microsoft.com/exchange/recipients/create-user-mailboxes?view=exchserver-2019&preserve-view=true#create-user-mailboxes), if necessary.
 * Have the following software: 
 
   * Your computer has Outlook desktop 2016 version 16.0.7924.1 or later for Windows, or version 15.39.1010 or later for Mac.

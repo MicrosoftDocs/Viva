@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Collaboration assessment
 
-The Collaboration assessment dashboard uses a Power BI template that’s populated by Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. The report is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
+The Collaboration assessment dashboard uses a Power BI template that’s populated by Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
 
 The different pages in the report help you answer the following related questions:
 
@@ -40,7 +40,13 @@ Each report includes a **What to examine** and **Why it matters** interpretation
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration assessment** and **Standard meeting query** in Workplace Analytics.
 
-After you successfully run these queries, you can download the Power BI template from the Collaboration assessment query on the Results page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you can download the Power BI template from the **Collaboration assessment** query on the **Results** page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+
+## Demonstration
+
+The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiYzNmZjNjNmUtNDY1Yi00NmZlLThiOWItZGQ0MjdkMWJjMDQ0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Prerequisites
 
@@ -175,7 +181,7 @@ The Collaboration assessment dashboard includes the following report pages that 
 
 The dashboard also includes a **Glossary** page that describes all the report metrics.
 
-## Power BI tips, troubleshooting, and FAQs
+## Power BI tips, FAQs, and troubleshooting
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
