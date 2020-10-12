@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
-title: MyAnalytics Team Adoption --Introduction
-description: MyAnalytics Team Adoption by Kate Nowak --Introduction section
+title: MyAnalytics team adoption introduction
+description: MyAnalytics team adoption introduction
 author: paul9955
 ms.author: v-pausch
-ms.date: 02/21/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: Mya
@@ -29,10 +26,10 @@ The biggest time investment is made upfront by the program manager who is respon
 
 ### Benefits of a team-based approach to change
 
-We all know that change can be hard. People are hard-wired to stick to the status quo even when it hurts. However, behavior change doesn’t have to be overwhelming. Research led by Rob Cross, Professor of Global Business at Babson College, indicates that doing just four or five things differently can enable people to reclaim 18 to 24% of their collaborative time ([Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf)).
+We all know that change can be hard. People are hard-wired to stick to the status quo even when it hurts. However, behavior change doesn’t have to be overwhelming. [Collaboration without burnout](https://insights.office.com/collaboration/collaboration-without-burning-out/) says research indicates that doing just four or five things differently can enable people to reclaim 18 to 24 percent of their collaborative time.
 
 Team commitment can be a powerful lever for individual behavior change. 
-In _The Power of Habit_, Charles Duhigg writes, “The evidence is clear: if you want to change a habit, you must find an alternative routine, and your odds of success go up dramatically when you commit to changing as part of a group.” 
+In _The Power of Habit_, Charles Duhigg writes, “The evidence is clear: if you want to change a habit, you must find an alternative routine, and your odds of success go up dramatically when you commit to changing as part of a group.”
 
 Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, has said that collective intelligence builds when one person shows enthusiasm, recruits others, and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (_The Culture Code_, by Daniel Coyle<!-- Pg __-->)
 
@@ -70,7 +67,7 @@ A dedicated program manager is the heart of a change program. This person has a 
 
 ### A well-defined and empowered team
 
-Programs are most effective when the participating team is deliberately defined as people working under the same conditions and toward the same business objectives. This shared purpose and environment enables effective goal setting and accountability. Collaboration problems and their root causes can vary significantly across teams even within the same department. While there is no “one-size fits all” solution to collaboration problems, a cohesive team has better odds of defining a shared goal and identifying new team norms to meet that goal. An example of a cohesive team is a marketing team reporting to a single manager all focused on marketing the same product. 
+Programs are most effective when the participating team is deliberately defined as people working under the same conditions and toward the same business objectives. This shared purpose and environment enables effective goal setting and accountability. Collaboration problems and their root causes can vary significantly across teams even within the same department. While there is no “one-size fits all” solution to collaboration problems, a cohesive team has better odds of defining a shared goal and identifying new team norms to meet that goal. An example of a cohesive team is a marketing team reporting to a single manager all focused on marketing the same product.
 
 Just as important as defining a cohesive team is to ensure that the people on that team are empowered to change. They need to feel confident that they can safely experiment with new behaviors. For example, if the team goal is to reduce meeting hours, but team members are afraid to decline a meeting invite, the program will fail. It is the job of both the executive sponsor and program manager to empower program participants through clear communications, behavior role-modeling, and providing rewards and recognition (for more information on rewards and recognition, see [Reinforce](Team-adopt-reinforce.md)).
 
