@@ -27,7 +27,7 @@ Before you use the Executive dashboard, you or an assistant should categorize yo
 
 Access to the dashboad is based on either of two things: executive status as determined by the organizational hierarchy, or possession of delegate access to an executive's mailbox. 
 
-* **Executives and senior leadership** &ndash; Who is considered an "executive"? Based on analysis of Azure Active Directory records, an executive is someone who has a reporting structure of least 200 employees and is above at least two levels of managers.
+* **Executives and senior leadership** &ndash; Who is considered an executive and therefore has access to this dashboard? Based on analysis of Azure Active Directory records, an executive is someone who has a reporting structure of least 200 employees and is above at least two levels of managers.
 
 * **Delegate access** &ndash; Delegate access is typically granted to an executive admin or chief of staff (CoS), but for the purposes of this dashboard, it can be any person who has been granted [delegate access](https://support.microsoft.com/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926) to the executive's Outlook calendar.
 
