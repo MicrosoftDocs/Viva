@@ -33,12 +33,14 @@ The node clusters shown are formed naturally in an organizational network graph 
 
 For calculation information about a specific network graph, select the following applicable visual insight.
 
-* [Employee empowerment](improve-agility.md#about-the-insights) - Shows the number of empowered employees and disempowered employees in your organization.
-* [Cohesion within teams](boost-engagement.md#about-the-insights) - Shows the teams who are the most cohesive and those who are less cohesive based on the average monthly collaboration activity within the team’s network.
-* [Collaboration across teams](foster-innovation.md#about-the-insights) - Shows the number of teams with high cross-group collaboration and those with low cross-group collaboration.
-* [Distribution of potential manager candidates](accelerate-change.md#about-the-insights) - Represents the current managers, potential managers, and other employees based on their network connections within your organization.
-* [Internal network connections by employee network strength](customer-focus.md#about-the-insights) - Shows the number of employees with strong internal networks as compared to other employees in your organization.
-* [Reach of influencers](accelerate-change.md#about-the-insights) - Shows the reach of influencers, their connections, and how they compare to other employees in your organization.
+* [Employee empowerment](improve-agility.md#about-the-insights) - Shows the number of empowered employees and disempowered employees in your organization. This helps identify who controls information and where it is concentrated in your organization. You can use these insights to democratize information to improve transparency and decision-making throughout.
+* [Cohesion within teams](boost-engagement.md#about-the-insights) - Shows the teams with strong cohesion and those without strong cohesion based on average monthly collaboration activity within the team’s network.
+* [Collaboration across groups](improve-agility.md#about-the-insights) - Shows the number of groups with high cross-group collaboration and the groups for low cross-group collaboration within your organization. This can help identify organizational silos and agile teams currently working within the network.
+* [Collaboration across teams](foster-innovation.md#about-the-insights) - Shows the number of teams with high cross-group collaboration as compared to other teams in your organization.
+* [Distribution of potential manager candidates](accelerate-change.md#about-the-insights) - Represents the current managers and potential managers as compared with the other employees within your organization, based on their network connections.
+* [Internal network connections by employee network strength](customer-focus.md#about-the-insights) - Shows the number of employees with strong internal networks as compared to all other employees in your organization.
+* Managers and cross-group connectivity - Shows the number of well-connected managers and less-connected managers as compared to all other employees within your organization, based on their network connections.
+* [Reach of influencers](accelerate-change.md#about-the-insights) - Shows the reach of influencers, their connections, and how they compare to other employees within your organization. This identifies groups who power the unobservable communication networks that shape culture and drive change. You can then target these influencers to accelerate the adoption of new technology.
 
 ## Are the measures for employees and groups different?
 
