@@ -53,16 +53,18 @@
       - name: Work patterns    
         items:
         - name: Focus
-          href: ./Use/focus.md
+          href: ./use/focus.md
  #         items: 
  #           - name: Focus plan
  #             href: ./use/focus-plan.md
         - name: Wellbeing
-          href: ./Use/wellbeing.md
+          href: ./use/wellbeing.md
         - name: Network
-          href: ./Use/network.md        
+          href: ./use/network.md        
         - name: Collaboration
-          href: ./Use/collaboration.md 
+          href: ./use/collaboration.md 
+#        - name: Executive
+#          href: ./use/executive.md           
         - name: Leadership
           href: ./use/leadership.md 
       - name: Adopt MyAnalytics
