@@ -171,3 +171,26 @@
 | 10/1/2020 | [Workplace Analytics playbooks](/Workplace-Analytics/use/playbooks) | modified |
 | 10/1/2020 | [Workplace Analytics introduction](/Workplace-Analytics/index-orig) | modified |
 | 10/2/2020 | [Opt out of MyAnalytics](/Workplace-Analytics/myanalytics/use/opt-out-of-mya) | modified |
+
+
+## Week of October 05, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/5/2020 | [Behavior patterns dashboard](/Workplace-Analytics/tutorials/power-bi-glint) | modified |
+| 10/5/2020 | [Influence insights dashboard](/Workplace-Analytics/tutorials/pbi-influence-db) | modified |
+| 10/6/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
+| 10/6/2020 | [MyAnalytics FAQ](/Workplace-Analytics/myanalytics/overview/mya-faq) | modified |
+| 10/6/2020 | [Business continuity dashboard](/Workplace-Analytics/tutorials/power-bi-bc) | modified |
+| 10/6/2020 | [Insights Outlook add-in](/Workplace-Analytics/myanalytics/use/add-in) | modified |
+| 10/8/2020 | [MyAnalytics Team Adoption --Implement](/Workplace-Analytics/myanalytics/use/mya-adoption/team-adopt-implement) | modified |
+| 10/8/2020 | [MyAnalytics team adoption introduction](/Workplace-Analytics/myanalytics/use/mya-adoption/team-adopt-intro) | modified |
+| 10/8/2020 | [Use MyAnalytics to build good work habits](/Workplace-Analytics/myanalytics/use/mya-adoption/adopt-habit-building) | modified |
+| 10/8/2020 | [MyAnalytics Focus page](/Workplace-Analytics/myanalytics/use/focus) | modified |
+| 10/9/2020 | [Workplace Analytics Power BI template demos](/Workplace-Analytics/tutorials/pbi-demos) | modified |
+| 10/9/2020 | [Influence insights dashboard](/Workplace-Analytics/tutorials/pbi-influence-db) | modified |
+| 10/9/2020 | [Collaboration assessment dashboard](/Workplace-Analytics/tutorials/power-bi-collab-assess) | modified |
+| 10/9/2020 | [Workplace Analytics Power BI templates introduction](/Workplace-Analytics/tutorials/power-bi-intro) | modified |
+| 10/9/2020 | [Power BI Microsoft Teams dashboard](/Workplace-Analytics/tutorials/power-bi-teams) | modified |
+| 10/9/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
