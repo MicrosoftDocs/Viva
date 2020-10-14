@@ -107,7 +107,7 @@ Teams apps that have been pinned appear on the Teams app bar (the left navigatio
 
 ## Use the Insights app 
 
-The Teams insights app comes with a range of features that you can find by selecting one of the following tabs:e 
+The Teams insights app comes with a range of features that you can find by selecting one of the following tabs:
 
 * [Stay connected](#stay-connected) 
 * [Protect time](#protect-time) 
@@ -151,7 +151,7 @@ In the following example, if Lynne was an important colleague, you could set up 
 
 If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
    
-   ![MyAnalytics settings](../../Images/mya/use/1-1-meeting-target-75.png)
+   ![MyAnalytics settings](../../Images/mya/use/1-1-meeting-target-75-80.png)
 
 #### 1:1 meeting suggestions 
 
@@ -239,7 +239,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
    
    After you have selected Yes or No on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
-   ![Thanks for the feedback](../../Images/mya/use/thanks-for-feedback-70.png)
+   ![Thanks for the feedback](../../Images/mya/use/thanks-for-feedback-70-80.png)
    
 ##### Q5. What data does the Teams Insights app use? 
 
