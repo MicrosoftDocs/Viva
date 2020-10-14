@@ -1,6 +1,6 @@
 ---
 
-title: Best practices for manager coaching
+title: Best practices for coaching
 description: Workplace Analytics shares best practices with managers about coaching their teams
 author: madehmer
 ms.author: v-mideh
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for manager coaching
+# Best practices for coaching
 
 Employees who get one-on-one time with their managers are more likely to be engaged as compared to those who don't. When managers are needed in more meetings than they can attend, they become obstacles to team goal attainment and create bottlenecks in decision making.
 

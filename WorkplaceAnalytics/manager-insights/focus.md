@@ -1,7 +1,7 @@
 ---
 
-title: Best practices for focus time
-description: Workplace Analytics shares best practices with managers about the importance of scheduled focus time
+title: Best practices for focused work
+description: Workplace Analytics shares best practices with managers about the importance of scheduled time to focus
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for focus time
+# Best practices for focused work
 
 Having scheduled, uninterrupted time to focus on deep work provides employees an opportunity to master difficult tasks and produce results at an elite level, in terms of quality and speed.
 
@@ -55,5 +55,5 @@ Encourage employees to use [MyAnalytics Focus plan](../myanalytics/use/focus-pla
 
 ## Related topics
 
-* [Workplace Analytics best practices](gm-best-practices.md)
+* [Workplace Analytics best practices](best-practices.md)
 * [MyAnalytics focus](../myanalytics/use/focus.md)

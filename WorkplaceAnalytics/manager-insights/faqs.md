@@ -59,7 +59,7 @@ Yes, Teams like yours metrics use other teams who are in the same hierarchy that
 
 ##### Q11 Is it safe to share Insights with my team?
 
-Yes, you can share these insights with your team to generate a conversation and collectively decide what the norms are for your team. See [Best practices](./gm-best-practices.md) for ways to approach your team about these insights.
+Yes, you can share these insights with your team to generate a conversation and collectively decide what the norms are for your team. See [Best practices](./best-practices.md) for ways to approach your team about these insights.
 
 ##### Q12 What is a plan?
 

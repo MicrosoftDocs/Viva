@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for manager coaching
-description: Workplace Analytics shares best practices with managers about coaching their teams
+description: Workplace Analytics shares manager best practices for coaching employees
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
