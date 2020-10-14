@@ -110,7 +110,7 @@ You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/power
 
 1. [Install the ExchangeOnlineManagement module](#install-the-exchangeonlinemanagement-module).
 2. [Run the Connect-ExchangeOnline command](#run-connect-exchangeonline-and-sign-in) and, when prompted, sign in with your admin credentials. 
-3. Now, you are ready to work with user-configuration settings: 
+3. After you've signed in, you are ready to work with user-configuration settings: 
    * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)  
    * [Confirm MyAnalytics access for a user](#confirm-myanalytics-access-for-a-user)
    * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
@@ -121,7 +121,7 @@ You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/power
 In this procedure, you install the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps). 
 
 1. Open PowerShell.
-2. Run this command: 
+2. To install the module, run this command: 
 
 ```powershell
 Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4-Preview3 -AllowPrerelease
@@ -131,7 +131,7 @@ Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4-Preview3 -A
 
 #### Run Connect-ExchangeOnline and sign in
 
-* In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). After you do so, it will prompt you to authenticate with your admin credentials. Do so.
+* In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). After you do so, it will prompt you to authenticate. To do so, enter your admin credentials.
 
 #### Set MyAnalytics access for one user
 
