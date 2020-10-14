@@ -66,13 +66,18 @@ This section describes how to install the Insights Teams app for yourself. (If y
    
    ![Search for Insights](../../Images/mya/use/apps-search-insights.png)
  
-4. Select the **Insights** app<!-- [Add app download page image. (I didn’t get this far because the app wasn’t there for me to choose.) - Paul]-->: 
+<!-- SEPARATE THESE STEPS OUT AGAIN AFTER WE GET THE IMAGES:
+4. Select the **Insights** app
+ADD APP DOWNLOAD PAGE IMAGE HERE: 
    
    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
-5. Select **Add**. This adds the app for all of your Microsoft Teams clients, such as Teams, Teams on the web, and Teams on a mobile device. 
+5. Select **Add**. This adds the app to all the places where you might use Microsoft Teams, including standalone Teams, Teams on the web, and Teams on a mobile device. 
    
    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+-->
+
+4. Select the **Insights** app and then select **Add**. This adds the app to all the places where you might use Microsoft Teams, including standalone Teams, Teams on the web, and Teams on a mobile device. 
 
 > [!Note] 
 > You can also locate the Insights app through this link: https://aka.ms/InsightsInTeams. 
