@@ -24,21 +24,25 @@ Each of the following behaviors show how your organization compares with others 
 
 ## About the insights
 
-The following are used to calculate the metrics used for the organizational data shown in the behavioral insights and visual insights.
+The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Organize better meetings |Percentage of  |Metric info|Calculation info |
 |Accelerate decision-making |Percentage of  |Metric info |Calculation info |
 |Foster cross-group collaboration |Percentage of  |Metric info |Calculation info |
-|Improve management practices |Percentage of  |<ul><li>Metric 1</li><li>Metric 2 </li></ul> |Calculation info |
+|Improve management practices |Percentage of  |Metric info |Calculation info |
 
-|Behavior |Visual insight | Calculations |
+The following defines the organizational data shown in the visual behavioral insights.
+
+![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
+
+|Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Organize better meetings |Visual insight  |Calculation info |
-|Accelerate decision-making |Employee empowerment shows an organizational network graph of the number of empowered employees and disempowered employees in your organization. |Calculation info |
-|Foster cross-group collaboration |Visual insight  |Calculation info |
-|Improve management practices |Visual insight  |Calculation info |
+|Organize better meetings |Visual insight  |
+|Accelerate decision-making |Employee empowerment |Shows an organizational network graph of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
+|Foster cross-group collaboration |Visual insight  |
+|Improve management practices |Visual insight  |
 
 ## Advanced analysis
 
@@ -50,74 +54,31 @@ The following are used to calculate the metrics used for the organizational data
 
 Long and large meetings are costly and often considered a waste of time. Shorter and smaller meetings provide the conditions for effective decision-making.
 
-### Why it matters
 
-The
-
-### Best practices
-
-* First best practice
-
-### Change catalyst: <action>
-
-* Take
 
 ## Accelerate decision-making
 
 Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making.
 
-### Why it matters
 
-The
-
-### Best practices
-
-* First best practice
-
-### Change catalyst: <action>
-
-* Take
 
 ## Foster cross-group collaboration
 
 Agile organizations rely on a network of highly-connected teams that actively collaborate together with a shared understanding of the collective mission.
 
-### Why it matters
-
-The
-
-### Best practices
-
-* First best practice
-
-### Change catalyst: <action>
-
-* Take
 
 ## Improve management practices
 
 When managers are needed in more meetings than they can attend, they become obstacles to team goal attainment and create bottlenecks in decision making.
 
-### Why it matters
-
 The level of day-to-day collaboration between managers and their employees can indicate whether employees feel empowered to take initiative and work independently, or if they struggle to separate themselves from their manager.
 
-* A proportionately high number of hours spent in meetings with managers suggests micro-management.
-* Too little time spent with managers in meetings potentially suggests insufficient team guidance, particularly for new employees.
-
-### Best practices
+Ways to improve:
 
 * Push ownership down to the level of action.
 * Enable and use [Insights](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
-* Promptly decline meetings as soon as possible with a brief explanation of why to reinforce decision-making roles and to role model healthy habits.
 
-### Change catalyst: Reduce coattended meetings
-
-Meetings where an employee and their manager are both attending can signify  a lack of delegation. These meetings are a good starting point to deciding  what decisions can be delegated to reduce coattendance. Use the following as a reference to get started:
-
-* Identify meetings that are attended by a manager and an employee that reports directly to that manager.
-* Request that when possible the manager delegates the decision rights for that work stream to the employee who is also attending.
-* Recap these delegated decisions during recurring 1:1s where further coaching can be practiced.
+For more best practices and change catalysts, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
 ## Related topics
 

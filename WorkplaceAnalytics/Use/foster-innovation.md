@@ -39,7 +39,7 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Calculations|
 |---------|--------|----------|------------|
-|Foster cross-group collaboration |Collaboration across teams |Organizational network graph that shows the number of groups with high cross-group collaboration as compared to the other teams in your organization. Cross-group collaboration is based on the number of hours a group spent in meetings and on email with at least one person in another group. This metric uses time allocation logic. |
+|Foster cross-group collaboration |Collaboration across teams |An organizational network graph that shows the number of groups with high cross-group collaboration as compared to the other teams in your organization. Cross-group collaboration is based on the number of hours a group spent in meetings and on email with at least one person in another group. This uses time allocation logic. |
 |Enable deep work |Distribution of time for deep work |Shows the percentage of employees who had uninterrupted time for deep work grouped by the amount of focus hours they had for the week. It uses [collaboration and focus hours](metric-definitions.md#person-metrics) to calculate this data. |
 |Utilize influencers |Organizations with limited influencers |Shows the percentage of teams in your organization that are low on influencers. This graph uses the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. |
 

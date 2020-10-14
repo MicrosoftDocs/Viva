@@ -45,7 +45,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |---------|--------|----------------------|
 |Promote coaching and development |Distribution 1:1 time with managers each month |Based on the average number of [meeting hours with managers 1:1](metric-definitions.md#person-metrics) that managers spend with employees grouped by the average monthly totals.|
 |Prevent employee burnout |Distribution of weekly after-hours collaboration |Based on the average number of hours that employees spent collaborating after hours grouped by the average weekly totals. This uses [after hours collaboration and other related metrics](metric-definitions.md#person-metrics).|
-|Encourage team cohesion |Cohesion within teams |The organizational network chart that shows the teams who are the most cohesive and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |
+|Encourage team cohesion |Cohesion within teams |An organizational network graph that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |
 |Drive employee empowerment |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for [meeting hours with manager and meeting hours with manager 1:1](metric-definitions.md#person-metrics) for managers and their employees. |
 
 ## Advanced analysis
